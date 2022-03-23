@@ -1,579 +1,136 @@
 {
   "sources": [
     {
-      "title": "Release notes from osmosfeed",
-      "feedUrl": "https://github.com/osmoscraft/osmosfeed/releases.atom",
-      "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
-      "articles": []
-    },
-    {
-      "title": "CSS-Tricks",
-      "feedUrl": "https://css-tricks.com/feed/",
-      "siteUrl": "https://css-tricks.com",
+      "title": "TheBlockBeats - 快讯",
+      "feedUrl": "https://rsshub.app/blockbeats/flash",
+      "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
-          "id": "https://css-tricks.com/?p=363745",
-          "author": "Jens Oliver Meiert",
-          "description": "You may not use XHTML (anymore), but when you write HTML, you may be more influenced by XHTML than you think. You are very likely writing HTML, the XHTML way.\nWhat is the XHTML way of writing HTML, and what …\nWrite HTML, the HTML Way (Not the XHTML Way) originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/write-html-the-html-way-not-the-xhtml-way/",
-          "publishedOn": "2022-03-21T20:08:38.000Z",
-          "wordCount": 1490,
-          "title": "Write HTML, the HTML Way (Not the XHTML Way)",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363745"
+          "id": "https://www.theblockbeats.info/flash/72905",
+          "author": null,
+          "description": "律动 BlockBeats 消息，3 月 23 日，奢侈品牌宝格丽（Bulgari）在 Polygon 网络上推出 NFT 系列「Octo Finissimo Ultra」。Octo Finissimo Ultra NFT 的灵感来自于被称为世界上最薄的机械表的最新款 Octo Finissimo Ultra 手表，Octo Finissimo Ultra 仅生产 10 件。\n\n此外宝格丽称，这是 Octo Finissimo 世界纪录系列的最后一件。它也标志着机械世界与数字世界进入 NFT 领域的动态连接。",
+          "link": "https://www.theblockbeats.info/flash/72905",
+          "publishedOn": "2022-03-23T04:48:57.000Z",
+          "wordCount": null,
+          "title": "奢侈品牌宝格丽在Polygon网络上推出手表NFT系列「Octo Finissimo Ultra」",
+          "imageUrl": null
         },
         {
-          "id": "https://css-tricks.com/?p=364090",
-          "author": "Bence Szabó",
-          "description": "I recently created a brick wall pattern as part of my #PetitePatterns series, a challenge where I create organic-looking patterns or textures in SVG within 560 bytes (or approximately the size of two tweets). To fit this constraint, I have …\nOptimizing SVG Patterns to Their Smallest Size originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/optimizing-svg-patterns/",
-          "publishedOn": "2022-03-18T22:31:22.000Z",
-          "wordCount": 2621,
-          "title": "Optimizing SVG Patterns to Their Smallest Size",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364090"
+          "id": "https://www.theblockbeats.info/flash/72908",
+          "author": null,
+          "description": "律动 BlockBeats 消息，3 月 23 日，加密借贷平台 Nexo 宣布推出 1.5 亿美元内部 Web3 投资基金。该公司的风险投资部门 Nexo Ventures 计划将资金投入到区块链的游戏、DeFi 和 NFT 等领域。公司风险投资部门的企业财务和投资主管 Tatiana Metodieva 表示，该基金将「推动数字资产的用户推广和 Web3 生态系统的扩展」。",
+          "link": "https://www.theblockbeats.info/flash/72908",
+          "publishedOn": "2022-03-23T04:48:57.000Z",
+          "wordCount": null,
+          "title": "Nexo推出1.5亿美元Web3投资基金",
+          "imageUrl": null
         },
         {
-          "id": "https://css-tricks.com/?p=365042",
-          "author": "Chris Coyier",
-          "description": "Hey hey!\nI’ve got a big announcement to make here. (Where’s my gong? I feel like this really needs a good gong hit.)\nCSS-Tricks, this very website you’re looking at, has been acquired by DigitalOcean!\nYou can hear …\nCSS-Tricks is joining DigitalOcean! originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/css-tricks-is-joining-digitalocean/",
-          "publishedOn": "2022-03-15T12:18:44.000Z",
-          "wordCount": 5882,
-          "title": "CSS-Tricks is joining DigitalOcean!",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/365042"
+          "id": "https://www.theblockbeats.info/flash/72881",
+          "author": null,
+          "description": "律动 BlockBeats 消息，3 月 23 日，泰国证券交易委员会发布规则，限制将加密货币作为支付手段，要求数字资产运营商从 4 月 1 日起开始遵守该规则。（金十）",
+          "link": "https://www.theblockbeats.info/flash/72881",
+          "publishedOn": "2022-03-23T03:48:57.000Z",
+          "wordCount": null,
+          "title": "泰国证券交易委员会限制将加密货币作为支付手段",
+          "imageUrl": null
         },
         {
-          "id": "https://css-tricks.com/?p=363972",
-          "author": "Patrick Brosset",
-          "description": "I want to introduce you to a new, experimental form control called <selectmenu>. We’ll get deep into it, including how much easier it is to style than a traditional <select> element. But first, let’s fill in some context …\nSay Hello to selectmenu, a Fully Style-able select Element originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/the-selectmenu-element/",
-          "publishedOn": "2022-03-03T15:35:32.000Z",
-          "wordCount": 3600,
-          "title": "Say Hello to selectmenu, a Fully Style-able select Element",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363972"
+          "id": "https://www.theblockbeats.info/flash/72902",
+          "author": null,
+          "description": "律动 BlockBeats 消息，3 月 23 日，美国银行 (Bank of America) 市场部主管以 103.9ETH 买入 Bored Ape Yacht Club#4097，并称美国银行正在密切关注 NFT 领域。",
+          "link": "https://www.theblockbeats.info/flash/72902",
+          "publishedOn": "2022-03-23T03:48:57.000Z",
+          "wordCount": null,
+          "title": "美国银行市场部主管以103.9ETH买入BAYC#4097",
+          "imageUrl": null
         },
         {
-          "id": "https://css-tricks.com/?p=364001",
-          "author": "Chris Coyier",
-          "description": "(This is a sponsored post.)\nWhat would your business be like if you sold memberships? It might be more than fun to think about, in fact, it might just be transformative. With membership, would you include little add-ons or …\nBuild Membership Businesses with Memberful originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/build-membership-businesses-with-memberful/",
-          "publishedOn": "2022-03-03T15:33:57.000Z",
-          "wordCount": 938,
-          "title": "Build Membership Businesses with Memberful",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364001"
+          "id": "https://www.theblockbeats.info/flash/72896",
+          "author": null,
+          "description": "律动 BlockBeats 消息，3 月 23 日，Aave 社区提议与 Balancer 达成战略合作，将储备中的 14,666.67 枚 AAVE 兑换成 200,000 枚 BAL。并部署 Bonding Curve 在市场上购买 100,000 枚 BAL，成本为 1,105,500 美元。\n\n据悉，此前 Aave 团队的 BAL 储备为 1604 枚，此次购买让其 BAL 持仓进入前八。所有 300,000 枚 BAL 都将按 BAL:ETH (80:20) 存入 Balancer V2 池。当 3 月 28 日 Balancer 新 Token 经济学启动，BAL 将被部署以赚取收益并用于将激励引导到新的 aToken 提升池。",
+          "link": "https://www.theblockbeats.info/flash/72896",
+          "publishedOn": "2022-03-23T03:48:57.000Z",
+          "wordCount": null,
+          "title": "Aave社区提议与Balancer战略合作，并购入30万枚BAL",
+          "imageUrl": null
         },
         {
-          "id": "https://css-tricks.com/?p=364350",
-          "author": "Chris Coyier",
-          "description": "I have a handful of good links to articles about performance that are burning a hole in my bookmarks folder, and wanna drop them here to share.\nThe new WebPageTest website design\nFrom fonts to SVG: an icon migration strategy\n…\n7 Fresh Links on Performance For March 2022 originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/performance-links-february-2022/",
-          "publishedOn": "2022-03-02T21:26:50.000Z",
-          "wordCount": 767,
-          "title": "7 Fresh Links on Performance For March 2022",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364350"
+          "id": "https://www.theblockbeats.info/flash/72890",
+          "author": null,
+          "description": "律动 BlockBeats 消息，3 月 23 日，Avalanche 宣布 Avalanche Bridge 将支持 BTC 网络，从而将 BTC 资产桥接至 Avalanche DeFi 生态。\n\n同时 Avalanche 将发布针对 Web3 用户的钱包 Core。该钱包将内嵌 Avalanche Bridge，同时钱包用户能够直接与 Avalanche 网络上的 dApp 交互。Core 将分为两阶段发布：3 月下旬将推出 Core 浏览器插件版，第二季度初推出 Core 移动端应用程序。",
+          "link": "https://www.theblockbeats.info/flash/72890",
+          "publishedOn": "2022-03-23T03:48:57.000Z",
+          "wordCount": null,
+          "title": "Avalanche Bridge将支持BTC网络，并将推出钱包Core",
+          "imageUrl": null
         },
         {
-          "id": "https://css-tricks.com/?p=363882",
-          "author": "Silvestar Bistrović",
-          "description": "“Raise the curtains” is what I call an effect where the background goes from dark to light on scroll, and the content on top also goes from light to dark while in a sticky position.\nHere’s an example where I …\nHow to Make a “Raise the Curtains” Effect in CSS originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/css-raise-the-curtains-effect/",
-          "publishedOn": "2022-03-02T15:57:32.000Z",
-          "wordCount": 1248,
-          "title": "How to Make a “Raise the Curtains” Effect in CSS",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363882"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363724",
-          "author": "Patrick Brosset",
-          "description": "Styling ranges of text in software is a very useful thing to be able to do. Thankfully, we have the CSS Custom Highlight API to look forward to because it represents the future of styling text ranges on the web.…\nCSS Custom Highlight API: The Future of Highlighting Text Ranges on the Web originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/css-custom-highlight-api-early-loo/",
-          "publishedOn": "2022-03-01T17:41:13.000Z",
-          "wordCount": 2521,
-          "title": "CSS Custom Highlight API: The Future of Highlighting Text Ranges on the Web",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363724"
-        },
-        {
-          "id": "https://css-tricks.com/?p=364351",
-          "author": "Chris Coyier",
-          "description": "Ahmad Shadeed covers the CSS fit-content sizing keyword. It’s useful! It just doesn’t come up super often. I find myself using min-content a lot more, like when setting up the height of a grid-template-row.\nThe fit-content keyword is actually …\nAhmad Shadeed: Use Cases For CSS fit-content originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/ahmad-shadeed-use-cases-for-css-fit-content/",
-          "publishedOn": "2022-03-01T15:41:16.000Z",
-          "wordCount": 382,
-          "title": "Ahmad Shadeed: Use Cases For CSS fit-content",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364351"
-        },
-        {
-          "id": "https://css-tricks.com/?p=364346",
-          "author": "Chris Coyier",
-          "description": "I enjoy articles like Hartley Charlton’s “Microsoft Edge Looks Set to Overtake Safari as World’s Second Most Popular Desktop Browser.” It’s juicy! We know these massive players in the browser market care very much about their market share, so when …\nIE Down, Edge Up… Global Browser Usage Stats Are for Cocktail Parties and Conference Slides originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/ie-down-edge-up-global-browser-usage-stats-are-for-cocktail-parties-and-conference-slides/",
-          "publishedOn": "2022-02-28T23:14:29.000Z",
-          "wordCount": 901,
-          "title": "IE Down, Edge Up… Global Browser Usage Stats Are for Cocktail Parties and Conference Slides",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364346"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363929",
-          "author": "John Rhea",
-          "description": "We’ve discussed a lot about the internals of using CSS in this ongoing series on web components, but there are a few special pseudo-elements and pseudo-classes that, like good friends, willingly smell your possibly halitotic breath before you go …\nWeb Component Pseudo-Classes and Pseudo-Elements are Easier Than You Think originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/web-component-pseudo-classes-and-pseudo-elements/",
-          "publishedOn": "2022-02-28T15:37:23.000Z",
-          "wordCount": 2425,
-          "title": "Web Component Pseudo-Classes and Pseudo-Elements are Easier Than You Think",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363929"
-        },
-        {
-          "id": "https://css-tricks.com/?p=364070",
-          "author": "Chris Coyier",
-          "description": "A fun deep dive from Zach. Do you have an opinion on which you should use?\n1) https://website.com/foo/\n2) https://websites.com/foo\nThe first option has a “trailing slash.” The second does not.\nI’ve always preferred this thinking: you use a trailing …\nTrailing Slashes on URLs: Contentious or Settled? originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/trailing-slashes-on-urls-contentious-or-settled/",
-          "publishedOn": "2022-02-25T21:13:08.000Z",
-          "wordCount": 963,
-          "title": "Trailing Slashes on URLs: Contentious or Settled?",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364070"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363619",
-          "author": "Šime Vidas",
-          "description": "In my recent article about CSS underline bugs in Chrome, I discussed text-decoration-thickness and text-underline-offset, two relatively new and widely-supported CSS properties that give us more control over the styling of underlines.\nLet me demonstrate the usefulness of …\nWhen to Avoid the text-decoration Shorthand Property originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/when-to-avoid-css-text-decoration-shorthand/",
-          "publishedOn": "2022-02-25T15:28:33.000Z",
-          "wordCount": 1161,
-          "title": "When to Avoid the text-decoration Shorthand Property",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363619"
-        },
-        {
-          "id": "https://css-tricks.com/?p=364152",
-          "author": "Chris Coyier",
-          "description": "If you’re looking for a primer on CSS specificity, we’ve got that. And if you’re trying to get ahead of the game, you should be aware of CSS Cascade Layers as well.\nOne of the ways to help get …\nManuel Matuzovic’s CSS Specificity Demo originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/manuel-matuzovics-css-specificity-demo/",
-          "publishedOn": "2022-02-25T15:27:19.000Z",
-          "wordCount": 462,
-          "title": "Manuel Matuzovic’s CSS Specificity Demo",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364152"
-        },
-        {
-          "id": "https://css-tricks.com/?p=364138",
-          "author": "Chris Coyier",
-          "description": "Nic Chan:\n[…] the will-change property landed in major browsers in August 2015, and I’ve been on the lookout for when to use it ever since. It might seem self-evident to apply it to commonly animated properties such \n…\nMy white whale: A use case for will-change originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/my-white-whale-a-use-case-for-will-change/",
-          "publishedOn": "2022-02-24T20:59:29.000Z",
-          "wordCount": 551,
-          "title": "My white whale: A use case for will-change",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/364138"
+          "id": "https://www.theblockbeats.info/flash/72878",
+          "author": null,
+          "description": "律动 BlockBeats 消息，3 月 23 日，Terra 生态固定利率协议 Anchor Protocol 宣布添加支持 sAVAX 为抵押品。用户可通过 Avalanche 生态流动性市场协议 BENQI 将 AVAX 转换为 sAVAX，然后使用 Anchor 协议在 Avalanche 上的 xAnchor 版本，实现抵押 sAVAX，通过 Wormhole 协议借贷 UST。",
+          "link": "https://www.theblockbeats.info/flash/72878",
+          "publishedOn": "2022-03-23T02:48:57.000Z",
+          "wordCount": null,
+          "title": "固定利率协议Anchor Protocol添加支持sAVAX为抵押品",
+          "imageUrl": null
         }
       ]
     },
     {
-      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
-      "feedUrl": "https://www.smashingmagazine.com/feed/",
-      "siteUrl": "https://www.smashingmagazine.com/",
+      "title": "最新 - Odaily星球日报",
+      "feedUrl": "https://rsshub.app/odaily",
+      "siteUrl": "https://www.0daily.com",
       "articles": [
         {
-          "id": "https://smashingmagazine.com/2022/03/design-is-all-about-good-timing/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "In this shorter series of articles, we highlight design patterns, techniques, and strategies to design better digital interfaces. You can also learn much more in [“Smart Interface Design Patterns”](https://smart-interface-design-patterns.com/), a 6h-video course with 100s of hand-picked examples, curated by Vitaly.",
-          "link": "https://smashingmagazine.com/2022/03/design-is-all-about-good-timing/",
-          "publishedOn": "2022-03-22T12:45:00.000Z",
-          "wordCount": 1272,
-          "title": "Good Design Is All About Good Timing",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/60369f5b-1fb5-4426-805e-50a21628b7cd/design-good-timing.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/60369f5b-1fb5-4426-805e-50a21628b7cd/design-good-timing.jpg"
+          "id": "https://www.0daily.com/post/5177348",
+          "author": "星球君的朋友们",
+          "description": "原文来源：0xSorosSubstack\n\n0xSoros 三月投资组合 （非投资建议）\n关于DeFiKingdom、Subnet和跨链、Harmony、GameFi未来形态、AXS Killer\nDeFi Kingdom（下文统称DFK）是Avalanche第一批重点扶持的Subnet项目，DFK将以DFK Chain的形式在Avalanche上部署DeFi Kingdom Crystalvale版本（下文统称DFK水晶宫）。\nDFK水晶宫将拥有自己的代币CRYSTAL，发布后将开启流动性挖矿激励，以AVAX/JEWEL/CRYSTAL的单币/双币LP形式。Avalanche将拿出价值1500万美金的 AVAX 代币激励DFK水晶宫。JEWEL 将作为DeFi Kingdom多链生态通用的Gas费，并开启燃烧和通缩模式。\n三月底DFK水晶宫发布后，很快能看到CRYSTAL的推出将对JEWEL的价格影响。团队对LP池的激励设计将一定程度影响JEWEL的价格。团队确立了以JEWEL作为DFK生态宇宙母币的核心方向，因此在DFK水晶宫发布后，JEWEL价格很大概率会迎来一波涨幅。\nDFK团队是比较有良心的，原本有许多机会榨取用户，但是选择与社区共同成长：DFK项目方拒绝了数个交易所的上所邀请（在游戏未完全开发出来前上所是一种透支消耗的行为）\n介于目前团队还没有开发出PVP等游戏对战模式，不能否认目前DFK仍是一款披着GameFi外衣的DeFi。DFK早期没有机构进场，没有机构的低成本锁仓筹码，也就没有持续的卖压；重要的是在过去的三个月内，DFK团队力排众议，不管用户流失，没有开发游戏，坚持做自己的Subnet和跨链。这种战略取舍，需要勇气。\n目前大多数JEWEL的筹码仍然在锁仓中（提供LP的奖励筹码大部分是锁仓的），将在今年7月份陆续解锁，线性解锁两年时间。\n因为DFK的游戏尚…",
+          "link": "https://www.0daily.com/post/5177348",
+          "publishedOn": "2022-03-23T03:25:54.000Z",
+          "wordCount": 3,
+          "title": "0xSoros：2022年Q2行业展望及投资组合项目进展",
+          "imageUrl": null
         },
         {
-          "id": "https://smashingmagazine.com/2022/03/windows-high-contrast-colors-mode-css-custom-properties/",
-          "author": "hello@smashingmagazine.com (Eric Bailey)",
-          "description": "CSS Custom Properties can be used for far more than just color, and their values update in realtime, both via display mode updates and JavaScript logic. This is powerful stuff. Eric explains how modern CSS is a powerful piece of assistive technology that can thread into it to create flexible, maintainable and adaptive digital experiences.",
-          "link": "https://smashingmagazine.com/2022/03/windows-high-contrast-colors-mode-css-custom-properties/",
-          "publishedOn": "2022-03-21T12:30:00.000Z",
-          "wordCount": 2457,
-          "title": "Windows High Contrast Mode, Forced Colors Mode And CSS Custom Properties",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bbb1649b-2b93-4626-851d-5178033d0894/windows-high-contrast-colors-mode-css-custom-properties.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bbb1649b-2b93-4626-851d-5178033d0894/windows-high-contrast-colors-mode-css-custom-properties.jpg"
+          "id": "https://www.0daily.com/post/5177347",
+          "author": "链捕手",
+          "description": "原文作者：Katie Haun，Haun Ventures创始人\n原文标题：《Introducing Haun Ventures》\n原文编译：谷昱，链捕手\n相关阅读\n《a16z前合伙人单飞成立新基金，KRH会成为下一个Paradigm吗？》\n今天，我们将介绍Haun Ventures，这是一家从头开始设计的公司，旨在帮助创始人构建下一代互联网。我们已经筹集了 15 亿美元的资金来支持 web3 的发展。我们将通过两个平台进行投资：一个 5 亿美元的早期基金和一个 10 亿美元的加速基金。\n我的 web3 之路\n我的加密之路与冒险之路是非常规的。我在美国司法部工作了十多年，起诉有组织犯罪、谋杀、公共腐败、监狱团伙、白领犯罪和洗钱。2014 年，我创建了政府首批加密货币工作组之一。在这项工作的过程中，这些技术的巨大潜力很快变得清晰起来。像任何工具一样，它们可以用于好的或坏的，但我们才刚刚开始触及好处的表面。\n离开政府后，我与该领域的一些最了不起的建设者和投资者合作，其中包括 2017 年招募我加入 Coinbase 董事会的 Brian Armstrong。在那里，我遇到了我的朋友和前合伙人 Chris Dixon，我和他一起创办并扩展了世界上最早和最大的加密风投机构之一。多年来与创始人的合作激发了我自己的创业精神，我开始考虑根据我的经验建立一些新的东西。具体来说，我一直认为将加密货币世界与不同的受众联系起来——无论是政府、学术界、企业还是其他——以促进更好地了解这种新兴技术的好处的价值。所有这一切促成了 Haun Ventures 的成立。\nWeb3 已经超越了它的金融起源——它现在提供了技术构建模块，为数字世界的下一次迭代提供动力\n我们认为比特币是发起一千次实验的原始突破。数字化、去中心化共识的首次实施为网络激励对齐和非主权价值存储解锁了无数新方法。自其发明以来的十年中，w…",
+          "link": "https://www.0daily.com/post/5177347",
+          "publishedOn": "2022-03-23T02:34:13.000Z",
+          "wordCount": 3,
+          "title": "Haun Ventures：募资15亿美元后，将如何构建Web3生态系统？",
+          "imageUrl": null
         },
         {
-          "id": "https://smashingmagazine.com/2022/03/drag-drop-file-uploader-vuejs-3/",
-          "author": "hello@smashingmagazine.com (Joseph Zimmerman)",
-          "description": "Building on a previous article on How to Build a Drag-and-Drop File Uploader, we’ll be adding some new features, but more importantly (maybe), we’ll be learning how to build it in Vue 3 and learn some best practices for Vue along the way.",
-          "link": "https://smashingmagazine.com/2022/03/drag-drop-file-uploader-vuejs-3/",
-          "publishedOn": "2022-03-18T10:30:00.000Z",
-          "wordCount": 6396,
-          "title": "How To Make A Drag-and-Drop File Uploader With Vue.js 3",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5a9a0777-fd16-459e-b50d-20d5119f220d/drag-drop-file-uploader-vuejs-3.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5a9a0777-fd16-459e-b50d-20d5119f220d/drag-drop-file-uploader-vuejs-3.jpg"
+          "id": "https://www.0daily.com/post/5177345",
+          "author": "十文",
+          "description": "头条\n\n桥水基金计划首次投资加密基金\n两名知情人士表示，桥水基金计划支持一家外部加密投资工具，目前无意直接投资加密资产。与总资产管理规模相比，桥水的投资规模微不足道，其他著名的加密货币投资者正在就投资该基金进行谈判。（CoinDesk）\n美国SEC推迟决定是否批准WisdomTree和One River现货比特币ETF\n美国证券交易委员会SEC周一推迟了是否允许WisdomTree和One River的现货比特币ETF上市和交易的决定。SEC将是否批准上市和交易WisdomTree的比特币信托的决定推迟至5月15日，将是否批准上市和交易One River的碳中和比特币信托的决定推迟至6月2日。（Finance Magnates）\n三箭资本今日增持7501.83枚ETH，价值2243.7万美金\n星球日报讯 据KingData数据监控，被KingData大户地址追踪标记为三箭资本的地址（0x4862733B5FdDFd35f35ea8CCf08F5045e57388B3）在6小时前持续增持7501.83枚ETH，价值2243.7万美金。\n\n美国纽约州立法者将在周二讨论一项提议暂停PoW挖矿的法案\n星球日报讯 美国纽约州议员将于周二讨论一项法案，该法案提议暂停工作证明（PoW）加密挖矿两年。\n纽约州议会环境保护委员会（Environmental Conservation Committee）将就该法案的修订版本举行会议。该法案于去年5月首次提出。去年6月，该法案的早期版本在议会中被否决。随着立法者努力推动该法案，哥伦比亚大学的一项新研究认为，纽约州州长有权实施暂停。（The Block）\n\n加密货币\n\nETC预计将于4月30日减产20%\n据Viawallet最新数据显示，ETC预计将于39天后的4月30日进行减产，届时其区块奖励将由3.2 ETC降低至2.56 ETC，减产幅度为…",
+          "link": "https://www.0daily.com/post/5177345",
+          "publishedOn": "2022-03-22T23:39:51.000Z",
+          "wordCount": 3,
+          "title": "星球日报 | 桥水基金计划首次投资加密基金；三箭资本新增持7501.83枚ETH（3月23日）",
+          "imageUrl": null
         },
         {
-          "id": "https://smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/",
-          "author": "hello@smashingmagazine.com (Adrian Bece)",
-          "description": "This fresh new design trend has been picking up steam with the rising popularity of colorful inflated 3D graphics in web illustrations and with the latest Virtual Reality projects like “Horizon Worlds”. Let’s see if there is room for Claymorphism on the UI, and how we can create this effect with CSS.",
-          "link": "https://smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/",
-          "publishedOn": "2022-03-16T11:00:00.000Z",
-          "wordCount": 2591,
-          "title": "Claymorphism: Will It Stick Around?",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d6ceacdf-835e-497e-a1e0-be958d42ac76/claymorphism-css-ui-design-trend.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d6ceacdf-835e-497e-a1e0-be958d42ac76/claymorphism-css-ui-design-trend.jpg"
+          "id": "https://www.0daily.com/post/5177341",
+          "author": "链捕手",
+          "description": "原文来源：Bankless\n原文编译：The Reading Ape\n亚洲最大的专注于DeFi的基金DeFiance Capital的创始人Arthur Cheong（Arthur0x），在Bankless播客中分享了他如何在短短3年内将6位数的投资组合变成9位数。\n他解释了他在协议中所关注的基本要素，以及他究竟用哪些指标来进行估值，他还分享了哪些代币目前被低估了。在以太坊杀手中，Arthur会押注哪一个？\n\n以下是The Reading Ape对播客要点内容的整理：\n一：Arthur0x是谁？\nDeFiance Capital（亚洲最大的专注于DeFi的基金之一）的创始人和基金经理，他是整个加密货币领域最成功的DeFi投资者之一，在3年内将6位数的资产变成了9位数。DeFiance Capital的投资风格是：以基本面为基础，而不是叙事或情绪。\nArthur0x的加密之旅始于2018年春天，当时他想想经营一家加密货币研究初创公司，但没有找到产品-市场契合点，因此决定在2018年的熊市中专注于投资，并买了很多当时无人问津的代币。\n二：Arthur0x成功的秘密\n\n做好功课和研究，关注的重点不是现在，而是持续的趋势\n\n坚持不懈，特别是在熊市中，人们通常在熊市中就放弃了\n\n相信我们正在建立更宏大的东西，而不仅仅是投机\n\n\n\"我认为加密货币是一个公平竞争的领域，其面向来自不同背景的个人。我并不是来自非常富裕的家庭，我是10年前才来到新加坡的。对于每个愿意付出努力的人，加密货币真正给到了他们机会。\" - Arthur Cheong\n\n\n进入加密货币领域，环顾四周的环境，形成对正在发生的事情的看法，然后将其转化为基金或其他东西，这是有可能实现的\n\n花时间在社区上，与协议的团队沟通，给予支持。这样做，未来你将可能对协议的运行产生影响\n\n三：代币价值累积\n\n在熊市中，代币下跌90%后，还…",
+          "link": "https://www.0daily.com/post/5177341",
+          "publishedOn": "2022-03-22T13:00:00.000Z",
+          "wordCount": 3,
+          "title": "DeFiance创始人Arthur：如何在3年内将6位数的投资组合变成9位数？",
+          "imageUrl": null
         },
         {
-          "id": "https://smashingmagazine.com/2022/03/improving-ci-cd-flow-application/",
-          "author": "hello@smashingmagazine.com (Tom Hastjarjanto)",
-          "description": "Looking for ways to create a smooth CI/CD flow for your software? In this article, Tom Hastjarjanto shares some useful concepts that can be combined with GitHub Actions and NPM packages. With this setup, you will be able to release multiple times per hour with a fully documented trace managed by Git.",
-          "link": "https://smashingmagazine.com/2022/03/improving-ci-cd-flow-application/",
-          "publishedOn": "2022-03-14T12:30:00.000Z",
-          "wordCount": 1628,
-          "title": "Improving The CI/CD Flow For Your Application",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/48cfa0d0-3a69-4e42-bc6d-3c07df736343/improving-ci-cd-flow-application.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/48cfa0d0-3a69-4e42-bc6d-3c07df736343/improving-ci-cd-flow-application.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/guide-mobile-app-marketing/",
-          "author": "hello@smashingmagazine.com (Sona Dabaghyan)",
-          "description": "Standing out among the millions of mobile apps can be challenging, but proper marketing can give you that crucial edge. This piece shares how to start your mobile app marketing strategy and improve it as you go while keeping up with the latest trends in the market.",
-          "link": "https://smashingmagazine.com/2022/03/guide-mobile-app-marketing/",
-          "publishedOn": "2022-03-11T12:00:00.000Z",
-          "wordCount": 3815,
-          "title": "A Complete Guide To Mobile App Marketing",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0defe765-5a21-40d6-a906-70edfad759ca/guide-mobile-app-marketing.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0defe765-5a21-40d6-a906-70edfad759ca/guide-mobile-app-marketing.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/introduction-aws-cloud-development-kit/",
-          "author": "hello@smashingmagazine.com (Vivek Maskara)",
-          "description": "In this article, Vivek Maskara introduces Amazon Web Services’ (AWS) Cloud Development Kit (CDK) which is increasingly becoming a popular tool for managing AWS-based infrastructure. We’ll take a closer look into CDK concepts, and then how to use the AWS CDK toolkit to deploy a sample application to an AWS account.",
-          "link": "https://smashingmagazine.com/2022/03/introduction-aws-cloud-development-kit/",
-          "publishedOn": "2022-03-10T18:00:00.000Z",
-          "wordCount": 3500,
-          "title": "An Introduction To AWS Cloud Development Kit (CDK)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/46a0c491-6562-46ba-a48d-41b4f97b0965/introduction-aws-cloud-development-kit.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/46a0c491-6562-46ba-a48d-41b4f97b0965/introduction-aws-cloud-development-kit.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/audio-visualization-javascript-gsap-part2/",
-          "author": "hello@smashingmagazine.com (Jhey Tompkins)",
-          "description": "What started as a case study turned into a guide to visualizing audio with JavaScript. Although the output demos are in React, Jhey Tompkins isn’t going to dwell on the React side of things too much. The underlying techniques work with or without React.",
-          "link": "https://smashingmagazine.com/2022/03/audio-visualization-javascript-gsap-part2/",
-          "publishedOn": "2022-03-09T13:00:00.000Z",
-          "wordCount": 4721,
-          "title": "A Guide To Audio Visualization With JavaScript And GSAP (Part 2)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d02916da-2e33-4aed-ac5e-f1107fa44e57/audio-visualization-javascript-gsap-part1.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d02916da-2e33-4aed-ac5e-f1107fa44e57/audio-visualization-javascript-gsap-part1.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/signals-customizing-website-user-experience/",
-          "author": "hello@smashingmagazine.com (Barry Pollard)",
-          "description": "Using signals to deliver less, or different, content is a form of progressive enhancement (or graceful degradation depending on how you look at it), whereby extraneous content is only loaded when necessary, but the core functionality of the website still works. In this article, we’ll look at some of the signals that can be used for this.",
-          "link": "https://smashingmagazine.com/2022/03/signals-customizing-website-user-experience/",
-          "publishedOn": "2022-03-07T10:30:00.000Z",
-          "wordCount": 4374,
-          "title": "Performance Signals For Customizing Website UX",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6c2416bf-b3e1-4398-a1d9-fd2404eb678d/signals-customizing-website-user-experience.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6c2416bf-b3e1-4398-a1d9-fd2404eb678d/signals-customizing-website-user-experience.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/easy-information-architecture/",
-          "author": "hello@smashingmagazine.com (Paul Boag)",
-          "description": "If users cannot find the answers to their questions or are not exposed to critical messaging, they will not act, and your website will fail. To prevent that from happening, you need an effective information architecture. In this article, Paul Boag provides you with a process to ensure you have precisely that.",
-          "link": "https://smashingmagazine.com/2022/03/easy-information-architecture/",
-          "publishedOn": "2022-03-04T10:30:00.000Z",
-          "wordCount": 2962,
-          "title": "How To Create An Information Architecture That Is Easy To Use",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/771aac3c-df07-49cb-a4b1-8558b39f9e2a/easy-information-architecture.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/771aac3c-df07-49cb-a4b1-8558b39f9e2a/easy-information-architecture.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/building-web-layouts-dual-screen-foldable-devices/",
-          "author": "hello@smashingmagazine.com (Stephanie Stimac)",
-          "description": "Dual-screen devices are just the next evolution in responsive design. If you have a PWA or website, the APIs available make integrating into your existing code base seamless. This article explains why it’s an exciting time for layout on the web, and how dual screens provide an opportunity to get even more creative.",
-          "link": "https://smashingmagazine.com/2022/03/building-web-layouts-dual-screen-foldable-devices/",
-          "publishedOn": "2022-03-03T10:30:00.000Z",
-          "wordCount": 3570,
-          "title": "Building Web Layouts For Dual-Screen And Foldable Devices",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f45e5695-4423-4581-862d-ce6c1f8b55ac/building-web-layouts-dual-screen-foldable-devices.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f45e5695-4423-4581-862d-ce6c1f8b55ac/building-web-layouts-dual-screen-foldable-devices.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/audio-visualization-javascript-gsap-part1/",
-          "author": "hello@smashingmagazine.com (Jhey Tompkins)",
-          "description": "What started as a case study turned into a guide to visualizing audio with JavaScript. Although the output demos are in React, Jhey Tompkins isn’t going to dwell on the React side of things too much. The underlying techniques work with or without React.",
-          "link": "https://smashingmagazine.com/2022/03/audio-visualization-javascript-gsap-part1/",
-          "publishedOn": "2022-03-02T13:30:00.000Z",
-          "wordCount": 5069,
-          "title": "A Guide To Audio Visualization With JavaScript And GSAP (Part 1)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d02916da-2e33-4aed-ac5e-f1107fa44e57/audio-visualization-javascript-gsap-part1.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d02916da-2e33-4aed-ac5e-f1107fa44e57/audio-visualization-javascript-gsap-part1.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/03/new-css-features-2022/",
-          "author": "hello@smashingmagazine.com (Michelle Barker)",
-          "description": "2022 is shaping up to be a pretty great year for CSS, with a plethora of new features on the horizon. Some are already starting to land in browsers, others are likely to gain widespread browser support in 2022, while for one or two the process may be a little longer. In this article we’ll take a look at a few of them.",
-          "link": "https://smashingmagazine.com/2022/03/new-css-features-2022/",
-          "publishedOn": "2022-03-01T13:00:00.000Z",
-          "wordCount": 3249,
-          "title": "New CSS Features In 2022",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/14419af2-69ab-4150-8cf3-bca2cd2291ad/new-css-features-2022.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/14419af2-69ab-4150-8cf3-bca2cd2291ad/new-css-features-2022.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/we-all-are-ukraine/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "As a design community, we all can’t be silent in these times. We need to be united in our fight against the war, for democracy, for those dreams that children are entitled to have when they are growing up. It’s our obligation to help as much as we can. **We are donating all proceeds** from \"Interface Design Checklists\" PDF to support Ukraine.",
-          "link": "https://smashingmagazine.com/2022/02/we-all-are-ukraine/",
-          "publishedOn": "2022-02-28T18:00:00.000Z",
-          "wordCount": 1200,
-          "title": "We All Are Ukraine 🇺🇦",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fbc9e281-74da-421b-b3ae-4882be4aee66/smashing-stands-with-ukraine.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fbc9e281-74da-421b-b3ae-4882be4aee66/smashing-stands-with-ukraine.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/desktop-wallpaper-calendars-march-2022/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Following our monthly tradition, artists and designers from across the globe challenged their creative skills and designed desktop wallpapers to welcome March. They come in versions with and without a calendar and can be downloaded for free.",
-          "link": "https://smashingmagazine.com/2022/02/desktop-wallpaper-calendars-march-2022/",
-          "publishedOn": "2022-02-28T09:30:00.000Z",
-          "wordCount": 2188,
-          "title": "March For Equality (2022 Desktop Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/74ffb821-71d4-4625-8d1d-085de28b17ef/mar-22-spring-is-coming-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/74ffb821-71d4-4625-8d1d-085de28b17ef/mar-22-spring-is-coming-preview-opt.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/recipe-good-design-system/",
-          "author": "hello@smashingmagazine.com (Átila Fassina)",
-          "description": "Maintaining a design system is a lot of work. In this article, Atila Fassina shares his lessons learned and how a platform such as Backlight can help put together a series of tools to speed up your architecture setup.",
-          "link": "https://smashingmagazine.com/2022/02/recipe-good-design-system/",
-          "publishedOn": "2022-02-28T09:00:00.000Z",
-          "wordCount": 2461,
-          "title": "A Recipe For A Good Design System",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/77873ca3-a5cc-4a2f-82d9-0443c334ecba/design-systems-dev-backlight.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/77873ca3-a5cc-4a2f-82d9-0443c334ecba/design-systems-dev-backlight.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/benchmark-improve-web-vitals-real-user-metrics/",
-          "author": "hello@smashingmagazine.com (Átila Fassina)",
-          "description": "Web Vitals are the new gold standard in performance due to their direct correlation with the user’s experience. In this article, you’ll learn what monitoring can do and how RayGun can help you sustain performance maintenance while scaling your app.",
-          "link": "https://smashingmagazine.com/2022/02/benchmark-improve-web-vitals-real-user-metrics/",
-          "publishedOn": "2022-02-24T09:30:00.000Z",
-          "wordCount": 1562,
-          "title": "How To Benchmark And Improve Web Vitals With Real User Metrics",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4ed9b745-ad2b-425c-8ffc-d73feeea7cd7/benchmark-improve-web-vitals-real-user-metrics.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4ed9b745-ad2b-425c-8ffc-d73feeea7cd7/benchmark-improve-web-vitals-real-user-metrics.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/wordpress-editor-cpts-configure-plugins/",
-          "author": "hello@smashingmagazine.com (Leonardo Losoviz)",
-          "description": "If we want our WordPress plugins to offer a settings page that is fully powered by blocks, how can we do it? Since *Full Site Editing* doesn’t support this feature yet, we need to code a custom solution. In this article, we will learn how we can do it.",
-          "link": "https://smashingmagazine.com/2022/02/wordpress-editor-cpts-configure-plugins/",
-          "publishedOn": "2022-02-23T10:30:00.000Z",
-          "wordCount": 3281,
-          "title": "Using The WordPress Editor And CPTs To Configure Plugins",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/854c1fe6-8061-4a9f-bf59-75f81a732114/wordpress-editor-cpts-configure-plugins.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/854c1fe6-8061-4a9f-bf59-75f81a732114/wordpress-editor-cpts-configure-plugins.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/develop-text-editor-web/",
-          "author": "hello@smashingmagazine.com (Ilya Medvedev)",
-          "description": "How do text typing and editing work on the web? Although this process might seem straightforward, there is a lot of technical nuance behind its apparent simplicity. This article looks at how typing on the web works.",
-          "link": "https://smashingmagazine.com/2022/02/develop-text-editor-web/",
-          "publishedOn": "2022-02-22T13:00:00.000Z",
-          "wordCount": 1999,
-          "title": "How To Develop A Text Editor For The Web",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e771d289-5725-48a4-b8b6-4ba30f2a2f44/develop-text-editor-web.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e771d289-5725-48a4-b8b6-4ba30f2a2f44/develop-text-editor-web.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/smashing-podcast-episode-45/",
-          "author": "hello@smashingmagazine.com (Drew McLellan)",
-          "description": "In this episode, we’re talking about Responsible JavaScript. What does it mean for code to be responsible, and how should we approach projects differently? Drew McLellan talks to expert Jeremy Wagner to find out.",
-          "link": "https://smashingmagazine.com/2022/02/smashing-podcast-episode-45/",
-          "publishedOn": "2022-02-22T06:00:00.000Z",
-          "wordCount": 8389,
-          "title": "Smashing Podcast Episode 45 With Jeremy Wagner: What Is Responsible JavaScript?",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4d599b9c-98ef-4be9-ba35-46d9a9f4a66b/45-smashing-podcast-episode.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/4d599b9c-98ef-4be9-ba35-46d9a9f4a66b/45-smashing-podcast-episode.jpg"
-        }
-      ]
-    },
-    {
-      "title": "freeCodeCamp.org",
-      "feedUrl": "https://www.freecodecamp.org/news/rss/",
-      "siteUrl": "https://www.freecodecamp.org/news/",
-      "articles": [
-        {
-          "id": "6236e318cdcd57069ddfbc09",
-          "author": "Kolade Chris",
-          "description": "WordPress is an open-source content management system (CMS) for building any kind of website – an eCommerce site, a portfolio, a forum, and many more. WordPress started out as a simple platform for creating blogs, but today WordPress powers over 43% of the total websites on earth, and that number",
-          "link": "https://www.freecodecamp.org/news/is-wordpress-a-code-or-no-code-tool/",
-          "publishedOn": "2022-03-23T01:56:34.000Z",
-          "wordCount": 1373,
-          "title": "Is WordPress a Code or No-code Tool?",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/wordpress--1-.png"
-        },
-        {
-          "id": "623848d7cdcd57069ddfc40d",
-          "author": "Zaira Hira",
-          "description": "When you're coding, you need to be able to check certain conditions and change the control of the program execution accordingly.  Python provides many conditional statements for decision making, and if-else is one of them. In this blog post, we will learn:  1. The default order of execution",
-          "link": "https://www.freecodecamp.org/news/else-if-in-python-python-if-statement-example-syntax/",
-          "publishedOn": "2022-03-22T20:41:35.000Z",
-          "wordCount": 1112,
-          "title": "Else-If in Python – Python If Statement Example Syntax",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/Copy-of-pip--4-.png"
-        },
-        {
-          "id": "623a17b2cdcd57069ddfd0b3",
-          "author": "Beau Carnes",
-          "description": "The Go programming language is an open-source and compiled language designed by Google. Go is popular for cloud-based or server-side applications. We just published a course on the freeCodeCamp.org YouTube channel that will help you improve your Go skills by teaching you how to create eleven projects. Akhil Sharma developed",
-          "link": "https://www.freecodecamp.org/news/learn-go-by-building-11-projects/",
-          "publishedOn": "2022-03-22T18:50:22.000Z",
-          "wordCount": 409,
-          "title": "Learn Go Programming by Building 11 Projects",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/goprojects.png"
-        },
-        {
-          "id": "62358f0ccdcd57069ddfb8b4",
-          "author": "Md. Fahim Bin Amin",
-          "description": "If you are using a Windows operating system, you have likely used the latest Windows PowerShell at least once.  Whenever you open the PowerShell, you get a text message inside the terminal which shows the terminal version, the link to download the latest PowerShell, and so on.  Sometimes",
-          "link": "https://www.freecodecamp.org/news/how-to-remove-starting-text-from-powershell/",
-          "publishedOn": "2022-03-22T17:18:05.000Z",
-          "wordCount": 601,
-          "title": "How to Remove the Start Text from PowerShell",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/Artboard-1-1.jpg"
-        },
-        {
-          "id": "62346eeacdcd57069ddfae72",
-          "author": "Suchandra Datta",
-          "description": "Operators in any programming language are the basic building blocks using which we can construct powerful, complex statements for problem solving.  Python offers different types of operators, like arithmetic operators, logical operators, relational operators and so on. In this post, let's dive into logical operators in Python and learn",
-          "link": "https://www.freecodecamp.org/news/operators-in-python-how-to-use-logical-operators-in-python/",
-          "publishedOn": "2022-03-22T00:21:14.000Z",
-          "wordCount": 1458,
-          "title": "Python Operator – Logical Operators in Python",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/pexels-pixabay-161154.jpg"
-        },
-        {
-          "id": "62376c2ecdcd57069ddfbf7f",
-          "author": "Germán Cocca",
-          "description": "Hi! In this article we'll take a look at the many ways you can manage state in a React app. We'll start by talking about what state is, and then go through the many tools you can use to manage it. We'll look at the simple useState hook and also",
-          "link": "https://www.freecodecamp.org/news/how-to-manage-state-in-a-react-app/",
-          "publishedOn": "2022-03-21T23:31:54.000Z",
-          "wordCount": 5607,
-          "title": "How to Manage State in a React App – With Hooks, Redux, and More",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/lautaro-andreani-UYsBCu9RP3Y-unsplash.jpg"
-        },
-        {
-          "id": "6238da58cdcd57069ddfc85e",
-          "author": "Beau Carnes",
-          "description": "Visual Studio Code is one of the most popular code editors used by software developers. While it has many great features built-in, there are a lot of extensions you can install to increase your productivity.  We just published a video on the freeCodeCamp.org YouTube channel that will teach you",
-          "link": "https://www.freecodecamp.org/news/vs-code-extensions-to-increase-developer-productivity/",
-          "publishedOn": "2022-03-21T20:23:21.000Z",
-          "wordCount": 6691,
-          "title": "VS Code Extensions to Increase Developer Productivity",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/vscode.png"
-        },
-        {
-          "id": "6236cc8acdcd57069ddfba7a",
-          "author": "Jessica Wilkins",
-          "description": "freeCodeCamp's JavaScript certification [https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/]  is filled with hundreds of interactive challenges. But one of the hardest ones to tackle for most beginners is the Record Collection [https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/record-collection] . In this article, I will walk you through Record Collection [https://www.freecodecamp.org/learn/javascript-algorithms-and-data-str",
-          "link": "https://www.freecodecamp.org/news/how-to-solve-the-record-collection-challenge/",
-          "publishedOn": "2022-03-21T18:14:42.000Z",
-          "wordCount": 1742,
-          "title": "How to Solve freeCodeCamp's Record Collection Challenge",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/fili-santillan-qp51FQhBnS0-unsplash.jpg"
-        },
-        {
-          "id": "62375a8dcdcd57069ddfbec1",
-          "author": "Daniel Rosa",
-          "description": "One of the first commands I learned on Linux was the touch command that creates a file using the command line.  If you ever try to create, for instance, a text file, all you have to do is type  touch filename.txt, press Enter, and the file is created",
-          "link": "https://www.freecodecamp.org/news/how-to-change-file-permissions-with-the-chmod-command-on-linux/",
-          "publishedOn": "2022-03-21T15:33:36.000Z",
-          "wordCount": 1376,
-          "title": "Chmod Command – How to Change File Permissions in Linux",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/pexels-artem-beliaikin-912005.jpg"
-        },
-        {
-          "id": "6236e160cdcd57069ddfbbbf",
-          "author": "Kolade Chris",
-          "description": "In your Python applications, you might want to work with time to add functionalities like timestamps, check the time of a user’s activity, and more. One of the modules that helps you work with date and time in Python is datetime. With the datetime module, you can get the current",
-          "link": "https://www.freecodecamp.org/news/how-to-get-the-current-time-in-python-with-datetime/",
-          "publishedOn": "2022-03-21T13:52:01.000Z",
-          "wordCount": 1044,
-          "title": "How to Get the Current Time in Python with Datetime",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/03/datetime.png"
+          "id": "https://www.0daily.com/post/5177340",
+          "author": "区块律动BlockBeats",
+          "description": "「我钱包里的 ETH 都没了！」\n今日，DeFinance 创始人 Arthur 在社交媒体上表示其遭受鱼叉式网络钓鱼攻击。Arthur 点击了一封酷似 Defiance Capital 合作资管平台官方地址发来的邮件中的 PDF 文档，导致其热钱包被盗，损失大量 NFT 以及其他资产价值超 400ETH。\nWeb3.0 的世界好像并不安全，我们的链上资产似乎处处受到威胁。确实，从上层来看，链上应用不光要考虑应用逻辑的漏洞，还要考虑所部属链共识层可能潜在的攻击途径（抢跑等）。除此之外，我们还需要擦亮双眼看清交互前端，并预防各类钓鱼链接。最致命的一点是，交易一旦获得清算保证，回滚成本极高。这么说来，Web3.0 整体安全程度还不如 Web2.0 呢。\n但从更底层维度来看，理论上来说 Web3.0 其实应该是更安全的。例如，链上的去中心化平行执行为链上应用打造了去信任化的执行环境。Web2.0 应用常遇到的 DoS 攻击也被 Gas 机制所解决。协议的开源同时也让用户在使用前「有权」进行 DYOR，等等...\n本文出自加密钱包 ZenGo 联创 Tal Be'ery，文中就 Web3.0 固有的安全优势进行了详细解读，并提出了现存问题的潜在解决方案。律动研究院将全文进行了翻译：\n我知道这一点听起来很荒唐，毕竟 Web3 的安全性是目前科技领域的一大笑柄，而 Web3 在去年也因安全漏洞损失了超过 100 亿美元。然而，我认为目前这样的情况应该是阶段性的，而非持续性的，一旦 Web3 应用程序变得更加成熟，它们将在安全性上超越很多「传统应用程序」。\nWeb3 的定义\n在我们开始讨论 Web3 的安全性之前，我们需要首先对其作出定义。我们可以暂时将 Web3 定义为依赖于「智能合约」的应用程序，其商业逻辑和存储均在区块链上完成。因此，Web3 目前主要包括 DeFi 应用程序和 N…",
+          "link": "https://www.0daily.com/post/5177340",
+          "publishedOn": "2022-03-22T12:30:00.000Z",
+          "wordCount": 3,
+          "title": "DeFinance创始人遭钓鱼攻击损失545枚ETH，Web3世界还安全吗？",
+          "imageUrl": null
         }
       ]
     }
