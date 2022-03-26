@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-03-26T05:07:55.473Z</updated>
+    <updated>2022-03-26T06:09:40.286Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nansen报告：忌跟风mint，三分之一的NFT最终交易量接近于零]]></title>
+        <id>https://www.0daily.com/post/5177450</id>
+        <link href="https://www.0daily.com/post/5177450"/>
+        <updated>2022-03-26T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：Nansen
+原文作者：Darren Lim，Javier Gonzalez，Louisa Choe
+NFT Minter（铸造者）的行为可以被视作短期市场走势的信号，就像我们观察矿工的行为来作为比特币价格的依据一样。通过Nansen的数据，我们发现了有关NFT铸造的一些趋势。Nansen的NFT指数和Market Trends的数据捕捉到了近期市场的下行趋势，这种趋势也反映在NFT Minter的行为中。我们的研究结果阐明了一个现象，在已经铸造的NFT中，有三分之一的地板价高于其初始铸造成本。同样地，三分之一的NFT最终都烂在了手里，在铸造后几乎没有交易活动。
+通过NFT Minter的行为了解NFT市场
+
+（过去30天NFT市场趋势：2月20日至3月21日）
+
+（根据铸造交易量得出的NFT市场趋势：2021年1月至2022年2月）
+在过去的30天里，我们看到NFT市场出现了小幅调整，按照ETH计价，Nansen NFT-500（ETH）指数下跌了5.23%，以美元计价，这个指数下跌了0.89%。这种走势与市场的整体走势一致：市场预期利率将上调以及俄罗斯和乌克兰之间的战争，市场情绪主要是避险。这种情绪也反映在铸造交易量上，过去30天交易量有所下降。虽然Nansen NFT-500指数反映了这种市场情绪，但我们也可以通过NFT Minters的行为来观察这种趋势。
+
+（NFT Minter花费在铸造和gas上面的ETH）
+自2022年以来，花费在铸造NFT上的ETH正在逐步减少。将这一趋势与谷歌趋势进行对比，可以看到，有关NFT的搜索量也在下降，这预示着短期内大众对NFT的兴趣可能会放缓。
+
+（以NFT为关键词的谷歌趋势）
+然而，我们注意到，与前一年（2021年）相比，NFT Minter在今年花费了更多的ETH在铸造和gas上。在此期间，有一些知名的NFT铸造，…]]></summary>
+        <author>
+            <name>DeFi之道</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[以太坊核心开发者：难度炸弹预计6月到来，执行层规范进展顺利]]></title>
         <id>https://www.theblockbeats.info/flash/73520</id>
@@ -16,6 +40,33 @@
 Tim Beiko 表示，开发者目前正在加紧测试合并测试网 Kiln，同时草拟下一个以太坊升级「上海」，计划升级的内容主要有 EVM 升级、激活信标链提款、降低 Layer2 费用等；而以太坊难度炸弹预计在 6 月到来，以太坊执行层的可执行规范的工作进展顺利。此外，Protocol Guild 是一项旨在为客户端开发人员和研究人员提供基于以太坊生态项目的 Token 补偿计划，现已拥有 100 多名成员，即将启动试点。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊转PoS在即，全方位解析Staking赛道及代表项目]]></title>
+        <id>https://www.0daily.com/post/5177441</id>
+        <link href="https://www.0daily.com/post/5177441"/>
+        <updated>2022-03-26T04:15:00.000Z</updated>
+        <summary type="html"><![CDATA[研究机构：Mint Ventures
+研究员：李雨轩
+在正式开始本文内容之前，我们先对本文中主要涉及的几个概念进行厘清：
+
+节点运营商（Node Operator）：特指具体在区块链上运行节点的运营商。他们需要使用设备来运行链的客户端，保持在线，维护区块链的共识。
+
+流动性质押服务商（Liquid Staking Provider）：用户质押之后，给予用户一个质押衍生品，从而解决PoS质押流动性问题的服务商。他们可能具体运行节点（如Kraken和Binance），也可能不运行节点（如Lido、Rocket Pool 和 Stader）。
+
+STaaS服务商（Staking as a Service,为了避免与SaaS混淆，我们用STaaS来代替）：泛指一切为用户提供广义上的质押服务的服务商。我们在下文中将简称为STaaS服务商，他们给用户提供的服务我们将简称为STaaS。
+
+本文中将主要出现的几个实体在上述概念中的分类如下：
+
+制图 Mint Ventures
+赛道概览
+区块链的共识层近年来正在明显地从PoW（工作量证明）转向PoS（Proof of Stake，权益证明或质押证明）。伴随着以太坊在未来半年内（大概率）从PoW转向PoS，市值排名前十五的公链中，将只有BTC、DOGE、LTC仍然采用PoW共识，其余公链大多采用PoS共识。目前，质押金额排名前十的PoS公链累计已经质押了超过1800亿美元，平均可以获得超过7%的质押收益率。
+
+按照质押金额排名前十的区块链和他们的质押收益率 来源：https://www.stakingrewards.com/
+对于采用PoS机制的区块链来说，维持一个稳定的Stake比例对于协议来说是最健康的，因为Stake比例过低时，攻击者想要进行51%攻击需要付出的成本就较低，会危及协议的安全；而Stake比例过高，则会降低代币的（实际）流…]]></summary>
+        <author>
+            <name>Mint Ventures</name>
         </author>
     </entry>
     <entry>
