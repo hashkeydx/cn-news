@@ -1804,36 +1804,6 @@
           "wordCount": 85,
           "title": "瓦努阿图收到5万份NFT申请中本聪岛的永久居留权",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
-        },
-        {
-          "id": "https://panewslab.com/zh/sqarticledetails/1648080722672692.html",
-          "author": "PA一线",
-          "description": "PANews 3月24日消息，据CoinDesk报道，NFT体育平台SportsIcon公布了一项以体育为重点的元宇宙计划“Sports Metaverse（运动元宇宙）”，该元宇宙将允许运动员与支持者互动。Sports Metaverse将允许用户交易NFT、购买和开发土地以及参观体育场馆。据称，SportsIcon正在开发游戏，用户可以在其中获得其原生代币 ICONS。此前去年11月份消息，SportsIcon完成550万美元种子轮融资，Dapper Labs等参投。",
-          "link": "https://panewslab.com/zh/sqarticledetails/1648080722672692.html",
-          "publishedOn": "2022-03-24T00:12:03.000Z",
-          "wordCount": 88,
-          "title": "NFT体育平台SportsIcon将推出“运动元宇宙”",
-          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
-        },
-        {
-          "id": "https://panewslab.com/zh/sqarticledetails/1648080356572191.html",
-          "author": "PA一线",
-          "description": "PANews 3月24日消息，据U.today报道，美国地方法官Sarah Netburn批准了美国证券交易委员会（SEC）关于延长Ripple案时间的请求。此前，SEC于3月21日提出动议，以确定是否有必要进行额外的发现。Ripple首席执行官Brad Garlinghouse和联合创始人Chris Larsen为两个单独的被告，他们在给法院的信中表示反对上述动议，指责SEC故意试图减缓诉讼程序。",
-          "link": "https://panewslab.com/zh/sqarticledetails/1648080356572191.html",
-          "publishedOn": "2022-03-24T00:05:57.000Z",
-          "wordCount": 87,
-          "title": "“SEC诉Ripple”案进展：法院批准SEC的延期请求",
-          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
-        },
-        {
-          "id": "https://panewslab.com/zh/sqarticledetails/1648080091251113.html",
-          "author": "PA一线",
-          "description": "PANews 3月24日消息，据U.today报道，根据本周三早些时候发布的一份声明，洪都拉斯央行否认了采用比特币作为法定货币的传言。该国央行已澄清，它是该国唯一依法发行纸币和硬币的机构。同时，洪都拉斯央行明确表示，它“不监督或保证”在加密货币的帮助下进行的付款。此外，洪都拉斯央行称，将继续评估开发中央银行数字货币的可行性。此前消息，Finbold曾报道，洪都拉斯可能是继萨尔瓦多之后，下一个正式认定比特币为法定货币的国家。",
-          "link": "https://panewslab.com/zh/sqarticledetails/1648080091251113.html",
-          "publishedOn": "2022-03-24T00:01:31.000Z",
-          "wordCount": 84,
-          "title": "洪都拉斯否认将比特币设为法定货币的传闻",
-          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         }
       ]
     },
@@ -2720,6 +2690,26 @@
       "siteUrl": "https://www.0daily.com",
       "articles": [
         {
+          "id": "https://www.0daily.com/post/5177503",
+          "author": "DeFi之道",
+          "description": "原文作者：@arikan\n原文编译：DeFi之道\n开放去中心化互联网的承诺正在受到第一代加密网络比特币、以太坊及其变体的性能、可用性和能源效率问题的挑战。虽然以太坊新版本及其 Layer 2 解决方案的开发旨在解决当前的性能问题，但新一代项目 Cosmos、波卡（Polkadot）和雪崩（Avalanche） 已经发布了具有非凡能力的基础设施。他们的目标是通过异步异构网络模型进行水平扩展，其中特定于应用程序的区块链共存并在需要时相互操作。在跨链经济安全方面，它们有自己的设计选择和权衡，这将产生不同的影响，我们将在本文中一一讨论。他们的目标都是创建一个区块链互联网，以达到网络规模，每天可以容纳数十万（就像今天一样）甚至容纳数百万活跃用户，并实现用户拥有和控制的 Web 3 愿景。本文旨在帮助开发人员、研究人员、企业家、投资者以及任何渴望去中心化未来的人了解加密网络的这种范式转变。\n\nCosmos、Polkadot、Avalanche 中的链间经济安全拓扑\n比特币打开了潘多拉魔盒，随着时间的推移正在成为“数字黄金”，这种看法已经是一种常识。 以太坊引入了可编程的互联网货币，并成为加密经济创新的平台。 然而，比特币、以太坊及其变体存在阻止大众采用加密网络的关键问题。 我们将首先看这些问题，然后用这些点来比较新一代区块链平台。\n1. 能源效率：要使开放的去中心化计算机网络正常运行，其独立参与者需要就共享状态达成一致。在这样做的同时，尽管信息不完善或存在恶意行为者，网络仍应保持有效共识容错（拜占庭容错）。允许参与开放网络的共识，同时防止同一实体对多个身份进行操作（女巫攻击）是通过一种称为工作量证明（PoW）的接纳方法来处理的（由 Cynthia Dwork 于 1992 年首次引入，用于打击垃圾邮件）。这种方法要求参与者使用巨大的计算能力，这会使地球变暖，并且一些价值还被转移给电力公…",
+          "link": "https://www.0daily.com/post/5177503",
+          "publishedOn": "2022-03-28T12:00:00.000Z",
+          "wordCount": 3,
+          "title": "一文对比三大异构区块链网络：Cosmos、Polkadot、Avalanche",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.0daily.com/post/5177504",
+          "author": "DeFi之道",
+          "description": "原文作者：Messari分析师Chia Jeng Yang\n原文编译：DeFi之道\n2016年，Union Square Ventures的Joel Monegro发表了一篇开创性的论文，论述了加密货币协议将如何能够比其上的dapp捕获更多的价值。换句话说，\"胖协议理论\"指出，应用程序层每捕获一美元的价值，协议层将能够捕获至少相同的一美元，甚至更多，因为应用程序层需要利用原生协议代币来支持所有的互动。\n这篇论文对于确定加密货币的价值所在，投资者应该在哪里投资，以及如何考虑应用层与协议层的问题至关重要。不幸的是，由于最近的一系列发展，我们发现这个理论遭受了很大的压力，并探讨了是否可以宣判\"胖协议理论\"的死亡。理解这个理论的重要性在于它影响了我们将投资重点分配在协议还是dapp，以及首次进入时的看法。Delphi Research的Ashwath指出，\"胖协议理论的合理性是以太坊持续主导地位的关键\"。\n而这一理论衰落的主要原因包括以下几点：\n\n垄断的减少：多链Dapp/Dapp品牌化\n\n夸大的网络效应：长期的协议竞争导致费用降低\n\nReffal曲线：减少总需求的Roll-Ups的作用\n\nL1价值获取的新思维框架：货币对国家\n\n\"胖协议理论\"为何有意义\n胖协议理论是基于对协议和dapp之间互动的3个主要描述：\n\n任何建立在协议之上的dapp都需要协议的原生代币来支持dapp内的任何交易。\n\n克隆dapps和吸引用户要比克隆协议和吸引用户容易得多，这使得协议相对于dapps来说具有更加垄断的竞争地位。\n\n因此，协议将比dapp捕获更多的价值，因为协议的价值捕获将反映在dapp层处理的任何交易中（价值创造），更不用说dapp本身将捕获的价值。\n\n测量胖协议理论的裂缝\nLedgerPrime的Joel John指出，当稳定币等资本密集型用例出现时，胖协议理论的第一个裂缝就出现了。随着像…",
+          "link": "https://www.0daily.com/post/5177504",
+          "publishedOn": "2022-03-28T11:30:00.000Z",
+          "wordCount": 3,
+          "title": "Messari：胖协议理论的衰落对构建加密投资组合有何影响？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.0daily.com/post/5177502",
           "author": "NFTGo",
           "description": "从最小可行性产品到最小可行性DAO\nMVP这一概念最初由Eric Ries 在《精益创业》（Lean Startup）中提出，意思是用最快、最简明的方式建立一个可用的产品原型，通过这个最简单的原型来测试产品是否符合市场预期，并通过不断的快速迭代来修正产品，最终适应市场需求。\n快速试错，快速迭代。通过创造产品，满足用户需求，需求转化功能，功能带来用户增长。\n而如今，由 DAO 而起的社区形态正让这个创新飞轮发生范式转变。随着2021年加密热潮兴起，据估计，DAO 现在共有大约100万参与者。根据 ConsenSys 的数据，Top 20 DAOs 合计持有超过 140 亿美元的数字资产。此前，我们往往会说，没有好的创意和想法便没有用户，消费者通过数据货币化成为新的产品。在Web3领域，某种程度上，没有社区基础，便没有项目，消费者由“产品”转变为社区成员、投资者、利益共享者等多元角色。\n权利等级制度变得更加扁平化，Web3 促进了创造者驱动的经济，同时奖励消费者参与，从而开启社交网络的新时代。下一次，在开始设计一个MVP前，不如从对产品本身的价值假设这一端，转化到以社区为基础的共识交换思维。\n价值假设（Value Hypothesis）：用户是否认为产品对他有用、有价值，用户是否会觉得产品“惊艳”、“远超其他产品”？\n共识交换（Consensus  Exchange）：发起者通过提出一个有价值的共识，驱动更多人凝聚起来相互影响，进行价值交换及自主传播，用户是否认同这个价值？\n试想，用户如何成为你的利益共享者和创业伙伴，而不单单是你的消费者？\n\n图片来源：NFTGo.io\n\n\n4M 要素开启 MVD\n开启一个最小化 DAO，只要记住关键的4M要素：Mission, Member, Mechanism, Money。\n首先，需要确定你希望完成的愿景或目标，第二，考虑希望聚集怎样的一…",
@@ -3537,16 +3527,6 @@
           "publishedOn": "2022-03-24T02:28:14.000Z",
           "wordCount": 3,
           "title": "Mina基金会CEO：零知识证明成为Web3的杀手级功能",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5177374",
-          "author": "十文",
-          "description": "头条\nYuga Labs以40亿美元估值完成4.5亿美元融资，a16z领投，Google、Samsung、Adidas等参投\n星球日报讯 Yuga Labs（Bored Ape Yacht Club发行方）今日宣布以40亿美元估值完成新一轮4.5亿美元融资，也是截至目前NFT行业最大一笔融资。本轮融资由a16z领投，Adidas Ventures, Animoca Brands, Samsung, Google Ventures, Tiger Global, FTX Ventures, Coinbase Ventures, Moonpay等参投。同时，a16z的合伙人Chris Lyons将加入Yuga Labs的董事会。\n\n美国佛罗里达州州长表示该州将接受比特币纳税\n美国佛罗里达州州长Ron DeSantis表示，他正在采取措施使公司能够以加密货币纳税。德桑蒂斯表示，他已指示国家机构准备好接受加密税收。（TheBlock）\nAcala联合9个波卡平行链团队启动2.5亿美元的aUSD生态基金，Jump crypto，Polychain，DCG等40家机构参与\n波卡DeFi平台Acala宣布与9个波卡平行链团队以及多个风险基金启动2.5亿美元的aUSD生态基金，支持孵化在 Polkadot 与 Kusama 生态中利用 aUSD 来构建应用的初创团队。\n参与该生态基金的波卡平行链包括Acala、Astar Network、Centrifuge、Efinity、HydraDX、Manta、Moonbeam、OriginTrail、Parallel和Zeitgeist。参与的风投机构包括1confirmation、Alameda、Hashkey、DCG、IOSG、Jump Crypto、Pantera Capital、Polychain Capital、DFG、SevenX等近4…",
-          "link": "https://www.0daily.com/post/5177374",
-          "publishedOn": "2022-03-24T00:01:07.000Z",
-          "wordCount": 3,
-          "title": "星球日报 | Yuga Labs完成4.5亿美元融资；美国佛罗里达州接受比特币纳税（3月24日）",
           "imageUrl": null
         }
       ]

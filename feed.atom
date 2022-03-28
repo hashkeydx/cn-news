@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-03-28T11:07:52.725Z</updated>
+    <updated>2022-03-28T12:15:15.855Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文对比三大异构区块链网络：Cosmos、Polkadot、Avalanche]]></title>
+        <id>https://www.0daily.com/post/5177503</id>
+        <link href="https://www.0daily.com/post/5177503"/>
+        <updated>2022-03-28T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：@arikan
+原文编译：DeFi之道
+开放去中心化互联网的承诺正在受到第一代加密网络比特币、以太坊及其变体的性能、可用性和能源效率问题的挑战。虽然以太坊新版本及其 Layer 2 解决方案的开发旨在解决当前的性能问题，但新一代项目 Cosmos、波卡（Polkadot）和雪崩（Avalanche） 已经发布了具有非凡能力的基础设施。他们的目标是通过异步异构网络模型进行水平扩展，其中特定于应用程序的区块链共存并在需要时相互操作。在跨链经济安全方面，它们有自己的设计选择和权衡，这将产生不同的影响，我们将在本文中一一讨论。他们的目标都是创建一个区块链互联网，以达到网络规模，每天可以容纳数十万（就像今天一样）甚至容纳数百万活跃用户，并实现用户拥有和控制的 Web 3 愿景。本文旨在帮助开发人员、研究人员、企业家、投资者以及任何渴望去中心化未来的人了解加密网络的这种范式转变。
+
+Cosmos、Polkadot、Avalanche 中的链间经济安全拓扑
+比特币打开了潘多拉魔盒，随着时间的推移正在成为“数字黄金”，这种看法已经是一种常识。 以太坊引入了可编程的互联网货币，并成为加密经济创新的平台。 然而，比特币、以太坊及其变体存在阻止大众采用加密网络的关键问题。 我们将首先看这些问题，然后用这些点来比较新一代区块链平台。
+1. 能源效率：要使开放的去中心化计算机网络正常运行，其独立参与者需要就共享状态达成一致。在这样做的同时，尽管信息不完善或存在恶意行为者，网络仍应保持有效共识容错（拜占庭容错）。允许参与开放网络的共识，同时防止同一实体对多个身份进行操作（女巫攻击）是通过一种称为工作量证明（PoW）的接纳方法来处理的（由 Cynthia Dwork 于 1992 年首次引入，用于打击垃圾邮件）。这种方法要求参与者使用巨大的计算能力，这会使地球变暖，并且一些价值还被转移给电力公…]]></summary>
+        <author>
+            <name>DeFi之道</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Messari：胖协议理论的衰落对构建加密投资组合有何影响？]]></title>
+        <id>https://www.0daily.com/post/5177504</id>
+        <link href="https://www.0daily.com/post/5177504"/>
+        <updated>2022-03-28T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Messari分析师Chia Jeng Yang
+原文编译：DeFi之道
+2016年，Union Square Ventures的Joel Monegro发表了一篇开创性的论文，论述了加密货币协议将如何能够比其上的dapp捕获更多的价值。换句话说，"胖协议理论"指出，应用程序层每捕获一美元的价值，协议层将能够捕获至少相同的一美元，甚至更多，因为应用程序层需要利用原生协议代币来支持所有的互动。
+这篇论文对于确定加密货币的价值所在，投资者应该在哪里投资，以及如何考虑应用层与协议层的问题至关重要。不幸的是，由于最近的一系列发展，我们发现这个理论遭受了很大的压力，并探讨了是否可以宣判"胖协议理论"的死亡。理解这个理论的重要性在于它影响了我们将投资重点分配在协议还是dapp，以及首次进入时的看法。Delphi Research的Ashwath指出，"胖协议理论的合理性是以太坊持续主导地位的关键"。
+而这一理论衰落的主要原因包括以下几点：
+
+垄断的减少：多链Dapp/Dapp品牌化
+
+夸大的网络效应：长期的协议竞争导致费用降低
+
+Reffal曲线：减少总需求的Roll-Ups的作用
+
+L1价值获取的新思维框架：货币对国家
+
+"胖协议理论"为何有意义
+胖协议理论是基于对协议和dapp之间互动的3个主要描述：
+
+任何建立在协议之上的dapp都需要协议的原生代币来支持dapp内的任何交易。
+
+克隆dapps和吸引用户要比克隆协议和吸引用户容易得多，这使得协议相对于dapps来说具有更加垄断的竞争地位。
+
+因此，协议将比dapp捕获更多的价值，因为协议的价值捕获将反映在dapp层处理的任何交易中（价值创造），更不用说dapp本身将捕获的价值。
+
+测量胖协议理论的裂缝
+LedgerPrime的Joel John指出，当稳定币等资本密集型用例出现时，胖协议理论的第一个裂缝就出现了。随着像…]]></summary>
+        <author>
+            <name>DeFi之道</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BNB Chain或将推出侧链，启动时间未知]]></title>
         <id>https://www.theblockbeats.info/flash/73730</id>
@@ -5131,54 +5181,6 @@ Web3 和隐私性
         <summary type="html"><![CDATA[PANews 3月24日消息，据Cointelegraph报道，中本聪岛（Satoshi Island）上的免费永久居留的NFT申请数量已达50000份。据悉，中本聪岛是位于瓦努阿图的私人岛屿，面积达3200万平方公里。中本聪岛的最终入住人数限制在21000人以内，要想获得永久居留权，除了需持有NFT外，还需要通过13万美元获得瓦努阿图公民身份。中本聪岛团队表示，中本聪岛计划于今年第四季度开放，它将成为全球加密爱好者的聚集地，将以DAO为基础运营。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFT体育平台SportsIcon将推出“运动元宇宙”]]></title>
-        <id>https://panewslab.com/zh/sqarticledetails/1648080722672692.html</id>
-        <link href="https://panewslab.com/zh/sqarticledetails/1648080722672692.html"/>
-        <updated>2022-03-24T00:12:03.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月24日消息，据CoinDesk报道，NFT体育平台SportsIcon公布了一项以体育为重点的元宇宙计划“Sports Metaverse（运动元宇宙）”，该元宇宙将允许运动员与支持者互动。Sports Metaverse将允许用户交易NFT、购买和开发土地以及参观体育场馆。据称，SportsIcon正在开发游戏，用户可以在其中获得其原生代币 ICONS。此前去年11月份消息，SportsIcon完成550万美元种子轮融资，Dapper Labs等参投。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“SEC诉Ripple”案进展：法院批准SEC的延期请求]]></title>
-        <id>https://panewslab.com/zh/sqarticledetails/1648080356572191.html</id>
-        <link href="https://panewslab.com/zh/sqarticledetails/1648080356572191.html"/>
-        <updated>2022-03-24T00:05:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月24日消息，据U.today报道，美国地方法官Sarah Netburn批准了美国证券交易委员会（SEC）关于延长Ripple案时间的请求。此前，SEC于3月21日提出动议，以确定是否有必要进行额外的发现。Ripple首席执行官Brad Garlinghouse和联合创始人Chris Larsen为两个单独的被告，他们在给法院的信中表示反对上述动议，指责SEC故意试图减缓诉讼程序。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[洪都拉斯否认将比特币设为法定货币的传闻]]></title>
-        <id>https://panewslab.com/zh/sqarticledetails/1648080091251113.html</id>
-        <link href="https://panewslab.com/zh/sqarticledetails/1648080091251113.html"/>
-        <updated>2022-03-24T00:01:31.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月24日消息，据U.today报道，根据本周三早些时候发布的一份声明，洪都拉斯央行否认了采用比特币作为法定货币的传言。该国央行已澄清，它是该国唯一依法发行纸币和硬币的机构。同时，洪都拉斯央行明确表示，它“不监督或保证”在加密货币的帮助下进行的付款。此外，洪都拉斯央行称，将继续评估开发中央银行数字货币的可行性。此前消息，Finbold曾报道，洪都拉斯可能是继萨尔瓦多之后，下一个正式认定比特币为法定货币的国家。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[星球日报 | Yuga Labs完成4.5亿美元融资；美国佛罗里达州接受比特币纳税（3月24日）]]></title>
-        <id>https://www.0daily.com/post/5177374</id>
-        <link href="https://www.0daily.com/post/5177374"/>
-        <updated>2022-03-24T00:01:07.000Z</updated>
-        <summary type="html"><![CDATA[头条
-Yuga Labs以40亿美元估值完成4.5亿美元融资，a16z领投，Google、Samsung、Adidas等参投
-星球日报讯 Yuga Labs（Bored Ape Yacht Club发行方）今日宣布以40亿美元估值完成新一轮4.5亿美元融资，也是截至目前NFT行业最大一笔融资。本轮融资由a16z领投，Adidas Ventures, Animoca Brands, Samsung, Google Ventures, Tiger Global, FTX Ventures, Coinbase Ventures, Moonpay等参投。同时，a16z的合伙人Chris Lyons将加入Yuga Labs的董事会。
-
-美国佛罗里达州州长表示该州将接受比特币纳税
-美国佛罗里达州州长Ron DeSantis表示，他正在采取措施使公司能够以加密货币纳税。德桑蒂斯表示，他已指示国家机构准备好接受加密税收。（TheBlock）
-Acala联合9个波卡平行链团队启动2.5亿美元的aUSD生态基金，Jump crypto，Polychain，DCG等40家机构参与
-波卡DeFi平台Acala宣布与9个波卡平行链团队以及多个风险基金启动2.5亿美元的aUSD生态基金，支持孵化在 Polkadot 与 Kusama 生态中利用 aUSD 来构建应用的初创团队。
-参与该生态基金的波卡平行链包括Acala、Astar Network、Centrifuge、Efinity、HydraDX、Manta、Moonbeam、OriginTrail、Parallel和Zeitgeist。参与的风投机构包括1confirmation、Alameda、Hashkey、DCG、IOSG、Jump Crypto、Pantera Capital、Polychain Capital、DFG、SevenX等近4…]]></summary>
-        <author>
-            <name>十文</name>
         </author>
     </entry>
 </feed>
