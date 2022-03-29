@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-03-29 datetime="2022-03-29T05:44:54.000Z">2022-03-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-03-29 datetime="2022-03-29T05:44:54.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-03-29 datetime="2022-03-29T07:55:00.000Z">2022-03-29</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-03-29 datetime="2022-03-29T07:55:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -67,6 +67,143 @@
                   <a class="source-heading__link" href="https://www.0daily.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177526"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT数据日报 | 24小时NFT成交量下降41.81%，Meebits成为日交易量冠军（3.29）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177526">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
+宏观市场指标
+截至 3 月 29 日 15 时，NFT 整体市值 190.45 亿美元，较 24 小时前增长 0.17%；过去 24 小时内总交易量约 1.21 亿美元，日环比下降 41.81%。
+
+按市场占比，排前三的子领域分别为 PFP（52.01%）、Collectibles（16.45%）、Art（9.16%）。
+
+项目排名
+按过去 24 小时成交量，排名前五的项目分别为 Meebits（1691 万美元）、dotdotdots（1653 万美元）、Bored Ape Yacht Club（714 万美元）、World of Women Galaxy（615 万美元）和 Azuki（438 万美元）。
+
+按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为 The Art of Seasons（29.42%）、KIWAMI Genesis（21.85%）、Everai Heroes: Duo（17.23%）、Impostors Genesis Aliens（12.03%）和 Gaming Ape Club（8.87%）。
+
+特色数据
+过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：Unknown Signals #416、Unknown Signals #647、Unknown Signals #744、Unknown Signals #915 和 New York’s Colorful Characters #36。
+
+最受巨鲸欢迎项目排前五的分别是：World of Women Galaxy、KIWAMI Genesis、Azuki、Terraforms by Mathcastles 和 Art Blocks。
+
+元宇宙平台中，过去 24 小时内，Decentraland 上的地块最低成交价为 0.089 ETH、平均成交价为 1.4722 ETH；The Sandbox 上的地块最低成交价为 1.8352 ETH、平均成交价为 2.4467 ETH；Cryptovoxels 上的地块最低成交价为 0.55 ETH、平均成交价为 0.9645 ETH。
+
+欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
+相关阅读
+如何为元宇宙地块估价？
+格局打开：NFT持有者决定IP天花板
+浅谈NFT稀有度玄学</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177527"
+                        open
+                      >
+                        <summary class="article-expander__title">Cobo安全团队：Stargate跨链桥的底层协议LayerZero重大安全漏洞分析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177527">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>日前 Stargate 跨链桥的底层协议 LayerZero更新了默认的交易验证合约，经 Cobo 区块链安全团队分析，此次更新修复了之前版本中存在的严重漏洞，该漏洞可能导致所有依托 LayerZero 构建的跨链项目的资产受到影响。
+Stargate Finance 是近日最受人瞩目的跨链桥项目，截至发文时 TVL 已超过 35 亿美金。
+Stargate 跨链桥底层基于 LayerZero 实现跨链消息传递。LayerZero 完成跨链消息传递的基本原理是：
+
+Oracle 会将源链上的 blockhash 和 block receiptsRoot 提交到目标链上
+
+Relayer 会将源链上跨链消息所在交易的 receipt 以及该 receipt 与 block receiptsRoot 的路径关係提交到目标链上，此时目标链上的交易验证合约会基于 Ethereum MPT [1] 的依赖关係，对 Relayer 所提交的 receipt 和 Oracle 所提交的 receiptsRoot 的对应关係进行验证
+
+如果验证通过，该 receipt 被认为是合法的 receipt，并向上层协议转发，触发后续的跨链资产操作
+
+LayerZero 3 月 28 日在未发表任何公告的情况下更新了跨链使用的验证合约[2]。Cobo 安全团队通过对比原始验证合约（MPTValidator）和新验证合约（MPTValidatorV2）代码[3]，发现本次更新是对之前重大安全漏洞的修复。
+补丁核心代码如下：
+
+原始漏洞代码在进行 MPT 验证时，通过外部传入的 pointer 来获取下一层计算所用到的 hashRoot。这裡使用 solidity 底层 add, mload 等汇编指令从 proofBytes 中获取 hashRoot ，由于没有限制 pointer 在 proofBytes 长度内，因此攻击者可以通过传入越界的 pointer，使合约读取到 proofBytes 以外的数据作为下一层的 hashRoot。这样就存在伪造 hashRoot 的可能，进一步导致伪造的交易 receipt 可以通过 MPT 验证。最终可造成的后果是，在 Oracle 完全可信的前提下，Relayer 仍可以单方面通过伪造 receipt 数据的方式来实现对跨链协议的攻击，打破了 LayerZero 之前的安全假设。
+
+目前 LayerZero 协议的 Oracle 是一个类似多签的合约，三位 admin 中的两位提交相同的数据后，会被认为数据是有效的。但是 Relayer 是单签 EOA 控制，任何一个 Relayer 都可以提交攻击数据，完成所有的攻击流程。
+补丁后的代码使用传入的 path 并使用 safeGetItemByIndex 函数获取 MPT 下一层的 hashRoot，保证了 hashRoot 存在于当前的 proofBytes 中，从而可以使 MPT 验证正确的进行下去。
+此次爆出漏洞的代码是 LayerZero 协议中最核心的 MPT 交易验证部分的代码，是整个 LayerZero 及上层协议（例如 Stargate）正常运作的基石。虽然LayerZero项目方已经修复了目前明显的漏洞，但是不排除还存在其他被攻击漏洞的可能性。此外，LayerZero 项目的关键合约目前大都还被 EOA 控制，没有採用多签机制或者时间锁机制。如果这些特权 EOA 的私钥一旦泄漏，也可能会导致所有上层协议的资产受到影响。
+在此，Cobo 区块链安全团队提醒投资者注意新项目的风险，同时呼吁 LayerZero 项目方在对合约代码进行深度审计的同时，也尽快将目前 EOA 控制的特权转移给多籤或者时间锁合约，减少攻击风险敞口。
+Reference：
+https://eth.wiki/fundamentals/patricia-tree
+https://etherscan.io/tx/0xf4f0495bfed37d4d95b3342ead0962433c7973f240b9b0739faa91e6ccac9d40
+https://www.diffchecker.com/RJdDTCx7</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177525"
+                        open
+                      >
+                        <summary class="article-expander__title">时戳资本研报：从链到网络，深度解析价值网络模型</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177525">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：时戳资本
+
+概述：本篇研究使用价值网络模型发掘区块链行业的价值产生逻辑，并以此为基础制定估值模型。同时在网络视角下发掘每个细分赛道的价值汲取方式。最后从二级市场市值中认证价值网络模型。
+
+在传统的区块链一级市场估值领域，采用的基本都是比较估值。例如Uniswap（3月7日）的总市值83亿，那么在一个新的公链生态中，类似的AMM的DEX项目也可能估值8千万（百分之一），甚至上亿。
+比较估值长期被人诟病，因为比较估值非常受大盘影响。项目方都希望在融资时赶上牛市，项目可以因此被高估。VC方则更倾向于在熊市捡漏。但是不管如何，就项目从第一轮融资开始到最终上线，一到两年的时间，牛熊转化，风险在估值的环节就因集中而被放大了。
+但是比较估值却依然是无奈中为数不多的选择。首先，是区块链项目普遍缺乏现金流贴现模型中的现金流。尽管很多项目都试图创造出稳定的未来现金流，但是，并没有多少已有的项目能保证这种所谓的现金流。其次，区块链行业很多代码都是开源的，同一赛道的项目（比如AMM）的相似度确实可以很高，甚至有些项目就是直接分叉自其他的项目。
+随着市场的周期性大起大落，比较估值法就这么一边被人不满，一边为市场上大大小小的投资人们提供着基础的投资方法论。
+本篇研究从梅特卡夫定律和巴拉巴西成功定律出发，为市场提供一个新的社会网络价值模型。核心思路是将单个项目（赛道）的估值置于其身处的价值网络中评估，从而完成将区块链的估值从孤岛到网络的升维。
+研究的以下部分将从三个方面展开：第一部分将推演价值网络模型的理论构架；第二部分注重梳理已有区块链网络中的重要组成节点；第三部分将提供实证研究进行量化验证。
+一、理论部分
+对于一级市场投资研究，归根结底核心只有一个：估值。
+旧的比较估值法沿用的就是控制变量的实验法+分门别类的（分）科（治）学观。而且市场虽然可能存在其他估值法，但是目前并没有新的估值方法能同…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177522"
+                        open
+                      >
+                        <summary class="article-expander__title">36年游戏OG杀入GameFi，专访「街头霸王」制作人西门孟</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177522">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>作者 | 秦晓峰
+
+编辑 | 郝方舟
+出品 | Odaily星球日报
+
+
+主打「Play-To-Earn」的链游正在冲击传统游戏模式，开启新一轮的变革。
+数据显示，GameFi 赛道 2021 年累计获得 40 亿美元投资。参投方除了区块链领域基金，软银、红杉等传统投资机构也赫然在列。另外，《NBA Top Shot》、《Axie Infinity》等多个现象级产品的出现，也进一步推动链游市场出圈，吸引主流社会的关注。
+然而，在繁荣的景象下，危机也随之而来。一是打着链游旗号的的资金盘项目，肆意收割用户，败坏了链游口碑。二是热钱的涌入，助长了项目方的浮躁心理，经济模型设计漏洞百出，游戏可玩性及娱乐性断崖式下降……种种问题，都阻碍了链游市场进一步发展。
+近期，Odaily星球日报与一位资深游戏制作人——西门孟进行了深入交流。
+西门孟，一位在国际游戏业界耕耘了 36 年的知名游戏制作人，曾先后在美国艺电（EA）、索尼（Sony）、卡普空（Capcom）、雅达利（Atari）、盛大网络、创梦天地、金科文化等一流游戏公司担任要职，制作了多款脍炙人口的佳作，包括《麦登足球》、《越野狂飚》以及《街霸方块》等。
+预感到游戏产业即将发生的巨变，西门孟毅然选择转变赛道，进入链游生态，开发了 Miracle Universe Chain（简称 MU），一个致力于创建服务于元宇宙游戏的 SDK 平台。
+在西门孟看来，传统游戏的商业模式在过去 20 年没有大的变化，反应能力很慢，可能要被 GameFi 替代。“（传统游戏业）一个年代的衰退就要开始了，所以我决定，一定要加入 GameFi 新行业，弄懂它，否则总有一天我注定会被边缘化。我现在说这个话有点危言耸听，可是我觉得 3-5 年后大家应该就都会看出来。”
+Miracle Universe Chain 成立于 2021 年 3 月，平台的定位是「一…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -544,6 +681,42 @@ Instadapp 智能合约钱包
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/73907"
+                        open
+                      >
+                        <summary class="article-expander__title">WisdomTree推出追踪SOL、ADA和DOT的ETP</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/73907">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，3 月 29 日，据 CoinDesk 报道，投资公司 WisdomTree 推出了追踪 Solana (SOL)、Cardano (ADA) 和 Polkadot (DOT) 的新 ETP，目前已在 SIX Swiss 交易平台上市交易，并将于月底在阿姆斯特丹和巴黎的泛欧交易平台上市。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/73901"
+                        open
+                      >
+                        <summary class="article-expander__title">Viktor Radchenko将卸任Trust Wallet CEO，Binance营销副总裁接任</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/73901">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，3 月 29 日，Viktor Radchenko 在其社交平台发文表示将卸任 Trust Wallet CEO 一职，并表示将花更多时间在他的家人和有趣的项目上。Binance 现任营销副总裁 Eowyn Chen 将接替 Viktor。
+
+Viktor 表示将始终支持 Trust Wallet 团队，并继续作为用户、导师和社区贡献者提供服务。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.theblockbeats.info/flash/73874"
                         open
                       >
@@ -821,6 +994,722 @@ Bybit 联合创始人兼首席执行官 Ben Zhou 表示，「我相信随着虚�
                               <span>律动 BlockBeats 消息，3 月 28 日，Binance US 首席执行官 Brian Shroder 在 Binance 区块链周活动中表示，该交易平台计划在两到三年内进行首次公开​​募股（IPO），并在 4 月宣布数亿美元的融资。Brian Shroder 还强调，该交易平台并非 Binance 子公司，也不是附属公司。
 
 Binance US 将于 2022 年底在该国所有司法管辖区获得许可，它​​目前正在纽约、德克萨斯、爱达荷州、夏威夷和佛蒙特州寻求许可。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >PANews - 快讯</button>
+                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648536003686515.html"
+                        open
+                      >
+                        <summary class="article-expander__title">意大利银行UniCredit因非法关闭加密矿业公司账户被罚款1.44亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648536003686515.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据Cryptopotato报道，加密矿业公司Bitminer Factory子公司针对银行账户被UniCredit关闭提起诉讼，据波斯尼亚和黑塞哥维那当地城市巴尼亚卢卡地方法院裁定，UniCredit在波黑的分支机构将支付1.31亿欧元（约合1.44亿美元）罚款。据悉，Bitminer Factory子公司指控UniCredit错误地关闭了其在该银行巴尼亚卢卡当地分行持有的往来账户，法院表示该银行无法提供任何书面规则的证据阻止金融机构与加密公司建立业务关系，目前UniCredit已经对判决提出上诉。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648535773391514.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Yat Siu：有人提议批准AIP-4拒绝AIP-5，仅AIP-4无法运行Apecoin分配</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648535773391514.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，Animoca Brands联合创始人兼CEO Yat Siu今日在推特上表示：“Apecoin论坛已上线，我鼓励大家阅读有关AIP-4和AIP-5的讨论。特别是Matt Galligan提出了一个有趣的提议，即批准AIP-4但拒绝AIP-5。 实现AIP-4的步骤之一要求‘通过ApeCoin DAO起草并批准一项提案，以便为AIP-4分配ApeCoin。’ 这本质上意味着，为了实现AIP-4，社区需要批准一个质押提案，它不需要是AIP-5。如果社区认为AIP-4的支撑机制是可以接受的，批准AIP-4将允许基金会立即开始工作，这可能需要3.5-4.5个月的时间来安全地构建。批准AIP-4并拒绝AIP-5允许现在构建质押基础设施，同时让社区有更多时间讨论质押池并增加NFT质押上限的提议。没有社区批准，仅AIP-4就无法运行Apecoin分配。”根据Apecoin论坛，Matt Galligan表示：“不同意AIP-5是因为该提案尚未建立明确的质押上线，上限数字应该直接包含在提案中。虽然质押修订提案提议‘若AIP-5通过将提议对于BAYC生态系统NFT的持有者</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648532481675504.html"
+                        open
+                      >
+                        <summary class="article-expander__title">去中心化交易所Balancer正式上线veBAL机制</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648532481675504.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，去中心化交易所Balancer正式上线veBAL机制，用户可锁定80/20 BAL/ETH池的BPT（Balancer资金池的流动性代币凭证）获得veBAL。此前消息，Balancer计划参考CRV被锁定到veCRV中的机制设计，推出veBAL代币经济学，主要包括veBAL和治理权、新的BAL通胀时间表、链上计量系统（用于确定流动性挖矿分布）等，任何人都可以将80/20 BAL/ETH池的BPT锁定1周到1年之间的任何时间段而获得对应的veBAL。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648531926627003.html"
+                        open
+                      >
+                        <summary class="article-expander__title">zkSNACKs：设置黑名单是为了让比特币隐私技术生存下来</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648531926627003.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，zkSNACKs官方博客今日发文称，两周前，赞助Wasabi Wallet开发的公司zkSNACKs宣布将拒绝某些UTXO注册到由公司协调的coinjoins，设施黑名单是为了实现更大的目标，即让最好的比特币隐私技术得以生存。随设置黑名单并不可取，但对于比特币隐私的未来而言，这是一个很小的代价。zkSNACKs强调，黑名单不是为了要禁止俄罗斯人，为了确保项目的生存，该公司选择按照社会要求的方式行事，即使其在哲学上并不与之保持一致。Wasabi Wallet的匿名技术导致了法律挑战，这迫使该公司在停止运营或引入黑名单之间做出选择。如果没有zkSNACKs公司，继续资助开发Wasabi 2.0的开发人员将更加困难。因此，为了项目不中断，该公司选择引入黑名单。此前消息，Wasabi钱包的混币服务CoinJoin将与非法活动相关的比特币列入黑名单。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648530142065151.html"
+                        open
+                      >
+                        <summary class="article-expander__title">网石CEO：今年将专注区块链技术和NFT相关新业务</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648530142065151.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据Block Media报道，韩国手游巨头网石CEO权宁植今日举行的第11次定期股东大会上表示，今年将通过专注于区块链技术和NFT的新业务，引领全球游戏行业。权宁植称：“我们将依次发布新的区块链项目。最近，元宇宙和区块链正在成为全球热门话题。我们将不会让股东失望。为了让网石发展并取得又一次飞跃，我们付出了巨大的努力来保护和研究和开发下一代技术，如区块链、元宇宙和NFT。”此前消息，网石于去年8月份设立元宇宙子公司。今年3月份，网石子公司宣布与游戏引擎Unity就开发元宇宙平台展开合作，此外，网石就其旗下区块链生态系统MBX的技术开发与区块链公司Ozys达成合作。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648528970719145.html"
+                        open
+                      >
+                        <summary class="article-expander__title">日本央行行长：目前没有发行CBDC的计划，要做好准备以应对环境变化</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648528970719145.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据日经新闻报道，日本央行行长黑田东彦表示，虽然日本央行的立场没有变化，目前也没有发行央行数字货币（CBDC）的计划，但我们认为重要的是要做好充分准备，以适当的方式应对环境变化。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648528145145143.html"
+                        open
+                      >
+                        <summary class="article-expander__title">报告：V神的EIP-4844提案中两个内存池问题需得到解决</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648528145145143.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，Fairyproof今日发布关于V神提出的EIP-4844提案研究报告，报告称，此EIP在以太坊客户端和汇总解决方案的实施中引入了重大变化，虽然可能不会引入明显的漏洞，但是新引入的blob交易可能会导致两种内存池问题。第一个是blob交易具有可变的内在GAS成本，这会使内存池受到攻击，因为交易可能有资格被包含在一个区块中，但可能没有资格被包含在下一个区块中。为防止此类攻击，该EIP建议仅广播“gas至少为当前最小值的两倍”的交易，以大大增加合法交易被包含在区块中的机会。第二个是blob交易在内存池层具有较大的数据量，这会使内存池暴露于DoS攻击。该EIP建议将“mempool替换的最小增量从1.1倍增加到2倍”以增加攻击者的成本，从而减少其攻击尝试。就安全性而言，开发人员必须在代码中解决这些问题。此外，报告称，用户应该注意，这两项建议是为了应对对内存池的攻击，如果它们被实施，则意味着如果非恶意用户希望交易得到及时处理，需要支付符合这些建议的Gas费用。此前消息，以太坊创始人V神分享EIP-4844提案，该提案建议用proto-danksharding代替扩</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648526575219138.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Compound通过奖励减半提案，将推出新奖励计划</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648526575219138.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ANews 3月29日消息，Compound治理社区页面信息显示，Compound 92号提案已经通过，包括Polychain Capital、MonetSupply、GFX Labs、Pantera Capital和Blockchain At UCLA等机构均投出赞成票，这意味着Compound现有规则中的COMP奖励将减半。92号提案指出，根据现有奖励计划，Compound奖励即将分发完毕，这对于现有用户及Compound持有者十分不利，因此将提出一个新的奖励计划以替代现有计划。此前3月16日消息，Compound建设者提议将COMP奖励减少50%并在一个月后降至0，之后升级利率模型和引入替代奖励计划。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648525112328632.html"
+                        open
+                      >
+                        <summary class="article-expander__title">加密富翁和Greenpeace等组织发起活动呼吁社区改变比特币交易方式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648525112328632.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据彭博社报道，加密亿万富翁Chris Larsen和生态非政府组织Greenpeace在内的几个气候活动团体正在发起一项名为“改变代码，而不是气候”(Change the Code, Not the climate)的活动，旨在向比特币社区施压，要求其改变交易方式。Larsen表示，比特币交易的耗电量已经相当于瑞典，五年内比特币消耗的能源可能会和日本一样多。活动认为，大约50名关键矿工、加密货币交易所和核心开发人员有权更改比特币的代码。该活动将在下个月在主要出版物上购买广告。Greenpeace、环境工作组和一些与比特币矿工作斗争的当地维权组织也在动员数百万成员参与此次草根活动。据该活动负责人Michael Brune介绍，该活动已经接触了十几家关键人物和公司，其中一些人参与比特币业务，但承诺遵守环境、社会和治理（ESG）法规。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648523835701628.html"
+                        open
+                      >
+                        <summary class="article-expander__title">元宇宙项目Bloktopia计划今年发布钱包及P2E游戏，并开启新一轮NFT土地销售</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648523835701628.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，元宇宙项目Bloktopia今日公布了2022年新技术产品路线图。第二季度计划开启新一轮NFT土地销售，并计划支持多链代币、HDRP到URP格式、发布Bloktopia钱包、多个头像选择、私钥商店所有权访问、模块化商店功能、多人游戏、NFT API、用户语音聊天等功能。第三季度计划发布一款Play to Earn游戏，将支持自定义头像集成、Bloktopia钱包集成、与虚拟助理在店内聊天、允许用户购买和交易NFT以在Bloktopia中使用、角色交互、跨多个设备的优化和集成，也将完善REBLOK  ADBLOK 奖励收集系统。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648523314966626.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国参议院批准价值520亿美元的芯片补贴法案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648523314966626.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据新浪科技报道，美国参议院周一再次批准了一项向美国半导体芯片制造商提供520亿美元补贴的法案，希望在经过了长达数月的讨论后达成妥协。此次投票以68票赞成、28票反对的结果将该立法返回到众议院。这是一个繁琐的程序，最终将会启动名为“会议”（conference）的流程，让两院议员就妥协版本达成协议。美国参议院在去年6月份首次通过了芯片立法。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648522953946124.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Binance US首席执行官：自2021年第四季度以来，公司净利润已超Uber</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648522953946124.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据Forkast报道，Binance US首席执行官Brian Shroder表示，自2021年第四季度以来，该公司的净利润已经超过了Uber。据悉，优步去年第四季度的净收入为8920亿美元。此前消息，Brian Shroder表示Binance US 有望在两到三年内进行 IPO，将于4月宣布“几亿美元”的融资。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648521924612120.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Binance Labs宣布投资公链项目Aptos Labs</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648521924612120.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据官方公告，Binance Labs宣布投资公链项目Aptos Labs，双方将在开发、代码审查、基础设施建设和黑客马拉松方面密切合作。此次投资为Aptos最新一轮融资的一部分。 3月15日，Aptos完成2亿美元战略融资，a16z领投，Tiger Global、Katie Haun、Multicoin Capital、Three Arrows Capital、FTX Ventures和Coinbase Ventures等参投。据悉，Aptos是Facebook稳定币项目Diem前团队成员发起的公链项目。目标是建立一个更具可扩展性的区块链，使用Move编程语言以及BFT共识协议，旨在为数十亿用户提供服务。相关阅读：【文章】了解新生公链Aptos：Diem原班人马再造公链的“出埃及记”</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648521649766118.html"
+                        open
+                      >
+                        <summary class="article-expander__title">消息人士：加密交易所FTX正考虑设立FoF基金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648521649766118.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据Blockworks报道，三位知情人士透露，加密货币交易所FTX考虑设立一个FoF基金（Fund of Funds），为外部数字资产投资组合经理提供投资者资金。FoF是一种专门投资于其他证券投资基金的基金，将有限合伙人的资金池分配给经过审查的外部对冲或风险投资经理。一位消息人士称，这项努力还处于早期阶段，该交易所及其美国子公司 FTX.US 最近几周已经与律师探讨了这种可能性。如果FTX继续推进，该基金可能会以超过 1 亿美元的价格开始交易，消息人士补充说，机构对这种产品有“很大兴趣”。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648521356433116.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国CFTC在2023财年预算中为扩大加密货币培训寻求资金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648521356433116.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据The Block报道，美国商品期货交易委员会（CFTC）在其最新的2023财年预算提案中要求提供额外的培训资源，以支持对新数字资产的评估。CFTC强调了加密领域的风险格局，指出利用数字创新和探索数字资产使用的衍生品清算组织 (DCO) 的数量正在增加。此外，根据该机构的声明，那些使用加密货币的人面临额外的风险，需要来自大宗商品监管机构的评估。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648520826162114.html"
+                        open
+                      >
+                        <summary class="article-expander__title">元宇宙平台Cryptovoxels官方Discord遭攻击，部分用户NFT被盗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648520826162114.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，元宇宙平台Cryptovoxels发推表示，今天凌晨一个未知的攻击者通过（可能是）官方正在使用的Discord机器人中的漏洞，在 Discord 的“announcements”频道发布消息，从而将用户引导到一个承诺0.01 ETH的网络钓鱼站点，导致用户将MetaMask钱包连接到钓鱼站点并签署交易后，钱包中的NFT被攻击者全部转走。目前Cryptovoxels已将骗子从Discord中删除，并删除了所有机器人，重置了所有角色和权限，官方仍在努力确定有多少账户受到影响，将于随后进行情况更新。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648520653587612.html"
+                        open
+                      >
+                        <summary class="article-expander__title">派盾：BNB DEFI发生Rug Pull，损失达255枚BNB</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648520653587612.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，派盾在推特上表示，BNB DEFI发生Rug Pull，DEFI代币短时下跌68%。目前该项目已关闭其社交媒体群组，损失达255枚BNB。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648520392752111.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Pak新项目：计划为铸造失败受损用户退还Gas费</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648520392752111.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，NFT铸造平台Manifold Studio在推特上表示，导致Pak新NFT项目铸造失败的原因可能有一下三点：1.激进的机器人攻击导致Gas暴涨；2.MetaMask的Gas估算问题；3.买家手动更改Gas费用估算（gas 限制）。该团队计划为因此受损的用户退还Gas费，正式通知将在具体细节敲定后发布。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648519992462609.html"
+                        open
+                      >
+                        <summary class="article-expander__title">LayerZero旗下跨链桥Stargate Finance曾出现漏洞，目前已修复</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648519992462609.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，区块链互操作性协议LayerZero联合创始人兼CTO@ryanzarick发推透漏，他们在研究Optimism团队警告的一次无风险攻击的过程中发现，旗下跨链桥Stargate Finance的验证库存在潜在风险，并在上周部署了新的验证库，目前已完成更新和验证。@ryanzarick称该问题是此前多次审计中的一个疏漏。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648519722014608.html"
+                        open
+                      >
+                        <summary class="article-expander__title">港交所行政总裁：港交所将于今年推出数字平台</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648519722014608.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据金十报道，香港交易所（00388.HK）行政总裁欧冠升表示，港交所将于2022年推出数字平台，并扩大国际业务范围。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648519536512107.html"
+                        open
+                      >
+                        <summary class="article-expander__title">DAO Maker推出V2版本，包括跨链稳定币挖矿、多链升级等新功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648519536512107.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据官方消息，DAO Maker宣布推出V2版本，新版本将在此前IDO的单一功能上推出跨链稳定币挖矿产品、多链升级、风险挖矿MVP等新功能，旨在向多元投资平台转型。DAO Maker即将推出的跨链稳定币挖矿产品允许ERC-20稳定币持有者通过存入USDC、BUSD、DAI、Wrapped UST、USDT和FRAX等稳定币上赚取收益。此外，该产品将于4月初上线BNB Chain。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648519371207605.html"
+                        open
+                      >
+                        <summary class="article-expander__title">澳大利亚加密交易所BTC Markets支持万事达卡支付</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648519371207605.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据Forkast报道，澳大利亚加密货币交易所BTC Markets与万事达卡合作，允许其客户通过直接借记、预付或信用卡付款从平台购买加密货币。此举是万事达卡和Visa等支付巨头将加密货币功能纳入其服务的更广泛趋势的一部分。去年，万事达卡与CoinJar合作推出了该国首批由澳大利亚加密货币交易所支持的加密支付卡之一。据悉，在政界人士提出对该行业进行监管和征税的一波提案之后，澳大利亚加密货币行业正在为广泛的监管措施做好准备。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648519222227604.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT市场Blur完成1100万美元种子轮融资，Paradigm领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648519222227604.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据TheBlock报道，NFT市场Blur宣布完成1100万美元种子轮融资，Paradigm领投，eGirl Capital、Keyboard Monkey、LedgerStatus、0xMaki、Santiago Santos、Zeneca、Deeze、Andy（Fractional）等机构和天使投资人参投。据悉，Blur致力于强化NFT的基础设施，满足专业交易者对NFT市场的需求，推动机构采用NFT，同时提升去中心化。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648519069680603.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Polygon公布PoS链停机分析报告：修复Heimdall链时软件发布顺序有误导致脱机</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648519069680603.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，Polygon官方昨日公布了Polygon PoS链于近日停机事故的分析报告。报告称，Polygon PoS包含两个主要组件：Heimdall链是基于招标的权益证明验证者层，而Bor链是基于geth的区块生产者层。Heimdall链的状态同步机制存在问题，在修复过程中，软件发布的顺序和第二个错误导致两个服务脱机。但用户资金和数据没有丢失。此外，团队也公布了改进方案，表示正在通过添加动态交易gas限制、增加块gas限制和添加批量状态同步交易使Heimdall更加安全，并将进一步重新设计Heimdall/Bor架构。与此同时，团队招聘了具有技术应急管理方面的专业知识的新员工，将快速处理网络状态。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648518730148601.html"
+                        open
+                      >
+                        <summary class="article-expander__title">越南副总理指示政府和央行就创建加密法律框架进行合作</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648518730148601.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据Bitcoin.com报道，越南副总理Le Minh Khai已指示该国财政部、司法部和信息与通信部与越南央行就创建加密货币法律框架进行合作。该国副总理已责成财政部主要负责与其他监管机构和央行达成协议，以确定需要修改、补充和颁布的具体立法，并建议具体的时间框架用于实施。加密货币的法律框架将根据越南总理于2017年8月21日发布的第1255号决定中规定的细节创建。此外，Triple A的研究表明，目前有超过590 万人（占越南总人口的 6.1%）拥有加密货币。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648518205251598.html"
+                        open
+                      >
+                        <summary class="article-expander__title">若将GBTC转换为比特币现货ETF的申请被拒绝，灰度或考虑起诉SEC</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648518205251598.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据Decrypt报道，灰度首席执行官Michael Sonnenshein表示，如果到7月6日的截止日期，该公司将灰度比特币信托（GBTC）转换为比特币现货ETF的申请仍被美国证券交易委员会（SEC）否决，他将考虑起诉SEC。Sonnenshein在回答有关诉讼的问题时说：“我认为所有选择都摆在台面上了。”据悉，灰度为了将管理逾285亿美元资产的GBTC转换为ETF已经努力了几个月。但至今，SEC尚未批准任何比特币现货ETF上市。SEC直到去年才批准比特币期货ETF上市，Sonnenshein称比特币期货ETF上市“令人兴奋”，但人们渴望更多选择，“目前美国有逾80万客户都在翘首以盼何时能将GBTC转换为ETF”。但他也认为“现货比特币ETF获批只是时间问题，而非会不会的问题”。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648518054149096.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Terra首席执行官：自1月底以来已购买超10亿美元的比特币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648518054149096.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据彭博社报道，Terraform Labs首席执行官Do kwon证实，自1月底以来，他已购买了超过10亿美元的比特币。截至目前，Terra生态非营利组织Luna Foundation Guard（LFG）对应地址（bc1q9d4ywgfnd8h43da5tpcxcn6ajv590cg6d3tg6axemvljvt2k76zs50tv4q）比特币余额约为27785 BTC。此前3月17日消息，Terra创始人计划积累100亿美元比特币作为储备。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648517481979588.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Liquid前员工：未参与该交易所黑客攻击，自己是替罪羊</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648517481979588.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据CoinDesk报道，加密货币交易所Liquid Global前日本产品和营销主管Marisa McKnight称自己并没有参与交易所遭受的黑客攻击事件，而是被当作替罪羊。Liquid Global首席营销官Chi Tran和首席信息官Graeme Doherty表示，调查机构正在等待在美国和日本对Marisa McKnight进行调查，有证据表明她的工作笔记本电脑参与了黑客攻击。此前2021年8月份消息，Liquid称其热钱包遭到攻击，损失约7100万美元，随后从FTX 获得1.2亿美元债权融资。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648517238303086.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国财政部提案：持有超5万美元的海外加密账户必须向IRS报告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648517238303086.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，美国财政部在新发布《绿皮书》中提出了一项提案，要求美国金融机构向美国国税局（IRS）报告有关外国账户持有人美国海外帐户税收合规法（FATCA）所要求的全面信息，价值超过5万美元的外国金融账户必须向IRS报告。该提案称纳税人可以在不离开美国的情况下与境外数字资产交易所和钱包提供商进行交易，有机会隐藏资产和应税收入，为了确保美国能够受益于有关离岸数字资产的全球自动信息交换框架，并获得有关美国受益人的信息。美国必须对等地提供某些实体在数字资产交易中的外国受益人的信息。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648516772029583.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国职业摔角联盟将通过Fanatics旗下Candy Digital发行NFT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648516772029583.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>据Decrypt报道，美国职业摔角联盟（WWE）与体育平台Fanatics签署了一项协议，通过Fanatics的数字收藏品公司Candy Digital设计和发行NFT。根据一份联合声明，NFT交易卡将展示WWE一些最知名的选手，并描绘一些最受关注的时刻。据悉，WWE现有的交易卡授权协议将在“未来几年内”到期。届时Fanatics和Candy Digital将成为WWE交易卡的独家供应商。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648516634431582.html"
+                        open
+                      >
+                        <summary class="article-expander__title">世界黄金协会等正在开发基于区块链的黄金溯源数字系统</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648516634431582.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据彭博社报道，伦敦金银市场协会（London Bullion Market Association）和世界黄金协会（World Gold Council）周一发布联合声明，宣布正开发一个基于区块链的黄金溯源数字系统，以追踪黄金从矿场到金库的整个供应链流程。该倡议旨在提高供应链透明度，防止由犯罪团伙或在冲突地区开采的黄金流入银行金库。第一阶段倡议将涵盖黄金供应链的各个层面，从矿商到精炼商，也包括渣打等银行。伦敦金银市场协会CEO Ruth Crowell表示，该区块链不会完全公开，但供应链不同阶段的参与方将获得访问权限。世界黄金协会首席执行官David Tait称此举是迈向代币化世界的重要一步。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648516053936080.html"
+                        open
+                      >
+                        <summary class="article-expander__title">新加坡电竞公司Ampverse完成1200万美元A轮融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648516053936080.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据TechCrunch报道，新加坡电竞公司Ampverse完成1200万美元A轮融资，Falcon Capital领投，原有投资者Vulpes和Gandel Invest，以及迪士尼前东南亚董事总经理Rob Gilby、GoGame首席执行官David Ng、文化集团CEO Michael Patent、Lagadere and Wolfpack Fund前副总裁Marcus John等个人参投。根据PitchBook和其他第三方平台的数据，这是东南亚电竞组织筹集的最大一笔A轮融资。新资金将用于向印尼和菲律宾扩张，收购更多电竞战队，以及扩展旗下的玩赚（play-to-earn）部门。Ampverse成立于2019年，旗下有泰国电竞品牌Bacon和MiTH，越南战队SBTC Esports及印度战队7Sea。其玩赚业务让玩家可以通过Axie Infinity、Townstar和Spider Tanks等游戏赚取奖励，玩家也可以得到专业电竞选手的培训。据悉，该公司过去12个月收入增长125%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648515634162078.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国2023年预算报告：预计未来10年通过更新加密税收规则带来100亿美元的收入</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648515634162078.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据The Block报道，美国拜登政府公布了2023年的预算报告，该年度预算为5.8万亿美元，预计赤字为1.15万亿美元，其中还包含一些关于美国政府针对加密货币长期计划的内容。报告显示，白宫提议更新数字资产规则，主要通过扩大纳税申报要求，预计将在未来10年带来超过100亿美元的新收入。此外，报告还指出，将向司法部额外拨款520亿美元，用于雇佣更多的特工和获取分析服务，作为“政府重视破坏性活动和打击滥用加密货币的反勒索软件战略的一部分”。除了白宫的预算，财政部还公布了未来四年的战略计划。该计划强调了金融稳定监督委员会（FSOC）在应对“针对金融稳定日益增长的新型威胁，重点关注气候变化和数字资产风险”方面的作用，这与财政部扩大FSOC在加密领域作用的工作相一致。今年3月早些时候，拜登总统发布了有关数字资产的行政命令。该命令主要委托一系列联邦机构进行研究，而不是呼吁广泛打击数字资产。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648514486150575.html"
+                        open
+                      >
+                        <summary class="article-expander__title">MetaMask Mobile v4.3.1上线，iOS版本支持Visa和MasterCard</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648514486150575.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，MetaMask官方推特宣布MetaMask Mobile v4.3.1已上线，并公布了一些重大更新。包含：1.暗屏模式，适配设备全局暗屏模式；2.iOS版本除支持借记卡外，新增支持Visa和MasterCard，使购买加密货币更加方便；3.DApp发来请求时，会显示具体合约，并可进行标记，使交互更加透明；4.支持一些网络的无Gas费交易。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648514306649074.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国参议院财政委员会主席质疑加密矿工对“机遇区”税收减免的使用</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648514306649074.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据彭博社报道，美国参议院财政委员会主席Ron Wyden正在调查“机遇区”(Opportunity zone)是否像预期的那样推动低收入社区的投资和创造就业，加密挖矿公司是他调查的最新目标。到目前为止，收到Ron Wyden与调查有关的信函的公司包括Redivider Blockchain Opportunity Zone Fund LLC、Argo Blockchain 和HCVT LLP。据悉，通过特朗普执政期间共和党主导的2017年税制改革，创建了一个名为“机遇区”的计划。该计划旨在为在经济欠发达地区开发和投资的投资者提供利益。而Ron Wyden表示，他“对最近的报道感到担忧，即参与加密货币挖矿的公司可能正在寻求避税，而没有通过机会区计划使陷入困境的社区真正受益。”他说，目前机会区计划中缺乏保障措施和透明度措施，增加了纳税人只是在补贴参与加密货币挖矿的公司的可能性。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648513400044571.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国SEC提案扩大对“交易商”的定义，或对DeFi行业造成冲击</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648513400044571.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据CoinDesk报道，美国证券交易委员会（SEC）的一项新提案致力于扩大对证券交易商的定义，可能会对DeFi行业造成冲击。扩大的定义范围将涵盖使用自动和算法交易技术执行交易或在市场上提供流动性的个人和企业。虽然表面上是针对美国国债电子交易者，但提案的一个注脚指出，拟议规则也适用于已被视为证券的数字资产。加密研究公司Delphi Digital总法律顾问Gabriel Shapiro在推特上表示，如果该提案被接受并执行，或会扼杀技术，并称其是对去中心化金融的全面影子攻击。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648513076808569.html"
+                        open
+                      >
+                        <summary class="article-expander__title">韩国主题公园爱宝乐园将发行郁金香NFT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648513076808569.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据《亚洲经济》报道，韩国三星物产度假村集团旗下的主题公园爱宝乐园宣布，将于4月2日至6日发行“郁金香NFT”，以纪念其郁金香节30周年。此前消息，区块链服务平台PlayDapp宣布与三星物产度假村事业部（SamsungCTResortDivision）合作推出爱宝乐园元宇宙。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648512677177567.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Milkomeda C1已发布，可为Cardano提供EVM兼容性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648512677177567.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，Milkomeda基金会在其官方博客上宣布，它已经发布了Milkomeda C1，为Cardano（ADA）提供 EVM（以太坊虚拟机）兼容性。这允许用户在Cardano和Milcomeda C1侧链之间转移资产，Milkomeda C1使以太坊dApp能够部署在Cardano生态系统中。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648512093040065.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国快餐连锁店Arbys申请元宇宙相关商标</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648512093040065.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月29日消息，据U.today报道，美国最大的快餐连锁店之一Arbys已向美国专利商标局 (USPTO) 申请商标，以成为元宇宙的一部分。它的文件表明它计划提供虚拟食品和饮料产品。该公司还打算经营一家以虚拟商品和实际商品为特色的虚拟餐厅。根据该商标的一项申请，虚拟餐厅还将提供送货上门服务。</span>
                             </span>
                           </div>
                         </a>
@@ -6706,362 +7595,10 @@ DeFiance Capital 一位名为「jacob.defiance」的代表在 Lido DAO 社区发
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-03-24 datetime="2022-03-24T13:13:04.000Z">2022-03-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-03-24 datetime="2022-03-24T13:13:04.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PANews - 快讯</button>
-                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648127583819186.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Phi Labs完成2100万美元种子轮融资，CoinFund与Hashed领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648127583819186.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，Cosmos智能合约平台开发商Phi Labs完成2100万美元种子轮融资，CoinFund与Hashed领投，1confirmation、IDEO CoLab、Figment、Blockchain Capital、Wintermute、Chorus One、stake.fish、Lemniscap、Cosmostation和Hypersphere Ventures等参投。 新融资将用于员工扩充、产品开发和构建Archway协议。该团队目前有大约20名全职员工，计划到年底达到50名以上。据了解，Phi Labs开发的Archway协议是一个基于Cosmos并奖励开发者的激励性智能合约平台，该协议为开发人员提供了快速构建和启动可扩展的跨链DApp的工具，并因DApp对网络的贡献而获得奖励。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648126673996420.html"
-                        open
-                      >
-                        <summary class="article-expander__title">链游开发商 Red Door Digital 完成500万美元种子轮融资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648126673996420.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，据CoinDesk报道，台湾链游开发商Red Door Digital(RDD)完成 500 万美元的种子轮融资，投资方包括 M6、Shima Capital、Maven Capital、Cryptology Asset Group 和 LucidBlue Ventures 等。该笔资金将用于构建工作室专有的博弈论模型，以推动了游戏内经济的可扩展性和可持续性。Red Door Digital 旨在为新兴的 Web 3 生态系统打造高品质游戏，主要成员是来自 EA Games、Ubisoft 和腾讯的高管。Red Door Digital 目前有三款游戏正在开发中，第一款《Reign of Terror》将于2022年夏天发布。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648126352769917.html"
-                        open
-                      >
-                        <summary class="article-expander__title">LG电子在其公司章程的新领域中增加加密资产和区块链</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648126352769917.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息， LG电子（LG Electronics Inc.）在年度股东大会上宣布，将加密货币资产和区块链技术列入公司章程的新领域。在加密和区块链业务领域，该公司的目标是启动加密资产经纪和交易业务，以及基于区块链的软件开发和销售。据《韩国经济日报》3月24日报道，韩国企业集团LG电子在其公司章程中增加了三个业务领域，包括加密货币、区块链和医疗设备。股东在2022年年度大会上投票通过了新的业务目标。当被问及公司是否正在考虑建立一个加密货币交易所时，公司发言人说：“什么都还没有决定。我们刚才泛泛地提到了商业领域。”此前LG电子继三星之后，最近也表示了对NFT的关注。今年2月，该公司与Kakao Corp.旗下区块链平台GroundX合作，在其智能电视模型上推出沉浸式NFT体验。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648124308905907.html"
-                        open
-                      >
-                        <summary class="article-expander__title">俄罗斯要求竞选公职的候选人披露加密货币持有量</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648124308905907.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，据News.bitcoin报道，俄罗斯杜马（众议院）议会通过了一项法案，要求公开竞选公职候选人的加密货币持有情况。因此，在俄罗斯竞选公职的候选人必须在竞选公职前向有关当局提交个人及其直系亲属持有的加密货币数量及其获取途径。此外，如果候选人在购买加密货币前三年持有超过其家庭总收入的金额，则他/她必须报告过去三年与购买加密货币有关的所有交易。该法案在议会通过后 10 天生效。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648122945737101.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：Azuki NFT 24 小时成交额排名第一</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648122945737101.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，据NFTScan数据显示，Azuki NFT 最近 24 小时成交额 8582 ETH，成交笔数 290 笔，平均成交价格是 29.5 ETH。在 NFT Collections 中排名第一位。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648122691793599.html"
-                        open
-                      >
-                        <summary class="article-expander__title">央行：扎实推进数字人民币研发试点 有序扩大试点范围</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648122691793599.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，中国人民银行今日召开2022年货币金银和安全保卫工作电视会议。会议要求，2022年人民银行货金保卫系统要要全力保障现金供应，巩固形成整治拒收现金长效机制，继续提升流通中人民币整洁度，进一步筑牢反假货币工作防线。扎实推进数字人民币研发试点，有序扩大试点范围，持续完善设计和使用，逐步建立健全管理制度框架。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648122497897598.html"
-                        open
-                      >
-                        <summary class="article-expander__title">英国央行金融政策委员会称将定期评估加密资产和DeFi带来的潜在风险</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648122497897598.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，英国央行网站发表关于该行下设的英国金融政策委员会（FPC）关于加密资产和去中心化金融对金融稳定的影响和看法的报告，报告称，FPC 将定期评估加密资产和 DeFi 带来的潜在风险，目前正在采取可以缓解此类风险的举措，还在监控加密资产市场和活动可能引发英国金融稳定风险的渠道，包括系统性金融机构风险、核心金融市场风险、支付风险以及对实体经济资产负债表的影响等。FPC 认为，目前，加密资产对英国金融体系的直接风险有限，但如果其继续快速增长，并且随着与金融体系的联系越来越紧密，就会带来更多金融稳定风险。随着加密资产和 DeFi 市场的发展，需要在国内和全球层面加强监管和执法框架，这些框架不仅应缓解风险，还应鼓励可持续性创新，并在金融市场中保持信任和完整性。另外，FPC 还表示，由商业银行存款支持的系统性稳定币会引发不良的金融稳定风险，需要进一步的工作来评估稳定币监管模式带来的影响。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648122325303596.html"
-                        open
-                      >
-                        <summary class="article-expander__title">一乌克兰难民携带2000美元比特币抵达波兰</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648122325303596.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，据Decrypt报道，一名化名为 Fadey 的乌克兰难民带着价值 2,000 美元的比特币抵达波兰，该比特币保存在 USB 驱动器中。 据报道，这些资金约占他一生储蓄的 40%。Fadey称：“我可以把我的助记词写在一张纸上，然后随身携带。”Fadey 还表示，他与朋友进行了点对点交易，并将价值 600 美元的比特币储蓄换成了波兰的国家货币兹罗提。他用这些资金支付了前往波兰的交通费、旅馆和一些食物。除了他持有的比特币，Fadey 还在 Binance 上持有数量不详的隐私加密货币Monero。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648119473240874.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：LayerZero旗下跨链桥协议Stargate锁仓额突破20亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648119473240874.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，基于 LayerZero 的跨链流动性协议 Stargate Finance在推出一周后锁仓额突破 20 亿美元。Stargate 是基于 LayerZero 首个跨链流动性应用，目前更类似于一个跨链稳定币兑换协议，用户可以在 LayerZero 上进行跨链转移或兑换（非封装资产）、提供稳定币单边流动性和质押原生 STG 获取治理代币 veSTG（暂未开放）。据悉，LayerZero 是一个全链（omnichain）互操作性协议，支持 Layer 1 以及 Layer2 间的跨链通信，目前已上线以太坊、Avalanche、Polygon、BNB Chain、Fantom、Arbitrum 和 Optimism。来源链接相关阅读：PANews实操体验：基于LayerZero建立的跨链桥Stargate有哪些优势？</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648118676492871.html"
-                        open
-                      >
-                        <summary class="article-expander__title">元宇宙项目TeaDAO完成460万美元种子轮融资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648118676492871.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，元宇宙算法稳定币项目 TeaDAO 宣布完成 460 万美元种子轮融资，投资方包括 Shima Capital、Signum Capital、UOB Venture Management、PNYX、HyperChain、MXC、Spark Digital、Mapleblock、Momentum 6、DFG、JSquare、AU21 Capital、X21、Fomocraft、LD Capital、Basics Capital、Parsiq、Newave Capital、CoinW Venture、NFV Venture、7 O&#x27;Clock Capital、ZBS Capital、AVStar、HG Ventures、Satoshi 和 Token Hunter 等。TeaDAO 旨在构建一个结合 DeFi 2.0、GameFi 和元宇宙的生态系统，计划于 2022 年推出主网，最初会在 BNB Chain 和以太坊上运行，之后会扩展到其他链。TeaDAO 将使用 NFT-as-Bonding-Assets 机制，遵循 OlympusDAO 代币经济学，核心</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648118143748869.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Yat Siu针对ApeCoin DAO提案相关疑问回应社区</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648118143748869.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，Animoca Brands 联合创始人兼 CEO Yat Siu 发推文回应社区关于 Animoca Brands 提出的提案中质押池的相关疑问。Yat Siu 表示，AIP-5 中提到的四个质押池，虽然有三个是为 BAYC 生态 NFT 持有者提供的，但他们想要获得质押收益同样需要质押 APE，并与其 NFT 配对，NFT 只是起到“钥匙”的作用。如果 NFT 持有者在质押 APE 期间卖掉 NFT，这意味着他同时失去了获取质押收益的“钥匙”。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648115369187261.html"
-                        open
-                      >
-                        <summary class="article-expander__title">匿名买家斥资 235 ETH在Gem平台购买10枚MAYC系列NFT</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648115369187261.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，据 Etherscan 数据显示，匿名买家（地址：0xf8c9cf133252a1a0b2c4b527381eaa94eaef62a6）通过 Gem平台 以 235.33 ETH（约合 72 万美元）购买了 10 枚 MAYC 系列 NFT。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648114085514753.html"
-                        open
-                      >
-                        <summary class="article-expander__title">过去24小时内，Cardano链上的ADA质押量飙升72%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648114085514753.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，据外媒报道，在美国加密货币交易所Coinbase宣布推出 Cardano（ADA）质押服务后，Cardano 链上的ADA质押量在过去24小时内增长了72.15%。ADA 市场价格也较前一交易日上涨 17.33% 至 1.14 美元，重返市值排名第 7 位。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648113707585752.html"
-                        open
-                      >
-                        <summary class="article-expander__title">疑似Terra创始人Do Kwon地址今日增持2925枚BTC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648113707585752.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，据 KingData 数据监控，疑似Terra 创始人Do Kwon的BTC钱包地址（bc1q9d4ywgfnd8h43da5tpcxcn6ajv590cg6d3tg6axemvljvt2k76zs50tv4q）今日增持2925 枚 BTC，自2022年1月27日起该地址开始持有BTC，目前累计共持有18,423枚BTC，价值 7.9 亿美元。此前消息，Terra创始人Do Kwon透露计划将UST的比特币储备增加到30亿美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648112382835842.html"
-                        open
-                      >
-                        <summary class="article-expander__title">报告：44%的德国人愿意投资加密货币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648112382835842.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，Cointelegraph援引KuCoin的一份报告发现，44%的德国人表示他们愿意投资加密货币。37%的德国加密货币投资者表示他们已经投资加密货币一年多。4%的人表示他们已对加密货币投资了6年以上，18%的人表示他们在1年内开始了首次投资。30%的受访者认为加密货币是一种可靠的价值储存手段，29%的受访者表示他们希望通过加密货币实现经济独立。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648112257478841.html"
-                        open
-                      >
-                        <summary class="article-expander__title">高盛官网推出“加密货币与元宇宙”见解板块</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648112257478841.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，高盛（Goldman Sachs）官网首页发布《数字化：从加密货币到元宇宙，探索正在重塑经济的大趋势》见解板块，在该板块中主要有元宇宙与 Web3、欧洲的数字经济、区块链与去中心化网络等几个主题，每个主题包含多篇相关报告。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648112117956839.html"
-                        open
-                      >
-                        <summary class="article-expander__title">“SEC诉Ripple”案进展：SEC要求法院允许其修改与第三方的部分会议记录</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648112117956839.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，据U.today报道，美国证券交易委员会（SEC）提出了一项新的动议，要求法院允许其修改与第三方的部分会议记录。SEC辩称，这些票据受到审议过程特权(DPP)的保护，这是一项保护机构内部信息的普通法原则。 SEC打算修改的备忘录包括2014年SEC前数字资产和创新高级顾问Valery Szczepanick在与斯坦福大学教授Nocep Grundfest和当时的SEC专员Daniel Gallagher就比特币法律地位的一次会议上起草的一份备忘录。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648109925964834.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Yield Guild Games和链游ForN合作组建“YGG Japan”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648109925964834.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月24日消息，据Coinpost报道，链游公会Yield Guild Games与日本链游公司ForN合作组建“YGG Japan”。YGG Japan计划为日本用户提供全新的概念服务，并寻求使用日本IP的区块链游戏的全球扩张。据报道，Animoca Brands也正在洽谈投资“YGG Japan”。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2056971005">
-        <time id="build-timestamp" datetime="2022-03-29T07:08:41.582Z">2022-03-29T07:08:41.582Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2057254285">
+        <time id="build-timestamp" datetime="2022-03-29T08:14:05.516Z">2022-03-29T08:14:05.516Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
