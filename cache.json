@@ -2360,6 +2360,26 @@
       "siteUrl": "https://www.0daily.com",
       "articles": [
         {
+          "id": "https://www.0daily.com/post/5177567",
+          "author": "慢雾科技",
+          "description": "2022 年 03 月 29 日，Axie Infinity 侧链 Ronin Network 发布社区预警，Ronin Network 出现安全漏洞，Ronin Bridge 共 17.36 万枚 ETH 和 2550 万枚 USDC 被盗，损失超 6.1 亿美元。慢雾安全团队第一时间介入分析，并将分析结果分享如下。\n\n相关信息\nRonin 是以太坊的一个侧链，专门为链游龙头 Axie Infinity 而创建，它自称是将朝着「NFT 游戏最常用的以太坊侧链」方向发展。据了解，Axie Infinity 的团队 Sky Mavis 想要一个可靠、快速且廉价的网络，从而为游戏的发展提供保障。他们需要一个以游戏为先的扩容方案，它不仅要能经得起时间的考验，还得满足游戏快速发展所带来的大量需求。于是，Ronin 链便应运而生了。\n黑客地址：\n0x098B716B8Aaf21512996dC57EB0615e2383E2f96\n攻击细节\n据官方发布的信息，攻击者使用被黑的私钥来伪造提款，仅通过两次交易就从 Ronin bridge 中抽走了资金。值得注意的是，黑客事件早在 3 月 23 日就发生了，但官方据称是在用户报告无法从 bridge 中提取 5k ETH 后才发现这次攻击。本次事件的损失甚至高于去年的PolyNetwork 被黑事件，后者也窃取了超过 6 亿美元。\n事情背景可追溯到去年 11 月，当时 Sky Mavis 请求 Axie DAO 帮助分发免费交易。由于用户负载巨大，Axie DAO 将 Sky Mavis 列入白名单，允许 Sky Mavis 代表其签署各种交易，该过程于 12 月停止。但是，对白名单的访问权限并未被撤销，这就导致一旦攻击者获得了 Sky Mavis 系统的访问权限，就能够通过 gas-free RPC 从 Axie DAO 验证器进行签名。Sky Mavis 的 Ronin 链目前由九个验证节点组成，其中至少需要五个签名来识别存款或取款事件。攻击者通过 gas-free RPC 节点发现了一个后门，最终攻击者设法控制了五个私钥，其中包括 Sky Mavis 的四个 Ronin 验证器和一个由 Axie DAO 运行的第三方验证器。\n\n\n\nMistTrack\n在事件发生后，慢雾第一时间追踪分析并于北京时间3 月 30 日凌晨1:09发声。\n\n据慢雾MistTrack反洗钱追踪系统分析，黑客在 3 月 23 日就已获利，并将获利的 2550 万枚 USDC 转出，接着兑换为 ETH。\n\n\n而在 3 月 28 日 2:30:38，黑客才开始转移资金。\n据慢雾 MistTrack 分析，黑客首先将 6250 ETH 分散转移，并将 1220 ETH 转移到 FTX、1 ETH 转到 Crypto.com、3750 ETH 转到 Huobi。\n\n值得注意的是，黑客发起攻击资金来源是从 Binance 提币的 1.0569 ETH。\n\n目前，Huobi、Binance 创始人均发表了将全力支持 Axie Infinity 的声明 ，FTX 的 CEO SBF 也在一封电子邮件中表示，将协助取证。\n\n\n截止目前，仍有近 18 万枚 ETH 停留在黑客地址。\n\n目前黑客只将资金转入了中心化平台，很多人都在讨论黑客似乎只会盗币，却不会洗币。尽管看起来是这样，但这也是一种常见的简单粗暴的洗币手法，使用假 KYC、代理 IP、假设备信息等等。从慢雾目前获取到的特殊情报来看，黑客并不“傻”，还挺狡猾，但追回还是有希望的，时间上需要多久就不确定了。当然，这也要看执法单位的决心如何了。\n总结\n本次攻击事件主要原因在于 Sky Mavis 系统被入侵，以及 Axie DAO 白名单权限维护不当。同时我们不妨大胆推测下：是不是 Sky Mavis 系统里持有 4 把验证器的私钥？攻击者通过入侵 Sky Mavis 系统获得四个验证节点权限，然后对恶意提款交易进行签名，再利用  Axie DAO 对 Sky Mavis 开放的白名单权限，攻击者通过 gas-free RPC 向 Axie DAO 验证器推送恶意提款交易获得第五个验证节点对恶意提款交易的签名，进而通过  5/9 签名验证。\n最后，在此引用安全鹭（Safeheron）的建议：\n1、私钥最好通过安全多方计算（MPC）消除单点风险；\n2、私钥分片分散到多台硬件隔离的芯片里保护；\n3、大资金操作应有更多的策略审批保护，保证资金异动第一时间由主要负责人获悉并确认；\n4、被盗实际发生时间是 3 月 23 日，项目方应加强服务和资金监控。\n参考链接：\nRonin Network 官方分析",
+          "link": "https://www.0daily.com/post/5177567",
+          "publishedOn": "2022-03-30T09:50:57.000Z",
+          "wordCount": 3,
+          "title": "慢雾：损失超6.1亿美元，详解Ronin Network黑客事件始末",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.0daily.com/post/5177566",
+          "author": "深潮TechFlow",
+          "description": "硅谷第一孵化器 Y Combinator 也曾是 WEB3 明星企业的摇篮，Coinbase、OpenSea等从这里走出。\n\n一个有意思的事情是，Y Combinator 的金融科技和加密货币负责人 Harj Taggar 最近接受The Block时透露，当 Coinbase 参加 2012 年夏季计划时，YC 并不相信Crypto。\n如今，越来越多的加密初创企业出现在 YC 的DEMO DAY中，在最新的 W22 中，有25家初创企业加入其中，这是来自Techcrunch记者Lucas Matney 的搜集整理，与大家分享。\nSimpleHash\n简介：“SimpleHash允许Web3开发人员从单个API查询所有NFT数据。我们为多个区块链编制索引，处理边缘案例，提供快速媒体CDN，并且可以在几行代码中集成。”\n创始人：Alex Kilkka之前是NFT社交网络Showtime的联合创始人，Olly Wilson是Portage Ventures的EIR。\n评价: NFT市场在Ethereum上已经取得了巨大的进步，但众所周知，未来任何与NFT相关的主流都将依赖于降低交易成本的第二层区块链。这为初创公司创造了机会，同时也给他们带来了跨链难题，SimpleHash正在试图将其简化。\nNFTScoring\n简介：“ NFTScoring是你发现、分析和交易NFT的地方。我们为您提供了在任何特定时刻了解NFT市场、做出最佳决策和采取更快行动的超级能力。”\n创始人:David Mokoš和Adam Zvada之前共同创建了人工智能实验室Cognitic和超本地交付平台GoDeliver。\n评价：NFTScoring正试图为NFT交易者构建一个更好的网站主页，该网站旨在解释一些使部分NFT比其他NFT更有价值独特的属性，同时帮助用户尽早找到趋势性的项目。其至关重要的一点是通过跟…",
+          "link": "https://www.0daily.com/post/5177566",
+          "publishedOn": "2022-03-30T09:39:43.000Z",
+          "wordCount": 3,
+          "title": "Web3明星企业的摇篮Y Combinator近期又选中了哪些加密初创公司？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.0daily.com/post/5177561",
           "author": "秦晓峰",
           "description": "作者 | 秦晓峰\n编辑 | 郝方舟\n出品 | Odaily星球日报\n\n提到 Flow Network（福洛链），你会想到什么？很多人第一反应是，火遍全球的《NBA Top Shot》的底层网络。\n诚然，作为 Flow 公链上的第一个应用，《NBA Top Shot》在 2020 年成为爆款，成功出圈，也被视为 Flow 的典型代表。然而，人们可能并未留意到，经过一年多的发力，Flow 上各类应用和用户量呈指数级增长。\n仅以 NFT 这一细分领域来看，Flow 已与多个全球知名品牌、IP 以及音乐家达成合作，发行数字艺术纪念品，包括国际奥委会、NBA、UFC、NFL、ICC（国际板球理事会）、全球音乐品牌 Billboard、环球音乐集团、华纳音乐、《进击的巨人》、摇滚艺术家 David Bowie 等等。正因如此，Flow 也被称为「NFT 公链」。\n然而，Flow 链上远不只有 NFT，DeFi 和 DAO 也势头正劲，包括稳定币 FUSD、USDC，DeFi 设施 Increment.Fi、跨链桥 cbridge 以及Emerald DAO、 DAO collective、Thing.fund 等围绕 DAO 做着创新实践的组织和各种 DAO 治理工具。数据显示，截止目前，Flow 主网上已超过 1000 多个应用，覆盖收藏、艺术、游戏、DeFi、元宇宙、体育、音乐和 DAO 等诸多领域。并且，Flow 主网钱包地址超过 430 万个，单日交易量突破 100 万笔（2 月18 日）。\n早在 2018 年创建之初，Flow 公链及其开发商 Dapper Labs 就将受众瞄向主流用户，目标是为加密市场持续引入增量，而非与其他公链进行存量之争。经过三年，Flow 已经初步实现构想，但要想达成终极目标——为数十亿用户建立一个更丰富的 Web3 世界，Flow 还有很长的路要走…",
