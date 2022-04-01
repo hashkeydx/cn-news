@@ -51,11 +51,59 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-02 datetime="2022-04-01T15:38:35.000Z">2022-04-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-02 datetime="2022-04-01T15:38:35.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-02 datetime="2022-04-01T17:00:05.000Z">2022-04-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-02 datetime="2022-04-01T17:00:05.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - 快讯</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/74633"
+                        open
+                      >
+                        <summary class="article-expander__title">游戏NFT市场Fractal完成3500万美元种子轮融资，Paradigm和Multicoin Capital领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/74633">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 2 日，Twitch 联合创始人在 Solana 上推出的游戏 NFT 市场 Fractal 完成 3500 万美元种子轮融资，本轮融资由 Paradigm 和 Multicoin Capital 领投，Andreessen Horowitz (a16z)、Solana Labs、Animoca Brands、Coinbase Ventures 等参投，天使投资人包括 Terraform Labs 首席执行官 Do Kwon。融资将用于加快开发进度。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/74642"
+                        open
+                      >
+                        <summary class="article-expander__title">匿名买家在Gem平台以68.28 ETH购买29枚胖企鹅系列NFT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/74642">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 2 日，据 Etherscan 数据显示，匿名买家（地址为 0xac965cbf63b404b22b9bd9ca633596dfa832557c）通过 Gem 以 68.28 ETH（约合 23.3 万美元）购买了 29 枚 Pudgy Penguins（胖企鹅）系列 NFT。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -10335,76 +10383,6 @@ Nexus Mutual 的 Wartortle 行动特别决议投票已获批…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177493"
-                        open
-                      >
-                        <summary class="article-expander__title">详解「BLOG」：如何用DeFi重塑加密游戏经济模型？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177493">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Kydo, Llama &amp; Aiko,Folius Ventures
-原文编译：TechFlow
-
-
-感谢 Nat and Nicolas (Crypto Raiders), Nate (Bancor), Jason (Folius), Jerry (Stepn), TY (Cradlesio), PhABC and Salvator (Horizon), Bailey (Defiance), Cyn Bahati (moongateguild), and Raymond Chng
-
-深潮 TechFlow 获授权编译发布中文版本。
-引言
-所有经济体的成功都离不开一个平衡、可持续的货币体系。然而，游戏经济还没有在其货币供应和需求之间找到平衡——游戏内的货币具有极端波动性，这给所有利益相关者带来了极大的挑战。
-游戏内的货币价格都可以被抽象为燃烧和铸造之间博弈的关系，燃烧是由游戏中的消费驱动的，如升级、推进、繁殖和交易；铸造是由游戏中的活动驱动的，如任务和 PvP。当人们大多数注意力都集中在调整燃烧（需求产生）和铸造（供应产生）之间复杂的平衡时，很少有人在考虑这些系统的金融性质。
-Aiko 和我将在本文中介绍几个经过严峻考验的 DeFi 原语，以填补这一空白。同时，我们将会用一个对玩家友好的方式嵌入它们。
-加密货币游戏的困境
-旧的货币化模式是不可持续的。淘金者（矿工）不断从一个游戏转移到另一个游戏，制造虚假繁荣，留下动荡的局面。
-即使有了 Ronin 公链和新的 Axie 游戏，RON 的价格已经减半，SLP 也没有看到任何上升的势头。因此，学者们不得不离开这片被过度开垦的土地，迁移到其他地方，比如 Avalanche 和 Polygon。
-以 5 万 DAU 几乎占领了菲律宾市场的 Pegaxy 也没能维持下去。随着越来越多的玩家加入，VIS（Pegaxy 的代币）…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177491"
-                        open
-                      >
-                        <summary class="article-expander__title">Foresight Ventures市场周报：市场多维度向好，链游赛道融资加速</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177491">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>市场观点：
-现货观点：
-
-
-本周BTC持续上涨。技术层面是整体偏多，BTC处于周线级别调整尾声，当前上涨距离牛熊分界线已是近在眼前。ETH周线级别突破，这次ETH明显强于BTC，主要是转POS减产影响。
-宏观上，美联储资产负债表继续扩张，至8.9625万亿美元，是08年底的11倍，过去两周扩张了510亿美元。以此速度，两周之内将到9万亿美元。这周美国免除部分中国商品关税，帮助美国去通胀，有利于加息放缓，对美股与加密市场形成利好。同时俄罗斯考虑用BTC支付石油和天然气。
-链上观点
-交易所的巨鲸指标（Whale Ratio）观察到，巨鲸与散户之间的行为出现重大分歧。从去年年底开始，由于美联储加息与缩表预期，双方都进行了减仓。但是2月底以来，巨鲸不再恐慌，认识到市场或已充分消化缩表影响，逐渐将资金带回市场。另一方面，散户仍然处在熊市思维当中，保持在很低的交易频次。
-
-稳定币数据显示，USDT市值占比已到达周期顶部区间，大变盘就在朝夕。历史上每当稳定币重新下场（例如20年10月，21年7月），BTC都会迎来新一轮宏观上升趋势。
-
-本周链上数据跟踪到，标记为SBF的聪明钱地址加仓约3.5亿美元。USDT在波场增发7.4亿美元，表明有新资金入场。
-期货观点
-本周期货市场情绪偏空。各交易所的BTC多空比下降，永续资金费率为负，未平仓合约量上升，表明刚刚这轮上涨之后，大部分人开始开单做空。
-
-
-
-市场热点
-1、ETH
-ETH在2.0开发上有了重大突破，随着测试网kiln成功升级为完整的POS共识机制，预计6月有望正式合并。ETH当前每天产出约1.2万个ETH，一旦转为POS后，产出会减少90%，相当于BTC的三次减半，即每天产出约1300个。近期ETH每天销毁约2000个，即未来每天负增长700个。而ETH网络活跃的时候，每天销毁约2万个。
-
-2、STG
-Stargate是基于LayerZ…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10545,42 +10523,6 @@ Stargate是基于LayerZ…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648448388460781.html"
-                        open
-                      >
-                        <summary class="article-expander__title">加密投资公司ETC Group推出Avalanche、Cosmos和Polygon ETP</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648448388460781.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月28日消息，据U.today报道，根据ETFStream周一发布的一份报告，英国加密投资公司ETC Group推出了三种新的加密货币交易所交易产品，追踪三种加密货币的价值：Avalanche(AVAX)、Polygon(MATIC)和Cosmos(ATOM)。新的投资工具已在苏黎世的瑞士证券交易所和法兰克福的德意志交易所上市。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1648447992653779.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Secret Network创始人提议参考Luna-UST经济模型，扩展生态系统</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1648447992653779.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月28日消息，据官方论坛，隐私区块链Secret Network创始人兼CEO guy发起社区讨论，提议参考并复刻LunaUST的Burn-to-swap经济模型，扩展Secret Network的生态系统，从而让SCRT成为生态系统的焦点货币，譬如通过销毁SCRT能够以无滑点的方式铸造另一种货币。目前首批候选项目中，计划至少支持一个稳定币，并至少与有一个MPC项目合作，将Secret Network作为其Cosmos L1，同时随着时间推移，可以使用社区治理添加其他代币。为实现该目标，后续可能会进行硬分叉，向合约或模块发布新的非流通SCRT。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10588,8 +10530,8 @@ Stargate是基于LayerZ…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2078971208">
-        <time id="build-timestamp" datetime="2022-04-01T18:11:09.767Z">2022-04-01T18:11:09.767Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2079228737">
+        <time id="build-timestamp" datetime="2022-04-01T19:07:12.898Z">2022-04-01T19:07:12.898Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
