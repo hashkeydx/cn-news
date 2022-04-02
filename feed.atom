@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-02T09:08:11.419Z</updated>
+    <updated>2022-04-02T10:10:58.655Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[被红杉领投两轮的「Skiff」，能否成为去中心化协同应用的独角兽？]]></title>
+        <id>https://www.0daily.com/post/5177689</id>
+        <link href="https://www.0daily.com/post/5177689"/>
+        <updated>2022-04-02T09:06:59.000Z</updated>
+        <summary type="html"><![CDATA[去年，一份关于郑州暴雨的救援文档引发了关注。这篇文档记录了待救援人员、可支援物资、可避险地点等信息。有超过 250 多万次的访问量，并更新了上百个版本。从最初的一行文字，到有独立首页 9 个功能 sheet 的救援工具，仅仅用了 21 个小时。这对于传播途径受阻的灾区来说，充当了很好的传播媒介，并拯救了很多人。
+能够在这么短的时间内，跨组织、跨地域的调动起全国的力量去完成救援信息编辑，腾讯文档的“协同”作用功不可没。
+协同办公工具并不是一个新鲜事物，但是此次救援活动，让大家再次审视了它的重要性。因为它支持多人、多端高效协作共享，这让跨组织、跨地域的文件协同编辑成为可能。
+但同时，此次事件也暴露出了当前多人协作所存在的问题。例如访问人数太多，数据存储容量有限，导致无法同时在线编辑。
+
+此外，为了方便更多人填写，该文档的权限设置是“所有人可查看和编辑”，但这样一来也就意味着信息有了被随意查看甚至篡改的风险。比如当时被编辑的信息太多，有责任心的网友会大字提示：“别乱搞文件！！！！”
+
+以及该文档的创建者 Manto 在接受采访时表示“希望在汛情结束之后，文档里的隐私信息能够抹去或进行遮盖”。
+
+那么如何能让协同工具在发挥效用的同时注重数据安全和隐私保护？或许去中心化协同工具能给出答案。
+
+从一开始就以隐私为重
+
+Skiff 是一个去中心化的协同办公工具。具有与 Google Docs 类似的文档编写和共享功能。Skiff 将 E2EE （端到端加密技术）作为在线工作的核心设计原则，它被用于消息传递、写作、协作和通信。Skiff 服务器只会存储加密版本的数据，而无法破译它。
+用户每次登录 Skiff 时，浏览器都会生成一个密钥，该密钥用于在成功登录后解密由 Skiff 的服务器发送到您设备的帐户数据，并且都是在本地发生的。从中派生的密钥永远不会通过任何网络发送和存储在 Skiff 的服务器中。
+具体操作流程：当 A 编辑了一份文档后，会使用仅在他和 B 之间共享的对称加密密钥对其进行加密（该密钥不会与 Skiff 共享），B 接收到 A 的加密编辑后，执行验证和解密，然后将其合并到文档中。整个过程，数据不会泄露给任何中央技术提供商。这样便于验证和保护个人和敏感信息。
+此外，Skiff 设计了一个有限的访问权限。当有共享协作者时，你可以通过设置过期控件来限制其进一步的访问。
+如果文档中有一些敏感内容不方便公开，也可以通过设置密码锁将其保护起来。这样一来，即使有人公开共享该链接，信息创建者也可以限制访问其中的内容。
+
+
+在数据存储方面，Skiff 宣布与 IPFS 集成。在 IPFS 上，数据被复制并分布在参与计算机的网络中，这些计算机协同工作以确保存储在网络上的所有数据的完整性和持久性。所以使用 IPFS 就可以永久访问用户数据，并无需依赖中央提供商。
+
+Web3 的登录方式
+
+随着 Web3 对互联网的持续渗透，MetaMask 已然成为新的身份登陆形式。2021 年 12 月上，Skiff 也开始支持 MetaMask 钱包登录，让用户使用现有的密钥对（以太坊地址）访问 Skiff 上端到端加密文档和数据。
+紧接着，在今年1月，Skiff 又可以使用以太坊域名服务（ENS）名称来简化 Skiff 上的用户名。
+
+
+3 月 31 日，Skiff 宣布完成 1050 万美元 A 轮融资，本轮融资由红杉资本领投。值得注意的是，在去年 5 月红杉资本就参与领投了 Skiff 420 万美元种子轮，资方还包括一群在隐私和去中心化领域拥有深厚专业知识的天使投资人：Mozilla 前首席执行官 John Lilly、Coinbase 前首席技术官 Balaji Srinivasan、TCG 加密投资者 Gaby Goldberg 和来自 Dropbox 和以太坊基金会的 Albert Ni。
+
+目前，Skiff 属于早期阶段，已支持浏览器、iOS 和安卓版本。根据使用场景和功能分为个人和团队两个版本，每个版本又包含免费和付费两个选项，其在功能和存储容量上有所区分。
+
+
+此外，Skiff 与 Coinbase Commerce 进行合作，允许用户使用加密货币支付 Skiff 费用。
+协同文档的使用场景越来越多，尤其是在疫情期间，居家办公成为主流，这种形式也简化了人们线上办公的流程，成为企业和个人的共同需求。相信结合了区块链技术的 Skiff 能够被更多用户捕捉到其优势，同时让去中心协同工具成为新的市场热点。]]></summary>
+        <author>
+            <name>十文</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[公链项目Phantasma遭黑客攻击，团队将部署新的Token合约]]></title>
         <id>https://www.theblockbeats.info/flash/74699</id>
@@ -16,6 +60,38 @@
 团队现已关闭跨链功能，并提醒用户尽快将 Pancakeswap 以及 Uniswap 中的流动性撤出，团队将会快照攻击前的 Token 份额并部署新的 Token 合约并空投给用户。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFT数据日报 | PREMINT Collector Pass - OFFICIAL在过去24小时内最受巨鲸欢迎（4.2）]]></title>
+        <id>https://www.0daily.com/post/5177684</id>
+        <link href="https://www.0daily.com/post/5177684"/>
+        <updated>2022-04-02T07:25:36.000Z</updated>
+        <summary type="html"><![CDATA[NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
+宏观市场指标
+截至 4 月 2 日 15 时，NFT 整体市值 192.86 亿美元，较 24 小时前增长 0.54%；过去 24 小时内总交易量约 2.79 亿美元，日环比增长 21.88%。
+
+按市场占比，排前三的子领域分别为 PFP（51.89%）、Collectibles（16.35%）、Art（9.09%）。
+
+项目排名
+按过去 24 小时成交量，排名前五的项目分别为 dotdotdots（4321 万美元）、Azuki（2909 万美元）、Arcade Land（1129 万美元）、Meebits（905 万美元）和 Bored Ape Yacht Club（494 万美元）。
+
+按过去 24 小时流动性指标（注：流动性=交易量 / NFT 总供应量），排名前五的项目分别为 Arcade Land（36.96%）、PXIN GXNG（36.67%）、PREMINT Collector Pass - OFFICIAL（28.15%）、Akuma Origins（25.26%）和 Sneaky's Internet Friends（20.89%）。
+
+特色数据
+过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：Cosmic - Pisces、GHIDORAH GODZ #3760、GHIDORAH GODZ #3761、BeanBag Fren #216 和 BeanBag Fren #4163。
+
+最受巨鲸欢迎项目排前五的分别是：PREMINT Collector Pass - OFFICIAL、Azuki、Arcade Land、World of Women Galaxy、CyberBrokers V3 和 KIWAMI Genesis。
+
+元宇宙平台中，过去 24 小时内，Decentraland 上的地块最低成交价为 2.9768 ETH、平均成交价为 6.3659 ETH；The Sandbox 上的地块最低成交价为 1.845 ETH、平均成交价为 2.5623 ETH；Cryptovoxels 上的地块最低成交价为 0.8478 ETH、平均成交价为 1.2573 ETH。
+
+欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
+相关阅读
+专题 | Azuki交易量大涨，背后的价值逻辑是什么？
+格局打开：NFT持有者决定IP天花板
+浅谈NFT稀有度玄学]]></summary>
+        <author>
+            <name>不一样的NFT</name>
         </author>
     </entry>
     <entry>
