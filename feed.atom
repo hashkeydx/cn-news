@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-02T15:07:27.415Z</updated>
+    <updated>2022-04-02T16:10:27.322Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[融资3500万美元的NFT平台Fractal会成为游戏行业的「颠覆者」吗？]]></title>
+        <id>https://www.0daily.com/post/5177699</id>
+        <link href="https://www.0daily.com/post/5177699"/>
+        <updated>2022-04-02T14:36:31.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 Decrypt，原文作者：Andrew Hayward
+Odaily 星球日报译者 | 念银思唐
+
+摘要：
+- Solana 游戏 NFT 市场 Fractal 获得 3500 万美元的种子轮融资。
+- 该平台的联合创始人是 Justin Kan，他之前是 Twitch 的联合创始人。
+流媒体视频平台 Twitch 的联合创始人 Justin Kan 相信，从长远来看，NFT 将对游戏行业产生更大的影响。现在，他的新 NFT 游戏初创公司已经完成种子轮融资，将用于帮助实现这一愿景。
+今天，Solana NFT 游戏平台 Fractal 宣布完成由Paradigm和Multicoin Capital共同领投的 3500 万美元种子轮融资，Paradigm 联合创始人 Matt Huang 加入了这家初创公司的董事会。Kan 是该平台的联合创始人，该平台于去年 12 月推出，是面向用于视频游戏的 Solana NFT 的市场和 Launchpad。
+除了 Paradigm 和 Multicoin 之外，此轮融资的参投方还包括 Andreessen Horowitz（a16z）、Solana Labs、Animoca Brands、Coinbase Ventures 和 Play Ventures。Zynga 创始人 Mark Pincus、Terraform Labs 首席执行官 Do Kwon 和企业家 Tim Ferriss 也参与了本轮融资。
+在宣布这一消息之前，Kan 接受了 Decrypt 的采访，并表示他早在 10 年前就开始涉足比特币领域，最后出于“FOMO”在 2013 年左右购买了一些比特币。2017 年，他考察了以太坊和可编程智能合约（支持 NFT 创建和交易的代码）的机遇，但当时不相信区块链网络能够支持高性能、用户友好的游戏平台。
+“当我从技术角…]]></summary>
+        <author>
+            <name>念银思唐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GameFi平台GEMS完成500万美元融资，Project Seed等参投]]></title>
+        <id>https://www.theblockbeats.info/flash/74747</id>
+        <link href="https://www.theblockbeats.info/flash/74747"/>
+        <updated>2022-04-02T14:23:40.000Z</updated>
+        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 2 日，据 NewsChannelNebraska 报道，GameFi 平台 GEMS 宣布完成 500 万美元融资，本轮融资由 Project Seed、FOTA、DreamQuest、World Overlay、Moon Ray、Starverse (AAA Games) 、IG、Gain Associates、Crypto Vietnam、Kenzo Ventures、Plutus.vc 等参投。
+
+GEMS 是 GameFi（游戏金融）、Esports（电子竞技）、Metaverse（元宇宙）和 SocialFi（社交金融）四个单词首字母。目前 GEMS 已和 30 多个区块链和电竞协会达成合作。据悉，GEMS 下一步计划推出 NFT 市场和 DeFi 联盟。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[近期头部加密风投机构押注的早期项目一览]]></title>
         <id>https://www.0daily.com/post/5177695</id>
@@ -6502,245 +6534,6 @@ NFT精神史：罐头、青蛙和平凡人的15分钟英雄梦想
         <link href="https://panewslab.com/zh/sqarticledetails/1648528145145143.html"/>
         <updated>2022-03-29T04:29:05.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月29日消息，Fairyproof今日发布关于V神提出的EIP-4844提案研究报告，报告称，此EIP在以太坊客户端和汇总解决方案的实施中引入了重大变化，虽然可能不会引入明显的漏洞，但是新引入的blob交易可能会导致两种内存池问题。第一个是blob交易具有可变的内在GAS成本，这会使内存池受到攻击，因为交易可能有资格被包含在一个区块中，但可能没有资格被包含在下一个区块中。为防止此类攻击，该EIP建议仅广播“gas至少为当前最小值的两倍”的交易，以大大增加合法交易被包含在区块中的机会。第二个是blob交易在内存池层具有较大的数据量，这会使内存池暴露于DoS攻击。该EIP建议将“mempool替换的最小增量从1.1倍增加到2倍”以增加攻击者的成本，从而减少其攻击尝试。就安全性而言，开发人员必须在代码中解决这些问题。此外，报告称，用户应该注意，这两项建议是为了应对对内存池的攻击，如果它们被实施，则意味着如果非恶意用户希望交易得到及时处理，需要支付符合这些建议的Gas费用。此前消息，以太坊创始人V神分享EIP-4844提案，该提案建议用proto-danksharding代替扩]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一波未平一波又起：欧盟新提案将「打击」非托管加密钱包]]></title>
-        <id>https://www.0daily.com/post/5177518</id>
-        <link href="https://www.0daily.com/post/5177518"/>
-        <updated>2022-03-29T04:08:54.000Z</updated>
-        <summary type="html"><![CDATA[本文来自 Decrypt，原文作者：Scott Chipolina
-Odaily 星球日报译者 | 念银思唐
-
-欧盟正在考虑一种监管方法，而这将打击加密货币的“非托管钱包”，即不由第三方中介持有的钱包。
-流行的非托管钱包包括 MetaMask、WalletConnect，或像Ledger和Trezor这样的硬件钱包。  
-欧盟委员会（European Commission）已提交一份文本，要求加密服务提供商从客户那里获取个人信息。
-“在加密资产从或向非第三方持有的加密资产钱包（即所谓的‘未托管钱包’）转移的情况下，加密资产服务提供商或其他有义务的实体应从其客户（无论是发起者还是收款人）获取并保留所需的发起者和收款人信息。”拟议的欧盟委员会文本指出。根据现行法律，任何超过 1000 欧元（约合 1099 美元）的银行转账都需要确定收款人身份。
-此外，如果服务提供者注意到所提供的信息不准确、不完整或有疑点，则应在“风险敏感基础上”评估是否拒绝或暂停交易，以及是否向相关金融情报单位报告交易。
-自该提案开始流传以来，加密行业表达了强烈不满。Coinbase 首席政策官 Faryar Shirzad 在推特上表示，“最新的草案可能会严重侵犯个人财务自由，对加密经济造成不可弥补的伤害，并扼杀整个欧盟的创新未来。”
-现在专注于加密监管的荷兰央行前政策分析师 Simon Lelieveldt 对该提议的批评更为严厉。
-“如果你想扼杀隐私，这是最好的方法，”他告诉 Decrypt，“随着时间的推移，这种做法不可能站得住脚，但在 15 年的时间里，仍然会造成很多损害。”
-欧洲议会将于 2022 年 3 月 31 日（周四）就这一提案的措辞进行投票。
-实际上，这已经不是欧盟第一次提出相关加密规则“触怒”加密行业。本月早些时候，欧盟对 PoW 区块链技术进行了另一项关键投票，紧接着就有了这项提议。
-“PoW 禁令”风波
-今年 2 月底，欧盟立法者准备就管理加密资产的拟议法规进行机构间讨论，并可能禁止比特币等能源密集型加密货币。一份草案显示，即将讨论的加密资产市场（MiCA）监管方案包括一项条款，该条款可能在欧盟 27 个成员国限制 PoW 共识机制的使用。
-然而，出于业内强烈反对等考虑，本月早些时候，欧盟立法者同意在 MiCA 监管方案中取消所有可能提及的 PoW 挖矿禁令。不过需要注意的是，新草案的一个版本中包含类似的条款，但与最初的条款相比有了明显的弱化。它表示，加密资产“在欧盟发行、提供或允许交易之前，就其用于验证交易的共识机制而言，应遵循最低的环境可持续性标准。”
-根据该条款，如果 PoW 机制在小范围内运作，则无需满足可持续性标准。什么才算是小规模运行还有待确定。它还表示，在该立法生效之前，欧盟范围内已经在使用的能源密集型加密资产，将必须“建立并维持一个分阶段推出的计划，以确保符合该框架另一部分规定的要求”。
-3 月 14 日，欧洲议会经济和货币事务委员会正式投票否决了该方案的先前版本，其中包含了对 PoW 加密货币挖矿的“事实上”禁令。
-3 月 25 日，MiCA 监管方案开始进入下一阶段的讨论。此前，欧盟立法者一直在就拟议中的数字资产立法进行谈判，该立法不包含试图限制 PoW 加密货币在欧盟使用的条款，然后才进入议会、理事会和委员会之间的三方谈判，谈判将于本周开始。
-除此之外，欧盟官员也在讨论一系列其他问题，包括将 NFT 和 DeFi 纳入 MiCA 方案，以及哪些欧盟机构应该获得对加密空间的监督权。
-“我们认为这不是一件好事。我们希望立法中能有一些内容，至少能让我们就一些可以解决加密资产环境影响的措施展开辩论和讨论，”一位熟悉谈判的匿名顾问当时告诉 Decrypt。]]></summary>
-        <author>
-            <name>念银思唐</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compound通过奖励减半提案，将推出新奖励计划]]></title>
-        <id>https://panewslab.com/zh/sqarticledetails/1648526575219138.html</id>
-        <link href="https://panewslab.com/zh/sqarticledetails/1648526575219138.html"/>
-        <updated>2022-03-29T04:02:55.000Z</updated>
-        <summary type="html"><![CDATA[ANews 3月29日消息，Compound治理社区页面信息显示，Compound 92号提案已经通过，包括Polychain Capital、MonetSupply、GFX Labs、Pantera Capital和Blockchain At UCLA等机构均投出赞成票，这意味着Compound现有规则中的COMP奖励将减半。92号提案指出，根据现有奖励计划，Compound奖励即将分发完毕，这对于现有用户及Compound持有者十分不利，因此将提出一个新的奖励计划以替代现有计划。此前3月16日消息，Compound建设者提议将COMP奖励减少50%并在一个月后降至0，之后升级利率模型和引入替代奖励计划。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：3月份总计126.8万枚ETH被从中心化交易平台转出]]></title>
-        <id>https://www.theblockbeats.info/flash/73868</id>
-        <link href="https://www.theblockbeats.info/flash/73868"/>
-        <updated>2022-03-29T03:41:08.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，3 月 29 日，研究机构 IntoTheBlock 在社交媒体上透露，据数据统计，3 月份截至目前，已有总计 126.8 万枚 ETH 被从中心化交易平台转出，其中仅 3 月 15 日一天，就有 18 万枚 ETH 被转出。根据长期数据，中心化交易平台中的 ETH 正在逐渐减少。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FEWOCiOUS新项目FewoWorld具体细节将于明日公布，4月3日上线]]></title>
-        <id>https://www.theblockbeats.info/flash/73871</id>
-        <link href="https://www.theblockbeats.info/flash/73871"/>
-        <updated>2022-03-29T03:41:08.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，3 月 29 日，由美国 19 岁艺术家 FEWOCiOUS 和 Web3 社区创建的元宇宙 FEWOWORLD 具体细节将于明日公布，预计将于 4 月 3 日上线，具体上线时间未定，仅限 Fewo 持有者参与，并且 FewoWorld 中没有路线图。
-
-律动此前报道，2021 年 7 月 1 日，数字艺术家 FEWOCiOUS 的 5 件 NFT 作品在佳士得拍卖行一场拍卖中以 216 万美元的价格售出，此次出售使其 NFT 总销售额超过 2000 万美元，成为继 Beeple 和 Trevor Jones 之后第三畅销的个人 NFT 艺术家。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密富翁和Greenpeace等组织发起活动呼吁社区改变比特币交易方式]]></title>
-        <id>https://panewslab.com/zh/sqarticledetails/1648525112328632.html</id>
-        <link href="https://panewslab.com/zh/sqarticledetails/1648525112328632.html"/>
-        <updated>2022-03-29T03:38:32.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月29日消息，据彭博社报道，加密亿万富翁Chris Larsen和生态非政府组织Greenpeace在内的几个气候活动团体正在发起一项名为“改变代码，而不是气候”(Change the Code, Not the climate)的活动，旨在向比特币社区施压，要求其改变交易方式。Larsen表示，比特币交易的耗电量已经相当于瑞典，五年内比特币消耗的能源可能会和日本一样多。活动认为，大约50名关键矿工、加密货币交易所和核心开发人员有权更改比特币的代码。该活动将在下个月在主要出版物上购买广告。Greenpeace、环境工作组和一些与比特币矿工作斗争的当地维权组织也在动员数百万成员参与此次草根活动。据该活动负责人Michael Brune介绍，该活动已经接触了十几家关键人物和公司，其中一些人参与比特币业务，但承诺遵守环境、社会和治理（ESG）法规。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SushiSwap发起关于集成跨链桥Stargate的提案]]></title>
-        <id>https://www.theblockbeats.info/flash/73865</id>
-        <link href="https://www.theblockbeats.info/flash/73865"/>
-        <updated>2022-03-29T03:34:08.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，3 月 29 日，SushiSwap 发起关于集成跨链桥 Stargate 的提案，以促进 Omnichain 本地资产交换和网络之间的转移。投票已开启，截止目前获得 99.97% 赞成票。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[柏林科技公司FUEL旗下NFT平台完成150万欧元融资，FintechCollective等参投]]></title>
-        <id>https://www.theblockbeats.info/flash/73859</id>
-        <link href="https://www.theblockbeats.info/flash/73859"/>
-        <updated>2022-03-29T03:31:03.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，3 月 29 日，柏林科技公司 FUEL 宣布旗下 NFT 平台完成 150 万欧元 Pre-Seed 轮融资，本轮融资 FintechCollective、Seedcamp、NotionCapital、Pioneers 等参投，天使投资人包括 Bitstamp 首席技术官 David Osojnik、Gumtree 联合创始人 Michael Pennington 和 Indeed 创始人 Paul Forster 等。据悉，该平台旨在成为「NFT 的 Shopify」，让创作者无需任何技术即可建立自己的定制品牌 NFT 商店，无缝集成的各种工具来启动、管理和发展 NFT 收藏品。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[World Mobile项目周报（3月21日—3月27日）]]></title>
-        <id>https://www.0daily.com/post/5177506</id>
-        <link href="https://www.0daily.com/post/5177506"/>
-        <updated>2022-03-29T03:24:53.000Z</updated>
-        <summary type="html"><![CDATA[2022年3月21日World Mobile发起投票，本次投票在所有Cardano原生Token中，WMT获得最为广大用户喜爱的Token。
-
-2022年3月21日为使广大用户更好地进行交流World Mobile Discord 服务器正式上线！点击链接可进入我们的官方 World Mobile Discord 服务器！https://discord.com/invite/worldmobile
-
-2022年3月23日World Mobile与Chainlink达成合作，基于Chainlink的去中心化基础设施，为全球节点运营商进行精确定价和VRF，为达成我们使命的目标又迈进了重要的一步。作为此次合作的第一步，World Mobile在 Polygon 上集成了Chainlink的Price Feeds，以帮助确保移动支付的准确定价。World Mobile还集成了Chainlink可验证随机函数 (VRF)，以将随机性作为权重之一，以帮助公平的选择全球节点来处理网络服务。World Mobile也在积极探索成为Chainlink网络数据提供商的机会。
-
-2022年3月25日为了庆祝我们与Chainlink的技术合作，我们正在进行WM周边赠送活动！提出对您对WMT哪些方面感兴趣？点击链接，转发推文关注并喜欢参与活动，活动时间截止2022年3月31日。
-https://twitter.com/wmtoken/status/1507084890973655049]]></summary>
-        <author>
-            <name>WorldMobile</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文速览以太坊核心开发者会议更新要点]]></title>
-        <id>https://www.0daily.com/post/5177515</id>
-        <link href="https://www.0daily.com/post/5177515"/>
-        <updated>2022-03-29T03:24:36.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Tim Beiko
-
-
-原文来源：AllCoreDevs Updates
-
-
-
-
-
-
-
-
-
-
-
-
-摘要 
-
-
-
-
-
-
-
-
-
-
-
-
-自一月份以来，发生了很多事情，以至于我一直在努力找时间把它们写下来。以下是本次更新的重点：
-
-最新的合并测试网 Kiln 已经启动。在上面进行的 PoS 过渡揭示了一些实现上的问题，现在所有人都把工作重心放在合并测试上。
-
-下一次的以太坊升级上海升级在拟定中，计划中有 EVM 升级、信标链提款、L2 费用减少等 。
-
-以太坊执行层的可执行规范正在顺利进行。下一步：协调 EL+CL 的升级过程 。
-
-协议公会，一个为客户端开发者和研究员提供基于通证的补偿倡议，现在有超过 100 个成员，并很快推出试点 。
-
-
-
-
-
-
-
-
-
-
-
-
-
-测试网
-
-
-
-
-
-
-
-
-
-
-
-
-继 Kintsugi 后，Kiln 测试网最近也启动了了。根据在 Kintsugi 测试网上发现的临界情况，Kiln 加入了一些变更和重命名到合并规范。尽管合并的规范现在看上去几乎接近最终版了，在 Kiln 上运行的过渡在各个客户端中浮现了实现上的问题。团队现在正加倍努力进行测试，以确保所有实现都是安全和稳定的。Danny 在最新的 Finalized 更新里谈到了这点。
-假设没有发现重要的问题，Kiln 将是最后一个发布的新公共测试网。下一步，一旦我们对客户端的实现和基础设施/工具的准备情况感到满意，我们将在现有的测试网 (像 Ropsten、Goerli、Sepolia 等) 进行合并。
-与每次升级一样，我们将在升级后监测测试网，以确保它们是稳定的。一旦我们确信测试网按预期运行，我们将为以太坊主网计划过渡！
-虽然我们已经很接近合并了，而且这对整个社区来说是一个非常令人兴奋的时刻，但过渡能安全进行比任何目标日期更重要，是合并的头等大事。这是迄今为止以太坊进行的最复杂的升级。我们…]]></summary>
-        <author>
-            <name>ECN以太坊中国</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[元宇宙项目Bloktopia计划今年发布钱包及P2E游戏，并开启新一轮NFT土地销售]]></title>
-        <id>https://panewslab.com/zh/sqarticledetails/1648523835701628.html</id>
-        <link href="https://panewslab.com/zh/sqarticledetails/1648523835701628.html"/>
-        <updated>2022-03-29T03:17:16.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月29日消息，元宇宙项目Bloktopia今日公布了2022年新技术产品路线图。第二季度计划开启新一轮NFT土地销售，并计划支持多链代币、HDRP到URP格式、发布Bloktopia钱包、多个头像选择、私钥商店所有权访问、模块化商店功能、多人游戏、NFT API、用户语音聊天等功能。第三季度计划发布一款Play to Earn游戏，将支持自定义头像集成、Bloktopia钱包集成、与虚拟助理在店内聊天、允许用户购买和交易NFT以在Bloktopia中使用、角色交互、跨多个设备的优化和集成，也将完善REBLOK  ADBLOK 奖励收集系统。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[深度解析NFT预言机赛道：对比Abacus、Upshot和Banksea项目]]></title>
-        <id>https://www.0daily.com/post/5177513</id>
-        <link href="https://www.0daily.com/post/5177513"/>
-        <updated>2022-03-29T03:10:24.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《NFT 预言机赛道分析》
-原文作者：DaPangDun、zhihong、realAlitta
-一、引言
-承接上篇，我们分析了NFT 的流动性问题，在文章中，我们指出：
-NFT 要想与 DEFI 进行结合，其中非常重要的基础设施就是「NFT 预言机」。
-本篇我们将与大家一起探讨市面上 NFT 预言机相关项目及其所采用的的定价机制或模型，以全面了解这个赛道当前的发展方向和发展情况。
-二、项目调研
-我们搜集了目前针对 NFT 价格的预言机项目，主要有：
-Abacus 、Upshot、Nftgo、Banksea
-其中 Nftgo 暂时未查找到关于其相关的预言机机制，官网说会开发，估计没做好，所以排除。
-我们来一个个了解
-1、Abacus
-主网站、白皮书、相关资料
-1.1 介绍
-Abacus 有两套定价机制：
-1）同行激励定价（在上一篇文章中已经详细说明了，参考 3.5）
-
-  Abacus 的同行激励定价模型介绍
-2）Abacus Spot（在上一篇文章中已经详细说明了，参考 3.5）
-**Abacus Spot 通过为交易者创造一个流动市场来推测 NFT 池的价值，实现对 NFT 实时估值。**流动性是由交易者最初进入资金池并在其整个生命周期内进一步铸造产生的。该协议通过要求所有者通过向持有人支付费用或通过公开拍卖将收益与池中的流动性交换来退出，将 NFT 交易的价值与真实的 NFT 价值挂钩。
-1.2 它是如何工作的？
-1.2.1 创建一个池
-1）NFT 所有者首先将其 NFT 存入池库，选择退出费用，代表其 NFT 池的 Token 的初始 NFT 估值。NFT 现在被锁定在池中，提取它的唯一方法是支付退出费或在拍卖中出售。
-2）开始对池 Token 进行荷兰拍卖（以初始 NFT 估值），并在 Token 的初始供应售罄后结束。起始估值基于拍卖期间提供给金库的 E…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国参议院批准价值520亿美元的芯片补贴法案]]></title>
-        <id>https://panewslab.com/zh/sqarticledetails/1648523314966626.html</id>
-        <link href="https://panewslab.com/zh/sqarticledetails/1648523314966626.html"/>
-        <updated>2022-03-29T03:08:35.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月29日消息，据新浪科技报道，美国参议院周一再次批准了一项向美国半导体芯片制造商提供520亿美元补贴的法案，希望在经过了长达数月的讨论后达成妥协。此次投票以68票赞成、28票反对的结果将该立法返回到众议院。这是一个繁琐的程序，最终将会启动名为“会议”（conference）的流程，让两院议员就妥协版本达成协议。美国参议院在去年6月份首次通过了芯片立法。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
