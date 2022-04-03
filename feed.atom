@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-03T04:10:32.606Z</updated>
+    <updated>2022-04-03T05:07:16.175Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -5890,38 +5890,6 @@ Astar Network总锁定价值（TVL）突破10亿美元
         <summary type="html"><![CDATA[PANews 3月30日消息，Axie Infinity 侧链 Ronin Network发布社区警报，Ronin Network 出现安全漏洞，Ronin 桥 17.36万 ETH 和 25.5M USDC 被盗。目前，黑客获利地址（0x098B716B8Aaf21512996dC57EB0615e2383E2f96）已将 2550万 USDC 兑换为 ETH，接着将 6250 ETH 分散转移，其中 1221 ETH 转移到交易所平台（FTX 和 Crypto.com），剩余资金余额仍停留在黑客地址。黑客发起攻击资金来源为 Binance 提币。相关阅读：Ronin被盗6.2亿美元详细经过：事发6天后用户报告才发现，5个验证器私钥被盗]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ronin被盗事件详情：发生于6天前，5个验证者私钥被盗]]></title>
-        <id>https://www.0daily.com/post/5177546</id>
-        <link href="https://www.0daily.com/post/5177546"/>
-        <updated>2022-03-29T16:39:40.000Z</updated>
-        <summary type="html"><![CDATA[来源：Ronin 博客
-编译：胡韬，链捕手
-关键点
-
-
-Ronin 桥被盗 173,600 ETH和 2550 万 USDC。
-
-Ronin 桥和 Katana Dex 已经停止使用。
-
-我们正在与执法人员、密码学家和投资者合作，以确保所有资金都得到追回或报销。Ronin 上的所有 AXS、RON 和 SLP 目前都是安全的。
-
-
-今天早些时候，我们发现在 3 月 23 日，Sky Mavis 的 Ronin 验证器节点和 Axie DAO 验证器节点遭到破坏，导致在两笔交易（1和2）中从 Ronin 桥接了 173,600 个以太坊和 2550 万美元的 USDC。攻击者使用被盗的私钥来伪造假提款。我们今天早上在报告用户无法从跨链桥中提取 5000 ETH 后发现了这次攻击。 
-有关攻击的详细信息
-Sky Mavis 的 Ronin 链目前由 9 个验证节点组成。为了识别存款事件或取款事件，需要九个验证者签名中的五个。攻击者设法控制了 Sky Mavis 的四个 Ronin 验证器和一个由 Axie DAO 运行的第三方验证器。 
-验证器密钥方案被设置为去中心化的，因此它限制了与此类似的攻击方向，但攻击者通过我们的无gas RPC 节点发现了一个后门，他们滥用该后门来获取 Axie DAO 验证器的签名。  
-这可以追溯到 2021 年 11 月，当时 Sky Mavis 请求 Axie DAO 帮助分发免费交易，因为用户负载巨大。Axie DAO 允许 Sky Mavis 代表其签署各种交易。这已于 2021 年 12 月停止，但未撤销许可名单访问权限。 
-一旦攻击者获得了 Sky Mavis 系统的访问权限，他们就能够通过使用无gas RPC 从 Axie DAO 验证器获取签名。 
-我们已确认恶意提款中的签名与五个可疑验证者相符。
-所采取的行动
-
-
-事件一经曝光，我…]]></summary>
-        <author>
-            <name>链捕手</name>
         </author>
     </entry>
 </feed>

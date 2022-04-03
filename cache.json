@@ -4038,16 +4038,6 @@
           "wordCount": 3,
           "title": "星球日报 | Ronin跨链桥被攻击，超6亿美元资产被盗；港交所拟年内建设全新试点数码资产交易平台Diamond（3月30日）",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5177546",
-          "author": "链捕手",
-          "description": "来源：Ronin 博客\n编译：胡韬，链捕手\n关键点\n\n\nRonin 桥被盗 173,600 ETH和 2550 万 USDC。\n\nRonin 桥和 Katana Dex 已经停止使用。\n\n我们正在与执法人员、密码学家和投资者合作，以确保所有资金都得到追回或报销。Ronin 上的所有 AXS、RON 和 SLP 目前都是安全的。\n\n\n今天早些时候，我们发现在 3 月 23 日，Sky Mavis 的 Ronin 验证器节点和 Axie DAO 验证器节点遭到破坏，导致在两笔交易（1和2）中从 Ronin 桥接了 173,600 个以太坊和 2550 万美元的 USDC。攻击者使用被盗的私钥来伪造假提款。我们今天早上在报告用户无法从跨链桥中提取 5000 ETH 后发现了这次攻击。 \n有关攻击的详细信息\nSky Mavis 的 Ronin 链目前由 9 个验证节点组成。为了识别存款事件或取款事件，需要九个验证者签名中的五个。攻击者设法控制了 Sky Mavis 的四个 Ronin 验证器和一个由 Axie DAO 运行的第三方验证器。 \n验证器密钥方案被设置为去中心化的，因此它限制了与此类似的攻击方向，但攻击者通过我们的无gas RPC 节点发现了一个后门，他们滥用该后门来获取 Axie DAO 验证器的签名。  \n这可以追溯到 2021 年 11 月，当时 Sky Mavis 请求 Axie DAO 帮助分发免费交易，因为用户负载巨大。Axie DAO 允许 Sky Mavis 代表其签署各种交易。这已于 2021 年 12 月停止，但未撤销许可名单访问权限。 \n一旦攻击者获得了 Sky Mavis 系统的访问权限，他们就能够通过使用无gas RPC 从 Axie DAO 验证器获取签名。 \n我们已确认恶意提款中的签名与五个可疑验证者相符。\n所采取的行动\n\n\n事件一经曝光，我…",
-          "link": "https://www.0daily.com/post/5177546",
-          "publishedOn": "2022-03-29T16:39:40.000Z",
-          "wordCount": 3,
-          "title": "Ronin被盗事件详情：发生于6天前，5个验证者私钥被盗",
-          "imageUrl": null
         }
       ]
     }
