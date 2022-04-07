@@ -51,11 +51,628 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-07 datetime="2022-04-07T10:24:45.000Z">2022-04-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-07 datetime="2022-04-07T10:24:45.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-07 datetime="2022-04-07T11:00:00.000Z">2022-04-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-07 datetime="2022-04-07T11:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177788"
+                        open
+                      >
+                        <summary class="article-expander__title">Bankless：全链NFT的时代意味着什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177788">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Omnichain NFTs》
+原文来源：BanklessHQ Newsletter
+原文作者：William M. Peaster
+原文编译：0x711，律动 BlockBeats
+最近有关全链的热烈讨论主要是由于 LayerZero Labs 的兴起，该团队总部位于加拿大，创建了互操作性协议 LayerZero。
+如果您想深入了解，可以查看协议的白皮书。但简单地说，LayerZero 是一个信息传输层，旨在让智能合约在众多区块链之间（更确切地说是任何区块链之间）轻松通信。
+
+该协议最初启动时支持与以太坊虚拟机 (EVM) 兼容的项目，即 Ethereum、Arbitrum、Avalanche、BSC、该协议最初启动时支持与以太坊虚拟机 (EVM) 兼容的项目，即 Ethereum、Arbitrum、Avalanche、BSC、Fantom、Optimism 和 Polygon。未来，LayerZero 团队还计划增加对 Cosmos Hub、Terra 等非 EVM 兼容链的支持。
+对比全链、跨链和多链
+
+LayerZero 协议的功能类似于 Cosmos 生态系统的「layer 0」IBC（Inter-Blockchain Communication）协议，至少在一般意义上是这样。LayerZero 的突出之处在于它使用了超轻节点 (ULN)，其提出了一种以经济高效为前提，可以在链之间安全传输信息的新模型。
+
+因此，LayerZero 的全链信息传输模型与跨链模型完全不同，后者需要使用桥将资产直接迁移或封装到其他链上。例如，如果我要通过 Ronin 桥在 Katana 上使用 ETH，那意味着我的 ETH 直接从以太坊转移到了 Ronin。
+全链模型与多链模型进行对比，就像具有不同价值观的独立社区追求自己的技术堆栈。以太坊社区根据其价值观和基础设施，通过以太坊和 L2 扩展方案之间的无需信任传输来追求自给自足，而像 Solana 等其他替代性 L1 生态系统，却在采取他们特有方法来实现扩展。
+
+全链 NFT 的崛起
+最近几个月，我们目睹了行业内针对跨多链 NFT 应用程序的兴趣提升。例如，Loot 创始人 dom 就曾大声疾呼「怎样才能轻松地跨链追踪 NFT 行动」（这带火了我之前的一篇文章《桥接 L1-L2 鸿沟》）。
+
+这种跨链跟踪之前一直是一个未解的问题，然而越来越多的人对 LayerZero 的到来感到兴奋，因为它有可能使 NFT 和相关项目走向全链并以更广泛的方式存在。
+进一步说，我们可以将当前围绕全链 NFT 的关注追溯到最近推出的Stargate Finance，这是一种桥接协议，也是第一个在 LayerZero 上上线的应用程序。随着该程序的激活，用户和开发者开始寻找其他有前途的用例，毫无疑问，NFT 在这方面的前景十分广阔。
+同时，全链 NFT 的提法并不新鲜也不仅限于 LayerZero。UMA 的 Optimistic 预言机项目就已经具有一些类似全链的功能。此外，我认为随着新的进步和进一步的创新，我们会看到许多其他不同的方法来实现全链行为。
+
+Gh0stly Gh0sts 的例子
+
+Gh0stly Gh0sts 于 4 月 4 日低调推出，是第一个基于 LayerZero 的 NFT 集合，目前已经吸引了大量的市场眼光。
+
+截图来自gem.xyz
+不出所料，这个以幽灵为主题、免费铸造的CC0项目迄今为止在以太坊上的交易活动最多，但是值得注意的是，上述所有 7个与 LayerZero 兼容的链都已经实现了 Gh0stly Gh0sts 交易。因此，可以说，全链 NFT 时代已正式开启。
+
+未来
+我认为全链 NFT 可以同时为许多项目和许多链做大蛋糕。这种技术将也许是将意义非凡的 NFT 活动带入其他链的关键催化剂。
+然而我也认为可能存在「强者恒强」（king of the hill）的效应。随着时间的推移，全链 NFT 最终可能被证明对以太坊最有利，即它们在并行推进其他链影响力的同时，在巩固和扩展以太坊业已广泛的影响力方面发挥更大作用。 
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177686"
+                        open
+                      >
+                        <summary class="article-expander__title">GameFi玩家之间的共识博弈</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177686">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Research DAO
+原文编译：H.Forest Ventures ,Dinzz
+原文标题：《The Consensus Game Among GameFi Players》
+推荐理由：
+DeFi也好，GameFi也好，终归是一场游戏，游戏就有输有赢。作者用博弈论的思维参与加密项目，多维度搜集信息，预判大众对行情的判断，从而占据比赛优势并最终获得胜利，引人启发。
+作者注：本文仅代表个人观点，是对行业的主观思考，不构成任何投资建议。我们也不能保证这篇文章的每一个观点的准确性。
+介绍：
+在 DeFi 和 GameFi 的金融属性背后，参与者通过评估其他参与者的平均行动共识（即大多数参与者将会采用的行动）来调整博弈策略进行游戏。为什么不是单纯的决策，而是动态的博弈？因为玩家 A 的决定会影响玩家 B 的决定，进而影响玩家A自己的决定。因此，玩家将体验到游戏的复杂性，因为他们的决定（或有时是预期的决定）会同时发生在所有玩家身上。游戏的发展将是多维的并且实时发生，特别是在具有足够深度和流动性的市场中。
+参与市场意味着参与博弈。在评估了市场上所有参与者的平均共识之后，必须选择一个低于平均共识的行动才能获得胜利。如果参与者的行为高于平均共识，将会失败。
+本文讨论了GameFi的独特功能及其固有的系统属性，它被游戏系统中的多方使用，以促进达成共识。以GameFi的各种利益群体为例，包括开发者、公会、普通玩家。游戏中有玩家可以看到整个市场的全景，他们可以通过预判其他玩家可能采取的行动而行动，选择赢面更大的行动路线以在游戏中获得优势。
+在本文中，我们将分析最典型的GameFi 游戏 Axie Infinity 和 GameFi 领域最重要的公会 YGG。我们希望通过我们的努力，带你深入了解 GameFi 的主要功能和内在逻辑。
+内容提要：
+1. 「猜平均数的 2/3」 游戏
+
+两…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177787"
+                        open
+                      >
+                        <summary class="article-expander__title">UST为什么不会像USDN一样脱锚：大而不倒</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177787">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文作者 forgiven，原文发布于 Twitter，星球日报经授权编辑发布
+有朋友来问我关于 UST 会不会像 USDN（Waves 稳定币） 一样脱锚，Luna 暴跌。今天又在社群进行了广泛的讨论，没达成共识。我记录些思考的碰撞，供大家参考。个人倾向：UST 正在大而不倒的路上越走越远，UST 如果失败就是 crypto 本身的失败。
+最近 Luna 基金会囤 BTC 给 Luna 支撑的 UST 背书，行动代号 lfg（let’s fucking go)，该 BTC 地址一有异动，就发新闻打强心针，最新数据 34691 BTC，差不多 15.7 亿美金，和 UST 的发行量 167.3 亿还相去甚远。买 BTC 的钱哪来？除了融资外，资金主要是团队烧LUNA-&gt; UST -&gt; USD -&gt;BTC。但对手方，用真美元换空气美元是图什么呢？
+这就要说到 Do Kwon 创造的 UST 挖矿场景, 让你乖乖地拿真美元来换： 
+1. Anchor 借贷，锁$124 亿 ust，年化 20%.。（阿喀琉斯之踵，一年印 25 亿利息）；
+2. Curve, UST- 3.Crv 池子，$13 亿池子;
+3. Astro $6 亿池子， Osmo $5亿池子；
+4. 其它分散在各大中心化交易所, 单日 UST 交易量约 10 亿美金。仅次于usdt、usdc、busd。
+UST 不脱锚的核心来自于边际交易价格不低于$1, 扣掉锁住的 UST ，在外面流通的 UST 不过 30 亿枚，单日交易量 10 亿，即 1/3 换手率，支持不脱锚绰绰有余。就算 SBF 、神鱼或者孙宇晨这样的巨鲸开始退出，Curve 的池子也能支持接近单笔 5 亿美金跑路。UST 最近一次的脱锚是 1 月底 Sam 从 Curve MIM池子退出 $5 亿时短暂发生。
+回到阿喀琉斯之踵，Anchor 20% 年化？假设之后利率逐渐降低，部分存款人会退出，用 UST 换回真美元，转为 Luna 砸盘。但这可以是分散和渐变的过程，最终是 UST 发行量坍缩，Luna价格下跌，而不是瞬间崩盘。脱锚的展开更可能是创始人 Do Kwon 被抓了，Cex的 UST 对次迫于监管压力瞬间同时下架了，那真完了。
+这个提案实际上触及了 Curve 最根本的风险治理框架，Curve 的原有框架是 3crv 可以认为是无风险的，空气一样的算法稳定币都去 3crv 鬼混，给 vecrv 的奖励也是 3crvlp 的。Luna 团队想偷梁换柱，让 4pool 替换 3 pool 的地位。这个方案一旦通过，之后 Dai 地位就江河日下，Frax、UST则扶摇直上变成硬通货。也就是说，除了 BTC,，他们还强行绑架 Curve 一起上了车。
+最后感慨下 DAI，早期 defi 的挖矿天然选择都会自发用 DAi, 现在却全面向 usdc 靠拢，一些老的基本盘还不断被 UST、FRAX 这些算稳侵蚀。价值捕获而言 FRAX 背后是 USDC 和 FXS，UST 背后是 LUNA。DAI 背后核心是 ETH, 次之 MKR, 都要向新王让渡更多利益了。
+推荐阅读：UST宣战DAI，新的Curve War一触即发？</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177763"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3.0时代下的隐私守护者</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177763">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>隐私权每个人的基本权利。
+1993年，埃里克·修斯在其著名的《朋克宣言》开头变提出：
+Privacy is necessary for an open society in the electronic age. Privacy is not secrecy. A private matter is something one doesn&#x27;t want the whole world to know, but a secret matter is something one doesn&#x27;t want anybody to know. Privacy is the power to selectively reveal oneself to the world.
+隐私在电子时代开放型社会不可或缺。隐私不是秘密。某人不想让全世界知道某事，这是隐私；某人不想让任何人知道某事，这才是秘密。隐私是一种把自己选择性地展现给世界的权力。
+ 显然，在数字互联网时代，隐私保护成为每个人面临的最基本的需求，也是最严峻的挑战。并被认为是Web3.0的重要方向之一。
+Zcash等隐私币曾试图弥补该市场需求，但是在Web3时代，智能合约以及链外数据的隐私保护和隐私计算已经成为新的刚需。
+但作为一种「刚需的存在」，越来越多的头部VC和开发者仍在入场，隐私赛道的角逐在2021年下半年以来日益激烈，协议与应用层都诞生了诸多主打隐私的项目，其中一些项目尝试利用可信执行环境（TEE）、多方安全计算等方式保护数据隐私 (区块链混合架构) ，例如身份信息、医疗信息，一些项目则专注于使用 ZKP (零知识证明数据) 等解决方案来保护交易信息以及合约逻辑。
+基于前述介绍与趋势，我们对当下的Web3隐私赛道进行了全面梳理，首先对当前区块链面临的隐私问题，主流的隐私保护技术，然后讲隐私赛道的主要项目划分为隐私计算网络、隐…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177785"
+                        open
+                      >
+                        <summary class="article-expander__title">一文盘点值得关注的NFT基础设施</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177785">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《What&#x27;s next for NFT infrastructure?》
+原文作者：Amanda Young，前 Dapper Labs 成员
+原文编译：0x9F，律动 BlockBeats
+虽然 3 月给 NFT 市场带来了振奋人心的消息（a16z-bored-ape-yacht-club-bayc-metaverse-other-side\&quot;&gt;Yuga Labs、OpenSea），但 NFT 交易量却在下降。例如，OpenSea 3 月的月交易量较 1 月的高点下降了 50%。
+
+谷歌趋势也反映出 NFT 热度下降
+这种下降引发了「NFT 是泡沫」的预言，我却不相信 NFT 会就此消亡。相反，我期待看到它们从投机性的交易资产变成有生产力的数字商品。那么，谁会带领我们进入下一阶段？
+在采访了 20 多个创始人，花费大量时间听播客、读书、浏览 OpenSea 和 Discord 之后，我关注了以下这些具体的推动者。
+入口
+
+NFT 数据市场 Hawku 的马匹名单包括 Zed Run（NFT 赛马游戏）比赛表现的统计数据
+重要推动者
+垂直市场：正如Mable Jiang 所写，「我们正处于 NFT 空间超垂直化的边缘」。eBay 在 Web2 中催生了众多特定市场，垂直市场已经出现在游戏（Fractal、Hawku）艺术（Foundation、SuperRare）时尚（The Dematerialized、Artisant）土地（WeMeta、Parcel）音乐（Royal、Sound、Decent）视频（Glass）摄影（Sloika）专业交易 (Blur）等领域。我看好那些提供策展和探索、收费/版税模型有竞争力、社区充满激情，以及具有量身定制 UX 和功能的市场平台，这些都是聚合型市场平台不太会优先考虑的。
+创作者工具：正如Li Jin 所写，「通过加密为创…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177784"
+                        open
+                      >
+                        <summary class="article-expander__title">Bankless：四个标志预示ETH债券时代即将到来</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177784">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：David Hoffman
+原文来源：Bankless
+什么事情正在发生？
+ETH 正在成为数字时代的债券。虽然我们很早之前就预测到了这样的趋势，但直到最近以太坊共识机制的合并，该项ETH需求才正式加入我们的认知框架。
+以下是 ETH 债券时代即将到来的四个标志：
+一、美元的不信任度达历史最高水平
+对美元的不信任已达到历史的最高水平。无论在道德上多么合理，美国将世界第 11 大经济体从全球美元体系中剔除是没有回头路的。俄罗斯对外资产被冻结的同时，暴露了其他国家在使用美元体系时的弱点（美国可出于政治等原因冻结美元资产）。
+以下是美联储拥有的高昂债务：
+
+这会带来几十年来都未见的奇高通胀率。
+Jim Bianco在最新的采访中认为：美国国债市场必将迎来深度熊市。
+他说：“没有人想成为美国国债的持有者”。
+美联储奇高的账面债务叠加不断抬升的通胀率，让美国国债长短期收益率出现倒挂也毫不意外。这一指标表明投资者没有意愿长期持有美国国债。
+人们正在寻找美国国债的替代品。
+以太坊正填补由于缺乏信心而逃离的美国国债市场，值得一提的是这是一个拥有14 万亿美元的空间的市场。
+这也让对比以太坊质押市场与美国国债市场变得非常受欢迎。
+虽然美联储有历史最高水平的债务，但以太坊不能持有债务。在通货膨胀威胁美国国债持有者的实际回报时，ETH正走向通缩。美国直接冻结了世界第 11 大经济体的行为不同，以太坊是中立且可信的。
+改变正在发生；14万亿美元的美国国债市场正在萎缩，0.5万亿美元的ETH质押市场正在崛起。
+二、ETH 债券提供更高的实际回报
+但美元币值较为稳定，而 ETH 币值波动剧烈！你无法将美国债券市场与 ETH 质押直接对比！这太可笑了！
+首先，过去的十年就“很可笑”。这十年中，每个人都在改变自身所处世界的范式的理解，不接受新想法的投资者都难以获得成功。
+其次，美元币值较为稳定，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177783"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT数据日报 | frankfrank在过去24小时内最受巨鲸欢迎（4.7）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177783">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
+宏观市场指标
+截至 4 月 7 日 15 时，NFT 整体市值 196.55 亿美元，较 24 小时前下降 0.01%；过去 24 小时内总交易量约 2.35 亿美元，日环比下降 4.14%。
+
+按市场占比，排前三的子领域分别为 PFP（52.17%）、Collectibles（16.17%）、Art（9.00%）。
+
+项目排名
+按过去 24 小时成交量，排名前五的项目分别为 Meebits（2024 万美元）、dotdotdots（2019 万美元）、Akuma Origins（762 万美元）、Mutant Ape Yacht Club（519 万美元）和 Azuki（453 万美元）。
+
+按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为 OKOKU OFFICIAL（119.46%）、frankfrank（90.05%）、Akuma Origins（27.81%）、FEWOCiOUS x FewoWorld - Paint（26.08%）和 Los Muertos World（20.58%）。
+
+特色数据
+过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：MATRIARCHY NOW #77、3D Bear #2222、BeanBag Fren #3294、BeanBag Fren #5420 和 Lucha Libre Knockout #7306。
+
+最受巨鲸欢迎项目排前五的分别是：frankfrank、Akuma Origins、Everai Heroes: Duo、FVCK_AVATAR// 和 VaynerSports Pass VSP。
+
+元宇宙平台中，过去 24 小时内，Decentraland 上的地块最低成交价为 2.7112 ETH、平均成交价为 4.0467 ETH；The Sandbox 上的地块最低成交价为 1.697 ETH、平均成交价为 2.1855 ETH；Cryptovoxels 上的地块最低成交价为 0.8 ETH、平均成交价为 1.1518 ETH。
+
+欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
+相关阅读
+专题 | Azuki交易量大涨，背后的价值逻辑是什么？
+格局打开：NFT持有者决定IP天花板
+浅谈NFT稀有度玄学</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177774"
+                        open
+                      >
+                        <summary class="article-expander__title">起底Tiger Global的加密布局：1年投358个项目的「野蛮人」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177774">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>据 Crunchbase 数据，2021 年，知名对冲基金及风险投资公司 Tiger Global 参与投资的项目达到了 358 个，已远超过 a16z、红杉、光速等一众知名 VC，几乎每天都会有一笔投资交易产生。其中，领投项目更是达到 220 个，领投项目的融资总额也超过了 300 亿美元。
+并且在这一年，由于对初创公司的积极布局，也使得 Tiger Global 成为了独角兽公司的最大投资者，其在 2021 年共捕获了 188 家独角兽公司。另一方面，在募资上，根据 Preqin 的创投报告，2007 至 2017 年间，Tiger Global 的融资额也已经在所有 VC 中达到最高。
+如今，Tiger Global 也加速在 Crypto 里进行了布局。据最新的数据，今年 Q1，Tiger Global 已参与了 19 笔投资交易，环比上一季度增长了 90%。
+那么，Tiger Global 在 Crypto 具体进行了哪些布局，又是如何做到令一众 VC 难以望其项背的，它的投资风格有哪些特征，是怎样诞生与发展的？律动 BlockBeats 将为大家一一作出梳理。
+
+Tiger Global 的加密布局
+今年以来，Tiger Global 加紧了在 Crypto 的投资步伐。截至 4 月 7 日，其 2022 年已出手 20 次投了 20 个项目（Q1 产生 19 笔投资交易），8 次领投、12 次参投，参与项目的平均融资金额就达到了 1.5 亿美元以上。
+而在去年，Tiger Global 则从 4 月才开始参与到加密项目的投资，分别于当月投资了加密金融服务商 Current 和印度加密货币交易所 CoinSwitch。这一年，Tiger Global 累计投资有 20 个项目，共参与 22 个轮次，产生投资的三个季度里，分别出手是 6 次、6 次和 10 次。
+…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177782"
+                        open
+                      >
+                        <summary class="article-expander__title">纵览红杉加密投资版图：共投资68起，布局明显加速</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177782">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>撰文：Karen
+「下注赛道比下注赛手更重要」，这对红杉资本和其创始人 Don Valentine 投资风格的精辟总结。
+作为硅谷历史最悠久、最成功的顶级风险投资公司之一，红杉资本曾压中过雅达利、思科、Yahoo、谷歌、Oracle、英伟达、PayPal、领英、Stripe、YouTube、Instagram 等互联网和金融科技领域最耀眼的公司。
+而在近几年随着加密领域的快速发展以及传统机构巨头的争相入局，使得对加密领域的关注度进一步水涨船高。一个崭新的颠覆性时代或许正在徐徐展开。与此同时，红杉资本对于该领域的策略也从「早期试水」转变为「全面拥抱」，开始跟随 Andreessen Horowitz（a16z）脚步大举押注加密货币领域，包括但不限于投资加密公司、废弃 10 年周期制激进调整基金结构、申请成为注册投资顾问（IRA）、推出数亿美元加密基金、发布 NFT 等。最近迅速蹿火的 Move-to Earn 游戏 STEPN 就是由红杉资本印度联合投资的。
+本文将拆解红杉资本及其在欧美、中国以及印度的实体在加密领域（包括元宇宙）的布局矩阵，并汇总了这三个实体在加密领域投资的 68 个项目或公司。
+这三个实体在该领域的投资笔数大致相当，均为二十笔出头，其中红杉资本印度今年的布局速度明显加快，投资了包括 Polygon、STEPN 、电子签名协议 EthSign、YGG 印度子公会 IndiGG、密钥基础设施解决方案 Web3Auth、基于 Polygon 的 P2E 游戏 Ethlas、基于 Flow 的板球 NFT 市场 FanCraze 等 11 个项目，占据该实体总加密投资笔数（21 笔）的一半以上。红杉资本（欧美）也加快了步伐，今年投资了 EthSign、Solana 生态 NFT 市场 Magic Eden、全链互操作性协议 LayerZero Labs 等 7 笔…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177780"
+                        open
+                      >
+                        <summary class="article-expander__title">金牌游戏制作人西门孟打造Miracle Universe，或成链游生态的「头号玩家」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177780">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>在DeFi、NFT构建了去中心化世界的基础后，GameFi逐渐的成为了“野蛮生长”的超级赛道，目前在这个赛道逐渐的涌现出了一批杀手级应用，比如Axie Infinity、Decentraland以及The Sandbox等。尤其是Axie Infinity，总交易额在11月初突破了30亿美元，扛起了GameFi的大旗。虽然GameFi板块的发展潜力毋庸置疑，但目前赛道整体，具备良好游戏体验、经济模型的优质应用并不多，这也意味着赛道整体处于早期。
+GameFi是一个前无古人的板块，任何开发团队都是处在“摸着石头过河”的状态，同样对于GameFi板块也缺乏一定的生态支持，这也进一步造成了GameFi应用质量整体参差不齐、相互独立。       
+
+通过对区块链行业、GameFi赛道的深度观察，传奇金牌游戏制作人西门孟，也逐渐的对GameFi所展现出的意识形态高度的认可，并肯定了这个板块的价值以及发展前景，并从传统游戏领域转向了链游板块。西门孟通过构建以GameFi为定位的Miracle Universe公链生态，来对玩家、开发者、GameFi项目方进行深度的支持，并积极促进板块的发展。相对于以太坊、Solana以及BSC等生态，Miracle Universe更有成为GameFi赛道新生力军的潜质。
+传奇游戏制作人，西门孟
+如果你是一个资深的游戏玩家，你一定玩过西门孟参与制作的游戏。包括John Madden Football、《兔宝宝赛车》（Looney Tunes Racing）、《街霸》系列（Street Fighter series）、《街霸方块》以及《越野狂飚》系列（Test Drive Off-Road series）等一大批深受业界好评的游戏。上述游戏无一不是现象级游戏，尤其是《兔宝宝赛车》以及《街霸》系列，更承载了一代80、90后的童年记忆。
+出生在台湾的西门孟…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177771"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂当下流行的NFT交易聚合器GEM</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177771">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Will，The SeeDAO
+
+
+NFT 聚合器是近期 NFT 热潮中出现的一种新产品。它们允许收藏家在一次交易中批量买卖他们的 NFT。GEM 是目前最棒的 NFT 市场聚合平台。
+
+
+
+
+
+
+
+
+
+
+
+
+NFT 生态痛点
+
+
+
+
+
+
+
+
+
+
+
+
+购买 NFT 的主要问题之一在于，限制了用户一次只能购买一个 NFT。如果想要大量购买一个优质项目的 NFT，用户必须逐个资产进行购买，并进行单独的购买交易。
+用户不得不执行多个交易，消耗大量 gas，速度也很慢。这意味着其他人可以在你逐个购买时，购买你的目标 NFT。
+人们应该高效地一次购买多个 NFT、人们应该能够一次在多个平台上购买多个 NFT，因为流动性现在已经开始扩散到其他市场，如 Rarible、X2Y2、NFTX 和 LooksRare。
+NFT 聚合器的出现解决了这个问题。
+
+
+
+
+
+
+
+
+
+GEM 的主要优势
+
+
+
+
+
+
+
+
+
+
+
+
+GEM 直接集合了多个平台 (其中包括 OpenSea、Rarible、LooksRare、X2Y2、NFTX 和 NFT20) 上的 NFT 挂单。其最终目标是整合所有 NFT 市场的挂单，用户再不需要平台间反复横跳的比较价格；
+NFT 购买的用户体验变得更接近网购，有了购物车的功能，让用户可以一次性购买多个 NFT；
+比在交易所一个一个地购买省钱，在 GEM 上批量购买 NFT 最高可省 33% 的手续费；
+GEM 接受所有的 ERC20 代币作为支付币，用户可以一次性支付多种货币，极大增加了支付灵活性；
+GEM 会提供平台上 NFT 的 Dune Analytics 的数据分析，用户可以直接在 GEM 平台上查看关键数据（销售额、地板价、买卖活动、持有分布等）。
+
+
+
+
+
+
+
+
+
+GEM 使用体验
+
+
+
+
+
+
+
+
+
+
+
+
+GEM 界面干净简单，信息框架清晰，用户不…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177769"
+                        open
+                      >
+                        <summary class="article-expander__title">Token经济分析框架：如何研究加密世界里的Token?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177769">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《 实用 | Token 经济分析框架（入门） 》
+原文作者：Ren&amp;Heinrich
+原文编译：阿法兔，阿法兔研究笔记
+如何研究加密世界里的 Token?
+*本文 3500 字左右，阅读时间 15-20 分钟
+先看一组数据：截至 2022 年，市面上大约有 6000 种加密货币 (或者更多）。这对投资者来说当然是一个很大的机会。然而，在 2021 年，投资者在 Crypto 项目遇到欺诈，损失的金额 120 亿美元。因此，到底如何去表及里，看到最本质的东西，Token 经济学是一个很重要的视角。
+本篇文章，为 Token 经济学的研究提供了一个入门的思考框架。
+Token 经济学是以研究 Token 设计、分配、供需模型的科学，Token 经济学主要是研究 Token 的学科，其中包括 Token 的经济模型设计，Token 在业务利益相关者之间的分配，Token 开始交易的条件，以及交易如何随着时间的推移而演变。
+广义的 Token 经济学还包括设计、Token 工程学等，不在本篇文章讨论范围内。
+如何研究加密世界里的 Token？
+背景
+首先要明确：加密世界 (英文) 中的 Token 和 Coin 的区别是什么？
+尽管 Token 和 Coin 这两个术语，常被当作同义词使用，但是要注意的是，Coin 一词通常指的是在 Layer 1 公链上运行的加密货币。术语 &quot;token &quot;在不同的场景，有不同的含义，它有时指在 Layer 2 协议层创建的加密资产，也就是说它必须遵守它所使用的 L1 区块链的规则。例如 ERC20 Token，ERC721 NFT(Token）更加广泛地说，大多数加密资产也可以被称为 Token。部分 Token 的功能包括：投票权、或者作为现实世界资产的数字权属，Token 有时也可以在协议内被用作支付。
+Token 的价值主要取…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177768"
+                        open
+                      >
+                        <summary class="article-expander__title">CatcherVC Research：深度解读Optimism扩容方案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177768">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>作者：Web3er Liu，CatcherVC
+本文重点
+
+出于对安全和去中心化的考虑，ETH区块Gas上限和出块时间无法大改；
+
+Layer2扩容的实质是造一条TPS更高的链，把这条链的信息挂到以太坊上；
+
+Optimism的市场增值空间极大，其TPS上限可达1600，但吞吐量的实际利用率不到千分之一，未来发展潜力巨大；
+
+由于未开放对等节点，Optimism本地Sequencer出块后，甚至要1小时才可以验证其正确性，延时过长；
+
+当前的Optimism和Arbitrum均由官方运行出块节点，存在严重的中心化问题，其立足根基更多在于项目方的“信用”，而非“程序正义”本身；
+
+Optimism在进行EVM等效性升级后，其“欺诈证明”机制无法使用，官方称将于未来解决该问题。
+
+前言
+随着ETH合并正式迈入进程，Layer2和Rollup在区块链行内逐渐成为显学。究其本源，Layer2的目的是提高系统每秒处理的交易数量（TPS），并降低Gas费。前者是整个Layer2扩容的最核心要点，后者则是提升Layer2交互体验的关键。
+依照其定义，TPS&#x3D; 一段时间内处理的交易笔数 / 耗时，套用在区块链领域，若忽略分叉或区块重组等情况，可粗略视TPS&#x3D;平均每个区块包含的交易笔数÷出块时间。对普通公链而言，提升TPS面对的是区块扩容和出块时间问题，同时，TPS的实际值还牵涉到公链采用的Gas机制，无论是ETH还是BSC和Polygon都不出其右。
+但提升区块Gas容量或缩短出块时间都会破坏安全性，究其根源，以太坊扩容要面对的是“不可能三角”问题，要如何提高效率，又保障安全和去中心化，始终处在纸上谈兵、悬而未决的阶段。
+对此，以Optimism和Arbitrum为代表的Layer2凭借高效率、低Gas的旗号快速崛起，颇为瞩目。在靠着精妙叙事吸引各路资本、靠着超低Gas收获广大用户的同时，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177767"
+                        open
+                      >
+                        <summary class="article-expander__title">预言机，让Web3变得更好了吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177767">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>作者：Sally, IOSG Ventures
+预言机（oracle）通常被认为是链上和链下数据的桥梁和窗口。简而言之，预言机是一个为区块链项目提供真实世界数据服务的中间件。
+
+来源: IOSG
+如果我们把区块链定义成信任机器，那么预言机本质上可以被称为维护和构建信任的机器。事实上，区块链本身并不能产生信任，信任的输入来自于预言机。绝大多数区块链项目如果没有接入预言机则会如同视野尽失地在黑夜中行走，难以生存。
+众所周知，区块链是一个封闭的黑匣子，并不具备发起网络调用的能力。然而智能合约则由于共识机制需要请第三方对数据进行验证。为了方便理解，我们可以将预言机扮演的角色当成是两个文明之间的使者，就像《三体》中维系人类与三体文明沟通的“智子”。只有通过预言机的数据输送，智能合约才能获取来自互联网和现实世界的确定性信息，包括股票价格、汇率、总统大选的最终结果等。
+四大谱系 
+根据形式，我们可以将预言机分为四种，分别为：软件预言机、硬件预言机、中心化预言机和去中心化预言机：
+1.软件预言机
+软件预言机连接到互联网，可以通过API实时访问、传输来自任何第三方服务器或网站的数据和信息，如商品价格、天气指数、航班号等，并将其写入智能合约中。
+2.硬件预言机
+硬件预言机在IoT中被广泛采用，用作电子传感器和数据收集器。它将物理事件转换为数字值，以便智能合约可以理解它们。条码扫描仪、银行卡POS机、收集各种医疗数据的医疗设备等都可以被当作为硬件预言机。
+3.中心化预言机
+中心化预言机是一种单一数据来源的预言机，通常由政府或信誉良好的公司等值得信赖的第三方提供数据。它可以通过将数据从本地设备的不受信任的操作系统中分离出来，防止数据篡改和丢失。然而，单一中心化的数据来源也给智能合约带来了潜在的风险。
+4. 去中心化预言机
+去中心化预言机是指具有分布式共识机制的预言机，也称为共识预言机。它从多个而非…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177760"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | LFG再次购入价值2.3亿美元的BTC；Near Protocol融资3.5亿美元（4月7日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177760">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+Terra联合创始人Do Kwon宣布已购买2.3亿美元BTC
+星球日报讯 Terra联合创始人Do Kwon宣布，购买了价值2.3亿美元的BTC。
+链上数据显示，被标记为Terra生态发展组织Luna Foundation Guard的比特币地址今日共增持5040枚BTC，目前该地址总共持有35767枚BTC。
+Near Protocol融资3.5亿美元，Tiger Global领投、FTX Ventures、Dragonfly Capital等参投
+Near Protocol宣布完成3.5亿美元融资，Tiger Global领投，Republic Capital、FTX Ventures、Hashed和Dragonfly Capital等参投。新融资将用于加速NEAR生态系统去中心化。
+今年1月，Near Protocol完成1.5亿美元融资，三箭资本领投，Mechanism Capital、Dragonfly Capital、a16z、Jump、Alameda、Zee Prime、Folius、Amber Group、6th ManVentures、Circle Ventures、MetaWeb.vc（NEAR生态基金）、对冲基金巨头Alan Howard、前ParaFi Capital合伙人Santiago Santos以及Aave创始人Stani Kulechov等参投。（CoinDesk）
+Binance.US以45亿美元投前估值完成逾2亿美元种子轮融资，Circle Ventures、VanEck等参投
+星球日报讯 周三，Binance.US宣布完成逾2亿美元种子轮融资，投前估值达45亿美元，Circle旗下风投机构Circle Ventures、VanEck、RRE Ventures、Foundation Capital、Original Capita…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177761"
+                        open
+                      >
+                        <summary class="article-expander__title">Binance.US完成超2亿美元种子轮融资，投前估值为45亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177761">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 The Block，原文作者：Yogita Khatri
+Odaily 星球日报译者 | 念银思唐
+
+摘要：
+- Binance.US 已经完成了首轮融资，融资金额超过 2 亿美元，投前估值为 45 亿美元。
+- 该交易所计划通过有机或战略并购提供新产品和服务。
+全球加密货币交易所币安（Binance）的美国子公司 Binance.US 宣布已完成其首轮融资。
+该公司获得了超过2亿美元的种子轮融资，投前估值为 45 亿美元。投资方包括 RRE Ventures、Foundation Capital、Original Capital、VanEck、Circle Ventures、Gaingels 和 Gold House。该轮融资没有领投方。
+7 个月前，币安首席执行官赵长鹏曾在 2021 年 8 月表示，Binance.US 即将完成融资，并获得了“有信誉的投资者”的支持。据报道，在 1 亿美元的融资努力失败后，Binance.US 当时的首席执行官 Brian Brooks 在加入该交易所三个月后便黯然离场。
+现在有了新的资金在手，Binance.US 的目标是提供新的产品和服务。一位 Binance.US 发言人拒绝就具体的产品置评，但表示，该交易所正在有机地或通过战略并购探索一系列新服务。该公司希望在近期内将其中一些服务推向市场。
+Binance.US 目前为零售和机构客户提供加密现货交易服务。该交易所于 2019 年推出，目前在美国 45 个州和 8 个地区提供服务。它后续计划在美国所有州和地区提供服务。
+至于交易量，Binance.US 远远落后于竞争对手 Coinbase。根据 The Block 的数据仪表板，该交易所上个月的交易量超过 90 亿美元，而 Coinbase 的交易量超过 810 亿美元。
+今年 3 月，其他美国头部交易所——FTX.US 和 Gemini 的交易量分别超过 50 亿美元和接近 40 亿美元。
+
+Brooks 离开后，去年 10 月 Binance.US 总裁兼董事会成员 Brian Shroder 被提拔为首席执行官。该交易所表示，自那以来，其员工人数已翻了一番。发言人表示，Binance.US 目前的员工数已经超过 350 人，预计将继续招聘各种岗位人才，包括营销、合规和风险、客户支持、产品和技术。
+为此，Binance.US 还计划在未来几个月筹集更多资金。这位发言人表示，该交易所还计划“在未来两三年”上市。
+近几个月来，加密货币融资一直在蓬勃发展。几家交易所最近都进行了大型融资，包括 Gemini 和 FTX.US。这两家交易所的估值都高于 Binance.US。Gemini 在第一轮融资中获得 4 亿美元，估值为 71 亿美元；FTX.US 在第一轮融资中也筹集了 4 亿美元，估值为 80 亿美元。
+与此同时，Binance.US 也面临着来自监管机构的审查压力。据华尔街日报 2 月报道，美国证券交易委员会（SEC）正在审查 Binance.US 与做市商 Sigma Chain AG 和 Merit Peak Ltd. 之间的关系。据 2019 年的公司文件，这两家做市商与币安创始人赵长鹏存在联系，SEC 要求 Binance.US 提供有关这两个做市商的信息。
+知情人士表示，监管机构关注的一个领域是 Binance.US 如何向客户披露其与交易公司的联系。Binance.US 发言人 Zachary Tindall 拒绝就 SEC 的调查以及与这两家交易公司的任何关系发表评论。他说，“Binance.US 致力于维护最高的合规标准。”
+据报道，赵长鹏同时也是币安和 Binance.US 的大股东。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177759"
+                        open
+                      >
+                        <summary class="article-expander__title">NEAR Protocol融资3.5亿美元，旨在加速其生态系统去中心化</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177759">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 The Block，原文作者：Anushree Dave
+Odaily 星球日报译者 | 念银思唐
+
+摘要：
+- 该公司的一份声明称，这笔资金将帮助 NEAR 加速其帮助“数十亿人”使用去中心化技术的总体使命。
+- 在接下来的几周内，将宣布对基于 NEAR 协议的项目进行更多风险投资。
+区块链项目 NEAR Protocol 完成 3.5 亿美元的新一轮融资，由 Tiger Global 领投，Republic Capital、Hashed、FTX Ventures、Dragonfly Capital 等参投。
+根据该公司的一份声明，新融资将帮助 NEAR 增加“在全球主要社区中心的区域枢纽的数量”。
+Tiger Global 合伙人 John Curtius 在一份声明中表示：“NEAR 致力于成为领先的智能合约区块链平台，将一流的技术与快速增长的开发者生态系统相结合。在我们加大对数字资产领域的投资之际，我们很高兴支持 NEAR。”
+NEAR Protocol 成立于 2018 年，是一个面向去中心化应用程序的开源平台。
+今年 1 月，NEAR Protocol 宣布成功完成 1.5 亿美元融资，三箭资本领投，Mechanism Capital、Dragonfly Capital、a16z、Jump、Alameda、Zee Prime、Folius、Amber Group、6th ManVentures、Circle Ventures、MetaWeb.vc（NEAR 生态基金）、对冲基金巨头 Alan Howard、前 ParaFi Capital 合伙人 Santiago Santos 以及 Aave 创始人 Stani Kulechov 等参投。
+本轮融资之前，NEAR 已累计获得 6590 万美元的融资，DCG、Pantera Capital、Electric Capital、Coinbase Ventures、Blockchain.com、Baidu Ventures 等参投。
+在 1 月份接受 The Block 采访时，该基金会的首席执行官 Marieke Flament 表示，NEAR 的总体使命之一是成为构建 Web3 应用程序的主要平台，并使整个生态系统更具包容性。
+在完成最新一轮融资之前，NEAR 经历了忙碌而充实的一年。
+2021 年 4 月，NEAR 推出了 Rainbow Bridge，允许 ERC-20 代币在以太坊和 NEAR 区块链之间转移。同年 6 月，NEAR 加入了 ICON 的区块链传输协议（BTP），允许数据发送到 Polkadot 和 Harmony 等合作伙伴。11 月，NEAR 还与 Ardana 合作创建了一个桥接，允许资产在 Cardano 和 NEAR 之间流动。
+该公司表示，未来几周将宣布对基于 NEAR 协议的项目进行更多风险投资，重点关注基于 NEAR 和 Aurora 的 DeFi 项目和应用。目前，在 NEAR 上运行和构建的应用程序大约有 300 个，在全球范围内有超过 20 万的社区成员。
+值得一提的是，就在近期，由 Y Combinator 校友创建的用于支持 Web3 初创公司的加密货币组织 Orange DAO 宣布已选择 NEAR 作为其首选的 Layer 1 区块链，同时 NEAR 基金会将向 Orange DAO 投资 1500 万美元，以支持在 NEAR 区块链上建立 Web3 公司的创始人。
+据了解，Orange DAO 是由千余名 Y Combinator 校友创建的风险投资 DAO 组织，以识别和支持目前正在构建 Web3 生态系统未来的加密初创公司。
+“Republic Capital 对 NEAR 生态系统进行了深入分析，发现该领域的构建者认为该协议是他们部署路线图的关键。”Republic Capital 的董事总经理 Boris Revsin 在一份声明中表示，“社区、工具、文档和支持是成功应用的关键，我们相信 NEAR 在这些重要领域是顶尖的。”</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -585,543 +1202,6 @@ FTX 首席执行官 SBF 在采访中表示，FTX 目前在非洲只有「零散�
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>律动 BlockBeats 消息，4 月 6 日，OpenSea 正式上线基于 Solana 发行的 NFT，并以 SOL 计价。Solana 将成为继以太坊、Polygon 和 Klaytn 之后，OpenSea 支持的第四个区块链网络。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177787"
-                        open
-                      >
-                        <summary class="article-expander__title">UST为什么不会像USDN一样脱锚：大而不倒</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177787">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文作者 forgiven，原文发布于 Twitter，星球日报经授权编辑发布
-有朋友来问我关于 UST 会不会像 USDN（Waves 稳定币） 一样脱锚，Luna 暴跌。今天又在社群进行了广泛的讨论，没达成共识。我记录些思考的碰撞，供大家参考。个人倾向：UST 正在大而不倒的路上越走越远，UST 如果失败就是 crypto 本身的失败。
-最近 Luna 基金会囤 BTC 给 Luna 支撑的 UST 背书，行动代号 lfg（let’s fucking go)，该 BTC 地址一有异动，就发新闻打强心针，最新数据 34691 BTC，差不多 15.7 亿美金，和 UST 的发行量 167.3 亿还相去甚远。买 BTC 的钱哪来？除了融资外，资金主要是团队烧LUNA-&gt; UST -&gt; USD -&gt;BTC。但对手方，用真美元换空气美元是图什么呢？
-这就要说到 Do Kwon 创造的 UST 挖矿场景, 让你乖乖地拿真美元来换： 
-1. Anchor 借贷，锁$124 亿 ust，年化 20%.。（阿喀琉斯之踵，一年印 25 亿利息）；
-2. Curve, UST- 3.Crv 池子，$13 亿池子;
-3. Astro $6 亿池子， Osmo $5亿池子；
-4. 其它分散在各大中心化交易所, 单日 UST 交易量约 10 亿美金。仅次于usdt、usdc、busd。
-UST 不脱锚的核心来自于边际交易价格不低于$1, 扣掉锁住的 UST ，在外面流通的 UST 不过 30 亿枚，单日交易量 10 亿，即 1/3 换手率，支持不脱锚绰绰有余。就算 SBF 、神鱼或者孙宇晨这样的巨鲸开始退出，Curve 的池子也能支持接近单笔 5 亿美金跑路。UST 最近一次的脱锚是 1 月底 Sam 从 Curve MIM池子退出 $5 亿时短暂发生。
-回到阿喀琉斯之踵，Anchor 20% 年化？假设之后利率逐渐降低，部分存款人会退出，用 UST 换回真美元，转为 Luna 砸盘。但这可以是分散和渐变的过程，最终是 UST 发行量坍缩，Luna价格下跌，而不是瞬间崩盘。脱锚的展开更可能是创始人 Do Kwon 被抓了，Cex的 UST 对次迫于监管压力瞬间同时下架了，那真完了。
-这个提案实际上触及了 Curve 最根本的风险治理框架，Curve 的原有框架是 3crv 可以认为是无风险的，空气一样的算法稳定币都去 3crv 鬼混，给 vecrv 的奖励也是 3crvlp 的。Luna 团队想偷梁换柱，让 4pool 替换 3 pool 的地位。这个方案一旦通过，之后 Dai 地位就江河日下，Frax、UST则扶摇直上变成硬通货。也就是说，除了 BTC,，他们还强行绑架 Curve 一起上了车。
-最后感慨下 DAI，早期 defi 的挖矿天然选择都会自发用 DAi, 现在却全面向 usdc 靠拢，一些老的基本盘还不断被 UST、FRAX 这些算稳侵蚀。价值捕获而言 FRAX 背后是 USDC 和 FXS，UST 背后是 LUNA。DAI 背后核心是 ETH, 次之 MKR, 都要向新王让渡更多利益了。
-推荐阅读：UST宣战DAI，新的Curve War一触即发？</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177763"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3.0时代下的隐私守护者</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177763">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>隐私权每个人的基本权利。
-1993年，埃里克·修斯在其著名的《朋克宣言》开头变提出：
-Privacy is necessary for an open society in the electronic age. Privacy is not secrecy. A private matter is something one doesn&#x27;t want the whole world to know, but a secret matter is something one doesn&#x27;t want anybody to know. Privacy is the power to selectively reveal oneself to the world.
-隐私在电子时代开放型社会不可或缺。隐私不是秘密。某人不想让全世界知道某事，这是隐私；某人不想让任何人知道某事，这才是秘密。隐私是一种把自己选择性地展现给世界的权力。
- 显然，在数字互联网时代，隐私保护成为每个人面临的最基本的需求，也是最严峻的挑战。并被认为是Web3.0的重要方向之一。
-Zcash等隐私币曾试图弥补该市场需求，但是在Web3时代，智能合约以及链外数据的隐私保护和隐私计算已经成为新的刚需。
-但作为一种「刚需的存在」，越来越多的头部VC和开发者仍在入场，隐私赛道的角逐在2021年下半年以来日益激烈，协议与应用层都诞生了诸多主打隐私的项目，其中一些项目尝试利用可信执行环境（TEE）、多方安全计算等方式保护数据隐私 (区块链混合架构) ，例如身份信息、医疗信息，一些项目则专注于使用 ZKP (零知识证明数据) 等解决方案来保护交易信息以及合约逻辑。
-基于前述介绍与趋势，我们对当下的Web3隐私赛道进行了全面梳理，首先对当前区块链面临的隐私问题，主流的隐私保护技术，然后讲隐私赛道的主要项目划分为隐私计算网络、隐…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177785"
-                        open
-                      >
-                        <summary class="article-expander__title">一文盘点值得关注的NFT基础设施</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177785">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《What&#x27;s next for NFT infrastructure?》
-原文作者：Amanda Young，前 Dapper Labs 成员
-原文编译：0x9F，律动 BlockBeats
-虽然 3 月给 NFT 市场带来了振奋人心的消息（a16z-bored-ape-yacht-club-bayc-metaverse-other-side\&quot;&gt;Yuga Labs、OpenSea），但 NFT 交易量却在下降。例如，OpenSea 3 月的月交易量较 1 月的高点下降了 50%。
-
-谷歌趋势也反映出 NFT 热度下降
-这种下降引发了「NFT 是泡沫」的预言，我却不相信 NFT 会就此消亡。相反，我期待看到它们从投机性的交易资产变成有生产力的数字商品。那么，谁会带领我们进入下一阶段？
-在采访了 20 多个创始人，花费大量时间听播客、读书、浏览 OpenSea 和 Discord 之后，我关注了以下这些具体的推动者。
-入口
-
-NFT 数据市场 Hawku 的马匹名单包括 Zed Run（NFT 赛马游戏）比赛表现的统计数据
-重要推动者
-垂直市场：正如Mable Jiang 所写，「我们正处于 NFT 空间超垂直化的边缘」。eBay 在 Web2 中催生了众多特定市场，垂直市场已经出现在游戏（Fractal、Hawku）艺术（Foundation、SuperRare）时尚（The Dematerialized、Artisant）土地（WeMeta、Parcel）音乐（Royal、Sound、Decent）视频（Glass）摄影（Sloika）专业交易 (Blur）等领域。我看好那些提供策展和探索、收费/版税模型有竞争力、社区充满激情，以及具有量身定制 UX 和功能的市场平台，这些都是聚合型市场平台不太会优先考虑的。
-创作者工具：正如Li Jin 所写，「通过加密为创…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177784"
-                        open
-                      >
-                        <summary class="article-expander__title">Bankless：四个标志预示ETH债券时代即将到来</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177784">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：David Hoffman
-原文来源：Bankless
-什么事情正在发生？
-ETH 正在成为数字时代的债券。虽然我们很早之前就预测到了这样的趋势，但直到最近以太坊共识机制的合并，该项ETH需求才正式加入我们的认知框架。
-以下是 ETH 债券时代即将到来的四个标志：
-一、美元的不信任度达历史最高水平
-对美元的不信任已达到历史的最高水平。无论在道德上多么合理，美国将世界第 11 大经济体从全球美元体系中剔除是没有回头路的。俄罗斯对外资产被冻结的同时，暴露了其他国家在使用美元体系时的弱点（美国可出于政治等原因冻结美元资产）。
-以下是美联储拥有的高昂债务：
-
-这会带来几十年来都未见的奇高通胀率。
-Jim Bianco在最新的采访中认为：美国国债市场必将迎来深度熊市。
-他说：“没有人想成为美国国债的持有者”。
-美联储奇高的账面债务叠加不断抬升的通胀率，让美国国债长短期收益率出现倒挂也毫不意外。这一指标表明投资者没有意愿长期持有美国国债。
-人们正在寻找美国国债的替代品。
-以太坊正填补由于缺乏信心而逃离的美国国债市场，值得一提的是这是一个拥有14 万亿美元的空间的市场。
-这也让对比以太坊质押市场与美国国债市场变得非常受欢迎。
-虽然美联储有历史最高水平的债务，但以太坊不能持有债务。在通货膨胀威胁美国国债持有者的实际回报时，ETH正走向通缩。美国直接冻结了世界第 11 大经济体的行为不同，以太坊是中立且可信的。
-改变正在发生；14万亿美元的美国国债市场正在萎缩，0.5万亿美元的ETH质押市场正在崛起。
-二、ETH 债券提供更高的实际回报
-但美元币值较为稳定，而 ETH 币值波动剧烈！你无法将美国债券市场与 ETH 质押直接对比！这太可笑了！
-首先，过去的十年就“很可笑”。这十年中，每个人都在改变自身所处世界的范式的理解，不接受新想法的投资者都难以获得成功。
-其次，美元币值较为稳定，…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177783"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT数据日报 | frankfrank在过去24小时内最受巨鲸欢迎（4.7）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177783">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
-宏观市场指标
-截至 4 月 7 日 15 时，NFT 整体市值 196.55 亿美元，较 24 小时前下降 0.01%；过去 24 小时内总交易量约 2.35 亿美元，日环比下降 4.14%。
-
-按市场占比，排前三的子领域分别为 PFP（52.17%）、Collectibles（16.17%）、Art（9.00%）。
-
-项目排名
-按过去 24 小时成交量，排名前五的项目分别为 Meebits（2024 万美元）、dotdotdots（2019 万美元）、Akuma Origins（762 万美元）、Mutant Ape Yacht Club（519 万美元）和 Azuki（453 万美元）。
-
-按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为 OKOKU OFFICIAL（119.46%）、frankfrank（90.05%）、Akuma Origins（27.81%）、FEWOCiOUS x FewoWorld - Paint（26.08%）和 Los Muertos World（20.58%）。
-
-特色数据
-过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：MATRIARCHY NOW #77、3D Bear #2222、BeanBag Fren #3294、BeanBag Fren #5420 和 Lucha Libre Knockout #7306。
-
-最受巨鲸欢迎项目排前五的分别是：frankfrank、Akuma Origins、Everai Heroes: Duo、FVCK_AVATAR// 和 VaynerSports Pass VSP。
-
-元宇宙平台中，过去 24 小时内，Decentraland 上的地块最低成交价为 2.7112 ETH、平均成交价为 4.0467 ETH；The Sandbox 上的地块最低成交价为 1.697 ETH、平均成交价为 2.1855 ETH；Cryptovoxels 上的地块最低成交价为 0.8 ETH、平均成交价为 1.1518 ETH。
-
-欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
-相关阅读
-专题 | Azuki交易量大涨，背后的价值逻辑是什么？
-格局打开：NFT持有者决定IP天花板
-浅谈NFT稀有度玄学</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177774"
-                        open
-                      >
-                        <summary class="article-expander__title">起底Tiger Global的加密布局：1年投358个项目的「野蛮人」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177774">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>据 Crunchbase 数据，2021 年，知名对冲基金及风险投资公司 Tiger Global 参与投资的项目达到了 358 个，已远超过 a16z、红杉、光速等一众知名 VC，几乎每天都会有一笔投资交易产生。其中，领投项目更是达到 220 个，领投项目的融资总额也超过了 300 亿美元。
-并且在这一年，由于对初创公司的积极布局，也使得 Tiger Global 成为了独角兽公司的最大投资者，其在 2021 年共捕获了 188 家独角兽公司。另一方面，在募资上，根据 Preqin 的创投报告，2007 至 2017 年间，Tiger Global 的融资额也已经在所有 VC 中达到最高。
-如今，Tiger Global 也加速在 Crypto 里进行了布局。据最新的数据，今年 Q1，Tiger Global 已参与了 19 笔投资交易，环比上一季度增长了 90%。
-那么，Tiger Global 在 Crypto 具体进行了哪些布局，又是如何做到令一众 VC 难以望其项背的，它的投资风格有哪些特征，是怎样诞生与发展的？律动 BlockBeats 将为大家一一作出梳理。
-
-Tiger Global 的加密布局
-今年以来，Tiger Global 加紧了在 Crypto 的投资步伐。截至 4 月 7 日，其 2022 年已出手 20 次投了 20 个项目（Q1 产生 19 笔投资交易），8 次领投、12 次参投，参与项目的平均融资金额就达到了 1.5 亿美元以上。
-而在去年，Tiger Global 则从 4 月才开始参与到加密项目的投资，分别于当月投资了加密金融服务商 Current 和印度加密货币交易所 CoinSwitch。这一年，Tiger Global 累计投资有 20 个项目，共参与 22 个轮次，产生投资的三个季度里，分别出手是 6 次、6 次和 10 次。
-…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177782"
-                        open
-                      >
-                        <summary class="article-expander__title">纵览红杉加密投资版图：共投资68起，布局明显加速</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177782">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>撰文：Karen
-「下注赛道比下注赛手更重要」，这对红杉资本和其创始人 Don Valentine 投资风格的精辟总结。
-作为硅谷历史最悠久、最成功的顶级风险投资公司之一，红杉资本曾压中过雅达利、思科、Yahoo、谷歌、Oracle、英伟达、PayPal、领英、Stripe、YouTube、Instagram 等互联网和金融科技领域最耀眼的公司。
-而在近几年随着加密领域的快速发展以及传统机构巨头的争相入局，使得对加密领域的关注度进一步水涨船高。一个崭新的颠覆性时代或许正在徐徐展开。与此同时，红杉资本对于该领域的策略也从「早期试水」转变为「全面拥抱」，开始跟随 Andreessen Horowitz（a16z）脚步大举押注加密货币领域，包括但不限于投资加密公司、废弃 10 年周期制激进调整基金结构、申请成为注册投资顾问（IRA）、推出数亿美元加密基金、发布 NFT 等。最近迅速蹿火的 Move-to Earn 游戏 STEPN 就是由红杉资本印度联合投资的。
-本文将拆解红杉资本及其在欧美、中国以及印度的实体在加密领域（包括元宇宙）的布局矩阵，并汇总了这三个实体在加密领域投资的 68 个项目或公司。
-这三个实体在该领域的投资笔数大致相当，均为二十笔出头，其中红杉资本印度今年的布局速度明显加快，投资了包括 Polygon、STEPN 、电子签名协议 EthSign、YGG 印度子公会 IndiGG、密钥基础设施解决方案 Web3Auth、基于 Polygon 的 P2E 游戏 Ethlas、基于 Flow 的板球 NFT 市场 FanCraze 等 11 个项目，占据该实体总加密投资笔数（21 笔）的一半以上。红杉资本（欧美）也加快了步伐，今年投资了 EthSign、Solana 生态 NFT 市场 Magic Eden、全链互操作性协议 LayerZero Labs 等 7 笔…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177780"
-                        open
-                      >
-                        <summary class="article-expander__title">金牌游戏制作人西门孟打造Miracle Universe，或成链游生态的「头号玩家」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177780">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>在DeFi、NFT构建了去中心化世界的基础后，GameFi逐渐的成为了“野蛮生长”的超级赛道，目前在这个赛道逐渐的涌现出了一批杀手级应用，比如Axie Infinity、Decentraland以及The Sandbox等。尤其是Axie Infinity，总交易额在11月初突破了30亿美元，扛起了GameFi的大旗。虽然GameFi板块的发展潜力毋庸置疑，但目前赛道整体，具备良好游戏体验、经济模型的优质应用并不多，这也意味着赛道整体处于早期。
-GameFi是一个前无古人的板块，任何开发团队都是处在“摸着石头过河”的状态，同样对于GameFi板块也缺乏一定的生态支持，这也进一步造成了GameFi应用质量整体参差不齐、相互独立。       
-
-通过对区块链行业、GameFi赛道的深度观察，传奇金牌游戏制作人西门孟，也逐渐的对GameFi所展现出的意识形态高度的认可，并肯定了这个板块的价值以及发展前景，并从传统游戏领域转向了链游板块。西门孟通过构建以GameFi为定位的Miracle Universe公链生态，来对玩家、开发者、GameFi项目方进行深度的支持，并积极促进板块的发展。相对于以太坊、Solana以及BSC等生态，Miracle Universe更有成为GameFi赛道新生力军的潜质。
-传奇游戏制作人，西门孟
-如果你是一个资深的游戏玩家，你一定玩过西门孟参与制作的游戏。包括John Madden Football、《兔宝宝赛车》（Looney Tunes Racing）、《街霸》系列（Street Fighter series）、《街霸方块》以及《越野狂飚》系列（Test Drive Off-Road series）等一大批深受业界好评的游戏。上述游戏无一不是现象级游戏，尤其是《兔宝宝赛车》以及《街霸》系列，更承载了一代80、90后的童年记忆。
-出生在台湾的西门孟…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177771"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂当下流行的NFT交易聚合器GEM</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177771">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Will，The SeeDAO
-
-
-NFT 聚合器是近期 NFT 热潮中出现的一种新产品。它们允许收藏家在一次交易中批量买卖他们的 NFT。GEM 是目前最棒的 NFT 市场聚合平台。
-
-
-
-
-
-
-
-
-
-
-
-
-NFT 生态痛点
-
-
-
-
-
-
-
-
-
-
-
-
-购买 NFT 的主要问题之一在于，限制了用户一次只能购买一个 NFT。如果想要大量购买一个优质项目的 NFT，用户必须逐个资产进行购买，并进行单独的购买交易。
-用户不得不执行多个交易，消耗大量 gas，速度也很慢。这意味着其他人可以在你逐个购买时，购买你的目标 NFT。
-人们应该高效地一次购买多个 NFT、人们应该能够一次在多个平台上购买多个 NFT，因为流动性现在已经开始扩散到其他市场，如 Rarible、X2Y2、NFTX 和 LooksRare。
-NFT 聚合器的出现解决了这个问题。
-
-
-
-
-
-
-
-
-
-GEM 的主要优势
-
-
-
-
-
-
-
-
-
-
-
-
-GEM 直接集合了多个平台 (其中包括 OpenSea、Rarible、LooksRare、X2Y2、NFTX 和 NFT20) 上的 NFT 挂单。其最终目标是整合所有 NFT 市场的挂单，用户再不需要平台间反复横跳的比较价格；
-NFT 购买的用户体验变得更接近网购，有了购物车的功能，让用户可以一次性购买多个 NFT；
-比在交易所一个一个地购买省钱，在 GEM 上批量购买 NFT 最高可省 33% 的手续费；
-GEM 接受所有的 ERC20 代币作为支付币，用户可以一次性支付多种货币，极大增加了支付灵活性；
-GEM 会提供平台上 NFT 的 Dune Analytics 的数据分析，用户可以直接在 GEM 平台上查看关键数据（销售额、地板价、买卖活动、持有分布等）。
-
-
-
-
-
-
-
-
-
-GEM 使用体验
-
-
-
-
-
-
-
-
-
-
-
-
-GEM 界面干净简单，信息框架清晰，用户不…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177769"
-                        open
-                      >
-                        <summary class="article-expander__title">Token经济分析框架：如何研究加密世界里的Token?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177769">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《 实用 | Token 经济分析框架（入门） 》
-原文作者：Ren&amp;Heinrich
-原文编译：阿法兔，阿法兔研究笔记
-如何研究加密世界里的 Token?
-*本文 3500 字左右，阅读时间 15-20 分钟
-先看一组数据：截至 2022 年，市面上大约有 6000 种加密货币 (或者更多）。这对投资者来说当然是一个很大的机会。然而，在 2021 年，投资者在 Crypto 项目遇到欺诈，损失的金额 120 亿美元。因此，到底如何去表及里，看到最本质的东西，Token 经济学是一个很重要的视角。
-本篇文章，为 Token 经济学的研究提供了一个入门的思考框架。
-Token 经济学是以研究 Token 设计、分配、供需模型的科学，Token 经济学主要是研究 Token 的学科，其中包括 Token 的经济模型设计，Token 在业务利益相关者之间的分配，Token 开始交易的条件，以及交易如何随着时间的推移而演变。
-广义的 Token 经济学还包括设计、Token 工程学等，不在本篇文章讨论范围内。
-如何研究加密世界里的 Token？
-背景
-首先要明确：加密世界 (英文) 中的 Token 和 Coin 的区别是什么？
-尽管 Token 和 Coin 这两个术语，常被当作同义词使用，但是要注意的是，Coin 一词通常指的是在 Layer 1 公链上运行的加密货币。术语 &quot;token &quot;在不同的场景，有不同的含义，它有时指在 Layer 2 协议层创建的加密资产，也就是说它必须遵守它所使用的 L1 区块链的规则。例如 ERC20 Token，ERC721 NFT(Token）更加广泛地说，大多数加密资产也可以被称为 Token。部分 Token 的功能包括：投票权、或者作为现实世界资产的数字权属，Token 有时也可以在协议内被用作支付。
-Token 的价值主要取…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177768"
-                        open
-                      >
-                        <summary class="article-expander__title">CatcherVC Research：深度解读Optimism扩容方案</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177768">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>作者：Web3er Liu，CatcherVC
-本文重点
-
-出于对安全和去中心化的考虑，ETH区块Gas上限和出块时间无法大改；
-
-Layer2扩容的实质是造一条TPS更高的链，把这条链的信息挂到以太坊上；
-
-Optimism的市场增值空间极大，其TPS上限可达1600，但吞吐量的实际利用率不到千分之一，未来发展潜力巨大；
-
-由于未开放对等节点，Optimism本地Sequencer出块后，甚至要1小时才可以验证其正确性，延时过长；
-
-当前的Optimism和Arbitrum均由官方运行出块节点，存在严重的中心化问题，其立足根基更多在于项目方的“信用”，而非“程序正义”本身；
-
-Optimism在进行EVM等效性升级后，其“欺诈证明”机制无法使用，官方称将于未来解决该问题。
-
-前言
-随着ETH合并正式迈入进程，Layer2和Rollup在区块链行内逐渐成为显学。究其本源，Layer2的目的是提高系统每秒处理的交易数量（TPS），并降低Gas费。前者是整个Layer2扩容的最核心要点，后者则是提升Layer2交互体验的关键。
-依照其定义，TPS&#x3D; 一段时间内处理的交易笔数 / 耗时，套用在区块链领域，若忽略分叉或区块重组等情况，可粗略视TPS&#x3D;平均每个区块包含的交易笔数÷出块时间。对普通公链而言，提升TPS面对的是区块扩容和出块时间问题，同时，TPS的实际值还牵涉到公链采用的Gas机制，无论是ETH还是BSC和Polygon都不出其右。
-但提升区块Gas容量或缩短出块时间都会破坏安全性，究其根源，以太坊扩容要面对的是“不可能三角”问题，要如何提高效率，又保障安全和去中心化，始终处在纸上谈兵、悬而未决的阶段。
-对此，以Optimism和Arbitrum为代表的Layer2凭借高效率、低Gas的旗号快速崛起，颇为瞩目。在靠着精妙叙事吸引各路资本、靠着超低Gas收获广大用户的同时，…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177767"
-                        open
-                      >
-                        <summary class="article-expander__title">预言机，让Web3变得更好了吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177767">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>作者：Sally, IOSG Ventures
-预言机（oracle）通常被认为是链上和链下数据的桥梁和窗口。简而言之，预言机是一个为区块链项目提供真实世界数据服务的中间件。
-
-来源: IOSG
-如果我们把区块链定义成信任机器，那么预言机本质上可以被称为维护和构建信任的机器。事实上，区块链本身并不能产生信任，信任的输入来自于预言机。绝大多数区块链项目如果没有接入预言机则会如同视野尽失地在黑夜中行走，难以生存。
-众所周知，区块链是一个封闭的黑匣子，并不具备发起网络调用的能力。然而智能合约则由于共识机制需要请第三方对数据进行验证。为了方便理解，我们可以将预言机扮演的角色当成是两个文明之间的使者，就像《三体》中维系人类与三体文明沟通的“智子”。只有通过预言机的数据输送，智能合约才能获取来自互联网和现实世界的确定性信息，包括股票价格、汇率、总统大选的最终结果等。
-四大谱系 
-根据形式，我们可以将预言机分为四种，分别为：软件预言机、硬件预言机、中心化预言机和去中心化预言机：
-1.软件预言机
-软件预言机连接到互联网，可以通过API实时访问、传输来自任何第三方服务器或网站的数据和信息，如商品价格、天气指数、航班号等，并将其写入智能合约中。
-2.硬件预言机
-硬件预言机在IoT中被广泛采用，用作电子传感器和数据收集器。它将物理事件转换为数字值，以便智能合约可以理解它们。条码扫描仪、银行卡POS机、收集各种医疗数据的医疗设备等都可以被当作为硬件预言机。
-3.中心化预言机
-中心化预言机是一种单一数据来源的预言机，通常由政府或信誉良好的公司等值得信赖的第三方提供数据。它可以通过将数据从本地设备的不受信任的操作系统中分离出来，防止数据篡改和丢失。然而，单一中心化的数据来源也给智能合约带来了潜在的风险。
-4. 去中心化预言机
-去中心化预言机是指具有分布式共识机制的预言机，也称为共识预言机。它从多个而非…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177760"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | LFG再次购入价值2.3亿美元的BTC；Near Protocol融资3.5亿美元（4月7日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177760">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-Terra联合创始人Do Kwon宣布已购买2.3亿美元BTC
-星球日报讯 Terra联合创始人Do Kwon宣布，购买了价值2.3亿美元的BTC。
-链上数据显示，被标记为Terra生态发展组织Luna Foundation Guard的比特币地址今日共增持5040枚BTC，目前该地址总共持有35767枚BTC。
-Near Protocol融资3.5亿美元，Tiger Global领投、FTX Ventures、Dragonfly Capital等参投
-Near Protocol宣布完成3.5亿美元融资，Tiger Global领投，Republic Capital、FTX Ventures、Hashed和Dragonfly Capital等参投。新融资将用于加速NEAR生态系统去中心化。
-今年1月，Near Protocol完成1.5亿美元融资，三箭资本领投，Mechanism Capital、Dragonfly Capital、a16z、Jump、Alameda、Zee Prime、Folius、Amber Group、6th ManVentures、Circle Ventures、MetaWeb.vc（NEAR生态基金）、对冲基金巨头Alan Howard、前ParaFi Capital合伙人Santiago Santos以及Aave创始人Stani Kulechov等参投。（CoinDesk）
-Binance.US以45亿美元投前估值完成逾2亿美元种子轮融资，Circle Ventures、VanEck等参投
-星球日报讯 周三，Binance.US宣布完成逾2亿美元种子轮融资，投前估值达45亿美元，Circle旗下风投机构Circle Ventures、VanEck、RRE Ventures、Foundation Capital、Original Capita…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177761"
-                        open
-                      >
-                        <summary class="article-expander__title">Binance.US完成超2亿美元种子轮融资，投前估值为45亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177761">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 The Block，原文作者：Yogita Khatri
-Odaily 星球日报译者 | 念银思唐
-
-摘要：
-- Binance.US 已经完成了首轮融资，融资金额超过 2 亿美元，投前估值为 45 亿美元。
-- 该交易所计划通过有机或战略并购提供新产品和服务。
-全球加密货币交易所币安（Binance）的美国子公司 Binance.US 宣布已完成其首轮融资。
-该公司获得了超过2亿美元的种子轮融资，投前估值为 45 亿美元。投资方包括 RRE Ventures、Foundation Capital、Original Capital、VanEck、Circle Ventures、Gaingels 和 Gold House。该轮融资没有领投方。
-7 个月前，币安首席执行官赵长鹏曾在 2021 年 8 月表示，Binance.US 即将完成融资，并获得了“有信誉的投资者”的支持。据报道，在 1 亿美元的融资努力失败后，Binance.US 当时的首席执行官 Brian Brooks 在加入该交易所三个月后便黯然离场。
-现在有了新的资金在手，Binance.US 的目标是提供新的产品和服务。一位 Binance.US 发言人拒绝就具体的产品置评，但表示，该交易所正在有机地或通过战略并购探索一系列新服务。该公司希望在近期内将其中一些服务推向市场。
-Binance.US 目前为零售和机构客户提供加密现货交易服务。该交易所于 2019 年推出，目前在美国 45 个州和 8 个地区提供服务。它后续计划在美国所有州和地区提供服务。
-至于交易量，Binance.US 远远落后于竞争对手 Coinbase。根据 The Block 的数据仪表板，该交易所上个月的交易量超过 90 亿美元，而 Coinbase 的交易量超过 810 亿美元。
-今年 3 月，其他美国头部交易所——FTX.US 和 Gemini 的交易量分别超过 50 亿美元和接近 40 亿美元。
-
-Brooks 离开后，去年 10 月 Binance.US 总裁兼董事会成员 Brian Shroder 被提拔为首席执行官。该交易所表示，自那以来，其员工人数已翻了一番。发言人表示，Binance.US 目前的员工数已经超过 350 人，预计将继续招聘各种岗位人才，包括营销、合规和风险、客户支持、产品和技术。
-为此，Binance.US 还计划在未来几个月筹集更多资金。这位发言人表示，该交易所还计划“在未来两三年”上市。
-近几个月来，加密货币融资一直在蓬勃发展。几家交易所最近都进行了大型融资，包括 Gemini 和 FTX.US。这两家交易所的估值都高于 Binance.US。Gemini 在第一轮融资中获得 4 亿美元，估值为 71 亿美元；FTX.US 在第一轮融资中也筹集了 4 亿美元，估值为 80 亿美元。
-与此同时，Binance.US 也面临着来自监管机构的审查压力。据华尔街日报 2 月报道，美国证券交易委员会（SEC）正在审查 Binance.US 与做市商 Sigma Chain AG 和 Merit Peak Ltd. 之间的关系。据 2019 年的公司文件，这两家做市商与币安创始人赵长鹏存在联系，SEC 要求 Binance.US 提供有关这两个做市商的信息。
-知情人士表示，监管机构关注的一个领域是 Binance.US 如何向客户披露其与交易公司的联系。Binance.US 发言人 Zachary Tindall 拒绝就 SEC 的调查以及与这两家交易公司的任何关系发表评论。他说，“Binance.US 致力于维护最高的合规标准。”
-据报道，赵长鹏同时也是币安和 Binance.US 的大股东。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177759"
-                        open
-                      >
-                        <summary class="article-expander__title">NEAR Protocol融资3.5亿美元，旨在加速其生态系统去中心化</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177759">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 The Block，原文作者：Anushree Dave
-Odaily 星球日报译者 | 念银思唐
-
-摘要：
-- 该公司的一份声明称，这笔资金将帮助 NEAR 加速其帮助“数十亿人”使用去中心化技术的总体使命。
-- 在接下来的几周内，将宣布对基于 NEAR 协议的项目进行更多风险投资。
-区块链项目 NEAR Protocol 完成 3.5 亿美元的新一轮融资，由 Tiger Global 领投，Republic Capital、Hashed、FTX Ventures、Dragonfly Capital 等参投。
-根据该公司的一份声明，新融资将帮助 NEAR 增加“在全球主要社区中心的区域枢纽的数量”。
-Tiger Global 合伙人 John Curtius 在一份声明中表示：“NEAR 致力于成为领先的智能合约区块链平台，将一流的技术与快速增长的开发者生态系统相结合。在我们加大对数字资产领域的投资之际，我们很高兴支持 NEAR。”
-NEAR Protocol 成立于 2018 年，是一个面向去中心化应用程序的开源平台。
-今年 1 月，NEAR Protocol 宣布成功完成 1.5 亿美元融资，三箭资本领投，Mechanism Capital、Dragonfly Capital、a16z、Jump、Alameda、Zee Prime、Folius、Amber Group、6th ManVentures、Circle Ventures、MetaWeb.vc（NEAR 生态基金）、对冲基金巨头 Alan Howard、前 ParaFi Capital 合伙人 Santiago Santos 以及 Aave 创始人 Stani Kulechov 等参投。
-本轮融资之前，NEAR 已累计获得 6590 万美元的融资，DCG、Pantera Capital、Electric Capital、Coinbase Ventures、Blockchain.com、Baidu Ventures 等参投。
-在 1 月份接受 The Block 采访时，该基金会的首席执行官 Marieke Flament 表示，NEAR 的总体使命之一是成为构建 Web3 应用程序的主要平台，并使整个生态系统更具包容性。
-在完成最新一轮融资之前，NEAR 经历了忙碌而充实的一年。
-2021 年 4 月，NEAR 推出了 Rainbow Bridge，允许 ERC-20 代币在以太坊和 NEAR 区块链之间转移。同年 6 月，NEAR 加入了 ICON 的区块链传输协议（BTP），允许数据发送到 Polkadot 和 Harmony 等合作伙伴。11 月，NEAR 还与 Ardana 合作创建了一个桥接，允许资产在 Cardano 和 NEAR 之间流动。
-该公司表示，未来几周将宣布对基于 NEAR 协议的项目进行更多风险投资，重点关注基于 NEAR 和 Aurora 的 DeFi 项目和应用。目前，在 NEAR 上运行和构建的应用程序大约有 300 个，在全球范围内有超过 20 万的社区成员。
-值得一提的是，就在近期，由 Y Combinator 校友创建的用于支持 Web3 初创公司的加密货币组织 Orange DAO 宣布已选择 NEAR 作为其首选的 Layer 1 区块链，同时 NEAR 基金会将向 Orange DAO 投资 1500 万美元，以支持在 NEAR 区块链上建立 Web3 公司的创始人。
-据了解，Orange DAO 是由千余名 Y Combinator 校友创建的风险投资 DAO 组织，以识别和支持目前正在构建 Web3 生态系统未来的加密初创公司。
-“Republic Capital 对 NEAR 生态系统进行了深入分析，发现该领域的构建者认为该协议是他们部署路线图的关键。”Republic Capital 的董事总经理 Boris Revsin 在一份声明中表示，“社区、工具、文档和支持是成功应用的关键，我们相信 NEAR 在这些重要领域是顶尖的。”</span>
                             </span>
                           </div>
                         </a>
@@ -6618,44 +6698,6 @@ ETH 是什么？
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/74765"
-                        open
-                      >
-                        <summary class="article-expander__title">Inverse Finance回应被盗：价格预言机被操纵，将100%补偿用户</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/74765">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>律动 BlockBeats 消息，4 月 3 日，DeFi 借贷协议 Inverse Finance 在社交媒体上发文回应被盗事件，称其货币市场受到了对 Sushiswap 上 INV/ETH 价格预言机的资本密集型操纵，导致 INV 价格大幅上涨，随后攻击者得以借入 1560 万美元的 DOLA、ETH 、WBTC 和 YFI。
-
-对此，Inverse Finance 将提出计划确保所有受影响的钱包都得到 100% 的补偿，并表示没有铸造额外 INV 的计划或需要。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/74759"
-                        open
-                      >
-                        <summary class="article-expander__title">Azuki「Something」空投更名为「Beanz」，当前地板价6.3 ETH</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/74759">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>律动 BlockBeats 消息，4 月 3 日，据 Azuki 空投 NFT 在 Opensea 的相关页面显示，该空投系列 NFT 已更名为「Beanz Official」。截至目前，该系列 NFT 地板价为 6.3 ETH。
-
-律动此前报道，Azuki 官方于 3 月 31 日向 Azuki 持有人发放「Something」空投。每个 Azuki NFT 可以获得 2 份空投。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -6727,8 +6769,8 @@ ETH 是什么？
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2108809056">
-        <time id="build-timestamp" datetime="2022-04-07T12:14:33.791Z">2022-04-07T12:14:33.791Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2109169036">
+        <time id="build-timestamp" datetime="2022-04-07T13:20:30.947Z">2022-04-07T13:20:30.947Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
