@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-07 datetime="2022-04-06T23:40:51.000Z">2022-04-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-07 datetime="2022-04-06T23:40:51.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-07 datetime="2022-04-07T03:00:31.000Z">2022-04-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-07 datetime="2022-04-07T03:00:31.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -67,6 +67,74 @@
                   <a class="source-heading__link" href="https://www.0daily.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177768"
+                        open
+                      >
+                        <summary class="article-expander__title">CatcherVC Research：深度解读Optimism扩容方案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177768">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>作者：Web3er Liu，CatcherVC
+本文重点
+
+出于对安全和去中心化的考虑，ETH区块Gas上限和出块时间无法大改；
+
+Layer2扩容的实质是造一条TPS更高的链，把这条链的信息挂到以太坊上；
+
+Optimism的市场增值空间极大，其TPS上限可达1600，但吞吐量的实际利用率不到千分之一，未来发展潜力巨大；
+
+由于未开放对等节点，Optimism本地Sequencer出块后，甚至要1小时才可以验证其正确性，延时过长；
+
+当前的Optimism和Arbitrum均由官方运行出块节点，存在严重的中心化问题，其立足根基更多在于项目方的“信用”，而非“程序正义”本身；
+
+Optimism在进行EVM等效性升级后，其“欺诈证明”机制无法使用，官方称将于未来解决该问题。
+
+前言
+随着ETH合并正式迈入进程，Layer2和Rollup在区块链行内逐渐成为显学。究其本源，Layer2的目的是提高系统每秒处理的交易数量（TPS），并降低Gas费。前者是整个Layer2扩容的最核心要点，后者则是提升Layer2交互体验的关键。
+依照其定义，TPS&#x3D; 一段时间内处理的交易笔数 / 耗时，套用在区块链领域，若忽略分叉或区块重组等情况，可粗略视TPS&#x3D;平均每个区块包含的交易笔数÷出块时间。对普通公链而言，提升TPS面对的是区块扩容和出块时间问题，同时，TPS的实际值还牵涉到公链采用的Gas机制，无论是ETH还是BSC和Polygon都不出其右。
+但提升区块Gas容量或缩短出块时间都会破坏安全性，究其根源，以太坊扩容要面对的是“不可能三角”问题，要如何提高效率，又保障安全和去中心化，始终处在纸上谈兵、悬而未决的阶段。
+对此，以Optimism和Arbitrum为代表的Layer2凭借高效率、低Gas的旗号快速崛起，颇为瞩目。在靠着精妙叙事吸引各路资本、靠着超低Gas收获广大用户的同时，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177767"
+                        open
+                      >
+                        <summary class="article-expander__title">预言机，让Web3变得更好了吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177767">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>作者：Sally, IOSG Ventures
+预言机（oracle）通常被认为是链上和链下数据的桥梁和窗口。简而言之，预言机是一个为区块链项目提供真实世界数据服务的中间件。
+
+来源: IOSG
+如果我们把区块链定义成信任机器，那么预言机本质上可以被称为维护和构建信任的机器。事实上，区块链本身并不能产生信任，信任的输入来自于预言机。绝大多数区块链项目如果没有接入预言机则会如同视野尽失地在黑夜中行走，难以生存。
+众所周知，区块链是一个封闭的黑匣子，并不具备发起网络调用的能力。然而智能合约则由于共识机制需要请第三方对数据进行验证。为了方便理解，我们可以将预言机扮演的角色当成是两个文明之间的使者，就像《三体》中维系人类与三体文明沟通的“智子”。只有通过预言机的数据输送，智能合约才能获取来自互联网和现实世界的确定性信息，包括股票价格、汇率、总统大选的最终结果等。
+四大谱系 
+根据形式，我们可以将预言机分为四种，分别为：软件预言机、硬件预言机、中心化预言机和去中心化预言机：
+1.软件预言机
+软件预言机连接到互联网，可以通过API实时访问、传输来自任何第三方服务器或网站的数据和信息，如商品价格、天气指数、航班号等，并将其写入智能合约中。
+2.硬件预言机
+硬件预言机在IoT中被广泛采用，用作电子传感器和数据收集器。它将物理事件转换为数字值，以便智能合约可以理解它们。条码扫描仪、银行卡POS机、收集各种医疗数据的医疗设备等都可以被当作为硬件预言机。
+3.中心化预言机
+中心化预言机是一种单一数据来源的预言机，通常由政府或信誉良好的公司等值得信赖的第三方提供数据。它可以通过将数据从本地设备的不受信任的操作系统中分离出来，防止数据篡改和丢失。然而，单一中心化的数据来源也给智能合约带来了潜在的风险。
+4. 去中心化预言机
+去中心化预言机是指具有分布式共识机制的预言机，也称为共识预言机。它从多个而非…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -177,6 +245,59 @@ NEAR Protocol 成立于 2018 年，是一个面向去中心化应用程序的开
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75326"
+                        open
+                      >
+                        <summary class="article-expander__title">跨链通信协议Bridge Network完成380万美元私募轮融资，FTX Ventures参投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75326">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 7 日，跨链通信协议 Bridge Network 宣布完成 380 万美元私募轮融资，FTX Ventures、 MEXC Global、Grit Capital、Master Ventures、GDA Capital、Crypto Oasis、GRIT Capital、Abed Group、Cypher Capital、Block Theory、Fork Ventures、TDeFi、Croc Capital 和 Vulcan Forged 参投。据了解，本次融资将加速 Bridge Network 的发展，专注于安全性和可扩展性，为多链世界打造更好的跨链体验。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75320"
+                        open
+                      >
+                        <summary class="article-expander__title">美国证券交易委员会批准Teucrium比特币期货ETF</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75320">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 7 日，美国证券交易委员会 (SEC) 已批准 Teucrium 发行比特币期货 ETF，该基金计划在纽约证券交易平台 Arca 进行交易。SEC 于周三在其网站上的一份文件中公布了这一批准，使 Teucrium 成为比特币期货 ETF 的众多发行商之一。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75335"
+                        open
+                      >
+                        <summary class="article-expander__title">Juno开发人员：主网暂停源于恶意智能合约攻击，网络正在修复中</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75335">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 7 日，据 CoinDesk 报道，一位不愿透露姓名的 Juno 核心开发人员表示，Juno 网络的崩溃源于一个智能合约的恶意漏洞攻击，该合约伪装成一个简单的「hello world」程序，攻击者在三天时间里向智能合约发送了超过 400 笔交易进行反复试验，最终锁定了一个特定的交易组合导致网络崩溃。
+
+律动此前报道，Juno 在区块高度 2578108 处停止出块。截至发稿时该网络仍处于离线状态，暂无用户资金受到影响。Juno 核心开发团队表示该漏洞已被公开披露，网络正在修复中。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -5864,8 +5985,8 @@ ETH 是什么？
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2106438522">
-        <time id="build-timestamp" datetime="2022-04-07T03:21:29.203Z">2022-04-07T03:21:29.203Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2106601263">
+        <time id="build-timestamp" datetime="2022-04-07T04:10:40.353Z">2022-04-07T04:10:40.353Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
