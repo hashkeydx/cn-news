@@ -2,10 +2,135 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-07T09:08:40.459Z</updated>
+    <updated>2022-04-07T10:08:43.843Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[UST为什么不会像USDN一样脱锚：大而不倒]]></title>
+        <id>https://www.0daily.com/post/5177787</id>
+        <link href="https://www.0daily.com/post/5177787"/>
+        <updated>2022-04-07T09:01:29.000Z</updated>
+        <summary type="html"><![CDATA[本文作者 forgiven，原文发布于 Twitter，星球日报经授权编辑发布
+有朋友来问我关于 UST 会不会像 USDN（Waves 稳定币） 一样脱锚，Luna 暴跌。今天又在社群进行了广泛的讨论，没达成共识。我记录些思考的碰撞，供大家参考。个人倾向：UST 正在大而不倒的路上越走越远，UST 如果失败就是 crypto 本身的失败。
+最近 Luna 基金会囤 BTC 给 Luna 支撑的 UST 背书，行动代号 lfg（let’s fucking go)，该 BTC 地址一有异动，就发新闻打强心针，最新数据 34691 BTC，差不多 15.7 亿美金，和 UST 的发行量 167.3 亿还相去甚远。买 BTC 的钱哪来？除了融资外，资金主要是团队烧LUNA-> UST -> USD ->BTC。但对手方，用真美元换空气美元是图什么呢？
+这就要说到 Do Kwon 创造的 UST 挖矿场景, 让你乖乖地拿真美元来换： 
+1. Anchor 借贷，锁$124 亿 ust，年化 20%.。（阿喀琉斯之踵，一年印 25 亿利息）；
+2. Curve, UST- 3.Crv 池子，$13 亿池子;
+3. Astro $6 亿池子， Osmo $5亿池子；
+4. 其它分散在各大中心化交易所, 单日 UST 交易量约 10 亿美金。仅次于usdt、usdc、busd。
+UST 不脱锚的核心来自于边际交易价格不低于$1, 扣掉锁住的 UST ，在外面流通的 UST 不过 30 亿枚，单日交易量 10 亿，即 1/3 换手率，支持不脱锚绰绰有余。就算 SBF 、神鱼或者孙宇晨这样的巨鲸开始退出，Curve 的池子也能支持接近单笔 5 亿美金跑路。UST 最近一次的脱锚是 1 月底 Sam 从 Curve MIM池子退出 $5 亿时短暂发生。
+回到阿喀琉斯之踵，Anchor 20% 年化？假设之后利率逐渐降低，部分存款人会退出，用 UST 换回真美元，转为 Luna 砸盘。但这可以是分散和渐变的过程，最终是 UST 发行量坍缩，Luna价格下跌，而不是瞬间崩盘。脱锚的展开更可能是创始人 Do Kwon 被抓了，Cex的 UST 对次迫于监管压力瞬间同时下架了，那真完了。
+这个提案实际上触及了 Curve 最根本的风险治理框架，Curve 的原有框架是 3crv 可以认为是无风险的，空气一样的算法稳定币都去 3crv 鬼混，给 vecrv 的奖励也是 3crvlp 的。Luna 团队想偷梁换柱，让 4pool 替换 3 pool 的地位。这个方案一旦通过，之后 Dai 地位就江河日下，Frax、UST则扶摇直上变成硬通货。也就是说，除了 BTC,，他们还强行绑架 Curve 一起上了车。
+最后感慨下 DAI，早期 defi 的挖矿天然选择都会自发用 DAi, 现在却全面向 usdc 靠拢，一些老的基本盘还不断被 UST、FRAX 这些算稳侵蚀。价值捕获而言 FRAX 背后是 USDC 和 FXS，UST 背后是 LUNA。DAI 背后核心是 ETH, 次之 MKR, 都要向新王让渡更多利益了。
+推荐阅读：UST宣战DAI，新的Curve War一触即发？]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3.0时代下的隐私守护者]]></title>
+        <id>https://www.0daily.com/post/5177763</id>
+        <link href="https://www.0daily.com/post/5177763"/>
+        <updated>2022-04-07T08:54:50.000Z</updated>
+        <summary type="html"><![CDATA[隐私权每个人的基本权利。
+1993年，埃里克·修斯在其著名的《朋克宣言》开头变提出：
+Privacy is necessary for an open society in the electronic age. Privacy is not secrecy. A private matter is something one doesn't want the whole world to know, but a secret matter is something one doesn't want anybody to know. Privacy is the power to selectively reveal oneself to the world.
+隐私在电子时代开放型社会不可或缺。隐私不是秘密。某人不想让全世界知道某事，这是隐私；某人不想让任何人知道某事，这才是秘密。隐私是一种把自己选择性地展现给世界的权力。
+ 显然，在数字互联网时代，隐私保护成为每个人面临的最基本的需求，也是最严峻的挑战。并被认为是Web3.0的重要方向之一。
+Zcash等隐私币曾试图弥补该市场需求，但是在Web3时代，智能合约以及链外数据的隐私保护和隐私计算已经成为新的刚需。
+但作为一种「刚需的存在」，越来越多的头部VC和开发者仍在入场，隐私赛道的角逐在2021年下半年以来日益激烈，协议与应用层都诞生了诸多主打隐私的项目，其中一些项目尝试利用可信执行环境（TEE）、多方安全计算等方式保护数据隐私 (区块链混合架构) ，例如身份信息、医疗信息，一些项目则专注于使用 ZKP (零知识证明数据) 等解决方案来保护交易信息以及合约逻辑。
+基于前述介绍与趋势，我们对当下的Web3隐私赛道进行了全面梳理，首先对当前区块链面临的隐私问题，主流的隐私保护技术，然后讲隐私赛道的主要项目划分为隐私计算网络、隐…]]></summary>
+        <author>
+            <name>EigenNetwork</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文盘点值得关注的NFT基础设施]]></title>
+        <id>https://www.0daily.com/post/5177785</id>
+        <link href="https://www.0daily.com/post/5177785"/>
+        <updated>2022-04-07T08:09:28.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《What's next for NFT infrastructure?》
+原文作者：Amanda Young，前 Dapper Labs 成员
+原文编译：0x9F，律动 BlockBeats
+虽然 3 月给 NFT 市场带来了振奋人心的消息（a16z-bored-ape-yacht-club-bayc-metaverse-other-side\">Yuga Labs、OpenSea），但 NFT 交易量却在下降。例如，OpenSea 3 月的月交易量较 1 月的高点下降了 50%。
+
+谷歌趋势也反映出 NFT 热度下降
+这种下降引发了「NFT 是泡沫」的预言，我却不相信 NFT 会就此消亡。相反，我期待看到它们从投机性的交易资产变成有生产力的数字商品。那么，谁会带领我们进入下一阶段？
+在采访了 20 多个创始人，花费大量时间听播客、读书、浏览 OpenSea 和 Discord 之后，我关注了以下这些具体的推动者。
+入口
+
+NFT 数据市场 Hawku 的马匹名单包括 Zed Run（NFT 赛马游戏）比赛表现的统计数据
+重要推动者
+垂直市场：正如Mable Jiang 所写，「我们正处于 NFT 空间超垂直化的边缘」。eBay 在 Web2 中催生了众多特定市场，垂直市场已经出现在游戏（Fractal、Hawku）艺术（Foundation、SuperRare）时尚（The Dematerialized、Artisant）土地（WeMeta、Parcel）音乐（Royal、Sound、Decent）视频（Glass）摄影（Sloika）专业交易 (Blur）等领域。我看好那些提供策展和探索、收费/版税模型有竞争力、社区充满激情，以及具有量身定制 UX 和功能的市场平台，这些都是聚合型市场平台不太会优先考虑的。
+创作者工具：正如Li Jin 所写，「通过加密为创…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bankless：四个标志预示ETH债券时代即将到来]]></title>
+        <id>https://www.0daily.com/post/5177784</id>
+        <link href="https://www.0daily.com/post/5177784"/>
+        <updated>2022-04-07T08:02:47.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：David Hoffman
+原文来源：Bankless
+什么事情正在发生？
+ETH 正在成为数字时代的债券。虽然我们很早之前就预测到了这样的趋势，但直到最近以太坊共识机制的合并，该项ETH需求才正式加入我们的认知框架。
+以下是 ETH 债券时代即将到来的四个标志：
+一、美元的不信任度达历史最高水平
+对美元的不信任已达到历史的最高水平。无论在道德上多么合理，美国将世界第 11 大经济体从全球美元体系中剔除是没有回头路的。俄罗斯对外资产被冻结的同时，暴露了其他国家在使用美元体系时的弱点（美国可出于政治等原因冻结美元资产）。
+以下是美联储拥有的高昂债务：
+
+这会带来几十年来都未见的奇高通胀率。
+Jim Bianco在最新的采访中认为：美国国债市场必将迎来深度熊市。
+他说：“没有人想成为美国国债的持有者”。
+美联储奇高的账面债务叠加不断抬升的通胀率，让美国国债长短期收益率出现倒挂也毫不意外。这一指标表明投资者没有意愿长期持有美国国债。
+人们正在寻找美国国债的替代品。
+以太坊正填补由于缺乏信心而逃离的美国国债市场，值得一提的是这是一个拥有14 万亿美元的空间的市场。
+这也让对比以太坊质押市场与美国国债市场变得非常受欢迎。
+虽然美联储有历史最高水平的债务，但以太坊不能持有债务。在通货膨胀威胁美国国债持有者的实际回报时，ETH正走向通缩。美国直接冻结了世界第 11 大经济体的行为不同，以太坊是中立且可信的。
+改变正在发生；14万亿美元的美国国债市场正在萎缩，0.5万亿美元的ETH质押市场正在崛起。
+二、ETH 债券提供更高的实际回报
+但美元币值较为稳定，而 ETH 币值波动剧烈！你无法将美国债券市场与 ETH 质押直接对比！这太可笑了！
+首先，过去的十年就“很可笑”。这十年中，每个人都在改变自身所处世界的范式的理解，不接受新想法的投资者都难以获得成功。
+其次，美元币值较为稳定，…]]></summary>
+        <author>
+            <name>DeFi之道</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFT数据日报 | frankfrank在过去24小时内最受巨鲸欢迎（4.7）]]></title>
+        <id>https://www.0daily.com/post/5177783</id>
+        <link href="https://www.0daily.com/post/5177783"/>
+        <updated>2022-04-07T07:57:30.000Z</updated>
+        <summary type="html"><![CDATA[NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
+宏观市场指标
+截至 4 月 7 日 15 时，NFT 整体市值 196.55 亿美元，较 24 小时前下降 0.01%；过去 24 小时内总交易量约 2.35 亿美元，日环比下降 4.14%。
+
+按市场占比，排前三的子领域分别为 PFP（52.17%）、Collectibles（16.17%）、Art（9.00%）。
+
+项目排名
+按过去 24 小时成交量，排名前五的项目分别为 Meebits（2024 万美元）、dotdotdots（2019 万美元）、Akuma Origins（762 万美元）、Mutant Ape Yacht Club（519 万美元）和 Azuki（453 万美元）。
+
+按过去 24 小时流动性指标（注：流动性=交易量 / NFT 总供应量），排名前五的项目分别为 OKOKU OFFICIAL（119.46%）、frankfrank（90.05%）、Akuma Origins（27.81%）、FEWOCiOUS x FewoWorld - Paint（26.08%）和 Los Muertos World（20.58%）。
+
+特色数据
+过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：MATRIARCHY NOW #77、3D Bear #2222、BeanBag Fren #3294、BeanBag Fren #5420 和 Lucha Libre Knockout #7306。
+
+最受巨鲸欢迎项目排前五的分别是：frankfrank、Akuma Origins、Everai Heroes: Duo、FVCK_AVATAR// 和 VaynerSports Pass VSP。
+
+元宇宙平台中，过去 24 小时内，Decentraland 上的地块最低成交价为 2.7112 ETH、平均成交价为 4.0467 ETH；The Sandbox 上的地块最低成交价为 1.697 ETH、平均成交价为 2.1855 ETH；Cryptovoxels 上的地块最低成交价为 0.8 ETH、平均成交价为 1.1518 ETH。
+
+欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
+相关阅读
+专题 | Azuki交易量大涨，背后的价值逻辑是什么？
+格局打开：NFT持有者决定IP天花板
+浅谈NFT稀有度玄学]]></summary>
+        <author>
+            <name>不一样的NFT</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[起底Tiger Global的加密布局：1年投358个项目的「野蛮人」]]></title>
         <id>https://www.0daily.com/post/5177774</id>
