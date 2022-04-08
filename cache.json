@@ -6,6 +6,26 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/sqarticledetails/1649397989648146.html",
+          "author": "PA一线",
+          "description": "PANews 4月8日消息，Agora DeFi称，Starstream Finance受Starstream的distributor treasury合约漏洞影响，Agora DeFi中的价值约820万美元的资产被借出。慢雾安全团队对此进行了分析。1. 在Starstream的StarstreamTreasury合约中存在withdrawTokens函数，此函数只能由owner调用以取出合约中储备的资金。而在4月7日23:58:24，StarstreamTreasury合约的owner被转移至新的DistributorTreasury合约(0x6f...25)。2. 新的DistributorTreasury合约中存在execute函数，而任意用户都可以通过此函数进行外部调用，因此攻击者直接通过此函数调用StarstreamTreasury合约中的withdrawTokens函数取出合约中储备的532,571,155.859枚STARS。3. 攻击者将STARS抵押至Agora DeFi中，并借出大量资金。一部分借出的资金被用于拉高市场上STARS的价格以便借出更多资金。",
+          "link": "https://panewslab.com/zh/sqarticledetails/1649397989648146.html",
+          "publishedOn": "2022-04-08T06:06:30.000Z",
+          "wordCount": 108,
+          "title": "安全公司：Starstream Finance被黑，Agora DeFi中价值约820万美元的资产被借出",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://panewslab.com/zh/sqarticledetails/1649396976074640.html",
+          "author": "PA一线",
+          "description": "PANews 4月8日消息，Terra创始人Do Kwon今日发推文称，Avalanche和Terra的联盟是Web3有史以来最大的联盟。他解释道：“首先，LFG收购的AVAX将使用与BTC相同的自动造币机制，为UST提供大量储备。UST可以在Avalanche上被铸造和兑换为AVAX。这意味着随着UST在Avalanche上的普及，AVAX将变得更加稀缺，这与L1开发者和用户的增长保持一致。Terraform capital也将开始为AVAX生态系统中使用UST的项目支付初始启动成本，将承担与我们的各种安全合作伙伴进行联合审计的费用。我们呼吁每一个Avalanche项目与Terra社区合作，共同成长。去中心化的经济需要去中心化的资金，并且乐于在未来的几年里为Avalanche的快速扩张工作。”此外，他表示，Avalanche目前是Web3上最令人兴奋的生态系统之一；Web3将运行在多个链上，其中许多链将是Avalanche子网。此前消息，Terra生态非营利组织LFG将购买价值1亿美元的AVAX作为UST储备。",
+          "link": "https://panewslab.com/zh/sqarticledetails/1649396976074640.html",
+          "publishedOn": "2022-04-08T05:49:36.000Z",
+          "wordCount": 101,
+          "title": "Terra创始人Do Kwon：Avalanche和Terra的联盟是Web3有史以来最大的联盟",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://panewslab.com/zh/sqarticledetails/1649394365726634.html",
           "author": "PA一线",
           "description": "PANews 4月8日消息，据印度时报报道，印度储备银行副行长T Rabi Sankarhas表示，稳定币比加密货币威胁更大，因为它增加了美元化的风险。直到两年前，印度储备银行与大多数中央银行一样，对央行数字货币 ( CBDC ) 一直处于观望状态，但随着稳定币的出现，情况发生了变化。现在已经不是要不要数字货币的问题，而是如何去实施它的问题。大多数代理银行是在实施制裁方面发挥重要作用的西方跨国公司。就美元化而言，与用于小额交易或其他交易的加密货币相比，稳定币的威胁要大得多。",

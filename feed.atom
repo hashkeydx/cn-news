@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-08T09:08:31.138Z</updated>
+    <updated>2022-04-08T10:08:57.430Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -158,6 +158,16 @@ Pantera Capital 由前 Tiger Management Head of Macro Trading 和 CFO Dan Morehe
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[安全公司：Starstream Finance被黑，Agora DeFi中价值约820万美元的资产被借出]]></title>
+        <id>https://panewslab.com/zh/sqarticledetails/1649397989648146.html</id>
+        <link href="https://panewslab.com/zh/sqarticledetails/1649397989648146.html"/>
+        <updated>2022-04-08T06:06:30.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月8日消息，Agora DeFi称，Starstream Finance受Starstream的distributor treasury合约漏洞影响，Agora DeFi中的价值约820万美元的资产被借出。慢雾安全团队对此进行了分析。1. 在Starstream的StarstreamTreasury合约中存在withdrawTokens函数，此函数只能由owner调用以取出合约中储备的资金。而在4月7日23:58:24，StarstreamTreasury合约的owner被转移至新的DistributorTreasury合约(0x6f...25)。2. 新的DistributorTreasury合约中存在execute函数，而任意用户都可以通过此函数进行外部调用，因此攻击者直接通过此函数调用StarstreamTreasury合约中的withdrawTokens函数取出合约中储备的532,571,155.859枚STARS。3. 攻击者将STARS抵押至Agora DeFi中，并借出大量资金。一部分借出的资金被用于拉高市场上STARS的价格以便借出更多资金。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Terra创始人Do Kwon：UST将支持Avalanche链上原生铸造]]></title>
         <id>https://www.theblockbeats.info/flash/75632</id>
         <link href="https://www.theblockbeats.info/flash/75632"/>
@@ -165,6 +175,16 @@ Pantera Capital 由前 Tiger Management Head of Macro Trading 和 CFO Dan Morehe
         <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 8 日，Terra 创始人 Do Kwon 在社交媒体上宣布，Stablecoin UST 将支持 Avalanche 链上原生铸造，用户将可以在 Avalanche 链上使用 AVAX 铸造 UST。Do Kwon还表示，随着 Avalanche 链上 UST 铸造量的增加，AVAX 将更加稀缺。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Terra创始人Do Kwon：Avalanche和Terra的联盟是Web3有史以来最大的联盟]]></title>
+        <id>https://panewslab.com/zh/sqarticledetails/1649396976074640.html</id>
+        <link href="https://panewslab.com/zh/sqarticledetails/1649396976074640.html"/>
+        <updated>2022-04-08T05:49:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月8日消息，Terra创始人Do Kwon今日发推文称，Avalanche和Terra的联盟是Web3有史以来最大的联盟。他解释道：“首先，LFG收购的AVAX将使用与BTC相同的自动造币机制，为UST提供大量储备。UST可以在Avalanche上被铸造和兑换为AVAX。这意味着随着UST在Avalanche上的普及，AVAX将变得更加稀缺，这与L1开发者和用户的增长保持一致。Terraform capital也将开始为AVAX生态系统中使用UST的项目支付初始启动成本，将承担与我们的各种安全合作伙伴进行联合审计的费用。我们呼吁每一个Avalanche项目与Terra社区合作，共同成长。去中心化的经济需要去中心化的资金，并且乐于在未来的几年里为Avalanche的快速扩张工作。”此外，他表示，Avalanche目前是Web3上最令人兴奋的生态系统之一；Web3将运行在多个链上，其中许多链将是Avalanche子网。此前消息，Terra生态非营利组织LFG将购买价值1亿美元的AVAX作为UST储备。]]></summary>
+        <author>
+            <name>PA一线</name>
         </author>
     </entry>
     <entry>
