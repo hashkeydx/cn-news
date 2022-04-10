@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-10T04:10:16.520Z</updated>
+    <updated>2022-04-10T05:07:16.180Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[黑客能调用，你和我也可以？Starstream被盗1500万美元事件分析]]></title>
+        <id>https://www.0daily.com/post/5177841</id>
+        <link href="https://www.0daily.com/post/5177841"/>
+        <updated>2022-04-10T04:03:11.000Z</updated>
+        <summary type="html"><![CDATA[北京时间4月8日凌晨01:43:36，CertiK安全技术团队监测到收益聚合平台Starstream因其合约中的一个执行函数漏洞被恶意利用，致使约1500万美元的资产受到损失。
+黑客随后将盗取的STARS代币存入Agora DeFi的借贷合约，并向其借入了包括Metis、WETH和m.USDC在内的多种资产。
+Starstream是基于MetisLayer-2 rollup的一个可提供及产生聚合收益的产品。该协议由不同的开发者维护，由STARS进行维护并治理。
+时间线
+北京时间4月8日凌晨02:47，一位用户担心Starstream的风险，于是在推特上发布了相关截图。随后，凌晨03:11，有人在Starstream Discord社群宣布资金库已被耗尽，并建议用户们尽快将自己的资产于Agora中提出。
+
+凌晨04:36，另一位发言者于Starstream Discord社群的General Starstream Discord聊天区中表示"Execute Function "函数存在漏洞风险。
+
+攻击流程
+攻击者调用合约并调用了Distributor treasury合约中的外部函数`execute()`。由于该函数为外部函数，可以被任何人调用，因此攻击者顺利将STARS代币从Starstream转移到自己账户。
+合约漏洞分析
+此次漏洞发生的根本原因是：Distributory treasury合约中的execute函数没有任何的权限控制，因此可以被任何人调用。这个execute函数其实是一个底层调用，通过这个底层调用，攻击者能够以Distributory treasury合约身份调用Starstream treasury合约的特权函数。
+在这次攻击中，攻击者通过execute函数以Distributory treasury的身份取走了在Starstream treasury中的所有STARS代币。
+
+资产追踪
+据CertiK SkyTrace显示，4月8日凌晨5点，黑客已顺利将所盗资金转移至Tornado Cash。
+
+其他细节
+漏洞交易：
+https://andromeda-explorer.metis.io/tx/0xb1795ca2e77954007af14d89814c83b2d4f05d1834948f304fd9d731db875435/token-transfers
+攻击者地址：
+https://andromeda-explorer.metis.io/address/0xFFD90C77eaBa8c9F24580a2E0088C0C940ac9C48/transactions
+攻击地址合约:https://andromeda-explorer.metis.io/address/0x75381c1F12733FFf9976525db747ef525646677d/contracts
+Distributor Treasury合约:https://andromeda-explorer.metis.io/address/0x6f99b960450662d67bA7DCf78ac959dBF9050725/contracts
+Starstream Treasury合约:
+https://andromeda-explorer.metis.io/address/0x1075daD8CFd8bCbCfc7bEB234e23D507990C90e9/contracts
+Starstream(STARS) 代币合约https://andromeda-explorer.metis.io/address/0xb26F58f0b301a077cFA779c0B0f8281C7f936Ac0/contracts
+写在最后
+此次事件可通过安全审计发现相关风险。通过审计，可以查出这个函数是所有人都可以调用的，并且是一个底层调用。
+在此，CertiK的安全专家建议：
+在开发过程中，应该注意函数的Visibility。如果函数中有特殊的调用或逻辑，需要确认函数是否需要相应的权限控制。
+前段时间有大量的项目因public burn() 函数而被黑，其根本原因和这次攻击一样，都是由于缺乏必要的权限控制所导致。
+作为区块链安全领域的领军者，CertiK致力于提高加密货币及DeFi的安全和透明等级。迄今为止，CertiK已获得了3200家企业客户的认可，保护了超过3110亿美元的数字资产免受损失。
+欢迎点击CertiK公众号底部对话框，留言免费获取咨询及报价！]]></summary>
+        <author>
+            <name>CertiK</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BlockSec：WomenUnite NFT项目方铸造250枚NFT后又立刻停止合约]]></title>
         <id>https://www.theblockbeats.info/flash/75815</id>
@@ -4858,43 +4901,6 @@ Optimism：1.41 万，环比增加 6.02%]]></summary>
         <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 6 日，比特币交易托管公司 River Financial 宣布推出比特币挖矿托管产品 River Mining，River Mining 将负责硬件采购、托管和维护，同时使客户能够轻松监控其矿机的性能。客户可以在 River 的个人或实体账户中购买矿机，而公司负责采购钻机，将其托管在美国的顶级数据中心，并保持其最大正常运行时间。
 
 River Financial 表示，River Mining 将于 2022 年二季度增加数千台矿机，预计该业务的矿机托管规模将在 2023 年拓展至 10000 台以上。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lightning Labs完成7000万美元B轮融资，并推出新产品「Taro协议」]]></title>
-        <id>https://www.0daily.com/post/5177726</id>
-        <link href="https://www.0daily.com/post/5177726"/>
-        <updated>2022-04-05T16:29:46.000Z</updated>
-        <summary type="html"><![CDATA[本文来自 The Block，原文作者：Ryan Weeks
-Odaily 星球日报译者 | 念银思唐
-
-摘要：
-- Taro 协议致力于通过将稳定币引入闪电网络来“比特币化美元”。
-- 其开发商 Lightning Labs 宣布完成由 Valor Equity Partners 领投的 7000 万美元的 B 轮融资。
-Lightning Labs 今天发布了一款新产品，旨在扩大闪电网络支持的资产范围，这是一种加速基于区块链交易的 Layer 2 协议。
-据一份声明称，该协议名为 Taro，旨在“比特币化美元（bitcoinize the dollar）”——将闪电网络的速度与比特币的安全性配对，并使稳定币能够在闪电网络应用程序（如 Jack Mallers 的 Strike）中使用。
-“在闪电网络组件方面，你是在通过比特币进行路由。”Lightning Labs 联合创始人兼首席执行官 Elizabeth Stark 对 The Block 表示，“你实际上是在把美元兑换成比特币，再兑换回美元。”她接着解释称，她所说的“美元”是指与美元价格锚定的稳定币。
-对于 Stark 来说，如今大多数稳定币的使用都发生在交易或 DeFi 设置中，而不是用于日常支付。她表示，Lightning Labs 的目标是通过“让比特币为数十亿人所用”来改变这一现状。
-Stark 补充称，许多大型玩家，包括一些还没有宣布涉及稳定币的计划的公司，正在探索使用 Taro 在闪电网络上发行稳定币。
-如果没有 Taproot，Taro 协议是不可能实现的。Taproot 是去年 11 月对比特币代码进行的升级，旨在提高交易的隐私性和安全性。
-钱只是一种手段，而非目的
-在宣布推出 Taro 的同时，Lightning Labs 表示，它已完成 7000 万美元基于股权的 B 轮融资，由 Peter Thiel 旗下的 Valor Equity Partners 领投，Baillie Gifford、Goldcrest Capital、Kingsway、Moore Strategic Ventures、Brevan Howard、Robinhood 首席执行官 Vlad Tenev、NYDIG 和 Silvergate 首席执行官 Alan Lane 参投。
-值得一提的是，Brevan Howard 和 NYDIG 都在加倍押注闪电网络。NYDIG 通过一系列托管和交易工具，帮助机构向加密货币领域扩张。去年 10 月，NYDIG 以 3 亿美元收购了闪电网络支付公司 Bottlepay；而 Brevan Howard 前首席执行官 Alan Howard 此前曾投资这家初创公司。
-Lightning Labs 没有透露最新一轮融资的估值。2018 年，Lightning Labs 获得 250 万美元种子轮融资，Twitter 前 CEO Jack Dorsey 等参投；2020 年 2 月，Lightning Labs 宣布获得 1000 万美元的 A 轮融资，并计划将新资金分配给闪电支付技术的进一步开发，以及扩展其开发者生态系统。在同一份公告中，Lightning Labs 还宣布推出该公司的首款付费产品 Lightning Loop 的测试版。在此前的两次融资中，该公司均未披露估值。
-事实上，Stark 对于广泛的加密市场对私人市场估值的关注嗤之以鼻，她认为产品比价格标签更重要。“钱只是一种手段，而不是目的，”她说。
-Lightning Labs 成立于 2016 年，员工不到 30 人，是闪电网络的主要开发者。该公司专注于为闪电网络构建各种功能，目前已经开发了一些不同的产品，包括用于比特币流动性的 Lightning Pool。该公司的公告称，闪电网络上的 3 万多个节点中，大部分依赖于其基础设施。与此同时，超过 300 家公司正在使用这家初创公司开发的软件开发工具。]]></summary>
-        <author>
-            <name>念银思唐</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Boba Network以15亿美元估值完成4500万美元融资，Infinite Capital等参投]]></title>
-        <id>https://www.theblockbeats.info/flash/75068</id>
-        <link href="https://www.theblockbeats.info/flash/75068"/>
-        <updated>2022-04-05T16:16:26.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 6 日，以太坊 Layer 2 扩展解决方案 Boba Network 宣布以 15 亿美元估值完成 4500 万美元 A 轮融资，本轮融资由 Crypto.com、Huobi、BitMart、Kinetic Capital、Infinite Capital、Hack VC、Dreamers VC 和 M13 Ventures 等参投。本轮融资以销售 Boba Network 原生 Token（BOBA）的形式完成。本轮融资资金将用于扩大其团队规模，将更多开发人员引入其平台。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
         </author>
