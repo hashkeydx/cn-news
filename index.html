@@ -51,75 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-10 datetime="2022-04-10T04:03:11.000Z">2022-04-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-10 datetime="2022-04-10T04:03:11.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-10 datetime="2022-04-10T04:28:44.000Z">2022-04-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-10 datetime="2022-04-10T04:28:44.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5177841"
-                        open
-                      >
-                        <summary class="article-expander__title">黑客能调用，你和我也可以？Starstream被盗1500万美元事件分析</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177841">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>北京时间4月8日凌晨01:43:36，CertiK安全技术团队监测到收益聚合平台Starstream因其合约中的一个执行函数漏洞被恶意利用，致使约1500万美元的资产受到损失。
-黑客随后将盗取的STARS代币存入Agora DeFi的借贷合约，并向其借入了包括Metis、WETH和m.USDC在内的多种资产。
-Starstream是基于MetisLayer-2 rollup的一个可提供及产生聚合收益的产品。该协议由不同的开发者维护，由STARS进行维护并治理。
-时间线
-北京时间4月8日凌晨02:47，一位用户担心Starstream的风险，于是在推特上发布了相关截图。随后，凌晨03:11，有人在Starstream Discord社群宣布资金库已被耗尽，并建议用户们尽快将自己的资产于Agora中提出。
-
-凌晨04:36，另一位发言者于Starstream Discord社群的General Starstream Discord聊天区中表示&quot;Execute Function &quot;函数存在漏洞风险。
-
-攻击流程
-攻击者调用合约并调用了Distributor treasury合约中的外部函数&#x60;execute()&#x60;。由于该函数为外部函数，可以被任何人调用，因此攻击者顺利将STARS代币从Starstream转移到自己账户。
-合约漏洞分析
-此次漏洞发生的根本原因是：Distributory treasury合约中的execute函数没有任何的权限控制，因此可以被任何人调用。这个execute函数其实是一个底层调用，通过这个底层调用，攻击者能够以Distributory treasury合约身份调用Starstream treasury合约的特权函数。
-在这次攻击中，攻击者通过execute函数以Distributory treasury的身份取走了在Starstream treasury中的所有STARS代币。
-
-资产追踪
-据CertiK SkyTrace显示，4月8日凌晨5点，黑客已顺利将所盗资金转移至Tornado Cash。
-
-其他细节
-漏洞交易：
-https://andromeda-explorer.metis.io/tx/0xb1795ca2e77954007af14d89814c83b2d4f05d1834948f304fd9d731db875435/token-transfers
-攻击者地址：
-https://andromeda-explorer.metis.io/address/0xFFD90C77eaBa8c9F24580a2E0088C0C940ac9C48/transactions
-攻击地址合约:https://andromeda-explorer.metis.io/address/0x75381c1F12733FFf9976525db747ef525646677d/contracts
-Distributor Treasury合约:https://andromeda-explorer.metis.io/address/0x6f99b960450662d67bA7DCf78ac959dBF9050725/contracts
-Starstream Treasury合约:
-https://andromeda-explorer.metis.io/address/0x1075daD8CFd8bCbCfc7bEB234e23D507990C90e9/contracts
-Starstream(STARS) 代币合约https://andromeda-explorer.metis.io/address/0xb26F58f0b301a077cFA779c0B0f8281C7f936Ac0/contracts
-写在最后
-此次事件可通过安全审计发现相关风险。通过审计，可以查出这个函数是所有人都可以调用的，并且是一个底层调用。
-在此，CertiK的安全专家建议：
-在开发过程中，应该注意函数的Visibility。如果函数中有特殊的调用或逻辑，需要确认函数是否需要相应的权限控制。
-前段时间有大量的项目因public burn() 函数而被黑，其根本原因和这次攻击一样，都是由于缺乏必要的权限控制所导致。
-作为区块链安全领域的领军者，CertiK致力于提高加密货币及DeFi的安全和透明等级。迄今为止，CertiK已获得了3200家企业客户的认可，保护了超过3110亿美元的数字资产免受损失。
-欢迎点击CertiK公众号底部对话框，留言免费获取咨询及报价！</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -131,6 +67,131 @@ Starstream(STARS) 代币合约https://andromeda-explorer.metis.io/address/0xb26F
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75842"
+                        open
+                      >
+                        <summary class="article-expander__title">Arcade Land #82和#54分别以99 ETH和50 ETH成交，位居Arcade Land系列交易记录前两名</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75842">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 10 日，据 OpenSea 数据显示，Arcade Land #82 以 99 ETH（约合 32 万美元）价格成交，创该 NFT 系列历史最高交易记录。Arcade Land #54 以 50 ETH 价格成交，创该 NFT 系列历史第二高交易记录。截止目前该 NFT 系列市值将近 2827 万美元，交易总额突破 4348 万美元，地板价升至 1.1 ETH，24 小时涨幅为 23.85%。
+
+律动此前报道，知名歌手林俊杰于个人社交媒体宣布持有 Arcade Land #10 虚拟地块。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75839"
+                        open
+                      >
+                        <summary class="article-expander__title">Solana 1.9.15主网测试版本已发布</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75839">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 10 日，区块链软件公司 Laine 在社交媒体上发文宣布，Solana 1.9.15 版本已经发布主网测试版，该版本修复了可能导致了一个可能导致最近网络性能下降的重要问题。解决机器人垃圾邮件和拥塞问题的另一个主要发展仍然是 QUIC 网络层的部署，这仍处于积极开发和测试中，上线主网时间未知。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75827"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT市场总交易额突破500亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75827">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 10 日，据 NFTGo.io 数据显示，NFT 市场总交易额已突破 500 亿美元，截止目前为 501.2 亿美元，当前 NFT 市场总市值约为 198.3 亿美元。此外，当前 NFT 持有者总量突破 200 万，截至目前为 2,074,895 个，交易者总量为 1,343,392 个。
+
+市值方面，当前市值最高的 NFT 类型为 PFP NFT，当前市值约为 97.5 亿美元，其次是收藏品 NFT，当前市值约为 30 亿美元，游戏类 NFT 市值位列第三，约为 16.8 亿美元；第四和第五位分别是艺术类 NFT（16.5 亿美元）和实用类 NFT（10.8 亿美元），元宇宙类 NFT 市值排在第六位，约为 5.07 亿美元。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75824"
+                        open
+                      >
+                        <summary class="article-expander__title">Azuki与韩国嘻哈乐队Epik High达成合作</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75824">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 10 日，Azuki 在社交媒体上发文宣布与韩国嘻哈乐队 Epik High 达成合作，将为他们在科切拉音乐节的表演创作原创视觉艺术。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75830"
+                        open
+                      >
+                        <summary class="article-expander__title">NBA球星凯里·欧文将推特头像换为Loser Club NFT作品</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75830">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 10 日，NBA 球星凯里·欧文已将推特头像换为 Loser Club NFT 作品。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75836"
+                        open
+                      >
+                        <summary class="article-expander__title">游戏巨头世嘉：「超级游戏」计划或将使用NFT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75836">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 10 日，日本游戏巨头世嘉（Sega）最近对旗下「超级游戏」（Super Game）计划进行了更多说明，包括结合云技术和 NFT。世嘉游戏制作人菊池正佳（Masayoshi Kikuchi）透露，游戏有一个通过连接各种文化和技术而扩张的历史。「这是游戏未来的自然延伸，它将扩展到云游戏和 NFT 等新领域。我们也在从不同游戏能在多大程度上相互连接的角度来开发超级游戏。」
+
+2021 年 5 月，世嘉在公司财务业绩报告中首次透露一项名为「创造超级游戏」的五年战略长期计划，将考虑在未来五年内投资高达 1000 亿日元（8.82 亿美元），以实现其「超级游戏」的雄心。同年 11 月，世嘉宣布与微软达成「战略联盟」，将使用微软旗下 Xbox 的 Azure 云平台开发游戏。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/75821"
+                        open
+                      >
+                        <summary class="article-expander__title">DAO工具平台Aragon联创启动Nation3 DAO，旨在建立数字国家</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75821">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 10 日，去中心化治理和 DAO 工具平台 Aragon 联合创始人 Luis Cuende 在社交媒体上发文宣布启动 Nation3 DAO，旨在建立数字国家。用户在相关推文下回复 ENS 域名并转发即可参与，快照时间为 4 月 18 日。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -234,6 +295,70 @@ Zenith Chain 是一家区块链技术初创公司，其愿景是创建一个负�
                               <span>律动 BlockBeats 消息，4 月 10 日，欧洲议会在最新加密资产市场（MiCA）监管方案中指定 ESMA（欧洲证券和市场管理局）为该地区的最高加密货币监管机构，ESMA 将负责为加密货币相关机构和交易平台颁发许可证。此外，一项新的指令赋予 ESMA 确定哪些加密资产在法律范围内的权力。该指令规定，ESMA 将发布「减少法律不确定性、确保市场运营商公平竞争的指导方针」
 
 最新草案还引入了一种称为「电子货币 Token」的加密资产，它是与法币挂钩的 Stablecoin，并被用作支付方式。该 Token 的发行者必须拥有银行执照或作为电子货币实体运作。据悉，所有提议的更改仍有待批准，同时整个草案预计将在第三季度获得批准。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5177841"
+                        open
+                      >
+                        <summary class="article-expander__title">黑客能调用，你和我也可以？Starstream被盗1500万美元事件分析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5177841">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>北京时间4月8日凌晨01:43:36，CertiK安全技术团队监测到收益聚合平台Starstream因其合约中的一个执行函数漏洞被恶意利用，致使约1500万美元的资产受到损失。
+黑客随后将盗取的STARS代币存入Agora DeFi的借贷合约，并向其借入了包括Metis、WETH和m.USDC在内的多种资产。
+Starstream是基于MetisLayer-2 rollup的一个可提供及产生聚合收益的产品。该协议由不同的开发者维护，由STARS进行维护并治理。
+时间线
+北京时间4月8日凌晨02:47，一位用户担心Starstream的风险，于是在推特上发布了相关截图。随后，凌晨03:11，有人在Starstream Discord社群宣布资金库已被耗尽，并建议用户们尽快将自己的资产于Agora中提出。
+
+凌晨04:36，另一位发言者于Starstream Discord社群的General Starstream Discord聊天区中表示&quot;Execute Function &quot;函数存在漏洞风险。
+
+攻击流程
+攻击者调用合约并调用了Distributor treasury合约中的外部函数&#x60;execute()&#x60;。由于该函数为外部函数，可以被任何人调用，因此攻击者顺利将STARS代币从Starstream转移到自己账户。
+合约漏洞分析
+此次漏洞发生的根本原因是：Distributory treasury合约中的execute函数没有任何的权限控制，因此可以被任何人调用。这个execute函数其实是一个底层调用，通过这个底层调用，攻击者能够以Distributory treasury合约身份调用Starstream treasury合约的特权函数。
+在这次攻击中，攻击者通过execute函数以Distributory treasury的身份取走了在Starstream treasury中的所有STARS代币。
+
+资产追踪
+据CertiK SkyTrace显示，4月8日凌晨5点，黑客已顺利将所盗资金转移至Tornado Cash。
+
+其他细节
+漏洞交易：
+https://andromeda-explorer.metis.io/tx/0xb1795ca2e77954007af14d89814c83b2d4f05d1834948f304fd9d731db875435/token-transfers
+攻击者地址：
+https://andromeda-explorer.metis.io/address/0xFFD90C77eaBa8c9F24580a2E0088C0C940ac9C48/transactions
+攻击地址合约:https://andromeda-explorer.metis.io/address/0x75381c1F12733FFf9976525db747ef525646677d/contracts
+Distributor Treasury合约:https://andromeda-explorer.metis.io/address/0x6f99b960450662d67bA7DCf78ac959dBF9050725/contracts
+Starstream Treasury合约:
+https://andromeda-explorer.metis.io/address/0x1075daD8CFd8bCbCfc7bEB234e23D507990C90e9/contracts
+Starstream(STARS) 代币合约https://andromeda-explorer.metis.io/address/0xb26F58f0b301a077cFA779c0B0f8281C7f936Ac0/contracts
+写在最后
+此次事件可通过安全审计发现相关风险。通过审计，可以查出这个函数是所有人都可以调用的，并且是一个底层调用。
+在此，CertiK的安全专家建议：
+在开发过程中，应该注意函数的Visibility。如果函数中有特殊的调用或逻辑，需要确认函数是否需要相应的权限控制。
+前段时间有大量的项目因public burn() 函数而被黑，其根本原因和这次攻击一样，都是由于缺乏必要的权限控制所导致。
+作为区块链安全领域的领军者，CertiK致力于提高加密货币及DeFi的安全和透明等级。迄今为止，CertiK已获得了3200家企业客户的认可，保护了超过3110亿美元的数字资产免受损失。
+欢迎点击CertiK公众号底部对话框，留言免费获取咨询及报价！</span>
                             </span>
                           </div>
                         </a>
@@ -5347,72 +5472,6 @@ Novel 是一家帮助零售商、品牌商和内容创作者铸造和销售 NFT 
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/75071"
-                        open
-                      >
-                        <summary class="article-expander__title">Nansen：10大主流网络近7日总活跃地址约893万，Arbitrum增长明显</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75071">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>律动 BlockBeats 消息，多链数据分析平台 Nansen 发布最新一周网络 7 日活跃地址统计，据统计数据显示，截止 4 月 5 日，7 日活跃地址最多的网络为 BNB Chain（原 BSC），约 423 万活跃地址，环比增加 10.16%；7 日活跃地址最少的网络为 Optimism，约 1.41 万活跃地址，环比增加 6.02%。完整排名如下： 
-
-BNB Chain：423 万，环比增加 10.16% 
-Ethereum：183 万，环比减少 15.67%
-Polygon：106 万，环比增加 6% 
-Ronin：102 万，环比增加 31.78% 
-Avalanche：26 万，环比增加 2.77% 
-Fantom ：23.3 万，环比增加 30.17% 
-Terra：15,4 万，环比增加 10%
-Arbitrum：8.22 万，环比增加 66.4%
-Celo：4.69 万，环比增加 7.08% 
-Optimism：1.41 万，环比增加 6.02%</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/75074"
-                        open
-                      >
-                        <summary class="article-expander__title">Coinbase将于4月7日开放MINA交易</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75074">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>律动 BlockBeats 消息，4 月 6 日，Coinbase 在社交媒体上发文宣布，若满足流动性条件，将于北京时间 4 月 7 日 0 时开放 Mina（MINA）交易。
-
-律动此前报道，Coinbase 原计划于 3 月 25 日 0 时上线轻量级区块链协议 Mina（MINA）并开放交易，此后发文表示因技术问题，暂时只开放 MINA 存取款，并暂缓开放交易。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/75077"
-                        open
-                      >
-                        <summary class="article-expander__title">River Financial推出比特币挖矿托管产品River Mining</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/75077">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>律动 BlockBeats 消息，4 月 6 日，比特币交易托管公司 River Financial 宣布推出比特币挖矿托管产品 River Mining，River Mining 将负责硬件采购、托管和维护，同时使客户能够轻松监控其矿机的性能。客户可以在 River 的个人或实体账户中购买矿机，而公司负责采购钻机，将其托管在美国的顶级数据中心，并保持其最大正常运行时间。
-
-River Financial 表示，River Mining 将于 2022 年二季度增加数千台矿机，预计该业务的矿机托管规模将在 2023 年拓展至 10000 台以上。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7696,8 +7755,8 @@ OpenZeppelin发文称，2021年末，作为针对Coinbase安全审计的一部�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2142892260">
-        <time id="build-timestamp" datetime="2022-04-10T05:07:16.145Z">2022-04-10T05:07:16.145Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2143031314">
+        <time id="build-timestamp" datetime="2022-04-10T06:12:03.864Z">2022-04-10T06:12:03.864Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
