@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-10T23:07:40.124Z</updated>
+    <updated>2022-04-11T00:37:34.918Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -3521,39 +3521,6 @@ Multicoin 对建立帝国不感兴趣。管理合伙人 Tushar Jain 和 Kyle Sam
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[生死时速：对AnySwap项目救援行动的记录与思考]]></title>
-        <id>https://www.0daily.com/post/5177729</id>
-        <link href="https://www.0daily.com/post/5177729"/>
-        <updated>2022-04-06T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[2022年1月18日，我们的异常交易监测系统检测到了针对AnySwap项目（即Multichain）的攻击。由于anySwapOutUnderlyingWithPermit()函数未能正确地实现相关校验机制，导致用户授权给该项目的token可被攻击者取出，关于漏洞细节和相关处置详情可参考项目方的官方说明（https://medium.com/multichainorg/multichain-contract-vulnerability-post-mortem-d37bfab237c8）。
-尽管项目方尝试了多种方法试图提醒受影响的用户（如发送交易提醒，图1所示），仍然有很多用户未能及时响应（撤回自己的授权），攻击者得以持续地实施攻击获利。
-
-由于攻击持续进行，为了保护潜在的受害者，BlockSec团队决定采取应急响应措施。本次救援特别针对以太坊（Ethereum）上受到影响的账户，与之关联的项目方合约地址为0x6b7a87899490EcE95443e979cA9485CBE7E71522，我们将相关的账户资金转移到我们专门设立的多签白帽账户中(0xd186540FbCc460f6a3A9e705DC6d2406cBcc1C47)。
-为了保证行动的透明性，我们将相关行动计划在pdf文件中做了说明，并立即将文件hash（而非内容）向社区公开。这样既能够保证将我们的行为与攻击者行为做区分，也不会泄漏任何细节（因为攻击仍在持续）。
-我们的救援行动从2022年1月21日正式开始，到2022年3月11日正式结束，相关的公开声明分别如图2、图3所示。
-
-
-应急救援并非是一件容易达成的任务，有各种技术和非技术方面的挑战需要克服。由于行动已经结束，我们得以重新复盘整个过程，并将相关心得与体会与社区分享。我们希望也相信这样的分享对社区，以及DeFi生态的安全会有所帮助。
-简要总结（太长不看版）…]]></summary>
-        <author>
-            <name>BlockSec</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[a16z：「社区可组合性」能否帮助Web2用户跃入Web3？]]></title>
-        <id>https://www.0daily.com/post/5177753</id>
-        <link href="https://www.0daily.com/post/5177753"/>
-        <updated>2022-04-06T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[作者： Jenny Wang, Michael Chiang，a16z.com/can-community-composability-help-web2-users-make-the-jump-to-web3/\">a16z
-Web3 已经渗透到主流文化中，从帕丽斯·希尔顿（Paris Hiltion）在《今夜秀》上展示她的 NFT 到 ConstitutionDAO 试图购买仅存的美国宪法副本之一。然而，加入 Web3 仍然是一个面向早期用户的复杂和混乱的过程。有一大群数字原住民 —— 让我们称他们为「Web2.5」—— 他们对加密技术充满好奇，但可能对 Web3 没有足够的热情来忍受其学习上手过程。
-如果 Web3 的建设者继续要求 Web2.5 的新用户在没有资产、网络、地位或历史的情况下跳入 Web3 的陌生世界，那么 Web3 要达到广泛的普及采用将是困难的。简化上手程序是一个解决方案，许多新的 Web3 公司正是专注于这个目标。但是，由于文化和技术上的原因，在可预见的未来，上手培训可能仍然会很复杂。这里有另一个想法。如果我们先向 Web2.5 用户展示 Web3 的好处，然后给他们一个跳转的桥梁，会怎么样？我们相信，这个桥梁可能在于「社区可组合性」，这是一个有着几十年历史的计算机科学概念的新变化。
-A16Z 的克里斯·迪克逊（Chris Dixon）将可组合性定义为「像乐高积木一样混合和匹配软件组件的能力……每个软件组件只需要编写一次，此后可以简单地重复使用。」我们正在引入社区可组合性这一术语，以描述社区可以像积木一样堆叠在一起，以创建新的社区层。
-Web3 的建设者可以通过将他们零散的 Web2 历史统一到一个统一的数字身份中来吸引 Web2.5 用户加入 Web3。虽然社区的可组合性并不是所有类型产品的万能药，但它可以让建设者通过联合充满热情领域中的子社区…]]></summary>
-        <author>
-            <name>链捕手</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[加密情报提供商Coin Metrics完成3500万美元C轮融资，Acrew Capital和纽约梅隆银行领投]]></title>
         <id>https://panewslab.com/zh/sqarticledetails/1649245697356995.html</id>
         <link href="https://panewslab.com/zh/sqarticledetails/1649245697356995.html"/>
@@ -3571,23 +3538,6 @@ Web3 的建设者可以通过将他们零散的 Web2 历史统一到一个统一
         <summary type="html"><![CDATA[PANews 4月6日消息，据Cointelegraph报道，联合国难民事务高级专员公署 (UNHCR) 从币安慈善机构接受了 250 万美元的币安美元 (BUSD) 稳定币捐款，这些捐款将用于救治和支持从乌克兰逃往邻国的难民。据悉，俄乌冲突爆发以来，该国（乌克兰）已收到超过 1 亿美元的加密货币捐赠。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[哪些国家在CBDC的探索和研发上名列前茅？]]></title>
-        <id>https://www.0daily.com/post/5177737</id>
-        <link href="https://www.0daily.com/post/5177737"/>
-        <updated>2022-04-06T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文来源：普华永道全球 CBDC 指数报告
-文章整理：白泽研究院
-周一，全球会计事务所普华永道发布了央行数字货币（CBDC）和稳定币的年度指数报告，该公司分析师在报告中指出，全球有超过 80% 的中央银行正在考虑或已经推出 CBDC；与此同时，稳定币正在成为现有支付生态系统的补充，到 2022 年初市值已达到 1900 亿美元左右。
-普华永道的全球 CBDC 指数基于国际清算银行、中央银行网站、大西洋理事会、媒体、谷歌趋势、百度指数的数据，旨在衡量各国央行在部署自己的数字货币方面的成熟度。
-普华永道认为，CBDC 不仅能够促进金融服务行业更有效、成本更低和 24/7/365 的支付，而且还将有利于所有相关司法管辖区的跨境交易和跨境经济。报告将 CBDC 分为两种框架，一种是零售 CBDC，此类项目是为公众使用的数字货币，其成熟度高于另一种框架——批发 CBDC，这是为在中央银行设有账户的金融机构使用的数字货币。
-总体来说，超过 80% 的中央银行正在考虑或已经推出 CBDC。例如，巴哈马和尼日利亚已经正在使用合法的数字货币，牙买加和东加勒比地区预计很快也会跟进。中国人民银行于 2014 年开始向数字人民币迈进，目前正在一些城市进行大规模的试点，也成为了 2022 年北京冬奥会期间场馆接受的仅有的三种支付方式之⼀。 
-然而，不论是零售还是批发的 CBDC，都可以被监控和控制，虽然这可能并不是⼀个更理想的特征，但事实证明，罪犯确实可以使用各种类型的“Money”做坏事，帮助跟踪和防止此类事情发生是必不可少的。不过，CBDC 操作越透明、越简单是必要的。
-相对来说，私人发行的稳定币提供了另⼀种选择，并提供了与 CBDC 大部分相同的效用，例如可传输性、连续结算、可追溯性、跨境互操作性、相对于传统支付基础设施的低交易费用和可编程性，但却没有限制。从最简单的意义上说，稳定币是⼀种加密…]]></summary>
-        <author>
-            <name>白泽研究院</name>
         </author>
     </entry>
     <entry>
