@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-11T17:14:18.946Z</updated>
+    <updated>2022-04-11T18:10:29.965Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -78,6 +78,57 @@
         <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 11 日，基于 Avalanche 的射击类链游 Shrapnel 通过 Token 销售完成 700 万美元融资，Dragonfly 和三箭资本等参投，天使投资人包括 Keith Nunziata（Citadel Global Equities）、Jason Zhao（Kleiner Perkins）。据悉，Shrapnel 首席执行官 Mark Long 曾为迪士尼、育碧等开发游戏。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TVL突破40亿美元， Stargate会成为新的跨链桥龙头吗？]]></title>
+        <id>https://www.0daily.com/post/5177882</id>
+        <link href="https://www.0daily.com/post/5177882"/>
+        <updated>2022-04-11T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[撰文：planD（推特：@crosschaindude）
+作为上线仅两周左右的跨链桥，Stargate 在截止本文撰稿时已经达到了 40 亿美元左右的 TVL（Total Value Locked, 总锁仓量)，成为了近期市场中引人注目的明星项目。在本文中，我们将首先回顾 Stargate 的底层协议与其核心算法，然后结合 Stargate 的链上数据以及最近的市场动向，给出我们对于 Stargate 未来趋势的一些观点与判断。
+注：本文不包含任何投资建议。
+Stargate 的底层协议：LayerZero
+目前，市场上存在的资产跨链方案可以分为三种：见证人、中继和哈希时间锁：
+
+「见证人」机制或称「第三方验证」，即通过第三方来验证资产的转移，验证者的角色由一些声誉较好的机构担任，并通过多方签名等技术来排除过度中心化导致的安全隐患。目前市场上使用见证人机制的跨链桥包括 Multichain, Synapse, AllBridge 等。
+
+「中继」机制或称「 原生验证」，即由中继者监控源链上的信息，并将包含加密证明的记录和源链的区块一并打包发送给目标链。目前市场上的公链官方跨链桥最倾向于使用原生验证的方式，包括 Near 的 Rainbow Bridge，Avalanche 的 Avalanche Bridge，Terra 的 Terra Bridge 等。
+
+「哈希时间锁」(Hashed Time Lock Contract, HTLC) 机制，将资产跨链的需求者进行配对，并通过哈希时间锁算法来保证资产释放的同时性和一致性，无需对第三方见证者的信任成本。目前市场上使用哈希时间锁机制的跨链桥包括 cBridge, Hop finance, Meson 等。
+
+Stargate 属于其中的「中继」机制——更准确地说，是其底层依靠的协议 LayerZero 属于「中继」机制。在介…]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊「上海」升级最新计划进展]]></title>
+        <id>https://www.0daily.com/post/5177812</id>
+        <link href="https://www.0daily.com/post/5177812"/>
+        <updated>2022-04-11T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：AllCoreDevs Updates
+原文编译：H.Forest Ventures,0x123
+原文标题：AllCoreDevs Update 010
+推荐理由：
+本文介绍了以太坊从1月份到现在发生的重要事件，包括Kiln测试网的运行状态、“上海”升级的最新计划、以太坊执行层的可执行规范工作、协议工会的相关信息和一些细节更新。密切关注以太坊最新进展的用户可以仔细阅读。
+TL;DR👀
+一月份到现在发生了许多事，我一直在努力找时间将这些事情写下来。以下是本文的主要亮点：
+
+最新合并测试网Klin已启动。在其上的Pos过渡暴露了一些实施问题，现在合并测试一切就绪。
+
+名为“上海”的下一次以太坊升级正在计划中。包括EVM升级，信标链提款，降低二层费用以及更多计划。
+
+以太坊执行层的可执行规范工作进展顺利。下一步则是协调EL+CL（执行层+共识层）的升级流程。
+
+协议工会（Protocol Guild）现在已拥有超过100名成员，并且即将启动试点，这是一项为客户端开发成员和研究成员提供代币补偿的举措。
+
+Kiln 🔥🧱
+继Kintsugi后，Klin测试网最近也已启动。它根据在Kintsugi上发现的边缘情况对The Merge规范进行了更改，并进行了一些重命名。虽然当前看起来The Merge的运行规范已经几乎是最终形态，但在Klin上的运行过渡期间，在几个客户端中出现了一些实施问题。相关团队正在加倍测试以确保所有的实施方案都是安全稳定的。Danny在他最近的Finalized帖子中对此进行了介绍。
+除此之外，我们正在请求更多的开发者社区使用Klin，并确保他们的产品能按预期工作。向试用了Klin的Kurtosis, Tenderly, Lido, Uniswap, EthStaker, Infura and Blockdaemon表示感谢。
+假如没有关键问题被发…]]></summary>
+        <author>
+            <name>H.Forest</name>
         </author>
     </entry>
     <entry>
@@ -4269,84 +4320,6 @@ GameFi是一个前无古人的板块，任何开发团队都是处在“摸着�
 出生在台湾的西门孟…]]></summary>
         <author>
             <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[外媒：动视暴雪正考虑在《使命召唤》中加入NFT元素]]></title>
-        <id>https://www.theblockbeats.info/flash/75428</id>
-        <link href="https://www.theblockbeats.info/flash/75428"/>
-        <updated>2022-04-07T05:28:37.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 7 日，据 Dexerto 援引爆料博主 RalphsValve 提供的消息显示，动视暴雪正考虑在即将推出的《使命召唤》系列游戏中加入 NFT 元素。但由于游戏界目前普遍对加密抱有抵触情绪，例如最大的游戏平台 Steam 宣布已禁止一切 NFT 游戏，故该提议目前仍处于商讨的早期阶段。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩国有线电视台JTBC宣布进军NFT市场]]></title>
-        <id>https://www.theblockbeats.info/flash/75425</id>
-        <link href="https://www.theblockbeats.info/flash/75425"/>
-        <updated>2022-04-07T05:27:37.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 7 日，据官方消息，韩国有线电视台 JTBC 宣布进军 NFT 市场。JTBC 已与 NFT 项目 Treasures Club 签署了谅解备忘录（MOU），双方计划合作利用 JTBC 节目 IP 在 NFT 及元宇宙相关业务领域开展各种业务合作。通过指定核心程序的 NFT 业务，JTBC 将于今年上半年发布第一个 NFT 系列。
-
-JTBC 数字服务事业本部相关负责人表示：「JTBC 拥有从新闻到电视剧、娱乐等多个具有竞争力的 IP，社区是关键。」]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[灰度调整旗下基金持有的加密资产敞口，新增 AVAX、DOT 和 ATOM，移除 SUSHI 和 SNX]]></title>
-        <id>https://www.theblockbeats.info/flash/75410</id>
-        <link href="https://www.theblockbeats.info/flash/75410"/>
-        <updated>2022-04-07T05:25:37.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 7 日，灰度（Grayscale）公布了旗下基金的季度调整，其中数字大盘基金新增 AVAX 以及 DOT，目前在基金中的配置约为 3.3%；Ex-Ethereum Fund 添加 ATOM，约占该基金的 5%；灰度 DeFi 基金移除 SUSHI 和 SNX。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Axie Infinity：Origin现已上线Early Access版]]></title>
-        <id>https://www.theblockbeats.info/flash/75407</id>
-        <link href="https://www.theblockbeats.info/flash/75407"/>
-        <updated>2022-04-07T05:25:37.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 7 日，链游 Axie Infinity 在其社交网站宣布 Axie Infinity：Origin 已上线 Early Access 版。该游戏将拥有全新的界面、游戏机制、艺术、特效、故事情节和更好的入门体验。
-
-律动此前报道，由于 Ronin 被盗事件，Axie Infinity 团队将 Origin alpha 版本原计划的上线时间推迟了一周。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[派拉蒙与Recur合作推出NFT市场，将于4月9日发布《星际迷航》NFT]]></title>
-        <id>https://www.theblockbeats.info/flash/75404</id>
-        <link href="https://www.theblockbeats.info/flash/75404"/>
-        <updated>2022-04-07T05:25:37.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 7 日，派拉蒙全球宣布与 NFT 品牌体验公司 Recur 合作推出面向粉丝的 NFT 市场 Paramount.xzy，用户可以在平台上购买、收集和交易派拉蒙旗下标志性 IP 的数字收藏品。《星际迷航》是首先推出的 NFT 系列，Star Trek Continuum 将于北京时间 4 月 9 日 23 时公售，包含 20,000 枚由算法生成的星舰 NFT，每枚 NFT 的铸造价格为 250 美元。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Animoca Brands宣布与元宇宙游戏平台MOBOX达成战略合作关系]]></title>
-        <id>https://www.theblockbeats.info/flash/75413</id>
-        <link href="https://www.theblockbeats.info/flash/75413"/>
-        <updated>2022-04-07T05:25:37.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 7 日，Animoca Brands 宣布与元宇宙游戏平台 MOBOX 达成战略合作关系。
-
-Animoca Brands 在公告中表示，MOBOX 是 BNB Chain 上排名第一的元宇宙游戏平台，Animoca Brands 将加速 MOBOX 生态建设，包括去中心化自治公会 (DAG )、MOBOX 链以及 MOBOX 路线图上的各种其他产品的开发。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[推特创始人Jack Dorsey首条推文NFT以14,969ETH价格挂单待售，约合4765万美元]]></title>
-        <id>https://www.theblockbeats.info/flash/75416</id>
-        <link href="https://www.theblockbeats.info/flash/75416"/>
-        <updated>2022-04-07T05:25:37.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 7 日，推特创始人 Jack Dorsey 的首条推文副本 NFT 已在 OpenSea 上以 14,969ETH 的价格挂单待售，约合 4765 万美元。目前该 NFT 的所有者 Sina Estavi 承诺将销售所得的 50% 收益捐赠给慈善机构 GiveDirectly。
-
-律动此前报道，该 NFT 于 2021 年 3 月份完成首次出售，由马来西亚区块链公司 Bridge Oracle 的首席执行官 Sina Estavi 以 290 万美元的价格购得。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
 </feed>
