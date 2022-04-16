@@ -2263,6 +2263,26 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/flash/76985",
+          "author": null,
+          "description": "律动 BlockBeats 消息，4 月 16 日，据 TheRegister 报道，在周杰伦 NFT 被盗之后，研究人员 Roman Zaikin、Dikla Barda 和 Oded Vanunu 开始调查 NFT 常用的 EIP-721 标准，结果发现欺诈者可以引诱用户点击恶意 NFT 的链接，然后通过该标准内一个名为「setApprovalForAll」的函数控制受害者账户，该函数可以授权任何人控制 NFT，其设计初衷是为了让 Rarible 和 OpenSea 等第三方能够代表用户控制 NFT。一旦该函数完成授权，攻击者就可以通过使用合约上的 transferFrom 函数将受害者名下的所有 NFT 转移到自己的账户。\n\n研究人员表示，该功能在设计上非常危险，用户并不总是清楚他们通过签署交易给予了哪些权限。大多数时候，受害者认为这些仅为常规交易。",
+          "link": "https://www.theblockbeats.info/flash/76985",
+          "publishedOn": "2022-04-16T02:37:05.000Z",
+          "wordCount": null,
+          "title": "研究人员：EIP-721标准内「setApprovalForAll」函数风险性极高",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/76982",
+          "author": null,
+          "description": "律动 BlockBeats 消息，4 月 16 日，Terra 生态被动资产管理协议 Nebula Protocol 正式向 LUNA 质押者发放空投，并开启治理质押模块，符合条件的用户现已可认领和质押 NEB。\n\n律动此前报道，被动资产管理协议 Nebula Protocol 宣布将于 4 月 15 日正式启动上线流程，总量 1% 的 NEB Token 将空投给截至区块高度 7169420 的 LUNA 质押者，用户可以在 4 月 15 日领取。",
+          "link": "https://www.theblockbeats.info/flash/76982",
+          "publishedOn": "2022-04-16T02:31:05.000Z",
+          "wordCount": null,
+          "title": "被动资产管理协议Nebula Protocol正式向LUNA质押者发放空投",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/flash/76976",
           "author": null,
           "description": "律动 BlockBeats 消息，4 月 16 日，据纽约邮报报道，特斯拉 CEO 马斯克表示正寻找（多个）潜在的投资人，合作组团收购推特，或将于近期公布新的收购计划。消息人士称，其中一种可能是，马斯克将与银湖资本（Silver Lake）合作。\n\n据悉，Silver Lake 的联合首席执行官埃贡·德班 (Egon Durban) 是 Twitter 董事会成员，此前曾于 2018 年将特斯拉私有化的行动中领导了马斯克的交易团队。",
