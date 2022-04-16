@@ -2263,6 +2263,16 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/flash/76997",
+          "author": null,
+          "description": "律动 BlockBeats 消息，4 月 16 日，由北美顶级音乐节 Coachella 与 FTX 合作推出的 1:1 NFT 收藏品 REGEN 目前正在 FTX.US 平台进行拍卖，本次拍卖将于北京时间 4 月 19 日 6 时结束。截止发稿时，该 NFT 作品当前最高出价为 125,000 美元。\n\n据悉，REGEN NFT 总时长为 5 分 51 秒，由 9 位数字艺术家合作在 Solana 网络上铸造，包含由北美知名电音组合 ODESZA 创作的电子音乐，以及 Coachella 音乐节 360°全景体验。",
+          "link": "https://www.theblockbeats.info/flash/76997",
+          "publishedOn": "2022-04-16T04:55:10.000Z",
+          "wordCount": null,
+          "title": "Coachella音乐节NFT REGEN将于4月19日结束拍卖，当前最高出价125,000美元",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/flash/76985",
           "author": null,
           "description": "律动 BlockBeats 消息，4 月 16 日，据 TheRegister 报道，在周杰伦 NFT 被盗之后，研究人员 Roman Zaikin、Dikla Barda 和 Oded Vanunu 开始调查 NFT 常用的 EIP-721 标准，结果发现欺诈者可以引诱用户点击恶意 NFT 的链接，然后通过该标准内一个名为「setApprovalForAll」的函数控制受害者账户，该函数可以授权任何人控制 NFT，其设计初衷是为了让 Rarible 和 OpenSea 等第三方能够代表用户控制 NFT。一旦该函数完成授权，攻击者就可以通过使用合约上的 transferFrom 函数将受害者名下的所有 NFT 转移到自己的账户。\n\n研究人员表示，该功能在设计上非常危险，用户并不总是清楚他们通过签署交易给予了哪些权限。大多数时候，受害者认为这些仅为常规交易。",
