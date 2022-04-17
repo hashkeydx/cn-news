@@ -3320,6 +3320,16 @@
       "siteUrl": "https://www.0daily.com",
       "articles": [
         {
+          "id": "https://www.0daily.com/post/5178036",
+          "author": "CertiK",
+          "description": "北京时间2022年4月16日18时，CertiK安全团队监测到某欺诈者（团队）利用了NYM项目的知名度，创建了NYM同名代币。该欺诈项目导致了12.72枚BNB（约三万多人民币）受到损失。\n虽然代币名称相同，但欺诈者于BSC上部署了山寨NYM，而真正的NYM部署于以太坊。\n目前该假NYM代币部署者已经创建了许多其他未经验证的代币并敛走钱财。部署者利用真正NYM项目的注意力，吸引受害者在BSC上购买其山寨的假NYM代币，并在事后卷钱跑路。\n以下是涉及潜在骗局的项目清单，以及对应损失金额：\n\n该欺诈者创建了一系列欺诈项目，并于昨日北京时间晚对NYM进行“收割”。而今日凌晨，又开始创建了新的欺诈项目（清单内第一个）。\n欺诈过程\n\n部署者部署了一个未经验证的（假的）代币合约。\n\n部署者使用新创建的（假的）代币和WBNB（200WBNB）创建一个假的资金池并增加一些初始流动性。\n\n一些受害者在假的Pancake池中购买未经验证的（假的）代币后，部署者会移除流动性。\n\n欺诈项目细节\n\n第一次部署NYM未经验证的合约地址（BSC链上）：https://bscscan.com/address/0xd3dee3b65e3d3f2d0492a142e9700cdc87fca5ad\n\n第二次部署NYM未经验证的合约地址（BSC链上）：https://bscscan.com/address/0x153C3d7f47679532E84A153D3c312D897Bd51Dd0\n\nPancake池地址（第一次的NYM/BNB）：https://bscscan.com/address/0x1d7de85e03ccafb210646e73dfc4a9c0333d4c96\n\nPancake池地址（第二次的NYM/BNB）：https://bscscan.com/address/0x3c1c1555953e19dc8be7f8c28b2c027de356595e\n\n合约部署者：https://bscscan.com/address/0xe574d53100e9329b3f9f2aaa3ddc59dad5019946\n\n部署NYM代币：https://bscscan.com/token/0x153c3d7f47679532e84a153d3c312d897bd51dd0?a=0xe574d53100e9329b3f9f2aaa3ddc59dad5019946\n\n真正部署于以太坊的NYM合约地址：https://etherscan.io/address/0x525A8F6F3Ba4752868cde25164382BfbaE3990e1\n\n写在最后\nCertiK安全团队在此提醒各位，投资前请务必多方面核实项目信息：例如登录官网核实代币部署地址；必要时也要对官网的真实性进行核实，例如登录CoinMarketCap或CertiK安全排行榜进行项目网址的真实性验证。",
+          "link": "https://www.0daily.com/post/5178036",
+          "publishedOn": "2022-04-17T08:25:16.000Z",
+          "wordCount": 3,
+          "title": "「山寨代币」危险，假NYM及一系列欺诈项目清单",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.0daily.com/post/5178021",
           "author": "H.Forest",
           "description": "原文作者：Kiran \n原文编译：H.Forest Ventures,Jason\n原文标题：《Verse: The Hyperexchange Protocol》\n推荐理由：2021被称作是NFT元年，NFT也被认为是Crypto开启出圈之路的载体，由此可见NFT迅猛的发展势头以及在整个Crypto生态中的重要地位。然而，NFT作为“独一无二”的数字化物品，其流动性相对于同质化代币和同质化商品，在“基因”上就存在劣势。市场上目前有许多优化NFT流动性的解决方案，有以Opensea为代表的大型中心化交易平台，也有类似Gem.xyzNFT聚合器等项目以提升用户NFT交易体验。而本文，作者提出“超级合约对”的概念，一方面可以让NFT的交易“脱离”交易所，做到真正意义上的即时交易；另一方面可以让NFT进行“碎片化”交易，降低了NFT交易门槛。因此，作者的想法可以从两个方面共同提升NFT的流动性。即使Verse暂未产品成型，但至少本文可以让我们了解行业前沿解决方案的构思。\n摘要：数字化物品拥有作为自身交换媒介的能力，使互联网上的媒体、文化、基础设施和身份发生了范式转变。\n在过去的几个月里，我对NFTs作为数字化物品的概念，以及对这个框架如何使互联网原生对象的交换方式必须有一个全新的范式所痴迷。\n让我们首先思考一下物理实体的局限。你可以说，从字面上看，任何由原子构成的东西都是 \"物体（实体）\"，但试图在此确明确具体的定义是无益的。但我们可以专注于物理实体（与数字化物品对立）的一个重要特征，这将有助于我们理解 \"数字物体 \"的真正潜力：所有权。\n区块链作为公共账簿的核心创新，将数字化所有权的概念与物理所有权划分开来，物理所有权缺乏任何去中心化的共识机制。然而，尽管我们已经创建了这个强大的基础设施来重新定义数字化物品的所有权性质，我们仍然依赖于为物理实体建立的交易系统。\n在物理世界中，任何…",
