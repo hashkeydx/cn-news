@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-20T11:08:04.526Z</updated>
+    <updated>2022-04-20T12:15:03.773Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[a16z史上最年轻合伙人？23岁华人女生如何在一年内从实习生变成合伙人？]]></title>
+        <id>https://www.0daily.com/post/5178145</id>
+        <link href="https://www.0daily.com/post/5178145"/>
+        <updated>2022-04-20T09:21:22.000Z</updated>
+        <summary type="html"><![CDATA[在硅谷，有这样一个梗：
+
+硅谷的VC从业者最终都会加入 a16z 当合伙人。
+
+相比于其他VC，a16z 更像是一家大公司，无论是招聘还是晋升合伙人，都更加频繁，这也给了众多年轻人机会。今年，a16z 迎来了应该说有史以来最年轻的一个合伙人（Deal Partner），年仅23岁的华人女生，一年内从实习生晋升为合伙人。
+她是如何做到的？今天为大家分享来自INSIDER的文章，一个哈佛辍学女生 Carra Wu 的加密旅途。
+Carra Wu是一个哈佛大学的辍学生，2020年末，她即将结束在苹果公司的实习，对于自己未来的工作选择，她不断权衡利弊。
+她可以选择在苹果公司就职，也可以重返学校学习，再或者选择一家初创企业…...她在苹果和微软这样科技巨头工司任职的经历，成为她未来职业选择的敲门砖。
+Carra Wu一时兴起，给Arianna Simpson发了封电子邮件。Arianna Simpson是Andreessen Horowitz（a16z）的风险投资人，也是加密合伙人。Carra Wu很敬仰她，并用六句话表明了自己的意向，询问了自己如何才能参与加密领域。
+就是这封一时兴起的电子邮件改变了Carra Wu的职业生涯。
+这个是一个20多岁雄心勃勃的女孩，在不确定的未来面前，创造出自己独特人生道路的故事。
+2021年3月，Carra Wu在 a16z 获得了一个实习岗位，这家VC比其他任何竞争对手都要更了解加密市场，还拥有 90亿美元的加密专用基金。几个月之后，公司提拔她担任交易分析师，在她入职一周年时，她便晋升成为交易合伙人（Deal Partner ）——这使她成为公司最年轻的支票签字人，加密投资界一颗冉冉升起的新星。
+年仅23岁的Carra Wu，身后已经拥有 a16z 的财力和实力，她协助领投了热门加密初创公司，例如加密社交俱乐部 Friends With Benef…]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[全面解读SocialFi：Web3时代的璀璨新星]]></title>
         <id>https://www.0daily.com/post/5178144</id>
@@ -516,6 +538,26 @@ Optimistic Rollups 承诺可以运行任何以太坊合约，但成本便宜 5-5
         <summary type="html"><![CDATA[PANews 4月20日消息，据金十引援俄罗斯《信息报》，俄罗斯可能会考虑在对外贸易中使用加密货币。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盘点LayerZero上的8个潜力项目]]></title>
+        <id>https://www.0daily.com/post/5178116</id>
+        <link href="https://www.0daily.com/post/5178116"/>
+        <updated>2022-04-20T03:44:34.000Z</updated>
+        <summary type="html"><![CDATA[LayerZero 是一个全链的互操作协议，允许部署在不同链上的应用程序相互交流，且不需要任何中间链或共识机制。作为重要的信息传递基础，LayerZero 开启了跨链组合性和功能的全新维度。
+
+在 LayerZero 出现之前，跨链市场上声音最大的解决方案是 Cosmos 和 Polkadot。
+Polkadot 通过中继器和平行链来实现跨链通信，让平行链和中继器共享一个安全模型，但是如果发生共识损坏，所有链上的流动性都可以立即被盗，这无法保证所有区块链的安全。Cosmos 则使用 IBC 、Hub 和 Peg Zone 来实现链间的互操作性，并需要 Cosmos Hub 通过治理的方式来决定哪些 Zone 可以连接到它，未被选择的 Zone 可以选择其他方法，这为网络提供了很大的灵活性。 Zone 连接 Cosmos Hub 需要质押一定的 ATOM，过程比较简单快捷，成本也低，但这也被认为是它容易遭受攻击的原因之一，也具有安全性的风险。
+而 LayerZero 将以上两种方案的优势结合在一起，通过“Ultra Light Node”（超轻节点）来实现既能连接一条区块链链上的每一份合约，又能连接其他任何一条区块链上的每一份合约。通过开放的 Relayer 系统和已建立的 Oracle（Chainlink 和 Band）的安全属性建立安全层，以达到安全性和成本效益的双重目的。
+除了安全性之外，LayerZero  还意味着用户可以在不知道执行交易的底层链的情况下进行质押交易、铸造NFT以及玩游戏等，而这些只需要进行一笔交易即可执行，并且协议将会自动选择 GAS 费较低的链来执行。
+目前，LayerZero 的旅程才刚刚开始，Odaily星球日报就带大家了解一下 LayerZero 生态上的 8 个早期项目。
+
+全链 DEX
+
+StargateFinance（https://…]]></summary>
+        <author>
+            <name>十文</name>
         </author>
     </entry>
     <entry>
