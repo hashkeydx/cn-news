@@ -2,10 +2,128 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-04-22T03:09:51.365Z</updated>
+    <updated>2022-04-22T04:36:28.716Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[深度解析评估NFT抵押品的5种方法]]></title>
+        <id>https://www.0daily.com/post/5178187</id>
+        <link href="https://www.0daily.com/post/5178187"/>
+        <updated>2022-04-22T03:01:09.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：taetaehoho.eth
+原文标题：《Valuing NFTs as Collateral - Overview, Landscape, Pros/Cons》
+原文编译：麟奇，链捕手
+我的同事之前详细介绍了一些 NFT 金融领域的新兴协议，并概述了使用其中一些协议为NFT产生流动性的方法。
+现在，我将专注于NFT金融化的其中一个领域，并且我认为这是目前最明显的用例——通过 NFT 抵押贷款为你的NFT创造流动性——并阐述协议在这个领域中如何评估NFT抵押品，以及每种方法的优缺点。
+起因
+我有一个有价值的 NFT。我不想卖掉它，但我想依靠其价值获取流动性。我能做的是让别人给我写一笔以 NFT 价值为抵押的贷款。在我得到ETH后，我就可以去玩defi，并且仍保留了我的Mooncat。
+此过程中的一个重要步骤是评估抵押品价值。贷款机构只会提供流动性，前提是他们能够充分保障自己的资本，并为自己承担的风险——比如你的违约——获取公平的补偿。
+因此，贷方可以
+
+确定借款人是值得信赖的，但这在无需许可的匿名环境中很难做到
+
+或者保证抵押品的价值足以在用户违约的情况下保住借出资本
+
+因此对于连接 NFT 流动性买卖双方的平台来说，建立健全的估值方法是最重要的。
+NFT 抵押贷款生态
+
+目前，在该领域运行的协议使用5个主要向量来确定估值。
+1.P2P
+由 NFTfi 开创的p2p模型将估值的责任放到了借款人和贷方身上。该平台充当了市场的角色，其参与者可以在这里会面、谈判条款并执行贷款。快速概览：
+
+Alice需要Mooncat的流动性，并将其作为抵押品，进行贷款。
+
+Bob需要在eth上赚取收益，提交了一份链下贷款报价，详细说明了本金、期限和 APR。
+
+如果Alice得到她认可的报价，她会将贷款金额转移到链上。同时她的NFT被锁定，ETH被转移到了她的EOA（外部拥有账户）中…]]></summary>
+        <author>
+            <name>链捕手</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[马斯克：如果成功收购 Twitter 将进行「真人验证」彻底解决垃圾邮件问题]]></title>
+        <id>https://www.theblockbeats.info/flash/78005</id>
+        <link href="https://www.theblockbeats.info/flash/78005"/>
+        <updated>2022-04-22T02:54:25.000Z</updated>
+        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 22 日，伊隆·马斯克在社交媒体上表示，如果能够顺利完成对 Twitter 的收购，他将致力于彻底解决平台上存在的垃圾邮件机器人问题，并且要对所有账户进行「真人验证」(authenticate all real humans)。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据解读Moonbirds：地板价飞涨背后的因素有哪些？]]></title>
+        <id>https://www.0daily.com/post/5178186</id>
+        <link href="https://www.0daily.com/post/5178186"/>
+        <updated>2022-04-22T02:44:54.000Z</updated>
+        <summary type="html"><![CDATA[相关阅读
+Moonbirds系列NFT地板价达30 ETH
+Key Takeaway
+4月16-18日，Moonbirds 交易量占整个NFT交易市场的25%，同时伴随着Moonbirds价格的快速上涨，挂单率良好、且巨鲸参与度较高。
+目前，Pass+PFP类项目正成为新趋势，项目可以通过创造钻石手机制巩固地板价。未来，NFT 市场阶梯分层会更加明显。
+截至4月19日，单地址平均持仓数为1.5个Moonbirds，分布程度较高。其中持仓量前10名中有5个为巨鲸。
+头部项目方通过"降低社区进入门槛→获取更多用户→抢占市场"的案例，加上质押，孵化等各种阶段性玩法，能够把握市场节奏，从而经历周期性的上涨。
+Moonbirds 交易量激增
+相较于前一周，NFT市场交易量在近两日有较大反弹。
+
+最近两周NFT交易量走势；
+数据来源NFTGo.io，2022.4.18
+4月16号，Moonbirds 发售当天，项目交易量占据了NFT市场总交易量的将近一半，随后两天，Moonbirds交易量虽然开始逐渐降低，但在4月18号仍占据整个NFT市场交易量的五分之一。
+
+Moonbirds交易量与NFT总交易量对比图；
+数据来源NFTGo.io，2022.4.18
+同时，Moonbirds 打破了NFT单日交易量纪录，仅发售三天，其交易量已经远远高于单个蓝筹NFT在七天内的交易量。截止发文当日，Moonbirds市值排名上升至第九。无论是从项目背景还是市场表现，暂且可以将Moonbirds视为现象级的新蓝筹。
+Moonbirds 项目分析：创造钻石手机制
+截止到4月19日，持有钱包的数量为6634，NFT的分布程度较高，每个地址平均仅持有1.5个Moonbirds，其中持有数量前10名有5个被标记为巨鲸。
+
+数据来源NFTGo.io，2022.4.19
+从持有者趋势图看，巨鲸在Moonbirds…]]></summary>
+        <author>
+            <name>NFTGo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Animoca Brands宣布与Planet Hollywood Group成立合资公司MetaHollywood]]></title>
+        <id>https://www.theblockbeats.info/flash/77999</id>
+        <link href="https://www.theblockbeats.info/flash/77999"/>
+        <updated>2022-04-22T02:38:25.000Z</updated>
+        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 22 日，Animoca Brands 宣布与 Planet Hollywood Group 成立合资公司 MetaHollywood，该公司将为电影爱好者打造元宇宙社区。用户将能够在以好莱坞为主题的元宇宙中进行互动，还可在社区中使用 MetaHollywood 的原生 Token 购买电影、海报和剪辑片段等形式的 NFT。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LiquiFi完成500万美元种子轮融资，Dragonfly Capital Partners领投]]></title>
+        <id>https://www.theblockbeats.info/flash/77987</id>
+        <link href="https://www.theblockbeats.info/flash/77987"/>
+        <updated>2022-04-22T02:10:25.000Z</updated>
+        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 22 日，Web3 私募股权平台 LiquiFi 宣布完成 500 万美元种子轮融资，Dragonfly Capital Partners 领投，Nascent、Alliance DAO、6th Man Ventures、Robot Ventures、Y Combinator 和 Orange DAO 等机构，以及 Balaji Srinivasan、Katie Haun、Packy McCormick、Anthony「Pomp」Pompliano 和 Anthony Sassano 等天使投资人参投。LiquiFi 计划将本轮融资用于产品开发、设计、营销和销售。在增加与其他区块链的兼容性方面，公司计划在短期内从与 EVM 兼容的区块链开始，并最终扩展到其他区块链，如 Solana 和 Terra。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NBAxNFT：将增发The Association NFT系列，并向未成功铸造的白名单用户空投]]></title>
+        <id>https://www.theblockbeats.info/flash/77993</id>
+        <link href="https://www.theblockbeats.info/flash/77993"/>
+        <updated>2022-04-22T02:10:25.000Z</updated>
+        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 22 日，NBA The Association NFT 发行方 NBAxNFT 在其社交网站发文表示，已确认未成功铸造 NFT 的白名单地址，将向这些地址空投 The Association NFT。因此，The Association 系列将从 18,000 枚增发至 30,000 枚。2022 年 NBA 季后赛的 240 名球员中的每一位都将拥有 125 个版本（此前是 75 个版本）。
+
+律动此前报道，4 月 21 日，NBAxNFT 确认铸造的智能合约存在问题，存在非白名单用可铸造多枚 NFT 的情况，导致白名单供应提前售罄。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[路透社：马斯克正与美国私募Thoma Bravo商谈合作竞标推特]]></title>
+        <id>https://www.theblockbeats.info/flash/77969</id>
+        <link href="https://www.theblockbeats.info/flash/77969"/>
+        <updated>2022-04-22T01:10:25.000Z</updated>
+        <summary type="html"><![CDATA[律动 BlockBeats 消息，4 月 21 日，据路透社报道，埃隆·马斯克正与私募股权公司 Thoma Bravo 就可能收购推特进行谈判。消息补充说，Thoma Bravo 可能是马斯克向推特提出具有约束力的提议的关键。截至目前，推特和 Thoma Bravo 没有回应路透社的置评请求。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Compound停止流动性挖矿奖励提案未被社区通过]]></title>
         <id>https://www.theblockbeats.info/flash/77966</id>
