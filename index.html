@@ -51,11 +51,565 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-22 datetime="2022-04-22T09:04:27.000Z">2022-04-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-22 datetime="2022-04-22T09:04:27.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-22 datetime="2022-04-22T11:30:00.000Z">2022-04-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-22 datetime="2022-04-22T11:30:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178206"
+                        open
+                      >
+                        <summary class="article-expander__title">X to Earn：对死亡螺旋的正式挑战</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178206">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Andy, IOSG Ventures
+原文编辑：Elaine，IOSG Ventures
+本文来自微信公众号IOSG。
+写在前面
+
+
+
+
+自Axie Infinity大火后，类Axie的Play to Earn游戏们雨后春笋般一茬又一茬的冒了出来，然而在Axie给币圈和游戏圈表演了一段精彩的死亡螺旋过山车后，目前还没能出现一款真正能和Axie的精彩故事媲美的P2E游戏：市值不够、热度不够、创意不够，或者单纯的还没做好 😛
+
+结果是Axie的P2E不光给其他链游上了一课，同时也给了同样聪明的非链游市场一个灵感：如果Play to Earn能火成这样，那别的X to Earn (X2E)是不是也有机可乘？于是最近两个月市场终于看到了在Axie之后、再一次让我们感受到精彩的X2E产品：STEPN。
+其他研报复述多次的产品介绍我这里就先一句话概括：STEPN是一款 Move to Earn游戏，用户购买跑鞋NFT来跑步赚取代币 - 当前STEPN已拥有1百万用户、30万DAU，治理代币市值从IEO的8百万，于不到两个月的时间直达200亿。
+由于此文发布时STEPN依旧属于上升期，很多已经入场或在场外观望、甚至其他X2E的创业者都在密切关注一个问题：STEPN什么时候到达最高点开始进入死亡螺旋？非常能够理解在Ponzinomics (旁氏经济) 下，死亡螺旋是市场不可逃避话题。然而在市场趋向X2E热度继续疯狂发力时，我们不仅不能对死亡螺旋避而不谈，反而更应该主动去了解死亡螺旋代表着什么，挑战如何在死亡螺旋的阴影下将项目做的长久，怎样的运营和理念才能在死亡螺旋的阴影下让用户、项目方与投资者同时最大化长期价值。那么在STEPN当前获取极大热度的时间点、也在更多的X2E产品到来之前，笔者在此文将借用Axie和STEPN的案例，来对死亡螺旋这件事本身提出几个希望对市场有帮助的观…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178205"
+                        open
+                      >
+                        <summary class="article-expander__title">Delphi Digital：veToken的可行改进方式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178205">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者： Jeremy Ong 和 Duncan Reucassel
+原文编译：DeFi之道
+要点
+
+veToken 经济学激励流动性提供者成为 DEX 协议的长期利益相关者。这是通过给予那些锁定基础代币的人更多的奖励和治理权力来实现的。
+
+Curve 和 Convex 创造了一个强大的飞轮，使代币价格和 TVL 在 2021 年下半年飙升。这为 veToken 模型带来了炒作，并带来了支持者和批评者。本文希望详细研究这些批评意见。
+
+我们利用我们对 Curve/Convex 关系的广泛研究，开发了一种替代 veToken 模型的方法。这个替代方法是通过一个名为 &quot;GOV&quot; 的假想代币来说明的，该假想代币将在本文中进行讨论。
+
+我们提出建议的目的是减少中心化，同时仍然最大限度地发挥 veToken 的核心属性：奖励最长期和最专注的参与者，且不剔除那些不能承担传统 veToken 经济中非流动性风险的贡献者。
+
+Curve 和 veToken 经济学
+加密货币和代币化的兴起使协议经济学的设计空间大开，允许项目激励特定行为。然而，许多 DeFi 协议对所有代币持有人的奖励是平等的，与他们为项目增加的价值无关。更多的时候，这几乎不需要锁定，以换取治理权和协议收入。我们相信，最佳设计的目的是稀释雇佣资本和投机者，同时奖励给长期导向的参与者。
+我们认为鼓励这种行为的一种模式是由 Curve 引入的投票代管的实现。这种模式允许 CRV 持有者将其代币锁定为投票代管 CRV（veCRV），最长时间为 4 年。用户锁定其 CRV 的时间越长，他们收到的 veCRV 就越多。作为承担流动性风险和从市场上消除 CRV 供应的交换（显示他们对平台的长期承诺），veCRV 持有人有权获得 3 个主要好处：
+
+按比例分享由 Curve 产生的费用。
+
+流动性供应头寸的 CRV 奖励得到提升（最高 …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178204"
+                        open
+                      >
+                        <summary class="article-expander__title">Cobie解读：ApeCoin的质押提案有多糟糕？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178204">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Cobie 
+原文编译：DeFi之道
+最近，ApeCoin 董事会的一位成员联系了我，他们要求我对一些提案提供一些反馈，然后我在电话中提出了我的想法。
+我想公开讨论它们，因为我认为它们是有趣的话题。
+在我开始之前，我想说明一下：我没有持有任何 ApeCoin，我也不做空 ApeCoin，过去我曾经拥有 BAYC，但现在我没有长期或短期接触任何与 Yuga Labs 生态有关的东西的想法。我不是财务顾问，事实上，长期以来行业内就有传言说我是一个白痴。
+质押（staking）之死
+质押（staking）在过去有一些意义。我认为点点币（Peercoin）是最早推出权益证明（PoS）机制的协议，时间大概在十年之前。从那时起，PoS 机制在新的区块链中变得越来越流行，所有较新的生态都建立在 PoS 区块链上。
+对于点点币（Peercoin）以及之后出现的 PoS 网络而言，质押（staking）是有目的的。所有者将提供他们的代币作为抵押品，以获得验证区块的机会，而他们将因此而获得奖励。因此，质押（staking）奖励了冒着抵押品风险和工作的用户：这是参与网络或协议持续运行所必需的功能。
+但不知何故，随着时间的推移，质押（staking）一词已经被重新定义了。现在的质押（staking）似乎意味着，如果你不卖掉你当前持有的代币，我们会给你更多的代币作为奖励，而不是因为你为区块链的安全做出了贡献而获得奖励。
+这些现代质押（staking）机制在它们所属的生态系统中没有任何功能。它们不做任何实际或技术意义上的事情，它们并不能让生态系统变得更强大，它们只是一种空壳游戏，使用不同事物的名称来模糊其实际目的，即鼓励减少抛售。
+
+当 PoS 协议向质押者发放奖励时，它们购买的是区块链的安全。当 DeFi 项目提供流动性挖矿计划时，它们正在购买增长和 TVL。为使协议更可持续、更大或更安全…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178202"
+                        open
+                      >
+                        <summary class="article-expander__title">纵览Polygon生态版图：生态项目数逾千，DeFi、NFT、游戏占据主导</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178202">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>撰文：angelilu 
+Polygon 发展迅猛，已发展成为以太坊扩容的常用解决方案，其网络围绕 ZK 技术展开，在推进开发的同时积极收购其他使用 ZK 的 Layer 2 网络，Polygon 在去年 8 月以 2.5 亿美元的价格收购了以太坊 L2 扩容方案 Hermez Network，并于去年 11 月以 4 亿美元的价格收购了专注于 ZK-rollups 的初创公司 Mir Protocol。Polygon 发布了 zkEVM 虚拟机，来源与以太坊兼容的解决方案 Polygon Miden。
+近期，Polygon 还宣布将于第二季度推出可拓展性区块链网络 Avail 测试网，Avail 将成为 Polygon 旗下的一个独立网络，帮助托管和验证与其集成的区块链的链下数据，以提高Polygon 生态系统内外区块链的可扩展性。Polygon 表示，Avail 将作为以太坊 Layer2 解决方案（例如 Optimism 等）的「数据可用性层」，其工作方式与主流的区块链网络不同，基于GRANDPA 和 BABE两个加密协议的「交易排序」来实现数据验证和共识。
+
+积极地收购和拓展以及不停歇地开发使 Polygon 的规模愈加庞大，使其生态内的项目也增加，根据 Polygon 官方统计的数据，生态内项目已达 1446 个，DeFi、NFT、游戏占据主导，包括近 500 个 DeFi 项目、200 多个游戏、200 多个 NFT及元宇宙项目以及其他类别项目。Foresight News 现整理了以下 TVL 200 万美元以上及新开发的项目，数读 Polygon 生态发展。
+Polygon 原生 DeFi 应用
+
+QuickSwap 
+QuickSwap 是 Polygon 上原生的去中心化交易所（DEX），截止发文，QuickSwap 的总锁仓量（TVL）为 7.672 …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178200"
+                        open
+                      >
+                        <summary class="article-expander__title">Bit Hero DAO如何打造去中心化投资组织？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178200">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>“十三年前，一位匿名的Bit Hero创建了一个很不起眼的加密货币。它从一个很小的圈子开始传播，最终一步步改变世界，它就是Bitcoin。Bitcoin让人类第一次拥有了全球统一的货币，让人类实现了货币自由。我们至今不知道这位伟大的Bit Hero是谁，只知道他留给我们的代号叫做Satoshi Nakamoto，他是人类第一位Bit Hero。
+十三年后，一群来自世界各地的加密货币从业者联合发起了Bit Hero DAO，旨在加密投资被中心化机构日益垄断的当下，建立一个属于所有人的去中心化投资组织，让每个人都可以拥有平等的投资机会。Bit Hero DAO将资助那些一开始看似很不起眼的Crypto Native项目，并帮助他们发展壮大。每一个不起眼的开始并不一定阻止你改变世界。这个日益壮大的去中心组织都是中本聪的信徒，他们有一个共同的名字，叫做”Bit Hero”。
+Bit Hero DAO的定位是一个去中心化的投资组织。由多名Crypto早期从业者、知名VC从业人员、Crypto投研专家以及行业意见领袖联合发起，以发行Bit Hero NFT的方式建立属于每一个人的去中心化投资组织。Say No DAO参与社区孵化。
+Bit Hero DAO如何开展工作？
+Bit Hero DAO初期发行999个NFT，并把募集的ETH做三部分配置，初步阶段的预分配计划如下：
+A、30%配置Beta稳健型加密产品，比如配置比特币矿机，持续为NFT持有者发放比特币挖矿收入
+B、60%进入VC资金池用于一级市场投资和配置Alpha资产
+C、10%作为DAO的日常运营费用
+NFT持有者可以提案调整资金使用比例以及进行投资标的选择。
+那么，Bit Hero DAO如何运行去中心化投资组织？
+NFT持有者要在组织内行使提案权、投票权和投资收益权，需要质押Bit Hero NFT并生成Dhero，Dhero拥有和被质押NFT一样的稀缺值，不同的稀缺值对应不同的投票权重。比如某个NFT的稀缺度是50，另一个NFT的稀缺度是100，则后者比前者的票数要多一倍。
+总稀缺值排名前50的地址被称为Damocles（执剑人），他们拥有项目提案权，但没有投票权。其他地址被称为Decoder（破壁人），他们拥有投票权，投票通过的项目，即可获得投资。
+除了早期配置的资金外，每一笔NFT交易版税的70%和稳健投资产品的收益分成都会进入VC资金池，比如，如果Beta稳健产品投资的是比特币矿机，则会把每日比特币挖矿收入的70%注入VC资金池。
+当VC池内的资金等值于1BTC时，0.8BTC将被用于投资项目，0.2BTC将用于回购处于Floor Price的Bit Hero NFT。投资盈利时，将把盈利部分的50%分配给NFT持有者，28%再次进入VC资金池，20%用于回购处于Floor Price的Bit Hero NFT，2%奖励给项目提案人。
+Bit Hero DAO将在社区达到一定规模时发行治理代币，并向NFT持有者空投。治理代币的每一笔链上交易都将征税并纳入资金池。
+由此，我们可以将Bit Hero NFT的亮点归纳如下：
+1、Bit Hero NFT作为去中心化投资组织的权益证明，集提案权、投票权、收益权于一身，有明确的应用场景和价值赋能，同时，获取权益必须质押NFT，这使得NFT长期处于稀缺状态。
+2、持有Bit Hero NFT等于持有BIt Hero DAO去中心化投资组织的数字ID，可以和一群智慧的加密货币投资者共享价值。
+3、持有Bit Hero NFT不仅可以获得稳健的Beta收益，还可以获得Alpha收益以及一级市场的投资收益，在保障投资本金的同时获得更高回报。
+4、Bit Hero NFT有明确的回购计划。
+5、Bit Hero NFT拥有唯一的提案和投票权，大量利益相关方将成为追逐Bit Hero NFT的主力。
+Bit Hero DAO初期仅发行999枚NFT，优先向VC从业人员、Crypto投研专家、行业意见领袖开放白名单，同时，也将向Bit Hero DAO公会治理成员开放白名单。
+值得注意的是，Bit Hero DAO近期将提名10位具有行业影响力并洞悉和认同Bit Hero DAO价值的从业者作为Builder，他们将在项目资源、投资调研、市场战略等多个维度为Bit Hero DAO的发展提供支持。
+Bit Hero DAO将于4月底开启盲盒Mint。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178192"
+                        open
+                      >
+                        <summary class="article-expander__title">每日行情解读 | 加密市场空头势强，下跌风险进一步加大</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178192">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>4月20日，美国国债收益率飙升，美债抛售潮加剧，交易员押注，美联储可能在未来几次会议上更为激进地收紧货币政策。美联储如果超预期加息，势必会导致美股大跌，加密市场预计也将受影响，今日加密市场资金有明显出逃迹象。从技术图上看，BTC上方抛压较重，空头势强，后市短线趋于震荡，但跌破重要支撑位的风险加大。BTC下方重要支撑位在39000美元附近，上方重要阻力位为42000美元。
+摘要
+1.市场开始押注5月或6月政策会议加息75个基点的可能性。
+2.BTC目前处于前期重要支撑位，空头势强，后市短线趋于震荡。
+3.矿工抛售量大幅回升，矿工抛售情绪增强，BTC上攻压力上升。
+4.BTC巨鲸地址数出现回落，DeFi中BTC锁仓量略有增加，大户出现减持迹象。
+5.市场情绪变化不大，场内买盘力量略有增强，市场观望情绪浓厚。
+6.BTC合约市场空头持仓占优，多空持仓人数比震荡回落，BTC空头表现强势。
+7.今日加密市场多数板块下跌，资金出现明显出逃迹象。
+一、宏观市场与币圈要闻
+4月20日，美债抛售潮加剧，美国2年期至5年期国债收益率飙升，国债曲线趋平，10年期美债收益率触及三年多以来的高位至2.94%（远超2.83%的阻力位），距离3%的关键水平咫尺之遥，且为连续三个交易日刷新2018年12月以来高位，同时，30年期美债收益率自2019年以来首次升至3%以上。美国国债收益率飙升，交易员押注，美联储可能在未来几次会议上更为激进地收紧货币政策。交易员押注，美联储5月、6月和7月会议每次都将加息50个基点。市场还开始押注5月或6月政策会议加息75个基点的可能性。
+二、技术分析
+据火币行情显示，BTC跌破MA5以及MA13支撑，目前处于前期重要支撑位，由于上方抛压较重，空头势强，目前跌破支撑位的风险加大，后市短线趋于震荡。BTC下方重要支撑位在39000美元附近，上方重要阻力位为42000美元。
+
+三、矿工累积指标
+据bytetree数据显示，从矿工生产和抛售累积数据可以看到，矿工生产量震荡回落，矿工抛售量大幅回升，矿工24小时净累积84枚BTC。整体上看，矿工抛售量大幅回升，矿工抛售情绪增强，BTC上攻压力上升。
+
+四、链上指标
+据Oklink数据显示，通过观察BTC巨鲸地址数可以发现，BTC巨鲸地址数出现一定回落，大户有一定减持迹象。今日截止13：00，DeFi中BTC锚定资产的锁仓量为343954（昨日343884）枚，DeFi中BTC锁仓量净增加70枚。综合来看，BTC巨鲸地址数出现回落，DeFi中BTC锁仓量略有增加，大户出现减持迹象。
+
+五、恐慌指数与买卖强弱指标
+据alternative.me数据显示，今日恐慌与贪婪指数为26（昨日27），市场情绪变化不大。据百度搜索指数显示，比特币搜索量略有上升，市场关注度略有提高。根据多伦多交易所数据显示，BTCC全天成交量407740（昨天329782）份。据OKLink数据显示，灰度GBTC溢价率为-23.15%（昨日-21.42%），GBTC溢价率回落。据币coin数据显示，截止今日13时，BTC当前资金费率-0.017%（昨日-0.004%），资金看空情绪上升；目前比特币RSI 14（买卖相对强弱指数）为47.82（昨日47.82），场内买盘力量略有增强。综合来看，市场情绪变化不大，场内买盘力量略有增强，市场观望情绪浓厚。
+
+六、合约指标
+据币coin数据显示，截止13：00，BTC在Bitmex上多空持仓量比为：多头29.70%，空头70.30%，空头持仓占优。据OKx合约数据显示，在小时图上，BTC多空持仓人数比震荡回落。综合来看，BTC合约市场空头持仓占优，多空持仓人数比震荡回落，BTC空头表现强势。
+七、主流资产与热门币种
+据CoinGecko数据显示，今日24小时涨幅前五的币种分别为：DCR(18.0%)、TRX（8.2%）、XMR（3.7%）、THETA（3.4%）、ZEC（2.8%）；目前在24小时内，排名前一百板块中跌幅前五板块有：FaaS（-8.2%）、DeFi Index（-7.3%）、Music（-6.8%）、Olympus Pro（-5.8%）、Solana 生态（-5.1%）。整体上看，今日加密市场多数板块下跌，资金出现明显出逃迹象。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178197"
+                        open
+                      >
+                        <summary class="article-expander__title">不懂代码，如何快速组建并管理一个DAO?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178197">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>随着 DAO（去中心化自治组织）盛行，众多 Web3 项目开始采用这一新兴理念进行项目治理。但对于一些轻量级项目而言，其本身技术能力不足，想要构建一个完善的 DAO 治理框架尤为困难。一个名为 Squads 的 DAO 治理工具应运而生，致力于降低 DAO 治理门槛。
+Squads 是一个基于 Solana 区块链的 DAO 治理协议，适用于 web3 团队的协作基础架构，允许用户一起组织、制定决策和管理数字资产。无论用户是建立一家初创公司、为协议做出贡献，还是只是想切换到多人模式共同管理资产以及投资，Squads 都可以满足用户需求，并让让这种体验变得简易且直观。
+具体来说，用户首先需要连接自己钱包，创建一个 DAO，主要有两种类型：
+
+Multisig：简单的多重签名钱包，通过需要多个签名来确认交易来管理团队资产；
+
+Teams：对链上成员进行编码，没有代币，成员加权链上投票；
+
+假如用户选择创建多重签名钱包，Squads 会要求用户继续添加三个多签地址，并为多签设计一个「确认阈值」（即批准交易所需的确认数量），参数设计完成即可创建多签钱包。这种场景适合一些去中心化 VC 进行使用。
+如果用户选择创建一个团队，Squads 会要求用户为团队取名、进行介绍、上传头像等；而后，用户需要添加是那个初始成员，当然后续也可以通过执行提案添加更多成员；此外，用户还需要为团队设计投票规则，主要包括两项：提案通过的代币最低百分比以及团队有效成员百分比。设计完成后，一个初具框架的 DAO 组织就完成了。
+并且，每个 Squad 都有一个内置的 Vault，允许用户存入多种类型的 Token 和 NFT。要想转出资产，必须通过多签控制。值得一提的是，Squad 允许灵活分配投票权——并不是说拥有代币越多投票权越大，这点有点像上市公司的 AB 股结构（即“同股不同权”）。
+与传统公司不同的是，由于基于区块链构建，所以用户在 Squad 中的位置是非常牢固的，无可撼动——除非你被投票踢出局，或者无法访问钱包，否则永远不会发生你进不了公司大门的情况。
+另外，Squads 拥有极简的 UI/UX，各项功能一目了然，投票与决策更加透明，即便是一个不懂代码的用户也可以组建 DAO，极大便利了项目治理。如下所示：
+
+融资方面，Squads 去年获得 150 美元种子轮融资，Reciprocal Ventures、Volt Capital、Chaotic Capital、6thman Ventures、Republic Capital、8186 Capital、Solana Capital、Ryan Selkis、Ryon Nixon、Chris Hermida 和 Julia Lipton 等机构投资。
+今年 2 月，Squads 再次获得 500 万美元的战略融资，由 Multicoin Capital 领投，参与方包括 Jump Capital、Delphi Digital、Collab + Currency、Volt Capital、Chaotic Capital、Reciprocal Ventures、Blockwall Digital、Seed Club Ventures、Davinci DAO、Reverie 和其他天使投资人。
+“Squads 正在为 Solana 生态系统带来 Web3 基础设施的一个重要组成部分。一个专用的多重签名，是 Solana 生态系统中最后缺失的 DAO 基础之一。由于生态系统固有的可组合性，Solana 上的 DAO 具有更丰富的功能。使用像 Squads 这样的基础设施，团队现在可以快速组建、降低投票成本，并以更复杂的方式管理资产。” Multicoin Capital 管理合伙人 Kyle Samani 表示。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178196"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT数据日报 | Moonbirds蝉联日交易量冠军（4.22）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178196">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
+宏观市场指标
+截至 4 月 22 日 15 时，NFT 整体市值 183.07 亿美元，较 24 小时前增长 0.58%；过去 24 小时内总交易量约 2.17 亿美元，日环比下降 16.04%。
+
+按过去 24 小时成交量，排前三的子领域分别为 PFP（1.09 亿美元）、Utility（7230 万美元）、Collectibles（3765 万美元）。
+
+项目排名
+按过去 24 小时成交量，排名前五的项目分别为 Moonbirds（5332 万美元）、Meebits（1550 万美元）、dotdotdots（1297 万美元）、Murakami.Flowers Seed（925 万美元）和 Mutant Ape Yacht Club（812 万美元）。
+
+按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为 The Association NFT (NBA)（24.87%）、Space Boo Official NFT（21.17%）、EightBit Me（11.91%）、0xOG Pass by 0xStudio（11.07%）和 CREYZIES（10.00%） 。
+
+特色数据
+过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：Moonlight #368、Shaq Gives Back #9539、Galaxy Warrior #9577、Genzee #3293 和 Gutter Comic #1 Streets of Fire。
+
+最受巨鲸欢迎项目排前五的分别是：Moonbirds、Murakami.Flowers Seed、The Association NFT (NBA)、CREYZIES 和 Akutar Mint Pass。
+
+元宇宙平台中，过去 24 小时内，Decentraland 上的地块最低成交价为 2.2 ETH、平均成交价为 2.64 ETH；The Sandbox 上的地块最低成交价为 1.44 ETH、平均成交价为 1.8 ETH；Cryptovoxels 上的地块最低成交价为 0.7077 ETH、平均成交价为 0.995 ETH。
+
+欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
+相关阅读
+数据解读Moonbirds：地板价飞涨背后的因素有哪些？
+全面解析PFP类NFT大火项目的打造逻辑
+格局打开：NFT持有者决定IP天花板
+浅谈NFT稀有度玄学</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178195"
+                        open
+                      >
+                        <summary class="article-expander__title">体育NFT热潮不减：板球NFT平台Rario完成1.2亿美元融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178195">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 The Block，原文作者：Callan Quinn
+Odaily星球日报译者 | 余顺遂
+
+摘要：
+
+板球 NFT平台 Rario 将可以触及领投方 Dream Sport 在印度的 1.4 亿用户。
+
+
+德勤全球预测，今年体育媒体 NFT 交易额将超过 20 亿美元。
+
+4 月 21 日，板球 NFT 平台 Rario 宣布完成 1.2 亿美元融资，由 Dream Sports 的企业风投和并购部门 Dream Capital 领投。这标志着 Dream Capital 在 Web3 领域的第一笔投资，也是其迄今为止对初创公司最大的一笔投资。
+Alpha Wave Global（此前为 Falcon Edge Capital）以及现有投资方 Animoca Brands、Presight Capital 和 Kingsway Capital 参投。
+总部位于新加坡的 Rario 为板球爱好者提供 NFT 球员卡、视频片段和板球工艺品。该公司表示，自去年推出以来，它已售出超过 50000 枚 NFT。
+最近，各大体育运动队迅速加入了 NFT 浪潮。去年 12 月，NBA 传奇人物迈克尔·乔丹（Michael Jordan）及其儿子杰弗里·乔丹（Jeffrey Jordan）获得 1000 万美元的种子资金，用于推出基于 Solana的 Web3粉丝互动平台 HEIR。上个月，HEIR 平台发布首个NFT 系列 6 Rings NFTs，售价为 2.3 SOL（价值 220 美元）。
+在足球领域，Capital Block 首席执行官 Tim Mangnall 声称，所有 20 家英超俱乐部都在考虑参与 NFT 领域。然而，他也认为 95% 的 NFT 项目注定会失败，并建议买家保持谨慎。据悉，Capital Block 是专门帮助欧洲、中东和北非地区的球队和组织为球迷推出 NFT 的机构。
+事实上，粉丝互动平台 Iqoniq 的破产清算已经导致人们呼吁对加密体育赞助进行更多监管。据悉，Iqoniq 的合作伙伴包括 LaLiga 和迈凯伦 F1 车队（McLaren Formula One）。2021 年 12 月，英国广告标准局（ASA）禁止阿森纳足球俱乐部（Arsenal Football Club）推广基于加密货币的球迷代币的网页和 Facebook帖子。ASA 称其违反广告规则，该俱乐部未能说明投资的风险，并裁定广告不得以被投诉的形式再次出现。
+尽管如此，体育俱乐部创建 NFT 的趋势还没有减弱的迹象：德勤全球预测，2022 年体育媒体 NFT 交易额将超过 20 亿美元。到2022 年底，预计将有 400 - 500 万体育迷购买或获得 NFT 体育收藏品。
+迄今为止，Rario 已与六支国际球队以及超过 900 名板球运动员建立独家合作伙伴关系。Rario 最近还与澳大利亚板球运动主管机构 Cricket Australia（CA）以及澳大利亚板球运动员协会（Australian Cricketers’ Association，简称 ACA）签署了多年独家合作伙伴关系，以创建结合收藏品和游戏的澳大利亚板球元宇宙。
+随着其完成最新一轮融资，该公司现在将触及领投方 Dream Sports 的 1.4 亿名用户，他们将在印度向其提供更多仅限法定货币交易的产品。Dream Capital 的投资组合包含九家公司，专注于体育、游戏和健身科技领域。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178193"
+                        open
+                      >
+                        <summary class="article-expander__title">区块链开发者如何看待Uniswap？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178193">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Shifting Podcast#EP.01-和 chenjia404 聊聊 DeFi 世界的五⽉花号-Uniswap》
+原文来源： Shifting
+本期内容由播客 Shifting Podcast 整理而来， Shifting 是一档围绕加密货币、区块链、Web3 展开的深度播客，希望可以为听众提供价值视角和信息。以下为 Shifting 本期播客的⽂稿，与⾳频内容相较稍有修改以便听众阅读，本期嘉宾：chenjia404 （区块链开发者）
+Xuanhao：⼤家好，欢迎收听 shifting，我是王炫皓。本播客围绕加密货币和 Web 3 展开，希望为⼤家提供更多视⻆和信息，同时欢迎来⾃听众和社区的反馈。播客内容和嘉宾分享仅代表个⼈观点，不构成任何财务投资建议。   
+Xuanhao：今天打算和⼤家聊聊 Uniswap (之后也可能会简称 Uni)，原因是如果我们回顾加密世界从 2020 年开始的爆发，DeFi 应该是标志性的事件。那如果我们回顾 DeFi，Uniswap 应该是标志性的协议。在⽤⼾的⻆度，Uni 应该是整个 DeFi 世界的⼊⼝，承担了最重要的交易功能，⽽这个产品本⾝只有⼏百⾏代码。
+Uni 的团队，公开信息显⽰其实也就 20 到 30 个⼈，但最⾼的时候 $UNI 的市值超过 300 亿美⾦。那如果平均⼀下，⼈效⽐应该是传统公司的很多倍。作为对⽐，纳斯达克⽬前的市值也将近 300 亿美⾦，但是他们有超过 4800 名员⼯。那这样看来，crypto 确实是⼀个⾮常不⼀样的新领域。
+关于创始⼈也有⼀些⽐较有意思的故事。⽐如创始⼈ Hayden Adams 本来是西⻔⼦的机械⼯程师，但之后被裁员，就⾃学 Solidity 做了 Uniswap 这个明星协议。虽然 Uni 在今天已经过了早期被热烈讨论的时期，但作为⼀个标志性的协议有它独特的⻓期价值，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178191"
+                        open
+                      >
+                        <summary class="article-expander__title">Twitter、区块链商业模式和创新者困境</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178191">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：NADER AL-NAJI
+原文编译：Block unicorn
+
+
+如今，每个人都在争论谁应该控制Twitter，应该是埃隆马斯克？应该是沙特人吗？或者，它应该是一家私募股权公司。令人担忧的是，无论谁控制了Twitter，都将有能力控制3亿人的信息审查。但是，如果有一种更好的商业模式，完全用于缓和世界上的社交平台，而不依赖于一个“独裁者”来制定政策，那会怎么样？如果这种更好的商业模式不仅对世界更好，而且有望超越迄今盛行的传统的“广告驱动型”商业模式，情况会怎样？
+
+在花了几年时间思考围绕社交媒体的问题，并围绕事物将如何演变下一盘“国际象棋”之后，我认为Twitter和其他社交巨头共同面临着社交媒体新商业模式的引入，同时采用这种模式风险很大，其颠覆性影响被低估了。一个真正典型的“创新者困境”。
+
+我把这种新的商业模式称为“区块链”商业模式，在这篇文章中，我将解释它，以及为什么它极有可能在未来几年超越传统“广告驱动”的商业模式。
+考虑到社交媒体公司到目前为止的网络影响力是多么强大和持久，后起之秀提供一个新的商业模式，可能超越Twitter的机会，这听起来可能很疯狂。但这对您有好处，因为如果您同意本文中的逻辑，您将知道一些既有用又不直观的东西。
+所以，和我一起在几分钟内分享一组我花了几年时间才形成的见解，直到今天还很少有人能理解。
+
+广告驱动的商业模式：不稳定的平衡
+如今，Twitter和其他社交媒体公司采用了我称之为广告驱动型的商业模式。简而言之，这种商业模式由以下4个部分组成：
+1. 用户在Twitter上生成内容。
+2. 用户通过Twitter的应用程序浏览内容。
+3. Twitter通过向在其应用程序上浏览内容的用户显示广告来获得收入。
+4. Twitter不允许其他任何人运行应用程序或其内容的订阅源(因为它无法在自己无法控制的应用程序上有效的显示广告)。
+重…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178188"
+                        open
+                      >
+                        <summary class="article-expander__title">Dune的崛起之路：成为区块链世界的Google</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178188">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：readthegeneralist
+原文作者：Mario Gabriele
+本文来自FastDaily。
+
+可操作的见解
+
+如果你只有几分钟的时间，以下是投资者、运营者和创始人应该了解的关于Dune的内容：
+
+精益经营，坚持不懈。如果Dune的烧钱速度更快，该公司几乎肯定会在加密货币的寒冬中失败。相反，创始人Fredrik Haga和Mats Olsen保守地支出，使他们有机会在更好的条件下发展壮大。
+
+专注于独特的东西。Dune 1.0提供加密货币数据的付费仪表板产品。鉴于可以免费获得区块链信息，投资者对这一预设需求进行了反驳。Haga和Olsen没有反抗，而是认识到这种反馈的智慧。Dune2.0产品便增加了这个特点。
+
+“巫师”创造“魔法”（和金钱）。在Dune的 &quot;八字飞轮 &quot;商业模式中心是平台的创造者，更多的是被称为 &quot;巫师&quot;。这些数据分析师创建了供消费者查看的仪表板。在这个过程中，他们构建了自己的技能简历，通过赏金获得报酬，并发现职业机会。
+
+谨慎地进行代币化。乍一看，Dune似乎完全适合于代币。它有一个繁荣的社区，为加密货币生态系统做着有意义的工作。虽然他们并不反对原生货币的可能性，但Haga和Olsen对过早这样做持谨慎态度。
+
+Omnichain（全链）是未来。或者，也许是现在。Solana的出现催生了一波特定链的项目。Dune 需要支持消费者更好地了解这些举措背后的数据的愿望。该公司即将推出的 &quot;Dune引擎V2&quot;，在内部被称为 &quot;Arrakis&quot;，试图做到这一点。
+
+在2019年，Dune已经死了。
+这个结果对当时以一个核心产品驱动的公司来说，差不多相当于关门了。创始人Fredrik Haga和Mats Olsen花了一年多的时间，试图为他们的区块链数据分析平台筹集资金，但投资者没有认真对待他们。超过一百次的与投资人的对话都换来了同样无情的回应…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178187"
+                        open
+                      >
+                        <summary class="article-expander__title">深度解析评估NFT抵押品的5种方法</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178187">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：taetaehoho.eth
+原文标题：《Valuing NFTs as Collateral - Overview, Landscape, Pros/Cons》
+原文编译：麟奇，链捕手
+我的同事之前详细介绍了一些 NFT 金融领域的新兴协议，并概述了使用其中一些协议为NFT产生流动性的方法。
+现在，我将专注于NFT金融化的其中一个领域，并且我认为这是目前最明显的用例——通过 NFT 抵押贷款为你的NFT创造流动性——并阐述协议在这个领域中如何评估NFT抵押品，以及每种方法的优缺点。
+起因
+我有一个有价值的 NFT。我不想卖掉它，但我想依靠其价值获取流动性。我能做的是让别人给我写一笔以 NFT 价值为抵押的贷款。在我得到ETH后，我就可以去玩defi，并且仍保留了我的Mooncat。
+此过程中的一个重要步骤是评估抵押品价值。贷款机构只会提供流动性，前提是他们能够充分保障自己的资本，并为自己承担的风险——比如你的违约——获取公平的补偿。
+因此，贷方可以
+
+确定借款人是值得信赖的，但这在无需许可的匿名环境中很难做到
+
+或者保证抵押品的价值足以在用户违约的情况下保住借出资本
+
+因此对于连接 NFT 流动性买卖双方的平台来说，建立健全的估值方法是最重要的。
+NFT 抵押贷款生态
+
+目前，在该领域运行的协议使用5个主要向量来确定估值。
+1.P2P
+由 NFTfi 开创的p2p模型将估值的责任放到了借款人和贷方身上。该平台充当了市场的角色，其参与者可以在这里会面、谈判条款并执行贷款。快速概览：
+
+Alice需要Mooncat的流动性，并将其作为抵押品，进行贷款。
+
+Bob需要在eth上赚取收益，提交了一份链下贷款报价，详细说明了本金、期限和 APR。
+
+如果Alice得到她认可的报价，她会将贷款金额转移到链上。同时她的NFT被锁定，ETH被转移到了她的EOA（外部拥有账户）中…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178186"
+                        open
+                      >
+                        <summary class="article-expander__title">数据解读Moonbirds：地板价飞涨背后的因素有哪些？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178186">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>相关阅读
+Moonbirds系列NFT地板价达30 ETH
+Key Takeaway
+4月16-18日，Moonbirds 交易量占整个NFT交易市场的25%，同时伴随着Moonbirds价格的快速上涨，挂单率良好、且巨鲸参与度较高。
+目前，Pass+PFP类项目正成为新趋势，项目可以通过创造钻石手机制巩固地板价。未来，NFT 市场阶梯分层会更加明显。
+截至4月19日，单地址平均持仓数为1.5个Moonbirds，分布程度较高。其中持仓量前10名中有5个为巨鲸。
+头部项目方通过&quot;降低社区进入门槛→获取更多用户→抢占市场&quot;的案例，加上质押，孵化等各种阶段性玩法，能够把握市场节奏，从而经历周期性的上涨。
+Moonbirds 交易量激增
+相较于前一周，NFT市场交易量在近两日有较大反弹。
+
+最近两周NFT交易量走势；
+数据来源NFTGo.io，2022.4.18
+4月16号，Moonbirds 发售当天，项目交易量占据了NFT市场总交易量的将近一半，随后两天，Moonbirds交易量虽然开始逐渐降低，但在4月18号仍占据整个NFT市场交易量的五分之一。
+
+Moonbirds交易量与NFT总交易量对比图；
+数据来源NFTGo.io，2022.4.18
+同时，Moonbirds 打破了NFT单日交易量纪录，仅发售三天，其交易量已经远远高于单个蓝筹NFT在七天内的交易量。截止发文当日，Moonbirds市值排名上升至第九。无论是从项目背景还是市场表现，暂且可以将Moonbirds视为现象级的新蓝筹。
+Moonbirds 项目分析：创造钻石手机制
+截止到4月19日，持有钱包的数量为6634，NFT的分布程度较高，每个地址平均仅持有1.5个Moonbirds，其中持有数量前10名有5个被标记为巨鲸。
+
+数据来源NFTGo.io，2022.4.19
+从持有者趋势图看，巨鲸在Moonbirds…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178181"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | Pudgy Penguins胖企鹅或将推出元宇宙新项目；特斯拉自2021年第一季度以来未购买或出售加密货币（4月22日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178181">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+Pudgy Penguins胖企鹅或将推出元宇宙新项目
+NFT项目Pudgy Penguins（胖企鹅）发推晒出Pudgy Penguins主题地图，并配文“Quest Map；And so the journey begins”（探索地图；旅途开始了），或为Pudgy Penguins将推出新的主题元宇宙项目。此外，或因该地图上方“Penguin Code”地区出现Pudgy Present NFT形象，目前已有匿名地址在Gem平台批量扫货Pudgy Present NFT。据OpenSea数据显示，截止目前，Pudgy Present系列NFT地板价为0.21 ETH，24小时涨幅超80%。
+特斯拉自2021年第一季度以来未购买或出售加密货币
+特斯拉在周三的第一季度收益报告中报告了12.6亿美元的数字资产持有量，与2021年第四季度末的持有量几乎没有变化。 声明显示，自2021年第一季度以来，特斯拉没有买卖任何加密资产。自那时以来，公司数字资产持有价值的任何变化都来自价格波动。特斯拉报告称，2022年第一季度的收入为187.6亿美元，超过了预期的178亿美元。汽车收入为168.6亿美元，比去年同期增长87%。 （Block Works）
+加密货币
+孙宇晨向币安转入38340枚ETH，价值1.2亿美金
+星球日报讯 据KingData数据监控，被KingData大户地址追踪标记为孙宇晨的地址（0x3DdfA8eC3052539b6C9549F12cEA2C295cfF5296）于昨日向Binance交易所转入38340枚ETH，价值1.2亿美金。具体转出路径为由孙宇晨5296的地址转向孙宇晨另一钱包地址，再转向被Etherscan标记为Binance交易所的地址。
+数据：比特币现货交易所储备达到四年多来的最低水平
+比特币价格在4月21日突破了42000美元的临界水平，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178180"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊扩容项目Scroll完成3000万美元A轮融资，计划下半年推出测试网</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178180">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 The Block，原文作者：Yogita Khatri
+Odaily 星球日报译者 | 念银思唐
+
+摘要：
+- Scroll 完成 3000 万美元 A 轮融资，该以太坊扩容项目计划开发其网络。
+- 据联合创始人 Sandy Peng 透露，Scroll 的测试网预计将在今年下半年推出。
+使用 zk-Rollup 技术的以太坊扩容项目 Scroll 完成 3000 万美元 A 轮融资，并计划启动测试网。
+此次融资由 Polychain Capital 领投，Bain Capital Crypto、Robot Ventures、Geometry DAO 等参投。
+一些天使投资人，包括以太坊基金会的 Ying Tong 和 Carlos Aria，以及以太坊社区的成员，包括 Anthony Sassal、Ryan Adams 和 Santiago Santos 也参与了该轮融资。
+Scroll 联合创始人 Sandy Peng 拒绝评论此次融资是通过股权融资还是通过 SAFT（未来代币简单协议）销售完成的。
+测试网计划
+有了新的资金，Scroll 计划扩大团队规模并推出测试网。
+目前，Scroll 的员工总数为 20 人，该项目正在招聘包括工程和运营在内的不同职能部门的几名员工。她说，Scroll 的测试网计划在今年下半年启动。
+Scroll 于去年年初由 Sandy Peng、Ye Zhang 和 Haichen Shen 联合创立，其目标是使用 zk-Rollup 技术来扩展以太坊。
+StarkWare 和 Matter Labs 可以看作是 Scroll 最接近的竞争对手——它们都使用 zk-Rollup 扩容技术。
+当被问及 Scroll 相对于 StarkWare 的独特优势是什么时，Peng 说道：“我们正在构建一个 zkEVM 解决方案，而不是 Sta…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +621,23 @@
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/78104"
+                        open
+                      >
+                        <summary class="article-expander__title">去中心化借贷协议Yeti Finance宣布获得Avalanche基金会战略投资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/78104">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>律动 BlockBeats 消息，4 月 22 日，Avalanche 生态去中心化借贷协议 Yeti Finance 宣布获得 Avalanche 基金会战略投资，具体投资金额暂未披露。据悉，Yeti Finance 支持用户质押 LP Token 组合、sJOE 、sAVAX 等资产进行借贷，上线 6 天内 TVL 超 8.3 亿美元。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -565,443 +1136,6 @@ Discord 相关标签用户：800 万枚
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>律动 BlockBeats 消息，4 月 21 日，美国财长耶伦表示，加密货币可能是逃避制裁的一种方式。（金十）</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178200"
-                        open
-                      >
-                        <summary class="article-expander__title">Bit Hero DAO如何打造去中心化投资组织？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178200">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>“十三年前，一位匿名的Bit Hero创建了一个很不起眼的加密货币。它从一个很小的圈子开始传播，最终一步步改变世界，它就是Bitcoin。Bitcoin让人类第一次拥有了全球统一的货币，让人类实现了货币自由。我们至今不知道这位伟大的Bit Hero是谁，只知道他留给我们的代号叫做Satoshi Nakamoto，他是人类第一位Bit Hero。
-十三年后，一群来自世界各地的加密货币从业者联合发起了Bit Hero DAO，旨在加密投资被中心化机构日益垄断的当下，建立一个属于所有人的去中心化投资组织，让每个人都可以拥有平等的投资机会。Bit Hero DAO将资助那些一开始看似很不起眼的Crypto Native项目，并帮助他们发展壮大。每一个不起眼的开始并不一定阻止你改变世界。这个日益壮大的去中心组织都是中本聪的信徒，他们有一个共同的名字，叫做”Bit Hero”。
-Bit Hero DAO的定位是一个去中心化的投资组织。由多名Crypto早期从业者、知名VC从业人员、Crypto投研专家以及行业意见领袖联合发起，以发行Bit Hero NFT的方式建立属于每一个人的去中心化投资组织。Say No DAO参与社区孵化。
-Bit Hero DAO如何开展工作？
-Bit Hero DAO初期发行999个NFT，并把募集的ETH做三部分配置，初步阶段的预分配计划如下：
-A、30%配置Beta稳健型加密产品，比如配置比特币矿机，持续为NFT持有者发放比特币挖矿收入
-B、60%进入VC资金池用于一级市场投资和配置Alpha资产
-C、10%作为DAO的日常运营费用
-NFT持有者可以提案调整资金使用比例以及进行投资标的选择。
-那么，Bit Hero DAO如何运行去中心化投资组织？
-NFT持有者要在组织内行使提案权、投票权和投资收益权，需要质押Bit Hero NFT并生成Dhero，Dhero拥有和被质押NFT一样的稀缺值，不同的稀缺值对应不同的投票权重。比如某个NFT的稀缺度是50，另一个NFT的稀缺度是100，则后者比前者的票数要多一倍。
-总稀缺值排名前50的地址被称为Damocles（执剑人），他们拥有项目提案权，但没有投票权。其他地址被称为Decoder（破壁人），他们拥有投票权，投票通过的项目，即可获得投资。
-除了早期配置的资金外，每一笔NFT交易版税的70%和稳健投资产品的收益分成都会进入VC资金池，比如，如果Beta稳健产品投资的是比特币矿机，则会把每日比特币挖矿收入的70%注入VC资金池。
-当VC池内的资金等值于1BTC时，0.8BTC将被用于投资项目，0.2BTC将用于回购处于Floor Price的Bit Hero NFT。投资盈利时，将把盈利部分的50%分配给NFT持有者，28%再次进入VC资金池，20%用于回购处于Floor Price的Bit Hero NFT，2%奖励给项目提案人。
-Bit Hero DAO将在社区达到一定规模时发行治理代币，并向NFT持有者空投。治理代币的每一笔链上交易都将征税并纳入资金池。
-由此，我们可以将Bit Hero NFT的亮点归纳如下：
-1、Bit Hero NFT作为去中心化投资组织的权益证明，集提案权、投票权、收益权于一身，有明确的应用场景和价值赋能，同时，获取权益必须质押NFT，这使得NFT长期处于稀缺状态。
-2、持有Bit Hero NFT等于持有BIt Hero DAO去中心化投资组织的数字ID，可以和一群智慧的加密货币投资者共享价值。
-3、持有Bit Hero NFT不仅可以获得稳健的Beta收益，还可以获得Alpha收益以及一级市场的投资收益，在保障投资本金的同时获得更高回报。
-4、Bit Hero NFT有明确的回购计划。
-5、Bit Hero NFT拥有唯一的提案和投票权，大量利益相关方将成为追逐Bit Hero NFT的主力。
-Bit Hero DAO初期仅发行999枚NFT，优先向VC从业人员、Crypto投研专家、行业意见领袖开放白名单，同时，也将向Bit Hero DAO公会治理成员开放白名单。
-值得注意的是，Bit Hero DAO近期将提名10位具有行业影响力并洞悉和认同Bit Hero DAO价值的从业者作为Builder，他们将在项目资源、投资调研、市场战略等多个维度为Bit Hero DAO的发展提供支持。
-Bit Hero DAO将于4月底开启盲盒Mint。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178192"
-                        open
-                      >
-                        <summary class="article-expander__title">每日行情解读 | 加密市场空头势强，下跌风险进一步加大</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178192">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>4月20日，美国国债收益率飙升，美债抛售潮加剧，交易员押注，美联储可能在未来几次会议上更为激进地收紧货币政策。美联储如果超预期加息，势必会导致美股大跌，加密市场预计也将受影响，今日加密市场资金有明显出逃迹象。从技术图上看，BTC上方抛压较重，空头势强，后市短线趋于震荡，但跌破重要支撑位的风险加大。BTC下方重要支撑位在39000美元附近，上方重要阻力位为42000美元。
-摘要
-1.市场开始押注5月或6月政策会议加息75个基点的可能性。
-2.BTC目前处于前期重要支撑位，空头势强，后市短线趋于震荡。
-3.矿工抛售量大幅回升，矿工抛售情绪增强，BTC上攻压力上升。
-4.BTC巨鲸地址数出现回落，DeFi中BTC锁仓量略有增加，大户出现减持迹象。
-5.市场情绪变化不大，场内买盘力量略有增强，市场观望情绪浓厚。
-6.BTC合约市场空头持仓占优，多空持仓人数比震荡回落，BTC空头表现强势。
-7.今日加密市场多数板块下跌，资金出现明显出逃迹象。
-一、宏观市场与币圈要闻
-4月20日，美债抛售潮加剧，美国2年期至5年期国债收益率飙升，国债曲线趋平，10年期美债收益率触及三年多以来的高位至2.94%（远超2.83%的阻力位），距离3%的关键水平咫尺之遥，且为连续三个交易日刷新2018年12月以来高位，同时，30年期美债收益率自2019年以来首次升至3%以上。美国国债收益率飙升，交易员押注，美联储可能在未来几次会议上更为激进地收紧货币政策。交易员押注，美联储5月、6月和7月会议每次都将加息50个基点。市场还开始押注5月或6月政策会议加息75个基点的可能性。
-二、技术分析
-据火币行情显示，BTC跌破MA5以及MA13支撑，目前处于前期重要支撑位，由于上方抛压较重，空头势强，目前跌破支撑位的风险加大，后市短线趋于震荡。BTC下方重要支撑位在39000美元附近，上方重要阻力位为42000美元。
-
-三、矿工累积指标
-据bytetree数据显示，从矿工生产和抛售累积数据可以看到，矿工生产量震荡回落，矿工抛售量大幅回升，矿工24小时净累积84枚BTC。整体上看，矿工抛售量大幅回升，矿工抛售情绪增强，BTC上攻压力上升。
-
-四、链上指标
-据Oklink数据显示，通过观察BTC巨鲸地址数可以发现，BTC巨鲸地址数出现一定回落，大户有一定减持迹象。今日截止13：00，DeFi中BTC锚定资产的锁仓量为343954（昨日343884）枚，DeFi中BTC锁仓量净增加70枚。综合来看，BTC巨鲸地址数出现回落，DeFi中BTC锁仓量略有增加，大户出现减持迹象。
-
-五、恐慌指数与买卖强弱指标
-据alternative.me数据显示，今日恐慌与贪婪指数为26（昨日27），市场情绪变化不大。据百度搜索指数显示，比特币搜索量略有上升，市场关注度略有提高。根据多伦多交易所数据显示，BTCC全天成交量407740（昨天329782）份。据OKLink数据显示，灰度GBTC溢价率为-23.15%（昨日-21.42%），GBTC溢价率回落。据币coin数据显示，截止今日13时，BTC当前资金费率-0.017%（昨日-0.004%），资金看空情绪上升；目前比特币RSI 14（买卖相对强弱指数）为47.82（昨日47.82），场内买盘力量略有增强。综合来看，市场情绪变化不大，场内买盘力量略有增强，市场观望情绪浓厚。
-
-六、合约指标
-据币coin数据显示，截止13：00，BTC在Bitmex上多空持仓量比为：多头29.70%，空头70.30%，空头持仓占优。据OKx合约数据显示，在小时图上，BTC多空持仓人数比震荡回落。综合来看，BTC合约市场空头持仓占优，多空持仓人数比震荡回落，BTC空头表现强势。
-七、主流资产与热门币种
-据CoinGecko数据显示，今日24小时涨幅前五的币种分别为：DCR(18.0%)、TRX（8.2%）、XMR（3.7%）、THETA（3.4%）、ZEC（2.8%）；目前在24小时内，排名前一百板块中跌幅前五板块有：FaaS（-8.2%）、DeFi Index（-7.3%）、Music（-6.8%）、Olympus Pro（-5.8%）、Solana 生态（-5.1%）。整体上看，今日加密市场多数板块下跌，资金出现明显出逃迹象。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178197"
-                        open
-                      >
-                        <summary class="article-expander__title">不懂代码，如何快速组建并管理一个DAO?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178197">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>随着 DAO（去中心化自治组织）盛行，众多 Web3 项目开始采用这一新兴理念进行项目治理。但对于一些轻量级项目而言，其本身技术能力不足，想要构建一个完善的 DAO 治理框架尤为困难。一个名为 Squads 的 DAO 治理工具应运而生，致力于降低 DAO 治理门槛。
-Squads 是一个基于 Solana 区块链的 DAO 治理协议，适用于 web3 团队的协作基础架构，允许用户一起组织、制定决策和管理数字资产。无论用户是建立一家初创公司、为协议做出贡献，还是只是想切换到多人模式共同管理资产以及投资，Squads 都可以满足用户需求，并让让这种体验变得简易且直观。
-具体来说，用户首先需要连接自己钱包，创建一个 DAO，主要有两种类型：
-
-Multisig：简单的多重签名钱包，通过需要多个签名来确认交易来管理团队资产；
-
-Teams：对链上成员进行编码，没有代币，成员加权链上投票；
-
-假如用户选择创建多重签名钱包，Squads 会要求用户继续添加三个多签地址，并为多签设计一个「确认阈值」（即批准交易所需的确认数量），参数设计完成即可创建多签钱包。这种场景适合一些去中心化 VC 进行使用。
-如果用户选择创建一个团队，Squads 会要求用户为团队取名、进行介绍、上传头像等；而后，用户需要添加是那个初始成员，当然后续也可以通过执行提案添加更多成员；此外，用户还需要为团队设计投票规则，主要包括两项：提案通过的代币最低百分比以及团队有效成员百分比。设计完成后，一个初具框架的 DAO 组织就完成了。
-并且，每个 Squad 都有一个内置的 Vault，允许用户存入多种类型的 Token 和 NFT。要想转出资产，必须通过多签控制。值得一提的是，Squad 允许灵活分配投票权——并不是说拥有代币越多投票权越大，这点有点像上市公司的 AB 股结构（即“同股不同权”）。
-与传统公司不同的是，由于基于区块链构建，所以用户在 Squad 中的位置是非常牢固的，无可撼动——除非你被投票踢出局，或者无法访问钱包，否则永远不会发生你进不了公司大门的情况。
-另外，Squads 拥有极简的 UI/UX，各项功能一目了然，投票与决策更加透明，即便是一个不懂代码的用户也可以组建 DAO，极大便利了项目治理。如下所示：
-
-融资方面，Squads 去年获得 150 美元种子轮融资，Reciprocal Ventures、Volt Capital、Chaotic Capital、6thman Ventures、Republic Capital、8186 Capital、Solana Capital、Ryan Selkis、Ryon Nixon、Chris Hermida 和 Julia Lipton 等机构投资。
-今年 2 月，Squads 再次获得 500 万美元的战略融资，由 Multicoin Capital 领投，参与方包括 Jump Capital、Delphi Digital、Collab + Currency、Volt Capital、Chaotic Capital、Reciprocal Ventures、Blockwall Digital、Seed Club Ventures、Davinci DAO、Reverie 和其他天使投资人。
-“Squads 正在为 Solana 生态系统带来 Web3 基础设施的一个重要组成部分。一个专用的多重签名，是 Solana 生态系统中最后缺失的 DAO 基础之一。由于生态系统固有的可组合性，Solana 上的 DAO 具有更丰富的功能。使用像 Squads 这样的基础设施，团队现在可以快速组建、降低投票成本，并以更复杂的方式管理资产。” Multicoin Capital 管理合伙人 Kyle Samani 表示。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178196"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT数据日报 | Moonbirds蝉联日交易量冠军（4.22）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178196">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
-宏观市场指标
-截至 4 月 22 日 15 时，NFT 整体市值 183.07 亿美元，较 24 小时前增长 0.58%；过去 24 小时内总交易量约 2.17 亿美元，日环比下降 16.04%。
-
-按过去 24 小时成交量，排前三的子领域分别为 PFP（1.09 亿美元）、Utility（7230 万美元）、Collectibles（3765 万美元）。
-
-项目排名
-按过去 24 小时成交量，排名前五的项目分别为 Moonbirds（5332 万美元）、Meebits（1550 万美元）、dotdotdots（1297 万美元）、Murakami.Flowers Seed（925 万美元）和 Mutant Ape Yacht Club（812 万美元）。
-
-按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为 The Association NFT (NBA)（24.87%）、Space Boo Official NFT（21.17%）、EightBit Me（11.91%）、0xOG Pass by 0xStudio（11.07%）和 CREYZIES（10.00%） 。
-
-特色数据
-过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：Moonlight #368、Shaq Gives Back #9539、Galaxy Warrior #9577、Genzee #3293 和 Gutter Comic #1 Streets of Fire。
-
-最受巨鲸欢迎项目排前五的分别是：Moonbirds、Murakami.Flowers Seed、The Association NFT (NBA)、CREYZIES 和 Akutar Mint Pass。
-
-元宇宙平台中，过去 24 小时内，Decentraland 上的地块最低成交价为 2.2 ETH、平均成交价为 2.64 ETH；The Sandbox 上的地块最低成交价为 1.44 ETH、平均成交价为 1.8 ETH；Cryptovoxels 上的地块最低成交价为 0.7077 ETH、平均成交价为 0.995 ETH。
-
-欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
-相关阅读
-数据解读Moonbirds：地板价飞涨背后的因素有哪些？
-全面解析PFP类NFT大火项目的打造逻辑
-格局打开：NFT持有者决定IP天花板
-浅谈NFT稀有度玄学</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178195"
-                        open
-                      >
-                        <summary class="article-expander__title">体育NFT热潮不减：板球NFT平台Rario完成1.2亿美元融资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178195">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 The Block，原文作者：Callan Quinn
-Odaily星球日报译者 | 余顺遂
-
-摘要：
-
-板球 NFT平台 Rario 将可以触及领投方 Dream Sport 在印度的 1.4 亿用户。
-
-
-德勤全球预测，今年体育媒体 NFT 交易额将超过 20 亿美元。
-
-4 月 21 日，板球 NFT 平台 Rario 宣布完成 1.2 亿美元融资，由 Dream Sports 的企业风投和并购部门 Dream Capital 领投。这标志着 Dream Capital 在 Web3 领域的第一笔投资，也是其迄今为止对初创公司最大的一笔投资。
-Alpha Wave Global（此前为 Falcon Edge Capital）以及现有投资方 Animoca Brands、Presight Capital 和 Kingsway Capital 参投。
-总部位于新加坡的 Rario 为板球爱好者提供 NFT 球员卡、视频片段和板球工艺品。该公司表示，自去年推出以来，它已售出超过 50000 枚 NFT。
-最近，各大体育运动队迅速加入了 NFT 浪潮。去年 12 月，NBA 传奇人物迈克尔·乔丹（Michael Jordan）及其儿子杰弗里·乔丹（Jeffrey Jordan）获得 1000 万美元的种子资金，用于推出基于 Solana的 Web3粉丝互动平台 HEIR。上个月，HEIR 平台发布首个NFT 系列 6 Rings NFTs，售价为 2.3 SOL（价值 220 美元）。
-在足球领域，Capital Block 首席执行官 Tim Mangnall 声称，所有 20 家英超俱乐部都在考虑参与 NFT 领域。然而，他也认为 95% 的 NFT 项目注定会失败，并建议买家保持谨慎。据悉，Capital Block 是专门帮助欧洲、中东和北非地区的球队和组织为球迷推出 NFT 的机构。
-事实上，粉丝互动平台 Iqoniq 的破产清算已经导致人们呼吁对加密体育赞助进行更多监管。据悉，Iqoniq 的合作伙伴包括 LaLiga 和迈凯伦 F1 车队（McLaren Formula One）。2021 年 12 月，英国广告标准局（ASA）禁止阿森纳足球俱乐部（Arsenal Football Club）推广基于加密货币的球迷代币的网页和 Facebook帖子。ASA 称其违反广告规则，该俱乐部未能说明投资的风险，并裁定广告不得以被投诉的形式再次出现。
-尽管如此，体育俱乐部创建 NFT 的趋势还没有减弱的迹象：德勤全球预测，2022 年体育媒体 NFT 交易额将超过 20 亿美元。到2022 年底，预计将有 400 - 500 万体育迷购买或获得 NFT 体育收藏品。
-迄今为止，Rario 已与六支国际球队以及超过 900 名板球运动员建立独家合作伙伴关系。Rario 最近还与澳大利亚板球运动主管机构 Cricket Australia（CA）以及澳大利亚板球运动员协会（Australian Cricketers’ Association，简称 ACA）签署了多年独家合作伙伴关系，以创建结合收藏品和游戏的澳大利亚板球元宇宙。
-随着其完成最新一轮融资，该公司现在将触及领投方 Dream Sports 的 1.4 亿名用户，他们将在印度向其提供更多仅限法定货币交易的产品。Dream Capital 的投资组合包含九家公司，专注于体育、游戏和健身科技领域。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178193"
-                        open
-                      >
-                        <summary class="article-expander__title">区块链开发者如何看待Uniswap？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178193">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《Shifting Podcast#EP.01-和 chenjia404 聊聊 DeFi 世界的五⽉花号-Uniswap》
-原文来源： Shifting
-本期内容由播客 Shifting Podcast 整理而来， Shifting 是一档围绕加密货币、区块链、Web3 展开的深度播客，希望可以为听众提供价值视角和信息。以下为 Shifting 本期播客的⽂稿，与⾳频内容相较稍有修改以便听众阅读，本期嘉宾：chenjia404 （区块链开发者）
-Xuanhao：⼤家好，欢迎收听 shifting，我是王炫皓。本播客围绕加密货币和 Web 3 展开，希望为⼤家提供更多视⻆和信息，同时欢迎来⾃听众和社区的反馈。播客内容和嘉宾分享仅代表个⼈观点，不构成任何财务投资建议。   
-Xuanhao：今天打算和⼤家聊聊 Uniswap (之后也可能会简称 Uni)，原因是如果我们回顾加密世界从 2020 年开始的爆发，DeFi 应该是标志性的事件。那如果我们回顾 DeFi，Uniswap 应该是标志性的协议。在⽤⼾的⻆度，Uni 应该是整个 DeFi 世界的⼊⼝，承担了最重要的交易功能，⽽这个产品本⾝只有⼏百⾏代码。
-Uni 的团队，公开信息显⽰其实也就 20 到 30 个⼈，但最⾼的时候 $UNI 的市值超过 300 亿美⾦。那如果平均⼀下，⼈效⽐应该是传统公司的很多倍。作为对⽐，纳斯达克⽬前的市值也将近 300 亿美⾦，但是他们有超过 4800 名员⼯。那这样看来，crypto 确实是⼀个⾮常不⼀样的新领域。
-关于创始⼈也有⼀些⽐较有意思的故事。⽐如创始⼈ Hayden Adams 本来是西⻔⼦的机械⼯程师，但之后被裁员，就⾃学 Solidity 做了 Uniswap 这个明星协议。虽然 Uni 在今天已经过了早期被热烈讨论的时期，但作为⼀个标志性的协议有它独特的⻓期价值，…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178191"
-                        open
-                      >
-                        <summary class="article-expander__title">Twitter、区块链商业模式和创新者困境</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178191">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：NADER AL-NAJI
-原文编译：Block unicorn
-
-
-如今，每个人都在争论谁应该控制Twitter，应该是埃隆马斯克？应该是沙特人吗？或者，它应该是一家私募股权公司。令人担忧的是，无论谁控制了Twitter，都将有能力控制3亿人的信息审查。但是，如果有一种更好的商业模式，完全用于缓和世界上的社交平台，而不依赖于一个“独裁者”来制定政策，那会怎么样？如果这种更好的商业模式不仅对世界更好，而且有望超越迄今盛行的传统的“广告驱动型”商业模式，情况会怎样？
-
-在花了几年时间思考围绕社交媒体的问题，并围绕事物将如何演变下一盘“国际象棋”之后，我认为Twitter和其他社交巨头共同面临着社交媒体新商业模式的引入，同时采用这种模式风险很大，其颠覆性影响被低估了。一个真正典型的“创新者困境”。
-
-我把这种新的商业模式称为“区块链”商业模式，在这篇文章中，我将解释它，以及为什么它极有可能在未来几年超越传统“广告驱动”的商业模式。
-考虑到社交媒体公司到目前为止的网络影响力是多么强大和持久，后起之秀提供一个新的商业模式，可能超越Twitter的机会，这听起来可能很疯狂。但这对您有好处，因为如果您同意本文中的逻辑，您将知道一些既有用又不直观的东西。
-所以，和我一起在几分钟内分享一组我花了几年时间才形成的见解，直到今天还很少有人能理解。
-
-广告驱动的商业模式：不稳定的平衡
-如今，Twitter和其他社交媒体公司采用了我称之为广告驱动型的商业模式。简而言之，这种商业模式由以下4个部分组成：
-1. 用户在Twitter上生成内容。
-2. 用户通过Twitter的应用程序浏览内容。
-3. Twitter通过向在其应用程序上浏览内容的用户显示广告来获得收入。
-4. Twitter不允许其他任何人运行应用程序或其内容的订阅源(因为它无法在自己无法控制的应用程序上有效的显示广告)。
-重…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178188"
-                        open
-                      >
-                        <summary class="article-expander__title">Dune的崛起之路：成为区块链世界的Google</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178188">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：readthegeneralist
-原文作者：Mario Gabriele
-本文来自FastDaily。
-
-可操作的见解
-
-如果你只有几分钟的时间，以下是投资者、运营者和创始人应该了解的关于Dune的内容：
-
-精益经营，坚持不懈。如果Dune的烧钱速度更快，该公司几乎肯定会在加密货币的寒冬中失败。相反，创始人Fredrik Haga和Mats Olsen保守地支出，使他们有机会在更好的条件下发展壮大。
-
-专注于独特的东西。Dune 1.0提供加密货币数据的付费仪表板产品。鉴于可以免费获得区块链信息，投资者对这一预设需求进行了反驳。Haga和Olsen没有反抗，而是认识到这种反馈的智慧。Dune2.0产品便增加了这个特点。
-
-“巫师”创造“魔法”（和金钱）。在Dune的 &quot;八字飞轮 &quot;商业模式中心是平台的创造者，更多的是被称为 &quot;巫师&quot;。这些数据分析师创建了供消费者查看的仪表板。在这个过程中，他们构建了自己的技能简历，通过赏金获得报酬，并发现职业机会。
-
-谨慎地进行代币化。乍一看，Dune似乎完全适合于代币。它有一个繁荣的社区，为加密货币生态系统做着有意义的工作。虽然他们并不反对原生货币的可能性，但Haga和Olsen对过早这样做持谨慎态度。
-
-Omnichain（全链）是未来。或者，也许是现在。Solana的出现催生了一波特定链的项目。Dune 需要支持消费者更好地了解这些举措背后的数据的愿望。该公司即将推出的 &quot;Dune引擎V2&quot;，在内部被称为 &quot;Arrakis&quot;，试图做到这一点。
-
-在2019年，Dune已经死了。
-这个结果对当时以一个核心产品驱动的公司来说，差不多相当于关门了。创始人Fredrik Haga和Mats Olsen花了一年多的时间，试图为他们的区块链数据分析平台筹集资金，但投资者没有认真对待他们。超过一百次的与投资人的对话都换来了同样无情的回应…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178187"
-                        open
-                      >
-                        <summary class="article-expander__title">深度解析评估NFT抵押品的5种方法</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178187">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：taetaehoho.eth
-原文标题：《Valuing NFTs as Collateral - Overview, Landscape, Pros/Cons》
-原文编译：麟奇，链捕手
-我的同事之前详细介绍了一些 NFT 金融领域的新兴协议，并概述了使用其中一些协议为NFT产生流动性的方法。
-现在，我将专注于NFT金融化的其中一个领域，并且我认为这是目前最明显的用例——通过 NFT 抵押贷款为你的NFT创造流动性——并阐述协议在这个领域中如何评估NFT抵押品，以及每种方法的优缺点。
-起因
-我有一个有价值的 NFT。我不想卖掉它，但我想依靠其价值获取流动性。我能做的是让别人给我写一笔以 NFT 价值为抵押的贷款。在我得到ETH后，我就可以去玩defi，并且仍保留了我的Mooncat。
-此过程中的一个重要步骤是评估抵押品价值。贷款机构只会提供流动性，前提是他们能够充分保障自己的资本，并为自己承担的风险——比如你的违约——获取公平的补偿。
-因此，贷方可以
-
-确定借款人是值得信赖的，但这在无需许可的匿名环境中很难做到
-
-或者保证抵押品的价值足以在用户违约的情况下保住借出资本
-
-因此对于连接 NFT 流动性买卖双方的平台来说，建立健全的估值方法是最重要的。
-NFT 抵押贷款生态
-
-目前，在该领域运行的协议使用5个主要向量来确定估值。
-1.P2P
-由 NFTfi 开创的p2p模型将估值的责任放到了借款人和贷方身上。该平台充当了市场的角色，其参与者可以在这里会面、谈判条款并执行贷款。快速概览：
-
-Alice需要Mooncat的流动性，并将其作为抵押品，进行贷款。
-
-Bob需要在eth上赚取收益，提交了一份链下贷款报价，详细说明了本金、期限和 APR。
-
-如果Alice得到她认可的报价，她会将贷款金额转移到链上。同时她的NFT被锁定，ETH被转移到了她的EOA（外部拥有账户）中…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178186"
-                        open
-                      >
-                        <summary class="article-expander__title">数据解读Moonbirds：地板价飞涨背后的因素有哪些？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178186">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>相关阅读
-Moonbirds系列NFT地板价达30 ETH
-Key Takeaway
-4月16-18日，Moonbirds 交易量占整个NFT交易市场的25%，同时伴随着Moonbirds价格的快速上涨，挂单率良好、且巨鲸参与度较高。
-目前，Pass+PFP类项目正成为新趋势，项目可以通过创造钻石手机制巩固地板价。未来，NFT 市场阶梯分层会更加明显。
-截至4月19日，单地址平均持仓数为1.5个Moonbirds，分布程度较高。其中持仓量前10名中有5个为巨鲸。
-头部项目方通过&quot;降低社区进入门槛→获取更多用户→抢占市场&quot;的案例，加上质押，孵化等各种阶段性玩法，能够把握市场节奏，从而经历周期性的上涨。
-Moonbirds 交易量激增
-相较于前一周，NFT市场交易量在近两日有较大反弹。
-
-最近两周NFT交易量走势；
-数据来源NFTGo.io，2022.4.18
-4月16号，Moonbirds 发售当天，项目交易量占据了NFT市场总交易量的将近一半，随后两天，Moonbirds交易量虽然开始逐渐降低，但在4月18号仍占据整个NFT市场交易量的五分之一。
-
-Moonbirds交易量与NFT总交易量对比图；
-数据来源NFTGo.io，2022.4.18
-同时，Moonbirds 打破了NFT单日交易量纪录，仅发售三天，其交易量已经远远高于单个蓝筹NFT在七天内的交易量。截止发文当日，Moonbirds市值排名上升至第九。无论是从项目背景还是市场表现，暂且可以将Moonbirds视为现象级的新蓝筹。
-Moonbirds 项目分析：创造钻石手机制
-截止到4月19日，持有钱包的数量为6634，NFT的分布程度较高，每个地址平均仅持有1.5个Moonbirds，其中持有数量前10名有5个被标记为巨鲸。
-
-数据来源NFTGo.io，2022.4.19
-从持有者趋势图看，巨鲸在Moonbirds…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178181"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | Pudgy Penguins胖企鹅或将推出元宇宙新项目；特斯拉自2021年第一季度以来未购买或出售加密货币（4月22日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178181">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-Pudgy Penguins胖企鹅或将推出元宇宙新项目
-NFT项目Pudgy Penguins（胖企鹅）发推晒出Pudgy Penguins主题地图，并配文“Quest Map；And so the journey begins”（探索地图；旅途开始了），或为Pudgy Penguins将推出新的主题元宇宙项目。此外，或因该地图上方“Penguin Code”地区出现Pudgy Present NFT形象，目前已有匿名地址在Gem平台批量扫货Pudgy Present NFT。据OpenSea数据显示，截止目前，Pudgy Present系列NFT地板价为0.21 ETH，24小时涨幅超80%。
-特斯拉自2021年第一季度以来未购买或出售加密货币
-特斯拉在周三的第一季度收益报告中报告了12.6亿美元的数字资产持有量，与2021年第四季度末的持有量几乎没有变化。 声明显示，自2021年第一季度以来，特斯拉没有买卖任何加密资产。自那时以来，公司数字资产持有价值的任何变化都来自价格波动。特斯拉报告称，2022年第一季度的收入为187.6亿美元，超过了预期的178亿美元。汽车收入为168.6亿美元，比去年同期增长87%。 （Block Works）
-加密货币
-孙宇晨向币安转入38340枚ETH，价值1.2亿美金
-星球日报讯 据KingData数据监控，被KingData大户地址追踪标记为孙宇晨的地址（0x3DdfA8eC3052539b6C9549F12cEA2C295cfF5296）于昨日向Binance交易所转入38340枚ETH，价值1.2亿美金。具体转出路径为由孙宇晨5296的地址转向孙宇晨另一钱包地址，再转向被Etherscan标记为Binance交易所的地址。
-数据：比特币现货交易所储备达到四年多来的最低水平
-比特币价格在4月21日突破了42000美元的临界水平，…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178180"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊扩容项目Scroll完成3000万美元A轮融资，计划下半年推出测试网</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178180">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 The Block，原文作者：Yogita Khatri
-Odaily 星球日报译者 | 念银思唐
-
-摘要：
-- Scroll 完成 3000 万美元 A 轮融资，该以太坊扩容项目计划开发其网络。
-- 据联合创始人 Sandy Peng 透露，Scroll 的测试网预计将在今年下半年推出。
-使用 zk-Rollup 技术的以太坊扩容项目 Scroll 完成 3000 万美元 A 轮融资，并计划启动测试网。
-此次融资由 Polychain Capital 领投，Bain Capital Crypto、Robot Ventures、Geometry DAO 等参投。
-一些天使投资人，包括以太坊基金会的 Ying Tong 和 Carlos Aria，以及以太坊社区的成员，包括 Anthony Sassal、Ryan Adams 和 Santiago Santos 也参与了该轮融资。
-Scroll 联合创始人 Sandy Peng 拒绝评论此次融资是通过股权融资还是通过 SAFT（未来代币简单协议）销售完成的。
-测试网计划
-有了新的资金，Scroll 计划扩大团队规模并推出测试网。
-目前，Scroll 的员工总数为 20 人，该项目正在招聘包括工程和运营在内的不同职能部门的几名员工。她说，Scroll 的测试网计划在今年下半年启动。
-Scroll 于去年年初由 Sandy Peng、Ye Zhang 和 Haichen Shen 联合创立，其目标是使用 zk-Rollup 技术来扩展以太坊。
-StarkWare 和 Matter Labs 可以看作是 Scroll 最接近的竞争对手——它们都使用 zk-Rollup 扩容技术。
-当被问及 Scroll 相对于 StarkWare 的独特优势是什么时，Peng 说道：“我们正在构建一个 zkEVM 解决方案，而不是 Sta…</span>
                             </span>
                           </div>
                         </a>
@@ -10919,97 +11053,6 @@ Beanstalk在推特上披露遭受攻击的时间是4月17日晚10时30分许，�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178037"
-                        open
-                      >
-                        <summary class="article-expander__title">明星项目周报 | 四大Layer2之一或将于下个月发币；Uniswap Labs成立风投部门（4.11-4.17）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178037">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>4月11日-4月17日一周时间内，明星项目进展中值得关注的事件有：彭博社：Ava Labs将以52.5亿美元估值融资3.5亿美元；Cosmos开发公司Ignite推出1.5亿美元Web3加速器；EOS EVM将在今年第三季度启动；知情人士：四大Layer2中或有一方将于下个月发行Token；Multichain宣布跨链消息传递协议anyCall正式上线；Uniswap Labs成立风投部门，专注于投资Web3项目；NFT项目Moonbirds公开铸造已售罄，成功募集6600万美元；STEPN开始回购和销毁GMT，计划每天出资1万枚SOL直至Q1盈利资金耗尽。
-以下为具体项目进展：
-底层-公链
-彭博社：Ava Labs将以52.5亿美元估值融资3.5亿美元
-据知情人士透露，加密货币Avalanche的主要开发商Ava Labs正在进行新一轮融资，估值有望超过50亿美元，使其成为世界上估值最高的加密货币初创公司之一。其中一位知情人士表示，该公司将以52.5亿美元的估值融资3.5亿美元。
-据悉，Ava Labs成立于2018年，并在2019年获得600万美元融资，投资者包括基金巨头Andreessen Horowitz（a16z）和Polychain。根据PitchBook的数据，该公司有170名员工。
-此外，2021年9月，Avalanche基金会完成2.3亿美元私募融资， Polychain和Three Arrows Capital领投。（彭博社）
-Cosmos开发公司Ignite推出1.5亿美元Web3加速器，Alameda等为投资合作伙伴
-Cosmos开发公司Ignite（原Tendermint）宣布推出专注于Web3、规模达1.5亿美元的加速器Ignite Accelerator，该计划将每年支持最多20个项目。
-据了解，Ignite Accelerator的投资合作伙…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178040"
-                        open
-                      >
-                        <summary class="article-expander__title">​ETH周报 | 以太坊第一个主网影子分叉已上线；ENS空投代币认领仅剩3周时间（4.11～4.17）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178040">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>作者 | 秦晓峰
-编辑 | 郝方舟
-出品 | Odaily星球日报     
-
-一、整体概述
-随着以太坊逐渐向权益证明（PoS）机制过渡，以太坊的第一个主网影子分叉（shadow fork）上周一上线。以太坊基金会开发人员Parithosh Jayanthi表示，影子分叉是“对关于同步和状态增长的假设进行压力测试”的一种方式，它还将提供“一种方法来检查我们的假设是否适用于现有的测试网和/或主网”。Jayanthi警告称，影子分叉将与以太坊主网络共享一些数据，因此一些交易可能会出现在两条链上。以太坊开发人员Tim Beiko表示，影子分叉的结果是确定最终合并时间的关键。
-二级市场方面，目前 ETH 价格短时可能继续盘整，支撑位 2950 美元，阻力位 3100 美元。
-
-二、二级市场
-
-1.现货市场
-OKX 行情数据显示，上周 ETH 价格一度下跌破 3000 美元，最低至 2950 美元，周内收于 3072 美元，环比下降 5.6%。
-
-
-（ETH 日线图，图片来自OKEx）
-日线图上显示，价格在 3000 美元附近盘整震荡，短期内价格可能继续向下测试 2950 美元关口，如果跌破，将可能进一步下跌至 2500 美元附近；目前上方阻力位是 3080 美元，该点位也是 120 日均线位置，有较强阻力；下方支撑位是 3000 美元。
-2.大额异动 
-
-欧科云链OKlink数据显示，链上转账次数上周小幅下降，“1000 ETH 以上”、“2000 ETH 以上”以及“5000 ETH 以上”分别环比下降 1.5%、3.2% 以及 13.2%，大额巨鲸交易热情明显下降。
-3.富豪榜地址
-
-欧科云链OKlink数据显示，目前 ETH 持仓前 300 名，掌握了总计 53.25% 的 ETH，环比上涨 0.12%；此外，整个持仓分布呈现椭圆形结构，各个部分占比分别是：第 1～100 名…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178041"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 |算稳项目Beanstalk Farms遭黑客攻击损失1.8亿美元；暴雪正在调查玩家对NFT和P2E游戏的兴趣（4月18日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178041">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-派盾：初步分析显示Beanstalk Farms损失约为1.82亿美元
-派盾在推特上表示，算法稳定币项目Beanstalk Farms遭黑客攻击，其初步分析显示，Beanstalk Farms的损失约为1.82亿美元，包括79,238,241 BEAN3CRV-f、1,637,956 BEANLUSD-f、36,084,584 BEAN和0.54 UNI-V2_WETH_BEAN。派盾随后分析称，由于一天前提交的闪电贷协助（即时）的BIP18提案通过，黑客得以进行攻击。BIP18导致攻击者使用治理特权来执行设计好的代码以抽干池资金。另据Etherscan浏览器显示，标记为“Beanstalk Flashloan Exploiter”的地址已经通过Tornado Cash将上千枚ETH转入混币池。
-暴雪正在调查玩家对NFT和P2E游戏的兴趣
-暴雪正在调查玩家对NFT和P2E加密货币游戏的兴趣。据GameRant报道，一些玩家被要求在这个周末完成一项YouGov调查，该调查提到了上述技术。调查的一个部分是询问参与者，如果动视暴雪的产品引入加密货币和NFT，以及跨平台联机对战功能、VR和订阅服务等更传统的功能，他们会有多大的兴趣。需要注意的是，动视暴雪还没有正式进入NFT领域。（Video Games Chronicle）
-加密货币
-分析师：比特币总流通量的12.04%已在38100美元至41500美元之间易手
-
-分析师PlanC发推表示，Glassnode数据显示，比特币总流通量的12.04%已在38100美元至41500美元之间易手，这比任何其他价格范围都多。
-截至2022年Q1，Chainlink已支持900多个去中心化预言机网络
-Chainlink发推称，在2022年第一季度，Chainlink继续增长，目前已支持900多个去中心化预言机网络，为主要区块链提供Web…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11870,24 +11913,6 @@ Chainlink发推称，在2022年第一季度，Chainlink继续增长，目前已�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650240153229238.html"
-                        open
-                      >
-                        <summary class="article-expander__title">安全公司：Beanstalk Farms遭黑客攻击，损失已达1.82亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650240153229238.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月18日消息，安全公司派盾发推文称，算法稳定币项目Beanstalk Farms遭黑客攻击，初步分析显示，截至4月17日晚上11时，Beanstalk Farms损失约为1.82亿美元，包括79,238,241 BEAN3CRV-f、1,637,956 BEANLUSD-f、36,084,584 BEAN和0.54 UNI-V2_WETH_BEAN。启动入侵的初始资金已被撤回至Synapse Protocol，且大部分收益都被存入Tornado.cash。派盾分析称，此次攻击或源于前一天通过的BIP18，BIP18导致使用治理特权来抽干池资金的精心设计的代码执行。此外，派盾称，Beanstalk Farms攻击者将获利的部分USDC转入乌克兰加密捐赠地址。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11895,8 +11920,8 @@ Chainlink发推称，在2022年第一季度，Chainlink继续增长，目前已�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2207351753">
-        <time id="build-timestamp" datetime="2022-04-22T11:08:03.684Z">2022-04-22T11:08:03.684Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2207657584">
+        <time id="build-timestamp" datetime="2022-04-22T12:16:09.190Z">2022-04-22T12:16:09.190Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
