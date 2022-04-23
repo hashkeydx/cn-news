@@ -2673,6 +2673,36 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/flash/78206",
+          "author": null,
+          "description": "律动 BlockBeats 消息，4 月 23 日，据 Cointelegraph 报道，区块链游戏开发公司 Goons of Balatroon 宣布完成 246 万美元的种子轮融资，本轮融资由 Merit Circle、Jun Capital、Vulcan Forged、Faculty Group、Maven Capital 和 Bullperks 等参投。\n\nGoons of Balatroon 主要开发 2D/3D 混合型元宇宙区块链游戏，其旗舰产品是一款 P2E 交易卡游戏（TCG），另外他们也正在开发一款陆战游戏。",
+          "link": "https://www.theblockbeats.info/flash/78206",
+          "publishedOn": "2022-04-23T08:07:10.000Z",
+          "wordCount": null,
+          "title": "链游开发公司Goons of Balatroon完成246万美元融资，Merit Circle参投",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/78194",
+          "author": null,
+          "description": "律动 BlockBeats 消息，4 月 23 日，NFT 项目方 Akutar 的 11,539.5 ETH（约合 3,400 万美元）被永久锁定在拍卖合约。\n\nAku 采用的是类似荷兰降价拍卖的形式，拍卖结束后会按照结束价格给用户退还超过最低价格的部分，因此这涉及 refund 以及 total bids 统计两个方面，而项目方在这两个方面均存在实现逻辑问题。据欧科云链链上天眼显示：\n\n第一个漏洞，processRefunds() 会被恶意合约阻断，实现 DoS 攻击，也确有用户使用恶意合约阻断了 processRefunds(）执行，但该名用户表示只是让项目方确认问题存在，随即设置恶意合约变量，使得 processRefunds(）顺利执行完，因此该漏洞虽被利用，但已成功解决。\n\n第二个漏洞，也就是真正导致项目方无法提款的关键所在，processRefunds(）是按照 msg.sender 的数量记录在了 refundProgress 变量，拍卖结束项目方调用 claimProjectFunds() 取出合约内的 ETH 时，要求满足 refundProgress >= totalBids，而 totalBids 记录的是 NFT 的数量，合约最终状态 refundProgress 数值为 3669，totalBids 数值为 5495，从而导致项目方无法提取合约内的 11539.5 ETH。\n\n需要指出的是，在执行 processRefunds(）之前，参与拍卖的用户可以在三天后通过 emergencyWithdraw() 将个人投入的 ETH 取回，但由于 processRefunds(）的执行，导致用户的拍卖状态由未处理变为 refund，从而不能再进行 emergencyWithdraw()。",
+          "link": "https://www.theblockbeats.info/flash/78194",
+          "publishedOn": "2022-04-23T07:18:10.000Z",
+          "wordCount": null,
+          "title": "Aku项目方价值3,400万美元ETH被永久锁定，系合约实现逻辑问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/78200",
+          "author": null,
+          "description": "律动 BlockBeats 消息，4 月 23 日，adidas Originals 宣布将为其「Into the Metaverse」（ITM）的 NFT 持有者发放实物产品，认领窗口将于 4 月 28 日开放，认领不收取费用但需支付 Gas 费。",
+          "link": "https://www.theblockbeats.info/flash/78200",
+          "publishedOn": "2022-04-23T07:12:37.000Z",
+          "wordCount": null,
+          "title": "adidas Originals将为ITM NFT持有者发放实物产品，4月28日开放认领",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/flash/78185",
           "author": null,
           "description": "律动 BlockBeats 消息，4 月 23 日，据官方消息，Web3 信息基础设施 RSS3 今日公开关于质押的早期激励计划 Pre-Staking Testrun。Pre-Staking Testrun 计划中的奖金共计 2000 万枚 RSS3，参与者可选择质押市场，最少 60 天，最高 360 天。\n\n用户质押和奖励获得的 RSS3 将会在质押解除后的 60 天内发放到用户的地址中，该部分 Token 在质押期间将获得双倍投票权。本次质押计划期间将会和 RSS3 节点开发和上线同期进行，具体参与细节和启动时间将于近期公布。",
