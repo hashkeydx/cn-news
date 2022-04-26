@@ -2104,26 +2104,6 @@
           "wordCount": 87,
           "title": "美国议员就加密采矿的环境问题向环保署发出问询信",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
-        },
-        {
-          "id": "https://panewslab.com/zh/sqarticledetails/1650617682907499.html",
-          "author": "PA一线",
-          "description": "PANews 4月22日消息，据KingData数据监控，被KingData大户地址追踪标记为三箭资本的地址（0x085Af684acDB1220D111FEE971b733c5e5ae6CCd）在过去的3小时内向币安交易所转入5000枚ETH，价值超1500万美元。",
-          "link": "https://panewslab.com/zh/sqarticledetails/1650617682907499.html",
-          "publishedOn": "2022-04-22T08:54:43.000Z",
-          "wordCount": 82,
-          "title": "数据：三箭资本向币安交易所转入5000枚ETH，价值超1500万美元",
-          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
-        },
-        {
-          "id": "https://panewslab.com/zh/sqarticledetails/1650617428447497.html",
-          "author": "PA一线",
-          "description": "PANews 4月22日消息，Fairyproof发布了关于以太坊4626提案安全问题的报告，称该EIP要求代币化的金库必须实现ERC-20来表示份额，并添加新的接口来在可见函数和传输函数中将份额转换为代币或将代币转换为份额。因此基于此EIP实施代币化的金库时应注意以下风险：1.有可能会出现符合这个EIP定义的接口但不符合规范的恶意合约，审计人员需提前仔细检查。2.虽然此EIP规定实施者若直接支持EOA账户访问需添加额外的存款/铸币/提款/赎回函数调用，以适应滑点损失或意外的存提款限制，但忽略了代币在转账时被烧毁的情况，一些DeFi应用程序使用这种机制来减少其代币的流通供应量并抬高代币的价格。所以建议ERC-4626金库不允许将此类代币存入金库。3.建议使用Uniswap引入的时间加权平均算法以减轻链上信息被操纵风险。4.该EIP规定了金库实施者计算金库分额或数据，以及将份额转换为资产或资产转换为份额时采用不同的舍入方式，有的需向下取整，有的四舍五入，审计人员在审计此EIP时需注意确保始终有足够数量的底层代币用于转移。5.应注意兼容性问题，替代代币可能会引入问题或风险，需仔细地审查和审",
-          "link": "https://panewslab.com/zh/sqarticledetails/1650617428447497.html",
-          "publishedOn": "2022-04-22T08:50:28.000Z",
-          "wordCount": 85,
-          "title": "报告：实施以太坊EIP-4626时应注意仔细审查是否存在恶意合约等问题",
-          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         }
       ]
     },
@@ -3461,46 +3441,6 @@
           "wordCount": null,
           "title": "去中心化借贷协议Yeti Finance宣布获得Avalanche基金会战略投资",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/78092",
-          "author": null,
-          "description": "律动 BlockBeats 消息，4 月 22 日，据多链数据分析平台 Nansen 数据显示，链上标记为「Three Arrows Capital: Binance Deposit」的地址（0x085Af684acDB1220D111FEE971b733c5e5ae6CCd）近 5 小时内向 Binance 转入 5,000 枚 ETH 并卖出，约合 1500 万美元。",
-          "link": "https://www.theblockbeats.info/flash/78092",
-          "publishedOn": "2022-04-22T09:04:27.000Z",
-          "wordCount": null,
-          "title": "三箭资本向Binance转入5,000枚ETH并卖出，约合1500万美元",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/78089",
-          "author": null,
-          "description": "律动 BlockBeats 消息，4 月 22 日，由 CasperPad 推出的跨链桥 SkyBridger 已上线测试网，目前支持在 Casper Network 与 BNB Chain 间实现跨链转换资产，未来将上线其他公链。据悉，SkyBridger 跨链交易费用利润将分配至 SKBR 持有者。",
-          "link": "https://www.theblockbeats.info/flash/78089",
-          "publishedOn": "2022-04-22T08:55:27.000Z",
-          "wordCount": null,
-          "title": "跨链桥SkyBridger已上线测试网，支持Casper Network与BNB Chain间跨链资产",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/78086",
-          "author": null,
-          "description": "律动 BlockBeats 消息，4 月 22 日，据 NFTGo.io 数据显示，NFT 项目 Moonbirds 24 小时交易量达 50,525,280 美元，24 小时交易量增幅 21.94%%。当前地板价为 35ETH，24 小时涨幅 22.08%。",
-          "link": "https://www.theblockbeats.info/flash/78086",
-          "publishedOn": "2022-04-22T08:54:27.000Z",
-          "wordCount": null,
-          "title": "NFT项目Moonbirds24小时交易量超5000万美元，地板价达35ETH",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/78080",
-          "author": null,
-          "description": "律动 BlockBeats 消息，4 月 22 日，欧洲议会成员将于 4 月 25 日讨论如何收紧 Web 3 时代的税法和程序。根据欧洲议会葡萄牙议员 Lídia Pereira 准备的一份报告草案，税务机关可以开始交换个人加密资产持有量的数据。",
-          "link": "https://www.theblockbeats.info/flash/78080",
-          "publishedOn": "2022-04-22T08:39:27.000Z",
-          "wordCount": null,
-          "title": "欧洲议会将于4月25日就加密货币税收进行讨论",
-          "imageUrl": null
         }
       ]
     },
@@ -4227,36 +4167,6 @@
           "publishedOn": "2022-04-22T09:39:39.000Z",
           "wordCount": 3,
           "title": "纵览Polygon生态版图：生态项目数逾千，DeFi、NFT、游戏占据主导",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5178200",
-          "author": "星球君的朋友们",
-          "description": "“十三年前，一位匿名的Bit Hero创建了一个很不起眼的加密货币。它从一个很小的圈子开始传播，最终一步步改变世界，它就是Bitcoin。Bitcoin让人类第一次拥有了全球统一的货币，让人类实现了货币自由。我们至今不知道这位伟大的Bit Hero是谁，只知道他留给我们的代号叫做Satoshi Nakamoto，他是人类第一位Bit Hero。\n十三年后，一群来自世界各地的加密货币从业者联合发起了Bit Hero DAO，旨在加密投资被中心化机构日益垄断的当下，建立一个属于所有人的去中心化投资组织，让每个人都可以拥有平等的投资机会。Bit Hero DAO将资助那些一开始看似很不起眼的Crypto Native项目，并帮助他们发展壮大。每一个不起眼的开始并不一定阻止你改变世界。这个日益壮大的去中心组织都是中本聪的信徒，他们有一个共同的名字，叫做”Bit Hero”。\nBit Hero DAO的定位是一个去中心化的投资组织。由多名Crypto早期从业者、知名VC从业人员、Crypto投研专家以及行业意见领袖联合发起，以发行Bit Hero NFT的方式建立属于每一个人的去中心化投资组织。Say No DAO参与社区孵化。\nBit Hero DAO如何开展工作？\nBit Hero DAO初期发行999个NFT，并把募集的ETH做三部分配置，初步阶段的预分配计划如下：\nA、30%配置Beta稳健型加密产品，比如配置比特币矿机，持续为NFT持有者发放比特币挖矿收入\nB、60%进入VC资金池用于一级市场投资和配置Alpha资产\nC、10%作为DAO的日常运营费用\nNFT持有者可以提案调整资金使用比例以及进行投资标的选择。\n那么，Bit Hero DAO如何运行去中心化投资组织？\nNFT持有者要在组织内行使提案权、投票权和投资收益权，需要质押Bit Hero NFT并生成Dhero，Dhero拥有和被质押NFT一样的稀缺值，不同的稀缺值对应不同的投票权重。比如某个NFT的稀缺度是50，另一个NFT的稀缺度是100，则后者比前者的票数要多一倍。\n总稀缺值排名前50的地址被称为Damocles（执剑人），他们拥有项目提案权，但没有投票权。其他地址被称为Decoder（破壁人），他们拥有投票权，投票通过的项目，即可获得投资。\n除了早期配置的资金外，每一笔NFT交易版税的70%和稳健投资产品的收益分成都会进入VC资金池，比如，如果Beta稳健产品投资的是比特币矿机，则会把每日比特币挖矿收入的70%注入VC资金池。\n当VC池内的资金等值于1BTC时，0.8BTC将被用于投资项目，0.2BTC将用于回购处于Floor Price的Bit Hero NFT。投资盈利时，将把盈利部分的50%分配给NFT持有者，28%再次进入VC资金池，20%用于回购处于Floor Price的Bit Hero NFT，2%奖励给项目提案人。\nBit Hero DAO将在社区达到一定规模时发行治理代币，并向NFT持有者空投。治理代币的每一笔链上交易都将征税并纳入资金池。\n由此，我们可以将Bit Hero NFT的亮点归纳如下：\n1、Bit Hero NFT作为去中心化投资组织的权益证明，集提案权、投票权、收益权于一身，有明确的应用场景和价值赋能，同时，获取权益必须质押NFT，这使得NFT长期处于稀缺状态。\n2、持有Bit Hero NFT等于持有BIt Hero DAO去中心化投资组织的数字ID，可以和一群智慧的加密货币投资者共享价值。\n3、持有Bit Hero NFT不仅可以获得稳健的Beta收益，还可以获得Alpha收益以及一级市场的投资收益，在保障投资本金的同时获得更高回报。\n4、Bit Hero NFT有明确的回购计划。\n5、Bit Hero NFT拥有唯一的提案和投票权，大量利益相关方将成为追逐Bit Hero NFT的主力。\nBit Hero DAO初期仅发行999枚NFT，优先向VC从业人员、Crypto投研专家、行业意见领袖开放白名单，同时，也将向Bit Hero DAO公会治理成员开放白名单。\n值得注意的是，Bit Hero DAO近期将提名10位具有行业影响力并洞悉和认同Bit Hero DAO价值的从业者作为Builder，他们将在项目资源、投资调研、市场战略等多个维度为Bit Hero DAO的发展提供支持。\nBit Hero DAO将于4月底开启盲盒Mint。",
-          "link": "https://www.0daily.com/post/5178200",
-          "publishedOn": "2022-04-22T08:59:42.000Z",
-          "wordCount": 3,
-          "title": "Bit Hero DAO如何打造去中心化投资组织？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5178192",
-          "author": "二十三画生",
-          "description": "4月20日，美国国债收益率飙升，美债抛售潮加剧，交易员押注，美联储可能在未来几次会议上更为激进地收紧货币政策。美联储如果超预期加息，势必会导致美股大跌，加密市场预计也将受影响，今日加密市场资金有明显出逃迹象。从技术图上看，BTC上方抛压较重，空头势强，后市短线趋于震荡，但跌破重要支撑位的风险加大。BTC下方重要支撑位在39000美元附近，上方重要阻力位为42000美元。\n摘要\n1.市场开始押注5月或6月政策会议加息75个基点的可能性。\n2.BTC目前处于前期重要支撑位，空头势强，后市短线趋于震荡。\n3.矿工抛售量大幅回升，矿工抛售情绪增强，BTC上攻压力上升。\n4.BTC巨鲸地址数出现回落，DeFi中BTC锁仓量略有增加，大户出现减持迹象。\n5.市场情绪变化不大，场内买盘力量略有增强，市场观望情绪浓厚。\n6.BTC合约市场空头持仓占优，多空持仓人数比震荡回落，BTC空头表现强势。\n7.今日加密市场多数板块下跌，资金出现明显出逃迹象。\n一、宏观市场与币圈要闻\n4月20日，美债抛售潮加剧，美国2年期至5年期国债收益率飙升，国债曲线趋平，10年期美债收益率触及三年多以来的高位至2.94%（远超2.83%的阻力位），距离3%的关键水平咫尺之遥，且为连续三个交易日刷新2018年12月以来高位，同时，30年期美债收益率自2019年以来首次升至3%以上。美国国债收益率飙升，交易员押注，美联储可能在未来几次会议上更为激进地收紧货币政策。交易员押注，美联储5月、6月和7月会议每次都将加息50个基点。市场还开始押注5月或6月政策会议加息75个基点的可能性。\n二、技术分析\n据火币行情显示，BTC跌破MA5以及MA13支撑，目前处于前期重要支撑位，由于上方抛压较重，空头势强，目前跌破支撑位的风险加大，后市短线趋于震荡。BTC下方重要支撑位在39000美元附近，上方重要阻力位为42000美元。\n\n三、矿工累积指标\n据bytetree数据显示，从矿工生产和抛售累积数据可以看到，矿工生产量震荡回落，矿工抛售量大幅回升，矿工24小时净累积84枚BTC。整体上看，矿工抛售量大幅回升，矿工抛售情绪增强，BTC上攻压力上升。\n\n四、链上指标\n据Oklink数据显示，通过观察BTC巨鲸地址数可以发现，BTC巨鲸地址数出现一定回落，大户有一定减持迹象。今日截止13：00，DeFi中BTC锚定资产的锁仓量为343954（昨日343884）枚，DeFi中BTC锁仓量净增加70枚。综合来看，BTC巨鲸地址数出现回落，DeFi中BTC锁仓量略有增加，大户出现减持迹象。\n\n五、恐慌指数与买卖强弱指标\n据alternative.me数据显示，今日恐慌与贪婪指数为26（昨日27），市场情绪变化不大。据百度搜索指数显示，比特币搜索量略有上升，市场关注度略有提高。根据多伦多交易所数据显示，BTCC全天成交量407740（昨天329782）份。据OKLink数据显示，灰度GBTC溢价率为-23.15%（昨日-21.42%），GBTC溢价率回落。据币coin数据显示，截止今日13时，BTC当前资金费率-0.017%（昨日-0.004%），资金看空情绪上升；目前比特币RSI 14（买卖相对强弱指数）为47.82（昨日47.82），场内买盘力量略有增强。综合来看，市场情绪变化不大，场内买盘力量略有增强，市场观望情绪浓厚。\n\n六、合约指标\n据币coin数据显示，截止13：00，BTC在Bitmex上多空持仓量比为：多头29.70%，空头70.30%，空头持仓占优。据OKx合约数据显示，在小时图上，BTC多空持仓人数比震荡回落。综合来看，BTC合约市场空头持仓占优，多空持仓人数比震荡回落，BTC空头表现强势。\n七、主流资产与热门币种\n据CoinGecko数据显示，今日24小时涨幅前五的币种分别为：DCR(18.0%)、TRX（8.2%）、XMR（3.7%）、THETA（3.4%）、ZEC（2.8%）；目前在24小时内，排名前一百板块中跌幅前五板块有：FaaS（-8.2%）、DeFi Index（-7.3%）、Music（-6.8%）、Olympus Pro（-5.8%）、Solana 生态（-5.1%）。整体上看，今日加密市场多数板块下跌，资金出现明显出逃迹象。",
-          "link": "https://www.0daily.com/post/5178192",
-          "publishedOn": "2022-04-22T08:49:28.000Z",
-          "wordCount": 3,
-          "title": "每日行情解读 | 加密市场空头势强，下跌风险进一步加大",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5178197",
-          "author": "秦晓峰",
-          "description": "随着 DAO（去中心化自治组织）盛行，众多 Web3 项目开始采用这一新兴理念进行项目治理。但对于一些轻量级项目而言，其本身技术能力不足，想要构建一个完善的 DAO 治理框架尤为困难。一个名为 Squads 的 DAO 治理工具应运而生，致力于降低 DAO 治理门槛。\nSquads 是一个基于 Solana 区块链的 DAO 治理协议，适用于 web3 团队的协作基础架构，允许用户一起组织、制定决策和管理数字资产。无论用户是建立一家初创公司、为协议做出贡献，还是只是想切换到多人模式共同管理资产以及投资，Squads 都可以满足用户需求，并让让这种体验变得简易且直观。\n具体来说，用户首先需要连接自己钱包，创建一个 DAO，主要有两种类型：\n\nMultisig：简单的多重签名钱包，通过需要多个签名来确认交易来管理团队资产；\n\nTeams：对链上成员进行编码，没有代币，成员加权链上投票；\n\n假如用户选择创建多重签名钱包，Squads 会要求用户继续添加三个多签地址，并为多签设计一个「确认阈值」（即批准交易所需的确认数量），参数设计完成即可创建多签钱包。这种场景适合一些去中心化 VC 进行使用。\n如果用户选择创建一个团队，Squads 会要求用户为团队取名、进行介绍、上传头像等；而后，用户需要添加是那个初始成员，当然后续也可以通过执行提案添加更多成员；此外，用户还需要为团队设计投票规则，主要包括两项：提案通过的代币最低百分比以及团队有效成员百分比。设计完成后，一个初具框架的 DAO 组织就完成了。\n并且，每个 Squad 都有一个内置的 Vault，允许用户存入多种类型的 Token 和 NFT。要想转出资产，必须通过多签控制。值得一提的是，Squad 允许灵活分配投票权——并不是说拥有代币越多投票权越大，这点有点像上市公司的 AB 股结构（即“同股不同权”）。\n与传统公司不同的是，由于基于区块链构建，所以用户在 Squad 中的位置是非常牢固的，无可撼动——除非你被投票踢出局，或者无法访问钱包，否则永远不会发生你进不了公司大门的情况。\n另外，Squads 拥有极简的 UI/UX，各项功能一目了然，投票与决策更加透明，即便是一个不懂代码的用户也可以组建 DAO，极大便利了项目治理。如下所示：\n\n融资方面，Squads 去年获得 150 美元种子轮融资，Reciprocal Ventures、Volt Capital、Chaotic Capital、6thman Ventures、Republic Capital、8186 Capital、Solana Capital、Ryan Selkis、Ryon Nixon、Chris Hermida 和 Julia Lipton 等机构投资。\n今年 2 月，Squads 再次获得 500 万美元的战略融资，由 Multicoin Capital 领投，参与方包括 Jump Capital、Delphi Digital、Collab + Currency、Volt Capital、Chaotic Capital、Reciprocal Ventures、Blockwall Digital、Seed Club Ventures、Davinci DAO、Reverie 和其他天使投资人。\n“Squads 正在为 Solana 生态系统带来 Web3 基础设施的一个重要组成部分。一个专用的多重签名，是 Solana 生态系统中最后缺失的 DAO 基础之一。由于生态系统固有的可组合性，Solana 上的 DAO 具有更丰富的功能。使用像 Squads 这样的基础设施，团队现在可以快速组建、降低投票成本，并以更复杂的方式管理资产。” Multicoin Capital 管理合伙人 Kyle Samani 表示。",
-          "link": "https://www.0daily.com/post/5178197",
-          "publishedOn": "2022-04-22T08:13:53.000Z",
-          "wordCount": 3,
-          "title": "不懂代码，如何快速组建并管理一个DAO?",
           "imageUrl": null
         }
       ]
