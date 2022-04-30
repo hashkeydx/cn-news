@@ -469,151 +469,226 @@ Armstrong 在文中表示：「Coinbase 内部的某个人总是有意或无意�
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178419"
-                        open
-                      >
-                        <summary class="article-expander__title">浅谈跨链桥演进：从资产跨链到应用跨链</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178419">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《新生代跨链桥：不止于资产跨链 着眼于 DApp 跨链交互》
-撰文：汤圆
-公链大战之后，市场已形成以以太坊为首多链并存的格局，链与链之间的资产转移、智能合约的跨链交互已成为链上活动的日常，作为实现区块链之间信息互通的底层基础设施，跨链工具也成为热门产品，不仅为用户所需，也被资本看好。
-3 月初，跨链应用 Swim Protocol 宣布完成了一笔 400 万美元的种子轮融资；3 月底，跨链基础设施 LayerZero 完成了 1.35 亿美元的 A + 轮融资，由知名风投机构 FTX Ventures、红杉资本与 a16z 共同领投，Coinbase Ventures、PayPal Ventures 等参投。
-目前，市场上常见的跨链工具主要集中在解决资产跨链上，但事实上，区块链间的传输不仅仅有资产，还包括合约调用、智能合约的数据及状态交互等。
-资产跨链主要有 3 种方式，包括中心化交易所（CEX）、去中心化的跨链桥和多链聚合器。
-通过中心化交易所 (CEX) 完成资产的跨链转移比较好理解，用户可以先把 A 链资产充值到 CEX 中，兑换（交易）为 B 链所需的资产，然后充值到 B 链上。这对小白用户来说是个不错的选择，但此方式在充值时需要格外注意地址格式，避免充错链格式，此外，也需要 CEX 支持某个链才行，在费用上除了链上 Gas 费，还多了一道 CEX 内的交易手续费。
-对于习惯链上操作的用户来说，跨链桥和多链聚合器是资产跨链的首选。
-「跨链桥」是目前最流行的工具，它是链与链的桥梁，允许用户将加密资产从一条链转移到另一条链上。跨链时，资产通常以「映射资产」的形式来实现，需要通过「锁定 + 铸造 + 赎回 + 销毁」等一系列过程。
-比如，用户想要把 A 链上的资产 AToken 跨链至 B 链上，流程一般是通过在 A 链的智能合约上锁定相应的 AToken，并由…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178418"
-                        open
-                      >
-                        <summary class="article-expander__title">欧易研究院：以太坊2.0方案及进展研究报告</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178418">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：秀秀、Shirley，欧易研究院
-前言：
-近期，以太坊开发者 Marius van der Wijden 在社交平台上表示，目前正在以太坊上测试 PoS 机制，并将进行首次主网影子分叉。这意味着以太坊&quot;合并&quot;的即将到来，&quot;合并&quot;是以太坊 2.0 可扩展蓝图上的一个关键里程碑，届时以太坊整个网络将过渡为 PoS 共识机制。
-另外，以太坊 2.0 核心开发者 dapplion 在其社交账号上表示，本周六将再次进行以太坊主网影子分叉测试。
-伴随着&quot;合并&quot;临近，以太坊 2.0 的脚步也更进了一程。其力图在不牺牲去中心化原则的前提下使应用区块链变得更快速、更便宜，具体的方案和进程再次成为大家热切关注的话题。那么以太坊 2.0 到底是什么方案？包含哪些升级？目前进展如何？它的到来，又会为行业发展造成哪些影响呢？欧易研究院将从以太坊 2.0 技术进展、以太坊 2.0 方案、展望和风险三个部分对以太坊 2.0 展开详细讲解。
-注：为迎接合并的到来，以太坊基金会此前宣布，以太坊在升级协议的同时也面临着定位的转变，在 2021 年底，核心开发人员已经停止使用 Eth1.0、Eth2.0 术语，分别使用&quot;执行层&quot;和&quot;共识层&quot;来替代。但改名未影响以太坊的既定的升级路线，因以太坊 2.0 称谓已深入人心，本文仍将沿用&quot;以太坊 2.0&quot;这一名称。
-一、以太坊 2.0 技术进展
-1.1 路线规划
-以太坊成立至今牢牢占据第一公链的位置，拥有着全球最大的开发者社群，DAPP 数量将其他公链远远甩在身后。但是即便是这样首屈一指的地位，也并不意味着就可以高枕无忧了。定位于&quot;世界计算机&quot;的以太坊，目前每秒只能处理大约 20 笔交易，甚至难以支持一个普通规模的商业应用，频频发生的拥堵事件导致的高 gas 费和等待打包交易更是让用户的体验变得很差，这在很大程度上限制了以太坊的发展。
-以太坊 2.0 便是解决…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178417"
-                        open
-                      >
-                        <summary class="article-expander__title">三分钟了解Project Galaxy：拥有一份自己的Web3简历</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178417">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>毕业证书可以证明我们就读过的院校，奖励证书可以证明我们所获得的荣誉，专业技能证书可以证明自身的工作能力，这一张张的标签串联起来足以刻画出我们的生活轨迹。不止如此，游戏中我们拥有段位证明，工作中我们拥有经历证明，就连刷视频的时候也会被大数据推送符合我们兴趣偏好的内容，背后隐藏着我们的标记证明。
-千千万万人生活的轨迹，构成属于我们一串串的数据凭证，不过，这些凭证都被隔离在相对封闭数据库中。我们的学历证明存在于官方机构中，信贷记录存在于金融机构中，在一个 App 中的习惯仅在相关联之处体现。
-除了这些存在于我们的日常生活中的场景，在链上我们也需要这样的凭证。当用户在一些借贷项目中（如 AAVE 或 Compound）进行进行抵押贷款且及时归还，未被清算无任何不良记录时，这生成的凭证就记录并证明了该用户的良好信用。其他平台或借款人也可以凭此证明衡量借出款项的额度，风险性等因素。当用户在新项目启动后，有无参与，做过多少贡献，曾有过何种投票历史，用户的所有行为数据都也可以生成凭证，社区即可根据这些凭证按比例奖励贡献者。
-不过，当前机构间的封闭性导致这些信息并不对本该拥有这些数据的个人或需要这些数据的应用程序开放，这也造成了当前分裂的局面。
-Project Galaxy 则想通过建立一个开放的凭证数据网络来帮助用户解决当前问题。
-Project Galaxy 在做什么
-Project Galaxy 想要通过链上、链下两个维度多个数据源搜集凭证数据，进行网络管理。其指出，对于链上凭证，策展人可以提供子图查询或静态快照。在链下，则已与 Snapshot.org、Twitter 和 Github 等数据源集成。
-通过这些凭证数据，Project Galaxy 构建了一个基于 Web3 DID（Decentralized ID 去中心化身份）系统。像上文所说，我们当前的身份系统是分裂的，不同中心…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178416"
-                        open
-                      >
-                        <summary class="article-expander__title">全方位盘点Arbitrum生态项目：跨链、DeFi、基础设施、NFT全方位发展</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178416">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>撰文：Karen
-在 Optimism 官宣发币和慷慨空投之后，另一 Layer2 扩容方案挑战者 Arbitrum 的早期参与机会也备受关注。而在本月，Arbitrum 还宣布与 Project Galaxy 启动为期两个月的生态采用计划 The Arbitrum Odyssey，将向符合资格的用户分发独家 NFT，这一计划有望进一步推动和加深 Arbitrum 生态的大幅采用。
-在本篇文章中，Foresight News 将从跨链桥、DeFi、NFT、游戏以及支持 Arbitrum 的基础设施、工具等类别汇总 Arbitrum 生态值得关注的项目。在汇总 Arbitrum 生态项目之前，我们将首先对 Arbitrum 团队背景、融资历史和 Arbitrum 进展作一个大致了解。
-Arbitrum 是什么？进展如何？
-Arbitrum 背后团队是 Offchain Labs，Offchain Labs 由奥巴马任职期间的前白宫技术官员、普林斯顿大学长期教授 Ed Felten 共同创立，另外两位联合创始人为 Steven Goldfeder 和 Harry Kalodner，三人在普林斯顿大学时正式创立 Offchain Labs。
-Offchain Labs 在 2019 年 3 月完成由 Pantera Capital 领投的 370 万美元种子轮融资，去年 4 月完成 2000 万美元 A 轮融资，同年 8 月又以 12 亿美元估值完成 1.2 亿美元融资， Lightspeed Venture Partners 领投，其他比较知名的投资方还包括 Polychain Capital、Ribbit Capital、Redpoint Ventures、Pantera Capital、Alameda Research、Mark Cuban 等。
-Offchain Labs…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178109"
-                        open
-                      >
-                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0423-0429）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178109">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
-因此，我们编辑部将于每周六从过去7天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
-下面，来和我们一起阅读吧：
-
-投资与创业
-如何在Crypto这场概率游戏中提高赚钱概率？
-这篇写给个人投资者。想切换至概率思维，要先制定严格的规则；同时，注意头寸大小（别超出可承受范围），明确自身优势，承认错误并及时停止，在群体讨论时保持批判，保持耐心。
-1confirmation合伙人：加密VC投资中的三个反直觉教训
-这篇就很to机构了。第一，投资组合的构建比挑选合适的标的更重要，因此，集中投资要优于祈祷式的分散投资。尤其是加密领域，从长远来看，要超越ETH的表现是非常难的。第二，在产品-市场匹配之前，一轮融资的“热度”与最终的结果之间几乎没有关联。在种子阶段对估值的控制要很严格。越来越多的风险投资公司会进入6000万至1亿美元估值产品的种子轮。第三，在热门叙事的拥挤空间中很难挑选出赢家。因为资金容易吸引到唯利是图的创始人，而投资人有时比创始人还懂（这很危险），且竞争很激烈。
-简析代币经济学：好的代币经济学是如何设计的？
-这篇写给项目方。好的代币激励可以提高网络效应，从而弥补原生效用的不足。生态系统激励是代币设计中最具创意的部分之一，例子包括：活动奖励、贡献者奖励、流动性挖矿奖励、质押奖励、合作伙伴、空投。为确保激励的长期有效，建议代币解锁年限应该为5-10年。
-作者建议分配率应该和项目的活跃度挂钩，例如交易量增加时加大分配力度，减少时减弱分配力度。Helium (HNT) 和 Planetwatch Recycling Bin是…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >PANews - 快讯</button>
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651324535636666.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT项目Cool Cats原CEO辞职，联合创始人将领导项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651324535636666.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月3日消息，NFT项目Cool Cats在推特表示，Chris Hassett已辞去CEO一职，团队正在与一家顶级招聘公司合作寻找下一任CEO。此外，项目的几位联合创始人并未离开，在找到合适的CEO人选前，他们将会继续领导该项目。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651318555552153.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Move to Earn应用STEPN过去24小时新铸造12442双鞋子</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651318555552153.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，Dune链上数据显示，Move to Earn应用STEPN过去24小时新铸造鞋子12442双，过去7日新铸造鞋子43413双，过去7日活跃用户104779。据此前报道，STEPN宣布推出限时铸造激励活动。活动期间，用户鞋子铸造将仅需花费GMT。此外，用户铸造获取两双鞋的几率将增加300%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651317779254150.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Fei Protocol遭攻击，损失超2.8万ETH约8034万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651317779254150.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，Fei Protocol官方发推特称，已注意到Rari Capital的Fuse池遭到了多起利用，已经确定了根本原因并暂停了所有借贷以减轻进一步的损失。并且喊话黑客，如果可以退还用户资金，将会获得1000万美金的赏金。据安全机构成都链安消息，Fei Protocol遭受攻击，损失超28380ETH，约8034万美元，攻击者地址0x6162759eDAd730152F0dF8115c698a42E666157F。BlockSec经过分析发现Rari Capital池子被攻击是由于经典的重入漏洞。其函数exitMaket没有重入保护。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651311436325136.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Parity钱包2017年被盗资金出现异动，9300枚ETH被转移到Tornado Cash</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651311436325136.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，数据显示，Parity多签钱包2017年被盗资金中有9300枚以太坊于约2小时50分钟前被转入TornadoCash。据此前报道，2017年一名黑客利用Parity钱包的漏洞，转移了超过15万ETH（在被黑客攻击时价值约为3000万美元），此后追回377000枚。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651308878626629.html"
+                        open
+                      >
+                        <summary class="article-expander__title">安全机构：saddlefinance遭受闪电贷攻击，损失约950万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651308878626629.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，据成都链安【链必应-区块链安全态势感知平台】安全舆情监控数据显示，saddlefinance项目遭受闪电贷攻击，损失约950万美元。据了解，saddlefinance是个用于交换低滑点挂钩资产的 AMM。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651308730893628.html"
+                        open
+                      >
+                        <summary class="article-expander__title">周杰伦重新收到被盗的无聊猿，黄立成转入其新地址</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651308730893628.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，NFT借贷平台BendDAO发推特，周杰伦丢失的无聊猿BAYC#3738终于物归原主，由黄立成转入周杰伦的新地址。此前，PANews报道，BendDAO为阻止其在黑市上流通，以164.69 ETH 的价格买下后在BendDAO协议内安全保管，并于4月29日免费回赠给黄立成。此前1月份，黄立成向周杰伦赠送BAYC #3738。4月1日时，周杰伦在社交媒体上发文确认，曾由好友赠予的无聊猿 BAYC #3738 NFT 被盗。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651308601897627.html"
+                        open
+                      >
+                        <summary class="article-expander__title">西安启动“长安IN”文旅数字平台项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651308601897627.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，据央广网报道，由西安城墙管理委员会、腾讯云产业联合打造的“长安IN”文旅数字平台项目正式启动，以数字藏品为切入点，助力西安市“文旅+数字”产业发展新格局，本次数字平台的搭建将以创新文旅附加产业的应用方式，实现区块链技术为线下景区赋能。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651301462982113.html"
+                        open
+                      >
+                        <summary class="article-expander__title">饿了么官方APP已上线数字藏品专区</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651301462982113.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，据饿了么官方APP显示，饿了么已上线数字藏品专区，进入后显示用户成为饿了么元宇宙数字美食珍藏家。据此前报道，饿了么联合中国杭帮菜博物馆发布首款“美味中国”数字美食藏品“鳕鱼狮子头”。据了解，饿了么数字美食藏品主打“美味中国”和“美味时令”两个系列，搭建“美味珍藏馆”，集中展示用户获得的典藏菜品、菜系历史、节气美食等文化赏鉴内容。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651300747184110.html"
+                        open
+                      >
+                        <summary class="article-expander__title">马斯克分享的漫画已被铸造为NFT并上架OpenSea拍卖</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651300747184110.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，据彭博社报道，特斯拉首席执行官马斯克在社交媒体分享的一幅漫画已被铸造成NFT并上架OpenSea拍卖。拍卖将于5月13日结束，该NFT当前竞标价格为1.25ETH，约合3600美元。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651300547533109.html"
+                        open
+                      >
+                        <summary class="article-expander__title">V神：我不是“反马斯克分子”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651300547533109.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，以太坊联合创始人Vitalik Buterin今日在推特发文表示，马斯克接管推特的最大影响可能并非来自他做出的任何具体政策决定，而是使他的支持者受到鼓舞，提振了他们的士气。该言论随后引发了大量争议，V神目前已经做出澄清，他表示：“不知道为什么这么多人在这条推文中读出我反对马斯克的潜台词，我不是反马斯克分子（anti-Elon）”。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651299607223103.html"
+                        open
+                      >
+                        <summary class="article-expander__title">智能按摩器品牌“倍轻松”购入BAYC #1365</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651299607223103.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，肖战代言的智能便携按摩器品牌“breo倍轻松”宣布购入无聊猿BAYC #1365。倍轻松希望借此机会让数字化NFT更好的与中医文化融合，鼓励更多人关注身体健康。官方表示，1365编号对于倍轻松有着特殊的含义，期待大家1年365天能天天早睡。2021年7月14日，倍轻松与人民日报健康客户端、张伯礼院士联合推出“全民早睡行动#”，呼吁大家早睡早起。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1651295217307594.html"
+                        open
+                      >
+                        <summary class="article-expander__title">海南工业和信息化厅厅长：2025年海南数字经济规模有望达4000亿</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1651295217307594.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月30日消息，据人民网报道，海南省工业和信息化厅党组副书记、厅长尹丽波近日表示，海南依托国家数字出口服务基地、国家区块链试验区等为支撑，发展数字文娱、数字出口、数字贸易以及区块链，到2025年，我们希望整个数字经济规模达到4000亿。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -807,6 +882,147 @@ Offchain Labs…</span>
                               <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>PANews 4月30日消息，据世界经济论坛（WEF）的推文信息，“比特币编码方式的改变几乎可以消除其对环境的影响。” 该声明源于世界经济论坛 4 月 26 日发布的一条推文，并附有一段视频，声称“矿工可以用自己的比特币来验证交易”，一个简单的编码改变可以一次性消除大部分网络的能源需求。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178419"
+                        open
+                      >
+                        <summary class="article-expander__title">浅谈跨链桥演进：从资产跨链到应用跨链</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178419">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《新生代跨链桥：不止于资产跨链 着眼于 DApp 跨链交互》
+撰文：汤圆
+公链大战之后，市场已形成以以太坊为首多链并存的格局，链与链之间的资产转移、智能合约的跨链交互已成为链上活动的日常，作为实现区块链之间信息互通的底层基础设施，跨链工具也成为热门产品，不仅为用户所需，也被资本看好。
+3 月初，跨链应用 Swim Protocol 宣布完成了一笔 400 万美元的种子轮融资；3 月底，跨链基础设施 LayerZero 完成了 1.35 亿美元的 A + 轮融资，由知名风投机构 FTX Ventures、红杉资本与 a16z 共同领投，Coinbase Ventures、PayPal Ventures 等参投。
+目前，市场上常见的跨链工具主要集中在解决资产跨链上，但事实上，区块链间的传输不仅仅有资产，还包括合约调用、智能合约的数据及状态交互等。
+资产跨链主要有 3 种方式，包括中心化交易所（CEX）、去中心化的跨链桥和多链聚合器。
+通过中心化交易所 (CEX) 完成资产的跨链转移比较好理解，用户可以先把 A 链资产充值到 CEX 中，兑换（交易）为 B 链所需的资产，然后充值到 B 链上。这对小白用户来说是个不错的选择，但此方式在充值时需要格外注意地址格式，避免充错链格式，此外，也需要 CEX 支持某个链才行，在费用上除了链上 Gas 费，还多了一道 CEX 内的交易手续费。
+对于习惯链上操作的用户来说，跨链桥和多链聚合器是资产跨链的首选。
+「跨链桥」是目前最流行的工具，它是链与链的桥梁，允许用户将加密资产从一条链转移到另一条链上。跨链时，资产通常以「映射资产」的形式来实现，需要通过「锁定 + 铸造 + 赎回 + 销毁」等一系列过程。
+比如，用户想要把 A 链上的资产 AToken 跨链至 B 链上，流程一般是通过在 A 链的智能合约上锁定相应的 AToken，并由…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178418"
+                        open
+                      >
+                        <summary class="article-expander__title">欧易研究院：以太坊2.0方案及进展研究报告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178418">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：秀秀、Shirley，欧易研究院
+前言：
+近期，以太坊开发者 Marius van der Wijden 在社交平台上表示，目前正在以太坊上测试 PoS 机制，并将进行首次主网影子分叉。这意味着以太坊&quot;合并&quot;的即将到来，&quot;合并&quot;是以太坊 2.0 可扩展蓝图上的一个关键里程碑，届时以太坊整个网络将过渡为 PoS 共识机制。
+另外，以太坊 2.0 核心开发者 dapplion 在其社交账号上表示，本周六将再次进行以太坊主网影子分叉测试。
+伴随着&quot;合并&quot;临近，以太坊 2.0 的脚步也更进了一程。其力图在不牺牲去中心化原则的前提下使应用区块链变得更快速、更便宜，具体的方案和进程再次成为大家热切关注的话题。那么以太坊 2.0 到底是什么方案？包含哪些升级？目前进展如何？它的到来，又会为行业发展造成哪些影响呢？欧易研究院将从以太坊 2.0 技术进展、以太坊 2.0 方案、展望和风险三个部分对以太坊 2.0 展开详细讲解。
+注：为迎接合并的到来，以太坊基金会此前宣布，以太坊在升级协议的同时也面临着定位的转变，在 2021 年底，核心开发人员已经停止使用 Eth1.0、Eth2.0 术语，分别使用&quot;执行层&quot;和&quot;共识层&quot;来替代。但改名未影响以太坊的既定的升级路线，因以太坊 2.0 称谓已深入人心，本文仍将沿用&quot;以太坊 2.0&quot;这一名称。
+一、以太坊 2.0 技术进展
+1.1 路线规划
+以太坊成立至今牢牢占据第一公链的位置，拥有着全球最大的开发者社群，DAPP 数量将其他公链远远甩在身后。但是即便是这样首屈一指的地位，也并不意味着就可以高枕无忧了。定位于&quot;世界计算机&quot;的以太坊，目前每秒只能处理大约 20 笔交易，甚至难以支持一个普通规模的商业应用，频频发生的拥堵事件导致的高 gas 费和等待打包交易更是让用户的体验变得很差，这在很大程度上限制了以太坊的发展。
+以太坊 2.0 便是解决…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178417"
+                        open
+                      >
+                        <summary class="article-expander__title">三分钟了解Project Galaxy：拥有一份自己的Web3简历</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178417">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>毕业证书可以证明我们就读过的院校，奖励证书可以证明我们所获得的荣誉，专业技能证书可以证明自身的工作能力，这一张张的标签串联起来足以刻画出我们的生活轨迹。不止如此，游戏中我们拥有段位证明，工作中我们拥有经历证明，就连刷视频的时候也会被大数据推送符合我们兴趣偏好的内容，背后隐藏着我们的标记证明。
+千千万万人生活的轨迹，构成属于我们一串串的数据凭证，不过，这些凭证都被隔离在相对封闭数据库中。我们的学历证明存在于官方机构中，信贷记录存在于金融机构中，在一个 App 中的习惯仅在相关联之处体现。
+除了这些存在于我们的日常生活中的场景，在链上我们也需要这样的凭证。当用户在一些借贷项目中（如 AAVE 或 Compound）进行进行抵押贷款且及时归还，未被清算无任何不良记录时，这生成的凭证就记录并证明了该用户的良好信用。其他平台或借款人也可以凭此证明衡量借出款项的额度，风险性等因素。当用户在新项目启动后，有无参与，做过多少贡献，曾有过何种投票历史，用户的所有行为数据都也可以生成凭证，社区即可根据这些凭证按比例奖励贡献者。
+不过，当前机构间的封闭性导致这些信息并不对本该拥有这些数据的个人或需要这些数据的应用程序开放，这也造成了当前分裂的局面。
+Project Galaxy 则想通过建立一个开放的凭证数据网络来帮助用户解决当前问题。
+Project Galaxy 在做什么
+Project Galaxy 想要通过链上、链下两个维度多个数据源搜集凭证数据，进行网络管理。其指出，对于链上凭证，策展人可以提供子图查询或静态快照。在链下，则已与 Snapshot.org、Twitter 和 Github 等数据源集成。
+通过这些凭证数据，Project Galaxy 构建了一个基于 Web3 DID（Decentralized ID 去中心化身份）系统。像上文所说，我们当前的身份系统是分裂的，不同中心…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178416"
+                        open
+                      >
+                        <summary class="article-expander__title">全方位盘点Arbitrum生态项目：跨链、DeFi、基础设施、NFT全方位发展</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178416">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>撰文：Karen
+在 Optimism 官宣发币和慷慨空投之后，另一 Layer2 扩容方案挑战者 Arbitrum 的早期参与机会也备受关注。而在本月，Arbitrum 还宣布与 Project Galaxy 启动为期两个月的生态采用计划 The Arbitrum Odyssey，将向符合资格的用户分发独家 NFT，这一计划有望进一步推动和加深 Arbitrum 生态的大幅采用。
+在本篇文章中，Foresight News 将从跨链桥、DeFi、NFT、游戏以及支持 Arbitrum 的基础设施、工具等类别汇总 Arbitrum 生态值得关注的项目。在汇总 Arbitrum 生态项目之前，我们将首先对 Arbitrum 团队背景、融资历史和 Arbitrum 进展作一个大致了解。
+Arbitrum 是什么？进展如何？
+Arbitrum 背后团队是 Offchain Labs，Offchain Labs 由奥巴马任职期间的前白宫技术官员、普林斯顿大学长期教授 Ed Felten 共同创立，另外两位联合创始人为 Steven Goldfeder 和 Harry Kalodner，三人在普林斯顿大学时正式创立 Offchain Labs。
+Offchain Labs 在 2019 年 3 月完成由 Pantera Capital 领投的 370 万美元种子轮融资，去年 4 月完成 2000 万美元 A 轮融资，同年 8 月又以 12 亿美元估值完成 1.2 亿美元融资， Lightspeed Venture Partners 领投，其他比较知名的投资方还包括 Polychain Capital、Ribbit Capital、Redpoint Ventures、Pantera Capital、Alameda Research、Mark Cuban 等。
+Offchain Labs…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5178109"
+                        open
+                      >
+                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0423-0429）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178109">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
+因此，我们编辑部将于每周六从过去7天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
+下面，来和我们一起阅读吧：
+
+投资与创业
+如何在Crypto这场概率游戏中提高赚钱概率？
+这篇写给个人投资者。想切换至概率思维，要先制定严格的规则；同时，注意头寸大小（别超出可承受范围），明确自身优势，承认错误并及时停止，在群体讨论时保持批判，保持耐心。
+1confirmation合伙人：加密VC投资中的三个反直觉教训
+这篇就很to机构了。第一，投资组合的构建比挑选合适的标的更重要，因此，集中投资要优于祈祷式的分散投资。尤其是加密领域，从长远来看，要超越ETH的表现是非常难的。第二，在产品-市场匹配之前，一轮融资的“热度”与最终的结果之间几乎没有关联。在种子阶段对估值的控制要很严格。越来越多的风险投资公司会进入6000万至1亿美元估值产品的种子轮。第三，在热门叙事的拥挤空间中很难挑选出赢家。因为资金容易吸引到唯利是图的创始人，而投资人有时比创始人还懂（这很危险），且竞争很激烈。
+简析代币经济学：好的代币经济学是如何设计的？
+这篇写给项目方。好的代币激励可以提高网络效应，从而弥补原生效用的不足。生态系统激励是代币设计中最具创意的部分之一，例子包括：活动奖励、贡献者奖励、流动性挖矿奖励、质押奖励、合作伙伴、空投。为确保激励的长期有效，建议代币解锁年限应该为5-10年。
+作者建议分配率应该和项目的活跃度挂钩，例如交易量增加时加大分配力度，减少时减弱分配力度。Helium (HNT) 和 Planetwatch Recycling Bin是…</span>
                             </span>
                           </div>
                         </a>
@@ -8879,42 +9095,6 @@ Vertex 计划于 2022 年夏季正式推出。目前，Vertex Protocol 测试网
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/78641"
-                        open
-                      >
-                        <summary class="article-expander__title">去中心化社交项目Bluesky：开发公司由团队拥有，推特未控股</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/78641">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>律动 BlockBeats 消息，4 月 26 日，由推特资助的去中心化社交项目 Bluesky 在社交媒体上发文表示，Bluesky 源于推特，但今年成立的 Bluesky PBLLC 是一家专注于去中心化社交网络研发的独立公司，由团队本身拥有，推特未控股。此外，Bluesky 还表示已收到 1300 万美元，以确保研发工作的自由和独立性。
-
-律动此前报道，推特前 CEO Jack Dorsey 已加入 Bluesky 董事会。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/78644"
-                        open
-                      >
-                        <summary class="article-expander__title">3D 开源引擎商「LayaBox」B轮拟融资4亿元，用于其元宇宙业务布局</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/78644">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>律动 BlockBeats 消息，4 月 26 日，据 36kr 报道，3D 开源引擎商「LayaBox」B 轮拟融资 4 亿元，用于其元宇宙业务布局。其 2021 已完成 B1 轮 1.1 亿元融资，B2 轮融资正在进行中。据介绍，该公司旗下拥有 3D 引擎 LayaAir，游戏 UGC 平台 LayaME 以及消费级元宇宙平台 LayaVerse 三大元宇宙相关业务。有知情人士透露，该公司已开始与潜在投资人进行新一轮融资接触，但最终融资规模和估值等信息尚未透露。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9407,35 +9587,6 @@ Nimi 将允许构建 Web3 个人资料页面，并将其部署到 .eth 域名。
 演示链接
 Hexagons Protocol：构建社交媒体驱动的智能合约协议和框架
 Hexagons Protocol 表示，「一旦用户将其社交媒体帐户（包括 …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5178292"
-                        open
-                      >
-                        <summary class="article-expander__title">OpenSea收购NFT市场聚合器Gem，以服务「专业」用户</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5178292">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Decrypt &amp; The Block，原文作者：Andrew Hayward &amp; Callan Quinn 等
-Odaily 星球日报译者 | 念银思唐
-
-摘要：
-- OpenSea 收购了 NFT 市场聚合器 Gem。
-- Gem 支持跨多个市场进行批量购买，它的一些功能将被集成到 OpenSea 中。
-允许用户在多个平台上批量购买资产的以太坊NFT市场聚合器 Gem 已被 OpenSea 收购，后者是交易量最大的 NFT 市场。
-OpenSea 昨日宣布了这一举措，其首席执行官兼联合创始人 Devin Finzer 在一篇博客文章中写道，添加 Gem 是为了服务更高级别的 NFT 买家。
-“随着 NFT 社区的发展，我们认识到有必要更好地为更有经验的‘专业’用户提供服务，并为不同经验级别的用户提供更多的灵活性和选择。”Finzer 写道。
-Gem 是一个连接各种 NFT 市场的单一平台，这些市场包括 OpenSea、LooksRare 和 Rarible。Gem 允许用户在一次交易中从其中任何一个市场购买资产，这可能会节省很可观的费用。此外，Gem 还集成了 NFT 收藏品的稀有度排名。
-根据 Finzer 的帖子，Gem 将继续独立运行，它扩展了自己的平台，增加了更多的功能，然后其中的一些功能将在未来引入 OpenSea 自己的平台。
-Finzer 还确认了对 Gem 联合创始人 Neso 的指控。BuzzFeed 最近报道称，Neso 是 Josh Thompson 曾使用的假名，他曾是一名受欢迎的视频游戏主播，化名为 MethodJosh。在 Thompson 从网上消失之前，他在 2020 年被指控强奸和性骚扰。本月早些时候，他被 Gem 开除了。
-“在尽职调查过程中，我们知悉了一些令人深感担忧的指控，指控对象是一名化名 Neso 的 Gem 领导团…</span>
                             </span>
                           </div>
                         </a>
@@ -10300,176 +10451,6 @@ Finzer 还确认了对 Gem 联合创始人 Neso 的指控。BuzzFeed 最近报�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650945975125628.html"
-                        open
-                      >
-                        <summary class="article-expander__title">币安已完成BIFI、REEF、USDC及USDT的网络整合并开放充值</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650945975125628.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，据官方公告，币安已经完成了BIFI（Fantom）、REEF（Reef）、USDC（Ronin）和USDT（Polygon）的网络整合并已开放充值。将在确认热钱包中有足够的资产后将开放BIFI、REEF、USDC和USDT的提现。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650945064961625.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Gem首席开发者：Gem被OpenSea收购后仍有可能发行代币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650945064961625.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，据The Block报道，NFT交易聚合器Gem首席开发者Vasa在Discord上表示，即使Gem被OpenSea收购，Gem的代币空投和奖励等现有路线图将保持不变，Gem仍将作为一个独立的品牌和产品运营。此前，在OpenSea收购Gem的消息发布后，部分用户对Gem或会暂停发币而感到担忧。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650944496746622.html"
-                        open
-                      >
-                        <summary class="article-expander__title">印度农民抗议主题的NFT在OpenSea找不到买家</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650944496746622.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，据Forkast报道，印度记者和电影制作人于两个月前推出了以农民抗议为主题的NFT以保护历史和帮助家庭，并在NFT市场OpenSea上销售，但到目前为止没有任何买家。据悉，该NFT在Polygon 上铸造，共24枚，团队承诺将销售收入将捐给一个名为 Atam Pargas 的非政府组织，以帮助他们从事支持家庭的工作。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650944127486621.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：ETH 2.0质押率超10%，周新增质押253280枚</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650944127486621.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，，据欧科云链链上大师周报数据显示，截止目前ETH 2.0存款合约地址质押数已达到11,854,738 枚，ETH2.0的质押率已超10%，即当前流通中有超过10%的以太坊已存入到ETH2.0中，周新增质押数为253,280枚，环比上涨2.1%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650943761671116.html"
-                        open
-                      >
-                        <summary class="article-expander__title">浙江实现数字人民币税费缴纳业务全场景落地</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650943761671116.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，据中新网报道，记者从国家税务总局浙江省税务局获悉，自4月以来，浙江多地探索数字人民币从税(费)款缴纳到国库入库对账全流程线上流转，目前该省已完成数字人民币税费缴纳业务全场景落地。下一步，国家税务总局浙江省税务局、中国人民银行杭州中心支行将继续探索支持共同富裕示范区建设以及减税降费等涉税应用场景体系建设，进一步推进数字人民币在税务领域的全面应用。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650943561478114.html"
-                        open
-                      >
-                        <summary class="article-expander__title">IMF报告：DeFi借贷市场50%的存款流动性由不到10个账户提供</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650943561478114.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，据IMF官网，国际货币基金组织（IMF）发布全球金融稳定报告，其中涉及DeFi借贷市场，称DeFi借贷市场的流动性供应是高度集中的，没有预期的那么去中心化，平均而言，一半的存款由不到10个账户提供，其中更多集中在规模更小、波动性更大的加密资产上。随着集中度的提高，任何一个大储户的特殊资金提取都会对平台的流动性状况产生重大影响，这反过来又会加剧流动性枯竭。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650943420316612.html"
-                        open
-                      >
-                        <summary class="article-expander__title">天津市河西区将发放40万元数字人民币红包</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650943420316612.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，据天津广播报道，2022年河西区将举办贯穿全年的“活力河西•都市消费嘉年华”系列促销活动，启动仪式将于4月30日12点开启。其中包括数字人民币红包活动。天津市河西区人民政府、建行天津分行将共投放40万元数字人民币红包，在文化中心商圈各应用场景开展推广数字人民币活动，让数字经济引领消费提档升级。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650942992517110.html"
-                        open
-                      >
-                        <summary class="article-expander__title">江苏省苏州市相城区制定编发涉虚拟货币犯罪侦查指引</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650942992517110.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，据新华网报道，江苏省苏州市相城区检察院近日制定编发《相城区人民检察院涉虚拟货币犯罪侦查指引》，针对虚拟货币隐匿性强、跨境流通快、价值兑换多元等特点，该《指引》将成为公安机关的办案“导航”。《指引》共十四条，对虚拟货币案件财物的查扣，证据的调取，财物的处分进行分析归纳，引入第三方技术公司解决虚拟货币资金流向等技术性问题，力求规范和完善公安机关的取证行为。值得一提的是，《指引》加大追赃挽损和反洗钱力度，要求对涉案赃款应追尽追。如针对犯罪嫌疑人通过这种平台转移虚拟货币、从事洗钱犯罪等行为，《指引》建议侦查机关对资金流实时监控，锁定资金最终去向，准确认定涉案金额。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650942816771605.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Evmos宣布将上线计划推迟至4月27日</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650942816771605.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，据官方推特，Cosmos EVM兼容中心Evmos宣布将上线计划往后推迟24小时，将于4月27日重新上线，以确保所有验证节点做好100%的准备。此前消息，Evmos于3月7日升级失败之后暂停网络，计划于4月26日重新上线。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/sqarticledetails/1650942681101604.html"
-                        open
-                      >
-                        <summary class="article-expander__title">3D开源引擎商“LayaBox”拟融资4亿元以布局元宇宙</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/sqarticledetails/1650942681101604.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 4月26日消息，据36氪报道，3D开源引擎商“LayaBox”B轮拟融资4亿元，用于其元宇宙大版图布局。其2021已完成B1轮1.1亿元融资，B2轮融资正在进行中。据介绍，该公司旗下拥有3D引擎LayaAir，游戏UGC平台LayaME以及消费级元宇宙平台LayaVerse三大元宇宙相关业务。知情人士透露，该公司已开始与潜在投资人进行新一轮融资接触，但最终融资规模和估值等信息尚未透露。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10477,8 +10458,8 @@ Finzer 还确认了对 Gem 联合创始人 Neso 的指控。BuzzFeed 最近报�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2250381091">
-        <time id="build-timestamp" datetime="2022-04-30T15:08:50.960Z">2022-04-30T15:08:50.960Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2250525976">
+        <time id="build-timestamp" datetime="2022-04-30T16:10:07.764Z">2022-04-30T16:10:07.764Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
