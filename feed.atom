@@ -2,10 +2,146 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-05-05T03:52:47.466Z</updated>
+    <updated>2022-05-05T04:24:29.229Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[深度解析利率衍生品在加密货币中的应用：利率掉期和利率期货]]></title>
+        <id>https://www.0daily.com/post/5178479</id>
+        <link href="https://www.0daily.com/post/5178479"/>
+        <updated>2022-05-05T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[作者：Neron
+译者：Beam，H.Forest Ventures
+
+衍生品在加密货币中变得非常流行，主要体现在期货上。这些衍生品为机构投资者入场提供了条件，它们允许机构“对冲”自身、降低风险。因此它们是基本的金融产品，特别是因为这个市场非常不稳定并且受到非常强烈的趋势影响。它们也可以是投机产品，但本文不会涉及这方面。
+在本文中，我们将重点关注在加密领域几乎尚未开发、但在 TradFi 中非常流行的衍生品系列：利率衍生品。
+本文并不想包罗万象，也无意为建立此类市场或流动性的相关问题提供所有答案。我的目标是简单地说明一些策略，这些策略可以很容易地保护自己免受利率波动的影响。
+在借贷加密资产时，AAVE 提供两种选择：固定利率借贷和浮动利率借贷。可以选择固定的借款利率，该利率非常高，但不会随时间变化（或变化很小）。在这种情况下，您将支付安全费用。另一方面，您可以选择浮动借贷利率，平均来说，该利率低于固定利率，但会受到市场风险的影响。它导致借入资本的效率更高，但风险更高。因此，对于大型市场参与者来说，想办法保护自己免受利率风险的影响是很重要的，利率风险的特点是借款利率发生了不希望的变化。
+
+AAVE 上的可变利率（紫色）和固定借款利率（蓝色）
+利率衍生品是允许您对冲利率波动风险的衍生品，无论是向上还是向下。在本文中，我们将讨论两种主要的利率对冲工具：掉期（swap）和期权（option）。
+与传统市场不同，AAVE 的利率不依赖于标的资产的价格，而是依赖于流动性的可用性。
+当资产大部分可用时，利率很低以鼓励借贷。当资产变得稀缺时，利率会提高以鼓励偿还借款并增加流动资金池中的存款。
+
+计算 AAVE 借款利率 Rt 的公式，其中 U = 资金池中的资本
+
+
+
+
+
+
+01 利率掉期
+
+
+
+
+
+
+利率互换/利率掉期是Alice 和 Bob 之间的两方合约。在借入的情况下，利率互换按如…]]></summary>
+        <author>
+            <name>H.Forest</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[元宇宙发展状况之「与DEFI结合」项目调研（1）]]></title>
+        <id>https://www.0daily.com/post/5178299</id>
+        <link href="https://www.0daily.com/post/5178299"/>
+        <updated>2022-05-05T03:48:47.000Z</updated>
+        <summary type="html"><![CDATA[具体项目调研 
+下面将按不同分类以及元宇宙开放程度，对上述项目做具体的分析。
+分类方式介绍：将对项目分为“可编辑空间或可进入空间游玩”，“与DeFi结合”，“尚未确定”三个大类别；同时将根据“具有本身明确世界观与故事性”和“开放性强、包容程度更高”分为强IP属性元宇宙以及弱IP属性元宇宙。
+元宇宙开放程度介绍：将根据是否可以“空间开放体验”，是否可以“空间开放编辑”，以及是否可以“支持其他PFP NFT”三个方面进行评估。其中可以“空间开放体验”得2分，否则为0分；可以“空间开放编辑”得1分，否则为0分，可以“支持其他PFP NFT”得2分，否则为0分。
+分类二：【与DEFI有结合】
+Metroverse Genesis
+
+
+
+
+
+
+数据来源 NFTGo.io
+
+简介
+Metroverse 是一款土地交易类的策略 P2E 游戏 NFT，玩家可以通过质押他们的街区来获得$MET (游戏代币)。Metroverse 第一版发行量为 10000 份。在 2022 年 3 月 22 号会发布暗黑版街区，数量同样为 10000 份。
+团队信息/投资机构
+核心团队一共由 8 人组成来自美国硅谷，团队身份未公开，以下为核心团队的简介：
+0xSlice ： Metroverse 的项目创始人和团队构建者，硅谷科技公司企业家，喜欢打造数字产品和服务。
+0xSlime ：在加密货币领域有 6 年以上的开发经验，现在专注于 DApp 和 NFT 的开发。
+0xAyam ：负责为 Metroverse 开发智能合约与 NFT 生成。拥有 15 年以上的关于人工智能和机器学习开发经验。
+0xBobsky ：从 14 岁开始编码，最近过渡到 web3/crypto 领域。
+0xSloth ：拥有 20 多年的开发经验。
+0xHedgehog ：Metroverse美术设计师。拥有15年的游戏设计经验。…]]></summary>
+        <author>
+            <name>ABC Studio</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3的网络效应：五种心智模型]]></title>
+        <id>https://www.0daily.com/post/5178474</id>
+        <link href="https://www.0daily.com/post/5178474"/>
+        <updated>2022-05-05T03:37:16.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Sangeet Paul Choudary
+原文标题：Web3 Network Effects: Five Mental Models
+网络效应推动了Web2平台的兴起和现今的主导地位，并在过去十年中吸引了大量建设者和投资者。一些人认为Web3的网络效应会更强大，也有人认为Web3会扼杀网络效应。
+现今关于Web3的炒作颇多，我们需要通过重新梳理关于网络效应的心智模型去寻找答案。在Web2世界中学到的东西（原文作者的《平台革命》一书中有所涉及）可能不适用于Web3世界。想要了解Web3世界中的网络效应，就要用第一性原理重新思考网络效应并了解从Web2迁移到Web3时会发生什么变化。本篇文章属于DAOrayaki关于web3网络效应的系列文章之一。
+以往的精选文章，可以查看以下链接：
+DAOrayaki ｜Web3 网络效应分析框架；
+DAOrayaki ｜从Web2到Web3的增长框架；
+DAOrayaki ｜艺术 or 科学？浅谈Web3经济中的代币定价；
+DAOrayaki ｜Web3: Go-to或Exit-to社区？；
+DAOrayaki ｜加密和NFT：Web3中的网络效应；
+DAOrayaki ｜Web3协同智能——知识树、知识森林和社区贡献
+DAOrayaki｜Web3 中的声誉：乘风破浪
+接下来我们将深入探讨五种心智模型，并解读它们的含义。
+Web2与Web3网络效应的四个关键区别
+了解Web3生态中的网络效应之前，需要首先确定Web2和Web3生态之间的差异，进一步了解这些差异如何影响网络效应。
+首先，在Web2生态中，市场基础设施是由平台提供商创建的。而在Web3生态中，市场基础设施需要由生态自身，既可以通过资源承诺(如存储容量承诺)，也可以通过基础设施开发活动来构建。因此，创造和扩大网络效应对Web3生态系统提出了独特的挑战，不仅需要协调市场…]]></summary>
+        <author>
+            <name>DAOrayaki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CZ对话Circle：既然无法永远保护美元，就应该拥抱未来]]></title>
+        <id>https://www.0daily.com/post/5178477</id>
+        <link href="https://www.0daily.com/post/5178477"/>
+        <updated>2022-05-05T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文编译：kxp，律动BlockBeats
+几天前，Binance 创始人 CZ 做客 Circle CEO Jeremy Allaire 的 The Money Movement 栏目，进行了近 1 个小时的对话。双方并没有聊稳定币相关的内容，而是从更宏观的角度，聊了聊区块链对世界的影响。
+
+从 2020 年开始，全球如同打开了潘多拉的魔盒一般发生变化，我们在关注行业内各个赛道项目的同时，获取宏观发展的信息也相当必要。律动 BlockBeats 将二人的对话听译如下，希望能对读者有所帮助。
+Jeremy Allaire：你好，我是 Jeremy Allaire，欢迎来到 The Money Movement，非常期待我们今天的对话。欢迎你，CZ。
+CZ：很高兴来到这里，谢谢你邀请我。
+Jeremy：首先我想先谈一谈你选择这一行业的原因以及对于未来的愿景。我想我们每个人都有自己的故事，来到 Crypto 市场当中都想有一番作为，比如建立一个新的全球金融体系、新的经济体系，或者世界经济活动的新方式。我很想听听你的见解，你觉得 Crypto 将给世界带来什么？在未来十年当中世界会因为 Crypto 的发展而发生什么变化？
+CZ：从根本上说，我认为 Crypto 区块链是一项新技术，用于建立信任的账簿系统。不过，就像互联网的第一个应用只是用于信息交流一样，Crypto 一开始只有金钱属性。我认为借助 Crypto，我们可以改进我们现有的货币，从而金融部门和金融科技。我们目前的货币系统尚存诸多缺陷，而在我看来，我们需要在保证合规性、安全性、易用性的同时，提高交易的效率。因为，我们需要推进 Crypto 技术的发展，为人们提供使用这种新技术的机会。
+Jeremy：我很想听听你对 Crypto 原生企业和原生组织数量不断增长的看法。当前，全球经济活动体系基本上是根据民族国家法规与跨国公…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文速览Lightspeed在印度和东南亚的Web3布局]]></title>
+        <id>https://www.0daily.com/post/5178475</id>
+        <link href="https://www.0daily.com/post/5178475"/>
+        <updated>2022-05-05T02:27:05.000Z</updated>
+        <summary type="html"><![CDATA[原文来源 ：LightSpeed India Partners的观点
+原文编译 ：阿法兔
+本文来自微信公众号阿法兔研究笔记。
+
+编译本文的主要目的主要有二：
+其一，LightSpeed作为加密先驱，较早对整个海外Cryto赛道有体系化研究和布局，特别是他们对东南亚的关注和认知，对我们了解整个市场是有价值的。
+其二，本篇文章其实比较早了，但是我们可以看到在2021年11月，LightSpeed是如何认知东南亚的市场的，当然部分项目的发展在前进和曲折中慢慢发展，不过，文中提出很多观点在今天也可以得到部分验证。
+注:本文版权归Lightspeed所有，译文为公益性质，仅为帮助大家共同学习,不构成任何投资上的建议。
+免责声明：本文内容仅用于信息展示和分享，不对任何经营与投资行为进行推广与背书，本文不提供任何投资建议。
+序言
+2020年，从加密市场来看，整体市场是向上走的，特别是9月，美国、印度、东南亚、韩国等市场的投资者对市场起到了一定推动作用，BTC价格2021年10月达到峰值。全球Crypto月交易量在2021年也大幅增加，从2020年第一季度的271亿美元，增长到2020年第四季度的793亿美元，到2021年5月达到峰值，如下图所示。
+
+如果从历史上来观察加密货币生态系统，市场热度经历过巅峰，也有过低估，目前已经经历了两波，其中包括很多炒作和噪音。目前，2021年末，我认为正处于第三波中。但是有一点要注意，在整个历史过程中，在所有的炒作和噪音之下，也有其中有意义的生态系统一直在悄悄地、逐渐走向成熟。
+因此，在过去的几年里，我们认为，加密领域的机会已经扩展到其他领域。特别地，我们看到一系列高度多样化的机会，包括属于个别区域性的机会，以及NFTs、游戏、DAO、DeFi、钱包、区块链基础设施，还有其他很多很多。综合来看，新的变化也在出现，例如部分地区的资本、人才和监管部门对这一快…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[V神向多个新冠病毒研究项目捐赠超650万美元]]></title>
         <id>https://www.theblockbeats.info/flash/80207</id>
