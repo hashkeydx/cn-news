@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-05-06T10:10:11.364Z</updated>
+    <updated>2022-05-06T11:07:24.002Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -14,6 +14,22 @@
         <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 6 日，据区块链数据平台 Token Terminal 显示，DeFi 借贷协议 GoldFinch 平台在贷余额突破 1 亿美元。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IOSG：EIP4844将开启L2交易费降低可预见的洼地效应]]></title>
+        <id>https://www.0daily.com/post/5178531</id>
+        <link href="https://www.0daily.com/post/5178531"/>
+        <updated>2022-05-06T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Gokhan Er
+原文来源：IOSG Ventures
+自从以太坊核心开发者围绕Rollups制定了以太坊的路线图后，很明显Rollups将在以太坊的未来发挥核心作用。然而，在承诺已久的数据分片（或Danksharding）能够实现之前，以太坊需要尽快降低交易费用，否则它将有可能继续失去新的用户而转向其他L1s。
+领先的Rollup团队已经想出了他们自己的解决方案，以降低交易费用，增加各自L2上的开发者体验。其中包括优化交易压缩技术的Optimism团队和Arbitrum团队。Arbitrum推出了他们接下来最大的升级，Arbitrum Nitro，它将把Arbitrum Fraud Proof编译成WASM，这将大大提升Arbitrum L2上的开发者体验，也降低了延迟。
+然而，如果我们看一下L2交易的单位成本，我们看到最大的一块是 "Call Data"。Call data对L2的安全机制至关重要。基本上，在L2s上出现恶意验证者活动的情况下，整个L2链可以通过使用L1s上发布的Call Data来重建。然而，在L1上发布call data的成本很高，目前占L2交易费用的80%以上。
+那么如何解决这个问题呢？从根本上来看，需要为L1上的数据创造更多空间，从而降低L2交易费用。数据分片（DankSharding）将有助于在以太坊L1上建立一个巨大的数据空间，然而，在以太坊上完全实现Danksharding，预计需要相当长的时间（如果一切顺利大概18个月）。 （对DankSharding不了解的朋友可参阅：扩容杀手锏Danksharding会是以太坊分片的未来吗？）
+这就是为什么以太坊核心开发者和Rollup团队开始提出不同的建议，在L1上建立一个即时的数据空间，并使Rollup在L1市场上立即具有价格竞争力。EIP-4844是这些努力的结果，预计它将使Roll…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
@@ -46,6 +62,72 @@
         <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 6 日，据 NFTGo.io 数据显示，Azuki 空投 NFT 项目 Beanz Official 24 小时交易额达 3947.75 万美元，增幅达 657.92%。截止目前，该系列 NFT 地板价为 4.09 ETH，24 小时跌幅 36.10%。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解读Layer2现状：近期资金量并未大量增加，去中心化程度有待提升]]></title>
+        <id>https://www.0daily.com/post/5178532</id>
+        <link href="https://www.0daily.com/post/5178532"/>
+        <updated>2022-05-06T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[随着Optimism发币并开展空投，Layer 2项目们再次吸引了大家的关注。
+
+以太坊作为最安全、去中心化程度最高的Layer 1区块链之一，这就意味着在可扩展性上需要做出一定让步。以太坊主网每秒只能处理约15笔交易，大量的使用需求使网络变得拥堵，高昂的费用将部分潜在用户排除在外。
+Layer 2是以太坊的一类扩容解决方案，通过定期向以太坊主网提交交易包，以拥有和以太坊主网类似的安全性和去中心化程度。Layer 2只处理扩容，将最终证明发布到Layer 1，而安全性、数据可用性和去中心化均由Layer 1维护。如果大量的交易由Layer 1转向Layer 2，Layer 1的交易拥堵也将得到缓解。
+进展
+在分片实现之前，Layer 2是在不牺牲去中心化和安全性的条件下，实现更高的交易速度和更大的交易吞吐量的主要途径。早在2020年，Vitalik就提出了“以Rollup为中心的以太坊路线图”，并认为应该将Rollups（以及Plasma和Channels）作为中短期内的扩容策略。
+Rollups也被官方认为是以太坊扩容的首选Layer 2解决方案，通过将数百个交易汇总到Layer 1的单个交易中，来实现扩容并降低gas费。根据如何将交易数据发布到Layer 1上，Rollups又分为两类——Zero-knowledge（ZK） Rollups和Optimistic Rollups。
+顾名思义，Optimistic Rollups是“乐观的”，默认假定交易都是有效的。如果怀疑交易无效，可以通过欺诈证明（Fault Proof）进行检查。ZK Rollups则采用了有效性证明（Validity Proof），生成可用于证明交易有效性的加密证明，交易在链下计算，然后将压缩数据提供给以太坊主网作为交易有效性的证明。
+Ethereum.org（由太坊基金会资助）上列出了一系列Lay…]]></summary>
+        <author>
+            <name>PANews</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFT数据日报 | BEANZ Official成为日交易量冠军（5.6）]]></title>
+        <id>https://www.0daily.com/post/5178527</id>
+        <link href="https://www.0daily.com/post/5178527"/>
+        <updated>2022-05-06T08:20:36.000Z</updated>
+        <summary type="html"><![CDATA[NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
+宏观市场指标
+截至 5 月 6 日 15 时，NFT 整体市值 195.32 亿美元，较 24 小时前增长 0.07%；过去 24 小时内总交易量约 2.73 亿美元，日环比下降 3.00%。
+
+按过去 24 小时成交量，排前三的子领域分别为 PFP（1.18 亿美元）、Land（3115 万美元）和 Game（2993 万美元）。
+
+项目排名
+按过去 24 小时成交量，排名前五的项目分别为 BEANZ Official（3868 万美元）、Otherdeed（3032 万美元）、PXN: Ghost Divison（2650 万美元）、Dreadfulz（844 万美元）和 Bored Ape Yacht Club（624 万美元）。
+
+按过去 24 小时流动性指标（注：流动性=交易量 / NFT 总供应量），排名前五的项目分别为 PXN: Ghost Divison（41.51%）、Moonbears NFT（21.43%）、L.O Community（20.61%）、Oddstronauts 1.0（19.76%）和 BEANZ Official（10.85%） 。
+
+特色数据
+过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：Project Shura #1833、ape mfer #3175、Anatomy Science Ape Club #4602、Lucha Libre Knockout #8613 和 Lucha Libre Knockout #9835。
+
+最受巨鲸欢迎项目排前五的分别是：Otherdeed、BEANZ Official、Art Blocks、PXN: Ghost Divison 和 Murakami.Flowers Official。
+
+元宇宙平台中，过去 24 小时内，Otherdeed 上的地块最低成交价为 0.0038 ETH、平均成交价为 7.06 ETH；The Sandbox 上的地块最低成交价为 0.6 ETH、平均成交价为 1.39 ETH；Decentraland 上的地块最低成交价为 0.15 ETH、平均成交价为 5.8 ETH。
+
+欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
+相关阅读
+你注意到Otherside中的隐藏IP许可条款了吗？
+五月值得关注的5个NFT项目
+格局打开：NFT持有者决定IP天花板]]></summary>
+        <author>
+            <name>不一样的NFT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网游之父，游戏界顶级制作人Richard Garriott正式加入元宇宙游戏生态DeHorizon]]></title>
+        <id>https://www.0daily.com/post/5178535</id>
+        <link href="https://www.0daily.com/post/5178535"/>
+        <updated>2022-05-06T08:06:28.000Z</updated>
+        <summary type="html"><![CDATA[下一代元宇宙游戏生态DeHorizon今日宣布，其首席产品官Todd Porter将与传说级游戏《Ultima》（创世纪）&世界顶级游戏制作人Richard Garriott携手成立美国游戏工作室“DeMeta”，共同谱写MMO RPG游戏新篇章，通过区块链等新技术创造基于Web3的全新数字世界。 
+DeHorizon致力于成为下一代元宇宙游戏生态，通过开发并迭代多样化玩法的游戏产品，以及尽可能实现数字资产的多链互通，以打造一个更具沉浸感、幸福感的元宇宙游乐园。 
+加入DeHorizon团队之前，Todd Porter 曾是《Dungeons & Dragons》（龙与地下城）和全球首款MMO手游《Ultima》（创世纪）的创始制作人。而Richard Garriott作为传说级游戏《Ultima》（创世纪）系列的生父，还曾担任多款世界顶级游戏的制作人，如《Lineage》，《Tabula Rosa》，《Shroud of the Avatar》。未来，他们将携手基于区块链技术以及NFT元素共同构建Web3下的MMO游戏。 
+“Ultima拥有超过 25,000,000 玩家的庞大粉丝群。 我们的使命是将 MMORPG 游戏提升到一个新的高度，”Todd Porter说，“为这个庞大的粉丝群提供一个游戏共创的入口与机会，就像曾经我和Richard为Ultima做出的努力一样。” 
+“1997 年，我在 Origin 的团队发布了第一款真正的大型多人在线游戏，”Richard说，“Ultima Online 创造了一些新的东西，并催生了一种持续发展和发展超过 25 年的类型。 我们正在寻求创造同样的魔力来再次进化和重振MMO。” 
+目前， DeHorizon的美国游戏工作室DeMeta已经得到了包括业内知名投资机构Griffin Gaming Partners、Sfermion、Dragonfly Capital、gumi Cryptos Capital、Yield Guild Games 和 Animoca Brands 在内的鼎力支持。 
+gumi Cryptos Capital 的General Partner Miko Matsumura 表示：“NFT 是一个赋予数字资产无限生命力的基础设施。但只有像 Richard Garriott 和 Todd Porter 这样真正具有传奇色彩的团队，才能制作出值得拥有无限生命力的Web3.0游戏。”]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
