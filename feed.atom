@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-05-10T23:09:28.296Z</updated>
+    <updated>2022-05-11T00:42:29.131Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4342,129 +4342,6 @@ Project Galaxy 吸引流量的方法
         <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 6 日，建立在 KCC Chain 上的 Stablecoin 流动性提供及兑换平台 Klein Finance 宣布获得 100 万美元种子轮融资，KCC Chain 及 KuCoin Ventures 参投，资金将用于项目宣发、扩大团队规模、技术开发以及扩大其结构性产品等。据了解，Klein Finance 的本轮融资目前还在进行中。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bankless：概述NFT借贷生态系统]]></title>
-        <id>https://www.0daily.com/post/5178539</id>
-        <link href="https://www.0daily.com/post/5178539"/>
-        <updated>2022-05-06T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[撰写：William M. Peaster
-编译：TechFlow intern
-随着NFT生态情绪变得火热，涌现出大批优质项目，越来越多的人开始寻求在不出售 NFT 的情况下利用 NFT，NFT 借贷绝对是最近几周最火热的一个领域。 
-
-NFT借贷的主要类型
-如今，NFT 借贷主要有两种类型：NFT 租赁和NFT 借贷。 
-第一种类型是让用户将他们的NFT出租给其他人，例如，如果借款人想进入一个有NFT门槛的社区，就可以去临时租用他们的NFT，reNFT就是这样一个在这个领域工作的团队。
-
-第二种类型，NFT借贷，让人们抵押他们的NFT，然后借出其他的加密货币。下面我将重点介绍NFT借贷，因为它们比目前的租赁项目更普遍、更有需求。
-
-为什么要以NFT为抵押进行借款？
-在许多司法管辖区，出售 NFT（就像出售常规加密货币一样）会导致应税事件。然而，以您的资产（例如加密货币或 NFT）进行抵押借款，会在美国产生非应税收入。
-因此，通过选择NFT 并以此为抵押，一个人可以在不实际出售 NFT 并引发税收影响的情况下，得到及时流动性。
-此外，有些人为了获得更多的资金来购买更多的 NFT，也会抵押他们的NFT来借贷，即杠杆。
-
-借贷平台激增
-
-最早和最流行的NFT借贷协议是NFTfi，这是一个点对点（P2P）的NFT借贷项目，用户直接互相借贷。
-
-在NFTfi上，贷款人可以通过提供DAI或WETH贷款赚取利息，而借款人可以通过抵押上市的NFT来获得流动性。贷款的条款（期限、利息等）由交易方商定，如果发生违约，相关的NFT将交还给贷款方。到目前为止，NFTfi已经促成了价值超过1.705亿美元的贷款。
-其他较新的 P2P NFT 借贷平台 
-
-AbraNFT—— 一个由Abracadabra Money建立的NFT借贷项目
-
-Arcade ——一个建立在Pawn Protocol之上的NFT借贷项目，一个NFT基础设施系统
-
-
-
-NFT借贷的其他方法
-P2P借贷并不是NFT贷款的唯一方式。
-例如，NFT借贷协议JPEG就开创了一个新的方法——NFDP。工作原理类似与Maker Vaults，但不是说你抵押ETH来借DAI稳定币，NFDP让你像CryptoPunk一样存入NFT，以借到JPEG的PUSD稳定币。
-值得注意的是，该项目使用Chainlink预言机来获取和维护其NFT抵押品的链上价格。
- 最近还有另一种NFT借贷方式点对池模型也在蓬勃发展。
-这类项目需要贷款人作为流动性提供者（LP），向流动性池提供ETH，借款人可以通过首先抵押NFT来借款。例如，以BendDAO来举例，这是一个点对池贷款项目，接受蓝筹NFT，如Azukis、Bored Apes、CryptoPunks、CloneX、Doodles和Mutant Apes作为其初始抵押品类型。
-
-其他值得关注的点对池项目
-
-DropsDAO - "JPEG、NFT和元宇宙资产的即时借贷"
-
-Fluid - "公平、即时、受保护的，NFT支持的借贷"
-
-Pine - "无许可NFT支持的借贷和NFT融资"
-
-
-
-P2PVsNFDPVs点对池模型
-这三类对于NFT借贷来说各有利弊：
-P2P优点
-
-适合稀有的NFT，交易者可以自定义NFT的稀有特征。
-
-清算，或违约，只发生在借款人无法偿还的情况下（而不是地板价格下跌等）。
-
-智能合约逻辑简单，直截了当。
-
-缺点
-
-贷款时间更长，需要花时间找到愿意贷款的人
-
-借贷收益不恒定
-
-NFDP的优点
-
-成熟的抵押债务头寸（CDP）结构设计
-
-缺点
-
-地板价下跌太快可能导致债务头寸抵押不足，导致清算
-
-自定义预言机还没有经过很好的实战检验
-
-目前的抵押品的选择有限
-
-点对池的优点
-
-借款人可以立即获得贷款
-
-贷方可以立即从他们的 ETH 存款中获得收益
-
-缺点
-
-更复杂的代币经济学
-
-更复杂的智能合约
-
-有限的抵押品
-
-原文链接]]></summary>
-        <author>
-            <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[链上数据解读稳定币战争：哪些增长速度最快？哪些是流动性最强？]]></title>
-        <id>https://www.0daily.com/post/5178540</id>
-        <link href="https://www.0daily.com/post/5178540"/>
-        <updated>2022-05-06T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Ben Giove，Bankless
-原文标题：《The Stablecoin Wars!》
-原文编译：杨树
-虽然 NFT、DeFi 和 DAO 在过去几年中占据了加密货币的中心舞台，但稳定币一直在后台悄悄增长。
-稳定币现今已成为加密货币行业最大、增长最快的赛道之一，总市值超过 1800 亿美元，这一数字在过去的 2021 年增长了约 109%，在过去的 2 年里则增长了 1748%。
-虽然该领域最初由 USDT、USDC 和 DAI 等主要参与者主导，但也有新的竞争对手进入市场并为自己打响名声——FEI、UST、FRAX 等协议都有自己独特的设计，并采取不同的发行策略。
-
-加密行业的稳定币赛道风险非常高，潜在市场规模达数万亿美元，且作为一种货币形式，这些稳定币资产受益于流动性带来的巨大网络效应，早期的赢家可以很容易地确立领先者的地位。
-而现在竞争越来越激烈，每个项目都想成为数万亿美元加密经济的储备稳定币，这当然引出了一个问题：谁在赢得稳定币战争？哪些增长速度最快？哪些是流动性最强的，并且被用于链上的各种用例？
-让我们来一探究竟，通过分析链上数据寻找答案。
-「种子选手」
-在深入研究链上数据以了解稳定币战争的状态之前，让我们简要介绍一下 7 个主要的稳定币/货币发行方，以便我们可以全面了解它们的工作原理，以及它们成功背后的一些驱动因素。
-出于我们的目的，我们将涉及 USDC、USDT、BUSD、UST、DAI、FRAX、FEI，以及 OHM（尽管它不是稳定币，而是一种非锚定货币）。
-虽然这 7 个稳定币项目不一定是市值最大的，但它们（原因如下文所述）处于保持或扩大市场份额的最佳位置，并且处于 DeFi 竞争最激烈的垂直领域之一。
-中心化稳定币
-USDC、USDT 和 BUSD
-USDC、USDT 和 BUSD 是三个最大的中心化稳定币。由链下实体发行，三者（据称）均…]]></summary>
-        <author>
-            <name>Foresight News</name>
         </author>
     </entry>
 </feed>
