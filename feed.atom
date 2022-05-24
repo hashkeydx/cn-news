@@ -2,10 +2,119 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-05-24T02:56:36.142Z</updated>
+    <updated>2022-05-24T03:48:17.564Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一场600亿美元的崩盘，一种新的银行挤兑]]></title>
+        <id>https://www.0daily.com/post/5178988</id>
+        <link href="https://www.0daily.com/post/5178988"/>
+        <updated>2022-05-24T03:40:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Zeke Faux & Muyao Shen，彭博社
+原文编辑：Unitimes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terra 的 Luna 和 UST 被认为是货币的未来。但它们依赖的是用户的信心，而信心可能瞬间消失。
+
+去年秋天，在一位朋友的建议下，Odosa Iyamuosa将自己 4000 美元的毕生积蓄投资于一种名为Luna的加密货币。28 岁的他住在尼日利亚的首都阿布贾，他自己在网上研究了这种加密货币，他的发现让他觉得它似乎很有希望。Luna 的价格一度飙升，这要归功于另一种与之紧密相连的稳定币TerraUSD (UST)的成功。一些加密行业的大公司已经对其进行了投资，包括Galaxy Digital Holdings、高频交易公司 Jump Trading，以及交易所 Coinbase 和 Binance 的风险投资部门。
+对 Iyamuosa 来说，Luna(Terra 链的原生治理代币)似乎是他离开阿布贾的最大希望。他表示，在阿布贾，许多工作的一天工资只有 2 美元，甚至更低。他通过向在 Instagram 上找到的当地买家出售仿冒的耐克和阿迪达斯 (Adidas) 运动鞋赚取了一些钱。他想把自己的储蓄增加到 1.6 万美元，并参加多伦多一所大学的一个数据分析项目，这样他就能在 Netflix 或谷歌等美国大公司找到一份工作。有几个月，他的计划似乎奏效了。他持有的 Luna 的价值曾翻了一番，“那时候我给妈妈和兄弟姐妹寄了钱，”他说道，“我也能吃得很好了。”
+然后这个月 Luna 和 UST 崩盘了。UST 是一种所谓的稳定币，这意味着它应该保持 1 美元不变的价值。但它已经跌到了 1 美元以下，而且还在继续下跌，一度价值超过 100 美元的 Luna 代币跌到了 1 美分以下，几乎抹去了其曾经超过 600 …]]></summary>
+        <author>
+            <name>Unitimes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IOSG Ventures：漫谈预言机赛道图谱]]></title>
+        <id>https://www.0daily.com/post/5178987</id>
+        <link href="https://www.0daily.com/post/5178987"/>
+        <updated>2022-05-24T03:10:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Sally
+原文来源：IOSG Ventures
+
+本文仅做行业学习交流之用，不构成任何投资参考。
+
+在过去几周的内容中，我们已经对预言机在未来web3广阔的应用场景进行了详细的论述。在认识到预言机所扮演角色的重要性后，我们认为有必要对预言机赛道进行更深入的调研和总结。
+因此，我们首先对市场上的主流的预言机产品进行了系统性的梳理（参见下图）。
+
+Oracle图谱
+在这里我们主要依据三种分类方式（特定功能、数据提供者、数据处理方式）对预言机进行了归类：
+1.特定功能
+根据预言机的具体功能，我们可以将其划分为五种，分别为：信用预言机、隐私预言机、乐观预言机、NFT预言机，以及去中心化预言机网络。
+a. 信用预言机Credit Oracle
+这种预言机可以通过利用现实世界（链下）和区块链（链上）的数据来计算用户的信用分数或信用等级，同时保持安全和匿名。
+例如，CreDA通过将用户的信用档案铸成NFT来提供链上信用评级，这使用户能够在各种用例中解锁优惠利率和激励措施，例如降低DeFi平台的借款利率。
+同时，它创建了一个DID工具，协助与其他系统的DID如Elastos DID、微软DID等进行身份信息交换，并确保该过程透明地实施。
+
+CreDID机制
+b. 隐私预言机Privacy Oracle
+隐私预言机提供的服务是将链下数据安全、私密地导入到区块链世界。
+Privy可以作为一个很好的案例，它倾向于在公共（链上）数据和私人（链下）数据之间架起访问的桥梁。它可以直接从平台的前端加密用户数据，并将数据私下关联到链上地址。
+
+Privy SDK接口
+c. 乐观预言机Optimistic Oracle
+乐观预言机是一个DeFi预言机，只用于解决有关流动性的争端。它通常可以为链上的任何任意数据提供服务。
+例如，UMA的争端解决系统，即DVM（数据验证机制）将不会被激活，除非有争端…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万字解读Avalanche：从兼容EVM的L1到「子网先驱者」]]></title>
+        <id>https://www.0daily.com/post/5178986</id>
+        <link href="https://www.0daily.com/post/5178986"/>
+        <updated>2022-05-24T02:39:53.000Z</updated>
+        <summary type="html"><![CDATA[撰文： Alice Li（Foresight Ventures），Kasper Jao（Avalanche Asia Star Fund）
+1. 简介
+Avalanche 凭借其独特的子网设计为市场提供了一种有趣的价值主张：它既可以被视为 EVM 兼容的 L1 , 也可以被视为异构网络互操作平台（类似 L0），L2 也能构建在 Avalanche 基础设施之上。自 2020 年创立以来，Avalanche 已经发展成为一个充满活力的生态系统，目前生态中有超过 500 个 Dapp，总锁仓量超过 50 亿美元。
+2022 年对于 Avalanche 来说将是充满变革的一年，随着子网获得更多关注，Avalanche 的身份将逐渐从另一个「以太坊杀手」演变为「子网先驱者」。
+
+「子网将成为加密领域的下一个增长引擎... 在过去五年中，智能合约为区块链领域的惊人创新奠定了基础，没有什么能比 Subnet 更能继承这一势头的。」
+——Ava Labs 创始人兼首席执行官 Emin Gun Sirer
+
+本文将从 Avalanche 的技术架构、应用场景、竞争格局到生态系统进行深度分析，帮助大家进一步了解 Avalanche 子网。
+2. Avalanche 概述
+Avalanche 是由 Ava Labs 开发的开源平台，为开发人员和企业提供了一个可互操作、高度可扩展的生态系统，用于创建以子网为基础的定制区块链。借助新颖的 Avalanche 共识，该 Avalanche 可以实现 4500 TPS 和近乎即时的 Finality。
+
+Ava Labs 是 Avalanche 背后的创始团队，由康奈尔大学计算机科学家兼教授 Emin Gün Sirer 与康奈尔大学的两名博士生 Ted Yin 和 Kevin Sekniqi 于 2018 年共同创立。该团队在分布式系统共识协议方面拥…]]></summary>
+        <author>
+            <name>Foresight</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Take-Two宣布以127亿美元完成对Zynga的收购，或将涉足链游领域]]></title>
         <id>https://www.theblockbeats.info/flash/83759</id>
@@ -2446,67 +2555,6 @@ Coi…]]></summary>
         <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 20 日，NFT 项目 UnicornDAO 宣布完成 450 万美元融资，World of Women 和 Moonbirds NFT 系列、MoonPay、Polygon 和 Yuga Labs 等参投。据了解，该项目由俄罗斯艺术团体 Pussy Riot 的创始成员 Nadya Tolokonnikova 领导，旨在为女性和 LGBTQ NFT 创作者赋能，此轮融资将用于推进 DAO 的工作，初始投资者将获得董事会席位。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[游戏区块链协议开发商Saga完成650万美元种子轮融资，Polygon Studios等参投]]></title>
-        <id>https://www.theblockbeats.info/flash/83204</id>
-        <link href="https://www.theblockbeats.info/flash/83204"/>
-        <updated>2022-05-19T15:34:01.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 19 日，据 TheBlock 报道，专注为游戏和娱乐行业开发「专属」区块链的初创公司 Saga 宣布以 1.3 亿美元估值完成 650 万美元种子轮融资，本轮融资由 Maven 11、Longhash Ventures、Hypersphere、Figment、Polygon Studios、Samsung NEXT、Chorus One、GSR、C2X、CRIT Ventures、Akash Network、Unanimous Capital、 Strangelove Ventures、Tess Ventures、Merit Circle、Hustle Fund、Polymer、Zaki Manian、Jae Kwon、Garrette Furo、Alex Shin、Nick Tomaino 等参投。
-
-Saga 可为开发人员定制满足其需求的专用区块链，可作为 Layer 1 和 Layer 2 的扩展解决方案。该公司计划在接下来的几个月里发布测试网，并在 2023 年推出主网和 Token。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[收益协议Stablegains在未披露情况下将客户资产投入Anchor，致4878名客户损失共4200万美元资金]]></title>
-        <id>https://www.theblockbeats.info/flash/83201</id>
-        <link href="https://www.theblockbeats.info/flash/83201"/>
-        <updated>2022-05-19T15:32:01.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 19 日，来自 Terra 研究论坛的 FatMan 在社交媒体上发文表示，收益协议 Stablegains 在未提前披露的情况下将客户的 USDC 和 USD 投入到 Anchor，损失了 4878 名客户的共约 4200 万美元的资金，并且可能无法偿还。Stablegains 已将其应用中的计价方式（denomination）从 USD 更改为 UST，还更改了其条款内容。根据截图，律师事务所 Erickson Kramer Osborne 已代表其客户向 Stablegains 发出信函。
-
-Stablegains 官网目前显示，已不对新用户开放。Stablegains 在两天前发布的公告表示，当用户通过 Stablegains 存入资金时，资金将转换为 UST，并存入 Anchor 协议，所有用户在 Stablegains 中的余额都会受到影响，用户可以选择提取资金或继续持有。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solana发布主网v1.9.22版本]]></title>
-        <id>https://www.theblockbeats.info/flash/83198</id>
-        <link href="https://www.theblockbeats.info/flash/83198"/>
-        <updated>2022-05-19T15:32:01.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 19 日，据 GitHub 显示，Solana 已发布主网 v1.9.22 版本，这是一个在 Mainnet Beta 上使用的稳定版本，主要更新包括：修复 BankingStage 数据包问题、仅允许在投票模式下忽略传入的数据包、将默认批量大小降低到 64 并添加 2 个 banking 线程。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[无惧“泡沫破裂”风险，瑞士宝盛进军加密领域]]></title>
-        <id>https://www.0daily.com/post/5178910</id>
-        <link href="https://www.0daily.com/post/5178910"/>
-        <updated>2022-05-19T15:14:55.000Z</updated>
-        <summary type="html"><![CDATA[本文来自彭博社，原文作者：Marion Halftermeyer
-Odaily 星球日报译者 | 念银思唐
-
-瑞士宝盛集团（Julius Baer Group Ltd.）表示，该公司正致力于为高净值客户提供数字资产服务，并认为当前全球加密市场的动荡可能是该资产类别的决定性时刻。
-这家总部位于苏黎世的私人银行在周四发布的一份关于更新战略的声明中表示，希望将自己置身于“数字资产和法币世界”的交叉点。目前，该公司正在实施试点计划，旨在向高净值客户提供加密货币方面的咨询、交易和投资服务。
-“坦白说，我们很可能正在见证加密行业的泡沫破裂时刻，我们都知道 30 年前互联网泡沫破裂后发生了什么。”该行首席执行官 Philipp Rickenbacher 周四在向投资者展示公司战略时表示。
-“但它为一个确实改变我们生活的新领域的出现铺平了道路；我相信数字资产和去中心化金融具有同样的潜力。”他进一步说道。
-Julius Baer 提供加密服务的转变与苏黎世竞争对手瑞银集团（UBS Group AG）形成鲜明对比。瑞银集团是全球最大的财富管理公司之一，迄今为止表示对为客户提供“投机性”资产咨询不感兴趣。相比较之下，Julius Baer 已经入股瑞士两家完全受监管的加密银行之一 SEBA Crypto AG。
-Julius Baer 表示，在 2019 年投资 SEBA 时，它“确信”数字资产——加密货币、区块链技术、代币化资产和 NFT 的统称——将成为“投资者投资组合中的合法可持续资产类别”。与 SEBA 的关系，使 Julius Baer 能够在不开发自己的加密资产托管和风险管理基础设施的情况下，为寻求获得加密货币相关投资和交易敞口的客户提供服务。
-该银行计划为客户开展自己的加密货币、DeFi 和区块链研究，并最终为该资产类别的投资和交易提供合规建议，以及在 Julius Baer 为客户提供这样的投资平台。
-Julius Baer 正在进行的试点项目涉及代币预订（booking）、交易和合规性，以测试和学习，并围绕数字资产开发词汇。
-瑞银：加密货币是“投机资产”
-瑞银首席执行官 Ralph Hamers 去年表示，这家财富管理巨头不会积极为客户提供投资或交易加密货币的服务，并称加密货币为未经测试的投机性资产类别。Hamers 在去年 10 月份的财报电话会议上表示：“我们不对投机提供咨询。”
-“我们认为，加密货币作为投资组合多元化或对冲通胀的工具是无效的，”由 Mark Haefele 领导的瑞银首席投资办公室本周在一份发放给高净值客户的报告中表示。同期，随着稳定币 UST 的崩盘，加密资产类别大幅下跌。
-迄今为止，全球银行对涉足新兴资产类别仍持谨慎态度，它们仍被认为风险太大且监管不足。银行还被要求为其资产负债表上持有的每一种加密货币持有大量资本，这使得在这种资产类别中开展业务成本高昂。摩根大通（JPMorgan Chase）首席执行官杰米•戴蒙（Jamie Dimon）周三在年度股东大会上表示，该行正在与监管机构合作，以制定更明确的加密货币规则。
-相较之下，传统金融更为关注的是随着区块链和加密货币的诞生而出现的新兴技术应用。
-此外，Julius Baer 还希望在这一领域进行投资，“在这一领域，旧银行系统中传统的成本高昂且复杂的部分如今只需几行代码就可以重写。”CEO Rickenbacher 提到了跨境支付和托管服务等领域，并称这类创新的时机已经成熟。
-Rickenbacher 表示，对于去中心化金融将“不可避免”地颠覆客户和该行自身业务的预期，Julius Baer 已经做好了准备。]]></summary>
-        <author>
-            <name>念银思唐</name>
         </author>
     </entry>
     <entry>
