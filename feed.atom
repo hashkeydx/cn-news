@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-05-27T12:16:56.189Z</updated>
+    <updated>2022-05-27T13:32:00.440Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Coinbase：稳定币和不稳定的收益率]]></title>
+        <id>https://www.0daily.com/post/5179108</id>
+        <link href="https://www.0daily.com/post/5179108"/>
+        <updated>2022-05-27T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：Coinbase
+原文作者：George Liu & Matthew Turk
+原文编译：ChinaDeFi
+
+在这篇定量研究文章中，我们将研究Compound Finance V2 DeFi 协议的稳定币贷款收益率，并分享我们对收益率表现、波动性以及哪些因素推动 DeFi 协议抵押借贷收益率的看法。
+虽然我们知道最近 Terra 的算法稳定币 TerraUSD (UST) 的崩溃，但我们在这里的分析是关于中心化稳定币的抵押贷款收益领域。
+我们在这篇文章中得出结论，使用稳定币进行低风险(在DeFi范围内)抵押贷款，可以优于传统金融市场的无风险投资。
+USDT / USDC收益率分析
+已将资产放入流动性池的 Compound 用户可以使用 exchangeRate 计算总借贷收益率，这表明贷方随着时间的推移可以获得的利息价值，从时间T1到T2可获得：
+R(T1,T2)=exchangeRate(T2)/exchangeRate(T1)-1
+此外，这种类型的抵押贷款的年化收益率(假设连续复利)可以计算为：
+Y(T1,T2)=log(exchangeRate(T2)) — log(exchangeRate(T1))/(T2-T1)
+虽然Compound流动性池支持USDT、USDC、DAI、FEI等多种稳定币资产，但这里我们只分析前两种稳定币，即USDT和USDC，它们的市值分别为800亿美元和530亿美元。它们合计占据了稳定币总市场的70%以上。
+下面是根据上一节的公式计算出的年化日、周、月和半年收益率的图。日收益率有些波动，而周收益率、月收益率和半年收益率分别是之前图的平滑版本。USDT和USDC在图中有相对类似的模式，因为它们在2021年初都经历了高收益率和高波动性。这表明，有一些系统性的因素正在影响整个稳定的借贷市场。
+
+
+来源：the graph
+可能影响贷款…]]></summary>
+        <author>
+            <name>ChinaDeFi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase四位高管通过出售股票已获得约12亿美元收益]]></title>
+        <id>https://www.theblockbeats.info/flash/84482</id>
+        <link href="https://www.theblockbeats.info/flash/84482"/>
+        <updated>2022-05-27T12:21:42.000Z</updated>
+        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 27 日，据华尔街日报对监管文件的分析显示，自加密货币交易平台 Coinbase 在去年公开上市以来，Coinbase 的联合创始人 Brian Armstrong 和 Fred Ehrsam，以及总裁兼首席运营官 Emilie Choi 和首席产品官 Surojit Chatterjee 四位高管通过出售股票总共获得了约 12 亿美元的收益。在此期间，该公司的股价已经下跌了约 80%。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Glassnode：处于亏损状态的以太坊地址数超3400万个，创近两年新高]]></title>
+        <id>https://www.theblockbeats.info/flash/84479</id>
+        <link href="https://www.theblockbeats.info/flash/84479"/>
+        <updated>2022-05-27T12:08:42.000Z</updated>
+        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 27 日，据 Glassnode 数据显示，处于亏损状态的以太坊地址数（7 日平均）达 34,112,307.018 个，创近两年新高。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[加密基础设施服务商 Figment 不打算在发布时支持 Terra 2.0]]></title>
         <id>https://panewslab.com/zh/articledetails/cdp0fvxq.html</id>
@@ -16,6 +63,37 @@
 来源链接]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[慢雾：29枚Moonbirds NFT被盗事件溯源分析]]></title>
+        <id>https://www.0daily.com/post/5179110</id>
+        <link href="https://www.0daily.com/post/5179110"/>
+        <updated>2022-05-27T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：山哥&耀@慢雾安全团队
+事件背景
+5 月 25 日，推特用户 @0xLosingMoney称监测到 ID 为@Dvincent_的用户通过钓鱼网站 p2peers.io 盗走了 29 枚 Moonbirds 系列 NFT，价值超 70 万美元，钓鱼网站目前已无法访问。该用户表示，域名 sarek.fi 和 p2peers.io 都曾在过去的黑客事件中被使用。
+
+（https://twitter.com/0xLosingMoney/status/1529401916849291264）
+搜集相关信息
+
+
+
+慢雾安全团队收到相关情报并针对此次被盗事件进行朔源分析。
+我们开始在 Twitter 上搜集并分析此钓鱼事件的相关信息时，发现@Dvincent_ 就是黑客的 Twitter 账号，目前该账户已经被注销。而根据 5 月 10 日的记录，推特用户 @just1n_eth（BAYC 系列 NFT 持有者）就表示 @Dvincent_ 曾与其联系交易 BAYC NFT，但由于对方坚持使用 p2peers.io，交易最后并未达成。
+
+
+（https://twitter.com/just1n_eth/status/1523896505446191104）
+在该推特评论下用户 @jbe61 表示自己曾遇到同一个人并给出了对话截图：
+
+5 月 25 日晚，@0xLosingMoney 继续在 Twitter 公布了黑客的钱包等相关信息。
+
+（https://twitter.com/0xLosingMoney/status/1529401927590907904）
+下面是 @0xLosingMoney 给出的黑客地址：
+➼0xe8250Bb4eFa6D9d032f7d46393CEaE18168A6B0D
+➼0x8e73fe4d5839c60847066b67ea657a67f4…]]></summary>
+        <author>
+            <name>慢雾科技</name>
         </author>
     </entry>
     <entry>
@@ -5169,16 +5247,6 @@ BUD 由两位前 Snap 工程师 Risa Feng 和 Shawn Lin 于 2019 年创立，总
         <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 23 日，据 NFTGo.io 数据显示，goblintown.wtf NFT 系列 24 小时成交额已达 581.4 万美元，增幅为 173.19%。截止发稿，其地板价为 0.57 ETH，24 小时涨幅为 212.46%。
 
 据该项目网站信息显示，该 NFT 系列共 1 万枚 NFT，发布时采取免费铸造形式，每个钱包地址限铸造一枚，项目团队和路线图信息都暂未发布。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：以太坊Gas使用量7日平均值创9个月来新低]]></title>
-        <id>https://www.theblockbeats.info/flash/83534</id>
-        <link href="https://www.theblockbeats.info/flash/83534"/>
-        <updated>2022-05-23T00:41:23.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 23 日，据 Glassnode 数据显示，以太坊总 Gas 使用量 7 日平均值（7d MA）为 3985381631.815，创 9 个月来新低。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
         </author>
