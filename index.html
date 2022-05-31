@@ -635,6 +635,515 @@ Village Studio 由游戏行业资深人士 Will Luton、Cyril Barrow 和 Tak Fun
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179187"
+                        open
+                      >
+                        <summary class="article-expander__title">三分钟看懂NFT空投新骗局：通过虚假WETH报价盗取资产</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179187">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者： NFT &amp; MEV 开发者 0xfoobar
+原文编译：DeFi之道
+“我的钱包突然获得了一个未知 NFT 收藏品的空投，然后有人提供了 1 WETH 的报价。这是怎么回事？接受它安全吗？”
+
+长话短说，这些都是骗局，你无法通过交互获利。现在，让我们来了解一下这些骗局的原理！
+OpenSea 的工作方式是通过“授权”来转移你的 NFT 或 WETH，而“授权”是你直接在代币合约上调用的特殊智能合约功能。它说：
+“代币合约，请允许这个市场合约使用的我的资金或 JPG。”
+
+这是危险的！但仅限于一个方向。如果市场是恶意的，那它就可以窃取你的资金和 JPG。但是，如果资金/JPG 是恶意的，那他们“就无法”窃取你的市场。
+设计不佳的市场可能会存在一个漏洞，允许一个已授权的集合窃取另一个已授权的集合。这就是为什么我们要只使用健壮的、经过良好测试的网站。
+下面是利用 opensea 使用的旧 Wyvern 合约进行攻击的示例：
+
+因此，你只能通过调用资金/JPG 合约来批准使用资金/JPG 的外部合约。
+而不是通过调用一个外部合约。
+这就是为什么理论上与恶意合约交互是“安全的”，前提是你的交易直接进入恶意合约，并且你没有将任何原始 ETH 发送到 payable 函数。
+但请注意，不要自己尝试这种危险操作。
+当然，当人们认为他们正在与外部合约交互，但实际上正在与他们的资金/JPG 合约交互时，就会发生危险。
+会有一个网站跳出来跟你说：“点击此处以激活你的猿猴”，但钱包交易说的实际是“SET APPROVAL FOR ALL”（将所有权限全部批准出去）。
+在醉酒/兴奋/昏昏欲睡/fomo 等情绪组合的影响下，人们就会签名将他们的毕生积蓄拱手让给他人。
+那么，如果黑客无法控制你的钱包或资产，这些虚假的 NFT 报价游戏的计划是什么呢？
+恶意行为者使用了几种攻击计划：
+
+当你批准 opensea 市场合约以使用你的 NFT，然后尝试接受该报价时，报价接受将会恢复。错误消息会包含一个 URL，如果你访问该网站，它会试图让你签署一笔恶意交易。
+
+NFT 是一种代理合约，它可以在之后替换为不同的实现逻辑。
+
+以下是一个从 260 个不同地址接收 dust 粉尘交易的地址，其中每个地址都创建了一个代理合约，以伪装成一个唯一的集合。
+
+这些不良行为者的命中率很低，因此为了 gas 优化，他们将使用具有重 NFT 代码逻辑的单个实现合约，并部署许多看似独立集合的轻量级代理。
+这里有更多关于代理模式的内容。
+一些人认为，最近的 NFT 代理部署者开发了秘密功能，如果你在代理上调用 approve，那他就可以窃取你的所有 NFT。
+出于上述的原因，这似乎是完全错误的。
+gas 优化是最可能的代理使用假设。
+OpenSea 前端在它调用的集合功能方面相当封闭，因此大多数虚假的 WETH 报价，只是为了引诱你去一个钓鱼网站。
+总结一下：
+虚假 WETH 报价将允许你批准该 NFT 的销售，但在你尝试接受报价时，交易会恢复。这会导致你浪费了 gas 手续费，同时又在 Etherscan 上 revert 消息引诱你进入钓鱼网站。
+请保护好自己的钱包安全！
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179186"
+                        open
+                      >
+                        <summary class="article-expander__title">一文了解NFT PASS：5种类别，2大赋能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179186">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《5 大类别，2 大赋能，深度理解 NFT PASS》
+原文作者：Breeze
+虽说区块链是开放的系统，但是现在准入门槛正在成为一种新常态。以 NFT PASS 为代表的准入式玩法正在受到追捧，背后主要有 2 个原因：
+ 一是 NFT 项目需要 NFT PASS。NFT PASS 将初代 NFT 和后代 NFT 连接到一起。以 BAYC 为例，用金铲子（BAYC）挖银铲子 (MAYC)，用金银铲子 (BAYC、MAYC）挖地（Otherdeed），从而衍生出副 IP、开放性故事，乃至元宇宙生态。NFT PASS 延长了 PFP 的热度和生命周期。
+二是用户追求 NFT PASS 标的。一方面，NFT PASS 提供进入私人俱乐部的权利，参与测试和提前 mining 的资格，获取最新消息和专业工具的敞口等。NFT PASS 打造的资源优势是用户所需要的。另一方面，优质 NFT PASS 承诺的空投、白名单等确实让用户获得了收益。 
+
+57 个 NFT PASS 类项目，来源：哔哔 News
+伴随 Moonbirds、0xOG PASS 的热度，市场上已经有非常多的 NFT PASS 项目。它们可以被分为俱乐部型、合作型、alpha 社区型、工具型等类型。整体来看，这些项目的模式和功能比较重合。NFT PASS 对于 NFT 的赋能并不明显。反过来，NFT PASS 的价格依赖于 NFT IP 本身。
+NFT PASS 提供哪些赋能？
+NFT PASS 可以理解为 Web3 世界的会员卡，由各大项目方推出。用户通过购买 NFT PASS 提前锁定一些权益，比如成为私人 Discord 社群的成员，获得后续子项目的空投或铸造白名单，以更低的成本参与合作项目，参与线上线下活动，使用一些内部工具或功能等。
+哔哔 News 统计了 57 个 NFT PASS 项目，发现 NF…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179185"
+                        open
+                      >
+                        <summary class="article-expander__title">全景解析加密生态系统现状：哪些赛道和项目将率先打破僵局？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179185">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：tolks
+原文编译：DeFi之道
+免责声明：以下内容不属于财务建议，作者拥有文章中所涉及的一些代币。这篇文章概述了大部分加密货币生态系统，特别是作者认为最有趣的协议和领域的发展。
+对于那些想要快速了解文章的铁子们，下面是文章的内容要点：
+1．介绍当前加密货币生态系统的情况
+2．开发者在做什么——开发者规模的增长、他们的重要性和激励措施
+3．播种——概述了风险投资的好的、可取的部分
+4．我们收获了什么——概述了各个领域的情况，以及领头项目
+
+扩容（L1/L2）、NFT、扩容基础设施、代币激励机制、GameFi、互操作性和桥
+
+5．接下来会发生什么
+
+探讨我很高兴看到的发展，以及所涵盖的行业将如何相互结合和利用来推动下一个周期的到来
+
+我对当前市场的展望以及对今年接来下几个月的看法
+
+当前加密货币生态系统的情况
+币圈的老铁们应该都知道，加密货币的价格波动会出现周期性的规律。往往加密货币市场在暴涨之后都会出现大幅度的修正行为，并在下一个大周期开始之前进入令人不寒而栗的深熊阶段。比特币的价格在去年 11 月 8 日达到了历史高点，当时的币价是 6.8 万美元，而以太坊的价格也在同一天也达到了历史最高的 4800 美元，目前大部分主流币与历史高点相比已经下跌了 60%，许多山寨币更是下跌了 80% 以上。
+自加密货币市场的总市值达到历史新高以来，我们经历了自 80 年代以来史无前例的通货膨胀（印钞机在不断印钱），由于俄罗斯入侵乌克兰而导致商品价格飙升，一些国家因新冠病毒持续影响从而加剧了供应链的问题，以及美联储承诺通过加息来解决其中一些问题和膨胀的资产价格。虽然我没有上述问题的全部答案，但我希望这篇文章能够通过回顾加密货币市场已经建立的东西来减轻人们对长期市场方向的担忧，我将在文章中强调一些积极的前瞻性指标，并激励人们越来越多的去探索加密货币的垂直领域，它们的结合将推动下…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179184"
+                        open
+                      >
+                        <summary class="article-expander__title">我们会再次经历2018年那样的加密寒冬吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179184">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：DappRadar
+原文编译：粒之
+年轻的加密货币市场正面临着历史上最关键的时期。
+自2021年11月达到69000美元的历史高点以来，比特币已经下跌了55%。就在几周前，第二大DeFi生态系统Terra崩溃，创下现代史上最大的财富损失事件。因为市值排名第7和第10的代币的蒸发，几天之内，散户、机构甚至企业投资者在LUNA和UST中损失了600多亿美元。
+更为复杂的是，加密货币和美股之间的相关性在2022年达到历史新高。加上乌克兰战争，40年来的最高通胀率，以及美国的货币政策，都是过去六个月下跌趋势的不利因素。
+
+
+
+直面另一个加密寒冬会让人不安。然而，自2018年以来，该行业经历了加速演变，上一个寒冬持续了约18个月，让数百个在IC0时代诞生的项目冰封在我们的记忆中。
+本文将2018年的加密寒冬与目前六个月的熊市趋势进行了比较，试图评估加密寒冬是否真要来临，以及加密货币行业在未来几个月可以期待的地方。
+
+
+
+
+
+01
+
+
+
+
+
+
+
+
+
+IC0时代和第一个加密寒冬
+
+
+
+
+
+
+
+
+2017年，在IC0热潮的推动下，加密货币领域经历了第一个明显的扩张期，于当年12月达到大牛市顶峰，许多现有的初创公司和新项目利用加密货币作为新的融资机制。
+从宏观角度看，当时人们对经济持续复苏持乐观态度。Epic Games的游戏《堡垒之夜》创造了85亿美元的年收入，而Apple成为最有价值的品牌，科技和数字股票正在蓬勃发展。
+围绕加密货币初创企业的兴奋情绪吸引了大量资本进入该领域，其中大部分来自于散户。许多企业把名字改成带有“区块链”或“加密货币”的名字，一些企业甚至决定调整整个运营方向，以抓住这一趋势——这让人联想起互联网泡沫。
+
+
+
+然而，当时区块链行业的采用率较低，甚至比现在更不规范。到2017年底，只有104个Dapp上线运行，当时加密货币总市值首次超过8000亿美元。BCH…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179178"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT数据日报 | Tigerbob NFT Genesis Collection在过去24小时内最受巨鲸欢迎（5.31）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179178">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
+宏观市场指标
+截至 5 月 31 日 15 时，NFT 整体市值 267.70 亿美元，较 24 小时前增长 1.81%；过去 24 小时内总交易量约 4953 万美元，日环比增长 5.45%。
+
+按过去 24 小时成交量，排前三的子领域分别为 PFP（3524 万美元）、Utility（473 万美元）、和 Collectibles（305 万美元）。
+
+项目排名
+按过去 24 小时成交量，排名前五的项目分别为 Dreadfulz（1145 万美元）、Bored Ape Yacht Club（272 万美元）、Otherdeed（216 万美元）、Tigerbob NFT Genesis Collection（213 万美元）和 Meebits（194 万美元）。
+
+按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为  BearBox | Mint Live 0.025ETH（190.39%）、MinionSilhouette（98.20%）、Tigerbob NFT Genesis Collection（47.00%）、UNSEEN UNIVERSE Official（14.27%）和 Rare Land NFT（14.03%） 。
+
+特色数据
+过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：Eclipse - Rabbit、ape mfer #202、BeanBag Fren #6087、BeanBag Fren #2201 和 DI Animals #4403。
+
+最受巨鲸欢迎项目排前五的分别是：Tigerbob NFT Genesis Collection、MinionSilhouette、rektguy、goblintown.wtf 和 Chimpers。
+
+元宇宙平台中，过去 24 小时内，Otherdeed 上的地块最低成交价为 2.14 ETH、平均成交价为 5.7 ETH；The Sandbox 上的地块最低成交价为 1.12 ETH、平均成交价为 1.65 ETH；Decentraland 上的地块最低成交价为 1.76 ETH、平均成交价为 3.45 ETH。
+
+欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
+相关阅读
+新项目 | rektguy：激光骷髅酒蒙子，下个NFT蓝筹？
+数据解析：NFT钻石手动向，分布和投资策略
+格局打开：NFT持有者决定IP天花板</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179180"
+                        open
+                      >
+                        <summary class="article-expander__title">Cobo Ventures：全方位解析NFTFi赛道发展现状与趋势</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179180">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《NFTFi 深度解析——从当前市场，看未来 NFTFi 的发展》
+原文作者：Alex Zuo、Ellaine Xu、Walon Lin、Caroline Li 以及 Yuwei Hou 等 Cobo Ventures 团队成员
+原文来源：Cobo Ventures
+NFTFi 概览
+背景
+NFT已成为加密世界不可或缺的重要篇章。自 2021 年出现 NFT Summer 热潮至今，以太坊最大的 NFT 平台 Opensea 周交易量已达十亿美金量级，独立钱包数维持在 30 万以上（Dune Analytics @hildobby, 2022)。
+然而，NFT 非同质化以及难以定价的特性，使得 NFT 存在流动性低等问题，进一步导致资金门槛过高、资金利用率不足等。NFT 持有者除了在资金短缺时只能用较低的价格抛售，或是因为资金体量小而无法参与部分蓝筹项目之外，也会因为估值困难而产生流动性损失。为了解决 NFT 的这些问题，近期市场提出了 NFTFi 的概念，试图用金融化的方式增加 NFT 的流动性、可定价性、利用度与兼容性，以期创设更好的 NFT 玩家体验。
+赛道规模
+基于蓝筹 NFT 的估值，我们可以对当前 NFTFi 的赛道规模进行估算。
+目前主要的蓝筹 NFT 价值（参考地板价且 ETH 价格按 2000 USD 计算）：BAYC 约为$1.72 billion、Moonbirds 为 $440 million、Azuki 为 $237.4 million、Doddles 为$237 million、CryptoPunks 为 $953.2 million，总估值约 35.87 亿美金。
+而土地类型的 The Sandbox, Arcade 与 Decentraland 因为有明显稀有度排名，不宜用地板价进行计算，故未作纳入。考虑到未来的上升空间，蓝筹 NF…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179179"
+                        open
+                      >
+                        <summary class="article-expander__title">新项目 | REBASE：玩法类似Pokémon Go的NFT铸造平台</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179179">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>REBASE（原DDrop）是一个基于地理定位技术的社交 NFT 铸造平台，在今年1月，REBASE 宣布获得 800 万美元融资，投资者包括 Animoca Brands、三箭资本、DeFiance Capital、Alameda Research、Spartan Capital、Genblock Capital、Antifund VC 和 PANONY 等。
+具体来说，REBASE 创建了一种类似于 Pokémon Go 寻宝模式的 NFT 铸造形式，该项目主要由三部分构成：
+1.reBASE 2D -  基于&quot;Find to Earn&quot; 机制的 NFT 铸造模式
+REBASE 想要改变主流的 NFT 铸造模式，通过使用地理定位技术，创建者可以使用 reBASE APP 将存储在移动设备内存中的文件如图像、电影、声音等放置在选定的路线上，之后应用程序会通过内置钱包自动创建基于 Solana 区块链的 NFT。用户还可以设置出他想要出售 NFT 的价格。而铸造者需要沿着该路线来寻找 NFT 并铸造以获得奖励。
+REBASE 还会与知名艺术家、品牌方合作创建独家 NFT，这些 NFT 将在 reBASE APP 和现实世界的指定地点进行，并且数量有限。目前已经与街头服饰的教父 Hiroshi Fujiwara 和现代滑板文化的先驱 Mark Gonzales 合作。
+此外，reBASE APP 内还会有一个 NFT 市场，用户可以在其中交换、销售或购买 NFT。除了这些功能外，该应用程序还具有所有典型的社交功能，例如添加朋友、关注 KOL、分享内容、评论、点赞等。
+2.reBASE LAND
+reBASE LAND 通过启用地理定位技术来模仿现实世界，用户可以在其中购买覆盖在现实世界位置的土地。这些土地以 NFT 的形式呈现，购买一块土地也意味着你可以通过出售、出租或在其上质押 $reBASE 来赚取收益。此外，用户也可以在土地上放置有价值的 NFT 来吸引其他玩家铸造。
+3.reBASE 3D
+3D AR 模块允许用户创建 3D 模型，这些模型既可以显示在虚拟 3D 空间中，也可以作为 AR 对象在现实空间中呈现。每个 3D 对象都是 Solana 上的 NFT 并存储在 Arweave 区块链上，用户还可以将 3D 模型放置在 reBASE LAND 上，比如创建 3D 建筑物，吸引其他用户来访问和互动。也可以创建自己的 3D 商业中心。
+对 REBASE 最新进展感兴趣的朋友，可以关注官方推特和Discord。
+Odaily星球日报的【新项目】栏目旨在帮助 Web3 早期项目获得市场曝光机会，如果你也是 Web3 创业者，欢迎关注官方推特@OdailyChina，私信备注【寻求报道】，发送你的项目简介和联系方式，我们将尽快与你沟通。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179177"
+                        open
+                      >
+                        <summary class="article-expander__title">新项目 | JpeX：拿下以太坊黑客松大奖的NFT期权项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179177">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>上周，ETHGlobal 举办了一场规模盛大的以太坊黑客松活动 HackMoney 2022，活动迎来了 1205 名开发者、214 个项目的积极参与，最终评选出了 10 个极早期的优质项目，并向这些项目拨付了 30 万美元的奖金。
+
+
+本期我们要介绍的 JpeX 就是在 HackMoney 2022 中脱引而出而出的优质项目之一。
+从定位上看，JpeX 想要做的是首个以 NFT 为标的的期权交易平台，通过 JpeX，交易者可以在不拥有或不出售相关 NFT 的情况下从二级市场的波动中获利。交易者可以买入看涨期权，用较小的资金去参与天价蓝筹 NFT 的上涨，或是买入看跌期权，来对冲手中高价 NFT 的下跌风险。
+从具体的执行流程上来说，JpeX 上的一项期权将会分为 5 个阶段执行：
+
+首先是初始化阶段，这部分的工作是设置行权价格和到期时间。
+
+接着是存款阶段，交易者可以存入资金，选择购买看涨或看跌期权。
+
+再然后就是运行阶段，该阶段内将不会再接受交易者存款。
+
+接下来将是结算阶段。
+
+最后就是收尾阶段，交易者将能够根据期权的内在价值获取相应收益。
+
+开发进度上，JpeX 目前部署在 Polygon Mumbai 测试网，HackMoney 2022 时已提交了看涨期权的最小可行化（MVP）版本，看跌期权的架构则仍在研究中。根据官方披露，JpeX 当前已完成了钱包链接、链上 DID（unstoppable domains）相关的整合工作，接下来的主要任务是完成与 ChainLink 预言机的整合，与此同时 JpeX 也在研究如何集成 UMA 的 optimistic 预言机，以使报价更加去中心化。
+对 JpeX 最新进展感兴趣的朋友，可以关注官方推特，官方网站也将于近期上线。
+Odaily 星球日报的【新项目】栏目旨在帮助 Web3 早期项目获得市场曝光机会，如果你也是 Web3 创业者，欢迎关注官方推特@OdailyChina，私信备注【寻求报道】，发送你的项目简介和联系方式，我们将尽快与你沟通。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179175"
+                        open
+                      >
+                        <summary class="article-expander__title">HANGOUT：为Web3社交元宇宙开放流量新入口</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179175">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>人类对打破时空和空间界限的虚拟世界一直都充满着好奇和向往。于是当元宇宙概念出现时，越来越多的加密爱好者和投资者涌向这一赛道，这包括了各大科技互联网巨头，如 Facebook、微软、谷歌、苹果、亚马逊等。字节跳动更是接连投资了三家元宇宙公司。韩国更是大力押注元宇宙赛道，仅在一个月内就推出了四只专注于元宇宙的 ETF。
+长期来看，元宇宙的内容游戏化和场景娱乐化是基金布局的重要领域，而作为可视化元宇宙的基础单元，虚拟土地率先成为了重要的价值载体，其市场规模和需求出现了显著的增长。例如灰度基金创始人 Barry Silbert 就于 2019 年花费了 8.1 万美元购买了 Decentraland 上的 64 块虚拟土地。市场巨大的需求也为早期投资者带来了巨额的回报。
+加之虚拟土地在开发和建设上也有着更多的可能性，例如娱乐设施、商业中心、社交空间等等，继而成为了众多创业者青睐的创业方向。
+
+一、备受追捧的地块NFT
+
+近期 Otherdeed 的加入，让地块 NFT 赛道进入爆发期。根据 WeMeta 收入的 6 个地块 NFT （Decentraland、The Sandbox、Cryptovoxels、Somnium Space、NFT Worlds 以及 SuperWorld）统计数据显示，近期，这些虚拟土地平均市值已达 32 亿美元，总交易超过 8 亿美元。而这一垂直领域依然处于早期阶段，发展空间巨大，坐落于不同生态、打不同运营路线的项目间还未形成正面对抗。新项目也有诸多亮眼的出发点。
+我们近期关注到的 Hangout 便是其中一员。Hangout 的亮点在于它并不是一个单纯的 NFT 项目，而是一个提供技术支持的功能性整合平台。Hangout 通过多链布局，整合赋能 NFT、DeFi、GameFi、DAO 等各类区块链项目，进而构建未来的区块链商务生态系统，并最终以元宇…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179168"
+                        open
+                      >
+                        <summary class="article-expander__title">万字详谈Token经济学：从理解用户想要什么开始</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179168">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Packy McCormick &amp; Tina He
+原文编辑：南风
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+当试图理解 Token (代币) 时，我们很容易从我们已知的知识中得出结论。
+
+有时，Token 的功能类似于公司的股权，拥有 Token 类似于持有该项目潜在收益的股份。其他时候，Token 的作用就像“感恩的 Token”，象征着亲密朋友之间最纯粹的善意。其广泛的角色并不是一个 bug，而是一种在最抽象的意义上表示价值的特征，其意义由系统的设计赋予。换句话说，Token 不一定有任何内在价值，但有相对价值。它是一个被特定系统普遍认可和执行的价值单位的封装。
+Token 几乎不是一个新概念。贝壳和珠子是最早作为交换媒介的 Token。其他我们今天所熟悉的——比如赌场筹码、信用卡积分、股票证书、音乐会门票和俱乐部会员——都是各种形式的 Token，因为它们代表了一种普遍认可的价值单位，并由发行该 Token 的系统强制执行。当各自的系统未能强制执行和认可这些 Token 的价值时，司法管辖区可以介入以保护 Token 持有者。
+想想你最近与之交互的 Token：它允许你做哪些你在不持有它的情况下无法做到的事情？你为什么持有它并想要持有更多？如果你放弃或转让 Token 的所有权，会发生什么情况？对许多人来说，这些问题的答案是“获得更多 Token”。对其他人来说，持有 Token 可以让他们有参与自己非常关心的项目和社区的权利。前者涉及的是持有 Token 的经济学，后者涉及的是访问权。
+当系统中的价值累积与Token 的价值累积不一致时，Token 设计就很糟糕。Gabriel Shapiro恰如其分地将 UNI、COMP 以及最近推出的 APE 等 Token 描述为“关联价值”(value by association…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179167"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3游戏的现在与未来：经济、游戏商业模式和劳动力市场的变化</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179167">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Joel John，Siddharth
+原文编译：Block unicorn
+
+Web3 游戏往往因为糟糕的游戏画面、糟糕的用户体验而令人讨厌。我将从经济变化、游戏商业模式的变化和劳动力市场的演变等方面分析它们的存在原因。
+
+我们很容易抨击 Web3 游戏目前的模式，它们是破碎的体验。用户需要储存钥匙（钱包助记词、私钥），通过匝道，然后花费数千美元才能享受游戏的乐趣。当主流游戏只花很少的成本就能获得更好的体验时，为什么还要花这么多钱去玩 Web3 游戏呢？当他们在一个坏掉的产品上赔钱的时候，谁愿意面对一群尖叫着 WAGMI（我们都能成功）的人呢？我喜欢我的《侠盗猎车手 5》和《荒野大镖客》，现在的 Web3 游戏要想和它们（传统游戏公司）竞争还太牵强了。
+但作为一名在游戏中投入大量时间的投资者，我认为 Web3 游戏的某些方面我们并没有注意到。所以今天我想花点时间解释一下，为什么 Web3 游戏领域的潮流不可能在未来消失。这个话题首先引起我的兴趣是在查阅 Nansen 的行业 NFT 指数时。我注意到包含 50 款游戏的指数自今年年初以来已经下跌了 65%。相比之下，标准普尔 500 指数下跌了 17%，比特币下跌了 37% 有多。幸运的是，我们有 STEPN，帮助我们走路赚钱。
+
+为什么现在没人关心 Web3 游戏
+撇开讽刺不谈，反对 Web3 游戏的观点相对简单。首先，在技术技能和资金方面存在很高的进入壁垒。当你开始接触游戏时，你会发现它的图像与传统 3A 游戏相差甚远。假设图像可以被忽略 —— 它通常缺乏故事情节，这年头谁为了故事玩游戏啊。也许，有一个强大的社区？也许不是。Web3 游戏社区可能充斥着希望快速赚钱的用户。也许有很多钱可以赚？可能不是。市场已经饱和，自 2021 年第二季度以来，从玩到赚的经济的资本收入已经减少。
+Web3 游戏的奇怪之处在于，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179166"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT画风全景图：从GoblinTown爆火说起</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179166">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>写在前面：独一无二的画风，是项目方创意性与有机性结合的一种宣传方式。PFP NFT的展现形式，不仅能为持有者带来一种社群群体的归属感；又能通过艺术家作品的画风作为项目与玩家之间传递的枢纽，映射到每位持有者各不相同的身份个性，以及最重要的，态度，正如 &quot;GoblinMode&quot;。
+根据5月30日数据，Goblintown交易量在前7天内增幅约为355%，相较于26日前峰值的4.4K ETH，目前总交易量已达三倍有余。在Opensea 26日的24小时交易榜单上，Goblintown也荣登榜首。
+
+数据来源：NFTGo.io
+在过去的7天时间内，Goblintown的交易量于25日达到峰值，相较于之前的24h内增幅300%，共有约3500笔买卖在此区间内成交。
+
+数据来源：NFTGo.io
+2022年5月21日，Goblintown NFT通过免费公售的形式在以太链上发售，发行总数量为9999个。在Goblintown NFT爆火的背后，风格是其中一个关键因素。而画风加之meme特性传播等特点，使项目在短暂一周的时间内，成为了熊市内的一匹逆势黑马。
+ 1/1 NFT 的高识别度
+除去各类迥异的魔性生物，Goblintown的1/1藏品“碰瓷”了其他众多的名气人物，赋予了图像独立的高识别度。像是Pixelmon的Kevin、Twitter著名“反指”的电子舞曲音乐人SteveAoki、神似哈利波特中的霍格沃兹校长和漫威中的“鹰眼”克林特巴顿。
+
+数据来源：NFTGo.io
+值得一提的是，在所有成交的交易中，Goblintown #8995、#7944、#5948分别以69.42e、30.3e、26e获得最高交易额的前三位。并且在最高交易额的前十中，共有7张1/1以至少9e的价格售出，平均换手率达2.1次。由此可见，项目方在稀有度的设计上别有用心，让高稀有度的藏品均具备了各自独立的特…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179165"
+                        open
+                      >
+                        <summary class="article-expander__title">加密行情下行，投资者或将再次青睐Staking理财产品？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179165">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>随着美联储加息50个基点，美股市场与加密市场纷纷开始剧烈下跌，比特币跌破3万美金，一众主流币价格较跌破支撑位，随着价格下跌的还有投资者对加密货币市场的信心。
+在这样的市场情绪下，相较于风险投资和交易，加密货币投资者更倾向于将自己持有的数字资产投入一些保本保息或者可以获得低风险收益的机会中。这个低风险的收益可能来自于主流 DeFi协议，也可能来自于中心化交易所提供的理财产品。
+寒冬已至，投资者更青睐的产品是什么？
+UST脱锚事件以后，很多投资用户对于DeFi产品开始心存顾忌，最终苦于手中持有的Token「无用武之地」。中心化交易所面对当下的加密货币寒冬，积极探索布局理财产品，以杠杆理财、Staking、活期理财、流动性挖矿等为主，这其中比较有代表性的是Bitfinex推出的Staking 活动,币安的币安宝、OKX的余币宝等，这些交易所的理财产品相对来说，风险性较低，也为活期存取，能在保证收益率的同时保证投资者的资产流动性，但是不同的交易所的同样类型的理财产品却有着不同的特点。
+币安——币安宝
+此产品主要是为一些持有代币希望可以获得利息又不失资产流动性的用户提供的，币安宝支持数百个代币的自由存取，这是一个低风险获利的好方法。但是总的看来，币安宝的利率偏低，以Polygon 链上的原生token matic 存入的年化仅有6%，而且币安交易所会收取一定的费率。
+
+OKX——余币宝
+同样，余币宝也是OKX推出的一款帮助用户能够利用空闲数字资产赚取利息的理财产品，也是随存随取，按小时分配，用户可以自己设置利率，更加偏向于C2C，不过平台只是作为一个中间平台，并不一定保证用户资产的借出和收益。同样，是以matic 为例，余利宝的收益仅为1%。不过因为支持的币种足够多，这款产品受众还是很广的，所触及的粉丝群体也很大，很多投资用户看重自己投资的代币不愿意在熊市卖掉低价筹码，都会愿意使用这…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179164"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | 奢侈品牌普拉达将推出Timecapsule NFT系列；韩国当局传唤Terraform Labs全体员工进行全面调查（5月31日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179164">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+奢侈品牌普拉达将推出Timecapsule NFT系列
+意大利时尚奢侈品牌普拉达（Prada）将于周四（6月2日）推出100个Prada Timecapsule NFT，以配合其最新的Timecapsule服装发布。据悉，Prada与英国当代艺术家Damien Hirst之子Cassius Hirst合作设计100件衬衫，并附赠NFT。此次NFT Drop由Aura区块链联盟（Aura Blockchain Consortium）提供技术支持。据此前报道，2021年，LVMH与Prada、Cartier开发全球首个全球奢侈品区块链Aura区块链联盟。（Decrypt）
+加密货币
+SushiSwap加入Kava 7.5亿美元激励计划，将联合推出1400万美元流动性挖矿奖励
+据官方消息，SushiSwap宣布加入Kava 7.5亿美元激励计划Kava Rise，正在Kava Network上部署一套全新的DeFi产品，为用户提供快捷高效的高收益挖矿服务。作为合作的一部分，Sushi和Kava Ignition Fund将在90天内联合分配高达1400万美元的流动性挖矿奖励。奖励将采用KAVA和SUSHI形式，平均分配。
+BabyDoge持有者数量达155万个，超过SHIB
+根据BabyDoge Support发布的推文，持有BabyDoge的钱包数量达到1550000个，创历史新高。这意味着自今年2月以来，BabyDoge持有者数量增加大约20万个。相比之下，以太坊链上持有Shiba Inu（SHIB）的钱包数量为1172506个。此外，WhaleStats数据显示，排名前100位的BNB Chain钱包持有价值2947691美元的BabyDoge，相当于1.8万亿枚代币。（U.Today）
+上周数字资产投资产品净流入8700万美元，Algorand产品流入2000万美元…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >PANews - 快讯</button>
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
@@ -1679,434 +2188,6 @@ Tether此前透露，自2018年以来，它与另一家巴哈马银行Deltec Ban
                               <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>PANews 5月30日消息，加密市场数据提供商 Kaiko 发布研究报告称，Coinbase 在5月的Luna抛售期间处理了创纪录的交易量。加密货币交易平台 FTX 的市场份额在5月份激增，在过去 18 个月中从 5% 飙升至 44%，其比特币现货交易量首次超越 Coinbase。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179185"
-                        open
-                      >
-                        <summary class="article-expander__title">全景解析加密生态系统现状：哪些赛道和项目将率先打破僵局？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179185">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：tolks
-原文编译：DeFi之道
-免责声明：以下内容不属于财务建议，作者拥有文章中所涉及的一些代币。这篇文章概述了大部分加密货币生态系统，特别是作者认为最有趣的协议和领域的发展。
-对于那些想要快速了解文章的铁子们，下面是文章的内容要点：
-1．介绍当前加密货币生态系统的情况
-2．开发者在做什么——开发者规模的增长、他们的重要性和激励措施
-3．播种——概述了风险投资的好的、可取的部分
-4．我们收获了什么——概述了各个领域的情况，以及领头项目
-
-扩容（L1/L2）、NFT、扩容基础设施、代币激励机制、GameFi、互操作性和桥
-
-5．接下来会发生什么
-
-探讨我很高兴看到的发展，以及所涵盖的行业将如何相互结合和利用来推动下一个周期的到来
-
-我对当前市场的展望以及对今年接来下几个月的看法
-
-当前加密货币生态系统的情况
-币圈的老铁们应该都知道，加密货币的价格波动会出现周期性的规律。往往加密货币市场在暴涨之后都会出现大幅度的修正行为，并在下一个大周期开始之前进入令人不寒而栗的深熊阶段。比特币的价格在去年 11 月 8 日达到了历史高点，当时的币价是 6.8 万美元，而以太坊的价格也在同一天也达到了历史最高的 4800 美元，目前大部分主流币与历史高点相比已经下跌了 60%，许多山寨币更是下跌了 80% 以上。
-自加密货币市场的总市值达到历史新高以来，我们经历了自 80 年代以来史无前例的通货膨胀（印钞机在不断印钱），由于俄罗斯入侵乌克兰而导致商品价格飙升，一些国家因新冠病毒持续影响从而加剧了供应链的问题，以及美联储承诺通过加息来解决其中一些问题和膨胀的资产价格。虽然我没有上述问题的全部答案，但我希望这篇文章能够通过回顾加密货币市场已经建立的东西来减轻人们对长期市场方向的担忧，我将在文章中强调一些积极的前瞻性指标，并激励人们越来越多的去探索加密货币的垂直领域，它们的结合将推动下…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179184"
-                        open
-                      >
-                        <summary class="article-expander__title">我们会再次经历2018年那样的加密寒冬吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179184">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：DappRadar
-原文编译：粒之
-年轻的加密货币市场正面临着历史上最关键的时期。
-自2021年11月达到69000美元的历史高点以来，比特币已经下跌了55%。就在几周前，第二大DeFi生态系统Terra崩溃，创下现代史上最大的财富损失事件。因为市值排名第7和第10的代币的蒸发，几天之内，散户、机构甚至企业投资者在LUNA和UST中损失了600多亿美元。
-更为复杂的是，加密货币和美股之间的相关性在2022年达到历史新高。加上乌克兰战争，40年来的最高通胀率，以及美国的货币政策，都是过去六个月下跌趋势的不利因素。
-
-
-
-直面另一个加密寒冬会让人不安。然而，自2018年以来，该行业经历了加速演变，上一个寒冬持续了约18个月，让数百个在IC0时代诞生的项目冰封在我们的记忆中。
-本文将2018年的加密寒冬与目前六个月的熊市趋势进行了比较，试图评估加密寒冬是否真要来临，以及加密货币行业在未来几个月可以期待的地方。
-
-
-
-
-
-01
-
-
-
-
-
-
-
-
-
-IC0时代和第一个加密寒冬
-
-
-
-
-
-
-
-
-2017年，在IC0热潮的推动下，加密货币领域经历了第一个明显的扩张期，于当年12月达到大牛市顶峰，许多现有的初创公司和新项目利用加密货币作为新的融资机制。
-从宏观角度看，当时人们对经济持续复苏持乐观态度。Epic Games的游戏《堡垒之夜》创造了85亿美元的年收入，而Apple成为最有价值的品牌，科技和数字股票正在蓬勃发展。
-围绕加密货币初创企业的兴奋情绪吸引了大量资本进入该领域，其中大部分来自于散户。许多企业把名字改成带有“区块链”或“加密货币”的名字，一些企业甚至决定调整整个运营方向，以抓住这一趋势——这让人联想起互联网泡沫。
-
-
-
-然而，当时区块链行业的采用率较低，甚至比现在更不规范。到2017年底，只有104个Dapp上线运行，当时加密货币总市值首次超过8000亿美元。BCH…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179178"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT数据日报 | Tigerbob NFT Genesis Collection在过去24小时内最受巨鲸欢迎（5.31）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179178">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
-宏观市场指标
-截至 5 月 31 日 15 时，NFT 整体市值 267.70 亿美元，较 24 小时前增长 1.81%；过去 24 小时内总交易量约 4953 万美元，日环比增长 5.45%。
-
-按过去 24 小时成交量，排前三的子领域分别为 PFP（3524 万美元）、Utility（473 万美元）、和 Collectibles（305 万美元）。
-
-项目排名
-按过去 24 小时成交量，排名前五的项目分别为 Dreadfulz（1145 万美元）、Bored Ape Yacht Club（272 万美元）、Otherdeed（216 万美元）、Tigerbob NFT Genesis Collection（213 万美元）和 Meebits（194 万美元）。
-
-按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为  BearBox | Mint Live 0.025ETH（190.39%）、MinionSilhouette（98.20%）、Tigerbob NFT Genesis Collection（47.00%）、UNSEEN UNIVERSE Official（14.27%）和 Rare Land NFT（14.03%） 。
-
-特色数据
-过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：Eclipse - Rabbit、ape mfer #202、BeanBag Fren #6087、BeanBag Fren #2201 和 DI Animals #4403。
-
-最受巨鲸欢迎项目排前五的分别是：Tigerbob NFT Genesis Collection、MinionSilhouette、rektguy、goblintown.wtf 和 Chimpers。
-
-元宇宙平台中，过去 24 小时内，Otherdeed 上的地块最低成交价为 2.14 ETH、平均成交价为 5.7 ETH；The Sandbox 上的地块最低成交价为 1.12 ETH、平均成交价为 1.65 ETH；Decentraland 上的地块最低成交价为 1.76 ETH、平均成交价为 3.45 ETH。
-
-欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
-相关阅读
-新项目 | rektguy：激光骷髅酒蒙子，下个NFT蓝筹？
-数据解析：NFT钻石手动向，分布和投资策略
-格局打开：NFT持有者决定IP天花板</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179180"
-                        open
-                      >
-                        <summary class="article-expander__title">Cobo Ventures：全方位解析NFTFi赛道发展现状与趋势</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179180">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《NFTFi 深度解析——从当前市场，看未来 NFTFi 的发展》
-原文作者：Alex Zuo、Ellaine Xu、Walon Lin、Caroline Li 以及 Yuwei Hou 等 Cobo Ventures 团队成员
-原文来源：Cobo Ventures
-NFTFi 概览
-背景
-NFT已成为加密世界不可或缺的重要篇章。自 2021 年出现 NFT Summer 热潮至今，以太坊最大的 NFT 平台 Opensea 周交易量已达十亿美金量级，独立钱包数维持在 30 万以上（Dune Analytics @hildobby, 2022)。
-然而，NFT 非同质化以及难以定价的特性，使得 NFT 存在流动性低等问题，进一步导致资金门槛过高、资金利用率不足等。NFT 持有者除了在资金短缺时只能用较低的价格抛售，或是因为资金体量小而无法参与部分蓝筹项目之外，也会因为估值困难而产生流动性损失。为了解决 NFT 的这些问题，近期市场提出了 NFTFi 的概念，试图用金融化的方式增加 NFT 的流动性、可定价性、利用度与兼容性，以期创设更好的 NFT 玩家体验。
-赛道规模
-基于蓝筹 NFT 的估值，我们可以对当前 NFTFi 的赛道规模进行估算。
-目前主要的蓝筹 NFT 价值（参考地板价且 ETH 价格按 2000 USD 计算）：BAYC 约为$1.72 billion、Moonbirds 为 $440 million、Azuki 为 $237.4 million、Doddles 为$237 million、CryptoPunks 为 $953.2 million，总估值约 35.87 亿美金。
-而土地类型的 The Sandbox, Arcade 与 Decentraland 因为有明显稀有度排名，不宜用地板价进行计算，故未作纳入。考虑到未来的上升空间，蓝筹 NF…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179179"
-                        open
-                      >
-                        <summary class="article-expander__title">新项目 | REBASE：玩法类似Pokémon Go的NFT铸造平台</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179179">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>REBASE（原DDrop）是一个基于地理定位技术的社交 NFT 铸造平台，在今年1月，REBASE 宣布获得 800 万美元融资，投资者包括 Animoca Brands、三箭资本、DeFiance Capital、Alameda Research、Spartan Capital、Genblock Capital、Antifund VC 和 PANONY 等。
-具体来说，REBASE 创建了一种类似于 Pokémon Go 寻宝模式的 NFT 铸造形式，该项目主要由三部分构成：
-1.reBASE 2D -  基于&quot;Find to Earn&quot; 机制的 NFT 铸造模式
-REBASE 想要改变主流的 NFT 铸造模式，通过使用地理定位技术，创建者可以使用 reBASE APP 将存储在移动设备内存中的文件如图像、电影、声音等放置在选定的路线上，之后应用程序会通过内置钱包自动创建基于 Solana 区块链的 NFT。用户还可以设置出他想要出售 NFT 的价格。而铸造者需要沿着该路线来寻找 NFT 并铸造以获得奖励。
-REBASE 还会与知名艺术家、品牌方合作创建独家 NFT，这些 NFT 将在 reBASE APP 和现实世界的指定地点进行，并且数量有限。目前已经与街头服饰的教父 Hiroshi Fujiwara 和现代滑板文化的先驱 Mark Gonzales 合作。
-此外，reBASE APP 内还会有一个 NFT 市场，用户可以在其中交换、销售或购买 NFT。除了这些功能外，该应用程序还具有所有典型的社交功能，例如添加朋友、关注 KOL、分享内容、评论、点赞等。
-2.reBASE LAND
-reBASE LAND 通过启用地理定位技术来模仿现实世界，用户可以在其中购买覆盖在现实世界位置的土地。这些土地以 NFT 的形式呈现，购买一块土地也意味着你可以通过出售、出租或在其上质押 $reBASE 来赚取收益。此外，用户也可以在土地上放置有价值的 NFT 来吸引其他玩家铸造。
-3.reBASE 3D
-3D AR 模块允许用户创建 3D 模型，这些模型既可以显示在虚拟 3D 空间中，也可以作为 AR 对象在现实空间中呈现。每个 3D 对象都是 Solana 上的 NFT 并存储在 Arweave 区块链上，用户还可以将 3D 模型放置在 reBASE LAND 上，比如创建 3D 建筑物，吸引其他用户来访问和互动。也可以创建自己的 3D 商业中心。
-对 REBASE 最新进展感兴趣的朋友，可以关注官方推特和Discord。
-Odaily星球日报的【新项目】栏目旨在帮助 Web3 早期项目获得市场曝光机会，如果你也是 Web3 创业者，欢迎关注官方推特@OdailyChina，私信备注【寻求报道】，发送你的项目简介和联系方式，我们将尽快与你沟通。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179177"
-                        open
-                      >
-                        <summary class="article-expander__title">新项目 | JpeX：拿下以太坊黑客松大奖的NFT期权项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179177">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>上周，ETHGlobal 举办了一场规模盛大的以太坊黑客松活动 HackMoney 2022，活动迎来了 1205 名开发者、214 个项目的积极参与，最终评选出了 10 个极早期的优质项目，并向这些项目拨付了 30 万美元的奖金。
-
-
-本期我们要介绍的 JpeX 就是在 HackMoney 2022 中脱引而出而出的优质项目之一。
-从定位上看，JpeX 想要做的是首个以 NFT 为标的的期权交易平台，通过 JpeX，交易者可以在不拥有或不出售相关 NFT 的情况下从二级市场的波动中获利。交易者可以买入看涨期权，用较小的资金去参与天价蓝筹 NFT 的上涨，或是买入看跌期权，来对冲手中高价 NFT 的下跌风险。
-从具体的执行流程上来说，JpeX 上的一项期权将会分为 5 个阶段执行：
-
-首先是初始化阶段，这部分的工作是设置行权价格和到期时间。
-
-接着是存款阶段，交易者可以存入资金，选择购买看涨或看跌期权。
-
-再然后就是运行阶段，该阶段内将不会再接受交易者存款。
-
-接下来将是结算阶段。
-
-最后就是收尾阶段，交易者将能够根据期权的内在价值获取相应收益。
-
-开发进度上，JpeX 目前部署在 Polygon Mumbai 测试网，HackMoney 2022 时已提交了看涨期权的最小可行化（MVP）版本，看跌期权的架构则仍在研究中。根据官方披露，JpeX 当前已完成了钱包链接、链上 DID（unstoppable domains）相关的整合工作，接下来的主要任务是完成与 ChainLink 预言机的整合，与此同时 JpeX 也在研究如何集成 UMA 的 optimistic 预言机，以使报价更加去中心化。
-对 JpeX 最新进展感兴趣的朋友，可以关注官方推特，官方网站也将于近期上线。
-Odaily 星球日报的【新项目】栏目旨在帮助 Web3 早期项目获得市场曝光机会，如果你也是 Web3 创业者，欢迎关注官方推特@OdailyChina，私信备注【寻求报道】，发送你的项目简介和联系方式，我们将尽快与你沟通。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179175"
-                        open
-                      >
-                        <summary class="article-expander__title">HANGOUT：为Web3社交元宇宙开放流量新入口</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179175">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>人类对打破时空和空间界限的虚拟世界一直都充满着好奇和向往。于是当元宇宙概念出现时，越来越多的加密爱好者和投资者涌向这一赛道，这包括了各大科技互联网巨头，如 Facebook、微软、谷歌、苹果、亚马逊等。字节跳动更是接连投资了三家元宇宙公司。韩国更是大力押注元宇宙赛道，仅在一个月内就推出了四只专注于元宇宙的 ETF。
-长期来看，元宇宙的内容游戏化和场景娱乐化是基金布局的重要领域，而作为可视化元宇宙的基础单元，虚拟土地率先成为了重要的价值载体，其市场规模和需求出现了显著的增长。例如灰度基金创始人 Barry Silbert 就于 2019 年花费了 8.1 万美元购买了 Decentraland 上的 64 块虚拟土地。市场巨大的需求也为早期投资者带来了巨额的回报。
-加之虚拟土地在开发和建设上也有着更多的可能性，例如娱乐设施、商业中心、社交空间等等，继而成为了众多创业者青睐的创业方向。
-
-一、备受追捧的地块NFT
-
-近期 Otherdeed 的加入，让地块 NFT 赛道进入爆发期。根据 WeMeta 收入的 6 个地块 NFT （Decentraland、The Sandbox、Cryptovoxels、Somnium Space、NFT Worlds 以及 SuperWorld）统计数据显示，近期，这些虚拟土地平均市值已达 32 亿美元，总交易超过 8 亿美元。而这一垂直领域依然处于早期阶段，发展空间巨大，坐落于不同生态、打不同运营路线的项目间还未形成正面对抗。新项目也有诸多亮眼的出发点。
-我们近期关注到的 Hangout 便是其中一员。Hangout 的亮点在于它并不是一个单纯的 NFT 项目，而是一个提供技术支持的功能性整合平台。Hangout 通过多链布局，整合赋能 NFT、DeFi、GameFi、DAO 等各类区块链项目，进而构建未来的区块链商务生态系统，并最终以元宇…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179168"
-                        open
-                      >
-                        <summary class="article-expander__title">万字详谈Token经济学：从理解用户想要什么开始</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179168">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Packy McCormick &amp; Tina He
-原文编辑：南风
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-当试图理解 Token (代币) 时，我们很容易从我们已知的知识中得出结论。
-
-有时，Token 的功能类似于公司的股权，拥有 Token 类似于持有该项目潜在收益的股份。其他时候，Token 的作用就像“感恩的 Token”，象征着亲密朋友之间最纯粹的善意。其广泛的角色并不是一个 bug，而是一种在最抽象的意义上表示价值的特征，其意义由系统的设计赋予。换句话说，Token 不一定有任何内在价值，但有相对价值。它是一个被特定系统普遍认可和执行的价值单位的封装。
-Token 几乎不是一个新概念。贝壳和珠子是最早作为交换媒介的 Token。其他我们今天所熟悉的——比如赌场筹码、信用卡积分、股票证书、音乐会门票和俱乐部会员——都是各种形式的 Token，因为它们代表了一种普遍认可的价值单位，并由发行该 Token 的系统强制执行。当各自的系统未能强制执行和认可这些 Token 的价值时，司法管辖区可以介入以保护 Token 持有者。
-想想你最近与之交互的 Token：它允许你做哪些你在不持有它的情况下无法做到的事情？你为什么持有它并想要持有更多？如果你放弃或转让 Token 的所有权，会发生什么情况？对许多人来说，这些问题的答案是“获得更多 Token”。对其他人来说，持有 Token 可以让他们有参与自己非常关心的项目和社区的权利。前者涉及的是持有 Token 的经济学，后者涉及的是访问权。
-当系统中的价值累积与Token 的价值累积不一致时，Token 设计就很糟糕。Gabriel Shapiro恰如其分地将 UNI、COMP 以及最近推出的 APE 等 Token 描述为“关联价值”(value by association…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179167"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3游戏的现在与未来：经济、游戏商业模式和劳动力市场的变化</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179167">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Joel John，Siddharth
-原文编译：Block unicorn
-
-Web3 游戏往往因为糟糕的游戏画面、糟糕的用户体验而令人讨厌。我将从经济变化、游戏商业模式的变化和劳动力市场的演变等方面分析它们的存在原因。
-
-我们很容易抨击 Web3 游戏目前的模式，它们是破碎的体验。用户需要储存钥匙（钱包助记词、私钥），通过匝道，然后花费数千美元才能享受游戏的乐趣。当主流游戏只花很少的成本就能获得更好的体验时，为什么还要花这么多钱去玩 Web3 游戏呢？当他们在一个坏掉的产品上赔钱的时候，谁愿意面对一群尖叫着 WAGMI（我们都能成功）的人呢？我喜欢我的《侠盗猎车手 5》和《荒野大镖客》，现在的 Web3 游戏要想和它们（传统游戏公司）竞争还太牵强了。
-但作为一名在游戏中投入大量时间的投资者，我认为 Web3 游戏的某些方面我们并没有注意到。所以今天我想花点时间解释一下，为什么 Web3 游戏领域的潮流不可能在未来消失。这个话题首先引起我的兴趣是在查阅 Nansen 的行业 NFT 指数时。我注意到包含 50 款游戏的指数自今年年初以来已经下跌了 65%。相比之下，标准普尔 500 指数下跌了 17%，比特币下跌了 37% 有多。幸运的是，我们有 STEPN，帮助我们走路赚钱。
-
-为什么现在没人关心 Web3 游戏
-撇开讽刺不谈，反对 Web3 游戏的观点相对简单。首先，在技术技能和资金方面存在很高的进入壁垒。当你开始接触游戏时，你会发现它的图像与传统 3A 游戏相差甚远。假设图像可以被忽略 —— 它通常缺乏故事情节，这年头谁为了故事玩游戏啊。也许，有一个强大的社区？也许不是。Web3 游戏社区可能充斥着希望快速赚钱的用户。也许有很多钱可以赚？可能不是。市场已经饱和，自 2021 年第二季度以来，从玩到赚的经济的资本收入已经减少。
-Web3 游戏的奇怪之处在于，…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179166"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT画风全景图：从GoblinTown爆火说起</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179166">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>写在前面：独一无二的画风，是项目方创意性与有机性结合的一种宣传方式。PFP NFT的展现形式，不仅能为持有者带来一种社群群体的归属感；又能通过艺术家作品的画风作为项目与玩家之间传递的枢纽，映射到每位持有者各不相同的身份个性，以及最重要的，态度，正如 &quot;GoblinMode&quot;。
-根据5月30日数据，Goblintown交易量在前7天内增幅约为355%，相较于26日前峰值的4.4K ETH，目前总交易量已达三倍有余。在Opensea 26日的24小时交易榜单上，Goblintown也荣登榜首。
-
-数据来源：NFTGo.io
-在过去的7天时间内，Goblintown的交易量于25日达到峰值，相较于之前的24h内增幅300%，共有约3500笔买卖在此区间内成交。
-
-数据来源：NFTGo.io
-2022年5月21日，Goblintown NFT通过免费公售的形式在以太链上发售，发行总数量为9999个。在Goblintown NFT爆火的背后，风格是其中一个关键因素。而画风加之meme特性传播等特点，使项目在短暂一周的时间内，成为了熊市内的一匹逆势黑马。
- 1/1 NFT 的高识别度
-除去各类迥异的魔性生物，Goblintown的1/1藏品“碰瓷”了其他众多的名气人物，赋予了图像独立的高识别度。像是Pixelmon的Kevin、Twitter著名“反指”的电子舞曲音乐人SteveAoki、神似哈利波特中的霍格沃兹校长和漫威中的“鹰眼”克林特巴顿。
-
-数据来源：NFTGo.io
-值得一提的是，在所有成交的交易中，Goblintown #8995、#7944、#5948分别以69.42e、30.3e、26e获得最高交易额的前三位。并且在最高交易额的前十中，共有7张1/1以至少9e的价格售出，平均换手率达2.1次。由此可见，项目方在稀有度的设计上别有用心，让高稀有度的藏品均具备了各自独立的特…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179165"
-                        open
-                      >
-                        <summary class="article-expander__title">加密行情下行，投资者或将再次青睐Staking理财产品？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179165">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>随着美联储加息50个基点，美股市场与加密市场纷纷开始剧烈下跌，比特币跌破3万美金，一众主流币价格较跌破支撑位，随着价格下跌的还有投资者对加密货币市场的信心。
-在这样的市场情绪下，相较于风险投资和交易，加密货币投资者更倾向于将自己持有的数字资产投入一些保本保息或者可以获得低风险收益的机会中。这个低风险的收益可能来自于主流 DeFi协议，也可能来自于中心化交易所提供的理财产品。
-寒冬已至，投资者更青睐的产品是什么？
-UST脱锚事件以后，很多投资用户对于DeFi产品开始心存顾忌，最终苦于手中持有的Token「无用武之地」。中心化交易所面对当下的加密货币寒冬，积极探索布局理财产品，以杠杆理财、Staking、活期理财、流动性挖矿等为主，这其中比较有代表性的是Bitfinex推出的Staking 活动,币安的币安宝、OKX的余币宝等，这些交易所的理财产品相对来说，风险性较低，也为活期存取，能在保证收益率的同时保证投资者的资产流动性，但是不同的交易所的同样类型的理财产品却有着不同的特点。
-币安——币安宝
-此产品主要是为一些持有代币希望可以获得利息又不失资产流动性的用户提供的，币安宝支持数百个代币的自由存取，这是一个低风险获利的好方法。但是总的看来，币安宝的利率偏低，以Polygon 链上的原生token matic 存入的年化仅有6%，而且币安交易所会收取一定的费率。
-
-OKX——余币宝
-同样，余币宝也是OKX推出的一款帮助用户能够利用空闲数字资产赚取利息的理财产品，也是随存随取，按小时分配，用户可以自己设置利率，更加偏向于C2C，不过平台只是作为一个中间平台，并不一定保证用户资产的借出和收益。同样，是以matic 为例，余利宝的收益仅为1%。不过因为支持的币种足够多，这款产品受众还是很广的，所触及的粉丝群体也很大，很多投资用户看重自己投资的代币不愿意在熊市卖掉低价筹码，都会愿意使用这…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179164"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | 奢侈品牌普拉达将推出Timecapsule NFT系列；韩国当局传唤Terraform Labs全体员工进行全面调查（5月31日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179164">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-奢侈品牌普拉达将推出Timecapsule NFT系列
-意大利时尚奢侈品牌普拉达（Prada）将于周四（6月2日）推出100个Prada Timecapsule NFT，以配合其最新的Timecapsule服装发布。据悉，Prada与英国当代艺术家Damien Hirst之子Cassius Hirst合作设计100件衬衫，并附赠NFT。此次NFT Drop由Aura区块链联盟（Aura Blockchain Consortium）提供技术支持。据此前报道，2021年，LVMH与Prada、Cartier开发全球首个全球奢侈品区块链Aura区块链联盟。（Decrypt）
-加密货币
-SushiSwap加入Kava 7.5亿美元激励计划，将联合推出1400万美元流动性挖矿奖励
-据官方消息，SushiSwap宣布加入Kava 7.5亿美元激励计划Kava Rise，正在Kava Network上部署一套全新的DeFi产品，为用户提供快捷高效的高收益挖矿服务。作为合作的一部分，Sushi和Kava Ignition Fund将在90天内联合分配高达1400万美元的流动性挖矿奖励。奖励将采用KAVA和SUSHI形式，平均分配。
-BabyDoge持有者数量达155万个，超过SHIB
-根据BabyDoge Support发布的推文，持有BabyDoge的钱包数量达到1550000个，创历史新高。这意味着自今年2月以来，BabyDoge持有者数量增加大约20万个。相比之下，以太坊链上持有Shiba Inu（SHIB）的钱包数量为1172506个。此外，WhaleStats数据显示，排名前100位的BNB Chain钱包持有价值2947691美元的BabyDoge，相当于1.8万亿枚代币。（U.Today）
-上周数字资产投资产品净流入8700万美元，Algorand产品流入2000万美元…</span>
                             </span>
                           </div>
                         </a>
@@ -6066,42 +6147,6 @@ OlimpioCrypto 表示，代码中显示的空投结束区块高度 1685140271 时
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/84407"
-                        open
-                      >
-                        <summary class="article-expander__title">摩根大通正探索使用区块链进行抵押品结算</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/84407">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>律动 BlockBeats 消息，5 月 27 日，据彭博社报道，摩根大通正探索使用区块链进行抵押品结算，系华尔街在传统金融资产交易中对区块链技术进行的最新试验。该银行的第一笔此类交易发生在 5 月 20 日，当时该银行的两个子公司将 Token 化的贝莱德货币市场基金股票作为抵押品在其私链上进行了转移结算。
-
-摩根大通表示，这项举措将允许投资者将更广泛的资产作为抵押品，并在市场营业时间之外进行结算。该银行表示计划在未来几个月内，将 Token 化抵押品扩大到包括股票、固定收益和其他资产类型。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/84404"
-                        open
-                      >
-                        <summary class="article-expander__title">Terra社区通过销毁超13.88亿枚UST提案</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/84404">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>律动 BlockBeats 消息，5 月 27 日，Terra 社区已投票通过销毁社区池中剩余和以太坊上用于跨链流动性激励的超 13.88 亿枚 UST 提案，其中社区池中约有 10.17 亿枚 UST，以太坊上约有 3.71 亿枚 UST，总销毁量占当前 UST 流通供应量的 11% 左右。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -6770,163 +6815,6 @@ Pooly系列NFT共包含Supporter、Lawyer以及Judge三款。截止目前，Supp
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/3gfijb8d.html"
-                        open
-                      >
-                        <summary class="article-expander__title">扎克伯格：Meta未来3至5年将花费巨额资金投资元宇宙</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3gfijb8d.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月27日消息，据彭博社报道，Facebook母公司Meta CEO马克·扎克伯格表示，他计划在公司的元宇宙雄心上大举投资，这将意味着公司会在未来三到五年内在该项目上损失“大量”资金。
-在周三举行的公司年度股东大会上，扎克伯格在回答有关投资回报的问题时称，随着人们逐渐建立起销售虚拟商品和服务的业务，元宇宙这种沉浸式的数字世界最终将从创作者经济中赚钱。
-据悉，仅在2021年，Meta就花费了100亿美元来设计它的元宇宙项目。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/25n31box.html"
-                        open
-                      >
-                        <summary class="article-expander__title">基于Optimism的DEX Velodrome将于5月31日上线</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/25n31box.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月27日消息，据官方推特，由Solidly生态项目veDAO推出的以Solidly为模板的去中心化交易所（DEX） Velodrome宣布将于5月31日在Optimism上线，用户可前往velodrome.finance查看可获取空投的情况（当前暂不支持查看）。目前确认与Velodrome合作的项目包括 Hundred Finance、Alchemix、MakerDAO、Frax Finance、TreasureDAO、Thales、Perpetual Protocol。
-此前消息，Solidly生态项目veDAO于4月份宣布将推出基于Optimism的DEX Velodrome，并将进行代币空投。其中VELO总量的65%分配给社区，并将向WeVE持有者（30%）、Optimism用户（25%）、DeFi用户（25%）和流动性提供者（20%）进行空投。
-来源链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/9edce0ux.html"
-                        open
-                      >
-                        <summary class="article-expander__title">多链流动性协议Symbiosis Finance获得ZOKYO的安全审计，并与Rubic达成合作</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9edce0ux.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月27日消息，多链流动性协议Symbiosis Finance宣布通过区块链安全公司ZOKYO的安全审计，并与多链DeFi平台Rubic达成合作关系。同时，Symbiosis Finance还发文介绍了其门限签名协议。据了解，Symbiosis Finance是一个旨在为用户提供代币无缝交换的多链流动性协议，是DApp生态系统中不可或缺的一部分，包括去中心化交易所、贷款协议、收益率聚合器等，现已上线Beta主网。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/q996rwln.html"
-                        open
-                      >
-                        <summary class="article-expander__title">多链NFT卡牌游戏Duelist King将于6月1日在Carv平台进行IN0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/q996rwln.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月27日消息，多链NFT卡牌游戏Duelist King宣布将于北京时间6月1日21:00在Carv平台开启进行IN0，现已开放白名单申请。Duelist King NFT有普通、传奇等6个稀有度级别，每个神秘盒子包含5张随机稀有卡片。
-据了解，Duelist King是一款卡牌类对战游戏，由DAO、Oracle和随机数生成器提供支持，玩家可使用随从卡召唤随从进行战斗，也可使用魔法卡、陷阱卡对局势进行预判，相比于普通的回合制战斗更具可玩性与策略性。
-来源链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/rvt85whw.html"
-                        open
-                      >
-                        <summary class="article-expander__title">火币收购拉丁美洲加密交易所Bitex</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/rvt85whw.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月27日消息，据The Block报道，火币全球站宣布收购拉丁美洲加密货币交易所Bitex，收购条款暂未公布。Bitex将加入 火币全球站平台，但保留自己的品牌和管理。
-据悉，Bitex交易所支持美元以及阿根廷、智利、乌拉圭、巴拉圭和秘鲁的法币入口。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/6gir5jaq.html"
-                        open
-                      >
-                        <summary class="article-expander__title">加密交易所Bitso及Buenbit均裁员80人</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6gir5jaq.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月27日消息，据CoinDesk报道，拉丁美洲加密货币交易所Bitso周四解雇了80名员工。该公司在声明中没有提到筹集资金是否遇到困难，但称裁员的原因是需要重新考虑员工在加密行业中更快发展所需的技能。据悉，该公司在裁员前拥有700多名员工，在该地区拥有400万用户。
-而在两天前，阿根廷加密货币交易所Buenbit解雇了45%的员工，大约80名员工。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/8wfq6llw.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美联储副主席：推出数字美元可能需要5年时间</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8wfq6llw.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月27日消息，据CoinDesk报道，美联储副主席布雷纳德(Lael Brainard)表示，在美国创建央行数字货币 ( CBDC ) 可能需要长达五年的时间。她将数字美元与美联储花费数年时间建立起来的仍不完整的实时支付系统进行了比较，称设置必要的安全功能和设计功能可能需要五年时间。
-此外，布雷纳德透露，希望数字美元不要有计息功能，并称美联储正在考虑对数字美元持有量设置上限，以鼓励客户仅将其用于支付，而不是将其作为个人或企业存入资金的安全资产。
-布雷纳德在最近宣誓就任美联储副主席职务后的首次证词中告诉众议院金融服务委员会，美联储仍在研究这个问题，在白宫和国会批准之前不会采取行动，在通过授权法律之前，这本身可能会增加相当长的辩论时间。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/r2bo9cg8.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美联储正考虑若发行数字美元如何缓和对商业银行存款的影响</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/r2bo9cg8.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月27日消息，据金十报道，美联储副主席布雷纳德表示，美联储正在考虑各种方式，若发行数字美元，将如何缓和对商业银行存款的影响。布雷纳德周四表示，若发行数字美元，虽然商业银行的存款不可避免会有所下降，但美联储正在想办法避免存款大幅下降。
-包括美国银行家协会、银行政策研究所在内的行业游说团体已经呼吁政府暂缓推出央行数字货币，担心它会分流银行系统的资金，减少对企业和家庭的信贷。她指出，在考虑对存款的潜在影响方面，我们一直在进行很多考量，金融系统未来在数字化方面的任何发展都将导致现金使用减少和银行存款减少。
-此前消息，布雷纳德曾呼吁建立央行数字货币以维护金融稳定，并称数字美元可以与稳定币共存甚至互补，
-据悉，美联储目前尚未就是否发行数字美元做出决定，此前1月份，美联储发布央行数字货币白皮书（讨论文件），并征求公众意见，该文件旨在探索数字美元是否以及如何改善美国支付系统。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7300,58 +7188,6 @@ Terra风格的稳定币(与铸币Stake大致相同，尽管许多…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179087"
-                        open
-                      >
-                        <summary class="article-expander__title">新项目 | Covenant Protocol：基于KPI的投票激励解决方案</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179087">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>自从 Curve 推出了 ve 模型之后，投票激励赛道也顺势成为了 DeFi 热门趋势之一。但是，当前的投票激励解决方案也面临着许多问题，比如投票发起人通常会存入固定的投票激励金额，来“贿赂”投票者为自己投票，以达到获得目标选票的目的。但是在当前的模式下，无论投票发起人是否达到自己的目标选票数，都需要将全部资金分配给投票人，导致投票发起人超额支付。
-本文中，Odaily 星球日报介绍的 Covenant Protocol 就针对此问题提供了一个解决方案。
-Covenant protocol 由 UMA 的 Optimistic Oracle 提供支持。它能够支持基于 KPI 的投票激励支付，包括标准投票、治理决策、流动性挖矿甚至基于 KPI 的赠款。
-Covenant 协议的 V1 将包括基于 KPI 的标准投票激励和基于二进制 KPI 的治理决策选项。
-首先，Covenant protocol 可以为投票发起人在未获得目标选票的情况下提供保护，让他们在无法达到目标结果的情况下不会损失所有资金，并且还将允许投票者更准确地为投票激励定价，以确定竞争性投票的底价。
-其次，投票发起人还可以选择进行二元期权投票，如果达到目标 KPI，则支付全部金额，如果达不到目标，则不支付任何款项，这常用于治理决策，确保系统不会被博弈。因为只有在达到预期结果的情况下才会支付奖励，并且只支付给那些以 100% 的投票权重投票的人。
-Covenant protocol 的第一次迭代将重点关注 QiDAO 协议的双周金库激励投票。
-不过，Covenant protocol 产品还未正式发布，产品体验效果也无法得知。当前阶段是其智能合约已完成初步审核。对 Covenant protocol 最新进展感兴趣的朋友，可以关注官方推特和 Discord。
-Odaily星球日报的【新项目】栏目旨在帮助 Web3 早期项目获得市场曝光机会，如果你也是 Web3 创业者，欢迎关注官方推特@OdailyChina，私信备注【寻求报道】，发送你的项目简介和联系方式，我们将尽快与你沟通。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179094"
-                        open
-                      >
-                        <summary class="article-expander__title">详谈Uniswap的治理现状：一个最小化的悖论</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179094">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：Other Internet
-原文作者：Aaron Z. Lewis, Laura Lotti, Joanna Pope
-原文编译：老雅痞
-在2022年第一季度，Other Internet 开始与不同的Uniswap利益相关者展开了一场聆听之旅。我们的目标是确定Uniswap社区中最紧迫的问题领域，并为改善协议治理提供想法。“最小化的悖论”几乎贯穿了我们所有的对话:当Uniswap的治理面积受到有意限制时，我们如何考虑提高治理的参与度？由于对协议本身采取行动的功能可见性如此之少，社区的精力已经被web3的生态系统范围的问题所吸引，如L2扩展解决方案和多链治理机制。但是，为了使这一领域的项目取得成功，Uniswap的治理需要更多的链外组织结构和流程，以促进复杂的利益相关者网络之间的协调。我们探索了这一问题的多维本质，并提出了潜在的前进路径。
-
-
-从纸面上看，Uniswap的治理范围似乎很小。但在实际操作中，协议治理的范围大大扩展。
-
-Uniswap在维护和开发方面采取的治理最小化方法一直是其力量和安全性的源泉。多年来，该协议的限制一直受到观察者的称赞，他们欣赏它的优雅以及与以太坊设计理念的契合。但是对于我们在过去三个月采访的许多治理参与者来说，最小化一直是令人沮丧的根源。这让他们觉得这个系统有时太慢，太静态，而且难以驾驭。
-这些成长的烦恼也许是自然的、不可避免的。随着web3公共产品生态系统的复杂性不断扩大，新链以前所未有的速度激增，显然需要更多的正规化流程。为了在协议层面保持最小化的治理，需要有结构和流程来促进社区内和与外部合作伙伴的链下协调。与此同时，像“采购小组”这样的团队可以帮助协议评估服务提供商领域，以及随着协议成熟而出现的合作机会。
-为了更清楚地了解Uniswap治理的最新动态，并了解如何最有效地支持参与者，我们在2022年的前两个月与代表不同利益、关…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7359,8 +7195,8 @@ Uniswap在维护和开发方面采取的治理最小化方法一直是其力量�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2415546500">
-        <time id="build-timestamp" datetime="2022-05-31T14:09:32.403Z">2022-05-31T14:09:32.403Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2415942041">
+        <time id="build-timestamp" datetime="2022-05-31T15:12:08.563Z">2022-05-31T15:12:08.563Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
