@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-06-01T10:17:49.927Z</updated>
+    <updated>2022-06-01T11:07:47.679Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Web3钱包安全配置指南]]></title>
+        <id>https://www.0daily.com/post/5179212</id>
+        <link href="https://www.0daily.com/post/5179212"/>
+        <updated>2022-06-01T10:12:47.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 Mirror，原文作者：Montana，由 Odaily 星球日报译者 Katie 辜编译。
+
+在 Web3 世界，每周都得有一起引人注目的黑客攻击事件，或价值数百万美元的 NFT 被盗。随着骗局越来越复杂，Web3 老玩家也可能会中招。
+本文，作为一篇短平快的加密钱包安全指南，可以减少此类风险事件，让你更安全地探索 Web3。
+概述
+我们将聊到三种钱包，用途各不相同。
+
+交易钱包：这是一个万能的钱包。Mint、交易 NFT、购买加密货币、连接 Web3 Dapp 等。
+
+保险库钱包：这是一个超级安全的私人银行保险库钱包。这是主动存储 NFT 和加密货币的地方。
+
+Mint 钱包：这是一款用于创建 NFT、执行点对点交易的钱包（或者与任何新的 Web3 应用程序交互）。
+
+
+交易钱包
+许多人不管什么操作都用一个钱包地址：交易加密货币，买卖 NFT，与随机智能合约交互。这让你面临着巨大的风险，一旦发生事故，你就会失去一切。
+在我推荐的方法中，你的交易钱包将有一个非常具体的角色：仅用于买卖 NFT 和交易加密货币。
+当在二级市场（如 OpenSea）出售 NFT 或在去中心化的交易所（如 Uniswap）交易加密货币时，你必须“批准代币”（token approval），才能让钱包自动处理交易。
+这使平台能够在未来的任何时候从你的钱包中提取 NFT /代币。如果这些平台被黑客攻击，那么你“批准”的代币/ NFT 可能会在你不知情的情况下从钱包中悄悄被转移走。
+对于 DeFi 用户，我建议在 NFT 交易钱包之外，为 DeFi 创建一个单独的交易钱包。我推荐 MetaMask 或 Coinbase Wallet 这样的钱包。
+保险库钱包
+保险库钱包有时被称为“冷钱包”，就是超级安全的银行保险库。你目前不打算出售的所有资产都应该存放在这里。
+这个钱包也不应该被用来与二级市…]]></summary>
+        <author>
+            <name>Katie 辜</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[西甲皇家贝蒂斯将在Fancurve平台推出元宇宙数字球衣]]></title>
         <id>https://www.theblockbeats.info/flash/85148</id>
@@ -14,6 +46,24 @@
         <summary type="html"><![CDATA[BlockBeats 消息，6 月 1 日，西甲皇家贝蒂斯俱乐部宣布与元宇宙服装初创公司 Fancurve 签署了一项为期三年的合作协议，后者将为该俱乐部打造元宇宙数字球衣。粉丝们将能够在 Fancurve 平台上穿着由 Fancurve 的 3D 时装设计师制作的官方授权贝蒂斯主题球衣来打扮自己的 Avatar 化身。据悉，首款皇家贝蒂斯球衣将于 6 月 7 日发售，售价为 43 美元。持有数字球衣的用户将有机会获得皇家贝蒂斯的独家俱乐部福利。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新项目 | CreatorDAO：NFT界的猪八戒网]]></title>
+        <id>https://www.0daily.com/post/5179201</id>
+        <link href="https://www.0daily.com/post/5179201"/>
+        <updated>2022-06-01T09:23:52.000Z</updated>
+        <summary type="html"><![CDATA[目前， ETH 上海黑客松正在火热的进行中，世界各地的开发人员、创作者、艺术家和企业家正在为构建下一代 Web3 应用程序而努力。本次 ETH 上海黑客松奖金池超 14 万美元，项目涉及 DAO 、NFT、DeFi、数据等领域。
+今天，Odaily星球日报要介绍的 CreatorDAO 就是参赛项目之一。
+CreatorDAO 是一个 NFT 佣金平台，允许用户委托图像、音频、3D、动画等 NFT 创作任务。创作者可以通过接单赚取佣金，也可以开设佣金商店来接单。
+CreatorDAO 的愿景是让 NFT 持有者可以通过委托创作者将已有的 NFT 进行二次创作来创造一个新的故事，同时帮助创作者快速了解 Web3 并通过创作作品参与其中。
+
+目前，CreatorDAO 还处于开发初期阶段。短期内 CreatorDAO 将聚焦于发展客户和创作者方面。在这个阶段，CreatorDAO 会聚集一批能力出众的创作者，并通过各自的风格和定位将他们分为三个不同的类别。创作者完成的作品都将被归入属于某一风格流派，并且作品可以被以太坊网络上的每个人查看。CreatorDAO 通过这样的方式来吸引更多用户。截至目前，CreatorDAO 已经与 BAYC 社区成员进行了合作，并计划尽快覆盖 300+ BAYC、Azuki 和其他蓝筹 NFT。
+从长期发展来看，CreatorDAO 想要打造一个 CreatorVerse，这些通过创作的 NFT 系列都将成为拥有自己故事的元宇宙，并由创作者来领导和管理。
+对 CreatorDAO 最新进展感兴趣的朋友，可以关注官方推特和Discord。
+Odaily星球日报的【新项目】栏目旨在帮助 Web3 早期项目获得市场曝光机会，如果你也是 Web3 创业者，欢迎关注官方推特@OdailyChina，私信备注【寻求报道】，发送你的项目简介和联系方式，我们将尽快与你沟通。]]></summary>
+        <author>
+            <name>十文</name>
         </author>
     </entry>
     <entry>
@@ -92,6 +142,27 @@
 来源链接]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文了解流动性质押衍生品的卡特尔风险]]></title>
+        <id>https://www.0daily.com/post/5179213</id>
+        <link href="https://www.0daily.com/post/5179213"/>
+        <updated>2022-06-01T08:40:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Danny Ryan
+原文编译：Adidiao
+Lido 之类协议的流动性质押衍生品 (LSD) 出现了卡特尔化的迹象，当超过关键共识阈值时，会给以太坊和相关资产带来重大风险。 资本分配者应意识到该风险，并提前将资产分散到替代协议。 与此同时，LSD 协议应该自我限制，以避免中心化和能够摧毁其产品的协议风险。
+译者注：卡特尔是垄断组织形式之一 ，是为了垄断市场从而获取高额利润，生产或销售某一同类商品的厂商通过在商品价格、产量和市场份额分配等方面达成协定从而形成的垄断性组织和关系。
+请注意，尽管当前的 LSD 协议（如 Lido）还有很大的改进空间，但本文并未针对当前设计的不足之处。 相反，其目的是表明 LSD 协议在超过共识阈值时存在的固有问题。
+卡特尔现象
+在极端情况下，如果 LSD 协议超过关键共识阈值时（例如 1/3、1/2 和 2/3），通过协调 MEV 提取、区块时间操纵或审查制度等，LSD 相较非质押池资本能够获得超额利润，这种现象被称为区块空间的卡特尔化。 在这种情况下，由于卡特尔化的巨额奖励，质押的资本不会轻易转移到其他地方，从而进一步增强了卡特尔化。
+随着时间的推移，LSD 协议可以最大限度地减少治理、可升级性等其他风险，但问题是如何评选节点运营商，这也是卡特尔化的主要原因。
+决定谁可以成为节点运营商，谁被移除，是核心问题。 从长远来看，有两种方式可以选择，一种是通过治理（代币投票或其他类似机制）；另一种是通过围绕声誉和盈利能力的自动化机制。
+方案 1：节点运营商的治理
+假设用治理决定节点运营商，治理代币（例如 LDO）将成为以太坊的主要风险。如果代币能够决定谁成为理论上主导型 LSD 的节点运营商，那么代币持有者可以强制进行审查、多块 MEV 等操作，或者将节点运营商移除。
+事实上，这种经济垄断活动的实施只会加强代币对节点运营商的控制。如果代币…]]></summary>
+        <author>
+            <name>Foresight News</name>
         </author>
     </entry>
     <entry>
