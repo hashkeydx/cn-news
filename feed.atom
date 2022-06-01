@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-06-01T14:27:15.643Z</updated>
+    <updated>2022-06-01T15:09:57.667Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -136,6 +136,45 @@ FinTron 主要向 Z 世代和千禧一代受众提供个人理财服务，得益
 来源链接]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈Rollup生态系统中的可组合性：多链生态共存是唯一的前进方向]]></title>
+        <id>https://www.0daily.com/post/5179217</id>
+        <link href="https://www.0daily.com/post/5179217"/>
+        <updated>2022-06-01T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Alex Beckett，就职于 Celestia
+原文编译：Aididiao
+对 Rollup 最常见的批判之一是它们「破坏了可组合性」，这是大多数单链最大化主义者的主要论点。然而，「一条链统治世界」是不切实际的，多链生态共存是唯一的前进方向。那么可组合性在 Rollup 生态系统中意味着什么？
+虽然可组合性的概念看起来很简单，但在多链环境中，需要更细微的区分。
+可组合性：智能合约读取和写入另一个智能合约状态的能力。
+简单地说，当应用程序可以与其他应用程序交互时，它们是可组合的。例如，一个 Uniswap V3 流动性头寸管理工具可以与 Uniswap 组合，它可以读取 Uniswap 流动性池的当前数据，并为其用户执行流动性头寸的添加或删除。如果 Uniswap 和流动性工具位于同一条链上，它们可以轻松实现组合。
+同步可组合性：智能合约之间的交互发生在已知和有限的时间内。
+同步可组合性只是在单个区块的时间跨度内发生的应用程序之间的交互。例如，闪电贷要求借款人在一次交易中同时完成借入和偿还贷款操作。但单个交易不能跨越多个区块，它必须发生在单个区块内。通常，在同一链上相互组合的应用程序是同步的，以太坊上的所有 DeFi 应用程序彼此同步组合。但是，同步可组合性并不是唯一的可组合性类型。
+异步可组合性：智能合约之间的交互发生在未知且不受限制的时间内。
+与同步可组合性 (应用程序之间的交互必须发生在一个区块中) 不同，异步可组合性允许应用程序跨多个区块发生交互。虽然异步交互可能需要避免时间限制，但实际上没有人愿意永远等待，可以通过在预定时间后停止交互来缓解超时的情况。 重要的是，异步可组合性使不同链上的应用程序能够进行交互，那么如果应用程序位于不同的链上，交互是如何发生的呢？
+桥
+在不同的区块链之间传递数据需要一个桥。虽然许多桥的存在只是为了在不同链之间转移代币，但异步可组合性使用户能够与不同链上的应用程序进行交互。例如，假设 Uniswap v3 和我们第一个示例中的流动性应用程序位于不同链上。当用户在链 A 上与流动性应用程序进行交易时，流动性应用程序将通过桥来与链 B 进行交互。流动性应用程序将向桥发出指令，表明它想要与链 B 上的哪个应用程序交互以及进行什么类型的交互。在这种情况下，我们会说它在 Uniswap 上创造了流动性头寸。然后，桥将数据传递到链 B，以在 Uniswap 上创建流动性头寸，并将结果返回给链 A，同时包括来自 Uniswap 的 LP NFT。
+要使桥启用异步可组合性，它需要具有通用数据传递功能。通用数据包括区块链可以传递的任意类型的数据，例如应用程序状态、有效性证明或区块头。
+Rollups
+存在于同一个 Rollup 上的应用程序可以彼此同步组合。但是，不同 Rollup 上的应用程序需要一个桥来异步组合，这与不同链上的应用程序的交互要求相同。由于不可能使用单个区块链来扩展所有 Web3 活动，因此具有异步可组合性的多链生态系统是唯一的解决方案。
+Rollup「破坏」可组合性的论点是短视的，因为：
+
+应用程序不可能天生都存在于单个区块链上，它们必须跨多个区块链进行交互。
+
+尽管存在于不同的链上，应用程序依然可以组合。
+
+然而，多链生态系统有其自身的基本问题：
+
+每个区块链都需要部署自己的安全验证器。
+
+区块链需要安全的桥。
+
+除了可以拥有扩展性外，Rollups 还解决了以上两个基本问题。Rollups 不需要自己的验证器，只需要一组序列器来生成区块。L1 提供安全验证器集，共享结算层的 Rollup 可以彼此之间建立信任最小化的桥，因为它们的状态转换可以通过结算层轻松验证。
+最后，异步可组合性部分缓解了多链生态系统的另一个基本问题，即碎片化。应用程序可以从不同的链获取流动性，因为增加了流动性，跨链聚合和路由交易的 DEX 将减少大额交易的价格影响，对稳定币和质押衍生品更是如此。
+原文链接]]></summary>
+        <author>
+            <name>Foresight News</name>
         </author>
     </entry>
     <entry>
@@ -5101,72 +5140,6 @@ NFT“聪明的钱”购买排序
         <summary type="html"><![CDATA[PANews 5月28日消息，Terra研究论坛成员FatMan在推特上发文表示，由Terraform Labs开发的合成资产协议Mirror Protocol长期存在漏洞。自2021年10月起，攻击者在7个月的时间内利用该漏洞多次进行攻击，最高单笔获利超400万美元（使用1万美元获利430万美元），均未被Terraform Labs或Mirror团队发现。 截止漏洞修复时，攻击者利用该漏洞的总获利可能已超3000万美元。FatMan表示，该漏洞于11天前被Mirror论坛成员发现并提出质疑，此后该漏洞被修复，但Mirror团队并未对此事进行任何声明。此前，FatMan还发文表示，Mirror Protocol只是Terraform Labs（TFL）创建的一个闹剧协议，目的是为了让Do Kwon和VC们受益，同时操纵治理，坑害零投资者。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3 AR游戏初创公司Jadu完成3600万美元A轮融资，贝恩资本领投]]></title>
-        <id>https://www.theblockbeats.info/flash/84539</id>
-        <link href="https://www.theblockbeats.info/flash/84539"/>
-        <updated>2022-05-28T03:09:55.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 28 日，Web3 AR 游戏初创公司 Jadu 宣布完成 3600 万美元 A 轮融资，本轮融资由贝恩资本领投，General Catalyst Partners、LG Tech Ventures 和 Alumni Ventures 参投。截至目前，该公司融资总额已超过 4500 万美元。
-
-据悉，Jadu 推出的 AR 移动应用程序可以连接到玩家的以太坊钱包，与此同时出售喷气背包和悬浮滑板等 NFT，成为玩家在游戏中使用的工具，玩家可以将以太坊钱包连接到 Jadu 应用程序，选择一个喜欢的 NFT 头像，并进入 AR 游戏，目前支持来自 Deadfellaz、CyberKongz、FLUFs、VOIDs、ChibiApes、Meebits 和其他集合的 3D NFT 头像。Jadu 公司表示，随着平台的成熟，他们最终会向第三方收取佣金，用以在平台上开发游戏项目。
-
-律动此前报道，Jadu 于 2021 年 12 月宣布完成 700 万美元种子轮融资，该轮融资由 General Catalyst Partners 领投，Coinbase Ventures、LionTree、VR Fund、PKO Investments & Progression Fund、Guy Oseary、Sound Ventures 等参投。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inventus India推出第四只基金，拟融资1.2亿美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/f36qntb3.html</id>
-        <link href="https://panewslab.com/zh/articledetails/f36qntb3.html"/>
-        <updated>2022-05-28T03:08:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月28日消息，据CNBC报道，Inventus India宣布推出第四只基金并更名为Athera Venture Partners，据悉该基金拟融资1.2亿美元并重点投资印度公司，主要覆盖金融科技、深度科技和Web3等领域。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FTX计划花费数十亿美元收购其他公司股份]]></title>
-        <id>https://panewslab.com/zh/articledetails/oewutbw0.html</id>
-        <link href="https://panewslab.com/zh/articledetails/oewutbw0.html"/>
-        <updated>2022-05-28T03:06:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月28日消息，据雅虎财经报道，FTX创始人兼首席执行官Sam Bankman-Fried在采访时表示，FTX计划花费数十亿美元购买其他公司的股份，并扩大向客户提供的产品套件。收购资金来自FTX及其美国子公司完成的近几轮融资（总额超过20亿美元）。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Treasure DAO将于6月13日启动游戏化NFT交易市场Trove]]></title>
-        <id>https://www.theblockbeats.info/flash/84530</id>
-        <link href="https://www.theblockbeats.info/flash/84530"/>
-        <updated>2022-05-28T02:39:55.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 28 日，Arbitrum 上 NFT 生态系统 TreasureDAO 宣布将于 6 月 13 日启动游戏化 NFT 交易市场 Trove，并公布了 Trove Launch 合作伙伴的完整名单。
-
-Trove 表示，将在接下来的两周内与一小群 alpha 测试人员进行测试，该平台 NFT 会以 ETH 和 MAGIC（TreasureDAO 生态系统的原生 Token）计价。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SBF ：FTX准备斥资数十亿美元购买其他公司的股份]]></title>
-        <id>https://www.theblockbeats.info/flash/84527</id>
-        <link href="https://www.theblockbeats.info/flash/84527"/>
-        <updated>2022-05-28T02:39:55.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 28 日，据彭博社报道，FTX 创始人兼首席执行官 Sam Bankman-Fried（SBF）表示，FTX 准备斥资数十亿美元购买其他公司的股份，该行为旨在扩大 FTX 为客户提供的产品套件。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inventus India推出第四只基金，拟融资1.2亿美元投资Web3等领域]]></title>
-        <id>https://www.theblockbeats.info/flash/84533</id>
-        <link href="https://www.theblockbeats.info/flash/84533"/>
-        <updated>2022-05-28T02:39:55.000Z</updated>
-        <summary type="html"><![CDATA[律动 BlockBeats 消息，5 月 28 日，据 CNBC 报道，Inventus India 宣布推出第四只基金并更名为 Athera Venture Partners，据悉该基金拟融资 1.2 亿美元并重点投资印度公司，主要覆盖金融科技、深度科技和 Web3 等领域。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
 </feed>
