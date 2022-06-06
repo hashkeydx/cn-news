@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-06-06T10:10:01.817Z</updated>
+    <updated>2022-06-06T11:06:20.185Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -39,6 +39,59 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[以太坊漫游指南：万字详解以太坊的分片路线图]]></title>
+        <id>https://www.0daily.com/post/5179297</id>
+        <link href="https://www.0daily.com/post/5179297"/>
+        <updated>2022-06-06T09:15:00.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：Delphi Digital
+原文编译：DeFi 之道
+关键要点
+
+以太坊是唯一构建可扩展统一结算和数据可用性层的主要协议
+
+Rollups 在利用以太坊的安全性的同时扩展计算
+
+条条大路通向中心化区块生产、去中心化去信任区块验证和抗审查的终局
+
+提议者 - 构建者分离和弱无状态等创新解锁了这种权力分离（构建和验证），以在不牺牲安全性或去中心化的情况下实现可扩展性
+
+MEV 现在处于前沿和中心位置——计划进行大量设计以减轻其危害并防止其中心化趋势
+
+Danksharding 结合了多种前沿研究途径，以提供以太坊以 Rollup 为中心的路线图所需的可扩展基础层
+
+我确实希望在我们的有生之年实现 danksharding
+
+简介
+第 I 部分–Danksharding 之路
+1) 原始数据分片设计–独立的分片提议者
+2) 数据可用性采样
+3) KZG 承诺
+4) KZG 承诺与欺诈证明
+5) 协议内提议者 - 构建者分离
+6) 抗审查列表 (crList)
+7) 二维 KZG 方案
+8) Danksharding
+9) Danksharding–诚实多数验证
+10) Danksharding–重建
+11) Danksharding–带有私人随机抽样的恶意多数安全性
+12) Danksharding–关键要点
+13) Danksharding–区块链可扩展性的限制
+14) 原始 danksharding (EIP-4844)
+15) 多维 EIP- 1559
+第 II 部分–历史和状态管理
+1) 通过总 calldata 限制降低 calldata gas (EIP-4488)
+2) 限制执行客户端中的历史数据 (EIP-4444)
+3) 恢复历史数据
+4) 弱无状态
+5) Verkle Tries
+6) 状态到期
+第 III 部分–都是 MEV
+1) 当前的 MEV…]]></summary>
+        <author>
+            <name>DeFi之道</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[蚂蚁集团在新加坡推出数字银行Anext Bank]]></title>
         <id>https://panewslab.com/zh/articledetails/cg6nga7f.html</id>
         <link href="https://panewslab.com/zh/articledetails/cg6nga7f.html"/>
@@ -69,6 +122,31 @@
 此外，上个月该公司的BTC挖矿算力从2.15 Exahash升至2.18Exahash，以太坊挖矿算了达到6.26 Terahash。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「倒贴钱」的Free Mint项目For The Culture凭何成为市场流量新星？]]></title>
+        <id>https://www.0daily.com/post/5179294</id>
+        <link href="https://www.0daily.com/post/5179294"/>
+        <updated>2022-06-06T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[撰文：0xLaughing，律动 BlockBeats  
+近期爆火的 goblintown 和它的仿盘们似乎点燃了 Free Mint 赛道，各种博人眼球的 NFT 项目层出不穷，它们都试图通过千奇百怪的创意来吸引注意力。一时之间，各个 NFT 社群都逐渐沉迷于打「图狗」，希望能够抓住下一个暴涨的「哥布林」。
+通过 Free Mint，NFT 玩家们仅仅只需要支付 gas 费就能够以小博大，NFT 项目方也可以通过二级市场交易版税来回收成本进而盈利，但随着这种模式的 NFT 项目越来越多，市场似乎也有些疲惫了。这时，有一个更「内卷」的想法出现了，它用了仅仅不到一周的时间就成为了 NFT 市场上名副其实的「流量之星」。
+「倒贴钱」的 Free Mint
+
+「倒贴钱」的 Free Mint 方案
+「如果有一个 NFT 项目愿意支付给你 0.01 ETH 去 mint 会怎么样？」
+这原本可能只是一句玩笑话，拥有超过 158k 粉丝的知名 NFT KOL@digitalartck甚至给出她的方案：「这只需要一个发售数量是 10k 的 NFT 项目团队预先垫付 100 ETH，将二级市场的交易版税设置为 5%，他们将在这个 NFT 的交易量达到 2k ETH 时收回成本。」
+说者无意，听者有心。在过了仅仅不到 10 小时后，一个名为 Sibel 推特用户回复她说：「哈哈，我将要这样做。」
+
+For The Culture 在当天就成立了
+就这样，在当天 For The Culture 就带着它的简笔画成立了，宣告它将会完成这个有趣的实验。它的创始人 Sibel 宣布这个系列的 NFT 总量定为 5k，全部都是 Free Mint，同时在 mint 后还会额外获得 0.01 ETH 作为奖励。
+多位 NFT KOL 推波助澜
+
+shan 宣布资助 For The Culture
+在…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
         </author>
     </entry>
     <entry>
