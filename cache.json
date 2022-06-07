@@ -6,6 +6,76 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/06z17g4s.html",
+          "author": "PA一线",
+          "description": "PANews 6月7日消息，美国司法部针对拜登政府在今年3月份签署的确保数字资产负责任创新的行政命令回应称，建议执法机构在加密和区块链方面开展更多国际合作，加强信息共享、协调，并缩小跨辖区的监管差距。\n此前3月份，白宫官网发布简报，美国总统拜登签署关于确保数字资产负责任创新的行政命令，概述首个保护消费者、金融稳定、国家安全和应对气候风险的数字资产政府整体战略，以应对风险并利用数字资产及其基础技术的潜在利益。\n来源链接",
+          "link": "https://panewslab.com/zh/articledetails/06z17g4s.html",
+          "publishedOn": "2022-06-07T15:59:37.000Z",
+          "wordCount": 102,
+          "title": "美国司法部：建议执法机构在加密和区块链方面开展更多国际合作",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/mwe42jtv.html",
+          "author": "PA一线",
+          "description": "PANews 6月7日消息，据Oasis官方人员称：“Oasis重申我们几个月前发出的信息，我们认为EvoDeFi是高风险的。该跨链桥未经过审计，不是去中心化的，也不是开源的。鉴于在目的链上铸造的资产和锁定在源链上的资产之间的差距越来越大，请继续提防EvoDeFi和任何连接到该桥的DApps（例如ValleySwap）的风险。ValleySwap和EvoDeFi与Oasis网络没有任何关联。Oasis是一个去中心化的、保护隐私的、可扩展的和安全的区块链网络。有多个跨链桥支持将稳定币桥接到Oasis Emerald——我们建议选择一个完全开源、经过审计和去中心化的跨链桥，如Wormhole、cBridge或Multichain。”\n今日此前消息，Oasis生态DEX ValleySwap上的USDT已严重脱锚",
+          "link": "https://panewslab.com/zh/articledetails/mwe42jtv.html",
+          "publishedOn": "2022-06-07T15:39:12.000Z",
+          "wordCount": 104,
+          "title": "Oasis回应ValleySwap上的USDT脱锚，此前已警示跨链桥EvoDeFi有高风险",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/x997ah9w.html",
+          "author": "PA一线",
+          "description": "PANews 6月7日消息，据慢雾区消息，Equalizer Finance 今日遭受闪电贷攻击。此次攻击的主要原因在于 Equalizer Finance 协议的 FlashLoanProvider 合约与 Vault 合约不兼容。慢雾安全团队建议协议在进行实际实现时应充分考虑各个模块间的兼容性。\n慢雾安全团队以简讯形式将攻击原理分享如下：\n1. Equalizer Finance 存在 FlashLoanProvider 与 Vault 合约，FlashLoanProvider 合约提供闪电贷服务，用户通过调用 flashLoan 函数即可通过 FlashLoanProvider 合约从 Vault 合约中借取资金，Vault 合约的资金来源于用户提供的流动性。\n2. 用户可以通过 Vault 合约的 provideLiquidity/removeLiquidity 函数进行流动性提供/移除，流动性提供获得的凭证与流动性移除获得的资金都受 Vault 合约中的流动性余额与流动性凭证总供应量的比值影响。\n3. 以 WBNB Vault 为例攻击者首先从 PancekeSwap 闪电贷借出 WBNB\n4. 通过 FlashLoanProvider 合约进行二次 WBNB 闪电贷操作，FlashLoanProvider 会先将 WBNB Vault 合约中 WBNB 流动性转给攻击者，随后进行闪电贷回调。\n5. 攻击者在二次闪电贷回调中，向 WBNB Vault 提供流动性，由于此时 WBNB Vault 中的流动性已经借出一部分给攻击者，因此流动性余额少于预期，则攻击者所能获取的流动性凭证将多于预期。\n6. 攻击者先归还二次闪电贷，然后从 WBNB Vault 中移除流动性，此时由于 WBNB Vault 中的流动性已恢复正常，因此攻击者使用添加流动性获得凭证所取出的流动性数量将多于预期。\n7. 攻击者通过以上方式攻击了在各个链上的 Vault 合约，耗尽了 Equalizer Finance 的流动性。",
+          "link": "https://panewslab.com/zh/articledetails/x997ah9w.html",
+          "publishedOn": "2022-06-07T15:17:49.000Z",
+          "wordCount": 173,
+          "title": "慢雾：Equalizer Finance被黑主要在于FlashLoanProvider合约与Vault合约不兼容",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/r11mkzi0.html",
+          "author": "PA一线",
+          "description": "PANews 6月7日消息，Solana 生态数据基础设施解决方案 Vybe Network 宣布完成 1050 万美元 A 轮融资，FTX Ventures 领投，其他参投方包括 Sino Global Capital、Staking Facilities、Serum、Panony、Tess Ventures、Contango、Canonical Crypto Fund 和 EBT Group 等。Vybe 将利用这笔资金来帮助实现数据访问和存储的去中心化，从而允许任何用户参与网络、共享和货币化他们的数据。",
+          "link": "https://panewslab.com/zh/articledetails/r11mkzi0.html",
+          "publishedOn": "2022-06-07T15:00:50.000Z",
+          "wordCount": 128,
+          "title": "Solana生态数据解决方案Vybe Network完成1050万美元A轮融资，FTX Ventures领投",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/y0uttz2w.html",
+          "author": "PA一线",
+          "description": "PANews 6月7日消息，Circle 的支付和资金平台现在支持 Polygon USD Coin (USDC)，从而为使用稳定币的客户实现无缝交易。根据周二的公告，Polygon USDC 是第一个在其平台上支持的稳定币“桥接”版本。",
+          "link": "https://panewslab.com/zh/articledetails/y0uttz2w.html",
+          "publishedOn": "2022-06-07T14:52:05.000Z",
+          "wordCount": 117,
+          "title": "Circle 在其支付平台上推出对 Polygon USDC 稳定币的支持",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/ez71ucfp.html",
+          "author": "PA一线",
+          "description": "PANews 6月7日消息，Oasis 生态 DEX ValleySwap 上的 USDT 已严重脱锚，当前价格比率约为 1 USDC=1.85 USDT。据DefiLlama数据，ValleySwap 锁仓额在已从6月3日的 1.9 亿美元下降至目前的 5379 万美元，下降幅度超70%。\nOasis生态跨链桥EVODefi解释称：此前数天，由于Valleyswap中的FUD恐慌导致该跨链桥出现大量资金流动，大多数转账是向BNB智能链发起，导致该跨链桥流动性不足因此暂停代币桥接功能。数小时前，该项目宣布恢复ETH、USDC等代币的跨链桥接功能，但USDT跨链桥接功能暂未开放，引发社区对该跨链桥USDT流动性的担忧，或由此导致部分用户抛售USDT并导致该代币脱锚。 \n此前在4月底，Oasis官方曾预警称，EvoDeFi跨链桥存在一个管理员后门取款功能，允许管理员从桥上转移资金，用户在使用连接EvoDefi跨链桥的ValleySwap和RimSwap等DApps时请注意风险。目前，此事件只影响VallerySwap及EVODefi，暂未影响OasisEmerald上其他生态及其他代币。\n来源链接",
+          "link": "https://panewslab.com/zh/articledetails/ez71ucfp.html",
+          "publishedOn": "2022-06-07T14:22:34.000Z",
+          "wordCount": 119,
+          "title": "Oasis生态DEX ValleySwap上的USDT已严重脱锚",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/56d8y76g.html",
+          "author": "PA一线",
+          "description": "PANews 6月7日消息，Aurora 背后核心开发团队 Aurora Labs 向一名通过 Immunefi 报告错误的白帽黑客奖励 600 万美元。该黑客于 4 月在 Aurora 网络上发现了一个严重漏洞，目前 Aurora 已经完成了修复。根据 Immunefi，这是 Aurora 引擎（基于 NEAR 协议构建的以太坊虚拟机环境）上的一个严重通胀错误，用户可以在这里将 ETH 和 ERC-20 代币从以太坊主网存入 NEAR。这可能会允许恶意实体造成超过 7 万枚 ETH 的损失（目前价值约 1.22 亿美元）。",
+          "link": "https://panewslab.com/zh/articledetails/56d8y76g.html",
+          "publishedOn": "2022-06-07T14:05:15.000Z",
+          "wordCount": 134,
+          "title": "Aurora Labs向一名白帽奖励600万美元，其曾使7万ETH免于被盗",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/dw4cmrtn.html",
           "author": "PA一线",
           "description": "PANews 6月7日消息，IoTeX 核心开发团队 MachineFi Lab 宣布以 1 亿估值完成 1000 万美元种子轮融资，Samsung Next、Draper Dragon Fund 和 Jump Capital 领投，其他投资方包括 HashKey Capital、IOSG Ventures、Escape Velocity、Goodwater Capital、Xoogler Ventures、WeMade、Hanwha、Alpha Grep、DHVC、Vista Lab、Ribbit Angel Fund、NewBuild VC 等公司或风投基金以及部分天使投资人。\nMachineFi Lab 通过去中心化应用程序 (dapps) 激励收集现实世界的物联网 (IoT) 设备数据，创始人表示这笔资金将用于平台开发、招聘以及可能在平台上构建的早期项目的孵化。",
@@ -1574,26 +1644,6 @@
           "wordCount": 97,
           "title": "纽约参议院通过暂停用碳基能源进行比特币挖矿的法案",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/scrlxm2l.html",
-          "author": "PA一线",
-          "description": "PANews 6月3日消息，据彭博社报道，日本议会周五通过了一项法案，澄清了稳定币的法律地位，将其本质上定义为数字货币。根据新法律，稳定币必须与日元或其他法定货币挂钩，并保证持有者有权按面值赎回。新的法律框架将在一年内生效。日本金融厅表示，将在未来几个月推出管理稳定币发行方的法规。该法案实际意味着稳定币只能由持牌银行、注册转账代理机构和信托公司发行。该法案没有涉及Tether等海外发行方发行的稳定币或算法稳定币。目前日本加密交易所尚未提供稳定币交易服务。",
-          "link": "https://panewslab.com/zh/articledetails/scrlxm2l.html",
-          "publishedOn": "2022-06-03T03:18:03.000Z",
-          "wordCount": 103,
-          "title": "日本通过稳定币法案，新规将在一年内生效",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/621i8hcp.html",
-          "author": "PA一线",
-          "description": "PANews 6月3日消息，据华尔街日报报道，纽约总检察长Letitia James发布关于加密货币投资风险的指导意见，警告称虚拟货币投资存在风险。她表示，在上个月的市场动荡中，投资者在加密货币投资上损失了数千亿美元。即使是合法的虚拟货币资产也会受到投机泡沫和安全问题的影响。由此同时，由于没有受联邦政府监管的交易所，该市场也缺乏监管。纽约总检察长办公室曾于今年3月发布警告，提醒投资者在投资加密货币时应“极其谨慎”，并提醒经纪商和交易商等专业人士，在开展虚拟货币业务时，他们有法律义务向司法部长办公室注册。",
-          "link": "https://panewslab.com/zh/articledetails/621i8hcp.html",
-          "publishedOn": "2022-06-03T03:12:38.000Z",
-          "wordCount": 104,
-          "title": "纽约总检察长对加密货币投资风险发出警告",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -1602,6 +1652,66 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/flash/86123",
+          "author": null,
+          "description": "BlockBeats 消息，6 月 7 日，据 The Block 报道，Aurora 背后核心开发团队 Aurora Labs 向一名通过 Immunefi 报告错误的白帽奖励 600 万美元。该黑客于 4 月在 Aurora 网络上发现了一个严重漏洞，目前 Aurora 已经完成了修复。根据 Immunefi，这是 Aurora 引擎（基于 NEAR 协议构建的以太坊虚拟机环境）上的一个严重通胀错误，可能会允许恶意实体造成超过 7 万枚 ETH 的损失（目前价值约 1.22 亿美元）。",
+          "link": "https://www.theblockbeats.info/flash/86123",
+          "publishedOn": "2022-06-07T13:44:58.000Z",
+          "wordCount": null,
+          "title": "Aurora Labs向一名通过Immunefi报告关键漏洞的白帽奖励600万美元",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/86117",
+          "author": null,
+          "description": "BlockBeats 消息，6 月 7 日，加密税务和会计平台 Ledgible 宣布完成 2000 万美元 A 轮融资，EJF Capital 旗下 EJF Silvergate Ventures Fund 领投，JAM FINTOP、Thomson Reuters Ventures、TTV Capital、Fenbushi US、Commerce Ventures、Nathan McCauley 和 Perkins Coie 等参投。\n\n据悉，Ledgible 加密税收和会计平台支持跨主要区块链、加密货币交易平台、钱包和专业会计工具的集成，能够确定加密税收与账目，并将该数据提供给专业税务申报系统以及总账会计系统。Ledgible 将使用该笔投资扩大产品线并扩充团队，以支持更多的机构合作伙伴和会计师事务所。",
+          "link": "https://www.theblockbeats.info/flash/86117",
+          "publishedOn": "2022-06-07T13:25:27.000Z",
+          "wordCount": null,
+          "title": "加密税务与会计平台Ledgible完成2000万美元A轮融资，EJF Silvergate Ventures Fund领投",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/86114",
+          "author": null,
+          "description": "BlockBeats 消息，6 月 7 日，基于以太坊的借贷协议 Euler Finance 宣布完成 3200 万美元融资，Haun Ventures 领投，Variant、FTX Ventures 和 Jump Crypto 等参投。据悉，Euler Finance 使用了一种框架式的借贷风险评估方案，团队将于今年晚些时候推出 DAO，使用户能够对 Euler 的开发和运营进行治理，并决定如何使用其社区金库。",
+          "link": "https://www.theblockbeats.info/flash/86114",
+          "publishedOn": "2022-06-07T13:22:27.000Z",
+          "wordCount": null,
+          "title": "借贷协议Euler Finance完成3200万美元融资，Haun Ventures领投",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/86111",
+          "author": null,
+          "description": "BlockBeats 消息，6 月 7 日，由 NBA 球星丁威迪创建的加密社交平台 Calaxy 宣布完成 2600 万美元融资，HBAR Foundation 和 Animoca Brands 领投，Polygon 参投。据悉，Calaxy 将搭建一个基于区块链底层技术的用户向社交平台，粉丝可以通过视频消息、在线课程、视频通话和粉丝俱乐部订阅等方式与知名创作者建立联系，这些订阅可以使用 Calaxy 的原生 Token CLXY 进行购买。",
+          "link": "https://www.theblockbeats.info/flash/86111",
+          "publishedOn": "2022-06-07T13:17:27.000Z",
+          "wordCount": null,
+          "title": "加密社交平台Calaxy完成2600万美元融资，Animoca Brands和HBAR Foundation领投",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/86096",
+          "author": null,
+          "description": "BlockBeats 消息，The Block 报道，6 月 7 日，一位 Telegram 的发言人向 The Block 表示，当前在社交媒体上引起关注的「135G 加密行业犯罪聊天记录」具有「恶作剧的所有特征」，而文字的目的很可能使容易上当的人下载一些窃取你私钥的恶意软件。\n\n此前，推特用户 @adyingnobody 今日发推特声称使用 Telegram 软件中的漏洞下载了超过 100GB 的聊天信息，并将于后续进行曝光，内容包括加密货币 KOL 丑闻、市值前 200 名项目的创始人内部谈话记录，以及若干涉及违法行为的相关信息。",
+          "link": "https://www.theblockbeats.info/flash/86096",
+          "publishedOn": "2022-06-07T12:39:27.000Z",
+          "wordCount": null,
+          "title": "Telegram回应135G聊天记录泄露：疑似恶作剧，目的或是窃取用户钱包私钥",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/86099",
+          "author": null,
+          "description": "BlockBeats 消息，6 月 7 日，由加密货币交易平台 Crypto.com 建立的区块链生态系统 Cronos 宣布启动加速器计划以支持 DeFi、GameFi 领域的早期初创公司。据悉，Cronos 的加速器计划将由 1 亿美元的 Cronos Labs 生态系统基金资助，将为 Pre-Seed 轮和种子轮的区块链项目提供 10 万美元至 30 万美元的资金支持、以及额外用于安全审计、节点服务等的赠款。目前，Cronos 正在邀请开发人员申请其为期 10 周的加速计划。",
+          "link": "https://www.theblockbeats.info/flash/86099",
+          "publishedOn": "2022-06-07T12:39:27.000Z",
+          "wordCount": null,
+          "title": "区块链网络Cronos启动1亿美元加速器计划以支持DeFi、GameFi领域初创公司",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/flash/86090",
           "author": null,
@@ -2701,26 +2811,6 @@
           "wordCount": null,
           "title": "WWE宣布推出首个官方NFT系列",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/85502",
-          "author": null,
-          "description": "BlockBeats 消息，6 月 3 日，加密研究机构 Messari 宣布获得 The Graph 基金会的 1250 万美元开发人员赠款，并成为首个 Core Subgraph 开发机构。Messari 表示 Web3 将极大受益于 Subgraph 标准，Messari 将贡献其开发人员人才和领域专业知识，以开发和维护高质量、准确、复杂和标准化的 Subgraph，创建一致的数据集。",
-          "link": "https://www.theblockbeats.info/flash/85502",
-          "publishedOn": "2022-06-03T03:42:18.000Z",
-          "wordCount": null,
-          "title": "加密研究机构Messari获The Graph基金会的1250万美元开发人员赠款",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/85499",
-          "author": null,
-          "description": "BlockBeats 消息，6 月 3 日，据彭博社报道，日本议会周五通过了一项法案，澄清了 Stablecoin 的法律地位，将其本质上定义为数字货币。根据新法案，Stablecoin 必须与日元或其他法定货币挂钩，并保证持有者有权按面值赎回。至此，日本成为首批围绕 Stablecoin 引入法律框架的主要经济体之一。\n\n该法律上的定义实际上意味着 Stablecoin 只能由持牌银行、注册转账代理机构和信托公司发行，注重投资者保护。该法案没有涉及 Tether 等海外发行方发行的 Stablecoin 或算法 Stablecoin。此外，日本的加密交易平台也没有上线 Stablecoin。\n\n新的法律框架将在一年内生效。日本金融厅表示，将在未来几个月推出管理 Stablecoin 发行方的法规。",
-          "link": "https://www.theblockbeats.info/flash/85499",
-          "publishedOn": "2022-06-03T03:11:18.000Z",
-          "wordCount": null,
-          "title": "日本通过Stablecoin法案，未来数月内将推出管理Stablecoin发行方的法规",
-          "imageUrl": null
         }
       ]
     },
@@ -3267,26 +3357,6 @@
           "publishedOn": "2022-06-03T06:30:00.000Z",
           "wordCount": 3,
           "title": "日本官方关于Web3发展的新思考",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5179249",
-          "author": "星球君的朋友们",
-          "description": "原文来源：推特@EllaineXu\n给这两天沸沸扬扬OP开个话题。我发现市场上大家都在说对OP估值，但是估值之前要想清楚OP整个的底层逻辑，比如OP代币的价值到底是什么，这种价值怎么体现，多少能price in等等，我想简单探讨一下。先从OP治理模型开始（毕竟当下看到OPtoken只有governance的权利）。\n1、治理基准 \n1.1目前是临时宪法（≤4年）---持续实验---永久基石宪法\n1.2愿景：可持续地资助那些能够改善集体及其他福祉的公共产品 \n1.3两院制治理体系制衡OP持有者和 OP公民的权力。 \n2、治理原则 \n2.1治理最小化\n2.2 Optimism Collective拥有分叉和退出的权利。所有运行Optimism网络所需的核心软件和工具都应该是开源的，免费提供的，并且易于使用。 \n2.3反财阀 \n2.4影响=利润。尽量减少集体影响和个人利润之间的差异。 \n3、治理主体及权责\n\n\n4、早期治理概括\n Optimism Foundation 全权负责领导协议开发、运行排序器和选择第一批公民。他们有权对 OP Token 持有者的利益采取行动，并进一步集中权力。 \n5、治理权限 \n6、治理规则\n5和6在链接中写的非常详细不再赘述：https://community.optimism.io/docs/governance/gov-01/\n从OP的治理的机制中我们mayber乐观估计（对我们也必须乐观一点）OP holder未来可以大部分掌控foundation和宪法修改，进而对收益分配权有掌控，进而可以使得OP有未来收入支撑，使其有金融价值，而不仅仅是治理权。于是我们顺着这个逻辑思考下一步：OP网络整体经济角色和循环、收入模式等。\n 1、重要经济角色和权益\n\n\n2、总收入和分配循环\n2.1 收入概况 -本质：对OP blockspace的需求产生收入，bl…",
-          "link": "https://www.0daily.com/post/5179249",
-          "publishedOn": "2022-06-03T04:00:00.000Z",
-          "wordCount": 3,
-          "title": "从Optimism治理机制与经济模型推断OP的最终价格",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5179250",
-          "author": "念银思唐",
-          "description": "本文来自 Decrypt & The Block，原文作者：Stacy Elliott & Michael McSweeney\nOdaily 星球日报译者 | 念银思唐\n\n持续萎靡的加密市场再次打击了该行业的工作者。\nGemini Trust Co.总裁兼首席执行官、亿万富翁 Tyler 和 Cameron Winklevoss 兄弟周四宣布，该公司将裁员 10%，以帮助该公司渡过“加密冬天”。\n这对兄弟重申，他们相信“加密革命”正在顺利进行，但表示目前的发展轨迹迫使他们重新评估员工规模。\n“我们已经要求团队负责人确保他们只专注于对我们的使命至关重要的产品，并评估他们的团队规模是否适合当前动荡的市场环境，这种市场环境可能会持续一段时间。”他们在声明中写道，“经过深思熟虑，我们做出了一个艰难但必要的决定，即辞退约 10% 的员工。”\n兄弟二人在备忘录中写道，公司所有的实体办公室都已关闭，被解雇的员工将与他们的经理进行一对一的会谈，讨论遣散费问题。\n市场持续低迷，加密交易所放缓脚步\n全球加密货币总市值已经从去年 11 月 2.9 万亿美元的高点下滑至如今的 1.2 万亿美元。\n目前的宏观经济和地缘政治动荡加剧了这种局面。美国劳工部（Department of Labor）的数据显示，通胀率已经达到 8.5%，是上世纪 80 年代以来的最高水平。与此同时，俄乌冲突已经持续了三个多月。\n根据 CoinMarketCap 的数据，截至周四上午，Gemini 是第九大现货加密货币交易所，在过去一天的交易量达到 1.25 亿美元。\n采取特殊措施来应对目前市场状况的不只有 Gemini。上市加密货币交易所 Coinbase（COIN）此前也宣布将从 5 月中旬开始冻结招聘，为期两周。“进入今年，我们原计划将公司规模扩大两倍，”该公司首席运营官兼总裁 Emilie Choi 在一篇博客文章中写道，“然而鉴于目前的市场状况，我们认为放慢招聘速度并根据我们最优先的业务目标重新评估员工需求是明智的。”\n然而根据周四晚间官方发布的一篇博客文章，Coinbase 将取消一些已被接受的录用通知（offer），并延长目前暂停招聘的期限，以适应宏观环境和加密货币的普遍波动。\n该公司表示，目前还不清楚有多少 offer 会被取消，但有一些例外情况会保留。Coinbase 也没有具体说明暂停招聘将持续多长时间。\nCoinbase 首席人事官 L.J Brock 解释称：“延长的暂停招聘将包括 backfills，除了那些为满足我们为安全和合规设定的高标准，或支持其他关键任务工作所必需的职位。”\n作为第三大加密货币交易所，Coinbase 过去一天的交易量为 24 亿美元，自去年 4 月 IPO 以来，其股价已下跌逾 70%。截至发稿，该公司股价为每股 73.82 美元。\n祸不单行\n就在 Gemini 宣布裁员当日，美国商品期货交易委员会（CFTC）表示将起诉该加密货币交易所。据彭博社报道，CFTC 指控 Gemini 在回答有关 Gemini 数字资产交易平台上与比特币价格挂钩的期货合约的问题时误导了该机构。\n在周四向曼哈顿联邦法院提交的诉讼中，CFTC 声称，Gemini 在 2017 年 7 月至 12 月与 CFTC 工作人员会谈时，就 Gemini 交易平台和 Gemini Bitcoin Auction 的运营“做出虚假和误导性的陈述”。\n该机构称：\n\n“根据起诉书，Gemini 直接并通过 DCM 向 CFTC 提供了有关 Gemini 交易平台和 Gemini Bitcoin Auction 的信息，而 Gemini 传达或遗漏的某些声明和信息是虚假的或具有误导性的，其中包括：与理解拟议的比特币期货合约是否容易受到操纵相关的事实。正如起诉书中所说，Gemini 的工作人员知道或应该知道这些声明是虚假的或具有误导性的。”\n\n正如 Gemini 当时宣布的那样，Cboe 的现金结算比特币期货利用了 Gemini 在 2017 年 12 月推出时的价格数据。起诉书中没有提到 Cboe 的名字。\n当记者联系到 Gemini 的发言人置评时，他告诉 The Block：“从第一天起，Gemini 就一直是审慎监管的先驱和支持者。八年以来，我们一直在寻求许可，而不是请求原谅，而且总是做正确的事情。我们期待在法庭上证明这一点。”\nCFTC 和 Cboe 没有立即回应置评请求。",
-          "link": "https://www.0daily.com/post/5179250",
-          "publishedOn": "2022-06-03T03:53:33.000Z",
-          "wordCount": 3,
-          "title": "Gemini宣布裁员10%以渡过「加密冬天」",
           "imageUrl": null
         }
       ]
