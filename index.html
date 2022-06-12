@@ -51,11 +51,62 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-12 datetime="2022-06-12T01:39:42.000Z">2022-06-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-12 datetime="2022-06-12T01:39:42.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-12 datetime="2022-06-12T03:28:49.000Z">2022-06-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-12 datetime="2022-06-12T03:28:49.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179434"
+                        open
+                      >
+                        <summary class="article-expander__title">CertiK：Osmosis漏洞被利用，500万美元损失事件分析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179434">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>北京时间2022年6月7日，CertiK审计团队监测到Osmosis漏洞被利用，导致了约500万美元的资产受到损失。
+此次事件起因于函数MaximalExactRatioJoin中存在的代码漏洞。
+该函数由CalJoinPoolShares调用，根据输入的代币数量计算份额。函数MaximalExactRatioJoin的漏洞导致一旦用户通过JoinPool提供流动性，CalJoinPoolShares就会向用户提供远大于其原本应给的LP份额。
+
+推特公告链接: 
+https://twitter.com/osmosiszone/status/1534470729797976064
+攻击步骤
+该次攻击中有多人恶意进行多笔交易，以下分析以攻击者①中两个被利用的交易为例。
+① 攻击者调用JoinPool()将29.95 USDC和26.03 OSMO的流动性添加至GAMM池（本例中为池ID 678），铸成的LP份额为8.79 GAMM-678。
+
+② 之后，攻击者从678池中调用ExitPool()，使用之前的份额移除流动性。
+
+③ 由于对剩余代币的份额计算错误，攻击者能够提取约为存款金额1.5倍的代币。
+④ 攻击者多次重复以上攻击步骤，以获取更大的利润。
+漏洞分析
+此次事件漏洞的根本原因在于对剩余代币的份额计算错误。
+一旦用户在x/gamm/keeper/msg_server.go中通过Msg.JoinPool信息调用函数JoinPool（）。
+
+该函数即会调用x/gamm/keeper/pool_service.go第95行的函数JoinPoolNoSwap()。
+
+在函数JoinPoolNoSwap()中，通过调用函数getMaximalNoSwapLPAmount()在第192行计算出shareOutAmount的所需流动资金后，函数JoinPoolNoSwap()将在os…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -207,6 +258,46 @@
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/86922"
+                        open
+                      >
+                        <summary class="article-expander__title">V神：「元宇宙」仍处于能被广泛认知的早期阶段</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/86922">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 12 日，畅销书《虚拟主义宣言》作者 MacaesBruno 在社交媒体发文表示，仍然不确定加密货币和元宇宙之间的联系是什么。也许，虚拟世界需要一些不变性才能茁壮成长，而只有加密货币能够提供这种不变性？
+
+以太坊创始人 V 神对此回应称，「对「元宇宙」到底有没有一个确定的定义呢？感觉它仍然处于能被广泛认知的早期阶段，任何人都可以借此来描述他们的产品，只要为了让其听上去足够「meta」或足够虚拟等等」。V 神补充说明到，「加密和元宇宙似乎都在试图在虚拟世界中复制「真实性」的各个方面。但他们关注的方面似乎完全不同，并且几乎是截然相反的」。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/86919"
+                        open
+                      >
+                        <summary class="article-expander__title">爱德华·斯诺登：使用加密货币，而非投资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/86919">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 12 日，爱德华·斯诺登 (Edward Snowden) 在 Consensus 2022 大会上发言表示：「我持有比特币是为了使用它。一般而言，我不鼓励人们将加密货币视为一种技术而投资它，这是我与行业内大多数人的区别」。
+
+本月初，面对最近一些技术专家的批评，斯诺登为加密行业辩护称，「这些技术专家批评加密货币和区块链技术，以反击加密行业在本月初的游说努力。他们可能是在故意曲解加密行业，因此重复了过去提出的一些传统论调」。
+
+BlockBeats 对本次大会跟踪报道，点击查看：https://www.theblockbeats.info/news/30773</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -3103,6 +3194,33 @@ Odaily 星球日报译者 | 念银思唐
 所有受访者都预测，今年年底比特币价格将超过 4 万美元，这是调查结束前后比特币的价格。今年比特币价格预测中值为 7.5 万美元，甚至还有约5%的受访者表示，比特币价格今年年底将超过 10 万美元。
 
 来源：PwC</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179423"
+                        open
+                      >
+                        <summary class="article-expander__title">新项目 | PartyBid：a16z领投的NFT众筹拍卖协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179423">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NFT 众筹逐渐成为了一种新的经济组织形式，它可以让人们通过集体合作的方式来参与门槛较高的蓝筹 NFT 项目，并从中获得利润。
+本文介绍的  PartyBid 也属于该领域的一员，它由去中心化组织平台 PartyDAO 创建，后者于近期刚完成由 a16z 领投的 1640 万美元融资。
+
+
+具体来说，PartyBid 是一款大众化的 NFT 众筹拍卖产品，参与 PartyBid 没有任何条件的限制，任何人都可以通过官网上“Start a Party” 按钮来创建一个众筹小组，当然，也可以加入一个现成的众筹小组。
+确定好之后，就可以通过筹集资金来参与指定 NFT 的拍卖，在竞标开始之前，小组成员可以向 PartyBid 贡献 ETH，贡献者在贡献 ETH 后不能退出。如果拍卖成功，出售的 NFT 利润由该众筹小组瓜分，如若有剩余资金，则可由出资者取回。如果拍卖失败，则所有未使用的 ETH 都可以通过连接你的钱包并点击“领取 ETH”来取回。
+这种方式极大地降低了普通用户参与天价 NFT 项目的门槛。
+该产品在上线的 48 小时内，就处理了超过 1200 ETH 的交易量，并参与了像  CryptoPunks 这样的蓝筹 NFT 项目拍卖。截至目前，有 19,376 名“付费”用户，交易额达 8,030.2 ETH。PartyBid 还支持 Zora auctions、Foundation auctions、OpenSea Buy Now 和 Nouns 的 NFT 拍卖。
+目前，PartyBid 2.0 已推出，值得注意的是，新版本增加了用户资料，趋势众筹小组等社交功能。但由于是开发阶段，在协调工具的可扩展性和灵活性上还有待改进。此外，PartyBid 还将围绕治理系统、链上记账和安全代码执行等方面继续开发。
+对 PartyBid 最新进展感兴趣的朋友，可以关注其官方推特和Discord。
+Odaily星球日报的【新项目】栏目旨在帮助 Web3 早期项目获得市场曝光机会，如果你也是 Web3 创业者，欢迎关注官方推特@OdailyChina，私信备注【寻求报道】，发送你的项目简介和联系方式，我们将尽快与你沟通。</span>
                             </span>
                           </div>
                         </a>
@@ -7454,61 +7572,6 @@ BlockBeats 此前报道，1 月 11 日，全球知名做市商 Citadel Securitie
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/86156"
-                        open
-                      >
-                        <summary class="article-expander__title">Oasis生态跨链桥EVODefi发行的USDT脱锚至0.55美元，此前被曝存在管理员后门取款功能</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/86156">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，6 月 7 日，Oasis 生态跨链桥 EVODefi 在 OasisEmerald 上发行的 USDT Token 现已脱锚，其在 VallerySwap 的现价为 0.55 美元。此前数日，由于 Valleyswap 中的 FUD 恐慌导致该跨链桥出现大量资金流动，大多数转账向 BNB 智能链发起，导致该跨链桥流动性不足因此暂停 Token 桥接功能。
-
-数小时前，该项目宣布恢复 ETH、USDC 等 Token 的跨链桥接功能，但 USDT 跨链桥接功能暂未开放，即用户无法将 USDT 跨链取出，引发社区对该跨链桥 USDT 流动性的担忧，或由此导致部分用户抛售 USDT 并致使该 Token 脱锚。
-
-此前在 4 月底，Oasis 官方曾多次预警称，EvoDeFi 跨链桥存在一个管理员后门取款功能，允许管理员从桥上转移资金，用户在使用连接 EvoDefi 跨链桥的 ValleySwap 和 RimSwap 等 DApps 时请注意风险。目前，此事件只影响 VallerySwap 及 EVODefi，暂未影响 OasisEmerald 上其他生态及其他 Token。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/86153"
-                        open
-                      >
-                        <summary class="article-expander__title">Coinbase已将ATA、XCN、DYP和POND四种Token列入上币计划清单</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/86153">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，6 月 7 日，Coinbase 在社交媒体上宣布，目前已把 Automata Network（ATA）、Chain（XCN）、DeFi Yield Protocol（DYP）和 Marlin（POND）四种 Token 列入上币计划清单。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/86141"
-                        open
-                      >
-                        <summary class="article-expander__title">Circle宣布将支持Polygon USDC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/86141">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，6 月 7 日，USDC 发行方 Circle 宣布开始在其支付平台支持 Polygon USDC，开发者将能够构建从法定货币到 Polygon USDC 的自动化流程，企业、交易平台和机构交易者能够访问 Polygon USDC，并可在其他八个区块链网络中将其兑换为原生 USDC。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8708,71 +8771,6 @@ Chainlink权益质押机制的初步落地方案是打造一个简单安全的�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/mwe42jtv.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Oasis回应ValleySwap上的USDT脱锚，此前已警示跨链桥EvoDeFi有高风险</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/mwe42jtv.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月7日消息，据Oasis官方人员称：“Oasis重申我们几个月前发出的信息，我们认为EvoDeFi是高风险的。该跨链桥未经过审计，不是去中心化的，也不是开源的。鉴于在目的链上铸造的资产和锁定在源链上的资产之间的差距越来越大，请继续提防EvoDeFi和任何连接到该桥的DApps（例如ValleySwap）的风险。ValleySwap和EvoDeFi与Oasis网络没有任何关联。Oasis是一个去中心化的、保护隐私的、可扩展的和安全的区块链网络。有多个跨链桥支持将稳定币桥接到Oasis Emerald——我们建议选择一个完全开源、经过审计和去中心化的跨链桥，如Wormhole、cBridge或Multichain。”
-今日此前消息，Oasis生态DEX ValleySwap上的USDT已严重脱锚</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/x997ah9w.html"
-                        open
-                      >
-                        <summary class="article-expander__title">慢雾：Equalizer Finance被黑主要在于FlashLoanProvider合约与Vault合约不兼容</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/x997ah9w.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月7日消息，据慢雾区消息，Equalizer Finance 今日遭受闪电贷攻击。此次攻击的主要原因在于 Equalizer Finance 协议的 FlashLoanProvider 合约与 Vault 合约不兼容。慢雾安全团队建议协议在进行实际实现时应充分考虑各个模块间的兼容性。
-慢雾安全团队以简讯形式将攻击原理分享如下：
-1. Equalizer Finance 存在 FlashLoanProvider 与 Vault 合约，FlashLoanProvider 合约提供闪电贷服务，用户通过调用 flashLoan 函数即可通过 FlashLoanProvider 合约从 Vault 合约中借取资金，Vault 合约的资金来源于用户提供的流动性。
-2. 用户可以通过 Vault 合约的 provideLiquidity/removeLiquidity 函数进行流动性提供/移除，流动性提供获得的凭证与流动性移除获得的资金都受 Vault 合约中的流动性余额与流动性凭证总供应量的比值影响。
-3. 以 WBNB Vault 为例攻击者首先从 PancekeSwap 闪电贷借出 WBNB
-4. 通过 FlashLoanProvider 合约进行二次 WBNB 闪电贷操作，FlashLoanProvider 会先将 WBNB Vault 合约中 WBNB 流动性转给攻击者，随后进行闪电贷回调。
-5. 攻击者在二次闪电贷回调中，向 WBNB Vault 提供流动性，由于此时 WBNB Vault 中的流动性已经借出一部分给攻击者，因此流动性余额少于预期，则攻击者所能获取的流动性凭证将多于预期。
-6. 攻击者先归还二次闪电贷，然后从 WBNB Vault 中移除流动性，此时由于 WBNB Vault 中的流动性已恢复正常，因此攻击者使用添加流动性获得凭证所取出的流动性数量将多于预期。
-7. 攻击者通过以上方式攻击了在各个链上的 Vault 合约，耗尽了 Equalizer Finance 的流动性。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/r11mkzi0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Solana生态数据解决方案Vybe Network完成1050万美元A轮融资，FTX Ventures领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/r11mkzi0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月7日消息，Solana 生态数据基础设施解决方案 Vybe Network 宣布完成 1050 万美元 A 轮融资，FTX Ventures 领投，其他参投方包括 Sino Global Capital、Staking Facilities、Serum、Panony、Tess Ventures、Contango、Canonical Crypto Fund 和 EBT Group 等。Vybe 将利用这笔资金来帮助实现数据访问和存储的去中心化，从而允许任何用户参与网络、共享和货币化他们的数据。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9392,8 +9390,8 @@ Telegram官方表示，推…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2482059216">
-        <time id="build-timestamp" datetime="2022-06-12T02:58:06.471Z">2022-06-12T02:58:06.471Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2482170484">
+        <time id="build-timestamp" datetime="2022-06-12T03:43:58.189Z">2022-06-12T03:43:58.189Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
