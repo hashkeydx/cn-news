@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-06-12T07:07:36.786Z</updated>
+    <updated>2022-06-12T08:09:40.654Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[宏观分析弱链游戏和强链游戏的优与劣]]></title>
+        <id>https://www.0daily.com/post/5179440</id>
+        <link href="https://www.0daily.com/post/5179440"/>
+        <updated>2022-06-12T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本文来源：老雅痞
+游戏行业正在慢慢地被区块链技术唤醒。它将极大地改变游戏格局，使游戏玩家受益。每个节点都必须验证用户在区块链上发送给网络的每个计算的有效性。区块链可扩展性的主要瓶颈之一是如何在不增加验证成本的情况下增加计算带宽，这最终是区块链的去中心化保证。验证成本越高，网络上运行一个节点所需的资源就越多。
+
+
+
+
+
+
+
+
+
+区块链向用户收取的货币费用与节点必须验证的计算负担成正比。因此，在这个单一的堆栈上，计算成本是相当高的。开发人员被迫围绕这种限制写他们的代码，无法表达链上应用程序的真正潜力。自从Optimistic Rollups（ORU）和Zk-Rollups ZRU）的出现，这种模式已经改变。
+计算由高端机器（证明者）在链外运行，同时在结算链上发布欺诈证明（在ORU上）或有效性证明（在ZRU上），这可以证明计算的完整性，或者换句话说，计算已经按照系统规则执行。网络节点可以验证所附的证明，其速度和成本比验证计算本身要快几个数量级，因此可以用相当便宜的成本实现复杂的计算，如游戏动态。
+例如，Starknet的虚拟机，由Cairo驱动，释放了这种真正的潜力，因为他们的原生编程语言不受EVM的约束。由于这些证明，有可能成倍地提高计算复杂性和吞吐量，同时保持验证成本的线性甚至更低。这是区块链扩展的一个基本转变。
+在单体区块链上完全在链上运行游戏在经济上是不可行的，而且在可预见的未来仍将如此。这就是为什么过去几年发布的大多数区块链游戏都是混合形式的，只在链上有其堆栈的几个组件，而在链外专有服务器上运行其游戏逻辑的核心部分。我们将把这个系列的区块链游戏称为弱链上游戏。
+像Axie Infinity、Crabada和The Sandbox这样的游戏就属于这个类别。
+通过链外扩展，用户将能以低廉的成本获得无限的计算。因此，游戏的逻辑可以最终作为智能合约部署在链上。我们将把这个系列的…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[传统对冲基金加速布局数字资产，19%的人同时进行NFT投资]]></title>
         <id>https://www.0daily.com/post/5179439</id>
