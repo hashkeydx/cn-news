@@ -2,10 +2,124 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-06-16T12:15:35.578Z</updated>
+    <updated>2022-06-16T13:28:51.693Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Celsius资不抵债的背后：ETH的流动性代币变得不那么流动了]]></title>
+        <id>https://www.0daily.com/post/5179549</id>
+        <link href="https://www.0daily.com/post/5179549"/>
+        <updated>2022-06-16T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原创作者：Conor Ryder，Kaiko 分析师
+原创编译：黑米@白泽研究院
+加密市场正在崩溃，某些承担着大风险的公司正面临着后果。
+管理着约 120 亿美元资产的最大 DeFi 借贷平台之一的 Celsius 上周日宣布，他们将暂停所有提款，引发了投资者对该公司“资不抵债”的广泛恐慌。
+这两天也有传言称，三箭资本（3AC）正在努力争取偿付能力。与最大的市场参与者交织在一起的大机构究竟是如何处于雷曼式的结局？
+糟糕的资产管理、看跌的市场条件和以太坊的衍生品共同造成了一场具有灾难性后果的风暴。
+让我们通过数据来看看以太坊的流动性衍生品代币 stETH 是如何引发数十亿美元的流动性问题的。
+什么是 stETH？
+今年晚些时候，以太坊主网将完成合并（the Merge）的过程，从工作量证明（PoW）过渡到权益证明（PoS）。在合并之前，投资者可以质押 ETH 以确保新的 PoS 链的安全，也可以为他们自己赚取收益。然而，这种收益是以流动性不足为代价的，因为在网络完成过渡之前，质押者无法赎回他们质押的 ETH，更有怀疑者担心今年甚至可能不会完成合并。为了成为新链上的验证者，直接通过以太坊进行质押也需要 32 ETH 的高额门槛。
+所以，一些小型投资者开始进入 Lido Finance：一个去中心化的质押平台，旨在为 ETH 质押提供流动性解决方案。Lido 提供了与 ETH 1:1 的衍生品代币 stETH（无需 32 ETH 的要求），还提供了与直接在 PoS 链上质押类似的收益（约 4% 的年利率）。在以太坊合并完成后，在 Lido 质押的 ETH（stETH）可以通过 Lido 完全赎回，为质押者提供在 PoS 链质押的所有好处，却不会有流动性不足和进入门槛高等缺点。stETH 还可以提供其他功能，例如借贷、质押（是的，你可以二次质押 stETH）和交易。
+如今，Lido…]]></summary>
+        <author>
+            <name>白泽研究院</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TRON DAO Reserve将从CeFi交易所和DeFi借贷平台转出30亿枚TRX]]></title>
+        <id>https://panewslab.com/zh/articledetails/ervj8t9e.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ervj8t9e.html"/>
+        <updated>2022-06-16T12:37:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月16日消息，TRON DAO Reserve推特发文表示，为了保护整个区块链行业和加密市场，将从CeFi交易所和DeFi借贷平台再转出30亿枚TRX 。
+此前TRON DAO Reserve已从币安平台转出25亿枚TRX。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈最新代币治理模式：基于NFT治理模型的实验]]></title>
+        <id>https://www.0daily.com/post/5179560</id>
+        <link href="https://www.0daily.com/post/5179560"/>
+        <updated>2022-06-16T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Andrew Beal
+原文编译：DeFi之道
+尽管越来越多的人承认简单的基于代币的治理模型（可论证的）存在严重缺陷，但治理领域的实验数量依然很少。为什么会这样？我有一些假设，但是关键的观察结果是，如果去中心化的治理要持续，需要进行更多的实验。
+提高效率的早期实验涉及投票/决策授权，这些实验在很大程度上取得了成功。然而，直至今日，大多数项目仍然盲目地坚持简单的代币模式。
+围绕 NFTs 的第二波实验似乎正在兴起。我认为这是一个正确的方向，并开辟了一个新的模式和激励机制的宇宙，我希望这将激励下一代的项目。
+让我们放大看看……
+委托
+去中心化治理的第一波实验是委托（delegation）。
+委托是指将权力分配给另一个人或团体来进行某些活动。对于选民来说，将他们的投票权分配给另一个更适合执行活动的人，通常会更有效率。大多数选民不愿意，也不适合频繁地去做重要决定。他们没有时间，也没有充分的信息。
+分配行为可以是治理系统所固有的，也可以由个别选民自行决定。我们在 Web3 中看到了两种委托形式：
+
+固有的：这种形式源于传统的公司结构，日常决策的权力被授权给管理层，然后再进一步授权给不同的运营单位。2021 年，YFI 代币持有者批准了一个类似于传统公司治理的运营结构，将核心业务的权力下放给小型、专门的运营单位（yTeams）。
+
+自由裁量权：这种形式起源于代议制民主国家。以太坊名称服务和 Gitcoin 代币持有者可以选择将他们的投票权（1 代币 = 1 票）委托给他们认为知情并会为项目的最佳利益投票的代表。
+
+总的来说，委托在提高效率方面是成功的。但我希望我们正处于涉及 NFTs 的更激进的第二个实验阶段。
+两院制治理
+当 Optimism 在 4 月下旬宣布 OP 代币时，他们还公布了一个新颖的两院制治理系统的计划。Optimism“社区”将由两个不同的机构代表：
+
+T…]]></summary>
+        <author>
+            <name>DeFi之道</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[波场联合储备将再从CeFi交易平台和DeFi借贷平台转出30亿枚TRX]]></title>
+        <id>https://www.theblockbeats.info/flash/87834</id>
+        <link href="https://www.theblockbeats.info/flash/87834"/>
+        <updated>2022-06-16T12:23:17.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，6 月 15 日，波场联合储备（TRON DAO Reserve）在社交媒体上发文表示，将从 CeFi 交易平台和 DeFi 借贷平台再转出 30 亿枚 TRX。此前消息，波场联合储备称已从 Binance 平台转出 25 亿枚 TRX。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[萨尔瓦多财长：不会亏本出售比特币，将持有到更高价格]]></title>
+        <id>https://panewslab.com/zh/articledetails/critzn2r.html</id>
+        <link href="https://panewslab.com/zh/articledetails/critzn2r.html"/>
+        <updated>2022-06-16T12:08:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月16日消息，萨尔瓦多政府因其总统Nayib Bukele押注比特币而受到批评，但萨尔瓦多财政部长Alejandro Zelaya表示，我们的比特币策略引发了很多争议，但市场推测的4000万美元亏损并未发生。我们没有出售比特币，购买的比特币不会亏本出售，我们将一直持有到比特币达到更高的价格。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Instagram或将支持通过AR查看NFT]]></title>
+        <id>https://www.theblockbeats.info/flash/87828</id>
+        <link href="https://www.theblockbeats.info/flash/87828"/>
+        <updated>2022-06-16T11:58:17.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，6 月 16 日，Instagram 已增加数字收藏品板块，科技 KOL Alessandro Paluzzi 在社交媒体表示 Instagram 正在努力支持通过 AR 查看数字收藏品，配图中 Instagram NFT 收藏页面显示 See in AR 标志。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[哈萨克斯坦启动加密交易所试点项目]]></title>
+        <id>https://panewslab.com/zh/articledetails/t11ff8kt.html</id>
+        <link href="https://panewslab.com/zh/articledetails/t11ff8kt.html"/>
+        <updated>2022-06-16T11:46:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月16日消息，据Cointelegragh报道，哈萨克斯坦将在Astana国际金融中心经济特区启动一个加密货币交易所的试点项目，允许加密货币交易所开设银行账户，交易所有望于2022年在Astana国际金融中心合法运营。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeFi 借贷协议Inverse Finance遭闪电贷攻击损失120万美元，已暂停借款]]></title>
+        <id>https://www.theblockbeats.info/flash/87816</id>
+        <link href="https://www.theblockbeats.info/flash/87816"/>
+        <updated>2022-06-16T11:26:17.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，6 月 16 日，据 The Block 报道，DeFi 借贷协议 Inverse Finance 遭遇了闪电贷攻击。黑客使用 27,000 枚 WBTC（价值约 5.79 亿美元）对协议进行闪电贷攻击。被盗资金包括 53 枚 BTC 和 10 万枚 USDT，价值约合 120 万美元。
+
+BlockBeats 此前报道，4 月 2 日，据派盾 PeckShield 发布的数据显示，Inverse Finance 因漏洞被利用遭遇攻击并因此损失 4,300 枚 ETH，约合 1496.4 万美元。
+
+另据 Inverse Finance 官方表示，目前已暂停借款，正在调查此事，没有用户资金被占用或处于危险之中。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Qreed三季度项目规划]]></title>
         <id>https://www.0daily.com/post/5179544</id>
@@ -58,6 +172,18 @@
 10,001+ 粉丝 - 20 …]]></summary>
         <author>
             <name>Qredo 中国</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeFi借贷协议Inverse Finance在今日的闪电贷攻击中损失120万美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/dvty4col.html</id>
+        <link href="https://panewslab.com/zh/articledetails/dvty4col.html"/>
+        <updated>2022-06-16T10:52:33.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月16日消息，据The Block报道，DeFi借贷协议Inverse Finance在今日的闪电贷攻击损失120万美元。链上数据显示，犯罪者在北京时间16:47左右使用27,000个WBTC（价值约5.79亿美元）进行了闪电贷攻击。被盗资金包括53枚BTC和10万枚USDT，价值约合120万美元。
+此前消息，BlockSec称Inverse Finance遭遇黑客攻击，攻击者利用价格操纵使得Inverse Finance对于抵押物的价值计算错误，从而能借出更多的资产。Inverse Finance对此回应，称已暂停借款服务，正在调查此事，没有用户资金处于风险之中。
+据悉，Inverse Finance曾在4月份的黑客攻击中损失4300枚ETH。]]></summary>
+        <author>
+            <name>PA一线</name>
         </author>
     </entry>
     <entry>
@@ -6612,50 +6738,6 @@ https://twitter.com/osmosiszone/status/1534470729797976064
         <link href="https://panewslab.com/zh/articledetails/9aepl8sj.html"/>
         <updated>2022-06-12T01:28:18.000Z</updated>
         <summary type="html"><![CDATA[PANews 6月11日消息，Watcher.Guru推特发文称，从6月15日起，Gemini交易所将不再提供免费的加密提款服务。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[爱德华·斯诺登：使用加密货币，而非投资]]></title>
-        <id>https://www.theblockbeats.info/flash/86919</id>
-        <link href="https://www.theblockbeats.info/flash/86919"/>
-        <updated>2022-06-12T01:22:24.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，6 月 12 日，爱德华·斯诺登 (Edward Snowden) 在 Consensus 2022 大会上发言表示：「我持有比特币是为了使用它。一般而言，我不鼓励人们将加密货币视为一种技术而投资它，这是我与行业内大多数人的区别」。
-
-本月初，面对最近一些技术专家的批评，斯诺登为加密行业辩护称，「这些技术专家批评加密货币和区块链技术，以反击加密行业在本月初的游说努力。他们可能是在故意曲解加密行业，因此重复了过去提出的一些传统论调」。
-
-BlockBeats 对本次大会跟踪报道，点击查看：https://www.theblockbeats.info/news/30773]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[孙宇晨将代表格林纳达出席世贸组织第12届部长级会议]]></title>
-        <id>https://panewslab.com/zh/articledetails/vu8s5p3o.html</id>
-        <link href="https://panewslab.com/zh/articledetails/vu8s5p3o.html"/>
-        <updated>2022-06-12T00:57:43.000Z</updated>
-        <summary type="html"><![CDATA[PAnews 6月12日消息，孙宇晨（Justin Sun）推特宣布已抵达瑞士日内瓦，将作为格林纳达常驻世界贸易组织代表、特命全权大使出席6月12日至15日在日内瓦举办的世界贸易组织（WTO）第12届部长级会议（MC12）。他表示对本届MC12充满期待，它将为维护基于规则的多边世界秩序奠定基础。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[挖矿芯片巨头Nano Labs计划在纳斯达克上市]]></title>
-        <id>https://panewslab.com/zh/articledetails/8abrpk6r.html</id>
-        <link href="https://panewslab.com/zh/articledetails/8abrpk6r.html"/>
-        <updated>2022-06-12T00:41:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月12日消息，据U.today报道，中国芯片制造商Nano Labs已向美国证券交易委员会（SEC）提交申请，计划在纳斯达克上市。前嘉楠董事会高管孔剑平现担任 Nano Labs 董事长。Nano Labs是一家分布式芯片研发商，其于2021年9月完成近2000万美元股权融资，拥湾资本领投，HashKey等参投。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[漫画《星际特工》Valerian NFT与Phanta Bear达成战略合作]]></title>
-        <id>https://panewslab.com/zh/articledetails/4os383kp.html</id>
-        <link href="https://panewslab.com/zh/articledetails/4os383kp.html"/>
-        <updated>2022-06-12T00:29:00.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月12日消息，漫画《星际特工》Valerian NFT与Phanta Bear达成官方品牌战略合作。Valerian NFT是由欧洲漫画《星际特工》IP推出的系列NFT，6月份将在Binance NFT、Valerian官网同步发行，总量为9999个，目前白名单正在申请中。Phanta Bear是由周杰伦旗下时尚品牌PHANTACi与超宇宙平台Ezek Club合作推出的限量版NFT，发行上限为10000个。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
