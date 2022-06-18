@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-06-18T07:06:59.744Z</updated>
+    <updated>2022-06-18T08:10:03.681Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[DeFi大规模去杠杆化对ETH Holder造成怎样的影响？]]></title>
+        <id>https://www.0daily.com/post/5179605</id>
+        <link href="https://www.0daily.com/post/5179605"/>
+        <updated>2022-06-18T06:30:25.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 Glassnode，原文作者：Checkmate & CryptoVizArt，由 Odaily 星球日报译者 Katie 辜编译。
+
+2022 年迄今为止的市场表现低沉，不仅是数字资产，几乎所有资产类别都是如此。全球货币政策收紧、美元升值以及风险资产估值下降，引发了大量追加保证金、债务清算和去杠杆化。
+在数字资产领域，以太坊仍然是最大的智能合约平台，托管大量金融产品、不断创新和实现自动化。在 2020-21 年的牛市周期中，散户和机构对这些产品的采用导致了 DeFi 领域的杠杆过度增加。
+随着熊市的到来，以太坊原生代币 ETH 的价格已经跌至 1030 美元的低点，比历史高点 4808 美元下降了 75.2%。以太坊 DeFi 市场正在经历一场大规模的去杠杆化，仅在 6 周内就有超过 1240 亿美元的资本流出。这场币圈风暴让整个以太坊生态系统目前正在经历一场历史性的去杠杆运动。本文我们将探讨一些预警信号，去杠杆的规模，以及它对 ETH 投资者盈利能力的影响。
+
+以太坊使用量和网络需求减少
+有一些早期信号表明，继 11 月最高价之后，以太坊使用量和网络需求正在下降。每天的交易数量（粉色段）和平均 gas 支付价格（蓝色段）已经有近 6 个月的宏观下降。这表明以太坊链的整体活动、需求和使用率正在进入疲软期。
+最近几周平均 gas 价格略有回升，但这更可能是由于阻塞间隔（紫色段）变慢造成的拥堵，因为即将到来的合并的难度。
+
+下图显示了稳定币（蓝色段）和 DeFi 应用（绿色段）的 gas 使用量的主导地位。稳定币和 DeFi 协议目前分别占当前以太坊gas使用量的 5.2% 和 10.2%。自 2021 年 5 月市场高点以来，稳定币和 DeFi 的使用率稳步下降，分别占 gas 使用量的 11.4% 和 33.4%。 这在一定程度上是由于 2021 年下半年 NF…]]></summary>
+        <author>
+            <name>Katie 辜</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[漫谈隐私交易方面的技术发展演变]]></title>
+        <id>https://www.0daily.com/post/5179562</id>
+        <link href="https://www.0daily.com/post/5179562"/>
+        <updated>2022-06-18T06:01:35.000Z</updated>
+        <summary type="html"><![CDATA[你愿意公开你的钱包地址并且让所有人都知道你有多少钱吗？你愿意让所有人知道你的投资偏好、每笔支出吗？我想很多人是不愿意的。要实现这些数据的隐私保护，就需要用隐私协议。
+市场上一直有以隐私为卖点的数字货币，包括DASH、XMR、Zcash、Grin、Rose（Oasis Network）、FRA（Findora）、PHA（Phala network）、SCRT（Secret Network）等，加密行业发展的十几年中，隐私板块一直都占有一席之地。
+如果进一步将隐私赛道进行细分，可分为隐私计算网络、隐私交易协议、隐私应用、隐私币等四类。其中隐私币发展最早，隐私应用中的Tornado目前被采用较广，隐私交易协议和隐私计算网络目前最受关注。
+
+本文篇幅有限，只从技术发展和演变的角度漫谈隐私交易相关的技术实现方案的发展情况。
+四类实现隐私交易的技术方案
+一、CoinJion
+CoinJoin：CoinJoin是一种混币机制，从不同的发送方那里获取代币，并将它们组合成一笔交易。第三方将代币打包发送给接收方。在用户端，每个接收方都会在一个从未使用过的地址中获得他/她的代币。以此来降低特定交易被追踪的可能性。
+DASH币是采用CoinJion技术实现隐私交易的典型案例。DASH币诞生于2014年，并非以隐私为唯一目的，而是将隐私交易作为提供给用户的一种选择，用户可以选择采用PrivateSend功能来进行隐私交易，也可以选择正常交易。
+在机制方面，DASH网络通过更高的奖励收益，鼓励矿工充当主节点，每个主节点矿工都有1000个DASH币作为缓冲资金。每个发起交易的用户都可以使用这些缓冲资金，从而达到“混币”的效果。由于混币的存在，交易信息被打乱，难以追踪，从而达到隐私保护的效果。
+二、隐匿地址+环签名
+隐匿地址：创建隐匿地址意味着每次接收加密货币时都会创建一个新地址。它确保外部各方无法将支付…]]></summary>
+        <author>
+            <name>IOBC Capital</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[夏永康主理的香港经典电影NFT藏品 「CRYPTYQUES」第一期「DESIRE」(欲望)在白名单阶段内全部售罄]]></title>
         <id>https://panewslab.com/zh/articledetails/913emaho.html</id>
