@@ -51,626 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-22 datetime="2022-06-22T12:45:00.000Z">2022-06-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-22 datetime="2022-06-22T12:45:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-22 datetime="2022-06-22T14:13:40.000Z">2022-06-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-22 datetime="2022-06-22T14:13:40.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179706"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3底层基建？简析昨天CloudFlare服务中断的原因</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179706">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：阿法兔研究笔记
-
-
-Cloudflare是一家于2019年上市的CDN和安全服务公司，不过2022年6月21日（周二）因为它的服务暂时中断，影响了大量的服务和平台正常运营。包括FTX，Discord，Omegle，DoorDash等等。
-本篇文章，会讲一下什么是CloudFlare，到底是个什么公司，CloudFlare和Web3的缘起，以及从技术上解释一下本次故障的原因。
-
-
-
-
-
-
-
-
-
-
-
-本文结构
-
-
-
-
-
-
-
-1.事件背景
-
- 2022年6月底（本周二）发生了什么？
-
-2.什么是CDN（内容分发网络）
-
-什么是CDN
-
-什么是路由
-
-CDN公司通常都是安全公司？
-
-3.Cloudflare是个什么公司？
-4.Cloudflare和Web3的缘起
-
-IPFS&amp;以太坊
-
-5.Cloudflare为什么会发生服务中断？（技术分析部分）
-
-和架构转型有关
-
-本次服务终端的时间线和背景
-
-补救和后续步骤
-
-结论
-
-事件背景
-6月21日（周二）发生了一件事，就是因为Cloudflare的服务暂时中断，影响了大量的服务和平台正常运营。包括FTX，Discord，Omegle，DoorDash，Crunchyroll，NordVPN和Feedly等等、还有Zeroda，Medium.com，新闻媒体Register，Groww，Buffer，iSpirt，Upstox和Social Blade的，用户无法访问这些网站，甚至Coinbase，Shopify和英雄联盟也受到了部分影响。
-本篇文章，会讲一下什么是CloudFlare，到底是个什么公司，CloudFlare和Web3的缘起，以及从技术上解释一下本次故障的原因。
-什么是CDN（内容分发网络）
-在讲Cloudflare之前，我们先普及一个概念（CDN）
-什么是CDN？
-CDN，全称为Content Distribu…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179710"
-                        open
-                      >
-                        <summary class="article-expander__title">毕马威推出元宇宙协作中心，帮助客户探索元宇宙之旅</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179710">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Blockworks，原文作者：Ben Strack
-Odaily星球日报译者 | 余顺遂
-
-摘要：
-
-其元宇宙中心将允许毕马威员工、合作伙伴和客户举行虚拟团队会议。
-
-毕马威加拿大业务部门于今年 2 月宣布将比特币和以太坊纳入公司资产负债表，并购买 World of Women NFT。
-
-国际四大会计师事务所之一毕马威（KPMG）的美国和加拿大业务部门在元宇宙推出协作中心，旨在帮助其客户制定元宇宙领域的战略。
-一位发言人表示，这个私人中心是其员工、合作伙伴和客户进行虚拟团队会议和分享想法的地方，例如可以使用虚拟白板。他们还将能够在元宇宙中进行培训课程、工作面试和员工评估，以及展示毕马威服务和功能的会议。
-毕马威加拿大数字总裁兼管理合伙人 Armughan Ahmad 表示，“元宇宙让我们有可能体验现实世界和数字世界相融合的‘phygital’世界。元宇宙提供价值 13 万亿美元的市场机会，到 2030 年将拥有多达 50 亿用户。”
-总部位于荷兰的毕马威国际（KPMG International）报告称，其 2021 财政年度的收入约为 320 亿美元。据悉，毕马威旗下公司提供审计、税务和咨询服务。
-毕马威代表没有提及正在与之合作的具体客户名称，但表示“他们的规模、行业和范围各不相同”。
-毕马威在美国和加拿大的业务部门已经组建一支拥有技术和创新经验的专业团队，为元宇宙设计、NFT 用例、加密资产、社区互动和更广泛的 Web3 集成提供支持。
-这些团队将在毕马威客户的元宇宙战略之旅实施和运营阶段为其提供帮助，包括选择供应商、业务和技术需求设计、系统集成和支持不同元宇宙的项目治理等服务 。
-毕马威正在向机构和监管机构测试 Web3 功能，以加强他们对该领域及其底层技术的理解。
-毕马威发言人表示，“我们正在探索与提供质押、去中心化借贷等服务的 Web3 公司合作。毕…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179705"
-                        open
-                      >
-                        <summary class="article-expander__title">假钱包全景追踪：深入揭秘假钱包钓鱼产业链</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179705">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>前言
-小 A最近收到了交易所活动的短信，于是小 A 在浏览器输入“xx 钱包官方”，点进排在首位的链接，下载 App-创建钱包-转入资产，一气呵成。没一会，小 A 收到了转账成功的通知，他钱包 App 里的余额——价值 1000 万美元的 ERC20-USDT——都化为零了。小 A 后来才意识到，这个 App 是假的，自己下载到钓鱼 App 了。
-慢雾于去年 11 月 24 日发布了关于假钱包黑产的分析报告——慢雾：假钱包 App 已致上万人被盗，损失高达十三亿美元，可想而知，随着时间流逝，直到今天的被盗损失会是多么令人惊讶。
-分析
-今天我们从大数据侧分析，到底有多少假钱包。
-1、MetaMask是目前全球最大的浏览器插件钱包。2021 年 4 月，MetaMask 母公司 ConsenSys 表示，MetaMask 钱包的月活用户量超过 500 万，在 6 个月内增长了 5 倍，而 2020 年 MetaMask 官方也曾宣布其较 2019 年的月活同比增长了 4 倍，用户量超 8000 万。
-MetaMask 如此海量的用户数自然是黑产的第一目标，我们来看看有多少冒牌MetaMask：
-首先，通过专业的浏览器搜索：
-
-
-查找结果显示有 20,000 + 的相关结果，其中 98% 的 IP/域名都是虚假诈骗链接。
-
-
-
-
-进一步追踪，比如查找 MetaMask Download：
-
-
-
-一眼看去，都是钓鱼网站，而且熟悉安全的人应该都知道，888/HTTP、8888/HTTP 这类端口和服务是宝塔系统的默认配置，而宝塔的简单易部署属性导致大量黑灰产使用。以上相关的 IP/域名都是诱导用户访问、下载的虚假诈骗链接。
-
-我们再进一步来看点有意思的。
-首先搜索：MetaMask 授权管理（黑灰产钓鱼的管理后台）
-
-
-
-
-
-
-这些全都是黑产管理后台相关域名，我们顺手把域名也一起梭，…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179700"
-                        open
-                      >
-                        <summary class="article-expander__title">一文盘点四种熊市稳定币理财策略</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179700">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>密市场随着全球宏观政策的变动而进入熊市，以“流动性挖矿”带动的DeFi行情也结束了高速发展的阶段。流动性挖矿的收益率已经降至冰点，代表着DeFi无风险收益的Curve 3pool、Compound USDC存款、Aave USDC存款收益率均跌至1%以内，甚至远低于美国十年期国债3%的收益率。
-但是仍然有超过千亿美元的稳定币存在于加密市场中，持有稳定币能够直接地继续参与到市场中，避免法币/稳定币之间的兑换步骤。这部分资金在闲置时仍有获得收益的需求，因此PANews在本文中总结了一些稳定币收益机会，作为此前稳定币挖矿锦囊的后续文章，PANews也将对此系列持续更新。在参与时，请先了解可能存在的风险，且不要将资金放在一个地方，本文数据整理自6月21日。
-中心化交易所理财
-交易所通常都会提供理财服务，以较低的利率从用户处吸收资金，再以更高的利率借给用户，用于杠杆交易等。中小交易所遭遇本次流动性危机，在熊市中生存危机加大，但头部交易所在合规等方面相对完善，安全性较高。
-以币安为例，币安宝活期提供的理财服务，在2000 BUSD和2000 USDT额度范围内，可享受10%的年化收益，利息每日发放，本金随时可以赎回，即在币安有4000美元的稳定币可享受年化10%的活期理财收益。
-除了长期开放的活期理财外，币安也推出了定制化的定期理财服务，当前USDT 30天的年化利率为5%，USDT 90天（已售罄）的年化利息为9%，个人申购上限为5000万美元，能够满足大多数人的需求。
-DEX挖矿策略
-DEX是相对比较安全的一类DeFi协议，且通常有公链项目方的支持，但是根据上线时间的不同，风险并不完全相同，且用于挖矿的资产来自于不同的项目、跨链桥，又引入了额外的风险。PANews查看了各个链上应用中的数据，给出以下三个DEX中的挖矿策略，可供参考，不同项目的风险点也已在下文中说明。
-Ref.fin…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179698"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币抛售潮导致73亿美元损失，谁在卖出比特币？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179698">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：茉莉
-区块链数据分析服务商 Glassnode 的数据显示，在上周短短的三天内，比特币（BTC）投资者出现了有史以来最大的实际损失（交易实现的损失）—— 抛售 BTC 导致投资者损失了 73 亿美元。6 月 18 日，BTC 价格触达年内新低 17700 美元，这也是它自 2020 年以来首次跌破 20000 美元。
-那么，谁在加密资产市场的下行中卖出了 BTC？
-6 月 22 日，加拿大加密矿业公司 Bitfarms 表示，它在过去的 7 天内出售了 3000 BTC 用以平衡其债务。该公司决定「不再囤积」日产的比特币，而是选择采取「提高流动性、去杠杆化」的方式来优化公司的资产负债表。
-Bitfarms 可以视作比特币的公共矿工之一，下跌的行情正在威胁他们的生存。总部位于挪威的研究机构 Arcane Research 数据显示，在 2022 年的前四个月，公共矿业公司出售了 30% 的比特币产量。矿业盈利能力的暴跌迫使这些矿工在 5 月份将销售率提高到其产量的 100% 以上。
-除了矿工，全球最大的比特币现货交易所基金（比特币现货 ETF）也在出售 BTC。Arcane Research 数据显示，跟踪比特币现货价格的 Purpose Bitcoin ETF 在上周五流出了 24510 BTC，这是自 2021 年 4 月该基金在加拿大证券交易所首次亮相以来单日最严重的赎回，分析师认为，巨额的资金外流可能是大规模强制清算造成的。
-6 月 20 日，BTC 回到了 20000 美元上方，并在 21 日上探 21500 美元，目前在 20800 美元附近徘徊，市场的不确定性仍未消除。
-矿工抛售比特币求活
-加密矿业盈利能力的恶化迫使公共矿工开始清算他们持有的比特币。
-6 月 21 日，北美算力最大的加密矿业公司 Bitfarms 表示，在过去 7 天内已出售了 300…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179699"
-                        open
-                      >
-                        <summary class="article-expander__title">USDC猛追USDT，稳定币市场格局正悄然改变</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179699">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 | Decrypt，原文作者：Stacy Elliott
-Odaily 星球日报译者 | Moni
-
-过去两个月，加密市场显露出的种种迹象无一不在打击投资者信念： Terra稳定币 UST的崩盘，加密货币借贷平台 Celsius 挤兑潮，加密对冲基金三箭资本面临清算危机等等。
-随着各种 Token 价格暴跌，加密货币正进入新一轮的寒冬。在普遍的看跌情绪之下，为了避免损失，投资者更愿意将自己在牛市中获得的一部分收益兑换成稳定币，以度过这难熬的加密熊市。而此时，加密市场上两大稳定币 Tether (USDT) 和 US Dollar Coin (USDC) 的表现却截然不同。
-USDC 正在猛追 USDT
-根据CoinGecko 显示，自 5 月初以来，Tether 市值已经相较于 830 亿美元历史高点下跌了19%；相比之下，USDC 同期却上涨了 5%，市值一度突破 560 亿美元，创下历史新高。从这组数据不难看出，Tether 供应量正在持续萎缩，大型投资者们自市场崩盘以来正在不断套现他们的 USDT 头寸，与此同时 USDC 的供应量却随着需求增加而持续扩大。
-不得不承认，USDC 在熊市期间的表现强劲，在过去的 50 天里，USDC 已 28 次突破发行量新高。在 6 月 15 日当天，USDC 与 Tether 市值差距已经缩小至约 120 亿美元，是 2020 年秋季以来最为接近的一次。
-在 Tether 市值不断走低的情况下，USDC 市值只需再增长 21% 就能超越 Tether，而这个增长幅度对于 USDC 来说似乎并不算太难。假如 Tether 继续延续下跌趋势，那么 USDC 将会赶超得更快。所有这一切似乎都在非常严肃地警告我们：在当前的加密熊市中，没有哪种资产可以永葆它的优势地位，哪怕再优秀。
-
-
-Tether 出了什么问题？
-通常情况下，投…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179696"
-                        open
-                      >
-                        <summary class="article-expander__title">Arbitrum奥德赛活动指南：首周活动正式开启，有哪些注意事项？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179696">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：0x711&amp;wzp
-Arbitrum 奥德赛（Arbitrum Odyssey）活动已于北京时间 6 月 22 日凌晨 1 时正式开始。社区普遍期待此次活动将成为获得 Arbitrum 空投的「敲门砖」。好在 GAS 不高，ETH 也相对便宜了很多，交互成本可控。链上数据显示，随着活动开始，跨链交易量出现了迅速增长。
-
-Arbitrum 奥德赛的活动最主要的目的就是让用户熟悉 Arbitrum，了解 Arbitrum 的逻辑和操作，所以交互方式都不算复杂。
-那么奥德赛首周活动到底需要做什么，怎么做呢？
-对于不了解以太坊 Layer2 或者 Arbitrum 的用户来说，第一周的任务只算是一个新人培训。用户只需要通过官方指定的跨链桥将 ETH（注意，必须是 ETH）转入 Arbitrum 网络即可达成任务目标。此外，第一周的任务还包含一个额外奖励，即：使用了交易量最大的跨链桥协议的用户，将有资格额外获得一个 NFT 奖励。
-因此，对于想额外获得第二个 NFT 奖励的用户来说，最优策略或许应该是待活动结束前几个小时，根据链上数据来选择当时交易量最大的跨链桥协议去参与。根据官方资料，BlockBeats 将奥德赛与首周活动的注意事项梳理如下：
-关于奥德赛活动的细节
-奥德赛什么时候开始？
-北京时间 6 月 22 日 1：00 点开启，第一周为 Bridge week
-参加有哪些要求？
-只需要 ETH 来支付 Gas 费
-如果我没有在 Snapshot 投票，我可以参与吗？
-是的，可以参与，不需要在 Snapshot 进行投票。
-共有多少 NFT？
-总共将提供 17 种不同的 NFT。Bridge week（第 1 周）一个 NFT，如果用户使用桥接 ETH 数量最多的桥，则再获得 1 个奖励 NFT。2-8 周共 14 个，如果获得前 16 个 NFT 中的至少 13 个…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179695"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT交易平台数据日报 | BAYC24小时交易量位居Opensea第一（6.22）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179695">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NFT 交易平台数据日报由 Odaily星球日报最新推出的一档栏目，聚焦过去 24 小时内 NFT 交易的四大关键数据，包括主流 NFT 平台成交数量和用户数据、巨鲸的交易数据以及蓝筹 NFT 的相关数据，旨在向 NFT 爱好者与投资者展示 NFT 市场的最新变化。
-
-&quot;,&quot;extraction_tags&quot;:&quot;&quot;,&quot;source_type&quot;:&quot;original&quot;,&quot;source_urls&quot;:&quot;&quot;,&quot;next_post&quot;:{&quot;title&quot;:&quot;NFT数据日报 | Doodles在过去24小时内最受巨鲸欢迎（6.22）&quot;,&quot;entity_id&quot;:5179691,&quot;id&quot;:5179691}},&quot;user&quot;:{&quot;type&quot;:&quot;SET_POST_USER&quot;,&quot;id&quot;:2147483985,&quot;avatar&quot;:&quot;https://piccdn.0daily.com/202104/12/885613b73f0773c7df828400b58ccd8a.png!480&quot;,&quot;name&quot;:&quot;不一样的NFT&quot;,&quot;introduction&quot;:&quot;这个作者有点忙，还没写简介&quot;,&quot;title&quot;:&quot;新锐作者&quot;,&quot;total&quot;:&quot;267&quot;},&quot;comments&quot;:[],&quot;counters&quot;:{&quot;view_count&quot;:151,&quot;pv&quot;:118,&quot;pv_mobile&quot;:14,&quot;pv_app&quot;:19,&quot;favorite&quot;:0,&quot;comment&quot;:0,&quot;like&quot;:0},&quot;secondaryTag&quot;:[{&quot;name&quot;:&quot;NFT&quot;,&quot;slug&quot;:&quot;5e09865df1337&quot;,&quot;introduction&quot;:&quot;NFT(Non-FungibleToken) ，非同质化代币&quot;,&quot;cover&quot;:null,&quot;is_post_show&quot;:1}],&quot;secondary&quot;:[{&quot;secondary_tag&quot;:null,&quot;column_i…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179691"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT数据日报 | Doodles在过去24小时内最受巨鲸欢迎（6.22）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179691">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
-宏观市场指标
-截至 6 月 22 日 15 时，NFT 整体市值 224.17 亿美元，较 24 小时前下降 1.39%；过去 24 小时内总交易量约 3653 万美元，日环比下降 12.89%。
-
-按过去 24 小时成交量，排前三的子领域分别为 PFP（1575 万美元）、Game（1191 万美元）和 Collectibles（492 万美元）。
-
-项目排名
-按过去 24 小时成交量，排名前五的项目分别为 More Loot（1147 万美元）、Meebits（349 万美元）、Doodles（259 万美元）、Bored Ape Yacht Club（188 万美元）和 Dreadfulz（182 万美元） 。
-
-按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为 Genie.xyz（17.02%）、Diamonds Club Official（16.79%）、Senshi - Official Collection（9.71%）、Ey3k0n First Edition（8.55%）和 Candy Robbers（8.42%）。
-
-特色数据
-过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：STAXX Invader #7429、Captain Cosmo Silentskull III、Anatomy Science Ape Club #2026、First Day Out #8051/1035…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179693"
-                        open
-                      >
-                        <summary class="article-expander__title">纵览Gitcoin Web3社交生态Grant 50个参选项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179693">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：Mask Network
-开源软件和社区捐助平台 Gitcoin 已启动第 14 轮捐助活动，活动时间从 6 月 8 日至 23 日，用户可以通过该平台为优秀的开源软件团队进行资助。
-Mask Network非常高兴能够举办首次Web3社交生态系统捐助活动，并提供50000美元的奖金。在几轮审查之后，有60个项目入选这一轮捐助活动。同时Mask Network也非常高兴地见到大约一半的项目来自于Mask Network的推荐，而其余的是来自自然流量，这也显示了web3领域社交赛道的蓬勃发展景象。
-为开源项目提供资金可以促进整个区块链生态的发展，Gitcoin 采用二次方投票的模型对项目进行众筹实现资金的配置，解决了以太坊生态中的公共产品融资低效的问题，并鼓励小众群体投票。在每轮的 Gitcoin 捐助活动中，除了各项目方收到的捐款外，Gitcoin 还会以此作为参考协调以太坊基金会的基金分配以便让优质项增加目获得投资的机会。
-Gitcoin 在前 13 轮赠款活动中已为数千个开源项目提供了 6260 万美元资金，也引入了若干生态轮和倡议轮，不仅帮助 Web3 生态系统中的建设者和创造者，而且还使用二次融资机制来支持气候、乌克兰和加密倡导等事项。
-我们将这些项目分为了7个大类，以下是我们对本社交生态轮项目（50个项目）的推荐与评语
-1.社交通讯 Communication
-2.社交网络 Social Network
-3.社交身份 Social Profile &amp; DID
-4.链上声誉 Reputation
-5.创作者经济 Creator Economy
-6.去中心化自治组织 DAO
-7.元宇宙/游戏身份 Metaverse/Gaming Identity
-1. 社交通讯 Communication
-1.1 SwapChat
-Link：https://gitcoin.…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179688"
-                        open
-                      >
-                        <summary class="article-expander__title">Foresight Ventures: 去中心化NFT交易协议将击败OpenSea</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179688">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Alex @Foresight Ventures
-摘要：
-去中心化NFT交易协议之于NFT Market，如同AMM之于DEX。
-NFT交易中的核心需求为流动性和价格，所以NFT交易所的真实护城河应建立在商品出售时的流动性和价格优势上。
-改变格局的聚合器只是作为前端流量入口解决了NFT挂单分散的问题，未从根本性解决流动性难题。
-最有可能解决流动性垄断的不是下一个交易所或聚合器，而是可以支持共享挂单的协议，从而打破NFT工具平台和NFT交易所之间的界限，使得每一个流量前端都能成为交易平台并共享其挂单，形成去中心化NFT交易生态，解决NFT挂单的分散性和流动性问题。
-
-币圈一天，人间一年，而在图圈，可能只有mint后的1小时。NFT的狂热和FOMO，远比任何一个市场都来得更加疯狂，而作为基础设施的NFT交易所，也已经经历了好几次春秋轮转，真正留下的却没有几家，是因为大多数的交易所都没有能满足二级市场NFT交易时各方（如下图）的需求，而是执着于伪需求来寻求破局。所以我将试图分析NFT交易的需求和交易场所的变迁，来探寻未来更优秀的解决方案。
-
-一、市场环境及用户需求
-
-目前主流交易的NFT可先分为蓝筹与非蓝筹，而非蓝筹中大致可分为三类：PFP、功能型以及其他特殊种类。（个别蓝筹同样属于功能型或特殊种类）
-
-对于蓝筹，由于其价格高昂，且大多数蓝筹持有者更偏钻石手，所以对于流动性的要求没有那么高，反而更看重价格。Pass卡和Gamefi这种具有实际应用场景的功能型NFT，对于流动性的需求也不大，所以更多也是由价格导向的。但是市场上90%以上的NFT都是没有赋能的小图片，其本质上是击鼓传花的游戏，这就对流动性的要求极高。此时，用户会选择使用流动性最好的交易所OpenSea而不会选择其他的。其他特殊种类的NFT，暂时并没有应用场景和需求，市场暂时还是围绕着PFP为主，所以不具备讨…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179690"
-                        open
-                      >
-                        <summary class="article-expander__title">Magic Eden以16亿美元估值完成1.3亿B轮融资，跻身加密“独角兽”行列</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179690">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Decrypt，原文作者：Andrew Hayward
-Odaily 星球日报译者 | 念银思唐
-
-摘要：
-- 基于 Solana 的 NFT 市场 Magic Eden 宣布融资 1.3 亿美元，估值为 16 亿美元。
-- 该市场计划扩展到 Solana 以外的其他平台。
-Magic Eden，一个目前占据了 Solana 市场绝大多数份额的 NFT 市场，正在准备扩张。昨日，这家初创公司宣布已完成 1.3 亿美元的 B 轮融资，并计划拓展 Solana 生态系统之外的业务。
-此次 B 轮融资对去年 9 月成立的 Magic Eden 的估值为 16 亿美元。这使它成为最新的加密“独角兽”——估值达到或超过 10 亿美元。本轮融资由 Electric Capital 和 Greylock 联合领投，新投资方 Lightspeed Venture Partners 以及现有投资方 Paradigm 和红杉资本（Sequoia Capital）参投。
-Magic Eden 的 B 轮融资距离上次融资仅过去 3 个月时间。
-3 月，Magic Eden 宣布完成 2700 万美元融资，红杉资本、Paradigm、Greylock 等参投，估值未知。
-Magic Eden 首席执行官兼联合创始人 Jack Lu 告诉 Decrypt，这家初创公司本来并不打算这么快就再次融资，但其不断上升的市场份额和不断增长的 NFT 游戏影响力推动他进行了最新一轮融资。
-“我们不想感到资源受限，”他解释说，“我们希望在未来 5 到 10 年里继续建设。”
-计划拓展至其他区块链
-除了更努力地推动其在游戏垂直领域的发展（注：其主要竞争对手是 Fractal，这是由 Twitch 联合创始人 Justin Kan 开发的 Solana NFT 游戏平台），Magic Eden 还计划在其他区…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179687"
-                        open
-                      >
-                        <summary class="article-expander__title">BlockFi获得FTX2.5亿美元信贷，BlockFi CEO强调：只是防范未然</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179687">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Celsuis 和三箭资本的爆雷，影响到了许多其它机构。先前《金融时报》报导，BlockFi 清算了三箭资本的抵押品。而为了进一步加强自身资产负债表的稳健，BlockFi 6 月 21 日宣布已获得 FTX 的 2.5 亿美元信贷额度。
-加密借贷平台 BlockFi 6 月 21 日宣布获得 FTX 交易所 2.5 亿美元的循环信贷额度。先前外媒报导 BlockFi 在三箭资本有借贷关系，并清算了抵押品，所以有不少人质疑 BlockFi 的偿债能力；但 BlockFi CEO Zac Prince 强调，这笔信贷单纯只是强化自身资产负债表的稳健程度。
-Zac Prince 在推特写道：
-
-“今天 BlockFi 和 FTX 签署了一项协议，FTX 将提供 2.5 亿美元的循环信贷额度，这进一步加强了我们的资产负债表和平台的流动性。”
-
-循环信贷和一般信贷不同。循环信贷有借款快速、免绑约的特性。在循环额度內，BlockFi 可以随借随还，不动用贷款则不计利息，当日还款也不计利息。此外，提前清偿也不需要负担违约金。
-一般来说，机构的资产负债表分成偿债性和流动性。偿债性是指机构的资产负债比，通常资产大于负债就称偿债能力无虞。
-不过目前市场恐慌，BlockFi 需要面临的是流动性问题。也就是资产中的现金/资产是否能应付用户的提出，所以从推特内容来看，BlockFi 之所以会需要 FTX 的信贷是增加流动性，确认用户可以随时提出余额。
-「在过去几周的市场波动中，我为团队、平台和风险管理的表现感到无比自豪。今天这项公告具有里程碑意义，强化了 BlockFi 对用户的承诺，确保资金得到保障的承诺。」
-另外，Zac Prince 也表示，未来将会和 FTX 有更多的合作和创新。
-SBF 先前曾说：有责任阻止危机扩散
-面对两大机构接连暴雷，严重影响投资人信心，SBF 早先时候在接受美国公共广…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179682"
-                        open
-                      >
-                        <summary class="article-expander__title">除了备受攻击的S2F，PlanB还有哪些常用分析模型？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179682">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：GaryMa
-原文编辑：Colin Wu
-近日推特 KOL PlanB 例举了自己除了熟知的 S2F 以外常用的辅助决策的几个指标模型，鉴于当前波动较大的行情走势以及暴跌后的抄底情绪，我们将这些指标模型展开介绍，以供参考使用之需。
-有趣的是，Vitalik 刚刚对 S2F 发出了批评。他表示，S2F 模型现在看起来确实不太好。我知道幸灾乐祸之类的事情是不礼貌的，但我认为金融模型给人们一种错误的确定性和预定数字会增加的感觉，这是有害的，他们应该受到所有的嘲笑。PlanB 刚刚表示，从2019年3月到2022年3月 S2F 模型运行良好。根据 S2F 模型，目前要么 BTC 被极度低估并很快反弹，要么 S2F 在未来变得不那么有用。
-
-比特币 Stock-to-Flow 模型（S2F）
-
-S2F 模型原先是用来衡量黄金及白银等商品稀缺度的方法，主要考虑两个变量，现存供应量(Stock) 及资产的年产量(Flow)。正因为比特币的总量及产量皆在区块链上纪录得清清楚楚，将S2F 应用在比特币上是有其道理的。
-而 PlanB 将比特币 S2F 模型与价格进行比较，并使用幂次法则进行线性回归，以潜在地预测其未来价值变化。
-不过该模型也存在一些不合理之处，如只考虑稀缺性，忽略市场需求、存在部分逻辑问题等。
-目前该指标已经出现严重偏离失效，毕竟根据该模型走势，当前比特币将达到 10 万美元，甚至在10 年后将突破1,000 万美元。
-成本定价法（比特币矿机关机币价）
-
-成本定价法是最直观的加密货币估值方法，其核心理念是将加密货币的生产成本（例如比特币的挖矿成本）视作加密货币价值的下限指标。因此，以比特币为例，或许其关机币价区间能够作为投资者参考的底部价格区间。像当前的比特币价格，就已经跌到了部分矿机的关机价格。
-已实现市值（Realized Cap）以及相关演化指标
-
-已实现市值…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179681"
-                        open
-                      >
-                        <summary class="article-expander__title">纳粹狗哨？种族歧视，BAYC陷入舆论风暴</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179681">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：gordongoner
-原文编译：老雅痞
-本文来自：FastDaily
-
-BAYC陷入舆论风暴
-相信无论是在长期混迹于加密圈的OG，还是初入圈子的新手，对于BAYC这个名字都不会陌生。即便是在NFT寒冬的如今，BAYC仍有高达1,716,537,043.03美元的市值（数据来自于NFTGO）以及近百枚ETH的地板价，同时还衍生了MAYC、Otherside等一系列热门IP。作为NFT赛道的龙头，BAYC创造了太多传奇。
-近日来，BAYC再次处于风口浪尖，不过这次并非是因为其惊世骇俗的价格上涨或是商业方面的重大举措，而是由于一些相当敏感且负面的话题。
-6月21日，YouTuber博主Philip Rusnack发布视频控诉BAYC采用纳粹图案，同时在NFT形象设计上奉行白人至上主义。他声称BAYC图像以抹黑黑人和亚洲人民的种族主义漫画为蓝本，并将Yuga Labs和BAYC使用的符号和语言与纳粹Totenkopf标志进行了比较。Rusnack呼吁他的观众将持有的BAYC发送到黑洞地址进行销毁。
-
-反诽谤联盟（ADL）极端主义中心的高级研究员Mark Pitcavage认为BAYC的徽标与Totenkopf之间没有关联，但同意其中一些NFT的特征和属性是有问题的，例如带有金链的“嘻哈”特征和“寿司厨师头带”分别是对黑人文化和日本人的刻板印象。
-
-但无论结果到底如何，此次事件都在欧美地区引发了广泛的讨论，甚至曾经使用BAYC NFT作为自己社交媒体头像的名人，如NBA球星库里等，也纷纷换掉了头像。
-
-纳粹狗哨？种族歧视？
-而对于此次事件，有个人是不能不提的，他就是Ryder Ripps。
-此人可谓是BAYC的“黑粉头子”（非贬义），从2021年12月以来，Ryder Ripps就开始调查BAYC及其创建者Yuga Labs。通过数月的深入研究，Ryder Ripps和其…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179680"
-                        open
-                      >
-                        <summary class="article-expander__title">​二度出手救市，FTX能否挽救这场加密危机？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179680">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Amy Liu
-原文来源：比推BitpushNews
-周二，加密贷款平台BlockFi宣布已从FTX获得2.5亿美元的循环信贷额度。BlockFi首席执行官Zac Prince表示，此举“增强了我们的资产负债表和平台实力。”他补充说，“根据合同，信贷额度的收益将从属于所有账户类型(BIA、BPY和贷款抵押品)的所有客户余额，并将在需要时使用。”
-
-这不是 FTX 首席执行官 Sam Bankman-Fried 第一次介入以救助一家受近期市场低迷影响的大型加密货币公司。上周，加密货币经纪商 Voyager Digital (VOYG) 从 Bankman-Fried 创立的量化交易公司 Alameda Research 获得了循环信贷额度，以帮助其度过当前的市场动荡。
-随着数字资产行业断断续续地下滑，这家巨头正在思考防止灾难的方法——或许还有利润。
-本周末，Bankman-Fried 讨论了他认为在危机中救助加密货币公司的“责任”。他在推特上重申了这一观点，他表示主要关注的是减轻零售损失、披露风险和防止坏账在整个行业蔓延。
-Bankman-Fried告诉NPR：“我确实觉得我们有责任认真考虑介入，即使这对我们自己来说是一种损失，也要阻止危机的蔓延。即使我们不是造成它的人，或者没有参与其中。我认为这对生态系统是健康的，我想做些可以帮助它成长和繁荣的事情。”
-这里有一个历史上的类比：摩根大通曾两次介入以防止经济崩溃。
-在 1893 年的恐慌中，在新兴铁路和银行业经历了一段时间的激烈投机和整合之后，摩根大通借给联邦财政部6500万美元的黄金，以补充其日益减少的储备，并坚定人们对银行体系的信心。
-
-此后，在 1907 年的金融危机中，摩根大通抵押了自己的资本并领导了一个富有的金融家联盟，以支持濒临倒闭的银行、证券交易所和信托公司。历史学家认为，在联邦政府几乎没有能力管理经济…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179467"
-                        open
-                      >
-                        <summary class="article-expander__title">硅谷仁波切Naval对话V神：关于ETH一切</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179467">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者:  Naval
-Contributor：Trinity，twitter@miseswei
-Vitalik：以太坊，第 1 部分
-Naval：欢迎回到播客。我们的嘉宾有Haseeb Qureshi ，他是 Dragonfly 的合伙人，当我活跃在加密货币领域时，我曾经和他一起工作过。还有Vitalik Buterin ，他是个博学的天才——尽管他可能对这种描述感到愤怒——他创建了以太坊，这是第一个能够获得任何交易量的智能合约区块链，并改变了我们所知道的区块链计算的全貌.
-Haseeb，你想给我们做一个自我介绍吗？
-Haseeb的背景
-Haseeb：我是一名软件工程师，现在是一名投资者。我经营着 Dragonfly Capital，这是一家全球加密基金——我们只投资于加密货币——已经做了四年多了。
-这很有趣，因为当我第一次接触加密货币时，我记得实际上是在 IC3，一个学术加密货币会议，在那里我第一次见到了你和 Vitalik。我刚从 Airbnb 辞去软件工程师的工作，我记得我问过你，“你认为加密货币最重要的问题是什么？”你的回答是关于钱包。你当时说，“我认为创建更多的钱包很重要。”那时我对构建钱包的含义只有模糊的理解。这就是触发我钻入以太坊的兔子洞的原因。
-在我第一次真正深入研究加密货币的早期，在那次 IC3 会议之后，我记得在离开时有一种强烈的感觉，即比特币即将消亡。我当时想，“看看以太坊世界正在迸发出的智力能量（intellecture energy）和独特魅力（character），相比BTC世界，存在多么明显而巨大的增量改进（Delta）。这是我在 IC3 感受到的，而我在比特币世界则看到一大堆近似宗教的愤怒和热情，而不是大量的创新。”
-我当时对这事的理解还很初级，但这就是我第一次全职allin加密货币的契机，通过你和我当时的小互动。
-Naval：如果我没记…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179679"
-                        open
-                      >
-                        <summary class="article-expander__title">欧易研究院&amp;Odaily星球日报联合发布：以太坊Staking赛道解析</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179679">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Shirley
-
-目录
-引言：Lido遇险始末 
-一、 以太坊2.0的路线规划 
-1.1 以太坊2.0的路线图 
-二、市场规模 
-2.1 Staking功能开启 
-2.2 节点规模 
-三、节点是staking生态的重要角色 
-3.1 节点的责任 
-3.2 限制节点的因素 
-四、Staking服务商的类别 
-4.1 节点运营商 
-目前主要的节点运营商类型： 
-4.2 解决流动性难题的流动性质押服务商 
-4.2.1 自运行节点型——欧易OKX赚币 
-4.2.2 不运行节点型——Lido 
-4.3 基础设施服务商 
-4.4 总结 
-五、结语：利用优势规避风险
-引言：Lido遇险始末
-
-Lido上的ETH和stETH脱锚风险是最近热点，也是近期笼罩在以太坊生态之上的一片阴云。
-Lido是以太坊2.0流动性质押协议，我们可以通过Lido存入ETH赚取stETH，stETH接入了AAVE质押后可以通过AAVE借出ETH，于是许多人在AAVE和Lido之间的循环借贷之下建立起数十亿的杠杆规模。但是受制于以太坊2.0主网合并再次延期，参与者们短时间内无法对stETH解除质押。这意味着如果stETH/ETH锚定失败，超过一定限度后ETH多头可能会被彻底清算，stETH/ETH便成为了一个随时引爆的定时炸弹。
-究其原因，问题主要在于和AAVE结合后的循环借贷放大了市场风险，此时stETH不可赎回就成为可能导致系统崩盘的巨大bug。
-针对这次危机，欧易研究院将立足于整个以太坊Staking赛道，系统为大家讲解其由来原因、质押逻辑，并探讨以太坊Staking生态的发展规模和代表项目类型，期望帮助读者明确参与此类项目时应注意的风险。
-一、以太坊2.0的路线规划 
-1.1 以太坊2.0的路线图
-以太坊的目标是成为分布式金融和智能合约执行平台，成为“一台真正的世界计算机”。为了实现世界计算机的…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -682,6 +67,78 @@ Lido是以太坊2.0流动性质押协议，我们可以通过Lido存入ETH赚取
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/88824"
+                        open
+                      >
+                        <summary class="article-expander__title">Ava Labs发布Avalanche生态一体化Web3操作系统Core</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/88824">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 22 日，Ava Labs 发布非托管浏览器拓展程序 Core，该程序旨在使用户无缝、安全地使用由 Avalanche 提供支持的 Web3 生态。
+
+据悉，Core 由 Avalanche 提供支持，是一种一体化操作系统，将 Avalanche 应用程序、子网、网桥和 NFT 整合到一个无缝的高性能浏览器体验中。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/88815"
+                        open
+                      >
+                        <summary class="article-expander__title">美联储主席鲍威尔：坚决承诺将通胀率恢复到2%，加息速度取决于未来的数据</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/88815">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 22 日，美联储主席鲍威尔发言表示，美联储坚决承诺将通胀率恢复到 2%，加息的速度取决于未来的数据，持续加息是适当的。(金十)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/88812"
+                        open
+                      >
+                        <summary class="article-expander__title">dYdX计划加入Cosmos生态系统，启动其专属应用链</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/88812">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 22 日，据 The Block 报道，去中心化衍生品交易平台 dYdX 计划使用 Cosmos SDK 启动其专属应用链，新链预计将在未来几个月内推出，有助于使项目更加去中心化。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/88800"
+                        open
+                      >
+                        <summary class="article-expander__title">加密基础设施公司Prime Trust完成1.07亿美元B轮融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/88800">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 22 日，据 CoinDesk 报道，加密基础设施公司 Prime Trust 宣布完成 1.07 亿美元 B 轮融资，具体融资信息暂未透露。本轮融资资金将用于扩大其产品类别，包括加密退休金产品和资产 Token 化产品。
+
+BlockBeats 此前报道，Prime Trust 于 2021 年 7 月宣布完成 6400 万美元 A 轮融资，该轮融资由 Mercato Partners 的成长型股票基金 Traverse 领投，Samsung Next、Kraken Ventures，以及 Seven Peaks Ventures 等参投。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1447,6 +904,148 @@ Uniswap Labs 称此次收购由 Uniswap Labs 进行，对 Uniswap 协议、Unisw
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/srskycx1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">eBay 收购 NFT 交易平台 KnownOrigin</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/srskycx1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 6月22日消息，电商巨头eBay已于今日完成对NFT交易平台KnownOrigin的收购交易，具体金额及条款暂未透露。本次收购旨在将eBay的影响力和声誉与KnownOrigin的领先技术相结合，为新一代NFT创作者、卖家和买家提供支持。
+此前3月份，NFT交易平台KnownOrigin完成485万美元融资，GBV Capital和Sanctor Capital领投。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ft35noq4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Voyager Digital 要求 3AC 偿还贷款，并考虑发出违约通知</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ft35noq4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 6月22日消息，Voyager Digital 周三在一份声明中表示，如果三箭资本未能偿还贷款，加密经纪人 Voyager Digital 可能会向其发出“违约通知”。Voyager 对 3AC 的敞口包括 15,250 个比特币和 3.5 亿美元的 USDC。它最初要求在6月24日之前偿还2500万美元，然后要求在2022年6月27日之前偿还全部金额。
+3AC 未能在这些指定日期之前偿还任何所要求的金额将构成违约事件。Voyager 打算从 3AC 中追回，并正在与公司的顾问就可用的法律补救措施进行讨论。并表示目前无法评估能够从 3AC 中收回的金额。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/munxj4pi.html"
+                        open
+                      >
+                        <summary class="article-expander__title">币安创始人：加密货币价格崩溃“最糟糕的部分可能已经结束”，币安有“责任”来帮助陷入困境的加密货币公司</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/munxj4pi.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 6月22日消息，币安创始人赵长鹏表示：加密货币价格崩溃“最糟糕的部分可能已经结束”，币安有“责任”来帮助陷入困境的加密货币公司。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/w22pxwg7.html"
+                        open
+                      >
+                        <summary class="article-expander__title">BitGo与Parallel Finance合作为美国机构推出首个NFT托管平台</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/w22pxwg7.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 6月22日消息，数字资产安全和流动性提供商 BitGo 周三宣布，已与去中心化借贷和质押协议 Parallel Finance 合作为开发商、零售市场和机构推出了 NFT 热钱包和托管解决方案。BitGo首席产品官Chen Fang表示，这是第一个可以与热钱包配对的美国合格托管解决方案。客户可以通过 BitGo 的新钱包服务与 OpenSea 和 LooksRare 等去中心化市场进行交互，类似于 MetaMask 用户可以集成他们的钱包的方式。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ogzrjt7n.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：近一周内Alameda地址向FTX转入近20亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ogzrjt7n.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 6月22日消息，据欧科云链链上天眼监测，被OKLink浏览器标记为“Alameda”的实体标签地址在近一周内，已向FTX 交易所转入超15.5亿枚USDC、2亿枚USDT、2.4亿枚 BUSD，总价值近20亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/g0y4k1dl.html"
+                        open
+                      >
+                        <summary class="article-expander__title">加密风投机构1confirmation推出1亿美元的NFT基金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/g0y4k1dl.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 6月22日消息，加密风投机构 1confirmation 创始人 Nick Tomaino 发文宣布推出价值 1 亿美元的 NFT 基金，旨在支持处于文化前沿的创作者。并表示，未来十年最具影响力的创作者将推出 NFT，新基金致力于在他们的旅程早期为他们提供支持，并引领全球数十亿人从内容消费者转变为所有者。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/2x4nym9x.html"
+                        open
+                      >
+                        <summary class="article-expander__title">毕马威启动元宇宙协作中心</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2x4nym9x.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 6月22日消息，会计巨头毕马威（KPMG）的美国和加拿大业务部门在元宇宙中启动协作中心，将允许毕马威员工、合作伙伴和客户进行虚拟团队会议。此前，毕马威的加拿大分公司将比特币和以太币添加到其公司资产负债表中，并于 2 月购买了 World of Women NFT。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -2812,6 +2411,621 @@ Uniswap Labs称此次收购由Uniswap Labs 进行，对Uniswap协议、Uniswap�
                               <span>PANews 6月21日消息，基于 Klaytn 的 DeFi 孵化器 Krew 宣布已吸引了 400 万美元的投资，Quantstamp 和 Ascentive Assets 共同领投。并将于 6 月正式启动。未来计划为孵化项目提供咨询服务，包括流动性提供、营销知识共享、提供设计建议和市场进入策略。此外，Krew 旗下的第一个 DeFi 平台，基于 Klaytn 的非托管加密货币贷款协议 KLAP（KLAP）将被激活。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179706"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3底层基建？简析昨天CloudFlare服务中断的原因</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179706">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：阿法兔研究笔记
+
+
+Cloudflare是一家于2019年上市的CDN和安全服务公司，不过2022年6月21日（周二）因为它的服务暂时中断，影响了大量的服务和平台正常运营。包括FTX，Discord，Omegle，DoorDash等等。
+本篇文章，会讲一下什么是CloudFlare，到底是个什么公司，CloudFlare和Web3的缘起，以及从技术上解释一下本次故障的原因。
+
+
+
+
+
+
+
+
+
+
+
+本文结构
+
+
+
+
+
+
+
+1.事件背景
+
+ 2022年6月底（本周二）发生了什么？
+
+2.什么是CDN（内容分发网络）
+
+什么是CDN
+
+什么是路由
+
+CDN公司通常都是安全公司？
+
+3.Cloudflare是个什么公司？
+4.Cloudflare和Web3的缘起
+
+IPFS&amp;以太坊
+
+5.Cloudflare为什么会发生服务中断？（技术分析部分）
+
+和架构转型有关
+
+本次服务终端的时间线和背景
+
+补救和后续步骤
+
+结论
+
+事件背景
+6月21日（周二）发生了一件事，就是因为Cloudflare的服务暂时中断，影响了大量的服务和平台正常运营。包括FTX，Discord，Omegle，DoorDash，Crunchyroll，NordVPN和Feedly等等、还有Zeroda，Medium.com，新闻媒体Register，Groww，Buffer，iSpirt，Upstox和Social Blade的，用户无法访问这些网站，甚至Coinbase，Shopify和英雄联盟也受到了部分影响。
+本篇文章，会讲一下什么是CloudFlare，到底是个什么公司，CloudFlare和Web3的缘起，以及从技术上解释一下本次故障的原因。
+什么是CDN（内容分发网络）
+在讲Cloudflare之前，我们先普及一个概念（CDN）
+什么是CDN？
+CDN，全称为Content Distribu…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179710"
+                        open
+                      >
+                        <summary class="article-expander__title">毕马威推出元宇宙协作中心，帮助客户探索元宇宙之旅</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179710">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Blockworks，原文作者：Ben Strack
+Odaily星球日报译者 | 余顺遂
+
+摘要：
+
+其元宇宙中心将允许毕马威员工、合作伙伴和客户举行虚拟团队会议。
+
+毕马威加拿大业务部门于今年 2 月宣布将比特币和以太坊纳入公司资产负债表，并购买 World of Women NFT。
+
+国际四大会计师事务所之一毕马威（KPMG）的美国和加拿大业务部门在元宇宙推出协作中心，旨在帮助其客户制定元宇宙领域的战略。
+一位发言人表示，这个私人中心是其员工、合作伙伴和客户进行虚拟团队会议和分享想法的地方，例如可以使用虚拟白板。他们还将能够在元宇宙中进行培训课程、工作面试和员工评估，以及展示毕马威服务和功能的会议。
+毕马威加拿大数字总裁兼管理合伙人 Armughan Ahmad 表示，“元宇宙让我们有可能体验现实世界和数字世界相融合的‘phygital’世界。元宇宙提供价值 13 万亿美元的市场机会，到 2030 年将拥有多达 50 亿用户。”
+总部位于荷兰的毕马威国际（KPMG International）报告称，其 2021 财政年度的收入约为 320 亿美元。据悉，毕马威旗下公司提供审计、税务和咨询服务。
+毕马威代表没有提及正在与之合作的具体客户名称，但表示“他们的规模、行业和范围各不相同”。
+毕马威在美国和加拿大的业务部门已经组建一支拥有技术和创新经验的专业团队，为元宇宙设计、NFT 用例、加密资产、社区互动和更广泛的 Web3 集成提供支持。
+这些团队将在毕马威客户的元宇宙战略之旅实施和运营阶段为其提供帮助，包括选择供应商、业务和技术需求设计、系统集成和支持不同元宇宙的项目治理等服务 。
+毕马威正在向机构和监管机构测试 Web3 功能，以加强他们对该领域及其底层技术的理解。
+毕马威发言人表示，“我们正在探索与提供质押、去中心化借贷等服务的 Web3 公司合作。毕…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179705"
+                        open
+                      >
+                        <summary class="article-expander__title">假钱包全景追踪：深入揭秘假钱包钓鱼产业链</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179705">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>前言
+小 A最近收到了交易所活动的短信，于是小 A 在浏览器输入“xx 钱包官方”，点进排在首位的链接，下载 App-创建钱包-转入资产，一气呵成。没一会，小 A 收到了转账成功的通知，他钱包 App 里的余额——价值 1000 万美元的 ERC20-USDT——都化为零了。小 A 后来才意识到，这个 App 是假的，自己下载到钓鱼 App 了。
+慢雾于去年 11 月 24 日发布了关于假钱包黑产的分析报告——慢雾：假钱包 App 已致上万人被盗，损失高达十三亿美元，可想而知，随着时间流逝，直到今天的被盗损失会是多么令人惊讶。
+分析
+今天我们从大数据侧分析，到底有多少假钱包。
+1、MetaMask是目前全球最大的浏览器插件钱包。2021 年 4 月，MetaMask 母公司 ConsenSys 表示，MetaMask 钱包的月活用户量超过 500 万，在 6 个月内增长了 5 倍，而 2020 年 MetaMask 官方也曾宣布其较 2019 年的月活同比增长了 4 倍，用户量超 8000 万。
+MetaMask 如此海量的用户数自然是黑产的第一目标，我们来看看有多少冒牌MetaMask：
+首先，通过专业的浏览器搜索：
+
+
+查找结果显示有 20,000 + 的相关结果，其中 98% 的 IP/域名都是虚假诈骗链接。
+
+
+
+
+进一步追踪，比如查找 MetaMask Download：
+
+
+
+一眼看去，都是钓鱼网站，而且熟悉安全的人应该都知道，888/HTTP、8888/HTTP 这类端口和服务是宝塔系统的默认配置，而宝塔的简单易部署属性导致大量黑灰产使用。以上相关的 IP/域名都是诱导用户访问、下载的虚假诈骗链接。
+
+我们再进一步来看点有意思的。
+首先搜索：MetaMask 授权管理（黑灰产钓鱼的管理后台）
+
+
+
+
+
+
+这些全都是黑产管理后台相关域名，我们顺手把域名也一起梭，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179700"
+                        open
+                      >
+                        <summary class="article-expander__title">一文盘点四种熊市稳定币理财策略</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179700">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>密市场随着全球宏观政策的变动而进入熊市，以“流动性挖矿”带动的DeFi行情也结束了高速发展的阶段。流动性挖矿的收益率已经降至冰点，代表着DeFi无风险收益的Curve 3pool、Compound USDC存款、Aave USDC存款收益率均跌至1%以内，甚至远低于美国十年期国债3%的收益率。
+但是仍然有超过千亿美元的稳定币存在于加密市场中，持有稳定币能够直接地继续参与到市场中，避免法币/稳定币之间的兑换步骤。这部分资金在闲置时仍有获得收益的需求，因此PANews在本文中总结了一些稳定币收益机会，作为此前稳定币挖矿锦囊的后续文章，PANews也将对此系列持续更新。在参与时，请先了解可能存在的风险，且不要将资金放在一个地方，本文数据整理自6月21日。
+中心化交易所理财
+交易所通常都会提供理财服务，以较低的利率从用户处吸收资金，再以更高的利率借给用户，用于杠杆交易等。中小交易所遭遇本次流动性危机，在熊市中生存危机加大，但头部交易所在合规等方面相对完善，安全性较高。
+以币安为例，币安宝活期提供的理财服务，在2000 BUSD和2000 USDT额度范围内，可享受10%的年化收益，利息每日发放，本金随时可以赎回，即在币安有4000美元的稳定币可享受年化10%的活期理财收益。
+除了长期开放的活期理财外，币安也推出了定制化的定期理财服务，当前USDT 30天的年化利率为5%，USDT 90天（已售罄）的年化利息为9%，个人申购上限为5000万美元，能够满足大多数人的需求。
+DEX挖矿策略
+DEX是相对比较安全的一类DeFi协议，且通常有公链项目方的支持，但是根据上线时间的不同，风险并不完全相同，且用于挖矿的资产来自于不同的项目、跨链桥，又引入了额外的风险。PANews查看了各个链上应用中的数据，给出以下三个DEX中的挖矿策略，可供参考，不同项目的风险点也已在下文中说明。
+Ref.fin…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179698"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币抛售潮导致73亿美元损失，谁在卖出比特币？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179698">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：茉莉
+区块链数据分析服务商 Glassnode 的数据显示，在上周短短的三天内，比特币（BTC）投资者出现了有史以来最大的实际损失（交易实现的损失）—— 抛售 BTC 导致投资者损失了 73 亿美元。6 月 18 日，BTC 价格触达年内新低 17700 美元，这也是它自 2020 年以来首次跌破 20000 美元。
+那么，谁在加密资产市场的下行中卖出了 BTC？
+6 月 22 日，加拿大加密矿业公司 Bitfarms 表示，它在过去的 7 天内出售了 3000 BTC 用以平衡其债务。该公司决定「不再囤积」日产的比特币，而是选择采取「提高流动性、去杠杆化」的方式来优化公司的资产负债表。
+Bitfarms 可以视作比特币的公共矿工之一，下跌的行情正在威胁他们的生存。总部位于挪威的研究机构 Arcane Research 数据显示，在 2022 年的前四个月，公共矿业公司出售了 30% 的比特币产量。矿业盈利能力的暴跌迫使这些矿工在 5 月份将销售率提高到其产量的 100% 以上。
+除了矿工，全球最大的比特币现货交易所基金（比特币现货 ETF）也在出售 BTC。Arcane Research 数据显示，跟踪比特币现货价格的 Purpose Bitcoin ETF 在上周五流出了 24510 BTC，这是自 2021 年 4 月该基金在加拿大证券交易所首次亮相以来单日最严重的赎回，分析师认为，巨额的资金外流可能是大规模强制清算造成的。
+6 月 20 日，BTC 回到了 20000 美元上方，并在 21 日上探 21500 美元，目前在 20800 美元附近徘徊，市场的不确定性仍未消除。
+矿工抛售比特币求活
+加密矿业盈利能力的恶化迫使公共矿工开始清算他们持有的比特币。
+6 月 21 日，北美算力最大的加密矿业公司 Bitfarms 表示，在过去 7 天内已出售了 300…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179699"
+                        open
+                      >
+                        <summary class="article-expander__title">USDC猛追USDT，稳定币市场格局正悄然改变</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179699">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 | Decrypt，原文作者：Stacy Elliott
+Odaily 星球日报译者 | Moni
+
+过去两个月，加密市场显露出的种种迹象无一不在打击投资者信念： Terra稳定币 UST的崩盘，加密货币借贷平台 Celsius 挤兑潮，加密对冲基金三箭资本面临清算危机等等。
+随着各种 Token 价格暴跌，加密货币正进入新一轮的寒冬。在普遍的看跌情绪之下，为了避免损失，投资者更愿意将自己在牛市中获得的一部分收益兑换成稳定币，以度过这难熬的加密熊市。而此时，加密市场上两大稳定币 Tether (USDT) 和 US Dollar Coin (USDC) 的表现却截然不同。
+USDC 正在猛追 USDT
+根据CoinGecko 显示，自 5 月初以来，Tether 市值已经相较于 830 亿美元历史高点下跌了19%；相比之下，USDC 同期却上涨了 5%，市值一度突破 560 亿美元，创下历史新高。从这组数据不难看出，Tether 供应量正在持续萎缩，大型投资者们自市场崩盘以来正在不断套现他们的 USDT 头寸，与此同时 USDC 的供应量却随着需求增加而持续扩大。
+不得不承认，USDC 在熊市期间的表现强劲，在过去的 50 天里，USDC 已 28 次突破发行量新高。在 6 月 15 日当天，USDC 与 Tether 市值差距已经缩小至约 120 亿美元，是 2020 年秋季以来最为接近的一次。
+在 Tether 市值不断走低的情况下，USDC 市值只需再增长 21% 就能超越 Tether，而这个增长幅度对于 USDC 来说似乎并不算太难。假如 Tether 继续延续下跌趋势，那么 USDC 将会赶超得更快。所有这一切似乎都在非常严肃地警告我们：在当前的加密熊市中，没有哪种资产可以永葆它的优势地位，哪怕再优秀。
+
+
+Tether 出了什么问题？
+通常情况下，投…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179696"
+                        open
+                      >
+                        <summary class="article-expander__title">Arbitrum奥德赛活动指南：首周活动正式开启，有哪些注意事项？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179696">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：0x711&amp;wzp
+Arbitrum 奥德赛（Arbitrum Odyssey）活动已于北京时间 6 月 22 日凌晨 1 时正式开始。社区普遍期待此次活动将成为获得 Arbitrum 空投的「敲门砖」。好在 GAS 不高，ETH 也相对便宜了很多，交互成本可控。链上数据显示，随着活动开始，跨链交易量出现了迅速增长。
+
+Arbitrum 奥德赛的活动最主要的目的就是让用户熟悉 Arbitrum，了解 Arbitrum 的逻辑和操作，所以交互方式都不算复杂。
+那么奥德赛首周活动到底需要做什么，怎么做呢？
+对于不了解以太坊 Layer2 或者 Arbitrum 的用户来说，第一周的任务只算是一个新人培训。用户只需要通过官方指定的跨链桥将 ETH（注意，必须是 ETH）转入 Arbitrum 网络即可达成任务目标。此外，第一周的任务还包含一个额外奖励，即：使用了交易量最大的跨链桥协议的用户，将有资格额外获得一个 NFT 奖励。
+因此，对于想额外获得第二个 NFT 奖励的用户来说，最优策略或许应该是待活动结束前几个小时，根据链上数据来选择当时交易量最大的跨链桥协议去参与。根据官方资料，BlockBeats 将奥德赛与首周活动的注意事项梳理如下：
+关于奥德赛活动的细节
+奥德赛什么时候开始？
+北京时间 6 月 22 日 1：00 点开启，第一周为 Bridge week
+参加有哪些要求？
+只需要 ETH 来支付 Gas 费
+如果我没有在 Snapshot 投票，我可以参与吗？
+是的，可以参与，不需要在 Snapshot 进行投票。
+共有多少 NFT？
+总共将提供 17 种不同的 NFT。Bridge week（第 1 周）一个 NFT，如果用户使用桥接 ETH 数量最多的桥，则再获得 1 个奖励 NFT。2-8 周共 14 个，如果获得前 16 个 NFT 中的至少 13 个…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179695"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT交易平台数据日报 | BAYC24小时交易量位居Opensea第一（6.22）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179695">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NFT 交易平台数据日报由 Odaily星球日报最新推出的一档栏目，聚焦过去 24 小时内 NFT 交易的四大关键数据，包括主流 NFT 平台成交数量和用户数据、巨鲸的交易数据以及蓝筹 NFT 的相关数据，旨在向 NFT 爱好者与投资者展示 NFT 市场的最新变化。
+
+&quot;,&quot;extraction_tags&quot;:&quot;&quot;,&quot;source_type&quot;:&quot;original&quot;,&quot;source_urls&quot;:&quot;&quot;,&quot;next_post&quot;:{&quot;title&quot;:&quot;NFT数据日报 | Doodles在过去24小时内最受巨鲸欢迎（6.22）&quot;,&quot;entity_id&quot;:5179691,&quot;id&quot;:5179691}},&quot;user&quot;:{&quot;type&quot;:&quot;SET_POST_USER&quot;,&quot;id&quot;:2147483985,&quot;avatar&quot;:&quot;https://piccdn.0daily.com/202104/12/885613b73f0773c7df828400b58ccd8a.png!480&quot;,&quot;name&quot;:&quot;不一样的NFT&quot;,&quot;introduction&quot;:&quot;这个作者有点忙，还没写简介&quot;,&quot;title&quot;:&quot;新锐作者&quot;,&quot;total&quot;:&quot;267&quot;},&quot;comments&quot;:[],&quot;counters&quot;:{&quot;view_count&quot;:151,&quot;pv&quot;:118,&quot;pv_mobile&quot;:14,&quot;pv_app&quot;:19,&quot;favorite&quot;:0,&quot;comment&quot;:0,&quot;like&quot;:0},&quot;secondaryTag&quot;:[{&quot;name&quot;:&quot;NFT&quot;,&quot;slug&quot;:&quot;5e09865df1337&quot;,&quot;introduction&quot;:&quot;NFT(Non-FungibleToken) ，非同质化代币&quot;,&quot;cover&quot;:null,&quot;is_post_show&quot;:1}],&quot;secondary&quot;:[{&quot;secondary_tag&quot;:null,&quot;column_i…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179691"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT数据日报 | Doodles在过去24小时内最受巨鲸欢迎（6.22）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179691">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
+宏观市场指标
+截至 6 月 22 日 15 时，NFT 整体市值 224.17 亿美元，较 24 小时前下降 1.39%；过去 24 小时内总交易量约 3653 万美元，日环比下降 12.89%。
+
+按过去 24 小时成交量，排前三的子领域分别为 PFP（1575 万美元）、Game（1191 万美元）和 Collectibles（492 万美元）。
+
+项目排名
+按过去 24 小时成交量，排名前五的项目分别为 More Loot（1147 万美元）、Meebits（349 万美元）、Doodles（259 万美元）、Bored Ape Yacht Club（188 万美元）和 Dreadfulz（182 万美元） 。
+
+按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为 Genie.xyz（17.02%）、Diamonds Club Official（16.79%）、Senshi - Official Collection（9.71%）、Ey3k0n First Edition（8.55%）和 Candy Robbers（8.42%）。
+
+特色数据
+过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：STAXX Invader #7429、Captain Cosmo Silentskull III、Anatomy Science Ape Club #2026、First Day Out #8051/1035…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179693"
+                        open
+                      >
+                        <summary class="article-expander__title">纵览Gitcoin Web3社交生态Grant 50个参选项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179693">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：Mask Network
+开源软件和社区捐助平台 Gitcoin 已启动第 14 轮捐助活动，活动时间从 6 月 8 日至 23 日，用户可以通过该平台为优秀的开源软件团队进行资助。
+Mask Network非常高兴能够举办首次Web3社交生态系统捐助活动，并提供50000美元的奖金。在几轮审查之后，有60个项目入选这一轮捐助活动。同时Mask Network也非常高兴地见到大约一半的项目来自于Mask Network的推荐，而其余的是来自自然流量，这也显示了web3领域社交赛道的蓬勃发展景象。
+为开源项目提供资金可以促进整个区块链生态的发展，Gitcoin 采用二次方投票的模型对项目进行众筹实现资金的配置，解决了以太坊生态中的公共产品融资低效的问题，并鼓励小众群体投票。在每轮的 Gitcoin 捐助活动中，除了各项目方收到的捐款外，Gitcoin 还会以此作为参考协调以太坊基金会的基金分配以便让优质项增加目获得投资的机会。
+Gitcoin 在前 13 轮赠款活动中已为数千个开源项目提供了 6260 万美元资金，也引入了若干生态轮和倡议轮，不仅帮助 Web3 生态系统中的建设者和创造者，而且还使用二次融资机制来支持气候、乌克兰和加密倡导等事项。
+我们将这些项目分为了7个大类，以下是我们对本社交生态轮项目（50个项目）的推荐与评语
+1.社交通讯 Communication
+2.社交网络 Social Network
+3.社交身份 Social Profile &amp; DID
+4.链上声誉 Reputation
+5.创作者经济 Creator Economy
+6.去中心化自治组织 DAO
+7.元宇宙/游戏身份 Metaverse/Gaming Identity
+1. 社交通讯 Communication
+1.1 SwapChat
+Link：https://gitcoin.…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179688"
+                        open
+                      >
+                        <summary class="article-expander__title">Foresight Ventures: 去中心化NFT交易协议将击败OpenSea</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179688">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Alex @Foresight Ventures
+摘要：
+去中心化NFT交易协议之于NFT Market，如同AMM之于DEX。
+NFT交易中的核心需求为流动性和价格，所以NFT交易所的真实护城河应建立在商品出售时的流动性和价格优势上。
+改变格局的聚合器只是作为前端流量入口解决了NFT挂单分散的问题，未从根本性解决流动性难题。
+最有可能解决流动性垄断的不是下一个交易所或聚合器，而是可以支持共享挂单的协议，从而打破NFT工具平台和NFT交易所之间的界限，使得每一个流量前端都能成为交易平台并共享其挂单，形成去中心化NFT交易生态，解决NFT挂单的分散性和流动性问题。
+
+币圈一天，人间一年，而在图圈，可能只有mint后的1小时。NFT的狂热和FOMO，远比任何一个市场都来得更加疯狂，而作为基础设施的NFT交易所，也已经经历了好几次春秋轮转，真正留下的却没有几家，是因为大多数的交易所都没有能满足二级市场NFT交易时各方（如下图）的需求，而是执着于伪需求来寻求破局。所以我将试图分析NFT交易的需求和交易场所的变迁，来探寻未来更优秀的解决方案。
+
+一、市场环境及用户需求
+
+目前主流交易的NFT可先分为蓝筹与非蓝筹，而非蓝筹中大致可分为三类：PFP、功能型以及其他特殊种类。（个别蓝筹同样属于功能型或特殊种类）
+
+对于蓝筹，由于其价格高昂，且大多数蓝筹持有者更偏钻石手，所以对于流动性的要求没有那么高，反而更看重价格。Pass卡和Gamefi这种具有实际应用场景的功能型NFT，对于流动性的需求也不大，所以更多也是由价格导向的。但是市场上90%以上的NFT都是没有赋能的小图片，其本质上是击鼓传花的游戏，这就对流动性的要求极高。此时，用户会选择使用流动性最好的交易所OpenSea而不会选择其他的。其他特殊种类的NFT，暂时并没有应用场景和需求，市场暂时还是围绕着PFP为主，所以不具备讨…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179690"
+                        open
+                      >
+                        <summary class="article-expander__title">Magic Eden以16亿美元估值完成1.3亿B轮融资，跻身加密“独角兽”行列</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179690">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Decrypt，原文作者：Andrew Hayward
+Odaily 星球日报译者 | 念银思唐
+
+摘要：
+- 基于 Solana 的 NFT 市场 Magic Eden 宣布融资 1.3 亿美元，估值为 16 亿美元。
+- 该市场计划扩展到 Solana 以外的其他平台。
+Magic Eden，一个目前占据了 Solana 市场绝大多数份额的 NFT 市场，正在准备扩张。昨日，这家初创公司宣布已完成 1.3 亿美元的 B 轮融资，并计划拓展 Solana 生态系统之外的业务。
+此次 B 轮融资对去年 9 月成立的 Magic Eden 的估值为 16 亿美元。这使它成为最新的加密“独角兽”——估值达到或超过 10 亿美元。本轮融资由 Electric Capital 和 Greylock 联合领投，新投资方 Lightspeed Venture Partners 以及现有投资方 Paradigm 和红杉资本（Sequoia Capital）参投。
+Magic Eden 的 B 轮融资距离上次融资仅过去 3 个月时间。
+3 月，Magic Eden 宣布完成 2700 万美元融资，红杉资本、Paradigm、Greylock 等参投，估值未知。
+Magic Eden 首席执行官兼联合创始人 Jack Lu 告诉 Decrypt，这家初创公司本来并不打算这么快就再次融资，但其不断上升的市场份额和不断增长的 NFT 游戏影响力推动他进行了最新一轮融资。
+“我们不想感到资源受限，”他解释说，“我们希望在未来 5 到 10 年里继续建设。”
+计划拓展至其他区块链
+除了更努力地推动其在游戏垂直领域的发展（注：其主要竞争对手是 Fractal，这是由 Twitch 联合创始人 Justin Kan 开发的 Solana NFT 游戏平台），Magic Eden 还计划在其他区…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179687"
+                        open
+                      >
+                        <summary class="article-expander__title">BlockFi获得FTX2.5亿美元信贷，BlockFi CEO强调：只是防范未然</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179687">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Celsuis 和三箭资本的爆雷，影响到了许多其它机构。先前《金融时报》报导，BlockFi 清算了三箭资本的抵押品。而为了进一步加强自身资产负债表的稳健，BlockFi 6 月 21 日宣布已获得 FTX 的 2.5 亿美元信贷额度。
+加密借贷平台 BlockFi 6 月 21 日宣布获得 FTX 交易所 2.5 亿美元的循环信贷额度。先前外媒报导 BlockFi 在三箭资本有借贷关系，并清算了抵押品，所以有不少人质疑 BlockFi 的偿债能力；但 BlockFi CEO Zac Prince 强调，这笔信贷单纯只是强化自身资产负债表的稳健程度。
+Zac Prince 在推特写道：
+
+“今天 BlockFi 和 FTX 签署了一项协议，FTX 将提供 2.5 亿美元的循环信贷额度，这进一步加强了我们的资产负债表和平台的流动性。”
+
+循环信贷和一般信贷不同。循环信贷有借款快速、免绑约的特性。在循环额度內，BlockFi 可以随借随还，不动用贷款则不计利息，当日还款也不计利息。此外，提前清偿也不需要负担违约金。
+一般来说，机构的资产负债表分成偿债性和流动性。偿债性是指机构的资产负债比，通常资产大于负债就称偿债能力无虞。
+不过目前市场恐慌，BlockFi 需要面临的是流动性问题。也就是资产中的现金/资产是否能应付用户的提出，所以从推特内容来看，BlockFi 之所以会需要 FTX 的信贷是增加流动性，确认用户可以随时提出余额。
+「在过去几周的市场波动中，我为团队、平台和风险管理的表现感到无比自豪。今天这项公告具有里程碑意义，强化了 BlockFi 对用户的承诺，确保资金得到保障的承诺。」
+另外，Zac Prince 也表示，未来将会和 FTX 有更多的合作和创新。
+SBF 先前曾说：有责任阻止危机扩散
+面对两大机构接连暴雷，严重影响投资人信心，SBF 早先时候在接受美国公共广…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179682"
+                        open
+                      >
+                        <summary class="article-expander__title">除了备受攻击的S2F，PlanB还有哪些常用分析模型？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179682">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：GaryMa
+原文编辑：Colin Wu
+近日推特 KOL PlanB 例举了自己除了熟知的 S2F 以外常用的辅助决策的几个指标模型，鉴于当前波动较大的行情走势以及暴跌后的抄底情绪，我们将这些指标模型展开介绍，以供参考使用之需。
+有趣的是，Vitalik 刚刚对 S2F 发出了批评。他表示，S2F 模型现在看起来确实不太好。我知道幸灾乐祸之类的事情是不礼貌的，但我认为金融模型给人们一种错误的确定性和预定数字会增加的感觉，这是有害的，他们应该受到所有的嘲笑。PlanB 刚刚表示，从2019年3月到2022年3月 S2F 模型运行良好。根据 S2F 模型，目前要么 BTC 被极度低估并很快反弹，要么 S2F 在未来变得不那么有用。
+
+比特币 Stock-to-Flow 模型（S2F）
+
+S2F 模型原先是用来衡量黄金及白银等商品稀缺度的方法，主要考虑两个变量，现存供应量(Stock) 及资产的年产量(Flow)。正因为比特币的总量及产量皆在区块链上纪录得清清楚楚，将S2F 应用在比特币上是有其道理的。
+而 PlanB 将比特币 S2F 模型与价格进行比较，并使用幂次法则进行线性回归，以潜在地预测其未来价值变化。
+不过该模型也存在一些不合理之处，如只考虑稀缺性，忽略市场需求、存在部分逻辑问题等。
+目前该指标已经出现严重偏离失效，毕竟根据该模型走势，当前比特币将达到 10 万美元，甚至在10 年后将突破1,000 万美元。
+成本定价法（比特币矿机关机币价）
+
+成本定价法是最直观的加密货币估值方法，其核心理念是将加密货币的生产成本（例如比特币的挖矿成本）视作加密货币价值的下限指标。因此，以比特币为例，或许其关机币价区间能够作为投资者参考的底部价格区间。像当前的比特币价格，就已经跌到了部分矿机的关机价格。
+已实现市值（Realized Cap）以及相关演化指标
+
+已实现市值…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179681"
+                        open
+                      >
+                        <summary class="article-expander__title">纳粹狗哨？种族歧视，BAYC陷入舆论风暴</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179681">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：gordongoner
+原文编译：老雅痞
+本文来自：FastDaily
+
+BAYC陷入舆论风暴
+相信无论是在长期混迹于加密圈的OG，还是初入圈子的新手，对于BAYC这个名字都不会陌生。即便是在NFT寒冬的如今，BAYC仍有高达1,716,537,043.03美元的市值（数据来自于NFTGO）以及近百枚ETH的地板价，同时还衍生了MAYC、Otherside等一系列热门IP。作为NFT赛道的龙头，BAYC创造了太多传奇。
+近日来，BAYC再次处于风口浪尖，不过这次并非是因为其惊世骇俗的价格上涨或是商业方面的重大举措，而是由于一些相当敏感且负面的话题。
+6月21日，YouTuber博主Philip Rusnack发布视频控诉BAYC采用纳粹图案，同时在NFT形象设计上奉行白人至上主义。他声称BAYC图像以抹黑黑人和亚洲人民的种族主义漫画为蓝本，并将Yuga Labs和BAYC使用的符号和语言与纳粹Totenkopf标志进行了比较。Rusnack呼吁他的观众将持有的BAYC发送到黑洞地址进行销毁。
+
+反诽谤联盟（ADL）极端主义中心的高级研究员Mark Pitcavage认为BAYC的徽标与Totenkopf之间没有关联，但同意其中一些NFT的特征和属性是有问题的，例如带有金链的“嘻哈”特征和“寿司厨师头带”分别是对黑人文化和日本人的刻板印象。
+
+但无论结果到底如何，此次事件都在欧美地区引发了广泛的讨论，甚至曾经使用BAYC NFT作为自己社交媒体头像的名人，如NBA球星库里等，也纷纷换掉了头像。
+
+纳粹狗哨？种族歧视？
+而对于此次事件，有个人是不能不提的，他就是Ryder Ripps。
+此人可谓是BAYC的“黑粉头子”（非贬义），从2021年12月以来，Ryder Ripps就开始调查BAYC及其创建者Yuga Labs。通过数月的深入研究，Ryder Ripps和其…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179680"
+                        open
+                      >
+                        <summary class="article-expander__title">​二度出手救市，FTX能否挽救这场加密危机？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179680">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Amy Liu
+原文来源：比推BitpushNews
+周二，加密贷款平台BlockFi宣布已从FTX获得2.5亿美元的循环信贷额度。BlockFi首席执行官Zac Prince表示，此举“增强了我们的资产负债表和平台实力。”他补充说，“根据合同，信贷额度的收益将从属于所有账户类型(BIA、BPY和贷款抵押品)的所有客户余额，并将在需要时使用。”
+
+这不是 FTX 首席执行官 Sam Bankman-Fried 第一次介入以救助一家受近期市场低迷影响的大型加密货币公司。上周，加密货币经纪商 Voyager Digital (VOYG) 从 Bankman-Fried 创立的量化交易公司 Alameda Research 获得了循环信贷额度，以帮助其度过当前的市场动荡。
+随着数字资产行业断断续续地下滑，这家巨头正在思考防止灾难的方法——或许还有利润。
+本周末，Bankman-Fried 讨论了他认为在危机中救助加密货币公司的“责任”。他在推特上重申了这一观点，他表示主要关注的是减轻零售损失、披露风险和防止坏账在整个行业蔓延。
+Bankman-Fried告诉NPR：“我确实觉得我们有责任认真考虑介入，即使这对我们自己来说是一种损失，也要阻止危机的蔓延。即使我们不是造成它的人，或者没有参与其中。我认为这对生态系统是健康的，我想做些可以帮助它成长和繁荣的事情。”
+这里有一个历史上的类比：摩根大通曾两次介入以防止经济崩溃。
+在 1893 年的恐慌中，在新兴铁路和银行业经历了一段时间的激烈投机和整合之后，摩根大通借给联邦财政部6500万美元的黄金，以补充其日益减少的储备，并坚定人们对银行体系的信心。
+
+此后，在 1907 年的金融危机中，摩根大通抵押了自己的资本并领导了一个富有的金融家联盟，以支持濒临倒闭的银行、证券交易所和信托公司。历史学家认为，在联邦政府几乎没有能力管理经济…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179467"
+                        open
+                      >
+                        <summary class="article-expander__title">硅谷仁波切Naval对话V神：关于ETH一切</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179467">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者:  Naval
+Contributor：Trinity，twitter@miseswei
+Vitalik：以太坊，第 1 部分
+Naval：欢迎回到播客。我们的嘉宾有Haseeb Qureshi ，他是 Dragonfly 的合伙人，当我活跃在加密货币领域时，我曾经和他一起工作过。还有Vitalik Buterin ，他是个博学的天才——尽管他可能对这种描述感到愤怒——他创建了以太坊，这是第一个能够获得任何交易量的智能合约区块链，并改变了我们所知道的区块链计算的全貌.
+Haseeb，你想给我们做一个自我介绍吗？
+Haseeb的背景
+Haseeb：我是一名软件工程师，现在是一名投资者。我经营着 Dragonfly Capital，这是一家全球加密基金——我们只投资于加密货币——已经做了四年多了。
+这很有趣，因为当我第一次接触加密货币时，我记得实际上是在 IC3，一个学术加密货币会议，在那里我第一次见到了你和 Vitalik。我刚从 Airbnb 辞去软件工程师的工作，我记得我问过你，“你认为加密货币最重要的问题是什么？”你的回答是关于钱包。你当时说，“我认为创建更多的钱包很重要。”那时我对构建钱包的含义只有模糊的理解。这就是触发我钻入以太坊的兔子洞的原因。
+在我第一次真正深入研究加密货币的早期，在那次 IC3 会议之后，我记得在离开时有一种强烈的感觉，即比特币即将消亡。我当时想，“看看以太坊世界正在迸发出的智力能量（intellecture energy）和独特魅力（character），相比BTC世界，存在多么明显而巨大的增量改进（Delta）。这是我在 IC3 感受到的，而我在比特币世界则看到一大堆近似宗教的愤怒和热情，而不是大量的创新。”
+我当时对这事的理解还很初级，但这就是我第一次全职allin加密货币的契机，通过你和我当时的小互动。
+Naval：如果我没记…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179679"
+                        open
+                      >
+                        <summary class="article-expander__title">欧易研究院&amp;Odaily星球日报联合发布：以太坊Staking赛道解析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179679">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Shirley
+
+目录
+引言：Lido遇险始末 
+一、 以太坊2.0的路线规划 
+1.1 以太坊2.0的路线图 
+二、市场规模 
+2.1 Staking功能开启 
+2.2 节点规模 
+三、节点是staking生态的重要角色 
+3.1 节点的责任 
+3.2 限制节点的因素 
+四、Staking服务商的类别 
+4.1 节点运营商 
+目前主要的节点运营商类型： 
+4.2 解决流动性难题的流动性质押服务商 
+4.2.1 自运行节点型——欧易OKX赚币 
+4.2.2 不运行节点型——Lido 
+4.3 基础设施服务商 
+4.4 总结 
+五、结语：利用优势规避风险
+引言：Lido遇险始末
+
+Lido上的ETH和stETH脱锚风险是最近热点，也是近期笼罩在以太坊生态之上的一片阴云。
+Lido是以太坊2.0流动性质押协议，我们可以通过Lido存入ETH赚取stETH，stETH接入了AAVE质押后可以通过AAVE借出ETH，于是许多人在AAVE和Lido之间的循环借贷之下建立起数十亿的杠杆规模。但是受制于以太坊2.0主网合并再次延期，参与者们短时间内无法对stETH解除质押。这意味着如果stETH/ETH锚定失败，超过一定限度后ETH多头可能会被彻底清算，stETH/ETH便成为了一个随时引爆的定时炸弹。
+究其原因，问题主要在于和AAVE结合后的循环借贷放大了市场风险，此时stETH不可赎回就成为可能导致系统崩盘的巨大bug。
+针对这次危机，欧易研究院将立足于整个以太坊Staking赛道，系统为大家讲解其由来原因、质押逻辑，并探讨以太坊Staking生态的发展规模和代表项目类型，期望帮助读者明确参与此类项目时应注意的风险。
+一、以太坊2.0的路线规划 
+1.1 以太坊2.0的路线图
+以太坊的目标是成为分布式金融和智能合约执行平台，成为“一台真正的世界计算机”。为了实现世界计算机的…</span>
                             </span>
                           </div>
                         </a>
@@ -9130,42 +9344,6 @@ Autism Capital 认为该协议可能会因 MIM 财政部的持续抛售行为或
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/3u0m5eqw.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Autism Capital：稳定币MIM已接近资不抵债</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3u0m5eqw.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月18日消息，Autism Capital在推特发文表示，稳定币MIM（Magic Internet Money）已接近出现资不抵债的情况。  上个月Terra崩盘期间，由于清算速度不足以偿还协议的MIM负债，MIM发行方Abracadabra产生了1200万美元坏账。但 Abracadabra 在此期间以升级为借口关闭了协议仪表盘以掩盖事实。MIM核心团队决定购买CRV美元，而不是从MIM资金库中偿还坏账。此后CRV的价格一直在暴跌，由于仪表盘已经关闭，因此无法验证协议的坏账规模。Autism Capital认为该协议可能会产生更多坏账而导致破产，并建议持有者将其抛售。CoinGecko数据显示，MIM价格目前已脱锚，跌至0.937350美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/m5wjh77c.html"
-                        open
-                      >
-                        <summary class="article-expander__title">孙宇晨在日内瓦会见中国香港特区常驻WTO代表罗志康</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/m5wjh77c.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月18日消息，孙宇晨推特发文称，在日内瓦的香港经济贸易办事处会见了中国香港特别行政区常驻WTO代表罗志康（Laurie LO），双方就电子商务、区块链、贸易等议题和MC12达成的重要成果进行了会谈。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9323,8 +9501,8 @@ DeFi 协议声称其存放在 TPS Capital 的资金下落不明
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2542834201">
-        <time id="build-timestamp" datetime="2022-06-22T14:07:20.430Z">2022-06-22T14:07:20.430Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2543235848">
+        <time id="build-timestamp" datetime="2022-06-22T15:08:53.163Z">2022-06-22T15:08:53.163Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
