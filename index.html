@@ -51,11 +51,415 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-23 datetime="2022-06-23T10:06:46.000Z">2022-06-23</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-23 datetime="2022-06-23T10:06:46.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-23 datetime="2022-06-23T10:30:00.000Z">2022-06-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-23 datetime="2022-06-23T10:30:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179732"
+                        open
+                      >
+                        <summary class="article-expander__title">一文纵览Web3去中心化存储生态图景</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179732">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：0xPhillan、Fundamental labs
+原文翻译：Tia
+如果我们想在去中心化互联网更进一步，最终将需要这三大支柱：共识、存储以及计算。如果人类成功将这三个领域去中心化，我们将踏向互联网的下一阶段征程： Web3。
+
+图 1：每个 Web3 支柱的项目示例
+存储，作为第二大支柱，正迅速成熟，各种存储解决方案已经应用到使用场景中。本文，将进一步探讨去中心化存储这一支柱。
+此篇文章是完整篇幅的一个总结，完整篇幅可从去中心化存储 Arweave 和 Crust Network 下载。
+去中心化存储的需求
+区块链的视角
+从区块链的视角来看，我们需要去中心化存储是因为区块链本身并不是被设计用来存储大体量数据的。获得区块共识的机制依赖小数量的数据（交易），这些数据被放置于在区块中（收集交易），并迅速分享至网络供节点验证。
+首先，在区块中存储数据非常昂贵。在撰文时，在 layer1 上存储一个完整的 BAYC #3368 需要花费超过 18000 美元。
+
+图 2：具有活跃主网的项目。选择 200 年的存储期限来符合 Arweave 对永久性的定义。来源：网络文档、Arweave 存储计算器
+其次，如果我们想要在这些区块中存储大量套利数据，网络拥堵将会变得严重，这会在使用网络时引起 gas 战从而导致价格上涨。这就是区块的隐含时间价值的后果，如果用户需要在某一特定时间向网络提交交易，他们会需要付额外的 gas 费来使得他们的交易被优先处理。
+因此，建议将 NFT 的元数据以及图像数据、dApp 的前端进行链下存储。
+中心化网络的视角
+如果链上存储数据如此昂贵，为什么不直接在中心化网络链下存储数据呢？
+中心化网络容易受到审查并且具有可变性。这要求用户信任数据提供方能维护数据的安全。谁都不能确保中心化网络的运营方真的不会辜负用户对他们的信任：数据可能会因为有意或出于意…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179728"
+                        open
+                      >
+                        <summary class="article-expander__title">Crema ：基于非EVM链的集中流动性协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179728">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Uniswap、Aave、Compound 等协议奠定了 DeFi 的坚实基础，也向大家展示了 DeFi1.0 生态强大的可组合性以及颠覆力。在这其中，AMM（自动做市算法）作为一种新的链上资产交易方式获得了大部分用户的追捧。CPMM（恒定乘积做市算法）+ 流动性挖矿的模式加快了加密货币资产向链上生态迁移的速度。此外，用户只要拥有一定的资金就可以通过向流动性池里添加流动性的方式，赚取交易手续费和额外的流动性挖矿奖励。这种方式极大地吸引了资金进入链上，使 DeFi 流动性得到了充沛的保证。
+但是我们也发现了自 2021 年 DeFi2.0 热潮以来，DeFi 似乎陷入了某种滞胀的境地。虽然新的协议不断推出，但大多数一直处于不温不火的状态。经过分析，我们认为其原因有二：
+一是 CPMM 模型导致的资金利用率低下。由于 CPMM 的流动性范围很宽泛，均匀分布在 (0, ∞)之间，但是只有在市场价格附近的流动性做市曲线资金才能得到有效的利用，因此导致了大部分流动性长期处于闲置的状态。
+二是流动性挖矿的模型造成了大量的市值泡沫。在牛市里像是 Sushiswap、Pancakeswap 都可以依靠发行代币 + 流动性挖矿的模式对Uniswap 进行流动性攻击，而市场热度会承接他们的代币抛压。但是在熊市里，尤其是 UST 和多个 CeFi 暴雷去杠杆后，这种挖提卖的矿币模型导致代币价格快速下跌，造成了众多 DeFi 项目乃至 DEX 自身的市值不断缩水（补贴不动了），这是每一个 DeFi 玩家都能感受到的变化。
+而针对类似情况，市场早就有了解决方案。在过去的一年里，整个 DEX 世界的 40% 以上交易量和 50% 以上的协议收入都产生于 Uniswap V3，而这个数据是建立在没有任何流动性挖矿激励，纯靠交易手续费收入的基础上的。
+Uniswap V3 是什么？它是一种全新的集中流动性…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179731"
+                        open
+                      >
+                        <summary class="article-expander__title">Nansen：如何看待NFT的市场前景？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179731">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：区块链数据分析平台 Nansen，加密KOL NFTstatistics.eth
+原文编译：Ashley， BlockBeats
+1. 关于 NFT 的生命周期
+看历史 NFT 图表，从 8 月份开始一切都变了，NFT 市场再没能达到去年 8-9 月份的销量和用户数。NFT 市场一整年都在努力回到原来的水平——即使已经很接近，但还没有完全恢复。
+2. ETH价格和NFT的地板价的关系
+数据显示，在 2022 年大部分时间里，ETH 价格和 NFT 的地板价都是强相关。
+
+3.NFT 地板价是如何变化
+NFT 是动量资产，如果昨天地板价上涨，今天就有更大几率上涨。不过，NFT 地板价大多数时候都将下跌。
+
+4. 空投的表现
+Yuga 的成功很难复制。
+
+比较最近几次空投的表现： Beanz 是 2 倍，因为每个 Azuki 持有者都得到了 2 倍的回报。
+5. 在交易 NFT时，要专注一个特定交易策略，并且对每次的交易进行深刻复盘
+一些优秀的交易员，他们都有以下特点：
+1）资金量充足，能保证投资流动性，可以进行疯狂的下注
+2）不论盈亏，都是快进快出
+3）在市场中大部分时候都能找到赚钱的办法
+6. 对于 NFT 熊市的总体看法：熊市让你更穷，但也会让你变得更聪明
+1) 即使市场上很早就有 NFTs，这些 NFT 也是近几年来才被大众所熟知和购买。很多 NFT 系列将很难回到原来的价格。
+2) 如果你想购买处在价值凹地的 NFT，去找到那些有资本、有远见、和强烈信念能捱过这段熊市的团队。
+3) NFT 是由 FOMO 驱动的，因此很难让它再次迸发。即使曾经失败了现在依旧勇敢去追寻你的梦想吧！
+4) 我笃信 NFT 能够经受住熊市的冲击并反弹和进行生态重建。但重建之后可能会是完全新的项目。
+5) 我们看好的团队也会发现，重新做一个全新的项目会更容易。
+6) 对大部分团队来…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179729"
+                        open
+                      >
+                        <summary class="article-expander__title">萨尔瓦多比特币实验一周年：火山里喷涌的BTC，是财富还是灾难？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179729">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：麟奇，链捕手
+原文编辑：Demian，链捕手
+萨尔瓦多一直是货币实验的舞台。2001年，美元成为该国唯一的法定货币。2021年6月9日，萨尔瓦多国会正式投票通过比特币法案，成为世界上首个宣布将比特币作为法定货币的国家，一时轰动了整个加密行业乃至传统金融行业。
+现在距离萨尔瓦多国会通过比特币法案已经有一年的时间，期间该国曾提出建设比特币城、利用火山地热能源挖比特币、发行10亿美元比特币债券等一系列计划。这一年，萨尔瓦多针对比特币的一系列计划的实际情况如何？比特币对这个国家又产生了哪些影响？
+自上而下的政策
+这场国家级的虚拟货币实验，是在2021年6月拉开序幕的。彼时，萨尔瓦多国会以62票赞成、22票反对的结果通过“使比特币成为该国法定货币”的法案。年仅39岁的萨尔瓦多总统向国会指出：“这项法律的目的是将比特币规定为不受限制的法定货币，赋予比特币在任何交易中的自由权力和不受限制的控制权，并使任何所有权归公共或私人、自然人或法人所有。”同年9月7日，萨尔瓦多总统签署该法案，比特币正式与美元一样，成为该国的法定货币。这也是比特币第一次成为一个国家的法定货币。
+宣布推行这一政策的总统Nayib Bukele与他推行的比特币一样，都属于这个世界的年轻力量。Nayib Bukele于2019年6月1日宣誓就职，任期5年。他是目前拉丁美洲最年轻的国家元首，此前他只担任过新库斯卡特兰（2012年）和圣萨尔瓦多（2015年）的市长。他的政党，民族团结大联盟，也主要由年轻人组成。
+而萨尔瓦多会成为第一个将比特币合法化的国家，亦与其特殊国情有关。该国地处中美洲，国民长期以来依赖侨汇，经济体系出现了“美元化”的现象。而从2001年1月1日起萨尔瓦多央行就已不再发行科朗（原萨尔瓦多本国货币）。这实际上意味着萨尔瓦多官方已默认美元作为法定货币的地位。至此萨尔瓦多不再有自己独立的货币体系。从那时…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179726"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT数据日报 | Art Blocks在过去24小时内最受巨鲸欢迎（6.23）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179726">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
+宏观市场指标
+截至 6 月 23 日 15 时，NFT 整体市值 224.37 亿美元，较 24 小时前增长 0.33%；过去 24 小时内总交易量约 4134 万美元，日环比下降 0.01%。
+
+按过去 24 小时成交量，排前三的子领域分别为 PFP（1446 万美元）、Collectibles（1398 万美元）和 Game（1277 万美元）。
+
+项目排名
+按过去 24 小时成交量，排名前五的项目分别为 More Loot（1239 万美元）、Meebits（1197 万美元）、Bored Ape Yacht Club（177 万美元）、Doodles（159 万美元）和 CryptoPunks（140 万美元） 。
+
+按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为 Partyland.io（35.64%）、LonelyPop（34.43%）、Lil Chimps - Official（26.08%）、Gossamer Seed（23.85%）和 MetaSamurai - OFFICIAL（11.85%）。
+
+特色数据
+过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：Lord Society2508、Talking Blocks #340、Jungle Bay Ape #4541、Sad Girl #158 和 First NFT #576。
+
+最受巨鲸欢迎项目排前五的分别是：Art Blo…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179725"
+                        open
+                      >
+                        <summary class="article-expander__title">dYdX为何选择「逃离」以太坊，拥抱Cosmos？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179725">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：fyj、0x711，BlockBeats
+6 月 23 日，dYdX 宣布将转移至 Cosmos 生态，将基于 Cosmos SDK 开发定制应用链，并在即将到来的 dYdX V4 版本中实现迁移。这可能是第一次出现，一个业内知名的以太坊原生 DeFi 应用选择逃离。
+创始人 Antonio 的一席话意味深长：「当选择一条链的时候，我认为人们不应该思考这条链上有怎样的用户，反而应思考该链能实现怎样的产品体验。」
+应用层苦以太坊久矣，早在去年 11 月，dYdX 创始人 Antonio 便曾在推特上公开质疑以太坊的提升效率，言谈中已经显露出其正在考虑将 dYdX 转移到其他链。
+
+Antonio 认为，多年间，以太坊在技术落地上缺少作为，而 dYdX 的目标是成为「十倍于当前规模、并能在体验上与中心化交易平台一较高下」的 DEX。
+
+一直以来，Antonio 在行业中以产品经理的面貌示人，dYdX 作为最早期的 DeFi 项目之一，长期致力于开发移动端应用，并力图让去中心化应用（Dapp）走进大众市场。迁移公告中，dYdX 提到，团队不满意于目前 10 笔/秒 的交易速度和 1000 次/秒的下单/取消性能，而扩容需要构建中心化的链下订单撮合系统，这与 dYdX 去中心化交易的定位不匹配。因此，在 V4 中 dYdX 将构建去中心化的链下订单系统，兼顾性能与理念。
+但仅仅是因为以太坊生态真的不能满足 dYdX 的需求吗？社区认为 Antonio 决策背后的原因也许更加复杂而多面。
+加密 KOL polynya 表示，从技术上讲，dYdX V4 的所需的链性能，Rollups 都可以实现。因此其做出此决策或许是出于链主权和时机的考虑。首先，rollup 技术为时已晚，无法为黄金时段做好准备；其次，行业没有足够的需求来要求 rollup。另外，使用 dYdX 作为生态 …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179724"
+                        open
+                      >
+                        <summary class="article-expander__title">Shopify推出NFT门控商店，押注未来电商新趋势</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179724">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Decrypt，原文作者：Kate Irwin
+Odaily 星球日报译者 | 念银思唐
+
+可以说，Shopify 正将 NFT 视为电子商务的未来。
+Shopify 周三宣布，这家允许小型企业创建定制电子商务商店的在线购物巨头，将推出 NFT 门控商店，这是一项面向那些寻求让自家商店更独家的品牌的新功能。
+在 Shopify 发布的公告视频中，一位旁白介绍道：“邀请你的社区进入一个认可并奖励忠诚度的世界。”视频中，一个玩滑板的女人穿过一个颜色淡雅的入口之后，变成了一个 Doodles NFT。
+
+“代币持有者连接加密钱包来解锁独家购物体验，从早期访问 NFT 发行和限量版收藏品，到独一无二的体验和其他惊喜。”视频解释道。
+Shopify 的“gm”商店（门控商品，是 Crypto Twitter 上“good morning”的首字母缩写）目前处于测试阶段，只有那些持有现有 NFT 系列的用户才有资格申请提前访问。
+不过，那些尚未获得批准的用户仍可以在 Shopthru 或 Single 等 NFT 门控应用程序中添加 Shopify 商店。
+Shopify 透露，它已经与 Adam Bomb Squad、Doodles、World of Women、Invisible Friends、Superplastic、Stapleverse 和 Cool Cats NFT系列合作，以创建代币门控商店。
+值得一提的是，Shopify 在今年 3 月曾先后将其推特头像更换为 Doodles NFT 作品和 Space Doodles 作品。
+而在去年 12 月，Shopify 首席执行官 Tobi Lütke 曾在推特上展示其 ENS 域名，还将自己的推特头像换成 CryptoPunks NFT 作品。
+除了在线代币门控，Shopify 还在实体店增加了“IRL”代币门控…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179723"
+                        open
+                      >
+                        <summary class="article-expander__title">浅析Maple与TrueFi的借贷数据：Alamenda与Amber借出最多</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179723">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：吴卓铖
+原文编辑：Colin Wu
+风险提示：本文不涉及任何交易行为的指引与引导，请读者严格遵守所在地法律法规
+Maple Finance 是一个建立在以太坊和 Solana 上的借贷协议，为机构提供无抵押信贷。近日，官方发文表示，从 6 月 20 日开始的一周起，可能会出现资金池中资金不足的情况，贷方须等待借款人还款。
+相关最早的研究来自于推特账户@plzcallmedj，本文受到它的启发。
+目前 Maple 已发放贷款共 6.92 亿美元，最大借款人 Alameda Research 已借出 1.16 亿美元。不过，Alameda Research 同时也是 Maple 的存款人，共存入 8917 万美元，因此净借出头寸为 2637 万美元。
+排名第二的是 Amber Group，共借出 8980 万美元，利息为 3.75% 至 7.6% 不等，到期日为 7 月 19 日至 12 月 10 日。
+排名第三的是 Nibbio，共借出 7950 万美元，利息为 7.1% 至 9.75% 不等，到期日为 8 月 11 日至 10 月 29 日。
+其余排名如下：
+
+所有未结清的贷款中，最早的还款日期为 6 月 28 日，最晚为 12 月 10 日。
+
+另外，Maple Finance 目前可供贷款的现金还剩 1.5 亿美元，除去 Alameda Research 池子（仅供自己借款）仅剩 6975 亿美元。
+同样面临存款枯竭的机构借贷平台还有 TrueFi，该平台的借款人必须是资金 1000 万美元以上的白名单机构。
+目前 TrueFi 已发放贷款共 3.94 亿美元，最大借款人为 Alameda Research，已借出 1.37 亿美元，利息为 7.05% 至 7.15%，到期日为 8 月初。
+排名第二的是 Wintermute Trading，共借出 9205 …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179714"
+                        open
+                      >
+                        <summary class="article-expander__title">那些离开大厂去往Web3的BUIDL</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179714">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：念青
+原文编辑：Demian
+随着布道者、探索者与实验产品越来越多，Web3正从一个模糊的概念变得具体。
+一方面，Web3的基础设施与市场教育等愈发完善，加之颇具吸引力的财富效应，StepN、无聊猿等Web3产品一时吸引了大量用户兴趣与注意力；另一方面，近百亿美元风投资金涌入Web3领域，Facebook、谷歌等巨头公司也相继，美国、英国、法国、日本等发达国家也相继表态大力发展Web3产业。
+很快，在「居然有人愿意花这么多钱买没什么价值的小图片」「又多了庞氏骗局的玩法」的质疑声中，资本和新创业者涌入NFT、元宇宙、GameFi热潮，「All in Web3」口号也随即喊了起来。
+卷了多年的传统互联网人也开始蠢蠢欲动，在社交媒体即刻的「Web3研究所」话题下，也经常会看到自称驴厂（阿里巴巴）、鹅厂（腾讯）等头部互联网公司的员工，在观望、学习和试探。他们纷纷表示，最近在研究Web3，并考虑进入这个领域，因为抓住Web3就是抓住「互联网的下一个时代」。
+不过，随着近期Luna/UST崩盘、加密资产总市值跌至两年来新低，市场回归冷静，「All in Web 3」的口号声势渐弱。
+人们自然地随着牛熊周期来来去去。但正如这几日，那些还坚守在圈子的人纷纷表态的那样，现在是真正的BUIDL（加密圈黑话，指长期建设者）开始做事的时候。
+一、「至少不要错过」
+李小蛙是 NFT 订阅付费平台 Slash创始人。他是在去年NFT热潮中了解到Web3的概念。但真正让他决定接触这个领域，源于一次和与客户的谈话。那天，作为网红的客户主动提起了愿意尝试NFT。此前李小蛙在阿里巴巴、美团等互联网公司做了十多年产品，都是先于客户发现需求，而这一次却是被动了解到了客户需求。
+这件小事刺激到了李小蛙，他开始研究NFT。在他看来，相比Crypto Native（指17、18年那一大批入行的人）来说，现在入…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179715"
+                        open
+                      >
+                        <summary class="article-expander__title">Multicoin合伙人：NFT交易市场的下一站是社区主导</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179715">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Kyle Samani，Multicoin Capital 合伙人
+原文编译：Amber
+为什么 OpenSea 和 Magic Eden 的用户体验大体上是一样的？无论是首页上的功能还是搜索结果的呈现方式，都非常详细。亦或者说，为什么 OpenSea 或 Magic Eden 的首页没有活动信息，没有直播入口，也没有与 NFT 息息相关的游戏类的广告或者信息呢？
+答案是，历史发展的路径决定了这一切。
+OpenSea 成立于 2018 年，当时市面上只有少数几个 NFT 集合，比如 CryptoPunks。CryptoPunks 是一个由 10000 个像素化的 NFT 组成的集合，具有一些简单和可筛选的属性。Bored Ape Yacht Club (BAYC) 就受到了 CryptoPunks 的很大启发：共计 10000 张由算法生成的图像，具有简单和可筛选搜索的属性。这两个集合，就实际呈现形式而言，是高度相似的。而随后涌现出的大多数 PFP 作品集，比如 Pudgy Penguins、Moonbirds、DeGods、Solana MonkeyBusiness (SMB)、Azukis 等等，都使用了同样的结构模型。除了艺术表现形式本身，在收藏品层面上的设计方面，这些都一度引爆了市场的 NFT 作品集实际上没有任何实质上的差异。
+很明显，社区正在影响并决定着市场的技术规范，但实际上这种运作方式并不健康。（真正好的组织形式）应该是市场从各个社区中汲取长处并向着更高效的方向发展。考虑到在线社区可以利用和配置诸如 DeFi、NFTs、DAO、社交代币等众多创新元素，这里的可设计空间实际上非常广阔。
+有一种相当普遍的观点认为，NFT 市场平台将进一步垂直化。诚然这有一定的道理，因为让一个域名交易所（如.eth 或.sol）与一个 PFP 交易所（如 BAYC 或 …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179713"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik Buterin：如何使用zk-SNARKs技术保护隐私？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179713">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Vitalik Buterin
+原文标题：《Some ways to use ZK-SNARKs for privacy》
+原文编译：去中心化金融社区
+ZK-SNARK 是一种强大的加密工具，它在区块链和区块链以外构建的应用程序中变成日益重要的一部分。但它们是复杂的，无论是从它们的工作原理，还是从我们如何使用它的角度来看，都是复杂的。
+这篇文章将关注 ZK-SNARK 如何适应现有的应用程序，有哪些例子说明它们能做什么，不能做什么，以及有哪些通用的指导方针来判断 ZK-SNARK 是否适合某些特定的应用程序。
+这篇文章特别关注 ZK-SNARK 在保护隐私中的应用。
+ZK-SNARK 是做什么的？
+假设有一个公共输入 x，一个私有输入 w，和一个 (公共) 函数 f (x,w)→{True,False}，其会对输入执行某种验证。使用 ZK-SNARK，就可以证明你知道一个 w，对于某些给定的 f 和 x，f (x,w)&#x3D;True，在此过程中不用透露 w 到底是什么。另外，验证者可以更快地验证证明，这比他们自己计算 f (x,w) 要快得多，就算他们知道 w。
+
+这赋予了 ZK-SNARK 两个属性：隐私性和可扩展性。如上所述，在这篇文章中，我们的例子将聚焦于隐私。
+成员资格的证明
+假设你有一个以太坊钱包，你想要证明这个钱包是人性证明（proof-of-humanity）注册，同时不透露注册的到底是哪个人。我们可以用数学方法描述这个函数：
+
+私有输入 (w)：你的地址 A，你的地址私钥 k
+
+公共输入 (x)：所有经过验证的人性证明配置文件 {H1…Hn} 的地址集合
+
+验证函数 f (x,w)
+
+将 w 解释为一对 (A，σ)， x 为有效配置文件列表 {H1…Hn}
+
+验证 A 是 {H1…Hn} 中的一个地址
+
+验证 privtoaddr (k) &#x3D; A
+
+如…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179712"
+                        open
+                      >
+                        <summary class="article-expander__title">Messari：如何看待以太坊「以 Rollup 为中心」的未来？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179712">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Ethereum&#x27;s Rollup-Centric Future》
+原文作者：Ally Zach
+原文编译：Unitimes
+关键要点
+
+为了缓解当前的可扩展性问题，以太坊正在转向一个「以 Rollup 为中心的路线图」，将最佳的链上和链下扩容方案结合起来。
+
+以太坊的链上扩容方案 danksharding 为 Optimistic Rollups 和 ZK-Rollups 等 L2 (第二层) 扩容方案的蓬勃发展提供了充足的数据空间。
+
+Optimistic Rollups 和 ZK-Rollups 都有其缺点：大多数 Optimistic Rollups 都存在层与层之间漫长的取款等待期；而 ZK-Rollups 往往要进行大量的计算，无法提供无缝的可组合性。
+
+为了使得以 Rollup 为中心的未来保持可行性，Rollups 解决方案必须优先考虑降低执行成本、跨层互操作性和用户隐私。
+
+可扩展性是在最小化 (交易) 成本和不牺牲区块链网络的去中心化和安全性的同时增加网络的速度和吞吐量的方法。以太坊目前无法扩展。在过去的两年里，随着用户数量的增加，以太坊的交易成本飙升，使得日常投资者几乎无法承担使用该网络的成本。
+以太坊进行扩容有两个核心选择：链上扩容和链下扩容。与「The Merge」(合并) 相结合，以太坊团队正在引入一种名为「danksharding」的新分片设计，从而引入链上扩容解决方案。这些变化预计将在未来几个月的某个时候发生。
+链下扩容来自于位于现有区块链之上的替代协议，不需要更改当前的以太坊 L1 协议。L2 扩容方案通过在链下处理所有交易验证，同时从以太坊主网获得安全性。当前最知名的 L2 扩容方案是 Rollups。
+在为「合并」做准备的同时，以太坊正在转向「以 Rollup 为中心的路线图」。它计划结合最好的链上和链下扩容方案。
+01. …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179702"
+                        open
+                      >
+                        <summary class="article-expander__title">Chain Hill Research：P2E时代终结后，区块链游戏将迎来怎样的革命？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179702">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Zhensen-Chain Hill Capital、Arthur-Chain Hill Capital
+本文系Chain Hill capital首发，未经授权禁止转载。如需授权转载，请联系：info@chainhill.com
+研究概要
+随着大批的风险资本涌入区块链游戏赛道及大量的创业者投身于创造区块链游戏，我们在庆幸行业受到广泛关注的同时也看到越来越多的乱象。但每一次行业变革的前期一定伴随着大量的泡沫，而在这泡沫中能够真正抓住行业变革核心的创始人才有机会创造真正的价值。
+那区块链游戏的核心创新是什么？我们认为有三个核心要素促成了区块链游戏带来的行业革命，第一是游戏资产通过区块链NFT/FT标准上链确立了游戏资产的所有权归属于玩家，第二是随着游戏的资产所有权归属于玩家，这实际上倒逼了游戏开发商将部分利益分配给参与游戏的玩家，这也将打破游戏开放商在传统游戏中对收益权的垄断，第三点是区块链的去中心化精神带来的社区自治文化将鼓励游戏开放商通过DAO的形式赋予游戏社区贡献者游戏的治理权，而这也将加强游戏开发商与玩家的互动从而推动更良性的游戏发展。
+但十分可惜的是在GameFi 的时代发展浪潮中，目前的热门链游更加强调“Play to earn”，大部分项目可玩性弱于传统游戏，却有着更高的付费进入门槛，采用的是典型的庞氏经济设计。我们认为，现阶段的链游并没有吸引到真正的玩家用户，而是通过不可持续的庞氏经济吸引来了大批的短期投机者。链游内部的游戏资产没有实际的游戏性支撑，因此当新进场玩家减少时，游戏经济体就会缺乏净流入资金，而严重超发的游戏资产的价格就会快速地下跌进而造成玩家进一步出售游戏资产，从而形成死亡螺旋。
+要设计出可持续的区块链游戏则该游戏必须是一个玩家愿意持续为之付费的游戏，因此我们鼓励创业者仍需将重点放在提高游戏的可玩性上。这才是区块链游戏行业现阶段真正需要思…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1376,376 +1780,6 @@ Nexo联合创始人兼管理合伙人Antoni Trenchev表示：“已有多家华�
 此前3月份，电商巨头Shopify与NFT铸造平台Manifold合作推出NFT创作者工具。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179728"
-                        open
-                      >
-                        <summary class="article-expander__title">Crema ：基于非EVM链的集中流动性协议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179728">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Uniswap、Aave、Compound 等协议奠定了 DeFi 的坚实基础，也向大家展示了 DeFi1.0 生态强大的可组合性以及颠覆力。在这其中，AMM（自动做市算法）作为一种新的链上资产交易方式获得了大部分用户的追捧。CPMM（恒定乘积做市算法）+ 流动性挖矿的模式加快了加密货币资产向链上生态迁移的速度。此外，用户只要拥有一定的资金就可以通过向流动性池里添加流动性的方式，赚取交易手续费和额外的流动性挖矿奖励。这种方式极大地吸引了资金进入链上，使 DeFi 流动性得到了充沛的保证。
-但是我们也发现了自 2021 年 DeFi2.0 热潮以来，DeFi 似乎陷入了某种滞胀的境地。虽然新的协议不断推出，但大多数一直处于不温不火的状态。经过分析，我们认为其原因有二：
-一是 CPMM 模型导致的资金利用率低下。由于 CPMM 的流动性范围很宽泛，均匀分布在 (0, ∞)之间，但是只有在市场价格附近的流动性做市曲线资金才能得到有效的利用，因此导致了大部分流动性长期处于闲置的状态。
-二是流动性挖矿的模型造成了大量的市值泡沫。在牛市里像是 Sushiswap、Pancakeswap 都可以依靠发行代币 + 流动性挖矿的模式对Uniswap 进行流动性攻击，而市场热度会承接他们的代币抛压。但是在熊市里，尤其是 UST 和多个 CeFi 暴雷去杠杆后，这种挖提卖的矿币模型导致代币价格快速下跌，造成了众多 DeFi 项目乃至 DEX 自身的市值不断缩水（补贴不动了），这是每一个 DeFi 玩家都能感受到的变化。
-而针对类似情况，市场早就有了解决方案。在过去的一年里，整个 DEX 世界的 40% 以上交易量和 50% 以上的协议收入都产生于 Uniswap V3，而这个数据是建立在没有任何流动性挖矿激励，纯靠交易手续费收入的基础上的。
-Uniswap V3 是什么？它是一种全新的集中流动性…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179731"
-                        open
-                      >
-                        <summary class="article-expander__title">Nansen：如何看待NFT的市场前景？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179731">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：区块链数据分析平台 Nansen，加密KOL NFTstatistics.eth
-原文编译：Ashley， BlockBeats
-1. 关于 NFT 的生命周期
-看历史 NFT 图表，从 8 月份开始一切都变了，NFT 市场再没能达到去年 8-9 月份的销量和用户数。NFT 市场一整年都在努力回到原来的水平——即使已经很接近，但还没有完全恢复。
-2. ETH价格和NFT的地板价的关系
-数据显示，在 2022 年大部分时间里，ETH 价格和 NFT 的地板价都是强相关。
-
-3.NFT 地板价是如何变化
-NFT 是动量资产，如果昨天地板价上涨，今天就有更大几率上涨。不过，NFT 地板价大多数时候都将下跌。
-
-4. 空投的表现
-Yuga 的成功很难复制。
-
-比较最近几次空投的表现： Beanz 是 2 倍，因为每个 Azuki 持有者都得到了 2 倍的回报。
-5. 在交易 NFT时，要专注一个特定交易策略，并且对每次的交易进行深刻复盘
-一些优秀的交易员，他们都有以下特点：
-1）资金量充足，能保证投资流动性，可以进行疯狂的下注
-2）不论盈亏，都是快进快出
-3）在市场中大部分时候都能找到赚钱的办法
-6. 对于 NFT 熊市的总体看法：熊市让你更穷，但也会让你变得更聪明
-1) 即使市场上很早就有 NFTs，这些 NFT 也是近几年来才被大众所熟知和购买。很多 NFT 系列将很难回到原来的价格。
-2) 如果你想购买处在价值凹地的 NFT，去找到那些有资本、有远见、和强烈信念能捱过这段熊市的团队。
-3) NFT 是由 FOMO 驱动的，因此很难让它再次迸发。即使曾经失败了现在依旧勇敢去追寻你的梦想吧！
-4) 我笃信 NFT 能够经受住熊市的冲击并反弹和进行生态重建。但重建之后可能会是完全新的项目。
-5) 我们看好的团队也会发现，重新做一个全新的项目会更容易。
-6) 对大部分团队来…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179729"
-                        open
-                      >
-                        <summary class="article-expander__title">萨尔瓦多比特币实验一周年：火山里喷涌的BTC，是财富还是灾难？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179729">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：麟奇，链捕手
-原文编辑：Demian，链捕手
-萨尔瓦多一直是货币实验的舞台。2001年，美元成为该国唯一的法定货币。2021年6月9日，萨尔瓦多国会正式投票通过比特币法案，成为世界上首个宣布将比特币作为法定货币的国家，一时轰动了整个加密行业乃至传统金融行业。
-现在距离萨尔瓦多国会通过比特币法案已经有一年的时间，期间该国曾提出建设比特币城、利用火山地热能源挖比特币、发行10亿美元比特币债券等一系列计划。这一年，萨尔瓦多针对比特币的一系列计划的实际情况如何？比特币对这个国家又产生了哪些影响？
-自上而下的政策
-这场国家级的虚拟货币实验，是在2021年6月拉开序幕的。彼时，萨尔瓦多国会以62票赞成、22票反对的结果通过“使比特币成为该国法定货币”的法案。年仅39岁的萨尔瓦多总统向国会指出：“这项法律的目的是将比特币规定为不受限制的法定货币，赋予比特币在任何交易中的自由权力和不受限制的控制权，并使任何所有权归公共或私人、自然人或法人所有。”同年9月7日，萨尔瓦多总统签署该法案，比特币正式与美元一样，成为该国的法定货币。这也是比特币第一次成为一个国家的法定货币。
-宣布推行这一政策的总统Nayib Bukele与他推行的比特币一样，都属于这个世界的年轻力量。Nayib Bukele于2019年6月1日宣誓就职，任期5年。他是目前拉丁美洲最年轻的国家元首，此前他只担任过新库斯卡特兰（2012年）和圣萨尔瓦多（2015年）的市长。他的政党，民族团结大联盟，也主要由年轻人组成。
-而萨尔瓦多会成为第一个将比特币合法化的国家，亦与其特殊国情有关。该国地处中美洲，国民长期以来依赖侨汇，经济体系出现了“美元化”的现象。而从2001年1月1日起萨尔瓦多央行就已不再发行科朗（原萨尔瓦多本国货币）。这实际上意味着萨尔瓦多官方已默认美元作为法定货币的地位。至此萨尔瓦多不再有自己独立的货币体系。从那时…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179726"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT数据日报 | Art Blocks在过去24小时内最受巨鲸欢迎（6.23）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179726">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO.io 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度、子领域市占比，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，以及各主要元宇宙平台上 NFT 的最新成交价格等数据。
-宏观市场指标
-截至 6 月 23 日 15 时，NFT 整体市值 224.37 亿美元，较 24 小时前增长 0.33%；过去 24 小时内总交易量约 4134 万美元，日环比下降 0.01%。
-
-按过去 24 小时成交量，排前三的子领域分别为 PFP（1446 万美元）、Collectibles（1398 万美元）和 Game（1277 万美元）。
-
-项目排名
-按过去 24 小时成交量，排名前五的项目分别为 More Loot（1239 万美元）、Meebits（1197 万美元）、Bored Ape Yacht Club（177 万美元）、Doodles（159 万美元）和 CryptoPunks（140 万美元） 。
-
-按过去 24 小时流动性指标（注：流动性&#x3D;交易量 / NFT 总供应量），排名前五的项目分别为 Partyland.io（35.64%）、LonelyPop（34.43%）、Lil Chimps - Official（26.08%）、Gossamer Seed（23.85%）和 MetaSamurai - OFFICIAL（11.85%）。
-
-特色数据
-过去 24 小时，巨鲸购买的“平价 NFT”中排前五的分别是：Lord Society2508、Talking Blocks #340、Jungle Bay Ape #4541、Sad Girl #158 和 First NFT #576。
-
-最受巨鲸欢迎项目排前五的分别是：Art Blo…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179725"
-                        open
-                      >
-                        <summary class="article-expander__title">dYdX为何选择「逃离」以太坊，拥抱Cosmos？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179725">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：fyj、0x711，BlockBeats
-6 月 23 日，dYdX 宣布将转移至 Cosmos 生态，将基于 Cosmos SDK 开发定制应用链，并在即将到来的 dYdX V4 版本中实现迁移。这可能是第一次出现，一个业内知名的以太坊原生 DeFi 应用选择逃离。
-创始人 Antonio 的一席话意味深长：「当选择一条链的时候，我认为人们不应该思考这条链上有怎样的用户，反而应思考该链能实现怎样的产品体验。」
-应用层苦以太坊久矣，早在去年 11 月，dYdX 创始人 Antonio 便曾在推特上公开质疑以太坊的提升效率，言谈中已经显露出其正在考虑将 dYdX 转移到其他链。
-
-Antonio 认为，多年间，以太坊在技术落地上缺少作为，而 dYdX 的目标是成为「十倍于当前规模、并能在体验上与中心化交易平台一较高下」的 DEX。
-
-一直以来，Antonio 在行业中以产品经理的面貌示人，dYdX 作为最早期的 DeFi 项目之一，长期致力于开发移动端应用，并力图让去中心化应用（Dapp）走进大众市场。迁移公告中，dYdX 提到，团队不满意于目前 10 笔/秒 的交易速度和 1000 次/秒的下单/取消性能，而扩容需要构建中心化的链下订单撮合系统，这与 dYdX 去中心化交易的定位不匹配。因此，在 V4 中 dYdX 将构建去中心化的链下订单系统，兼顾性能与理念。
-但仅仅是因为以太坊生态真的不能满足 dYdX 的需求吗？社区认为 Antonio 决策背后的原因也许更加复杂而多面。
-加密 KOL polynya 表示，从技术上讲，dYdX V4 的所需的链性能，Rollups 都可以实现。因此其做出此决策或许是出于链主权和时机的考虑。首先，rollup 技术为时已晚，无法为黄金时段做好准备；其次，行业没有足够的需求来要求 rollup。另外，使用 dYdX 作为生态 …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179724"
-                        open
-                      >
-                        <summary class="article-expander__title">Shopify推出NFT门控商店，押注未来电商新趋势</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179724">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Decrypt，原文作者：Kate Irwin
-Odaily 星球日报译者 | 念银思唐
-
-可以说，Shopify 正将 NFT 视为电子商务的未来。
-Shopify 周三宣布，这家允许小型企业创建定制电子商务商店的在线购物巨头，将推出 NFT 门控商店，这是一项面向那些寻求让自家商店更独家的品牌的新功能。
-在 Shopify 发布的公告视频中，一位旁白介绍道：“邀请你的社区进入一个认可并奖励忠诚度的世界。”视频中，一个玩滑板的女人穿过一个颜色淡雅的入口之后，变成了一个 Doodles NFT。
-
-“代币持有者连接加密钱包来解锁独家购物体验，从早期访问 NFT 发行和限量版收藏品，到独一无二的体验和其他惊喜。”视频解释道。
-Shopify 的“gm”商店（门控商品，是 Crypto Twitter 上“good morning”的首字母缩写）目前处于测试阶段，只有那些持有现有 NFT 系列的用户才有资格申请提前访问。
-不过，那些尚未获得批准的用户仍可以在 Shopthru 或 Single 等 NFT 门控应用程序中添加 Shopify 商店。
-Shopify 透露，它已经与 Adam Bomb Squad、Doodles、World of Women、Invisible Friends、Superplastic、Stapleverse 和 Cool Cats NFT系列合作，以创建代币门控商店。
-值得一提的是，Shopify 在今年 3 月曾先后将其推特头像更换为 Doodles NFT 作品和 Space Doodles 作品。
-而在去年 12 月，Shopify 首席执行官 Tobi Lütke 曾在推特上展示其 ENS 域名，还将自己的推特头像换成 CryptoPunks NFT 作品。
-除了在线代币门控，Shopify 还在实体店增加了“IRL”代币门控…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179723"
-                        open
-                      >
-                        <summary class="article-expander__title">浅析Maple与TrueFi的借贷数据：Alamenda与Amber借出最多</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179723">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：吴卓铖
-原文编辑：Colin Wu
-风险提示：本文不涉及任何交易行为的指引与引导，请读者严格遵守所在地法律法规
-Maple Finance 是一个建立在以太坊和 Solana 上的借贷协议，为机构提供无抵押信贷。近日，官方发文表示，从 6 月 20 日开始的一周起，可能会出现资金池中资金不足的情况，贷方须等待借款人还款。
-相关最早的研究来自于推特账户@plzcallmedj，本文受到它的启发。
-目前 Maple 已发放贷款共 6.92 亿美元，最大借款人 Alameda Research 已借出 1.16 亿美元。不过，Alameda Research 同时也是 Maple 的存款人，共存入 8917 万美元，因此净借出头寸为 2637 万美元。
-排名第二的是 Amber Group，共借出 8980 万美元，利息为 3.75% 至 7.6% 不等，到期日为 7 月 19 日至 12 月 10 日。
-排名第三的是 Nibbio，共借出 7950 万美元，利息为 7.1% 至 9.75% 不等，到期日为 8 月 11 日至 10 月 29 日。
-其余排名如下：
-
-所有未结清的贷款中，最早的还款日期为 6 月 28 日，最晚为 12 月 10 日。
-
-另外，Maple Finance 目前可供贷款的现金还剩 1.5 亿美元，除去 Alameda Research 池子（仅供自己借款）仅剩 6975 亿美元。
-同样面临存款枯竭的机构借贷平台还有 TrueFi，该平台的借款人必须是资金 1000 万美元以上的白名单机构。
-目前 TrueFi 已发放贷款共 3.94 亿美元，最大借款人为 Alameda Research，已借出 1.37 亿美元，利息为 7.05% 至 7.15%，到期日为 8 月初。
-排名第二的是 Wintermute Trading，共借出 9205 …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179714"
-                        open
-                      >
-                        <summary class="article-expander__title">那些离开大厂去往Web3的BUIDL</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179714">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：念青
-原文编辑：Demian
-随着布道者、探索者与实验产品越来越多，Web3正从一个模糊的概念变得具体。
-一方面，Web3的基础设施与市场教育等愈发完善，加之颇具吸引力的财富效应，StepN、无聊猿等Web3产品一时吸引了大量用户兴趣与注意力；另一方面，近百亿美元风投资金涌入Web3领域，Facebook、谷歌等巨头公司也相继，美国、英国、法国、日本等发达国家也相继表态大力发展Web3产业。
-很快，在「居然有人愿意花这么多钱买没什么价值的小图片」「又多了庞氏骗局的玩法」的质疑声中，资本和新创业者涌入NFT、元宇宙、GameFi热潮，「All in Web3」口号也随即喊了起来。
-卷了多年的传统互联网人也开始蠢蠢欲动，在社交媒体即刻的「Web3研究所」话题下，也经常会看到自称驴厂（阿里巴巴）、鹅厂（腾讯）等头部互联网公司的员工，在观望、学习和试探。他们纷纷表示，最近在研究Web3，并考虑进入这个领域，因为抓住Web3就是抓住「互联网的下一个时代」。
-不过，随着近期Luna/UST崩盘、加密资产总市值跌至两年来新低，市场回归冷静，「All in Web 3」的口号声势渐弱。
-人们自然地随着牛熊周期来来去去。但正如这几日，那些还坚守在圈子的人纷纷表态的那样，现在是真正的BUIDL（加密圈黑话，指长期建设者）开始做事的时候。
-一、「至少不要错过」
-李小蛙是 NFT 订阅付费平台 Slash创始人。他是在去年NFT热潮中了解到Web3的概念。但真正让他决定接触这个领域，源于一次和与客户的谈话。那天，作为网红的客户主动提起了愿意尝试NFT。此前李小蛙在阿里巴巴、美团等互联网公司做了十多年产品，都是先于客户发现需求，而这一次却是被动了解到了客户需求。
-这件小事刺激到了李小蛙，他开始研究NFT。在他看来，相比Crypto Native（指17、18年那一大批入行的人）来说，现在入…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179715"
-                        open
-                      >
-                        <summary class="article-expander__title">Multicoin合伙人：NFT交易市场的下一站是社区主导</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179715">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Kyle Samani，Multicoin Capital 合伙人
-原文编译：Amber
-为什么 OpenSea 和 Magic Eden 的用户体验大体上是一样的？无论是首页上的功能还是搜索结果的呈现方式，都非常详细。亦或者说，为什么 OpenSea 或 Magic Eden 的首页没有活动信息，没有直播入口，也没有与 NFT 息息相关的游戏类的广告或者信息呢？
-答案是，历史发展的路径决定了这一切。
-OpenSea 成立于 2018 年，当时市面上只有少数几个 NFT 集合，比如 CryptoPunks。CryptoPunks 是一个由 10000 个像素化的 NFT 组成的集合，具有一些简单和可筛选的属性。Bored Ape Yacht Club (BAYC) 就受到了 CryptoPunks 的很大启发：共计 10000 张由算法生成的图像，具有简单和可筛选搜索的属性。这两个集合，就实际呈现形式而言，是高度相似的。而随后涌现出的大多数 PFP 作品集，比如 Pudgy Penguins、Moonbirds、DeGods、Solana MonkeyBusiness (SMB)、Azukis 等等，都使用了同样的结构模型。除了艺术表现形式本身，在收藏品层面上的设计方面，这些都一度引爆了市场的 NFT 作品集实际上没有任何实质上的差异。
-很明显，社区正在影响并决定着市场的技术规范，但实际上这种运作方式并不健康。（真正好的组织形式）应该是市场从各个社区中汲取长处并向着更高效的方向发展。考虑到在线社区可以利用和配置诸如 DeFi、NFTs、DAO、社交代币等众多创新元素，这里的可设计空间实际上非常广阔。
-有一种相当普遍的观点认为，NFT 市场平台将进一步垂直化。诚然这有一定的道理，因为让一个域名交易所（如.eth 或.sol）与一个 PFP 交易所（如 BAYC 或 …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179713"
-                        open
-                      >
-                        <summary class="article-expander__title">Vitalik Buterin：如何使用zk-SNARKs技术保护隐私？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179713">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Vitalik Buterin
-原文标题：《Some ways to use ZK-SNARKs for privacy》
-原文编译：去中心化金融社区
-ZK-SNARK 是一种强大的加密工具，它在区块链和区块链以外构建的应用程序中变成日益重要的一部分。但它们是复杂的，无论是从它们的工作原理，还是从我们如何使用它的角度来看，都是复杂的。
-这篇文章将关注 ZK-SNARK 如何适应现有的应用程序，有哪些例子说明它们能做什么，不能做什么，以及有哪些通用的指导方针来判断 ZK-SNARK 是否适合某些特定的应用程序。
-这篇文章特别关注 ZK-SNARK 在保护隐私中的应用。
-ZK-SNARK 是做什么的？
-假设有一个公共输入 x，一个私有输入 w，和一个 (公共) 函数 f (x,w)→{True,False}，其会对输入执行某种验证。使用 ZK-SNARK，就可以证明你知道一个 w，对于某些给定的 f 和 x，f (x,w)&#x3D;True，在此过程中不用透露 w 到底是什么。另外，验证者可以更快地验证证明，这比他们自己计算 f (x,w) 要快得多，就算他们知道 w。
-
-这赋予了 ZK-SNARK 两个属性：隐私性和可扩展性。如上所述，在这篇文章中，我们的例子将聚焦于隐私。
-成员资格的证明
-假设你有一个以太坊钱包，你想要证明这个钱包是人性证明（proof-of-humanity）注册，同时不透露注册的到底是哪个人。我们可以用数学方法描述这个函数：
-
-私有输入 (w)：你的地址 A，你的地址私钥 k
-
-公共输入 (x)：所有经过验证的人性证明配置文件 {H1…Hn} 的地址集合
-
-验证函数 f (x,w)
-
-将 w 解释为一对 (A，σ)， x 为有效配置文件列表 {H1…Hn}
-
-验证 A 是 {H1…Hn} 中的一个地址
-
-验证 privtoaddr (k) &#x3D; A
-
-如…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179712"
-                        open
-                      >
-                        <summary class="article-expander__title">Messari：如何看待以太坊「以 Rollup 为中心」的未来？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179712">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《Ethereum&#x27;s Rollup-Centric Future》
-原文作者：Ally Zach
-原文编译：Unitimes
-关键要点
-
-为了缓解当前的可扩展性问题，以太坊正在转向一个「以 Rollup 为中心的路线图」，将最佳的链上和链下扩容方案结合起来。
-
-以太坊的链上扩容方案 danksharding 为 Optimistic Rollups 和 ZK-Rollups 等 L2 (第二层) 扩容方案的蓬勃发展提供了充足的数据空间。
-
-Optimistic Rollups 和 ZK-Rollups 都有其缺点：大多数 Optimistic Rollups 都存在层与层之间漫长的取款等待期；而 ZK-Rollups 往往要进行大量的计算，无法提供无缝的可组合性。
-
-为了使得以 Rollup 为中心的未来保持可行性，Rollups 解决方案必须优先考虑降低执行成本、跨层互操作性和用户隐私。
-
-可扩展性是在最小化 (交易) 成本和不牺牲区块链网络的去中心化和安全性的同时增加网络的速度和吞吐量的方法。以太坊目前无法扩展。在过去的两年里，随着用户数量的增加，以太坊的交易成本飙升，使得日常投资者几乎无法承担使用该网络的成本。
-以太坊进行扩容有两个核心选择：链上扩容和链下扩容。与「The Merge」(合并) 相结合，以太坊团队正在引入一种名为「danksharding」的新分片设计，从而引入链上扩容解决方案。这些变化预计将在未来几个月的某个时候发生。
-链下扩容来自于位于现有区块链之上的替代协议，不需要更改当前的以太坊 L1 协议。L2 扩容方案通过在链下处理所有交易验证，同时从以太坊主网获得安全性。当前最知名的 L2 扩容方案是 Rollups。
-在为「合并」做准备的同时，以太坊正在转向「以 Rollup 为中心的路线图」。它计划结合最好的链上和链下扩容方案。
-01. …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179702"
-                        open
-                      >
-                        <summary class="article-expander__title">Chain Hill Research：P2E时代终结后，区块链游戏将迎来怎样的革命？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179702">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Zhensen-Chain Hill Capital、Arthur-Chain Hill Capital
-本文系Chain Hill capital首发，未经授权禁止转载。如需授权转载，请联系：info@chainhill.com
-研究概要
-随着大批的风险资本涌入区块链游戏赛道及大量的创业者投身于创造区块链游戏，我们在庆幸行业受到广泛关注的同时也看到越来越多的乱象。但每一次行业变革的前期一定伴随着大量的泡沫，而在这泡沫中能够真正抓住行业变革核心的创始人才有机会创造真正的价值。
-那区块链游戏的核心创新是什么？我们认为有三个核心要素促成了区块链游戏带来的行业革命，第一是游戏资产通过区块链NFT/FT标准上链确立了游戏资产的所有权归属于玩家，第二是随着游戏的资产所有权归属于玩家，这实际上倒逼了游戏开发商将部分利益分配给参与游戏的玩家，这也将打破游戏开放商在传统游戏中对收益权的垄断，第三点是区块链的去中心化精神带来的社区自治文化将鼓励游戏开放商通过DAO的形式赋予游戏社区贡献者游戏的治理权，而这也将加强游戏开发商与玩家的互动从而推动更良性的游戏发展。
-但十分可惜的是在GameFi 的时代发展浪潮中，目前的热门链游更加强调“Play to earn”，大部分项目可玩性弱于传统游戏，却有着更高的付费进入门槛，采用的是典型的庞氏经济设计。我们认为，现阶段的链游并没有吸引到真正的玩家用户，而是通过不可持续的庞氏经济吸引来了大批的短期投机者。链游内部的游戏资产没有实际的游戏性支撑，因此当新进场玩家减少时，游戏经济体就会缺乏净流入资金，而严重超发的游戏资产的价格就会快速地下跌进而造成玩家进一步出售游戏资产，从而形成死亡螺旋。
-要设计出可持续的区块链游戏则该游戏必须是一个玩家愿意持续为之付费的游戏，因此我们鼓励创业者仍需将重点放在提高游戏的可玩性上。这才是区块链游戏行业现阶段真正需要思…</span>
                             </span>
                           </div>
                         </a>
@@ -10962,66 +10996,6 @@ Noah Davis 曾于 2021 年 3 月负责将数字艺术家 Beeple 的「Everydays:
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/b7ncg2f3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：持有10枚ETH以上的地址数量创历史新高</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/b7ncg2f3.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月19日消息，Glassnode数据显示，持有10枚ETH以上的地址数量达到299159个，创历史新高。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/hgm0wgb0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">鉴于当前市场状况，瑞士SIX交易所将无限期推迟加密部门SDX的推出</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/hgm0wgb0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月19日消息，据华尔街日报报道，由于当前的市场状况，瑞士SIX交易所将无限期推迟推出其加密服务部门SIX Digital Exchange (SDX)。 去年9月，瑞士国家监管机构批准该交易所推出加密货币相关服务。SDX计划为银行、对冲基金和其他持牌金融公司提供托管和质押服务。SIX交易所是瑞士的主要证券交易所，也是欧洲同类交易所中的第三大证券交易所。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/hh5y65hm.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Coinbase因推广TerraUSD而面临集体诉讼</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/hh5y65hm.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月19日消息，据The Block报道，Coinbase因推广TerraUSD在加州北部地区法院面临一项集体诉讼。诉讼称，Coinbase未能披露TerraUSD的内在风险，并误导了原告，让他们误以为购买的是一种“储备支持的稳定币”。由于TerraUSD贬值，今年5月，投资者在短短几天内损失了大约180亿美元。诉讼中还声称，该公司的投资部门Coinbase Ventures是Terraform Labs的最大支持者之一，这是Coinbase不披露UST波动性的另一大动机。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11411,8 +11385,8 @@ Crypto.com 对这一新部门的重视，正值 Crypto.com 和其它交易所�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2548674263">
-        <time id="build-timestamp" datetime="2022-06-23T11:07:01.453Z">2022-06-23T11:07:01.453Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2549047293">
+        <time id="build-timestamp" datetime="2022-06-23T12:16:21.492Z">2022-06-23T12:16:21.492Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

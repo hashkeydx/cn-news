@@ -2744,36 +2744,6 @@
           "wordCount": 788,
           "title": "Coinbase首席政策官：未来可能会进一步裁员",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/b7ncg2f3.html",
-          "author": "PA一线",
-          "description": "PANews 6月19日消息，Glassnode数据显示，持有10枚ETH以上的地址数量达到299159个，创历史新高。",
-          "link": "https://panewslab.com/zh/articledetails/b7ncg2f3.html",
-          "publishedOn": "2022-06-19T00:16:13.000Z",
-          "wordCount": 774,
-          "title": "数据：持有10枚ETH以上的地址数量创历史新高",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/hgm0wgb0.html",
-          "author": "PA一线",
-          "description": "PANews 6月19日消息，据华尔街日报报道，由于当前的市场状况，瑞士SIX交易所将无限期推迟推出其加密服务部门SIX Digital Exchange (SDX)。 去年9月，瑞士国家监管机构批准该交易所推出加密货币相关服务。SDX计划为银行、对冲基金和其他持牌金融公司提供托管和质押服务。SIX交易所是瑞士的主要证券交易所，也是欧洲同类交易所中的第三大证券交易所。",
-          "link": "https://panewslab.com/zh/articledetails/hgm0wgb0.html",
-          "publishedOn": "2022-06-19T00:13:46.000Z",
-          "wordCount": 781,
-          "title": "鉴于当前市场状况，瑞士SIX交易所将无限期推迟加密部门SDX的推出",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/hh5y65hm.html",
-          "author": "PA一线",
-          "description": "PANews 6月19日消息，据The Block报道，Coinbase因推广TerraUSD在加州北部地区法院面临一项集体诉讼。诉讼称，Coinbase未能披露TerraUSD的内在风险，并误导了原告，让他们误以为购买的是一种“储备支持的稳定币”。由于TerraUSD贬值，今年5月，投资者在短短几天内损失了大约180亿美元。诉讼中还声称，该公司的投资部门Coinbase Ventures是Terraform Labs的最大支持者之一，这是Coinbase不披露UST波动性的另一大动机。",
-          "link": "https://panewslab.com/zh/articledetails/hh5y65hm.html",
-          "publishedOn": "2022-06-19T00:05:50.000Z",
-          "wordCount": 781,
-          "title": "Coinbase因推广TerraUSD而面临集体诉讼",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -4429,6 +4399,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.0daily.com",
       "articles": [
+        {
+          "id": "https://www.0daily.com/post/5179732",
+          "author": "Foresight News",
+          "description": "原文作者：0xPhillan、Fundamental labs\n原文翻译：Tia\n如果我们想在去中心化互联网更进一步，最终将需要这三大支柱：共识、存储以及计算。如果人类成功将这三个领域去中心化，我们将踏向互联网的下一阶段征程： Web3。\n\n图 1：每个 Web3 支柱的项目示例\n存储，作为第二大支柱，正迅速成熟，各种存储解决方案已经应用到使用场景中。本文，将进一步探讨去中心化存储这一支柱。\n此篇文章是完整篇幅的一个总结，完整篇幅可从去中心化存储 Arweave 和 Crust Network 下载。\n去中心化存储的需求\n区块链的视角\n从区块链的视角来看，我们需要去中心化存储是因为区块链本身并不是被设计用来存储大体量数据的。获得区块共识的机制依赖小数量的数据（交易），这些数据被放置于在区块中（收集交易），并迅速分享至网络供节点验证。\n首先，在区块中存储数据非常昂贵。在撰文时，在 layer1 上存储一个完整的 BAYC #3368 需要花费超过 18000 美元。\n\n图 2：具有活跃主网的项目。选择 200 年的存储期限来符合 Arweave 对永久性的定义。来源：网络文档、Arweave 存储计算器\n其次，如果我们想要在这些区块中存储大量套利数据，网络拥堵将会变得严重，这会在使用网络时引起 gas 战从而导致价格上涨。这就是区块的隐含时间价值的后果，如果用户需要在某一特定时间向网络提交交易，他们会需要付额外的 gas 费来使得他们的交易被优先处理。\n因此，建议将 NFT 的元数据以及图像数据、dApp 的前端进行链下存储。\n中心化网络的视角\n如果链上存储数据如此昂贵，为什么不直接在中心化网络链下存储数据呢？\n中心化网络容易受到审查并且具有可变性。这要求用户信任数据提供方能维护数据的安全。谁都不能确保中心化网络的运营方真的不会辜负用户对他们的信任：数据可能会因为有意或出于意…",
+          "link": "https://www.0daily.com/post/5179732",
+          "publishedOn": "2022-06-23T10:30:00.000Z",
+          "wordCount": 108,
+          "title": "一文纵览Web3去中心化存储生态图景",
+          "imageUrl": null
+        },
         {
           "id": "https://www.0daily.com/post/5179728",
           "author": "十文",

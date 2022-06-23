@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-06-23T11:07:01.500Z</updated>
+    <updated>2022-06-23T12:16:21.529Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文纵览Web3去中心化存储生态图景]]></title>
+        <id>https://www.0daily.com/post/5179732</id>
+        <link href="https://www.0daily.com/post/5179732"/>
+        <updated>2022-06-23T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：0xPhillan、Fundamental labs
+原文翻译：Tia
+如果我们想在去中心化互联网更进一步，最终将需要这三大支柱：共识、存储以及计算。如果人类成功将这三个领域去中心化，我们将踏向互联网的下一阶段征程： Web3。
+
+图 1：每个 Web3 支柱的项目示例
+存储，作为第二大支柱，正迅速成熟，各种存储解决方案已经应用到使用场景中。本文，将进一步探讨去中心化存储这一支柱。
+此篇文章是完整篇幅的一个总结，完整篇幅可从去中心化存储 Arweave 和 Crust Network 下载。
+去中心化存储的需求
+区块链的视角
+从区块链的视角来看，我们需要去中心化存储是因为区块链本身并不是被设计用来存储大体量数据的。获得区块共识的机制依赖小数量的数据（交易），这些数据被放置于在区块中（收集交易），并迅速分享至网络供节点验证。
+首先，在区块中存储数据非常昂贵。在撰文时，在 layer1 上存储一个完整的 BAYC #3368 需要花费超过 18000 美元。
+
+图 2：具有活跃主网的项目。选择 200 年的存储期限来符合 Arweave 对永久性的定义。来源：网络文档、Arweave 存储计算器
+其次，如果我们想要在这些区块中存储大量套利数据，网络拥堵将会变得严重，这会在使用网络时引起 gas 战从而导致价格上涨。这就是区块的隐含时间价值的后果，如果用户需要在某一特定时间向网络提交交易，他们会需要付额外的 gas 费来使得他们的交易被优先处理。
+因此，建议将 NFT 的元数据以及图像数据、dApp 的前端进行链下存储。
+中心化网络的视角
+如果链上存储数据如此昂贵，为什么不直接在中心化网络链下存储数据呢？
+中心化网络容易受到审查并且具有可变性。这要求用户信任数据提供方能维护数据的安全。谁都不能确保中心化网络的运营方真的不会辜负用户对他们的信任：数据可能会因为有意或出于意…]]></summary>
+        <author>
+            <name>Foresight News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PeckShield：疑似Celsius地址已撤出其Bancor上2000ETH流动性]]></title>
         <id>https://panewslab.com/zh/articledetails/wck83q95.html</id>
@@ -6689,36 +6716,6 @@ Outland 于 2022 年 2 月上线，是首个由艺术机构、策展人、评论
         <link href="https://panewslab.com/zh/articledetails/r70ud024.html"/>
         <updated>2022-06-19T00:27:25.000Z</updated>
         <summary type="html"><![CDATA[PANews 6月19日消息，据BeInCrypto报道，Coinbase首席政策官Faryar Shirzad在英国《金融时报》于阿姆斯特丹举行的“The Next Web”会议上透露，未来某个时候，Coinbase可能会进一步裁员，但目前还没有这种预期，并称这是“负责任地运营公司”的长期计划的一部分。据此前消息，Coinbase首席执行官Brian Armstrong在公开信中提到计划裁员约18%，以确保Coinbase在经济衰退期间保持健康。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：持有10枚ETH以上的地址数量创历史新高]]></title>
-        <id>https://panewslab.com/zh/articledetails/b7ncg2f3.html</id>
-        <link href="https://panewslab.com/zh/articledetails/b7ncg2f3.html"/>
-        <updated>2022-06-19T00:16:13.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月19日消息，Glassnode数据显示，持有10枚ETH以上的地址数量达到299159个，创历史新高。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[鉴于当前市场状况，瑞士SIX交易所将无限期推迟加密部门SDX的推出]]></title>
-        <id>https://panewslab.com/zh/articledetails/hgm0wgb0.html</id>
-        <link href="https://panewslab.com/zh/articledetails/hgm0wgb0.html"/>
-        <updated>2022-06-19T00:13:46.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月19日消息，据华尔街日报报道，由于当前的市场状况，瑞士SIX交易所将无限期推迟推出其加密服务部门SIX Digital Exchange (SDX)。 去年9月，瑞士国家监管机构批准该交易所推出加密货币相关服务。SDX计划为银行、对冲基金和其他持牌金融公司提供托管和质押服务。SIX交易所是瑞士的主要证券交易所，也是欧洲同类交易所中的第三大证券交易所。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase因推广TerraUSD而面临集体诉讼]]></title>
-        <id>https://panewslab.com/zh/articledetails/hh5y65hm.html</id>
-        <link href="https://panewslab.com/zh/articledetails/hh5y65hm.html"/>
-        <updated>2022-06-19T00:05:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月19日消息，据The Block报道，Coinbase因推广TerraUSD在加州北部地区法院面临一项集体诉讼。诉讼称，Coinbase未能披露TerraUSD的内在风险，并误导了原告，让他们误以为购买的是一种“储备支持的稳定币”。由于TerraUSD贬值，今年5月，投资者在短短几天内损失了大约180亿美元。诉讼中还声称，该公司的投资部门Coinbase Ventures是Terraform Labs的最大支持者之一，这是Coinbase不披露UST波动性的另一大动机。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
