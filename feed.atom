@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-06-23T18:10:25.849Z</updated>
+    <updated>2022-06-23T19:06:45.338Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[数字玩具NFT平台Cryptoys完成2300万美元A轮融资，a16z领投]]></title>
+        <id>https://www.theblockbeats.info/flash/89091</id>
+        <link href="https://www.theblockbeats.info/flash/89091"/>
+        <updated>2022-06-23T17:04:35.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，6 月 24 日，据 TechCrunch 报道，数字玩具 NFT 平台 Cryptoys 完成 2300 万美元 A 轮融资，本轮融资由 a16z 领投，Mattel、Dapper Labs、Draper & Associates、Acrew Capital、CoinFund、Animoca Brands 和 Sound Ventures 等参投。
+
+此前报道，2021 年 10 月 25 日，Cryptoys 母公司 OnChain Studios 完成 750 万美元种子轮融资，a16z 领投。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[鲍威尔：美联储 FedNow 支付系统将在2023年投入使用]]></title>
         <id>https://panewslab.com/zh/articledetails/06wj8djb.html</id>
@@ -6803,62 +6815,6 @@ AEX加密交易所关于股东徽章NFT计划公告原文]]></summary>
         <summary type="html"><![CDATA[PANews 6月19日消息，针对此前去中心化借贷平台Clearpool在6月9日推出三箭资本旗下OTC平台TPS Capital的借款人池，并称彼时TPS Capital的借款人评级为“A”，总借款能力为1730万美元。Clearpool官方今日回应称，平台的数据合作伙伴X-Margin在上周末时已经将TPS评级降为“B”，且借款能力降为0美元，并且双方已经合作确保 TPS 偿还未偿还的贷款，确保出借方没有受到损失。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AEX安银将每日提币限额上调至600美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/1dygisxx.html</id>
-        <link href="https://panewslab.com/zh/articledetails/1dygisxx.html"/>
-        <updated>2022-06-19T07:05:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月19日消息，AEX安银公告称，预计将于6月19日22:00(UTC+8)起将个人账户的24小时内提币限额上调至600U，并将继续观测平台流动性健康指数。在确保平台安全的前提下，将每天根据数据来决定是否上调提币限额。
-此前，AEX一度暂停提币，公告称因中长期配置资产短期无法赎回所致。随后在6月17日恢复提币，但每天限额500 USDT。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[慢雾：简析MetaMask钱包demonic漏洞]]></title>
-        <id>https://www.0daily.com/post/5179610</id>
-        <link href="https://www.0daily.com/post/5179610"/>
-        <updated>2022-06-19T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Thinking@慢雾安全团队
-2022 年 6 月 16 日，MetaMask（MM）官方公布白帽子发现的一个被称为 demonic vulnerability（恶魔漏洞）的安全问题，漏洞影响的版本 < 10.11.3，由于 MM 的用户体量较大，且基于 MM 进行开发的钱包也比较多，所以这个漏洞的影响面挺大的，因此 MM 也慷慨支付了白帽子 5 万刀的赏金。当团队向我同步了这个漏洞后，我开始着手对这个漏洞进行分析和复现。
-漏洞分析
-白帽子将这个漏洞命名为 demonic vulnerability，具体的漏洞描述比较复杂，为了让大家更好的理解这个问题，我尽可能用简单的表述来说明这个问题。在使用 MM 浏览器扩展钱包导入助记词时，如果点击 "Show Secret Recovery Phrase" 按钮，浏览器会将输入的完整助记词明文缓存在本地磁盘，这是利用了浏览器本身的机制，即浏览器会将 Tabs 的页面中的 Text 文本从内存保存到本地，以便在使用浏览器的时候可以及时保存页面的状态，用于下次打开页面的时候恢复到之前的页面状态。
-基于对这个漏洞的理解，我开始进行漏洞复现，由于 MM 仅对这个漏洞进行简要的描述并不公开漏洞细节，所以在复现的时候遇到了如下的问题：
-
-缓存被记录到磁盘中的文件路径未知
-
-缓存何时被记录到磁盘未知
-
-为了解决问题 1，我开始对浏览器的缓存目录结构进行分析和测试，发现在使用浏览器 (chrome) 的时候相关的 Tabs 缓存是记录到了如下的目录：
-Tabs 缓存路径：
-/Users/$(whoami)/Library/Application Support/Google/Chrome/Default/Sessions/
-
-然后继续解决问题 2：Sessions 目录会记录 Tabs 的缓存，为了找出缓存被记录的时间节点，我对导入助记词的整个流程进行了分解，然后在每一步操作之后去观察 Sessions 的数据变化。发现在如下这个页面输入助记词数据后，需要等待 10 - 20s，然后关闭浏览器，明文的助记词信息就会被记录到 Sessions 缓存数据中。
-
-分析结论
-用户正常在使用 MM 的时候是将助记词相关的数据放入内存中进行存储，一般认为是相对较为安全的（在早前慢雾的 Hacking Time 中，我发现在用户正常使用 MM 的时候是可以通过 hook 技术将明文的助记词提取出来，仅限于用户电脑被恶意程序控制的情况下可以被利用），但是由于 demonic vulnerability 这个漏洞导致助记词会被缓存到本地磁盘，因此就会有如下的新的利用场景：
-
-明文的助记词数据缓存在本地磁盘，可以被其他应用读取，在 PC 电脑中很难保证其他应用程序不去读取 Sessions 缓存文件。
-
-明文的助记词数据缓存在本地磁盘，如果磁盘未被加密，可以通过物理接触恢复助记词。比如在类似维修电脑等场景下，当他人对电脑进行物理接触时可以从硬盘中读取助记词数据。
-
-作为普通用户，如果你使用过 MetaMask Version < 10.11.3，且在导入助记词的时候点击了 Show Secret Recovery Phrase，那么你的助记词有可能泄露了，可以参考 MetaMask 的文章对磁盘进行加密并更换钱包迁移数字资产。
-作为扩展钱包项目方，如果采用了在 Tabs 页面中以 Text 的方式输入助记词导入钱包，均受到 demonic vulnerability 漏洞的影响，可以参考 MetaMask Version >=10.11.3 的实现，为每个助记词定义单独的输入框，并且输入框的类型为 Password。
-参考链接]]></summary>
-        <author>
-            <name>慢雾科技</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[马斯克：会继续支持狗狗币]]></title>
-        <id>https://www.theblockbeats.info/flash/88173</id>
-        <link href="https://www.theblockbeats.info/flash/88173"/>
-        <updated>2022-06-19T06:31:27.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，6 月 19 日，马斯克在社交媒体上发文表示：「我会继续支持狗狗币。」此外，他对网友建议其继续购买狗狗币表示同意。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
 </feed>
