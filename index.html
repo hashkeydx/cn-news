@@ -1392,365 +1392,78 @@ Protagonist网站显示，该基金将投资和建设于定义未来的加密公
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179830"
-                        open
-                      >
-                        <summary class="article-expander__title">Vitalik ：以太坊的账户抽象之路</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179830">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者： Vitalik Buterin
-原文编译：DeFi之道
-账户抽象允许我们使用智能合约逻辑来指定交易的效果，以及费用支付和验证逻辑。这带来了许多重要的安全好处，例如多重签名和智能恢复钱包，能够在不更换钱包的情况下更换密钥以及量子安全性。
-许多帐户抽象的方法已在不同程度上被提出并得到了实施，参见：EIP-86、EIP-2938，以及两年前的这篇文章。今天，由于开发者们希望专注于合并与分片，这些 EIP 的开发陷入了僵局，而 ERC-4337 这种不需要任何共识更改的替代方案已经取得了很大进展。
-ERC-4337 尝试通过额外的协议手段实现和 EIP-2938 相同的事情。用户需要发送称为用户操作（user operations）的链外消息，这些消息由区块提议者（proposer）或为区块提议者生成 bundles 的构建者（builder）批量收集并打包成单笔交易。提议者或构建者负责过滤操作以确保他们只接受支付费用的操作。用户操作有一个单独的 mempool 存储池，连接到这个存储池的节点会进行 ERC-4337 特定的验证，以确保用户操作在转发之前能够支付费用。
-
-
-
-
-
-ERC-4337 作为一个纯自愿的 ERC 可以做很多事情。然而，在一些关键领域，它比真正的协议内解决方案更弱：
-
-现有用户如果不将其所有资产和活动移动到新帐户，则无法升级；
-
-额外的 gas 开销（基本 UserOperation 用户操作约 42 k，而基本交易约为 21 k）；
-
-较少受益于协议内抗审查技术（例如 crLists），它以交易为目标并会错过用户操作（user operation）
-
-而实现最佳效果的一条现实途径，是在短期内开始大力支持 ERC-4337，然后随着时间的推移添加 EIP 来弥补其弱点。这并不一定需要大家专门承诺遵守 ERC-4337。相反，可以将协议内支持设计为…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179831"
-                        open
-                      >
-                        <summary class="article-expander__title">香港能否借助Web3实现弯道超车，迎来下一个「八达通时刻」？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179831">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《Will NFT, metaverse developments in Hong Kong help deliver the city』s next 『Octopus moment』 in a post-pandemic world?》
-原文作者：Bien Perez @《South China Morning Post》
-原文编译：比得潘 @BlockBeats
-【编者按】
-很多人都表示中国香港之于科技产业的二十余年，是不断错过的二十余年。之所以说是「错过」，是因为香港并非没有创新能力。
-1997 年 9 月，香港八达通卡的推出，迅速成为了当地最受欢迎的电子支付系统，也成为了这座城市培育创新科技能力的象征。
-但到了移动互联网时代，香港先大陆一步推出了一款语音 IM 应用 Talkbox，最终却完全被微信所超越；在更近的人工智能时代，著名 AI 独角兽商汤科技原本就由汤晓鸥带领的香港中文大学工程学院团队成立，但后来商汤却选择了扎根上海。不仅如此，香港中文大学、香港科技大学等高校每年也在向企业和学界输送着海量人才。
-香港科技产业的发展迟缓，起初部分人将其归咎于 2000 年左右「硅港计划」的失败。
-1998 年 10 月，当时中国香港特区行政长官董建华在其上任后的第二份施政报告中提出科技兴港，要把香港发展成为国际创新科技中心。但这一项目却迟迟没能推进，一方面是因为政府在批地上话语权很低，另一方面也包括了当时美国限制半导体制造设备向香港的出口等。
-但这些理由显然不足以解释后来的问题，在移动互联网及 AI 崛起的热潮中，有很多企业都是从 2010 年左右才开始发展起来的后来者。而在这些领域的失败，主要还是源于香港的人力成本高、科技领域缺乏资本关注，以及产业链和市场的不完善等因素。
-深圳无人机公司大疆（DJI）创始人汪滔，曾在第三任特首梁振英来考察询问「大疆公司会不会迁…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179824"
-                        open
-                      >
-                        <summary class="article-expander__title">从这轮加密牛市周期得到的六点教训</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179824">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《My Crypto Investing Mistakes and Lessons (&#x27;20-&#x27;22)》
-原文作者：Nat Eliason
-原文编译：DeFi 之道
-好吧，铁子们，看起来快乐的时光已经结束，熊市可能要持续一段时间了。
-回顾从 2020 年到 2022 年这一年半的牛市，整个币圈是疯狂的，很多老铁不说赚的盆满钵满，至少也多少都有所收获。当然，在牛市中也会经历一些非常艰难的时刻，除了账面财富的损失，我认为完全参与加密货币牛市周期的一些精神上的感受也是不能被低估的。
-我在上面提到了完全参与，是因为这是我第一次全身心的投入到加密货币的牛市中。我在 2013 年对加密货币产生过兴趣，主要是通过早期 DOTA2 的灰色市场接触到了比特币。
-在 2017 年，我对加密货币有了更大的兴趣，我曾在那时候发表过几篇关于加密货币的文章，并阅读了当时所有开创性的东西，但实际上仍未真正涉足这一领域。
-而这轮牛市其实是我第一次真正全身心投入的周期，这是怎样的一番体验呢？显然，当前一切仍然按部就班的运作着，团队仍然在建设项目，加密推特仍然还在发着一些垃圾内容，但我们不得不否认，整个币圈的氛围可能和币价一样，已经下跌了 90%
-我们应该在犯错前就去反思自己的投资策略，但这样做并不有趣，不是吗？另外，在损失发生之前，你并不真正知道你做错了什么。人们常犯的一个错误是用现在的经验和高度来评价过去的决定。但是没有人能够知道俄乌冲突会开始，也没有人知道美联储会在什么时候宣布加息，或者提前知晓其他任何可能密谋夺走我们网络财产的事情。
-因此，我花了一些时间来反思我在过去一年半的牛市中做得好的地方，以及我在哪些方面犯了错误。由于人们跟喜欢看别人犯错误，当然这些经验教训也更有用，那接下来就让我们先从我犯的错误开始。也许我会在以后专门写一篇“我做对了什么”的帖子。
-下面是我通过思考，总结到的一些错误…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179827"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT数据日报 | “平价NFT”Moonrunners Official受到巨鲸青睐（6.28）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179827">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，各主要元宇宙平台上 NFT 的最新成交价格，NFT 平台交易和用户情况、蓝筹 NFT 项目表现等数据。
-
-欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
-相关阅读
-多维度分析巨鲸的NFT抄底策略
-加密熊市下蓝筹NFT的表现如何？
-这一届NFT正用“躺平”和“暗黑”对抗熊市
-&quot;,&quot;extraction_tags&quot;:&quot;&quot;,&quot;source_type&quot;:&quot;original&quot;,&quot;source_urls&quot;:&quot;&quot;,&quot;next_post&quot;:{&quot;title&quot;:&quot;FTX Benson：数亿美金避险基金大量做空，USDT会暴雷吗？&quot;,&quot;entity_id&quot;:5179823,&quot;id&quot;:5179823}},&quot;user&quot;:{&quot;type&quot;:&quot;SET_POST_USER&quot;,&quot;id&quot;:2147483985,&quot;avatar&quot;:&quot;https://piccdn.0daily.com/202104/12/885613b73f0773c7df828400b58ccd8a.png!480&quot;,&quot;name&quot;:&quot;不一样的NFT&quot;,&quot;introduction&quot;:&quot;这个作者有点忙，还没写简介&quot;,&quot;title&quot;:&quot;新锐作者&quot;,&quot;total&quot;:&quot;273&quot;},&quot;comments&quot;:[],&quot;counters&quot;:{&quot;view_count&quot;:871,&quot;pv&quot;:821,&quot;pv_mobile&quot;:33,&quot;pv_app&quot;:17,&quot;favorite&quot;:0,&quot;comment&quot;:0,&quot;like&quot;:0},&quot;secondaryTag&quot;:[{&quot;name&quot;:&quot;NFT&quot;,&quot;slug&quot;:&quot;5e09865df1…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179823"
-                        open
-                      >
-                        <summary class="article-expander__title">FTX Benson：数亿美金避险基金大量做空，USDT会暴雷吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179823">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：FTX_Benson
-我们先来看一下USDT的资产储备成分，其实所有的 Stablecoin 发行商资产储备都和货币市场基金成分类似，都是以现金、高质量的短期债券与票据为主。
-时间回到 2008 年，当时最大的货币市场基金 Reserve Primary 的规模达到 630 亿美元，其持有约 7800 万美元的雷曼银行的短期债券（仅占总资产 1.2%）。
-
-正是这微不足道的敞口，导致了市场的恐慌。
-因为雷曼兄弟破产的消息太过突然，Reserve Primary 来不及处理手中雷曼的短期债券，这些债券没人想买卖，也就无法评估其剩余价值。导致他们没办法跟投资人确保，他们的 100 美分与 1 美元等值。
-2008 年 9 月 16 日，Reserve Primary 宣布只剩 97 美分。打破了大众对于货币基金价值永远为 1 美元的认知。
-这导致了现代金融史上，投资人恐慌程度最严重的事件。在接下来的两周内，投资人从货币市场基金撤出高达 1230 亿美元的资金。
-由于 1：1 兑换的承诺，只要资产负债表稍有瑕疵，就会引发挤兑连锁反应，从这点看来，货币市场基金与 Stablecoin 具备高度相似性。
-要了解USDT是不是会暴雷，要先回答两个问题： 
-1.USDT资产储备质量的流动性如何？
-2.USDT有没有可能像 2008 年的货币市场基金一样，出现超大量赎回潮？
-先讲第一个问题，USDT资产储备质量一直以来都在改善，原本有一半是 CP（商业票据），这部分慢慢被 T-Bill（美国短期国债）取代。
-CP vs T-Bill 的比例：
-2Q21： 49%，24% 
-3Q21： 44%，28% 
-4Q21： 31%，44% 
-1Q22： 24%，48%。
-
-2022Q2 的报告还没出来，不过根据 Tether CTO@paoloardoino的讲法，他们在 2022 年 3…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179821"
-                        open
-                      >
-                        <summary class="article-expander__title">Loco推出印度首个NFT电子竞技平台</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179821">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 GamesBeat，原文作者：Dean Takahashi
-Odaily星球日报译者 | 余顺遂
-
-Loco 顺应全球趋势推出 Loco Legends，声称其为印度首个 NFT电子竞技平台。
-
-Loco 表示，公司致力于实现印度游戏娱乐的民主化，并表示其平台将允许用户拥有和交易电子竞技收藏品，帮助提升粉丝圈认同感，并体验成为电竞球探的快感。
-Loco 表示，Legends 将为游戏创作者的去中心化创造条件，Loco 将致力于支持印度的 GameFi 生态系统。世界各地的公司都在使用 NFT 来加强电子竞技团队和粉丝之间的社区和变现能力。
-拥有 5200 万用户的 Loco 带来了每个类别中最大和最活跃的游戏玩家社区。迄今为止，该公司已经融资 5100 多万美元。
-Loco Legends 与印度最受欢迎的电子竞技团队建立独家合作关系，包括 8bit、s0ul、Godlike、Revenant、Blind、XO 等。Loco 表示，这些顶级的印度电子竞技团队是 BGMI、FreeFire Max 和 Valorant 等热门游戏类别的主宰者，并为粉丝提供可靠的 NFT 体验。
-Loco NFT 电竞卡
-Loco 还建立专门的数据系统，为 Legends 提供支持。该系统利用由 Loco 授权的大量比赛产生的数据，Loco 是印度电子竞技锦标赛的最大支持者。
-Loco 还表示，它已经与 Villager esports、Upthrust esports 等主要电子竞技锦标赛组织者签署独家合作伙伴关系，以确保其数据平台拥有同类最佳的数据渠道。
-Loco Legends 的第一个资产将是 NFT 电竞卡。用户可以购买 NFT 交易卡，互相买卖卡牌，还可以参与 Free-to-Play 梦幻池（fantasy pool）。通过收集、拥有和交易这些限量版数字收藏品，Loco…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179813"
-                        open
-                      >
-                        <summary class="article-expander__title">dYdX从以太坊转向Cosmos的真正原因</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179813">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Bankless，原文作者：Donovan Choy，由 Odaily 星球日报译者 Katie 辜编译。
-
-上周，以太坊最大的 L2 集成 Dapp 之一的衍生品巨头 dYdX 宣布计划在即将发布的 V4 版本中脱离以太坊。
-而新目的地则是基于 Cosmos 拜占庭共识协议的完全自主区块链，使用 Cosmos SDK（软件开发工具包）构建。
-dYdX 是一个永续衍生品交易所，建立在以太坊 L2 上。dYdX 提供标准的现货和保证金交易，但最知名的是它在永续合约（Perpetual Swap）交易市场的领先地位。永续合约是一种合成交易产品，允许交易员对加密货币、大宗商品、ETF 指数和政府债券等各种商品的未来价格进行投机性押注。
-
-为了避免以太坊主网上高昂的 gas 费，dYdX 于 2021 年 4 月在 StarkEx 上部署了一个特定于应用程序的 Rollup，这是StarkWare 构建的 L2 零知识 Rollup。 
-这一举动对 dYdX 和以太坊意味着什么？
-dYdX “脱粉”以太坊的原因
-对于那些关注此事的人来说，dYdX 的脱粉并不意外。该协议的创始人 Antonio Juliano 去年 11 月就已暗示该协议正在积极寻找其他部署点。
-与大多数使用自动做市商（AMM）模型的 DeFi DEX 不同，dYdX 部署了一个传统的订单簿系统，维护链外的未完成交易。到目前为止，这种设置运行顺利。但近几个月来协议的大幅增长意味着它很快就会进入一个全新的领域。
-正如其官方声明所述，转向 Cosmos 的主要动机是在保持去中心化的同时提升交易速度：
-“我们能开发的每一个 L1 或 L2 的基本问题是它们都无法处理甚至接近运行一流订单簿和匹配引擎所需的吞吐量。现有的 dYdX 产品每秒处理约 10 笔交易，每秒处理 1000 笔下单/取消，目标是将交易规模扩大…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179817"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂FTX最新IEO「CRIPCO」：IP 3.0生态NFT市场</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179817">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>北京时间 6 月 26 日，加密交易平台 FTX 宣布最新一期 IEO 项目是 CRIPCO（代币：IP3，具体参与规则见文末）。
-CRIPCO 旨在建立一个 NFT 生态系统，解决区块链上的知识产权（IP）问题，并建立了新型态的 NFT 生态系统，官方称之为「IP 3.0 生态枢纽」。在这个生态系统中，每个人都可以方便地买卖 NFT，还可以通过平台上的 NFT 实用程序进行二次创作，变现获得收益。“几十年来，知识产权业务一直是中心化商业模式的缩影。随着我们进入 Web 3.0 和元宇宙的时代，CRIPCO 试图引入角色 IP 盈利的新范式。”
-具体来说，CRIPCO 平台包括两部分：NFT 交易市场以及 NFT 实用工具。
-CRIPCO NFT 市场是基于 Solana 区块链构建的，创作者用户可以上传具有知识产权（IP）的 NFT 收藏品，这些具有 IP 的 NFT 称之为「口袋宇宙」（Pocket Universe）；经由 CRIPCO DAO 成员投票通过后，NFT 将会上在平台上开启交易。并且，用户可以享受低廉的手续费——目前每笔交易手续费为 1%，远低于 Opensea 的 2.5%；未来平台还将开启「推荐」机制，一部分交易费用将直接给到推荐人，用以帮助扩大用户群。
-为了方便用户交易，增加对 NFT 项目的判断，CRIPCO NFT 市场还增加了多个新功能：集合竞价（collection bidding）、批量交易以及仪表板。在仪表板中，用户可以看到 NFT 相关统计数据，如挂单比例、蓝筹 NFT 持有人比例、巨鲸持有人比例，以及与 NFT 价格和交易量有关的可视化图表。
-CRIPCO 也推出完善的 NFT 解决方案，支持 ERC-721、ERC-1155 两种标准的 NFT，个人以及公司可以轻松地创建自己的 NFT 集合。此外，CRIPCO 还开发了多个特色的…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179814"
-                        open
-                      >
-                        <summary class="article-expander__title">IOSG Ventures：dYdX出走事件下应用链与L2 Rollup之争</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179814">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Bryan，Jiawei
-原文编辑：Olivia
-原文来源：IOSG Ventures
-TL;DR
-
-dYdX离开Starkware的主要原因：Stark技术开发周期长、L2方案Node Operator网络完全去中心化尚需时日、dYdX对于未来可组性的探索、Cosmos SDK提供了友好的开发土壤
-
-除了交易速度和成本方面的考量，应用链的想象空间还体现在代币赋能上。
-
-应用链相比通用化公链而言，在快速更新迭代方面具有更好的灵活性。
-
-新的多链叙事变化：优质应用对底层链呈现弱依附关系，而底层链/网络对优质应用呈现强依附关系。以往应用会思考如何做用户留存，现在轮到公链思考「应用留存」的问题。
-
-引子
-6月22日，dYdX宣布其v4版本将作为基于Cosmos SDK和Tendermint共识的独立区块链推出，具有完全去中心化的链下订单簿和匹配引擎，能够将吞吐量提高几个数量级。此外，建议将$DYDX作为dYdX v4的原生代币（取决于社区观点）。团队计划在2022年底之前开源dYdX v4。
-为便于读者理解，在正文开始前我们先打个比方：以太坊Rollup好比是市中心的旧楼盘，优点是周边有繁华的商圈与交通设施（可组合性），缺点是装修破旧（基础设施迭代慢）、不允许业主装修（不支持应用自定制节点）。dYdX是这座楼盘的大租客，平常没有社交（不依赖可组合性），因此决定搬到郊区建一套小别墅。这时碰巧遇到不错的装修队（Cosmos SDK），曾经在郊区有过大制作（Terra），因此一拍即合，把Rollup甩在一边。
-dYdX放弃StarkWare自己做链的原因
-去中心化衍生品市场的交易量遇到瓶颈
-以最大的中心化交易所Binance为例，其衍生品的交易量远超于其现货交易量。（取2022.6.26的数据，以BTC/USDT为例，其合约交易量大约为现货交易量的8倍）
-
-Binance s…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179809"
-                        open
-                      >
-                        <summary class="article-expander__title">慢雾：XCarnival NFT借贷协议漏洞分析</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179809">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：九九，慢雾安全团队
-2022 年 6 月 27 日，据慢雾区消息，XCarnival 项目被曝出严重漏洞遭黑客攻击并盗走 3,087 个 ETH（约 380 万美元）。XCarnival 是一个 ETH 链上的 NFT 借贷项目，目前项目团队正在修复漏洞并承诺会对受影响的用户提供解决方案。慢雾安全团队第一时间介入分析，并将结果分享如下：
-相关信息
-核心合约地址
-P2Controller：
-0x34ca24ddcdaf00105a3bf10ba5aae67953178b85
-XNFT：
-0x39360AC1239a0b98Cb8076d4135d0F72B7fd9909
-xToken：
-0x5417da20aC8157Dd5c07230Cfc2b226fDCFc5663
-攻击者 EOA 地址
-0xb7cbb4d43f1e08327a90b32a8417688c9d0b800a
-攻击合约地址
-0xf70F691D30ce23786cfb3a1522CFD76D159AcA8d
-0x234e4B5FeC50646D1D4868331F29368fa9286238
-0x7B5A2F7cd1cc4eEf1a75d473e1210509C55265d8
-0xc45876C90530cF0EE936c93FDc8991534F8A6962
-
-
-
-漏洞核心点分析
-1.攻击者通过 XNFT 合约中的 pledgeAndBorrow 函数来进行抵押 NFT 并借出 xToken。
-
-
-
-在 pledgeInternal 函数中转入 NFT 并生成订单：
-
-2. 接着调用 withdrawNFT 函数提取出质押的 NFT，其中首先判断该订单是否被清算状态，如果不是则判断该订单的状态是否为 NFT 还未被提取且借款金额为 0（无负债），如果通过即可提取抵押的 NFT。
-
-3. 以上为攻击…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179806"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | Voyager向三箭资本发出违约通知；高盛下调Coinbase股票评级​（6月28日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179806">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-Voyager Digital宣布向三箭资本发出违约通知
-加密经纪商Voyager Digital宣布向三箭资本发出违约通知，因其未能支付之前披露的15250枚BTC和3.5亿USDC的贷款。
-Voyager Digital计划从三箭资本寻求赔偿，并正在与公司的顾问讨论可用的法律补救措施，已聘请Moelis &amp; Company作为财务顾问。
-Voyager Digital表示，平台将继续运营，并执行客户订单和提款。截至2022年6月24日，Voyager Digital拥有约1.37亿美元的现金和加密资产。公司还可以从Alameda Ventures获得之前公布的循环信贷额度。
-据此前报道，Voyager Digital子公司VDH与Alameda就2亿美元现金和USDC循环信贷、15000枚BTC循环信贷达成最终协议。（PRNewswire）
-高盛下调Coinbase股票评级
-星球日报讯 高盛周一将美国加密交易所Coinbase的股票评级从“买入”下调为“卖出”，将其目标价从70美元下调至45美元。
-高盛分析师表示，“鉴于Coinbase和Coinbase Pro平台宣布将合并，我们越来越不看好其竞争环境和费率压缩的前景。”
-据此前报道，Coinbase宣布将于年内停用Coinbase Pro并推出Advanced Trade，允许用户在一个平台内使用质押、借贷、DApp钱包、Coinbase Card等功能。目前Advanced Trade已在PC端上线，接下来几周将上线移动端应用。（The Block）
-因Besu客户端Bug，20%以上节点在以太坊主网第7次影子分叉中掉线
-以太坊基金会发布的第141期核心开发者线上会议中提到，于6月22日进行的以太坊主网第7次影子分叉进展并不顺利，20%的节点在Merge激活时掉线，此后甚至更多节点接连掉线。
-会议中谈到，Be…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >TheBlockBeats - 快讯</button>
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/89736"
+                        open
+                      >
+                        <summary class="article-expander__title">Ronin Bridge已正式开放</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/89736">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 28 日，Axie Infinity 官方宣布 Ronin Bridge 已正式开放，用户拥有的所有 wETH 和 USDC 都由新桥 1:1 完全支持。Ronin Bridge 在推出之前已进行一次内部审计和两次外部审计（Verichains 和 Certik）。另外，Axie Infinity 可能会在本周发布土地质押功能。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/89733"
+                        open
+                      >
+                        <summary class="article-expander__title">外媒：Terra Labs拥有近36亿美元的USDT和UST，或存在价格操纵和洗钱</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/89733">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 28 日，据 CoinDesk Korea 报道，Terra Labs 拥有近 36 亿美元的 USDT 和 UST，可能被用于通过 Terraform Labs 相关的各种钱包进行异常交易和资金流转，特别是通过 DeFi 和中心化交易平台进行价格操纵和洗钱。但当局需要与 Binance、Coinbase、Huobi 和 Kucoin 核实以确认。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/89724"
+                        open
+                      >
+                        <summary class="article-expander__title">Cathie Wood：美国已经陷入经济衰退</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/89724">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 28 日，ARK 基金创始人 Cathie Wood 在接受 CNBC 采访时表示，她承认低估了通货膨胀的严重性和持久性，并认为美国已经处于经济衰退期。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/89718"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3网络Peaq完成600万美元种子轮融资，Fundamental Labs领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/89718">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，6 月 28 日，据 CoinDesk 报道，基于 Substrate 的 Web3 物联网经济网络 Peaq 宣布完成 600 万美元种子轮融资，本轮融资由 Fundamental Labs 领投，HashKey Capital、GSR Markets、Delta VC、Mulana、Cypher Capital、GravityX、Waterdrip、Ceras 和 Master Ventures 等参投。融资将用于支持 Peaq 网络的持续扩展，使得个人或组织能够从车辆、机器人和设备的去中心化应用中构建、管理和赚取收益。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -2335,6 +2048,361 @@ Raccoon Network 是一个允许程序员在其网络上部署 dApp 和智能合�
 这是香港首只亚太元宇宙主动型管理 ETF，帮助投资者在亚太（新西兰除外）投资元宇宙相关行业，拟投资的元宇宙业务公司可能包括但不限于以下类别：扩增实境／虚拟实境、人工智能、 社交媒体、网络游戏、 数码交易、装置和平台。
 
 BlockBeats 此前报道，6 月 10 日，韩国资管公司三星资产管理香港子公司宣布将推出亚洲首只投资于环球区块链相关的 ETF—三星区块链技术 ETF（03171）。该 ETF 预计于 6 月 23 日（周四）于香港联合交易所上市。上市价定为 2 美元（约 15.6 港元），每手为 50 个基金单位，初始投资额约为 100 美元（约 780 港元）。此 ETF 在港交所买卖是以港元交易，管理费为每年 0.85%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.0daily.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179830"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik ：以太坊的账户抽象之路</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179830">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者： Vitalik Buterin
+原文编译：DeFi之道
+账户抽象允许我们使用智能合约逻辑来指定交易的效果，以及费用支付和验证逻辑。这带来了许多重要的安全好处，例如多重签名和智能恢复钱包，能够在不更换钱包的情况下更换密钥以及量子安全性。
+许多帐户抽象的方法已在不同程度上被提出并得到了实施，参见：EIP-86、EIP-2938，以及两年前的这篇文章。今天，由于开发者们希望专注于合并与分片，这些 EIP 的开发陷入了僵局，而 ERC-4337 这种不需要任何共识更改的替代方案已经取得了很大进展。
+ERC-4337 尝试通过额外的协议手段实现和 EIP-2938 相同的事情。用户需要发送称为用户操作（user operations）的链外消息，这些消息由区块提议者（proposer）或为区块提议者生成 bundles 的构建者（builder）批量收集并打包成单笔交易。提议者或构建者负责过滤操作以确保他们只接受支付费用的操作。用户操作有一个单独的 mempool 存储池，连接到这个存储池的节点会进行 ERC-4337 特定的验证，以确保用户操作在转发之前能够支付费用。
+
+
+
+
+
+ERC-4337 作为一个纯自愿的 ERC 可以做很多事情。然而，在一些关键领域，它比真正的协议内解决方案更弱：
+
+现有用户如果不将其所有资产和活动移动到新帐户，则无法升级；
+
+额外的 gas 开销（基本 UserOperation 用户操作约 42 k，而基本交易约为 21 k）；
+
+较少受益于协议内抗审查技术（例如 crLists），它以交易为目标并会错过用户操作（user operation）
+
+而实现最佳效果的一条现实途径，是在短期内开始大力支持 ERC-4337，然后随着时间的推移添加 EIP 来弥补其弱点。这并不一定需要大家专门承诺遵守 ERC-4337。相反，可以将协议内支持设计为…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179831"
+                        open
+                      >
+                        <summary class="article-expander__title">香港能否借助Web3实现弯道超车，迎来下一个「八达通时刻」？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179831">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Will NFT, metaverse developments in Hong Kong help deliver the city』s next 『Octopus moment』 in a post-pandemic world?》
+原文作者：Bien Perez @《South China Morning Post》
+原文编译：比得潘 @BlockBeats
+【编者按】
+很多人都表示中国香港之于科技产业的二十余年，是不断错过的二十余年。之所以说是「错过」，是因为香港并非没有创新能力。
+1997 年 9 月，香港八达通卡的推出，迅速成为了当地最受欢迎的电子支付系统，也成为了这座城市培育创新科技能力的象征。
+但到了移动互联网时代，香港先大陆一步推出了一款语音 IM 应用 Talkbox，最终却完全被微信所超越；在更近的人工智能时代，著名 AI 独角兽商汤科技原本就由汤晓鸥带领的香港中文大学工程学院团队成立，但后来商汤却选择了扎根上海。不仅如此，香港中文大学、香港科技大学等高校每年也在向企业和学界输送着海量人才。
+香港科技产业的发展迟缓，起初部分人将其归咎于 2000 年左右「硅港计划」的失败。
+1998 年 10 月，当时中国香港特区行政长官董建华在其上任后的第二份施政报告中提出科技兴港，要把香港发展成为国际创新科技中心。但这一项目却迟迟没能推进，一方面是因为政府在批地上话语权很低，另一方面也包括了当时美国限制半导体制造设备向香港的出口等。
+但这些理由显然不足以解释后来的问题，在移动互联网及 AI 崛起的热潮中，有很多企业都是从 2010 年左右才开始发展起来的后来者。而在这些领域的失败，主要还是源于香港的人力成本高、科技领域缺乏资本关注，以及产业链和市场的不完善等因素。
+深圳无人机公司大疆（DJI）创始人汪滔，曾在第三任特首梁振英来考察询问「大疆公司会不会迁…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179824"
+                        open
+                      >
+                        <summary class="article-expander__title">从这轮加密牛市周期得到的六点教训</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179824">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《My Crypto Investing Mistakes and Lessons (&#x27;20-&#x27;22)》
+原文作者：Nat Eliason
+原文编译：DeFi 之道
+好吧，铁子们，看起来快乐的时光已经结束，熊市可能要持续一段时间了。
+回顾从 2020 年到 2022 年这一年半的牛市，整个币圈是疯狂的，很多老铁不说赚的盆满钵满，至少也多少都有所收获。当然，在牛市中也会经历一些非常艰难的时刻，除了账面财富的损失，我认为完全参与加密货币牛市周期的一些精神上的感受也是不能被低估的。
+我在上面提到了完全参与，是因为这是我第一次全身心的投入到加密货币的牛市中。我在 2013 年对加密货币产生过兴趣，主要是通过早期 DOTA2 的灰色市场接触到了比特币。
+在 2017 年，我对加密货币有了更大的兴趣，我曾在那时候发表过几篇关于加密货币的文章，并阅读了当时所有开创性的东西，但实际上仍未真正涉足这一领域。
+而这轮牛市其实是我第一次真正全身心投入的周期，这是怎样的一番体验呢？显然，当前一切仍然按部就班的运作着，团队仍然在建设项目，加密推特仍然还在发着一些垃圾内容，但我们不得不否认，整个币圈的氛围可能和币价一样，已经下跌了 90%
+我们应该在犯错前就去反思自己的投资策略，但这样做并不有趣，不是吗？另外，在损失发生之前，你并不真正知道你做错了什么。人们常犯的一个错误是用现在的经验和高度来评价过去的决定。但是没有人能够知道俄乌冲突会开始，也没有人知道美联储会在什么时候宣布加息，或者提前知晓其他任何可能密谋夺走我们网络财产的事情。
+因此，我花了一些时间来反思我在过去一年半的牛市中做得好的地方，以及我在哪些方面犯了错误。由于人们跟喜欢看别人犯错误，当然这些经验教训也更有用，那接下来就让我们先从我犯的错误开始。也许我会在以后专门写一篇“我做对了什么”的帖子。
+下面是我通过思考，总结到的一些错误…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179827"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT数据日报 | “平价NFT”Moonrunners Official受到巨鲸青睐（6.28）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179827">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>NFT 数据日报是由 Odaily星球日报与 NFT 数据整合平台 NFTGO 合作的一档栏目，旨在向 NFT 爱好者与投资者展示近 24 小时的 NFT 市场整体规模、交易活跃度，成交量、流动性指标、受巨鲸欢迎等维度下排前五的 NFT 项目，各主要元宇宙平台上 NFT 的最新成交价格，NFT 平台交易和用户情况、蓝筹 NFT 项目表现等数据。
+
+欢迎前往 NFTGO.io 官网查阅更丰富维度的 NFT 数据。
+相关阅读
+多维度分析巨鲸的NFT抄底策略
+加密熊市下蓝筹NFT的表现如何？
+这一届NFT正用“躺平”和“暗黑”对抗熊市
+&quot;,&quot;extraction_tags&quot;:&quot;&quot;,&quot;source_type&quot;:&quot;original&quot;,&quot;source_urls&quot;:&quot;&quot;,&quot;next_post&quot;:{&quot;title&quot;:&quot;FTX Benson：数亿美金避险基金大量做空，USDT会暴雷吗？&quot;,&quot;entity_id&quot;:5179823,&quot;id&quot;:5179823}},&quot;user&quot;:{&quot;type&quot;:&quot;SET_POST_USER&quot;,&quot;id&quot;:2147483985,&quot;avatar&quot;:&quot;https://piccdn.0daily.com/202104/12/885613b73f0773c7df828400b58ccd8a.png!480&quot;,&quot;name&quot;:&quot;不一样的NFT&quot;,&quot;introduction&quot;:&quot;这个作者有点忙，还没写简介&quot;,&quot;title&quot;:&quot;新锐作者&quot;,&quot;total&quot;:&quot;273&quot;},&quot;comments&quot;:[],&quot;counters&quot;:{&quot;view_count&quot;:871,&quot;pv&quot;:821,&quot;pv_mobile&quot;:33,&quot;pv_app&quot;:17,&quot;favorite&quot;:0,&quot;comment&quot;:0,&quot;like&quot;:0},&quot;secondaryTag&quot;:[{&quot;name&quot;:&quot;NFT&quot;,&quot;slug&quot;:&quot;5e09865df1…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179823"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX Benson：数亿美金避险基金大量做空，USDT会暴雷吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179823">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：FTX_Benson
+我们先来看一下USDT的资产储备成分，其实所有的 Stablecoin 发行商资产储备都和货币市场基金成分类似，都是以现金、高质量的短期债券与票据为主。
+时间回到 2008 年，当时最大的货币市场基金 Reserve Primary 的规模达到 630 亿美元，其持有约 7800 万美元的雷曼银行的短期债券（仅占总资产 1.2%）。
+
+正是这微不足道的敞口，导致了市场的恐慌。
+因为雷曼兄弟破产的消息太过突然，Reserve Primary 来不及处理手中雷曼的短期债券，这些债券没人想买卖，也就无法评估其剩余价值。导致他们没办法跟投资人确保，他们的 100 美分与 1 美元等值。
+2008 年 9 月 16 日，Reserve Primary 宣布只剩 97 美分。打破了大众对于货币基金价值永远为 1 美元的认知。
+这导致了现代金融史上，投资人恐慌程度最严重的事件。在接下来的两周内，投资人从货币市场基金撤出高达 1230 亿美元的资金。
+由于 1：1 兑换的承诺，只要资产负债表稍有瑕疵，就会引发挤兑连锁反应，从这点看来，货币市场基金与 Stablecoin 具备高度相似性。
+要了解USDT是不是会暴雷，要先回答两个问题： 
+1.USDT资产储备质量的流动性如何？
+2.USDT有没有可能像 2008 年的货币市场基金一样，出现超大量赎回潮？
+先讲第一个问题，USDT资产储备质量一直以来都在改善，原本有一半是 CP（商业票据），这部分慢慢被 T-Bill（美国短期国债）取代。
+CP vs T-Bill 的比例：
+2Q21： 49%，24% 
+3Q21： 44%，28% 
+4Q21： 31%，44% 
+1Q22： 24%，48%。
+
+2022Q2 的报告还没出来，不过根据 Tether CTO@paoloardoino的讲法，他们在 2022 年 3…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179821"
+                        open
+                      >
+                        <summary class="article-expander__title">Loco推出印度首个NFT电子竞技平台</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179821">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 GamesBeat，原文作者：Dean Takahashi
+Odaily星球日报译者 | 余顺遂
+
+Loco 顺应全球趋势推出 Loco Legends，声称其为印度首个 NFT电子竞技平台。
+
+Loco 表示，公司致力于实现印度游戏娱乐的民主化，并表示其平台将允许用户拥有和交易电子竞技收藏品，帮助提升粉丝圈认同感，并体验成为电竞球探的快感。
+Loco 表示，Legends 将为游戏创作者的去中心化创造条件，Loco 将致力于支持印度的 GameFi 生态系统。世界各地的公司都在使用 NFT 来加强电子竞技团队和粉丝之间的社区和变现能力。
+拥有 5200 万用户的 Loco 带来了每个类别中最大和最活跃的游戏玩家社区。迄今为止，该公司已经融资 5100 多万美元。
+Loco Legends 与印度最受欢迎的电子竞技团队建立独家合作关系，包括 8bit、s0ul、Godlike、Revenant、Blind、XO 等。Loco 表示，这些顶级的印度电子竞技团队是 BGMI、FreeFire Max 和 Valorant 等热门游戏类别的主宰者，并为粉丝提供可靠的 NFT 体验。
+Loco NFT 电竞卡
+Loco 还建立专门的数据系统，为 Legends 提供支持。该系统利用由 Loco 授权的大量比赛产生的数据，Loco 是印度电子竞技锦标赛的最大支持者。
+Loco 还表示，它已经与 Villager esports、Upthrust esports 等主要电子竞技锦标赛组织者签署独家合作伙伴关系，以确保其数据平台拥有同类最佳的数据渠道。
+Loco Legends 的第一个资产将是 NFT 电竞卡。用户可以购买 NFT 交易卡，互相买卖卡牌，还可以参与 Free-to-Play 梦幻池（fantasy pool）。通过收集、拥有和交易这些限量版数字收藏品，Loco…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179813"
+                        open
+                      >
+                        <summary class="article-expander__title">dYdX从以太坊转向Cosmos的真正原因</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179813">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Bankless，原文作者：Donovan Choy，由 Odaily 星球日报译者 Katie 辜编译。
+
+上周，以太坊最大的 L2 集成 Dapp 之一的衍生品巨头 dYdX 宣布计划在即将发布的 V4 版本中脱离以太坊。
+而新目的地则是基于 Cosmos 拜占庭共识协议的完全自主区块链，使用 Cosmos SDK（软件开发工具包）构建。
+dYdX 是一个永续衍生品交易所，建立在以太坊 L2 上。dYdX 提供标准的现货和保证金交易，但最知名的是它在永续合约（Perpetual Swap）交易市场的领先地位。永续合约是一种合成交易产品，允许交易员对加密货币、大宗商品、ETF 指数和政府债券等各种商品的未来价格进行投机性押注。
+
+为了避免以太坊主网上高昂的 gas 费，dYdX 于 2021 年 4 月在 StarkEx 上部署了一个特定于应用程序的 Rollup，这是StarkWare 构建的 L2 零知识 Rollup。 
+这一举动对 dYdX 和以太坊意味着什么？
+dYdX “脱粉”以太坊的原因
+对于那些关注此事的人来说，dYdX 的脱粉并不意外。该协议的创始人 Antonio Juliano 去年 11 月就已暗示该协议正在积极寻找其他部署点。
+与大多数使用自动做市商（AMM）模型的 DeFi DEX 不同，dYdX 部署了一个传统的订单簿系统，维护链外的未完成交易。到目前为止，这种设置运行顺利。但近几个月来协议的大幅增长意味着它很快就会进入一个全新的领域。
+正如其官方声明所述，转向 Cosmos 的主要动机是在保持去中心化的同时提升交易速度：
+“我们能开发的每一个 L1 或 L2 的基本问题是它们都无法处理甚至接近运行一流订单簿和匹配引擎所需的吞吐量。现有的 dYdX 产品每秒处理约 10 笔交易，每秒处理 1000 笔下单/取消，目标是将交易规模扩大…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179817"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂FTX最新IEO「CRIPCO」：IP 3.0生态NFT市场</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179817">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>北京时间 6 月 26 日，加密交易平台 FTX 宣布最新一期 IEO 项目是 CRIPCO（代币：IP3，具体参与规则见文末）。
+CRIPCO 旨在建立一个 NFT 生态系统，解决区块链上的知识产权（IP）问题，并建立了新型态的 NFT 生态系统，官方称之为「IP 3.0 生态枢纽」。在这个生态系统中，每个人都可以方便地买卖 NFT，还可以通过平台上的 NFT 实用程序进行二次创作，变现获得收益。“几十年来，知识产权业务一直是中心化商业模式的缩影。随着我们进入 Web 3.0 和元宇宙的时代，CRIPCO 试图引入角色 IP 盈利的新范式。”
+具体来说，CRIPCO 平台包括两部分：NFT 交易市场以及 NFT 实用工具。
+CRIPCO NFT 市场是基于 Solana 区块链构建的，创作者用户可以上传具有知识产权（IP）的 NFT 收藏品，这些具有 IP 的 NFT 称之为「口袋宇宙」（Pocket Universe）；经由 CRIPCO DAO 成员投票通过后，NFT 将会上在平台上开启交易。并且，用户可以享受低廉的手续费——目前每笔交易手续费为 1%，远低于 Opensea 的 2.5%；未来平台还将开启「推荐」机制，一部分交易费用将直接给到推荐人，用以帮助扩大用户群。
+为了方便用户交易，增加对 NFT 项目的判断，CRIPCO NFT 市场还增加了多个新功能：集合竞价（collection bidding）、批量交易以及仪表板。在仪表板中，用户可以看到 NFT 相关统计数据，如挂单比例、蓝筹 NFT 持有人比例、巨鲸持有人比例，以及与 NFT 价格和交易量有关的可视化图表。
+CRIPCO 也推出完善的 NFT 解决方案，支持 ERC-721、ERC-1155 两种标准的 NFT，个人以及公司可以轻松地创建自己的 NFT 集合。此外，CRIPCO 还开发了多个特色的…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179814"
+                        open
+                      >
+                        <summary class="article-expander__title">IOSG Ventures：dYdX出走事件下应用链与L2 Rollup之争</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179814">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Bryan，Jiawei
+原文编辑：Olivia
+原文来源：IOSG Ventures
+TL;DR
+
+dYdX离开Starkware的主要原因：Stark技术开发周期长、L2方案Node Operator网络完全去中心化尚需时日、dYdX对于未来可组性的探索、Cosmos SDK提供了友好的开发土壤
+
+除了交易速度和成本方面的考量，应用链的想象空间还体现在代币赋能上。
+
+应用链相比通用化公链而言，在快速更新迭代方面具有更好的灵活性。
+
+新的多链叙事变化：优质应用对底层链呈现弱依附关系，而底层链/网络对优质应用呈现强依附关系。以往应用会思考如何做用户留存，现在轮到公链思考「应用留存」的问题。
+
+引子
+6月22日，dYdX宣布其v4版本将作为基于Cosmos SDK和Tendermint共识的独立区块链推出，具有完全去中心化的链下订单簿和匹配引擎，能够将吞吐量提高几个数量级。此外，建议将$DYDX作为dYdX v4的原生代币（取决于社区观点）。团队计划在2022年底之前开源dYdX v4。
+为便于读者理解，在正文开始前我们先打个比方：以太坊Rollup好比是市中心的旧楼盘，优点是周边有繁华的商圈与交通设施（可组合性），缺点是装修破旧（基础设施迭代慢）、不允许业主装修（不支持应用自定制节点）。dYdX是这座楼盘的大租客，平常没有社交（不依赖可组合性），因此决定搬到郊区建一套小别墅。这时碰巧遇到不错的装修队（Cosmos SDK），曾经在郊区有过大制作（Terra），因此一拍即合，把Rollup甩在一边。
+dYdX放弃StarkWare自己做链的原因
+去中心化衍生品市场的交易量遇到瓶颈
+以最大的中心化交易所Binance为例，其衍生品的交易量远超于其现货交易量。（取2022.6.26的数据，以BTC/USDT为例，其合约交易量大约为现货交易量的8倍）
+
+Binance s…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179809"
+                        open
+                      >
+                        <summary class="article-expander__title">慢雾：XCarnival NFT借贷协议漏洞分析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179809">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：九九，慢雾安全团队
+2022 年 6 月 27 日，据慢雾区消息，XCarnival 项目被曝出严重漏洞遭黑客攻击并盗走 3,087 个 ETH（约 380 万美元）。XCarnival 是一个 ETH 链上的 NFT 借贷项目，目前项目团队正在修复漏洞并承诺会对受影响的用户提供解决方案。慢雾安全团队第一时间介入分析，并将结果分享如下：
+相关信息
+核心合约地址
+P2Controller：
+0x34ca24ddcdaf00105a3bf10ba5aae67953178b85
+XNFT：
+0x39360AC1239a0b98Cb8076d4135d0F72B7fd9909
+xToken：
+0x5417da20aC8157Dd5c07230Cfc2b226fDCFc5663
+攻击者 EOA 地址
+0xb7cbb4d43f1e08327a90b32a8417688c9d0b800a
+攻击合约地址
+0xf70F691D30ce23786cfb3a1522CFD76D159AcA8d
+0x234e4B5FeC50646D1D4868331F29368fa9286238
+0x7B5A2F7cd1cc4eEf1a75d473e1210509C55265d8
+0xc45876C90530cF0EE936c93FDc8991534F8A6962
+
+
+
+漏洞核心点分析
+1.攻击者通过 XNFT 合约中的 pledgeAndBorrow 函数来进行抵押 NFT 并借出 xToken。
+
+
+
+在 pledgeInternal 函数中转入 NFT 并生成订单：
+
+2. 接着调用 withdrawNFT 函数提取出质押的 NFT，其中首先判断该订单是否被清算状态，如果不是则判断该订单的状态是否为 NFT 还未被提取且借款金额为 0（无负债），如果通过即可提取抵押的 NFT。
+
+3. 以上为攻击…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.0daily.com/post/5179806"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | Voyager向三箭资本发出违约通知；高盛下调Coinbase股票评级​（6月28日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179806">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+Voyager Digital宣布向三箭资本发出违约通知
+加密经纪商Voyager Digital宣布向三箭资本发出违约通知，因其未能支付之前披露的15250枚BTC和3.5亿USDC的贷款。
+Voyager Digital计划从三箭资本寻求赔偿，并正在与公司的顾问讨论可用的法律补救措施，已聘请Moelis &amp; Company作为财务顾问。
+Voyager Digital表示，平台将继续运营，并执行客户订单和提款。截至2022年6月24日，Voyager Digital拥有约1.37亿美元的现金和加密资产。公司还可以从Alameda Ventures获得之前公布的循环信贷额度。
+据此前报道，Voyager Digital子公司VDH与Alameda就2亿美元现金和USDC循环信贷、15000枚BTC循环信贷达成最终协议。（PRNewswire）
+高盛下调Coinbase股票评级
+星球日报讯 高盛周一将美国加密交易所Coinbase的股票评级从“买入”下调为“卖出”，将其目标价从70美元下调至45美元。
+高盛分析师表示，“鉴于Coinbase和Coinbase Pro平台宣布将合并，我们越来越不看好其竞争环境和费率压缩的前景。”
+据此前报道，Coinbase宣布将于年内停用Coinbase Pro并推出Advanced Trade，允许用户在一个平台内使用质押、借贷、DApp钱包、Coinbase Card等功能。目前Advanced Trade已在PC端上线，接下来几周将上线移动端应用。（The Block）
+因Besu客户端Bug，20%以上节点在以太坊主网第7次影子分叉中掉线
+以太坊基金会发布的第141期核心开发者线上会议中提到，于6月22日进行的以太坊主网第7次影子分叉进展并不顺利，20%的节点在Merge激活时掉线，此后甚至更多节点接连掉线。
+会议中谈到，Be…</span>
                             </span>
                           </div>
                         </a>
@@ -7418,165 +7486,6 @@ FatMan对三箭资本事件进行了梳理，称三箭资本原在BTC上拥有�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/v0l63tw4.html"
-                        open
-                      >
-                        <summary class="article-expander__title">合成资产协议Synthetix升级至Algol版本，设定清算罚款参数</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/v0l63tw4.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月24日消息，据官方公告，合成资产协议Synthetix已于北京时间2022年6月23日15:00升级至Algol版本，该版本添加了SIP-251，分别将抵押贷款清算罚款比例和SNX质押强制清算罚款比例定为10%和30%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/8h1v6vfc.html"
-                        open
-                      >
-                        <summary class="article-expander__title">评级机构穆迪将Coinbase债务评级从Ba2下调至Ba3</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8h1v6vfc.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月24日消息，据CoinDesk报道，评级机构穆迪将Coinbase债务评级从Ba2下调至Ba3，并将其高级担保票据评级从Ba1下调至Ba2。
-针对此次调整，穆迪表示，债务评级下调是由于近几个月加密资产价格急剧下跌以及客户交易活动减少，且Coinbase的收入和现金流量大幅下降。
-此外，穆迪还提到，尽管Coinbase裁员约1,100人，但其盈利能力仍将面临挑战。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/bfw7sbi6.html"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币矿企Crusoe收购电气制造商Easter-Owens</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/bfw7sbi6.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月24日消息，据The Block报道，比特币矿企Crusoe Energy Systems宣布收购美国丹佛的电气制造商Easter-Owens Electric Co. (Easter-Owens)，Easter-Owen的70多名员工将被整合到Crusoe团队中。收购财务条款未披露。
-Crusoe表示，此次收购将有助于Crusoe优化制造吞吐量、产能、成本、质量和供应链，并加快新数据中心系统的原型设计过程。
-据悉，Easter-Owens是电气系统模块化数据中心和专业化数据中心的制造商，运营着100个模块化数据中心。Crusoe曾于4月份完成5.05亿美元C轮融资，以加速其挖矿业务的发展。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/xskhklit.html"
-                        open
-                      >
-                        <summary class="article-expander__title">俄罗斯国家开发银行建议发行由黄金支持的稳定币以规避西方国家制裁</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/xskhklit.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 6月24日消息，据CoinDesk报道，俄罗斯国家开发银行（VEB）研究人员发布了一份题为“制裁下的全球支付：现状和前景”的报告，建议该国发行一种由黄金支持的稳定币用于国际支付，以避免当前西方对其实施的制裁。
-报告称，黄金可以成为弥补俄罗斯大部分出口收入损失的有用工具。一方面，该国可以将其储备并出售给不支持制裁的国家的买家。报告称，这些交易很难追踪，因为它们会在场外进行。此外，这种金属还可以作为“黄金卢布”稳定币的后盾，不过这种稳定币将专门用于进出口交易结算，而不是用于俄罗斯境内的支付。但作出指出了一个缺点，即稳定币需要存在7到10年才能成为一种可靠的加密货币。 
-此外，该报告还建议俄罗斯与中国、印度和其他金砖国家创建基于区块链的结算系统。该报告还提到了加密货币在伊朗的普及，称该国正在成功地使用加密货币来规避美国的制裁。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/go043q86.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Kyber Network：三箭资本潜在破产或会影响Kyber财务，但财库仍可支撑Kyber多年发展</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/go043q86.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 6月24日消息，去中心化流动性协议Kyber Network今日发推文称，虽然三箭资本曾与Kyber财库进行场外交易购买了KNC，但三箭资本购买KNC的数量不大，且很久之前已从三箭资本的收款钱包中转出。因此，Kyber Network不认为三箭资本仍持有从Kyber财库购买的KNC，如果确实如此，这些KNC不会成为三箭资本资产清算的一部分。
-此外，Kyber Network表示，三箭资本的潜在破产可能会对Kyber财务产生一些影响，因为Kyber资产的一小部分在三箭资本，但其的财库仍然可以支撑Kyber多年的发展。 
-Kyber Network称其长期计划没有改变，且不会裁员，并继续扩大Kyber团队。
-来源链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/d00drwru.html"
-                        open
-                      >
-                        <summary class="article-expander__title">韩国公链Klaytn就联合投资亚洲NFT生态与OpenSea达成合作</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/d00drwru.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 6月24日消息，据美通社报道，韩国互联网巨头Kakao旗下公链Klaytn宣布与OpenSea达成合作，将针对亚洲NFT生态进行投资。更多详细信息将于之后公布。
-来源链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ixgx6r8x.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Element2.0计划七月推出“三级火箭计划”，同时发布带有激励模式的NFT深度聚合平台和新版交易协议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ixgx6r8x.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 6月24日消息，纽约NFT大会期间，Element.market发起人0XF1披露，将在7月发布2.0版，该版本将陆续提供聚合包括Opensea、Looksrare等多家NFT平台交易订单服务，并提供多平台挂单，以提供更加优质的流动性和交易深度。
-同时，Element2.0将升级交易协议，该协议已经通过Certik审计，可大幅度降低交易GAS，并向第三方完全开放交易API和SDK支持。
-0XF1将Element2.0的深度聚合交易、交易奖励以及升级版交易协议，比喻为NFT市场“三级火箭模式”。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/pc9wdkid.html"
-                        open
-                      >
-                        <summary class="article-expander__title">支付服务商Bitrefill宣布支持以ETH和USDT充值账户余额</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/pc9wdkid.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PANews 6月24日消息，据官方公告，提供预付费电话卡充值服务的Bitrefill宣布账户余额添加支持ETH和USDT充值，用户可以使用ETH、以太坊和Tron上的USDT为其Bitrefill余额添加资金。
-据悉，Bitrefill此前仅支持比特币充值账户余额，其于今年4月份宣布支持用加密货币支付所有账单。
-来源链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7932,31 +7841,6 @@ Coinbase Wallet
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.0daily.com/post/5179745"
-                        open
-                      >
-                        <summary class="article-expander__title">Do Kwon再发声：失败和欺诈之间存在差异，对重建Terra充满信心</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.0daily.com/post/5179745">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Alexander OsipovichFollow、Jiyoung Sohn
-原文标题：《Do Kwon’s Crypto Empire Fell in a $40 Billion Crash. He’s Got a New Coin for You.》
-原文编译：胡韬，链捕手
-Do Kwon 利用狂热的 Twitter 追随者建立了一个加密货币帝国，该帝国上个月在400 亿美元的崩盘中崩溃。尽管投资者愤怒、政府调查和加密市场低迷，这位韩国企业家如今正试图卷土重来。
-“我对我们重建比以前更强大的能力充满信心，”Do Kwon 告诉《华尔街日报》。
-Do Kwon 支持推出新版本的 Terra，这是失败的 UST 和 Luna 背后的区块链网络。UST 是一种所谓的稳定币，旨在将其价值维持在 1 美元，但该代币现在的价值不到一美分。它的崩溃引发了 Luna 的 99% 以上的暴跌，这是一种支持 UST 与美元挂钩的加密货币。
-这次内部崩溃引起的伤害了全球数千名投资者，其中包括许多将储蓄存入 Anchor Protocol 的人，Anchor Protocol 是一种为 UST 存款提供高收益的加密银行。此次崩盘也是本月加密市场大屠杀的前兆：一场残酷的抛售导致借贷平台 Celsius Network 冻结了所有价值数十亿美元的账户。
-自 UST 崩盘以来，代表韩国 90 多人的团体已对 Do Kwon 提出投诉，指控他欺诈和非法募资。首尔南区检察院发言人证实正在调查 Luna 和 UST 案，但拒绝提供细节。据当地媒体报道，一名投资者在 Do Kwon 位于首尔的家中按门铃，促使 Do Kwon 的妻子寻求警方保护。这位投资者——一位直播加密货币的互联网名人——后来在他的直播频道上说，他在 Luna 上亏了钱，并希望亲自与 Do Kwon 交谈。
-上周，代表在 UST…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7964,8 +7848,8 @@ Do Kwon 支持推出新版本的 Terra，这是失败的 UST 和 Luna 背后的�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2576808231">
-        <time id="build-timestamp" datetime="2022-06-28T14:07:08.801Z">2022-06-28T14:07:08.801Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/2577216193">
+        <time id="build-timestamp" datetime="2022-06-28T15:09:08.385Z">2022-06-28T15:09:08.385Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
