@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-06-30T13:30:50.968Z</updated>
+    <updated>2022-06-30T14:07:07.701Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -24,6 +24,23 @@
         <summary type="html"><![CDATA[BlockBeats 消息，6 月 30 日，CoinDesk 报道，Messari 创始人 Ryan Selkis 在一份报告中提出观点，SEC 拒绝灰度的 ETF 申请将使 DCG 在实际上受益，「如果将 GBTC 转换为 ETF，灰度的费用收入将遭受巨大损失，因为无论折扣如何，灰度都会对基础资产收取 2% 的费用」。他认为，ETF 意味着一个开放的赎回窗口，并可能降低费用以保留 AUM（管理资产），DCG 将每年减少 2 亿美元以上的利润。而一旦灰度针对 SEC 的诉讼产生结果，由于当前的负溢价，GBTC 的赎回问题将十分关键。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEC为什么拒绝灰度现货比特币ETF？]]></title>
+        <id>https://www.0daily.com/post/5179899</id>
+        <link href="https://www.0daily.com/post/5179899"/>
+        <updated>2022-06-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文编译：0x711&wzp，BlockBeats
+比特币 ETF 作为跟踪比特币价格的资产，无需经过购买比特币的过程，如注册交易平台和通过各种验证，通过投资比特币 ETF，用户可以从比特币的涨幅中获利。首个比特币 ETF 为期货 ETF，ProShares Bitcoin Strategy ETF(BITO)。目前还没有真正的比特币现货 ETF。
+灰度去年 10 月通过 NYSE Arca 向美国 SEC 提交了将 GBTC 转换为比特币现货 ETF 的申请。其首席执行官 Michael Sonneshein 曾表示，若比特币现货 ETF 申请被 SEC 驳回，将很有可能对 SEC 采取法律行动。理由是灰度的「比特币现货 ETF 与 SEC 已经批准的 Teucrium 比特币期货 ETF 没有不同。SEC 的批准原则不应前后不一。」
+随着美国 SEC 批准或拒绝灰度比特币现货 ETF 申请的最后期限 7 月 6 日临近，灰度首席执行官 Michael Sonnenshein 曾发布致投资者的公开信，聘请前美国司法部副部长 Donald B. Verrilli, Jr 担任高级法律策略师。灰度并于德克萨斯州奥斯汀的 Consensus 2022 大会上表示，他们乐观地认为，现货比特币 ETF 最终将很快获得 SEC 的批准。
+然而今日 SEC 已拒绝灰度（Grayscale）将其 GBTC 转换为比特币现货 ETF 的申请，并表示，申请未能回答美国证券交易委员会关于防止欺诈和操纵行为以及其他担忧的问题。
+FTX.US 首席执行官 Brett Harrison 谈被拒原因
+FTX.US 首席执行官对 SEC 驳回灰度现货 ETF 申请进行了原因分析：
+SEC 已经批准了 BITO、Proshares 以及其他期货 ETF，这些基于芝加哥商品交易所 (CME) 的期货 ETF…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
         </author>
     </entry>
     <entry>
@@ -936,6 +953,25 @@ OpenSea对用户发出以下建议：1. 谨防冒充OpenSea的钓鱼邮件，注
         <summary type="html"><![CDATA[PANews 6月30日消息，据金十报道，据市场消息，美国财长耶伦将于当地时间周四与相关机构讨论稳定币的风险。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[详解借贷协议Maker、Aave、Compound的风控机制]]></title>
+        <id>https://www.0daily.com/post/5179879</id>
+        <link href="https://www.0daily.com/post/5179879"/>
+        <updated>2022-06-30T03:20:00.000Z</updated>
+        <summary type="html"><![CDATA[杠杆资金是一把双刃剑，推动着周期的钟摆向两端运行。在牛市中，杠杆资金为资产价格的上升提供额外燃料，而在最近的下跌行情中，杠杆资金引发的连环清算与恐慌为加密世界蒙上了一片阴影。欧科云链数据显示，仅在6月14日，Aave和Compound在以太坊上的清算金额就分别达到5310万美元和4544万美元。
+借贷协议正是为链上资金提供杠杆的工具，不同的借贷协议，所运用的预言机机制、抵押率、清算线等均不相同，协议和用户在其中的风险也不相同。PANews在分析了Maker、Aave、Compound这三个常用借贷协议的风控机制后，发现以下结果。
+1、三大借贷协议预言机的安全性均较好，Aave和Compound均从Chainlink获取数据，并在此基础上判断是否使用，Maker则自行建立了一套类似的机制，且价格有一个小时的延迟。
+2、USDT作为市值最大的稳定币，在以太坊的三大借贷协议中均不能作为抵押品，而USDC在这三者中都受到很好的支持。
+3、Aave的资金利用率较高，常用资产的抵押系数均大于等于Compound，且Aave支持以stETH为抵押品，并为Aave带来了十亿美元以上的存款。
+4、在极端情况下，Maker和Aave都可以额外增发代币，并通过拍卖来偿还债务。Compound中虽未见相关表述，但遭遇极端情况时，也可以通过治理完成。Maker的紧急关闭模块也为极端情况增加了一道保险。
+5、在对借款量的限制上，Maker中每一种Vault都对应有借款上限，Compound中某些资产有上限，而Aave没有该限制。
+6、三者均可从借款利息中提取收入，在协议收入的分配上，Maker将盈余用于回购销毁MKR，Aave会将协议的部分收入分配给安全模块中的质押者，Compound中的依靠治理提取。
+Maker
+Maker协议作为去中心化稳定币项目的鼻祖，主要通过超额抵押的方式，铸造去中心化的稳定…]]></summary>
+        <author>
+            <name>PANews</name>
         </author>
     </entry>
     <entry>
