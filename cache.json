@@ -4311,26 +4311,6 @@
           "wordCount": null,
           "title": "外媒：Terra Labs拥有近36亿美元的USDT和UST，或存在价格操纵和洗钱",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/89724",
-          "author": null,
-          "description": "BlockBeats 消息，6 月 28 日，ARK 基金创始人 Cathie Wood 在接受 CNBC 采访时表示，她承认低估了通货膨胀的严重性和持久性，并认为美国已经处于经济衰退期。",
-          "link": "https://www.theblockbeats.info/flash/89724",
-          "publishedOn": "2022-06-28T12:32:15.000Z",
-          "wordCount": null,
-          "title": "Cathie Wood：美国已经陷入经济衰退",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/89718",
-          "author": null,
-          "description": "BlockBeats 消息，6 月 28 日，据 CoinDesk 报道，基于 Substrate 的 Web3 物联网经济网络 Peaq 宣布完成 600 万美元种子轮融资，本轮融资由 Fundamental Labs 领投，HashKey Capital、GSR Markets、Delta VC、Mulana、Cypher Capital、GravityX、Waterdrip、Ceras 和 Master Ventures 等参投。融资将用于支持 Peaq 网络的持续扩展，使得个人或组织能够从车辆、机器人和设备的去中心化应用中构建、管理和赚取收益。",
-          "link": "https://www.theblockbeats.info/flash/89718",
-          "publishedOn": "2022-06-28T12:07:15.000Z",
-          "wordCount": null,
-          "title": "Web3网络Peaq完成600万美元种子轮融资，Fundamental Labs领投",
-          "imageUrl": null
         }
       ]
     },
@@ -4947,26 +4927,6 @@
           "publishedOn": "2022-06-28T13:30:00.000Z",
           "wordCount": 108,
           "title": "全方位解读Layer2发展现状：数据、扩容方案与生态应用",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5179830",
-          "author": "DeFi之道",
-          "description": "原文作者： Vitalik Buterin\n原文编译：DeFi之道\n账户抽象允许我们使用智能合约逻辑来指定交易的效果，以及费用支付和验证逻辑。这带来了许多重要的安全好处，例如多重签名和智能恢复钱包，能够在不更换钱包的情况下更换密钥以及量子安全性。\n许多帐户抽象的方法已在不同程度上被提出并得到了实施，参见：EIP-86、EIP-2938，以及两年前的这篇文章。今天，由于开发者们希望专注于合并与分片，这些 EIP 的开发陷入了僵局，而 ERC-4337 这种不需要任何共识更改的替代方案已经取得了很大进展。\nERC-4337 尝试通过额外的协议手段实现和 EIP-2938 相同的事情。用户需要发送称为用户操作（user operations）的链外消息，这些消息由区块提议者（proposer）或为区块提议者生成 bundles 的构建者（builder）批量收集并打包成单笔交易。提议者或构建者负责过滤操作以确保他们只接受支付费用的操作。用户操作有一个单独的 mempool 存储池，连接到这个存储池的节点会进行 ERC-4337 特定的验证，以确保用户操作在转发之前能够支付费用。\n\n\n\n\n\nERC-4337 作为一个纯自愿的 ERC 可以做很多事情。然而，在一些关键领域，它比真正的协议内解决方案更弱：\n\n现有用户如果不将其所有资产和活动移动到新帐户，则无法升级；\n\n额外的 gas 开销（基本 UserOperation 用户操作约 42 k，而基本交易约为 21 k）；\n\n较少受益于协议内抗审查技术（例如 crLists），它以交易为目标并会错过用户操作（user operation）\n\n而实现最佳效果的一条现实途径，是在短期内开始大力支持 ERC-4337，然后随着时间的推移添加 EIP 来弥补其弱点。这并不一定需要大家专门承诺遵守 ERC-4337。相反，可以将协议内支持设计为…",
-          "link": "https://www.0daily.com/post/5179830",
-          "publishedOn": "2022-06-28T12:30:00.000Z",
-          "wordCount": 108,
-          "title": "Vitalik ：以太坊的账户抽象之路",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5179831",
-          "author": "区块律动BlockBeats",
-          "description": "原文标题：《Will NFT, metaverse developments in Hong Kong help deliver the city』s next 『Octopus moment』 in a post-pandemic world?》\n原文作者：Bien Perez @《South China Morning Post》\n原文编译：比得潘 @BlockBeats\n【编者按】\n很多人都表示中国香港之于科技产业的二十余年，是不断错过的二十余年。之所以说是「错过」，是因为香港并非没有创新能力。\n1997 年 9 月，香港八达通卡的推出，迅速成为了当地最受欢迎的电子支付系统，也成为了这座城市培育创新科技能力的象征。\n但到了移动互联网时代，香港先大陆一步推出了一款语音 IM 应用 Talkbox，最终却完全被微信所超越；在更近的人工智能时代，著名 AI 独角兽商汤科技原本就由汤晓鸥带领的香港中文大学工程学院团队成立，但后来商汤却选择了扎根上海。不仅如此，香港中文大学、香港科技大学等高校每年也在向企业和学界输送着海量人才。\n香港科技产业的发展迟缓，起初部分人将其归咎于 2000 年左右「硅港计划」的失败。\n1998 年 10 月，当时中国香港特区行政长官董建华在其上任后的第二份施政报告中提出科技兴港，要把香港发展成为国际创新科技中心。但这一项目却迟迟没能推进，一方面是因为政府在批地上话语权很低，另一方面也包括了当时美国限制半导体制造设备向香港的出口等。\n但这些理由显然不足以解释后来的问题，在移动互联网及 AI 崛起的热潮中，有很多企业都是从 2010 年左右才开始发展起来的后来者。而在这些领域的失败，主要还是源于香港的人力成本高、科技领域缺乏资本关注，以及产业链和市场的不完善等因素。\n深圳无人机公司大疆（DJI）创始人汪滔，曾在第三任特首梁振英来考察询问「大疆公司会不会迁…",
-          "link": "https://www.0daily.com/post/5179831",
-          "publishedOn": "2022-06-28T11:30:00.000Z",
-          "wordCount": 108,
-          "title": "香港能否借助Web3实现弯道超车，迎来下一个「八达通时刻」？",
           "imageUrl": null
         }
       ]
