@@ -4351,46 +4351,6 @@
           "wordCount": null,
           "title": "全网NFT持有者数量突破250万",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/90645",
-          "author": null,
-          "description": "BlockBeats 消息，7 月 4 日，据 CME「美联储观察」数据显示：美联储到 7 月份加息 50 个基点的概率为 14.4%，加息 75 个基点的概率为 85.6%。\n\n到 9 月份累计加息 50、75 个基点的概率均为 0%，累计加息 100 个基点的概率为 12.7%，累计加息 125 个基点的概率为 77.1%，累计加息 150 个基点的概率为 10.3%。",
-          "link": "https://www.theblockbeats.info/flash/90645",
-          "publishedOn": "2022-07-04T04:54:35.000Z",
-          "wordCount": null,
-          "title": "美联储7月加息75个基点的概率为85.6%",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/90627",
-          "author": null,
-          "description": "BlockBeats 消息，7 月 4 日，据 technode 报道，印度尼西亚风险投资公司 East Ventures 透露旗下新基金已完成 5 亿美元募资，将继续专注于金融科技、Web3、电子商务等领域投资。该基金会重点关注早期阶段初创公司，单笔投资规模将在 10-1000 万美元。",
-          "link": "https://www.theblockbeats.info/flash/90627",
-          "publishedOn": "2022-07-04T04:54:35.000Z",
-          "wordCount": null,
-          "title": "East Ventures新基金完成5亿美元募资，将专注金融科技和Web3领域",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/90651",
-          "author": null,
-          "description": "BlockBeats 消息，7 月 4 日，据英国金融时报报道，消息人士称欧洲央行将在周二的监管委员会会议上强调「协调」加密货币规则的必要性。该报道援引另一位消息人士的话称，由于目前没有针对加密货币监管的泛欧框架，欧洲央行对审定各银行加密货币牌照申请的问题表示担忧。知情人士认为，这一问题既关乎时机，也关乎规则协调。（金十）",
-          "link": "https://www.theblockbeats.info/flash/90651",
-          "publishedOn": "2022-07-04T04:54:35.000Z",
-          "wordCount": null,
-          "title": "欧洲央行将强调「协调」加密货币规则的必要性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/90648",
-          "author": null,
-          "description": "BlockBeats 消息，7 月 4 日，据 L2BEAT 数据显示，当前以太坊 Layer 2 总锁仓量跌至 37.7 亿美元，7 日跌幅达 6.22%。\n\n其中，锁仓量前三分别为 Arbitrum（19.4 亿美元，7 日跌幅 6.27%）、Optimism（7.38 亿美元，7 日跌幅 4.17%）和 dYdX（6.17 亿美元，7 日跌幅 9.51%）。",
-          "link": "https://www.theblockbeats.info/flash/90648",
-          "publishedOn": "2022-07-04T04:54:35.000Z",
-          "wordCount": null,
-          "title": "以太坊Layer 2总锁仓量跌至37.7亿美元，7日跌幅达6.22%",
-          "imageUrl": null
         }
       ]
     },
@@ -4399,6 +4359,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.0daily.com",
       "articles": [
+        {
+          "id": "https://www.0daily.com/post/5180100",
+          "author": "星球君的朋友们",
+          "description": "原文作者：foobar\n本文来自微信公众号老雅痞。\n在这篇文章中，我们将深入探讨：\n\n以太坊的PoS共识模型的详细描述\n\n以太坊PoS如何从恶意攻击中恢复\n\n驳斥常见的反PoS论点\n\n讨论流动质押或运行你自己的节点的实用性\n\n\n信标链的当前状态。按计划每 12 秒生成一次块。在 https://beaconcha.in 可查看实时数据\n共识机制：PoS, PoW, PoA\n共识机制定义了一个由节点组成的分布式网络如何决定网络的当前状态，哪些区块在链上，以何种顺序存在。区块生产是一个一般的术语，描述了谁扫描mempool以拾取待处理的交易，将它们排序为区块，并将新区块附加到现有的区块链上。三类常见的共识机制是权益证明、工作证明和授权证明。\n\nPoW（比特币）将区块生产权交给使用最多计算能力的人。该协议定义了一个单向的计算量大的哈希函数，如SHA-256，然后矿工们竞争找到一个输入，该输入被哈希成一个有许多前导零的输出。\n\nPoA（Binance智能链）是一种白名单机制，它将区块生产权交给几个白名单节点。这是你典型的许可区块链，仅此而已。\n\nPoS (Ethereum, soon™)将区块生产权交给锁定其原生代币的人，与他们的质押数量成正比。\n\n\n\n\n以太坊实施\n以太坊的PoS实现已经被大众嘲笑了大半年了，但随着信标链连续运行了18个月，并在测试网上成功进行了实时合并，该实现看起来已经基本定型。我将专注于PoS链如何在其稳定状态下运行的具体细节，而不是迷失在合并的实施细节中。\n\n另一个著名的权衡三角形。选择两个，或者在中间的某个地方找到自己。\n信标链上有大约40万个验证器，你可以在这里跟踪实时统计和区块。一个验证器指的是在主网的信标链存款合约中的32个伦理的具体存款；一个用户可以运行多个验证器。今天没有启用解冻提款，在合并时也不会启用，但在之后的上海硬分叉更新中会启用。每12秒…",
+          "link": "https://www.0daily.com/post/5180100",
+          "publishedOn": "2022-07-08T13:30:00.000Z",
+          "wordCount": 108,
+          "title": "深度解析「后以太坊时代」The Merge的共识机制",
+          "imageUrl": null
+        },
         {
           "id": "https://www.0daily.com/post/5180099",
           "author": "Foresight News",
