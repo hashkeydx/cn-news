@@ -2,10 +2,106 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-07-08T10:10:42.662Z</updated>
+    <updated>2022-07-08T11:07:22.490Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文速览Aave去中心化稳定币GHO提议]]></title>
+        <id>https://www.0daily.com/post/5180095</id>
+        <link href="https://www.0daily.com/post/5180095"/>
+        <updated>2022-07-08T10:40:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Karen
+昨晚，Aave 向社区发布引入稳定币 GHO 的征求意见（ARC）提议，GHO 名称摘自 GHOsts，是一个 Aave 上的原生去中心化多抵押稳定币，具有以下特点：
+
+去中心化，完全与美元挂钩；
+
+由社区来治理；
+
+允许抵押 Aave 支持的多种加密资产来铸造，也因此 GHO 是超额抵押的；
+
+借款人可以继续从其抵押资产中赚取利息，然后用户在收回抵押资产时可以销毁 GHO。
+
+除此之外，GHO 借款的利息将 100% 给 DAO，为 Aave DAO 产生额外收入。如果该提案获得社区批准，OpenZeppelin 和 PeckShield 将在未来几周内进行多项审计。
+GHO 运行方式
+根据提议，GHO 由用户（借款人）创建，与 Aave 协议上的所有借款一样，用户必须提供抵押品（以特定的抵押品比率）才能铸造 GHO。当用户去偿还或者被清算时，GHO 协议就会销毁该用户的 GHO。GHO 铸币者产生的利息将直接转移到 AaveDAO 金库。
+
+GHO 引入了促进者（Facilitator）概念，一个促进者（例如协议、实体）具有无需信任地生成（和销毁）GHO 代币的能力。当然，任何促进者都必须得到 Aave 治理的批准。不同的促进者将能够对他们的 GHO 应用不同的策略，同时，促进者可以生成的 GHO 也会有上限，具体由治理决定。设置上限主要是为了保持抵押和降低风险。
+提案通过后，第一个促进者为 Aave 协议。与 Aave 上其他资产一样，Aave 与 GHO 集成后也将部署 GHO aToken 和 GHO 债务代币。另外，GHO 借款利率将由 AaveDAO 确定，利率是稳定币的，不过也可根据市场情况进行调整。初始实施中，stkAAVE 持有者可以以一定折扣铸造 GHO，折扣参数由 Aave 治理决定，这意味着他们将为借入 GHO 支付较低的利率…]]></summary>
+        <author>
+            <name>Foresight News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[警惕Free Mint新骗局：参与Premint中奖后资产被盗]]></title>
+        <id>https://www.0daily.com/post/5180091</id>
+        <link href="https://www.0daily.com/post/5180091"/>
+        <updated>2022-07-08T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Montana Wong
+原文编译：0x9F、czgsws，BlockBeats
+本文梳理自 Web3 创作者工具应用 Sprise 和 Pally.gg 联合创始人 Montana Wong 在个人社交媒体平台上的观点，BlockBeats 对其整理翻译如下：
+「degen meta」是 NFT 领域的当前趋势，团队以 Free Mint 的形式启动项目，很少或直接不提供项目路线图，这种形式被诸如 goblintown 等项目成功带火。这种形式在熊市中很好，因为 Free Mint 起码不会亏本。
+骗子们利用这一点。他们现在不再创建虚假项目来骗取你的 ETH，而是营造 FOMO 气氛诱导你参加免费的「degen」Mint 项目，骗你授予他们权限转走你钱包里 NFT。
+通常他们首先使用 Premint 等合法服务，为他们的预售名单抽奖。Premint 不会对使用他们服务的项目做任何审查，但很多人不知道这一点，还以为这些抽奖活动「有 Premint 背书」。
+
+更糟糕的是，Premint 允许抽奖创建者提出某些要求，例如「必须持有 1 枚 Moonbirds NFT」才能参加。这可以在不经过原项目方同意的情况下，搞出假装得到官方认可的虚假抽奖活动。
+「白名单预售」时你仍然会用持有高价值 NFT 的钱包参与铸造，因为最初参与抽奖需要用到它们。这就是你的 NFT 会被盗的地方，让我们看看这是如何进行的。
+今天这一骗局出现了一个新版本「aLL tHiNg bEgiNs」，导致几枚高价值的 Moonbirds NFT 被盗。
+如果你去他们的网站，它看起来就像一个典型的摆烂 Free Mint 项目，带有连接钱包和 Mint 选项。不过一旦你深入了解，就会发现这个网站绝不是这么简单。
+
+可以注意到的第一件事，就是他们网站的大量代码都复制自 goblintown 网站。
+
+其次…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bankless：以太坊生态2022年Q2数据报告及生态亮点]]></title>
+        <id>https://www.0daily.com/post/5180092</id>
+        <link href="https://www.0daily.com/post/5180092"/>
+        <updated>2022-07-08T09:20:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Bankless 分析师 Ben Giove
+原文编译：DeFi 之道
+
+2021 年的数据分析来自于 James Wang 的“以太坊 2021 年第一季度报告”。
+本报告研究了 2022 年第二季度 -- 截至 6 月 30 日 -- 以太坊协议和生态系统的重要指标，分为四个类别：协议、DeFi、NFT 和 L2。而后，我们也讨论了生态系统的亮点并对未来进行了展望。
+协议
+
+以太坊网络收入；来源：Token Terminal
+
+网络收入下降 33.4%-- 从 19.1 亿美元降至 12.8 亿美元
+
+这一数据衡量的是为使用网络而支付的交易费用的价值。其中，10.9 亿美元的 ETH（其中 85.4%）被烧毁，从流通供应中移除。
+对区块空间需求的减少可能是由于本季度的市场疲软，抑制了投机活动。
+
+ETH 通胀率下降 37%--从 1.12% 降至 0.71%
+
+
+ETH 供应增长；来源：Etherscan
+这一数据衡量了本季度 ETH 的供应增长情况。
+下降的原因可能是 2021 年第三季度通过 EIP-1559 实施的费用燃烧机制。
+
+日均活跃地址下降 20.6%-- 从 593,404 个降至 471,447 个
+
+
+以太坊每日活跃地址；来源：Etherscan
+这一数据追踪了本季度期间每天在以太坊上进行交易的钱包地址的平均数量。
+与网络收入一样，这种下降可能是由于本季度的看跌背景导致用户的投机欲望下降。
+
+质押 ETH 增加了 116%-- 从 601 万增至 1298 万
+
+
+信标链上质押的 ETH；来源：Nansen
+这一数据衡量的是在网络即将从工作量证明（PoW）过渡到权益证明（PoS）之前，信标链上的 ETH 数量。
+到第二季度末，大约有 10.86% 的 ETH 总供应量被质押。
+DeFi 生态系统
+
+DeFi TVL 下跌 42.4%-- 从…]]></summary>
+        <author>
+            <name>DeFi之道</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[以太坊开发者工具平台Hardhat推出2.10.0版本，提供以太坊开发插件Hardhat Toolbox]]></title>
         <id>https://www.theblockbeats.info/flash/91545</id>
