@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-07-08T23:08:35.267Z</updated>
+    <updated>2022-07-09T00:39:34.256Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -3565,76 +3565,6 @@ Game Space 将面向大中小型游戏公司，为 AAA 级游戏提供 GameFi as
         <summary type="html"><![CDATA[BlockBeats 消息，7 月 4 日，南非 H2O Water Securities 完成 1.5 亿美元融资，数字资产投资公司 GEM Digital 参投。
 
 H2O Water Securities 是一家结合了金融、基础设施和水厂部署运营的专业公司，将推出全球首个水资源加密 Token「H2ON」，使其成为为全球水项目筹集资金的一种手段，支持更多人投资水利基础设施。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文简析Celestia如何确保消息检索结果的完整性]]></title>
-        <id>https://www.0daily.com/post/5179981</id>
-        <link href="https://www.0daily.com/post/5179981"/>
-        <updated>2022-07-04T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Hoyt
-
-写作本文的原因：
-有感于 Celestia 白皮书中，关于使用‘带命名空间的默克尔树’的相关章节，原文写得比较复杂，我们花了大量的时间去阅读，查看开源的示例代码，并和作者反复沟通才最终达成一致。而作为翻译，我们不能对原文的结构有太大改动，因此，为了使大家理解起来更容易，我们考虑单独发文，以更简明的方式向大家介绍相关内容。
-问题的由来：
-为了实现链的容量扩展，Celestia 承诺主权应用将只需下载与其有关的消息（消息和交易的区别是，交易专指改变应用状态的消息），而不用下载全部消息，但同时，不同应用的消息是打包在同一个区块里面的，以实现平等的安全性。那么，如何保证当某个应用的执行节点向 Celestia 的存储节点查询消息时，存储节点仅返回所有的相关消息，而且恶意存储节点无法隐藏特定消息呢（注意这里跟数据可用性是不同的概念，那个是指不下载所有数据的轻客户端，如何确信数据可以被验证节点下载到）。
-Celestia 选择的方案是，将称为命名空间的应用标识符，插入到消息构成的默克尔树的节点信息中。这样做的好处是，可以处理存储节点隐藏全部相关消息的情况，可以定位被隐藏的消息。另外，无需大幅度修改默克尔树的生成逻辑，以确保存在一个节点，它的底层叶节点，包含且仅包含某个命名空间的全部消息，且能定位此节点。而只需要做三件相对简单的事情，就可以确保默克尔树的基本特性，不发生变化：
-
-首先，生成消息的默克尔树之前，先按命名空间将消息分组归并在一起，确保不同命名空间的消息没有穿插，且命名空间是排好序的。
-
-其次，修改生成默克尔树时使用的哈希函数，以便命名空间信息被包含进节点信息（因为非叶节点，就只有哈希这唯一信息）。
-
-检查默克尔树时，额外检查排序是否无误。
-
-生成带命名空间的默克尔树：
-前面我们说了，跟通用的默克尔树逻辑相比，只有生成节点的哈希的函数不同。具体来说，就是在…]]></summary>
-        <author>
-            <name>W3.Hitchhiker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FATF最新报告解读：四大领域将成为下半年的监管关注重点]]></title>
-        <id>https://www.0daily.com/post/5179947</id>
-        <link href="https://www.0daily.com/post/5179947"/>
-        <updated>2022-07-04T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：David Carlisle（Elliptic）
-6 月 30 日，全球反洗钱和打击资助恐怖主义（AML/CFT）措施的标准制定者——金融行动特别工作组（FATF）发布了一份关于其加密资产指南的应用情况报告。该报告的发布标志着 FATF 于 2019 年首次发布的《加密资产和加密资产服务提供商（VASP）指南》已经经历了三个年头。
-FATF 的报告对于加密资产业务和金融机构的合规团队来说是必不可少的阅读材料。它提供了 FATF 对全球加密行业和监管机构面临的监管事项的看法。通过阅读报告，合规团队可以准备好迎接即将到来的监管发展的挑战，这些发展可能会在未来几个月影响加密行业。 
-DeFi：跨链流动的风险越来越大
-FATF 在其报告中强调的一个主要问题是去中心化金融（DeFi）的增长。在 2021 年 10 月发布的《更新指南》中，FATF 呼吁各国对那些可以控制去中心化交易所（DEX）等 DeFi 服务的人实施 AML/CFT 要求。这是 FATF 已经确定的优先事项，部分原因是为了应对与 DeFi 相关的犯罪增长。
-FATF 在其《最新报告》中指出，即使在去年发布指导意见后的短短八个月内，DeFi 行业也已经发展壮大。根据 FATF 的说法，DeFi 行业的快速增长和演变令人担忧，因为它可能导致风险的进一步加速和扩散。 
-FATF 首先担心的是，尽管它呼吁各国对 DeFi 进行监管，但是大多数 DeFi 协议和去中心化应用程序都在监管范围之外运行。尽管一些监管机构已开始对不合规的 DeFi 协议采取执法行动，但仍有大多数监管机构尚未对该领域进行监管。这在 FATF 看来是一个漏洞，因为它允许犯罪分子自由地使用 DeFi 服务。 
-FATF 对 DeFi 的第二个担忧是在 DeFi 领域越来越多地使用混币器来实现洗钱，包括朝鲜黑客在内的网络犯罪分子越来越多地使用混币…]]></summary>
-        <author>
-            <name>白泽研究院</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CoinShares：上周数字资产投资产品净流入6400万美元]]></title>
-        <id>https://www.theblockbeats.info/flash/90729</id>
-        <link href="https://www.theblockbeats.info/flash/90729"/>
-        <updated>2022-07-04T11:26:19.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，7 月 4 日，据 CoinShares 最新周报数据显示，上周数字资产投资产品净流入 6400 万美元，但绝大多数是空头比特币投资产品。
-
-其中比特币在一周内几乎没有流入，总额仅为 60 万美元。在美国推出新产品做空比特币的交易平台交易基金（ETF）后，做空比特币投资产品流入总额达到创纪录的 5100 万美元。上周，以太坊连续第二周流入 500 万美元，此前连续 11 周流出。多资产投资产品的流入总额为 440 万美元。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lido已启动LUNA Classic解除质押流程，计划于8月27日结束并关闭UI]]></title>
-        <id>https://www.theblockbeats.info/flash/90726</id>
-        <link href="https://www.theblockbeats.info/flash/90726"/>
-        <updated>2022-07-04T11:21:19.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，7 月 4 日，流动性质押协议 Lido Finance 已于今日启动 LUNA Classic 解除质押流程，该流程将分四个阶段进行：
-
-第一阶段从 7 月 4 日至 18 日，用户可提出提款请求并使用钱包签名交易。
-第二阶段从 7 月 18 日至 8 月 12 日，协议将解除 bLUNA 和 stLUNA 的质押。第三阶段从 8 月 12 日至 8 月 26 日，提出申请的用户可以申领已解除质押的 LUNA Token（现为 LUNC）。
-第四阶段 8 月 27 日 Lido 将关闭 UI。
-
-此外 Lido 表示，在提交申请后最多需要等待 24 天才可以申领 Token。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
         </author>
