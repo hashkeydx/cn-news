@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-07-12T14:12:41.619Z</updated>
+    <updated>2022-07-12T15:08:22.321Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[详解PoS的历史：为何以太坊2.0选择押注PoS？]]></title>
+        <id>https://www.0daily.com/post/5180176</id>
+        <link href="https://www.0daily.com/post/5180176"/>
+        <updated>2022-07-12T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Glaze, Fundamental Labs
+原文编译：Aididiao
+以太坊合并正在进行，但权益证明（PoS）机制的启动时间已经被一次又一次的推迟。
+
+以太坊合并是指将现有的工作量证明（PoW）共识机制转换成权益证明（PoS）共识机制，挖矿的奖励将由参与者质押及数字资产的多少来决定，而不再是电力和资源密集型的算力决定。为了保证以太坊顺利合并，矿工转而使用权益证明，以太坊决定增加炸弹难度机制确保以太坊合并更加顺畅。
+难度炸弹机制设置之后，PoW 网络的挖矿难度将随着时间的推移呈指数级增长，从而减少矿工的 ETH 奖励，最后 PoW 网络停止生产区块，所有矿工只能切换到 PoS 网络。
+下图中的每一个波峰都代表难度炸弹对挖矿难度的冲击。由于难度炸弹在合并过程中不断被推迟，这种波动已经消失了相当一段时间了。
+
+来源：Etherscan
+长期以来，以太坊高昂的 Gas 费和缓慢的网络交易速度被用户所诟病，而 PoW 共识机制可以帮助以太坊解决这些问题。
+本文将解释 PoS 共识机制的历史以及以太坊合并中遇到的困难。
+快速了解新的共识机制
+每一个区块链网络上存在很多节点，共识机制作用协调这些节点，让不同的节点之间对产生的新区块达成共识。共识机制是分布式网络能够顺利自运转的关键所在。
+共识机制通常很复杂，要想快速了解一种新的共识机制，只需要回答：
+
+新的区块由谁提出？
+
+区块链如果出现分叉，决定谁是主链的要素是什么？
+
+PoW 共识机制概述
+在 PoW 共识机制中，矿工反复尝试求解一种基于哈希算法的数学难题。首先解出的矿工就会获得记账权，从而提出新的区块。如果区块链出现分叉，最长的分叉链将成为主链。如果有人想要操纵区块链，攻击者至少要达到 51% 的算力。PoW 网络挖矿需要电力资源，同时对硬件的要求很高，有一定的成本门槛。挖矿所获得的奖励与其计算能力成正比。
+
+与 P…]]></summary>
+        <author>
+            <name>Foresight News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[三箭暴雷余波：不配合清算，会如何影响主流基金与监管机构？]]></title>
         <id>https://www.0daily.com/post/5180175</id>
@@ -2812,47 +2844,6 @@ Water & Music 社区在过去两个月完成了《音乐和 Web3 领域现状》
 音乐 / Web3 相关的第一波热潮发生于 2015 年，主要聚焦用区块链改造破碎的版税系统的可能性。第二波则始于2020 年，以音乐NFT 的兴起为标…]]></summary>
         <author>
             <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase首席经济学家：本轮牛市的起源与终结的原因]]></title>
-        <id>https://www.0daily.com/post/5180080</id>
-        <link href="https://www.0daily.com/post/5180080"/>
-        <updated>2022-07-08T02:46:51.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Cesare Fracassi
-原文编译：GaryMa 吴说区块链
-重点概况
-我们应该如何评估最近加密货币价格的高点和低点？从市场效率的角度来看，加密货币价格反映了市场对数字资产未来前景的评估。这种角度可以帮助我们理解加密货币价格的历史趋势及其与整体金融市场的相关性：
-
-在过去 5 年里，加密货币市场拥有巨大的回报，部分原因是机构和散户投资者的采用，以及奠定了 web3 的基础。
-
-虽然加密货币市场最初与金融市场不相关，但自 2020 年以来，相关性已急剧上升。因此，市场预计加密货币资产将与金融系统的其他部分越来越多地交织在一起。
-
-如今，加密货币市场的风险状况与油价和科技股的风险相似。
-
-最近加密货币市场的下跌可以归因于 ⅔ 宏观因素的恶化，以及 ⅓ 加密货币前景的减弱。
-
-介绍
-在过去的八个月里，加密货币的总市值从 2.9 万亿美元的高峰到目前不到 1 万亿美元的水平，下降超过三分之二。这在加密货币市场并不罕见。自 2010 年以来，加密货币总市值经历了 9 次 20% 以上的季度跌幅（这是衡量熊市状况的典型标准）。
-
-每次加密货币价格暴跌，媒体和专家的评论通常有两种形式：
-1、“加密货币已死” 的呼声再现，这时候加密货币会被描绘成一个巨大的庞氏骗局，由 FOMO（Fear of Missing Out，害怕错过\\踏空） 情绪所推动，同时在价格下跌时却伴随着 FUD（Fear\\Uncertainty\\Doubt，恐惧\\不确定\\怀疑） 情绪。
-2、坚定持有“HODL”的态度，这时候加密货币被视为一种突破性的技术。加密货币的牛熊是颠覆性创新的一个特征，而不是纰漏，就像 18 世纪初的国家银行，19 世纪中期的铁路，以及 20 世纪末的互联网和人工智能。我们应该持有并度过波动期，因为加密货币价格将在不久的将来恢复上涨。
-然而，这两种情况都不能解释我们在加密…]]></summary>
-        <author>
-            <name>吴说</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Voyager宣布其普通股从多伦多证券交易平台退市]]></title>
-        <id>https://www.theblockbeats.info/flash/91470</id>
-        <link href="https://www.theblockbeats.info/flash/91470"/>
-        <updated>2022-07-08T02:39:00.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，7 月 8 日，据 PR Newswire 报道，Voyager 已向多伦多证券交易平台（TSX）发出通知，公司将自愿从 TSX 退市其普通股。
-
-Voyager 采取上述行动是由于 Voyager 及其主要运营子公司向美国纽约南区法院提出破产重组，TSX 将对其普通股上市资格进行审查。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
     <entry>
