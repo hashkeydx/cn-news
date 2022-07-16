@@ -6,6 +6,26 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/q24spg1z.html",
+          "author": "PA一线",
+          "description": "PANews 7月16日消息，据beincrypto消息，Celsius挖矿子公司目前拥有80850台矿机，其中只有43632台正在运营。该公司的财务问题可能迫使其出售部分甚至整个挖矿业务。据悉，在申请破产之前，Celsius已经在一次秘密拍卖中出售了大约 7000台矿机，目前尚不清楚该公司是否会在重组过程后出售全部或部分挖矿业务。Celsius Mining抛售矿机势必会给已经下跌的矿机价格进一步造成下行压力。",
+          "link": "https://panewslab.com/zh/articledetails/q24spg1z.html",
+          "publishedOn": "2022-07-16T13:28:45.000Z",
+          "wordCount": 3114,
+          "title": "Celsius在在申请破产前出售了大约7000台矿机",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/ns0d7ptu.html",
+          "author": "PA一线",
+          "description": "PANews 7月16日消息，据CertiK监测，ELR疑似发生Rug Pull，价格暴跌80%。合约部署人员向EOA转移了大量的ELR，然后卖掉了所有代币。CetiK提醒用户保持警惕。",
+          "link": "https://panewslab.com/zh/articledetails/ns0d7ptu.html",
+          "publishedOn": "2022-07-16T13:24:43.000Z",
+          "wordCount": 3121,
+          "title": "CertiK：ELR疑似发生Rug Pull，价格暴跌80%",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/xqztc3pr.html",
           "author": "PA一线",
           "description": "PANews 7月16日消息，MetaMask在六周年公开内部数据，截至2022年3月，MetaMask月活用户已经达到3000 万。此外，用户处于领先地位的是美国、巴西和菲律宾，而开始使用并且增长最快的国家包括摩洛哥、阿拉伯联合酋长国、中国和土耳其。",
@@ -4207,26 +4227,6 @@
           "publishedOn": "2022-07-12T03:10:00.000Z",
           "wordCount": 108,
           "title": "CeFi暴雷后续：Celsius还贷保抵押品，三箭资本闭麦消失",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5180146",
-          "author": "星球君的朋友们",
-          "description": "原文作者：Yang\n原文编辑：Olivia\n原文来源：IOSG Ventures\n\n0.引子\n“数”中自有黄金屋，链上数据潜藏着无尽的Alpha。当我们跟随smart money闻风而动，当我们夜以继日地在NFT Paradise中寻找trending NFT，当我们查询StepN每日新鞋铸造数据时，你是否好奇这些数据如何而来？面对众多链上数据分析平台和纷繁复杂的功能，你是否还在寻找最适合自己的那个平台？\n1. 背景介绍\n随着链上生态的日益蓬勃，如DeFi交易、借贷，NFT的铸造、交易等，用户的行为被直接透明地记录在链上。这些链上行为的数据对应着链上价值的流动，对这些数据的分析和根据分析而得出的洞察和见解变得极为有价值。链上数据分析平台，如Nansen，Token Terminal，Dune Analytics，Footprint Analytics，flipsidecrypto, glassnode，Skew等顺应这些日益增长的需求，面向个人和机构用户推出了侧重点略有不同的产品。\n本文先将简述链上数据分析平台背后的数据架构，意在告诉读者那些链上数据分析结果从何而来，如何而来。随后我们从数据丰富度(覆盖区块链数量)、数据粒度、数据延迟、平台易用性和查询自由度等维度为读者梳理市场上主流的面向个人用户的数据分析平台。最后分享我们对Web3未来链上数据索引、查询和分析的一点畅想。\n2. 链上数据分析平台数据架构介绍\n虽然区块链记录着所有原始的交易数据，链上数据本身都是公开透明的，但当我们提出：过去24小时Uniswap的交易量是多少？当前百分之多少的BAYC持有者也同时持有至少一个Moonbirds?......等等问题时，链上原始数据并不能给我们答案，我们需要通过索引(indexing)，处理(processing)，存储(storage)等等一系列数据摄取(ingestion…",
-          "link": "https://www.0daily.com/post/5180146",
-          "publishedOn": "2022-07-12T02:40:53.000Z",
-          "wordCount": 108,
-          "title": "IOSG Ventures：链上数据分析平台现状与展望",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.0daily.com/post/5180145",
-          "author": "十文",
-          "description": "今早，CZ 发推提醒：我们团队在 ETH上的 Uniswap V3 上发现了一个潜在漏洞；到目前为止，黑客已经窃取了 4295 个 ETH，他们正在通过 Tornado Cash 洗钱，（我们）团队希望与 Uniswap 取得联系。\n经查询 CZ 提示中的智能合约地址发现：确实有一些 ETH 被从 Uniswap V3 上转出，但这似乎和普通的 LP 提款交易并无两样。如果上升到 Uniswap V3 自身漏洞，略有牵强。\n\n在 CZ 推文发布不久后，一名推特网友 @samczsun 表示，这不是 Uniswap V3 漏洞利用，而是一次成功的网络钓鱼活动。\n就在大家对此事展开热烈讨论时，CZ 又发了一个与 Uniswap V3 创始人的谈话截图，表示这确实是一次网络钓鱼攻击，因此导致批准了恶意交易的用户的一些 LP NFT 被非法获取，但这与 Uniswap V3 协议无关，协议是安全的。最后 CZ 表示抱歉，此次预警失败，希望大家保护自己免受网络钓鱼，不要点击恶意链接。\n\nCZ 这波操作不免让人产生迷惑。\n作为顶尖交易所，其预警团队在没有确认事实成因的情况下就妄下“预警”，在未私下询问 Uniswap 团队之前先发推求联系，会造成用户以及市场恐慌。\nUniswap V3 也确实受到不利影响。在此利空消息影响下，UNI 在二级市场的表现出现较大波动，最低一度跌至 $5.23，截止发文暂报为 $5.62。\nUniswap V3 作为 DEX 的龙头，拥有着有大量的流动性，其锁仓量一直位于前列，并呈不断增长趋势。在行业紧缩、龙头证明竞争的当下，CZ 的“小小乌龙”在社交媒体上容易被“过度解读”。\n\n\n当然也有网友表示，CZ 的做法没有错，如果不是这一重量级的行业大佬对此事件公开预警，Uniswap V3 团队可能也不会关注并迅速采取行动，CZ 的反应速度很快，用他的影响力让人…",
-          "link": "https://www.0daily.com/post/5180145",
-          "publishedOn": "2022-07-12T02:24:15.000Z",
-          "wordCount": 108,
-          "title": "Uniswap被盗？CZ吹哨？",
           "imageUrl": null
         }
       ]
