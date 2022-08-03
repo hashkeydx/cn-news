@@ -6,6 +6,156 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/u7genop2.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，针对Nomad合约漏洞事件，Layer2互操作性协议Connext发推称：“虽然4月Connext称其正在进行网络升级，以允许Connext使用Nomad基础设施进行通用消息传递，但此更改仍在测试网上，因此，Connext用户并未直接受到Nomad黑客攻击的影响。受影响方包括在受影响链上提供流动性的Connext路由器，Connext路由器在受影响链上总共持有3342744美元的madAssets。”",
+          "link": "https://panewslab.com/zh/articledetails/u7genop2.html",
+          "publishedOn": "2022-08-03T03:45:22.000Z",
+          "wordCount": 3203,
+          "title": "Connext：用户未直接受到Nomad攻击事件影响，Connext路由器损失约334万美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/z96500c6.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，派盾预警发推文称，似乎在Solana钱包遭攻击之前，一名用户的TrustWallet和Slope在Solana和以太坊上都发生了资金被盗，约8万美元资产（包括7美元ETH 、42000美元USDC、12000美元USDT , 6美元PAXG等）进入攻击者的以太坊地址。",
+          "link": "https://panewslab.com/zh/articledetails/z96500c6.html",
+          "publishedOn": "2022-08-03T03:41:21.000Z",
+          "wordCount": 3207,
+          "title": "派盾：黑客在攻击Solana钱包前盗取了TrustWallet和Slope用户8万美元资金",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/7x8zwx2h.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，Alavanche创始人Emin Gün Sirer发推称：“目前针对Solana生态系统的持续攻击仍在进行中，希望官方能快速澄清很多错误信息和猜测并恢复。此类攻击不仅会影响直接目标系统，还会通过侵蚀人们对行业的信心而间接影响行业中的每个人。”\nEmin Gün Sirer对此次事件分析称：“因为交易的签名是正确的，所以攻击者很可能已经获得了对私钥的访问权。一种可能的途径是供应链攻击，其中JS库被黑客入侵，并泄露（窃取）用户的私钥。受影响的钱包似乎是在过去约 9个月内创建的，但有报道称新创建的钱包也受到影响。IOTA受到这种攻击的影响，并且从未完全恢复。如果同一把钥匙在两个不同的人手中，则很难确定谁是合法所有者。停止区块链无济于事，当区块链恢复时攻击将恢复。”此外，Emin Gün Sirer也不认为攻击的原因是由于随机数生成器漏洞或零时差漏洞，他对Ava Labs的工程主管Patrick的观点表示赞同，即“一种潜在的随机数重用，最终会泄露私钥”。Emin Gün Sirer补充道：“这不是EVM风格的随机数，而是用于制作ecdsa签名的ps和qs。在所有情况下，硬件钱包和CEX（中心化交易所）似乎都没有受到影响，因此在这些系统上持有SOL资产的人应该没问题。”\n此前Patrick在推特上写道：“我想知道Solana项目正在使用的某些 ed25519签名库中是否存在nonce重用漏洞。我认为这将允许任何查看Solana的攻击者获得私钥，而不管私钥是在哪里生成的。 ”",
+          "link": "https://panewslab.com/zh/articledetails/7x8zwx2h.html",
+          "publishedOn": "2022-08-03T03:25:46.000Z",
+          "wordCount": 3229,
+          "title": "Alavanche创始人：Solana攻击事件或是源于随机数重用漏洞导致用户私钥泄露",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/8014flft.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，Solana Status官方发推文表示，来自多个生态系统的工程师正在几家安全公司的帮助下调查本次大规模钱包被盗事件，目前没有证据表明硬件钱包会受到影响，调查获得进展将尽快公布后续信息。",
+          "link": "https://panewslab.com/zh/articledetails/8014flft.html",
+          "publishedOn": "2022-08-03T02:53:20.000Z",
+          "wordCount": 3208,
+          "title": "Solana官方：正调查大规模钱包被盗事件，目前没有证据表明硬件钱包会受影响",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/vnrfdzm4.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，慢雾安全团队监测显示，目前为止共有超8000个Solana钱包被盗，约5.8亿美元流向以下4个地址。（PANews注，经证实，慢雾统计了某个基本无流动性的价值5.7亿美元的项目代币，因此实际被盗的资金应在千万左右。）\n地址一：Htp9MGP8Tig923ZFY7Qf2zzbMUmYneFRAhSp7vSg4wxV；\n地址二：CEzN7mqP9xoxn2HdyW6fjEJ73t7qaX9Rp2zyS6hb3iEu；\n地址三：5WwBYgQG6BdErM2nNNyUmQXfcUnB68b6kesxBywh1J3n；\n地址四：GeEccGJ9BEzVbVor1njkBCCiqXJbXVeDHaXDCrBDbmuy。\n慢雾称，目前攻击仍在进行，从交易特征上看，攻击者在没有使用攻击合约的情况下，对账号进行签名转账，初步判断是私钥泄露。不少受害者反馈，他们使用过多种不同的钱包，以移动端钱包为主，因此推测可能问题出现在软件供应链上。在新证据被发现前，慢雾建议用户先将热钱包代币转移到硬件钱包或知名交易所等相对安全的位置，等待事件分析结果。",
+          "link": "https://panewslab.com/zh/articledetails/vnrfdzm4.html",
+          "publishedOn": "2022-08-03T02:49:44.000Z",
+          "wordCount": 3208,
+          "title": "安全团队：超8000个Solana钱包被盗，资产流向4个地址",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/ksitupjq.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，据官方消息，昨日全球首个 GameFi-as-a-Service (GaaS) 平台Game Space已在Ethereum主网上集成了领先的去中心化预言机网络Chainlink的Price Feeds功能。Game Space可获得Chainlink提供的高质量、防篡改的Price Feeds，以提高NFT市场SDK的价格准确性，构建GameFi应用程序。\n据了解，Game Space集成了Chainlink Price Feeds许多关键功能，如高质量数据、安全的节点运营商、去中心化的网络以及高声誉系统。Game Space CEO Michael Cameron表示，“高质量的市场数据对多链生态系统的发展至关重要，而整合Chainlink Price Feeds是一项有价值的补充，本次集成将帮助Web2游戏在使用Game Space SDK进入Web3时，获得Game Space全套的技术及商业模式支撑，降低链游开发的时间和资金成本。”\n来源链接",
+          "link": "https://panewslab.com/zh/articledetails/ksitupjq.html",
+          "publishedOn": "2022-08-03T02:46:31.000Z",
+          "wordCount": 3267,
+          "title": "Game Space与Chainlink达成合作，集成Price Feeds可确保NFT市场SDK价格准确性",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/7r92pf91.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，Move to Earn应用STEPN官方发推文称，整个Solana生态系统似乎遭到了大规模的黑客攻击，因此提醒用户若将非托管钱包从外部导入/导出STEPN，需要检查那些钱包是否有任何资产丢失，从该钱包转移资产，或从STEPN应用程序中生成一个新的非托管钱包。",
+          "link": "https://panewslab.com/zh/articledetails/7r92pf91.html",
+          "publishedOn": "2022-08-03T02:45:45.000Z",
+          "wordCount": 3211,
+          "title": "STEPN提醒用户检查资产安全，建议在程序内生成新的非托管钱包",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/c8hpmw1b.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，推特用户@0xQuit 发推称，在OpenSea上以1 wei（ 1枚ETH相当于10的18次方 wei）的价格上架一个NFT，没有人能够买到它，但项目的地板价会相应地被更新。\n对此，OpenSea官方证实，@0xQuit指出的漏洞允许用户以低价（1 wei）上架项目，无法购买但会拉低NFT项目的地板价，OpenSea回应已经部署了一个修复程序，使各种规模的上架和报价都可以实现并立即生效。",
+          "link": "https://panewslab.com/zh/articledetails/c8hpmw1b.html",
+          "publishedOn": "2022-08-03T02:31:59.000Z",
+          "wordCount": 3218,
+          "title": "OpenSea已部署“低价上架NFT会影响项目地板价”漏洞的修复程序",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/pgz8tnzn.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，据Decrypt报道，OpenSea最新上线的NFT礼物赠送功能或存在Bug，这些NFT会被标记为“购买交易”，导致产生混淆。Metaverse HQ创始人“JakeandBake”表示，该功能已经被“利用”，让人们觉得许多公众人物正在购买各种NFT，进而引发市场跟从效应，导致人们被误导去购买某些NFT系列。\n目前OpenSea已承认该功能存在问题，但强调这个问题“不是漏洞利用”，而是“数据误解的结果”。 OpenSea补充说：“似乎第三方钱包追踪器错误地将这些行为归类为礼物接收者的购买行为。 ”而NFT钱包跟踪器Moby Insights表示，已经发布针对OpenSea新功能的修复程序。",
+          "link": "https://panewslab.com/zh/articledetails/pgz8tnzn.html",
+          "publishedOn": "2022-08-03T02:24:05.000Z",
+          "wordCount": 3216,
+          "title": "OpenSea NFT礼物赠送功能被误记为购买交易，官方回应称或系第三方追踪器标记有误",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/54mg611a.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，据The Block报道，Solana审计公司OtterSec在推特上表示，在过去的几个小时内，已经有超过5000个Solana钱包被耗尽，这证实了推特上许多人声称他们的余额已经消失的报道。OtterSec的分析显示，这些交易是由所有者签署的，该公司表示这表明存在私钥泄露。该漏洞利用还可能影响ETH用户。 另据报道，超过6个月不活跃的钱包似乎受到的打击最大。\n此前消息，Solana疑似因漏洞遭遇大规模攻击，Phantom称正在对此调查，且不认为这是Phantom特有的问题。",
+          "link": "https://panewslab.com/zh/articledetails/54mg611a.html",
+          "publishedOn": "2022-08-03T02:11:37.000Z",
+          "wordCount": 3209,
+          "title": "Solana审计公司：已有超5000个Solana钱包资金被盗，漏洞或还会影响ETH用户",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/06lepiec.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，据欧科云链OKLink分析报告显示，此次Nomad Bridge攻击事件共涉及1251个ETH 地址，涉及14个币种，涉案金额约1.9亿美金；其中包含12个ENS地址，ENS地址涉案金额超6980万美金，约占总金额的38%；在利用漏洞获利后，直接进行交易的地址数达739个，占比近60%。但并不是所有地址都是恶意攻击，已知已有白帽骇客公开表态愿意归还资金。\n相关阅读：Nomad黑客事件复盘：1.9亿美元被盗仅因一个低级错误",
+          "link": "https://panewslab.com/zh/articledetails/06lepiec.html",
+          "publishedOn": "2022-08-03T02:05:38.000Z",
+          "wordCount": 3212,
+          "title": "报告：Nomad事件涉1251个ETH地址，近60%地址获利后直接交易",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/0uxmqeqe.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，派盾预警监测，Cream Finance闪电贷攻击者地址将1473枚ETH转移至0x7c05开头的钱包地址。\n此前去年10月消息，DeFi协议Cream Finance遭闪电贷攻击，损失超1.3亿美元。",
+          "link": "https://panewslab.com/zh/articledetails/0uxmqeqe.html",
+          "publishedOn": "2022-08-03T02:03:27.000Z",
+          "wordCount": 3213,
+          "title": "派盾：Cream Finance攻击者地址再次转出1473枚ETH",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/ejq559vn.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，据Sporttechie报道，虚拟现实篮球应用Gym Class宣布完成800万美元种子轮融资，a16z领投，Y Combinator参投。这款应用已上线Meta Quest App Lab，计划于今年秋季Meta Quest Store上推出。\n据悉，Gym Class支持用户佩戴Quest VR组成8人战队在线打篮球。玩家通过自己的身体动作控制化身，并手持Quest控制器在可定制数字球场上进行投篮、传球、运球和扣篮。游戏中的化身会重复用户在现实生活中的跳跃等动作。",
+          "link": "https://panewslab.com/zh/articledetails/ejq559vn.html",
+          "publishedOn": "2022-08-03T01:58:17.000Z",
+          "wordCount": 3228,
+          "title": "虚拟现实篮球应用Gym Class完成800万美元种子轮融资，a16z领投",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/3jf87kx4.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，据The Block报道，PayPal周二公布第二季度财报，收益表现超出分析师预期。根据Seeking Alpha的数据，交易收入为62.7亿美元，较上年同期增长8%，占所有收入的92%，其中包括购买和出售加密货币的费用。该公司报告的总收入为68亿美元，同比增长9%，超出预期2000万美元，非GAAP每股收益为0.93美元，超出预期0.06美元。2022年收入预计将超过270亿美元，而2021年的收入约为250亿美元。\n此外，知名对冲基金Elliott Investment Management披露其持有PayPal 20亿美元的股份，成为其最大的投资方之一。",
+          "link": "https://panewslab.com/zh/articledetails/3jf87kx4.html",
+          "publishedOn": "2022-08-03T01:53:53.000Z",
+          "wordCount": 3215,
+          "title": "PayPal第二季度交易收入占比达92%，其中包括加密货币相关收入",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/697qq0n5.html",
+          "author": "PA一线",
+          "description": "PANews 8月3日消息，据彭博社报道，专注于区块链生态系统的韩国投资机构Hashed计划在明年上半年筹资第三只风险投资基金，并寻求加大对GameFi项目的投资。Hashed首席执行官Seo-jun Kim认为，虚拟游戏世界将越来越多地与实体经济相互联系，因为区块链技术和NFT代币可以让用户在应用程序中认领他们购买的物品；这可以创造大量的工作岗位，因为资产可在虚拟世界和现实世界之间进行交换。\nKim称其不打算放慢对该行业的投资步伐，Hashed已经动用了去年12月筹集的2,400亿韩元(约合1.8亿美元)资金的一半以上，一旦剩下的资金用完，就会开始筹集一个新的工具。Kim还表示，他并未对遭受重创的行业失去信心，在科技领域，没有能够保证成功的投资组合，公司在进行投资时考虑到这一点，相信社区的发展，这一点从未改变。\n此前消息，Hashed或在UST和Luna崩溃中损失了超35亿美元。",
+          "link": "https://panewslab.com/zh/articledetails/697qq0n5.html",
+          "publishedOn": "2022-08-03T01:49:02.000Z",
+          "wordCount": 3206,
+          "title": "Hashed拟在明年上半年筹资第三只风投基金，将加大对GameFi项目的投资",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/p7rlka01.html",
           "author": "PA一线",
           "description": "PANews 8月3日消息，Decaf开发者@JuanRdBO在推特上回应此前Magic Eden发布的SOL漏洞称，这不是受信任应用的问题。如果用户曾与DeJBGdMFa1uynnnKiwrVioatTuHmNLpyFKnmB5kaFdzQ进行过交互（Phantom在创建钱包时与之交互），钱包就会遭受入侵。\n此前消息，Solana疑似因漏洞遭遇大规模攻击，Phantom称正在对此调查。Magic Eden对此提醒用户进行以下设置保护个人资产：1. 进入Phantom钱包设置页面；2. 点击受信任的应用（Trusted Apps）；3. 撤销任何可疑链接的权限。",
@@ -1634,26 +1784,6 @@
           "wordCount": 3155,
           "title": "Upfront Ventures三支新基金融资6.5亿美元，将关注金融科技等领域",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/889jbum0.html",
-          "author": "PA一线",
-          "description": "PANews 7月29日消息，嘉楠耘智高管在接受采访时详细介绍了其在哈萨克斯坦试点采矿业务的成功，并分享了将业务扩展到美国的计划。截至2022年第一季度，该公司的收入为2.13亿美元，持有近167个比特币，截至发稿时价值接近400万美元。",
-          "link": "https://panewslab.com/zh/articledetails/889jbum0.html",
-          "publishedOn": "2022-07-29T16:02:32.000Z",
-          "wordCount": 3089,
-          "title": "矿机制造商嘉楠耘智将在美国启动挖矿业务",
-          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/dzs65p4t.html",
-          "author": "PA一线",
-          "description": "PANews 7月29日消息，据U.today报道，狗狗币社区已针对声称与狗狗币及其狗狗区块浏览器相关的诈骗发出警告。狗狗币团队在其官方推特账号上发布了一条警告 ：“过去九年有很多代币来来去去很快，但只有一个狗狗币，也就是它的区块链，并且与任何代币没有直接关联。谨防冒名顶替者。”\n据悉，有争议的项目是“Dogechain”，它声称将 NFT 和 DeFi 等实用程序带入 Dogecoin，它说这是通过将“包装好的 DOGE 代币放在智能合约桥上”来实现的。 然而，狗狗币开发者社区提出了几个关于该项目的危险信号，发现完全脱离了初衷。以狗狗币为重点的流行推特账户 Mishaboar 警告狗狗币用户不要将他们的狗狗币放在任何此类“桥梁”中。此前狗币盗版 TeddyDoge (TEDDY) 的价格在一天内下跌了 99.94% 以上，结果被证明是一场骗局。另一个模仿者，DogeMother，在其价格下跌 91% 时被证明是一个蜜罐骗局。",
-          "link": "https://panewslab.com/zh/articledetails/dzs65p4t.html",
-          "publishedOn": "2022-07-29T15:57:43.000Z",
-          "wordCount": 3161,
-          "title": "狗狗币社区发布关于防诈骗代币的警报",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -1662,6 +1792,96 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/flash/96036",
+          "author": null,
+          "description": "BlockBeats 消息，8 月 3 日，去中心化视觉数字身份 (DID) 解决方案提供商 Lifeform 宣布完成完成种子轮融资，Binance Labs 领投。Lifeform 现有核心技术包括：逼真的 3D 头像创建工具，视觉 DID 协议，安全和创新的合约解决方案，基于去中心化身份系统的 Web3 头像，元宇宙引擎软件开发工具包（SDK）。\n\nBinance Labs 投资总监 Mia Mai 表示：「随着用户从 Web2 迁移到 Web3，他们的在线形象将从数字模拟过渡到数字原生。Lifeform 的底层技术为用户提供了一种独特的方式来表达他们的个性，并最终允许用户在共生生态系统中寻求繁荣的愿景。我们期待与 Lifeform 密切合作，以支持 Web3 数字公民。」",
+          "link": "https://www.theblockbeats.info/flash/96036",
+          "publishedOn": "2022-08-03T03:19:46.000Z",
+          "wordCount": null,
+          "title": "DID解决方案提供商Lifeform完成种子轮融资，Binance Labs领投",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/96033",
+          "author": null,
+          "description": "BlockBeats 消息，8 月 3 日，Layer2 互操作性协议 Connext 针对 Nomad 合约漏洞事件在其社交平台发文表示，Connext 用户并未直接受到 Nomad 黑客攻击的影响。\n\n因 Nomad 漏洞影响了在链上持有资产的各方，Connext 暂时停止对 Moonbeam、Evmos 和 Milkomeda 链的支持，其中 Connext 路由器在上述链上总共持有 3,342,744 美元的 madAssets。Polygon、Avalanche、Arbitrum、Optimism、BNB、Fuse、Fantom、Gnosis、Moonriver 和 Ethereum 未受此事件影响，在 Connext 网络中继续运行。",
+          "link": "https://www.theblockbeats.info/flash/96033",
+          "publishedOn": "2022-08-03T03:12:46.000Z",
+          "wordCount": null,
+          "title": "Connext：用户未直接受到Nomad黑客攻击影响，Connext路由器损失约334万美元的资产",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/96030",
+          "author": null,
+          "description": "BlockBeats 消息，8 月 3 日，Solana Status 官方在社交媒体上发文表示，来自多个生态系统的工程师正在几家安全公司的帮助下调查本次大规模钱包被盗事件，目前没有证据表明硬件钱包会受到影响，调查获得进展将尽快公布后续信息。",
+          "link": "https://www.theblockbeats.info/flash/96030",
+          "publishedOn": "2022-08-03T02:49:46.000Z",
+          "wordCount": null,
+          "title": "Solana官方：工程团队正在安全公司的协助下调查本次事件",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/96027",
+          "author": null,
+          "description": "BlockBeats 消息，8 月 3 日，慢雾监测显示，目前为止共有超 8000 个 Solana 钱包被盗，约 5.8 亿美元流向以下 4 个地址：\n\n地址一：Htp9MGP8Tig923ZFY7Qf2zzbMUmYneFRAhSp7vSg4wxV\n地址二：CEzN7mqP9xoxn2HdyW6fjEJ73t7qaX9Rp2zyS6hb3iEu\n地址三：5WwBYgQG6BdErM2nNNyUmQXfcUnB68b6kesxBywh1J3n\n地址四：GeEccGJ9BEzVbVor1njkBCCiqXJbXVeDHaXDCrBDbmuy",
+          "link": "https://www.theblockbeats.info/flash/96027",
+          "publishedOn": "2022-08-03T02:41:46.000Z",
+          "wordCount": null,
+          "title": "慢雾：超8000个Solana钱包被盗，约5.8亿美元流向4个地址",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/96024",
+          "author": null,
+          "description": "BlockBeats 消息，8 月 3 日，STEPN 在其社交平台提醒用户检查各自账户资产是否安全。如果用户曾将非托管钱包导入 STEPN 或从 STEPN 导出，建议用户将资产从该钱包中转出，并在 STEPN app 中生成新的非托管钱包以保证安全。",
+          "link": "https://www.theblockbeats.info/flash/96024",
+          "publishedOn": "2022-08-03T02:36:46.000Z",
+          "wordCount": null,
+          "title": "STEPN提醒用户检查资产安全，建议在程序内生成新的非托管钱包",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/96021",
+          "author": null,
+          "description": "BlockBeats 消息，8 月 3 日，区块链审计安全团队 OtterSec 在社交媒体上发文表示，过去几个小时内有超过 5000 个 Solana 钱包资金被盗取，OtterSec 分析显示，这些交易是由实际所有者签署，表明存在私钥泄露。该漏洞还可能影响 ETH 用户。",
+          "link": "https://www.theblockbeats.info/flash/96021",
+          "publishedOn": "2022-08-03T02:33:46.000Z",
+          "wordCount": null,
+          "title": "OtterSec：超5000个Solana钱包资金被盗，漏洞或影响ETH用户",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/96018",
+          "author": null,
+          "description": "BlockBeats 消息，8 月 3 日，以太坊 L2 NFT 平台 Mint Square 宣布上线 StarkNet 主网。用户可通过 Argent X 钱包和 Braavos 钱包登录平台，并进行 NFT 铸造。",
+          "link": "https://www.theblockbeats.info/flash/96018",
+          "publishedOn": "2022-08-03T02:25:46.000Z",
+          "wordCount": null,
+          "title": "以太坊L2 NFT平台Mint Square上线StarkNet主网",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/96015",
+          "author": null,
+          "description": "BlockBeats 消息，8 月 3 日，据彭博社报道，韩国风投公司 Hashed 计划在明年上半年筹集第三只风险投资基金，并增加对 GameFi 项目的投资。\n\nBlockBeats 此前报道，5 月 19 日，韩国加密风投公司 Hashed 在 Terra 危机中或损失超 35 亿美元。",
+          "link": "https://www.theblockbeats.info/flash/96015",
+          "publishedOn": "2022-08-03T02:20:46.000Z",
+          "wordCount": null,
+          "title": "Hashed计划明年上半年筹集第三只风投基金，并增加对GameFi项目投资",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/96012",
+          "author": null,
+          "description": "BlockBeats 消息，8 月 3 日，Solana 生态钱包 Phantom 在社交媒体上发文表示正在与其他团队密切合作，以查明报告的 Solana 生态系统漏洞。目前，团队认为这不是 Phantom 特有的问题。一旦收集到更多信息，将发布更新。\n\nBlockBeats 此前报道，Solana 生态 NFT 市场 Magic Eden 在社交媒体上发布警告称，似乎有一个波及面极广的 SOL 漏洞，正在耗尽整个生态系统的钱包。Magic Eden 提醒用户进行以下设置保护个人资产：1. 进入 Phantom 钱包设置页面；2. 点击受信应用；3. 撤销任何可疑链接的权限。",
+          "link": "https://www.theblockbeats.info/flash/96012",
+          "publishedOn": "2022-08-03T02:20:46.000Z",
+          "wordCount": null,
+          "title": "Phantom：正在与其他团队合作查明漏洞，不是Phantom特有问题",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/flash/95994",
           "author": null,
@@ -2660,36 +2880,6 @@
           "publishedOn": "2022-07-29T17:33:06.000Z",
           "wordCount": null,
           "title": "RevokeCash发布开源浏览器插件，将以弹窗提示可疑授权",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/95445",
-          "author": null,
-          "description": "BlockBeats 消息，7 月 30 日，P2E 游戏 Players' Lounge 宣布已完成 1050 万美元的 A 轮融资，Griffin Gaming Partners 与 Comcast Ventures 领投，Samsung Next、Vice Ventures、WndrCo、Sharp Alpha Partners、True Capital、NFL 巨星 Myles Garrett、Josh Norman 和 Breanna Stewar 等参投。\n\nPlayers' Lounge 帮助玩家通过玩 AAA 视频游戏来获取收益，且彼此之间不会存在竞争关系。此前该公司还获得了 Drake、Strauss Zelnick、Merissa Mayer、Comcast、Macro Ventures、Canaaan、RRE 和 Courtside 等参投的 300 万美元投资。",
-          "link": "https://www.theblockbeats.info/flash/95445",
-          "publishedOn": "2022-07-29T16:15:39.000Z",
-          "wordCount": null,
-          "title": "P2E游戏Players' Lounge完成1050万美元A轮融资，Griffin Gaming Partners与Comcast Ventures领投",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/95433",
-          "author": null,
-          "description": "BlockBeats 消息，7 月 29 日，加密对冲基金 Smrti Lab 已经推出了一个规模为 9000 万美元的新基金，其投资策略包括投资对冲基金和做空新兴加密货币 Token、Web3 初创公司种子投资与采取积极策略的加密货币计价基金。Smrti Lab 联合创始人 Wang Bowen 表示，新基金没有规模上限，也没有投资时间限制，并计划从包括大型金融机构在内的外部投资者那里筹集更多资金。\n\n据悉，Smrti Lab 成立于 2021 年，真格基金创始人徐小平作为基石投资人，目前累计资管规模为 1.4 亿美元，支持者包括天使投资人王刚、策源创投联合创始人冯波、渶策资本创始合伙人甘剑平等。其投资策略包括投资对冲基金和做空新兴加密货币 Token、Web3 初创公司种子投资与采取积极策略的加密货币计价基金。",
-          "link": "https://www.theblockbeats.info/flash/95433",
-          "publishedOn": "2022-07-29T15:32:39.000Z",
-          "wordCount": null,
-          "title": "加密对冲基金Smrti Lab推出规模为9000万美元的新基金",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/95430",
-          "author": null,
-          "description": "BlockBeats 消息，7 月 29 日，Glassnode 与 CoinMarketCap 发布联合报告指出，2022 年的加密熊市对所有数字资产投资者来说都是一个挑战，广泛的去杠杆化是对市场预期的一次重大调整，并且是市场内许多结构性转变的根源。链上和链下市场积累的大部分过度杠杆已被去杠杆化，DeFi 锁定的总价值下降了 71.5%。",
-          "link": "https://www.theblockbeats.info/flash/95430",
-          "publishedOn": "2022-07-29T15:32:39.000Z",
-          "wordCount": null,
-          "title": "报告：链上和链下市场积累的大部分过度杠杆已被去杠杆化",
           "imageUrl": null
         }
       ]
