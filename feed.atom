@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-08-06T12:14:02.289Z</updated>
+    <updated>2022-08-06T13:19:00.766Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[安全团队：GenomesDAO遭攻击因合约可被任意重复初始化设置关键参数]]></title>
+        <id>https://panewslab.com/zh/articledetails/5rit2a09.html</id>
+        <link href="https://panewslab.com/zh/articledetails/5rit2a09.html"/>
+        <updated>2022-08-06T13:03:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月6日消息，Polygon生态项目GenomesDAO遭受黑客攻击，导致其LPSTAKING合约中资金被非预期的取出。慢雾安全团队分析如下：
+1. 由于GenomesDAO的LPSTAKING合约的initialized函数公开可调用且无权限与不可能重复初始化限制，攻击者利用initialized函数将合约的stakingToken设置为攻击者创建的虚假LP代币。
+2. 随后攻击者通过stake函数进行虚假LP代币的抵押操作，以获得大量的LPSTAKING抵押凭证。
+3. 获得凭证后再次通过initialized函数将合约的stakingToken设置为原先真是的LP代币，随后通过withdraw函数销毁LPSTAKING凭证获取合约中真实的LP抵押物。
+4. 最后将LP发送至DEX中移除流动性获利。
+本次事件是因为GenomesDAO的LPSTAKING合约可被任意重复初始化设置关键参数而导致合约中的抵押物被恶意耗尽。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[STEPN ：在APE REALM强化Sneaker将有50%几率强化成为创世Sneaker]]></title>
         <id>https://www.theblockbeats.info/flash/96828</id>
@@ -5167,90 +5182,6 @@ CoinGecko 数据显示，24 小时内 EVMOS Token 上涨 116.7%。]]></summary>
         <updated>2022-08-02T01:21:30.000Z</updated>
         <summary type="html"><![CDATA[PANews 8月2日消息，据SEC官网，美国证券交易委员会（SEC）指控11人参与创建和推广Forsage，称这是一个筹集超过3亿美元的欺诈性的全球加密金字塔和庞氏骗局。
 被指控的人包括Forsage的四位创始人，他们于2020年1月推出Forsage网站，允许数百万散户投资者通过智能合约在以太坊、TRON、BSC链进行交易，投资者通过招募其他人加入该计划来赚取利润，同时使用新投资者的资产以典型的庞氏骗局结构向早期投资者付款。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celsius客户已聘请联合法律顾问，索赔约1.8亿美元资产]]></title>
-        <id>https://www.theblockbeats.info/flash/95769</id>
-        <link href="https://www.theblockbeats.info/flash/95769"/>
-        <updated>2022-08-02T01:14:21.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，8 月 2 日，据 CoinDesk 报道，加密借贷公司 Celsius Network 的客户已经联合聘请法律顾问，索赔约 1.8 亿美元的客户资产，占锁定在 Celsius Network 总资产的 4%。索赔者已筹集近 10 万美元以寻求企业重组公司的服务。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moonbeam：网络已进入维护模式以调查智能合约安全事件]]></title>
-        <id>https://panewslab.com/zh/articledetails/z8e5e3e4.html</id>
-        <link href="https://panewslab.com/zh/articledetails/z8e5e3e4.html"/>
-        <updated>2022-08-02T01:11:36.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月2日消息，波卡生态智能合约平台Moonbeam Network在官方推特上表示，其网络已进入维护模式，以调查所部署的智能合约的安全事件。在此期间，部分功能将受到限制，用户将无法执行常规交易和智能合约交互，治理、质押、取消暂停和升级的功能将继续有效，官方将很快提供更详细的更新。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moonbeam：网络已进入维护模式，以调查所部署的智能合约的安全事件]]></title>
-        <id>https://www.theblockbeats.info/flash/95766</id>
-        <link href="https://www.theblockbeats.info/flash/95766"/>
-        <updated>2022-08-02T01:08:20.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，8 月 2 日，波卡生态智能合约平台 Moonbeam Network 官方表示，其网络已进入维护模式，以调查所部署的智能合约的安全事件。在此期间，部分功能将受到限制，用户将无法执行常规交易和智能合约交互，治理、质押、取消暂停和升级的功能将继续有效，官方将很快提供更详细的更新。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celsius托管客户联合聘请律师委托其向Celsius索赔1.8亿美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/ag9xfg4y.html</id>
-        <link href="https://panewslab.com/zh/articledetails/ag9xfg4y.html"/>
-        <updated>2022-08-02T01:07:38.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月2日消息，据CoinDesk报道，在已宣布破产的加密借贷平台Celsius Network托管加密货币账户的客户已联合起来聘请法律顾问，这些托管索赔人的资产约为1.8亿美元，仅占Celsius锁定的总资产的4%。他们正在寻求企业重组公司Togut, Segal & Segal LLP的合伙人Kyle J. Ortiz的帮助。自第一次破产听证会以来的几周内，这个特设小组的成员已经增加到300多人，并筹集了近10万美元的律师费。
-破产听证会在6月份冻结了客户账户，原因是Celsius资产负债表上出现了12亿美元的漏洞，这引发了一场特定索赔类型的较量，包括老客户、主要机构债权人和股权持有人。507 Capital创始人Thomas Braziel表示，这些债权人担心，代表摄氏度聘请的Kirkland & Ellis律师事务所可能只是在告诉他们他们想听的东西，而没有做太多支持他们的事情，如Kirkland & Ellis并没有像Voyager Digital事件那样提出以法定货币返还资金的动议，而是让法院自行作出裁定。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[去中心化存储W3BCloud将通过SPAC上市，合并后估值达12.5亿美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/7kmga992.html</id>
-        <link href="https://panewslab.com/zh/articledetails/7kmga992.html"/>
-        <updated>2022-08-02T00:51:09.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月2日消息，据Businesswire报道，去中心化存储W3BCloud宣布将通过SPAC方式上市，其已与与特殊目的收购公司（SPAC）Social Leverage Acquisition Corp I（SLAC）达成最终合并业务协议。交易完成后，公司将命名为W3BCLOUD, Inc.。交易预计将于2022年第四季度完成，其中包括SEC审查、SLAC股东的批准、监管部门的批准以及满意度其他惯例成交条件。
-这笔交易使合并后的公司的企业估值达到12.5亿美元。该公司将从SLAC的信托现金中获得高达3.45亿美元的收益(假设没有赎回)。 此外，W3BCloud已经从ConsenSys、SK Inc.和其他公司获得了4000万美元的承诺，用于与该交易相关的新投资，并与AMD达成了额外1000万美元股权投资的协议，每笔投资都有特定的条件。 双方打算在公告发布后再筹集至多1亿美元的资金。
-据悉， W3BCloud提供存储、质押和计算基础设施服务，成立于2018年，是AMD、ConsenSys和公司创始人的合资企业。ConsenSys创始人兼以太坊联合创始人Joseph Lubin在W3BCloud董事会任职。该公司报告显示，其位于美国的七个数据中心去年销售额达4000万美元，其中85%使用可再生能源。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase Prime面向美国机构客户推出以太坊质押服务]]></title>
-        <id>https://www.theblockbeats.info/flash/95751</id>
-        <link href="https://www.theblockbeats.info/flash/95751"/>
-        <updated>2022-08-02T00:41:20.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，8 月 2 日，Coinbase 发布公告表示，已通过 Coinbase Prime 面向美国机构客户推出以太坊质押服务。Coinbase Prime 为机构提供端到端的质押体验，客户可以从其 Coinbase Prime 账户的 ETH 资产页面创建钱包、自行决定质押数量并启动质押。Coinbase Prime 还提供对包括 Solana、Polkadot、Cosmos、Tezos 和 Celo 在内的 Token 质押。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欧元Stablecoin规模自2020年至今增长1683%]]></title>
-        <id>https://www.theblockbeats.info/flash/95757</id>
-        <link href="https://www.theblockbeats.info/flash/95757"/>
-        <updated>2022-08-02T00:41:20.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，8 月 2 日，据 Bitcoin.com 报道，锚定欧元的 Stablecoin 发行量已从 2020 年 1 月 3 日的价值 3190 万美元增涨至如今的 5.69 亿美元，增长了 1683%。自 2021 年 11 月以来，欧元 Stablecoin 的数额增涨了 85.34%，但自 2022 年 1 月至今，欧元 Stablecoin 的数额在过去七个月中下降了 14.17%。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase将上线SuperRare (RARE)和TE-Food (TONE)]]></title>
-        <id>https://panewslab.com/zh/articledetails/3xgkx54n.html</id>
-        <link href="https://panewslab.com/zh/articledetails/3xgkx54n.html"/>
-        <updated>2022-08-02T00:27:43.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月2日消息，据官方推特，Coinbase将上线SuperRare (RARE)和TE-Food (TONE) ，并将这两个代币归类为“实验性资产”。如果满足流动性条件，交易将于太平洋时间8月2日9:00（北京时间8月3日0:00）或之后开始。如果建立了足够的该资产供应，RARE-USD、RARE-USDT、TONE-USD和TONE-USDT交易对的交易将分阶段开放。
-注意：Coinbase仅在以太坊网络（ERC-20代币）上支持SuperRare (RARE)和TE-Food (TONE)，不要通过其他网络发送此资产，否则资金可能会丢失。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
