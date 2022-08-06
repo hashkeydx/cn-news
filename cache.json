@@ -6,6 +6,26 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/z1kj6559.html",
+          "author": "PA一线",
+          "description": "PANews 8月6日消息，据The Block报道，加密交易所火币表示，只要满足五个要求，它将在网络计划切换到股权证明 (PoS) 共识后上线以太坊的任何硬分叉。火币周五在一篇博文中写道，只要分叉的资产符合其安全要求，将率先支持用户持有资产并获得奖励，在全面了解用户意见后，将根据规则尽快提供这些交易服务。在硬分叉开始之前，需要发布一款通过公开测试和评估的官方客户端软件。",
+          "link": "https://panewslab.com/zh/articledetails/z1kj6559.html",
+          "publishedOn": "2022-08-06T15:42:54.000Z",
+          "wordCount": 3267,
+          "title": "火币计划上线符合其安全要求的以太坊硬分叉",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/9row5cg6.html",
+          "author": "PA一线",
+          "description": "PANews 8月6日消息，巴菲特旗下的伯克希尔哈撒韦公司在第二季度录得438亿美元的亏损，其中投资组合在市场暴跌中损失了530亿美元。汽车保险公司Geico公布的承保损失为4.87亿美元，原因是通胀和二手车价格上涨导致修理和更换受损车辆的成本增加。另外，巴菲特第二季度减少了股票回购，因其企业集团将其现金储备用于购买其他公司的股份。该公司在第二季度回购了约10亿美元的股票，低于第一季度的32亿美元；现金储备变动不大，截至第二季度为1054亿美元，而截至第一季度为1060亿美元。",
+          "link": "https://panewslab.com/zh/articledetails/9row5cg6.html",
+          "publishedOn": "2022-08-06T15:36:21.000Z",
+          "wordCount": 3258,
+          "title": "巴菲特公司投资组合第二季度亏损530亿美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/5rit2a09.html",
           "author": "PA一线",
           "description": "PANews 8月6日消息，Polygon生态项目GenomesDAO遭受黑客攻击，导致其LPSTAKING合约中资金被非预期的取出。慢雾安全团队分析如下：\n1. 由于GenomesDAO的LPSTAKING合约的initialized函数公开可调用且无权限与不可能重复初始化限制，攻击者利用initialized函数将合约的stakingToken设置为攻击者创建的虚假LP代币。\n2. 随后攻击者通过stake函数进行虚假LP代币的抵押操作，以获得大量的LPSTAKING抵押凭证。\n3. 获得凭证后再次通过initialized函数将合约的stakingToken设置为原先真是的LP代币，随后通过withdraw函数销毁LPSTAKING凭证获取合约中真实的LP抵押物。\n4. 最后将LP发送至DEX中移除流动性获利。\n本次事件是因为GenomesDAO的LPSTAKING合约可被任意重复初始化设置关键参数而导致合约中的抵押物被恶意耗尽。",
@@ -2684,86 +2704,6 @@
           "wordCount": 3225,
           "title": "派盾：0xC994开头的Nomad攻击地址将近3800枚ETH转入Tornado.Cash",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/67mfujoc.html",
-          "author": "PA一线",
-          "description": "PANews 8月2日消息，据慢雾区消息，跨链互操作协议Nomad桥遭受黑客攻击，导致资金被非预期的取出。慢雾安全团队对于Nomad桥攻击事件进行了简析：1. 在Nomad的Replica合约中，用户可以通过send函数发起跨链交易，并在目标链上通过process函数进行执行。在进行process操作时会通过acceptableRoot检查用户提交的消息必须属于是可接受的根，其会在prove中被设置。因此用户必须提交有效的消息才可进行操作。2. 项目方在进行Replica合约部署初始化时，先将可信根设置为0，随后又通过update函数对可信根设置为正常非0数据。Replica合约中会通过confirmAt映射保存可信根开始生效的时间以便在acceptableRoot中检查消息根是否有效。但在update新根时却并未将旧的根的confirmAt设置为0，这将导致虽然合约中可信根改变了但旧的根仍然在生效状态。3. 因此攻击者可以直接构造任意消息，由于未经过prove因此此消息映射返回的根是0，而项目方由于在初始化时将0设置为可信根且其并未随着可信根的修改而失效，导致了攻击者任意构造的消息可以正常执行，从而窃取Nomad桥的资产。\n综上，本次攻击是由于Nomad桥Replica合约在初始化时可信根被设置为0x0，且在进行可信根修改时并未将旧根失效，导致了攻击可以构造任意消息对桥进行资金窃取。",
-          "link": "https://panewslab.com/zh/articledetails/67mfujoc.html",
-          "publishedOn": "2022-08-02T04:07:37.000Z",
-          "wordCount": 3224,
-          "title": "慢雾：Nomad桥攻击源于Replica合约可信根被设为0x0，且在修改时未将旧根失效",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/z60vi843.html",
-          "author": "PA一线",
-          "description": "PANews 8月2日消息，派盾监测显示，Nomad跨链桥攻击者之一是Rari Capital被盗事件的黑客，他在此次Nomad攻击中获利约300万美元。\n此前消息，今年4月份Rari Capital在Fuse上的资金池遭到攻击，黑客获利近8000万美元。今日早间消息，Nomad遭遇黑客攻击，其代币桥内的1.9亿美元资金几乎全部耗尽。",
-          "link": "https://panewslab.com/zh/articledetails/z60vi843.html",
-          "publishedOn": "2022-08-02T03:46:59.000Z",
-          "wordCount": 3234,
-          "title": "派盾：Rari Capital攻击者参与了此次Nomad桥攻击，获利约300万美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/mcynqaro.html",
-          "author": "PA一线",
-          "description": "PANews 8月2日消息，波卡生态智能合约平台Moonbeam Network发推表示，调查发现没有证据表明最近的安全事件与Moonbeam代码库有关，所以网络维护模式已结束，并已恢复全部功能，现在网络照常运行。\n此前消息，Nomad遭遇黑客攻击，其代币桥内的1.9亿美元资金几乎全部耗尽。Moonbeam随后发推表示网络进入维护模式，以调查所部署的智能合约的安全事件。",
-          "link": "https://panewslab.com/zh/articledetails/mcynqaro.html",
-          "publishedOn": "2022-08-02T03:42:22.000Z",
-          "wordCount": 3225,
-          "title": "Moonbeam：未发现安全问题，已结束网络维护并恢复全部功能",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/aub5ooqw.html",
-          "author": "PA一线",
-          "description": "PANews 8月2日消息，Kava Labs联合创始人兼首席执行官Scott Stuart发推表示，Kava11将于9月8日推出，此外首个完全可转换的质押协议Liquid bKAVA也将同步推出。\nScott Stuart还表示，与其它只能支持一小部分流动质押资产转换的流动质押形式不同，Liquid bKAVA可以处理质押KAVA到Liquid bKAVA的100%转换，该设计为Kava协议首创。",
-          "link": "https://panewslab.com/zh/articledetails/aub5ooqw.html",
-          "publishedOn": "2022-08-02T03:40:13.000Z",
-          "wordCount": 3253,
-          "title": "Kava Labs CEO：将于9月8日推出Kava 11和质押协议Liquid bKAVA",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/u49aq8ji.html",
-          "author": "PA一线",
-          "description": "PANews 8月2日消息，Blockworks研究员Sam发推文称：“Polygon代币归属合约于9小时前释放约14亿枚MATIC，占总供应量的14%。”对此Polygon联合创始人Sandeep表示：“此次移动符合计划，代币已于一年前解锁，此次移动是质押活动与基金会金库计划。将于明天发布重大公告。”",
-          "link": "https://panewslab.com/zh/articledetails/u49aq8ji.html",
-          "publishedOn": "2022-08-02T03:32:16.000Z",
-          "wordCount": 3224,
-          "title": "Polygon联创：14亿枚MATIC移动与质押活动与基金会金库计划有关，非合约解锁",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/idfyvu92.html",
-          "author": "PA一线",
-          "description": "PANews 8月2日消息，Helium联合创始人兼Nova Labs首席执行官Amir Haleem发推表示，Helium花了很多时间与一些品牌合作，数月的试验、实验、原型设计、销售工程，得到了这些合作的团队的口头批准以宣传和突出这些活动，但Helium的无许可网络方式意味着与品牌和公司没有正式的商业合作伙伴关系，而且他们并不总是清楚试验或试点何时结束。\n此前消息，去中心化无线网络公司Helium没有与美国共享出行公司Lime和美国软件巨头Salesforce建立合作伙伴关系，却将这两家公司的徽标在其网站上突出显示。",
-          "link": "https://panewslab.com/zh/articledetails/idfyvu92.html",
-          "publishedOn": "2022-08-02T03:23:22.000Z",
-          "wordCount": 3225,
-          "title": "Helium联创：宣传系得到合作方口头批准，无正式商业合作关系",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/1971710y.html",
-          "author": "PA一线",
-          "description": "PANews 8月2日消息，成都链安链必应-区块链安全态势感知平台舆情监测显示，跨链通讯协议Nomad遭遇攻击，成都链安安全团队现将解析结果分享如下，通过被攻击合约(0x88a69b4e698a4b090df6cf5bd7b2d47325ad30a3)的转账交易看到，许多地址都进行了攻击。通过找到一笔相关交易，可以到看到攻击者利用了（0xb36f6479b1aa5582ce862bfb6eb94591e1b0e0b977188c2e8ca85699efcd6183）合约中的process函数进行提取。\n在process函数中，可以看到合约对_messageHash进行了判断，而输入的messages[_messageHash]为0x000000....时，相当于任何未使用的hash，都可以判断通过。然后跟进acceptableRoot函数，因为_root设置为零(0x000000....),而confirmAt[_root]等于1，导致判断恒成立，攻击者就能提取资金。\n此前消息，此前消息，Nomad遭遇黑客攻击，其代币桥内的1.9亿美元资金几乎全部耗尽。",
-          "link": "https://panewslab.com/zh/articledetails/1971710y.html",
-          "publishedOn": "2022-08-02T03:15:59.000Z",
-          "wordCount": 3222,
-          "title": "安全团队：Nomad攻击者利用了合约中的process函数提取资金",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/87y2sc6g.html",
-          "author": "PA一线",
-          "description": "PANews 8月2日消息，以太坊客户端Lighthouse发布新版本v2.5.0，参与Goerli/Prater合并的验证节点必须在此次合并之前升级至该最新版本，它已是功能完备的支持合并的版本。\n此前消息，以太坊发布Goerli/Prater合并公告，Goerli测试网将于8月4日起分两步进行合并。",
-          "link": "https://panewslab.com/zh/articledetails/87y2sc6g.html",
-          "publishedOn": "2022-08-02T03:09:23.000Z",
-          "wordCount": 3220,
-          "title": "以太坊客户端Lighthouse发布支持Goerli/Prater合并的新版本v2.5.0",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -4550,66 +4490,6 @@
           "publishedOn": "2022-08-02T05:58:01.000Z",
           "wordCount": null,
           "title": "美剧《亿万》男主原型、亿万富翁Steven Cohen退出对加密初创公司Radkl的投资",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/95814",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 2 日，慢雾监测显示，Nomad 攻击事件中，超过 9500 万美元的被盗资金目前仍在 3 个地址里。其中：\n\n地址 1（0xB5C55f76f90Cc528B2609109Ca14d8d84593590E）中仍有 1084 枚 ETH、120 万枚 DAI、103 枚 WBTC 等约 800 万美元的加密资产，该地址也负责将 1 万枚 WETH 转移到地址 2 以及将其他 USDC 转移；\n\n地址 2（0x56D8B635A7C88Fd1104D23d632AF40c1C3Aac4e3）目前仍有 1.28 万枚 ETH、1.02 万枚 WETH、80 万枚 DAI 等约 4700 万美元的加密资产；\n\n地址 3（0xBF293D5138a2a1BA407B43672643434C43827179）目前则有约 3970 万美元的加密资产。\n\n目前慢雾经过梳理，无法将地址 3 与其他两个地址关联起来，但指出这些攻击具有相同的模式。",
-          "link": "https://www.theblockbeats.info/flash/95814",
-          "publishedOn": "2022-08-02T04:03:12.000Z",
-          "wordCount": null,
-          "title": "慢雾：Nomad攻击事件中，逾9500万美元被盗资金流向3个地址",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/95808",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 2 日，波卡生态智能合约平台 Moonbeam Network 官方表示，调查发现没有证据表明最近的安全事件与 Moonbeam 代码库有关，网络维护模式已结束，并已恢复全部功能，现在网络照常运行。\n\nBlockBeats 此前报道，Moonbeam 官方表示网络已进入维护模式，以调查所部署的智能合约的安全事件。",
-          "link": "https://www.theblockbeats.info/flash/95808",
-          "publishedOn": "2022-08-02T03:47:12.000Z",
-          "wordCount": null,
-          "title": "Moonbeam：未发现安全问题，已结束网络维护并恢复全部功能",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/95799",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 2 日，Kava Labs 联合创始人兼 CEO Scott Stuart 发推表示，Kava11 将于 9 月 8 日推出，此外首个完全可转换的质押协议 Liquid (bKAVA) 也将同步推出。Scott Stuart 还表示，与其它只能支持一小部分流动质押资产转换的流动质押形式不同，Liquid (bKAVA) 可以处理质押 KAVA 到 Liquid bKAVA 的 100% 转换，该设计为 Kava 协议首创。",
-          "link": "https://www.theblockbeats.info/flash/95799",
-          "publishedOn": "2022-08-02T03:44:05.000Z",
-          "wordCount": null,
-          "title": "Kava Labs CEO：Kava 11将于9月8日推出",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/95805",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 2 日，派盾监测显示，Nomad 跨链桥攻击者之一是 Rari Capital 被盗事件黑客，其在此次 Nomad 攻击中获利约 300 万美元。此前报道，今年 4 月份 Rari Capital 在 Fuse 上的资金池遭到攻击，黑客获利近 8000 万美元。",
-          "link": "https://www.theblockbeats.info/flash/95805",
-          "publishedOn": "2022-08-02T03:42:57.000Z",
-          "wordCount": null,
-          "title": "派盾：Rari Capital攻击事件黑客参与此次Nomad桥攻击，获利约300万美元",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/95796",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 2 日，据 Businesswire 报道，区块链云基础设施公司 W3BCloud 将通过 SPAC 方式实现上市。交易中的 SPAC 公司拥有 3.45 亿美元信托，并收到来自 AMD、ConsenSys 和 SK Inc. 等公司的 5000 万美元投资承诺。合并后 W3BCloud 估值将达 12.5 亿美元。\n\nW3BCloud 成立于 2018 年，提供存储、质押和计算基础设施服务。ConsenSys 创始人兼以太坊联合创始人 Joseph Lubin 在 W3BCloud 董事会任职。该公司报告显示，其位于美国的七个数据中心去年销售额达 4000 万美元，其中 85% 使用可再生能源。预计 2023 年的收入将比 2021 年增长 685%。",
-          "link": "https://www.theblockbeats.info/flash/95796",
-          "publishedOn": "2022-08-02T03:39:12.000Z",
-          "wordCount": null,
-          "title": "区块链云基础设施公司W3BCloud将通过SPAC上市，合并后估值12.5亿美元",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/95802",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 2 日，Blockworks 研究员 Sam 在社交媒体表示，Polygon Token 归属合约于 9 小时前释放约 14 亿枚 MATIC，占总供应量的 14%。对此 Polygon 联合创始人 Sandeep 表示，此次移动符合计划，Token 已于一年前解锁，此次移动是质押活动与基金会金库计划。将于明天发布重大公告。",
-          "link": "https://www.theblockbeats.info/flash/95802",
-          "publishedOn": "2022-08-02T03:39:12.000Z",
-          "wordCount": null,
-          "title": "Polygon联创回应14亿MATIC解锁：Token已于一年前解锁，此次移动为质押活动与基金会金库计划",
           "imageUrl": null
         }
       ]
