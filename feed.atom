@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-08-08T13:34:32.237Z</updated>
+    <updated>2022-08-08T14:10:22.170Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -3731,40 +3731,6 @@ Howard Schultz 表示，基于 Web3 的忠诚度计划可以视作吸引年轻�
         <link href="https://panewslab.com/zh/articledetails/1mjje98j.html"/>
         <updated>2022-08-04T02:12:26.000Z</updated>
         <summary type="html"><![CDATA[PANews 8月4日消息，据彭博社报道，加拿大加密交易所CoinSmart Financial Inc.首席执行官Justin Hartzman表示，加密行业的动荡创造了机会，目前CoinSmart正在加拿大、欧洲和美国寻找收购机会。Justin Hartzman 称，CoinSmart正在筛选不良资产、托管服务公司以及其他交易所和支付平台。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[慢雾：Slope钱包安卓V2.2.2版本的Sentry服务存在私钥泄露]]></title>
-        <id>https://panewslab.com/zh/articledetails/5ge010m7.html</id>
-        <link href="https://panewslab.com/zh/articledetails/5ge010m7.html"/>
-        <updated>2022-08-04T02:04:40.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月4日消息，慢雾发布对Solana攻击事件的分析，据Solana基金会提供的数据，被盗用户种约60%使用Phantom、约30%使用Slope，其余使用Trust Wallet、Coin98 Wallet等，IOS和Android均未能幸免。
-在分析Slope Wallet (Android, Version: 2.2.2) 时，发现其使用了Sentry的服务。Sentry是一项广泛使用的服务，在“o7e.slope[.]finance”上运行。Sentry的服务从Slope钱包中收集助记词和私钥等敏感数据，并在创建钱包时将其发送到https://o7e.slope[.]finance/api/4/envelope/，并发现 Version:>=2.2.0包中的Sentry服务会收集助记词发给“o7e.slope[.]finance”，而Version:2.1.3则没有找到收集助记词或私钥的明显行为。Slope Wallet(Android, >= Version: 2.2.0) 于06/24/2022之后发布，所以Slope该日期之后的用户受到影响。
-对于另外60%的使用Phantom钱包用户，分析Phantom（版本：22.07.11_65）钱包后发现，Phantom（Android，版本：22.07.11_65）也使用Sentry服务收集用户信息，但目前没有发现任何明显的收集助记词或私钥的行为。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase前产品经理Ishan Wahi对内幕交易指控拒不认罪]]></title>
-        <id>https://panewslab.com/zh/articledetails/o0g00mfp.html</id>
-        <link href="https://panewslab.com/zh/articledetails/o0g00mfp.html"/>
-        <updated>2022-08-04T01:40:04.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月4日消息，据CoinDesk报道，Coinbase前产品经理Ishan Wahi对加密货币内幕交易指控拒不认罪。Ishan Wahi被指控与他的兄弟Nikhil Wahi和Sameer Ramani提前分享交易所上币信息。
-据司法部称，Ishan Wahi泄露至少14种不同代币的上线信息，被告通过该计划赚取150万美元，但SEC估计这一数字接近110万美元。
-此前消息，美国证券交易委员会（SEC）对以上三人提出指控，并在诉讼程序中将Coinbase平台上的九个代币列为证券。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase要求美国最高法院停止两起用户诉讼，并寻求将案件提交仲裁]]></title>
-        <id>https://panewslab.com/zh/articledetails/9ayvk3x9.html</id>
-        <link href="https://panewslab.com/zh/articledetails/9ayvk3x9.html"/>
-        <updated>2022-08-04T01:35:37.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月4日消息，据彭博社报道，Coinbase要求美国最高法院停止交易所用户的两起诉讼，同时提出上诉寻求将这些案件提交仲裁。其中一起诉讼中用户表示Coinbase应该补偿他在向骗子远程访问他的帐户后损失的3.1万美元；另一起诉讼中Coinbase被指控违反加州消费者法，举行了120万美元的狗狗币抽奖活动但没有充分披露参赛者不必购买或出售加密货币，目前两起诉讼都在寻求集体诉讼。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
