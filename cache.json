@@ -1734,26 +1734,6 @@
           "wordCount": 3274,
           "title": "The Sandbox：官方Instagram账户或遭入侵，请注意防范风险",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ksx1jhml.html",
-          "author": "PA一线",
-          "description": "PANews 8月4日消息，据Finextra报道，一个由英国议员组成的跨党派团体已经开始对英国的加密货币和数字资产领域进行调查。英国加密和数字资产部门的全党议会小组 (APPG) 正在探索进一步监管市场的需求，并邀请整个行业的利益相关者提供反馈，包括加密运营商、监管机构、行业专家和政府。调查的范围很广，包括评估政府和监管机构的作用、消费者保护问题以及中央银行数字货币的使用。\nAPPG主席Lisa Cameron表示：“我们正处于该行业的关键时刻，全球政策制定者现在也在审查他们对加密货币的做法，以及应该如何监管它。 至关重要的是，在涉及加密和数字资产时，英国不能放松，政府和监管机构要遵守他们的承诺。”\n该调查的启动是在两个法律工作组成立之后，之前两个法律工作组旨在审查支持在区块链和DLT系统上发行和转让数字证券以及根据英国私法发行和转让数字证券所需的立法变更，两者的目的都是推动临时法律改革提案，以确保对数字资产的认可和保护。",
-          "link": "https://panewslab.com/zh/articledetails/ksx1jhml.html",
-          "publishedOn": "2022-08-04T08:53:01.000Z",
-          "wordCount": 3265,
-          "title": "英国当局对加密领域展开调查以探索进一步加密监管需求",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/w907iizv.html",
-          "author": "PA一线",
-          "description": "PANews 8月4日消息，Solana生态钱包Slope表示，在发现中心化Sentry服务器引发的漏洞后已删除服务器端日志记录。目前，受影响的9223个钱包中有1444个（15%）可能被追溯到此漏洞。Slope正在与审计合作伙伴和Solana基金会合作，以发现任何潜在的额外攻击媒介，并且已通知相关执法机构，以便对攻击者进行刑事调查。\n区块链审计安全团队OtterSec在推特上表示，已确认Slope的移动应用程序通过TLS向中心化的Sentry服务器发送助记词。 然后这些助记词以明文形式存储，这意味着任何有权访问Sentry的人都可以访问用户私钥。OtterSec通过调查UTC时间7月28日至8月4日16:45的Sentry日志，发现存在大约1,400个被漏洞利用的地址，值得注意的是，这并不能解释所有被黑的地址。OtterSec仍在调查这种差异和可能的其他媒介。在Sentry日志中发现了超过5300个私钥，而这些私钥不属于被漏洞利用的私钥。2358个地址中有代币， 建议使用Slope的用户转移资金。 \n相关阅读：持续更新 | Solana链上钱包遭大规模攻击，用户可转移资产至安全位置",
-          "link": "https://panewslab.com/zh/articledetails/w907iizv.html",
-          "publishedOn": "2022-08-04T08:32:06.000Z",
-          "wordCount": 3270,
-          "title": "Slope：1444个被盗钱包可追溯到Sentry引发的漏洞，已删除服务器端日志记录",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3050,46 +3030,6 @@
           "publishedOn": "2022-08-04T09:08:19.000Z",
           "wordCount": null,
           "title": "The Sandbox：官方Instagram账户或遭入侵，请用户防范风险",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/96390",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 4 日，Solana 生态钱包 Slope 在社交媒体上发文表示，在发现中心化 Sentry 服务器引发的漏洞后已删除服务器端日志记录。目前，受影响的 9223 个钱包中有 1444 个（15%）可能被追溯到此漏洞。Slope 正在与审计合作伙伴和 Solana 基金会合作，以发现任何潜在的额外攻击媒介，并且已通知相关执法机构，以便对攻击者进行刑事调查。\n\n区块链安全机构 OtterSec 此前在社交媒体上发文表示，「在过去两天内，超过 400 万美元资产从 Solana 钱包中被盗，已经确认 Slope 移动应用通过 TLS 将助记词发送到其中心化 Sentry 服务器，然后这些助记词以明文形式存储，这意味着任何有权访问 Sentry 的人都可以访问用户私钥。在本次攻击中，这些地址中的约 1400 个地址存在于 Sentry 中，不过这并非所有被盗地址。我们仍在调查可能的其他媒介。另外，在 Sentry 实例中发现了超 5300 个未包含在此次漏洞攻击的私钥，其中 2358 个地址中有 Token，建议 Slope 用户尽快转移资金。」",
-          "link": "https://www.theblockbeats.info/flash/96390",
-          "publishedOn": "2022-08-04T08:57:19.000Z",
-          "wordCount": null,
-          "title": "Slope：发现漏洞后已删除服务器端日志记录，1444个被盗钱包或可追溯到该漏洞",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/96399",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 4 日，波场加密交易平台 Poloniex 宣布将支持本次 ETH 2.0 升级及潜在分叉，并将于 8 月 8 日上线两种潜在分叉期货 Token 及相关交易市场。Poloniex 保留修改或更改本公告的权利（例如提前下架相关交易对）以适应最新的市场趋势。",
-          "link": "https://www.theblockbeats.info/flash/96399",
-          "publishedOn": "2022-08-04T08:57:19.000Z",
-          "wordCount": null,
-          "title": "Poloniex宣布支持ETH潜在分叉并上线分叉币期货",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/96396",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 4 日，Justin Sun 在社交媒体上发文表示，目前我们（Justin Sun 以及 Poloniex 交易平台）持有超 100 万枚 ETH，如果这次以太坊成功分叉，我们将向 ETHW（以太坊 PoW 分叉链）社区和开发者捐赠一些 ETHW，助其建立以太坊生态系统。\n\nBlockBeats 此前报道，加密交易平台 Poloniex 今日发布公告表示，将支持本次 ETH 2.0 升级及潜在分叉，并将于 8 月 8 日上线两种潜在分叉的期货 Token 及相关交易市场。",
-          "link": "https://www.theblockbeats.info/flash/96396",
-          "publishedOn": "2022-08-04T08:57:19.000Z",
-          "wordCount": null,
-          "title": "Justin Sun：目前持有超100万枚ETH，若成功分叉将向PoW链社区和开发者捐赠一些Token",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/96393",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 4 日，NFT 交易市场 Magic Eden 已支持连接以太坊钱包 MetaMask、WalletConnect 和 Coinbase Wallet。\n\nBlockBeats 此前报道，8 月 2 日，NFT 市场 Magic Eden 宣布将进行多链拓展，并预计于本周整合以太坊 NFT 生态。平台将为以太坊 NFT 创造者提供与其 Solana 用户相同的「上市」优势，包括其流行的铸币工具包、白名单工具和营销支持。据悉，Magic Eden 还在准备一种「跨币交易产品」，允许用户以其它加密货币购买以太坊和 Solana NFT，以及使用自己的跨链仪表板进行分析。",
-          "link": "https://www.theblockbeats.info/flash/96393",
-          "publishedOn": "2022-08-04T08:57:19.000Z",
-          "wordCount": null,
-          "title": "Magic Eden已支持连接MetaMask、WalletConnect和Coinbase Wallet",
           "imageUrl": null
         }
       ]
