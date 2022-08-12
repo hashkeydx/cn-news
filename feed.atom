@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-08-12T16:13:33.756Z</updated>
+    <updated>2022-08-12T17:17:39.167Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -5506,48 +5506,6 @@ BlockBeats 此前报道，7 月 17 日，加密交易平台 AEX 官方发布公�
 此前消息，Wemade计划于第三季度引入稳定币Wemix Dollar协议，启动Wemix DeFi服务，并推出DAO项目平台Nile。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Animoca Brands上线TOWER代币网上商店]]></title>
-        <id>https://panewslab.com/zh/articledetails/d076tcbm.html</id>
-        <link href="https://panewslab.com/zh/articledetails/d076tcbm.html"/>
-        <updated>2022-08-08T05:16:00.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月8日消息，Animoca Brands上线TOWER代币网上商店，可以在塔防游戏Crazy Defense Heroes的官方网站上进入。该网上商店目前目前处于第一阶段，允许玩家使用Polygon网络上的TOWER代币购买Crazy Defense Heroes游戏内物品，每次购买都会获得TOWER英雄积分奖励，可用于升级TOWER League级别，还可用于“独家会员特权”，后续有关将披露更多信息。 此外未来玩家将能够购买与TOWER特许经营权相关的各种产品，包括TOWERNFT、实物商品等。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[消息人士：WazirX母公司Zanmai Labs寻求通过法律途径处理与币安的所有权纠纷]]></title>
-        <id>https://panewslab.com/zh/articledetails/0n4i75gy.html</id>
-        <link href="https://panewslab.com/zh/articledetails/0n4i75gy.html"/>
-        <updated>2022-08-08T05:08:32.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月8日消息，据The Economic Times报道，消息人士称，印度加密货币交易平台WazirX的母公司Zanmai Labs正在寻求通过法律途径处理与币安发生的所有权纠纷。自上周五开始，币安首席执行官赵长鹏与WazirX创始人Shetty就WazirX和Zanmai Labs的所有权问题展开争论，Zanmai Labs因此开始寻求对币安采取法律行动。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安全团队：EGD Finance遭闪电贷攻击，因计算奖励的喂价机制过于简单]]></title>
-        <id>https://panewslab.com/zh/articledetails/t3k6b3m6.html</id>
-        <link href="https://panewslab.com/zh/articledetails/t3k6b3m6.html"/>
-        <updated>2022-08-08T05:04:55.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月8日消息，据慢雾区消息，BSC上的EGD Finance项目遭受黑客攻击，导致其池子中资金被非预期的取出。慢雾安全团队对此进行了分析，称本次事件是因为EGD Finance的合约获取奖励时计算奖励的喂价机制过于简单, 导致代币价格被闪电贷操控从而获利。具体分析如下：
-1. 由于EGD Finance合约中获取奖励的claimAllReward函数在计算奖励时会调用 getEGDPrice 函数来进行计算EGD的价格, 而getEGDPrice函数在计算时仅通过 pair 里的 EGD 和 USDT 的余额进行相除来计算EGD的价格。2. 攻击者利用这个点先闪电贷借出池子里大量的USDT, 使得EGD代币的价格通过计算后变的很小, 因此在调用claimAllReward函数获取奖励的时候会导致奖励被计算的更多, 从而导致池子中的EGD代币被非预期取出。
-此外，据派盾预警监测，此次攻击事件中已有3.6万BUSD被盗。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WazirX母公司Zanmai Labs寻求采取法律行动处理与Binance的所有权纠纷]]></title>
-        <id>https://www.theblockbeats.info/flash/96966</id>
-        <link href="https://www.theblockbeats.info/flash/96966"/>
-        <updated>2022-08-08T04:42:50.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，8 月 8 日，据 EconomicTimes.IndiaTimes 援引消息人士报道，印度加密货币交易平台 WazirX 的母公司 Zanmai Labs 正在寻求通过法律途径处理与全球交易量最大的 Binance 发生的所有权纠纷。自上周五开始，Binance 首席执行官赵长鹏与 WazirX 创始人 Shetty 在社交媒体上就 WazirX 和 Zanmai Labs 的所有权问题展开争论，Zanmai Labs 因此开始寻求对 Binance 采取法律行动。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
     <entry>
