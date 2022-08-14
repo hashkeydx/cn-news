@@ -6,6 +6,36 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/6ndb2cnn.html",
+          "author": "PA一线",
+          "description": "PANews 8月14日消息，社区消息显示，Uniswap前端已开始封禁收到Tornado Cash小额转账的地址。提示内容显示“该地址被Uniswap Labs界面阻止，因为该地址与一个或多个被禁止的活动相关”。此前Aave也对收到Tornado Cash小额转账地址进行了封禁，但随后官方团队表示，封禁已解除，并将继续评估风险缓解措施。",
+          "link": "https://panewslab.com/zh/articledetails/6ndb2cnn.html",
+          "publishedOn": "2022-08-14T15:28:01.000Z",
+          "wordCount": 3308,
+          "title": "Uniswap前端开始封禁收到Tornado Cash小额转账的地址",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/as2icd8o.html",
+          "author": "PA一线",
+          "description": "PANews 8月14日消息，比特币分析师Bitcoin Archive推特发文称，伊朗央行已允许将开采的比特币用于支付国际交易，但仍然禁止比特币交易和国内支付。据此前消息，伊朗近日首次使用加密货币支付进口订单，价值为1000万美元。 据称，到9月底，加密货币和智能合约的使用将广泛应用于与目标国家的对外贸易中。",
+          "link": "https://panewslab.com/zh/articledetails/as2icd8o.html",
+          "publishedOn": "2022-08-14T15:19:56.000Z",
+          "wordCount": 3301,
+          "title": "伊朗央行允许将挖矿比特币用于支付国际交易",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/um1x3aqv.html",
+          "author": "PA一线",
+          "description": "PANews 8月14日消息，波卡平行链Interlay推特发文表示，Interlay暂未受到aUSD增发影响，且持有增发aUSD的地址也未进行跨链转账，具体情况仍在调查之中。据此前消息，波卡生态项目Acala因iBTC/aUSD 流动性池的错误配置，导致aUSD增发。",
+          "link": "https://panewslab.com/zh/articledetails/um1x3aqv.html",
+          "publishedOn": "2022-08-14T15:15:43.000Z",
+          "wordCount": 3298,
+          "title": "波卡平行链Interlay：暂未受到aUSD增发影响",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/uydewmue.html",
           "author": "PA一线",
           "description": "PANews 8月14日消息，波卡生态项目Acala官方发布了早间疑似攻击的事件调查结果：因iBTC/aUSD 流动性池（今天早些时候上线）的错误配置，导致大量 aUSD 出现错误，目前错误配置已得到纠正。初步的链上追踪显示，超过99 %的错误铸造的 aUSD 仍保留在 Acala 平行链上，一小部分错误铸造的 aUSD 被交换为 Acala 平行链上的 ACA 和其他代币。在等待 Acala 社区集体治理决定解决错误铸造的代币时，这些错误铸造的 aUSD 将保留在 Acala 平行链上，以及这些交换的 Acala 平行链原生代币已被禁用。下一步将在社区治理后解决 aUSD 的错误铸币和恢复 aUSD 挂钩。\n因链上设置错误，导致aUSD增发，慢雾安全团队对该过程进行了细节的分析：\n1. 项目方在2022-08-13 22:23:12 (+UTC)调用了 update_dex_saving_rewards 对 aUSD 池子的奖励倍率进行了修改，修改为500000000000000000。设置的链接https://acala.subscan.io/extrinsic/1638124-0?event=1638124-0.\n2. 在区块的 hook 函数 on_initialize 中会去调用 accumulate_dex_saving 函数,在函数中池子的奖励总量是由 dex_saving_reward_rate 乘上 dex_saving_reward_base，由于 dex_saving_reward_rate 在上一步中已经被放大了导致池子的奖励也被放大。\n3. 最后用户领取到了错误的奖励。",
@@ -1904,26 +1934,6 @@
           "wordCount": 3276,
           "title": "MicroStrategy新任CEO支持将比特币保留在公司资产负债表上的决定",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/xuaucu9y.html",
-          "author": "PA一线",
-          "description": "PANews 8月10日消息，链上标记为“Alameda Research”的地址（0xc5ed2333f8a2C351fCA35E5EBAdb2A82F5d254C3）于北京时间8月9日12:42:30卖出其所持有的184266.3枚APE。\n据DeBank数据显示，该地址所持有的APE代币已小于1美元。",
-          "link": "https://panewslab.com/zh/articledetails/xuaucu9y.html",
-          "publishedOn": "2022-08-10T05:05:04.000Z",
-          "wordCount": 3280,
-          "title": "数据：0xc5ed开头的Alameda Research地址已清仓其持有的APE",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/oc9bx1gm.html",
-          "author": "PA一线",
-          "description": "PANews 8月10日消息，据官方公告，硬件钱包制造商Ledger宣布将于2023年第一季度集成StarkNet网络，用户可使用Ledger Live创建合约帐户，体验多签治理、备份授权、高级安全功能。合约帐户保留与EOA帐户同等便捷，同时获得更多定制功能，例如设定转账金额、定时转账、地址授权等功能。",
-          "link": "https://panewslab.com/zh/articledetails/oc9bx1gm.html",
-          "publishedOn": "2022-08-10T05:02:23.000Z",
-          "wordCount": 3270,
-          "title": "Ledger计划于2023年第一季度集成StarkNet网络，将允许执行多签治理",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3610,16 +3620,6 @@
           "publishedOn": "2022-08-10T05:33:12.000Z",
           "wordCount": null,
           "title": "以太坊L2总锁仓量达到56.8亿美元，近7日涨幅17.57%",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/97531",
-          "author": null,
-          "description": "BlockBeats 消息，8 月 10 日，链上标记为「Alameda Research」（0xc5ed2333f8a2C351fCA35E5EBAdb2A82F5d254C3）的地址于北京时间 8 月 9 日 12:42:30 卖出其所持有的全部 184,266.3 枚 APE。据 DeBank 当前数据显示，该地址所持有的 APE Token 已小于 1 美元。",
-          "link": "https://www.theblockbeats.info/flash/97531",
-          "publishedOn": "2022-08-10T04:26:47.000Z",
-          "wordCount": null,
-          "title": "Alameda Research地址已清仓其持有的APE",
           "imageUrl": null
         }
       ]
