@@ -2384,56 +2384,6 @@
           "wordCount": 3341,
           "title": "PayPal加入Coinbase合规网络TRUST Network，将遵循美国旅行规则",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ss8li5jp.html",
-          "author": "PA一线",
-          "description": "PANews 8月23日消息，Blockworks Research在推特上分析了BendDAO影响BAYC地板价下跌的原因，其中指出BendDAO设计的联级清算（cascading liquidation）机制可能存在问题，即当贷款抵押品价值下降并接近借入价值时，如通过清算门槛就会拍卖抵押品，当某个抵押品被清算之后又会引发另一笔贷款达到清算门槛，继而产生多米诺骨牌效应，最终引发抵押标的物价格大幅下跌。在BendDAO机制中，只要借入资产价格低于地板价90%，抵押的NFT就会被拍卖（BendDAO上有35,000ETH 的蓝筹NFT被抵押），最近三天有28个BAYC和28 个MAYC被清算，现在还有3个BAYC和12个MAYC正在拍卖，这种由联级清算引发的交易导致BAYC地板价下跌，MAYC也看到了类似的情况。如果联级清算推动地板价再下跌20%，那么其抵押的NFT都将被清算。\n需要注意的是，BendDAO规定清算拍卖中的出价必须至少为地板价的95%，虽然这有助于遏制死亡螺旋风险，但会导致储户可能陷入价值下跌的NFT（坏账），这意味着作为NFT持有者没有ETH可以借入，所以就会出现“挤兑”，因为没有人愿意陷入没有完全支持的债务中。BendDAO目前正在实施一项治理提案，以减少拍卖时间并降低清算门槛，尽管该提案可能会让存款人对超额抵押产生一些信心，但也许会导致更多NFT被仓促清算。\n此前消息，BendDAO新提案拟修改部分参数解决流动性危机，包括调整清算阈值及拍卖周期等。",
-          "link": "https://panewslab.com/zh/articledetails/ss8li5jp.html",
-          "publishedOn": "2022-08-23T01:21:35.000Z",
-          "wordCount": 3330,
-          "title": "研究：BendDAO联级清算机制存在问题，新提案或加速螺旋清算风险",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/4t6otz1d.html",
-          "author": "PA一线",
-          "description": "PANews 8月23日消息，据彭博社报道，专注于数字资产和外汇的机构经纪公司Hidden Road Partners近日宣布完成5000万美元A轮融资，本轮融资由Castle Island Ventures领投，FTX Ventures、Citadel Securities、Uncorrelated Ventures、Greycroft、XBTO Humla Ventures、Wintermute、SLN Capital、Profluent Trading、Coinbase Ventures和Corner Capital等参投。\nHidden Road Partners旨在通过解决交易对手风险和利益冲突来推动华尔街进入加密交易的过程。对于不能直接持有数字资产的银行或其他机构，该公司允许他们在与托管人的三方设置中寄存美元作为抵押品，并以美元收取利润和损失。客户可以与交易平台以及流动性提供商进行交易，包括Virtu Financial Inc.、Optiver BV和Wintermute Trading Ltd.。",
-          "link": "https://panewslab.com/zh/articledetails/4t6otz1d.html",
-          "publishedOn": "2022-08-23T01:01:57.000Z",
-          "wordCount": 3375,
-          "title": "数字资产和外汇经纪公司Hidden Road Partners完成5000万美元A轮融资，FTX Ventures等参投",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/9bcuew8c.html",
-          "author": "PA一线",
-          "description": "PANews 8月23日消息，以太坊分叉项目EthereumPoW（ETHW）发推称，ETHW Core发布了第二次代码更新，强制执行EIP-155。此次更新后，所有交易都必须使用链ID进行签名。这将保护ETHW用户免受来自ETHPoS和其他分叉币的重放攻击。\n此外合约冻结功能被拉到一个单独的分支中，并且已经完成了所有的集成和测试。这个功能最终是否会被拉入主分支将在9月1日的核心会议上决定。\n此前消息，ETHW Core初始版本包括禁用难度炸弹、EIP-1559变更、调整ETHW起始挖矿难度。EthereumPow曾表示。ETHW Core将引入流动性池冻结技术保护用户资产，并发布3批冻结清单，共121份合约。",
-          "link": "https://panewslab.com/zh/articledetails/9bcuew8c.html",
-          "publishedOn": "2022-08-23T00:55:00.000Z",
-          "wordCount": 3331,
-          "title": "ETHW Core发布第二次代码更新，强制执行EIP-155以防止重放攻击",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/k6884t17.html",
-          "author": "PA一线",
-          "description": "PANews 8月23日消息，据CoinDesk援引消息人士报道，FTX US或可以仅以1500万美元的价格收购BlockFi，这也是交易的最低价格，低于CNBC几个月前在一份报告中报道的2500万美元。消息人士称，如果到12月31日，BlockFi赢得美国证券交易委员会（SEC）对BlockFi Yield的S-1重要监管许可，FTX US将额外支付2500万美元；如果在SBF公司行使收购BlockFi的股权时，BlockFi的客户资产达到至少100亿美元，FTX US将再增加1亿美元。\n此外，消息人士表示，FTX US同意支付相当于BlockFi年营业收入25%的金额，最高可达1亿美元，但预计该公司在2020年和2021年亏损，并预计2022年将持续亏损。\n此前消息，BlockFi于去年3月份宣布以30亿美元的估值完成3.5亿美元D轮融资。",
-          "link": "https://panewslab.com/zh/articledetails/k6884t17.html",
-          "publishedOn": "2022-08-23T00:40:28.000Z",
-          "wordCount": 3330,
-          "title": "知情人士：FTX最低可以1500万美元价格收购BlockFi，最终价格因条件而异",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/d2b56msh.html",
-          "author": "PA一线",
-          "description": "PANews 8月23日消息，Telegram创始人Pavel Durov周一在该应用程序中的一条消息中表示，可能很快会推出一个拍卖“用户名、群组和频道链接”的市场，Durov称：“这将创建一个新平台，用户名持有者可以将用户名等转移给受保护交易的相关方，通过类似NFT的智能合约在区块链上确权，并将TON作为未来市场的底层区块链。\nDurov引用了早期在The Open Network上拍卖的钱包域名，这是他与Telegram一起开发的协议，后因监管问题放弃了该项目，Durov建议Telegram可以通过拍卖“用户名、群组和频道链接”来成功重新引入Web3元素。Durov称“让我们看看在接下来的几周，我们是否能给Telegram添加一点Web3的内容”。",
-          "link": "https://panewslab.com/zh/articledetails/d2b56msh.html",
-          "publishedOn": "2022-08-23T00:25:17.000Z",
-          "wordCount": 3333,
-          "title": "Telegram创始人拟在TON链上建立用户名等拍卖市场，可通过类似NFT智能合约确权",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2442,6 +2392,16 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/flash/100825",
+          "author": null,
+          "description": "ANTPOOL：暂无计划提供ETH staking服务，提醒用户尽快配置钱包地址以接受产出的ETH",
+          "link": "https://www.theblockbeats.info/flash/100825",
+          "publishedOn": "2022-08-27T11:06:06.000Z",
+          "wordCount": null,
+          "title": "ANTPOOL：暂无计划提供ETH staking服务，提醒用户尽快配置钱包地址以接受产出的ETH",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/flash/100822",
           "author": null,
@@ -4070,86 +4030,6 @@
           "publishedOn": "2022-08-23T02:47:45.000Z",
           "wordCount": null,
           "title": "美SEC主席：不会因加密市场使用另类技术就区别对待，证券法仍适用",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/99907",
-          "author": null,
-          "description": "ETHW Core发布第二次代码更新，强制执行EIP-155以防止重放攻击",
-          "link": "https://www.theblockbeats.info/flash/99907",
-          "publishedOn": "2022-08-23T01:06:58.000Z",
-          "wordCount": null,
-          "title": "ETHW Core发布第二次代码更新，强制执行EIP-155以防止重放攻击",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/99904",
-          "author": null,
-          "description": "前CFTC主席：若美SEC与CFTC共建自律组织，可填补当前加密监管空白",
-          "link": "https://www.theblockbeats.info/flash/99904",
-          "publishedOn": "2022-08-23T01:01:58.000Z",
-          "wordCount": null,
-          "title": "前CFTC主席：若美SEC与CFTC共建自律组织，可填补当前加密监管空白",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/99895",
-          "author": null,
-          "description": "知情人士：FTX US最终或以1500万美元收购BlockFi",
-          "link": "https://www.theblockbeats.info/flash/99895",
-          "publishedOn": "2022-08-23T00:49:58.000Z",
-          "wordCount": null,
-          "title": "知情人士：FTX US最终或以1500万美元收购BlockFi",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/99892",
-          "author": null,
-          "description": "Telegram创始人计划在TON区块链推出用户名交易市场",
-          "link": "https://www.theblockbeats.info/flash/99892",
-          "publishedOn": "2022-08-23T00:45:58.000Z",
-          "wordCount": null,
-          "title": "Telegram创始人计划在TON区块链推出用户名交易市场",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/99886",
-          "author": null,
-          "description": "Pudgy Penguins#6873以400 ETH售出，创该系列最高交易记录",
-          "link": "https://www.theblockbeats.info/flash/99886",
-          "publishedOn": "2022-08-23T00:29:58.000Z",
-          "wordCount": null,
-          "title": "Pudgy Penguins#6873以400 ETH售出，创该系列最高交易记录",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/99883",
-          "author": null,
-          "description": "Nansen和Meta高管加入NFT项目Pudgy Penguins顾问委员会",
-          "link": "https://www.theblockbeats.info/flash/99883",
-          "publishedOn": "2022-08-23T00:26:58.000Z",
-          "wordCount": null,
-          "title": "Nansen和Meta高管加入NFT项目Pudgy Penguins顾问委员会",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/99880",
-          "author": null,
-          "description": "PayPal加入Coinbase合规网络TRUST Network",
-          "link": "https://www.theblockbeats.info/flash/99880",
-          "publishedOn": "2022-08-23T00:26:58.000Z",
-          "wordCount": null,
-          "title": "PayPal加入Coinbase合规网络TRUST Network",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/99877",
-          "author": null,
-          "description": "外媒：BendDAO或因联级清算导致BAYC地板价下跌，新提案或存风险",
-          "link": "https://www.theblockbeats.info/flash/99877",
-          "publishedOn": "2022-08-23T00:26:58.000Z",
-          "wordCount": null,
-          "title": "外媒：BendDAO或因联级清算导致BAYC地板价下跌，新提案或存风险",
           "imageUrl": null
         }
       ]
