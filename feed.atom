@@ -2,10 +2,126 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-09-08T06:37:43.507Z</updated>
+    <updated>2022-09-08T07:23:37.433Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Upbit首次举行讨论LUNC交易手续费处理方式的会议，但最终方案仍未确定]]></title>
+        <id>https://panewslab.com/zh/articledetails/5gmzw9ik.html</id>
+        <link href="https://panewslab.com/zh/articledetails/5gmzw9ik.html"/>
+        <updated>2022-09-08T06:23:14.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据News1报道，韩国交易所Upbit举行首次由内外专家组成的LUNC会议，讨论LUNC交易手续费的使用和方式。虽然在各种手续费利用方案中包括“向受害投资者返还手续费的方案”，但6名咨询委员中有一部分人表示反对，因此其他方案的可行性受到了重视。虽然最终方案尚未确定，但该会议还包括了分析“Terra 事件”发生原因等的议案，内部强烈认为投资是投资者本人的责任，因此难以执行向投资者返还Upbit交易所LUNC交易手续费方案。
+此前8月份消息，Upbit曾表示向用户返还其在Luna崩盘期间赚取的佣金作为对投资者的补偿，但目前已过去几个月还没有执行。Upbit曾计划从5月11日（当时Upbit将Luna认定为重要项目）到5月20日（终止Luna交易）期间总计95亿韩元（约763万美元）的佣金返还给投资者。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安全团队：New Free Dao遭遇闪电贷攻击主因在于合约中计算奖励的方式过于简单]]></title>
+        <id>https://panewslab.com/zh/articledetails/ih04p98c.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ih04p98c.html"/>
+        <updated>2022-09-08T06:13:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，慢雾安全团队对New Free Dao今日遭遇的闪电贷攻击进行了分析，称此次攻击的主要原因在于合约中计算奖励的方式过于简单，仅取决于调用者的余额故导致被闪电贷套利。慢雾安全团队建议在设计奖励方式时应采用多个因素动态计算。
+攻击过程如下：1. 攻击者首先通过闪电贷从 Pancake 借出了大量的 WBNB，并换成了NFD代币；2. 攻击者将第一步兑换的 NFD 代币转入攻击合约中，攻击合约会创建一个新的攻击合约2并接收代币；3. 攻击合约2调用了未开源的被黑合约中 (0x8b068e22) 的 0x6811e3b9 函数，通过反编译该合约分析出该函数仅通过调用者的 NFD 代币余额来计算获取的奖励并将奖励转给调用者，余额越多计算的奖励就越大，攻击合约 2 将在获取奖励后把奖励转移给新部署的攻击合约，并再次调用 0x6811e3b9 函数获取奖励，通过不断创建新的攻击合约获取奖励来滚雪球套出池子里的所有代币；4. 将获得的NFD代币通过Pancake换成WBNB，归还闪电贷后获利。攻击交易：0x1fea385acf7ff046d928d4041db017e1d7ead66727ce7aacb3296b9d485d4a26。
+此前消息，New Free Dao项目疑似遭闪电贷攻击，攻击者获利4500枚BNB（约合125万美元），并将其中的2000枚BNB兑换成55万枚BSC链上的USD。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安全公司：Ragnarok Online Invasion项目遭遇攻击，损失约4.4万美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/mbzalpdi.html</id>
+        <link href="https://panewslab.com/zh/articledetails/mbzalpdi.html"/>
+        <updated>2022-09-08T06:04:25.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据安全公司BlockSec的推文，Ragnarok Online Invasion（ROI）项目被攻击，损失约157.98 BNB（约4.4万美元），疑似为典型的所有权转移访问控制漏洞。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[报告：以太坊价格或会在合并后与其他加密货币脱钩，质押收益将推动机构采用ETH]]></title>
+        <id>https://panewslab.com/zh/articledetails/i0xemdbx.html</id>
+        <link href="https://panewslab.com/zh/articledetails/i0xemdbx.html"/>
+        <updated>2022-09-08T05:59:46.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据Cointelegraph报道，加密分析公司Chainalysis今日发布的一份报告称，在以太坊合并之后，以太坊的价格可能会与其他加密货币脱钩，因为它的质押奖励将使其类似于债券或具有套利溢价的商品等工具。而质押收益可能会推动机构的大力采用。该报告称，ETH质押预计每年为质押者提供10-15%的收益率，考虑到国债收益率相比之下要低得多，因此ETH是“对机构投资者来说有吸引力的债券替代品”。
+该报告还指出在以太坊合并后质押会具吸引力的原因之一是，转向PoS还将使以太坊更加环保，这可以让有可持续发展承诺的投资者对资产更加满意。这尤其适用于机构投资者。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国汽车品牌福特已经提交19项元宇宙和NFT相关商标申请]]></title>
+        <id>https://panewslab.com/zh/articledetails/0076pi30.html</id>
+        <link href="https://panewslab.com/zh/articledetails/0076pi30.html"/>
+        <updated>2022-09-08T05:44:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据美国律师Mike Kondoudis的推文，美国汽车品牌福特已经提交19项元宇宙和NFT相关商标申请，范围涵盖虚拟汽车、卡车、货车和服装、NFT网上商店。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CREDAI与Venture Catalysts成立1亿美元proptech基金，专注于区块链房产等领域投资]]></title>
+        <id>https://panewslab.com/zh/articledetails/u6g8574q.html</id>
+        <link href="https://panewslab.com/zh/articledetails/u6g8574q.html"/>
+        <updated>2022-09-08T05:33:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据Yourstroy报道，印度房地产开发商协会联合会 (CREDAI) 与综合孵化器和加速器Venture Catalysts宣布合作成立了一个总规模达1亿美元的proptech基金，专注于投资通过数据分析、区块链、增强现实（AR）、人工智能等技术推动房地产行业发展的初创公司。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安全公司：Grim Finance被盗资金基本转移，约9000ETH转到TornadoCash]]></title>
+        <id>https://panewslab.com/zh/articledetails/dmx7qum5.html</id>
+        <link href="https://panewslab.com/zh/articledetails/dmx7qum5.html"/>
+        <updated>2022-09-08T05:25:35.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据慢雾MistTrack监测，Grim Finance攻击者（0x988...57a）于北京时间9月8日凌晨将300万枚DAI通过Uniswap兑换为1923枚ETH。接着将1900枚ETH转到TornadoCash。此前，Grim Finance于2021年12月遭到重入攻击，攻击者窃取了价值约3000万美元的加密资产，并从Fantom跨链到以太坊。截止目前，攻击者已将9000ETH转入TornadoCash，地址上存额超920万美元（包含93ETH、821万枚DAI和327万枚FTM）。慢雾表示将持续分析挖掘可疑的TornadoCash提款地址。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩国金委会将集中调查加密交易所是否履行内部控制的义务]]></title>
+        <id>https://panewslab.com/zh/articledetails/zk5t0j6r.html</id>
+        <link href="https://panewslab.com/zh/articledetails/zk5t0j6r.html"/>
+        <updated>2022-09-08T05:22:56.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据News1报道，韩国金融委员会表示，今后在检查虚拟资产（加密货币）交易所时，将集中调查交易所是否履行了内部控制的标准义务。根据韩国《特别交易法实施令》，虚拟资产交易所应当制定限制经营者本人和特殊关系人发行的虚拟资产交易的标准，虚拟资产交易所员工在相关交易所买卖的行为也受到限制。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Y Combinator加大对加密创业者投资，有30家加密创企入围其最新加速孵化计划]]></title>
+        <id>https://panewslab.com/zh/articledetails/69l9h0a8.html</id>
+        <link href="https://panewslab.com/zh/articledetails/69l9h0a8.html"/>
+        <updated>2022-09-08T05:19:56.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据Inside Bitcoins报道，最新一批的Y Combinator加速孵化计划中有30家加密初创公司入围，主要涉及DeFi解决方案（8 家）和加密衍生品领域，高于之前的25家，表明Y Combinator正在加大对加密创业者的投资。
+此外，参加Y Combinator加速器计划的加密货币公司比例在过几个月内增长迅速，今年夏天Y Combinator的加速孵化公司中，加密公司的比例达到13%，而之前的W22 YC加速器计划中加密公司的比例只有6%。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3游戏平台ITSBLOC完成750万美元融资]]></title>
+        <id>https://panewslab.com/zh/articledetails/21uebdhz.html</id>
+        <link href="https://panewslab.com/zh/articledetails/21uebdhz.html"/>
+        <updated>2022-09-08T05:11:04.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据Benzinga报道，基于Polygon区块链的Web3游戏平台ITSBLOC宣布完成750万美元融资，Vista Labs、Nexus one、Edimus Capital、Atlas Capital、Bull&Bear等参投。
+据悉，ITSBLOC主要利用其平台运营优势和区块链技术帮助游戏构建并激活钱包、Swap、DEX 等P2E功能和服务，目前已与Metarun、Kyberdyne、Firework Games、Gamers、X-rush等Web3游戏和平台构建了合作伙伴关系。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Galxe ID现已支持ENS和.bnb域名]]></title>
+        <id>https://panewslab.com/zh/articledetails/gjqr5gap.html</id>
+        <link href="https://panewslab.com/zh/articledetails/gjqr5gap.html"/>
+        <updated>2022-09-08T05:08:31.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月8日消息，据官方推特，Web3凭证数据网络Galxe（原Project Galaxy）表示，Galxe ID现已通过Space ID的软件开发工具包（SDK）支持ENS和.bnb域名。用户现在可以使用这两种域名设定自己的Galxe ID。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Y Combinator加大对加密创业者投资，30家加密创企入围新一批加速器计划]]></title>
         <id>https://www.theblockbeats.info/flash/102766</id>
