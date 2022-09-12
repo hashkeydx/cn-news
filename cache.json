@@ -1634,46 +1634,6 @@
           "wordCount": 3407,
           "title": "Solana生态艺术市场exchange art完成320万美元种子轮融资",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/03bpjqcz.html",
-          "author": "PA一线",
-          "description": "PANews 9月8日消息，据官方公告，币安矿池将于9月9日8:00至10月9日8:00推出ETC矿池挖矿零费率活动，参与活动的用户需完成身份验证。",
-          "link": "https://panewslab.com/zh/articledetails/03bpjqcz.html",
-          "publishedOn": "2022-09-08T07:06:15.000Z",
-          "wordCount": 3386,
-          "title": "币安矿池将推出为期一个月的ETC矿池挖矿零费率活动",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/etjrbdy6.html",
-          "author": "PA一线",
-          "description": "PANews 9月8日消息，据经济日报报道，在今日举行的2022中国（北京）数字金融论坛上，中国人民银行副行长范一飞表示，在推进数字人民币生态建设方面，受理环境和应用场景拓展亟待破局，其中标准的统一和规范是关键所在。为了实现数字时代的“钱同币、币同形”，要从信息交互、业务流程、技术规范等维度加快推进数字人民币体系的标准化建设。\n范一飞称，具体来讲，要推动数字身份、报文规范、二维码制、蓝牙和NFC等方面规范和标准的统一，实现数字人民币体系与传统电子支付工具的互联互通，让消费者可以“一码通扫”，商户也不用增加成本即可支持各类支付工具。此外，为避免用户信息泄露，消除数据安全隐患，也需要统筹组织各方对相关技术进行升级加固，提升安全防护水平，保障支付的安全便捷。",
-          "link": "https://panewslab.com/zh/articledetails/etjrbdy6.html",
-          "publishedOn": "2022-09-08T06:59:20.000Z",
-          "wordCount": 3387,
-          "title": "央行副行长范一飞：推动数字人民币与传统电子支付工具互联互通",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/5gmzw9ik.html",
-          "author": "PA一线",
-          "description": "PANews 9月8日消息，据News1报道，韩国交易所Upbit举行首次由内外专家组成的LUNC会议，讨论LUNC交易手续费的使用和方式。虽然在各种手续费利用方案中包括“向受害投资者返还手续费的方案”，但6名咨询委员中有一部分人表示反对，因此其他方案的可行性受到了重视。虽然最终方案尚未确定，但该会议还包括了分析“Terra 事件”发生原因等的议案，内部强烈认为投资是投资者本人的责任，因此难以执行向投资者返还Upbit交易所LUNC交易手续费方案。\n此前8月份消息，Upbit曾表示向用户返还其在Luna崩盘期间赚取的佣金作为对投资者的补偿，但目前已过去几个月还没有执行。Upbit曾计划从5月11日（当时Upbit将Luna认定为重要项目）到5月20日（终止Luna交易）期间总计95亿韩元（约763万美元）的佣金返还给投资者。",
-          "link": "https://panewslab.com/zh/articledetails/5gmzw9ik.html",
-          "publishedOn": "2022-09-08T06:23:14.000Z",
-          "wordCount": 3391,
-          "title": "Upbit首次举行讨论LUNC交易手续费处理方式的会议，但最终方案仍未确定",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ih04p98c.html",
-          "author": "PA一线",
-          "description": "PANews 9月8日消息，慢雾安全团队对New Free Dao今日遭遇的闪电贷攻击进行了分析，称此次攻击的主要原因在于合约中计算奖励的方式过于简单，仅取决于调用者的余额故导致被闪电贷套利。慢雾安全团队建议在设计奖励方式时应采用多个因素动态计算。\n攻击过程如下：1. 攻击者首先通过闪电贷从 Pancake 借出了大量的 WBNB，并换成了NFD代币；2. 攻击者将第一步兑换的 NFD 代币转入攻击合约中，攻击合约会创建一个新的攻击合约2并接收代币；3. 攻击合约2调用了未开源的被黑合约中 (0x8b068e22) 的 0x6811e3b9 函数，通过反编译该合约分析出该函数仅通过调用者的 NFD 代币余额来计算获取的奖励并将奖励转给调用者，余额越多计算的奖励就越大，攻击合约 2 将在获取奖励后把奖励转移给新部署的攻击合约，并再次调用 0x6811e3b9 函数获取奖励，通过不断创建新的攻击合约获取奖励来滚雪球套出池子里的所有代币；4. 将获得的NFD代币通过Pancake换成WBNB，归还闪电贷后获利。攻击交易：0x1fea385acf7ff046d928d4041db017e1d7ead66727ce7aacb3296b9d485d4a26。\n此前消息，New Free Dao项目疑似遭闪电贷攻击，攻击者获利4500枚BNB（约合125万美元），并将其中的2000枚BNB兑换成55万枚BSC链上的USD。",
-          "link": "https://panewslab.com/zh/articledetails/ih04p98c.html",
-          "publishedOn": "2022-09-08T06:13:11.000Z",
-          "wordCount": 3457,
-          "title": "安全团队：New Free Dao遭遇闪电贷攻击主因在于合约中计算奖励的方式过于简单",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2900,16 +2860,6 @@
           "publishedOn": "2022-09-08T07:47:55.000Z",
           "wordCount": null,
           "title": "Binance矿池将推出为期一个月的ETC矿池挖矿零费率活动",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/102793",
-          "author": null,
-          "description": "BlockBeats 消息，9 月 8 日，据塔斯社报道，俄罗斯将在跨境支付中推广使用数字卢布。（金十）",
-          "link": "https://www.theblockbeats.info/flash/102793",
-          "publishedOn": "2022-09-08T06:28:47.000Z",
-          "wordCount": null,
-          "title": "塔斯社：俄罗斯将在跨境支付中推广使用数字卢布",
           "imageUrl": null
         }
       ]
