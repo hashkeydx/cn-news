@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-09-12T17:22:09.744Z</updated>
+    <updated>2022-09-12T18:12:08.193Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -27,6 +27,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[FTX旗下基金LedgerPrime将向家族办公室过渡，并计划向外部投资者退款]]></title>
+        <id>https://www.theblockbeats.info/flash/103408</id>
+        <link href="https://www.theblockbeats.info/flash/103408"/>
+        <updated>2022-09-12T15:31:23.000Z</updated>
+        <summary type="html"><![CDATA[FTX旗下基金LedgerPrime将向家族办公室过渡，并计划向外部投资者退款]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[数据：持有1000枚以上ETH的地址创16个月新高]]></title>
         <id>https://panewslab.com/zh/articledetails/gh4t783p.html</id>
         <link href="https://panewslab.com/zh/articledetails/gh4t783p.html"/>
@@ -34,6 +44,16 @@
         <summary type="html"><![CDATA[PANews 9月13日消息，Glassnode数据显示，持有1000枚以上ETH的地址达到6469个，创16个月新高。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[资产管理公司Stone Ridge申请清算旗下比特币战略基金]]></title>
+        <id>https://www.theblockbeats.info/flash/103402</id>
+        <link href="https://www.theblockbeats.info/flash/103402"/>
+        <updated>2022-09-12T15:19:23.000Z</updated>
+        <summary type="html"><![CDATA[资产管理公司Stone Ridge申请清算旗下比特币战略基金]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
     <entry>
@@ -3093,101 +3113,6 @@ Exchange Art表示，该轮融资将用于产品开发、用户群增长以及�
         <summary type="html"><![CDATA[PANews 9月8日消息，慢雾安全团队对New Free Dao今日遭遇的闪电贷攻击进行了分析，称此次攻击的主要原因在于合约中计算奖励的方式过于简单，仅取决于调用者的余额故导致被闪电贷套利。慢雾安全团队建议在设计奖励方式时应采用多个因素动态计算。
 攻击过程如下：1. 攻击者首先通过闪电贷从 Pancake 借出了大量的 WBNB，并换成了NFD代币；2. 攻击者将第一步兑换的 NFD 代币转入攻击合约中，攻击合约会创建一个新的攻击合约2并接收代币；3. 攻击合约2调用了未开源的被黑合约中 (0x8b068e22) 的 0x6811e3b9 函数，通过反编译该合约分析出该函数仅通过调用者的 NFD 代币余额来计算获取的奖励并将奖励转给调用者，余额越多计算的奖励就越大，攻击合约 2 将在获取奖励后把奖励转移给新部署的攻击合约，并再次调用 0x6811e3b9 函数获取奖励，通过不断创建新的攻击合约获取奖励来滚雪球套出池子里的所有代币；4. 将获得的NFD代币通过Pancake换成WBNB，归还闪电贷后获利。攻击交易：0x1fea385acf7ff046d928d4041db017e1d7ead66727ce7aacb3296b9d485d4a26。
 此前消息，New Free Dao项目疑似遭闪电贷攻击，攻击者获利4500枚BNB（约合125万美元），并将其中的2000枚BNB兑换成55万枚BSC链上的USD。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chainalysis报告：以太坊合并会推动机构对其采用]]></title>
-        <id>https://www.theblockbeats.info/flash/102784</id>
-        <link href="https://www.theblockbeats.info/flash/102784"/>
-        <updated>2022-09-08T06:10:47.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，9 月 8 日，据加密分析公司 Chainalysis9 月 7 日发布的一份报告，在以太坊合并之后，以太坊的价格可能会与其他加密货币脱钩，因为它的质押奖励将使其类似于债券或具有套利溢价的商品等工具。而质押收益可能会推动机构的大力采用。该报告称，ETH 质押预计每年为质押者提供 10-15% 的收益率，因此 ETH 是「对机构投资者来说有吸引力的债券替代品」。
-
-该报告还指出在以太坊转向 PoS 还将使以太坊更加环保，这也可以让有可持续发展承诺的机构投资者对以太坊更加满意。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solana生态艺术市场exchange art完成320万美元种子轮融资，CozomoMedici等参投]]></title>
-        <id>https://www.theblockbeats.info/flash/102781</id>
-        <link href="https://www.theblockbeats.info/flash/102781"/>
-        <updated>2022-09-08T06:07:20.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，9 月 8 日，Solana 生态数字艺术市场 exchange art 宣布完成 320 万美元种子轮融资，bigbrainvc, cultur3capital, LayerOneVC, HGESOL, degenHFP, baalazamon, CozomoMedici, DontsellyourSOL 等参投。
-
-exchange art 表示，该轮融资将用于产品开发、用户群增长以及为创作者提供支持活动以进一步联结传统艺术与数字艺术。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安全公司：Ragnarok Online Invasion项目遭遇攻击，损失约4.4万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/mbzalpdi.html</id>
-        <link href="https://panewslab.com/zh/articledetails/mbzalpdi.html"/>
-        <updated>2022-09-08T06:04:25.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月8日消息，据安全公司BlockSec的推文，Ragnarok Online Invasion（ROI）项目被攻击，损失约157.98 BNB（约4.4万美元），疑似为典型的所有权转移访问控制漏洞。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[报告：以太坊价格或会在合并后与其他加密货币脱钩，质押收益将推动机构采用ETH]]></title>
-        <id>https://panewslab.com/zh/articledetails/i0xemdbx.html</id>
-        <link href="https://panewslab.com/zh/articledetails/i0xemdbx.html"/>
-        <updated>2022-09-08T05:59:46.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月8日消息，据Cointelegraph报道，加密分析公司Chainalysis今日发布的一份报告称，在以太坊合并之后，以太坊的价格可能会与其他加密货币脱钩，因为它的质押奖励将使其类似于债券或具有套利溢价的商品等工具。而质押收益可能会推动机构的大力采用。该报告称，ETH质押预计每年为质押者提供10-15%的收益率，考虑到国债收益率相比之下要低得多，因此ETH是“对机构投资者来说有吸引力的债券替代品”。
-该报告还指出在以太坊合并后质押会具吸引力的原因之一是，转向PoS还将使以太坊更加环保，这可以让有可持续发展承诺的投资者对资产更加满意。这尤其适用于机构投资者。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国汽车品牌福特已经提交19项元宇宙和NFT相关商标申请]]></title>
-        <id>https://panewslab.com/zh/articledetails/0076pi30.html</id>
-        <link href="https://panewslab.com/zh/articledetails/0076pi30.html"/>
-        <updated>2022-09-08T05:44:19.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月8日消息，据美国律师Mike Kondoudis的推文，美国汽车品牌福特已经提交19项元宇宙和NFT相关商标申请，范围涵盖虚拟汽车、卡车、货车和服装、NFT网上商店。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩国金融委员会：将集中调查加密交易平台是否履行内部控制的义务]]></title>
-        <id>https://www.theblockbeats.info/flash/102775</id>
-        <link href="https://www.theblockbeats.info/flash/102775"/>
-        <updated>2022-09-08T05:40:47.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，9 月 8 日，据 News1 报道，韩国金融委员会表示，今后在检查虚拟资产（加密货币）交易平台时，将集中调查其是否履行了内部控制的标准义务。根据韩国《特别交易法实施令》，虚拟资产交易平台应当制定限制经营者本人和特殊关系人发行的虚拟资产交易的标准，虚拟资产交易平台员工在相关交易平台买卖的行为也受到限制。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CREDAI与Venture Catalysts成立1亿美元proptech基金，专注于区块链房产等领域投资]]></title>
-        <id>https://panewslab.com/zh/articledetails/u6g8574q.html</id>
-        <link href="https://panewslab.com/zh/articledetails/u6g8574q.html"/>
-        <updated>2022-09-08T05:33:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月8日消息，据Yourstroy报道，印度房地产开发商协会联合会 (CREDAI) 与综合孵化器和加速器Venture Catalysts宣布合作成立了一个总规模达1亿美元的proptech基金，专注于投资通过数据分析、区块链、增强现实（AR）、人工智能等技术推动房地产行业发展的初创公司。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安全公司：Grim Finance被盗资金基本转移，约9000ETH转到TornadoCash]]></title>
-        <id>https://panewslab.com/zh/articledetails/dmx7qum5.html</id>
-        <link href="https://panewslab.com/zh/articledetails/dmx7qum5.html"/>
-        <updated>2022-09-08T05:25:35.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月8日消息，据慢雾MistTrack监测，Grim Finance攻击者（0x988...57a）于北京时间9月8日凌晨将300万枚DAI通过Uniswap兑换为1923枚ETH。接着将1900枚ETH转到TornadoCash。此前，Grim Finance于2021年12月遭到重入攻击，攻击者窃取了价值约3000万美元的加密资产，并从Fantom跨链到以太坊。截止目前，攻击者已将9000ETH转入TornadoCash，地址上存额超920万美元（包含93ETH、821万枚DAI和327万枚FTM）。慢雾表示将持续分析挖掘可疑的TornadoCash提款地址。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩国金委会将集中调查加密交易所是否履行内部控制的义务]]></title>
-        <id>https://panewslab.com/zh/articledetails/zk5t0j6r.html</id>
-        <link href="https://panewslab.com/zh/articledetails/zk5t0j6r.html"/>
-        <updated>2022-09-08T05:22:56.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月8日消息，据News1报道，韩国金融委员会表示，今后在检查虚拟资产（加密货币）交易所时，将集中调查交易所是否履行了内部控制的标准义务。根据韩国《特别交易法实施令》，虚拟资产交易所应当制定限制经营者本人和特殊关系人发行的虚拟资产交易的标准，虚拟资产交易所员工在相关交易所买卖的行为也受到限制。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
