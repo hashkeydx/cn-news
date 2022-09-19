@@ -2,10 +2,305 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-09-19T00:53:27.288Z</updated>
+    <updated>2022-09-19T03:44:48.288Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[巴基斯坦当局将对该国100万年轻人进行加密和Web3教育培训]]></title>
+        <id>https://panewslab.com/zh/articledetails/9mwq7xko.html</id>
+        <link href="https://panewslab.com/zh/articledetails/9mwq7xko.html"/>
+        <updated>2022-09-19T03:42:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据The News报道，巴基斯坦总理办公室宣布，作为“总理青年计划 (PMYP) ”的一部分，该国将通过其与数字资产网关Fasset的合作对100万年轻人进行区块链、Web3和加密技术进行教育培训。
+巴基斯坦总理青年事务特别助理Shaza Khwaja表示，该计划将致力于未来机构的技能议程，包括传授有关区块链和Web3的教育课程，创造具有重大经济影响的学习和工作机会，为巴基斯坦培育世界级Web3开发人员。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ETHPoW现报4.45美元，24小时跌幅近48%]]></title>
+        <id>https://panewslab.com/zh/articledetails/zk7csmy4.html</id>
+        <link href="https://panewslab.com/zh/articledetails/zk7csmy4.html"/>
+        <updated>2022-09-19T03:14:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，Coinmarketcap数据显示，ETHPoW（ETHW） 价格现报4.45美元，24小时跌幅达47.85%。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eth.link域名已归还给ENS并重新上线]]></title>
+        <id>https://panewslab.com/zh/articledetails/hfbkwe9r.html</id>
+        <link href="https://panewslab.com/zh/articledetails/hfbkwe9r.html"/>
+        <updated>2022-09-19T03:05:24.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据官方推特，以太坊域名服务ENS宣布，eth.link重新上线，该域名已经归还给ENS，用户可继续使用该服务，或访问替代方案eth.limo。
+此前消息，eth.link域名注册到期后被GoDaddy转卖给第三方，ENS开发公司True Names曾表示将就此对GoDaddy提起诉讼。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：ETHW主网近24小时减少超22.6万个活跃地址，较首日下跌50.8%]]></title>
+        <id>https://panewslab.com/zh/articledetails/dezfl37m.html</id>
+        <link href="https://panewslab.com/zh/articledetails/dezfl37m.html"/>
+        <updated>2022-09-19T02:59:43.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据欧科云链OKLink ETHW浏览器数据显示，当前ETHW主网活跃地址仅为2.8万，近24小时减少22.6万个活跃地址，较上线首日下跌50.8%。当前全网算力33.45TH/s，较其峰值80.56TH/s下跌58.47%。
+此前消息，ETHW主网首日链上交易量超473万ETHW，持币地址数单日新增21万，24小时活跃地址超5.7万。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安全团队：Gnosis Omni Bridge跨链桥项目存在合约层面的重放漏洞，攻击者已转移741 ETHW]]></title>
+        <id>https://panewslab.com/zh/articledetails/f32tb2dk.html</id>
+        <link href="https://panewslab.com/zh/articledetails/f32tb2dk.html"/>
+        <updated>2022-09-19T02:56:32.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，Beosin安全团队发现，在以太坊合并并分叉出ETHW后，Gnosis Omni Bridge跨链桥项目，由于合约代码中固定写死了chainID，而未真正验证当前所在链的chainID，导致合约在验证签名时能够在分叉链上验证通过。攻击者首先在ETH主网上通过omni Bridge转移WETH，随后将相同的交易内容在ETHW链上进行了重放，获取了等额的ETHW。目前攻击者已经转移了741 ETHW到交易所。
+Beosin安全团队建议如果项目方合约里面预设了chainID，请先手动将chainId更新，即使项目方决定不支持ETHW，但是由于无法彻底隔绝通过跨链桥之间的资产流动，建议都在ETHW链上更新。
+此前昨日消息，因特定合约缺陷，EthereumPow跨链桥遭攻击损失200 ETHW。攻击者首先通过Gnosis链的Omni Bridge转移了200 WETH，然后在PoW链上重放了相同的消息，获得了额外的200 ETHW。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cosmos生态公链Canto通过投票将代币排放量较上一时期减少约54%]]></title>
+        <id>https://panewslab.com/zh/articledetails/rkarbmsr.html</id>
+        <link href="https://panewslab.com/zh/articledetails/rkarbmsr.html"/>
+        <updated>2022-09-19T02:42:05.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据官方公告，Cosmos生态公链Canto关于使用新参数扩展流动性激励计划的治理提案已通过，安全性和流动性挖矿的代币净排放量将比上一时期减少约54%，该提案旨在以提高资本效率并进一步协调Canto利益相关者。
+根据提案，网络安全排放将从每个区块37.74 Canto的通货膨胀率转变为每块10 Canto，将在30天内铸造450万枚新CANTO代币，比上一时期减少70%。此外，流动性挖矿计划将按每个区块向LP代币持有者线性释放代币，30天内共释放3080万枚CANTO，每个区块72枚CANTO，将比上个时期减少约50%。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3科技服务公司灵境数字科技完成数千万元A轮融资，拟深化元宇宙等业务布局]]></title>
+        <id>https://panewslab.com/zh/articledetails/fajff9xe.html</id>
+        <link href="https://panewslab.com/zh/articledetails/fajff9xe.html"/>
+        <updated>2022-09-19T02:31:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据36氪报道，灵境数字（北京）科技有限公司已完成数千万元A轮融资，本轮融资由光云基金独家投资，资金将主要用于加强市场拓展和业务运营，加大产品设计及研发投入，深化数字文化资产融通实体经济、元宇宙等核心业务布局。
+据悉，灵境数字科技是是一家面向互联网3.0时代的科技服务公司，旗下拥有“灵境藏品”和数字资产公共服务平台等核心产品。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[行情：以太坊短时跌破1300美元，比特币短时跌破18900美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/oyuv0y0m.html</id>
+        <link href="https://panewslab.com/zh/articledetails/oyuv0y0m.html"/>
+        <updated>2022-09-19T02:26:52.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，行情显示，以太坊短时跌破1300美元，最低跌至1294.10美元，现报1303.07美元，24小时跌幅10.32%。
+与此同时，比特币短时跌破18900美元，最低跌至18855美元，现报18961.11美元，24小时跌幅5.27%。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：ETC全网算力跌至207.40 TH/s，ETHW全网算力跌至34.71 TH/s]]></title>
+        <id>https://panewslab.com/zh/articledetails/099ynrmm.html</id>
+        <link href="https://panewslab.com/zh/articledetails/099ynrmm.html"/>
+        <updated>2022-09-19T02:13:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据2Miners数据显示，当前ETC全网算力为207.40 TH/s，较峰值311.82 TH/s下跌33%。当前ETHW（EthereumPoW）全网算力为34.71 TH/s，较峰值80.56 TH/s下跌56.91%。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Teucrium发行的Hashdex比特币期货ETF已上线纽交所]]></title>
+        <id>https://panewslab.com/zh/articledetails/6sp4lt81.html</id>
+        <link href="https://panewslab.com/zh/articledetails/6sp4lt81.html"/>
+        <updated>2022-09-19T02:01:48.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据彭博社报道，Teucrium发行的Hashdex比特币期货ETF（代码为 DEFI）已上线纽交所并开始交易，其中DEFI是根据1933年的《证券法》提交，而非1940年的《投资公司法》。据分析由于美国证券交易委员会（SEC）一再否认实物支持的比特币ETF属于1933年法案的范畴，因此DEFI的推出可能成为实物比特币ETF获得批准的关键一步。
+此前4月份消息，美国证券交易委员会批准Teucrium的比特币期货ETF。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩国电信巨头SK电讯旗下元宇宙ifland将举办虚拟演唱会]]></title>
+        <id>https://panewslab.com/zh/articledetails/zpc0ygyt.html</id>
+        <link href="https://panewslab.com/zh/articledetails/zpc0ygyt.html"/>
+        <updated>2022-09-19T01:55:07.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据News1报道，韩国电信巨头SK电讯将在其旗下元宇宙平台Ifland举行虚拟演唱会“Meta Hongdae Music Tour”，10CM、鲜于贞娥、Car, the garden、PH-1朴俊元、YB (尹道贤乐队)等将参加此次音乐会。从9月19日到23日，每天将依次公开1组表演，之后从24日到25日将同时展示所有的公演内容。
+此前消息，韩国电信巨头SK电讯拟在80个国家推出Ifland元宇宙服务。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Morgan Creek Digital联创等共同创立面向传统金融投资者的数字资产研究公司]]></title>
+        <id>https://panewslab.com/zh/articledetails/cfyt2x43.html</id>
+        <link href="https://panewslab.com/zh/articledetails/cfyt2x43.html"/>
+        <updated>2022-09-19T01:44:34.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，链上分析师Will Clemente在推特上宣布，其与Morgan Creek Digital联合创始人Anthony Pompliano、以及加密招聘公司Inflection Points共同创立机构级研究公司Reflexivity Research，将通过研究报告、独家研讨会以及私人咨询等方式提供咨询意见，帮助传统金融投资数字资产。Anthony Pompliano也在推特上证实了这一消息。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SHIB生态链游Shiba Eternity已上线澳大利亚苹果应用商店]]></title>
+        <id>https://panewslab.com/zh/articledetails/25j78z8a.html</id>
+        <link href="https://panewslab.com/zh/articledetails/25j78z8a.html"/>
+        <updated>2022-09-19T01:35:44.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据官方推特，SHIB生态链游Shiba Eternity已上线澳大利亚苹果应用商店，并即将上线Google Play商店。Shiba Inu首席开发者Shytoshi Kusama表示，澳大利亚或是Shiba Eternity的最后一个测试地点，测试完成后将全面上线。
+此前8月2日消息，Shiba Inu宣布其收藏卡牌游戏（CCG）的正式名称为“Shiba Eternity”。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFT Layer2解决方案Immutable X上线自动刷新元数据功能]]></title>
+        <id>https://panewslab.com/zh/articledetails/a2k39lsz.html</id>
+        <link href="https://panewslab.com/zh/articledetails/a2k39lsz.html"/>
+        <updated>2022-09-19T01:28:26.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据官方公告，NFT Layer2解决方案Immutable X上线自动化元数据刷新（Automated Metadata Refresh）功能，开发人员拥有自助服务访问权限，可在必要时直接刷新元数据，以更新游戏资产、改善游戏体验等，而无需再联系Immutable X团队成员。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StarkWare将推出L2实验游戏项目GoL2，玩家可获得GOL代币奖励]]></title>
+        <id>https://panewslab.com/zh/articledetails/p750apz4.html</id>
+        <link href="https://panewslab.com/zh/articledetails/p750apz4.html"/>
+        <updated>2022-09-19T01:19:33.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据官方推特，以太坊扩容解决方案StarkWare宣布未来几天将推出L2实验游戏项目GoL2，即“Game of Life”的StarkNet版本。玩家可以通过游戏获得GOL代币，GOL的用例是在创造者模式中可创造自己的游戏。
+Game of Life由数学家Gigabrain John Conway于1970年创建，是一款基于数学规则运行的以细胞进化为主题的游戏。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美联储将于9月20日至21日召开货币政策会议，市场预计美联储将继续加息]]></title>
+        <id>https://panewslab.com/zh/articledetails/xln5yblp.html</id>
+        <link href="https://panewslab.com/zh/articledetails/xln5yblp.html"/>
+        <updated>2022-09-19T01:16:01.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据财联社报道，美联储将于9月20日至21日召开新一次货币政策会议，市场普遍预计美联储将连续第三次加息0.75个百分点，以对抗高通胀。美联储已经在6月和7月连续两次加息75个基点。美国总统拜登称，我们会控制住通胀；预计随着美联储加息，经济会“软着陆”。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GMX：正调查AVAX/USD价格被操纵事件，已暂时设置AVAX未平仓头寸上限]]></title>
+        <id>https://panewslab.com/zh/articledetails/tf1qzkw5.html</id>
+        <link href="https://panewslab.com/zh/articledetails/tf1qzkw5.html"/>
+        <updated>2022-09-19T01:09:29.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，Arbitrum生态衍生品协议GMX发推表示，收到了有人在参考交易所对AVAX/USD进行价格操纵的通知，在GMX审查该事件时，AVAX的未平仓头寸上限被设置为多头200万美元/空头100万美元，GMX称GLP和GMX交易市场继续正常运行。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊二层扩容方案Immutable X上线自动化元数据刷新功能]]></title>
+        <id>https://www.theblockbeats.info/flash/104704</id>
+        <link href="https://www.theblockbeats.info/flash/104704"/>
+        <updated>2022-09-19T01:04:23.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，9 月 19 日，据官方消息，以太坊 NFT 二层扩容方案 Immutable X 上线自动化元数据刷新（Automated Metadata Refresh）功能，开发人员拥有自助服务访问权限，可在必要时直接刷新元数据，以更新游戏资产、改善游戏体验等，而无需再联系 Immutable X 团队成员。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GMX：监测到AVAX/USD价格被操纵，已对相关头寸进行限制]]></title>
+        <id>https://www.theblockbeats.info/flash/104701</id>
+        <link href="https://www.theblockbeats.info/flash/104701"/>
+        <updated>2022-09-19T00:59:23.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，9 月 19 日，Arbitrum 生态衍生品协议 GMX 表示，系统监控到了有人对 AVAX/USD 进行价格操纵。在 GMX 审查该事件时，AVAX 的未平仓头寸被限制在 200 万美元多头/100 万美元空头，GLP 和 GMX 交易市场继续正常运行。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SBF：FTX仍有约10亿美元可用于收购陷入困境的加密公司]]></title>
+        <id>https://www.theblockbeats.info/flash/104698</id>
+        <link href="https://www.theblockbeats.info/flash/104698"/>
+        <updated>2022-09-19T00:55:23.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，9 月 19 日，SBF 日前在接受 CNBC 的 Squawk Box 采访时表示，FTX 仍有约 10 亿美元准备帮助陷入困境的加密货币公司。
+
+在今年加密市场下行之后，FTX 对多家加密领域公司进行了投资，例如对冲基金 SkyBridge Capital。此前，SBF 表示，希望业内其他公司能够挺身而出，帮助他拯救受市场低迷影响的公司。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shib生态链游Shiba Eternity已在澳大利亚率先推出]]></title>
+        <id>https://www.theblockbeats.info/flash/104695</id>
+        <link href="https://www.theblockbeats.info/flash/104695"/>
+        <updated>2022-09-19T00:52:23.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，9 月 19 日，据官方消息，Shib 生态手机链游 Shiba Eternity 已上线澳大利亚苹果应用商店。Shiba Inu 首席开发者 Shytoshi Kusama 表示，澳大利亚或是 Shiba Eternity 的最后一个测试地点，测试完成后将全面上线。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SBF：FTX仍有10亿美元现金可用于收购陷入困境的加密公司]]></title>
+        <id>https://panewslab.com/zh/articledetails/yg2658ko.html</id>
+        <link href="https://panewslab.com/zh/articledetails/yg2658ko.html"/>
+        <updated>2022-09-19T00:46:05.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，在最近接受CNBC财经节目《Squawk Box》采访时，FTX首席执行官Sam Bankman-Fried表示，该公司仍持有约10亿美元的场外现金，随时准备帮助陷入困境的加密货币公司。
+他解释称：“我们并没有试图清空资金储备库，而是投入了数十亿美元，这与我们去年募集的资金规模大致相符，除此之外我们还实现了盈利。如果加密行业在遭遇痛苦，如果市场崩溃，这对任何人都没有好处，对客户也不公平，对监管更是不利，对各方面都没有好处。所以，从长远的角度来看，帮助加密公司摆脱困境对生态系统来说才是最重要的。”
+此前消息，知情人士透露，加密交易所FTX正在筹集资金以收购零售交易平台；目前FTX在Voyager Digital资产拍卖过程中出价最高。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StarkWare将推出L2实验游戏项目GoL2，玩家可获得GOL Token奖励]]></title>
+        <id>https://www.theblockbeats.info/flash/104692</id>
+        <link href="https://www.theblockbeats.info/flash/104692"/>
+        <updated>2022-09-19T00:43:23.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，StarkWare 宣布将推出 L2 实验游戏项目 GoL2，即「Game of Life」的 StarkNet 版本。玩家可以通过游戏获得 GOL Token，GOL 的用例是在创造者模式中可创造自己的游戏。
+
+Game of Life 由数学家 Gigabrain John Conway 于 1970 年创建，是一款基于数学规则运行的以细胞进化为主题的游戏。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[黑客组织TeamTNT正利用劫持服务器等方式试图破解比特币]]></title>
+        <id>https://panewslab.com/zh/articledetails/mdkjctxr.html</id>
+        <link href="https://panewslab.com/zh/articledetails/mdkjctxr.html"/>
+        <updated>2022-09-19T00:33:40.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，据安全公司AquaSec监测，黑客组织TeamTNT正试图破解比特币，TeamTNT在新一轮攻击中使用了三种攻击类型，包括“袋鼠攻击”、以及“Cronb攻击”和“What Will Be”攻击。其中“袋鼠攻击”使用了Pollard的Kangaroo WIF求解器，通过被劫持服务器的计算能力来运行比特币加密求解器，而其他攻击类似于过去的 TeamTNT操作 ，但现在具有一些新特征。
+据悉，TeamTNT曾于2021年11月宣布退出，但近一年后该组织再次出现。安全人员建议相关组织需要提高他们的云安全性，加强Docker配置，并尽可能完成所有可用的安全更新。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ripple和SEC希望Ripple出售未注册证券案尽快判决]]></title>
+        <id>https://www.theblockbeats.info/flash/104686</id>
+        <link href="https://www.theblockbeats.info/flash/104686"/>
+        <updated>2022-09-19T00:28:23.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，9 月 19 日，据 The Block 报道，根据 9 月 13 日提交的法庭文件显示，Ripple 和美国证券交易委员会（SEC）都要求法官在 Ripple 出售 XRP 一案中迅速做出简易裁决，双方都不希望法律诉讼继续进行全面审判。
+
+此前美 SEC 指控 Ripple 公司在发行 XRP 属于出售未注册的证券。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nomad发布不良行为者的地址名单，并呼吁用户提供线索]]></title>
+        <id>https://panewslab.com/zh/articledetails/iu0a9p6l.html</id>
+        <link href="https://panewslab.com/zh/articledetails/iu0a9p6l.html"/>
+        <updated>2022-09-19T00:23:48.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月19日消息，跨链互操作性协议Nomad发布不良行为者的地址名单，该名单与白帽黑客名单和与黑客有关的完整名单有重合，如果用户知道其中地址的任何详细信息，可以发送给Nomad，以协调被盗资金的返还。
+此前Nomad上个月因合约漏洞被盗近2亿美元，上周Nomad宣布计划于本周发布跨链桥重启更新。
+相关阅读：Nomad黑客事件复盘：1.9亿美元被盗仅因一个低级错误]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[因Gnosis Omni Bridge合约缺陷，ETHW跨链桥遭攻击损失200ETHW]]></title>
+        <id>https://www.theblockbeats.info/flash/104683</id>
+        <link href="https://www.theblockbeats.info/flash/104683"/>
+        <updated>2022-09-19T00:23:23.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，9 月 19 日，据安全机构 BlockSec 表示，检测到攻击者正在 EthereumPow 重放 PoS 链的消息，该漏洞的根本原因是网桥未正确验证跨链消息的实际 ChainID。攻击者首先通过 Gnosis 链的 Omni Bridge 转移了 200 WETH，然后在 PoW 链上重放了相同的消息，获得了额外的 200 ETHW。结果，部署在 PoW 链上的链合约的余额将被耗尽。
+
+EthereumPow 针对攻击表示，昨天已经尝试联系 Omni Bridge，网桥需要正确验证跨链消息的实际 ChainID。这不是链级别的交易重放，而是由于特定合约的缺陷而导致的调用数据重放。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[币安：会计系统漏洞发生在Binance.US，Binance.com用户资产安全]]></title>
         <id>https://panewslab.com/zh/articledetails/by5rx7uk.html</id>
