@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-09-20T11:08:36.293Z</updated>
+    <updated>2022-09-20T12:21:29.338Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[纳斯达克正准备推出机构加密托管服务]]></title>
+        <id>https://panewslab.com/zh/articledetails/20owo4q7.html</id>
+        <link href="https://panewslab.com/zh/articledetails/20owo4q7.html"/>
+        <updated>2022-09-20T11:36:51.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月20日消息，据该公司简报的几位消息人士称，股权交易所运营商纳斯达克一直在策划进军机构加密货币托管服务。消息人士称，新产品正在等待监管部门的批准。纳斯达克还正在建立一个新的以加密为重点的部门，同时探索加密托管、纳斯达克数字资产。至少自 2018 年以来，纳斯达克一直为加密货币交易场所提供市场监控技术。2021 年 2 月，该交易所宣布推出 Hashdex 纳斯达克加密指数 ETF。
+据悉，此举符合其更广泛的使命，即成为加密领域的服务提供商，而不是促进加密货币的交易。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以色列Web3公司Antic完成700万美元种子轮融资，776和Sheva领投]]></title>
+        <id>https://panewslab.com/zh/articledetails/2urj9f3m.html</id>
+        <link href="https://panewslab.com/zh/articledetails/2urj9f3m.html"/>
+        <updated>2022-09-20T11:22:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月20日消息，以色列 Web3 公司 Antic 宣布完成了 700 万美元的种子轮融资。由 Reddit 创始人 Alexis Ohanian 创立的Seven Seven Six (776) 基金和以色列风险投资公司 Sheva 领投，Pantera Capital、Sound Ventures、Rainfall、Shrug 和 Dapper Labs 参投。Antic 开发了一个基于区块链的基础设施来创建共享所有权，通过本轮融资，Antic将扩大其深入研究并继续发展其技术基础设施。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beosin：针对Wintermute损失1.6亿美元黑客事件，建议项目方移除相关地址管理权限]]></title>
+        <id>https://panewslab.com/zh/articledetails/pe14uh1k.html</id>
+        <link href="https://panewslab.com/zh/articledetails/pe14uh1k.html"/>
+        <updated>2022-09-20T10:52:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月20日消息，据Beosin EagleEye监测显示，Wintermute在DeFi黑客攻击中损失1.6亿美元，Beosin 安全团队发现，攻击者频繁的利用0x0000000fe6a...地址调用0x00000000ae34...合约的0x178979ae函数向0x0248地址（攻击者合约）转账，通过反编译合约，发现调用0x178979ae函数需要权限校验，通过函数查询，确认0x0000000fe6a地址拥有setCommonAdmin权限，并且该地址在攻击之前和该合约有正常的交互，那么可以确认0x0000000fe6a的私钥被泄露。结合地址特征（0x0000000），疑似项目方使用Profanity工具生成地址。该工具在之前发的文章中，已有安全研究者确认其随机性存在安全缺陷（有暴力破解私钥的风险），导致私钥可能泄漏。
+Beosin 安全团队建议：1.项目方移除0x0000000fe6a地址以及其他靓号地址的setCommonAdmin/owner等管理权限，并使用安全的钱包地址替换。2.其他使用Profanity工具生成钱包地址的项目方或者用户，请尽快转移资产。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[机构借贷协议Maple称储户不会受到Wintermute攻击事件影响]]></title>
+        <id>https://panewslab.com/zh/articledetails/591tbzx8.html</id>
+        <link href="https://panewslab.com/zh/articledetails/591tbzx8.html"/>
+        <updated>2022-09-20T10:48:42.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月20日消息，针对机构的借贷协议 Maple Finance 发推称，正在和 Wintermute 沟通联系，Wintermute 表示有足够能力承担黑客攻击造成的损失，将继续为 Maple 贷款提供服务，因此储户不会受到影响。Wintermute 最新的财务数据支持有足够的股权缓冲来履行其义务，并且他们正在向代表们提供更新的财务数据以供审查。代表们将保持密切联系并分享最新消息。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安从迪拜虚拟资产监管局获得 MVP 许可证]]></title>
+        <id>https://panewslab.com/zh/articledetails/2ot7r99v.html</id>
+        <link href="https://panewslab.com/zh/articledetails/2ot7r99v.html"/>
+        <updated>2022-09-20T10:15:55.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月20日消息，币安发布公告称，Binance 已获得迪拜虚拟资产监管局 (VARA) 颁发的最小可行产品 (MVP) 许可证。MVP 许可证意味着币安在针对加密资产服务提供商 (VASP) 的国际基准立法框架内，可为迪拜合格的散户和机构投资者提供一系列与加密资产相关的服务，比如加密资产交易服务、加密资产和法定货币之间的兑换服务等服务。
+此前7月底，FTX 宣布成为首家获迪拜监管机构“MVP 许可证”的交易所。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Weirdo Ghost Gang母公司ManesLAB推出NFT无代码发行工具，并启动Web3品牌孵化计划]]></title>
         <id>https://www.theblockbeats.info/flash/104989</id>
@@ -20,6 +73,30 @@
 未来，ManesLAB 将持续致力于链接 Web3 与 Web2 生态，推动 Web3 技术与文化在 Web2 的广泛采用及传播。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Salus Security称找到Wintermute黑客地址，其现为 3Crv 第三大持有者]]></title>
+        <id>https://panewslab.com/zh/articledetails/avl35oyf.html</id>
+        <link href="https://panewslab.com/zh/articledetails/avl35oyf.html"/>
+        <updated>2022-09-20T09:54:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月20日消息，区块链安全公司 Salus Security 发推称找到了黑客的地址：0x74b28c2eae8679e3 ccc3a94d5d0de 83ccb84705。该地址资金来源为Tornado.Cash 和 在 FTX 和 Poloniex 大量提币的Metamask 独立钱包。并与疑似Wintermute用户地址0x2b3407c6091ada288d7ce902e5c3982fd8756881相关。且与币安官方合约也有流出操作：0x4fabb145d64652a948d72533023f6e7a623c7c53。
+据 Etherscan，标记为 Wintermute 黑客的钱包地址当前持有 6,927 枚以太坊，约合逾 936 万美元。另外，该钱包还持有 671. 24 枚 WBTC（约合 1300 万美元）、逾 397 万枚 USDP、1,789,602 枚 Somnium Space Cubes 代币 CUBE（约合 234 万美元）、59,407 枚 Maple Token 代币 MPL（约合 118 万美元）、近 102 万枚 CRV（约合 99 万美元）、逾 217 万枚 YGG（约合 83 万美元）等 76 种 ERC-20 代币，这些代币当前总价值为 4754 万美元。另外，在今日 13:39，该地址在 Curve DAI/USDC/USDT 池中通过添加流动性获得 111,953,508 枚 3Crv。当前该地址是 3Crv 第三大持有者。PeckShieldAlert 表示 Wintermute 被盗取的 1.6 亿美元中大约 73% 是稳定币（DAI、USDT、USDC、USDP），8% 是 WBTC，6% 是 ETH。目前攻击者将 1.14 亿美元存到 CRV 中做 LP。
+BlockSec分析称，根本原因在于私钥泄漏，攻击者使用泄露的私钥执行一个特权函数，指定兑换合约为攻击者控制的合约（0x0248f752802b2cfb4373cc0c3bc3964429385c26）。
+今日早些时候Wintermute创始人发推称，加密做市商Wintermute在DeFi黑客攻击中损失1.6亿美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wintermute推出的DEX Bebop宣布暂停交易]]></title>
+        <id>https://panewslab.com/zh/articledetails/56g0mgts.html</id>
+        <link href="https://panewslab.com/zh/articledetails/56g0mgts.html"/>
+        <updated>2022-09-20T09:52:05.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月20日消息，加密做市商 Wintermute 推出的去中心化交易平台（DEX） Bebop 发推宣布暂停交易，将于几天内恢复。Bebop 表示其合约不受影响，用户的资金和私钥也无安全问题。
+此前6月份消息，做市商 Wintermute 将推出其孵化的去中心化交易平台 Bebop。]]></summary>
+        <author>
+            <name>PA一线</name>
         </author>
     </entry>
     <entry>
@@ -3465,29 +3542,6 @@ BlockBeats 此前报道，6 月 6 日，NFT 游戏 Illuvium 在 6 月 2 日至 6
         <updated>2022-09-16T00:24:01.000Z</updated>
         <summary type="html"><![CDATA[PANews 9月16日消息，据CoinDesk报道，根据提交给美国证券交易委员会（SEC）的修订文件，截至第二季度末管理着12亿美元资产的投资公司Valkyrie已为其两只加密信托基金增加筹集了7360万美元的新资金。其中Valkyrie Tron Trust为合格投资者提供了Tron（TRX）代币敞口，目前已筹集到接近5000万美元的资金；提供AVAX代币敞口的Valkyrie Avalanche Trust于1月份首次出现在SEC的文件中，该基金现已筹集了近2400万美元。
 此前5月份消息，Valkyrie XBTO的比特币期货ETF获美SEC批准；7月份消息，Valkyrie将推出专注于早期“Web 2.5”的风投基金，寻求筹集3000万至5000万美元之间的资金。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美SEC主席：PoS加密货币或被认定为证券而受联邦证券法规约束]]></title>
-        <id>https://panewslab.com/zh/articledetails/h9epy01f.html</id>
-        <link href="https://panewslab.com/zh/articledetails/h9epy01f.html"/>
-        <updated>2022-09-16T00:15:31.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月16日消息，据华尔街日报及The Block报道，美国证券交易委员会（SEC）主席Gary Gensler在以太坊完成合并之后表示，允许持有人“质押”其代币的加密货币和中介机构可能需要通过Howey测试来确定其资产是否为证券，这意味着PoS加密货币可能会受到联邦证券法规的约束。
-Gary Gensler还表示，加密货币交易所和经纪交易商广泛违反证券法。 过去五年来，SEC一直表示，根据美国法律，大多数数字货币都是证券，并针对各种项目采取了数十项执法行动，因为这些项目没有像发行股票或债券的公司那样注册并遵循其他证券准则。
-此前昨日消息，Gary Gensle称多个加密货币监管机构可能“破坏”证券规则。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欧易已开始发放ETHW空投并上线ETHW现货交易]]></title>
-        <id>https://panewslab.com/zh/articledetails/l9fe612i.html</id>
-        <link href="https://panewslab.com/zh/articledetails/l9fe612i.html"/>
-        <updated>2022-09-16T00:00:44.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月16日消息，据欧易OKX官方公告，欧易已于2022年9月15日开始发放EthereumPoW (ETHW) 空投，用户的ETHW资产可通过“资金账户”进行查询。
-同时，欧易上线ETHW现货交易，ETHW/USDT交易已于今日凌晨开放，ETHW提现将于今日18:00开放。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
