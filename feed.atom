@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-09-24T22:08:40.215Z</updated>
+    <updated>2022-09-24T23:09:07.956Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4246,54 +4246,6 @@ Antic 表示，其一直在构建允许共同持有的去中心化基础设施�
         <summary type="html"><![CDATA[BlockBeats 消息，9 月 20 日，机构借贷协议 Maple Finance 在其社交平台表示，已经和加密做市商 Wintermute 取得沟通联系，Wintermute 表示有足够能力承担黑客攻击造成的损失，Maple Finance 的存款人不会受此次黑客攻击的影响。
 
 BlockBeats 此前报道，8 月 11 日，Maple Finance 推出由加密原生投资公司 Maven 11 支持的 4000 万美元流动资金池，借款人包括 Wintermute。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beosin：针对Wintermute损失1.6亿美元黑客事件，建议项目方移除相关地址管理权限]]></title>
-        <id>https://panewslab.com/zh/articledetails/pe14uh1k.html</id>
-        <link href="https://panewslab.com/zh/articledetails/pe14uh1k.html"/>
-        <updated>2022-09-20T10:52:47.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月20日消息，据Beosin EagleEye监测显示，Wintermute在DeFi黑客攻击中损失1.6亿美元，Beosin 安全团队发现，攻击者频繁的利用0x0000000fe6a...地址调用0x00000000ae34...合约的0x178979ae函数向0x0248地址（攻击者合约）转账，通过反编译合约，发现调用0x178979ae函数需要权限校验，通过函数查询，确认0x0000000fe6a地址拥有setCommonAdmin权限，并且该地址在攻击之前和该合约有正常的交互，那么可以确认0x0000000fe6a的私钥被泄露。结合地址特征（0x0000000），疑似项目方使用Profanity工具生成地址。该工具在之前发的文章中，已有安全研究者确认其随机性存在安全缺陷（有暴力破解私钥的风险），导致私钥可能泄漏。
-Beosin 安全团队建议：1.项目方移除0x0000000fe6a地址以及其他靓号地址的setCommonAdmin/owner等管理权限，并使用安全的钱包地址替换。2.其他使用Profanity工具生成钱包地址的项目方或者用户，请尽快转移资产。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[机构借贷协议Maple称储户不会受到Wintermute攻击事件影响]]></title>
-        <id>https://panewslab.com/zh/articledetails/591tbzx8.html</id>
-        <link href="https://panewslab.com/zh/articledetails/591tbzx8.html"/>
-        <updated>2022-09-20T10:48:42.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月20日消息，针对机构的借贷协议 Maple Finance 发推称，正在和 Wintermute 沟通联系，Wintermute 表示有足够能力承担黑客攻击造成的损失，将继续为 Maple 贷款提供服务，因此储户不会受到影响。Wintermute 最新的财务数据支持有足够的股权缓冲来履行其义务，并且他们正在向代表们提供更新的财务数据以供审查。代表们将保持密切联系并分享最新消息。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[币安从迪拜虚拟资产监管局获得 MVP 许可证]]></title>
-        <id>https://panewslab.com/zh/articledetails/2ot7r99v.html</id>
-        <link href="https://panewslab.com/zh/articledetails/2ot7r99v.html"/>
-        <updated>2022-09-20T10:15:55.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月20日消息，币安发布公告称，Binance 已获得迪拜虚拟资产监管局 (VARA) 颁发的最小可行产品 (MVP) 许可证。MVP 许可证意味着币安在针对加密资产服务提供商 (VASP) 的国际基准立法框架内，可为迪拜合格的散户和机构投资者提供一系列与加密资产相关的服务，比如加密资产交易服务、加密资产和法定货币之间的兑换服务等服务。
-此前7月底，FTX 宣布成为首家获迪拜监管机构“MVP 许可证”的交易所。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weirdo Ghost Gang母公司ManesLAB推出NFT无代码发行工具，并启动Web3品牌孵化计划]]></title>
-        <id>https://www.theblockbeats.info/flash/104989</id>
-        <link href="https://www.theblockbeats.info/flash/104989"/>
-        <updated>2022-09-20T10:09:32.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，9 月 20 日，NFT 项目「小幽灵」Weirdo Ghost Gang 母公司 ManesLAB 推出 NFT 无代码发行工具 ManeSTUDIO，并启动 Web3 品牌孵化计划。
-
-据了解，NFT 无代码发行工具 ManeSTUDIO 具备元素随机生成、独立智能合约定制及部署、自定义退款期限与比例、热门 NFT 持有人白名单一键发放、团队内部资金自动分配、发售页面建站等功能，并推出与发行工具配套的 NFT 一级发售平台 ManeSPACE。
-
-此外，ManesLAB 还会向优质品牌与创作者提供 Web3 品牌孵化服务，通过运营策略制定、指导以及一些更加落地的方式帮助更多 Web2 品牌与创作者在 Web3 世界发展，为 Web3 注入更多生态活力。
-
-未来，ManesLAB 将持续致力于链接 Web3 与 Web2 生态，推动 Web3 技术与文化在 Web2 的广泛采用及传播。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
         </author>
