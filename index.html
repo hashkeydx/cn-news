@@ -51,236 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-02 datetime="2022-10-02T07:09:09.000Z">2022-10-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-02 datetime="2022-10-02T07:09:09.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-02 datetime="2022-10-02T08:42:06.000Z">2022-10-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-02 datetime="2022-10-02T08:42:06.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - 快讯</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107089"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊Layer 2总锁仓量跌至46.6亿美元，7日跌幅3.52%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107089">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，据 L2BEAT 数据显示，当前以太坊 Layer 2 总锁仓量跌至 46.6 亿美元，7 日跌幅 3.52%。其中，锁仓量前五分别为：
-
-Arbitrum（23.5 亿美元，7 日跌幅 6.66%）；
-Optimism（14.4 亿美元，7 日涨幅 2.20%）；
-dYdX（3.84 亿美元，7 日跌幅 6.80%）；
-Loopring（1.41 亿美元，7 日跌幅 0.65%）；
-Metis Andromeda（1.15 亿美元，7 日跌幅 2.94%）。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107086"
-                        open
-                      >
-                        <summary class="article-expander__title">Transit Swap攻击者已将约70%被盗资产归还至指定地址</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107086">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，加密钱包 Token Pocket 旗下闪兑交易 DEX Transit Swap 官方发布公告称，黑客已将约 70% 被盗资产归还至以下两个地址：
-
-以太坊: 0xFab745c5ee6c59c09605a40464232930892ba48c
-BNB Chain: 0xFab745c5ee6c59c09605a40464232930892ba48c
-
-为了确保资产安全，Transit Swap 将把归还资产分别在以太坊和 BNB Chain 上转移至新地址: 0xD989f7B4320c6e69ceA3d91444c19AB67D3a35E
-
-BlockBeats 此前报道，Transit Swap 遭受黑客攻击，预估损失金额超过 2000 万美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107080"
-                        open
-                      >
-                        <summary class="article-expander__title">慢雾：Transit Swap因任意外部调用被黑，2500 BNB已转移到Tornado Cash</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107080">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，据慢雾安全团队情报，跨链 DEX 聚合器 Transit Swap 项目遭到攻击导致用户资产被非预期的转出。慢雾安全团队分析评估此次被盗资金规模超过 2300 万美元，黑客地址为 0x75F2...FD46 和 0xfa71...90fb。接着对此次攻击过程进行了分析：
-
-1. 当用户在 Transit Swap 进行 swap 时，会先通过路由代理合约 (0x8785bb...) 根据不同的兑换类型选择不同的路由桥合约。随后路由桥合约 (0x0B4727...) 会通过权限管理合约 (0xeD1afC...) 的 claimTokens 函数将用户待兑换的 Token 转入路由桥合约中。因此在 Token 兑换前用户需要先对权限管理合约 (0xeD1afC...) 进行授权。
-
-2. 而 claimTokens 函数是通过调用指定 Token 合约的 transferFrom 函数进行转账的。其接收的参数都由上层路由桥合约 (0x0B4727...) 传入，本身没有对这些参数进行任何限制只检查了调用者必须为路由代理合约或路由桥合约。
-
-3. 路由桥合约 (0x0B4727...) 在接收到用户待兑换的 Token 后会调用兑换合约进行具体的兑换操作，但兑换合约的地址与具体的函数调用数据都由上层路由代理合约 (0x8785bb...) 传入，路由桥合约并未对解析后的兑换合约地址与调用数据进行检查。
-
-4. 而代理合约 (0x8785bb...) 对路由桥合约 (0x0B4727...) 传入的参数也都来自于用户传入的参数。且代理合约 (0x8785bb...) 仅是确保了用户传入的 calldata 内各数据长度是否符合预期与所调用的路由桥合约是在白名单映射中的地址，未对 calldata 数据进行具体检查。
-
-5. 因此攻击者利用路由代理合约、路由桥合约与权限管理合约均未对传入的数据进行检查的缺陷。通过路由代理合约传入构造后的数据调用路由桥合约的 callBytes 函数。callBytes 函数解析出攻击者指定的兑换合约与兑换数据，此时兑换合约被指定为权限管理合约地址，兑换数据被指定为调用 claimTokens 函数将指定用户的 Token 转入攻击者指定的地址中。实现了窃取所有对权限管理合约进行授权的用户的 Token。
-
-此次攻击的主要原因在于 Transit Swap 协议在进行 Token 兑换时并未对用户传入的数据进行严格检查，导致了任意外部调用的问题。攻击者利用此任意外部调用问题窃取了用户对 Transit Swap 授权的 Token。
-
-截止到目前，黑客已将 2,500 BNB 转移到 Tornado Cash，剩余资金分散保留在黑客地址中。经过黑客痕迹分析发现，黑客存在从 LATOKEN 等平台存提款的痕迹。慢雾 MistTrack 将持续跟进被盗资金的转移以及黑客痕迹的分析。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107071"
-                        open
-                      >
-                        <summary class="article-expander__title">神鱼呼吁项目方规范使用授权功能</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107071">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，神鱼在社交媒体上发文表示：「呼吁一下项目方规范使用授权功能，用多少授权多少，不要无限授权，大家都放心；作为协议参与者，没事取消取消授权，换换地址，防止被一窝端。」
-
-BlockBeats 此前报道，10 月 2 日，加密钱包 Token Pocket 旗下闪兑交易 DEX Transit Swap 遭受黑客攻击，预估损失金额超过 2000 万美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107065"
-                        open
-                      >
-                        <summary class="article-expander__title">Transit Swap：黑客攻击系代码错误，已确定黑客IP、电邮地址及相关链上地址</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107065">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，加密钱包 Token Pocket 旗下闪兑交易 DEX Transit Swap 官方发布公告称，此前黑客攻击事件原因系代码错误，目前已确定黑客 IP、电子邮件地址，以及相关的链上地址。Transit Swap 团队表示将尽力追踪黑客，并尝试与黑客沟通，帮助用户挽回损失。
-
-BlockBeats 此前报道，Transit Swap 官方表示遭遇黑客攻击，安全公司派盾表示资产损失或已超过 1500 万美元。Transit Swap 官方在社交媒体表示，根据链上结果分析，TransitSwap 当前受到了黑客攻击，技术团队已紧急暂停了服务，合约层面已经全面暂停，无法进行任何操作。官方与安全公司正在跟踪链上相关数据，随后会对该事件进行更进一步的公告。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107062"
-                        open
-                      >
-                        <summary class="article-expander__title">Celsius将不寻求强制执行未偿贷款的偿付义务</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107062">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，据路透社报道，已破产的加密借贷平台 Celsius 在向美国纽约南区破产法院提交的一份文件中表示，在破产保护程序中，不会寻求强制执行未偿贷款的偿付义务，借款人也不需要偿还此类贷款。贷款到期后不会评估利息或罚款。
-
-Celsius 今年 7 月申请破产，资产和负债预估在 10 亿至 100 亿美元之间，债权人超过 10 万。截至今年 7 月 13 日，该平台还在其资产负债表上列出了 11.9 亿美元的赤字，并有大约 23,000 笔零售借款人的未偿贷款，总额为 4.11 亿美元，由市值为 7.655 亿美元的数字资产抵押品支持。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107056"
-                        open
-                      >
-                        <summary class="article-expander__title">BAYC #8585以777 ETH价格成交，以ETH计价排名交易记录第三</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107056">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，据 NFTGo.io 数据显示，Bored Ape Yacht Club #8585 以 777 ETH（约合 102 万美元）的价格成交，以 ETH 计价排名交易记录第三。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107053"
-                        open
-                      >
-                        <summary class="article-expander__title">新加坡基金ACA Group放弃收购日本加密货币交易平台bitFlyer运营商</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107053">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，据日经新闻报道，总部位于新加坡的私募股权基金 ACA Group 已决定放弃收购日本加密货币交易平台 bitFlyer 运营商 bitFlyer Holdings。
-
-今年 4 月，ACA 与 BitFlyer Holdings 的股东联盟达成协议，收购 BitFlyer 的多数股权，当时估值高达 450 亿日元（3.7 亿美元）。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107050"
-                        open
-                      >
-                        <summary class="article-expander__title">芝商所提交注册期货佣金商申请，此前曾批评FTX类似计划</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107050">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，据华尔街日报报道，芝商所（CME）已提交注册成为期货佣金商（FCM）的文件。如果申请获得批准，CME 将进入经纪业务，交易者将能够绕过现有的经纪商，直接通过 CME 进行衍生品交易。
-
-此前，FTX 提议允许交易者直接向其美国比特币期货交易平台交纳保证金，而无需通过中间经纪商。该计划引起激烈辩论，5 月份的国会听证会上，CME 首席执行官 Terrence A. Duffy 表示，FTX 的计划「将大大增加市场风险」。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107044"
-                        open
-                      >
-                        <summary class="article-expander__title">TP钱包闪兑DEX Transit Swap遭黑客攻击，资产损失或超1500万美元，提醒用户取消授权</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107044">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 2 日，加密钱包 Token Pocket 旗下闪兑交易 DEX Transit Swap 官方表示遭遇黑客攻击，安全公司派盾表示资产损失或已超过 1500 万美元。
-
-Transit Swap 官方在社交媒体表示，根据链上结果分析，TransitSwap 当前受到了黑客攻击，技术团队已紧急暂停了服务，合约层面已经全面暂停，无法进行任何操作。官方与安全公司正在跟踪链上相关数据，随后会对该事件进行更进一步的公告。
-
-安全公司派盾表示，Transit Swap 合约疑出现信任错误，被盗资金或超过 1500 万美元，黑客归集资金地址为 0x75f2aba6a44580d7be2c4e42885d4a1917bffd46。BlockBeats 建议用户在 BNB Chain 和以太坊等链上即刻取消该合约授权。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -292,6 +67,100 @@ Transit Swap 官方在社交媒体表示，根据链上结果分析，TransitSwa
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/1567qnuo.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Transit Swap 黑客攻击交易被抢跑，套利机器人获利超 100 万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/1567qnuo.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月2日消息，据慢雾安全团队情报，Transit Swap 黑客转移用户 BSC 链 BUSD 资产时被套利机器人抢跑，区块高度为 21816885，获利 107 万 BUSD。
+套利机器人相关地址列表如下：
+0xa957...70d2
+0x90b5...8ff4
+0xcfb0...7ac7
+截止到目前，在各方的共同努力下，黑客已将 70% 左右的被盗资产退还到 Transit Swap 开发者地址，建议套利机器人所属人同样通过 service@transit.finance 或链上地址与 Transit Swap 取得联系，共同将此次被盗事件的受害用户损失降低到最小。
+相关交易：
+黑客失败交易：https://bscscan.com/tx/0xe2a65456f14b8b42b17fecd1f365b55d87720d00c6f4d771d99b0f3ac6609fb8
+抢跑交易：https://bscscan.com/tx/0x32922b1feb7cfc65fc73831b54ba8526345194a0c22558799a0512f94810fdd9</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/tpo9hy2e.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：DAO持有的国库资产达到100亿美元，自1月份以来增长了7.6%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/tpo9hy2e.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月2日消息，据Bitcoin.com报道，去中心化自治组织（DAO）持有的国库资产自2022年一月以来增加7.6%，首次达到100亿美元。
+而在此期间，加密市场市值由2.34万亿美元跌至9790亿美元，缩水1.36万亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/akrodt2o.html"
+                        open
+                      >
+                        <summary class="article-expander__title">俄罗斯计划为哈萨克斯坦的加密货币矿工供电</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/akrodt2o.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月2日消息，俄罗斯正准备为哈萨克斯坦的加密矿场提供所需的额外能源，该计划将允许哈萨克斯坦的矿工直接从俄罗斯发电和配电巨头Inter RAO购买电力。
+俄罗斯商业信息门户网站 RBC 的加密新闻页面显示，莫斯科政府已经下令进行必要的变革，并开始准备为哈萨克斯坦的加密采矿业组织电力供应。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/k3w3ghk7.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Transit Swap攻击者已归还约70%的被盗资产</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/k3w3ghk7.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月2日消息，Transit Swap 官方称，黑客已将约 70% 被盗资产归还至以下两个地址：
+以太坊: 0xFab745c5ee6c59c09605a40464232930892ba48c
+BNB链: 0xFab745c5ee6c59c09605a40464232930892ba48c
+为了确保资产安全，Transit Swap 将把归还资产分别在以太坊和 BNB Chain 上转移至新地址: 0xD989f7B4320c6e69ceA3d91444c19AB67D3a35E
+此前报道，TokenPocket支持的跨链交易平台聚合器 Transit Swap 遭到黑客攻击，预估损失金额超过 2000 万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -561,6 +430,231 @@ https://etherscan.io/tx/0x743e4ee2c478300ac768fdba415eb4a23ae66981c076f9bff946c0
                               <span>PANews 10月2日消息，Glassnode数据显示，持有超过1枚以太坊的地址达到1,571,365个，创历史新高。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - 快讯</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107089"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊Layer 2总锁仓量跌至46.6亿美元，7日跌幅3.52%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107089">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，据 L2BEAT 数据显示，当前以太坊 Layer 2 总锁仓量跌至 46.6 亿美元，7 日跌幅 3.52%。其中，锁仓量前五分别为：
+
+Arbitrum（23.5 亿美元，7 日跌幅 6.66%）；
+Optimism（14.4 亿美元，7 日涨幅 2.20%）；
+dYdX（3.84 亿美元，7 日跌幅 6.80%）；
+Loopring（1.41 亿美元，7 日跌幅 0.65%）；
+Metis Andromeda（1.15 亿美元，7 日跌幅 2.94%）。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107086"
+                        open
+                      >
+                        <summary class="article-expander__title">Transit Swap攻击者已将约70%被盗资产归还至指定地址</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107086">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，加密钱包 Token Pocket 旗下闪兑交易 DEX Transit Swap 官方发布公告称，黑客已将约 70% 被盗资产归还至以下两个地址：
+
+以太坊: 0xFab745c5ee6c59c09605a40464232930892ba48c
+BNB Chain: 0xFab745c5ee6c59c09605a40464232930892ba48c
+
+为了确保资产安全，Transit Swap 将把归还资产分别在以太坊和 BNB Chain 上转移至新地址: 0xD989f7B4320c6e69ceA3d91444c19AB67D3a35E
+
+BlockBeats 此前报道，Transit Swap 遭受黑客攻击，预估损失金额超过 2000 万美元。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107080"
+                        open
+                      >
+                        <summary class="article-expander__title">慢雾：Transit Swap因任意外部调用被黑，2500 BNB已转移到Tornado Cash</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107080">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，据慢雾安全团队情报，跨链 DEX 聚合器 Transit Swap 项目遭到攻击导致用户资产被非预期的转出。慢雾安全团队分析评估此次被盗资金规模超过 2300 万美元，黑客地址为 0x75F2...FD46 和 0xfa71...90fb。接着对此次攻击过程进行了分析：
+
+1. 当用户在 Transit Swap 进行 swap 时，会先通过路由代理合约 (0x8785bb...) 根据不同的兑换类型选择不同的路由桥合约。随后路由桥合约 (0x0B4727...) 会通过权限管理合约 (0xeD1afC...) 的 claimTokens 函数将用户待兑换的 Token 转入路由桥合约中。因此在 Token 兑换前用户需要先对权限管理合约 (0xeD1afC...) 进行授权。
+
+2. 而 claimTokens 函数是通过调用指定 Token 合约的 transferFrom 函数进行转账的。其接收的参数都由上层路由桥合约 (0x0B4727...) 传入，本身没有对这些参数进行任何限制只检查了调用者必须为路由代理合约或路由桥合约。
+
+3. 路由桥合约 (0x0B4727...) 在接收到用户待兑换的 Token 后会调用兑换合约进行具体的兑换操作，但兑换合约的地址与具体的函数调用数据都由上层路由代理合约 (0x8785bb...) 传入，路由桥合约并未对解析后的兑换合约地址与调用数据进行检查。
+
+4. 而代理合约 (0x8785bb...) 对路由桥合约 (0x0B4727...) 传入的参数也都来自于用户传入的参数。且代理合约 (0x8785bb...) 仅是确保了用户传入的 calldata 内各数据长度是否符合预期与所调用的路由桥合约是在白名单映射中的地址，未对 calldata 数据进行具体检查。
+
+5. 因此攻击者利用路由代理合约、路由桥合约与权限管理合约均未对传入的数据进行检查的缺陷。通过路由代理合约传入构造后的数据调用路由桥合约的 callBytes 函数。callBytes 函数解析出攻击者指定的兑换合约与兑换数据，此时兑换合约被指定为权限管理合约地址，兑换数据被指定为调用 claimTokens 函数将指定用户的 Token 转入攻击者指定的地址中。实现了窃取所有对权限管理合约进行授权的用户的 Token。
+
+此次攻击的主要原因在于 Transit Swap 协议在进行 Token 兑换时并未对用户传入的数据进行严格检查，导致了任意外部调用的问题。攻击者利用此任意外部调用问题窃取了用户对 Transit Swap 授权的 Token。
+
+截止到目前，黑客已将 2,500 BNB 转移到 Tornado Cash，剩余资金分散保留在黑客地址中。经过黑客痕迹分析发现，黑客存在从 LATOKEN 等平台存提款的痕迹。慢雾 MistTrack 将持续跟进被盗资金的转移以及黑客痕迹的分析。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107071"
+                        open
+                      >
+                        <summary class="article-expander__title">神鱼呼吁项目方规范使用授权功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107071">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，神鱼在社交媒体上发文表示：「呼吁一下项目方规范使用授权功能，用多少授权多少，不要无限授权，大家都放心；作为协议参与者，没事取消取消授权，换换地址，防止被一窝端。」
+
+BlockBeats 此前报道，10 月 2 日，加密钱包 Token Pocket 旗下闪兑交易 DEX Transit Swap 遭受黑客攻击，预估损失金额超过 2000 万美元。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107065"
+                        open
+                      >
+                        <summary class="article-expander__title">Transit Swap：黑客攻击系代码错误，已确定黑客IP、电邮地址及相关链上地址</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107065">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，加密钱包 Token Pocket 旗下闪兑交易 DEX Transit Swap 官方发布公告称，此前黑客攻击事件原因系代码错误，目前已确定黑客 IP、电子邮件地址，以及相关的链上地址。Transit Swap 团队表示将尽力追踪黑客，并尝试与黑客沟通，帮助用户挽回损失。
+
+BlockBeats 此前报道，Transit Swap 官方表示遭遇黑客攻击，安全公司派盾表示资产损失或已超过 1500 万美元。Transit Swap 官方在社交媒体表示，根据链上结果分析，TransitSwap 当前受到了黑客攻击，技术团队已紧急暂停了服务，合约层面已经全面暂停，无法进行任何操作。官方与安全公司正在跟踪链上相关数据，随后会对该事件进行更进一步的公告。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107062"
+                        open
+                      >
+                        <summary class="article-expander__title">Celsius将不寻求强制执行未偿贷款的偿付义务</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107062">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，据路透社报道，已破产的加密借贷平台 Celsius 在向美国纽约南区破产法院提交的一份文件中表示，在破产保护程序中，不会寻求强制执行未偿贷款的偿付义务，借款人也不需要偿还此类贷款。贷款到期后不会评估利息或罚款。
+
+Celsius 今年 7 月申请破产，资产和负债预估在 10 亿至 100 亿美元之间，债权人超过 10 万。截至今年 7 月 13 日，该平台还在其资产负债表上列出了 11.9 亿美元的赤字，并有大约 23,000 笔零售借款人的未偿贷款，总额为 4.11 亿美元，由市值为 7.655 亿美元的数字资产抵押品支持。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107056"
+                        open
+                      >
+                        <summary class="article-expander__title">BAYC #8585以777 ETH价格成交，以ETH计价排名交易记录第三</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107056">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，据 NFTGo.io 数据显示，Bored Ape Yacht Club #8585 以 777 ETH（约合 102 万美元）的价格成交，以 ETH 计价排名交易记录第三。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107053"
+                        open
+                      >
+                        <summary class="article-expander__title">新加坡基金ACA Group放弃收购日本加密货币交易平台bitFlyer运营商</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107053">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，据日经新闻报道，总部位于新加坡的私募股权基金 ACA Group 已决定放弃收购日本加密货币交易平台 bitFlyer 运营商 bitFlyer Holdings。
+
+今年 4 月，ACA 与 BitFlyer Holdings 的股东联盟达成协议，收购 BitFlyer 的多数股权，当时估值高达 450 亿日元（3.7 亿美元）。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107050"
+                        open
+                      >
+                        <summary class="article-expander__title">芝商所提交注册期货佣金商申请，此前曾批评FTX类似计划</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107050">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，据华尔街日报报道，芝商所（CME）已提交注册成为期货佣金商（FCM）的文件。如果申请获得批准，CME 将进入经纪业务，交易者将能够绕过现有的经纪商，直接通过 CME 进行衍生品交易。
+
+此前，FTX 提议允许交易者直接向其美国比特币期货交易平台交纳保证金，而无需通过中间经纪商。该计划引起激烈辩论，5 月份的国会听证会上，CME 首席执行官 Terrence A. Duffy 表示，FTX 的计划「将大大增加市场风险」。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107044"
+                        open
+                      >
+                        <summary class="article-expander__title">TP钱包闪兑DEX Transit Swap遭黑客攻击，资产损失或超1500万美元，提醒用户取消授权</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107044">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 2 日，加密钱包 Token Pocket 旗下闪兑交易 DEX Transit Swap 官方表示遭遇黑客攻击，安全公司派盾表示资产损失或已超过 1500 万美元。
+
+Transit Swap 官方在社交媒体表示，根据链上结果分析，TransitSwap 当前受到了黑客攻击，技术团队已紧急暂停了服务，合约层面已经全面暂停，无法进行任何操作。官方与安全公司正在跟踪链上相关数据，随后会对该事件进行更进一步的公告。
+
+安全公司派盾表示，Transit Swap 合约疑出现信任错误，被盗资金或超过 1500 万美元，黑客归集资金地址为 0x75f2aba6a44580d7be2c4e42885d4a1917bffd46。BlockBeats 建议用户在 BNB Chain 和以太坊等链上即刻取消该合约授权。</span>
                             </span>
                           </div>
                         </a>
@@ -7034,8 +7128,8 @@ ESMA在报告中称：“大量市场参与者表示有兴趣在DLT试点下运�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3167853183">
-        <time id="build-timestamp" datetime="2022-10-02T08:13:05.889Z">2022-10-02T08:13:05.889Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3168022372">
+        <time id="build-timestamp" datetime="2022-10-02T09:12:39.303Z">2022-10-02T09:12:39.303Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
