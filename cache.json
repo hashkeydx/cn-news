@@ -1753,6 +1753,36 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/flash/107143",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 3 日，以太坊联合创始人 Vitalik Buterin 发文表示，可通过部分区块拍卖限制构建者权力以应对其中心化风险，并主要介绍了包含列表（Inclusion lists）、提议者后缀（Proposer Suffixes）两种可能方式：\n\n在包含列表模式（Inclusion Lists）中，提议者提供一个包含列表，他们要求的事务列表必须包含在块中，除非构建者可以完全用其他事务填充块。这种设计相当简单，但弱点包括：激励相容性问题；提议者的额外负担；构建者仍然可以从事一些滥用行为；需要 partial enshrining 才能使账户抽象化发挥作用。\n\n另一种构建方法是允许提议者为区块创建一个后缀。构建者在构建区块时不会看到关于提议者意图的信息，而提议者能够将构建者遗漏的任何交易添加到末端。这样的做法减少了激励的兼容性问题，尽管对提议者来说可能增加额外负担，但在从构建者那里得到响应和必须发布区块之间，提议者将得到一些 MEV 机会。\n\n在任何情况下，我们需要在最大限度地减少构建者的权力和信息的同时，最大程度地减少强加给提议者的负担，而这似乎清楚地表明在区块生产中需要一些第三者介入。",
+          "link": "https://www.theblockbeats.info/flash/107143",
+          "publishedOn": "2022-10-03T03:28:36.000Z",
+          "wordCount": null,
+          "title": "V神：可通过部分区块拍卖应对区块构建者的中心化风险，长远来看区块生产需要第三者介入",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/107137",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 3 日，据 Dune Analytics 数据显示，以太坊 Layer2 扩容解决方案 Optimism 跨链桥接存储总价值 TVB 已突破 40 万枚 ETH，截至目前为 400,185 ETH（约合 5.2 亿美元），参与桥接交易的用户数量为 244,429 个。此外，当前其他以太坊 Layer2 跨链桥接存储总价值分别为： Arbitrum（1,893,774 ETH）、zkSync（166,563 ETH）、StarkNet（1,262 ETH）。",
+          "link": "https://www.theblockbeats.info/flash/107137",
+          "publishedOn": "2022-10-03T03:19:36.000Z",
+          "wordCount": null,
+          "title": "数据：Optimism桥接存储总价值突破40万枚ETH",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/107131",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 3 日，据 Newshub 报道，CZ 在接受其采访时就 Binance 近期在新西兰注册为金融服务提供商（Financial Service Providers）并推出 Binance New Zealand 表示：「Binance 将完全遵守新西兰当地法规、法律及监管机构的监督。」不过，一位新西兰政府消息人士称，注册为金融服务提供商并非认证/许可证，这只是一个行政要求，并不意味着公司必须符合标准。新西兰金融市场管理局发表声明表示知晓此事，并认为加密货币投资者应当使用位于新西兰的交易平台。\n\n此外，CZ 还表示：「如果说互联网是一种用于传输信息的新技术，那么区块链、Web3、加密货币就是一种用于传输价值的新技术。」「新技术将使现在的经济增长 10 倍或 100 倍。」",
+          "link": "https://www.theblockbeats.info/flash/107131",
+          "publishedOn": "2022-10-03T03:19:36.000Z",
+          "wordCount": null,
+          "title": "CZ：Binance将完全遵守新西兰法律法规及监管机构监督",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/flash/107128",
           "author": null,
           "description": "BlockBeats 消息，10 月 3 日，Coinbase 此前出现无法受理涉及美国银行账户的付款或提款的情况，调查结果显示该故障系在创建 ACH 转账（通过自动清算网络所进行的电子支付）时遇到了技术问题。目前该问题已被解决。",
