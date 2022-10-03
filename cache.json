@@ -6,6 +6,36 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/clxot94f.html",
+          "author": "PA一线",
+          "description": "PANews 10月3日消息，据Coinpost报道，日本首相岸田文雄今日在临时国会会议上进行了政策演讲，其中提到将大力推动元宇宙和NFT等Web3服务的使用，他还将“扩大Web3服务的使用”列为“向数字化转型投资”的目标之一。\n此外，据Itmedia报道，日本数字厅于9月30日宣布将召开“Web3研究会”，根据日本内阁6月份决定“实现数字社会的优先计划”的政策，将考虑推广NFT等Web3相关技术。该活动的日程和议程尚未公布。",
+          "link": "https://panewslab.com/zh/articledetails/clxot94f.html",
+          "publishedOn": "2022-10-03T07:46:49.000Z",
+          "wordCount": 3479,
+          "title": "日本首相：将大力推动元宇宙和NFT等Web3服务的使用",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/lwboo84h.html",
+          "author": "PA一线",
+          "description": "PANews 10月3日消息，Transit Swap攻击者于今日13:58在链上向TransitFinance Funds Receiver再次归还2612枚BNB，但选择保留剩余的1万枚BNB并将其发送给Tornado Cash作为漏洞赏金。攻击者留言称：“我不相信你，因为你不真诚。 我只利用了ETH和BSC链。 如果我攻击其他的链，像FTM、TRON、POLYGON，我相信我可以得到1亿美元。 参考过去的Nomad和Wintermute事件，我应该得到比现在更高的赏金。 很难不怀疑这是你的官方后门，你应该感到高兴，因为这个漏洞是由我而不是其他人完成的。”\nTransit Swap在链上回应道：“对于这种漏洞的存在，我们深表歉意。 这次事故也让我们深刻意识到问题的严重性，但我们从来没有任何后门。 这些资金都属于用户，我们希望继续返还。作为项目方，我们愿意给予额外的漏洞赏金，希望与你有更友好具体的沟通。 ”\n此前昨日消息，跨链DEX聚合器Transit Swap遭黑客攻击，超2100万美元资产被盗。Transit Swap官方表示，攻击者已归还约70%的被盗资产。",
+          "link": "https://panewslab.com/zh/articledetails/lwboo84h.html",
+          "publishedOn": "2022-10-03T07:28:29.000Z",
+          "wordCount": 3535,
+          "title": "Transit Swap攻击者再次归还2612枚BNB并保留1万枚BNB作为漏洞赏金，且称该项目或存在后门",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/oadgz981.html",
+          "author": "PA一线",
+          "description": "PANews 10月3日消息，据官方推特，NFT项目Porkers宣布完成600万美元融资，Bandai Namco、Bandai Gashapon JP、腾讯游戏的一群投资者和Web3爱好者等参投。筹集的资金将主要在快照5/5的最后阶段进入奖金和流动资金池（目前为3/5）。该项目完整白皮书即将发布。据官方简介，该系列NFT以猪为主题，在以太坊区块链中自由分布。",
+          "link": "https://panewslab.com/zh/articledetails/oadgz981.html",
+          "publishedOn": "2022-10-03T07:11:54.000Z",
+          "wordCount": 3487,
+          "title": "NFT项目Porkers宣布完成600万美元融资",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/014masfb.html",
           "author": "PA一线",
           "description": "PANews 10月3日消息，以太坊创始人V神（Vitalik Buterin） 发文表示，可通过部分区块拍卖限制构建者权力以应对其中心化风险（即可赋予构建者重新排序、前置、追加的权利，至可以限制提议者），并主要介绍了包含列表（Inclusion lists）、创建提议者后缀（Proposer Suffixes）、修复提议者后缀-预承诺（Fix to proposer suffixes: pre-commitment）三种可能方式：\n1.包含列表（Inclusion Lists）：在此模式中，提议者提供一个包含列表，他们要求的事务（交易）列表必须包含在区块中，除非构建者可以完全用其他事务（交易）填充块。这种设计相当简单，但存在以下问题：激励兼容性问题；提议者的额外负担；构建者仍然可以从事一些滥用行为；需要partial enshrining才能使账户抽象化发挥作用。2.创建提议者后缀（Proposer Suffixes）：即允许提议者为区块创建一个后缀。构建者在构建区块时不会看到关于提议者意图的信息，而提议者能够将构建者遗漏的任何交易添加到末端。这样的做法减少了激励的兼容性问题，在从构建者那里得到响应和必须发布区块之间，提议者将得到一些MEV机会。不过仍存在提议者增加额外负担、滥用行为的发生以及需要partial enshrining才能使账户抽象化发挥作用。3.修复提议者后缀-预承诺，即提议者预先提交到Merkle树或KZG承诺或他们想要包含的txset的其他累加器，构建器创建他们的区块。 然后，提议者必须添加由构建器尚未包含的Merkle树的子集组成的后缀，并且gas限制允许他们包含这些后缀，按txhash或其他一些标准化顺序排序。这消除了提议者的MEV机会，因为一旦构建者用他们自己的区块内容回复，提议者在发布哪个区块的自由度为零，但其他问题仍未解决。\nV神总结道，理想情况下，提议者和构建者的角色应该保持最小：提议者简单地识别值得包含的交易，最小化提议者的角色可确保该角色保持高度可访问性；构建者应该有权从内存池中重新排序交易并插入他们自己的交易以收集MEV，而不能根据他们将包含哪些交易来区分区块。但这留下了许多其他重要任务未分配，如计算后状态根的任务、计算和发布见证的任务、制作ZK-SNARK以证明区块正确性的任务。如果这些任务不交给建造者或提议者，那么他们将不得不交给第三方。长期来看，在任何情况下，我们需要在最大限度地减少构建者的权力和信息的同时，最大程度地减少强加给提议者的负担，而这似乎清楚地表明在区块生产中需要一些第三方参与。",
@@ -1762,6 +1792,26 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/flash/107152",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 3 日，加密钱包 Token Pocket 旗下闪兑交易 DEX Transit Swap 黑客已将另外 2612 枚 BNB 归还至 Transit Swap 开发者地址，但选择保留剩余的 1 万枚 BNB 并将其发送给 Tornado Cash 作为漏洞赏金。\n\n黑客在交易记录中留言表示：「我只利用了 ETH 和 BNB Chain，如果攻击了其他链，像 FTM、TRON、Polygon，相信可以拿走 1 亿美元。参考此前 Nomad 和 Wintermute 事件，我应该得到比现在更高的赏金。很难不怀疑这是官方后门，你们应该感到高兴，因为这个漏洞是被我而不是其他人利用的。」",
+          "link": "https://www.theblockbeats.info/flash/107152",
+          "publishedOn": "2022-10-03T07:23:24.000Z",
+          "wordCount": null,
+          "title": "Transit Swap黑客已归还另外2612枚BNB，并保留1万枚BNB作为漏洞赏金",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/107149",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 3 日，韩国互联网巨头 Kakao 旗下公链 Klaytn 宣布与跨链智能合约平台 ZetaChain（ZETA）建立合作伙伴关系，此次集成将使 Klaytn 开发人员能够快速为现有和新的智能合约带来全链互操作性。这些「全链」智能合约可以在连接的区块链之间发送数据和价值，包括以太坊、Polygon、BNB Chain 以及最终的非智能链，如比特币。",
+          "link": "https://www.theblockbeats.info/flash/107149",
+          "publishedOn": "2022-10-03T07:23:24.000Z",
+          "wordCount": null,
+          "title": "公链Klaytn与跨链智能合约平台ZetaChain达成合作，推进内置全链互操作性",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/flash/107143",
           "author": null,
