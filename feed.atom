@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-10-07T04:42:38.052Z</updated>
+    <updated>2022-10-07T05:28:51.231Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[欧科云链：BNB Chain被盗案分析，黑客布局最早可追溯到10月6日]]></title>
+        <id>https://panewslab.com/zh/articledetails/cey9nqu7.html</id>
+        <link href="https://panewslab.com/zh/articledetails/cey9nqu7.html"/>
+        <updated>2022-10-07T04:51:03.000Z</updated>
+        <summary type="html"><![CDATA[北京时间10月7日，欧科云链链上卫士团队针对此次BNB Chain 被盗案发布案件分析，在通过OKLink BSC浏览器追踪BNB Chain 被盗一案时，此次案件黑客最早于10月6日便使用 ChangeNOW 服务转入了起始攻击资金（100多枚BNB）到BSC链上，随后黑客通过调用系统RelayerHub合约 0x1006 进行注册，然后对系统CrossChain合约 0x2000 发起攻击。
+据链上卫士团队分析，此次黑客对BSC跨链桥发起攻击，两次攻击累计从中盗取200万个BNB并转移至0x489A开头地址，并通过Venus的借贷服务，抵押了90万个BNB，从中借走5000 万 USDT、6250万 BUSD和3500万USDC。随后，黑客又使用Stargate跨链桥，将约9000万美元攻击所得资金资产转移到ETH（占比58%）、Fantom（占比33%）及AVAX等网络上。最终今晨6:19分，BNB Chain 官方推特宣布 BNB Chain 暂停运行。
+此前消息，欧科云链OKLink多链浏览器已对BNB Chain黑客地址进行风险标签标记（标记为“Hack”），当前地址余额超7亿美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加拿大OSC：绝大多数加密公司在管辖范围内，超30%的加拿大人计划未来一年购买加密货币]]></title>
+        <id>https://panewslab.com/zh/articledetails/6050jn7a.html</id>
+        <link href="https://panewslab.com/zh/articledetails/6050jn7a.html"/>
+        <updated>2022-10-07T04:02:41.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月7日消息，据Cointelegragh报道，加拿大安大略省证券委员会（OSC）首席执行官Grant Vingoe在演讲中表示，股票和债券的监管基本原理同样适用于加密货币合约。绝大多数加密公司都属于OSC的管辖范围。OSC认为BTC和ETH为商品，而“交易平台与投资者达成的协议”则构成证券。OSC对所有进入市场的新产品都采取谨慎和技术中立的态度。此外，OSC的研究显示，超过30%的加拿大人未来一年计划购买加密资产。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：BNB Chain攻击者地址当前余额超7亿美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/eic6izil.html</id>
+        <link href="https://panewslab.com/zh/articledetails/eic6izil.html"/>
+        <updated>2022-10-07T03:52:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月7日消息，据欧科云链链上卫士安全团队监测，被OKLink多链浏览器标记为“Hack”的BNB Chain攻击事件黑客地址（0x489A8756C18C0b8B24EC2a2b9FF3D4d447F79BEc），分别于今天凌晨02:26:46和04:43:18收到200万枚BNB资金转入，随后将其中98万枚BNB转出至PancakeSwap（8万枚BNB）和Venus（90万枚BNB）。截至目前，该地址下余额有102万枚BNB、4128万枚vBNB、2881万枚BUSD、277万枚USDT，按当前市场价格计算，累计价值超7亿美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[比特币矿企Marathon Digital向近期破产的Compute North投资8130万美元]]></title>
         <id>https://panewslab.com/zh/articledetails/ji3bl3cn.html</id>
