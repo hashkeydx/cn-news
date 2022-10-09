@@ -2,10 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-10-09T11:08:25.584Z</updated>
+    <updated>2022-10-09T12:17:37.446Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Beosin：Jumpnfinance项目发生Rugpull，涉及金额约115万美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/wyiukwcg.html</id>
+        <link href="https://panewslab.com/zh/articledetails/wyiukwcg.html"/>
+        <updated>2022-10-09T10:29:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月9日消息，据Beosin EagleEye平台监测显示，Jumpnfinance项目Rugpull。攻击交易为0x48333962e6e946748a26d6222db95ce97e76c9ed3917123a7c9f2731f896b72c。Beosin安全团队分析发现攻击者首先调用0xe156合约的0x6b1d9018()函数，提取了该合约中的用户资产，存放在攻击者地址上（0xd3de02b1af100217a4bc9b45d70ff2a5c1816982）。目前被盗资金中2100 BNB ($581,700)已转入Tornado.Cash，剩余部分2,058 BNB（$571,128）还存放在攻击者地址，Beosin安全团队将持续跟踪。Beosin Trace将对被盗资金进行持续追踪。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beosin：Xave Finance遭黑客攻击，导致RNBW增发1000倍]]></title>
+        <id>https://panewslab.com/zh/articledetails/i1kl9w1n.html</id>
+        <link href="https://panewslab.com/zh/articledetails/i1kl9w1n.html"/>
+        <updated>2022-10-09T09:53:42.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月9日消息，据 Beosin EagleEye 平台监测显示，Xave Finance 项目遭受黑客攻击，导致 RNBW 增发了 1000 倍。攻击交易为 0xc18ec2eb7d41638d9982281e766945d0428aaeda6211b4ccb6626ea7cff31f4a。Beosin 安全团队分析发现攻击者首先创建攻击合约 0xe167cdaac8718b90c03cf2cb75dc976e24ee86d3，该攻击合约首先调用 DaoModule 合约 0x8f90 的 executeProposalWithIndex() 函数执行提案，提案内容为调用 mint() 函数铸造 100,000,000,000,000 个 RNBW，并将 ownership 权限转移给攻击者。最后黑客将其兑换为 xRNBW，存放在攻击者地址上（0x0f44f3489D17e42ab13A6beb76E57813081fc1E2）。目前被盗资金还存放在攻击者地址，Beosin Trace 将对被盗资金进行持续追踪。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[上海：加快区块链等技术在制造业领域的深度拓展]]></title>
+        <id>https://panewslab.com/zh/articledetails/2l4w1ij4.html</id>
+        <link href="https://panewslab.com/zh/articledetails/2l4w1ij4.html"/>
+        <updated>2022-10-09T09:29:23.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月9日消息，上海市城市数字化转型工作领导小组办公室8日向上海各有关部门、各区政府印发《上海市制造业数字化转型实施方案》及任务分解表。上海将加快工业元宇宙创新应用，加快5G、AI、AR/VR/MR、区块链、数字孪生等数字技术在制造业领域的深度拓展和融合应用。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solana生态NFT项目DeGods宣布将版税比例设置为0]]></title>
+        <id>https://www.theblockbeats.info/flash/107899</id>
+        <link href="https://www.theblockbeats.info/flash/107899"/>
+        <updated>2022-10-09T09:15:54.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 9 日，据官方消息，Solana 生态 NFT 项目 DeGods 宣布将版税比例设置为 0%。下一步，其二代项目 y00ts 也将更新为 0 版税。
+
+项目方在公告中表示，0 版税是当前情况下对项目的最优决策。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密 KOL ZachXBT：一地址被盗7枚BAYC NFT，总价值超70万美元]]></title>
+        <id>https://www.theblockbeats.info/flash/107902</id>
+        <link href="https://www.theblockbeats.info/flash/107902"/>
+        <updated>2022-10-09T09:15:54.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 9 日，加密 KOL ZachXBT 表示，一地址被盗 7 只 BAYC，分别是 BAYC 4317、755、6567、8761、2951、9611、8274，总价值超 70 万美元（约 540 ETH）。
+
+被盗原因或是受害者被诱骗批准了一个恶意合约。目前黑客已通过 FixedFloat 清洗了本次攻击所获得的 210 ETH。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FTX等25家加密公司入围CB Insights本年度金融科技250强榜单]]></title>
+        <id>https://www.theblockbeats.info/flash/107905</id>
+        <link href="https://www.theblockbeats.info/flash/107905"/>
+        <updated>2022-10-09T09:15:54.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 9 日，CB Insights 近日公布了 2022 年度金融科技 250 强的获奖者，即全球 250 家最有前途的私营金融科技公司名单，其中加密行业有 25 家公司入围（含支付行业的 Ripple），包括 FTX、Binance、Kucoin 等加密交易平台，Nansen 等链上数据分析平台，以及 MoonPay 等 NFT 支付公司。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[币安、FTX等25家加密公司入围CB Insights本年度金融科技250强榜单]]></title>
         <id>https://panewslab.com/zh/articledetails/023nfmbp.html</id>
@@ -3131,16 +3195,6 @@ BlockBeats 此前报道，韩国检方于 9 月 14 日在对 Terra 创始人 Do 
         <summary type="html"><![CDATA[BlockBeats 消息，10 月 5 日，Aave DAO 已开始投票决定在以太坊区块链上部署其最新版本 Aave 的方式。提案提出两种解决方案，即重新创建一个独立的新版本，或在原有版本上升级。前者将使部署更快，但可能导致流动性分散。目前为止，99% 的投票支持在以太坊上部署新的 Aave v3，而不是升级之前的版本。投票将于 10 月 11 日截止。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celsius联合创始人兼首席战略官Daniel Leon辞职]]></title>
-        <id>https://panewslab.com/zh/articledetails/929l2aei.html</id>
-        <link href="https://panewslab.com/zh/articledetails/929l2aei.html"/>
-        <updated>2022-10-05T00:09:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月5日消息，据CNBC报道，知情人士称，加密借贷平台Celsius的联合创始人兼首席战略官S. Daniel Leon已经辞职。Celsius公司在一封邮件中确认了Leon的辞职，并表示公司税务总监Lior Koren将接任该职位。据此前消息，上周Celsius首席执行官Alex Mashinsky向公司董事会特别委员会提交了辞职信，立即生效，但其董事职位将会保留。]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
 </feed>
