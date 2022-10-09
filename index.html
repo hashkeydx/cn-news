@@ -51,194 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-09 datetime="2022-10-09T03:47:58.000Z">2022-10-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-09 datetime="2022-10-09T03:47:58.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-09 datetime="2022-10-09T06:17:38.000Z">2022-10-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-09 datetime="2022-10-09T06:17:38.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - 快讯</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107890"
-                        open
-                      >
-                        <summary class="article-expander__title">Cosmos联创：BNB Chain攻击事件中黑客通过RangeProof伪造Merkle证明</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107890">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 9 日，Cosmos 联合创始人 Ethan Buchman 对 BSC 跨链桥攻击事件发表看法表示，此次事件问题的关键在于黑客能够伪造 Merkle 证明。这本不应该，因为 Merkle 证明应该提供高完整性。区块链轻客户端（和 IBC）建立在 Merkle 证明之上，许多区块链将数据存储在 Merkle 树中，这样就可以生成证明，证明某些数据包含在树中。
-
-Cosmos 链使用一种称为 IAVL 的 Merkle 树，IAVL 存储库公开了一个使用范围证明「RangeProof」的 API，但事实证明 RangeProof 的内部工作存在严重错误。IAVL RangeProof 的代码问题在于其允许填充 InnerNode 中的 Left 和 Right 字段，攻击者基本上利用了将信息粘贴到 Right 字段中的优势，这些信息从未得到验证，也从未影响哈希计算，以使验证者相信某些叶节点是树的一部分。因此，他们成功地伪造了 Merkle 证明。
-
-Buchman 表示，虽然使用 RangeProof 不是一个好主意，但有一个方式或可以解决这个问题，即当任何内部节点同时填充了左右字段时，则预先拒绝证明。对于 IBC 中的 Merkle 证明，IBC 没有使用 IAVL 树的内置 RangeProof 系统，而是使用 ICS23 标准从 IAVL 树生成和验证 Merkle 证明，ICS23 代码没有这个漏洞，它可明确「拒绝」RangeProof。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107884"
-                        open
-                      >
-                        <summary class="article-expander__title">Messari报告：波卡Q3营收下降47%，活跃地址下降40%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107884">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 9 日，加密分析平台 Messari 近日发布波卡三季度报告，指出该网络在关键生态系统指标上出现了一些下降，但其基本指标，如验证者数量、提名者数量和质押占比在 90 天内保持稳定。
-
-具体来说，三季度波卡营收继续下滑，总收入 115,326 美元，环比下降 47%；活跃地址也大幅下降，三季度波卡上只有 139,419 个活跃账户，环比下降 40%。
-
-此外，Messari 报告还指出，自今年年初以来，DOT 总质押量在该网络上的占比保持不变，前三个季度的占比一直是 54% 至 59%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107881"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：过去24小时XEN Crypto合约Gas消耗排名第一，已消耗超900枚ETH</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107881">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 9 日，据 Etherscan 数据显示，过去 24 小时，XEN Crypto 合约 Gas 消耗排名第一，已消耗超 941.7 枚 ETH。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107875"
-                        open
-                      >
-                        <summary class="article-expander__title">Nethermind：Uniswap V3合约已完成Cairo转译</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107875">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 9 日，以太坊客户端 Nethermind 表示，Warp 项目的下一个重要里程碑已经实现，已成功转译和编译 Uniswap V3 为 Uniswap V3 Warped（UniStark），目前正在完成一个 hardhat 插件，允许在转译的 Cairo 上运行所有 Solidity hardhat 测试。也就是说，Warp 已经转换和部署了 Uniswap V3 存储库中的每个 Solidity 文件，只需对源代码进行少量更改。
-
-BlockBeats 此前报道，6 月 21 日，以太坊客户端 Nethermind 上线转译器 Warp 2.0。Warp 2.0 支持将 Solidity 合约转换为 Cairo，以将其部署到 StarkNet 上。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107872"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT交易和定价协议Waterfall完成400万美元种子轮融资，Electric Capital和Pantera Capital领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107872">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 9 日，NFT 交易和定价协议 Waterfall 宣布完成 400 万美元种子轮融资，此轮融资由 Electric Capital 和 Pantera Capital 领投。新资金将主要用于扩大团队，以及构建 NFT 交易和定价协议。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107869"
-                        open
-                      >
-                        <summary class="article-expander__title">在zkSync上部署Uniswap V3的提案已开启投票</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107869">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 9 日，据相关页面信息显示，在 zkSync 上部署 Uniswap V3 的提案已开启投票。该投票将于 10 月 14 日结束。
-
-BlockBeats 此前报道，9 月 14 日，Uniswap 社区发起关于在 zkSync 上部署 Uniswap V3 的新提案，该提案由 Penn Blockchain（FranklinDAO）与 Matter Labs 合作创建。提案指出尽早部署到 zkSync 有助于巩固 Uniswap 作为第一大 DEX 的地位，它将有助于增加可在 Uniswap V3 上构建的项目。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107866"
-                        open
-                      >
-                        <summary class="article-expander__title">Glassnode：近期比特币矿工抛售或主要来自币印矿池</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107866">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 9 日，据区块链分析公司 Glassnode 最新报告显示，通过追踪所有矿工 30 天净头寸变化发现，目前大部分比特币抛售来自与币印矿池（Poolin）有关的矿工，几乎所有的「卖出」都与这个群体有关。
-
-币印（Poolin）矿池一直都是行业内最大的矿池之一，在 2020 年初一度占有全网超过 15% 的算力，今年 9 月初占 12% 的算力。但在宣布遇到 &quot;流动性问题&quot;后，Poolin 算力骤降，现在仅占比特币算力网络的约 3.7%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107860"
-                        open
-                      >
-                        <summary class="article-expander__title">Decentraland回应日活用户过低质疑：9月实际月活用户超5.6万</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107860">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 9 日，元宇宙平台项目 Decentraland 在其社交平台回应部分网站关于其日活用户过低的报道表示，一些网站仅跟踪特定的智能合约交易作为日活用户判定标准，这是不准确的。
-
-9 月 Decentraland 实际月活用户为 56,697，其中 1,074 个用户进行了智能合约交互，另外还有 161 场社区活动和 148 个 DAO 提案。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/107857"
-                        open
-                      >
-                        <summary class="article-expander__title">OpenSea首席财务官Brian Roberts宣布已辞职</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107857">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，10 月 8 日，OpenSea 首席财务官 Brian Roberts 宣布已辞职，但其仍然看好 Web3 应用程序的未来，尤其是 OpenSea 及其未来的市场策略。此外，Brian Roberts 还确认，他将在未来继续担任 OpenSea 的顾问。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -250,6 +67,88 @@ BlockBeats 此前报道，9 月 14 日，Uniswap 社区发起关于在 zkSync �
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/t4n82hrm.html"
+                        open
+                      >
+                        <summary class="article-expander__title">GameStop浏览器钱包首席工程师Jeff Walsh已离职</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/t4n82hrm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月9日消息，GameStop浏览器钱包首席工程师Jeff Walsh发推文称其已从该公司离职。Jeff Walsh于2021年6月加入GameStop。
+此前9月13日消息，GameStop区块链负责人Matt Finestone宣布离职。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ry3finri.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：印度NFT产业目前估值33亿美元，预计2028年将达到270亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ry3finri.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月9日消息，据Entrepreneur报道，数据显示，印度NFT产业目前估值为33亿美元，累计平均增长率为61.6%，预计2028年将达到270亿美元；此外，目前有11家NFT公司总部设在印度，占全球NFT公司总数的5.02%；仅在2021年，印度就新增了71家NFT初创公司，目前有86家活跃的NFT初创公司。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/3wo58p62.html"
+                        open
+                      >
+                        <summary class="article-expander__title">报告：专用元宇宙设备市场存量将在2024年达到1亿</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3wo58p62.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月9日消息，据界面新闻报道，Strategy Analytics最新发布的研究报告指出，专用元宇宙设备市场存量将在2024年达到1亿。到目前为止，市场主要是VR头显设备，AR设备主要局限于企业市场。然而，随着更多面向消费者的设备发布，预计AR头显设备将推动未来的增长。2021年，AR设备出货量仅占元宇宙设备的1%多一点，而到2027年，其占比将增长到64%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/agjf8hf1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">报告：越来越多的LRC投资处于休眠状态，大量持有者处于亏损状态</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/agjf8hf1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月9日消息，据Ambcrypto报道，加密社交分析平台LunarCrush的数据显示，Loopring（LRC）在过去90天中创下每日社交贡献者人数最高记录 (5260)。但就LRC价格在过去三个月呈下跌趋势，三季度跌幅23%。此外，Santiment的数据显示，过去90天LRC的平均美元投资年龄（MDIA）上涨了41%，同期其平均代币年龄也增长了25%，这意味着越来越多的LRC投资处于休眠状态；过去90天平均市值与实现价值（MVRV）为-18.88%，这意味着大量LRC持有者处于亏损状态。
+除了价格下跌外，LRC网络的开发活动过去三个月下降了7%，交易LRC的每日活跃地址下降了87%，同一时期每天在网络上创建的新地址减少了58%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -518,6 +417,189 @@ Warp旨在将任意Solidity合约转换到Cairo，并将它们部署到StarkNet�
                               <span>PANews 10月8日消息，HECO Chain发推称，HECO跨链桥程序升级已经完成，Huobi Global将恢复HECO链代币的充提。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - 快讯</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107890"
+                        open
+                      >
+                        <summary class="article-expander__title">Cosmos联创：BNB Chain攻击事件中黑客通过RangeProof伪造Merkle证明</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107890">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 9 日，Cosmos 联合创始人 Ethan Buchman 对 BSC 跨链桥攻击事件发表看法表示，此次事件问题的关键在于黑客能够伪造 Merkle 证明。这本不应该，因为 Merkle 证明应该提供高完整性。区块链轻客户端（和 IBC）建立在 Merkle 证明之上，许多区块链将数据存储在 Merkle 树中，这样就可以生成证明，证明某些数据包含在树中。
+
+Cosmos 链使用一种称为 IAVL 的 Merkle 树，IAVL 存储库公开了一个使用范围证明「RangeProof」的 API，但事实证明 RangeProof 的内部工作存在严重错误。IAVL RangeProof 的代码问题在于其允许填充 InnerNode 中的 Left 和 Right 字段，攻击者基本上利用了将信息粘贴到 Right 字段中的优势，这些信息从未得到验证，也从未影响哈希计算，以使验证者相信某些叶节点是树的一部分。因此，他们成功地伪造了 Merkle 证明。
+
+Buchman 表示，虽然使用 RangeProof 不是一个好主意，但有一个方式或可以解决这个问题，即当任何内部节点同时填充了左右字段时，则预先拒绝证明。对于 IBC 中的 Merkle 证明，IBC 没有使用 IAVL 树的内置 RangeProof 系统，而是使用 ICS23 标准从 IAVL 树生成和验证 Merkle 证明，ICS23 代码没有这个漏洞，它可明确「拒绝」RangeProof。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107884"
+                        open
+                      >
+                        <summary class="article-expander__title">Messari报告：波卡Q3营收下降47%，活跃地址下降40%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107884">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 9 日，加密分析平台 Messari 近日发布波卡三季度报告，指出该网络在关键生态系统指标上出现了一些下降，但其基本指标，如验证者数量、提名者数量和质押占比在 90 天内保持稳定。
+
+具体来说，三季度波卡营收继续下滑，总收入 115,326 美元，环比下降 47%；活跃地址也大幅下降，三季度波卡上只有 139,419 个活跃账户，环比下降 40%。
+
+此外，Messari 报告还指出，自今年年初以来，DOT 总质押量在该网络上的占比保持不变，前三个季度的占比一直是 54% 至 59%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107881"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：过去24小时XEN Crypto合约Gas消耗排名第一，已消耗超900枚ETH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107881">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 9 日，据 Etherscan 数据显示，过去 24 小时，XEN Crypto 合约 Gas 消耗排名第一，已消耗超 941.7 枚 ETH。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107875"
+                        open
+                      >
+                        <summary class="article-expander__title">Nethermind：Uniswap V3合约已完成Cairo转译</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107875">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 9 日，以太坊客户端 Nethermind 表示，Warp 项目的下一个重要里程碑已经实现，已成功转译和编译 Uniswap V3 为 Uniswap V3 Warped（UniStark），目前正在完成一个 hardhat 插件，允许在转译的 Cairo 上运行所有 Solidity hardhat 测试。也就是说，Warp 已经转换和部署了 Uniswap V3 存储库中的每个 Solidity 文件，只需对源代码进行少量更改。
+
+BlockBeats 此前报道，6 月 21 日，以太坊客户端 Nethermind 上线转译器 Warp 2.0。Warp 2.0 支持将 Solidity 合约转换为 Cairo，以将其部署到 StarkNet 上。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107872"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT交易和定价协议Waterfall完成400万美元种子轮融资，Electric Capital和Pantera Capital领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107872">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 9 日，NFT 交易和定价协议 Waterfall 宣布完成 400 万美元种子轮融资，此轮融资由 Electric Capital 和 Pantera Capital 领投。新资金将主要用于扩大团队，以及构建 NFT 交易和定价协议。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107869"
+                        open
+                      >
+                        <summary class="article-expander__title">在zkSync上部署Uniswap V3的提案已开启投票</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107869">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 9 日，据相关页面信息显示，在 zkSync 上部署 Uniswap V3 的提案已开启投票。该投票将于 10 月 14 日结束。
+
+BlockBeats 此前报道，9 月 14 日，Uniswap 社区发起关于在 zkSync 上部署 Uniswap V3 的新提案，该提案由 Penn Blockchain（FranklinDAO）与 Matter Labs 合作创建。提案指出尽早部署到 zkSync 有助于巩固 Uniswap 作为第一大 DEX 的地位，它将有助于增加可在 Uniswap V3 上构建的项目。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107866"
+                        open
+                      >
+                        <summary class="article-expander__title">Glassnode：近期比特币矿工抛售或主要来自币印矿池</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107866">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 9 日，据区块链分析公司 Glassnode 最新报告显示，通过追踪所有矿工 30 天净头寸变化发现，目前大部分比特币抛售来自与币印矿池（Poolin）有关的矿工，几乎所有的「卖出」都与这个群体有关。
+
+币印（Poolin）矿池一直都是行业内最大的矿池之一，在 2020 年初一度占有全网超过 15% 的算力，今年 9 月初占 12% 的算力。但在宣布遇到 &quot;流动性问题&quot;后，Poolin 算力骤降，现在仅占比特币算力网络的约 3.7%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107860"
+                        open
+                      >
+                        <summary class="article-expander__title">Decentraland回应日活用户过低质疑：9月实际月活用户超5.6万</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107860">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 9 日，元宇宙平台项目 Decentraland 在其社交平台回应部分网站关于其日活用户过低的报道表示，一些网站仅跟踪特定的智能合约交易作为日活用户判定标准，这是不准确的。
+
+9 月 Decentraland 实际月活用户为 56,697，其中 1,074 个用户进行了智能合约交互，另外还有 161 场社区活动和 148 个 DAO 提案。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/107857"
+                        open
+                      >
+                        <summary class="article-expander__title">OpenSea首席财务官Brian Roberts宣布已辞职</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/107857">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，10 月 8 日，OpenSea 首席财务官 Brian Roberts 宣布已辞职，但其仍然看好 Web3 应用程序的未来，尤其是 OpenSea 及其未来的市场策略。此外，Brian Roberts 还确认，他将在未来继续担任 OpenSea 的顾问。</span>
                             </span>
                           </div>
                         </a>
@@ -5605,8 +5687,8 @@ BlockBeats 此前报道，韩国检方于 9 月 14 日在对 Terra 创始人 Do 
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3213129633">
-        <time id="build-timestamp" datetime="2022-10-09T06:16:18.305Z">2022-10-09T06:16:18.305Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3213278006">
+        <time id="build-timestamp" datetime="2022-10-09T07:14:01.336Z">2022-10-09T07:14:01.336Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

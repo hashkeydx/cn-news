@@ -6,6 +6,46 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/t4n82hrm.html",
+          "author": "PA一线",
+          "description": "PANews 10月9日消息，GameStop浏览器钱包首席工程师Jeff Walsh发推文称其已从该公司离职。Jeff Walsh于2021年6月加入GameStop。\n此前9月13日消息，GameStop区块链负责人Matt Finestone宣布离职。",
+          "link": "https://panewslab.com/zh/articledetails/t4n82hrm.html",
+          "publishedOn": "2022-10-09T06:17:38.000Z",
+          "wordCount": 3506,
+          "title": "GameStop浏览器钱包首席工程师Jeff Walsh已离职",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/ry3finri.html",
+          "author": "PA一线",
+          "description": "PANews 10月9日消息，据Entrepreneur报道，数据显示，印度NFT产业目前估值为33亿美元，累计平均增长率为61.6%，预计2028年将达到270亿美元；此外，目前有11家NFT公司总部设在印度，占全球NFT公司总数的5.02%；仅在2021年，印度就新增了71家NFT初创公司，目前有86家活跃的NFT初创公司。",
+          "link": "https://panewslab.com/zh/articledetails/ry3finri.html",
+          "publishedOn": "2022-10-09T05:42:33.000Z",
+          "wordCount": 3478,
+          "title": "数据：印度NFT产业目前估值33亿美元，预计2028年将达到270亿美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/3wo58p62.html",
+          "author": "PA一线",
+          "description": "PANews 10月9日消息，据界面新闻报道，Strategy Analytics最新发布的研究报告指出，专用元宇宙设备市场存量将在2024年达到1亿。到目前为止，市场主要是VR头显设备，AR设备主要局限于企业市场。然而，随着更多面向消费者的设备发布，预计AR头显设备将推动未来的增长。2021年，AR设备出货量仅占元宇宙设备的1%多一点，而到2027年，其占比将增长到64%。",
+          "link": "https://panewslab.com/zh/articledetails/3wo58p62.html",
+          "publishedOn": "2022-10-09T05:35:50.000Z",
+          "wordCount": 3481,
+          "title": "报告：专用元宇宙设备市场存量将在2024年达到1亿",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/agjf8hf1.html",
+          "author": "PA一线",
+          "description": "PANews 10月9日消息，据Ambcrypto报道，加密社交分析平台LunarCrush的数据显示，Loopring（LRC）在过去90天中创下每日社交贡献者人数最高记录 (5260)。但就LRC价格在过去三个月呈下跌趋势，三季度跌幅23%。此外，Santiment的数据显示，过去90天LRC的平均美元投资年龄（MDIA）上涨了41%，同期其平均代币年龄也增长了25%，这意味着越来越多的LRC投资处于休眠状态；过去90天平均市值与实现价值（MVRV）为-18.88%，这意味着大量LRC持有者处于亏损状态。\n除了价格下跌外，LRC网络的开发活动过去三个月下降了7%，交易LRC的每日活跃地址下降了87%，同一时期每天在网络上创建的新地址减少了58%。",
+          "link": "https://panewslab.com/zh/articledetails/agjf8hf1.html",
+          "publishedOn": "2022-10-09T05:31:38.000Z",
+          "wordCount": 3481,
+          "title": "报告：越来越多的LRC投资处于休眠状态，大量持有者处于亏损状态",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/7752uk7u.html",
           "author": "PA一线",
           "description": "PANews 10月9日消息，对于近日BSC跨链桥攻击事件，Cosmos联合创始人Ethan Buchman在推特上表示，此次事件问题的关键在于黑客能够伪造Merkle证明。这本不应该，因为Merkle证明应该提供高完整性。区块链轻客户端（和IBC）建立在Merkle证明之上，许多区块链将数据存储在Merkle树中，这样就可以生成证明，证明某些数据包含在树中。币安的情况是攻击者能够证明某些数据在树中，但它实际上不在树中。Cosmos链使用一种称为IAVL的Merkle树，IAVL存储库公开了一个使用范围证明“RangeProof”的API，但事实证明RangeProof的内部工作存在严重错误。一个证明应该由一个叶节点和一系列内部节点组成，这些节点勾勒出树中从叶到根的路径，具有足够的信息来计算树的Merkle根哈希并验证叶实际上是树的一部分。因为这是一个二叉树，所以每个内部节点都可以有一个左分支和右分支。但证明是通过跟踪树中的路径，所以内部节点应该只包含其左分支或右分支哈希，另一个是根据证明中其他节点的哈希构造的。IAVL RangeProof的代码问题在于其允许填充InnerNode中的Left和Right字段，攻击者基本上利用了将信息粘贴到Right字段中的优势，这些信息从未得到验证，也从未影响哈希计算，以使验证者相信某些叶节点是树的一部分。因此，他们成功地伪造了Merkle证明。\nBuchman表示，虽然使用RangeProof不是一个好主意，但有一个方式或可以解决这个问题，即当任何内部节点同时填充了左右字段时，则预先拒绝证明。虽然RangeProof是核心Cosmos存储库 (IAVL) 的一部分，但它实际上并未用于Cosmos堆栈中的区块链协议。IAVL树本身被所有Cosmos-SDK链使用，但RangeProof不是。对于IBC中的Merkle证明，IBC没有使用IAVL树的内置RangeProof系统，而是使用ICS23标准从IAVL树生成和验证Merkle证明，ICS23代码没有这个漏洞，它可明确“拒绝”范围证明（RangeProof）。\n据悉，Cosmos旧版本存在RangeProof相关漏洞，目前Cosmos链经过多次迭代更新，根据Buchman的说法，虽然币安是Cosmos软件的最大用户，但其不关注Cosmos进展，所以导致此次攻击事件。",
