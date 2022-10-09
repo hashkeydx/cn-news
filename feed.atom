@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-10-09T04:55:05.536Z</updated>
+    <updated>2022-10-09T05:33:51.057Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Cosmos联创：BNB Chain攻击事件中黑客通过RangeProof伪造Merkle证明]]></title>
+        <id>https://www.theblockbeats.info/flash/107890</id>
+        <link href="https://www.theblockbeats.info/flash/107890"/>
+        <updated>2022-10-09T03:47:58.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 9 日，Cosmos 联合创始人 Ethan Buchman 对 BSC 跨链桥攻击事件发表看法表示，此次事件问题的关键在于黑客能够伪造 Merkle 证明。这本不应该，因为 Merkle 证明应该提供高完整性。区块链轻客户端（和 IBC）建立在 Merkle 证明之上，许多区块链将数据存储在 Merkle 树中，这样就可以生成证明，证明某些数据包含在树中。
+
+Cosmos 链使用一种称为 IAVL 的 Merkle 树，IAVL 存储库公开了一个使用范围证明「RangeProof」的 API，但事实证明 RangeProof 的内部工作存在严重错误。IAVL RangeProof 的代码问题在于其允许填充 InnerNode 中的 Left 和 Right 字段，攻击者基本上利用了将信息粘贴到 Right 字段中的优势，这些信息从未得到验证，也从未影响哈希计算，以使验证者相信某些叶节点是树的一部分。因此，他们成功地伪造了 Merkle 证明。
+
+Buchman 表示，虽然使用 RangeProof 不是一个好主意，但有一个方式或可以解决这个问题，即当任何内部节点同时填充了左右字段时，则预先拒绝证明。对于 IBC 中的 Merkle 证明，IBC 没有使用 IAVL 树的内置 RangeProof 系统，而是使用 ICS23 标准从 IAVL 树生成和验证 Merkle 证明，ICS23 代码没有这个漏洞，它可明确「拒绝」RangeProof。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cosmos联创：BNB Chain攻击事件中黑客通过RangeProof伪造Merkle证明]]></title>
+        <id>https://panewslab.com/zh/articledetails/7752uk7u.html</id>
+        <link href="https://panewslab.com/zh/articledetails/7752uk7u.html"/>
+        <updated>2022-10-09T03:31:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月9日消息，对于近日BSC跨链桥攻击事件，Cosmos联合创始人Ethan Buchman在推特上表示，此次事件问题的关键在于黑客能够伪造Merkle证明。这本不应该，因为Merkle证明应该提供高完整性。区块链轻客户端（和IBC）建立在Merkle证明之上，许多区块链将数据存储在Merkle树中，这样就可以生成证明，证明某些数据包含在树中。币安的情况是攻击者能够证明某些数据在树中，但它实际上不在树中。Cosmos链使用一种称为IAVL的Merkle树，IAVL存储库公开了一个使用范围证明“RangeProof”的API，但事实证明RangeProof的内部工作存在严重错误。一个证明应该由一个叶节点和一系列内部节点组成，这些节点勾勒出树中从叶到根的路径，具有足够的信息来计算树的Merkle根哈希并验证叶实际上是树的一部分。因为这是一个二叉树，所以每个内部节点都可以有一个左分支和右分支。但证明是通过跟踪树中的路径，所以内部节点应该只包含其左分支或右分支哈希，另一个是根据证明中其他节点的哈希构造的。IAVL RangeProof的代码问题在于其允许填充InnerNode中的Left和Right字段，攻击者基本上利用了将信息粘贴到Right字段中的优势，这些信息从未得到验证，也从未影响哈希计算，以使验证者相信某些叶节点是树的一部分。因此，他们成功地伪造了Merkle证明。
+Buchman表示，虽然使用RangeProof不是一个好主意，但有一个方式或可以解决这个问题，即当任何内部节点同时填充了左右字段时，则预先拒绝证明。虽然RangeProof是核心Cosmos存储库 (IAVL) 的一部分，但它实际上并未用于Cosmos堆栈中的区块链协议。IAVL树本身被所有Cosmos-SDK链使用，但RangeProof不是。对于IBC中的Merkle证明，IBC没有使用IAVL树的内置RangeProof系统，而是使用ICS23标准从IAVL树生成和验证Merkle证明，ICS23代码没有这个漏洞，它可明确“拒绝”范围证明（RangeProof）。
+据悉，Cosmos旧版本存在RangeProof相关漏洞，目前Cosmos链经过多次迭代更新，根据Buchman的说法，虽然币安是Cosmos软件的最大用户，但其不关注Cosmos进展，所以导致此次攻击事件。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Messari报告：波卡Q3营收下降47%，活跃地址下降40%]]></title>
+        <id>https://www.theblockbeats.info/flash/107884</id>
+        <link href="https://www.theblockbeats.info/flash/107884"/>
+        <updated>2022-10-09T03:04:58.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 9 日，加密分析平台 Messari 近日发布波卡三季度报告，指出该网络在关键生态系统指标上出现了一些下降，但其基本指标，如验证者数量、提名者数量和质押占比在 90 天内保持稳定。
+
+具体来说，三季度波卡营收继续下滑，总收入 115,326 美元，环比下降 47%；活跃地址也大幅下降，三季度波卡上只有 139,419 个活跃账户，环比下降 40%。
+
+此外，Messari 报告还指出，自今年年初以来，DOT 总质押量在该网络上的占比保持不变，前三个季度的占比一直是 54% 至 59%。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：过去24小时XEN Crypto合约Gas消耗排名第一，已消耗超900枚ETH]]></title>
+        <id>https://www.theblockbeats.info/flash/107881</id>
+        <link href="https://www.theblockbeats.info/flash/107881"/>
+        <updated>2022-10-09T03:04:58.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 9 日，据 Etherscan 数据显示，过去 24 小时，XEN Crypto 合约 Gas 消耗排名第一，已消耗超 941.7 枚 ETH。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：波卡第三季度营收环比下降47%，活跃地址环比下降40%]]></title>
         <id>https://panewslab.com/zh/articledetails/6qr7q1zb.html</id>
@@ -2959,16 +3009,6 @@ BlockBeats 此前报道，韩国检方于 9 月 14 日在对 Terra 创始人 Do 
         <summary type="html"><![CDATA[PANews 10月5日消息，据CNBC报道，知情人士称，加密借贷平台Celsius的联合创始人兼首席战略官S. Daniel Leon已经辞职。Celsius公司在一封邮件中确认了Leon的辞职，并表示公司税务总监Lior Koren将接任该职位。据此前消息，上周Celsius首席执行官Alex Mashinsky向公司董事会特别委员会提交了辞职信，立即生效，但其董事职位将会保留。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[知情人士：马斯克拟以每股54.2美元的价格继续收购推特]]></title>
-        <id>https://www.theblockbeats.info/flash/107356</id>
-        <link href="https://www.theblockbeats.info/flash/107356"/>
-        <updated>2022-10-04T17:15:33.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，10 月 5 日，马斯克提议继续以每股 54.20 美元的价格收购推特，这可能会终结近期历史上最具争议的收购之一。据知情人士透露，马斯克在给推特的一封信中提出了这一建议。消息一出，推特股价一度上涨 18%，现盘中二度停牌。马斯克和推特的代表没有立即回应置评请求。(金十)]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
 </feed>
