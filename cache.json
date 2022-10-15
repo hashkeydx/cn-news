@@ -2554,16 +2554,6 @@
           "wordCount": 3510,
           "title": "Polygon现已推出Polygon zkEVM公共测试网",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/xw11y8b6.html",
-          "author": "PA一线",
-          "description": "PANews 10月11日消息，经济合作与发展组织（OECD）在官网发布了一个新的全球税收透明度框架，以提供有关加密资产的报告和信息交换。该框架的范围将包括稳定币、加密衍生品和某些 NFT。加密资产报告框架(CARF) 响应了 G20 的要求，即 OECD 制定一个框架，用于在国家之间自动交换加密资产信息。作为最新的经合组织秘书长税务报告的一部分，CARF 将于 10 月 12 日至 13 日在华盛顿特区举行的下一次会议上提交给 G20 财长和央行行长进行讨论。\n该框架于 8 月获得批准，确保“收集和自动交换有关加密交易的信息”。加密资产的定义“包括可以在没有传统金融中介干预的情况下以去中心化方式持有和转移的资产，包括稳定币、以加密资产形式发行的衍生品和某些非同质代币”，促进相关加密资产之间交换的中介和其他服务提供商，如交易所、经纪人和 ATM 运营商，也将包括在范围内。报告还表示，“通用报告标准（现行标准）所涵盖的当前资产范围以及义务实体的范围并未让税务机关充分了解纳税人何时参与或持有相关加密货币的税务相关交易资产”。",
-          "link": "https://panewslab.com/zh/articledetails/xw11y8b6.html",
-          "publishedOn": "2022-10-10T16:09:31.000Z",
-          "wordCount": 3517,
-          "title": "经合组织将向G20提交新的加密资产透明度框架(CARF)",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2572,6 +2562,36 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/flash/108973",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 14 日，Solana 生态 NFT 市场 Magic Eden 宣布将在其平台上启用可选版税，允许 NFT 购买者选择全部、一半或没有版税。\n\n此外，Magic Eden 将推出创作者货币化黑客松，最高可达投资 100 万美元，用于支持在 Solana 上开发支持 NFT 版税和替代货币化工具。",
+          "link": "https://www.theblockbeats.info/flash/108973",
+          "publishedOn": "2022-10-15T03:06:13.000Z",
+          "wordCount": null,
+          "title": "Magic Eden将启用可选版税，并推出100万美元创作者货币化黑客松",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/108970",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 15 日，Coinbase CEO Brian Armstrong 在社交媒体上发文表示，因其个人热衷于加速科学和技术的发展，为进一步做到这一点，计划在未来一年内出售其持有的大约 2% 的 Coinbase 股份，以资助科学研究以及类似 NewLimit 和 ResearchHub 的公司。\n\nBrian Armstrong 补充表示：「为避免生疑，我打算长期在 Coinbase 担任 CEO，仍然看好加密货币和 Coinbase。我完全致力于发展我们的业务和推进我们的使命，但我也很高兴能以不同的方式作出贡献。」",
+          "link": "https://www.theblockbeats.info/flash/108970",
+          "publishedOn": "2022-10-15T03:06:13.000Z",
+          "wordCount": null,
+          "title": "Coinbase CEO：将于明年出售其2%持股，以资助科技研发公司",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/108976",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 15 日，区块链安全团队 Supremacy 在社交媒体上发文表示，Earning.Farm 的 EFLeverVault 合约遭到两次闪电贷攻击。其中第一笔攻击被 MEV bot 截获，损失 480 ETH，第二笔黑客完成攻击，获利 268 ETH。\n\n经过分析，漏洞是由合约的闪电贷回调函数未验证闪电贷发起者产生，攻击者可自行触发合约的闪电贷回调逻辑：偿还合约内的 Aave stETH 债务并提现，然后将 stETH 兑换为 ETH。随后攻击者可调用 withdraw 函数提现所有合约内的 ETH 余额。",
+          "link": "https://www.theblockbeats.info/flash/108976",
+          "publishedOn": "2022-10-15T03:06:13.000Z",
+          "wordCount": null,
+          "title": "Earning.Farm遭受闪电贷攻击，共计损失748 ETH",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/flash/108967",
           "author": null,
