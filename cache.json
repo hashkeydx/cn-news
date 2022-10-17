@@ -1584,36 +1584,6 @@
           "wordCount": 3499,
           "title": "DeFi借贷协议Cream Finance正向DeFi治理协议过渡",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/59o3w5np.html",
-          "author": "PA一线",
-          "description": "PANews 10月13日消息，据Beosin EagleEye Web3安全预警与监控平台的舆情消息，FTX交易所遭到gas窃取攻击，黑客利用FTX支付的gas费用铸造了大量XEN TOKEN。Beosin安全团队对此事分析如下：\n1.以其中一笔攻击交易为例\n(0x8eb73bd5c08318a4cfd233940c3a58744830cda999e59ecbc56f094618a91d69)，攻击者先在链上部署攻击合约(0xCba9b1Fd69626932c704DAc4CB58c29244A47FD3)。\n2.FTX热钱包地址会向攻击合约地址转入小额的资金，利用攻击合约(0xCba9...7FD3)进行批量创建子合约。由于整个攻击中创建了大量合约，并且每次执行完子合约之后，子合约都会自毁。\n3.接下来子合约fallback()函数去向Xen合约发起铸币请求，如下函数，claimRank()函数传入一个时间期限（最小1天）进行铸币，铸币条件是只用支付调用gas费，并无其他成本，并且claimMintReward()函数为提取函数，该函数只判断是否达到时间期限（本次黑客设置的时间期限为最小值1天），便可无条件提取。但在此次调用过程中，交易发起者为FTX热钱包地址，所以整个调用过程的gas都是由FTX热钱包地址所支付，而Xen铸币地址为攻击者地址。\n4. 1-3中的步骤，重复多次，并且每次重复过程中都会将已到期的代币提取出来，并且同时发起新的铸币请求。\n截止发文时，通过Beosin Trace追踪发现，FTX交易所损失81 ETH，黑客通过DODO、Uniswap将XEN代币换成ETH转移。\n此前早些时候消息，FTX遭受GAS窃取攻击，黑客零成本铸造XEN代币17000次。\n相关阅读：0成本获利80ETH，黑客是如何利用FTX铸造超1亿枚XEN？",
-          "link": "https://panewslab.com/zh/articledetails/59o3w5np.html",
-          "publishedOn": "2022-10-13T07:25:23.000Z",
-          "wordCount": 3511,
-          "title": "Beosin发布FTX遭遇的Gas窃取攻击事件技术分析：FTX交易所已损失81 ETH",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/uzpb4ron.html",
-          "author": "PA一线",
-          "description": "PANews 10月13日消息，The Sandbox官方在推特上宣布，Yuga Labs旗下NFT项目Meebits已入驻The Sandbox，Meebits持有者现在可以在元宇宙中添加自己的“像素”角色并加入The Sandbox Alpha Season 3。据悉，Meebits是The Sandbox添加的第19个NFT集合。",
-          "link": "https://panewslab.com/zh/articledetails/uzpb4ron.html",
-          "publishedOn": "2022-10-13T06:48:31.000Z",
-          "wordCount": 3521,
-          "title": "Yuga Labs旗下NFT项目Meebits入驻The Sandbox元宇宙",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/uj9qf14h.html",
-          "author": "PA一线",
-          "description": "PANews 10月13日消息，据Wagmi33 Foundation官方推特披露，拉手网创始人吴波海外新项目Nuwton.io完成550万美元融资，本轮融资由惟一资本、Wagmi33 Foundation等参投，若干天使投资人参投。\n据悉，Nuwton.io是一个基于ETHW的NFT交易平台，据官方消息，该平台上交易量目前约占ETHW链上NFT交易量的90%。",
-          "link": "https://panewslab.com/zh/articledetails/uj9qf14h.html",
-          "publishedOn": "2022-10-13T06:44:45.000Z",
-          "wordCount": 3486,
-          "title": "ETHW生态NFT交易平台Nuwton.io完成550万美元融资",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
