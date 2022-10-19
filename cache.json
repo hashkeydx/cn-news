@@ -6,6 +6,126 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/8702btau.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，据Beosin EagleEye Web3安全预警与监控平台监测显示，Celo上的Moola协议遭受攻击，黑客获利约900万美元。Beosin安全团队对事件进行了分析结果如下：\n第一步：攻击者进行了多笔交易，用CELO买入MOO,攻击者起始资金（182000 枚CELO）。第二步：攻击者使用MOO作为抵押品借出CELO。根据抵押借贷的常见逻辑，攻击者抵押了价值a的MOO，可借出价值b的CELO。第三步：攻击者用贷出的CELO购买MOO，从而继续提高MOO的价格。每次交换之后，Moo对应CELO的价格变高。第四步：由于抵押借贷合约在借出时会使用交易对中的实时价格进行判断，导致用户之前的借贷数量，并未达到价值b，所以用户可以继续借出CELO。通过不断重复这个过程，攻击者把MOO的价格从0.02 CELO提高到0.73 CELO。第五步：攻击者进行了累计4次抵押MOO，10次swap（CELO换MOO），28次借贷，达到获利过程。\n本次遭受攻击的抵押借贷实现合约并未开源，根据攻击特征可以猜测攻击属于价格操纵攻击。截止发文时，通过Beosin Trace追踪发现攻击者将约93.1%的所得资金返还给了Moola Market项目方，将50万CELO捐给了impact market。自己留下了总计65万个CELO作为赏金。\n此前消息，攻击者将93.1%的资金返还给Moola治理多签钱包，并将部分未归还的资金捐赠给了Moola Market存款机构ImpactMarket。",
+          "link": "https://panewslab.com/zh/articledetails/8702btau.html",
+          "publishedOn": "2022-10-19T06:41:29.000Z",
+          "wordCount": 3539,
+          "title": "安全团队：Moola协议遭受的攻击或属于价格操纵攻击",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/i3vlh4y9.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，Celo生态借贷协议Moola Market发布攻击事件报告及重启计划，除了今日早些时候公布的攻击者将93.1%的资金返还给Moola治理多签钱包，官方还表示攻击者将部分未归还的资金捐赠给了Moola Market存款机构ImpactMarket，该存款机构在全球资金不足的社区提供UBI。目前团队的重点已转移到安全恢复Moola协议的功能，目前正在对提案ID 9进行治理投票，以降低LTV和管理MOO作为抵押品使用的清算门槛，希望该提案在6天内通过，重启协议。\n此前今日早些时候消息，Moola Market遭黑客攻击，损失840万美元。",
+          "link": "https://panewslab.com/zh/articledetails/i3vlh4y9.html",
+          "publishedOn": "2022-10-19T06:37:01.000Z",
+          "wordCount": 3538,
+          "title": "Moola Market：将通过治理投票重启协议，攻击者已捐出部分未归还的资金",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/9q5vspg4.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，据官方推特，公链Sui宣布将进行品牌升级。目前其官方媒体简介中已添加“准备好迎接Suinami到来”。\n此前9月份消息，Sui开发团队Mysten Labs完成3亿美元B轮融资，FTX Ventures领投。\n相关阅读：一文解读Facebook系新公链Sui：团队、架构和代币经济",
+          "link": "https://panewslab.com/zh/articledetails/9q5vspg4.html",
+          "publishedOn": "2022-10-19T06:25:26.000Z",
+          "wordCount": 3535,
+          "title": "公链Sui宣布将进行品牌升级",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/pudezp18.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，据CoinGeek报道，巴西里约热内卢本周颁布的一项法令显示，里约热内卢将允许其居民从2023年开始以数字资产支付财产税。该市市长Eduardo Pae要求相关虚拟资产服务提供商提出申请，并表示虽然居民将使用数字资产进行支付，但市政府将只收取法定货币，转换数字资产将不会对纳税人产生任何额外费用。\n此前3月份消息，里约热内卢将从2023年起支持使用比特币支付房地产税。",
+          "link": "https://panewslab.com/zh/articledetails/pudezp18.html",
+          "publishedOn": "2022-10-19T06:19:43.000Z",
+          "wordCount": 3522,
+          "title": "巴西里约热内卢将于2023年起支持以数字资产支付财产税",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/cm74or73.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，据CoinDesk报道，以色列财政部和该国唯一的股票交易所特拉维夫证券交易所（TASE）正准备发行基于区块链的数字国家债券。为此，以色列财政部和TASE正在与数字资产基础设施公司Fireblocks和VMWare合作，使用智能合约和代币化对数字债券的交易和清算进行新平台的实时测试。\n在实时测试中，数字债券将向收购参与者的电子钱包发行单位，以数字货币支付，这些数字货币将被转移到以色列政府的电子钱包。政府和TASE的目的是简化流程、降低成本、缩短国债发行和清算的期限。",
+          "link": "https://panewslab.com/zh/articledetails/cm74or73.html",
+          "publishedOn": "2022-10-19T06:13:57.000Z",
+          "wordCount": 3516,
+          "title": "以色列财政部和特拉维夫证券交易所正准备发行基于区块链的数字国家债券",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/3m2udts6.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，据官方公告，Huobi Global将于10月19日00:00至12月31日23:59在现货交易区推出交易USDD相关交易对免交易手续费的活动。仅涉及USDD交易区的BTC/USDD、ETH/USDD、TRX/USDD、SUN/USDD、WIN/USDD、NFT/USDD、JST/USDD、BTT/USDD、USDD/USDC、USDD/USDT、APT/USDD（共11个交易对）。活动结束后恢复至原费率。\n据悉，USDD为波场去中心化稳定币，此前消息，孙宇晨作为委员加入Huobi Global全球顾问委员会。",
+          "link": "https://panewslab.com/zh/articledetails/3m2udts6.html",
+          "publishedOn": "2022-10-19T06:00:00.000Z",
+          "wordCount": 3529,
+          "title": "Huobi Global推出为期两个多月的11个USDD相关交易对免交易手续费活动",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/ky9qbmlu.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，据CoinDesk报道，根据一份公开的法庭文件，在内部调查后，加密借贷平台Voyager Digital计划与两名高管就他们对三箭资本的贷款处理达成和解。文件显示，早在3月份，当时的CEO Stephen Ehrlich、CFO Evan Psaropoulos就同意允许Voyager借给三箭资本近10亿美元的加密货币。\n然而，由Voyager的两名董事会成员组成的一个特别委员会发现，对现Ehrlich和Psaropoulos提出过失索赔将是困难且昂贵的，而且不太可能收回太多。Voyager建议达成一项和解，让Ehrlich向Voyager支付112.5万美元现金，根据董事和高级职员保险单索赔高达2000万美元，并允许Ehrlich和Psaropoulos继续担任目前的职务，和解有待本案破产法官的批准。",
+          "link": "https://panewslab.com/zh/articledetails/ky9qbmlu.html",
+          "publishedOn": "2022-10-19T05:53:16.000Z",
+          "wordCount": 3536,
+          "title": "Voyager Digital计划与两名高管就三箭资本的贷款处理达成和解",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/ubocqk6f.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，据Cointelegraph报道，已申请破产的德国加密银行Nuri发布最新公告，要求旗下50万用户在12月18日截止日期之前提取所有资产，因为该公司准备关闭并执行清算。公告中称，Nuri账户中的所有资产都是安全的，不受Nuri破产的影响，客户可以访问并且能够在上述日期之前提取所有资金，其交易服务预计将在2022年11月30日结束。\n此前8月份消息，德国加密货币交易所Nuri在柏林申请破产，而在此几周前该公司表示将裁员20%以实现盈利。",
+          "link": "https://panewslab.com/zh/articledetails/ubocqk6f.html",
+          "publishedOn": "2022-10-19T05:32:49.000Z",
+          "wordCount": 3518,
+          "title": "已申请破产的德国加密银行Nuri正准备关闭并执行清算",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/d6ylzniq.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，币安发布公告称，由于LUNC社区通过的第5234号提案将交易销毁税由1.2%降低到0.2%，该提案估计于10月19日20:50生效。币安将在Terra Classic网络上更新LUNC和USTC的充值和提现手续费，充值时LUNC与USTC充值的1.2%交易销毁税由降至0.2%，LUNC和USTC于币安的充值，需缴纳其他交易所或平台（如适用）收取的提现费用；提现时用户收到的提现金额将扣除币安收取的提现手续费和0.2%的交易销毁税。",
+          "link": "https://panewslab.com/zh/articledetails/d6ylzniq.html",
+          "publishedOn": "2022-10-19T05:25:03.000Z",
+          "wordCount": 3518,
+          "title": "币安更新LUNC网络上LUNC和USTC充值和提现手续费，交易销毁税由1.2%降至0.2%",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/9cdymou0.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，据官方公告，NFT域名提供商Unstoppable Domains将停止支持.coin域名，未来也不再继续提供，主要原因是为了避免与区块链平台Emercoin发行的.coin域名发生冲突。Unstoppable域名是自托管NFT，.coin域名所有者仍将拥有这些域名，但将无法继续参与解析服务或集成等。\n此外，.coin域名所有者可以在官网“My Domains”页面重启，Unstoppable Domains将为其提供其域名购买价格的三倍积分。",
+          "link": "https://panewslab.com/zh/articledetails/9cdymou0.html",
+          "publishedOn": "2022-10-19T05:18:14.000Z",
+          "wordCount": 3528,
+          "title": "NFT域名提供商Unstoppable Domains宣布将停止支持.coin域名",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/xir1m02m.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，据美通社报道，安全公司Bolster宣布完成1500万美元融资，Cheyenne Ventures、Cervin、Liberty Global Ventures领投，现有投资方Thomvest Ventures和Crosslink Capital参投。 该笔融资将推动公司进一步发展，以帮助更多全球客户检测和修复网络、社交媒体和应用商店中的威胁。本轮融资后，Cervin的普通合伙人Shirish Sathaye和Zscaler前首席战略官Manoj Apte将加入Bolster董事会。\n据悉，Bolster是一家自动化数字风险保护公司，可以自动检测并快速修复数字媒体和Web3网络中的威胁，监控和打击互联网上的欺诈者，可在跨网络、社交媒体、应用商店提供最有效的保护，以打击欺诈性网站和内容。",
+          "link": "https://panewslab.com/zh/articledetails/xir1m02m.html",
+          "publishedOn": "2022-10-19T05:15:35.000Z",
+          "wordCount": 3539,
+          "title": "针对Web3网络等领域的安全公司Bolster完成1500万美元融资",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/jbjwo5m8.html",
+          "author": "PA一线",
+          "description": "PANews 10月19日消息，香港特区行政长官李家超在其首份《施政报告》中表示，不断提升金融科技竞争力。会大力推动金融科技，包括鼓励更多金融科技服务及产品进行概念验证测试、推进跨境金融科技项目、培育金融科技人才等。“商业数据通”将于今年内出台，提供一站式平台给企业分享营运数据，让银行准确评估企业情况，提高中小企获批贷款的机会。虚拟资产方面，政府已提交条例草案建议引入有关服务提供者的法定发牌制度。金管局正研究市场对监管稳定币的意见，会确保监管制度与国际监管建议相符并适合本地情况。此外，金管局已开展“数码港元”的准备工作，并正与内地机构合作扩大在港以“数字人民币”作为跨境支付工具的测试。\n此外，李家超在报告中表示：“香港目前处理全球约75%的离岸人民币结算，我们会推动市场提供更多以人民币计价投资工具，以及稳妥高效的汇兑、汇率风险和利率风险管理等财资服务，并优化市场基建。”",
+          "link": "https://panewslab.com/zh/articledetails/jbjwo5m8.html",
+          "publishedOn": "2022-10-19T05:08:18.000Z",
+          "wordCount": 3516,
+          "title": "香港特首：金管局正研究市场对监管稳定币的意见，已开展“数码港元”准备工作",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/6j1dynsq.html",
           "author": "PA一线",
           "description": "PANews 10月19日消息，据WANDAOLABS微信公众号，广东省互联网协会区块链专业委员会、广东中科智能区块链技术有限公司、泰和泰（广州）律师事务所联合发布国内首个《发行NFT数字藏品合规操作指引》2022版，以期为发行NFT数字藏品服务的行业提供客观、守法、合规、有序的指引。\n其中指出，铸造发行NFT数字藏品的企业、平台需具备如下备案、资质或许可：铸造发行 NFT 数字藏品的企业、平台需具备如下备案、资质或许可：1.《跨地区增值电信业务经营许可证》或《增值电信业务经营许可证》且业务种类含有《互联网信息服务》（ICP许可证）、《在线数据处理与交易处理》（EDI 许可证）；2.《网络文化经营许可证》；3.《网络出版服务许可证》；4.《拍卖经营批准证书》（如企业、平台需要开展拍卖业务）5.艺术品经营单位备案；6.区块链信息服务备案。",
