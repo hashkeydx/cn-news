@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-10-23T18:13:01.566Z</updated>
+    <updated>2022-10-23T19:11:59.227Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -3017,85 +3017,6 @@ BlockBeats 此前报道，去中心化社交区块链平台 DeSo 于 2021 年 9 
         <updated>2022-10-19T07:30:30.000Z</updated>
         <summary type="html"><![CDATA[PANews 10月19日消息，据官方消息，游戏工作室Lattice宣布与Optimism合作推出3D自治元宇宙游戏OPCraft。OPCraft运行在基于Optimism昨日宣布推出的模块化组件OP Stack构建的自定义Rollup上，游戏中的每个元素都存在于链上，每个行为都是一笔以太坊业务。目前，该游戏的合约和客户端已经开源，支持玩家在其他EVM兼容链上进行部署。OPCraft世界将开放两周，北京时间11月1日7:59将停止运行，Rollup将被冻结，玩家在游戏中的创造将被永久保存。
 此前昨日消息，Optimism发文介绍其可扩展性架构的下一个演变OP Stack，OP Stack是一个开源模块化组件，适用于各种高度可扩展、高度互操作的区块链。OP Stack未来既不是多链也不是单链，而是高度集成的链形成的一个新兴结构，即超级链。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[阿里数字资产转赠功能将延期上线，原定10月18日开放无偿转赠]]></title>
-        <id>https://panewslab.com/zh/articledetails/tf7294j5.html</id>
-        <link href="https://panewslab.com/zh/articledetails/tf7294j5.html"/>
-        <updated>2022-10-19T07:07:04.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月19日消息，据蓝鲸财经报道，阿里资产发布公告，数字资产频道将上线无偿转增功能，原定上线时间为10月18日，但因相关原因，转赠产品功能延期上线，具体时间以最新公告为准。公告表示，转赠功能上线前，系统会上线“历史藏品导入”功能，可同步以前版链元内的数字作品。阿里资产声明，不支持任何形式的有偿转赠，私下交易、约定等行为，往往存在极大欺诈和资产损失风险，请广大用户谨慎辨别。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[已倒闭的澳大利亚ACX交易所曾挪用2000万美元客户资金用于商业贷款]]></title>
-        <id>https://panewslab.com/zh/articledetails/omiba2wq.html</id>
-        <link href="https://panewslab.com/zh/articledetails/omiba2wq.html"/>
-        <updated>2022-10-19T07:03:32.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月19日消息，据watoday报道，根据澳大利亚维多利亚最高法院消息，去年倒闭的澳大利亚加密货币交易所在由其母公司Blockchain Global运营期间，擅自挪用2000万美元客户资金用于商业贷款。该公司将客户账户集中到一个基金中，并将这笔钱与公司资金混合在一起，并且几乎没有记录每个客户的交易记录。
-据悉，Blockchain Global于去年10月倒闭，债务高达5000万美元，其中有几百名澳大利亚债权人。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安全团队：Moola协议遭受的攻击或属于价格操纵攻击]]></title>
-        <id>https://panewslab.com/zh/articledetails/8702btau.html</id>
-        <link href="https://panewslab.com/zh/articledetails/8702btau.html"/>
-        <updated>2022-10-19T06:41:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月19日消息，据Beosin EagleEye Web3安全预警与监控平台监测显示，Celo上的Moola协议遭受攻击，黑客获利约900万美元。Beosin安全团队对事件进行了分析结果如下：
-第一步：攻击者进行了多笔交易，用CELO买入MOO,攻击者起始资金（182000 枚CELO）。第二步：攻击者使用MOO作为抵押品借出CELO。根据抵押借贷的常见逻辑，攻击者抵押了价值a的MOO，可借出价值b的CELO。第三步：攻击者用贷出的CELO购买MOO，从而继续提高MOO的价格。每次交换之后，Moo对应CELO的价格变高。第四步：由于抵押借贷合约在借出时会使用交易对中的实时价格进行判断，导致用户之前的借贷数量，并未达到价值b，所以用户可以继续借出CELO。通过不断重复这个过程，攻击者把MOO的价格从0.02 CELO提高到0.73 CELO。第五步：攻击者进行了累计4次抵押MOO，10次swap（CELO换MOO），28次借贷，达到获利过程。
-本次遭受攻击的抵押借贷实现合约并未开源，根据攻击特征可以猜测攻击属于价格操纵攻击。截止发文时，通过Beosin Trace追踪发现攻击者将约93.1%的所得资金返还给了Moola Market项目方，将50万CELO捐给了impact market。自己留下了总计65万个CELO作为赏金。
-此前消息，攻击者将93.1%的资金返还给Moola治理多签钱包，并将部分未归还的资金捐赠给了Moola Market存款机构ImpactMarket。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moola Market：将通过治理投票重启协议，攻击者已捐出部分未归还的资金]]></title>
-        <id>https://panewslab.com/zh/articledetails/i3vlh4y9.html</id>
-        <link href="https://panewslab.com/zh/articledetails/i3vlh4y9.html"/>
-        <updated>2022-10-19T06:37:01.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月19日消息，Celo生态借贷协议Moola Market发布攻击事件报告及重启计划，除了今日早些时候公布的攻击者将93.1%的资金返还给Moola治理多签钱包，官方还表示攻击者将部分未归还的资金捐赠给了Moola Market存款机构ImpactMarket，该存款机构在全球资金不足的社区提供UBI。目前团队的重点已转移到安全恢复Moola协议的功能，目前正在对提案ID 9进行治理投票，以降低LTV和管理MOO作为抵押品使用的清算门槛，希望该提案在6天内通过，重启协议。
-此前今日早些时候消息，Moola Market遭黑客攻击，损失840万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公链Sui宣布将进行品牌升级]]></title>
-        <id>https://panewslab.com/zh/articledetails/9q5vspg4.html</id>
-        <link href="https://panewslab.com/zh/articledetails/9q5vspg4.html"/>
-        <updated>2022-10-19T06:25:26.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月19日消息，据官方推特，公链Sui宣布将进行品牌升级。目前其官方媒体简介中已添加“准备好迎接Suinami到来”。
-此前9月份消息，Sui开发团队Mysten Labs完成3亿美元B轮融资，FTX Ventures领投。
-相关阅读：一文解读Facebook系新公链Sui：团队、架构和代币经济]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[巴西里约热内卢将于2023年起支持以数字资产支付财产税]]></title>
-        <id>https://panewslab.com/zh/articledetails/pudezp18.html</id>
-        <link href="https://panewslab.com/zh/articledetails/pudezp18.html"/>
-        <updated>2022-10-19T06:19:43.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月19日消息，据CoinGeek报道，巴西里约热内卢本周颁布的一项法令显示，里约热内卢将允许其居民从2023年开始以数字资产支付财产税。该市市长Eduardo Pae要求相关虚拟资产服务提供商提出申请，并表示虽然居民将使用数字资产进行支付，但市政府将只收取法定货币，转换数字资产将不会对纳税人产生任何额外费用。
-此前3月份消息，里约热内卢将从2023年起支持使用比特币支付房地产税。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以色列财政部和特拉维夫证券交易所正准备发行基于区块链的数字国家债券]]></title>
-        <id>https://panewslab.com/zh/articledetails/cm74or73.html</id>
-        <link href="https://panewslab.com/zh/articledetails/cm74or73.html"/>
-        <updated>2022-10-19T06:13:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月19日消息，据CoinDesk报道，以色列财政部和该国唯一的股票交易所特拉维夫证券交易所（TASE）正准备发行基于区块链的数字国家债券。为此，以色列财政部和TASE正在与数字资产基础设施公司Fireblocks和VMWare合作，使用智能合约和代币化对数字债券的交易和清算进行新平台的实时测试。
-在实时测试中，数字债券将向收购参与者的电子钱包发行单位，以数字货币支付，这些数字货币将被转移到以色列政府的电子钱包。政府和TASE的目的是简化流程、降低成本、缩短国债发行和清算的期限。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
