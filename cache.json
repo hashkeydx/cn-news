@@ -6,6 +6,96 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/rhsjssvo.html",
+          "author": "PA一线",
+          "description": "PANews 10月28日消息，FTX创始人Sam Bankman-Fried（SBF）在推特上就“FTX正在开发稳定币”的相关发言做出澄清表示：“我们正在弄清楚我们将在稳定币上做什么，它可能是任何东西，也可能什么都不是，包括合作伙伴关系、发行等等都未确定。”\n此前10月27日消息，SBF在接受The Big Whale采访时表示，FTX正在努力开发一种自己的稳定币。",
+          "link": "https://panewslab.com/zh/articledetails/rhsjssvo.html",
+          "publishedOn": "2022-10-28T06:35:38.000Z",
+          "wordCount": 3554,
+          "title": "SBF：关于“FTX开发稳定币”一事暂未确定任何细节",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/47f2u2h9.html",
+          "author": "PA一线",
+          "description": "PANews 10月28日消息，据Cointelegraph报道，美国货币监理署（OCC）将于明年初成立金融科技办公室，以加强该机构的专业知识和适应快速变化的银行业环境的能力。金融科技办公室将建立并整合OCC于2016年成立的创新办公室，以协调该机构支持负责任的金融创新的工作。 金融科技办公室将由一名首席金融科技官领导，此人将担任副署长，向银行监管政策高级副署长汇报。该办公室将为OCC的金融科技活动和相关监督提供战略领导、愿景和分析观点。",
+          "link": "https://panewslab.com/zh/articledetails/47f2u2h9.html",
+          "publishedOn": "2022-10-28T06:20:04.000Z",
+          "wordCount": 3538,
+          "title": "美国货币监理署将于明年初成立新的金融科技办公室",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/67u775m0.html",
+          "author": "PA一线",
+          "description": "PANews 10月28日消息，据CertiK监测，FriesDAO今日遭到攻击，损失约230万美元。攻击者通过Profanity钱包生成器漏洞获得了FriesDAO协议操作者钱包的控制权，这一漏洞会让通过该工具生成地址的私钥被强制使用。具体攻击过程如下： 1. 在获得对操作者钱包的访问权后，攻击者从DAO的资金钱包中提取$FRIES，并将其于Uniswap上以wETH的价格出售。 2. 攻击者使用只能由操作员地址调用的函数governanceRecoverUnsupported（）从抵押池中提取资金。 3. 攻击者最终将所有资金转换为DAI。 截至发稿时，存储被盗资金的钱包价值约为232.5万美元。\nFriesDAO在官方Discord频道中表示，目前官方开发人员试图与攻击者进行谈判，协商用白帽赏金来换取被盗资金的归还。此次攻击本可以被预防，因为Profanity漏洞作为Wintermute被盗超过1.6亿美元攻击事件的罪魁祸首，已经被公开一个多月了。CertiK呼吁所有使用过Profanity工具的Web3项目立即将受影响钱包中所有资产的控制权转移到安全生成的地址。",
+          "link": "https://panewslab.com/zh/articledetails/67u775m0.html",
+          "publishedOn": "2022-10-28T06:10:53.000Z",
+          "wordCount": 3560,
+          "title": "安全公司：FriesDAO因Profanity漏洞遭遇攻击，损失逾230万美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/yn5r67e5.html",
+          "author": "PA一线",
+          "description": "PANews 10月28日消息，根据Ripple发布的2022年第三季度XRP市场报告，Ripple的XRP持有量首次低于总流通量的50%，即在Ripple的各种钱包持有的XRP数量首次低于500亿枚，这驳斥了有关于该公司的XRP所有权表明XRP Ledger由Ripple控制的说法。此外，在目前XRPL上运行的130多个验证者节点中，只有4个是Ripple运行的。\n此外，报告披露Ripple第三季度XRP的总净销售额为3.1068亿美元，而上一季度为4.089亿美元。Ripple还强调其跨境支付产品ODL已在巴西推出，将支持巴西和墨西哥之间的交易。10月17日，超过80%的验证者投票支持在XRPL主网上激活XLS-20 NFT修正案，预计该修正案将于2022年第四季度生效。",
+          "link": "https://panewslab.com/zh/articledetails/yn5r67e5.html",
+          "publishedOn": "2022-10-28T06:01:54.000Z",
+          "wordCount": 3540,
+          "title": "报告：Ripple的XRP持有量首次低于总流通量的50%",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/s75ybjxh.html",
+          "author": "PA一线",
+          "description": "PANews 10月28日消息，a16z Crypto编写了代币化资金库标准（ERC-4626）的标准属性，并针对约100个ERC-4626 Vault测试了该属性，发现许多Vault未能遵循标准要求。\na16z Crypto表示，ERC-4626的创建旨在使协议整合更加容易，但调整现有Vault并不简单，每一个ERC-4626 Vault都必须准确执行标准的描述要求，这种复杂性很可能导致安全漏洞。因此 a16z编写了ERC-4626标准属性以捕捉要求中容易被忽视的细节差异，建议开发人员在部署前进行测试以检查潜在问题，Vault集成商也可以在将集成前检查给定的Vault是否符合标准。\n根据介绍，ERC-4626于3月正式推出，目前支持该标准的协议包括 Balancer、Maple Finance、Yearn Finance V3、Convex等。\n相关阅读：以太坊新标准ERC-4626：推动DeFi进入下一个创新叙事",
+          "link": "https://panewslab.com/zh/articledetails/s75ybjxh.html",
+          "publishedOn": "2022-10-28T05:30:57.000Z",
+          "wordCount": 3569,
+          "title": "a16z Crypto建议开发人员在部署ERC-4626前使用其编写的标准属性进行测试",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/vx417sdv.html",
+          "author": "PA一线",
+          "description": "PANews 10月28日消息，据官方博客，CoinList宣布为社区销售引入额外分配请求功能，允许在社区销售期间购买上限数量代币的合格注册用户提交额外购买分配请求。如果在社区销售后剩余未分配代币，则会随机分配给提交额外购买分配请求的用户。该功能必须以USDC或USDT支付。",
+          "link": "https://panewslab.com/zh/articledetails/vx417sdv.html",
+          "publishedOn": "2022-10-28T05:10:07.000Z",
+          "wordCount": 3534,
+          "title": "CoinList为社区销售引入额外购买分配请求功能",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/4bixk9s9.html",
+          "author": "PA一线",
+          "description": "PANews 10月28日消息，据Techcrunch报道，谷歌以约1亿美元的价格收购了人工智能（AI）虚拟形象初创公司Alter，该公司帮助创作者和品牌表达他们的虚拟身份。据悉，本次收购约在两个月前完成，但两家公司均未向公众披露。\nAlter（原Facemoji）是一个提供即插即用技术的平台，可帮助游戏和应用开发人员将头像系统放入他们的应用程序中。此前，Alter完成300万美元种子轮融资，Play Ventures、Roosh Ventures和推特等参投。",
+          "link": "https://panewslab.com/zh/articledetails/4bixk9s9.html",
+          "publishedOn": "2022-10-28T05:05:16.000Z",
+          "wordCount": 3544,
+          "title": "谷歌以1亿美元收购推特支持的AI头像初创公司Alter",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/c35f9vf9.html",
+          "author": "PA一线",
+          "description": "PANews 10月28日消息，DeFi数据网站DeFiLlama匿名创始人0xngmi在推特上宣布，已正式推出NFT借贷协议LlamaLend，允许借款人抵押NFT并获得固定利率的ETH即时贷款。贷方可选择任意NFT系列作为其接受的抵押品，创建资金池，并选择TVL、最长借款期限和利率。借款人可选择借款时间，并借出该NFT近7日最低地板价数额的ETH。在到期前偿还ETH即可取回NFT。若借款人逾期未偿还贷款，则贷方可获得NFT。\n根据此前介绍，LlamaLend主要用于长尾市场的NFT抵押贷款，即主要面对小型收藏品，具有无清算、现收现付、基于池利用率的固定费率等特征。",
+          "link": "https://panewslab.com/zh/articledetails/c35f9vf9.html",
+          "publishedOn": "2022-10-28T05:01:41.000Z",
+          "wordCount": 3540,
+          "title": "DefiLlama正式推出NFT借贷协议LlamaLend",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/jzbxf857.html",
+          "author": "PA一线",
+          "description": "PANews 10月28日消息，据金十报道，埃隆·马斯克计划担任推特的首席执行官，还计划取消永久的推特用户禁令。\n此外币安首席执行官赵长鹏在推特上证实，币安已正式成为推特投资者之一。赵长鹏写道：“实习生说我们两天前汇出5亿美元，可能就在我被问及关于马斯克及推特的时候。电汇通过银行而非区块链完成。”。当被问及“区块链是否可以以某种方式与推特集成”时，赵长鹏称：“他们现在至少有一个加密投资者了。”\n此前今日早些时候消息，马斯克已正式完成以约440亿美元的价格收购推特公司的交易。",
+          "link": "https://panewslab.com/zh/articledetails/jzbxf857.html",
+          "publishedOn": "2022-10-28T04:50:16.000Z",
+          "wordCount": 3548,
+          "title": "马斯克计划担任推特CEO，币安已正式成为推特投资者之一",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/k4suab46.html",
           "author": "PA一线",
           "description": "PANews 10月28日消息，据官方公告，币安创新区将于今日18:00上线Osmosis（OSMO），并开放OSMO/BTC、OSMO/BUSD和OSMO/USDT交易对。OSMO充值通道已开放，提现预计于10月28日18:00开放。",
@@ -2852,6 +2942,26 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/flash/111151",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 28 日，据彭博社报道，埃隆·马斯克计划担任推特的首席执行官，还计划取消永久的推特用户禁令。",
+          "link": "https://www.theblockbeats.info/flash/111151",
+          "publishedOn": "2022-10-28T04:43:21.000Z",
+          "wordCount": null,
+          "title": "彭博社：马斯克计划担任推特CEO，并计划取消永久的推特用户禁令",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/111148",
+          "author": null,
+          "description": "BlockBeats 消息，10 月 28 日，Binance 首席执行官 CZ 在社交媒体上发文表示：「实习生说我们两天前汇出 5 亿美元，可能就在我被问及关于 Elon/Twitter 的时候。」并补充道，电汇通过银行而非区块链完成。被问及「区块链是否可以以某种方式与 Twitter 集成」时，CZ 称：「他们现在至少有一个『加密』投资者了。」\n\nBlockBeats 此前报道，10 月 26 日，据彭博社报道，Binance 首席执行官 CZ 周二在 Future Investment Initiative 大会上表示会兑现承诺，将为马斯克以 440 亿美元收购推特的计划提供资金支持。Binance 曾在 5 月表示，它将为马斯克收购推特投入 5 亿美元资金支持，这是其将社交媒体和新闻网站带入 Web3 世界战略的一部分。周二在被问及他是否会遵守对马斯克的财务承诺时，CZ 表示：「我想是的」。",
+          "link": "https://www.theblockbeats.info/flash/111148",
+          "publishedOn": "2022-10-28T04:43:21.000Z",
+          "wordCount": null,
+          "title": "CZ：两日前已通过银行向马斯克汇出5亿美元，Binance正式成为推特投资者之一",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/flash/111137",
           "author": null,
