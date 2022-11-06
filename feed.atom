@@ -2,10 +2,103 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-11-06T00:50:29.183Z</updated>
+    <updated>2022-11-06T02:57:03.455Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenSea为新NFT系列推出链上版税强制执行工具]]></title>
+        <id>https://panewslab.com/zh/articledetails/12l7p8j5.html</id>
+        <link href="https://panewslab.com/zh/articledetails/12l7p8j5.html"/>
+        <updated>2022-11-06T02:19:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月6日消息，OpenSea在官方博客中宣布，即将为新NFT系列推出链上创作者费用强制执行工具。新工具将于北京时间11月9日凌晨1点开始投入使用，目前仅适用于新NFT系列。至少在2022年12月8日之前不会对现有系列进行任何更改。12月8日之后可能有多种选择，包括继续对某些系列强制执行版税或者提供其他链上版税执行工具。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解读以太坊上海升级即将激活的四个EIP]]></title>
+        <id>https://www.odaily.news/post/5182925</id>
+        <link href="https://www.odaily.news/post/5182925"/>
+        <updated>2022-11-06T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[以太坊巴黎升级（合并，共识转POS）之后又一重大更新即将到来——上海升级！目前有着上千专业开发者的以太坊核心社区，从15年走来已经历经15次主网升级，而这一次上海升级将为链上锁定着的230亿美金的POS质押ETH提供解锁能力，还伴随有对GAS优化的诸多EIP融入。
+随十四君来深入了解即将主网激活的那些EIP提案的作用、原理、应用方向吧
+
+1、背景
+1.1 主网升级
+以太坊在2015年提出4大阶段：前沿、宅基地、大都会、宁静。众所周知的是”宁静”阶段的标志也正是2个月前以太坊共识算法从POW算力挖矿全面转为POS权益质押挖矿，如今的他是即节能又安全且足够去中心化的首席公链
+每次主网升级其命名都是柏林、巴黎、上海这样的地名，历史上还有多次主网升级带来巨大变革
+1.2 回顾2021年8月5日-伦敦升级
+在区块高度 12,965,000，以太坊完成代号为“伦敦”的硬分叉升级，共涉及五项提案
+最有影响的是启动了 EIP-1559，他由以太坊创始人Vitalik·Buterin提出 ，从此以太坊上的每笔交易都将燃烧基本gas费用，这会自动减少ETH的流通供应量，使以太坊代币从此进入通缩时代
+举个栗子
+EIP-1559改变了价高者得的Gas fee计算逻辑，之前用户为了让矿工及时打包自己的交易，需要加价支付矿工费，出价越高，被优先打包的概率越大，在一定程度上会造成Gas fee的无限增长
+升级后，交易手续费分成了基础费和小费，小费给矿工激励竞价出块，基础费会销毁。虽然依旧有竞价出块的部分，但矿工收益大约下降20%，而经济模型也转为通缩式
+本质上，1559的设计发挥了次高价竞价模式（second price auction）的优势，最终会让同一区块内所有交易支付的价格基本一致，对用户更公平（即因为支付base价格的交易总是会打包的，区分了紧急交易需求和常规交易需求）
+2、上海升级
+为何如此…]]></summary>
+        <author>
+            <name>十四君</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSea推出链上版税强制执行工具]]></title>
+        <id>https://www.theblockbeats.info/flash/112390</id>
+        <link href="https://www.theblockbeats.info/flash/112390"/>
+        <updated>2022-11-06T01:17:04.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，11 月 6 日，OpenSea 在官方博客中宣布即将为新 NFT 系列推出可选的链上版税强制执行工具，旨在通过赋予创造者更多的权力，让他们拥有能够控制自己的商业模式的工具来捍卫创作者权益。最初的链上工具是一个简单的代码片段，创建者可以添加到未来的 NFT 合约以及现有的可升级合约中。此代码将 NFT 销售限制在强制收取版税的市场。
+
+11 月 9 日 0:00 开始 OpenSea 将为新 NFT 系列通过版税强制执行等类似工具征收创作者费用，未使用该工具的新 NFT 系列不会收取版税。在未来几个月内 OpenSea 将推出更多工具改善链上执行。
+
+OpenSea 表示，考虑到对现有 NFT 系列进行链上强制版税费用执行的困难程度，至少在 2022 年 12 月 8 日之前不会对现有系列进行任何更改。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloud区块链节点引擎将于明年支持Solana]]></title>
+        <id>https://panewslab.com/zh/articledetails/nf51ou3p.html</id>
+        <link href="https://panewslab.com/zh/articledetails/nf51ou3p.html"/>
+        <updated>2022-11-06T01:07:51.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月6日消息，据官方消息，Google Cloud正在运行一个可生成区块的Solana验证器来参与和验证网络，其区块链节点引擎将于明年支持Solana链，届时所有人都可以在Google Cloud中启动专用的Solana节点。此外，Google Cloud正在索引Solana数据并将于明年集成至BigQuery，以便于Solana开发者生态系统访问历史数据。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：过去一周Circle USDC流通量减少18亿美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/reuv0soz.html</id>
+        <link href="https://panewslab.com/zh/articledetails/reuv0soz.html"/>
+        <updated>2022-11-06T00:55:44.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月6日消息，据官方消息，10月27日至11月3日期间，Circle共发行38亿美元USDC，赎回56亿美元USDC，流通量减少约18亿美元。截至10月20日，USDC总流通量为421亿美元，储备量为423亿美元，其中现金101亿美元，短期美国国债322亿美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloud宣布与Solana达成合作，明年将为Solana引入区块链节点引擎并添加BigQuery支持]]></title>
+        <id>https://www.theblockbeats.info/flash/112384</id>
+        <link href="https://www.theblockbeats.info/flash/112384"/>
+        <updated>2022-11-06T00:45:04.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，11 月 6 日，据官方公告，Google Cloud 正在与 Solana 合作。Google Cloud 正在运行一个 Solana 验证器来参与和验证网络，并且明年将区块链节点引擎引入 Solana 链，因此任何人都可以轻松在 Google Cloud 中启动专用的 Solana 节点。此外，Google Cloud 正在索引 Solana 数据并将其加入明年的 BigQuery，以使 Solana 开发者生态系统更容易访问历史数据。
+
+截止发稿，据 FTX 行情数据显示，SOL 现报价 36.8 美元，24 小时涨幅达 6.91%。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[汇丰银行将推出区块链债券Token化平台HSBC Orion]]></title>
+        <id>https://www.theblockbeats.info/flash/112381</id>
+        <link href="https://www.theblockbeats.info/flash/112381"/>
+        <updated>2022-11-06T00:34:04.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，11 月 6 日，据 Ledger Insights 报道，汇丰银行计划推出基于分布式账本技术（DLT）的债券 Token 化平台 HSBC Orion，该解决方案能够实现数字债券和用于结算的货币的 Token 化，从而实现原子结算或货银对付（DvP）。数字债券计划不涉及加密货币，而是使用许可的区块链基础设施。
+
+汇丰银行表示，欧洲投资银行（EIB）可能会根据卢森堡法律使用该平台来发行英镑 Token 化债券。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[拜登：推特是“向全世界散布谎言的机构”]]></title>
         <id>https://panewslab.com/zh/articledetails/4aiseims.html</id>
@@ -3717,112 +3810,6 @@ Credix首席增长官Chaim Finizola表示，Clave在Credix信贷池中的债务�
         <link href="https://www.theblockbeats.info/flash/111718"/>
         <updated>2022-11-01T15:44:16.000Z</updated>
         <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，据《吉尼斯世界纪录》官方网络，CryptoPunk #5822 已被认定为迄今为止最昂贵的 NFT 收藏品，CryptoPunk #5822 的购买价格高达 8000 ETH，以 2022 年 2 月的以太坊价格最高峰值时计算约为 2370 万美元，买家是区块链技术初创公司 Chain 首席执行官 Deepak Thapliyal。BlockBeats 此前报道，吉尼斯世界纪录已将比特币和一系列区块链事件列入 2023 年《吉尼斯世界纪录大全》中「加密狂」(Cryptomania) 类别中。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[野村证券旗下子公司Laser Digital宣布投资DeFi协议Orderly Network]]></title>
-        <id>https://www.theblockbeats.info/flash/111709</id>
-        <link href="https://www.theblockbeats.info/flash/111709"/>
-        <updated>2022-11-01T14:35:14.000Z</updated>
-        <summary type="html"><![CDATA[野村证券旗下子公司Laser Digital宣布投资DeFi协议Orderly Network]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[知情人士：加密金融公司Galaxy Digital计划裁员至少20%]]></title>
-        <id>https://www.theblockbeats.info/flash/111712</id>
-        <link href="https://www.theblockbeats.info/flash/111712"/>
-        <updated>2022-11-01T14:35:14.000Z</updated>
-        <summary type="html"><![CDATA[知情人士：加密金融公司Galaxy Digital计划裁员至少20%]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[面临退市的加密上市矿企Digihost已实现正现金流]]></title>
-        <id>https://www.theblockbeats.info/flash/111694</id>
-        <link href="https://www.theblockbeats.info/flash/111694"/>
-        <updated>2022-11-01T14:07:06.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，据雅虎财经报道，纳斯达克上市加密矿企 Digihost 宣布今年 10 月开采了 74.58 BTC，叫去年同期增加了 78%。根据 10 月 31 日的加密货币价格，Digihost 现在持有价值约 245 万美元的比特币和 129 万美元的以太坊，以及 342 万美元现金，每月可以保持良好的现金和加密资产流动性水平且没有债务。
-
-本月中旬，Digihost 收到纳斯达克通知函称因其交易价格低于 1 美元将面临退市。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[慢雾：2022年黑客攻击事件已达275起，损失资金超35亿美元]]></title>
-        <id>https://www.theblockbeats.info/flash/111703</id>
-        <link href="https://www.theblockbeats.info/flash/111703"/>
-        <updated>2022-11-01T13:42:47.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，慢雾 SlowMist 在社交媒体上发文表示，2022 年加密领域因黑客攻击事件导致的资金损失已超 35 亿美元。据其数据显示，今年全年已发生共计 275 起黑客攻击事件。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美SEC主席发文祝贺比特币白皮书发布14周年]]></title>
-        <id>https://www.theblockbeats.info/flash/111691</id>
-        <link href="https://www.theblockbeats.info/flash/111691"/>
-        <updated>2022-11-01T13:12:47.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，美国证券交易委员会主席 Gary Gensler 在社交媒体上发文祝贺比特币白皮书发布 14 周年，他表示：「祝贺中本聪的白皮书发布 14 周年！它带来了创新和加密资产投资，随着加密货币进入第 15 个年头，让我们确保投资者得到适当的保护。」]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[矿企CleanSpark购买价值590万美元的比特币矿机]]></title>
-        <id>https://panewslab.com/zh/articledetails/hft10x1b.html</id>
-        <link href="https://panewslab.com/zh/articledetails/hft10x1b.html"/>
-        <updated>2022-11-01T13:04:49.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月1日消息，比特币矿企 CleanSpark 以 590 万美元的总价购买了 3,843 台 Antminer S19J Pro 矿机。最近，该公司还以折扣价从其他运营商处收购了两处设施，以及 16,000 多台机器。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[彭博社：推特已冻结其部分员工的内容审核工具权限]]></title>
-        <id>https://www.theblockbeats.info/flash/111688</id>
-        <link href="https://www.theblockbeats.info/flash/111688"/>
-        <updated>2022-11-01T13:01:47.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，据彭博社报道，推特已冻结部分员工的内容审核和其他政策执行工具权限，导致该公司负责信任与安全组织工作的大多数人都无法处理或惩罚发布误导信息、攻击性帖子和仇恨言论规则的账户，目前推特拒绝就其限制内容审查工具使用的问题发表评论。
-
-彭博社表示，虽然 Elon Musk 此前称不会改变推特的内容审核政策，但据知情人士透露，他已经对一些政策提出了疑问，但目前尚不清楚 Elon Musk 是否希望修改相关政策或完全取消限制。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[人民银行穆长春：去中心化的技术路线是「货币桥」较为适合的选择]]></title>
-        <id>https://www.theblockbeats.info/flash/111682</id>
-        <link href="https://www.theblockbeats.info/flash/111682"/>
-        <updated>2022-11-01T12:51:47.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，中国人民银行数字货币研究所所长穆长春在 2022 香港金融科技周上就「货币桥」项目热点问题进行发言和解答。穆长春表示：「我们为『货币桥』搭建了一套系统，其核心是货币桥区块链。『货币桥』项目采用了乐高积木式的架构即模块式架构。与『烟囱式架构』相比，模块化架构的优势在于它允许模块之间的互动和协同、大幅度降低合规及监管成本，提升多国（地区）间业务治理、监管和政策体系的灵活度和适应能力。」
-
-在被问及「货币桥」为何使用区块链技术时，穆长春表示，区块链技术虽然不是最适合支付系统的技术，但考虑到货币桥参与方众多，各司法辖区的跨境支付监管制度、资本流动管理制度各有不同，为了更好地解决多方信任和隐私保护等问题，去中心化的技术路线是较为适合的选择。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFT借贷平台NiftyApes完成420万美元融资，Coinbase Ventures参投]]></title>
-        <id>https://www.theblockbeats.info/flash/111679</id>
-        <link href="https://www.theblockbeats.info/flash/111679"/>
-        <updated>2022-11-01T12:51:47.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，NFT 借贷平台 NiftyApes 宣布完成 420 万美元种子轮融资，本轮融资由 Variant 和 FinTech Collective 领投。Robot Ventures、Polygon、Coinbase Ventures、The LAO、FlamingoDAO、Ryan Sean Adams、David Hoffman、Eric Conner、Anthony Sassano、Cyrus Younessi、DC Investor、James Young、James Duncan、Nadav Hollander 和 Brendan Forster 等参投。本轮融资资金将用于继续扩大其团队规模。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Visa推出世界杯主题系列NFT「Visa Masters of Movement」]]></title>
-        <id>https://www.theblockbeats.info/flash/111673</id>
-        <link href="https://www.theblockbeats.info/flash/111673"/>
-        <updated>2022-11-01T12:51:47.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，FIFA 官方支付合作伙伴 Visa 宣布联合 Crypto.com 推出世界杯主题「Visa Masters of Movement」系列 NFT。据悉，该系列 NFT 将在 Crypto.com 以拍卖形式发售，以 Jared Borgetti、Tim Cahill、Carli Lloyd、Michael Owen 和 Maxi Rodriguez 共 5 位球员在世界杯赛场上的经典瞬间作为创作灵感，拍卖所获金额将全数捐赠给英国慈善组织 Street Child United。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
         </author>
