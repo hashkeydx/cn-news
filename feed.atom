@@ -2,10 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-11-07T04:33:56.046Z</updated>
+    <updated>2022-11-07T05:19:53.502Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[全方位解读Web3域名：应用场景、赛道情况、未来挑战]]></title>
+        <id>https://www.odaily.news/post/5182946</id>
+        <link href="https://www.odaily.news/post/5182946"/>
+        <updated>2022-11-07T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Chuan Lin
+导言
+当你又一次听说某Web3域名被卖出天价的时候，当你又一次看到身边一位Web3朋友改用域名作为其用户名的时候，当你开始在注册栏中物色自己感兴趣的域名的时候，你是否有深思，这些域名究竟有么用？不同项目之间的区别和联系又是什么？域名赛道又有哪些发展的想象空间？如果你对这些问题感兴趣，请不要错过本文！
+本文的结构与核心观点如下，对Web3域名已有了解的读者可以直接跳至自己感兴趣的章节进行阅读：
+
+第一章，Web3域名介绍：用户的“Web3昵称”，链上地址的封装
+
+第二章，Web3域名的应用场景：在应用中统一账户名和身份数据，和Web2网页地址互联互通，自身作为身份管理和社交展示工具
+
+第三章，Web3域名赛道的分类梳理：单链域名（包括公链域名，多域名注册商，社交域名）、多链域名（包括三种不同的实现路径）、DNS替代域名
+
+第四章，笔者对Web3域名的一些观察思考，包括：Web3域名的用户需求强度，Web3域名交易的分析，Web3域名的竞争格局展望，Web3域名项目的潜在后缀冲突问题
+
+#第一章：什么是Web3域名？
+Web3域名，一般指那些后缀为.eth、.bnb、nft、.wallet等公链缩写或有强Web3特征的简称，且应用场景主要在区块链/Web3领域的域名。以太坊的ENS是这一赛道最知名的、最有代表性的项目。
+域名这个概念，起源于早期的互联网时代。最早的时候，大家都是通过IP地址来直接访问网页的，比如你如果现在在浏览器地址框输入“202.108.22.5”，那么你就可以打开百度的首页，因为202.108.22.5这串数字正是百度的IP地址。但显然，这串数字是不具备可读性、难以记忆的。因此，早期的互联网设计者们就构建了域名系统DNS(Domain Name System)，通过把www.baidu.com等可读性更强的域名作为“网页地址”，…]]></summary>
+        <author>
+            <name>A&amp;#38;T Capital</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[V3 LP损失约1亿美元，向Uniswap发出预警的帖子到底说了什么？]]></title>
+        <id>https://www.odaily.news/post/5182941</id>
+        <link href="https://www.odaily.news/post/5182941"/>
+        <updated>2022-11-07T04:02:58.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 Twitter，原文作者：Alex，由 Odaily 星球日报译者 Katie 辜编译。
+
+本来，我只是做了个关于 Uniswap 的 Dune 仪表盘，却在 DeFi 圈内引起了轰动。令人不安的是，它揭露了那些自认为发明了“金融永动机”的人的真面目。这是一个关于图表、Cookie 数据、傲慢、社交证明和 DeFi 未来的故事。
+上个月，我对 Uniswap V3 ETH/USDC 池子的“有毒订单流”（order flow toxicity）进行了分析。ETH/USDC 上的 Uniswap V3 LP 损失估计 1 亿美元。
+“有毒订单流”引起了人们的注意。不过要澄清一点：当你做 LP 时，你是在赌一个交易对的表现如何；这个押注与你的交易池是否有“有毒订单流”无关。
+在扣除其原始 LP 持币的费用后，结论如图一所示：
+
+图一
+概括而言，AMM 中的 LP 在费用>非永久性损失（IL：Impermanent loss）时获利，在费用<非永久性损失时亏损。图表显示，今年 LP 费用比 IL 低 1 亿美元左右。
+图一数据的进一步解读
+图一衡量 Uni V3 上 ETH/USDC 池子的每笔交易的“边界”（markout），即使用未来价格的交易的未实现账面损益额（衡量利润）。
+例如，5 分钟标记=交易发生 5 分钟后未实现的盈亏。
+这是我之前工作的 HFT 高频做市商在传统金融中常用的一种度量方法。它衡量多个时间范围内执行交易的性价比。“边界”预示着我们实现的盈亏，要想准确找到每个 LP 和交易方式会很繁琐。
+5 分钟后 LP 未实现盈亏： - 2100 万美元
+1 小时后 LP 未实现盈亏：5600 万美元
+1 天后 LP 未实现盈亏：- 9700 万美元
+7 天后 LP 未实现盈亏：- 9200 万美元
+
+@0xShitTrader 对这张图表的解释是，由于损失…]]></summary>
+        <author>
+            <name>Katie 辜</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSea首次推出工具帮助新NFT系列创作者强制执行链上版税]]></title>
+        <id>https://www.odaily.news/post/5182948</id>
+        <link href="https://www.odaily.news/post/5182948"/>
+        <updated>2022-11-07T04:02:20.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 The Block，原文作者：Lucy Harley-McKeown
+Odaily 星球日报译者 | 念银思唐
+
+摘要：
+- OpenSea 计划帮助其平台上的创作者强制执行版税支付。
+- “我们有兴趣开发一个更好的系统。”OpenSea 首席执行官 Devin Finzer 在接受采访时表示。
+NFT 市场巨头 OpenSea 上周末为其用户推出了第一套工具，允许新 NFT 系列的创作者在链上执行版税。
+该工具将于 11 月 9 日 0:00 首次启动，OpenSea 表示希望“对这个话题采取深思熟虑、有原则的方法”，此前市场参与者就强制向创作者付费的正确做法展开了旷日持久的辩论。
+它允许创作者访问的代码将 NFT 销售限制在强制向创作者付费的市场。
+“很明显，许多创作者都希望能够在链上强制收费，我们认为选择权应该是他们的，而不是市场来做决定。”该公司在推特上写道，“所以我们正在开发一些工具，希望能够通过赋予创作者更多的权力来控制他们的商业模式，从而达到平衡。”
+“我们有兴趣开发一个更好的系统。”在宣布这一举措后不久，OpenSea 首席执行官 Devin Finzer 在接受 The Block 采访时表示，“我们的想法总是后退一步，考虑所有可能的解决方案，而不是跟随行业的一部分。”
+在未来的几个月里，该公司还将产出其他类似的工具，并征求社区对开发的反馈。
+对于想要强制向创作者付费的现有 NFT 系列，OpenSea 表示至少要等到 12 月 8 日才会推出任何更改。
+该公司正在考虑一系列的方法。这可能包括继续对 NFT 系列的某些子系列强制执行链下费用，允许可选的创作者费用，或面向创作者合作推出其他链上强制选项。Finzer 说，一些现有系列的智能合约可能已经允许OpenSea进行升级，这将强制执行链上版税，而对于这一改变，其他合约将成为更大的挑战。
+这些举措出台之际，各大市场正争相将自身作为 NFT 交易的主要场所。一些市场，如 Solana 生态 NFT 市场 Magic Eden 宣布将在其平台上启用可选版税，允许 NFT 购买者选择全额版税、一半版税或无版税模式。此外，Magic Eden 还推出了基于交易特征的 NFT 定制工具，允许收藏者进一步定制他们的 NFT，同时允许创作者/艺术家启用新的收入来源。该工具于 10 月在 Raindrops 和 Metaplex 上发布。而另一些市场，如 STEPN 的 NFT 市场 MOOAR，则转向了订阅模式。
+而作为在 NFT 市场交易量中占据最大份额的 OpenSea，此前在这一问题上始终未有发声。
+“过去的几个月并没有感受到 WAGMI（We All Gonna Make It，意为“我们都会成功的”），”OpenSea 在评论这一现象时写道。]]></summary>
+        <author>
+            <name>念银思唐</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[比特币挖矿难度已下调0.20%至36.76 T]]></title>
         <id>https://panewslab.com/zh/articledetails/uka1b23i.html</id>
@@ -14,6 +93,39 @@
         <summary type="html"><![CDATA[PANews 11月7日消息，BTC.com数据显示，比特币挖矿难度于今日08:32（区块高度762048）迎来挖矿难度调整，挖矿难度下调0.20%至36.76 T。目前比特币未确认交易量为2019笔。全网算力为269.32 EH/s，24小时交易速度2.64交易/s。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[让300万人不知不觉拥有NFT，Reddit是如何做到的？]]></title>
+        <id>https://www.odaily.news/post/5182926</id>
+        <link href="https://www.odaily.news/post/5182926"/>
+        <updated>2022-11-07T03:50:15.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：NFT Tech
+原文编译：白泽研究院
+随着加密货币市场暴跌，NFT 的交易量和加密钱包活动也在全面下降。尽管如此，
+
+在过去 3 个月中，Reddit 上拥有 NFT 的人数比 OpenSea 在过去 5 年中的人数还要多。
+
+根据 Opensea 专门提供给《财富》杂志的数据显示，自 Reddit NFT 发行以来，Polygon 上的新用户增长了 75%，Reddit 在过去六个月中带来的新用户几乎是其他任何项目的三倍。此外，在 OpenSea 上进行交易的 Reddit NFT 持有者中有 20% 继续在该平台上购买了另一个 NFT。
+显然，Reddit NFT 是成功的，那么它背后的成功秘诀是什么？
+什么是 Reddit？
+Reddit 是“集新闻、内容评级和讨论于一体的社交网站”，规模非常庞大。
+你每遇到的五个人中，就有一个人拥有 Reddit 帐户。
+该平台有：
+
+4.3 亿月活跃用户。
+
+超过 15 亿注册用户。
+
+每天有 5000 万用户在线。
+
+NFT 是一段时间以来 Reddit 用户讨论的热门话题，而 Reddit 用户对数字资产的“不屑一顾”和批评质疑声也不是什么秘密。然而，尽管如此，该平台还是成功地影响了 300 万用户和大多数新注册用户，让他们创建 Polygon 钱包并持有 NFT。
+Reddit 的天才 NFT 策略
+其实，Reddit 对加密货币并不陌生。该平台自 2013 年以来就接受加密货币支付。Reddit 于 2019 年底首次推出了基于以太坊的社区积分，后来选择使用第二层扩展解决方案 Arbitrum 来扩展社区积分。他们甚至在 2021 年 6 月短暂销售了四件式 NFT 集合，名为“CryptoSnoos”，基于平台标志性的“Snoo”标志，售价为 70–175 ETH。
+
+然而，Reddit 最近的努力引起了所有…]]></summary>
+        <author>
+            <name>白泽研究院</name>
         </author>
     </entry>
     <entry>
@@ -37,6 +149,50 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Messari发布TRON第三季度调研报告：网络活跃度达到全新水平，TVL环比增长61%]]></title>
+        <id>https://www.odaily.news/post/5182943</id>
+        <link href="https://www.odaily.news/post/5182943"/>
+        <updated>2022-11-07T03:40:45.000Z</updated>
+        <summary type="html"><![CDATA[据最新消息，顶级加密数据研究机构Messari于日前发布了波场TRON第三季度调研报告。报告指出，在5月推出USDD后，波场网络的活跃度达到了全新水平，质押规模也急剧增加， TVL在第三季度环比增长61%。
+
+通过数据分析，Messari在报告中指出，在第三季度之前的十二个月里，波场TRON平均每日活跃账户数为200万，第三季度平均每日活跃账户数为260万，比长期平均值增长30%。
+
+报告还强调，如果波场网络的活跃度及USDD在这一生态中的扩张能够继续维持当前水平，TRON资源模型的通缩属性将得到强化。
+
+作为全球增速最快的公链，波场TRON自2018年5月主网上线以来取得诸多杰出成就。TRONSCAN数据显示，截至2022年11月，波场TRON公链用户总数突破1.19亿，交易笔数超41亿，总锁仓量（TVL）超121亿美元。得益于高吞吐量、可扩展性、高可靠性等优势，近年来波场链上生态愈发繁荣，在NFT、DeFi、GameFi、稳定币、元宇宙、跨链等行业主要赛道均有良好布局。近期，波场TRON已被多米尼克官方指定为其国家级区块链基础设施，波场TRON也由此成为首个与主权国家达成合作发展区块链基础设施的大型公链。
+感谢Messari的支持，波场TRON将持续为社区用户打造更强大、更友好、更多元的生态，不断引领区块链行业向前发展。
+TRON第三季度调研报告链接：https://messari.io/report/state-of-tron-q3-2022]]></summary>
+        <author>
+            <name>TRON DAO</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Magic Square成为2022波场黑客松大赛第三季合作伙伴]]></title>
+        <id>https://www.odaily.news/post/5182944</id>
+        <link href="https://www.odaily.news/post/5182944"/>
+        <updated>2022-11-07T03:40:05.000Z</updated>
+        <summary type="html"><![CDATA[据官方消息，Magic Square已成为2022波场黑客松大赛第三季合作伙伴。与此同时，Magic Square首席执行官Andrey Nayman将担任本季评委。
+
+Magic Square是世界首个简化加密的Web3解决方案，致力为所有DApp、NFT等创建一个高度安全和可访问的环境。Andrey Nayman是一名企业家、数学家，是Crypto早期采用者（2013年），曾成功领导多家技术企业。
+大赛第三季共设置六大赛道，总奖金池达120万美元。目前，项目提交正在火热进行中，参与者数量已突破800，欢迎大家踊跃参与。]]></summary>
+        <author>
+            <name>TRON DAO</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[波场TRON一周大事件回顾（10.29-11.04）]]></title>
+        <id>https://www.odaily.news/post/5182945</id>
+        <link href="https://www.odaily.news/post/5182945"/>
+        <updated>2022-11-07T03:39:33.000Z</updated>
+        <summary type="html"><![CDATA[1、据官方消息，支付网关Guardarian已支持TRX及TRC20-USDT、TRC20-TUSD、TRC20-USDC，用户现可使用信用卡、借记卡或通过银行转账进行购买。
+2、2022波场黑客松大赛第三季火热进行中，参与者数量已突破700。
+3、10月31日，波场TRON创始人、Huobi全球管理委员会委员孙宇晨受邀参加关于香港加密新政的讨论和解读直播。孙宇晨表示，波场TRON和Huobi将全力以赴拥抱支持香港加密新政。
+4、11月3日，顶级加密数据研究机构Messari发布了关于USDD的官方季度报告。报告显示，持有USDD的钱包数量在第三季度增长了5倍，USDD累计交易量超62亿。]]></summary>
+        <author>
+            <name>TRON DAO</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[派盾：过去24小时，超1亿美元Token从FTX转移至Nexo]]></title>
         <id>https://www.theblockbeats.info/flash/112489</id>
         <link href="https://www.theblockbeats.info/flash/112489"/>
@@ -44,6 +200,53 @@
         <summary type="html"><![CDATA[BlockBeats 消息，11 月 7 日，据派盾信息，过去 24 小时，已有价值超 1 亿美元的 Token 从 FTX 转移至加密借贷平台 Nexo。其中包括 56,432 枚 ETH（约合 8980 万美元），以及价值 1390 万美元的 Stablecoin。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[简析以太坊最新路线图：六大关键路线]]></title>
+        <id>https://www.odaily.news/post/5182942</id>
+        <link href="https://www.odaily.news/post/5182942"/>
+        <updated>2022-11-07T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：GaryMa 
+近日，Vitalik 发布了以太坊的最新路线图，在此前的五大关键路线的基础上，新增了以解决交易审查和 MEV 风险为中心的关键路线 The Scourge。至此，以太坊未来的发展进化将主要分为六大关键路线，分別是：The Merge、The Surge、The Scourge、The Verge、The Purge、The Splurge。值得注意的是，这六大关键路线是同时推进的。下面，我们也根据这最新的路线图表，简单描述一下各个关键路线。
+
+The Merge
+该路线的主要目标是构建去中心化、健壮简洁的 PoS 共识机制。以太坊目前已经成功切换为 PoS，接下来主要是针对网络验证者安全以及零星功能的修修补补：
+
+信标链取款功能的激活：目前已经作为 EIP-4895 的主要内容，准备于上海升级时部署，至于具体实施时间，在最新以太坊核心开发者会议上，开发者们只能模糊地估计数月内。
+
+Distributed Validators（DV）：分布式验证者技术，旨在将以太坊验证者的工作分布到一组分布式节点中的技术，与目前在一台机器上运行验证者客户单的传统技术相比，更加能够提高安全性、在线弹性等，具体可见 DV 技术规范。
+
+Single Secret Leader Election（SSLE）：单一秘密领导者选举，目前信标链采用的是 Single Leader Election，即每个 Slot 所选出的提议者会提前公开，使他们容易受到 DoS 攻击。通过将这一过程加密隐藏，只有提议者知道自己的身份，能够有效缓解潜在风险。
+
+Single Slot Finality（SSF）：单 Slot 最终性，当前以太坊区块需要 64 到 95 个 slot（约 15 分钟）才能实现最终确定性，不过 Vitalik 认为有充分的理由把最终确定性时间缩短为一个 slot，从而实现更好的用户体验，具体可见 SSF。
+
+The Surge
+该路线的主要目标是推动以 Rollup 为中心的扩容，实现每秒 10 万的 TPS，主要分为两个阶段：
+
+实现 Rollup 的初步扩容：EIP4844 向以太坊引入一种新的交易类型，这种交易类型携带短暂存在的 blob 数据，将使得 rollup 的开销降低 10-100 倍，同时结合初步的 OP Rollup 欺诈证明以及 ZK-EVMs 的辅助，实现初步扩容。
+
+实现 Rollup 的完全扩容：在前者基础优化完善的同时，重点着手数据可用性 DA 方面的优化，如数据可用性抽样的客户端、P2P 设计等。
+
+The Scourge
+该路线的主要目标是确保可靠可信中立的交易纳入区块，避免网络出现中心化以及 MEV 相关风险等，而这其中的关键里程碑是在协议层面实现区块提议者与构建者分离，即 Proposer-Builder Separation/PBS。
+在 PBS 的设计中，区块提议者负责从内存池中收入交易，并创建一个包含区块交易信息的列表 crList 传递给区块构建者们。区块构建者们以最大化 MEV 为目的对 crList 中的交易进行重新排序并构建区块，然后再向区块提议者提交他们的出价，而区块提议者就会选择出价最高者为有效的区块。
+在实现 PBS 之后，进一步的还有以太坊开发者提出的 Smoothing MEV 方案，旨在减少每个验证者之间捕获的 MEV 的差距，最终目标是使每个验证者的奖励分布尽可能接近均匀，从而保证协议共识的稳定，同时还考虑潜在的 MEV 销毁可能。
+The Verge
+该路线的主要目标是降低验证区块的门槛，包含两个关键里程碑检查点：
+
+Verkle Trees：围绕 Verkle 树设计对 Merkle 树进行优化，使得验证者无需存储所有状态也能参与由交易验证成为可能。
+
+Fully SNARKed：将 SNARK 全面引入到以太坊协议，如 EVM、Verkle 证明以及共识状态转换等，即使到了量子计算时代，也可切换到量子安全的 STARKs。
+
+The Purge
+该路线的主要目标是简化以太坊协议，消除技术债务，通过清除历史数据，限制验证者参与网络的成本，减少节点的存储需求，甚至不再需要存储全节点数据，从而提高节点效率，间接提升 TPS。这其中主要包含两大关键里程碑检查点 History Expiry 和 State Expiry，鉴于该路线偏技术向，暂且按下不表。
+The Splurge
+该路线主要是一些零碎的优化修复，如账户抽象、EVM 优化以及随机数方案 VDF 等。
+相关链接
+DV | SSF | Smoothing MEV | Verkle Trees]]></summary>
+        <author>
+            <name>吴说</name>
         </author>
     </entry>
     <entry>
