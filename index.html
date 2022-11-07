@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-07 datetime="2022-11-07T09:30:52.000Z">2022-11-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-07 datetime="2022-11-07T09:30:52.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-07 datetime="2022-11-07T10:52:21.000Z">2022-11-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-07 datetime="2022-11-07T10:52:21.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -67,6 +67,27 @@
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/112537"
+                        open
+                      >
+                        <summary class="article-expander__title">慢雾：上周pNetwork增发GALA事件根本原因系私钥明文在GitHub泄露</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/112537">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 7 日，据慢雾区情报，上周 pNetwork 增发 GALA 事件的根本原因系私钥明文在 GitHub 泄露。在 pGALA 合约使用了透明代理（Transparent Proxy）模型，其存在三个特权角色，分别是 Admin、DEFAULT_ADMIN_ROLE 与 MINTER_ROLE。Admin 角色用于管理代理合约的升级以及更改代理合约 Admin 地址，DEFAULT_ADMIN_ROLE 角色用于管理逻辑中各特权角色（如：MINTER_ROLE），MINTER_ROLE 角色管理 pGALA 代币铸造权限。
+
+在此事件中，pGALA 代理合约的 Admin 角色在合约部署时被指定为透明代理的 proxyAdmin 合约地址，DEFAULT_ADMIN_ROLE 与 MINTER_ROLE 角色在初始化时指定由 pNetwork 控制。proxyAdmin 合约还存在 owner 角色，owner 角色为 EOA 地址，且 owner 可以通过 proxyAdmin 升级 pGALA 合约。
+
+但慢雾安全团队发现 proxyAdmin 合约的 owner 地址的私钥明文在 Github 泄漏了，因此任何获得此私钥的用户都可以控制 proxyAdmin 合约随时升级 pGALA 合约。不幸的是，proxyAdmin 合约的 owner 地址已经在 70 天前（2022-08-28）被替换了，且由其管理的另一个项目 pLOTTO 疑似已被攻击。由于透明代理的架构设计，pGALA 代理合约的 Admin 角色更换也只能由 proxyAdmin 合约发起。因此在 proxyAdmin 合约的 owner 权限丢失后 pGALA 合约已处于随时可被攻击的风险中。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -396,6 +417,86 @@ Caroline 补充表示，网传版资产负债表仅列出了 Alameda 几个最�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ij73wufc.html"
+                        open
+                      >
+                        <summary class="article-expander__title">CoinShares：上周数字资产投资产品净流出1560万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ij73wufc.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月7日消息，据CoinShares周报数据，上周数字资产投资产品净流出 1560 万美元，本月净流出总额已达 1890 万美元。其中比特币的流出总额为 1320 万美元，空头比特币投资产品的流出总额为 710 万美元，以太坊的流入总额为 270 万美元。或由于 SEC 与 Ripple 案件的进展，投资者信心提高，XRP 的流入总额为 270 万美元。从区域来看，流出活动主要集中在美洲，美国、加拿大和巴西的资金流出分别为 2100 万美元、210 万美元和 180 万美元。部分被来自德国的 400 万美元和瑞士的 680 万美元的流入所抵消。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/e95j6bm9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：超7100万枚XRP转移到FTX交易所</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/e95j6bm9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月7日消息，据WhaleAlert的数据，最近几个小时有超过 7100 万 XRP（总价值约3300万美元）流入 FTX 交易所。此举是通过两笔交易完成的：第一笔是价值16,631,186美元的 35,774,039 XRP，第二笔是价值 16,557,439 美元的 35,615,409 XRP，两者都从未知钱包转移到 FTX 交易所。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/k6ad1rn9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">欧洲央行行长：欧盟委员会将提出数字欧元立法提案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/k6ad1rn9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月7日消息，欧洲央行行长克里斯蒂娜·拉加德在“迈向为公民和企业提供数字欧元的立法框架”会议上的视频声明中表示，欧盟委员会将“很快”提出关于数字欧元的立法提案。拉加德表示：“及时采用数字欧元的法律框架将为所有利益相关者提供必要的法律确定性，为可能的引入做好准备，并发出强烈的政治支持信号。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/s31joj8n.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：目前前10位持币地址占FTT总持仓的92.22%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/s31joj8n.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月7日消息，据欧科云链OKLink 多链浏览器数据显示，FTT(FTX Token) 持有地址超2万个，截至目前达21,114个持币地址。其中持仓前10的地址持仓占比达92.22%，持仓第一和持仓第二的地址均为FTX交易所地址，持仓第三的地址为Binance交易所地址，持有超2160万枚FTT，价值4.8亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1228,6 +1329,102 @@ Lookonchain表示，通过分析Alameda资产净值超过1万美元的地址发�
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5182961"
+                        open
+                      >
+                        <summary class="article-expander__title">空投埋伏日记：Gno.land、OKP4、Orderly Network（11月7日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5182961">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>熊市漫漫，热点分散。在缺乏明确投资机会的当下，本着“宁可错付 gas，不能放过大毛”的原则，我将视线与精力投向了优质项目交互，说不定还能提前发现下一价值标的，是吧。
+
+每天可以埋伏的项目众多，良莠不齐。今天 Odaily星球日报胖虎为大家精选的三个项目分别是：Cosmos 智能合约平台 Gno.land、Cosmos 数据库平台 OKP4、NEAR 高性能 DEX 服务商 Orderly Network。
+此外，随着世界杯的临近，Web3 的相关庆祝活动也多了起来。今天 OKX 就发布了他们的世界杯冠军竞猜赢 NFT 活动，Odaily星球日报也为大家争取到一个 Free mint 的名额（免质押 10 USDT），详见海报。
+
+
+Gno.land
+项目简介：Cosmos 上的智能合约平台。
+
+最新进展：开启测试网测试。
+项目链接：https://gno.land/
+交互建议：操作比较复杂，按照以往撸空投的经验，可以先领一些测试币备用，谨防进场后无币可用，然后静待进一步的教程出来。
+详细交互方法：《【教程-gnoland】弥补cosmos，可扩展的可互操作的智能合约平台— rainight-雨夜》
+
+
+OKP4
+项目简介：Cosmos 数据库平台 OKP4。
+最新进展：激励测试网即将上线。
+项目链接：https://okp4.network
+交互建议：随着 Cosmos 2.0 的推进，建议对于 Cosmos 的项目都要保持关注，可以做一做防身。
+详细交互方法：填写报名表《Nemeton Program》，等待抽奖。
+
+
+
+Orderly Network
+项目简介：高 TPS DEX 服务商。
+最新进展：主网上线。
+项目融资：2022 年 6 月，2000 万 美元 A 轮，Three Arrows Capital、Pantera Capital、Dragonfly Cap…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5182929"
+                        open
+                      >
+                        <summary class="article-expander__title">合并六周后，以太坊验证者获得奖励的情况如何？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5182929">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 chainalysis &amp; pintail，原文作者： ERIC JARDINE，由 Odaily 星球日报译者 Katie 辜编译。
+
+2022 年 9 月 15 日，以太坊正式发生合并 （在执行层的区块高度为 15537394，在共识层的 slot 为 4700013）。现在，合并已过去 6 周，我们也从 2 个方向（PoS 验证者奖励和合并相关骗局）收集到相关数据，并得出一些有趣的结论。
+PoS 验证者实际获得的奖励
+我们先看看 PoS 验证者实际获得的奖励的分布。得出以下 5 点结论：
+
+执行层的奖励低于合并前一年的奖励。这很可能是由于市场（行情），而不是合并本身的结果；
+
+在当前阶段，每个验证者的回报率是高度不确定的。这是因为奖励是“区块状的”，而且随着对验证者的执行层奖励的加入，这种情况变得更加严重。大约 50% 的验证者还没有打包任何区块，导致在此期间这些验证者的年增长率低于 4%；
+
+目前没看到大型验证者的池子有明显的优势，但是现在还没有足够的数据来确定这是事实（例如验证者池子没有参与恶意行为以最大化其回报）；
+
+验证者越来越多地将打包区块外包给第三方，在 6 周的数据分析中，验证者自己打包区块的比例下降了一半以上；
+
+第三方区块打包者的表现始终优于打包自己的区块的验证者。初始数据还显示了不同构建者之间的性能差异。
+
+合并骗局在 9 月份激增
+在合并期间，与合并相关的骗局骗走了价值 120 万美元的 ETH，并一度成为以太坊生态骗局中的主要诈骗类别。
+大多数合并骗局的手法“经典——诈骗者（往往伪装成名人）诱骗受害者发送一定数量的加密货币，以便“升级”到新的以太坊区块链，并获得更多的回报（通常是受害者初始付款的两倍）。
+
+该骗局邀请用户发送1个ETH到一个地址，并收到2个ETH作为回报。
+这个策略得手了多次，如下图所示。
+
+在以太坊合并当天，该骗局的收入大幅飙升，骗取价值超过 90.5 万美元的 ETH，而所有其他以太坊骗局只骗取了不到 7.4 万美元。然而，欺诈高峰很快回落在几天内恢复到正常水平，与合并相关的骗局几乎在 9 月底消失。
+在 9 月 15 日的十大以太坊骗局中，合并骗局占据了八个。
+
+令人惊讶的是，与合并相关的骗局在 9 月 15 日合并当天的成功率为 83%，而在合并前后的几天里成功率为 100%。这样的成功率也表明，骗子的目标是对合并缺乏了解的用户。
+
+骗子倾向于诈骗他们自己居住的国家的用户（可能是由于语言障碍）。在下面的图表中，我们可以看到九月份受到合并骗局影响最大的一些国家，第二个轴显示了与其他以太坊的骗局的联系。
+
+图中，美国和印度因合并骗局“中招者”最多。
+合并骗局似乎还专门针对一些发达国家。例如，芬兰“受骗程度”出奇地高，甚至有三个骗局专门仅针对芬兰。
+
+总结
+随着 DeFi 黑客攻击占据了最近的头条新闻，使用传统手法的欺诈仍是加密货币的最大形式的犯罪。利用用户信任的方式进行欺诈将严重影响加密货币的采用率。像合并这样的加密行业变革时期是骗子的机会窗口，用户一旦缺乏相关知识就可能被坏人利用。
+与“合并”相关的诈骗的激增清楚地表明，区块链行业需努力教育用户，让他们知道“合并”等名词意味着什么，以及应该如何避免哪些常见的诈骗。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -6929,27 +7126,6 @@ Token Flow计划在第四季度推出新的数据集和分析工具，并扩展�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/9cfxv8z1.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Skyward Finance遭遇漏洞利用，损失约300万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9cfxv8z1.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月3日消息，据Cointelegraph报道，NEAR链上资产发行平台Skyward Finance遭遇漏洞利用，已损失110枚NEAR代币（约合300万美元）。Ref Finance和Skyward团队已被告知该漏洞的存在。据报道，攻击者在Ref Finance上购买大量的Skyward代币，然后“通过Skyward Finance上的Treasury赎回”，然后获得比最初投入的Skyward代币的价值更多的收益。
-此外，Skyward Finance发推文表示，Skyward Treasury已通过合约漏洞耗尽，使Treasury和Skyward代币实际上一文不值。正在托管或参与Skyward上的代币销售的用户可安全地提取资金和收益。合约已完全锁定，即使是官方团队也无法暂停或阻止SKYWARD代币的未来问题，我们建议用户尽可能将资金提取至安全的地方，并让社区不再与Skyward互动。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7405,8 +7581,8 @@ BlockBeats 此前报道，10 月 30 日，ApeCoin DAO 社区发起 AIP 草案，
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3409791249">
-        <time id="build-timestamp" datetime="2022-11-07T11:08:37.500Z">2022-11-07T11:08:37.500Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3410270812">
+        <time id="build-timestamp" datetime="2022-11-07T12:20:06.639Z">2022-11-07T12:20:06.639Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
