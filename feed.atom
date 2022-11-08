@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-11-08T08:13:30.480Z</updated>
+    <updated>2022-11-08T09:10:09.025Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[巨头战火，殃及池鱼：SOL、BIT暴跌，MIM脱锚……]]></title>
+        <id>https://www.odaily.news/post/5182979</id>
+        <link href="https://www.odaily.news/post/5182979"/>
+        <updated>2022-11-08T08:28:18.000Z</updated>
+        <summary type="html"><![CDATA[随着币安与 FTX 间战局的深入，今日承受重压的 FTT 在跌破了 22 美元关口（即 Alameda CEO 此前表示愿意接住所有抛盘的价位）后快速走低，截至 14:35 左右暂报 16.97 USDT，24 小时跌幅达 23.07%。
+
+在这场巨无霸的博弈之中，深受战局走势影响的除了直接对弈的双方选手之外，其他一些“嫡系簇拥”以及与他们存在牵涉的项目也难免会受到波及。这其中较具代表性的项目有 SBF 大力扶植的公链 Solana（SOL）、曾与 FTX 有过代币互换协议的 BitDAO（BIT）、以及将 FTT 作为主要抵押资产之一的去中心化稳定币项目 Abracadabra Finance（MIM）。
+SOL
+作为 SBF 大力扶植的公链，主打高性能概念的 Solana 在上一轮牛市中实现了大爆发，FTX 也在这一过程中赚了个盆满钵满。不过，随着市场走熊，加之更新一代竞争对手的涌现，Solana 在过去很长一段时间内的发展势头也急转直下，币价低迷不振，大量生态项目也开始外流。
+
+在本次“币安 vs FTX”的大战爆发后，出于对 FTX、Alameda 财务状况以及最终结局的担忧，围绕着 SOL 的恐慌情绪也不断加深，即便是在接连释放利好的情况下（与 Google Cloud 合作，NFT 上线 Instagram，手机下个月交付，EVM 兼容网络即将上线……），SOL 的价格还是一路走低，截至 15:10 左右暂报 27.80 美元，24 小时下跌 15.23%。
+
+
+恐慌情绪蔓延之下，一些不切实际的流言也开始迅速传播，比如今日广为流传的 SOL 突然增发一事，但实际上此“增发”系因 Solana PoS 机制下的通胀机制使然。
+BIT
+
+BIT 与 FTT 的渊源可追溯至去年。
+
+2021 年 10 月，Alameda 曾向 BitDAO 发起 BIP-4 提案，建…]]></summary>
+        <author>
+            <name>Azuma</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[日本移动运营商NTT DoCoMo拟投入34亿至40亿美元开发Web3基础设施]]></title>
         <id>https://panewslab.com/zh/articledetails/0jpbsu76.html</id>
@@ -57,6 +81,63 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[浅谈以太坊上海升级的作用以及带来的好处]]></title>
+        <id>https://www.odaily.news/post/5182981</id>
+        <link href="https://www.odaily.news/post/5182981"/>
+        <updated>2022-11-08T07:34:36.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Xiang，W3.Hitchhiker
+
+关于以太坊上海升级，我们来简单梳理一下，分别能带来哪些好处。
+
+参考以太坊最新公开消息，和上海升级的相关EIP如下：
+
+确定包含的 EIP：EIP-3651，EIP-3855，EIP-3860，EIP-4895
+
+可能包含的 EIP：EIP-3540，EIP-3670
+
+而和 L2 扩容相关的 EIP-4488，EIP-4844 都不在本次升级范围内
+
+EIP-3651：暖 COINBASE
+说到 EIP-3651，得先介绍一下 EIP-2929 一个改动：
+当目标不在 accessed_addresses 中，收取 COLD_ACCOUNT_ACCESS_COST（冷账户访问成本）gas，并将地址添加到 accessed_addresses。否则，收取 WARM_STORAGE_READ_COST（暖存储读取成本）gas，暖读取消耗 gas 相对较低。
+如今 COINBASE 直接支付正变得越来越受欢迎，但目前访问 COINBASE 的价格较高；这是由于在 EIP -2929 引入的访问列表框架下，COINBASE 是按冷账户访问成本计算 gas 的，在 EIP-3651 后，accessed_addresses 将包括 COINBASE (0x41) 返回的地址。
+好处：
+修改后，COINBASE 在支付 ERC20 代币时会减少 gas 消耗。
+EIP - 3855：PUSH0 指令
+EIP-3855，引入一条新指令（0x5f），将常量值 0 压入堆栈，黄皮书关于 PUSH 的指令集，目前只有 PUSH1-PUSH32，作用是将 1 字节压入堆栈，到 32 字节压入堆栈
+现有指令实现将 0 值压入堆栈需要通过执行 PUSH1 0 ，在 runtime 中需要消耗 3 gas，并且额外需要消耗 200 gas（2 字节的存储成本）
+
+有了 PUSH0 指令后，就不需要消耗这额外的 200 gas了。
+好处：
+目前大约有 11% 的 PUSH 操作只是压入 0，因此这个 EIP 执行后可以节省一定量的 gas，也能稍微提高以太坊的现有的 TPS。
+EIP-3860：限制和计算初始化代码
+目前 initcode 的最大为 MAX_CODE_SIZE: 24576（EIP-170），新的 initcode 的最大为 (MAX_INITCODE_SIZE = 2 * MAX_CODE_SIZE = 49152)，这意味合约大小可以扩展一倍，合约开发者可以部署更丰富的功能。（合约代码过大会导致部署不成功，PS：L2 项目也部分已修改，支持更高的合约大小上限）
+此外为每 32 字节的 initcode chunk引入 2 个 gas 费用，以表示 jumpdest-analysis 的成本。因为在合约创建期间，客户端必须在执行之前对 initcode 执行 jumpdest 分析。执行工作与 initcode 的大小成线性关系。
+这意味着 initcode 每字节将添加成本 0.0625 gas，合约部署 gas 成本微微上涨。
+好处：
+合约部署 gas 费微微上调，但合约大小可以扩展一倍，合约开发者写更丰富的功能代码。
+EIP-4895： 信标链提款
+主要内容是确定信标链提款至 EVM 的主要流程，部署完成后，以太坊信标链质押提款功能将被激活。
+好处：
+激活以太坊信标链质押提款功能。
+EIP-3540：EVM 对象格式 (EOF) v1
+此 EIP 涉及改动较大，并非一定包含在上海升级中。
+此 EIP 中描述的格式引入了一个简单且可扩展的格式，并引入了验证。 实现了合约代码和数据的分离。
+新的 EVM 对象格式为：magic, version, (section_kind, section_size)+, 0, <section contents>
+好处：
+版本控制有利于以后实现引入或弃用新功能（例如引入账号抽象）；
+合约代码和数据的分离对于 L2 的验证(op)有益，减少 L2 验证器的 gas 成本；
+合约代码和数据的分离也更加方便链上数据分析工具的工作。
+EIP-3670：EOF —代码验证
+此 EIP 并非一定包含在上海升级中，配合 EIP-3540 合约创建时引入代码验证。拒绝未定义指令的合约。
+好处：
+合约创建时，就可引入代码验证
+原文链接]]></summary>
+        <author>
+            <name>W3.Hitchhiker</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[币安调整FTT U本位永续合约维持保证金率，最高杠杆降为20倍]]></title>
         <id>https://panewslab.com/zh/articledetails/cg2nlkag.html</id>
         <link href="https://panewslab.com/zh/articledetails/cg2nlkag.html"/>
@@ -85,6 +166,48 @@
 此前消息，0xbe38开头的巨鲸地址近日已从FTX提款总价值2.84亿美元的加密货币，包括2.38万枚ETH（约合3600万美元）和2.48亿枚稳定币。此前该地址以每笔约50万枚稳定币陆续从FTX中提现。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BitMEX将于11月11日上线平台币BMEX交易]]></title>
+        <id>https://www.theblockbeats.info/flash/112771</id>
+        <link href="https://www.theblockbeats.info/flash/112771"/>
+        <updated>2022-11-08T07:20:48.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，11 月 8 日，BitMEX 宣布将于 11 月 11 日上线平台币 BMEX 交易，持有并质押 BMEX Token 可获得交易费折扣、提现费用减免、提高质押奖励以及获得新产品和服务。此前 BitMEX 发布 BMEX Token 经济学细节，总量 4.5 亿枚，5% 用来空投和初始启动、20% 用于提供流动性和支持产品功能、20% 用于员工激励和绩效奖励、30% 用于生态系统增长、25% 用于长期储备，不向美国或受制裁国家用户提供。
+
+BlockBeats 此前报道，10 月 2 日，加密交易平台 BitMEX 首席执行官 Alexander Hoeptner 在新加坡举行的 Token2049 会议上接受采访时表示，计划在今年年底推出其交易平台 Token BMEX。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance调整FTT U本位永续合约维持保证金率，最高杠杆降为20倍]]></title>
+        <id>https://www.theblockbeats.info/flash/112768</id>
+        <link href="https://www.theblockbeats.info/flash/112768"/>
+        <updated>2022-11-08T07:20:48.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，11 月 8 日，Binance 发布公告表示，Binance 合约将于 11 月 8 日 16:30 调整 FTT U 本位合约维持保证金阶梯，调整内容包含维持保证金率，最高杠杆倍数从 25 倍降为 20 倍。请用户参考更新后的维持保证金阶梯限额进行下单；对于已开仓的订单，请用户提前调整仓位和保证金，以避免强制平仓。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[标记为Genesis Trading: OTC Desk的地址转出5300万美元FTT]]></title>
+        <id>https://www.theblockbeats.info/flash/112765</id>
+        <link href="https://www.theblockbeats.info/flash/112765"/>
+        <updated>2022-11-08T07:20:48.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，11 月 8 日，据 Etherscan 数据显示，标记为 Genesis Trading: OTC Desk 的地址向 5 个地址共转出 3,197,914 枚 FTT（约合 5300 万美元）。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Messari数据：SOL流通量过去7日增加183.7万枚，为通胀奖励机制导致]]></title>
+        <id>https://www.theblockbeats.info/flash/112747</id>
+        <link href="https://www.theblockbeats.info/flash/112747"/>
+        <updated>2022-11-08T07:20:48.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，11 月 8 日，据 Messari 数据信息，SOL 实时流通量为 361,169,767.37 枚。过去 7 日，SOL 流通量增加 183.7 万枚，为通胀奖励机制导致。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
     <entry>
@@ -4592,16 +4715,6 @@ The Block表示，该轮1000万美元融资将通过未来股权简单协议（S
         <link href="https://panewslab.com/zh/articledetails/m1vaf1qk.html"/>
         <updated>2022-11-03T22:47:50.000Z</updated>
         <summary type="html"><![CDATA[PANews 11月4日消息，据CoinDesk报道，Circle Internet Financial周四披露，该公司已开始将其USDC稳定币的储备金转移至贝莱德(BlackRock)设立的一个专门基金中。该基金名为“Circle Reserve Fund”，是由贝莱德管理的政府货币市场基金，已在美国证券交易委员会(SEC)注册。Circle将是其唯一的合格投资者，预计明年3月底Circle的USDC储备金将完全转移至该基金。根据Circle每周披露的信息，目前流通的439亿美元USDC由441亿美元现金和短期美国政府债券支持。新基金的投资组合也将包括现金和美国国债。Circle表示，新基金的资产将由纽约梅隆银行托管。新基金受《投资公司法》约束，公司需要成立独立董事会，并对投资组合进行每日报告。据此前消息，贝莱德参与了Circle今年4月进行的一轮4亿美元融资。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CloudWalk成为巴西首家获得央行授权的加密货币公司]]></title>
-        <id>https://panewslab.com/zh/articledetails/mg5yioe0.html</id>
-        <link href="https://panewslab.com/zh/articledetails/mg5yioe0.html"/>
-        <updated>2022-11-03T20:18:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月4日消息，据CoinDesk报道，巴西支付公司CloudWalk成为首家获巴西央行授权作为支付机构的加密货币公司。CloudWalk将获准向用户提供信用卡，并向企业提供支付账户。此外，该公司将成为首家直接连接巴西政府支付系统Pix的加密货币公司。Pix目前拥有1.26亿名用户。去年12月，CloudWalk推出了与巴西雷亚尔挂钩的稳定币BRCL，目前在专有的区块链上运行。今年6月，该公司完成1.5亿美元的C轮融资，投后估值为21.5亿美元。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
