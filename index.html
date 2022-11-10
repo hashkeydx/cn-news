@@ -51,1048 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-10 datetime="2022-11-10T10:23:05.000Z">2022-11-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-10 datetime="2022-11-10T10:23:05.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-10 datetime="2022-11-10T10:48:25.000Z">2022-11-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-10 datetime="2022-11-10T10:48:25.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183043"
-                        open
-                      >
-                        <summary class="article-expander__title">急速坠落的Solana上，正在发生什么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183043">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>随着 FTX 的倒下，作为“嫡系项目”的 Solana（SOL）也正在经历至暗时刻。截至发文，SOL 暂报 14.24 美元，24 小时跌幅 22.09%，一周跌幅更是高达 53.8%，更为可怕的是，还有大量 SOL 正处于质押解锁阶段，即将回归市场。
-如此形势下，Solana 链上的 DeFi 体系情况自然也不容乐观。
-
-锁仓总值：持续下跌
-DeFi Llama 数据显示，截至发文 Solana 链上锁定的资产总价值约为 4.36 亿美元，24 小时缩水幅度高达 30.39%，甚至要超过 SOL 本身的跌幅。距离巅峰期 101.7 亿美元的数据已缩水逾 95%。
-
-
-具体项目上，锁仓金额排名靠前的几大项目也都在面临不同幅度的缩水，其中单日缩水幅度最大的为质押协议 Lido，七日缩水幅度最大则为借贷协议 Solend。
-
-预言机：间歇性宕机
-
-随着 Solana 的快速下行，Pyth 等 Solana 链上的一些主要预言机服务已开始出现间歇性宕机的情况，致使交易、借贷等一些链上活动无法正常执行。
-对此，Pyth 方面的回应是此次的行情大波动确实导致了 Solana 上很多喂价没办法及时更新，因为发布者很难及时拿到数据。Pyth 的喂价风控要求是如果 10s 内一个喂价产品少于 3 个发布者发布数据，这个喂价就会被设置为离线（offline）状态。
-DEX：流动性缩水
-如前文所述，包括 DEX 在内的诸多 DeFi 项目都在面临 TVL 快速萎缩的情况，这背后既有资产下跌的影响，也与大量资金流动性的出逃有关。
-对于 DEX 而言，这意味着用户的兑换滑点将不可避免地提高，而对于整个生态而言，如果情况继续恶化，这或许会影响到其他依赖于 DEX 流动性池的其他项目，比如或将导致借贷协议无法充分清算，从而滋生坏账。    
-
-或是为了安抚社区情绪，截至发文 Raydium、Orca 等 Solana 链上的一些主要 DEX 均已表态将继续正常运营。
-
-借贷：坏账已生
-
-极端行情下，由于网络出现拥堵，部分 Solana 之上的借贷协议已有坏账滋生。
-头部借贷协议 Solend 此前已发推承认有部分头寸未得到及时清算，而社区用户发现，仅一巨鲸地址（3oSE9CtGMQeAdtkm2U3ENhEpkFMfvrckJMA8QwVsuRbE）当前在 Solend 上就有着超 600 万美元的坏账。
-
-数据显示，当前该地址在 Solend 上存有约 61.6 万枚 SOL（价值约 868.88 万美元），但却借出了 1472.6 万美元的 USDC，且该地址余额仅剩 1.52 SOL。
-为了防止风险进一步扩大，目前 Solend 已禁用了所有借款服务。
-潜在大雷：soBTC
-如果说上述情况尚且还能理解为极端行情下的老故事（以太坊等其他生态在极端行情下也发生过），soBTC（Solana 生态内主要的 BTC 封装资产）则完全是另一个层面的问题。
-根据曾参与过 wBTC 部署的社区开发者 meow 的披露，soBTC 是整个 Solana 当前所面临的最大潜在问题。之所以这么说，是因为 soBTC 的发行机制与其他一些基于公开智能合约发行的封装跨链资产不同，而是由 FTX（或者是 Alameda）独立发行的，且 FTX 方面并未公开正式的发行流程。
-
-soBTC 当前几乎应用于 Solana 生态上所有的主流 DeFi 协议，长期以来也一直被 Solana 社区视作真正的 BTC 使用。这一切在 FTX 正常运行时或许没有问题，但随着 FTX 的倒下，没有人知道 soBTC 背后理应 1:1 存在的支撑资产（BTC）还是否存在，如果答案是“否”，没人能猜到究竟会造成什么样的后果……
-价格下跌也好，缩水和清算也罢，这都是 DeFi 规则的自然结果，但支撑资产被抽空则完全是另一码事，没有人愿意看见这种离谱事件的发生。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5182990"
-                        open
-                      >
-                        <summary class="article-expander__title">DAOrayaki：熊市下DAOs的财库管理现状</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5182990">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：twinFin
-原文翻译：Shaun@DAOrayaki.org
-原文标题：The State of Treasury Management for DAOs
-财库（Treasury）管理是对项目资源进行长期管理的一种做法（a16z）。听起来对所有DAO来说都是至关重要的。那么，熊市下DAO的财库现状是怎么样的、如何应对熊市环境以及如何进一步优化。DAOrayaki 对《The State of Treasury Management for DAOs》一文进行编译和报道。
-DAO 财库分布现状
-根据DeepDAO的数据显示，截止2022年万圣节，前10名DAO的财库（86亿美元）占总财库（112亿美元）的77%。其余的由近5000个其他DAO持有。
-
-Autonolas的一份报告（2022年5月）披露了关于国库多样化和资本效率的一个值得注意的趋势：原生代币构成了大部分的持有量，但只有一小部分在使用。在这份研究报告中，65个国库超过1000万美元的DAO中（在本文发表时为61个，2022年10月），40个DAO的单一资产占国库总价值的80%以上。
-
-图为Messari, 2022年4月
-稳定币和蓝筹代币是DAO持有的最常见的资产，然而平均而言，85%的DAO财库都储存在单一资产中，主要是原生治理代币。稳定币只占23%。(以下数据和图表来自Chainalysis报告，2022年6月)
-
-尽管超过一半的 DAO 参与了质押或挖矿收益，但整个国库中只有 4.3% 正在累积收益。考虑到 DAO 管理的是产生收益的协议本身，这是一个具有讽刺意味的趋势。
-Gnosis 是一个例外，它分配了超过 80% 的资金来赚取收益。超过一半的 DAO 资产收益（53%）来自 Gnosis。 （旁注：Karpatkey 过去两年一直在管理其基金——参见他们的每周评论）流动性提供（占总价值的…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183039"
-                        open
-                      >
-                        <summary class="article-expander__title">空投埋伏日记：unstoppable domains、fusepass、bebop（11月10日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183039">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>熊市漫漫，热点分散。在缺乏明确投资机会的当下，本着“宁可错付 gas，不能放过大毛”的原则，我将视线与精力投向了优质项目交互，说不定还能提前发现下一价值标的，是吧。
-
-每天可以埋伏的项目众多，良莠不齐。今天为大家精选的三个项目分别是：Web3 域名 unstoppable domains、Web3 简历制作平台 fusepass、DEX 平台 bebop。另外今天为大家推荐一款刚发布的链上射击游戏，虽然空投预期比较低，但是在当前行情下，调节一下心情也不错，点击链接进入。
-unstoppable domains
-项目简介：Web3 域名服务商。
-最新进展：项目上线。
-项目融资：2022 年 7 月，6500 万美元 A 轮，Pantera Capital 领投，Mayfield、Gangeels、Alchemy Ventures、Redbeard Ventures、Spartan Group、OKG Investments、Polygon、CoinDCX、CoinGecko 等参投。
-项目链接：https://unstoppabledomains.com/
-交互建议：unstoppable domains 推出免费赠送域名的活动，可以参与。
-详细交互方法：进入官方活动链接；验证 Twitter 身份；领取域名。
-
-
-fusepass
-项目简介：Web3 简历制作平台。
-最新进展：平台上线。
-项目链接：https://fusepass.xyz
-交互建议：Binance Lab 孵化项目，可以关注。
-详细交互方法：点击链接进入官方Dapp，按照提示完成简历的创建。
-
-
-bebop
-项目简介：DEX 平台。
-最新进展：平台上线。
-项目链接：https://bebop.xyz/
-交互建议：熊市漫漫，建议参与体验一下。
-详细交互方法：可以参见《Bebop交互教程》，值得注意的是官方昨日取消了内测资格审核，所以教程内第一步可以跳过了。
-
-
-往期内容
-《空投埋伏日记：MetaMask、Lifeform、UFO（11月9日）》
-
-《空投埋伏日记：Clr.fund、omniBTC、Sisu Network（11月8日）》
-《空投埋伏日记：Gno.land、OKP4、Orderly Network（11月7日）》</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183041"
-                        open
-                      >
-                        <summary class="article-expander__title">SBF内部信全文：币安从未真正计划收购，正与孙宇晨沟通</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183041">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>今日，加密大 V Cobie 在发文表示，电报上的匿名用户向其提供了 SBF 在 FTX 内部 Slack 频道上发布的一封致员的内部信。
-文中，SBF 表示 FTX 理论上仍有筹集资金的可能，这将是下周的首要工作，同时，孙宇晨作为潜在的出资方，已在与其对话。此外，SBF还谈及币安可能从未计划完成这笔交易。
-Odaily星球日报整理全文如下：
-我知道我承诺本应在更早的时间给出更多信息；我们一直在着手于以下几点：
-首先，我很抱歉。归根结底，事情进展到这个地步是我个人的责任。我非常感谢你们所有人所做的一切，并将永远心怀感激。
-现在我的首要任务是承担起对客户的责任，做正确的事情，其次就是承担起对你们及投资者的责任，但客户是处于优先位置的。我无法确定面前哪一条路是正确的前进道路，但最重要的事情是，我们仍然同舟共济。
-所以，在接下来的一周里，我们将进行一次融资。这次融资的目标是：首先对客户做正确的事情，其次是对目前以及潜在的投资者，以及满足所有人的要求。在假设情况中，在一个所有事情都恰好在正确轨道上的世界中，也许我自己也将作为一个投资者，被安排在第四个，也是最后一个。但这并不是我们公司的当务之急。
-如果人们想乐观一点，也许可以说，我们在理论上有很多资金和/或潜在的筹款，超出所有需求，但最终，真实世界并不总会像预期一样。我不想对未来发生的事给予任何信心，也不想暗示任何成功的几率。但在接下来的一周，这将是我的首要任务。融资最终可能是 FTX 国际和 FTX US 的联合注资，但我不希望在这方面给出任何承诺。
-作为上述潜在融资的一部分，我们已经与孙宇晨进行了会议，详情即将公布。
-对于 FTX US 的日常运营，Ryne Miller 和 Zach Dexter 一直在负责，并且正在按照优先次序规划事宜。Gary、joven、Dan Chapsky 和我将会确保我们优先帮助那些最需要我们的人，欢迎随时联系他们！对于巴哈马的运营，请咨询 Ceri Howells；对于融资相关信息，请咨询 Constance；就 FTX 的长期愿景而言，很多人都必须参与其中，但目前的首要任务将被安排在下周。
-显然，现在我们正与外部各方进行沟通；非常感谢负责管理相关事宜的每一个人。特别是整个 VIP 和CS(Computer Science) 团队，他们在过去的一周里或多或少地承担了世界上最艰难的工作。
-关于币安，我不应该“向玻璃屋扔石头”（挑衅），所以在这里选择不再多谈，我只想说：币安可能从来没有计划要真正进行交易，但无论如何，我们要完成我们的工作。尽管如此，我还是非常感谢每一个为之付出努力的人。
-在操作方面：我们的工程团队将最大程度地实现需求。新账户注册将被停止，所以我们这周将不会进行大量 KYC 工作。总的来说，这些工作需要逐个部门进行参与。我需要花更多时间来写更详细的总结，也将提供更详细的信息，包括：(a) 详细阐释具体发生了什么、出了什么问题；(b) 管理结构和领导层今后的工作；(c) 一篇公开回应文章以及 (d) 掌握工资单等方面的情况。
-最后，我完全理解这对所有人来说都是一个艰难的时刻，我真的十分十分抱歉。对于公司该怎么做才是正确的决定，我也理解每个人都有自己的想法。
-在接下来的一周里，至少以上是我们的路线图（至少对 FTX 国际而言）。我很希望你们每个人都能在那里和我们一起战斗。但我也完全理解这很有压力，而且你们可能不同意我的观点。这两点我都完全没问题，我尊重你们所有人，但我们确实需要同舟共济。
-如果你们想退出或另寻出路，我不会阻拦。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183037"
-                        open
-                      >
-                        <summary class="article-expander__title">FTX倒下后，几家欢喜几家忧？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183037">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>11 月 10 日早间，币安官方发文宣布，根据尽职调查的结果，以及有关不当处理客户资金和所谓美国机构调查的新闻报道，决定不再寻求对 FTX.com 的潜在收购（传闻收购价格仅为 1 美元）。
-
-
-这就意味着，如果不再有外部资金的介入，FTX（以及 Alameda）的倒下几乎已是定局。作为业界曾经最大的“巨无霸”机构之一，FTX 的倒下势必会给不同方向、赛道的机构和项目们造成一定正面或负面的影响，进而带来行业格局的巨变。那么，究竟是谁获了利，谁受了损呢？
-受损一方
-总体来看，FTX 倒下后最直接的受损方大致可分为三个群体：一是直接投资了 FTX 的资方；二是与 FTX 存在资金牵涉的机构，包括在平台尚有余额的客户，以及拥有 FTX 债务的借贷平台；三则是 Solana 等与 FTX 牵涉较深的“嫡系项目”们。
-
-FTX 的投资方
-
-FTX 最近的一轮融资完成于今年 1 月，当时 FTX 曾以 320 亿美元估值完成了 4 亿美元的 C 轮融资，参投机构包括软银、Paradigm、Tiger Global 以及加拿大安大略省教师养老金计划委员会。而在此前不久（去年 10 月），FTX 还曾以 240 亿美元估值完成了 4.2 亿美元的 B-1 轮融资，Black Rock、Tiger Global、加拿大安大略省教师养老基金、新加坡投资公司淡马锡控股、红杉资本、海洋资本、国际创投 IVP、ICONIQ Growth 等 69 家机构参投。
-
-伴随着 FTX 的倒下，这些机构用真金白银换来的股份大概率也将化为泡影。今日早间，红杉资本向 LP 发布了其全球增长基金 III（GGFIII）关于 FTX 的声明，称该基金共向 FTX 与 FTX US 投资 2.135 亿美元，目前已减值至 0。
-其它机构的情况大体上也应与红杉类似。
-
-与 FTX 存在资金牵涉的机构
-
-随着 FTX 关…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183038"
-                        open
-                      >
-                        <summary class="article-expander__title">速览Alliance DAO演示日17个加密初创项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183038">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Jacquelyn Melinek
-原文编译：深潮 TechFlow
-
-周三，Alliance DAO 的“演示日”活动在 FTX 崩盘期间举行，我们仍然看到了许多新的且不错的加密初创项目。
-&quot;实际上如今的情况比 2018 年的熊市还要糟糕，&quot;Alliance DAO 的核心贡献者 Qiao Wang 说，他指的是 Binance 吸收竞争对手 FTX 的计划。&quot;今天，所有人都措手不及，包括我自己......过去三个月与我们 All9 的创始人密切合作，让我再次充满了希望。正是像他们这样的人，会逐渐推动我们的行业向前发展&quot;。
-All9 是 Alliance DAO 的一个 Web3 加速器和建设者社区，在周三的演示日期间展示了他们的一些不错的想法。
-每年两次，Alliance DAO 会邀请 Web3 的创始人参加为期三个月的项目。迄今为止，Alliance DAO 的校友已经创造了超过 100 亿美元的市值。活动大约收到了 953 份申请，但只有 17 个团队被选中并从该计划毕业。
-Wang 说，许多团队正在研究改进加密货币主题，如实物工作证明、用户钱包体验、产品驱动的协议、加密货币 B2B 产品、链上数据和垂直化。
-&quot;这次的参与项目能够充当整个行业正在发生事情的一个相当有代表性的样本。&quot;
-参与项目专注于 Web3 上的一系列子行业和产品，如身份验证、流动性质押、加密钱包和去中心化机器学习等。大约 38% 的初创项目专注于以太坊生态系统，而 Polygon 占 21%，Solana 占 17%。
-导师包括：
-
-Brevan Howard Digital 的风险投资联合主管 Colleen Sullivan；
-
-LinksDAO、The Block 的创始人和第 6 人风险投资公司的投资者 Mike Dudas；
-
-Solana 的联合创始人 Anatoly Ya…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183033"
-                        open
-                      >
-                        <summary class="article-expander__title">美监管机构正在调查FTX借贷活动及其是否不当处理客户资金</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183033">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自彭博社，原文作者：Lydia Beyoud、Yueqi Yang &amp; Olga Kharif
-Odaily 星球日报译者 | 念银思唐
-
-美国监管机构正在调查陷入困境的加密货币交易所 FTX.com 是否不当处理客户资金，并调查该公司与 Sam Bankman-Fried（SBF）的加密帝国其他部分的关系。
-据三位知情人士透露，美国证交会（SEC）和美国商品期货交易委员会（CFTC）的调查与将 FTX 推到崩溃边缘的流动性危机有关。其中两名未获授权公开谈论此事的知情人士称，SEC 的审查始于数月前，当时是对 FTX US 及其加密借贷活动的调查。
-与此同时，美国司法部也正在对 FTX 进行调查。此外，州监管机构此前一直在调查 FTX 以及 FTX US 是否在未在联邦监管机构注册的情况下向美国客户提供衍生产品交易服务。
-FTX 的动荡导致其竞争对手 Binance Holdings Ltd. 提出了尝试性的救助要约，但随着 FTX 困境的范围变得更加明显，Binance 最终决定放弃收购。
-Binance 官方今日发文表示，根据公司尽职调查的结果，以及有关不当处理客户资金和所谓美国机构调查的最新新闻报道，决定不寻求对 FTX.com 的潜在收购。文中称，一开始，Binance 希望能够支持 FTX 的客户并提供流动性，但这些问题超出了 Binance 的控制范围或帮助能力。
-此外有知情人士称，SBF 向投资者表示，FTX 面临高达 80 亿美元的资金缺口，正尝试以债务、股权或二者结合的方式筹集资金。此外，SBF 承认 FTX 存在严重的财务漏洞，称若无资金注入，FTX 将申请破产。
-两名知情人士表示，美国监管机构还在调查该平台与 FTX US 以及 SBF 旗下交易公司 Alameda Research 的关系。
-SEC 和 Binance 的代表拒绝置评。CFTC、FTX 和 FTX US 没有立即回复记者的置评请求。
-在 FTX.com 陷入困境之前，今年已经有多家加密货币公司倒闭，引发了要求美国加强监管的呼声。尽管华盛顿的各种机构都声称自己在这方面有一定的管辖权，但关于谁应该监管交易平台的问题仍在继续。
-CFTC 对加密货币的管辖权一般限于衍生品，但如果该机构认为基础市场存在欺诈或操纵行为，则可以采取执法行动。美国 SEC 声称，根据其规则，数字货币可被视为证券。这两个监管机构也监管投资机构。
-两名知情人士表示，近日，监管机构要求了解 FTX US 和 FTX.com（服务于非美国客户）的所有权结构细节。监管机构感兴趣的是管理层和董事会结构之间的任何重叠，以及两个实体之间的财务关系。其中一名知情人士表示，这些机构还询问了有关 FTX.com 客户账户是否被妥善分离，以及投资者基础构成的细节。
-美国 SEC 主席 Gary Gensler 曾多次警告与数字资产交易所相关的风险。他表示，许多平台可能违反了证券法，向美国人提供未注册的证券，不正当地提供贷款，甚至抢在客户交易之前进行交易。Gensler 还提出了公司可能从事相互冲突的业务的担忧，并建议他们可能应该拆分不同的职能。
-CFTC 高层官员对加密平台不当处理客户资产的风险表示了担忧。CFTC 委员、民主党人 Christy Goldsmith Romero 在上月的一次演讲中表示：“在这一客户保护与金融稳定风险相结合的关键领域，人们对这一领域的认识或重视不够。”但是他没有具名任何公司。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183029"
-                        open
-                      >
-                        <summary class="article-expander__title">BitMEX创始人评FTX危机：大无语事件</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183029">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Medium，原文作者：Arthur Hayes，原文标题：《Speechless》，由 Odaily 星球日报译者 Katie 辜编译。
-
-几天前，我在推特上问了一个问题：“谁会成为这个加密借贷周期中的雷曼兄弟？”许多人说是 FTX，我都一笑置之。我从不相信 FTX 会崩溃。然而，这几天我们就收到了来自各方的消息。它破产的催化剂与以往一样，一家好企业先是过度扩张，再以其不断上升的高估值为抵押，大量获取廉价信贷。随着货币变得昂贵，他们开始藏不住了。但乐观一点，我相信这次加密货币熊市的最后一根蜡烛即将熄灭，我们将走出熊市。
-事件回溯
-这一切都始于 Coindesk 的一篇文章，该文章描述了泄露的 Alameda 资产负债表的细节。
-在其 80 亿美元的负债中，有 2.92 亿美元的“被锁定的 FTT”，还有 74 亿美元的贷款。资产负债表上的其他重要资产包括 33.7 亿美元的加密货币和大量 Solana 区块链的原生代币——2.92 亿美元的“解锁的 SOL”，8.63 亿美元的“锁定的 SOL ”和 4100 万美元的“ SOL 抵押品”。SBF 是 Solana 的早期投资者。其他被提及的代币有 SRM（来自由 SBF 联合创立的去中心化交易所 Serum 的代币）、MAPS、OXY 和 FIDA。此外还有 1.34 亿美元的现金和等价物，以及 20 亿美元的股票证券投资。他们资产负债表上的大部分资产是流动性差的 FTT 代币和一堆垃圾币。
-让我们来分析一下为什么 FTT 对 FTX / Alameda 帝国如此重要。
-根据 FTT 声明的代币经济，FTX 承诺将使用所有交易费用的三分之一回购 FTT。SBF 拥有 Alameda 的大部分股权，而他不断稀释自己的 FTX 股权，目的是从风投公司获得资本。FTX 的很大一部分收入是通过 Alameda 持有的大…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183027"
-                        open
-                      >
-                        <summary class="article-expander__title">解析传统品牌加速进入Web3的深层次原因</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183027">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：metavise
-编译整理：白泽研究院
-Web3 有能力彻底改变品牌和客户相互联系的方式。许多品牌已经在尝试使用 NFT 和元宇宙来提高品牌知名度和消费者忠诚度，这是传统社交媒体和电子商务渠道根本无法做到的。
-NIKE、Panini 和 Vodafone 是最早认识到 NFT 价值的公司，而 Gucci、Balmain、Prada 和 Balenciaga 等奢侈品牌都纷纷推出了自己的 NFT。
-“如何将业务与 Web3 相结合？”这是一个我们经常被传统组织问到的问题。
-在本文中，我们将详细介绍 40 个 Web3 用例，通过示例、案例研究和工具，为传统组织的决策者和去中心化组织的社区成员提供一些额外的指导。
-人才和人力资源
-
-激励和协调全球按需人才库
-
-传统组织/企业想要支持 Web3 有两个关键因素：所有权和权力下放。
-可以与其他加密货币、法定货币进行交易的组织原生代币的出现，使组织更容易激励、支付来自全球各地的一次性、短期和长期任务的人才。
-随着组织变得比以往任何时候都更加分散，利用全球化的人才库可以帮助组织在正确的时间挖掘合适的人才，保持较低的成本基础并优化产出。
-例如，我为 Global Coin Research 贡献了五篇文章，这是一个投资于早期区块链初创公司的投资 DAO（去中心化自治组织）。
-我收到了 100 个 GCR 代币，而不是固定付款，在撰写本文时，这些代币的价格相当于约 370 美元（每篇文章约 75 美元）。 这让 GCR 比传统竞争对手更具优势，后者必须支付给人才固定工资，或者仅通过“曝光度”来激励他们。
-
-激励员工
-
-类似于上一点。代币不仅可以用来支付员工的薪水，还可以用来激励长期工作，一个人在组织中工作的时间越长，或者完成的工作量越多，可以额外解锁的代币就越多。
-除此之外，许多 Web3 代币可以被质押（Staking）—— 也…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183028"
-                        open
-                      >
-                        <summary class="article-expander__title">详解双降落伞模型：使用债务支持的稳定币作为抵押品的数学模型</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183028">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《The Double Parachute Model: a mathematical model for using debt-backed stable coins as collaterals》
-原文作者：Yaron Velner
-原文编译：ChinaDeFi
-DAI、LUSD、sUSD 和 FRAX 等债务支持的稳定币是 DeFi 中被动收益的来源（例如 Curve LP 或 Yearn Vaults）。用户可以从此类资产的高杠杆头寸中受益。如果对 USDC 等其他稳定币进行杠杆操作，则用户的清算风险被认为很小的（只要抵押稳定币保持挂钩）。
-因此，借贷市场受益于向此类用户提供高杠杆，但如果抵押品稳定币失去挂钩，则可能面临坏账的风险。这样的坏账可以通过设置适当的清算阈值 ( 又称 LTV) 来缓解，该阈值将使平台能够在抵押品被解除挂钩时正确清算抵押品。但同时，它也会限制用户可以使用的杠杆。
-在本文中，我们提出了一个数学模型来推理稳定抵押资产的清算阈值。我们提出的框架假设了已经存在一个数学模型来解释波动资产的清算阈值。因此，这个新的框架可以应用于任何现有的压力测试环境。
-本文提出了用于设置 Gearbox 杠杆协议的模型，并将重点放在以稳定币抵押品借入 USDC 的场景。
-双降落伞模型
-LUSD 稳定币相当优雅，因为它由单一抵押品（即 ETH）支持，它有一个内置机制，用户的坏账在所有借款人之间社会化。因此，我们使用 LUSD 来演示我们的框架，但在分析 DAI 和 sUSD 时，也有类似的原则。
-双降落伞模型 (DPM) 旨在模拟永久价格脱钩所导致的坏账，它忽略了由于流动性不足而发生的临时脱钩。在这样的设置中，LUSD 的价格只受其支持的 ETH 百分比的影响，因此我们可以将一个拥有 LUSD 抵押品和 USDC 债务的用户头寸视为事实上的抵押资产是 ETH …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183025"
-                        open
-                      >
-                        <summary class="article-expander__title">一文梳理哪些机构仍有资产被冻在FTX？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183025">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：Who Still Has Exposure to FTX?
-原文编译：Leo，BlockBeats
-BlockBeats 消息，11 月 10 日，Binance 官方发文表示，根据公司尽职调查的结果，以及有关不当处理客户资金和所谓美国机构调查的最新报道，决定不寻求对 FTX 的潜在收购。一开始，Binance 希望能够支持 FTX 的客户并提供流动性，但这些问题超出了 Binance 的控制范围或帮助能力。
-
-破产问题迫使 FTX 接受 Binance 非约束性收购要约无法通过时，加密行业再次陷入动荡。FTX 于周二暂停提款，但一些同行和主要交易机构中仍有资产被冻在 FTX。
-Genesis
-针对周二的市场波动，加密借贷机构 Genesis 在推特上表示，该公司对冲并出售抵押品，导致其（在包括 Alameda 在内的所有对手方）总计损失约 700 万美元。
-Genesis 重申，它对 FTX 的 token FTT 没有重大风险敞口，也与 FTX 没有借贷关系。交易平台之间存在交易关系——「是在其他交易平台之间」——但风险敞口「对我们客户服务能力没有影响」。据悉，Genesis 和 CoinDesk 隶属于同一家母公司：Digital Currency Group。
-Wintermute
-加密做市商 Wintermute 为加密交易所提供流动性，一旦最初的对偿付能力的担忧被提出，就减少了对 FTX 的风险敞口。
-Wintermute 在推特上表示，在 FTX 上还有尚未处理资产，并指出「虽然这并不理想，但金额在我们的风险承受范围内，不会对我们的整体财务状况产生重大影响。」
-Multicoin Capital
-据 The Block 报道，Multicoin Capital 管理合伙人 Kyle Samani 和 Tushar Jain 周二向该基金 LP 发出的信中表示，该基金资产管理规模 (AUM) 中约有 10% 仍在 FTX 上等待提款，在暂停提款生效之前，Multicoin 能够移动其 FTX 持有的约 24% 的资产，其中被冻结资产包括 BTC、ETH 和 USD。
-Amber Group
-Amber Group 没有对 Alameda 或 FTT token 的风险敞口，但该公司一直是 FTX 交易平台的积极参与者。
-该公司称：「虽然我们在本周大幅减少了我们的风险敞口，但仍有提款尚未处理。」该公司指出，被冻资产不到 Amber Group 总交易资本的 10%，不会「对我们的业务运营或流动性构成威胁」。
-原文链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183023"
-                        open
-                      >
-                        <summary class="article-expander__title">​万字解读Circle：守住兵家必争的稳定币，剑指新金融基础设施</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183023">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Jessie
-
-
-
-原文编辑：程天一
-原文来源：海外独角兽
-
-
-
-
-随着昨晚 cz 宣布将收购 FTX，这场加密史上最精彩的商战大戏终于暂时告一段落。然而 FTX 的倒下并不意味着币安就可以高枕无忧，储备金的不透明、监管的缺乏、行业普遍的短债长投、挤兑引发的流动性恐慌等等都在深深伤害用户的钱包和信心，因而收购消息一出，BTC/ETH 也持续大幅下跌。cz 很快发文呼吁：“所有的交易所都应该做 Merkle-tree 储备金证明，币安很快就会启动储备金证明，完全透明。”
-
-
-
-
-
-币安的“带头自律”有助于形成新的行业共识，而在此之前，对于储备金充分尤为关键的稳定币赛道来说，Circle 则采取“完全储备制度”，每月在官网披露经审计的 USDC 储备明细和托管商名单，接受所有投资者的监督。这带来了广泛的用户信任，并帮助 Circle 成为稳定币赛道的龙头。
-稳定币可以说是加密领域最大的赛道，目前市值 1485 亿美元，占整个加密市场的 16.1%。毫无疑问，没有稳定币，就不会有 DeFi Summer，更不会有繁荣的 Web3 生态。
-而 USDC 是世界上增长最快的美元数字资产之一，为互联网上的美元支付提供了一个开放标准。自 2020 年初以来，截至 2021 年 12 月 31 日（市值最高点），USDC 的流通量已经从 4 亿美元增长到超过 559 亿美元，增长了 139 倍以上。在 2020 年至今，USDC 在区块链网络上支持了超过 6.26 万亿美元的交易量。尤其在今年 Terra 的算法稳定币 UST 崩盘之后，USDC 以其安全、透明、完全储备的优势，吸引了大批投资者的资金。
-除了最受人瞩目的 USDC，Circle 的业务还包括交易与财务服务（TTS）、股权众筹平台 SeedInvest，其中 TTS 是 Circle 的最大业务，占据 Circle…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183022"
-                        open
-                      >
-                        <summary class="article-expander__title">CZ内部信全文：本次收购是“救助行动”，我们的标准要比银行更高</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183022">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>FTX事件之后，CZ在今日向全体员工发出一封内部信件。他在信中表示表示，FTX的崩溃会严重动摇加密货币行业的信心，并将引发监管机构更严格的审查。因此进行了本次“救助行动”，这并非是币安的“一场胜利”。他认为，全球范围内的牌照将更难获得，今后监管将更加严格。
-CZ此前表示，“我们并没有对此事或任何相关事宜进行总体规划。不到 24 小时前，SBF打电话给我。在此之前，我对FTX的内部情况知之甚少。我可以用我们的收入做一些心算来猜测他们的收入，但这不会非常准确。”
-Odaily星球日报对全文进行了编译，内容如下：
-币安同仁们：
-
-鉴于过去几天发生的事件，我想重申几点。
-一、我们并未对本次事件进行总体规划，也未计划与之相关的任何事情。不到 24 小时前，SBF 打电话给我。而在此之前我对 FTX 的内部情况知之甚少。我可以用我们的收入做一些心算来猜测他们的收入，但这永远不会很准确。当他告诉我时我很惊讶，我的第一反应是，他想做场外交易……但事已至此。
-二、由于交易的尽职调查正在进行中，我想提醒大家：不要交易FTT代币。你拥有什么、那么你就拥有什么。不要进行买卖。昨天我一结束与 SBF 的电话，我就要求我们的团队停止作为一个组织进行销售。是的，我们有一个零钱包。但没关系。更重要的是，我们需要让自己达到比银行更高的标准。
-三、显然，不要公开评论也不要内部评论这笔交易。如果您没有直接参与，请不要问。我们有一个很好的团队来处理它。事情将会继续进行。
-四、FTX走下坡对行业内谁都不好，不要将其视为“我们的胜利”。用户信心受到严重动摇，监管机构也加强对交易所的审查。全球范围内的许可证将更难获得。人们现在认为币安是（业内）最大的，并且会更多地攻击我们。但这没关系，我们习惯于敞开心扉，逆风而行。事实上，我们接受审查。我们必须显着提高我们的透明度、准备金证明、保险基金等。在这个领域还有很多事情要做。我们有很多艰巨的工作摆在我们面前。更不用说价格还在剧烈波动了。
-五、谈论价格。正如我这些年来讲过很多次的那样：忽略价格。让我们保持低调，专注于构建更易用的产品。（这条法则）多年来一直奏效，今天显然也不例外。
-最后，我想说我真的为你们每一个人感到骄傲，因为你们的辛勤工作和团队精神。谢谢！我们仍然面临着许多挑战，让我们继续前进，稳步、持续地帮助提高世界范围内的金钱的自由。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - 快讯</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113353"
-                        open
-                      >
-                        <summary class="article-expander__title">V神：有效利他主义最大的弱点是缺少分配资源的具体理论</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113353">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，V 神在推特上发表了对「有效利他主义」的批判，其指出有效利他主义最大的问题是缺少分配资源的具体理论，「进行疯狂的大赌注，并不断积累财富，因为你告诉自己你以后会捐出去；如果你发了一个币，没有必要自己先保留一部分，完全可以直接捐赠给慈善机构」。随后，CZ 在推特下方回复表示支持，并称「如果需要捐赠，可以使用排名前十的币种」。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113335"
-                        open
-                      >
-                        <summary class="article-expander__title">主流交易平台BTC资金费率已达-0.1%，为历史罕见情况</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113335">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 Coinglass 数据显示，多个主流交易平台 BTC 资金费率已达-0.1%，为历史罕见情况。截至发稿，其中 Binance 为-0.1164%，Bitmex 为-0.2918%，Bybit 为-0.0942%，Okex 为-0.1439%，Huobi 为-0.0802%，FTX 为 1.9160%。
-
-「资金费率」是衡量以太坊期货市场交易者相互交换的定期费用指标。当该指标值为负，意味着空头交易者正在向多头交易者支付溢价以保持其头寸，通常暗示看跌情绪在市场中占据更为主导的地位；当该指标为正，意味着目前多头压倒空头，表明大多数人情绪是看涨的。数据显示，目前该指标已是高度负值，可能导致空头挤压。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113332"
-                        open
-                      >
-                        <summary class="article-expander__title">CZ称Binance储备金证明页面仍处于开发阶段</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113332">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，Nansen 首席执行官 Alex Svanevik 指出 Binance 的储备金证明页面存在的错误，当时 ERC20 USDC 余额显示为 0。CZ 对此表示尚未推出该功能，仍在开发中，并称会将这个错误转达给团队，会很快修复。
-
-根据 Svanevik 分享的页面链接，Binance 的储备金证明页面已可查看。截至发稿，该页面涵盖 93 种资产，包括 125,351 枚 BTC、1,904,674 枚 ETH、约 57 亿枚 USDT、约 53 亿枚 BUSD 等。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113320"
-                        open
-                      >
-                        <summary class="article-expander__title">Mango攻击者已将做空USDT的头寸增加至1.73亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113320">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据《福布斯》报道，Mango 此前超 1 亿美元漏洞事件的幕后推手 Avraham Eisenberg 已将做空 USDT 的头寸增加至 1.73 亿美元，其通过在 Compound 上借入 USDT 对 USDT 进行做空。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113317"
-                        open
-                      >
-                        <summary class="article-expander__title">Helium联创：仍会将Helium迁移至Solana</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113317">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，去中心化无线通信网络 Helium 联合创始人兼 Nova Labs 首席执行官 Amir Haleem 在社交媒体上发文表示，仍将遵守 HIP-70 提案的结果，将 Helium 迁移至 Solana 网络。Amir Haleem 表示，从提出 HIP-70 至今，评估 Layer 1 区块链的标准未曾改变，市场遭受重创不在决策考虑因素中。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113305"
-                        open
-                      >
-                        <summary class="article-expander__title">Arthur Hayes：最后的下跌即将到来</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113305">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，BitMEX 创始人 Arthur Hayes 发布博文探讨 FTX 事件以及其对市场的的影响，文中回顾的了 2008 年金融危机后标普的走势，虽然标普在次年 3 月才完成了历史探底，但 Arthur 认为由于加密行业没有「直升机撒钱」式的救助，泡沫将以最快速度释放，「最后的下跌即将到来」。同时，Arthur 指出，FTX 不是第一个，但也不会是最后一个暴雷的交易平台。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113302"
-                        open
-                      >
-                        <summary class="article-expander__title">Sui开发公司Mysten Labs联创：财库资金都是现金和国债</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113302">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，对网络上 FTX 持有大量 Mysten Labs 资金的言论，Sui 开发公司 Mysten Labs 联创 Evan Cheng 在社交平台回复表示，Mysten Labs 国库所有资金都是现金和国债。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113311"
-                        open
-                      >
-                        <summary class="article-expander__title">当前370 Epoch中取消SOL质押数量占比7.67%，新增质押占比0.5%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113311">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 Solana Compass 数据显示，Solana 当前 370 Epoch 中有 29,071,560 枚 SOL 被取消质押，占总量的 7.67%；新增质押数量为 1,904,517 枚 SOL，占比 0.5%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113296"
-                        open
-                      >
-                        <summary class="article-expander__title">Justin Sun：正与FTX一起制定解决方案以支持FTX上Tron系Token</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113296">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，Justin Sun 在其社交平台表示，正与 FTX 一起制定解决方案以支持 FTX 上 Tron 系 Token（TRX、BTT、JST、SUN、HT），其团队正在积极工作以避免情况恶化，目前情况可控。
-
-BlockBeats 此前报道，11 月 9 日，Huobi 官方公告，Huobi、波场 DAO 宣布将永久 1：1 刚性承兑所有 FTX 平台内波场系 Token（TRX、BTT、JST、SUN、HT），用户需填写表单并登记 Huobi 账户，Huobi 将以此作为根据，与 FTX 平台协调对账关于 TRX、BTT、JST、SUN、HT 的提现事宜。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113299"
-                        open
-                      >
-                        <summary class="article-expander__title">Solana基金会：已重新质押2850万枚SOL</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113299">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，Solana 基金会发文表示：「11 月 2 日，由于 Hetzner 政策变化，Hetzner 移除了 Solana 的许多独立验证者。因此，作为 Solana 基金会委托计划的一部分，Solana 基金会开始取消委托给这些验证者的 2850 万枚 SOL。为了向在其他位置运行的验证者重新质押，该计划于 370 epoch 生效。虽然 2850 万枚 SOL 在此 epoch 期间正在取消质押，但现在取消质押的计划被推迟，所有 2850 万枚 SOL 现已重新质押。」</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113287"
-                        open
-                      >
-                        <summary class="article-expander__title">加密做市商GSR：将在必要时动态减少交易平台风险敞口</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113287">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，加密做市商 GSR 在其官方社交平台上表示，目前仍在正常运营，将主动管理所有交易平台的风险敞口，并在必要时动态减少风险敞口。
-
-GSR 已做好应对高波动性的准备，并将继续部署资本以维持加密货币产品的流动性。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113272"
-                        open
-                      >
-                        <summary class="article-expander__title">红杉资本：我们对FTX的投资已经归零</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113272">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，红杉资本发布最新公告通知 LP（有限合伙人），其对 FTX 的投资已经归零：
-
-「近期，流动性紧缩给 FTX 带来了偿付能力风险。目前尚不清楚这种风险的全部性质和程度。根据目前的理解，红杉资本对 FTX 的投资（金本+收益）已降至 0 美元。
-
-但红杉资本对 FTX 的敞口有限，仅在单一私募基金 Global Growth Fund III 中拥有 FTX.com 和 FTX US 的敞口。且 FTX 在该基金中的敞口规模未进前 10，我们 1.5 亿美元的成本不足该基金承诺资本的 3%。1.5 亿美元的损失被该基金约 75 亿美元的已实现和未实现收益所抵消，因此该基金保持良好状态。此外，SCGE Fund,L.P. 向 FTX.com 和 FTX US 投资了 6350 万美元，占 SCGE Fund 2022 年 9 月 30 日投资组合的不足 1%。」
-
-红杉资本补充表示，投资是冒险的事情，一些投资会有出人意料的高收益，而也有一些投资会有出人意料的亏损。红杉资本不会轻视这一责任，一直以来都对其所做的每一项投资进行广泛的研究和彻底的调查。在红杉资本投资 FTX 时，已对其进行严格的尽职调查。2021 年投资 FTX 时，FTX 创造了大约 10 亿美元的收入和超过 2.5 亿美元的营业收入，和 FTX 在 2022 年 8 月公开时的信息一致。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113269"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币价格已接近神马M30S、蚂蚁T19等主流矿机关机币价</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113269">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 F2pool 数据显示，随着比特币跌至约 16,000 美元位置，按照 0.06 美元/度电费并基于当前挖矿难度计算，包括蚂蚁 S17 全系列、犀鸟 H8 Pro、蜂鸟 H9 Pro 在内的绝大部分矿机已到达关机币价。
-
-此外，以当前比特币 16,127 价格计算，神马 M30S（关机币价 15,981.60 美元）、阿瓦隆 A1246（关机币价 15,981.6 美元）、蚂蚁 T19（关机币价 15,771.31 美元）等矿机目前已接近关机币价。最高算力矿机蚂蚁 S19 XP Hyd. 单一矿机日净收益为 6.5 美元（关机币价 8742.82 美元），其他型号单一矿机日净收益均不足 4 美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113266"
-                        open
-                      >
-                        <summary class="article-expander__title">Huobi Token（HT）跌破6美元，3日跌幅达29%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113266">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据行情数据显示，Huobi Token（HT）跌破 6 美元，现报价 5.84 美元，24 小时跌幅达 9.58%，3 日跌幅达 29%，据 10 月 26 日创下高点 9.55 美元高点后已下跌约 39%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113263"
-                        open
-                      >
-                        <summary class="article-expander__title">Aptos：FTX不持有Aptos Labs或Aptos Foundation资金，该网络将正常运行</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113263">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，Aptos 官方在社交媒体上发文表示，FTX 不持有 Aptos Labs 或 Aptos Foundation 资金，该网络将继续按预期运行，不受本次事件的影响。
-
-BlockBeats 注：公链项目 Aptos 于今年 7 月 25 日宣布完成 1.5 亿美元融资，该轮融资由 FTX Ventures 和 Jump Crypto 领投。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113257"
-                        open
-                      >
-                        <summary class="article-expander__title">加密总市值跌破8500亿美元，24小时跌幅12.4%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113257">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 Coingecko 数据显示，加密总市值已跌破 8500 亿美元，当前为 8433 亿美元，24 小时跌幅达 12.4%，同比去年 11 月 10 日跌幅达 71.45%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113251"
-                        open
-                      >
-                        <summary class="article-expander__title">美国司法部正对FTX进行调查</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113251">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 Coindesk 报道，美国司法部目前正在对 FTX 进行调查。而州监管机构此前就一直在调查 FTX 以及 FTX.US 是否存在有未在联邦监管机构注册的情况下向美国客户提供衍生产品交易服务的情况。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113245"
-                        open
-                      >
-                        <summary class="article-expander__title">如无现金注入，FTX或将被迫申请破产保护</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113245">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据彭博社报道，FTX 投资者已经告知并提醒，如果 FTX 没有获得现金注入，该加密货币交平台可能会被迫申请破产保护。此前报道，Binance 在查看 FTX 账簿后，拒绝了早些时候的收购承诺，据彭博社称，FTX 交易所或面临 80 亿美元的缺口。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113239"
-                        open
-                      >
-                        <summary class="article-expander__title">FTX面临高达80亿美元的流动性缺口</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113239">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 WSJ 报道，FTX 面临高达 80 亿美元的流动性缺口。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113233"
-                        open
-                      >
-                        <summary class="article-expander__title">Binance：根据尽职调查结果放弃收购FTX</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113233">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，Binance 官方发文表示，根据公司尽职调查的结果，以及有关不当处理客户资金和所谓美国机构调查的最新新闻报道，决定不寻求对 FTX.com 的潜在收购。
-
-一开始，Binance 希望能够支持 FTX 的客户并提供流动性，但这些问题超出了 Binance 的控制范围或帮助能力。
-
-每当一个行业的主要参与者倒闭时，散户就会蒙受损失。在过去几年里，Binance 看到加密生态系统正变得更有弹性，Binance 相信，滥用用户资金的异常行动迟早会被自由市场淘汰。
-
-随着监管框架的发展，随着行业继续向更大的去中心化发展，生态系统将变得更加强大。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113227"
-                        open
-                      >
-                        <summary class="article-expander__title">WSJ：Binance放弃收购FTX</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113227">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 WSJ 报道，Binance 以尽职调查为由放弃与 FTX 的收购交易，Binance 提到了有关 FTX 对客户资金处理不当的报道。Binance 还表示，问题超出了其能控制和帮助的能力范围。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113221"
-                        open
-                      >
-                        <summary class="article-expander__title">WSJ：FTX高管持续数日未能联系到SBF</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113221">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 WSJ 报道，FTX 员工表示，尽管多次尝试但至少有一名 FTX 高管几天以来都无法与 SBF 取得联系。
-
-该高管还表示，员工并没有得到 FTX 内部发生的事情的信息，而是从 Twitter 上了解到新的进展。这位知情人士说，缺乏沟通让员工感到愤怒和惊讶。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113218"
-                        open
-                      >
-                        <summary class="article-expander__title">Binance或将放弃收购FTX，其财务漏洞巨大，员工不足400人</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113218">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 WSJ 报道，一位知情人士表示，加密货币交易平台 Binance 可能会放弃收购濒临破产的 FTX，此前对该公司的结构和账目进行了审查。上述知情人士称，Binance 对 FTX 财务上的巨大漏洞感到震惊。Binance 收购 FTX 的前提是首先进行尽职调查。
-
-该知情人士表示，Binance 还惊讶地发现，该公司的员工不足 400 人，而它的工作密集型业务是促进加密货币的交易，这需要对客户进行反洗钱调查。Binance 的交易量远高于 FTX，拥有 7000 多名员工。
-
-上述知情人士说，FTX 总部外已经看到有源源不断的员工离开该公司，包括高级和低级员工。上述知情人士表示，这些变化降低了 FTX 的收购吸引力。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113215"
-                        open
-                      >
-                        <summary class="article-expander__title">Crypto.com已暂停Solana链上USDC和USDT存取款</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113215">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 CoinDesk 报道，Crypto.com 周三在给用户的一封电子邮件中引用了「最近的行业事件」，该平台将「暂停 Crypto.com 应用程序和交易平台中 Solana 区块链上 USDC 和 USDT 的存款和取款」，并表示「立即生效」。其他生态系统中的 Stablecoin 存款，包括以太坊和 Cronos 将不会受到影响。
-
-目前尚不清楚 Crypto.com 暂停 Solana 链上 USDC 和 USDT 存取款的原因，Crypto.com 的代表没有立即回应 CoinDesk 的置评请求。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113212"
-                        open
-                      >
-                        <summary class="article-expander__title">Solana链上剩余可清算额仅剩约150万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113212">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据 DefiLlama 数据显示，Solana 链上 24 小时可清算价值变化达 -51.5%，当前剩余可清算额仅剩约 150 万美元。
-
-其中 11.096 和 9.432 美元处分别存在 36.71 万美元和 29.44 万美元的链上清算，截至发文时，SOL 暂报 14.45 美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113200"
-                        open
-                      >
-                        <summary class="article-expander__title">Binance回应退出收购传言：对FTX尽调尚未完成，仅开始36小时</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113200">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，针对有传言表示「Binance 大概率要取消收购 FTX」。Binance 首席战略官对 Fox Business 表示，「Binance 对 FTX 的尽调仅仅刚开始 36 个小时，一旦尽调完成，Binance 会做出最优决策并分享更多信息。」</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113197"
-                        open
-                      >
-                        <summary class="article-expander__title">马斯克与Twitter广告商进行沟通，以在混乱事态后安抚高管</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113197">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据《华盛顿邮报》报道，埃隆·马斯克 (Elon Musk) 将与 Twitter 的一些大型广告商和营销合作伙伴会面，试图在 Twitter 出现混乱事态后安抚高管。在马斯克以 440 亿美元收购 Twitter 后，曾威胁要对离开 Twitter 的广告商发起「thermonuclear name &amp; shame（激烈的公开谴责）」运动。
-
-马斯克将通过 Twitter Spaces 与经过审查的广告商交谈沟通。同时匿名知情人士透露，世界上最大的广告公司之一的 WPP 也参与了此次会议。目前讨论的主题尚不清楚，但马斯克上周表示，由于广告商暂停了该平台上的活动，Twitter 正面临「收入大幅下降」。自从马斯克完成收购以来，关于 Twitter 上仇恨言论和辱骂的报道越来越多。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113194"
-                        open
-                      >
-                        <summary class="article-expander__title">Twitter或将涉足支付业务，已向FinCEN提交文件</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113194">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据《纽约时报》获得的一份 FinCEN 文件显示，Twitter 上周提交了一份文件，以涉足支付业务。
-
-BlockBeats 此前报道，马斯克在 11 月 2 日刚刚宣布将 Twitter Blue 认证服务价格确定为每月 8 美元，以缓解垃圾账号问题并奖励内容创作者。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113191"
-                        open
-                      >
-                        <summary class="article-expander__title">美国调查FTX处理客户资金和贷款问题</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113191">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 10 日，据彭博社援引知情人士报道，美国金融监管机构正在调查陷入困境的加密货币交易平台 FTX 是否妥善处理了客户资金，以及其与 SBF 旗下加密投资机构 Alameda Research 的关系。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113182"
-                        open
-                      >
-                        <summary class="article-expander__title">CoinDesk：Binance审查FTX内部数据后，强烈反对完成收购FTX</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113182">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 9 日，据 CoinDesk 援引知情人士报道，在对陷入困境的竞争对手 FTX 进行了不到一天的评估后，Binance 收购该公司的可能性变得非常小。
-
-周二在 FTX 的财务状况失控之际，Binance 宣布了这份不具约束力的收购意向书。这份意向书取决于 Binance 作出的尽职调查。知情人士说，在审查 FTX 内部数据和贷款承诺的过程进行了大约半天之后，Binance 强烈反对完成这笔交易。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113179"
-                        open
-                      >
-                        <summary class="article-expander__title">MetaMask推出跨链桥集成功能</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113179">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 9 日，加密钱包 MetaMask 现已在其 Portfolio 界面推出跨链桥功能，用户可以使用推荐的跨链桥或通过价格和速度估算比较所有可用选项来找到满足需求的跨链桥，目前集成的跨链桥包括 Connext、Hop、Celer cBridge 和 Polygon Bridge。
-
-测试版目前支持 EVM 兼容链，如 Ethereum、Avalanche、BSC 和 Polygon，并允许 ETH/WETH、普通 Stablecoin 和原生 Gas Token 的 1:1 桥接转移，允许用户在每次转账中桥接最高 10,000 美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1104,6 +67,135 @@ BlockBeats 此前报道，马斯克在 11 月 2 日刚刚宣布将 Twitter Blue 
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/5f577bha.html"
+                        open
+                      >
+                        <summary class="article-expander__title">风投公司Ansible Ventures完成800万美元募资，将重点投资Web3领域</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5f577bha.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月10日消息，据DealStreetAsia报道，总部位于越南胡志明市的早期风险投资公司 Ansible Ventures 宣布完成 800 万美元募资，计划在 pre-seed 和种子轮阶段投资大约 15 家初创公司，重点关注的核心投资领域为 Web3 应用、消费互联网和 SME/MSME。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/angxsw31.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Cardano引入支持小额支付的开发人员工具Hydra for Payments</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/angxsw31.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月10日消息，IOHK宣布在Cardano生态系统中实施支付解决方案的开源开发人员工具 Hydra for Payments，Hydra for Payments 将简化 Hydra Head 协议在各种支付用例中的使用，并将释放 Cardano 生态系统中小额支付的力量。Hydra for Payments 工具将逐步推出，以帮助开发人员管理凭证、管理整个 Hydra Head 生命周期以及通过通用便捷界面与 Heads 交互。
+此前3月份，Cardano开发团队在Cardano公共测试网上发布首个Hydra Heads。Hydra节点首个版本已发布，Hydra是一种解决方案，可为Cardano网络提供改进的数据存储周期和每个节点空间的可扩展性和效率。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/3k2wa2b4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Zhu Su推断：Alameda一直在做FTX用户的对手盘，但LUNA事件导致其巨额损失</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3k2wa2b4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月10日消息，三箭资本联合创始人Zhu Su发推表示，众所周知，Alameda多年来可能一直在做FTX用户的对手盘（internalizing FTX client liquidations）。然而，在LUNA爆雷事件中，LUNA出现了连续三天的单边抛售行情，Alameda很可能因为为FTX提供了大量的流动性而造成了巨大损失。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/05ls87mc.html"
+                        open
+                      >
+                        <summary class="article-expander__title">韩国Upbit交易所宣布限制用户提款至FTX</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/05ls87mc.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月10日消息，韩国加密交易所 Upbit 发布关于限制加密资产提款至 FTX 交易所的通知，Upbit 称由于 FTX 交易所的内部情况，目前已暂停提款至 FTX 的交易。由于虚拟资产的性质，提现请求一经完成，将无法取消。若用户使用 FTX 交易所转移加密资产可能会导致资产损失，作为投资者保护措施的一部分，Upbit 将限制用户提款到 FTX 交易所。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/9keaym1l.html"
+                        open
+                      >
+                        <summary class="article-expander__title">V神：有效利他主义的缺陷是没有有效分配“社会”资本的良好理论</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9keaym1l.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月10日消息，以太坊联合创始人Vitalik Buterin在社交媒体发表了对“有效利他主义”的批判，其指出有效利他主义最大的问题是没有有效分配“社会”资本的良好理论，“进行疯狂的大赌注，并不断积累财富，因为你告诉自己你以后会捐出去；如果你发了一个币，没有必要自己先保留一部分，完全可以直接捐赠给慈善机构”。随后，CZ在推特下方回复表示支持，并称“如果需要捐赠，可以使用排名前十的币种”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/1xc8n0d3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Brahma TopGear (brahTOPG) 项目存在外部调用风险，请迅速取消授权</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/1xc8n0d3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月10日消息，据慢雾安全团队监测，ETH 链上的 brahTOPG 项目遭到攻击，攻击者获利约 89,879 美元。慢雾安全团队以简讯形式分享如下：
+1. 攻击者首先查询了受害用户 0x392472 的余额，接着调用了 Zapper 合约的 zapIn 函数。
+2. 首先函数会为合约转账 requiredToken 参数所指定的代币，由于该函数传入的参数是外部可控的，所以攻击者恶意构造了该参数使得 requiredToken 为假代币（即攻击合约本身）并将假代币转给 Zapper 合约。
+3. 接着会调用内部函数 zap，在该函数中首先会检查合约中假代币的余额是否大于或等于传入的值，由于第二步的操作所以通过了该检查。
+4. 之后会外部调用假代币合约的 approve 函数，该函数为攻击者恶意构造，是为了给 Zapper 合约转账 frax 代币，此操作是为了通过后续合约中对 frax 代币余额的检查并且能成功给金库存款。
+5. 最后外部调用了 swapTarget 参数所指定的合约（该参数为外部可操控），并且调用所传入参数也是外部可构造的，所以攻击者利用此处任意外部调用漏洞转走了其他有授权的用户的 USDC 代币。
+6. 攻击者重复以上步骤，总共攻击了三次，转移了三个受害者账户下的 USDC 代币约 889,343 枚。
+此次攻击的主要原因在于 Zapper 合约为对用户传入的数据进行严格检查，导致了任意外部调用的问题，攻击者利用此任意外部调用问题窃取了对合约仍有授权的用户的代币。
+慢雾安全团队提醒使用过该合约的用户请迅速取消对该合约的授权以规避资产被盗的风险。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -2520,6 +1612,1062 @@ OpenSea称其在得到社区的反馈后做出了这一决定。此前，OpenSea
                               <span>PANews 11月9日消息，Cathie Wood 的 Ark Invest 周二购买了价值超过 2100 万美元的 Coinbase 股票，抛售了近 1000 万美元 Robinhood 股票。其中，Ark Innovation ETF 增加了 330,461 股 Coinbase 股票，Ark Next Generation Internet ETF 增加了 54,466 股，Ark Fintech Innovation ETF 增加了 36,022 股。资产管理公司购买了 420,949 股，总价值 2130 万美元。与此同时，Wood 的基金出售了 Robinhood 的股票，从 Ark Innovation ETF 中减持 803,788 股，从 Ark Next Generation Internet ETF 中减持 130,400 股，从 Ark Fintech Innovation ETF 中减持 86,550 股。共出售了超过 100 万股股票，价值 990 万美元。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - 快讯</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113362"
+                        open
+                      >
+                        <summary class="article-expander__title">Zhu Su：Alameda或一直在做FTX用户的对手盘，但LUNA事件导致其巨额损失</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113362">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，三箭资本联合创始人 Zhu Su 在其社交平台表示，Alameda 多年来可能一直在做 FTX 用户的对手盘（internalizing FTX client liquidations）。
+
+然而在 LUNA 爆雷事件中，LUNA 出现了连续三天的单边抛售行情，Alameda 很可能因为为 FTX 提供了大量的流动性而造成了巨大损失。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113353"
+                        open
+                      >
+                        <summary class="article-expander__title">V神：有效利他主义最大的弱点是缺少分配资源的具体理论</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113353">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，V 神在推特上发表了对「有效利他主义」的批判，其指出有效利他主义最大的问题是缺少分配资源的具体理论，「进行疯狂的大赌注，并不断积累财富，因为你告诉自己你以后会捐出去；如果你发了一个币，没有必要自己先保留一部分，完全可以直接捐赠给慈善机构」。随后，CZ 在推特下方回复表示支持，并称「如果需要捐赠，可以使用排名前十的币种」。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113335"
+                        open
+                      >
+                        <summary class="article-expander__title">主流交易平台BTC资金费率已达-0.1%，为历史罕见情况</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113335">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 Coinglass 数据显示，多个主流交易平台 BTC 资金费率已达-0.1%，为历史罕见情况。截至发稿，其中 Binance 为-0.1164%，Bitmex 为-0.2918%，Bybit 为-0.0942%，Okex 为-0.1439%，Huobi 为-0.0802%，FTX 为 1.9160%。
+
+「资金费率」是衡量以太坊期货市场交易者相互交换的定期费用指标。当该指标值为负，意味着空头交易者正在向多头交易者支付溢价以保持其头寸，通常暗示看跌情绪在市场中占据更为主导的地位；当该指标为正，意味着目前多头压倒空头，表明大多数人情绪是看涨的。数据显示，目前该指标已是高度负值，可能导致空头挤压。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113332"
+                        open
+                      >
+                        <summary class="article-expander__title">CZ称Binance储备金证明页面仍处于开发阶段</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113332">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，Nansen 首席执行官 Alex Svanevik 指出 Binance 的储备金证明页面存在的错误，当时 ERC20 USDC 余额显示为 0。CZ 对此表示尚未推出该功能，仍在开发中，并称会将这个错误转达给团队，会很快修复。
+
+根据 Svanevik 分享的页面链接，Binance 的储备金证明页面已可查看。截至发稿，该页面涵盖 93 种资产，包括 125,351 枚 BTC、1,904,674 枚 ETH、约 57 亿枚 USDT、约 53 亿枚 BUSD 等。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113320"
+                        open
+                      >
+                        <summary class="article-expander__title">Mango攻击者已将做空USDT的头寸增加至1.73亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113320">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据《福布斯》报道，Mango 此前超 1 亿美元漏洞事件的幕后推手 Avraham Eisenberg 已将做空 USDT 的头寸增加至 1.73 亿美元，其通过在 Compound 上借入 USDT 对 USDT 进行做空。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113317"
+                        open
+                      >
+                        <summary class="article-expander__title">Helium联创：仍会将Helium迁移至Solana</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113317">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，去中心化无线通信网络 Helium 联合创始人兼 Nova Labs 首席执行官 Amir Haleem 在社交媒体上发文表示，仍将遵守 HIP-70 提案的结果，将 Helium 迁移至 Solana 网络。Amir Haleem 表示，从提出 HIP-70 至今，评估 Layer 1 区块链的标准未曾改变，市场遭受重创不在决策考虑因素中。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113305"
+                        open
+                      >
+                        <summary class="article-expander__title">Arthur Hayes：最后的下跌即将到来</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113305">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，BitMEX 创始人 Arthur Hayes 发布博文探讨 FTX 事件以及其对市场的的影响，文中回顾的了 2008 年金融危机后标普的走势，虽然标普在次年 3 月才完成了历史探底，但 Arthur 认为由于加密行业没有「直升机撒钱」式的救助，泡沫将以最快速度释放，「最后的下跌即将到来」。同时，Arthur 指出，FTX 不是第一个，但也不会是最后一个暴雷的交易平台。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113302"
+                        open
+                      >
+                        <summary class="article-expander__title">Sui开发公司Mysten Labs联创：财库资金都是现金和国债</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113302">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，对网络上 FTX 持有大量 Mysten Labs 资金的言论，Sui 开发公司 Mysten Labs 联创 Evan Cheng 在社交平台回复表示，Mysten Labs 国库所有资金都是现金和国债。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113311"
+                        open
+                      >
+                        <summary class="article-expander__title">当前370 Epoch中取消SOL质押数量占比7.67%，新增质押占比0.5%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113311">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 Solana Compass 数据显示，Solana 当前 370 Epoch 中有 29,071,560 枚 SOL 被取消质押，占总量的 7.67%；新增质押数量为 1,904,517 枚 SOL，占比 0.5%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113296"
+                        open
+                      >
+                        <summary class="article-expander__title">Justin Sun：正与FTX一起制定解决方案以支持FTX上Tron系Token</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113296">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，Justin Sun 在其社交平台表示，正与 FTX 一起制定解决方案以支持 FTX 上 Tron 系 Token（TRX、BTT、JST、SUN、HT），其团队正在积极工作以避免情况恶化，目前情况可控。
+
+BlockBeats 此前报道，11 月 9 日，Huobi 官方公告，Huobi、波场 DAO 宣布将永久 1：1 刚性承兑所有 FTX 平台内波场系 Token（TRX、BTT、JST、SUN、HT），用户需填写表单并登记 Huobi 账户，Huobi 将以此作为根据，与 FTX 平台协调对账关于 TRX、BTT、JST、SUN、HT 的提现事宜。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113299"
+                        open
+                      >
+                        <summary class="article-expander__title">Solana基金会：已重新质押2850万枚SOL</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113299">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，Solana 基金会发文表示：「11 月 2 日，由于 Hetzner 政策变化，Hetzner 移除了 Solana 的许多独立验证者。因此，作为 Solana 基金会委托计划的一部分，Solana 基金会开始取消委托给这些验证者的 2850 万枚 SOL。为了向在其他位置运行的验证者重新质押，该计划于 370 epoch 生效。虽然 2850 万枚 SOL 在此 epoch 期间正在取消质押，但现在取消质押的计划被推迟，所有 2850 万枚 SOL 现已重新质押。」</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113287"
+                        open
+                      >
+                        <summary class="article-expander__title">加密做市商GSR：将在必要时动态减少交易平台风险敞口</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113287">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，加密做市商 GSR 在其官方社交平台上表示，目前仍在正常运营，将主动管理所有交易平台的风险敞口，并在必要时动态减少风险敞口。
+
+GSR 已做好应对高波动性的准备，并将继续部署资本以维持加密货币产品的流动性。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113272"
+                        open
+                      >
+                        <summary class="article-expander__title">红杉资本：我们对FTX的投资已经归零</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113272">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，红杉资本发布最新公告通知 LP（有限合伙人），其对 FTX 的投资已经归零：
+
+「近期，流动性紧缩给 FTX 带来了偿付能力风险。目前尚不清楚这种风险的全部性质和程度。根据目前的理解，红杉资本对 FTX 的投资（金本+收益）已降至 0 美元。
+
+但红杉资本对 FTX 的敞口有限，仅在单一私募基金 Global Growth Fund III 中拥有 FTX.com 和 FTX US 的敞口。且 FTX 在该基金中的敞口规模未进前 10，我们 1.5 亿美元的成本不足该基金承诺资本的 3%。1.5 亿美元的损失被该基金约 75 亿美元的已实现和未实现收益所抵消，因此该基金保持良好状态。此外，SCGE Fund,L.P. 向 FTX.com 和 FTX US 投资了 6350 万美元，占 SCGE Fund 2022 年 9 月 30 日投资组合的不足 1%。」
+
+红杉资本补充表示，投资是冒险的事情，一些投资会有出人意料的高收益，而也有一些投资会有出人意料的亏损。红杉资本不会轻视这一责任，一直以来都对其所做的每一项投资进行广泛的研究和彻底的调查。在红杉资本投资 FTX 时，已对其进行严格的尽职调查。2021 年投资 FTX 时，FTX 创造了大约 10 亿美元的收入和超过 2.5 亿美元的营业收入，和 FTX 在 2022 年 8 月公开时的信息一致。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113269"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币价格已接近神马M30S、蚂蚁T19等主流矿机关机币价</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113269">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 F2pool 数据显示，随着比特币跌至约 16,000 美元位置，按照 0.06 美元/度电费并基于当前挖矿难度计算，包括蚂蚁 S17 全系列、犀鸟 H8 Pro、蜂鸟 H9 Pro 在内的绝大部分矿机已到达关机币价。
+
+此外，以当前比特币 16,127 价格计算，神马 M30S（关机币价 15,981.60 美元）、阿瓦隆 A1246（关机币价 15,981.6 美元）、蚂蚁 T19（关机币价 15,771.31 美元）等矿机目前已接近关机币价。最高算力矿机蚂蚁 S19 XP Hyd. 单一矿机日净收益为 6.5 美元（关机币价 8742.82 美元），其他型号单一矿机日净收益均不足 4 美元。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113266"
+                        open
+                      >
+                        <summary class="article-expander__title">Huobi Token（HT）跌破6美元，3日跌幅达29%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113266">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据行情数据显示，Huobi Token（HT）跌破 6 美元，现报价 5.84 美元，24 小时跌幅达 9.58%，3 日跌幅达 29%，据 10 月 26 日创下高点 9.55 美元高点后已下跌约 39%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113263"
+                        open
+                      >
+                        <summary class="article-expander__title">Aptos：FTX不持有Aptos Labs或Aptos Foundation资金，该网络将正常运行</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113263">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，Aptos 官方在社交媒体上发文表示，FTX 不持有 Aptos Labs 或 Aptos Foundation 资金，该网络将继续按预期运行，不受本次事件的影响。
+
+BlockBeats 注：公链项目 Aptos 于今年 7 月 25 日宣布完成 1.5 亿美元融资，该轮融资由 FTX Ventures 和 Jump Crypto 领投。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113257"
+                        open
+                      >
+                        <summary class="article-expander__title">加密总市值跌破8500亿美元，24小时跌幅12.4%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113257">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 Coingecko 数据显示，加密总市值已跌破 8500 亿美元，当前为 8433 亿美元，24 小时跌幅达 12.4%，同比去年 11 月 10 日跌幅达 71.45%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113251"
+                        open
+                      >
+                        <summary class="article-expander__title">美国司法部正对FTX进行调查</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113251">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 Coindesk 报道，美国司法部目前正在对 FTX 进行调查。而州监管机构此前就一直在调查 FTX 以及 FTX.US 是否存在有未在联邦监管机构注册的情况下向美国客户提供衍生产品交易服务的情况。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113245"
+                        open
+                      >
+                        <summary class="article-expander__title">如无现金注入，FTX或将被迫申请破产保护</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113245">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据彭博社报道，FTX 投资者已经告知并提醒，如果 FTX 没有获得现金注入，该加密货币交平台可能会被迫申请破产保护。此前报道，Binance 在查看 FTX 账簿后，拒绝了早些时候的收购承诺，据彭博社称，FTX 交易所或面临 80 亿美元的缺口。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113239"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX面临高达80亿美元的流动性缺口</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113239">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 WSJ 报道，FTX 面临高达 80 亿美元的流动性缺口。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113233"
+                        open
+                      >
+                        <summary class="article-expander__title">Binance：根据尽职调查结果放弃收购FTX</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113233">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，Binance 官方发文表示，根据公司尽职调查的结果，以及有关不当处理客户资金和所谓美国机构调查的最新新闻报道，决定不寻求对 FTX.com 的潜在收购。
+
+一开始，Binance 希望能够支持 FTX 的客户并提供流动性，但这些问题超出了 Binance 的控制范围或帮助能力。
+
+每当一个行业的主要参与者倒闭时，散户就会蒙受损失。在过去几年里，Binance 看到加密生态系统正变得更有弹性，Binance 相信，滥用用户资金的异常行动迟早会被自由市场淘汰。
+
+随着监管框架的发展，随着行业继续向更大的去中心化发展，生态系统将变得更加强大。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113227"
+                        open
+                      >
+                        <summary class="article-expander__title">WSJ：Binance放弃收购FTX</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113227">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 WSJ 报道，Binance 以尽职调查为由放弃与 FTX 的收购交易，Binance 提到了有关 FTX 对客户资金处理不当的报道。Binance 还表示，问题超出了其能控制和帮助的能力范围。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113221"
+                        open
+                      >
+                        <summary class="article-expander__title">WSJ：FTX高管持续数日未能联系到SBF</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113221">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 WSJ 报道，FTX 员工表示，尽管多次尝试但至少有一名 FTX 高管几天以来都无法与 SBF 取得联系。
+
+该高管还表示，员工并没有得到 FTX 内部发生的事情的信息，而是从 Twitter 上了解到新的进展。这位知情人士说，缺乏沟通让员工感到愤怒和惊讶。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113218"
+                        open
+                      >
+                        <summary class="article-expander__title">Binance或将放弃收购FTX，其财务漏洞巨大，员工不足400人</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113218">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 WSJ 报道，一位知情人士表示，加密货币交易平台 Binance 可能会放弃收购濒临破产的 FTX，此前对该公司的结构和账目进行了审查。上述知情人士称，Binance 对 FTX 财务上的巨大漏洞感到震惊。Binance 收购 FTX 的前提是首先进行尽职调查。
+
+该知情人士表示，Binance 还惊讶地发现，该公司的员工不足 400 人，而它的工作密集型业务是促进加密货币的交易，这需要对客户进行反洗钱调查。Binance 的交易量远高于 FTX，拥有 7000 多名员工。
+
+上述知情人士说，FTX 总部外已经看到有源源不断的员工离开该公司，包括高级和低级员工。上述知情人士表示，这些变化降低了 FTX 的收购吸引力。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113215"
+                        open
+                      >
+                        <summary class="article-expander__title">Crypto.com已暂停Solana链上USDC和USDT存取款</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113215">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 CoinDesk 报道，Crypto.com 周三在给用户的一封电子邮件中引用了「最近的行业事件」，该平台将「暂停 Crypto.com 应用程序和交易平台中 Solana 区块链上 USDC 和 USDT 的存款和取款」，并表示「立即生效」。其他生态系统中的 Stablecoin 存款，包括以太坊和 Cronos 将不会受到影响。
+
+目前尚不清楚 Crypto.com 暂停 Solana 链上 USDC 和 USDT 存取款的原因，Crypto.com 的代表没有立即回应 CoinDesk 的置评请求。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113212"
+                        open
+                      >
+                        <summary class="article-expander__title">Solana链上剩余可清算额仅剩约150万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113212">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据 DefiLlama 数据显示，Solana 链上 24 小时可清算价值变化达 -51.5%，当前剩余可清算额仅剩约 150 万美元。
+
+其中 11.096 和 9.432 美元处分别存在 36.71 万美元和 29.44 万美元的链上清算，截至发文时，SOL 暂报 14.45 美元。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113200"
+                        open
+                      >
+                        <summary class="article-expander__title">Binance回应退出收购传言：对FTX尽调尚未完成，仅开始36小时</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113200">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，针对有传言表示「Binance 大概率要取消收购 FTX」。Binance 首席战略官对 Fox Business 表示，「Binance 对 FTX 的尽调仅仅刚开始 36 个小时，一旦尽调完成，Binance 会做出最优决策并分享更多信息。」</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113197"
+                        open
+                      >
+                        <summary class="article-expander__title">马斯克与Twitter广告商进行沟通，以在混乱事态后安抚高管</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113197">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据《华盛顿邮报》报道，埃隆·马斯克 (Elon Musk) 将与 Twitter 的一些大型广告商和营销合作伙伴会面，试图在 Twitter 出现混乱事态后安抚高管。在马斯克以 440 亿美元收购 Twitter 后，曾威胁要对离开 Twitter 的广告商发起「thermonuclear name &amp; shame（激烈的公开谴责）」运动。
+
+马斯克将通过 Twitter Spaces 与经过审查的广告商交谈沟通。同时匿名知情人士透露，世界上最大的广告公司之一的 WPP 也参与了此次会议。目前讨论的主题尚不清楚，但马斯克上周表示，由于广告商暂停了该平台上的活动，Twitter 正面临「收入大幅下降」。自从马斯克完成收购以来，关于 Twitter 上仇恨言论和辱骂的报道越来越多。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113194"
+                        open
+                      >
+                        <summary class="article-expander__title">Twitter或将涉足支付业务，已向FinCEN提交文件</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113194">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据《纽约时报》获得的一份 FinCEN 文件显示，Twitter 上周提交了一份文件，以涉足支付业务。
+
+BlockBeats 此前报道，马斯克在 11 月 2 日刚刚宣布将 Twitter Blue 认证服务价格确定为每月 8 美元，以缓解垃圾账号问题并奖励内容创作者。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113191"
+                        open
+                      >
+                        <summary class="article-expander__title">美国调查FTX处理客户资金和贷款问题</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113191">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 10 日，据彭博社援引知情人士报道，美国金融监管机构正在调查陷入困境的加密货币交易平台 FTX 是否妥善处理了客户资金，以及其与 SBF 旗下加密投资机构 Alameda Research 的关系。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113182"
+                        open
+                      >
+                        <summary class="article-expander__title">CoinDesk：Binance审查FTX内部数据后，强烈反对完成收购FTX</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113182">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 9 日，据 CoinDesk 援引知情人士报道，在对陷入困境的竞争对手 FTX 进行了不到一天的评估后，Binance 收购该公司的可能性变得非常小。
+
+周二在 FTX 的财务状况失控之际，Binance 宣布了这份不具约束力的收购意向书。这份意向书取决于 Binance 作出的尽职调查。知情人士说，在审查 FTX 内部数据和贷款承诺的过程进行了大约半天之后，Binance 强烈反对完成这笔交易。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113179"
+                        open
+                      >
+                        <summary class="article-expander__title">MetaMask推出跨链桥集成功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113179">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 9 日，加密钱包 MetaMask 现已在其 Portfolio 界面推出跨链桥功能，用户可以使用推荐的跨链桥或通过价格和速度估算比较所有可用选项来找到满足需求的跨链桥，目前集成的跨链桥包括 Connext、Hop、Celer cBridge 和 Polygon Bridge。
+
+测试版目前支持 EVM 兼容链，如 Ethereum、Avalanche、BSC 和 Polygon，并允许 ETH/WETH、普通 Stablecoin 和原生 Gas Token 的 1:1 桥接转移，允许用户在每次转账中桥接最高 10,000 美元。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183043"
+                        open
+                      >
+                        <summary class="article-expander__title">急速坠落的Solana上，正在发生什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183043">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>随着 FTX 的倒下，作为“嫡系项目”的 Solana（SOL）也正在经历至暗时刻。截至发文，SOL 暂报 14.24 美元，24 小时跌幅 22.09%，一周跌幅更是高达 53.8%，更为可怕的是，还有大量 SOL 正处于质押解锁阶段，即将回归市场。
+如此形势下，Solana 链上的 DeFi 体系情况自然也不容乐观。
+
+锁仓总值：持续下跌
+DeFi Llama 数据显示，截至发文 Solana 链上锁定的资产总价值约为 4.36 亿美元，24 小时缩水幅度高达 30.39%，甚至要超过 SOL 本身的跌幅。距离巅峰期 101.7 亿美元的数据已缩水逾 95%。
+
+
+具体项目上，锁仓金额排名靠前的几大项目也都在面临不同幅度的缩水，其中单日缩水幅度最大的为质押协议 Lido，七日缩水幅度最大则为借贷协议 Solend。
+
+预言机：间歇性宕机
+
+随着 Solana 的快速下行，Pyth 等 Solana 链上的一些主要预言机服务已开始出现间歇性宕机的情况，致使交易、借贷等一些链上活动无法正常执行。
+对此，Pyth 方面的回应是此次的行情大波动确实导致了 Solana 上很多喂价没办法及时更新，因为发布者很难及时拿到数据。Pyth 的喂价风控要求是如果 10s 内一个喂价产品少于 3 个发布者发布数据，这个喂价就会被设置为离线（offline）状态。
+DEX：流动性缩水
+如前文所述，包括 DEX 在内的诸多 DeFi 项目都在面临 TVL 快速萎缩的情况，这背后既有资产下跌的影响，也与大量资金流动性的出逃有关。
+对于 DEX 而言，这意味着用户的兑换滑点将不可避免地提高，而对于整个生态而言，如果情况继续恶化，这或许会影响到其他依赖于 DEX 流动性池的其他项目，比如或将导致借贷协议无法充分清算，从而滋生坏账。    
+
+或是为了安抚社区情绪，截至发文 Raydium、Orca 等 Solana 链上的一些主要 DEX 均已表态将继续正常运营。
+
+借贷：坏账已生
+
+极端行情下，由于网络出现拥堵，部分 Solana 之上的借贷协议已有坏账滋生。
+头部借贷协议 Solend 此前已发推承认有部分头寸未得到及时清算，而社区用户发现，仅一巨鲸地址（3oSE9CtGMQeAdtkm2U3ENhEpkFMfvrckJMA8QwVsuRbE）当前在 Solend 上就有着超 600 万美元的坏账。
+
+数据显示，当前该地址在 Solend 上存有约 61.6 万枚 SOL（价值约 868.88 万美元），但却借出了 1472.6 万美元的 USDC，且该地址余额仅剩 1.52 SOL。
+为了防止风险进一步扩大，目前 Solend 已禁用了所有借款服务。
+潜在大雷：soBTC
+如果说上述情况尚且还能理解为极端行情下的老故事（以太坊等其他生态在极端行情下也发生过），soBTC（Solana 生态内主要的 BTC 封装资产）则完全是另一个层面的问题。
+根据曾参与过 wBTC 部署的社区开发者 meow 的披露，soBTC 是整个 Solana 当前所面临的最大潜在问题。之所以这么说，是因为 soBTC 的发行机制与其他一些基于公开智能合约发行的封装跨链资产不同，而是由 FTX（或者是 Alameda）独立发行的，且 FTX 方面并未公开正式的发行流程。
+
+soBTC 当前几乎应用于 Solana 生态上所有的主流 DeFi 协议，长期以来也一直被 Solana 社区视作真正的 BTC 使用。这一切在 FTX 正常运行时或许没有问题，但随着 FTX 的倒下，没有人知道 soBTC 背后理应 1:1 存在的支撑资产（BTC）还是否存在，如果答案是“否”，没人能猜到究竟会造成什么样的后果……
+价格下跌也好，缩水和清算也罢，这都是 DeFi 规则的自然结果，但支撑资产被抽空则完全是另一码事，没有人愿意看见这种离谱事件的发生。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5182990"
+                        open
+                      >
+                        <summary class="article-expander__title">DAOrayaki：熊市下DAOs的财库管理现状</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5182990">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：twinFin
+原文翻译：Shaun@DAOrayaki.org
+原文标题：The State of Treasury Management for DAOs
+财库（Treasury）管理是对项目资源进行长期管理的一种做法（a16z）。听起来对所有DAO来说都是至关重要的。那么，熊市下DAO的财库现状是怎么样的、如何应对熊市环境以及如何进一步优化。DAOrayaki 对《The State of Treasury Management for DAOs》一文进行编译和报道。
+DAO 财库分布现状
+根据DeepDAO的数据显示，截止2022年万圣节，前10名DAO的财库（86亿美元）占总财库（112亿美元）的77%。其余的由近5000个其他DAO持有。
+
+Autonolas的一份报告（2022年5月）披露了关于国库多样化和资本效率的一个值得注意的趋势：原生代币构成了大部分的持有量，但只有一小部分在使用。在这份研究报告中，65个国库超过1000万美元的DAO中（在本文发表时为61个，2022年10月），40个DAO的单一资产占国库总价值的80%以上。
+
+图为Messari, 2022年4月
+稳定币和蓝筹代币是DAO持有的最常见的资产，然而平均而言，85%的DAO财库都储存在单一资产中，主要是原生治理代币。稳定币只占23%。(以下数据和图表来自Chainalysis报告，2022年6月)
+
+尽管超过一半的 DAO 参与了质押或挖矿收益，但整个国库中只有 4.3% 正在累积收益。考虑到 DAO 管理的是产生收益的协议本身，这是一个具有讽刺意味的趋势。
+Gnosis 是一个例外，它分配了超过 80% 的资金来赚取收益。超过一半的 DAO 资产收益（53%）来自 Gnosis。 （旁注：Karpatkey 过去两年一直在管理其基金——参见他们的每周评论）流动性提供（占总价值的…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183039"
+                        open
+                      >
+                        <summary class="article-expander__title">空投埋伏日记：unstoppable domains、fusepass、bebop（11月10日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183039">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>熊市漫漫，热点分散。在缺乏明确投资机会的当下，本着“宁可错付 gas，不能放过大毛”的原则，我将视线与精力投向了优质项目交互，说不定还能提前发现下一价值标的，是吧。
+
+每天可以埋伏的项目众多，良莠不齐。今天为大家精选的三个项目分别是：Web3 域名 unstoppable domains、Web3 简历制作平台 fusepass、DEX 平台 bebop。另外今天为大家推荐一款刚发布的链上射击游戏，虽然空投预期比较低，但是在当前行情下，调节一下心情也不错，点击链接进入。
+unstoppable domains
+项目简介：Web3 域名服务商。
+最新进展：项目上线。
+项目融资：2022 年 7 月，6500 万美元 A 轮，Pantera Capital 领投，Mayfield、Gangeels、Alchemy Ventures、Redbeard Ventures、Spartan Group、OKG Investments、Polygon、CoinDCX、CoinGecko 等参投。
+项目链接：https://unstoppabledomains.com/
+交互建议：unstoppable domains 推出免费赠送域名的活动，可以参与。
+详细交互方法：进入官方活动链接；验证 Twitter 身份；领取域名。
+
+
+fusepass
+项目简介：Web3 简历制作平台。
+最新进展：平台上线。
+项目链接：https://fusepass.xyz
+交互建议：Binance Lab 孵化项目，可以关注。
+详细交互方法：点击链接进入官方Dapp，按照提示完成简历的创建。
+
+
+bebop
+项目简介：DEX 平台。
+最新进展：平台上线。
+项目链接：https://bebop.xyz/
+交互建议：熊市漫漫，建议参与体验一下。
+详细交互方法：可以参见《Bebop交互教程》，值得注意的是官方昨日取消了内测资格审核，所以教程内第一步可以跳过了。
+
+
+往期内容
+《空投埋伏日记：MetaMask、Lifeform、UFO（11月9日）》
+
+《空投埋伏日记：Clr.fund、omniBTC、Sisu Network（11月8日）》
+《空投埋伏日记：Gno.land、OKP4、Orderly Network（11月7日）》</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183041"
+                        open
+                      >
+                        <summary class="article-expander__title">SBF内部信全文：币安从未真正计划收购，正与孙宇晨沟通</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183041">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>今日，加密大 V Cobie 在发文表示，电报上的匿名用户向其提供了 SBF 在 FTX 内部 Slack 频道上发布的一封致员的内部信。
+文中，SBF 表示 FTX 理论上仍有筹集资金的可能，这将是下周的首要工作，同时，孙宇晨作为潜在的出资方，已在与其对话。此外，SBF还谈及币安可能从未计划完成这笔交易。
+Odaily星球日报整理全文如下：
+我知道我承诺本应在更早的时间给出更多信息；我们一直在着手于以下几点：
+首先，我很抱歉。归根结底，事情进展到这个地步是我个人的责任。我非常感谢你们所有人所做的一切，并将永远心怀感激。
+现在我的首要任务是承担起对客户的责任，做正确的事情，其次就是承担起对你们及投资者的责任，但客户是处于优先位置的。我无法确定面前哪一条路是正确的前进道路，但最重要的事情是，我们仍然同舟共济。
+所以，在接下来的一周里，我们将进行一次融资。这次融资的目标是：首先对客户做正确的事情，其次是对目前以及潜在的投资者，以及满足所有人的要求。在假设情况中，在一个所有事情都恰好在正确轨道上的世界中，也许我自己也将作为一个投资者，被安排在第四个，也是最后一个。但这并不是我们公司的当务之急。
+如果人们想乐观一点，也许可以说，我们在理论上有很多资金和/或潜在的筹款，超出所有需求，但最终，真实世界并不总会像预期一样。我不想对未来发生的事给予任何信心，也不想暗示任何成功的几率。但在接下来的一周，这将是我的首要任务。融资最终可能是 FTX 国际和 FTX US 的联合注资，但我不希望在这方面给出任何承诺。
+作为上述潜在融资的一部分，我们已经与孙宇晨进行了会议，详情即将公布。
+对于 FTX US 的日常运营，Ryne Miller 和 Zach Dexter 一直在负责，并且正在按照优先次序规划事宜。Gary、joven、Dan Chapsky 和我将会确保我们优先帮助那些最需要我们的人，欢迎随时联系他们！对于巴哈马的运营，请咨询 Ceri Howells；对于融资相关信息，请咨询 Constance；就 FTX 的长期愿景而言，很多人都必须参与其中，但目前的首要任务将被安排在下周。
+显然，现在我们正与外部各方进行沟通；非常感谢负责管理相关事宜的每一个人。特别是整个 VIP 和CS(Computer Science) 团队，他们在过去的一周里或多或少地承担了世界上最艰难的工作。
+关于币安，我不应该“向玻璃屋扔石头”（挑衅），所以在这里选择不再多谈，我只想说：币安可能从来没有计划要真正进行交易，但无论如何，我们要完成我们的工作。尽管如此，我还是非常感谢每一个为之付出努力的人。
+在操作方面：我们的工程团队将最大程度地实现需求。新账户注册将被停止，所以我们这周将不会进行大量 KYC 工作。总的来说，这些工作需要逐个部门进行参与。我需要花更多时间来写更详细的总结，也将提供更详细的信息，包括：(a) 详细阐释具体发生了什么、出了什么问题；(b) 管理结构和领导层今后的工作；(c) 一篇公开回应文章以及 (d) 掌握工资单等方面的情况。
+最后，我完全理解这对所有人来说都是一个艰难的时刻，我真的十分十分抱歉。对于公司该怎么做才是正确的决定，我也理解每个人都有自己的想法。
+在接下来的一周里，至少以上是我们的路线图（至少对 FTX 国际而言）。我很希望你们每个人都能在那里和我们一起战斗。但我也完全理解这很有压力，而且你们可能不同意我的观点。这两点我都完全没问题，我尊重你们所有人，但我们确实需要同舟共济。
+如果你们想退出或另寻出路，我不会阻拦。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183037"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX倒下后，几家欢喜几家忧？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183037">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>11 月 10 日早间，币安官方发文宣布，根据尽职调查的结果，以及有关不当处理客户资金和所谓美国机构调查的新闻报道，决定不再寻求对 FTX.com 的潜在收购（传闻收购价格仅为 1 美元）。
+
+
+这就意味着，如果不再有外部资金的介入，FTX（以及 Alameda）的倒下几乎已是定局。作为业界曾经最大的“巨无霸”机构之一，FTX 的倒下势必会给不同方向、赛道的机构和项目们造成一定正面或负面的影响，进而带来行业格局的巨变。那么，究竟是谁获了利，谁受了损呢？
+受损一方
+总体来看，FTX 倒下后最直接的受损方大致可分为三个群体：一是直接投资了 FTX 的资方；二是与 FTX 存在资金牵涉的机构，包括在平台尚有余额的客户，以及拥有 FTX 债务的借贷平台；三则是 Solana 等与 FTX 牵涉较深的“嫡系项目”们。
+
+FTX 的投资方
+
+FTX 最近的一轮融资完成于今年 1 月，当时 FTX 曾以 320 亿美元估值完成了 4 亿美元的 C 轮融资，参投机构包括软银、Paradigm、Tiger Global 以及加拿大安大略省教师养老金计划委员会。而在此前不久（去年 10 月），FTX 还曾以 240 亿美元估值完成了 4.2 亿美元的 B-1 轮融资，Black Rock、Tiger Global、加拿大安大略省教师养老基金、新加坡投资公司淡马锡控股、红杉资本、海洋资本、国际创投 IVP、ICONIQ Growth 等 69 家机构参投。
+
+伴随着 FTX 的倒下，这些机构用真金白银换来的股份大概率也将化为泡影。今日早间，红杉资本向 LP 发布了其全球增长基金 III（GGFIII）关于 FTX 的声明，称该基金共向 FTX 与 FTX US 投资 2.135 亿美元，目前已减值至 0。
+其它机构的情况大体上也应与红杉类似。
+
+与 FTX 存在资金牵涉的机构
+
+随着 FTX 关…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183038"
+                        open
+                      >
+                        <summary class="article-expander__title">速览Alliance DAO演示日17个加密初创项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183038">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Jacquelyn Melinek
+原文编译：深潮 TechFlow
+
+周三，Alliance DAO 的“演示日”活动在 FTX 崩盘期间举行，我们仍然看到了许多新的且不错的加密初创项目。
+&quot;实际上如今的情况比 2018 年的熊市还要糟糕，&quot;Alliance DAO 的核心贡献者 Qiao Wang 说，他指的是 Binance 吸收竞争对手 FTX 的计划。&quot;今天，所有人都措手不及，包括我自己......过去三个月与我们 All9 的创始人密切合作，让我再次充满了希望。正是像他们这样的人，会逐渐推动我们的行业向前发展&quot;。
+All9 是 Alliance DAO 的一个 Web3 加速器和建设者社区，在周三的演示日期间展示了他们的一些不错的想法。
+每年两次，Alliance DAO 会邀请 Web3 的创始人参加为期三个月的项目。迄今为止，Alliance DAO 的校友已经创造了超过 100 亿美元的市值。活动大约收到了 953 份申请，但只有 17 个团队被选中并从该计划毕业。
+Wang 说，许多团队正在研究改进加密货币主题，如实物工作证明、用户钱包体验、产品驱动的协议、加密货币 B2B 产品、链上数据和垂直化。
+&quot;这次的参与项目能够充当整个行业正在发生事情的一个相当有代表性的样本。&quot;
+参与项目专注于 Web3 上的一系列子行业和产品，如身份验证、流动性质押、加密钱包和去中心化机器学习等。大约 38% 的初创项目专注于以太坊生态系统，而 Polygon 占 21%，Solana 占 17%。
+导师包括：
+
+Brevan Howard Digital 的风险投资联合主管 Colleen Sullivan；
+
+LinksDAO、The Block 的创始人和第 6 人风险投资公司的投资者 Mike Dudas；
+
+Solana 的联合创始人 Anatoly Ya…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183033"
+                        open
+                      >
+                        <summary class="article-expander__title">美监管机构正在调查FTX借贷活动及其是否不当处理客户资金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183033">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自彭博社，原文作者：Lydia Beyoud、Yueqi Yang &amp; Olga Kharif
+Odaily 星球日报译者 | 念银思唐
+
+美国监管机构正在调查陷入困境的加密货币交易所 FTX.com 是否不当处理客户资金，并调查该公司与 Sam Bankman-Fried（SBF）的加密帝国其他部分的关系。
+据三位知情人士透露，美国证交会（SEC）和美国商品期货交易委员会（CFTC）的调查与将 FTX 推到崩溃边缘的流动性危机有关。其中两名未获授权公开谈论此事的知情人士称，SEC 的审查始于数月前，当时是对 FTX US 及其加密借贷活动的调查。
+与此同时，美国司法部也正在对 FTX 进行调查。此外，州监管机构此前一直在调查 FTX 以及 FTX US 是否在未在联邦监管机构注册的情况下向美国客户提供衍生产品交易服务。
+FTX 的动荡导致其竞争对手 Binance Holdings Ltd. 提出了尝试性的救助要约，但随着 FTX 困境的范围变得更加明显，Binance 最终决定放弃收购。
+Binance 官方今日发文表示，根据公司尽职调查的结果，以及有关不当处理客户资金和所谓美国机构调查的最新新闻报道，决定不寻求对 FTX.com 的潜在收购。文中称，一开始，Binance 希望能够支持 FTX 的客户并提供流动性，但这些问题超出了 Binance 的控制范围或帮助能力。
+此外有知情人士称，SBF 向投资者表示，FTX 面临高达 80 亿美元的资金缺口，正尝试以债务、股权或二者结合的方式筹集资金。此外，SBF 承认 FTX 存在严重的财务漏洞，称若无资金注入，FTX 将申请破产。
+两名知情人士表示，美国监管机构还在调查该平台与 FTX US 以及 SBF 旗下交易公司 Alameda Research 的关系。
+SEC 和 Binance 的代表拒绝置评。CFTC、FTX 和 FTX US 没有立即回复记者的置评请求。
+在 FTX.com 陷入困境之前，今年已经有多家加密货币公司倒闭，引发了要求美国加强监管的呼声。尽管华盛顿的各种机构都声称自己在这方面有一定的管辖权，但关于谁应该监管交易平台的问题仍在继续。
+CFTC 对加密货币的管辖权一般限于衍生品，但如果该机构认为基础市场存在欺诈或操纵行为，则可以采取执法行动。美国 SEC 声称，根据其规则，数字货币可被视为证券。这两个监管机构也监管投资机构。
+两名知情人士表示，近日，监管机构要求了解 FTX US 和 FTX.com（服务于非美国客户）的所有权结构细节。监管机构感兴趣的是管理层和董事会结构之间的任何重叠，以及两个实体之间的财务关系。其中一名知情人士表示，这些机构还询问了有关 FTX.com 客户账户是否被妥善分离，以及投资者基础构成的细节。
+美国 SEC 主席 Gary Gensler 曾多次警告与数字资产交易所相关的风险。他表示，许多平台可能违反了证券法，向美国人提供未注册的证券，不正当地提供贷款，甚至抢在客户交易之前进行交易。Gensler 还提出了公司可能从事相互冲突的业务的担忧，并建议他们可能应该拆分不同的职能。
+CFTC 高层官员对加密平台不当处理客户资产的风险表示了担忧。CFTC 委员、民主党人 Christy Goldsmith Romero 在上月的一次演讲中表示：“在这一客户保护与金融稳定风险相结合的关键领域，人们对这一领域的认识或重视不够。”但是他没有具名任何公司。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183029"
+                        open
+                      >
+                        <summary class="article-expander__title">BitMEX创始人评FTX危机：大无语事件</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183029">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Medium，原文作者：Arthur Hayes，原文标题：《Speechless》，由 Odaily 星球日报译者 Katie 辜编译。
+
+几天前，我在推特上问了一个问题：“谁会成为这个加密借贷周期中的雷曼兄弟？”许多人说是 FTX，我都一笑置之。我从不相信 FTX 会崩溃。然而，这几天我们就收到了来自各方的消息。它破产的催化剂与以往一样，一家好企业先是过度扩张，再以其不断上升的高估值为抵押，大量获取廉价信贷。随着货币变得昂贵，他们开始藏不住了。但乐观一点，我相信这次加密货币熊市的最后一根蜡烛即将熄灭，我们将走出熊市。
+事件回溯
+这一切都始于 Coindesk 的一篇文章，该文章描述了泄露的 Alameda 资产负债表的细节。
+在其 80 亿美元的负债中，有 2.92 亿美元的“被锁定的 FTT”，还有 74 亿美元的贷款。资产负债表上的其他重要资产包括 33.7 亿美元的加密货币和大量 Solana 区块链的原生代币——2.92 亿美元的“解锁的 SOL”，8.63 亿美元的“锁定的 SOL ”和 4100 万美元的“ SOL 抵押品”。SBF 是 Solana 的早期投资者。其他被提及的代币有 SRM（来自由 SBF 联合创立的去中心化交易所 Serum 的代币）、MAPS、OXY 和 FIDA。此外还有 1.34 亿美元的现金和等价物，以及 20 亿美元的股票证券投资。他们资产负债表上的大部分资产是流动性差的 FTT 代币和一堆垃圾币。
+让我们来分析一下为什么 FTT 对 FTX / Alameda 帝国如此重要。
+根据 FTT 声明的代币经济，FTX 承诺将使用所有交易费用的三分之一回购 FTT。SBF 拥有 Alameda 的大部分股权，而他不断稀释自己的 FTX 股权，目的是从风投公司获得资本。FTX 的很大一部分收入是通过 Alameda 持有的大…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183027"
+                        open
+                      >
+                        <summary class="article-expander__title">解析传统品牌加速进入Web3的深层次原因</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183027">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：metavise
+编译整理：白泽研究院
+Web3 有能力彻底改变品牌和客户相互联系的方式。许多品牌已经在尝试使用 NFT 和元宇宙来提高品牌知名度和消费者忠诚度，这是传统社交媒体和电子商务渠道根本无法做到的。
+NIKE、Panini 和 Vodafone 是最早认识到 NFT 价值的公司，而 Gucci、Balmain、Prada 和 Balenciaga 等奢侈品牌都纷纷推出了自己的 NFT。
+“如何将业务与 Web3 相结合？”这是一个我们经常被传统组织问到的问题。
+在本文中，我们将详细介绍 40 个 Web3 用例，通过示例、案例研究和工具，为传统组织的决策者和去中心化组织的社区成员提供一些额外的指导。
+人才和人力资源
+
+激励和协调全球按需人才库
+
+传统组织/企业想要支持 Web3 有两个关键因素：所有权和权力下放。
+可以与其他加密货币、法定货币进行交易的组织原生代币的出现，使组织更容易激励、支付来自全球各地的一次性、短期和长期任务的人才。
+随着组织变得比以往任何时候都更加分散，利用全球化的人才库可以帮助组织在正确的时间挖掘合适的人才，保持较低的成本基础并优化产出。
+例如，我为 Global Coin Research 贡献了五篇文章，这是一个投资于早期区块链初创公司的投资 DAO（去中心化自治组织）。
+我收到了 100 个 GCR 代币，而不是固定付款，在撰写本文时，这些代币的价格相当于约 370 美元（每篇文章约 75 美元）。 这让 GCR 比传统竞争对手更具优势，后者必须支付给人才固定工资，或者仅通过“曝光度”来激励他们。
+
+激励员工
+
+类似于上一点。代币不仅可以用来支付员工的薪水，还可以用来激励长期工作，一个人在组织中工作的时间越长，或者完成的工作量越多，可以额外解锁的代币就越多。
+除此之外，许多 Web3 代币可以被质押（Staking）—— 也…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183028"
+                        open
+                      >
+                        <summary class="article-expander__title">详解双降落伞模型：使用债务支持的稳定币作为抵押品的数学模型</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183028">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《The Double Parachute Model: a mathematical model for using debt-backed stable coins as collaterals》
+原文作者：Yaron Velner
+原文编译：ChinaDeFi
+DAI、LUSD、sUSD 和 FRAX 等债务支持的稳定币是 DeFi 中被动收益的来源（例如 Curve LP 或 Yearn Vaults）。用户可以从此类资产的高杠杆头寸中受益。如果对 USDC 等其他稳定币进行杠杆操作，则用户的清算风险被认为很小的（只要抵押稳定币保持挂钩）。
+因此，借贷市场受益于向此类用户提供高杠杆，但如果抵押品稳定币失去挂钩，则可能面临坏账的风险。这样的坏账可以通过设置适当的清算阈值 ( 又称 LTV) 来缓解，该阈值将使平台能够在抵押品被解除挂钩时正确清算抵押品。但同时，它也会限制用户可以使用的杠杆。
+在本文中，我们提出了一个数学模型来推理稳定抵押资产的清算阈值。我们提出的框架假设了已经存在一个数学模型来解释波动资产的清算阈值。因此，这个新的框架可以应用于任何现有的压力测试环境。
+本文提出了用于设置 Gearbox 杠杆协议的模型，并将重点放在以稳定币抵押品借入 USDC 的场景。
+双降落伞模型
+LUSD 稳定币相当优雅，因为它由单一抵押品（即 ETH）支持，它有一个内置机制，用户的坏账在所有借款人之间社会化。因此，我们使用 LUSD 来演示我们的框架，但在分析 DAI 和 sUSD 时，也有类似的原则。
+双降落伞模型 (DPM) 旨在模拟永久价格脱钩所导致的坏账，它忽略了由于流动性不足而发生的临时脱钩。在这样的设置中，LUSD 的价格只受其支持的 ETH 百分比的影响，因此我们可以将一个拥有 LUSD 抵押品和 USDC 债务的用户头寸视为事实上的抵押资产是 ETH …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183025"
+                        open
+                      >
+                        <summary class="article-expander__title">一文梳理哪些机构仍有资产被冻在FTX？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183025">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：Who Still Has Exposure to FTX?
+原文编译：Leo，BlockBeats
+BlockBeats 消息，11 月 10 日，Binance 官方发文表示，根据公司尽职调查的结果，以及有关不当处理客户资金和所谓美国机构调查的最新报道，决定不寻求对 FTX 的潜在收购。一开始，Binance 希望能够支持 FTX 的客户并提供流动性，但这些问题超出了 Binance 的控制范围或帮助能力。
+
+破产问题迫使 FTX 接受 Binance 非约束性收购要约无法通过时，加密行业再次陷入动荡。FTX 于周二暂停提款，但一些同行和主要交易机构中仍有资产被冻在 FTX。
+Genesis
+针对周二的市场波动，加密借贷机构 Genesis 在推特上表示，该公司对冲并出售抵押品，导致其（在包括 Alameda 在内的所有对手方）总计损失约 700 万美元。
+Genesis 重申，它对 FTX 的 token FTT 没有重大风险敞口，也与 FTX 没有借贷关系。交易平台之间存在交易关系——「是在其他交易平台之间」——但风险敞口「对我们客户服务能力没有影响」。据悉，Genesis 和 CoinDesk 隶属于同一家母公司：Digital Currency Group。
+Wintermute
+加密做市商 Wintermute 为加密交易所提供流动性，一旦最初的对偿付能力的担忧被提出，就减少了对 FTX 的风险敞口。
+Wintermute 在推特上表示，在 FTX 上还有尚未处理资产，并指出「虽然这并不理想，但金额在我们的风险承受范围内，不会对我们的整体财务状况产生重大影响。」
+Multicoin Capital
+据 The Block 报道，Multicoin Capital 管理合伙人 Kyle Samani 和 Tushar Jain 周二向该基金 LP 发出的信中表示，该基金资产管理规模 (AUM) 中约有 10% 仍在 FTX 上等待提款，在暂停提款生效之前，Multicoin 能够移动其 FTX 持有的约 24% 的资产，其中被冻结资产包括 BTC、ETH 和 USD。
+Amber Group
+Amber Group 没有对 Alameda 或 FTT token 的风险敞口，但该公司一直是 FTX 交易平台的积极参与者。
+该公司称：「虽然我们在本周大幅减少了我们的风险敞口，但仍有提款尚未处理。」该公司指出，被冻资产不到 Amber Group 总交易资本的 10%，不会「对我们的业务运营或流动性构成威胁」。
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183023"
+                        open
+                      >
+                        <summary class="article-expander__title">​万字解读Circle：守住兵家必争的稳定币，剑指新金融基础设施</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183023">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Jessie
+
+
+
+原文编辑：程天一
+原文来源：海外独角兽
+
+
+
+
+随着昨晚 cz 宣布将收购 FTX，这场加密史上最精彩的商战大戏终于暂时告一段落。然而 FTX 的倒下并不意味着币安就可以高枕无忧，储备金的不透明、监管的缺乏、行业普遍的短债长投、挤兑引发的流动性恐慌等等都在深深伤害用户的钱包和信心，因而收购消息一出，BTC/ETH 也持续大幅下跌。cz 很快发文呼吁：“所有的交易所都应该做 Merkle-tree 储备金证明，币安很快就会启动储备金证明，完全透明。”
+
+
+
+
+
+币安的“带头自律”有助于形成新的行业共识，而在此之前，对于储备金充分尤为关键的稳定币赛道来说，Circle 则采取“完全储备制度”，每月在官网披露经审计的 USDC 储备明细和托管商名单，接受所有投资者的监督。这带来了广泛的用户信任，并帮助 Circle 成为稳定币赛道的龙头。
+稳定币可以说是加密领域最大的赛道，目前市值 1485 亿美元，占整个加密市场的 16.1%。毫无疑问，没有稳定币，就不会有 DeFi Summer，更不会有繁荣的 Web3 生态。
+而 USDC 是世界上增长最快的美元数字资产之一，为互联网上的美元支付提供了一个开放标准。自 2020 年初以来，截至 2021 年 12 月 31 日（市值最高点），USDC 的流通量已经从 4 亿美元增长到超过 559 亿美元，增长了 139 倍以上。在 2020 年至今，USDC 在区块链网络上支持了超过 6.26 万亿美元的交易量。尤其在今年 Terra 的算法稳定币 UST 崩盘之后，USDC 以其安全、透明、完全储备的优势，吸引了大批投资者的资金。
+除了最受人瞩目的 USDC，Circle 的业务还包括交易与财务服务（TTS）、股权众筹平台 SeedInvest，其中 TTS 是 Circle 的最大业务，占据 Circle…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183022"
+                        open
+                      >
+                        <summary class="article-expander__title">CZ内部信全文：本次收购是“救助行动”，我们的标准要比银行更高</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183022">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>FTX事件之后，CZ在今日向全体员工发出一封内部信件。他在信中表示表示，FTX的崩溃会严重动摇加密货币行业的信心，并将引发监管机构更严格的审查。因此进行了本次“救助行动”，这并非是币安的“一场胜利”。他认为，全球范围内的牌照将更难获得，今后监管将更加严格。
+CZ此前表示，“我们并没有对此事或任何相关事宜进行总体规划。不到 24 小时前，SBF打电话给我。在此之前，我对FTX的内部情况知之甚少。我可以用我们的收入做一些心算来猜测他们的收入，但这不会非常准确。”
+Odaily星球日报对全文进行了编译，内容如下：
+币安同仁们：
+
+鉴于过去几天发生的事件，我想重申几点。
+一、我们并未对本次事件进行总体规划，也未计划与之相关的任何事情。不到 24 小时前，SBF 打电话给我。而在此之前我对 FTX 的内部情况知之甚少。我可以用我们的收入做一些心算来猜测他们的收入，但这永远不会很准确。当他告诉我时我很惊讶，我的第一反应是，他想做场外交易……但事已至此。
+二、由于交易的尽职调查正在进行中，我想提醒大家：不要交易FTT代币。你拥有什么、那么你就拥有什么。不要进行买卖。昨天我一结束与 SBF 的电话，我就要求我们的团队停止作为一个组织进行销售。是的，我们有一个零钱包。但没关系。更重要的是，我们需要让自己达到比银行更高的标准。
+三、显然，不要公开评论也不要内部评论这笔交易。如果您没有直接参与，请不要问。我们有一个很好的团队来处理它。事情将会继续进行。
+四、FTX走下坡对行业内谁都不好，不要将其视为“我们的胜利”。用户信心受到严重动摇，监管机构也加强对交易所的审查。全球范围内的许可证将更难获得。人们现在认为币安是（业内）最大的，并且会更多地攻击我们。但这没关系，我们习惯于敞开心扉，逆风而行。事实上，我们接受审查。我们必须显着提高我们的透明度、准备金证明、保险基金等。在这个领域还有很多事情要做。我们有很多艰巨的工作摆在我们面前。更不用说价格还在剧烈波动了。
+五、谈论价格。正如我这些年来讲过很多次的那样：忽略价格。让我们保持低调，专注于构建更易用的产品。（这条法则）多年来一直奏效，今天显然也不例外。
+最后，我想说我真的为你们每一个人感到骄傲，因为你们的辛勤工作和团队精神。谢谢！我们仍然面临着许多挑战，让我们继续前进，稳步、持续地帮助提高世界范围内的金钱的自由。</span>
                             </span>
                           </div>
                         </a>
@@ -11140,66 +11288,6 @@ ImmutableX转给0x0749开头地址670万枚IMX，该地址在收到Token后立�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/4aiseims.html"
-                        open
-                      >
-                        <summary class="article-expander__title">拜登：推特是“向全世界散布谎言的机构”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/4aiseims.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月6日消息，据彭博社报道，美国总统拜登在本周五芝加哥举行的一场筹款活动上表示，马斯克的推特是“向全世界散布谎言的机构”。此前马斯克已经解雇了推特大部分高管和董事会，据称他还将解雇公司约一半的员工。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/idge7qmh.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Jack Dorsey：推特增长过快导致裁员，对此负有责任</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/idge7qmh.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月6日消息，推特创始人Jack Dorsey在个人推特账号发文称，对推特员工当前处境负有责任，公司规模增长过快是裁员的原因，并为此表示道歉。他相信推特员工可以找到方法度过困难。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/o60u29m2.html"
-                        open
-                      >
-                        <summary class="article-expander__title">警方：没有证据表明MakerDAO联合创始人Nikolai Mushegian死于谋杀</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/o60u29m2.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月6日消息，据Decrypt报道，MakerDAO联合创始人Nikolai Mushegian的死因还在等待尸检结果，波多黎各警方目前并未发现谋杀证据。警方在对其尸体进行初步检查时，没有发现暴力迹象，但他的头骨处确实有一处小小裂缝。据此前消息，Nikolai Muchgian在波多黎各康达多海滩 (Condado beach) 被发现溺水身亡，年仅29岁。Nikolai于今年4月重返社交媒体，并在去世前三天在社交媒体发布有关美执法部门的部分信息，并表示遭遇死亡威胁。Tether创始人Craig Sellars、21stParadigm联创 Dylan Leclair已在推特证实此消息并表示悼念。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11411,8 +11499,8 @@ OpenSea 表示，考虑到对现有 NFT 系列进行链上强制版税费用执�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3436255989">
-        <time id="build-timestamp" datetime="2022-11-10T11:09:20.841Z">2022-11-10T11:09:20.841Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3436725814">
+        <time id="build-timestamp" datetime="2022-11-10T12:19:04.602Z">2022-11-10T12:19:04.602Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
