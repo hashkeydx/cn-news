@@ -2,10 +2,87 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-11-11T07:10:52.760Z</updated>
+    <updated>2022-11-11T08:13:27.724Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[俄罗斯和土耳其将合作打击与犯罪有关的加密交易]]></title>
+        <id>https://panewslab.com/zh/articledetails/o6292249.html</id>
+        <link href="https://panewslab.com/zh/articledetails/o6292249.html"/>
+        <updated>2022-11-11T07:08:55.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，据Bitcoin.com报道，俄罗斯联邦总检察长Igor Krasnov和土耳其司法部长Bekir Bozdag在土耳其首都会晤，并签署了两国之间为期两年的合作计划。双方计划协调努力的领域之一是打击网络犯罪，包括涉及刑事使用加密货币和其他虚拟资产的案件。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：11月7日以来以太坊总供应量减少8132枚ETH，年化通缩率约为1.27%]]></title>
+        <id>https://panewslab.com/zh/articledetails/d3hbdqso.html</id>
+        <link href="https://panewslab.com/zh/articledetails/d3hbdqso.html"/>
+        <updated>2022-11-11T07:03:07.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，据欧科云链OKLink多链浏览器数据显示，伴随近期FTX事件的持续发酵，自11月7日以来以太坊总供应量减少8132枚，已连续3天每日ETH销毁量超过供应量，呈现负增长态势。链上销毁量的激增，也让ETH正式开始出现通缩，当前ETH年化通缩率约为1.27%。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KuCoin CEO：KuCoin没有FTX和FTT风险敞口]]></title>
+        <id>https://panewslab.com/zh/articledetails/4yi21013.html</id>
+        <link href="https://panewslab.com/zh/articledetails/4yi21013.html"/>
+        <updated>2022-11-11T06:58:31.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，针对推特上关于“KuCoin有大量FTX风险敞口”的传言，KuCoin首席执行官Johnny Lyu回应称：“这是假消息，KuCoin没有FTX和FTT的风险敞口。”]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩国游戏巨头WeMade已开通DAO&NFT平台NILE的官网]]></title>
+        <id>https://panewslab.com/zh/articledetails/0k86ua7y.html</id>
+        <link href="https://panewslab.com/zh/articledetails/0k86ua7y.html"/>
+        <updated>2022-11-11T06:55:32.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，据亚洲经济日报报道，韩国游戏巨头WeMade宣布开通DAO&NFT平台NILE的官网。Nile总共提供5种服务：DAO、LIFE、市场、社区和代币。其中，DAO是一个加载了Nate协议的服务，包含7个组件，以便有共同目标的社区可以透明、轻松地创建和操作自己的代币经济学。LIFE服务主要介绍基于Web 3.0的各种领先的DApp和项目。
+根据此前的介绍，Nile是一个NFT平台，可以基于DAO创建和管理艺术、体育、音乐、投资、房地产及时尚等项目。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[慢雾发布DFX Finance攻击事件简析]]></title>
+        <id>https://panewslab.com/zh/articledetails/cu52hvd5.html</id>
+        <link href="https://panewslab.com/zh/articledetails/cu52hvd5.html"/>
+        <updated>2022-11-11T06:31:42.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，据慢雾安全团队情报，今日ETH链上的DFX Finance项目遭到攻击，攻击者获利约231,138美元。慢雾安全团队对此事件进行的分享如下：
+1. 攻击者首先调用了名为Curve的合约中的viewDeposit函数来查看合约中的存款情况，之后根据返回的存款情况来构造合适的闪电贷需要借出的钱；2. 紧接着继续Curve合约的flash函数进行闪电贷，因为该函数未做重入锁保护，导致攻击者利用闪电贷中的flashCallback函数回调了合约的deposit函数进行存款；3. 存款函数外部调用了ProportionalLiquidity合约的proportionalDeposit函数，在该函数中会将第二步中借来的资金转移回Curve合约里，并且为攻击合约进行存款的记账，并且为攻击合约铸造存款凭证；4. 由于利用重入了存款函数来将资金转移回Curve合约中，使得成功通过了闪电贷还款的余额检查；5. 最后调用withdraw函数进行取款，取款时会根据第三步存款时对攻击合约记账燃烧掉存款凭证，并以此成功取出约2,283,092,402枚的XIDR代币和99,866枚USDC 代币获利。
+此次攻击的主要原因在于Curve合约闪电贷函数并未做重入保护，导致攻击重入了存款函数进行转账代币来通过闪电贷还款的余额判断，由于存款时有记账所以攻击者可以成功提款获利。
+参考攻击交易：
+https://etherscan.io/tx/0x6bfd9e286e37061ed279e4f139fbc03c8bd707a2cdd15f7260549052cbba79b7
+此前，派盾曾报道称DFX Finance DEX池疑似被攻击，损失约3000 ETH（约合400万美元），和上述分析数据有差异。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multichain：降低大额资金门槛至20万美元，大额跨链交易需12个小时]]></title>
+        <id>https://panewslab.com/zh/articledetails/28k55b31.html</id>
+        <link href="https://panewslab.com/zh/articledetails/28k55b31.html"/>
+        <updated>2022-11-11T06:18:54.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，据官方推特，Multichain表示由于最近的市场波动，将针对大额交易加强跨链风险管理，大额资金门槛从100万美元调整至20万美元，20万美元以上跨链交易将需要12个小时，此次调整将适用于Cronos 、 OKC 、 KCC 、 Heco 、Gatechain 、BTTC链。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国国会议员称正就SEC主席Gary Gensler帮助SBF和FTX钻法律漏洞一事进行调查]]></title>
+        <id>https://panewslab.com/zh/articledetails/rs50l4g9.html</id>
+        <link href="https://panewslab.com/zh/articledetails/rs50l4g9.html"/>
+        <updated>2022-11-11T06:12:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，美国国会议员Tom Emmer发推文表示：“我办公室收到的举报称，SEC主席Gary Gensler正在帮助SBF和FTX钻法律漏洞，以获得监管垄断地位。我们正在调查这件事。”
+此前昨日消息，Gensler称FTX崩盘是加密资产更广泛趋势的一部分，并指出了杠杆作用、缺乏披露、不透明，挪用其他人的资金和未来进行交易等问题。其还表示SBF在推动《数字商品消费者保护法》方面的作用破坏了SEC的权威。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[FTX Japan现已恢复日元提现服务]]></title>
         <id>https://www.theblockbeats.info/flash/113611</id>
@@ -27,6 +104,28 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[SBF道歉信行文风格被指与Sushiswap创始人Chef Nomi高度相似]]></title>
+        <id>https://panewslab.com/zh/articledetails/da5yi8gc.html</id>
+        <link href="https://panewslab.com/zh/articledetails/da5yi8gc.html"/>
+        <updated>2022-11-11T05:53:56.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，加密KOL Cobie发推文称，昨日SBF发布的“道歉信”的行文风格与Sushiswap匿名创始人Chef Nomi版本的道歉信极为相似。对比发现，两篇道歉信均在真诚道歉后提出“ 放弃治理权” 、“ 项目未来会有更好发展” 等言论，行为措辞如出一辙。随后，关于Chef Nomi是否就是SBF的讨论也再次引发一众KOL参与讨论。
+此前，Chef Nomi将分配给SushiSwap项目开发的部分Token兑换成ETH后引发社区的谴责，对此Chef Nomi选择退还该资金并退出项目，另外还宣布将SushiSwap项目的控制权移交给SBF。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FTX Japan现已恢复日元提现服务]]></title>
+        <id>https://panewslab.com/zh/articledetails/s6c7utz9.html</id>
+        <link href="https://panewslab.com/zh/articledetails/s6c7utz9.html"/>
+        <updated>2022-11-11T05:51:12.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，FTX旗下日本加密衍生品交易所FTX Japan发布公告称，已恢复日元提现服务。
+此前昨日消息，日本监管机构下令FTX Japan在2022年12月9日之前暂停运营，日本金融厅在其命令中表示，FTX Japan停止了该国客户的提款，但没有指定恢复日期，也没有停止新客户加入该平台。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[SBF道歉信行文风格与Sushi创始人Chef Nomi高度相似，引众多KOL参与讨论]]></title>
         <id>https://www.theblockbeats.info/flash/113605</id>
         <link href="https://www.theblockbeats.info/flash/113605"/>
@@ -36,6 +135,36 @@
 BlockBeats 注，2020 年 9 月，Chef Nomi 曾将分配给 SushiSwap 项目开发的部分 Token 兑换成 ETH，这一行为引发了社区的谴责，但此后 Chef Nomi 现身道歉，并宣布将 SushiSwap 项目的控制权移交给了 SBF。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget：FTX和Alameda投资组合中有许多好项目，愿意探讨合作和支持方式]]></title>
+        <id>https://panewslab.com/zh/articledetails/w1cpfgjy.html</id>
+        <link href="https://panewslab.com/zh/articledetails/w1cpfgjy.html"/>
+        <updated>2022-11-11T05:31:25.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，Bitget董事总经理Gracy Chen在推特上表示：“了解SBF和FTX用户现在正在度过一些非常困难的日子，我们希望帮助受影响的用户和行业度过这个困难时期。FTX和Alameda的投资组合中有许多好的资产和项目值得支持，从长远来看，它们可以为行业创造价值。我们愿意进一步探讨合作和支持的方式。”]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crypto.com将在24小时内公布其冷钱包地址和主要资产余额]]></title>
+        <id>https://panewslab.com/zh/articledetails/w4i0hsex.html</id>
+        <link href="https://panewslab.com/zh/articledetails/w4i0hsex.html"/>
+        <updated>2022-11-11T05:23:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，Crypto.com首席执行官Kris Marszalek发推文称，将在24小时内公布冷钱包地址和主要资产的余额。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：Alameda Research向币安存入约318万枚USDC]]></title>
+        <id>https://panewslab.com/zh/articledetails/2tz814b9.html</id>
+        <link href="https://panewslab.com/zh/articledetails/2tz814b9.html"/>
+        <updated>2022-11-11T05:19:10.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月11日消息，据Solana Daily的推文和附上的截图，数据显示Alameda Research于一个多小时前向币安存入约318万枚USDC。]]></summary>
+        <author>
+            <name>PA一线</name>
         </author>
     </entry>
     <entry>
