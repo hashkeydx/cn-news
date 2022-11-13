@@ -2,10 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-11-13T04:22:34.890Z</updated>
+    <updated>2022-11-13T05:11:00.136Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[印度加密交易所CoinSwitch Kuber：没有FTX和FTT敞口]]></title>
+        <id>https://panewslab.com/zh/articledetails/imf6zfm4.html</id>
+        <link href="https://panewslab.com/zh/articledetails/imf6zfm4.html"/>
+        <updated>2022-11-13T04:14:20.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月13日消息，据The Economic Times报道，印度主要加密交易所CoinSwitch Kuber联合创始人兼首席执行官Ashish Singhal表示，其公司没有任何FTX及FTT敞口，平台按照1:1的比例持有用户的加密资产，从交易中赚取佣金且不会以任何形式再投资用户的加密货币。CoinSwitch Kuber于去年完成由a16z和Coinbase Ventures领投的2.6亿美元C轮融资。此外，另一家当地加密交易所CoinDCX首席执行官兼联合创始人Sumit Gupta也澄清，其公司从未将用户资金暴露在价格风险或信用风险中。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[彭博社：SBF已与巴拿马警方和监管机构进行面谈]]></title>
+        <id>https://panewslab.com/zh/articledetails/a8q526m7.html</id>
+        <link href="https://panewslab.com/zh/articledetails/a8q526m7.html"/>
+        <updated>2022-11-13T04:08:42.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月13日消息，据彭博社报道，据知情人士透露，FTX前首席执行官SBF周六接受了巴哈马警方和监管机构的面谈。需要注意的是，在巴哈马，执法调查并不等同于被捕或被指控犯罪。据此前消息，SBF目前被巴哈马当局监视，据称他曾寻找逃往迪拜的方法。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PeckShield：价值约3.9亿美元的FTT从FTX Deployer钱包转出]]></title>
+        <id>https://panewslab.com/zh/articledetails/l7n8ec1e.html</id>
+        <link href="https://panewslab.com/zh/articledetails/l7n8ec1e.html"/>
+        <updated>2022-11-13T04:03:55.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月13日消息，据PeckShield监测数据，共有1.959亿枚FTT（约合3.9亿美元）已从标记为FTX Deployer的钱包地址转入新地址0x2a4F…0d3。目前该地址已成为FTT的最大持有者。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文了解Merkle Tree储备证明，有何意义和漏洞？]]></title>
+        <id>https://www.odaily.news/post/5183096</id>
+        <link href="https://www.odaily.news/post/5183096"/>
+        <updated>2022-11-13T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文编辑：吴说区块链
+前言：FTX 暴雷，使得所有交易所开始共同推进默克尔树储备证明方案，未来这将成为类似 DeFi 项目的安全审计一样、几乎所有交易所的必备选项。目前国外与国内实践时间较长的是 Kraken 与 Gate。究竟什么是 Merkle Tree 储备证明，它有什么意义，又有什么不足？这篇文章汇总了一些内容，以供读者了解。
+内容一：
+国内最早长期使用的 Gate 的说明
+默克尔树（Merkle tree）是一种哈希二叉树，1979年由Ralph Merkle发明，将数据存储在树状结构的叶子节点中，并通过对数据的逐级哈希（Hash）操作确保数据的不可篡改性。叶子节点数据的任何变动，都会传递到上一级节点并最终反应到树根的变化。比特币区块里面的每一笔交易就是通过默克尔树结构进行存储的。
+我们提出的方法中，采用两种方式分别提供平台用户所属资产总额证明和有效用户保证金证明。通过默克尔树的方式将每一个用户的账户资产哈希值存储在默克尔树的叶子节点中。通过第三方的财务审计机构审计默克尔树的叶子节点中存储的用户资产总额，同时也由第三方的财务审计机构审查和验证平台所持有的有效用户保证金。最终由第三方的财务审计机构提供书面审计报告对外公布审计结果。同时对外公开存储所有用户资产哈希值的默克尔树。每一个平台用户都可以通过数学算法验证自己的账户资产金额是否被准确包含在默克尔树中。
+对于主流币种，我们将跟审计公司配合，逐一完成审计报告，在Github平台上公布所有用户资产哈希值默克尔树，并且开源验证代码程序，任何平台用户都可以从“我的财务”的“余额证明页面”获取验证信息，并且通过我们公开的默克尔树和验证程序验证自己的资产是否被我们准确公布和包含到审计过程中。
+对于其他币种，任何项目方或个人均可以提出要求让平台按同样标准完成审计工作和公开用户资产默克尔树，但需要由提出人承担一定的费用。费用标准…]]></summary>
+        <author>
+            <name>吴说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文了解卡塔尔世界杯足球概念项目]]></title>
+        <id>https://www.odaily.news/post/5183094</id>
+        <link href="https://www.odaily.news/post/5183094"/>
+        <updated>2022-11-13T03:28:41.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Daniel Li
+又到了四年一度的球迷狂欢节，本次世界杯将于11月21号在卡塔尔举行，每当世界杯来临，与世界杯相关产业都会迎来一波爆发。而自体育代币诞生起，世界杯也成为了加密投资者的狂欢日，体育赛事与加密经济紧密互惠的关系将在本届世界杯中展现的淋漓尽致。
+目前，各大交易所都在紧锣密鼓筹备与足球相关的区块链项目，在本次世界杯中除了欣赏足球赛事之外，与世界杯相关的区块链项目也颇为让人期待，今天就带大家盘点一下本次世界杯期间最值得期待的区块链热门项目。
+体育NFT+世界杯
+根据市场研究和咨询公司Market Decipher最新发布一项报告，预计体育NFT 市场收入将在2022年实现翻番，达到26亿美元。体育NFT市场规模将在2022 年至2032年期间以36.6%的复合年增长率增长，到2032年将达到416亿美元。
+随着体育NFT市场的日益火爆，体育NFT+世界杯概念已然成为本届世界杯最佳的营销热点，各大平台在策划与世界杯主题相关的项目时，也大部分是以NFT的形式呈现。
+
+早在今年9月份，FIFA就已推出了基于Algorand网络的NFT平台FIFA+ Collect。FIFA+ Collect允许球迷拥有和收集国际足联世界杯以及国际足联女足世界杯“高光时刻”的数字收藏品，目前已公开售卖它的“创世 NFT 系列”。
+根据国际足联的官方介绍，FIFA+Collect是一个足球界的数字平台，旨在将全球足球迷与他们喜爱的比赛更深入地联系起来。FIFA+Collect提供来自世界每个角落的现场足球比赛、互动游戏、新闻、比赛信息和无与伦比的原创属性，围绕男女足比赛提供真正的全球故事。从发布之日起，FIFA+Collect将在所有网络和移动设备上提供，并有三种初始语言版本（英语、法语和西班牙语），随后还有其他几种语言版本。
+FIFA+ Collect的出现向世界展现了本届世界杯…]]></summary>
+        <author>
+            <name>CoinVoice</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[价值约3.9亿美元FTT从FTX Deployer转出至新地址]]></title>
         <id>https://www.theblockbeats.info/flash/113854</id>
@@ -14,6 +80,16 @@
         <summary type="html"><![CDATA[BlockBeats 消息，11 月 13 日，据派盾监测预警显示，共有 1.959 亿枚 FTT（约合 3.9 亿美元）已从链上标记为「FTX Deployer」的钱包地址转入新地址（0x2a4F…0d3）。目前该地址已成为 FTT 的最大持有者。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AZA Finance：被纳入FTX的破产申请中，正采取措施纠正错误的法庭文件]]></title>
+        <id>https://panewslab.com/zh/articledetails/90r2fjhi.html</id>
+        <link href="https://panewslab.com/zh/articledetails/90r2fjhi.html"/>
+        <updated>2022-11-13T03:07:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月13日消息，据官方消息，全球支付和外汇金融科技公司AZA Finance表示，公司注意到BTC Africa SA和其他AZA Finance实体被纳入FTX的第十一章破产申请中，这与事实不符，公司正在采取措施纠正错误的法庭文件。2022年初，AZA Finance（前身是BitPesa）与FTX Africa建立商业合作伙伴关系，在此过程中，FTX Africa成为AZA Finance客户，但FTX或其任何关联实体均不拥有或控制AZA Finance及其他相关实体，包括BTC Africa SA。AZA Finance实体不属于FTX破产的一部分，FTX仓促中错误地把相关实体列在其破产申请中。据昨日消息，FTX官方推特账号发布“关于第11章法案中未包括的部分实体的说明”。子公司LedgerX、FTX Digital Markets、FTX Australia以及FTX Express Pay不包括在第11章程序中。此外，以下实体也不包括在第11章法案程序中，即FTX Capital Markets、Embed Financial Technologies和Embed Clearing。FTX集团不包括FTX集团不拥有或控制的公司，例如Bitvo Inc.和BTC Africa S.A.以及其各自的子公司。]]></summary>
+        <author>
+            <name>PA一线</name>
         </author>
     </entry>
     <entry>
@@ -29,6 +105,26 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Binance US、Coinbase、Curve等正在竞标BlockFi信用卡计划及其相关客户]]></title>
+        <id>https://panewslab.com/zh/articledetails/522o15iv.html</id>
+        <link href="https://panewslab.com/zh/articledetails/522o15iv.html"/>
+        <updated>2022-11-13T02:56:07.000Z</updated>
+        <summary type="html"><![CDATA[PANews  11月13日消息，据Blockworks报道，Binance US、Coinbase、Curve等正在竞标BlockFi信用卡计划及其相关客户，总计大约87500个账户。消息人士表示，预计将在72小时内达成协议。据悉，BlockFi资产负债表存在大约8亿美元资金缺口。据此前消息，BlockFi宣布将暂停提款业务，原因是FTX.com、FTX US和Alameda的状态不明确，导致BlockFi无法照常营业。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[巴哈马证券委员会：尚未要求FTX优先处理本地客户的提现]]></title>
+        <id>https://panewslab.com/zh/articledetails/d89n9dkd.html</id>
+        <link href="https://panewslab.com/zh/articledetails/d89n9dkd.html"/>
+        <updated>2022-11-13T02:46:00.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月13日消息，巴哈马证券委员会（SCB）表示，FTX近期已经开始处理部分巴哈马用户的提现，但是SCB尚未指示、授权或建议FTX Digital Markets优先处理巴哈马客户的提现。据此前消息，巴哈马监管机构已冻结FTX Digital Markets和相关方的资产，称这是“为保护资产和稳定公司”的“谨慎行动” 。巴哈马证券委员会也暂停了FTX的注册，并任命了Lennox Paton的高级合伙人Brian Sims律师作为资产的临时清算人。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Binance US和Coinbase等参与BlockFi竞标，或在72小时内达成协议]]></title>
         <id>https://www.theblockbeats.info/flash/113845</id>
         <link href="https://www.theblockbeats.info/flash/113845"/>
@@ -38,6 +134,16 @@
 据悉 BlockFi 资产负债表上有一个大约 8 亿美元的漏洞，预计将在 72 小时内达成协议。目前围绕收购 BlockFi 卡资产的大部分谈判都是由运营 BlockFi 计划的金融科技服务公司 Deserve 进行的。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[知情人士：FTX此前救助BlockFi的唯一条件是将其资金转移至FTX托管]]></title>
+        <id>https://panewslab.com/zh/articledetails/obu75u10.html</id>
+        <link href="https://panewslab.com/zh/articledetails/obu75u10.html"/>
+        <updated>2022-11-13T02:32:08.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月12日消息，Autism Capital推特发文称，BlockFi一名员工透露，FTX当时救助BlockFi的唯一条件是将我们的用户资金放到他们的平台上。他们施加了巨大的压力，要求将BlockFi资金转移到FTX托管。高管告诉员工不要过问关于资金转移的问题。据此前消息，美国加利福尼亚州金融保护和创新部（DFPI）宣布，将暂停BlockFi在该州的许可证至少30天。DFPI正在调查BlockFi是否遵守当地法律，包括《加州金融法》。与此同时，DFPI也在调查FTX。今年早些时候，在三箭资本破产后，BlockFi同意与FTX达成潜在收购协议，FTX为BlockFi提供了4亿美元的信贷额度。]]></summary>
+        <author>
+            <name>PA一线</name>
         </author>
     </entry>
     <entry>
