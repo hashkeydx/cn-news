@@ -51,11 +51,109 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-13 datetime="2022-11-13T04:14:20.000Z">2022-11-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-13 datetime="2022-11-13T04:14:20.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-13 datetime="2022-11-13T06:30:00.000Z">2022-11-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-13 datetime="2022-11-13T06:30:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183093"
+                        open
+                      >
+                        <summary class="article-expander__title">Foresight Ventures市场周报：市场遭遇雷曼危机，FTX抛售风波继续</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183093">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>市场观点
+1、宏观流动性
+货币流动性放缓。美国支柱产业形成失业潮，为避免紧缩过度对经济造成破坏，美联储12月大概率会放缓加息强度至50基点，流动性压力减轻。若中期选举共和党夺得国会众议院控制权，有利于缓解民主党单边强势作风，可能促成美联储实现鸽派转向。美元指数出现小幅回落，涨势似乎已经见顶。美股这周集体下跌，加密市场因为FTX交易所破产创下两年新低。
+
+2、全市场行情
+市值排名前100涨幅榜
+
+本周加密市场崩盘式下跌，BTC下跌20%。交易所FTX的流动性危机有恶化风险，影响或超过LUNA和三箭事件，后续市场或面临强监管。以SBF系的FTT、SOL、APT为首的山寨币全线暴跌。
+1) FTT: FTX交易所及关联方Alameda基金约有80亿美元亏空，被挤兑暂停提款。币安调查后放弃收购FTX，部分借贷给FTX的机构也传出资不抵债。Coinbase交易所或受益合规竞争对手减少。中心化交易所爆雷，长期利好Defi。
+2) SOL: SBF是Solana链的长期支持者，长期看Solana生态将受严重打击。SOL节点开始解锁质押跑路，OK等交易所暂停Solana链充提。相关的SOL、SRM、RAY、RNDR等均暴跌。
+3)HT: 火币交易所因处理GALA增发事件不当，引起用户不满大跌。火币交易所新开稳定币10%高息揽储，警惕相关风险。
+3、BTC行情
+1）链上数据
+ETH受益网络活动激增，转向净通缩。自 2022 年 9 月 15 日ETH完成合并以来，由于市场波动导致链上活动激增，ETH供应量实现通缩，减少约 10 枚 ETH。ETH 的表现优于 BTC。
+BTC矿工又到了停机阈值。一些矿工似乎已过度扩张，用于债务支出或基础设施建设的现金支出已超过现金收入。BTC活跃地址趋势表明链上网络使用量仍在下降。
+
+
+长期趋势指标MVRV-ZScore以市场总成本作为依据，反映市场总体盈利…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183096"
+                        open
+                      >
+                        <summary class="article-expander__title">一文了解Merkle Tree储备证明，有何意义和漏洞？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183096">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文编辑：吴说区块链
+前言：FTX 暴雷，使得所有交易所开始共同推进默克尔树储备证明方案，未来这将成为类似 DeFi 项目的安全审计一样、几乎所有交易所的必备选项。目前国外与国内实践时间较长的是 Kraken 与 Gate。究竟什么是 Merkle Tree 储备证明，它有什么意义，又有什么不足？这篇文章汇总了一些内容，以供读者了解。
+内容一：
+国内最早长期使用的 Gate 的说明
+默克尔树（Merkle tree）是一种哈希二叉树，1979年由Ralph Merkle发明，将数据存储在树状结构的叶子节点中，并通过对数据的逐级哈希（Hash）操作确保数据的不可篡改性。叶子节点数据的任何变动，都会传递到上一级节点并最终反应到树根的变化。比特币区块里面的每一笔交易就是通过默克尔树结构进行存储的。
+我们提出的方法中，采用两种方式分别提供平台用户所属资产总额证明和有效用户保证金证明。通过默克尔树的方式将每一个用户的账户资产哈希值存储在默克尔树的叶子节点中。通过第三方的财务审计机构审计默克尔树的叶子节点中存储的用户资产总额，同时也由第三方的财务审计机构审查和验证平台所持有的有效用户保证金。最终由第三方的财务审计机构提供书面审计报告对外公布审计结果。同时对外公开存储所有用户资产哈希值的默克尔树。每一个平台用户都可以通过数学算法验证自己的账户资产金额是否被准确包含在默克尔树中。
+对于主流币种，我们将跟审计公司配合，逐一完成审计报告，在Github平台上公布所有用户资产哈希值默克尔树，并且开源验证代码程序，任何平台用户都可以从“我的财务”的“余额证明页面”获取验证信息，并且通过我们公开的默克尔树和验证程序验证自己的资产是否被我们准确公布和包含到审计过程中。
+对于其他币种，任何项目方或个人均可以提出要求让平台按同样标准完成审计工作和公开用户资产默克尔树，但需要由提出人承担一定的费用。费用标准…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183094"
+                        open
+                      >
+                        <summary class="article-expander__title">一文了解卡塔尔世界杯足球概念项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183094">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Daniel Li
+又到了四年一度的球迷狂欢节，本次世界杯将于11月21号在卡塔尔举行，每当世界杯来临，与世界杯相关产业都会迎来一波爆发。而自体育代币诞生起，世界杯也成为了加密投资者的狂欢日，体育赛事与加密经济紧密互惠的关系将在本届世界杯中展现的淋漓尽致。
+目前，各大交易所都在紧锣密鼓筹备与足球相关的区块链项目，在本次世界杯中除了欣赏足球赛事之外，与世界杯相关的区块链项目也颇为让人期待，今天就带大家盘点一下本次世界杯期间最值得期待的区块链热门项目。
+体育NFT+世界杯
+根据市场研究和咨询公司Market Decipher最新发布一项报告，预计体育NFT 市场收入将在2022年实现翻番，达到26亿美元。体育NFT市场规模将在2022 年至2032年期间以36.6%的复合年增长率增长，到2032年将达到416亿美元。
+随着体育NFT市场的日益火爆，体育NFT+世界杯概念已然成为本届世界杯最佳的营销热点，各大平台在策划与世界杯主题相关的项目时，也大部分是以NFT的形式呈现。
+
+早在今年9月份，FIFA就已推出了基于Algorand网络的NFT平台FIFA+ Collect。FIFA+ Collect允许球迷拥有和收集国际足联世界杯以及国际足联女足世界杯“高光时刻”的数字收藏品，目前已公开售卖它的“创世 NFT 系列”。
+根据国际足联的官方介绍，FIFA+Collect是一个足球界的数字平台，旨在将全球足球迷与他们喜爱的比赛更深入地联系起来。FIFA+Collect提供来自世界每个角落的现场足球比赛、互动游戏、新闻、比赛信息和无与伦比的原创属性，围绕男女足比赛提供真正的全球故事。从发布之日起，FIFA+Collect将在所有网络和移动设备上提供，并有三种初始语言版本（英语、法语和西班牙语），随后还有其他几种语言版本。
+FIFA+ Collect的出现向世界展现了本届世界杯…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +165,67 @@
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/pyl4lqz0.html"
+                        open
+                      >
+                        <summary class="article-expander__title">BitCoke称因财务负责人接受调查而暂停提币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/pyl4lqz0.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月13日消息，BitCoke在社区发布公告称，公司财务负责人正在配合某国公安机关调查，处于司法受限状态，无法提供私钥授权。根据平台的《服务条款》，为了最大限度地保证用户的利益，维护平台长远发展，BitCoke已于香港时间11月13日13时开始暂停提币。
+BitCoke称其他功能不受影响，产品将持续更新，运营和客户服务随时提供技术支持和引导。暂停提币为不可抗、偶然因素导致，但当前正是区块链行业敏感时刻，暂停提币跟FTX事件无法类比，也不应在因果关系上挂钩。并称在私钥负责人可以完成授权时，BitCoke将第一时间恢复提币功能。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ur6m8ini.html"
+                        open
+                      >
+                        <summary class="article-expander__title">火币公开主要资产储备：包含3.2万枚BTC，总资产约合35亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ur6m8ini.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月13日消息，Huobi官方公告，展示部分主要资产储备情况，包括超过3.2万枚BTC、27.4万枚ETH、8.2亿枚USDT、97亿枚TRX。本次公布总资产约合35亿美元左右，快照时间在11月13日0点前后。Huobi还称，将在近一个月内与第三方合作完成100%保证金默克尔树储备证明并对外公示。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/z7dgjruj.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Paradigm已将对FTX投资减记为0，没有资金敞口</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/z7dgjruj.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月13日消息，据两名知情人士透露，加密投资公司Paradigm已告知LP，在流动性崩溃后，它将对现已破产的FTX的投资减值降至零。该公司由前红杉合伙人Matt Huang和Coinbase联合创始人Fred Ehrsam领导，投资了FTX及其附属公司FTX US。但它不是 FTX 的客户，也没有对该公司的加密资产敞口。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -417,74 +576,61 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183096"
-                        open
-                      >
-                        <summary class="article-expander__title">一文了解Merkle Tree储备证明，有何意义和漏洞？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183096">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文编辑：吴说区块链
-前言：FTX 暴雷，使得所有交易所开始共同推进默克尔树储备证明方案，未来这将成为类似 DeFi 项目的安全审计一样、几乎所有交易所的必备选项。目前国外与国内实践时间较长的是 Kraken 与 Gate。究竟什么是 Merkle Tree 储备证明，它有什么意义，又有什么不足？这篇文章汇总了一些内容，以供读者了解。
-内容一：
-国内最早长期使用的 Gate 的说明
-默克尔树（Merkle tree）是一种哈希二叉树，1979年由Ralph Merkle发明，将数据存储在树状结构的叶子节点中，并通过对数据的逐级哈希（Hash）操作确保数据的不可篡改性。叶子节点数据的任何变动，都会传递到上一级节点并最终反应到树根的变化。比特币区块里面的每一笔交易就是通过默克尔树结构进行存储的。
-我们提出的方法中，采用两种方式分别提供平台用户所属资产总额证明和有效用户保证金证明。通过默克尔树的方式将每一个用户的账户资产哈希值存储在默克尔树的叶子节点中。通过第三方的财务审计机构审计默克尔树的叶子节点中存储的用户资产总额，同时也由第三方的财务审计机构审查和验证平台所持有的有效用户保证金。最终由第三方的财务审计机构提供书面审计报告对外公布审计结果。同时对外公开存储所有用户资产哈希值的默克尔树。每一个平台用户都可以通过数学算法验证自己的账户资产金额是否被准确包含在默克尔树中。
-对于主流币种，我们将跟审计公司配合，逐一完成审计报告，在Github平台上公布所有用户资产哈希值默克尔树，并且开源验证代码程序，任何平台用户都可以从“我的财务”的“余额证明页面”获取验证信息，并且通过我们公开的默克尔树和验证程序验证自己的资产是否被我们准确公布和包含到审计过程中。
-对于其他币种，任何项目方或个人均可以提出要求让平台按同样标准完成审计工作和公开用户资产默克尔树，但需要由提出人承担一定的费用。费用标准…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183094"
-                        open
-                      >
-                        <summary class="article-expander__title">一文了解卡塔尔世界杯足球概念项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183094">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Daniel Li
-又到了四年一度的球迷狂欢节，本次世界杯将于11月21号在卡塔尔举行，每当世界杯来临，与世界杯相关产业都会迎来一波爆发。而自体育代币诞生起，世界杯也成为了加密投资者的狂欢日，体育赛事与加密经济紧密互惠的关系将在本届世界杯中展现的淋漓尽致。
-目前，各大交易所都在紧锣密鼓筹备与足球相关的区块链项目，在本次世界杯中除了欣赏足球赛事之外，与世界杯相关的区块链项目也颇为让人期待，今天就带大家盘点一下本次世界杯期间最值得期待的区块链热门项目。
-体育NFT+世界杯
-根据市场研究和咨询公司Market Decipher最新发布一项报告，预计体育NFT 市场收入将在2022年实现翻番，达到26亿美元。体育NFT市场规模将在2022 年至2032年期间以36.6%的复合年增长率增长，到2032年将达到416亿美元。
-随着体育NFT市场的日益火爆，体育NFT+世界杯概念已然成为本届世界杯最佳的营销热点，各大平台在策划与世界杯主题相关的项目时，也大部分是以NFT的形式呈现。
-
-早在今年9月份，FIFA就已推出了基于Algorand网络的NFT平台FIFA+ Collect。FIFA+ Collect允许球迷拥有和收集国际足联世界杯以及国际足联女足世界杯“高光时刻”的数字收藏品，目前已公开售卖它的“创世 NFT 系列”。
-根据国际足联的官方介绍，FIFA+Collect是一个足球界的数字平台，旨在将全球足球迷与他们喜爱的比赛更深入地联系起来。FIFA+Collect提供来自世界每个角落的现场足球比赛、互动游戏、新闻、比赛信息和无与伦比的原创属性，围绕男女足比赛提供真正的全球故事。从发布之日起，FIFA+Collect将在所有网络和移动设备上提供，并有三种初始语言版本（英语、法语和西班牙语），随后还有其他几种语言版本。
-FIFA+ Collect的出现向世界展现了本届世界杯…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >TheBlockBeats - 快讯</button>
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113866"
+                        open
+                      >
+                        <summary class="article-expander__title">Paradigm：投资FTX相关公司的2.9亿美元减记至零</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113866">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Paradigm：投资FTX相关公司的2.9亿美元减记至零</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113863"
+                        open
+                      >
+                        <summary class="article-expander__title">Curve上USDD/3CRV池已严重倾斜，USDD占比超80%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113863">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Curve上USDD/3CRV池已严重倾斜，USDD占比超80%</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/113860"
+                        open
+                      >
+                        <summary class="article-expander__title">SBF接受巴哈马警方和监管机构的面谈</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113860">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>SBF接受巴哈马警方和监管机构的面谈</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -10663,46 +10809,6 @@ Messari首席执行官Ryan Selkis表示，FTX的崩溃可能会损害政策制�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/hkyv930u.html"
-                        open
-                      >
-                        <summary class="article-expander__title">SBF：过去72小时内FTX的资金净流出约为60亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/hkyv930u.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月9日消息，据路透社报道，FTX首席执行官SBF周二上午发给内部员工的一封邮件显示，过去72小时内FTX的资金净流出约为60亿美元。正常情况下，FTX平均每天有数千万美元的资金净流入/流出。上个周末之前一切都很正常，但过去72小时FTX被提款60亿美元。目前FTX的提款实际上已经暂停，这一问题将在不久后得到解决。据此前消息，币安创始人赵长鹏表示已签署一项非约束性协议，计划完全收购FTX的非美国业务，以帮助弥补FTX的“流动性紧缩”。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/smvlehif.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：FTT跌破10美元，24小时暴跌超50%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/smvlehif.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月9日消息，数据显示，FTT短线跌破10美元，目前报9.42美元，24小时暴跌57.8%。据此前消息，币安创始人赵长鹏推特发文称，计划完全收购FTX并帮助其应对流动性紧缩，将在未来几天进行完整的尽职调查。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -11950,8 +12056,8 @@ Alameda 还用价值 5000 多万美元的 FTT 借了 2000 多万 MIM 代币。�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3454094487">
-        <time id="build-timestamp" datetime="2022-11-13T06:10:59.819Z">2022-11-13T06:10:59.819Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3454256152">
+        <time id="build-timestamp" datetime="2022-11-13T07:08:48.916Z">2022-11-13T07:08:48.916Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
