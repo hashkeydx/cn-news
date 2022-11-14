@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-11-14T22:10:46.184Z</updated>
+    <updated>2022-11-14T23:08:31.243Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -5651,125 +5651,6 @@ FTX 自成立以来，每周将 33% 的交易费收入用于销毁 FTT。据 FTX
         <updated>2022-11-10T11:18:47.000Z</updated>
         <summary type="html"><![CDATA[PANews 11月10日消息，密码学先驱David Chaum正在与瑞士国家银行 (SNB) 合作开发 Tourbillon 项目，该项目专为注重隐私的央行货币而设计。该项目将在国际清算银行 (BIS) 创新中心的主持下开发。BIS 公告称，Project Tourbillon 的底层技术将结合隐私保护功能和 Chaum 开发的抗量子密码学。该系统还将具有可扩展性，因为它将“使用与分布式账本技术兼容但不基于分布式账本技术的架构”。该项目原型计划于 2023 年年中完成。
 据悉，David Chaum在1982年首度提出ecash，是真正的数字货币之父。ecash的想法激发了Satoshi创造比特币。David Chaum曾推出Praxxis，称可抵抗量子计算机攻击。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[漫游以太：过去、现在、未来]]></title>
-        <id>https://www.odaily.news/post/5183045</id>
-        <link href="https://www.odaily.news/post/5183045"/>
-        <updated>2022-11-10T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Hakeen，W3.Hitchhiker
-原文编辑：Evelyn，W3.Hitchhiker
-
-一、以太坊的升级路线图 M2SVPS
-
-The Merge
-
-在 The Merge 阶段，POW 共识机制将过度为 POS，信标链将合并在一起。为了便于理解，我们将以太坊结构简化为下图：
-
-我们在这里先定义什么是分片：简单理解就是水平分割数据库以分散负载的过程
-
-在转为 POS 后：区块提议者和区块验证者分离，POS 工作流程如下（根据上图理解）：
-
-在 Rollup 上提交交易
-
-验证者将交易添加到分片区块中
-
-信标链选择验证者以提出新的块
-
-其余的验证者组成随机的委员会并验证分片上的提议
-
-提出区块和证明提议都需要在一个 slot 内完成，一般是 12s。每 32 个 slot 组成一个 epoch 周期，每个 epoch 将打乱验证者排序并重新选举委员会。
-合并后，以太坊将为共识层实现提议者-构建者分离（PBS）。Vitalik 认为，所有区块链的终局都将是拥有中心化的区块生产和去中心化的区块验证。由于分片后的以太坊区块数据非常密集，出于对数据可用性的高要求，区块生产的中心化是必要的。同时，必须有一种能够维护一个去中心化的验证者集的方案，它可以验证区块并执行数据可用性采样。
-矿工和区块验证分离。矿工进行区块的构建，然后将区块提交给验证者。向验证者出价投标选择自己的区块，然后验证者投票来决定区块是否有效。
-分片是一种分区方式，可以在 P2P 网络中分散计算任务和存储工作负载，经过这种处理方式，每个节点不用负责处理整个网络的交易负载，只需要维护与其分区（或分片）相关的信息就可以了。每个分片都有自己的验证者网络或者节点网络。
-分片的安全性问题：例如整个网络有 10 条分片链，破坏整个网络需要 51% 的算力，那么破坏单个分片只需要 5.1% 的算力。因此后续的改进就包…]]></summary>
-        <author>
-            <name>W3.Hitchhiker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[风投公司Ansible Ventures完成800万美元募资，将重点投资Web3领域]]></title>
-        <id>https://panewslab.com/zh/articledetails/5f577bha.html</id>
-        <link href="https://panewslab.com/zh/articledetails/5f577bha.html"/>
-        <updated>2022-11-10T10:48:25.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月10日消息，据DealStreetAsia报道，总部位于越南胡志明市的早期风险投资公司 Ansible Ventures 宣布完成 800 万美元募资，计划在 pre-seed 和种子轮阶段投资大约 15 家初创公司，重点关注的核心投资领域为 Web3 应用、消费互联网和 SME/MSME。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zhu Su：Alameda或一直在做FTX用户的对手盘，但LUNA事件导致其巨额损失]]></title>
-        <id>https://www.theblockbeats.info/flash/113362</id>
-        <link href="https://www.theblockbeats.info/flash/113362"/>
-        <updated>2022-11-10T10:41:40.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 10 日，三箭资本联合创始人 Zhu Su 在其社交平台表示，Alameda 多年来可能一直在做 FTX 用户的对手盘（internalizing FTX client liquidations）。
-
-然而在 LUNA 爆雷事件中，LUNA 出现了连续三天的单边抛售行情，Alameda 很可能因为为 FTX 提供了大量的流动性而造成了巨大损失。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[急速坠落的Solana上，正在发生什么？]]></title>
-        <id>https://www.odaily.news/post/5183043</id>
-        <link href="https://www.odaily.news/post/5183043"/>
-        <updated>2022-11-10T10:23:05.000Z</updated>
-        <summary type="html"><![CDATA[随着 FTX 的倒下，作为“嫡系项目”的 Solana（SOL）也正在经历至暗时刻。截至发文，SOL 暂报 14.24 美元，24 小时跌幅 22.09%，一周跌幅更是高达 53.8%，更为可怕的是，还有大量 SOL 正处于质押解锁阶段，即将回归市场。
-如此形势下，Solana 链上的 DeFi 体系情况自然也不容乐观。
-
-锁仓总值：持续下跌
-DeFi Llama 数据显示，截至发文 Solana 链上锁定的资产总价值约为 4.36 亿美元，24 小时缩水幅度高达 30.39%，甚至要超过 SOL 本身的跌幅。距离巅峰期 101.7 亿美元的数据已缩水逾 95%。
-
-
-具体项目上，锁仓金额排名靠前的几大项目也都在面临不同幅度的缩水，其中单日缩水幅度最大的为质押协议 Lido，七日缩水幅度最大则为借贷协议 Solend。
-
-预言机：间歇性宕机
-
-随着 Solana 的快速下行，Pyth 等 Solana 链上的一些主要预言机服务已开始出现间歇性宕机的情况，致使交易、借贷等一些链上活动无法正常执行。
-对此，Pyth 方面的回应是此次的行情大波动确实导致了 Solana 上很多喂价没办法及时更新，因为发布者很难及时拿到数据。Pyth 的喂价风控要求是如果 10s 内一个喂价产品少于 3 个发布者发布数据，这个喂价就会被设置为离线（offline）状态。
-DEX：流动性缩水
-如前文所述，包括 DEX 在内的诸多 DeFi 项目都在面临 TVL 快速萎缩的情况，这背后既有资产下跌的影响，也与大量资金流动性的出逃有关。
-对于 DEX 而言，这意味着用户的兑换滑点将不可避免地提高，而对于整个生态而言，如果情况继续恶化，这或许会影响到其他依赖于 DEX 流动性池的其他项目，比如或将导致借贷协议无法充分清算，从而滋生坏账。    
-
-或是为了安抚社区情绪，截至发文 Raydium、Orca 等 Solana 链上的一些主要 DEX 均已表态将继续正常运营。
-
-借贷：坏账已生
-
-极端行情下，由于网络出现拥堵，部分 Solana 之上的借贷协议已有坏账滋生。
-头部借贷协议 Solend 此前已发推承认有部分头寸未得到及时清算，而社区用户发现，仅一巨鲸地址（3oSE9CtGMQeAdtkm2U3ENhEpkFMfvrckJMA8QwVsuRbE）当前在 Solend 上就有着超 600 万美元的坏账。
-
-数据显示，当前该地址在 Solend 上存有约 61.6 万枚 SOL（价值约 868.88 万美元），但却借出了 1472.6 万美元的 USDC，且该地址余额仅剩 1.52 SOL。
-为了防止风险进一步扩大，目前 Solend 已禁用了所有借款服务。
-潜在大雷：soBTC
-如果说上述情况尚且还能理解为极端行情下的老故事（以太坊等其他生态在极端行情下也发生过），soBTC（Solana 生态内主要的 BTC 封装资产）则完全是另一个层面的问题。
-根据曾参与过 wBTC 部署的社区开发者 meow 的披露，soBTC 是整个 Solana 当前所面临的最大潜在问题。之所以这么说，是因为 soBTC 的发行机制与其他一些基于公开智能合约发行的封装跨链资产不同，而是由 FTX（或者是 Alameda）独立发行的，且 FTX 方面并未公开正式的发行流程。
-
-soBTC 当前几乎应用于 Solana 生态上所有的主流 DeFi 协议，长期以来也一直被 Solana 社区视作真正的 BTC 使用。这一切在 FTX 正常运行时或许没有问题，但随着 FTX 的倒下，没有人知道 soBTC 背后理应 1:1 存在的支撑资产（BTC）还是否存在，如果答案是“否”，没人能猜到究竟会造成什么样的后果……
-价格下跌也好，缩水和清算也罢，这都是 DeFi 规则的自然结果，但支撑资产被抽空则完全是另一码事，没有人愿意看见这种离谱事件的发生。]]></summary>
-        <author>
-            <name>Azuma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cardano引入支持小额支付的开发人员工具Hydra for Payments]]></title>
-        <id>https://panewslab.com/zh/articledetails/angxsw31.html</id>
-        <link href="https://panewslab.com/zh/articledetails/angxsw31.html"/>
-        <updated>2022-11-10T10:21:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月10日消息，IOHK宣布在Cardano生态系统中实施支付解决方案的开源开发人员工具 Hydra for Payments，Hydra for Payments 将简化 Hydra Head 协议在各种支付用例中的使用，并将释放 Cardano 生态系统中小额支付的力量。Hydra for Payments 工具将逐步推出，以帮助开发人员管理凭证、管理整个 Hydra Head 生命周期以及通过通用便捷界面与 Heads 交互。
-此前3月份，Cardano开发团队在Cardano公共测试网上发布首个Hydra Heads。Hydra节点首个版本已发布，Hydra是一种解决方案，可为Cardano网络提供改进的数据存储周期和每个节点空间的可扩展性和效率。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zhu Su推断：Alameda一直在做FTX用户的对手盘，但LUNA事件导致其巨额损失]]></title>
-        <id>https://panewslab.com/zh/articledetails/3k2wa2b4.html</id>
-        <link href="https://panewslab.com/zh/articledetails/3k2wa2b4.html"/>
-        <updated>2022-11-10T10:12:38.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月10日消息，三箭资本联合创始人Zhu Su发推表示，众所周知，Alameda多年来可能一直在做FTX用户的对手盘（internalizing FTX client liquidations）。然而，在LUNA爆雷事件中，LUNA出现了连续三天的单边抛售行情，Alameda很可能因为为FTX提供了大量的流动性而造成了巨大损失。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
