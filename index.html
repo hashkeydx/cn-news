@@ -51,429 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-16 datetime="2022-11-16T03:20:16.000Z">2022-11-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-16 datetime="2022-11-16T03:20:16.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-16 datetime="2022-11-16T04:13:13.000Z">2022-11-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-16 datetime="2022-11-16T04:13:13.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183178"
-                        open
-                      >
-                        <summary class="article-expander__title">Twitter创始人Jack Dorsey的Web5进展如何？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183178">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>导言
-推特作为社交巨头终于花落马斯克之手，开启了Web 2社交平台向Web 3社交协议的进化之旅，在一系列大刀阔斧的改革进程下，我们依稀可以窥见未来的大致方向：引入更多的区块链技术，增强推特的造血能力，减少无用冗员造成的财政负担等等。
-但这并非是事情的全部，Web 3社交协议的实现方式也并非一种，至少还有从头重构去中心化网络，进而从其上诞生原生去中心化化社交协议的方式，如果说推特是渐进式改革，那么Jack Dorsey 布局的Web 5就是一种革命式的重构。
-Jack Dorsey 在今年5月退出推特董事会之后，全身心扑在比特币之上，以他另一家公司支付平台Block（原名Square）为名，养了闪电网络的开发团队，以及更为宏伟的Web 5网络开发人员。Block三季度总净收入为 45.2 亿美元，同比增长 17%，其中比特币交易额为 17.6 亿美元，毛利润总计近 3700 万美元。
-2022年6月11日Jack Dorsey 在Consensus大会上宣布将构建Web 5去中心化网络平台，将成为下一代的网络基础设施，直接取代目前的Web 2和Web 3概念，因此也被称为Web 2 + Web 3 &#x3D; Web 5。
-目前，5个月的时间过去了，Block旗下的TBD公司开发的Web 5平台也逐渐成型，已经完成了跟Circle的出入金实验合作，以及使用闪电网络接入比特币的货币层建设，Web 5各要件已经基本成型，包括DID、DWN（去中心化节点）、DWA（去中心化网络应用）以及等等。
-最新的进展是10月18日发布的VC（Verifiable Credentials，可信验证凭证），至此，一个基本完整的网络设施已经完备，并且是完全不同于加密货币加链上项目的模式，而是整体构建“网络”这一Web的原意，这也是Jack Dorsey 版的Web 5引人注目的最大亮点，此外作为比特币最大…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183174"
-                        open
-                      >
-                        <summary class="article-expander__title">EIP-4844发展简史：创建一个Blobspace世界</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183174">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Mofi Taiwo （optimism 开发者）
-原文编译：DeFi 之道
-EIP-4844（proto-danksharding）正在获得更多的关注度，凭借其开发、模因以及社区支持，EIP-4844 有望成为以太坊的下一次重大升级。但它到底是什么？简而言之，它是一种新的事务（tx）类型，这使得在（以太坊） L1 上可以容易地编写廉价且短暂的数据。以 blob 表示的数据依赖于一些漂亮的新密码学，以确保它在足够长的时间内可供 L2 使用。关于这一主题有很多的资源。在这篇文章当中，我们将介绍推动 EIP-4844 的整体努力。
-
-EIP-4844 发展史
-EIP-4844 最初是 ETHDenver 2022 大会期间的一个黑客马拉松创意，我们团队的 protolambda、Prysm 的 terencechain 以及其他几个人创建了早期原型。这涉及添加 blob 事务类型并实现保护 blob 所需的新 crypto 的 geth 分叉。
-EIP-4844 真正进入开发是在今年春天晚些时候开始的，其直接目标是完全实现共识和执行客户端原型。我们很早就知道，如果没有以太坊社区的全力支持，将如此规模的 EIP 引入主网是不可能的。目前，我们距离目标硬分叉还有至少九个月的时间，而这段时间对于在测试网之前确定规范中的任何主要问题都至关重要。我们的第一个里程碑是在初夏通过 EIP-4844 的 Prysm 和 geth 分叉实现的。这是我们第一次拥有完全符合规范的执行和共识客户端。
-我们从该练习中学到了很多东西，包括规范需要更多细节的地方，如何降低实现的复杂性，以及性能问题的原因。我们仍在改进的一个值得注意的问题是验证 blob（事务）的速度。感谢以太坊基金会的研究人员，我们提出了一种几乎被遗忘的 70 年代数学的新应用来更新规范，从而提高 blob 验证的效率。Vital…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183173"
-                        open
-                      >
-                        <summary class="article-expander__title">一文盘点11个Web3未发币社交图谱项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183173">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：追风 Lab
-Web3 社交图谱协议能够衍生出多种多样的社交场景，具有落地价值，对于要集成这类基础设施的平台或协议而言，可以针对拥有某一属性的地址空投、开放测试、DAO 治理或提供其他个性化的服务，也可以在一开始快速获取定向用户，对于用户而言，不仅可以结交志趣相投的朋友，还能在多个集成社交图谱协议的游戏、社交以及内容发布平台上跨 DApp，不仅能够省去重复的身份注册步骤，还可以继续保持和拥有原有的社交关系。
-今天给大家整理了 Web3 社交图谱项目，有兴趣收藏，不作为投资建议。
-1)ULAS
-
-ULAS Network 是第一个做社交图谱评级的社交引擎，核心产品是社交图谱评级协议，旨在多维度量化一个人的社交图谱，使社交图谱可真正为商业所用。项目方、广告主可通过社交图谱评级协议找到最适合、最高效的推广渠道。同时，用户拥有链上数据，数据直接为用户产生收益。
-Ulas 建立在 Cosmos SDK、Tendermint Core 和 CosmWasm 等核心模块之上。它是 Cosmos 生态系统中最重要的网络之一。除了社交图谱评级协议，Ulas 还开发了社交应用，例如发帖、加入社群、管理社群工具等。Ulas 多链 DID 是 web3.0 身份的基础。借助 IPFS+IPNS 存储，可扩展整合 Web3.0 身份的多链数据，实现数据价值最大化。Ulas Protocol 的特点：1.社交行为通证化：用户不止 DID 是 NFT，在 Ulas 上关注他人、发帖、评论等都会被记录上链。2.允许其他应用接入 Ulas 的社交图谱评级协议，使用该协议，Ulas 的用户也将得到更多数据产生的收益。3.配套提供了可视化的社交图谱数据分析面板，方便查看各项数据，项目方和广告主可在此面板与用户成交商业推广。
-官方网站：网页链接
-官方推特：网页链接
-相关介绍：网页链接
-操作教程: 网页链…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183172"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | FTX已无法登陆；V神否认近期曾卖出3000 ETH（11月16日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183172">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-FTX已无法登陆
-
-Odaily星球日报讯 今日稍早时，有FTX用户发现，用户执行登陆操作会返回“503”，FTX现已无法登陆。
-503是一种HTTP状态码，与404同属一种网页状态出错码。503是服务器不可访问时给客户端的一种状态，404是访问了服务器不存在的资源。
-多个FTX官方地址昨晚持续向FTX攻击者地址发送资产
-Odaily星球日报讯 派盾CertiK Alert数据监测，多个FTX官方地址（包括FTX US和FTX international）昨日晚间7点左右持续向0x59ab开头的FTX Drainer地址（FTX攻击者地址）发送资产。目前，FTX Drainer地址持有大约6200万美元的资产。自2022年11月12日以来，FTX钱包攻击者已接收和交换了约3.5亿美元并发送了约2.8亿美元的代币。
-《华尔街日报》：SBF仍在募集新资金，以填补高达80亿美元的缺口
-Odaily星球日报讯 据《华尔街日报》报道，据知情人士透露，FTX创始人Sam Bankman Fried在公司宣布破产之后仍然在募集新资金。上周末，SBF和其他几名员工四处拜访寻求投资者的新承诺，因为SBF仍然觉得自己可以募集足够的资金恢复元气。该知情人士称，SBF和其他几名员工在周末打电话四处寻求投资者的承诺，以填补高达80亿美元的缺口并偿还FTX客户。
-V神证实近日卖出3000枚ETH的地址并非他所有
-Odaily星球日报讯 以太坊新闻周刊创始人Evan Van Ness发推表示，他已向以太坊创始人V神（Vitalik Buterin）求证，V神证实近期卖出3000枚ETH的地址并非他所有。
-欧盟计划禁止具有隐私性的加密货币
-Odaily星球日报讯 根据一份泄露的洗钱法案草案显示，欧盟可能会禁止Zcash、Monero和Dash等隐私代币。立法草案称，信贷机构、金融机构和加密资产服务提…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183171"
-                        open
-                      >
-                        <summary class="article-expander__title">前Spartan Group合伙人怒撰长文：关于FTX的一切真相</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183171">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Twitter，原文作者：Jason Choi
-Odaily 星球日报译者 | Moni
-
-
-针对《纽约时报》今日发布的一篇 SBF “洗地文”，前 Spartan Group 合伙人 、资深加密从业者 Jason Choi 在社交媒体上以数十条推文分享了自己作为亲历者的所知道的一切，他表示无法接受《纽约时报》的歪曲报道，他在 FTX 诞生之前就认识 SBF，见证了 FTX 的兴衰，因此希望向众人讲述，究竟发生了什么。
-本文由 Odaily星球日报翻译整理：
-
-对于 Alameda 和 FTX 的故事，简单来说，可以总结为一句话：SBF 赌性很强。实际上，他们做的每一个重大决定都与使用更多杠杆有关——欺骗性募集资金，金融工程，以及最终彻头彻尾的欺诈。
-2018 年 11 月至 2019 年 1 月，当时规模还很小的对冲基金 Alameda Research 开始向投资者募资，承诺“无风险的高回报”。 据推测（据我所知），他们拥有 500 万美元的股本，但试图以 15% 的年利率借入 2 亿美元来从事未来的做市。
-2019 年 7 月是 FTX 计划推出的时间，他们于 2019 年 8 月宣布完成 800 万美元种子轮融资，几家基金参投。（Odaily星球日报注：本轮融资由 Proof of Capital、Consensus Lab、FBG、Galois Capita等参投），在一份投资者备忘录中，“Alameda &amp; FTX”被标注为有风险，因为 SBF 要同时兼顾这两家公司。消息人士告诉我，之所以推出 FTX，是因为当时 Alameda 很难融资，所以说，FTX 可能只是为了方便 Alameda 融资的一个“副产品”。
-早期，Alameda 有一个 FTX 专属 API 密钥，可以比其他用户更快访问交易，这几乎是一个“公开的秘密”。2019 年 9 月左右，据…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - 快讯</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114575"
-                        open
-                      >
-                        <summary class="article-expander__title">MakerDAO为DAI推出多链传输基础设施Maker Teleport</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114575">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，MakerDAO 宣布推出 Maker Teleport，旨在为 DAI 提供多链传输的基础设施。Maker Teleport 由 MakerDAO Engineering Core Unit 构建，其部署分为快速提款和 Layer2 至 Layer2 完全传输两个阶段。现在 Maker Teleport 已实施了快速提款，允许用户将 DAI 从 Layer2 即时传输到 Layer1。
-
-目前，快速提款已上线 Arbitrum 和 Optimism，债务上限均为 100 万枚 DAI。Maker 表示在未来的升级中，用户将可以即时地在 Layer2 间传输 DAI。同时，Maker 宣布将为想要集成 Maker Teleport 的开发者提供最高 10,000 枚 DAI 的拨款计划。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114562"
-                        open
-                      >
-                        <summary class="article-expander__title">加密友好银行Signature Bank：与FTX相关存款低于总存款的0.1%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114562">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，美国加密友好银行 Signature Bank 表示，只与 FTX 有存款关系，且其与 FTX 及其相关公司的存款关系是截至 2022 年 11 月 14 日，不到银行存款总额的 0.1%。与 2022 年 9 月 30 日的 235 亿美元余额相比，截至 2022 年 11 月 14 日，银行在数字资产领域的存款余额保持稳定。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114559"
-                        open
-                      >
-                        <summary class="article-expander__title">彭博社：SBF或将被送往美国接受讯问</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114559">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，彭博社援引知情人士信息透露，美国和巴哈马官方一直在讨论将 SBF 带到美国接受讯问的可能性。近期，两国执法人员正在共同调查 SBF 在 FTX 崩盘中所扮演的角色。一名知情人士表示，SBF 一直在与巴哈马官方合作。
-
-BlockBeats 此前报道，11 月 13 日，FTX 前首席执行官 Sam Bankman-Fried 周六接受巴哈马警方和监管机构的面谈。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114538"
-                        open
-                      >
-                        <summary class="article-expander__title">加密KOL ZachXBT：链游SolChicks开发商未向社区披露UST暴雷损失的2000万美元资金</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114538">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，加密 KOL ZachXBT 表示，根据 Solana 上 P2E 游戏 SolChicks 开发商 Catheon Gaming 首席执行官和首席运营官之间新泄露的消息，由于 2022 年 5 月的 UST 暴雷事件，该项目损失了高达 2000 万美元的财库资金，并决定不通知社区。
-
-ZachXBT 联系了 Catheon Gaming 首席运营官对此发表评论，其表示「关于 UST-- 我们与我们最大的私人持有者讨论并披露了这一问题。但为了项目的最佳利益，不冒不必要的风险选择不公开宣布，而且我们没有杠杆。」
-
-此外，ZachXBT 表示查看 Solchicks Saft 的 ETH 地址（0x89af65FF45F00149C6d847e9344F9dE5989641D0），发现他们似乎没有将资金保存在多重签名中。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114556"
-                        open
-                      >
-                        <summary class="article-expander__title">韩国预计明年出台《数字资产基本法》，由13个加密立法提案组成</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114556">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，受 FTX 破产影响，韩国监管机构在国会上强调需要制定加密监管框架。韩国金融监督院首席（FSS）副院长 Lee Myung-soon 在当天的会议上表示，「由于全球经济紧缩，市场出现了下滑，Terra-Luna、Celsius、FTX 等接连倒闭，今年是信任度下滑的一年」。
-
-韩国金融服务委员会 (FSC) 副主席 Kim So-young 补充到，考虑到保护用户的紧迫性，最好制定最低限度的必要监管框架并加以补充，而不是等待国际监管框架。FTX 危机表明，需要建立监管机制来防止不公平交易，并确保虚拟资产服务提供商履行保护用户资产的义务，同时应禁止服务提供商发行 Token。
-
-韩国政府官员目前正在起草一个全面的监管框架，即《数字资产基本法》(Digital Asset Basic Act)，预计将于明年敲定。该法案将由目前提交给国会的 13 个加密立法提案组成。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114550"
-                        open
-                      >
-                        <summary class="article-expander__title">澳监管机构暂停FTX Australia金融服务牌照至明年5月中旬</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114550">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，澳大利亚证券和投资委员会（ASIC）已暂停 FTX Australia 的金融服务牌照，直至 2023 年 5 月 15 日。
-
-ASIC 表示，2022 年 12 月 19 日之前，FTX Australia 可以继续向客户提供与终止现有衍生品相关的有限金融服务。在暂停之前，FTX Australia 的牌照允许其向零售和批发客户交易、做市并提供与衍生品和外汇合约相关的一般建议。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114544"
-                        open
-                      >
-                        <summary class="article-expander__title">CZ发表中心化交易平台六项原则，包括避免过度使用杠杆</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114544">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，据 Binance 官方博客，CZ 发表《中心化交易平台六项原则》以确保用户的中心化交易安全：1. 规避用户资金的风险；2. 切勿使用原生 Token 作为抵押品；3. 分享实时资产证明；4. 保持充足的储备；5. 避免过度使用杠杆；6. 加强和执行安全协议。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114523"
-                        open
-                      >
-                        <summary class="article-expander__title">Oxygen：FTX是生态中95%以上Token的托管人，已寻求法律帮助</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114523">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，DeFi 主经纪商协议 Oxygen 发文表示，对 FTX 破产事件感到震惊，虽然 FTX 未持有任何股权，但它确实持有很大一部分 MAPS/OXY Token，FTX 还是其生态系统中 95% 以上 Token 的托管人，目前已寻求法律帮助。
-
-BlockBeats 此前报道，2021 年 2 月 24 日，DeFi 主经纪商协议 Oxygen 完成 4000 万美元融资，Alameda 领投，Multicoin Capital、Genesis、CMS 等参投。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114520"
-                        open
-                      >
-                        <summary class="article-expander__title">彭博社：富达投资等曾致信美CFTC支持FTX衍生品交易计划</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114520">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，据彭博社报道，FTX 此前曾申请一项有争议的计划，希望获得监管机构批准，以允许其衍生品交易平台使用通过算法产生的保证金直接与投资者进行交易，而不是传统的金融中介机构（如经纪人）。
-
-该计划是让 FTX 在全天每隔 10 秒计算一次保证金水平，而不是传统的每天计算一次且只在常规交易日计算一次，抵押不足的头寸将自动清算，旨在彻底改变衍生品交易。
-
-而从富达投资（Fidelity Investments）、Fortress Investment Group、Susquehanna International Group 和 Virtu Financial，到乔治敦大学、芝加哥大学、威廉玛丽学院和斯坦福大学的教职员工，再到律师事务所 Jones Day 和 Heritage Foundation 智库的数百封支持 FTX 计划的公开信在今年送到了美国商品期货交易委员会（CFTC）。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114517"
-                        open
-                      >
-                        <summary class="article-expander__title">加密托管公司BitGo拟以12亿美元估值筹集新资金</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114517">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，据福布斯援引消息人士报道，加密托管公司 BitGo 正在初步讨论以 12 亿美元的估值筹集新资金。BitGo 声称它没有对 FTX、Alameda 或 Three Arrows Capital 和 Celsius 等公司的风险敞口。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114514"
-                        open
-                      >
-                        <summary class="article-expander__title">知情人士：BlockFi或为申请破产保护做准备，并计划裁员</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114514">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，据 WSJ 援引知情人士报道，加密借贷公司 BlockFi 正在为可能的第 11 章破产保护申请做准备。据知情人士称，该公司还计划进行裁员。
-
-BlockBeats 此前报道，11 月 15 日，BlockFi 在官方博客中表示，确实对 FTX 和相关公司实体有重大风险敞口，包括 Alameda 欠其债务、在 FTX 持有的资产，以及其在 FTX US 的信贷额度中未提取的金额。虽然团队将继续努力收回所有欠款，但预计随着 FTX 进入破产程序，欠款收回将被推迟。BlockFi 表示提款继续暂停，要求客户不要向 BlockFi 钱包或利息账户提交任何存款。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114505"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT欺诈检测公司Yakoa完成480万美元种子轮融资，Uniswap Labs等参投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114505">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 16 日，NFT 欺诈检测初创公司 Yakoa 完成 480 万美元种子轮融资，Brevan Howard Digital、Volt Capital 和 Collab+Currency 领投，Uniswap Labs Ventures、Alliance DAO、Orange DAO、Time Zero Capital、Sunset Venture 等参投。据悉，Yakoa 已经对主要区块链中的 NFT 进行了索引，并使用人工智能技术对其进行了分析，以便在欺诈到达消费者之前发现欺诈行为。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114496"
-                        open
-                      >
-                        <summary class="article-expander__title">《金融时报》：FTX正在寻求100亿美元紧急融资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114496">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>《金融时报》：FTX正在寻求100亿美元紧急融资</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114487"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114487">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -485,6 +67,254 @@ BlockBeats 此前报道，11 月 15 日，BlockFi 在官方博客中表示，确
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/9ber8dd8.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：DuDuLab NFT过去24小时合约Gas消耗、销毁量升至第二</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9ber8dd8.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据欧科云链OKLink 多链浏览器数据显示，过去24小时百度孵化的NFT项目DuDuLab NFT合约Gas消耗排名第二，已消耗超171.01枚ETH；ETH销毁量排名第二，销毁超140.16枚ETH。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/min93m51.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美SEC推迟ARK 21Shares现货比特币ETF审批日期至明年初</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/min93m51.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据Cointelegraph报道，美国证券交易委员会（SEC）已经延长了决定ARK 21Shares现货比特币ETF是否可以在芝加哥期权交易所BZX交易所上市的窗口。SEC助理秘书Sherry Haywood表示：“委员会认为，指定一个较长的期限来发布批准或不批准拟议的规则变更的命令是合适的，这样它就有足够的时间来考虑拟议的规则变更和其中提出的问题。因此，委员会指定2023年1月27日为委员会应批准或不批准拟议的规则变更的日期。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/wdeap8jz.html"
+                        open
+                      >
+                        <summary class="article-expander__title">MetaMask与Laconic推出防网络钓鱼工具MobyMask轻客户端</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/wdeap8jz.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据官方公告，加密钱包MetaMask与数据可用性和可验证性层Laconic合作推出防范网络钓鱼工具MobyMask轻客户端。MobyMask是一个社区来源的注册表，用于管理和报告跨社交媒体和Web3交叉点的网络钓鱼帐户，基于MetaMask的委托框架。Laconic的MobyMask缓存以太坊轻客户端可大大降低个人或组织托管MobyMask反网络钓鱼注册表的可信赖副本的成本。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/vp18n0c1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Bnk To The Future宣布终止对加密借贷平台Salt的收购计划</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/vp18n0c1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据官方公告，由于Salt对FTX的风险敞口以及Bnk To The Future尽职调查的不到位，Bnk To The Future宣布终止对加密借贷平台Salt的收购计划。此外，Bnk To The Future表示，没有受到Salt和FTX的影响，与SALT或FTX没有直接或间接的联系，所有客户资金都是完全隔离和未投资的。
+据悉，BnkToTheFuture 9月份同意以未公开的金额购买Salt Lending，以便让用户能够借入其持有的加密货币，该交易取决于签署最终协议并获得监管批准。此前今日早些时候消息，受FTX破产影响，加密借贷平台Salt已停止存取款。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/flf3hvic.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数千人请求美国国会调查SEC主席Gary Gensler与SBF之间的关系</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/flf3hvic.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据Cointelegraph报道，已有4000人使用CryptoLaw请愿应用程序要求美国国会调查美国证券交易委员会（SEC）主席Gary Gensler在FTX欺诈事件中的行为 。请愿书部分内容为：“在FTX破产之前，Gensler曾与SBF见过面。国会议员已经被告知，Gensler与SBF合作，让FTX获得监管豁免，而一场大规模欺诈就在证交会的眼皮底下进行。现在是时候让国会全面调查Gensler在美国历史上最大的金融诈骗案之一中所扮演的角色了。”
+此前消息，美国国会议员Tom Emmer表示，正就SEC主席Gary Gensler帮助SBF和FTX钻法律漏洞一事进行调查。华尔街日报曾表示，美SEC或将对FTX事件承担重大责任。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/y9trvgnt.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT欺诈检测初创公司Yakoa完成480万美元种子轮融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/y9trvgnt.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据The Block报道，位于美国加州的NFT欺诈检测初创公司Yakoa完成480万美元种子轮融资，Brevan Howard Digital、Volt Capital和Collab+Currency共同领投，Uniswap Labs Ventures、Alliance DAO、Orange DAO、Time Zero Capital、Sunset Ventures等参投。Yakoa计划利用新资金将员工人数增加到20人左右。
+据悉，Yakoa拥有SaaS业务模型并为Web3平台提供服务，其在主要区块链上对NFT搭建索引，并使用AI技术对其进行分析，以在欺诈事件发生前将其捕获。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/04j1ccub.html"
+                        open
+                      >
+                        <summary class="article-expander__title">SBF：杠杆超出预计，挤兑和市场崩盘耗尽了流动性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/04j1ccub.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，FTX前首席执行官Sam Bankman-Fried（SBF）发推称：“几周前，FTX每天处理约100亿美元的交易量和数十亿笔转账。但是杠杆远高出预计，挤兑和市场崩盘耗尽了流动性。那么我可以尝试做什么呢？提高流动性，尽量弥补客户，然后重新开始。也许我会失败，也许什么也做不了。我之前确实失败了，你们都了解清楚了状况。但我所能做的就是尝试。这个月我已经失败够多了，但我内心深处认为我仍然能做些什么”。
+此前今日早些时候消息，SBF表示，截至11月7日，FTX US有足够的资金偿还所有客户。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/wik6nl59.html"
+                        open
+                      >
+                        <summary class="article-expander__title">派盾：5500万枚USDC从Circle转至Alameda Research</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/wik6nl59.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据派盾预警监测，5500万枚USDC在3小时前从Circle转至Alameda Research地址。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/wtl00n9r.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Coinbase CEO近日减持价值160万美元的Coinbase股票</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/wtl00n9r.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据The block报道，Coinbase向美国SEC提交的一份文件显示，Coinbase首席执行官Brian Armstrong在11月11日以160万美元的价格出售3万多股A Coinbase股票。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/t7a5c7a3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一家不良资产投资公司对FTX债权索赔的收购报价仅为0.8至1.2折</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/t7a5c7a3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据CoinDesk报道，不良资产投资公司Cherokee Acquisition在周二发布的最新价格表中，对于存款索赔超过10万美元FTX用户，其收购指导价为每美元8至12美分（即可按资产价值的0.8至1.2折收购）。当一家公司申请破产保护或宣布破产时，那些不愿等到漫长的破产程序结束后才收回部分或全部资产的债权人，可能会将其信用债权出售给不良资产投资公司。
+FTX索赔相对较低的价格表明，FTX用户收回资金的可能性降低了。507 Capital管理合伙人Thomas Braziel表示，即使是这样低的价格，对潜在买家来说可能也太高了，没有人会以这样的价格购买。他认为更现实的FTX存款债权市场价格应该接近3至5美分。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/rjwrso3m.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Maker推出DAI跨链传输基础设施Maker Teleport</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/rjwrso3m.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，据官方推特，Maker宣布推出Maker Teleport，旨在为DAI提供多链传输的基础设施。Maker Teleport由MakerDAO Engineering Core Unit构建，其部署分为快速提款和Layer2至 Layer2完全传输两个阶段。现在Maker Teleport已实施了快速提款，允许用户将DAI从Layer2即时传输到Layer1。
+目前，快速提款已上线Arbitrum和Optimism，债务上限均为100万枚DAI。Maker 表示在未来的升级中，用户将可以即时地在Layer2间传输DAI。
+同时，Maker宣布将为想要集成Maker Teleport的开发者提供最高10,000枚DAI的拨款计划。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/nmuct2g5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">安全公司：SheepFarm项目遭受漏洞攻击，目前损失约7.2万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/nmuct2g5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月16日消息，根据区块链安全审计公司Beosin旗下Beosin EagleEye安全风险监控、预警与阻断平台监测显示，BNB链上的SheepFarm项目遭受漏洞攻击，Beosin分析发现由于SheepFarm合约的register函数可以多次调用，导致攻击者0x2131c67ed7b6aa01b7aa308c71991ef5baedd049多次利用register函数增大自身的gems，再利用upgradeVillage函数在消耗gems的同时累加yield属性，最后调用sellVillage方法把yield转换为money后再提款。本次攻击导致项目损失了约262个BNB，约7.2万美元。Beosin Trace追踪发现被盗金额仍在攻击者账户，将持续关注资金走向。
+其中一笔攻击交易：https://bscscan.com/tx/0x9c3c513d54d59451ea7b07539aee9132f402d7e8f5bc025d609a16e559ee6ddf</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -989,6 +819,424 @@ PlayEmber 旨在通过实施自定义货币化解决方案的基于 Unity 的软
                               <span>PANews 11月15日消息，加密交易所 AAX 发布更新称，目前需要筹集新资金以恢复服务，原有股东已经在过去一周投入额外资金，将继续筹集更多资金，如果 AAX 能够在本周末之前注入额外的资金，AAX 应该能够像往常一样恢复服务。若融资失败将启动法律程序以确保资产分配。AAX 表示：“在暂停提款之后，一些投资者表示他们希望从 AAX 撤出资金，这使我们面临资金缺口的风险，我们必须弥补这一缺口以恢复正常运营。”</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183178"
+                        open
+                      >
+                        <summary class="article-expander__title">Twitter创始人Jack Dorsey的Web5进展如何？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183178">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>导言
+推特作为社交巨头终于花落马斯克之手，开启了Web 2社交平台向Web 3社交协议的进化之旅，在一系列大刀阔斧的改革进程下，我们依稀可以窥见未来的大致方向：引入更多的区块链技术，增强推特的造血能力，减少无用冗员造成的财政负担等等。
+但这并非是事情的全部，Web 3社交协议的实现方式也并非一种，至少还有从头重构去中心化网络，进而从其上诞生原生去中心化化社交协议的方式，如果说推特是渐进式改革，那么Jack Dorsey 布局的Web 5就是一种革命式的重构。
+Jack Dorsey 在今年5月退出推特董事会之后，全身心扑在比特币之上，以他另一家公司支付平台Block（原名Square）为名，养了闪电网络的开发团队，以及更为宏伟的Web 5网络开发人员。Block三季度总净收入为 45.2 亿美元，同比增长 17%，其中比特币交易额为 17.6 亿美元，毛利润总计近 3700 万美元。
+2022年6月11日Jack Dorsey 在Consensus大会上宣布将构建Web 5去中心化网络平台，将成为下一代的网络基础设施，直接取代目前的Web 2和Web 3概念，因此也被称为Web 2 + Web 3 &#x3D; Web 5。
+目前，5个月的时间过去了，Block旗下的TBD公司开发的Web 5平台也逐渐成型，已经完成了跟Circle的出入金实验合作，以及使用闪电网络接入比特币的货币层建设，Web 5各要件已经基本成型，包括DID、DWN（去中心化节点）、DWA（去中心化网络应用）以及等等。
+最新的进展是10月18日发布的VC（Verifiable Credentials，可信验证凭证），至此，一个基本完整的网络设施已经完备，并且是完全不同于加密货币加链上项目的模式，而是整体构建“网络”这一Web的原意，这也是Jack Dorsey 版的Web 5引人注目的最大亮点，此外作为比特币最大…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183174"
+                        open
+                      >
+                        <summary class="article-expander__title">EIP-4844发展简史：创建一个Blobspace世界</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183174">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Mofi Taiwo （optimism 开发者）
+原文编译：DeFi 之道
+EIP-4844（proto-danksharding）正在获得更多的关注度，凭借其开发、模因以及社区支持，EIP-4844 有望成为以太坊的下一次重大升级。但它到底是什么？简而言之，它是一种新的事务（tx）类型，这使得在（以太坊） L1 上可以容易地编写廉价且短暂的数据。以 blob 表示的数据依赖于一些漂亮的新密码学，以确保它在足够长的时间内可供 L2 使用。关于这一主题有很多的资源。在这篇文章当中，我们将介绍推动 EIP-4844 的整体努力。
+
+EIP-4844 发展史
+EIP-4844 最初是 ETHDenver 2022 大会期间的一个黑客马拉松创意，我们团队的 protolambda、Prysm 的 terencechain 以及其他几个人创建了早期原型。这涉及添加 blob 事务类型并实现保护 blob 所需的新 crypto 的 geth 分叉。
+EIP-4844 真正进入开发是在今年春天晚些时候开始的，其直接目标是完全实现共识和执行客户端原型。我们很早就知道，如果没有以太坊社区的全力支持，将如此规模的 EIP 引入主网是不可能的。目前，我们距离目标硬分叉还有至少九个月的时间，而这段时间对于在测试网之前确定规范中的任何主要问题都至关重要。我们的第一个里程碑是在初夏通过 EIP-4844 的 Prysm 和 geth 分叉实现的。这是我们第一次拥有完全符合规范的执行和共识客户端。
+我们从该练习中学到了很多东西，包括规范需要更多细节的地方，如何降低实现的复杂性，以及性能问题的原因。我们仍在改进的一个值得注意的问题是验证 blob（事务）的速度。感谢以太坊基金会的研究人员，我们提出了一种几乎被遗忘的 70 年代数学的新应用来更新规范，从而提高 blob 验证的效率。Vital…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183173"
+                        open
+                      >
+                        <summary class="article-expander__title">一文盘点11个Web3未发币社交图谱项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183173">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：追风 Lab
+Web3 社交图谱协议能够衍生出多种多样的社交场景，具有落地价值，对于要集成这类基础设施的平台或协议而言，可以针对拥有某一属性的地址空投、开放测试、DAO 治理或提供其他个性化的服务，也可以在一开始快速获取定向用户，对于用户而言，不仅可以结交志趣相投的朋友，还能在多个集成社交图谱协议的游戏、社交以及内容发布平台上跨 DApp，不仅能够省去重复的身份注册步骤，还可以继续保持和拥有原有的社交关系。
+今天给大家整理了 Web3 社交图谱项目，有兴趣收藏，不作为投资建议。
+1)ULAS
+
+ULAS Network 是第一个做社交图谱评级的社交引擎，核心产品是社交图谱评级协议，旨在多维度量化一个人的社交图谱，使社交图谱可真正为商业所用。项目方、广告主可通过社交图谱评级协议找到最适合、最高效的推广渠道。同时，用户拥有链上数据，数据直接为用户产生收益。
+Ulas 建立在 Cosmos SDK、Tendermint Core 和 CosmWasm 等核心模块之上。它是 Cosmos 生态系统中最重要的网络之一。除了社交图谱评级协议，Ulas 还开发了社交应用，例如发帖、加入社群、管理社群工具等。Ulas 多链 DID 是 web3.0 身份的基础。借助 IPFS+IPNS 存储，可扩展整合 Web3.0 身份的多链数据，实现数据价值最大化。Ulas Protocol 的特点：1.社交行为通证化：用户不止 DID 是 NFT，在 Ulas 上关注他人、发帖、评论等都会被记录上链。2.允许其他应用接入 Ulas 的社交图谱评级协议，使用该协议，Ulas 的用户也将得到更多数据产生的收益。3.配套提供了可视化的社交图谱数据分析面板，方便查看各项数据，项目方和广告主可在此面板与用户成交商业推广。
+官方网站：网页链接
+官方推特：网页链接
+相关介绍：网页链接
+操作教程: 网页链…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183172"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | FTX已无法登陆；V神否认近期曾卖出3000 ETH（11月16日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183172">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+FTX已无法登陆
+
+Odaily星球日报讯 今日稍早时，有FTX用户发现，用户执行登陆操作会返回“503”，FTX现已无法登陆。
+503是一种HTTP状态码，与404同属一种网页状态出错码。503是服务器不可访问时给客户端的一种状态，404是访问了服务器不存在的资源。
+多个FTX官方地址昨晚持续向FTX攻击者地址发送资产
+Odaily星球日报讯 派盾CertiK Alert数据监测，多个FTX官方地址（包括FTX US和FTX international）昨日晚间7点左右持续向0x59ab开头的FTX Drainer地址（FTX攻击者地址）发送资产。目前，FTX Drainer地址持有大约6200万美元的资产。自2022年11月12日以来，FTX钱包攻击者已接收和交换了约3.5亿美元并发送了约2.8亿美元的代币。
+《华尔街日报》：SBF仍在募集新资金，以填补高达80亿美元的缺口
+Odaily星球日报讯 据《华尔街日报》报道，据知情人士透露，FTX创始人Sam Bankman Fried在公司宣布破产之后仍然在募集新资金。上周末，SBF和其他几名员工四处拜访寻求投资者的新承诺，因为SBF仍然觉得自己可以募集足够的资金恢复元气。该知情人士称，SBF和其他几名员工在周末打电话四处寻求投资者的承诺，以填补高达80亿美元的缺口并偿还FTX客户。
+V神证实近日卖出3000枚ETH的地址并非他所有
+Odaily星球日报讯 以太坊新闻周刊创始人Evan Van Ness发推表示，他已向以太坊创始人V神（Vitalik Buterin）求证，V神证实近期卖出3000枚ETH的地址并非他所有。
+欧盟计划禁止具有隐私性的加密货币
+Odaily星球日报讯 根据一份泄露的洗钱法案草案显示，欧盟可能会禁止Zcash、Monero和Dash等隐私代币。立法草案称，信贷机构、金融机构和加密资产服务提…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183171"
+                        open
+                      >
+                        <summary class="article-expander__title">前Spartan Group合伙人怒撰长文：关于FTX的一切真相</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183171">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Twitter，原文作者：Jason Choi
+Odaily 星球日报译者 | Moni
+
+
+针对《纽约时报》今日发布的一篇 SBF “洗地文”，前 Spartan Group 合伙人 、资深加密从业者 Jason Choi 在社交媒体上以数十条推文分享了自己作为亲历者的所知道的一切，他表示无法接受《纽约时报》的歪曲报道，他在 FTX 诞生之前就认识 SBF，见证了 FTX 的兴衰，因此希望向众人讲述，究竟发生了什么。
+本文由 Odaily星球日报翻译整理：
+
+对于 Alameda 和 FTX 的故事，简单来说，可以总结为一句话：SBF 赌性很强。实际上，他们做的每一个重大决定都与使用更多杠杆有关——欺骗性募集资金，金融工程，以及最终彻头彻尾的欺诈。
+2018 年 11 月至 2019 年 1 月，当时规模还很小的对冲基金 Alameda Research 开始向投资者募资，承诺“无风险的高回报”。 据推测（据我所知），他们拥有 500 万美元的股本，但试图以 15% 的年利率借入 2 亿美元来从事未来的做市。
+2019 年 7 月是 FTX 计划推出的时间，他们于 2019 年 8 月宣布完成 800 万美元种子轮融资，几家基金参投。（Odaily星球日报注：本轮融资由 Proof of Capital、Consensus Lab、FBG、Galois Capita等参投），在一份投资者备忘录中，“Alameda &amp; FTX”被标注为有风险，因为 SBF 要同时兼顾这两家公司。消息人士告诉我，之所以推出 FTX，是因为当时 Alameda 很难融资，所以说，FTX 可能只是为了方便 Alameda 融资的一个“副产品”。
+早期，Alameda 有一个 FTX 专属 API 密钥，可以比其他用户更快访问交易，这几乎是一个“公开的秘密”。2019 年 9 月左右，据…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - 快讯</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114575"
+                        open
+                      >
+                        <summary class="article-expander__title">MakerDAO为DAI推出多链传输基础设施Maker Teleport</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114575">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，MakerDAO 宣布推出 Maker Teleport，旨在为 DAI 提供多链传输的基础设施。Maker Teleport 由 MakerDAO Engineering Core Unit 构建，其部署分为快速提款和 Layer2 至 Layer2 完全传输两个阶段。现在 Maker Teleport 已实施了快速提款，允许用户将 DAI 从 Layer2 即时传输到 Layer1。
+
+目前，快速提款已上线 Arbitrum 和 Optimism，债务上限均为 100 万枚 DAI。Maker 表示在未来的升级中，用户将可以即时地在 Layer2 间传输 DAI。同时，Maker 宣布将为想要集成 Maker Teleport 的开发者提供最高 10,000 枚 DAI 的拨款计划。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114562"
+                        open
+                      >
+                        <summary class="article-expander__title">加密友好银行Signature Bank：与FTX相关存款低于总存款的0.1%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114562">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，美国加密友好银行 Signature Bank 表示，只与 FTX 有存款关系，且其与 FTX 及其相关公司的存款关系是截至 2022 年 11 月 14 日，不到银行存款总额的 0.1%。与 2022 年 9 月 30 日的 235 亿美元余额相比，截至 2022 年 11 月 14 日，银行在数字资产领域的存款余额保持稳定。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114559"
+                        open
+                      >
+                        <summary class="article-expander__title">彭博社：SBF或将被送往美国接受讯问</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114559">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，彭博社援引知情人士信息透露，美国和巴哈马官方一直在讨论将 SBF 带到美国接受讯问的可能性。近期，两国执法人员正在共同调查 SBF 在 FTX 崩盘中所扮演的角色。一名知情人士表示，SBF 一直在与巴哈马官方合作。
+
+BlockBeats 此前报道，11 月 13 日，FTX 前首席执行官 Sam Bankman-Fried 周六接受巴哈马警方和监管机构的面谈。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114538"
+                        open
+                      >
+                        <summary class="article-expander__title">加密KOL ZachXBT：链游SolChicks开发商未向社区披露UST暴雷损失的2000万美元资金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114538">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，加密 KOL ZachXBT 表示，根据 Solana 上 P2E 游戏 SolChicks 开发商 Catheon Gaming 首席执行官和首席运营官之间新泄露的消息，由于 2022 年 5 月的 UST 暴雷事件，该项目损失了高达 2000 万美元的财库资金，并决定不通知社区。
+
+ZachXBT 联系了 Catheon Gaming 首席运营官对此发表评论，其表示「关于 UST-- 我们与我们最大的私人持有者讨论并披露了这一问题。但为了项目的最佳利益，不冒不必要的风险选择不公开宣布，而且我们没有杠杆。」
+
+此外，ZachXBT 表示查看 Solchicks Saft 的 ETH 地址（0x89af65FF45F00149C6d847e9344F9dE5989641D0），发现他们似乎没有将资金保存在多重签名中。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114556"
+                        open
+                      >
+                        <summary class="article-expander__title">韩国预计明年出台《数字资产基本法》，由13个加密立法提案组成</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114556">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，受 FTX 破产影响，韩国监管机构在国会上强调需要制定加密监管框架。韩国金融监督院首席（FSS）副院长 Lee Myung-soon 在当天的会议上表示，「由于全球经济紧缩，市场出现了下滑，Terra-Luna、Celsius、FTX 等接连倒闭，今年是信任度下滑的一年」。
+
+韩国金融服务委员会 (FSC) 副主席 Kim So-young 补充到，考虑到保护用户的紧迫性，最好制定最低限度的必要监管框架并加以补充，而不是等待国际监管框架。FTX 危机表明，需要建立监管机制来防止不公平交易，并确保虚拟资产服务提供商履行保护用户资产的义务，同时应禁止服务提供商发行 Token。
+
+韩国政府官员目前正在起草一个全面的监管框架，即《数字资产基本法》(Digital Asset Basic Act)，预计将于明年敲定。该法案将由目前提交给国会的 13 个加密立法提案组成。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114550"
+                        open
+                      >
+                        <summary class="article-expander__title">澳监管机构暂停FTX Australia金融服务牌照至明年5月中旬</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114550">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，澳大利亚证券和投资委员会（ASIC）已暂停 FTX Australia 的金融服务牌照，直至 2023 年 5 月 15 日。
+
+ASIC 表示，2022 年 12 月 19 日之前，FTX Australia 可以继续向客户提供与终止现有衍生品相关的有限金融服务。在暂停之前，FTX Australia 的牌照允许其向零售和批发客户交易、做市并提供与衍生品和外汇合约相关的一般建议。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114544"
+                        open
+                      >
+                        <summary class="article-expander__title">CZ发表中心化交易平台六项原则，包括避免过度使用杠杆</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114544">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，据 Binance 官方博客，CZ 发表《中心化交易平台六项原则》以确保用户的中心化交易安全：1. 规避用户资金的风险；2. 切勿使用原生 Token 作为抵押品；3. 分享实时资产证明；4. 保持充足的储备；5. 避免过度使用杠杆；6. 加强和执行安全协议。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114523"
+                        open
+                      >
+                        <summary class="article-expander__title">Oxygen：FTX是生态中95%以上Token的托管人，已寻求法律帮助</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114523">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，DeFi 主经纪商协议 Oxygen 发文表示，对 FTX 破产事件感到震惊，虽然 FTX 未持有任何股权，但它确实持有很大一部分 MAPS/OXY Token，FTX 还是其生态系统中 95% 以上 Token 的托管人，目前已寻求法律帮助。
+
+BlockBeats 此前报道，2021 年 2 月 24 日，DeFi 主经纪商协议 Oxygen 完成 4000 万美元融资，Alameda 领投，Multicoin Capital、Genesis、CMS 等参投。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114520"
+                        open
+                      >
+                        <summary class="article-expander__title">彭博社：富达投资等曾致信美CFTC支持FTX衍生品交易计划</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114520">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，据彭博社报道，FTX 此前曾申请一项有争议的计划，希望获得监管机构批准，以允许其衍生品交易平台使用通过算法产生的保证金直接与投资者进行交易，而不是传统的金融中介机构（如经纪人）。
+
+该计划是让 FTX 在全天每隔 10 秒计算一次保证金水平，而不是传统的每天计算一次且只在常规交易日计算一次，抵押不足的头寸将自动清算，旨在彻底改变衍生品交易。
+
+而从富达投资（Fidelity Investments）、Fortress Investment Group、Susquehanna International Group 和 Virtu Financial，到乔治敦大学、芝加哥大学、威廉玛丽学院和斯坦福大学的教职员工，再到律师事务所 Jones Day 和 Heritage Foundation 智库的数百封支持 FTX 计划的公开信在今年送到了美国商品期货交易委员会（CFTC）。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114517"
+                        open
+                      >
+                        <summary class="article-expander__title">加密托管公司BitGo拟以12亿美元估值筹集新资金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114517">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，据福布斯援引消息人士报道，加密托管公司 BitGo 正在初步讨论以 12 亿美元的估值筹集新资金。BitGo 声称它没有对 FTX、Alameda 或 Three Arrows Capital 和 Celsius 等公司的风险敞口。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114514"
+                        open
+                      >
+                        <summary class="article-expander__title">知情人士：BlockFi或为申请破产保护做准备，并计划裁员</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114514">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，据 WSJ 援引知情人士报道，加密借贷公司 BlockFi 正在为可能的第 11 章破产保护申请做准备。据知情人士称，该公司还计划进行裁员。
+
+BlockBeats 此前报道，11 月 15 日，BlockFi 在官方博客中表示，确实对 FTX 和相关公司实体有重大风险敞口，包括 Alameda 欠其债务、在 FTX 持有的资产，以及其在 FTX US 的信贷额度中未提取的金额。虽然团队将继续努力收回所有欠款，但预计随着 FTX 进入破产程序，欠款收回将被推迟。BlockFi 表示提款继续暂停，要求客户不要向 BlockFi 钱包或利息账户提交任何存款。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114505"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT欺诈检测公司Yakoa完成480万美元种子轮融资，Uniswap Labs等参投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114505">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 16 日，NFT 欺诈检测初创公司 Yakoa 完成 480 万美元种子轮融资，Brevan Howard Digital、Volt Capital 和 Collab+Currency 领投，Uniswap Labs Ventures、Alliance DAO、Orange DAO、Time Zero Capital、Sunset Venture 等参投。据悉，Yakoa 已经对主要区块链中的 NFT 进行了索引，并使用人工智能技术对其进行了分析，以便在欺诈到达消费者之前发现欺诈行为。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114496"
+                        open
+                      >
+                        <summary class="article-expander__title">《金融时报》：FTX正在寻求100亿美元紧急融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114496">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>《金融时报》：FTX正在寻求100亿美元紧急融资</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/114487"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114487">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投</span>
                             </span>
                           </div>
                         </a>
@@ -8540,26 +8788,6 @@ Animoca 联合创始人Yat Siu称，当前的市场条件不会杀死Web3、开�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/er7rbf54.html"
-                        open
-                      >
-                        <summary class="article-expander__title">币安CZ：请避开这5类交易平台或项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/er7rbf54.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月12日消息，Binance 创始人 CZ 在推特发文表示，撇开 FTX 不谈，请避开以下业务/交易平台/项目以保证安全，包括：不盈利、靠出售自身 Token 赖以生存、给予锁定你的代币并给予高额奖励、有大额的总供应量，但只有小额的流通供应量、涉及贷款。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8829,37 +9057,6 @@ FTX事件的起因是其挪用了用户资产，最大后果是引发了加密�
 DeFi
 Uniswap V3 LP扭亏为盈的转机
 文章从Alex关于“LP在Uniswap V3 ETH/USDC中损失约1亿美元”的发现讲起，针对709个TVL大于52个ETH并且有5次以上swap事件的币池，汇总了其自创建到2022年10月26日所有仓位信息。通过计…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183084"
-                        open
-                      >
-                        <summary class="article-expander__title">FTX正式宣告破产重组，134家相关实体一览</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183084">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>北京时间 11 月 11 日 22:14，FTX 官方发布公告称，包括 Alameda Research、FTX US 在内的 134 家相关实体（合称 FTX Group）已根据美国《破产法》第 11 章向特拉华州地方法院申请破产重组。
-
-与此同时，SBF 也正式辞去了 FTX Group 的首席执行官一职，该职位将由 Ray &amp; Counsel 律师事务所的负责人 John J.Ray Ⅲ 接任，后者拥有超过 20 年的商业诉讼经历，曾在知名的“安然破产大案”中担任相关债务清算公司的负责人。针对当前的局面，Ray 表示根据《破产法》第 11 章申请破产保护是制定下一步计划的必要步骤，目前 Alvarez &amp; Marsal、Sullivan 和 Cromwell 正为 FTX 破产重组提供建议。
-根据 Alameda Research 同步提交给法院的相关文件中，我们可以获悉更为准确的数字（实际也只是个区间）。其中，Alameda Research 在债权人数量的选项中填报的是“预计超过 10 万人”，而在资产及负债规模选项中 Alameda Research 填报的则均为“100 亿美元 - 500美元”。
-
-此外，文件还详列了上述所有 134 家相关公司的信息，具体如下：
-1. Alameda Aus Pty Ltd 
-2. Alameda Global Services Ltd.
-3. Alameda Research (Bahamas) Ltd
-4. Alameda Research Holdings Inc.
-5. Alameda Research KK
-6. Alameda Research LLC
-7. Alameda Research Ltd
-8. Alameda Research Pte Ltd
-9. Alameda Research Yankari L…</span>
                             </span>
                           </div>
                         </a>
@@ -9220,8 +9417,8 @@ BlockBeats 此前报道，9 月 27 日，FTX US 以 14.22 亿美元出价成功�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3476326970">
-        <time id="build-timestamp" datetime="2022-11-16T04:15:02.695Z">2022-11-16T04:15:02.695Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3476561775">
+        <time id="build-timestamp" datetime="2022-11-16T05:08:02.516Z">2022-11-16T05:08:02.516Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
