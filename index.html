@@ -51,383 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-18 datetime="2022-11-18T12:00:00.000Z">2022-11-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-18 datetime="2022-11-18T12:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-18 datetime="2022-11-18T13:46:08.000Z">2022-11-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-18 datetime="2022-11-18T13:46:08.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183255"
-                        open
-                      >
-                        <summary class="article-expander__title">Cobo CTO：Merkle Tree储备证明的缺陷及改进思路</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183255">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：蒋长浩，Cobo 联合创始人兼 CTO
-随着 FTX 倒闭后对中心化机构信任的崩塌，CZ 在 Twitter 上呼吁交易所采用 Merkle Tree 的储备证明方法来证明他们没有挪用用户资产。随后多家交易所开始响应并积极准备储备金证明，以向客户保证他们的资金是安全的。然而 Merkle Tree 储备证明方法存在一些基本缺陷。具体来说，中心化机构很容易通过一些路径绕过这种储备证明方法希望实现的无挪用检查。
-下文中，我将阐述现有 Merkle Tree 储备证明方法的两个基本缺陷，并就如何改进提出一些想法。
-现有储备证明方法的工作原理
-为了缓解用户和中心化机构之间的信息不对称，现有的储备证明通常采用传统的审计方法，即由受各方信任的第三方审计公司出具审计报告，证明中心化机构链上持有的资产数量（储备证明）与用户资产余额总和（负债证明）相匹配。
-对于负债证明，中心化机构需要生成包含用户帐户信息和资产余额的 Merkle Tree。Merkle Tree 本质上建立了用户账户资产余额的匿名化且不可篡改的快照。每个用户可以独立计算其账户的哈希值，并确定他们的账户是否包含在 Merkle Tree 中。
-对于储备证明，中心化机构需要提供其持有的链上地址，并对其进行验证和审计。一种常见的做法是要求中心化机构提供数字签名以证明其对链上地址的所有权。
-在 Merkle Tree 的快照和链上地址所有权确认完成后，审计机构对负债和储备两端各自的资产总量进行核对，进而判断中心化机构是否挪用了用户资金。
-现有储备证明方法的缺陷
-1. 使用借贷资金通过审计的可能性
-储备证明方法存在的一个问题是，审计只是基于某一个特定的时间点并且通常每隔几个月甚至几年才进行一次。也就是说，中心化交易所仍然有机会挪用用户资金并轻易通过借贷的方式在审计期间填补空缺。
-2. 与外部资金方进行合谋通过审计的可能性
-提供相关数字签名并不同于对于相应地址上资产的所有权。中心化机构可以与外部资金方合谋提供链上资产证明。外部资金方甚至可以使用同一笔资金为多家机构同时提供资产证明。目前的审计方法很难对这种欺诈行为进行识别。
-关于改进证明方法的一些想法
-一个理想的储备证明系统应该向审计者和最终用户提供对负债和储备进行实时检查的能力。但是，它也会随之带来高昂的成本和 / 或用户帐户信息的泄露。在获得足够数据的情况下，第三方审计公司甚至可以根据匿名数据推断出用户的仓位信息。
-为了防止审计期间储备证明被伪造的可能性且不以泄露用户信息为代价，我在此提出以下两个主要想法：
-1. 抽查式随机审计
-以不可预测的时间间隔进行随机审计将使中心化机构很难操纵账户余额和链上资产。这种方法还可以通过对被随机性审计抓包的忌惮来威慑不当行为。
-如何实践：审计请求可以由受信任的第三方审计机构随机发送至中心化机构。在收到指令后，中心化机构需要生成 Merkle Tree，其中包含在该特定时间点即按照区块高度编号标记的用户账户余额（负债证明）。
-2. 用 MPC-TSS 方案来加速储备证明
-在随机审计期间，中心化机构需要在很短的时间内提供储备证明。这对于为用户管理大量链上地址的中心化机构（例如交易所）来说是一个很大的挑战。即使中心化机构可以将其大部分资产存储在几个固定的地址上（例如热钱包或冷钱包），存储在大量链上地址中的资金总量仍然很大。在审计期间将所有这些地址中的资金归集到少数的公开地址上是一项非常耗时的工作。这样的时间差也给了挪用行为足够的空间可以去寻求借贷或资金帮助来填补空缺。
-中心化机构是否有可能直接在其真正持有资产的地址上证明储备，而无需将链上资产整合到少数地址上？一种可能的方法是利用 MPC 阈值签名方案 (MPC-TSS) 技术。
-概括来说，MPC-TSS 是一种先进的加密技术，它将私钥分成两个或多个私钥分片，并在加密后由多方持有。这些私钥分片的持有者可以在无需交换各自的私钥分片或合并私钥的情况下共同合作签署交易。这个 MPC-TSS 托管技术也是 Cobo 最近已经推出的一个产品。
-在这个解决方案下，第三方审计机构（可以是律师事务所、审计事务所、托管人、受托人甚至监管机构本身）可以持有一份私钥分片，而中心化机构持有剩余的私钥分片。只要将「阈值」设置为大于一的数字，所有资产仍将处于中心化机构的控制之下。同时要指出的是，为了让中心化机构能够生成大量由审计方共管的地址，MPC-TSS 共管方案需要支持 BIP32 协议。由于拥有一把私钥分片，审计机构可以确定的知道中心化机构链上的地址集合，并且统计出在指定区块高度中心化机构的资产规模。
-感谢包括 Discus Fish（神鱼）、Lily King、Jeanette、Tavia、Linfeng、Ellaine 在内的 Cobo 同事们在撰写本文期间所提出的所有宝贵讨论和建设性建议。
-原文链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183258"
-                        open
-                      >
-                        <summary class="article-expander__title">FTX破产文件十大重点</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183258">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>当地时间 11 月 17 日，FTX 新任首席执行官 John Ray III 向美国特拉华州破产法院提交了一份文件，披露了 FTX 集团相关资产以及运营情况，同时也揭露了此前内部管理混乱、财务状况紊乱等问题。
-“在我的职业生涯中，我从未见过像这里一样的公司，内部管控彻底失败、完全缺乏值得信赖的财务信息……控制权集中在一小撮没有经验、不成熟和可能受到损害的个人手中，这种情况是前所未有的。”John Ray III 表示。
-由于调查才刚刚开始，John Ray III 所领导的团队掌握信息有限。但其表示，根据目前获得的信息，相信 FTX 集团的许多员工有可能是被人利用。“包括一些高管在内的 FTX 集团的许多员工并不知道资金短缺。事实上，他们的个人投资和声誉也受到了影响。”
-在文件最后，John Ray III 再次强调，SBF（FTX 创始人）不再受 FTX 集团雇佣，也不能代表集团发声。“SBF 先生目前在巴哈马，继续发表着不稳定和误导性的公开声明。”
-在阅览了破产文件全文后，Odaily星球日报总结了以下重点内容。
-一、在文件中，Ray 将 FTX 集团按不同业务分为四种业务组，分别为：WRS Silo、Alameda Silo、Ventures Silo、Doctom Silo，如下所示：
-
-
-二、WRS Silo 由债务人 West Realm Shires Inc 及其债务人和非债务人子公司组成，包括 FTX US、LedgerX、FTX US Derivatives、FTX US Capital Markets 、FTX NFTs、Embed Financial Technologies Inc以及其他业务子公司。上述公司全部都是由 West Realm Shires Inc 公司 100% 控股，并且全都在特拉华州组建——除了信托公司 FTX Vault，该公…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183254"
-                        open
-                      >
-                        <summary class="article-expander__title">《华盛顿邮报》：在FTX崩盘，SBF兄弟曾为预防大流行病倾注千万资金</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183254">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《Before FTX collapse, founder poured millions into pandemic prevention》
-原文作者：Dan Diamond
-原文编译：倩雯，ChainCatcher
-
-Sam Bankman-Fried在今年的国会听证会后。根据《华盛顿邮报》的分析，自2021年10月以来，他和他兄弟Gabe、他们的人脉网已至少投入7000万美元，用于防范下一次大流行疾病。(Sarah Silbiger/彭博社)
-2020年春天，新冠来袭，世界骤停，许多人对生命、工作、正常生活的丧失感到悲痛。
-彼时28岁的加密货币企业家Sam Bankman-Fried和他25岁在国会工作的兄弟Gabe认为，这场大流行为他们提供了一个改变现状的机会。
-背靠由SBF创办的加密货币交易所FTX所创的巨大财富，他们开展了一个项目，将约数十亿美元用于预防大流行病，即使在新冠危机中，这个问题也长期被国会忽视。该计划源于兄弟俩坚持的一种叫做有效利他主义的哲学，寻求以能够产生最大影响的方式最大化进行慈善捐赠。
-几乎在一夜之间，Bankman-Fried家族开始了规模惊人的捐款。《华盛顿邮报》通过研究说客集团的信息披露、联邦记录和其他来源发现，自2021年10月以来，兄弟俩及其人脉集团在研究项目、竞选捐款和其他旨在改善生物安全和防止下一次大流行的举措上至少花费了7000万美元。
-但是，根据对曾与Bankman-Fried兄弟进行合作、接受过其赠款或曾加入他们团队的二十多人的采访，FTX被曝出使用客户资金支持姐妹公司的运作，紧接着在上周五申请破产，骤然倒闭，这引发了一串金融后果，他们的大流行病预防议程也难以实现。
-SBF大举资助，曾引起人们将其与比尔·盖茨这样的公共卫生倡导者、乔治·索罗斯这样的政治缔造者相提并论，不过一些评论家和他的前盟友现在已经找到更合适的表…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183256"
-                        open
-                      >
-                        <summary class="article-expander__title">投资机构尽调不充分？FTX B轮融资宣传资料早已透露危险信号</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183256">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 The Block，原文作者：Ryan Weeks、Frank Chaparro
-Odaily星球日报译者 | 余顺遂
-
-随着因 FTX倒闭而名誉扫地的知名投资机构越来越长，The Block 邀请一位法律专家查看 FTX 在 2020 年制作的融资宣传资料，以寻找可能被遗漏的警告信号。
-
-本周，新加坡主权财富基金淡马锡（Temasek）宣布对 FTX 相关公司的 2.75 亿美元投资减记为零，同时保证当时已进行“广泛的尽职调查”。11 月 9 日，硅谷风险投资机构红杉资本（Sequoia）宣布将对 FTX 的 2.135 亿美元投资减记为零，并提到其“严格”的尽职调查程序。
-但是，FTX 的蓝筹支持者（包括贝莱德、Tiger Global Management 和软银）是否忽视了宣传资料中透露的危险信号？Simmons &amp; Simmons 律师事务所合伙人 George Morris 认为是这样的。
-根据 The Block 获取的文件，FTX 在 2020 年 2 月为其 B 轮融资制作的宣传资料中包含“未经证实”的收入和成本等预测数据。当时 FTX  寻求以 10 亿美元的估值融资 5000万美元，而最终融资额远高于此数据。
-虽然宣传资料通常只是尽职调查过程的第一阶段，但这份文件让人感受到 SBF 向投资者展示的大胆且有时牵强附会的愿景。
-Bankman-Fried 和 FTX 的媒体代表没有立即回应置评请求。
-Morris 表示，FTX 在宣传资料中的说法“非常重要，没有任何可行的假设或计算过程支撑”。特别是其 2021 和 2022 年的收入数据与预计的交易量和费用不符，“这意味着它们似乎没有任何具体的关联。”
-宣传资料还包括租金、工资和营销等成本预测，以及 2022 年 3.27 亿美元的净利润预测。根据 Morris 的说法，FTX 估计当年仅需支付765万美元工资，这不太可能涵盖 100 名员工的工资成本。据报道，FTX倒闭时约有300名员工。Morris 说，“支撑这一利润数字的成本似乎被大大低估了。”
-Morris 还提到 FTX 的监管地位不明确，以及当时融资似乎很仓促。“值得注意的是其完成融资的时间非常短。该宣传资料是在 2020 年 2 月6日之后的某个时间制作（根据日均用户图表上的日期），但参考报价需要在 2020 年 2 月 20 日之前提交，而融资于 2020 年 2 月 28 日结束。”他补充说，如果按照这样的时间表进行，“在执行此轮融资之前，几乎没有机会进行任何程度的重大尽职调查。”
-据此前报道，与加密交易公司 Alameda Research相关的监管危险信号可能可以追溯到 2018 年。Alameda 于 2018 年开始通过Telegram 群聊和一个 PPT 宣传文件招揽投资者。该宣传文件描述 Alameda 提供无负面影响和无风险的高回报投资机会。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183253"
-                        open
-                      >
-                        <summary class="article-expander__title">空投埋伏日记：deepwaters、4EVERLAND、Alpha Road（11月18日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183253">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>熊市漫漫，热点分散。在缺乏明确投资机会的当下，本着“宁可错付 gas，不能放过大毛”的原则，我将视线与精力投向了优质项目交互，说不定还能提前发现下一价值标的，是吧。
-
-每天可以埋伏的项目众多，良莠不齐。今天为大家精选的三个项目分别是：DEX deepwaters、Web3 云计算平台 4EVERLAND、StarkNet 上的 DeFi 平台 Alpha Road。
-deepwaters
-项目简介：零 gas DEX 交易平台。
-最新进展：测试网上线。
-项目链接：https://deepwaters.xyz/
-交互建议：明确有 51% 的代币空投，测试网零花费，可以参与。
-详细交互方法：《确认空投项目Deepwatersxyz v2 测试网教程》（需科学上网）。
-
-
-4EVERLAND
-项目简介：Web3 云计算平台。
-最新进展：项目上线。
-项目融资：2022 年 8 月，150 万美元种子轮，Fenbushi Capital、FBG Capital 、Bixin Ventures 、Mint Ventures 、Random Number Capital 参投。
-项目链接：https://www.4everland.org/
-交互建议：项目方明确发币，可以交互。
-详细交互方法：《4EVERLAND深度交互教程》。
-
-
-Alpha Road
-项目简介：StarkNet 上的 DeFi 平台。
-最新进展：测试网上线。
-项目链接：http://alpharoad.fi/
-交互建议：官方表示明确会有空投，操作也比较简单可以交互。
-详细交互方法：《Alpha Road交互保姆级教程》。
-
-
-往期内容
-《空投埋伏日记：Jujube Finance、TreeHouse、Sei Network（11月17日）》
-
-《空投埋伏日记：Fuel、ArayaFinance、Tusima（11月16日）》
-《空投埋伏日记：ParaSpace、MUN、WINTER（11月15日）》</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183250"
-                        open
-                      >
-                        <summary class="article-expander__title">Diem团队梦碎，但成果留存：谈谈Move的编程魅力</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183250">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Move是一种相对发展时间较短的编程语言，但已经在许多Web3.0项目中得到了应用。
-CertiK安全专家团队最近审计了一个支持Move编写智能合约的新型Layer 1区块链。借此机会，我们将为大家整体概述一下Move这一新型编程语言。
-鉴于该内容较为专业，在这篇文章中，我们将讨论Move及其两个特性：可编程资源（有助于支持高交易率）和形式化验证（有助于提高安全性）。
-在这一过程中，本文也将展示Move的语法、类型系统和内存模型，并研究工程师在使用Move时可能犯的一些常见错误。除此之外，我们也将从技术角度审视Move形式化验证的潜力及面临的挑战。
-什么是Move？
-Move是一种用于编写智能合约的特定领域编程语言。最近推出的几个热门项目均支持Move语言，包括Aptos、0L和Starcoin区块链。另外还有Sui区块链同样支持Move语言并将其命名为Sui Move。
-Move最初是作为Diem项目的一部分开发的，但这一属于Meta（原Facebook）的基于区块链的支付网络现在已被解散。
-在Diem发表的《为什么要创建Move？》文档中，其指出“为了成功支持像Diem支付网络这样的支付系统，我们需要一种可以对数字资产的所有权进行编码，并为这些资产的转移创建程序的编程语言。目前已经有数百种语言在使用，其中一些已经作为原生语言包含到区块链的实现中。
-Diem Networks本可以选择一种通用语言，如WebAssembly或Java字节码，或现有的区块链语言，如EVM字节码或比特币script。理论上，我们的确应当选择一种现有的语言，毕竟一种语言的社区、库、工具都和语言设计一样重要，而这些都需要多年的时间来建立。从这一角度上来说，应该谨慎创建一种新语言。但最终选择创建Move是因为我们看到了一个机会——Move将可以帮助我们在几个重要方面对现有替代方案进行逐步改进。”
-D…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183248"
-                        open
-                      >
-                        <summary class="article-expander__title">C罗、梅西、法甲入局Web3，世界杯有望一扫加密阴霾吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183248">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>对所有加密市场投资者和从业者来说，2022年都将是被载入史册的一年，这一年中，我们数次见证历史，大批投资人都成为了历史车轮无情倾轧之下的牺牲品。
-2022年上半年，算法稳定币巨头Luna暴雷，不仅Luna本身的千亿市值一夜间灰飞烟灭，更是引发了市场后续的一系列连锁反应。
-随后，Luna的投资方3AC破产-借钱给3AC的Voyager宣告破产-收购Voyager的Alameda陷入流动性危机-贷款给Alameda的FTX陷入流动性危机.......
-当第一张多米洛骨牌倒下之后，就算是全球第二大加密货币交易所FTX也无力回天，最终只能落得破产重组的下场。
-最糟糕的是，FTX的暴雷不仅加快了加密寒冬的到来，同时也使得圈内投资者大面积破产，加密市场的市值也严重缩水，资金外流明显。
-不过，在FTX所带来的熊市阴影渐渐散去后，加密市场会因近期的世界杯的热度开始出现回暖迹象吗？
-近期，顶级足球明星克里斯蒂亚诺·罗纳尔多（C罗）通过其个人推特号公开宣布了其将进军NFT市场的消息，并留言称：“我与粉丝的关系对我来说非常重要，通过NFT带来的前所未有的体验会增加我们之间的联系，因为我知道粉丝们会和我一样喜欢这些NFT藏品。”
-该消息发出后立即引发了加密市场关注，也让沉寂了许久的NFT市场再次活跃了起来。于此同时，据美国CNBC报道，另一位足球巨星莱昂内尔·梅西也将会以投资人和品牌大使的身份加入法国NFT交易卡牌游戏Sorare。
-自此，足球届的两位在役巨星都已通过不同形式加入到了Web3赛道中来。
-不过事情到这里还远没有结束，有消息称国际足球五大联赛之一的法甲联赛也于近期加入到了Web3赛道中来。
-很快这一消息就得到了证实，11月16日，法甲旗下知名球队图卢兹俱乐部通过其官方推特发布声明称：已与Web3足球元宇宙生态项目FFC达成了战略合作，并将会与FFC共同建立Web3足球元宇宙世界。
-两大…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183230"
-                        open
-                      >
-                        <summary class="article-expander__title">FTX深度数据复盘</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183230">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Nov 2022, Sabrina
-Data Source:Footprint Anlytics Dashboards
-11月2日，Coindesk 公布了 Alameda 的私人财务文件，这是一家由 FTX 创始人 Sam Bankman-Fried 拥有的风险投资和交易公司，与该交易所密切相关，从而引发了加密货币历史上最大的崩盘。 
-在随后的一周里，1.4亿 FTT 流向了 Binance，代币从 26 美元跌至 2 美元以下。这引发了对 FTX 的挤兑，所谓的 &quot;黑客 &quot;从储备中抽走了 4.73 亿美元，以及世界第二大交易平台宣布破产。
-事件关键节点回顾
-
-11月2日：Coindesk 发布了 Alameda 的私人财务文件。
-
-11月6日：Binance 创始人 CZ 发布消息称，Binance 将在未来几个月内抛售其账面上的所有 FTT 币。Alameda 首席执行官 Caroline Ellison 提出以 22 美元的价格购买 Binance 的所有 FTT 持有量。
-
-11月6日：FTT 经历了第一次大幅下跌（下跌10%），在 Caroline Ellison 的报价后回到了 24 美元。
-
-11月8日：FTX 国际暂停提款。
-
-11月8日：FTT 暴跌至 5 美元 。
-
-11月8日：Binance 宣布它可能对收购 FTX 感兴趣。
-
-11月11日：收购被终止。
-
-11月11日：FTX 申请破产，用户的资金被盗。
-
-
-Footprint Analytics - FTT Token Price (5 Minutes Frequency)
-FTX 崩盘对整个加密圈的影响
-FTX 的崩盘使市场再次陷入极度恐惧的状态，BT C跌至今年的最低水平 16,000 美元。
-
-Footprint Analytics - BTC Price VS FGI
-乍一看，在这种情况…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183210"
-                        open
-                      >
-                        <summary class="article-expander__title">西班牙知名导演：电影产业应与NFT及社区做结合</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183210">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>“OGtown”是华语cryptopunks社区授权的文章专栏
-本期特邀嘉宾介绍
-Miguel Faus：Cryptopunks OG，来自巴塞罗那的编剧和导演。他的短篇《唐吉坷德之死》和《卡拉蒂塔》在全球各大电影节上获奖和放映。被Variety评为“值得关注的西班牙人才”
-华语加密朋克社区嘉宾：
-Noun_74：华语cryptopunks社区的发起人，noun中文生态社区创办人；曾孵化和辅导多个华语NFT项目走向全球社区。
-通证一哥：2016年起专注区块链行业相关的研究。中国大陆第一本NFT畅销书作者。加密朋克中文社区的联合发起人。token punk社区发起人
-88punk：陈序，元宇宙智库MetaZ创始人、Coindesk China 前联合出版人、中国punksOG。
-Punk9277：Kaito创始人, ex-Citadel交易员, NFT爱好者
-南瓜：NFT老油条，也叫拉闸，曾担任多项目的运营和顾问，能叫的出名字的蓝筹持有者
-主持人moonlight：美东华裔双语主持人，Binance live和HUOBI live杰出builder,币安直播头部频道Ultiverse主持，策划参与数千场节目和活动
-访谈正文
-主持人moonlight：想问一下我们的导演Miguel以及PUNK9277为什么当初想要购买加密朋克，以及如何看待加密朋克的未来呢？
-Miguel：我购买punk这个时间点是在开始接触NFT几个月之后，当时是因为疫情下的封锁，在网络上偶然接触到了NFT和加密朋克，我认为NFT作为一种证明持有人所有权技术的底层逻辑，能够增强包括对创作者以及对艺术家的扶持，因此我当时认为，在当时的web 3的空间内，加密朋克是最好的一个NFT项目，而且我发现在当时的NFT空间内，所有比较OG一点的玩家已经比较有见解的这一类玩家，都是使用punks作为头像，所以我就把我当时所…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183241"
-                        open
-                      >
-                        <summary class="article-expander__title">Gemini Earn暂停提现，对GUSD和MakerDAO有何影响？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183241">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Gemini Earn暂停提现，有传言称MakerDAO有5亿美元的资金被冻结在了Gemini Earn当中，实际并非如此，此事对于GUSD和合作方MakerDAO的影响可能较小。
-11月16日晚，数据分析平台Nansen的首席运营官Alex Svanevik在社交媒体上发布了GUSD的数据。有4.8亿在MakerDAO的PSM合约中，占GUSD总量的73%；最近7天，GUSD遭遇了大量赎回。GUSD正是由加密交易所Gemini发行的。
-受3AC和FTX暴雷的影响，加密借贷平台Genesis宣布暂停提款，也导致Gemini的Earn产品暂停提现。数据显示，过去24小时，Gemini交易所的资金流出了8.5亿美元，似乎和FTX遭到挤兑初期时的状况相似。
-DeFi与CeFi的结合能够增强DeFi的盈利能力，但这种可组合性也将使CeFi的风险有可能蔓延到DeFi中。那么此次Gemini Earn产品的风险是否会传导至GUSD，并影响到MakerDAO呢？
-Genesis的风险
-导致Gemini出现风险的根源在于Genesis，倘若Genesis解决了自身的问题，Gemini的危机自然也就迎刃而解。
-我们知道，Genesis和管理着大量加密资产的Grayscale（灰度）同属于DCG旗下。在Genesis宣布暂停提现后，市场上曾经出现DCG可能关闭Grayscale，以利用锁定的BTC来拯救Genesis的传言。虽然这种可能性较低，但也说明Genesis的母公司实力较强。此前Genesis称有1.75亿美元的资金锁定在FTX的交易账户中，但Grayscale仅依靠2%的管理费，就可以产生每年2亿美元的收入，这可能已经超过了Genesis的亏空。
-虽然Genesis和Grayscale同属于一个大股东，但两者独立运作，理论上也存在让Genesis破产，Grayscale继续赚钱的可能…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183240"
-                        open
-                      >
-                        <summary class="article-expander__title">CeFi信任危机下，DeFi非足额抵押贷款将何去何从？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183240">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Ben Giove、Jack Inabinet
-原文编译：aididiaojp.eth，Foresight News
-抵押不足的贷款是一种高风险业务。
-在传统金融中，这种贷款通常来自联邦基金市场，显然美联储不会「违约」。如果是商业银行贷款，市场就会依靠穆迪或标普等评级机构来确定借款人的信用度。
-DeFi 中既没有美联储，也不存在标普，那么抵押不足的借贷是如何发生的呢？
-其实像 Maple Finance、Gearbox 和 TrueFi 等大量协议已经开始了各种尝试，FTX 和 Alameda 这样的机构都是这个市场的巨额借款人。
-在「抵押不足」已经成为加密行业中一个危险信号的情况下，DeFi 世界是如何通过区块链和智能合约来治理这个高风险行业的？
-
-从 Voyager 、Celsius 再到 FTX，TradFi 机构因抵押不足等原因造成破产危机，给市场带来了巨大的负面影响。中心化加密贷款人不计后果地向各种加密基金（3AC、Alameda 等）提供信贷，并承诺可以为用户提供可观的收益回报。
-不幸的是，正如最近市场所发生的事情一样，高额回报的投资愿景并不总能实现。
-用户本能地会对接受这种形式的贷款犹豫不决，本文希望可以帮助你在无抵押贷款黑暗中找到光明。
-了解抵押贷款
-首先，让我们先聊一聊抵押贷款。
-每个人都知道抵押贷款，这是 Aave 和 Compound 等各种项目提供的 DeFi 核心词汇。
-在最近的市场下跌中，两者都在持续清算未能达到抵押品要求的用户。尽管市场出现了大量 CeFi 暴雷事件，但蓝筹 DeFi 贷方仍然具有偿付能力。
-Aave 、Compound 和 MakerDAO 这样的稳定币质押方都会要求用户完全抵押他们的头寸。每借入 1 美元，就必须至少存入 1 美元作为抵押品，以确保在发生违约时贷方能够保持充足的流动性。
-如果用户抵押品价值低于其头寸…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -439,6 +67,87 @@ Aave 、Compound 和 MakerDAO 这样的稳定币质押方都会要求用户完�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/39kpo9l5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">DeFi基础设施Revv于Q2完成550万美元种子轮融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/39kpo9l5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月18日消息，去中心化金融（DeFi）市场基础设施 Revv 宣布已于第二季度完成 550 万美元种子轮融资，Libertus Capital 领投，参投方包括 Castle Island Ventures、Tribe Capital、DACM、C² Ventures、Palm Drive Capital、Figment Capital 以及 GFC 等。Revv 创始人 Adi 表示，Revv 希望将 TradFi 和 Web2 的实践与加密原生体验相结合建立新 DeFi 产品。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/fyki4bdw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国特拉华州破产法院将于11月22日举行FTX听证会</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/fyki4bdw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月18日消息，据法庭文件，FTX Trading（FTX.com）将于11月22日在美国特拉华州一家破产法庭举行听证会，因为FTX试图将相关案件从纽约转移到特拉华州法院。特拉华州法官John T. Dorsey已同意听取原定于11月21日举行的转移场地的动议。FTX位于巴哈马的实体FTX Digital Markets已向纽约南区法院申请第15章破产保护，FTX代表正在寻求让特拉华州法院接管第15章的诉讼。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/5pvtu5q4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">加密交易所Thodex创始人将被引渡到土耳其</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5pvtu5q4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月18日消息，土耳其加密货币交易所 Thodex 的创始人 Faruk Fatih Öze 将被引渡到土耳其，并将面临欺诈和经营犯罪组织的指控。Faruk Fatih Öze 于 8 月底在阿尔巴尼亚被捕，涉嫌诈骗20亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/e1bqrm4t.html"
+                        open
+                      >
+                        <summary class="article-expander__title">淡马锡：通过鼓励创业和投资接触区块链</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/e1bqrm4t.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月18日消息，新加坡国家投资基金淡马锡（Temasek）在一份声明中表示：“包括区块链技术在内的创新技术，有可能改变各行业并创造一个更紧密的世界。区块链和数码资产行业的兴起带来了无数机会，也带来巨大风险。”创新技术能带来改变，但也伴随巨大风险，淡马锡通过鼓励创业和投资的双策略，接触区块链领域。淡马锡密切留意所涉及的风险，并采取双管齐下的策略来接触这一领域，即支持创业（venture building）和投资。
+此前，淡马锡减记对FTX的2.75亿美元，并称在加密货币方面没有直接敞口。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1473,6 +1182,428 @@ AIP-142旨在创建一个Ape通信团队“ApeComms”，主要职责包括搭�
 COP27 是 UNFCCC 第 27 次缔约方会议的简称。UNFCCC 是《联合国气候变化框架公约》的简称。COP27（2022年联合国气候变化大会）会议于 11 月 6 日至 18 日在埃及沙姆沙伊赫举行。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183257"
+                        open
+                      >
+                        <summary class="article-expander__title">一文了解Scroll：zkEVM竞赛的低调挑战者</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183257">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Blockworks Research，Westie
+原文编译：深潮 TechFlow
+鉴于 EVM 在开发人员中的普及，人们一直希望将 zk Rollup 技术的可扩展性与 EVM 的开发者体验相结合。这导致了一场 zkEVM 系统的军备竞赛，其中主要的参与者是 Scroll、zkSync 和 Polygon，而 Scroll 相对于其他两者来说一直保持低调。
+由于 EVM 的限制，zkEVM 面临着兼容性/等价性和性能之间的必要权衡。Vitalik Buterin 列出了从 1 到 4 的等级，以努力阐明各种 zkEVM 设计选择之间的区别：
+
+Scroll 处于这种权衡的中间：他们正在建立一种 2.5 的 zkEVM。
+这意味着它们与 EVM 等效，只是对 Gas 成本结构的方式进行了非常小的改变。
+Scroll 的与众不同之处
+通过保持 EVM 的等效性，构建者能够直接将他们的应用程序从 Ethereum L1 迁移到 Scroll，而无需对其代码进行任何修改。它们也是完全开源的，允许任何人使用和验证他们的代码。
+Scroll 还为他们的排序器使用了 Geth 的一个分叉，使其继承经过实战检验的系统的同时，实现与以太坊的最佳兼容性。
+这也意味着他们可以很容易地将任何新的升级应用于 Geth；其他 zkEVM 可能需要增加代码复杂性才能进行升级。
+Scroll 的架构
+Scroll 的架构有三个主要组成部分：Scroll 节点、Roller 网络和验证桥。
+
+Scroll 节点的目的是从用户的交易中构建块并将它们提交给 L1，以及接收来自 L1 的消息。
+Scroll Node 的三个主要组成部分是排序器、协调器和中继器。
+排序器从 L2 mempool 接收一批交易，并执行它们以生成一个新的 L2 块。
+然后，该区块的执行轨迹被发送到协调器，协调器将其传递给一个随机选择的 Roller 以生成证明。
+中继器监控 L2 区块的状态，及其它们的数据可用性和来自滚动合同的有效性证明，以及来自桥接合同的存款和提款事件，以确保一切都可以被验证。
+Roller 网络负责生成有效性证明。Roller 网络将从协调器那里接收执行轨迹，将其发送到七个不同的证明电路中，将其汇总到一个最终电路中，并将最终的块证明送回协调器。
+
+验证桥包含两个合约：Rollup 合约和跨链桥合约。
+跨链桥合约处理 L1 和 L2 之间发送的消息，包括 ERC-20 Token 的桥接交易。
+Rollup 合约接收并存储状态根和区块数据作为以太坊状态和 calldata。一旦一个区块证明被 Rollup 合约验证，该区块就被认为是最终确定的。
+总的来说，在排序器创建一个区块序列并生成其证明后，多个区块证明被汇总成一个单一的证明，并通过协调器发送到 Rollup 合约，在那里区块被验证并被最终确定。
+
+路线图
+在过去的 3 个月里，Scroll 一直处于 Pre-Alpha 测试阶段，包括经过许可的智能合约部署和白名单用户访问。
+下一个阶段将是 Alpha 测试网，他们将允许无权限的智能合约部署，任何人都可以使用。
+Scroll 的主网将有两个阶段的启动。
+第一阶段将使用中心化的排序器和去中心化的证明者一起运行；
+第二阶段的主要目标是将排序器去中心化。
+虽然第二阶段仍在积极研究中，但目前的计划将包括用于 MEV 提取的 PBS 模型、链上挑战机制和一个排序器委员会，以允许在以太坊 L1 上完成交易之前实现最终确定。
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183255"
+                        open
+                      >
+                        <summary class="article-expander__title">Cobo CTO：Merkle Tree储备证明的缺陷及改进思路</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183255">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：蒋长浩，Cobo 联合创始人兼 CTO
+随着 FTX 倒闭后对中心化机构信任的崩塌，CZ 在 Twitter 上呼吁交易所采用 Merkle Tree 的储备证明方法来证明他们没有挪用用户资产。随后多家交易所开始响应并积极准备储备金证明，以向客户保证他们的资金是安全的。然而 Merkle Tree 储备证明方法存在一些基本缺陷。具体来说，中心化机构很容易通过一些路径绕过这种储备证明方法希望实现的无挪用检查。
+下文中，我将阐述现有 Merkle Tree 储备证明方法的两个基本缺陷，并就如何改进提出一些想法。
+现有储备证明方法的工作原理
+为了缓解用户和中心化机构之间的信息不对称，现有的储备证明通常采用传统的审计方法，即由受各方信任的第三方审计公司出具审计报告，证明中心化机构链上持有的资产数量（储备证明）与用户资产余额总和（负债证明）相匹配。
+对于负债证明，中心化机构需要生成包含用户帐户信息和资产余额的 Merkle Tree。Merkle Tree 本质上建立了用户账户资产余额的匿名化且不可篡改的快照。每个用户可以独立计算其账户的哈希值，并确定他们的账户是否包含在 Merkle Tree 中。
+对于储备证明，中心化机构需要提供其持有的链上地址，并对其进行验证和审计。一种常见的做法是要求中心化机构提供数字签名以证明其对链上地址的所有权。
+在 Merkle Tree 的快照和链上地址所有权确认完成后，审计机构对负债和储备两端各自的资产总量进行核对，进而判断中心化机构是否挪用了用户资金。
+现有储备证明方法的缺陷
+1. 使用借贷资金通过审计的可能性
+储备证明方法存在的一个问题是，审计只是基于某一个特定的时间点并且通常每隔几个月甚至几年才进行一次。也就是说，中心化交易所仍然有机会挪用用户资金并轻易通过借贷的方式在审计期间填补空缺。
+2. 与外部资金方进行合谋通过审计的可能性
+提供相关数字签名并不同于对于相应地址上资产的所有权。中心化机构可以与外部资金方合谋提供链上资产证明。外部资金方甚至可以使用同一笔资金为多家机构同时提供资产证明。目前的审计方法很难对这种欺诈行为进行识别。
+关于改进证明方法的一些想法
+一个理想的储备证明系统应该向审计者和最终用户提供对负债和储备进行实时检查的能力。但是，它也会随之带来高昂的成本和 / 或用户帐户信息的泄露。在获得足够数据的情况下，第三方审计公司甚至可以根据匿名数据推断出用户的仓位信息。
+为了防止审计期间储备证明被伪造的可能性且不以泄露用户信息为代价，我在此提出以下两个主要想法：
+1. 抽查式随机审计
+以不可预测的时间间隔进行随机审计将使中心化机构很难操纵账户余额和链上资产。这种方法还可以通过对被随机性审计抓包的忌惮来威慑不当行为。
+如何实践：审计请求可以由受信任的第三方审计机构随机发送至中心化机构。在收到指令后，中心化机构需要生成 Merkle Tree，其中包含在该特定时间点即按照区块高度编号标记的用户账户余额（负债证明）。
+2. 用 MPC-TSS 方案来加速储备证明
+在随机审计期间，中心化机构需要在很短的时间内提供储备证明。这对于为用户管理大量链上地址的中心化机构（例如交易所）来说是一个很大的挑战。即使中心化机构可以将其大部分资产存储在几个固定的地址上（例如热钱包或冷钱包），存储在大量链上地址中的资金总量仍然很大。在审计期间将所有这些地址中的资金归集到少数的公开地址上是一项非常耗时的工作。这样的时间差也给了挪用行为足够的空间可以去寻求借贷或资金帮助来填补空缺。
+中心化机构是否有可能直接在其真正持有资产的地址上证明储备，而无需将链上资产整合到少数地址上？一种可能的方法是利用 MPC 阈值签名方案 (MPC-TSS) 技术。
+概括来说，MPC-TSS 是一种先进的加密技术，它将私钥分成两个或多个私钥分片，并在加密后由多方持有。这些私钥分片的持有者可以在无需交换各自的私钥分片或合并私钥的情况下共同合作签署交易。这个 MPC-TSS 托管技术也是 Cobo 最近已经推出的一个产品。
+在这个解决方案下，第三方审计机构（可以是律师事务所、审计事务所、托管人、受托人甚至监管机构本身）可以持有一份私钥分片，而中心化机构持有剩余的私钥分片。只要将「阈值」设置为大于一的数字，所有资产仍将处于中心化机构的控制之下。同时要指出的是，为了让中心化机构能够生成大量由审计方共管的地址，MPC-TSS 共管方案需要支持 BIP32 协议。由于拥有一把私钥分片，审计机构可以确定的知道中心化机构链上的地址集合，并且统计出在指定区块高度中心化机构的资产规模。
+感谢包括 Discus Fish（神鱼）、Lily King、Jeanette、Tavia、Linfeng、Ellaine 在内的 Cobo 同事们在撰写本文期间所提出的所有宝贵讨论和建设性建议。
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183258"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX破产文件十大重点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183258">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>当地时间 11 月 17 日，FTX 新任首席执行官 John Ray III 向美国特拉华州破产法院提交了一份文件，披露了 FTX 集团相关资产以及运营情况，同时也揭露了此前内部管理混乱、财务状况紊乱等问题。
+“在我的职业生涯中，我从未见过像这里一样的公司，内部管控彻底失败、完全缺乏值得信赖的财务信息……控制权集中在一小撮没有经验、不成熟和可能受到损害的个人手中，这种情况是前所未有的。”John Ray III 表示。
+由于调查才刚刚开始，John Ray III 所领导的团队掌握信息有限。但其表示，根据目前获得的信息，相信 FTX 集团的许多员工有可能是被人利用。“包括一些高管在内的 FTX 集团的许多员工并不知道资金短缺。事实上，他们的个人投资和声誉也受到了影响。”
+在文件最后，John Ray III 再次强调，SBF（FTX 创始人）不再受 FTX 集团雇佣，也不能代表集团发声。“SBF 先生目前在巴哈马，继续发表着不稳定和误导性的公开声明。”
+在阅览了破产文件全文后，Odaily星球日报总结了以下重点内容。
+一、在文件中，Ray 将 FTX 集团按不同业务分为四种业务组，分别为：WRS Silo、Alameda Silo、Ventures Silo、Doctom Silo，如下所示：
+
+
+二、WRS Silo 由债务人 West Realm Shires Inc 及其债务人和非债务人子公司组成，包括 FTX US、LedgerX、FTX US Derivatives、FTX US Capital Markets 、FTX NFTs、Embed Financial Technologies Inc以及其他业务子公司。上述公司全部都是由 West Realm Shires Inc 公司 100% 控股，并且全都在特拉华州组建——除了信托公司 FTX Vault，该公…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183254"
+                        open
+                      >
+                        <summary class="article-expander__title">《华盛顿邮报》：在FTX崩盘，SBF兄弟曾为预防大流行病倾注千万资金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183254">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Before FTX collapse, founder poured millions into pandemic prevention》
+原文作者：Dan Diamond
+原文编译：倩雯，ChainCatcher
+
+Sam Bankman-Fried在今年的国会听证会后。根据《华盛顿邮报》的分析，自2021年10月以来，他和他兄弟Gabe、他们的人脉网已至少投入7000万美元，用于防范下一次大流行疾病。(Sarah Silbiger/彭博社)
+2020年春天，新冠来袭，世界骤停，许多人对生命、工作、正常生活的丧失感到悲痛。
+彼时28岁的加密货币企业家Sam Bankman-Fried和他25岁在国会工作的兄弟Gabe认为，这场大流行为他们提供了一个改变现状的机会。
+背靠由SBF创办的加密货币交易所FTX所创的巨大财富，他们开展了一个项目，将约数十亿美元用于预防大流行病，即使在新冠危机中，这个问题也长期被国会忽视。该计划源于兄弟俩坚持的一种叫做有效利他主义的哲学，寻求以能够产生最大影响的方式最大化进行慈善捐赠。
+几乎在一夜之间，Bankman-Fried家族开始了规模惊人的捐款。《华盛顿邮报》通过研究说客集团的信息披露、联邦记录和其他来源发现，自2021年10月以来，兄弟俩及其人脉集团在研究项目、竞选捐款和其他旨在改善生物安全和防止下一次大流行的举措上至少花费了7000万美元。
+但是，根据对曾与Bankman-Fried兄弟进行合作、接受过其赠款或曾加入他们团队的二十多人的采访，FTX被曝出使用客户资金支持姐妹公司的运作，紧接着在上周五申请破产，骤然倒闭，这引发了一串金融后果，他们的大流行病预防议程也难以实现。
+SBF大举资助，曾引起人们将其与比尔·盖茨这样的公共卫生倡导者、乔治·索罗斯这样的政治缔造者相提并论，不过一些评论家和他的前盟友现在已经找到更合适的表…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183256"
+                        open
+                      >
+                        <summary class="article-expander__title">投资机构尽调不充分？FTX B轮融资宣传资料早已透露危险信号</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183256">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 The Block，原文作者：Ryan Weeks、Frank Chaparro
+Odaily星球日报译者 | 余顺遂
+
+随着因 FTX倒闭而名誉扫地的知名投资机构越来越长，The Block 邀请一位法律专家查看 FTX 在 2020 年制作的融资宣传资料，以寻找可能被遗漏的警告信号。
+
+本周，新加坡主权财富基金淡马锡（Temasek）宣布对 FTX 相关公司的 2.75 亿美元投资减记为零，同时保证当时已进行“广泛的尽职调查”。11 月 9 日，硅谷风险投资机构红杉资本（Sequoia）宣布将对 FTX 的 2.135 亿美元投资减记为零，并提到其“严格”的尽职调查程序。
+但是，FTX 的蓝筹支持者（包括贝莱德、Tiger Global Management 和软银）是否忽视了宣传资料中透露的危险信号？Simmons &amp; Simmons 律师事务所合伙人 George Morris 认为是这样的。
+根据 The Block 获取的文件，FTX 在 2020 年 2 月为其 B 轮融资制作的宣传资料中包含“未经证实”的收入和成本等预测数据。当时 FTX  寻求以 10 亿美元的估值融资 5000万美元，而最终融资额远高于此数据。
+虽然宣传资料通常只是尽职调查过程的第一阶段，但这份文件让人感受到 SBF 向投资者展示的大胆且有时牵强附会的愿景。
+Bankman-Fried 和 FTX 的媒体代表没有立即回应置评请求。
+Morris 表示，FTX 在宣传资料中的说法“非常重要，没有任何可行的假设或计算过程支撑”。特别是其 2021 和 2022 年的收入数据与预计的交易量和费用不符，“这意味着它们似乎没有任何具体的关联。”
+宣传资料还包括租金、工资和营销等成本预测，以及 2022 年 3.27 亿美元的净利润预测。根据 Morris 的说法，FTX 估计当年仅需支付765万美元工资，这不太可能涵盖 100 名员工的工资成本。据报道，FTX倒闭时约有300名员工。Morris 说，“支撑这一利润数字的成本似乎被大大低估了。”
+Morris 还提到 FTX 的监管地位不明确，以及当时融资似乎很仓促。“值得注意的是其完成融资的时间非常短。该宣传资料是在 2020 年 2 月6日之后的某个时间制作（根据日均用户图表上的日期），但参考报价需要在 2020 年 2 月 20 日之前提交，而融资于 2020 年 2 月 28 日结束。”他补充说，如果按照这样的时间表进行，“在执行此轮融资之前，几乎没有机会进行任何程度的重大尽职调查。”
+据此前报道，与加密交易公司 Alameda Research相关的监管危险信号可能可以追溯到 2018 年。Alameda 于 2018 年开始通过Telegram 群聊和一个 PPT 宣传文件招揽投资者。该宣传文件描述 Alameda 提供无负面影响和无风险的高回报投资机会。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183253"
+                        open
+                      >
+                        <summary class="article-expander__title">空投埋伏日记：deepwaters、4EVERLAND、Alpha Road（11月18日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183253">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>熊市漫漫，热点分散。在缺乏明确投资机会的当下，本着“宁可错付 gas，不能放过大毛”的原则，我将视线与精力投向了优质项目交互，说不定还能提前发现下一价值标的，是吧。
+
+每天可以埋伏的项目众多，良莠不齐。今天为大家精选的三个项目分别是：DEX deepwaters、Web3 云计算平台 4EVERLAND、StarkNet 上的 DeFi 平台 Alpha Road。
+deepwaters
+项目简介：零 gas DEX 交易平台。
+最新进展：测试网上线。
+项目链接：https://deepwaters.xyz/
+交互建议：明确有 51% 的代币空投，测试网零花费，可以参与。
+详细交互方法：《确认空投项目Deepwatersxyz v2 测试网教程》（需科学上网）。
+
+
+4EVERLAND
+项目简介：Web3 云计算平台。
+最新进展：项目上线。
+项目融资：2022 年 8 月，150 万美元种子轮，Fenbushi Capital、FBG Capital 、Bixin Ventures 、Mint Ventures 、Random Number Capital 参投。
+项目链接：https://www.4everland.org/
+交互建议：项目方明确发币，可以交互。
+详细交互方法：《4EVERLAND深度交互教程》。
+
+
+Alpha Road
+项目简介：StarkNet 上的 DeFi 平台。
+最新进展：测试网上线。
+项目链接：http://alpharoad.fi/
+交互建议：官方表示明确会有空投，操作也比较简单可以交互。
+详细交互方法：《Alpha Road交互保姆级教程》。
+
+
+往期内容
+《空投埋伏日记：Jujube Finance、TreeHouse、Sei Network（11月17日）》
+
+《空投埋伏日记：Fuel、ArayaFinance、Tusima（11月16日）》
+《空投埋伏日记：ParaSpace、MUN、WINTER（11月15日）》</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183250"
+                        open
+                      >
+                        <summary class="article-expander__title">Diem团队梦碎，但成果留存：谈谈Move的编程魅力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183250">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Move是一种相对发展时间较短的编程语言，但已经在许多Web3.0项目中得到了应用。
+CertiK安全专家团队最近审计了一个支持Move编写智能合约的新型Layer 1区块链。借此机会，我们将为大家整体概述一下Move这一新型编程语言。
+鉴于该内容较为专业，在这篇文章中，我们将讨论Move及其两个特性：可编程资源（有助于支持高交易率）和形式化验证（有助于提高安全性）。
+在这一过程中，本文也将展示Move的语法、类型系统和内存模型，并研究工程师在使用Move时可能犯的一些常见错误。除此之外，我们也将从技术角度审视Move形式化验证的潜力及面临的挑战。
+什么是Move？
+Move是一种用于编写智能合约的特定领域编程语言。最近推出的几个热门项目均支持Move语言，包括Aptos、0L和Starcoin区块链。另外还有Sui区块链同样支持Move语言并将其命名为Sui Move。
+Move最初是作为Diem项目的一部分开发的，但这一属于Meta（原Facebook）的基于区块链的支付网络现在已被解散。
+在Diem发表的《为什么要创建Move？》文档中，其指出“为了成功支持像Diem支付网络这样的支付系统，我们需要一种可以对数字资产的所有权进行编码，并为这些资产的转移创建程序的编程语言。目前已经有数百种语言在使用，其中一些已经作为原生语言包含到区块链的实现中。
+Diem Networks本可以选择一种通用语言，如WebAssembly或Java字节码，或现有的区块链语言，如EVM字节码或比特币script。理论上，我们的确应当选择一种现有的语言，毕竟一种语言的社区、库、工具都和语言设计一样重要，而这些都需要多年的时间来建立。从这一角度上来说，应该谨慎创建一种新语言。但最终选择创建Move是因为我们看到了一个机会——Move将可以帮助我们在几个重要方面对现有替代方案进行逐步改进。”
+D…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183248"
+                        open
+                      >
+                        <summary class="article-expander__title">C罗、梅西、法甲入局Web3，世界杯有望一扫加密阴霾吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183248">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>对所有加密市场投资者和从业者来说，2022年都将是被载入史册的一年，这一年中，我们数次见证历史，大批投资人都成为了历史车轮无情倾轧之下的牺牲品。
+2022年上半年，算法稳定币巨头Luna暴雷，不仅Luna本身的千亿市值一夜间灰飞烟灭，更是引发了市场后续的一系列连锁反应。
+随后，Luna的投资方3AC破产-借钱给3AC的Voyager宣告破产-收购Voyager的Alameda陷入流动性危机-贷款给Alameda的FTX陷入流动性危机.......
+当第一张多米洛骨牌倒下之后，就算是全球第二大加密货币交易所FTX也无力回天，最终只能落得破产重组的下场。
+最糟糕的是，FTX的暴雷不仅加快了加密寒冬的到来，同时也使得圈内投资者大面积破产，加密市场的市值也严重缩水，资金外流明显。
+不过，在FTX所带来的熊市阴影渐渐散去后，加密市场会因近期的世界杯的热度开始出现回暖迹象吗？
+近期，顶级足球明星克里斯蒂亚诺·罗纳尔多（C罗）通过其个人推特号公开宣布了其将进军NFT市场的消息，并留言称：“我与粉丝的关系对我来说非常重要，通过NFT带来的前所未有的体验会增加我们之间的联系，因为我知道粉丝们会和我一样喜欢这些NFT藏品。”
+该消息发出后立即引发了加密市场关注，也让沉寂了许久的NFT市场再次活跃了起来。于此同时，据美国CNBC报道，另一位足球巨星莱昂内尔·梅西也将会以投资人和品牌大使的身份加入法国NFT交易卡牌游戏Sorare。
+自此，足球届的两位在役巨星都已通过不同形式加入到了Web3赛道中来。
+不过事情到这里还远没有结束，有消息称国际足球五大联赛之一的法甲联赛也于近期加入到了Web3赛道中来。
+很快这一消息就得到了证实，11月16日，法甲旗下知名球队图卢兹俱乐部通过其官方推特发布声明称：已与Web3足球元宇宙生态项目FFC达成了战略合作，并将会与FFC共同建立Web3足球元宇宙世界。
+两大…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183230"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX深度数据复盘</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183230">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Nov 2022, Sabrina
+Data Source:Footprint Anlytics Dashboards
+11月2日，Coindesk 公布了 Alameda 的私人财务文件，这是一家由 FTX 创始人 Sam Bankman-Fried 拥有的风险投资和交易公司，与该交易所密切相关，从而引发了加密货币历史上最大的崩盘。 
+在随后的一周里，1.4亿 FTT 流向了 Binance，代币从 26 美元跌至 2 美元以下。这引发了对 FTX 的挤兑，所谓的 &quot;黑客 &quot;从储备中抽走了 4.73 亿美元，以及世界第二大交易平台宣布破产。
+事件关键节点回顾
+
+11月2日：Coindesk 发布了 Alameda 的私人财务文件。
+
+11月6日：Binance 创始人 CZ 发布消息称，Binance 将在未来几个月内抛售其账面上的所有 FTT 币。Alameda 首席执行官 Caroline Ellison 提出以 22 美元的价格购买 Binance 的所有 FTT 持有量。
+
+11月6日：FTT 经历了第一次大幅下跌（下跌10%），在 Caroline Ellison 的报价后回到了 24 美元。
+
+11月8日：FTX 国际暂停提款。
+
+11月8日：FTT 暴跌至 5 美元 。
+
+11月8日：Binance 宣布它可能对收购 FTX 感兴趣。
+
+11月11日：收购被终止。
+
+11月11日：FTX 申请破产，用户的资金被盗。
+
+
+Footprint Analytics - FTT Token Price (5 Minutes Frequency)
+FTX 崩盘对整个加密圈的影响
+FTX 的崩盘使市场再次陷入极度恐惧的状态，BT C跌至今年的最低水平 16,000 美元。
+
+Footprint Analytics - BTC Price VS FGI
+乍一看，在这种情况…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183210"
+                        open
+                      >
+                        <summary class="article-expander__title">西班牙知名导演：电影产业应与NFT及社区做结合</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183210">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>“OGtown”是华语cryptopunks社区授权的文章专栏
+本期特邀嘉宾介绍
+Miguel Faus：Cryptopunks OG，来自巴塞罗那的编剧和导演。他的短篇《唐吉坷德之死》和《卡拉蒂塔》在全球各大电影节上获奖和放映。被Variety评为“值得关注的西班牙人才”
+华语加密朋克社区嘉宾：
+Noun_74：华语cryptopunks社区的发起人，noun中文生态社区创办人；曾孵化和辅导多个华语NFT项目走向全球社区。
+通证一哥：2016年起专注区块链行业相关的研究。中国大陆第一本NFT畅销书作者。加密朋克中文社区的联合发起人。token punk社区发起人
+88punk：陈序，元宇宙智库MetaZ创始人、Coindesk China 前联合出版人、中国punksOG。
+Punk9277：Kaito创始人, ex-Citadel交易员, NFT爱好者
+南瓜：NFT老油条，也叫拉闸，曾担任多项目的运营和顾问，能叫的出名字的蓝筹持有者
+主持人moonlight：美东华裔双语主持人，Binance live和HUOBI live杰出builder,币安直播头部频道Ultiverse主持，策划参与数千场节目和活动
+访谈正文
+主持人moonlight：想问一下我们的导演Miguel以及PUNK9277为什么当初想要购买加密朋克，以及如何看待加密朋克的未来呢？
+Miguel：我购买punk这个时间点是在开始接触NFT几个月之后，当时是因为疫情下的封锁，在网络上偶然接触到了NFT和加密朋克，我认为NFT作为一种证明持有人所有权技术的底层逻辑，能够增强包括对创作者以及对艺术家的扶持，因此我当时认为，在当时的web 3的空间内，加密朋克是最好的一个NFT项目，而且我发现在当时的NFT空间内，所有比较OG一点的玩家已经比较有见解的这一类玩家，都是使用punks作为头像，所以我就把我当时所…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183241"
+                        open
+                      >
+                        <summary class="article-expander__title">Gemini Earn暂停提现，对GUSD和MakerDAO有何影响？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183241">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Gemini Earn暂停提现，有传言称MakerDAO有5亿美元的资金被冻结在了Gemini Earn当中，实际并非如此，此事对于GUSD和合作方MakerDAO的影响可能较小。
+11月16日晚，数据分析平台Nansen的首席运营官Alex Svanevik在社交媒体上发布了GUSD的数据。有4.8亿在MakerDAO的PSM合约中，占GUSD总量的73%；最近7天，GUSD遭遇了大量赎回。GUSD正是由加密交易所Gemini发行的。
+受3AC和FTX暴雷的影响，加密借贷平台Genesis宣布暂停提款，也导致Gemini的Earn产品暂停提现。数据显示，过去24小时，Gemini交易所的资金流出了8.5亿美元，似乎和FTX遭到挤兑初期时的状况相似。
+DeFi与CeFi的结合能够增强DeFi的盈利能力，但这种可组合性也将使CeFi的风险有可能蔓延到DeFi中。那么此次Gemini Earn产品的风险是否会传导至GUSD，并影响到MakerDAO呢？
+Genesis的风险
+导致Gemini出现风险的根源在于Genesis，倘若Genesis解决了自身的问题，Gemini的危机自然也就迎刃而解。
+我们知道，Genesis和管理着大量加密资产的Grayscale（灰度）同属于DCG旗下。在Genesis宣布暂停提现后，市场上曾经出现DCG可能关闭Grayscale，以利用锁定的BTC来拯救Genesis的传言。虽然这种可能性较低，但也说明Genesis的母公司实力较强。此前Genesis称有1.75亿美元的资金锁定在FTX的交易账户中，但Grayscale仅依靠2%的管理费，就可以产生每年2亿美元的收入，这可能已经超过了Genesis的亏空。
+虽然Genesis和Grayscale同属于一个大股东，但两者独立运作，理论上也存在让Genesis破产，Grayscale继续赚钱的可能…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183240"
+                        open
+                      >
+                        <summary class="article-expander__title">CeFi信任危机下，DeFi非足额抵押贷款将何去何从？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183240">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Ben Giove、Jack Inabinet
+原文编译：aididiaojp.eth，Foresight News
+抵押不足的贷款是一种高风险业务。
+在传统金融中，这种贷款通常来自联邦基金市场，显然美联储不会「违约」。如果是商业银行贷款，市场就会依靠穆迪或标普等评级机构来确定借款人的信用度。
+DeFi 中既没有美联储，也不存在标普，那么抵押不足的借贷是如何发生的呢？
+其实像 Maple Finance、Gearbox 和 TrueFi 等大量协议已经开始了各种尝试，FTX 和 Alameda 这样的机构都是这个市场的巨额借款人。
+在「抵押不足」已经成为加密行业中一个危险信号的情况下，DeFi 世界是如何通过区块链和智能合约来治理这个高风险行业的？
+
+从 Voyager 、Celsius 再到 FTX，TradFi 机构因抵押不足等原因造成破产危机，给市场带来了巨大的负面影响。中心化加密贷款人不计后果地向各种加密基金（3AC、Alameda 等）提供信贷，并承诺可以为用户提供可观的收益回报。
+不幸的是，正如最近市场所发生的事情一样，高额回报的投资愿景并不总能实现。
+用户本能地会对接受这种形式的贷款犹豫不决，本文希望可以帮助你在无抵押贷款黑暗中找到光明。
+了解抵押贷款
+首先，让我们先聊一聊抵押贷款。
+每个人都知道抵押贷款，这是 Aave 和 Compound 等各种项目提供的 DeFi 核心词汇。
+在最近的市场下跌中，两者都在持续清算未能达到抵押品要求的用户。尽管市场出现了大量 CeFi 暴雷事件，但蓝筹 DeFi 贷方仍然具有偿付能力。
+Aave 、Compound 和 MakerDAO 这样的稳定币质押方都会要求用户完全抵押他们的头寸。每借入 1 美元，就必须至少存入 1 美元作为抵押品，以确保在发生违约时贷方能够保持充足的流动性。
+如果用户抵押品价值低于其头寸…</span>
                             </span>
                           </div>
                         </a>
@@ -11795,70 +11926,6 @@ FTX Japan还公布了自有资产状况，称公司净资产约100亿日元（�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/yjzgf1ei.html"
-                        open
-                      >
-                        <summary class="article-expander__title">CrossTower正修订对Voyager资产竞拍的新报价</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/yjzgf1ei.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月14日消息，据Cointelegraph报道，加密交易所CrossTower发言人透露，其正在为破产的加密借贷平台Voyager Digital的资产制定修订报价。他表示“我们正在制定一项修订的方案，我们认为这将使Voyager客户和更广泛的加密社区受益。CrossTower一直并将继续以社区为中心”，但没有说明具体数额。
-此前报道，今年9月，Voyager宣布FTX US以14.22亿美元出价赢得其资产竞拍。11月12日消息，Voyager Digital重新启动资产竞标过程，目前没有任何未偿还贷款。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/0mnkzv1l.html"
-                        open
-                      >
-                        <summary class="article-expander__title">支付巨头Visa已终止与FTX的全球借记卡协议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/0mnkzv1l.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月14日消息，据路透社报道，全球最大的支付处理商Visa Inc（V.N）周日表示，已终止与破产加密货币交易所FTX的全球借记卡协议。Visa公司发言人表示：“FTX的情况很不幸，我们正在密切关注事态发展，我们已经终止了与FTX的全球协议，双方的美国借记卡计划正在被相关发卡行终止。”
-此前10月8日消息，Visa与FTX合作在40个国家提供支持加密货币的借记卡。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/pf40j2xu.html"
-                        open
-                      >
-                        <summary class="article-expander__title">彭博社：FTX大多数资产已贬值，客户或难以收回大部分存款</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/pf40j2xu.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月14日消息，据彭博社援引知情人士报道，按照SBF申请破产保护前一天的资产负债表数据，FTX有近90亿美元的负债，以及9亿美元的流动资产、55亿美元的“流动性较差”资产和32亿美元的“非流动性”资产。自那以后，大多数资产（包括Serum、Solana和FTT）都已经贬值。
-知情人士表示，FTX提供的资产负债表不完整且不精细，在查看了“有限版本信息”之后发现，FTX的客户想要收回大部分存款的机会渺茫。
-此前昨日消息，FTX破产前流动资产仅9亿美元，负债高达89亿美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -12213,42 +12280,6 @@ BlockBeats 此前报道，11 月 11 日，FTX 官方在社交媒体上发文表�
 FTX Japan 还公布了自有资产状况，称公司净资产约 100 亿日元（截至 2022 年 9 月，约合 7186 万美元），现金和存款约 196 亿日元（截至 2022 年 11 月 10 日，约合 1.41 亿美元）。
 
 BlockBeats 此前报道，11 月 11 日，FTX 旗下日本加密衍生品交易平台 FTX Japan 发布公告称，已恢复日元提现服务。此前日本金融厅曾下令 FTX Japan 暂停运营，监管机构希望 FTX Japan 在 2022 年 12 月 9 日之前立即停止加密资产交易业务并停止接受新客户。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113998"
-                        open
-                      >
-                        <summary class="article-expander__title">CZ：强烈建议用户删除与第三方平台共享的API私钥，以保证资产安全</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113998">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 14 日，CZ 在其社交平台表示，已关注到有用户因与第三方平台共享 API 私钥，导致账户出现意外交易。因此，强烈建议用户删除该共享的 API 私钥，以保证资产安全。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/113992"
-                        open
-                      >
-                        <summary class="article-expander__title">支付处理商Visa已终止与FTX的信用卡合作协议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/113992">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 14 日，据路透社报道，全球支付处理商 Visa 表示，已终止与破产加密货币交易平台 FTX 的全球信用卡协议。Visa 公司发言人表示，「FTX 的情况很不幸，我们正在密切关注事态发展，我们已经终止了与 FTX 的全球协议，他们的美国借记卡计划正在被相关发卡行终止。」
-
-此前消息，FTX 和 Visa 公司曾在 10 月初宣布扩大合作伙伴关系，包括计划在 40 个新国家/地区推出与 FTX 账户关联的 Visa 借记卡。</span>
                             </span>
                           </div>
                         </a>
@@ -12777,35 +12808,6 @@ FTX Japan 还公布了自有资产状况，称公司净资产约 100 亿日元�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183104"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | FTX承认部分资产被非法转移；Huobi、Bitfinex等多家交易所披露储备情况（11月14日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183104">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-FTX证实部分资产被非法转移，正与执法部门合作处理问题
-
-Odaily星球日报讯 根据FTX US总法律顾问Ryne Miller发布的推文，FTX新任首席执行官John Ray发表声明称，正如报道所称，某些加密货币发生“未经授权的转移”。根据第11章中债务人的义务，FTX US和FTX.com将继续尽一切努力确保所有资产的安全。FTX正在移除交易和提现功能，并将尽可能多的数字资产转移到新的冷钱包托管机构。与此同时，交易所已展开调查，正与执法部门和相关监管部门合作协调。
-此前消息，链上数据显示，FTX与FTX US的大量交易所资产被归集到了0x59ab的链上地址。Autism Capital就次发推称，FTX内部人士很有可能正在试图携款潜逃，目前被转移的金额约为3.8亿美元。
-知情人士：FTX会计系统存在后门，至少10亿美元客户资金下落不明
-Odaily星球日报讯 据两名知情人士透露，至少有10亿美元的客户资金从加密交易所FTX消失。知情人士称，Sam Bankman-Fried已经将100亿美元的客户资金从FTX秘密转移到Alameda Research。一位知情人士估计其中下落不明的金额约为17亿美元。另一位知情人士则表示金额在10亿美元和20亿美元之间。
-FTX法律和财务团队调查发现，SBF在FTX的会计系统中实施所谓的“后门”，该系统是利用定制软件构建。该“后门”允许SBF在不提醒其他人（包括外部会计师）的情况下执行可能改变公司财务状况的工作。他们表示，这一设置意味着将100亿美元资金转移到Alameda，并没有在FTX引发任何内部合规或会计风险示警。路透社向SBF求证该消息是否属实，他否认使用了“后门”。（路透社）
-
-
-币安将下架FTT保证金交易对和FTT永续合约
-Odaily星球日报讯 币安公告：
-1. Binance将于2022-11-13 11:30（…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -12813,8 +12815,8 @@ Odaily星球日报讯 币安公告：
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3497280322">
-        <time id="build-timestamp" datetime="2022-11-18T13:27:14.190Z">2022-11-18T13:27:14.190Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3497562980">
+        <time id="build-timestamp" datetime="2022-11-18T14:08:51.603Z">2022-11-18T14:08:51.603Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
