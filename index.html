@@ -51,11 +51,111 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-20 datetime="2022-11-20T02:11:50.000Z">2022-11-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-20 datetime="2022-11-20T02:11:50.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-20 datetime="2022-11-20T03:22:53.000Z">2022-11-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-20 datetime="2022-11-20T03:22:53.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183267"
+                        open
+                      >
+                        <summary class="article-expander__title">V神最新长文：CEX如何利用技术自证清白</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183267">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Vitalik Buterin，由 Odaily 星球日报译者 Katie 辜编译。
+
+每当一个大型中心化交易所崩溃时，一个常见的问题就是我们是否可以使用加密技术来解决。交易所可以利用密码学证明它们在链上持有的资金足以支付它们对用户的债务，而不是仅仅依赖政府许可、审查公司审计和运营交易所的个人背调等法律途径。而且交易所可以建立一个系统，在该系统中，未经储户同意，交易所不能提取储户的资金。我们可以探索“主动不做坏事”且有野心的 CEX 和“没有能力做坏事”的 CEX 之间的界限，但目前往往人们只是看向效率低下且隐私泄露的链上 DEX。
+这篇文章将讨论将 CEX 向免信任更近一步的尝试过程、这些技术的局限性，以及一些依靠 ZK-SNARK 等先进技术的方案和更强大的想法。
+余额表和默克尔树：传统的偿付能力证明
+交易所试图用密码学的方式证明自己没有欺骗用户的最早尝试要追溯到很久以前。2011 年，当时最大的比特币交易所 MtGox 通过发送一笔交易，将 424242 个比特币转移到预先公布的地址，证明他们有资金。2013 年，人们开始讨论如何解决问题的另一面：证明客户存款的总规模。如果你证明客户的存款等于 X（负债证明），并证明拥有 X 个代币的私钥（资产证明），那么你就有了偿付能力证明——你证明了交易所有资金偿还所有储户。
+证明存款的最简单方法是简单地发布一个（用户名、余额）对列表。每个用户都可以检查他们的余额是否包含在列表中，任何人都可以检查完整的列表，查看：
+
+每个余额都是非负的；
+
+总额为索赔金额。
+
+当然，这破坏了隐私，所以我们可以稍微改变一下方案：
+
+发布一个（哈希「用户名、salt」，余额）对的列表，并私下向每个用户发送他们的 salt 值。但即使这样也会泄露余额和余额变化的模式。
+
+为了保护隐私，我们想到了下一个发明：
+
+默克尔树技术。
+
+
+绿色：代表 …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - 快讯</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/115321"
+                        open
+                      >
+                        <summary class="article-expander__title">Ripple CEO：考虑购买FTX部分资产</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115321">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Ripple CEO：考虑购买FTX部分资产</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/115315"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX CEO：很高兴看到部分实体拥有「具偿付能力的资产负债表」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115315">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>FTX CEO：很高兴看到部分实体拥有「具偿付能力的资产负债表」</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -7536,67 +7636,6 @@ FTX还向潜在投资者承诺，可以选择以150亿美元的融资后估值�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/u2192hn0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">BNB Chain上足球嘉年华活动于今日正式上线</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/u2192hn0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月15日消息，BNB Chain 上的足球嘉年华（Football Fiesta）活动于今日正式上线，该活动已吸引了超过 60 万美元的奖金，在接下来的足球月期间将有 60 多项活动上线。完成项目设置的任务后，将能获得 Glory Pass 独家NFT，NFT持有者可以使用它来参与比赛预测并获得生态系统合作伙伴提供的福利，甚至可以兑换他们的 NFT/游戏代金券来玩游戏。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/4wnym84n.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/4wnym84n.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月15日消息，Web3 游戏货币化平台 PlayEmber 完成 230 万美元种子轮融资，Shima Capital 领投，Big Brain Holdings、Warburg Serres 和 Huobi Ventures 参投。这笔资金将用于加速团队和平台的发展。
-PlayEmber 旨在通过实施自定义货币化解决方案的基于 Unity 的软件开发套件，使游戏广告收入更容易从 web2 市场过渡到 web3 。该初创公司还获得了 NEAR 基金会的支持。PlayEmber 的测试版产品已经上线。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/tx0gh9z9.html"
-                        open
-                      >
-                        <summary class="article-expander__title">AAX发布更新：正在筹集资金以恢复正常运营，也为弥补暂停提款后部分股东撤资的缺口</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/tx0gh9z9.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月15日消息，加密交易所 AAX 发布更新称，目前需要筹集新资金以恢复服务，原有股东已经在过去一周投入额外资金，将继续筹集更多资金，如果 AAX 能够在本周末之前注入额外的资金，AAX 应该能够像往常一样恢复服务。若融资失败将启动法律程序以确保资产分配。AAX 表示：“在暂停提款之后，一些投资者表示他们希望从 AAX 撤出资金，这使我们面临资金缺口的风险，我们必须弥补这一缺口以恢复正常运营。”</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8175,23 +8214,6 @@ BlockBeats 此前报道，11 月 15 日，BlockFi 在官方博客中表示，确
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>《金融时报》：FTX正在寻求100亿美元紧急融资</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/114487"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/114487">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投</span>
                             </span>
                           </div>
                         </a>
@@ -9180,59 +9202,10 @@ Odaily 星球日报译者 | Moni
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-15 datetime="2022-11-15T14:51:50.000Z">2022-11-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-15 datetime="2022-11-15T14:51:50.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PANews - 快讯</button>
-                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/fab9e1mt.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Beosin：FTX Accounts Drainer地址已对大额资产进行兑换转移跨链等操作</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/fab9e1mt.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月15日消息，据区块链安全审计公司Beosin旗下Beosin EagleEye安全风险监控、预警与阻断平台监测显示，黑地址FTX Accounts Drainer(0x59AB...32b)已对大额资产进行兑换转移跨链等操作。
-目前大部分资金位于账户FTX Accounts Drainer的ETH平台，约228,523 个ETH($288,934,108)和8,184 个PAXG($14,395,174)。BSC平台约108,454 个BNB($29,962,644) 和1,685,309 个DAI($1,686,562) 。其他部分资金位于ETH上的FTX Accounts Drainer 2账户上，约1999.4 个PAXG($3,516,404)，FTX Accounts Drainer 3账户上约499 个PAXG($878,114)，FTX Accounts Drainer 4账户上约499 个PAXG($878,114)，其它链上的资产目前尚无异动。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3506166565">
-        <time id="build-timestamp" datetime="2022-11-20T02:48:51.359Z">2022-11-20T02:48:51.359Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3506316615">
+        <time id="build-timestamp" datetime="2022-11-20T03:41:03.265Z">2022-11-20T03:41:03.265Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

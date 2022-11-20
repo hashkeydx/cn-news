@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-11-20T02:48:51.398Z</updated>
+    <updated>2022-11-20T03:41:03.307Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[V神最新长文：CEX如何利用技术自证清白]]></title>
+        <id>https://www.odaily.news/post/5183267</id>
+        <link href="https://www.odaily.news/post/5183267"/>
+        <updated>2022-11-20T03:22:53.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 Vitalik Buterin，由 Odaily 星球日报译者 Katie 辜编译。
+
+每当一个大型中心化交易所崩溃时，一个常见的问题就是我们是否可以使用加密技术来解决。交易所可以利用密码学证明它们在链上持有的资金足以支付它们对用户的债务，而不是仅仅依赖政府许可、审查公司审计和运营交易所的个人背调等法律途径。而且交易所可以建立一个系统，在该系统中，未经储户同意，交易所不能提取储户的资金。我们可以探索“主动不做坏事”且有野心的 CEX 和“没有能力做坏事”的 CEX 之间的界限，但目前往往人们只是看向效率低下且隐私泄露的链上 DEX。
+这篇文章将讨论将 CEX 向免信任更近一步的尝试过程、这些技术的局限性，以及一些依靠 ZK-SNARK 等先进技术的方案和更强大的想法。
+余额表和默克尔树：传统的偿付能力证明
+交易所试图用密码学的方式证明自己没有欺骗用户的最早尝试要追溯到很久以前。2011 年，当时最大的比特币交易所 MtGox 通过发送一笔交易，将 424242 个比特币转移到预先公布的地址，证明他们有资金。2013 年，人们开始讨论如何解决问题的另一面：证明客户存款的总规模。如果你证明客户的存款等于 X（负债证明），并证明拥有 X 个代币的私钥（资产证明），那么你就有了偿付能力证明——你证明了交易所有资金偿还所有储户。
+证明存款的最简单方法是简单地发布一个（用户名、余额）对列表。每个用户都可以检查他们的余额是否包含在列表中，任何人都可以检查完整的列表，查看：
+
+每个余额都是非负的；
+
+总额为索赔金额。
+
+当然，这破坏了隐私，所以我们可以稍微改变一下方案：
+
+发布一个（哈希「用户名、salt」，余额）对的列表，并私下向每个用户发送他们的 salt 值。但即使这样也会泄露余额和余额变化的模式。
+
+为了保护隐私，我们想到了下一个发明：
+
+默克尔树技术。
+
+
+绿色：代表 …]]></summary>
+        <author>
+            <name>Katie 辜</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ripple CEO：考虑购买FTX部分资产]]></title>
+        <id>https://www.theblockbeats.info/flash/115321</id>
+        <link href="https://www.theblockbeats.info/flash/115321"/>
+        <updated>2022-11-20T02:24:50.000Z</updated>
+        <summary type="html"><![CDATA[Ripple CEO：考虑购买FTX部分资产]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[新加坡警方提醒投资者警惕关于FTX资金追回的钓鱼骗局]]></title>
         <id>https://panewslab.com/zh/articledetails/8a3520xu.html</id>
@@ -34,6 +75,16 @@
         <summary type="html"><![CDATA[PANews 11月20日消息，赵长鹏在接受CNBC采访时表示，BUSD不是由币安发行，而是由Paxos发行和维护。在熊市中，交易所应该持有大量稳定币，否则可以被视作一种危险信号。即使所有客户同时取款不会对币安正常运营产生影响，币安所有加密货币都完全由储备支持。发行代币是最好的融资方式，但是充斥着诈骗。不应该禁止发行代币这种工具，而是应该禁止滥用这种工具的公司。此外，币安将在几周后公布完全独立的资产储备审计。币安一直支持对行业进行监管，但监管需要找到平衡点，既要鼓励创新，又要惩罚坏人和保护用户。赵长鹏还坚信市场会从危机中恢复，行业将会变得更健康。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FTX CEO：很高兴看到部分实体拥有「具偿付能力的资产负债表」]]></title>
+        <id>https://www.theblockbeats.info/flash/115315</id>
+        <link href="https://www.theblockbeats.info/flash/115315"/>
+        <updated>2022-11-20T01:41:50.000Z</updated>
+        <summary type="html"><![CDATA[FTX CEO：很高兴看到部分实体拥有「具偿付能力的资产负债表」]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
     <entry>
@@ -5361,58 +5412,6 @@ Odaily 星球日报译者 | Moni
 早期，Alameda 有一个 FTX 专属 API 密钥，可以比其他用户更快访问交易，这几乎是一个“公开的秘密”。2019 年 9 月左右，据…]]></summary>
         <author>
             <name>Moni</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BNB Chain上足球嘉年华活动于今日正式上线]]></title>
-        <id>https://panewslab.com/zh/articledetails/u2192hn0.html</id>
-        <link href="https://panewslab.com/zh/articledetails/u2192hn0.html"/>
-        <updated>2022-11-15T15:38:02.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月15日消息，BNB Chain 上的足球嘉年华（Football Fiesta）活动于今日正式上线，该活动已吸引了超过 60 万美元的奖金，在接下来的足球月期间将有 60 多项活动上线。完成项目设置的任务后，将能获得 Glory Pass 独家NFT，NFT持有者可以使用它来参与比赛预测并获得生态系统合作伙伴提供的福利，甚至可以兑换他们的 NFT/游戏代金券来玩游戏。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投]]></title>
-        <id>https://www.theblockbeats.info/flash/114487</id>
-        <link href="https://www.theblockbeats.info/flash/114487"/>
-        <updated>2022-11-15T15:12:40.000Z</updated>
-        <summary type="html"><![CDATA[Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3游戏货币化平台PlayEmber完成230万美元种子轮融资，Shima Capital领投]]></title>
-        <id>https://panewslab.com/zh/articledetails/4wnym84n.html</id>
-        <link href="https://panewslab.com/zh/articledetails/4wnym84n.html"/>
-        <updated>2022-11-15T15:10:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月15日消息，Web3 游戏货币化平台 PlayEmber 完成 230 万美元种子轮融资，Shima Capital 领投，Big Brain Holdings、Warburg Serres 和 Huobi Ventures 参投。这笔资金将用于加速团队和平台的发展。
-PlayEmber 旨在通过实施自定义货币化解决方案的基于 Unity 的软件开发套件，使游戏广告收入更容易从 web2 市场过渡到 web3 。该初创公司还获得了 NEAR 基金会的支持。PlayEmber 的测试版产品已经上线。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AAX发布更新：正在筹集资金以恢复正常运营，也为弥补暂停提款后部分股东撤资的缺口]]></title>
-        <id>https://panewslab.com/zh/articledetails/tx0gh9z9.html</id>
-        <link href="https://panewslab.com/zh/articledetails/tx0gh9z9.html"/>
-        <updated>2022-11-15T15:04:45.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月15日消息，加密交易所 AAX 发布更新称，目前需要筹集新资金以恢复服务，原有股东已经在过去一周投入额外资金，将继续筹集更多资金，如果 AAX 能够在本周末之前注入额外的资金，AAX 应该能够像往常一样恢复服务。若融资失败将启动法律程序以确保资产分配。AAX 表示：“在暂停提款之后，一些投资者表示他们希望从 AAX 撤出资金，这使我们面临资金缺口的风险，我们必须弥补这一缺口以恢复正常运营。”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beosin：FTX Accounts Drainer地址已对大额资产进行兑换转移跨链等操作]]></title>
-        <id>https://panewslab.com/zh/articledetails/fab9e1mt.html</id>
-        <link href="https://panewslab.com/zh/articledetails/fab9e1mt.html"/>
-        <updated>2022-11-15T14:51:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月15日消息，据区块链安全审计公司Beosin旗下Beosin EagleEye安全风险监控、预警与阻断平台监测显示，黑地址FTX Accounts Drainer(0x59AB...32b)已对大额资产进行兑换转移跨链等操作。
-目前大部分资金位于账户FTX Accounts Drainer的ETH平台，约228,523 个ETH($288,934,108)和8,184 个PAXG($14,395,174)。BSC平台约108,454 个BNB($29,962,644) 和1,685,309 个DAI($1,686,562) 。其他部分资金位于ETH上的FTX Accounts Drainer 2账户上，约1999.4 个PAXG($3,516,404)，FTX Accounts Drainer 3账户上约499 个PAXG($878,114)，FTX Accounts Drainer 4账户上约499 个PAXG($878,114)，其它链上的资产目前尚无异动。]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
 </feed>
