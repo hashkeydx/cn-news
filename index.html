@@ -51,111 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-20 datetime="2022-11-20T03:22:53.000Z">2022-11-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-20 datetime="2022-11-20T03:22:53.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-20 datetime="2022-11-20T04:36:39.000Z">2022-11-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-20 datetime="2022-11-20T04:36:39.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183267"
-                        open
-                      >
-                        <summary class="article-expander__title">V神最新长文：CEX如何利用技术自证清白</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183267">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Vitalik Buterin，由 Odaily 星球日报译者 Katie 辜编译。
-
-每当一个大型中心化交易所崩溃时，一个常见的问题就是我们是否可以使用加密技术来解决。交易所可以利用密码学证明它们在链上持有的资金足以支付它们对用户的债务，而不是仅仅依赖政府许可、审查公司审计和运营交易所的个人背调等法律途径。而且交易所可以建立一个系统，在该系统中，未经储户同意，交易所不能提取储户的资金。我们可以探索“主动不做坏事”且有野心的 CEX 和“没有能力做坏事”的 CEX 之间的界限，但目前往往人们只是看向效率低下且隐私泄露的链上 DEX。
-这篇文章将讨论将 CEX 向免信任更近一步的尝试过程、这些技术的局限性，以及一些依靠 ZK-SNARK 等先进技术的方案和更强大的想法。
-余额表和默克尔树：传统的偿付能力证明
-交易所试图用密码学的方式证明自己没有欺骗用户的最早尝试要追溯到很久以前。2011 年，当时最大的比特币交易所 MtGox 通过发送一笔交易，将 424242 个比特币转移到预先公布的地址，证明他们有资金。2013 年，人们开始讨论如何解决问题的另一面：证明客户存款的总规模。如果你证明客户的存款等于 X（负债证明），并证明拥有 X 个代币的私钥（资产证明），那么你就有了偿付能力证明——你证明了交易所有资金偿还所有储户。
-证明存款的最简单方法是简单地发布一个（用户名、余额）对列表。每个用户都可以检查他们的余额是否包含在列表中，任何人都可以检查完整的列表，查看：
-
-每个余额都是非负的；
-
-总额为索赔金额。
-
-当然，这破坏了隐私，所以我们可以稍微改变一下方案：
-
-发布一个（哈希「用户名、salt」，余额）对的列表，并私下向每个用户发送他们的 salt 值。但即使这样也会泄露余额和余额变化的模式。
-
-为了保护隐私，我们想到了下一个发明：
-
-默克尔树技术。
-
-
-绿色：代表 …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - 快讯</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/115321"
-                        open
-                      >
-                        <summary class="article-expander__title">Ripple CEO：考虑购买FTX部分资产</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115321">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Ripple CEO：考虑购买FTX部分资产</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/115315"
-                        open
-                      >
-                        <summary class="article-expander__title">FTX CEO：很高兴看到部分实体拥有「具偿付能力的资产负债表」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115315">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>FTX CEO：很高兴看到部分实体拥有「具偿付能力的资产负债表」</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -167,6 +67,106 @@
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/nnh8upkr.html"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX前市场负责人：SBF谎称没有动用客户资金，对交易所的欺诈行为不知情</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/nnh8upkr.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月20日消息，FTX前市场负责人Nathaniel Whittemore近日在CoinDesk播客节目中表示，SBF此前反复承诺FTX没有动用客户资金，但“这是一个谎言”。Whittemore表示，他和交易所的大多数其他员工都不知道有关FTX挪用客户资金的欺诈行为。员工们被蒙在鼓里，他们中的许多人把交易所当成银行使用，不知道自己的积蓄被挥霍殆尽。Whittemore说，币安放弃对FTX的救助后，FTX普通员工的心情非常悲痛。他们不单单可能失业，还可能面临所有积蓄化为乌有。据此前消息，FTX前首席运营官Constance表示，对FTX转移资金并不知情，个人所有资产都在FTX上。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/jshwp72v.html"
+                        open
+                      >
+                        <summary class="article-expander__title">特朗普重申无意重返推特</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/jshwp72v.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月19日消息，据路透社报道，特朗普对重返推特并没有兴趣。他于当地时间19日表示，“我看不出有任何理由（重返推特）”，并称将坚持使用自创的社交平台“真实社交”。特朗普认为，“真实社交”的用户参与度比推特更高，而且表现“非常好”。据此前消息，马斯克昨日在推特发起是否恢复特朗普账号的投票，结果显示51.8%的投票者表示同意恢复。随后马斯克表示将尊重民意恢复其账号。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/tb71af34.html"
+                        open
+                      >
+                        <summary class="article-expander__title">马斯克已尊重民意恢复特朗普推特账号</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/tb71af34.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月20日消息，美国前总统特朗普的推特账号已恢复，此前的关注数据已被清零，目前关注者人数超过37.5万名。据悉，马斯克昨日在推特发起是否恢复特朗普账号的投票，结果显示51.8%的投票者表示同意恢复。随后马斯克表示将尊重民意恢复其账号。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/afu9fzl7.html"
+                        open
+                      >
+                        <summary class="article-expander__title">赵长鹏：将致力于实施V神关于提高CEX安全性的新想法并为行业开源</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/afu9fzl7.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月20日消息，在以太坊联合创始人Vitalik Buterin发布新文章《拥有一个安全的CEX：证明偿付能力及其他》后，币安首席执行官CZ在推特上表示将致力于实施V神的新想法，坦言他也没有理解V神文章里的有些方程式，但币安团队会实施其想法并为行业开源。据此前消息，针对FTX暴雷事件，V神发文”安全的CEX：偿付能力证明“，探讨使交易所更接近去信任化的方法，这些想法依赖于ZK SNARK和其他先进技术。Vitalik表示，使用ZK-SNARKs可改善隐私和稳健性，将所有用户的存款放入默克尔树中，并使用ZK-SNARK来证明树中的所有余额都是非负的，将这些余额加总则为所声称的价值。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ain3bikz.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Ripple CEO: 有意收购FTX旗下部分业务</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ain3bikz.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月20日消息，据Cointelegrah报道，Ripple首席执行官Brad Garlinghouse表示有兴趣收购FTX的某些业务。Garlinghouse在本周于伦敦举行的Ripple &#x27;s Swell会议期间表示，在FTX申请破产的两天前，SBF给他打过电话，试图召集投资者来拯救公司。两人在电话中讨论了是否有Ripple“希望拥有”的FTX旗下业务。Garlinghouse表示，他有兴趣购买FTX为商业客户提供服务的业务。但由于FTX已在美国申请破产保护，潜在的收购交易将比之前更加困难。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -262,6 +262,106 @@
                               <span>PANews 11月19日消息，据彭博社报道，在FTX倒闭后，芝加哥期货交易所（CME）并没有放弃加密货币交易。芝商所首席执行官Terry Duffy一直是SBF的批评者，但在FTX倒闭后，他强调芝商所不会因为一家公司的失败而停止加密期货交易。此外，芝加哥期权交易所（Cboe Global Markets）和软件供应商Trading Technologies也都表示会继续支持数字资产。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183267"
+                        open
+                      >
+                        <summary class="article-expander__title">V神最新长文：CEX如何利用技术自证清白</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183267">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Vitalik Buterin，由 Odaily 星球日报译者 Katie 辜编译。
+
+每当一个大型中心化交易所崩溃时，一个常见的问题就是我们是否可以使用加密技术来解决。交易所可以利用密码学证明它们在链上持有的资金足以支付它们对用户的债务，而不是仅仅依赖政府许可、审查公司审计和运营交易所的个人背调等法律途径。而且交易所可以建立一个系统，在该系统中，未经储户同意，交易所不能提取储户的资金。我们可以探索“主动不做坏事”且有野心的 CEX 和“没有能力做坏事”的 CEX 之间的界限，但目前往往人们只是看向效率低下且隐私泄露的链上 DEX。
+这篇文章将讨论将 CEX 向免信任更近一步的尝试过程、这些技术的局限性，以及一些依靠 ZK-SNARK 等先进技术的方案和更强大的想法。
+余额表和默克尔树：传统的偿付能力证明
+交易所试图用密码学的方式证明自己没有欺骗用户的最早尝试要追溯到很久以前。2011 年，当时最大的比特币交易所 MtGox 通过发送一笔交易，将 424242 个比特币转移到预先公布的地址，证明他们有资金。2013 年，人们开始讨论如何解决问题的另一面：证明客户存款的总规模。如果你证明客户的存款等于 X（负债证明），并证明拥有 X 个代币的私钥（资产证明），那么你就有了偿付能力证明——你证明了交易所有资金偿还所有储户。
+证明存款的最简单方法是简单地发布一个（用户名、余额）对列表。每个用户都可以检查他们的余额是否包含在列表中，任何人都可以检查完整的列表，查看：
+
+每个余额都是非负的；
+
+总额为索赔金额。
+
+当然，这破坏了隐私，所以我们可以稍微改变一下方案：
+
+发布一个（哈希「用户名、salt」，余额）对的列表，并私下向每个用户发送他们的 salt 值。但即使这样也会泄露余额和余额变化的模式。
+
+为了保护隐私，我们想到了下一个发明：
+
+默克尔树技术。
+
+
+绿色：代表 …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - 快讯</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/115321"
+                        open
+                      >
+                        <summary class="article-expander__title">Ripple CEO：考虑购买FTX部分资产</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115321">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Ripple CEO：考虑购买FTX部分资产</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/flash/115315"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX CEO：很高兴看到部分实体拥有「具偿付能力的资产负债表」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115315">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>FTX CEO：很高兴看到部分实体拥有「具偿付能力的资产负债表」</span>
                             </span>
                           </div>
                         </a>
@@ -9103,8 +9203,8 @@ Odaily星球日报讯 根据一份泄露的洗钱法案草案显示，欧盟可�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3506565885">
-        <time id="build-timestamp" datetime="2022-11-20T05:07:41.831Z">2022-11-20T05:07:41.831Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3506750191">
+        <time id="build-timestamp" datetime="2022-11-20T06:10:20.657Z">2022-11-20T06:10:20.657Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
