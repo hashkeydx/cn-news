@@ -6,6 +6,56 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/fofc6yu6.html",
+          "author": "PA一线",
+          "description": "PANews 11月21日消息，币安创始人赵长鹏发推称，今年6月份时币安有5900人，今天为7400多人，目标是到年底达到8000人左右。目前正在招聘。",
+          "link": "https://panewslab.com/zh/articledetails/fofc6yu6.html",
+          "publishedOn": "2022-11-21T13:01:40.000Z",
+          "wordCount": 3527,
+          "title": "币安计划到年底扩充至8000人，目前已有7400多人",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/0sd4xm81.html",
+          "author": "PA一线",
+          "description": "PANews 11月21日消息，根据区块链安全公司 Beosin 旗下 EagleEye 监测显示，BNB Chain 上的 sDAO 项目遭受漏洞攻击。Beosin 分析发现 sDAO 合约的业务逻辑存在错误，getReward 函数是根据合约拥有的 LP 代币和用户添加的 LP 代币作为参数来计算的，计算的奖励与用户添加 LP 代币数量正相关，与合约拥有总 LP 代币数量负相关，但合约提供了一个 withdrawTeam 的方法，可以将合约拥有的 BNB 以及指定代币全部发送给合约指定地址，该函数任何人都可调用。而本次攻击者向其中添加了 LP 代币之后，调用 withdrawTeam 函数将 LP 代币全部发送给了指定地址，并立刻又向合约转了一个极小数量的 LP 代币，导致攻击者在随后调用 getReward 获取奖励的时候，使用的合约拥有总 LP 代币数量是一个极小的值，使得奖励异常放大。最终攻击者通过该漏洞获利约 13662 枚 BUSD。",
+          "link": "https://panewslab.com/zh/articledetails/0sd4xm81.html",
+          "publishedOn": "2022-11-21T12:50:09.000Z",
+          "wordCount": 3620,
+          "title": "sDAO合约业务逻辑存在漏洞，攻击者获利超1.3万BUSD",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/72yxhhyp.html",
+          "author": "PA一线",
+          "description": "PANews 11月21日消息，Y Combinator 的联合创始人 Paul Graham 在推特上不再关注 V 神（Vitalik Buterin）。\n今日早些时候，YC 创始人 Paul Graham 发推表示；“我认识了十多年的一个人，我认为他值得信赖，他相信加密货币经济很快就会经历系统性风险。”Graham 同时表示并不了解此言论的相关事件及细节。随后V神也发推称：“我通过小道消息得知有重要的事情即将发生。请认识到我与早知道事物的人的精英社会关系让我很酷，请帮助我验证我的酷的自我形象。”\nPaul 回复V神言论称：“我没有传递那个信息看起来很酷。我有点不情愿地把它传了下去，因为写它的人要我这么做。他认为这可能会帮助那些过度接触风险资产的人。”随后V神也回复解释称：“我不是在回应你（Paul ），只是提出一个我在过去一周发现难以忍受的一般模式。人们散布谣言，很多人转发它们，很多人开始根据这些信息进行交易……”",
+          "link": "https://panewslab.com/zh/articledetails/72yxhhyp.html",
+          "publishedOn": "2022-11-21T12:28:01.000Z",
+          "wordCount": 3581,
+          "title": "YC联创Paul Graham在推特上已取关V神",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/75kd9uk3.html",
+          "author": "PA一线",
+          "description": "PANews 11月21日消息，去中心化交易所 Uniswap Labs 发布了一项新的隐私政策，以提供其收集的数据的透明度。隐私政策指出，DEX 收集连接到用户加密钱包的某些链上和链下数据。新政策阐明了对公开可用的链上数据进行分析以帮助做出明智的决策。 就链下数据而言，Uniswap 声称它不会收集敏感的个人数据，如姓名、电子邮件或 IP 地址。然而，该交易所指出，与用户相关的其他链下网络标识符仍然被抓取。",
+          "link": "https://panewslab.com/zh/articledetails/75kd9uk3.html",
+          "publishedOn": "2022-11-21T11:34:13.000Z",
+          "wordCount": 3553,
+          "title": "Uniswap Labs发布新的隐私政策，收集用户的部分链下数据",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/16px1633.html",
+          "author": "PA一线",
+          "description": "PANews 11月21日消息，资产跨链协议Ren Protocol发推称：“由于 Ren 1.0 网络将在 30 天内关闭，我们强烈建议用户尽快将他们的 Ren 资产（例如$renBTC）桥接回他们的原生链。”同时，Ren团队希望推出最新版本的协议Ren 2.0。鉴于 Ren 1.0 是在 Alameda 的领导下运行的，而 Alameda 目前正处于破产程序中。Ren Protocol表示需要新的资金支持。",
+          "link": "https://panewslab.com/zh/articledetails/16px1633.html",
+          "publishedOn": "2022-11-21T11:28:17.000Z",
+          "wordCount": 3577,
+          "title": "Ren 1.0网络将在30天内关闭，官方建议尽快将Ren资产桥接回原生链",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/a2y7by4a.html",
           "author": "PA一线",
           "description": "PANews 11月21日消息，据日本广播协会报道，FTX Japan 高管在接受采访时表示，此前 FTX Japan 暂停取款的原因是与 FTX 使用了同一套系统，目前 FTX Japan 正在开发自己的系统，目标是在年底前恢复用户提款。",
@@ -1954,66 +2004,6 @@
           "wordCount": 3523,
           "title": "加密货币做市商B2C2正洽谈以折扣价购买Genesis的部分短期贷款",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/mx6zsuky.html",
-          "author": "PA一线",
-          "description": "PANews 11月17日消息，三箭资本联合创始人Kyle Davies周三对CNBC表示，FTX、Alameda互相“串通”击垮了三箭。他称：“FTX、Alameda串通进行猎杀止损（Stop Hunting），作为他们最大的客户，三箭资本遭到“猎杀”，我们的头寸被清算。”\nCNBC表示，它收到了FTX创始人Sam Bankman-Fried的一份声明，他回应说：：“我很震惊。100% 不同意……他们的指控不属实。”\n此前11月13日消息，Kyle Davies发推文称，LUNA风波中其头寸遭FTX或Alameda猎杀，导致损失所有资金。",
-          "link": "https://panewslab.com/zh/articledetails/mx6zsuky.html",
-          "publishedOn": "2022-11-17T01:31:43.000Z",
-          "wordCount": 3539,
-          "title": "三箭联创再次声称FTX与Alameda串通击垮三箭，SBF对此予以否认",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/md2oxvnp.html",
-          "author": "PA一线",
-          "description": "PANews 11月17日消息，据The Block报道，美国财政部长珍耶伦（Janet L. Yellen）表示：“加密交易平台FTX的崩盘事件证明数字资产市场需要更有效的监管，传统金融体系和加密市场的进一步互联可能会引发更广泛的金融稳定担忧，展望未来，我们必须采取必要措施应对这些令人担忧的风险，并采取行动保护消费者并促进金融稳定。”\n此外，耶伦表示监管机构应“严格”执行现有规则，国会应“迅速采取行动”填补拜登政府确定的监管漏洞。",
-          "link": "https://panewslab.com/zh/articledetails/md2oxvnp.html",
-          "publishedOn": "2022-11-17T01:21:27.000Z",
-          "wordCount": 3529,
-          "title": "美财长：FTX事件证明加密市场需要更有效的监管，国会应介入填补监管漏洞",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/xg2lfsv6.html",
-          "author": "PA一线",
-          "description": "PANews 11月17日消息，据Blockworks报道，美国商品期货交易委员会（CFTC）专员Kristin Johnsson表示，FTX子公司FTX US Derivatives（原LedgerX）不在破产申请之列，部分原因是他们遵守了期货监管机构的监管要求，进行了尽职调查，“CFTC已独立确认LedgerX不属于FTX破产子公司名单，据我们所知，LedgerX的客户资产未受到损害”。\n此前消息，FTX US Derivatives CEO曾表示，该公司很快将与FTX US完全分离，现金储备至少够用一年。FTX也曾表示FTX US Derivatives第11章破产程序中。美国CFTC主席Rostin Behnam表示，FTX US Derivatives仍健康运营应该归功于政府监管。",
-          "link": "https://panewslab.com/zh/articledetails/xg2lfsv6.html",
-          "publishedOn": "2022-11-17T01:14:14.000Z",
-          "wordCount": 3557,
-          "title": "美CFTC专员：CFTC已确认LedgerX不在FTX破产子公司名单中",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/fyhxo3w6.html",
-          "author": "PA一线",
-          "description": "PANews 11月17日消息，据Businesswire报道，资产超过200亿美元的美国商业银行Customers Bancorp发布声明称，FTX及其关联公司破产对该行无重大影响。其旗下基于区块链的数字支付解决方案的银行Customers Bank与FTX或任何相关公司没有存款关系，也没有向数字资产银行领域的任何客户提供贷款。",
-          "link": "https://panewslab.com/zh/articledetails/fyhxo3w6.html",
-          "publishedOn": "2022-11-17T01:00:20.000Z",
-          "wordCount": 3531,
-          "title": "美国商业银行Customers Bancorp发布声明称FTX破产对该行无重大影响",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/00bubg1g.html",
-          "author": "PA一线",
-          "description": "PANews 11月17日消息，Coinbase近日发布公告称除了其在FTX上有1500万美元的存款，此外没有接触Alameda Research，也没有向FTX提供贷款。Coinbase表示，作为一家美国上市公司，Coinbase以1:1的比例持有客户资产，任何机构借贷活动均由客户自行决定并由抵押品支持，没有对客户贷款召回或提款的渠道。\nCoinbase还表示其第三季度财报证实了Coinbase持有56亿美元的可用现金流动性，包括了50亿美元的美元和现金等价物。Coinbase称其团队的成员拥有数十年在一系列经济周期中管理贸易和信贷业务的经验，并于成立之处就投资于风险管理能力。\n此前11月12日消息，路透社报道称，Coinbase核销对FTX的投资，将寻求1500万美元存款索赔。",
-          "link": "https://panewslab.com/zh/articledetails/00bubg1g.html",
-          "publishedOn": "2022-11-17T00:40:32.000Z",
-          "wordCount": 3533,
-          "title": "Coinbase ：未接触Alameda且没有向FTX提供贷款，公司持有56亿美元可用现金流",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/o7pye2me.html",
-          "author": "PA一线",
-          "description": "PANews 11月17日消息，据彭博社报道，由亿万富翁Michael Novogratz创立的加密货币金融服务公司Galaxy Digital Holdings Ltd.在一份声明中表示，该公司没有涉足Genesis的借贷业务和Gemini Trust Co.的Earn计划。 该公司发言人表示：“Galaxy Digital继续审慎管理风险，帮助客户应对当前的市场环境。” 据悉，Galaxy Digital早些时候曾披露对FTX的7680万美元风险敞口。\n此前昨日消息，Genesis加密货币借贷部门暂停客户赎回和新贷款发放。加密货币交易所和托管商Gemini称，其Earn计划的贷款合作伙伴Genesis已暂停提款，无法在5个工作日内满足客户兑换；正在与Genesis团队合作，帮助客户尽快从Earn计划中赎回资金。",
-          "link": "https://panewslab.com/zh/articledetails/o7pye2me.html",
-          "publishedOn": "2022-11-17T00:23:14.000Z",
-          "wordCount": 3563,
-          "title": "Galaxy Digital：未接触Genesis的借贷业务和Gemini的Earn计划",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2751,56 +2741,6 @@
           "wordCount": null,
           "title": "加州金融监管机构将暂停加密借贷平台Salt许可证30天",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/114787",
-          "author": null,
-          "description": "BlockBeats 消息，11 月 17 日，据彭博社报道，加密金融服务公司 Galaxy Digital 表示没有涉足 Genesis 的借贷业务和 Gemini Trust 的 Earn 计划。\n\n此前 Galaxy Digital 在其第三季度收益报告中表示，FTX 的敞口为 7680 万美元，其中 4750 万美元目前「处于退出过程中」。此外，联合总裁 Damien Vanderwilt 将于明年 1 月中旬卸任并在董事会任职。",
-          "link": "https://www.theblockbeats.info/flash/114787",
-          "publishedOn": "2022-11-17T01:29:20.000Z",
-          "wordCount": null,
-          "title": "Galaxy Digital：未涉足Genesis借贷业务和Gemini Earn计划",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/114784",
-          "author": null,
-          "description": "BlockBeats 消息，11 月 17 日，据路透社报道，FTX 巴哈马子公司 FTX Digital Markets 的清算人已要求纽约市法院承认其在巴哈马的破产，因为他们「拒绝承认」该加密货币交易平台的美国破产程序的有效性。巴哈马证券委员会于 11 月 10 日任命的巴哈马清算人已在纽约的美国破产法院提交了第 15 章申请，要求法院帮助他们从 FTX 获取记录并阻止资产转移以保护巴哈马公司的债权人。\n\nFTX Digital Markets 清算人表示，并非寻求解除美国破产程序，但其行动可能影响 FTX 关于第 11 章法案的破产申请，且美国的诉讼程序未经巴哈马法律授权。\n\nBlockBeats 此前报道，11 月 11 日，巴哈马监管机构已冻结 FTX 子公司 FTX Digital Markets 的资产。另外，巴哈马证券委员会正在为这些资产寻找临时清算人。",
-          "link": "https://www.theblockbeats.info/flash/114784",
-          "publishedOn": "2022-11-17T01:25:20.000Z",
-          "wordCount": null,
-          "title": "FTX Digital Markets清算人拒绝承认FTX美国破产程序的有效性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/114781",
-          "author": null,
-          "description": "BlockBeats 消息，11 月 17 日，三箭资本联合创始人 Kyle Davies 周三对 CNBC 表示，FTX、Alameda 互相「串通」击垮了三箭，「FTX、Alameda 串通进行猎杀止损（Stop Hunting），作为他们最大的客户，3AC 遭到『猎杀』，我们的头寸被清算。」\n\nCNBC 表示，它收到了 FTX 创始人 Sam Bankman-Fried 的一份声明，他回应说：「我很震惊。100% 不同意……他们的指控不属实。」\n\n此前 11 月 13 日，三箭资本联合创始人 Kyle Davies 在其个人社交媒体平台发文称，今年 5 月时，LUNA 暴雷后的一系列事件让其极为震惊。如今他了解到，是 FTX/Alameda 在该事件中对三箭资本头寸进行了猎杀，最终导致其损失自身和 LP/债权人 的全部资金。",
-          "link": "https://www.theblockbeats.info/flash/114781",
-          "publishedOn": "2022-11-17T01:17:20.000Z",
-          "wordCount": null,
-          "title": "三箭联创：FTX、Alameda「串通」击垮三箭，SBF对此予以否认",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/114778",
-          "author": null,
-          "description": "BlockBeats 消息，11 月 17 日，据链上分析公司 CryptoQuant 数据显示，截至 11 月 16 日加密交易平台 Gemini 上的以太坊日提现交易笔数达 12,871 笔，创历史新高。\n\n此前加密交易平台 Gemini 官方发文表示，其理财产品 Gemini Earn 受到 Genesis Global Capital 停止赎回的影响而暂停赎回服务，Gemini 正与 Genesis 团队合作，帮助客户尽快从 Earn 计划中赎回资金，将在未来几天提供更多信息。",
-          "link": "https://www.theblockbeats.info/flash/114778",
-          "publishedOn": "2022-11-17T01:10:20.000Z",
-          "wordCount": null,
-          "title": "Gemini上以太坊日提现交易笔数激增，创历史新高",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/114769",
-          "author": null,
-          "description": "BlockBeats 消息，11 月 17 日，美国商品期货交易委员会（CFTC）专员 Kristin Johnsson 表示，FTX 子公司 LedgerX 不在破产申请之列，部分原因是他们遵守了期货监管机构的监管要求，进行了尽职调查，「CFTC 已独立确认 LedgerX 不属于 FTX 破产子公司名单，据我们所知，没有任何客户资产受到损害」。\n\nBlockBeats 此前报道，2021 年 10 月 25 日，FTX.US 已完成对 LedgerX 的收购，LedgerX 已更名为 FTX US Derivatives。该交易为 FTX.US 提供了美国商品期货交易委员会（CFTC）授予 LedgerX 的一系列许可。",
-          "link": "https://www.theblockbeats.info/flash/114769",
-          "publishedOn": "2022-11-17T00:46:20.000Z",
-          "wordCount": null,
-          "title": "美CFTC专员：确认LedgerX不在FTX破产子公司名单",
-          "imageUrl": null
         }
       ]
     },
@@ -2809,6 +2749,26 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5183298",
+          "author": "Foresight News",
+          "description": "原文作者：Babywhale，Foresight News\n随着 Synthetix 生态交易平台 Kwenta 推出代币，Synthetix 生态的项目已经基本完成了去中心化的进程。Synthetix 本身铸造 sUSD 和 Synths，以及 Kwenta 的现货和永续合约以及 Lyra 的期货市场已经组成了完整的 Synthetix 合成资产生态。在上个牛市「出道即巅峰」的合成资产概念已经几乎销声匿迹的今天，Synthetix 这个诞生于 DeFi 元年的老牌项目已经几乎成为了该领域的「最后荣光」。\n原子交换与「流动性中继」\n随着今年 5 月原子交换功能的完善（允许用户通过 Chainlink 和 DEX 预言机的喂价组合为合成资产交易定价，以合理的费用自动进行资产资产）以及与  1 inch 的集成，Synthetix 为合成资产的赛道打通了「零滑点」的叙事，即用户可以通过将 WBTC、WETH 等资产通过首先交易为 sBTC 与 sETH，再在 Synthetix 上赎回为 sUSD 并通过 Curve 等将 sUSD 交易为其他稳定币的方式大幅降低直接将前者交易为稳定币产生的滑点。\n但事实上，sBTC、sETH 的流动性并不高，截至发文时仅有 782 万美元与 1760 万美元的总价值。当使用 1 inch 将 1000 枚以太坊交易为 sUSD 时，也仅仅有小部分是通过原子交换进行的。\n\n\n该功能之所以能够实现，来源于 Synthetix 生态中的 sBTC、sETH 并非有实际的比特币和以太坊资产进行背书，而仅仅是代表了二者价格的一种合成资产。简单来说，该资产实际是 Synthetix 凭空「造出来」的，以前仅仅在 Synthetix 生态内流转，而现在则作为了降低交易滑点的最好工具。\n面对「交易合成资产不如直接交易资产本身」的质疑，当高 APY 已经无法被…",
+          "link": "https://www.odaily.news/post/5183298",
+          "publishedOn": "2022-11-21T12:00:00.000Z",
+          "wordCount": 81,
+          "title": "详解Synthetix V3的重点更新：能否迎来「第二春」？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5183296",
+          "author": "Loopy Lu",
+          "description": "renBTC 是链上常用的众多封装 BTC 之一。近日来，Ren Protocol 则成为了受 FTX 崩塌事件最深的跨链基础设施。\n“FTX 黑客” 事件之后，黑客不惜面临滑点损失也要将 ETH 抛售换取 renBTC，如此操作令这一老牌项目再次回到加密世界的集体注视之中。通过 renBTC 将资金桥接至比特币网络，目前该地址拥有约 2444 枚比特币（约 4040 万美元）。\n除了黑客的操作让 renBTC 在新闻中频频出现。Ren Protocol 自身也受到 Alameda“拖累\"，因为缺乏运营资金，Ren Protocol 面临着关停的风险。近日，Ren 团队透露，该项目的剩余资金约为 16 万美元，这些资金只够维持开发至第四季度结束。\n\n今日， Ren Protocol 官方发文表示：由于 Ren 1.0 网络将在 30 天内关闭，我们强烈建议用户尽快将他们的 Ren 资产（例如 renBTC）桥接回其原生链。同时，Ren 团队希望推出最新版本的协议 Ren 2.0 。\n目前，团队正与社区成员讨论，试图探索出一条自救之路。\n\n被Alameda收购，Ren Protocol做了什么？\nRen Protocol 的核心技术围绕着 RenVM 构建。RenVM 是由该团队开发的跨链加密资产托管网络，该网络由 Darknodes 节点维护安全。其主要使命正如 RenVM 官网所醒目标明的：一个无缝连接不同链的 Layer 0 。\n与 wBTC 类似，每个 renBTC 均由 BTC 提供 1 : 1 支持。而与 wBTC 不同的点则在于，这是一个去中心化的协议，无需中心机构进行托管，且任何人都可无需许可的进行 renBTC 的铸造、销毁。\n作为发展成熟的老牌跨链基础设施，目前 Ren Protocol 已经支持 BTC、BCH、DASH、DOGE、ZEC 等多条非 EV…",
+          "link": "https://www.odaily.news/post/5183296",
+          "publishedOn": "2022-11-21T11:55:08.000Z",
+          "wordCount": 81,
+          "title": "受Alameda影响面临关停，Ren Protocol能否自救？",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5183297",
           "author": "Foresight News",
