@@ -6,6 +6,106 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/oyo22xvh.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，据外媒报道，总部位于英国的初创银行 Starling Bank 正在阻止通过卡和银行转账进行的加密货币交易，包括禁止通过银行卡进行加密货币交易。Starling Bank 表示，加密货币背后的创新技术和思维具有巨大的潜在优势，但是目前它们具有高风险并且被大量用于犯罪目的，因此不再支持它们。\n此前4月，Starling Bank曾以25亿英镑估值完成1.305亿英镑（约1.65亿美元）融资。",
+          "link": "https://panewslab.com/zh/articledetails/oyo22xvh.html",
+          "publishedOn": "2022-11-23T10:26:12.000Z",
+          "wordCount": 3556,
+          "title": "英国新银行Starling Bank正在阻止加密货币交易",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/rihacozl.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，币安矿池已上线 RavenCoin（RVN）挖矿服务。 RVN矿池采用PPS+结算方式，RavenCoin（RVN）挖矿费率为1%。此前比特大陆与 RavenCoin 共同举办 AMA 活动引发外界对其是否会生产新的 ASIC 矿机的猜想。\n昨日，币安矿池推出云算力服务，该产品帮助用户无需挖矿设备即可从币安矿池获得挖矿奖励。",
+          "link": "https://panewslab.com/zh/articledetails/rihacozl.html",
+          "publishedOn": "2022-11-23T10:14:50.000Z",
+          "wordCount": 3559,
+          "title": "币安矿池上线RavenCoin（RVN）挖矿服务",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/83k0z82r.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，据CoinDesk报道，新加坡星展银行表示，已通过摩根大通基于区块链的固定收益市场交易网络 Onyx 完成了固定收益产品交易，成为了使用该网络的首个亚洲银行。此前法国巴黎银行加入摩根大通的区块链网络 Onyx 进行固定收益交易。高盛（GS）此前也曾利用摩根大通的网络进行回购交易。",
+          "link": "https://panewslab.com/zh/articledetails/83k0z82r.html",
+          "publishedOn": "2022-11-23T10:03:13.000Z",
+          "wordCount": 3545,
+          "title": "星展银行通过摩根大通的区块链网络Onyx完成固定收益产品交易",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/z26jmcxq.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，据 The Block 报道，澳大利亚证券和投资委员会（ASIC）就因涉嫌未经注册而提供加密货币服务而起诉金融科技公司 Block Earner，具体庭审日期尚未确定。ASIC 副主席 Sarah Court 表示，担心 Block Earner 在没有适当注册或没有澳大利亚金融服务许可证的情况下提供金融产品，让消费者得不到应有的保护。Block Earner 曾于 2021 年获 Aave 首席执行官 Stani Kulechov 和 Coinbase Ventures 等的 450 万美元投资。\n此前3月份报道，澳大利亚金融科技公司Block Earner提供DeFi固定利率投资产品。",
+          "link": "https://panewslab.com/zh/articledetails/z26jmcxq.html",
+          "publishedOn": "2022-11-23T09:52:14.000Z",
+          "wordCount": 3606,
+          "title": "澳大利亚监管机构就涉嫌提供未经许可的加密服务起诉Block Earner",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/n3dbo2gk.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，据慢雾安全团队情报，ETH 链上的 Numbers Protocol （NUM）代币项目遭到攻击，攻击者获利约 13,836 美元。慢雾安全团队以简讯形式分享如下：\n1. 攻击者创建了一个恶意的 anyToken 代币，即攻击合约（0xa68cce），该恶意代币合约的底层代币指向 NUM 代币地址；\n2. 接着调用 Multichain 跨链桥的 Router 合约的 anySwapOutUnderlyingWithPermit 函数，该函数的功能是传入 anyToken 并调用底层代币的 permit 函数进行签名批准，之后兑换出拥有授权的用户的底层代币给指定地址。但是由于 NUM 代币中没有 permit 函数且拥有回调功能，所以即使攻击者传入假签名也能正常返回使得交易不会失败，导致受害者地址的 NUM 代币最终可以被转出到指定的攻击合约中；\n3. 接着攻击者将获利的 NUM 代币通过 Uniswap 换成 USDC 再换成 ETH 获利；\n此次攻击的主要原因在于 NUM 代币中没有 permit 函数且具有回调功能，所以可以传入假签名欺骗跨链桥导致用户资产被非预期转出。\n参考攻击交易：https://etherscan.io/tx/0x8a8145ab28b5d2a2e61d74c02c12350731f479b3175893de2014124f998bff32",
+          "link": "https://panewslab.com/zh/articledetails/n3dbo2gk.html",
+          "publishedOn": "2022-11-23T09:37:04.000Z",
+          "wordCount": 3636,
+          "title": "慢雾：Numbers Protocol （NUM）代币项目遭攻击，请用户迅速取消对跨链桥的授权",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/4aaqonzt.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，据Dune仪表板数据，Alameda持有总价值17.万美元的NFT，其中包含81个Sandbox Lands（占比68.7% ），此外还有2个MAYC、2个Otherdeeds以及1个MFER NFT。",
+          "link": "https://panewslab.com/zh/articledetails/4aaqonzt.html",
+          "publishedOn": "2022-11-23T09:25:20.000Z",
+          "wordCount": 3547,
+          "title": "数据：Alameda持有NFT价值17.4万美元，68.7%为Sandbox Lands",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/g97767uc.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，欧易OKX今日宣布正式上线储备金证明（POR），所有用户可以在官网页面主动查询，对比OKX的链上钱包地址资产和默克尔树（Merkle Tree）内的用户总资产，从而验证其资产储备情况。据OKX官网查询显示，其BTC、ETH、USDT等币种储备金率均超过100%。",
+          "link": "https://panewslab.com/zh/articledetails/g97767uc.html",
+          "publishedOn": "2022-11-23T08:41:33.000Z",
+          "wordCount": 3547,
+          "title": "OKX上线储备金证明（POR），储备金率超100%",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/vhquh9pv.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，针对Business Insider报道称“SBF持有推特价值1亿美元的股份”，推特CEO马斯克发推文称此消息不实。",
+          "link": "https://panewslab.com/zh/articledetails/vhquh9pv.html",
+          "publishedOn": "2022-11-23T08:38:56.000Z",
+          "wordCount": 3540,
+          "title": "马斯克：SBF持有价值1亿美元推特股份为不实消息",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/zshxkhe4.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，据欧科云链OKLink多链浏览器数据显示，开头为0xb5C4的链上地址今日14:40:23从币安转出600万美元USDC并存入Aave，随后借出300万CRV（价值194万美元）转移至币安地址中，疑似在为做空CRV准备。",
+          "link": "https://panewslab.com/zh/articledetails/zshxkhe4.html",
+          "publishedOn": "2022-11-23T08:22:51.000Z",
+          "wordCount": 3529,
+          "title": "数据：0xb5C4开头地址从Aave借出300万CRV至币安地址",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/408zbkd5.html",
+          "author": "PA一线",
+          "description": "PANews 11月23日消息，据官方公告，以太坊侧链Ronin Network推出开发者测试网Saigon，允许开发者在测试网上进行合约部署。Ronin Network还将在该测试网上测试DPoS共识机制。此外，Ronin Network宣布已将Ronin Protocol、Ronin Bridge以及DPoS的智能合约开源。",
+          "link": "https://panewslab.com/zh/articledetails/408zbkd5.html",
+          "publishedOn": "2022-11-23T08:18:05.000Z",
+          "wordCount": 3551,
+          "title": "以太坊侧链Ronin Network已上线面向开发者的测试网Saigon",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/kit0k206.html",
           "author": "PA一线",
           "description": "PANews 11月23日消息，据官方公告，币安即将上线第29个Launchpad项目Hooked Protocol（HOOK），并开启BNB专场，此次售卖将基于投入模式，币安将根据用户7日的BNB日平均持仓确定用户可投入额度。BNB持仓快照周期：11月24日08:00至12月01日08:00（东八区时间）。投入将于12月01日14:00后开放，用户在投入时需签署购买协议，投入通道将于12月01日17:00关闭。12月01日17:00至2022年12月01日18:00期间，计算代币分配结果。",
@@ -1974,26 +2074,6 @@
           "wordCount": 3540,
           "title": "受持续熊市影响，加密借贷平台Unchained Capital裁员约15%",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/d8ah29pf.html",
-          "author": "PA一线",
-          "description": "PANews 11月19人消息，据彭博社报道，推特加密货币部门负责人Tess Rinearson已经辞职。与此同时，高级软件工程师Hamdi Allam也已离开该部门。据此前消息，马斯克已解雇多名批评他的员工，同时在邮件中警告剩余员工，如果他们想保住工作，就要“长时间工作”。",
-          "link": "https://panewslab.com/zh/articledetails/d8ah29pf.html",
-          "publishedOn": "2022-11-18T22:26:23.000Z",
-          "wordCount": 3530,
-          "title": "推特加密部门负责人Tess Rinearson已辞职",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/kv37ygt6.html",
-          "author": "PA一线",
-          "description": "PANews 11月19日消息，据《华尔街日报》援引FTX的财务记录和知情人士的话称，在FTX去年10月完成4.2亿美元融资后，创始人SBF出售了价值3亿美元的公司股份。这笔交易此前并未披露。当时SBF对投资者表示，这是为了补偿他几个月前买入竞争对手币安所持有FTX股份的花销。目前尚不清楚SBF如何处理这3亿美元，而FTX的2021年审计财务报表显示，该笔资金由FTX代表一个“关联方”保存，用于“运营便利”。2021年10月，FTX从淡马锡和Tiger Global等一系列知名投资者处融资4.2亿美元，FTX的投后估值达到250亿美元。2021年7月，SBF收购了币安持有的约15%的FTX股份。",
-          "link": "https://panewslab.com/zh/articledetails/kv37ygt6.html",
-          "publishedOn": "2022-11-18T22:16:18.000Z",
-          "wordCount": 3523,
-          "title": "SBF在FTX去年完成的4.2亿美元融资中套现3亿美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2002,6 +2082,56 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/flash/116068",
+          "author": null,
+          "description": "BlockBeats 消息，11 月 23 日，据慢雾安全团队情报，以太坊链上 Numbers Protocol（NUM）项目遭到攻击，攻击者获利约 13,836 美元。慢雾安全团队提醒用户迅速取消对跨链桥的授权。攻击具体过程如下：\n\n1. 攻击者创建了一个恶意的 anyToken，即攻击合约（0xa68cce），该恶意 Token 合约的底层 Token 指向 NUM 地址；\n\n2. 接着调用 Multichain 跨链桥的 Router 合约的 anySwapOutUnderlyingWithPermit 函数，该函数的功能是传入 anyToken 并调用底层 Token 的 permit 函数进行签名批准，之后兑换出拥有授权的用户的底层 Token 给指定地址。但是由于 NUM 中没有 permit 函数且拥有回调功能，所以即使攻击者传入假签名也能正常返回使得交易不会失败，导致受害者地址的 NUM 最终可以被转出到指定的攻击合约中；\n\n3. 接着攻击者将获利的 NUM 通过 Uniswap 换成 USDC 再换成 ETH 获利；此次攻击的主要原因在于 NUM 中没有 permit 函数且具有回调功能，所以可以传入假签名欺骗跨链桥导致用户资产被非预期转出。",
+          "link": "https://www.theblockbeats.info/flash/116068",
+          "publishedOn": "2022-11-23T10:01:41.000Z",
+          "wordCount": null,
+          "title": "慢雾：Numbers Protocol遭遇攻击，尽快取消对跨链桥授权",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/116059",
+          "author": null,
+          "description": "BlockBeats 消息，11 月 23 日，新加坡星展银行在摩根大通基于区块链的固定收益市场交易网络 Onyx 上完成固定收益交易，并成为第一家使用 Onyx 网络完成交易的亚洲银行。加入包括高盛 (GS) 和法国巴黎银行 (EPA) 在内的国际重量级银行行列。\n\nOnyx Digital Assets 网络使用 Token 在固定收益市场进行短期交易，允许银行可以借出美国政府债券几个小时作为抵押品，而无需在资产负债表上显示记录。自 2020 年 12 月以来，摩根大通的区块链技术平台 Onyx Digital Assets 已经提供了价值超过 3000 亿美元的此类短期贷款。",
+          "link": "https://www.theblockbeats.info/flash/116059",
+          "publishedOn": "2022-11-23T09:50:41.000Z",
+          "wordCount": null,
+          "title": "星展银行在摩根大通旗下区块链网络Onyx上完成固定收益交易",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/116056",
+          "author": null,
+          "description": "BlockBeats 消息，11 月 23 日，加密货币托管机构 Aegis Trust 推出 NFT 保险服务，该保单由伦敦劳埃德保险市场提供，将保护机构投资者的 NFT。Aegis 能够为机构投资者、对冲基金和交易所持有的 Token 化资产提供最高达 2500 万美元的保险。\n\nAegis Digital Vault 平台已经为机构存储提供符合监管要求的解决方案，其新的 NFT 保险政策增加了更高的安全层。",
+          "link": "https://www.theblockbeats.info/flash/116056",
+          "publishedOn": "2022-11-23T09:50:41.000Z",
+          "wordCount": null,
+          "title": "加密托管机构Aegis Trust推出NFT保险服务，保额最高达2500万美元",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/116051",
+          "author": null,
+          "description": "BlockBeats 消息，11 月 23 日，据外媒报道，英国数字银行 Starling Bank 宣布禁止加密货币交易，根据其向客户发送的短信通知称，Starling Bank 认为加密活动具有高风险，因此决定阻止向加密货币商家支付所有银行卡付款，并对与加密货币有关的入金和出金转账实施进一步限制。\n\n该银行发言人称：「加密货币背后的创新技术和思想具有巨大潜在优势，但是，目前，加密货币具有高风险并被大量用于犯罪目的，因此 Starling Bank 不再提供支持。」\n\nBlockBeats 此前报道，4 月 26 日，英国 Starling Bank 宣布以 25 亿英镑估值完成 1.305 亿英镑融资（约合 1.65 亿美元），高盛和 HaraldMcPike 等参投。",
+          "link": "https://www.theblockbeats.info/flash/116051",
+          "publishedOn": "2022-11-23T09:50:41.000Z",
+          "wordCount": null,
+          "title": "数字银行Starling Bank禁止加密货币交易",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/116050",
+          "author": null,
+          "description": "BlockBeats 消息，11 月 23 日，据 Dune Analytics 数据显示，Alameda 持有 NFT 价值 17.4 万美元，其中包含 81 个 Sandbox Lands（占比 68.7%），此外还有 2 个 MAYC、2 个 Otherdeeds 以及 1 个 MFER。",
+          "link": "https://www.theblockbeats.info/flash/116050",
+          "publishedOn": "2022-11-23T09:50:41.000Z",
+          "wordCount": null,
+          "title": "Alameda所持NFT价值17.4万美元，近七成为Sandbox Lands",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/flash/116041",
           "author": null,
