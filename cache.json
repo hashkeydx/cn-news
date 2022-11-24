@@ -2433,6 +2433,26 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/flash/116240",
+          "author": null,
+          "description": "BlockBeats 消息，11 月 24 日，据 CoinDesk 报道，Bybit 宣布设立 1 亿美元基金以支持机构客户，将向其平台上的现有和新做市商以及机构客户提供最高 1000 万美元的资金支持。",
+          "link": "https://www.theblockbeats.info/flash/116240",
+          "publishedOn": "2022-11-24T11:17:49.000Z",
+          "wordCount": null,
+          "title": "Bybit设立1亿美元基金以支持机构客户",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/116237",
+          "author": null,
+          "description": "BlockBeats 消息，11 月 24 日，加密货币交易平台 Binance 首席执行官 CZ 发文表示，加密行业将比传统金融行业更加透明。默克尔树储备金证明即将推出。",
+          "link": "https://www.theblockbeats.info/flash/116237",
+          "publishedOn": "2022-11-24T10:25:49.000Z",
+          "wordCount": null,
+          "title": "CZ：默克尔树储备金证明即将推出",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/flash/116228",
           "author": null,
           "description": "BlockBeats 消息，11 月 24 日，据 Vedomosti 报道，俄罗斯杜马开始制定修正案草案，以在俄罗斯创建国家加密货币交易所。知情人士称，一项允许在俄罗斯管辖范围内创建加密货币交易所的修正案草案的准备工作已经开始。",
@@ -3499,6 +3519,26 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5183326",
+          "author": "DAOrayaki",
+          "description": "原文作者：Grant Griffith\n原文标题：The Race for zkEVMs Explained\n当涉及到通过rollups扩展以太坊时，零知识（ZK）rollups，特别是兼容EVM的ZK-rollups（zkEVMs）的出现，通常被认为是圣杯。虽然我们在发展方面还没有达到这个程度，但最近各种项目在创新方面的热度已经上升，让多年以后的事情似乎触手可及。zkEVMs的竞赛现在正在进行，本文将研究分析哪些先行者能够成功地大规模实施 zkEVM 并在早期用户采用方面获得优势。\n\n首先，请注意本文不是关于rollup的介绍性文章。因此，如果对以太坊上的Rollups情况以及特别是使用 ZK-rollup 的一般优势/劣势并不熟悉，建议先阅读这篇文章，其中详细介绍了这些基础知识（A Comprehensive Guide for Those With “Zero Knowledge” on Rollups）。\n牢记以上几点，让我们快速提醒自己为什么 ZK-rollups 与 optimistic rollups 相比经常受到青睐。尽管两种形式的 rollups 在可扩展性和吞吐量方面都提供了巨大的改进，但 ZK-rollups 在交易终结性（无挑战期）和安全性方面提供了优势。对于后者，ZK-rollup 通常被认为更安全，因为它们依赖于不信任的加密机制来确保安全，而不是依赖其他参与者的诚实来提交欺诈证明。当然，optimistic rollups也有其特殊的好处，比如不需要在专门的机器上进行复杂的计算来生成证明（这有其成本），但这些是在其他条件相同的情况下需要注意的关键事项。\n在两种形式的 rollups 之间，只有 optimistic rollups 通常是 EVM 兼容的，这使得 optimistic rollups 在总价值锁定（TVL）方面更受欢迎。\n\nEVM…",
+          "link": "https://www.odaily.news/post/5183326",
+          "publishedOn": "2022-11-24T10:53:06.000Z",
+          "wordCount": 81,
+          "title": "DAOrayaki：从兼容性、等效性看zkEVMs赛道的竞争格局",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5183382",
+          "author": "巴比特",
+          "description": "原文作者：Donovan Choy\n原文编译：DeFi 之道\n 2021 年出现了加密牛市。以太坊变得拥挤，Gas 费有时高达数百美元。\n那么，当时的解决办法是什么？部署新的更快的链！像 Solana、Binance Smart Chain 和 Avalanche 这样的“以太坊杀手”都在那时出现。它们都开展了流动性挖矿活动，而且都抽走了以太坊上的资金。\n人们放弃了以太坊，尽管在过去支持它。\nAlt-L 1 链暂时解决了市场对可扩展性的需求。但这么多具有不同标准的链的出现，带来了跨链桥接的需要。当然，这也带来了麻烦，不仅仅是不便，还很危险。正如 Rekt 所列出的那样，跨链桥黑客事件十分频繁。\n\n以太坊试图通过 rollups 以不同的方式回答可扩展性问题。将交易分配到一个单独的（rollup）链上处理，并继承主网的去中心化和强大的安全性。\n这种做法一直在发挥作用。截至 10 月，L 2 s 在交易执行上已经超过了以太坊主网。\n\n然而，这仍有一个问题。每一条新链或 rollup 本身就是一个单一的链，有它自己独立的语言和设计结构。长期以此进行扩展的结果将是一个异步的 Web 3 生态系统。这就是为什么我们需要像 Hop 那样的协议在 rollup 链之间桥接的原因。\n如果 Web 3 要被主流采用，我们就需要和这种持续的网络切换说再见。人们不希望处理零散的、异步的链。这就像每次你想进行银行间转账时都要交换货币一样。\n\n如果说跨链桥是一次性的创可贴式的解决方案，那么，模块化的 rollup 正在为更全面的解决方案铺平道路。\n那么，该如何进行呢？Optimism 背后的开发者有一剂治本的方子：OP Stack。\n当前的障碍\n今天，大多数链都在追求自己的模块化战略。Optimism、Arbitrum 和 Starknet 在执行层上有所不同，但它们都通过将结算、共识和数据可用性层…",
+          "link": "https://www.odaily.news/post/5183382",
+          "publishedOn": "2022-11-24T09:30:00.000Z",
+          "wordCount": 81,
+          "title": "Bankless：一文探讨Optimism对模块化扩展的愿景OP Stack",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5183383",
           "author": "余顺遂",
