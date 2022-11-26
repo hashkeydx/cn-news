@@ -51,6 +51,64 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-27 datetime="2022-11-26T15:10:25.000Z">2022-11-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-27 datetime="2022-11-26T15:10:25.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183416"
+                        open
+                      >
+                        <summary class="article-expander__title">给以太坊节点MEV建模：节点们的收益是多少？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183416">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《 Post-Merge MEV: Modelling Validator Returns 》
+原文作者： pintail
+原文编译：Kxp，BlockBeats
+
+为了纪念合并（也被称为巴黎硬分叉），一个巨大的 Ethereum 标志已经竖立在卢浮宫的中央。
+概要
+工作证明挖矿时代结束后，执行层交易费用将支付给权益证明验证者。由于 EIP-1559 费用的燃烧，实际支付给验证者的剩余费用中绝大部分是「最大可提取价值」（MEV）。
+合并后，Ethereum 将有固定的 12 秒区块间隔，而不再是平均为 13.5 秒的可变区块间隔。然而，该变化可能不会对 MEV 的不稳定性造成太大影响。
+自 2022 年 3 月至 2022 年 8 月，到达矿工手中的 MEV 水平虽然较低，不过却一直相对稳定。
+基于合并后向验证者支付相同水平 MEV 的模型表明，验证者的中位回报率为 6.1% APR（包括 MEV 和共识层奖励），下四分位数为 5.3% ，上四分位数为 7.3% 。这是基于过去 6 个月的数据（ 2022 年 3 月至 2022 年 8 月）。
+运行多个验证者或与其他验证者共享收益的用户（例如通过流动质押供应商），其收益的不稳定性水平会更低。
+引言
+随着 Ethereum 不断过渡到权益证明（PoS）信标链，并将其作为主网的共识引擎，许多媒体开始集中报道工作证明挖矿时代的结束，以及随之而来的能源使用问题和以太币发行量的减少（PoS 更安全且更能抵抗中心化）。然而，信标链接管交易收录和排序职责的另一个后果是，目前支付给矿工的交易收录费用将转而支付给出块者。也就是说，任何随机选取的验证者将每 12 秒发布一个区块。
+挑选验证者进而出块的方式与现有的程序没有发生改变，正如我在关于验证者收益的第一篇文章中所提到的那样，即使验证者完全参与，这一过程也会在收入方面产生一些随机…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-26 datetime="2022-11-26T14:22:22.000Z">2022-11-26</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-26 datetime="2022-11-26T14:22:22.000Z"></time>
           </button>
@@ -8153,82 +8211,6 @@ BlockBeats 此前报道，11 月 8 日，Iris Energy 收到了 1.03 亿美元未
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/115721"
-                        open
-                      >
-                        <summary class="article-expander__title">Chainlink：v0.1质押池将于12月9日开放，单地址质押上限为7000枚LINK</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115721">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，去中心化预言机网络 Chainlink 官方宣布，其质押 v0.1 测试版本计划于北京时间 12 月 7 日 13:00 时上线以太坊主网。符合提前体验测试版本条件的地址将可在 v0.1 质押池中质押最多 7000 枚 LINK。
-
-此外，v0.1 质押池将于北京时间 12 月 9 日 13:00 面向所有普通用户开放，每个地址质押上限为 7000 枚 LINK，质押池总量上限为 2500 万枚 LINK。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/115715"
-                        open
-                      >
-                        <summary class="article-expander__title">Vitalik Buterin与YC创始人Paul Graham已在社交媒体上互相取关</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115715">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，以太坊联合创始人 Vitalik Buterin 与 Y Combinator 联合创始人 Paul Graham 已在社交媒体上互相取关。
-
-以太坊联合创始人 Vitalik Buterin 此前发推讽刺 Paul Graham 的小道消息推文，并表示「过去一周发现难以忍受的一个现象：人们散布谣言，很多人转发它们，很多人开始根据这些谣言信息进行交易……总之，我认为我们不应该把『Trust me』的谣言交易合法化。这为操纵市场提供了成熟的空间，甚至可能造成波动。另一个更深层次的问题是，加密领域有一段『悠久的历史』，人们利用谣言来诱导价格朝着有利于他们的方向波动。故意操纵市场并获取收益并不符合加密金融文化。」
-
-BlockBeats 此前报道，11 月 21 日，YC 创始人 Paul Graham 在社交媒体平台上表示，「一个我认识了十多年，值得信赖的人相信加密货币经济不久就会出现系统性风险。」Graham 同时表示并不了解此言论的相关事件及细节。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/115688"
-                        open
-                      >
-                        <summary class="article-expander__title">MakerDAO新增支持rETH作为抵押资产</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115688">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，MakerDAO 新增支持 rETH（通过 Rocket Pool 质押以太坊生成的衍生 Token）作为抵押资产，用户现可通过新的 rETH-A 金库，抵押 rETH 生成 DAI。
-
-此外，rETH-A 金库的参数设定为：最低抵押率 170%，稳定费 1.5%，债务上限为 500 万枚 DAI。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/115679"
-                        open
-                      >
-                        <summary class="article-expander__title">外汇局管理检查司副司长：应推动将虚拟货币监管纳入法律法规规范</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/115679">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，在 2022 年金融街论坛年会「治理体系与金融稳定」平行论坛上，国家外汇管理局管理检查司副司长、最高人民法院民二庭庭长黄卉表示，应尽快完善非银行支付机构、地方金融监督管理等领域立法，强化支付机构展业监管，厘清央地金融监管职责边界。共同推动将虚拟货币监管纳入法律法规规范，加强虚拟货币交易治理。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8967,131 +8949,6 @@ Coti首席执行官Shahaf Bar-Geffen表示，Dejed在推出时将被整合到Car
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/trdbvx77.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Iris Energy关停部分矿机以作为1.078亿美元债务的抵押品</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/trdbvx77.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据The Block报道，比特币矿企Iris Energy已关闭了大部分矿机的电源，将作为其1.078亿美元债务的抵押品，这释放了约90 MW的电力容量。该公司表示，在关闭了约 3.6 EH/s的机器后，其算力现在约为2.4 EH/s，包括1.3 EH/s的运输中或待部署矿机和1.1 EH/s的运行矿机。
-公司发言人还表示：“关停这些矿机旨在进行审慎的风险管理，以保护集团已建立的基础业务和数据中心基础设施(即，在没有母公司担保的情况下，也不向任何其他集团实体求助)。”该公司补充称其没有其他未偿还的债务。截至10月31日，Iris拥有5300万美元的现金和现金等价物。
-此前11月8日消息，比特币矿企Iris Energy面临1.03亿美元设备贷款的违约索赔。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/6mr6no2t.html"
-                        open
-                      >
-                        <summary class="article-expander__title">云挖矿公司HashFlare创始人因涉嫌欺诈被捕，涉案金额达5.75亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6mr6no2t.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据Cointelegraph报道，现已解散的云挖矿公司Hashflare两名创始人在爱沙尼亚被捕，被指控涉嫌参与加密货币欺诈和洗钱，涉案金额达5.75亿美元。据悉，HashFlare是一家成立于2015年的云挖矿公司，该公司声称允许客户租赁该公司的哈希值，以便挖掘加密货币，并获得同等份额的利润。根据美国司法部引用法庭文件的一份声明，由创始人Sergei Potapenko和Ivan Turõgin经营的整个采矿活动是一个“多方面计划”的一部分，“欺骗了数十万受害者”，其中，包括说服受害者通过HashFlare签订“欺诈性设备租赁合同”，以及说服其他受害者投资一家名为Polybius bank的虚假虚拟货币银行。
-此前报道，2018年7月，云采矿公司Hashflare发布公告，因业务无法盈利，被迫终止所有的比特币采矿合同。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/z6cy9wfa.html"
-                        open
-                      >
-                        <summary class="article-expander__title">MakerDAO新增支持rETH作为抵押品</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/z6cy9wfa.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，MakerDAO在推特上宣布新增支持 Rocket Pool的ETH流动性质押衍生品rETH作为抵押品，用户现可通过新的rETH-A金库，抵押rETH生成DAI。
-此外，rETH-A金库的参数设定为：最低抵押率170%，稳定费1.5%，债务上限为500万枚DAI。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/3w4km8s7.html"
-                        open
-                      >
-                        <summary class="article-expander__title">芭比娃娃制造商美泰公司在Flow链上推出其NFT市场</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3w4km8s7.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，公链Flow在推特上宣布，芭比娃娃制造商美泰公司旗下数字藏品平台Mattel Creations已上线Flow并将于12月15日发布系列4风火轮（Hot Wheel）NFT。在Mattel的新NFT市场上，用户将能够购买与Mattel的经典芭比娃娃和风火轮IP相关的数字收藏品。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/dx9jlcok.html"
-                        open
-                      >
-                        <summary class="article-expander__title">肯尼亚立法者正推进加密税收法案</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/dx9jlcok.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据肯尼亚媒体《商业日报》报道，肯尼亚的立法者目前正在推进一项允许对加密货币征税的法律。若法案获得批准，则该国的加密货币投资者在交易中出售或使用加密货币时，必须向肯尼亚税务局缴纳资本利得税。据联合国贸易和发展会议6月份发布的报告称，该国有8.5%的人口（即425万人）拥有加密货币。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/hq8wk996.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数字资产平台FalconX经重新评估后恢复使用Silvergate的支付网络</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/hq8wk996.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据The Block报道，数字资产平台FalconX现已恢复使用加密友好银行Silvergate的支付网络。FalconX发言人表示：“由于风险环境的提高和Silvergate的在线支付网络中断，FalconX上周暂停了对Silvergate账户的结算。这符合我们在这些情况下暂停和重新评估运营的标准流程。我们完成了这个过程，正在重新开放我们的Silvergate账户的结算。”
-此前11月18日消息，数字资产平台FalconX宣布不再使用Silvergate交易网络SEN。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9569,39 +9426,6 @@ Genesis 和 Grayscale 有什么共同点？
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183168"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3：价值投资的范式转移</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183168">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Peter
-进化是宇宙中最强大的力量，是唯一永恒的东西，是一切的驱动力。———桥水基金 雷.达利奥
-时间拉长，进化才是人类的主旋律。过去，环境的变化是进化的主因。
-现在，技术的进步扮演着越来越重要的角色。技术的进步，可以让量子力学冲击经典理论、让复杂经济学颠覆传统经济学、让数字黄金 BTC 动摇实体黄金几千年的信仰。完全有理由相信，由区块链技术驱动的 web 3 革命，是一次重大的进化之旅，会颠覆很多固有模式和观念，但今天我们主要讨论 web 3 对价值投资的影响。
-回顾历史，能让我们更好地找到今天的坐标。所以要讨论技术对价值投资的影响，我们还是从技术的变迁说起。
-一、技术的范式转移
-“范式转移”这个词现在已经被滥用了，但是如果追根溯源这个词出现的源头，会发现能配得上这个词的创新应该是非常少的。范式转移最早出现在《科学革命的结构》这本书，描述的是能够引发科学革命的基础理论体系的巨大转变，他所表述的是基础科学技术的升级，所带来的长期、深远的转变。
-自工业革命以来，每隔几十年的基础技术革命主导了价值创造，也深远的影响了政治、经济、生活方式等社会的方方面面，这就是非常典型的范式转移：
- 1 ）始于 1770 年左右：蒸汽机+纺织机械；
- 2 ）始于 1830 年左右：蒸汽机+铁路；
- 3 ）始于 1875 年左右：电力+钢铁；
- 4 ）始于 1910 年左右：石油+汽车；
- 5 ）始于 1970 年左右：通讯+计算机；
- 6 ）始于 2000 年左右：芯片+互联网；
-在每一次的技术大变革的进程中，那些围绕核心技术所衍生出来的产业群，都会成为当时的价值创造主体，只要看看我们这个技术周期里市值前列的这些巨头：Apple、Google、Amazon、阿里、腾讯...，无一例外都是建立在芯片和互联网技术之上。
-二、价值投资的演化
-既然技术的革命主导了价值的创造，进而影响了社会各…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9609,8 +9433,8 @@ Genesis 和 Grayscale 有什么共同点？
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3554237537">
-        <time id="build-timestamp" datetime="2022-11-26T15:08:18.978Z">2022-11-26T15:08:18.978Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3554436737">
+        <time id="build-timestamp" datetime="2022-11-26T16:09:51.422Z">2022-11-26T16:09:51.422Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
