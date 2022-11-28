@@ -1484,36 +1484,6 @@
           "wordCount": 3535,
           "title": "Bybit宣布设立1亿美元基金以支持机构客户",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/9po9w8u9.html",
-          "author": "PA一线",
-          "description": "PANews 11月24日消息，Web3基础设施公司Alchemy于上月（10月6日）更新隐私声明，隐私政策显示使用其服务时会自动收集个人信息。例如用户的互联网协议 (IP) 地址、用户设置、MAC 地址、cookie 标识符、移动运营商、移动广告和其他唯一标识符、浏览器或设备信息、位置信息（包括来自 IP 地址的大概位置）和 Internet 服务提供商等。还可能自动收集有关用户使用其服务的信息，例如用户在使用其服务之前、期间和之后访问的页面、关于用户点击的链接的信息、互动的内容类型、活动频率和持续时间，以及关于用户如何使用其服务的其他信息。\n此前消息，MetaMask将在默认RPC为Infura的情况下收集用户信息。Uniswap创始人表示，Uniswap不追踪IP，且可防用户IP被第三方API追踪。\n相关阅读：全面拆解Web3基础设施公司Alchemy",
-          "link": "https://panewslab.com/zh/articledetails/9po9w8u9.html",
-          "publishedOn": "2022-11-24T10:52:44.000Z",
-          "wordCount": 3555,
-          "title": "Web3基础设施公司Alchemy隐私政策显示会收集用户IP等个人信息",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/kyfzvjrn.html",
-          "author": "PA一线",
-          "description": "PANews 11月24日消息，币安创始人赵长鹏（CZ）发推称，加密行业将比传统金融行业更加透明。默克尔（Merkle）树（储备金证明）即将推出。",
-          "link": "https://panewslab.com/zh/articledetails/kyfzvjrn.html",
-          "publishedOn": "2022-11-24T10:30:50.000Z",
-          "wordCount": 3523,
-          "title": "CZ：默克尔树储备金证明即将推出",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/jj5117oj.html",
-          "author": "PA一线",
-          "description": "PANews 11月24日消息， 据派盾监测，一巨鲸地址从Aave V2协议中提取约4.24万枚stETH（约合5000万美元）。此前，一巨鲸从 Curve 的 stETH/ETH 交易对合约中移除 8.4 万枚 ETH（约合 1.03 亿美元）。",
-          "link": "https://panewslab.com/zh/articledetails/jj5117oj.html",
-          "publishedOn": "2022-11-24T10:13:05.000Z",
-          "wordCount": 3555,
-          "title": "一巨鲸从Aave V2中提取约4.24万枚stETH",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2251,16 +2221,6 @@
           "wordCount": null,
           "title": "Bybit设立1亿美元基金以支持机构客户",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/116237",
-          "author": null,
-          "description": "BlockBeats 消息，11 月 24 日，加密货币交易平台 Binance 首席执行官 CZ 发文表示，加密行业将比传统金融行业更加透明。默克尔树储备金证明即将推出。",
-          "link": "https://www.theblockbeats.info/flash/116237",
-          "publishedOn": "2022-11-24T10:25:49.000Z",
-          "wordCount": null,
-          "title": "CZ：默克尔树储备金证明即将推出",
-          "imageUrl": null
         }
       ]
     },
@@ -2677,16 +2637,6 @@
           "publishedOn": "2022-11-24T11:51:21.000Z",
           "wordCount": 81,
           "title": "Uniswap V3的小池子也有金矿，淘金路上LP们各显神通",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5183326",
-          "author": "DAOrayaki",
-          "description": "原文作者：Grant Griffith\n原文标题：The Race for zkEVMs Explained\n当涉及到通过rollups扩展以太坊时，零知识（ZK）rollups，特别是兼容EVM的ZK-rollups（zkEVMs）的出现，通常被认为是圣杯。虽然我们在发展方面还没有达到这个程度，但最近各种项目在创新方面的热度已经上升，让多年以后的事情似乎触手可及。zkEVMs的竞赛现在正在进行，本文将研究分析哪些先行者能够成功地大规模实施 zkEVM 并在早期用户采用方面获得优势。\n\n首先，请注意本文不是关于rollup的介绍性文章。因此，如果对以太坊上的Rollups情况以及特别是使用 ZK-rollup 的一般优势/劣势并不熟悉，建议先阅读这篇文章，其中详细介绍了这些基础知识（A Comprehensive Guide for Those With “Zero Knowledge” on Rollups）。\n牢记以上几点，让我们快速提醒自己为什么 ZK-rollups 与 optimistic rollups 相比经常受到青睐。尽管两种形式的 rollups 在可扩展性和吞吐量方面都提供了巨大的改进，但 ZK-rollups 在交易终结性（无挑战期）和安全性方面提供了优势。对于后者，ZK-rollup 通常被认为更安全，因为它们依赖于不信任的加密机制来确保安全，而不是依赖其他参与者的诚实来提交欺诈证明。当然，optimistic rollups也有其特殊的好处，比如不需要在专门的机器上进行复杂的计算来生成证明（这有其成本），但这些是在其他条件相同的情况下需要注意的关键事项。\n在两种形式的 rollups 之间，只有 optimistic rollups 通常是 EVM 兼容的，这使得 optimistic rollups 在总价值锁定（TVL）方面更受欢迎。\n\nEVM…",
-          "link": "https://www.odaily.news/post/5183326",
-          "publishedOn": "2022-11-24T10:53:06.000Z",
-          "wordCount": 81,
-          "title": "DAOrayaki：从兼容性、等效性看zkEVMs赛道的竞争格局",
           "imageUrl": null
         }
       ]
