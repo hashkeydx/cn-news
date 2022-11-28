@@ -51,11 +51,136 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-28 datetime="2022-11-28T02:56:14.000Z">2022-11-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-28 datetime="2022-11-28T02:56:14.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-11-28 datetime="2022-11-28T04:03:18.000Z">2022-11-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-11-28 datetime="2022-11-28T04:03:18.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183428"
+                        open
+                      >
+                        <summary class="article-expander__title">全球监管加强，欧盟主导的MiCA法案威力几何？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183428">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>2022 年 10 月 10 日，欧洲议会委员会通过了《加密资产市场监管法案》（The Markets in Crypto Assets regulation bill，简称MiCA ），欧洲议会还对《资金转移条例》（Transfer of Funds Regulation，TFR）进行了投票。
+接下来MiCA法案一旦通过并实施，将对欧盟的加密监管具有里程碑式的意义。FTX事件之所以能发生与各国对加密资产的监管缺位有很大关系，MiCA法案中对加密交易所等中介服务机构和稳定币发行商等加密项目都有着明确且严格的监管制度，MiCA法案不仅将使监管政策割裂的欧盟各国形成一个统一的加密监管体系，也将影响世界各国的加密立法，加快全球加密市场从“野蛮生长”阶段向“法制时代”过渡。
+回顾MiCA制定的历史：
+ 2020 年 9 月 24 日 — — 欧盟委员会通过关于加密资产市场监管的提案；
+ 2021 年 2 月 19 日 — — 欧洲央行意见；
+ 2021 年 2 月 24 日 — — 欧洲经济和社会委员会意见；
+ 2021 年 6 月 24 日 — — 欧洲数据保护监督员意见；
+ 2022 年 6 月 30 日 — — 欧洲议会和理事会达成临时协议；
+ 2022 年 10 月 5 日 — — 欧盟理事会批准最终的加密资产市场监管立法文本；
+ 2022 年 10 月 10 日 — — 欧洲议会委员会通过MiCA法案；
+MiCA法案原计划今年 11 月举行全体会议进行最终投票，但近期欧盟发言人称草案需要翻译为 24 种语言，最终通过时间推迟到 2023 年 2 月，MiCA立法通过后还需要给欧洲监管机构 12 – 18 个月的时间来编写和应用基于该立法的新规则，预计最早将在 2024 年 2 月开始实施。欧盟的MiCA法案一再推迟，最初的文本计划今年 6 月首次获得批准，最终文本 10 …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183429"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点去中心化期权金库：Ribbon Finance、Shield、Friktion</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183429">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Joey Wu
+去中心化期权金库（DOV）是一揽子期权策略，将标的资产的波动率转化为期权费，以此为储户的收益。与其他依赖 Token 奖励的传统 DeFi 产品不同，DOV 的收益来自交易波动率产生的真实损益。并且，加密资产的隐含波动率（IV）往往比 TradFi 的 IV 高，因此收入也比较可观。
+DOV 出现之前，期权策略几乎只提供给机构投资者，他们通过场外交易或在 Deribit 等期权交易所执行。然而，期权策略的特性是非常适合量化交易，因此完全可以开放给普通投资者使用。DOV 就提供了这样的投资机会，用户只需将他们的资产存入金库，合约就会自动执行策略。
+下文对 ETH、BNB Chain 和 Solana 上的龙头 DOV 应用进行了比较。
+Ribbon Finance
+目前运用最广的期权策略是 Covered Call，最早是 ETH 上的 Ribbon Finance 开始使用。投资者买入现货（蓝色）并卖出等量的看涨期权（黄色），组合头寸如下图所示：
+
+来源：http://www.option-trading-guide.com/coveredcalls.html
+绿线代表组合头寸，当标的价格大于期权执行价（Strike），组合收益为恒定的期权费（Premium），而当价格小于执行价减期权费（Strike - Premium），组合收益由正转负。Covered Call 适合那些不愿意卖出资产但又对后市不乐观的投资者。
+Ribbon Finance 是目前 TVL 最大的 DOV 产品，不过只开放 BTC、ETH 等核心资产。
+Shield
+Shield 是目前 BNB Chain 上 TVL 最大的 DOV，采取的是 Delta Neutral 策略。Delta 是资产价格对期权价格的一阶导影响，假设 Delta 为 0.5 ，则资产价格每变动一个单…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183427"
+                        open
+                      >
+                        <summary class="article-expander__title">Arthur Hayes：万字详析Genesis、DCG、Grayscale事件</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183427">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：White Man
+原文作者：Arthur Hayes
+原文来源：medium
+原文编译：Lynn，MarsBit
+
+相关阅读：
+Arthur Hayes：SBF，白人男孩
+反馈
+上周，我描述了 Sam Bankman-Fried 是如何成为一个“正确的白人”，以及他如何靠这个角色来说服西方金融机构和加密货币行业忽视他的缺点，不问太多问题。以下是他用自己的话向 Vox 描述的他的所作所为：
+“呀。嘿嘿。我必须这样做。在某种程度上，这就是声誉的构成。我为那些被它搞得一团糟的人感到难过，因为我们这些清醒的西方人玩的这个愚蠢的游戏，我们说所有正确的教条，所以每个人都喜欢我们。”
+在我们本周开始看到的 SBF 明显的史诗般的欺诈行为的后果中，也许最重要的伤亡是加密货币贷款机构 Genesis 可能无力偿还和可能破产，这可能是巨大的，足以也使其母公司——著名的风险投资公司 Digital Currency Group（DCG）倒下。Genesis / DCG 的闹剧——其中还包括 Genesis 的姐妹公司——数字资产基金 Grayscale——特别有影响力，因为它直接影响到在任何交易所上市的最大比特币投资产品 GBTC. GBTC 对我们这些加密货币交易商如此重要的原因是，它持有最大的比特币储量之一。如果投资者——无论是否愿意——被允许用 BTC 或美元赎回 GBTC 股份，它可能会引发比特币和其他狗屎币的法定价格的下一个残酷的下跌过程。
+现在，SBF 的无敌形象已经被打破，投资者已经恢复了他们做数学题和阅读公开声明的能力。他们已经开始向每个人提问，并且不给任何人以怀疑的好处，因为社会条件的某些方面允许他们的理性大脑使他们的直觉或蜥蜴大脑沉默。
+这些文章的全部意义在于改变你对未来的思考。当下一个说“正确”的话、穿“正确”的衣服、上“正确”的学校、说话/看起来“正确”、和“…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183425"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | Twitter 2.0规划或不包括“支付”功能；普京呼吁建立基于区块链和数字货币的国际结算系统（11月28日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183425">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+新加坡国会将于 11 月 28 日专题讨论淡马锡FTX投资失败事件
+Odaily星球日报讯 由于淡马锡是新加坡财政部负责监管的控股投资公司，新加坡国会将于下周一（ 11 月 28 日）专题讨论淡马锡FTX投资失败事件，据悉该国议员已就这一事件提出了超过 15 个问题，包括新加坡政府是否追踪淡马锡和新加坡主权财富基金GIC投资范围、新加坡金融管理局 (MAS) 是否提出过风险建议、以及新加坡投资者FTX风险敞口的具体数据等。（channelnewsasia）
+Elon Musk公布Twitter 2.0 规划，但未披露“支付”功能
+ Elon Musk在社交媒体上披露他在Twitter公司的演讲PPT，涉及Twitter 2.0 规划内容，其中包括“广告即服务”、视频、加密私信、长推文、蓝标验证功能优化，但在“支付”页面中显示空白。此前有消息称，Elon Musk支持Twitter在不久将来推出加密钱包，并称自己能预见“BTC、ETH、DOGE拥有未来”，还曾计划构建“基于区块链的Twitter版本，将“推文”嵌入交易作为评论，每条评论或转发需支付 0.1 DOGE” 。
+Twitter 2.0 或将集成Signal协议推出加密私信功能
+推特将集成Signal协议用于开发加密私信功能，在推特的IOS应用中能看到Signal协议的代码采用。
+Signal协议（前称TextSecure协议）是一种非互联的加密协议，可被用于为语音呼叫、视频呼叫和即时消息会话提供端到端加密。
+行业要闻
+普京呼吁建立基于区块链和数字货币的国际结算系统
+Odaily星球日报讯俄罗斯总统普京在俄罗斯最大的银行Sberbank组织的人工智能会议上呼吁运用数字货币技术和分布式账本来创建建立新的国际结算系统，独立于银行和第三国干预。他在讲话中强调，在俄罗斯与西方关系紧张的情况下，国家间的资金流动和支付目前…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -358,76 +483,6 @@ Cliff是Zhu Su相识十多年的好友，曾在加入三箭资本一年后离开
                               <span>PANews 11月27日消息，加密货币研究员FatMan推特发文对做市商Jump Trading产生质疑，认为其有可能通过操纵Pyth预言机喂价阻止某些链上仓位被清算。有Jump员工数月前曾向他透露，Jump有意使用Pyth狙击散户仓位。FatMan此前推特发文称，今年5月，Jump Capital旗下加密交易部门Jump Crypto的一名员工透露，Alameda和Jump正在合谋将Serum完全稀释估值（FDV）抬高到超出其实际价值的价格。在那条推文发布后不久，SBF屏蔽了FatMan。FatMan表示，需要彻底调查Jump在促成FTX抵押品骗局中扮演的角色。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183427"
-                        open
-                      >
-                        <summary class="article-expander__title">Arthur Hayes：万字详析Genesis、DCG、Grayscale事件</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183427">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：White Man
-原文作者：Arthur Hayes
-原文来源：medium
-原文编译：Lynn，MarsBit
-
-相关阅读：
-Arthur Hayes：SBF，白人男孩
-反馈
-上周，我描述了 Sam Bankman-Fried 是如何成为一个“正确的白人”，以及他如何靠这个角色来说服西方金融机构和加密货币行业忽视他的缺点，不问太多问题。以下是他用自己的话向 Vox 描述的他的所作所为：
-“呀。嘿嘿。我必须这样做。在某种程度上，这就是声誉的构成。我为那些被它搞得一团糟的人感到难过，因为我们这些清醒的西方人玩的这个愚蠢的游戏，我们说所有正确的教条，所以每个人都喜欢我们。”
-在我们本周开始看到的 SBF 明显的史诗般的欺诈行为的后果中，也许最重要的伤亡是加密货币贷款机构 Genesis 可能无力偿还和可能破产，这可能是巨大的，足以也使其母公司——著名的风险投资公司 Digital Currency Group（DCG）倒下。Genesis / DCG 的闹剧——其中还包括 Genesis 的姐妹公司——数字资产基金 Grayscale——特别有影响力，因为它直接影响到在任何交易所上市的最大比特币投资产品 GBTC. GBTC 对我们这些加密货币交易商如此重要的原因是，它持有最大的比特币储量之一。如果投资者——无论是否愿意——被允许用 BTC 或美元赎回 GBTC 股份，它可能会引发比特币和其他狗屎币的法定价格的下一个残酷的下跌过程。
-现在，SBF 的无敌形象已经被打破，投资者已经恢复了他们做数学题和阅读公开声明的能力。他们已经开始向每个人提问，并且不给任何人以怀疑的好处，因为社会条件的某些方面允许他们的理性大脑使他们的直觉或蜥蜴大脑沉默。
-这些文章的全部意义在于改变你对未来的思考。当下一个说“正确”的话、穿“正确”的衣服、上“正确”的学校、说话/看起来“正确”、和“…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183425"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | Twitter 2.0规划或不包括“支付”功能；普京呼吁建立基于区块链和数字货币的国际结算系统（11月28日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183425">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-新加坡国会将于 11 月 28 日专题讨论淡马锡FTX投资失败事件
-Odaily星球日报讯 由于淡马锡是新加坡财政部负责监管的控股投资公司，新加坡国会将于下周一（ 11 月 28 日）专题讨论淡马锡FTX投资失败事件，据悉该国议员已就这一事件提出了超过 15 个问题，包括新加坡政府是否追踪淡马锡和新加坡主权财富基金GIC投资范围、新加坡金融管理局 (MAS) 是否提出过风险建议、以及新加坡投资者FTX风险敞口的具体数据等。（channelnewsasia）
-Elon Musk公布Twitter 2.0 规划，但未披露“支付”功能
- Elon Musk在社交媒体上披露他在Twitter公司的演讲PPT，涉及Twitter 2.0 规划内容，其中包括“广告即服务”、视频、加密私信、长推文、蓝标验证功能优化，但在“支付”页面中显示空白。此前有消息称，Elon Musk支持Twitter在不久将来推出加密钱包，并称自己能预见“BTC、ETH、DOGE拥有未来”，还曾计划构建“基于区块链的Twitter版本，将“推文”嵌入交易作为评论，每条评论或转发需支付 0.1 DOGE” 。
-Twitter 2.0 或将集成Signal协议推出加密私信功能
-推特将集成Signal协议用于开发加密私信功能，在推特的IOS应用中能看到Signal协议的代码采用。
-Signal协议（前称TextSecure协议）是一种非互联的加密协议，可被用于为语音呼叫、视频呼叫和即时消息会话提供端到端加密。
-行业要闻
-普京呼吁建立基于区块链和数字货币的国际结算系统
-Odaily星球日报讯俄罗斯总统普京在俄罗斯最大的银行Sberbank组织的人工智能会议上呼吁运用数字货币技术和分布式账本来创建建立新的国际结算系统，独立于银行和第三国干预。他在讲话中强调，在俄罗斯与西方关系紧张的情况下，国家间的资金流动和支付目前…</span>
                             </span>
                           </div>
                         </a>
@@ -6122,8 +6177,8 @@ Odaily星球日报讯 韩国釜山市已决定重新考虑建立数字资产交�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3561624462">
-        <time id="build-timestamp" datetime="2022-11-28T04:10:47.517Z">2022-11-28T04:10:47.517Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3561893042">
+        <time id="build-timestamp" datetime="2022-11-28T05:08:03.781Z">2022-11-28T05:08:03.781Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
