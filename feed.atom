@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-12-02T08:10:09.672Z</updated>
+    <updated>2022-12-02T09:07:54.983Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ankr被攻击始末：套利者获利超黑客，黑客发貔貅玩“行为艺术”]]></title>
+        <id>https://www.odaily.news/post/5183563</id>
+        <link href="https://www.odaily.news/post/5183563"/>
+        <updated>2022-12-02T08:15:29.000Z</updated>
+        <summary type="html"><![CDATA[今日，Ankr 的部署者密钥疑似被泄露， 10 万亿枚 aBNBc 被铸造，其在 Pancake 上的交易池流动性被掏空，aBNBc 价格已几近归零。
+
+而与以往历次攻击事件略有不同，本次攻击事件中出现了诸多令人啼笑皆非的“趣闻”：套利者获利远超黑客（我们先假设其非同一人）、黑客发行 FuckBNB meme 币大搞“行为艺术”、aBNBc 不断增发总发行量达到前所未闻的数量等等。本次攻击事件的后续发展所带来的关注，甚至已经超过攻击本身。
+
+攻击事件回顾
+
+今日早间，黑客获得了 Ankr 部署者权限，对这一项目展开了攻击。
+据链上数据显示， 10 万亿枚 aBNBc 代币在一笔转账中被铸造，并发送到0xf3a4开头的地址。
+
+在增发了巨量代币之后，有一部分 aBNBc 被留在了钱包之中，而更多的代币则被抛出获利。黑客将 1.125 BNB 转入其地址作为 gas 费用并启动 aBNBc 抛售，总计兑换了 4, 050, 500 枚 USDC 和 5, 000 枚 BNB。而获利的 4, 500 枚 BNB 又被兑换了 1, 293, 087 枚 USDC 并将 900 枚 BNB 存入 Tornado.Cash，之后攻击者将所有 USDC 跨链接入以太坊网络 Celer Network 和 Multichain，再将全部 4, 684, 156 枚 USDC 兑换了 3, 446 枚 ETH。由于 ANKR 价格大幅下跌，当前做空 ANKR 回报率达到 53.25% 。
+安全团队派盾 PeckShield 发现，Ankr 被盗事件中，aBNBc 代币合约存在无限铸币漏洞，虽然铸币函数 mint()受到 onlyMinter 修改器（modifier）保护，但还有另一个函数（带有 0x3b3a5522 func.signature）可以完全绕过调用者验证以获得无限铸币权限。
+…]]></summary>
+        <author>
+            <name>Loopy Lu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[赵长鹏：币安已冻结Ankr黑客转至CEX的300万美元]]></title>
         <id>https://panewslab.com/zh/articledetails/6yts1br9.html</id>
@@ -27,6 +48,45 @@
 此前消息，韩国法院冻结Terra联创Daniel Shin的1.04亿美元资产；且韩国检方已申请对Terra联创Daniel Shin等人的事前拘捕令。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密新人需要了解的7个残酷真相]]></title>
+        <id>https://www.odaily.news/post/5183576</id>
+        <link href="https://www.odaily.news/post/5183576"/>
+        <updated>2022-12-02T07:07:49.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Matti，Zee Prime 联合创始人
+原文编译：DeFi 之道
+
+我在旧文章《 2022 年加密新手生存指南》上收到的积极反馈让我思考如何为这些新鲜血液提供更多有用的 tips。对于这个行业，新人很重要，他们在混乱之后留下来很重要。
+Crypto 吸引着杰出的人才。然而，有些人利用他们的才能来玩零和游戏。然后是那些决定创造和玩正和游戏的人。这些正和游戏源于创新。
+有时，创新可能会与模仿相混淆。从某种意义上说，模仿会使创造力消亡。但另一方面，它也发挥着重要作用：模仿是创新（想法、资产等）推动前进的方式。在整个加密周期中，模仿和创新可能会变得越来越难以区分。
+
+我不认为以下内容是提示或建议，倒是可以作为指导原则的有趣观点。这些是我学到的教训，在我看来，它们是真相，因为它们是一个不断重复的模式的一部分，超越了 crypto。
+以下内容并不按重要性排序，因为不同的真相对不同的人有不同的重要性。
+真相 #1 ：人们会爱上个人零和游戏，一次次地从模仿中获利
+这不是什么新鲜事，也不是 crypto 独有的。人们可以通过从 Girardian 的角度研究金融泡沫的解剖学，甚至更多的实际生活来学习很多。这不会帮助你卖在顶部，但会让你更了解整个周期。
+「每个泡沫都始于真实的东西，它激发了太多的假象。它始于达・芬奇，后来被彼得・保罗・比罗斯（Peter Paul Biros）主导，因为尽管天才是罕见的，但轻信者的需求总是会被大量的欺诈品满足。」
+
+Kraken 联合创始人 Jesse Powell 关于 FTX 事件危险信号的思考：
+
+迟了 8 年才出现在战场上，却表现得好像什么都知道一样
+
+用 9 位数购买政治利益
+
+过分渴望取悦特区
+
+巨大的自我购买，如 9 位数的体育交易
+
+成为「媒体宠儿」，寻找吹捧的对象
+
+有效利他主义（EA）的美德信号
+
+FTT
+
+有时很难区分你想相信…]]></summary>
+        <author>
+            <name>DeFi之道</name>
         </author>
     </entry>
     <entry>
