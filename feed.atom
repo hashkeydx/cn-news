@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-12-02T17:07:37.390Z</updated>
+    <updated>2022-12-02T18:09:30.844Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[红十字国际委员会与Partisia合作测试基于区块链的代币化援助]]></title>
+        <id>https://panewslab.com/zh/articledetails/a30ox33w.html</id>
+        <link href="https://panewslab.com/zh/articledetails/a30ox33w.html"/>
+        <updated>2022-12-02T16:06:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 12月3日消息，据The Block报道，红十字国际委员会 (ICRC) 正在通过与L1区块链 Partisia 合作开发一种替代现金和代金券援助的加密货币。如果成功，它可能会导致红十字国际委员会通过“稳定的实用代币”提供援助，其价值将以类似于稳定币的方式与资产价格挂钩。目前，这是通过纸质代金券或现金分发的，新的解决方案将帮助向冲突地区的人们分发代币化援助。 Partisia 使用基于多方计算 (MPC) 技术的协议，该协议可以根据一组用户的私人数据进行评估，在不泄露这些私人数据的情况下来存取代币。迄今为止，该项目已经通过出售其原生代币筹集了 5500 万美元。该项目原型将于周六在 Partisia 活动中展示，但在部署之前可能还有很长的路要走。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[阿里云已添加对Avalanche验证节点和基础设施的支持]]></title>
         <id>https://www.theblockbeats.info/flash/117542</id>
@@ -6466,38 +6476,6 @@ Daniel Shin在2018年多次表示，Terra稳定币将成为韩国用户在电子
         <updated>2022-11-28T06:23:06.000Z</updated>
         <summary type="html"><![CDATA[PANews 11月28日消息，孙宇晨发推文称：“作为加密货币行业的一员，我亲自与我的新加坡风险投资基金BBF、V神（Vitalik Buterin）等人进行了讨论，我们将共同向WETH基金会投资20亿美元，以恢复所有资金。”此前昨日下午，Wrapped Ethereum （WETH ）基金会联合创始人poordart.weth在推特上回应关于WETH资不抵债的传言，他表示：“不幸的是，传言是真的。整个项目将返还给社区(金库除外)，我会去一个非引渡国休养精神。”poordart.weth还转发了一条推文，该推文称：“WETH已与ETH脱锚，poordart.weth宣布筹集资金已填补他们的20亿美元的亏空。”
 以上内容均为玩笑，因为WETH是用合约直接封装ETH出来的代币，合约层面可实现1:1刚兑。数据显示，WETH合约地址为0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2，其中ETH余额约为3805543；WETH最大总供应约为3,805,539枚。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Abracadabra向Sushi寻求紧急援助，因预言机故障导致1000万美元资产面临风险]]></title>
-        <id>https://panewslab.com/zh/articledetails/t2ybvt88.html</id>
-        <link href="https://panewslab.com/zh/articledetails/t2ybvt88.html"/>
-        <updated>2022-11-28T05:38:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月28日消息，据The Defiant报道，算法稳定币MIM发行方Abracadabra透露，由于预言机故障导致价值1000万美元的加密资产面临风险，目前已向Sushi治理论坛提交一份“紧急提案”，要求Sushi团队提高cvxRenCrv和yvcrvstETH两个Bento金库抵押头寸利率，并称预言机故障会对持有yvcrvstETH头寸的用户构成威胁。
-Abracadabra的借贷基础设施建立在Sushi的Bentobox协议之上，这意味着利率变化必须得到控制Bentobox的多重签名合约的批准。Abracadabra称，这两个代币均未在SushiSwap上使用，其中cvxRenCrv是专为Abracadabra制作的代币封装器，yvcrvstETH则是由收益聚合商Yearn Finance发行的计息代币。SushiSwap主厨Jared Gray已在Discord表示将提供协助并提高相关利率。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aave停用YFI、CRV等17个低流动性资产池以防止攻击]]></title>
-        <id>https://panewslab.com/zh/articledetails/dbvpab3u.html</id>
-        <link href="https://panewslab.com/zh/articledetails/dbvpab3u.html"/>
-        <updated>2022-11-28T05:22:42.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月28日消息，据The Defiant报道，为防止针对Aave的低流动性资产池的攻击，上周在Aave治理论坛上发布的冻结低流动性资产池的提案已被执行，涉及Aave v2上17个低流动性资产池：YFI、CRV、ZRX、MANA、1INCH、BAT、sUSD、ENJ、GUSD、AMPL、RAI、USDP、LUSD、xSUSHI、DPI、renFIL和MKR池。
-此前消息，某巨鲸地址通过在Aave借入CRV并做空CRV获利，导致Aave产生的160万美元坏账，社区提案提议用Gauntlet的破产基金和Aave财库资金来弥补这一坏账。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Andre Cronje：Fantom持有资产价值超3亿美元，年收入超1000万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/s56qzttr.html</id>
-        <link href="https://panewslab.com/zh/articledetails/s56qzttr.html"/>
-        <updated>2022-11-28T05:14:53.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月28日消息，Fantom创始人Andre Cronje发文介绍Fantom财务状况，其表示截至2022年11月，仍有超过4.5亿枚FTM（市价约8000万美元）、超1亿美元稳定币、超1亿美元其它加密资产、5000万美元非加密资产，与此同时薪酬支出约700万美元/年。Fantom目前年收入大于1000万美元（不包括任何资本收益），现金流为正。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
