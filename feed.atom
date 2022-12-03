@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-12-03T20:07:28.910Z</updated>
+    <updated>2022-12-03T21:06:22.543Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -5504,73 +5504,6 @@ SEAMAN 合约：BSC 0x6bc9b4976ba6f8C9574326375204eE469993D038
 Great Voyage Coin (GVC) 合约：BSC 0xDB95FBc5532eEb43DeEd56c8dc050c930e31017e
 据区块链安全审计公司Beosin分析发现是由于SEAMAN合约在每次transfer函数时，都会将SEAMAN代币兑换为凭证代币GVC，而SEAMAN代币和GVC代币分别处于两个交易对，导致攻击者可以利用该函数影响其中一个代币的价格。攻击者首先通过50万BUSD兑换为GVC代币，接下来攻击者调用SEAMAN合约的transfer函数并转入最小单位的SEAMAN代币，此时会触发合约将能使用的SEAMAN代币兑换为GVC，兑换过程是合约在BUSD-SEAMAN交易对中将SEAMAN代币兑换为BUSD，接下来在BUSD-GVC交易对中将BUSD兑换为GVC，攻击者通过多次调用transfer函数触发_splitlpToken()函数，并且会将GVC分发给lpUser，会消耗BUSD-GVC交易对中GVC的数量，从而抬高了该交易对中GVC的价格。最后攻击者通过之前兑换的GVC兑换了50.7万的BUSD，获利7781 BUSD。
 Beosin Trace追踪发现被盗金额仍在攻击者账户（0x49fac69c51a303b4597d09c18bc5e7bf38ecf89c）。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HyperPay：基于Web5的数字银行]]></title>
-        <id>https://www.odaily.news/post/5183483</id>
-        <link href="https://www.odaily.news/post/5183483"/>
-        <updated>2022-11-29T09:02:52.000Z</updated>
-        <summary type="html"><![CDATA[在短短不到十年时间里，日新月异的加密货币领域已重塑了我们生活的方方面面。如今，随着去中心化金融 (DeFi) 越来越多地应用于加密货币领域，人们开始将其视为主流。DeFi 总锁定价值 (TVL) 仍保持 40 亿美元左右，表明该生态系统的发展模式切实可行。尽管加密货币具有不稳定性，但 DeFi 确实为公众提供了投资机会。
-
-历史是曲折发展的，DeFi TVL 规模虽然相距高点已经跌去了近 80% ，但是我们仍应该保持乐观，在互联网泡沫，科技股泡沫发生的时候，情况也大抵如此。
-DeFi 的目标是构建透明化的金融系统，向所有人开放，且无须许可，不用依赖于第三方机构即可完成金融的需求。例如借贷、交易、支付以及衍生品等。
-它是开放金融，这也是区块链的基础设施所带来的，也是来源于比特币的灵感。它最重要的特点，就是可验证和透明。通过区块链，人们可以验证在上面发生的每个交易，这也带来了透明化。
-通往DeFi 的钥匙—Web3钱包
-无论是Web1.0 还是Web2.0 ，用户都需要在不同的平台注册不同的账号，信息之间是彼此隔离的。
-Web3.0 发生了范式的逆转，通过Web3.0 的底层逻辑，用户与平台间是独立的存在，在注册或登录网站时，不需要填写身份信息并同意隐私协议，而是通过去中心化的网络直接去创建账户，拥有维护互联网的代币协议。
-从比特币、区块链、NFT、到以太坊，各路公链不断崛起，DApp、DAO、IOT、X to earn 这些新概念也应运而生。理想状态下只需要使用自己的数字钱包和密钥就可以登录任何一家网站，同时也通过密钥来管理自身的资产，获取经济激励。
-用户通过钱包进行授权并参与其中以攫取利益，那么一款受众多，具备市场竞争力，安全性高，品牌形象良好的钱包产品，将在DeFi 的再度起势中获得成果。
-HyperPay 作为一款已面市 6 年的老牌钱包，也将转型为首个基于Web5的数…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Upbit运营商Dunamu三季度营业利润同比下降76.6%至1.27亿美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/pshldk5q.html</id>
-        <link href="https://panewslab.com/zh/articledetails/pshldk5q.html"/>
-        <updated>2022-11-29T08:58:58.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月29日消息，据Zdnet报道，韩国加密货币交易所Upbit运营商Dunamu发布的最新报告显示，其2022年第三季度营收为2719亿韩元（约合2.05亿美元），同比下降66.3%；营业利润为1687亿韩元（约合1.27亿美元），同比下降76.6%；净利润为1599亿韩元（约合1.21亿美元），同比下降72.7%。与第二季度相比，该公司营业收入及营业利润分别下降24.1%和39.3%。该公司表示，持续的全球流动性下降和资本市场整体萎缩等因素对其业绩产生了影响。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BlockFi破产重组详情与细节：经历系列灾难终倒下]]></title>
-        <id>https://www.odaily.news/post/5183481</id>
-        <link href="https://www.odaily.news/post/5183481"/>
-        <updated>2022-11-29T08:54:46.000Z</updated>
-        <summary type="html"><![CDATA[北京时间 11 月 28 日晚，加密借贷公司 BlockFi Inc. 根据《美国破产法》第 11 章向新泽西地区破产法院提起自诉，申请破产重组。此外，在百慕大注册成立的 BlockFi International Ltd. 向百慕大最高法院提交了一份请愿书，要求在近期内任命联合临时清算人。
-随着 BlockFi 申请破产，多个加密公司发布声明阐明债务关系。加密借贷平台 Nexo 官方表示，其对 BlockFi 并没有任何风险敞口；美国加密友好银行 Silvergate Bank 发布公告称，对 BlockFi 的风险敞口不到 2000 万美元。
-（ 1 ）破产重组细节
-根据破产申请表（点击查看），申请破产的 BlockFi 实体共计九家，分别是：BlockFi Inc.、BlockFi Services、BlockFi International、BlockFi Wallet、BlockFi Ventures、BlockFi Trading、BlockFi Lending、BlockFi Lending II 和 BlockFi Investment Products。
-文件显示，BlockFi 的债权人超 10 万，债务规模在 10 亿至 100 亿美元区间。BlockFi 也列出了债务规模达到 100 万美元（含）以上的债权人名单，共计 50 家。
-其中，Ankura Trust Company, LLC 是其最大债权人，拥有价值约 7.29 亿美元的无担保债权；FTX US 排名第二，债权规模 2.75 亿美元（FTX US 曾向 BlockFi 提供信贷额度）；共有 44 家不具名机构客户，总债权规模达到 2.5 亿美元。值得注意的是，美国证券交易委员会（SEC）对 BlockFi 拥有 3000 万美元债权。（注：今年 2 月，BlockFi 同意向 SEC 支…]]></summary>
-        <author>
-            <name>秦晓峰</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[波卡生态系统7支团队成立维护社区道德规范的Polkadot联盟]]></title>
-        <id>https://panewslab.com/zh/articledetails/k5te3d8j.html</id>
-        <link href="https://panewslab.com/zh/articledetails/k5te3d8j.html"/>
-        <updated>2022-11-29T08:28:44.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月29日消息，据波卡DeFi平台Acala官方博客，Polkadot生态系统的Acala、Astar、Interlay 、KILT Protocol、Moonbeam、Subscan和Phala 七支团队宣布成立Polkadot联盟，旨在建立和维护一套供社区遵循的道德规范。联盟将存在于链上，并将在链上发布其对不法网站和账户的调查结果。但它不会有任何治理权；它的范围不涉及Polkadot协议的其他部分。
-联盟成员由公司、项目、其他集体，甚至是Polkadot生态系统中的其他网络组成。会员资格分为两层：伙伴（Fellow）和盟友（Ally）。伙伴对联盟议案拥有投票权，并进行链上操作。盟友是波卡联盟的成员，没有投票权。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[币安上线新一批BTC云算力挖矿产品，预计挖矿开始时间为12月4日]]></title>
-        <id>https://panewslab.com/zh/articledetails/l3jdd6xq.html</id>
-        <link href="https://panewslab.com/zh/articledetails/l3jdd6xq.html"/>
-        <updated>2022-11-29T08:11:42.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月29日消息，据官方公告，币安宣布上线新一批BTC云算力挖矿产品，现已开放申购，此批云算力挖矿产品预计挖矿开始时间为2022年12月4日12:00。
-此前消息，币安矿池10月14日宣布推出5亿美元矿工贷款项目，11月22日推出了其云挖矿服务。据介绍，与Bitdeer和BitFuFu等提供自营算力不同，币安从第三方购买算力。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
