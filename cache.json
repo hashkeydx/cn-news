@@ -2154,46 +2154,6 @@
           "wordCount": 3526,
           "title": "FV银行宣布推出数字资产托管和结算服务",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/gc55t1e4.html",
-          "author": "PA一线",
-          "description": "PANews 11月29日消息，英国城市大臣Andrew Griffith表示，英国看到了由法币信用担保(Fiat-Backed)的稳定币的机遇。",
-          "link": "https://panewslab.com/zh/articledetails/gc55t1e4.html",
-          "publishedOn": "2022-11-29T10:05:39.000Z",
-          "wordCount": 3524,
-          "title": "英国议员：英国看到了由法币信用担保的稳定币的机遇",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ir12o798.html",
-          "author": "PA一线",
-          "description": "PANews 11月29日消息，美国专利商标局商标律师 Mike Kondoudis 发推称，万事达卡已提交另一份加密和Web3相关商标申请，商标名为“MASTERCARD CRYPTO SECURE”，涵盖加密交易监控软件、提供加密货币信息以及风险评估服务等。",
-          "link": "https://panewslab.com/zh/articledetails/ir12o798.html",
-          "publishedOn": "2022-11-29T09:32:51.000Z",
-          "wordCount": 3536,
-          "title": "万事达卡提交加密和Web3相关商标申请",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/9rb1hx87.html",
-          "author": "PA一线",
-          "description": "PANews 11月29日消息，比特币矿企 Hut 8 因与电力提供商 Validus 关系破裂而导致其部分运营中断。Validus 声称 Hut 8 未能定期付款，因此暂停向 Hut 8 加拿大安大略省北湾的设施输送能源，该地设施约贡献了 Hut 8 整体哈希率的 20% 左右。",
-          "link": "https://panewslab.com/zh/articledetails/9rb1hx87.html",
-          "publishedOn": "2022-11-29T09:27:57.000Z",
-          "wordCount": 3577,
-          "title": "Hut 8与电力供应商Validus关系破裂，导致其部分运营中断",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/y37komjx.html",
-          "author": "PA一线",
-          "description": "PANews 11月29日消息，安全公司CertiK Alert发推称，SEAMAN 项目遭闪电贷攻击，开发者利用了 SEAMAN 处理 LP 存款上的 GVC 分配方式中的一个漏洞。该漏洞使 GVC 价格下跌，攻击者共能获利约 7800 美元。\nSEAMAN 合约：BSC 0x6bc9b4976ba6f8C9574326375204eE469993D038\nGreat Voyage Coin (GVC) 合约：BSC 0xDB95FBc5532eEb43DeEd56c8dc050c930e31017e\n据区块链安全审计公司Beosin分析发现是由于SEAMAN合约在每次transfer函数时，都会将SEAMAN代币兑换为凭证代币GVC，而SEAMAN代币和GVC代币分别处于两个交易对，导致攻击者可以利用该函数影响其中一个代币的价格。攻击者首先通过50万BUSD兑换为GVC代币，接下来攻击者调用SEAMAN合约的transfer函数并转入最小单位的SEAMAN代币，此时会触发合约将能使用的SEAMAN代币兑换为GVC，兑换过程是合约在BUSD-SEAMAN交易对中将SEAMAN代币兑换为BUSD，接下来在BUSD-GVC交易对中将BUSD兑换为GVC，攻击者通过多次调用transfer函数触发_splitlpToken()函数，并且会将GVC分发给lpUser，会消耗BUSD-GVC交易对中GVC的数量，从而抬高了该交易对中GVC的价格。最后攻击者通过之前兑换的GVC兑换了50.7万的BUSD，获利7781 BUSD。\nBeosin Trace追踪发现被盗金额仍在攻击者账户（0x49fac69c51a303b4597d09c18bc5e7bf38ecf89c）。",
-          "link": "https://panewslab.com/zh/articledetails/y37komjx.html",
-          "publishedOn": "2022-11-29T09:14:56.000Z",
-          "wordCount": 3581,
-          "title": "安全公司：SEAMAN项目遭闪电贷攻击，攻击者获利约7800美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
