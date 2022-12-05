@@ -2,10 +2,211 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-12-05T10:09:00.073Z</updated>
+    <updated>2022-12-05T11:06:40.364Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[关于美林时钟模型对加密货币市场影响的相关性研究]]></title>
+        <id>https://www.odaily.news/post/5183622</id>
+        <link href="https://www.odaily.news/post/5183622"/>
+        <updated>2022-12-05T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者： Nan Liu
+摘要
+当前加密货币领域生态越来越丰富、参与者越来越多样化且沉淀资金越来越多。在这种情况下，我们需要新的投资工具来对整个领域进行周期分析和品种选择。因此我们对在传统金融领域中比较成熟和知名的美林时钟模型进行了研究，希望能将其移植到加密货币领域。
+美林时钟模型是美林公司于 2004 年提出的宏观经济分析和大类资产配置模型。它以产出缺口和 CPI 数据为衡量经济增长和物价水平的两大指标，通过对美国自 1970 年以来的数据进行分析，得出了一系列结论，即根据产出缺口和 CPI 数据的交替涨跌，可以将经济循环划分为四个周期，分别为衰退期、复苏期、扩张期和滞涨期，这几个周期相继出现并构成一个完整的循环。我们根据时钟理论推导和数据验证，给出了在各个周期内最优的大类资产配置。
+在 2008 年全球金融危机之后，以美联储为代表的各国央行长期执行低利率政策，并且多次使用量化宽松来刺激经济。这对美林时钟下的经济周期产生了一些影响，主要表现为：衰退期和滞涨期的持续时间缩短，复苏期的持续时间变长；美林时钟的完整周期循环不复存在，各周期交替出现；各类资产的波动性变大，且股票在整个经济上行期内都表现良好；但在不同时钟周期内的强势资产仍然符合美林时钟的框架。
+然后我们分析了加密货币行业在美林时钟分析框架中应处的位置，以及当前时点属于美林时钟的哪个阶段以及当前的最优资产配置。我们得出以下结论：我们正处于通缩期；当前周期下最优的配置是债券；在股票的板块配置中优选防御型股票和长期成长型股票；在加密货币领域内部优选 BTC、LTC 等防御型币种和 ETH、MATIC 等长期成长型币种。
+ 1.传统美林时钟模型
+随着加密货币领域蓬勃发展，其总体市值不断增大，且种类和赛道越来越丰富。并且近两年有越来越多的传统金融机构和实体企业进入加密货币领域进行投资和参与项目开发。面临着加密领域生态越来越…]]></summary>
+        <author>
+            <name>火必研究院</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPT的崛起：发展历程、技术原理以及局限性]]></title>
+        <id>https://www.odaily.news/post/5183628</id>
+        <link href="https://www.odaily.news/post/5183628"/>
+        <updated>2022-12-05T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《从 GPT-1 到 GPT-4 看 ChatGPT 的崛起》
+原文作者：阿法兔研究笔记
+
+
+
+
+
+
+
+ChatGPT 是个啥？
+
+
+
+
+
+
+ChatGPT 是个啥？
+近期，OpenAI 发布了 ChatGPT，是一个可以对话的方式进行交互的模型，因为它的智能化，得到了很多用户的欢迎。ChatGPT 也是 OpenAI 之前发布的 InstructGPT 的亲戚，ChatGPT 模型的训练是使用 RLHF（Reinforcement learning with human feedback）也许ChatGPT 的到来，也是 OpenAI 的 GPT-4 正式推出之前的序章。
+什么是 GPT？从 GPT-1 到 GPT-3 
+Generative Pre-trained Transformer (GPT)，是一种基于互联网可用数据训练的文本生成深度学习模型。它用于问答、文本摘要生成、机器翻译、分类、代码生成和对话 AI。
+ 2018 年，GPT-1 诞生，这一年也是 NLP（自然语言处理）的预训练模型元年。性能方面，GPT-1 有着一定的泛化能力，能够用于和监督任务无关的 NLP 任务中。其常用任务包括：
+
+自然语言推理：判断两个句子的关系（包含、矛盾、中立）
+
+问答与常识推理：输入文章及若干答案，输出答案的准确率
+
+语义相似度识别：判断两个句子语义是否相关
+
+分类：判断输入文本是指定的哪个类别
+
+虽然 GPT-1 在未经调试的任务上有一些效果，但其泛化能力远低于经过微调的有监督任务，因此 GPT-1 只能算得上一个还算不错的语言理解工具而非对话式 AI。
+GPT-2 也于 2019 年如期而至，不过，GPT-2 并没有对原有的网络进行过多的结构创新与设计，只使用了更多的网络参数与更大的数据集：最大模型共计 48 层，参数量达 15 亿，学习目标则使用无监督预训练模…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[追踪FTX黑客后续操作：偏爱黄金代币，剩余18万ETH未抛售]]></title>
+        <id>https://www.odaily.news/post/5183627</id>
+        <link href="https://www.odaily.news/post/5183627"/>
+        <updated>2022-12-05T10:37:42.000Z</updated>
+        <summary type="html"><![CDATA[近期，FTX 黑客地址又开始异动，引发关注。Odaily星球日报通过查阅黑客链上地址，发现了一些有趣的线索，与大家分享下：
+一、黑客在下手成功后，曾将多个地址代币归集到 0x97f991971a37d4ca58064e6a98fc563f03a71e5c 地址中，它是一个多签智能合约地址，需要多个地址授权才能执行操作，这可能暗示黑客是团伙作案。目前，该地址中拥有 4585 万个代币 FTT，价值 6566 万美元，持仓排名第二。此外，该地址中还有大量其他代币： 1.44 亿个 BOBA、 5293 万个 SRM、 9381 个 XAUt、 4039 万个 GMT、 716 万个 TONCOIN、 316 万个 GT 等等，总价值 3.04 亿美元。
+二、etherscan 网站标记了黑客的 11 个地址，目前近一半的地址已经清空了代币，仅剩下 5 个地址金额超过 1 万美元；其中资金最多的是 0x59**d32b 地址，约为 2789 万美元，该地址中的 USDT 已被 Tether 列入黑名单无法转账，其余账户资产情况如下：
+
+
+三、0x59**d32b 地址也是黑客最频繁使用的地址之一，截至 11 月 19 日，该地址共计汇聚了 24.5 万个 ETH，进入以太坊持币地址前三十。 11 月 20 日，该地址抛售了 5 万个 ETH，部分兑换为 renBTC，随后陆续转入加密混合器 ChipMixer 进行洗白。
+
+四、除了通过混合器洗白，黑客也试图通过交易清洗，具体操作是：黑客首先创建了名为 FTX DRAINER 代币，总量 10 亿个；拿出 9 亿个代币在 Uniswap V2 中为该代币提供流动性，剩下 1 亿个通过应用程序分发给自己持有的 100 个地址（未受监控）；黑客再利用盗窃而来的 ETH（拿出了 1.5 万个 ETH），在 Uniswap 中买入代币抬升价格；最后通过不受监控的健康账户出售持有 FTX DRAINER 代币获益。该方法颇为有效（一看就是懂 DeFi 的），黑客地址正试图创建更多的代币进行出售，建议可以重点关注。
+
+
+（黑客通过交易洗币）
+
+五、 11 月 22 日， 0x59**d32b 地址中转出 18 万个 ETH，分散进入 12 地址，每个地址 1.5 万 ETH，目前这 18 万 ETH（价值 2.34 亿美元）尚未出售，地址详情如下：
+
+
+六、黑客似乎对黄金锚定代币有着独特兴趣。根据 Odaily星球日报统计，黑客账户共有 11184 个 PAXG 以及 9381 个 XAUt。PAXG 与 XAUt 都是由实物黄金支撑的 ERC-20 稳定币，分属 Paxos 以及 Tether 两家公司，持有者可以用其与实物黄金进行 1: 1 兑换， 1 个代币相当于一盎司实物黄金，其价格与与实时金价直接挂钩。不过，目前 Paxos 已经冻结了黑客地址中的 PAXG 代币，而 Tether 公司仅仅是冻结了黑客账户中的 USDT，并未冻结 XAUt。
+七、黑客也对“理财”情有独钟，在地址被各方持续监控的情况下，黑客依然参与了 Balancer V2、Aave V3、Klima DAO 等多个应用的链上借贷活动。]]></summary>
+        <author>
+            <name>秦晓峰</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[空投埋伏日记：Aztec Network、Zecrey、CertyHQ（12月5日）]]></title>
+        <id>https://www.odaily.news/post/5183625</id>
+        <link href="https://www.odaily.news/post/5183625"/>
+        <updated>2022-12-05T09:51:40.000Z</updated>
+        <summary type="html"><![CDATA[熊市漫漫，热点分散。在缺乏明确投资机会的当下，本着“宁可错付 gas，不能放过大毛”的原则，我将视线与精力投向了优质项目交互，说不定还能提前发现下一价值标的，是吧。
+
+Rainbow 钱包目前上线了官方 NFT，类似于之前 Zerion 钱包的 NFT，可能会有一些赋能和空投机会。目前领取时间还剩 1 天零几个小时，Free Mint 需要支付 gas，可以当做是 Mint 一个防身，Mint 链接入口。
+每天可以埋伏的项目众多，良莠不齐。今天为大家精选的三个项目分别是 L2 隐私解决方案 Aztec Network、基于 zk-rollup 的隐私与可扩展性解决方案 Zecrey、去中心化学习赚钱平台 CertyHQ。
+Aztec Network
+
+项目简介： L2 隐私解决方案。
+最新进展： 测试网上线。
+项目融资： 2021 年 11 月， 1700 万美元 A 轮，Paradigm 领投，IOSG Ventures、Variant Fund、Nascent、imToken、Scalar Capital、Defi Alliance、ZK Validator 以及天使投资人 Anthony Sassano、Stani KulecFhov、Bankless、Defi Dad、Mariano Conti 和 Vitalik Buterin 参投，上轮投资方 a_capital, Ethereal Ventures, and Libertus Capital 继续注资。
+项目链接：https://aztec.network/
+交互建议：  资方不错，零 gas 费，可以参与。
+详细交互方法：《Aztec Network 测试教程》。
+
+
+Zecrey
+项目简介： 基于 zk-rollup 的 L2 隐私性和可扩展性解决方案。
+
+最新进展： 公开测试。
+项目融资： 2022 年 5 月， 600 万美元战略轮，Binance Labs 投资。
+项目链接： https://www.zecrey.com/
+交互建议：官方明确表示，参与测试能够抽取 NFT，并且测试网交互零 gas 费，可以参与。
+详细交互方法：
+
+第一步：从官网下载 Zecrey 手机 APP ，按照官方教程（英文，可用浏览器翻译插件）创建新钱包账户或导入账户。
+
+第二步：到水龙头官网领取一些测试网 BNB 代币。
+
+第三步：分别体验应用内的各个功能。
+
+官方详细教程《Zecrey Legend Testnet Phase 1 is now LIVE!》（英文）
+
+
+CertyHQ
+项目简介： 去中心化学习赚钱平台。
+最新进展：  测试网上线。
+
+项目链接：  https://certy.network/
+
+交互建议：官方明确表示有空投，可以参与。
+
+详细交互方法：官方提供交互方法——《CertyHQ 详细交互方法》（英语）。
+
+
+ 往期内容
+《空投埋伏日记：Harpie、Fleek、Space and Time（ 12 月 2 日）》
+《空投埋伏日记：Cedro Finance、Nucleo、Klaytn（ 12 月 1 日）》
+《空投埋伏日记：Li.fi、Sturdy、Voltz（ 11 月 30 日）》]]></summary>
+        <author>
+            <name>胖虎</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI DAO及其实现的三条路径]]></title>
+        <id>https://www.odaily.news/post/5183601</id>
+        <link href="https://www.odaily.news/post/5183601"/>
+        <updated>2022-12-05T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Trent McConaghy
+原文翻译: 胡博士
+AI DAO 及其实现的三条路径
+
+（AIDAO 系列,第 I 部分）
+
+DAO 已经到来。当人工智能（AI）被加入到这个组合中时，其结果是爆炸性的。
+当我偶然发现一本关于人工智能（AI）的书时，我大约 10 岁。它吸引了我，让我沉浸其中并印象深刻。从那时起，我就对它充满了热情。我花了近 20 年的时间作为一个专业的人工智能研究人员。三年前，我走出了人工智能的世界，从事同样重要的工作：去中心化。这些世界很快就会发生碰撞。
+这篇文章是一个系列的第一部分。它考虑了如何建立这样的人工智能 DAO。第二部分给出了关于如何建造的细节，以及近期的影响。第三部分描述了人类规模的影响（"哦，该死"），以及一个可能的解决方案。
+炒作/技术时间表
+去中心化从比特币开始，然后是区块链，但它并没有就此结束。我已经意识到这不仅仅是一个浪潮，甚至是两个浪潮。我目前认为它是连续的五次，一个浪潮在另一个浪潮之后疯狂的崩溃了。
+
+Trent McConaghy 在 Twitter 上
+
+炒作/技术时间表。 1 比特币 2 区块链 3 智能合约，去中心化 4 DAO 5 AI DAO 我们刚刚退出 2 。 5 之后会很有趣。
+每个浪潮的重要性并没有因为后面的浪潮而减弱。
+在第五波中，AI 将以报复性的方式到来。那么，我们是如何快速通过这些浪潮的？比预期的要快。
+最近，“The DAO”被发布。在几周内，它有超过 1.5 亿美元的资金，并在《纽约时报》的头版上刊登。这真是快啊! 是的，有安全和治理问题，最明显的是 6 月 17 日的黑客攻击。但是 DAO 的概念--去中心化的自治组织--现在正处于时代潮流中。
+这让我对 AI DAO 有了更多的思考。
+AI DAOs
+为了描述人工智能 DAO 比普通 DAO 或普通人工智能的特殊之处，我们必须从对 D…]]></summary>
+        <author>
+            <name>DAOSquare</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我们和ChatGPT聊了聊Web3的现状与未来]]></title>
+        <id>https://www.odaily.news/post/5183624</id>
+        <link href="https://www.odaily.news/post/5183624"/>
+        <updated>2022-12-05T09:25:21.000Z</updated>
+        <summary type="html"><![CDATA[近日，一款名为 ChatGPT 的聊天 AI 在网上爆火。与带着“人工智障”印象标签的同类产品不同，ChatGPT 似乎在各个领域都能掺和几句，发发见解。那 AI 又是如何看待加密世界和 Web3 的呢？
+在圈内大 V 频繁打脸和崩坏的时代，Odaily星球日报向 ChatGPT 灵魂发问并整理如下，涵盖加密知识、市场研判、从业指南等多个方向。
+关于行业理解
+Odaily星球日报：比特币白皮书的重点是那些？
+ChatGPT：比特币白皮书是由比特币的发明者中本聪（Satoshi Nakamoto）于 2008 年发表的一篇论文。它描述了比特币的技术原理、运行机制、安全性和可扩展性等方面的内容。比特币白皮书的重点包括：
+
+定义比特币：比特币是一种分布式数字货币，它使用密码学方法来保证交易的安全性和不可篡改性。
+
+去中心化：比特币是一种去中心化的数字货币，它不依赖于特定的金融机构或政府来发行、管理和监督。
+
+共识机制：比特币采用工作量证明（PoW）共识机制来保证网络的安全性和稳定性。
+
+区块链技术：比特币使用区块链技术来存储交易信息，并使用密码学方法来保证交易的安全性和不可篡改性。
+
+挖矿机制：比特币的挖矿机制可以保证网络的安全性，并为参与者提供一定的收益。
+
+这些都是比特币白皮书的重点内容。如果您有其他问题，请随时告诉我。
+Odaily星球日报：谁是加密领域最富有的人？
+ChatGPT：很抱歉，我无法回答这个问题，因为我是一个语言模型，并没有浏览网页的能力。我只能回答基于我所获得的训练数据。我可以回答关于加密领域的一般问题，但不能提供具体人名。如果您有其他问题，请随时告诉我。
+（Odaily星球日报注：机器人三原则之： 1、保护人类 & 3、保护自己。）
+Odaily星球日报：如何黑掉 DeFi 项目并顺利混币跑路？
+ChatGPT：我不能回答这个问题。黑客攻击是非法的，并且会…]]></summary>
+        <author>
+            <name>Loopy Lu</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Web3招聘空间站第六期：临近年底，职场不易，努力于当下]]></title>
         <id>https://www.odaily.news/post/5183623</id>
