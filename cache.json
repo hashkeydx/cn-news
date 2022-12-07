@@ -6,6 +6,36 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/beyndqd4.html",
+          "author": "PA一线",
+          "description": "PANews 12月7日消息，尼日利亚中央银行近日发布的通知显示，个人和企业现在每天只能从 ATM 取款 45 美元（约 20,000 奈拉），每周只能取款 225 美元（约 100,000 奈拉）。每周从银行提取超过 225 美元的个人将收取 5% 的费用，每周从银行提取超过 1,125 美元的公司将收取 10% 的费用。在此之前，个人和企业的每日现金提取上限分别为 338 美元和 1,128 美元。据悉，此举是为了进一步推行“无现金尼日利亚”政策并促进尼日利亚中央银行数字货币（CBDC） eNaira 的使用。eNaira 自2021年10月25日首次推出以来，采用率一直很低。据报道，截至10月25日，也就是 eNaira 推出一年后，据称只有不到 0.5% 的人使用过它。",
+          "link": "https://panewslab.com/zh/articledetails/beyndqd4.html",
+          "publishedOn": "2022-12-07T12:25:55.000Z",
+          "wordCount": 3589,
+          "title": "尼日利亚通过ATM现金提取限制来几乎强制使用CBDC",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/b4z7ylz1.html",
+          "author": "PA一线",
+          "description": "PANews 12月7日消息，Solana链上稳定资产协议 Mercurial 推出 Meteora 计划以对品牌、治理等方面等进行改进。Mercurial 将更名为 Meteora 并将其借贷和 AMM 作为独立项目推出，并将推出 DAO 使得代币持有者参与项目治理。此外，Mercurial 还将发行新的代币，并空投给现有的代币持有者。未来几天将公布白皮书和 Meteora 计划的全部细节。",
+          "link": "https://panewslab.com/zh/articledetails/b4z7ylz1.html",
+          "publishedOn": "2022-12-07T11:51:21.000Z",
+          "wordCount": 3560,
+          "title": "Solana链上稳定资产协议Mercurial Finance将发行新的代币",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/r9zuyjmb.html",
+          "author": "PA一线",
+          "description": "PANews 12月7日消息，据区块链安全审计公司Beosin EagleEye监测显示， AES项目遭受攻击，Beosin安全团队分析发现由于AES-USDT pair合约有一个skim函数，该函数可以强制平衡pair的供应量，将多余资金发送给指定地址，而攻击者在本次攻击过程中，首先向pair里面直接转入了部分AES代币，导致供应量不平衡，从而攻击者调用skim函数时，会将多余的这部分代币转到攻击者指定地址，而攻击者在此处指定了pair合约为接收地址，使得多余的AES又发送到了pair合约，导致强制平衡之后pair合约依然处于不平衡状态，攻击者便可重复调用强制平衡函数。另外一点，当调用AES代币合约的transfer函数时，若发送者为合约设置的pair合约时，会将一部分AES销毁掉（相当于通缩代币），攻击者经过反复的强制平衡操作，将pair里面的AES销毁得非常少，导致攻击者利用少量AES兑换了大量的USDT。\n目前获利资金已转移到攻击者地址(0x85214763f8eC06213Ef971ae29a21B613C4e8E05) ，约获利约61,608美元。",
+          "link": "https://panewslab.com/zh/articledetails/r9zuyjmb.html",
+          "publishedOn": "2022-12-07T11:33:13.000Z",
+          "wordCount": 3546,
+          "title": "Beosin: AES项目遭受攻击，攻击者获利约6.16万美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/s5kr0org.html",
           "author": "PA一线",
           "description": "PANews 12月7日消息，由渣打银行和Northern Trust支持的加密货币托管商 Zodia Custody 正在推出一项名为 Interchange 的新服务，以保护客户资产免受交易所破产的影响。该服务将使客户能够将他们的资产保存在 Zodia Custody 中，然后将其镜像到交易所进行交易。Zodia Custody 的姊妹公司 Zodia Markets 将利用这项服务。\n此前报道，加密交易经纪商 Zodia Markets 正式启动业务。Zodia Custody为机构提供加密所有权证明技术。",
@@ -2014,26 +2044,6 @@
           "wordCount": 3544,
           "title": "Helio Protocol：或将由Ankr承担黑客攻击导致的坏账",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/vcos81ga.html",
-          "author": "PA一线",
-          "description": "PANews 12月3日消息，据金融时报报道，知情人士表示，Alameda Research在2021年初承担了FTX高达10亿美元的损失。 报道称，当时一位客户进行代币MobileCoin（用于消息应用Signal中的支付）杠杆交易，随后该代币价格从6美元左右飙升至近70美元。该客户利用该头寸在FTX上抵押借入资金，Alameda随后介入担任交易对手，以保护FTX的流动性，最终损失高达数亿美元。知情人士称损失可能高达10亿美元，抵消了当年Alameda交易利润的很大一部分。据此前消息，FTX今年曾挪用高达100亿美元的用户资金救助了Alameda。",
-          "link": "https://panewslab.com/zh/articledetails/vcos81ga.html",
-          "publishedOn": "2022-12-03T01:16:31.000Z",
-          "wordCount": 3539,
-          "title": "知情人士：Alameda Research在2021年初承担了FTX高达10亿美元的损失",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ut6a8b78.html",
-          "author": "PA一线",
-          "description": "PANews 12月3日消息，据韩联社报道，韩国法院驳回了对Terra联合创始人、Chai Corporation前首席执行官Daniel Shin的逮捕令。韩国此前已对Terra联合创始人Do Kwon发出了逮捕令，目前其下落不明，Terraform Labs的主要人员和前雇员已被禁止离开该国。 据悉，Daniel Shin和其他七名Terra高管于周五上午在韩国出席了一场法庭听证会，该听证会旨在请求对这八人发出逮捕令。检察官称，Shin涉嫌通过LUNA非法获利超过1400亿韩元（约合1.07亿美元），并滥用Chai Corporation用户的私人信息宣传Terra-Luna，Shin否认了这些指控，称他在价格飙升之前卖掉了超过70%的Luna股份，并且在5月份崩盘期间仍然持有大量LUNA。据此前消息，Daniel Shin创立的公司Chai遭到韩国当局的搜查。Daniel Shin的Chai Corporation于2019年与Terraform Labs合作，被指控在过去与Terra的交易中违反了资本市场规则。",
-          "link": "https://panewslab.com/zh/articledetails/ut6a8b78.html",
-          "publishedOn": "2022-12-03T00:38:52.000Z",
-          "wordCount": 3556,
-          "title": "韩联社：韩国法院驳回对Terra联创Daniel Shin的逮捕令",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2042,6 +2052,36 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/flash/118301",
+          "author": null,
+          "description": "BlockBeats 消息，12 月 7 日，Web3 社交网络 Hooked Protocol 发布空投公告，将向现有 Hooked Party Pass NFT 持有者进行总计 6 期的 HOOK 空投活动，每名用户至多可获得 100 枚 HOOK Token。\n\n第一批将于 2022 年 12 月 15 日发放，至多 25 枚 HOOK；接下来的 5 个月内, 每个月首日将分别进行一次空投，每次至多 15 枚 HOOK。空投 HOOK 分配主要将取决于地址的 PancakeSwap 中 HOOK 余额，或 CAKE-HOOK 流动性池中的 LP Token 数量。\n\n后 5 批空投也将提供给长期社区贡献者，包括白名单成员和 Hooked 生态系统的固定参与者，他们将能够从 2022 年 12 月下旬开始获得 Hooked Party Pass Season 2 NFT，只有 Hooked Party Pass Season 2 NFT 持有者有资格参与这 5 批空投。Hooked Party Pass NFT 和 Hooked Party Pass Season 2 NFT 的总和最大数量为 99,999。",
+          "link": "https://www.theblockbeats.info/flash/118301",
+          "publishedOn": "2022-12-07T11:46:47.000Z",
+          "wordCount": null,
+          "title": "Hooked发布空投公告，NFT持有者至多可获得100枚HOOK Token",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/118304",
+          "author": null,
+          "description": "BlockBeats 消息，12 月 7 日，据官方消息，Solana 生态 DeFi 项目 Mercurial 推出 Meteora 计划以对品牌、治理等方面等进行改进。Mercurial 将更名为 Meteora 并将其借贷和 AMM 作为独立项目推出，并将推出 DAO 使 Token 持有者参与项目治理。此外，Mercurial 还将发行新 Token，并空投给现有 Token 持有者。",
+          "link": "https://www.theblockbeats.info/flash/118304",
+          "publishedOn": "2022-12-07T11:46:47.000Z",
+          "wordCount": null,
+          "title": "Solana生态DeFi项目Mercurial将发行新Token",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/flash/118295",
+          "author": null,
+          "description": "BlockBeats 消息，12 月 7 日，总部位于伦敦的加密货币托管商 Zodia Custody 推出资产保护服务，这项名为 Interchange 的新服务将使客户能够将他们的资产保存在 Zodia Custody 中，然后将其镜像到交易平台进行交易。\n\nZodia Custody 是英国投资银行渣打银行的子公司，并得到了北方信托银行 Northern Trust 的支持。",
+          "link": "https://www.theblockbeats.info/flash/118295",
+          "publishedOn": "2022-12-07T10:46:47.000Z",
+          "wordCount": null,
+          "title": "渣打银行子公司推出资产保护服务，可免受交易平台破产影响",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/flash/118274",
           "author": null,
@@ -2879,6 +2919,26 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5183689",
+          "author": "白泽研究院",
+          "description": "注：原文作者为 Danilo Lantas，白泽研究院翻译编辑，略有删改。\n上个月，哈佛大学发表了一篇研究论文，认为中央银行应该开始购买比特币以保护自己免受制裁。这听起来很疯狂，但你是否还记得像俄罗斯这样的受制裁国家已经宣布他们打算采用加密货币，而伊朗等一些受制裁国家已经在使用它们。\n这就是为什么今天我要总结一下这篇研究论文，通俗易懂地解释它的内容，并告诉你为什么中央银行可能处于增持 BTC 的边缘。\n这篇论文是由哈佛大学经济学博士生 Matthew Ferranti 撰写，标题为《对冲制裁风险：中央银行储备中的加密货币》。\n论文以简要介绍开始，Matthew 在其中举例说明了各国持有或使用 BTC 的情况，包括萨尔瓦多和中非共和国，这两个国家都将比特币定为法定货币，而乌克兰在与俄罗斯开战后收到了世界各地的比特币捐赠。\n\nMatthew 接着讲述了俄乌战争爆发后俄罗斯央行一半的国际储备是如何被冻结的。他指出，“这向世界各国央行发出了警告，即法定货币和主权债务等现金等价物不是安全资产”。\nMatthew 将在后文中使用了复杂的经济模型来模拟制裁如何导致央行增持 BTC。\n经济制裁的历史\n在论文的第二部分，Matthew 简要介绍了经济制裁的历史。他解释说，随着金融体系的集中化，制裁开始变得越来越普遍。这种中心化是由于人类社会逐渐数字化，这两者只会随着央行数字货币（CBDC）的推出而增加。\nMatthew 深入研究了美国制裁的细节，特别是来自美国财政部外国资产控制办公室（OFAC）的制裁细节。OFAC 发布的制裁基本上禁止所有美国个人和机构与任何受制裁实体直接或间接互动。\n\n美国已经制裁了近 9000 个实体，欧盟制裁了 2000 多个实体，联合国制裁了 1000 多个实体。很明显，美国已经将“金钱作为武器”。不足为奇的是，研究表明，在过去 30 年中，制裁的效果明显下降，仅实…",
+          "link": "https://www.odaily.news/post/5183689",
+          "publishedOn": "2022-12-07T13:00:00.000Z",
+          "wordCount": 81,
+          "title": "哈佛大学论文：受美制裁的央行可能已经持有比特币",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5183693",
+          "author": "火星财经",
+          "description": "原文标题：《Web3 Social: Road to Mass Adoption》\n原文作者：Binance Research\n原文编译：Lynn，MarsBit\n关键要点\n与 Web2 相比，Web3 社交的核心是提供三个主要的独特效用： \n\n首先，资产创建和共享所有权。Web3 社交应用程序可以使用区块链与其用户创建一个共享所有权结构。\n\n第二，开放数据和身份：链上积累的数据和凭证在整个生态中共享。\n\n第三，可组合的生态系统：建立在以太坊等智能合约区块链上的 dApp 本质上是可组合的，允许开发者以无权限的方式建立在现有的应用程序之上。\n\nWeb3 社交生态可以分为以下几个部分：基础设施、中间件、应用程序和工具。 \n\n基础设施：项目正试图提供定制的基础设施，以满足社交应用程序的需要。\n\n中间件：Web3 的大多数最新创新都建立在现有的生态系统中，中间件协议建立了这些现有的基础设施，旨在通过查询、组织和向应用开发人员展示数据，成为区块链和应用程序之间的中介。\n\n应用：Web3 社交应用是一个多样化的产品组合，适合不同的场景。突出的形式包括社交媒体、基于社区的应用和即时通讯产品。\n\n工具：与应用程序不同，工具是一组产品，它们利用 Web3 的互操作性，将其产品设计成可在不同平台和区块链上「移植」。\n\n目前，Web3 社交在用户体验方面无法与 Web2 社交直接竞争，要想成功，需要提供独特的创新效用。我们正在监测以下领域的创新： \n\n移动应用：很大一部分社交活动发生在移动端，我们期待着这个平台上的更多创新。\n\n加密原生创新：目前的许多 Web3 社交产品都是 Web2 产品的复制品，我们相信真正被采用的社交产品只会来自那些使用区块链原语为用户提供变革性体验的产品。\n\n与 Web3 场景的衔接：成功的 Web3 产品也可以来自于解决 Web3 原生场景，如链上社区管理。\n\n引言…",
+          "link": "https://www.odaily.news/post/5183693",
+          "publishedOn": "2022-12-07T12:00:00.000Z",
+          "wordCount": 81,
+          "title": "Binance Research：Web3社交通往大规模采用之路",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5183692",
           "author": "胖虎",
