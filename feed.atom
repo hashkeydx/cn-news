@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-12-08T14:07:34.446Z</updated>
+    <updated>2022-12-08T15:08:23.131Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -14,6 +14,36 @@
         <summary type="html"><![CDATA[PANews 12月8日消息，NFT 市场 Blur 针对此前一用户因 Blur 出价系统导致以 70 ETH 购买了 Art Gobbler 8273 事件回应称，原本认为出价失误是用户失误，因为产品本身并没有bug，进一步评估后，从用户的角度来看这被视为一个错误，因此将向受到此 UI 行为影响的交易者退款 50%，具体来说，Blur 将查询被接受的超过非浮动地板价 25% 的 NFT 竞标并自动退款。Blur 将在接下来的 10 天内（可能更早）执行此操作。Blur 表示，其将为平台错误向用户退款。对于用户错误，会改进 UI 以减少错误，但不会退款。如果问题是平台和用户的综合错误，将根据具体情况采取中间立场。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万字详解Web3身份堆栈：迈向数字主权之路]]></title>
+        <id>https://www.odaily.news/post/5183715</id>
+        <link href="https://www.odaily.news/post/5183715"/>
+        <updated>2022-12-08T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Towards Digital Self-Sovereignty: The Web3 Identity Stack》
+原文作者：Nichanan Kesonpat， 1 kxnetwork
+原文编译：DeFi 之道
+本文涵盖了去中心化身份的核心概念、互联网上身份的演变、Web3 身份基础设施堆栈的逐层概述以及隐私基元的相关发展。人身证明（Proof-of-Personhood）、合规性和应用层将在未来的文章中介绍。
+
+Web3 身份基础设施生态 - 2022 年 12 月
+身份是由与个人、实体或物体相关的数据组成的新兴属性。在物理世界中，我们以抽象的声誉和心理关联的形式将这些数据存储在大脑内。在数字世界中，身份被形式化为两个组成部分：
+
+标识符：一组独特的字符或数字，用于识别一个主体（例如，护照号码、Twitter ID、学生 ID）。
+
+与该主体相关的数据（如旅行历史、推特和关注、学术成就）。
+
+为互联网创建身份层是困难的，因为对它应该是什么以及如何运行缺乏共识。数字身份与环境有关，我们会通过各种内容体验互联网，而这些内容至少存在于许多不同的环境中。如今，我们的数字身份大部分都是支离破碎的，处于少数利益相关方的控制之下，他们的利益是防止我们从他们的环境中溢出到任何其他地方。
+
+企业将客户关系视为关键资产，不愿意放弃对这些关系的控制。到目前为止，没有任何一种方法可以作为这么做的动力。即使是一次性的临时身份，也比他们无法控制的框架要好。
+
+当涉及到维护与客户和供应商的数字关系时，像金融这样的特定行业有着独特的需求（如合规）。
+
+政府有区别于其他类型组织的需求。例如，对驾驶执照和护照的管辖权。
+
+这种模式在个人和管理我们身份和数据的各方之间造成了权力的不对称。它限制了我们的自主权，使我们无法同意、有选择地披露自己的信息，并在不同的环境中移植我们的身份，以获得在线和离…]]></summary>
+        <author>
+            <name>DeFi之道</name>
         </author>
     </entry>
     <entry>
@@ -112,6 +142,25 @@
 比特币矿业委员会也在 2022 年 5 月发布了一份报告，该报告称58.4% 的 BTC 挖矿已经使用清洁能源。埃隆·马斯克 (Elon Musk) 此前声称，当确认矿工使用了合理比例的清洁能源（约 50%）且这种趋势确立的话，特斯拉将恢复用比特币交易。人们的目光尤其转向了这一主题。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solana的「煎熬时刻」：遭遇Serum危机后，如何重建DeFi生态？]]></title>
+        <id>https://www.odaily.news/post/5183714</id>
+        <link href="https://www.odaily.news/post/5183714"/>
+        <updated>2022-12-08T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Life After FTX: How Solana DeFi Is Starting Over—Without SBF’s Serum》
+原文作者：Stacy Elliott，Decrypt
+原文编译：倩雯，ChainCatcher
+SBF 倒台致使价值 320 亿美元的加密货币交易所 FTX 覆灭——更对受其支持的区块链 Solana 上的去中心化金融发展造成打击。
+Serum 由 Solana 基金会、FTX、Alameda Research 等机构于 2020 年 8 月联合创立。它是一个核心的去中心化交易平台，也是新兴 Solana DeFi 生态系统的流动性提供者。它的订单簿对 Solana 的 DeFi 至关重要，几乎集成了网络上所有的最大型 DeFi 项目，如 Jupiter 和 Raydium。 
+但它的私钥被存放在 FTX 内——这听起来就很不妙。
+在 FTX 于 11 月 11 日遭到明显的黑客攻击后，也就是该公司申请破产的同一天，Solana 上的 DeFi 项目紧急切断了与 Serum 的联系，因为他们担心用来更新程序的私钥也同样被破坏。Solana DeFi 紧急“关闭”开关。
+在那之后，Solana 的开发人员、投资者和其他利益相关者一直在争先恐后地把它重新打开，以推进 Serum 的分叉——基本上是代码的副本，与 Bankman-Fried 或 FTX 没有任何关系。
+Serum 的继任是 OpenBook。OpenBook 在上周加入 DeFiLlama之后达到 270 万美元的锁定总价值，现在该社群不得不面对一些棘手的象征性问题。
+Solana 联合创始人 Anatoly Yakovenko 告诉 Decrypt，“社区从 Serum 到 OpenBook 的转变非常值得关注。这一次，社区迅速动员起来，作出利于社群的决定，在公…]]></summary>
+        <author>
+            <name>链捕手</name>
         </author>
     </entry>
     <entry>
@@ -5935,66 +5984,6 @@ FTX US Derivatives 并未被纳入 FTX 美国业务的破产申请，Behnam 
 此外，信中还澄清了该平台与 FTX 的关系：“我们的技术基础设施与 FTX 公司家族几乎完全分离，并且很快将完全独立。值得注意的是，LedgerX LLC 的最终母公司 West Realm Shires Inc.，不同于以 FTX Trading Ltd（又名 FTX.com）为首的国际公司家族。”]]></summary>
         <author>
             <name>念银思唐</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文了解能源行业采用区块链技术的现状]]></title>
-        <id>https://www.odaily.news/post/5183590</id>
-        <link href="https://www.odaily.news/post/5183590"/>
-        <updated>2022-12-04T03:04:22.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：OriginsNFT
-原文编译：白泽研究院
-能源行业正面临着来自环保人士、媒体和公众的巨大压力，要求他们将燃料生产转向更环保的替代品。
-能源公司正在投入大量资金开发技术，以实现碳中和，或者更好地扭转迄今为止对环境造成的破坏。
-改变消费者行为可以是一项重要的预防措施，但技术创新也可以促进更加绿色的能源消耗。区块链技术和 NFT 处于创新技术的前沿，可以用来减少碳足迹。
-本文将重点介绍区块链和 NFT 在能源行业的应用。
-本文要点：
-
-能源行业背景
-
-能源行业挑战以及区块链/NFT 解决方案
-
-投入使用的区块链/NFT 解决方案研究
-
-风险因素
-
-总结
-
-能源行业背景
-根据国际能源署（IEA）的数据，全球总能源供应量（TES）约为 6 亿兆焦耳。这比能源消耗总量高出约 2 亿兆焦耳。这些能源盈余要么在国家与国家间进行贸易，要么作为储备以防短缺。
- 2019 年疫情的出现使全球能源消耗量减少了 4.5% ，重要原因在于全球旅行业被叫停以限制病毒的传播。但这只是昙花一现， 2020 年部分国家的出入境恢复正常，能源消耗量又反弹了 5% 。
-全球排名前 10 的能源公司（“MC”）的总市值约为 4 万亿美元。其中，沙特阿美公司以 2.3 万亿美元的估值领先，占前 10 大 MC 总市值的 58% 。
-
-尽管沙特阿美是最大的 MC，但其能源销售收入仅为第三大。两家中国公司在这方面处于领先地位，部分原因是国内市场条件不同：
-
-俄乌战争引发了对燃料供应的担忧，推动了能源价格的上涨。美国已禁止在俄罗斯进口石油，导致替代性、更昂贵的石油遭受抢购。与此同时，欧洲正在经历“Nord Stream 1 ”天然气龙头被切断，导致欧洲的能源价格持续上涨：
-
-根据全球咨询公司麦肯锡的预测，到 2050 年，电力和氢气约占燃料消耗总量的 50% 。下图显示了不同能源类型的消耗量：
-（单位：兆焦耳）…]]></summary>
-        <author>
-            <name>白泽研究院</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Loopring启动关于添加LRC质押功能的投票]]></title>
-        <id>https://www.theblockbeats.info/flash/117659</id>
-        <link href="https://www.theblockbeats.info/flash/117659"/>
-        <updated>2022-12-04T02:55:28.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，12 月 4 日，以太坊 Layer 2 协议 Loopring 已于昨日启动关于添加 LRC 质押功能的投票。该提案建议未来将协议收入的 45% 分配给符合条件的流动性提供者、45% 分配给质押 LRC 的用户、10% 分配给 DAO。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase CEO：SBF挪用客户资金并非会计失误]]></title>
-        <id>https://www.theblockbeats.info/flash/117644</id>
-        <link href="https://www.theblockbeats.info/flash/117644"/>
-        <updated>2022-12-04T02:21:28.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，12 月 4 日，Coinbase 联合创始人兼 CEO Brian Armstrong 发文称：「我不在乎你（SBF）的会计有多混乱（或者你有多富有）。如果你发现有额外的 80 亿美元可以花，你肯定会注意到。即使是最容易上当受骗的人也不应该相信 SBF 声称这是会计失误的说法。显而易见，这是 SBF 偷来客户资金用于对冲基金。」
-
-此前针对路透社的「后门」指控，SBF 曾在接受加密记者 Tiffany Fong 采访时表示，他没有在系统中建立后门，这是一次会计失误，导致他在 FTX 上对 Alameda 的余额评估错到一个「令人尴尬的大数字」。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
 </feed>
