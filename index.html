@@ -51,11 +51,243 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-12 datetime="2022-12-12T06:15:39.000Z">2022-12-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-12 datetime="2022-12-12T06:15:39.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-12 datetime="2022-12-12T07:39:26.000Z">2022-12-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-12 datetime="2022-12-12T07:39:26.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183773"
+                        open
+                      >
+                        <summary class="article-expander__title">ETH周报 | 以太坊“上海”升级定于2023年3月进行，将开放质押的ETH提款；BitMEX上线与以太坊质押收益挂钩加密衍生品（12.5-12.11）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183773">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>作者 | 秦晓峰
+
+编辑 | 郝方舟
+出品 | Odaily星球日报   
+
+一、整体概述
+以太坊核心开发人员在上周四的 All Core Developers 会议上敲定了网络下一个硬分叉的一部分，称为“上海”。升级定于 2023 年 3 月进行，将开放信标链质押的 ETH 提款，也称为 EIP 4895 。开发人员还同意在上海解决 EVM 对象格式 (EOF) 的实施问题，这是 EIP 的集合，本质上是升级以太坊虚拟机，以太坊能够执行智能合约的环境。这些以太坊改进提案(EIP) 是 EIP 3540、EIP 3670、EIP 4200、EIP 4570、EIP 5450 。
+
+开发人员还同意在 2023 年秋季的某个时候进行第二次硬分叉，这将解决另一个重要的扩展升级——proto-danksharding，也称为 EIP 4844 。EIP 4844 将通过分片使以太坊更具可扩展性，分片是一种将网络分成“shards”的方法，以此来增加其容量并降低 gas 费。
+在电话会议之后，以太坊开发人员的目标是在 12 月 15 日至 16 日左右为上海（升级）推出一个新的公共测试网。以太坊开发人员将在下个月集中精力使上海尽可能顺利，并计划在 2023 年 1 月中下旬启动主网影子分叉。
+二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1200 美元，阻力位 1300 美元。
+
+二、二级市场
+
+ 1.现货市场
+OKX 行情数据显示，上周 ETH 价格一度反弹至 1300 美元，周内收于 1273 美元，环比上涨 1.5% 。
+
+（ETH 日线图，图片来自 OKX）
+日线图上显示，价格目前在 1250 美元左右盘整，短期内可能继续向下测试 1200 美元，上方阻力位是 1300 美元，下方支撑位是 1250 美元以及 1200 美元。
+ 2.网络运行情况
+
+etherc…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183779"
+                        open
+                      >
+                        <summary class="article-expander__title">深度研究DeFi遗珠：固定利率借贷</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183779">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：S Capital Research，Odaily星球日报经授权发布
+Background
+传统金融中，固定利率借贷很普遍，商业银行通过客户的存款获得较低的融资成本。而借款人通过抵押资产的形式以较高的融资成本获得贷款来满足其创业，房贷，车贷等需求。在这种模式下，商业银行利用其品牌和牌照的垄断地位，使借款人需要付出较高的融资成本和贷款申请过程中的时间成本。从存款人的角度来讲，存款的收益很难跑赢通胀。传统金融的风险管控模式，导致整体效率很低。
+亿万富翁投资者马克-库班在谈到DeFi的发展时说：&quot;DeFi的基本好处是，它简化了出于个人目的的借贷，因为从银行借钱很麻烦&quot;。
+当下DeFi借贷的主要模式是以超额抵押为基础的浮动利率机制，借款利率和存款利率会随着用户的需求而浮动。资金池的可借资产越多，一般借款利率就会越低，这类产品的代表协议为Compound，AAVE。然而由于DeFi 中利率高波动性的特点，使得浮动利率贷款风险较高，让加密货币投资者无法以可预期的方式对资金进行长期的管理。以AAVE为例，在2021 年10 月29 ～30 日，USDT的借款利率在一天内从3.73% 陡升到61% ，从借款端的角度来讲，浮动利率出现如此大的波动是灾难性的，因为借款人往往在缺乏流动性的时候质押优质资产来换取短期流动性，因此在利率大幅上升时，他们通常没有能力及时偿还债务，只能承受计划外的高额利息，或者债务违约折价拍卖抵押品。从DeFi Ecosystem的发展来看，利率有如此高的不确定性势必会阻碍市场更大规模的发展，而固定利率借贷协议恰好可以填补这一方面的空白。
+
+在固定利率借贷服务中，利率在整个贷款期内均保持不变。由于已知利率是预先设定的，因此固定利率贷款的风险较小，能够吸引许多范围更广、时间更长、风险更低的用例。
+在传统金融中，固定利率借贷是主要的借贷形式，在全球借贷市场上占有相…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183760"
+                        open
+                      >
+                        <summary class="article-expander__title">牛市的复盘与反思：多维度策略</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183760">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：比特李尔王
+一.  投资决策三要素
+投资方法纷繁庞杂，但万变不离其宗，影响最终收益的因素，脱不开三个方面：胜率、赔率、仓位，通俗来说：
+胜率：这一项投资，赢面有多大？有多大的把握盈利而非亏损？胜率决定了一项投资最终赚钱的概率有多大。
+赔率：如果可以赚钱，可以获得多高的收益率？可以赚多少倍？赔率决定了收益率的高低。
+仓位：需要在这项投资上投入多大仓位的资金？仓位很大程度决定了最终绝对收益的大小。
+绝大部分热衷于短期投机炒作的人，只会局限地关注高赔率，片面痴迷于撞上百倍的机会。殊不知，高赔率往往意味着高风险（即低胜率，赢面小），而高风险又往往意味着投资者在心态上不敢重仓位投入，最终结果就是，即使押中了高赔率的机会，绝对收益依然有限（除非赔率足够高，但是能够抓住这种机会的概率就更低了），而且能不能稳拿到百倍无疑也是个问题。
+因此，好的投资策略，应该是寻求这样的要素组合：足够高的胜率，中等偏上的赔率，足够重的仓位。
+那如何提高投资决策的胜率？
+如何找到中等偏上的赔率机会？
+如何投入合适的仓位买入？
+基于最近一轮牛熊的得失复盘和持续反思，我总结了一套加密市场的“五维投资法”。
+这五维分别为：
+1.  赛道
+2.  周期
+3.  竞争
+4.  价格
+5.  策略
+并由这五个维度，经反复实践复盘，总结了一套系统可执行的方法。
+二.  加密市场的“五维投资法”
+所谓“五维投资法”，就是从赛道、周期、竞争、价格、策略五个维度出发，去挖掘和评估一项投资机会，系统性地提升投资决策的胜率、赔率，并在此基础上，更好地评估在一项投资里应该投入多大的仓位，从而最终获得较高的绝对收益。“五维投资法”具体可以提炼为以下投资决策五个步骤。
+1. 选赛道（赛道维度）
+作为一场概率游戏，投资就像钓鱼。
+如何钓到更多的鱼？如何钓到更多的大鱼？首先不在于有更好的钓鱼技巧，重点在于：
+去鱼多的地方，并且是大鱼…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183770"
+                        open
+                      >
+                        <summary class="article-expander__title">美SEC：拒绝将GBTC转为现货ETF的申请「解释合理、证据充分」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183770">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 The Block，原文作者：Nathan Crooks
+Odaily 星球日报译者 | 念银思唐
+
+简报：
+- 加密资产管理公司 Grayscale Investments 表示，美国 SEC 已就其因申请比特币现货交易所交易基金（ETF）被拒而提起的诉讼提交了第一份法律简报。
+- 在这份 73 页的回应简报中，SEC 辩称其拒绝是“合乎情理、解释合理，并有大量证据支持”。
+Grayscale Investments 表示，美国证券交易委员会（SEC）已就该加密资产管理公司申请现货比特币交易所交易基金（ETF）被拒一事提交了第一份法律简报。
+“这是我们正在进行的诉讼中的下一个里程碑，此前我们于 10 月 11 日提交了开庭简报，随后不久又提交了支持性的法庭之友简报。”该公司周五在一份声明中表示。
+在 10 月份的开庭陈词中，Grayscale 的法律论据主要围绕监管机构批准与现货市场定价挂钩的比特币期货后，该公司所称的法律适用不公平。该公司称美国 SEC 在 6 月拒绝其将 GBTC 转换为现货比特币 ETF 的申请的决定是“任意、反复无常和歧视性的”。作为其针对监管机构的诉讼的一部分，Grayscale 提交了一份公开的法律简报。在简报中，律师们辩称，由于比特币期货和现货比特币都基于重叠的指数产生价格，现货和期货 ETF 中比特币的现货价格面临相同的风险：因此，批准一个，拒绝另一个是不公平的。该公司辩称，这一拒绝损害了已经持有该信托基金份额的 85 万名投资者的利益。
+在 73 页的回应简报中，SEC 辩称其拒绝是“合乎情理、合理解释，并有大量证据支持”，“尽管已经批准了两家 CME 比特币期货 ETP，但与 SEC 不批准 Grayscale 的现货 ETP 并无矛盾之处。”
+SEC 表示，期货和基于现货的比特币基金是“本质上不同的产品”。
+“不公平的竞争环境”
+“SEC 此前批准的 ETP 只持有在 CFTC 注册并在 CME 交易的期货合约；因此，这些 ETP 的基础资产将受到强有力的监督。”SEC 解释说，“相比之下，比特币现货市场是分散的和不受监管的，请愿人没有提出任何支持的依据来得出这样的结论，即 CME 对期货交易的监督能够充分发现和阻止针对比特币现货市场的欺诈和操纵，从而防止 Grayscale 产品中的欺诈和操纵行为。”
+美国 SEC 表示，它对 Grayscale 拟议的 ETF 的反对，并不反映出“对比特币作为一种投资的不允许的、基于价值的怀疑”。
+作为对 SEC 文件的回应，Grayscale 重申了其开庭陈词中的观点：
+1. SEC 通过批准基于比特币期货的 ETF，同时不断拒绝现货比特币 ETF，为投资者创造了一个不公平的竞争环境。
+2. SEC 在批准比特币期货 ETF 而拒绝现货比特币 ETF 时，未能遵守《行政程序法》（APA）和 1934 年《证券交易法》。
+3. SEC 没有阐明其对现货比特币 ETF 和比特币期货 ETF 的不同处理方式的依据——事实上，他们创建了一个“重大市场测试”，对每种产品类型的处理不一致。
+“我们期待审阅 SEC 的答复简报，”该公司表示，并指出下一份简报将于 1 月 13 日提交，最终简报将于 2 月 3 日提交。
+根据 The Block 的数据，周三，GBTC 相对于其实际持有的比特币价格创下历史新低，负溢价达到 47.3% 。这只基金的交易价格低于资产净值，而持有基金份额的人无法获得相关资产。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183769"
+                        open
+                      >
+                        <summary class="article-expander__title">2022年的加密行业清洗将带来更为稳健的行业发展</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183769">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：The State of Crypto Funding in 2022 
+原文作者：Steve L.R. Kamer，Ex-Banker，Blockchain enthusiast
+原文编译：Leo，BlockBeats
+2022 年的加密行业发生了太多大事，这里就不一一细说了，一次次的失败和崩盘只会增加业内人士对 crypto 未来前景的质疑，降低人们对 crypto 的信心。但同样，回顾互联网作为一个新兴科技刚起步、发展、繁荣的过程中，拨乱反正也是必不可少的，一个新兴行业想要做到繁荣是需要一次次的试验与更正作为基础的，只有把坏了的部分剔除，才能迎来更稳健的行业，期间的痛苦足够换取到未来的满足。
+对于 crypto 来说，废墟中重新长出来的萌芽或许就是未来遮住风雨的参天大树，BlockBeats 编译了 Steve L.R. Kamer 关于「当前 M&amp;A 和风投，以及当前市场如何塑造行业未来」的文章如下：
+面对现实吧， 2022 年的 crypto 和区块链行业正处在一个进退两难的危险地带，虽然这场危机的部分是行业特性和内部的各种混乱导致，但也有更大的外力在起作用，地缘政治、通胀持续走高以及长期的贸易中断正在给全球经济降温，降低加密等资产的风险偏好。
+如此艰难的时期里，我们看到了强者和弱者之间的差别，胜者加冕，败者退场，概念其实很简单，这就是适者生存。
+本篇文章中，我将探讨当前的市场环境如何影响区块链公司，需要做什么来增加他们的生存机会，以及并购和风险投资该当如何平衡现状。
+把钱拿出来
+在市场流血时买入——沃伦·巴菲特
+你不需要成为市场专家就能意识到：到目前为止，crypto 和区块链经历了危机重重的一年，从监管的不确定性到黑客猖獗一时；FTX 和 Luna 这样庞大加密帝国的失败；高管的流失以及法律诉讼问题，这不仅使加密货币价格跌至多年来的低点，也消除了区块…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183767"
+                        open
+                      >
+                        <summary class="article-expander__title">明星项目周报 | Blur二次空投开放申领；Sushi财库资金即将耗尽（12.5-12.11）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183767">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>12月5日-12月11日当周，比较值得关注的动态如下：Sui将在未来几周推出SUI代币社区访问计划；Optimism宣布将在RetroPGF2中分发1000万枚OP资助项目和开发者；以太坊侧链Gnosis Chain已完成合并，共识机制过渡至PoS；ConsenSys：计划将MetaMask用户数据留存时间缩短到7天；Uniswap社区将于12月14日就治理流程调整提案进行投票；SushiSwap CEO：金库资金即将耗尽，提议将支付给xSushi持有者的费用重新分配给金库；Blur二次空投已开放申领，三次空投将于 1 月结束并上线 Token；Ape质押已开启，将于12月12日开始领取奖励。
+以下为具体项目进展：
+底层-Layer 1 
+Sui将在未来几周推出SUI代币社区访问计划，允许社区成员购买SUI代币
+Odaily星球日报讯 Sui基金会介绍正在设计的 SUI 代币社区访问计划，以详细说明 SUI 的分发方式。该计划旨在使 Sui 社区成员能够在早期阶段购买 SUI 代币，设计目标包括尽可能地扩大覆盖面以允许世界上的所有地区参与、实现稳健和公平的社区成员参与，Sui 基金会将在接下来的几周内与社区合作，以确保该计划实现其目标。
+Sui发布Testnet Wave1复盘总结，TestnetWave2将于明年初推出
+Odaily星球日报讯 Layer1公链Sui Network对刚结束运行的Sui Testnet Wave1进行回顾复盘，预计Wave2测试网将于2023年初推出。
+在Sui Testnet Wave1运行期间，先后完成Genesis、Monitoring、Communication、Mitigation与Updates等网络测试，并解决共识停滞、为滞后的验证者更新共识状态、内存泄漏的根本原因等问题。处理的交易总数达到2200万，链上NFT总数达到 11…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5183766"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | 信贷投资公司希望从FTX客户中低价购买债权；Blur 平台日交易额超过OpenSea平台四倍（12月12日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183766">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+信贷投资公司希望从 FTX 客户中低价购买债权
+信贷投资公司希望从 FTX 客户购买债权，否则他们可能要等上数年才能收回资金，同意出售债权意味着要接受巨额损失，债权以美元面值出售。
+据一位知情人士透露，Apollo Global Management 和 Attestor 是就购买债权进行过对话的知名投资者之一。利基投资公司 507 Capital 已经从希望快速退出 FTX 的对冲基金购买了几项债权。Apollo 和 Attestor 的发言人拒绝置评。
+507 Capital 创始人托马斯·布拉齐尔 (Thomas Braziel)表示，他为每美元债权面值支付 5 至 6 美分，已为名义价值为 200 万美元、 300 万美元和 800 万美元的 FTX 索赔完成支付。他还在为一家新加坡基金经理索赔约 1 亿美元进行谈判，并已与一家德国基金进行了交谈，该基金在 FTX 上冻结了 2300 万美元。他表示，提出出售要求的基金通常要求每美元兑换接近 10 美分。（TheBlock）
+
+加密货币
+
+币安：SUN 等资产交易对价格异常波动
+币安发推称，注意到某些交易对在币安上出现价格异常变动，涉及 SUN、ARDR、OSMO、FUN 和 GLM 等资产，团队正在调查可疑账户并采取适当行动。币安称，相关波动似乎不是由于账户被盗或 API 密钥被盗所致，目前资金是安全的。
+CZ 发推称，“根据目前的调查，这似乎只是一种市场行为。一个人存入资金并开始买入（黑客不会先充值）。其他人跟随买入。没有发现账户之间存在关联。币安已暂时锁定部分盈利账户的提现，这在社交媒体上引发许多来自不同国家的人抱怨。我们知晓平台不能过多干预，会导致‘过于中心化’的攻击。但在多大程度上需要干预存在一个平衡。有时，这发生在自由市场中，我们需要让它发挥作用。”
+DeFi 协议 Lodestar Finance…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -798,135 +1030,6 @@ BlockBeats 此前报道，韩国检察官证实 Terra 创始人兼首席执行�
                               <span>BlockBeats 消息，12 月 11 日，波卡生态预言机和预测协议 OptionRoom 披露，12 月 6 日，其成为恶意软件攻击的目标，导致黑客能够访问 OptionRoom 的部署钱包。黑客设法提取流动性并窃取以太坊和 BSC 链上部署者地址中的所有资产。
 
 在过去的几天里，OptionRoom 一直在追踪黑客钱包正在进行的交易，并且多个加密项目成为了同一个黑客的目标。OptionRoom 正在追踪资产，目前正在提交警方报告，以尝试追踪黑客。OptionRoom 追踪了黑客钱包，他们将被盗资金发送到 Binance 和其他交易平台。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183770"
-                        open
-                      >
-                        <summary class="article-expander__title">美SEC：拒绝将GBTC转为现货ETF的申请「解释合理、证据充分」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183770">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 The Block，原文作者：Nathan Crooks
-Odaily 星球日报译者 | 念银思唐
-
-简报：
-- 加密资产管理公司 Grayscale Investments 表示，美国 SEC 已就其因申请比特币现货交易所交易基金（ETF）被拒而提起的诉讼提交了第一份法律简报。
-- 在这份 73 页的回应简报中，SEC 辩称其拒绝是“合乎情理、解释合理，并有大量证据支持”。
-Grayscale Investments 表示，美国证券交易委员会（SEC）已就该加密资产管理公司申请现货比特币交易所交易基金（ETF）被拒一事提交了第一份法律简报。
-“这是我们正在进行的诉讼中的下一个里程碑，此前我们于 10 月 11 日提交了开庭简报，随后不久又提交了支持性的法庭之友简报。”该公司周五在一份声明中表示。
-在 10 月份的开庭陈词中，Grayscale 的法律论据主要围绕监管机构批准与现货市场定价挂钩的比特币期货后，该公司所称的法律适用不公平。该公司称美国 SEC 在 6 月拒绝其将 GBTC 转换为现货比特币 ETF 的申请的决定是“任意、反复无常和歧视性的”。作为其针对监管机构的诉讼的一部分，Grayscale 提交了一份公开的法律简报。在简报中，律师们辩称，由于比特币期货和现货比特币都基于重叠的指数产生价格，现货和期货 ETF 中比特币的现货价格面临相同的风险：因此，批准一个，拒绝另一个是不公平的。该公司辩称，这一拒绝损害了已经持有该信托基金份额的 85 万名投资者的利益。
-在 73 页的回应简报中，SEC 辩称其拒绝是“合乎情理、合理解释，并有大量证据支持”，“尽管已经批准了两家 CME 比特币期货 ETP，但与 SEC 不批准 Grayscale 的现货 ETP 并无矛盾之处。”
-SEC 表示，期货和基于现货的比特币基金是“本质上不同的产品”。
-“不公平的竞争环境”
-“SEC 此前批准的 ETP 只持有在 CFTC 注册并在 CME 交易的期货合约；因此，这些 ETP 的基础资产将受到强有力的监督。”SEC 解释说，“相比之下，比特币现货市场是分散的和不受监管的，请愿人没有提出任何支持的依据来得出这样的结论，即 CME 对期货交易的监督能够充分发现和阻止针对比特币现货市场的欺诈和操纵，从而防止 Grayscale 产品中的欺诈和操纵行为。”
-美国 SEC 表示，它对 Grayscale 拟议的 ETF 的反对，并不反映出“对比特币作为一种投资的不允许的、基于价值的怀疑”。
-作为对 SEC 文件的回应，Grayscale 重申了其开庭陈词中的观点：
-1. SEC 通过批准基于比特币期货的 ETF，同时不断拒绝现货比特币 ETF，为投资者创造了一个不公平的竞争环境。
-2. SEC 在批准比特币期货 ETF 而拒绝现货比特币 ETF 时，未能遵守《行政程序法》（APA）和 1934 年《证券交易法》。
-3. SEC 没有阐明其对现货比特币 ETF 和比特币期货 ETF 的不同处理方式的依据——事实上，他们创建了一个“重大市场测试”，对每种产品类型的处理不一致。
-“我们期待审阅 SEC 的答复简报，”该公司表示，并指出下一份简报将于 1 月 13 日提交，最终简报将于 2 月 3 日提交。
-根据 The Block 的数据，周三，GBTC 相对于其实际持有的比特币价格创下历史新低，负溢价达到 47.3% 。这只基金的交易价格低于资产净值，而持有基金份额的人无法获得相关资产。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183769"
-                        open
-                      >
-                        <summary class="article-expander__title">2022年的加密行业清洗将带来更为稳健的行业发展</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183769">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：The State of Crypto Funding in 2022 
-原文作者：Steve L.R. Kamer，Ex-Banker，Blockchain enthusiast
-原文编译：Leo，BlockBeats
-2022 年的加密行业发生了太多大事，这里就不一一细说了，一次次的失败和崩盘只会增加业内人士对 crypto 未来前景的质疑，降低人们对 crypto 的信心。但同样，回顾互联网作为一个新兴科技刚起步、发展、繁荣的过程中，拨乱反正也是必不可少的，一个新兴行业想要做到繁荣是需要一次次的试验与更正作为基础的，只有把坏了的部分剔除，才能迎来更稳健的行业，期间的痛苦足够换取到未来的满足。
-对于 crypto 来说，废墟中重新长出来的萌芽或许就是未来遮住风雨的参天大树，BlockBeats 编译了 Steve L.R. Kamer 关于「当前 M&amp;A 和风投，以及当前市场如何塑造行业未来」的文章如下：
-面对现实吧， 2022 年的 crypto 和区块链行业正处在一个进退两难的危险地带，虽然这场危机的部分是行业特性和内部的各种混乱导致，但也有更大的外力在起作用，地缘政治、通胀持续走高以及长期的贸易中断正在给全球经济降温，降低加密等资产的风险偏好。
-如此艰难的时期里，我们看到了强者和弱者之间的差别，胜者加冕，败者退场，概念其实很简单，这就是适者生存。
-本篇文章中，我将探讨当前的市场环境如何影响区块链公司，需要做什么来增加他们的生存机会，以及并购和风险投资该当如何平衡现状。
-把钱拿出来
-在市场流血时买入——沃伦·巴菲特
-你不需要成为市场专家就能意识到：到目前为止，crypto 和区块链经历了危机重重的一年，从监管的不确定性到黑客猖獗一时；FTX 和 Luna 这样庞大加密帝国的失败；高管的流失以及法律诉讼问题，这不仅使加密货币价格跌至多年来的低点，也消除了区块…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183767"
-                        open
-                      >
-                        <summary class="article-expander__title">明星项目周报 | Blur二次空投开放申领；Sushi财库资金即将耗尽（12.5-12.11）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183767">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>12月5日-12月11日当周，比较值得关注的动态如下：Sui将在未来几周推出SUI代币社区访问计划；Optimism宣布将在RetroPGF2中分发1000万枚OP资助项目和开发者；以太坊侧链Gnosis Chain已完成合并，共识机制过渡至PoS；ConsenSys：计划将MetaMask用户数据留存时间缩短到7天；Uniswap社区将于12月14日就治理流程调整提案进行投票；SushiSwap CEO：金库资金即将耗尽，提议将支付给xSushi持有者的费用重新分配给金库；Blur二次空投已开放申领，三次空投将于 1 月结束并上线 Token；Ape质押已开启，将于12月12日开始领取奖励。
-以下为具体项目进展：
-底层-Layer 1 
-Sui将在未来几周推出SUI代币社区访问计划，允许社区成员购买SUI代币
-Odaily星球日报讯 Sui基金会介绍正在设计的 SUI 代币社区访问计划，以详细说明 SUI 的分发方式。该计划旨在使 Sui 社区成员能够在早期阶段购买 SUI 代币，设计目标包括尽可能地扩大覆盖面以允许世界上的所有地区参与、实现稳健和公平的社区成员参与，Sui 基金会将在接下来的几周内与社区合作，以确保该计划实现其目标。
-Sui发布Testnet Wave1复盘总结，TestnetWave2将于明年初推出
-Odaily星球日报讯 Layer1公链Sui Network对刚结束运行的Sui Testnet Wave1进行回顾复盘，预计Wave2测试网将于2023年初推出。
-在Sui Testnet Wave1运行期间，先后完成Genesis、Monitoring、Communication、Mitigation与Updates等网络测试，并解决共识停滞、为滞后的验证者更新共识状态、内存泄漏的根本原因等问题。处理的交易总数达到2200万，链上NFT总数达到 11…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5183766"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | 信贷投资公司希望从FTX客户中低价购买债权；Blur 平台日交易额超过OpenSea平台四倍（12月12日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5183766">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-信贷投资公司希望从 FTX 客户中低价购买债权
-信贷投资公司希望从 FTX 客户购买债权，否则他们可能要等上数年才能收回资金，同意出售债权意味着要接受巨额损失，债权以美元面值出售。
-据一位知情人士透露，Apollo Global Management 和 Attestor 是就购买债权进行过对话的知名投资者之一。利基投资公司 507 Capital 已经从希望快速退出 FTX 的对冲基金购买了几项债权。Apollo 和 Attestor 的发言人拒绝置评。
-507 Capital 创始人托马斯·布拉齐尔 (Thomas Braziel)表示，他为每美元债权面值支付 5 至 6 美分，已为名义价值为 200 万美元、 300 万美元和 800 万美元的 FTX 索赔完成支付。他还在为一家新加坡基金经理索赔约 1 亿美元进行谈判，并已与一家德国基金进行了交谈，该基金在 FTX 上冻结了 2300 万美元。他表示，提出出售要求的基金通常要求每美元兑换接近 10 美分。（TheBlock）
-
-加密货币
-
-币安：SUN 等资产交易对价格异常波动
-币安发推称，注意到某些交易对在币安上出现价格异常变动，涉及 SUN、ARDR、OSMO、FUN 和 GLM 等资产，团队正在调查可疑账户并采取适当行动。币安称，相关波动似乎不是由于账户被盗或 API 密钥被盗所致，目前资金是安全的。
-CZ 发推称，“根据目前的调查，这似乎只是一种市场行为。一个人存入资金并开始买入（黑客不会先充值）。其他人跟随买入。没有发现账户之间存在关联。币安已暂时锁定部分盈利账户的提现，这在社交媒体上引发许多来自不同国家的人抱怨。我们知晓平台不能过多干预，会导致‘过于中心化’的攻击。但在多大程度上需要干预存在一个平衡。有时，这发生在自由市场中，我们需要让它发挥作用。”
-DeFi 协议 Lodestar Finance…</span>
                             </span>
                           </div>
                         </a>
@@ -7496,8 +7599,8 @@ Odaily星球日报讯 据英国《金融时报》披露 FTX 曾与泰勒·斯�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3673478376">
-        <time id="build-timestamp" datetime="2022-12-12T07:08:14.248Z">2022-12-12T07:08:14.248Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3673850779">
+        <time id="build-timestamp" datetime="2022-12-12T08:11:05.353Z">2022-12-12T08:11:05.353Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
