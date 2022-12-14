@@ -6,6 +6,26 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/p4ke58na.html",
+          "author": "PA一线",
+          "description": "PANews 12月15日消息，据The Block报道，总部位于纽约的资产管理公司Wisdom tree推出了9只新的区块链基金。据该公司发布的一份新闻稿，这9只基金已获得美国证券交易委员会(SEC)批准，使WisdomTree的数字基金总数达到10只。这9只基金使WisdomTree的数字基金总数达到10只。WisdomTree的首只数字基金于今年9月获得监管机构批准。WisdomTree曾试图在2022年和2021年推出比特币现货ETF，但遭到SEC拒绝，理由是没有足够的参数来防止欺诈和市场操纵。此外，WisdomTree的加密货币持有量从年初的4.06亿美元降至10月份的1.78亿美元，降幅56%。",
+          "link": "https://panewslab.com/zh/articledetails/p4ke58na.html",
+          "publishedOn": "2022-12-14T19:00:02.000Z",
+          "wordCount": 3544,
+          "title": "资管公司WisdomTree新推出9只区块链基金",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/xzf3s250.html",
+          "author": "PA一线",
+          "description": "PANews 12月15日消息，据CoinDesk报道，根据一份新闻稿，PayPal已将其加密货币买卖和托管服务与MetaMask Wallet整合。用户将能够选择使用PayPal账户在MetaMask应用程序内购买以太坊(ETH)，同时简化了从PayPal向MetaMask转账以太币的流程。目前部分美国用户已可以使用这项新服务，PayPal将在未来几周内面向所有美国客户推出该服务。",
+          "link": "https://panewslab.com/zh/articledetails/xzf3s250.html",
+          "publishedOn": "2022-12-14T18:50:33.000Z",
+          "wordCount": 3541,
+          "title": "PayPal与加密钱包MetaMask合作，简化以太坊购买和转账流程",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/mr28nht6.html",
           "author": "PA一线",
           "description": "PANews 12月15日消息，针对彭博社有关“FTX破产可能对Tether产生影响”的报道，USDT发行方Tether发文回应称，Tether与FTX的关系，和Tether与其他交易所的关系并无区别。Tether并未向FTX或Alameda Research贷款，也没有与其有特殊的交易。Tether表示，处理FTX破产案件的监管机构最终也将证实这一点。由于Genesis、BlockFi、Voyager、Celsius等机构都已出现违约，持有USDT的人倾向于不将USDT借给投机的第三方（做空者），从而降低可能的违约风险。\nTether 还表示，有很多信息可以验证 USDT 的安全性，Tether 也已与审计机构 BDO 合作，彭博社选择选择散布谣言和错误信息而不是引用公开可用的数据是很草率的行为。",
@@ -3257,16 +3277,6 @@
           "publishedOn": "2022-12-10T10:25:31.000Z",
           "wordCount": 81,
           "title": "Arthur Hayes：比特币触底了吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5183716",
-          "author": "Tokenview",
-          "description": "本期篇幅较长，为了方便大家阅读可预览目录：\n温习：什么是最大可提取价值 MEV\nPart 1 ：以太坊 POS 中 MEV\n验证者中心化\n许可内存池\nPart 2 ：MEV 两种解决方案\nProposer -Builder Separation\nPBS 如何减轻 MEV 的影响？\nBuilder API\nBuilder API 如何减轻 MEV 的影响？\nPart 3 ：MEV 是以太坊独有的吗？\nPart 4 ：MEV 遵循复杂性\nPart 5 ：为什么说 MEV 很难修复\n正文开始，首先我们举例回顾一下什么是 MEV？\n例如，在大量交易导致价格下滑后，Uniswap 上有 10, 000 美元的套利机会。套利机器人注意到机会并提交交易以捕获它，向矿工提供 10 美元的交易费。可能会发生以下两种情况之一：\n\n矿工将复制并审查套利者的交易，以便自己抓住机会\n\n其他机器人会注意到并出价更高的 txfee，开始一场争夺套利权的竞标战。拍卖被称为“优先 Gas 拍卖”（Priority Gas Auction：PGA）\n\n10, 000 美元的潜在利润是 MEV。如果矿工没有捕获它，并且开始了 PGA，拍卖成交的价格与可用的总 MEV 之间的差额就是获胜交易者的利润（例如，如果向矿工支付了 7, 000 美元的费用，则剩余的 3, 000 美元留给交易者）。\n在 MEV 系列的第一篇文章里我们详细介绍了 MEV 的形式及其影响，接下来我们继续讨论 MEV 对以太坊的影响。\nPart.1 以太坊 PoS 中的 MEV\n在上一篇文章里，我们介绍了 MEV 对整体用户体验和共识层安全性有负面影响。但以太坊向权益证明共识的过渡（即合并）中可能会引入新的 MEV 相关风险：\nETH ）就添加到信标链的区块的有效性达成共识。由于 32 个 ETH 可能对许多人来说是遥不可及的，加入一个质押池…",
-          "link": "https://www.odaily.news/post/5183716",
-          "publishedOn": "2022-12-10T09:30:00.000Z",
-          "wordCount": 81,
-          "title": "以太坊转PoS后，如何缓解MEV的影响？",
           "imageUrl": null
         }
       ]
