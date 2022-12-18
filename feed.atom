@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-12-18T19:05:15.934Z</updated>
+    <updated>2022-12-18T20:07:19.736Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -3916,96 +3916,6 @@ FTX 崩…]]></summary>
         <summary type="html"><![CDATA[FTX CEO：无法弥补所有FTX用户的损失]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[慢雾：NimbusPlatform遭闪电贷攻击，攻击者获利约 278枚BNB]]></title>
-        <id>https://panewslab.com/zh/articledetails/wwk3ihum.html</id>
-        <link href="https://panewslab.com/zh/articledetails/wwk3ihum.html"/>
-        <updated>2022-12-14T08:06:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，据慢雾安全团队情报，2022 年 12 月 14 日， BSC 链上的 NimbusPlatform 项目遭到攻击，攻击者获利约 278 枚 BNB。
-1. 攻击者首先在 8 天前执行了一笔交易（0x7d2d8d），把 20 枚 BNB 换成 NBU_WBNB 再换成 GNIMB 代币，然后把 GNIMB 代币转入 Staking 合约作质押，为攻击作准备
-2. 在 8 天后正式发起攻击交易（0x42f56d3），首先通过闪电贷借出 75477 枚 BNB 并换成 NBU_WBNB，然后再用这些 NBU_WBNB 代币将池子里的绝大部分 NIMB 代币兑换出
-3. 接着调用 Staking 合约的 getReward 函数进行奖励的提取，奖励的计算是和 rate 的值正相关的，而 rate 的值则取决于池子中 NIMB 代币和 GNIMB 代币的价格，由于 NIMB 代币的价格是根据上一步闪电贷中被操控的池子中的代币数量来计算的，导致其由于闪电贷兑换出大量的代币而变高，最后计算的奖励也会更多
-4. 攻击者最后将最后获得的 GNIMB 代币和拥有的 NIMB 代币换成 NBU_WBNB 代币后再换成 BNB，归还闪电贷获利
-此次攻击的主要原因在于计算奖励的时候仅取决于池子中的代币数量导致被闪电贷操控，从而获取比预期更多的奖励。慢雾安全团队建议在进行代币奖计算时应确保价格来源的安全性。
-参考攻击交易：https://bscscan.com/tx/0x42f56d3e86fb47e1edffa59222b33b73e7407d4b5bb05e23b83cb1771790f6c1]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[阿斯顿·马丁与The TinyDigital Factory合作推出NFT赛车游戏]]></title>
-        <id>https://panewslab.com/zh/articledetails/f20y8b1f.html</id>
-        <link href="https://panewslab.com/zh/articledetails/f20y8b1f.html"/>
-        <updated>2022-12-14T08:00:05.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，赛车游戏开发商The Tiny Digital Factory与豪华跑车品牌阿斯顿・马丁合作推出区块链游戏Infinite Drive Racing，并将在Polygon上推出限量版NFT系列。据悉，第一批3000个NFT将于12月18日在MagicEden上提供。白名单玩家能够在第一天购买该系列，普通销售将于12月19日开始。Infinite Drive Racing 目前处于封闭的 alpha 阶段，完整游戏将于 2023 年初在 iOS 和 Android 平台上推出。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[资管公司VanEck：比特币仍承压因几家矿商可能面临破产]]></title>
-        <id>https://panewslab.com/zh/articledetails/16ib0ja5.html</id>
-        <link href="https://panewslab.com/zh/articledetails/16ib0ja5.html"/>
-        <updated>2022-12-14T07:57:55.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，纽约投资管理公司 VanEck 数字资产研究主管 Matthew Sigel 表示，比特币可能仍面临压力，因为几家矿商可能会破产，这给宏观经济状况的改善蒙上了阴影。此外，在矿商破产浪潮中，比特币或许会在2023年第一季度跌至1万至1.2万美元，这可能标志着加密冬天的低点。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[福布斯：SBF拟陈述证词全文]]></title>
-        <id>https://www.odaily.news/post/5183828</id>
-        <link href="https://www.odaily.news/post/5183828"/>
-        <updated>2022-12-14T07:54:55.000Z</updated>
-        <summary type="html"><![CDATA[原文来源：福布斯杂志
-原文编译：Babywhale，Foresight News
-在北京时间昨日晚间进行的 FTX 破产听证会之前，《福布斯》杂志公布了其获取到的 Sam Bankman-Fried（SBF）计划在听证会上陈述的证词草稿。该份证词中，SBF 详细讲述了 FTX 破产事件的始末，但其陈述的情况是否真的是事实，相信还需要时间来给出答案。
-概况
-首先，我想在宣誓后正式声明：
-我搞砸了。
-我知道，现在说对不起并没有任何用处，因此我将尽可能多地奉献自己的力量为客户做正确的事。当所有的事情都完成后，我会主要通过一个标准来评价自己：用户最终是否能受到补偿？如果在这方面辜负了用户，那么我就失败了。
-去年，我的净资产被评估为 200 亿美元。
-今天，我也不能说我一无所有，我有一个温馨的家庭，也没有挨饿，这已经比数十亿人的生活要好了很多。我最后一次查询我银行账户时里面应该有 10 万美元，但我无法确定，因为我已经被拒绝查看很多我个人的密码、数据、文件和账户。
-截至今天，我和 FTX International 前管理团队都无法获得可以告知用户、破产团队、国外监管机构的数据，目前这个数据都由破产团队控制。
-事实上，我们之中有许多人仍然无法访问我们自己的个人数据，这些数据被破产管理小组的领导层控制。当我们要求获得自己的个人资料和密码时，我们得到的回答是：「你应该像我们向其他处于相同情况的人建议的那样，重新设置 2 FA/ 密码。」
-因此，我的大部分证词不会有我希望的那样自信和详细。我为我可能不能自信地回答合理的质疑表示歉意。因为我现在无法访问 FTX 的大部分当前或历史数据来进行确认。我也无法访问我自己的大部分笔记、文章、电子表格、数据或电子邮件。Ray 的团队甚至拒绝向我归还我个人账户的凭证。
-在 FTX International 可能无力偿还债务的几天后，我对迫于压力签文件而…]]></summary>
-        <author>
-            <name>Foresight News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[澳大利亚在金融改革中瞄准加密货币和清算领域]]></title>
-        <id>https://www.odaily.news/post/5183827</id>
-        <link href="https://www.odaily.news/post/5183827"/>
-        <updated>2022-12-14T07:44:33.000Z</updated>
-        <summary type="html"><![CDATA[本文来自彭博社，原文作者：Harry Brumpton
-Odaily 星球日报译者 | 念银思唐
-
-澳大利亚将对金融服务法进行全面改革，这将收紧加密货币市场的安全网，并为股权交易清算领域可能出现的竞争铺平道路。
-根据周三概述的咨询文件，澳大利亚政府将研究哪些加密代币应该受到金融法律的保护，并寻求加强澳大利亚的支付系统。在现金股权方面，拟议中的立法将要么在 ASX Ltd.出现竞争对手的情况下允许在清算和结算方面存在竞争，要么在其持续主导地位的情况下赋予监管机构更大的权力。
-“金融领域唯一不变的就是变化。它是快速变化的，动态的，而我们的监管框架没有跟上，”澳大利亚财长 Jim Chalmers 在声明中说，“我们的改革就是要开始解决这个问题，以建立一个更强大、更安全的金融体系。”
-政府表示，其周三发布的咨询文件将成为 2023 年第一季度通过的支付系统新“战略计划”的基础，预计明年其他领域也会发生变化。
-随着最近 FTX 破产凸显出风险控制的重大失误，世界各地的监管机构都在寻求加强对数字资产的控制。与此同时，在澳大利亚，垄断了股票交易清算和结算的 ASX，在多年来放弃了由区块链技术支持的技术升级后，正面临压力。
-“数字时代给金融业带来了新的机遇和风险。”Chalmers 说，“我们的计划是为进一步创新开辟空间，同时确保我们有正确的监管方法，以保证消费者、企业和系统的安全。”
-Chalmers 表示，Anthony Albanese 领导的政府正在“采取行动，改善对加密货币服务提供商的监管，并确保为澳大利亚人提供额外的保障"。他补充说，咨询文件将涵盖如何对某些加密货币资产进行监管，同时对公司许可、资产托管和消费者保护的框架进行深入探讨，预计在明年出台立法之前就相关框架进行咨询。
-根据该计划，政府将为所谓的“先买后付”部门建立一个监管框架，这将使公司更容易确定他们是否需要许可证。
-此外，澳大利亚金融监管机构正在“研究选择方案”，以将支付稳定币纳入储值设施的监管框架。这种合并将成为该国支付监管框架更广泛改革的一部分。澳洲央行近期发布了一份关于稳定币的报告，估了其近期发展、风险和监管前景。尽管对风险给予了高度关注，但该报告非常乐观地承认“稳定币有可能提高一系列支付和其他金融服务的效率和功能。”根据该报告，澳大利亚监管机构“正在开展重大工作”，以弄清楚如何将稳定币应用到国家支付生态系统中，同时又不会使其面临过度风险。该报告重申，制定稳定币支付框架是 CFR 近期的首要任务，“鉴于这些安排有可能被广泛用作支付手段和价值储存手段。”]]></summary>
-        <author>
-            <name>念银思唐</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[白宫对是否会返还SBF的520万美元捐款保持沉默]]></title>
-        <id>https://panewslab.com/zh/articledetails/hr0peh3r.html</id>
-        <link href="https://panewslab.com/zh/articledetails/hr0peh3r.html"/>
-        <updated>2022-12-14T07:13:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，美联社记者 Zeke Miller 在12月13日的白宫新闻发布会上询问，美国总统拜登是否会退还FTX创始人SBF此前提供的520万美元总统竞选捐款。发言人回复称，我不能谈论政治捐款或任何与之相关的事情。
-SBF是拜登2020年总统竞选的第二大“CEO贡献者”，他价值520万美元的捐款仅次于媒体大亨迈克尔·布隆伯格的5600万美元捐款。他也是美国2022年中期选举中最大的个人捐助者，向候选人捐赠了3680万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
 </feed>
