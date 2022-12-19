@@ -1514,36 +1514,6 @@
           "wordCount": 3590,
           "title": "Lead Capital宣布设立100万美元基金，重点发展台湾开发者团队生态",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/8pu19bd7.html",
-          "author": "PA一线",
-          "description": "PANews 12月15日消息，DeFi可组合型杠杆协议Gearbox Protocol的流动性引导方案“Cider'ed”今日启动第二个阶段ETH Deposit，在不到一个小时的时间里，池内已存满3000枚ETH，触达方案硬顶。由于第一阶段的GEAR Deposit共存入约1.34亿枚GEAR，这意味着在第三阶段Fair Trading（约46小时后）启动时，GEAR将以约0.0288美元的价格开放交易。\n相关阅读：一文读懂不止杠杆借贷的Gearbox Protocol",
-          "link": "https://panewslab.com/zh/articledetails/8pu19bd7.html",
-          "publishedOn": "2022-12-15T09:59:17.000Z",
-          "wordCount": 3564,
-          "title": "Gearbox Cider'ed第二阶段已存满3000 ETH，GEAR将于后天以0.0288美元价格开盘",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/j9iymr5p.html",
-          "author": "PA一线",
-          "description": "PANews 12月15日消息，总部位于哥本哈根的金融科技公司 ARYZE 在欧洲数字资产交易所 Switchere 上推出了其第一套稳定数字货币资产 ARYZE Digital Cash。ARYZE eEUR 现在可以在值得信赖的交易所购买。ARYZE (BVI) Ltd 发行的 ARYZE Digital Cash eEUR 以及 eUSD 和 eGBP 等其他变体都是由 100% 储备资产支持。\n该公司还推出了去中心化的自托管交易所 MAMA DeFi，用户可以在其中购买、交易和使用数字现金。此外，ARYZE 现已通过 reForge 进行公开测试，reForge 是一种独特的跨链协议，可实现不同区块链之间的数字现金转移以及不同数字现金变体之间的转换。",
-          "link": "https://panewslab.com/zh/articledetails/j9iymr5p.html",
-          "publishedOn": "2022-12-15T09:44:47.000Z",
-          "wordCount": 3616,
-          "title": "哥本哈根金融科技公司Aryze发行稳定币资产ARYZE Digital Cash",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/7w7yd713.html",
-          "author": "PA一线",
-          "description": "PANews 12月15日消息，加密货币衍生品交易平台、场外交易公司 Paradigm 宣布将薪资全面削减 15%。Paradigm 表示，减薪减少了整个生态系统对裁员的需求，并且对组织发展的影响较小。",
-          "link": "https://panewslab.com/zh/articledetails/7w7yd713.html",
-          "publishedOn": "2022-12-15T09:09:39.000Z",
-          "wordCount": 3546,
-          "title": "交易公司Paradigm宣布从本周开始将薪资全面削减15%",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3037,26 +3007,6 @@
           "publishedOn": "2022-12-15T10:30:00.000Z",
           "wordCount": 81,
           "title": "一文了解如何参与ConsenSys zkEVM测试网",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5183859",
-          "author": "DODO 研究院",
-          "description": "原文作者：Andrea\n原文编辑：Yaoyao\n\n\n\n\n原文来源：DODO Research\n流动性对于任何金融产品来说都至关重要。自 2020 年 DeFi Summer 以后，各类 DeFi 产品如雨后春笋般出现，一方面促进了 DeFi 生态的发展，另一方面也使得流动性被分散到各个不同的协议中，使得交易市场变得碎片化。旨在将流动性集中的聚合类产品，也在这时应运而生。\n根据功能和实现方式，聚合器可分为：\n1.收益聚合器：将资金聚集到资产池，通过策略分布到不同的 DeFi 平台进行挖矿，获得的收益在资产池间分配。代表项目有 Yearn Finance, Idle Finance, APY.Finance, Harvest Finance。\n2. DEX 聚合器：聚合多个协议的流动性，通过算法寻找最佳交易路径，降低交易成本。代表项目有 1inch, DODO, Matcha, Paraswap,  KyberSwap, CowSwap。\n3. 多功能聚合器：在同一终端接入多个 DEX 流动性，如 Uniswap、Balancer 等，但不具备拆单功能，即不会在多个 DEX 间分配交易。代表项目有 Zapper, Plasma Finance, InstaDapp。\n本文聚焦于 DEX 聚合器，围绕生态发展、产品对比以及聚合算法三方面，详细介绍了 DEX 聚合器的过去和现状，以及对未来的展望。\n回顾 DEX 聚合器的发展\n\n\n\n\n\n\n\n\n1inch于 2019 年 5 月推出，是第一个将其他多个去中心化交易所流动性汇集的 DEX。1inch 于 2020 年 11 月发布了第二版协议，对初始协议进行了改进，推出了应用程序接口 Pathfinder 组件。Pathfinder 组件包含了价格发现和路由算法，将交易拆分到许多去中心化交易所 (DEX) 甚至同一 DEX 的不同市场深…",
-          "link": "https://www.odaily.news/post/5183859",
-          "publishedOn": "2022-12-15T10:00:00.000Z",
-          "wordCount": 81,
-          "title": "全景解析DEX聚合器: 生态发展、产品对比、聚合算法",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5183858",
-          "author": "链捕手",
-          "description": "整理：饼干，ChainCatcher\n常言道，熊市是建设的最佳时机。对于普通用户而言，参与建设的最佳方式就是体验各种项目，为项目的发展提出反馈与建议。如今，越来越多的项目也会将这部分用户纳入奖励体系。\n对很多类型的项目，测试网是用于市场反馈的重要产品阶段，可以帮助开发人员创建、修改和测试并监控产品性能，而不至于真实影响到用户资产。因此，普通用户使用测试代币即可参与到各种项目的测试网，测试产品的各种功能，帮助开发者完善产品。\n\n本文是 ChainCatcher 根据 Rootdata 整理的 100 个处于测试阶段的加密项目，按照公链、基础设施、DeFi、NFT、DAO、社交娱乐、游戏等多个赛道分类。此外，用户也可以到 Rootdata项目页面查看详细信息，利用过滤器功能（运营状态--运营中--已上线测试网）即可轻松筛选出测试阶段的项目。\n公链\nSui / Mysten Labs \n介绍：Sui 是一个无需许可的第 1 层区块链，从头开始设计，使创作者和开发人员能够构建满足 Web3 中下一个十亿用户的体验。 Sui 具有水平可扩展性，可以以无与伦比的速度和低成本支持广泛的应用程序开发。\n测试网信息：Sui Testnet Wave 1 已结束，官方进行了回顾复盘。Testnet Wave 2 将于 2023 年初推出，并专注于纪元管理、代币经济学和质押代理。在 SUI 代币经济学中，早期贡献者占 20% ，社区访问计划和应用测试人员占 6% 。Sui 基金会表示，“ Sui 基金会将把向 Sui 早期社区成员奖励和分发 SUI 代币作为重中之重 ”。\nSpecular\n介绍：Specular 是一个 EVM 原生 optimistic rollup，提供比现有 optimistic rollup 解决方案更强的安全性和去中心化特性。Specular 还具有最小可信计算基础；…",
-          "link": "https://www.odaily.news/post/5183858",
-          "publishedOn": "2022-12-15T09:20:00.000Z",
-          "wordCount": 81,
-          "title": "一文梳理100个处于测试网阶段的加密项目",
           "imageUrl": null
         }
       ]
