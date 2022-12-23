@@ -2184,16 +2184,6 @@
           "wordCount": 3546,
           "title": "派盾：两个休眠4年多的地址将22982枚ETH转移至新地址",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/8p9pgd7d.html",
-          "author": "PA一线",
-          "description": "PANews 12月19日消息，据欧易OKX官方公告，目前欧易所使用的云服务商机房故障已修复，欧易已于2022年12月19日12:00恢复BTC (主网)、ETH (主网)、USDT (ERC20) 、USDC (ERC20) 及其他ERC20代币、TRX（主网）、USDT (TRC20) 、USDC (TRC20) 及其他TRC20代币的充提服务。欧易将于2022年12月19日15:00恢复所有代币的充提服务。\n此前，欧易OKX已公布关于此次事件的赔付方案，欧易将承担所有由于平台原因所造成的客户损失。此外，欧易将会在近期快速推进多云战略，确保核心服务部署在多个云服务商，保证欧易交易服务的稳定性。",
-          "link": "https://panewslab.com/zh/articledetails/8p9pgd7d.html",
-          "publishedOn": "2022-12-19T04:57:38.000Z",
-          "wordCount": 3569,
-          "title": "欧易OKX已于12月19日12:00恢复BTC、ETH等充提服务",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3411,16 +3401,6 @@
           "wordCount": null,
           "title": "Binance比特币钱包余额降至50万枚BTC下方",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/120050",
-          "author": null,
-          "description": "BlockBeats 消息，12 月 19 日，据欧易 OKX 官方公告消息，目前欧易所使用的云服务商机房故障已修复，欧易已于 2022 年 12 月 19 日 12:00 (HKT) 恢复 BTC (主网)、ETH (主网)、USDT (ERC20) 、USDC (ERC20) 及其他 ERC20 Token、TRX（主网）、USDT (TRC20) 、USDC (TRC20) 及其他 TRC20 Token 的充提服务。欧易将于 2022 年 12 月 19 日 15:00 (HKT) 恢复所有 Token 的充提服务。\n\n此前，欧易 OKX 已公布关于此次事件的赔付方案，欧易将承担所有由于平台原因所造成的客户损失。此外，欧易将会在近期快速推进多云战略，确保核心服务部署在多个云服务商，保证欧易交易服务的稳定性。",
-          "link": "https://www.theblockbeats.info/flash/120050",
-          "publishedOn": "2022-12-19T04:50:29.000Z",
-          "wordCount": null,
-          "title": "欧易OKX已于12月19日12:00恢复充提服务",
-          "imageUrl": null
         }
       ]
     },
@@ -4277,16 +4257,6 @@
           "publishedOn": "2022-12-19T07:20:00.000Z",
           "wordCount": 81,
           "title": "重听SBF听证会，还有哪些值得关注的有趣细节？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5183909",
-          "author": "十四君",
-          "description": "NFT 交易版税，已经在以太坊上分发出 18 亿美元，然而版税支付之战在今年打响，直至岁末占 NFT 交易市场份额 80% 的 opensea，官宣推出强制版税执行工具，是版税合理性还是垄断自私心？\n曾经的版税还只是链上查询、链下自愿实施的范畴，而如今 os 强制在链上实施版税，虽然看似是站在了创作者的一边，但带有几乎全部竞品列入黑名单的合约功能，仿佛更像是一个强制项目方与用户站队的宣言，其过高的权限直接与去中心化理念相碰撞，甚至可能成为未来监管介入的绝佳工具。\n本文将探讨\n\nOpenSea 强制版税的实施机制\n\n综合评价方案优劣与观点总结\n\n1、OpenSea 强制版税的实施机制\n2022 年 11 月 08 日，面对x2y2, sudoswap 在 0 版税上的围追堵截，OS 的反击开始了，总结其机制：\n\n此代码将 NFT 的销售范围限制在强制收取版税的市场之内\n\n而对于要在 OS 上收取版税的 NFT 项目而言，就必须集成此工具，否则 OS 也将不收取版税。\n\n1.1、区块链合约升级知识\n首先补充点区块链基本知识：\n\n链上合约本质上是由交易来驱动的固定代码\n\n链上合约代码本身是无法更改的\n\n如果从一开始设计有代理升级模式，则可以更改其逻辑合约（修改在代理合约中指向地址）\n\n\n总之，要能够改变链上代码升级，就要一开始即设计好，即使是目前最先进的“非结构化可升级存储代理合约”(Unstructured Upgradable Storage Proxy Contracts)，这种也是无法删除之前变量，只能拓展新的存储变量。\n1.2 、os 是通过黑名单来实施强制版税\n通过阅读源码，这份工具他为每个转移型的标准函数（approve，transferFrom 等 5 个）增加了修饰符号onlyAllowedOperator ，onlyAllowedOperatorApprova…",
-          "link": "https://www.odaily.news/post/5183909",
-          "publishedOn": "2022-12-19T04:30:00.000Z",
-          "wordCount": 81,
-          "title": "解读：OpenSea的强制版税执行工具",
           "imageUrl": null
         }
       ]
