@@ -6,6 +6,26 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/ockj3bbv.html",
+          "author": "PA一线",
+          "description": "PANews 12月25日消息，据安全机构PeckShield监测，多链兑换协议Rubic遭到黑客攻击，损失超140万美元，攻击者已将1100枚ETH转入Tornado Cash混币协议。",
+          "link": "https://panewslab.com/zh/articledetails/ockj3bbv.html",
+          "publishedOn": "2022-12-25T09:22:46.000Z",
+          "wordCount": 3641,
+          "title": "多链兑换协议Rubic遭到黑客攻击，损失超140万美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/afxhs793.html",
+          "author": "PA一线",
+          "description": "PANews 12月25日消息，会计事务所Armanino首席运营官Chris Carlberg在接受英国《金融时报》采访时表示，他确认出于“市场条件考虑”会停止向加密公司提供财务报表审计和储备证明报告服务。同时表示该公司为FTX.US提供的审计服务质量感到放心，但没有参与到该交易所的内部控制审计，因为内部控制是针对上市公司所必需的，但对于FTX.US这样的私营公司则不需要，Armanino公司已经按照标准要求完成了工作，而且“对在加密领域里所做的工作感到满意”。\n此外，Chris Carlberg特别澄清，Armanino与FTX全球站业务没有任何关联，从来“没有任何客户关系”。",
+          "link": "https://panewslab.com/zh/articledetails/afxhs793.html",
+          "publishedOn": "2022-12-25T08:27:18.000Z",
+          "wordCount": 3536,
+          "title": "FTX.US前审计公司Armanino：对审计质量放心，但没有参与其内部控制审计",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/kkmzi0x3.html",
           "author": "PA一线",
           "description": "PANews 12月25日消息，PeckShield监测到Avalanche生态原生稳定币项目Defrost Finance协议再次出现问题，协议被添加了假的抵押代币，并使用恶意价格预言机清算当前用户，损失估计超过1200 万美元。Defrost Finance官方表示，已注意到V1 出现的紧急情况，团队目前正在调查，恳请社区等待更新，暂时不要使用 V1 或 V2。\n12月23日，Defrost Finance曾遭到黑客的闪电贷攻击，黑客获利173,000美元。",
@@ -1694,16 +1714,6 @@
           "wordCount": 3534,
           "title": "安永：意识到QuadrigaCX冷钱包中比特币被转移，仍未找到相关私钥",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/d7nz5wnh.html",
-          "author": "PA一线",
-          "description": "PANews 12月21日消息，据美国广播公司新闻网(ABC News)报道，前FTX首席执行官SBF已在巴哈马签署引渡文件，将被移交至纽约接受指控。他将于周三再次出庭。据此前消息，SBF在周一的法庭听证会上已同意被引渡到美国。当天庭审结束后，他的律师团队正在制定引渡计划。此前美国联邦检察官已对SBF提出了八项指控，如果所有罪名成立，他可能会被判数十年监禁。",
-          "link": "https://panewslab.com/zh/articledetails/d7nz5wnh.html",
-          "publishedOn": "2022-12-20T23:03:25.000Z",
-          "wordCount": 3535,
-          "title": "美国广播公司：SBF已签署引渡至美国的文件",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2529,6 +2539,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5184049",
+          "author": "DAOrayaki",
+          "description": "原文标题：Voting Systems | Simple Majority, Ranked Choice & Approval Voting. Plus, a guy called Condorcet.\n\"民主必须是比两只狼和一只羊投票决定晚餐吃什么更重要的东西\"。\n拉斐尔·斯潘诺基\n——詹姆斯·博瓦德，《失去的权利：美国自由的毁灭》\n民主意味着参与投票。独裁与自由、自由和繁荣的民主之间的主要区别在于，民众可以通过参与公开、公平和透明的选举来决定谁代表他们的利益。\n一些民主国家更进一步，允许公民就直接影响他们生活的事项进行投票，比如一条穿过他们村庄的新高速公路。\n但是如何确定这种投票的获胜者呢？它可能看起来像计票一样简单。\n事实证明，这并不像听起来那么简单。许多聪明的思想家将他们的整个学术生涯都花在了对投票系统的理论化和分类上。很少有人像 孔多塞侯爵那样有影响力。\n孔多塞侯爵（1743-1794 ）是法国数学家和哲学家，对社会选择和投票理论做出了重大贡献。他经常被认为是投票理论的创始人之一。最出名的可能是以其名字命名的基于排名的投票系统—孔多塞准则（The Condorcet Criterion），选出能够在正面竞争中击败其他人的候选人。\n\n什么是基于排名的投票系统？\n为什么选择能够在面对面的选举中击败其他人的候选人很重要？\n我们将会从复杂性、流行度的视角，对现有的投票机制进行分析：简单多数、排名选择法或孔多塞准则，以及赞成投票制。\n对于 DAO 治理，可以选择多种投票机制，以设计最能反映 DAO 整体偏好的民意调查，从而确保少数人的声音浮出水面和降低社区的不满情绪。\n简单多数\n简单多数投票可能意味着三件事：\n\n绝对多数投票——获得半数以上选票的候选人获胜。\n\n相对多数投票——得票最多的候选人获胜，即使他们得票不到一半。\n\n领先者投票，这是多数票的一种特殊形式，选民被分成选…",
+          "link": "https://www.odaily.news/post/5184049",
+          "publishedOn": "2022-12-25T10:30:00.000Z",
+          "wordCount": 81,
+          "title": "DAOrayaki：DAO民主投票源头与孔多塞悖论",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5183959",
           "author": "TinTinland",
