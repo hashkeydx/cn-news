@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-12-25T16:09:27.026Z</updated>
+    <updated>2022-12-25T17:06:09.778Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[1inch推出Fusion升级以提高swap的安全性和盈利能力]]></title>
+        <id>https://panewslab.com/zh/articledetails/vfcgn68s.html</id>
+        <link href="https://panewslab.com/zh/articledetails/vfcgn68s.html"/>
+        <updated>2022-12-25T14:50:22.000Z</updated>
+        <summary type="html"><![CDATA[PANews 12月25日消息，去中心化金融 (DeFi)聚合器1inch Network推出1inch Swap Engine的Fusion升级。1inch Swap Engine作为一个去中心化的交易和匹配系统，连接DeFi用户，并通过专业做市商为加密交易提供流动性，Fusion升级旨在为加密货币投资者提供具有成本效益、安全且有利可图的swap。
+1inch Swap Engine中的Fusion模式允许DeFi投资者以预先确定的价格和时间范围下订单，而无需支付网络费用。此外，升级还包括网络改进，如更新的质押合约和代币经济学。
+值得一提的是，1inch代币将于12月30日迎来近15%的大额解锁，解锁的代币中，团队与社区激励均为 5625 万枚、种子轮投资者 4625 万枚、A 轮投资者 3050 万枚、协议发展基金 2718.75 万枚、顾问 575 万枚。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[当前比特币市值占比为38.37%，以太坊为17.41%]]></title>
         <id>https://www.theblockbeats.info/flash/120908</id>
@@ -4409,45 +4421,6 @@ IBC 中继器可能很快就会失效。用户可将其他资产从 sifchain 转
         <updated>2022-12-21T05:12:22.000Z</updated>
         <summary type="html"><![CDATA[PANews 12月21日消息，据Cryptonews报道，Web3公司Utopia Group宣布完成1000万欧元融资，本轮融资由Asterius VC领投并将为其推出的首个NFT系列Utopia Avatars提供咨询服务支持。
 Utopia Avatars将在以太坊区块链上铸造总计9,922枚NFT，该项目还得到马克·扎克伯格姐姐兰迪·扎克伯格、Pepe Bastón、Deepak Chopra、Maha Abouelenein o Huda Kattan等名人的支持。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[深入与解读Vitalik默克尔树的改进方案和对CEX发展的影响]]></title>
-        <id>https://www.odaily.news/post/5183938</id>
-        <link href="https://www.odaily.news/post/5183938"/>
-        <updated>2022-12-21T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[FTX的暴雷给原本就日渐冷清的加密市场再泼了一盆冷水。用户对中心化交易所的信任程度迅速降低，提币运动此起彼伏。为留住用户和资金，CEX 们纷纷发布储备金证明，以自证清白。Vitalik也发文讨论了偿付能力证明，从技术角度解答和展望了如何实现更安全的 CEX。本文将结合对 Vitalik 文章的解读、各家 CEX 的证明方案和各方提议，讨论 CEX 如何自证清白并继续发展。
-1. 用技术手段证明偿付能力
-证明 CEX 拥有偿付用户取款的能力就基本上等同于证明了它没有挪用用户的存款。这需要证明一个不等式：CEX 控制的资产总和（资产证明）>=所用用户存款总和（负债证明）。除了公布这两个数值以外，CEX 还需要证明不等式的左右两边的数字都是真实的，即资产属于且一直属于交易所，它没有篡改用户的存款余额。
-各类技术手段都围绕着证明这两点而开展。对于资产证明，中心化机构需要提供其持有的链上地址，并对其进行验证和审计。常见的做法是提供数字签名以证明其对链上地址的所有权。这个做法难度不大，被普遍采用。当前的讨论集中在负债证明上，各家交易所近期纷纷公布的默克尔树 Merkle Tree 资产储备证明就是最典型的负债证明。
-1.1 将默克尔树用于负债证明
-默克尔树是区块链中非常常见的数据结构。它是一种典型的二叉树结构，由一个根节点、一组中间节点和一组叶子节点组成。默克尔树的每个更高一级的中间节点（父节点）都是它下方的两个中间节点（子节点）的哈希，经过这样的逐层计算得到最后的根节点。所以根节点包含了所有叶子节点的信息。底层数据的任何变动，都会传递到其父节点，并逐层传递到根节点。它常用来快速证明某个集合中存在或者不存在某个特定的元素、比较大量数据是否完全相同、寻找修改位置等。
-
-CEX 使用默克尔树建立用户账户资产余额的匿名化且不可篡改的集体快照，从而证明它们没有篡改用户的余额。最基本的方法就是把…]]></summary>
-        <author>
-            <name>火必研究院</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CNBC：最大比特币矿企Core Scientific正申请第11章破产保护]]></title>
-        <id>https://www.theblockbeats.info/flash/120407</id>
-        <link href="https://www.theblockbeats.info/flash/120407"/>
-        <updated>2022-12-21T04:59:40.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，12 月 21 日，据 CNBC 援引知情人士报道，全球最大的比特币矿业公司 Core Science（CORZ）已于当地时间周三凌晨在德克萨斯州按照《美国破产法》第 11 章申请破产保护。此举是在加密货币价格暴跌和能源价格上涨的一年之后发生的。
-
-知情人士称，该公司仍在产生正现金流，但现金不足以偿还其租赁设备所欠的融资债务。这位不愿透露姓名的人士表示，该公司不会清算，但将继续正常运营，同时与持有公司大部分债务的高级证券票据持有人达成协议。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gemini CEO：债权人委员会已提出解决Genesis和DCG流动性问题的计划]]></title>
-        <id>https://panewslab.com/zh/articledetails/62sdb9pc.html</id>
-        <link href="https://panewslab.com/zh/articledetails/62sdb9pc.html"/>
-        <updated>2022-12-21T04:11:51.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月21日消息，Gemini总裁兼首席执行官Cameron Winklevoss发推文称：“今天，Houlihan Lokey代表债权人委员会提出了一项计划，以解决Genesis和DCG的流动性问题，并为资产回收提供途径。该计划基于迄今为止从Genesis、DCG及其各自顾问处收到的信息。债权人委员会预计本周会收到Genesis和DCG的初步答复。”]]></summary>
         <author>
             <name>PA一线</name>
         </author>
