@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-12-26T00:38:58.348Z</updated>
+    <updated>2022-12-26T02:07:46.401Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Aave创始人：将于1月初发布GHO公共测试网]]></title>
+        <id>https://www.theblockbeats.info/flash/120920</id>
+        <link href="https://www.theblockbeats.info/flash/120920"/>
+        <updated>2022-12-26T00:34:39.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，12 月 26 日，Aave 创始人 Stani Kulechov 在其社交平台表示，Aave 原生稳定币 GHO 的内部测试网进展顺利。Aave 将于 2023 年 1 月初发布其公共测试网。此外，Aave 还将于 1 月在以太坊部署 Aave V3。]]></summary>
+        <author>
+            <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Aave将于1月发布其稳定币GHO的公共测试网]]></title>
         <id>https://panewslab.com/zh/articledetails/ym3oqht7.html</id>
@@ -16,6 +26,26 @@
 相关阅读：Aave也要推稳定币了，读懂去中心化美元稳定币GHO提案]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[星球日报 | Polygon zkEVM最后一个测试网现已上线；俄罗斯将禁止银行使用Telegram等工具联系客户（12月26日）]]></title>
+        <id>https://www.odaily.news/post/5184058</id>
+        <link href="https://www.odaily.news/post/5184058"/>
+        <updated>2022-12-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[头条
+Polygon zkEVM 最后一个测试网现已上线
+Odaily星球日报讯 Polygon zkEVM 发推表示，具有显著性能升级的最终测试网现已上线，主网即将到来。
+自 Polygon zkEVM 的公共测试网于 10 月推出以来，已经处理了 21, 966 个 txs，生成并验证了 14, 930 个 ZK 证明，创建了 10, 508 个钱包地址等。
+俄罗斯将禁止银行使用Telegram等通讯工具联系客户
+Odaily星球日报讯 当地媒体透露，俄罗斯的金融机构将无法通过设在国外的即时通讯工具与客户沟通。此外，一项新法律还禁止银行使用聊天工具发送个人数据和支付文件。虽然联邦通信、信息技术和大众媒体监管局尚未公布受影响的应用程序列表，但 Telegram、Whatsapp、Viber 等符合描述。
+行业要闻
+加密 KOL：FBI 或已启动追捕 Alameda 另一位联席 CEO Sam Trabucco 和工程总监 Nishad Singh
+Odaily星球日报讯 据加密 KOL@Wall Street Silver 透露，FBI 正在寻找 Alameda 另一位联席 CEO Sam Trabucco 和工程总监 Nishad Singh。
+此外，据 globeecho 报道，Sam Trabucco 与 Caroline Ellison 一起担任 Alameda 联席首席执行官职务，直到 2022 年 8 月卸任，据称有证据表明他可能在FTX事件中发挥了关键作用，因为 Caroline Ellison 认罪时称许多发生在 2019 年的不当行为时 Sam Trabucco 均在场，值得注意的是他在整个 FTX 事件期间只发布了两条推文，一些 Twitter 用户推测 Sam Trabucco 正在被执法部门追捕。
+Elon Musk：已经控制住 Twitter 开…]]></summary>
+        <author>
+            <name>十文</name>
         </author>
     </entry>
     <entry>
@@ -3595,67 +3625,6 @@ Lido 补充道，Lido on Solana V2 的变化侧重于提高节点运营商的盈
 此前，Auros申请“低度干预式”临时破产清算，预计将在重组后恢复正常运营，其还声称2000万美元资产被冻结在FTX上。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2022年末总结：去中心化存储的现状与未来]]></title>
-        <id>https://www.odaily.news/post/5183978</id>
-        <link href="https://www.odaily.news/post/5183978"/>
-        <updated>2022-12-21T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL; DR
-
-将非核心数据从主链上分离并存入 DSN（Decentralized Storage Network）已经成为了解决扩容、提升互操作性和隐私保护的主流方案。
-
-Filecoin 在矿工网络和存储成本上拥有极大的优势，但是 Arweave 的永久性存储可以给 NFT 或社交类应用提供更加可靠的解决方案。
-
-L1扩展存储网络可以提供相比 DSN 互操作性更高的新方案，但是仍然需要时间验证模式。
-
-未来的去中心化存储场景会包括完整的互操作性、数据可用性、安全性以及通过中间件和 API 提供用户/开发者友好的链下计算。
-
-一、去中心化存储的发展历程
-数据存储板块一直以来都是科技界发展的基石和重点关注领域。从基于亚马逊、微软、阿里巴巴等提供了中心化云存储服务以来，云存储市场已经基本形成了 1000 亿美元以上( 2021 年)的市场规模且头部效应明显（亚马逊 40% ，微软 22% ，阿里云 10% ，数据来源 Gartner）。而随着Web3的爆发，一批去中心化存储的供应商开始满足传统云存储市场满足不了的需求。虽然目前大多数的 dApp 仍然部署在 AWS 上，而以太坊的节点在 merge 前也有超过 50% 在 AWS 上运行[ 1 ]，但是Web3项目却逐渐发现了将后端和元数据与去中心化存储连接的重要性和必然性。根据 Ethereum.org 的定义，去中心化存储是一个由 p 2 p 网络构成的，每个运营者拥有整体数据的一部分并可以通过算法复原的数据分享系统[ 2 ]。去中心化存储虽然可以解决诸多问题，例如数据隐私性保护、抗审查等，但目前的去中心化系统发展还不成熟且有诸多亟待解决的问题。经过（主）链上存储方案的不断尝试，DSN（Decentralized Storage Network）是目前的主流解决方案，这种方案可以最大程度上将存储容量提升到接近于无限，并且对…]]></summary>
-        <author>
-            <name>Puzzle Ventures</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欧洲央行明年下半年完成数字欧元的总体设计，同时将决定是否继续进行项目实现阶段]]></title>
-        <id>https://panewslab.com/zh/articledetails/dsjlsjld.html</id>
-        <link href="https://panewslab.com/zh/articledetails/dsjlsjld.html"/>
-        <updated>2022-12-21T13:41:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月21日消息，据Fine Extra报道，欧洲中央银行（ECB）公布了一份关于数字欧元项目的报告，并表示，“我们将在明年下半年完成数字欧元的总体设计。” 报告称，已经决定，私人金融机构和支付服务提供商将管理与数字欧元相关的服务。他们提供账户或钱包开立和支付服务，同时还负责为客户进行反洗钱管理。欧洲央行负责数字欧元服务，并监督企业。
-欧央行继续说道，“在明年秋天审查数字欧元研究阶段的结果后，我们将决定是否继续进行项目实现阶段。当所有项目完成后，数字欧元有望在 2026 年内在欧洲实现商业化。”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[详解Blur三轮空投规则：如何实现获益最大化？]]></title>
-        <id>https://www.odaily.news/post/5183982</id>
-        <link href="https://www.odaily.news/post/5183982"/>
-        <updated>2022-12-21T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：雾海，PANews
-根据 NFTScan 数据显示，NFT 市场 Blur 过去 7 天的交易额在各个交易平台中最高，达到 10.7 万ETH，占市场总量的 49.47% ，为OpenSea平台过去 7 天交易额（4.9 万 ETH）的 2 倍，X2Y2、LooksRare平台过去 7 天交易额的 4 倍。12 月 11 日 Blur 24 小时交易额达到 29849 ETH，涨幅达 345.8% ，为 OpenSea 平台交易额的 4 倍。其中 BAYC、Azuki 等蓝筹 NFT 在 Blur 平台上的交易额大幅上涨。
-Blur 平台的表现能如此遥遥领先，一方面是因为 Blur 平台的产品简洁直观，强化了 NFT 的基础设施，提升了专业交易者对 NFT 市场的体验，通过零费率和自定义版税等牢牢的抓住了目前市场上普遍的用户需求。但更直接的原因是它制定了精打细算的空投规则。
-与市场上大多数项目通过用户历史链上行为作为判别是否空投的惯例不同，Blur 平台是通过正式上线后制定规则来让用户完整体验其产品。
-本文 PANews 将为你详细解读 Blur 三轮空投的规则，实现在第三轮空投中实现资金利用率最大化和空投利益最大化。
-Blur 在今年 3 月宣布完成 1100 万美元种子轮融资，Paradigm领投。而 Paradigm 投资的项目中，大部分都曾向社区毫不吝啬的发放巨额且普惠的空投，比如曾经火热一时的Uniswap空投。这也是 Blur 平台在测试完期间就饱受市场关注的原因。那么，如何提升个人在 Blur 空投中获利更大呢？一是将个人忠诚度提升到 100% ，二是提高资金利用率。
-忠诚度
-2022 年 10 月 20 日 Blur 正式上线，并宣布向过去 6 个月在 NFT 市场活跃的用户发放第一轮空投。空投的初期形式为领取关怀包裹，待 2023 年一月份 BL…]]></summary>
-        <author>
-            <name>PANews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raydium发布漏洞补偿提案，称有足够协议收入补偿用户]]></title>
-        <id>https://www.theblockbeats.info/flash/120458</id>
-        <link href="https://www.theblockbeats.info/flash/120458"/>
-        <updated>2022-12-21T12:48:48.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，12 月 21 日，Solana 生态 DEX 平台 Raydium 发布漏洞补偿提案。该提案显示，即使黑客不返还资金，Raydium 仍有足够的协议收入来补偿用户，但收集数据、准确估计漏洞利用的影响需要时间。Raydium 表示，补偿具体流程的选项将在之后提供。
-
-BlockBeats 此前消息，12 月 17 日，Raydium 官方针对昨日遭受攻击一事发文表示，受到攻击的漏洞似乎源于木马攻击和池子所有者帐户的私钥泄露，损失总额约为 439.5 万美元。]]></summary>
-        <author>
-            <name>TheBlockBeats - 快讯</name>
         </author>
     </entry>
 </feed>
