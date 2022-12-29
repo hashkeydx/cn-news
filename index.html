@@ -51,11 +51,428 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-29 datetime="2022-12-29T08:47:08.000Z">2022-12-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-29 datetime="2022-12-29T08:47:08.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-12-29 datetime="2022-12-29T10:00:00.000Z">2022-12-29</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-12-29 datetime="2022-12-29T10:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184150"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik：如何构建安全的中心化交易所平台？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184150">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Having a safe CEX: proof of solvency and beyond》
+原文作者：Vitalik Buterin
+原文编译：双花 (@doublespending)
+特别感谢 Balaji Srinivasan 以及 Coinbase、Kraken 和 Binance 团队的探讨。
+每当大型中心化交易所崩溃时，一个常被提及的问题是：我们是否可以利用加密技术来解决这个问题。交易所可以通过创建密码学证明的方式证明其链上持有的资金足以偿付用户，而不仅仅依靠政府牌照、审计员、调查公司治理以及交易所法人背调等「法币」方案。
+更有野心的是，交易所可以建立一个未经储户同意无法提取储户资金的系统。我们可以尝试探索「不作恶」有职业素养的 CEX 与「无法作恶」却泄漏隐私的低效链上 DEX 之间的界限。这篇文章将深入探讨让 CEX 更加去信任的历史尝试，与其采用技术的局限性，以及一些依赖 ZK-SNARKs 等先进技术的有力手段。
+余额表和 Merkle 树：传统的可偿付证明
+交易所试图用密码学来证明自己没有欺骗用户的最早尝试可以追溯到很久以前。2011 年，当时最大的比特币交易所 MtGox 通过发送一笔移动 424, 242 个 BTC 到预先公布地址的交易来证明他们拥有该笔资金。2013 年，大家开始讨论如何解决该问题的另一面：证明用户存款的总规模。如果你证明用户的存款等于 X （负债证明 proof of liabilities），并证明拥有 X 个代币的私钥（资产证明 proof of assets），那么就提供了可偿付证明（proof of solvency）：你证明了交易所有足够的资金偿还给储户。
+提供存款证明的最简单方法是公布一个列表。每个用户都可以检查他们在列表中的余额，而且任何人都可以检查完整的列表：（i）每项余额都是非负的；（ii）总…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184158"
+                        open
+                      >
+                        <summary class="article-expander__title">CZ公开信：2022，韧性为王</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184158">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>从数据来看，加密行业的 2022 是跌宕起伏的一年。对于 Binance 和整个加密行业来说，在 Celsius、Voyager、FTX 等项目接连破产之后，我们更应该学会反思。从表面上来看，整个加密生态在 2022 年似乎充满了危机和失败；加密资产价格从去年的历史高位回落；大平台一个接一个倒下，让用户和监管机构失去了对行业的信心；政策制定者、媒体和公众对加密资产的审视也愈发严格。
+虽然在这些因素的共同作用下，行业发展遇到了很大阻力，但作为一个新兴行业，定义我们的不是这些挑战，而是我们如何克服这些挑战。从这个角度来说， 2022 年应该比过去任何一年更让我们乐观，因为 Binance 和整个行业都表现出了惊人的韧性和毅力。
+加密资产刚问世的时候，也出现了一批以诋毁比特币为生的人，这群人宣称「比特币一定会归 0 」，并开始围绕这个论断卖书、在社交媒体上聚拢人气，并请所谓的「大咖」到处宣讲，也赚了不少钱。现在的 FTX 塌房事件也是他们的「商机」，他们称之为加密资产的「雷曼兄弟时刻」，并将比特币价格回缩和互联网泡沫相提并论。而他们刻意不提的是，两者都是对行业的一种清洗。据我所知，互联网和银行业目前都好好的。
+
+普及与建设
+加密资产行业成功的衡量指标之一就是普及率。虽然 2022 年困难重重，但区块链普及从未停下脚步，全球的个人和机构投资者不断涌入这个领域。个人投资者方面，新兴市场是主导力量；机构投资者方面，KPMG、摩根大通、乐天、CVSHealth、腾讯、富达资本、百度、特斯拉、Cloudfare、PayPal、美国运通、埃森哲、佳士得、贝莱德、纳斯达克、麦当劳、谷歌云、万事达卡、索尼、耐克等今年也因引入区块链解决方案而受益。诚然，今年的各种危机侵蚀了对加密资产行业的信任，对主流普及造成了阻碍。不过，我们现在看到的是，对加密资产的需求和兴趣依然强烈。基于此，行业将持续创造高价…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184148"
+                        open
+                      >
+                        <summary class="article-expander__title">全面回顾NFT的2022：造神结束，细分开始</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184148">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：0 xLaughing，律动 BlockBeats  
+2021 年是 NFT 开始走向大众的一年，「NFT」当选了《柯林斯词典》 2021 年度词汇， 2021 年也因此被很多人称为 NFT 元年；而 2022 年则是伴随着新项目和用例不断涌出，对 NFT 的未来不断探索的一年，但是这一年对于加密货币和 NFT 来说是一段艰难的旅程。加密货币世界之外更广泛的市场低迷将 NFT 市场拖入熊市，Luna 暴雷、FTX 倒闭事件本身以及造成的更深层次影响让加密市场雪上加霜，数十亿美元从生态系统中消失，监管和刑事调查也随之增加。
+2022 年的 NFT 市场，从 PFP 系列的激增，到时尚、音乐、娱乐、游戏和元宇宙体验的探索性尝试，这些新想法和实验在证明它们不仅仅是区块链上的「小图片」，同时也见证了无数成功和失败，让我们一同回顾一下吧。
+2022 年整体概况：至明与至暗时刻交替
+
+市场总市值变化（图源：NFTGO）
+NFT 市场总市值在 3 月曾达到峰值为 349.6 亿美元，自 5 月下跌后持续低迷，总市值持续维持在 210 至 230 亿美元之间，在 11 月跌至最低仅为 208.2 亿美元，跌幅达 40.5% 。
+
+NFT 市场交易量变化（图源：intotheblock）
+NFT 市场交易量的峰值出现在 1 月，最高单日交易量超过了 9.91 亿美元。5 月 1 日也创造了一个小的峰值，当日 Otherdeed 系列 NFT 24 小时交易额超过了 3.75 亿美元。随着市场下跌，NFT 市场交易量不断萎靡，在 11 月曾有多天的日交易量不到 1, 500 万美元。
+
+NFT 的持有者人数（钱包数） （图源：NFTGO）
+NFT 的持有者人数（钱包数）维持了 2021 年的增长势头，从 144.6 万增长至 377.8 万，增幅达 161.3% 。
+
+  NFT …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184149"
+                        open
+                      >
+                        <summary class="article-expander__title">空投埋伏日记：Polygon zkEVM、PartyBid V2、BIDSHOP（12月29日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184149">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>熊市漫漫，热点分散。在缺乏明确投资机会的当下，本着“宁可错付 gas，不能放过大毛”的原则，我将视线与精力投向了优质项目交互，说不定还能提前发现下一价值标的，是吧。
+本栏目文章《空投埋伏日记：Trantor、Abelfinance、AltLayer（11 月 3 日）》早前关注的 Trantor 目前又推出了新的活动（1 月 15 日截止），据官方公告表示参加活动可以抽取 1 万美元的各种奖励，且为非链上操作， 0 gas 花费，感兴趣的读者可以参与。
+每天可以埋伏的项目众多，良莠不齐。今天为大家精选的三个项目分别是以太坊二层网络 Polygon、NFT 众筹平台 PartyBid V2、NFT 竞价市场 BIDSHOP。
+Polygon zkEVM
+项目介绍：以太坊二层网络，目前正在测试网部署 zkEVM，有关概可参见《解析 Polygon zkEVM 的安全性、稳定性及市场竞争力》。
+最新进展：基于 zkEVM 的最终版本测试网上线。
+项目融资： 2022 年 2 月， 4.5 亿美元融资，红杉资本领投，Tiger Global、软银、Galaxy Digital、Republic Capital、Makers Fund、Alameda Research、Alan Howard、Alexis Ohanian、Steadview Capital、Elevation Capital、Animoca Brands、Spartan Fund、Dragonfly Capital、Variant Fund 和 Kevin O&#x27;leary 参投。
+项目链接：https://polygon.technology/
+交互建议：明星项目，可以埋伏，测试网交互，零 gas 花费。
+详细交互方法：《Polygon zkEVM 测试网交互教程》。
+
+
+PartyBid V2 
+项目介绍：NFT 众筹平台。
+最新进展：主网 V2 版本上线。
+项目融资： 2022 年 6 月， 1640 万美元融资，轮次未知，a16z 领投，Standard Crypto、Compound Crypto、Dragonfly Capital、Uniswap Ventures 等参投。
+项目链接：https://www.partybid.app/
+交互建议：比较早的一个项目了，融资不错，有发币预期。前几日上线了 V2 版本，由于该项目已经主网上线，参与需要花费资金，读者参与前谨慎考虑。
+详细交互方法：《PartyBid V2 交互教程》（需科学上网）。
+
+
+BIDSHOP
+项目介绍：NFT 竞价市场。
+最新进展：测试网上线。
+项目链接：https://www.bidshop.io/
+交互建议：以竞价模式作为核心功能，引入了和传统拍卖类似的“房间”的概念，测试网交互 0 gas 消耗，可以埋伏。
+详细交互方法：《BIDSHOP 测试网交互教程》（需科学上网）。
+
+往期内容
+《空投埋伏日记：Plenty Network、Taiko、Valhalla（12 月 28 日）》
+《空投埋伏日记：Soulflake、Havah、NiftyApes（12 月 27 日）》
+《空投埋伏日记：Vela、Zeus Swap、Nostr（12 月 26 日）》</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184146"
+                        open
+                      >
+                        <summary class="article-expander__title">MicroStrategy增持约2500枚比特币，或因逃避清算？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184146">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：TheBlock、blockworks
+原文作者：CaseyWagner、OsatoAvan-Nomayo
+原文编译：PANews
+2022 年 12 月 28 日，前 MicroStrategy 首席执行官 Michael Saylor 在社交媒体宣布该公司已增持约 2500 枚比特币。截至目前，MicroStrategy 公司持有的比特币数量已经达到 132, 500 枚，购买总金额超过 40.3 亿美元，平均购买价格约为 30, 397 美元/BTC。
+为什么 MicroStrategy 又双叒购买比特币？
+Michael Saylor 可以说是最直言不讳的比特币多头支持者之一，他此前曾表示购买比特币的决定是因为数字资产是金融的未来。由于 MicroStrategy 公司预计比特币价格会随着时间的推移而升值，因此相信从长远来看比特币将成为一种有效的通胀对冲工具。
+Michael Saylor 本人也多次将比特币称为“数字黄金”，更重要的是，通过投资比特币，MicroStrategy 的知名度大幅提升，从一家“不起眼”的数据运营公司变成了加密爱好者们耳熟能详的名字，目前更是成为了全球持有比特币数量最多的美股上市公司。
+
+不过，他们购买比特币的“初心”可能并非真正出于认可加密和区块链技术。最近，经济学家 PeterSchiff 在社交媒体上披露了 Michael Saylor 和 MicroStrategy 投资比特币的真正原因，他指出 Michael Saylor 购买比特币是为了拯救 MicroStrategy 公司免于被清算，因为“除了对数字资产进行杠杆投机之外，该公司已别无他法。”
+然而，MicroStrategy 公司的问题还不限于此。
+首次抛售比特币为哪般？
+相较于购买 2500 枚比特币，MicroStrategy 公司首次抛售比特币尤其值得关注，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184140"
+                        open
+                      >
+                        <summary class="article-expander__title">一览2022年NFT赛道发展</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184140">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>研究机构：Mint Ventures
+研究员：Jessica Shen
+我们的播客：在小宇宙 App、QQ 音乐、苹果 Podcast 搜索《WEB3 Mint To Be》
+我们的视频号：WEB3 FOUNDERS REAL TALK
+2022 年 NFT 市场
+
+2020 年-2022 年 NFT 交易量及市值情况
+2020 到 2022 年，NFT 行业在短短 2 年内经历了许多变化。在许多人眼里 2020 年 NFT 还仅仅是个空中楼阁的概念，到了 2022 年 NFT 的资产属性、金融属性已经深入人心。我们从交易量的角度看 NFT 有了以下观察：
+2021 年 NFT 市场整体市值快速增长，但 2022 年熊市期间 NFT 交易量大幅下降
+2021 年以太坊上 PFP 的爆火开启了 NFT 元年，但今年以太坊上 NFT 交易量下降十倍有余。
+各个公链的 NFT 资产逐渐表现出鲜明特色
+在 NFT 始于 2020 年的 Flow 上的 NBA Top Shot 以及当时还在 Ethereum 上的 Axie Infinity NFT。到 2021 年，NFT 资产在各个公链全面开花，重心聚焦在 Ethereum 上，带有较强文化和艺术属性的 PFP 资产交易拔得头筹，打开了行业对 NFT 的未来想象。2022 年受到熊市环境影响，NFT 市场降温，围绕 Ethereum 上 NFT 交易量下降近 95% ，但 Ethereum 上 PFP 交易仍旧是行业主旋律，同时 IMX、BSC、Solana、Polygon 等聚集较多 GameFi、SocialFi 生态的公链内 NFT 资产交易较为活跃。
+从公链角度来看
+
+Ethereum、Solana 持续领先 NFT 交易。Ethereum、Solana 持续在 NFT 交易量中保持领先，并且均是 PFP 交易较为活跃，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184139"
+                        open
+                      >
+                        <summary class="article-expander__title">欧科云链研究院：我们对2023年行业趋势的7个预测</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184139">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>回望 2022 ，加密行业遭遇了种种不可控因素而导致的艰难险阻，也在变革与发展中孕育着生机与活力。
+这一年，我们亲眼目睹了 Luna 暴雷，三箭资本、FTX这些曾经被认为“大而不倒”的机构接连倒下，市场信心严重受挫；但这一年，我们也共同见证了以太坊合并的历史时刻，看到了香港、新加坡等地区竞争Web3中心的决心，和传统机构仍在涌入加密市场所透露出的正面信号，一些积极的转变正在发生。
+在 2022 年的共同记忆下，展望 2023 年，每个人的观感可能不尽相同。欧科云链研究院结合长期对加密市场的观察，提出了 2023 年加密行业的七大趋势预测，试图在众多不确定性中找寻一切轨迹下已暗自埋下的伏笔。
+需要说明的是，没有人能预知未来，大部分预测都会被时间证伪，所以这里的预测也并不代表我们的投资意见。
+趋势一：全球加密监管进入新阶段拥抱合规将成为必选项
+一系列安全事件和暴雷事件的发生，正催生更强有力的加密监管。全球主要国家和地区，尤其是过往对加密资产友好度较高的国家和地区在 2022 年之后都不得不重新思考如何应对虚拟资产创新背后的风险与挑战。
+一个明确的信号是，在经历了 2022 年的数起黑天鹅事件之后，我们将在 2023 年看到更多严格的虚拟资产监管政策。尽管我们不愿意看到过度监管抑制创新的发生，但随着监管机构对虚拟资产领域的了解愈发深入，野蛮生长的时代正在终结，全球监管态势已不可避免。对于加密世界的机构而言，监管重要性正进一步凸显，拥抱合规将成为行业良性发展的必选项。
+趋势二：Web3产业应用拉开序幕，与 AI 3.0 共同引发创造性破坏
+Web3仍是 2022 年最引人关注的科技概念，大量真金白银和优秀人才在这一年流入其中。尽管如今各方对Web3概念仍有争议，但Web3正深刻地改变着我们的世界，众多机构也在这一年投身其中，将Web3与自身涉足的领域相结合，找到将原有业务“升级”，…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184126"
+                        open
+                      >
+                        <summary class="article-expander__title">年度NFT市场回顾，2023 NFT是开发者的最优选择吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184126">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>熊市当下，回顾过去一年的市场表现，能发现各赛道较去年的牛市来说都十分低迷。从总交易量、交易额、市值、TVL 等常见的数据侧体现出市场低点，然而从开发者数量、用户数量等关键数据维度所体现出来是市场的高活跃度和行业的飞速发展。
+我们清楚地认知到，熊市下的开发者仍然在开创，熊市下的 Web3 也沉淀和积蕴了更多技术和产品。今天我们就一起回顾一下，在 2021 年出现了爆炸性增长后在 2022 年的熊市迅速降温的 NFT 赛道，年度的数据表现如何。而从这些数据中，我们又能得知 2023 年 NFT 赛道有哪些值得关注的方向和适合开发者提前布局的选择。
+
+
+
+
+
+
+
+
+
+2022 年 NFT 市场回顾
+
+
+
+
+
+
+为了更好地回顾 2022 一整年 NFT 的市场情况，我们汇总和参考了如 NFTGO 等 NFT 数据平台的数据记录，提炼了 Footprint、Ancient 8 等平台的 NFT 年度报告。文章将从总交易量、搜索量等行业侧数据和用户数等用户侧数据进行年度的回顾。首先让我们一起回顾 NFT 的总市值，根据 NFTGO 披露的数据，NFT 总市值在 2022 年的年初， 2 月和 3 月达到峰值。峰值时间点后整体市值呈现下降趋势，目前 NFT 行业的总市值约在 220 亿 USD 上下横盘。
+与 2021 的爆发峰值相比，2022 每月的 NFT 市值持续低迷，平均每月不超过 5 亿 USD。
+
+交易量
+从交易的维度来看，NFT 交易量在过去的一年中有两次交易峰值，分别是 2022 年 1 月 13 日和 2022 年 5 月 1 日，5 月第一周销售额达到 18 亿美元，创下年度新高后便陷入持续下跌。目前 NFT 的每日交易量基本在 6000 万 USD 左右徘徊。
+NFT 市场自峰值交易量后一直下滑到年底，且没有明显的复苏迹象，是因为看跌的宏观市场中，加密货币市场遭受了…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184137"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT交易指南：如何避免成为接盘侠？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184137">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《NFT 交易指南：如果避免成为接盘侠？》
+原文作者：@RiceRiddler
+原文编译：DeFi 之道
+交易 NFT 的有两类人：
+- 投资者
+- 流动性退出者（他们自认为是投资者）
+那么如何才能尽可能避免被退出流动性呢？这篇文章是投资 NFT 的速成课……
+1. DYOR——自己做研究！
+对于你考虑购买的每一个 NFT，请坚持亲自进行研究。
+不要仅仅因为别人的建议就买某个 NFT——这是避免被退出流动性的第一步。
+我不在乎是谁告诉你或为什么告诉你要买某个 NFT——自己去找出这些问题的答案：
+- 为什么 这个 NFT 正在上涨或可能上涨
+- 谁在背后推动这一切
+- 他们的计划是什么
+- 他们什么时候会部署这些计划
+你计划持有这个 NFT 的时间越长，这些答案就越重要。
+2. 分类
+在你做完研究之后，根据你的研究想想你的「退出点」是什么，并且要足够自律，坚持下去。
+将你的 NFT 分为 4 类：
+短期
+中期
+长期
+钻石手
+那么这些到底是什么意思呢？
+短期
+这些 NFT 的风险最高——它们会在你的钱包中花费最少的时间。
+这些是快速交易游戏，交易员在短时间内看到了地板价因纯粹的炒作或预期而大幅上涨。
+NFT 交易员使用包括 @curiotools、@tinyastroNFT、@Promintcc 等工具追踪那些地板价被扫荡的 NFT，并选择他们认为成交量将超过降价的 NFT。
+对短期炒作要非常小心。
+在一两个小时以内，成交量可能会枯竭，地板价可能会暴跌……要非常仔细地监控这些短期投资。
+提示：设置一个退出价格点，以及一个备用退出价格点，这样如果事情没有按照你想要的方式进行，你的投资也不至于归零。
+狙击和炒作稀有 NFT
+对短期类别的一个小的附带说明。
+在 NFT 揭晓后，一些稀有 NFT 会出现 -
+如果你正在积极关注 @blur_io、@gemxyz、@the_x…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184138"
+                        open
+                      >
+                        <summary class="article-expander__title">DARMA Capital：2023年对区块链生态的23个预测</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184138">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：DARMA Capital 风险投资家 &amp; 管理合伙人 Andrew Keys
+原文编译：比推 BitpushNews Mary Liu
+自 2016 年以来，我每年都会对未来一年的区块链生态系统进行预测。2022 年是加密货币领域最动荡的年份之一，一连串的去中心化和中心化实体垮台或处于奄奄一息的阶段，这感觉好比我们处于新生生态系统的最后阵痛中，在充满戏剧性的过程中优胜劣汰，去伪存真，但最终走向成熟。以下是我对 2023 年区块链生态的 23 个预测。
+1. 以太坊势头
+当我们 10 年后回顾 2022 年时，真正的新闻不是 Sam Bankman-Fried（SBF）和 Celsius Network 的愚蠢行为，而是以太坊转换为权益证明，并继续成为最主流的第 1 层。一系列协议级的发展创造了创新、发展、用户和资本的浪潮。在以太坊中，我们正在见证人类社会、经济和政治操作系统底层的演变。
+到 2023 年，以太坊仍将是采用最广泛、发展最广泛、资金最密集的 Layer 1 区块链。合并是自 2009 年中本聪的比特币创世区块以来该行业最伟大的事件。2023 年以太坊将推出更细微但同样重要的发展，以飞轮效应推动更多的采用和资本，这将使以太坊成为下一个牛市的领跑者。
+合并后的下一次以太坊升级是 Shanghai（上海），计划于 2023 年第二季度进行。在众多升级中，上海将允许提取ETH质押，这些质押自 2020 年 12 月启用以来一直锁定在存款合约中。取消质押可能会增加抵押 ETH 的数量，因为对锁定资金的想法感到不安的抵押者加入了。
+在上海升级之后，EIP-4844 是以太坊的另一项创新，它将进一步将以太坊定位为采用最广泛的第 1 层。EIP-4844 将启用 Proto- danksharding。Proto-danksharding 被提议作为完全分片的一个步…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184120"
+                        open
+                      >
+                        <summary class="article-expander__title">一文看懂比特币的UTXO模型</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184120">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>1.目前的链用的都是哪些模型
+以太坊，EOS，Solana 这些大家所熟知的链都使用的是账户模型，甚至可以说 90% 以上的项目都使用的是账户模型，而只有一些老牌项目用的是 UTXO 模型，如，BTC，DOGE，LTC，当然也有一些比较新的项目也用的这个模型，如 Layer 2 中使用 OP 方案的 FUEL。
+2.什么是账户模型
+简单理解，就是银行账户那套系统，比如银行之间的转账，支付宝、微信的转账等等都属于账户模型。下面我举个栗子：
+假如 A 有 100 ，B 有 100 
+这时 A 给 B 转账 50 块钱
+在系统中的表现形式就是 
+A -50 ，B + 50 
+所以他们的余额
+A 50 ， B 150 
+这是一笔转账。
+再假如，A 还是有 100 ，他要给 100 个新开户的新人转账 1 元。
+这时需要 A 同时给 100 人转账 1 块钱
+第 1 笔
+A -1 ，第 1 个人 + 1 
+所以他们的余额
+A 99 ，第 1 个人 1 
+第 2 笔
+A -1 ，第 2 个人 + 1 
+所以他们的余额
+A 98 ，第 2 个人 1 
+第 3 笔
+A -1 ，第 3 个人 + 1 
+所以他们的余额
+A 97 ，第 3 个人 1 
+以此类推
+......
+第 100 人
+A -1 ，第 100 个人 + 1 
+所以他们的余额
+A 0 ，第 100 个人 1 
+理论上要转账 100 次，而且下一次的转账都必须要先完成前一笔，不然账户余额就无法保证一致性，会混乱，有没有多转，余额够不够转出等。
+理论上，随着交易笔数的增长，执行所需要的时间就越多。
+3.什么是 UTXO 模型
+前面也有提到，很多老牌主流用的是 UTXO，而这个圈子的老祖宗比特币也是用的 UTXO 模型，顺便提一下，我们国家的发行的法定数字货币 DCEP 也是基于 UTXO 模型做的，所以这个模型必然有它的独特之处…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184136"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | SBF曾用Alameda资产购买5.46亿美元Robinhood股份；MicroStrategy宣布增持2500枚BTC（12月29日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184136">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+SBF 曾使用 Alameda 资产购买 5.46 亿美元 Robinhood 股份，多方对此股份声称所有权
+Odaily星球日报讯 法庭文件显示，SBF 从 Alameda Research 借入 5.46 亿美元，并将这笔钱注入 Emergent Fidelity Technologies Ltd，通过 Emergent Fidelity 购买了 Robinhood 的 7.6% 股份。Alameda Research 所持有的这些股份被用来充当贷款的抵押品。
+申请破产的 BlockFi 则声称，通过 11 月初与 SBF 达成的一项交易，BlockFi 应获得 Alameda 所持 Robinhood 股份的所有权。
+目前，BlockFi、 FTX Group 和 SBF 本人都试图宣称对这些股份拥有所有权，这些股份目前价值约为 4.4 亿美元。（coindesk）
+MicroStrategy 宣布增持 2500 枚 BTC，目前持有 132, 500 枚 BTC
+Odaily星球日报讯 MicroStrategy 宣布增持 2500 枚 BTC。目前，MicroStrategy 持有约 132, 500 枚 BTC，以约 40.3 亿美元的价格购入，平均价格为每个 BTC 约 30, 397 美元。
+行业要闻
+MicroStrategy 首次出售 704 枚 BTC 以获得税收优惠
+Odaily星球日报讯 据 MicroStrategy 提交 SEC 的文件，披露了其增持 2500 枚 BTC 的详情：
+1. 在 2022 年 11 月 1 日至 2022 年 12 月 21 日期间，MicroStrategy 通过其全资子公司 MacroStrategy LLC（“MacroStrategy”）以约 4280 万美元的现金收购了约 2395 枚比特币，平均价…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1159,213 +1576,6 @@ MicroStrategy正在为闪电服务探索的领域包括在线内容货币化、�
 相关阅读：一文速览TON生态：如何向Telegram的7亿用户提供Web3产品？</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184126"
-                        open
-                      >
-                        <summary class="article-expander__title">年度NFT市场回顾，2023 NFT是开发者的最优选择吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184126">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>熊市当下，回顾过去一年的市场表现，能发现各赛道较去年的牛市来说都十分低迷。从总交易量、交易额、市值、TVL 等常见的数据侧体现出市场低点，然而从开发者数量、用户数量等关键数据维度所体现出来是市场的高活跃度和行业的飞速发展。
-我们清楚地认知到，熊市下的开发者仍然在开创，熊市下的 Web3 也沉淀和积蕴了更多技术和产品。今天我们就一起回顾一下，在 2021 年出现了爆炸性增长后在 2022 年的熊市迅速降温的 NFT 赛道，年度的数据表现如何。而从这些数据中，我们又能得知 2023 年 NFT 赛道有哪些值得关注的方向和适合开发者提前布局的选择。
-
-
-
-
-
-
-
-
-
-2022 年 NFT 市场回顾
-
-
-
-
-
-
-为了更好地回顾 2022 一整年 NFT 的市场情况，我们汇总和参考了如 NFTGO 等 NFT 数据平台的数据记录，提炼了 Footprint、Ancient 8 等平台的 NFT 年度报告。文章将从总交易量、搜索量等行业侧数据和用户数等用户侧数据进行年度的回顾。首先让我们一起回顾 NFT 的总市值，根据 NFTGO 披露的数据，NFT 总市值在 2022 年的年初， 2 月和 3 月达到峰值。峰值时间点后整体市值呈现下降趋势，目前 NFT 行业的总市值约在 220 亿 USD 上下横盘。
-与 2021 的爆发峰值相比，2022 每月的 NFT 市值持续低迷，平均每月不超过 5 亿 USD。
-
-交易量
-从交易的维度来看，NFT 交易量在过去的一年中有两次交易峰值，分别是 2022 年 1 月 13 日和 2022 年 5 月 1 日，5 月第一周销售额达到 18 亿美元，创下年度新高后便陷入持续下跌。目前 NFT 的每日交易量基本在 6000 万 USD 左右徘徊。
-NFT 市场自峰值交易量后一直下滑到年底，且没有明显的复苏迹象，是因为看跌的宏观市场中，加密货币市场遭受了…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184137"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT交易指南：如何避免成为接盘侠？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184137">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《NFT 交易指南：如果避免成为接盘侠？》
-原文作者：@RiceRiddler
-原文编译：DeFi 之道
-交易 NFT 的有两类人：
-- 投资者
-- 流动性退出者（他们自认为是投资者）
-那么如何才能尽可能避免被退出流动性呢？这篇文章是投资 NFT 的速成课……
-1. DYOR——自己做研究！
-对于你考虑购买的每一个 NFT，请坚持亲自进行研究。
-不要仅仅因为别人的建议就买某个 NFT——这是避免被退出流动性的第一步。
-我不在乎是谁告诉你或为什么告诉你要买某个 NFT——自己去找出这些问题的答案：
-- 为什么 这个 NFT 正在上涨或可能上涨
-- 谁在背后推动这一切
-- 他们的计划是什么
-- 他们什么时候会部署这些计划
-你计划持有这个 NFT 的时间越长，这些答案就越重要。
-2. 分类
-在你做完研究之后，根据你的研究想想你的「退出点」是什么，并且要足够自律，坚持下去。
-将你的 NFT 分为 4 类：
-短期
-中期
-长期
-钻石手
-那么这些到底是什么意思呢？
-短期
-这些 NFT 的风险最高——它们会在你的钱包中花费最少的时间。
-这些是快速交易游戏，交易员在短时间内看到了地板价因纯粹的炒作或预期而大幅上涨。
-NFT 交易员使用包括 @curiotools、@tinyastroNFT、@Promintcc 等工具追踪那些地板价被扫荡的 NFT，并选择他们认为成交量将超过降价的 NFT。
-对短期炒作要非常小心。
-在一两个小时以内，成交量可能会枯竭，地板价可能会暴跌……要非常仔细地监控这些短期投资。
-提示：设置一个退出价格点，以及一个备用退出价格点，这样如果事情没有按照你想要的方式进行，你的投资也不至于归零。
-狙击和炒作稀有 NFT
-对短期类别的一个小的附带说明。
-在 NFT 揭晓后，一些稀有 NFT 会出现 -
-如果你正在积极关注 @blur_io、@gemxyz、@the_x…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184138"
-                        open
-                      >
-                        <summary class="article-expander__title">DARMA Capital：2023年对区块链生态的23个预测</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184138">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：DARMA Capital 风险投资家 &amp; 管理合伙人 Andrew Keys
-原文编译：比推 BitpushNews Mary Liu
-自 2016 年以来，我每年都会对未来一年的区块链生态系统进行预测。2022 年是加密货币领域最动荡的年份之一，一连串的去中心化和中心化实体垮台或处于奄奄一息的阶段，这感觉好比我们处于新生生态系统的最后阵痛中，在充满戏剧性的过程中优胜劣汰，去伪存真，但最终走向成熟。以下是我对 2023 年区块链生态的 23 个预测。
-1. 以太坊势头
-当我们 10 年后回顾 2022 年时，真正的新闻不是 Sam Bankman-Fried（SBF）和 Celsius Network 的愚蠢行为，而是以太坊转换为权益证明，并继续成为最主流的第 1 层。一系列协议级的发展创造了创新、发展、用户和资本的浪潮。在以太坊中，我们正在见证人类社会、经济和政治操作系统底层的演变。
-到 2023 年，以太坊仍将是采用最广泛、发展最广泛、资金最密集的 Layer 1 区块链。合并是自 2009 年中本聪的比特币创世区块以来该行业最伟大的事件。2023 年以太坊将推出更细微但同样重要的发展，以飞轮效应推动更多的采用和资本，这将使以太坊成为下一个牛市的领跑者。
-合并后的下一次以太坊升级是 Shanghai（上海），计划于 2023 年第二季度进行。在众多升级中，上海将允许提取ETH质押，这些质押自 2020 年 12 月启用以来一直锁定在存款合约中。取消质押可能会增加抵押 ETH 的数量，因为对锁定资金的想法感到不安的抵押者加入了。
-在上海升级之后，EIP-4844 是以太坊的另一项创新，它将进一步将以太坊定位为采用最广泛的第 1 层。EIP-4844 将启用 Proto- danksharding。Proto-danksharding 被提议作为完全分片的一个步…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184120"
-                        open
-                      >
-                        <summary class="article-expander__title">一文看懂比特币的UTXO模型</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184120">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>1.目前的链用的都是哪些模型
-以太坊，EOS，Solana 这些大家所熟知的链都使用的是账户模型，甚至可以说 90% 以上的项目都使用的是账户模型，而只有一些老牌项目用的是 UTXO 模型，如，BTC，DOGE，LTC，当然也有一些比较新的项目也用的这个模型，如 Layer 2 中使用 OP 方案的 FUEL。
-2.什么是账户模型
-简单理解，就是银行账户那套系统，比如银行之间的转账，支付宝、微信的转账等等都属于账户模型。下面我举个栗子：
-假如 A 有 100 ，B 有 100 
-这时 A 给 B 转账 50 块钱
-在系统中的表现形式就是 
-A -50 ，B + 50 
-所以他们的余额
-A 50 ， B 150 
-这是一笔转账。
-再假如，A 还是有 100 ，他要给 100 个新开户的新人转账 1 元。
-这时需要 A 同时给 100 人转账 1 块钱
-第 1 笔
-A -1 ，第 1 个人 + 1 
-所以他们的余额
-A 99 ，第 1 个人 1 
-第 2 笔
-A -1 ，第 2 个人 + 1 
-所以他们的余额
-A 98 ，第 2 个人 1 
-第 3 笔
-A -1 ，第 3 个人 + 1 
-所以他们的余额
-A 97 ，第 3 个人 1 
-以此类推
-......
-第 100 人
-A -1 ，第 100 个人 + 1 
-所以他们的余额
-A 0 ，第 100 个人 1 
-理论上要转账 100 次，而且下一次的转账都必须要先完成前一笔，不然账户余额就无法保证一致性，会混乱，有没有多转，余额够不够转出等。
-理论上，随着交易笔数的增长，执行所需要的时间就越多。
-3.什么是 UTXO 模型
-前面也有提到，很多老牌主流用的是 UTXO，而这个圈子的老祖宗比特币也是用的 UTXO 模型，顺便提一下，我们国家的发行的法定数字货币 DCEP 也是基于 UTXO 模型做的，所以这个模型必然有它的独特之处…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184136"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | SBF曾用Alameda资产购买5.46亿美元Robinhood股份；MicroStrategy宣布增持2500枚BTC（12月29日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184136">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-SBF 曾使用 Alameda 资产购买 5.46 亿美元 Robinhood 股份，多方对此股份声称所有权
-Odaily星球日报讯 法庭文件显示，SBF 从 Alameda Research 借入 5.46 亿美元，并将这笔钱注入 Emergent Fidelity Technologies Ltd，通过 Emergent Fidelity 购买了 Robinhood 的 7.6% 股份。Alameda Research 所持有的这些股份被用来充当贷款的抵押品。
-申请破产的 BlockFi 则声称，通过 11 月初与 SBF 达成的一项交易，BlockFi 应获得 Alameda 所持 Robinhood 股份的所有权。
-目前，BlockFi、 FTX Group 和 SBF 本人都试图宣称对这些股份拥有所有权，这些股份目前价值约为 4.4 亿美元。（coindesk）
-MicroStrategy 宣布增持 2500 枚 BTC，目前持有 132, 500 枚 BTC
-Odaily星球日报讯 MicroStrategy 宣布增持 2500 枚 BTC。目前，MicroStrategy 持有约 132, 500 枚 BTC，以约 40.3 亿美元的价格购入，平均价格为每个 BTC 约 30, 397 美元。
-行业要闻
-MicroStrategy 首次出售 704 枚 BTC 以获得税收优惠
-Odaily星球日报讯 据 MicroStrategy 提交 SEC 的文件，披露了其增持 2500 枚 BTC 的详情：
-1. 在 2022 年 11 月 1 日至 2022 年 12 月 21 日期间，MicroStrategy 通过其全资子公司 MacroStrategy LLC（“MacroStrategy”）以约 4280 万美元的现金收购了约 2395 枚比特币，平均价…</span>
                             </span>
                           </div>
                         </a>
@@ -8059,8 +8269,8 @@ Q1 ：如何衡量 2022 年 NFT 市场的成功？
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3799489595">
-        <time id="build-timestamp" datetime="2022-12-29T09:07:45.772Z">2022-12-29T09:07:45.772Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3799802448">
+        <time id="build-timestamp" datetime="2022-12-29T10:08:02.336Z">2022-12-29T10:08:02.336Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

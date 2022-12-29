@@ -2,10 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2022-12-29T09:07:45.808Z</updated>
+    <updated>2022-12-29T10:08:02.369Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vitalik：如何构建安全的中心化交易所平台？]]></title>
+        <id>https://www.odaily.news/post/5184150</id>
+        <link href="https://www.odaily.news/post/5184150"/>
+        <updated>2022-12-29T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Having a safe CEX: proof of solvency and beyond》
+原文作者：Vitalik Buterin
+原文编译：双花 (@doublespending)
+特别感谢 Balaji Srinivasan 以及 Coinbase、Kraken 和 Binance 团队的探讨。
+每当大型中心化交易所崩溃时，一个常被提及的问题是：我们是否可以利用加密技术来解决这个问题。交易所可以通过创建密码学证明的方式证明其链上持有的资金足以偿付用户，而不仅仅依靠政府牌照、审计员、调查公司治理以及交易所法人背调等「法币」方案。
+更有野心的是，交易所可以建立一个未经储户同意无法提取储户资金的系统。我们可以尝试探索「不作恶」有职业素养的 CEX 与「无法作恶」却泄漏隐私的低效链上 DEX 之间的界限。这篇文章将深入探讨让 CEX 更加去信任的历史尝试，与其采用技术的局限性，以及一些依赖 ZK-SNARKs 等先进技术的有力手段。
+余额表和 Merkle 树：传统的可偿付证明
+交易所试图用密码学来证明自己没有欺骗用户的最早尝试可以追溯到很久以前。2011 年，当时最大的比特币交易所 MtGox 通过发送一笔移动 424, 242 个 BTC 到预先公布地址的交易来证明他们拥有该笔资金。2013 年，大家开始讨论如何解决该问题的另一面：证明用户存款的总规模。如果你证明用户的存款等于 X （负债证明 proof of liabilities），并证明拥有 X 个代币的私钥（资产证明 proof of assets），那么就提供了可偿付证明（proof of solvency）：你证明了交易所有足够的资金偿还给储户。
+提供存款证明的最简单方法是公布一个列表。每个用户都可以检查他们在列表中的余额，而且任何人都可以检查完整的列表：（i）每项余额都是非负的；（ii）总…]]></summary>
+        <author>
+            <name>ECN以太坊中国</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CZ公开信：2022，韧性为王]]></title>
+        <id>https://www.odaily.news/post/5184158</id>
+        <link href="https://www.odaily.news/post/5184158"/>
+        <updated>2022-12-29T09:24:14.000Z</updated>
+        <summary type="html"><![CDATA[从数据来看，加密行业的 2022 是跌宕起伏的一年。对于 Binance 和整个加密行业来说，在 Celsius、Voyager、FTX 等项目接连破产之后，我们更应该学会反思。从表面上来看，整个加密生态在 2022 年似乎充满了危机和失败；加密资产价格从去年的历史高位回落；大平台一个接一个倒下，让用户和监管机构失去了对行业的信心；政策制定者、媒体和公众对加密资产的审视也愈发严格。
+虽然在这些因素的共同作用下，行业发展遇到了很大阻力，但作为一个新兴行业，定义我们的不是这些挑战，而是我们如何克服这些挑战。从这个角度来说， 2022 年应该比过去任何一年更让我们乐观，因为 Binance 和整个行业都表现出了惊人的韧性和毅力。
+加密资产刚问世的时候，也出现了一批以诋毁比特币为生的人，这群人宣称「比特币一定会归 0 」，并开始围绕这个论断卖书、在社交媒体上聚拢人气，并请所谓的「大咖」到处宣讲，也赚了不少钱。现在的 FTX 塌房事件也是他们的「商机」，他们称之为加密资产的「雷曼兄弟时刻」，并将比特币价格回缩和互联网泡沫相提并论。而他们刻意不提的是，两者都是对行业的一种清洗。据我所知，互联网和银行业目前都好好的。
+
+普及与建设
+加密资产行业成功的衡量指标之一就是普及率。虽然 2022 年困难重重，但区块链普及从未停下脚步，全球的个人和机构投资者不断涌入这个领域。个人投资者方面，新兴市场是主导力量；机构投资者方面，KPMG、摩根大通、乐天、CVSHealth、腾讯、富达资本、百度、特斯拉、Cloudfare、PayPal、美国运通、埃森哲、佳士得、贝莱德、纳斯达克、麦当劳、谷歌云、万事达卡、索尼、耐克等今年也因引入区块链解决方案而受益。诚然，今年的各种危机侵蚀了对加密资产行业的信任，对主流普及造成了阻碍。不过，我们现在看到的是，对加密资产的需求和兴趣依然强烈。基于此，行业将持续创造高价…]]></summary>
+        <author>
+            <name>币安Binance</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全面回顾NFT的2022：造神结束，细分开始]]></title>
+        <id>https://www.odaily.news/post/5184148</id>
+        <link href="https://www.odaily.news/post/5184148"/>
+        <updated>2022-12-29T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：0 xLaughing，律动 BlockBeats  
+2021 年是 NFT 开始走向大众的一年，「NFT」当选了《柯林斯词典》 2021 年度词汇， 2021 年也因此被很多人称为 NFT 元年；而 2022 年则是伴随着新项目和用例不断涌出，对 NFT 的未来不断探索的一年，但是这一年对于加密货币和 NFT 来说是一段艰难的旅程。加密货币世界之外更广泛的市场低迷将 NFT 市场拖入熊市，Luna 暴雷、FTX 倒闭事件本身以及造成的更深层次影响让加密市场雪上加霜，数十亿美元从生态系统中消失，监管和刑事调查也随之增加。
+2022 年的 NFT 市场，从 PFP 系列的激增，到时尚、音乐、娱乐、游戏和元宇宙体验的探索性尝试，这些新想法和实验在证明它们不仅仅是区块链上的「小图片」，同时也见证了无数成功和失败，让我们一同回顾一下吧。
+2022 年整体概况：至明与至暗时刻交替
+
+市场总市值变化（图源：NFTGO）
+NFT 市场总市值在 3 月曾达到峰值为 349.6 亿美元，自 5 月下跌后持续低迷，总市值持续维持在 210 至 230 亿美元之间，在 11 月跌至最低仅为 208.2 亿美元，跌幅达 40.5% 。
+
+NFT 市场交易量变化（图源：intotheblock）
+NFT 市场交易量的峰值出现在 1 月，最高单日交易量超过了 9.91 亿美元。5 月 1 日也创造了一个小的峰值，当日 Otherdeed 系列 NFT 24 小时交易额超过了 3.75 亿美元。随着市场下跌，NFT 市场交易量不断萎靡，在 11 月曾有多天的日交易量不到 1, 500 万美元。
+
+NFT 的持有者人数（钱包数） （图源：NFTGO）
+NFT 的持有者人数（钱包数）维持了 2021 年的增长势头，从 144.6 万增长至 377.8 万，增幅达 161.3% 。
+
+  NFT …]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[火必将于12月29日17:00开放Pi (Pi Network) Token交易]]></title>
         <id>https://www.theblockbeats.info/flash/121496</id>
@@ -16,6 +73,47 @@
 火必称将密切关注 Pi Network 主网升级，直至主网成功上线前，火必将一直保持 Pi 充值及提现功能的关闭。]]></summary>
         <author>
             <name>TheBlockBeats - 快讯</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[空投埋伏日记：Polygon zkEVM、PartyBid V2、BIDSHOP（12月29日）]]></title>
+        <id>https://www.odaily.news/post/5184149</id>
+        <link href="https://www.odaily.news/post/5184149"/>
+        <updated>2022-12-29T08:42:27.000Z</updated>
+        <summary type="html"><![CDATA[熊市漫漫，热点分散。在缺乏明确投资机会的当下，本着“宁可错付 gas，不能放过大毛”的原则，我将视线与精力投向了优质项目交互，说不定还能提前发现下一价值标的，是吧。
+本栏目文章《空投埋伏日记：Trantor、Abelfinance、AltLayer（11 月 3 日）》早前关注的 Trantor 目前又推出了新的活动（1 月 15 日截止），据官方公告表示参加活动可以抽取 1 万美元的各种奖励，且为非链上操作， 0 gas 花费，感兴趣的读者可以参与。
+每天可以埋伏的项目众多，良莠不齐。今天为大家精选的三个项目分别是以太坊二层网络 Polygon、NFT 众筹平台 PartyBid V2、NFT 竞价市场 BIDSHOP。
+Polygon zkEVM
+项目介绍：以太坊二层网络，目前正在测试网部署 zkEVM，有关概可参见《解析 Polygon zkEVM 的安全性、稳定性及市场竞争力》。
+最新进展：基于 zkEVM 的最终版本测试网上线。
+项目融资： 2022 年 2 月， 4.5 亿美元融资，红杉资本领投，Tiger Global、软银、Galaxy Digital、Republic Capital、Makers Fund、Alameda Research、Alan Howard、Alexis Ohanian、Steadview Capital、Elevation Capital、Animoca Brands、Spartan Fund、Dragonfly Capital、Variant Fund 和 Kevin O'leary 参投。
+项目链接：https://polygon.technology/
+交互建议：明星项目，可以埋伏，测试网交互，零 gas 花费。
+详细交互方法：《Polygon zkEVM 测试网交互教程》。
+
+
+PartyBid V2 
+项目介绍：NFT 众筹平台。
+最新进展：主网 V2 版本上线。
+项目融资： 2022 年 6 月， 1640 万美元融资，轮次未知，a16z 领投，Standard Crypto、Compound Crypto、Dragonfly Capital、Uniswap Ventures 等参投。
+项目链接：https://www.partybid.app/
+交互建议：比较早的一个项目了，融资不错，有发币预期。前几日上线了 V2 版本，由于该项目已经主网上线，参与需要花费资金，读者参与前谨慎考虑。
+详细交互方法：《PartyBid V2 交互教程》（需科学上网）。
+
+
+BIDSHOP
+项目介绍：NFT 竞价市场。
+最新进展：测试网上线。
+项目链接：https://www.bidshop.io/
+交互建议：以竞价模式作为核心功能，引入了和传统拍卖类似的“房间”的概念，测试网交互 0 gas 消耗，可以埋伏。
+详细交互方法：《BIDSHOP 测试网交互教程》（需科学上网）。
+
+往期内容
+《空投埋伏日记：Plenty Network、Taiko、Valhalla（12 月 28 日）》
+《空投埋伏日记：Soulflake、Havah、NiftyApes（12 月 27 日）》
+《空投埋伏日记：Vela、Zeus Swap、Nostr（12 月 26 日）》]]></summary>
+        <author>
+            <name>胖虎</name>
         </author>
     </entry>
     <entry>
@@ -76,6 +174,27 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[MicroStrategy增持约2500枚比特币，或因逃避清算？]]></title>
+        <id>https://www.odaily.news/post/5184146</id>
+        <link href="https://www.odaily.news/post/5184146"/>
+        <updated>2022-12-29T07:59:53.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：TheBlock、blockworks
+原文作者：CaseyWagner、OsatoAvan-Nomayo
+原文编译：PANews
+2022 年 12 月 28 日，前 MicroStrategy 首席执行官 Michael Saylor 在社交媒体宣布该公司已增持约 2500 枚比特币。截至目前，MicroStrategy 公司持有的比特币数量已经达到 132, 500 枚，购买总金额超过 40.3 亿美元，平均购买价格约为 30, 397 美元/BTC。
+为什么 MicroStrategy 又双叒购买比特币？
+Michael Saylor 可以说是最直言不讳的比特币多头支持者之一，他此前曾表示购买比特币的决定是因为数字资产是金融的未来。由于 MicroStrategy 公司预计比特币价格会随着时间的推移而升值，因此相信从长远来看比特币将成为一种有效的通胀对冲工具。
+Michael Saylor 本人也多次将比特币称为“数字黄金”，更重要的是，通过投资比特币，MicroStrategy 的知名度大幅提升，从一家“不起眼”的数据运营公司变成了加密爱好者们耳熟能详的名字，目前更是成为了全球持有比特币数量最多的美股上市公司。
+
+不过，他们购买比特币的“初心”可能并非真正出于认可加密和区块链技术。最近，经济学家 PeterSchiff 在社交媒体上披露了 Michael Saylor 和 MicroStrategy 投资比特币的真正原因，他指出 Michael Saylor 购买比特币是为了拯救 MicroStrategy 公司免于被清算，因为“除了对数字资产进行杠杆投机之外，该公司已别无他法。”
+然而，MicroStrategy 公司的问题还不限于此。
+首次抛售比特币为哪般？
+相较于购买 2500 枚比特币，MicroStrategy 公司首次抛售比特币尤其值得关注，…]]></summary>
+        <author>
+            <name>PANews</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[SafeDAO正讨论如何分配在空投中未被领取的3200万枚SAFE代币]]></title>
         <id>https://panewslab.com/zh/articledetails/48xn8k20.html</id>
         <link href="https://panewslab.com/zh/articledetails/48xn8k20.html"/>
@@ -87,6 +206,30 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[一览2022年NFT赛道发展]]></title>
+        <id>https://www.odaily.news/post/5184140</id>
+        <link href="https://www.odaily.news/post/5184140"/>
+        <updated>2022-12-29T07:54:23.000Z</updated>
+        <summary type="html"><![CDATA[研究机构：Mint Ventures
+研究员：Jessica Shen
+我们的播客：在小宇宙 App、QQ 音乐、苹果 Podcast 搜索《WEB3 Mint To Be》
+我们的视频号：WEB3 FOUNDERS REAL TALK
+2022 年 NFT 市场
+
+2020 年-2022 年 NFT 交易量及市值情况
+2020 到 2022 年，NFT 行业在短短 2 年内经历了许多变化。在许多人眼里 2020 年 NFT 还仅仅是个空中楼阁的概念，到了 2022 年 NFT 的资产属性、金融属性已经深入人心。我们从交易量的角度看 NFT 有了以下观察：
+2021 年 NFT 市场整体市值快速增长，但 2022 年熊市期间 NFT 交易量大幅下降
+2021 年以太坊上 PFP 的爆火开启了 NFT 元年，但今年以太坊上 NFT 交易量下降十倍有余。
+各个公链的 NFT 资产逐渐表现出鲜明特色
+在 NFT 始于 2020 年的 Flow 上的 NBA Top Shot 以及当时还在 Ethereum 上的 Axie Infinity NFT。到 2021 年，NFT 资产在各个公链全面开花，重心聚焦在 Ethereum 上，带有较强文化和艺术属性的 PFP 资产交易拔得头筹，打开了行业对 NFT 的未来想象。2022 年受到熊市环境影响，NFT 市场降温，围绕 Ethereum 上 NFT 交易量下降近 95% ，但 Ethereum 上 PFP 交易仍旧是行业主旋律，同时 IMX、BSC、Solana、Polygon 等聚集较多 GameFi、SocialFi 生态的公链内 NFT 资产交易较为活跃。
+从公链角度来看
+
+Ethereum、Solana 持续领先 NFT 交易。Ethereum、Solana 持续在 NFT 交易量中保持领先，并且均是 PFP 交易较为活跃，…]]></summary>
+        <author>
+            <name>Mint Ventures</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Aptos联创：Aptos明年将会有很多创新，并上线一系列DeFi应用]]></title>
         <id>https://panewslab.com/zh/articledetails/8ql52l86.html</id>
         <link href="https://panewslab.com/zh/articledetails/8ql52l86.html"/>
@@ -94,6 +237,24 @@
         <summary type="html"><![CDATA[PANews 12月29日消息，据The Daily Hodl报道，公链项目Aptos联合创始人Mo Shaikh在最新采访时透露了该项目2023年计划，他表示Aptos将在明年取得重大发展并有很多创新，特别是迎合去中心化金融(DeFi)的需求。Aptos上将会上线中心化限价订单薄、AMM（自动做市商）、DEXes（去中心化交易所）等一系列DeFi应用。但是Aptos会采取“阶梯式”创新的方式，不会冒险将所有用户带入Layer 1或Layer 2，目前Aptos上已有大型实体和企业正在构建Web3创新产品，预计这些用例都会在2023年成为现实。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欧科云链研究院：我们对2023年行业趋势的7个预测]]></title>
+        <id>https://www.odaily.news/post/5184139</id>
+        <link href="https://www.odaily.news/post/5184139"/>
+        <updated>2022-12-29T07:06:59.000Z</updated>
+        <summary type="html"><![CDATA[回望 2022 ，加密行业遭遇了种种不可控因素而导致的艰难险阻，也在变革与发展中孕育着生机与活力。
+这一年，我们亲眼目睹了 Luna 暴雷，三箭资本、FTX这些曾经被认为“大而不倒”的机构接连倒下，市场信心严重受挫；但这一年，我们也共同见证了以太坊合并的历史时刻，看到了香港、新加坡等地区竞争Web3中心的决心，和传统机构仍在涌入加密市场所透露出的正面信号，一些积极的转变正在发生。
+在 2022 年的共同记忆下，展望 2023 年，每个人的观感可能不尽相同。欧科云链研究院结合长期对加密市场的观察，提出了 2023 年加密行业的七大趋势预测，试图在众多不确定性中找寻一切轨迹下已暗自埋下的伏笔。
+需要说明的是，没有人能预知未来，大部分预测都会被时间证伪，所以这里的预测也并不代表我们的投资意见。
+趋势一：全球加密监管进入新阶段拥抱合规将成为必选项
+一系列安全事件和暴雷事件的发生，正催生更强有力的加密监管。全球主要国家和地区，尤其是过往对加密资产友好度较高的国家和地区在 2022 年之后都不得不重新思考如何应对虚拟资产创新背后的风险与挑战。
+一个明确的信号是，在经历了 2022 年的数起黑天鹅事件之后，我们将在 2023 年看到更多严格的虚拟资产监管政策。尽管我们不愿意看到过度监管抑制创新的发生，但随着监管机构对虚拟资产领域的了解愈发深入，野蛮生长的时代正在终结，全球监管态势已不可避免。对于加密世界的机构而言，监管重要性正进一步凸显，拥抱合规将成为行业良性发展的必选项。
+趋势二：Web3产业应用拉开序幕，与 AI 3.0 共同引发创造性破坏
+Web3仍是 2022 年最引人关注的科技概念，大量真金白银和优秀人才在这一年流入其中。尽管如今各方对Web3概念仍有争议，但Web3正深刻地改变着我们的世界，众多机构也在这一年投身其中，将Web3与自身涉足的领域相结合，找到将原有业务“升级”，…]]></summary>
+        <author>
+            <name>欧科云链OKLink</name>
         </author>
     </entry>
     <entry>
