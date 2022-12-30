@@ -6,6 +6,36 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/mns9fpu5.html",
+          "author": "PA一线",
+          "description": "PANews 12月30日消息，据CoinDesk报道，加密交易服务提供商3Commas的两名用户透露，美国联邦调查局（FBI）正在调查3Commas的数据泄露事件，FBI就此事联系了他们。一个大约有60名成员的3Commas受害者组织此前曾联系美国特勤局和其他执法机构，试图了解他们的资金是如何失踪的。该组织的领导人Edmundo (Mundy) Pena表示，他估计该组织的损失超过2000万美元。\n在过去几个月里，数十名用户发现3Commas在未经他们同意的情况下，在他们与之关联的加密交易所交易资金。最初，3Commas表示这些用户很可能被钓鱼，并坚称该平台是安全的。API数据库泄密者暗示3Commas密钥已被公司内部人员出售，但3Commas首席执行官Yuriy Sorokin在昨日一份声明中表示，目前还没有发现“内部人作案”的证据。",
+          "link": "https://panewslab.com/zh/articledetails/mns9fpu5.html",
+          "publishedOn": "2022-12-30T00:25:28.000Z",
+          "wordCount": 3543,
+          "title": "外媒：美国联邦调查局正调查3Commas数据泄露事件",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/81tonid7.html",
+          "author": "PA一线",
+          "description": "PANews 12月30日消息，据华尔街日报报道，持有约19亿美元索赔的15名FTX客户要求法院下令对公众隐瞒他们的名字，他们在周三的法庭文件中表示，他们对自己身份和联系信息保密的意向高于公众对公开透明的破产程序的兴趣。该客户组织表示，公开披露客户身份将使他们面临身份盗窃和网络诈骗的风险，并可能降低FTX剩余价值。\n司法部律师和华尔街日报等媒体机构已在破产法庭要求在其公开文件中披露FTX客户的姓名。这些媒体的律师本月在法庭文件中辩称，债权人名单历来是向公众开放的，而FTX尚未履行其获得例外的责任。负责监管FTX破产法第11章案件的法官定于下个月审议是否应编辑FTX客户身份信息。",
+          "link": "https://panewslab.com/zh/articledetails/81tonid7.html",
+          "publishedOn": "2022-12-30T00:10:29.000Z",
+          "wordCount": 3532,
+          "title": "FTX一群客户希望从破产文件中删除其身份信息",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/v0a7jpb2.html",
+          "author": "PA一线",
+          "description": "PANews 12月30日消息，据官方消息，币安宣布用户现可使用Apple Pay和Google Pay购买加密货币。",
+          "link": "https://panewslab.com/zh/articledetails/v0a7jpb2.html",
+          "publishedOn": "2022-12-29T23:48:18.000Z",
+          "wordCount": 3547,
+          "title": "币安支持使用Apple Pay和Google Pay购买加密货币",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/6ihwrqd1.html",
           "author": "PA一线",
           "description": "PANews 12月30日消息，据CoinDesk报道，加密研究公司Arkham Intelligence引用的链上数据显示，周三晚间，与Alameda Research相关的钱包中价值170万美元的以太坊代币在公开市场上被出售。包括USDC、DAI、CRV、ETH、CVX在内的多种代币被从几个钱包合并到两个钱包，随后被出售为USDT。这些资产随后又通过FixedFloat和ChangeNow等交换服务兑换为比特币(BTC)。根据Arkham Intelligence的数据，Alameda目前仍持有价值超过1.12亿美元的各种加密货币，低于11月中旬的1.4亿美元。",
@@ -2730,16 +2760,6 @@
           "publishedOn": "2022-12-25T14:14:38.000Z",
           "wordCount": null,
           "title": "当前比特币市值占比为38.37%，以太坊为17.41%",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/120905",
-          "author": null,
-          "description": "BlockBeats 消息，12 月 25 日，据慢雾安全团队情报，2022 年 12 月 25 日，Rubic 跨链聚合器项目遭到攻击，导致用户账户中的 USDC 被窃取。慢雾安全团队以简讯的形式分享如下：\n\n1. Rubic 是一个 DEX 跨链聚合器，用户可以通过 RubicProxy 合约中的 routerCallNative 函数进行 Native Token 兑换。在进行兑换前，会先检查用户传入的所需调用的目标 Router 是否在协议的白名单中。\n\n2. 经过白名单检查后才会对用户传入的目标 Router 进行调用，调用数据也由用户外部传入。\n\n3. 不幸的是 USDC 也被添加到 Rubic 协议的 Router 白名单中，因此任意用户都可以通过 RubicProxy 合约任意调用 USDC。\n\n4. 恶意用户利用此问题通过 routerCallNative 函数调用 USDC 合约将已授权给 RubicProxy 合约的用户的 USDC 通过 transferFrom 接口转移至恶意用户账户中。\n\n此次攻击的根本原因在于 Rubic 协议错误的将 USDC 添加进 Router 白名单中，导致已授权给 RubicProxy 合约的用户的 USDC 被窃取。",
-          "link": "https://www.theblockbeats.info/flash/120905",
-          "publishedOn": "2022-12-25T13:04:51.000Z",
-          "wordCount": null,
-          "title": "慢雾：Rubic协议错将USDC添至Router白名单，致授权合约用户USDC遭窃取",
           "imageUrl": null
         }
       ]
