@@ -2,10 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-03T10:08:02.553Z</updated>
+    <updated>2023-01-03T11:06:24.465Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ConsenSys：详谈L2 Rollup的竞争现状和挑战]]></title>
+        <id>https://www.odaily.news/post/5184236</id>
+        <link href="https://www.odaily.news/post/5184236"/>
+        <updated>2023-01-03T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：ConsenSys
+原文编译：岩石上的刺猬
+本文来自SevenUp DAO。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+L2 Rollup 概述
+
+
+
+
+在过去的几年中，随着以太坊网络活动的增加， 2 层协议（L2）Rollup 解决方案已成为重要的解决方案。非同质化代币（NFT）和去中心化金融（DeFi）的活动和参与引起了 1 层（L1）区块链活动的激增。反过来，由 gas 费代表的块空间需求也增加了。由于网络负载的增加，交易完成的时间也随之增加。
+虽然以太坊合并为将来的 gas 费用优化奠定了基础；但它并没有直接降低交易费用。
+在 2020 年夏到 2021 年夏的一年中，以太坊网络上的 gas 成本（以 Gwei 为单位）增长了 1300% 。需要快速、经济实惠的交易促使两种主要 Rollup 形式的产生：Optimistic 和 Zero-Knowledge（ZK）。
+Rollup 通过将以太坊网络的交易改为链下处理，将它们转换为单个数据块，然后作为批处理在以太坊上重新提交，降低了相关成本和时间，减轻以太坊网络的计算需求。两者之间的最大区别在于，Optimistic Rollup 利用欺诈证明，而 ZK-rollup 则依靠零知识证明来验证对主链的更改。
+
+
+
+
+Optimistic 和 ZK-Rollups:欺诈证明 VS 有效证明
+
+
+
+
+欺诈证明将离线交易(off-chain transactions)打包在一起，然后将它们重新提交到L1。被提交到L1之后，会有一个挑战期，在此期间任何人都可以通过计算欺诈证明（Fraud Proofs）来挑战 rollup 的结果。同样，零知识证明也将离线交易打包在一起，并将它们作为单个交易提交。它们之间的区别在于，零知识证明不是假设交易最初是正确的，而是使用有效证明（Validity Proofs）立即证明交易是否有效。一旦…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[12张图深入解读12月加密市场数据]]></title>
+        <id>https://www.odaily.news/post/5184235</id>
+        <link href="https://www.odaily.news/post/5184235"/>
+        <updated>2023-01-03T09:20:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：TheBlock 研究总监 Larry
+原文编译：PANews
+在刚刚过去的 2022 年最后一个月，加密市场依然没有摆脱 FTX 和 AlamedaResearch 破产带来的影响，在这一趋势推动下，加密市场发生了哪些变化呢？让我们用 12 张图来进行深入解读。
+1、调整后链上总交易额下降了 44% ，跌至 1440 亿美元，其中比特币链上交易额下降了 41.1% ，以太坊下降了 49.6% 。
+
+2、调整后的稳定币链上交易额下跌了 27.5% ，降至 6659 亿美元，已发行供应量规模缩水 3% ，减少到 1353 亿美元，其中 USDT 的市场份额达到 52.1% ，USDC 的市场份额占到 30.7% 。
+
+3、不过， 12 月比特币矿工收入增长了 0.9% ，反弹至 4.767 亿美元，但以太坊质押者收入却下降了 9.6% ，降至 8030 万美元。
+
+4、在过去的 2022 年 12 月里，以太坊链上总计销毁了 49, 117 枚 ETH，约合 6, 070 万美元。自 2021 年 8 月上旬实施 EIP-1559 以来，以太坊链上总销毁量已突破 280 万枚 ETH，价值超过 87.9 亿美元，其中去年五月销毁量较高，主要是因为 Otherside 虚拟地块 NFT 销售引发。
+
+5、以太坊链 NFT 市场交易额出现增长，涨幅达到 5.2% ，总计约 4.01 亿美元。
+
+6、合规 CEX 现货交易额下跌至 3575 亿美元，减少 46.9% 。
+
+7、在 CEX 市场份额方面，币安达到惊人的 77.8% ，Coinbase 占比为 9.8% ，Kraken 为 3.9% ，BTSE 为 2.1% 。
+
+8、GBTC 日均交易额暴跌 55.5% ，降至 3300 万美元低点。
+
+9、在期货持仓方面， 12 月比特币期货和以太坊期货持仓量均出现下跌，其中比特币期货持仓量减少 7% ，以太坊期货持仓量则下降了 8.3% 。在期货交易额方面， 12 月比特币期货和以太坊期货交易额也纷纷下降，其中比特币月期货交易额减少 39% ，降至 3790 亿美元。
+
+10、 12 月芝商所的比特币期货未平仓头寸规模下降了 11.1% ，跌至 13.6 亿美元，日均成交量仅为 6.32 亿美元，下跌 53.1% 。
+
+11、在以太坊期货方面，月交易额下降至 3640 亿美元，跌幅达到 38.6% 。
+
+12、在期权持仓方面，比特币期权和以太坊期权持仓量都出现下降，其中比特币跌幅月 30% ，以太坊约 43.1% 。比特币期权交易额和以太坊期权交易额也都出现下跌，前者 12 月跌幅为 42.1% ，降至 77 亿美元；后者跌幅达到约 45% ，降至 55 亿美元。]]></summary>
+        <author>
+            <name>PANews</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[安全机构：WORLD CUP INU项目方提取旧币进行出售，导致价格大幅下跌]]></title>
         <id>https://panewslab.com/zh/articledetails/ho8pynm6.html</id>
@@ -29,6 +111,32 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[出于运营成本等考虑，SushiSwap决定关闭Kashi和MISO]]></title>
+        <id>https://www.odaily.news/post/5184234</id>
+        <link href="https://www.odaily.news/post/5184234"/>
+        <updated>2023-01-03T08:56:02.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 Decrypt，原文作者：Stephen Graves
+Odaily 星球日报译者 | 念银思唐
+
+基于以太坊的 DeFi 协议 SushiSwap 决定关闭其借贷协议 Kashi 和代币 Launchpad 平台 MISO。
+SushiSwap 成立于 2020 年，允许客户使用自己的外部钱包（如 MetaMask）——而不是像 Coinbase 这样的集中式交易所——兑换、出借和借入加密货币。
+SushiSwap 首席技术官 Matthew Lilley 在 Twitter 上解释了这一举动，他说 Kashi“有许多设计缺陷，运作亏损，而且缺乏专门用于它的资源。”
+然而，他表示，MISO 只是“缺乏资源”。
+从长远来看，Lilley 表示，一旦获得必要的可用资源，SushiSwap 计划推出新的质押和 Launchpad 产品，以取代即将停止的服务。
+Lilley 表示，他认为实现这一目标需要专注于交易业务，他认为这是公司“无可争议的”盈利业务。
+SushiSwap 的财务困境
+这一决定是在该平台近几个月面临重大财务不确定性之际做出的。在去年 12 月的更新中，该公司宣布它只有 1.5 年的运营成本，并表示“情况需要立即采取行动，以确保有足够的资源不间断地运营”。
+SushiSwap 新任 CEO Jared Grey 发推表示，在过去的 12 个月中，SushiSwap 在其基于排放的奖励策略中花费了 3000 万美元，以引导流动性和激励 LP，目前正在采取多种方案，旨在 2023 年第一季度改进 Sushi 和商业模式破裂的长期问题。
+Grey 称，该公司一直在推行一项战略，包括重新谈判基础设施合同，削减“表现不佳或多余的业务”，并对“非关键人员和基础设施”等支出实施预算冻结，以将年度支出削减至 500 万美元。
+此外，Gray 披露 2023 年的预算快照，明年将有超过 520 万美元用于维持其 DEX 运营。这些资金中超过 82% 将用于支付 15 份薪水，包括 500, 000 美元的 USDC 将支付给自己。平均每位团队成员的收入约为 286, 500 美元。
+剩余的 DAO 预算约为 919, 000 美元，将用于 SushiSwap 的运营管理费用，例如法律费用、订阅费、自由贡献者补偿和社交媒体管理成本。一名未公开的自由职业者的预算为每月 12, 000 美元，仅比 Sushi 法律团队的平均每月聘用金低 500 美元。
+随后 12 月底，Grey 公布新代币经济学提案，旨在增加流动性，为其原生代币 Sushi 创造更多效用，并为利益相关者提升最大价值。正式提案表示：“就像最初希望实现的 xSushi 模型一样，新经济学的主要目标是通过整体和可持续的奖励机制来促进去中心化所有权和奖励流动性增长，该奖励机制随数量和费用而扩展。我们的目标是激励长期参与 Sushi 生态系统，同时减少提取参与者的数量。”
+该提案概述了协议代币经济学的四个关键变化。其中最大变化是关于质押 Sushi（xSushi）将不再获得交易费用收益奖励，而是获得以 Sushi 支付的基于释放的奖励。产生最多交易量的交易池的流动性提供者将获得大部分 Swap 费用。此外，玩家还可以选择新的时间锁定机制来提高奖励。浮动比例的交易费用还将用于从公开市场回购和销毁 Sushi，并锁定流动性，以提供更多的价格支撑。最后的变化则是将把 Sushi 的释放改为 1-3% APY，以降低通胀，并在整体释放与回购、销毁和锁定流动性之间取得平衡，这些流动性用于交易费用的价格支持。]]></summary>
+        <author>
+            <name>念银思唐</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Raydium的漏洞补偿提案以100%的支持率获得投票通过]]></title>
         <id>https://panewslab.com/zh/articledetails/2yacy1wg.html</id>
         <link href="https://panewslab.com/zh/articledetails/2yacy1wg.html"/>
@@ -48,6 +156,32 @@
         <summary type="html"><![CDATA[PANews 1月3日消息，TreasureDAO关于降低流动性挖矿奖励的提案以99.99%的支持率获得投票通过，该提案建议将SushiSwap上对MAGIC/ETH池流动性提供者的奖励减少30%，以减少不必要的通胀。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1confirmation合伙人：2023年3个值得关注的Web3产品趋势]]></title>
+        <id>https://www.odaily.news/post/5184231</id>
+        <link href="https://www.odaily.news/post/5184231"/>
+        <updated>2023-01-03T08:32:44.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Richard Chen，1confirmation 合伙人 
+原文编译：DeFi 之道
+作为传统，我每年都会对来年的产品趋势做出三个不引人注目的预测。让我们先回顾一下，看看我去年的预测如何，然后再对 2023 年做出三项预测。
+回顾去年的预测
+1. 垂直特定的 NFT 市场
+结论：需视情况而定
+OpenSea 的交易量比历史最高点下降了 94% ，其他大多数垂直的 NFT 市场也有类似的下降；SuperRare 和 Foundation 分别下降了 92% 和 90% 。
+唯一的例外似乎是音乐 NFT。去年我预测 2022 年是音乐 NFT 的突破年。虽然音乐 NFT 的交易量仍然从历史高点大幅下降，但在整个熊市中仍然有着健康的月度同比增长。
+
+2. 信任最小化的跨链桥接
+结论：正确
+去年我写道：「桥接是巨大的蜜罐，我预测跨链黑客将成为新的 CEX 和 DeFi 黑客」。结果发现有史以来最大的七次黑客攻击中有五次是跨链桥，总共损失了 23 亿美元的资金。
+所有这些被黑的跨链桥都在设计上走了捷径，引入了信任假设。例如，有一个由几个验证器组成的中心化多签，全部由同一个实体控制，或者有一个可以单方面升级智能合约中关键参数的管理秘钥。这些单点故障成为复杂的黑客的巨大目标。同时，像 Hop 这样的信任最小化的桥接到目前为止还没有发生安全事件，且获得了很大的市场份额。
+这些黑客攻击表明，为什么设计一个信任最小化的桥接是困难的，为什么项目不应该把一个解决方案粘在一起，为了优先考虑执行速度而牺牲安全。正如网络安全领域的一句老话，你 99% 的时间都是正确的并不重要。你只需要错一次就会被击倒。
+3. 投资 DAO
+结论：错误
+除了像 Flamingo DAO 这样的几个 OG 投资 DAO 外，新出现的 DAO 基本上都是媒体宣传的噱头。它们最初得到了大量的媒体报道和一些早期使用…]]></summary>
+        <author>
+            <name>Foresight News</name>
         </author>
     </entry>
     <entry>
