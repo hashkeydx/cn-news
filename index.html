@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-10 datetime="2023-01-10T10:30:00.000Z">2023-01-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-10 datetime="2023-01-10T10:30:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-10 datetime="2023-01-10T12:30:00.000Z">2023-01-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-10 datetime="2023-01-10T12:30:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -67,6 +67,68 @@
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184407"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂Arbitrum的Nitro技术升级：4个关键机制</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184407">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Chloe
+原文来源：链茶馆
+Arbitrum 是把原本在以太坊上进行的计算工程转移到 Layer 2  进行，然后不需要进行任何验证就假设这些计算结果是正确的，并将数据发布回以太坊。但是为了避免有人作恶，设置了 7 天的挑战期来缓冲（如果发现有人欺诈就扣保证金）。
+Arbitrum 在去年 8 月 31 日推出了升级版的 Nitro，它的费用更低、以太坊兼容性更好以及 zk 证明更简洁，总之是一次全面的升级（而不是针对特定的问题）。不过由于它没有重新发新链，而是从 Arbitrum One 无缝升级，所以还是叫 Arbitrum One。
+支撑 Nitro 的关键创新可以概括为四点：证明程序、以 Geth 为核心、实现执行与证明分开、交互式欺诈证明的 Optimistic Rollup。
+
+不需要共识机制的证明程序
+Nitro 使用两阶段执行交易。
+第一阶段：在 Layer 2 自行处理
+用户创建了一笔交易，经过钱包签名确认后，会发送给 Nitro 的 Sequencer（序列器）。
+Sequencer 收到信息，通过「状态转移函数」过滤掉无效交易，并把剩下的交易公平地进行排队。
+然后不需要任何额外的链上确认（如 L1 以太坊），就直接无条件地让节点在本地执行，并向客户提供交易收据（包括提交了恶意或者错误信息的用户），这个过程通常只需要一两秒钟。
+但此时的交易还没有向 L1 以太坊提交，有更改的余地，所以称作「软确认」，不过对用户来说，到这一步就已经完事儿，其实后面还有很多步骤来确保安全性。
+第二阶段
+Sequencer 向以太坊发布排队序列，并最终确认，也就是「硬终结」。
+一种发送方式是在给每笔交易排序时，都向所有订阅者发布即时通知。另一种方式是汇总起来在 L1 以太坊上按批次发布（间隔几分钟）。
+需要强调的是，Sequencer 在第一阶段的「状态转移函数」…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184408"
+                        open
+                      >
+                        <summary class="article-expander__title">AC对话社区：不要因为我加入而去投资一个项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184408">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者： Andre Cronje 和 Fantom 社区
+原文编译：Leo，BlockBeats
+近期，「DeFi 之父」为名的 Andre Cronje 宣布回归，作为 DeFi 赛道的最早构建者之一，AC 在去年 4 月发布文章「crypto 已死，crypto 长存」，宣布退圈，但其相关消息依能给 crypto 带来一些波动，尤其是 Fantom，而 AC 本次回归后，大家也都把目光放在 AC 的回归能够重拾 DeFi 往日荣光，能否为 Fantom 带来更好的发展上面，近期 AC 发起了 infinite AMA 活动，BlockBeats 整理编译了一部分内容如下：
+Q：你在 Medium 中提到的账户抽象（AA）特征的时间表是什么？
+AC：这涉及到太多因素了，任何软件工程时间表都是高度可变的，预测我们的内部目标是在 Q3 或 Q4 初至少在 testnet 上可用，最好是在 mainnet 上。由于这涉及大量突破性核心变更，因此需要与使用 Fantom 下游数据的第三方提供商进行协调，即便 AA 上线时，钱包/开发者/Dapp 仍需要时间来整合，因此也需要考虑时间因素，实际上，直到完全整合和下游服务提供 AA 很可能需要 2-3 年。
+Q：Gas Abstraction 会与 AA 一起出现吗？还是为时过早？
+AC：Gas Abstraction 的全部功能需要 AA 支持，这将在实践中发挥类似的作用，当我们释放 Gas 补贴时，其中的一个子集将是可用的。
+Q：你对 Tomb Finance（与 FTM 挂钩的算法稳定币项目）怎么看？
+AC：我不信任何算法稳定币，它们也一样。
+Q：那与 FTM 挂钩的算法稳定币呢？
+AC：挂不挂钩无所谓，只要是算稳，就不行。
+Q：FVM（Fantom 虚拟机）仍处于正常发展吗？你可以提供任何更新吗？
+AC：一切都处于正轨，对…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -528,6 +590,67 @@ Ascensive Assets 合伙人兼联合创始人 Oliver Blakey 在一封电子邮
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/2ar1g143.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Coinbase将裁员950人以缩减25%运营费用</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2ar1g143.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 1月10日消息，Coinbase 首席执行官 Brian Armstrong 发布公开信，称需要确保适当的运营效率来度过加密市场的低迷时期。为此，Coinbase 计划缩减 25% 运营费用，预计进一步的重组总费用为 1.49 亿至 1.63 亿美元，并裁员 950 人（占员工总数的 20%）。受此次裁员影响，多个“成功概率较低”的项目将被关闭。
+截至 9 月底，该公司拥有大约 4,700 名员工。此前 6 月份 Coinbase 已裁员 18%，约 1100 人。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/k5vxgxy6.html"
+                        open
+                      >
+                        <summary class="article-expander__title">基于Cosmos的e-Money停止发行欧元支持的稳定币EEUR</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/k5vxgxy6.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 1月10日消息，基于 Cosmos 的电子支付系统 e-Money 以熊市为由停止发行其欧元支持的稳定币 EEUR 。e-Money表示，它将在 3 月 6 日之前兑现 EEUR 稳定币的赎回。资金少于 10 万 EEUR 的用户可通过 DEX 交易；超过 10 万 EEUR 的用户可以直接兑换为欧元，但需经过身份认证。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/7os7zj93.html"
+                        open
+                      >
+                        <summary class="article-expander__title">工业宇宙基础设施Worlds完成2100万美元的A1轮融资，Moneta Ventures领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/7os7zj93.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 1月10日消息，用于构建工业元宇宙的新 4D 基础设施的创建者 Worlds Enterprises, Inc. 近日宣布成功完成其 2120 万美元的 A1 轮融资。该轮融资由 Moneta Ventures 牵头，现有投资者 Align Capital、Green Park &amp; Golf Ventures、Chevron Technology Ventures、Piva Capital、PerotJain 和 Capital Factory 的主要参与方。这笔资金将用于继续投资公司的人工智能平台，扩大关键的上市合作伙伴关系，并进一步扩大工业公司对 Worlds 技术的采用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -6690,67 +6813,6 @@ Candy Digital 是体育商品巨头 Fanatics 旗下的 NFT 初创公司，但未
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/122440"
-                        open
-                      >
-                        <summary class="article-expander__title">DCG将关闭其资管子公司HQ Digital</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/122440">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，1 月 6 日，灰度集团母公司 Digital Currency Group（DCG）将关闭其资产管理子公司 HQ Digital，该公司管理着超过 35 亿美元的资产。
-
-DCG 表示，由于宏观经济环境状况和长期的加密寒冬给该行业带来了重大阻力，我们决定从 1 月 31 日开始关闭该公司，未来有可能重新审视该项目。
-
-BlockBeats 此前报道，6 月 9 日，DCG 推出财富管理子公司 HQ Digital，该子公司将提供私募投资、遗产规划、风险缓解和保险等服务，以补充 DCG 现有业务。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/122428"
-                        open
-                      >
-                        <summary class="article-expander__title">Genesis正与投行Moelis合作考虑申请第11章破产保护</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/122428">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，1 月 6 日，据外媒报道，FTX 破产对 Genesis 的影响仍在持续，这家加密借贷公司正与投资银行 Moelis &amp; Co 合作，寻求解决其财务困境的潜在解决方案，并正在考虑根据美国破产法第 11 章规定破产。目的是「保护并转移客户资产，推动业务向前发展」。
-
-分析认为，如果 Genesis 确实决定申请破产，他们将加入 Celsius、Voyager Digital、FTX、BlockFi，成为过去几个月中申请破产的大型加密公司之一。
-
-BlockBeats 此前报道，Genesis 在该公司第二轮裁员中裁撤约 30% 员工，目前总员工人数已降至 145 人。Genesis Global Trading 发言人表示，该公司销售和业务发展部门受到的打击尤其严重，新加坡地区销售团队整体都被裁掉。Genesis 曾于于 2022 年 8 月 17 日首次宣布裁员 20%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/flash/122422"
-                        open
-                      >
-                        <summary class="article-expander__title">三箭资本联合清算人通过Twitter向两名创始人发送传票</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/flash/122422">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，1 月 6 日，三箭资本联合清算人通过 Twitter 向三箭资本两名创始人 Kyle Davies 和 Zhu Su 发送了法院传票。联合清算人在一份声明中表示，目前然专注于努力推进三箭资本的清算程序，以代表债权人最大限度地收回资产，但其创始人拒绝合作，故已通过申请和新加坡法院的授权，可以通过电子邮件和 Twitter 向其传达需求。
-
-本次在 Twitter 上向二人发送的传票中，美国法院向 Kyle Davies 发送了传票，新加坡法院则是向二人均发送了传票。传票要求在本月晚些时候向公司清算人提供信息，还要求提供有关 Starry Night Capital 和策展人 Vincent Van Dough 等实体的信息。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7480,93 +7542,6 @@ Shopify此前仅对部分商家提供NFT销售和铸造服务，但现在已全�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/i2uz8ogo.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美SEC、CFTC以及检方正在调查前FTX工程总监Nishad Singh</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/i2uz8ogo.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月6日消息，据彭博社报道，美国证券交易委员会和商品期货交易委员会的当局以及检察官正在调查前FTX工程总监Nishad Singh在欺骗投资者和用户方面发挥的作用。一位知情人士表示，如果曼哈顿的联邦检察官发现Singh参与了FTX和Alameda Research涉嫌多年的欺诈投资者和客户的计划，他可能会在本月被起诉。
-Singh此前曾与前FTX首席执行官Sam Bankman-Fried（SBF）一起住在巴哈马的顶层公寓，并且是SBF弟弟的高中朋友，曾有报道称，他与Caroline Ellison、SBF和Gary Wang一起加入了“Wirefraud”聊天组，据称该聊天组讨论了FTX与Alameda之间的非法金融联系。目前尚不清楚未被指控有不当行为的Singh是否正在或将要与美国官员合作。Singh的律师Andrew D. Goldstein拒绝置评，美国纽约南区检察官办公室、SEC和CFTC的代表也拒绝置评。
-此前消息，SBF对针对他的所有刑事指控均表示不认罪，但前Alameda Research首席执行官Caroline Ellison和FTX联合创始人Gary Wang于12月与检察官达成认罪协议，承认在公司存在欺诈行为。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/64uf3zdw.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Alameda加入反对Binance.US收购Voyager Digital资产交易的行列</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/64uf3zdw.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月6日消息，据CoinDesk报道，一份法院文件显示，Alameda Research也反对Binance.US收购Voyager Digital资产的计划。代表FTX集团的律师事务所Sullivan &amp; Cromwell的Andrew G. Dietderich提交的文件称，Alameda是Voyager的大股东。备案文件称，根据6月份制定的救援计划，Alameda向濒临崩溃的Voyager提供了2亿美元和15,000枚BTC，其中7500万美元的稳定币截至破产之日仍未偿还。
-法庭文件表示，Binance.US在此笔交易中违反了破产法规定，即在优先级更高的索赔得到全面解决之前，不能偿还次级债权人，受托人办公室要求纽约南区法院不批准此次交易。文件显示法院将于当地时间1月9日（下周一）举行关于Voyager相关问题的听证会。
-此前，该交易已遭到美国证券交易委员会（SEC）以及德克萨斯州、新泽西州、佛蒙特州和纽约州证券和银行监管机构的反对。美国SEC要求Binance.US证明其有能力支付超10亿美元的收购款。美国司法部下属受托人办公室也表示，法院不应允许在没有足够的尽职调查证据的情况下达成资产购买协议并且没有为利益相关方提供充分和公平的审议机会。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/nz7jnjk3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">外媒：DCG宣布关闭其财富管理子公司HQ Digital</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/nz7jnjk3.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月6日消息，据CoinDesk报道，加密货币投资公司Digital Currency Group（DCG）在周四的一份声明中表示：“由于更广泛的经济环境状况和长期的加密冬天给该行业带来了重大阻力，我们决定从1月31日开始关闭财富管理子公司HQ Digital，我们期待将来有可能重新审视该项目。”
-此前去年6月份消息，Digital Currency Group推出财富管理子公司HQ Digital；今日早些时候消息，DCG旗下Genesis再度裁员30%，销售和业务开发部门受影响最大。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/2z249wa8.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Ankr：近日被盗资金异动系追回部分资金，已向受损用户赔偿3000万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2z249wa8.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月6日消息，此前遭到黑客攻击的Ankr在推特上公布了事件进展，Ankr表示近期正在与执法部门合作，此前ZachXBT发现被转入Huobi的资金实为追回的资金，目前仍在尝试追回更多资金，并将其转入 0x67077FDCD4b7429b2Fae6B7fFDA860D39247C552。Ankr表示已向受影响的用户赔付了超3000万美元，并且迄今为止已从黑客处追回超200万美元。
-链上数据分析师ZachXBT 1月4日发推称，Ankr攻击者在上周末将ETH发送到一个地址，后从该地址将1559ETH 转移到Huobi存款地址。
-此前去年12月2日消息，10万亿枚aBNBc被铸造，黑客将智能合约更新为更恶意的版本，导致aBNBc代币合约存在无限铸币漏洞。Ankr随后空投ankrBNB代币补偿受损用户。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8182,8 +8157,8 @@ DeFi 领域，根据 Defillama 数据，DeFi 的 TVL 从 2022 年 1 月的 1710 
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3883213408">
-        <time id="build-timestamp" datetime="2023-01-10T12:14:50.715Z">2023-01-10T12:14:50.715Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3883701128">
+        <time id="build-timestamp" datetime="2023-01-10T13:17:30.338Z">2023-01-10T13:17:30.338Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
