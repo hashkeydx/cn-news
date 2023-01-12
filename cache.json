@@ -3391,16 +3391,6 @@
           "wordCount": null,
           "title": "比特币波动指数昨日续跌至43.93，单日跌幅4.08%",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/flash/122680",
-          "author": null,
-          "description": "BlockBeats 消息，1 月 8 日，据 CoinGecko 数据显示，1 月 7 日加密市场总交易量为 411.67 亿美元，相较于 1 月 6 日（333.98 亿美元）单日涨幅 23.26%。",
-          "link": "https://www.theblockbeats.info/flash/122680",
-          "publishedOn": "2023-01-08T02:37:13.000Z",
-          "wordCount": null,
-          "title": "数据：昨日加密市场总交易量411.67亿美元，单日涨幅23.26%",
-          "imageUrl": null
         }
       ]
     },
@@ -3409,6 +3399,26 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5184480",
+          "author": "Moni",
+          "description": "本文来自 substack，作者：SBF\nOdaily 星球日报译者 | Moni\n\n2022 年 11 月中旬，FTX International 面临资不抵债。归根到底，这件事由 Voyager 和 Celsius 引发。\n是三件事结合在一起，共同导致了 FTX 内爆：\na) 在 2021 年期间，Alameda 的资产负债表增长到大约 1000 亿美元的资产净值、 80 亿美元的净借款（杠杆）和 70 亿美元的现金。\nb) Alameda 未能充分对冲其市场风险。 在 2022 年期间，股票和加密货币领域发生了一系列大范围的市场崩盘，导致资产市值下跌约 80% 。\nc) 2022 年 11 月，币安 CEO 促成了这场极端、迅速、有针对性的崩盘，导致 Alameda 资不抵债。\n然后 Alameda 的问题蔓延到 FTX 和其他地方，与三箭资金影响到 Voyager、Genesis、Celsius、BlockFi、Gemini 等加密公司类似。\n尽管如此，FTX 仍有可能恢复元气，FTX US 仍然有完全偿付能力，应该能够退还所有客户的资金。 FTX International 拥有数十亿美元的资产，而我几乎将我所有的个人资产都奉献给了客户。\n这篇文章是关于 FTX International 破产事件的，与 FTX US 无关，因为 FTX US 是完全有偿付能力的，且一直都是。\n当我将 FTX US 交给新任 CEO Ray 并申请破产时，公司手头上的净现金超过客户余额约 3.5 亿美元，FTX US 的资金和客户与 FTX International 是隔离的。荒谬的是，FTX US 用户还没有完全恢复并取回他们的资金，下表是我移交时 FTX US 资产负债表的记录：\n\n\nFTX International 是一家非美国交易所，在美国境外运营，在美国境外监管，在…",
+          "link": "https://www.odaily.news/post/5184480",
+          "publishedOn": "2023-01-12T14:13:44.000Z",
+          "wordCount": 81,
+          "title": "SBF最新发声：总结FTX崩盘的真正原因",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5184475",
+          "author": "区块律动BlockBeats",
+          "description": "原文作者： 加密 KOL Mesky\n原文编译： 0x214 ，BlockBeats\nOpFi 和 DPX 是什么？从链上期权采用到整个 DeFi 赛道，为什么这二者会开创一个全新的时代？听起来几乎是不可能完成的任务，本文将详细介绍 OpFi 和 DPX 如何实现这一宏伟目标。\n上周，加密 KOL@tztokchad在 Medium 上发布了一篇文章《Options, options, options》，详细介绍了关于OpFi的一些初步想法和应用。强烈建议先阅读该篇文章，这样有了语境后，更便于理解本文内容。\n\n本文将不会赘述 OpFi 应用，而是会对以下几个层面进行介绍：\n用极其简明的术语解释其概念。\n探求其对 DPX 的意义。\n评估其对 DeFi 的二次效应。\n简单来说，OpFi 就是 DeFi，但是由期权提供支持。通过极具创新性的后台期权使用，用户很快就可以在 DeFi 中做以前不可能做的事情。OpFi 是 DeFi 的圣杯，不再受限于链上 TradFi 应用。真正的创新。\n应用\n请记住，如果你想从用户的角度出发，请保持高度的简明和简短。\n\nAtlantic Straddles：押注波动性（只要涨幅和跌幅足够大，你就有钱赚。）\nAtlantic Insured Perps：最高级别杠杆做多，无法被清算。并且很快将会集成 GMX。\nPut-Based Lending：以最高 LTV（贷款价值比）贷款价值比借入，无法被清算。也允许非足额抵押贷款。\nSynthetic Option Perps：基本上就是优化的永续合约。即使被清算、还加了最高级别杠杆，用户依然可以坚持他们的多空方向。另外，因为有 decay，最低保证金要求会在接近到期日时下降，允许最大杠杆率大幅增加。\nStablecoin Option Vaults：脱锚投机，比 Curve 上兑换更便宜（视情况而定）。Curve 上固定利率，LP 的收益率更高。可以持续关注 Y2K Finance 和 Curve Finance 以获得最新动向。\n这些对 Dopex 意味着什么？\nTAM 大幅增长\n有了基础知识，我们就可以一起来看看本文的主旨内容——这对 Dopex 意味着什么？\n以上都是突破性的 DeFi 创新，这些产品中的任何一个都可以成为一个独立项目。然而，现在这些都来源于 Dopex。\n在 OpFi 概念之前，Dopex 的 TAM（Total Available Market，潜在市场总额）是加密期权市场，这个市场本身就很庞大。\n在 OpFi 概念之后，Dopex 的 TAM 变为期权、永续合约、借贷、稳定币兑换和波动率产品。毫不夸张地讲，这是多个数量级的范式转变。\n与 DEX、DeFi 无恶性竞争\n另外，Dopex 本身也与其它项目之间没有恶性竞争关系，因为像 Atlantic Insured Perps 这类产品可以被用于改善其它任何 DEX。GMX 已经在这么做了。\n价格低廉的强平保护机制，想想就知道会有多少用户愿意使用了。这是一个巨大优势，所有的 DEX 都会希望与其集成。\n由于秉承「动力并不来自于重新发明车轮，而是让车轮变得更好」，人们完成了从乘坐马车到汽车的转变。\nOpFi 将使我们今天所有已知的 DeFi 应用程序变得更好。\n费用\n那么费用呢？以上所有产品的任何费用均计入veDPX。目前还没有具体的费用结构，但预计 DPX 会在今年内产生大量费用。注意，要在保持流动性的同时获得最大锁定veDPX收益率...... 具体内容可以前往PlutusDAO查看。\n挑战\n大部分将于今年 Q1 上线。我认为实现这一切的最大挑战是流动性（这也是任何追求公平的期权项目所要面临的棘手难题）和用户教育。\n另外，OpFi 对 Orbital DEX 和 PlutusDao 也产生了广泛而深远的影响。三者间的协同作用只会进一步使其在各类竞争中脱颖而出，时间会给我们答案。\n链上期权年，DPX 身处最前沿\n话虽如此，我仍然对$DPX团队充满信心。在加密领域有太多东西可以进行割舍，但你永远不能与适应性、社区和强大团队所背离。Dopex 恰好具有这三种核心特质。\nDPX 的基本面从未如此乐观。我们都读过对 2023 年的预测，分析师们一直声称 2023 年将是链上期权的一年。而 DPX 正处于该叙述的最前沿，并且，其创新力度和方式已经超越了任何竞品。\n等这些产品上线后，我将用具体数据佐助更详细项目的介绍。 2023 年，Dopex 将巩固其「DeFi 巨擘」的地位、为 DeFi 领域中最好的应用程序提供支持、同时还将构建一些自己的应用程序。让我们拭目以待。\n原文链接",
+          "link": "https://www.odaily.news/post/5184475",
+          "publishedOn": "2023-01-12T13:00:00.000Z",
+          "wordCount": 81,
+          "title": "OpFi + DPX，今年DeFi的新方向？",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5184474",
           "author": "Foresight News",
@@ -4177,16 +4187,6 @@
           "publishedOn": "2023-01-08T04:00:00.000Z",
           "wordCount": 81,
           "title": "DAOrayaki & THUBA DAO：通过案例分析Web3社交流派之争",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184327",
-          "author": "康水跃",
-          "description": "我们常常看到很多 Crypto 与Web3产品在短时间内获得了不错的增长，但是用户又很快地流失了，最后项目进入“死亡螺旋”而宣告失败。在传统领域，股市对创业者以及产品的影响不那么大也不那么直接，但是在Web3领域，币市影响特别大：牛市鸡犬升天，熊市则消灭九成以上的项目。这些项目经常有一个共同特点就是在熊市背景下，项目方发行的 Token 价格一路阴跌，从而 Token 激励措施失效甚至反噬用户利益，导致用户流失严重。\n用户增长是产品的长期目标，其核心就是去建设产品与用户构成的系统，不断进行产品迭代，逐渐获得市场份额，实现用户规模和价值的持续增长。2022 年年初到年末，Collectibles、DeFi、GameFi、MarketPlaces 等头部 dApp 活跃地址数都出现不小降幅，而 Social&Media 则呈快速上涨趋势。下文记录了我对Web3用户增长的思考。\n\n表 1: 2022 年Web3各种应用活跃地址数变化\nWeb3用户增长基本思路\n币市牛熊周期对用户增长有着巨大的影响，但创业者不应当被宏观因子束缚住。做用户增长，首先是找到与产品相匹配的“市场”，也就是 PMF(Product Market Fit)里头的“M”——不要漫无边际贪心满足整个“M”或“大 M”，而应当结合自身产品特性和资源禀赋定位到符合自己的 M。之后先纵向做深，等取得单一市场第一梯队市场份额之后再考虑横向扩张。对于华人创业者来讲，放弃自己最擅长打交道的华语社区与华人用户是不明智的选择，这等同于放弃全球三分之一的 B 端与 C 端用户，等同于放弃了自己的基本盘。\n在产品设计与开发层面，最小可行产品 MVP(Minimum Viable Product)是非常不错的理念。它是指在推出产品过程中，先推出基本功能，能够在最核心场景满足最小业务闭环，然后根据市场反馈做迭代、优化和增强，最终迭代出符…",
-          "link": "https://www.odaily.news/post/5184327",
-          "publishedOn": "2023-01-08T02:50:54.000Z",
-          "wordCount": 81,
-          "title": "关于Web3用户增长的思考",
           "imageUrl": null
         }
       ]
