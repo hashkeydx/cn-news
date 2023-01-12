@@ -2284,16 +2284,6 @@
           "wordCount": 3588,
           "title": "Solana主网Beta Explorer和Solana基金会公共RPC端点因节点软件升级而离线",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/8tma71ng.html",
-          "author": "PA一线",
-          "description": "PANews 1月8日消息，去中心化期权协议Premia宣布收购结构化DeFi协议Knox Finance团队，未来将合作在Premia上构建下一代DeFi策略库。 据悉，Knox的旗舰产品是DeFi Options Vaults（DOV），提供自动化的收益策略，使承销期权的过程正规化以产生收益，Knox Vaults即将推出。",
-          "link": "https://panewslab.com/zh/articledetails/8tma71ng.html",
-          "publishedOn": "2023-01-08T06:39:24.000Z",
-          "wordCount": 3551,
-          "title": "去中心化期权协议Premia收购Knox Finance",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -4267,16 +4257,6 @@
           "publishedOn": "2023-01-08T07:57:14.000Z",
           "wordCount": 81,
           "title": "Arthur Hayes：孤立主义兴起，东西方世界与文明正在加速分裂",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184135",
-          "author": "SophonLabs",
-          "description": "Sui 在设计底层技术时考虑到了密码学的灵活性。该系统支持多种密码算法和 cryptography primitives（密码原语），并可以在它们之间快速切换。开发人员不仅可以为系统选择同类最佳的 best-of-breed cryptography（公开密钥密码体系），还可以实施最新的 algorithms（可用算法）。\nSui 在一个统一的类型别名或整个存储库共享的枚举包装器下定义其 cryptography primitives（密码学原语），例如公钥、签名、聚合签名和哈希函数。对这些原语进行更改会影响应用程序的所有组件。开发人员可以快速更新应用程序密码并确保统一的安全性。\n目前 Sui 通过执行交易端点支持以下用户交易签名方案：\n1.Pure Ed 25519 \n2.Secp 256 k 1 ECDSA\n用户账户密钥对的接口实现\n下面是 Sui 中密钥对表示的 Demo。扩展到新的签名方案非常简单：\n1.把它添加到 enum（枚举类）\n2.实现 fastcrypto 库中定义的 KeyPair trait\n\n用户签名通过扩展一个额外的 1 字节标志来序列化，该标志标识关联的签名方案。尽管 Sui 团队考虑过使用 Multiformats（用于自描述数据的协议），但其可变标志长度的性质使得序列化存在问题。相反，Sui 采用了单字节零起始标志模型。签名方案及其对应的标志定义如下：\n\n当用户提交签名交易时，交易执行指定以下参数：\n\nBSC（Binary Canonical Serialization）序列化 transaction bytes 为 Base 64  \n\nSignature scheme flag（签名方案标识），可以传参为“ed 25519 ”或“secp 256 k 1 ”\n\n公钥的 Base 64 格式\n\n其 scheme 对应的签名的 Base 64…",
-          "link": "https://www.odaily.news/post/5184135",
-          "publishedOn": "2023-01-08T06:30:00.000Z",
-          "wordCount": 81,
-          "title": "详解Sui密码学中的灵活性",
           "imageUrl": null
         }
       ]
