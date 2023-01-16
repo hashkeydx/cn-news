@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-16T05:07:31.882Z</updated>
+    <updated>2023-01-16T06:10:37.625Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[牛市死亡螺旋，GMX的机制缺陷将在牛市被无限放大？]]></title>
+        <id>https://www.odaily.news/post/5184525</id>
+        <link href="https://www.odaily.news/post/5184525"/>
+        <updated>2023-01-16T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：quantumzebra 123 
+
+“虽然 GMX 在当下的熊市里呼风唤雨，但它可能会在牛市中崩盘。”一个朋友最近又开始散播关于 GMX 的 FUD。“GMX 的机制设计会导致牛市中多头/空头头寸之间的不平衡，从而降低 GLP 回报，并引发死亡螺旋。”
+我的第一反应是把这当笑话看。
+GMX 是 2022 年表现最好的 DeFi 协议之一。牛市只会增加其热度并把 $GMX 价格推得更高。
+但在反复思考后，我意识到这并不完全是胡说八道。所以我试图用数据验证上述情形是否真的有可能发生。
+我的发现如下：
+在牛市中，基本不会有交易者在 GMX 上开空。
+由多头主导的 GMX 会在一定程度上降低 GLP 回报，但这并不意味着流动性提供者会因此退出。
+GMX 的机制缺陷在熊市中被掩盖了，但所谓的 GMX 牛市死亡螺旋理论站不住脚。
+我在下面详细分享我的分析，欢迎大家拍砖。我不在乎我是对还是错。我只关心我是否应该在下一个牛市到来时继续持有我的 $GMX。
+什么是 GMX
+在过去的半年里，GMX 的表现明显优于市场，而像 DYDX 这样的 DeFi 蓝筹项目的价格则一落千丈。
+
+GMX 提供零滑点的现货和保证金（杠杆）交易。GMX 让用户与 GLP 池进行交易，这与传统的 Perp 交易所不同。在传统的 Perp 交易所中，用户互为对手方。吹毛求疵的话，GMX 不能算 Perp 交易所，但是其保证金交易的用户体验与 Perp 非常相似。
+GLP 是 GMX 的资金池，其中约 50% 是稳定币，另一半是加密货币，如 $BTC（15% ）和 $ETH （35% ）。GLP 池是 GMX 上每笔交易的对手方。LP 通过将资产存入 GLP 池为 GMX 提供流动性。作为回报，GLP 持有者获得 GMX 平台产生的费用的 70% 。如果交易者亏钱，GLP 持有者还会赢得额外的收益，反之亦然…]]></summary>
+        <author>
+            <name>TokenInsight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023年值得我们关注的10大潜力叙事]]></title>
+        <id>https://www.odaily.news/post/5184524</id>
+        <link href="https://www.odaily.news/post/5184524"/>
+        <updated>2023-01-16T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：blocmates
+原文编译：深潮 TechFlow
+现在有足够多的项目在价格最底部，市值低得离谱。这使其有可能在 2023 年完成比较大的涨幅。另一方面，还有许多具有创新性未发币的项目也将上线。以下是它们的清单：
+
+关于哪些项目、领域和叙事将在 2023 年表现出色，已有许多预测。所以，这不是另一个预测，但我将在哪些领域放置我的筹码以及为什么告诉你。
+这个领域的发展非常迅速，如果有新的信息出现，我很乐意像往常一样改变我的看法。免责声明：这不是财务建议。
+集中流动性
+对普通用户/国库来说变得更有用，并且实际上变得有利可图 —— 最起码损失会降到最低。
+如果你知道自己在做什么，Uniswap V3 很棒，但大多数人不知道。
+
+对于普通用户来说，主动管理也是一个很大的进入障碍。
+
+作为投资，UNI 并不是我关注的重点。对我来说，我更感兴趣的是建立在 V3 和 CL 之上的项目。
+
+Arrakis Finance 和 PALM 在利用 Uni v3 的同时使 POL 变得轻而易举。Panoptic 利用 Uni v3 流动性的深度来提供期权……
+其他关于集中流动性的参与者：
+
+Trader Joe 的 LB，其中包括为 sJOE 质押者迁移到 Arbitrum 和 USDC 的收入份额。他们也可以去 UniSwap 不能去的地方，因为他们不受制于 Ethereum 基金会。
+
+GammaSwapLabs 允许人们对冲 IL，获取无常收益，并对波动性下注。他们的测试网现在已经上线......我不确定这是否是存在激励。
+
+
+
+Pool Sharks 允许 LPs 在上涨过程中自动买入配对中表现较好的资产，以保护 IL。
+
+期权 AMMs
+我不认为期权金库的叙事在 2023 年将会消失。
+目前在 Optimism 上的 Lyra Finance 将部署在 Arbitrum 上…]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盘点近期融资超千万的财会类项目]]></title>
+        <id>https://www.odaily.news/post/5184523</id>
+        <link href="https://www.odaily.news/post/5184523"/>
+        <updated>2023-01-16T04:05:53.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：flowie
+2022 年是负面事件频发的一年，同时也是加密监管倒逼行业合规划至关重要的一年，而加密财务透明合规可审计和加密税收也是重要的监管方向之一。
+美 SEC 主席 Gensler 在 FTX 破产后接受彭博社采访中便暗示监管机构仍将重点放在加密公司的财务记录上。“加密公司应该通过遵守久经考验的托管、客户资金隔离规则和会计规则来做到这一点。”
+而 2022 年加密财会领域已有一些重要政策的落地。一是美国财务会计准则委员会（FASB）关于公允价值会计的新规定 。2022 年 6 月，FASB 发布了一项裁决，要求公司在财务报表中报告加密资产时使用公允价值会计。也就是说公司在资产负债表上需要准确地报告其加密货币资产的价值，这对加密企业的财务管理提出了更高的要求。此外，FASB 曾在近日接受《华尔街日报》采访时透露，正致力于为持有比特币和其他加密资产的公司制定明确的会计和披露规则，并希望于 2023 年上半年发布提案。
+二是经济合作与发展组织（OECD）发布其新的全球税收透明度框架，即加密资产报告框架（CARF），该框架由 38 个成员国参与制定，多国政府已经确认将在 2023 年实施这些标准，其中包括欧盟成员国。CARF 草案包含了一些涉及与 DeFi 协议、稳定币和 NFT 相关的潜在税收报告规则的相关内容，在经合组织要求加密公司和平台提供额外数据后，可能会使企业或个人纳税更多。
+对于加密财务合规化监管势必趋严，这也倒逼加密领域的企业和个人在财务管理和合规上投入更多，加密财会相关的项目和创新在兴起。
+根据 RootData 数据，在 2022 年，有关于加密财务&会计&税务以及链上财务解决方案的加密项目融资频繁，有 20 多起该领域的融资事件，其中不乏红杉资本、Paradigim、Tiger Global、CoinbaseVentures、分布式资本等知名基金…]]></summary>
+        <author>
+            <name>链捕手</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Binance.US收购Voyager资产的最终听证会将于3月2日举行，用户回收资金价格的计算日暂未确定]]></title>
         <id>https://panewslab.com/zh/articledetails/603tq342.html</id>
@@ -27,6 +105,34 @@
         <summary type="html"><![CDATA[PANews 1月16日消息，据官方公告，DeFi收益聚合器Autofarm宣布完成500万美元私募融资，但未披露融资细节。该轮融资旨在将高级人工智能 (AI) 和机器学习 (ML) 技术集成到 Autofarm，使Autofarm能够动态分析现实世界的数据，识别盈利机会，并为跨多个区块链网络的最佳资产分配做出自主决策。Autofarm还将致力于开发新产品和功能，例如由AI/ML算法提供支持的自动化投资策略。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文盘点TON生态的主要应用]]></title>
+        <id>https://www.odaily.news/post/5184517</id>
+        <link href="https://www.odaily.news/post/5184517"/>
+        <updated>2023-01-16T03:28:18.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Maverick
+原文编辑：Colin Wu
+注：本文仅作信息分享，与所提项目无任何利益关联，不作任何背书。
+The Open Network 原生 Token TON 在过去的 2022 年表现亮眼。据 CoinMarketCap 数据，TON 在 2022 年 6 月触及最低点约 $ 0.75 后，涨至今日 $ 2 附近，涨幅超过 200% ，一跃成为流通市值第 22 名的加密货币。
+TON 可以说是最被低估的公链之一，其最初是由加密圈内三大社媒之一的 Telegram 的团队于 2018 年设计建立的完全去中心化的 Layer 1 区块链，具有可扩展和可分片性能，拥有超快速的交易、低廉的费用、易于使用的应用程序。然而，由于 2020 年法律纠纷，Telegram 团队最终同意与 SEC 达成和解，以被迫停止工作作为结局。Telegram 团队放弃 TON 项目后，社区开发者接手，并将其更名为如今的名字——The Open Network。
+The Open Network 使用 POS 机制，TON Token 主要功能为支付交易费用、结算付款和验证交易，根据 TON 基本参数得出的当前年通货膨胀率约为 0.6% 。
+值得在意的是，在 12 月末，TON 官推 @ton_blockchain 因不明原因遭到封禁。
+本文将盘点 TON 生态上的原生的主要应用。
+
+（图片来源：Coin 98 Analytics）
+1. 钱包
+
+Crypto Bot
+
+用户可以在 Telegram 使用 Crypto Bot 进行 Token 存储、转移、支付和交易，此外 Crypto Bot 还有 P2P 市场、订阅功能。使用 P2P 市场时，买家不收取任何费用，卖家收取 1% 的费用；使用交易功能时，Maker 和 Taker 均将收取 1% 的费用。
+
+@Wallet
+
+@…]]></summary>
+        <author>
+            <name>吴说</name>
         </author>
     </entry>
     <entry>
