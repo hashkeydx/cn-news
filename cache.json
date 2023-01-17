@@ -6,6 +6,56 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/ly42xy5v.html",
+          "author": "PA一线",
+          "description": "PANews 1月17日消息，Uniswap社区关于“部署Uniswap V3至BNB Chain”的提案投票已开启温度检查投票，该提案将授权0xPlasma Labs代表社区将Uniswap v3协议（费用等级：1，0.3，0.05，0.01）部署到BNB Chain。该投票将于1月22日12:00结束，若通过还需经过链上投票才能最终确定。",
+          "link": "https://panewslab.com/zh/articledetails/ly42xy5v.html",
+          "publishedOn": "2023-01-17T05:00:09.000Z",
+          "wordCount": 3576,
+          "title": "Uniswap社区关于“部署Uniswap V3至BNB Chain”的提案已开启温度检查投票",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/t730u0t3.html",
+          "author": "PA一线",
+          "description": "PANews 1月17日消息，根据安全机构Fairyproof检测，BSC上的OMNI Real Estate Token (ORT) 项⽬遭受攻击，攻击原因疑似为合约代码有漏洞。 攻击者地址为：0x9BbD94506398a1459F0Cd3B2638512627390255e，其中⼀个攻击合约为0x0eFfECA3dBCBcda4d5e4515829b0d42181700606，攻击初始gas来源FixedFloat热钱包，攻击者获利超过236个BNB，价值约70705美元。\n漏洞合约为项⽬的StakingPool合约，攻击交易⼊⼝为如图所示。在_Check_reward函数中，当durations 为0时，条件判断没有覆盖，会返回⼀个上次的全局变量值（预期外的值），造成奖励计算错误。 攻击者调⽤invest函数时， end_date输⼊为0，此时合约未验证⽤户输⼊，因此合约可以继续运⾏， duration[msg.sender]=0 ,⽽在_Check_reward函数中也未验证durations的值，并且在_Check_reward函数中使⽤了全局变量来参与计算，多重因素造成了⼀错误的奖励值。",
+          "link": "https://panewslab.com/zh/articledetails/t730u0t3.html",
+          "publishedOn": "2023-01-17T04:38:21.000Z",
+          "wordCount": 3603,
+          "title": "安全机构：OMNI Real Estate Token项⽬遭遇攻击，疑似因合约代码存在漏洞",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/4h1on94o.html",
+          "author": "PA一线",
+          "description": "PANews 1月17日消息，据Token Unlocks数据显示，5,681,818.43枚DYDX（约合829.5万美元）将于北京时间1月17日23:00开始解锁，此次解锁量占总供应量 0.568%，其中大部分为交易奖励代币。",
+          "link": "https://panewslab.com/zh/articledetails/4h1on94o.html",
+          "publishedOn": "2023-01-17T04:04:21.000Z",
+          "wordCount": 3561,
+          "title": "数据：超568万枚DYDX将于今日晚间解锁，占总供应量0.568%",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/xtwe4bl8.html",
+          "author": "PA一线",
+          "description": "PANews 1月17日消息，国家地理宣布将于美东时间1月17日推出首个NFT系列“早安：世界各地的黎明”。据悉，该系列将由十六位富有创意的摄影师将在全球范围内捕捉黎明构成，并向Web3社区和全世界发送他们对早安的问候。这16张图片中的每一张都将只发行118个版本，总共1888份。\n购买需提前在Snowcrash上创建一个帐户，并通过KYC身份验证，账户需提前存入至少215枚Matic（约200美元）。",
+          "link": "https://panewslab.com/zh/articledetails/xtwe4bl8.html",
+          "publishedOn": "2023-01-17T03:21:42.000Z",
+          "wordCount": 3550,
+          "title": "国家地理将于美东时间1月17日推出NFT系列“早安：世界各地的黎明”",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/psnyhqob.html",
+          "author": "PA一线",
+          "description": "PANews 1月17日消息，据彭博社报道，日本金融服务署战略发展和管理局副局长Mamoru Yanase表示：“加密货币的规模已经变得这么大了。如果你想实施有效的监管，你就必须像管理和监督传统机构那样做。”Yanase也曾从事银行监管工作，他表示：“引发最新丑闻的不是加密技术本身，而是治理松散，内部控制松懈，监管缺失。”\nYanase还表示，日本监管机构已“开始敦促”美国、欧洲和其他地方的监管机构，将加密货币交易所置于类似于银行和券商所面临的监管之下。各国“需要坚决要求”加密货币交易所采取措施，保护消费者和防止洗钱，此外还要有强有力的治理、内部控制、审计和披露。官员们也应该能够采取监督措施，比如对这些公司进行现场检查，以确保他们使用线下钱包妥善管理客户的资产。当大型加密货币公司倒闭时，各国可能有必要建立一个多国解决机制来协调。全球监管讨论的一个焦点可能是如何保持一致性。",
+          "link": "https://panewslab.com/zh/articledetails/psnyhqob.html",
+          "publishedOn": "2023-01-17T03:06:46.000Z",
+          "wordCount": 3553,
+          "title": "日本敦促全球机构像监管银行一样监管加密公司",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/ig7pyxwu.html",
           "author": "PA一线",
           "description": "PANews 1月17日消息，据Newsis报道，韩国知名游戏开发商Neowiz最近在阿拉伯联合酋长国 (UAE) 成立了一家致力于区块链业务的本地公司，并将瞄准全球市场。据悉，Neowiz首席执行官正在作为韩国-阿联酋经济代表团访问阿联酋首都阿布扎比，寻求与当地政府机构和企业的合作在区块链业务中。\n据悉，Neowiz是韩国著名的游戏公司，成立于1997年，旗下游戏有音乐游戏Tap Sonic、QQ音速、穿越火线、战地之王等等。",
