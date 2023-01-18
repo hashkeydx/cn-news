@@ -2,10 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-18T05:07:28.971Z</updated>
+    <updated>2023-01-18T06:10:37.456Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[2022年Web3开发者报告：新人开发者数创新高；DeFi开发者增加240%]]></title>
+        <id>https://www.odaily.news/post/5184577</id>
+        <link href="https://www.odaily.news/post/5184577"/>
+        <updated>2023-01-18T04:03:23.000Z</updated>
+        <summary type="html"><![CDATA[ElectricCapital 发布了 2022 年度区块链开发者报告，分析了多个生态提交的 2.5 亿份代码，以及 CoinGecko、CoinMarketCap、DappRadar、DefiLlama、Github、Gitlab 等数据，该份报告不覆盖“分叉”代码。
+以下是报告部分重点内容，来自 maria，由 Odaily星球日报编译，详细信息请浏览完整报告。
+尽管代币价格下降了 70% 以上，但每月活跃的开发者同比增长了 5% 
+
+截至 2022 年 12 月，每月仍有 23, 343 名开发人员。
+
+每月有超过 471, 000 次代码提交，用于开发开源加密（项目）。
+
+
+
+按照每月代码提交频率对开发人员进行细分。发现全职开发人员的增长速度 (+ 8% ) 最高，全职开发人员提交了 76% 的代码，并且随着时间的推移流失的可能性最小。
+
+
+
+
+2022 年有超过 61, 000 多名开发人员首次对行业做出贡献，创历史新高。
+
+
+加密市场价值回到了 2018 年 1 月的水平，但自 2018 年以来每月活跃的开发者增加了 297% 
+
+
+与之前的加密寒冬进行比较：比特币每月活跃开发人员增长了 3 倍，从 372 人增加到 946 人。比特币全职开发人员下降了 4% ，但兼职开发人员增长 9% ，一次性开发人员下降 32% 。自 2017 年以来，跨越市场周期，每年有 1000 多名新开发者为比特币网络做出贡献。
+
+
+
+
+以太坊是最大的加密生态系统，每月活跃开发人员增长了 5 倍，从 1084 人增加到 5819 人。 全职开发人员增加 9% ，兼职开发人员增加 6% ，有 16% 新开发人员在以太坊上提交代码。
+
+
+
+其他生态系统在 2018 年几乎不存在，但现在规模相当大，Solana、Near 和 Polygon 的开发人员同比增长 40% 以上，并且每月开发人员总数超过 500 人。Sui、Aptos、Starknet,、Mina、Osmosis、Hedera、Optimism 和 Arbitrum 的开发人员同比增长 50% 。
+
+
+其他数据的增长也令人印象深刻
+
+28% 的开发人员同时从事 BTC 和 ETH 开发。
+
+50% 的开发人员在网络价值前 200 名的项目中工作。
+
+22% 的开发人员在网络价值 200 名之外的项目中工作。
+
+
+
+开发社区需要数年时间才能达到一定规模并成长
+
+Polkadot、ETH、Solana、Polygon 花了数年时间才发展到 1000 多名开发人员。
+
+Polygon、Solana、Near、kusama 和 BNB Chain 用了小于 4 年的时间培养了 150 名全职开发人员，成为增长最快的新兴生态系统。
+
+
+
+多链开发人员正在增长
+
+37% 的生态系统中有 50 多名全职开发人员与 EVM 兼容。
+
+越来越多的开发者不止一条链上部署。
+
+
+
+Polkadot、Avalanche、BNB Chain、Celo、Arbitrum、Optimism 有更多的多链开发者。
+
+
+Defi 和 NFT 是加密货币中 gas 使用量最大的用例，其开发人员做得如何？
+
+自 DeFi Summer 以来，DeFi 开发人员增加了 240% 。
+
+每月有 500 名新开发人员加入 DeFi 。
+
+50% 的 DeFi  开发人员在以太坊之外工作。
+
+
+
+NFT 开发者社区有多大？
+
+每月有 900 多个开发者在开源的 NFT 项目上工作。
+
+自 2021 年以来每月开发者增加 299% 。
+
+NFT 全职开发人员增长 30% ，兼职人员下降 5% ，一次性贡献人员下降 27% 。
+
+
+
+
+但许多 NFT 项目是封闭源代码并且大多数 NFT 项目不需要大量的链上代码。
+
+越来越多的新钱包的第一笔交易是买卖 NFT，例如 2022 年 80% 钱包的第一笔交易与 NFT 相关。
+
+单按不同领域的开发人员统计，可能不是分析 NFT、GameFi 和 DAO 的正确方法
+在 NFT、GameFi 和 DAO 中，相对较少的开发人员可以构建可重用的组件，并且相对于社区参与而言，编写的智能合约代码量会很小。 例如，一个仅由一个开发人员编写的极少量代码可能会驱动一个大型 PFP NFT 社区。 或者在 GameFi 的情况下，大部分代码可能是链下和闭源的。因此使得从链上和开源数据的推断有一定难度。但我们认为社区参与信号是 NFT、GameFi 和 DAO 市场的一个重要且互补的领先指标。 我们正在研究几种收集社区数据和信号的新颖方法，并将在可用时分享我们的结果。]]></summary>
+        <author>
+            <name>十文</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[币安创新区将上线Rocket Pool（RPL）]]></title>
         <id>https://panewslab.com/zh/articledetails/f2vvuqw1.html</id>
@@ -47,6 +145,25 @@
         <summary type="html"><![CDATA[PANews 1月18日消息，据官方推特，由以太坊客户端Nethermind开发的新提款测试网Devnet 3上线。新测试网根据此前核心开发者会议的讨论结果，对提款格式进行了微小更改，提款格式中的字段金额从wei更改为gwei，之前的提款测试网Devnet已关闭。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[华尔街日报：金融大佬也「翻车」，DCG创始人如何摆脱困境？]]></title>
+        <id>https://www.odaily.news/post/5184583</id>
+        <link href="https://www.odaily.news/post/5184583"/>
+        <updated>2023-01-18T03:38:25.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：华尔街日报
+原文编译：Mary Liu，比推 BitpushNews 
+Digital Currency Group (DCG) 首席执行官 Barry Silbert 曾在传统金融市场耕耘多年，转战加密领域后成功缔造了他的 DCG 帝国，现在正在努力使其经纪公司免于破产。
+一年前，Barry Silbert 在 DCG 持有的 40% 股份价值超过 30 亿美元。DCG 是一家加密企业集团，触角几乎遍及从贷款到比特币挖矿等行业每个角落，该集团在康涅狄格州的豪华办公室拥有大理石装饰的厨房、咖啡师和法国大厨。
+
+Silbert 是一位 46 岁的金融资深人士，他的职业生涯始于帮助公司重组和应对经济低迷时期，与许多加密高管不同，他在推特上发布了他在数字资产中看到的风险行为的警告，暗示他预料到了可能出现的问题。
+如今，Silbert 正努力让 DCG 的贷款公司免于破产。DCG 的其他业务，如基金管理公司 Grayscale Investments、比特币矿企 Foundry 和媒体 CoinDesk 也面临着重大挑战。
+如果说加密交易所 FTX 和 Sam Bankman-Fried （SBF）的倒闭是由于缺乏经验和欺诈，那么 Silbert 公司的危机是过于乐观的金融家最容易犯的通病，包括增长太快，与错误的人做生意并大规模借款，就 DCG 而言，甚至是从子公司那里借钱。
+Silbert 复刻巴菲特的模式建立了自己的公司，其投资者或顾问包括美国前财政部长 Larry Summers、Silver Lake 联合创始人 Glenn Hutchins 和贝恩资本风险投资公司。即便如此，DCG 还是背负着沉重的债务来扩张。
+Digital Assets Data 曾是 DCG 风险投资组合的一部分，其创始人 Mike Alfred 说：「这个组织变得如此庞大，它的成功似乎也…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
