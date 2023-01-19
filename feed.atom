@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-19T03:10:46.841Z</updated>
+    <updated>2023-01-19T04:09:57.765Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文详解去中心化稳定币的现状与未来（下）]]></title>
+        <id>https://www.odaily.news/post/5184608</id>
+        <link href="https://www.odaily.news/post/5184608"/>
+        <updated>2023-01-19T04:01:10.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：SCapital
+相关阅读：
+一文详解去中心化稳定币的现状与未来（上）
+一文详解去中心化稳定币的现状与未来（中）
+引言：FRAX的算法部分与LUNA并无显著差别，但他高比例的USDC抵押和与市场信心挂钩的动态抵押率，降低了死亡螺旋的风险，在熊市展现了相当的韧性。此外，作为不与法定货币挂钩的浮动稳定币，RAI和FLOAT是两个有意思的尝试，它们不锚定任何法币，但追求价格的低波动率，期望成为加密世界的原生稳定币。
+Part algorithm, Part crypto-collateralized Stablecoin
+Frax Finance
+FRAX协议向加密世界介绍了一种去中心化稳定币，部分由抵押品支持、部分由算法稳定的概念。
+Basic Mechanism
+FRAX协议拥有一个双代币系统，包括稳定币FRAX和治理代币FXS， FRAX与美元挂钩，由稳定币（USDC）部分抵押。在这种模式下，允许FRAX同时得到抵押品和算法（FXS的销毁和铸造）的支持。除去USDC抵押部分，FRAX其实和LUNA非常相似。
+
+虽然目前FRAX协议支持多种抵押品，但是为了维持FRAX的稳定性，协议鼓励中心化稳定币USDC作为主要的抵押品，抵押率我们可以看做市场对FRAX的信心指数，会动态调整这也是区别于LUNA无限印钞模式最大的不同。换句话说，只有在抵押率为0 时，FRAX的铸造完全由FXS的销毁支持才是等同于LUNA的模式。
+当抵押品（USDC）和FXS被存入FRAX协议合约时，FRAX就被铸造出来。铸造1 个FRAX所需的抵押品数量由抵押率决定。换句话说，FRAX抵押率决定了构成1 美元FRAX价值的抵押品和算法之间的比例。
+如果FRAX的交易价格高于1 美元，说明市场需求大于供给，协议会降低抵押比例，从而减少了抵押品，增加了必须存入的FXS来铸造FRAX，这会降低支撑所有流通…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Poloniex的九周年：CEX如何穿越牛熊？]]></title>
+        <id>https://www.odaily.news/post/5184606</id>
+        <link href="https://www.odaily.news/post/5184606"/>
+        <updated>2023-01-19T03:55:48.000Z</updated>
+        <summary type="html"><![CDATA[2022 年，市场在牛熊转换之后，加密世界经历了动荡的一年。在这一年里，V神、CZ、SBF 陆续登上《财富》杂志封面。正当世界为了加密新贵的涌起而感叹之时，突如其来的黑天鹅却又让这一切戛然而止。
+5 月，随着 UST 的脱锚，巨人 LUNA 的轰然崩塌让加密世界开始进入黑天鹅时间。在随后短短的半年内，从三箭资本、Celsius、贝宝金融，到 Voyager Digital、BlockFi 等，我们见证了一个又一个巨人的倒下。
+而最为严重的行业危机，莫过于 FTX 的崩盘。
+而在行业陷入危机之时，波场 Poloniex 也在第一时间承担了行业责任。2022 年 11 月，正当市场受 FTX 崩盘影响之时，波场 TRON 创始人、Huobi Global 顾问委员会成员孙宇晨在回应称，TRON DAO、Huobi Global 和 Poloniex 将主动参与“行业复苏基金”，帮助优秀的建设者和开发商从危机中复苏。
+近日， Poloniex 迎来九周年。在加密世界这一黑天鹅成群的高风险市场，安全始终是投资者关心的第一要务。而“穿越牛熊”无疑是在这一市场中证明自己安全稳固的最好方式。在 9 年的时间里，Polonie 经历了诸多加密大事件，从 Mt.Gox 破产一路到政策清退、LUNA 崩盘、FTX 破产……如此之多的黑天鹅却并未对 Poloniex 的用户资产安全造成冲击，始终稳健运营。
+不得不说，作为一个老牌加密 OG，Poloniex 经受了时间的考验。
+“在 Poloniex 的九年里，我们曾多次引领行业变革，吸引了来自全球的交易者。除了不断优化升级的产品体验，为用户提供更优质的资产配置选择，不断降低用户的交易成本之外，更因我们的初心从未变过。我们深知，Poloniex 之所以能在瞬息万变的区块链领域保持旺盛的生命力，根源是恪守着让更多人感受到加密世界新体验的初心，坚持用…]]></summary>
+        <author>
+            <name>了了</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ZONFF Research：SocialFi1.0到2.0的发展现状与未来展望]]></title>
+        <id>https://www.odaily.news/post/5184602</id>
+        <link href="https://www.odaily.news/post/5184602"/>
+        <updated>2023-01-19T02:52:35.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《SocialFi 1.0 到 2.0 的现状、观察、思考与畅想｜ZONFF Research》
+原文作者：Victoria
+
+2021 年币安 CEO 赵长鹏 CZ 在《Fortune》印度版平台上就发表文章声称 22 年会有更多传统金融机构注资 Crypto 领域，除此之外，随着 SocialFi 和 GameFi 成为机构进入市场的关键驱动力，我们很可能在 22 年继续看到蓬勃的创新。
+
+加密世界的变化总比我们想象的要快速。还依稀记得 2021 年年底至 2022 年 1 月各大媒体平台都在宣传 CZ 对新的一年的展望是看好 SocialFi 和 GameFi，声称 2022 年将会是社交的元年。时间如白驹过隙，在 2022 年加密市场的起起落落中，DeFi 应用归于沉寂，NFT 项目地板价接连跳水，公链赛道冷冷清清，如此境遇下，SocialFi 虽低迷，但也在这一年遇到了属于它的些许高光时刻，新年伊始，让我们一起来回顾总结下 SocialFi 1.0 之 2022 年的发展 & 创新，并同时给予 2023 年 SocialFi 2.0 的新年展望，cheers to the new year resolution！
+SocialFi 1.0 的跌宕起伏
+或许，SocialFi 是有类似 GameFi 发展路径的，但是由于游戏的关注度远远高于社交，且拐点和阶段性变化出现特征明显（游戏更具有庞氏属性），对 SociaFi 缺少像游戏那样的 GameFi 1.0 - 3.0 的划分。这里，我们愿把 2022 年以前的 Web3 社交项目启蒙时期称为 SocialFi 1.0 。
+需求
+
+法国社会学家塔尔德在其《模仿律》一书中指出，「在人类的变革进程中，很少出现全新发明，更多的是改造和模仿」。
+
+什么是创新？创新可以是解决旧问题，也可以是创造新需求解决新问题。We…]]></summary>
+        <author>
+            <name>Zonff Partners</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Yuga Labs：Mailchimp漏洞可能导致用户数据被访问但未被导出，将继续调查此事]]></title>
         <id>https://panewslab.com/zh/articledetails/ic4mkada.html</id>
