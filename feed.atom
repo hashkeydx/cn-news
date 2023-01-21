@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-21T05:06:50.779Z</updated>
+    <updated>2023-01-21T06:09:08.844Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -14,6 +14,41 @@
         <summary type="html"><![CDATA[PANews 1月21日消息，据The Block报道，在美国当地时间周五的法庭听证会上，破产法官John Dorsey批准Sullivan & Cromwell律师事务所继续负责处理FTX破产重组。他表示，“本案没有任何实际冲突的证据“”。他还表示此前FTX US前合规官Dan Friedberg反对该律师事务所的指控是“道听途说、含沙射影、猜测、谣言”，且不允许Friedberg通过Zoom作证，因为他没有亲自出现在特拉华州。据此前消息，FTX US前合规事务负责人Daniel Friedberg提交了一份长达17页的声明，反对聘用Sullivan & Cromwell律师事务所负责本案，因为FTX US总法律顾问Ryne Miller曾担任Sullivan & Cromwell的合伙人。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文读懂ENS域名封装功能]]></title>
+        <id>https://www.odaily.news/post/5184627</id>
+        <link href="https://www.odaily.news/post/5184627"/>
+        <updated>2023-01-21T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Karen，Foresight News
+以太坊域名服务（ENS）的域名封装（ENS Name Wrapper）功能被视为 ENS 大规模采用和变革 Web3 的关键改进，有希望在两周后在主网上线。那 ENS 域名封装功能究竟是什么？为何如此重要？
+ENS 域名封装是什么？
+简单来说，该封装功允许将现有任意级别的 ENS 域名封装为 ERC-1155 代币，子域名可以作为单独的 NFT 存着，另外，父域名还能够对子域名进行更精细的管理控制，包括过期情况以及权限授予等，为 ENS 域名带来更多的灵活性。当前 ENS 子域名并不是作为单独的 NFT 创建的，因此转移和交易也是受限的。
+众所周知，ERC-721 是以太坊最基础且使用最广的 NFT 底层标准，是一种非同质化代币合约。对比之下，ERC-1155 同时支持同质化和非同质化代币，而且可批量转移和批量授权，对于子域名的控制、管理来说非常方便和高效。
+ENS 官方列出来的域名封装的其他优势和功能包括：
+
+允许父域名所有者放弃对子域名的控制，即「释放」。已释放的域名在过期之前，父域名不能以任何方式影响它。
+
+支持「锁定」域名，即域名持有者放弃 unwrap 域名的能力，也可以由父域名持有者在释放域名时同时锁定。一个「锁定」的域名可确保在过期之前该域名所有者和任何父域名所有者都不能影响它。「锁定」还可以撤销对域名的其他权限，包括创建子域名或设置解析器的能力。
+
+UI 和智能合约可以通过单个函数调用检查域名的状态。
+
+域名所有者可以直接创建封装子域名，而无需先注册再封装。
+
+一个域名的生命周期如图所示：
+
+即，一个域名在注册后可以进行封装，已注册域名也可以直接创建封装子域名，之后，二级域名可以在「封装」的时候会自动「释放」，其他情况下，父域名所有者可以放弃对子域名的控制，即「释放」，也可由父域名所有者在「释放」同时「锁定」，或者由子域名持有者自行「锁定」来放弃 unwrap 域名的能力。
+需要提醒的是，所有的 ENS 域名都是顶级域名 eth 的子域名，子域名又分为二级域名（如 apple.eth）、三级域名（1.apple.eth）等。例如，apple.eth 是 eth 的子域名， 1.apple.eth 也是 apple.eth 的子域名。不过，目前在多数情况下，ENS 子域名被认为是三级和三级以上域名。
+正如 ENS 团队成员 domico.eth 所讲，顶级域名 eth 的密钥已被 ENS 官方转交给公共合约，ENS 官方对 eth 域名没有访问权限，因此二级域名不需要担心有人会冒充。在 ENS Name Wrapper 功能中，父域名主要通过设置子域名的到期时间和销「PARENT_CANNOT_CONTROL」fuse 来放弃对子域名的控制。fuse 可以看作是一道门，当这道门打开时，父域名持有者可以执行特定操作，如控制子域名，也可以被永久性关闭，即「烧毁」，消除了父域名持有者再次访问子域名的能力，这与 ENS 交出 eth 的密钥非常相似。
+ENS 域名封装为何如此重要？
+从 ENS 域名封装周期就足以看得该功能的重要性。将域名封装为 ERC-1155 对于子域名的管理和控制来说一种与生俱来的天生优势，能够帮助域名持有者在很大程度上降低成本和提升效率。ENS 域名封装中的「释放」功能通过放弃对子域名的控制，能够给予子域名更多的灵活性，也是建立无需信任的子域名生态的关键一步。
+有了域名封装功能后，拥有自己公司名称域名的 Web2 公司可以为其供应商、采购商或者广大用户来分发或配置子域名，并且可以赋予一定的应用场景或效用。Web3 公司和项目也可以直接对其用户空投子域名，也可以通过子域名来加深与社区间的联系。此外，子域名交易、租借等场景也可能会展开。
+我们有理由认为，ENS 域名封装会给 Web3 大规模采用增加更多想象空间。
+哪类域名更能从域名封装功能中受益？
+Foresight News 此前在《ENS 掘金手册【篇一】：后来者机会何在？》中归纳了值得关注的域名类别。可以想象，域名封装功能推出后，能够扩展子域名的二级域名会更有吸引力。比如：名字类、姓氏类、公司名称类、项目名称类、通用定义、行业、产品类等。]]></summary>
+        <author>
+            <name>Foresight News</name>
         </author>
     </entry>
     <entry>
