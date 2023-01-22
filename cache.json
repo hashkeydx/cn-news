@@ -2024,36 +2024,6 @@
           "wordCount": 3636,
           "title": "流动性质押协议Diva完成350万美元种子轮融资，A&T Capital领投",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/45hbkkp3.html",
-          "author": "PA一线",
-          "description": "PANews 1月17日消息，据彭博社看到的一份债权人会议记录，Three Arrows Capital(三箭资本)联合创始人 Su Zhu 和 Kyle Davies 向一些债权人提供将他们的债权转换为新公司股权的选择权。Su Zhu 本人此前在 Three Arrows Capital 破产案中提出索赔，Kyle Davies 的妻子则被列为债权人。\n昨日消息，三箭资本创始人计划筹集2500万美元，与CoinFlex合作启动新加密货币交易所，旨在开始提供加密货币破产索赔交易。",
-          "link": "https://panewslab.com/zh/articledetails/45hbkkp3.html",
-          "publishedOn": "2023-01-17T14:07:22.000Z",
-          "wordCount": 3600,
-          "title": "三箭资本联创曾提议债权人将其债权转换为新公司股权",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/de73qrfb.html",
-          "author": "PA一线",
-          "description": "PANews 1月17日消息，据The Block报道，Web3 基础设施提供商 Parfin 已完成 1500 万美元的种子轮融资，Framework Ventures 领投，参投方包括 Alexia Ventures、Valor Capital Group 和巴西证券交易所的投资基金 L4 Venture Builder 等。L4 的投资还有待确认。Parfin 目前正在开发 Parchain，这是一种经过许可的 EVM 兼容区块链，将使受监管实体能够参 DeFi 和资产代币化。新的融资将使 Parfin 能够构建现有产品并推出新服务。\nParfin 成立于 2019 年，从一家计划开发受监管稳定币的公司开始，目前已发展成为一家为拉丁美洲金融机构提供数字资产托管、交易、代币化和管理工具的基础设施提供商。Parfin 的战略一直是专注于拉丁美洲地区，该公司现在有大约 70 名员工，其中一半以上来自银行业。",
-          "link": "https://panewslab.com/zh/articledetails/de73qrfb.html",
-          "publishedOn": "2023-01-17T13:16:00.000Z",
-          "wordCount": 3626,
-          "title": "Web3基础设施提供商Parfin完成1500万美元的种子轮融资，Framework Ventures领投",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/6pbz4n5a.html",
-          "author": "PA一线",
-          "description": "PANews 1月17日消息，美国银行（Bank of America）周二在一份研究报告中表示，央行数字货币（CBDC）和稳定币等数字货币是货币和支付的自然演变。CBDC不会改变货币的定义，但可能会改变未来15年价值转移的方式。央行数字货币有可能彻底改变全球金融体系，可能是货币史上最重大的技术进步。中央银行和政府有望通过利用私营部门来推动数字资产创新。",
-          "link": "https://panewslab.com/zh/articledetails/6pbz4n5a.html",
-          "publishedOn": "2023-01-17T12:45:10.000Z",
-          "wordCount": 3555,
-          "title": "美国银行：CBDC和稳定币等数字货币是货币和支付的自然演变",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3120,6 +3090,16 @@
       "siteUrl": "https://www.odaily.news",
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5184624",
+          "author": "十四君",
+          "description": "本文源于十四正在撰写的《UniSwap 从V1到V3的去中心化交易所之路》中用作资料援引，也发现市面文章的推导公式都颇为复杂，且重要逻辑转换缺乏描述，而无常损失又是 Dex 中 AMM 的重要部分，故单独成文。\n如读者对无常损失以及对应影响有兴趣的，亦可直接跳转文末阅读白话版本。\n本文推导基于 AMM 经典恒积公式\n\nAMM 机制简介可阅读：一文讲清-NFT市场新秀 SudoSwap 的 AMM 机制-创新挑战与局限\n部分公式中虚线系公式编辑器误操作，无实际意义\n如需 word 源文档可在公众号后台回复“无常损失”获取\nPart 1: 计算初始持有价值\n假定我持有若干 e 0(ETH) 以及若干 t 0(Token)，初始两者价值相等，如 1 e 0 = 10 t 0 ，用公式表达其 token 的价格（用 ETH 本位计）则 p 0 为:\n\n则我持有的总价值（用 ETH 计）等于数量*价格为:\n\n如果未进行Uniswap注入 Lp 的行为，则未来即使 token 对比 Eth 的价值变动，产生了新的价格，则我介时的资产总值 VH 为:\n\nPart 2 ：为 UniSwap 注入流动性\n我们可以将 ETH 和代币两者按一定比例注入流动性，这里方便计算假定为按总值各占 50% 的注入，流动性池会给我们 Lp 的凭证，如 10 个 LpToken 用于证明我们占据当前总流动性的分红权益股份。由于恒积公式，只有注入和抽离 LP 会改变 K 值（本文中均不算手续费收入）\n\n所以可以推导出计算当前 e 1 的数量公式：\n\n最终\n\n如此综合计算我们可以提取的流动性价值 VU 是\n\n此处得出 VU 的将构成后续无常损失部分的被减数，因此特地为 VU 推导了上诉的两个采用 e 1 以及不采用 e 1 的公式\nPart 3 ：无常损失公式推导\n依据 Part 1 我们得出了保持持有当前 to…",
+          "link": "https://www.odaily.news/post/5184624",
+          "publishedOn": "2023-01-22T02:00:00.000Z",
+          "wordCount": 1705,
+          "title": "解读Dex中的无常损失：原理、机制、公式推导",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.odaily.news/post/5184651",
           "author": "念银思唐",
           "description": "本文来自 The Block，原文作者：RT Watson\nOdaily 星球日报译者 | 念银思唐\n\n摘要：\n- DCG 投资了 Decentraland，而其领导者则借钱给 DCG 的子公司 Genesis Global，后者本周申请破产保护。\n- Genesis 似乎欠 Decentraland 创始人和一名关键高管数千万美元。\n加密货币领域“剪不断理还乱”的商业关系似乎已经变得如此普遍，市场可能对此已经麻木。\n以 Decentraland 为例，本周它与主要投资者 Digital Currency Group（DCG）的关系变得更加复杂——此前有消息称，Decentraland 的领导层似乎向 DCG 旗下的加密货币借贷机构 Genesis Global 借出了数千万美元。\n由首席执行官 Barry Silbert 运营并拥有 Genesis 的 DCG 不仅投资了 Decentraland，还成为了 Decentraland 最大的虚拟土地所有者之一。此外，同样由 DCG 拥有的 Grayscale 同时为一个名为 Decentraland Trust 的投资工具筹集了资金，该投资工具允许投资者被动地投资于该元宇宙平台的原生数字货币 MANA。\n然而，DCG 投资 Decentraland 时开始流动的大量资金似乎或多或少都回到了原点。\n虽然这些都不一定构成渎职行为，也可能归结为一个简单的案例，即企业家寻求丰厚的资金回报，但 Genesis 的破产文件公开了 Decentraland 的创始人将资金借给了 DCG 旗下借贷公司，而此时，加密世界正被几乎不间断的负面新闻所困扰，充斥着各种腐败和利益混杂的故事。\nGenesis 破产揭露了与 Decentraland 的联系\nGenesis Global 周四申请破产保护，并公布了 50 个拥有无担保债权的最大非内部实…",
@@ -3667,16 +3647,6 @@
           "publishedOn": "2023-01-17T14:56:37.000Z",
           "wordCount": 1562,
           "title": "加密行业遭遇「信任危机」，Silvergate 2022年Q4净亏损10亿美元",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184569",
-          "author": "DeFi之道",
-          "description": "原文作者：Jack Inabinet\n原文来源：Bankless\n原文编译：DeFi 之道\n图片来源：由 Maze AI 生成\n随着更广泛的宏观环境的好转，本周市场继续上涨。\nCPI 数字告诉了我们什么？我们应该怎么做？本文将对近期加密货币的 Pump 情况进行分析。\n加密货币行情回来了吗？\nBTC 在过去一周上涨了 23% 至 21100 美元。这让 Crypto Twitter 提出了一些重要的问题：\n1.加密货币触底了吗？\n2.现在是时候看涨了吗？\n本文将剖析美国消费者价格指数（CPI）数据的市场解读，审视周四波动交易背后的逻辑，并从他们不想让你看到的数据中提取出一些警告。\n让我们开始吧。\nPump 的背后是什么？\n美国劳工统计局周四（1 月 12 日）公布了 12 月 CPI 数据，随后的交易日一如既往地波动剧烈。\n\n资料来源：TradingView\n12 月的下降标志着 CPI 连续第三个月下降。“抗击通胀”总结了美联储在整个 2022 年的货币政策方针，美联储继续迫使其屈服。至关重要的是， 12 月的数据被许多宏观经济专家视为 CPI 反通货膨胀的开始，甚至可能出现通货紧缩趋势。\n同比 CPI 从 7.1% 下降到 6.5% ，CPI 比 11 月份的测量结果出乎意料地下降了 10 个基点。下降主要归因于更广泛的能源类别，经季节性因素调整后较上月下降 4.5% 。\n\n资料来源：美国劳工统计局\n然而，基于服务行业的通胀本质上比弹性价格的食品和能源商品更具粘性，并且仍然处于高位，从 12 月开始按市值计价上涨 0.5% 。顾名思义，粘性通胀成分的波动性低于 CPI 的商品衍生因素。\n到 2022 年，击退粘性通胀是美联储的首要任务。正如美联储主席鲍威尔所指出的，核心服务通胀（Core Service Inflation）是美联储理事会为预测经济健康状况和指导货币政策…",
-          "link": "https://www.odaily.news/post/5184569",
-          "publishedOn": "2023-01-17T13:00:00.000Z",
-          "wordCount": 1873,
-          "title": "Bankless：深度剖析当前宏观环境，加密市场行情回来了吗？",
           "imageUrl": null
         }
       ]

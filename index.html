@@ -51,11 +51,69 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-22 datetime="2023-01-21T23:04:37.000Z">2023-01-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-22 datetime="2023-01-21T23:04:37.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-22 datetime="2023-01-22T02:00:00.000Z">2023-01-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-22 datetime="2023-01-22T02:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184624"
+                        open
+                      >
+                        <summary class="article-expander__title">解读Dex中的无常损失：原理、机制、公式推导</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184624">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文源于十四正在撰写的《UniSwap 从V1到V3的去中心化交易所之路》中用作资料援引，也发现市面文章的推导公式都颇为复杂，且重要逻辑转换缺乏描述，而无常损失又是 Dex 中 AMM 的重要部分，故单独成文。
+如读者对无常损失以及对应影响有兴趣的，亦可直接跳转文末阅读白话版本。
+本文推导基于 AMM 经典恒积公式
+
+AMM 机制简介可阅读：一文讲清-NFT市场新秀 SudoSwap 的 AMM 机制-创新挑战与局限
+部分公式中虚线系公式编辑器误操作，无实际意义
+如需 word 源文档可在公众号后台回复“无常损失”获取
+Part 1: 计算初始持有价值
+假定我持有若干 e 0(ETH) 以及若干 t 0(Token)，初始两者价值相等，如 1 e 0 &#x3D; 10 t 0 ，用公式表达其 token 的价格（用 ETH 本位计）则 p 0 为:
+
+则我持有的总价值（用 ETH 计）等于数量*价格为:
+
+如果未进行Uniswap注入 Lp 的行为，则未来即使 token 对比 Eth 的价值变动，产生了新的价格，则我介时的资产总值 VH 为:
+
+Part 2 ：为 UniSwap 注入流动性
+我们可以将 ETH 和代币两者按一定比例注入流动性，这里方便计算假定为按总值各占 50% 的注入，流动性池会给我们 Lp 的凭证，如 10 个 LpToken 用于证明我们占据当前总流动性的分红权益股份。由于恒积公式，只有注入和抽离 LP 会改变 K 值（本文中均不算手续费收入）
+
+所以可以推导出计算当前 e 1 的数量公式：
+
+最终
+
+如此综合计算我们可以提取的流动性价值 VU 是
+
+此处得出 VU 的将构成后续无常损失部分的被减数，因此特地为 VU 推导了上诉的两个采用 e 1 以及不采用 e 1 的公式
+Part 3 ：无常损失公式推导
+依据 Part 1 我们得出了保持持有当前 to…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -6362,46 +6420,6 @@ Silvergate 表示，在第四季度末，其手头现金为 46 亿美元。�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184569"
-                        open
-                      >
-                        <summary class="article-expander__title">Bankless：深度剖析当前宏观环境，加密市场行情回来了吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184569">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Jack Inabinet
-原文来源：Bankless
-原文编译：DeFi 之道
-图片来源：由 Maze AI 生成
-随着更广泛的宏观环境的好转，本周市场继续上涨。
-CPI 数字告诉了我们什么？我们应该怎么做？本文将对近期加密货币的 Pump 情况进行分析。
-加密货币行情回来了吗？
-BTC 在过去一周上涨了 23% 至 21100 美元。这让 Crypto Twitter 提出了一些重要的问题：
-1.加密货币触底了吗？
-2.现在是时候看涨了吗？
-本文将剖析美国消费者价格指数（CPI）数据的市场解读，审视周四波动交易背后的逻辑，并从他们不想让你看到的数据中提取出一些警告。
-让我们开始吧。
-Pump 的背后是什么？
-美国劳工统计局周四（1 月 12 日）公布了 12 月 CPI 数据，随后的交易日一如既往地波动剧烈。
-
-资料来源：TradingView
-12 月的下降标志着 CPI 连续第三个月下降。“抗击通胀”总结了美联储在整个 2022 年的货币政策方针，美联储继续迫使其屈服。至关重要的是， 12 月的数据被许多宏观经济专家视为 CPI 反通货膨胀的开始，甚至可能出现通货紧缩趋势。
-同比 CPI 从 7.1% 下降到 6.5% ，CPI 比 11 月份的测量结果出乎意料地下降了 10 个基点。下降主要归因于更广泛的能源类别，经季节性因素调整后较上月下降 4.5% 。
-
-资料来源：美国劳工统计局
-然而，基于服务行业的通胀本质上比弹性价格的食品和能源商品更具粘性，并且仍然处于高位，从 12 月开始按市值计价上涨 0.5% 。顾名思义，粘性通胀成分的波动性低于 CPI 的商品衍生因素。
-到 2022 年，击退粘性通胀是美联储的首要任务。正如美联储主席鲍威尔所指出的，核心服务通胀（Core Service Inflation）是美联储理事会为预测经济健康状况和指导货币政策…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -6471,68 +6489,6 @@ Pump 的背后是什么？
                             <span class="media-object__text">
                               <span>PANews 1月17日消息，去中心化流动性质押协议 Diva 获得了由 A&amp;T Capital 领投的 350 万美元种子轮融资，其他投资者包括 Gnosis、Bankless、OKX Ventures、Metaweb、DCV Capital、Alphemy Capital、Very Early Ventures 和 Stake.vc。Metacartel、Aave、Staking Rewards、zkEVM、ZKValidator、EthGlobal、EigenLayer、Aragon、Stakely 等项目背后的其他天使投资人也加入了进来。
 Diva 将于 2023 年 1 月下旬上线。Diva 首席执行官 Pablo Villalba 表示，”Diva 是一个超轻型客户端，通过标准 API 连接到现有的以太坊执行和共识客户端。Diva 将允许质押者可以质押任意数量的 ETH，没有最低限额，并且不需要运行任何节点。另外，只需 1 个 ETH 参与者就可以建立一个节点。“</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/45hbkkp3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">三箭资本联创曾提议债权人将其债权转换为新公司股权</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/45hbkkp3.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月17日消息，据彭博社看到的一份债权人会议记录，Three Arrows Capital(三箭资本)联合创始人 Su Zhu 和 Kyle Davies 向一些债权人提供将他们的债权转换为新公司股权的选择权。Su Zhu 本人此前在 Three Arrows Capital 破产案中提出索赔，Kyle Davies 的妻子则被列为债权人。
-昨日消息，三箭资本创始人计划筹集2500万美元，与CoinFlex合作启动新加密货币交易所，旨在开始提供加密货币破产索赔交易。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/de73qrfb.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3基础设施提供商Parfin完成1500万美元的种子轮融资，Framework Ventures领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/de73qrfb.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月17日消息，据The Block报道，Web3 基础设施提供商 Parfin 已完成 1500 万美元的种子轮融资，Framework Ventures 领投，参投方包括 Alexia Ventures、Valor Capital Group 和巴西证券交易所的投资基金 L4 Venture Builder 等。L4 的投资还有待确认。Parfin 目前正在开发 Parchain，这是一种经过许可的 EVM 兼容区块链，将使受监管实体能够参 DeFi 和资产代币化。新的融资将使 Parfin 能够构建现有产品并推出新服务。
-Parfin 成立于 2019 年，从一家计划开发受监管稳定币的公司开始，目前已发展成为一家为拉丁美洲金融机构提供数字资产托管、交易、代币化和管理工具的基础设施提供商。Parfin 的战略一直是专注于拉丁美洲地区，该公司现在有大约 70 名员工，其中一半以上来自银行业。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/6pbz4n5a.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国银行：CBDC和稳定币等数字货币是货币和支付的自然演变</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6pbz4n5a.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月17日消息，美国银行（Bank of America）周二在一份研究报告中表示，央行数字货币（CBDC）和稳定币等数字货币是货币和支付的自然演变。CBDC不会改变货币的定义，但可能会改变未来15年价值转移的方式。央行数字货币有可能彻底改变全球金融体系，可能是货币史上最重大的技术进步。中央银行和政府有望通过利用私营部门来推动数字资产创新。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
@@ -8622,8 +8578,8 @@ Not Boring Capital 2022 年投资了包括基于 Solana 的房地产数字化投
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3977320253">
-        <time id="build-timestamp" datetime="2023-01-22T00:42:32.004Z">2023-01-22T00:42:32.004Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/3977634480">
+        <time id="build-timestamp" datetime="2023-01-22T02:13:23.167Z">2023-01-22T02:13:23.167Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
