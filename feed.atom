@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-22T04:08:49.430Z</updated>
+    <updated>2023-01-22T05:06:56.919Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[以太坊合并后，DVT分布式验证将成为重要的关键性技术]]></title>
+        <id>https://www.odaily.news/post/5184607</id>
+        <link href="https://www.odaily.news/post/5184607"/>
+        <updated>2023-01-22T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2022 年 9 月 15 日，以太坊区块链完成了 7 年以来最重要的合并，即从 PoW 过渡到权益证明 PoS 共识机制。除去减少能耗、降低门槛，人们也在担心 PoS 的共识机制会带来更大范围的网络集中控制，因为 PoS 会赋予持有大量股份的人更多的投票权。故而，合并完成后，开发者需要参与开发、测试，尽可能减少潜在的网络故障、提高去中心化程度，扩展网络。
+以太坊路线图显示，分布式验证技术将是以太坊合并后的下一个关键。根据 Messari 的最新报告，DVT 能够提高验证器的安全性，DVT 或会是以太坊网络的主要发展之一。
+
+DVT 是什么?
+分布式验证技术，Distributed Validator Technology（简称 DVT） 类似于共识投票的多重签名，它能允许以太坊 PoS 验证器在多个节点或机器进行，从而验证者可以在多个节点进行投票，支持以太坊验证其分布式操作是该技术的核心目的。这一技术最早出现在以太坊基金会成员的研究论文中，原被称为 SSV。通过 3-of-4 设置（概念见下），DVT 允许个人、团体或者社区的节点共同组成单个验证器。DVT 通过为验证者增加容错层，提高容错率，在验证过程中，某一节点出现故障，验证器依旧可以继续运行，从而消除了单点故障、双重签名惩罚、分叉惩罚的可能性。
+
+相关概念
+
+共识（Consensus）：单个验证者的职责被分配给多个共同验证者，签署消息需要共同验证者就投票达成一致。
+
+M-of-N 阈值签名：验证者的私钥将会分为 N 份，每位验证者持 1/N，当 M 个验证者投票达成一致签署后，即可完成签名。
+
+工作原理
+DVT 由 4 个关键部分组成：分布式密钥生成、BLS 签名的 Shamir 密钥共享、安全多方计算和 DVT BFT 共识层。
+
+分布式密钥生成（DKG）：由所有参与者分配加密私钥，从而防止一方直接控制整个私钥。
+…]]></summary>
+        <author>
+            <name>TinTinland</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[币安：Signature Bank将于2月起不再支持10万美元以下的加密货币交易]]></title>
         <id>https://panewslab.com/zh/articledetails/1g879i0e.html</id>
