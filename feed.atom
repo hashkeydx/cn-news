@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-23T00:40:22.933Z</updated>
+    <updated>2023-01-23T02:09:11.710Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -2887,71 +2887,6 @@ LunarCrush 的 Joe Vezzani 是最早加入 Draper Round Table 的投资者�
         <updated>2023-01-18T14:22:00.000Z</updated>
         <summary type="html"><![CDATA[PANews 1月18日消息，据CoinDesk报道，面向另类资产投资者的金融科技公司 Arch 于周三宣布推出其首款加密借贷产品，该公司还宣布已完成一轮 275 万美元的融资，该融资于去年下半年结束。这笔资金将有助于发展团队和金融合作伙伴关系，Arch 还将借出部分资金。
 总部位于纽约的 Arch 平台成立于 2022 年 2 月，允许用户通过组合另类资产（从加密货币开始）进行抵押贷款。这些贷款由 BitGo 托管，以美元或 USDC 稳定币计价（可以以两者的任意组合偿还）。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[21Shares推出加密货币质押指数ETP]]></title>
-        <id>https://panewslab.com/zh/articledetails/8j9ibtqn.html</id>
-        <link href="https://panewslab.com/zh/articledetails/8j9ibtqn.html"/>
-        <updated>2023-01-18T13:30:56.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月18日消息，欧洲加密 ETP 发行商 21Shares 与指数提供商 Vinter 合作推出加密货币质押指数 ETP”21Shares Staking Basket Index ETP“，该 ETP 追踪基于 PoS 区块链的原生代币，包括 BNB、ADA、ATOM、DOT、SOL、XTZ。该指数将在 3 月和 9 月进行每半年一次的重新平衡，以反映市场变化。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密衍生品服务提供商IPOR Labs正式启动Uniswap池]]></title>
-        <id>https://panewslab.com/zh/articledetails/tbyljbq4.html</id>
-        <link href="https://panewslab.com/zh/articledetails/tbyljbq4.html"/>
-        <updated>2023-01-18T13:30:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月18日消息，链上利率衍生品服务提供商IPOR Labs于今日北京时间晚8点正式启动Uniswap池。据悉，IPOR Labs已于去年8月将其IPOR（Inter-Protocol Overblock Rate）协议在以太坊主网上线。该协议由IPOR 指数、利率衍生品、流动性池和自动做市商 (AMM)组成，其中IPOR指数为协议的核心，它基于实际的标准化基准利率智能合约交易和 IPOR 利率衍生品 DEX，将允许交易者对冲、套利或对利率变动采取定向头寸，以管理其在以太坊上的信用投资组合的风险。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[浅谈MEV是不是一个好的投资机会？]]></title>
-        <id>https://www.odaily.news/post/5184596</id>
-        <link href="https://www.odaily.news/post/5184596"/>
-        <updated>2023-01-18T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Zixi
-MEV 最初是指矿工可提取价值（Miners extractable value），应用于工 POW 下，是衡量矿工通过在其生产的区块内任意添加、排除或重新排序交易的能力所能获得的利润。MEV 不仅限于基于工作量证明 (PoW) 的区块链中的矿工，而且还适用于权益证明 (PoS) 网络中的验证者。最大可提取价值 (Maximal extractable value MEV) 是指在 POS 下，·验证者通过添加、删除并更改区块中的交易顺序，在超过标准区块奖励和 gas 费用的区块生产中所能提取的最大价值。现在 MEV 一般代指最大可提取价值。
-现在以太坊过渡到 POS 后，任何用户质押 32 ETH 就能成为 validator。在每个出块的时间里面，会随机选择一个验证者作为区块 proposer，来将交易打包执行成一个新状态，随后这个 proposer 将此区块打包给其他 validator 进行验证。从上述描述中，似乎应该是 validator 想办法排列区块的交易排序以此才能有利可图。但实际上，大部分 MEV 是有 Searcher 来进行排列的。这是因为 Searcher 需要具备专门的算法技术，进行搜索计算排序。Searcher 通过其算法在 Mempool/ 私域频道等提交给 proposer，proposer 随后会将其打包至区块链中。MEV 表现之一就是三明治攻击（夹子）。
-MEV 有利有弊。优点在于：能够提高 DeFi 高效率，依靠 Searcher 能够迅速扳平价差。缺点在于有的 MEV 极度影响用户体验，例如被攻击的用户会面临更高的滑点和极差的用户体验，且由于 gas priority fee 的存在，searcher 会有时大幅拉升 gas 费用，导致网络拥堵和很差的用户体验。
-
-图 1 ：以太坊头部 10 个 DeFi 历年来来…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[腾讯成立“元宇宙”金融团队]]></title>
-        <id>https://panewslab.com/zh/articledetails/buzy2x14.html</id>
-        <link href="https://panewslab.com/zh/articledetails/buzy2x14.html"/>
-        <updated>2023-01-18T13:21:31.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月18日消息，据《科创板日报》报道，记者从腾讯内部获悉，腾讯云日前成立全真互联金融团队。据了解，该团队将依托腾讯云实时音视频TRTC、AI、数智人、云渲染、数字孪生等优势产品能力，探索新一代金融场景全真交互解决方案，推动全真互联在金融行业落地。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeFi初创公司Blue完成320万美元融资]]></title>
-        <id>https://panewslab.com/zh/articledetails/8p8qp78h.html</id>
-        <link href="https://panewslab.com/zh/articledetails/8p8qp78h.html"/>
-        <updated>2023-01-18T12:49:35.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月18日消息，为DeFi协议交易者提供 KYC/AML 解决方案的初创公司Blue宣布完成320万美元融资，本轮融资由Blockchange Ventures和Fenbushi Capital共同领投，DoraHacks、Knollwood Investment Advisory、Gate.io 和 Wave Financial 等参投。Blue 将使用该轮融资资金完成审计，并扩大核心团队，在 2023 年第一季度将公司获得许可的 DeFi 解决方案推向市场。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[币安在波兰注册为虚拟资产服务提供商]]></title>
-        <id>https://panewslab.com/zh/articledetails/qop4fy06.html</id>
-        <link href="https://panewslab.com/zh/articledetails/qop4fy06.html"/>
-        <updated>2023-01-18T12:42:31.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月18日消息，币安宣布已在波兰注册为虚拟资产服务提供商，币安已在波兰注册实体 Binance Poland sp. z o.o.，未来在波兰的业务将通过 Binance Poland sp. z o.o.展开。币安波兰地区经理 Katarzyna Wabik 表示，币安已采用风险防范和反洗钱策略来符合当地监管标准，未来计划招聘本地人才以加强在当地的影响力。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
