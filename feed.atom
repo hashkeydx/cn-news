@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-25T06:10:03.212Z</updated>
+    <updated>2023-01-25T07:07:12.342Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[如何在Layer3上建造安全高效的DEX]]></title>
+        <id>https://www.odaily.news/post/5184554</id>
+        <link href="https://www.odaily.news/post/5184554"/>
+        <updated>2023-01-25T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Fox Tech CEO 康水跃，Fox Tech CTO 林彦熹
+Layer 3 概念目前在区块链社区备受关注，被许多人视为革命性的进步，因为开发者可以在区块链平台之上创建各式各样的智能合约和去中心化应用（dApps）。Layer 3 是以太坊扩容生态系统的一项伟大工程创新。如果说 Layer 2 的出现解决了通用型扩容问题，那么 Layer 3 的出现则解决了更加高速、更加低成本、定制化的扩容问题。
+目前已经有不少建立在 Layer 2 上的去中心化交易所 DEX，那为什么还需要在 Layer 3 上建立 DEX 呢？大多数建立在 Layer 2 上的 DEX 均采用 AMM 模式，少数采用订单簿模式的 Layer 2 DEX，比如 ZigZag，其交易成本比 CEX 高出一截。不管是 AMM 模式还是订单簿模式，Layer 3 上 DEX 的交易速度、成本都会有更好的用户体验。
+Layer 3 完全可以建造出安全高效的 DEX 的原因有以下几点：
+
+Layer 3 的 DEX 可采用与 Layer 1 Solidity 相比更强大的语言写撮合引擎比如 Rust；
+
+Layer 3 能高度定制，简化用户交易步骤，不必在每次下单都调用钱包授权；
+
+Layer 3 的 TPS 相比 Layer 2 再次提升 100 倍数量级，成本再次降低 1/100 数量级，支持 Orderbook 模式；
+
+Layer 3 与 Layer 2 一样，二者的的共识层均由 Layer 1 担当，安全性等级足够高；
+
+Layer 3 有独立的数据可用性层，链外交易与资产状态的可见性均能轻易获知、获得；
+
+用户可以使用 EOA 钱包或者智能合约钱包实现资产自托管，更好保障资产安全。
+
+
+图 1: DEX 从 Layer 1 到 Layer 3 的性能变化
+区块链基础设施的分层结构
+目前…]]></summary>
+        <author>
+            <name>Fox Tech</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[沙特央行仍在研究CBDC，但尚未决定部署]]></title>
         <id>https://panewslab.com/zh/articledetails/n5p4zxou.html</id>
