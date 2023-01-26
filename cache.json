@@ -1544,16 +1544,6 @@
           "wordCount": 3558,
           "title": "币安：Signature Bank将于2月起不再支持10万美元以下的加密货币交易",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/sa93cf8b.html",
-          "author": "PA一线",
-          "description": "PANews 1月22日消息，Circle首席执行官Jeremy Allaire在推特发文称，Circle的跨链传输协议 (CCTP) 即将推出。该基础设施有助于构建基于USDC的更具可扩展性、高效、安全和用户友好的应用程序。",
-          "link": "https://panewslab.com/zh/articledetails/sa93cf8b.html",
-          "publishedOn": "2023-01-22T01:31:05.000Z",
-          "wordCount": 3559,
-          "title": "Circle即将推出跨链传输协议",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2887,16 +2877,6 @@
           "publishedOn": "2023-01-22T04:00:00.000Z",
           "wordCount": 1788,
           "title": "以太坊合并后，DVT分布式验证将成为重要的关键性技术",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184624",
-          "author": "十四君",
-          "description": "本文源于十四正在撰写的《UniSwap 从V1到V3的去中心化交易所之路》中用作资料援引，也发现市面文章的推导公式都颇为复杂，且重要逻辑转换缺乏描述，而无常损失又是 Dex 中 AMM 的重要部分，故单独成文。\n如读者对无常损失以及对应影响有兴趣的，亦可直接跳转文末阅读白话版本。\n本文推导基于 AMM 经典恒积公式\n\nAMM 机制简介可阅读：一文讲清-NFT市场新秀 SudoSwap 的 AMM 机制-创新挑战与局限\n部分公式中虚线系公式编辑器误操作，无实际意义\n如需 word 源文档可在公众号后台回复“无常损失”获取\nPart 1: 计算初始持有价值\n假定我持有若干 e 0(ETH) 以及若干 t 0(Token)，初始两者价值相等，如 1 e 0 = 10 t 0 ，用公式表达其 token 的价格（用 ETH 本位计）则 p 0 为:\n\n则我持有的总价值（用 ETH 计）等于数量*价格为:\n\n如果未进行Uniswap注入 Lp 的行为，则未来即使 token 对比 Eth 的价值变动，产生了新的价格，则我介时的资产总值 VH 为:\n\nPart 2 ：为 UniSwap 注入流动性\n我们可以将 ETH 和代币两者按一定比例注入流动性，这里方便计算假定为按总值各占 50% 的注入，流动性池会给我们 Lp 的凭证，如 10 个 LpToken 用于证明我们占据当前总流动性的分红权益股份。由于恒积公式，只有注入和抽离 LP 会改变 K 值（本文中均不算手续费收入）\n\n所以可以推导出计算当前 e 1 的数量公式：\n\n最终\n\n如此综合计算我们可以提取的流动性价值 VU 是\n\n此处得出 VU 的将构成后续无常损失部分的被减数，因此特地为 VU 推导了上诉的两个采用 e 1 以及不采用 e 1 的公式\nPart 3 ：无常损失公式推导\n依据 Part 1 我们得出了保持持有当前 to…",
-          "link": "https://www.odaily.news/post/5184624",
-          "publishedOn": "2023-01-22T02:00:00.000Z",
-          "wordCount": 1705,
-          "title": "解读Dex中的无常损失：原理、机制、公式推导",
           "imageUrl": null
         }
       ]
