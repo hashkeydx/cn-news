@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-28T12:12:39.027Z</updated>
+    <updated>2023-01-28T13:11:16.690Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Aave V3正式上线，一览新版四大重要特征]]></title>
+        <id>https://www.odaily.news/post/5184694</id>
+        <link href="https://www.odaily.news/post/5184694"/>
+        <updated>2023-01-28T12:15:00.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：Aave
+原文编译：DeFi 之道
+
+1 月 27 日，DeFi 借贷协议 Aave 宣布其 V3 版本已部署在以太坊主网上。以太坊网络是 Aave 部署的第一个也是其最大的市场。V3 是迄今为止对 Aave 协议最重要的升级，是 Aave 社区对安全性、资本效率和风险管理不懈追求的结果。
+V3 于 2022 年 3 月首次部署在六个网络中，包括 Polygon、Avalanche、Arbitrum 和 Optimism。在这些网络上经过测试后，本周 Aave Governance 投票决定在以太坊主网上部署 V3。
+Aave V3 是什么？
+Aave V2 在其前身 V1 的基础上于 2020 年 12 月推出。DeFi 生态系统的指数级增长促使 Aave 团队开始专注于 Aave V3，引入了重要的新风险缓解功能并提高了资本效率。在推出后的短短 2 年多时间里，Aave 协议在 Aave 协议 V2 和 V3 市场上拥有约 65 亿美元的 TVL（截至 2023 年 1 月 27 日）。
+V3 的设计采用灵活的架构以提高可组合性，并使在协议之上构建各种创新功能成为可能，例如提供额外安全性和稳定性的新风险管理工具。示例包括供应和借入上限以及风险和列表管理员。Aave V3 还提高了资本效率和分散的流动性，同时将 gas 费降低了 25% 。
+高效模式
+该模式也称为“E - 模式”，当用户提供的抵押品与他们存入和现在借入的资产相关时，用户可以获得更高的借贷能力，从而使用户能够最大程度地利用抵押品并提高资本效率。
+
+当供应资产和借入资产的波动性相关时，特别是当两种资产属于同一类别时，例如与美元挂钩的稳定币，这便是 E-Mode 的用武之地。让我们看一个例子：
+如果用户供应质押型 ETH (stETH) 并想借入 ETH，因为它们是相同的资产，波动性是相关的。在 Aave V2 中，用户现在的借贷率为 82.5% 。而在 V3 中，用户可以访问 E-Mode，允许用户在资产链接时拥有高达 97% 的借贷能力。
+隔离模式
+在该模式上市的资产与主要资产流动性隔离。资产可以作为抵押品提供，仅用于借入稳定币，在不影响主要市场的情况下解锁流动性较低的资产的上市。流动性风险可以被隔离，因为隔离模式允许在 Aave 上列出更多资产作为抵押品，同时保持协议的安全性。
+
+提供孤立资产作为抵押品的借款人不能提供其他资产作为抵押品（不过他们仍然可以供应以获取收益）。使用隔离抵押品的借款人只能借入 Aave 治理允许在隔离模式下可借入的稳定币，最高可达指定的债务上限。
+gas 优化
+所有功能的 Gas 成本全面降低了 25% 左右！协议的升级带来了巨大的逻辑改进，使代码更具可读性、模块化和优化。此外，它还增加了一个新的简化版本的 flashLoan 功能，允许用户以最小的 gas 成本借出单一资产。这种优化最终有利于用户，允许与 Aave 协议进行更低成本的交互。
+
+有关 Aave V3 功能的更多详细信息，请阅读技术论文或开发人员文档。可以在此处找到 Aave Ethereum V3 地址列表。
+V3 迁移工具
+如果你想将你的资产从 Aave V2 移动到 Aave V3，你现在可以使用 V3 迁移工具！
+这个迁移工具帮助并引导您在 V2 仪表板上通过一次交易将您的头寸从 V2 迁移到 V3。
+您需要做的就是：
+
+选择您要迁移的供应和借用
+
+点击“预览交易并迁移”
+
+签署每个头寸的交易批准 *
+
+提交迁移交易
+
+如果您有开放的仓位，迁移工具将在 V2 和 V3 上通知您新的健康因子（Health Factor）。请注意这个新的健康因子，以减轻清算风险。
+每个供应仓位都需要迁移合约批准才能转移 aTokens，每个借贷头寸都需要信用委托批准迁移合约才能在 V3 中代表你执行借贷。这两种批准都可以通过签名消息或批准交易来执行。
+以太坊区块链上的复杂操作可能代价高昂。如果你在主网上有大量借入并存入 V2 的资产，你可以分批迁移。但是，建议在单个迁移交易中迁移不超过 5 种资产。
+如果您不愿意，则不需要迁移您的 V2 资产。V2 合约始终在运行，并且将来仍可访问。
+迁移工具结合使用信用委托和闪电贷来迁移头寸。该工具从 Aave V2 获取用户提供的资产、借入头寸、金额和债务类型。使用闪电贷和信用委托，在 V2 上偿还债务，在 V3 上代表用户借入相同的头寸和金额，将用户债务留在 V3 上。]]></summary>
+        <author>
+            <name>DeFi之道</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SBF律师：SBF应被允许访问FTX/Alameda的资产和加密货币]]></title>
         <id>https://panewslab.com/zh/articledetails/qgz94oj1.html</id>
@@ -15,6 +63,35 @@
 今日早间消息称，美国检方要求法官收紧SBF的保释条件，因其曾试图联系潜在证人。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现实资产代币化将成为Web3金融世界的重要突破口]]></title>
+        <id>https://www.odaily.news/post/5184693</id>
+        <link href="https://www.odaily.news/post/5184693"/>
+        <updated>2023-01-28T11:15:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Chí Phan
+原文编译：深潮 TechFlow
+证券化带来了股权和固定收益资产的中心化。在 2022 年的加密货币熊市中，现实世界资产代币化成为一个热门话题，这种方法有望利用公共区块链技术来释放另类资产资本市场份额的增长。
+公共区块链和证券代币化可以成为实现更深入的流动性和降低交易成本的下一个技术步骤，从而提高资本效率，并在全球范围内接纳新的投资者群体。
+证券化的诞生和成功
+现代的股权和债务概念，指的是对公司现金流或现金支付的要求，可以追溯到 17 和 18 世纪现代公司的发展。在证券被发明之前，存在两种有效的商业融资方式：
+– 向熟人借钱（债务）。
+– 与熟人建立业务合作伙伴或投资者关系（股权）。
+然而，这些非正式和不规范的做法给投资者和企业带来了重大的社会和地理准入障碍。然后，证券化的机制和基础设施开始发挥作用，将资本市场的效率提高到一个新的水平。
+证券--无论是股权还是债务工具--集中资产并将其打包成可拥有的产品。证券通常是标准化的，在高度规范的二级市场内提供，以提高流动性和降低交易成本。
+随着时间的推移，标准化证券已经成为现代金融体系的重要组成部分，占据了 80% 以上的资本市场，大大超过了房地产、私募股权和商品等替代资产类别。
+
+标准化证券和交易基础设施的技术进步为股票和固定收入市场的成功做出了巨大贡献。然而，如果技术创新能够( 1)大大增加其流动性或( 2)减少买卖的交易成本，则其他资产类别可以效仿并扩大其资本市场份额。
+流动性
+根据定义，流动性是指在不影响其市场价格的情况下转换资产的效率或难易程度。
+能够影响资产类别流动性的因素：透明度、投资者信心、可访问性和基础设施。我们将把这些因素与区块链技术带来的具体潜在好处联系起来。
+
+透明度和投资者的信心
+
+透明度往往会给投资者带来更多的信心，导致更多人将他们的储蓄和财富投入透明的资产类别。此外，高水平…]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
         </author>
     </entry>
     <entry>
@@ -2779,16 +2856,6 @@ GPT-4 Will Have 100 Trillion Parameters — 50 0x the Size of GPT-3 | by Albert
         <link href="https://panewslab.com/zh/articledetails/qmv5ayl7.html"/>
         <updated>2023-01-24T01:14:18.000Z</updated>
         <summary type="html"><![CDATA[PANews 1月24日消息，据The Block报道，美国联邦调查局（FBI）周一证实，Lazarus Group和APT38为去年6月Harmony跨链桥攻击事件的幕后黑手。他们盗窃了价值1亿美元的虚拟货币，并通过RAILGUN隐私协议洗钱。此次黑客攻击与由朝鲜领导的名为“TraderTraitor”的恶意软件活动有关。此外，Lazarus Group还与去年4月6亿美元的Ronin攻击事件有关。FBI表示，朝鲜利用盗窃的资金来开展弹道导弹和大规模杀伤性武器项目。据此前消息，Lazarus Group已将部分Harmony被盗资金转移到ETH/Tron链混币网络。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BlockFi将出售1.6亿美元的比特币矿机抵押贷款]]></title>
-        <id>https://panewslab.com/zh/articledetails/bsxq4eyy.html</id>
-        <link href="https://panewslab.com/zh/articledetails/bsxq4eyy.html"/>
-        <updated>2023-01-24T01:00:02.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月24日消息，据彭博社报道，据两位知情人士透露，已破产加密借贷机构BlockFi正寻求出售1.6亿美元的贷款，这些贷款由约6.8万台比特币矿机提供支持。竞标程序于去年开始，提交报价的截止日期为1月24日。知情人士表示，其中一些贷款已经违约。鉴于矿机价格的下降，一些贷款可能抵押不足。由于比特币下跌和电力成本的飙升挤压了挖矿利润，矿机价格在去年一年中下降超过80%。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
