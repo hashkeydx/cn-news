@@ -51,408 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-28 datetime="2023-01-28T12:15:00.000Z">2023-01-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-28 datetime="2023-01-28T12:15:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-01-28 datetime="2023-01-28T13:42:15.000Z">2023-01-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-01-28 datetime="2023-01-28T13:42:15.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184694"
-                        open
-                      >
-                        <summary class="article-expander__title">Aave V3正式上线，一览新版四大重要特征</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184694">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：Aave
-原文编译：DeFi 之道
-
-1 月 27 日，DeFi 借贷协议 Aave 宣布其 V3 版本已部署在以太坊主网上。以太坊网络是 Aave 部署的第一个也是其最大的市场。V3 是迄今为止对 Aave 协议最重要的升级，是 Aave 社区对安全性、资本效率和风险管理不懈追求的结果。
-V3 于 2022 年 3 月首次部署在六个网络中，包括 Polygon、Avalanche、Arbitrum 和 Optimism。在这些网络上经过测试后，本周 Aave Governance 投票决定在以太坊主网上部署 V3。
-Aave V3 是什么？
-Aave V2 在其前身 V1 的基础上于 2020 年 12 月推出。DeFi 生态系统的指数级增长促使 Aave 团队开始专注于 Aave V3，引入了重要的新风险缓解功能并提高了资本效率。在推出后的短短 2 年多时间里，Aave 协议在 Aave 协议 V2 和 V3 市场上拥有约 65 亿美元的 TVL（截至 2023 年 1 月 27 日）。
-V3 的设计采用灵活的架构以提高可组合性，并使在协议之上构建各种创新功能成为可能，例如提供额外安全性和稳定性的新风险管理工具。示例包括供应和借入上限以及风险和列表管理员。Aave V3 还提高了资本效率和分散的流动性，同时将 gas 费降低了 25% 。
-高效模式
-该模式也称为“E - 模式”，当用户提供的抵押品与他们存入和现在借入的资产相关时，用户可以获得更高的借贷能力，从而使用户能够最大程度地利用抵押品并提高资本效率。
-
-当供应资产和借入资产的波动性相关时，特别是当两种资产属于同一类别时，例如与美元挂钩的稳定币，这便是 E-Mode 的用武之地。让我们看一个例子：
-如果用户供应质押型 ETH (stETH) 并想借入 ETH，因为它们是相同的资产，波动性是相关的。在 Aave V2 中，用户现在的借贷率为 82.5% 。而在 V3 中，用户可以访问 E-Mode，允许用户在资产链接时拥有高达 97% 的借贷能力。
-隔离模式
-在该模式上市的资产与主要资产流动性隔离。资产可以作为抵押品提供，仅用于借入稳定币，在不影响主要市场的情况下解锁流动性较低的资产的上市。流动性风险可以被隔离，因为隔离模式允许在 Aave 上列出更多资产作为抵押品，同时保持协议的安全性。
-
-提供孤立资产作为抵押品的借款人不能提供其他资产作为抵押品（不过他们仍然可以供应以获取收益）。使用隔离抵押品的借款人只能借入 Aave 治理允许在隔离模式下可借入的稳定币，最高可达指定的债务上限。
-gas 优化
-所有功能的 Gas 成本全面降低了 25% 左右！协议的升级带来了巨大的逻辑改进，使代码更具可读性、模块化和优化。此外，它还增加了一个新的简化版本的 flashLoan 功能，允许用户以最小的 gas 成本借出单一资产。这种优化最终有利于用户，允许与 Aave 协议进行更低成本的交互。
-
-有关 Aave V3 功能的更多详细信息，请阅读技术论文或开发人员文档。可以在此处找到 Aave Ethereum V3 地址列表。
-V3 迁移工具
-如果你想将你的资产从 Aave V2 移动到 Aave V3，你现在可以使用 V3 迁移工具！
-这个迁移工具帮助并引导您在 V2 仪表板上通过一次交易将您的头寸从 V2 迁移到 V3。
-您需要做的就是：
-
-选择您要迁移的供应和借用
-
-点击“预览交易并迁移”
-
-签署每个头寸的交易批准 *
-
-提交迁移交易
-
-如果您有开放的仓位，迁移工具将在 V2 和 V3 上通知您新的健康因子（Health Factor）。请注意这个新的健康因子，以减轻清算风险。
-每个供应仓位都需要迁移合约批准才能转移 aTokens，每个借贷头寸都需要信用委托批准迁移合约才能在 V3 中代表你执行借贷。这两种批准都可以通过签名消息或批准交易来执行。
-以太坊区块链上的复杂操作可能代价高昂。如果你在主网上有大量借入并存入 V2 的资产，你可以分批迁移。但是，建议在单个迁移交易中迁移不超过 5 种资产。
-如果您不愿意，则不需要迁移您的 V2 资产。V2 合约始终在运行，并且将来仍可访问。
-迁移工具结合使用信用委托和闪电贷来迁移头寸。该工具从 Aave V2 获取用户提供的资产、借入头寸、金额和债务类型。使用闪电贷和信用委托，在 V2 上偿还债务，在 V3 上代表用户借入相同的头寸和金额，将用户债务留在 V3 上。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184693"
-                        open
-                      >
-                        <summary class="article-expander__title">现实资产代币化将成为Web3金融世界的重要突破口</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184693">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Chí Phan
-原文编译：深潮 TechFlow
-证券化带来了股权和固定收益资产的中心化。在 2022 年的加密货币熊市中，现实世界资产代币化成为一个热门话题，这种方法有望利用公共区块链技术来释放另类资产资本市场份额的增长。
-公共区块链和证券代币化可以成为实现更深入的流动性和降低交易成本的下一个技术步骤，从而提高资本效率，并在全球范围内接纳新的投资者群体。
-证券化的诞生和成功
-现代的股权和债务概念，指的是对公司现金流或现金支付的要求，可以追溯到 17 和 18 世纪现代公司的发展。在证券被发明之前，存在两种有效的商业融资方式：
-– 向熟人借钱（债务）。
-– 与熟人建立业务合作伙伴或投资者关系（股权）。
-然而，这些非正式和不规范的做法给投资者和企业带来了重大的社会和地理准入障碍。然后，证券化的机制和基础设施开始发挥作用，将资本市场的效率提高到一个新的水平。
-证券--无论是股权还是债务工具--集中资产并将其打包成可拥有的产品。证券通常是标准化的，在高度规范的二级市场内提供，以提高流动性和降低交易成本。
-随着时间的推移，标准化证券已经成为现代金融体系的重要组成部分，占据了 80% 以上的资本市场，大大超过了房地产、私募股权和商品等替代资产类别。
-
-标准化证券和交易基础设施的技术进步为股票和固定收入市场的成功做出了巨大贡献。然而，如果技术创新能够( 1)大大增加其流动性或( 2)减少买卖的交易成本，则其他资产类别可以效仿并扩大其资本市场份额。
-流动性
-根据定义，流动性是指在不影响其市场价格的情况下转换资产的效率或难易程度。
-能够影响资产类别流动性的因素：透明度、投资者信心、可访问性和基础设施。我们将把这些因素与区块链技术带来的具体潜在好处联系起来。
-
-透明度和投资者的信心
-
-透明度往往会给投资者带来更多的信心，导致更多人将他们的储蓄和财富投入透明的资产类别。此外，高水平…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184692"
-                        open
-                      >
-                        <summary class="article-expander__title">积极推进跨链的Circle，同时在吃稳定币和跨链市场两块蛋糕？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184692">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>近日，Circle CEO 在推特上宣布，Circle 的跨链传输协议 (CCTP) 即将推出。尽管他并未明确公开上线时间，但按照 CCTP 路线路，距离用户可以体验该协议似乎并不遥远。CCTP 预计将在 2023 年第一季度中上线以太坊、Avalanche，并将在 2023 年上半年扩展到 Solana 和其他 L1。
-独有的“销毁-铸造”机制
-CCTP 即 Cross-Chain Transfer Protocol，是 Circle 推出的无需许可的官方跨链桥。
-CCTP 与常见的桥有所不同的是，这一桥并非采用常见的“锁仓-铸造”模式，而是采用“销毁-铸造”模式。
-在较为主流的“锁仓-铸造”机制中，桥协议于两个链上建立流动性池，通过在原始链一侧锁定代币、目标链一侧铸造代币来实现代币在不同链间的流动。
-由于 USDC 合约的权限由 Circle 控制，第三方桥并不能铸造原生 USDC。CCTP 则可在原始链上销毁原生USDC，并在目标链上铸造等量的原生 USDC。
-用户跨链之后，CCTP 会在原始链上销毁 USDC。随后 Circle 会进行取证，包括观察和证明原链上的 USDC 销毁交易，原链应用程序需要请求来自 Circle 的「签名证明」才能进行销毁，同时也必须在获得「签名证明」后才能在目标链上授权铸造指定数量的 USDC，完成铸造后访客将 USDC 发送至接收者的钱包地址。
-
-在这个过程中，并不存在资金池，当然也没有数以亿计的资金沉淀。这一流程优化了资本效率和流动性体验。对用户来说更关键的是，在不同链上收到 USDC 都是原生 USDC，由 Circle 直接提供美元担保，无需担心目标链的 USDC 和原始链的原生 USDC 脱锚。
-目前，CCTP 已经开放 GitHub repo 并公布了开发人员指南。通过为开发人员提供的接口，其他 dApp 可以方便的将 CC…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184690"
-                        open
-                      >
-                        <summary class="article-expander__title">详解以太坊EIP-5988最新提案：L2互操作性的新解决方案</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184690">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>伴随着以太坊上海升级的日益临近，与之相关的各项提案也随之涌现，希望能赶上在上海升级中一并部署。EIP-5988 也在近期被提交至 Eips.ethereum 官方网页，EIP-5988 主要目的在于为各类 ZK 进行和主网间通信的预编译操作，以节省通信所需的编译时间和链上空间。
-EIP-5988 主要在于解决各类L2和L1之间的通信问题，借助这项提案，ZK 系L2可以在不降低自身证明效率的同时兼容主网安全性，OP 系L2可以进一步提升利用主网的结算效率。
-并且，EIP-5988 此次使用的是 Poseidon 哈希算法，将会作为各类L2统一预编译的生成证明方式，这也是首次可能兼容进以太坊的新算法，而此前主要在各类L2中尝试使用，但安全性尚未得到主流应用大规模长时间检验，这也是 EIP-5988 引发的主要争议点。
-打通L2之间的通信
-在 EIP-5988 的描述中，最重要的是提出了新的 Layer 2 间通信方式，将各类 Rollup 扩容算法打包成一致的编译层，供以太坊主网调用，借助以太坊的兼容性来进行各类 Layer 2 的通信。
-直观理解，也就是在 STARK/SNARK 等方案之下，首先进行一项预编译措施，一旦提案生效，将构筑成 ZK 证明生成后的格式转换场所。以太坊主网无需考虑消息的具体来源，只需要判断是否符合编译格式，从而进行接受或拒绝等操作。
-
-在目前的L2和以太坊主网之间，存在广泛的兼容性问题。以 ZK 系为例，目前主要存在两种障碍：
-ZK 系有不同技术路径，zk-SNARK 和 zk-STARK 是较为主流的两种，不同实例之间的互操作性缺乏统一标准；
-L2会选择自研语言，如 StarkWare 的 Cairo 等，和以太坊使用的 solidity 有所区别，需要互相编译才能互通。
-在统一预编译层实施后，以太坊所接受的消息格式将进行统一，任何传入的L2数据类…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184326"
-                        open
-                      >
-                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0114-0127）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184326">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
-因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。（恰逢春节，本期攒下 2 周的内容汇总。）
-下面，来和我们一起阅读吧：
-
-投资与创业
-Bankless：深度剖析当前宏观环境，加密市场行情回来了吗？
-作者在解读美国消费者价格指数（CPI）数据后，建议保持谨慎看涨，但也要警惕低流通量的山寨币。
-如果投资者想立即参与市场，需要注意：避免杠杆；不要对自己持有的币产生感情；一旦出现失业率上升的迹象，就出售；对任何从他们的包里掏钱的人都要保持适度的怀疑。
-浅谈引爆 2023 年加密市场的十种可能性
-Regenerative Web3、去中心化物理设施网络 DePIN、公链和L2、零知识证明、以太坊流动性质押、Web3 钱包、Web3 安全、Onchain Game、新 CEX、NFT 基础设施。
-
-2023 年值得我们关注的 10 大潜力叙事
-集中流动性、期权 AMM、LayerZero 生态系统、LSD、Eigenlayer、稳定币、NFTFi、RWA、固定利率和利率互换、加密 AI。
-A&amp;T Capital 2023 趋势报告：市场在调整，但创新不止
-这篇文章看好：新范式、ZK Layer 2、并行计算、模块化设计、应用链、账户抽象钱包和外部拥有账户钱包、MEV、去中心化交易所。
-揭秘 Balaji Srinivasan：天才投资人的加密投资逻辑
-Srinivasan 主要投资于基础设施、工具&amp;信息服务、DeFi、DAO 和 DeSoc 等领域。具体而言，他前后投资过 Avalanch…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184684"
-                        open
-                      >
-                        <summary class="article-expander__title">DAOrayaki：加密中观经济学、第五权利及更有效的DAO</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184684">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：Intermediate Economics
-2023 年加密市场规模化主要障碍之一是：如何实施更有效的 DAO 以内化“公司的性质”并在已经去中心化的自治市场中适当地划分成本。
-本文将基于现有的加密经济市场现状，从中观经济学（Intermediate Economics）的视角分析已有的商业模式、并定义公司、市场和资产。具体框架如下：
-
-传统典型商业模式：沃尔玛、Sysco 和麦当劳
-
-经济市场及监管成本：黑、白、灰
-
-互联网平台商业模式：Uber、AirBnB 和亚马逊
-
-新的媒体形式：第五阶层/权力
-
-去中心化工具与已有商业的结合：中观经济实现
-
-传统典型商业模式：沃尔玛、Sysco 和麦当劳
-一个共同的商业模式已经渗透到我们的生活中。很多读者都看过“投降的麦当劳员工”表情包。在美国，沃尔玛几乎就是消费者版的翻版。
-沃尔玛对“美国消费者”来说是一个有趣的现象。镇中心是社会化的首选地点，基础设施的缺乏限制了工作机会和就业。然而，沃尔玛在这种背景中优化位置，即在已经存在的州际高速公路网络上运行。这同样适用于麦当劳。麦当劳优化了路边餐厅和特许经营结构，并构成了零工经济的基础。
-
-为什么将 Sysco 与沃尔玛、麦当劳放在一起？这是因为：所有这三个公司都符合罗纳德科斯的“公司的本质”，一家商业公司通过将成本内部化，来最大限度地降低生产成本的总和。这三个公司都已经发展到几乎垄断的状态，部分原因是它们可以从 1956 年的联邦公路援助法案和逐渐稳定的全球贸易路线中受益。在这两种情况下，民族国家都承担了一些基础设施成本，但下属公司可以自由地将收益资本化。科斯还解释了公司规模的管理费用限制，这也适用于税收，但我们稍后会重新讨论。
-还有一个有趣的社会学成本会随着时间的推移而降低：通勤带来的麻烦。从步行到骑马，从汽车到子弹头列车，我们倾向于为固定的通勤时间做预算。这也被描述为马…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184688"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT可以14天无理由退款？保时捷“不小心给投资者们提了个醒”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184688">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 decrypt，原文作者：Sander Lutz
-
-Odaily 星球日报译者 | Moni
-
-如果询问近期有哪些最受加密社区关注的 NFT 项目，保时捷 “PORSCHΞ 911 ” 绝对是其中之一。据 NFTGo.io 数据显示，自上线后短短 5 天时间，该 NFT 系列市值就达到了 749 万美元，交易额接近 600 万美元。
-不过，该项目在发布后一度受到抨击，认为其设定的每枚 0.911 ETH 铸造价格过于昂贵，与 Web3 精神不符。随后保时捷在社交媒体上发文表示，鉴于持有者的意见，保时捷 NFT 将减少供应并在 1 月 25 日停止铸造，以继续为专属社区创造最佳体验。然而一波未平一波又起，“PORSCHΞ 911 ” 铸造过程中的一个强制性复选框（如下图所示）又引发了另一场争议，实际上，如果用户勾选了该复选框，很可能损失部分权益。
-
-该复选框内容为：“I agree to the immediate provision of the contractual service (i.e., receiving the NFT) and I have been informed that I hereby lose the right of withdrawl.”意思是“我同意立即提供合约服务（即接收 NFT），我已被告知此操作将失去撤回权。”
-等等，这究竟是什么意思？！
-NFT 消费者可以申请 14 天无理由退款？
-如果你想铸造并成为保时捷 NFT 的所有者，就必须同意该服务条款并自我放弃所谓的“撤回权”。虽然大多数加密社区用户可能从未听说过这样的权利，但对于保时捷这样的德国汽车制造商而言，这一权利显然足够重要。 在关联 “撤回权”文件的链接中，保时捷以黑白醒目的方式准确解释了这意味着什么，声明指出：“如果您在 14 天内退出本合同，保时捷将向您退还从您…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184687"
-                        open
-                      >
-                        <summary class="article-expander__title">Bankless联创：以太坊将在互联网上开启一场工业革命</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184687">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Bankless 联合创始人 David Hoffman
-原文编译：DeFi 之道
-
-图片来源：由 Maze AI 生成
-加密经济系统必须找到平衡。
-为了使加密系统经受住时间的考验，它们必须具有灵活性，以适应周围不断变化的环境。僵化是脆弱的。僵化的系统最终将需要人工干预以防止崩溃。
-加密经济结构必须自动发现自然平衡状态，否则下图将成为我们不可避免的未来：
-
-“你真是个愚蠢的动物”；“你在等着美联储告诉你你的反建制数字货币会损失多少价值”
-人类一直在使用自我平衡机制来控制混乱和复杂情形。
-早期蒸汽机的发展便是一系列的爆炸和不可控的混乱。为了发挥作用，蒸汽机需要产生稳定和可预测的动力输出，但控制输出的速度是一个未解决的问题。
-通过应用一种被称为离心调速器的巧妙小机制，在能量输入和输出之间建立了一个负反馈回路。随着系统的功率输出增加，调速器将开始减少其输入的幅度。
-
-随着控制理论的简单应用，蒸汽的无限潜力被转化为工业革命。
-控制理论：研究工程过程和机器中动力系统控制的数学领域。其目的是开发一个模型或算法来控制系统输入的应用，以驱动系统达到理想状态，同时最大限度地减少任何延迟、超调或稳态误差，并确保控制的稳定性；通常是为了达到一定程度的优化。
-
-另外，当一个机翼与地面平行时，其效果是最大的。而当飞机倾斜时，由于机翼不再完全“向上”，所以对机翼的上升力也随之减少。
-
-二面角机翼角度自动平衡，以保持飞机的稳定性。当这种类型的飞机向一侧翻转时，机翼上的向上的力自然会转移到对其的推动上。这是一个有助于保持稳定的负反馈回路。
-反斜面机翼的作用则相反。当反斜面飞机向一侧倾斜时，机翼上的压力会发生变化，引致更大程度的翻转！这是积极的反馈回路。
-那么，我们为什么要设计带有反斜面机翼的飞机呢？因为它们的不稳定性很容易被外部干预（又称转向）所控制，让飞行员受益于反斜面机翼设计的其他优势。但是…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184685"
-                        open
-                      >
-                        <summary class="article-expander__title">项目资金来源竟不安全，或许你关注的项目正在洗钱</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184685">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>张三在刚刚过去的春节中，获得了上百万元的“压岁钱”🧧，正愁不知道怎么洗白。看到身边朋友在投区块链项目，于是想着自己也可以以创业为由，将手里几百万的压岁钱“投入”到项目中，变成“正经”所得。
-Web3世界由于监管政策的建立并未 100% 完善，于是衍生了比特币洗钱、贸易洗钱、聚合支付平台洗钱等各类货币洗钱的非法行为。此类行为对Web3项目构成了直接威胁。
-CertiK 团队调研后发现，不少犯罪组织正在利用这一计划将非法资金转化为看似合法的Web3初创公司投资，并获得高额回报。在此篇文章中，CertiK 的专业调查人员分享了他们的调查结果以及“办案”经验，并就如何保持Web3企业财务的完整性提供了实用的经验和见解。
-Web3洗钱是如何运作的？
-Venture-Based Money Laundering (VBML) ，利用风险投资进行洗钱（后文我们将统一简称为 VBML），在Web3中则表现为对创业公司种子资金生态系统的操纵。犯罪分子通过对企业早期的种子投资，将犯罪所得转化为合法业务和收入来源。
-CertiK 的专业调查团队对 272 家区块链和Web3初创企业进行了研究，发现了犯罪分子利用 VBML 渗透到Web3行业的手段。
-正如本文文首的小故事，当个人或组织实施犯罪并积累非法利润时，他们需要使用一种方式来“清洗”他们的资金，以便在不引起怀疑的情况下自由使用这些钱。VBML 就是这样一个对犯罪分子来说“绝佳”的方案。
-在Web3的背景下，VBML 包括犯罪分子用“肮脏”的资金为一个新的Web3项目提供种子资金。这笔最初的种子资金被用来雇佣开发人员及市场营销人员等。犯罪分子将全部非法资金用于这些投资，作为回报，他们会拥有或共同拥有一个颇具前途且富有收益的Web3项目。也是从这里开始，他们将有一个公开的企业来为他们显示资金来源，也就顺理成章地将钱“洗干净”了。
-在项目的整个…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184655"
-                        open
-                      >
-                        <summary class="article-expander__title">Adam Cochran：2023年Crypto财富密码</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184655">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Twitter，原文作者：Adam Cochran，由 Odaily 星球日报译者 Katie 辜编译。
-
-一年一度的 Crypto “扫货”清单又来了。在每次市场大幅下跌时，你没有时间研究单个资产，那么你可能会错过一个绝佳的买入机会。作为一个长期投资者，我预计有可能出现大幅下跌，导致我将不得已继续 Hold 下去。我预计一些资产将归零，所以我将根据情况的变化及时调整购买清单。
-每一份 Crypto 购物清单都是从建立主题和购买计划开始的。主题是在未来 3-5 年推动市场的催化剂，购买计划是指购买每种资产的规模，以及在什么条件下购买。每年我都会分享我的购物清单，并讨论我认为可以推动清单上资产增长的催化剂。本购买清单都是基于个人的情况、风险承受能力和时间规划。
-注意：购物清单仅供参考，不应该过分集中于少数资产，或者一次入手所有的资产。你的购物清单应该是你相信的资产。购物清单也不是一成不变的。需要每个月重新评估，把购买清单放在全球宏观、不断变化的行业事件和新发展的背景下考虑。在投资领域，保持不变无异于自取灭亡，DYOR。
-先给大家看张表，感受下 Crypto 在 2022 年的凄惨：
-
-注意：
-1. 我拥有这些资产中的大部分，如果我对这些资产没有足够的信心，它就不会出现在我的清单上。
-2. 如果人们直接效仿，我肯定会重新平衡一些头寸，但我认为这些都是“长期赢家”。
-总结：
-1. 实际外部收入仍然是最重要的因素。
-2. 但是，资产如此低迷，导致一些“增长”风格的代币面临困境。
-3. 专注于真正的收益“催化剂”，新颖的基础设施和用户体验。
-实际收入是指项目外部用户使用并产生收入的项目，特别是在没有持续排放激励措施支持的情况下，这最终会导致用户成本。另一个重要的亮点是用户体验。
-不仅是设计，还有任何让用户使用区块链技术的过程变得简单的工具。就像网络浏览器或搜索引擎使互联网易…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184683"
-                        open
-                      >
-                        <summary class="article-expander__title">美国政府发布减轻加密货币风险的路线图</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184683">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自白宫官网，原文作者：Brian Deese &amp; Arati Prabhakar &amp; Cecilia Rouse &amp; Jake Sullivan
-Odaily 星球日报译者 | 念银思唐
-
-2022 年对加密货币来说是艰难的一年。今年 5 月，一种所谓的“稳定币”崩盘，引发了一波破产潮。仅仅几个月后，一家大型加密货币交易所倒闭。许多信任加密货币公司的日常投资者——包括年轻人和有色人种——遭受了严重损失，但值得庆幸的是，迄今为止，加密货币市场的动荡对更广泛的金融体系几乎没有产生负面影响。虽然加密货币可能相对而言历史并不长，但我们看到的一些加密货币公司表现出的行为以及这种行为带来的风险却屡见不鲜。作为政府，我们的重点是继续确保加密货币不会破坏金融稳定，保护投资者，并追究不良行为者的责任。
-在拜登总统的指示下，我们在过去的一年里一直在识别加密货币的风险，并利用行政部门（Executive Branch）的权力采取行动减轻这些风险。
-首先，美国政府各部门的专家制定了首个以安全、负责任的方式开发数字资产的框架，同时应对数字资产带来的风险。可以肯定的是，驱动加密货币的技术可能会提供更快、更便宜、更安全的支付方式。但这一框架确定了明显的风险。例如，一些加密货币实体忽视了适用的金融法规和基本的风险控制——而这些都属于保护国家中的家庭、企业和经济的举措。此外，加密货币平台和推动者经常误导消费者，他们有的还存在利益冲突，未能充分披露，或犯下直接欺诈行为。整个行业的网络安全都很糟糕，这使得朝鲜民主主义人民共和国能够窃取超过 10 亿美元，为其存在威胁的导弹计划提供资金。
-其次，各机构正在利用它们的权力在适当的时候加强执法，并在需要的时候发布新的指导意见。就在本月，银行机构发布了联合声明，要求将风险性数字资产与银行系统分离。政府各机构已经启动（或正在着手开展）公众意识项目，以帮助消费者了解购买加密货币的风险。我们鼓励监管机构继续这些努力，包括那些旨在解决和限制金融机构暴露在数字资产风险中的行为。
-但过去一年发生的事件强调，我们还需要做更多。各机构已经加倍努力打击欺诈，包括关于 FDIC（美国联邦存款保险公司）所承保加密资产的虚假或误导性声明的扩散。虽然美国在打击洗钱和恐怖主义融资方面已经处于全球领先地位，但执法机构正在投入更多资源打击涉及数字资产的非法活动。在接下来的几个月里，美国政府还将公布数字资产研发的优先事项，这将有助于驱动加密货币的技术默认保护消费者。
-国会也需要加大努力。例如，国会应该扩大监管机构的权力，以防止有关公司滥用客户的资产——这会伤害投资者并影响价格——以及缓解利益冲突。国会还可以加强对加密货币公司的透明度和披露要求，以便投资者能够就金融和环境风险做出更明智的决定。为了协助执法，国会可以加强对违反非法融资规定行为的处罚，并禁止加密货币中介机构向犯罪分子通风报信。它可以为加强执法能力建设提供资金，包括与国际伙伴合作。通过遵循金融稳定监督委员会（Financial Stability Oversight Council）在其最近的报告中概述的步骤，包括解决稳定币的风险，从而限制加密货币对金融系统的风险。
-尽管国会在这些领域的行动将受到欢迎，但国会也可能加大我们的工作难度，并加剧投资者和金融体系面临的风险。立法不应该为养老基金等主流机构一头扎进加密货币市场开绿灯。在过去的一年里，传统金融机构对加密货币的有限敞口阻止了加密货币的动荡影响更广泛的金融体系。如果立法改变方向，反而加深加密货币与更广泛金融体系之间的联系，那将是大错特错。                                                                              
-政府全心全意地支持负责任的技术创新，使金融服务更便宜、更快、更安全、更容易获得。然而，要实现这些好处，新技术需要相应的保障措施。保障措施将确保新技术是安全的，对所有人都有益——确保新的数字经济为大多数人服务，而不仅仅是少数人。为了落实正确的保障措施，我们将继续推进我们已经开发的数字资产框架，同时与国会合作实现这些目标。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -464,6 +67,48 @@ Odaily 星球日报译者 | 念银思唐
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/5mkvvb5f.html"
+                        open
+                      >
+                        <summary class="article-expander__title">PayPal遭黑客攻击，近3.5万用户资料或泄露</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5mkvvb5f.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 1月28日消息，据移动支付网综合外媒报道，PayPal通报美国缅因州（Maine）检察长办公室，表示他们于去年12月20日发现遭受黑客攻击，并在调查后认为事件发生于12月6日到8日期间。PayPal指黑客发动凭证填充攻击，受影响用户总数为34942人。
+PayPal指出，攻击或导致客户资料泄露，包括：姓名、地址、安全码、个人税籍资料、电话及生日。但PayPal强调，暂未有发现任何用户个人信息遭盗用。PayPal又提及，目前已为受影响用户提供24个月的信用盗用监控服务。
+PayPal补充，本次事件并非PayPal系统漏洞，主要是用户重覆在不同服务或网站使用同一组帐号、密码组合，令黑客可从其他地方窃取、购得或取得用户帐号、密码等，再以大量帐号及密码组合，破解PayPal帐号。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/q0cjsa8t.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一男子因盗窃200万英镑的加密货币被判入狱</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/q0cjsa8t.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 1月28日消息，英国东南地区有组织犯罪调查部门（SEROCU）周五表示，一名来自荷兰的英国男子 Wybbo Wiersma 在承认盗窃超过 200 万英镑（约250 万美元）的加密货币后被判入狱四年零六个月。Wiersma 以假名建立了一个网站，他在该网站上生成了一个 81 个字符的代码，他用该代码从世界各地的用户那里窃取 IOTA 代币。该调查涉及全球 100 多名受害者。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1192,6 +837,403 @@ Peirce表示：“我们必须制定适用于所有资产类别的连贯一致�
                             <span class="media-object__text">
                               <span>PANews 1月28日消息，据美国白宫官网消息，美国白宫发布政府降低加密货币风险的路线图。文章中称，政府的工作重点是继续确保加密货币不会破坏金融稳定，保护投资者，并追究不良行为者的责任。在过去一年里，政府致力于识别加密货币的风险，并采取行动减轻相关风险。首先，政府各部门的专家制定了首个以安全、负责任的方式开发数字资产的框架，同时应对数字资产带来的风险。其次，各机构正在利用它们的权力在适当的时候加强执法，并在需要的时候发布新的指导意见。就在本月，银行机构发布了联合指导意见，要求将风险数字资产从银行系统中分离出来。与此同时，执法机构正在投入更多资源打击涉及数字资产的非法活动。在接下来的几个月里，政府还将公布数字资产研发的优先事项。此外，国会也应扩大监管机构的权力，以防止加密公司滥用客户的资产，加强对加密公司的透明度和披露要求。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184694"
+                        open
+                      >
+                        <summary class="article-expander__title">Aave V3正式上线，一览新版四大重要特征</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184694">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：Aave
+原文编译：DeFi 之道
+
+1 月 27 日，DeFi 借贷协议 Aave 宣布其 V3 版本已部署在以太坊主网上。以太坊网络是 Aave 部署的第一个也是其最大的市场。V3 是迄今为止对 Aave 协议最重要的升级，是 Aave 社区对安全性、资本效率和风险管理不懈追求的结果。
+V3 于 2022 年 3 月首次部署在六个网络中，包括 Polygon、Avalanche、Arbitrum 和 Optimism。在这些网络上经过测试后，本周 Aave Governance 投票决定在以太坊主网上部署 V3。
+Aave V3 是什么？
+Aave V2 在其前身 V1 的基础上于 2020 年 12 月推出。DeFi 生态系统的指数级增长促使 Aave 团队开始专注于 Aave V3，引入了重要的新风险缓解功能并提高了资本效率。在推出后的短短 2 年多时间里，Aave 协议在 Aave 协议 V2 和 V3 市场上拥有约 65 亿美元的 TVL（截至 2023 年 1 月 27 日）。
+V3 的设计采用灵活的架构以提高可组合性，并使在协议之上构建各种创新功能成为可能，例如提供额外安全性和稳定性的新风险管理工具。示例包括供应和借入上限以及风险和列表管理员。Aave V3 还提高了资本效率和分散的流动性，同时将 gas 费降低了 25% 。
+高效模式
+该模式也称为“E - 模式”，当用户提供的抵押品与他们存入和现在借入的资产相关时，用户可以获得更高的借贷能力，从而使用户能够最大程度地利用抵押品并提高资本效率。
+
+当供应资产和借入资产的波动性相关时，特别是当两种资产属于同一类别时，例如与美元挂钩的稳定币，这便是 E-Mode 的用武之地。让我们看一个例子：
+如果用户供应质押型 ETH (stETH) 并想借入 ETH，因为它们是相同的资产，波动性是相关的。在 Aave V2 中，用户现在的借贷率为 82.5% 。而在 V3 中，用户可以访问 E-Mode，允许用户在资产链接时拥有高达 97% 的借贷能力。
+隔离模式
+在该模式上市的资产与主要资产流动性隔离。资产可以作为抵押品提供，仅用于借入稳定币，在不影响主要市场的情况下解锁流动性较低的资产的上市。流动性风险可以被隔离，因为隔离模式允许在 Aave 上列出更多资产作为抵押品，同时保持协议的安全性。
+
+提供孤立资产作为抵押品的借款人不能提供其他资产作为抵押品（不过他们仍然可以供应以获取收益）。使用隔离抵押品的借款人只能借入 Aave 治理允许在隔离模式下可借入的稳定币，最高可达指定的债务上限。
+gas 优化
+所有功能的 Gas 成本全面降低了 25% 左右！协议的升级带来了巨大的逻辑改进，使代码更具可读性、模块化和优化。此外，它还增加了一个新的简化版本的 flashLoan 功能，允许用户以最小的 gas 成本借出单一资产。这种优化最终有利于用户，允许与 Aave 协议进行更低成本的交互。
+
+有关 Aave V3 功能的更多详细信息，请阅读技术论文或开发人员文档。可以在此处找到 Aave Ethereum V3 地址列表。
+V3 迁移工具
+如果你想将你的资产从 Aave V2 移动到 Aave V3，你现在可以使用 V3 迁移工具！
+这个迁移工具帮助并引导您在 V2 仪表板上通过一次交易将您的头寸从 V2 迁移到 V3。
+您需要做的就是：
+
+选择您要迁移的供应和借用
+
+点击“预览交易并迁移”
+
+签署每个头寸的交易批准 *
+
+提交迁移交易
+
+如果您有开放的仓位，迁移工具将在 V2 和 V3 上通知您新的健康因子（Health Factor）。请注意这个新的健康因子，以减轻清算风险。
+每个供应仓位都需要迁移合约批准才能转移 aTokens，每个借贷头寸都需要信用委托批准迁移合约才能在 V3 中代表你执行借贷。这两种批准都可以通过签名消息或批准交易来执行。
+以太坊区块链上的复杂操作可能代价高昂。如果你在主网上有大量借入并存入 V2 的资产，你可以分批迁移。但是，建议在单个迁移交易中迁移不超过 5 种资产。
+如果您不愿意，则不需要迁移您的 V2 资产。V2 合约始终在运行，并且将来仍可访问。
+迁移工具结合使用信用委托和闪电贷来迁移头寸。该工具从 Aave V2 获取用户提供的资产、借入头寸、金额和债务类型。使用闪电贷和信用委托，在 V2 上偿还债务，在 V3 上代表用户借入相同的头寸和金额，将用户债务留在 V3 上。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184693"
+                        open
+                      >
+                        <summary class="article-expander__title">现实资产代币化将成为Web3金融世界的重要突破口</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184693">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Chí Phan
+原文编译：深潮 TechFlow
+证券化带来了股权和固定收益资产的中心化。在 2022 年的加密货币熊市中，现实世界资产代币化成为一个热门话题，这种方法有望利用公共区块链技术来释放另类资产资本市场份额的增长。
+公共区块链和证券代币化可以成为实现更深入的流动性和降低交易成本的下一个技术步骤，从而提高资本效率，并在全球范围内接纳新的投资者群体。
+证券化的诞生和成功
+现代的股权和债务概念，指的是对公司现金流或现金支付的要求，可以追溯到 17 和 18 世纪现代公司的发展。在证券被发明之前，存在两种有效的商业融资方式：
+– 向熟人借钱（债务）。
+– 与熟人建立业务合作伙伴或投资者关系（股权）。
+然而，这些非正式和不规范的做法给投资者和企业带来了重大的社会和地理准入障碍。然后，证券化的机制和基础设施开始发挥作用，将资本市场的效率提高到一个新的水平。
+证券--无论是股权还是债务工具--集中资产并将其打包成可拥有的产品。证券通常是标准化的，在高度规范的二级市场内提供，以提高流动性和降低交易成本。
+随着时间的推移，标准化证券已经成为现代金融体系的重要组成部分，占据了 80% 以上的资本市场，大大超过了房地产、私募股权和商品等替代资产类别。
+
+标准化证券和交易基础设施的技术进步为股票和固定收入市场的成功做出了巨大贡献。然而，如果技术创新能够( 1)大大增加其流动性或( 2)减少买卖的交易成本，则其他资产类别可以效仿并扩大其资本市场份额。
+流动性
+根据定义，流动性是指在不影响其市场价格的情况下转换资产的效率或难易程度。
+能够影响资产类别流动性的因素：透明度、投资者信心、可访问性和基础设施。我们将把这些因素与区块链技术带来的具体潜在好处联系起来。
+
+透明度和投资者的信心
+
+透明度往往会给投资者带来更多的信心，导致更多人将他们的储蓄和财富投入透明的资产类别。此外，高水平…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184692"
+                        open
+                      >
+                        <summary class="article-expander__title">积极推进跨链的Circle，同时在吃稳定币和跨链市场两块蛋糕？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184692">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>近日，Circle CEO 在推特上宣布，Circle 的跨链传输协议 (CCTP) 即将推出。尽管他并未明确公开上线时间，但按照 CCTP 路线路，距离用户可以体验该协议似乎并不遥远。CCTP 预计将在 2023 年第一季度中上线以太坊、Avalanche，并将在 2023 年上半年扩展到 Solana 和其他 L1。
+独有的“销毁-铸造”机制
+CCTP 即 Cross-Chain Transfer Protocol，是 Circle 推出的无需许可的官方跨链桥。
+CCTP 与常见的桥有所不同的是，这一桥并非采用常见的“锁仓-铸造”模式，而是采用“销毁-铸造”模式。
+在较为主流的“锁仓-铸造”机制中，桥协议于两个链上建立流动性池，通过在原始链一侧锁定代币、目标链一侧铸造代币来实现代币在不同链间的流动。
+由于 USDC 合约的权限由 Circle 控制，第三方桥并不能铸造原生 USDC。CCTP 则可在原始链上销毁原生USDC，并在目标链上铸造等量的原生 USDC。
+用户跨链之后，CCTP 会在原始链上销毁 USDC。随后 Circle 会进行取证，包括观察和证明原链上的 USDC 销毁交易，原链应用程序需要请求来自 Circle 的「签名证明」才能进行销毁，同时也必须在获得「签名证明」后才能在目标链上授权铸造指定数量的 USDC，完成铸造后访客将 USDC 发送至接收者的钱包地址。
+
+在这个过程中，并不存在资金池，当然也没有数以亿计的资金沉淀。这一流程优化了资本效率和流动性体验。对用户来说更关键的是，在不同链上收到 USDC 都是原生 USDC，由 Circle 直接提供美元担保，无需担心目标链的 USDC 和原始链的原生 USDC 脱锚。
+目前，CCTP 已经开放 GitHub repo 并公布了开发人员指南。通过为开发人员提供的接口，其他 dApp 可以方便的将 CC…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184690"
+                        open
+                      >
+                        <summary class="article-expander__title">详解以太坊EIP-5988最新提案：L2互操作性的新解决方案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184690">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>伴随着以太坊上海升级的日益临近，与之相关的各项提案也随之涌现，希望能赶上在上海升级中一并部署。EIP-5988 也在近期被提交至 Eips.ethereum 官方网页，EIP-5988 主要目的在于为各类 ZK 进行和主网间通信的预编译操作，以节省通信所需的编译时间和链上空间。
+EIP-5988 主要在于解决各类L2和L1之间的通信问题，借助这项提案，ZK 系L2可以在不降低自身证明效率的同时兼容主网安全性，OP 系L2可以进一步提升利用主网的结算效率。
+并且，EIP-5988 此次使用的是 Poseidon 哈希算法，将会作为各类L2统一预编译的生成证明方式，这也是首次可能兼容进以太坊的新算法，而此前主要在各类L2中尝试使用，但安全性尚未得到主流应用大规模长时间检验，这也是 EIP-5988 引发的主要争议点。
+打通L2之间的通信
+在 EIP-5988 的描述中，最重要的是提出了新的 Layer 2 间通信方式，将各类 Rollup 扩容算法打包成一致的编译层，供以太坊主网调用，借助以太坊的兼容性来进行各类 Layer 2 的通信。
+直观理解，也就是在 STARK/SNARK 等方案之下，首先进行一项预编译措施，一旦提案生效，将构筑成 ZK 证明生成后的格式转换场所。以太坊主网无需考虑消息的具体来源，只需要判断是否符合编译格式，从而进行接受或拒绝等操作。
+
+在目前的L2和以太坊主网之间，存在广泛的兼容性问题。以 ZK 系为例，目前主要存在两种障碍：
+ZK 系有不同技术路径，zk-SNARK 和 zk-STARK 是较为主流的两种，不同实例之间的互操作性缺乏统一标准；
+L2会选择自研语言，如 StarkWare 的 Cairo 等，和以太坊使用的 solidity 有所区别，需要互相编译才能互通。
+在统一预编译层实施后，以太坊所接受的消息格式将进行统一，任何传入的L2数据类…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184326"
+                        open
+                      >
+                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0114-0127）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184326">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
+因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。（恰逢春节，本期攒下 2 周的内容汇总。）
+下面，来和我们一起阅读吧：
+
+投资与创业
+Bankless：深度剖析当前宏观环境，加密市场行情回来了吗？
+作者在解读美国消费者价格指数（CPI）数据后，建议保持谨慎看涨，但也要警惕低流通量的山寨币。
+如果投资者想立即参与市场，需要注意：避免杠杆；不要对自己持有的币产生感情；一旦出现失业率上升的迹象，就出售；对任何从他们的包里掏钱的人都要保持适度的怀疑。
+浅谈引爆 2023 年加密市场的十种可能性
+Regenerative Web3、去中心化物理设施网络 DePIN、公链和L2、零知识证明、以太坊流动性质押、Web3 钱包、Web3 安全、Onchain Game、新 CEX、NFT 基础设施。
+
+2023 年值得我们关注的 10 大潜力叙事
+集中流动性、期权 AMM、LayerZero 生态系统、LSD、Eigenlayer、稳定币、NFTFi、RWA、固定利率和利率互换、加密 AI。
+A&amp;T Capital 2023 趋势报告：市场在调整，但创新不止
+这篇文章看好：新范式、ZK Layer 2、并行计算、模块化设计、应用链、账户抽象钱包和外部拥有账户钱包、MEV、去中心化交易所。
+揭秘 Balaji Srinivasan：天才投资人的加密投资逻辑
+Srinivasan 主要投资于基础设施、工具&amp;信息服务、DeFi、DAO 和 DeSoc 等领域。具体而言，他前后投资过 Avalanch…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184684"
+                        open
+                      >
+                        <summary class="article-expander__title">DAOrayaki：加密中观经济学、第五权利及更有效的DAO</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184684">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：Intermediate Economics
+2023 年加密市场规模化主要障碍之一是：如何实施更有效的 DAO 以内化“公司的性质”并在已经去中心化的自治市场中适当地划分成本。
+本文将基于现有的加密经济市场现状，从中观经济学（Intermediate Economics）的视角分析已有的商业模式、并定义公司、市场和资产。具体框架如下：
+
+传统典型商业模式：沃尔玛、Sysco 和麦当劳
+
+经济市场及监管成本：黑、白、灰
+
+互联网平台商业模式：Uber、AirBnB 和亚马逊
+
+新的媒体形式：第五阶层/权力
+
+去中心化工具与已有商业的结合：中观经济实现
+
+传统典型商业模式：沃尔玛、Sysco 和麦当劳
+一个共同的商业模式已经渗透到我们的生活中。很多读者都看过“投降的麦当劳员工”表情包。在美国，沃尔玛几乎就是消费者版的翻版。
+沃尔玛对“美国消费者”来说是一个有趣的现象。镇中心是社会化的首选地点，基础设施的缺乏限制了工作机会和就业。然而，沃尔玛在这种背景中优化位置，即在已经存在的州际高速公路网络上运行。这同样适用于麦当劳。麦当劳优化了路边餐厅和特许经营结构，并构成了零工经济的基础。
+
+为什么将 Sysco 与沃尔玛、麦当劳放在一起？这是因为：所有这三个公司都符合罗纳德科斯的“公司的本质”，一家商业公司通过将成本内部化，来最大限度地降低生产成本的总和。这三个公司都已经发展到几乎垄断的状态，部分原因是它们可以从 1956 年的联邦公路援助法案和逐渐稳定的全球贸易路线中受益。在这两种情况下，民族国家都承担了一些基础设施成本，但下属公司可以自由地将收益资本化。科斯还解释了公司规模的管理费用限制，这也适用于税收，但我们稍后会重新讨论。
+还有一个有趣的社会学成本会随着时间的推移而降低：通勤带来的麻烦。从步行到骑马，从汽车到子弹头列车，我们倾向于为固定的通勤时间做预算。这也被描述为马…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184688"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT可以14天无理由退款？保时捷“不小心给投资者们提了个醒”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184688">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 decrypt，原文作者：Sander Lutz
+
+Odaily 星球日报译者 | Moni
+
+如果询问近期有哪些最受加密社区关注的 NFT 项目，保时捷 “PORSCHΞ 911 ” 绝对是其中之一。据 NFTGo.io 数据显示，自上线后短短 5 天时间，该 NFT 系列市值就达到了 749 万美元，交易额接近 600 万美元。
+不过，该项目在发布后一度受到抨击，认为其设定的每枚 0.911 ETH 铸造价格过于昂贵，与 Web3 精神不符。随后保时捷在社交媒体上发文表示，鉴于持有者的意见，保时捷 NFT 将减少供应并在 1 月 25 日停止铸造，以继续为专属社区创造最佳体验。然而一波未平一波又起，“PORSCHΞ 911 ” 铸造过程中的一个强制性复选框（如下图所示）又引发了另一场争议，实际上，如果用户勾选了该复选框，很可能损失部分权益。
+
+该复选框内容为：“I agree to the immediate provision of the contractual service (i.e., receiving the NFT) and I have been informed that I hereby lose the right of withdrawl.”意思是“我同意立即提供合约服务（即接收 NFT），我已被告知此操作将失去撤回权。”
+等等，这究竟是什么意思？！
+NFT 消费者可以申请 14 天无理由退款？
+如果你想铸造并成为保时捷 NFT 的所有者，就必须同意该服务条款并自我放弃所谓的“撤回权”。虽然大多数加密社区用户可能从未听说过这样的权利，但对于保时捷这样的德国汽车制造商而言，这一权利显然足够重要。 在关联 “撤回权”文件的链接中，保时捷以黑白醒目的方式准确解释了这意味着什么，声明指出：“如果您在 14 天内退出本合同，保时捷将向您退还从您…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184687"
+                        open
+                      >
+                        <summary class="article-expander__title">Bankless联创：以太坊将在互联网上开启一场工业革命</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184687">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Bankless 联合创始人 David Hoffman
+原文编译：DeFi 之道
+
+图片来源：由 Maze AI 生成
+加密经济系统必须找到平衡。
+为了使加密系统经受住时间的考验，它们必须具有灵活性，以适应周围不断变化的环境。僵化是脆弱的。僵化的系统最终将需要人工干预以防止崩溃。
+加密经济结构必须自动发现自然平衡状态，否则下图将成为我们不可避免的未来：
+
+“你真是个愚蠢的动物”；“你在等着美联储告诉你你的反建制数字货币会损失多少价值”
+人类一直在使用自我平衡机制来控制混乱和复杂情形。
+早期蒸汽机的发展便是一系列的爆炸和不可控的混乱。为了发挥作用，蒸汽机需要产生稳定和可预测的动力输出，但控制输出的速度是一个未解决的问题。
+通过应用一种被称为离心调速器的巧妙小机制，在能量输入和输出之间建立了一个负反馈回路。随着系统的功率输出增加，调速器将开始减少其输入的幅度。
+
+随着控制理论的简单应用，蒸汽的无限潜力被转化为工业革命。
+控制理论：研究工程过程和机器中动力系统控制的数学领域。其目的是开发一个模型或算法来控制系统输入的应用，以驱动系统达到理想状态，同时最大限度地减少任何延迟、超调或稳态误差，并确保控制的稳定性；通常是为了达到一定程度的优化。
+
+另外，当一个机翼与地面平行时，其效果是最大的。而当飞机倾斜时，由于机翼不再完全“向上”，所以对机翼的上升力也随之减少。
+
+二面角机翼角度自动平衡，以保持飞机的稳定性。当这种类型的飞机向一侧翻转时，机翼上的向上的力自然会转移到对其的推动上。这是一个有助于保持稳定的负反馈回路。
+反斜面机翼的作用则相反。当反斜面飞机向一侧倾斜时，机翼上的压力会发生变化，引致更大程度的翻转！这是积极的反馈回路。
+那么，我们为什么要设计带有反斜面机翼的飞机呢？因为它们的不稳定性很容易被外部干预（又称转向）所控制，让飞行员受益于反斜面机翼设计的其他优势。但是…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184685"
+                        open
+                      >
+                        <summary class="article-expander__title">项目资金来源竟不安全，或许你关注的项目正在洗钱</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184685">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>张三在刚刚过去的春节中，获得了上百万元的“压岁钱”🧧，正愁不知道怎么洗白。看到身边朋友在投区块链项目，于是想着自己也可以以创业为由，将手里几百万的压岁钱“投入”到项目中，变成“正经”所得。
+Web3世界由于监管政策的建立并未 100% 完善，于是衍生了比特币洗钱、贸易洗钱、聚合支付平台洗钱等各类货币洗钱的非法行为。此类行为对Web3项目构成了直接威胁。
+CertiK 团队调研后发现，不少犯罪组织正在利用这一计划将非法资金转化为看似合法的Web3初创公司投资，并获得高额回报。在此篇文章中，CertiK 的专业调查人员分享了他们的调查结果以及“办案”经验，并就如何保持Web3企业财务的完整性提供了实用的经验和见解。
+Web3洗钱是如何运作的？
+Venture-Based Money Laundering (VBML) ，利用风险投资进行洗钱（后文我们将统一简称为 VBML），在Web3中则表现为对创业公司种子资金生态系统的操纵。犯罪分子通过对企业早期的种子投资，将犯罪所得转化为合法业务和收入来源。
+CertiK 的专业调查团队对 272 家区块链和Web3初创企业进行了研究，发现了犯罪分子利用 VBML 渗透到Web3行业的手段。
+正如本文文首的小故事，当个人或组织实施犯罪并积累非法利润时，他们需要使用一种方式来“清洗”他们的资金，以便在不引起怀疑的情况下自由使用这些钱。VBML 就是这样一个对犯罪分子来说“绝佳”的方案。
+在Web3的背景下，VBML 包括犯罪分子用“肮脏”的资金为一个新的Web3项目提供种子资金。这笔最初的种子资金被用来雇佣开发人员及市场营销人员等。犯罪分子将全部非法资金用于这些投资，作为回报，他们会拥有或共同拥有一个颇具前途且富有收益的Web3项目。也是从这里开始，他们将有一个公开的企业来为他们显示资金来源，也就顺理成章地将钱“洗干净”了。
+在项目的整个…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184655"
+                        open
+                      >
+                        <summary class="article-expander__title">Adam Cochran：2023年Crypto财富密码</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184655">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Twitter，原文作者：Adam Cochran，由 Odaily 星球日报译者 Katie 辜编译。
+
+一年一度的 Crypto “扫货”清单又来了。在每次市场大幅下跌时，你没有时间研究单个资产，那么你可能会错过一个绝佳的买入机会。作为一个长期投资者，我预计有可能出现大幅下跌，导致我将不得已继续 Hold 下去。我预计一些资产将归零，所以我将根据情况的变化及时调整购买清单。
+每一份 Crypto 购物清单都是从建立主题和购买计划开始的。主题是在未来 3-5 年推动市场的催化剂，购买计划是指购买每种资产的规模，以及在什么条件下购买。每年我都会分享我的购物清单，并讨论我认为可以推动清单上资产增长的催化剂。本购买清单都是基于个人的情况、风险承受能力和时间规划。
+注意：购物清单仅供参考，不应该过分集中于少数资产，或者一次入手所有的资产。你的购物清单应该是你相信的资产。购物清单也不是一成不变的。需要每个月重新评估，把购买清单放在全球宏观、不断变化的行业事件和新发展的背景下考虑。在投资领域，保持不变无异于自取灭亡，DYOR。
+先给大家看张表，感受下 Crypto 在 2022 年的凄惨：
+
+注意：
+1. 我拥有这些资产中的大部分，如果我对这些资产没有足够的信心，它就不会出现在我的清单上。
+2. 如果人们直接效仿，我肯定会重新平衡一些头寸，但我认为这些都是“长期赢家”。
+总结：
+1. 实际外部收入仍然是最重要的因素。
+2. 但是，资产如此低迷，导致一些“增长”风格的代币面临困境。
+3. 专注于真正的收益“催化剂”，新颖的基础设施和用户体验。
+实际收入是指项目外部用户使用并产生收入的项目，特别是在没有持续排放激励措施支持的情况下，这最终会导致用户成本。另一个重要的亮点是用户体验。
+不仅是设计，还有任何让用户使用区块链技术的过程变得简单的工具。就像网络浏览器或搜索引擎使互联网易…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184683"
+                        open
+                      >
+                        <summary class="article-expander__title">美国政府发布减轻加密货币风险的路线图</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184683">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自白宫官网，原文作者：Brian Deese &amp; Arati Prabhakar &amp; Cecilia Rouse &amp; Jake Sullivan
+Odaily 星球日报译者 | 念银思唐
+
+2022 年对加密货币来说是艰难的一年。今年 5 月，一种所谓的“稳定币”崩盘，引发了一波破产潮。仅仅几个月后，一家大型加密货币交易所倒闭。许多信任加密货币公司的日常投资者——包括年轻人和有色人种——遭受了严重损失，但值得庆幸的是，迄今为止，加密货币市场的动荡对更广泛的金融体系几乎没有产生负面影响。虽然加密货币可能相对而言历史并不长，但我们看到的一些加密货币公司表现出的行为以及这种行为带来的风险却屡见不鲜。作为政府，我们的重点是继续确保加密货币不会破坏金融稳定，保护投资者，并追究不良行为者的责任。
+在拜登总统的指示下，我们在过去的一年里一直在识别加密货币的风险，并利用行政部门（Executive Branch）的权力采取行动减轻这些风险。
+首先，美国政府各部门的专家制定了首个以安全、负责任的方式开发数字资产的框架，同时应对数字资产带来的风险。可以肯定的是，驱动加密货币的技术可能会提供更快、更便宜、更安全的支付方式。但这一框架确定了明显的风险。例如，一些加密货币实体忽视了适用的金融法规和基本的风险控制——而这些都属于保护国家中的家庭、企业和经济的举措。此外，加密货币平台和推动者经常误导消费者，他们有的还存在利益冲突，未能充分披露，或犯下直接欺诈行为。整个行业的网络安全都很糟糕，这使得朝鲜民主主义人民共和国能够窃取超过 10 亿美元，为其存在威胁的导弹计划提供资金。
+其次，各机构正在利用它们的权力在适当的时候加强执法，并在需要的时候发布新的指导意见。就在本月，银行机构发布了联合声明，要求将风险性数字资产与银行系统分离。政府各机构已经启动（或正在着手开展）公众意识项目，以帮助消费者了解购买加密货币的风险。我们鼓励监管机构继续这些努力，包括那些旨在解决和限制金融机构暴露在数字资产风险中的行为。
+但过去一年发生的事件强调，我们还需要做更多。各机构已经加倍努力打击欺诈，包括关于 FDIC（美国联邦存款保险公司）所承保加密资产的虚假或误导性声明的扩散。虽然美国在打击洗钱和恐怖主义融资方面已经处于全球领先地位，但执法机构正在投入更多资源打击涉及数字资产的非法活动。在接下来的几个月里，美国政府还将公布数字资产研发的优先事项，这将有助于驱动加密货币的技术默认保护消费者。
+国会也需要加大努力。例如，国会应该扩大监管机构的权力，以防止有关公司滥用客户的资产——这会伤害投资者并影响价格——以及缓解利益冲突。国会还可以加强对加密货币公司的透明度和披露要求，以便投资者能够就金融和环境风险做出更明智的决定。为了协助执法，国会可以加强对违反非法融资规定行为的处罚，并禁止加密货币中介机构向犯罪分子通风报信。它可以为加强执法能力建设提供资金，包括与国际伙伴合作。通过遵循金融稳定监督委员会（Financial Stability Oversight Council）在其最近的报告中概述的步骤，包括解决稳定币的风险，从而限制加密货币对金融系统的风险。
+尽管国会在这些领域的行动将受到欢迎，但国会也可能加大我们的工作难度，并加剧投资者和金融体系面临的风险。立法不应该为养老基金等主流机构一头扎进加密货币市场开绿灯。在过去的一年里，传统金融机构对加密货币的有限敞口阻止了加密货币的动荡影响更广泛的金融体系。如果立法改变方向，反而加深加密货币与更广泛金融体系之间的联系，那将是大错特错。                                                                              
+政府全心全意地支持负责任的技术创新，使金融服务更便宜、更快、更安全、更容易获得。然而，要实现这些好处，新技术需要相应的保障措施。保障措施将确保新技术是安全的，对所有人都有益——确保新的数字经济为大多数人服务，而不仅仅是少数人。为了落实正确的保障措施，我们将继续推进我们已经开发的数字资产框架，同时与国会合作实现这些目标。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4936,86 +4978,6 @@ Hervé Maurey表示，最近FTX的破产凸显了任何加密资产投资的固�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/s7841p69.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国国税局、美国证交会等加入Genesis债权人名单</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/s7841p69.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月24日消息，据The Block报道，根据周一提交的法庭文件，美国国税局(IRS)、美国证券交易委员会(SEC)和纽约南区联邦检察官办公室都在Genesis的债权人之列。Genesis Global Holdco上周向美国纽约南区破产法院申请破产保护。在申请破产时，该公司表示手头有超过1.5亿美元的现金，可以提供“充足的流动性”来支持其业务运营，并推动重组进程。据此前消息，Genesis的律师在周一举行的听证会上向​联邦破产法庭表示，预计将于本周末与债权人达成协议。Genesis正考虑出售企业，以筹集资金偿还债权人。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ljtr9109.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Genesis律师：预计将于本周末与债权人达成协议，正考虑出售企业</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ljtr9109.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月24日消息，据CoinDesk报道，Genesis的律师在周一举行的听证会上向​联邦破产法庭表示，预计将于本周末与债权人达成协议。Genesis正考虑出售企业，以筹集资金偿还债权人。如果出售不成功，将把控股公司的股权分配给债权人。据此前消息，Genesis负债超过 50 亿美元，这一数额远远大于其资产。根据周一向法院提交的陈述，Genesis的资产包括大约1.5亿美元的未支配现金、500美元亿美元的数字资产，3.85亿美元的经纪账户和5.05亿美元的第三方未偿还贷款。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/jbnk83s0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Gemini将裁员10%，为过去八个月内的第三轮裁员</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/jbnk83s0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月24日消息，据The Information报道，内部消息显示，加密交易所Gemini将裁员10%。Gemini联合创始人兼总裁Cameron Winklevoss在Slack上向员工通知了裁员消息，并表示糟糕的宏观经济状况和加密行业“前所未有的欺诈”迫使该公司裁员。此次裁员是Gemini在过去八个月内进行的第三轮裁员。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/qmv5ayl7.html"
-                        open
-                      >
-                        <summary class="article-expander__title">FBI：Lazarus Group和APT38为Harmony跨链桥攻击事件的幕后黑手</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qmv5ayl7.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 1月24日消息，据The Block报道，美国联邦调查局（FBI）周一证实，Lazarus Group和APT38为去年6月Harmony跨链桥攻击事件的幕后黑手。他们盗窃了价值1亿美元的虚拟货币，并通过RAILGUN隐私协议洗钱。此次黑客攻击与由朝鲜领导的名为“TraderTraitor”的恶意软件活动有关。此外，Lazarus Group还与去年4月6亿美元的Ronin攻击事件有关。FBI表示，朝鲜利用盗窃的资金来开展弹道导弹和大规模杀伤性武器项目。据此前消息，Lazarus Group已将部分Harmony被盗资金转移到ETH/Tron链混币网络。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -5224,32 +5186,6 @@ What GPT-4 has to offer that GPT-3 didn’t
 
 GPT-4 Will Have 100 Trillion Parameters — 50 0x the Size of GPT-3 | by Alberto Romero | Towards Data Science</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184658"
-                        open
-                      >
-                        <summary class="article-expander__title">Vitalik Buterin：隐身地址的不完全指南</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184658">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Vitalik Buterin
-原文编译：DeFi 之道
-特别感谢 Ben DiFrancesco、Matt Solomon、Toni Wahrstätter 和 Antonio Sanso 的反馈和审阅。
-以太坊生态系统中剩下的最大挑战之一是隐私。 默认情况下，进入公共区块链的任何内容都是公开的。 越来越多地，这不仅意味着金钱和金融交易，还意味着 ENS 域名、POAP、NFT、灵魂绑定代币等等。 在实践中，使用整套以太坊应用程序涉及将你生活的重要部分公开给任何人查看和分析。
-如何改善这种状况已经成为一个重要的问题，这一点已得到广泛认可。 然而，到目前为止，关于改善隐私的讨论主要围绕一个特定的用例：ETH 和主流 ERC 20 代币的隐私保护转移（通常是自我转移）。 这篇文章将描述一种不同类别的工具的机制和用例，这些工具可以在许多其他情况下改善以太坊的隐私状态：隐身地址。
-什么是隐身地址系统？
-假设 Alice 想给 Bob 一个资产。 这可能是一定数量的加密货币（例如 1 ETH、 500 RAI），也可能是一个 NFT。 当 Bob 收到资产时，他不想让全世界都知道是他得到的。 想要隐藏一笔转账发生的事实是不可能的，特别是如果它是一个链上只有一个副本的 NFT，但隐藏谁是接收者可能更可行。 Alice 和 Bob 也很懒惰：他们想要一个支付流程与今天完全相同的系统。 Bob 向 Alice（或在 ENS 上注册）发送某种“地址”编码，编码某人如何向他付款，仅此信息就足以让 Alice（或其他任何人）向他发送资产。
-请注意，这与 Tornado Cash 等工具提供的隐私不同。Tornado Cash 可以隐藏 ETH 或主要的 ERC 20 代币等主流可替代资产的转账（尽管它最容易用于私下发送给自己），但它在为不知名的 ERC 20 转账添加隐私方面非常薄弱…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7338,8 +7274,8 @@ Not Boring Capital 2022 年投资了包括基于 Solana 的房地产数字化投
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4031951380">
-        <time id="build-timestamp" datetime="2023-01-28T13:11:16.658Z">2023-01-28T13:11:16.658Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4032143128">
+        <time id="build-timestamp" datetime="2023-01-28T14:06:19.719Z">2023-01-28T14:06:19.719Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
