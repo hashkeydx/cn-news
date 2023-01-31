@@ -2,10 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-01-31T05:07:06.802Z</updated>
+    <updated>2023-01-31T06:10:07.522Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[详解Pos协议中的Slashing经济学]]></title>
+        <id>https://www.odaily.news/post/5184746</id>
+        <link href="https://www.odaily.news/post/5184746"/>
+        <updated>2023-01-31T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《The cryptoeconomics of slashing》
+原文作者：Sreeram Kannan、Soubhik Deb
+原文编译：隔夜的粥
+为权益证明（PoS）协议设计的机制中，没有哪一种像 Slashing （罚没）一样具有争议。罚没提供了一种方法，以有针对性的方式对不采取协议一致行动的任何特定节点进行经济惩罚。它通过拿走部分或全部验证器质押权益来实现这一点，而不会对按照协议行事的其他节点施加外部性。Slashing （罚没）是权益证明（PoS）协议所独有的，因为它需要区块链能够执行惩罚。这种强制执行在工作量证明（PoW）系统中显然是不可行的，这类似于烧掉行为不端的节点所使用的挖矿硬件。这种应用惩罚性激励的能力，在区块链机制设计中开辟了一个新的设计空间，因此值得仔细考虑。
+尽管它以「业力」的形式带来了明显的好处，但对罚没的主要反对意见是，由于运行过时的软件等无心之失，节点可能会被过度罚没。因此，很多协议都避免采用 Slashing （罚没），而是依赖于所谓的代币毒性（即如果协议被成功攻击，底层代币将失去价值）。很多人认为，质押者会将这种毒性视为对损害协议安全性的威胁。在我们的评估中，代币毒性不足以阻止某些典型场景中的对抗性攻击。事实上，在这种情况下，对手攻击和破坏协议所产生的成本（称为贿赂成本）基本上为零。
+在本文中，我们将展示如何将 Slashing （罚没）纳入 PoS 协议的机制设计中，从而大大增加任何对手可能招致的贿赂成本。在存在贿赂的情况下，对于去中心化协议以及不满足代币毒性假设的协议（中心化或去中心化），罚没保证了高且可衡量的贿赂成本。
+可能导致贿赂以及缺乏代币毒性的情况无处不在。很多 PoS 协议通过拥有一个紧密结合的社区来避免落入这两个类别之一，这只有在规模较小时才可行。（1 ）通过依靠强大的领导力引导他们朝着正确的方向前进，将验证委…]]></summary>
+        <author>
+            <name>DeFi之道</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[StarkNet正开发基于Rust的新开源定序器，旨在增加吞吐量]]></title>
         <id>https://panewslab.com/zh/articledetails/c77ed3d7.html</id>
@@ -18,6 +34,25 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[FTX崩盘之后华尔街巨头们的加密计划一览]]></title>
+        <id>https://www.odaily.news/post/5184750</id>
+        <link href="https://www.odaily.news/post/5184750"/>
+        <updated>2023-01-31T04:03:24.000Z</updated>
+        <summary type="html"><![CDATA[本文来自彭博社，原文作者：Anna Irrera & Suvashree Ghosh & Yueqi Yang
+Odaily 星球日报译者 | 念银思唐
+
+纽约梅隆银行（Bank of New York Mellon Corp.）的历史可以追溯到 1784 年，那时亚历山大·汉密尔顿（Alexander Hamilton）创办了全美历史最悠久的银行。但如今，即使是这家久负盛名的银行也在加密货币领域奋勇前进。
+尽管加密货币领域出了状况——造成巨大的资金损失，发生一连串糟糕的破产，Sam Bankman-Fried（SBF）也被捕了，但世界上最大的托管银行和其他金融巨头仍然希望扩张，而不是收敛自己的加密野心。
+不过需要指出的是，加密货币只是他们瞄准的庞大数字资产宇宙的一小部分，他们押注“加密冬天”将帮助他们完成在如今已快被遗忘的加密春天无法完成的事情：一鼓作气地打入业务的关键部分。
+他们正在推进区块链项目，以及扩展代币化产品——发行代表债券等真实主流资产的代币。这些巨头们的另一个目标是加密货币托管，公司为客户保护资产，尽管监管机构最近的指示使其成本更高。
+从在 SBF 的加密货币交易所 FTX 申请破产一个月前推出加密货币托管平台的纽约梅隆银行，到共同基金巨头富达投资（Fidelity Investments）、贝莱德公司（BlackRock Inc.）和野村控股公司（Nomura Holdings Inc.），华尔街的一众金融巨头们正在规划数字资产的未来。
+“这将继续是我们关注的焦点，与其说是加密货币，不如说实际上是数字资产和分布式账本技术中存在的更广泛的机会。”纽约梅隆银行首席执行官 Robin Vince 本月在一次讨论收益的电话会议上表示，“如果真要说有什么变化的话，那就是加密市场最近发生的事件只会进一步凸显出数字资产领域需要值得信赖的受监管提供商。”
+该公司的一位发言…]]></summary>
+        <author>
+            <name>念银思唐</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[派盾：Alameda从3个关联地址收到120枚NFT，包括32枚BAYC]]></title>
         <id>https://panewslab.com/zh/articledetails/mx8y9sy3.html</id>
         <link href="https://panewslab.com/zh/articledetails/mx8y9sy3.html"/>
@@ -26,6 +61,45 @@
 据悉，标记为FTX的地址于2022年2月将99枚ETH转移到0x8bd7，并于2021年12月将6.9枚ETH转移到0xf8e0。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[马斯克将开始实现他的Super App愿景与加密支付梦]]></title>
+        <id>https://www.odaily.news/post/5184749</id>
+        <link href="https://www.odaily.news/post/5184749"/>
+        <updated>2023-01-31T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：突发：马斯克即将在推特 Twitter 推出加密货币支付？
+原文来源：阿法兔研究笔记
+原文编译：阿法兔
+
+马斯克与推特支付 
+根据 FT 的报道，马斯克公司目前已开始申请美国各州的许可证，希望获得广告以外的新收入，马斯克之前曾表示，希望 Twitter 和整合金融技术服务，如点对点交易、储蓄账户和借记卡。 
+当然，推特也在推进退出支付服务前所需的监管检查。根据文件显示， 11 月，Twitter 在美国财政部注册为支付处理机构，希望在一年内完成美国的许可，之后 Twitter 公司将寻求扩大，以获得国际监管机构的批准。 
+Twitter 已于去年 8 月成立了一个子公司 Twitter Payments LLC
+问题在哪？
+主要是目前 Twitter 的营收还上不去，因此，Twitter 已开始在美国各地申请监管许可，并设计在社交媒体平台上引入支付功能所需的软件。 
+
+去年收购 Twitter 的时候，财务状况是，推特已经融资 19 轮左右（早期、Pre-IPO 和上市后）筹集了 44 亿美元的资金;上市累计亏损了 8.61 亿美元（即不包括 IPO 前的亏损）。33 次财报电话会议中只有 14 个是有提到利润的。还有就是推特没有明确的商业模式，于是还是要靠广告，但是太多的广告又会给一个信息平台的体验带来大量问题。 
+
+Esther Crawford 是目前马斯克在 Twitter 公司比较信任的左膀右臂，他已经开始带领小团队，组建 Twitter 整合支付科技所需的架构。 
+这项结合金融支付的新举措，是马斯克开辟新收入来源计划的一个重要部分。自从马斯克去年 10 月份以 440 亿美元的收购了推特，之前 Twitter 每年 50 亿美元的广告业务就陷入困境了，当然，这项新举措也很可能意味着之前马斯克推进 Twitter Blue，在策略上没有成功。 
+去年年末和今年年初，Twitter 打击了很多第三方插件，像 Tweetbot 和 Twitterific 这些公司都陷入了困境。有猜测认为，Twitter 故意关闭了对这些应用程序的访问，主要是因为它们无助于推动广告收入。这也让习惯用 Twitter 插件和软件的用户觉得很麻烦，因此 Twitter 与第三方开发者的关系已经很不稳定。 
+如果从纯粹的商业意义上讲，关停第三方客户端是完全合理的。但是 Twitter 公司在 2012 年之后一直没有这样做，而马斯克坚持要让广告模式发挥作用。于是，像 Twitterrific 这种成立了 16 年的公司就很难运营了。
+接下来，马斯克希望推特能够提供金融技术服务，如点对点交易（仔细想这个是什么？）储蓄账户和借记卡，作为总体计划的一部分，这项计划包含了信息、支付和商务。 
+当然，值得注意的是，马斯克在支付领域是有创业经验的。1999 年，马斯克与人合作创办了 X.com，这是最早的网上银行之一，后来成为支付巨头 Paypal 的组成部分。 
+不过，马斯克的愿景也许远不止于此，他更想的是把 Twitter 打造成一个超级 App 也就是 Super App/Everthing App，包括探索： 
+1. 让用户直接奖励创作者 
+2. 让用户直接通过平台购买物品 
+3. 用户可以直接给彼此付款。 
+马斯克希望该系统首先是法定货币，但是，内部人士表示，也有可能在以后增加加密货币功能。 
+去年马斯克 5 月份向投资者提交的收购 Twitter 早期方案中, 马斯克表示自己目标是在 2028 年之前让 Twitter 带来约 13 亿美元的支付收入。 
+当然，支付公司 FXC Intelligence 的数据显示，数十万 Twitter 用户在他们的推文或账户中分享第三方支付选项的链接，也就是说，Twitter 本身已经是一个很多支付场景发生的平台。
+参考文献：
+1.https://www.ft.com/content/9d84d534-b2dd-4cff-85d1-aee137b26a45
+2.CryptocurrencyNews|SeekingAlphaViewinbrowser
+3.Twitter Kills Third-Party Clients, Twitter's Tortured History With 3 rd-Party Apps, The Twitter Files Business Model-Ben Thompson]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
@@ -60,6 +134,39 @@
 此前1月27日消息，基于Solana的DeFi协议Friktion正关闭前端网站，并建议用户取回资产。此外，CoinDesk援引消息人士报道，Friktion关闭平台是因为项目创始人在推进产品路线图方式上存在分歧与摩擦，但两位创始人均拒绝就内部冲突问题置评。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生态快速增长的Arbitrum接力OP，将成为Layer 2赛道的新黑马？]]></title>
+        <id>https://www.odaily.news/post/5184743</id>
+        <link href="https://www.odaily.news/post/5184743"/>
+        <updated>2023-01-31T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：Arbitrum is Mooning 
+原文来源：Ben Giove，Bankless 分析师
+原文编译：MarsBit
+现在是 L2 赛季。
+目前，Layer 2 是加密领域增长最强劲的领域之一，其以 ETH 计价的 TVL、用户量和交易量在 2022 年期间飙升。
+
+总的来说，L2 现在一直在处理比以太坊 L1 更多的交易，且开始真正证明它们作为以太坊主要扩展解决方案的能力。
+推动 L2 增长的主力之一是 Arbitrum，一个 optimistic rollup。在竞争日益激烈的 rollup 环境中，Arbitrum 正在成为 DeFi 的主要 L2，拥有大量创新应用程序和强大的社区。
+Arbitrum 关键绩效指标
+
+DeFi TVL
+
+
+来源：DeFi Llama
+Arbitrum 的 TVL 为 11 亿美元，在所有 L1 或 L2 中排名第五，在所有网络中占有 2.5% 的 TVL 份额，在 L2 中还拥有 62% 的 TVL 份额。
+在过去一年，Arbitrum 市场份额大幅增长，这种增长可能是由于应用程序的增长，例如永续合约交易平台 GMX（稍后会详细介绍）。
+值得注意的是，Arbitrum 的增长并没有使用全网激励计划，因为 rollup 没有原生代币。但是，网络上一定比例的流动性可能仅用于追溯空投（稍后也会详细介绍）。
+
+活跃地址
+
+
+Arbitrum 每月活跃地址：Source Dune Analytics
+Arbitrum 第 4 季度平均月活跃地址 (MAA) 为 614, 279 个，环比 (Q/Q) 和同比 (Y/Y) 分别增长 81.3% 和 728.7% 。L2 有望在 2023 年 1 月超过该数量，因为目前该月的活跃地址量预计为 631, 633 。
+用户激增与 Arbitrum 生态系统内流动性的增长以及 Nitro …]]></summary>
+        <author>
+            <name>火星财经</name>
         </author>
     </entry>
     <entry>
