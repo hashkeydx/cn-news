@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-03T07:07:29.585Z</updated>
+    <updated>2023-02-03T08:10:14.776Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -81,6 +81,34 @@
 澳大利亚周五还发布了一份关于代币映射（ Token Mapping）的咨询文件，将其描述为识别加密生态系统中产品的关键属性，并将其与现有监管框架进行映射的过程。政府还计划在2023年中期提出加密货币托管和许可制度，以供公众评估。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nostr的野心，不止替代Twitter]]></title>
+        <id>https://www.odaily.news/post/5184837</id>
+        <link href="https://www.odaily.news/post/5184837"/>
+        <updated>2023-02-03T04:48:35.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：阿法兔研究笔记
+
+
+
+1.Nostr 协议的缘起和起承转合，比如说它是出于什么想法和思路创建的，以及一些流量分析
+1.1 首先，讨论 Nostr 协议
+最近大火的 Damus，是建立在 Nostr 协议的一个应用，主要是以去中心化的社交场景（你把它理解为去中心化的 Twitter）即可。
+而 NOSTR 是一个协议，通过这个协议，可以建立很多东西，这个协议相对轻量级的、简单但可扩展的开放协议，在它上面可以建立真正去中心化的社交媒体平台。
+这个协议是基于中继端（Relays，可以译为中继站、中继端、中继等，这个概念在 Nostr 中非常常用,你可以理解为中继服务器，我们这里为了和 Client 客户端对应，把它翻译为中继端，关于翻译要感谢很多即刻上的朋友，致谢可见文末）的，中继端是可以由任何人操作的服务器，通过建立与服务器的持久连接，客户端（或应用程序）可以实时进行事件的交互（ push and pull events in real time.）
+
+Nostr 的官网
+
+关于帐户
+在 nostr 中，我们不需要通过使用个人数据来注册一个账户（看到没，这就是它的优势）。
+像比特币一样，我们只需要一套钥匙，也就是两把钥匙。
+
+?️ 一个公钥（Public Key）作为你的用户名，这个密钥可以共享，并对所有人公开（就像你的微博账号、微信 ID、银行账户一样，别人通过这个找到你）。
+
+? 一个私钥（Private Key)。这把钥匙像你的密码，需要对它进行保密，通过这个密钥，你可以在任何由 nostr 支持的平台上访问你的账户。只需要选择一个 nostr 协议的客户端，如 anigma、coracle 或 astral，它就会为你生成，这里，为了增加安全性，建议使用外部签名程序，如 Alby 浏览器扩展或 nos 2 x 扩展等等，也可以用 Rana 等工具生成一个独立的…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
