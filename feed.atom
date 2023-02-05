@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-05T15:07:08.876Z</updated>
+    <updated>2023-02-05T16:08:58.646Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[StarkWare将开源其零知识技术「STARK Prover」以支持以太坊扩容]]></title>
+        <id>https://www.odaily.news/post/5184869</id>
+        <link href="https://www.odaily.news/post/5184869"/>
+        <updated>2023-02-05T15:00:19.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 Decrypt，原文作者：Andrew Asmakov
+Odaily 星球日报译者 | 念银思唐
+
+总部位于以色列的 StarkWare 是以太坊 Layer 2 扩容解决方案 StarkEx 和 StarkNet 背后的开发商，该公司今天透露了将其 STARK Prover 软件开源的计划。
+作为全球最大的智能合约平台，为了实现更快、更便宜的交易，StarkWare 利用了被称为“zero-knowledge rollups”的技术，该技术将数十万笔交易在链下进行捆绑，然后在链上验证，成本仅为链上的一小部分。
+STARK Prover 将被重命名为 Starknet Prover，并置于 Apache 2.0 许可之下，这将允许Web3开发人员复制和更改该软件源代码，并允许他们作为商业用途发布任何副本或修改，而无需担心版税。
+StarkWare 总裁兼 Eli Ben-Sasson 联合创始人周日在特拉维夫的一次活动中表示：“这是推进以太坊扩容规模的里程碑式时刻，从更广泛的意义上讲，这是加密学领域的里程碑式时刻。”
+他补充说，这将使 STARK 技术“处于正确的位置，作为一种公共产品，将被用于造福所有人。
+用于以太坊扩容的“魔杖”
+STARK 是由 Ben-Sasson 创建的一类加密协议，由 StarkNet 和 StarkEx 使用，以提供扩容支持，同时维护底层以太坊区块链的安全性。
+StarkWare 正在构建 Starknet Prover 的代码库基于自 2020 年 6 月以来一直在使用的软件，证明来自知名的基于 StarkWare 的去中心化应用程序（dApps）的交易，如 Immutable X、Sorare 和 dYdX 等。据 StarkWare 称，该公司已处理了 3.27 亿笔交易，铸造了 9500 万枚 NFT，并结算了约 8240 亿…]]></summary>
+        <author>
+            <name>念银思唐</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[a16z投票反对在BNB Chain上部署Uniswap V3的提案，以反对将Wormhole作为跨链桥]]></title>
         <id>https://panewslab.com/zh/articledetails/cagmy95a.html</id>
@@ -4001,129 +4021,6 @@ Aptos 的历史
 Aptos 是一个前工程师为 Facebook 的 Diem 项目开发的 L1。该网络的主要…]]></summary>
         <author>
             <name>DeFi之道</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HOPEX平台将于2月28日停止运营，OTC法币提现已关闭且链上提现停运前每日限时开放]]></title>
-        <id>https://panewslab.com/zh/articledetails/56srba50.html</id>
-        <link href="https://panewslab.com/zh/articledetails/56srba50.html"/>
-        <updated>2023-02-01T04:06:39.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月1日消息，数字货币衍生品交易平台HOPEX今日发布公告称，因应重大业务调整， HOPEX平台决定逐步有序退出中心化数字货币衍生品交易服务，并将在2023年2月28日正式停止运营。
-具体细则如下：自公告之日起所有交易对停止新开仓、关闭账户充值、关闭OTC法币提现。2月5日16:00之后所有交易对将停止交易，链上提现功能则将开放至2023年2月28日16:00。不过，链上提现功能每日限时开放，时间为10:00 –18:00。2月28日16:00，所有提现将由人工处理并需进行身份审核，平台将收取提现金额的5%（或20USDT, 取其较高者）作为人工处理费用。Hopex还关闭了在线客服系统，但保留了邮件沟通渠道。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文速览获得ETH Research Grant首轮资助的5个项目]]></title>
-        <id>https://www.odaily.news/post/5184772</id>
-        <link href="https://www.odaily.news/post/5184772"/>
-        <updated>2023-02-01T03:48:39.000Z</updated>
-        <summary type="html"><![CDATA[以太坊研究长期资助 Grant（ETH Research Grant）首轮资助已于 DoraHacks.io 平台顺利落幕。在首轮申请的 19 个 BUIDL 团队中，经评选共有 5 个 BUIDL 团队入选，获得总计 5000 美金的项目资助。
-即日起至 2 月 28 日申请的项目可进入第二轮 Grant 评选。第二轮资助社区投票将于 3 月 5 日至 3 月 15 日进行。欢迎所有对 Ethereum 生态技术感兴趣的开发者研究者们报名申请！
-根据投票结果排名如下：
-Eigen Network
-类别: zkEVM/zkVM
-概况：
-Eigen Network 旨在构建一个以隐私为中心的 zkVM，并与 Solidity 高度兼容，为 EVM 生态中的开发者提供隐私和开发体验。
-Eigen Network 创建了一个具有恒定证明大小和无可信设置的分层证明系统，使用隐私标准模板库扩展 zkVM 以支持隐私保护计算，并构建 zkzkRollup 作为 web3.0 的隐私层。
-主页: https://dorahacks.io/buidl/3997? roundProj= 3115 
-ERC 1155 Delta
-类别: Ethereum Adoption
-概况：ERC 1155 Delta 是一种 NFT 实现/标准，针对 gas 消耗进行了高度优化，对区块链存储空间的影响较小。
-主页: https://dorahacks.io/buidl/3865? roundProj= 3116 
-EthStorage
-类别: Sharding/Data Availability
-概况：
-EthStorage 是基于以太坊数据可用（Data Availability）的基础上提供可编程的动态存储的二层解决方案（L2）。EthStorage 将会大大降低以太坊上大量数据的存储开销，节省 100 到 1000 倍成本，更好的支持未来完全去中心化的网络。 EthStorage 与 EVM 高度整合，并完全兼容 Solidity、Remix、Hardhat 和 MetaMask 等以太坊工具。 团队获得了以太坊基金会官方对于数据可用（Data Availability）研究的资助。
-主页:https://dorahacks.io/buidl/4078? roundProj= 3114 
-SoulWallet
-分类: AA/ERC 4337 
-概况：
-SoulWallet 是一款提供社交恢复、ERC-20 Gas 支付、Gasless 支付、原生多重签名等新功能的钱包。
-主页: https://dorahacks.io/buidl/4079? roundProj= 3113 
-ZKSAFE Password
-类别: Cryptography Research
-概况：
-ZKSAFE 是基于零知识证明的去中心化资产安全产品，即使私钥被盗，资产依然安全。团队由一小撮志向远大的加密极客们组成，创新是我们的驱动力，更多不可思议的产品正在开发中。
-主页: https://dorahacks.io/buidl/4084? roundProj= 3124 
-About DoraHacks
-DoraHacks 是一个全球范围内的极客运动，全球黑客马拉松组织者，也是全球最活跃的多链 Web3 开发者平台之一。DoraHacks.io 平台使得世界各地的 Hacker 和开源开发者可以参与黑客马拉松、Bounty、Grant、Grant DAO、并通过 DoraHacks 提供的加密原生协议和基础设施获得资助。到目前为止，DoraHacks 社区的 4000 多个项目已经获得了超过 2500 万美元的资助。数百个开源社区、DAO 和超过 50 个主要区块链生态系统正在积极使用 Dora 的基础设施进行生态资助和社区治理。
-
-Website｜ Twitter｜Discord｜Telegram｜Binance Live｜Youtube]]></summary>
-        <author>
-            <name>DoraHacks</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celsius：符合条件的托管用户将能够提取约94%的符合条件的托管资产]]></title>
-        <id>https://panewslab.com/zh/articledetails/z6txib04.html</id>
-        <link href="https://panewslab.com/zh/articledetails/z6txib04.html"/>
-        <updated>2023-02-01T03:48:03.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月1日消息，加密借贷平台Celsius推特发文称：“Celsius提供了有关某些托管账户中某些资产即将进行的提款流程的更新。出于安全和监管原因，在处理任何提款之前，将要求合格用户使用某些所需信息更新其Celsius帐户。此时，符合条件的托管用户将能够提取约94%的符合条件的托管资产。符合条件的用户是否可提取余下的6%，将由法院稍后决定。符合条件的用户还将收到与取款活动相关的GAS和交易费用相关的特定信息。账户中没有足够资产来支付这些费用的合格用户将不允许提取其资产。符合条件的用户有望在2月15日左右收到来自Celsius的电子邮件和Celsius应用程序通信，告知他们的资格。”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「OE」模式打响NFT市场新年第一枪，背后有这三个原因]]></title>
-        <id>https://www.odaily.news/post/5184765</id>
-        <link href="https://www.odaily.news/post/5184765"/>
-        <updated>2023-02-01T03:41:14.000Z</updated>
-        <summary type="html"><![CDATA[近一个月，NFT 市场有回暖迹象。
-根据 Cryptoslam 1 月 30 日数据，截止目前，全球 NFT 市场 24 小时交易量增长超 40% ，NFT 购买者数量增长超 350% 。虽然远不及 NFT 牛市的巅峰，但在经历了几个月的低迷后，偶有正面数据也足以激发 NFT 收藏家的热情。
-其次，BAYC Sewer Pass 以及小游戏 Dookey Dash 上线，Blur 将在 2 月发币，Doodles 迁移至 Flow，「胖企鹅」Pudgy Penguins 与 LayerZero 合作，实现其子系列「Lil Pudgys」跨链……这些蓝筹的利好信息也让社区情绪大幅上升，同时为沉寂已久的 NFT 市场打开希望。
-除了以上老牌头部项目的助推，一些概念和机制层面的新活力也注入到 NFT 领域。例如，近期我们观察到一批以「Open Edition」为主题的 NFT 行情，似乎有种重现去年 7、 8 月份「Free mint」之势，不仅带动了 NFT 销售量，也让各大知名艺术家掀起了一阵「Open Edition」热潮。
-
-老概念「OE」为何又流行起来？
-
-「Open Edition」，又称「OE」，是一种 NFT Drop 方式（Drop：是在特定时间和地点发布一个或多个 NFT，暗示其购买需求很大），它不设定 NFT 供应限制。目前有两种 「OE 」Drop：最常见就是允许收藏家在一定时期内（通常在 24、 48 或 72 小时内）铸造任意数量的 NFT；另一种是不限时 Drop，没有铸造结束时间，收藏家可以随时铸造。
-细究「OE」，我们发现其并不是近期衍生出来的 NFT 新概念，早在 2020 年著名 NFT 艺术家 Beeple 就发布了 3 个「OE」项目，但在当时并没有引起轰动。
-
-去年 3 月，加密艺术家 XCOPY 通过 Nifty Gateway 发布…]]></summary>
-        <author>
-            <name>十文</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[zkSync 2.0主网第二阶段Fair Onboarding Alpha即将上线，允许开发者在封闭环境中测试代码]]></title>
-        <id>https://panewslab.com/zh/articledetails/htmp6xl2.html</id>
-        <link href="https://panewslab.com/zh/articledetails/htmp6xl2.html"/>
-        <updated>2023-02-01T03:36:27.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月1日消息，基于ZK Rollup的以太坊二层网络zkSync发布推文称，zkSync 2.0的下一个里程碑——Fair Onboarding Alpha即将到来，其允许开发者在封闭环境中测试代码，新的费用模型可以确保交易和区块扩容考虑系统整体成本，改善证明生成性能并修复所有审计发现。
-据悉，Fair Onboarding Alpha的持续时间将与生态系统项目一起确定。在Fair Onboarding Alpha期间，系统将对外部用户关闭，完成后将进入Full Launch Alpha阶段并对外部用户开放。
-此前去年10月份消息，zkSync 2.0主网计划分三个阶段启动，分别是Baby Alpha（已上线）、Fair Onboarding Alpha、以及Full Launch Alpha。在最后一个阶段后，zkSync 2.0主网将向全部用户开放。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《金融时报》：华尔街著名律师事务所是如何陷入FTX风波的？]]></title>
-        <id>https://www.odaily.news/post/5184766</id>
-        <link href="https://www.odaily.news/post/5184766"/>
-        <updated>2023-02-01T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Sujeet Indap, Joshua Oliver 
-原文标题：《How a prestigious Wall Street law firm got caught up in FTX’s chaos》
-原文编译：倩雯，ChainCatcher
-Algernon Sydney Sullivan 和 William Nelson Cromwell 于 1879 年开设他们的同名律师事务所 Sullivan&Cromwell，此后该公司已成为世界上巨头公司的首选，这些公司包括通用电气与高盛。
-2021 年，这家专注于提供高端服务的律所开始与一位创业者合作，后者无论在形象上还是在事实上都与其在华尔街的本部风格完全不符。但一些人认为他可能会成为下一个全球金融巨鳄。FTX 总部位于巴哈马，当时是一家非常年轻的公司。彼时加密行业正在崛起，SBF 以其性格古怪却又备受欢迎的形象冉冉升起。
-在接下来的 16 个月里，Sullivan 为 FTX 执行多项工作，获得 860 万美元的费用。这家律师事务所目前可能会获得数千万美元的「意外之财」，因为它帮助引导陷入困境的 FTX 在创始人不参与的状况下度过破产，该费用将用破产财产进行支付。
-根据 American Lawyer 的数据，Sullivan 从 FTX 的兴衰中获取的收益并未占据其 2021 年 17 亿美元总收入的大部分。但是，它在拯救行动中扮演的角色，以及它与 FTX 的联系，引发人们要求对该公司与这家现已陷入困境的金融科技公司之间的交易进行审查。
-周五，一位联邦破产法官允许 FTX 的新管理层雇用 Sullivan 作为首席破产律师，迅速驳回了反对意见，即该公司因与该加密货币公司的现有关系而受到名声败坏，无法公正地调查受指控的不法行为。FTX 的新负责人 John Ray III 表示，他急切希望在 Sulliva…]]></summary>
-        <author>
-            <name>链捕手</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以太坊扩容项目Scroll已在测试网部署Uniswap V3前端]]></title>
-        <id>https://panewslab.com/zh/articledetails/z7meb4kk.html</id>
-        <link href="https://panewslab.com/zh/articledetails/z7meb4kk.html"/>
-        <updated>2023-02-01T03:29:13.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月1日消息，据官方推特，以太坊扩容项目Scroll宣布已在测试网上部署Uniswap V3的前端，供用户和开发人员参与体验。
-Snapshot页面显示，在Scroll试网上部署Uniswap V3的温度检查投票已于去年12月4日获得通过，共识检查投票尚未开启。
-相关阅读：以太坊扩容方案Scroll优势解读：为什么以社区为核心的zkEVM能走得更远？]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
 </feed>
