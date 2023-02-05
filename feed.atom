@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-05T07:06:21.784Z</updated>
+    <updated>2023-02-05T08:09:18.778Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[详解Sui密码学中的钱包规范]]></title>
+        <id>https://www.odaily.news/post/5184859</id>
+        <link href="https://www.odaily.news/post/5184859"/>
+        <updated>2023-02-05T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Sui 遵循加密货币行业广泛接受的钱包规范，如 BIP-32 （及其变体，SLIP-0010 ），BIP-44 和 BIP-39 。这些规范已经成为加密货币行业的普遍现象，作为用户管理账户密钥的一种手段。
+目前，Sui 接受使用 Ed 25519 或 ECDSA Secp 256 k 1 的签名交易。在 Sui 钱包和 SDK 中，Sui 提供了一个灵活的接口来签署各种签署方案的交易。
+密钥衍生方案
+Sui 遵循 BIP-32 来管理支持 ECDSA Secp 256 k 1 签名方案的钱包。
+BIP-32 定义了分层的确定性钱包结构，以逻辑地关联一组钥匙。以这种方式对钥匙进行分组，减少了跟踪一个用户的大量私钥的开销。这种方法也让保管人在一个控制源下为每个用户账户分发不同的管理地址。
+使用 BIP-32 将私钥的推导与公钥的推导解耦，实现了只看钱包的用例，即可以推导出一串公钥及其地址，而私钥可以保持离线签署。
+Sui 遵循 SLIP-0010 来管理支持 Ed 25519 （EdDSA）签名方案的钱包。
+Sui 使用 SLIP-0010 是因为 BIP-32 最初是为具有初阶组的 ECDSA 设计的，而 Ed 25519 曲线是基于 h×ℓ的组阶，其中 h 是一个小的协处理器，ℓ是一个 252 位的素数。这是一个高级的技术细节，但 Ed 25519 签名标准对私钥的低位和高位都应用了比特钳制，这使得一些 BIP-32 模式与 Ed 25519 不兼容。因此，SLIP-0010 规定禁止从现有用户的公钥中衍生出新的公钥。SLIP-0010 只支持所谓的 "加固的 "私人父钥匙到私人子钥匙的衍生。
+密钥派生路径
+虽然 BIP-32 在层次结构中指定了钱包的级别，但 BIP-44 进一步定义了衍生路径的五个级别及其确切含义：M / purpose' / coin_type' / account' / change / address_index。在这个结构中，斜线表示层次结构中的新层次，或称子层。
+目的层通常被设置为 44 ，与 BIP 号码相对应。然而，在 Sui 中，目的层区分了不同的签名方案。44 被设置为 Ed 25519 ， 54 被设置为 ECDSA Secp 256 k 1 。虽然将目的级别设置为非 44 的值是不标准的，但使用目的字段来区分不同的签名方案是很常见的。例如，BIP-49 和 BIP-84 被用来识别比特币的脚本类型。Sui 选择 54 来表示 ECDSA Secp 256 k 1 ，因为 54 下没有现有的 BIP，避免与任何比特币标准混淆。
+coin_type 值是用所有其他加密货币的存储库来管理的。两个签名方案都使用 Sui 注册的 coin_type， 784 。
+
+账户级别通常用于在逻辑上分离用户账户和创建特定的账户类别。一些常见的使用情况包括：
+
+保管人管理多个用户账户。
+
+用户为特定目的指定账户，如捐款、储蓄和支出。
+
+为了支持多账户，Sui 建议从零开始递增账户级别。人们普遍认为，基于账户的货币只定义前三个层次，而基于 UTXO 的货币则增加了变化和地址层次的定义。因为 Sui 的面向对象的数据模型既不是 UTXO 也不是基于账户的（事实上它结合了两者），它采用了所有五个级别以获得最大的兼容性。
+总结如下：
+
+助记词支持
+一旦 Sui 定义了从种子推导出主密钥的确定性方法，BIP-39 就被引入，以使种子更容易被人阅读和记忆，使用记忆法。Sui 接受来自 BIP-39 词表的 12、 15、 18、 21 和 24 个词，这些词被适当地校验过，对应于 128、 160、 192、 224 和 256 bits 的熵。
+Sui 的密钥管理
+Sui 通过其 Typescript SDK 和命令行界面（CLI）支持密钥对生成和相关的助记符。该 SDK 提供额外的功能，包括交易签名和 RPC 集成。
+具体步骤如下：
+
+从助记符推导出一个密钥对
+
+获取其地址
+
+
+用它来签署一个序列化的类型化交易（或任何数据）
+
+针对 RPC 提供者执行
+
+
+命令行界面
+
+先进的钱包架构
+钱包必须是安全的，但又便于其所有者访问。Sui 依靠行业标准来指导对用户钱包的设计，同时在探索不同的签名方案时保持敏捷和灵活。除了 Sui 目前支持的钱包规格外，还在不断创新钱包设计，使与 Sui 的互动更安全，更容易使用。Sui 将很快分享关于钱包预批准交易的设计。Sui 钱包不需要一次一次地签署交易，而是让链上游戏变得实用，充分释放 Sui 网络上快速执行的潜力。]]></summary>
+        <author>
+            <name>SophonLabs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hashed联创：APT在韩国是Meme币，散户称其为“公寓”]]></title>
         <id>https://panewslab.com/zh/articledetails/3mi0g013.html</id>
