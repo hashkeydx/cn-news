@@ -1644,26 +1644,6 @@
           "wordCount": 3575,
           "title": "Circle欧盟事务总监：欧洲议会就《欧盟数据法》达成初步协议，其中包括对智能合约的监管",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/slj5ierv.html",
-          "author": "PA一线",
-          "description": "PANews 2月2日消息，芬兰金融科技公司 Membrane Finance 宣布已发行与欧元挂钩的稳定币 EUROe。EUROe 将法定欧元转换为可在以太坊上交易的 1:1 挂钩数字货币，并计划支持越来越多的区块链。\nMembrane Finance 表示，EUROe 已获得芬兰金融服务局（FIN-FSA）的加密货币机构牌照。",
-          "link": "https://panewslab.com/zh/articledetails/slj5ierv.html",
-          "publishedOn": "2023-02-02T10:58:04.000Z",
-          "wordCount": 3589,
-          "title": "Membrane Finance推出受欧盟监管的加密稳定币EUROe",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/3pz3qclr.html",
-          "author": "PA一线",
-          "description": "PANews 2月2日消息，巴菲特搭档、亿万富翁查理·芒格 (Charlie Munger)在《华尔街日报》发布评论文章“为什么美国应该禁止加密货币”，其呼吁美国应跟随中国的脚步出台相关监管政策，禁止加密货币。\nCharlie Munger在文章中表示，“美国在加密监管方面存在空白，加密货币不是货币，不是商品，也不是证券。相反，这是一份赌场优势接近 100% 的赌博合同。显然，美国现在应该制定一项新的联邦法律来防止这种情况发生。”\n查理·芒格此前也曾表示，永远不会参与加密货币市场，中国加密禁令是正确选择。",
-          "link": "https://panewslab.com/zh/articledetails/3pz3qclr.html",
-          "publishedOn": "2023-02-02T10:31:31.000Z",
-          "wordCount": 3574,
-          "title": "查理·芒格发文：为什么美国应该禁止加密货币",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2437,26 +2417,6 @@
           "publishedOn": "2023-02-02T12:00:00.000Z",
           "wordCount": 1497,
           "title": "CZ浅谈香港稳定币监管政策亮点",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184820",
-          "author": "深潮TechFlow",
-          "description": "原文作者：Westie，Blockworks Research 研究员\n原文编译：深潮 TechFlow\nSynthetix v3 提案获治理委员会全体投票通过，这次升级对 Synthetix 意味着什么？\n\n当前有 5 个与 Synthetix V3 升级相关的活跃投票：\n\nSIP-300 Synthetix V3\n\nSIP-302 Pools (V3)\n\nSIP-303 市场 (V3)\n\nSIP-304 清算 (V3)\n\nSIP-305 奖励 (V3)\n\n我将逐一介绍这些内容。\n\nSIP-300 Synthetix V3，简单地说，这个 SIP 概述了从 V2 x 到更加模块化的架构的转变， 该架构减轻了先前版本的痛点，例如缺乏可定制性和累积的技术债务。\n\nSIP-302 Pools，这个 SIP 建议创建不同的债务池。Synthetix 目前通过一个统一的债务池运作，该债务池巩固了流动性，但增加了 SNX 质押者的风险和复杂性。V3 允许基于不同市场类型的资金池，每个市场都有自己的抵押品和债务头寸。因此，质押者可以选择只接触某些市场，这使得任何用户都可以创建自定义合成资产，但代价是流动性分散。\n\nSIP-303 市场（V3）提案建议允许在 Synthetix 上建立的不同产品（如现货或期货市场），按资金池拆分从而更加模块化。与它们现在的工作方式类似，市场有望接受 snxUSD，产生衍生品，并使用其池的流动性跟踪交易者的余额。\n\nSIP-304 清算（V3）提案一项改进是建立了一个清算缓冲区，当 C-Ratio 低于最低阈值时，用户将有一定的时间来调整。Synthetix 目前使用的是社会化清算机制，在 V3 中经过一些改进后将会再次使用。这意味着被清算的参与者将其抵押品和债务分配给他们池中的其他参与者。\n\nSIP-305 奖励（V3）将为质押奖励引入\"奖励管理器\"，帮助分发奖励。这个系统是通用的，可以定制其他元素，如使用的资产（例如，不是 ERC-20 ）和奖励计划。\n\n那么这些对 Synthetix 意味着什么？\n首先，这导致更多的协议模块化，允许更容易的未来升级，无许可创建资产和他们自己的市场的能力，并有机会获得更好的 snxUSD 的扩展性。\n现在，如果你想制作自己的合成资产和池子，你必须经历整个治理过程。对这些市场进行更多的无许可创建将允许更多的创造力和实验，同时不会让所有 SNX 质押者面临这种风险。\n此外，V3 应该允许将 SNX 以外的更多资产用作抵押品（例如 ETH），从而为更多潜在流动性打开大门，并能够根据池及其目标/风险参数定制抵押资产。\n关于实际实施的时间，该团队目前正在处理审计反馈，因为他们收到的反馈，可能仍需要几周时间，直到团队准备在 ETH 主网和 Optimism 上部署。\n至于投票后的下一步，SIP-306 概述了实际的迁移，允许 V2 X 上的质押者将他们的抵押品转移到 V3，以支持“遗留市场”以实现平稳过渡。我关注的一个很酷的 SIP 是 312 ，它允许资金池支持任何链上的市场。\n原文链接",
-          "link": "https://www.odaily.news/post/5184820",
-          "publishedOn": "2023-02-02T11:00:00.000Z",
-          "wordCount": 1589,
-          "title": "解读Synthetix V3五大提案：此次升级意味着什么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184822",
-          "author": "深潮TechFlow",
-          "description": "原文作者：Miles Deutscher\n原文编译：深潮 TechFlow\n2023 年是 ZK-rollups 的一年。ZK 是以太坊扩展的未来，随着 zkSync、Starknet 和 Polygon zkEVM 即将推出的代币，叙事开始升温。以下是已发币（和未发币）的 ZK 项目，请密切关注。\n在这篇文章中，我将介绍：\n\n什么是 ZK-rollups\n\nZK 叙事（以及为什么它正在升温）\n\n已发币的 ZK 项目\n\n未发币的 ZK 项目（包括空投机会）。\n\n什么是 ZK-rollups？\nZK-rollups 是第二层区块链协议，它处理交易、执行计算并在链下存储数据，同时将资产保存在链上智能合约中。\n以太坊由于其设计，有固有的可扩展性问题。虽然有最终解决这些问题的路线图，但这个过程需要很长时间。\nZK-rollups 通过将交易 “汇总”到链下执行的批次中来帮助缓解拥塞。\nZk-rollups 将所有的地址和各自的余额存储在 Merkle 树中。这个 \"余额树 \"的根存储在链上智能合约中。\n他们有 3 个主要任务：处理存款、转账和取款。这张图片代表了一个（简化的）ZK-架构。\n\n总而言之，ZK-rollups 是“混合扩展解决方案”（链下协议），它们独立运行但从以太坊网络中获得安全。\n为什么 ZK 的叙事正在获得关注？\n今年有一些主要催化剂使该板块的兴趣激增：\n\nzkSync 代币即将推出。\n\nStarkWareLtd 即将推出@Starknet 代币。\n\nPolygon 的 zkEVM 马上到来。\n\n这导致与 ZK 相关的协议，如$MINA、$LRC、$IMX 和 $DUSK 表现出色。\nDragonfly 的管理合伙人 Hosseeb 将 ZK-rollups 称为 2023 年最值得关注的叙事。\n然而，最近的上涨很可能是由投机驱动的，因为关键的链上指标（活跃用户、…",
-          "link": "https://www.odaily.news/post/5184822",
-          "publishedOn": "2023-02-02T10:42:30.000Z",
-          "wordCount": 1906,
-          "title": "ZK叙事升温，一文全面梳理值得关注的ZK项目",
           "imageUrl": null
         }
       ]
