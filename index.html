@@ -51,11 +51,643 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-06 datetime="2023-02-06T11:17:28.000Z">2023-02-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-06 datetime="2023-02-06T11:17:28.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-06 datetime="2023-02-06T13:00:00.000Z">2023-02-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-06 datetime="2023-02-06T13:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184888"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT交易平台估值分析：Blur空投价值几何？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184888">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Cj_Blockchain
+
+TL;DR
+
+Opensea、Blur、X2Y2、和 Looksrare 市场份额的占比分别为 36.77% 、 28.05% 、 24.35% 、和 7.42% 
+
+但剔除 Wash Trading 后的真实份额约为 59.1% ， 19.5% ， 13.2% 和 2.9% 
+
+目前已经上币的交易所中，X2Y2被低估，Looks 被高估
+
+Blur 的 FDV 估值范围约为： 3.82 亿-4.58 亿美金
+
+前言
+Blur 将于 2 月 14 日推出平台代币，届时大家在 Blur 上的箱子和 Points 将会转换为代币。由于 Blur 还没有给出详细的 Tokenomics，也尚不清楚其代币有哪些 utility。因此本文主要从可比公司估值的角度来对 Blur 进行估值。同时，由于 Blur 的可比公司（X2Y2、Looksrare）包括 Blur 自身都存在有交易挖矿（Wash Trading）的嫌疑，因此本文的会对其交易量进行一定的处理，尽可能还原真实数据。
+一、行业竞争情况
+当前NFT交易所行业的竞争情况较为激烈。随着 NFT 市场的快速发展，越来越多的交易所和平台开始涉足 NFT 交易领域，导致行业竞争变得越来越激烈。
+竞争对手包括各种类型的 NFT 交易所，如大型中心化交易所、去中心化交易所、专注于某种类型 NFT 的交易所等。为了吸引用户和保持竞争优势，许多 NFT 交易所已经开始提供更多的交易对、更低的交易费用、更高的安全性等。
+不同链上的 NFT 交易所们的竞争情况各有不同，本文主要专注于 Blur 的估值，因此此处主要讨论 Ethereum 链上的行业竞争情况。
+当前 Ethereum 链上的主流交易所包括 Opensea、Blur、X2Y2、和 Looksrare。根据 NFTscan 的数据显示，最近一个月…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184891"
+                        open
+                      >
+                        <summary class="article-expander__title">BNB Greenfield：不止于存储链，更是对去币安中心化生态的新一轮探索</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184891">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：今天有更懂这个世界一点了吗
+原文作者：jason 陈老师
+币安上周发布了存储链 Greenfield 白皮书：github.com/bnb-chain/gree…但是没有看到掀起行业很大热点也并未反应在币价上，对于存储领域研究的不多，主要是这个赛道玩家太少以 Arweave、Filecoin 为主，但是存储绝对是区块链领域最重要的赛道。
+
+我会先帮大家梳理整个存储体系的轮廓和历史才便于接下来的了解，之前简单聊过，大家经常会将去中心化存储和上链混淆，区块链是一个分布式账本，其本身也具备数据存储能力，但是我们目前广义所说的不论 NFT 还是 Mirror 这些内容的上链并不是存在区块链上。
+
+
+因为为保证数据不可篡改每个全节点都需要进行备份，有 1 万个矿工时，即使为了存储 1 MB 的信息也会全网消耗掉 10 GB，这非常的不划算，于是提出的解决方案是将数据存储在链下，然后将链下存储地址放到区块链中进行索引，以 NFT 为例，可以看到 metadata 是索引到了一个 ipfs 的链接，打开后则是一个文件夹。
+
+
+
+这里就要给大家扩展一下 IPFS，它是一种内容寻址的点对点分布式存储系统，与内容寻址相对的就是地址寻址，比如我们将照片存在云盘中，在下载时则电脑需要知道该照片的 IP 地址和域名，从而才能在对应的地方找到数据，但是若该复制不存在或服务器关闭则文件也丢失了。
+但是也许有人之前下载过这张照片存在电脑里，不过你的电脑却不知道对方是有这个照片的，所以解决去中心化存储的问题就需要解决掉通过内容检索而不是地址检索，这样你不需要告诉电脑从哪里获得照片，而是就告诉电脑你需要的照片长啥样，然后电脑就到处问谁手里有这个样子的照片呀，有的话发我一下，但内容又可能非常大，直接暴力检索非常耗时，于是将文件内容进行 hash 运算后再将 hash 值作为文件名存储，这样就可以非常快…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184887"
+                        open
+                      >
+                        <summary class="article-expander__title">浅析上海升级后ETH抛压：部分提款影响几何？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184887">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Tripoli
+原文编译：0x11
+以太坊上海升级的具体日期尚未确定，但已经近在眼前了。
+围绕抛售压力的讨论再次盛行，但似乎还没人从数据角度深入探讨过这个主题。我早期探究这个主题的模型已经过时，但仍在被引用，这篇文章将是一个更新。
+阅读这篇文章，需要你了解关于以太坊取款背后机制的基本知识。如果你不熟悉下面讨论的两类凭证，它们会在后面的内容中被详细介绍。
+与我早期模型相比，主要变化是：
+
+两类取款凭证之间切换的控制流程已经明确。
+所有提款都需要 0x01 凭证，这不是由早期验证者设置的；
+添加 0x01 取款凭证的操作速率限制为每个区块 16 次；
+
+所有 0x01 凭证验证者将自动进行部分取款，每个区块最多处理 16 次部分取款。
+
+全部提款的过程不变，但 0x00 验证者必须在处理提款前设置其 0x01 凭凭证。
+
+有关这个过程的更多信息，我推荐以下资源：
+
+ETH 取款常见问题解答
+
+Christine Kim 的详细记录
+
+哪些验证者设置了哪些凭证？
+多数分析师假设两类验证者（0x00、0x01）具有一致的特征，但这是一个很大的错误。当我们查看下图中信标链存款时，我们看到所有创世验证者都是在没有设置 0x01 凭证的情况下创建的，这严重扭曲了数据。
+时至今日，大约 20% 的新验证者没有设置 0x01 凭证，它们可能是使用过时指南的个人和未更新程序的机构。
+
+0x01认证系统最主要的采用者是 Lido；88% 的流动性质押提供者设置了取款凭证，并控制着超过 60% 的验证者，这些验证者被设置为接收自动取款。天真的观察者可能会担心由此引发的中心化问题，但在这种情况下，Lido 大量采用该标准对网络来说影响是积极的。
+由于 Lido 将把他们的奖励循环回新的验证者手中，以优化他们的质押衍生品收益率，大量采用将阻塞部分取款队列，并降低取款最初波动幅度。
+
+除了 0…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184889"
+                        open
+                      >
+                        <summary class="article-expander__title">AI板块狂飙，这10个项目值得关注</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184889">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>过去几周，由 ChatGPT 引起的人工智能（AI）讨论热度居高不下，各大互联网公司或是表态或是投资，展现对 AI 的重视与决心。例如，谷歌向人工智能初创公司 Anthropic 投资约 3 亿美元，微软宣称旗下所有产品全线整合 ChatGPT。
+AI 浪潮不仅在传统资本市场搅动风云，引爆海内外市场 AIGC（AI 创作内容）概念股，同时也影响到加密市场，众多加密公司不甘示弱，加入战局。币安首席执行官 CZ 透露，目前 75% 的 Binance 客服工作已通过 AI 处理，在风险管理、交易监控、欺诈检测和市场操纵检测方面也有人工智能支持；在分析数据和检测风险的关键变化方面，将进一步实施人工智能技术。
+具体到项目层面，一众主打 AI 概念的代币也由此获益，价格飙升。Odaily星球日报精选了目前主打人工智能概念的加密项目（下称「原生 AI 主题」），并覆盖近日宣布拓展 AI 业务的其他项目（下称「AI 概念+」」。
+
+一、原生 AI 主题
+项目名：Fetch.ai（FET）
+网站：https://fetch.ai/
+简介：Fetch.AI 是一个点对点的 AI 驱动协议，也是 Binance 第二期 Launchpad 项目。该项目的目标是，创建 AI 平台和服务，让任何人都可以随时随地大规模构建和部署 AI 服务。
+2017 年该项目成立， 2019 年 12 月上线主网，目前已接入 Cosmos 的 IBC 协议，可与 Cosmos 生态的其他链互操作。网络内的数据、硬件、服务，以及基础设施等部分，都可以通过 Fetch.AI 来进行人工智能的数据分析和处理，用户可以在数据交互中获得价值回馈。
+融资方面， 2021 年 3 月， 多伦多数字资产公司 GDA Group 投资 500 万美元；2022 年 3 月，Fetch 推出 1.5 亿美元发展基金，用于鼓励开发者在…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184886"
+                        open
+                      >
+                        <summary class="article-expander__title">AI赛道爆火，有哪些值得关注的AI概念币？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184886">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>一句话形容现在的全球市场，就是全球都在炒 AI。
+自微软收购百亿美元 OpenAI，比尔·盖茨宣称「人工智能的历史意义不亚于互联网的诞生」以来，ChatGPT 已经成为史上用户破亿速度最快的应用——仅用了三个月时间。随着时间的推移，越来越多围绕 ChatGPT 的故事正在发酵：Office 与 Azure 整合 ChatGPT、谷歌 3 亿美元投资 ChatGPT 竞品 Anthropic、使用 ChatGPT 薅羊毛、各大高校对 AI 写作的禁令等等。
+市场方面，美版「今日头条」BuzzFeed 只因 CEO 一句「将把 AI 内容作为部分核心业务」，股价在两天时间内爆拉 300% ，A 股近千亿市值的科大讯飞 10 个交易日内上涨 50% ，汉王科技已经成妖。
+人工智能（AI）主要包括三大要素，分别是数据、算法和算力。其中数据是基础，正是因为在实际应用当中的数据量越来越大，使得传统计算方式和硬件难以满足要求，才催生了 AI 应用的落地。回到加密市场，在最近活跃的市场情绪下，AI 概念币借东风而起，打出了可圈可点的行情，下面让我们梳理一下目前市场活跃的 AI 相关项目及其市场表现。
+数据概念币
+The Graph（GRT）（24 h + 16.5% ）
+The Graph 是 Web3 的索引和查询层。开发者建立和发布开放的 API，称为子图，应用程序可以使用 GraphQL 查询。The Graph 目前支持 39 个不同网络的数据索引，被 Uniswap、Synthetix、Art Blocks、Gnosis、Balancer、Decentraland 等主流应用程序采用。
+The Graph 的原生 Token GRT 用于确保其网络内数据的完整性。任何用户，无论是子图开发人员、节点操作员还是委托人，都必须质押 GRT 才能履行其职责，并作为回报从网络中赚取费用。G…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184885"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂Canto经济模型与运作机制</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184885">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：@FishMarketAcad
+
+原文编译：Kate, Marsbit
+$CANTO 最近受到了很多关注，但我还没有看到一个一体化的线程。
+所以我决定探索他们的生态系统来帮助你们理解 @CantoPublic 是什么，它是如何运作的，它是庞氏骗局吗？
+关于 $CANTO 你需要知道的一切。
+我注意到的第一件事是他们的网站有黑客的氛围，这可能会吸引 degens，但可能会拒绝 tradfi 窥视。
+在技术上，Canto 完全兼容 EVM，因此很容易将 solidity dapps 分叉到 Canto, Canto 的速度是以太坊的两倍 ( 6 秒 vs 12 秒的区块时间 )。
+
+Canto 最初是一个 $EVMOS 分支，通过 Cosmos SDK 使用 Tendermint 共识和 EVM 执行层 ( 但使用 metamask)。
+它们是一个以 DEFI 为中心的 L1，类似于 @seinetwork 和 @0xcarbon，因为它们有内置的 DeFi 模块，所以开发者更容易在上面构建 DeFi 应用程序。
+它们的独特之处在于，没有官方基金会，没有预售，没有股权归属，也没有风险投资人。
+这使得它们成为一个完全去中心化的链。
+但他们经常在网上举办黑客松，而且都是由社区主导的，听起来很有趣。
+
+Canto 认为核心原语应该以免费公共基础设施 (FPI) 的形式存在:
+免费 DEXs( 如 Uniswap) 
+免费借贷市场 ( 如 AAVE) 
+去中心化的货币 ( 比如 DAI)
+Canto 希望用户免费使用这些核心原语，就像免费停车一样。
+有趣的是，它的 DEX 不能升级，将保持不受治理，永远不会收费。
+LP 也不赚取费用，所以我认为 LP 纯粹是赚取通货膨胀的 $CANTO 奖励。
+Canto 借贷市场 (CLM) 由 Canto 利益相关者管理，他们希望为开发人…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184882"
+                        open
+                      >
+                        <summary class="article-expander__title">Blur发币在即，而巨鲸们正在屯这些NFTFi代币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184882">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>进入 2 月，NFT 玩家们最期待的事情莫过于 NFT 聚合交易市场 Blur 发币。
+Blur 用「开盲盒」空投的新花样成就了漂亮的开局，同时也激起了大家对空投致富的 FOMO 情绪，再加之 NFT 市场头牌 Opensea 迟迟不发平台币，所以大家对 Blur 代币价值的预期逐渐拉高。在经过了三轮空投「盲盒」后，Blur 的使用人数激增。其中，巨鲸几乎垄断了排行榜，也短暂地带动了 NFT 的交易量。据 Dune Analytics 数据显示，Blur 近三个月的成交量突破 2 亿美元，远超同类 NFT 聚合器。
+而另一种区别于“羊毛党”的投资思路是，2 月 14 日 Blur 推出代币后，NFTFi 相关代币的价格或许会上涨。分析师 defi_mochi 就通过分析鲸鱼钱包近期增持NFTFi 代币的情况，让大家了解他们是如何进行资产配置的。Odaily星球日报将其帖子编译整理，并在此友情提醒，链上数据仅作为参考，请大家谨慎操作，切勿冲动。
+首先，我们先看一下过去 30 天各类 NFTFi 代币的数据情况。
+
+X2Y2 鲸鱼
+1.钱包地址：0x160A8D28D63961297e51E4f1a0401bf4D27f5162
+当前代币余额： 274, 831 美元 
+平均成本基础： 0.15410 美元 
+代币总利润： 52, 884 美元 
+该地址似乎在 LSD 概念盛行时，从 LDO 代币中赚取了巨额利润。仅在 ETH 主网上，他的钱包余额就超过了 480 万美元。他同时还持有 DYDX 和 LOOKS 代币。
+
+
+通过跟踪该钱包我们发现，他在 2 月 1 日和 2 日，分别购买了大量的 X2Y2 代币。可以通过跟踪该钱包地址，了解其对 X2Y2 代币的配置情况。
+
+
+NFTX 鲸鱼
+钱包地址：0xfB4cB868727D9622258bf2B26A8CFc95f6742669
+当前代币余额：78, 827 美元 
+平均成本基础：19.06986 美元 
+代币总利润：30, 554 美元 
+在撰写本文时，NFTX 代币的价格上涨至 33 美元，与该钱包以 19 美元购买的价格相差不远，但他没有继续加仓，仅购买了 1 次并一直持有。
+
+
+
+该地址还重仓 DeFi 保险代币 NXM，同时一直持有 NFTX 代币。由于自他入场后，NFTX 代币仅上涨约 50% ，并且考虑到 NFTX 代币的市值仅有 1100 万美元，所以我个人认为它仍然是一个有潜力的代币。
+
+
+
+BEND 鲸鱼
+
+钱包地址：0x726CDC837384a7Deb8bbea64beba2E7b4d7346c0
+当前代币余额：132, 444 美元 
+平均成本基础：0.00786 美元 
+代币总利润：76, 111 美元 
+该地址在 BEND 代币 0.00834 美元时入场，此时 BEND 代币的交易量是 4.9 万美元，这是一个非常完美的入场点位。此后，该代币一路上涨。
+
+
+
+该地址还同时持有 FXS 代币，由于 LSD 概念，FXS 从 4 美元飙升至 12 美元。但是，BEND 代币当前的价格看起来有点冒险，因为它几乎上涨了 3 倍。
+
+
+JPEG 鲸鱼
+钱包地址：0x346F1d297C98C28574742B067b67A80cdA2Dc0d9
+
+该地址以 0.0912 美元的价格购买了价值超过 52, 000 美元的 JPEG 代币。该价格与当前 1.43 美元的价格相比，相差不远。
+我特别看好 JPEG 代币，因为该鲸鱼拥有超过 80 万美元的 JPEG 代币，并仍然在以 0.09 美元的价格大量购买。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184884"
+                        open
+                      >
+                        <summary class="article-expander__title">深度盘点NFT永续合约赛道：可以加杠杆做空NFT了？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184884">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：0xLaughing，律动 BlockBeats  
+引言
+一直以来，NFT 市场都在致力于解决「流动性不足」的问题，从 NFT 的估值定价、撮合方式等方面切入，许多优秀的产品和创新机制不断出现推进了 NFT 金融化的持续发展。一个健康的金融市场需要让市场参与者能随时扮演多空双方的角色，以实现对冲交易风险、增加获利机会、丰富交易策略等目的。然而，NFT 交易者目前只能对 NFT 现货执行低买高卖的策略获利，交易方式十分单一，NFT 交易者有杠杆做多/做空 NFT 的需求，蓝筹 NFT 价格高昂，散户想参与交易却有心无力。针对这些问题，人们期待从传统金融市场和 DeFi 市场中找到的 NFT 衍生品交易答案。
+传统金融期货市场曾有个固有的局限，那就是它有结算日期且杠杆交易能力有限，不能适应这个 724 小时交易的加密市场。于是，BitMEX 在 2016 年 5 月 13 日推出了永续合约，采用了创新的资金费率调控现货与合约的价格尽可能保持一致，解锁了使用高达百倍杠杆的进行做多/做空的机会。它的横空出世永远的改变了加密货币及整个金融领域。
+事实上，有不少 NFTFi 创新的灵感来自于 DeFi ：例如，第一个 NFT AMM 项目 sudoswap 参考了 uniswap v3 AMM 的集中流动性方案，点对池借贷协议龙头则参考了借贷协议 Aave。
+有了 DeFi 市场的永续合约作为参考，能杠杆做多/做空 NFT 的永续合约平台 nftperp 来了。
+
+nftperp 简介
+nftperp 是什么？
+
+见名知意，nftperp 是一个针对 NFT 的永续合约去中心化交易所：
+• 建立在 Arbitrum 上
+• 用户以 ETH 作为抵押品可以对 BAYC、CryptoPunk 等蓝筹 NFT 项目以最高 10 倍的杠杆进行永续合约交易
+• 协议在蓝筹 NFT 的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184880"
+                        open
+                      >
+                        <summary class="article-expander__title">从国库资产总值和多样性剖析DAO的发展</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184880">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者: Mia Bao, Di Jin, Hakan Sezikli, Jacktheguy
+随着加密行业规模的极速发展和业务的精细化，DAO 近几年也在加速演进。不如NFT和 Gamefi 的热闹，自 2013 年Vitalik Buterin 在以太坊白皮书提出概念到 2016 年第一个 DAO 诞生和同年夭折，DAO 的发展之路似乎从一开始就充满了曲折，但事物的自身发展， 经过肯定、否定到新的肯定，有时候仿佛是向出发点的复归，但实质上是为了突破高级阶段，通过曲折的形式而实现的前进。设计生产力和生产关系的变革，DAO「慢中有快」的速度可能才是长远发展的基石。
+
+从 DAO 国库看 DAO 的发展 
+DAO 组织「自下而上」的管理机制决定了其公开透明的内核及其必要性。在过去的几年里，牛市导致 DAO 国库极速膨胀，在 2021 年中旬增长至近 350 亿美金，达到顶峰。由于国库资金原生代币资产占比常年高于 80% 以上，因而国库资产总值和加密货币行情走势类似。截止 2023 年 1 月底，国库资产总值在 124 亿美金 ，其中DeFi相关 DAO 国库资产占据 82% ，NFT 相关 DAO 国库资产占据 18% 。下文我们将以此为分类从数据角度简单剖析一下行业情况。
+纵观 DeFi DAO 数据， 2020 年中旬至 2021 年中旬，国库总值迅猛发展，从 10 亿美金增长至 350 亿美金， 1 年内增长超 3500% 。2021 年中旬至 2021 年底，国库总值随着行情时有反复，维持在 150 亿～ 300 亿之间。然而在 2022 年开年至中旬，DAO 国库总值持续下滑，最低触及 70 亿美金。2022 年下旬至 2023 年，国库总值有所回暖，目前 DeFi 相关 DAO 国库总值超 100 亿美金（https://thepass.to/leaderboa…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184883"
+                        open
+                      >
+                        <summary class="article-expander__title">复盘Uniswap提案风波：两大玩家的针锋相对、顶级VC的利益之争</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184883">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Abdullah Umar
+原文编译：西昻翔，ChainCatcher
+加密市场的斗争，比你想象的更具政治性。
+上周，WormHole 和 LayerZero 之间发生了一场戏剧性的战斗。战场在 Uniswap 提案论坛，交战双方背后则涉及 a16z、红杉、Jump Crypto 等多家顶尖 VC。
+利益争斗的开端
+一切始于十二月。
+0x Plasma Labs 创始人 @ILIA_0x 发布了关于在 BNB Chain 上启动 Uniswap v3 的提案草案。为何发起该提案？因为 Uniswap 需要确保在自己许可证到期之前成为 BNB Chain 上事实的 DEX——甚至是接管 PancakeSwap。
+什么是 Uniswap 许可证？
+简而言之，Uniswap 在 2021 年申请了商业源代码许可证，以防止其他人分叉其源代码。该许可证将于今年 4 月到期。
+也就是说， 4 月之后，任何人都可以将 Uni v3 代码复制并粘贴到 BNB 链（或任何其他链）上，从而分叉出自己的交易所。
+
+所以，为了在 BNB Chain 上主导 DeFi 市场，Uniswap 必须抢在众多替代品出现之前捕获尽可能多的 TVL 来争取先发优势。于是，这份提案的紧迫性可想而知。
+另一方面，我们需要理解，Uniswap 协议相关的变更和治理，最终决策者是 Uniswap DAO。
+Uniswap DAO 作为 DAO 的头部代表，自身治理结构相对完善，它拥有约 37 万代币持有者和 2.8 万名去重的历史选民。
+
+在 Uniswap 提案的链上执行之前，必须完成几个步骤
+1 ）论坛提案讨论和辩论
+2 ）温度检查：用于评估情绪的链下投票
+3 ）基于社区反馈的提案迭代
+4 ）链上投票最终确定提案
+这条提案本身非常顺利，直到大家遇到一个重要问题：
+到底应该用什么工具来实现以太坊和 BNB…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184878"
+                        open
+                      >
+                        <summary class="article-expander__title">Nostr深入解读：两把密钥开启去中心化社交的新范式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184878">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Twitter@EvieEvieXia
+原文编译：Twitter@binary_dao
+
+研究导读：
+
+Nostr 协议是一个极简的社交协议，其不依赖任何中心化服务器，客户端信息发布和传递由互不通信的中继端来完成，信息的发布和传输具有抗审查性。任何用户都可以创建公私钥，而无需依赖于特定的社交账号或域名，使得用户入驻更加简便且摆脱了来自第三方服务器的限制。
+自 2023 年 2 月 1 日推特创始人 Jack Dorsey 宣布基于 Nostr 的应用 Damus 上线以来，协议用户数量井喷，截止至 2023 年 2 月 5 日，公钥数量达 50 万+；Nostr 的生态也在不断的拓展中，除了被誉为去中心化推特 Damus 之外，还有通讯工具 Anigma、文本共享工具 Sendtr、在线下棋小游戏 Jeste 等等。
+
+与其他社交协议相比，没有基于区块链的 Nostr 的核心在于极简且具有高度互操作性，这为大规模构建应用提供了可能。开发人员可以快速就开放标准达成共识，在客户端程序上快速开发迭代，从而把所有复杂性放在客户端。只要底子好，不怕没应用。
+
+Nostr 的开发者 fiatjaf 同时也是比特币和闪电网络的开发者，因此 Nostr 原生支持闪电网络（互联网应用+支付系统）。闪电网络速度非常快，性能非常强，能够承载高并发应用，这样的结合为 Nostr 上的应用带来了强有力的支撑。
+
+Nostr 协议中继端网络的搭建是否引入激励层会是个两难的问题，如果基础设施建立在脆弱的“自愿主义”基础上，则难以壮大为一个强大的社交网络；然而，如果有激励，则会面临着，大部分激励将逐渐掌握在少数人手里，无法形成有效激励，且容易受到攻击的困境。
+
+中继端用于缺乏激励，没有足够的动力来为用户数据进行存储，因而也存在着中继端主动或者被动删除数据的可能。未来 Nostr 或可以针对存储功…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184865"
+                        open
+                      >
+                        <summary class="article-expander__title">dYdX代币经济模型分析与潜在解决方案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184865">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>永续合约（perps）可以说是加密交易的命脉。 Perps 占交易量的三分之二，而现货交易量仅为三分之一。 dYdX 是最受欢迎的去中心化交易所 (DEX)，用于交易 perps。随着 dYdX v 4 的发布，他们很快将转移到Cosmos 链上。
+dYdX 使用中央限价订单簿模型，而不是流行的自动做市商 (AMM) 模型，这让就算没有交易过加密货币的传统交易者也能立即熟悉它。可以说， dYdX 模型结合了 DEX 的安全性和透明度以及 CEX 的速度和可用性。
+市场格局
+该协议成立于 2017 年，以其深厚的流动性、大量的交易对和流畅的用户体验 (UX) 迅速赢得了用户的青睐。如今，dYdX 在交易量和每日用户数量方面一直占据主导地位。 dYdX 的交易量占据所有 DEX 每日永续交易量的 70% 以上。
+
+该交易量通过 maker-taker 费用模型转化为收入。 maker-taker 模型是一种区分增加流动性（“maker”订单或常规订单）或移除流动性（“taker”订单或立即执行的订单）的订单费用的方法。 Taker 费用在 0.2% 到 0.5% 之间，而 Maker 费用在 0% -0.02% 之间。费用随着用户每月交易量的增加而减少，但任何低于 100, 000 美元的交易都是免费的。
+
+dYdX 每日拥有大量收入，但始终落后于 竞争对手 GMX，另一个 perp 协议。 GMX 利用流动资金池与交易者进行交易，而不是 dYdX 的订单簿模型。这种模式的优点是滑点较低，但通常会导致流动性降低。 GMX 受其提供的货币对数量的限制，并且根据池的风险对特定货币对的流动性有限制。
+
+GMX 采用固定费用结构，交易者为发起交易支付 0.1% ，为结束交易支付 0.1% 。此外，由于掉期合约的结构，每小时会产生少量借款费用。由于费用较高，尽管交易量远低于 dYdX，但…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184877"
+                        open
+                      >
+                        <summary class="article-expander__title">浅谈Ordinals协议争议：在比特币区块链上发NFT可行吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184877">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文参考 | Cointelegraph &amp; forkast
+
+比特币是目前世界上最大的加密货币区块链，但有一种用例却很少在比特币链上看到，那就是：NFT。NFT，也就是非同质化代币，是以太坊区块链上最火爆的用例之一，迄今已产生超过 360 亿美元的链上交易额。不过，有些加密从业者希望改变这种态势并推出了一项新协议，令人意想不到的是，在比特币上构建 NFT 协议这件事竟然引发了社区不满。
+1 月 30 日，由软件工程师 Casey Rodarmor 创建的 NFT 协议“Ordinals”正式在比特币主网上启动，该协议允许用户创建比特币版本的 NFT——在比特币网络上被描述为“数字工件（digital artifacts）”，支持 JPEG 图像、PDF、视频或音频格式内容。与以太坊链上的众多 NFT 项目类似，这些“数字工件”将会在比特币网络上铸造。
+
+比特币链上铸造 NFT 引发争议
+作为 Ordinals 协议的创建者，Casey Rodarmor 解释说，该协议的 NFT 是通过在“satoshi”（聪，比特币网络原生货币）上写入任意内容而创建的。
+根据 Ordinals 协议文档描述，所有被写入 NFT 内容的“satoshi”都可以被保存或被转移到其他比特币地址，交易会在比特币区块链上显示铭文内容，这些内容与“staoshi”有着千丝万缕的联系，Ordinals 协议会将这些内容变成一个不可篡改的“数字工件”制品，并且允许用户追踪、转移、储存、购买、出售。铭文将在比特币主网上铸造，不需要侧链和其他代币——简而言之，用户可以通过 Ordinals 协议将大量“数据/内容”插入交易中，包括在网络上创建可收藏的“图片”。
+通常而言，NFT 协议/项目在以太坊链上推出时总会引发一波社区关注和交易热潮，但 Ordinals 协议发布后却在比特币社区爆发争议，一些人认为 N…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184871"
+                        open
+                      >
+                        <summary class="article-expander__title">Interop：全面解读2023年Cosmos最大的趋势和机遇</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184871">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Sebastien Couture &amp; Interop 普通合伙人
+原文编译：Block unicorn
+在过去的两年里，我们看到 Cosmos 生态系统从少数几个建立早期跨链渠道的团队发展到一个繁荣的生态系统，由项目和公司构建基础应用程序和基础设施，将Web3扩展到下一个 10 亿人。
+2022 年，Cosmos 生态系统开始获得更广泛的加密行业、机构参与者和科技巨头的关注。我们认为跨链，利用 Cosmos 技术堆栈的区块链和去中心化应用程序网络，将成为行业中最有前途的环境之一。
+
+围绕主权 dapps 和区块链互操作性的叙述在整个行业中越来越受欢迎，其中包括 Cosmos 及其创始人。这是汇总（roll-ups）、模块化区块链和最小化信任链桥的概念被广泛理解之前。看到这些想法在今天被讨论、被资助和被实现，是非常令人满意的。
+当我们期待Web3应用程序的下一个周期时，很明显，行业必须在基础设施上进行大量投资，以在未来五年内搭载超过 10 亿人。虽然扩展仍然是一个重大挑战，但采用的障碍也是，因为围绕用户体验的许多问题仍然没有解决：自我托管、隐私、应用程序互操作性和稳定币的访问。
+
+来源：Raoul Pal
+FTX 的倒下提醒我们，这个行业正在建立的价值在于开放、无许可、抗审查的应用。然而，去中心化的应用堆栈要与Web2提供的速度、可靠性和流畅的体验竞争，还有很长的路要走。
+随着加密货币熊市的沉淀，开发者将建立关键的基础设施和工具，激发下一波去中心化的应用。未来几年将为下一个 &quot;加密类 &quot;的创新奠定基础，并朝着用户对其数据、金钱和经济交易拥有更多代理权和主权的方向发展。
+1. 互操作性基础设施
+在 IBC（区块链通信协议）实施的带动下，信任最小化的互操作性协议将越来越多地被使用。
+在 2022 年， 69% 的损失资金是由于链桥黑客攻击，特别是 Ronin 链桥( …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184870"
+                        open
+                      >
+                        <summary class="article-expander__title">解读Nostr：抗审查的去中心化社交协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184870">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>把信息保存一亿年左右的方法，他们强调，这是目前已知的唯一可行的方法，它就是——”罗辑把拐杖高举过头，白发长须舞动着，看上去像分开红海的摩西，庄严地喊道，“把字刻在石头上!”
+—by《三体》
+背景
+
+信息如何流传下去？有着前言中的那句振聋发聩的声音：把字刻在石头上！
+
+信息如何不被阻断？那可以刻在更多的石头上，越多越好。
+
+信息如何证明所有权？基于椭圆曲线那样优美的函数，在数学理论上的无限与唯一对应。
+
+这是被串公钥刷屏一周，无论是在朋友圈还是推特 Facebook，关键性事件就是 Twitter  前首席执行官 Jack Dorsey 发推称，基于去中心化社交协议 Nostr 的社交产品 Damus 和 Amethyst 已分别在苹果  App Store 和谷歌 Google Play Store 上线，同时网页端 snort.social  也正式开放，其中 Damus 短短数日用户数已经突破 72 W。
+虽然一句话里涵盖了很多产品的名词，不过其实关系很清晰，Nostr 本质是去中心化社交场景的信息传输协议，Damus、Amethyst、snort.social 则是根据该协议开发的第三方应用。
+为什么会有 Nostr 的需求场景？
+经历了反垄断之年的互联网群众们，即痛恨于中心化机构对数据的滥用与侵犯，又无力脱离优秀的应用体验以及并无选择性的市场，归根究底在于社交产品背后是公司为机构在运营，是公司就有接受监管与审查的义务，他所有负责的对象是股东以及注册地政府，本质上追求的是商业上的成功，而不是言论自由的理想。
+而反垄断的终局古往今来更多是屠龙勇士终成恶龙，既然中心机构做不到，也没有立场去做，那么对自由的向往便催生出使用代码来保障自由的去中心化协议：Nostr
+Nostr 协议架构
+其实 Nostr 非常简洁明了，可以一言概况：
+让每个人都运行一个客户端程序，要发布什么信…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184868"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | 多名投资人因透明问题退出Moobirds COO新项目；多个主流DeFi将于本周发布重要消息（2月5日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184868">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+多名投资人宣布退出项目“Flux”投资，加密社区质疑其存在透明度问题
+Odaily星球日报讯 继前 Moobirds COO Ryan Carson 宣布推出全新Web3项目“Flux”并公布初始投资者名单后，推特用户@Gee__Gazza 发推表示其投资存在透明度问题。据悉，此前 Ryan Carson 详细介绍过他通过 100 名投资者筹集 1000 万美元创立新项目“Flux”的计划，投资标准最低为 16 万美元。@Gee__Gazza 表示，“ 100 个人总共是 1600 万美元。1600 万美元比 1000 万美元高出 60% ，应该他们的网站上进行详细说明”。
+多个主流DeFi项目同时发布“碰拳”图片，或将于下周发布重要消息
+Odaily星球日报讯 包括 MakerDAO、SushiSwap、Balancer 在内的多个主流 DeFi 项目官推于今日同时发布各具项目特有配色背景的“碰拳”图片。
+DeFi 可组合型杠杆协议 Gearbox Protocol 发文解释称，“如果你对此感到困惑，这只是我们与其他 DeFi 项目一起进行的一次 DAO 快闪行为（DAO flashmob），也可以说是一次协作的尝试，但市场贡献者可以为星期一准备一些很酷的东西”。
+项目要闻
+StarkWare将在 Apache 2.0 许可下开源加密证明生成引擎 STARK Prover
+
+Odaily星球日报讯 据官方消息，StarkWare 宣布将在 Apache 2.0 许可下开源加密证明生成引擎 STARK Prover。开源的 STARK 软件将允许社区独立维护和开发网络，因此提供了将 StarkNet 构建为去中心化公共产品的最真实的途径。它还将允许社区有更多的自由来为 Prover 的发展做出贡献，从而推进 StarkNet 发展。此外，开源 Starknet Pro…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184867"
+                        open
+                      >
+                        <summary class="article-expander__title">ETH周报 | 首个公共提款测试网Zhejiang已于2月1日启动；调查报告显示以太坊看涨情绪超过比特币（1.30-2.5）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184867">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>一、整体概述
+
+The Block Research 数据显示，今年 1 月，芝加哥商品交易所集团（CME）的比特币期权交易量和未平仓合约创历史新高。截至周二（31 号），芝商所 1 月份的比特币期权交易量达到 11 亿美元，未平仓合约超过 7.36 亿美元。The Block 研究主管 Steven Zheng 表示，在 FTX 破产后，机构交易公司正在避开不受监管或半监管的平台，其谨慎态度可能是 CME 交易量激增的一个原因。CME 提供比特币和以太坊期权及期货交易。相比加密货币期货，机构投资者更偏好加密期权产品。
+以太坊核心开发者在 2 月 2 日的电话会议#154 的会议记录，以太坊公共提款测试网 Zhejiang 已于 2 月 1 日上线，任何人都可以从水龙头请求测试网 ETH 并在网络上启动他们自己的验证器，Zhejiang 测试网目前有 61000 名活跃验证者支持，其中大部分由以太坊基金会运营。由于 CL 软件客户端可能存在配置问题，测试网正在努力处理新的质押 ETH 存款。假设此问题在未来几天内得到解决，开发人员计划于 2 月 7 日在 Zhejiang 测试网上激活上海升级。
+二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1600 美元，阻力位 1700 美元。
+
+二、二级市场
+
+ 1.现货市场
+OKX 行情数据显示，上周 ETH 价格一度上涨到 1717 美元，周内收于 1650 美元，环比上涨 2.4% 。
+
+（ETH 日线图，图片来自 OKX）
+日线图上显示，价格目前在 1650 美元左右盘整，短期内价格可能继续向下测试 1600 美元，如果支撑有效则有望继续冲击 1700 美元，上方阻力位是 1700 美元。
+ 2.网络运行情况
+
+etherchain.org 数据显示，过去一周以太坊网络出块量为 50099 个，与上周基本保持一致…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184869"
+                        open
+                      >
+                        <summary class="article-expander__title">StarkWare将开源其零知识技术「STARK Prover」以支持以太坊扩容</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184869">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Decrypt，原文作者：Andrew Asmakov
+Odaily 星球日报译者 | 念银思唐
+
+总部位于以色列的 StarkWare 是以太坊 Layer 2 扩容解决方案 StarkEx 和 StarkNet 背后的开发商，该公司今天透露了将其 STARK Prover 软件开源的计划。
+作为全球最大的智能合约平台，为了实现更快、更便宜的交易，StarkWare 利用了被称为“zero-knowledge rollups”的技术，该技术将数十万笔交易在链下进行捆绑，然后在链上验证，成本仅为链上的一小部分。
+STARK Prover 将被重命名为 Starknet Prover，并置于 Apache 2.0 许可之下，这将允许Web3开发人员复制和更改该软件源代码，并允许他们作为商业用途发布任何副本或修改，而无需担心版税。
+StarkWare 总裁兼 Eli Ben-Sasson 联合创始人周日在特拉维夫的一次活动中表示：“这是推进以太坊扩容规模的里程碑式时刻，从更广泛的意义上讲，这是加密学领域的里程碑式时刻。”
+他补充说，这将使 STARK 技术“处于正确的位置，作为一种公共产品，将被用于造福所有人。
+用于以太坊扩容的“魔杖”
+STARK 是由 Ben-Sasson 创建的一类加密协议，由 StarkNet 和 StarkEx 使用，以提供扩容支持，同时维护底层以太坊区块链的安全性。
+StarkWare 正在构建 Starknet Prover 的代码库基于自 2020 年 6 月以来一直在使用的软件，证明来自知名的基于 StarkWare 的去中心化应用程序（dApps）的交易，如 Immutable X、Sorare 和 dYdX 等。据 StarkWare 称，该公司已处理了 3.27 亿笔交易，铸造了 9500 万枚 NFT，并结算了约 8240 亿…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -845,495 +1477,6 @@ Sheffield还表示，使用数字资产和法定货币进行全球结算是Visa�
                             <span class="media-object__text">
                               <span>PANews 2月6日消息，据CoinDesk报道，FTX集团周日表示正在向政界人士、SBF的其他政治受益人、他的副手以及他的公司发送&quot;机密信件&quot;，要求他们在月底前归还其从SBF处获得的政治捐款。在一份新闻稿中，债务人表示，他们保留通过法庭诉讼要求强制还款(附加利息)的权利。在FTX去年11月倒闭之前，SBF曾向政客提供了数千万美元的竞选捐款。据债务人估计，FTX向华盛顿特区的多名议员和各个政治派别的政治捐款高达9300万美元，美国国会三分之一的现任议员接受了SBF的资助。即使许多受益人试图通过向慈善机构捐款来消除FTX破产丑闻的影响，但这种行动“并不妨碍FTX债务人寻求赔偿”。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184886"
-                        open
-                      >
-                        <summary class="article-expander__title">AI赛道爆火，有哪些值得关注的AI概念币？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184886">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>一句话形容现在的全球市场，就是全球都在炒 AI。
-自微软收购百亿美元 OpenAI，比尔·盖茨宣称「人工智能的历史意义不亚于互联网的诞生」以来，ChatGPT 已经成为史上用户破亿速度最快的应用——仅用了三个月时间。随着时间的推移，越来越多围绕 ChatGPT 的故事正在发酵：Office 与 Azure 整合 ChatGPT、谷歌 3 亿美元投资 ChatGPT 竞品 Anthropic、使用 ChatGPT 薅羊毛、各大高校对 AI 写作的禁令等等。
-市场方面，美版「今日头条」BuzzFeed 只因 CEO 一句「将把 AI 内容作为部分核心业务」，股价在两天时间内爆拉 300% ，A 股近千亿市值的科大讯飞 10 个交易日内上涨 50% ，汉王科技已经成妖。
-人工智能（AI）主要包括三大要素，分别是数据、算法和算力。其中数据是基础，正是因为在实际应用当中的数据量越来越大，使得传统计算方式和硬件难以满足要求，才催生了 AI 应用的落地。回到加密市场，在最近活跃的市场情绪下，AI 概念币借东风而起，打出了可圈可点的行情，下面让我们梳理一下目前市场活跃的 AI 相关项目及其市场表现。
-数据概念币
-The Graph（GRT）（24 h + 16.5% ）
-The Graph 是 Web3 的索引和查询层。开发者建立和发布开放的 API，称为子图，应用程序可以使用 GraphQL 查询。The Graph 目前支持 39 个不同网络的数据索引，被 Uniswap、Synthetix、Art Blocks、Gnosis、Balancer、Decentraland 等主流应用程序采用。
-The Graph 的原生 Token GRT 用于确保其网络内数据的完整性。任何用户，无论是子图开发人员、节点操作员还是委托人，都必须质押 GRT 才能履行其职责，并作为回报从网络中赚取费用。G…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184885"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂Canto经济模型与运作机制</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184885">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：@FishMarketAcad
-
-原文编译：Kate, Marsbit
-$CANTO 最近受到了很多关注，但我还没有看到一个一体化的线程。
-所以我决定探索他们的生态系统来帮助你们理解 @CantoPublic 是什么，它是如何运作的，它是庞氏骗局吗？
-关于 $CANTO 你需要知道的一切。
-我注意到的第一件事是他们的网站有黑客的氛围，这可能会吸引 degens，但可能会拒绝 tradfi 窥视。
-在技术上，Canto 完全兼容 EVM，因此很容易将 solidity dapps 分叉到 Canto, Canto 的速度是以太坊的两倍 ( 6 秒 vs 12 秒的区块时间 )。
-
-Canto 最初是一个 $EVMOS 分支，通过 Cosmos SDK 使用 Tendermint 共识和 EVM 执行层 ( 但使用 metamask)。
-它们是一个以 DEFI 为中心的 L1，类似于 @seinetwork 和 @0xcarbon，因为它们有内置的 DeFi 模块，所以开发者更容易在上面构建 DeFi 应用程序。
-它们的独特之处在于，没有官方基金会，没有预售，没有股权归属，也没有风险投资人。
-这使得它们成为一个完全去中心化的链。
-但他们经常在网上举办黑客松，而且都是由社区主导的，听起来很有趣。
-
-Canto 认为核心原语应该以免费公共基础设施 (FPI) 的形式存在:
-免费 DEXs( 如 Uniswap) 
-免费借贷市场 ( 如 AAVE) 
-去中心化的货币 ( 比如 DAI)
-Canto 希望用户免费使用这些核心原语，就像免费停车一样。
-有趣的是，它的 DEX 不能升级，将保持不受治理，永远不会收费。
-LP 也不赚取费用，所以我认为 LP 纯粹是赚取通货膨胀的 $CANTO 奖励。
-Canto 借贷市场 (CLM) 由 Canto 利益相关者管理，他们希望为开发人…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184882"
-                        open
-                      >
-                        <summary class="article-expander__title">Blur发币在即，而巨鲸们正在屯这些NFTFi代币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184882">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>进入 2 月，NFT 玩家们最期待的事情莫过于 NFT 聚合交易市场 Blur 发币。
-Blur 用「开盲盒」空投的新花样成就了漂亮的开局，同时也激起了大家对空投致富的 FOMO 情绪，再加之 NFT 市场头牌 Opensea 迟迟不发平台币，所以大家对 Blur 代币价值的预期逐渐拉高。在经过了三轮空投「盲盒」后，Blur 的使用人数激增。其中，巨鲸几乎垄断了排行榜，也短暂地带动了 NFT 的交易量。据 Dune Analytics 数据显示，Blur 近三个月的成交量突破 2 亿美元，远超同类 NFT 聚合器。
-而另一种区别于“羊毛党”的投资思路是，2 月 14 日 Blur 推出代币后，NFTFi 相关代币的价格或许会上涨。分析师 defi_mochi 就通过分析鲸鱼钱包近期增持NFTFi 代币的情况，让大家了解他们是如何进行资产配置的。Odaily星球日报将其帖子编译整理，并在此友情提醒，链上数据仅作为参考，请大家谨慎操作，切勿冲动。
-首先，我们先看一下过去 30 天各类 NFTFi 代币的数据情况。
-
-X2Y2 鲸鱼
-1.钱包地址：0x160A8D28D63961297e51E4f1a0401bf4D27f5162
-当前代币余额： 274, 831 美元 
-平均成本基础： 0.15410 美元 
-代币总利润： 52, 884 美元 
-该地址似乎在 LSD 概念盛行时，从 LDO 代币中赚取了巨额利润。仅在 ETH 主网上，他的钱包余额就超过了 480 万美元。他同时还持有 DYDX 和 LOOKS 代币。
-
-
-通过跟踪该钱包我们发现，他在 2 月 1 日和 2 日，分别购买了大量的 X2Y2 代币。可以通过跟踪该钱包地址，了解其对 X2Y2 代币的配置情况。
-
-
-NFTX 鲸鱼
-钱包地址：0xfB4cB868727D9622258bf2B26A8CFc95f6742669
-当前代币余额：78, 827 美元 
-平均成本基础：19.06986 美元 
-代币总利润：30, 554 美元 
-在撰写本文时，NFTX 代币的价格上涨至 33 美元，与该钱包以 19 美元购买的价格相差不远，但他没有继续加仓，仅购买了 1 次并一直持有。
-
-
-
-该地址还重仓 DeFi 保险代币 NXM，同时一直持有 NFTX 代币。由于自他入场后，NFTX 代币仅上涨约 50% ，并且考虑到 NFTX 代币的市值仅有 1100 万美元，所以我个人认为它仍然是一个有潜力的代币。
-
-
-
-BEND 鲸鱼
-
-钱包地址：0x726CDC837384a7Deb8bbea64beba2E7b4d7346c0
-当前代币余额：132, 444 美元 
-平均成本基础：0.00786 美元 
-代币总利润：76, 111 美元 
-该地址在 BEND 代币 0.00834 美元时入场，此时 BEND 代币的交易量是 4.9 万美元，这是一个非常完美的入场点位。此后，该代币一路上涨。
-
-
-
-该地址还同时持有 FXS 代币，由于 LSD 概念，FXS 从 4 美元飙升至 12 美元。但是，BEND 代币当前的价格看起来有点冒险，因为它几乎上涨了 3 倍。
-
-
-JPEG 鲸鱼
-钱包地址：0x346F1d297C98C28574742B067b67A80cdA2Dc0d9
-
-该地址以 0.0912 美元的价格购买了价值超过 52, 000 美元的 JPEG 代币。该价格与当前 1.43 美元的价格相比，相差不远。
-我特别看好 JPEG 代币，因为该鲸鱼拥有超过 80 万美元的 JPEG 代币，并仍然在以 0.09 美元的价格大量购买。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184884"
-                        open
-                      >
-                        <summary class="article-expander__title">深度盘点NFT永续合约赛道：可以加杠杆做空NFT了？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184884">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：0xLaughing，律动 BlockBeats  
-引言
-一直以来，NFT 市场都在致力于解决「流动性不足」的问题，从 NFT 的估值定价、撮合方式等方面切入，许多优秀的产品和创新机制不断出现推进了 NFT 金融化的持续发展。一个健康的金融市场需要让市场参与者能随时扮演多空双方的角色，以实现对冲交易风险、增加获利机会、丰富交易策略等目的。然而，NFT 交易者目前只能对 NFT 现货执行低买高卖的策略获利，交易方式十分单一，NFT 交易者有杠杆做多/做空 NFT 的需求，蓝筹 NFT 价格高昂，散户想参与交易却有心无力。针对这些问题，人们期待从传统金融市场和 DeFi 市场中找到的 NFT 衍生品交易答案。
-传统金融期货市场曾有个固有的局限，那就是它有结算日期且杠杆交易能力有限，不能适应这个 724 小时交易的加密市场。于是，BitMEX 在 2016 年 5 月 13 日推出了永续合约，采用了创新的资金费率调控现货与合约的价格尽可能保持一致，解锁了使用高达百倍杠杆的进行做多/做空的机会。它的横空出世永远的改变了加密货币及整个金融领域。
-事实上，有不少 NFTFi 创新的灵感来自于 DeFi ：例如，第一个 NFT AMM 项目 sudoswap 参考了 uniswap v3 AMM 的集中流动性方案，点对池借贷协议龙头则参考了借贷协议 Aave。
-有了 DeFi 市场的永续合约作为参考，能杠杆做多/做空 NFT 的永续合约平台 nftperp 来了。
-
-nftperp 简介
-nftperp 是什么？
-
-见名知意，nftperp 是一个针对 NFT 的永续合约去中心化交易所：
-• 建立在 Arbitrum 上
-• 用户以 ETH 作为抵押品可以对 BAYC、CryptoPunk 等蓝筹 NFT 项目以最高 10 倍的杠杆进行永续合约交易
-• 协议在蓝筹 NFT 的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184880"
-                        open
-                      >
-                        <summary class="article-expander__title">从国库资产总值和多样性剖析DAO的发展</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184880">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者: Mia Bao, Di Jin, Hakan Sezikli, Jacktheguy
-随着加密行业规模的极速发展和业务的精细化，DAO 近几年也在加速演进。不如NFT和 Gamefi 的热闹，自 2013 年Vitalik Buterin 在以太坊白皮书提出概念到 2016 年第一个 DAO 诞生和同年夭折，DAO 的发展之路似乎从一开始就充满了曲折，但事物的自身发展， 经过肯定、否定到新的肯定，有时候仿佛是向出发点的复归，但实质上是为了突破高级阶段，通过曲折的形式而实现的前进。设计生产力和生产关系的变革，DAO「慢中有快」的速度可能才是长远发展的基石。
-
-从 DAO 国库看 DAO 的发展 
-DAO 组织「自下而上」的管理机制决定了其公开透明的内核及其必要性。在过去的几年里，牛市导致 DAO 国库极速膨胀，在 2021 年中旬增长至近 350 亿美金，达到顶峰。由于国库资金原生代币资产占比常年高于 80% 以上，因而国库资产总值和加密货币行情走势类似。截止 2023 年 1 月底，国库资产总值在 124 亿美金 ，其中DeFi相关 DAO 国库资产占据 82% ，NFT 相关 DAO 国库资产占据 18% 。下文我们将以此为分类从数据角度简单剖析一下行业情况。
-纵观 DeFi DAO 数据， 2020 年中旬至 2021 年中旬，国库总值迅猛发展，从 10 亿美金增长至 350 亿美金， 1 年内增长超 3500% 。2021 年中旬至 2021 年底，国库总值随着行情时有反复，维持在 150 亿～ 300 亿之间。然而在 2022 年开年至中旬，DAO 国库总值持续下滑，最低触及 70 亿美金。2022 年下旬至 2023 年，国库总值有所回暖，目前 DeFi 相关 DAO 国库总值超 100 亿美金（https://thepass.to/leaderboa…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184883"
-                        open
-                      >
-                        <summary class="article-expander__title">复盘Uniswap提案风波：两大玩家的针锋相对、顶级VC的利益之争</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184883">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Abdullah Umar
-原文编译：西昻翔，ChainCatcher
-加密市场的斗争，比你想象的更具政治性。
-上周，WormHole 和 LayerZero 之间发生了一场戏剧性的战斗。战场在 Uniswap 提案论坛，交战双方背后则涉及 a16z、红杉、Jump Crypto 等多家顶尖 VC。
-利益争斗的开端
-一切始于十二月。
-0x Plasma Labs 创始人 @ILIA_0x 发布了关于在 BNB Chain 上启动 Uniswap v3 的提案草案。为何发起该提案？因为 Uniswap 需要确保在自己许可证到期之前成为 BNB Chain 上事实的 DEX——甚至是接管 PancakeSwap。
-什么是 Uniswap 许可证？
-简而言之，Uniswap 在 2021 年申请了商业源代码许可证，以防止其他人分叉其源代码。该许可证将于今年 4 月到期。
-也就是说， 4 月之后，任何人都可以将 Uni v3 代码复制并粘贴到 BNB 链（或任何其他链）上，从而分叉出自己的交易所。
-
-所以，为了在 BNB Chain 上主导 DeFi 市场，Uniswap 必须抢在众多替代品出现之前捕获尽可能多的 TVL 来争取先发优势。于是，这份提案的紧迫性可想而知。
-另一方面，我们需要理解，Uniswap 协议相关的变更和治理，最终决策者是 Uniswap DAO。
-Uniswap DAO 作为 DAO 的头部代表，自身治理结构相对完善，它拥有约 37 万代币持有者和 2.8 万名去重的历史选民。
-
-在 Uniswap 提案的链上执行之前，必须完成几个步骤
-1 ）论坛提案讨论和辩论
-2 ）温度检查：用于评估情绪的链下投票
-3 ）基于社区反馈的提案迭代
-4 ）链上投票最终确定提案
-这条提案本身非常顺利，直到大家遇到一个重要问题：
-到底应该用什么工具来实现以太坊和 BNB…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184878"
-                        open
-                      >
-                        <summary class="article-expander__title">Nostr深入解读：两把密钥开启去中心化社交的新范式</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184878">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Twitter@EvieEvieXia
-原文编译：Twitter@binary_dao
-
-研究导读：
-
-Nostr 协议是一个极简的社交协议，其不依赖任何中心化服务器，客户端信息发布和传递由互不通信的中继端来完成，信息的发布和传输具有抗审查性。任何用户都可以创建公私钥，而无需依赖于特定的社交账号或域名，使得用户入驻更加简便且摆脱了来自第三方服务器的限制。
-自 2023 年 2 月 1 日推特创始人 Jack Dorsey 宣布基于 Nostr 的应用 Damus 上线以来，协议用户数量井喷，截止至 2023 年 2 月 5 日，公钥数量达 50 万+；Nostr 的生态也在不断的拓展中，除了被誉为去中心化推特 Damus 之外，还有通讯工具 Anigma、文本共享工具 Sendtr、在线下棋小游戏 Jeste 等等。
-
-与其他社交协议相比，没有基于区块链的 Nostr 的核心在于极简且具有高度互操作性，这为大规模构建应用提供了可能。开发人员可以快速就开放标准达成共识，在客户端程序上快速开发迭代，从而把所有复杂性放在客户端。只要底子好，不怕没应用。
-
-Nostr 的开发者 fiatjaf 同时也是比特币和闪电网络的开发者，因此 Nostr 原生支持闪电网络（互联网应用+支付系统）。闪电网络速度非常快，性能非常强，能够承载高并发应用，这样的结合为 Nostr 上的应用带来了强有力的支撑。
-
-Nostr 协议中继端网络的搭建是否引入激励层会是个两难的问题，如果基础设施建立在脆弱的“自愿主义”基础上，则难以壮大为一个强大的社交网络；然而，如果有激励，则会面临着，大部分激励将逐渐掌握在少数人手里，无法形成有效激励，且容易受到攻击的困境。
-
-中继端用于缺乏激励，没有足够的动力来为用户数据进行存储，因而也存在着中继端主动或者被动删除数据的可能。未来 Nostr 或可以针对存储功…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184865"
-                        open
-                      >
-                        <summary class="article-expander__title">dYdX代币经济模型分析与潜在解决方案</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184865">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>永续合约（perps）可以说是加密交易的命脉。 Perps 占交易量的三分之二，而现货交易量仅为三分之一。 dYdX 是最受欢迎的去中心化交易所 (DEX)，用于交易 perps。随着 dYdX v 4 的发布，他们很快将转移到Cosmos 链上。
-dYdX 使用中央限价订单簿模型，而不是流行的自动做市商 (AMM) 模型，这让就算没有交易过加密货币的传统交易者也能立即熟悉它。可以说， dYdX 模型结合了 DEX 的安全性和透明度以及 CEX 的速度和可用性。
-市场格局
-该协议成立于 2017 年，以其深厚的流动性、大量的交易对和流畅的用户体验 (UX) 迅速赢得了用户的青睐。如今，dYdX 在交易量和每日用户数量方面一直占据主导地位。 dYdX 的交易量占据所有 DEX 每日永续交易量的 70% 以上。
-
-该交易量通过 maker-taker 费用模型转化为收入。 maker-taker 模型是一种区分增加流动性（“maker”订单或常规订单）或移除流动性（“taker”订单或立即执行的订单）的订单费用的方法。 Taker 费用在 0.2% 到 0.5% 之间，而 Maker 费用在 0% -0.02% 之间。费用随着用户每月交易量的增加而减少，但任何低于 100, 000 美元的交易都是免费的。
-
-dYdX 每日拥有大量收入，但始终落后于 竞争对手 GMX，另一个 perp 协议。 GMX 利用流动资金池与交易者进行交易，而不是 dYdX 的订单簿模型。这种模式的优点是滑点较低，但通常会导致流动性降低。 GMX 受其提供的货币对数量的限制，并且根据池的风险对特定货币对的流动性有限制。
-
-GMX 采用固定费用结构，交易者为发起交易支付 0.1% ，为结束交易支付 0.1% 。此外，由于掉期合约的结构，每小时会产生少量借款费用。由于费用较高，尽管交易量远低于 dYdX，但…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184877"
-                        open
-                      >
-                        <summary class="article-expander__title">浅谈Ordinals协议争议：在比特币区块链上发NFT可行吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184877">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文参考 | Cointelegraph &amp; forkast
-
-比特币是目前世界上最大的加密货币区块链，但有一种用例却很少在比特币链上看到，那就是：NFT。NFT，也就是非同质化代币，是以太坊区块链上最火爆的用例之一，迄今已产生超过 360 亿美元的链上交易额。不过，有些加密从业者希望改变这种态势并推出了一项新协议，令人意想不到的是，在比特币上构建 NFT 协议这件事竟然引发了社区不满。
-1 月 30 日，由软件工程师 Casey Rodarmor 创建的 NFT 协议“Ordinals”正式在比特币主网上启动，该协议允许用户创建比特币版本的 NFT——在比特币网络上被描述为“数字工件（digital artifacts）”，支持 JPEG 图像、PDF、视频或音频格式内容。与以太坊链上的众多 NFT 项目类似，这些“数字工件”将会在比特币网络上铸造。
-
-比特币链上铸造 NFT 引发争议
-作为 Ordinals 协议的创建者，Casey Rodarmor 解释说，该协议的 NFT 是通过在“satoshi”（聪，比特币网络原生货币）上写入任意内容而创建的。
-根据 Ordinals 协议文档描述，所有被写入 NFT 内容的“satoshi”都可以被保存或被转移到其他比特币地址，交易会在比特币区块链上显示铭文内容，这些内容与“staoshi”有着千丝万缕的联系，Ordinals 协议会将这些内容变成一个不可篡改的“数字工件”制品，并且允许用户追踪、转移、储存、购买、出售。铭文将在比特币主网上铸造，不需要侧链和其他代币——简而言之，用户可以通过 Ordinals 协议将大量“数据/内容”插入交易中，包括在网络上创建可收藏的“图片”。
-通常而言，NFT 协议/项目在以太坊链上推出时总会引发一波社区关注和交易热潮，但 Ordinals 协议发布后却在比特币社区爆发争议，一些人认为 N…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184871"
-                        open
-                      >
-                        <summary class="article-expander__title">Interop：全面解读2023年Cosmos最大的趋势和机遇</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184871">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Sebastien Couture &amp; Interop 普通合伙人
-原文编译：Block unicorn
-在过去的两年里，我们看到 Cosmos 生态系统从少数几个建立早期跨链渠道的团队发展到一个繁荣的生态系统，由项目和公司构建基础应用程序和基础设施，将Web3扩展到下一个 10 亿人。
-2022 年，Cosmos 生态系统开始获得更广泛的加密行业、机构参与者和科技巨头的关注。我们认为跨链，利用 Cosmos 技术堆栈的区块链和去中心化应用程序网络，将成为行业中最有前途的环境之一。
-
-围绕主权 dapps 和区块链互操作性的叙述在整个行业中越来越受欢迎，其中包括 Cosmos 及其创始人。这是汇总（roll-ups）、模块化区块链和最小化信任链桥的概念被广泛理解之前。看到这些想法在今天被讨论、被资助和被实现，是非常令人满意的。
-当我们期待Web3应用程序的下一个周期时，很明显，行业必须在基础设施上进行大量投资，以在未来五年内搭载超过 10 亿人。虽然扩展仍然是一个重大挑战，但采用的障碍也是，因为围绕用户体验的许多问题仍然没有解决：自我托管、隐私、应用程序互操作性和稳定币的访问。
-
-来源：Raoul Pal
-FTX 的倒下提醒我们，这个行业正在建立的价值在于开放、无许可、抗审查的应用。然而，去中心化的应用堆栈要与Web2提供的速度、可靠性和流畅的体验竞争，还有很长的路要走。
-随着加密货币熊市的沉淀，开发者将建立关键的基础设施和工具，激发下一波去中心化的应用。未来几年将为下一个 &quot;加密类 &quot;的创新奠定基础，并朝着用户对其数据、金钱和经济交易拥有更多代理权和主权的方向发展。
-1. 互操作性基础设施
-在 IBC（区块链通信协议）实施的带动下，信任最小化的互操作性协议将越来越多地被使用。
-在 2022 年， 69% 的损失资金是由于链桥黑客攻击，特别是 Ronin 链桥( …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184870"
-                        open
-                      >
-                        <summary class="article-expander__title">解读Nostr：抗审查的去中心化社交协议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184870">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>把信息保存一亿年左右的方法，他们强调，这是目前已知的唯一可行的方法，它就是——”罗辑把拐杖高举过头，白发长须舞动着，看上去像分开红海的摩西，庄严地喊道，“把字刻在石头上!”
-—by《三体》
-背景
-
-信息如何流传下去？有着前言中的那句振聋发聩的声音：把字刻在石头上！
-
-信息如何不被阻断？那可以刻在更多的石头上，越多越好。
-
-信息如何证明所有权？基于椭圆曲线那样优美的函数，在数学理论上的无限与唯一对应。
-
-这是被串公钥刷屏一周，无论是在朋友圈还是推特 Facebook，关键性事件就是 Twitter  前首席执行官 Jack Dorsey 发推称，基于去中心化社交协议 Nostr 的社交产品 Damus 和 Amethyst 已分别在苹果  App Store 和谷歌 Google Play Store 上线，同时网页端 snort.social  也正式开放，其中 Damus 短短数日用户数已经突破 72 W。
-虽然一句话里涵盖了很多产品的名词，不过其实关系很清晰，Nostr 本质是去中心化社交场景的信息传输协议，Damus、Amethyst、snort.social 则是根据该协议开发的第三方应用。
-为什么会有 Nostr 的需求场景？
-经历了反垄断之年的互联网群众们，即痛恨于中心化机构对数据的滥用与侵犯，又无力脱离优秀的应用体验以及并无选择性的市场，归根究底在于社交产品背后是公司为机构在运营，是公司就有接受监管与审查的义务，他所有负责的对象是股东以及注册地政府，本质上追求的是商业上的成功，而不是言论自由的理想。
-而反垄断的终局古往今来更多是屠龙勇士终成恶龙，既然中心机构做不到，也没有立场去做，那么对自由的向往便催生出使用代码来保障自由的去中心化协议：Nostr
-Nostr 协议架构
-其实 Nostr 非常简洁明了，可以一言概况：
-让每个人都运行一个客户端程序，要发布什么信…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184868"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | 多名投资人因透明问题退出Moobirds COO新项目；多个主流DeFi将于本周发布重要消息（2月5日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184868">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-多名投资人宣布退出项目“Flux”投资，加密社区质疑其存在透明度问题
-Odaily星球日报讯 继前 Moobirds COO Ryan Carson 宣布推出全新Web3项目“Flux”并公布初始投资者名单后，推特用户@Gee__Gazza 发推表示其投资存在透明度问题。据悉，此前 Ryan Carson 详细介绍过他通过 100 名投资者筹集 1000 万美元创立新项目“Flux”的计划，投资标准最低为 16 万美元。@Gee__Gazza 表示，“ 100 个人总共是 1600 万美元。1600 万美元比 1000 万美元高出 60% ，应该他们的网站上进行详细说明”。
-多个主流DeFi项目同时发布“碰拳”图片，或将于下周发布重要消息
-Odaily星球日报讯 包括 MakerDAO、SushiSwap、Balancer 在内的多个主流 DeFi 项目官推于今日同时发布各具项目特有配色背景的“碰拳”图片。
-DeFi 可组合型杠杆协议 Gearbox Protocol 发文解释称，“如果你对此感到困惑，这只是我们与其他 DeFi 项目一起进行的一次 DAO 快闪行为（DAO flashmob），也可以说是一次协作的尝试，但市场贡献者可以为星期一准备一些很酷的东西”。
-项目要闻
-StarkWare将在 Apache 2.0 许可下开源加密证明生成引擎 STARK Prover
-
-Odaily星球日报讯 据官方消息，StarkWare 宣布将在 Apache 2.0 许可下开源加密证明生成引擎 STARK Prover。开源的 STARK 软件将允许社区独立维护和开发网络，因此提供了将 StarkNet 构建为去中心化公共产品的最真实的途径。它还将允许社区有更多的自由来为 Prover 的发展做出贡献，从而推进 StarkNet 发展。此外，开源 Starknet Pro…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184867"
-                        open
-                      >
-                        <summary class="article-expander__title">ETH周报 | 首个公共提款测试网Zhejiang已于2月1日启动；调查报告显示以太坊看涨情绪超过比特币（1.30-2.5）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184867">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>一、整体概述
-
-The Block Research 数据显示，今年 1 月，芝加哥商品交易所集团（CME）的比特币期权交易量和未平仓合约创历史新高。截至周二（31 号），芝商所 1 月份的比特币期权交易量达到 11 亿美元，未平仓合约超过 7.36 亿美元。The Block 研究主管 Steven Zheng 表示，在 FTX 破产后，机构交易公司正在避开不受监管或半监管的平台，其谨慎态度可能是 CME 交易量激增的一个原因。CME 提供比特币和以太坊期权及期货交易。相比加密货币期货，机构投资者更偏好加密期权产品。
-以太坊核心开发者在 2 月 2 日的电话会议#154 的会议记录，以太坊公共提款测试网 Zhejiang 已于 2 月 1 日上线，任何人都可以从水龙头请求测试网 ETH 并在网络上启动他们自己的验证器，Zhejiang 测试网目前有 61000 名活跃验证者支持，其中大部分由以太坊基金会运营。由于 CL 软件客户端可能存在配置问题，测试网正在努力处理新的质押 ETH 存款。假设此问题在未来几天内得到解决，开发人员计划于 2 月 7 日在 Zhejiang 测试网上激活上海升级。
-二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1600 美元，阻力位 1700 美元。
-
-二、二级市场
-
- 1.现货市场
-OKX 行情数据显示，上周 ETH 价格一度上涨到 1717 美元，周内收于 1650 美元，环比上涨 2.4% 。
-
-（ETH 日线图，图片来自 OKX）
-日线图上显示，价格目前在 1650 美元左右盘整，短期内价格可能继续向下测试 1600 美元，如果支撑有效则有望继续冲击 1700 美元，上方阻力位是 1700 美元。
- 2.网络运行情况
-
-etherchain.org 数据显示，过去一周以太坊网络出块量为 50099 个，与上周基本保持一致…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184869"
-                        open
-                      >
-                        <summary class="article-expander__title">StarkWare将开源其零知识技术「STARK Prover」以支持以太坊扩容</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184869">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Decrypt，原文作者：Andrew Asmakov
-Odaily 星球日报译者 | 念银思唐
-
-总部位于以色列的 StarkWare 是以太坊 Layer 2 扩容解决方案 StarkEx 和 StarkNet 背后的开发商，该公司今天透露了将其 STARK Prover 软件开源的计划。
-作为全球最大的智能合约平台，为了实现更快、更便宜的交易，StarkWare 利用了被称为“zero-knowledge rollups”的技术，该技术将数十万笔交易在链下进行捆绑，然后在链上验证，成本仅为链上的一小部分。
-STARK Prover 将被重命名为 Starknet Prover，并置于 Apache 2.0 许可之下，这将允许Web3开发人员复制和更改该软件源代码，并允许他们作为商业用途发布任何副本或修改，而无需担心版税。
-StarkWare 总裁兼 Eli Ben-Sasson 联合创始人周日在特拉维夫的一次活动中表示：“这是推进以太坊扩容规模的里程碑式时刻，从更广泛的意义上讲，这是加密学领域的里程碑式时刻。”
-他补充说，这将使 STARK 技术“处于正确的位置，作为一种公共产品，将被用于造福所有人。
-用于以太坊扩容的“魔杖”
-STARK 是由 Ben-Sasson 创建的一类加密协议，由 StarkNet 和 StarkEx 使用，以提供扩容支持，同时维护底层以太坊区块链的安全性。
-StarkWare 正在构建 Starknet Prover 的代码库基于自 2020 年 6 月以来一直在使用的软件，证明来自知名的基于 StarkWare 的去中心化应用程序（dApps）的交易，如 Immutable X、Sorare 和 dYdX 等。据 StarkWare 称，该公司已处理了 3.27 亿笔交易，铸造了 9500 万枚 NFT，并结算了约 8240 亿…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6218,89 +6361,6 @@ Fungify计划在安全审计结束后，于今年第一季度或第二季度推�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/v5i1k040.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：以太坊流通供应量创合并以来新低，目前约为1.2亿枚</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/v5i1k040.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月2日消息，据The Block报道，以太坊的总流通供应量今天达到自合并以来的低点，约为1.205亿枚。报道称，供应的减少可能与比特币价格的上涨和股市的上涨有关，因为交易员通常会通过购买仅在链上可用的高风险代币来应对。对网络的需求，或者有多少用户试图创建新交易，会导致每笔交易平均消耗的以太坊增加，进一步减少供应。
-此外，自2023年初以来，以太坊交易的总成本稳步上升。它曾短暂处于2021年第三季度的水平，当时比特币和以太币的价格要高得多。根据Dune Analytics的数据，以太坊上的NFT活动也出现了小幅复苏。该活动距离2021年成交量创下历史新高还差得很远，但这是链上活动正在回暖的另一个迹象。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/1x2acx29.html"
-                        open
-                      >
-                        <summary class="article-expander__title">FTX欧洲和日本子公司拍卖截止日期延长至4月26日</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/1x2acx29.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月2日消息， 据FTX债务人在推特上分享的法庭文件，FTX债务人已将FTX Japan和FTX Europe的拍卖截止日期延长至4月26日，LedgerX和Embed拍卖日期不受影响。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/6ven6ib2.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Coinbase NFT：暂停创作者Drops功能，不会关闭NFT市场</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6ven6ib2.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月2日消息，Coinbase NFT市场在推特上宣布，正在暂停NFT市场上的创作者Drops功能，以专注于创作者要求的其他功能和工具，同时强调不会关闭Coinbase NFT市场。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/8j21swps.html"
-                        open
-                      >
-                        <summary class="article-expander__title">BonqDAO和AllianceBlock在攻击事件中损失8800万美元，因BonqDAO智能合约存在漏洞</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8j21swps.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月2日消息，据The Block报道，北京时间2月2日凌晨2点左右，由于BonqDAO智能合约中的一个漏洞，加密协议BonqDAO和AllianceBlock在攻击事件中损失8800万美元。黑客从BonqDAO的金库（Troves）中移除了大约1.14亿枚 walbt（AllianceBlock的封装原生代币）和9800万枚beur代币。该金库由用户控制，用于铸造与欧元挂钩的支付代币beur。该漏洞利用的技术原因仍然未知。到目前为止，黑客已售出大约120万美元的代币，但由于流动性不足，无法将全部金额转换为稳定币或ETH。
-AllianceBlock在推特上表示，该事件与BonqDAO金库无关，其没有违反智能合约。两个团队都致力于消除流动性以减轻黑客将被盗代币转换为其他资产的风险，并已停止所有交易所交易。AllianceBlock还暂停了AllianceBlock Bridge上的桥接，直到问题得到解决。下一步是对攻击前的用户进行快照，然后从快照那一刻起为所有受影响的用户制定解决方案。这包括创建新的ALBT代币并空投到快照中的地址。
-今晨6时左右，BonqDAO发布公告称：“Bonq协议遭到预言机黑客攻击，利用者提高了ALBT价格并铸造了大量BEUR。然后在Uniswap上将BEUR换成其他代币。然后，价格下降到几乎为零，这引发了ALBT金库的清算。其他金库未受影响。Bonq协议已暂停。我们正在研究一种解决方案，允许用户提取所有剩余抵押品，而无需偿还BEUR，该方案将在欧洲中部时间明天上午发布。”</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -6872,8 +6932,8 @@ The Block …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4103506112">
-        <time id="build-timestamp" datetime="2023-02-06T12:14:34.466Z">2023-02-06T12:14:34.466Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4104052088">
+        <time id="build-timestamp" datetime="2023-02-06T13:22:37.355Z">2023-02-06T13:22:37.355Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
