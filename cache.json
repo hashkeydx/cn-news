@@ -1794,46 +1794,6 @@
           "wordCount": 3555,
           "title": "币安已通过“行业复苏计划”收购韩国加密交易所Gopax的多数股权",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/7vzy19gz.html",
-          "author": "PA一线",
-          "description": "PANews 2月3日消息，据派盾预警监测，BonqDAO攻击者已向Tornado Cash转入约700枚ETH，并将约53.4万枚DAI交易为326枚WETH。\n此前昨日消息，BonqDAO和AllianceBlock在攻击事件中损失8800万美元。",
-          "link": "https://panewslab.com/zh/articledetails/7vzy19gz.html",
-          "publishedOn": "2023-02-03T08:06:52.000Z",
-          "wordCount": 3571,
-          "title": "派盾：BonqDAO攻击者已向Tornado Cash转入约700枚ETH",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/03c3icsw.html",
-          "author": "PA一线",
-          "description": "PANews 2月3日消息，慢雾安全团队发布了Orion Protocol被黑分析，Orion Protocol项目的ETH和BSC链上的合约遭到攻击，攻击者获利约302.7万美元。此次攻击的根本原因在于合约兑换功能的函数没有做重入保护，并且兑换后再次更新账本存款的数值是根据兑换前后合约里的代币余额差值来计算的，导致攻击者利用假代币重入了存款函数获得超过预期的代币。\n具体分析如下：1. 攻击者首先调用ExchangeWithAtomic合约的depositAsset函数进行存款，存入0.5个USDC代币为下面的攻击作准备；2. 攻击者闪电贷出284.47万枚USDT代币，接着调用ExchangeWithAtomic合约的doSwapThroughOrionPool函数兑换代币，兑换路径是 [USDC -> ATK（攻击者创建的恶意代币）-> USDT]；3. 因为兑换出来的结果是通过兑换后ExchangeWithAtomic合约里的USDT代币余额减去兑换前该合约里的USDT代币余额（284.47万枚），但问题就在兑换USDC -> ATK后，会调用ATK代币的转账函数，该函数由攻击恶意构造会通过攻击合约调用ExchangeWithAtomic合约的depositAsset函数来将闪电贷来的284.4 万USDT代币存入ExchangeWithAtomic合约中。此时攻击合约在ExchangeWithAtomic合约里的存款被成功记账为284.47万枚并且ExchangeWithAtomic合约里的USDT代币余额为568.9万枚，使得攻击者兑换出的USDT代币的数量被计算为兑换后的568.9万减去兑换前的284.47万等于284.47万；4. 之后兑换后的USDT代币最后会通过调用库函数creditUserAssets来更新攻击合约在ExchangeWithAtomic合约里的使用的账本，导致攻击合约最终在ExchangeWithAtomic合约里USDT代币的存款记账为568.9万枚；5. 最后攻击者调用ExchangeWithAtomic合约里的withdraw函数将USDT提取出来，归还闪电贷后将剩余的283.6万枚USDT代币换成WETH获利。攻击者利用一样的手法在BSC链上的也发起了攻击，获利19.1万美元。\n此前今日早些时候消息，Orion Protocol在攻击事件中损失约300万美元，官方暂停存款功能并正修复漏洞。",
-          "link": "https://panewslab.com/zh/articledetails/03c3icsw.html",
-          "publishedOn": "2023-02-03T07:49:13.000Z",
-          "wordCount": 3589,
-          "title": "慢雾：Orion Protocol被黑根本原因在于合约兑换功能的函数没有做重入保护",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/5jie0x94.html",
-          "author": "PA一线",
-          "description": "PANews 2月3日消息，据官方公告，币安宣布将于2月6日10:30和2月7日10:30分别上线MINA和HIGH 1-20倍U本位永续合约。",
-          "link": "https://panewslab.com/zh/articledetails/5jie0x94.html",
-          "publishedOn": "2023-02-03T07:29:30.000Z",
-          "wordCount": 3556,
-          "title": "币安将上线MINA和HIGH 1-20倍U本位永续合约",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/s4z8774k.html",
-          "author": "PA一线",
-          "description": "PANews 2月3日消息，据彭博社报道，硅谷投资者、亿万富翁Tim Draper在斯里兰卡与当地企业家一起拍摄了一集他的Meet the Drapers电视节目，并于周二会见了斯里兰卡总统Ranil Wickremesinghe，劝说该国采用加密货币。 第二天，他带着同样的口号前往央行，但焦头烂额的央行行长Nandalal Weerasinghe对此无动于衷，他仍在努力平息金融混乱。这比Draper在其他地方得到的反应要冷淡得多。\n在半个小时的会议期间，Draper多次提到他所说的斯里兰卡腐败的声誉，并认为加密货币是一种解决方案。他认为，在采用比特币后，该国可以通过保持完美的记录来避免腐败。Weerasinghe反驳道：“100%采用比特币永远不会成为斯里兰卡的现实。” Draper一直在尝试与Weerasinghe进行讨论，他问道“政府有勇气这么做吗？拥有自己的货币有什么好处？”Weerasinghe说，其他技术可以有效地分配金融服务，以促进包容性和支付电子福利，并指出，一个没有自己货币的国家不可能拥有货币政策独立性，“我们不想因为引入比特币而让危机变得更糟”。",
-          "link": "https://panewslab.com/zh/articledetails/s4z8774k.html",
-          "publishedOn": "2023-02-03T07:19:00.000Z",
-          "wordCount": 3573,
-          "title": "亿万富翁Tim Draper向斯里兰卡央行行长推广加密货币但遭拒绝",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2937,26 +2897,6 @@
           "publishedOn": "2023-02-03T08:20:13.000Z",
           "wordCount": 1781,
           "title": "加密领域的下一波颠覆性创新浪潮将来自哪里？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184839",
-          "author": "PANews",
-          "description": "原文来源：nftevening\n原文作者：Koko\n原文编译：PANews\n\n和大多数NFT项目一样，CoolCats 在过去一年的表现并不令人满意，其地板价从接近 13 ETH高点一路下滑至 2 ETH 区间，交易量也裹足不前。2022 年 4 月，首席执行官 Chris Hassett 的离职更是给该项目蒙上一层阴影，随后不得不重新招募新的社区总裁来安抚 NFT 持有者。\n不过，随着时间进入 2023 年，加密货币行业的复苏也让整个 NFT 市场焕发出新的增长动力。就在 Doodles 宣布推出 Doodles 2 系列后不久，CoolCats 也在早春二月召开了“TownHall”会议，旨在今年启动品牌重塑。那么，对于陷入低迷泥潭的 CoolCats 来说，能否借助市场反弹的“东风”再次雄起呢？下面，让我们通过解读本次会议内容所涉及到的品牌、战略和产品体验三个“新方面”来一起深度分析。\n“三新”之一：新品牌身份\n在“TownHall”会议召开之前，CoolCats 在社交媒体上留下了一些神秘线索，首先其官方推特账户停更了五天，然后突然在 1 月 31 日公开了其“新品牌身份”：一个红色背景的“蓝猫正面照”。\n\n“三新”之二：新战略方向\nCoolCats 是经历过加密寒冬后依然坚持下来的蓝筹 NFT 项目之一，其愿景旨在“成为通过以社区为中心的故事讲述和创新成为领先的娱乐品牌”，并希望在未来五年内让 100 万持有者加入 Cool Cats 生态。但问题是，CoolCats 将如何实现这一目标呢？\n就目前来看，CoolCats 的品牌战略有两个方面。首先通过讲故事的内容和主流品牌合作伙伴关系来扩大受众。然后，通过提供完全沉浸在 Cooltopia 的游戏产品和体验来吸引用户（Cooltopia 是为 Cool Cats 子 NFT 系列 Pets NFT 开发的网页端游…",
-          "link": "https://www.odaily.news/post/5184839",
-          "publishedOn": "2023-02-03T08:00:00.000Z",
-          "wordCount": 1676,
-          "title": "解读Cool Cats的「三新策略」，能否助其摆脱低迷泥潭？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184838",
-          "author": "CapitalismLab",
-          "description": "原文标题：《Uniswap 难赚钱？纯现货 DEX 无“钱”途》\n$UNI 因其作为“无意义的治理代币”的代表而广受批评。实际上，此事远远不是打开分成开关，然后将收入用于分配或者回购这么简单。即使作为现货 DEX 的龙头，Uniswap 护城河远没有想象的那么宽广，盈利潜力堪忧。 为何会如此？本文将用详细的案例和数据为你解析。\n本文将从以下几点展开分析：\n\nDEX 与用户连接较弱，护城河较浅\n\nUNI 没有进一步开发附加价值\n\nCEX 现货交易免费潮，更难获取定价权\n\nUNI 若能成功开启分成，乐观情况下协议收入仍不多，估值不低且不足以覆盖团队费用\n\nDEX 与用户连接较弱，护城河较浅\n市场对于 DEX 的期许不少来源于 CEX 的平台币在过往表现优异，然而 DEX 和 CEX 两者在诸多方面的差别造成其盈利能力上有重大差异。 参见下图，使用币安交易现货，意味着你的币存在了币安，你在使用币安的 APP，资金在币安的生态内流转，你不断与币安生态产生连接与信任。 而 Uniswap 仅在交易部分起作用，资金并不在 Uniswap 停留，与币安对应的是 Etherum 而非 Uniswap，连接与信任在 Ethereum 中积累。也就是说 CEX 和 L1 是一个层级的，现货 DEX 仅可对标 CEX 中的一个模块。\n\n这使其无法像 CEX 一样轻易横向扩张，在 ETH 生态中也面临着激烈的竞争：\n\n用户可以随意切换到 Curve 等竞品上\n\n1inch 等聚合交易充分利用 DeFi 整体的流动性，价格必然更优\n\n仿盘的高度同质化竞争，卷抽成卷费用，压缩利润空间\n\nDEX 是 DeFi 中少数不用沉淀用户（非 LP）资金的，这使得其历史信誉价值略低\n\n所以虽然从交易量上看 Uniswap 虽然独占鳌头，但是若其打开抽成开关，很有可能对其份额造成负面影响，此次 UNI 社区否决开关…",
-          "link": "https://www.odaily.news/post/5184838",
-          "publishedOn": "2023-02-03T07:24:08.000Z",
-          "wordCount": 1849,
-          "title": "盈利潜力堪忧，Uniswap如何重振雄风？",
           "imageUrl": null
         }
       ]
