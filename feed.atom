@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-07T13:15:57.740Z</updated>
+    <updated>2023-02-07T14:07:53.772Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Canto CSR事件复盘：牺牲协议收入，换取可组合性的典范]]></title>
+        <id>https://www.odaily.news/post/5184923</id>
+        <link href="https://www.odaily.news/post/5184923"/>
+        <updated>2023-02-07T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Canto CSR 事件复盘、项目简析与发现逻辑》
+原文作者：Ryanqyz
+原文来源：SevenUp DAO
+摘要：
+（1 ）近期，Canto 涨幅亮眼， 1 月涨幅达 577% ，且只在最后 8 个交易日启动。经检验，理由是 1 月 23 日，Canto 宣布了 Contract Secured Revenue(CSR)，一种费用分摊模式，它使合约开发者可在用户与合约交互时支付给网络的交易费用中抽取一定比例，以此来赚取收入。
+这使得市场对 Canto 原本薄弱的的价值捕获信心增加。
+（2 ）在介绍的 Canto 的基础上，本文将还原发现这个 Alpha 的心路历程，方便以后大家发现自己的 Alpha。
+（3 ）Canto 是 Cosmos 上的诞生了 6 个月的 L1，理念是将核心 DeFi 组件作为免费公共基础设施提供给用户，以促进其他 DeFi「应用乐高」的发展；通过免费形式，带来了较高的近期 TVL 增长，目前是 24 h 交易量第七大 Layer 1 。在 CSR 之前，对 Canto 的评价普遍是理念很好，但价值捕获相对堪忧。
+（4 ）Canto 目前生态上基本是老 DeFi 的 fork，其下限是一条普通的 Layer 1 ，关键在于 TVL、交易量以及生态的项目质量。
+
+（5 ）总的来说，对于 Canto 生态来说，仅需牺牲几个头部 DEX、借贷、稳定币项目的协议收入，即可换来更加丰富且免费的可组合性，这在千篇一律的 DeFi 世界中不失为一种创新。
+Enjoy！
+
+一、概述
+1.1 简介
+1.1.1 背景：Cosmos
+Cosmos 生态主打专链专用，每个 DApp 可以作为一条区块链开发，以最大化其运算速度和储存容量。因此，Cosmos 系的每条区块链都是一个单独的 DApp，目前社交热度较高的公链有 Osmosis（DEX），EVMOS（…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arbitrum的DEX黑马，Camelot近期有哪些即将Fair Launch的新项目？]]></title>
+        <id>https://www.odaily.news/post/5184922</id>
+        <link href="https://www.odaily.news/post/5184922"/>
+        <updated>2023-02-07T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[继 GMX 后，Arbitrum 生态又迎来了一个大热 DEX 协议 Camelot。与 GMX 不同，Camelot 更加侧重为新项目引导流动性，展现出更大的想象空间，也为 Arbitrum 生态的蓬勃发展搭建了一条快车道。随着 Arbitrum 生态不断上升的热度，Camelot 原生 Token 也一路走高，并将在近期 Launch 多个新的项目和协议。Camelot 有哪些机制创新？生态内近期有哪些值得关注的项目？BlockBeats 对此做了简单梳理。
+Camelot，Arbitrum 的 DEX 黑马
+Camelot 是一个以生态系统为中心和社区驱动型 DEX，允许流动性池构建者和用户利用其定制基础设施来实现深度、可持续和适应性强的自定义流动性。Camelot 支持在 Arbitrum 上启动新的协议，并为其提供启动、引导和维持增长流动性的工具。
+机制简介
+通过 Camelot 的无许可「Nitro Pools」，项目可以完全控制自己的激励措施，并拥有相对灵活的选择以建立自己发展所需的确切流动性类型。另外，Camelot 的自定义 Launchpad 也是无许可的，以供项目发行 Token 并为其引导更多流动性。
+Camelot 采用双 AMM 模型，同时支持波动性和稳定性 Token 对交易。波动交易对由不相关的资产组成，基于通常的 Uni V2 模型，使用标准常数乘积公式，而稳定交易对则由挂钩或关联型资产组成，兑换多保持在 1: 1 的比例，使用 Solidly 曲线。除此之外，协议上的交易对采用动态定向费用，以为每个资金池设置不同的费用，并且可以根据交易买卖方向的不同定义费用。这种新的 AMM 机制使 Camelot 能够提供更加定制化和针对特定交易对量身定制的矿池配置。
+
+每个在 Camelot AMM 上启动或与其合作的项目都可以为其 LP 配置特定的…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[迪拜虚拟资产监管局 (VARA)发布《2023年虚拟资产及相关活动条例》]]></title>
         <id>https://panewslab.com/zh/articledetails/lkpyq5rr.html</id>
@@ -4380,71 +4423,6 @@ Hop Exchange 建立在 roll up 代币桥上，允许用户在主要以太坊第 
         <summary type="html"><![CDATA[PANews 2月3日消息，Nostr协议第三方客户端Damus在推特上称其已收到通知，该通知称根据中国国家互联网信息办公室(CAC)的要求，该应用程序将从中国应用商店中移除，因为它包含在中国非法的内容，不符合应用商店审查指南。
 此前昨日消息，Damus上线不到两日已登上美区App Store免费社交App前十排行榜。
 相关阅读：试玩去中心化社交产品Damus：推特“杀手”，比特币推手]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mango攻击者Avraham Eisenberg在首次听证会上放弃保释，将于2月14日被传讯]]></title>
-        <id>https://panewslab.com/zh/articledetails/93u843x2.html</id>
-        <link href="https://panewslab.com/zh/articledetails/93u843x2.html"/>
-        <updated>2023-02-03T02:06:03.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月3日消息，据CoinDesk及华尔街日报报道，Mango Markets攻击者Avraham Eisenberg在纽约美国地方法院第一次听证会上放弃保释。目前，Avraham正被Mango Labs起诉，要求赔偿剩余的4700万美元，他被指控犯有商品欺诈、商品操纵和电汇欺诈三项刑事罪。Eisenberg周四仍被警方拘留，并将于2月14日被传讯，届时他将被要求认罪。
-此前消息，美国证券交易委员会和商品期货交易委员会上个月对Avraham Eisenberg同时提起民事诉讼，指控其策划了对Mango Markets的攻击，并导致该平台损失1.16亿美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase将Liquid Staked ETH（LSETH） 列入上币路线图]]></title>
-        <id>https://panewslab.com/zh/articledetails/rq5rzrju.html</id>
-        <link href="https://panewslab.com/zh/articledetails/rq5rzrju.html"/>
-        <updated>2023-02-03T01:56:52.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月3日消息，据官方推特，Coinbase将Liquid Staked ETH（LSETH） 列入上币路线图，请注意，此资产的以太坊ERC-20合约地址为0x8c1bed5b9a0928467c9b1341da1d7bd5e10b6549。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Orion Protocol在攻击事件中损失约300万美元，官方暂停存款功能并正修复漏洞]]></title>
-        <id>https://panewslab.com/zh/articledetails/xnlmrndg.html</id>
-        <link href="https://panewslab.com/zh/articledetails/xnlmrndg.html"/>
-        <updated>2023-02-03T01:51:24.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月3日消息，据CoinDesk引援派盾监测数据报道，交易所聚合平台Orion Protoco遭到重入攻击，损失约300万美元资产。攻击者已将部分加密货币转入Tornado Cash。该平台已暂时关闭存款功能，官方团队已确认根本原因，正在修复漏洞。
-此外，Orion Protocol首席执行官Alexey Koloskov在推特上表示，在此事件中没有用户遭受任何损失，所有用户的资金都是安全，包括质押、Orion Pool、桥和流动性提供者。处于风险中的资产位于Orion团队运营的内部经纪人账户中。这个问题不是核心协议代码的缺陷造成的，而可能是由其实验性和私人经纪人使用的智能合约中混合第三方库的漏洞造成的。漏洞被修复和审计之前，将不会重新开放存款功能。用户当前可以从Orion Exchange合约中提取资金。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特币挖矿基础设施公司Giga Energy正寻求1000万美元的A轮融资]]></title>
-        <id>https://panewslab.com/zh/articledetails/89083606.html</id>
-        <link href="https://panewslab.com/zh/articledetails/89083606.html"/>
-        <updated>2023-02-03T01:33:42.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月3日消息，据The Block报道，比特币挖矿基础设施初创公司Giga Energy正在筹集1000万美元的A轮融资，以帮助其扩大美国及其他地区的业务。Giga Energy计划用1000万美元目标融资中的近600万美元用于制造发电机，其余用于其他费用。
-据悉，Giga Energy于2019年创立，是一家专注于利用废弃天然气作为能源的比特币挖矿基础设施初创公司，去年的总收入为460万美元。该公司此前已经通过两轮融资筹集到360万美元，在种子轮融资时的投前估值为3000万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSea推出“3小时持仓保护期”机制以降低NFT失窃风险]]></title>
-        <id>https://panewslab.com/zh/articledetails/74ys2uc4.html</id>
-        <link href="https://panewslab.com/zh/articledetails/74ys2uc4.html"/>
-        <updated>2023-02-03T01:25:25.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月3日消息，NFT市场OpenSea在推特上介绍“3小时持仓保护期”机制，即为降低与盗窃相关的风险，卖家将在一些交易和销售后3小时内禁止接受某些商品的报价。使用加密授权委托平台DelegateCash，热冷钱包间转账不会受到影响。
-据悉，DelegateCash是一个去中心化的注册表，可将用户信任的钱包相关联。OpenSea将读取该平台用户的链上注册表，这样就可以在受保护的同时获得顺利的交易体验。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSea为可定制空投服务“Drops on OpenSea”推出新工具套件]]></title>
-        <id>https://panewslab.com/zh/articledetails/k89j5ihh.html</id>
-        <link href="https://panewslab.com/zh/articledetails/k89j5ihh.html"/>
-        <updated>2023-02-03T01:18:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月3日消息，NFT市场OpenSea宣布推出可定制空投服务“Drops on OpenSea”的下一个阶段，即为创作者提供一套工具，支持创作者自己完成在所有支持的EVM链上部署智能合约，配置Drops机制，使用自助式编辑工具个性化登陆页面等活动。OpenSea将在未来几周内逐步对更多创作者开放该产品体验。
-此前去年12月份消息，OpenSea宣布正分阶段为创作者推出可定制的空投服务。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
