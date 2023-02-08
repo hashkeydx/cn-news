@@ -51,11 +51,491 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-08 datetime="2023-02-08T10:41:24.000Z">2023-02-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-08 datetime="2023-02-08T10:41:24.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-08 datetime="2023-02-08T11:00:01.000Z">2023-02-08</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-08 datetime="2023-02-08T11:00:01.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34449"
+                        open
+                      >
+                        <summary class="article-expander__title">Arthur Hayes：市场预测出现错误，是时候入场了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34449">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>思考许久之后，终于决定入场，我将在未来几天进行部署。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34452"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂StarkNet的开源堆栈</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34452">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《
+
+(web3 降智系列) 一文读懂 StarkNet 的开源堆栈
+
+》
+原文作者：CryptoNerdCn
+
+
+Web3 降智系列是我在 2023 年新开始的一个 以日常交流中 Web3er 对一些知识和概念的误解为引子，以即使你在忙了一天后大脑停机的降智状态也能读懂为目的，通过讲述设计思想而不是外在表现，尽量不涉及具体公式和代码的 面向非技术人员的科普系列。  
+
+
+继上次我们提到 StarkNet 发布了开源的 Sequencer（定序器）后，StarkWare 又搞了一个大新闻：StarkNet 的 Prover（证明器）即将开源！
+
+
+不知不觉的，从去年 11 月Cairo 语言开源之后，三个月的时间内，StarkNet 的所有组件全部重写+开源。在这里，我们回顾一下 StarkNet 的开源堆栈吧。
+
+
+
+整体架构
+
+
+
+
+
+
+
+
+
+首先，我们先复习一下上次的文章里提到的 StarkNet 架构。
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sequencer 负责管理和协调交易的执行顺序。Sequencer 可以认为是一个交易队列，它确保在同一个区块内的所有交易按照指定的顺序执行，并且确保没有交易被重复执行。Sequencer 还负责验证交易的合法性，并将其写入区块链。
+
+
+Prover 则负责生成关于 Sequence 执行轨迹有效性的加密证明。目前，这项工作是由单一的 Prover，即「Share Prover」或「SHARP」执行的。
+
+
+Verifier 位于 L1，用于验证 Starknet Prover 产生证明的智能合约，如果运行成功，其将更新以太坊 L1 上的状态用于记录保存。
+
+
+
+在上一篇文章里我们提到了上述三个部件，这一次除了 Sequencer 和 Prover，我们还将对 FullNode 进行说明（Verifier 和 StarkNet …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34450"
+                        open
+                      >
+                        <summary class="article-expander__title">Electric Capital联创：我们应该如何看待Crypto未来？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34450">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>人工智能是未来，但人工智能+加密货币还没有到来。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34447"
+                        open
+                      >
+                        <summary class="article-expander__title">以现有NFT交易平台估值，看Blur空投价值几何</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34447">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《
+
+Blur 空投价值几何？NFT 交易所估值分析
+
+》
+原文作者：CJ_Blockchain
+
+
+TL;DR
+
+
+Opensea、Blur、X2Y2、和 Looksrare 市场份额的占比分别为 36.77%、28.05%、24.35%、和 7.42%
+
+
+但剔除 Wash Trading 后的真实份额约为 59.1%，19.5%，13.2% 和 2.9%
+
+
+目前已经上币的交易平台中，X2Y2 被低估，Looks 被高估
+
+
+Blur 的 FDV 估值范围约为：3.82 亿-4.58 亿美金
+
+
+
+
+前言
+
+
+Blur 将于 2 月 14 日推出平台 Token，届时大家在 Blur 上的箱子和 Points 将会转换为
+
+Token
+
+。由于 Blur 还没有给出详细的 Tokenomics，也尚不清楚其
+
+Token
+
+有哪些 utility。
+
+
+因此本文主要从可比公司估值的角度来对 Blur 进行估值。
+
+
+同时，由于 Blur 的可比公司（X2Y2、Looksrare）包括 Blur 自身都存在有交易挖矿（Wash Trading）的嫌疑，因此本文的会对其交易量进行一定的处理，尽可能还原真实数据。
+
+
+
+
+一、行业竞争情况
+
+
+
+
+当前 NFT 交易平台行业的竞争情况较为激烈。随着 NFT 市场的快速发展，越来越多的交易平台和平台开始涉足 NFT 交易领域，导致行业竞争变得越来越激烈。
+
+
+竞争对手包括各种类型的 NFT 交易平台，如大型中心化交易平台、去中心化交易平台、专注于某种类型 NFT 的交易平台等。为了吸引用户和保持竞争优势，许多 NFT 交易平台已经开始提供更多的交易对、更低的交易费用、更高的安全性等。
+
+
+不同链上的 NFT 交易平台们的竞争情况各有不同，本文主要专注于 Blur 的估值，因此此处主要讨论 Ethereum 链上的行业…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34445"
+                        open
+                      >
+                        <summary class="article-expander__title">了解Lido V2：支持取消质押ETH，引入新模块化架构设计</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34445">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Lido正式发布Lido V2提案，这是该协议迄今为止最大规模升级</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34440"
+                        open
+                      >
+                        <summary class="article-expander__title">a16z：生成式AI，下一个消费级平台</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34440">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>我们已经进入了生成人工智能的时代。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34443"
+                        open
+                      >
+                        <summary class="article-expander__title">OpenAI创始人还发行过加密货币项目，野心比ChatGPT还大</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34443">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>近日 OpenAI 的 ChatGPT 在全球市场引领了一波又一波 AI 板块的行情疯涨，本周一 BlockBeats 已为大家梳理了加密行业大家都在炒哪些 AI 概念币。
+
+
+
+
+但其实 OpenAI 创始人山姆·奥特曼（Sam Altman）早就亲自下场创办过一个加密项目——「世界货币」Worldcoin，旨在推出「一种新的、集体拥有的全球货币，公平地分配给尽可能多的人。」
+
+
+
+
+
+
+
+
+
+将加密货币公平分配至每一个人
+
+
+
+
+数据显示，2021 年全球约有超过 3 亿加密货币用户，加密货币平均拥有率仅为 3.9%。
+
+
+
+
+在此背景下，Worldcoin 提出了一个纯粹而又显得有些疯狂的愿景：「在一个人人共有的加密网络中连接第一批十亿用户」。
+
+
+
+
+称其「疯狂」是因为，比特币筚路蓝缕走过十三年，才堪堪使加密货币迈过 3 亿用户的里程碑。
+
+
+
+
+但 Worldcoin 团队提出了让人无法拒绝的理由：「区块链和密码学等革命性新技术可以让我们共同做一些甚至政府都无法做到的事情——在全球范围内增加个人赋权和机会平等」。
+
+
+
+
+如此浪漫的叙事，理所当然地吸引了一些顶级风投：
+
+
+
+
+2020 年 6 月，Worldcoin 以 10 亿美元的估值融资 2500 万美元，Digital Currency Group、Coinbase Ventures、a16z、Multicoin Capital，以及包括 LinkedIn 创始人 Reid Hoffman 和 FTX 创始人 Sam Bankman-Fried 在内的天使投资人参投。2021 年 3 月底，Worldcoin 又寻求以 30 亿美元估值筹集 1 亿美元融资，a16z 继续加码。
+
+
+
+
+Worldcoin 是一个运行在以太坊上的 Layer 2 网络，Token 供应上限为 100 亿枚。除了 20 亿枚…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34439"
+                        open
+                      >
+                        <summary class="article-expander__title">记者体验集成GPT-3.5后的新版Bing：搜索从此不一样了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34439">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>新版Bing基于改进的OpenAI模型，比目前的ChatGPT更准确、更有针对性。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34442"
+                        open
+                      >
+                        <summary class="article-expander__title">【视频】马斯克: ChatGPT比你想象的危险</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34442">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原视频来源：画百科
+
+
+ChatGPT火爆全网，赞美声不断。其实 ChatGPT 可能比你想象的更加危险。ChatGPT书写的文本和人类的创作几乎没有差别；如果骗子熟练掌握了这项技术，那么区分机器人和真人的挑战性极大，政治家也会利用 ChatGPT 撰写多种文章来影响公众舆论。在人类不断研制和开发 AI 的过程中，或许也在被 AI 一步步侵蚀。
+
+
+
+ 
+
+
+
+相关阅读：《ChatGPT 引发的十大职业危机及带来的新机遇》、《chatGPT+Web3，有哪些想象空间？》</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34438"
+                        open
+                      >
+                        <summary class="article-expander__title">38岁的OpenAi创始人自述：我的成功秘诀</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34438">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《ChatGPT 之父阿尔特曼自述：我为何成功？》
+原文整理：
+
+创业邦
+
+
+
+「编者按」马斯克之后，谁会是全球新一代的科技领袖？
+
+
+如果你在美国做个调查，90% 的人会选择 OpenAI 创始人兼 CEO 山姆·阿尔特曼（Sam Altman）。比尔·盖茨说，公司的最新产品 ChatGPT，意义「不亚于互联网的诞生。」
+
+
+38 岁的阿尔特曼有一路开挂的生涯。19 岁从斯坦福大学计算机系辍学创业；26 岁与创业伙伴将公司卖了 4300 万美元，从此财务自由；29 岁投资并管理美国最大创业孵化器 YC，5 年规模扩大十倍；30 岁，他与马斯克等人联手创办 Open AI，跻身全球顶尖创业者之列。
+
+
+在 YC 创始人、硅谷创业教父 Paul Graham 眼里，Sam 是极具魄力的领导者和开拓者。「如果把 Sam Altman 扔到某个食人族之岛，5 年后他会成为这个食人族岛的国王。」
+
+
+这篇文章是阿尔特曼在 2019 年即将任 OpenAI CEO 时写的博客。通过在 YC 时期和大量创业者及技术人才的交流，阿尔特曼总结了他眼中的创业秘诀，文章标题平淡无奇《如何取得成功》（How to be successful），但字字珠玑，至今仍被硅谷创投圈奉为圭臬。
+
+
+以下为创业邦对原作的整理。
+
+
+复利化成长
+
+
+Sam 说，复利有神奇的魔力，指数曲线是创造财富的关键。一家中型企业，如果价值每年增长 50%，用不了几年就能成为巨头。
+
+
+世界上，真正有网络效应和高度扩展性的行业并不多。但技术进步让这一点成了可能，你可以花时间发现和创造这样的机会。
+
+
+个人职业生涯也是如此。大多数职业发展轨迹都是线性的，而成功需要选择具有复利效应的职业。达成这一目标，有多个途径，包括借力资本、技术、品牌、网络效应，以及从事管理工作。
+
+
+绝对自信
+
+
+Sam 说，自己认识的最成功的…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34437"
+                        open
+                      >
+                        <summary class="article-expander__title">Uniswap创始人被早期投资人告上法庭，孰是孰非？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34437">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>是Uniswap创始人过河拆桥，还是早期投资人借题发挥蹭热度？</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34430"
+                        open
+                      >
+                        <summary class="article-expander__title">抢先看！已支持ChatGPT的搜索引擎Bing有何特点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34430">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>微软发布会速览，新的Bing长啥样？</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34411"
+                        open
+                      >
+                        <summary class="article-expander__title">Vest Exchange，Arbitrum上的永续合约AMM</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34411">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>背靠华尔街顶级做市商Jane Street，Vest Exchange值得期待。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34393"
+                        open
+                      >
+                        <summary class="article-expander__title">Glassnode ：链上数据显示比特币正过渡到新一轮周期</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34393">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>从历史上看，这些过渡时期的特点是一个扩展的宏观横盘市场，并伴随局部剧烈的双向波动</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34373"
+                        open
+                      >
+                        <summary class="article-expander__title">从AI基础设施到应用场景，哪些Web3项目值得关注？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34373">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Web3社交的初级阶段引入AI更多地是为了一种叙事手段。本文盘点了加密领域中5个AI基础设施和5个AI应用场景类项目。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1223,473 +1703,70 @@ Voyager代理律师还要求提供与美国司法部和美国证券交易委员�
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34452"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂StarkNet的开源堆栈</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34452">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《
-
-(web3 降智系列) 一文读懂 StarkNet 的开源堆栈
-
-》
-原文作者：CryptoNerdCn
-
-
-Web3 降智系列是我在 2023 年新开始的一个 以日常交流中 Web3er 对一些知识和概念的误解为引子，以即使你在忙了一天后大脑停机的降智状态也能读懂为目的，通过讲述设计思想而不是外在表现，尽量不涉及具体公式和代码的 面向非技术人员的科普系列。  
-
-
-继上次我们提到 StarkNet 发布了开源的 Sequencer（定序器）后，StarkWare 又搞了一个大新闻：StarkNet 的 Prover（证明器）即将开源！
-
-
-不知不觉的，从去年 11 月Cairo 语言开源之后，三个月的时间内，StarkNet 的所有组件全部重写+开源。在这里，我们回顾一下 StarkNet 的开源堆栈吧。
-
-
-
-整体架构
-
-
-
-
-
-
-
-
-
-首先，我们先复习一下上次的文章里提到的 StarkNet 架构。
-
-
-
-
-
-
-
-
-
-
-
-
-
-Sequencer 负责管理和协调交易的执行顺序。Sequencer 可以认为是一个交易队列，它确保在同一个区块内的所有交易按照指定的顺序执行，并且确保没有交易被重复执行。Sequencer 还负责验证交易的合法性，并将其写入区块链。
-
-
-Prover 则负责生成关于 Sequence 执行轨迹有效性的加密证明。目前，这项工作是由单一的 Prover，即「Share Prover」或「SHARP」执行的。
-
-
-Verifier 位于 L1，用于验证 Starknet Prover 产生证明的智能合约，如果运行成功，其将更新以太坊 L1 上的状态用于记录保存。
-
-
-
-在上一篇文章里我们提到了上述三个部件，这一次除了 Sequencer 和 Prover，我们还将对 FullNode 进行说明（Verifier 和 StarkNet …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34450"
-                        open
-                      >
-                        <summary class="article-expander__title">Electric Capital联创：我们应该如何看待Crypto未来？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34450">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>人工智能是未来，但人工智能+加密货币还没有到来。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34447"
-                        open
-                      >
-                        <summary class="article-expander__title">以现有NFT交易平台估值，看Blur空投价值几何</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34447">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《
-
-Blur 空投价值几何？NFT 交易所估值分析
-
-》
-原文作者：CJ_Blockchain
-
-
-TL;DR
-
-
-Opensea、Blur、X2Y2、和 Looksrare 市场份额的占比分别为 36.77%、28.05%、24.35%、和 7.42%
-
-
-但剔除 Wash Trading 后的真实份额约为 59.1%，19.5%，13.2% 和 2.9%
-
-
-目前已经上币的交易平台中，X2Y2 被低估，Looks 被高估
-
-
-Blur 的 FDV 估值范围约为：3.82 亿-4.58 亿美金
-
-
-
-
-前言
-
-
-Blur 将于 2 月 14 日推出平台 Token，届时大家在 Blur 上的箱子和 Points 将会转换为
-
-Token
-
-。由于 Blur 还没有给出详细的 Tokenomics，也尚不清楚其
-
-Token
-
-有哪些 utility。
-
-
-因此本文主要从可比公司估值的角度来对 Blur 进行估值。
-
-
-同时，由于 Blur 的可比公司（X2Y2、Looksrare）包括 Blur 自身都存在有交易挖矿（Wash Trading）的嫌疑，因此本文的会对其交易量进行一定的处理，尽可能还原真实数据。
-
-
-
-
-一、行业竞争情况
-
-
-
-
-当前 NFT 交易平台行业的竞争情况较为激烈。随着 NFT 市场的快速发展，越来越多的交易平台和平台开始涉足 NFT 交易领域，导致行业竞争变得越来越激烈。
-
-
-竞争对手包括各种类型的 NFT 交易平台，如大型中心化交易平台、去中心化交易平台、专注于某种类型 NFT 的交易平台等。为了吸引用户和保持竞争优势，许多 NFT 交易平台已经开始提供更多的交易对、更低的交易费用、更高的安全性等。
-
-
-不同链上的 NFT 交易平台们的竞争情况各有不同，本文主要专注于 Blur 的估值，因此此处主要讨论 Ethereum 链上的行业…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34445"
-                        open
-                      >
-                        <summary class="article-expander__title">了解Lido V2：支持取消质押ETH，引入新模块化架构设计</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34445">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Lido正式发布Lido V2提案，这是该协议迄今为止最大规模升级</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34440"
-                        open
-                      >
-                        <summary class="article-expander__title">a16z：生成式AI，下一个消费级平台</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34440">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>我们已经进入了生成人工智能的时代。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34443"
-                        open
-                      >
-                        <summary class="article-expander__title">OpenAI创始人还发行过加密货币项目，野心比ChatGPT还大</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34443">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>近日 OpenAI 的 ChatGPT 在全球市场引领了一波又一波 AI 板块的行情疯涨，本周一 BlockBeats 已为大家梳理了加密行业大家都在炒哪些 AI 概念币。
-
-
-
-
-但其实 OpenAI 创始人山姆·奥特曼（Sam Altman）早就亲自下场创办过一个加密项目——「世界货币」Worldcoin，旨在推出「一种新的、集体拥有的全球货币，公平地分配给尽可能多的人。」
-
-
-
-
-
-
-
-
-
-将加密货币公平分配至每一个人
-
-
-
-
-数据显示，2021 年全球约有超过 3 亿加密货币用户，加密货币平均拥有率仅为 3.9%。
-
-
-
-
-在此背景下，Worldcoin 提出了一个纯粹而又显得有些疯狂的愿景：「在一个人人共有的加密网络中连接第一批十亿用户」。
-
-
-
-
-称其「疯狂」是因为，比特币筚路蓝缕走过十三年，才堪堪使加密货币迈过 3 亿用户的里程碑。
-
-
-
-
-但 Worldcoin 团队提出了让人无法拒绝的理由：「区块链和密码学等革命性新技术可以让我们共同做一些甚至政府都无法做到的事情——在全球范围内增加个人赋权和机会平等」。
-
-
-
-
-如此浪漫的叙事，理所当然地吸引了一些顶级风投：
-
-
-
-
-2020 年 6 月，Worldcoin 以 10 亿美元的估值融资 2500 万美元，Digital Currency Group、Coinbase Ventures、a16z、Multicoin Capital，以及包括 LinkedIn 创始人 Reid Hoffman 和 FTX 创始人 Sam Bankman-Fried 在内的天使投资人参投。2021 年 3 月底，Worldcoin 又寻求以 30 亿美元估值筹集 1 亿美元融资，a16z 继续加码。
-
-
-
-
-Worldcoin 是一个运行在以太坊上的 Layer 2 网络，Token 供应上限为 100 亿枚。除了 20 亿枚…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34439"
-                        open
-                      >
-                        <summary class="article-expander__title">记者体验集成GPT-3.5后的新版Bing：搜索从此不一样了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34439">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>新版Bing基于改进的OpenAI模型，比目前的ChatGPT更准确、更有针对性。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34442"
-                        open
-                      >
-                        <summary class="article-expander__title">【视频】马斯克: ChatGPT比你想象的危险</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34442">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原视频来源：画百科
-
-
-ChatGPT火爆全网，赞美声不断。其实 ChatGPT 可能比你想象的更加危险。ChatGPT书写的文本和人类的创作几乎没有差别；如果骗子熟练掌握了这项技术，那么区分机器人和真人的挑战性极大，政治家也会利用 ChatGPT 撰写多种文章来影响公众舆论。在人类不断研制和开发 AI 的过程中，或许也在被 AI 一步步侵蚀。
-
-
-
- 
-
-
-
-相关阅读：《ChatGPT 引发的十大职业危机及带来的新机遇》、《chatGPT+Web3，有哪些想象空间？》</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34438"
-                        open
-                      >
-                        <summary class="article-expander__title">38岁的OpenAi创始人自述：我的成功秘诀</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34438">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《ChatGPT 之父阿尔特曼自述：我为何成功？》
-原文整理：
-
-创业邦
-
-
-
-「编者按」马斯克之后，谁会是全球新一代的科技领袖？
-
-
-如果你在美国做个调查，90% 的人会选择 OpenAI 创始人兼 CEO 山姆·阿尔特曼（Sam Altman）。比尔·盖茨说，公司的最新产品 ChatGPT，意义「不亚于互联网的诞生。」
-
-
-38 岁的阿尔特曼有一路开挂的生涯。19 岁从斯坦福大学计算机系辍学创业；26 岁与创业伙伴将公司卖了 4300 万美元，从此财务自由；29 岁投资并管理美国最大创业孵化器 YC，5 年规模扩大十倍；30 岁，他与马斯克等人联手创办 Open AI，跻身全球顶尖创业者之列。
-
-
-在 YC 创始人、硅谷创业教父 Paul Graham 眼里，Sam 是极具魄力的领导者和开拓者。「如果把 Sam Altman 扔到某个食人族之岛，5 年后他会成为这个食人族岛的国王。」
-
-
-这篇文章是阿尔特曼在 2019 年即将任 OpenAI CEO 时写的博客。通过在 YC 时期和大量创业者及技术人才的交流，阿尔特曼总结了他眼中的创业秘诀，文章标题平淡无奇《如何取得成功》（How to be successful），但字字珠玑，至今仍被硅谷创投圈奉为圭臬。
-
-
-以下为创业邦对原作的整理。
-
-
-复利化成长
-
-
-Sam 说，复利有神奇的魔力，指数曲线是创造财富的关键。一家中型企业，如果价值每年增长 50%，用不了几年就能成为巨头。
-
-
-世界上，真正有网络效应和高度扩展性的行业并不多。但技术进步让这一点成了可能，你可以花时间发现和创造这样的机会。
-
-
-个人职业生涯也是如此。大多数职业发展轨迹都是线性的，而成功需要选择具有复利效应的职业。达成这一目标，有多个途径，包括借力资本、技术、品牌、网络效应，以及从事管理工作。
-
-
-绝对自信
-
-
-Sam 说，自己认识的最成功的…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34437"
-                        open
-                      >
-                        <summary class="article-expander__title">Uniswap创始人被早期投资人告上法庭，孰是孰非？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34437">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>是Uniswap创始人过河拆桥，还是早期投资人借题发挥蹭热度？</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34430"
-                        open
-                      >
-                        <summary class="article-expander__title">抢先看！已支持ChatGPT的搜索引擎Bing有何特点</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34430">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>微软发布会速览，新的Bing长啥样？</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34411"
-                        open
-                      >
-                        <summary class="article-expander__title">Vest Exchange，Arbitrum上的永续合约AMM</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34411">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>背靠华尔街顶级做市商Jane Street，Vest Exchange值得期待。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34393"
-                        open
-                      >
-                        <summary class="article-expander__title">Glassnode ：链上数据显示比特币正过渡到新一轮周期</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34393">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>从历史上看，这些过渡时期的特点是一个扩展的宏观横盘市场，并伴随局部剧烈的双向波动</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/34373"
-                        open
-                      >
-                        <summary class="article-expander__title">从AI基础设施到应用场景，哪些Web3项目值得关注？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34373">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Web3社交的初级阶段引入AI更多地是为了一种叙事手段。本文盘点了加密领域中5个AI基础设施和5个AI应用场景类项目。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >最新 - Odaily星球日报</button>
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184947"
+                        open
+                      >
+                        <summary class="article-expander__title">多维度分析Aptos跨链格局：Wormhole和LayerZero，谁的发展潜力更大？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184947">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Aptos是备受市场瞩目的 Alt Layer 1 公链，新公链是跨链桥的重要增长点之一，跨链桥在这个过程中接入新公链的能力、受到项目方的支持程度、跨链资金规模等都可以反应跨链桥的发展潜力。在 Aptos 主网上线的这三个多月时间里，PANews 统计了截至 2 月 3 日 Aptos 上各个跨链桥的数据，发现以下结果：
+
+Aptos 上的跨链资金主要分布在 PancakeSwap、AUX Exchange、LiquidSwap 这三个DEX中，PancakeSwap 在 Aptos 上推出流动性挖矿后，AUX Exchange 失去优势地位。PancakeSwap 和 LiquidSwap 更加支持 LayerZero，AUX Exchange 上使用更多的是 Wormhole。
+
+主要使用的跨链桥及其跨链资产的占比分别为 Wormhole Portal 61.2% 、LayerZero 32% 、Celer cBridge 6.9% 。在其它链上广泛使用的Multichain虽然也已支持 Aptos，但还未见使用。
+
+Aptos 上的跨链资产价值约为 8817 万美元，主要的跨链资产及其价值分别为 Wormhole 的USDC 2632 万美元、LayerZero 的 USDC 1639 万美元、Wormhole 的 USDC（SOL） 1137 万美元。
+
+若按照资产类别进行分类，USDC 占据绝对的优势，Aptos 上的跨链 USDC 价值为 5749 万美元，占比 65.2% 。说明跨链桥严重依赖于 USDC，Circle的 CCTP 可能对跨链桥造成严重冲击。按照 Aptos 的发展潜力，Circle 也可能会在 Aptos 上推出原生 USDC。
+
+仅 PancakeSwap 上可进行挖矿的跨链资产就有 10 种，使得 Aptos 也遇到了其它没有官方跨链桥的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5184946"
+                        open
+                      >
+                        <summary class="article-expander__title">详解Lido V2提案：支持取消质押ETH，引入新模块化架构设计</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184946">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《 Introducing Lido V2—Next Step In Decentralization 》
+原文来源：Lido
+原文编译：DeFi 之道
+2 月 7 日，Lido 正式发布了 Lido V2 提案，这是该协议迄今为止最大规模升级，将允许质押者从 Lido 中取消质押他们的 ETH，同时质押路由器（Staking Router）带来的新模块化架构设计还将实现 Lido 验证者生态的进一步去中心化。
+Lido 协议的技术贡献者提出了 Lido V2 的提案——这是 Lido 协议迄今为止最大的升级以及在进一步去中心化道路上的一步改变。
+本次升级的两大重点是：
+Staking Router：得益于新的模块化架构设计，任何人都可以为新的节点运营商开发入口，从独立的质押者到 DAO 和分布式验证者技术 (DVT) 集群。他们将共同创建一个更加多样化的验证者生态系统。
+提款：这次全面的以太坊 Lido 协议升级将允许 stETH 持有者以 1: 1 的比例从 Lido 提取 ETH，实现真正进出以太坊质押生态系统的关键里程碑。
+Lido 的目的是为用户提供一种中心化质押平台（例如交易平台）的替代方案，同时消除运行单独节点的技术和财务挑战。自始至终，Lido 协议一直坚持为其用户提供最高标准的安全性和可用性。
+该提案旨在推动一个更具包容性、开放性和透明性的平台，同时以我们的核心使命为基础，使质押变得简单、尽可能安全，并保持以太坊去中心化和抗审查。
+下一次重大升级
+在接下来的几个月里，以太坊将完成上海/Cappella 硬分叉升级。此次升级使自信标链启动以来的所有以太坊质押者相关者能够进行提款。
+提款的实施实现了 Lido 的核心目标，允许用户自由地进行质押和解除质押。鉴于这种自由，这个市场将在 DeFi 生态系统中提供最佳体验、安全记录和更广泛可组合性的平台上大…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -8033,37 +8110,6 @@ Conic 的另一大特点在于其治理机制，该项目现已发行了代币 C
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5184375"
-                        open
-                      >
-                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0128-0203）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5184375">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
-因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
-下面，来和我们一起阅读吧：
-
-投资与创业
-Messari： 2023 美元流动性预测及未来市场展望
-了解美元流动性的机制和运动将有助于所有参与者驾驭市场波动。
-资产的全球价格是由现金（货币和信贷）的可用性和资产供应驱动的。在其他条件相同的情况下，更少的美元意味着更低的价格。美联储资产负债表流量已成为美元流动性的最重要组成部分。QE 和 QT 通过“投资组合再平衡效应”影响风险资产（即加密货币）。在量化宽松期间，这意味着资金流向风险资产。此外，美国财政部普通账户 - TGA 的提取对资产有利，这意味着更多的美元流向经济，发行更少的债务（以美国储蓄债券、美国国库券和美国国库券的形式）。纽约联储的逆回购工具 (RRP) 通过吸收这些储蓄来建立短期利率的“软下限”。
-目前，投资者应继续关注债务上限谈判，同时关注每日财政部声明。鉴于资本市场的波动性，以及资本收益与税收收入之间日益增长的相关性，应密切监测趋势和势头转变。其他需要考虑的因素包括经济衰退、利差和美元强弱、其他央行。
-总结：高债务、低增长体制（就像我们今天所处的体制）具有更高的波动性。美联储正在玩一场越来越不稳定的游戏。留意更具影响的隐形量化宽松政策（国债回购、调整 SLR 或 RRP 等）对 BTC 的影响。
-宏观流动性建模下的比特币价格
-根据 CVDD，抛售价格底价区间可能在 13500-16000 美元。
-比特币在大量投降式抛售后进入历史性价值区间，比特币价格现在是被低估的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8153,8 +8199,8 @@ Messari： 2023 美元流动性预测及未来市场展望
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4123455469">
-        <time id="build-timestamp" datetime="2023-02-08T11:06:56.468Z">2023-02-08T11:06:56.468Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4123979989">
+        <time id="build-timestamp" datetime="2023-02-08T12:14:48.634Z">2023-02-08T12:14:48.634Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
