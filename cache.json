@@ -2554,26 +2554,6 @@
           "wordCount": 3569,
           "title": "数据：以太坊上Aave V3的市场规模突破1亿美元",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/tlzfk010.html",
-          "author": "PA一线",
-          "description": "PANews 2月5日消息，据Nostr.Band数据显示，去中心化社交协议Nostr账户数已突破72万，其中在主页设置个人简介的账户数接近37万，增长高峰第一次是在12月21日，即推特创始人Jack Dorsey宣布向Nostr捐赠约14枚BTC之后；第二次是在2月1日，Nostr协议的第三方客户端Damus发布后。目前，在Damus上线经历短暂的活跃后，Nostr日活用户数正在迅速下降。\n相关阅读：风口上的DeSoc: 深入解读四大去中心化社交协议",
-          "link": "https://panewslab.com/zh/articledetails/tlzfk010.html",
-          "publishedOn": "2023-02-05T06:44:12.000Z",
-          "wordCount": 3568,
-          "title": "去中心化社交协议Nostr账户数已突破72万",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/3mi0g013.html",
-          "author": "PA一线",
-          "description": "PANews 2月5日消息，韩国加密风投公司Hashed联创Alex Shin在推特上表示：Aptos在韩国是一个Meme币。韩国第一大资产类别是房地产，更确切地说，是公寓。 散户称Aptos为公寓（apartment），声称如果人们持有APT，有一天就可以买得起一套真正的公寓。Alex还称，这不是玩笑，是真事。此外，他称自己并没有持有APT。\n近一个月，APT涨幅近5倍，韩国最大交易平台Upbit的APT现货交易量一度超过Binance。",
-          "link": "https://panewslab.com/zh/articledetails/3mi0g013.html",
-          "publishedOn": "2023-02-05T06:23:14.000Z",
-          "wordCount": 3556,
-          "title": "Hashed联创：APT在韩国是Meme币，散户称其为“公寓”",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3280,16 +3260,6 @@
           "publishedOn": "2023-02-06T02:39:00.000Z",
           "wordCount": null,
           "title": "可以加杠杆做空NFT了？从nftperp来盘点NFT永续合约赛道",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/34314",
-          "author": null,
-          "description": "重温本周热点：2023 年第 6 周融资精选，Launchpad 项目涨幅引人注目；即将空投？从数据看看 Lens 生态发展的怎么样；Arbitrum 项目 Vela Exchange 确认空投，相比 GMX 的优势是什么？",
-          "link": "https://www.theblockbeats.info/news/34314",
-          "publishedOn": "2023-02-05T06:56:02.000Z",
-          "wordCount": null,
-          "title": "周末荐读：试试Nostr首个客户端Damus；概览Arbitrum上7个值得关注项目",
           "imageUrl": null
         }
       ]
@@ -4047,16 +4017,6 @@
           "publishedOn": "2023-02-05T08:30:00.000Z",
           "wordCount": 1868,
           "title": "Coinbase NFT市场日均交易仅3万美元，深入分析其遇冷背后的原因？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184859",
-          "author": "SophonLabs",
-          "description": "Sui 遵循加密货币行业广泛接受的钱包规范，如 BIP-32 （及其变体，SLIP-0010 ），BIP-44 和 BIP-39 。这些规范已经成为加密货币行业的普遍现象，作为用户管理账户密钥的一种手段。\n目前，Sui 接受使用 Ed 25519 或 ECDSA Secp 256 k 1 的签名交易。在 Sui 钱包和 SDK 中，Sui 提供了一个灵活的接口来签署各种签署方案的交易。\n密钥衍生方案\nSui 遵循 BIP-32 来管理支持 ECDSA Secp 256 k 1 签名方案的钱包。\nBIP-32 定义了分层的确定性钱包结构，以逻辑地关联一组钥匙。以这种方式对钥匙进行分组，减少了跟踪一个用户的大量私钥的开销。这种方法也让保管人在一个控制源下为每个用户账户分发不同的管理地址。\n使用 BIP-32 将私钥的推导与公钥的推导解耦，实现了只看钱包的用例，即可以推导出一串公钥及其地址，而私钥可以保持离线签署。\nSui 遵循 SLIP-0010 来管理支持 Ed 25519 （EdDSA）签名方案的钱包。\nSui 使用 SLIP-0010 是因为 BIP-32 最初是为具有初阶组的 ECDSA 设计的，而 Ed 25519 曲线是基于 h×ℓ的组阶，其中 h 是一个小的协处理器，ℓ是一个 252 位的素数。这是一个高级的技术细节，但 Ed 25519 签名标准对私钥的低位和高位都应用了比特钳制，这使得一些 BIP-32 模式与 Ed 25519 不兼容。因此，SLIP-0010 规定禁止从现有用户的公钥中衍生出新的公钥。SLIP-0010 只支持所谓的 \"加固的 \"私人父钥匙到私人子钥匙的衍生。\n密钥派生路径\n虽然 BIP-32 在层次结构中指定了钱包的级别，但 BIP-44 进一步定义了衍生路径的五个级别及其确切含义：M / purpose' / coin_type' / account' / change / address_index。在这个结构中，斜线表示层次结构中的新层次，或称子层。\n目的层通常被设置为 44 ，与 BIP 号码相对应。然而，在 Sui 中，目的层区分了不同的签名方案。44 被设置为 Ed 25519 ， 54 被设置为 ECDSA Secp 256 k 1 。虽然将目的级别设置为非 44 的值是不标准的，但使用目的字段来区分不同的签名方案是很常见的。例如，BIP-49 和 BIP-84 被用来识别比特币的脚本类型。Sui 选择 54 来表示 ECDSA Secp 256 k 1 ，因为 54 下没有现有的 BIP，避免与任何比特币标准混淆。\ncoin_type 值是用所有其他加密货币的存储库来管理的。两个签名方案都使用 Sui 注册的 coin_type， 784 。\n\n账户级别通常用于在逻辑上分离用户账户和创建特定的账户类别。一些常见的使用情况包括：\n\n保管人管理多个用户账户。\n\n用户为特定目的指定账户，如捐款、储蓄和支出。\n\n为了支持多账户，Sui 建议从零开始递增账户级别。人们普遍认为，基于账户的货币只定义前三个层次，而基于 UTXO 的货币则增加了变化和地址层次的定义。因为 Sui 的面向对象的数据模型既不是 UTXO 也不是基于账户的（事实上它结合了两者），它采用了所有五个级别以获得最大的兼容性。\n总结如下：\n\n助记词支持\n一旦 Sui 定义了从种子推导出主密钥的确定性方法，BIP-39 就被引入，以使种子更容易被人阅读和记忆，使用记忆法。Sui 接受来自 BIP-39 词表的 12、 15、 18、 21 和 24 个词，这些词被适当地校验过，对应于 128、 160、 192、 224 和 256 bits 的熵。\nSui 的密钥管理\nSui 通过其 Typescript SDK 和命令行界面（CLI）支持密钥对生成和相关的助记符。该 SDK 提供额外的功能，包括交易签名和 RPC 集成。\n具体步骤如下：\n\n从助记符推导出一个密钥对\n\n获取其地址\n\n\n用它来签署一个序列化的类型化交易（或任何数据）\n\n针对 RPC 提供者执行\n\n\n命令行界面\n\n先进的钱包架构\n钱包必须是安全的，但又便于其所有者访问。Sui 依靠行业标准来指导对用户钱包的设计，同时在探索不同的签名方案时保持敏捷和灵活。除了 Sui 目前支持的钱包规格外，还在不断创新钱包设计，使与 Sui 的互动更安全，更容易使用。Sui 将很快分享关于钱包预批准交易的设计。Sui 钱包不需要一次一次地签署交易，而是让链上游戏变得实用，充分释放 Sui 网络上快速执行的潜力。",
-          "link": "https://www.odaily.news/post/5184859",
-          "publishedOn": "2023-02-05T06:30:00.000Z",
-          "wordCount": 1650,
-          "title": "详解Sui密码学中的钱包规范",
           "imageUrl": null
         }
       ]
