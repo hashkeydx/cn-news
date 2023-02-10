@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-10T18:09:50.720Z</updated>
+    <updated>2023-02-10T19:06:23.818Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -6439,61 +6439,6 @@ Nostr 协议中继端网络的搭建是否引入激励层会是个两难的问�
 中继端用于缺乏激励，没有足够的动力来为用户数据进行存储，因而也存在着中继端主动或者被动删除数据的可能。未来 Nostr 或可以针对存储功…]]></summary>
         <author>
             <name>Binary DAO</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安全公司：BSC-WBNB-WOOF交易对通过代币后门跑路，涉及金额约11.5万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/fkycz4ke.html</id>
-        <link href="https://panewslab.com/zh/articledetails/fkycz4ke.html"/>
-        <updated>2023-02-06T07:01:45.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月6日消息，据区块链安全审计公司Beosin旗下Beosin EagleEye安全风险监控、预警与阻断平台监测显示，BSC-WBNB-WOOF交易对被攻击，交易哈希：0xea5cf9199d23a9108d84e9204cb13795a480b34a6e4ef448245a1452f69fe781。
-据Beosin安全技术人员分析，该攻击是由于WOOF代币合约的后门代码导致的，WOOF的address(jZKbvD)权限地址可以使用transferFrom函数0授权转移任何地址的WOOF代币。攻击者通过transferFrom函数转移走了BSC-WBNB-WOOF交易对内的WOOF代币，并更新池子的储备量，接着使用大量的WOOF代币兑换交易对内的所有WBNB。
-目前涉及资金约11.5万美元，大部分通过攻击者地址（0x9b07f0488390a2d9c7af9ae40e0e64f31489006d）分散到其他地址。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：BitMEX创始人持有超20万枚GMX，目前总利润接近900万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/gq1ir0zr.html</id>
-        <link href="https://panewslab.com/zh/articledetails/gq1ir0zr.html"/>
-        <updated>2023-02-06T06:58:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月6日消息，据Lookonchain监测，BitMEX创始人Arthur Hayes目前是GMX最大的个人持有者地址，共计持有约200580.22枚GMX（约1347.76万美元），这些GMX是其在2022年3月3日到2022年9月7日期间以3386枚ETH （当时为572万美元）的成本购入，平均购买价格为28.5美元。
-此外Arthur Hayes获得了344.5枚ETH（55.8万美元）和12405枚esGMX（81.8 万美元）的奖励，以最近价格计算，Arthur Hayes在GMX上的利润接近900万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uniswap V3提案风波：治理背后的VC博弈，a16z对垒Jump Crypto]]></title>
-        <id>https://www.theblockbeats.info/news/34322</id>
-        <link href="https://www.theblockbeats.info/news/34322"/>
-        <updated>2023-02-06T06:54:56.000Z</updated>
-        <summary type="html"><![CDATA[这场斗争涉及两大跨链工具 WormHole 和 LayerZero 以及背后数家顶尖加密风投。]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：Aptos将于2月12日解锁约454万枚APT，约占总供应量的0.45%]]></title>
-        <id>https://panewslab.com/zh/articledetails/mk5dudv5.html</id>
-        <link href="https://panewslab.com/zh/articledetails/mk5dudv5.html"/>
-        <updated>2023-02-06T06:33:35.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月6日消息，Token Unlocks数据显示，公链项目Aptos将于北京时间2月12日8:00解锁4,543,478.03枚APT，占总供应量（10亿枚）的0.454%。其中，社区解锁3,210,145枚，基金会解锁1,333,333枚。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenAI CTO：ChatGPT和其他人工智能工具均应受到监管]]></title>
-        <id>https://panewslab.com/zh/articledetails/7ku8e0kz.html</id>
-        <link href="https://panewslab.com/zh/articledetails/7ku8e0kz.html"/>
-        <updated>2023-02-06T06:17:08.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月6日消息，据TIME报道，人工智能研究公司OpenAI首席技术官Mira Murati表示，ChatGPT可能会“编造事实”，这与其他基于语言模型的人工智能工具没有什么区别一样。
-当被问及像OpenAI这样的公司等机构是否有责任监管这一工具时，Murati说：“对OpenAI等公司来说，最重要的是以一种可控和负责任的方式将其引入公共意识。”但她强调，公司还需要来自监管机构、政府甚至所有人的帮助。她补充说，现在对ChatGPT进行监管“并不算为时过早”。
-据悉，ChatGPT是OpenAI于2022年11月30日推出的一种新型AI聊天机器人工具，可根据用户的要求快速生成文章、故事、歌词、散文、笑话和代码，并回答各类疑问。]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
 </feed>
