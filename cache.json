@@ -2714,26 +2714,6 @@
           "wordCount": 3570,
           "title": "Gemini将为Genesis重组交易和恢复计划捐献1亿美元现金",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/4zp4z4zc.html",
-          "author": "PA一线",
-          "description": "PANews 2月7日消息，据官方推特，Coinbase将上线Axelar（AXL）。如果满足流动性条件，交易将于太平洋冬令时2月7日9:00（北京时间2月8日1:00）或之后开始。如果建立了足够的该资产供应，AXL-USD交易对的交易将分阶段开放。Coinbase仅在Axelar网络上支持AXL代币，不要通过其他网络发送此资产，否则资金可能会丢失。\n此外，Coinbase将Voxies（VOXEL）列入上币路线图，并于今日凌晨4点左右宣布已上线Rocket Pool（RPL），Coinbase客户可以登录购买、出售、转换、发送、接收或存储RPL代币。",
-          "link": "https://panewslab.com/zh/articledetails/4zp4z4zc.html",
-          "publishedOn": "2023-02-06T23:59:21.000Z",
-          "wordCount": 3551,
-          "title": "Coinbase将上线Axelar（AXL），并将Voxies（VOXEL）列入上币路线图",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/opl2sk41.html",
-          "author": "PA一线",
-          "description": "PANews 2月7日消息，据CoinDesk报道，根据SBF律师Mark Cohen签署的一封信中显示，SBF的法律团队和检察官达成协议，修改了有关SBF使用电子通讯的保释条件，允许他使用包括FaceTime、Zoom、iMessage、短信、电子邮件、Facebook Messenger和WhatsApp在内的多种通讯应用程序。对于WhatsApp，SBF的手机必须安装监控软件来记录这些信息。但SBF仍将无法使用Signal等“临时通话或短信应用程序”。此前SBF被禁止使用任何通讯应用程序。",
-          "link": "https://panewslab.com/zh/articledetails/opl2sk41.html",
-          "publishedOn": "2023-02-06T23:48:55.000Z",
-          "wordCount": 3554,
-          "title": "SBF已被允许使用WhatsApp等多种通讯应用程序",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3530,6 +3510,16 @@
       "siteUrl": "https://www.odaily.news",
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5185011",
+          "author": "Ebunker",
+          "description": "原文作者：Todd，Ebunker 合伙人\n\n今天借着Kraken暂停 Staking 这个新闻，想做一个 Staking 的科普&分析：\n-本质上，Staking 最重要的就是看 2 把私钥的归属权\n-由于 2 把私钥的归属权不同，又诞生了 4 类 Staking 方案\n我相信有这篇超长 thread，你对于Lido，Rocket，Coinbase，Kraken，SSV 以及 Ebunker 能有一个更深的理解。\n如果把以太坊看作是一家公司的话，负责 Staking 的验证者（Validator）就是员工。它的工作就是验证交易的合法性，然后打包区块上链（虽然构建区块这活儿，如今也已经慢慢外包给MEV服务商了）。\n首先，作为验证者，你需要证明你的员工身份，毕竟不是谁都可以来随便验证。交了 32 ETH 押金后，你需要持证上岗（即：【验证 key】）。\n理论上，做 Staking 的第一步，就是创建一个验证 key。随后，你拿着你的验证 key，也就是你的工作证，才能给每一个交易盖戳。\n第二，以太坊贴心地设计出了第二把私钥，用于接收刚刚提到的押金（32 ETH）。\n当你去做验证者时，你会要填一个“提现地址”。它是未来你提取本金和工资的地址，而那个地址的私钥理论上应当在你的手里（即：【提现 key】）。\n我打个比方，这是你的工资卡。\n这样 2 把私钥：①验证 key（工作证）、②提现 key（工资卡）的用途，我想大家都明白了。\n接下来，根据 2 把私钥的不同归属，才诞生了四种 Staking 解决方案：\n\n-CEX 类\n\n-大池子类（Pooled Staking）\n\n-SaaS 类（Staking as a Service）\n\n-Solo 类\n\n\n方案一、CEX 类/全托管\n如果你使用交易所 Staking 方案，例如 Binance，Coinbase 或者今天刚宣布停止 St…",
+          "link": "https://www.odaily.news/post/5185011",
+          "publishedOn": "2023-02-11T10:30:00.000Z",
+          "wordCount": 2125,
+          "title": "从Staking聊起，4种掌控以太坊网络的方式",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.odaily.news/post/5184594",
           "author": "JZL Capital",
           "description": "一、政策概览\n香港作为亚洲最大的金融交易市场，是内地众多金融机构寻求对外发展的重要桥梁，相对于内地金融牌照申请难度大，香港证券期货市场采取准入制，只要符合香港证监会的要求就可以申请，香港证监会管理的 10 类牌照中，每一类牌照对应一块业务。要从事相应的业务，就必须获得对应的牌照，获得牌照后才能成为香港证监会规定的持牌人士。\n1-10 号牌照：\n\n二、牌照分类\n做为资产公司我们本次研究主要关注在 1 ， 4 号牌和 9 号牌的申请\n所谓的 149 牌照，其实就是 1 类、 4 类和 9 类牌照的组合。\n（1 ） 1 类牌照 Dealing in Securities\n1 类牌照，即证券交易牌照，只有获得了 1 类牌照，你才能在香港为客户提供证券交易（比如股票，股票期权和债券的买卖）、并提供经纪服务。相当于内地证券公司为客户提供股票买卖类的业务。如果金融机构要在香港进行证券交易活动，需要持有一类牌照，所以第一类牌照是十大类牌照中最常见的，持有牌照的个人和机构的数量也是所有牌照中最多的。\n（2 ） 4 类牌照 Advising on Securities\n4 类牌照 - 给客户提供证券建议的牌照（向专业投资者提供咨询收费服务），只有获得了 4 类牌照，你才能在香港为客户提供证券投资建议，发布相关的研究报告。很多企业会选择同时办理 1 号牌照和 4 号牌照。\n香港 4 号牌照的主营服务就证券提供意见，但是不要以为提供意见就没有风险，因为在香港的金融圈，如果误导相关的专业投资者，香港证监会会给予罚款的处罚，同时香港 4 号牌照随时都会被撤销。\n（3 ） 9 类牌照  Asset Management\n9 类牌照，即提供资产管理牌照，只有获得了 9 类牌照，你才能在香港发行基金，管理客户资金等。相当于内地的私募基金牌照。持有该牌照, 意味着在国际资本市场上获得了“通行证”, 不仅可以直…",
@@ -4217,16 +4207,6 @@
           "publishedOn": "2023-02-07T02:26:06.000Z",
           "wordCount": 1975,
           "title": "以太坊的不可能四角：MEV规模化增长的新十年",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184890",
-          "author": "十文",
-          "description": "头条\nAptos将于 2 月 12 日解锁约 454 万枚 APT，约占总供应量 0.45% \nOdaily星球日报讯 Token Unlocks 数据显示，公链项目 Aptos 将于北京时间 2 月 12 日 8: 00 解锁 4, 543, 478.03 枚 APT，占总供应量（10 亿枚）的 0.454% 。其中，社区解锁 3, 210, 145 枚，基金会解锁 1, 333, 333 枚。\nCompound Labs 创始人投票支持在BNB Chain 上部署Uniswap V3\nOdaily星球日报讯 拥有 576 万枚 UNI 代币的 Compound Labs 创始人 Robert Leshner 投票支持在BNB Chain上部署 Uniswap V3，目前该提案赞成票占比达 58.45% 。但总投票数仍未达提案成立所需阈值 4000 万 UNI。此次投票将于 2 月 10 日结束。\n此前报道，此前报道， 16 z 使用所有的 1500 万枚 UNI 代币反对 OxPlasma Labs 提出的“在 BNB Chain 上部署 Uniswap V3”的提案。\nDamus：将在下个版本推出针对帖子进行比特币打赏的功能\nOdaily星球日报讯 根据基于Nostr协议的开放社交应用 Damus 表示，将在下个版本推出针对帖子进行比特币打赏的功能。\n行业要闻\n“木头姐”旗下 ARK 发布年度报告，重申比特币价格将达 100 万美元\nOdaily星球日报讯 “木头姐”旗下方舟资本（ARKInvest）发布年度投研报告《Big Ideas 2023 》，对全球最新创新技术融合趋势进行了概述，覆盖 AI、数字钱包、电动汽车、航空航天等 13 大创新领域，预测比特币的价格将有望在十年内达到 100 万美元。\nARK 在研报中写道，“我们相信，比特币的长期机会正在增强。尽管经…",
-          "link": "https://www.odaily.news/post/5184890",
-          "publishedOn": "2023-02-07T00:00:00.000Z",
-          "wordCount": 2226,
-          "title": "星球日报 | Aptos将于2月12日解锁约454万枚APT；Damus将推出比特币打赏功能(2月7日)",
           "imageUrl": null
         }
       ]
