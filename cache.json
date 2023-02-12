@@ -1824,26 +1824,6 @@
           "wordCount": 3617,
           "title": "FTX律师事务所Sullivan & Cromwell前19天的破产工作收费高达750万美元",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/f4t17spo.html",
-          "author": "PA一线",
-          "description": "PANews 2月8日消息，据Blockworks报道，迪拜加密货币监管局（VARA）发布的《2023 年虚拟资产及相关活动条例》中将增强匿名性的加密货币描述为阻止跟踪所有权或交易的资产，该条例新规定意味着不允许使用Zcash (ZEC) 和 Monero (XMR) 等隐私代币，当地实体公司也不能创建此类代币。日本在 2019 年同样禁止了隐私币，欧盟可能会禁止Zcash、Monero和Dash等隐私代币。此外，火币曾因监管压力下架门罗币等7种隐私币。\n该VARA条例还规定，除非获得 VARA 许可，否则实体不能将自己描述为虚拟资产业务。投资价值 2.5 亿美元或更多加密货币的大型自营交易商必须在 VARA 注册，违反与市场行为相关的规则可能导致个人罚款高达 540 万美元，对虚拟资产服务提供商的罚款高达 1360 万美元。\n昨日报道，迪拜虚拟资产监管局 (VARA)发布《2023年虚拟资产及相关活动条例》。",
-          "link": "https://panewslab.com/zh/articledetails/f4t17spo.html",
-          "publishedOn": "2023-02-08T09:55:00.000Z",
-          "wordCount": 3614,
-          "title": "迪拜虚拟资产监管局最新条例或将禁止使用ZEC、XMR等隐私代币",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/tyv7003n.html",
-          "author": "PA一线",
-          "description": "PANews 2月8日消息，据CoinDesk报道，纽约一家法院在周二晚间公布的文件显示，三箭资本联合创始人Kyle Davies拒绝就其前加密对冲基金三箭资本 (3AC) 的账簿和记录执行法庭传票。Davies 被指控阻挠对该公司的调查。代表 Russell Crumpler 和 Christopher Farmer 提交的一份文件称，Davies 和联合创始人 Su Zhu“拒绝进行有意义的接触”，并补充说，Davies 和Su Zhu“只是有选择地零碎地披露”，“拒绝合作违反了他们对三支箭的职责”。\n去年底，美国法院批准向三箭资本创始人Su Zhu和KyleDavies发出传票。上月，三箭资本清算人通过推特向两名创始人发送传票。但近期有消息称，三箭资本联创曾提议债权人将其债权转换为新公司股权。由原三箭资本创始人Su Zhu与Kyle Davies联合两位CoinFLEX联创推出的加密交易所“GTX”已完成融资。",
-          "link": "https://panewslab.com/zh/articledetails/tyv7003n.html",
-          "publishedOn": "2023-02-08T09:15:11.000Z",
-          "wordCount": 3608,
-          "title": "法庭文件显示，三箭资本创始人拒绝遵守传票并阻挠调查",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2311,16 +2291,6 @@
           "wordCount": null,
           "title": "Arthur Hayes：市场预测出现错误，是时候入场了",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/34452",
-          "author": null,
-          "description": "原文标题：《\n\n(web3 降智系列) 一文读懂 StarkNet 的开源堆栈\n\n》\n原文作者：CryptoNerdCn\n\n\nWeb3 降智系列是我在 2023 年新开始的一个 以日常交流中 Web3er 对一些知识和概念的误解为引子，以即使你在忙了一天后大脑停机的降智状态也能读懂为目的，通过讲述设计思想而不是外在表现，尽量不涉及具体公式和代码的 面向非技术人员的科普系列。  \n\n\n继上次我们提到 StarkNet 发布了开源的 Sequencer（定序器）后，StarkWare 又搞了一个大新闻：StarkNet 的 Prover（证明器）即将开源！\n\n\n不知不觉的，从去年 11 月Cairo 语言开源之后，三个月的时间内，StarkNet 的所有组件全部重写+开源。在这里，我们回顾一下 StarkNet 的开源堆栈吧。\n\n\n\n整体架构\n\n\n\n\n\n\n\n\n\n首先，我们先复习一下上次的文章里提到的 StarkNet 架构。\n\n\n\n\n\n\n\n\n\n\n\n\n\nSequencer 负责管理和协调交易的执行顺序。Sequencer 可以认为是一个交易队列，它确保在同一个区块内的所有交易按照指定的顺序执行，并且确保没有交易被重复执行。Sequencer 还负责验证交易的合法性，并将其写入区块链。\n\n\nProver 则负责生成关于 Sequence 执行轨迹有效性的加密证明。目前，这项工作是由单一的 Prover，即「Share Prover」或「SHARP」执行的。\n\n\nVerifier 位于 L1，用于验证 Starknet Prover 产生证明的智能合约，如果运行成功，其将更新以太坊 L1 上的状态用于记录保存。\n\n\n\n在上一篇文章里我们提到了上述三个部件，这一次除了 Sequencer 和 Prover，我们还将对 FullNode 进行说明（Verifier 和 StarkNet …",
-          "link": "https://www.theblockbeats.info/news/34452",
-          "publishedOn": "2023-02-08T09:35:07.000Z",
-          "wordCount": null,
-          "title": "一文读懂StarkNet的开源堆栈",
-          "imageUrl": null
         }
       ]
     },
@@ -2787,16 +2757,6 @@
           "publishedOn": "2023-02-08T10:30:00.000Z",
           "wordCount": 1998,
           "title": "多维度分析Aptos跨链格局：Wormhole和LayerZero，谁的发展潜力更大？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5184946",
-          "author": "DeFi之道",
-          "description": "原文标题：《 Introducing Lido V2—Next Step In Decentralization 》\n原文来源：Lido\n原文编译：DeFi 之道\n2 月 7 日，Lido 正式发布了 Lido V2 提案，这是该协议迄今为止最大规模升级，将允许质押者从 Lido 中取消质押他们的 ETH，同时质押路由器（Staking Router）带来的新模块化架构设计还将实现 Lido 验证者生态的进一步去中心化。\nLido 协议的技术贡献者提出了 Lido V2 的提案——这是 Lido 协议迄今为止最大的升级以及在进一步去中心化道路上的一步改变。\n本次升级的两大重点是：\nStaking Router：得益于新的模块化架构设计，任何人都可以为新的节点运营商开发入口，从独立的质押者到 DAO 和分布式验证者技术 (DVT) 集群。他们将共同创建一个更加多样化的验证者生态系统。\n提款：这次全面的以太坊 Lido 协议升级将允许 stETH 持有者以 1: 1 的比例从 Lido 提取 ETH，实现真正进出以太坊质押生态系统的关键里程碑。\nLido 的目的是为用户提供一种中心化质押平台（例如交易平台）的替代方案，同时消除运行单独节点的技术和财务挑战。自始至终，Lido 协议一直坚持为其用户提供最高标准的安全性和可用性。\n该提案旨在推动一个更具包容性、开放性和透明性的平台，同时以我们的核心使命为基础，使质押变得简单、尽可能安全，并保持以太坊去中心化和抗审查。\n下一次重大升级\n在接下来的几个月里，以太坊将完成上海/Cappella 硬分叉升级。此次升级使自信标链启动以来的所有以太坊质押者相关者能够进行提款。\n提款的实施实现了 Lido 的核心目标，允许用户自由地进行质押和解除质押。鉴于这种自由，这个市场将在 DeFi 生态系统中提供最佳体验、安全记录和更广泛可组合性的平台上大…",
-          "link": "https://www.odaily.news/post/5184946",
-          "publishedOn": "2023-02-08T09:30:00.000Z",
-          "wordCount": 2032,
-          "title": "详解Lido V2提案：支持取消质押ETH，引入新模块化架构设计",
           "imageUrl": null
         }
       ]
