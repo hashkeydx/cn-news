@@ -2,10 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-14T12:15:04.552Z</updated>
+    <updated>2023-02-14T13:19:43.607Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[以太坊扩容完整指南：主流扩容方案原理和进展]]></title>
+        <id>https://www.odaily.news/post/5185083</id>
+        <link href="https://www.odaily.news/post/5185083"/>
+        <updated>2023-02-14T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Thor Hartvigsen
+原文编译：aididiaojp.eth，Foresight News
+本文旨在以易于理解的方式来介绍复杂的以太坊扩容主题，其中包括：
+
+重要术语
+
+Arbitrum
+
+Optimism
+
+Polygon
+
+zkSync
+
+重要术语
+让我们首先定义模块化。区块链可以分为 4 个部分（执行层、结算层、共识层和数据可用性层），当前的区块链（以太坊、Solana 等）是单个整体的，一个网络处理所有工作。而模块化区块链是将这些层中的一个或多个外包给外部区块链。
+
+以太坊 Rollups 是一个单独的区块链，它扩展并继承了以太坊的安全性。Arbitrum 和 Optimism 等 Rollups 是执行层，以太坊主网作为其数据可用性层、共识层和结算层。
+
+Rollups 有两种类型：
+
+Optimistic Rollups：使用欺诈证明，例如 Arbitrum 和 Optimism
+
+zk Rollups：使用有效性证明，例如 zkSync、Starknet 和 zk-EVM
+
+欺诈证明：信息在「证明者」和「验证者」之间交换。假设所有交易都是有效的，并被添加到交易批次中，这些交易随后交由「观察者」进行审查，以确保没有恶意行为发生。
+有效性证明：有效性证明是在 Rollups 而不是以太坊上计算的（与欺诈证明相反）。「证明者」和「验证者」之间的信息交换依赖于密码学和数学。信息是共享的，但不会被泄露。
+Rollups 的一个关键方面是定序器：定序器是指定的节点，负责将用户的交易提交到 L2。它进一步将 Rollup 交易包发布到以太坊主网以更新状态。
+Arbitrum
+截至目前，Arbitrum 使用的是：
+
+一个单一的中心化定序器，它接收用户的交易并将交易批次发送回主网。
+
+一组「白名单」Arbitrum 验证者读取定序器的交易包，并以欺诈证明的…]]></summary>
+        <author>
+            <name>Foresight News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[梳理BUSD事件关键时间节点与事件]]></title>
+        <id>https://www.theblockbeats.info/news/34645</id>
+        <link href="https://www.theblockbeats.info/news/34645"/>
+        <updated>2023-02-14T12:00:02.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《
+
+全过程综述：美国监管突然绞杀 BUSD 或走入历史 原因是什么？
+
+》
+原文作者：
+
+吴说区块链
+
+
+
+北京时间 2 月 13 日清晨，华尔街日报报道，称美国证券交易委员会 SEC 已告知稳定币公司 Paxos，它计划起诉该公司违反投资者保护法。该通知称，Paxos 发行和上架的数字资产 Binance USD 是一种未注册的证券。收到 Wells 通知的公司可以书面回应并告诉 SEC 为什么不应该继续提起诉讼。Wells 通知并不是 SEC 将采取执法行动的最终迹象。该机构的五名委员必须投票授权任何执法和解或诉讼。SEC 之前没有对主要的稳定币发行人采取过执法行动。
+
+
+https://www.wsj.com/articles/crypto-firm-paxos-faces-sec-lawsuit-over-binance-usd-token-8031e7a7?mod=business_minor_pos4
+
+
+北京时间 2 月 13 日下午，彭博社发布新闻，刊登Binance声明：纽约州金融服务部 (NYDFS) 已指示 Paxos 停止铸造新的 BUSD，BUSD 是由 Paxos 全资拥有和管理的稳定币，BUSD 市值只会随着时间的推移而下降。Paxos 将继续为产品提供服务，管理赎回。Paxos 还保证资金是安全的，并且完全由其银行的储备金覆盖。
+
+
+https://www.bloomberg.com/news/articles/2023-02-13/binance-says-stablecoin-partner-been-told-to-stop-minting-busd?srnd=cryptocurrencies-v2
+
+
+Paxos 表示，自 2 月 21 日起，Paxos 将根据 NYDFS 的指示并与其密切合作，停止发行新的 BUSD 
+…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[回望BUSD的四年起落：150亿美元的稳定币帝国宣告结束统治]]></title>
+        <id>https://www.odaily.news/post/5185081</id>
+        <link href="https://www.odaily.news/post/5185081"/>
+        <updated>2023-02-14T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Jack、FYJ，BlockBeats
+本月 14 日，纽约州金融服务部命令加密金融机构 Paxos Trust Co. 停止发行更多的 BUSD Token，曾经市值前三的稳定币巨头就此宣告结束自己的统治。这个背靠全球最大交易所的「Libra 继承人」，在短短 4 年里从零到亿再到百亿，又随一纸传闻匆匆推出稳定币的竞争舞台，我们不妨一起回顾一下这个「币圈强盛」的起起落落。
+启明星
+2019 年 8 月 19 日的下午，Binance 发布一篇重要公告，宣布启动「启明星计划」（Project Venus）。该计划旨在打造出一个「独立自主的区域版 Libra」，这里的 Libra，即 Facebook 曾经的大型稳定币支付计划。
+金星（Venus）是天秤座（Libra）的守护星，简白明了的计划名称映射出 Binance 昭然若揭的野心。Binance 在公告中指出，尽管 Libra 最终失败，但其概念正在全球迅速蔓延，各国政府都应尽早确立区块链和数字稳定币的战略地位，建立沙盒机制、引入民营企业发行数字稳定币。
+公告没有提及该稳定币计划的运作细节，只是反复倡议各领域的伙伴加入自己的阵营中来。为了吸引更多合作伙伴，Binance 也宣布不会使用 BSC 链作为该稳定币的生态基础。不难看出，启明星计划并非是 Libra 这样的技术创新，Binance 早已从中汲取了教训，将重心放在了监管与合规上。
+启明星计划宣布同年，Binance 找到了自己理想的合规外壳——Paxos。Paxos 是一家总部位于纽约的金融机构和技术公司，此前就已经发行了 USDP、GUSD 等稳定币资产，均获得纽约州金融服务部（NYDFS）的监管绿灯，就合规方面而言表现十分亮眼。
+在与 Binance 的合作中，Paxos 扮演 BUSD 在以太坊上的发行实体，BUSD 则是以太坊上发行的 ERC-2…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[外媒：NFT市场Blur将以10亿美元的估值进行融资]]></title>
         <id>https://panewslab.com/zh/articledetails/vxk1x73e.html</id>
@@ -26,6 +120,25 @@
 今日早些时候报道，Blur将于2月15日凌晨1点开箱“Care Packages”。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数字资产公司Taurus完成6500万美元B轮融资，瑞士信贷领投、德意志银行参投]]></title>
+        <id>https://www.odaily.news/post/5185084</id>
+        <link href="https://www.odaily.news/post/5185084"/>
+        <updated>2023-02-14T10:45:44.000Z</updated>
+        <summary type="html"><![CDATA[本文来自BNNBloomberg & The Block，原文作者：Anna Irrera & Yogita Khatri
+Odaily星球日报译者 | 念银思唐
+
+面向数字资产市场开发基础设施的瑞士公司 Taurus SA 宣布完成 6500 万美元的 B 轮股权融资，此轮融资由瑞士信贷集团（Credit Suisse Group AG）领投。尽管加密货币寒冬持续了很长时间，但大型金融机构仍在推进相关项目。
+根据该公司的一份声明，德意志银行（Deutsche Bank AG）、Pictet Group、Cedar Mundi Ventures 以及现有投资方 Arab Bank Switzerland Ltd 和 Investis Holding SA 也参与了此次融资。一位知情人士透露，这笔融资交易对 Taurus 的估值为数亿美元。由于交易细节尚未公开，这位人士要求匿名。
+该公司的四位联合创始人——Lamine Brahimi、Sebastien Dessimoz、Oren-Olivier Puder 以及 Jean-Philippe Aumasson——在新融资完成后仍是最大股东。
+近三年前，该公司在 2020 年 4 月完成了 1100 万美元的 A 轮融资。Dessimoz 称，新一轮融资谈判于去年 5 月开始，本月早些时候结束。
+即使在加密货币价格暴跌、一系列知名公司接连倒闭以及初创公司所获投资金额下降的情况下，知名银行仍在进行押注。根据研究公司 PitchBook 的数据，该行业的风险投资在 2022 年第四季度跌至近两年来的最低水平。
+Taurus 联合创始人 Sébastien Dessimoz 在接受采访时表示，在新融资到位后，总部位于日内瓦的 Taurus 计划在未来几个月在巴黎和迪拜开设办事处，然后计划在东南亚和美洲展开业务，从而推进国际业务。
+D…]]></summary>
+        <author>
+            <name>念银思唐</name>
         </author>
     </entry>
     <entry>
@@ -4904,29 +5017,6 @@ Matr1x即将推出元宇宙射击手游Matr1x FIRE和该手游的PFP NFT系列Ma
         <updated>2023-02-10T01:21:36.000Z</updated>
         <summary type="html"><![CDATA[PANews 2月10日消息，Voyager Digital已向法院提交一份计划文件，以允许用户通过Binance.US账户收回资产。文件显示，Voyager Digital与Binance.US的交易预计将于3月完成并允许用户提款。但夏威夷、纽约、得克萨斯和佛蒙特州的用户因无法在Binance.US创建账户，因此需要再等六个月的时间。
 Kirkland & Ellis合伙人Joshua Sussberg表示，如果Binance.US在收购协议结束后的6个月内未获得在不受支持的州运营所需的许可或授权，Voyager将把可分配给此类客户的资产转换为现金，并将单独分配。其余的Voyager美国客户将需要提供个人详细信息，如电子邮件地址、社会保险号和出生日期，以便为其创建一个Binance.US账户。Voyager建立的索赔门户网站也向用户显示其资产价值。不过，这并不意味着客户能拿回100%的资金。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特币矿企CleanSpark在截至12月的季度净亏损为2900万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/5mrk8vqh.html</id>
-        <link href="https://panewslab.com/zh/articledetails/5mrk8vqh.html"/>
-        <updated>2023-02-10T01:10:30.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月10日消息，据The Block报道，比特币矿企CleanSpark报告称，其截至12月的季度净亏损2900万美元，营收为2780万美元。截至12月31日，该公司总资产为4.87亿美元，负债为5980万美元。
-此前8月份消息，CleanSpark宣布出售其能源业务资产，以完全专注于比特币挖矿。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美SEC委员：SEC对Kraken的处罚是“懒惰”的监管方式，应出台质押指南引导注册]]></title>
-        <id>https://panewslab.com/zh/articledetails/3my7on6o.html</id>
-        <link href="https://panewslab.com/zh/articledetails/3my7on6o.html"/>
-        <updated>2023-02-10T00:43:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月10日消息，美国证券交易委员会（SEC）委员、“加密妈妈”Hester Peirce今日在SEC官网发布了一份声明，称其对SEC关闭Kraken的质押计划提出异议。她表示：“Kraken的质押计划本应作为证券发行在美国证券交易委员会注册，无论是否同意该分析，更根本的问题是在SEC注册是否可能。当前环境下，与加密货币相关的产品无法通过SEC的注册渠道，像这样有争议的质押服务产品会引发一系列复杂的问题，包括质押程序是否作为一个整体进行注册，或者每个代币的质押程序是否将单独注册，重要的披露是什么，以及对Kraken的会计影响是什么。”
-Peirce认为，SEC应该发布关于加密质押的指南，而非再次选择通过执法行动来说话，“使用执法行动告诉人们新兴行业的法律是什么，并不是一种有效或公平的监管方式”。此外，她指出，质押服务并不统一，因此一次性执法行动和千篇一律的分析并不能解决问题。Peirce提出了她的担忧，称对SEC目前这样对注册违规的解决方案却可能关闭一个为人们提供良好服务的程序。她称SEC这样的执法行动是“家长式和懒惰”的监管方式。
-此前今日早些时候消息，SEC宣布，Kraken将“立即”结束向美国客户提供的加密质押服务，并将向SEC支付3000万美元罚款，以解决其提供未注册证券的指控。SEC主席Gary Gensler表示，质押即服务提供商必须注册，并提供信息披露和投资者保护。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
