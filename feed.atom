@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-14T06:11:21.781Z</updated>
+    <updated>2023-02-14T07:08:34.026Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文盘点ZKP主流实现方案技术特点]]></title>
+        <id>https://www.odaily.news/post/5185070</id>
+        <link href="https://www.odaily.news/post/5185070"/>
+        <updated>2023-02-14T06:00:31.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：慢雾
+概述
+在研究区块链系统的工作原理时，我们需要了解各种各样密码学知识，比如 secp 256 k 1 ，它是一种曲线和非对称签名算法，在比特币和以太坊系统中用于签名和验证账号。比如 sha 256 ，它是一种哈希算法，用于把变长信息压缩成定长编码。比如 base 58 ，它可以把信息编码转换成可打印字符表示的字符串。比如 ECDH，它是一种 Diffie - Hellman 密钥交换算法，用于在 P2P 节点间安全交换通讯密钥。
+零知识证明（Zero-knowledge Proof）也是一种密码学算法，简称为 ZKP 或者 ZK，它的特点是可以在不泄露任何其他信息的前提下证明一个命题的正确性（不少人对零知识证明这个名称提出异议，认为“零泄露证明”更能代表它的本质能力）。
+ZKP 最早在 1985 年就已经被提出，然而长期以来一直没有找到大规模应用的场景，所以技术的发展也十分缓慢。一直到 2009 年比特币诞生后，人们发现它非常适合用于解决区块链中的隐私和扩展性问题，至此大量的资本和人才投入到了这项技术的开发和工程应用中。ZKP 有很多实现，例如：Groth 16、PlonK、STARK 等，至今还没出现真正的行业标准，本文将为大家盘点各种 ZKP 实现的技术特点，希望能给大家的学习研究和工程开发带来帮助。
+ZKP 应用领域
+1. 隐私证明
+Zcash 可能是 ZKP 的第一个被广泛使用的应用，它在比特币源代码的基础上，将 ZKP 应用于代币的转移，使得交易的信息完全保密，但同时能被区块链上的节点验证。
+Tornado Cash 是在以太坊运行的混币器，它使用 ZKP 证明 Merkle-Tree 上的节点，用户可以将固定金额的代币存入资金池，然后使用 ZKP 生成的 Proof 证明自己曾经存入过资金，但不需要暴露自己存入时的交易信息。
+2. 计算外包
+在区块…]]></summary>
+        <author>
+            <name>慢雾科技</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：Paxos Treasury刚刚再次销毁约7615万枚BUSD]]></title>
         <id>https://panewslab.com/zh/articledetails/d69ivl4g.html</id>
@@ -27,6 +47,16 @@
 此前昨日消息，纽约州金融服务部命令Paxos停止发行新的BUSD代币。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[近期值得关注的20个新项目]]></title>
+        <id>https://www.theblockbeats.info/news/34654</id>
+        <link href="https://www.theblockbeats.info/news/34654"/>
+        <updated>2023-02-14T04:43:06.000Z</updated>
+        <summary type="html"><![CDATA[「主动出手，拒绝FOMO」]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>

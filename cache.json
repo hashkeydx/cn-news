@@ -1853,6 +1853,16 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/34654",
+          "author": null,
+          "description": "「主动出手，拒绝FOMO」",
+          "link": "https://www.theblockbeats.info/news/34654",
+          "publishedOn": "2023-02-14T04:43:06.000Z",
+          "wordCount": null,
+          "title": "近期值得关注的20个新项目",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/34652",
           "author": null,
           "description": "据 BlockBeats 统计，上周融资总数为 33 笔，数量较上周有一定提升，总金额约 2.7 亿美元，平均融资金额为 820 万美元，较上周有明显下降。其中，数字资产管理/支付领域占据主体，基础设施和元宇宙/GameFi 领域的融资相对较多，社交板块融资大幅增长，DeFi 领域融资较少，NFT 领域无融资。下图为上周各板块融资占比：\n\n\n\n\n\n\n\n\n\n元宇宙/GameFi\n\n\n\n\n在元宇宙/GameFi 领域共计 8 笔融资，总金额超 5380 万美元，占上周融资总额的 19.87%。\n\n\n\n\nAjuna Network\n\n\n\n\n关注理由：Ajuna Network 赢得了 Polkadot 第 31 次平行链拍卖，它将游戏引擎与 Polkadot 区块链相结合，增加了游戏之间的互操作性。\n\n\n\n\n\n\n\n\n\nBlockBeats 消息，2 月 10 日，据 CoinDesk 报道，Web3 游戏平台 Ajuna Network 宣布完成 500 万美元融资，CMCC Global 领投。另外，本周五 Ajuna Network 还推出 Awesome Ajuna Avatars NFT 系列，该系列的灵感来自该公司旗舰游戏 BattleMogs。\n\nAjuna Network 此前在 2022 年 2 月的种子轮融资中筹集到 200 万美元，由 Fundamental Labs 领投，其他投资方包括 OKX Blockdream Ventures、Signum Capital 和 Animoca Brands，这些投资机构投资于 Ajuna 的母公司 BloGa Tech AG。\n\n\n\n\nAjuna Network 是一个面向游戏玩家和开发者的 Web3 游戏平台，旨在让游戏开发者能够快速将区块链技术集成到他们的游戏中，无论是用 Unity 还是虚幻引擎制作的。开发人员…",
@@ -2299,6 +2309,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5185070",
+          "author": "慢雾科技",
+          "description": "原文来源：慢雾\n概述\n在研究区块链系统的工作原理时，我们需要了解各种各样密码学知识，比如 secp 256 k 1 ，它是一种曲线和非对称签名算法，在比特币和以太坊系统中用于签名和验证账号。比如 sha 256 ，它是一种哈希算法，用于把变长信息压缩成定长编码。比如 base 58 ，它可以把信息编码转换成可打印字符表示的字符串。比如 ECDH，它是一种 Diffie - Hellman 密钥交换算法，用于在 P2P 节点间安全交换通讯密钥。\n零知识证明（Zero-knowledge Proof）也是一种密码学算法，简称为 ZKP 或者 ZK，它的特点是可以在不泄露任何其他信息的前提下证明一个命题的正确性（不少人对零知识证明这个名称提出异议，认为“零泄露证明”更能代表它的本质能力）。\nZKP 最早在 1985 年就已经被提出，然而长期以来一直没有找到大规模应用的场景，所以技术的发展也十分缓慢。一直到 2009 年比特币诞生后，人们发现它非常适合用于解决区块链中的隐私和扩展性问题，至此大量的资本和人才投入到了这项技术的开发和工程应用中。ZKP 有很多实现，例如：Groth 16、PlonK、STARK 等，至今还没出现真正的行业标准，本文将为大家盘点各种 ZKP 实现的技术特点，希望能给大家的学习研究和工程开发带来帮助。\nZKP 应用领域\n1. 隐私证明\nZcash 可能是 ZKP 的第一个被广泛使用的应用，它在比特币源代码的基础上，将 ZKP 应用于代币的转移，使得交易的信息完全保密，但同时能被区块链上的节点验证。\nTornado Cash 是在以太坊运行的混币器，它使用 ZKP 证明 Merkle-Tree 上的节点，用户可以将固定金额的代币存入资金池，然后使用 ZKP 生成的 Proof 证明自己曾经存入过资金，但不需要暴露自己存入时的交易信息。\n2. 计算外包\n在区块…",
+          "link": "https://www.odaily.news/post/5185070",
+          "publishedOn": "2023-02-14T06:00:31.000Z",
+          "wordCount": 2379,
+          "title": "一文盘点ZKP主流实现方案技术特点",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5185066",
           "author": "深潮TechFlow",
