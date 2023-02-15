@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-15T22:07:54.994Z</updated>
+    <updated>2023-02-15T23:07:56.285Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -5390,41 +5390,6 @@ Kraken 在博客文章中表示，它将自动解除美国客户质押的以太
 此外，Uniswap 创始人 Hayden Adams也发推文称，向NGO组织AHBAP的加密捐赠钱包发送了12200个 UNI 代币（约7.8万美元）。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从Staking聊起，4种掌控以太坊网络的方式]]></title>
-        <id>https://www.odaily.news/post/5185011</id>
-        <link href="https://www.odaily.news/post/5185011"/>
-        <updated>2023-02-11T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Todd，Ebunker 合伙人
-
-今天借着Kraken暂停 Staking 这个新闻，想做一个 Staking 的科普&分析：
--本质上，Staking 最重要的就是看 2 把私钥的归属权
--由于 2 把私钥的归属权不同，又诞生了 4 类 Staking 方案
-我相信有这篇超长 thread，你对于Lido，Rocket，Coinbase，Kraken，SSV 以及 Ebunker 能有一个更深的理解。
-如果把以太坊看作是一家公司的话，负责 Staking 的验证者（Validator）就是员工。它的工作就是验证交易的合法性，然后打包区块上链（虽然构建区块这活儿，如今也已经慢慢外包给MEV服务商了）。
-首先，作为验证者，你需要证明你的员工身份，毕竟不是谁都可以来随便验证。交了 32 ETH 押金后，你需要持证上岗（即：【验证 key】）。
-理论上，做 Staking 的第一步，就是创建一个验证 key。随后，你拿着你的验证 key，也就是你的工作证，才能给每一个交易盖戳。
-第二，以太坊贴心地设计出了第二把私钥，用于接收刚刚提到的押金（32 ETH）。
-当你去做验证者时，你会要填一个“提现地址”。它是未来你提取本金和工资的地址，而那个地址的私钥理论上应当在你的手里（即：【提现 key】）。
-我打个比方，这是你的工资卡。
-这样 2 把私钥：①验证 key（工作证）、②提现 key（工资卡）的用途，我想大家都明白了。
-接下来，根据 2 把私钥的不同归属，才诞生了四种 Staking 解决方案：
-
--CEX 类
-
--大池子类（Pooled Staking）
-
--SaaS 类（Staking as a Service）
-
--Solo 类
-
-
-方案一、CEX 类/全托管
-如果你使用交易所 Staking 方案，例如 Binance，Coinbase 或者今天刚宣布停止 St…]]></summary>
-        <author>
-            <name>Ebunker</name>
         </author>
     </entry>
 </feed>

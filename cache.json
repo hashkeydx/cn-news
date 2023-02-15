@@ -3288,16 +3288,6 @@
           "wordCount": 1630,
           "title": "Kraken关停质押服务是否利好去中心化替代方案？",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5185011",
-          "author": "Ebunker",
-          "description": "原文作者：Todd，Ebunker 合伙人\n\n今天借着Kraken暂停 Staking 这个新闻，想做一个 Staking 的科普&分析：\n-本质上，Staking 最重要的就是看 2 把私钥的归属权\n-由于 2 把私钥的归属权不同，又诞生了 4 类 Staking 方案\n我相信有这篇超长 thread，你对于Lido，Rocket，Coinbase，Kraken，SSV 以及 Ebunker 能有一个更深的理解。\n如果把以太坊看作是一家公司的话，负责 Staking 的验证者（Validator）就是员工。它的工作就是验证交易的合法性，然后打包区块上链（虽然构建区块这活儿，如今也已经慢慢外包给MEV服务商了）。\n首先，作为验证者，你需要证明你的员工身份，毕竟不是谁都可以来随便验证。交了 32 ETH 押金后，你需要持证上岗（即：【验证 key】）。\n理论上，做 Staking 的第一步，就是创建一个验证 key。随后，你拿着你的验证 key，也就是你的工作证，才能给每一个交易盖戳。\n第二，以太坊贴心地设计出了第二把私钥，用于接收刚刚提到的押金（32 ETH）。\n当你去做验证者时，你会要填一个“提现地址”。它是未来你提取本金和工资的地址，而那个地址的私钥理论上应当在你的手里（即：【提现 key】）。\n我打个比方，这是你的工资卡。\n这样 2 把私钥：①验证 key（工作证）、②提现 key（工资卡）的用途，我想大家都明白了。\n接下来，根据 2 把私钥的不同归属，才诞生了四种 Staking 解决方案：\n\n-CEX 类\n\n-大池子类（Pooled Staking）\n\n-SaaS 类（Staking as a Service）\n\n-Solo 类\n\n\n方案一、CEX 类/全托管\n如果你使用交易所 Staking 方案，例如 Binance，Coinbase 或者今天刚宣布停止 St…",
-          "link": "https://www.odaily.news/post/5185011",
-          "publishedOn": "2023-02-11T10:30:00.000Z",
-          "wordCount": 2125,
-          "title": "从Staking聊起，4种掌控以太坊网络的方式",
-          "imageUrl": null
         }
       ]
     }
