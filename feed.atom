@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-15T02:17:44.282Z</updated>
+    <updated>2023-02-15T03:14:12.229Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -15,6 +15,44 @@
 社区投票时间是2月14日至2月21日，持续7天，目前支持率为92%。若社区投票通过，该提案将进行网络投票，即验证者使用质押的TON进行投票，时间将在2月21日至2月24日左右进行。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全面解析以太坊网络「双重升级」对提币和ETH供应量的影响]]></title>
+        <id>https://www.theblockbeats.info/news/34681</id>
+        <link href="https://www.theblockbeats.info/news/34681"/>
+        <updated>2023-02-15T01:30:01.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《
+
+全面解析以太坊网络「双重升级」对提币和 ETH 供应量的影响
+
+》
+原文来源：Insights
+原文编译：Katie 辜，Odaily 星球日报
+
+
+
+自 2020 年 12 月以来，以太坊网络验证者自愿将其 ETH 锁定在 Beacon 链上，而提币功能尚无明确时间表。
+
+
+即将到来的 Shanghai-Capella「双重升级」将标志着这一时代的结束，它将授予验证者使用已质押 ETH 的权限，同时还将为验证提供奖励。本文我们将一起探讨即将到来的以太坊网络「双重升级」对提币和对 ETH 供应的影响。
+
+
+以太坊「双重升级」
+
+
+以太坊网络协议即将进行的升级实际上是「双重升级」（Shanghai 和 Capella）。分别是对以太坊网络中执行计算和交易的部分（执行链）和控制新区块的生产和验证的部分（Beacon 链）的升级。执行链指的是在 Merge 之前处理共识（通过挖矿）和执行（更新余额，改变智能合约的内部状态）的网络部分。
+
+
+Shanghai 升级是网络执行层（即执行链）的硬分叉，目的是对以太坊网络的一些操作实施一系列更改。其最重要的升级将允许验证者自 2020 年 12 月信标链成立以来首次提取他们所持有的 ETH。当网络在 2022 年 9 月从工作量证明（PoW）挖矿切换到使用 Beacon 链来控制区块生产时，以太坊基金会设定了一个暂定的最后期限，以便在下一次网络升级中激活提币功能。
+
+
+最近，「双重升级」时间被提前至 2023 年 3 月，目前正等待几次成功测试的完成。以太坊基金会近期正努力在最初承诺的时间框架内实现这一目标，甚至推迟了原定在 Shanghai 部署的其他升级，以便优先启动提币功能。
+
+
+请注意，验证者目前可以暂停其验证职责，「取消质押」他们的 ETH，而无需提币。Shanghai 升级允许可提币用户从 Beacon 链中提…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>
@@ -4250,17 +4288,6 @@ a16z合伙人：给Web3初次创业者的 11 条建议
         <updated>2023-02-10T15:17:54.000Z</updated>
         <summary type="html"><![CDATA[PANews 2月10日消息，以太坊基金会发文表示，Shanghai+Capella（Shapella）主网升级正在进入最后的预发布序列——公共测试网。Shapella 包含许多功能，但对质押者和共识层来说最重要的是支持提款。退出的验证者可以全额取款，而活跃验证者余额超过 32 ETH 的可以部分取款。另外，第一个长期存在的公共测试网 Sepolia 计划于 2 月 28 日进行升级。
 2 月 7 日，以太坊首个公共提款测试网Zhejiang已成功模拟上海升级。此前开发人员表示，之后在 Sepolia 测试网升级后，计划在 2 月底或 3 月初在以太坊 Goerli 测试网上发布上海升级，过渡成功后，将转向主网。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SushiSwap收购基于Cosmos的交易平台Vortex Protocol]]></title>
-        <id>https://panewslab.com/zh/articledetails/gl9jfsuu.html</id>
-        <link href="https://panewslab.com/zh/articledetails/gl9jfsuu.html"/>
-        <updated>2023-02-10T14:17:53.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月10日消息，据Decrypt报道，SushiSwap 收购基于 Cosmos 的去中心化衍生品交易平台 Vortex Protocol ，目前暂不清楚收购金额。Vortex Protocol 构建于使用 Cosmos 工具的 Sei Network 之上，将作为另一种产品归入 SushiSwap 旗下，并将采用新名称。
-据悉，Vortex Protocol 是一个尚未推出的去中心化衍生品交易所，旨在为用户提供各种资产的 10 倍保证金交易。 Sei Network 和 SushiSwap 新收购的 Vortex Protocol 都将于 2023 年第二季度在主网上线。此举还意味着 SushiSwap 将成为首批迁移到 Cosmos 生态系统的以太坊应用之一。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
