@@ -2,10 +2,98 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-16T10:09:11.156Z</updated>
+    <updated>2023-02-16T11:07:36.193Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[解析GNS设计机制：可能是史上最复杂的DeFi衍生品协议]]></title>
+        <id>https://www.theblockbeats.info/news/34756</id>
+        <link href="https://www.theblockbeats.info/news/34756"/>
+        <updated>2023-02-16T09:41:23.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《
+
+GNS - 看懂它就能一眼看穿 DEX PERP 赛道
+
+
+》
+原文来源：CapitalismLab
+
+
+
+
+GMX 和 SNX Perp 的新版本都不约而同的借鉴了一个项目 - GNS，GNS 从去年 Luna 危机至今上涨 10 倍有余，交易量和费用收入也屡创新高，这离不开其在机制上的不断创新。本文将为你详细介绍 GNS 的机制，发展历史及其竞争优势。可以说看懂 GNS 就能一眼看穿诸多 DEX PERP。
+
+
+
+
+GNS 的机制
+
+
+
+
+如果你对 GNS 缺少基本的了解，简单来说其为一个去中心化永续合约平台：
+
+
+
+
+预言机定价，LP 和 Trader 对赌 
+LP 为纯稳定币，支持 外汇 / 股票 / 加密货币 交易
+双向资金费率，跟 CEX Perp 一样一方向另一方支付费用
+
+
+
+
+另外一方面可以阅读下面我此前写的 GNS 中文百科，LP（DAI Vault）以外的内容仍有意义：
+
+
+
+
+
+
+
+
+
+我们之前讨论过 GMX 是全额保障模式，即每 1ETH 多仓 GLP 底层均有 1ETH 现货支持这一点，让 GMX 可以安然度过狂暴大牛市。那底层只有稳定币的 GNS 是如何应对风险的呢？
+
+
+
+
+
+
+
+
+
+GNS 在交易侧和 LP 侧各设有三重机制控制风险，其核心为：
+
+
+
+
+- 资产现货流动性决定场内交易滑点，防止价格操纵
+- 资产价格波动性和多空比决定持续持仓成本，应对单边行情
+- 净值模式加上流动性调节以及现金流循环，构建稳健的 LP
+
+
+
+
+
+
+
+
+
+GNS 使用了 Spread, Rollover Fee, Funding Fee 三重机制来进行交易侧的风险控制。
+
+
+
+
+Spread: 额外的开仓费用，开仓头寸越大，资产流动性越差，费用就越高。用于预防价格攻击，便于上架小币种。
+
+
+Rollover Fee: 现货波动率来定价，用于控制…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GSR向其慈善社会影响基金会认捐1000万美元]]></title>
         <id>https://panewslab.com/zh/articledetails/8r3l4gp1.html</id>
@@ -95,6 +183,16 @@ Köppelmann在他的建议中提到桥接风险是一个关键因素。他写道
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[「Polygon@The Pit」加速器11个获奖项目速览]]></title>
+        <id>https://www.theblockbeats.info/news/34755</id>
+        <link href="https://www.theblockbeats.info/news/34755"/>
+        <updated>2023-02-16T07:59:50.000Z</updated>
+        <summary type="html"><![CDATA[总决赛中，有28支队伍参与比赛，Polygon公布了11个获奖项目。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[赵长鹏：不持有任何NFT但认为NFT技术很棒，不相信“Circle举报币安”的报道]]></title>
         <id>https://panewslab.com/zh/articledetails/o53lw6n0.html</id>
         <link href="https://panewslab.com/zh/articledetails/o53lw6n0.html"/>
@@ -104,6 +202,16 @@ Köppelmann在他的建议中提到桥接风险是一个关键因素。他写道
 彭博社此前也对这场推特Space进行了报道，赵长鹏称当前美国这波监管执法行动或导致算法稳定币卷土重来，并指出“BUSD不是他或他的团队的想法，而是源自Paxos，币安不是稳定币发行商”。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币交易的「合法性」之辩：Ordinals是福还是祸？]]></title>
+        <id>https://www.theblockbeats.info/news/34747</id>
+        <link href="https://www.theblockbeats.info/news/34747"/>
+        <updated>2023-02-16T07:42:02.000Z</updated>
+        <summary type="html"><![CDATA[比特币网络是否该应用于非金融用途？这一平静多年的争论被Ordinals协议重新点燃。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>

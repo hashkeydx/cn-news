@@ -2633,6 +2633,36 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/34756",
+          "author": null,
+          "description": "原文标题：《\n\nGNS - 看懂它就能一眼看穿 DEX PERP 赛道\n\n\n》\n原文来源：CapitalismLab\n\n\n\n\nGMX 和 SNX Perp 的新版本都不约而同的借鉴了一个项目 - GNS，GNS 从去年 Luna 危机至今上涨 10 倍有余，交易量和费用收入也屡创新高，这离不开其在机制上的不断创新。本文将为你详细介绍 GNS 的机制，发展历史及其竞争优势。可以说看懂 GNS 就能一眼看穿诸多 DEX PERP。\n\n\n\n\nGNS 的机制\n\n\n\n\n如果你对 GNS 缺少基本的了解，简单来说其为一个去中心化永续合约平台：\n\n\n\n\n预言机定价，LP 和 Trader 对赌 \nLP 为纯稳定币，支持 外汇 / 股票 / 加密货币 交易\n双向资金费率，跟 CEX Perp 一样一方向另一方支付费用\n\n\n\n\n另外一方面可以阅读下面我此前写的 GNS 中文百科，LP（DAI Vault）以外的内容仍有意义：\n\n\n\n\n\n\n\n\n\n我们之前讨论过 GMX 是全额保障模式，即每 1ETH 多仓 GLP 底层均有 1ETH 现货支持这一点，让 GMX 可以安然度过狂暴大牛市。那底层只有稳定币的 GNS 是如何应对风险的呢？\n\n\n\n\n\n\n\n\n\nGNS 在交易侧和 LP 侧各设有三重机制控制风险，其核心为：\n\n\n\n\n- 资产现货流动性决定场内交易滑点，防止价格操纵\n- 资产价格波动性和多空比决定持续持仓成本，应对单边行情\n- 净值模式加上流动性调节以及现金流循环，构建稳健的 LP\n\n\n\n\n\n\n\n\n\nGNS 使用了 Spread, Rollover Fee, Funding Fee 三重机制来进行交易侧的风险控制。\n\n\n\n\nSpread: 额外的开仓费用，开仓头寸越大，资产流动性越差，费用就越高。用于预防价格攻击，便于上架小币种。\n\n\nRollover Fee: 现货波动率来定价，用于控制…",
+          "link": "https://www.theblockbeats.info/news/34756",
+          "publishedOn": "2023-02-16T09:41:23.000Z",
+          "wordCount": null,
+          "title": "解析GNS设计机制：可能是史上最复杂的DeFi衍生品协议",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/34755",
+          "author": null,
+          "description": "总决赛中，有28支队伍参与比赛，Polygon公布了11个获奖项目。",
+          "link": "https://www.theblockbeats.info/news/34755",
+          "publishedOn": "2023-02-16T07:59:50.000Z",
+          "wordCount": null,
+          "title": "「Polygon@The Pit」加速器11个获奖项目速览",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/34747",
+          "author": null,
+          "description": "比特币网络是否该应用于非金融用途？这一平静多年的争论被Ordinals协议重新点燃。",
+          "link": "https://www.theblockbeats.info/news/34747",
+          "publishedOn": "2023-02-16T07:42:02.000Z",
+          "wordCount": null,
+          "title": "比特币交易的「合法性」之辩：Ordinals是福还是祸？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/34748",
           "author": null,
           "description": "原文作者：naly，DeFi 研究员\n原文编译：Leo，BlockBeats\n\n\n2023 年的加密空间里，LSD 的兴起已是众望所归，在某种程度上，流动性质押也是加密用户们比较稳妥的获利方式。Lido、Rocket Pool、Frax 等协议顺势而飞，随着上海升级的推迟，LSD 赛道上或许还会出现更加利好的创新，而谈到 LSD 赛道的竞争，其中有一个值得关注的协议——Balancer，Balancer 在技术层面上已经做出了改善，致力于更高的质押收益，DeFi 研究员 naly 撰文浅析了 Balancer 协议在 LSD 赛道的优势，BlcokBeats 编译如下：\n\n\n\n\nLSD 的兴起已经不可避免，Balancer 技术的改进已经其做好准备。对于用户来说，既然能持有计息版的 ETH，为什么要持有 ETH？随着 LSD token 的暴涨，某些协议可能会迎来资金的流入。简单来说，Balancer tech LSD 提供了最高效的方式。\n\n\n\n\nBalancer tech 会崛起的三个关键因素：\n\n\n-独特的 vault 架构\n\n\n-利率提供者\n\n\n-Phantom BPT\n\n\n\n\n\n\nvault 架构\n\n\n\n\n任何使用 Balancer 技术的人都可以利用互联的流动性基础层，vault 中自有黄金屋。对于 DeFi 中的其他 Dex 们，池合约必须积极管理资产（逻辑上的），同时还要执行所有池账户工作。Balancer Vault 通过两步简化了这一点（如下图）：\n\n\n-将池账户工作与逻辑分开\n\n\n-将所有账户资产置于一份合约下\n\n\n\n\n\n\n\n由于所有账户资产都在同一合约下，资金池只需要计算交换、存入和取出的金额，而不再需要主动管理其中的资产。这带来了哪些好处？\n\n\n\n\n在其他 DeFi 协议上进行交易时，token 通常在多个池之间转移，包括逻辑在内，这是一个高度消耗…",
