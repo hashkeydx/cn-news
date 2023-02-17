@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-02-17T06:10:33.703Z</updated>
+    <updated>2023-02-17T07:07:59.799Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -29,6 +29,125 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[BAYC #1626居然被「燃烧」了?]]></title>
+        <id>https://www.theblockbeats.info/news/34782</id>
+        <link href="https://www.theblockbeats.info/news/34782"/>
+        <updated>2023-02-17T05:00:01.000Z</updated>
+        <summary type="html"><![CDATA[撰文：Cookie，律动 BlockBeats
+
+
+
+
+虽然在操作上有着诸多困难，但是比特币 NFT 得到的市场关注度丝毫不减。越来越多的以太坊 NFT 项目向「橙色市场」进发。
+
+
+
+
+
+Digi Daigaku CEO Gabriel Leydon 宣布，Digi Daigaku Genesis 系列持有者将得到免费的比特币 NFT
+
+
+
+
+
+Sappy Seals 创始人 wab.eth 宣布将以游戏化 Free Mint 的形式发行比特币 NFT 系列，同时，他还声称已经准备好了相关技术使这个系列能够在以太坊上进行交易
+
+
+
+
+在以太坊 NFT 项目方们向比特币 NFT 市场进发的同时，也有一些个人搞出了大新闻。比如，一只最后成交价为 108 ETH 的无聊猿，BAYC #1626，被比特币 OG Jason A. Williams(@GoingParabolic)「燃烧」了！
+
+
+
+
+我们所熟悉的「燃烧」，是将 NFT 转入黑洞地址 0x000000000000000000000000000000000000dEaD，但现在 BAYC #1626 的持有地址却是 0xcC6251db97730972A4e1875Afa27F07600DbCDcC？
+
+
+
+
+
+
+
+
+
+这不是我们所熟悉的那个「燃烧」，而是比特币 NFT 协议 Ordinals 最新版本的「Teleburn 远程燃烧」。
+
+
+
+
+首先，Jason A. Williams 使用 BAYC #1626 的原图在比特币网络上通过 Ordinals 协议铸造了 BAYC #1626 的比特币版本。
+
+
+
+
+
+
+
+
+
+然后，使用 Ordinals 协议的「ord teleburn」命令得到了一个 ETH 地址。
+
+
+
+
+
+（图片来源：@CryptoSkelly）
+
+
+
+
+根据 Github 上的代码我们可以得知，这个地址是通过 Rust 的比特币 Hash 库的 SHA256 方法对「Inscription 5353」（即 BAYC #1626 的比特币版本）的 ID 进行了 Hash 散列，取输出值的前 40 位加上「0x」得到的。基于 SHA256 算法的特性，所生成的 ETH 地址已被人控制的可能性微微微微微乎其微。
+
+
+
+
+
+
+
+
+
+所以，本质上，尽管这种可能性极其十分小，「Teleburn 远程燃烧」先是在比特币网络上生成对应 NFT 的比特币版本，再把 NFT 在 ETH 上的版本永久锁定在一个无人能控制的以太坊地址内，实现「燃烧」的效果——或者说是一种单向不可逆的「迁移」，从以太坊网络到比特币网络。
+
+
+
+
+为什么不直接把 ETH 上的 NFT 打入黑洞地址 0x000000000000000000000000000000000000dEaD，而依然要保留这种渺小的被盗可能性？原因还是方便比特币版本 NFT 的确权。所有人都可以拿着 BAYC #1626 的图片在比特币上生成 NFT，如果打入 0x0000...0000dEaD，势必会造成确权上的混乱。
+
+
+
+
+
+比如「Inscription 5413」同样使用了 BAYC #1626 的图片，但只要执行一次「Teleburn 远程燃烧」命令，输出的 ETH 地址会告诉我们这是个假货
+
+
+
+
+Jason A. Williams 的这次「燃烧」引来了诸多非议。有人说他只是在哗众取宠，有人说放弃 BAYC 的实用价值与社区价值只为创造一个比特币版本只是相当愚蠢，还有人质疑这样摧毁原版以 Mint 比特币新版的行为是否构成了对知识产权的侵犯。但对 Jason A. Williams 来说，这一切都很简单，他是一个身体力行的比特币 Maxi，相信 Ordinals 创建的比特币 NFT 才是未来，仅此而已。
+
+
+
+
+
+
+
+
+
+提供了「Teleburn 远程燃烧」功能的 Ordinals 协议，正在进一步扩大「燃烧」范围，接下去这把「火」还将「烧」到 Solana、Tezos 以及 Stack。同时，社区也在探讨利用「Teleburn 远程燃烧」功能实现比特币主网 DID 服务的可能性，目前已有两个方向在探讨。一个是通过域名所在地址的比特币余额进行确权，当余额不足以支持域名存续时，下一个 Mint 域名的人将得到认可，以此实现一一对应关系，同时利用「Teleburn 远程燃烧」支持异链域名的迁移。另一个是通过以太坊智能合约统一生成域名 NFT，再通过「Teleburn 远程燃烧」实现映射。
+
+
+
+
+
+
+
+
+
+虽然我认为「Teleburn 远程燃烧」还是蛮有趣的，但是像「燃烧」BAYC #1626 这样的操作，并不能真正让比特币 NFT 得到成长，无非是信仰者展示自己的态度。我依然坚定地认为，比特币 NFT 市场需要且终会找到自己的独特文化，并伴随着「基建」进步展现出不同于以太坊 NFT 的魅力。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Filecoin将于3月23日推出智能合约]]></title>
         <id>https://panewslab.com/zh/articledetails/khn45f1e.html</id>
         <link href="https://panewslab.com/zh/articledetails/khn45f1e.html"/>
@@ -37,6 +156,51 @@
 Filecoin此前表示将于2023年3月上线FVM。FVM将智能合约与可证明存储相结合，可被用于部署可编程存储原语言、跨链互操作性桥、以数据为中心的去中心化自治组织（DAO）以及Layer2解决方案等。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VRRB提出的Proof of Claim共识机制有什么不同？]]></title>
+        <id>https://www.theblockbeats.info/news/34783</id>
+        <link href="https://www.theblockbeats.info/news/34783"/>
+        <updated>2023-02-17T04:14:52.000Z</updated>
+        <summary type="html"><![CDATA[VRRB 是一个围绕新共识机制 Proof of Claim 打造的 L1 公链，旨在让开发人员能够使用他们希望的任何语言创建代码，吸引更多的开发者进入 Web3 设计应用，并以此实现 Web3 的大规模采用。VRRB 已于 2023 年 2 月获得了 Jump Crypto 等机构的预种子轮融资。
+ 
+
+
+从 BTC 到以太坊，再到 Solana 和 Aptos，在这几年里我们看到了区块链在多个维度上的进化，也看到了随之而来的许多新叙事。在不同的叙事重点背后，有一点是永远绕不开的：如何在可扩展性、安全性和去中心化之间取得平衡。
+ 
+
+
+Proof of Claim
+
+
+ 
+VRRB 提出的 Proof of Claim 共识算法旨在同时达到：
+-低计算成本
+-抗冲突
+-可扩展
+-完全去中心化
+-真正无需许可
+ 
+
+
+Proof of Claim 是一种基于对象（Object-Based）、去中心化、无选主投票（leaderless election）的算法。得益于固定长度范围的 election seed 和固定长度的 claim hash，VRRB 表示 Proof of Claim 的投票过程比现有的任何一种算法都要更快。
+
+
+
+
+
+Proof of Claim 也是一种完全去中心化的算法，其计算所需的所有信息都是可知的，可在没有选主的情况下达成共识，选出获胜验证者，并且可以在每个节点上完成本地计算。如果网络上的协议出现了不同的状态，所有节点将根据具有最新状态的节点进行同步。
+ 
+
+
+特别设计的信用系统
+
+
+ 
+PoC 的机制带来了一个问题，那就是安全性，由于 VRRB 是一个无需许可、低成本、去中心化的 P2P 网络，节点间全部是平等的，可能因此受到一些攻击，比如 DDoS 和垃圾信息攻击。为了建立抗攻击的弹性并防止受到此类攻击，VRRB 特别设计了其信用系统，这套…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>
