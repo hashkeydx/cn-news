@@ -6,6 +6,66 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/u3g9dyff.html",
+          "author": "PA一线",
+          "description": "PANews 2月17日消息，据CoinDesk报道，美国德克萨斯州南区法官Marvin Isgur批准了比特币矿企Compute North的最终重组计划。该计划批准了债权人债权的最终清单和分类，并设立了一个诉讼信托基金，以继续从正在进行的案件中寻找资金。这将反过来决定Compute North的剩余资产将如何分配给剩余的索赔人。根据该计划，剩余的无担保债权人将保留剩余资产的所有权，如变压器和集装箱，并在索赔人之间进行支付。将设立一个诉讼信托基金，以结束正在进行的法律程序。\nCompute North的律师在周四的听证会上表示，这家矿业公司已经完成了13项资产出售，其中四项是重大资产出售，这些资产已经“清偿”了其2.5亿美元的所有担保债务。Compute North已与多家公司结清债务，以便让他们参与该计划并避免未来的诉讼。其中包括行业巨头Marathon Digital Holdings，该公司于2月9日同意以4000万美元的一般无担保索赔作为接受该计划的回报。另外11家公司与Compute North就相对较小的索赔达成和解，以确保该计划得以通过。\n此前去年9月份消息，Compute North申请第11章破产保护。据悉，该矿企曾在去年2月份完成3.85亿美元融资。",
+          "link": "https://panewslab.com/zh/articledetails/u3g9dyff.html",
+          "publishedOn": "2023-02-17T00:45:04.000Z",
+          "wordCount": 977,
+          "title": "比特币矿企Compute North的重组计划获得破产法官的批准",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/kj56olr6.html",
+          "author": "PA一线",
+          "description": "PANews 2月17日消息，据coindesk报道，NFT市场Rarible宣布扩展到Tezos区块链，Rarible聚合工具也将可以支持Objkt和Teia、fxhash和Versum等市场购买基于Tezos区块链的NFT。据悉，Rarible将会遵守所有Tezos NFT市场的创作者版税政策。\n此前Rarible于今年1月还宣布在Polygon上部署市场构建工具，允许创作者围绕NFT藏品构建自定义市场。",
+          "link": "https://panewslab.com/zh/articledetails/kj56olr6.html",
+          "publishedOn": "2023-02-17T00:33:52.000Z",
+          "wordCount": 950,
+          "title": "NFT市场Rarible宣布支持Tezos区块链",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/jpbx8zzl.html",
+          "author": "PA一线",
+          "description": "PANews 2月17日消息，安全公司CertiK Alert在推特上表示，稳定币交易项目Platypus在AAVE上遭遇闪电贷攻击，导致总价值约900万美元的资产损失。此时，大部分被盗资金仍留在攻击者的合约地址中，部分资金被发送到EOA和AAVE池中。\nCertiK分析称，漏洞似乎在于emergencyWithdraw函数对MasterPlatypusV4合约的验证，只有在借入资产超过借入限额时才会失败。然后该函数继续转移所有用户的存款资产，而不考虑用户借入的资产价值。具体过程如下：1.攻击者将4400万枚USDC存入Platypus USDC资产（LP-USDC）并获得4400万枚LP-USD。攻击者随后将LP-USD存入MasterPlatypusV4。2.攻击者调用函数borrow()在合约platyputreasure中铸造约4179万枚USP。这是借款限额所允许的最高金额，该限额为用户抵押品的95%。3.因为攻击者没有借入超过95%的上限，isSolvent值返回为“true”，这使得攻击者能够调用EmergencyWithdraw函数和全部4400万枚LP-USDC。4.攻击者随后从Platypus USDC资产 (LP-USDC) 中提取了4400万枚USDC，并开始通过Platypus Finance池将USP换成多种资产。偿还闪电贷后，Platypus平台的总损失约为900万美元。\nPlatypus就此事在官方电报群中发布公告称：“我们目前正在努力评估情况，并将就此及时进行沟通。目前，所有行动都已暂停，直到情况更加明朗。”数据显示，Platypus项目的原生稳定币USP已脱锚至0.4785美元。",
+          "link": "https://panewslab.com/zh/articledetails/jpbx8zzl.html",
+          "publishedOn": "2023-02-17T00:21:04.000Z",
+          "wordCount": 960,
+          "title": "安全公司：稳定币交易项目Platypus遭遇闪电贷攻击，损失约900万美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/k62finjr.html",
+          "author": "PA一线",
+          "description": "PANews 2月17日消息，据CoinDesk报道，据知情人士透露，九年前因黑客攻击而倒闭的加密交易所Mt. Gox的两个最大债权人已选择主要以比特币 (BTC) 形式获得赔偿。如果他们选择以法币形式获得赔偿金，受托人可能会被迫出售Mt. Gox追回的大量比特币，这可能会导致比特币价格下跌。由于选择提前一次性支付，新西兰加密交易所Bitcoinica和MtGox Investment Funds (MGIF) 两个债权人将获得其可回收资金的90%，赔偿金预计将于今年9月30日支付。二者加起来约占Mt. Gox索赔总额的五分之一。消息人士称，如果选择等到所有Mt. Gox 诉讼达成和解，可能会获得更高的赔付，但可能还需要等待5至9年的时间。Mt. Gox曾是世界上最大的加密货币交易所，2014年遭到黑客攻击。黑客盗走85万枚比特币，当时价值4.6亿美元。Mt. Gox所剩余额约为14.2万枚比特币、14.3万枚比特币现金(BCH)和690亿日元。",
+          "link": "https://panewslab.com/zh/articledetails/k62finjr.html",
+          "publishedOn": "2023-02-17T00:02:07.000Z",
+          "wordCount": 981,
+          "title": "Mt. Gox两个最大债权人选择以比特币形式获得赔偿",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/jx6jh3q8.html",
+          "author": "PA一线",
+          "description": "PANews 2月17日消息，据CoinDesk报道，据两名知情人士透露，本月晚些时候，加拿大证券管理局(CSA)将收紧对在该国运营的加密交易所的要求。CSA拒绝讨论预注册承诺(PRU)制度的修改，但表示将“在不久的将来公布更多细节”。一位匿名人士表示，本次更新制度主要是由安大略省证券委员会推动的，它将导致在加拿大开展业务的成本增加。CSA加强对加密交易平台的监管，将对在该国运营的一些大型交易所产生影响。Binance Canada过去曾与OSC发生过争执，而Coinbase也在加拿大魁北克省金融管理局(AMF)的监管下运营。",
+          "link": "https://panewslab.com/zh/articledetails/jx6jh3q8.html",
+          "publishedOn": "2023-02-16T23:47:36.000Z",
+          "wordCount": 949,
+          "title": "知情人士：加拿大即将收紧加密交易所规则，或将导致交易所成本增加",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/6yrzdgsi.html",
+          "author": "PA一线",
+          "description": "PANews 2月17日消息，据彭博社报道，美国证券交易委员会(SEC)周四起诉了Terraform Labs及其联合创始人Do Kwon。SEC指控Terraform和Do Kwon欺诈投资者以及销售未注册证券和证券掉期。SEC表示，Terrraform和Do Kwon多次误导和欺骗投资者，称一款知名的韩国移动支付应用程序使用Terra区块链来结算交易，增加了LUNA的价值。与此同时，他们还涉嫌在UST的稳定性方面误导投资者。SEC已向美国纽约南区地方法院提起了民事诉讼。SEC执法主管Gurbir Grewal表示，该项目“既不是去中心化，也不是金融”。这只是一场由所谓算法“稳定币”支撑的骗局。稳定币的价格由被告控制，而不是任何代码。",
+          "link": "https://panewslab.com/zh/articledetails/6yrzdgsi.html",
+          "publishedOn": "2023-02-16T23:38:50.000Z",
+          "wordCount": 970,
+          "title": "SEC起诉Terraform Labs和Do Kwon，指控其误导投资者和销售未注册证券",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/mjk1iq63.html",
           "author": "PA一线",
           "description": "PANews 2月17日消息，据路透社报道，银行记录和公司信息显示，币安2021年将约4亿美元资金从Binance US的Silvergate Bank账户转移至赵长鹏管理的交易公司Merit Peak。据悉，币安是在2021年1月至3月期间使用BAM Trading的Silvergate账户完成转账。BAM Trading是运营Binance US的实体。美国证券交易委员会(SEC)正在调查Merit Peak与币安的关系。路透社称，它无法确定转移的资金是否属于美国客户，也无法确定转账原因。Binance US发言人Kimberly Soward在一份声明中表示，路透社的报道使用了“过时的信息”。她补充称，Merit Peak既没有在Binance US交易，也没有提供任何形式的服务。只有Binance US的员工可以访问该公司的银行账户。",
@@ -2603,6 +2663,16 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/34768",
+          "author": null,
+          "description": "原文标题：《\n\nA&T View：可扩展性解决方案 Rollups-as-a-Service 生态全解读\n\n》\n原文作者：Shervin Beyk，A&T Capital 投资经理\n\n\n一、Rollup 技术概述 \n\n\nRollups 通过在链下高效地执行交易并将可验证的执行结果回传至链上，从而缓解 Layer 1 的性能瓶颈 Rollups 的安全性源自底层 Layer 1 的共识和数据可用性。尽管在发展的早期阶段，Rollup 生态系统因其可模块化和可定制性质而对 dApp 开发人员提供了多功能的设计。\n\n\n\n\nRollups 可以是通用的，如 Arbitrum 和 Optimism，也可以是为特定应用设计的。通用型 Rollups 依赖于 Layer 1 进行结算、共识和数据可用性存储，并可能因 Layer 2 交易需求高导致底层 Layer 1 网络拥挤。另一方面，特定于应用的 Rollups 类似于应用链，但资源消耗更少，因为它们不需要单独的验证器集合。总之，Rollups 不仅限于单一区块链开发框架，并且可以定制以满足特定的运营需求。\n\n\nSource: @pseudotheos\n\n\n二、Rollups-as-a-Service（RaaS）概述\n\n\n\n\n\nRollup-as-a-Service（RaaS）项目旨在通过提供易于使用的工具和服务来革新 Rollup 的部署，将复杂的技术细节抽象出来，使它们对所有人都可用。这些项目提供了各种选择，从 SDK 和用户友好的无代码界面到一键部署的无缝方案。此外，还有 Rollup Sequencer-as-a-Service（RSaaS）解决方案，旨在为多个 Rollup 提供共享的去中心化的顺序处理能力，这个方案也正在努力被构建中。\n\n\nSequencer 是 Rollup 框架的组成部分，负责将交易分组并将压缩数据提交…",
+          "link": "https://www.theblockbeats.info/news/34768",
+          "publishedOn": "2023-02-17T01:30:02.000Z",
+          "wordCount": null,
+          "title": "Rollup定制化时代开启？可扩展性解决方案RaaS生态全解读",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/34758",
           "author": null,
           "description": "原文标题：《\n\nA Deep Dive Into DeSo\n\n\n》\n\n原文作者：Kadeem Clarke，m6labs.co\n原文编译：深潮 TechFlow\n\n\n社交媒体已经改变了我们的沟通方式，但不是每个人都认为这些变化总是积极的。许多社交媒体平台都因没有适当调整内容而受到批评，导致虚假信息的传播。\n\n\n\n\n\n人们对社交媒体处理审查、隐私、用户控制、数据盗窃和分享的方式感到沮丧。例如，Facebook 和 Instagram 已经面临法律诉讼，因为它们损害了用户的信任。\n\n\n超过 40 亿人或世界人口的一半以上使用社交媒体。平均而言，互联网用户每天在社交媒体上花费 2.5 小时。\n\n\n数据泄露是社交媒体上的一个普遍问题。你的个人信息可能很快就会出现在一个非法网站上。2021 年的 Facebook 泄露事件只是一个例子--超过 5.33 亿用户的信息被曝光。LinkedIn 也面临类似的问题。\n\n\n虽然大型科技政策仍在更新，但去中心化社交媒体的可能会提供解决方案。\n\n\nDeSo - 去中心化社交\n\n\n\n\n\nDeSo 是一个去中心化的社交网络，，它不仅让用户可以访问大多数 Web 2.0 社交媒体平台的功能，还通过让用户对其内容进行控制和货币化选项来改进它。\n\n\nDecentralized Social 区块链的原生加密货币是 $DESO。这个独特的第 1 层区块链是开源的，旨在支持和扩展需要大量数据的社交媒体应用程序。\n\n\nDeSo 的开端\n\n\n前谷歌软件工程师 Nader Al-Naji 创办了 Decentralized Social。他对去中心化社交媒体的投入为他赢得了「Facebook 杀手」的绰号。\n\n\n2019 年 5 月，BitClout 开始致力于去中心化社会区块链。此外，BitClout 还建立了 DeSo 基金会，以帮助社交媒体和区块链开发的去中心…",
@@ -3189,6 +3259,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5185144",
+          "author": "Loopy Lu",
+          "description": "头条\nBTC 突破 2.5 万美元， 24 小时涨幅 9.09% \n\nOdaily星球日报讯 OKX 欧易行情显示，BTC 突破 2.5 万美元，目前暂报 24926 美元， 24 小时涨幅 9.09% 。\nETH 突破 1700 美元， 24 小时涨幅 9.34% \nOdaily星球日报讯 OKX 欧易行情显示，ETH 突破 1700 美元，目前暂报 1725 美元， 24 小时涨幅 9.34% 。\n比特币算力昨日突破 300 EH/s，创历史新高\nOdaily星球日报讯 欧科云链 OKLink 多链浏览器数据显示，比特币算力于昨日达到 303.14 EH/s，创历史新高。当前比特币算力暂报 303.77 EH/s， 24 小时涨幅达 0.59% ，全网难度暂报 39.16 T。\n行业要闻\nLookonchain：比特币和以太坊上涨或与机构/基金投入 16 亿美元资金有关\nOdaily星球日报讯 链上分析师@Lookonchain 在社交媒体发文称，比特币和以太坊今日出现上涨，链上数据显示自 2 月 10 日以来几家基金/机构已经向加密市场投入了近 16 亿美元，这段时间内基金/机构从 Circle 取出了 16 亿美元的 USDC，但仅存入了约 2 亿美元的 USDC，分析认为机构投资者并没有因为前期比特币和以太坊的下跌而停止向加密市场注资。\n币安 CSO：公司预计将支付罚款以解决美国对业务的现有调查\nOdaily星球日报讯 币安首席战略官 Patrick Hillmann 在接受采访时表示，公司预计将支付罚款，以解决美国监管和执法部门对其业务的现有调查。\n知情人士称，美国司法部已经在就币安可能违反美国反洗钱法的行为对该公司展开调查。据悉，美国商品期货交易委员会（CFTC）已经在调查币安是否在未向 CFTC 适当注册的情况下向美国客户提供加密货币衍生品。\n\n金融稳定委员…",
+          "link": "https://www.odaily.news/post/5185144",
+          "publishedOn": "2023-02-17T02:12:31.000Z",
+          "wordCount": 2038,
+          "title": "星球日报 ｜ 近日上涨或源自机构资金；OKBChain即将上线；FSB确定DeFi监管政策（2月17日）",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5185130",
           "author": "R3PO",
