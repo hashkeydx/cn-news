@@ -51,11 +51,162 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-20 datetime="2023-02-20T03:11:37.000Z">2023-02-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-20 datetime="2023-02-20T03:11:37.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-20 datetime="2023-02-20T03:36:31.000Z">2023-02-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-20 datetime="2023-02-20T03:36:31.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185187"
+                        open
+                      >
+                        <summary class="article-expander__title">频频重拳出击，SEC监管行动将持续影响数字资产波动</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185187">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>主要观点
+
+在没有数字资产立法的情况下，美国证券交易委员会继续通过执法进行监管；
+
+经济数据继续表明了比美联储希望的更持久的通胀压力。现在基本可以预见的是 2022 年上半年将再加息两次；
+
+Silvergate 吸引了许多著名买家的兴趣，尽管它是美国股市中被卖空最多的股票。
+
+SEC在缺乏数字资产立法的情况下继续通过执法进行监管
+上周，美国证券交易委员会 (SEC) 采取了两项与数字资产相关的重大行动。这些行动是在上个月针对 Genesis 和 Gemini 通过 Gemini Earn 借贷计划未经注册地提供和销售加密资产证券的指控之后采取的。
+第一次行动发生在 2 月 9 日，当时 SEC 在缺乏数字资产立法的情况下继续通过执法进行监管美国证券交易委员会指控 Payward Ventures, Inc. 和 Payward Trading Ltd.（两者通常称为 Kraken）“未能注册其加密资产质押即服务的要约和销售”程序。” Kraken 实体通过支付 3000 万美元与 SEC 达成和解，并立即停止通过美国的加密资产质押服务或质押计划提供或出售证券。此外，在不承认或否认 SEC 投诉中的指控的情况下，Kraken 同意永久停止在美国开展质押业务。
+该公告引起了行业领导者和美国证券交易委员会的多项回应。第一个来自 SEC 专员 Hester Peirce，她反对她所在组织的决定。Peirce 声称注册是不可能的，而且“与加密货币相关的产品很难通过美国证券交易委员会的注册渠道。”此外，她暗示目前没有足够的指导意见能够让像 Kraken 这样的公司做出与注册相关的明智决定。
+行业领导者随后做出回应。Coinbase 的首席执行官 Brian Armstrong 及其首席法律官 Paul Grewal 以及 Kraken 的董事长 Jesse Powell 在推特上表示…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185189"
+                        open
+                      >
+                        <summary class="article-expander__title">一文详解以太坊验证者的生命周期</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185189">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Understanding The Validator Lifecycle》
+原文作者：Jim McDonald
+原文编译：John
+理解验证者 (Validator) 的生命周期
+以太坊 2.0 使用权益证明来确保其网络安全性， 被称为「验证者」的计算机进程将对即将被打包的下一个区块进行投票（下文称「见证」），同时他们也会提议让自己的区块被打包进去。但是，验证者不是仅处于「开」与「关」的状态：他们会在他们的生命周期里历遍一系列的交易。这篇文章将深度剖析验证者的生命周期，展示每个状态和状态转换之际发生的事情，什么触发了状态转换，以及每次状态转换所需要的时间（注解 1 ）。
+时间上的一个符号
+在以太坊 2.0 里，时间通常是以 epoch 为单位，一个 epoch 包括了 384 秒即大概是 6 分半。为了方便理解，以这种方式计量的时间被粗略地翻译成分钟，小时和天，并伴有可用的准确信息在相对应的脚注里。
+生命周期概览
+在深入分析细节之前，先来看看验证者的生命周期概览，以及用来描述其不同状态的术语。
+
+图表 1 ：验证者生命周期概览
+
+以下是状态标签:
+
+已存款 - 存款协议已被以太坊（Ethereum） 1.0 网络接受
+
+待处理 - 存款协议已被以太坊（Ethereum） 2.0 网络接受
+
+活跃中 - 验证者正在见证和提议区块
+
+退出中 - 验证者正处在中止见证和提议区块的进程
+
+罚没中 - 验证者被发现作弊，正处在中止见证和提议区块的进程中
+
+已退出 - 验证者不再参与见证
+
+一个元状态同样被定义了: 见证, 即所有验证者要参与进来见证和提议区块的状态（活跃中，退出中的，罚没中）。这个状态是重要的，因为当验证者处于这些状态时需要去访问以太坊（Ethereum） 2.0 网络来与其职责保持同步以免被惩罚。
+
+图表 2 ：见证的元状态
+
+定义了这些状态之后就是详…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185188"
+                        open
+                      >
+                        <summary class="article-expander__title">FIL一路“高歌猛进”，其背后的代币经济有何隐藏信息？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185188">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Medium，原文作者：Vik Kalghatgi，由 Odaily 星球日报译者 Katie 辜编译。
+
+自分布式存储网络 Filecoin 于上周发布 2023 年三项重大项目更新（FVM、数据计算、检索市场）后，FIL 在过去的一周不断打破自己的“天花板”，FIL 最新价格已经突破 9 USDT， 24 小时涨幅达 21.35% 。接下来 Odaily 星球日报就带大家一起来了解 Filecoin 代币经济对代币持有者和未来生态的影响。
+Filecoin 介绍
+Filecoin 网络于 2020 年 10 月推出，为 IPFS 协议引入了激励层，并实现了数据的开放服务。如今，Filecoin 网络被大众所熟知主要是作为一种开放服务的存储。然而，早期的一篇总结网络方向的文章为 Filecoin 提出了更大的愿景，也包括“存储、分发和转换数据的基础设施”。
+Filecoin 执行这一愿景的“主要计划”首先要积累大量的硬件资源（存储容量和计算能力）。这一点很重要，因为Web3 基础设施能够可靠地取代传统云储存（甚至不仅是与传统云储存竞争）的唯一途径是，它能够以超过当前产品的数量级和规模运行。虽然还没有 Web3 协议实现这一点，但目前已经取得了一定进展。
+此外，为了推动对网络资源（容量、检索和计算能力）的长期需求，至关重要的是用有效的数据引导网络，并开发软件和工具，以便在数据之上实现计算和可组合服务。最终对这些服务的需求将成为 Filecoin 区块链之上强劲经济的基础。
+Filecoin 的代币经济在设计时就考虑到了这一长期愿景，并有助于激励网络的快速增长和发展。到目前为止，该网络的承诺存储容量超过 16 EiB，生态系统的爆炸式发展推动了对网络资源的需求。这种增长和持续的成功归功于 Filecoin 社区的努力，这是一个由存储客户端、开发人员、存储提供商（SP…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185185"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | SBF名下只有10万美元，超7亿美元遭检察官没收；BAKC NFT系列logo疑似未经艺术家授权（2月20日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185185">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+
+
+BAKC NFT 系列 logo 疑似未经艺术家授权，将被删除并替换
+Yuga Labs 旗下 Bored Ape Kennel Club (BAKC) NFT 系列的 logo 疑似未经许可或未经其艺术家许可使用。Twitter 用户首先注意到了这一相似之处，随后该图片的原创者 Easy Drawing Tutorial 和 Yuga Labs 联合创始人 Greg Solano 均承认了这一点。Solano 还表示，该项目网站上的 logo 将被删除并替换，Yuga Labs 将要求市场也这样做。
+SBF：名下只有 10 万美元，超 7 亿美元遭检察官没收
+根据加密货币交易所 FTX 前首席执行官 SBF 的说法，在他的公司破产并因涉嫌欺诈指控被捕后，他名下只有大约 10 万美元。然而，美国联邦检察官似乎已经没收了多达 7 亿美元，据信所有这些资金都在 SBF 本人或交易所所属的账户中。
+
+加密货币
+
+数据：加密行业 2022 年游说支出达 2155 万美元，创历史记录
+据专注于追踪政治捐款的研究机构 OpenSecrets 数据显示，加密货币公司 2022 年在华盛顿的游支出达 2155 万美元，创下历史记录，其中 Coinbas 该项花费位列榜首。据悉，加密公司 2022 年游说支出超过 2021 年（829 万美元）的两倍。该统计汇总了超 50 个行业参与者所披露的信息，其中 Coinbase 该项花费约为 340 万美元，位列名单第一位；其次 Blockchain Association、Crypto. com、Binance Holdings 和 Ripple 相关支出分别为约 190 万美元、 120 万美元、 110 万美元和 100 万美元。其中，竞选捐款、选举资金或政治捐款不计入游说支出。
+过去 24 小时 Blur 的 ETH 销毁量升至第…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -253,77 +404,6 @@ CoinShares产品负责人Townsend Lansing表示：“该行动的基础必然是
                             <span class="media-object__text">
                               <span>PANews 2月20日消息，据Live Bitcoin News报道，美国民主党众议员Jesus “Chuy” Garcia已被免去众议院金融服务委员会的职务。此前共和党人控制了众议院，凯文·麦卡锡出任众议院议长。Garcia被免职似乎主要源于他接受了SBF政治捐款的指控。在2020年和2022年选举期间，SBF向几位民主党议员的政治竞选活动捐赠了大量资金。Garcia表示，联邦政府没有就他接受SBF捐赠一事询问过他。他也没有提及是否已经退还或计划退还捐款。Garcia现已发起竞选活动，将竞选芝加哥市长一职。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185188"
-                        open
-                      >
-                        <summary class="article-expander__title">FIL一路“高歌猛进”，其背后的代币经济有何隐藏信息？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185188">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Medium，原文作者：Vik Kalghatgi，由 Odaily 星球日报译者 Katie 辜编译。
-
-自分布式存储网络 Filecoin 于上周发布 2023 年三项重大项目更新（FVM、数据计算、检索市场）后，FIL 在过去的一周不断打破自己的“天花板”，FIL 最新价格已经突破 9 USDT， 24 小时涨幅达 21.35% 。接下来 Odaily 星球日报就带大家一起来了解 Filecoin 代币经济对代币持有者和未来生态的影响。
-Filecoin 介绍
-Filecoin 网络于 2020 年 10 月推出，为 IPFS 协议引入了激励层，并实现了数据的开放服务。如今，Filecoin 网络被大众所熟知主要是作为一种开放服务的存储。然而，早期的一篇总结网络方向的文章为 Filecoin 提出了更大的愿景，也包括“存储、分发和转换数据的基础设施”。
-Filecoin 执行这一愿景的“主要计划”首先要积累大量的硬件资源（存储容量和计算能力）。这一点很重要，因为Web3 基础设施能够可靠地取代传统云储存（甚至不仅是与传统云储存竞争）的唯一途径是，它能够以超过当前产品的数量级和规模运行。虽然还没有 Web3 协议实现这一点，但目前已经取得了一定进展。
-此外，为了推动对网络资源（容量、检索和计算能力）的长期需求，至关重要的是用有效的数据引导网络，并开发软件和工具，以便在数据之上实现计算和可组合服务。最终对这些服务的需求将成为 Filecoin 区块链之上强劲经济的基础。
-Filecoin 的代币经济在设计时就考虑到了这一长期愿景，并有助于激励网络的快速增长和发展。到目前为止，该网络的承诺存储容量超过 16 EiB，生态系统的爆炸式发展推动了对网络资源的需求。这种增长和持续的成功归功于 Filecoin 社区的努力，这是一个由存储客户端、开发人员、存储提供商（SP…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185185"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | SBF名下只有10万美元，超7亿美元遭检察官没收；BAKC NFT系列logo疑似未经艺术家授权（2月20日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185185">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-
-
-BAKC NFT 系列 logo 疑似未经艺术家授权，将被删除并替换
-Yuga Labs 旗下 Bored Ape Kennel Club (BAKC) NFT 系列的 logo 疑似未经许可或未经其艺术家许可使用。Twitter 用户首先注意到了这一相似之处，随后该图片的原创者 Easy Drawing Tutorial 和 Yuga Labs 联合创始人 Greg Solano 均承认了这一点。Solano 还表示，该项目网站上的 logo 将被删除并替换，Yuga Labs 将要求市场也这样做。
-SBF：名下只有 10 万美元，超 7 亿美元遭检察官没收
-根据加密货币交易所 FTX 前首席执行官 SBF 的说法，在他的公司破产并因涉嫌欺诈指控被捕后，他名下只有大约 10 万美元。然而，美国联邦检察官似乎已经没收了多达 7 亿美元，据信所有这些资金都在 SBF 本人或交易所所属的账户中。
-
-加密货币
-
-数据：加密行业 2022 年游说支出达 2155 万美元，创历史记录
-据专注于追踪政治捐款的研究机构 OpenSecrets 数据显示，加密货币公司 2022 年在华盛顿的游支出达 2155 万美元，创下历史记录，其中 Coinbas 该项花费位列榜首。据悉，加密公司 2022 年游说支出超过 2021 年（829 万美元）的两倍。该统计汇总了超 50 个行业参与者所披露的信息，其中 Coinbase 该项花费约为 340 万美元，位列名单第一位；其次 Blockchain Association、Crypto. com、Binance Holdings 和 Ripple 相关支出分别为约 190 万美元、 120 万美元、 110 万美元和 100 万美元。其中，竞选捐款、选举资金或政治捐款不计入游说支出。
-过去 24 小时 Blur 的 ETH 销毁量升至第…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6022,108 +6102,6 @@ Patrick Hillmann表示，币安发展迅速，最初是一家由软件工程师�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/q65ty2nn.html"
-                        open
-                      >
-                        <summary class="article-expander__title">法官拒绝在FTX破产案中任命独立审查员</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/q65ty2nn.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月15日消息，据CoinDesk报道，在周三的听证会上，一名美国法官否决了任命一名独立审查员调查 FTX 破产案的动议。并表示没有必要任命审查员进行“又一次代价高昂的调查，这将减缓案件的进展”。特拉华州破产法院的John Dorsey法官支持FTX，并表示没有必要任命审查员进行“又一次代价高昂的调查，这将减缓案件的进展”。FTX的律师此前曾表示，一项独立审查最终可能会耗资1亿美元。
-此前，美国多个州官员支持在FTX破产案中任命独立审查员。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/s6c642fs.html"
-                        open
-                      >
-                        <summary class="article-expander__title">BLUR上线不到24小时交易额已突破10亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/s6c642fs.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月15日消息，据Coinmarketcap最新数据显示，NFT市场Blur平台代币BLUR今日上线后交易额已突破10亿美元，本文撰写时达到1,015,091,364美元，其中CEX交易额约为723,512,173美元，DEX交易者约为231,050,615美元。此外，当前BLUR已跌至0.9079美元，市值下降至326,828,200美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/o99mx78z.html"
-                        open
-                      >
-                        <summary class="article-expander__title">流动性协议Onyx计划于3月1日启动主网</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/o99mx78z.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月15日消息，流动性协议 Onyx (XCN) 发推文称，“对 Onyx 流动性协议的初步审计没有发现重大技术问题。我们计划在 3 月 1 日完成审核并启动主网。”</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/z2jgnkgn.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3友好娱乐公司Superplastic完成2000万美元融资，亚马逊风投部门Alexa Fund领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/z2jgnkgn.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月15日消息，据Decrypt报道，Web3 友好娱乐公司 Superplastic 完成 2000 万美元 A-4 轮融资，亚马逊风险投资部门 Alexa Fund 领投，Google Ventures、Galaxy Digital、Sony Japan、Animoca Brands、Craft Ventures 等参投。Superplastic 已创造了超过 2.5 万枚 NFT，包括 PFP 系列（总交易量 320 万美元）和与 Gucci 合作的 NFT 系列（总交易量超过 1000 万美元）。其 NFT 系列 Cryptojankyz 于 2021 年 7 月推出，总交易量接近 1520 万美元。
-本轮融资完成后，Superplastic 筹集资金总额已达到 5800 万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/qjdejmzt.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Cosmos Hub第四个支持跨链NFT的公开激励测试网开放注册，奖金池为2万枚ATOM</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qjdejmzt.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月15日消息，据Cryptoslate报道，Cosmos Hub第四个支持跨链NFT的公开激励测试网开放注册，奖金池为2万枚ATOM（约合27万美元）。本次测试旨在验证ICS-721的应用，共分为两个阶段，第一阶段已开放测试网，第二阶段将包含一场黑客马拉松，验证者和开发者拟在多个IBC兼容链测试跨链NFT，包括IRISnet、Stargaze、Juno、OmniFlix和Uptick。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7608,8 +7586,8 @@ Odaily星球日报讯 一份文件显示，对冲基金 Armistice Ca…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4219692785">
-        <time id="build-timestamp" datetime="2023-02-20T03:14:37.039Z">2023-02-20T03:14:37.039Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4219967174">
+        <time id="build-timestamp" datetime="2023-02-20T04:09:48.873Z">2023-02-20T04:09:48.873Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
