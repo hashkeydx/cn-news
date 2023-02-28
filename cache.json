@@ -2193,6 +2193,76 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/35086",
+          "author": null,
+          "description": "用户体验是许多以太坊用户（尤其是南半球用户）经常选择中心化解决方案而不是链上去中心化替代方案的关键原因。",
+          "link": "https://www.theblockbeats.info/news/35086",
+          "publishedOn": "2023-02-28T06:15:28.000Z",
+          "wordCount": null,
+          "title": "V神谈加密支付：总结5次经验教训后，以太坊该怎么做？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/35083",
+          "author": null,
+          "description": "市场整体压力水平不高，承接能力略有增加。",
+          "link": "https://www.theblockbeats.info/news/35083",
+          "publishedOn": "2023-02-28T06:04:51.000Z",
+          "wordCount": null,
+          "title": "第10周链上数据分析：短期资金注入，市场整体情绪状态呈中性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/35082",
+          "author": null,
+          "description": "未来随着基础设施的完善，信用借贷赛道拥有爆发式增长的可能性。",
+          "link": "https://www.theblockbeats.info/news/35082",
+          "publishedOn": "2023-02-28T05:14:39.000Z",
+          "wordCount": null,
+          "title": "信用赛道TrueFi：信用借贷业务的风险与机遇",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/35081",
+          "author": null,
+          "description": "一年之后，我们再次迎来Solidly浪潮，6个讨论度最高的ve(3,3)项目一览。",
+          "link": "https://www.theblockbeats.info/news/35081",
+          "publishedOn": "2023-02-28T03:55:04.000Z",
+          "wordCount": null,
+          "title": "DeFi迎来「Solidly分叉季」，当前最热的ve(3,3)项目有哪些？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/35080",
+          "author": null,
+          "description": "上周融资总数为38笔，总金额约4.3亿美元，平均融资金额为1261万美元，较上周均有明显提升，其中包含多笔对硬件钱包的高额融资。",
+          "link": "https://www.theblockbeats.info/news/35080",
+          "publishedOn": "2023-02-28T03:51:55.000Z",
+          "wordCount": null,
+          "title": "2023年第10周融资精选，押注硬件钱包成共识？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/35079",
+          "author": null,
+          "description": "twelvefold.btc已被提前被铸造。",
+          "link": "https://www.theblockbeats.info/news/35079",
+          "publishedOn": "2023-02-28T03:09:39.000Z",
+          "wordCount": null,
+          "title": "Yuga Labs发比特币NFT ，会成Ordinals生态「奇点」吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/35078",
+          "author": null,
+          "description": "一起来比特币链上做Yuga Labs家人？",
+          "link": "https://www.theblockbeats.info/news/35078",
+          "publishedOn": "2023-02-28T03:03:21.000Z",
+          "wordCount": null,
+          "title": "教程：Yuga Labs比特币NFT来了，先学下比特币NFT如何Mint",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/35067",
           "author": null,
           "description": "原文标题：《\n\nBuidlerDAO & SevenX：Lens Protocol 万字深研报告\n\n》\n\n原文作者：@Yinghao,@Jason,@Louis,@Jane\n\n\n引言\n\n\nLens Protocol 是由领先的 DeFi 项目 Aave 团队面向开发者打造的 Web3 社交协议。\n\n\nLens Protocol 本身不是一个前端的产品，而是一个中后端的协议服务层。开发者基于其提供的 API，可以在上面低成本构建出社交产品，这也就是为什么 Lens Protocol 的 logo 是一束花的原因。他们希望打造一个开源的「开发者花园」，希望自己成为这片社交花园里的土壤与肥料，开发者可以再上面种出一束束的鲜花。\n\n\n我们对于 Web3 社交的叙事已经耳熟能详：痛斥 Web2 的 Facebook、Twitter 等旧世界的社交巨头中心化的存储、垄断用户数据，制造数据孤岛，以及因为数据中心化导致每一个社交产品都是在互相争抢用户的注意力，最终整个社交生态是一个零和游戏。\n\n\n所以，我们也看到产生了大量基于「数据开放、数据确权」叙事的 Web3 社交产品，但是最终也鲜有跑出来的杀手级产品。其中重要的原因在于大多数 Web3 社交产品依然没有摆脱 Web2 数据孤岛的困局，依然在制作一个又一个的数据孤岛。\n\n\n也许你会疑惑：区块链的特点不就是数据透明吗？它天然的优势不就是破除数据孤岛吗？但是我们要明白破除数据孤岛有三个步骤：\n\n\n数据透明\n数据确权\n数据互通\n\n\n大多数 Web3 社交产品将用户数据与行为上链后，解决了前两步数据透明与数据确权，但是却依然没有解决第三步数据互通，而数据互通需要扫清的障碍就是数据格式的一致性。\n\n\n基于区块链的社交产品确实首先可以让用户成为其数据的 owner，其次数据上链可公开共享。但 Web2  数据的边界是服务器，Web3 数据的边界是…",
