@@ -51,11 +51,195 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-04 datetime="2023-03-04T04:19:27.000Z">2023-03-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-04 datetime="2023-03-04T04:19:27.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-04 datetime="2023-03-04T05:02:47.000Z">2023-03-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-04 datetime="2023-03-04T05:02:47.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185491"
+                        open
+                      >
+                        <summary class="article-expander__title">深入探索LSD高阶玩法及其本质</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185491">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ETH Staking 奖励是相对平等的，那么那些高收益的 LSD 项目是怎么回事？有一句名言：如果你不知道收益从哪来，那你就是收益来源。
+从 Frax/Yearn 的 LSD 到杠杆 Staking 再到 re-staking, 本文将为你抽丝剥茧，一眼看穿 这些 LSD 高阶玩法的本质。
+协议资产激励
+首先，我们用一张图来分析 Frax/ frxETH 的收益分配体系，用黄色标注出收益来源：
+
+FXS 代币激励，就是 Frax Finance 的权益直接激励给 frxETH Pool
+
+Frax 控制的 vlCVX/veCRV 投票间接让 CRV/CVX 激励给 frxETH Pool
+
+ETH 的 Staking 激励
+
+
+1/2 无论是直接还是间接，本质上都是 Frax Finance 出的激励，无非是形式和包装不同。所以我们将此图简化一下，就非常明了，收益来源和分配就是：
+
+Frax Finance 协议资产/协议收入激励了 frxETH
+
+frxETH/sfrxETH 两者的 Staking 收益全部给了 sfrxETH
+
+sfrxETH 吃“两份” Staking 收益，APR 自然就高了
+
+同理我们按此分析一下 Yearn 近期预计出品的 yETH：
+
+也把他简化一下，一眼就看出收益来源和分配就是：
+
+Yearn Finance 协议资产激励流动性从而间接激励了 yETH
+
+yETH/st-yETH 两者的 sfrxETH 收益全部给了 st-yETH
+
+不过需要注意的是，这里所谓的 “协议资产” 并非仅是 Yearn 的国库所有的，可能还包括 Yearn 从 yCRV 产品那里挪过来的投票权
+
+是的，frxETH/st-yETH 超额收益来源都是协议资产在直接或间接的补贴！
+诶，这么看下去岂不是无限套娃了？但
+
+协议资产是有机会成本的，比如 vlCVX/ …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185239"
+                        open
+                      >
+                        <summary class="article-expander__title">ZK开发者必读：从入门到高阶的可选工具</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185239">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文：A Developer’s Guide to the zkGalaxy
+去年夏天，Vitalik 写了一篇博文，概述了不同类型的 zkEVM（零知识以太坊虚拟机）。Vitalik 根据性能和兼容性来定义与权衡。
+
+这是一个非常有用的启发式方法，以区分支持 zkEVM 的方法。然而，zkEVM 是构建零知识应用程序的所有可能方法的一个子集。对于想要利用 zk 计算的独特属性，即简洁性、零知识和正确性的程序员来说，zkEVM 可能不是最好的选择。通过阐述整个开发工具集，本文希望提供一个指南，帮助开发者在决策过程中选择合适的 zk 堆栈。
+抽象复杂度的力量
+在过去的一两年中，zk 工具有了巨大的进步。使得普通软件的开发人员可以利用 zk 的强大属性，而不需要深入了解令人生畏的基础数学和工程。另一方面，为高级用户提供的工具激增，使 zk 专家能够极其精细地控制 zk 堆栈。
+现代软件是建立在无数的抽象层上的，以最大限度地提高专家的生产力。工程中的抽象有许多优势，这些优势在某种程度上是直观的--网络开发者不需要深入了解操作系统的工作原理。
+建立良好的、可重复使用的抽象层的关键是封装一个层的复杂性，然后为堆栈中更高的层提供简单但有表现力的接口。正确的做法是，这使得具有不同专业领域和知识的开发人员能够在整个堆栈中建立有用的工具。
+毫不奇怪，这些原则也适用于 zk 系统，而且这些抽象层正变得足够成熟，一个 zk 新手今天就可以开始使用它们并构建应用程序。
+
+zk 堆栈与各层的一些工具/技术实例
+低级别的 zk 开发
+Arkworks-rs
+Arkworks-rs 是一个 Rust 库的生态系统，它为 zkSNARK 应用程序的子组件提供高效和安全的实现。Arkworks 为开发者提供了必要的接口，以定制 zk 应用程序的软件栈，而不必重新实现与其他现有库的共性。
+在 Arkworks…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185480"
+                        open
+                      >
+                        <summary class="article-expander__title">超级碗广告金主Limit Break和它的DigiDaigaku NFT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185480">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：Mint Ventures
+原文作者：Scarlett Wu, Mint Ventures 投资经理
+共同作者 : bobo, Mint Ventures 外部研究员
+报告要点
+1. 核心投资逻辑
+1. Free to Own 范式的优越性
+
+充分利用了区块链特性，让游戏资产链上化，更容易定价、流转，这是信任的基础，更是项目核心收入来源——资产交易版税——的基础
+
+创作者主动把经济利益的获取方式长期化（用版税替代一次性发售），这就在商业模式上保证自己与玩家/社区利益的一致性，更容易获得玩家的用户和长期建设投入，形成真正有凝聚力和生命力的社区
+
+通过 NFT 游戏资产的预发和渐进式运营，保证核心的游戏项目上线前，已经具备了一个充满活力和期待的社区，降低了传统 Free to Play 游戏上线遇冷的风险
+
+2. 现金充足，估值低谷
+
+融资：Limit Break 曾宣布 2 亿美元融资，目前现金充足，有长期建设的计划
+
+版税：仅 DigiDaigaku Genesis 交易量近 20 k ETH，发布四个月已有版税收入 1000 ETH
+
+3. 源源不断的机制创新和灵活快速的执行力
+
+配合融资信息放出 (Free, Own) 叙事，一开始就吸引了整个加密圈的火热讨论
+
+遇到版税挑战后，试图从技术上推动 NFT 和 Web3 游戏的高度融合，新叙事的想象空间更大
+
+抓住 BTC NFT 热点，或成为第一个官方进驻 BTC 生态的 NFT 蓝筹
+
+4. 顶级团队，传统游戏 / Web3玩法皆备
+
+Machine Zone 出身的团队，Free to Play 玩法的元老级人物，擅长把握巨鲸用户的心理，曾有单个用户在游戏中消费 $ 8 M，推出的游戏 Game of War: Fire Age 用户的付费金额是移动游戏玩家平均一年付费总额的五倍
+
+团队技术实力过硬，顶住了…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185162"
+                        open
+                      >
+                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0225-0303）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185162">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
+因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
+下面，来和我们一起阅读吧：
+
+DeFi
+
+一文盘点 5 个 ve( 3, 3)类项目的发展现状
+
+Velodrome 上线时间最长，有足够多的项目进行贿赂，质押率高，锁仓时间长，但在最近 VELO 价格的快速上涨后，投票的收益率也持续下降。
+
+Equalizer 中投票者的主要收入来自于交易手续费，约占 70% ，且在这种情况下，投票者通常也能获得 80% 的 APR。高手续费收入加上资本效率较高，这套机制很可能维持。
+Thena 在启动时也吸引了大量项目，现在生态中也有很多项目用自身发行的代币进行贿赂，也相对比较健康。
+Solidlizard 上线时间短，但也因为 Arbitrum 生态的快速发展取得了超过 1 亿美元的流动性。但目前投票者的主要收入是 SLIZ 以及少量费用。
+Solidly v2 似乎主要是在吸引稳定币的流动性，同时给予自身代币交易对较高的收益率，对于项目的长期发展并没有太大帮助。
+Rug、Rug 还是 Rug，一文回顾( 3, 3)模式的血泪史
+Camelot 和 OHM 通过通胀方式来奖励 Token 质押者和 LP 质押者，同时利用金库资金回购来抬高 Token 价格。而 Carrot、Eggs 等反向 ( 3, 3) 项目则通过通缩的方式来惩罚不进行质押 Token 的持有者。
+通过牺牲部分储蓄收益，OHM 的分叉们不断抬高自己的 APY，以这种方式吸引散户投资者的目光。（3, 3 ）模式最终失败的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -418,109 +602,27 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185480"
-                        open
-                      >
-                        <summary class="article-expander__title">超级碗广告金主Limit Break和它的DigiDaigaku NFT</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185480">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：Mint Ventures
-原文作者：Scarlett Wu, Mint Ventures 投资经理
-共同作者 : bobo, Mint Ventures 外部研究员
-报告要点
-1. 核心投资逻辑
-1. Free to Own 范式的优越性
-
-充分利用了区块链特性，让游戏资产链上化，更容易定价、流转，这是信任的基础，更是项目核心收入来源——资产交易版税——的基础
-
-创作者主动把经济利益的获取方式长期化（用版税替代一次性发售），这就在商业模式上保证自己与玩家/社区利益的一致性，更容易获得玩家的用户和长期建设投入，形成真正有凝聚力和生命力的社区
-
-通过 NFT 游戏资产的预发和渐进式运营，保证核心的游戏项目上线前，已经具备了一个充满活力和期待的社区，降低了传统 Free to Play 游戏上线遇冷的风险
-
-2. 现金充足，估值低谷
-
-融资：Limit Break 曾宣布 2 亿美元融资，目前现金充足，有长期建设的计划
-
-版税：仅 DigiDaigaku Genesis 交易量近 20 k ETH，发布四个月已有版税收入 1000 ETH
-
-3. 源源不断的机制创新和灵活快速的执行力
-
-配合融资信息放出 (Free, Own) 叙事，一开始就吸引了整个加密圈的火热讨论
-
-遇到版税挑战后，试图从技术上推动 NFT 和 Web3 游戏的高度融合，新叙事的想象空间更大
-
-抓住 BTC NFT 热点，或成为第一个官方进驻 BTC 生态的 NFT 蓝筹
-
-4. 顶级团队，传统游戏 / Web3玩法皆备
-
-Machine Zone 出身的团队，Free to Play 玩法的元老级人物，擅长把握巨鲸用户的心理，曾有单个用户在游戏中消费 $ 8 M，推出的游戏 Game of War: Fire Age 用户的付费金额是移动游戏玩家平均一年付费总额的五倍
-
-团队技术实力过硬，顶住了…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185162"
-                        open
-                      >
-                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0225-0303）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185162">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
-因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
-下面，来和我们一起阅读吧：
-
-DeFi
-
-一文盘点 5 个 ve( 3, 3)类项目的发展现状
-
-Velodrome 上线时间最长，有足够多的项目进行贿赂，质押率高，锁仓时间长，但在最近 VELO 价格的快速上涨后，投票的收益率也持续下降。
-
-Equalizer 中投票者的主要收入来自于交易手续费，约占 70% ，且在这种情况下，投票者通常也能获得 80% 的 APR。高手续费收入加上资本效率较高，这套机制很可能维持。
-Thena 在启动时也吸引了大量项目，现在生态中也有很多项目用自身发行的代币进行贿赂，也相对比较健康。
-Solidlizard 上线时间短，但也因为 Arbitrum 生态的快速发展取得了超过 1 亿美元的流动性。但目前投票者的主要收入是 SLIZ 以及少量费用。
-Solidly v2 似乎主要是在吸引稳定币的流动性，同时给予自身代币交易对较高的收益率，对于项目的长期发展并没有太大帮助。
-Rug、Rug 还是 Rug，一文回顾( 3, 3)模式的血泪史
-Camelot 和 OHM 通过通胀方式来奖励 Token 质押者和 LP 质押者，同时利用金库资金回购来抬高 Token 价格。而 Carrot、Eggs 等反向 ( 3, 3) 项目则通过通缩的方式来惩罚不进行质押 Token 的持有者。
-通过牺牲部分储蓄收益，OHM 的分叉们不断抬高自己的 APY，以这种方式吸引散户投资者的目光。（3, 3 ）模式最终失败的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >TheBlockBeats - undefined</button>
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35219"
+                        open
+                      >
+                        <summary class="article-expander__title">Uniswap新钱包初体验，有哪些惊喜？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35219">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>钱包赛道的新成员</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -11499,8 +11601,8 @@ Odaily星球日报讯 ZK Rollup 订单簿 DEX ZigZag 创始人 Kedar 在社
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4329456424">
-        <time id="build-timestamp" datetime="2023-03-04T05:07:22.819Z">2023-03-04T05:07:22.819Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4329677406">
+        <time id="build-timestamp" datetime="2023-03-04T06:10:26.169Z">2023-03-04T06:10:26.169Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
