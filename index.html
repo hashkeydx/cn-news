@@ -51,11 +51,212 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-04 datetime="2023-03-04T05:02:47.000Z">2023-03-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-04 datetime="2023-03-04T05:02:47.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-04 datetime="2023-03-04T07:00:01.000Z">2023-03-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-04 datetime="2023-03-04T07:00:01.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35214"
+                        open
+                      >
+                        <summary class="article-expander__title">新手指南：如何使用Scroll zkEVM</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35214">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《
+
+Getting started with Scroll zkEVM
+
+
+》
+
+原文作者：Gaurang (GT) Torvekar
+原文编译：MarsBit
+
+
+本文旨在介绍初学者如何与 L2 Dapps 交互。
+
+
+在本指南中，我将讨论如何开始使用Scroll zkEVM以及如何与以太坊 L2 Dapp 交互。理论上，在本指南中学到的技能可迁移至任何其他 2 层网络。文中，我将使用我创建的 Dapp 进行说明。这是一款链上 TicTacToe 游戏，可在 Scroll L2 网络上玩。
+
+
+准备工作—安装 Metamask（或任何类似的钱包）
+
+
+如果你已经安装了 Metamask，则可以跳过此步骤。如果没有，请访问https://metamask.io/download/并根据您的浏览器或移动设备安装合适的版本。
+
+
+
+
+
+第一步——搭建 Scroll L2 测试网和 Goerli 测试网
+
+
+目前，Scroll zkEVM 已经推出了一个 alpha 测试网。这是一个二层网络，与 EVM（Ethereum 虚拟机）兼容。这意味着在以太坊网络编写的任何智能合约都可以使用同一套工具在 Scroll zkEVM 上进行本地部署。Scroll L2 alpha testnet 目前 &quot;连接 &quot;到 Ethereum L1 上的 Goerli 测试网络。这意味着 Scroll L2 网络向 Goerli L1 网络发送成批的交易，以 &quot;最终确定 &quot;交易。因此，最终，他们仍然依赖于以太坊 L1 网络的 &quot;安全&quot;，但实现了可扩展性，因为不是每笔交易都需要在以太坊网络上发布。
+
+
+您可以通过访问https://scroll.io/alpha并按照说明将网络添加到 Metamask 来设置 Scroll L2 网络。在该页面上，您应该将 Goerli 网络添加到你的 Metamask（如果你尚未这样做）。
+
+
+
+
+
+第 2 步—获得一些 Goerli 测试 ETH
+
+
+通过上述步骤在 Metamask 中设置网络后，你必须从水龙头中获取一些 Goerli ETH。
+
+
+你可以使用以下个水龙头：
+
+
+1. https://goerlifaucet.com/ —这个水龙头一次只给 0.2 ETH，你需要注册/登录 Alchemy 才能获得代币。
+
+
+2. https://goerli-faucet.pk910.de/——这个 PoW（工作证明）水龙头可以提供更多的 ETH，因为你需要保持页面打开并「挖」一些 ETH。相比第一个，我更喜欢这个水龙头。
+
+
+3. https://faucet.paradigm.xyz/——这个水龙头需要你用 Twitter 登录。你需要花费一段时间才能得到 0.1 ETH，因此不太方便。
+
+
+你可以使用上述水龙头中的一个，或三者结合使用。
+
+
+一旦你有足够的 ETH，请继续进行下一步。
+
+
+第 3 步——从 Goerli「桥接」一些 ETH 到 Scroll L2
+
+
+
+
+
+现在，下一步是将上面步骤 2 中积累的一些 ETH 桥接到 Scroll L2 测试网。为此，请前往桥接界面——https: //scroll.io/alpha/bridge
+
+
+按照页面上的说明将一些 ETH 转移到你在 Scroll L2 测试网上的地址。
+
+
+请注意，此交易不会立刻完成，需要一些时间才能转移 ETH。一旦 ETH 被转移，你就可以进入下一步来尝试很棒的链上 Tictactoe 游戏！
+
+
+第 4 步—玩链上游戏 Tictactoe
+
+
+
+
+
+在 https://onchain-tictactoe.vercel.app/查看游戏。将你的钱包连接到此页面并创建一个新游戏。由于这是一款多人游戏，你需要添加朋友的地址，甚至你的第二个钱包可以作为第二个玩家。
+
+
+一旦你创建了你的第一个游戏，你需要从下表中「选择」游戏，然后你就可以开始玩链上的 Tictactoe。
+
+
+这个游戏还有一个有趣的元素！如果你在其中一步犯了错误，或者不想输掉游戏，你可以随时「重置」游戏。
+
+
+注意——我已经开源了游戏的代码。你可以在 GitHub上找到它。
+
+
+第 5 步（可选）——查看 Scroll L2 上的其他 Dapps
+
+
+如果你想在 Scroll 上测试其他 Dapps 和游戏，请查看此页面— https://ethdenver.scroll.systems/
+
+
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35220"
+                        open
+                      >
+                        <summary class="article-expander__title">Treaty，下一代用户生成逻辑链游</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35220">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Next Gen Onchain Gaming with User-Generated Logic》
+原文来源：CURIO RESEARCH 博客
+原文作者：Modeo
+原文编译：Kxp, BlockBeats
+
+
+
+
+区块链游戏的新时代已经来临，在这篇文章中，我将从游戏设计的角度讨论 Treaty 的重要意义。借助链上社交合约，我们可以扩大用户原创内容的维度，并解锁更多新的可能性，如用户生成逻辑（UGL）。此前，许多人认为区块链游戏的设计只是有助于游戏资产的变现。因此，我们之所以推出 Treaty，就是为了向人们证明链游除了资产金融化之外还有广阔的应用空间。
+
+
+
+
+就其核心而言，游戏是建立在一套所有玩家都同意的规则之上的。即使是最简单的游戏，如剪刀石头布，也需要有规则来定义游戏的玩法。更为复杂的游戏，如《绝地求生》则包含有数以千计的规则，用以确定玩家如何与游戏产生互动。这些规则旨在模拟现实世界的真实情况，例如爆头比爆胸造成的伤害更大，而且玩家一般都接受这些设定。除此以外，该游戏还包括其他功能，如蓝色区域，而所有这些也让 PUBG 成为了最受欢迎的大逃杀游戏之一。
+
+
+
+
+用户原创内容（UGC）长期以来一直是游戏行业的支柱，《模拟人生》、《文明》和《足球经理》等游戏都利用它取得了巨大成功。然而，由于游戏物理规律的限制，UGC 的潜力一直不能得到充分的发挥，因为它需要得到玩家的普遍认可。在《文明》系列游戏中，玩家对创建 MOD，如 Harmony in Diversity，来完善游戏物理规则展现出了极大的热情。不幸的是，这些 MOD 只适用于本地机器，而且在多人游戏中需要所有玩家同步使用同一个 MOD 集。这种限制使得 MOD 很难直接合并到真实的游戏中，因此本地 MOD 并不是一种可扩展的方案，无法触及最广泛的受众。虽然这种情况可以理解，毕竟不是所有的玩家都希…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35219"
+                        open
+                      >
+                        <summary class="article-expander__title">Uniswap新钱包初体验，有哪些惊喜？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35219">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>钱包赛道的新成员</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35213"
+                        open
+                      >
+                        <summary class="article-expander__title">2023年有哪些值得关注的低市值加密项目？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35213">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>加密研究员Cyril在这里整理了一份持续增长的最佳低市值加密货币和协议列表，仅供参考。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -251,6 +452,86 @@ Camelot 和 OHM 通过通胀方式来奖励 Token 质押者和 LP 质押者，�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ulbl00ky.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Circle：已将Silvergate持有的一小部分USDC储备存款转移至其他银行合作伙伴</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ulbl00ky.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月4日消息，据官方公告，由于Silvergate Bank持续存在的不确定性，稳定币发行商Circle已将Silvergate持有的一小部分USDC储备存款转移至其他银行合作伙伴。所有USDC储备都存放在几家资本充足的美国银行和Circle Reserve Fund中，Circle Reserve Fund目前持有约80%的USDC储备。德勤(Deloitte)每月都会对总储备进行审核和证明。此外，尽管Silvergate表示其存款相关服务不受影响，但Circle正在积极转移剩余Silvergate相关服务。据此前消息，Circle表示正在解除与Silvergate的部分服务，目前包括USDC在内的所有Circle服务都运转正常。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/713l6lba.html"
+                        open
+                      >
+                        <summary class="article-expander__title">PancakeSwap将于4月第一周上线V3，将推出空投和NFT等活动</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/713l6lba.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月4日消息，据官方消息，去中心化交易所PancakeSwap宣布将于4月第一周上线V3，会增加一系列新功能并推出空投、独家NFT和VIP计划等活动，将提供更好的流动性、更优惠的交易费用、交易奖励以及优化收益农场体验。V3新版本将在BNB Smart Chain（BSC）上率先推出，平台也将开展一连串粉丝回赠活动。截至目前，PancakeSwap总交易量超过4380亿美元，总锁定流动性超过25亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/3f4ni8qa.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Arthur Hayes：将“更加公开“专注于加密货币投资的家族理财室“Maelstrom”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3f4ni8qa.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月4日消息，据The Block报道，BitMEX联合创始人Arthur Hayes表示，他已经准备好“更加公开”他的家族理财室“Maelstrom”。Hayes在LinkedIn上发文称，你会在全球会议上看到我们的投资主管Akshat Vaidya。在加入Maelstrom之前，Vaidya在BitMEX任职超过三年，先后担任投资助理、经理和企业发展和战略融资副总裁。根据Maelstrom的网站，其投资“很酷的东西，专注于加密货币和数字资产”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/faq0rifh.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Tether官方否认曾使用伪造文件开立银行账户，称遵守反洗钱法律要求</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/faq0rifh.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月4日消息，针对《华尔街日报》关于“Tether曾使用伪造文件和空壳公司开立银行账户”的报道，Tether在其官方网站发布声明予以驳斥，称报道完全不准确且具有误导性。Bitfinex和 Tether拥有世界一流的合规计划，并遵守适用的反洗钱、KYC和反恐怖融资法律要求。此前Tether首席技术官Paolo Ardoino已在推特发文驳斥，称《华尔街日报》的报道包含“大量错误信息和不准确之处”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -587,54 +868,6 @@ Camelot 和 OHM 通过通胀方式来奖励 Token 质押者和 LP 质押者，�
                               <span>PANews 3月3日消息，Web3开发者平台Thirdweb宣布将在发布时支持Polygon zkEVM扩展解决方案。称本月晚些时候推出的 Polygon zkEVM Mainnet Beta 是以太坊扩容的新篇章。团队已经部署 Polygon zkEVM 测试网。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/35219"
-                        open
-                      >
-                        <summary class="article-expander__title">Uniswap新钱包初体验，有哪些惊喜？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35219">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>钱包赛道的新成员</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/35213"
-                        open
-                      >
-                        <summary class="article-expander__title">2023年有哪些值得关注的低市值加密项目？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35213">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>加密研究员Cyril在这里整理了一份持续增长的最佳低市值加密货币和协议列表，仅供参考。</span>
                             </span>
                           </div>
                         </a>
@@ -11601,8 +11834,8 @@ Odaily星球日报讯 ZK Rollup 订单簿 DEX ZigZag 创始人 Kedar 在社
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4329677406">
-        <time id="build-timestamp" datetime="2023-03-04T06:10:26.169Z">2023-03-04T06:10:26.169Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4329876886">
+        <time id="build-timestamp" datetime="2023-03-04T07:08:07.743Z">2023-03-04T07:08:07.743Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
