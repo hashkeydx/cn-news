@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-05T16:09:23.079Z</updated>
+    <updated>2023-03-05T17:06:14.036Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -5664,122 +5664,6 @@ BCBS于去年12月批准银行对某些加密货币的敞口不得超过2%的规
         <updated>2023-03-01T05:22:57.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月1日消息，据官方推特，加密期权工具平台Greeks live宣布与Deribit、BIT、NGC、Conomico等投资方达成Pre-A轮投资协议，资金将用于继续发展平台与扩大产品。
 据悉，Greeks.live是新加坡加密对冲基金Bravo trading开发的一款交易应用APP，最初是为Bravo内部使用而建，用于管理Bravo自己的期权投资组合。该平台提供一键Delta对冲、自动DDH、一键插队等工具。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特币开发人员提议创建Vault功能以阻止恶意黑客]]></title>
-        <id>https://panewslab.com/zh/articledetails/9jyh5211.html</id>
-        <link href="https://panewslab.com/zh/articledetails/9jyh5211.html"/>
-        <updated>2023-03-01T04:52:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月1日消息，据CoinDesk报道，比特币开发人员James O'Beirne正在开发Bitcoin Vault功能，当黑客试图窃取比特币时提醒用户，然后通过将资金转移到更安全的钱包来阻止盗窃。O'Beirne在提案草案中写道，“托管比特币的风险是众所周知的，该提案引入了一种机制，可以显著减轻密钥泄露的最坏情况结果：代币丢失。”
-该功能类似于一种比特币智能合约或“契约”，对比特币的使用方式施加限制。Vault用户必须在花费比特币之前在两个不同的区块中广播两个单独的交易，在第一次交易（有时间延迟）后发出警报，允许用户批准交易或将代币扫到另一个钱包。该功能需要一个软分叉，如果被采用，将由Bitcoin Core中的操作码“op _ vault”来表示。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFT市场Blur将在移动端推出后增加对任天堂Switch的支持]]></title>
-        <id>https://panewslab.com/zh/articledetails/2n7hiyps.html</id>
-        <link href="https://panewslab.com/zh/articledetails/2n7hiyps.html"/>
-        <updated>2023-03-01T04:48:56.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月1日消息，针对用户“什么时候能在任天堂Switch上使用Blur”的问题，NFT市场Blur创始人Pacman在推特上回应称：“将在推出移动端后增加对Switch版本的支持。”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DID社交起势，如何交互Starknet生态Starknet Social？]]></title>
-        <id>https://www.theblockbeats.info/news/35104</id>
-        <link href="https://www.theblockbeats.info/news/35104"/>
-        <updated>2023-03-01T04:36:01.000Z</updated>
-        <summary type="html"><![CDATA[随着 Halo 与 Lifeform 生态空投宣布后，Lifeform 在 4 天之内 Avatar 持有者数量由 10 万增长到 100 万，引发了一阵狂欢和 Web 3 社交类应用的热潮，而上周该类应用完成的融资情况也意味着市场开始接受并支持该类应用。其中 Lifeform 以 1 亿美元估值完成 A 轮融资，由 Geek Cartel 领投；而 Web3 社交应用 Towns 完成 2550 万美元融资，a16z 领投。
-
-
-
-
-自此，DID 社交类应用正式进入人们视野中，本文将介绍 Starknet 生态中的一个比较新的去中心化协议 Starknet Social 以及其交互教程，提前做好交互，埋伏空投。
-
-
-
-
-Starknet Social 介绍
-
-
-
-
-Starknet 生态去中心化社交网络协议 Starknet Social 近期发布了其 testnet。首先，介绍一下该协议，Starknet Social 是 Starknet 生态上的去中心化社交网络协议，允许用户通过 Dolven Labs 构建的可定制社交空间：
-
-
--创建各种特性的 avatar（头发、眼睛、配饰等）；
-
-
--选择可用的域名创建属于自己的身份；
-
-
--可验证自己的身份；
-
-
--信用评分机制；
-
-
--集成 app 的去中心化身份；
-
-
-
-
-Starknet Social 交互教程
-
-
-
-
-Starknet Social 交互教程如下：
-
-
-首先需要准备 Starknet 钱包（本文以 Braavos 为例）和一些 geth。
-
-
-
-
--准备 Braavos wallet 或Argent X
-BlockBeats 注，Argent 钱包不太稳定，需谨慎操作，最好使用 Braavos
-
-
--创建钱包，选择 StarkNet Goerli network（SN Goerli）网络，点击添加测…]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beosin 2月安全月报：典型安全事件超21起，NFT钓鱼事件大幅增加]]></title>
-        <id>https://www.odaily.news/post/5185420</id>
-        <link href="https://www.odaily.news/post/5185420"/>
-        <updated>2023-03-01T04:11:25.000Z</updated>
-        <summary type="html"><![CDATA[原文来源：Beosin
-又到了每月安全盘点时刻！据区块链安全审计公司 Beosin 旗下 Beosin EagleEye 安全风险监控、预警与阻断平台监测显示， 2023 年 2 月，各类安全事件数量和涉及金额较 1 月大幅增加。2 月发生较典型安全事件超『 21 』起，各类攻击事件损失总金额约 5688 万美元，较 1 月上涨约 288% 。
-本月共发生了 8 起百万美元以上的安全事件，包括 MyAlgo（920 万美元）、Platypus Finance（850 万美元）、Shata Capital（510 万美元）等。本月约有一半的损失金额来自于针对个人用户的攻击：钱包 MyAlgo 被盗，约 25 个用户地址总计损失超过 920 万美元；NFT钓鱼事件大幅增加，至少有超 2000 万美元的各类 NFT 资产被盗。
-DeFi方面
-共发生『 11 』起典型安全事件
-No.1  2 月 2 日，Polygon链上 BonqDAO 遭受黑客攻击，据官方统计，损失约 185 万美元。
-No.22 月 3 日，Orion Protocol 项目因合约交换功能没有重入保护而被黑客攻击，攻击者获利约 302 万美元。
-No.3  2 月 4 日，稳定币项目 SperaxUSD 因多签钱包内部漏洞被攻击，黑客铸造了 97 亿枚 USDs，获利 31 万美元。
-No.4  2 月 8 日，LianGo 项目方疑似私钥泄露，损失约 126 万美元。
-No.5  2 月 10 日，dForce 遭受黑客攻击，损失约 370 万美元。
-No.62 月 17 日，Avalanche 链上的 Platypus 项目遭受闪电贷攻击，损失约 850 万美元。
-No.7  2 月 17 日，Dexible 项目因合约中函数逻辑漏洞遭受攻击，被盗约 154 万美元。
-No.82 月 21 日，Cosmo…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：2月加密行业裁员人数降至570人，环比减少80%]]></title>
-        <id>https://panewslab.com/zh/articledetails/57tkbosc.html</id>
-        <link href="https://panewslab.com/zh/articledetails/57tkbosc.html"/>
-        <updated>2023-03-01T04:10:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月1日消息，据Cointelegraph报道，过去一个月，加密行业裁员似乎明显放缓，2月份估计有570名加密员工被解雇，较1月份估计的2,850人减少80%。最近的裁员来自加密分析公司 Elliptic和Messari，分别裁员10%和15%。2月初Chainalysis裁员44名员工，占员工总数的4.8%。
-澳大利亚加密货币招聘人员Neil Dundon表示：“裁员激增是一个宏观事件，不仅在Web3中，而且在对长期衰退的担忧推动下，整个技术领域也是如此。”]]></summary>
         <author>
             <name>PA一线</name>
         </author>
