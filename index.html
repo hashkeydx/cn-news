@@ -51,11 +51,303 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-05 datetime="2023-03-05T07:22:05.000Z">2023-03-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-05 datetime="2023-03-05T07:22:05.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-05 datetime="2023-03-05T10:00:00.000Z">2023-03-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-05 datetime="2023-03-05T10:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185496"
+                        open
+                      >
+                        <summary class="article-expander__title">新手Scroll zkEVM交互指南</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185496">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《 Getting started with Scroll zkEVM 》
+原文作者：Gaurang (GT) Torvekar 
+原文编译：MarsBit
+本文旨在介绍初学者如何与 L2 Dapps 交互。
+在本指南中，我将讨论如何开始使用 Scroll zkEVM 以及如何与以太坊 L2 Dapp 交互。理论上，在本指南中学到的技能可迁移至任何其他 2 层网络。文中，我将使用我创建的 Dapp 进行说明。这是一款链上 TicTacToe 游戏，可在 Scroll L2 网络上玩。
+准备工作—安装 Metamask（或任何类似的钱包）
+如果你已经安装了 Metamask，则可以跳过此步骤。如果没有，请访问 https://metamask.io/download/并根据您的浏览器或移动设备安装合适的版本。
+
+第一步——搭建 Scroll L2 测试网和 Goerli 测试网
+目前，Scroll zkEVM 已经推出了一个 alpha 测试网。这是一个二层网络，与 EVM（Ethereum 虚拟机）兼容。这意味着在以太坊网络编写的任何智能合约都可以使用同一套工具在 Scroll zkEVM 上进行本地部署。Scroll L2 alpha testnet 目前 &quot;连接 &quot;到 Ethereum L1 上的 Goerli 测试网络。这意味着 Scroll L2 网络向 Goerli L1 网络发送成批的交易，以 &quot;最终确定 &quot;交易。因此，最终，他们仍然依赖于以太坊 L1 网络的 &quot;安全&quot;，但实现了可扩展性，因为不是每笔交易都需要在以太坊网络上发布。
+您可以通过访问 https://scroll.io/alpha 并按照说明将网络添加到 Metamask 来设置 Scroll L2 网络。在该页面上，您应该将 Goerli 网络添加到你的 Metamask（如果你尚未这样做）。
+
+第 2 步—获得一些 Goerli 测试 ETH
+通过上述步骤在 Metamask 中设置网络后，你必须从水龙头中获取一些 Goerli ETH。
+你可以使用以下个水龙头：
+1. https://goerlifaucet.com/ —这个水龙头一次只给 0.2 ETH，你需要注册/登录 Alchemy 才能获得代币。
+2. https://goerli-faucet.pk 910.de/——这个 PoW（工作证明）水龙头可以提供更多的 ETH，因为你需要保持页面打开并「挖」一些 ETH。相比第一个，我更喜欢这个水龙头。
+3. https://faucet.paradigm.xyz/——这个水龙头需要你用 Twitter 登录。你需要花费一段时间才能得到 0.1 ETH，因此不太方便。
+你可以使用上述水龙头中的一个，或三者结合使用。
+一旦你有足够的 ETH，请继续进行下一步。
+第 3 步——从 Goerli「桥接」一些 ETH 到 Scroll L2
+
+现在，下一步是将上面步骤 2 中积累的一些 ETH 桥接到 Scroll L2 测试网。为此，请前往桥接界面——https: //scroll.io/alpha/bridge
+按照页面上的说明将一些 ETH 转移到你在 Scroll L2 测试网上的地址。
+请注意，此交易不会立刻完成，需要一些时间才能转移 ETH。一旦 ETH 被转移，你就可以进入下一步来尝试很棒的链上 Tictactoe 游戏！
+第 4 步—玩链上游戏 Tictactoe
+
+在 https://onchain-tictactoe.vercel.app/查看游戏。将你的钱包连接到此页面并创建一个新游戏。由于这是一款多人游戏，你需要添加朋友的地址，甚至你的第二个钱包可以作为第二个玩家。
+一旦你创建了你的第一个游戏，你需要从下表中「选择」游戏，然后你就可以开始玩链上的 Tictactoe。
+这个游戏还有一个有趣的元素！如果你在其中一步犯了错误，或者不想输掉游戏，你可以随时「重置」游戏。
+注意——我已经开源了游戏的代码。你可以在 GitHub 上找到它。
+第 5 步（可选）——查看 Scroll L2 上的其他 Dapps
+如果你想在 Scroll 上测试其他 Dapps 和游戏，请查看此页面— https://ethdenver.scroll.systems/
+原文链接</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185240"
+                        open
+                      >
+                        <summary class="article-expander__title">Starkware技术架构与生态应用梳理</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185240">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>StarkWare
+简介
+StarkEx 和 StarkNet 均为 StarkWare 团队开发的项目，前者类似 Iaas，类比应用链，StarkWare 帮助大型项目开发专有应用 Rollup；后者则是可部署通用应用的 Rollup。
+截止目前，StarkWare （StarkNet 背后团队）已经完成 6 轮融资，共计 2.73 亿美元。尤其是最近一轮融资金额达到 1 亿美元，使其估值翻了两番，达到 80 亿。作为 L2 项目中估值最高的项目，本文特探讨 Starkware 的技术架构和生态应用。
+
+StarkEx：专有 ZKR 引擎
+简介
+在去年和今年上半年，StarkWare 通过提供扩容技术解决方案 StarkEx 创立了扩容即服务（scaling as a service）的商业模式，建立应用专有网络，服务业内头部客户 dYdX 、Sorare、ImmutableX、DeversiFi 等。
+整体架构
+
+工作流包括以下四个环节
+
+打包交易：链下服务器处理客户请求，将多个交易组合成一个“批次”，供 StarkEx 处理。
+
+确认交易和更新状态：链下服务器确认交易合法，并以被压缩后的哈希形式更新系统状态。
+
+为交易生成证明：完成上述流程后，SHARP 会为交易生成 STARK 证明以确认交易的有效性。然后将证明和更新发送到链上 Verifier 智能合约，以确保交易的完整性。
+
+链上验证证明：一旦 STARK 证明被验证，状态更新被提交并结算回以太坊主网。所有交易都是在链外处理和验证的，而其完整性的证明是在链上验证的。
+
+SHARP 是一个共享证明者，它同时为多个 StarkEx 客户/应用提供证明生成服务——生成计算完整性声明的证明。
+Verifier 是部署在以太坊上的智能合约，用于验证来自 StarkEx 的交易的正确性。
+StarkWare Applica…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185495"
+                        open
+                      >
+                        <summary class="article-expander__title">Foresight Ventures：RaaS项目分析与最终形态</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185495">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Yihan Xu，Foresight Ventures
+Overview
+
+通过本文你可以了解到：
+
+RaaS 是什么；
+
+RaaS 技术路径分析；
+
+市面上 RaaS 项目的分析；
+
+RaaS 的价值；
+
+我理解的 RaaS 最终形态…
+
+1. RaaS 是什么
+1.1 Rollup: 最具潜力的扩容⽅案
+Layer 2 出现的初衷是缓解主网拥堵问题，在保证安全性的情况下以更低的成本、更高的 TPS 为 Dapp 提供服务。Rollup 将高成本的 transaction execution 放到 L2 执行，并将交易打包到 L1 进行验证，同时确保完整的交易内容可以被验证。在继承以太坊安全性的前提下，具备更强的综合性能。因此，Rollup 已经在各种 layer 2 的解决方案中杀出了⼀条路，无疑是当下最具有潜力的链下 scaling 方案。
+1.2 Rollup-as-a-service: App-specific chain 的其中⼀种形态
+随着⼀些 DApp 的逐渐壮大以及各种新应用的拓展，作为 General purpose scaling 的 Rollup 显然无法完美地满足这些项目对用户体验和成本结构的追求。庞大的流量和对性能超高的要求 ( 注重玩家交互的 3A 游戏 ) 使得这些应用需要更加定制化的扩容解决方案。
+App-specific chain 是对这些 DApp 来说就是当下最好的解决方案之⼀。
+App chain 的概念并不陌生，不同项目可以针对自身应用场景和需求对 blockchain 进行定制化地设计，让 dapp 可以独享⼀条链上的资源，并且在保证不与其他生态割裂的基础上，获得更低的运营成本和更高的 performance，为用户带来更好的使用体验。
+比如基于 Terdermint 共识的 Cosmos 就为 Dapp 提供了低成…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185494"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT市场发展与版税战争</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185494">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：The Royalty Wars
+原文来源：Decentralised.co
+原文作者：Joel &amp; Siddharth
+原文编译：Kxp, BlockBeats
+当我思考我们如今的经济和社会时，我经常把它比作一个由工人、中小型企业、银行、客户和监管者等相互关联的行为者组成的庞大生物系统。其中，每个参与者都扮演着自己的关键角色。当一个企业或员工不再对系统有利时，它就会因为竞争、资源不足或自身利益而离开这个系统。举例来说，一位理性的行为者如果认为自己的投资注定会失败，就会选择立即止损，这就属于维护自身利益。
+当然，市场与生物进化之间存在相似之处并不是一个新兴的概念。亚当·斯密的经济著作曾启发了达尔文成为一名自然主义者并重新定义了现代生物学，而后又给了我无尽的启迪。我经常想象与他们两人进行讨论，深入探讨市场和生态系统演化的相似之处。然而，由于时间旅行还未能成为现实，我只能继续将其作为我闲暇时的美好幻想。
+这篇文章将由我和 Siddharth 共同撰写，他最近一直在探索 NFT 市场的未来，尤其是关于创作者的版税问题。不过，在我们深入探讨这个话题之前，让我们先回过头来看看几年前的发展。
+早年历程
+当时正值 2019 年的 Crypto 寒冬，熊市让大多数人对 Crypto 失去了兴趣，甚至你在 Bumble 上匹配的女孩也不再对你的 Bitcoin 感兴趣。去中心化金融（DeFi）在当时只是一群热衷于金融的怪才在互联网的一个隐秘角落讨论的事情。人们当时热衷于使用自己「毫无用处」的 Token 来获得互联网贷款。那时候最常见的 NFT 类型是未来 Token 的简单协议（SAFT），对于风险资本家来说这是他们在未来获得更多 Token 的投资合约。
+不过，大多数创始人推迟了他们的 Token 发行，风险资本家假装继续支持创始人，同时寻找买家来购买他们的 Token 协议。…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35243"
+                        open
+                      >
+                        <summary class="article-expander__title">周末荐读：1900万美元砸穿整个NFT市场；Silvergate「爆雷」引发市场恐慌情绪</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35243">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本周市场开启回调，之前的板块轮动似乎也告一段落。Blur 新模式给 NFT 市场带来流动性的同时也引发了一系列乱象。有分析师认为市场的突然回落与加密友好银行 Silvergate 的财务缺口和监管审查相关，真相到底如何或许只能等到其母公司发布的财年报告才能知道了。
+
+
+
+
+那些精彩的文章，不会因为时间的流逝而被遗忘。为方便读者回顾及收藏优质内容、跟踪项目最新动态、了解市场行情以及学习与探讨。律动 BlockBeats 将定期为读者总结优质内容。如有任何建议及意见、投稿及观点探讨，欢迎通过本文文末方式联系我们。
+
+
+ 
+ 
+《1900 万美元砸穿整个 NFT 市场，重新审视 Blur 带来的流动性》
+
+
+ 
+伴随这股突然席卷来的流动性，NFT 市场也出现了许多未曾见过的「异常现象」。Bid 出价超过地板、NFT 价格「画门」，再到上周末的「NFT 史上最大砸盘」，眼前的 NFT 市场竟让人觉得陌生起来，我们不禁重新审视，当前 NFT 市场的流动性究竟是来自机制创新的增量，还是存量资金在平台之间的内卷滚动？
+
+
+ 
+《2023 年第 10 周融资精选，押注硬件钱包成共识？》
+
+
+ 
+上周融资总数为 38 笔，数量较上周有一定提升，总金额约 4.3 亿美元，平均融资金额为 1261 万美元，较上周均有明显提升。其中，基础设施领域占据主体，数字资产管理/支付和元宇宙/GameFi 领域的融资相对较多，社交板块融资保持高位，DeFi、NFT 领域融资较少。
+ 
+
+
+《加密市场一夜缩水 600 亿美元，还有新雷？》
+
+
+ 
+3 月 3 日早，加密市场迎来一波快速调整，比特币、以太坊一小时内双双跌超 5%，全网爆仓近 1.6 亿美元。是什么导致加密市场的这波下跌，消息面与基本面上有何动静，本文中我们尝试找到潜在因素如下。
+ 
+
+
+《Silvergate 与加密有什么关系？暴雷的原因是什么…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35242"
+                        open
+                      >
+                        <summary class="article-expander__title">AI重新定义Web3？深度解析AI+区块链如何引领下一代互联网</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35242">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>科技革命将经历从移动互联网到人工智能互联网的转变，而区块链将重新定义下一代互联网的价值、所有权和资产定价方式。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35241"
+                        open
+                      >
+                        <summary class="article-expander__title">ABCDE：我们为什么投资Polyhedra Network？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35241">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>PolyHedra Network 真正意义上成为兼具 zk 互操作性和和 zk 可扩展性的全栈六边形战士。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35240"
+                        open
+                      >
+                        <summary class="article-expander__title">复盘Uniswap的跨链之争，加密独角兽是否初心依旧？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35240">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>尽管 Uniswap 的选择已经尘埃落定，但对于跨链场景仍应该谨慎，多链、跨链、全链的叙事和博弈仍然在进行。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -324,195 +616,6 @@
                               <span>PANews 3月5日消息，据The Block报道，加密交易所Bybit停止接受通过银行转账进行的美元存款，理由是合作伙伴的“服务中断”。该公司在周六发布的一份公告称，“将不再支持通过WIFT和美国银行电汇进行的美元存款，立即生效”。Bybit强调，仍然支持通过加密钱包Advcash存款或使用信用卡购买加密货币。与此同时，用户可以在UTC时间3月10日0点前（北京时间13月11日8点）通过SWIFT或美国银行电汇提现。Bybit将很快推出Advcash钱包提现服务。该交易所表示，Bybit持有的美元资产是安全的。此前，Bybit推出了一个系统，允许客户验证其加密资产储备。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185240"
-                        open
-                      >
-                        <summary class="article-expander__title">Starkware技术架构与生态应用梳理</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185240">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>StarkWare
-简介
-StarkEx 和 StarkNet 均为 StarkWare 团队开发的项目，前者类似 Iaas，类比应用链，StarkWare 帮助大型项目开发专有应用 Rollup；后者则是可部署通用应用的 Rollup。
-截止目前，StarkWare （StarkNet 背后团队）已经完成 6 轮融资，共计 2.73 亿美元。尤其是最近一轮融资金额达到 1 亿美元，使其估值翻了两番，达到 80 亿。作为 L2 项目中估值最高的项目，本文特探讨 Starkware 的技术架构和生态应用。
-
-StarkEx：专有 ZKR 引擎
-简介
-在去年和今年上半年，StarkWare 通过提供扩容技术解决方案 StarkEx 创立了扩容即服务（scaling as a service）的商业模式，建立应用专有网络，服务业内头部客户 dYdX 、Sorare、ImmutableX、DeversiFi 等。
-整体架构
-
-工作流包括以下四个环节
-
-打包交易：链下服务器处理客户请求，将多个交易组合成一个“批次”，供 StarkEx 处理。
-
-确认交易和更新状态：链下服务器确认交易合法，并以被压缩后的哈希形式更新系统状态。
-
-为交易生成证明：完成上述流程后，SHARP 会为交易生成 STARK 证明以确认交易的有效性。然后将证明和更新发送到链上 Verifier 智能合约，以确保交易的完整性。
-
-链上验证证明：一旦 STARK 证明被验证，状态更新被提交并结算回以太坊主网。所有交易都是在链外处理和验证的，而其完整性的证明是在链上验证的。
-
-SHARP 是一个共享证明者，它同时为多个 StarkEx 客户/应用提供证明生成服务——生成计算完整性声明的证明。
-Verifier 是部署在以太坊上的智能合约，用于验证来自 StarkEx 的交易的正确性。
-StarkWare Applica…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185495"
-                        open
-                      >
-                        <summary class="article-expander__title">Foresight Ventures：RaaS项目分析与最终形态</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185495">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Yihan Xu，Foresight Ventures
-Overview
-
-通过本文你可以了解到：
-
-RaaS 是什么；
-
-RaaS 技术路径分析；
-
-市面上 RaaS 项目的分析；
-
-RaaS 的价值；
-
-我理解的 RaaS 最终形态…
-
-1. RaaS 是什么
-1.1 Rollup: 最具潜力的扩容⽅案
-Layer 2 出现的初衷是缓解主网拥堵问题，在保证安全性的情况下以更低的成本、更高的 TPS 为 Dapp 提供服务。Rollup 将高成本的 transaction execution 放到 L2 执行，并将交易打包到 L1 进行验证，同时确保完整的交易内容可以被验证。在继承以太坊安全性的前提下，具备更强的综合性能。因此，Rollup 已经在各种 layer 2 的解决方案中杀出了⼀条路，无疑是当下最具有潜力的链下 scaling 方案。
-1.2 Rollup-as-a-service: App-specific chain 的其中⼀种形态
-随着⼀些 DApp 的逐渐壮大以及各种新应用的拓展，作为 General purpose scaling 的 Rollup 显然无法完美地满足这些项目对用户体验和成本结构的追求。庞大的流量和对性能超高的要求 ( 注重玩家交互的 3A 游戏 ) 使得这些应用需要更加定制化的扩容解决方案。
-App-specific chain 是对这些 DApp 来说就是当下最好的解决方案之⼀。
-App chain 的概念并不陌生，不同项目可以针对自身应用场景和需求对 blockchain 进行定制化地设计，让 dapp 可以独享⼀条链上的资源，并且在保证不与其他生态割裂的基础上，获得更低的运营成本和更高的 performance，为用户带来更好的使用体验。
-比如基于 Terdermint 共识的 Cosmos 就为 Dapp 提供了低成…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185494"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT市场发展与版税战争</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185494">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：The Royalty Wars
-原文来源：Decentralised.co
-原文作者：Joel &amp; Siddharth
-原文编译：Kxp, BlockBeats
-当我思考我们如今的经济和社会时，我经常把它比作一个由工人、中小型企业、银行、客户和监管者等相互关联的行为者组成的庞大生物系统。其中，每个参与者都扮演着自己的关键角色。当一个企业或员工不再对系统有利时，它就会因为竞争、资源不足或自身利益而离开这个系统。举例来说，一位理性的行为者如果认为自己的投资注定会失败，就会选择立即止损，这就属于维护自身利益。
-当然，市场与生物进化之间存在相似之处并不是一个新兴的概念。亚当·斯密的经济著作曾启发了达尔文成为一名自然主义者并重新定义了现代生物学，而后又给了我无尽的启迪。我经常想象与他们两人进行讨论，深入探讨市场和生态系统演化的相似之处。然而，由于时间旅行还未能成为现实，我只能继续将其作为我闲暇时的美好幻想。
-这篇文章将由我和 Siddharth 共同撰写，他最近一直在探索 NFT 市场的未来，尤其是关于创作者的版税问题。不过，在我们深入探讨这个话题之前，让我们先回过头来看看几年前的发展。
-早年历程
-当时正值 2019 年的 Crypto 寒冬，熊市让大多数人对 Crypto 失去了兴趣，甚至你在 Bumble 上匹配的女孩也不再对你的 Bitcoin 感兴趣。去中心化金融（DeFi）在当时只是一群热衷于金融的怪才在互联网的一个隐秘角落讨论的事情。人们当时热衷于使用自己「毫无用处」的 Token 来获得互联网贷款。那时候最常见的 NFT 类型是未来 Token 的简单协议（SAFT），对于风险资本家来说这是他们在未来获得更多 Token 的投资合约。
-不过，大多数创始人推迟了他们的 Token 发行，风险资本家假装继续支持创始人，同时寻找买家来购买他们的 Token 协议。…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/35242"
-                        open
-                      >
-                        <summary class="article-expander__title">AI重新定义Web3？深度解析AI+区块链如何引领下一代互联网</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35242">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>科技革命将经历从移动互联网到人工智能互联网的转变，而区块链将重新定义下一代互联网的价值、所有权和资产定价方式。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/35241"
-                        open
-                      >
-                        <summary class="article-expander__title">ABCDE：我们为什么投资Polyhedra Network？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35241">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>PolyHedra Network 真正意义上成为兼具 zk 互操作性和和 zk 可扩展性的全栈六边形战士。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/35240"
-                        open
-                      >
-                        <summary class="article-expander__title">复盘Uniswap的跨链之争，加密独角兽是否初心依旧？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35240">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>尽管 Uniswap 的选择已经尘埃落定，但对于跨链场景仍应该谨慎，多链、跨链、全链的叙事和博弈仍然在进行。</span>
                             </span>
                           </div>
                         </a>
@@ -9757,8 +9860,8 @@ Odaily星球日报讯 NFT 市场 Blu…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4335510619">
-        <time id="build-timestamp" datetime="2023-03-05T10:07:59.622Z">2023-03-05T10:07:59.622Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4335723153">
+        <time id="build-timestamp" datetime="2023-03-05T11:07:16.840Z">2023-03-05T11:07:16.840Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
