@@ -2,10 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-07T13:19:40.639Z</updated>
+    <updated>2023-03-07T14:07:39.440Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[上线在即，一文了解Polygon zkEVM的核心组件]]></title>
+        <id>https://www.odaily.news/post/5185566</id>
+        <link href="https://www.odaily.news/post/5185566"/>
+        <updated>2023-03-07T12:20:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Salazar.eth
+原文编译：0x11 ，Foresight News
+zkEVM 被认为是以太坊可扩展性的圣杯。Polygon 是在该领域处于领先地位的探索者之一，其 zkEVM 即将推出。在此之前，你需要了解有关 Polygon zkEVM 技术的一些信息。
+
+Polygon zkEVM 是一种去中心化的可扩展性解决方案，它采用零知识证明（ZKP）提供有效性证明来验证交易并在以太坊上实现最终性，同时它是一种 EVM 兼容的扩展性方案。
+在这篇推文中，我们将重点观察 Polygon zkEVM 的这些组件：
+
+共识合约 
+
+zk Node：同步器、排序器、聚合器、RPC 
+
+zk Prover
+
+zk Bridge
+
+共识合约
+此前，Polygon Hermez 1.0 使用 Proof of Donation（PoD）作为共识机制，这是一种协调员创建交易包的去中心化拍卖机制。
+
+如今最新版本合约 PolygonZkEVM.sol 采用 Proof of Efficiency (PoE) ，它借鉴了 PoD 的经验，支持多个协调者以无许可的方式在 L2 上创建交易包。
+合约确保去中心化、效率、免受攻击以及验证工作和网络价值之间的平衡。
+链上数据可用性采用了混合模式，其中数据存储在链外，仅在链上发布有效性证明。
+PolygonZkEVM.sol（部署在 L1 上）用于确保正确的状态转换。智能合约使用 zk-SNARK 电路来验证有效性证明。
+要执行上述操作，需要排序器和聚合器的参与。
+zk Node
+排序器提议交易包，聚合器验证它们。智能合约调用排序器来接收交易包，并调用聚合器来验证它们。
+
+zk Node 是运行 zkEVM 节点所需的软件，它管理 Polygon zkEVM 网络中参与者的角色。 为了跟踪网络状态，参与者可以是节点，也可以作为排序器或聚合器参与交易包生产。
+排序器预处理 L2 交易，向 PoE 智能合约提交交易包，并支付费用。聚合器接收交易信息，将其发送给证明者，接收零知识证明，并将结果发送给智能合约进行验证。
+
+同步器同步交易包及其有效性证明，RPC 则实现与现有工具的集成。
+状态实现默克尔树并检查区块级别的完整性和一些与交易相关的信息。
+zk Prover
+zk Prover 是 Polygon zkEVM 架构的重要组成部分。它负责生成零知识证明，以验证 zkEVM 执行计算的正确性。
+为了生成零知识证明，zk Prover 从聚合器接收输入，聚合器从排序器收集交易信息。然后证明被发送回聚合器，聚合器再将其发送到智能合约进行验证。
+鉴于其高效率和可扩展性，zk Prover 可以以最小的延迟处理大量交易。
+zk Bridge
+zk Bridge 允许用户在 LX 和 LY 两层之间安全和去中心化地转移资产。
+它由两个相同的合约组成，一个部署在以太坊主网上，另一个部署在特定的 Rollup 网络上。
+在 L1 合约中，资产可以在 Rollup 之间转移；而在 L2 合约中，资产可以在主网和 Rollup 之间转移。
+通过智能合约，zk Bridge 还支持不同 L2 网络之间的本地互操作性。
+小结
+总之，Polygon 的 zkEVM 是一种很有前途的解决方案，可以改善以太坊网络的可扩展性问题。
+通过利用 zk-SNARK 电路实现有效性和混合模式实现数据可用性，它提供去中心化、效率和攻击保护，同时保持 EVM 兼容性。共识合约、zk Node、zk Prover 和 zk Bridge 协同工作，以实现安全和去中心化的交易处理。
+随着上线临近，Polygon zkEVM 有望为以太坊的增长和采用做出重大贡献。
+原文链接]]></summary>
+        <author>
+            <name>Foresight News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[投资平台Republic将购买1000万枚ASTRA（约300万美元）]]></title>
         <id>https://panewslab.com/zh/articledetails/46ktkzmg.html</id>
@@ -48,6 +102,24 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[「弃Silvergate转Signature」？一窥加密银行龙头的未来走向]]></title>
+        <id>https://www.odaily.news/post/5185567</id>
+        <link href="https://www.odaily.news/post/5185567"/>
+        <updated>2023-03-07T11:40:00.000Z</updated>
+        <summary type="html"><![CDATA[在SilverGate因未能按时提交 10-K 报告而遭遇 FUD 的当下，同为加密友好型银行的 Signature Bank 在 3 月 2 日提交 10-K 报告，并于 3 日公布 2023 Q1中期财务状况更新，向市场证明自己的持续运营能力。
+两家银行跟FTX暴雷事件都密不可分，均遭受参与其中或知情不报的质疑和指控。但是 Signature Bank 在 2022 年Q4宣布减少加密客户的存款份额，并同期获得超过 100 亿美元左右的贷款，以缓解用户提款造成的流动性危机。
+截止目前，Signature Bank 的财务状况逐步稳定，Coinbase、Circle等机构纷纷“弃 Silvergate 转 Signature”，本文将汇总 10-K 报告和 2023 Q1中期报告精要，一窥加密银行龙头未来走向。
+加密存款占总存款20% 
+Signature Bank 是美国加密生态的重要一环和背后支柱。不同于币安、火币和 OK 等华人交易所的 C 2C出入金模式，加密友好型银行给予了美国等地区客户合法的法币出入金通道。换句话说，在华人系交易所中，市场运作的核心是USDT等稳定币，它们承担着法币出入金和加密市场交易对定价的双重作用，而在 Coinbase、Kraken、FTX 等海外交易所内，整个架构的基础都是银行，不论是 Silvergate 的 SEN 还是 Signature 的 SigNet，都承担着连接加密货币和法币的桥梁作用。
+这样做的好处实际上要优于稳定币体系，如果没有 FTX 暴雷危机的话。监管部门可以直接根据银行监管体系来追踪资金流向，交易所和机构等客户也可以放心在银行存放大额资金，个人散户也免去汇兑资金带来的安全问题。
+
+ 
+Signature 的发迹跟加密货币市场，尤其是交易所密不可分。2018 年 Signature 进入加密市场，主要面向交易所、投…]]></summary>
+        <author>
+            <name>PANews</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[今明两晚23点鲍威尔将分别出席参众两院的听证会作美联储半年度货币政策的证词]]></title>
         <id>https://panewslab.com/zh/articledetails/b7vvf3tr.html</id>
         <link href="https://panewslab.com/zh/articledetails/b7vvf3tr.html"/>
@@ -65,6 +137,77 @@
         <summary type="html"><![CDATA[PANews 3月7日消息，据Decrypt报道，体育 NFT 平台 Blockasset 将从 Solana 转向 Chiliz Chain 2.0。Blockasset 同时将获得 Chiliz 的股权投资，资金来自于 Chiliz 与风险投资公司 Jump Crypto 共同推出的价值 5000 万美元的孵化器 Chiliz Labs。Chiliz 拥有 Socios 粉丝代币和奖励平台。直播提供商 FanFest 和媒体游戏化平台 LiveLike 也同 Blockasset 一起转向 Chiliz 区块链。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[巨额抛售？1700万ETH将在上海升级后解除质押？]]></title>
+        <id>https://www.odaily.news/post/5185568</id>
+        <link href="https://www.odaily.news/post/5185568"/>
+        <updated>2023-03-07T11:20:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：0xSalazar
+原文编译：Biteye 核心贡献者 Crush
+原文来源：Biteye
+
+总有币圈媒体和一些个人散播 FUD，声称上海升级期间，将会有 1700 万个 ETH（280 亿美元）被取消质押。
+但是真相是什么？我想他们不会说。
+
+
+
+
+
+
+
+
+
+
+01 背景介绍
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shanghai，是对 ETH 执行层的升级，而 Capella，是对共识层或信标链（Beacon Chain）的升级，即 Shapella。
+（译者注：信标链是以太坊 2.0 系统的核心，它是一种全新的权益证明 ( PoS ) 区块链，为了解决共识问题而诞生。）
+然而，由于这些升级将同时发生，所以上海升级通常指的是以上两者。虽然本次上海升级还有其他 EIP，但最重要的还是 ETH 提款。
+（译者注：EIP 即 Ethereum Improvement Proposal，以太坊改进提案，是为以太坊潜在新功能或流程提出建议的标准。）
+自 2020 年 12 月信标链上线以来，验证者虽然可以质押 ETH，但却无法提现，这给以 EF 的开发者带来了不小的压力。
+（译者注：EF，即 Ethereum Foundation，以太坊基金会，一个在瑞士注册的非营利性组织，致力于支持以太坊以及相关技术。）
+在去年 12 月例行的 ACDC 会议（All Core Developers' Call，即全体核心开发者电话会议）之后，质押的以太坊将从 2023 年 3 月之后开放提取。但是，目前已推迟到 4 月。
+
+
+
+
+
+
+
+
+
+
+02 取款凭据的格式
+
+
+
+
+
+
+
+
+
+
+由于 Merge 的设计以及信标链与 ETH 的融合，所有验证者都需要将其取款凭据更新为 0x 01 格式才能取款。
+根据 ETH 代码开发人员 @benjaminion_xyz 的说法，0x 00 格式的验证…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
@@ -5351,174 +5494,6 @@ Coinbase 是最早宣布不再与 Silvergate 合作的加密交易所， 3 月 
 总部位于新加坡的加密货币交易所 Crypto.com 也宣称也将拒绝通过…]]></summary>
         <author>
             <name>Moni</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[亏损 10 亿美元，监管缠身，加密友好银行 Silvergate 陷入「生死局」]]></title>
-        <id>https://www.theblockbeats.info/news/35205</id>
-        <link href="https://www.theblockbeats.info/news/35205"/>
-        <updated>2023-03-03T02:06:15.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《亏损 10 亿美元，监管缠身，加密友好银行 Silvergate 陷入「生死局」》
-原文来源：比推 BitpushNews
-
-
-
-在加密友好银行 Silvergate Bank (SI)  爆出无法按时提交年度财报，并正在评估其持续经营的能力后，该公司股价在周四暴跌近 60%，盘中触及 52 周新低，收盘价跌至 5.72 美元，与 2021 年 11 月 219.75 美元的高位相比跌幅超过 97%。
-
-
-
-
-
-
-业务暴亏，监管找上门
-
-
-与去年倒闭的 FTX、BlockFi、Celsius、Voyager 和其他加密公司不同，总部位于加利福尼亚州的 Silvergate 是一家传统的联邦保险贷款机构，将自身定位为通往加密货币领域的门户，接受加密货币交易所和交易商的存款，还建立了自己的加密货币结算支付网络，是那些希望与传统银行系统联系起来的加密公司的重要合作伙伴。
-
-
-但其重要客户-- Sam Bankman-Fried 的 FTX 帝国崩溃，以及持续的加密熊市给该公司带来了沉重打击，该银行上个月公布了近 10 亿美元的净亏损，2022 年四季度客户存款减少了大约 140 亿美元。今年年初，该公司解雇了 40% 的员工，随后暂停支付优先股股息，以支撑现金流。 
-
-
-在周三的监管文件中，Silvergate 表示无法按时向美国证券交易委员会（SEC）提交年度 10-K 报告，因为它需要「额外时间」让独立会计师事务所完成某些审计程序。
-
-
-Silvergate 还在一份前瞻性声明中警告称，它可能面临来自银行监管机构和美国司法部的询问，其在未来一年「持续经营」的能力可能会受到影响。
-
-
-比推此前报道，一月下旬，美国两党参议员敦促该公司就是否知道其客户 FTX 滥用客户资金提供答案。路透社 2 月份报告称，Binance US 控制的一个 Silvergate 账户将数…]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bitfinex Alpha报告：比特币 (BTC) 链上指标看涨]]></title>
-        <id>https://www.odaily.news/post/5185470</id>
-        <link href="https://www.odaily.news/post/5185470"/>
-        <updated>2023-03-03T02:01:50.000Z</updated>
-        <summary type="html"><![CDATA[本周的链上数据报告指出，从长期来看，BTC 的技术指标呈上涨趋势。
-根据 Bitfinex Alpha Report 的每周分析，它回顾了比特币 (BTC) 的一些链上指标，这些指标似乎看涨，其中包括短期和长期的 HoDLers 销售，这反映了过去三个月的盈利能力并在面对任何销售压力时积极吸收市场。
-同样，该研究表明，作为全球市值最大的加密货币，它一直在现货市场走强，这只发生在熊市后期和牛市早期，即使这并不意味着市场已经回到“仅上传”的地形。
-此外，Bitfinex Alpha 在其报告中还提到了其他对市场有利的技术指标。 根据 Bitfinex 上面的分析，调整后的净支出产出收益比现在高于 1 ，这表明净销售额是有利的，相反，现在 RPLR（已实现收益与损失的比率）也高于零，这是“盈利能力”的另一个指标。
-到 2022 年底，PayPal 拥有 6.04 亿美元的比特币和其他加密货币。
-除此之外，BTC 的三个月 EMA 在这 90 天内已经上升，大约增加了 20% ，应该注意的是，该指标最后一次移动是在价格较低的时候。
-多个 RHODL
-据该公司分析，在过去三个月中，看涨指标比特币实现持有倍数 (RHODL) 反映了市场的上涨，在 90 天内保持看涨斜率，等于 ，即在此期间，HODLers 的出售“带来了持续的收益”。
-它还显示小型和/或新比特币投资者的需求略有上升，并强调长期持有者也在获利，而不仅仅是短期持有者。 相反，市场已经尝试“吸收抛售压力”，长期投资者对花费数字资产表现出更大的信心。
-正如 Bitfinex 在其上一期中所解释的那样，长期投资者开始“返利”，即使他们比短期投资者规模更小、时间更晚。 BTC 并未受此影响，其价格相对稳定，尽管这种情况可能看起来像是看空位置。
-“这并不意味着市场已经回到看涨区域，但它确实表明现货市场的强势只出现在熊市结束和牛市开始…]]></summary>
-        <author>
-            <name>Bitfinex社区小编</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文读懂web3的睡眠应用GoSleep，或将继续点燃Arbitrum生态]]></title>
-        <id>https://www.odaily.news/post/5185469</id>
-        <link href="https://www.odaily.news/post/5185469"/>
-        <updated>2023-03-03T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Layer 2 作为解决以太坊网络拥堵问题的核心解决方案之一，毋庸置疑是近几年的大热赛道。其中，Arbitrum又是Layer 2 赛道中的热门项目。
-根据DeFiLlama网站数据显示，目前Arbitrum的TVL已经将近20 亿美金，位居L2赛道前列，其TVL占Rollup系的65.44% 。和最直接的竞争对手Optimism相比，Arbitrum不仅TVL是Optimism的两倍多，其生态中的协议（或应用）数量也是Optimism生态的两倍。
-
-图源：DeFiLlama
-此外，和近期币价创下新高的OP不同，Arbitrum尚未发行其治理代币，在预期的加持之下，社区对Arbitrum的关注度居高不下，众人也在寻找其生态中诸如GMX等机会较大的潜力项目。
-最近刚在Arbitrum上线的GoSleep，是该生态中的第一个web3睡眠类应用，引入了“Sleep to Earn”的概念，这是一款集GameFi、SocialFi和HealthFi于一体的产品，核心玩法在于：用户只要完成自己设定的睡眠目标，就可以赚取睡眠收益。
-睡眠经济市场背景
-只要睡得好就能赚钱的web3应用，听起来是不是略显浮夸？其实不然，因为早在web2市场中就已经兴起了“睡眠经济”的概念。
-据世卫组织此前的数据统计，全球约有27% 的人存在睡眠困扰，因睡眠不足而导致的经济损失也不容小觑。也因此，睡眠市场中诞生了一批又一批针对改善用户睡眠的产品，但是不论是安眠药还是智能设备，都没有外部激励来引导用户主动入睡。
-GoSleep就是基于此而推出的一款专注于睡眠健康的Web 3.0 应用，期望通过代币激励的方式来帮助用户增加睡眠时长、提高睡眠质量，引导用户“多睡多赚”，养成健康的睡眠习惯。
-当“睡眠经济”和区块链世界的代币激励相结合，又能擦出什么样的火花呢？
-Web3第一睡眠应用GoSleep
-GoSleep采用了…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：BUSD市值跌破100亿美元，较去年11月高点缩水近139亿美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/nootzcw5.html</id>
-        <link href="https://panewslab.com/zh/articledetails/nootzcw5.html"/>
-        <updated>2023-03-03T01:51:55.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月3日消息，据Coingecko数据显示，BUSD市值已跌破100亿美元关口，截至目前为9,632,022,901美元，较2022年11月时234.9亿美元高点减少138.6亿美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[行情：比特币跌破23000美元，1小时跌幅达4.64%]]></title>
-        <id>https://panewslab.com/zh/articledetails/zauwci06.html</id>
-        <link href="https://panewslab.com/zh/articledetails/zauwci06.html"/>
-        <updated>2023-03-03T01:45:22.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月3日消息，行情显示，比特币跌破23000美元，最低跌至22100美元。现报22,356.60美元，1小时跌幅达4.64%，24小时跌幅达4.73%。
-以太坊跌破1600美元，最低跌至1549美元，现报1562.06美元，1小时跌幅达5.09%，24小时跌幅达5.15%。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bankless：新稳定币之争谁将破局，对市场和DeFi产生什么影响？]]></title>
-        <id>https://www.theblockbeats.info/news/35179</id>
-        <link href="https://www.theblockbeats.info/news/35179"/>
-        <updated>2023-03-03T01:30:01.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《
-
-Bankless：新稳定币战争——加密稳定币的草莽时代
-
-》
-
-原文作者：Ben Giove，Bankless
-原文编译：Kate，Marsbit
-
-
-一种新的特定于应用程序的稳定币可能正是 DeFi 所需要的。
-
-
-DeFi 协议正在采取行动。
-
-
-随着基于收费的业务模式的佣金下降和链上活动的枯竭，蓝筹 DeFi 协议正在寻求建立替代收入来源，以实现协议的多样化和强化。
-
-
-我们已经看到了这种扩张的早期迹象，比如 Frax 建立了流动性质押和借贷产品，Ribbon 开发了期权交易平台，Maker 使用 Spark Protocol 进入了借贷领域。
-
-
-现在，我们有了一种新的多样化形式，即特定于应用程序的稳定币，它指的是由 DeFi 协议发行的稳定币，作为它们的次要产品，而不是主要产品。
-
-
-这些稳定币通常以信贷的形式发行，用户可以直接在借贷市场或通过 DEX 借入他们的资产，以铸造稳定币。协议可以通过各种方式从中赚取收入，例如通过借款利息、发行/赎回新单位、挂钩套利和/或平仓。
-
-
-正如我们所知，稳定币领域是巨大的。目前，加密生态系统中有 1450 亿美元的稳定币，未来的潜在市场将达到数万亿美元。
-
-
-
-稳定币总供应量，来源：The Block
-
-
-随着监管机构瞄准中心化、以法币担保的稳定币 (如 BUSD)，DeFi 协议可能会打开一个窗口，不仅可以使其业务模式多样化，还可能会窃取一部分市场份额。
-
-
-许多人会指出 DAI 和 FRAX 是最有可能从 USDC 和 USDT 中分一杯羹的候选人，但一些特定于应用的稳定币会起到破坏作用吗？
-
-
-这一趋势将对市场和 DeFi 产生什么影响？让我们一探究竟！
-
-
-GHO 和 crvUSD
-
-
-推出稳定币的两个最著名的协议是 Aave 和 Curve，分别发行 GHO 和 crvUSD。让我们简单了解一下这些稳…]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特币矿企Marathon Digital 2月产出650枚BTC，售出650枚BTC]]></title>
-        <id>https://panewslab.com/zh/articledetails/s8wb0l6g.html</id>
-        <link href="https://panewslab.com/zh/articledetails/s8wb0l6g.html"/>
-        <updated>2023-03-03T01:28:28.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月3日消息，比特币矿企Marathon Digital发布2月比特币生产和挖矿运营更新，2月该矿企产出683枚BTC，本季度至今已产出1370枚BTC。2月该矿企出售了650枚BTC，因此，Marathon总共持有11,392枚，其中不受限制的比特币持有量从2023年1月31日的8,090枚增加到8,260枚，其不受限制的现金增加至2.197亿美元。2月份共有18.8万台矿机运行，哈希率提高了30%。
-此前2月3日消息，Marathon Digital 1月份售出1500枚比特币。]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
 </feed>

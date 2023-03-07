@@ -51,11 +51,924 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-07 datetime="2023-03-07T12:18:53.000Z">2023-03-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-07 datetime="2023-03-07T12:18:53.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-07 datetime="2023-03-07T12:20:00.000Z">2023-03-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-07 datetime="2023-03-07T12:20:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185566"
+                        open
+                      >
+                        <summary class="article-expander__title">上线在即，一文了解Polygon zkEVM的核心组件</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185566">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Salazar.eth
+原文编译：0x11 ，Foresight News
+zkEVM 被认为是以太坊可扩展性的圣杯。Polygon 是在该领域处于领先地位的探索者之一，其 zkEVM 即将推出。在此之前，你需要了解有关 Polygon zkEVM 技术的一些信息。
+
+Polygon zkEVM 是一种去中心化的可扩展性解决方案，它采用零知识证明（ZKP）提供有效性证明来验证交易并在以太坊上实现最终性，同时它是一种 EVM 兼容的扩展性方案。
+在这篇推文中，我们将重点观察 Polygon zkEVM 的这些组件：
+
+共识合约 
+
+zk Node：同步器、排序器、聚合器、RPC 
+
+zk Prover
+
+zk Bridge
+
+共识合约
+此前，Polygon Hermez 1.0 使用 Proof of Donation（PoD）作为共识机制，这是一种协调员创建交易包的去中心化拍卖机制。
+
+如今最新版本合约 PolygonZkEVM.sol 采用 Proof of Efficiency (PoE) ，它借鉴了 PoD 的经验，支持多个协调者以无许可的方式在 L2 上创建交易包。
+合约确保去中心化、效率、免受攻击以及验证工作和网络价值之间的平衡。
+链上数据可用性采用了混合模式，其中数据存储在链外，仅在链上发布有效性证明。
+PolygonZkEVM.sol（部署在 L1 上）用于确保正确的状态转换。智能合约使用 zk-SNARK 电路来验证有效性证明。
+要执行上述操作，需要排序器和聚合器的参与。
+zk Node
+排序器提议交易包，聚合器验证它们。智能合约调用排序器来接收交易包，并调用聚合器来验证它们。
+
+zk Node 是运行 zkEVM 节点所需的软件，它管理 Polygon zkEVM 网络中参与者的角色。 为了跟踪网络状态，参与者可以是节点，也可以作为排序器或聚合器参与交易包生产。
+排序器预处理 L2 交易，向 PoE 智能合约提交交易包，并支付费用。聚合器接收交易信息，将其发送给证明者，接收零知识证明，并将结果发送给智能合约进行验证。
+
+同步器同步交易包及其有效性证明，RPC 则实现与现有工具的集成。
+状态实现默克尔树并检查区块级别的完整性和一些与交易相关的信息。
+zk Prover
+zk Prover 是 Polygon zkEVM 架构的重要组成部分。它负责生成零知识证明，以验证 zkEVM 执行计算的正确性。
+为了生成零知识证明，zk Prover 从聚合器接收输入，聚合器从排序器收集交易信息。然后证明被发送回聚合器，聚合器再将其发送到智能合约进行验证。
+鉴于其高效率和可扩展性，zk Prover 可以以最小的延迟处理大量交易。
+zk Bridge
+zk Bridge 允许用户在 LX 和 LY 两层之间安全和去中心化地转移资产。
+它由两个相同的合约组成，一个部署在以太坊主网上，另一个部署在特定的 Rollup 网络上。
+在 L1 合约中，资产可以在 Rollup 之间转移；而在 L2 合约中，资产可以在主网和 Rollup 之间转移。
+通过智能合约，zk Bridge 还支持不同 L2 网络之间的本地互操作性。
+小结
+总之，Polygon 的 zkEVM 是一种很有前途的解决方案，可以改善以太坊网络的可扩展性问题。
+通过利用 zk-SNARK 电路实现有效性和混合模式实现数据可用性，它提供去中心化、效率和攻击保护，同时保持 EVM 兼容性。共识合约、zk Node、zk Prover 和 zk Bridge 协同工作，以实现安全和去中心化的交易处理。
+随着上线临近，Polygon zkEVM 有望为以太坊的增长和采用做出重大贡献。
+原文链接</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185567"
+                        open
+                      >
+                        <summary class="article-expander__title">「弃Silvergate转Signature」？一窥加密银行龙头的未来走向</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185567">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>在SilverGate因未能按时提交 10-K 报告而遭遇 FUD 的当下，同为加密友好型银行的 Signature Bank 在 3 月 2 日提交 10-K 报告，并于 3 日公布 2023 Q1中期财务状况更新，向市场证明自己的持续运营能力。
+两家银行跟FTX暴雷事件都密不可分，均遭受参与其中或知情不报的质疑和指控。但是 Signature Bank 在 2022 年Q4宣布减少加密客户的存款份额，并同期获得超过 100 亿美元左右的贷款，以缓解用户提款造成的流动性危机。
+截止目前，Signature Bank 的财务状况逐步稳定，Coinbase、Circle等机构纷纷“弃 Silvergate 转 Signature”，本文将汇总 10-K 报告和 2023 Q1中期报告精要，一窥加密银行龙头未来走向。
+加密存款占总存款20% 
+Signature Bank 是美国加密生态的重要一环和背后支柱。不同于币安、火币和 OK 等华人交易所的 C 2C出入金模式，加密友好型银行给予了美国等地区客户合法的法币出入金通道。换句话说，在华人系交易所中，市场运作的核心是USDT等稳定币，它们承担着法币出入金和加密市场交易对定价的双重作用，而在 Coinbase、Kraken、FTX 等海外交易所内，整个架构的基础都是银行，不论是 Silvergate 的 SEN 还是 Signature 的 SigNet，都承担着连接加密货币和法币的桥梁作用。
+这样做的好处实际上要优于稳定币体系，如果没有 FTX 暴雷危机的话。监管部门可以直接根据银行监管体系来追踪资金流向，交易所和机构等客户也可以放心在银行存放大额资金，个人散户也免去汇兑资金带来的安全问题。
+
+ 
+Signature 的发迹跟加密货币市场，尤其是交易所密不可分。2018 年 Signature 进入加密市场，主要面向交易所、投…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185568"
+                        open
+                      >
+                        <summary class="article-expander__title">巨额抛售？1700万ETH将在上海升级后解除质押？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185568">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：0xSalazar
+原文编译：Biteye 核心贡献者 Crush
+原文来源：Biteye
+
+总有币圈媒体和一些个人散播 FUD，声称上海升级期间，将会有 1700 万个 ETH（280 亿美元）被取消质押。
+但是真相是什么？我想他们不会说。
+
+
+
+
+
+
+
+
+
+
+01 背景介绍
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shanghai，是对 ETH 执行层的升级，而 Capella，是对共识层或信标链（Beacon Chain）的升级，即 Shapella。
+（译者注：信标链是以太坊 2.0 系统的核心，它是一种全新的权益证明 ( PoS ) 区块链，为了解决共识问题而诞生。）
+然而，由于这些升级将同时发生，所以上海升级通常指的是以上两者。虽然本次上海升级还有其他 EIP，但最重要的还是 ETH 提款。
+（译者注：EIP 即 Ethereum Improvement Proposal，以太坊改进提案，是为以太坊潜在新功能或流程提出建议的标准。）
+自 2020 年 12 月信标链上线以来，验证者虽然可以质押 ETH，但却无法提现，这给以 EF 的开发者带来了不小的压力。
+（译者注：EF，即 Ethereum Foundation，以太坊基金会，一个在瑞士注册的非营利性组织，致力于支持以太坊以及相关技术。）
+在去年 12 月例行的 ACDC 会议（All Core Developers&#x27; Call，即全体核心开发者电话会议）之后，质押的以太坊将从 2023 年 3 月之后开放提取。但是，目前已推迟到 4 月。
+
+
+
+
+
+
+
+
+
+
+02 取款凭据的格式
+
+
+
+
+
+
+
+
+
+
+由于 Merge 的设计以及信标链与 ETH 的融合，所有验证者都需要将其取款凭据更新为 0x 01 格式才能取款。
+根据 ETH 代码开发人员 @benjaminion_xyz 的说法，0x 00 格式的验证…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185564"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点3月即将首发上线的6个热门项目（第二弹）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185564">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>上周我们盘点了 8 个即将首发上线的项目，有些项目表现亮眼。比如，HALO 在 Bitget IEO 价格为 0.02 美元，上线后一度飙升至 1.5 美元，目前稳定在 0.3 美元，较 IEO 价上涨 1500% 。本周，我们继续整理了 6 个项目以供参考。详情如下：
+
+
+项目名：LimeWire 
+
+官网：https://limewire.com/
+简介：Lime Wire 最初是一个点对点文件共享平台；去年 3 月宣布将作为艺术、娱乐和音乐的 NFT 市场重新推出，并通过 Algorand 发行 NFT 与代币。成立初期，该平台与环球音乐集团（UMG）签署一项内容许可协议，向环球音乐集团旗下的所有艺术家开放 Lime Wire 收藏品市场，与 UMG 签约的艺术家可以在 LimeWire 市场上发布 NFT 形式的收藏品，并能够将其直接出售给粉丝和收藏家。
+融资方面，去年 4 月 LimeWire 宣布在 LMWR 私募代币销售中筹集到逾 1000 万美元，Kraken Ventures、Arrington Capital 和 GSR 领投。
+公募详情：LimeWire 计划 3 月 7 日-10 日在 Tokensoft 进行 IDO，出售 250 万个代币，单价 0.16 美元，计划募资 40 万美元。详情点击：https://twitter.com/limewire/status/1629464916460462080 
+
+项目名：Equilibrium
+官网：https://equilibrium.io/
+简介：Equilibrium 是 Polkadot 上的一站式 DeFi 平台，可以在交易和借贷数字资产时使用高杠杆。它有三个主要产品： 1 ）EQD：一个由一个资产组合支持的去中心化与美元挂钩的稳定币。它可以通过跨共识信息传递（XCM）无缝和无信任地转移到…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185561"
+                        open
+                      >
+                        <summary class="article-expander__title">简析美两州监管法案异同：DAO监管拐点出现？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185561">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《DAO 监管拐点出现？美两州法案出台引争议》
+原文来源：肖飒 lawyer
+2023 年 2 月，犹他州发布了最新DAO监管法案，与 2021 怀俄明州 DAO 法案相比，新法在法人资格和有限责任方面更进一步，主要看点如下：
+犹他州 DAO 法案亮点概览
+1.  法案赋予了 DAO 一种独有的、新型的法律认可形式。犹他州决定不采取怀俄明州“旧瓶装新酒”的监管思路套用有限责任公司（limited liability company，LLC）模式对 DAO 进行监管，而是将 DAO 和 LLC 做明确区分，以具有开创性的立法思路为 DAO 单独创造了一种新型法人实体；
+2. 法案明确 DAO 组织为有限责任制，解决了在 2022 年美国商品期货交易委员会（CFTC）诉bZx DAO（后改名为 Ooki DAO）案中关于 DAO 成员是否需以个人资产对外承担无限连带责任的争议；
+3. 建立了 DAO 的税收制度；
+4. 明确 DAO 参与者没有隐含的信托责任，除非已明确声明这些义务适用于参与者；
+5. 保护 DAO 参与者的匿名性；
+6. 纳入“技术把关”措施以确保 DAO 实质上是一个 DAO。
+一、犹他州 DAO 法案概述
+关于什么是 DAO 飒姐团队已经进行过系统的介绍，感兴趣的伙伴们可以参考：《原创 | DAO，会是未来的新型“公司”吗？》今天我们就不再赘述。DAO 作为一种近些年来刚刚出现的新型商业实体，在人员组成、运营管理、收益分配和税收等多种层面上与现有的商业架构存在明显的区别，因此一直以来对 DAO 的法律性质和监管措施都存在争议，各国虽然已经有了许多 DAO 的实案例，但这些 DAO 在监管措施和法律性质上依然处于“旧瓶装新酒”的状态。这一现状的产生，主要是因为怀俄明州在 2021 年发布的 DAO 法案中开了一个先例：将 DAO 与现实世界中较为相…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185562"
+                        open
+                      >
+                        <summary class="article-expander__title">美SEC主席Gary Gensler，正成为加密监管界“教父”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185562">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Cointelgraph，原文作者：JACK SOLOWEY &amp; JENNIFER SCHULP
+Odaily 星球日报译者 | Moni
+
+
+电影《教父》里有这样的一个镜头：迈克尔·柯里昂下令打击敌对头目唐·库尼奥，他选择先把唐·库尼奥锁在一扇旋转门内然后再开枪射击。如果我们看看最近美国证券交易委员会（SEC）主席 Gary Gensler 打击加密项目的操作，会发现他似乎和迈克尔·柯里昂这种“关门打狗”的手段如出一辙。
+Gary Gensler 的“黑帮手段”
+2 月 9 日，全球最大的加密货币交易所之一 Kraken 卷入了美 SEC 的调查，调查内容是该交易所是否违反了与向美国客户发行某些产品相关的证券规定，之后宣布将“立即”结束向美国客户提供的质押即服务（staking-as-a-service）平台服务，并将向 SEC 支付 3000 万美元罚款，以解决针对其提供未注册证券的指控。
+2 月 13 日，稳定币发行商 Paxos 因 BUSD 相关问题将面临美 SEC 的诉讼，执法人员向 Paxos 发布“韦尔斯通知（Wells notice）”告知可能的执法行动并表示其发行的美元稳定币 BUSD 是一种未注册的证券，计划起诉 Paxos 违反投资者保护法，并可能采取强制行动。
+2 月 23 日，Gary Gensler 在接受《纽约杂志》采访时讨论了加密货币，他声称“除比特币以外的一切（加密货币）”都属于美 SEC 的职权范围和监管目标。
+真正令人不安的是，Gary Gensler似乎在暗示那些高度去中心化的加密货币——比如以太坊——也将被划分为证券，这与此前监管机构声称去中心化软件协议不属于证券的口径背道而驰。此外，即使假设特定加密货币或服务属于证券，仍然存在注册问题——而这，其实就是美 SEC 看起来像黑帮的地方。
+当 Gary Gensler 宣布注册加密证券的过程“只是我们网站上的一种形式”时，完全是虚伪的说辞，如果套用迈克尔·柯里昂的话，Gary Gensler“简直侮辱了我的智商，让我非常生气” ，就连他的同僚、美 SEC 专员 Hester Peirce 都表达了不满，声称“在当前监管环境下，与加密货币相关的产品在美 SEC 根本没有注册渠道。”
+Gary Gensler 的“肮脏战争”
+坦率地说，Gary Gensler 领导的美 SEC 正在对加密货币发动一场无人监督的肮脏战争，美国执法者需要捍卫自身监督权力，并为加密货币开发者、企业家和用户提供一条合法开展业务的明确途径，否则 Gary Gensler 就会用手中的权力屠杀所有“加密家族企业”，这样的执法行为和《教父》黑帮有什么区别呢？
+美 SEC 宣称当前的执法行为“只是在对其视为证券的加密代币和服务执行现有的注册和披露要求”，但这种说辞其实存在误导性，原因有二：
+第一，如果 Gary Gensler 认为除比特币以外的每个加密货币都会被视为证券，那么美国证券法对相关项目的适用性至少是有争议的，包括 Kraken 的质押服务和 Paxos 的 BUSD 稳定币。对于 Kraken，美 SEC 声称其质押服务涉及一种称为投资合约的证券，概括地说，这些证券涵盖了基于他人的管理或创业努力而预期获利的投资。Kraken 的服务是否确实属于这一范畴值得商榷。而对于 Paxos，我们还不知道美 SEC 会认为哪种类型的证券能够覆盖 BUSD 稳定币。
+第二，如果美 SEC“为了消费者好”，而要求包括稳定币在内的产品做好信息披露，那么就必须提供明确的指导，但至少到目前位置，他们还没有。 
+加密货币行业其实也想拥抱监管，但美 SEC 不应该躲在阴影中试图扼杀新技术研究和获取。正如美国众议院金融服务委员会主席帕特里克·麦克亨利所说，“数字资产的未来是一个重大经济问题”，这个新兴行业不能被一个《教父》式人物扼杀。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185560"
+                        open
+                      >
+                        <summary class="article-expander__title">即将上线的新标准ERC-4337，都有哪些功能特性？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185560">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>对于加密原住民来说，钱包安全一直是令人头疼的问题，丢失私钥、助记词，丢失资产，无法授权等都会导致用户失去对自己资产的所有权；而对于加密新人来说，很难同时弄清这些不同的概念，且交易期间频繁地授权批准也会使加密新人感到复杂。这间接地提高了进入 Web 3 的门槛，而即将到来的 ERC-4337 标准的诸多特性正是可以帮助用户解决这些问题的新标准，也是可以普及加密的必要之路。
+以太坊希望推出的新 ERC-4337 标准是什么？它的提出者是谁？
+以太坊作为开发人员最受欢迎的基于区块链的计算平台，供开发人员基于其构建和部署去中心化应用，此前宣布将推出一个名为 ERC-4337 的新标准，该标准旨在善用户体验，防止私钥丢失，优化交易流程等。
+ERC-4337 是由以太坊创始人 Vitalik Buterin 联合 Yoav Weis、Dror Tirosh 等人发布的账户抽象提案。该提案旨在使以太坊钱包更加友好（对用户），并防止任何密钥丢失。Vitalik 和他的团队提议将用户的外部拥有账户（EOA）变成智能合约账户（CA），这将允许使用户保持对他们的加密货币访问的内置机制。
+通俗地讲，ERC-4337 标准旨在使以太坊钱包更易于使用，并帮助防止用户失去对加密货币的访问权。为实现这一点，以太坊的创建者提议将钱包变成智能合约。智能合约具有内置机制，可以帮助用户保护其加密货币的安全，即使他们忘记密码或丢失私钥，这一关键功能包括要求多人批准交易的选项，以及一个系统，其中多个用户可以在有人丢失其私钥时帮助恢复其对帐户的访问。
+EOA 与 CA 的不同
+以太坊有两种不同类型的账户，外部拥有账户（EOA）与合约账户（CA），简单来说，EOA 由公钥和私钥组成，就像 MetaMask，通过助记词、私钥，用户可以对账户进行交易、访问。
+而对于 CA 来说，合约账户是没有私钥，智能合约是由其中的代码逻辑…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185559"
+                        open
+                      >
+                        <summary class="article-expander__title">EthDenver最新演讲《L2的局限性》引热议，大家都在争论什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185559">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：@ koeppelmann、@levi 0214 、@xcshuan、@jon_charb
+内容整理：flowie，ChainCatcher
+3 月 4  日 ，Gnosis 联合创始人Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，演讲中讨论了L2 的诸多局限性，以及基于 zkBridge 的另一种扩容方案。
+Martin Köppelmann的观点很快在推特上引起了广泛讨论，且质疑的声音颇多。以UniPassID 开发者@xcshuan、 @dba _ crypto  联合创始人Jon Charbonnea为代表的不少推特用户认为，Martin Köppelmann 对于 L2 的分析，部分观点和论据逻辑混乱、完全站不住脚；而针对基于 zk bridge 的新扩容方案，质疑声音则更大，评论区充斥着“不靠谱”、“屁股决定脑袋”的言论，有评论嘲讽到，“Gnosis 自己的链还不如个测试网价值大，一天 6 万 txs，操着 10 亿用户交易量的心”。总之，Martin Köppelmann 演讲中的每一个核心论点几乎都一一遭到驳斥。
+《The Limits of L2》中提到了哪些核心观点？争议点是什么？ChainCatcher 结合 @levi 0214、@xcshuan、 @dba _ crypto 等推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理：
+一、L2 的局限性
+Gnosis 的创始人Martin Köppelmann在演讲开篇提到，L2 最初的目的是批量完成一堆交易，然后把结果同步回 L1，它是一种很临时的空间而不是一个存放永久资产的新空间。长期来看， 即使最初的愿景被完美实现，L2 依旧会存在以下提到的几大根本问题：
+
+问题 1 :  不适合状态…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185554"
+                        open
+                      >
+                        <summary class="article-expander__title">DeFi高玩必读：Curve流动性市场业务现状、生态发展、护城河及估值对比</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185554">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Alex Xu
+一.前言
+DeFi是 Mint Ventures 长期关注和看好的加密商业赛道，而Curve则是 DeFi 领域中我们最关注的项目之一。
+相较于其他 DeFi 产品，Curve 的诸多特点让它具备很高的研究价值：
+
+位于市场规模最大，同时也是竞争最激烈的赛道： 1.资产交易；2.流动性市场，且一直处于赛道里的一线阵营
+
+设计了复杂精巧的“ve”经济模型，尝试实现两个层面的协调：
+1.业务协调：实现“交易”、“流动性采购与分发”、“治理”、“市值管理”、“拓展生态合作方”等多个业务诉求之间的协调
+2.参与方协调：实现“交易用户”、“做市用户”、“流动性采购用户”和“代币持有人”之间的利益协调
+
+形成了协议生态，基于 Curve 众多项目搭建起了层层叠叠的金融乐高
+
+多链布局，在各主流 EVM 兼容链都有版本部署，且业务量均处于靠前位置
+
+自项目上线起就积极地对代币价值捕获进行实践，与诸多免费的公用品类 DeFi 形成对比
+
+我们自 2020 年开始关注 Curve，并于 2021 年 9 月首次发表了关于 Curve 的深度报告：《Uni V3进击下的 CRV：深度解析 Curve 业务模式、竞争现状和当下估值》。时隔 1 年半，Curve 就流动性的市场规模占比、交易量等指标来说依旧处于一线，但其产品机制、业务组成、治理博弈都发生了诸多变化，围绕 Curve 的协议生态也变得愈加庞杂。
+因此，我们尝试重新对 Curve 及其生态进行调研梳理，寻找以下问题的答案：
+1.业务：Curve 当下的业务情况如何，在市场中处于什么位置？
+2.生态：Curve 生态里有哪些生态项目，它们之间的竞合关系以及对 Curve 的价值
+3.护城河：Curve 是否仍然存在稳固的护城河？DEXs 赛道的终局是头部协议的垄断，还是长期的竞争血海？
+4.估值：相对于同类协议…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185557"
+                        open
+                      >
+                        <summary class="article-expander__title">LSD战争升温，Stader会是下一个潜力股吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185557">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Poopman
+原文编译：0x11 ，Foresight News
+LSD 战争正在迅速升温。如果你正在寻找下一个隐藏的宝石💎，我为你准备了年度最大的 Alpha。Stader 可能会成为质押游戏规则的改变者。
+在这篇推文中，我将介绍：
+
+Liquid Staking 的挑战
+
+ETHx 设计
+
+SD 代币经济学
+
+Liquid Staking 的挑战
+Liquid Staking 一直是以太坊生态的一个重要领域，但它面临着一些重大挑战：中心化🔴和可扩展性↔️。
+中心化
+Lido、Coinbase 和 Kraken 控制着超过 50% 的 ETH 质押量，其中 90% 委托给了获许可的运营商。
+可扩展性
+由于以太坊抵押质押门槛高 ，具有无许可节点的 LSD 服务难以满足普通用户需求。
+
+为解决这些问题，多链流动性质押协议 Stader 引入了「ETHx」，它大大降低了无许可节点运营商的门槛，仅仅只需要 4 ETH。
+它是如何做到的呢？答案是：多池架构和分布式验证器技术（DVT）。
+ETHx 设计
+多池架构
+每当用户存入 ETH 时，Stader Pools Manager 将铸造 ETHx 作为回报，并将存入的 ETH 部署到以下质押池之一：
+
+无许可质押池🆓
+
+DVT 质押池🚚
+
+许可型质押池🔒
+
+
+无许可质押池
+无许可模型意味着不需要白名单就可以运行节点。在这个池中，Stader 允许节点以同行竞争者中最低的保证金要求（4 ETH）运行。但这怎么可能呢？
+通过与 SSV 合作， Stader 模拟极端运行条件并得出结论， 4 ETH 足以覆盖所有关键的尾部风险，包括
+
+验证器性能差
+
+闲置泄漏
+
+相关削减
+
+DVT 在这些情况中扮演着重要作用。
+
+分布式验证器技术 (DVT)
+DVT 允许验证器的职责分散在多个节点之间。因此，即使其中一台机器离线或出现故障，验证器也可以继续运行而不会中断。
+
+通过利用 DVT 的高容错率，减少罚没的可能性，Stader 将无许可节点所需的保证金降低到 4 ETH。（了解 DVT，请参阅。）
+DVT 的实施可以增强 LSD 的去中心化和可扩展性。归功于较低的进入门槛，更多的验证者可以安全地加入网络。
+但是，目前尚不清楚串通攻击的后果以及实际发生削减的情况。
+许可型质押池
+为了防止早期无许可节点引起的可扩展性问题，Stader 为 ETHx 补充了社区认可的许可运营商。这有助于确保 ETHx 在早期的稳定表现。
+代币经济学
+ETHx 代币经济模型分两个阶段。
+第一阶段
+要为 Stader 运行一个节点，每个验证者必须存入 4 ETH 和价值 0.4 ETH 的 SD 代币作为抵押品。
+额外质押的 SD 在削减发生的情况下充当保护机制，类似于@Rocket_Pool。
+SD 激励
+为了激励节点运营商，Stader 将在第一年为验证者发放价值约 100-200 万美元的 SD 代币。
+SD 激励数量取决于节点运营商每月质押的 SD 比例（每个验证者最多质押价值 8 ETH 的 SD 代币）。
+
+除了 SD 质押激励之外，用户还可以从其他用户质押的 28 ETH 产生的质押奖励中获得 5% 的佣金。
+与其他 LSD 方案相比，ETHx 为质押者提供了更高的收益率，只需要更少的资金。（了解更多信息）
+第二阶段
+节点运营商可以无抵押借入 SD 用于质押。借出 SD 的人可以获得 10% 的节点佣金，并获得额外的 SD 激励。（了解更多）
+ETHx 质押将推动对 SD 代币的需求，因为它是运行节点的要求之一。正如@NagatoDharma 指出的那样，SD 价格仍比其 ICO 的 3.3 美元低 65% 。在当前 TVL 为 115 M 的情况下， SD 代币可能被低估了。
+原文链接</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185558"
+                        open
+                      >
+                        <summary class="article-expander__title">​Web3.com将于3月8日开启DID早鸟凭证注册</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185558">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>域名是互联网的重要组成部分，为网站和在线服务提供唯一凭证。然而传统的域名系统存在一些限制，例如中心化，并且限制域名所有者的控制权。此类痛点也是Web3.com希望进行突破的领域。
+什么是Web3.com?
+Web3.com是一个集成了用户身份与生态信息探索的一站式平台，致力于服务并带领Web3用户群体共同探索更符合Web3范式与精神的网络形态，引导新用户进入Web3。基于这样的目标，Web3.com现已推出一个新的产品概念
+—— Web3 ite Pass (Web3领域的终极凭证)
+Web3 ite Pass独特的品牌价值之一在于拥有&quot;Web3.com&quot;后缀的域名。Web3 ite Pass是在以太坊主网上发行的NFT，设计为将Web2和Web3世界连接起来的生态凭证。每个NFT对应一个以&quot;web3.com&quot;结尾的域名。用户可以使用加密钱包在以太坊上注册名为&quot;job&quot;的Web3 ite Pass NFT。该NFT对应于域名&quot;job.web3.com&quot;。作为该域名的所有者，个人或组织可以编辑和创建一个独特的、定制化的数字名片，易于记忆并脱颖而出。
+
+核心目标用户
+在目前的冷启动阶段，我们的目标核心用户群可分为两类：
+1. 深耕Web3的企业，以及项目方，或者有意向Web3转型的Web2企业
+2. Web3从业者 - 开发者、创作者、创业者，可以高效的展示自己的核心价值
+Web3.com核心价值点 - From Web2 to Web3
+跟传统的web2互联网域名非常不同的是，Web3 ite Pass借助NFT这一形式为传统域名带来了更多的玩法，带来了链上与链下信息的有机连接，从而呈现出传统互联网域名完全不具备的核心价值点。
+
+1. NFT赋能 —— 给使用者域名的拥有和控制权
+Web3 ite Pass是一张在以太坊主网上发行的ERC-721 标准的NFT域名，NFT象征了对这一域名的所有权，可作为编辑展示名片的钥匙。
+2. 流动性价值
+同时，NFT具有较好的流通能力，对于一些比较有价值的域名，用户也可以便捷地进行交易，获得品牌溢价红利。
+3. 识别性高
+当前的智能合约地址通常是由冗长且无规则的字符组成，难以记忆、辨认。而web3.com是一个简单的域名，用户可以轻松记忆 xxx.web3.com 链接，使得访问十分便捷。
+4. 安全性高
+链上与链下便捷联通，用户在链上看到.web3.com的域名后可以很便捷直接地访问链下展示页，从而可以很便捷的让链下认证信息和链上信息关联起来，并通过展示页中绑定的社媒平台、官方认证等信息确认合约地址的真实性。用户可以避免钓鱼合约，进而导致各种黑客攻击和意外操作。
+未来前景 &amp; 路线图
+Web3 ite Pass仅仅是个开始。我们将继续探索和开发新的产品形式，后续计划有基于Web3 ite Pass内容的信息导览服务，为域名带来更多的流量与曝光；Web3邮箱服务，运营营销工具等，为您的Web3 ite Pass带来更多的价值。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185556"
+                        open
+                      >
+                        <summary class="article-expander__title">新项目 | reNFT：让闲置NFT的价值流动起来</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185556">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>与实物资产类似，NFT 资产也可以享有租赁服务。
+对于 NFT 持有者来说，出租 NFT 是获得被动收入的一种方法，他们可以通过将闲置的 NFT 租借给有需要的人来产生更大的收益。而对于承租方来说，他们可以不用花高价钱买入昂贵的 NFT，并同样可以获得该 NFT 的对应权利。这种租赁关系大多受到智能合约的保护，相关交易条款也由智能合约管理。因此，NFT 所有者通常可以自由设定他们的租赁协议期限和 NFT 的租赁费率。
+reNFT 就是一个典型的多链 NFT 租赁平台，它可以白标集成到任何项目中，以实现无抵押的内部租赁、贷款和奖励分享。reNFT 目前的使用场景非常广泛，如 GameFi 新手可以借用游戏内资产开启游戏，以跨过前期很高的游戏成本门槛；玩家也可以通过出租 NFT 活动门票，以赚取租金。在元宇宙中，你也可以从地主那里租用土地并使用他的土地来举办自己的活动。
+2021 年，reNFT 完成 Animoca Brands 领投的 150 万美元融资。去年，reNFT 又宣布完成 500 万 美元战略融资，Mechanism 和 gumi Cryptos Capital（gCC）领投，Animoca Brands、The Sandbox、OpenSea、Sfermion、Morningstar Ventures、EveryRealm、OP Crypto、Longhash Ventures、Fourth Revolution Capital、Metastreet 等参投。
+
+
+
+
+reNFT 有两种租赁方法：无抵押租赁和抵押品租赁。
+
+无抵押租赁是采用预付款的方案来实现的。具体来说，NFT 持有者或者项目方首先将 NFT 托管在注册的智能合约中，智能合约在租用 NFT 时将使用权分配给承租者。这个解决方案类似于租房。NFT 的所有者决定每日的租赁价格、想要获得支付的代币以及最长的租赁期限。出租后，承租人可以决定想租用 NFT 多长时间。承租人需要支付总租金（每日租金*租赁时间）。当智能合约收到代币后，承租人就可以使用 NFT。
+此外，该方案还集成了奖学金模式，即 NFT 持有者出租他们的 NFT 并与游戏玩家（承租者）分享收益。目前，reNFT 与主要的几家公会开展合作，游戏和活动可以利用此解决方案在其平台上实现租赁，而无需用户冒 NFT 违约的风险。
+
+
+抵押品租赁是承租人在租赁 NFT 时，需要抵押一定价值的资产。如果租期到期后， NFT 未归还，承租者则需要用抵押品来补偿出租方。出租方可以自己设置抵押品的价值，但是在决定要收取多少抵押品时要谨慎，因为这将视为你愿意放弃 NFT 的价格。
+未来，在 reNFT v2 版本中将引入：
+
+改进和简化的价格处理。
+
+在将 NFT 出租后编辑借出参数（如价格、期限等）的能力。
+
+进一步提高 gas 效率，以尽可能降低 gas 费用。
+
+创建用于借出和租赁的 NFT 库，来处理 721 / 1155 转账。
+
+支持 721 和 1155 的“混合资产”：例如沙盒游戏内资产。
+
+reNFT 也将与其他协议合作以解锁一些新功能，如贷款、拆分、质押锁定在智能合约中的 NFT；通过合作，允许通过其使用权模型出租锁定的资产，让用户可以在他们的 NFT 被锁定时用于其他协议并获得收益。
+
+为了促进大范围的采用，reNFT 协议目前是免费的。以后将收取每笔交易的百分比费用，平台收入将与集成项目共享。总费用将由集成项目和 reNFT DAO 共同决定。未来，reNFT 作为 DAO 运行，可以在集成项目和 reNFT 之间提出不同的收入分配选项。
+感兴趣的小伙伴可以在此网站 https://docs.renft.io/ 上找到无抵押和抵押品两种租赁方式的不同教程。
+Odaily星球日报的【新项目】栏目旨在帮助 Web3 早期项目获得市场曝光机会，如果你也是 Web3 创业者，欢迎关注官方推特 @OdailyChina，私信备注【寻求报道】，发送你的项目简介和联系方式，我们将尽快与你沟通。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185555"
+                        open
+                      >
+                        <summary class="article-expander__title">超话社区 | 熊市新机遇，共享矿机如何为投资者提供灵活的高收益？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185555">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>MintSat 是领先的 PoW 及 POC 加密货币数字挖掘服务供应商，致力于为专业投资者提供大额定制化矿机共享服务解決方案，目前已与顶级矿机制造商和知名矿池如 BTC.com、ViaBTC、Foundry、AntPool、F 2 Pool 和 BTC.top 建立了战略联盟。
+3 月 6 日晚，MintSat Cofounder Martin Wu，做客 Odaily星球日报超话社区，带来关于「熊市新机遇，共享矿机如何为投资者提供灵活的高收益？」的主题分享，围绕 MintSat 的产品与服务进行了深入的探讨。
+
+Martin Wu 表示，当前矿业市场正在朝着多样化的方向发展，我们看好 POSW 这种新的混合共识机制，相信它将会带来新的矿业商业格局。
+以下为社区对话实录：
+一、嘉宾问答
+Odaily 星球日报：首先，可否请您简单介绍一下自己和团队核心成员?  你们是如何接触到加密世界并参与其中的？
+Martin Wu：Mintsat 团队成员来自全球各地，核心成员主要是由 4 人构成的，分别是我本人 Martin WU、我们的现场总工程师 Xie Hua、我们的矿产总经理 Nina、和我们的安全经理 Sam。我们四个人是在 2017 年由万向主办的第三届区块链全球峰会相遇的。当时我是在做挖矿相关业务，同时他们三个也比较看好这个赛道，就都从各自的领域跳出来加入到了 Mining 的行业，之后我们共同成立了 Mintsat 开始在全球范围内建设场地，扩展业务。
+Odaily 星球日报：能否用概括的语言简单地向大家介绍一下 Mintsat 的业务？
+Martin Wu：Mintsat 是 PoW 及 POC 加密货币数字挖掘服务供应商，提供专业的数字挖矿解决方案。自 2018 年以来，我们一直提供行业领先的挖矿服务受到全球用户的一致赞誉。我们在全球拥有 5 个矿场，用户遍布 7…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185547"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂V神真正构想的SBT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185547">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Vedent
+原文编译：白泽研究院
+Soulbound Token（SBT）是以太坊创始人 Vitalik Buterin 的心血结晶。这个激动人心的技术将撼动 Web3 世界，并且已经引起了加密社区的关注。
+在本文中，我们将探索 SBT，从它们的起源故事到它们改变 Web3 游戏规则。我们还将分享有关它们如何运作、为什么如此有益以及它们在 Web3 有哪些应用？
+什么是 SBT？
+Soulbound Token，也被称为“灵魂绑定代币”，是一种唯一、不可转让和非金融化的代币，代表了个人的线上身份、信誉和从属关系。
+就像简历或医疗记录一样，SBT 用于展示一个人在 Web3 网络上的资历和从属关系。这些代币不能出售或交易，只能作为个人数字身份的永久记录。
+去中心化的社会信用体系——这一直是 Web3 爱好者的热门话题。政府的信用评分系统可能会让隐私倡导者感到不寒而栗，它与 SBT 之间的区别就像白天和黑夜，一个是自上而下，一个是自下而上。
+SBT 可以让你控制自己的身份和声誉，同时仍然形成可信赖的社区和协作。
+Vitalik，SBT 背后的“大脑”，说得最好：
+
+“在加密行业创建 SBT 可能是通往另一种选择的途径，在这种情况下，NFT 可以更多地代表你是谁，而不仅仅是你能买得起的东西，作为你炫耀的东西。”
+
+SBT 从何而来？
+那么，让我们深入了解 SBT 的历史，看看它们是如何走过漫长的道路的。
+这一切都始于 2022 年 5 月，当时这一想法背后的“大脑”们，经济学家和社会技术专家 E. Glen Weyl、律师 Puja Ohlhaver 和以太坊联合创始人 Vitalik Buterin 齐聚一堂，提出了 Soulbound Token 的概念。
+
+他们将 SBT 设想为是 Web3 和 DeSoc（去中心化社会）中的基础构建块。
+DeSoc，或去中心化…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185542"
+                        open
+                      >
+                        <summary class="article-expander__title">GameFi 2022年度榜单暨2023年展望报告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185542">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>过去三年，Web3行业见证了GameFi生态的繁荣，游戏品类和数量快速增长。SparkX 作为 GameFi开发者社区，长期与广大从业者、爱好者共同关注 GameFi 市场。本次，SparkX 与顶尖Web3专业数据平台 Footprint Analytics 联合发布《GameFi 2022 年度榜单暨 2023 年展望报告》，以各项数据排名、玩家投票等多种方式梳理了 2022 年的 GameFi 项目，并对 2022-2023 年 GameFi 赛道从项目数据、生态发展、项目模式演变三方面进行了总结与展望。
+
+GameFi 2022 年度榜单
+
+榜单详细数据可见：数据排名
+2022 年GameFi市场回顾及2023 年展望报告
+一、整体回顾：
+2022 年是GameFi赛道的至暗时刻。StepN火爆出圈，但抵不住经济下行压力，随着Luna崩溃、3AC破产、FTX暴雷、DCG清算等黑天鹅事件的发生，GameFi也迎来至暗时刻，全年代币市值缩水87% ，绝大多数GameFi项目Token跌超90% 。2022 年初GameFi代币总市值占加密市场的0.9% ，到年末仅占0.5% ，整体跑输加密市场大盘。
+85% 的GameFi项目不超过1000 名用户。2022 年GameFi协议数量同比增加49% 到达2171 个，但DAU超100 的活跃协议数量却一直在下降，仅有14.5% 的GameFi协议获得超过1000 个用户，98% 的GameFi协议平均周留存率达不到10% ，熊市之中ROI的下降让大多数没有可玩性加持的游戏停滞不前、等待死亡。
+依然有GameFi玩家顽强坚守。2022 年末DAU相比最高点下降57% ，但整体DAU仍稳定在75 万以上。受代币价格下跌影响，GameFi平均月交易量下降了98% ，但月交易次数稳定在1.3 亿到1.85 亿之间。平均DAU靠前的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185551"
+                        open
+                      >
+                        <summary class="article-expander__title">ETHDenver参会总结：我们看到了哪些趋势？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185551">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Allen Su
+原文来源： ArkStream Capital
+刚从 Denver 回来，过去的一周精彩不已。分享一下个人感受，和整个会议传递的新趋势。
+整体而言，EthDenver 整体感受非常好，远胜 Consensus，Token 2049 。
+1. 全球性开发者文化
+据说整个 ETHDenver 来了 35000 人， 7500 hackers。我住的酒店离 downtown 开车要 15 分钟，但是基本每天电梯里都能见到参会者，大家一看胸牌，互相一秒熟络。从业者里，项目方：VC 约 5: 1 。项目方颇具全球性，除了美国本土，中国，加拿大，英国，新加坡，欧洲是最大的集合。和 ArkStream 好几个北美欧洲的 portfolio，终于见上了。VC 领域，大部分活跃的一二线基金都有来人，尤其是过去很少出现的一些欧洲地区资本。
+与 Consensus 不同，ETHdenver 的开发者文化使得整个活动都非常加密原生。与项目方见面基本都是直接坐下，当场电脑展示 demo， 30 分钟就把产品给聊得很透彻。这点我非常喜欢，仿佛回到了 2017 年刚入行时的感觉。
+
+随处可见的 hacker
+2. 参会指南
+ArkStream作为 VC，我们最重要的还是 source 项目。因为活动太多，最高效的方式依然是小型活动+定向搜索。
+小型活动一般以 20-100 人的 brunch，seminar 和 party 组成。这次参与的几个好的活动有 Meet the VC Brekky, Brunch party with Fabric/SevenX, zkNight Afterparty, MIT Alumni founder’s lunch, Cosmos on Tap, IOSG old friend Reunion, Founders Club 启动仪式，收获了…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185550"
+                        open
+                      >
+                        <summary class="article-expander__title">Mt.Gox被盗事件「剧终」：近14万枚比特币将被释放，债权人会如何获得赔偿？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185550">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>历经多次推迟清算及数场官司，Mt. Gox 被盗事件总算进入赔付阶段，其债权人有望在今年 3 月获得首批还款。而在过去九年时间里，比特币价格的飙涨也让 Mt. Gox 债权人在多年“被动锁仓”后，强制获得一笔不小的“意外收入”。
+但当前债权人更为关心的是，Mt.Gox 的真实财务状况如何？究竟会怎么赔付？何时会收到偿还款？另外，一旦用于偿还债权人的近 14 万枚比特币被释放，市场是否会面临被砸风险？
+Mt.Gox 的清偿方式：基础偿付和比例偿付
+从申请破产清算到确定赔付方案，再到最终准备还款，这场耗时九年的 Mt.Gox“门头沟”被盗事件总算要“剧终”了。
+根据 2019 年 Mt.Gox 的资产负债表显示，其债务人持有约 14.2 万枚比特币（BTC)、 14.3 万枚比特币现金(BCH)及 690 亿日元（约 5.1 亿美元）。有债权人透露，此后的 Mt.Gox 资产负债表并没有出现太大变化。而 Token Unlocks 截至 3 月 6 日最新数据显示，Mt.Gox 持有超 13.7 万枚比特币，价值共 30.8 亿美元。
+根据 Mt.Gox 官网公告，债权人要想获得赔偿，需在 2023 年 3 月 10 日前登记并选择还款方式，首批赔付的最后期限为 2023 年 9 月 30 日。如果未能在截止时间内完成登记和注册，这部分债权人将无法获得提前一次性还款，且失去部分加密货币恢复索赔、银行汇款支付或通过资金转账服务提供商汇款的权利。此外，他们还需要携带所需的文件前往 MTGOX Co., Ltd. 总部，仅能以日元的现金形式接受还款。
+而 Mt.Gox 面向债权人提供的最新偿付方案包括基础偿付和比例偿付。基础偿付部分允许每个债权人索赔的前 20 万日元将以日元支付，比例偿付则为债权人提供了两种灵活选择，即“早期一次性还款”或“中期还款和终期还款”。其中，一次性还款的赔付方式仅能让债权人获得部分赔付（黑客攻击时他们锁定在平台上的资金约为 21% ），超过 20 万日元的部分可允许债权人选择 BTC、BCH 和日元的混合方式或者以法定货币支付全部金额，据一位债权人透露，比例大概为 71% 的加密货币和 29% 的现金。
+例如，Mt.Gox 最大债权人 Bitcoinica 和 MGIF 就选择了一次性支付方案，且选择主要以比特币而非法定货币的形式来获得其破产追偿，这也大大降低了市场对 Mt.Gox 大量抛售比特币来支付法币赔付款的担忧，要知道这两大债权人所需的索赔金额约占全部的五分之一。
+“中期还款和终期还款”则较前一种方式的偿还额更多，但仅在 9 月 30 日获得中期付款，终期付款将在未来几年内支付。而部分债权人要想获得更高比例的偿付，还可继续等待诉讼结果，这意味着他们需要等到更长的时间才能收到付款，MGIF 曾在 2022 年的一份备忘录中表示，这个过程可能需要五至九年的时间。
+值得一提的是，由于债权人须注册并指定一家交易所代表他们接收资金，而每家交易所针对处理付款的速度给出了不同的时间表，因此他们获得赔偿的时间也不相同，比如 BitGo 将在 20 天内进行付款、Kraken 的付款程序可能需要 90 天等。
+加密市场不会面临集中砸盘
+2014 年，作为曾占比特币交易量 70% 的全球第一大交易所，Mt.Gox 被曝遭遇黑客攻击，共有 10 万枚比特币及用户 75 万枚比特币被盗（后找回 20 万枚比特币并陆续抛售月 6 万枚）用户资产一夜之间“灰飞烟灭”， 3 天后 Mt.Gox 申请破产。回忆这起“门头沟事件”，至今仍让很多投资者心有余悸。
+而彼时，比特币的价格大概为 800 美元，而多年后其价格已直线飞涨，最高曾涨至超 5 万美元，即便是当前 1.7 万美元的价格，也较 2014 年翻了超 21.8 倍。如此高的回报率之下，难保有不少债权人选择抛售提现，而目前 Mt. Gox 可用的比特币数量占当前比特币日交易量（63.2 万枚）的 21.6% ，那么如此体量的比特币是否对市场产生冲击？
+对此，瑞银策略师 Ivan Kachkovski 表示，即将到来的 Mt. Gox 破产还款可能不会引起人们对比特币价格的担忧。Mt. Gox 为债权人提供了多种还款方式和时间选择，且大多数债权人仍是加密货币信徒，因此不太可能抛售比特币。但 Mt. Gox 采用法定还款的早期一次性付款选项将导致交易所出售比特币以筹集必要的现金，并可能让“长期以来担心 Mt.Gox 赎回会损害比特币价格”成为现实。
+虽然首次赔偿的债权人及比特币数量尚未可知，但 Mt. Gox 完成所有的数据统计预计还需要一定时间，且债权人的偿还方式有着多种形式及是多阶段的，甚至部分为获得更多赔偿还需耗费几年时间，这意味着这部分比特币的释放量或将不会非常集中，并不会造成非常集中的市场冲击。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185518"
+                        open
+                      >
+                        <summary class="article-expander__title">“Iron Bank手撕Alpha Homora”事件的来龙去脉</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185518">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>近期，Iron Bank 和 Alpha Homora 之间就逾 3000 万美元的坏账“闹僵”一事在 DeFi 圈内引发了广泛讨论。
+Iron Bank 是的前身是 Cream v2，这是由 Cream Finance 和 Yearn Finance 联合推出的一个支持部分抵押（甚至无抵押）的借贷市场，而 Alpha Homora 则是一家旨在提供收益耕作效率的杠杆协议。2021 年初，Alpha Homora 推出 v2 版本，开始利用 Cream v2 的流动性为用户提供杠杆服务。
+
+简而言之，双方的关系就是：Cream v2 作为底层借贷市场为 Alpha Homora v2 的用户提供杠杆操作所需的流动性，Alpha Homora v2 作为上层应用基于自己的前端为用户提供了接触 Cream v2 的窗口，并通过放大借款需求提高了 Cream v2 存款用户的利率收益。
+
+
+二者之间的矛盾可以追溯至 2021 年初的一起黑客事件。当时，黑客利用 Alpha Homora 的代码漏洞从 Cream v2 借入资金进行了闪电贷攻击，最终造成了 3750 万美元的损失。（详情可参看《Cream Finance 被盗 3750 万美元，糙快猛的 DeFi 开发方式弊端初显》）
+事后，双方约束将损失中未能追回的一部分计为 Alpha Homora 对 Cream v2 的债务，Alpha Homora 未来需要按月支付协议收入的 20% 用以还款，同时需要提供足额抵押资产来保证还款 —— 具体做法是将 50 00 万 ALPHA （当时约 6000 万美元）锁定在一个由 Cream  v2 控制的托管合约内。（详情可参看《Cream 被盗后续：Alpha Finance 按月用储备金还款，并以 5000 万代币抵押托管》）
+根据现已更名的 Iron Bank 近期的披露，被…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185546"
+                        open
+                      >
+                        <summary class="article-expander__title">ETHDenver参会随感：采访75位参会者，他们眼中的下一大趋势是什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185546">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>3 月 5 日，以太坊丹佛开发者大会已接近尾声，本次大会规模空前，共有超 4 万人参加，前期黑客松更有 300 余个项目参与。加密研究员 Will @FinanceYF 5  穿梭 20 余个会场，采访 75 位与会人员，就大会的感受以及行业趋势进行简单交流。一起来看看投资人、开发者、加密爱好者们都是如何看待各个赛道目前发展状况的。
+被采访者们普遍对活动质量表示满意，现场吸引了很多来自顶级项目的核心团队（创始人、CTO），美中不足是会场过多导致参会者很难找到场地，组织更像是一个 DAO。对于 sideeven，参会者热情更高。
+在赛道方向上，今年 zk 是一个热门方向，不过部分被采访投资者表示估值略高。当然也有坚定看好该赛道的投资人表示估值属于合理范围。此外 GameFi 和 SocialFi 是两个创新的主要方向，「破圈」成为了今年的关键词。当然以太坊大会少不了上海升级的内容，LSD 和 MEV 也吸引到不少参会者的关注，但此前热炒过的存储似乎多数人认为潜力有但发展仍需要观望，或许今年 Binance 的 Greenfield 能帮助存储赛道有新的发展。相比较去年火热的 DAO，今年会场却少的可怜。
+BlockBeats 对 Will 采访内容进行了整理和节选，通过这些参会者，希望可以帮助读者找到下一个趋势。
+投资人观点
+Matt Huang
+1 ）丹佛参会感受：自己是创业者，很喜欢开发者的感觉。这边真的很大的开发者群体，看到的生态的 core blood。最喜欢坐在开发者身边聊，很爱这事。
+2 ）投资方向：很多中间件，行业在回归，进化，加速，过去做垂直整合，现在发现很多产业，成熟到分工了，产业价值链，api，sdk，开发者接入，产业高度成熟中。
+3 ）但是挑战还是在和自己玩， 50-50 ，没有破圈，进来比较难，大家喜欢自己玩，自己夸了没影响，破圈很重要，比较看如何破圈…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185535"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3.0审计指南：CertiK审计与其他公司有何不同？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185535">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>在保障区块链项目的安全及稳定方面，审计一直以来都发挥着至关重要的作用。
+CertiK 的审计专家团队拥有丰富的经验，迄今为止已获得了 4000 家企业客户的认可，挖掘了超过 70000 个代码漏洞，保护了超过 3600 亿美元的数字资产。
+CertiK 的审计过程全面且彻底，我们的安全专家会细致检查项目的设计、架构和源代码，以发现漏洞或风险。
+凭借我们的安全专业知识和业内领先的端到端安全解决方案，CertiK 持续引领着Web3.0 行业的安全领域，提供从最基本的 token 到最复杂的 DeFi 协议乃至区块链整体架构的安全审计服务。
+但是想必会有用户疑惑于我们具体是如何进行审计的，审计方法是什么，关键的审计特点又是什么？
+往下看，这篇文章就可以给出答案。我们的审计流程的第一步，是获得源代码并搭建一个定制环境。
+第二步是审查项目文件并进行威胁模型分析，随后使用内部工具和人工审计来寻找安全漏洞和设计缺陷。
+第三步是提交一份包含所发现的风险及其修复建议的初审报告。
+第四步则是出具终审报告，该报告将详细描述审计工作为项目带来的帮助，并展示了 CertiK 审计专家是如何协助项目规避Web3.0 关键漏洞的。
+环境配置
+目前，CertiK 的审计及端到端安全解决方案已覆盖目前市面上大部分生态系统，并支持几乎所有主流编程语言，就区块链平台、数字资产交易平台、智能合约的安全性等领域为各个生态链提供安全技术支持。
+虽然某些编程语言所编写的项目可能需要非常复杂的配置过程，但这个问题可以通过使用预先配置的虚拟机环境得到一定程度的解决——将代码导入到配置好的环境中，检查其能否成功编译和部署，该环境的设置使安全专家能够运行代码并编写测试，以获得对项目更深刻的理解。
+架构审计
+确定项目的架构对于了解系统和安全相关的关键组件与部分至关重要。
+对架构的彻底理解对于有效的威胁模型分析也是必不可少的。
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185545"
+                        open
+                      >
+                        <summary class="article-expander__title">「后FTX时代」的DEX衍生品市场：GMX全链乐高挑战dYdX龙头地位？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185545">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者在：Momir Amidzic, IOSG Ventures
+TL;DR 
+
+本文讨论了后 FTX 时代 DEX 衍生品市场的状况。
+
+大多数 DEX 难以吸引有机增长，因为很大一部分交易量是由机器人和想赚取代币的交易者产生的。
+
+GMX 成为该垂直领域最大的惊喜。其无滑点设计使其成为对鲸鱼交易者有极大吸引力的场所。
+
+GMX 的产品仍远非完美，包括受限的资产选择、流动性扩展问题、缺乏足够的协议级风险管理、对中心化报价的依赖以及次优的用户体验等。
+
+然而，其中一些缺点可能是有意的权衡下产生，帮助 GMX 找到产品市场适配度并成为原生需求最大的衍生品 DEX。
+
+尽管如此，市场已经证明，要赢得加密衍生品市场份额，DEX 必须击败 CEX。
+
+加密货币衍生品交易量一直超过现货市场，这种趋势并没有减缓的迹象。2022 年，前 10 家衍生品集中交易所（CEX）的日均交易量约为 950 亿美元，而前 10 家现货 CEX 的交易量约为 310 亿美元。随着行业的不断成熟，我们可以预期衍生品与现货交易量的比例将达到类似传统资产类别的水平。
+然而，当我们将注意力转向去中心化交易所（DEX）时，情况有所不同。衍生品交易量仅相当于现货市场交易量的 56 ％，表明衍生品 DEX 的相对不成熟。当我们比较特定垂直领域内 DEX 与 CEX 的比例时，这一点尤为明显：衍生品 DEX 仅占 CEX 交易量的 1.5 ％，而在现货市场上这一比例更接近 8 ％。
+
+Source: IOSG Ventures
+值得注意的是，虽然衍生品在传统金融和中心化加密货币交易所中产生了更大的名义交易量，但这并不一定意味着我们会在去中心化的参与者中看到同样的趋势。事实上，目前只有一个加密货币衍生品市场，它有可能在没有去中心化交易所的任何贡献下继续超过加密现货市场。
+如果说有什么时刻可以作为推动去中心化衍生品交…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185543"
+                        open
+                      >
+                        <summary class="article-expander__title">ETHDenver结束，有哪些值得关注的趋势或项目？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185543">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Chloe
+原文来源：链茶馆
+
+全球规模最大的 crypto 会议 ETHDenver 昨天刚结束，今年参加人数超过 30000 多人，是有史以来人数最多的一次，完全不受行业各种暴雷事件的影响。
+这场大会持续 11 天，分为黑客松和 BUIDLWeek，主要面向以太坊和区块链协议爱好者、设计师、开发者，共同探讨以太坊建设等议题。
+核心活动会在 3 月 1 日至 3 月 5 日举行，包括主题演讲、小组讨论和展示等。
+主题包括且不限于 L2 扩展、加密货币与真实世界连接、去中心化和监管挑战、如何实现链游、重新思考 veToken 模型、LSD 发展的催化剂 DVT、零知识密码学公开可验证选举、零知识技术将如何彻底改变 Web3 之类。
+我们可以从中感受到现场的前沿趋势的碰撞，不过整场会议的重点还是在扩容上。
+Vitalik Buterin 表示，牛市往往会吸引投机者加入，熊市反而会让一些原本就该消失的应用消失，剩下的是有长期可持续性的潜力项目。
+科罗拉多州作为 ETHDenver 的大本营，州长 Jared Polis 今年出席并演讲。他不仅积极推动加密货币，还打算将科罗拉多州塑造为加密货币发展圣地，以吸引更多的项目、人才。
+从 2022 年 9 月开始，科罗拉多州是美国第一个接受加密货币作为州税支付方式的州。
+ETHDenver 的联合创始人 John Paller 表示，明年的规模将会更大，有可能在世界各地举办卫星活动，ETHDenver 将成为「超级碗」。
+ETHDenver 是由社区资助的，筹集 500 万美元来充当孵化器，投资 ETHDenver 2023 的项目。
+以下是链茶馆整理的部分值得关注的重点项目或趋势（如果没有提到你认为重要的，不是因为我们认为不重要，而是实在太多了！）。
+1.以太坊「账户抽象提案 ERC-4337 」将在 EVM 兼容链部署
+核心合约已经通过了 Open Zeppelin 的审计，将在每个 EVM 兼容网络上提供（包括 Polygon、Optimism、Arbitrum、BNB Chain、Avalanche 等）。
+账户抽象（Account Abstraction）意味着新用户进入 crypto 世界将不再需要学习复杂的助记词或设置钱包的技术过程。
+账户抽象或将成为 2023 年加密货币的一个关键主题，该技术已经被 StarkWare 和 zkSync 的 zk-Rollup 解决方案纳入。
+2.Near Protocol 启动「区块链操作系统」
+Near Protocol 推出了一个产品优先的操作系统，开发人员可以在该系统中构建，用户可以将其作为一个平台进行交互。
+这意味着 Near 将与所有区块链兼容（目前支持 Near 协议和 EVM），Near 等于是其中的入口。
+3.Uniswap 发布自托管钱包
+Uniswap 发布了钱包 App，支持以太坊、Polygon、Optimism 等链，而且还提供价格监测工具、追踪其他地址的交易活动。不过苹果拒绝给予 Uniswap 的 App 上架请求。
+Uniswap 表示会尽力满足要求条件，以进行二次申请。
+4.Koii Labs 和 Idexo 宣布一个全新的跨链中间件
+它们仅用「几行代码」就可以在链上部署，这项解决方案不仅要提高安全性、加快部署效率，更要创建一条用 DeFi 桥取代 DEX 的路径。
+只要用户通过桥，就可将两个或多个区块链数据共享，包括智能合约以及代币等。
+5.方便部署跨链应用的无代码产品 Swing Platform
+跨链流动性协议 Swing 推出旨在方便部署跨链应用的无代码产品 Swing Platform，还在大会上直接提供给开发人员使用。
+Swing Platform 旨在减少跨链部署和 DApp 更新所需的时间，且可以在不更改代码的情况下更新配置和部署更新。
+过去有许多场景是因为怕出现安全漏洞所以禁用特定代币或跨链桥，Swing Platform 目的即是要降低类似应用场景的不方便性。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185538"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | Optimism主网Bedrock升级V2提案将发布；以太坊扩容项目Scroll完成5000万美元融资（3月7日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185538">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+
+Optimism主网 Bedrock 升级V2提案将在第 11 周期审核期间发布
+Odaily星球日报讯 据社区成员 lavande 透露，关于以太坊二层解决方案 Optimism 主网 Bedrock 升级提案的新版本（即V2版本）将在第 11 周期的审核期间发布，第 11 周期的评审阶段为 3 月 2 日至 3 月 22 日，投票阶段为 3 月 23 日至 4 月 5 日。
+据悉，Bedrock 是由 OP Labs 开发的新一代去中心化 Rollup 基础架构，旨在为 Layer 2 网络提供模块化、简单性和以太坊等效性
+此前报道， 2 月 17 日，Optimism 社区关于主网 Bedrock 升级的投票推迟至 3 月 2 日开始。
+以太坊扩容项目 Scroll 融资 5000 万美元，红杉中国、Polychain Capital等参投
+Odaily星球日报讯 以太坊扩容项目 Scroll 宣布完成 5000 万美元的新一轮融资，Polychain Capital、Sequoia China（红杉中国）、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures、Qiming Venture Partners 参投。本轮融资使 Scroll 的融资总额达到 8300 万美元。
+Scroll 拒绝就本轮融资的估值和结构发表评论，但一位消息人士透露，本轮融资使 Scroll 的估值达到 18 亿美元。Scroll 此前在两轮融资中筹集了 3300 万美元，当时尚未披露其估值。
+Scroll 计划利用新融资继续构建其产品、启动主网并扩展生态系统。此外，Scroll 还计划将目前的团队规模从大约 60 人增加到近 100 人。
+
+项目要闻
+
+Krake…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1600,749 +2513,6 @@ Scroll 此前在两轮融资中筹集了3300 万美元，当时并未披露其�
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>RaaS模块化区块链底层创新的范式</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185564"
-                        open
-                      >
-                        <summary class="article-expander__title">盘点3月即将首发上线的6个热门项目（第二弹）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185564">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>上周我们盘点了 8 个即将首发上线的项目，有些项目表现亮眼。比如，HALO 在 Bitget IEO 价格为 0.02 美元，上线后一度飙升至 1.5 美元，目前稳定在 0.3 美元，较 IEO 价上涨 1500% 。本周，我们继续整理了 6 个项目以供参考。详情如下：
-
-
-项目名：LimeWire 
-
-官网：https://limewire.com/
-简介：Lime Wire 最初是一个点对点文件共享平台；去年 3 月宣布将作为艺术、娱乐和音乐的 NFT 市场重新推出，并通过 Algorand 发行 NFT 与代币。成立初期，该平台与环球音乐集团（UMG）签署一项内容许可协议，向环球音乐集团旗下的所有艺术家开放 Lime Wire 收藏品市场，与 UMG 签约的艺术家可以在 LimeWire 市场上发布 NFT 形式的收藏品，并能够将其直接出售给粉丝和收藏家。
-融资方面，去年 4 月 LimeWire 宣布在 LMWR 私募代币销售中筹集到逾 1000 万美元，Kraken Ventures、Arrington Capital 和 GSR 领投。
-公募详情：LimeWire 计划 3 月 7 日-10 日在 Tokensoft 进行 IDO，出售 250 万个代币，单价 0.16 美元，计划募资 40 万美元。详情点击：https://twitter.com/limewire/status/1629464916460462080 
-
-项目名：Equilibrium
-官网：https://equilibrium.io/
-简介：Equilibrium 是 Polkadot 上的一站式 DeFi 平台，可以在交易和借贷数字资产时使用高杠杆。它有三个主要产品： 1 ）EQD：一个由一个资产组合支持的去中心化与美元挂钩的稳定币。它可以通过跨共识信息传递（XCM）无缝和无信任地转移到…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185561"
-                        open
-                      >
-                        <summary class="article-expander__title">简析美两州监管法案异同：DAO监管拐点出现？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185561">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《DAO 监管拐点出现？美两州法案出台引争议》
-原文来源：肖飒 lawyer
-2023 年 2 月，犹他州发布了最新DAO监管法案，与 2021 怀俄明州 DAO 法案相比，新法在法人资格和有限责任方面更进一步，主要看点如下：
-犹他州 DAO 法案亮点概览
-1.  法案赋予了 DAO 一种独有的、新型的法律认可形式。犹他州决定不采取怀俄明州“旧瓶装新酒”的监管思路套用有限责任公司（limited liability company，LLC）模式对 DAO 进行监管，而是将 DAO 和 LLC 做明确区分，以具有开创性的立法思路为 DAO 单独创造了一种新型法人实体；
-2. 法案明确 DAO 组织为有限责任制，解决了在 2022 年美国商品期货交易委员会（CFTC）诉bZx DAO（后改名为 Ooki DAO）案中关于 DAO 成员是否需以个人资产对外承担无限连带责任的争议；
-3. 建立了 DAO 的税收制度；
-4. 明确 DAO 参与者没有隐含的信托责任，除非已明确声明这些义务适用于参与者；
-5. 保护 DAO 参与者的匿名性；
-6. 纳入“技术把关”措施以确保 DAO 实质上是一个 DAO。
-一、犹他州 DAO 法案概述
-关于什么是 DAO 飒姐团队已经进行过系统的介绍，感兴趣的伙伴们可以参考：《原创 | DAO，会是未来的新型“公司”吗？》今天我们就不再赘述。DAO 作为一种近些年来刚刚出现的新型商业实体，在人员组成、运营管理、收益分配和税收等多种层面上与现有的商业架构存在明显的区别，因此一直以来对 DAO 的法律性质和监管措施都存在争议，各国虽然已经有了许多 DAO 的实案例，但这些 DAO 在监管措施和法律性质上依然处于“旧瓶装新酒”的状态。这一现状的产生，主要是因为怀俄明州在 2021 年发布的 DAO 法案中开了一个先例：将 DAO 与现实世界中较为相…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185562"
-                        open
-                      >
-                        <summary class="article-expander__title">美SEC主席Gary Gensler，正成为加密监管界“教父”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185562">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Cointelgraph，原文作者：JACK SOLOWEY &amp; JENNIFER SCHULP
-Odaily 星球日报译者 | Moni
-
-
-电影《教父》里有这样的一个镜头：迈克尔·柯里昂下令打击敌对头目唐·库尼奥，他选择先把唐·库尼奥锁在一扇旋转门内然后再开枪射击。如果我们看看最近美国证券交易委员会（SEC）主席 Gary Gensler 打击加密项目的操作，会发现他似乎和迈克尔·柯里昂这种“关门打狗”的手段如出一辙。
-Gary Gensler 的“黑帮手段”
-2 月 9 日，全球最大的加密货币交易所之一 Kraken 卷入了美 SEC 的调查，调查内容是该交易所是否违反了与向美国客户发行某些产品相关的证券规定，之后宣布将“立即”结束向美国客户提供的质押即服务（staking-as-a-service）平台服务，并将向 SEC 支付 3000 万美元罚款，以解决针对其提供未注册证券的指控。
-2 月 13 日，稳定币发行商 Paxos 因 BUSD 相关问题将面临美 SEC 的诉讼，执法人员向 Paxos 发布“韦尔斯通知（Wells notice）”告知可能的执法行动并表示其发行的美元稳定币 BUSD 是一种未注册的证券，计划起诉 Paxos 违反投资者保护法，并可能采取强制行动。
-2 月 23 日，Gary Gensler 在接受《纽约杂志》采访时讨论了加密货币，他声称“除比特币以外的一切（加密货币）”都属于美 SEC 的职权范围和监管目标。
-真正令人不安的是，Gary Gensler似乎在暗示那些高度去中心化的加密货币——比如以太坊——也将被划分为证券，这与此前监管机构声称去中心化软件协议不属于证券的口径背道而驰。此外，即使假设特定加密货币或服务属于证券，仍然存在注册问题——而这，其实就是美 SEC 看起来像黑帮的地方。
-当 Gary Gensler 宣布注册加密证券的过程“只是我们网站上的一种形式”时，完全是虚伪的说辞，如果套用迈克尔·柯里昂的话，Gary Gensler“简直侮辱了我的智商，让我非常生气” ，就连他的同僚、美 SEC 专员 Hester Peirce 都表达了不满，声称“在当前监管环境下，与加密货币相关的产品在美 SEC 根本没有注册渠道。”
-Gary Gensler 的“肮脏战争”
-坦率地说，Gary Gensler 领导的美 SEC 正在对加密货币发动一场无人监督的肮脏战争，美国执法者需要捍卫自身监督权力，并为加密货币开发者、企业家和用户提供一条合法开展业务的明确途径，否则 Gary Gensler 就会用手中的权力屠杀所有“加密家族企业”，这样的执法行为和《教父》黑帮有什么区别呢？
-美 SEC 宣称当前的执法行为“只是在对其视为证券的加密代币和服务执行现有的注册和披露要求”，但这种说辞其实存在误导性，原因有二：
-第一，如果 Gary Gensler 认为除比特币以外的每个加密货币都会被视为证券，那么美国证券法对相关项目的适用性至少是有争议的，包括 Kraken 的质押服务和 Paxos 的 BUSD 稳定币。对于 Kraken，美 SEC 声称其质押服务涉及一种称为投资合约的证券，概括地说，这些证券涵盖了基于他人的管理或创业努力而预期获利的投资。Kraken 的服务是否确实属于这一范畴值得商榷。而对于 Paxos，我们还不知道美 SEC 会认为哪种类型的证券能够覆盖 BUSD 稳定币。
-第二，如果美 SEC“为了消费者好”，而要求包括稳定币在内的产品做好信息披露，那么就必须提供明确的指导，但至少到目前位置，他们还没有。 
-加密货币行业其实也想拥抱监管，但美 SEC 不应该躲在阴影中试图扼杀新技术研究和获取。正如美国众议院金融服务委员会主席帕特里克·麦克亨利所说，“数字资产的未来是一个重大经济问题”，这个新兴行业不能被一个《教父》式人物扼杀。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185560"
-                        open
-                      >
-                        <summary class="article-expander__title">即将上线的新标准ERC-4337，都有哪些功能特性？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185560">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>对于加密原住民来说，钱包安全一直是令人头疼的问题，丢失私钥、助记词，丢失资产，无法授权等都会导致用户失去对自己资产的所有权；而对于加密新人来说，很难同时弄清这些不同的概念，且交易期间频繁地授权批准也会使加密新人感到复杂。这间接地提高了进入 Web 3 的门槛，而即将到来的 ERC-4337 标准的诸多特性正是可以帮助用户解决这些问题的新标准，也是可以普及加密的必要之路。
-以太坊希望推出的新 ERC-4337 标准是什么？它的提出者是谁？
-以太坊作为开发人员最受欢迎的基于区块链的计算平台，供开发人员基于其构建和部署去中心化应用，此前宣布将推出一个名为 ERC-4337 的新标准，该标准旨在善用户体验，防止私钥丢失，优化交易流程等。
-ERC-4337 是由以太坊创始人 Vitalik Buterin 联合 Yoav Weis、Dror Tirosh 等人发布的账户抽象提案。该提案旨在使以太坊钱包更加友好（对用户），并防止任何密钥丢失。Vitalik 和他的团队提议将用户的外部拥有账户（EOA）变成智能合约账户（CA），这将允许使用户保持对他们的加密货币访问的内置机制。
-通俗地讲，ERC-4337 标准旨在使以太坊钱包更易于使用，并帮助防止用户失去对加密货币的访问权。为实现这一点，以太坊的创建者提议将钱包变成智能合约。智能合约具有内置机制，可以帮助用户保护其加密货币的安全，即使他们忘记密码或丢失私钥，这一关键功能包括要求多人批准交易的选项，以及一个系统，其中多个用户可以在有人丢失其私钥时帮助恢复其对帐户的访问。
-EOA 与 CA 的不同
-以太坊有两种不同类型的账户，外部拥有账户（EOA）与合约账户（CA），简单来说，EOA 由公钥和私钥组成，就像 MetaMask，通过助记词、私钥，用户可以对账户进行交易、访问。
-而对于 CA 来说，合约账户是没有私钥，智能合约是由其中的代码逻辑…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185559"
-                        open
-                      >
-                        <summary class="article-expander__title">EthDenver最新演讲《L2的局限性》引热议，大家都在争论什么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185559">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：@ koeppelmann、@levi 0214 、@xcshuan、@jon_charb
-内容整理：flowie，ChainCatcher
-3 月 4  日 ，Gnosis 联合创始人Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，演讲中讨论了L2 的诸多局限性，以及基于 zkBridge 的另一种扩容方案。
-Martin Köppelmann的观点很快在推特上引起了广泛讨论，且质疑的声音颇多。以UniPassID 开发者@xcshuan、 @dba _ crypto  联合创始人Jon Charbonnea为代表的不少推特用户认为，Martin Köppelmann 对于 L2 的分析，部分观点和论据逻辑混乱、完全站不住脚；而针对基于 zk bridge 的新扩容方案，质疑声音则更大，评论区充斥着“不靠谱”、“屁股决定脑袋”的言论，有评论嘲讽到，“Gnosis 自己的链还不如个测试网价值大，一天 6 万 txs，操着 10 亿用户交易量的心”。总之，Martin Köppelmann 演讲中的每一个核心论点几乎都一一遭到驳斥。
-《The Limits of L2》中提到了哪些核心观点？争议点是什么？ChainCatcher 结合 @levi 0214、@xcshuan、 @dba _ crypto 等推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理：
-一、L2 的局限性
-Gnosis 的创始人Martin Köppelmann在演讲开篇提到，L2 最初的目的是批量完成一堆交易，然后把结果同步回 L1，它是一种很临时的空间而不是一个存放永久资产的新空间。长期来看， 即使最初的愿景被完美实现，L2 依旧会存在以下提到的几大根本问题：
-
-问题 1 :  不适合状态…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185554"
-                        open
-                      >
-                        <summary class="article-expander__title">DeFi高玩必读：Curve流动性市场业务现状、生态发展、护城河及估值对比</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185554">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Alex Xu
-一.前言
-DeFi是 Mint Ventures 长期关注和看好的加密商业赛道，而Curve则是 DeFi 领域中我们最关注的项目之一。
-相较于其他 DeFi 产品，Curve 的诸多特点让它具备很高的研究价值：
-
-位于市场规模最大，同时也是竞争最激烈的赛道： 1.资产交易；2.流动性市场，且一直处于赛道里的一线阵营
-
-设计了复杂精巧的“ve”经济模型，尝试实现两个层面的协调：
-1.业务协调：实现“交易”、“流动性采购与分发”、“治理”、“市值管理”、“拓展生态合作方”等多个业务诉求之间的协调
-2.参与方协调：实现“交易用户”、“做市用户”、“流动性采购用户”和“代币持有人”之间的利益协调
-
-形成了协议生态，基于 Curve 众多项目搭建起了层层叠叠的金融乐高
-
-多链布局，在各主流 EVM 兼容链都有版本部署，且业务量均处于靠前位置
-
-自项目上线起就积极地对代币价值捕获进行实践，与诸多免费的公用品类 DeFi 形成对比
-
-我们自 2020 年开始关注 Curve，并于 2021 年 9 月首次发表了关于 Curve 的深度报告：《Uni V3进击下的 CRV：深度解析 Curve 业务模式、竞争现状和当下估值》。时隔 1 年半，Curve 就流动性的市场规模占比、交易量等指标来说依旧处于一线，但其产品机制、业务组成、治理博弈都发生了诸多变化，围绕 Curve 的协议生态也变得愈加庞杂。
-因此，我们尝试重新对 Curve 及其生态进行调研梳理，寻找以下问题的答案：
-1.业务：Curve 当下的业务情况如何，在市场中处于什么位置？
-2.生态：Curve 生态里有哪些生态项目，它们之间的竞合关系以及对 Curve 的价值
-3.护城河：Curve 是否仍然存在稳固的护城河？DEXs 赛道的终局是头部协议的垄断，还是长期的竞争血海？
-4.估值：相对于同类协议…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185557"
-                        open
-                      >
-                        <summary class="article-expander__title">LSD战争升温，Stader会是下一个潜力股吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185557">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Poopman
-原文编译：0x11 ，Foresight News
-LSD 战争正在迅速升温。如果你正在寻找下一个隐藏的宝石💎，我为你准备了年度最大的 Alpha。Stader 可能会成为质押游戏规则的改变者。
-在这篇推文中，我将介绍：
-
-Liquid Staking 的挑战
-
-ETHx 设计
-
-SD 代币经济学
-
-Liquid Staking 的挑战
-Liquid Staking 一直是以太坊生态的一个重要领域，但它面临着一些重大挑战：中心化🔴和可扩展性↔️。
-中心化
-Lido、Coinbase 和 Kraken 控制着超过 50% 的 ETH 质押量，其中 90% 委托给了获许可的运营商。
-可扩展性
-由于以太坊抵押质押门槛高 ，具有无许可节点的 LSD 服务难以满足普通用户需求。
-
-为解决这些问题，多链流动性质押协议 Stader 引入了「ETHx」，它大大降低了无许可节点运营商的门槛，仅仅只需要 4 ETH。
-它是如何做到的呢？答案是：多池架构和分布式验证器技术（DVT）。
-ETHx 设计
-多池架构
-每当用户存入 ETH 时，Stader Pools Manager 将铸造 ETHx 作为回报，并将存入的 ETH 部署到以下质押池之一：
-
-无许可质押池🆓
-
-DVT 质押池🚚
-
-许可型质押池🔒
-
-
-无许可质押池
-无许可模型意味着不需要白名单就可以运行节点。在这个池中，Stader 允许节点以同行竞争者中最低的保证金要求（4 ETH）运行。但这怎么可能呢？
-通过与 SSV 合作， Stader 模拟极端运行条件并得出结论， 4 ETH 足以覆盖所有关键的尾部风险，包括
-
-验证器性能差
-
-闲置泄漏
-
-相关削减
-
-DVT 在这些情况中扮演着重要作用。
-
-分布式验证器技术 (DVT)
-DVT 允许验证器的职责分散在多个节点之间。因此，即使其中一台机器离线或出现故障，验证器也可以继续运行而不会中断。
-
-通过利用 DVT 的高容错率，减少罚没的可能性，Stader 将无许可节点所需的保证金降低到 4 ETH。（了解 DVT，请参阅。）
-DVT 的实施可以增强 LSD 的去中心化和可扩展性。归功于较低的进入门槛，更多的验证者可以安全地加入网络。
-但是，目前尚不清楚串通攻击的后果以及实际发生削减的情况。
-许可型质押池
-为了防止早期无许可节点引起的可扩展性问题，Stader 为 ETHx 补充了社区认可的许可运营商。这有助于确保 ETHx 在早期的稳定表现。
-代币经济学
-ETHx 代币经济模型分两个阶段。
-第一阶段
-要为 Stader 运行一个节点，每个验证者必须存入 4 ETH 和价值 0.4 ETH 的 SD 代币作为抵押品。
-额外质押的 SD 在削减发生的情况下充当保护机制，类似于@Rocket_Pool。
-SD 激励
-为了激励节点运营商，Stader 将在第一年为验证者发放价值约 100-200 万美元的 SD 代币。
-SD 激励数量取决于节点运营商每月质押的 SD 比例（每个验证者最多质押价值 8 ETH 的 SD 代币）。
-
-除了 SD 质押激励之外，用户还可以从其他用户质押的 28 ETH 产生的质押奖励中获得 5% 的佣金。
-与其他 LSD 方案相比，ETHx 为质押者提供了更高的收益率，只需要更少的资金。（了解更多信息）
-第二阶段
-节点运营商可以无抵押借入 SD 用于质押。借出 SD 的人可以获得 10% 的节点佣金，并获得额外的 SD 激励。（了解更多）
-ETHx 质押将推动对 SD 代币的需求，因为它是运行节点的要求之一。正如@NagatoDharma 指出的那样，SD 价格仍比其 ICO 的 3.3 美元低 65% 。在当前 TVL 为 115 M 的情况下， SD 代币可能被低估了。
-原文链接</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185558"
-                        open
-                      >
-                        <summary class="article-expander__title">​Web3.com将于3月8日开启DID早鸟凭证注册</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185558">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>域名是互联网的重要组成部分，为网站和在线服务提供唯一凭证。然而传统的域名系统存在一些限制，例如中心化，并且限制域名所有者的控制权。此类痛点也是Web3.com希望进行突破的领域。
-什么是Web3.com?
-Web3.com是一个集成了用户身份与生态信息探索的一站式平台，致力于服务并带领Web3用户群体共同探索更符合Web3范式与精神的网络形态，引导新用户进入Web3。基于这样的目标，Web3.com现已推出一个新的产品概念
-—— Web3 ite Pass (Web3领域的终极凭证)
-Web3 ite Pass独特的品牌价值之一在于拥有&quot;Web3.com&quot;后缀的域名。Web3 ite Pass是在以太坊主网上发行的NFT，设计为将Web2和Web3世界连接起来的生态凭证。每个NFT对应一个以&quot;web3.com&quot;结尾的域名。用户可以使用加密钱包在以太坊上注册名为&quot;job&quot;的Web3 ite Pass NFT。该NFT对应于域名&quot;job.web3.com&quot;。作为该域名的所有者，个人或组织可以编辑和创建一个独特的、定制化的数字名片，易于记忆并脱颖而出。
-
-核心目标用户
-在目前的冷启动阶段，我们的目标核心用户群可分为两类：
-1. 深耕Web3的企业，以及项目方，或者有意向Web3转型的Web2企业
-2. Web3从业者 - 开发者、创作者、创业者，可以高效的展示自己的核心价值
-Web3.com核心价值点 - From Web2 to Web3
-跟传统的web2互联网域名非常不同的是，Web3 ite Pass借助NFT这一形式为传统域名带来了更多的玩法，带来了链上与链下信息的有机连接，从而呈现出传统互联网域名完全不具备的核心价值点。
-
-1. NFT赋能 —— 给使用者域名的拥有和控制权
-Web3 ite Pass是一张在以太坊主网上发行的ERC-721 标准的NFT域名，NFT象征了对这一域名的所有权，可作为编辑展示名片的钥匙。
-2. 流动性价值
-同时，NFT具有较好的流通能力，对于一些比较有价值的域名，用户也可以便捷地进行交易，获得品牌溢价红利。
-3. 识别性高
-当前的智能合约地址通常是由冗长且无规则的字符组成，难以记忆、辨认。而web3.com是一个简单的域名，用户可以轻松记忆 xxx.web3.com 链接，使得访问十分便捷。
-4. 安全性高
-链上与链下便捷联通，用户在链上看到.web3.com的域名后可以很便捷直接地访问链下展示页，从而可以很便捷的让链下认证信息和链上信息关联起来，并通过展示页中绑定的社媒平台、官方认证等信息确认合约地址的真实性。用户可以避免钓鱼合约，进而导致各种黑客攻击和意外操作。
-未来前景 &amp; 路线图
-Web3 ite Pass仅仅是个开始。我们将继续探索和开发新的产品形式，后续计划有基于Web3 ite Pass内容的信息导览服务，为域名带来更多的流量与曝光；Web3邮箱服务，运营营销工具等，为您的Web3 ite Pass带来更多的价值。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185556"
-                        open
-                      >
-                        <summary class="article-expander__title">新项目 | reNFT：让闲置NFT的价值流动起来</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185556">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>与实物资产类似，NFT 资产也可以享有租赁服务。
-对于 NFT 持有者来说，出租 NFT 是获得被动收入的一种方法，他们可以通过将闲置的 NFT 租借给有需要的人来产生更大的收益。而对于承租方来说，他们可以不用花高价钱买入昂贵的 NFT，并同样可以获得该 NFT 的对应权利。这种租赁关系大多受到智能合约的保护，相关交易条款也由智能合约管理。因此，NFT 所有者通常可以自由设定他们的租赁协议期限和 NFT 的租赁费率。
-reNFT 就是一个典型的多链 NFT 租赁平台，它可以白标集成到任何项目中，以实现无抵押的内部租赁、贷款和奖励分享。reNFT 目前的使用场景非常广泛，如 GameFi 新手可以借用游戏内资产开启游戏，以跨过前期很高的游戏成本门槛；玩家也可以通过出租 NFT 活动门票，以赚取租金。在元宇宙中，你也可以从地主那里租用土地并使用他的土地来举办自己的活动。
-2021 年，reNFT 完成 Animoca Brands 领投的 150 万美元融资。去年，reNFT 又宣布完成 500 万 美元战略融资，Mechanism 和 gumi Cryptos Capital（gCC）领投，Animoca Brands、The Sandbox、OpenSea、Sfermion、Morningstar Ventures、EveryRealm、OP Crypto、Longhash Ventures、Fourth Revolution Capital、Metastreet 等参投。
-
-
-
-
-reNFT 有两种租赁方法：无抵押租赁和抵押品租赁。
-
-无抵押租赁是采用预付款的方案来实现的。具体来说，NFT 持有者或者项目方首先将 NFT 托管在注册的智能合约中，智能合约在租用 NFT 时将使用权分配给承租者。这个解决方案类似于租房。NFT 的所有者决定每日的租赁价格、想要获得支付的代币以及最长的租赁期限。出租后，承租人可以决定想租用 NFT 多长时间。承租人需要支付总租金（每日租金*租赁时间）。当智能合约收到代币后，承租人就可以使用 NFT。
-此外，该方案还集成了奖学金模式，即 NFT 持有者出租他们的 NFT 并与游戏玩家（承租者）分享收益。目前，reNFT 与主要的几家公会开展合作，游戏和活动可以利用此解决方案在其平台上实现租赁，而无需用户冒 NFT 违约的风险。
-
-
-抵押品租赁是承租人在租赁 NFT 时，需要抵押一定价值的资产。如果租期到期后， NFT 未归还，承租者则需要用抵押品来补偿出租方。出租方可以自己设置抵押品的价值，但是在决定要收取多少抵押品时要谨慎，因为这将视为你愿意放弃 NFT 的价格。
-未来，在 reNFT v2 版本中将引入：
-
-改进和简化的价格处理。
-
-在将 NFT 出租后编辑借出参数（如价格、期限等）的能力。
-
-进一步提高 gas 效率，以尽可能降低 gas 费用。
-
-创建用于借出和租赁的 NFT 库，来处理 721 / 1155 转账。
-
-支持 721 和 1155 的“混合资产”：例如沙盒游戏内资产。
-
-reNFT 也将与其他协议合作以解锁一些新功能，如贷款、拆分、质押锁定在智能合约中的 NFT；通过合作，允许通过其使用权模型出租锁定的资产，让用户可以在他们的 NFT 被锁定时用于其他协议并获得收益。
-
-为了促进大范围的采用，reNFT 协议目前是免费的。以后将收取每笔交易的百分比费用，平台收入将与集成项目共享。总费用将由集成项目和 reNFT DAO 共同决定。未来，reNFT 作为 DAO 运行，可以在集成项目和 reNFT 之间提出不同的收入分配选项。
-感兴趣的小伙伴可以在此网站 https://docs.renft.io/ 上找到无抵押和抵押品两种租赁方式的不同教程。
-Odaily星球日报的【新项目】栏目旨在帮助 Web3 早期项目获得市场曝光机会，如果你也是 Web3 创业者，欢迎关注官方推特 @OdailyChina，私信备注【寻求报道】，发送你的项目简介和联系方式，我们将尽快与你沟通。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185555"
-                        open
-                      >
-                        <summary class="article-expander__title">超话社区 | 熊市新机遇，共享矿机如何为投资者提供灵活的高收益？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185555">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>MintSat 是领先的 PoW 及 POC 加密货币数字挖掘服务供应商，致力于为专业投资者提供大额定制化矿机共享服务解決方案，目前已与顶级矿机制造商和知名矿池如 BTC.com、ViaBTC、Foundry、AntPool、F 2 Pool 和 BTC.top 建立了战略联盟。
-3 月 6 日晚，MintSat Cofounder Martin Wu，做客 Odaily星球日报超话社区，带来关于「熊市新机遇，共享矿机如何为投资者提供灵活的高收益？」的主题分享，围绕 MintSat 的产品与服务进行了深入的探讨。
-
-Martin Wu 表示，当前矿业市场正在朝着多样化的方向发展，我们看好 POSW 这种新的混合共识机制，相信它将会带来新的矿业商业格局。
-以下为社区对话实录：
-一、嘉宾问答
-Odaily 星球日报：首先，可否请您简单介绍一下自己和团队核心成员?  你们是如何接触到加密世界并参与其中的？
-Martin Wu：Mintsat 团队成员来自全球各地，核心成员主要是由 4 人构成的，分别是我本人 Martin WU、我们的现场总工程师 Xie Hua、我们的矿产总经理 Nina、和我们的安全经理 Sam。我们四个人是在 2017 年由万向主办的第三届区块链全球峰会相遇的。当时我是在做挖矿相关业务，同时他们三个也比较看好这个赛道，就都从各自的领域跳出来加入到了 Mining 的行业，之后我们共同成立了 Mintsat 开始在全球范围内建设场地，扩展业务。
-Odaily 星球日报：能否用概括的语言简单地向大家介绍一下 Mintsat 的业务？
-Martin Wu：Mintsat 是 PoW 及 POC 加密货币数字挖掘服务供应商，提供专业的数字挖矿解决方案。自 2018 年以来，我们一直提供行业领先的挖矿服务受到全球用户的一致赞誉。我们在全球拥有 5 个矿场，用户遍布 7…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185547"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂V神真正构想的SBT</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185547">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Vedent
-原文编译：白泽研究院
-Soulbound Token（SBT）是以太坊创始人 Vitalik Buterin 的心血结晶。这个激动人心的技术将撼动 Web3 世界，并且已经引起了加密社区的关注。
-在本文中，我们将探索 SBT，从它们的起源故事到它们改变 Web3 游戏规则。我们还将分享有关它们如何运作、为什么如此有益以及它们在 Web3 有哪些应用？
-什么是 SBT？
-Soulbound Token，也被称为“灵魂绑定代币”，是一种唯一、不可转让和非金融化的代币，代表了个人的线上身份、信誉和从属关系。
-就像简历或医疗记录一样，SBT 用于展示一个人在 Web3 网络上的资历和从属关系。这些代币不能出售或交易，只能作为个人数字身份的永久记录。
-去中心化的社会信用体系——这一直是 Web3 爱好者的热门话题。政府的信用评分系统可能会让隐私倡导者感到不寒而栗，它与 SBT 之间的区别就像白天和黑夜，一个是自上而下，一个是自下而上。
-SBT 可以让你控制自己的身份和声誉，同时仍然形成可信赖的社区和协作。
-Vitalik，SBT 背后的“大脑”，说得最好：
-
-“在加密行业创建 SBT 可能是通往另一种选择的途径，在这种情况下，NFT 可以更多地代表你是谁，而不仅仅是你能买得起的东西，作为你炫耀的东西。”
-
-SBT 从何而来？
-那么，让我们深入了解 SBT 的历史，看看它们是如何走过漫长的道路的。
-这一切都始于 2022 年 5 月，当时这一想法背后的“大脑”们，经济学家和社会技术专家 E. Glen Weyl、律师 Puja Ohlhaver 和以太坊联合创始人 Vitalik Buterin 齐聚一堂，提出了 Soulbound Token 的概念。
-
-他们将 SBT 设想为是 Web3 和 DeSoc（去中心化社会）中的基础构建块。
-DeSoc，或去中心化…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185542"
-                        open
-                      >
-                        <summary class="article-expander__title">GameFi 2022年度榜单暨2023年展望报告</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185542">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>过去三年，Web3行业见证了GameFi生态的繁荣，游戏品类和数量快速增长。SparkX 作为 GameFi开发者社区，长期与广大从业者、爱好者共同关注 GameFi 市场。本次，SparkX 与顶尖Web3专业数据平台 Footprint Analytics 联合发布《GameFi 2022 年度榜单暨 2023 年展望报告》，以各项数据排名、玩家投票等多种方式梳理了 2022 年的 GameFi 项目，并对 2022-2023 年 GameFi 赛道从项目数据、生态发展、项目模式演变三方面进行了总结与展望。
-
-GameFi 2022 年度榜单
-
-榜单详细数据可见：数据排名
-2022 年GameFi市场回顾及2023 年展望报告
-一、整体回顾：
-2022 年是GameFi赛道的至暗时刻。StepN火爆出圈，但抵不住经济下行压力，随着Luna崩溃、3AC破产、FTX暴雷、DCG清算等黑天鹅事件的发生，GameFi也迎来至暗时刻，全年代币市值缩水87% ，绝大多数GameFi项目Token跌超90% 。2022 年初GameFi代币总市值占加密市场的0.9% ，到年末仅占0.5% ，整体跑输加密市场大盘。
-85% 的GameFi项目不超过1000 名用户。2022 年GameFi协议数量同比增加49% 到达2171 个，但DAU超100 的活跃协议数量却一直在下降，仅有14.5% 的GameFi协议获得超过1000 个用户，98% 的GameFi协议平均周留存率达不到10% ，熊市之中ROI的下降让大多数没有可玩性加持的游戏停滞不前、等待死亡。
-依然有GameFi玩家顽强坚守。2022 年末DAU相比最高点下降57% ，但整体DAU仍稳定在75 万以上。受代币价格下跌影响，GameFi平均月交易量下降了98% ，但月交易次数稳定在1.3 亿到1.85 亿之间。平均DAU靠前的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185551"
-                        open
-                      >
-                        <summary class="article-expander__title">ETHDenver参会总结：我们看到了哪些趋势？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185551">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Allen Su
-原文来源： ArkStream Capital
-刚从 Denver 回来，过去的一周精彩不已。分享一下个人感受，和整个会议传递的新趋势。
-整体而言，EthDenver 整体感受非常好，远胜 Consensus，Token 2049 。
-1. 全球性开发者文化
-据说整个 ETHDenver 来了 35000 人， 7500 hackers。我住的酒店离 downtown 开车要 15 分钟，但是基本每天电梯里都能见到参会者，大家一看胸牌，互相一秒熟络。从业者里，项目方：VC 约 5: 1 。项目方颇具全球性，除了美国本土，中国，加拿大，英国，新加坡，欧洲是最大的集合。和 ArkStream 好几个北美欧洲的 portfolio，终于见上了。VC 领域，大部分活跃的一二线基金都有来人，尤其是过去很少出现的一些欧洲地区资本。
-与 Consensus 不同，ETHdenver 的开发者文化使得整个活动都非常加密原生。与项目方见面基本都是直接坐下，当场电脑展示 demo， 30 分钟就把产品给聊得很透彻。这点我非常喜欢，仿佛回到了 2017 年刚入行时的感觉。
-
-随处可见的 hacker
-2. 参会指南
-ArkStream作为 VC，我们最重要的还是 source 项目。因为活动太多，最高效的方式依然是小型活动+定向搜索。
-小型活动一般以 20-100 人的 brunch，seminar 和 party 组成。这次参与的几个好的活动有 Meet the VC Brekky, Brunch party with Fabric/SevenX, zkNight Afterparty, MIT Alumni founder’s lunch, Cosmos on Tap, IOSG old friend Reunion, Founders Club 启动仪式，收获了…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185550"
-                        open
-                      >
-                        <summary class="article-expander__title">Mt.Gox被盗事件「剧终」：近14万枚比特币将被释放，债权人会如何获得赔偿？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185550">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>历经多次推迟清算及数场官司，Mt. Gox 被盗事件总算进入赔付阶段，其债权人有望在今年 3 月获得首批还款。而在过去九年时间里，比特币价格的飙涨也让 Mt. Gox 债权人在多年“被动锁仓”后，强制获得一笔不小的“意外收入”。
-但当前债权人更为关心的是，Mt.Gox 的真实财务状况如何？究竟会怎么赔付？何时会收到偿还款？另外，一旦用于偿还债权人的近 14 万枚比特币被释放，市场是否会面临被砸风险？
-Mt.Gox 的清偿方式：基础偿付和比例偿付
-从申请破产清算到确定赔付方案，再到最终准备还款，这场耗时九年的 Mt.Gox“门头沟”被盗事件总算要“剧终”了。
-根据 2019 年 Mt.Gox 的资产负债表显示，其债务人持有约 14.2 万枚比特币（BTC)、 14.3 万枚比特币现金(BCH)及 690 亿日元（约 5.1 亿美元）。有债权人透露，此后的 Mt.Gox 资产负债表并没有出现太大变化。而 Token Unlocks 截至 3 月 6 日最新数据显示，Mt.Gox 持有超 13.7 万枚比特币，价值共 30.8 亿美元。
-根据 Mt.Gox 官网公告，债权人要想获得赔偿，需在 2023 年 3 月 10 日前登记并选择还款方式，首批赔付的最后期限为 2023 年 9 月 30 日。如果未能在截止时间内完成登记和注册，这部分债权人将无法获得提前一次性还款，且失去部分加密货币恢复索赔、银行汇款支付或通过资金转账服务提供商汇款的权利。此外，他们还需要携带所需的文件前往 MTGOX Co., Ltd. 总部，仅能以日元的现金形式接受还款。
-而 Mt.Gox 面向债权人提供的最新偿付方案包括基础偿付和比例偿付。基础偿付部分允许每个债权人索赔的前 20 万日元将以日元支付，比例偿付则为债权人提供了两种灵活选择，即“早期一次性还款”或“中期还款和终期还款”。其中，一次性还款的赔付方式仅能让债权人获得部分赔付（黑客攻击时他们锁定在平台上的资金约为 21% ），超过 20 万日元的部分可允许债权人选择 BTC、BCH 和日元的混合方式或者以法定货币支付全部金额，据一位债权人透露，比例大概为 71% 的加密货币和 29% 的现金。
-例如，Mt.Gox 最大债权人 Bitcoinica 和 MGIF 就选择了一次性支付方案，且选择主要以比特币而非法定货币的形式来获得其破产追偿，这也大大降低了市场对 Mt.Gox 大量抛售比特币来支付法币赔付款的担忧，要知道这两大债权人所需的索赔金额约占全部的五分之一。
-“中期还款和终期还款”则较前一种方式的偿还额更多，但仅在 9 月 30 日获得中期付款，终期付款将在未来几年内支付。而部分债权人要想获得更高比例的偿付，还可继续等待诉讼结果，这意味着他们需要等到更长的时间才能收到付款，MGIF 曾在 2022 年的一份备忘录中表示，这个过程可能需要五至九年的时间。
-值得一提的是，由于债权人须注册并指定一家交易所代表他们接收资金，而每家交易所针对处理付款的速度给出了不同的时间表，因此他们获得赔偿的时间也不相同，比如 BitGo 将在 20 天内进行付款、Kraken 的付款程序可能需要 90 天等。
-加密市场不会面临集中砸盘
-2014 年，作为曾占比特币交易量 70% 的全球第一大交易所，Mt.Gox 被曝遭遇黑客攻击，共有 10 万枚比特币及用户 75 万枚比特币被盗（后找回 20 万枚比特币并陆续抛售月 6 万枚）用户资产一夜之间“灰飞烟灭”， 3 天后 Mt.Gox 申请破产。回忆这起“门头沟事件”，至今仍让很多投资者心有余悸。
-而彼时，比特币的价格大概为 800 美元，而多年后其价格已直线飞涨，最高曾涨至超 5 万美元，即便是当前 1.7 万美元的价格，也较 2014 年翻了超 21.8 倍。如此高的回报率之下，难保有不少债权人选择抛售提现，而目前 Mt. Gox 可用的比特币数量占当前比特币日交易量（63.2 万枚）的 21.6% ，那么如此体量的比特币是否对市场产生冲击？
-对此，瑞银策略师 Ivan Kachkovski 表示，即将到来的 Mt. Gox 破产还款可能不会引起人们对比特币价格的担忧。Mt. Gox 为债权人提供了多种还款方式和时间选择，且大多数债权人仍是加密货币信徒，因此不太可能抛售比特币。但 Mt. Gox 采用法定还款的早期一次性付款选项将导致交易所出售比特币以筹集必要的现金，并可能让“长期以来担心 Mt.Gox 赎回会损害比特币价格”成为现实。
-虽然首次赔偿的债权人及比特币数量尚未可知，但 Mt. Gox 完成所有的数据统计预计还需要一定时间，且债权人的偿还方式有着多种形式及是多阶段的，甚至部分为获得更多赔偿还需耗费几年时间，这意味着这部分比特币的释放量或将不会非常集中，并不会造成非常集中的市场冲击。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185518"
-                        open
-                      >
-                        <summary class="article-expander__title">“Iron Bank手撕Alpha Homora”事件的来龙去脉</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185518">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>近期，Iron Bank 和 Alpha Homora 之间就逾 3000 万美元的坏账“闹僵”一事在 DeFi 圈内引发了广泛讨论。
-Iron Bank 是的前身是 Cream v2，这是由 Cream Finance 和 Yearn Finance 联合推出的一个支持部分抵押（甚至无抵押）的借贷市场，而 Alpha Homora 则是一家旨在提供收益耕作效率的杠杆协议。2021 年初，Alpha Homora 推出 v2 版本，开始利用 Cream v2 的流动性为用户提供杠杆服务。
-
-简而言之，双方的关系就是：Cream v2 作为底层借贷市场为 Alpha Homora v2 的用户提供杠杆操作所需的流动性，Alpha Homora v2 作为上层应用基于自己的前端为用户提供了接触 Cream v2 的窗口，并通过放大借款需求提高了 Cream v2 存款用户的利率收益。
-
-
-二者之间的矛盾可以追溯至 2021 年初的一起黑客事件。当时，黑客利用 Alpha Homora 的代码漏洞从 Cream v2 借入资金进行了闪电贷攻击，最终造成了 3750 万美元的损失。（详情可参看《Cream Finance 被盗 3750 万美元，糙快猛的 DeFi 开发方式弊端初显》）
-事后，双方约束将损失中未能追回的一部分计为 Alpha Homora 对 Cream v2 的债务，Alpha Homora 未来需要按月支付协议收入的 20% 用以还款，同时需要提供足额抵押资产来保证还款 —— 具体做法是将 50 00 万 ALPHA （当时约 6000 万美元）锁定在一个由 Cream  v2 控制的托管合约内。（详情可参看《Cream 被盗后续：Alpha Finance 按月用储备金还款，并以 5000 万代币抵押托管》）
-根据现已更名的 Iron Bank 近期的披露，被…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185546"
-                        open
-                      >
-                        <summary class="article-expander__title">ETHDenver参会随感：采访75位参会者，他们眼中的下一大趋势是什么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185546">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>3 月 5 日，以太坊丹佛开发者大会已接近尾声，本次大会规模空前，共有超 4 万人参加，前期黑客松更有 300 余个项目参与。加密研究员 Will @FinanceYF 5  穿梭 20 余个会场，采访 75 位与会人员，就大会的感受以及行业趋势进行简单交流。一起来看看投资人、开发者、加密爱好者们都是如何看待各个赛道目前发展状况的。
-被采访者们普遍对活动质量表示满意，现场吸引了很多来自顶级项目的核心团队（创始人、CTO），美中不足是会场过多导致参会者很难找到场地，组织更像是一个 DAO。对于 sideeven，参会者热情更高。
-在赛道方向上，今年 zk 是一个热门方向，不过部分被采访投资者表示估值略高。当然也有坚定看好该赛道的投资人表示估值属于合理范围。此外 GameFi 和 SocialFi 是两个创新的主要方向，「破圈」成为了今年的关键词。当然以太坊大会少不了上海升级的内容，LSD 和 MEV 也吸引到不少参会者的关注，但此前热炒过的存储似乎多数人认为潜力有但发展仍需要观望，或许今年 Binance 的 Greenfield 能帮助存储赛道有新的发展。相比较去年火热的 DAO，今年会场却少的可怜。
-BlockBeats 对 Will 采访内容进行了整理和节选，通过这些参会者，希望可以帮助读者找到下一个趋势。
-投资人观点
-Matt Huang
-1 ）丹佛参会感受：自己是创业者，很喜欢开发者的感觉。这边真的很大的开发者群体，看到的生态的 core blood。最喜欢坐在开发者身边聊，很爱这事。
-2 ）投资方向：很多中间件，行业在回归，进化，加速，过去做垂直整合，现在发现很多产业，成熟到分工了，产业价值链，api，sdk，开发者接入，产业高度成熟中。
-3 ）但是挑战还是在和自己玩， 50-50 ，没有破圈，进来比较难，大家喜欢自己玩，自己夸了没影响，破圈很重要，比较看如何破圈…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185535"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3.0审计指南：CertiK审计与其他公司有何不同？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185535">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>在保障区块链项目的安全及稳定方面，审计一直以来都发挥着至关重要的作用。
-CertiK 的审计专家团队拥有丰富的经验，迄今为止已获得了 4000 家企业客户的认可，挖掘了超过 70000 个代码漏洞，保护了超过 3600 亿美元的数字资产。
-CertiK 的审计过程全面且彻底，我们的安全专家会细致检查项目的设计、架构和源代码，以发现漏洞或风险。
-凭借我们的安全专业知识和业内领先的端到端安全解决方案，CertiK 持续引领着Web3.0 行业的安全领域，提供从最基本的 token 到最复杂的 DeFi 协议乃至区块链整体架构的安全审计服务。
-但是想必会有用户疑惑于我们具体是如何进行审计的，审计方法是什么，关键的审计特点又是什么？
-往下看，这篇文章就可以给出答案。我们的审计流程的第一步，是获得源代码并搭建一个定制环境。
-第二步是审查项目文件并进行威胁模型分析，随后使用内部工具和人工审计来寻找安全漏洞和设计缺陷。
-第三步是提交一份包含所发现的风险及其修复建议的初审报告。
-第四步则是出具终审报告，该报告将详细描述审计工作为项目带来的帮助，并展示了 CertiK 审计专家是如何协助项目规避Web3.0 关键漏洞的。
-环境配置
-目前，CertiK 的审计及端到端安全解决方案已覆盖目前市面上大部分生态系统，并支持几乎所有主流编程语言，就区块链平台、数字资产交易平台、智能合约的安全性等领域为各个生态链提供安全技术支持。
-虽然某些编程语言所编写的项目可能需要非常复杂的配置过程，但这个问题可以通过使用预先配置的虚拟机环境得到一定程度的解决——将代码导入到配置好的环境中，检查其能否成功编译和部署，该环境的设置使安全专家能够运行代码并编写测试，以获得对项目更深刻的理解。
-架构审计
-确定项目的架构对于了解系统和安全相关的关键组件与部分至关重要。
-对架构的彻底理解对于有效的威胁模型分析也是必不可少的。
-…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185545"
-                        open
-                      >
-                        <summary class="article-expander__title">「后FTX时代」的DEX衍生品市场：GMX全链乐高挑战dYdX龙头地位？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185545">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者在：Momir Amidzic, IOSG Ventures
-TL;DR 
-
-本文讨论了后 FTX 时代 DEX 衍生品市场的状况。
-
-大多数 DEX 难以吸引有机增长，因为很大一部分交易量是由机器人和想赚取代币的交易者产生的。
-
-GMX 成为该垂直领域最大的惊喜。其无滑点设计使其成为对鲸鱼交易者有极大吸引力的场所。
-
-GMX 的产品仍远非完美，包括受限的资产选择、流动性扩展问题、缺乏足够的协议级风险管理、对中心化报价的依赖以及次优的用户体验等。
-
-然而，其中一些缺点可能是有意的权衡下产生，帮助 GMX 找到产品市场适配度并成为原生需求最大的衍生品 DEX。
-
-尽管如此，市场已经证明，要赢得加密衍生品市场份额，DEX 必须击败 CEX。
-
-加密货币衍生品交易量一直超过现货市场，这种趋势并没有减缓的迹象。2022 年，前 10 家衍生品集中交易所（CEX）的日均交易量约为 950 亿美元，而前 10 家现货 CEX 的交易量约为 310 亿美元。随着行业的不断成熟，我们可以预期衍生品与现货交易量的比例将达到类似传统资产类别的水平。
-然而，当我们将注意力转向去中心化交易所（DEX）时，情况有所不同。衍生品交易量仅相当于现货市场交易量的 56 ％，表明衍生品 DEX 的相对不成熟。当我们比较特定垂直领域内 DEX 与 CEX 的比例时，这一点尤为明显：衍生品 DEX 仅占 CEX 交易量的 1.5 ％，而在现货市场上这一比例更接近 8 ％。
-
-Source: IOSG Ventures
-值得注意的是，虽然衍生品在传统金融和中心化加密货币交易所中产生了更大的名义交易量，但这并不一定意味着我们会在去中心化的参与者中看到同样的趋势。事实上，目前只有一个加密货币衍生品市场，它有可能在没有去中心化交易所的任何贡献下继续超过加密现货市场。
-如果说有什么时刻可以作为推动去中心化衍生品交…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185543"
-                        open
-                      >
-                        <summary class="article-expander__title">ETHDenver结束，有哪些值得关注的趋势或项目？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185543">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Chloe
-原文来源：链茶馆
-
-全球规模最大的 crypto 会议 ETHDenver 昨天刚结束，今年参加人数超过 30000 多人，是有史以来人数最多的一次，完全不受行业各种暴雷事件的影响。
-这场大会持续 11 天，分为黑客松和 BUIDLWeek，主要面向以太坊和区块链协议爱好者、设计师、开发者，共同探讨以太坊建设等议题。
-核心活动会在 3 月 1 日至 3 月 5 日举行，包括主题演讲、小组讨论和展示等。
-主题包括且不限于 L2 扩展、加密货币与真实世界连接、去中心化和监管挑战、如何实现链游、重新思考 veToken 模型、LSD 发展的催化剂 DVT、零知识密码学公开可验证选举、零知识技术将如何彻底改变 Web3 之类。
-我们可以从中感受到现场的前沿趋势的碰撞，不过整场会议的重点还是在扩容上。
-Vitalik Buterin 表示，牛市往往会吸引投机者加入，熊市反而会让一些原本就该消失的应用消失，剩下的是有长期可持续性的潜力项目。
-科罗拉多州作为 ETHDenver 的大本营，州长 Jared Polis 今年出席并演讲。他不仅积极推动加密货币，还打算将科罗拉多州塑造为加密货币发展圣地，以吸引更多的项目、人才。
-从 2022 年 9 月开始，科罗拉多州是美国第一个接受加密货币作为州税支付方式的州。
-ETHDenver 的联合创始人 John Paller 表示，明年的规模将会更大，有可能在世界各地举办卫星活动，ETHDenver 将成为「超级碗」。
-ETHDenver 是由社区资助的，筹集 500 万美元来充当孵化器，投资 ETHDenver 2023 的项目。
-以下是链茶馆整理的部分值得关注的重点项目或趋势（如果没有提到你认为重要的，不是因为我们认为不重要，而是实在太多了！）。
-1.以太坊「账户抽象提案 ERC-4337 」将在 EVM 兼容链部署
-核心合约已经通过了 Open Zeppelin 的审计，将在每个 EVM 兼容网络上提供（包括 Polygon、Optimism、Arbitrum、BNB Chain、Avalanche 等）。
-账户抽象（Account Abstraction）意味着新用户进入 crypto 世界将不再需要学习复杂的助记词或设置钱包的技术过程。
-账户抽象或将成为 2023 年加密货币的一个关键主题，该技术已经被 StarkWare 和 zkSync 的 zk-Rollup 解决方案纳入。
-2.Near Protocol 启动「区块链操作系统」
-Near Protocol 推出了一个产品优先的操作系统，开发人员可以在该系统中构建，用户可以将其作为一个平台进行交互。
-这意味着 Near 将与所有区块链兼容（目前支持 Near 协议和 EVM），Near 等于是其中的入口。
-3.Uniswap 发布自托管钱包
-Uniswap 发布了钱包 App，支持以太坊、Polygon、Optimism 等链，而且还提供价格监测工具、追踪其他地址的交易活动。不过苹果拒绝给予 Uniswap 的 App 上架请求。
-Uniswap 表示会尽力满足要求条件，以进行二次申请。
-4.Koii Labs 和 Idexo 宣布一个全新的跨链中间件
-它们仅用「几行代码」就可以在链上部署，这项解决方案不仅要提高安全性、加快部署效率，更要创建一条用 DeFi 桥取代 DEX 的路径。
-只要用户通过桥，就可将两个或多个区块链数据共享，包括智能合约以及代币等。
-5.方便部署跨链应用的无代码产品 Swing Platform
-跨链流动性协议 Swing 推出旨在方便部署跨链应用的无代码产品 Swing Platform，还在大会上直接提供给开发人员使用。
-Swing Platform 旨在减少跨链部署和 DApp 更新所需的时间，且可以在不更改代码的情况下更新配置和部署更新。
-过去有许多场景是因为怕出现安全漏洞所以禁用特定代币或跨链桥，Swing Platform 目的即是要降低类似应用场景的不方便性。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185538"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | Optimism主网Bedrock升级V2提案将发布；以太坊扩容项目Scroll完成5000万美元融资（3月7日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185538">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-
-Optimism主网 Bedrock 升级V2提案将在第 11 周期审核期间发布
-Odaily星球日报讯 据社区成员 lavande 透露，关于以太坊二层解决方案 Optimism 主网 Bedrock 升级提案的新版本（即V2版本）将在第 11 周期的审核期间发布，第 11 周期的评审阶段为 3 月 2 日至 3 月 22 日，投票阶段为 3 月 23 日至 4 月 5 日。
-据悉，Bedrock 是由 OP Labs 开发的新一代去中心化 Rollup 基础架构，旨在为 Layer 2 网络提供模块化、简单性和以太坊等效性
-此前报道， 2 月 17 日，Optimism 社区关于主网 Bedrock 升级的投票推迟至 3 月 2 日开始。
-以太坊扩容项目 Scroll 融资 5000 万美元，红杉中国、Polychain Capital等参投
-Odaily星球日报讯 以太坊扩容项目 Scroll 宣布完成 5000 万美元的新一轮融资，Polychain Capital、Sequoia China（红杉中国）、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures、Qiming Venture Partners 参投。本轮融资使 Scroll 的融资总额达到 8300 万美元。
-Scroll 拒绝就本轮融资的估值和结构发表评论，但一位消息人士透露，本轮融资使 Scroll 的估值达到 18 亿美元。Scroll 此前在两轮融资中筹集了 3300 万美元，当时尚未披露其估值。
-Scroll 计划利用新融资继续构建其产品、启动主网并扩展生态系统。此外，Scroll 还计划将目前的团队规模从大约 60 人增加到近 100 人。
-
-项目要闻
-
-Krake…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -7338,114 +7508,6 @@ Nouns DAO，这个成立一年多的 NFT DAO，年初起在中文币圈里获得
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/35205"
-                        open
-                      >
-                        <summary class="article-expander__title">亏损 10 亿美元，监管缠身，加密友好银行 Silvergate 陷入「生死局」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35205">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《亏损 10 亿美元，监管缠身，加密友好银行 Silvergate 陷入「生死局」》
-原文来源：比推 BitpushNews
-
-
-
-在加密友好银行 Silvergate Bank (SI)  爆出无法按时提交年度财报，并正在评估其持续经营的能力后，该公司股价在周四暴跌近 60%，盘中触及 52 周新低，收盘价跌至 5.72 美元，与 2021 年 11 月 219.75 美元的高位相比跌幅超过 97%。
-
-
-
-
-
-
-业务暴亏，监管找上门
-
-
-与去年倒闭的 FTX、BlockFi、Celsius、Voyager 和其他加密公司不同，总部位于加利福尼亚州的 Silvergate 是一家传统的联邦保险贷款机构，将自身定位为通往加密货币领域的门户，接受加密货币交易所和交易商的存款，还建立了自己的加密货币结算支付网络，是那些希望与传统银行系统联系起来的加密公司的重要合作伙伴。
-
-
-但其重要客户-- Sam Bankman-Fried 的 FTX 帝国崩溃，以及持续的加密熊市给该公司带来了沉重打击，该银行上个月公布了近 10 亿美元的净亏损，2022 年四季度客户存款减少了大约 140 亿美元。今年年初，该公司解雇了 40% 的员工，随后暂停支付优先股股息，以支撑现金流。 
-
-
-在周三的监管文件中，Silvergate 表示无法按时向美国证券交易委员会（SEC）提交年度 10-K 报告，因为它需要「额外时间」让独立会计师事务所完成某些审计程序。
-
-
-Silvergate 还在一份前瞻性声明中警告称，它可能面临来自银行监管机构和美国司法部的询问，其在未来一年「持续经营」的能力可能会受到影响。
-
-
-比推此前报道，一月下旬，美国两党参议员敦促该公司就是否知道其客户 FTX 滥用客户资金提供答案。路透社 2 月份报告称，Binance US 控制的一个 Silvergate 账户将数…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/35179"
-                        open
-                      >
-                        <summary class="article-expander__title">Bankless：新稳定币之争谁将破局，对市场和DeFi产生什么影响？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35179">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《
-
-Bankless：新稳定币战争——加密稳定币的草莽时代
-
-》
-
-原文作者：Ben Giove，Bankless
-原文编译：Kate，Marsbit
-
-
-一种新的特定于应用程序的稳定币可能正是 DeFi 所需要的。
-
-
-DeFi 协议正在采取行动。
-
-
-随着基于收费的业务模式的佣金下降和链上活动的枯竭，蓝筹 DeFi 协议正在寻求建立替代收入来源，以实现协议的多样化和强化。
-
-
-我们已经看到了这种扩张的早期迹象，比如 Frax 建立了流动性质押和借贷产品，Ribbon 开发了期权交易平台，Maker 使用 Spark Protocol 进入了借贷领域。
-
-
-现在，我们有了一种新的多样化形式，即特定于应用程序的稳定币，它指的是由 DeFi 协议发行的稳定币，作为它们的次要产品，而不是主要产品。
-
-
-这些稳定币通常以信贷的形式发行，用户可以直接在借贷市场或通过 DEX 借入他们的资产，以铸造稳定币。协议可以通过各种方式从中赚取收入，例如通过借款利息、发行/赎回新单位、挂钩套利和/或平仓。
-
-
-正如我们所知，稳定币领域是巨大的。目前，加密生态系统中有 1450 亿美元的稳定币，未来的潜在市场将达到数万亿美元。
-
-
-
-稳定币总供应量，来源：The Block
-
-
-随着监管机构瞄准中心化、以法币担保的稳定币 (如 BUSD)，DeFi 协议可能会打开一个窗口，不仅可以使其业务模式多样化，还可能会窃取一部分市场份额。
-
-
-许多人会指出 DAI 和 FRAX 是最有可能从 USDC 和 USDT 中分一杯羹的候选人，但一些特定于应用的稳定币会起到破坏作用吗？
-
-
-这一趋势将对市场和 DeFi 产生什么影响？让我们一探究竟！
-
-
-GHO 和 crvUSD
-
-
-推出稳定币的两个最著名的协议是 Aave 和 Curve，分别发行 GHO 和 crvUSD。让我们简单了解一下这些稳…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8274,68 +8336,6 @@ Roquerre还表示，该平台的未来将在很大程度上受到其社区的影
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/nootzcw5.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：BUSD市值跌破100亿美元，较去年11月高点缩水近139亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/nootzcw5.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月3日消息，据Coingecko数据显示，BUSD市值已跌破100亿美元关口，截至目前为9,632,022,901美元，较2022年11月时234.9亿美元高点减少138.6亿美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/zauwci06.html"
-                        open
-                      >
-                        <summary class="article-expander__title">行情：比特币跌破23000美元，1小时跌幅达4.64%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/zauwci06.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月3日消息，行情显示，比特币跌破23000美元，最低跌至22100美元。现报22,356.60美元，1小时跌幅达4.64%，24小时跌幅达4.73%。
-以太坊跌破1600美元，最低跌至1549美元，现报1562.06美元，1小时跌幅达5.09%，24小时跌幅达5.15%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/s8wb0l6g.html"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币矿企Marathon Digital 2月产出650枚BTC，售出650枚BTC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/s8wb0l6g.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月3日消息，比特币矿企Marathon Digital发布2月比特币生产和挖矿运营更新，2月该矿企产出683枚BTC，本季度至今已产出1370枚BTC。2月该矿企出售了650枚BTC，因此，Marathon总共持有11,392枚，其中不受限制的比特币持有量从2023年1月31日的8,090枚增加到8,260枚，其不受限制的现金增加至2.197亿美元。2月份共有18.8万台矿机运行，哈希率提高了30%。
-此前2月3日消息，Marathon Digital 1月份售出1500枚比特币。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8748,66 +8748,6 @@ Coinbase 是最早宣布不再与 Silvergate 合作的加密交易所， 3 月 
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185470"
-                        open
-                      >
-                        <summary class="article-expander__title">Bitfinex Alpha报告：比特币 (BTC) 链上指标看涨</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185470">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本周的链上数据报告指出，从长期来看，BTC 的技术指标呈上涨趋势。
-根据 Bitfinex Alpha Report 的每周分析，它回顾了比特币 (BTC) 的一些链上指标，这些指标似乎看涨，其中包括短期和长期的 HoDLers 销售，这反映了过去三个月的盈利能力并在面对任何销售压力时积极吸收市场。
-同样，该研究表明，作为全球市值最大的加密货币，它一直在现货市场走强，这只发生在熊市后期和牛市早期，即使这并不意味着市场已经回到“仅上传”的地形。
-此外，Bitfinex Alpha 在其报告中还提到了其他对市场有利的技术指标。 根据 Bitfinex 上面的分析，调整后的净支出产出收益比现在高于 1 ，这表明净销售额是有利的，相反，现在 RPLR（已实现收益与损失的比率）也高于零，这是“盈利能力”的另一个指标。
-到 2022 年底，PayPal 拥有 6.04 亿美元的比特币和其他加密货币。
-除此之外，BTC 的三个月 EMA 在这 90 天内已经上升，大约增加了 20% ，应该注意的是，该指标最后一次移动是在价格较低的时候。
-多个 RHODL
-据该公司分析，在过去三个月中，看涨指标比特币实现持有倍数 (RHODL) 反映了市场的上涨，在 90 天内保持看涨斜率，等于 ，即在此期间，HODLers 的出售“带来了持续的收益”。
-它还显示小型和/或新比特币投资者的需求略有上升，并强调长期持有者也在获利，而不仅仅是短期持有者。 相反，市场已经尝试“吸收抛售压力”，长期投资者对花费数字资产表现出更大的信心。
-正如 Bitfinex 在其上一期中所解释的那样，长期投资者开始“返利”，即使他们比短期投资者规模更小、时间更晚。 BTC 并未受此影响，其价格相对稳定，尽管这种情况可能看起来像是看空位置。
-“这并不意味着市场已经回到看涨区域，但它确实表明现货市场的强势只出现在熊市结束和牛市开始…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185469"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂web3的睡眠应用GoSleep，或将继续点燃Arbitrum生态</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185469">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Layer 2 作为解决以太坊网络拥堵问题的核心解决方案之一，毋庸置疑是近几年的大热赛道。其中，Arbitrum又是Layer 2 赛道中的热门项目。
-根据DeFiLlama网站数据显示，目前Arbitrum的TVL已经将近20 亿美金，位居L2赛道前列，其TVL占Rollup系的65.44% 。和最直接的竞争对手Optimism相比，Arbitrum不仅TVL是Optimism的两倍多，其生态中的协议（或应用）数量也是Optimism生态的两倍。
-
-图源：DeFiLlama
-此外，和近期币价创下新高的OP不同，Arbitrum尚未发行其治理代币，在预期的加持之下，社区对Arbitrum的关注度居高不下，众人也在寻找其生态中诸如GMX等机会较大的潜力项目。
-最近刚在Arbitrum上线的GoSleep，是该生态中的第一个web3睡眠类应用，引入了“Sleep to Earn”的概念，这是一款集GameFi、SocialFi和HealthFi于一体的产品，核心玩法在于：用户只要完成自己设定的睡眠目标，就可以赚取睡眠收益。
-睡眠经济市场背景
-只要睡得好就能赚钱的web3应用，听起来是不是略显浮夸？其实不然，因为早在web2市场中就已经兴起了“睡眠经济”的概念。
-据世卫组织此前的数据统计，全球约有27% 的人存在睡眠困扰，因睡眠不足而导致的经济损失也不容小觑。也因此，睡眠市场中诞生了一批又一批针对改善用户睡眠的产品，但是不论是安眠药还是智能设备，都没有外部激励来引导用户主动入睡。
-GoSleep就是基于此而推出的一款专注于睡眠健康的Web 3.0 应用，期望通过代币激励的方式来帮助用户增加睡眠时长、提高睡眠质量，引导用户“多睡多赚”，养成健康的睡眠习惯。
-当“睡眠经济”和区块链世界的代币激励相结合，又能擦出什么样的火花呢？
-Web3第一睡眠应用GoSleep
-GoSleep采用了…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8815,8 +8755,8 @@ GoSleep采用了…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4354552949">
-        <time id="build-timestamp" datetime="2023-03-07T13:19:40.601Z">2023-03-07T13:19:40.601Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4354980714">
+        <time id="build-timestamp" datetime="2023-03-07T14:07:39.376Z">2023-03-07T14:07:39.376Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
