@@ -6,6 +6,16 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/ny738nsl.html",
+          "author": "PA一线",
+          "description": "PANews 3月10日消息，据彭博社报道，Blockchain.com将暂停其资产管理部门业务。一份文件显示，Blockchain.com资产管理公司（BCAM）周一已申请取消注册，该公司目前尚未提交任何年度账目。BCAM于2022年4月推出，不久后宏观经济状况迅速恶化。该公司一位发言人在电子邮件中表示：“随着加密货币冬天已持续近一年，我们做出了暂停运营该部门的商业决定。”据此前消息，Blockchain.com今年1月表示将裁员28%，约110名员工。去年7月，在三箭资本(Three Arrows Capital)倒闭后，该公司裁员约150名员工。",
+          "link": "https://panewslab.com/zh/articledetails/ny738nsl.html",
+          "publishedOn": "2023-03-09T18:49:52.000Z",
+          "wordCount": 1129,
+          "title": "Blockchain.com将暂停运营资产管理部门",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/gl2k134b.html",
           "author": "PA一线",
           "description": "PANews 3月9日消息，美股行情显示，Silvergate Capital今日开盘后暴跌超30%，目前股价位于3.4美元附近。\n今日早些时候，Silvergate Capital宣布将结束运营并自愿清算银行，包括全额偿还所有存款。",
@@ -2744,16 +2754,6 @@
           "wordCount": 1149,
           "title": "私有分片网络Calimero推出基于Near的区块链框架并启动Beta测试",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/7mdhq43x.html",
-          "author": "PA一线",
-          "description": "PANews 3月5日消息， Multicoin Capital公司年度投资者信件显示其对冲基金在2022年亏损了91.4%，该基金表示目前已采取新措施来“减轻交易对手风险”，包括每次只会在交易所中保留支持48小时交易的资产，调整抵押品管理做法以减少交易所为衍生品头寸持有的抵押品数量，并且会与更多加密资产托管方合作，旨在进一步分散托管风险。",
-          "link": "https://panewslab.com/zh/articledetails/7mdhq43x.html",
-          "publishedOn": "2023-03-05T06:31:20.000Z",
-          "wordCount": 1132,
-          "title": "Multicoin Capital回应基金亏损91.4%：已采取新措施来“减轻交易对手风险”",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3340,16 +3340,6 @@
           "publishedOn": "2023-03-05T09:28:40.000Z",
           "wordCount": null,
           "title": "周末荐读：1900万美元砸穿整个NFT市场；Silvergate「爆雷」引发市场恐慌情绪",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/35242",
-          "author": null,
-          "description": "科技革命将经历从移动互联网到人工智能互联网的转变，而区块链将重新定义下一代互联网的价值、所有权和资产定价方式。",
-          "link": "https://www.theblockbeats.info/news/35242",
-          "publishedOn": "2023-03-05T06:54:31.000Z",
-          "wordCount": null,
-          "title": "AI重新定义Web3？深度解析AI+区块链如何引领下一代互联网",
           "imageUrl": null
         }
       ]
@@ -4087,16 +4077,6 @@
           "publishedOn": "2023-03-05T10:00:00.000Z",
           "wordCount": 1883,
           "title": "新手Scroll zkEVM交互指南",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5185240",
-          "author": "DAOrayaki",
-          "description": "StarkWare\n简介\nStarkEx 和 StarkNet 均为 StarkWare 团队开发的项目，前者类似 Iaas，类比应用链，StarkWare 帮助大型项目开发专有应用 Rollup；后者则是可部署通用应用的 Rollup。\n截止目前，StarkWare （StarkNet 背后团队）已经完成 6 轮融资，共计 2.73 亿美元。尤其是最近一轮融资金额达到 1 亿美元，使其估值翻了两番，达到 80 亿。作为 L2 项目中估值最高的项目，本文特探讨 Starkware 的技术架构和生态应用。\n\nStarkEx：专有 ZKR 引擎\n简介\n在去年和今年上半年，StarkWare 通过提供扩容技术解决方案 StarkEx 创立了扩容即服务（scaling as a service）的商业模式，建立应用专有网络，服务业内头部客户 dYdX 、Sorare、ImmutableX、DeversiFi 等。\n整体架构\n\n工作流包括以下四个环节\n\n打包交易：链下服务器处理客户请求，将多个交易组合成一个“批次”，供 StarkEx 处理。\n\n确认交易和更新状态：链下服务器确认交易合法，并以被压缩后的哈希形式更新系统状态。\n\n为交易生成证明：完成上述流程后，SHARP 会为交易生成 STARK 证明以确认交易的有效性。然后将证明和更新发送到链上 Verifier 智能合约，以确保交易的完整性。\n\n链上验证证明：一旦 STARK 证明被验证，状态更新被提交并结算回以太坊主网。所有交易都是在链外处理和验证的，而其完整性的证明是在链上验证的。\n\nSHARP 是一个共享证明者，它同时为多个 StarkEx 客户/应用提供证明生成服务——生成计算完整性声明的证明。\nVerifier 是部署在以太坊上的智能合约，用于验证来自 StarkEx 的交易的正确性。\nStarkWare Applica…",
-          "link": "https://www.odaily.news/post/5185240",
-          "publishedOn": "2023-03-05T07:00:00.000Z",
-          "wordCount": 3273,
-          "title": "Starkware技术架构与生态应用梳理",
           "imageUrl": null
         }
       ]
