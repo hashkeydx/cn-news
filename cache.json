@@ -3153,6 +3153,26 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/35453",
+          "author": null,
+          "description": "原文标题：《\n\n如何通过工具来追踪加密 VC 的市场动向？\n\n》\n原文作者：Rekt Fencer\n原文编译：深潮 TechFlow\n\n\n在不断发展的加密货币投资世界中，您是否经常感到落后？您是否发现难以跟上市场上风险投资 (VC) 的最新动向？\n\n\n好吧，不要害怕，因为有各种工具和资源可以帮助您随时了解情况并保持领先地位。在此主题中，我们将探索一些最佳工具，以密切关注 VC 在加密货币市场上的所作所为。\n\n\n\n\n\n基金公司总是领先于散户投资者：\n\n\n• 他们定义趋势和叙事结构。\n\n\n• 选择最有前途的项目。\n\n\n• 监测市场的当前状态。\n\n\n• 拥有很多内部信息。\n\n\n这就是为什么您总是比他们更晚了解信息。\n\n\n\n\n\n因此，知晓最成功的基金以及他们目前正在做什么是值得的。\n\n\n目前，一流的加密货币 VC 包括 Paradigm、a16z、Sequoia 和 Binance Labs。下面，您可以找到一个包含所有 VC 排名的表格：\n\n\n\n\n\n当然，为了最有效、最快速地追踪加密货币基金，您需要使用不同的工具，例如：\n\n\n• CryptoRank；\n\n\n• Crunchbase；\n\n\n• Chain Broker；\n\n\n让我们逐一了解它们。\n\n\nCryptoRank\n\n\nCryptoRank 是一个市场洞察和分析平台，他们最近添加了一个专门用于加密货币基金的选项。在这里，您可以找到关于不同基金的大量信息：\n\n\n• 投资总数；\n\n\n• 市场占有率；\n\n\n• 主要投资类别；\n\n\n• 他们的投资组合；\n\n\n\n\n\n这个平台还提供了最新的资金融资轮次追踪工具，你可以在上面找到：\n\n\n• 项目获得的资金数额；\n\n\n• 投资阶段；\n\n\n• 哪些风投参与了项目投资；\n\n\n• 项目所属的类别；\n\n\n\n\n\n他们还制作了一个非常方便的面板来分析基金投资：\n\n\n• 加密货币募资趋势；\n\n\n• 最活跃的基金；\n\n\n• VC 最喜欢哪些类型的项目；\n\n\n\n\n\n\n\n\nCrunchbase\n\n\n在 Crunchbase 上，你可以使用多个功能来分析一个项目、一个基金，甚至是一个员工。通过进入项目页面，你可以找到：\n\n\n• 累计融资金额；\n\n\n• 所有融资轮次的信息；\n\n\n• 最活跃的投资者；\n\n\n• 员工档案；\n\n\n\n\n\nChain Broker\n\n\nChain Broker 允许您跟踪基金的投资回报率。在这里，您可以找到：\n\n\n• 最赚钱的基金；\n\n\n• 目前投资的投资回报率；\n\n\n• 最近的投资；\n\n\n\n\n\n除此之外，如果你想简单一点，你可以关注 Telegram 上专门跟踪 VC 消息的 BOT 频道，他们会发布所有最近的 VC 投资，所以你不会错过任何一个。\n\n\n\n\n\n原文链接",
+          "link": "https://www.theblockbeats.info/news/35453",
+          "publishedOn": "2023-03-10T08:00:02.000Z",
+          "wordCount": null,
+          "title": "如何通过工具来追踪加密VC的市场动向？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/35451",
+          "author": null,
+          "description": "撰文：Cookie，律动 BlockBeats\n\n\n\n\n昨日，@domodata 启动了一场基于 Ordinals 协议的创新实验「BRC-20」。该实验旨在测试 Ordinals 协议是否能够促进比特币的「可替代性」，即通过 Ordinals 协议在比特币网络上实现像在以太坊网络上发行 ERC-20 Token 的效果。\n\n\nBRC-20 让比特币网络再一次疯狂。3月9日一天有超过30000个\n\n「铭文」被铸造，其中文本类型\n\n「铭文」数量接近27000个。\n\n\n    \n让我们一起看看 BRC-20 Token 的玩法。\n\n\n\n\nDeploy 部署\n\n\n\n\n使用 Ordinals 协议刻录下图所示文本来部署 BRC-20 Token：\n\n\n\n\n\n\n\n\n\n各关键词的含义如下：\n\n\n\n\n\n\n\n\n\n「p」：协议类型。必须包含的关键词，该关键词定义操作基于 BRC-20 协议进行，帮助其它系统识别与处理 BRC-20 事件。\n\n\n「op」：事件类型。必须包含的关键词，该关键词定义事件类型，是 Deploy 部署、Mint 铸造还是 Transfer 转账。\n\n\n「tick」：BRC-20 Token 标识。必须包含的关键词，该关键词定义 BRC-20 Token 名称，由 4 个字母组成。\n\n\n「max」：最大供应量。必须包含的关键词，该关键词定义 BRC-20 Token 的最大供应量。\n\n\n「lim」：单个铭文可容纳的最大 BRC-20 Token 数量。非必须包含的关键词，该关键词定义用户铸造一个铭文最多可以获取多少 BRC-20 Token。若此项设置为 1000，则铸造单个铭文最多可获取 1000 个 BRC-20 Token。\n\n\n「dec」：十进制精度。非必须包含的关键词，该关键词定义 BRC-20 Token 的十进制精度，默认设置为 18。\n\n\n\n\nDune上…",
+          "link": "https://www.theblockbeats.info/news/35451",
+          "publishedOn": "2023-03-10T07:00:01.000Z",
+          "wordCount": null,
+          "title": "在比特币网络上发Token？一文了解如何铸造BRC-20",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/35452",
           "author": null,
           "description": "梭哈债券一时爽，美元加息难收场。",
@@ -3779,6 +3799,46 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5185646",
+          "author": "深潮TechFlow",
+          "description": "原文作者：0xmin\n美国中小银行接连暴雷！\n3 月 8 日，以加密货币友好著名的银行 Silvergate Bank 宣布清盘，将所有存款退还客户。\n3 月 10 日，专门为硅谷科技公司提供金融服务的硅谷银行(Silicon Valley Bank) 出售 210 亿美元的可销售证券，遭受了 18 亿美元的亏损，疑似存在流动性问题，周四股价暴跌超过 60% ，市值一日蒸发 94 亿美元。\n这也吓坏了一众硅谷大佬。\n“硅谷教父”彼得蒂尔的风投基金 Founders Fund 直接建议投资的公司从硅谷银行撤资，Y Combinator CEO Garry Tan 也发出警告，建议被投企业考虑限制对贷方的敞口，最好不要超过 25 万美元……\n更可怕的是，硅谷银行或是酿成危机的第一块多米诺骨牌，不仅影响其他美国银行，更可能对硅谷的科技初创公司带来打击。\n究竟发生了什么？\n今天，我们将讲述一个关于银行如何破产的故事。\n解读银行商业模式\n首先，我们需要了解银行业的商业模式。\n简单来说，商业银行就是一家经营货币的公司，银行的商业模式，和其他生意在本质上没有区别——低买高卖，只是这个商品变成了金钱。\n银行从存款人或者说资本市场那里拿到钱，然后把它贷给借款人，从利息差里面获利。\n比如：一家银行以年利率 2% 从存款那里借到钱，然后把它以年利率 6% 贷给借款人，银行就赚了 4% 的息差，这就是净利息收入。此外，银行还可以从基本的收费业务和其他服务中赚取利润，这就是非利息收入。净利息收入和非利息收入加在一起，构成了银行的净收入。\n因此，银行想要获得更多利润的话，和销售商品一样，最好的状态是无库存，也就是把低成本吸收进来的存款全部高价贷出去，毕竟存款都是有成本的，需要给储户利息。\n这也构成了银行资产负债表的两端。\n所有者权益 + 负债：所有者权益就是股本，客户放在银行的存款，本质是银行找客户借…",
+          "link": "https://www.odaily.news/post/5185646",
+          "publishedOn": "2023-03-10T07:30:23.000Z",
+          "wordCount": 2029,
+          "title": "解密Silvergate与硅谷银行危机：一场美元加息周期下的豪赌",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5185644",
+          "author": "星球君的朋友们",
+          "description": "原文作者：Cipher\n原文来源：SevenUp DAO\n一、钱包与 Web3 应用的困境\n钱包在 Web3 世界是资产、身份、账号的统一体，加上其在不同应用之间的一致性和可组合性，其重要程度甚至超过了微信或 Google 账号在传统世界位置。但由于钱包本身的使用门槛，Web3 钱包用户始终无法突破 Metamask 30 M 月活地址这个数量级。\n以 Metamask 为代表的标准 EOA 钱包地址将用户自己管理的私钥对应的公钥做哈希映射。这句话本身就解释了为什么它阻挡了大多数人进入 Web3 世界——牵扯到太多让人听不懂的概念了。可问题在于，这些概念确实无法省掉。要想使用 EOA 钱包，就必须自己通过助记词的方式管理私钥，就必须理解什么是公钥，什么是数字签名，而且助记词一旦丢失或泄漏，资产和身份将永久丢失。这些门槛是如此之高，以至于用户必须有极强的动力才愿意进来。这也是为什么目前 Web3 应用的主流用户是投机和撸空投的用户，根本没有常规意义下的正常用户。这反过来将 Web3 应用的生态引向了错误的方向，没有人真正关心你的项目是否有长期价值。什么时候发币，怎么加白成为用户的主要诉求。\n我们当然不只有 EOA 钱包，中心化托管、MPC 和账户抽象钱包都在尝试提出兼顾易用性与安全性的钱包解决方案。中心化托管由于单点风险和资管安全问题不被主流应用所接受。那么多方共管的 MPC 方案和集大成的抽象账户钱包方案是不是可以彻底解决安全与便捷的矛盾呢？\n\n\n\n\n\n\n\n\n\n\n\n\n二、为什么 MPC 是一条死胡同\n\n\n\n\nMPC 技术将密钥进行分片，用户和托管方各持一部分，使用钱包时需要双方协作完成签名。一旦用户侧的分片丢失，可以通过多个托管方进行恢复。任何一方都无法单独操作用户资产。该方案看上去同时解决了用户自己管理私钥门槛难题和资产托管的道德问题，也是目前被寄予厚望的解决方案。但 M…",
+          "link": "https://www.odaily.news/post/5185644",
+          "publishedOn": "2023-03-10T06:40:42.000Z",
+          "wordCount": 1971,
+          "title": "Web3钱包终局：安全便捷与去中心化的统一",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5185641",
+          "author": "白泽研究院",
+          "description": "原文作者：Danilo Lantas\n原文编译：白泽研究院\n是不是觉得加密市场最近表现得有点奇怪？\n上周，加密行业最重要的银行 Silvergate 关闭了其交易网络 SEN，它已被大型投资者、公司和稳定币发行商用来全天候 24/7 将数十亿资金进出加密市场。\nSEN 的关闭似乎对加密市场的流动性产生了深远的影响，而 Silvergate 的破产也增加了监管机构加速打击加密货币的风险。\n在本文中，我们将从 Silvergate 的起源、它如何落得如此地步入手，了解它的倒闭对加密行业意味着什么。\nSilvergate 的十年进化史\nSilvergate 是一家加利福尼亚银行，成立于 1988 年。在最初的 30 年里，Silvergate 是一家只有几亿美元存款的小银行。由于其高管的远见卓识，Silvergate 并没有受到 2008 年金融危机的影响。\n同年，Alan Lane 成为 Silvergate 的首席执行官。Alan 在银行领域拥有超过 40 年的工作经验，担任过各种职务。\n\n故事就是这样开始的，Alan 在 2013 年以个人身份投资比特币后，也将 Silvergates 的业务转向了加密货币。\n在 2019 年的一次采访中，Alan 说他在一次会议上认识了一家名为 SecondMarket 的公司，该公司的业务是为流动性差的股票提供流动性，他们也正在探索为 Silvergate 等小型银行提供流动性。\nSecondMarket 的创始人兼首席执行官是 Barry Silbert，Barry 恰好又是加密行业最大的公司 Digital Currency Group（DCG）的创始人兼首席执行官。SecondMarket 在 2013 年联系了 Silvergate，试图让它为 DCG 提供银行服务。\n众所周知，加密公司历来很难获得银行服务。\n其实，当 Seco…",
+          "link": "https://www.odaily.news/post/5185641",
+          "publishedOn": "2023-03-10T06:11:06.000Z",
+          "wordCount": 2476,
+          "title": "解构Silvergate危机：拥有千名顶级客户的加密银行为何破产？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5185642",
+          "author": "PANews",
+          "description": "3 月 9 日，去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列NFT在停止铸造后引发市场抢购，连“麻吉大哥”黄立成也来疯狂扫货，火爆程度可见一斑。\nGitcoin Presents NFT 是于 3 月 1 日通过采用 Open Edition（开放版权）模式以 0.05 ETH的价格开始铸造，即用户的铸造数量不受限制。截至 3 月 9 日凌晨，该 NFT 以 9221 个 NFT 的数量结束铸造，每个 NFT 附有 2 篇来自 Gitcoin 联合创始人 Kevin Owocki 和 Scott Moore 关于二次方融资的文章。\n其中， 9209 个 NFT 为普通版本，另外 12 个则为以太坊创始人Vitalik Buterin（V神）本人签名的限量版，通过荷兰拍的形式出售。此次 NFT 发售共筹集到 390 ETH（超 78 万美元）。其中， 70% 将分配至 Gitcoin， 20% 归 Plurality Institute 所有，剩余 10% 则分给 Metalabel。\n\nGitcoin Presents 系列 NFT 是以专辑封面的形式呈现，是由 Gitcoin 和 Metalabel 合作发行，旨在纪念V神对创新Web3募资、二次方融资概念提出的贡献。而 Gitcoin 是采用二次方融资机制的代表性平台之一，迄今为止已为以太坊生态的开源Web3工具和项目资助了超过 7000 万美元，Metalabel 则是由知名众筹网站 Kickstarter 联合创始人 Yancey Strickler、电商网站 Etsy 创始人 Rob Kalin 等创立，旨在帮助创作者利用Web3技术将作品代币化。\n早在 2018 年，V神与哈佛学者 Zoe Hitzig、微软的 E.Glen Weyl 发表的论文“自由激进主义：社区中立社会的正式规则”，该论文讨论了如何为去中心化生态系统所需的公共产品提供加密资金，但可避免产生“搭便车”行为的新融资方式。\n\n虽然V神并未亲自下场宣传，但 Gitcoin Presents 系列 NFT 在二级市场引发抢购热潮。OpenSea数据显示，截至发文，Gitcoin Presents 的销售额超 6900 ETH，持币地址数近 3600 个，其中巨鲸和蓝筹持有者数量占比达 10% 。而地板价也一度接近 0.6 ETH，虽然目前已经有所回落，但仍较发行价翻了超 8.6 倍。而 Gitcoin Presents 的限量签名版本 NFT 更是在 OpenSea 上以 52 ETH 的高价售出，足以可见V神的影响力。\n值得注意的是，除了“0xb6c”开头地址曾铸造超总供应量约 8% 的 NFT 外，台湾知名艺人“麻吉大哥”黄立成也曾在几小时内购买逾 800 个 Gitcoin Presents，并随即又在 NFT 交易平台 Blur 上进行出售，或与其刷 Blur 空投积分有着重要关系。\n\n数据来源：Nansen\n“这为公共产品资金筹集了超过 70 万美元的资金，并让人们对使用记录格式的伟大创意作品有了新发现，这对创作者来说是一种令人兴奋的发布和资助作品的新方式。”Metalabel 在接受Decrypt时如此表示。",
+          "link": "https://www.odaily.news/post/5185642",
+          "publishedOn": "2023-03-10T05:58:40.000Z",
+          "wordCount": 1706,
+          "title": "麻吉大哥也扫货？Gitcoin Presents纪念NFT为何突然爆火？",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5185638",
           "author": "Loopy Lu",
