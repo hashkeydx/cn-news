@@ -51,11 +51,249 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-13 datetime="2023-03-13T03:59:37.000Z">2023-03-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-13 datetime="2023-03-13T03:59:37.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-13 datetime="2023-03-13T04:43:50.000Z">2023-03-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-13 datetime="2023-03-13T04:43:50.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185682"
+                        open
+                      >
+                        <summary class="article-expander__title">明星项目周报 | 硅谷银行破产致使USDC、DAI、FRAX大幅脱锚；Scroll融资5000万美元（3.6-3.12）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185682">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>3 月 6 日-3 月 12 日当周，比较值得关注的动态如下：硅谷银行破产倒闭并由美国联邦存款保险公司接管；Circle 33 亿美元的 USDC 储备存放在硅谷银行，受此影响 USDC 出现大幅脱锚；Fantom 主网发布新版本，区块处理时间缩短约 30% ；以太坊二层网络 Taiko 公布路线图，计划明年年初启动主网；以太坊扩容项目 Scroll 融资 5000 万美元，红杉中国、Polychain Capital 等参投；EigenLayer 开发商 Layr Labs 正在进行 6400 万美元融资；Gitcoin 与 Index Coop 合作推出 gtcETH；Uniswap V3核心代码版权商业保护将于 4 月 1 日到期；Maker 已投票通过 USDC 等资产相关参数变更紧急提案；Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖结束，最高出价超 7 BTC。
+以下为具体项目进展：
+底层-Layer 1 
+Fantom 主网发布新版本，区块处理时间缩短约 30% 
+
+Odaily星球日报讯 据官方消息，Fantom 基金会宣布发布 Fantom 主网的新版本（go-opera 版本 1.1.2-rc.5 ），升级内容包括：P2P和事件/区块处理得到显著改进，使得事件/区块处理时间缩短约 30% ；Genesis file 处理速度最多快 3 倍（存档 Genesis file 除外）；搜索日志速度快了 5 倍，每次搜索日志所花费的时间应该只有以前的 1/5 。
+此外，新版本对数据库层做了一些调整，可以集成多种数据存储类型（LevelDB 和 PebbleDB），还支持用于创世处理和去同步化数据刷新的数据库批处理；还包括对 Opera 节点的安全改进，比如启动 LLR 和 txpool 同步的更严格的条件，限制P2P连接到给定的 IP。升级…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185684"
+                        open
+                      >
+                        <summary class="article-expander__title">简析三种零知识证明扩容方案：ZK Rollup、Validium 与 Volition</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185684">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Chloe
+
+目前以太坊基于零知识证明的扩容方案是 ZK-rollup，但其实还有另外两种解决方案——Validium 和 Volitions。
+本文简单介绍以上 3 种基于零知识证明的扩容方案。
+
+ZK rollup
+ZK-rollup 的运作简单来说是将多笔交易打包在一起，发布到 L1 上，同时发布一个证明（用零知识证明技术）来声称这些交易有效，一旦在 L1 上验证确实有效，那么 zk-rollup 的状态就会更新。
+这套证明机制也被称作「有效性证明」，目前 ZK-rollup 主要采用的证明机制是 zkSNARK 和 zkSTARK。
+尤其是 zk-SNARK 应用最为广泛，而 zk-SNARK 则是它的改进版，目前使用者并不多。
+zk-SNARK 即 zero-knowledge succinct non-interactive argument on knowledge（简洁非交互式零知识证明），是一种文件很小且很容易验证的加密证明，而简洁 jiu 就在于非交互式。
+传统方案是交互式证明，即示证者和验证者之间反复确认。你可以理解为示证者不断向验证者询问「是或不是？」，然后验证者不断给出回答，直到最后碰出一个正确答案来，所以效率很低。
+而 SNARK 的解决方案是提前先搞一个「可信初始化」，从而生成公共参考字符串（CRS），这样所有的示证者直接访问它就可以了。你可以理解为有一个标准答案，示证者就像批改试卷那样去验证。
+但 SNARK 提前生成公共参考字符串提高了效率，但也留下了隐患——万一公共参考字符串泄漏了呢？于是就催生出了 STARK。
+STARK 是交互式证明，但它是一种巧妙的交互式证明——通过哈希函数碰撞（一种概率证明的方式）来保证安全性，因此也比较高效（但还是没有 SNARK 高效）。
+Validiums
+ZK-rollup 是将交易分批发送到 L1 上去执行，是一种无需信任的「自定义安全性」。
+Validiums 则是直接在链下执行，并通过零知识证明来维护数据，只有需要的时候才在主网上验证取款请求的有效性证明。
+所以 Validiums 可扩展性要高于 ZK-rollup（目前最高的 TPS 可以达到 20000 以上），但它是把信任交给链外第三方的「弱信任扩容」，会被攻击导致数据不可用或者用户无法取出资金。
+解决安全的方式是采用 PoS 机制，用经济激励来确保数据储存在各个节点之中并且随时可用。
+目前采用 Validiums 方案的代表项目是 Immutable X，以 NFT 为中心的扩展解决方案。
+Vitalik 认为 Validiums 其实被严重低估，因为大多数 Dapp 用 Validiums 就已经可以满足运行需求了。
+Volitions
+StarkWare 团队结合 ZK-rollup 和 validium，创造性地推出了 Volitions 方案，顾名思义是关于「决断能力」。
+Volitions 方案本质上是同时提供 ZK-rollup 和 validium 这两种服务，它们共享同一个状态根（state root），用户可以自行选择每笔交易的 DA 模式。即便 Validium 那部分被攻破，ZK-rollup 上的资金仍然安全。
+用户就可以在涉及重要资金往来时选择 ZK-rollup 模式，共享以太坊的安全性，如果是日常娱乐、社交或者小额交易，自然选择 Validium 模式来提高速度并节省成本。
+结语
+以太坊扩容战争还在刚开始，目前占据优势的是 Optimistic rollups 阵营，它们可以做到 EVM 兼容甚至完全等效，另外社区运营能力也非常强劲。
+ZK-rollup 落于下风很大程度上是因为一开始就要定制 VM，这意味着来自 EVM 的代码要从头开始编写（虽然难度已经越来越低了）。
+不过长远来看，相比于 Optimistic rollups，ZK rollups 具有内置的隐私和安全优势，未来实现 EVM 兼容性，很可能胜过 Optimistic rollups。
+而且可以在 ZK-rollup 和 validium 之间做决断的 Volitions 方案，也不失为一种兼顾了各种场景的解决方案。
+原文链接</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185681"
+                        open
+                      >
+                        <summary class="article-expander__title">美联储出手救市，USDC危机解除？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185681">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Colin Wu
+随着美联储出手，市场出现了翻天覆地的变化。
+财政部、美联储和 FDIC 发布联合声明，
+全文：
+今天，我们正在采取果断行动，通过增强公众对我们银行系统的信心来保护美国经济。此步骤将确保美国银行系统继续发挥其重要作用，保护存款并以促进强劲和可持续经济增长的方式为家庭和企业提供信贷渠道。
+在收到 FDIC 和美联储董事会的建议并与总统协商后，耶伦批准采取行动，使 FDIC 能够以充分保护所有储户的方式完成其对加利福尼亚州圣克拉拉硅谷银行的决议。从 3 月 13 日星期一开始，储户将可以使用他们所有的钱。与硅谷银行的决议相关的损失不会由纳税人承担。
+我们还宣布纽约 Signature Bank 的类似系统性风险例外情况，该银行今天已被其州特许机构关闭。该机构的所有存款人都将完整收回。与硅谷银行的决议一样，纳税人不会承担任何损失。
+股东和某些无担保债务人将不受保护。高级管理人员也已被免职。根据法律要求，存款保险基金为支持未投保的存款人而遭受的任何损失，将通过对银行进行特别评估来弥补。
+最后，美国联邦储备委员会周日宣布，它将向符合条件的存款机构提供额外资金，以帮助确保银行有能力满足所有存款人的需求。
+美国银行体系保持弹性且基础稳固，这在很大程度上归功于金融危机后为确保银行业获得更好保障而进行的改革。这些改革与今天的行动相结合，表明我们承诺采取必要措施确保储户的储蓄安全。
+阅读原文
+随后 USDC 已恢复锚定至 0.99 ，USDC 的危机似乎已经解除。
+Circle 声明：
+我们很高兴看到美国政府和金融监管机构采取关键措施来减轻部分银行系统带来的风险。来自 SVB 的 100% 存款是安全的，将于明天开门营业。100% 的 USDC 储备金也是安全可靠的，我们将完成将剩余的 SVB 现金转移到 BNY Mellon。如前所述，USDC 的流动性操作将在明天早上银行开门时恢复。随着今晚宣布关闭 Signature 银行，我们将无法通过 SigNet 处理铸造和赎回，我们将依靠纽约梅隆银行的结算。我们最快明天将引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。我们致力于以最高质量和透明度建立稳健和自动化的 USDC 结算和储备操作。我们长期以来一直提倡全额准备金数字货币银行业务，将我们的互联网货币和支付系统的基础层与部分准备金银行业务风险隔离开来。事实上，《支付稳定币法案》仍然是国会非常积极的追求，它将在法律中规定一种制度，在该制度下，稳定币资金将在美联储和短期国库券中以现金形式持有。如果我们想要一个真正安全的金融体系，我们现在比以往任何时候都更需要这部法律。
+Coinbase 发表声明，尽管我们最近在传统银行业看到了动荡，但 Coinbase 继续照常运营。在 Coinbase，所有客户资金继续安全且可访问，包括将于周一恢复的 USDC 转换。所有客户在银行的现金继续受到 FDIC 转手保险的保护。由于 FDIC 暂停 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。
+CZ 表示了批评观点：一旦你做了一次救助，你就会陷入进退两难的境地。通过稀释所有公民来“保护消费者”。如果你进行救助，那么银行管理风险的动力为零。当你失败时，你会得到救助。救助鼓励承担越来越大的风险，这需要更多的救助。
+美国行业人士普遍为 SIGNATURE 关闭而感到忧虑。
+对 The Block 主编 Frank Chaparro 说，随着 SIGNATURE BANK 加密友好银行被关闭，Crypto 的资本市场基本上回到了 2014 年之前。任何新成立的公司都没有机会获得银行关系。在许多方面，加密货币已经正式成为无银行账户。这将使加密货币公司的银行业务状况变得异常困难绝对残酷。据彭博社，一位熟悉公司运营的人士表示，将 Signature 置于破产管理程序的决定令其管理人员感到意外，他们在公告发布前不久就发现了这一消息。该银行周五面临大量存款外流，但到周日情况已经稳定下来，该人士因讨论私人问题而要求不具名。
+此外后续的宏观走势也让外界感到迷惑。
+本轮救助之后，CME FedWatch Tool 显示 9 天之后的美联储 FOMC 加息 50 bps 的预测已经从 1 天前的 40% ，跌到 17.4% ；82.6% 概率为加息 25 bps。周二美国将公布 2 月 CPI ，这将彻底决定此次加息的幅度。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185679"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | 硅谷银行事件追踪；Shibarium上线；BTC突破22000 USDT（3月13日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185679">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+
+BTC 短线突破 22000 USDT， 24 H 涨幅为 7.15% 
+Odaily星球日报讯 欧易 OKX 行情显示，BTC 短线涨至 22160 USDT，现报 21886.7 USDT， 24 H 涨幅为 7.15% 。
+硅谷银行与 Circle 事件回顾
+Circle CEO：在 SVB 的存款确认 100% 安全，USDC 流动性操作将于周一恢复
+Odaily星球日报讯 Circle 首席执行官 Jeremy Allaire 发推称，由于美国监管机构采取的联合保护行动，Circle 在硅谷银行（SVB）的存款确认将 100% 安全，因此， 100% 的 USDC 储备金也是安全可靠的，Circle 会将剩余的 SVB 存款转移到纽约梅隆银行（BNY Mellon）。USDC 流动性操作将在周一早上银行营业后恢复。
+部分硅谷银行储户寻求打折出售存款以筹集现金
+Odaily星球日报讯 据英国《金融时报》报道，目前硅谷银行的部分储户正在试图以较大的折扣出售存款以筹集现金。根据交易平台 Cherokee Acquisition 的数据，不在保险范围内的硅谷银行存款 10 日报价在 55 折到 65 折之间。报道称，对于一些初创企业来说，为支付员工工资，打折出售存款是他们不得已的选择。有多家风投表示，已联系一些初创企业，希望以某种折扣购买他们存款。数据显示，截至 2022 年底，硅谷银行 96% 的存款不在联邦存款保险公司（FDIC）的保险范围内。（央视财经）
+美财政部：FDIC 存款保险基金超千亿美元，足以覆盖硅谷银行和 Signature Bank 所有存款金额
+
+Odaily星球日报讯 美国财政部表示，一些机构存在与硅谷银行类似的问题，目前美国联邦存款保险公司（FDIC）的存款保险基金超过 1000 亿美元，足以覆盖所有硅谷银行和 Signature Ban…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185676"
+                        open
+                      >
+                        <summary class="article-expander__title">ETH周报 | Goerli测试网计划于3月15日激活Shapella升级；2月份CME以太坊期权交易量创历史新高（3.6-3.12）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185676">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>一、整体概述
+数据显示，比特币和以太坊期货和期权交易量（以美元计算）在今年 2 月再次走高。比特币的期货和期权交易量增长约 13% ，以太坊的期货和期权交易量分别增长 2% 和 30% 。
+上个月所有交易所的比特币期货交易总量为 7910 亿美元，高于 1 月份的 6970 亿美元，连续第三个月实现增长。与此同时，期权交易量从 177 亿美元增至约 200 亿美元。受 FTX 崩盘推动，机构投资者将目光投向了受监管的交易所。CME 的以太坊期权交易量创去年 8 月上线以来的最高水平。比特币期权未平仓合约也创历史新高，首次突破 10 亿美元。
+据官方博客，以太坊基金会宣布 Shapella 网络升级将于 epoch 162304 在 Goerli 网络上激活，计划时间为北京时间 3 月 15 日 06: 25: 36 ，预计这将是为以太坊主网安排 Shapella 升级之前的最后一次测试网升级。Shapella 社区电话会议定于北京时间 3 月 13 日 23: 00 。此外，zhejiang 测试网可用于在 Goerli 升级之前测试 Shapella 功能。
+二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1450 美元，阻力位 1500 美元。
+
+二、二级市场
+
+ 1.现货市场
+OKX 行情数据显示，上周 ETH 价格一度跌破 1400 美元，周内收于 1450 美元，环比下降 7.5% 。
+
+ETH 日线图，来自 OKX
+日线图上显示，价格目前在 1450 美元左右盘整，支撑位是 1400 美元，如果支撑有效，则有望继续冲击 1500 美元；短期内价格可能继续向下测试 1400 美元。
+ 2.网络运行情况
+
+etherchain.org 数据显示，过去一周以太坊网络出块量为 49762 个，基本持平 ；每周活跃地址数为 2759626 ，环比下降 5.5%…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35510"
+                        open
+                      >
+                        <summary class="article-expander__title">DEX全新探索，Gridex Protocol 如何在ETH生态部署完全上链的订单簿</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35510">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>订单簿作为目前使用人数最多、范围最广的交易方式，细究Gridex Protocol 的创新和优势</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35511"
+                        open
+                      >
+                        <summary class="article-expander__title">财政部、美联储和FDIC联合声明全文：果断行动，保护美国经济</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35511">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>宏观走向不明，周二美国将公布2月CPI，这将彻底决定此次加息的幅度。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -716,122 +954,6 @@ CryptoQuant首席执行官Ki Young Ju对此评论称：“不知道美联储和�
                             <span class="media-object__text">
                               <span>PANews 3月13日消息，据CoinDesk报道，美国监管机构周日在一份联合声明中表示，硅谷银行的所有储户都将获得补偿，并在周一可以动用他们的资金。美国财政部长耶伦、美联储主席鲍威尔和美国联邦存款保险公司（FDIC）主席格伦伯格在一份声明中表示：“在收到FDIC和美联储董事会的建议，并与总统协商后，耶伦部长批准了一些行动，使FDIC能够以充分保护所有储户的方式完成对硅谷银行的清算。今天，我们将采取果断行动，加强公众对我们银行体系的信心，以保护美国经济。”</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185681"
-                        open
-                      >
-                        <summary class="article-expander__title">美联储出手救市，USDC危机解除？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185681">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Colin Wu
-随着美联储出手，市场出现了翻天覆地的变化。
-财政部、美联储和 FDIC 发布联合声明，
-全文：
-今天，我们正在采取果断行动，通过增强公众对我们银行系统的信心来保护美国经济。此步骤将确保美国银行系统继续发挥其重要作用，保护存款并以促进强劲和可持续经济增长的方式为家庭和企业提供信贷渠道。
-在收到 FDIC 和美联储董事会的建议并与总统协商后，耶伦批准采取行动，使 FDIC 能够以充分保护所有储户的方式完成其对加利福尼亚州圣克拉拉硅谷银行的决议。从 3 月 13 日星期一开始，储户将可以使用他们所有的钱。与硅谷银行的决议相关的损失不会由纳税人承担。
-我们还宣布纽约 Signature Bank 的类似系统性风险例外情况，该银行今天已被其州特许机构关闭。该机构的所有存款人都将完整收回。与硅谷银行的决议一样，纳税人不会承担任何损失。
-股东和某些无担保债务人将不受保护。高级管理人员也已被免职。根据法律要求，存款保险基金为支持未投保的存款人而遭受的任何损失，将通过对银行进行特别评估来弥补。
-最后，美国联邦储备委员会周日宣布，它将向符合条件的存款机构提供额外资金，以帮助确保银行有能力满足所有存款人的需求。
-美国银行体系保持弹性且基础稳固，这在很大程度上归功于金融危机后为确保银行业获得更好保障而进行的改革。这些改革与今天的行动相结合，表明我们承诺采取必要措施确保储户的储蓄安全。
-阅读原文
-随后 USDC 已恢复锚定至 0.99 ，USDC 的危机似乎已经解除。
-Circle 声明：
-我们很高兴看到美国政府和金融监管机构采取关键措施来减轻部分银行系统带来的风险。来自 SVB 的 100% 存款是安全的，将于明天开门营业。100% 的 USDC 储备金也是安全可靠的，我们将完成将剩余的 SVB 现金转移到 BNY Mellon。如前所述，USDC 的流动性操作将在明天早上银行开门时恢复。随着今晚宣布关闭 Signature 银行，我们将无法通过 SigNet 处理铸造和赎回，我们将依靠纽约梅隆银行的结算。我们最快明天将引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。我们致力于以最高质量和透明度建立稳健和自动化的 USDC 结算和储备操作。我们长期以来一直提倡全额准备金数字货币银行业务，将我们的互联网货币和支付系统的基础层与部分准备金银行业务风险隔离开来。事实上，《支付稳定币法案》仍然是国会非常积极的追求，它将在法律中规定一种制度，在该制度下，稳定币资金将在美联储和短期国库券中以现金形式持有。如果我们想要一个真正安全的金融体系，我们现在比以往任何时候都更需要这部法律。
-Coinbase 发表声明，尽管我们最近在传统银行业看到了动荡，但 Coinbase 继续照常运营。在 Coinbase，所有客户资金继续安全且可访问，包括将于周一恢复的 USDC 转换。所有客户在银行的现金继续受到 FDIC 转手保险的保护。由于 FDIC 暂停 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。
-CZ 表示了批评观点：一旦你做了一次救助，你就会陷入进退两难的境地。通过稀释所有公民来“保护消费者”。如果你进行救助，那么银行管理风险的动力为零。当你失败时，你会得到救助。救助鼓励承担越来越大的风险，这需要更多的救助。
-美国行业人士普遍为 SIGNATURE 关闭而感到忧虑。
-对 The Block 主编 Frank Chaparro 说，随着 SIGNATURE BANK 加密友好银行被关闭，Crypto 的资本市场基本上回到了 2014 年之前。任何新成立的公司都没有机会获得银行关系。在许多方面，加密货币已经正式成为无银行账户。这将使加密货币公司的银行业务状况变得异常困难绝对残酷。据彭博社，一位熟悉公司运营的人士表示，将 Signature 置于破产管理程序的决定令其管理人员感到意外，他们在公告发布前不久就发现了这一消息。该银行周五面临大量存款外流，但到周日情况已经稳定下来，该人士因讨论私人问题而要求不具名。
-此外后续的宏观走势也让外界感到迷惑。
-本轮救助之后，CME FedWatch Tool 显示 9 天之后的美联储 FOMC 加息 50 bps 的预测已经从 1 天前的 40% ，跌到 17.4% ；82.6% 概率为加息 25 bps。周二美国将公布 2 月 CPI ，这将彻底决定此次加息的幅度。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185679"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | 硅谷银行事件追踪；Shibarium上线；BTC突破22000 USDT（3月13日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185679">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-
-BTC 短线突破 22000 USDT， 24 H 涨幅为 7.15% 
-Odaily星球日报讯 欧易 OKX 行情显示，BTC 短线涨至 22160 USDT，现报 21886.7 USDT， 24 H 涨幅为 7.15% 。
-硅谷银行与 Circle 事件回顾
-Circle CEO：在 SVB 的存款确认 100% 安全，USDC 流动性操作将于周一恢复
-Odaily星球日报讯 Circle 首席执行官 Jeremy Allaire 发推称，由于美国监管机构采取的联合保护行动，Circle 在硅谷银行（SVB）的存款确认将 100% 安全，因此， 100% 的 USDC 储备金也是安全可靠的，Circle 会将剩余的 SVB 存款转移到纽约梅隆银行（BNY Mellon）。USDC 流动性操作将在周一早上银行营业后恢复。
-部分硅谷银行储户寻求打折出售存款以筹集现金
-Odaily星球日报讯 据英国《金融时报》报道，目前硅谷银行的部分储户正在试图以较大的折扣出售存款以筹集现金。根据交易平台 Cherokee Acquisition 的数据，不在保险范围内的硅谷银行存款 10 日报价在 55 折到 65 折之间。报道称，对于一些初创企业来说，为支付员工工资，打折出售存款是他们不得已的选择。有多家风投表示，已联系一些初创企业，希望以某种折扣购买他们存款。数据显示，截至 2022 年底，硅谷银行 96% 的存款不在联邦存款保险公司（FDIC）的保险范围内。（央视财经）
-美财政部：FDIC 存款保险基金超千亿美元，足以覆盖硅谷银行和 Signature Bank 所有存款金额
-
-Odaily星球日报讯 美国财政部表示，一些机构存在与硅谷银行类似的问题，目前美国联邦存款保险公司（FDIC）的存款保险基金超过 1000 亿美元，足以覆盖所有硅谷银行和 Signature Ban…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185676"
-                        open
-                      >
-                        <summary class="article-expander__title">ETH周报 | Goerli测试网计划于3月15日激活Shapella升级；2月份CME以太坊期权交易量创历史新高（3.6-3.12）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185676">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>一、整体概述
-数据显示，比特币和以太坊期货和期权交易量（以美元计算）在今年 2 月再次走高。比特币的期货和期权交易量增长约 13% ，以太坊的期货和期权交易量分别增长 2% 和 30% 。
-上个月所有交易所的比特币期货交易总量为 7910 亿美元，高于 1 月份的 6970 亿美元，连续第三个月实现增长。与此同时，期权交易量从 177 亿美元增至约 200 亿美元。受 FTX 崩盘推动，机构投资者将目光投向了受监管的交易所。CME 的以太坊期权交易量创去年 8 月上线以来的最高水平。比特币期权未平仓合约也创历史新高，首次突破 10 亿美元。
-据官方博客，以太坊基金会宣布 Shapella 网络升级将于 epoch 162304 在 Goerli 网络上激活，计划时间为北京时间 3 月 15 日 06: 25: 36 ，预计这将是为以太坊主网安排 Shapella 升级之前的最后一次测试网升级。Shapella 社区电话会议定于北京时间 3 月 13 日 23: 00 。此外，zhejiang 测试网可用于在 Goerli 升级之前测试 Shapella 功能。
-二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1450 美元，阻力位 1500 美元。
-
-二、二级市场
-
- 1.现货市场
-OKX 行情数据显示，上周 ETH 价格一度跌破 1400 美元，周内收于 1450 美元，环比下降 7.5% 。
-
-ETH 日线图，来自 OKX
-日线图上显示，价格目前在 1450 美元左右盘整，支撑位是 1400 美元，如果支撑有效，则有望继续冲击 1500 美元；短期内价格可能继续向下测试 1400 美元。
- 2.网络运行情况
-
-etherchain.org 数据显示，过去一周以太坊网络出块量为 49762 个，基本持平 ；每周活跃地址数为 2759626 ，环比下降 5.5%…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9604,8 +9726,8 @@ Odaily星球日报讯 Cathie Wood 旗下资管公司 Ark Invest 创新 ETF 
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4401312261">
-        <time id="build-timestamp" datetime="2023-03-13T04:09:47.857Z">2023-03-13T04:09:47.857Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4401595359">
+        <time id="build-timestamp" datetime="2023-03-13T05:08:12.764Z">2023-03-13T05:08:12.764Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
