@@ -2664,16 +2664,6 @@
           "wordCount": 1123,
           "title": "Hedera：已关闭主网网络代理，网络服务不可访问",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/a7gv0vx3.html",
-          "author": "PA一线",
-          "description": "PANews 3月10日消息，星巴克Web3忠诚度计划Starbucks Odyssey发布了首个限量版NFT系列“Siren Collection”。该系列共有2000件作品，主题为星巴克标志性的海妖，每个NFT定价100美元。Starbucks Odyssey会员可以从美国东部时间下午12点开始每人购买两个作品，并可以通过信用卡或连接他们的MetaMask钱包付款。该系列在18分钟内售罄，目前正在二级市场上销售，当前地板价为450美元。",
-          "link": "https://panewslab.com/zh/articledetails/a7gv0vx3.html",
-          "publishedOn": "2023-03-09T21:23:11.000Z",
-          "wordCount": 1139,
-          "title": "Starbucks Odyssey发布首个NFT系列“Siren Collection”，18分钟内售罄",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2682,6 +2672,36 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/news/35585",
+          "author": null,
+          "description": "原文标题：《\n\n1.97 亿美元大劫案如何发生？Beosin 关于 Euler Finance 事件的简析\n\n》\n原文作者：Beosin\n\n\n\n2023 年 3 月 13 日，据区块链安全审计公司 Beosin 旗下 Beosin EagleEye 安全风险监控、预警与阻断平台监测显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元。\n\n\nBeosin Trace 追踪发现已有 34,224,863.42 个 USDC 和 849.14 个 WBTC 和 85818.26 个 stETH 和 8,877,507.35 个 DAI 被盗，目前，大部分被盗资金还在攻击者地址，攻击者只转移了 100 个 ETH 到 tornado cash。\n\n\n我们将本次事件的简析分享如下，明天会出一篇更详细的分析，尽请期待。\n\n\nBeosin 安全团队以本次安全事件的其中一笔交易为例分析如下：\n\n\n0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d\n\n\n1. 攻击者首先使用 AAVE 闪电贷出了 3000 万个 DAI，接着将其中的 2000 万 DAI 进行抵押，获得了 19,568,124 个 eDAI 的抵押。\n\n\n2. 攻击者接着调用 mint 函数利用这 19,568,124 个 eDAI 借贷 195,681,243 个 eDAI（抵押资产）和 200,000,000 个 dDAI(债务资产)，从而将自己的 eDAI 余额放大到了十倍。\n\n\n3. 攻击者接着将剩余的 1000 万 DAI 使用 repay 函数进行了质押，再次借贷了 195,681,243 个 eDAI 和 200,000,000 个 dDAI。\n\n\n4. 攻击者后续将进行了 donateToReserves 操作，将一亿的 eDAI 进行了销毁，使得 eDAI 小于了 dDAI 达到了清算条件。\n\n\n5. 最后在清算时，由于先前攻击者通过 donateToReserves 函数和 mint 函数，使抵押资产（eDAI）和债务资产（dDAI）比值小于 1，导致清算人无需向协议转入资金就可以清算攻击者债务。后续攻击者将 Euler 合约所有的 3800 万 DAI 提取出来，并且将 3000 万的 DAI 归还给了 AAVE，获利约 800 万 DAI。\n\n\n\n\n\n\n\n如果你还没有看过瘾，记得关注 Beosin 公众号，我们会在明天出一版深度分析，带你了解事件的更多来龙去脉。\n\n\n\nBeosin 作为一家全球领先的区块链安全公司，在全球 10 多个国家和地区设立了分部，业务涵盖项目上线前的代码安全审计、项目运行时的安全风险监控、预警与阻断、虚拟货币被盗资产追回、安全合规 KYT/AML 等「一站式」区块链安全产品+服务，目前已为全球 3000 多个区块链企业提供安全技术服务，审计智能合约超过 3000 份，保护客户资产高达 5000 多亿美元。欢迎点击公众号留言框，与我们联系。  \n\n\n原文链接",
+          "link": "https://www.theblockbeats.info/news/35585",
+          "publishedOn": "2023-03-14T07:57:30.000Z",
+          "wordCount": null,
+          "title": "1.97亿美元大劫案如何发生？Euler Finance事件简析",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/35586",
+          "author": null,
+          "description": "随着 USDC 脱锚危机结束，其流动性恢复，USDC 也在昨日回涨至 1 美元，似乎又恢复了往日的稳定币巨头地位，但此事件过后，其强大的恢复能力也并未削减行业对稳定币的担忧，反而更加剧了对美元挂钩稳定币的担忧。如果 USDC 不算是稳定的资产类别，那么我们应该在哪储存我们的 1 美元呢？今天将介绍一个去中心化借贷协议，也是专注于稳定币的收益协议：Liquity Protocol（LUSD & LQTY），并且 LUSD 也是近期市场谈论较多的稳定币。\n\n\n\n\nLiquity Protocol 简介\n\n\n\n\nLiquity Protocol 是一个去中心化借贷协议，也称 Collateralized Debt Protocol——抵押债务协议（CDP），可以通过抵押 ETH（ETH 是 Liquity 接受的唯一抵押品类型）申请无息借贷，获得 LUSD 稳定币贷款，作为 DeFi 协议，Liquity Protocol 具有不可变、非托管、免费治理的特性，是完全的去中心化 DeFi 协议。\n\n\n\n\nLUSD 与 USDC、USDT 类稳定币不同的是，后者是 1:1 与美元挂钩的，如果资产和负债脱离 1:1，那么该类稳定币就会崩盘，不再稳定。LUSD 的区别是，LUSD 不是与法币（存储在银行中的实物现金）挂钩，而是与 ETH 挂钩。且该协议具抗审查特性，没有监管机构可以禁止 LUSD 的发行，协议完全由代码操作，代码是不可变的。\n\n\n\n\nLiquity Protocol 免息借贷机制是，该协议收取一次性借入和赎回费用。这一费用会根据最近的赎回时间在算法上进行调整。例如：如果近期发生更多的赎回（这意味着 LUSD 的交易价格可能低于 1 美元），则借贷利率（费用）将增加，从而阻碍借贷。\n\n\n\n\n在该项目上进行借贷，需要借款人通过以太坊地址开设一个金库（trove），每个地址只能…",
+          "link": "https://www.theblockbeats.info/news/35586",
+          "publishedOn": "2023-03-14T07:41:24.000Z",
+          "wordCount": null,
+          "title": "Liquity Protocol：短期算稳龙头，专注于稳定币+借贷的DeFi协议",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/35567",
+          "author": null,
+          "description": "原文标题：《\n\n稳定币脱钩紧急逃生指南\n\n》\n原文作者：CapitalismLab\n\n\n当你持有的稳定币面临脱钩风险，该如何操作？孙哥拿 USDC 换 DAI 这个咋一看无用的操作背后有何逻辑？\n\n\n从主流去中心化稳定币、中心化稳定币再到持币对冲等多种方案，本文将结合底层逻辑、实际数据和案例，为你带来最全面的稳定币脱钩紧急逃生指南。\n\n\n去中心化稳定币\n\n\n紧急逃生的核心目的在于以最低的成本降低风险，为接下来的操作和判断提供时间窗口。所以除了要考虑长期逻辑外，更重要的是其短期要能挂钩住，所以接下来我们将根据挂钩机制的不同来分类说明。\n\n\nA. PSM 通过支持直接与其他稳定币兑换来挂钩，比如 DAI 支持 1: 1 兑 USDC/USDP\n\n\n那么既然都是 1: 1 兑换，孙哥为什么把 USDC 换成 DAI？其实还是有好处的\n\n\nPSM 额度是有上限的，到达上限后就变成了单向转换，即只能 DAI USDC，不能 USDC DAI，单向转换下就成了 DAI>= USDC\n\n\n如果最终 USDC 是只能以 0.98 这种价格换回美元的话，makerDAO 为了 re-peg 可能把这部分债务吃掉\n\n\n如果情况恶化出现了市场崩溃，触发借款人大规模还款、清算，那么需要买回 DAI 来还债，从而推升 DAI 的价格\n\n\n也就是说短期而言，这基本是个稳赚不赔的买卖，而且能够容下大资金，所以自然得到了孙哥亲睐。实际上 3/11 makerDAO 便通过了紧急提案增加 USDCDAI 的费用，并且由于 PSM-USDC 达到上限，DAI 在短时间内也相对 USDC 有过约 2% 的溢价。此条逃生路线并不能完全脱离 USDC 的影响，主要好处在资金容量大，短期确定性强。\n\n\n\n\n\nB. AMO：公开市场价格干预，比如 FRAX/ crvUSD 等\n\n\n比如 FRAX 其底层资产大部分为 C…",
+          "link": "https://www.theblockbeats.info/news/35567",
+          "publishedOn": "2023-03-14T06:54:22.000Z",
+          "wordCount": null,
+          "title": "遭遇稳定币脱钩怎么办，收藏好这份对冲操作指南",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/news/35566",
           "author": null,
