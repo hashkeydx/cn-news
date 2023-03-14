@@ -2564,36 +2564,6 @@
           "wordCount": 1129,
           "title": "Optimism主网Bedrock升级提案V2版本已发布，涵盖严格的升级标准流程",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/h8omx6fc.html",
-          "author": "PA一线",
-          "description": "PANews 3月10日消息，据区块链安全审计公司Beosin旗下Beosin EagleEye安全风险监控、 预警与阻断平台监测显示，Aptos链上的去中心化交易所Mosquitos Finance疑似rug pull，账户地址0x7600ee2b357ff993bd00a303a00f57a4c3db44263a1e8be7862ef1266bcecff3调用mint_SUCKR(admin特权函数)函数铸造大量SUCKR代币兑换为USDT，导致SUCKR代币24h价格暴跌99.99%。",
-          "link": "https://panewslab.com/zh/articledetails/h8omx6fc.html",
-          "publishedOn": "2023-03-10T06:44:13.000Z",
-          "wordCount": 1158,
-          "title": "安全公司：Aptos链上DEX Mosquitos Finance疑似rug pull，SUCKR代币暴跌99.99%",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ngbnxf43.html",
-          "author": "PA一线",
-          "description": "PANews 3月10日消息，据Cryptopotato报道，前FTX工程总监Nishad Singh去年 10 月在圣胡安群岛购买了价值370万美元的度假房产，现在这些财产已被美国政府没收，据悉这套房屋是在FTX破产前两周购买。三月初，Nishad Singh宣布对包括电汇欺诈、洗钱和违反竞选财务规定等刑事指控认罪并同意配合检方对FTX创始人SBF的调查。",
-          "link": "https://panewslab.com/zh/articledetails/ngbnxf43.html",
-          "publishedOn": "2023-03-10T06:41:01.000Z",
-          "wordCount": 1139,
-          "title": "前FTX工程总监Nishad Singh价值370万美元的房产被美国政府没收",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/geq61pfo.html",
-          "author": "PA一线",
-          "description": "PANews 3月10日消息，做市商Portofino Technologies在无抵押借贷DeFi 协议Clearpool上推出单一借贷池，并将在Clearpool的太坊版本上线。据悉，Portofino 成立于 2021 年 4 月，在中心化、去中心化和场外交易市场交易了数十亿美元。Clearpool是一个面向机构借款人的去中心化资本市场生态系统，使机构能够安全地访问数字资产和 DeFi。",
-          "link": "https://panewslab.com/zh/articledetails/geq61pfo.html",
-          "publishedOn": "2023-03-10T06:12:28.000Z",
-          "wordCount": 1147,
-          "title": "做市商Portofino Technologies在Clearpool推出借贷池",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3040,16 +3010,6 @@
           "publishedOn": "2023-03-10T08:00:02.000Z",
           "wordCount": null,
           "title": "如何通过工具来追踪加密VC的市场动向？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/35451",
-          "author": null,
-          "description": "撰文：Cookie，律动 BlockBeats\n\n\n\n\n昨日，@domodata 启动了一场基于 Ordinals 协议的创新实验「BRC-20」。该实验旨在测试 Ordinals 协议是否能够促进比特币的「可替代性」，即通过 Ordinals 协议在比特币网络上实现像在以太坊网络上发行 ERC-20 Token 的效果。\n\n\nBRC-20 让比特币网络再一次疯狂。3月9日一天有超过30000个\n\n「铭文」被铸造，其中文本类型\n\n「铭文」数量接近27000个。\n\n\n    \n让我们一起看看 BRC-20 Token 的玩法。\n\n\n\n\nDeploy 部署\n\n\n\n\n使用 Ordinals 协议刻录下图所示文本来部署 BRC-20 Token：\n\n\n\n\n\n\n\n\n\n各关键词的含义如下：\n\n\n\n\n\n\n\n\n\n「p」：协议类型。必须包含的关键词，该关键词定义操作基于 BRC-20 协议进行，帮助其它系统识别与处理 BRC-20 事件。\n\n\n「op」：事件类型。必须包含的关键词，该关键词定义事件类型，是 Deploy 部署、Mint 铸造还是 Transfer 转账。\n\n\n「tick」：BRC-20 Token 标识。必须包含的关键词，该关键词定义 BRC-20 Token 名称，由 4 个字母组成。\n\n\n「max」：最大供应量。必须包含的关键词，该关键词定义 BRC-20 Token 的最大供应量。\n\n\n「lim」：单个铭文可容纳的最大 BRC-20 Token 数量。非必须包含的关键词，该关键词定义用户铸造一个铭文最多可以获取多少 BRC-20 Token。若此项设置为 1000，则铸造单个铭文最多可获取 1000 个 BRC-20 Token。\n\n\n「dec」：十进制精度。非必须包含的关键词，该关键词定义 BRC-20 Token 的十进制精度，默认设置为 18。\n\n\n\n\nDune上…",
-          "link": "https://www.theblockbeats.info/news/35451",
-          "publishedOn": "2023-03-10T07:00:01.000Z",
-          "wordCount": null,
-          "title": "在比特币网络上发Token？一文了解如何铸造BRC-20",
           "imageUrl": null
         }
       ]
@@ -3667,16 +3627,6 @@
           "publishedOn": "2023-03-10T07:30:23.000Z",
           "wordCount": 2029,
           "title": "解密Silvergate与硅谷银行危机：一场美元加息周期下的豪赌",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5185644",
-          "author": "星球君的朋友们",
-          "description": "原文作者：Cipher\n原文来源：SevenUp DAO\n一、钱包与 Web3 应用的困境\n钱包在 Web3 世界是资产、身份、账号的统一体，加上其在不同应用之间的一致性和可组合性，其重要程度甚至超过了微信或 Google 账号在传统世界位置。但由于钱包本身的使用门槛，Web3 钱包用户始终无法突破 Metamask 30 M 月活地址这个数量级。\n以 Metamask 为代表的标准 EOA 钱包地址将用户自己管理的私钥对应的公钥做哈希映射。这句话本身就解释了为什么它阻挡了大多数人进入 Web3 世界——牵扯到太多让人听不懂的概念了。可问题在于，这些概念确实无法省掉。要想使用 EOA 钱包，就必须自己通过助记词的方式管理私钥，就必须理解什么是公钥，什么是数字签名，而且助记词一旦丢失或泄漏，资产和身份将永久丢失。这些门槛是如此之高，以至于用户必须有极强的动力才愿意进来。这也是为什么目前 Web3 应用的主流用户是投机和撸空投的用户，根本没有常规意义下的正常用户。这反过来将 Web3 应用的生态引向了错误的方向，没有人真正关心你的项目是否有长期价值。什么时候发币，怎么加白成为用户的主要诉求。\n我们当然不只有 EOA 钱包，中心化托管、MPC 和账户抽象钱包都在尝试提出兼顾易用性与安全性的钱包解决方案。中心化托管由于单点风险和资管安全问题不被主流应用所接受。那么多方共管的 MPC 方案和集大成的抽象账户钱包方案是不是可以彻底解决安全与便捷的矛盾呢？\n\n\n\n\n\n\n\n\n\n\n\n\n二、为什么 MPC 是一条死胡同\n\n\n\n\nMPC 技术将密钥进行分片，用户和托管方各持一部分，使用钱包时需要双方协作完成签名。一旦用户侧的分片丢失，可以通过多个托管方进行恢复。任何一方都无法单独操作用户资产。该方案看上去同时解决了用户自己管理私钥门槛难题和资产托管的道德问题，也是目前被寄予厚望的解决方案。但 M…",
-          "link": "https://www.odaily.news/post/5185644",
-          "publishedOn": "2023-03-10T06:40:42.000Z",
-          "wordCount": 1971,
-          "title": "Web3钱包终局：安全便捷与去中心化的统一",
           "imageUrl": null
         }
       ]
