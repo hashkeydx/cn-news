@@ -51,168 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-15 datetime="2023-03-15T02:46:11.000Z">2023-03-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-15 datetime="2023-03-15T02:46:11.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-15 datetime="2023-03-15T03:34:27.000Z">2023-03-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-15 datetime="2023-03-15T03:34:27.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185741"
-                        open
-                      >
-                        <summary class="article-expander__title">Euler乐高的连锁反应：7个受波及的DeFi协议和6家「渎职」的审计公司</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185741">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Jaleel、0x22D，BlockBeats
-3 月 13 日下午 5 时，Euler Finance 疑遭黑客闪电贷攻击。Euler Finance 在本次黑客闪电贷攻击事件中的受损金额总计约为 1.97 亿美元，其中包括超 880 万枚 DAI、 849 枚 WBTC、 3400 万 枚 USDC 以及 8.5 万枚 stETH 等。对此，Euler Finance 随即回复正与安全专业人员及执法部门合作，Euler Finance 提出解决方案称，受到该漏洞影响的人将能够要求退款，金库剩余资金可以用于处理退款。
-黑客是如何攻击 Euler 的？目前哪些协议受到了影响？曾经为 Euler 提供审计的公司有哪些？BlockBeats 进行了简要梳理。
-攻击过程复盘：一个「违规者」和一个「清算者」
-Euler Finance 审计合作伙伴之一 Omniscia 发布了一份事后技术分析报告，对这次攻击进行了非常详细的分析，并指出被利用的漏洞源于 Euler 没有对进行捐赠的地址而进行适当的安全检查。
-该漏洞代码是在 eIP-14 中被引入的，eIP-14 协议引入了整个 Euler 生态系统中的多个更改。缺陷存在于 EToken 实现 ( EToken: donateToReserves feature ）所做的第一个更改中。于是攻击者利用了易受攻击的代码，允许它通过向协议的储备金捐赠资金来创建无担保的代币债务头寸，使得攻击者能够清算这些账户并从清算奖金中获利。
-具体地说，清算模块内部逻辑尝试还清违规者的全部债务，但如果拥有的抵押品无法满足预期还款收益率，则系统会默认使用用户拥有的任何其他抵押品。此代码块的假设状态是，当借款人拥有多种抵押品并且没收所有这些抵押品不会使违规者恢复偿付能力时，就会发生这种情况。 
-这种安全保障并不受捐赠机制的支持，该机制允许用户以杠杆…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185739"
-                        open
-                      >
-                        <summary class="article-expander__title">深度解读Filecoin虚拟机：工作原理、解锁的用例及其重要性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185739">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：Filecoin Network
-概述
-
-
-这篇博客文章解释了 Filecoin 虚拟机（FVM）的基本信息及它的重要性。此外，还介绍了应该如何评估和优先利用其将解锁的机会。
-
-首先，我们会解释 Filecoin 虚拟机是什么，以及 Filecoin 拥有可编程性后怎样为 Filecoin 经济体里的可组合产品和服务打下基础。
-
-其次，我们会引入一个框架，来将 FVM 虚拟机的潜在用例按其相关的机会领域进行分类。这个版块会讨论 FVM 虚拟机解锁的特定机会，以及风投资本、开发者、存储提供者和其他利益相关者如何评估和优先利用相关机会。
-
-在第三节，我们会探索 FVM 虚拟机如何让云服务商品化，让任何人都可以围绕数据相关产品和服务来创建和变现，从而充分释放和增强这万亿美元市值开放数据经济的全部潜力。
-
-最后，我们讨论了让数百个团队在 FVM 虚拟机上搭建应用的驱动力，以及了解 FVM 虚拟机最新消息的渠道。
-
-请注意，这篇博客文章是在之前的一些文章的成果上编写的，它们探索了 Filecoin 虚拟机在更广阔的 Filecoin 路线图里的角色（https://medium.com/tldrfilecoin/state-and-direction-of-filecoin-summarized-4b90c59e3cca）、它对 Filecoin 经济体的潜在影响（https://medium.com/tldrfilecoin/filecoin-tokenomics-understanding-an-advancing-economy-ef319632ffa8 ）、以及它在解锁开放数据服务经济新用例方面的潜力（https://medium.com/tldrfilecoin/business-models-on-the-fvm-23cd71fdd3f1）。你可能会发现这些文章…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185734"
-                        open
-                      >
-                        <summary class="article-expander__title">浅析MEV的发展现状及趋势</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185734">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>1、MEV 的定义、背景
-MEV（Maximum Extractable Value）是指通过在区块内重新排序、插入和审查交易从用户那里提取的价值，例如套利、清算等。最根本上可以理解为“在创建新区块时，通过调整 Tx 的排序从而获得的额外收益”。
-MEV 的概念最早是由 Phil Daian 在《Flash Boys 2.0 》中提出，在以太坊合并之前，MEV 主要由矿工捕获，因此当时也被称为“矿工可提取价值（Miner Extractable Value）”。MEV 的产生来源于，当用户在区块链上提交一笔交易时，该笔交易一般会先进入 Mempool 公开访问的待处理交易池中。套利者和矿工可以检索 Mempool，并从中找到获取 MEV 的机会。
-以太坊合并后，由于出矿机制的改变，MEV 供应链中的角色也有所改变。在 Danksharding 尚未实施之前，Flashbots 提出了 MEV-Boost 作为 PBS 在协议外的实践。Buider 专注于构建 Block，并尽可能实现每个 Block 的利益最大化，然后最有利可图的 Block 被提交给 Proposer。PBS 机制的实现使得区块链出块产业的利益产生了一些改变，同时促进了产业链上相关机构的专业化、商业化进程，也使得 MEV 供应链形成了新的格局。
-2、MEV 的供应链
-基于 MEV-Boost 的 Tx 上链流程如下图（图中浅绿色为 Tx 常规上链流程，白色模块为 MEV 的 Tx 上链流程）：
-
-来源：Flashbots
-与 Tx 常规上链流程相比，MEV 的 Tx 上链流程通过 Flashbots 的 MEV-Boost 实现了 PBS 的协议外实践，同时也使得 MEV 被 Searcher、Builder、Validator 这几个角色瓜分捕获。
-Searcher：一般是以下角色（套利和清算机器人、D…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185738"
-                        open
-                      >
-                        <summary class="article-expander__title">Filecoin虚拟机（FVM）在主网正式上线，Filecoin智能合约时代已经来临</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185738">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>今天，Filecoin 社区很高兴宣布，Filecoin 虚拟机（FVM）成功启动（http://fvm.dev/）。从 epoch 2, 683, 348 （3 月 14 日  3: 14 PM UTC ）开始，Filecoin 区块链已经可以通过 FVM 支持智能合约和用户可编程性。这将解锁开放数据经济的巨大潜力。
-这是在 Filecoin 的广阔路线图上值得纪念的一页。Filecoin 的愿景是将开放、公开可验证的特性带到支持数据经济的三大核心支柱（存储、计算、内容分发）。通过 FVM，开发者可以部署智能合约，并规划数据存储、治理和在公开市场变现的方式。当手机开始变得“智能”，编写和运行 app 应用的能力让设备的实用性远远超过出厂预置软件的功能。自由和创新的空间使智能手机开始掌控世界。与此类似，通过 FVM，开发者可以部署智能合约，并规划数据存储、治理和在公开市场变现的方式。
-FVM 的发布也启动了Filecoin 主要计划的（https://filecoin.io/blog/posts/the-filecoin-masterplan/）最后一环。该计划旨在将大规模数据计算和赋能网络级别应用的能力落地到这个世界上最大的去中心化存储网络。
-FVM 的发布也巩固了 Filecoin 作为支持开放数据经济L1层协议的独特地位。很多领先的Web3项目宣布了使用、支持或集成FVM来升级其服务的计划。
-
-为Web3解锁开放数据经济
-FVM 虚拟机不仅让我们离稳健、可用的去中心化云服务更近一步，还能让我们以前所未有的方式让数以千计的开发者、存储提供者、企业家和全球其他网络参与者拥有数据经济，并奖励个体在其中的贡献。例如，基于 prompt（提示）来生成特定艺术风格图片的 AI 工具Waterlily(https://www.waterlily.ai/)会使用 tokens 直接奖…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/35589"
-                        open
-                      >
-                        <summary class="article-expander__title">Glassnode：稳定币主导地位重新转向Tether，投机兴趣导致BTC爆炸性反弹</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35589">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>投资者的反应有点类似于后FTX环境，将稳定币净转移到交易平台，而不是托管BTC和ETH。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -224,6 +67,363 @@ FVM 虚拟机不仅让我们离稳健、可用的去中心化云服务更近一
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/vue2kpn3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国检察官在听证会上再次努力阻止将Voyager的关键部分出售给Binance.US</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/vue2kpn3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据彭博社报道，美国官员正试图阻止将破产的Voyager Digital Ltd.的关键部分出售给Binance.US，而政府则对法官批准该交易提出上诉。美国助理检察官Larry Fogleman周二在法庭上表示，政府反对任何限制其惩罚参与该提议的任意一方的能力，以及美国破产法官Michael E. Wiles上周批准的相关破产退出计划。Fogleman告诉法官，该交易的其他方面可能会继续推进，但不会包括作为Voyager 第11章计划一部分的法律保护。
+Wiles同意周三举行听证会，决定是否阻止该计划的免责条款。这些条款在公司破产案件中很常见，可以保护人们免于因实施法院批准的计划而承担个人责任。根据其破产计划，Voyager可以选择将其出售给Binance.US或清算其资产并将资金分配给债权人。在经过四天的有争议的破产听证会后，法官将允许公司采取其中任何一种做法。
+此前消息，法官批准Binance.US收购Voyager Digital资产，但交易仍需清除监管障碍；美国司法部对纽约法官批准Voyager出售给Binance.US的决定提起上诉。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/a5snl4zf.html"
+                        open
+                      >
+                        <summary class="article-expander__title">派盾：Voyager过去12小时将价值2770万美元的加密货币转至Coinbase</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/a5snl4zf.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据派盾预警监测，在过去的12小时内，标记为“Voyager”的地址已向Coinbase转移了价值2770万美元的加密货币，包括17000枚ETH(约合1900万美元)，1200万枚VGX(约合400万美元)，2700亿枚SHIB(约合300万美元)。
+据悉，自2月14日以来Voyager几乎每天通过Coinbase出售加密资产。此前消息，法官批准Binance.US收购Voyager Digital资产，但交易仍需清除监管障碍；美国司法部对纽约法官批准Voyager出售给Binance.US的决定提起上诉。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/16df5b8h.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Blur CEO评亚马逊进军NFT市场：老牌机构或难以有效驾驭新范式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/16df5b8h.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据The Block报道，Blur首席执行官Tieshun Roquerre在谈到亚马逊进军NFT市场时表示，虽然这一举措是“积极”的，但带来的影响可能较为有限，他说道：“每当出现新的范式时，老牌机构很少能有效地驾驭，如果Web2公司能在Web3中做出引人注目的东西，我会感到惊讶。”不过，OpenSea 首席商务官Shiva Rajaraman对亚马逊涉足区块链和Web3持乐观态度。
+此前报道，科技巨头亚马逊或将于4月24日推出其NFT平台“Amazon Digital Marketplace”，该平台将首先向美国客户提供服务，然后逐步推广至其他国家。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/qchjg9n9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Circle：正努力恢复USDC的流动性运作，包括寻找全天候的新银行合作伙伴</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qchjg9n9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，USDC稳定币发行商Circle在博客文章中表示：“自从Signature Bank和Silvergate Bank倒闭以来，我们团队一直在夜以继日地工作以恢复USDC的流动性运营，包括引入新的交易银行合作伙伴。我们于当地时间3月13日星期一早上开始处理铸造和赎回请求，当时美国银行系统重新开放，目前正在处理积压的请求。我们在这里还有更多工作要做，包括添加具有24/7/365功能的新交易银行合作伙伴，当地时间3月13日，Circle赎回了29亿美元USDC，并铸造了70亿美元USDC。”
+文章还表示：“作为加强USDC储备的持续举措的一部分，我们现在在纽约梅隆银行持有储备的现金部分，除了在交易银行合作伙伴处持有的有限资金，以支持USDC的铸造和赎回。大部分储备投资于由贝莱德管理、BNYM托管的Circle reserve Fund，主要由短期美国国债组成。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/lbjzkrvm.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Yuga Labs：尚有9个TwelveFold铭文未发送，再次呼吁待接受者清空钱包</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/lbjzkrvm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，Yuga Labs发推文称：“TwelveFold铭文已发送到所有中标的空收货地址。由于部分地址持有其他比特币，因此未发送9个铭文。这些地址请在发送剩余铭文之前清空接收钱包，3月20日将是最后一次呼吁，之后无论余额如何，我们都会将这些铭文发送到接收地址。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/8nq7jmqc.html"
+                        open
+                      >
+                        <summary class="article-expander__title">硅谷银行高管和董事过去两年内已套现价值8400万美元的股票</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8nq7jmqc.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据CNBC报道，硅谷银行高管和董事在过去两年总共套现了价值8400万美元的股票，引发了外界对该行内部人士出售股票新质疑。
+硅谷银行首席执行长Greg Becker在过去两年出售了近2950万美元的股票，在2月27日就出售了价值360万美元的股票，而就在几天后，该银行披露了一笔巨额亏损，并引发了股价的下滑和崩溃。
+硅谷银行的其他高管，包括首席营销官Michelle Draper、首席财务官Daniel Beck和首席运营官Philip Cox自2021年以来也出售了价值数百万美元的股票，根据Smart Insider的数据，过去两年硅谷银行的高管和董事总共套现了价值8400万美元的股票。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/mbeew7n3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">区块链公司RockX推出机构流动性质押平台Bedrock</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/mbeew7n3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据CoinDesk报道，区块链公司RockX推出机构流动性质押平台Bedrock，Bedrock为希望质押超过32枚以太坊的机构提供机构级KYC和AML合规服务。RockX创始人兼首席Chen Zhuling表示，该公司最初的目标是交易所和财富管理平台，以期进一步吸引大型基金和银行机构。
+据悉，加密交易公司Amber Group是RockX的投资者，将成为Bedrock的首批客户之一。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/xmqf4tpg.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：Multichain跨链总交易额突破千亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/xmqf4tpg.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，官方数据显示，跨链路由协议Multichain总交易额已突破千亿美元，TVL达18.4亿美元。
+Multichain当前已经连通83条主流公链，支持超过3400种资产跨链，是Web3领域最主要的跨链交互协议之一。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/9xa29vda.html"
+                        open
+                      >
+                        <summary class="article-expander__title">高盛已申请一项将区块链技术与其结算机制整合在一起的新专利</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9xa29vda.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据Cryptoslate报道，高盛(Goldman Sachs)最近向美国专利局(US patent office)申请了一项专利，提议将区块链技术与其结算机制整合在一起。该专利文件于3月14日提交，专利号为US 11,605,143 2B，概述了该银行使用区块链技术的技术和计算需求。该专利专注于智能合约的技术方面，可应用于各种金融工具，如部分准备金银行、保险、债券、证券化产品和保证金贷款。
+高盛的这一举措是其区块链推广的一部分，数字资产团队全球负责人Mathew McDermott在最近接受采访时表达了对区块链应用程序的强烈支持。该银行的私人代币化平台GS DAP也被香港用于销售价值1.02亿美元的数字绿色债券，成功地将结算时间从5天缩短至1天。
+与此同时，一些分析师声称，区块链领域正在酝酿一场专利“军备竞赛”，高盛(Goldman Sachs)决心通过招聘新员工和提供区块链产品来扩大其数字资产团队，以保持领先地位。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/7dza0kui.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Chipper Cash澄清：在硅谷银行资金仅约100万美元，从未寻求被收购</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/7dza0kui.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，针对市场出现支付公司Chipper Cash将考虑出售的传言，该公司首席执行官Ham Serunjogi在其官方网站发布澄清声明，其中指出虽然硅谷银行和Silvergate Bank倒闭引发了混乱，但对Chipper Cash的影响“微不足道”，虽然硅谷银行是该公司的投资方，但他们在硅谷银行账户中持有的资金非常有限，仅约100万美元，而且Chipper Cash没有接触过Silvergate Bank，也“从未寻求被收购”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/jwmejuet.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：黄立成地址昨晚抛售132枚MAYC</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/jwmejuet.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据欧科云链OKLink多链浏览器数据显示，被标记为“Jeffrey Huang”的中国台湾歌手黄立成（machibigbrother.eth）地址于昨晚20:36:23分开始大量抛售MAYC，截至发文前已卖出132枚，目前该地址下仍持有42枚MAYC。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/yny929ok.html"
+                        open
+                      >
+                        <summary class="article-expander__title">彭博社：Signature Bank在倒闭前面临刑事调查，包括其与加密公司的合作关系</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/yny929ok.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据彭博社报道，知情人士透露，在监管机构上周末突然接管Signature Bank之前，美国检察官一直在调查该银行与加密货币客户的合作。知情人士称，华盛顿和曼哈顿的司法部调查人员正在调查这家纽约银行是否采取了足够的措施来发现客户的潜在洗钱行为，比如仔细检查开户的人，监控交易以寻找犯罪迹象。
+两名不愿具名的人士表示，美国证券交易委员会（SEC）也在调查此事。美SEC负责人当时表示，如果发现违反联邦证券法的行为，将进行调查并采取执法行动。
+此前消息，Signature董事会成员表示，银行未资不抵债，被关停或因监管机构的反加密立场；而纽约金融服务部表示，接管Signature Bank与其加密业务无关。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/gjjkdp6n.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Manta Network先行网Calamari上线ZK隐私转账协议MantaPay</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/gjjkdp6n.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据官方消息，基于ZK的可编程隐私Layer1区块链Manta Network宣布，基于零知识证明（ZK）的隐私转账协议MantaPay正式在其先行网Calamari上线；待主网上线后，MantaPay将正式于主网部署。
+据悉，MantaPay是基于ZK技术的、支持多资产的去中心化隐私转账协议，用户可将 ERC20等多种类型的资产，桥接至MantaPay，实现隐私转账，未来可支持ERC721、ERC1155等NFT资产及SBT隐私转账。MantaPay也提供Viewing Key ，支持用户在需要时自主披露信息。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/4vb23tc2.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Cathie Wood：监管机构应关注银行系统，而非封锁运转良好的去中心化金融平台</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/4vb23tc2.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，Ark Invest首席执行官Cathie Wood在推特上表示：“当美国银行系统因银行挤兑威胁到地区银行而陷入瘫痪时，比特币、以太坊和其他加密网络却不受影响继续运行。银行体系的不稳定威胁到了稳定币，稳定币是DeFi的入口，这与监管机构的言论形成了鲜明对比。监管机构不应该封锁去中心化、透明、可审计、运转良好且没有中心故障点的金融平台，而是应该关注传统银行体系中正在出现的中心化、不透明的故障点。他们本应完全了解这场显而易见的危机：资产和负债期限错配，短期利率在不到一年的时间内飙升19倍，银行体系中的存款自上世纪20年代以来首次出现同比下降。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/noqtrduk.html"
+                        open
+                      >
+                        <summary class="article-expander__title">华尔街日报：美联储考虑对中型银行实施更严的资本和流动性规定</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/noqtrduk.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据《华尔街日报》援引知情人士报道，在硅谷银行（SVB）事件发生后，美联储正在审议一系列更严格的资本和流动性要求，以及加强年度“压力测试”的措施，这些规定可能重点针对资产规模在1000亿至2500亿美元之间的中型银行，这些银行目前逃避了一些最严格的要求。
+预计在未来几个月，美联储将提出一系列改革建议，内容可能要求更多银行在其监管资本中显示某些证券的未实现收益和损失，而此举将影响银行的监管资本充足率，这是衡量银行实力的一个关键指标。美国监管机构还准备调整一项计划的范围，以增加地区银行在危机时可能动用的金融缓冲。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/rp6g4el3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Euler：黑客若不及时还90%资金，将悬赏100万美元征集线索</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/rp6g4el3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，借贷协议Euler Finance在链上两次向黑客发布消息称：“我们知道你要为Euler平台的袭击负责。我们写信是想看看你是否愿意与我们讨论任何潜在的下一步行动。继续我们昨天的消息。如果24小时内90%的资金没有归还，明天我们将悬赏100万美元征集能逮捕你并归还所有资金的线索。”
+此前3月13日消息，借贷协议Euler Finance遭到攻击，损失已达1.97亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/1s0r7d52.html"
+                        open
+                      >
+                        <summary class="article-expander__title">彭博社：美国监管机构开始征求Signature Bank潜在买家的兴趣</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/1s0r7d52.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月15日消息，据彭博社援引知情人士报道，美国监管机构已经开始征求Signature Bank潜在买家的兴趣。联邦存款保险公司已经开设了一个所谓的数据室，以便让潜在买家能够开始对该银行进行尽职调查。
+在Signature Bank被监管机构接管之前，侧重加密货币业务的Silvergate和侧重为初创公司服务的硅谷银行都倒闭。纽约州金融服务局的官员称，在监管机构对签名银行管理层失去信心并且储户纷纷取款后，该银行被关闭。Signature Bank 的所有客户存款和几乎所有的公司资产都已转入由FDIC运营的Signature Bridge Bank NA。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -656,6 +856,163 @@ Linden Lab 于 2019 年正式推出 Tilia。Tilia 旨在使数字经济世界（
 据悉，Smooth是首个并行交易中间件，兼容EVM，为现有的Layer2和AppChain提供高性能交易框架，并为后续的区块链开发提供通用的交易模式。Smooth表示这笔融资资金将被用来技术研发和扩大其 12 名成员的团队。该项目预计在第三季度上线测试网。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185741"
+                        open
+                      >
+                        <summary class="article-expander__title">Euler乐高的连锁反应：7个受波及的DeFi协议和6家「渎职」的审计公司</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185741">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Jaleel、0x22D，BlockBeats
+3 月 13 日下午 5 时，Euler Finance 疑遭黑客闪电贷攻击。Euler Finance 在本次黑客闪电贷攻击事件中的受损金额总计约为 1.97 亿美元，其中包括超 880 万枚 DAI、 849 枚 WBTC、 3400 万 枚 USDC 以及 8.5 万枚 stETH 等。对此，Euler Finance 随即回复正与安全专业人员及执法部门合作，Euler Finance 提出解决方案称，受到该漏洞影响的人将能够要求退款，金库剩余资金可以用于处理退款。
+黑客是如何攻击 Euler 的？目前哪些协议受到了影响？曾经为 Euler 提供审计的公司有哪些？BlockBeats 进行了简要梳理。
+攻击过程复盘：一个「违规者」和一个「清算者」
+Euler Finance 审计合作伙伴之一 Omniscia 发布了一份事后技术分析报告，对这次攻击进行了非常详细的分析，并指出被利用的漏洞源于 Euler 没有对进行捐赠的地址而进行适当的安全检查。
+该漏洞代码是在 eIP-14 中被引入的，eIP-14 协议引入了整个 Euler 生态系统中的多个更改。缺陷存在于 EToken 实现 ( EToken: donateToReserves feature ）所做的第一个更改中。于是攻击者利用了易受攻击的代码，允许它通过向协议的储备金捐赠资金来创建无担保的代币债务头寸，使得攻击者能够清算这些账户并从清算奖金中获利。
+具体地说，清算模块内部逻辑尝试还清违规者的全部债务，但如果拥有的抵押品无法满足预期还款收益率，则系统会默认使用用户拥有的任何其他抵押品。此代码块的假设状态是，当借款人拥有多种抵押品并且没收所有这些抵押品不会使违规者恢复偿付能力时，就会发生这种情况。 
+这种安全保障并不受捐赠机制的支持，该机制允许用户以杠杆…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185739"
+                        open
+                      >
+                        <summary class="article-expander__title">深度解读Filecoin虚拟机：工作原理、解锁的用例及其重要性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185739">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：Filecoin Network
+概述
+
+
+这篇博客文章解释了 Filecoin 虚拟机（FVM）的基本信息及它的重要性。此外，还介绍了应该如何评估和优先利用其将解锁的机会。
+
+首先，我们会解释 Filecoin 虚拟机是什么，以及 Filecoin 拥有可编程性后怎样为 Filecoin 经济体里的可组合产品和服务打下基础。
+
+其次，我们会引入一个框架，来将 FVM 虚拟机的潜在用例按其相关的机会领域进行分类。这个版块会讨论 FVM 虚拟机解锁的特定机会，以及风投资本、开发者、存储提供者和其他利益相关者如何评估和优先利用相关机会。
+
+在第三节，我们会探索 FVM 虚拟机如何让云服务商品化，让任何人都可以围绕数据相关产品和服务来创建和变现，从而充分释放和增强这万亿美元市值开放数据经济的全部潜力。
+
+最后，我们讨论了让数百个团队在 FVM 虚拟机上搭建应用的驱动力，以及了解 FVM 虚拟机最新消息的渠道。
+
+请注意，这篇博客文章是在之前的一些文章的成果上编写的，它们探索了 Filecoin 虚拟机在更广阔的 Filecoin 路线图里的角色（https://medium.com/tldrfilecoin/state-and-direction-of-filecoin-summarized-4b90c59e3cca）、它对 Filecoin 经济体的潜在影响（https://medium.com/tldrfilecoin/filecoin-tokenomics-understanding-an-advancing-economy-ef319632ffa8 ）、以及它在解锁开放数据服务经济新用例方面的潜力（https://medium.com/tldrfilecoin/business-models-on-the-fvm-23cd71fdd3f1）。你可能会发现这些文章…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185734"
+                        open
+                      >
+                        <summary class="article-expander__title">浅析MEV的发展现状及趋势</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185734">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>1、MEV 的定义、背景
+MEV（Maximum Extractable Value）是指通过在区块内重新排序、插入和审查交易从用户那里提取的价值，例如套利、清算等。最根本上可以理解为“在创建新区块时，通过调整 Tx 的排序从而获得的额外收益”。
+MEV 的概念最早是由 Phil Daian 在《Flash Boys 2.0 》中提出，在以太坊合并之前，MEV 主要由矿工捕获，因此当时也被称为“矿工可提取价值（Miner Extractable Value）”。MEV 的产生来源于，当用户在区块链上提交一笔交易时，该笔交易一般会先进入 Mempool 公开访问的待处理交易池中。套利者和矿工可以检索 Mempool，并从中找到获取 MEV 的机会。
+以太坊合并后，由于出矿机制的改变，MEV 供应链中的角色也有所改变。在 Danksharding 尚未实施之前，Flashbots 提出了 MEV-Boost 作为 PBS 在协议外的实践。Buider 专注于构建 Block，并尽可能实现每个 Block 的利益最大化，然后最有利可图的 Block 被提交给 Proposer。PBS 机制的实现使得区块链出块产业的利益产生了一些改变，同时促进了产业链上相关机构的专业化、商业化进程，也使得 MEV 供应链形成了新的格局。
+2、MEV 的供应链
+基于 MEV-Boost 的 Tx 上链流程如下图（图中浅绿色为 Tx 常规上链流程，白色模块为 MEV 的 Tx 上链流程）：
+
+来源：Flashbots
+与 Tx 常规上链流程相比，MEV 的 Tx 上链流程通过 Flashbots 的 MEV-Boost 实现了 PBS 的协议外实践，同时也使得 MEV 被 Searcher、Builder、Validator 这几个角色瓜分捕获。
+Searcher：一般是以下角色（套利和清算机器人、D…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185738"
+                        open
+                      >
+                        <summary class="article-expander__title">Filecoin虚拟机（FVM）在主网正式上线，Filecoin智能合约时代已经来临</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185738">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>今天，Filecoin 社区很高兴宣布，Filecoin 虚拟机（FVM）成功启动（http://fvm.dev/）。从 epoch 2, 683, 348 （3 月 14 日  3: 14 PM UTC ）开始，Filecoin 区块链已经可以通过 FVM 支持智能合约和用户可编程性。这将解锁开放数据经济的巨大潜力。
+这是在 Filecoin 的广阔路线图上值得纪念的一页。Filecoin 的愿景是将开放、公开可验证的特性带到支持数据经济的三大核心支柱（存储、计算、内容分发）。通过 FVM，开发者可以部署智能合约，并规划数据存储、治理和在公开市场变现的方式。当手机开始变得“智能”，编写和运行 app 应用的能力让设备的实用性远远超过出厂预置软件的功能。自由和创新的空间使智能手机开始掌控世界。与此类似，通过 FVM，开发者可以部署智能合约，并规划数据存储、治理和在公开市场变现的方式。
+FVM 的发布也启动了Filecoin 主要计划的（https://filecoin.io/blog/posts/the-filecoin-masterplan/）最后一环。该计划旨在将大规模数据计算和赋能网络级别应用的能力落地到这个世界上最大的去中心化存储网络。
+FVM 的发布也巩固了 Filecoin 作为支持开放数据经济L1层协议的独特地位。很多领先的Web3项目宣布了使用、支持或集成FVM来升级其服务的计划。
+
+为Web3解锁开放数据经济
+FVM 虚拟机不仅让我们离稳健、可用的去中心化云服务更近一步，还能让我们以前所未有的方式让数以千计的开发者、存储提供者、企业家和全球其他网络参与者拥有数据经济，并奖励个体在其中的贡献。例如，基于 prompt（提示）来生成特定艺术风格图片的 AI 工具Waterlily(https://www.waterlily.ai/)会使用 tokens 直接奖…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35589"
+                        open
+                      >
+                        <summary class="article-expander__title">Glassnode：稳定币主导地位重新转向Tether，投机兴趣导致BTC爆炸性反弹</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35589">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>投资者的反应有点类似于后FTX环境，将稳定币净转移到交易平台，而不是托管BTC和ETH。</span>
                             </span>
                           </div>
                         </a>
@@ -8944,69 +9301,6 @@ FDIC确认，截至2022年12月31日，硅谷银行的总资产约为2090亿美�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/0k5e1ngg.html"
-                        open
-                      >
-                        <summary class="article-expander__title">硅谷银行1619亿美元存款中93%没有保险</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/0k5e1ngg.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月10日消息，据彭博社报道，根据最近的一份监管文件，硅谷银行（SVB）1610 亿美元存款中有 93% 是没有(存款)保险的。另据华尔街日报报道，硅谷银行邀请咨询公司 Centerview 与律师事务所 Sullivan &amp; Cromwell LLP 商谈出售事宜。值得一提的事，Sullivan &amp; Cromwell 也是负责处理FTX破产案律师事务所。
-此前CNBC报道，硅谷银行(SIVB.O)筹集资金的尝试已经失败，公司正在进行自我出售的谈判。
-相关阅读：硅谷银行爆了，硅谷“炸了”</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/1gvlsv5p.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国财长耶伦：由于硅谷银行事件，财政部正在对几家银行进行监控</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/1gvlsv5p.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月10日消息，据金十报道，硅谷银行金融集团告诉员工，公司正在讨论银行的下一步措施，员工在家工作，直到另行通知。美国财长耶伦表示，由于硅谷银行事件，财政部正在对几家银行进行监控。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ws2etkuo.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美参议员：监管机构对为加密银行的打击可能会“惩罚整个行业”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ws2etkuo.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月10日消息，据CoinDesk报道，四名共和党参议员在致多家美国监管机构的一封信中表示，监管机构对为加密货币行业参与者服务的银行的打击力度越来越大，可能会“惩罚整个行业”。打击加密货币行业可能超出监管机构的授权范围，类似于此前通过监管金融体系对合法枪支供应商进行的打击。他们还要求监管机构在3月24日之前做出回应。
-信中向美联储、美国货币监理署（OCC）以及美国联邦存款保险公司相关负责人表示：“我们尤其担心，银行监管机构的过度行为将不可避免地影响到其他合法行业，基于某个特定监管机构的意识形态角度，任何行业都有可能‘不受欢迎’……少数人的问题不应该导致许多人的伤害，监管机构不应该惩罚整个行业。”</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9422,8 +9716,8 @@ MPC 技术将密钥进行分片，用户和托管方各持一部分，使用钱
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4422387281">
-        <time id="build-timestamp" datetime="2023-03-15T03:09:00.400Z">2023-03-15T03:09:00.400Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4422700261">
+        <time id="build-timestamp" datetime="2023-03-15T04:09:27.183Z">2023-03-15T04:09:27.183Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
