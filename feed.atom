@@ -2,10 +2,101 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-15T08:11:11.410Z</updated>
+    <updated>2023-03-15T09:08:15.297Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[深入了解Synthetix V3：功能、优势和未来计划]]></title>
+        <id>https://www.odaily.news/post/5185754</id>
+        <link href="https://www.odaily.news/post/5185754"/>
+        <updated>2023-03-15T08:44:23.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《What is Synthetix V3?》
+原文作者：Matt Losquadro，Synthetix 
+原文编译：Kxp，BlockBeats
+Synthetix V3 代表了该协议的一个重要里程碑，因为它正在经历一次彻底的改革，以成为下一代链上金融产品的无需许可衍生品流动性平台。
+在这篇文章中，我们将更深入地了解 Synthetix V3，以及它与当前系统的区别，包括其成为任何衍生品市场可以构建的流动性层的目标。我们还将探讨 Synthetix V3 的功能和优势，以及其发布的分阶段推出计划。这篇文章将作为构建其他内容的基础性文章，那么就让我们开始正文内容吧。
+什么是 Synthetix？
+Synthetix 是一个去中心化流动性层，基于 Ethereum 和 Optimism，为 DeFi 中一些最令人兴奋的协议提供流动性后端支持。
+质押者提供流动性，用以担保一系列合成资产，并因此获得奖励和市场收益。这种流动性为合成资产和永续期货的交易提供了预言机价格的保证，消除了对传统订单簿和交易对手方的需求。因此，流动性在市场之间变得可组合和可替代，且传统的滑点得以消除。
+Synthetix 流动性目前支持两种主要的合成资产，即现货合成品和永续期货：
+· 现货合成品跟踪实际资产（如 Crypto、法定货币和大宗商品）的价值，从而让用户无需持有基础资产就能获得多种资产的敞口
+· Perp 是一个去中心化的永续期货交易平台，利用 Synthetix 流动性作为交易者的对手方，提供深度流动性和低手续费。质押者（Perp LP）将承担所有交易者的综合表现的风险，同时还能赚取交易费。
+· 链下预言机将手续费降至 5-10 个基点，风险管理工具确保长期的市场中立性。
+· 资金费率和溢价/折价机制激励交易者平衡市场以达到 delta 中性。
+由于 Synthetix 支持强大的流…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeFi叙事再起，盘点几个“低风险、高收益”的farming机会]]></title>
+        <id>https://www.odaily.news/post/5185752</id>
+        <link href="https://www.odaily.news/post/5185752"/>
+        <updated>2023-03-15T07:33:49.000Z</updated>
+        <summary type="html"><![CDATA[本文来自：The DeFi Investor，编译：Odaily星球日报 Azuma
+本文内容系 The DeFi Investor 推文的编译与补充，并不代表 Odaily 星球日报的观点，也不构成投资建议，还请大家自行分析判断。
+
+
+DeFi 又迎来了收益耕作（yield farming）的好季节。
+如果你正在寻找稳定币以及主流资产的高收益机会，请不要错过这篇 thread，我将在接下来分享一些不错的 DeFi farming 方案。
+需要特别申明的一点是，在 DeFi 世界中进行 yield farming 不可能完全脱离风险，智能合约漏洞、rug pulls、无常损失……这些潜在的风险会永远存在。 你应该做的是正视风险，并正确地管理风险 —— 分散资金，不要把鸡蛋都放在一个篮子里。
+1. Convex Finance，pETH - ETH pool
+
+pETH 是一种由 JPEG'd Protocol 发行的 ETH 衍生资产。用户可在 JPEG'd Protocol 上抵押自己的 NFT 并借出 pETH，从而释放其 NFT 价值的流动性。
+当前，如果你在 pETH - ETH 池中的存入流动资金，并将相应的 LPs 代币质押在 Convex Finance 上，即可获得 28% 的 APY 奖励。
+
+
+由于 pETH 的价格锚定 ETH，所以该池基本没有无常损失风险。
+该池的主要风险在于，由于 pETH 的价值由用户抵押的 NFT 所支撑，所以当作为抵押品的 NFT 价格大规模崩溃时，JPEG'd Protocol 如果未能有效清算则将产生坏账。这一可能性并不高，但如果发生这种情况，pETH 可能会脱离锚定。
+2. Vela，VLP
+自上个月上线以来，去中心化衍生品交易所 Vela 的交易量已超出了所有人的预期。
+VLP 是 Vela 上的流动性凭证代币，可使用 USDC 铸造生成。VLP 铸造者将会基于 Vela 的交易量获得奖励，目前的质押 APY 大于 120% ，其中包括  60% 的平台费用收益和 10% 的资金费率收益。
+
+需要注意的是，由于 Vela 的运行机制本质上是在撮合交易者与流动性提供者（VLP 铸造者）对赌，所以如果交易者总是获胜，VLP 质押者将会蒙受损失。不过，只要平台的交易量保持高位，VLP 都会是一个不错的 USDC 生息机会。 
+鉴于 Vela 团队已预告了接下来的一连串动作（交易竞赛、测试阶段空投、正式上线等等），该平台的交易量有望继续增长。
+3. StakeDAO，frxETH
+这是 ETH 的另一个高额收益机会，年化收益率约为 22% 。
+frxETH 是由 Frax Finance 推出的的流动性质押衍生代币，其收益主要来源于 Frax Finance 利用手中的巨额 veCRV 投票权，在 Curve 流动性池内争取到的 CRV 激励。
+
+
+如果你将 frxETH 存入 Stake DAO，该协议会将其存入 Curve gauge,，并通过锁定在 CRV Liquid Locker 中的 CRV 来进一步提高激励。
+根据 DeFiLlama 的数据，该池在过去 30 天内平均 APY 为 15% 。
+
+4. Velodrome，LUSD - MAI pool
+过去几天的闹剧证明了一件事情，那就是我们需要真正去中心化的稳定币，而不是依赖于 USDC 等中心化稳定币。LUSD 和 MAI 均属于此类，其中 LUSD 仅可通过抵押 ETH 铸造生成。
+
+
+当前，该策略的收益率为 17.5% ，过去 7 天的平均 APY 则为 14% 。没有前几个那么高，但至少 LUSD 和 MAI 作为稳定币似乎是“稳定”的。
+这便是我近期所整理的，随着时间推移已被证明相对安全的一些高额收益机会。]]></summary>
+        <author>
+            <name>Azuma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全面解读OpenAI推出的多模态GPT-4：准确性提高，支持微软新款必应]]></title>
+        <id>https://www.odaily.news/post/5185753</id>
+        <link href="https://www.odaily.news/post/5185753"/>
+        <updated>2023-03-15T07:24:56.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《 重磅突发！OpenAI 正式推出多模态 GPT-4 》
+原文作者：OpenAI&TheVerge&Techcrunch
+原文编译：阿法兔研究笔记
+亮点  
+GPT-4 可以接受图像和文本输入，而 GPT-3.5 只接受文本。
+GPT-4 在各种专业和学术基准上的表现达到 "人类水平"。例如，它通过了模拟的律师考试，分数约为应试者的前 10% 。
+OpenAI 花了 6 个月的时间，利用从对抗性测试项目以及 ChatGPT 中获得的经验，反复调整 GPT-4 ，结果在事实性、可引导性和可控制方面取得了 "史上最佳结果"。
+在简单的聊天中，GPT-3.5 和 GPT-4 之间的区别可能微不足道，但是当任务的复杂性达到足够的阈值时，区别就出来了，GPT-4 比 GPT-3.5 更可靠，更有创造力，能够处理更细微的指令。
+GPT-4 能对相对复杂的图像进行说明和解释，比如说，从插入 iPhone 的图片中识别出一个 Lightning Cable 适配器（下文有图片）。
+图像理解能力还没有向所有 OpenAI 的客户开发，OpenAI 正在与合作伙伴 Be My Eyes 进行测试。
+OpenAI 承认，GPT-4 并不完美，仍然会对事实验证的问题产生错乱感，也会犯一些推理错误，偶尔过度自信。
+开源 OpenAI Evals, 用于创建和运行评估 GPT-4 等模型的基准，同时逐个样本检查其性能。
+官宣文档
+OpenAI 已经正式推出 GPT-4 ，这也是 OpenAI 在扩大深度学习方面的最新里程碑。GPT-4 是大型的多模态模型（能够接受图像和文本类型的输入，给出文本输出），尽管 GPT-4 在许多现实世界的场景中能力不如人类，但它可以在各种专业和学术基准上，表现出近似人类水平的性能。  
+例如：GPT-4 通过了模拟的律师考试，分数约为全部应试者的前 10% 。…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[赵长鹏：币安将零费用BTC交易从BUSD转移到TUSD]]></title>
         <id>https://panewslab.com/zh/articledetails/azff88vv.html</id>
