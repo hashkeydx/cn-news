@@ -2,10 +2,421 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-15T11:07:34.194Z</updated>
+    <updated>2023-03-15T12:15:03.933Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[安全公司Salus：GPT3.5给出的合约漏洞分析多为误报，其对专业的审计工作并没有实质性帮助]]></title>
+        <id>https://panewslab.com/zh/articledetails/0ew9ga27.html</id>
+        <link href="https://panewslab.com/zh/articledetails/0ew9ga27.html"/>
+        <updated>2023-03-15T11:55:21.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，区块链安全公司Salus Security团队对Coinbase主管Conor Grogan推文中使用的GPT4（实际是GPT3.5）给出的合约漏洞分析进行了验证，发现多为误报：1. 对于结果的第一点 "The contract is based on a Ponzi scheme"，可能是因为被检测合约的名称为 PonziTokenV3。2. 对于第二点，withdraw() 函数和sellMyTokensDaddy()函数都遵循了 CEI 模式，不存在重入风险。3. 第三点说的内容并不合理。4. 对于第五点，这是条误报，而且把可能出现的逻辑分支说错了，在 tokens ！= totalSupply 才有除法操作。
+Conor使用GPT4重新进行了测试，发现GPT4不再报出具体的漏洞（因为多为误报），而是对代码和注释进行检查。GPT4修正了这一点，更侧重于代码格式和注释，对于复杂、专业的审计工作并没有实质性帮助。尽管如此，Salus 认为这仍是AI史上重大的技术突破，期待并正在研究该工具在审计工作中的进一步用途，如辅助进行合约内容提炼和污点分析路径枚举等。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[STEPN开发商Find Satoshi Lab将推出针对Solana链的NFT生成工具GNT]]></title>
+        <id>https://panewslab.com/zh/articledetails/8b6ft4ol.html</id>
+        <link href="https://panewslab.com/zh/articledetails/8b6ft4ol.html"/>
+        <updated>2023-03-15T11:45:22.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，Move to Earn 应用 STEPN 背后开发商 Find Satoshi Lab 宣布将推出针对 Solana 链的 NFT 生成工具（AIGC产品）GNT。GNT可提供在多链 NFT 市场 MOOAR 上创建和铸造 NFT 的一站式服务，GNT alpha 测试版将在未来几天内可用，并且限时免费试用，未来创作者将需要燃烧 GMT 来生成和铸造 NFT。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SafeDAO关于“重新分配未申领SAFE空投”的提案进入快照投票阶段]]></title>
+        <id>https://panewslab.com/zh/articledetails/0sw4h4to.html</id>
+        <link href="https://panewslab.com/zh/articledetails/0sw4h4to.html"/>
+        <updated>2023-03-15T11:08:29.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，数字资产管理平台 Safe（原 Gnosis Safe）治理社区 SafeDAO 就关于“重新分配未申领 SAFE 空投”的提案 SEP #5 将从第 1 阶段（论坛讨论）转移到第 2 阶段（快照投票）。提案内容显示，处理类型分为两种：1.将该部分代币按比例分配给已经领取空投的用户。2.探索分配的其他想法（包括但不限于为符合初始领取条件但尚未领取的用户设置新的截止日期）。
+此前报道，SafeDAO正讨论如何分配在空投中未被领取的3200万枚SAFE代币。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tari Labs就Taro协议赢得了针对Lightning Labs的限制令]]></title>
+        <id>https://panewslab.com/zh/articledetails/865thx55.html</id>
+        <link href="https://panewslab.com/zh/articledetails/865thx55.html"/>
+        <updated>2023-03-15T10:54:39.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，据The Block报道，区块链初创公司 Tari Labs 就其 Taro 协议和平台赢得了针对比特币开发商 Lightning Labs 的临时限制令。该裁决意味着 Lightning Labs 将无法对 Taro 协议进行更新或宣布协议的进一步发展。
+Tari Labs 此前对 Lightning Labs 提起了侵犯版权的诉讼，声称 Lightning Labs 的 Taro 协议和平台与其自己的商标相似，并提供类似的服务。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深挖链上数据，Arbitrum的收入和资金流向了哪些协议？]]></title>
+        <id>https://www.odaily.news/post/5185759</id>
+        <link href="https://www.odaily.news/post/5185759"/>
+        <updated>2023-03-15T10:38:07.000Z</updated>
+        <summary type="html"><![CDATA[Arbitrum 生态系统正在起飞，数据分析师 @defi_mochi 使用 Flipside （一种高定制化的数据开发工具，有较高的自由度，可显示特定链的关键经济指标，以跟踪其健康状况和总体参数）分析了所有 DefiLlama 上 Arbitrum 的数据。以下内容由 Odaily星球日报经过整理编译，可以让你对 Arbitrum 的整个生态系统有一个更清晰的认知。
+
+我们在 2 月份看到有两笔巨款存入 Arbitrum，这笔存款余额超过 4.5 亿美元，我怀疑这是由于交易所上币以及大量 Fomo 资金进入 Arbitrum 生态系统造成的。
+由于最近市场影响，虽然进入 Arbitrum 的资金总体上是有所上升，但是桥接存款略有下降。从下图中能够很明显的看到，桥接存款从 10 亿美元上方下降至 2 亿美元下方，跌幅超 80% 。
+
+但是在恐慌时期，Arbitrum 上的 DEX 和期权交易量都有所增加，且期权交易量增加导致 GMX 活动也有所上升。又由于 USDC 和 USDT 的套利，DEX 交易量的涨幅显著。可以看到 3 月 11 日，DEX 和期权交易量都达到了一个高峰，二者交易量都超过了 8 亿美元，与过去几个月的数据对比，增幅较大。
+这种巨大的活动和桥接存款使 Arbitrum 的 TVL 飞升至 20 亿美元，并达到 ATH。那么这些收入和资金流向了哪里？
+根据 DefiLlama 数据，Arbitrum 的手续费市场份额有 70% 被 GMX 压倒性地占据，Gains Network 在 12 月下旬推出后也已经占据了 7% 的手续费。
+除了 Arbitrum 自己收取的费用外，收取费用排名前 5 的协议占据的市场份额如下：
+1. 为大型交易者创建去中心化加密货币衍生品和现货交易所的 GMX ，占比 70.84% ，也是 Arbitrum 上的龙头 DEX 衍生品。
+2. Arbitrum 自己收取的费用占比 11.25% 。
+3. 提供加密货币和外汇交易选项，并提供杠杆交易的去中心化永续合约交易平台 Gains Network，占比 7.88% 。
+4. 提供了 WBTC 和 ETH 期权购买服务的链上期权平台 Hegic，占比 3.5% 。
+5. 提供零滑点和高达 100 倍杠杆的去中心化杠杆交易协议 MUX Protocol，占比 1.31% 。
+此外，还有 Solidlizard、Zyberswap、Premia 等协议。
+从数据中我能够发现哪些协议可以深度参与。因此我又根据 Arbitrum 上的每个协议的月度费用数据创建了此表，月度变化以百分比为单位，对我来说最突出的协议是：
+1. Lyra，与 GMX 集成的期权协议，曾获 Framework Ventures 和 GSR 参投的 300 万美元融资。上个月，它的费用增加 276% 。
+2. ZyberSwap，结合 Uniswap V2 和 Curve 的 DEX ，上个月费用增加 556% ，但是其代币曾在一月底经历死亡螺旋至接近归零，得益于 Layer 2 上 DeFi 复苏，近期势头明显。但是也要注意，虽然 ZyberSwap 的成交量似乎正在回升，但 TVL 到目前为止仍然停滞不前。大部分交易量来自他们稳定的交易对 USDT/DAI/USDC。
+3. Arbitrum，上个月费用增加 114% 。
+
+
+从这些协议的每周数据分析得出，Lyra 的表现令人印象深刻，过去一周增长了近 76% 。此外，由于受 USDC 脱锚事件的影响，诸如 ZyberSwap 之类的项目也都有明显的增长势头。
+
+但我还是对 Lyra 很好奇，于是去 Tokenterminal 上查看了它的全部数据，各方面都有惊人的增长：
+
+1. TVL：上涨 20% 至 3586 万美元。
+2. 价格/费用： 4.33 美元 (下降 31.7% )。
+3. 年化交易量在近期暴涨的基础上又上涨了 20% 。
+
+因此，我个人非常看好这一基本面的上升趋势。以上是@defi_mochi 的数据分析，并不代表 Odaily星球日报的观点，也不构成投资建议，还请大家自行分析判断。]]></summary>
+        <author>
+            <name>十文</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A&T Capital：以太坊MEV提取机制的现状、问题与改进]]></title>
+        <id>https://www.odaily.news/post/5185758</id>
+        <link href="https://www.odaily.news/post/5185758"/>
+        <updated>2023-03-15T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者： Liam，A&T Capital
+01 概要
+TL; DR
+MEV 是指通过按照某特定顺序执行 N 笔交易，为设计这套顺序的主体带来的经济利益。凡涉及交易排序，MEV 的产生几乎不可避免，如何规范 MEV 提取对区块链网络的去中心化性和抗审查性是至关重要的。
+以太坊合并后，MEV 的提取与分配由 Flashbots 提出的 MEV-Boost 体系所主导。MEV 利润流向了四类主体，MEV 搜寻者（Searcher）、区块建设者（Block Builder）、区块提议者（Block Proposer\Validator）和以太坊网络本身。
+从 MEV 为整个系统带来的后果看，可以分为有益的、中性的和有害的三类。如何避免有害的 MEV 提取与如何分配有利的和中性的 MEV 利润是 MEV 赛道下项目要解决的核心问题。
+现存的私有 RPC 解决方案是基于信任假设的，用户的交易仍可能被泄露、被抢跑，甚至还可能被审查，并且部分区块建设者对私有订单流的垄断地位会使得 MEV 提取变得更不透明、更中心化。
+MEV-Boost 体系的 MEV 利润分配方案中，并没有考虑用户的利益。用户作为创造 MEV 提取机会的角色，保障他们的合理利益不被侵犯只是最基本的，不应该只保障他们的交易不被抢跑，也应该将一部分 MEV 利润返还。
+要解决“抢跑”问题，应该借助加密技术。基于“加密-排序-解密-执行”，将用户的交易在本地加密，在不被任何人读取交易内容的情况下完成排序共识，再解密内容，最后按已共识的排序执行交易。
+除了将 MEV 利润分配给“发现 MEV 机会的搜寻者”、“建设最高价值区块的建设者”、“拥有产出新区块权利的提议者”外，也应该分配给“创造 MEV 机会的普通用户”。
+02 正文
+一、MEV 有哪些利益相关者？
+* 什么是 MEV？MEV 在不同语境下所指的内涵并不完全相同，…]]></summary>
+        <author>
+            <name>A&amp;#38;T Capital</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[谁能在竞争激烈的Layer2赛道脱颖而出？]]></title>
+        <id>https://www.theblockbeats.info/news/35629</id>
+        <link href="https://www.theblockbeats.info/news/35629"/>
+        <updated>2023-03-15T10:26:03.000Z</updated>
+        <summary type="html"><![CDATA[以太坊是全球第二大区块链，多年来一直面临着扩容难题。随着越来越多的去中心化应用程序（Dapp）在该平台上建立，处理越来越多的交易和数据存储需求，变得比以往任何时候都更为紧迫。这就是以太坊第二层解决方案（即「Layer2」或「L2」）的作用。这些解决方案旨在为建立在以太坊上的 Dapp 提供可扩展，高效且低成本的基础架构。
+
+
+本文将比较 5 种最受欢迎的以太坊第二层解决方案，包括 Arbitrum、Optimism、Loopring、zkSync 和 Aztec Network。我们将仔细研究每个解决方案的独特功能，优缺点以及应用场景。
+
+
+
+
+
+Layer2 的概念
+
+
+随着区块链技术的发展，人们开始提出了一种新的概念——「Layer2」。那么，Layer2 是什么呢？
+
+
+Layer2 是区块链技术中的一个重要概念，它是指在区块链的基础上，通过构建一层新的协议，来增加区块链的处理能力和交易速度。简单来说，就是在区块链之上再额外加上一层「高速公路」，让交易更快更便捷。
+
+
+与传统的 Layer1（比特币、以太坊等）不同，Layer2 协议不会对底层区块链进行任何修改，而是通过在上层建立协议来实现高速交易。因此，Layer2 协议可以数十倍地大幅提升区块链的交易速度，同时还可以非常显著地降低交易成本。
+
+
+Layer2 协议的优点在于，它可以处理更多的交易，同时也可以保证交易的安全性和可靠性。此外，由于 Layer2 协议是基于现有的区块链技术之上构建的，因此它的开发和部署成本相对较低，更容易被广泛应用。
+
+
+Layer2 协议的应用也非常广泛。这些协议的出现，不仅解决了区块链处理能力不足的问题，还为区块链的大规模应用提供了可能。总之，Layer2 是区块链技术的重要发展方向，它可以为区块链带来更高效、更安全、更便捷的交易体验，为区块链的发展注入了新的活力和动力。
+
+
+
+
+…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[孙宇晨地址将4130万枚DAI兑换为USDC，并将1亿枚USDC转移至Coinbase]]></title>
+        <id>https://panewslab.com/zh/articledetails/0w2yv9p6.html</id>
+        <link href="https://panewslab.com/zh/articledetails/0w2yv9p6.html"/>
+        <updated>2023-03-15T10:23:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，PeckShield 监测显示，孙宇晨地址将 4130 万枚 DAI 兑换为 USDC 并转移至 0x30df 开头的中间地址，该地址在过去 17 小时内已将 1 亿枚 DAI 兑换为 USDC 并转入 Coinbase。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第四届巴黎区块链周官方战略合作伙伴Gridex平台币GDX已于今日上线D5交易平台]]></title>
+        <id>https://www.theblockbeats.info/news/35628</id>
+        <link href="https://www.theblockbeats.info/news/35628"/>
+        <updated>2023-03-15T10:15:57.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：
+
+Gridex
+
+
+
+Gridex 将作为第四届巴黎区块链周活动的官方战略合作伙伴，将受邀出席 2023 年巴黎区块链周并发表演讲。2023 年巴黎区块链周将于 3 月 20 日-24 日在巴黎卢浮宫卡鲁塞尔举行，作为全球最有影响力的区块链活动之一，本届会议将迎来 10,000 多位来自业界顶尖机构的专业人士，其中包括 400 多名演讲嘉宾，400 多位媒体记者以及众多机构的高级管理层代表。众多业界大咖将分析当前市场趋势和发表见解，其中包括 Goolge、AWS、Coinbase、Nasdaq、Solana、Ripple、Certik 等知名机构。
+
+
+此次大会，Gridex 将作为重要合作伙伴之一，其团队核心成员将参与一系列的现场活动，包括现场峰会以及黑客马拉松等。Gridex 的技术负责人 Ali Al-Ali 还将在巴黎区块链周的峰会活动期间发表演讲，探讨如何使用链上订单簿交易协议推动全球 DeFi 的应用与发展。巴黎区块链周包含几大活动板块：Summit、Web3XP、黑客马拉松以及 Talent Fair。
+
+
+黑客马拉松活动于 3 月 17 日-19 日在巴黎 Supinfo 学校举行，将在为期三天的比赛时间内选出三个最佳创新项目。获胜的三个团队将分别获得 Gridex Protocol、Ripple 以及 Solana 提供奖励。此外，所有获奖者还将获得价值 2100 欧元的巴黎区块链周峰会（PBWS）的门票。
+
+
+此外，Gridex 今日已在 D5 Exchange 正式上线 GDX。与此同时，Gridex 还推出关于 GDX/ETH 交易对的 Maker Rewards 活动，用户可通过挂单交易、挂单+Swap 以及邀请其他用户参与交易获得返佣等方式获取奖励资格，分享总奖池为 54,000,000 GDX 的奖励，即刻访问活动官网参与吧！
+
+
+
+
+
+关于 Gridex Protocol 
+
+
+Gridex Protocol 是以太坊生态系统中第一个完全基于链上的订单簿交易协议，支持用户无需授权自主创建任意交易对，通过自研发的 Grid Maker Order Book（GMOB）机制和 Grid Price Linear Movement（GPLM）算法，解决了将 CEX 基于撮合引擎的匹配算法引入链上的高成本问题以及传统 DEX 基于 AMM 带来的 Maker 无常损失和滑点问题，为用户提供 CEX 般流畅的交易体验的同时，保障了用户资产的链上透明性。
+
+
+Gridex 致力于成为区块链行业的革新者，通过技术和创新为用户带来变革性的产品，并成为区块链行业的引领者。Gridex 为了全面保障用户的资产安全，采用了头部区块链安全公司 CertiK 的审计服务，从智能合约到整体安全架构都得到了全面的保障。Gridex 不仅专注于技术创新和产品的推陈出新，还在全球范围内加速拓展生态伙伴，未来将会与业内同行展开更多的交流与合作，并且为客户带来更进一步的出色产品体验。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[离岸人民币稳定币项目CNHC完成1000万美元A+轮融资，KuCoin Ventures领投]]></title>
+        <id>https://panewslab.com/zh/articledetails/ixioo7s8.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ixioo7s8.html"/>
+        <updated>2023-03-15T10:04:21.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，据The Block报道，与离岸人民币 1:1 挂钩的 CNHC 稳定币的发行人 CNHC Group 筹集了 1000 万美元的资金。KuCoin Ventures 领投，其他投资者包括 Circle 和 IDG Capital。有了新的资金，CNH​​C 旨在扩大其稳定币的采用，尤其是在亚太地区。为此，该公司正将总部从开曼群岛迁至香港。CNHC 还计划通过招聘跨职能部门（包括运营、合规和业务发展）来增加其约 60 人的团队。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeFi叙事再起，盘点几个「低风险、高收益」的farming机会]]></title>
+        <id>https://www.theblockbeats.info/news/35627</id>
+        <link href="https://www.theblockbeats.info/news/35627"/>
+        <updated>2023-03-15T09:49:30.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《
+
+DeFi 叙事再起，盘点几个「低风险、高收益」的 farming 机会
+
+》
+原文来源：The DeFi Investor
+原文编译：Azuma，Odaily 星球日报
+
+
+本文内容系 The DeFi Investor 推文的编译与补充，并不代表 Odaily 星球日报的观点，也不构成投资建议，还请大家自行分析判断。
+
+
+
+
+
+
+DeFi 又迎来了收益耕作（yield farming）的好季节。
+
+
+如果你正在寻找稳定币以及主流资产的高收益机会，请不要错过这篇 thread，我将在接下来分享一些不错的 DeFi farming 方案。
+
+
+需要特别申明的一点是，在 DeFi 世界中进行 yield farming 不可能完全脱离风险，智能合约漏洞、rug pulls、无常损失……这些潜在的风险会永远存在。你应该做的是正视风险，并正确地管理风险——分散资金，不要把鸡蛋都放在一个篮子里。
+
+
+1. Convex Finance，pETH - ETH pool
+
+
+
+pETH 是一种由 JPEG'd Protocol 发行的 ETH 衍生资产。用户可在 JPEG'd Protocol 上抵押自己的 NFT 并借出 pETH，从而释放其 NFT 价值的流动性。
+
+
+当前，如果你在 pETH - ETH 池中的存入流动资金，并将相应的 LPs 
+
+Token
+
+质押在 Convex Finance 上，即可获得 28% 的 APY 奖励。
+
+
+
+
+
+由于 pETH 的价格锚定 ETH，所以该池基本没有无常损失风险。
+
+
+该池的主要风险在于，由于 pETH 的价值由用户抵押的 NFT 所支撑，所以当作为抵押品的 NFT 价格大规模崩溃时，JPEG'd Protocol 如果未能有效清算则将产生坏账。这一可能性并不高，但如果发生这种情况，pETH 可能会脱离锚定。
+
+
+2. Vela，VLP
+
+
+自上个月上线以来，去中心化衍生品交易平台 Vela 的交易量已超出了所有人的预期。
+
+
+VLP 是 Vela 上的流动性凭证Token，可使用 USDC 铸造生成。VLP 铸造者将会基于 Vela 的交易量获得奖励，目前的质押 APY 大于 120% ，其中包括  60% 的平台费用收益和 10% 的资金费率收益。
+
+
+
+
+
+需要注意的是，由于 Vela 的运行机制本质上是在撮合交易者与流动性提供者（VLP 铸造者）对赌，所以如果交易者总是获胜，VLP 质押者将会蒙受损失。不过，只要平台的交易量保持高位，VLP 都会是一个不错的 USDC 生息机会。 
+
+
+鉴于 Vela 团队已预告了接下来的一连串动作（交易竞赛、测试阶段空投、正式上线等等），该平台的交易量有望继续增长。
+
+
+3. StakeDAO，frxETH
+
+
+这是 ETH 的另一个高额收益机会，年化收益率约为 22% 。
+
+
+frxETH 是由 Frax Finance 推出的的流动性质押衍生
+
+Token
+
+，其收益主要来源于 Frax Finance 利用手中的巨额 veCRV 投票权，在 Curve 流动性池内争取到的 CRV 激励。
+
+
+
+
+
+
+如果你将 frxETH 存入 Stake DAO，该协议会将其存入 Curve gauge,，并通过锁定在 CRV Liquid Locker 中的 CRV 来进一步提高激励。
+
+
+根据 DeFiLlama 的数据，该池在过去 30 天内平均 APY 为 15% 。
+
+
+
+4. Velodrome，LUSD - MAI pool
+
+
+过去几天的闹剧证明了一件事情，那就是我们需要真正去中心化的稳定币，而不是依赖于 USDC 等中心化稳定币。LUSD 和 MAI 均属于此类，其中 LUSD 仅可通过抵押 ETH 铸造生成。
+
+
+
+
+
+当前，该策略的收益率为 17.5% ，过去 7 天的平均 APY 则为 14% 。没有前几个那么高，但至少 LUSD 和 MAI 作为稳定币似乎是「稳定」的。
+
+
+这便是我近期所整理的，随着时间推移已被证明相对安全的一些高额收益机会。
+
+
+原文链接]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币概念继续领涨，会炒比特币算稳项目吗？]]></title>
+        <id>https://www.theblockbeats.info/news/35626</id>
+        <link href="https://www.theblockbeats.info/news/35626"/>
+        <updated>2023-03-15T09:37:24.000Z</updated>
+        <summary type="html"><![CDATA[经历了硅谷银行事件之后，加密领域似乎正在找回对冲传统金融与货币系统的「初心」。从业者们纷纷反思，我们是否需要一个不依靠传统银行的加密原生稳定币。市场热点似乎也在找寻这样的项目，以太坊生态的 Frax、Liquity 协议市场炒作已经比较充分，那么随着比特币在这一波的暴力上涨，我们是否应该关注一下以比特币为币基稳定币项目呢？至少项目方已经在行动了，BlockBeats 整理近期的比特币算稳项目动态如下。
+
+
+Threshold
+
+
+
+
+3 月 14 日，隐私网络 Threshold Network 宣布基于 tBTC 的美元稳定币 thUSD 即将上线。该稳定币借鉴 Liquity 协议机制，以 tBTC（通过 Threshold Network 的跨链解决方案将比特币桥接至以太坊生成的衍生 Token）为抵押品生成美元稳定币 thUSD。
+
+
+
+
+HOPE
+
+
+
+
+3 月 13 日，前贝宝金融（Babel Finance）创始人 Flex Yang 推出以原生加密资产作为储备的分布式稳定币 HOPE。HOPE 在发展初期将由 BTC 和 ETH 作为支撑。HOPE 生态包括 HopeSwap、HopeLend、HopeConnect 与 HopeEcho 四个协议，提供交易、借贷、衍生品、合成资产功能。此外，该项目将推出激励与治理 Token LT（Light Token）以激励用户参与生态应用与治理。
+
+
+
+
+HOPE 早期通过锚定 BTC/ETH 从而进行铸造和销毁。在成长阶段，HOPE 价格将随着锚定物价格波动而波动，此时，可认为 HOPE 是 BTC 和 ETH 的 ETF，该方式有效避免了 Terra 死亡螺旋事件的发生。当足额储备甚至超额储备后，HOPE 将进入成熟期，价格将逐渐锚定 1 美元，直至成为稳定币。在保持生态稳定超额储备后，参与质押铸造 HOPE 的资产将进行投票扩充，如抗审查的稳定资产 Curve 3Pool LP Token、DAI 等都有机会成为质押物。
+
+
+
+
+NUSD
+
+
+
+
+3 月 9 日，Arthur 提出建立以比特币为币基的稳定币 NUSD（The Satoshi Nakamoto Dollar），NUSD 由比特币价值与一份「比特币与美元价值的反向永期互换协议的空单」组成，因此可以通过衍生品市场维持币值的稳定。同时，需要建立 NakaDAO，并由中心化交易平台提供永期互换协议的交易场所，以维持 NUSD 的正常运转。
+
+
+
+
+Arkadiko
+
+
+
+
+
+
+
+
+
+Arkadiko 是建立在 Stacks 智能合约上的一个开源、非托管的流动性协议，用户可以通过该协议抵押资产铸造稳定币 USDA 、赚取存款利息和在 Stacks 上借入资产。Arkadiko 的治理 Token 是 DIKO，可以通过抵押资产为池子添加流动性获得。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文了解SYMBIOGENESIS：游戏巨头Square Enix的NFT野心]]></title>
+        <id>https://www.odaily.news/post/5185757</id>
+        <link href="https://www.odaily.news/post/5185757"/>
+        <updated>2023-03-15T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Cookie，律动 BlockBeats
+如果您是一位游戏迷，那么一定不会对 Square Enix 感到陌生——「最终幻想」、「勇者斗恶龙」、「王国之心」乃至网游「魔力宝贝」，均出自 Square Enix 之手。
+SYMBIOGENESIS 在去年的 11 月 3 日由 Square Enix 官宣推出。现在，它终于要正式来到区块链世界中了。SYMBIOGENESIS 将是一个怎样的游戏？律动 BlockBeats 带您一探究竟。
+TL;DR
+
+游戏巨头的 NFT 野心
+Square Enix 现任 CEO Yosuke Matsuda 在今年年初致股东的信中提到，公司正在开发多款基于原创 IP 的区块链游戏。其实，Square Enix 对进军 NFT 届已经「蓄谋已久」。
+2020 年 5 月，Square Enix 公布的中期商业战略中，区块链游戏就已经被确定为了公司新的投资领域。2021 年 11 月，Square Enix 在一份财报对进入 NFT 与区块链游戏领域进行了讨论。2022 年，CEO Yosuke Matsuda 在新年信中表示，希望看到使用 NFT 技术的数字商品的价值能够与真实价值相匹配，从而使 NFT「变得像实物商品交易一样为大众所熟知」。
+除了本文介绍的 SYMBIOGENESIS，Square Enix 在区块链领域的动作还有许多。他们是日本游戏区块链 Oasys 的节点运营商，投资了专注融合比特币与游戏生态的协议 Zebedee，正在售卖具有 NFT 版本的实体「最终幻想 7 」游戏人物玩偶...
+Yosuke Matsuda 对区块链游戏雄心勃勃。但是，这名执掌 Square Enix 已接近 10 年的 CEO，可能即将失去对公司的控制。3 月 3 日，Square Enix 董事会拟议变更董事会主席为 Takashi …]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么Blur、OpenSea、Magic Eden在期待亚马逊卖NFT？]]></title>
+        <id>https://www.odaily.news/post/5185756</id>
+        <link href="https://www.odaily.news/post/5185756"/>
+        <updated>2023-03-15T09:23:36.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 The Block，原文作者：RT Watson，由 Odaily星球日报译者 Katie 辜编译。
+
+
+
+经过了一年多的预告，科技巨头亚马逊 NFT 平台上线正式进入倒计时。
+据外媒当地时间周一报道，亚马逊正准备在其网站上出售约 15 个系列 NFT。报道称，亚马逊宣布或将于 4 月 24 日推出其 NFT 平台“Amazon Digital Marketplace”，该平台将首先向美国客户提供服务，然后逐步推广至其他国家。Blur、OpenSea、Orange Comet 和 Magic Eden 的高管普遍看好“亚马逊销售 NFT”的大计划。
+市场对亚马逊 NFT 计划的猜测
+当世界上最大的零售商暗示它可能会加入 NFT 游戏时，很难不引发议论。从表面上看，许多现在的 NFT 领域顶级玩家也好奇，Web2 最大的成功故事如何复制或扩展到 Web3。
+Web3 娱乐服务商 Orange Comet 的首席执行官 Dave Broome 表示：“亚马逊 NFT 平台将是 NFT 和数字收藏品领域的游戏规则改变者。”Orange Comet 是一家多产的 NFT 工作室，其藏品与知名人士和知识产权有关，如奥斯卡奖得主演员安东尼·霍普金斯（Anthony Hopkins）、NBA 传奇人物斯科蒂·皮蓬（Scott Pippen）和 AMC 的《行尸走肉》（the Walking Dead）电视剧。Dave Broome 认为：“像亚马逊这样的公司进入市场，不仅有助于使 NFT 合法化，还提供了一个让大众进入Web3的机会。”
+虽然围绕数字资产市场的早期炒作大多出现在牛市泡沫期间，交易者从 CryptoPunks、Bored Ape Yacht Club 和 Doodles 等收藏中买卖价格昂贵的艺术 NFT，但星巴克和 Reddit 等老牌公司似乎在吸引首次采用区块…]]></summary>
+        <author>
+            <name>Katie 辜</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[慢雾余弦：GPT-4搞不定复杂的智能合约代码，但可作为审计辅助]]></title>
         <id>https://panewslab.com/zh/articledetails/1p16ag7i.html</id>
@@ -6784,52 +7195,6 @@ BTC 持有者结构类似上个熊市末期水平。近期市场反弹后，持
         <summary type="html"><![CDATA[PANews 3月11日消息，据The Block报道，一份破产文件显示，加密借贷平台BlockFi在硅谷银行持有2.27亿美元的未投保资金，且可能违反了美国破产法。负责监督BlockFi破产的美国信托人表示，由于上述2.27亿美元资金在货币市场基金中，因此不受FDIC保险。今年早些时候，美国信托人提醒BlockFi可能存在合规问题。BlockFi表示将提供合规证明 但截至FDIC接管硅谷银行，该公司仍未提供证明。BlockFi去年11月申请破产保护，其债权人包括FTX US和美国证券交易委员会（SEC）。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Circle：硅谷银行是其6个现金储备银行之一，当下USDC继续正常运作]]></title>
-        <id>https://panewslab.com/zh/articledetails/8486dpoq.html</id>
-        <link href="https://panewslab.com/zh/articledetails/8486dpoq.html"/>
-        <updated>2023-03-11T00:13:17.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月11日消息，稳定币发行商Circle发公告称，硅谷银行是 Circle 用于管理 USDC 现金储备的六家银行合作伙伴之一。在等待硅谷银行被联邦存款保险公司 FDIC 接管将如何影响其存款人的情况下，Circle 和 USDC 继续正常运作。
-据此前消息，Circle在硅谷银行持有一笔未披露的USDC现金储备。根据Circle截至3月9日的储备报告，该公司在受监管银行持有111亿美元的USDC现金储备，约占整体储备的25%。其合作银行包括纽约梅隆银行、Citizens Trust Bank、Customers Bank、New York Community Bank、Signature Bank、硅谷银行。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[每周编辑精选 Weekly Editors' Picks（0304-0310）]]></title>
-        <id>https://www.odaily.news/post/5185326</id>
-        <link href="https://www.odaily.news/post/5185326"/>
-        <updated>2023-03-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
-因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
-下面，来和我们一起阅读吧：
-
-投资与创业
-如何定义加密世界的原生基准利率？
-思考“无风险利率”，我们才会知道在加密市场中什么样的经济活动可能达到风险与收益相匹配。无风险利率是观测“公链国家”整体状况的一个视角，实际利率可以辅助判断生态的成熟程度，对投资策略也有一定的指导意义。与现实世界类似，加密世界中经济体越成熟，经济体提供的利率水平相对越低。
-
-
-通过简单观测 POS 收益率和 TVL 的排名，有利于部署不同的公链投资策略：对于稳健的投资者来说，应该寻找 POS 收益率偏低且实际 POS 收益率为正的公链项目作为标的库；对于激进的投资来说，或许盈亏比更大的项目在 POS 收益率偏高且实际 POS 收益率为负的公链中。
-另推荐一篇 to developer 的工具型文章：《ZK 开发者必读：从入门到高阶的可选工具》。
-DeFi
-
-一文梳理无常损失保护的 DeFi 协议，具体效果如何？
-根据采用的金融工具不同，金融风险转移策略可以分为：
-
-套期保值策略：套期保值策略主要是利用远期类合约来消除风险。
-
-风险转嫁策略：主要利用保险和期权类合约将风险转嫁给其他人。
-
-分散化策略：通过构造投资组合来减少总体风险。
-
-这就是无常损失保护协议的本质，以风险的转移为基石构造的 DeFi 协议。
-DeFi 的特洛伊木马，Uniswap 是一个期权市场？
-偏定义、理论、公式的一篇文章。
-判断流动性池表现需要考虑波动率。标的资产的波动率是决定期权价值…]]></summary>
-        <author>
-            <name>郝方舟</name>
         </author>
     </entry>
 </feed>
