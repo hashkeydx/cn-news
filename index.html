@@ -51,11 +51,168 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-15 datetime="2023-03-15T01:26:47.000Z">2023-03-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-15 datetime="2023-03-15T01:26:47.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-15 datetime="2023-03-15T02:46:11.000Z">2023-03-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-15 datetime="2023-03-15T02:46:11.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185741"
+                        open
+                      >
+                        <summary class="article-expander__title">Euler乐高的连锁反应：7个受波及的DeFi协议和6家「渎职」的审计公司</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185741">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Jaleel、0x22D，BlockBeats
+3 月 13 日下午 5 时，Euler Finance 疑遭黑客闪电贷攻击。Euler Finance 在本次黑客闪电贷攻击事件中的受损金额总计约为 1.97 亿美元，其中包括超 880 万枚 DAI、 849 枚 WBTC、 3400 万 枚 USDC 以及 8.5 万枚 stETH 等。对此，Euler Finance 随即回复正与安全专业人员及执法部门合作，Euler Finance 提出解决方案称，受到该漏洞影响的人将能够要求退款，金库剩余资金可以用于处理退款。
+黑客是如何攻击 Euler 的？目前哪些协议受到了影响？曾经为 Euler 提供审计的公司有哪些？BlockBeats 进行了简要梳理。
+攻击过程复盘：一个「违规者」和一个「清算者」
+Euler Finance 审计合作伙伴之一 Omniscia 发布了一份事后技术分析报告，对这次攻击进行了非常详细的分析，并指出被利用的漏洞源于 Euler 没有对进行捐赠的地址而进行适当的安全检查。
+该漏洞代码是在 eIP-14 中被引入的，eIP-14 协议引入了整个 Euler 生态系统中的多个更改。缺陷存在于 EToken 实现 ( EToken: donateToReserves feature ）所做的第一个更改中。于是攻击者利用了易受攻击的代码，允许它通过向协议的储备金捐赠资金来创建无担保的代币债务头寸，使得攻击者能够清算这些账户并从清算奖金中获利。
+具体地说，清算模块内部逻辑尝试还清违规者的全部债务，但如果拥有的抵押品无法满足预期还款收益率，则系统会默认使用用户拥有的任何其他抵押品。此代码块的假设状态是，当借款人拥有多种抵押品并且没收所有这些抵押品不会使违规者恢复偿付能力时，就会发生这种情况。 
+这种安全保障并不受捐赠机制的支持，该机制允许用户以杠杆…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185739"
+                        open
+                      >
+                        <summary class="article-expander__title">深度解读Filecoin虚拟机：工作原理、解锁的用例及其重要性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185739">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：Filecoin Network
+概述
+
+
+这篇博客文章解释了 Filecoin 虚拟机（FVM）的基本信息及它的重要性。此外，还介绍了应该如何评估和优先利用其将解锁的机会。
+
+首先，我们会解释 Filecoin 虚拟机是什么，以及 Filecoin 拥有可编程性后怎样为 Filecoin 经济体里的可组合产品和服务打下基础。
+
+其次，我们会引入一个框架，来将 FVM 虚拟机的潜在用例按其相关的机会领域进行分类。这个版块会讨论 FVM 虚拟机解锁的特定机会，以及风投资本、开发者、存储提供者和其他利益相关者如何评估和优先利用相关机会。
+
+在第三节，我们会探索 FVM 虚拟机如何让云服务商品化，让任何人都可以围绕数据相关产品和服务来创建和变现，从而充分释放和增强这万亿美元市值开放数据经济的全部潜力。
+
+最后，我们讨论了让数百个团队在 FVM 虚拟机上搭建应用的驱动力，以及了解 FVM 虚拟机最新消息的渠道。
+
+请注意，这篇博客文章是在之前的一些文章的成果上编写的，它们探索了 Filecoin 虚拟机在更广阔的 Filecoin 路线图里的角色（https://medium.com/tldrfilecoin/state-and-direction-of-filecoin-summarized-4b90c59e3cca）、它对 Filecoin 经济体的潜在影响（https://medium.com/tldrfilecoin/filecoin-tokenomics-understanding-an-advancing-economy-ef319632ffa8 ）、以及它在解锁开放数据服务经济新用例方面的潜力（https://medium.com/tldrfilecoin/business-models-on-the-fvm-23cd71fdd3f1）。你可能会发现这些文章…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185734"
+                        open
+                      >
+                        <summary class="article-expander__title">浅析MEV的发展现状及趋势</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185734">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>1、MEV 的定义、背景
+MEV（Maximum Extractable Value）是指通过在区块内重新排序、插入和审查交易从用户那里提取的价值，例如套利、清算等。最根本上可以理解为“在创建新区块时，通过调整 Tx 的排序从而获得的额外收益”。
+MEV 的概念最早是由 Phil Daian 在《Flash Boys 2.0 》中提出，在以太坊合并之前，MEV 主要由矿工捕获，因此当时也被称为“矿工可提取价值（Miner Extractable Value）”。MEV 的产生来源于，当用户在区块链上提交一笔交易时，该笔交易一般会先进入 Mempool 公开访问的待处理交易池中。套利者和矿工可以检索 Mempool，并从中找到获取 MEV 的机会。
+以太坊合并后，由于出矿机制的改变，MEV 供应链中的角色也有所改变。在 Danksharding 尚未实施之前，Flashbots 提出了 MEV-Boost 作为 PBS 在协议外的实践。Buider 专注于构建 Block，并尽可能实现每个 Block 的利益最大化，然后最有利可图的 Block 被提交给 Proposer。PBS 机制的实现使得区块链出块产业的利益产生了一些改变，同时促进了产业链上相关机构的专业化、商业化进程，也使得 MEV 供应链形成了新的格局。
+2、MEV 的供应链
+基于 MEV-Boost 的 Tx 上链流程如下图（图中浅绿色为 Tx 常规上链流程，白色模块为 MEV 的 Tx 上链流程）：
+
+来源：Flashbots
+与 Tx 常规上链流程相比，MEV 的 Tx 上链流程通过 Flashbots 的 MEV-Boost 实现了 PBS 的协议外实践，同时也使得 MEV 被 Searcher、Builder、Validator 这几个角色瓜分捕获。
+Searcher：一般是以下角色（套利和清算机器人、D…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185738"
+                        open
+                      >
+                        <summary class="article-expander__title">Filecoin虚拟机（FVM）在主网正式上线，Filecoin智能合约时代已经来临</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185738">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>今天，Filecoin 社区很高兴宣布，Filecoin 虚拟机（FVM）成功启动（http://fvm.dev/）。从 epoch 2, 683, 348 （3 月 14 日  3: 14 PM UTC ）开始，Filecoin 区块链已经可以通过 FVM 支持智能合约和用户可编程性。这将解锁开放数据经济的巨大潜力。
+这是在 Filecoin 的广阔路线图上值得纪念的一页。Filecoin 的愿景是将开放、公开可验证的特性带到支持数据经济的三大核心支柱（存储、计算、内容分发）。通过 FVM，开发者可以部署智能合约，并规划数据存储、治理和在公开市场变现的方式。当手机开始变得“智能”，编写和运行 app 应用的能力让设备的实用性远远超过出厂预置软件的功能。自由和创新的空间使智能手机开始掌控世界。与此类似，通过 FVM，开发者可以部署智能合约，并规划数据存储、治理和在公开市场变现的方式。
+FVM 的发布也启动了Filecoin 主要计划的（https://filecoin.io/blog/posts/the-filecoin-masterplan/）最后一环。该计划旨在将大规模数据计算和赋能网络级别应用的能力落地到这个世界上最大的去中心化存储网络。
+FVM 的发布也巩固了 Filecoin 作为支持开放数据经济L1层协议的独特地位。很多领先的Web3项目宣布了使用、支持或集成FVM来升级其服务的计划。
+
+为Web3解锁开放数据经济
+FVM 虚拟机不仅让我们离稳健、可用的去中心化云服务更近一步，还能让我们以前所未有的方式让数以千计的开发者、存储提供者、企业家和全球其他网络参与者拥有数据经济，并奖励个体在其中的贡献。例如，基于 prompt（提示）来生成特定艺术风格图片的 AI 工具Waterlily(https://www.waterlily.ai/)会使用 tokens 直接奖…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35589"
+                        open
+                      >
+                        <summary class="article-expander__title">Glassnode：稳定币主导地位重新转向Tether，投机兴趣导致BTC爆炸性反弹</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35589">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>投资者的反应有点类似于后FTX环境，将稳定币净转移到交易平台，而不是托管BTC和ETH。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -8850,27 +9007,6 @@ FDIC确认，截至2022年12月31日，硅谷银行的总资产约为2090亿美�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/61ks66tf.html"
-                        open
-                      >
-                        <summary class="article-expander__title">CNBC：硅谷银行的储蓄资金外流速度超过了其出售资产募集资金的进程</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/61ks66tf.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月10日消息，据CNBC报道，根据此前公布的计划条款，SVB金融集团计划出售12.5亿美元的普通股和另外5亿美元的可转换优先股。该集团还宣布与投资公司General Atlantic达成协议，出售5亿美元普通股，不过该协议将取决于另一笔普通股发行的完成。然而，该集团子公司硅谷银行的储蓄资金外流速度超过了其出售资产募集资金的进程。利息上涨、对经济衰退的担忧以及首次公开募股进程的放缓，都使得处于初创的企业更难筹集到更多现金，进而导致这些企业大量提取他们在硅谷银行等银行的存款。但华尔街分析师表示，SVB金融集团的问题似乎不太可能在整个银行体系中广泛蔓延。
-相关阅读：硅谷银行爆了，硅谷“炸了”</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9284,79 +9420,10 @@ MPC 技术将密钥进行分片，用户和托管方各持一部分，使用钱
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-10 datetime="2023-03-10T14:43:22.000Z">2023-03-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-10 datetime="2023-03-10T14:43:22.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PANews - 快讯</button>
-                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/2rlduyel.html"
-                        open
-                      >
-                        <summary class="article-expander__title">韩国金融服务委员会对该国的加密货币交易所进行“全面检查”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2rlduyel.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月10日消息，韩国最高金融监管机构金融服务委员会 (FSC) 已开始对该国的加密货币交易所进行“全面检查”。据Decenter称，金融服务委员会 (FSC) 特别希望调查 20 个没有交易法币 KRW 许可证的交易平台。预计检查将侧重于反洗钱协议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/qk1f6yv5.html"
-                        open
-                      >
-                        <summary class="article-expander__title">CNBC：硅谷银行正在进行自我出售的谈判</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qk1f6yv5.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月10日消息，据CNBC报道，硅谷银行(SIVB.O)筹集资金的尝试已经失败，公司正在进行自我出售的谈判。有大型金融机构正在考虑收购硅谷银行(SIVB.O)的可能性。
-刚刚硅谷银行（SIVB.O）盘前停牌，等待刊发消息。停牌前一度从跌 60% 拉升至涨 50%。随后硅谷银行盘前再度跌超50%。此前美国白宫经济顾问 Ramamurti 表示，财政部正在监测硅谷银行可能的传染风险。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4422034359">
-        <time id="build-timestamp" datetime="2023-03-15T02:07:05.199Z">2023-03-15T02:07:05.199Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4422387281">
+        <time id="build-timestamp" datetime="2023-03-15T03:09:00.400Z">2023-03-15T03:09:00.400Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
