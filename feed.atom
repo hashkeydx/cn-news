@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-16T02:08:01.408Z</updated>
+    <updated>2023-03-16T03:08:53.816Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -36,6 +36,54 @@
 该应用程序之前仅限于等候名单。目前新用户客户必须在设置过程中创建富达经纪账户才可使用。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅析MEV的发展现状及趋势]]></title>
+        <id>https://www.theblockbeats.info/news/35605</id>
+        <link href="https://www.theblockbeats.info/news/35605"/>
+        <updated>2023-03-16T01:30:02.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《
+
+浅析 MEV 的发展现状及趋势
+
+》
+原文作者： 0xCousin，IOBC Capital
+
+
+
+
+1、MEV 的定义、背景
+
+
+
+
+MEV（Maximum Extractable Value）是指通过在区块内重新排序、插入和审查交易从用户那里提取的价值，例如套利、清算等。最根本上可以理解为「在创建新区块时，通过调整 Tx 的排序从而获得的额外收益」。
+
+
+MEV 的概念最早是由 Phil Daian 在《Flash Boys 2.0》中提出，在以太坊合并之前，MEV 主要由矿工捕获，因此当时也被称为「矿工可提取价值（Miner Extractable Value）」。MEV 的产生来源于，当用户在区块链上提交一笔交易时，该笔交易一般会先进入 Mempool 公开访问的待处理交易池中。套利者和矿工可以检索 Mempool，并从中找到获取 MEV 的机会。
+
+
+
+
+以太坊合并后，由于出矿机制的改变，MEV 供应链中的角色也有所改变。在 Danksharding 尚未实施之前，Flashbots 提出了 MEV-Boost 作为 PBS 在协议外的实践。Buider 专注于构建 Block，并尽可能实现每个 Block 的利益最大化，然后最有利可图的 Block 被提交给 Proposer。PBS 机制的实现使得区块链出块产业的利益产生了一些改变，同时促进了产业链上相关机构的专业化、商业化进程，也使得 MEV 供应链形成了新的格局。
+
+
+2、MEV 的供应链
+
+
+
+
+基于 MEV-Boost 的 Tx 上链流程如下图（图中浅绿色为 Tx 常规上链流程，白色模块为 MEV 的 Tx 上链流程）：
+
+
+
+来源：Flashbots
+
+
+与 Tx 常规上链流程相比，MEV 的 Tx 上链流程通过 Flashbots 的 MEV-Boost 实现了 PBS 的协议外实践…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>
