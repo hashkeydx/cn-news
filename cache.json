@@ -2254,26 +2254,6 @@
           "wordCount": 1144,
           "title": "Bitget将在创新区首发上线IPOR",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/gzlkfkfx.html",
-          "author": "PA一线",
-          "description": "PANews 3月16日消息，推特用户@Rancune_eth发推文称，Shiba Inu推出的基于以太坊的Layer2网络Shibarium涉嫌抄袭Rinia，且团队并未更改链ID。此外，Rancune通过区块链浏览器发现项目团队已解锁价值500万美元的Shibarium代币BONE。\n社区成员Steve在Discord中写道：“链ID是任何区块链开发人员在部署区块链时首先寻找的最简单的东西，因为使用已经存在的ID是无用的，因为你的链无法正常工作，每个试图与你的链交互的人都会与其他链交互。为什么看起来Shibarium测试网已经拿走了Rinia测试网的起源文件，把名字从Rinia改过来了，但是忘记更改链ID？”\n开发人员和其他知名社区成员回应道：“绝对没有证据表明这是上个月推出的一个链的分叉，因为代码一直在分叉。此外，目前还无法证实这一点。”而另一位网络验证者表示：“即使部分代码在测试版中被使用了，也不意味着全部都是。对我来说，很怀疑这是一个没有任何改变的直接分叉。分叉和建立在已经建立的软件之上，是FOSS（自由和开源软件）所代表的核心基础。”",
-          "link": "https://panewslab.com/zh/articledetails/gzlkfkfx.html",
-          "publishedOn": "2023-03-16T05:04:58.000Z",
-          "wordCount": 1136,
-          "title": "推特用户：Shibarium涉嫌抄袭Rinia，团队已解锁500万美元的BONE",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/5s9n9qrj.html",
-          "author": "PA一线",
-          "description": "PANews 3月16日消息，Web3知识图谱协议0xscope发推表示，有人（0x2A开头的地址）向Euler黑客发送信息称，其全部积蓄（78枚wstETH）存在了Euler Finance中，请攻击者能返还90%或80%，然后攻击者向其发送了100枚ETH。目前已有其他地址效仿0x2A地址的行为。\n今日早些时候消息，Euler Finance攻击者转移约446万美元资金。",
-          "link": "https://panewslab.com/zh/articledetails/5s9n9qrj.html",
-          "publishedOn": "2023-03-16T04:55:50.000Z",
-          "wordCount": 1144,
-          "title": "0xscope：Euler黑客在链上收到某用户请求后向其发送了100枚ETH",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2690,16 +2670,6 @@
           "publishedOn": "2023-03-16T06:25:47.000Z",
           "wordCount": null,
           "title": "DAO聚合器ThePASS和BanklessDAO达成战略合作，以扩大双方在DAO生态影响力",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/35651",
-          "author": null,
-          "description": "该笔投资将推动Wallchain的Web3研究和开发计划，以实现收入增长、推出新的MEV解决方案。",
-          "link": "https://www.theblockbeats.info/news/35651",
-          "publishedOn": "2023-03-16T04:17:31.000Z",
-          "wordCount": null,
-          "title": "抗MEV解决方案供应商Wallchain获得由Cypher Capital领投的200万美元投资",
           "imageUrl": null
         }
       ]
@@ -3337,16 +3307,6 @@
           "publishedOn": "2023-03-16T06:57:26.000Z",
           "wordCount": 1862,
           "title": "「链上金融」or完全去中心化？一文探讨USDC脱锚后的DeFi发展路径",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5185774",
-          "author": "白泽研究院",
-          "description": "NFT 和 Web3 一直在掀起波澜，但对于加密新人来说，购买和存储它们的过程仍然需要简化。\n我记得第一次在 Uniswap 上交易时，我甚至不知道自己在做什么。创建一个加密钱包并将其连接到 DeFi 协议是一场噩梦。\n当前，用户与区块链特定智能合约交互的唯一方式是使用他们的 EOA（外部拥有账户）。从将资金发送到 DeFi 流动性池，到将 NFT 转移到市场以出售给其他账户，每一个行为仍然需要单独的交易签名。 \n虽然我们中的许多加密老手已经接受了这个过程，但初学者？当大多数人已经体验过传统银行业务的便利性时，他们不会喜欢创建和使用 EOA。\n这些对于让新用户进入 Web3 领域仍然是一个挑战。\n这就是 ERC-4337 的用武之地。\n本文将深入探讨 ERC-4337 ，了解其特性，并探讨其对加密行业和 Web3 的影响。\n什么是以太坊账户？\n以太坊有两种不同类型的“账户”：\n你可以将合约账户（CA）视为区块链上的代码（智能合约），将 EOA 视为一个人（尽管一个人可以拥有多个 EOA）。\n你的 MetaMask 钱包就是一个 EOA。EOA 由一对加密密钥组成：控制账户活动的公钥和私钥。\n然而，合约账户没有私钥。它们是智能合约，由其中的代码逻辑控制，不受用户控制。智能合约有能力做任何你可以用代码编写的事情，而 EOAs 基本上只能签署交易。\n关键要点是：代码定义合约账户做什么，而用户控制 EOA 做什么。\n什么是以太坊交易？\n每次你想向区块链写入信息，比如转移代币，或者铸造 NFT，都需要进行交易。交易需要 EOA 签名，EOA 也需要支付与这笔交易相关的 Gas 费用。\n交易由 EOA 发起，可以发送至：\n\n另一个 EOA，例如，一个 EOA 将 ETH 转移到另一个 EOA。\n\n一个 CA，例如，铸造 NFT。\n\n今天的 Web3：EOA+糟糕的用户体验\n在区块链上执…",
-          "link": "https://www.odaily.news/post/5185774",
-          "publishedOn": "2023-03-16T04:57:59.000Z",
-          "wordCount": 2235,
-          "title": "ERC-4337：不再需要助记词，Web3大规模采用要来了？",
           "imageUrl": null
         }
       ]
