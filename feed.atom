@@ -2,10 +2,218 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-20T05:07:38.322Z</updated>
+    <updated>2023-03-20T06:11:20.535Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[后「上海升级」时代，我们需要关注什么？]]></title>
+        <id>https://www.odaily.news/post/5185854</id>
+        <link href="https://www.odaily.news/post/5185854"/>
+        <updated>2023-03-20T04:56:43.000Z</updated>
+        <summary type="html"><![CDATA[摘要
+以太坊将在 4 月完成上海升级，届时开放信标链质押 ETH 提款功能。上海升级是以太坊执行层的一次硬分叉，预计共实现 9 个 EIP。截止 2023 年 3 月 14 日，大约有 17.5 M ETH 被质押，占 ETH 总供应量的 15.25% 。以太坊验证者平均已经积累了超过 2 个 ETH 的质押奖励，上海升级之后将会有超过 100 万个 ETH 将会流向市场。上海升级对以太坊生态带来的影响无疑是重大的。本次主要探讨上海升级后，以太坊和 LSD 协议的提款设计及相关风险，以及对 ETH 的价格和 LSD 协议相关衍生代币的价格的影响。
+一、以太坊官方提款流程
+提款（Withdrawal）由执行层和共识层共同升级实现，有两种规则：「部分提款」和「全部提款」。部分提款是只提取收益部分；全部提款是退出验证者节点，收益+质押全部提取。这两种提款方式无优先级上的区别，只要满足必要条件将自动执行：
+
+必要条件：Validator 具备 0x 01 Credential（活跃验证者存款证明，目前具有该证明的验证者比例为 42% ）
+
+部分提款条件：Validator 是 Active 状态，同时 Validator 的余额大于 32 ETH
+
+全部提款条件：Validator 是 Withdrawable 状态（这通常意味着 Validator 已经退出网络）
+
+以太坊信标链在固定时间内执行的取款请求数量是严格限制的，每个区块可以最多处理 16 个提款请求。验证者满足提款条件并提出申请后，会创建一个提款列表，以包含所有提出提款请求的验证者，该列表中列出了提款顺序、执行层收款地址和提款金额。提款请求都是在共识层发起的，不会独立进行也不会进入到交易内存池中，所以提款行为不需要 gas 也不会提高以太坊的 gas。
+二、是否会迎来以太坊抛售潮？
+根据 Beaconcha.in 的数…]]></summary>
+        <author>
+            <name>火必研究院</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[纽约社区银行将收购Signature Bank约380亿美元资产，包括360亿美元债务]]></title>
+        <id>https://panewslab.com/zh/articledetails/2zpwjphu.html</id>
+        <link href="https://panewslab.com/zh/articledetails/2zpwjphu.html"/>
+        <updated>2023-03-20T04:34:14.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月20日消息，据金十报道，纽约社区银行将收购Signature Bank约380亿美元资产，包括360亿美元债务，并努力为Signature Bank客户提供次级贷款服务。纽约社区银行表示，将努力为Signature Bank的客户提供次级贷款服务。
+此前今日早些时候消息，FDIC表示，Signature Bank存款将由纽约社区银行子公司承担，数字银行业务存款除外。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BitMEX已上线ARB期货合约，现报1.77美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/wska588z.html</id>
+        <link href="https://panewslab.com/zh/articledetails/wska588z.html"/>
+        <updated>2023-03-20T04:31:04.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月20日消息，加密货币交易平台BitMEX已上线Arbitrum期货合约ARBUSDTM23，现报价1.770美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Osmosis基金会已将至少10%财库资产兑换为比特币]]></title>
+        <id>https://panewslab.com/zh/articledetails/602yrukz.html</id>
+        <link href="https://panewslab.com/zh/articledetails/602yrukz.html"/>
+        <updated>2023-03-20T04:25:46.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月20日消息，Cosmos生态DEX Osmosis联合创始人Sunny Aggarwal今日凌晨在推特上表示，Osmosis基金会已将其现金财库中至少10%以上资产兑换为比特币。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ParaSpace：3月25日前将分阶段重启协议，安全补丁审核与测试已完成]]></title>
+        <id>https://panewslab.com/zh/articledetails/17h88k3n.html</id>
+        <link href="https://panewslab.com/zh/articledetails/17h88k3n.html"/>
+        <updated>2023-03-20T04:22:38.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月20日消息，NFT借贷协议ParaSpace发推称，安全补丁的审核与测试现已完成，以便在主网上重启协议时确保用户资产安全。提现时间锁合约正在完善中，将在未来几天进行审核与测试。ParaSpace团队决定分阶段重新开放协议，将优先考虑还款、供应、清算、贷款、提款与时间锁的增强。团队预计所有平台功能将在3月25日之前上线。平台第一阶段的还款功能已经上线，希望在清算仍暂停的情况下为用户提供机会来偿还债务。
+团队将开始为用户手动认领与复利APE池中的APE质押奖励，直到协议上线。仅在APE池中拥有APE的用户在分阶段重新开放期间仍能获得自动复利的收益。
+此前消息，ParaSpace于3月17日以发现可疑交易为由暂停该协议。ParaSpace协议的总损失大约是50-150枚ETH，因利用过程中代币之间交换的滑点造成。ParaSpace昨日表示，资金已从BlockSec收回，正努力恢复cAPE与APE 1:1锚定。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[General Bytes：正关闭云服务，敦促所有客户立即采取行动保护个人资金和信息]]></title>
+        <id>https://panewslab.com/zh/articledetails/lgwr2yws.html</id>
+        <link href="https://panewslab.com/zh/articledetails/lgwr2yws.html"/>
+        <updated>2023-03-20T04:16:14.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月20日消息，比特币ATM制造商General Bytes就3月17日和18日的安全事件发布公告称，攻击者能够通过终端用于上传视频的master服务接口远程上传自己的java应用程序，并使用batm用户权限运行。General Bytes云服务以及其他运营商的独立服务器遭到破坏。General Bytes正在关闭其云服务。理论上（实际上）不可能保护一个系统同时授予多个操作员访问权限，其中一些操作员是不良行为者。用户需要安装自己的独立服务器。GB支持将为用户提供帮助，帮助用户号将数据从GB云迁移到自己的独立服务器。如果用户的服务器遭到破坏，请重新安装整个服务器，包括操作系统。此外，考虑到所有用户的密码、交易所和热钱包的API密钥都被泄露了，请使这些密钥无效并生成新的密钥和密码。
+General Bytes公布了攻击中使用的41个钱包地址的详细信息。链上数据显示其中一个钱包进行了多笔交易，总余额为56 BTC，按当前价格计算价值超过154万美元。
+此前昨日消息，General Bytes加密货币ATM服务遭到攻击，损失约180万美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TTV Capital旗下第六支基金完成2.5亿美元募资，拟投资Web3等领域]]></title>
+        <id>https://panewslab.com/zh/articledetails/pc6fv9sm.html</id>
+        <link href="https://panewslab.com/zh/articledetails/pc6fv9sm.html"/>
+        <updated>2023-03-20T03:51:56.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月20日消息，据Prnewswire报道，TTV Capital宣布旗下第六支基金完成2.5亿美元募资，该基金最初设定的融资目标为1.5亿美元，目前已超额认购1亿美元，新基金拟在支付、投资、Web3和嵌入式金融等领域的早期金融科技公司进行投资。TTV Capital是一只专注于专门投资于金融服务生态系统公司的早期金融科技基金，其投资组合包括加密投资应用Streetbeat、Web3社交游戏发行商Carry1st、稳定币跨境支付解决方案提供商Higlobe、加密税收和会计平台Ledgible等。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Andre Cronje发声支持DefiLlama目前的团队，认为发币有利于该项目可持续发展]]></title>
+        <id>https://panewslab.com/zh/articledetails/4b12bv07.html</id>
+        <link href="https://panewslab.com/zh/articledetails/4b12bv07.html"/>
+        <updated>2023-03-20T03:40:41.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月20日消息，针对DefiLlama团队分歧，Fantom创始人Andre Cronje在推特上表示：“为当你不付账单的时候很容易意识形态化。Charlie Watkins（DefiLlama创始人之一）多年来一直自掏腰包支付DefiLlama的所有费用，这可不便宜。看着每个人都对他所做的一切指指点点，真让人厌恶。他试图止血不是贪婪，而是可持续发展。让我们看看没有他的‘免费资金’，他们（分叉团队）能坚持多久。他们很快就会增加广告或发行代币。”
+此前消息，DefiLlama团队因是否发行代币而决裂，创始人0xngmi已推出分叉版本网站Llama.Fi。
+相关阅读：DefiLlama“分家”始末：理想敌不过“面包”，权威数据网站发币真的靠谱吗？]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GMF：扩表3000亿美元，美联储重启量化宽松？]]></title>
+        <id>https://www.odaily.news/post/5185856</id>
+        <link href="https://www.odaily.news/post/5185856"/>
+        <updated>2023-03-20T03:40:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Degg_GlobalMacroFin
+1、美联储为什么扩表 3000 亿美元
+上周五以来，因为 SVB 事件发酵，美国一些地区性银行遭遇了严重的挤兑，储户大量将存款转移至大银行，流动性紧张的一些中小银行只能寻求美联储，通过抵押贷款的方式借钱来满足流动性支出压力。
+目前来看，美联储通过三个途径提供了流动性，第一个是传统的贴现窗口（Discount Window, DW）提供了大约 1480 亿美元流动性；第二个是新成立的流动性工具 BTFP 提供了大约 120 亿美元流动性；第三个是对被 FDIC 接管后的 SVB 和 Signature 新实体提供了 1430 亿美元。
+2、这三类贷款有什么关系和区别？
+三者都是抵押贷款，但在借款人、抵押品内容、借款期限、抵押品估值、利率、披露细节等方面存在区别。
+贴现窗口（DW）是最传统的美联储向遭遇流动性问题的银行提供流动性支持的工具。借款人是所有稳健经营的储蓄结构（包括银行和储蓄所）；抵押品不仅包括无风险的美债和 Agency MBS，也包括各种企业债、商业贷款和家庭贷款；借款期限为隔夜至 3 个月；所提供的贷款额度等同于抵押品市价（或市价预估）扣除某个折扣（haircut，取决于抵押品评级）后的水平；利率为联邦基金利率区间上沿（目前是 4.75% ），披露借款人信息是在两年后。
+BTFP 是这周美联储新推出的工具。其借款人同样是所有储蓄机构；抵押品仅包括无风险的美债和 Agency 债务（包括 MBS）；借款期限最长为一年；所提供的贷款额度等于抵押品面值（par value）；利率为 OIS 上浮 10 bps，披露借款人信息是在 2025 年 3 月。
+FDIC 借款本质上是向 FDIC 接管 SVB 和 Signature 之后成立的新实体“硅谷桥银行”（SVBB）和“签名桥银行”（SBB）提供贷款，以满足这些被 F…]]></summary>
+        <author>
+            <name>吴说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万字雄文解读Bitcoin Ordinals]]></title>
+        <id>https://www.theblockbeats.info/news/35749</id>
+        <link href="https://www.theblockbeats.info/news/35749"/>
+        <updated>2023-03-20T03:32:43.000Z</updated>
+        <summary type="html"><![CDATA[Ordinals是什么原理，为什么它可以在比特币这个「古老」的链上创建NFT？比特币链上的NFT有没有参与价值以及如何参与？]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BuidlerDAO：全面解读veToken经济模型的机制与创新]]></title>
+        <id>https://www.odaily.news/post/5185849</id>
+        <link href="https://www.odaily.news/post/5185849"/>
+        <updated>2023-03-20T03:20:00.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：@Buidler DAO 
+原文作者：@Jane @Niels 
+文章目录：
+01/ve 简介
+01/01 How ve works
+01/02 Curve —— ve 模型的首创者
+02/ 从核心机制层面看 ve 及不同协议的创新
+02/01 流动性的 balance
+02/02 激励机制设定
+02/03 治理机制的权衡
+02/04 权-利分离/分层的尝试
+03/ 小结
+
+
+
+
+
+
+
+
+在早期的 defi 项目中，通过流动性挖矿奖励早期使用者从而促进冷启动是非常常用的手段。不过，这种方式虽然贡献了一定的初期流动性，却无法长期支持一个协议的健康发展。用户更直觉性的反应仍然是偏投机和落袋为安心理的挖提卖，从而协议不可避免地迅速进入衰退，defidigital 的死亡螺旋很好地描绘了这点。
+
+
+
+
+
+
+
+此外，当一个协议的代币仅仅只有治理功能，且治理权限在实际场景中相当受限时，用户也会缺乏足够动力持续持有。
+这两个问题如果做一下归纳，即代币如何提供足够的持有动机，且用户和协议的利益能够在相对长的时期内保持一致，从而有动力为协议的长期发展做出贡献。
+ve (vote escrow，投票托管) 的应运而生正是对上述困境作出的一种相当不错的解答。继 Curve 首次提出 ve 之后，众多其他的协议也纷纷将其纳入了自己的经济模型，并基于 Curve ve 做出了自己的迭代和创新。
+本文将首先探究 ve 的运作模式，并以 Curve 为例，分析 ve 的优点和不足之处，之后，我们会结合不同协议在不同层面的创新来看 ve 几个核心维度的迭代发展。最后，我们会基于上述分析提供在实际中运用 ve 的一些建议。
+
+
+
+
+
+
+
+
+ve 简介
+
+
+
+
+
+
+
+
+
+
+
+
+How ve works
+
+
+
+
+
+
+ve 的核心机制在于用户通过锁定 token 获得 veToken。veToken 是…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[发Token、买域名，比特币NFT生态都在玩什么？]]></title>
+        <id>https://www.theblockbeats.info/news/35748</id>
+        <link href="https://www.theblockbeats.info/news/35748"/>
+        <updated>2023-03-20T03:17:32.000Z</updated>
+        <summary type="html"><![CDATA[一文速览比特币NFT生态的流行趋势]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数字人民币App更新至1.0.19版本，钱包快付支持搜索]]></title>
         <id>https://panewslab.com/zh/articledetails/rjnjhe4b.html</id>
