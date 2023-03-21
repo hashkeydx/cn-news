@@ -2,10 +2,78 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-21T09:08:21.823Z</updated>
+    <updated>2023-03-21T10:08:25.091Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[2023年第13周融资精选，比特币生态DEX获250万美元战略融资]]></title>
+        <id>https://www.theblockbeats.info/news/35802</id>
+        <link href="https://www.theblockbeats.info/news/35802"/>
+        <updated>2023-03-21T08:35:11.000Z</updated>
+        <summary type="html"><![CDATA[据 BlockBeats 统计，上周融资总数为 18 笔，数量较上周有减少，总金额约 6540 万美元，平均融资金额约为 934 万美元。其中，NFT/数字时尚占据主体，元宇宙/GameFi 的融资相对较多，基础设施尚和社交/创作者经济融资数量有减少，资管/支付领域融资较少。下图为上周各板块融资占比：
+
+
+
+
+
+
+
+
+
+元宇宙/GameFi
+
+
+
+
+在元宇宙/GameFi 领域共计 3 笔融资，总金额超 1600 万美元，占上周融资总额的 24.46%。
+
+
+
+
+Jungle 
+
+
+
+
+关注理由：面向拉丁美洲市场，将于年内发布移动端射击链游。
+
+
+
+
+
+
+
+
+
+BlockBeats 消息，3 月 13 日，Web3 游戏工作室 Jungle 完成 600 万美元种子轮融资，Bitkraft 和 Framework Ventures 领投，Delphi Digital、Karatage、Fourth Revolution Capital、Monoceros、32bit Ventures、Stateless Ventures、Snackclub 和 Norte Ventures 等参投。本轮融资将用于建立团队、营销和发行其制作的游戏。
+
+
+
+
+Jungle 表示，其第一款游戏是一款 Web3 射击游戏，将于今年在移动设备上发布，在其首款游戏中 Web3 元素将是可选的。目前 Jungle 尚未公开将基于哪条区块链打造产品。
+
+
+
+
+Jungle 的核心愿景是为拉丁美洲用户打造链游，除了语言的本地化外，Jungle 的游戏还将针对拉美地区典型的硬件设备和互联网速度进行优化。Jungle 创始人表示其将额外关注使用低端安卓设备的人群，致力于让目标人群能以低廉的成本轻松游玩其游戏。
+
+
+
+
+Bravo Ready
+
+
+
+
+关注理由：「付费入场、淘汰打金」的 P2E「吃鸡」游戏
+
+
+ …]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[以太坊客户端Geth发布v1.11.5版本，以能在4月13日启用上海主网升级]]></title>
         <id>https://panewslab.com/zh/articledetails/37e4zbw6.html</id>
@@ -18,6 +86,176 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[StarkNet主网保姆级交互教程]]></title>
+        <id>https://www.theblockbeats.info/news/35800</id>
+        <link href="https://www.theblockbeats.info/news/35800"/>
+        <updated>2023-03-21T08:08:41.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《
+
+StarkNet 主网一条龙保姆级交互教程
+
+》
+原文作者：AllenGeGe
+
+
+Starknet 一直有传出可能快照了的消息, 做了不一定有但是不做一定没有。
+
+
+首先创建 starknet 主网的钱包 
+
+
+Argent X 融资 4000 万或者 Braavos Wallet 融资 1000 万二选一。  
+
+
+我这里用 ArgentX 做示范
+
+
+
+
+
+
+1. 官方跨链桥, 必做
+
+
+打开 starkgate.starknet.io 官方跨链桥点击连接 metamask
+
+
+
+
+
+
+再点击 Starknet Wallet 连接 ArgentX 钱包
+
+
+
+
+
+
+
+显示这样就成功了
+
+
+
+
+
+
+点击 Deposit, 输入存入的数量, 点击 transfer 存入 stark 主网
+
+
+
+
+
+
+到这里官方跨链桥就结束了, 等待到账
+
+
+2. Dexswap 交互, 这三个操作都差不多
+
+
+建议每个 swap 都至少交互一次并且进行差异化交互
+
+
+Jediswap https://app.jediswap.xyz
+
+
+Myswap https://www.myswap.xyz
+
+
+10Kswap https://10kswap.com
+
+
+ArgentX 钱包集成了 Jediswap, 可以直接在钱包里 swap 一次
+
+
+
+
+
+
+Swap 和 Pool
+
+
+
+
+
+
+Pool 选择性做, 资金充裕的建议还是做一下, 增加链上数据
+
+
+
+
+
+
+3.StarknetID
+
+
+自己决定是否 mint 一个域名, 最便宜的 0.009e 一年 DYOR !
+
+
+输入自己想要 mint 的域名
+
+
+
+
+
+
+
+4.NFT 市场
+
+
+在两个市场都创建一个 NFT 之后进行上架售卖
+
+
+
+https://aspect.co/
+https://mintsquare.io/starknet
+
+
+
+
+
+
+任意选择一个 mint 的 NFT 上架出售
+
+
+
+
+
+Mint Square 同理
+
+
+
+
+
+
+5.Orbiter 跨链桥
+
+
+
+
+
+
+https://www.orbiter.finance/?source=Starknet&dest=ZKSync
+
+
+如果你也在交互 ZKS 的话就用 Orbiter 跨到 zks
+
+
+因为用官方桥跨回 ETH 链需要等七八个小时, 还要二次确认, 所以我们选择 Orbiter
+
+
+
+
+
+
+建议保留一定资金在 stark 主网上, 建议每周交互一次 ARB 就查了链上余额, 一定要重视!!! 主网交互会有一定的 gas 成本, DYOR
+
+
+原文链接]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[币安期权将上线于9月29日到期的BTCUSDT和ETHUSDT季度期权]]></title>
         <id>https://panewslab.com/zh/articledetails/43o4d52o.html</id>
         <link href="https://panewslab.com/zh/articledetails/43o4d52o.html"/>
@@ -25,6 +263,135 @@
         <summary type="html"><![CDATA[PANews 3月21日消息，据官方公告，币安期权将于3月23日16:00上线于9月29日到期的BTCUSDT和ETHUSDT季度期权，该期权为欧式期权合约，此后新的BTCUSDT和ETHUSDT季度期权合约将于每个季度的最后一个星期四上市。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ankr与Pendle达成合作，以共同推进DeFi发展]]></title>
+        <id>https://www.theblockbeats.info/news/35801</id>
+        <link href="https://www.theblockbeats.info/news/35801"/>
+        <updated>2023-03-21T08:01:46.000Z</updated>
+        <summary type="html"><![CDATA[Web3 基础设施提供商 Ankr 与 Pendle 达成合作推出流动性池，Ankr 的 ETH/AnkrETH Aura 池同步上线。Pendle 的优势和工作原理是什么？它所呈现的机会和风险又有哪些？本文将详细就以上内容加以探讨。
+
+
+
+关于 Pendle 
+
+
+Pendle 支持无许可的 Token 化和收益交易，它允许任何人以折扣价购买资产，获得固定收益或长期 DeFi 收益。
+
+Pendle 协议使用户能够轻松制定高级收益策略，如折扣的长期资产，低风险和稳定增长的固定收益，以及长期收益策略等。摒弃了复杂的多协议策略，让所有需求都可以在其 Web 应用程序中访问。
+
+
+
+Pendle 工作原理
+
+
+Pendle 看到了 DeFi 收益率波动规律，收益率在波动时期飙升，而在熊市期间明显下降。Pendle 允许用户推测任何资产的收益率，在牛市中增加收益率，或者在熊市中通过固定收益率对冲收益率下降。
+
+
+
+Pendle 使用户能够交易和推测未来的收益率。通过将可用资产的收益
+
+Token
+
+化为两个独立的部分，即本金
+
+Token
+
+ (Principal Token) 和收益
+
+Token
+
+ (Yield Token)，再使用 Pendle AMM 交易这些资产以实现最大收益。
+
+
+
+YT(收益
+
+Token
+
+) 接收基础收益
+
+Token
+
+的收益率，而 PT(本金
+
+Token
+
+) 代表资产的本金。由于收益率已从基础收益中剥离，PT 以折扣价交易，到期时可赎回基础债卷的全部价值。由于 YT 只代表标的债券的收益率，交易它就相当于猜测到期前该债券将获得多少收益率。
+
+
+
+Pendle 市场机遇
+
+
+Pendle 使用户可以通过 PT 获得固定收益率，YT 获得长期 DeFi 收益率，还可通过提供流动性获得额外收益率，以此来控制整体收益率。Pendle 平台上已有各种资产，如 LSD、稳定币以及 Arbitrum 的 GLP 和 gDAI。
+
+收益率容忍度较高的投资者可以购买 YT 来做多标的资产的收益率。由于 YT 持有者获得的是标的收益，购买 YT 等同于购买标的收益。与现货交易类似，如果用户认为标的资产会产生更高的收益，则他们就会购买 YT，即正确的交易策略可以显著放大收益。
+
+
+
+在 Ankr 的案例中，Pendle 上的 ankrETH 流动性向下流向 Aura 和 Balancer，增加 ankrETH 流动性，为用户提供更好的交易体验。总的来说，通过收益
+
+Token
+
+化和收益交易，Pendle 让用户可以更好地掌控收益，即相同资产获得多种收益策略。
+
+
+
+Ankr 和 Pendle 合作提高用户收益率
+
+
+Ankr 正在与 Pendle 一起为 ankrETH/ETH Aura LP 创建流动性池，该池将提供更多的以太坊质押收益率，并将增加 Ankr 流动质押 ETH (ankrETH)APY。
+
+
+
+此次合作促使 ankrETH 用户可拥有更多选择，如以折扣价购买 ankrETH/ETH Aura LP 获得固定收益和潜在的超额收益，以及通过提供流动性来赚取收益。
+
+
+
+结束语
+
+
+
+
+
+Ankr 和 Pendle 的合作为用户提供了获得更高资产收益率机会。Pendle 为 ankrETH 开放了更多的实用性，深化 ankrETH 流动性。由 Ankr 和 Pendle 创建的流动性池将提供更多的以太坊质押收益率，并增加 Ankr 的流动性质押 ETH (ankrETH)APY。总的来说，这种合作关系是朝着创建更易于访问和更高效的 DeFi 生态系统迈出的重要一步。
+
+
+本文来自投稿，不代表 BlockBeats 观点]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ARB即将开放申领，如何提前Approve ARB合约？]]></title>
+        <id>https://www.odaily.news/post/5185888</id>
+        <link href="https://www.odaily.news/post/5185888"/>
+        <updated>2023-03-21T07:59:59.000Z</updated>
+        <summary type="html"><![CDATA[ARB 申领将于区块高度 16890400 开放，根据区块倒计时，预计对应北京时间为本周四晚上。有部分科学家已经「提前抢跑」（截止发稿，已有超 7000 个地址提前与 ARB 合约进行交互），因为根据往期空投经验，fomo 情绪会在 Token 开放交易早期将币价拉高。那么普通用户如何不落后于科学家用户，尽可能同步于科学家在链上挂单呢？BlockBeats 整理了提前授权 ARB Token 的方法。
+操作步骤
+根据 Arbitrum 官方近期在 Discord 公布的 ARB Token 官方合约地址：
+0x912CE59144191C1204E64559FE8253a0e49E6548
+
+1. 通过 Arbiscan 区块链浏览器搜索 ARB Token 合约。
+
+2. 读取合约，连接钱包，点开 approve 合约进行编辑。
+
+3. 填入调用合约地址 spender 以及数量函数 amount
+
+以 Uniswap 为例，如果在 Uniswap 平台授权，则填写 0x 00000000002 2D 473030 F 116 dDEE 9 F 6 B 4 3aC 78 BA 3 （Uniswap Permit 2 合约地址），这是每次 Approve 新 Token 时的合约。
+Amount 填写数量，需要 unit 256 哈希函数，所以此处填写：
+115792089237316195423570985008687907853269984665640564039457584007913129639935 。
+4. 最后点击 Write，MetaMask 弹出确认窗口，设置自定义 ARB 支出上限。
+
+
+（MetaMask 旧版本无需填写自定义支出上限）
+点击确认，完成授权。交易记录如下图所示。
+
+最后，BlockBeats 提醒用户在领取空投以及后续操作时注意风险，所有链接和信息都务必去官方文档获取，不要轻信任何第三方「抢跑」脚本，保护好自己的私钥，以避免不必要的损失。]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
         </author>
     </entry>
     <entry>
@@ -213,6 +580,43 @@ Amount 填写数量，需要 unit256 哈希函数，所以此处填写：
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[教程：如何在火必铸造多米尼克元宇宙绑定代币DMBT？]]></title>
+        <id>https://www.odaily.news/post/5185887</id>
+        <link href="https://www.odaily.news/post/5185887"/>
+        <updated>2023-03-21T07:03:52.000Z</updated>
+        <summary type="html"><![CDATA[3 月 21 日，据火必 Huobi 官方消息，火必宣布联合波场 TRON、DMC Labs 共同推出经多米尼克国政府授权的多米尼克元宇宙绑定代币 DMBT（Dominica Metaverse Bound Token，简称 DMBT），这表示火必在Web3.0 世界正在进行更加深入地尝试和拓展。
+DMBT 用来证明持有者是经火必验证过的多米尼克元宇宙数字公民（Dominica Metaverse Digital Citizen，简称 DMDC），具备不可转让、可注销、唯一性的特征。
+根据公告，用户完成火必KYC-L3身份认证即可申领多米尼克元宇宙数字身份 DDID，成为 DMDC 后，即可获取 DMBT 铸币资格及进行链上铸造。持有 DMBT 的用户，在缴纳一定的工本费后，可收到多米尼克元宇宙数字公民身份证 DMIC （Dominica Metaverse Identification Card）的实体证件。作为经验证的 DDID 持有者，有望享受与现实世界映射的链上链下多重权益。
+如何铸造多米尼克元宇宙绑定代币（DMBT）：
+第一步：身份验证
+需完成多米尼克元宇宙数字公民KYC 高级认证，才可进行 DMBT 铸造。
+1 ）下载或更新火必App（9.6.1 及以上版本）
+2 ）完成身份认证L3
+已完成身份认证的用户：
+
+未完成身份认证的用户：
+
+3 ）申领成功，点击铸造 DMBT
+注意：
+
+完成身份认证L3的用户仅可申领一个多米尼克元宇宙数字身份
+
+第二步：连接钱包
+需下载TronLink App 并创建 Tron 网络钱包，在 DMBT 页面点击连接钱包按钮，火必 App 自动唤起 TronLink App，完成钱包授权后返回火必 App，完成连接钱包操作。
+
+第三步：铸造DMBT
+点击开始铸造按钮，用火必App 现货账户支付 1 USDT 的铸造费后，即可完成铸造流程。支付币种可使用 USDT、HT、TRX。DMBT 首年免费使用，后续续期或撤销后重新铸造，则需支付使用费。
+
+注意：
+
+如果您尚未下载火必App （9.6.1 及以上版本） ，请点击 此处 下载；
+
+如果您尚未下载TronLink 钱包，请点击 此处 下载；]]></summary>
+        <author>
+            <name>Huobi火必</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[全球顶尖300家Crypto VC分析：总管理资本839亿美元；已开始为牛市做准备]]></title>
         <id>https://www.theblockbeats.info/news/35797</id>
         <link href="https://www.theblockbeats.info/news/35797"/>
@@ -262,6 +666,33 @@ Amount 填写数量，需要 unit256 哈希函数，所以此处填写：
 如果放眼更广阔的视野，…]]></summary>
         <author>
             <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[哪些工具可以帮你增强财务管理能力？]]></title>
+        <id>https://www.odaily.news/post/5185885</id>
+        <link href="https://www.odaily.news/post/5185885"/>
+        <updated>2023-03-21T06:29:34.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：What Tools Can Help Your Finances In 2023 ；原文作者：Jaime Catmull
+加密金融工具的受欢迎程度不断增长，用户特别关注投资和财务规划。这些服务的广泛传播使人们比以往任何时候都更容易获得财富创造和管理机会。
+长期以来，财务管理的原则基本保持不变。即始终保持稳健、负责任的做法，加上长期的财务计划，通常会产生积极的结果。然而，个人对市场、交易和投资的更大兴趣正在为更灵活、更易于使用的工具和服务创造一个重要的市场。
+虽然像 Robinhood 这样的零售交易应用程序一直是媒体专注的焦点，并同时引发了一些争议。但该行业的发展仍在继续扩张，并适应越来越复杂的消费者需求。随着选择的增加，找到适合特定工作或策略的正确工具可能会很困难。新的交易员和投资者通常缺乏从头开始制定和执行自己策略的经验，因此一些人会使用复制交易来帮助弥合这一差距。
+高波动性和复杂的交易策略使新手或没有经验的交易者难以驾驭市场，复制交易可能会对这种情况特别有用。这就是为什么越来越多的零售投资者开始采用这种类型的交易服务。
+Bitget 是一个引入复制交易的中心化数字资产平台，这使得用户可以跟随全球超过 80, 000 名专业交易员的策略。他们通常会利用资深交易员的经验来降低风险、进行更明智的交易。这种快节奏和全球性的方法有利于像 Bitget 这样的平台允许 24/7 全天候的监控和执行这些交易。此外，Bitget 还在社交功能方面表现出一些潜力，这在金融领域越来越受欢迎。交易员越来越多地与彼此分享他们的策略和见解，并将新闻资讯流，如 Bitget 的原生资讯流 Bitget Insights 纳入他们的研究中。
+虽然区块链的性质使其具有内在的安全性，但交易所经常因其自身系统的漏洞而受到审查。为了防止这种情况发生，Bitget 已承诺投入 3 亿美元来确保其基础设施和账户的安全。
+然而，随着去中心化协议的使用开辟了新的交易中心，以及向更可访问和透明的运营形式的转移，其他交易所模式也已经不断涌现。通过区块链等技术，交易员可以在无需第三方的情况下验证交易的安全性，并监控交易是否存在腐败迹象。
+Swisscheese 是一个于 2023 年推出的新型交易平台，其设计理念中融入了很多功能。通过在Polygon区块链上构建交易所，它可以成为去中心化的运营中心，避开了行业历史上存在的制度偏见。这将允许交易者可以通过单一的交易所获得证券、债券和股票，以及加密和法定货币交易，这些都会通过区块链协议消除对中介机构的需求和争议的风险。
+像 2023 年推出的许多工具一样，Swisscheese 在设计其平台时特别注重便利性。通过允许与银行账户集成，他们将使客户在个人财务和投资之间实现顺畅的过渡。
+正如我们所看到的，基于Web3的技术已被整合到许多金融工具中。在这种情况下，投资新兴技术可能是增加财富的一种优势方式。像 MetFi DAO 等工具提供投资基于Web3的技术和创新公司治理的机会，为投资者提供更多的控制权。
+作为去中心化自治组织，投资者拥有与其投资直接成比例的投票权。这包括组织内做出的重大决策，以及投资什么和投资到什么程度，让投资者更紧密地控制他们的资金。
+MetFi 的表现优于市场，这说明了它对创新型初创企业的关注使其处于一个能够利用高增长潜力的位置。通过将投资分散到各个公司，它们增加了获得显著回报的可能性，并避免了一次性破产的风险。
+然而，一些消费者更喜欢以更加实际和务实的方式管理自己的财务状况。个人财务管理应用程序是专为帮助个人管理其收入和支出而设计的应用程序。
+这些应用程序允许用户创建自定义预算、设定财务目标并监控消费习惯。通过整合来自各种来源的财务数据，包括银行账户、信用卡和投资，为用户提供详细的财务概览。许多应用程序还包括理财的建议、个性化的提示以帮助用户做出明智的决策、减少债务并为未来储蓄做准备。
+这些应用程序的种类和其中的定制化功能，使它们可以根据特定的目标进行定制，例如预算、消费追踪或投资。许多应用程序还包括与金融机构的集成，允许实时更新和数据共享，以帮助跟踪支出。
+这些工具的组合可以实现更加流畅和高效的个人财务和投资管理。随着支持这些应用程序的技术不断发展，人们访问财富增长和管理的机会也将增加。
+然而，每个人的财务状况都是独特的，应根据其对风险的容忍度和长期财务目标来仔细选择。这些工具可以提供一个探索现在可用的选项和方法的起点。]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
@@ -5040,36 +5471,6 @@ DefiLlama数据显示，该交易所在2月份的交易量超过6.34亿美元，
         <link href="https://panewslab.com/zh/articledetails/cge83zmm.html"/>
         <updated>2023-03-16T22:40:00.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月17日消息，据官方消息，MakerDAO将美国国债投资上限从5亿美元提高至12.5亿美元的提案已获得通过。该提案获得了77%的投票支持，MakerDAO将在PSM中使用7.5亿美元的USDC购买更多的美国国债，从而使支持DAI的流动资产更加多样化。这些债券每两周到期一次，在为期六个月的时间内，将总共购买12次，每次6250万美元。根据提案，该策略预计在扣除托管和预期交易成本后，净年化收益率为4.6%至4.5%。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[区块链协会要求美联储、OCC和FDIC披露有关加密公司“去银行化”的文件]]></title>
-        <id>https://panewslab.com/zh/articledetails/3t5a0vm2.html</id>
-        <link href="https://panewslab.com/zh/articledetails/3t5a0vm2.html"/>
-        <updated>2023-03-16T21:46:59.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月17日消息，据The Block报道，美国加密游说团体区块链协会（Blockchain Association）周四向美联储、货币监理署（OCC）和联邦存款保险公司（FDIC）发送《信息自由法》（FOIA）请求，要求提供有关加密公司“去银行化”的文件和通讯。该协会首席执行官Kristin Smith在一份电子邮件声明中表示，FOIA请求旨在揭开美国加密货币公司可能被拒绝访问银行服务背后的真相，包括更多了解合规加密公司银行账户或被关闭的情况。此外，区块链协会正在“调查有关去银行化的指控——包括关闭账户和拒绝开设新账户”，这可能导致Signature Bank、硅谷银行和Silvergate的倒闭。区块链协会拥有包括Kraken和Ripple Labs在内的知名成员。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[赵长鹏：政策制定者和加密交易所应加强合作，双方不可互相替代]]></title>
-        <id>https://panewslab.com/zh/articledetails/59j5tu3y.html</id>
-        <link href="https://panewslab.com/zh/articledetails/59j5tu3y.html"/>
-        <updated>2023-03-16T21:22:35.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月17日消息，币安CEO赵长鹏推特发文称，加密货币行业受益于一致而明确的监管。我们需要合作才能实现这一目标。竞争驱动创新。完善的、基于风险的政策将有助于营造竞争环境。创新必须以负责任的方式进行，以保护用户。政策制定者应该高效地推动一致且明确的法规。而加密交易所必须继续做正确的事情，始终把用户放在第一位。加密行业需要双方不断进步，双方不可互相替代。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[因需求过低，21Shares将关闭6个加密ETP]]></title>
-        <id>https://panewslab.com/zh/articledetails/qukx0q0p.html</id>
-        <link href="https://panewslab.com/zh/articledetails/qukx0q0p.html"/>
-        <updated>2023-03-16T21:13:44.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月17日消息，据CoinDesk报道，瑞士ETP发行商21Shares的发言人在一封电子邮件中证实，由于需求过低，该公司将关闭六个加密ETP。其中LAY1、DeFi、SPBTC、SPETH和USDY五个产品都将在4月6日收盘后关闭。LUNA将在6月12日关闭。这六个产品管理的资产规模总共不到70万美元。另一方面，21Shares的数据显示，该公司1月份新增资产2695万美元。据此前消息，今年1月，美国证券交易委员会(SEC)第二次拒绝了方舟投资管理公司（Ark Investment Management）和21Shares联合发行比特币现货ETF的申请。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
