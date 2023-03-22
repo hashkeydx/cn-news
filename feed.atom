@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-22T21:06:32.560Z</updated>
+    <updated>2023-03-22T22:05:51.668Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -6591,60 +6591,6 @@ LQTY：为山寨版的 Makerdao，但是只支持 ETH 做稳定币 LUSD 的
         <updated>2023-03-18T10:30:56.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月18日消息，NFT项目DeGods在推特上宣布，500枚BTC DeGods已铸造完成，所有退款均已发送，并正式上线DeGods Trading Desk，用户可在DeGods Discord进行二级市场交易，目前支持使用BTC、ETH、SOL或USDC。
 此前3月16日消息，DeGods将在比特币网络推出新系列NFT。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公链Flare Network正式开启为期3年的代币分配]]></title>
-        <id>https://panewslab.com/zh/articledetails/g7htjaa9.html</id>
-        <link href="https://panewslab.com/zh/articledetails/g7htjaa9.html"/>
-        <updated>2023-03-18T09:50:08.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月18日消息，公链Flare Network正式开启为期3年的代币分配，据悉，公链Flare的社区以93%的多数票通过了其首个Flare改进提案，根据提案，Flare剩余的85%代币，共计242亿枚FLR将按比例分配给所有封装FLR（WFLR）持有者，所有人均可参与。成员可通过Flare门户网站、BiFrost钱包、高级用户也可以通过直接与智能合约互动等渠道申领。
-详情可参考：FlareDrop指南]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[除了Solidity，还有哪些值得关注的EVM语言？]]></title>
-        <id>https://www.odaily.news/post/5185834</id>
-        <link href="https://www.odaily.news/post/5185834"/>
-        <updated>2023-03-18T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：jtriley.ethjtriley.eth
-原文编译：0x11 ，Foresight News
-以太坊虚拟机 (EVM) 是一个 256 位、基于堆栈、全球可访问的图灵机。由于架构与其他虚拟机和物理机的明显不同，EVM 需要领域特定语言 DSL（注：领域特定语言指的是专注于某个应用程序领域的计算机语言）。
-在本文中，我们将研究 EVM DSL 设计的最新技术，介绍六种语言 Solidity、Vyper、Fe、Huff、Yul 和 ETK。
-语言版本
-
-Solidity: 0.8.19 
-
-Vyper: 0.3.7 
-
-Fe: 0.21.0 
-
-Huff: 0.3.1 
-
-ETK: 0.2.1 
-
-Yul: 0.8.19 
-
-阅读本文，需要你对 EVM、堆栈和编程有基本的了解。
-以太坊虚拟机概述
-EVM 是一个基于 256 位堆栈的图灵机。然而，在深入研究它的编译器之前，应该介绍一些功能特性。
-由于 EVM 是「图灵完备」的，它会受到「停机问题」的困扰。简而言之，在程序执行之前，没有办法确定它未来是否会终止。EVM 解决这个问题的方法是通过「Gas」计量计算单位，一般来说，这与执行指令所需的物理资源成比例。每个交易的 Gas 量是有限制的，交易的发起者必须支付与交易消耗的 Gas 成比例的 ETH。这个策略的影响之一是，如果有两个功能上相同的智能合约，消耗更少 Gas 的合约将被更多采用。这导致协议竞争极端的 Gas 效率，工程师努力最小化特定任务的 Gas 消耗。
-此外，当调用一个合约时，它会创建一个执行上下文。在这个上下文中，合约有一个堆栈用于操作和处理，一个线性内存实例用于读写，一个本地持久性存储用于合约读写，并且附加到调用的数据「calldata」可以被读取但不能被写入。
-关于内存的一个重要说明是，虽然它的大小没有确定的「上限」，但仍然是有限的。扩展内存的…]]></summary>
-        <author>
-            <name>Foresight News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[消息人士：华尔街投行Jefferies正在与潜在的FTX竞购方接触，希望重启FTX]]></title>
-        <id>https://panewslab.com/zh/articledetails/oq01ijaz.html</id>
-        <link href="https://panewslab.com/zh/articledetails/oq01ijaz.html"/>
-        <updated>2023-03-18T09:07:21.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月18日消息，FTX债权人士在推特上透露，华尔街投行Jefferies正在与潜在的FTX竞购方接触，希望重启FTX。对此Zhu Su回应称：“FTX 2.0将盘活资本，并给那些资本被困住的人第二次机会”。]]></summary>
         <author>
             <name>PA一线</name>
         </author>

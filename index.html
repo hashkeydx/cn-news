@@ -10122,103 +10122,6 @@ LQTY：为山寨版的 Makerdao，但是只支持 ETH 做稳定币 LUSD 的
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/g7htjaa9.html"
-                        open
-                      >
-                        <summary class="article-expander__title">公链Flare Network正式开启为期3年的代币分配</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/g7htjaa9.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月18日消息，公链Flare Network正式开启为期3年的代币分配，据悉，公链Flare的社区以93%的多数票通过了其首个Flare改进提案，根据提案，Flare剩余的85%代币，共计242亿枚FLR将按比例分配给所有封装FLR（WFLR）持有者，所有人均可参与。成员可通过Flare门户网站、BiFrost钱包、高级用户也可以通过直接与智能合约互动等渠道申领。
-详情可参考：FlareDrop指南</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/oq01ijaz.html"
-                        open
-                      >
-                        <summary class="article-expander__title">消息人士：华尔街投行Jefferies正在与潜在的FTX竞购方接触，希望重启FTX</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/oq01ijaz.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月18日消息，FTX债权人士在推特上透露，华尔街投行Jefferies正在与潜在的FTX竞购方接触，希望重启FTX。对此Zhu Su回应称：“FTX 2.0将盘活资本，并给那些资本被困住的人第二次机会”。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185834"
-                        open
-                      >
-                        <summary class="article-expander__title">除了Solidity，还有哪些值得关注的EVM语言？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185834">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：jtriley.ethjtriley.eth
-原文编译：0x11 ，Foresight News
-以太坊虚拟机 (EVM) 是一个 256 位、基于堆栈、全球可访问的图灵机。由于架构与其他虚拟机和物理机的明显不同，EVM 需要领域特定语言 DSL（注：领域特定语言指的是专注于某个应用程序领域的计算机语言）。
-在本文中，我们将研究 EVM DSL 设计的最新技术，介绍六种语言 Solidity、Vyper、Fe、Huff、Yul 和 ETK。
-语言版本
-
-Solidity: 0.8.19 
-
-Vyper: 0.3.7 
-
-Fe: 0.21.0 
-
-Huff: 0.3.1 
-
-ETK: 0.2.1 
-
-Yul: 0.8.19 
-
-阅读本文，需要你对 EVM、堆栈和编程有基本的了解。
-以太坊虚拟机概述
-EVM 是一个基于 256 位堆栈的图灵机。然而，在深入研究它的编译器之前，应该介绍一些功能特性。
-由于 EVM 是「图灵完备」的，它会受到「停机问题」的困扰。简而言之，在程序执行之前，没有办法确定它未来是否会终止。EVM 解决这个问题的方法是通过「Gas」计量计算单位，一般来说，这与执行指令所需的物理资源成比例。每个交易的 Gas 量是有限制的，交易的发起者必须支付与交易消耗的 Gas 成比例的 ETH。这个策略的影响之一是，如果有两个功能上相同的智能合约，消耗更少 Gas 的合约将被更多采用。这导致协议竞争极端的 Gas 效率，工程师努力最小化特定任务的 Gas 消耗。
-此外，当调用一个合约时，它会创建一个执行上下文。在这个上下文中，合约有一个堆栈用于操作和处理，一个线性内存实例用于读写，一个本地持久性存储用于合约读写，并且附加到调用的数据「calldata」可以被读取但不能被写入。
-关于内存的一个重要说明是，虽然它的大小没有确定的「上限」，但仍然是有限的。扩展内存的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10226,8 +10129,8 @@ EVM 是一个基于 256 位堆栈的图灵机。然而，在深入研究它的�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4494486164">
-        <time id="build-timestamp" datetime="2023-03-22T21:06:32.520Z">2023-03-22T21:06:32.520Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4494898675">
+        <time id="build-timestamp" datetime="2023-03-22T22:05:51.635Z">2023-03-22T22:05:51.635Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
