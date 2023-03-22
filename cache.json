@@ -2364,26 +2364,6 @@
           "wordCount": 1125,
           "title": "数据：ARK基金2月1日至今共减持约29.7万股GBTC",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/0plt5pez.html",
-          "author": "PA一线",
-          "description": "PANews 3月18日消息，据PSU报道，索尼公司公布了名为“用于在游戏平台之间传输和使用数字资产的NFT框架”的专利，这次专利探索了一种跨平台使用和交易NFT的方法。据悉，该专利是在2022年提交申请但直到周四才公布。\n此前消息，索尼公司已为一种“追踪游戏内数字资产”的技术申请专利。",
-          "link": "https://panewslab.com/zh/articledetails/0plt5pez.html",
-          "publishedOn": "2023-03-18T06:57:21.000Z",
-          "wordCount": 1136,
-          "title": "索尼公布“用于游戏平台之间传输和使用数字资产的NFT框架”的专利",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/7k89t64r.html",
-          "author": "PA一线",
-          "description": "PANews 3月18日消息，据NFT Whale Alert披露数据显示，中国台湾歌手黄立成抛售14 枚MAYC，获得187.59枚ETH（约合32.7万美元）、以及41个Otherside元宇宙虚拟地块Otherdeed，获得65枚ETH（约合11.3万美元）。此前3月15日消息，黄立成地址抛售132枚MAYC。",
-          "link": "https://panewslab.com/zh/articledetails/7k89t64r.html",
-          "publishedOn": "2023-03-18T06:28:04.000Z",
-          "wordCount": 1147,
-          "title": "数据：黄立成抛售14枚MAYC和41个Otherdeed元宇宙虚拟地块",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3497,16 +3477,6 @@
           "publishedOn": "2023-03-18T07:38:51.000Z",
           "wordCount": 1806,
           "title": "代币化RWA如何为DeFi带来新的收益机会？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5185833",
-          "author": "链捕手",
-          "description": "原文标题：How I think about choosing guardians for sig and social recovery wallets\n原文作者：Vitalik Buterin\n原文编译：倩雯，ChainCatcher\n多重签名钱包（如 Gnosis Safe）是一种简单安全的资金存储方式，让你可以享受到自托管的大部分好处——当表面看起来值得信赖的中心化实体变得不可信赖时，你的资金也不会不翼而飞。但同时你又不需承担对整个安全设置进行负责的风险。我个人使用多签钱包来存储我的大部分资金，以太坊基金会也是如此。\n另外一个类似多重签名钱包的是社交恢复钱包——单一的密钥可用于签署交易，但如果该密钥丢失，可使用其他人持有的一组密钥来恢复资金。社交恢复钱包比多签钱包更容易使用，特别是 ERC-4337 账户抽象兴起，灵魂钱包（Soul Wallet）即将问世，将使该技术变得更加人性化。一旦社会恢复钱包变发展得足够成熟，我的建议是将社会恢复热钱包，储存个人或组织的一小部分资金；将多签用于冷钱包，储存个人或组织的储蓄。\n多重签名钱包和社交恢复钱包都依赖于“守护者”（guardian）的概念：一组 N 个地址，通常由其他人持有，其中任何 M 个地址可以批准一个操作（例如，可以设置 N= 6 和 M= 4 ）。在多签名钱包的情况下，每笔交易必须由 N 个守护者中的 M 个人签字。在社交恢复钱包的情况下，单一的密钥可以签署交易，但如果该密钥丢失，N 个守护者中的 M 个人必须签署信息来重置密钥。\n安全使用多签名钱包和社交恢复钱包的两个关键问题是：(i) 你选择谁作为守护者，以及(ii) 你给他们什么指示？这篇文章将概述我是如何思考这个问题的，其中大部分观点应该也同样适用于被用于保障个人和组织资金的多签和社交恢复钱包。\n我们想从守护者那里得到什么？\n\n最大限度地降低其丢失密钥的概…",
-          "link": "https://www.odaily.news/post/5185833",
-          "publishedOn": "2023-03-18T06:30:00.000Z",
-          "wordCount": 1557,
-          "title": "Vitalik：如何为多签钱包和社交恢复钱包选择守护者？",
           "imageUrl": null
         }
       ]
