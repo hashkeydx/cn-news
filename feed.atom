@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-24T17:06:58.120Z</updated>
+    <updated>2023-03-24T18:09:28.122Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -8169,90 +8169,6 @@ DYOR]]></summary>
         <updated>2023-03-20T06:15:42.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月20日消息，据金十报道，百度宣布，文心一言云服务将于3月27日14:00上线。据悉，目前已经有包括互联网、媒体、金融、保险、汽车、企业软件等行业的400多家头部企业宣布加入百度“文心一言”生态。
 此前3月16日消息，百度正式发布大语言模型“文心一言”，并开放内测。百度曾表示在完成内侧后面向公众开放。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ETH周报 | 以太坊主网将于4月12日进行Shapella升级；Lido V2预计于5月中旬上线（3.13-3.19）]]></title>
-        <id>https://www.odaily.news/post/5185860</id>
-        <link href="https://www.odaily.news/post/5185860"/>
-        <updated>2023-03-20T06:08:37.000Z</updated>
-        <summary type="html"><![CDATA[一、整体概述
-以太坊核心开发者在电话会议中确认将于 4 月 12 日在以太坊主网进行上海（Shapella）升级，该升级将启用质押的 ETH 提款，待 GitHub 上的开发人员确认日期，该日期将固定不再改变。据悉，上海升级，更准确地称为“Shapella ”，标志着以太坊向权益证明(PoS) 网络的全面过渡的完成，并将最终实现质押的 ETH 提款。
-
-Arbitrum 将于 3 月 23 日向其社区成员空投治理代币 ARB，空投代币将占代币总供应量的 12.75% ，代币将分发给在过去一年中使用过该网络的用户。其中，空投会将总供应量的 11.5% 分配给 Arbitrum 用户，另外 1.25% 分配给 Arbitrum 生态系统中的 DAO 和 Protocol Guild，这是一个由以太坊开发人员组成的 DAO。大部分供应将进入 Arbitrum 基金会，该基金会将由新成立的 Arbitrum DAO 控制。此外，治理代币 ARB 也将用于治理 arbitrrum Nova 网络和 DAO 正式认可的任何其他第二层网络。该代币不会用于支付网络上的交易费用。
-Lido 发推称，Lido V2将于下周上线 Goerli 测试网。在进行约 4 周的测试后，预计将于 5 月中旬上线以太坊主网。在所有关于链上代码的审计完成之前（预计 4 月底），stETH 提款不会在主网上启动，目前预期是在 5 月中旬左右开始。
-二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1700 美元，阻力位 1800 美元。
-
-二、二级市场
-
- 1.现货市场
-OKX 行情数据显示，上周 ETH 价格一度上涨突破 1800 美元，周内收于 1793 美元，环比上涨 23.6% 。
-
-ETH 日线图，来自 OKX
-日线图上显示，价格目前在 1750 美元左右盘整，支撑位是 1700 美元，如果…]]></summary>
-        <author>
-            <name>秦晓峰</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFT玩家必读：万字雄文解读Bitcoin Ordinals]]></title>
-        <id>https://www.odaily.news/post/5185850</id>
-        <link href="https://www.odaily.news/post/5185850"/>
-        <updated>2023-03-20T06:07:53.000Z</updated>
-        <summary type="html"><![CDATA[原文来源：@TraFinity Labs @AIO Labs
-原文作者：@masa @0x silence @Luna.F
-
-TraFinity Labs & AIO Labs 联合发布，AIONews 全网首发。
-序文
-比特币是区块链技术第一个成功的实践项目，使去中心化的概念深入人心。在比特币诞生 10 多年的时间里，其他各种类型的区块链项目层出不穷，他们有着更先进的技术，更高的 TPS，更复杂多样的生态。相比而言，在功能性上，比特币的区块链网络主要功能是价值转移的实现，就是把一定数量的 BTC 从一个地址转移到另一个地址。
-最近，Ordinals协议的发布，使得人们在比特币的链上创建 NFT 成为可能。那么 Ordinals 是什么原理，为什么它可以在比特币这个"古老"的链上创建 NFT？比特币链上的 NFT 有没有参与价值以及如何参与？我们今天就来深入了解一下。
-
-（图：截止到 3 月 15 日已经生成了 463 K 的 BTC Inscriptions）
-Section 1 历史渊源
-1.1 BTC 网络发展历程
-比特币(Bitcoin)是全球首个被广泛接受和使用的加密货币，在经历了十多年的发展和演进，如今已成为领先的全球性开放式去中心化数字货币。比特币的成功主要归功于其独特的区块链技术，这是一种基于去中心化网络的主要创新，使它成为了一个没有中央管理者或机构控制的数字货币。
-1. 起源
-比特币(Bitcoin)的起源可以追溯到 2008 年，由一位或一组名为"中本聪"的神秘人物提出并实现。中本聪在一篇名为《比特币：一种点对点电子现金系统》(Bitcoin: A Peer-to-Peer Electronic Cash System)的白皮书中介绍了比特币的基本思想和技术方案。在此之后，中本聪开始着手实现比特币项目，并于 2009 年 1 月 3 日推出首个比特币区块…]]></summary>
-        <author>
-            <name>AIO News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Sandbox计划于年底前实施Polygon ID，以增强其KYC计划]]></title>
-        <id>https://panewslab.com/zh/articledetails/ue83qxjo.html</id>
-        <link href="https://panewslab.com/zh/articledetails/ue83qxjo.html"/>
-        <updated>2023-03-20T05:43:40.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月20日消息，元宇宙游戏平台The Sandbox在推特上表示：“The Sandbox正在与Polygon Labs实验室合作，致力于在年底前实施Polygon ID。我们重视去中心化和隐私，并将使用Polygon ID来增强我们的KYC计划。用户的安全和隐私是我们的首要任务。”
-此前3月2日消息，Polygon使用零知识证明推出Web3身份识别服务“Polygon ID”。
-相关阅读：链上身份层Polygon ID：想打造Web 2体验级的Web 3身份系统]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安全公司：发现山寨版WhatsApp和Telegram含可窃取加密资金的恶意软件]]></title>
-        <id>https://panewslab.com/zh/articledetails/1o1pd34w.html</id>
-        <link href="https://panewslab.com/zh/articledetails/1o1pd34w.html"/>
-        <updated>2023-03-20T05:30:25.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月20日消息，网络安全研究公司ESET Research发文表示，发现有不法分子正在利用包含恶意软件的山寨版Telegram和WhatsApp应用程序以试图盗取加密货币。
-此恶意软件可以将受害者在聊天消息中发送的加密货币钱包地址切换到属于攻击者的地址。一些剪贴器（Clippers）滥用光学字符识别从截图中提取文本，并窃取加密货币钱包恢复短语。除了剪贴器，ESET还发现远程访问木马程序与恶意Windows版本的WhatsApp和Telegram捆绑在一起。
-据悉，Clippers是一种恶意软件，可以窃取或修改剪贴板的内容。这是ESET Research第一次发现Android Clippers专门针对即时消息。从这些山寨应用程序使用的语言来看，它们背后的运营商似乎主要针对的是中文用户。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maker创始人发布新“终局”治理改革提案，概述“治理参与激励”等三个主要功能及实施时间]]></title>
-        <id>https://panewslab.com/zh/articledetails/p1maho3e.html</id>
-        <link href="https://panewslab.com/zh/articledetails/p1maho3e.html"/>
-        <updated>2023-03-20T05:22:21.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月20日消息，Maker创始人Rune Christensen在治理论坛发布名为“Endgame（终局）”的治理改革提案，旨在应对区块链行业面临的关键机遇和挑战，通过建立弹性和可靠的治理平衡，使Maker治理更加高效、透明和包容Endgame还促进了可扩展和可并行的产品创新和增长战略。内容包括Endgame的3个主要功能，并给出了实施它们的大致时间表，即明确具体规则、治理参与激励、将操作复杂性从MakerDAO转移到SubDAO。
-1.明确具体规则，这将在通过Maker宪法MIP提案后立即实施。Maker章程的核心规则和定义是不可更改的，以便为少数代币持有者提供保护，并防止可能使系统去中心化面临风险的范围蔓延或权力平衡的变化。这在Endgame的所有3个核心功能都已实现之前不会生效，因此仍然可以对核心规则进行早期微调。宪法选民委员会 (CVC) 是开放结构，由Maker宪法中定义的常规MKR代币持有者组成。CVC为MKR持有者提供了一个公共平台，以接收详细的状态报告和专业建议。
-2.治理参与激励，将于2023年晚些时候实施；Sagittarius Engine (SE) 鼓励MKR持有人通过锁定MKR并将其投票权委托给CVC设计的治理策略来参与治理。这一过程利用了一个用户友好的、游戏化的前端，便于访问。SE用户以Dai（Maker协议盈余的25%）或SubDAO代币的形式获得改进和保护Maker治理工作的补偿。SE征收15%的退出费，当用户退出时，这笔费用将从锁定的MKR中销毁，以激励长期承诺并通过CVC等治理工具解决问题，而不是在挑战出现时退出。
-3.将操作复杂性从MakerDAO转移到SubDAO，将于2024年实施。SubDAO的主要任务包括维护去中心化前端、分配Dai抵押品、处理运营效率风险、边际决策以及试验创新产品和增长战略，使Maker治理能够专注于降低尾端风险和资产负债管理。
-此前去年6月份，Christensen发布了一项名为“The Endgame Plan”的新提议，核心是建立MetaDAO。今年3月10日消息，Christensen提议重塑DAI稳定币品牌，包括设计一个含有美元的新名称。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
