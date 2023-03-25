@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-25T04:08:47.499Z</updated>
+    <updated>2023-03-25T05:06:32.632Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -14,6 +14,46 @@
         <summary type="html"><![CDATA[PANews 3月25日消息，NFT项目Moonbirds母公司PROOF在推特宣布推出Web3创作者加速计划“Outliers”，旨在支持“尝试突破技术障碍并通过其艺术作品进行创新”的创作者，据悉首批入围2023春季队列的创作者共有15人，包括Terrell Jones、Alien Queen、Patrick Amadon等。他们将花6周时间在Web3上设计和构建项目。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万字详谈Rollup排序器的去中心化道路]]></title>
+        <id>https://www.odaily.news/post/5185993</id>
+        <link href="https://www.odaily.news/post/5185993"/>
+        <updated>2023-03-25T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Jon Charbonneau
+原文编译：0x11，Foresight News
+Kelvin 认为 「ZK Rollup」 不是真正的 ZK Rollup，我认为所有「Rollup」都不是真正的 Rollup，至少现在还不是。那么问题是，我们如何使它们成为真正的 Rollup？
+ 
+当前的 Rollup 大多是需要信任和许可的： 
+
+来源：L2 Beat https://l 2b eat.com/scaling/risk
+我将概述以下方面的情况： 
+
+强制交易包含机制：即使 Rollup 运营商正在审查用户，用户也应该能够强制包含他们的交易以抵抗审查。
+
+L2 定序器去中心化和（可选）共识：单排序器、PoA、PoS 领导者选择、PoS 共识、MEV 拍卖、基于 Rollup、效率证明等。 
+
+Shared Sequencer & X-Chain Atomicity：这是真正有趣的全新东西。
+
+MEV-Aware 设计：我将简要介绍 FCFS 的一些变体。关于加密内存池，可以参考我最近的文章。  
+
+本文不讨论提高 Rollup 安全性的许多其他要求，包括降低升级密钥的能力，实施稳健且无需许可的证明等。
+Rollup 如何工作？
+智能合约 Rollup (SCR)
+首先，简要回顾一下 SCR 的工作原理。今天在以太坊上使用的 Rollup 都是 SCR。在更高层次上，SCR 基本上只是： 
+
+输入的有序数组（在 L1 上，因此交易数据必须发布在数据可用性层上） 
+
+在它们上面运行的代码（Rollup 节点软件）
+
+基于输入的确定性输出（Rollup 区块链）
+
+
+资料来源：Rollups 实际上如何工作 - Kelvin Fichter https://www.youtube.com/watch? v=NKQz 9 jU 0 ftg
+更具体地说，传统的排序器通过将…]]></summary>
+        <author>
+            <name>Foresight News</name>
         </author>
     </entry>
     <entry>
