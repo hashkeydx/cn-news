@@ -2,10 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-25T07:06:50.404Z</updated>
+    <updated>2023-03-25T08:09:02.367Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Foresight Ventures市场周报：BTC主导市场，ARB生态普涨]]></title>
+        <id>https://www.odaily.news/post/5185982</id>
+        <link href="https://www.odaily.news/post/5185982"/>
+        <updated>2023-03-25T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[市场观点：
+1、宏观流动性
+货币流动性改善。美联储如市场预期 3 月加息 25 个基点，但鹰派讲话认为今年不会降息。恐慌情绪已笼罩着美股市场数周。就在半个月前，由于通胀和经济数据仍旧强劲，市场还在定价加息 50 个基点。但在硅谷银行等小型银行担忧加剧后，为解决银行危机，美联储在上周创造的新流动性增加了 3000 亿美元，市场利率预测今年只能再加息一次 25 个基点。BTC 跑赢美股，完美应对了全球银行业的动荡。
+
+2、全市场行情
+市值排名前 100 涨幅榜：
+
+本周市场上涨，BTC 统治率上升，接近去年 6 月高点。ETH 走势弱于 BTC，大多数山寨币未能跑赢 BTC。市场热点主线集中在 BTC，香港概念，Arbitrum 链的生态。
+
+ID：Space ID 是币安交易所的最新一期 IEO。ID 是币安和 Galaxy 孵化，币安占比 14% 。有 28 万域名用户， 9 万独有用户，未来业务形态包括：域名的发射平台、域名交易市场、域名管理基础设施。未来会有代币回购的机制。
+
+ARB：Arbitrum 链是 ETH 的l2头部公链，总锁仓量在过去几个月不断增加。ARB 与 OP 采用类似的 Optimism Rollup 技术路线，近期生态良性发展。随着下周 ARB 代币的上线也将带来更多关注和资金，并推动协议的发展。
+
+ZZ：Zigzag 是 ZK 公链的 zkSync 的头部订单簿 dx，是现在 zkSync 为数不多能交互的协议。近期撸毛党加持下，ZZ 日交易量爆发式增长。ZZ 未来可用于手续费、治理和 IDO 打新。
+
+IMX：ZK 路线的 IMX 升级经济模型， 20% 平台费由 IMX 支付，并与 Polygon 合作游戏链，但有机构趁利好出货。
+
+3、BTC 行情
+3.1 链上数据
+BTC 链上交易创下近年峰值。BTC 本周月均交易笔数达到 31 万笔/天…]]></summary>
+        <author>
+            <name>Foresight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3钱包的下一站：为什么我们看好无助记词钱包赛道]]></title>
+        <id>https://www.odaily.news/post/5185970</id>
+        <link href="https://www.odaily.news/post/5185970"/>
+        <updated>2023-03-25T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[根据 statista.com 数据显示，截至 2022 年 11 月，数字钱包用户数已达 8500 万 (YOY~ 6.3% )。数字钱包作为 Web3.0 的入口，已处于熊市建设期间的热点风口。它的用户体验和安全性直接影响加密货币及其应用在何时被大规模采用。
+
+1、“没有私钥就等同于没有令牌”
+
+拥有数字资产的前提是完全真实地掌握自己的私钥。
+
+自托管数字钱包虽然安全，但助记词和私钥比传统的 Web2.0 入口——“用户名-密码” 要复杂得多。根据 Chainalysis 在 2021 年的一份报告，大约有 20% 的比特币丢失是因为其所有者不记得私钥。FTX 暴雷等无数次黑客攻击和安全事件不断引起业界的关注。
+在以太坊上，有两种基本的账户类型：
+
+
+EOA 账户（Externally Owned Account）：一个 EOA 的每个唯一私钥应该通过 12 个唯一的助记词推导出来。目前主流的 dApp 钱包大多为 EOA 钱包，如 Metamask、Phantom（Solana）、BSC Wallet（BSC）、Keplr（Cosmos）等，这类钱包不可编程。
+
+合约账户（Contract Account，通过 EOA 账户部署在链上的智能合约）：是一段通过 EOA 账户部署在链上的可编程 EVM 代码，只能被 EOA 账户调用。
+
+
+
+总之，每个账户都由唯一的私钥确定，但机制存在缺陷，即私钥的遗忘、丢失和泄露会造成不可逆的数字资产损失。
+目前主流的两种解决方案取得了重大进展，即无助记词的加密钱包：智能合约钱包（包括多重签名钱包）和多方计算（MPC）钱包。
+2、智能合约钱包和抽象账户 
+智能合约钱包是使用特定的 EOA 账户管理链上资产的智能合约，可以支持进一步的编程。例如，多重签名钱包是一种智能合约钱包，需要 M-of-N 密钥的签名才能批准交易。这种方法可以增强钱…]]></summary>
+        <author>
+            <name>Jsquare Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Animoca否认其元宇宙基金削减2亿美元且估值降至20亿美元的说法]]></title>
         <id>https://panewslab.com/zh/articledetails/cttlax60.html</id>
