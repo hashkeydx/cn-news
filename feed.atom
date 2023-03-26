@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-26T06:09:08.120Z</updated>
+    <updated>2023-03-26T07:06:35.551Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[包装通证储备金证明(PoR)的建设者指南]]></title>
+        <id>https://www.odaily.news/post/5185901</id>
+        <link href="https://www.odaily.news/post/5185901"/>
+        <updated>2023-03-26T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[受更全面的Web3用户体验需求的驱动，跨链桥用于以包装通证(来自另一个区块链的一对一的通证数字表示)的方式将数字资产从一个区块链网络转移到另一个区块链网络。之所以需要它们，是因为默认情况下不同的区块链通常是不可互操作的。包装通证解锁了跨链流动性，但与单条区块链的原生资产相比，它们通常需要更多的信任假设。
+
+跨链通证桥如何运作
+跨链桥安全的复杂性
+跨链通证桥面临一系列的安全挑战，从保护私钥到确保智能合约代码的严密性。开发人员必须采取全面的防御策略来设计跨链桥梁架构，从技术到社交层面的每一步都要有独立的安全层。
+
+尽管跨链桥是Web3不可分割的一部分，但它们一直也是作恶者的目标
+跨链桥的安全机制不应该只是被动反应，而应主动考虑遭受到一次攻击或漏洞利用的可能性，并针对可能出现的后果进行防范。关键问题是：当一个精心制定的安全计划出错时，您该怎么办?
+漏洞利用和攻击风险
+不管一条跨链桥是如何被攻击的，跨链桥攻击和漏洞利用通常会带来两个直接风险。
+1. 源链上的抵押品在没有正确所有权的情况下被取走。
+源区块链上的用户资金被盗，相应的包装通证不再完全得到支持。由于包装资产仅因其跨链支持而具有价值，因此源区块链上的锁定资产的被盗使得相应的包装资产变得毫无价值。
+
+锁定在源区块链上的数字资产被盗
+2. 目标链上的跨链通证在没有足够抵押品的情况下被铸造出来。
+这被称为“无限铸造”漏洞，当没有足够储备金的包装通证被铸造出来时，就意味着它们不再有足够的抵押品。无限铸造漏洞会导致一些恶意利用储备金不足的行为，作恶者可以利用这一点通过去中心化的交易所将包装通证资产出售或把包装通证在借贷市场上抵押出去。
+
+黑客的无限铸造是如何工作的
+生态系统风险
+一旦跨链通证桥遭到入侵，不仅会给使用跨链桥的用户带来直接的风险，还会给所有直接整合和支持包装通证的项目带来风险。包装通证通常在DeFi协议中使用，而一次漏洞利…]]></summary>
+        <author>
+            <name>Chainlink</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[官方解读zkSync Era叙事四大亮点]]></title>
+        <id>https://www.odaily.news/post/5186004</id>
+        <link href="https://www.odaily.news/post/5186004"/>
+        <updated>2023-03-26T05:09:43.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 Matter-labs，原文作者：zkSync 团队
+
+Odaily 星球日报译者 | Moni
+
+
+3 月 24 日，zkSync 宣布主网“zkSync Era”将以无许可的方式全面开放，供所有人使用，开发人员、项目方和用户现在都可以建立和桥接资金来体验 zkEVM 的强大功能，也标志着 zkSync Era 和以太坊达成了一个重要里程碑。
+背景介绍
+zkSync Era 本质上是 zkSync 的 2.0 版本，旨在利用零知识密码学、去中心化和社区所有权扩展以太坊的安全性和价值，加速加密货币的大规模采用以实现个人主权。通过从外部拥有账户 (EOA) 升级到智能合约账户 (CA)，用户可以构建抽象助记词、安排和自动支付以及以任何代币支付 gas 费——甚至可以代表其他用户支付 gas 费。不仅如此，基于深思熟虑的设计选择，zkSync Era 还将使构建者能够实现低成本隐私、无限制增长、复杂用例等用户体验。
+毫无疑问，当开发人员、项目方和用户能够自主建立和桥接资金，用户体验无疑将得到巨大提升。数据不会说谎——相比于 Arbitrum、Optimism、以及 StarkNet，zkSync 是当前桥接用户量最多的以太坊 Layer 2   扩容解决方案，Dune Analytics 最新数据显示，zkSync 桥接用户量已突破 70 万，本文撰写时达到 708, 089 个，而 Arbitrum、Optimism 和 StarkNet 该指标值分别为 615, 877 个、 313, 426 个和 206, 404 个。
+
+
+那么，zkSync Era 究竟有什么独特之处让其能在诸多竞争对手中脱颖而出呢？主网开放后，zkSync 开发团队给出了 zkSync Era 独特架构的四大亮点：
+亮点 1 ：原生账户抽象
+坦率地说，用户体验是加密货币大规模采用的必要条件…]]></summary>
+        <author>
+            <name>Moni</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[消息人士：马斯克对推特最新估值为200亿美元，不及收购价一半]]></title>
+        <id>https://panewslab.com/zh/articledetails/7h7e36kz.html</id>
+        <link href="https://panewslab.com/zh/articledetails/7h7e36kz.html"/>
+        <updated>2023-03-26T05:03:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月26日消息，据The Information援引消息人士报道，马斯克在发给推特员工的邮件中称，以约200亿美元的估值向推特员工提供股票奖励，该估值不及其收购推特时支付的440亿美元的一半，显示了推特的市场价值正在下降。目前推特暂未对这一消息置评。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一文探秘区块链在美国军事领域的用途]]></title>
         <id>https://www.odaily.news/post/5185999</id>
