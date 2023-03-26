@@ -51,11 +51,194 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-26 datetime="2023-03-26T07:25:48.000Z">2023-03-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-26 datetime="2023-03-26T07:25:48.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-26 datetime="2023-03-26T08:00:00.000Z">2023-03-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-26 datetime="2023-03-26T08:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186000"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊POS的转变将为可拓展性方案奠定基础</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186000">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《How Proof of Stake Ethereum Works》by Patrick McCorry
+原文翻译：0x Felix  
+原文校对：Franci, ECN
+以太坊已经达到了其中一个期待已久的里程碑 —— 合并！这是一个非常重要的时刻。经过长达 7 年的努力，以太坊社区成功地将工作量证明机制替换为权益证明共识协议。直接的影响是将网络的能源消耗减少了 99.95% ，仅占全球电力消耗的 0.02% 。这是值得庆祝的成果！
+除此之外，升级带来的技术优势还有很多，但大多数社区并不清楚。现在是时候撰写更易于理解的材料来介绍权益证明机制工作原理、重要性以及即将推出的激动人心的功能了 —— 尤其是现在权益证明正在保护数千亿美元的资产。
+为了支持这一努力，我们准备了一系列文章来解释权益证明协议，面向对这项技术感兴趣的研究人员、开发人员和最终用户。在两周的时间内，我们将发布以下文章并更新相关链接：
+- 模块化设计和两条区块链，
+- Epochs、Slots 和信标区块，
+- 验证者见证和投票协议，
+- 补偿和惩罚，
+- 以太坊的权益证明是否实现了其目标？
+此外，还包括以下一些话题：
+- 注册和提款过程，
+- 怠工惩罚，
+- 聚合器和子委员会的角色，
+- 摇摆攻击（未发布），
+- 同步委员会（未发布）。
+我们希望这些文章能帮助您了解权益证明协议的工作原理，并作为您在开发过程中进行共识客户端代码之前的必备知识。
+感谢 Teku 团队，特别是 Ben Edington 和 Mikhail Kalinin 耐心解答我的问题。
+模块化设计和两条区块链
+
+区块大小之战最终是关于去中心化的争斗 - 应该尽可能地经济实惠？还是应该尽可能地可验证？
+对于区块链可扩展性的追求让社区在过去 10 年中提出了几个雄心勃勃的提案，问题的核心是一个基本的权衡：
+- 可负担性：可以负担得起在网…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185901"
+                        open
+                      >
+                        <summary class="article-expander__title">包装通证储备金证明(PoR)的建设者指南</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185901">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>受更全面的Web3用户体验需求的驱动，跨链桥用于以包装通证(来自另一个区块链的一对一的通证数字表示)的方式将数字资产从一个区块链网络转移到另一个区块链网络。之所以需要它们，是因为默认情况下不同的区块链通常是不可互操作的。包装通证解锁了跨链流动性，但与单条区块链的原生资产相比，它们通常需要更多的信任假设。
+
+跨链通证桥如何运作
+跨链桥安全的复杂性
+跨链通证桥面临一系列的安全挑战，从保护私钥到确保智能合约代码的严密性。开发人员必须采取全面的防御策略来设计跨链桥梁架构，从技术到社交层面的每一步都要有独立的安全层。
+
+尽管跨链桥是Web3不可分割的一部分，但它们一直也是作恶者的目标
+跨链桥的安全机制不应该只是被动反应，而应主动考虑遭受到一次攻击或漏洞利用的可能性，并针对可能出现的后果进行防范。关键问题是：当一个精心制定的安全计划出错时，您该怎么办?
+漏洞利用和攻击风险
+不管一条跨链桥是如何被攻击的，跨链桥攻击和漏洞利用通常会带来两个直接风险。
+1. 源链上的抵押品在没有正确所有权的情况下被取走。
+源区块链上的用户资金被盗，相应的包装通证不再完全得到支持。由于包装资产仅因其跨链支持而具有价值，因此源区块链上的锁定资产的被盗使得相应的包装资产变得毫无价值。
+
+锁定在源区块链上的数字资产被盗
+2. 目标链上的跨链通证在没有足够抵押品的情况下被铸造出来。
+这被称为“无限铸造”漏洞，当没有足够储备金的包装通证被铸造出来时，就意味着它们不再有足够的抵押品。无限铸造漏洞会导致一些恶意利用储备金不足的行为，作恶者可以利用这一点通过去中心化的交易所将包装通证资产出售或把包装通证在借贷市场上抵押出去。
+
+黑客的无限铸造是如何工作的
+生态系统风险
+一旦跨链通证桥遭到入侵，不仅会给使用跨链桥的用户带来直接的风险，还会给所有直接整合和支持包装通证的项目带来风险。包装通证通常在DeFi协议中使用，而一次漏洞利…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186004"
+                        open
+                      >
+                        <summary class="article-expander__title">官方解读zkSync Era叙事四大亮点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186004">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Matter-labs，原文作者：zkSync 团队
+
+Odaily 星球日报译者 | Moni
+
+
+3 月 24 日，zkSync 宣布主网“zkSync Era”将以无许可的方式全面开放，供所有人使用，开发人员、项目方和用户现在都可以建立和桥接资金来体验 zkEVM 的强大功能，也标志着 zkSync Era 和以太坊达成了一个重要里程碑。
+背景介绍
+zkSync Era 本质上是 zkSync 的 2.0 版本，旨在利用零知识密码学、去中心化和社区所有权扩展以太坊的安全性和价值，加速加密货币的大规模采用以实现个人主权。通过从外部拥有账户 (EOA) 升级到智能合约账户 (CA)，用户可以构建抽象助记词、安排和自动支付以及以任何代币支付 gas 费——甚至可以代表其他用户支付 gas 费。不仅如此，基于深思熟虑的设计选择，zkSync Era 还将使构建者能够实现低成本隐私、无限制增长、复杂用例等用户体验。
+毫无疑问，当开发人员、项目方和用户能够自主建立和桥接资金，用户体验无疑将得到巨大提升。数据不会说谎——相比于 Arbitrum、Optimism、以及 StarkNet，zkSync 是当前桥接用户量最多的以太坊 Layer 2   扩容解决方案，Dune Analytics 最新数据显示，zkSync 桥接用户量已突破 70 万，本文撰写时达到 708, 089 个，而 Arbitrum、Optimism 和 StarkNet 该指标值分别为 615, 877 个、 313, 426 个和 206, 404 个。
+
+
+那么，zkSync Era 究竟有什么独特之处让其能在诸多竞争对手中脱颖而出呢？主网开放后，zkSync 开发团队给出了 zkSync Era 独特架构的四大亮点：
+亮点 1 ：原生账户抽象
+坦率地说，用户体验是加密货币大规模采用的必要条件…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185999"
+                        open
+                      >
+                        <summary class="article-expander__title">一文探秘区块链在美国军事领域的用途</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185999">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>当我们在谈论区块链时，提到的更多是 BTC、以太坊等公链，它们上面承载的大部分是 DeFi、NFT、DID 等领域的 DApp，以求捕获并创造更多价值，依靠造富效应浇筑出新的叙事。
+其实，除了在资本市场中发挥金融属性之外，区块链去中心化和不可篡改的特性已经孕育出了许多尚不为公众所知的真实用例。
+美军智囊早在 6 年前就发现了区块链的潜力，美国国防部下属机构国防高级研究计划局（DARPA）于 2017 年正式启动了军用区块链项目的研发，以为美军开发安全、不可破解的消息传递和交易平台为目标，向圣母大学和印第安纳科技制造公司（ITAMCO）拨款成立了 SIMBA Chain。
+
+无可匹敌的背书项目——美国陆军、美国海军、美国太空军、波音公司
+6 年之后， 2023 年的现在，美军的区块链计划执行到了哪一步？
+美国太空军与空间碎片
+美国太空军 (USSF) 成立于 2019 年，负责组织、培训和装备现役人员进行太空作战，其希望用区块链解决空间碎片问题。
+空间碎片/太空碎片是目前人类使用空间轨道时面临的主要威胁之一。每枚发射到太空的火箭都会产生太空碎片，这些碎片可能会与卫星和空间站发生碰撞并造成损坏，太空碎片会长期存在于地球轨道之上。
+
+太空碎片的数量不断增长，使得地球轨道日益拥堵，使现代人类依赖的许多服务都处于危险中，如通信、天气和定位等卫星 GPS 服务。
+SIMBA Chain 针对空间碎片问题提出的解决方案，是建立一种准确记录并对空间碎片清理过程进行资助的新方式。通过将空间碎片代币化，以 NFT 的形式表示，可以使用多种不同的经济模型促进空间碎片的清理工作，通过私营企业维持稳定的空间环境。
+链上主动碎片清除基金是 SIMBA 提出的将空间碎片与 NFT 绑定的「回收基金」，在空间碎片被确认得到回收后才会完成支付。SIMBA 还考虑创建「赏金基金」的可行性，通过吸引实体向赏金基…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185971"
+                        open
+                      >
+                        <summary class="article-expander__title">DAOrayaki Podcast：打破“激励诅咒”， 对Nostr及Damus破圈现象的独家思考</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185971">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>简介
+近年来，随着 Defi 项目的不断发展，越来越多的项目被推向市场。然而，这些项目都需要解决一个共同的问题：如何打破狭隘的圈子，吸引更广泛的用户群体。而 Damus 则成为了一个引人注目的案例，它成功吸引了许多圈外用户的关注，这引发了人们对这个项目产生了持续的讨论。
+Damus 是如何做到这一点的呢？它与其他 Defi 项目有何不同的商业化路径？其底层去中心化协议Nostr对破圈现象有多大的助推力？带着这些疑惑，DAOrayaki 社区今天特别邀请到我们的老朋友 Jolestar 老师，带来他对 Nostr Damus 破圈现象，对 Defi 所面临金融化“激励诅咒”的独家思考。
+主持人：Shaun(DAOrayaki 负责人)
+嘉宾：Jolestar（RoochNetwork 发起人）
+正文
+Q：我注意到您最近发了一篇关于 Nostr 和 Damus 的长推文，谈到DeFi项目的商业化之路及“激励诅咒”，特别感兴趣，所以今天逮个机会和您聊一聊。您觉得 DeFi 项目目前的商业路径是怎么样的呢？
+J：DeFi Summer 实际上现在已经过去了，如果我们回顾历史会发现，DeFi 是一个历史上出现过的产物，只是在所有应用里算比较特殊的一类，它特殊的点在哪里呢？因为它的用户群主要是投资者，所以它应用的主要目标是让大家来交换资产或者是去理财。它最初怎么去爆发起来的呢，DeFi 这些借贷平台其实在 17 年 18 年就存在了，为什么在后面才爆发出来，主要是它发现了一个可以冷启动的组合方案。通常情况下，借贷平台在启动的初期会有一个困境，例如在 18 年我去尝试体验借贷平台的时候，发现存以太坊放到平台里只有不到 5% 的年化收益，而且存了之后，也没人借，得不到正反馈的循环。后来项目方发现了一个方式，通过激励，比如发一个 token，然后先激励大家来存钱，不管有没有人借，先有人来存，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -425,147 +608,6 @@ ARB Token 就要开始交易了，拿到空投的用户如何组建单边 LP？�
 
 
 本站 Aribtrum 发行 Token，设置了女巫审查，再次带火精品账号话题。目前阶段，空投猎人成为女巫攻击的一种新形式，这些账号通过有目的地与智能合约和协议交互，以猎取大量的空投 Token 份额。这就需要以一种新的去中心化 KYC 方式，在不牺牲隐私和去中心化的情况下证明你的真实身份，即「你是你」的证明，这就是 At…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185901"
-                        open
-                      >
-                        <summary class="article-expander__title">包装通证储备金证明(PoR)的建设者指南</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185901">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>受更全面的Web3用户体验需求的驱动，跨链桥用于以包装通证(来自另一个区块链的一对一的通证数字表示)的方式将数字资产从一个区块链网络转移到另一个区块链网络。之所以需要它们，是因为默认情况下不同的区块链通常是不可互操作的。包装通证解锁了跨链流动性，但与单条区块链的原生资产相比，它们通常需要更多的信任假设。
-
-跨链通证桥如何运作
-跨链桥安全的复杂性
-跨链通证桥面临一系列的安全挑战，从保护私钥到确保智能合约代码的严密性。开发人员必须采取全面的防御策略来设计跨链桥梁架构，从技术到社交层面的每一步都要有独立的安全层。
-
-尽管跨链桥是Web3不可分割的一部分，但它们一直也是作恶者的目标
-跨链桥的安全机制不应该只是被动反应，而应主动考虑遭受到一次攻击或漏洞利用的可能性，并针对可能出现的后果进行防范。关键问题是：当一个精心制定的安全计划出错时，您该怎么办?
-漏洞利用和攻击风险
-不管一条跨链桥是如何被攻击的，跨链桥攻击和漏洞利用通常会带来两个直接风险。
-1. 源链上的抵押品在没有正确所有权的情况下被取走。
-源区块链上的用户资金被盗，相应的包装通证不再完全得到支持。由于包装资产仅因其跨链支持而具有价值，因此源区块链上的锁定资产的被盗使得相应的包装资产变得毫无价值。
-
-锁定在源区块链上的数字资产被盗
-2. 目标链上的跨链通证在没有足够抵押品的情况下被铸造出来。
-这被称为“无限铸造”漏洞，当没有足够储备金的包装通证被铸造出来时，就意味着它们不再有足够的抵押品。无限铸造漏洞会导致一些恶意利用储备金不足的行为，作恶者可以利用这一点通过去中心化的交易所将包装通证资产出售或把包装通证在借贷市场上抵押出去。
-
-黑客的无限铸造是如何工作的
-生态系统风险
-一旦跨链通证桥遭到入侵，不仅会给使用跨链桥的用户带来直接的风险，还会给所有直接整合和支持包装通证的项目带来风险。包装通证通常在DeFi协议中使用，而一次漏洞利…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186004"
-                        open
-                      >
-                        <summary class="article-expander__title">官方解读zkSync Era叙事四大亮点</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186004">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Matter-labs，原文作者：zkSync 团队
-
-Odaily 星球日报译者 | Moni
-
-
-3 月 24 日，zkSync 宣布主网“zkSync Era”将以无许可的方式全面开放，供所有人使用，开发人员、项目方和用户现在都可以建立和桥接资金来体验 zkEVM 的强大功能，也标志着 zkSync Era 和以太坊达成了一个重要里程碑。
-背景介绍
-zkSync Era 本质上是 zkSync 的 2.0 版本，旨在利用零知识密码学、去中心化和社区所有权扩展以太坊的安全性和价值，加速加密货币的大规模采用以实现个人主权。通过从外部拥有账户 (EOA) 升级到智能合约账户 (CA)，用户可以构建抽象助记词、安排和自动支付以及以任何代币支付 gas 费——甚至可以代表其他用户支付 gas 费。不仅如此，基于深思熟虑的设计选择，zkSync Era 还将使构建者能够实现低成本隐私、无限制增长、复杂用例等用户体验。
-毫无疑问，当开发人员、项目方和用户能够自主建立和桥接资金，用户体验无疑将得到巨大提升。数据不会说谎——相比于 Arbitrum、Optimism、以及 StarkNet，zkSync 是当前桥接用户量最多的以太坊 Layer 2   扩容解决方案，Dune Analytics 最新数据显示，zkSync 桥接用户量已突破 70 万，本文撰写时达到 708, 089 个，而 Arbitrum、Optimism 和 StarkNet 该指标值分别为 615, 877 个、 313, 426 个和 206, 404 个。
-
-
-那么，zkSync Era 究竟有什么独特之处让其能在诸多竞争对手中脱颖而出呢？主网开放后，zkSync 开发团队给出了 zkSync Era 独特架构的四大亮点：
-亮点 1 ：原生账户抽象
-坦率地说，用户体验是加密货币大规模采用的必要条件…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185999"
-                        open
-                      >
-                        <summary class="article-expander__title">一文探秘区块链在美国军事领域的用途</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185999">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>当我们在谈论区块链时，提到的更多是 BTC、以太坊等公链，它们上面承载的大部分是 DeFi、NFT、DID 等领域的 DApp，以求捕获并创造更多价值，依靠造富效应浇筑出新的叙事。
-其实，除了在资本市场中发挥金融属性之外，区块链去中心化和不可篡改的特性已经孕育出了许多尚不为公众所知的真实用例。
-美军智囊早在 6 年前就发现了区块链的潜力，美国国防部下属机构国防高级研究计划局（DARPA）于 2017 年正式启动了军用区块链项目的研发，以为美军开发安全、不可破解的消息传递和交易平台为目标，向圣母大学和印第安纳科技制造公司（ITAMCO）拨款成立了 SIMBA Chain。
-
-无可匹敌的背书项目——美国陆军、美国海军、美国太空军、波音公司
-6 年之后， 2023 年的现在，美军的区块链计划执行到了哪一步？
-美国太空军与空间碎片
-美国太空军 (USSF) 成立于 2019 年，负责组织、培训和装备现役人员进行太空作战，其希望用区块链解决空间碎片问题。
-空间碎片/太空碎片是目前人类使用空间轨道时面临的主要威胁之一。每枚发射到太空的火箭都会产生太空碎片，这些碎片可能会与卫星和空间站发生碰撞并造成损坏，太空碎片会长期存在于地球轨道之上。
-
-太空碎片的数量不断增长，使得地球轨道日益拥堵，使现代人类依赖的许多服务都处于危险中，如通信、天气和定位等卫星 GPS 服务。
-SIMBA Chain 针对空间碎片问题提出的解决方案，是建立一种准确记录并对空间碎片清理过程进行资助的新方式。通过将空间碎片代币化，以 NFT 的形式表示，可以使用多种不同的经济模型促进空间碎片的清理工作，通过私营企业维持稳定的空间环境。
-链上主动碎片清除基金是 SIMBA 提出的将空间碎片与 NFT 绑定的「回收基金」，在空间碎片被确认得到回收后才会完成支付。SIMBA 还考虑创建「赏金基金」的可行性，通过吸引实体向赏金基…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185971"
-                        open
-                      >
-                        <summary class="article-expander__title">DAOrayaki Podcast：打破“激励诅咒”， 对Nostr及Damus破圈现象的独家思考</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185971">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>简介
-近年来，随着 Defi 项目的不断发展，越来越多的项目被推向市场。然而，这些项目都需要解决一个共同的问题：如何打破狭隘的圈子，吸引更广泛的用户群体。而 Damus 则成为了一个引人注目的案例，它成功吸引了许多圈外用户的关注，这引发了人们对这个项目产生了持续的讨论。
-Damus 是如何做到这一点的呢？它与其他 Defi 项目有何不同的商业化路径？其底层去中心化协议Nostr对破圈现象有多大的助推力？带着这些疑惑，DAOrayaki 社区今天特别邀请到我们的老朋友 Jolestar 老师，带来他对 Nostr Damus 破圈现象，对 Defi 所面临金融化“激励诅咒”的独家思考。
-主持人：Shaun(DAOrayaki 负责人)
-嘉宾：Jolestar（RoochNetwork 发起人）
-正文
-Q：我注意到您最近发了一篇关于 Nostr 和 Damus 的长推文，谈到DeFi项目的商业化之路及“激励诅咒”，特别感兴趣，所以今天逮个机会和您聊一聊。您觉得 DeFi 项目目前的商业路径是怎么样的呢？
-J：DeFi Summer 实际上现在已经过去了，如果我们回顾历史会发现，DeFi 是一个历史上出现过的产物，只是在所有应用里算比较特殊的一类，它特殊的点在哪里呢？因为它的用户群主要是投资者，所以它应用的主要目标是让大家来交换资产或者是去理财。它最初怎么去爆发起来的呢，DeFi 这些借贷平台其实在 17 年 18 年就存在了，为什么在后面才爆发出来，主要是它发现了一个可以冷启动的组合方案。通常情况下，借贷平台在启动的初期会有一个困境，例如在 18 年我去尝试体验借贷平台的时候，发现存以太坊放到平台里只有不到 5% 的年化收益，而且存了之后，也没人借，得不到正反馈的循环。后来项目方发现了一个方式，通过激励，比如发一个 token，然后先激励大家来存钱，不管有没有人借，先有人来存，…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -9015,8 +9057,8 @@ Token
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4523790032">
-        <time id="build-timestamp" datetime="2023-03-26T09:07:14.514Z">2023-03-26T09:07:14.514Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4524014348">
+        <time id="build-timestamp" datetime="2023-03-26T10:07:11.737Z">2023-03-26T10:07:11.737Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
