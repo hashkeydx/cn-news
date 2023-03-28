@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-28T20:08:17.014Z</updated>
+    <updated>2023-03-28T21:06:40.013Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4100,94 +4100,6 @@ Hester Peirce 在 SEC 的角色包括消除信息不对称和促进透明度。
         <link href="https://panewslab.com/zh/articledetails/p6375jjv.html"/>
         <updated>2023-03-24T09:38:40.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月24日消息，韩国区块链平台 Klaytn 推出元宇宙知识包(Metaverse Knowledge Kit)以支持元宇宙开发。该支持包套件包含 3 个关键组件：教育资源、npm 包支持和 API 支持。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arbitrum空投的热潮之下，如何看反女巫机制？]]></title>
-        <id>https://www.theblockbeats.info/news/35918</id>
-        <link href="https://www.theblockbeats.info/news/35918"/>
-        <updated>2023-03-24T09:00:02.000Z</updated>
-        <summary type="html"><![CDATA[在3 月16 日晚空投之后，大批量“撸毛”的用户纷纷被一系列反女巫规则限制，今天，我们就来研究什么是反女巫规则。]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[空投信号？一文解读Starknet Alpha v0.11更新和委员会任命]]></title>
-        <id>https://www.odaily.news/post/5185986</id>
-        <link href="https://www.odaily.news/post/5185986"/>
-        <updated>2023-03-24T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[3 月 15 日，Starknet 在 snapshot 上进行了“Starknet Alpha v 0.11 ”投票的测试。3 月 20 日，Starknet 基金会任命了包括拨备委员会在内的五个委员会。在Arbitrum公布空投方案之际，同为主流Layer 2 之一且估值高达 80 亿美元的 Starkware的项目进展引起了更多关注，Starknet Alpha v 0.11 更新和委员会的任命究竟意味着什么呢？
-Alpha v 0.11 更新内容与影响
-根据官方文档，当前的 Starknet 有 3 个运行环境，其中 Starknet 主网运行的版本是 v 0.10.3 ，两个测试网 Goerli Testnet 1 和 Goerli Testnet 2 运行的是更新的版本 v 0.11.0 。随着 v 0.11.0 已经在测试网上稳定运行一段时间，满足了部署到主网上的条件。
-
-Starknet Alpha v 0.11.0 主要是引入了 Cairo 1.0 智能合约，Cairo 是 Starkware 发布的开源编程语言，本次升级重点是将基于 Cairo 0 的系统过渡到基于 Cairo 1.0 的系统。Cairo 1.0 带来了新的可能性，包括定序器 DOS 保护、抗审查、降低计算成本等。它引入了一个安全中间层 Sierra，可以保证每一个合约的执行都能被证明，这是 Starknet 去中心化的重要属性。在 Starknet v 0.11.0 中，可以声明、部署和运行 Cairo 1.0 智能合约，还引入了一个新的系统调用，允许将现有合约平稳过渡到 Cairo 1.0 。
-Cairo 1.0 和 Sierra 的引入主要有以下几点影响：
-
-新版本的“Declare 交易”允许发送新的类结构；
-
-状态承诺将包括合约类；
-
-链上数据格式的变化；
-
-新的系统调用。
-
-在此之前，Starknet 也已经进行过多次升级，包括为合约引入“类”和“实例”的 Starknet v 0.9.0 ，在交易中引入 nonce 的 Starknet v 0.10.0 ，引入定序器并行化的 Starknet v 0.10.2 等。
-Alpha v 0.11.0 也只是过渡方案
-需要注意，即将在主网更新的 Alpha v 0.11.0 也只是过渡性版本，官方将“Cairo 1.0 的测试——Alpha v 0.11.0 ——仅支持 Cairo 1.0 ”的路径称之为“再生之路”。Starknet Alpha v 0.11.0 可以兼容用新旧版本的 Cairo 语言编写的合约，在再生之前，新旧合约将能够共存并能够相互影响。再生之后，用旧版本 Cairo 语言编写的类以及这些类实例的合约将不再能得到支持。
-
-再生之路可以保留应用程序的状态，并且不会给 dapps 带来停机。但是在再生过程中中，用户需要对钱包进行更新，Starknet 的 dapps 的开发者需要将合约迁移到 Cairo 1.0 ，并遵循升级指南。
-空投猜测
-可能会有用户关心，本次投票进行的 Alpha v 0.11.0 升级是不是意味着 Starknet 将发行代币并进行空投呢？其实Starknet 的原生代币STRK 早在 2022 年 11 月 16 日就已经部署到了以太坊主网上。STRK 代币总量 100 亿枚，将作为参与 Starknet 共识机制的质押代币，还将作为网络的治理代币和支付网络交易 gas 费的代币。虽然不能确定升级就是即将进行空投的信号，但也可能是重要的时间节点。
-另外重要的一点，从测试投票开始，这些投票者就已经拥有 STRK 代币的投票权，说明 Starknet 可能已经向部分参与者分发了代币。近期，STRK 开始频繁转账，大部分代币仍然由外部地址持有，但已经开始向合约地址转移。
-
-空投规则可能已经开始制定中
-3 月 20 日，Starknet 基金会宣布任命 5 个委员会，每个委员会都被赋予一项关键任务，这些委员会包括：
-
-拨备委员会
-
-早期采用者拨款委员会
-
-开发者合作委员会
-
-治理委员会
-
-生态系统入职委员会
-
-其中，拨备委员会负责规划、监督和执行 Starknet 生态系统代币 STRK 的拨备。该委员会将确保 STRK 代币公平、透明和去中心化的分配，监督为用户提供 STRK 代币，评估并向 Starknet 基金会提供符合条件的群体的建议。用户的空投规则很可能由拨款委员会制定。如果是开发者，已经开始在 Starknet 上构建项目的团队可以获得早期采用者拨款委员会的资助，其他开发者也可以通过开发者合作委员会引入 Starknet 生态系统。
-可以认为，Starknet 的空投标准可能已经在制定中，空投可能会在不久的将来到来。]]></summary>
-        <author>
-            <name>PANews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从dYdX最新提案看社区治理和DAO的共识创建]]></title>
-        <id>https://www.theblockbeats.info/news/35920</id>
-        <link href="https://www.theblockbeats.info/news/35920"/>
-        <updated>2023-03-24T08:54:52.000Z</updated>
-        <summary type="html"><![CDATA[本文将以 dYdX 的数次重要转折为引，分析其社区治理思路的变化，总结 DAO 在共识建立等方面的挑战。]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase Ventures投资，10个值得关注的DeFi项目]]></title>
-        <id>https://www.theblockbeats.info/news/35919</id>
-        <link href="https://www.theblockbeats.info/news/35919"/>
-        <updated>2023-03-24T08:30:03.000Z</updated>
-        <summary type="html"><![CDATA[「大公司背书的项目通常都是潜力股」]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：比特币内存池已接近1GB，或由现货交易驱动]]></title>
-        <id>https://panewslab.com/zh/articledetails/bz4g33tn.html</id>
-        <link href="https://panewslab.com/zh/articledetails/bz4g33tn.html"/>
-        <updated>2023-03-24T08:14:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月24日消息，据Cryptoslate报道，Glassnode数据显示，比特币内存池容量已接近1 GB，数据显示当前有超过6万笔交易未确认，不过出现这种情况可能不是因为Ordinals铭文导致，分析认为本次比特币内存池容量扩大很可能由现货交易驱动。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
