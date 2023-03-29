@@ -2550,6 +2550,36 @@
       "siteUrl": "https://www.odaily.news",
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5186091",
+          "author": "区块律动BlockBeats",
+          "description": "原文作者：LeftOfCenter\n就在大家都为 Arbitrum 空投狂欢时，一款 Arbitrum 生态的图片分享应用 Stealcam 正在默默积蓄力量，短短两周，在不靠空投预期也没有发行 token 的情况下，仅靠自然增长累积交易量就超过了 313 ETH（约合 50 万美金），OP Stack 核心开发团队 Base 开发主管 Jesse Pollak 评价其为「自己最爱的一款独特的链上新产品。」\n\n这款近日有点小火的 Web3 产品名为 Stealcam，说它小火是因为加密行业的热点和关注度往往与 TVL 有关，从这个指标看，它确实只是一个有点小火甚至不值一提的应用。\n然而，在没有空投预期也没有发 token 的产品 beta 期，这款图片应用仍获得了一定的有机增长，beta 版仅上线两周产生的总交易量达 50 万美金，仅靠在原有图片应用的基础上加入了新的分发模式（将人类的窥私欲+名人效应+所有者经济模型巧妙地结合起来），就吸引了大量艺术家、KOLs、VC 合伙人的入驻，并获得了不错的口碑。\nStealcam 是什么？\n简单来说，Stealcam 是一款图片社交分享应用，用户可上传图片或视频文件至该平台上，这一点上和普通的互联网拍照应用无异。\n不同的是，该平台上发布的图片不是免费访问，而需要 steal（支付一定费用，目前仅支持 ETH 支付）才能获得 reveal（开图）权，然后查看图片的具体内容。\n「开图权」并非无限期享有，只有当你是该图片的最新一个开图者时才能查看该图片的内容，\n每张图片都可被无限次 steal，每一次 steal 都会在前一次 steal 价格的基础上增长 10% 并加上 0.001 ETH。如果一张图片非常热门，参与 steal 的人很多，那么有可能在你 steal 完后想要 reveal 时就已经被其他人 steal 走了（steal…",
+          "link": "https://www.odaily.news/post/5186091",
+          "publishedOn": "2023-03-29T09:30:00.000Z",
+          "wordCount": 2160,
+          "title": "详解Arbitrum热门应用Stealcam：窥私欲与所有者经济的完美结合",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5186088",
+          "author": "十文",
+          "description": "随着各大公链以及新项目接连发币空投，ZK Rollup 系成为了所有羊毛党们关注的下一个空投焦点。目前，市场上已经有多家项目在研究和部署相关产品，我们较为熟悉的有  zkSync、StarkNet、Scroll 和 Polygon zkEVM。\nConsenSys zkEVM 作为一个新的 zk-rollup 网络，与上述几家相比没那么引人注目，但它是由 ConsenSys 公司研发设计的，并由 ConsenSys 负责运营。它提供了与以太坊虚拟机（EVM）的完整兼容性。ConsenSys zkEVM 的目标是成为“字节码兼容级别”的 zkEVM，使开发人员可以更轻松地在 Layer 2    上构建和维护应用程序。此外，ConsenSys zkEVM 不使用转译器或自定义编译器为 Solidity 智能合约生成 zk 证明。 他们采用的是编译后的 Solidity 字节码。 这种方法可以降低漏洞和黑客攻击的表面风险。并且他们提供的创新的证明者设计可确保更快的交易速度和更低的 Gas 成本。\n去年 12 月，ConsenSys zkEVM 推出私人测试网，该测试网运行三个月，并在前几周内就达到了 150 万笔交易。3 月 28 日，ConsenSys zkEVM 测试网正式上线，并更名为 Linea，开发人员可以使用 MetaMask、Truffle 和 Infura 等熟悉的工具部署和管理应用程序。Linea 允许构建者创建可扩展的 dapps 或迁移现有的 dapps，而无需更改代码或重写智能合约。为了简化 zkEVM 的构建，Linea 现在作为 MetaMask 扩展的默认测试网选项提供，这将使开发人员和用户能够快速加入测试网并探索现有的应用程序。\n\n据悉，Linea 正在为即将启动的 NFT 测试网作准备。\n\n目前有接近 20 个项目已参与 Linea 测试网，下面就跟着Odaily星球日报的教程一起来体验下吧。\n交互前准备\n一、你需要在 Metamask 钱包里存入一点 Goerli ETH；可以在此处列出的可用水龙头中选择一个并获取。\n二、在 Metamask 钱包中添加 Linea 网络。你可以在该页面找到添加网络所用到的数据。\n\n\n交互教程\n一、进入 Linea 的官网，点击 Bridge，我们先将资金从 Goerli 测试网桥接到 Linea 测试网中。\n\n\n跳转到的是 Hop 测试网，我们需要链接钱包，然后选择想要兑换的代币数量，确认之后点击 Send，你需要在钱包内签署交易。\n\n我们尽可能将该页面的所有功能都交互一遍。下面可以点击 Faucet，铸造一些 USDC 和 HOP 代币。然后点击 Send 将铸造好的 USDC 和 HOP 再桥接至 Linea 测试网中。\n\n\n\n\n然后我们再点击 Convert，将 ETH 包装成 WETH。\n\n包装好之后，再通过 Convert 将 WETH 换成 hETH。\n\n\n紧接着，我们点击 Pool，存入刚才兑换好的代币，以添加流动性。\n\n\n出现下图代表添加流动性成功。\n\n\n至此，该页面的四个功能我们基本都交互一遍了。\n二、返回到 Linea 的网站。我们点击 Swap。\n\n\n在 MetaMask 钱包中选择 Linea 网络连接 Uniswap，然后体验一下兑换代币。兑换完代币后，可以点击 Pool，以添加流动性。目前可添加的代币对很少。如果在添加流动性的时候遇到报错，可以后续再体验。\n\n三、都体验完毕之后，再次回到 Linea 的网站。我们点击 Explore，可以看到 Linea 测试网上已经有 20 多个项目，我们可以持续关注该页面，选择能够交互的项目继续完成交互测试。",
+          "link": "https://www.odaily.news/post/5186088",
+          "publishedOn": "2023-03-29T09:01:07.000Z",
+          "wordCount": 1828,
+          "title": "Linea（ConsenSys zkEVM）测试网交互指南",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5186090",
+          "author": "链捕手",
+          "description": "原文作者：西柚，ChainCatcher\n3 月 27 日，Polygon zkEVM 主网测试版本（Beta）正式上线发布，以太坊创始人Vitalik Buterin 已在 Polygon zkEVM 主网上完成了其首笔交易。\n不过，MATIC 代币价格并没有因此按照用户预期上涨，反而 24 小时内还下跌了 5% ，现报价 1.04 美元。当然，这在一定程度上受大盘的影响，主要原因是目前仅为测试版上线，或许需要等主网正式上线才能真正看到影响。\n相比币安的 FUD 事件，市场对于 zkEVM 主网测试版的关注热度似乎并不高。尽管如此，Polygon zkEVM 主网的发布，说明ZK Rollup扩容方案在与 EVM 兼容的问题上已有重大突破。\nPolygon zkEVM 主网与现有的大多数以太坊智能合约、开发工具和钱包都可以无缝协作，支持以太坊开发者一键迁移应用至链上；用户也可通过熟悉的以太坊钱包使用“zkEVM-testnet RPC”节点体验其链上生态应用。\n根据 Polygon zkEVM 浏览器显示，主网测试版上线不到 24 小时内，已完成 7821 笔交易，提交了 598 批交易，生成了 7873 个区块。\nPolygon zkEVM 原理\nPolygon zkEVM 是基于 ZK Rollup 技术搭建的以太坊 Layer 2 层 zkEVM 扩容方案，ZK Rollup 是利用“零知识证明”验证方式来落实 Rollup 的扩容方案。\n具体来说，在 ZK Rollup 扩容方案下，链下（Layer 2 ）执行交易、完成复杂计算，将多个交易数据批量处理压缩打包之后，会创建一个链下计算的“零知识证明”结果，提交至主网（Layer 1 ）进行证明校验，主网上验证者可以快速检查此证明是否正确，并将数据部分存储在在主网上，共享主网的安全性。\n零知识证明的数据验证方式正是 …",
+          "link": "https://www.odaily.news/post/5186090",
+          "publishedOn": "2023-03-29T08:18:33.000Z",
+          "wordCount": 2012,
+          "title": "Polygon zkEVM主网测试版上线，将如何影响Polygon生态？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.odaily.news/post/5186076",
           "author": "BixinVentures",
           "description": "原文作者：DX, Henry Ang, Mustafa Yilham, Allen Zhao, Jermaine Wong & Jinhao，Bixin Ventures\n区块链被称之为“信任机器”，用户构建网络无需中心化监管机构许可（permisionless）——比特币是一切的起点，它通过 PoW 共识机制帮助矿工就价值分配达成共识从而创建了一个信任层，一切价值传输发生在这个信任层之上。\n但比特币的一个问题是，它更像一条只支持转账功能的单一应用链（application specific blockchain），其他的应用如 Namecoin 需要再去创建自己的信任层以便运行，这为应用创新设置了巨大的障碍。以太坊的开创性在于，它在比特币的创新之上添加了一层通用的图灵完备的执行层（即 EVM）。在将应用层和信任层进行拆分后，应用可以直接在以太坊上部署自己的智能合约，并得到信任层的安全保证，无须从头创建自己的信任层。\n\nThe Merge 后，以太坊从 PoW 共识转变为 PoS 共识，相比于 PoW 机制需要矿工使用硬件比拼算力达成共识，PoS 机制要求节点质押一定资金投票达成共识，诚实的节点得到网络奖励，一旦违反规则，也会因此受到惩罚，这样做有两点好处：\n\n首先，惩罚机制可以在破坏收益（Profit from Corruption）不变的情况下提高破坏成本（Cost of Corruption），有助于提升信任层的经济安全性。\n\n其次，实现协议对节点更精细的治理结构，在拓展节点治理能力的同时对节点行为有更多维度的引导。例如以太坊可以根据一段期间内的罚没总金额动态决定恶意节点的罚没金额，加重对于恶意串通节点的惩罚力度；或者在inactivity leak模式，即太多节点下线以至于在四个 epochs 中共识都无法达成最终性时，以太坊可以通过罚没下线节点资金来恢复最终性，保…",
