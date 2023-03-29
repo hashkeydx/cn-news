@@ -2,10 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-03-29T07:07:52.276Z</updated>
+    <updated>2023-03-29T08:11:00.626Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bixin Ventures：EigenLayer将成为ETH信任层的保障]]></title>
+        <id>https://www.odaily.news/post/5186076</id>
+        <link href="https://www.odaily.news/post/5186076"/>
+        <updated>2023-03-29T07:22:17.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：DX, Henry Ang, Mustafa Yilham, Allen Zhao, Jermaine Wong & Jinhao，Bixin Ventures
+区块链被称之为“信任机器”，用户构建网络无需中心化监管机构许可（permisionless）——比特币是一切的起点，它通过 PoW 共识机制帮助矿工就价值分配达成共识从而创建了一个信任层，一切价值传输发生在这个信任层之上。
+但比特币的一个问题是，它更像一条只支持转账功能的单一应用链（application specific blockchain），其他的应用如 Namecoin 需要再去创建自己的信任层以便运行，这为应用创新设置了巨大的障碍。以太坊的开创性在于，它在比特币的创新之上添加了一层通用的图灵完备的执行层（即 EVM）。在将应用层和信任层进行拆分后，应用可以直接在以太坊上部署自己的智能合约，并得到信任层的安全保证，无须从头创建自己的信任层。
+
+The Merge 后，以太坊从 PoW 共识转变为 PoS 共识，相比于 PoW 机制需要矿工使用硬件比拼算力达成共识，PoS 机制要求节点质押一定资金投票达成共识，诚实的节点得到网络奖励，一旦违反规则，也会因此受到惩罚，这样做有两点好处：
+
+首先，惩罚机制可以在破坏收益（Profit from Corruption）不变的情况下提高破坏成本（Cost of Corruption），有助于提升信任层的经济安全性。
+
+其次，实现协议对节点更精细的治理结构，在拓展节点治理能力的同时对节点行为有更多维度的引导。例如以太坊可以根据一段期间内的罚没总金额动态决定恶意节点的罚没金额，加重对于恶意串通节点的惩罚力度；或者在inactivity leak模式，即太多节点下线以至于在四个 epochs 中共识都无法达成最终性时，以太坊可以通过罚没下线节点资金来恢复最终性，保…]]></summary>
+        <author>
+            <name>BixinVentures</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[123页法庭文件还原FTX投资Mysten Labs的情况：透露了哪些SUI的信息？]]></title>
+        <id>https://www.odaily.news/post/5186087</id>
+        <link href="https://www.odaily.news/post/5186087"/>
+        <updated>2023-03-29T07:05:24.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：Sui World
+近日，根据相关法庭文件披露，Mysten Labs 3 月 22 日与 FTX 债务人达成协议，将以 9630 万美元的现金回购 FTX 对 Mysten Labs 的股权投资和 SUI Token 权证。长达 123 页的文件，详细还原了 2022 年 8 月 FTX 投资 Mysten Labs 的情况。结合法庭文件和 Sui 近期的一系列动作，Sui World 进行了一些总结及分析：
+
+1、 Mysten Labs 约 20 亿美元估值
+完成超 3 亿美元的 B 轮融资这个融资信息是去年的公开消息了。FTX 及 B 轮投资者们通过投资 Mysten Labs 的 B 轮优先股权，获得了 Sui Token 的 Token 权证。
+2、 FTX 约 1.02 亿美元获得约 8.9 亿枚 Sui Token
+FTX 在 Mysten Labs 的 B 轮融中总共投资了 1.02 亿美元，获得了约 57 万股优先股，和获得约 8.9 亿枚 Sui Token 的 Token 认购权证。作为领投方的 FTX 投资 Sui Token 的平均成本是非常低的，约 0.114 美元。
+FTX 这里有两笔获得 SUI Token 权证非常重要：Cottonwood Grove Limited（Alameda）和 FTX Trading 分别以 500 美元的价格获得了约 1.73 亿和 3.46 亿枚共计 5.19 亿枚 Sui Token 的 Token 权证。
+这 5.19 枚 Sui Token 在 Sui NetWork 主网上线和 Sui Token 启动后，满足一定条件，将用于在 FTX 平台上做市交易。（Sui World 注：Cottonwood Grove Limited 是 Alameda Research 全资控股公司）作为曾经的头部交易平台和做市商，FTX 领投 Sui 超过 1 亿美元的的一个重要条件，就是旗下的做市商 Alameda 和 FTX Trading 几乎免费拿到了 5.19 亿枚 Sui Token 用于在 FTX.com 平台上做市。但是随着 FTX 在 Sui 启动之前就崩溃了，这个 Token  权证的协议也不存在了。
+3、部分 B 轮投资者的 Sui Token 筹码成本约为 0.28-0.31 美元
+抛开 FTX 的做市筹码部分，其他部分 B 轮投资者获得 Sui Token Token 权证的成本仍然可以参考 FTX Ventures，平均成本约在 0.28-0.31 美元之间。
+4、Sui 将收回大量低成本的机构筹码
+除了约 0.28-0.31 美元之间的 Sui Token 投资筹码，对于领投方 FTX 来说，还额外获得了 5.19 亿枚 Sui Token 的做市筹码。如今 Mysten Labs 以 9630 万美元的现金回购 FTX 对 Mysten Labs 的股权投资和 SUI Token  权证，意味着收回了大量 FTX 低成本的投资筹码和做市筹码。对于未来上线的 Sui Token 来说是个好事。
+值得提的是，FTX 同样也以相似的估值、投资金额领投了另一条 Move 链 Aptos，FTX 对 Aptos 的投资方案或和 Sui 非常相似，即 FTX 持有大量（超过流通量 1/3 ）低成本的投资筹码和做市筹码。这意味着在 FTX 崩溃之前上线的 Aptos，部分低价筹码已经进入市场，没出售完的筹码也会等待 FTX 债权人的处置方案。
+5、FTX 债务人可以继续「向其它第三方寻求更高的报价」
+文件还披露，目前 FTX 债务人可以继续「向其它第三方寻求更高的报价」，直到法院最终确定出售日期。Mysten Labs 的股权投资和 Sui  Token 权证对于不少机构来说还是有吸引力的。
+6、SUI 主网上线少了最大的外部障碍
+处理完与 FTX 债务人的问题，也就处理了 SUI 主网上线的最大的一个外部障碍。SUI 主网上线与 Sui Token 的发布，不用考虑来自 FTX 此前的投资筹码的处理问题。
+7、 9630 万美元对应了 1 亿美元基金
+9630 万美元的现金回购一旦完成，对于去年刚融资超过 3 亿美元的 Mysten Labs 来说，短期并无财务影响。长期的影响或主要在于 Mysten Labs 对 Web3 的一些布局，比如投资、收购 Web3 项目。
+这也对应上了此前的消息，Mysten Labs 首席执行官 Evan Cheng 正寻求为一个 Web3 基金筹集超 1 亿美元资金，该基金将不限于 Sui 生态。Hashed 联合创始人 Alex Shin 和资深对冲基金投资者 Sandeep Ramesh 将作为普通合伙人加入新创立的 Web3 风险基金。  
+原文链接]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：某巨鲸地址将价值5200万美元的ETH转至Kraken]]></title>
         <id>https://panewslab.com/zh/articledetails/pno5ti79.html</id>
@@ -18,6 +67,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Layer 2 zkEVM新贵，Linea测试网的交互教程]]></title>
+        <id>https://www.theblockbeats.info/news/36037</id>
+        <link href="https://www.theblockbeats.info/news/36037"/>
+        <updated>2023-03-29T06:44:17.000Z</updated>
+        <summary type="html"><![CDATA[「融资金额堪称L 2最大，提前进行测试网交互，埋伏空投」]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Safemoon CEO：漏洞已修复且其他LP池未受影响，用户资金安全]]></title>
         <id>https://panewslab.com/zh/articledetails/7vv5fv2v.html</id>
         <link href="https://panewslab.com/zh/articledetails/7vv5fv2v.html"/>
@@ -26,6 +85,76 @@
 此前今日早些时候消息，DeFi协议SafeMoon遭遇攻击，其流动资金池损失约890万美元。根据Beosin的报道，SafeMoon攻击者在链上向项目方表示想归还资金；不过，SafeMoon漏洞利用者系一个MEV机器人，曾对多种协议进行了多次攻击，尚不能判断攻击者所述是否可信。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊Shapella（上海+Capella）升级官方指南]]></title>
+        <id>https://www.odaily.news/post/5186085</id>
+        <link href="https://www.odaily.news/post/5186085"/>
+        <updated>2023-03-29T06:37:15.000Z</updated>
+        <summary type="html"><![CDATA[来自：Ethereum.org，作者：以太坊协议支持团队
+
+Odaily 星球日报译者 | Moni
+
+
+在 Goerli 测试网顺利完成过渡后，ETH 提现功能终于要来了！
+以太坊 Shapella 网络升级将于 epoch 194948 激活，预计时间将会在 UTC 时间 2023 年 4 月 12 日 22: 27: 35 ，值得一提的是，即日起至 4 月 5 日，针对 Shapella 漏洞的以太坊漏洞赏金奖励翻倍。
+本次升级将遵循 The Merge 并使验证者能够将他们的质押的 ETH 从信标链撤回到执行层，此外升级还为以太坊执行层和共识层引入了一些新功能，具体如下：
+升级规格
+1、“上海”升级
+本次包含“上海”升级的执行层更改，主要包括：
+
+EIP-3651 ：Warm COINBASE
+
+EIP-3855 ：PUSH 0 指令
+
+EIP-3860 ：限制和计量初始化代码
+
+EIP-4895 ：信标链推送取款操作
+
+EIP-6049 ：弃用 SELFDESTRUCT 
+
+需要注意的是，EIP-6049 只是一个弃用警告，客户端团队希望 SELFDESTRUCT 语义在未来的网络升级中发生变化，但操作码的行为在上海升级中保持不变。
+2、Capella 升级
+以太坊 v1.3.0-rc.5 规范中指定了 Capella 升级对共识层的更改，在高层次上，本次升级将引入： 
+
+验证者的全部和部分提款
+
+BLSToExecutionChange 消息，允许验证者使用 BLS_WITHDRAWAL_PREFIX 将其更新为 ETH 1 _ADDRESS_WITHDRAWAL_PREFIX，这是取款的先决条件
+
+独立状态和区块历史累加器，取代原来单一的历史 Roots
+
+客户端发布
+以下客户端版本支持以太坊主网上的 上海 & Capella 升级，之前的 Shapella 版本仅支持测试网部署，与主网升级不兼容。在选择运行哪个客户端时，验证者应该特别注意在执行层（EL）和共识层（CL）上运行多数客户端的风险。可以在此处找到对这些风险及其后果的解释，在此处找到对当前执行层和共识层客户端分布的评估，以及从一个客户端切换到另一个客户端的指南。
+1、共识层主网发布
+
+注意：运行验证器时，共识层信标节点和验证器客户端都必须更新。
+2、执行层主网发布
+
+
+注意：在 Erigon v2.41.0 中发现了一个问题，此版本不适用于 Shapella 升级，Erigon 用户应升级到 v2.42.0 。
+常问问题
+1、作为以太坊用户或 ETH 持有者，我需要做些什么吗？
+简而言之，不。
+如果您使用交易所、数字钱包或硬件钱包，则无需执行任何操作，除非您的交易所或钱包提供商通知您采取额外步骤。
+如果您运行自己的以太坊节点，请参阅下一个问题。
+2、作为非质押节点运营商，我需要做什么？
+为了与主网升级兼容，请将您的节点更新为上表中列出的以太坊客户端版本。
+3、作为质押者，我需要做什么？
+为了与主网升级兼容，请将您的节点更新为上表中列出的以太坊客户端版本。确保您的信标节点和验证器客户端都已更新！
+此外还建议您阅读提款常见问题解答。
+4、如果我是质押者或节点运营商但是不参与本次升级，会怎样？
+如果您使用的是未更新到最新版本（如上所列）的以太坊客户端，一旦升级发生，您的客户端将同步到预分叉区块链。
+按照旧规则，您将被困在一条不兼容的链上，将无法发送 Ether 或在后 Shapella 以太坊网络上运行。
+5、作为应用程序或工具开发人员，我应该怎么做？
+Shapella 不会对智能合约进行重大更改，应用程序和工具开发人员应查看升级更改内容以确保已完成任何相关升级和修复，或了解如何使用新引入的功能。
+也就是说，应用程序开发人员应该知道，从上海开始，SELFDESTRUCT 操作码被视为已弃用，虽然它的语义不会作为此网络升级的一部分而改变，但可能会在后续网络升级中发生变化。有关详细信息，请参阅 EIP-6049 。
+6、为什么叫“Shapella”这个名字？
+执行层的升级遵循 Devcon 城市名称，共识层的升级遵循恒星名称。“Shapella”是 Devcon 2 的举办地上海和北方星座御夫座中最亮的恒星 Capella 的组合。
+7、我在哪里可以观看 Shapella 升级直播？
+EthStaker 和 Ethereum Cat Herders 正在举办 Shapella 升级派对，在升级上线前不久开始。你可以在这里收看。]]></summary>
+        <author>
+            <name>Moni</name>
         </author>
     </entry>
     <entry>
@@ -48,6 +177,36 @@
 据悉，所谓的“扣留账户”小组是由美国一些州的客户组成的，由于监管机构的停止令，Celsius无法为他们提供可用的托管账户。 这些人可以选择将资金转移到扣留账户，而这些资金仍被冻结。数据显示，在Celsius停止提款时，其管理的大约120亿美元资产中，扣留账户仅占1450万美元。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EigenLayer获5000万美元融资，以太坊二次质押叙事为何引人关注？]]></title>
+        <id>https://www.theblockbeats.info/news/36036</id>
+        <link href="https://www.theblockbeats.info/news/36036"/>
+        <updated>2023-03-29T06:03:54.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Bixin Ventures: 我们为什么投资 EigenLayer？》
+原文来源：Binxin Venture
+
+
+区块链被称之为「信任机器」，用户构建网络无需中心化监管机构许可（permisionless）——比特币是一切的起点，它通过 PoW 共识机制帮助矿工就价值分配达成共识从而创建了一个信任层，一切价值传输发生在这个信任层之上。
+
+
+但比特币的一个问题是，它更像一条只支持转账功能的单一应用链（application specific blockchain），其他的应用如 Namecoin 需要再去创建自己的信任层以便运行，这为应用创新设置了巨大的障碍。以太坊的开创性在于，它在比特币的创新之上添加了一层通用的图灵完备的执行层（即 EVM）。在将应用层和信任层进行拆分后，应用可以直接在以太坊上部署自己的智能合约，并得到信任层的安全保证，无须从头创建自己的信任层。
+
+
+
+
+
+The Merge 后，以太坊从 PoW 共识转变为 PoS 共识，相比于 PoW 机制需要矿工使用硬件比拼算力达成共识，PoS 机制要求节点质押一定资金投票达成共识，诚实的节点得到网络奖励，一旦违反规则，也会因此受到惩罚，这样做有两点好处：
+
+
+首先，惩罚机制可以在破坏收益（Profit from Corruption）不变的情况下提高破坏成本（Cost of Corruption），有助于提升信任层的经济安全性。
+
+
+其次，实现协议对节点更精细的治理结构，在拓展节点治理能力的同时对节点行为有更多维度的引导。例如以太坊可以根据一段期间内的罚没总金额动态决定恶意节点的罚没金额，加重对于恶意串通节点的惩罚力度；或者在 inactivity leak 模式，即太多节点下线以至于在四个 epochs 中共识都无法达成最终性时，以太坊可以通过罚没下线节点资金来恢复最终性，保证整个网络活性。
+依赖…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>
