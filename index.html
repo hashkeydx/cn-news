@@ -51,11 +51,296 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-01 datetime="2023-04-01T07:35:35.000Z">2023-04-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-01 datetime="2023-04-01T07:35:35.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-01 datetime="2023-04-01T08:00:00.000Z">2023-04-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-01 datetime="2023-04-01T08:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186160"
+                        open
+                      >
+                        <summary class="article-expander__title">新叙事 or 伪命题？Azuki提出的PBT方案进展如何？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186160">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《把NFT带进现实的 PBT 方案，对潮牌、潮玩的吸引力有多大？》
+原文作者：北辰
+原文来源：链茶馆
+在数字化的时代，将资产映射为数据是大势所趋，今天在区块链上创建数字资产并不难，难的是创建的资产有价值。
+区块链世界的资产形式往往是 FT 和 NFT（以及链茶馆此前介绍的介于二者之间的 SFT），它们在链上的逻辑是成立的，可以准确描述资产并高效流通，但很难用来描述（或者说锚定）链下的资产。
+Azuki 去年 10 月份推出的 PBT（Physical Backed Token）标准就是一种把现实资产映射到链上的解决方案，虽然推出至今没有多大起色，但我们仍认为这种方案（至少是这种思路）很有前景。
+PBT 方案本质上是 NFT（EIP-721 ）的扩展，它的模式被概括为「Scan to Own」。
+简单来说就是给实物（例如滑板）装个芯片，每个芯片对应了一个 NFT，在交易实物的时候，买方扫一下芯片，卖方的钱包会跳出 NFT 转移请求，同意后就会连 NFT 都转移给对方。
+
+这里的芯片是由 Azuki 与 Kong 合作创建的 BEAN 芯片，可以自动生成非对称密钥对。
+对于 crypto 原教旨主义者来说，这种方式就跟若干年前的溯源链一样没劲，因为区块链在这里似乎只是充当了点缀的作用。
+但如果我们站在数字化的浪潮之巅来看 PBT 方案，就会发现它给 NFT 找了个连接现实世界的通道，能够被现实世界的品牌方（从大品牌到小品牌）广泛采用。
+对品牌方来说，PBT 方案的吸引点在于：它可以把所有权从实物资产上剥离出来，这样更有利于流通，而且也真正实现了溯源（单纯获得实物并不意味着你真正拥有它）。
+不过 PBT 方案显然适用于滑板、潮鞋这种有二次流通价值的产品，像一次性内裤就大可不必了……
+尽管如此，PBT 方案面向的市场潜力仍远大于「粉丝代币」。这里说句题外话，在上一轮牛市中，「粉丝代币」的发展对不住「粉丝经济」这么大的体量。我们很看好「粉丝代币」在下一轮牛市中的表现（不是随便发个币来割一茬的那种）。
+正如 Azuki 官方 Chiru Labs 所言，“PBT 能够使品牌和创作者为社区创造下一代的叙事和体验“。相比之下，品牌方买个 Bored Ape 的 NFT 来宣传就是小儿科了。
+第一个支持 PBT 的案例是在去年 10 月份与 PBT 方案一起推出的，Azuki 镀金滑板，全球限量 9 个，售价 250 万美元，创下了滑板拍卖的世界记录。
+然后在 11 月份联合日系街头潮牌 AMBUSH 推出了 4 件单品——两件卫衣和两件吊坠，由 AMBUSH 和 Azuki 的创始人们亲自设计，并邀请横跨美日的流行偶像 Mandy Sekiguchi 担任模特。
+
+之后 Azuki 的 PBT 方案没有了音讯，可能是团队的工作重心放在了元宇宙，向虚拟世界探索就无暇顾及往现实世界拓展。
+当然还有一个原因是 Azuki 的 PBT 方案是在以太坊上，而且还需要定制芯片，最终的成本不适用于大规模生产的商品。
+而继续推进 PBT 方案的是中国的灵境藏品，携手Web3 IP 品牌角麦麦推出《蝴蚂-金斑喙凤蝶》T 恤数藏，解决了成本问题——部署在蚂蚁链，芯片是通用的 NFC。
+
+怎么说呢，路径没问题，但怎么看怎么土狗（无意冒犯，但……）。
+回归到上文所说的 PBT 方案适用领域——有二次流通价值的实物产品，而目前最有可能的切入口是针对 Z 世代的潮牌、潮玩。
+当然，我们认为这需要时间，主要是品牌方了解、接受并付诸于行动需要时间。至于有没有品牌方或者 VC 愿意尝试这个方案，欢迎讨论交流～</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186148"
+                        open
+                      >
+                        <summary class="article-expander__title">Foresight Ventures市场周报：市场延续强势，空投热度再起</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186148">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>市场观点：
+一、宏观流动性
+货币流动性改善。美国政府正考虑扩表提供额外流动性，托底银行危机。美联储加息周期接近尾声，市场预期 5 月最后一次加息。美元指数徘徊 7 周低位，纳斯达克指数创 6 周新高，BTC 创反弹新高，未来风险资产都有进一步上涨空间。
+
+二、全市场行情
+市值排名前 100 涨幅榜：
+
+本周市场震荡上涨，BTC 统治率处于 48% 的 9 个月高位。币安交易所、孙宇晨等被美国监管起诉。市场主线集中在撸空投，未发币的高市值项目 ZkSync、Starknet、LayerZero 等成为交互热点。
+
+KAS：POW 公链 Kaspa 使用 Block DAG 技术，主要继承了 ETH 的矿卡算力，已超过 ETC 成为第一 POW 链。
+
+JOE：Avalanche 链的头部 dex 的 Trader Joe 近期推出v2版本类似 Uni v3的集中流动性，提高了资本利用效率。最近 Joe 上线 Arbitrum 链，在 ARB 空投过程中1inch聚合交易流动性较好，日交易量达到 1 亿美元，接近去年 11 月高点。
+
+SXP：币安交易所支持支付板块的 SXP 主网升级。韩国资金炒作 SXP，成交量主要在 Upbit 韩国交易所。
+
+三、BTC 行情
+1 ）链上数据
+BTC 投资者获利回吐开始升温。本周交易所净交易流量增加了 4200 个 BTC，这是自 2022 年 5 月 LUNA 崩盘以来的最大净增幅。投资者卖出的代币仍相对较新，即短期持有者以获利回吐为主。
+
+资金面基本持平，以存量博弈为主。由于稳定币的供应量从高位下降 20% ，投资者应该担心这轮反弹的上限。
+
+长期趋势指标 MVRV-ZScore 以市场总成本作为依据，反映市场总体盈利状态。当指标大于 6 时，是顶部区间；当指标小于 2 时，是底部区间。MVRV 跌破关键水平 1 ，持有者总体上处于亏…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186166"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点11家ETHGlobal「Scaling Ethereum 2023」黑客松决赛项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186166">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>3 月 31 日，由 ETHGlobal 主办的「Scaling Ethereum 2023 」主题黑客松正式落幕。
+本届黑客松最终筛选出了 11 家决赛入围项目，涉及了钱包、DeFi、游戏、基础设施等多个领域。这些项目将共同分享由 ETHGlobal 联合 Optimism、Polygon、Scroll、zkSync Era 等 17 家项目提供的 175000 美元奖金。接下来，Odaily 星球日报就带大家一起来了解下这 11 家入围项目。
+
+
+Snarky Monsters
+获奖主页：https://ethglobal.com/showcase/snarky-monsters-1 ei 3d 
+Snarky Monsters 是一个《宝可梦》风格的链上游戏，该游戏最大的特点是“maximally on-chain”，即最大限度的上链。
+当前，完全上链的游戏运行起来非常慢，为了解决这个问题，Snarky Monsters 选择了将计算放在链下执行，然后再通过 zk 证明在链上进行验证。通过使用加密承诺生成可验证随机性的状态通道，Snarky Monsters 的玩家能够以极低的延迟与 NPC 以及其他玩家进行交互。
+链下代理和链上行为之间的交互当前依然非常困难，但为了丰富游戏的可玩性，让复杂的交互行为成为可能也非常重要，Snarky Monsters 认为他们已经走在了这条路上。
+ZKlinks
+
+获奖主页：https://ethglobal.com/showcase/zklinks-scalable-l2-referral-link-tracking-6 mna 3 
+ZKlinks 是一个基于零知识证明创建的的推荐链接跟踪系统，相较于 bit.ly 等传统的此类服务，ZKlinks 拥有以下几项优势。
+
+一是隐私保护，ZKlinks 利用零知识证明实现了更强的隐私…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186168"
+                        open
+                      >
+                        <summary class="article-expander__title">EIP4361：探索Web2到Web3账户体系变革</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186168">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：万物研究院 | 从 EIP 4361 ，探索 Web2 到 Web3 账户体系变革
+原文作者：陈剑 Jason
+
+EIP 4361 是与以太坊登录相关的技术规范标准提案，以太坊登录 SiwE（Sign-in with Ethereum）是一种去中心化的身份验证方法，它使用户能够使用他们的以太坊账户实现统一登录并控制身份，而不是依赖于由中心化的公司用的传统用户名/密码身份验证，Vitalik 在之前的访谈中曾经提出了认为 2023 年 Web3 的三个最大机会，其中就包括以太坊登录，他表示任何有助于以太坊从 Facebook、google 和 twitter 等中心化垄断企业手中夺走登录权的技术，最终都会使以太坊在互联网应用程序中获得更多市场主导地位，所以登录体系是 Vitalik 认为争抢下一个 10 亿人重要的方向。
+其实对于以太坊来说现在我能够感受到其内部的焦虑感，虽然以太坊当前的地位看似不可撼动，但现在面对的竞争压力也非常的大，尤其是前有 aptos、sui 这些高性能新公链，后又有以 Cosmos 为代表的应用链行业链，所以这也是以太坊必须如此坚决的转 POS、搞 Layer、做分片等动作的原因，在共识和性能上做出优化加筹码，另一方面也是在面对 C 端的入口级领域如 ENS 和登录等领域做的更深，与 C 端深度绑定打造自己的护城河，另外值得注意的是 EIP 4361 背后有三家支持方，分别为以太坊基金会、ENS 和 Spruce，除以太坊基金会外另外两家都是 DID 公司，某种程度可以说是两家 DID 公司与以太坊基金会一起建立行业标准，所以该标准不能完全具备中立性，能看到文档中与 ENS 绑定也比较深度，包括可以解析 ENS 域名等。
+其中 ENS 大家已经很熟悉了，对于 Spruce 比较陌生，中文区几乎少有对它的报道和解读，它的使命是一家致力于让用户…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186124"
+                        open
+                      >
+                        <summary class="article-expander__title">OmniChain的未来：第一个可实现完全互操作性的L1公链ZetaChain</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186124">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>在本篇报告中，我们将详细介绍 ZetaChain 的跨链机制，并将现有跨链技术与 ZetaChain 的 Omnichain 功能进行详细对比，引导读者深入了解 ZetaChain。在阅读这篇报告后，我们希望读者能解决以下疑问：ZetaChain 是什么？与其他跨链项目相比，ZetaChain 在技术上有何关键创新？ZetaChain 目前的生态发展情况如何？
+下面是报告中的部分要点：
+ZetaChain 是什么？
+通俗来说，ZetaChain 是一条公共区块链，允许人们在比特币和以太坊等不同区块链之间发送信息和转移加密资产，且无需任何中间人或额外步骤。这通过 Omnichain 功能实现，它将所有不同的区块链连接在一起，以便人们轻松地移动资产和信息。ZetaChain 还允许开发人员构建适用于所有链的去中心化应用程序，从而可以轻松地从一个地方管理所有内容。
+现有跨链通信技术
+
+目前市场中常见的跨链桥资金转移方案主要有两种：【锁定/销毁 + 铸造】和【流动性互换】。
+
+目前市场中的跨链桥协议一般使用两种跨链通信技术：【单方/多方验证】和【中继器+轻客户端】。
+
+
+从对比中可以看出，大部分早期跨链桥协议，如 WBTC 多使用【锁定/销毁 + 铸造】方案进行跨链资产传递；而较新的跨链协议，如 Stargate、Synapse 则大多选择了【流动性互换】方案。
+根据统计，截至 2023 年 3 月 16 日，DefiLlama 上 TVL 总量最高的 10 个跨链桥协议中，有 8 个协议主要使用【锁定/销毁 + 铸造】方案。仅有 Stargate 和 Synapse 两个协议单独使用【流动性互换】方案。
+
+现有跨链桥的局限性
+
+在【锁定+铸造】方案中，资金跨链需要使用包装资产作为原生资产的替代品才能实现资金的转移。
+
+【流动性互换】方案则不支持非智能合约平台和链接网络内不可用的资产。
+
+在【单方/多方验证】中，单方验证是中心化的。
+
+在【中继器 + 轻客户端】中，第三方中继器的部署成本较高。
+
+ZetaChain 的创新
+
+为了解决现阶段跨链协议的弊端并实现全链跨链功能，ZetaChain 开发了一系列用于跨链资金传递和通用多链编排的工具：Omnichain 智能合约、账户以及消息传递。
+
+此外，在验证机制方面，ZetaChain 计划结合【中继器】和【多方验证方案】，使用网络内分布式验证节点架构以及阈值签名方案 TSS 验证交易。
+
+
+ZetaChain 如何实现 Omnichain 跨链功能？
+ZetaChain 分布式验证节点网络
+ZetaChain 的跨链通信功能主要靠其网络内的分布式验证节点实现。它计划利用自己网络内的验证节点代替中继器和预言机，帮助验证跨链交易信息并实现喂价功能。
+
+ZetaChain Omnichain 账户/TSS
+ZetaChain 的 Omnichain 账户允许用户连接包括智能合约平台、非智能合约平台在内的全部区块链网络，以实现资金的全链跨链转移。它作为交易的基站，用于管理和验证与外部链相关的交易。具体交易验证由阈值签名方案 TSS 支持。
+
+ZetaChain Omnichain 智能合约/通信
+借助 Omnichain 智能合约，开发者可以构建不同种类的 Omnichain DApps（odApps）。开发者仅需通过 zEVM 在 ZetaChain 网络上部署单个智能合约，即可连接包括 ZetaChain 本身在内的所有目标链。zEVM 上的合约与 ZetaChain 的互操作性层相连，能够协调外部链上的资产，实现链与链之间的资产跨链转移。
+
+ZetaChain 生态
+社群
+ZetaChain 目前在包括 Twitter、Telegram、Discord 在内的多个社交媒体上运营官方账户，支持超过 20 种语言。社群总人数超过 100 万。
+链上生态
+针对测试网相关链上数据，ZetaChain 发布了自己的区块链浏览器，Zetascan。Zetascan 可以观测 Athens-2 测试网的运行情况，数据维度包括跨链交易数据、ZetaChain 本地交易数据、DApp 合约部署数据等。
+
+合作伙伴
+ZetaChain 与多个涉及不同领域的主要项目/协议达成了合作关系，希望通过其主要的 Omnichain 跨链技术帮助这些项目/协议解锁更多跨链用例并实现可覆盖全链的数据/资产转移。根据 ZetaChain，目前已确定将部署在 ZetaChain 上的 Omnichain DApp 包括 DEX、Identity 基础设施（Galxe）、社交协议（CyberConnect）、DAO（STP） 等。
+上面是这整篇报告的部分关键内容，详细内容请下载报告全文阅读。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185828"
+                        open
+                      >
+                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0325-0331）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185828">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
+
+因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
+下面，来和我们一起阅读吧：
+
+投资
+跨越牛熊周期的隐士：加密做市商
+加密市场的流动性相对较低，波动较大，做市商需要更加谨慎做好风险管理；又因为加密市场的交易过程很难被监管，也没有严格的做市商制度来约束。交易所、项目方与市商之间的关系变得更加复杂。市商业务不仅仅在中心化交易所产生，还涉及链上做市，并以此为基础开始出现一些为做市服务的中间件和协议。在技术架构方面，加密行业需要具备更高的技术能力，保证交易的安全性。
+加密市商仍然有很大的发展和盈利空间。加密做市商在未来也会呈现一些传统金融做市商的发展特点：做市参与者逐渐多元化；做市品种多元化；业务杠杆高；市商头部效应越发明显。
+在投资领域，可以关注中心化的小型市商策略或服务类项目、解决互操作性的工具、以及 CeDeFi 项目。
+撸空投正确姿势：五个案例告诉你如何避免“被女巫”
+项目方查女巫很耗费时间和精力，并非易事。而过往查到的女巫行为很大一部分来自于社区的举报。
+翻看 Hop 社区举报的案例，被判定为女巫的主要是因为多个钱包之间存在资金关联或短时间内大量钱包进行类似的操作。
+为了避免“被女巫”，不要在链上进行资金分发/归集，用交易所代替；避免短时间集中的批量行为，做到操作的随机化；低调，不要公开自己的地址；尽可能丰富自己的链上行为。
+掌握财富密码：一文梳理 15 个免费加密信息渠道
+The Daily Degen、Linn&#x27;s Leverage、Another Day in Cry…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186164"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点即将首发上线的8个热门项目（4月第一弹）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186164">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>近日，部分山寨币兑比特币汇率触底反弹，似乎暗示着新一轮山寨季即将来临，市场对于新项目的关注度随之上升。4 月，Odaily星球日报甄选了近期即将在多个平台首发的项目名单，并分别做简要介绍。
+
+
+项目名：Reign of Terror
+官网：https://reignofterror.io/
+简介：Reign of Terror 是区块链游戏开发团队 Red Door Digital（RDD）开发的一款具有赛博朋克风格的元宇宙 GameFi 游戏。游戏中大量使用亚洲的传统建筑风格和赛博朋克建筑风格融合，具有非常鲜明的时代特点。玩家通过各种战斗和竞争获取资源，玩家体验各种故事情节并通过任务获得 NFT 等奖励，从而实现 Play to Earn 的目标。
+Red Door Digital 成立于 2020 年，团队成员主要来自 EA Games、Ubisoft 育碧、腾讯、网易等知名游戏厂商的高管，并在游戏领域拥有超过 10 年的工作经验。2022 年 3 月获得了 500 万美元的融资，投资机构主要包括 M 6、Shima Capital、Maven Capital、Cryptology Asset Group 和 LucidBlue Ventures 等。
+公募详情：Reign of Terror 计划于 4 月 4 日在 Spores Network 进行 IDO，出售代币 800 万个代币 ROT，单价 0.0125 美元，计划募资 10 万美元。详情点击：https://spores.medium.com/spores-launchpad-to-host-reign-of-terror-a-cyberpunk-game-world-connected-by-a-single-ecosystem-5 b 1 e 45800 ed 0 
+
+项目名：Glory Financ…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -583,247 +868,6 @@
                             <span class="media-object__text">
                               <span>PANews 3月31日消息，推特用户@tier10k发推称，法庭文件显示，美国政府于 3 月 14 日出售了 9,861 枚 BTC，并打算在一年中分四批出售另外 41,500 枚与丝绸之路相关的 BTC。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186148"
-                        open
-                      >
-                        <summary class="article-expander__title">Foresight Ventures市场周报：市场延续强势，空投热度再起</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186148">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>市场观点：
-一、宏观流动性
-货币流动性改善。美国政府正考虑扩表提供额外流动性，托底银行危机。美联储加息周期接近尾声，市场预期 5 月最后一次加息。美元指数徘徊 7 周低位，纳斯达克指数创 6 周新高，BTC 创反弹新高，未来风险资产都有进一步上涨空间。
-
-二、全市场行情
-市值排名前 100 涨幅榜：
-
-本周市场震荡上涨，BTC 统治率处于 48% 的 9 个月高位。币安交易所、孙宇晨等被美国监管起诉。市场主线集中在撸空投，未发币的高市值项目 ZkSync、Starknet、LayerZero 等成为交互热点。
-
-KAS：POW 公链 Kaspa 使用 Block DAG 技术，主要继承了 ETH 的矿卡算力，已超过 ETC 成为第一 POW 链。
-
-JOE：Avalanche 链的头部 dex 的 Trader Joe 近期推出v2版本类似 Uni v3的集中流动性，提高了资本利用效率。最近 Joe 上线 Arbitrum 链，在 ARB 空投过程中1inch聚合交易流动性较好，日交易量达到 1 亿美元，接近去年 11 月高点。
-
-SXP：币安交易所支持支付板块的 SXP 主网升级。韩国资金炒作 SXP，成交量主要在 Upbit 韩国交易所。
-
-三、BTC 行情
-1 ）链上数据
-BTC 投资者获利回吐开始升温。本周交易所净交易流量增加了 4200 个 BTC，这是自 2022 年 5 月 LUNA 崩盘以来的最大净增幅。投资者卖出的代币仍相对较新，即短期持有者以获利回吐为主。
-
-资金面基本持平，以存量博弈为主。由于稳定币的供应量从高位下降 20% ，投资者应该担心这轮反弹的上限。
-
-长期趋势指标 MVRV-ZScore 以市场总成本作为依据，反映市场总体盈利状态。当指标大于 6 时，是顶部区间；当指标小于 2 时，是底部区间。MVRV 跌破关键水平 1 ，持有者总体上处于亏…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186166"
-                        open
-                      >
-                        <summary class="article-expander__title">盘点11家ETHGlobal「Scaling Ethereum 2023」黑客松决赛项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186166">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>3 月 31 日，由 ETHGlobal 主办的「Scaling Ethereum 2023 」主题黑客松正式落幕。
-本届黑客松最终筛选出了 11 家决赛入围项目，涉及了钱包、DeFi、游戏、基础设施等多个领域。这些项目将共同分享由 ETHGlobal 联合 Optimism、Polygon、Scroll、zkSync Era 等 17 家项目提供的 175000 美元奖金。接下来，Odaily 星球日报就带大家一起来了解下这 11 家入围项目。
-
-
-Snarky Monsters
-获奖主页：https://ethglobal.com/showcase/snarky-monsters-1 ei 3d 
-Snarky Monsters 是一个《宝可梦》风格的链上游戏，该游戏最大的特点是“maximally on-chain”，即最大限度的上链。
-当前，完全上链的游戏运行起来非常慢，为了解决这个问题，Snarky Monsters 选择了将计算放在链下执行，然后再通过 zk 证明在链上进行验证。通过使用加密承诺生成可验证随机性的状态通道，Snarky Monsters 的玩家能够以极低的延迟与 NPC 以及其他玩家进行交互。
-链下代理和链上行为之间的交互当前依然非常困难，但为了丰富游戏的可玩性，让复杂的交互行为成为可能也非常重要，Snarky Monsters 认为他们已经走在了这条路上。
-ZKlinks
-
-获奖主页：https://ethglobal.com/showcase/zklinks-scalable-l2-referral-link-tracking-6 mna 3 
-ZKlinks 是一个基于零知识证明创建的的推荐链接跟踪系统，相较于 bit.ly 等传统的此类服务，ZKlinks 拥有以下几项优势。
-
-一是隐私保护，ZKlinks 利用零知识证明实现了更强的隐私…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186168"
-                        open
-                      >
-                        <summary class="article-expander__title">EIP4361：探索Web2到Web3账户体系变革</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186168">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：万物研究院 | 从 EIP 4361 ，探索 Web2 到 Web3 账户体系变革
-原文作者：陈剑 Jason
-
-EIP 4361 是与以太坊登录相关的技术规范标准提案，以太坊登录 SiwE（Sign-in with Ethereum）是一种去中心化的身份验证方法，它使用户能够使用他们的以太坊账户实现统一登录并控制身份，而不是依赖于由中心化的公司用的传统用户名/密码身份验证，Vitalik 在之前的访谈中曾经提出了认为 2023 年 Web3 的三个最大机会，其中就包括以太坊登录，他表示任何有助于以太坊从 Facebook、google 和 twitter 等中心化垄断企业手中夺走登录权的技术，最终都会使以太坊在互联网应用程序中获得更多市场主导地位，所以登录体系是 Vitalik 认为争抢下一个 10 亿人重要的方向。
-其实对于以太坊来说现在我能够感受到其内部的焦虑感，虽然以太坊当前的地位看似不可撼动，但现在面对的竞争压力也非常的大，尤其是前有 aptos、sui 这些高性能新公链，后又有以 Cosmos 为代表的应用链行业链，所以这也是以太坊必须如此坚决的转 POS、搞 Layer、做分片等动作的原因，在共识和性能上做出优化加筹码，另一方面也是在面对 C 端的入口级领域如 ENS 和登录等领域做的更深，与 C 端深度绑定打造自己的护城河，另外值得注意的是 EIP 4361 背后有三家支持方，分别为以太坊基金会、ENS 和 Spruce，除以太坊基金会外另外两家都是 DID 公司，某种程度可以说是两家 DID 公司与以太坊基金会一起建立行业标准，所以该标准不能完全具备中立性，能看到文档中与 ENS 绑定也比较深度，包括可以解析 ENS 域名等。
-其中 ENS 大家已经很熟悉了，对于 Spruce 比较陌生，中文区几乎少有对它的报道和解读，它的使命是一家致力于让用户…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186124"
-                        open
-                      >
-                        <summary class="article-expander__title">OmniChain的未来：第一个可实现完全互操作性的L1公链ZetaChain</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186124">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>在本篇报告中，我们将详细介绍 ZetaChain 的跨链机制，并将现有跨链技术与 ZetaChain 的 Omnichain 功能进行详细对比，引导读者深入了解 ZetaChain。在阅读这篇报告后，我们希望读者能解决以下疑问：ZetaChain 是什么？与其他跨链项目相比，ZetaChain 在技术上有何关键创新？ZetaChain 目前的生态发展情况如何？
-下面是报告中的部分要点：
-ZetaChain 是什么？
-通俗来说，ZetaChain 是一条公共区块链，允许人们在比特币和以太坊等不同区块链之间发送信息和转移加密资产，且无需任何中间人或额外步骤。这通过 Omnichain 功能实现，它将所有不同的区块链连接在一起，以便人们轻松地移动资产和信息。ZetaChain 还允许开发人员构建适用于所有链的去中心化应用程序，从而可以轻松地从一个地方管理所有内容。
-现有跨链通信技术
-
-目前市场中常见的跨链桥资金转移方案主要有两种：【锁定/销毁 + 铸造】和【流动性互换】。
-
-目前市场中的跨链桥协议一般使用两种跨链通信技术：【单方/多方验证】和【中继器+轻客户端】。
-
-
-从对比中可以看出，大部分早期跨链桥协议，如 WBTC 多使用【锁定/销毁 + 铸造】方案进行跨链资产传递；而较新的跨链协议，如 Stargate、Synapse 则大多选择了【流动性互换】方案。
-根据统计，截至 2023 年 3 月 16 日，DefiLlama 上 TVL 总量最高的 10 个跨链桥协议中，有 8 个协议主要使用【锁定/销毁 + 铸造】方案。仅有 Stargate 和 Synapse 两个协议单独使用【流动性互换】方案。
-
-现有跨链桥的局限性
-
-在【锁定+铸造】方案中，资金跨链需要使用包装资产作为原生资产的替代品才能实现资金的转移。
-
-【流动性互换】方案则不支持非智能合约平台和链接网络内不可用的资产。
-
-在【单方/多方验证】中，单方验证是中心化的。
-
-在【中继器 + 轻客户端】中，第三方中继器的部署成本较高。
-
-ZetaChain 的创新
-
-为了解决现阶段跨链协议的弊端并实现全链跨链功能，ZetaChain 开发了一系列用于跨链资金传递和通用多链编排的工具：Omnichain 智能合约、账户以及消息传递。
-
-此外，在验证机制方面，ZetaChain 计划结合【中继器】和【多方验证方案】，使用网络内分布式验证节点架构以及阈值签名方案 TSS 验证交易。
-
-
-ZetaChain 如何实现 Omnichain 跨链功能？
-ZetaChain 分布式验证节点网络
-ZetaChain 的跨链通信功能主要靠其网络内的分布式验证节点实现。它计划利用自己网络内的验证节点代替中继器和预言机，帮助验证跨链交易信息并实现喂价功能。
-
-ZetaChain Omnichain 账户/TSS
-ZetaChain 的 Omnichain 账户允许用户连接包括智能合约平台、非智能合约平台在内的全部区块链网络，以实现资金的全链跨链转移。它作为交易的基站，用于管理和验证与外部链相关的交易。具体交易验证由阈值签名方案 TSS 支持。
-
-ZetaChain Omnichain 智能合约/通信
-借助 Omnichain 智能合约，开发者可以构建不同种类的 Omnichain DApps（odApps）。开发者仅需通过 zEVM 在 ZetaChain 网络上部署单个智能合约，即可连接包括 ZetaChain 本身在内的所有目标链。zEVM 上的合约与 ZetaChain 的互操作性层相连，能够协调外部链上的资产，实现链与链之间的资产跨链转移。
-
-ZetaChain 生态
-社群
-ZetaChain 目前在包括 Twitter、Telegram、Discord 在内的多个社交媒体上运营官方账户，支持超过 20 种语言。社群总人数超过 100 万。
-链上生态
-针对测试网相关链上数据，ZetaChain 发布了自己的区块链浏览器，Zetascan。Zetascan 可以观测 Athens-2 测试网的运行情况，数据维度包括跨链交易数据、ZetaChain 本地交易数据、DApp 合约部署数据等。
-
-合作伙伴
-ZetaChain 与多个涉及不同领域的主要项目/协议达成了合作关系，希望通过其主要的 Omnichain 跨链技术帮助这些项目/协议解锁更多跨链用例并实现可覆盖全链的数据/资产转移。根据 ZetaChain，目前已确定将部署在 ZetaChain 上的 Omnichain DApp 包括 DEX、Identity 基础设施（Galxe）、社交协议（CyberConnect）、DAO（STP） 等。
-上面是这整篇报告的部分关键内容，详细内容请下载报告全文阅读。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185828"
-                        open
-                      >
-                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0325-0331）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185828">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
-
-因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
-下面，来和我们一起阅读吧：
-
-投资
-跨越牛熊周期的隐士：加密做市商
-加密市场的流动性相对较低，波动较大，做市商需要更加谨慎做好风险管理；又因为加密市场的交易过程很难被监管，也没有严格的做市商制度来约束。交易所、项目方与市商之间的关系变得更加复杂。市商业务不仅仅在中心化交易所产生，还涉及链上做市，并以此为基础开始出现一些为做市服务的中间件和协议。在技术架构方面，加密行业需要具备更高的技术能力，保证交易的安全性。
-加密市商仍然有很大的发展和盈利空间。加密做市商在未来也会呈现一些传统金融做市商的发展特点：做市参与者逐渐多元化；做市品种多元化；业务杠杆高；市商头部效应越发明显。
-在投资领域，可以关注中心化的小型市商策略或服务类项目、解决互操作性的工具、以及 CeDeFi 项目。
-撸空投正确姿势：五个案例告诉你如何避免“被女巫”
-项目方查女巫很耗费时间和精力，并非易事。而过往查到的女巫行为很大一部分来自于社区的举报。
-翻看 Hop 社区举报的案例，被判定为女巫的主要是因为多个钱包之间存在资金关联或短时间内大量钱包进行类似的操作。
-为了避免“被女巫”，不要在链上进行资金分发/归集，用交易所代替；避免短时间集中的批量行为，做到操作的随机化；低调，不要公开自己的地址；尽可能丰富自己的链上行为。
-掌握财富密码：一文梳理 15 个免费加密信息渠道
-The Daily Degen、Linn&#x27;s Leverage、Another Day in Cry…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186164"
-                        open
-                      >
-                        <summary class="article-expander__title">盘点即将首发上线的8个热门项目（4月第一弹）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186164">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>近日，部分山寨币兑比特币汇率触底反弹，似乎暗示着新一轮山寨季即将来临，市场对于新项目的关注度随之上升。4 月，Odaily星球日报甄选了近期即将在多个平台首发的项目名单，并分别做简要介绍。
-
-
-项目名：Reign of Terror
-官网：https://reignofterror.io/
-简介：Reign of Terror 是区块链游戏开发团队 Red Door Digital（RDD）开发的一款具有赛博朋克风格的元宇宙 GameFi 游戏。游戏中大量使用亚洲的传统建筑风格和赛博朋克建筑风格融合，具有非常鲜明的时代特点。玩家通过各种战斗和竞争获取资源，玩家体验各种故事情节并通过任务获得 NFT 等奖励，从而实现 Play to Earn 的目标。
-Red Door Digital 成立于 2020 年，团队成员主要来自 EA Games、Ubisoft 育碧、腾讯、网易等知名游戏厂商的高管，并在游戏领域拥有超过 10 年的工作经验。2022 年 3 月获得了 500 万美元的融资，投资机构主要包括 M 6、Shima Capital、Maven Capital、Cryptology Asset Group 和 LucidBlue Ventures 等。
-公募详情：Reign of Terror 计划于 4 月 4 日在 Spores Network 进行 IDO，出售代币 800 万个代币 ROT，单价 0.0125 美元，计划募资 10 万美元。详情点击：https://spores.medium.com/spores-launchpad-to-host-reign-of-terror-a-cyberpunk-game-world-connected-by-a-single-ecosystem-5 b 1 e 45800 ed 0 
-
-项目名：Glory Financ…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10450,8 +10494,8 @@ CCP Games 曾在 2021 年 11 月与 Tezos 区块链合作，发行「Kill Certif
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4582140930">
-        <time id="build-timestamp" datetime="2023-04-01T08:08:50.060Z">2023-04-01T08:08:50.060Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4582367341">
+        <time id="build-timestamp" datetime="2023-04-01T09:06:30.620Z">2023-04-01T09:06:30.620Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
