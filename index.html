@@ -298,41 +298,78 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36114"
+                        data-accordion-key="https://www.odaily.news/post/5186124"
                         open
                       >
-                        <summary class="article-expander__title">解读以太坊POS工作原理：Epoch、Slot 与信标区块</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36114">
+                        <summary class="article-expander__title">OmniChain的未来：第一个可实现完全互操作性的L1公链ZetaChain</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186124">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>使用权益证明的以太坊的独特性在于参与者数量的最大化设计。它允许成百上千和成千上万的验证者活跃地参与决策过程。在笔者撰文时已经有大约 50 万的验证者实体（从协议的角度而言）在活跃地参与这个过程。</span>
+                              <span>在本篇报告中，我们将详细介绍 ZetaChain 的跨链机制，并将现有跨链技术与 ZetaChain 的 Omnichain 功能进行详细对比，引导读者深入了解 ZetaChain。在阅读这篇报告后，我们希望读者能解决以下疑问：ZetaChain 是什么？与其他跨链项目相比，ZetaChain 在技术上有何关键创新？ZetaChain 目前的生态发展情况如何？
+下面是报告中的部分要点：
+ZetaChain 是什么？
+通俗来说，ZetaChain 是一条公共区块链，允许人们在比特币和以太坊等不同区块链之间发送信息和转移加密资产，且无需任何中间人或额外步骤。这通过 Omnichain 功能实现，它将所有不同的区块链连接在一起，以便人们轻松地移动资产和信息。ZetaChain 还允许开发人员构建适用于所有链的去中心化应用程序，从而可以轻松地从一个地方管理所有内容。
+现有跨链通信技术
+
+目前市场中常见的跨链桥资金转移方案主要有两种：【锁定/销毁 + 铸造】和【流动性互换】。
+
+目前市场中的跨链桥协议一般使用两种跨链通信技术：【单方/多方验证】和【中继器+轻客户端】。
+
+
+从对比中可以看出，大部分早期跨链桥协议，如 WBTC 多使用【锁定/销毁 + 铸造】方案进行跨链资产传递；而较新的跨链协议，如 Stargate、Synapse 则大多选择了【流动性互换】方案。
+根据统计，截至 2023 年 3 月 16 日，DefiLlama 上 TVL 总量最高的 10 个跨链桥协议中，有 8 个协议主要使用【锁定/销毁 + 铸造】方案。仅有 Stargate 和 Synapse 两个协议单独使用【流动性互换】方案。
+
+现有跨链桥的局限性
+
+在【锁定+铸造】方案中，资金跨链需要使用包装资产作为原生资产的替代品才能实现资金的转移。
+
+【流动性互换】方案则不支持非智能合约平台和链接网络内不可用的资产。
+
+在【单方/多方验证】中，单方验证是中心化的。
+
+在【中继器 + 轻客户端】中，第三方中继器的部署成本较高。
+
+ZetaChain 的创新
+
+为了解决现阶段跨链协议的弊端并实现全链跨链功能，ZetaChain 开发了一系列用于跨链资金传递和通用多链编排的工具：Omnichain 智能合约、账户以及消息传递。
+
+此外，在验证机制方面，ZetaChain 计划结合【中继器】和【多方验证方案】，使用网络内分布式验证节点架构以及阈值签名方案 TSS 验证交易。
+
+
+ZetaChain 如何实现 Omnichain 跨链功能？
+ZetaChain 分布式验证节点网络
+ZetaChain 的跨链通信功能主要靠其网络内的分布式验证节点实现。它计划利用自己网络内的验证节点代替中继器和预言机，帮助验证跨链交易信息并实现喂价功能。
+
+ZetaChain Omnichain 账户/TSS
+ZetaChain 的 Omnichain 账户允许用户连接包括智能合约平台、非智能合约平台在内的全部区块链网络，以实现资金的全链跨链转移。它作为交易的基站，用于管理和验证与外部链相关的交易。具体交易验证由阈值签名方案 TSS 支持。
+
+ZetaChain Omnichain 智能合约/通信
+借助 Omnichain 智能合约，开发者可以构建不同种类的 Omnichain DApps（odApps）。开发者仅需通过 zEVM 在 ZetaChain 网络上部署单个智能合约，即可连接包括 ZetaChain 本身在内的所有目标链。zEVM 上的合约与 ZetaChain 的互操作性层相连，能够协调外部链上的资产，实现链与链之间的资产跨链转移。
+
+ZetaChain 生态
+社群
+ZetaChain 目前在包括 Twitter、Telegram、Discord 在内的多个社交媒体上运营官方账户，支持超过 20 种语言。社群总人数超过 100 万。
+链上生态
+针对测试网相关链上数据，ZetaChain 发布了自己的区块链浏览器，Zetascan。Zetascan 可以观测 Athens-2 测试网的运行情况，数据维度包括跨链交易数据、ZetaChain 本地交易数据、DApp 合约部署数据等。
+
+合作伙伴
+ZetaChain 与多个涉及不同领域的主要项目/协议达成了合作关系，希望通过其主要的 Omnichain 跨链技术帮助这些项目/协议解锁更多跨链用例并实现可覆盖全链的数据/资产转移。根据 ZetaChain，目前已确定将部署在 ZetaChain 上的 Omnichain DApp 包括 DEX、Identity 基础设施（Galxe）、社交协议（CyberConnect）、DAO（STP） 等。
+上面是这整篇报告的部分关键内容，详细内容请下载报告全文阅读。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
                       </details>
                     </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
@@ -390,6 +427,37 @@ Red Door Digital 成立于 2020 年，团队成员主要来自 EA Games、Ubiso
 项目名：Glory Financ…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36114"
+                        open
+                      >
+                        <summary class="article-expander__title">解读以太坊POS工作原理：Epoch、Slot 与信标区块</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36114">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>使用权益证明的以太坊的独特性在于参与者数量的最大化设计。它允许成百上千和成千上万的验证者活跃地参与决策过程。在笔者撰文时已经有大约 50 万的验证者实体（从协议的角度而言）在活跃地参与这个过程。</span>
                             </span>
                           </div>
                         </a>
@@ -9085,66 +9153,6 @@ BlockFi将通过其服务商将退款分配给前客户，目前正等待破产�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/op1psls7.html"
-                        open
-                      >
-                        <summary class="article-expander__title">币安第一任首席合规官Samuel Lim也遭起诉</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/op1psls7.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月27日消息，美国商品期货交易委员会（CFTC）提交的诉讼信息显示，币安第一任首席合规官Samuel Lim也遭起诉，CFTC表示，Samuel Lim至少在2022年1月之前一直担任该职位，目前居住在新加坡，但币安拒绝提供其新加坡住址以回应CFTC的调查传票。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/hlbc12cw.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国CFTC将寻求在币安案件中对其实施永久性的交易和注册禁令</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/hlbc12cw.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月27日消息，美国商品期货交易委员会（CFTC）指控币安向美国交易员提供未经注册的期货和期权合约。美国商品期货交易委员会（CFTC）将寻求在币安案件中对其实施永久性的交易和注册禁令。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/bo7k6agh.html"
-                        open
-                      >
-                        <summary class="article-expander__title">CZ回应遭起诉：忽略FUD</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/bo7k6agh.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月27日消息，币安创始人CZ回应“Binance及其CEO因违反监管规定被美CFTC起诉”事件时，引用其年初发布的“2023专注目标及建议”的第四条款作出回应，“Ignore FUD, fake news, attacks, etc.”，即忽略 FUD消息、假新闻、恶意攻击等。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10108,8 +10116,8 @@ Binance 运营着世界上最大的中心化数字资产交易平台，出现在
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4580996225">
-        <time id="build-timestamp" datetime="2023-04-01T03:07:34.777Z">2023-04-01T03:07:34.777Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4581230458">
+        <time id="build-timestamp" datetime="2023-04-01T04:08:29.911Z">2023-04-01T04:08:29.911Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
