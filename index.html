@@ -51,11 +51,63 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-02 datetime="2023-04-02T02:00:21.000Z">2023-04-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-02 datetime="2023-04-02T02:00:21.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-02 datetime="2023-04-02T02:04:08.000Z">2023-04-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-02 datetime="2023-04-02T02:04:08.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186127"
+                        open
+                      >
+                        <summary class="article-expander__title">区块链性能测试与优化-上篇</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186127">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>大纲
+本篇文章目的是通过具体示例（cosmos-sdk SimApp），介绍完整的性能项目过程，具体内容介绍区块链性能测试中使用的：
+
+1. 基本概念
+
+2. 常用工具
+
+3. 性能调优的常见情况
+
+这 3 块内容涵盖的内容非常多，每一个内容都有很多书籍和文章介绍，详细的内容不会出现在本文中。
+基本概念
+区块链的性能测试，方法论上与传统的性能测试没有不同。性能测试有很多混乱的概念，这里我列出本文描述概念做一些定义。
+性能测试的定义
+性能测试是对系统或者服务的性能指标建立监控策略，在特定场景下执行测试，分析判断性能瓶颈并调优，最终得出性能结果来评估系统或者服务的性能指标是否满足既定值。这里结合 cosmos-sdk 的 simapp 区块链来解释。
+
+1. 需要明确指标，一般指两类指标: 技术指标、业务指标。技术指标一般是 TPS，响应时间，资源利用率，对应到区块链一般是指每秒可以处理多少笔交易？这些交易的响应时间或者统计结果是多少？在这种情况下系统使用的资源处于什么状态？期望满足的业务指标，应该来源于生产环境统计，以 cosmos-sdk 的生产应用 cosmos-hub 为例，其现阶段出块时间大约 6 秒，每个区块中的交易数大多数小于 10 。期望的业务指标设定为 TPS 为 100 是较为合理的。（这么低的 TPS 其实是与 cosmos-hub 的目标有关，因为其主要关注点在链的互操作性）。
+
+2. 测试模型: 是真实场景的抽象，描述业务模型是什么样的。以 cosmos-hub 为例大致就是，分布在全球的区块链节点，在验证者节点约 500 个，活跃验证者节点约为 200 的情况下处理交易。测试时可以按比例抽象实际情况。
+
+3. 测试方案: 包括测试环境，测试数据，测试模型，性能指标等。对比区块链系统的测试，就是确定测试架构，准备好如 1000 个用户，每个用户余额 1…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -8636,58 +8688,10 @@ Odaily星球日报讯 Euler Finance 攻击者地址于北京时间今日凌晨�
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-28 datetime="2023-03-28T14:49:58.000Z">2023-03-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-28 datetime="2023-03-28T14:49:58.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PANews - 快讯</button>
-                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/snvfmi5e.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Polygon zkEVM现已完全开源，漏洞赏金高达100万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/snvfmi5e.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月28日消息，Polygon Labs宣布其 Polygon zkEVM 已在AGPL v3许可下完全开源。Polygon zkEVM 主网测试版也已经同步启动。目前已经设置了高达 100 万美元的漏洞赏金用于记录关键漏洞。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4586477307">
-        <time id="build-timestamp" datetime="2023-04-02T02:31:16.971Z">2023-04-02T02:31:16.971Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4586612322">
+        <time id="build-timestamp" datetime="2023-04-02T03:07:18.097Z">2023-04-02T03:07:18.097Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
