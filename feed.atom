@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-05T21:07:09.313Z</updated>
+    <updated>2023-04-05T22:06:28.950Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[知情人士：币安已拒绝收购孙宇晨在Huobi的股份]]></title>
+        <id>https://panewslab.com/zh/articledetails/59vpi4cw.html</id>
+        <link href="https://panewslab.com/zh/articledetails/59vpi4cw.html"/>
+        <updated>2023-04-05T21:56:29.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月6日消息，据CoinDesk报道，据一位知情人士透露，币安最近已拒绝收购孙宇晨在Huobi的股份。随后孙宇晨在推特发文称，一直将币安视为最重要的合作伙伴之一，并将继续与他们在各个层面密切合作。然而在过去一周，他没有向赵长鹏作出任何收购Huobi股份的提议，他们甚至在过去一周左右的时间里没有讨论过Huobi。Huobi无意变更所有权。据彭博社此前报道，孙宇晨已经就出售Huobi的股份进行了谈判。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[火必上线“FTX账户查询服务”]]></title>
+        <id>https://panewslab.com/zh/articledetails/njoycvi1.html</id>
+        <link href="https://panewslab.com/zh/articledetails/njoycvi1.html"/>
+        <updated>2023-04-05T21:39:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月6日消息，据官方消息，火必上线“FTX账户查询服务”，FTX用户可以使用客户代码在火必和Poloniex查询FTX账户余额。如果不清楚客户代码，用户可以通过其在FTX帐户中持有的货币以及大致金额进行模糊搜索。孙宇晨随后推特发文，称他也是FTX的债权人之一，并表示火必致力于与社区合作，确保FTX用户和债权人最终能收回尽可能多的资产。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[浅析BTC Stamps：比特币NFT的新风口]]></title>
         <id>https://www.odaily.news/post/5186254</id>
@@ -4799,52 +4819,6 @@ Trader Joe 有什么特别之处？
         <link href="https://panewslab.com/zh/articledetails/lxby2qfk.html"/>
         <updated>2023-04-01T10:06:50.000Z</updated>
         <summary type="html"><![CDATA[PANews 4月1日消息，据Coinpaper报道，欧洲议会议员批准了三项法案草案以加强加密交易监管。该立法涉及洗钱和恐怖主义融资，虽然并不直接针对数字资产，但一旦签署成为法律，匿名转账将限制在1000欧元以内（约1087美元）。此外，新法规或将补充进加密资产市场规则 (MiCA) 法案。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[揭秘Trade Joe V2：如何从Uniswap手里夺取大量Arb交易份额？]]></title>
-        <id>https://www.odaily.news/post/5186163</id>
-        <link href="https://www.odaily.news/post/5186163"/>
-        <updated>2023-04-01T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：CapitalismLab
-最近 Trade joe V2 因为从 Uniswap 手里抢到大量 Arb 交易份额而火爆，币价迅速翻倍。那么其究竟是如何做到的？为其提供流动性又需要注意些什么？
-本文将带你深入浅出的了解 Joe V2 的机制，分析其为何能在 $ARB 交易中获取大量份额，以及产品的优劣势，帮助你更好地理解 DEX。
-
-Trade Joe V2 简单概括：
-
-AMM 类似订单簿，使用非连续流动性
-
-最小价格精度基于比例而非固定数值
-
-垂直聚合流动性带来更好的可组合性
-
-基于 LP 获取的交易手续费和有效 TVL 的来进行流动性激励
-
-AMM 机制
-接下来以 Joe V2 中的 ARB/ETH 20 bps 池为例来进行深入分析，首先我们看一下池的流动性分布，咋一看跟 UNI V3 是挺像的。
-
-那么其根本性不同在什么地方？Joe V2 的一个长条（bin）即对应一个单点价格，就是说除非你把这个 bin 的流动性消耗光，否则价格是不会变化的。比如下图，可以看到该 Bin 内有大约 35 k Arb 和 2 ETH ，如果此时有人按 0.00066 卖了价值 2 E 的 Arb，那么交易的 Bin 就会向左移动一位，价格才会发生变化。
-
-我们再对该池尝试添加流动性，发现是可以添加单点流动性，就是说添加的流动性就在一个价格上，这其实就相当于在订单簿中放一个 Maker 单。那旁边的 Pct Rage = 0.20% 是怎么回事？
-
-我们稍微移动一下右侧滑钮，将价格范围扩大到 2B in，然后计算两个价格的相对差别。
-( 0.00067237272-0.00067103065)/0.00067103065 = 0.20% 
-也就是说 0.20% 就是最小价格精度
-
-我们看下偏离当前价格较大的情况如何，比如 ARB/ETH = 0.0001 的位置。可以得出
-…]]></summary>
-        <author>
-            <name>CapitalismLab</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Santiment：3月发生年内5笔最大额BTC交易，持有10–10,000枚BTC的地址数量正持续减少]]></title>
-        <id>https://panewslab.com/zh/articledetails/907oc7wt.html</id>
-        <link href="https://panewslab.com/zh/articledetails/907oc7wt.html"/>
-        <updated>2023-04-01T09:36:48.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，据DailyHodl报道，加密分析公司Santiment表示，今年迄今为止最大的五笔比特币交易都发生在3月份，其中最大额的一笔交易转移了价值约5.64亿美元的BTC。Santiment总监Brian Quinlivan在该篇博客文章中表示，BTC交易的规模以及比特币鲸鱼数量的减少可能表明大型实体投资机构正试图锁定其投资收益。基于3月份进行的非常大额的交易，以及持有10 – 10,000枚BTC地址占比的继续下滑和逐渐减少（按地址数量）来看，确实为希望看到更高价格的投资者提供了一些合理的警告标志。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
