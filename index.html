@@ -51,212 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-05 datetime="2023-04-05T06:20:20.000Z">2023-04-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-05 datetime="2023-04-05T06:20:20.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-05 datetime="2023-04-05T07:11:24.000Z">2023-04-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-05 datetime="2023-04-05T07:11:24.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36227"
-                        open
-                      >
-                        <summary class="article-expander__title">Worldcoin：AI纪元下的人类</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36227">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《HUMANNESS IN THE AGE OF AI》
-原文来源：Worldcoin
-原文编译：Kxp，BlockBeats
-
-
-人工智能的能力正在迅速接近人类，而在许多细分领域，已经超越了人类。尽管最近大型语言模型（LLM）的兴起表明这些模型变得越来越多才多艺，看起来也更加「通用智能」，它们感觉更加智能是因为它们完美地学习了与人类交互的主要接口：语言。虽然短期内这个突破是否会导致人工通用智能（AGI）还不清楚，但我们现在有的模型被训练成在数字交互中完美地模仿高能人类。有人可能会说，AI 时代已经开始了。
-
-
-
-
-
-
-
-
-
-
-越来越多的人能够以不可控制的方式使用越来越强大的模型。稳定扩散的图像生成模型和生成深度伪造的软件是开源的，Meta 的 LLaMA 语言模型已经被泄漏并可以在笔记本电脑上运行。
- 
-一个显著的短期后果是，直到最近，我们认为基于文本的信息足以证明人类身份，这就是著名的图灵测试。机器人在社交媒体平台上很常见，并参与操纵活动已经有一段时间了。然而，在大多数情况下，它们与真正的人类用户可以区分开来。现在，现代 AI 要么已经通过了图灵测试，要么非常接近通过。这将使未来仅凭智能无法确定人类身份。此外，最近使用深度伪造进行的模仿已经证明，基于视频的身份验证正在变得越来越不可靠。因此，在在线上验证人类身份的可靠方法已经不存在了。
- 
-然而，在数字领域人格证明将是一个至关重要并可能是不可避免的工具，特别是在人类历史的这个新篇章。虽然有各种各样的方法可以实现人格证明（PoP），但至关重要的是，这种重要基础设施要优先考虑隐私、自主权、包容性和去中心化，以造福和保护个人。
- 
-针对这一挑战，Worldcoin 项目发起了一个名为 World ID 的开放身份协议。先进的生成 AI 使得人们可以在数字上生成的数据无法证明一个人的人类身份。因此，重点需要转向通过现实…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36225"
-                        open
-                      >
-                        <summary class="article-expander__title">Polygon眼中与zkSync的zkEVM对比</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36225">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《A comparison of zkEVMs》
-原文作者：Daniel Lubarov
-原文编译：Kxp，BlockBeats
-
-
-随着「zkEVM 战争」的升温，公众讨论了许多关于不同 zkEVM 的优点。但也存在一些错误的信息，因此我们想澄清一些关于 Polygon zkEVM 以及它与其他项目的比较的事实。
- 
-作为 Polygon 的一名员工，我有偏见，但我会尽力保持比较公正。我主要关注 Polygon 的 zkEVM 和 zkSync Era，因为它们已经投入生产使用，并且我不太了解其他 zkEVM 项目。
- 
-zkSync 的 zkEVM 和证明器由 100k 多行代码组成。我尽力提供准确的摘要，如果有任何不准确之处，请告诉我，我会进行更正。
- 
-EVM 兼容性
- 
-Polygon zkEVM 直接执行 EVM 字节码。根据 Vitalik 的分类，它是一种类型 3 的 zkEVM。很快它将成为类型 2；目前我们缺少四个预编译。Scroll 也在努力向类型 2 zkEVM 发展。
- 
-相比之下，zkSync Era 使用不同的字节码格式，通过提供编译器来支持 Solidity。这使它成为一种类型 4 的 zkEVM：它支持 Solidity，但不支持 EVM 字节码本身。例如 Hardhat 这样的工具不能直接使用，尽管可以使用 zkSync 的插件。
- 
-zkSync 认为他们的 zkVM 更加具有未来性，即它可以更好地与 Solidity 以外的语言配合使用。但是，他们的 VM 似乎继承了 EVM 的许多性能特征，例如其 256 位字大小。像 Miden 这样的 zkVM 可能更具有未来性，因为它是为通用计算而设计的，而不是专注于 Solidity。
- 
-性能
- 
-性能一直是 Polygon 的重点，我们的 zkEVM 非常高效。在 CPU 上运…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36224"
-                        open
-                      >
-                        <summary class="article-expander__title">解读LSD「后来者」Frax Finance：如何通过产品套件构建增长飞轮？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36224">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《解读 LSD「后来者」Frax Finance：如何通过产品套件构建增长飞轮？》
-原文来源：ZhouYeMen
-原文编译：LlamaC
-
-
-
-
-Frax Finance 最初是一种混合算法稳定币协议，经过几年的运营，在竞争激励的稳定币赛道成功存活了下来。
-
-
-在 2023 年初凭借其 Liquid Staking Derivative (LSD) 产品 frxETH 再次成为人们关注的焦点。随着 LSD 叙事的泛滥，Frax 凭借其创新的双代币系统成为亮眼的赢家之一。
-
-
-frxETH 将表明 Frax 如何最终成为一个稳定币协议，其目标是增加其稳定币系列（FRAX、frxETH、FPI）的货币溢价。这些稳定币将得到 Frax 的「三位一体」DeFi 原语（如 Fraxswap 和 Fraxlend）的采用。最近，Frax 投票决定将其旗舰稳定币 100% 抵押，标志着其部分抵押时代的结束。
-
-
-
-
-FRAX 稳定币
-
- 
-FRAX 的支持主要由其 AMO 组成，这些 AMO 使其闲置的 USDC 抵押品发挥作用。目前，运营的最大 AMO 是 Curve AMO，它拥有数亿美元的 TVL。虽然 FXS 支持的抵押率由市场决定，但 Frax 的 AMO 会调整 FRAX 的供应以维持价格稳定。这类似于中央银行为其经济进行的公开货币操作。
-
-
-AMO：有几个 AMO 负责不同的操作。Liquidity 和 Curve AMO 将闲置的 USDC 抵押品和铸币 FRAX 部署到不同的 DEX 中，以创造流动性并锚定挂钩。因此，Frax 赚取从 LP 头寸产生的交易收入以及发放到池中的奖励。目前，Frax 在 Curve 上拥有 99.9% 的 Frax-3CRV 矿池和 58.5% 的 Frax Base Pool (FRAXBP)。这是 DEX 上最大的两个稳定币矿…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36223"
-                        open
-                      >
-                        <summary class="article-expander__title">OpenSea版的Blur来了：新Gem变成了OpenSea Pro</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36223">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>撰文：Cookie，律动 BlockBeats
-
-
-
-
-
-
-不久前的 3 月 29 日，Gem 宣布新通过了 50000 份 Gem V2 测试申请。一两天前，还有人在 Gem 的 Discord 服务器询问 Gem V2 测试资格的相关问题。
-
-
-
-
-
-
-而今天，转变发生得是如此突然... 现在，NFT 交易聚合器曾经的王者 Genie 与 Gem 都不再是曾经的「容颜」，Genie 变成了 Uniswap NFT，而 Gem 则变成了 OpenSea Pro。
-
-
-
-
-
-
-与此同时，Gem 也发布了 Gemesis NFT 系列以感谢 Gem 用户一路以来的支持，所有在 2023 年 3 月 31 日前使用过 Gem 购买 NFT 的用户都可以 Free Mint 1 个 Gemesis NFT（领取链接）。根据 OpenSea 的官方说明，使用 Gem 的时间越早，所得到的 Gemesis NFT 的「等级」将越高。此外，OpenSea 在官方说明中还提到了正在规划以 NFT 作为奖励的「社区奖励」，Gemesis NFT 不与「社区奖励」相关。
-
-
-
-
-
-
-OpenSea Pro（Gem V2）有哪些亮点？笔者将此前一段时间使用 OpenSea Pro（Gem V2）的体验为您总结。
-
-
-实时数据流，真的很快
-
-
-
-
-
-
-OpenSea 在官方的介绍视频中宣称 OpenSea Pro 有着最快的 NFT 系列实时数据更新。虽然没有列出具体的数据对比，但笔者在 Nakamigos 的公售结束后捡漏时使用了 OpenSea Pro，当时的体验比 Blur 更好（上架被列出得更快，图也加载得更快）。在撰文时笔者同样选择 Nakamigos 再次进行了对比，这次两者的实时数据流推送效率不相上下。
-
-
-
-
-
-
-
-
-
-
-
-
-
-相比于 Blur，OpenSea Pro 还提供了 …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -268,6 +67,169 @@ OpenSea 在官方的介绍视频中宣称 OpenSea Pro 有着最快的 NFT 系列
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/5uge36uw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">《财富》杂志将于4月9日启动新NFT发售拍卖</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5uge36uw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月5日消息，《财富》杂志在官推宣布将于2023年4月9日通过Foundation平台启动新NFT系列发售拍卖，这也是《财富》杂志举行的第二次NFT拍卖活动。据悉，该NFT基于《财富：加密货币从有史以来最糟糕的一年中复苏》（Fortune: Crypto Climbs Back From The Worst Year Ever）文章封面制作，起拍价或将定为0.1 ETH。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/dkqwuee8.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Allbridge将对用户进行赔偿，补偿程序预计下周开始</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/dkqwuee8.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月5日消息，跨链桥Allbridge发布公告，表示已着手对用户进行赔偿。Allbridge在公告中写道：“我们将从因紧急关闭而导致交易陷入待处理状态的网桥用户开始。他们将首先获得补偿，其次是流动性提供者。”其目前正在为无法提取资产的有限合伙人起草一份申请表，允许他们申请赔偿并提供损失详情。该表格预计将在未来两天内完成，补偿程序预计将于下周开始。
+此前消息，Allbridge因安全事件导致约57万美元损失，目前一攻击者已归还1500枚BNB，Allbridge正邀请另一攻击者谈判。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/tz0w4az9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">SHIB巨鲸转移近2500亿枚SHIB</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/tz0w4az9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月5日消息，据Spot on Chain披露数据显示， “0x2eFB50开头”的钱包地址已将2130亿枚SHIB转移到Coinbase和OKX两大交易平台。此外，该地址此前还将2300亿枚SHIB中转到了“0x66E092开头”的地址钱包，其中有179亿枚SHIB流向币安，150亿枚SHIB流向了Coinbase。据统计，该巨鲸通过系列操作流向中心化交易所的资金总量达到2459亿枚SHIB。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/zac6l8qh.html"
+                        open
+                      >
+                        <summary class="article-expander__title">意大利隐私监管机构将与OpenAI代表会面，讨论ChatGPT禁令</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/zac6l8qh.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月5日消息，意大利隐私监管机构将于当地时间周三与OpenAI代表会面，讨论在该国暂时禁止使用ChatGPT的问题。OpenAI表示，该公司愿意同意大利当局合作，以确保遵守隐私法规。
+此前消息，意大利数据保护机构对OpenAI公司非法收集用户信息展开调查。意大利个人数据保护局于3月31日宣布，即日起禁止使用聊天机器人ChatGPT，并限制开发这一平台的美国人工智能公司OpenAI处理意大利用户信息。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/rny038k1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">零转账诈骗者从0x532265开头地址骗取2万枚USDT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/rny038k1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月5日消息，派盾监测数据显示，一个零转账（ZeroTransfer）诈骗者从0x532265开头地址骗取2万枚USDT。钓鱼地址为0xf337A2A4C87C173ec625659Df2F2Ab749dEd265F。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/84aqyb5j.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Cash App创始人Bob Lee在旧金山遇刺身亡</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/84aqyb5j.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月5日消息，据Cointelegraph报道，当地时间 4 月 4 日星期二凌晨，Square 前首席技术官兼 Cash App 的创始人 Bob Lee 在旧金山因刺伤身亡。
+旧金山警察局 4 月 4 日的一篇帖子解释说，警察在当地时间凌晨 2 点 35 分左右接到了一起刺伤报告，发现一名“43 岁的成年男性受害者身上有明显的刀伤”，并补充道：“警方提供了援助并召集了医务人员到现场。受害人被送往当地一家医院，伤势危及生命。尽管急救人员和医务人员做出了努力，但受害人还是因伤势过重而死亡。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/uiq8i2ex.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Sentiment：凌晨2点发现异常借贷活动，随后暂停主合约并将功能限制为仅提款</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/uiq8i2ex.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月5日消息，无许可部分抵押借贷协议 Sentiment 发布漏洞调查更新称，北京时间今日凌晨 2:00 左右 Sentiment 团队发现异常借贷活动，现已宣布为恶意利用。为了降低进一步利用资金的风险，Sentiment 团队于北京时间今日 3:26 暂停了 Sentiment 主合约，将功能限制为仅提款。 在第三方安全审计员的帮助下，Sentiment 团队推出了修复漏洞的修复程序。所有 Sentiment Account 用户都可以偿还债务并平仓。Sentiment 团队继续与执法部门和密切贡献者密切合作，以识别黑客并追回被盗用的用户资金。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/34atkl1z.html"
+                        open
+                      >
+                        <summary class="article-expander__title">福布斯2023 亿万富豪榜：CZ下滑至167位，Elon Musk失去首富头衔</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/34atkl1z.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月5日消息，福布斯发布2023亿万富豪榜，奢侈品巨头LVMH的Bernard Arnault成为新晋全球首富，Elon Musk在高价收购推特后失去了世界首富的头衔，而币安首席执行官CZ则从去年的第19位大幅下滑至第167位，FTX联合创始人SBF和Gary Wang也跌落榜单，前NFT市场OpenSea联合创始人Alex Atallah则因为市场泡沫破灭导致资产快速下降。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -680,10 +642,235 @@ OpenSea 在官方的介绍视频中宣称 OpenSea Pro 有着最快的 NFT 系列
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36227"
+                        open
+                      >
+                        <summary class="article-expander__title">Worldcoin：AI纪元下的人类</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36227">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《HUMANNESS IN THE AGE OF AI》
+原文来源：Worldcoin
+原文编译：Kxp，BlockBeats
+
+
+人工智能的能力正在迅速接近人类，而在许多细分领域，已经超越了人类。尽管最近大型语言模型（LLM）的兴起表明这些模型变得越来越多才多艺，看起来也更加「通用智能」，它们感觉更加智能是因为它们完美地学习了与人类交互的主要接口：语言。虽然短期内这个突破是否会导致人工通用智能（AGI）还不清楚，但我们现在有的模型被训练成在数字交互中完美地模仿高能人类。有人可能会说，AI 时代已经开始了。
+
+
+
+
+
+
+
+
+
+
+越来越多的人能够以不可控制的方式使用越来越强大的模型。稳定扩散的图像生成模型和生成深度伪造的软件是开源的，Meta 的 LLaMA 语言模型已经被泄漏并可以在笔记本电脑上运行。
+ 
+一个显著的短期后果是，直到最近，我们认为基于文本的信息足以证明人类身份，这就是著名的图灵测试。机器人在社交媒体平台上很常见，并参与操纵活动已经有一段时间了。然而，在大多数情况下，它们与真正的人类用户可以区分开来。现在，现代 AI 要么已经通过了图灵测试，要么非常接近通过。这将使未来仅凭智能无法确定人类身份。此外，最近使用深度伪造进行的模仿已经证明，基于视频的身份验证正在变得越来越不可靠。因此，在在线上验证人类身份的可靠方法已经不存在了。
+ 
+然而，在数字领域人格证明将是一个至关重要并可能是不可避免的工具，特别是在人类历史的这个新篇章。虽然有各种各样的方法可以实现人格证明（PoP），但至关重要的是，这种重要基础设施要优先考虑隐私、自主权、包容性和去中心化，以造福和保护个人。
+ 
+针对这一挑战，Worldcoin 项目发起了一个名为 World ID 的开放身份协议。先进的生成 AI 使得人们可以在数字上生成的数据无法证明一个人的人类身份。因此，重点需要转向通过现实…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36225"
+                        open
+                      >
+                        <summary class="article-expander__title">Polygon眼中与zkSync的zkEVM对比</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36225">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《A comparison of zkEVMs》
+原文作者：Daniel Lubarov
+原文编译：Kxp，BlockBeats
+
+
+随着「zkEVM 战争」的升温，公众讨论了许多关于不同 zkEVM 的优点。但也存在一些错误的信息，因此我们想澄清一些关于 Polygon zkEVM 以及它与其他项目的比较的事实。
+ 
+作为 Polygon 的一名员工，我有偏见，但我会尽力保持比较公正。我主要关注 Polygon 的 zkEVM 和 zkSync Era，因为它们已经投入生产使用，并且我不太了解其他 zkEVM 项目。
+ 
+zkSync 的 zkEVM 和证明器由 100k 多行代码组成。我尽力提供准确的摘要，如果有任何不准确之处，请告诉我，我会进行更正。
+ 
+EVM 兼容性
+ 
+Polygon zkEVM 直接执行 EVM 字节码。根据 Vitalik 的分类，它是一种类型 3 的 zkEVM。很快它将成为类型 2；目前我们缺少四个预编译。Scroll 也在努力向类型 2 zkEVM 发展。
+ 
+相比之下，zkSync Era 使用不同的字节码格式，通过提供编译器来支持 Solidity。这使它成为一种类型 4 的 zkEVM：它支持 Solidity，但不支持 EVM 字节码本身。例如 Hardhat 这样的工具不能直接使用，尽管可以使用 zkSync 的插件。
+ 
+zkSync 认为他们的 zkVM 更加具有未来性，即它可以更好地与 Solidity 以外的语言配合使用。但是，他们的 VM 似乎继承了 EVM 的许多性能特征，例如其 256 位字大小。像 Miden 这样的 zkVM 可能更具有未来性，因为它是为通用计算而设计的，而不是专注于 Solidity。
+ 
+性能
+ 
+性能一直是 Polygon 的重点，我们的 zkEVM 非常高效。在 CPU 上运…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36224"
+                        open
+                      >
+                        <summary class="article-expander__title">解读LSD「后来者」Frax Finance：如何通过产品套件构建增长飞轮？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36224">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《解读 LSD「后来者」Frax Finance：如何通过产品套件构建增长飞轮？》
+原文来源：ZhouYeMen
+原文编译：LlamaC
+
+
+
+
+Frax Finance 最初是一种混合算法稳定币协议，经过几年的运营，在竞争激励的稳定币赛道成功存活了下来。
+
+
+在 2023 年初凭借其 Liquid Staking Derivative (LSD) 产品 frxETH 再次成为人们关注的焦点。随着 LSD 叙事的泛滥，Frax 凭借其创新的双代币系统成为亮眼的赢家之一。
+
+
+frxETH 将表明 Frax 如何最终成为一个稳定币协议，其目标是增加其稳定币系列（FRAX、frxETH、FPI）的货币溢价。这些稳定币将得到 Frax 的「三位一体」DeFi 原语（如 Fraxswap 和 Fraxlend）的采用。最近，Frax 投票决定将其旗舰稳定币 100% 抵押，标志着其部分抵押时代的结束。
+
+
+
+
+FRAX 稳定币
+
+ 
+FRAX 的支持主要由其 AMO 组成，这些 AMO 使其闲置的 USDC 抵押品发挥作用。目前，运营的最大 AMO 是 Curve AMO，它拥有数亿美元的 TVL。虽然 FXS 支持的抵押率由市场决定，但 Frax 的 AMO 会调整 FRAX 的供应以维持价格稳定。这类似于中央银行为其经济进行的公开货币操作。
+
+
+AMO：有几个 AMO 负责不同的操作。Liquidity 和 Curve AMO 将闲置的 USDC 抵押品和铸币 FRAX 部署到不同的 DEX 中，以创造流动性并锚定挂钩。因此，Frax 赚取从 LP 头寸产生的交易收入以及发放到池中的奖励。目前，Frax 在 Curve 上拥有 99.9% 的 Frax-3CRV 矿池和 58.5% 的 Frax Base Pool (FRAXBP)。这是 DEX 上最大的两个稳定币矿…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36223"
+                        open
+                      >
+                        <summary class="article-expander__title">OpenSea版的Blur来了：新Gem变成了OpenSea Pro</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36223">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>撰文：Cookie，律动 BlockBeats
+
+
+
+
+
+
+不久前的 3 月 29 日，Gem 宣布新通过了 50000 份 Gem V2 测试申请。一两天前，还有人在 Gem 的 Discord 服务器询问 Gem V2 测试资格的相关问题。
+
+
+
+
+
+
+而今天，转变发生得是如此突然... 现在，NFT 交易聚合器曾经的王者 Genie 与 Gem 都不再是曾经的「容颜」，Genie 变成了 Uniswap NFT，而 Gem 则变成了 OpenSea Pro。
+
+
+
+
+
+
+与此同时，Gem 也发布了 Gemesis NFT 系列以感谢 Gem 用户一路以来的支持，所有在 2023 年 3 月 31 日前使用过 Gem 购买 NFT 的用户都可以 Free Mint 1 个 Gemesis NFT（领取链接）。根据 OpenSea 的官方说明，使用 Gem 的时间越早，所得到的 Gemesis NFT 的「等级」将越高。此外，OpenSea 在官方说明中还提到了正在规划以 NFT 作为奖励的「社区奖励」，Gemesis NFT 不与「社区奖励」相关。
+
+
+
+
+
+
+OpenSea Pro（Gem V2）有哪些亮点？笔者将此前一段时间使用 OpenSea Pro（Gem V2）的体验为您总结。
+
+
+实时数据流，真的很快
+
+
+
+
+
+
+OpenSea 在官方的介绍视频中宣称 OpenSea Pro 有着最快的 NFT 系列实时数据更新。虽然没有列出具体的数据对比，但笔者在 Nakamigos 的公售结束后捡漏时使用了 OpenSea Pro，当时的体验比 Blur 更好（上架被列出得更快，图也加载得更快）。在撰文时笔者同样选择 Nakamigos 再次进行了对比，这次两者的实时数据流推送效率不相上下。
+
+
+
+
+
+
+
+
+
+
+
+
+
+相比于 Blur，OpenSea Pro 还提供了 …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >最新 - Odaily星球日报</button>
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186246"
+                        open
+                      >
+                        <summary class="article-expander__title">超募364倍，浅谈MM Finance的融资争议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186246">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Arbitrum 空投带来的造富效应并未消退， 4 月 3 日，MM Finance 在 Arbitrum 上线，公募预计融资 50 万 USDC，实际参与的资金高达 1.82 亿 USDC，超募 364 倍。MM Finance 最初建立在 Cronos 上，是当时 Cronos 上除 VVS Finance 以外最大的项目，原生代币 MMF 也上线了 Crypto.com 交易所。之后，MM Finance 部署到 Polygon 并发行了新的 Token，此次也不例外，又在 Arbitrum 上又发行了 Token 并进行融资。
+
+MM Finance 的融资争议
+MM Finance 一个项目在多条链上发行 Token 的做法在社区中受到了一定的诟病。通常，主流 DeFi 项目向其它链上扩张时，并不会发行新的 Token，如 Uniswap、Aave、Pancakeswap 等。
+但对于小型项目，发行新的 Token 就像指环王中的魔戒一样，对项目的开发团队有着难以抵抗的吸引力。如果没有新的 Token，以原来的估值计算市值已经极低，且大多数 Token 都已经分配出去，抛压极大，原来的工作反而成为项目继续扩张的负担。
+如果将 Arbitrum 上的 MM Finance 当成一个新的项目，和其它项目相比，考虑到团队有 1 年以上可追溯的开发经历，仅在 Cronos 的 MM Finance 生态中，除了 DEX 之外，还有收益优化器 MM Optimizer、稳定币项目 Savanna Finance、去中心化 ETF 项目 METF Finance，发行有多种 Token。一年以前，MM Finance 因为前端攻击，导致用户损失了少量资金，但后来官方进行了赔付。项目经过慢雾、Certik、Paladin 在内的多家安全机构的审计。在安全性上，以上背景可能会让人…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -7869,8 +8056,8 @@ Red Door Digital 成立于 2020 年，团队成员主要来自 EA Games、Ubiso
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4615871281">
-        <time id="build-timestamp" datetime="2023-04-05T07:07:32.874Z">2023-04-05T07:07:32.874Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4616353419">
+        <time id="build-timestamp" datetime="2023-04-05T08:10:41.478Z">2023-04-05T08:10:41.478Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
