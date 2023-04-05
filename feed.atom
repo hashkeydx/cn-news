@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-04T23:07:04.348Z</updated>
+    <updated>2023-04-05T00:32:18.827Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4422,64 +4422,6 @@ Mute.io：是以太坊和 zkSync 上基于 zkRollup 的…]]></summary>
 美国PCE通胀数据发布后，美国短期利率期货显示，5月美联储加息25个基点和不加息的可能性目前大致相等。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[币安发布内置于应用程序的DeFi钱包，支持无助记词使用]]></title>
-        <id>https://panewslab.com/zh/articledetails/j93f8d9k.html</id>
-        <link href="https://panewslab.com/zh/articledetails/j93f8d9k.html"/>
-        <updated>2023-03-31T12:31:53.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月31日消息，币安推出由其 ID 提供支持、直接内置于币安应用程序并使用 MPC 技术保护的 DeFi 钱包，支持从 CeFi 到 DeFi 转账、跨链、钱包恢复、无需助记词。目前，该钱包支持 BNB Chain 与以太坊，将支持更多链。此外，该钱包还嵌入币安 ID、生物识别身份验证、钱包连接支持与 SBT 等高级功能。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Block研究总监Larry Cermak将升任CEO]]></title>
-        <id>https://panewslab.com/zh/articledetails/6pw8eb8z.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6pw8eb8z.html"/>
-        <updated>2023-03-31T12:13:36.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月31日消息，The Block 研究与数据总监 Larry Cermak 发推称，其将担任 The Block 首席执行官一职。同时，Wintermute 创始人兼 CEO Evgeny Gaevoy 将加入 The Block 董事会。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3射击手游Matr1x FIRE正式开启测试，测试奖励包括1000万枚FIRE和2000个创世角色等]]></title>
-        <id>https://panewslab.com/zh/articledetails/9tnsjz4z.html</id>
-        <link href="https://panewslab.com/zh/articledetails/9tnsjz4z.html"/>
-        <updated>2023-03-31T12:06:51.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月31日消息，Web3首款射击手游Matr1x FIRE己于今日3月31日18:00正式开启游戏测试，测试代号Mission Dawn曙光行动，持有Matr1xlink NFT即可进入Mission Dawn测试，并赢取丰富的测试奖励，奖池包括最高1000万FIRE Token、最高2000个创世角色（包括稀有创世角色、专属高级创世角色）、YATC奖杯等。其游戏玩法类似于 CSGO、穿越火线、使命召唤手游等。
-上月，Matr1x完成1000万美元A轮融资，Hashkey Capital等参投。
-相关阅读：NFT铸造预热不断，Matr1x能否打响链游版CSGO的第一枪？]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[详解以太坊POS工作原理：Epoch、Slot与信标区块]]></title>
-        <id>https://www.odaily.news/post/5186159</id>
-        <link href="https://www.odaily.news/post/5186159"/>
-        <updated>2023-03-31T11:40:00.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《Epochs, Slots and Beacon Blocks》
-原文作者：Patrick McCorry
-原文翻译：John, ECN
-使用权益证明的以太坊的独特性在于参与者数量的最大化设计。它允许成百上千和成千上万的验证者活跃地参与决策过程。在笔者撰文时已经有大约 50 万的验证者实体（从协议的角度而言）在活跃地参与这个过程。
-事实上，在约 384 秒（6 分 24 秒）内，所有活跃中的验证者将有机会投下一票或提议一个区块。在约 384 秒内至少有 50 万条信息广播，而且所有信息必须在严格的时间范围内传递。据我所知，没有其他共识协议被设计来处理如此活跃和庞大的共识参与者集。
-至于通信模型方面，共识协议是为以下三种情况之一设计的（通常）：
-
-同步通信一个普遍同意和已知的信息传递超时时间。
-
-异步通信信息传递所需时间没有上限， 但它最终会被发送。
-
-部分同步通信在大多数情况下，都有一个已知的超时时间，但零星的事件可能会破坏信息传递，时间长短不一。
-
-大多数现代共识协议都是为部分同步通信而设计的，因为它假设大部分时间条件良好，但由于事件可能会在短时间内中断通信，所以存在不可预测的时期。另一方面，值得注意的是，权益证明的以太坊是为同步通信设计的。
-题外话--Casper FFG 是为部分同步通信而设计的，但 LMD-GHOST 的严格计时条件迫使整个系统必须同步。我们将在今后的文章中解释什么是 Casper 和 LMD-GHOST。
-它假定在绝大多数的验证者中几乎没有中断，而且所有的信息必须在固定的最后期限前被记录在信标区块链上，这些信息才能被计入/使用。如果出现中断，导致信息延迟传递，那么发送者将根据其延迟程度而招致惩罚。在最坏的情况下，如果错过了最后期限，那么消息将被忽略，信息发送者将受到不活跃的最大惩罚。惩罚政策将在未来的文章中介绍。
-为了更好地理解同步通信…]]></summary>
-        <author>
-            <name>ECN以太坊中国</name>
         </author>
     </entry>
 </feed>
