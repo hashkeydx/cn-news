@@ -2063,6 +2063,16 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/36227",
+          "author": null,
+          "description": "原文标题：《HUMANNESS IN THE AGE OF AI》\n原文来源：Worldcoin\n原文编译：Kxp，BlockBeats\n\n\n人工智能的能力正在迅速接近人类，而在许多细分领域，已经超越了人类。尽管最近大型语言模型（LLM）的兴起表明这些模型变得越来越多才多艺，看起来也更加「通用智能」，它们感觉更加智能是因为它们完美地学习了与人类交互的主要接口：语言。虽然短期内这个突破是否会导致人工通用智能（AGI）还不清楚，但我们现在有的模型被训练成在数字交互中完美地模仿高能人类。有人可能会说，AI 时代已经开始了。\n\n\n\n\n\n\n\n\n\n\n越来越多的人能够以不可控制的方式使用越来越强大的模型。稳定扩散的图像生成模型和生成深度伪造的软件是开源的，Meta 的 LLaMA 语言模型已经被泄漏并可以在笔记本电脑上运行。\n \n一个显著的短期后果是，直到最近，我们认为基于文本的信息足以证明人类身份，这就是著名的图灵测试。机器人在社交媒体平台上很常见，并参与操纵活动已经有一段时间了。然而，在大多数情况下，它们与真正的人类用户可以区分开来。现在，现代 AI 要么已经通过了图灵测试，要么非常接近通过。这将使未来仅凭智能无法确定人类身份。此外，最近使用深度伪造进行的模仿已经证明，基于视频的身份验证正在变得越来越不可靠。因此，在在线上验证人类身份的可靠方法已经不存在了。\n \n然而，在数字领域人格证明将是一个至关重要并可能是不可避免的工具，特别是在人类历史的这个新篇章。虽然有各种各样的方法可以实现人格证明（PoP），但至关重要的是，这种重要基础设施要优先考虑隐私、自主权、包容性和去中心化，以造福和保护个人。\n \n针对这一挑战，Worldcoin 项目发起了一个名为 World ID 的开放身份协议。先进的生成 AI 使得人们可以在数字上生成的数据无法证明一个人的人类身份。因此，重点需要转向通过现实…",
+          "link": "https://www.theblockbeats.info/news/36227",
+          "publishedOn": "2023-04-05T06:20:20.000Z",
+          "wordCount": null,
+          "title": "Worldcoin：AI纪元下的人类",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/36225",
           "author": null,
           "description": "原文标题：《A comparison of zkEVMs》\n原文作者：Daniel Lubarov\n原文编译：Kxp，BlockBeats\n\n\n随着「zkEVM 战争」的升温，公众讨论了许多关于不同 zkEVM 的优点。但也存在一些错误的信息，因此我们想澄清一些关于 Polygon zkEVM 以及它与其他项目的比较的事实。\n \n作为 Polygon 的一名员工，我有偏见，但我会尽力保持比较公正。我主要关注 Polygon 的 zkEVM 和 zkSync Era，因为它们已经投入生产使用，并且我不太了解其他 zkEVM 项目。\n \nzkSync 的 zkEVM 和证明器由 100k 多行代码组成。我尽力提供准确的摘要，如果有任何不准确之处，请告诉我，我会进行更正。\n \nEVM 兼容性\n \nPolygon zkEVM 直接执行 EVM 字节码。根据 Vitalik 的分类，它是一种类型 3 的 zkEVM。很快它将成为类型 2；目前我们缺少四个预编译。Scroll 也在努力向类型 2 zkEVM 发展。\n \n相比之下，zkSync Era 使用不同的字节码格式，通过提供编译器来支持 Solidity。这使它成为一种类型 4 的 zkEVM：它支持 Solidity，但不支持 EVM 字节码本身。例如 Hardhat 这样的工具不能直接使用，尽管可以使用 zkSync 的插件。\n \nzkSync 认为他们的 zkVM 更加具有未来性，即它可以更好地与 Solidity 以外的语言配合使用。但是，他们的 VM 似乎继承了 EVM 的许多性能特征，例如其 256 位字大小。像 Miden 这样的 zkVM 可能更具有未来性，因为它是为通用计算而设计的，而不是专注于 Solidity。\n \n性能\n \n性能一直是 Polygon 的重点，我们的 zkEVM 非常高效。在 CPU 上运…",
