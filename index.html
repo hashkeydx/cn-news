@@ -51,6 +51,54 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-07 datetime="2023-04-06T16:03:59.000Z">2023-04-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-07 datetime="2023-04-06T16:03:59.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >PANews - 快讯</button>
+                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ea9dqwrs.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3共同所有权平台Lore完成Multicoin Capital领投的400万美元融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ea9dqwrs.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，总部位于旧金山的 Web3 集体的共同所有权平台 Lore 在由 Multicoin Capital 领投的战略融资轮中筹集了 400 万美元，该轮融资的其他投资者包括 Seed Club Ventures、North Island Ventures、Balaji Srinivasan、Zeneca、Mischief Ventures、Sfermion、CMT Digital、Patricio Worthalter、Spice Capital 和 Sublime Venture 等。迄今为止，Lore 已经筹集了 715 万美元。这笔资金将支持新的用例并扩展到以太坊以外的其他区块链，首先是 Polygon 和 Solana。该平台目前处于公开测试阶段，允许一群人共享不可替代的代币 (NFT)，以扩大访问范围和实用性。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-06 datetime="2023-04-06T14:25:37.000Z">2023-04-06</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-06 datetime="2023-04-06T14:25:37.000Z"></time>
           </button>
@@ -9941,38 +9989,6 @@ NFT 艺术品，…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186174"
-                        open
-                      >
-                        <summary class="article-expander__title">V神最担心的“zkEVM多客户端问题”，终于有解决方案了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186174">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 cryptoslate，原文作者：Liam &#x27;Akiba&#x27; Wright 
-
-Odaily 星球日报译者 | Moni
-
-
-3 月 31 日，以太坊联合创始人“V 神” Vitalik Buterin 在其官方博客上发布文章《以太坊的多客户端理念将如何与 ZK-EVM 交互？》（How will Ethereum&#x27;s multi-client philosophy interact with ZK-EVMs?），分享了他对以太坊生态系统“未被充分讨论但非常重要”的方面的思考，其中深入探讨了为 ZK-EVM 创建多客户端生态系统的技术挑战、生态系统权衡和潜在解决方案。
-接下来，让我们来解读这篇文章的关键要点。
-Zk-EVM 的多客户端问题
-Vitalik Buterin 相信 ZK-EVM 将在未来发展成为以太坊 Layer 1  安全和验证过程的重要组成部分，零知识 (ZK) 技术也能让开发人员在不透露任何额外信息的情况下证明交易或消息的真实性。
-这意味着，交易一方可以说服另一方其发出的消息是真实有效的，而无需透露消息有效性以外的任何知识。然而，根据 Vitalik Buterin 的分析，零知识证明技术的隐私保护性质可能会破坏更广泛的 EVM 格局，因为以太坊客户端在实施协议规则方面存在细微差别。
-现阶段，ZK Rollups 中的二层协议已成功使用零知识证明技术，并通过将多个交易捆绑到一个证明中来帮助扩展以太坊区块链。然而，随着 ZK-EVM 发展到验证主网上的交易执行，Vitalik Buterin 认为“ZK-EVM 实际上成为了第三种以太坊客户端，与当前其他执行客户端和共识客户端一样，对以太坊网络的安全至关重要。”
-不过，一旦将 ZK-EVM 视为第三种类型的以太坊客户端，Vitalik Buterin 提出了以下这样一个问题：
-
-“实际上，我们该如何为…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10073,8 +10089,8 @@ CFTC 作为美国政府的独立监管机构，其主要职能是负责监管商
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4630852134">
-        <time id="build-timestamp" datetime="2023-04-06T16:08:50.708Z">2023-04-06T16:08:50.708Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4631300106">
+        <time id="build-timestamp" datetime="2023-04-06T17:06:08.353Z">2023-04-06T17:06:08.353Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
