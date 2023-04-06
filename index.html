@@ -51,11 +51,408 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-06 datetime="2023-04-06T07:54:13.000Z">2023-04-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-06 datetime="2023-04-06T07:54:13.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-06 datetime="2023-04-06T08:13:03.000Z">2023-04-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-06 datetime="2023-04-06T08:13:03.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186273"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂ERC 6551：NFT与DID新范式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186273">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：BennyGiang
+原文编译：Biteye 核心贡献者 Crush
+01、团队介绍
+近期 Future Primitive 团队推出了基于代币绑定账户（ERC 6551 ），这是一种新的技术，将为每个NFT提供自己的账户/钱包地址。
+
+Future Primitive 是由几位优秀Web3公司的工作人员组成的开发工作室，由 CryptoKitties/Dapper Labs 的创始团队成员之一和 Bitski 的联合创始人领导。Future Primitive 以打造未来为使命，将在过去 5 年围绕 NFT 的势头的基础上，想象未来 5 年会是什么样子。他们相信，对于项目创始人、收藏家和建造者来说，代币绑定将是 NFT 生态系统的重大技术飞跃。以下是 Futrue Primitive 和 CryptoKitties 的联创 Benny Giang 在推特上对新推出的代币绑定账户（ERC 6551 ）的介绍，内容略有删改。
+02、现有的问题
+如果 NFT 有自己的钱包会怎么样？
+受 Soul Bound Tokens (SBTs) 的启发，我们的想法正好相反，我们称之为代币绑定账户 Token Bound Accounts (TBAs) 。不是绑定 NFT 到钱包，我们有与 NFT 绑定的钱包。
+我们的想法是，NFT 正在朝着这种自我主权身份的方向发展，它们不仅仅是躺在小狐狸钱包中的小图片。
+它们有能力拥有资产，执行链上操作，更重要的是创造自己的历史。
+
+事实上，从 2020 以来人们就一直在围绕着 NFT 去形成一个独有的身份。
+
+但是问题的关键是什么呢？
+这些 NFT 仍然只是一种静态资产，除了流转之外，似乎不具有创造历史记录的功能。目前的 NFT 不带有交易历史、签名控制和链接的所有权。
+
+因此当我们谈论这个 NFT 从哪里来的时候，总是会有些不清不楚。
+03、我们的方案
+直到 ERC 6551 的出现，我们才真正解决了这个问题。
+
+如果我们给每一个 NFT 一个自己的钱包，那么它就可以自己签署交易、持有资产，并作为一个 NFT 连接到其它 dapp。
+它的优势在于不需要对目前的 ERC 721、Wrapped 后的合约、或者是 NFT 持有者的任何行为进行重大更改。
+
+因为代币绑定账户使用的是智能合约钱包进行绑定，一旦 ERC 6551 进入主网，每个 NFT 都会自动拥有一个绑定的地址，无需任何额外的操作。
+举个例子，小明从一个项目中获得了一个 Apple NFT，随后这个项目决定对 NFT 持有者进行代币空投，并且也发布了一系列 POAP，供持有者领取。
+场景 A——没有使用代币绑定账户
+当小明决定出售他的 NFT 时，与 NFT 相关的代币、POAP 都不会转移给买家。
+场景 B——使用了代币绑定账户
+所有与 NFT 相关的代币领取、POAP 领取，都会记录在 NFT 本身。在进行 NFT 出售时，买家也会看到这些记录，所有相关的代币、POAP 也都会一并转移给买家。如果缺失了这些，那么 NFT 的价值可能也会大打折扣。
+如果您感兴趣，可以使用我们的测试网进行体验：
+https://tokenbound.org
+
+04、小结
+自从 2017 年的 ERC 721 诞生以来，几乎没有出现过像 ERC 6551 这样的重大创新。
+借助 ERC 6551 或代币绑定账户，我们能够在所有现有和新的 NFT 之上无缝添加新的所有权层，在链上开辟大多数项目创建者一直想添加但尚未找到简单方法的新用例。
+
+装备数字服装和物品（RTFKT — CloneX、Doodles）
+
+ERC 20 代币赚取/空投模型（BAYC、Cool Cats、SupDucks）
+
+通过参与获得的 POAPS 或徽章（Azuki、FWB、Moonbirds）
+
+将整个集合作为一个单元进行交易（OpenSea 批量传输）
+
+NFT 作为链上身份，具有在社交网络模型（CryptoPunks、Nouns）上分层的能力
+
+ERC 6551 将有望成为推动整个行业发展的新动力，给所有参与者带来好处，带来 NFT 和 DID 新范式！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186272"
+                        open
+                      >
+                        <summary class="article-expander__title">「zkEVM 战争」升温，一文全面对比Polygon zkEVM与zkSync Era</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186272">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《A comparison of zkEVMs》
+原文作者：Daniel Lubarov 
+原文编译：Kxp，BlockBeats
+随着「zkEVM 战争」的升温，公众讨论了许多关于不同 zkEVM 的优点。但也存在一些错误的信息，因此我们想澄清一些关于 Polygon zkEVM 以及它与其他项目的比较的事实。
+作为 Polygon 的一名员工，我有偏见，但我会尽力保持比较公正。我主要关注 Polygon 的 zkEVM 和 zkSync Era，因为它们已经投入生产使用，并且我不太了解其他 zkEVM 项目。
+zkSync 的 zkEVM 和证明器由 100 k 多行代码组成。我尽力提供准确的摘要，如果有任何不准确之处，请告诉我，我会进行更正。
+EVM 兼容性
+Polygon zkEVM 直接执行 EVM 字节码。根据 Vitalik 的分类，它是一种类型 3 的 zkEVM。很快它将成为类型 2 ；目前我们缺少四个预编译。Scroll 也在努力向类型 2 zkEVM 发展。
+相比之下，zkSync Era 使用不同的字节码格式，通过提供编译器来支持 Solidity。这使它成为一种类型 4 的 zkEVM：它支持 Solidity，但不支持 EVM 字节码本身。例如 Hardhat 这样的工具不能直接使用，尽管可以使用 zkSync 的插件。
+zkSync 认为他们的 zkVM 更加具有未来性，即它可以更好地与 Solidity 以外的语言配合使用。但是，他们的 VM 似乎继承了 EVM 的许多性能特征，例如其 256 位字大小。像 Miden 这样的 zkVM 可能更具有未来性，因为它是为通用计算而设计的，而不是专注于 Solidity。
+性能
+性能一直是 Polygon 的重点，我们的 zkEVM 非常高效。在 CPU 上运行我们的证明器的成本大约为每笔…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186270"
+                        open
+                      >
+                        <summary class="article-expander__title">瞄准极客的「idea」，Jamsy Grant能否为Jasmy生态创造增量？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186270">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>加密行业的亿万个增量用户在哪里？在非洲、拉丁美洲等缺乏金融工具的第三世界国家之外，大家往往容易忽略人口基数足够大、错过 Web2 浪潮后如今积极拥抱 Web3 的日本。
+其实从 2021 年新一届日本政府上任以来，新首相岸田文雄几乎将发展 Web3 提升到了国家战略层面，打算举一国之力来推动 Web3 的发展。
+而 Jamsy 作为日本的「国民级区块链项目」，也一跃成为市场眼中热度最高、最被关注的日本概念项目，而隐藏在背后的火种可能，其实也在 2023 年逐步浮现出来。
+
+Jamsy：日本「国民级区块链项目」
+作为日本的「国民级区块链项目」，Jasmy 虽然在圈内的知名度并不高，但却是实实在在的久经市场和时间考验的「加密老兵」：
+Jasmy 由索尼前员工 Kazumasa Sato 于 2016 年在日本东京创立，一直以来专注于开发并提供元宇宙与物联网（IoT）时代数据安全和共享服务，愿景是使用户能真正拥有自己的数据，并根据自己的意愿将其货币化。
+通过 Jasmy 技术，网络上构建的元宇宙应用程序就可以为彼此间的数据交换建立起直接的桥梁，同时这种应用会产生适合元宇宙应用程序的去中心化存储解决方案。
+而从 2022 年以来开始把 Web3 作为国家战略的日本政府，也多次强调元宇宙和 NFT 将实现日本的经济增长，其中包括但不限于批准了一系列关于 Web3 的改革方针、专门设立 Web3 部长以推广 NFT 和 DAO。
+正因如此，作为日本的「国民级区块链项目」，Jasmy 的重要性和热度从去年开始就逐步水涨船高，其中意味不言自明。
+与此同时，步入 2023 年以来席卷全球的 AI 热潮蹭红了一大批所谓的「人工智能概念」项目，而在此前的 2023 年路线图中，Jasmy 已经先手布局，明确要开发人工智能引擎，计划在 2023 年稳步完成迈入人工智能时代的巨轮转向。
+
+总的来看，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186269"
+                        open
+                      >
+                        <summary class="article-expander__title">一文速览PancakeSwap V3版本新功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186269">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Ignas，DeFi 研究员
+原文编译：Leo，BlockBeats
+PancakeSwap 刚刚推出了新的 V3 版本，也是 Uniswap V3 的一个分叉，不同的是其新版本注重于增强用户体验和易用性，DeFi 研究员 Ignas 撰写了关于「PancakeSwap V3 版本新功能」的文章，编译如下：
+首先，我们回顾一下 Uni 发展史：Uniswap V2 于 2020 DeFi 之夏推出，为本就已火热的 DeFi 市场增添色彩，不久后就出现了许多分叉，使 Uni V2 成为有史以来分叉最多的 DeFi 协议，PancakeSwap 也是其中之一。
+
+在 Uniswap 不愿意于除以太坊之外的任何链上部署的时代，分叉就有了意义，由于这种「不愿意」和 ETH 的高 Gas 费，致使每一层都出现了一个 Uni V2 分叉，PancakeSwap 就推出了 Uni 的分叉版本，并迅速在 BSC 链上占据主导地位，目前其 TVL 为 34 亿美元。
+
+然后是两年前推出的 Uniswap V3，但是 Uniswap 此前有一个禁止分叉的许可证，有效期至 2023 年 4 月 1 日。Uniswap 为其 V3 带来了几项改进，分别是：
+-集中的流动性带来高达 4000 倍的资本效率；
+-多个费用等级；
+
+很多 DEX 在 Uni 许可证到期前都无法分叉 Uniswap V3 版本，所以他们必须创新以获得竞争优势，比如：
+-Trader Joe 的流动性账簿；
+-KyberSwap 的 Elastic；
+-Velodrome 的 ve ( 3, 3) 代币经济；
+-Dodo 的主动做市。
+同样，PancakeSwap 也增加了独特功能：
+-易于使用的二元期权
+-链上菠菜
+-通过与 ApolloX 合作的 Perps
+-新的挖矿机会
+-它还改进了 CAKE 的代币经济学…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186261"
+                        open
+                      >
+                        <summary class="article-expander__title">「正面反击」Blur，OpenSea Pro（Gem V2）有哪些亮点？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186261">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Cookie，律动 BlockBeats
+不久前的 3 月 29 日，Gem 宣布新通过了 50000 份 Gem V2 测试申请。一两天前，还有人在 Gem 的 Discord 服务器询问 Gem V2 测试资格的相关问题。
+而今天，转变发生得是如此突然... 现在，NFT 交易聚合器曾经的王者 Genie 与 Gem 都不再是曾经的「容颜」，Genie 变成了 Uniswap NFT，而 Gem 则变成了 OpenSea Pro。
+与此同时，Gem 也发布了 Gemesis NFT 系列以感谢 Gem 用户一路以来的支持，所有在 2023 年 3 月 31 日前使用过 Gem 购买 NFT 的用户都可以 Free Mint 1 个 Gemesis NFT（领取链接）。根据 OpenSea 的官方说明，使用 Gem 的时间越早，所得到的 Gemesis NFT 的「等级」将越高。此外，OpenSea 在官方说明中还提到了正在规划以 NFT 作为奖励的「社区奖励」，Gemesis NFT 不与「社区奖励」相关。
+OpenSea Pro（Gem V2）有哪些亮点？笔者将此前一段时间使用 OpenSea Pro（Gem V2）的体验为您总结。
+实时数据流，真的很快
+OpenSea 在官方的介绍视频中宣称 OpenSea Pro 有着最快的 NFT 系列实时数据更新。虽然没有列出具体的数据对比，但笔者在 Nakamigos 的公售结束后捡漏时使用了 OpenSea Pro，当时的体验比 Blur 更好（上架被列出得更快，图也加载得更快）。在撰文时笔者同样选择 Nakamigos 再次进行了对比，这次两者的实时数据流推送效率不相上下。
+
+相比于 Blur，OpenSea Pro 还提供了 Mint 监测功能。通过这个功能，我们可以实时观测以太坊网络上新 NFT 项目的 M…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186260"
+                        open
+                      >
+                        <summary class="article-expander__title">全览Dragonfly投资版图：150多个项目，遍布DeFi、基础设施与NFT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186260">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Peng SUN，Foresight News
+作为中国第一代互联网技术与应用投资人以及中国最早一批区块链布道者，冯波创建的 Dragonfly 在加密行业名声赫赫，这是一个萌生于 2018 年的加密货币风投基金，由 Bain Capital Ventures 投资顾问 Alexander Pack 与冯波领导下的策源创投联合成立。
+时至今日，Dragonfly 已经成长为一家全球顶级投资机构。尽管对冲基金 Liquid Opportunities 已于今年 3 月被 Brevan Howard Asset Management 收购，但 Dragonfly 旗下基金仍然包括 Dragonfly Ventures 与最古老的加密对冲基金之一 Metastable。
+在五年的发展历程中，「从第一天起全球化」（Global from day one）、「技术即文化」（Technology is Culture）两条标语始终指导着 Dragonfly 的投资实践。一群来自世界各地的、具有全球视野与科技人文主义关怀的成员长期坚持着三个主要的投资方向，即核心区块链技术和底层协议、连接中心化和去中心化经济体的基础设施、作为母基金投资新型的加密资产管理基金，试图实现东西方在技术与市场上的互补，促进 Web2 与古典 VC 进入区块链与 Web3 世界。
+在上述投资理念与方向的指导下，Dragonfly 的投资风格与实践也有一个渐进式与细化的过程，而背后也体现着加密行业的发展趋势：
+
+2018 年，Dragonfly Capital 为第一支基金 Dragonfly Ventures 筹集 1 亿美元，专注于投资于加密货币初创企业；
+
+
+2021 年 3 月 26 日，Dragonfly Capital 为第二支基金「Dragonfly Ventures II」筹集 2.25 亿…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186258"
+                        open
+                      >
+                        <summary class="article-expander__title">全方位解读GMX V2：Perp DEX集大成之作</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186258">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>GMX 团队近期发布了 V2 有关提案，预示着备受期待的 GMX 合成资产版本终于到了上线前夕，本文将为你带来全方位的 GMX V2 解读，一窥此衍生品赛道龙头的未来。
+
+交易市场
+GMX V2 中，每个交易对都有对应的 LP。比如 ETH/USD 交易，LP 也由 ETH/USDs 组成。其中多头抵押品为 ETH，空头抵押品为稳定币，指数代币为 ETH。
+这种情况下仍然保留了全额抵押带来的安全性优势，又使得每个交易对的 LP 只需要承担这个交易对的风险，有利于上线更多资产，以及打开了将来允许无需许可的上币的可能性，毕竟不再像 GLP 一样上个新币需要考虑对整个池子的影响。
+
+https://twitter.com/NintendoDoomed/status/1597229827844898817 
+此外所谓合成资产，就是也可以交易链上没有的资产。比如 SOL/USD 市场，LP 为 ETH/USD, 多头抵押品为 ETH，空头抵押品为稳定币，指数代币为 SOL 。就是说由 ETH 来支撑 SOL 的做多交易。
+很显然，SOL /USD 的安全性无法达到 ETH/USD 那种全额保障的效果，但是考虑到 SOL/ETH 的相关性，相较纯 USD 作为 LP ，风险也会小很多。此外 GMX 也称会控制 OI 上限少于抵押资产来降低风险。
+费用结构
+除开基本的交易手续费外。GMX V2 有 Funding Fee，Borrow Fee, Price Impact 三重费用。这些费用有助于平衡 LP 和 OI 的多空，避免容量被低效占用以及降低价格操纵风险，总体来说就是让 GMX LP 风险更小以及让交易量更大。
+Funding Fee 主要目的是平衡多空。具体公式为：(X) * ( 多空 OI 之差 ) ^ (Y) / ( 多空 OI 之和 )。X 和 Y 均为可设置的参数，多头…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186257"
+                        open
+                      >
+                        <summary class="article-expander__title">腾讯云与Web3数据云公司Oort达成战略合作</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186257">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>腾讯云与去中心化数据云平台 Oort 达成合作。腾讯云将作为 Oort 网络的全节点提供商，为 Oort 的数据服务提供支持。利用腾讯云的海量存储和计算能力，Oort 将能够为部署在其数据云上的应用程序提供更全面的数据服务，并增强其隐私和安全性。同时，Oort 的Web3 数据云解决方案也将全面服务腾讯云的生态，使腾讯云的生态项目快速轻松使用去中心化的基础设施。这次合作将使腾讯在Web3领域进一步探索去中心化数据基础设施所带来的机遇和可能性。
+腾讯云提供多种行业和技术解决方案，适用于音视频、互动直播、在线教育、游戏等多种业务场景，为客户提供安全、高效的上云服务。目前，腾讯云在全球 26 个地区运营着 70 个可用区，提供强大的基础架构，帮助企业快速扩展业务。腾讯云为各行各业的领先企业提供经济高效的数字化转型方案、丰富的行业经验、以客户为中心的服务、全球企业支持以及腾讯的消费者对企业 (C 2B) 优势，助力企业快速适应数字化时代的挑战。
+Oort 是Web3数据云领域的领先者。 Oort 将数据服务与人工智能技术相结合，并通过其企业级产品性能在分布式数据基础设施领域有广泛影响力。Oort 的核心技术 Proof of Honesty（PoH）等获得了美国核心专利并在全球顶级学术期刊发表，Oort 已与全球几十家项目、公司以及 20 多所美国名牌大学（例如哈佛、麻省理工、芝加哥大学等）建立了牢固的合作伙伴或客户关系。了解更多，请访问 Oort 官网 www.oortech.com 或在 Twitter 上关注 Oort @oortech。
+
+原文来源
+
+&quot;,&quot;extraction_tags&quot;:&quot;&quot;,&quot;source_type&quot;:&quot;contribution&quot;,&quot;source_urls&quot;:&quot;&quot;,&quot;next_post&quot;:{&quot;title&quot;:&quot;12张图回顾加密市场的「强劲三月」&quot;,&quot;en…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186256"
+                        open
+                      >
+                        <summary class="article-expander__title">12张图回顾加密市场的「强劲三月」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186256">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：The Block 研究主管@Lars
+原文编译：PANews
+对于加密行业而言，尽管遭遇到 USDC 脱锚、美国商品期货交易委员会起诉币安及其首席执行官赵长鹏等一系列事件的影响，但近期表现依然十分亮眼，下面就让我们用 12 张图表解读刚刚过去的“强劲三月”。
+1、三月调整后链上总交易额增加了 48.8% ，上涨至 2550 亿美元，其中比特币链上交易额增长 48.3% ，以太坊链上交易额涨幅达到了 62.7% 。
+
+2、三月调整后的稳定币链上交易额增长至 8232 亿美元，涨幅达到了 47.5% ；已发行稳定币供应量小幅收缩至 1256 亿美元，降幅约为 2.3% ，其中美元稳定币 USDT 市场份额升至 64.1% ，USDC 的市场份额降幅较大，为 24.6% 。
+据此前报道，Circle 在硅谷银行存有约 33 亿美元的 USDC 储备金，而由于硅谷银行三月份破产导致 USDC 一度出现与美元脱锚的问题，不过之后很快得到了解决。
+
+3、比特币矿工收入在三月份也有较大幅度增长，涨幅为 20.5% ，升至 7.554 亿美元，而以太坊质押收入增长了 19.4% ，达到 1.251 亿美元。以太坊 Shanghai-Capella 主网升级预计将在 4 月 12 日进行，届时质押的 ETH 将会被允许提取。
+
+4、三月以太坊网络共销毁了 92, 057 枚 ETH，价值相当于 1.587 亿美元。数据显示，以太坊在整个三月期间都处于通缩状态，此外自 2021 年 8 月上旬实施 EIP-1559 以来，以太坊总计销毁了约 304 万枚 ETH，价值约合 91.7 亿美元。
+
+5、三月以太坊链上 NFT 市场交易额出现下降，减少至约 13.7 亿美元，跌幅达到 26.32% 。值得一提的是，得益于 BLUR 代币的成功发行，新晋 NFT 市场 Blur 在月交易额等指标上已第二次超越 OpenSea。
+
+6、合规中心化交易所（CEX）的现货交易额在三月份增加了 7% ，达到约 7126 亿美元。
+
+7、三月各大加密货币交易所的市场份额排名如下：币安为 78.1% 、Coinbase 为 6.9% ，Kraken 为 3.9% 、Binance US 为 2.5% 。
+
+8、灰度的比特币信托基金 GBTC 日均交易额在三月份增长了 67.6% ，升至 5500 万美元，创下自 2022 年 12 月以来的新高。
+
+9、在加密期货方面，三月比特币期货未平仓量上涨 7.1% ，而以太坊期货未平仓量则出现下跌，降幅为 5.8% ；在期货交易额方面，比特币期货月交易额在三月的涨幅约为 64.7% ，达到 1.26 万亿美元。
+ 
+10、三月芝商所比特币期货未平仓量增加了 15.3% ，上涨至 20.9 亿美元，日均成交金额上涨 16.5% ，升至 14.5 亿美元。
+
+11、三月芝商所以太坊期货月均交易额达到 6590 亿美元，涨幅为 32.1% 。
+ 
+12、在加密货币期权方面，比特币和以太坊期权持仓量也都出现上涨，其中比特币期权持仓量涨幅高达 92% ，以太坊期权持仓量涨幅约为 33.3% 。比特币和以太坊期权交易额同样普涨，其中比特币期权交易额在三月份增长了 68.2% ，达到 296 亿美元；以太坊期权交易额涨幅为 19.2% ，达到 124 亿美元。
+
+原文链接</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186255"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | OPNX上线首日交易额仅为1.26美元；Safe等超30个项目合作推出MEV Blocker RPC（4月6日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186255">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+
+OPNX 上线首日交易额仅为 1.26 美元， FLEX 24 小时跌幅近 30% 
+Odaily星球日报讯 三箭资本 (3AC) 联合创始人 Kyle Davies 和 Su Zhu 共同创立的破产索赔交易所 OPNX 自周二上线以来交易量极低。在交易所的所有现货和衍生品市场中，截至发稿时仅执行了两笔交易，总价值为 1.26 美元。该交易所的原生代币 FLEX 在过去 24 小时内下跌了 28% 。
+目前尚不清楚 OPNX 是否在吸引新客户方面遇到问题，或者是否缺乏需求。但此前 Kyle Davies 称，OPNX 不会有内部做市商，他认为这一决定不会限制流动性。Su Zhu 周二在一条推文中表示，流动性将“一砖一瓦”地建立起来，交易所正在从 FTX 的失败中吸取教训，避免内部做市商。
+值得注意的是，允许用户在一系列与加密相关的索赔中兑现的代币化破产索赔功能尚未上线。（CoinDesk）
+Safe、BitKeep 等超 30 个项目合作推出 MEV Blocker RPC，保护用户免受 MEV 攻击
+Odaily星球日报讯 Safe、BitKeep、DODO、Oasis、Balancer、1inch等超过 30 个以太坊项目合作推出 MEV Blocker RPC，该工具旨在保护用户免受各种类型的 MEV 攻击。
+MEV Blocker 保护用户免受以太坊交易的抢先和三明治攻击。使用 MEV Blocker，用户可以享受一个快速、免费且抗审查的 RPC 来处理交易。通过将此 RPC 端点添加到钱包，立即获得保护。
+
+项目要闻
+
+Lido 发布V2版本进度更新，取款凭证的更换准备工作已经完成
+Odaily星球日报讯 Lido 发布V2版本进度更新：取款凭证的更换准备工作已经完成，所有提取凭证消息已经成功签名（从0x 00 凭证更换为0x 01 ），届时上海升级完成后…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186254"
+                        open
+                      >
+                        <summary class="article-expander__title">浅析BTC Stamps：比特币NFT的新风口</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186254">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>比特币 NFT 的世界里出现了一股新的风向。
+
+一种叫作 BTC Stamps（比特币“邮票”）的全新比特币 NFT 实现方式已经诞生，且在其问世的头 20 天内，通过该方式所铸造的 NFT 数量要远远超过我们已较为熟悉的 Ordinals 起步时的数据。（关于 Ordinals，可参考阅读《NFT 玩家必读：万字雄文解读 Bitcoin Ordinals》）
+
+团片来源：Bitcoin Frontier Fund 合伙人 trevor.btc
+BTC Stamps 系由匿名开发者 Mike In Space! 创建，根据其提交的 Github 资料可知，BTC Stamps 的实现机制为将 base 64 格式的图像数据嵌入到比特币链上的交易输出之中，从而永久地在比特币链上保存相应的图片数据。
+具体来说，用户需要先将图片的二进制内容编码为 base 64 格式的字符串（图片的 base 64 编码指的是可以将一副图片数据编码成一串字符串，再使用该字符串代替图像地址），然后在该字符串之前加入「Stamps:」的前缀，继而再使用 Counterparty 协议将整段文本内容广播到比特币链上，内容会被切分但会逐一编号，以方便上层应用据此逆向解码至原始图片内容。
+这里涉及到了一个概念 —— Counterparty 协议。Counterparty 协议其实早在 2014 年就已诞生，如今被视为 NFT 先驱的「Rare Pepes」（当时甚至还没有 NFT 这个词）就曾使用过该协议，其特点在于可在比特币数据块的空白处写入数据，从而将数据嵌入至原生的比特币交易之中。
+值得一提的是，99% 的 Counterparty 交易一般都会采用 OP_RETURN 的数据编码方法，但基于该方法所嵌入的数据可以被比特币全节点“删减”，因此并不适用于强调永久保存的 NFT 方向。但在 BTC S…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1031,307 +1428,6 @@
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>一种叫作 BTC「邮票」的全新比特币 NFT 实现方式已经诞生</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186270"
-                        open
-                      >
-                        <summary class="article-expander__title">瞄准极客的「idea」，Jamsy Grant能否为Jasmy生态创造增量？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186270">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>加密行业的亿万个增量用户在哪里？在非洲、拉丁美洲等缺乏金融工具的第三世界国家之外，大家往往容易忽略人口基数足够大、错过 Web2 浪潮后如今积极拥抱 Web3 的日本。
-其实从 2021 年新一届日本政府上任以来，新首相岸田文雄几乎将发展 Web3 提升到了国家战略层面，打算举一国之力来推动 Web3 的发展。
-而 Jamsy 作为日本的「国民级区块链项目」，也一跃成为市场眼中热度最高、最被关注的日本概念项目，而隐藏在背后的火种可能，其实也在 2023 年逐步浮现出来。
-
-Jamsy：日本「国民级区块链项目」
-作为日本的「国民级区块链项目」，Jasmy 虽然在圈内的知名度并不高，但却是实实在在的久经市场和时间考验的「加密老兵」：
-Jasmy 由索尼前员工 Kazumasa Sato 于 2016 年在日本东京创立，一直以来专注于开发并提供元宇宙与物联网（IoT）时代数据安全和共享服务，愿景是使用户能真正拥有自己的数据，并根据自己的意愿将其货币化。
-通过 Jasmy 技术，网络上构建的元宇宙应用程序就可以为彼此间的数据交换建立起直接的桥梁，同时这种应用会产生适合元宇宙应用程序的去中心化存储解决方案。
-而从 2022 年以来开始把 Web3 作为国家战略的日本政府，也多次强调元宇宙和 NFT 将实现日本的经济增长，其中包括但不限于批准了一系列关于 Web3 的改革方针、专门设立 Web3 部长以推广 NFT 和 DAO。
-正因如此，作为日本的「国民级区块链项目」，Jasmy 的重要性和热度从去年开始就逐步水涨船高，其中意味不言自明。
-与此同时，步入 2023 年以来席卷全球的 AI 热潮蹭红了一大批所谓的「人工智能概念」项目，而在此前的 2023 年路线图中，Jasmy 已经先手布局，明确要开发人工智能引擎，计划在 2023 年稳步完成迈入人工智能时代的巨轮转向。
-
-总的来看，…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186269"
-                        open
-                      >
-                        <summary class="article-expander__title">一文速览PancakeSwap V3版本新功能</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186269">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Ignas，DeFi 研究员
-原文编译：Leo，BlockBeats
-PancakeSwap 刚刚推出了新的 V3 版本，也是 Uniswap V3 的一个分叉，不同的是其新版本注重于增强用户体验和易用性，DeFi 研究员 Ignas 撰写了关于「PancakeSwap V3 版本新功能」的文章，编译如下：
-首先，我们回顾一下 Uni 发展史：Uniswap V2 于 2020 DeFi 之夏推出，为本就已火热的 DeFi 市场增添色彩，不久后就出现了许多分叉，使 Uni V2 成为有史以来分叉最多的 DeFi 协议，PancakeSwap 也是其中之一。
-
-在 Uniswap 不愿意于除以太坊之外的任何链上部署的时代，分叉就有了意义，由于这种「不愿意」和 ETH 的高 Gas 费，致使每一层都出现了一个 Uni V2 分叉，PancakeSwap 就推出了 Uni 的分叉版本，并迅速在 BSC 链上占据主导地位，目前其 TVL 为 34 亿美元。
-
-然后是两年前推出的 Uniswap V3，但是 Uniswap 此前有一个禁止分叉的许可证，有效期至 2023 年 4 月 1 日。Uniswap 为其 V3 带来了几项改进，分别是：
--集中的流动性带来高达 4000 倍的资本效率；
--多个费用等级；
-
-很多 DEX 在 Uni 许可证到期前都无法分叉 Uniswap V3 版本，所以他们必须创新以获得竞争优势，比如：
--Trader Joe 的流动性账簿；
--KyberSwap 的 Elastic；
--Velodrome 的 ve ( 3, 3) 代币经济；
--Dodo 的主动做市。
-同样，PancakeSwap 也增加了独特功能：
--易于使用的二元期权
--链上菠菜
--通过与 ApolloX 合作的 Perps
--新的挖矿机会
--它还改进了 CAKE 的代币经济学…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186261"
-                        open
-                      >
-                        <summary class="article-expander__title">「正面反击」Blur，OpenSea Pro（Gem V2）有哪些亮点？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186261">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Cookie，律动 BlockBeats
-不久前的 3 月 29 日，Gem 宣布新通过了 50000 份 Gem V2 测试申请。一两天前，还有人在 Gem 的 Discord 服务器询问 Gem V2 测试资格的相关问题。
-而今天，转变发生得是如此突然... 现在，NFT 交易聚合器曾经的王者 Genie 与 Gem 都不再是曾经的「容颜」，Genie 变成了 Uniswap NFT，而 Gem 则变成了 OpenSea Pro。
-与此同时，Gem 也发布了 Gemesis NFT 系列以感谢 Gem 用户一路以来的支持，所有在 2023 年 3 月 31 日前使用过 Gem 购买 NFT 的用户都可以 Free Mint 1 个 Gemesis NFT（领取链接）。根据 OpenSea 的官方说明，使用 Gem 的时间越早，所得到的 Gemesis NFT 的「等级」将越高。此外，OpenSea 在官方说明中还提到了正在规划以 NFT 作为奖励的「社区奖励」，Gemesis NFT 不与「社区奖励」相关。
-OpenSea Pro（Gem V2）有哪些亮点？笔者将此前一段时间使用 OpenSea Pro（Gem V2）的体验为您总结。
-实时数据流，真的很快
-OpenSea 在官方的介绍视频中宣称 OpenSea Pro 有着最快的 NFT 系列实时数据更新。虽然没有列出具体的数据对比，但笔者在 Nakamigos 的公售结束后捡漏时使用了 OpenSea Pro，当时的体验比 Blur 更好（上架被列出得更快，图也加载得更快）。在撰文时笔者同样选择 Nakamigos 再次进行了对比，这次两者的实时数据流推送效率不相上下。
-
-相比于 Blur，OpenSea Pro 还提供了 Mint 监测功能。通过这个功能，我们可以实时观测以太坊网络上新 NFT 项目的 M…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186260"
-                        open
-                      >
-                        <summary class="article-expander__title">全览Dragonfly投资版图：150多个项目，遍布DeFi、基础设施与NFT</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186260">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Peng SUN，Foresight News
-作为中国第一代互联网技术与应用投资人以及中国最早一批区块链布道者，冯波创建的 Dragonfly 在加密行业名声赫赫，这是一个萌生于 2018 年的加密货币风投基金，由 Bain Capital Ventures 投资顾问 Alexander Pack 与冯波领导下的策源创投联合成立。
-时至今日，Dragonfly 已经成长为一家全球顶级投资机构。尽管对冲基金 Liquid Opportunities 已于今年 3 月被 Brevan Howard Asset Management 收购，但 Dragonfly 旗下基金仍然包括 Dragonfly Ventures 与最古老的加密对冲基金之一 Metastable。
-在五年的发展历程中，「从第一天起全球化」（Global from day one）、「技术即文化」（Technology is Culture）两条标语始终指导着 Dragonfly 的投资实践。一群来自世界各地的、具有全球视野与科技人文主义关怀的成员长期坚持着三个主要的投资方向，即核心区块链技术和底层协议、连接中心化和去中心化经济体的基础设施、作为母基金投资新型的加密资产管理基金，试图实现东西方在技术与市场上的互补，促进 Web2 与古典 VC 进入区块链与 Web3 世界。
-在上述投资理念与方向的指导下，Dragonfly 的投资风格与实践也有一个渐进式与细化的过程，而背后也体现着加密行业的发展趋势：
-
-2018 年，Dragonfly Capital 为第一支基金 Dragonfly Ventures 筹集 1 亿美元，专注于投资于加密货币初创企业；
-
-
-2021 年 3 月 26 日，Dragonfly Capital 为第二支基金「Dragonfly Ventures II」筹集 2.25 亿…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186258"
-                        open
-                      >
-                        <summary class="article-expander__title">全方位解读GMX V2：Perp DEX集大成之作</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186258">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>GMX 团队近期发布了 V2 有关提案，预示着备受期待的 GMX 合成资产版本终于到了上线前夕，本文将为你带来全方位的 GMX V2 解读，一窥此衍生品赛道龙头的未来。
-
-交易市场
-GMX V2 中，每个交易对都有对应的 LP。比如 ETH/USD 交易，LP 也由 ETH/USDs 组成。其中多头抵押品为 ETH，空头抵押品为稳定币，指数代币为 ETH。
-这种情况下仍然保留了全额抵押带来的安全性优势，又使得每个交易对的 LP 只需要承担这个交易对的风险，有利于上线更多资产，以及打开了将来允许无需许可的上币的可能性，毕竟不再像 GLP 一样上个新币需要考虑对整个池子的影响。
-
-https://twitter.com/NintendoDoomed/status/1597229827844898817 
-此外所谓合成资产，就是也可以交易链上没有的资产。比如 SOL/USD 市场，LP 为 ETH/USD, 多头抵押品为 ETH，空头抵押品为稳定币，指数代币为 SOL 。就是说由 ETH 来支撑 SOL 的做多交易。
-很显然，SOL /USD 的安全性无法达到 ETH/USD 那种全额保障的效果，但是考虑到 SOL/ETH 的相关性，相较纯 USD 作为 LP ，风险也会小很多。此外 GMX 也称会控制 OI 上限少于抵押资产来降低风险。
-费用结构
-除开基本的交易手续费外。GMX V2 有 Funding Fee，Borrow Fee, Price Impact 三重费用。这些费用有助于平衡 LP 和 OI 的多空，避免容量被低效占用以及降低价格操纵风险，总体来说就是让 GMX LP 风险更小以及让交易量更大。
-Funding Fee 主要目的是平衡多空。具体公式为：(X) * ( 多空 OI 之差 ) ^ (Y) / ( 多空 OI 之和 )。X 和 Y 均为可设置的参数，多头…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186257"
-                        open
-                      >
-                        <summary class="article-expander__title">腾讯云与Web3数据云公司Oort达成战略合作</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186257">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>腾讯云与去中心化数据云平台 Oort 达成合作。腾讯云将作为 Oort 网络的全节点提供商，为 Oort 的数据服务提供支持。利用腾讯云的海量存储和计算能力，Oort 将能够为部署在其数据云上的应用程序提供更全面的数据服务，并增强其隐私和安全性。同时，Oort 的Web3 数据云解决方案也将全面服务腾讯云的生态，使腾讯云的生态项目快速轻松使用去中心化的基础设施。这次合作将使腾讯在Web3领域进一步探索去中心化数据基础设施所带来的机遇和可能性。
-腾讯云提供多种行业和技术解决方案，适用于音视频、互动直播、在线教育、游戏等多种业务场景，为客户提供安全、高效的上云服务。目前，腾讯云在全球 26 个地区运营着 70 个可用区，提供强大的基础架构，帮助企业快速扩展业务。腾讯云为各行各业的领先企业提供经济高效的数字化转型方案、丰富的行业经验、以客户为中心的服务、全球企业支持以及腾讯的消费者对企业 (C 2B) 优势，助力企业快速适应数字化时代的挑战。
-Oort 是Web3数据云领域的领先者。 Oort 将数据服务与人工智能技术相结合，并通过其企业级产品性能在分布式数据基础设施领域有广泛影响力。Oort 的核心技术 Proof of Honesty（PoH）等获得了美国核心专利并在全球顶级学术期刊发表，Oort 已与全球几十家项目、公司以及 20 多所美国名牌大学（例如哈佛、麻省理工、芝加哥大学等）建立了牢固的合作伙伴或客户关系。了解更多，请访问 Oort 官网 www.oortech.com 或在 Twitter 上关注 Oort @oortech。
-
-原文来源
-
-&quot;,&quot;extraction_tags&quot;:&quot;&quot;,&quot;source_type&quot;:&quot;contribution&quot;,&quot;source_urls&quot;:&quot;&quot;,&quot;next_post&quot;:{&quot;title&quot;:&quot;12张图回顾加密市场的「强劲三月」&quot;,&quot;en…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186256"
-                        open
-                      >
-                        <summary class="article-expander__title">12张图回顾加密市场的「强劲三月」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186256">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：The Block 研究主管@Lars
-原文编译：PANews
-对于加密行业而言，尽管遭遇到 USDC 脱锚、美国商品期货交易委员会起诉币安及其首席执行官赵长鹏等一系列事件的影响，但近期表现依然十分亮眼，下面就让我们用 12 张图表解读刚刚过去的“强劲三月”。
-1、三月调整后链上总交易额增加了 48.8% ，上涨至 2550 亿美元，其中比特币链上交易额增长 48.3% ，以太坊链上交易额涨幅达到了 62.7% 。
-
-2、三月调整后的稳定币链上交易额增长至 8232 亿美元，涨幅达到了 47.5% ；已发行稳定币供应量小幅收缩至 1256 亿美元，降幅约为 2.3% ，其中美元稳定币 USDT 市场份额升至 64.1% ，USDC 的市场份额降幅较大，为 24.6% 。
-据此前报道，Circle 在硅谷银行存有约 33 亿美元的 USDC 储备金，而由于硅谷银行三月份破产导致 USDC 一度出现与美元脱锚的问题，不过之后很快得到了解决。
-
-3、比特币矿工收入在三月份也有较大幅度增长，涨幅为 20.5% ，升至 7.554 亿美元，而以太坊质押收入增长了 19.4% ，达到 1.251 亿美元。以太坊 Shanghai-Capella 主网升级预计将在 4 月 12 日进行，届时质押的 ETH 将会被允许提取。
-
-4、三月以太坊网络共销毁了 92, 057 枚 ETH，价值相当于 1.587 亿美元。数据显示，以太坊在整个三月期间都处于通缩状态，此外自 2021 年 8 月上旬实施 EIP-1559 以来，以太坊总计销毁了约 304 万枚 ETH，价值约合 91.7 亿美元。
-
-5、三月以太坊链上 NFT 市场交易额出现下降，减少至约 13.7 亿美元，跌幅达到 26.32% 。值得一提的是，得益于 BLUR 代币的成功发行，新晋 NFT 市场 Blur 在月交易额等指标上已第二次超越 OpenSea。
-
-6、合规中心化交易所（CEX）的现货交易额在三月份增加了 7% ，达到约 7126 亿美元。
-
-7、三月各大加密货币交易所的市场份额排名如下：币安为 78.1% 、Coinbase 为 6.9% ，Kraken 为 3.9% 、Binance US 为 2.5% 。
-
-8、灰度的比特币信托基金 GBTC 日均交易额在三月份增长了 67.6% ，升至 5500 万美元，创下自 2022 年 12 月以来的新高。
-
-9、在加密期货方面，三月比特币期货未平仓量上涨 7.1% ，而以太坊期货未平仓量则出现下跌，降幅为 5.8% ；在期货交易额方面，比特币期货月交易额在三月的涨幅约为 64.7% ，达到 1.26 万亿美元。
- 
-10、三月芝商所比特币期货未平仓量增加了 15.3% ，上涨至 20.9 亿美元，日均成交金额上涨 16.5% ，升至 14.5 亿美元。
-
-11、三月芝商所以太坊期货月均交易额达到 6590 亿美元，涨幅为 32.1% 。
- 
-12、在加密货币期权方面，比特币和以太坊期权持仓量也都出现上涨，其中比特币期权持仓量涨幅高达 92% ，以太坊期权持仓量涨幅约为 33.3% 。比特币和以太坊期权交易额同样普涨，其中比特币期权交易额在三月份增长了 68.2% ，达到 296 亿美元；以太坊期权交易额涨幅为 19.2% ，达到 124 亿美元。
-
-原文链接</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186255"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | OPNX上线首日交易额仅为1.26美元；Safe等超30个项目合作推出MEV Blocker RPC（4月6日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186255">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-
-OPNX 上线首日交易额仅为 1.26 美元， FLEX 24 小时跌幅近 30% 
-Odaily星球日报讯 三箭资本 (3AC) 联合创始人 Kyle Davies 和 Su Zhu 共同创立的破产索赔交易所 OPNX 自周二上线以来交易量极低。在交易所的所有现货和衍生品市场中，截至发稿时仅执行了两笔交易，总价值为 1.26 美元。该交易所的原生代币 FLEX 在过去 24 小时内下跌了 28% 。
-目前尚不清楚 OPNX 是否在吸引新客户方面遇到问题，或者是否缺乏需求。但此前 Kyle Davies 称，OPNX 不会有内部做市商，他认为这一决定不会限制流动性。Su Zhu 周二在一条推文中表示，流动性将“一砖一瓦”地建立起来，交易所正在从 FTX 的失败中吸取教训，避免内部做市商。
-值得注意的是，允许用户在一系列与加密相关的索赔中兑现的代币化破产索赔功能尚未上线。（CoinDesk）
-Safe、BitKeep 等超 30 个项目合作推出 MEV Blocker RPC，保护用户免受 MEV 攻击
-Odaily星球日报讯 Safe、BitKeep、DODO、Oasis、Balancer、1inch等超过 30 个以太坊项目合作推出 MEV Blocker RPC，该工具旨在保护用户免受各种类型的 MEV 攻击。
-MEV Blocker 保护用户免受以太坊交易的抢先和三明治攻击。使用 MEV Blocker，用户可以享受一个快速、免费且抗审查的 RPC 来处理交易。通过将此 RPC 端点添加到钱包，立即获得保护。
-
-项目要闻
-
-Lido 发布V2版本进度更新，取款凭证的更换准备工作已经完成
-Odaily星球日报讯 Lido 发布V2版本进度更新：取款凭证的更换准备工作已经完成，所有提取凭证消息已经成功签名（从0x 00 凭证更换为0x 01 ），届时上海升级完成后…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186254"
-                        open
-                      >
-                        <summary class="article-expander__title">浅析BTC Stamps：比特币NFT的新风口</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186254">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>比特币 NFT 的世界里出现了一股新的风向。
-
-一种叫作 BTC Stamps（比特币“邮票”）的全新比特币 NFT 实现方式已经诞生，且在其问世的头 20 天内，通过该方式所铸造的 NFT 数量要远远超过我们已较为熟悉的 Ordinals 起步时的数据。（关于 Ordinals，可参考阅读《NFT 玩家必读：万字雄文解读 Bitcoin Ordinals》）
-
-团片来源：Bitcoin Frontier Fund 合伙人 trevor.btc
-BTC Stamps 系由匿名开发者 Mike In Space! 创建，根据其提交的 Github 资料可知，BTC Stamps 的实现机制为将 base 64 格式的图像数据嵌入到比特币链上的交易输出之中，从而永久地在比特币链上保存相应的图片数据。
-具体来说，用户需要先将图片的二进制内容编码为 base 64 格式的字符串（图片的 base 64 编码指的是可以将一副图片数据编码成一串字符串，再使用该字符串代替图像地址），然后在该字符串之前加入「Stamps:」的前缀，继而再使用 Counterparty 协议将整段文本内容广播到比特币链上，内容会被切分但会逐一编号，以方便上层应用据此逆向解码至原始图片内容。
-这里涉及到了一个概念 —— Counterparty 协议。Counterparty 协议其实早在 2014 年就已诞生，如今被视为 NFT 先驱的「Rare Pepes」（当时甚至还没有 NFT 这个词）就曾使用过该协议，其特点在于可在比特币数据块的空白处写入数据，从而将数据嵌入至原生的比特币交易之中。
-值得一提的是，99% 的 Counterparty 交易一般都会采用 OP_RETURN 的数据编码方法，但基于该方法所嵌入的数据可以被比特币全节点“删减”，因此并不适用于强调永久保存的 NFT 方向。但在 BTC S…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -9062,8 +9158,8 @@ CFTC 作为美国政府的独立监管机构，其主要职能是负责监管商
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4626822163">
-        <time id="build-timestamp" datetime="2023-04-06T08:09:51.393Z">2023-04-06T08:09:51.393Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4627284790">
+        <time id="build-timestamp" datetime="2023-04-06T09:07:12.190Z">2023-04-06T09:07:12.190Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

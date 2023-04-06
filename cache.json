@@ -3000,6 +3000,26 @@
       "siteUrl": "https://www.odaily.news",
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5186273",
+          "author": "星球君的朋友们",
+          "description": "原文作者：BennyGiang\n原文编译：Biteye 核心贡献者 Crush\n01、团队介绍\n近期 Future Primitive 团队推出了基于代币绑定账户（ERC 6551 ），这是一种新的技术，将为每个NFT提供自己的账户/钱包地址。\n\nFuture Primitive 是由几位优秀Web3公司的工作人员组成的开发工作室，由 CryptoKitties/Dapper Labs 的创始团队成员之一和 Bitski 的联合创始人领导。Future Primitive 以打造未来为使命，将在过去 5 年围绕 NFT 的势头的基础上，想象未来 5 年会是什么样子。他们相信，对于项目创始人、收藏家和建造者来说，代币绑定将是 NFT 生态系统的重大技术飞跃。以下是 Futrue Primitive 和 CryptoKitties 的联创 Benny Giang 在推特上对新推出的代币绑定账户（ERC 6551 ）的介绍，内容略有删改。\n02、现有的问题\n如果 NFT 有自己的钱包会怎么样？\n受 Soul Bound Tokens (SBTs) 的启发，我们的想法正好相反，我们称之为代币绑定账户 Token Bound Accounts (TBAs) 。不是绑定 NFT 到钱包，我们有与 NFT 绑定的钱包。\n我们的想法是，NFT 正在朝着这种自我主权身份的方向发展，它们不仅仅是躺在小狐狸钱包中的小图片。\n它们有能力拥有资产，执行链上操作，更重要的是创造自己的历史。\n\n事实上，从 2020 以来人们就一直在围绕着 NFT 去形成一个独有的身份。\n\n但是问题的关键是什么呢？\n这些 NFT 仍然只是一种静态资产，除了流转之外，似乎不具有创造历史记录的功能。目前的 NFT 不带有交易历史、签名控制和链接的所有权。\n\n因此当我们谈论这个 NFT 从哪里来的时候，总是会有些不清不楚。\n03、我们的方案\n直到 ERC 6551 的出现，我们才真正解决了这个问题。\n\n如果我们给每一个 NFT 一个自己的钱包，那么它就可以自己签署交易、持有资产，并作为一个 NFT 连接到其它 dapp。\n它的优势在于不需要对目前的 ERC 721、Wrapped 后的合约、或者是 NFT 持有者的任何行为进行重大更改。\n\n因为代币绑定账户使用的是智能合约钱包进行绑定，一旦 ERC 6551 进入主网，每个 NFT 都会自动拥有一个绑定的地址，无需任何额外的操作。\n举个例子，小明从一个项目中获得了一个 Apple NFT，随后这个项目决定对 NFT 持有者进行代币空投，并且也发布了一系列 POAP，供持有者领取。\n场景 A——没有使用代币绑定账户\n当小明决定出售他的 NFT 时，与 NFT 相关的代币、POAP 都不会转移给买家。\n场景 B——使用了代币绑定账户\n所有与 NFT 相关的代币领取、POAP 领取，都会记录在 NFT 本身。在进行 NFT 出售时，买家也会看到这些记录，所有相关的代币、POAP 也都会一并转移给买家。如果缺失了这些，那么 NFT 的价值可能也会大打折扣。\n如果您感兴趣，可以使用我们的测试网进行体验：\nhttps://tokenbound.org\n\n04、小结\n自从 2017 年的 ERC 721 诞生以来，几乎没有出现过像 ERC 6551 这样的重大创新。\n借助 ERC 6551 或代币绑定账户，我们能够在所有现有和新的 NFT 之上无缝添加新的所有权层，在链上开辟大多数项目创建者一直想添加但尚未找到简单方法的新用例。\n\n装备数字服装和物品（RTFKT — CloneX、Doodles）\n\nERC 20 代币赚取/空投模型（BAYC、Cool Cats、SupDucks）\n\n通过参与获得的 POAPS 或徽章（Azuki、FWB、Moonbirds）\n\n将整个集合作为一个单元进行交易（OpenSea 批量传输）\n\nNFT 作为链上身份，具有在社交网络模型（CryptoPunks、Nouns）上分层的能力\n\nERC 6551 将有望成为推动整个行业发展的新动力，给所有参与者带来好处，带来 NFT 和 DID 新范式！",
+          "link": "https://www.odaily.news/post/5186273",
+          "publishedOn": "2023-04-06T08:13:03.000Z",
+          "wordCount": 1799,
+          "title": "一文读懂ERC 6551：NFT与DID新范式",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5186272",
+          "author": "区块律动BlockBeats",
+          "description": "原文标题：《A comparison of zkEVMs》\n原文作者：Daniel Lubarov \n原文编译：Kxp，BlockBeats\n随着「zkEVM 战争」的升温，公众讨论了许多关于不同 zkEVM 的优点。但也存在一些错误的信息，因此我们想澄清一些关于 Polygon zkEVM 以及它与其他项目的比较的事实。\n作为 Polygon 的一名员工，我有偏见，但我会尽力保持比较公正。我主要关注 Polygon 的 zkEVM 和 zkSync Era，因为它们已经投入生产使用，并且我不太了解其他 zkEVM 项目。\nzkSync 的 zkEVM 和证明器由 100 k 多行代码组成。我尽力提供准确的摘要，如果有任何不准确之处，请告诉我，我会进行更正。\nEVM 兼容性\nPolygon zkEVM 直接执行 EVM 字节码。根据 Vitalik 的分类，它是一种类型 3 的 zkEVM。很快它将成为类型 2 ；目前我们缺少四个预编译。Scroll 也在努力向类型 2 zkEVM 发展。\n相比之下，zkSync Era 使用不同的字节码格式，通过提供编译器来支持 Solidity。这使它成为一种类型 4 的 zkEVM：它支持 Solidity，但不支持 EVM 字节码本身。例如 Hardhat 这样的工具不能直接使用，尽管可以使用 zkSync 的插件。\nzkSync 认为他们的 zkVM 更加具有未来性，即它可以更好地与 Solidity 以外的语言配合使用。但是，他们的 VM 似乎继承了 EVM 的许多性能特征，例如其 256 位字大小。像 Miden 这样的 zkVM 可能更具有未来性，因为它是为通用计算而设计的，而不是专注于 Solidity。\n性能\n性能一直是 Polygon 的重点，我们的 zkEVM 非常高效。在 CPU 上运行我们的证明器的成本大约为每笔…",
+          "link": "https://www.odaily.news/post/5186272",
+          "publishedOn": "2023-04-06T07:01:36.000Z",
+          "wordCount": 1986,
+          "title": "「zkEVM 战争」升温，一文全面对比Polygon zkEVM与zkSync Era",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.odaily.news/post/5186270",
           "author": "星球君的朋友们",
           "description": "加密行业的亿万个增量用户在哪里？在非洲、拉丁美洲等缺乏金融工具的第三世界国家之外，大家往往容易忽略人口基数足够大、错过 Web2 浪潮后如今积极拥抱 Web3 的日本。\n其实从 2021 年新一届日本政府上任以来，新首相岸田文雄几乎将发展 Web3 提升到了国家战略层面，打算举一国之力来推动 Web3 的发展。\n而 Jamsy 作为日本的「国民级区块链项目」，也一跃成为市场眼中热度最高、最被关注的日本概念项目，而隐藏在背后的火种可能，其实也在 2023 年逐步浮现出来。\n\nJamsy：日本「国民级区块链项目」\n作为日本的「国民级区块链项目」，Jasmy 虽然在圈内的知名度并不高，但却是实实在在的久经市场和时间考验的「加密老兵」：\nJasmy 由索尼前员工 Kazumasa Sato 于 2016 年在日本东京创立，一直以来专注于开发并提供元宇宙与物联网（IoT）时代数据安全和共享服务，愿景是使用户能真正拥有自己的数据，并根据自己的意愿将其货币化。\n通过 Jasmy 技术，网络上构建的元宇宙应用程序就可以为彼此间的数据交换建立起直接的桥梁，同时这种应用会产生适合元宇宙应用程序的去中心化存储解决方案。\n而从 2022 年以来开始把 Web3 作为国家战略的日本政府，也多次强调元宇宙和 NFT 将实现日本的经济增长，其中包括但不限于批准了一系列关于 Web3 的改革方针、专门设立 Web3 部长以推广 NFT 和 DAO。\n正因如此，作为日本的「国民级区块链项目」，Jasmy 的重要性和热度从去年开始就逐步水涨船高，其中意味不言自明。\n与此同时，步入 2023 年以来席卷全球的 AI 热潮蹭红了一大批所谓的「人工智能概念」项目，而在此前的 2023 年路线图中，Jasmy 已经先手布局，明确要开发人工智能引擎，计划在 2023 年稳步完成迈入人工智能时代的巨轮转向。\n\n总的来看，…",
