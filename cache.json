@@ -2533,6 +2533,26 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/36248",
+          "author": null,
+          "description": "原文标题：《\n\nZKSync 项目浅析：一文了解 zksync lite 及 zksync Era\n\n》\n\n原文来源：Yinan, PANews\n\n\nzkSync:\n\n\nzkSync 是一条以太坊第二层（Layer 2）公链，使用零知识 rollup (ZK rollup）技术来解决以太坊当前的可扩展性问题。使命是增加以太坊的吞吐量，而且要大规模地充分维护其基本价值——自由、自主权、去中心化。\n\n\n\n在 zkSync 中，计算是在链下执行的，大多数数据也存储在链下。由于所有交易都在以太坊主链上进行证明，因此用户享有与以太坊相同的安全级别。\n\n\nzkSync 1.0—-zkSync Lite 于 2020 年 6 月 15 日在以太坊主网上启动\n\n\n实现了约 300 TPS 的交易吞吐量，但是不兼容 EVM。\n\n\nzkSync 2.0—-zkSync Era 于 2023 年 3 月 24 号启动，首先，通过支持 Solidity（通过 zkEVM）和 Zinc（rollup 的内部编程语言）实现任意智能合约功能；其次，通过 zkPorter - 一种结合了 zkRollups 和分片的协议，吞吐量呈指数级增长，达到 20,000+ TPS。\n\n\nzkSync 1.0 和 zkSync 2.0 的主要区别\n\n\n智能合约支持：zkSync 1.0 主要关注简化的支付和资产转移场景，而不支持以太坊虚拟机（EVM）兼容的智能合约。相反，zkSync 2.0 提供了对 EVM 兼容智能合约的完全支持，这意味着开发者可以轻松地将现有的以太坊智能合约部署到 zkSync 2.0。\n\n\n可组合性：zkSync 1.0 仅支持有限的跨合约交互，而 zkSync 2.0 通过保留关键 EVM 功能（如智能合约可组合性）提高了协议间互操作性。这使得 zkSync 2.0 更适合构建复杂的去中心化…",
+          "link": "https://www.theblockbeats.info/news/36248",
+          "publishedOn": "2023-04-06T08:30:01.000Z",
+          "wordCount": null,
+          "title": "ZKSync生态项目：梳理zksync lite及zksync Era的特点与区别",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36261",
+          "author": null,
+          "description": "Scroll通过怎样的机制实现在去中心化的前提下继承以太坊主网的安全性。",
+          "link": "https://www.theblockbeats.info/news/36261",
+          "publishedOn": "2023-04-06T07:41:47.000Z",
+          "wordCount": null,
+          "title": "简述Scroll zkEVM方案：如何实现去中心化的愿景？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/36244",
           "author": null,
           "description": "「透过VC，观察市场」",
