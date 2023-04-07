@@ -51,11 +51,414 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-07 datetime="2023-04-07T00:00:00.000Z">2023-04-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-07 datetime="2023-04-07T00:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-07 datetime="2023-04-07T01:00:01.000Z">2023-04-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-07 datetime="2023-04-07T01:00:01.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36267"
+                        open
+                      >
+                        <summary class="article-expander__title">ERC 6551带来NFT与DID新范式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36267">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《
+
+ERC 6551 带来 NFT 与 DID 新范式
+
+》
+
+原文来源： Biteye
+
+
+团队介绍
+
+
+近期 Future Primitive 团队推出了基于代币绑定账户（ERC 6551），这是一种新的技术，将为每个 NFT 提供自己的账户/钱包地址。
+
+
+
+
+
+
+
+Future Primitive 是由几位优秀 Web3 公司的工作人员组成的开发工作室，由 CryptoKitties/Dapper Labs 的创始团队成员之一和 Bitski 的联合创始人领导。Future Primitive 以打造未来为使命，将在过去 5 年围绕 NFT 的势头的基础上，想象未来 5 年会是什么样子。他们相信，对于项目创始人、收藏家和建造者来说，代币绑定将是 NFT 生态系统的重大技术飞跃。以下是 Futrue Primitive 和 CryptoKitties 的联创 Benny Giang 在推特上对新推出的代币绑定账户（ERC 6551）的介绍，内容略有删改。
+
+
+02 现有的问题
+
+
+如果 NFT 有自己的钱包会怎么样？
+
+
+受 Soul Bound Tokens (SBTs) 的启发，我们的想法正好相反，我们称之为代币绑定账户 Token Bound Accounts (TBAs)。不是绑定 NFT 到钱包，我们有与 NFT 绑定的钱包。
+
+
+我们的想法是，NFT 正在朝着这种自我主权身份的方向发展，它们不仅仅是躺在小狐狸钱包中的小图片。
+
+
+它们有能力拥有资产，执行链上操作，更重要的是创造自己的历史。
+
+
+
+
+
+
+事实上，从 2020 以来人们就一直在围绕着 NFT 去形成一个独有的身份。
+
+
+
+
+
+
+但是问题的关键是什么呢？
+
+
+这些 NFT 仍然只是一种静态资产，除了流转之外，似乎不具有创造历史记录的功能。目前的 NFT 不带有交易历史、签名控制和链接的所有权。
+
+
+
+
+
+
+因此当我们谈论这个 NFT 从哪里来的时候，总是会有些不清不楚。
+
+
+03 我们的方案
+
+
+直到 ERC 6551 的出现，我们才真正解决了这个问题。
+
+
+
+
+
+
+如果我们给每一个 NFT 一个自己的钱包，那么它就可以自己签署交易、持有资产，并作为一个 NFT 连接到其它 dapp。
+
+
+它的优势在于不需要对目前的 ERC 721、Wrapped 后的合约、或者是 NFT 持有者的任何行为进行重大更改。
+
+
+
+
+
+
+因为代币绑定账户使用的是智能合约钱包进行绑定，一旦 ERC 6551 进入主网，每个 NFT 都会自动拥有一个绑定的地址，无需任何额外的操作。
+
+
+举个例子，小明从一个项目中获得了一个 Apple NFT，随后这个项目决定对 NFT 持有者进行代币空投，并且也发布了一系列 POAP，供持有者领取。
+
+
+场景 A——没有使用代币绑定账户
+
+
+当小明决定出售他的 NFT 时，与 NFT 相关的代币、POAP 都不会转移给买家。
+
+
+场景 B——使用了代币绑定账户
+
+
+所有与 NFT 相关的代币领取、POAP 领取，都会记录在 NFT 本身。在进行 NFT 出售时，买家也会看到这些记录，所有相关的代币、POAP 也都会一并转移给买家。如果缺失了这些，那么 NFT 的价值可能也会大打折扣。
+
+
+（译者注：想想 BAYC，还持有空投 APE 和已经卖掉 APE 的猴子价值相差多少，就可以知道这项功能有多么重要了！）
+
+
+
+如果您感兴趣，可以使用我们的测试网进行体验：https://tokenbound.org
+
+
+
+
+
+
+04 小结
+
+
+自从 2017 年的 ERC 721 诞生以来，几乎没有出现过像 ERC 6551 这样的重大创新。
+
+
+借助 ERC 6551 或代币绑定账户，我们能够在所有现有和新的 NFT 之上无缝添加新的所有权层，在链上开辟大多数项目创建者一直想添加但尚未找到简单方法的新用例。
+
+
+
+装备数字服装和物品（RTFKT—CloneX、Doodles）ERC 20 代币赚取/空投模型（BAYC、Cool Cats、SupDucks）通过参与获得的 POAPS 或徽章（Azuki、FWB、Moonbirds）将整个集合作为一个单元进行交易（OpenSea 批量传输）
+
+NFT 作为链上身份，具有在社交网络模型（CryptoPunks、Nouns）上分层的能力
+
+
+ERC 6551 将有望成为推动整个行业发展的新动力，给所有参与者带来好处，带来 NFT 和 DID 新范式！
+
+
+
+
+
+
+
+原文来源</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >PANews - 快讯</button>
+                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/nbu2huri.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Optimism：Token House已批准主网Bedrock升级</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/nbu2huri.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，据官方推特，以太坊二层解决方案Optimism宣布，其治理组织Token House已通过投票批准了Optimism主网Bedrock升级。推文中表示，这不仅是Collective使用新的投票页面进行的第一次链上投票，这也是关于第一次协议升级。
+该投票链接的是Bedrock升级提案V2版本，升级标准流程为先在Optimism Goerli上进行Regolith硬分叉，待审计修复后，在测试网上进行2周的测试，只有在达到测试网稳定性的标准后，Optimism基金会才会宣布升级日期，至少在发布日期后3周。升级将在特定时间触发，而不是区块高度。
+相关阅读：Bedrock架构会让Optimism成为最好的Rollup吗？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/p2lxg8tv.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Ime Messenge已集成推特，支持通过推特账号给Telegram好友发送代币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/p2lxg8tv.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，据官方推特，Telegram开发的Web3社交通讯软件Ime Messenger（LIME）宣布，其客户端已集成推特，通过链接推特即可向同样拥有推特的Telegram好友发送已支持的代币（ETH、BNB、USDT、MATIC、HT、TON等）。
+此前，Ime已经集成以太坊、BSC、Fantom、Polygon、Tron等Layer1公链赋能Telegram的Web3开发。并为Telegram加入谷歌翻译，自定义皮肤，列表消息已读优化等功能。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/05pkrj4p.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Avalanche已在Fuji测试网上激活Cortina升级</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/05pkrj4p.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，据Ava Labs工程主管Patrick O&#x27;Grady的推文，Avalanche已于北京时间昨日23:00在Fuji测试网上成功激活Cortina升级。
+根据此前消息，最新版本的AvalancheGo将迁移X-Chain以运行Snowman++共识，这意味着整个网络已经迁移到一个单一的共识引擎，这减少了可信计算基础的规模并增加了现有研发工作的杠杆作用，这解除了Avalanche Warp Messaging (AWM)在X-Chain上的集成，并使交易所更容易支持X-Chain，其中将包含子网上使用的许多质押代币。Cortina升级还引入了批处理授权奖励并将C-Chain gas上限提高至1500 gas。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/qvbl0ni2.html"
+                        open
+                      >
+                        <summary class="article-expander__title">国际证监会组织将于今年发布关于加密资产和DeFi的监管报告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qvbl0ni2.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，据Ledger Insights报道，国际证监会组织(IOSCO)证实，计划在今年第二季度就加密和数字资产的监管展开咨询，并在年底前发布最终报告。与此同时，另一个工作组将专注于DeFi监管，计划在今年第三季度进行咨询，并在年底前发布最终报告。这是国际证监会组织2023/24年工作计划的一部分。IOSCO此前已概述了在许多情况下如何将现有的证券法规应用于DeFi。它还在探索DeFi与稳定币、加密交易、借贷平台和更广泛金融市场之间的联系。据此前消息，去年IOSCO和国际清算银行（BIS）发布了系统性稳定币的监管指南。该指南强调，如果稳定币执行转移功能并且监管机构认为它对金融系统很重要，它应该遵守金融市场基础设施原则（PFMI）。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/b7ips16b.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT市场LooksRare V2上线，协议费用将削减75%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/b7ips16b.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，NFT市场LooksRare官方宣布V2版本上线，旨在进一步降低平台协议费用和Gas费用，以和Blur、OpenSea Pro展开竞争。根据LooksRare披露的信息显示，LooksRare V2的协议费用将大幅削减75%（从2%降至0.5%），Gas费用将减少50%，卖家也将会直接收到ETH而不是此前的WETH。此外，LooksRare还表示新版本允许在单笔交易中一次性批量列出和购买超过70种NFT，且交易将支持可重复使用的签名。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/3r9g8fkn.html"
+                        open
+                      >
+                        <summary class="article-expander__title">贝莱德与美国政府合作出售价值1140亿美元的Signature Bank和硅谷银行证券</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3r9g8fkn.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，据Crypto Potato报道，全球最大的资产管理公司贝莱德正与美国政府合作，出售价值1140亿美元的Signature Bank和硅谷银行证券，其中包括270亿美元的Signature Bank证券和870亿美元的硅谷银行 (SVB)证券。 美国联邦存款保险公司(FDIC)于周三宣布了这笔交易，并表示这些证券主要包括机构抵押贷款支持证券、抵押担保债券和商业抵押贷款支持证券。FDIC委托贝莱德协调此次出售，计划在考虑日常流动性和交易条件的前提下，以“渐进和有序”的方式进行，以免扰乱市场。目前贝莱德旗下管理着10万亿美元资产。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/61e4nzi2.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Magic Eden以太坊平台已上线，“尊重NFT版税”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/61e4nzi2.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，NFT市场Magic Eden在社交媒体宣布其以太坊平台已正式上线，同时还宣布将与17位ETH Launchpad创作者合作，而且“尊重”所有上架数字藏品的版税。Magic Eden表示当前上线的以太坊平台是一个“最小可行产品（MVP）”，未来将推出更多功能并聚合更多以太坊链上NFT平台。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/7ta38jtq.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Magic Eden将推出Ordinals创作者Launchpad</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/7ta38jtq.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，据CoinDesk报道，NFT市场Magic Eden周四表示将推出一个Ordinals创作者Launchpad，帮助创作者铸造比特币NFT收藏品铭文。尽管Magic Eden此前已经为创作者提供了上架和销售Ordinals的基础设施，但Launchpad将帮助创作者进入生态系统，并在比特币网络上铸造代币。据此前消息，上个月Magic Eden推出一个比特币NFT市场，允许收藏者在二级市场上购买Ordinals。该平台自上线以来日交易量一直领先，目前市场份额为44.1%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/rz5s71ro.html"
+                        open
+                      >
+                        <summary class="article-expander__title">风投公司Bitkraft旗下第二只“代币”基金已筹集2.2亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/rz5s71ro.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，据CoinDesk报道，根据3月30日向美国证券交易委员会(SEC)提交的文件，专注于游戏的风险投资公司Bitkraft已为其第二只“代币基金”筹集了2.206亿美元。该基金的总融资目标为2.4亿美元。Bitkraft于2021年10月推出了一只类似基金，旨在投资区块链游戏和数字娱乐，获得7500美元的承诺资金。Bitkraft于2016年由游戏和电竞资深人士Jens Hilgers创立，专注于参与Web2和Web3领域游戏工作室、游戏平台和游戏相关技术的种子轮至B轮融资。Bitkraft管理的资产已增长到约6亿美元，其中三分之一与Web3有关。该公司旗下基金包括一个专注于电子竞技的基金、一个普通风险投资基金以及两个“代币”基金。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/sbr8tri7.html"
+                        open
+                      >
+                        <summary class="article-expander__title">推特网页Logo重新换回蓝鸟图案，狗狗币日内下跌8%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/sbr8tri7.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，推特首页Logo从狗狗币表情头像重新变回原来的蓝鸟，狗狗币短线下跌，目前报0.08594美元，24小时下跌7.86%。4月3日，推特网页Logo更换为柴犬表情，随后马斯克推特发布含有狗狗币表情的照片，狗狗币短线上涨超过20%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ea9dqwrs.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3共同所有权平台Lore完成Multicoin Capital领投的400万美元融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ea9dqwrs.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月7日消息，总部位于旧金山的 Web3 集体的共同所有权平台 Lore 在由 Multicoin Capital 领投的战略融资轮中筹集了 400 万美元，该轮融资的其他投资者包括 Seed Club Ventures、North Island Ventures、Balaji Srinivasan、Zeneca、Mischief Ventures、Sfermion、CMT Digital、Patricio Worthalter、Spice Capital 和 Sublime Venture 等。迄今为止，Lore 已经筹集了 715 万美元。这笔资金将支持新的用例并扩展到以太坊以外的其他区块链，首先是 Polygon 和 Solana。该平台目前处于公开测试阶段，允许一群人共享不可替代的代币 (NFT)，以扩大访问范围和实用性。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -90,40 +493,6 @@ Odaily星球日报讯 据官方推特，Yuga Labs旗下元宇宙项目 Othersid
 MakerDAO协议工程核心部门将于 4 月底停运
 Odaily星球日报讯 4 月 6 日，MakerDAO 协议工程核心部门（Protocol Engineering Core Unit，以下简称 PECU）开发者 Derek 在治理论坛发文表示，由于 Maker 创始人 Rune Christensen 此前提出的治理架构改革提案，MakerDAO 的 PECU 正在关闭，并…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PANews - 快讯</button>
-                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ea9dqwrs.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3共同所有权平台Lore完成Multicoin Capital领投的400万美元融资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ea9dqwrs.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月7日消息，总部位于旧金山的 Web3 集体的共同所有权平台 Lore 在由 Multicoin Capital 领投的战略融资轮中筹集了 400 万美元，该轮融资的其他投资者包括 Seed Club Ventures、North Island Ventures、Balaji Srinivasan、Zeneca、Mischief Ventures、Sfermion、CMT Digital、Patricio Worthalter、Spice Capital 和 Sublime Venture 等。迄今为止，Lore 已经筹集了 715 万美元。这笔资金将支持新的用例并扩展到以太坊以外的其他区块链，首先是 Polygon 和 Solana。该平台目前处于公开测试阶段，允许一群人共享不可替代的代币 (NFT)，以扩大访问范围和实用性。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9489,26 +9858,6 @@ Odaily星球日报讯 孙宇晨表…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/8xznfhb3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：APT、APE、DYDX、LOOKS和GLMR将于四月份合计解锁超7500万美元的代币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8xznfhb3.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月2日消息，据DeFiLlama数据显示，四月将有APT、APE、DYDX、LOOKS和GLMR五个代币启动解锁，总价值超7500万美元，包括：4月10日1250万枚LOOKS（价值约合1,825,538美元）、4月11日378,788枚DYDX（价值约合935,606美元）、4月12日3,210,145枚APT（价值约合3981万美元）、4月16日7,343,750枚APE（价值约合3202万美元）、以及4月18日1,479,167枚GLMR（价值约合557,102美元）。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9516,8 +9865,8 @@ Odaily星球日报讯 孙宇晨表…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4634248439">
-        <time id="build-timestamp" datetime="2023-04-07T00:33:42.274Z">2023-04-07T00:33:42.274Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4634670440">
+        <time id="build-timestamp" datetime="2023-04-07T01:54:57.170Z">2023-04-07T01:54:57.170Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
