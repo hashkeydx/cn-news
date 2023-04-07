@@ -2813,6 +2813,36 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/36271",
+          "author": null,
+          "description": "出海吧，去实现真正Borderless的Web3",
+          "link": "https://www.theblockbeats.info/news/36271",
+          "publishedOn": "2023-04-07T04:16:21.000Z",
+          "wordCount": null,
+          "title": "来纽约参与Crypto CityCamps首站活动，共赢1.5万枚GMT",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36273",
+          "author": null,
+          "description": "原文来源：Jiawei，\n\nIOSG Ventures投资伙伴\n\n\n\n4 月 7 日，以太坊再质押协议 EigenLayer 在以太坊 Goerli 网络上发布 EigenLayer 协议第一阶段测试网，目前仅支持流动性重质押和原生重质押。\n\n流动性质押支持在 EigenLayer 合约上重新抵押各种流动性 Token。EigenLayer 的发布将分三个阶段进行，分别为质押者、节点运营商和服务。EigenLayer 表示，该测试网是早期的非激励性测试网，代码正在积极开发中。\n\nIOSG Ventures 投资伙伴\n\nJiawei 在 Twitter 上更新了交互教程，BlockBeats 将内容整理如下：\n\n\n1、如果你在 Goerli 测试网上还没有 ETH，请先在以下的水龙头获取：goerlifaucet.com\n\n\n2、当前 EigenLayer 的测试网（https://goerli.eigenlayer.xyz）提供了两种 Restaking 方式：LSD Restaking 和 Native Restaking，对于新手我们更推荐前一种方式。\n\n你需要在测试网上获取 Rocketpool 的 rETH 以及 Lido 的 stETH。\n\n\n\n\n\n3、在这里（https://testnet.rocketpool.net）将你的 Goerli ETH 兑换为 Rocketpool 的 rETH。  \n\n\n\n\n\n4、要获取 Lido 的 stETH，请在小狐狸钱包点击「发送」，并复制合约地址（0x1643E812aE58766192Cf7D2Cf9567dF2C37e9B7F），接下来选择你想要兑换的 stETH 数量，并根据指示完成兑换。\n\n兑换成功后，在钱包里复制上述地址，添加 stETH 到钱包。 \n\n\n\n\n\n5、准备工作至此完成。接下来可以回到 EigenLayer 的测试网主页进行 Restaking。分别点击 Rocketpool ETH 和 Lido Staked ETH 的选项，根据指示完成 Restaking 即可！  \n\n\n\n\n\n6、如果你想继续尝试 Native Staking，请参考 EigenLayer 官方文档 https://docs.eigenlayer.xyz。 \n\n\n 同时欢迎加入社区参与讨论！\n\nDiscord：http://discord.gg/eigenlayer \n论坛：https://forum.eigenlayer.xyz/\n\n\n原文链接",
+          "link": "https://www.theblockbeats.info/news/36273",
+          "publishedOn": "2023-04-07T03:43:28.000Z",
+          "wordCount": null,
+          "title": "融资6440万美元，以太坊再质押协议EigenLayer交互教程",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36272",
+          "author": null,
+          "description": "BASE 官方出来一个任务，在测试网上成功部署合约后，可以在测试网上获得 NFT 奖励。",
+          "link": "https://www.theblockbeats.info/news/36272",
+          "publishedOn": "2023-04-07T03:38:33.000Z",
+          "wordCount": null,
+          "title": "5分钟教你如何在Base测试网部署合约，并获得官方NFT奖励",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/36267",
           "author": null,
           "description": "原文标题：《\n\nERC 6551 带来 NFT 与 DID 新范式\n\n》\n\n原文来源： Biteye\n\n\n团队介绍\n\n\n近期 Future Primitive 团队推出了基于代币绑定账户（ERC 6551），这是一种新的技术，将为每个 NFT 提供自己的账户/钱包地址。\n\n\n\n\n\n\n\nFuture Primitive 是由几位优秀 Web3 公司的工作人员组成的开发工作室，由 CryptoKitties/Dapper Labs 的创始团队成员之一和 Bitski 的联合创始人领导。Future Primitive 以打造未来为使命，将在过去 5 年围绕 NFT 的势头的基础上，想象未来 5 年会是什么样子。他们相信，对于项目创始人、收藏家和建造者来说，代币绑定将是 NFT 生态系统的重大技术飞跃。以下是 Futrue Primitive 和 CryptoKitties 的联创 Benny Giang 在推特上对新推出的代币绑定账户（ERC 6551）的介绍，内容略有删改。\n\n\n02 现有的问题\n\n\n如果 NFT 有自己的钱包会怎么样？\n\n\n受 Soul Bound Tokens (SBTs) 的启发，我们的想法正好相反，我们称之为代币绑定账户 Token Bound Accounts (TBAs)。不是绑定 NFT 到钱包，我们有与 NFT 绑定的钱包。\n\n\n我们的想法是，NFT 正在朝着这种自我主权身份的方向发展，它们不仅仅是躺在小狐狸钱包中的小图片。\n\n\n它们有能力拥有资产，执行链上操作，更重要的是创造自己的历史。\n\n\n\n\n\n\n事实上，从 2020 以来人们就一直在围绕着 NFT 去形成一个独有的身份。\n\n\n\n\n\n\n但是问题的关键是什么呢？\n\n\n这些 NFT 仍然只是一种静态资产，除了流转之外，似乎不具有创造历史记录的功能。目前的 NFT 不带有交易历史、签名控制和链接的所有权。\n\n\n\n\n\n\n因此当我们谈论这个 NFT 从哪里来的时候，总是会有些不清不楚。\n\n\n03 我们的方案\n\n\n直到 ERC 6551 的出现，我们才真正解决了这个问题。\n\n\n\n\n\n\n如果我们给每一个 NFT 一个自己的钱包，那么它就可以自己签署交易、持有资产，并作为一个 NFT 连接到其它 dapp。\n\n\n它的优势在于不需要对目前的 ERC 721、Wrapped 后的合约、或者是 NFT 持有者的任何行为进行重大更改。\n\n\n\n\n\n\n因为代币绑定账户使用的是智能合约钱包进行绑定，一旦 ERC 6551 进入主网，每个 NFT 都会自动拥有一个绑定的地址，无需任何额外的操作。\n\n\n举个例子，小明从一个项目中获得了一个 Apple NFT，随后这个项目决定对 NFT 持有者进行代币空投，并且也发布了一系列 POAP，供持有者领取。\n\n\n场景 A——没有使用代币绑定账户\n\n\n当小明决定出售他的 NFT 时，与 NFT 相关的代币、POAP 都不会转移给买家。\n\n\n场景 B——使用了代币绑定账户\n\n\n所有与 NFT 相关的代币领取、POAP 领取，都会记录在 NFT 本身。在进行 NFT 出售时，买家也会看到这些记录，所有相关的代币、POAP 也都会一并转移给买家。如果缺失了这些，那么 NFT 的价值可能也会大打折扣。\n\n\n（译者注：想想 BAYC，还持有空投 APE 和已经卖掉 APE 的猴子价值相差多少，就可以知道这项功能有多么重要了！）\n\n\n\n如果您感兴趣，可以使用我们的测试网进行体验：https://tokenbound.org\n\n\n\n\n\n\n04 小结\n\n\n自从 2017 年的 ERC 721 诞生以来，几乎没有出现过像 ERC 6551 这样的重大创新。\n\n\n借助 ERC 6551 或代币绑定账户，我们能够在所有现有和新的 NFT 之上无缝添加新的所有权层，在链上开辟大多数项目创建者一直想添加但尚未找到简单方法的新用例。\n\n\n\n装备数字服装和物品（RTFKT—CloneX、Doodles）ERC 20 代币赚取/空投模型（BAYC、Cool Cats、SupDucks）通过参与获得的 POAPS 或徽章（Azuki、FWB、Moonbirds）将整个集合作为一个单元进行交易（OpenSea 批量传输）\n\nNFT 作为链上身份，具有在社交网络模型（CryptoPunks、Nouns）上分层的能力\n\n\nERC 6551 将有望成为推动整个行业发展的新动力，给所有参与者带来好处，带来 NFT 和 DID 新范式！\n\n\n\n\n\n\n\n原文来源",
