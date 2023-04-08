@@ -6,6 +6,56 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/t0y3nzrv.html",
+          "author": "PA一线",
+          "description": "PANews 4月8日消息，据官方推特，NFT借贷协议ParaSpace宣布已向此前事件中的受损用户空投ParaVault NFT。 ParaSpace此前表示在其黑客攻击事件中所有受影响的用户都将收到一个NFT，未来可使用该NFT可兑换ParaSpace官方代币。向ParaSpace借贷池提供资金的用户将获得额外的代币，以弥补协议暂停期间错失的收益机会，ParaSpace还将引入激励计划。\n此前消息，ParaSpace于3月17日以发现可疑交易为由暂停该协议。ParaSpace协议的总损失大约是50-150枚ETH，因利用过程中代币之间交换的滑点造成。ParaSpace昨日表示，资金已从BlockSec收回，3月25日前将分阶段重启协议。",
+          "link": "https://panewslab.com/zh/articledetails/t0y3nzrv.html",
+          "publishedOn": "2023-04-08T09:42:11.000Z",
+          "wordCount": 355,
+          "title": "ParaSpace已向此前安全事件受损用户空投ParaVault NFT",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/6cs6rz55.html",
+          "author": "PA一线",
+          "description": "PANews 4月8日消息，Instagram在其帮助中心发布公告称，“我们已宣布将逐步结束对数字收藏品的支持。这些变更将于2023年4月11日起开始生效。用户第三方电子钱包内容不会受到影响。”\n届时，用户将无法再在Instagram创建新的数字收藏品帖子；用户分享的所有收藏品仍将以帖子的形式留存，但不会包含任何闪光特效和区块链信息，用户仍可以随时删除这些帖子；仅在用户主页的“数字收藏品”选项卡中可见的收藏品帖子将移至用户的私密文件夹。\n此外，Instagram将不再与用户的第三方电子钱包绑定或将用户的帐户与第三方电子钱包关联，用户将无法再在关联的选项卡中查看自己的数字收藏品或管理第三方电子钱包绑定设置。用户将无法再访问或下载与收藏品相关的个人信息。如果想要下载个人信息，请于2023年4月11日前提交申请。Instagram将开始删除系统中的数字收藏品数据，包括用户的钱包地址。数据的存储和删除将遵照其隐私权政策和数字收藏品使用条款进行。",
+          "link": "https://panewslab.com/zh/articledetails/6cs6rz55.html",
+          "publishedOn": "2023-04-08T09:34:54.000Z",
+          "wordCount": 335,
+          "title": "Instagram将于4月11日停止对数字收藏品的支持",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/ajbsdg7n.html",
+          "author": "PA一线",
+          "description": "PANews 4月8日消息，针对昨日Gemholic项目资金被卡的问题，zkSync发布推文称：“我们想分享有关更好地支持遗留Solidity功能的更新，transfer()和.send()将可完全像在EVM中一样工作。该解决方案不涉及任何类型的重组或再生。这将是一个正常的协议升级。 ”\nzkSync对此技术进行了相信的解释：“在zkSync Era上，value>0的调用通过MsgValueSimulator系统合约，消耗一些gas。这就是为什么在zkEVM上不提供gas而调用transfer会失败的原因。因此作出以下更改：对没有最低gas需求的MsgValueSimulator的调用现在至少需要2*64*pubdata_bytes + K ergs。其中，需要pubdata来传输值，并且K将被选择得足够高以处理transfer。在MsgValueSimulator结束时，将确保至少花费2*64*pubdata_bytes + K'来处理transfer(如果花费的ergs更少，则退款将退还给调用者)。K - K'将是zkSync Era津贴。为了防止重入，我们将确保存储写入成本至少为K - K'ergs。这种方法与以太坊非常一致：当value>0并授予一些津贴时，向用户收取更多费用。实际上，这意味着津贴将启用一次且仅支持一个存储更新，除此之外别无其他（与EVM完全相同）。此更改可能会略微影响交易成本的估计和退款后的实际交易成本。但是，未来估计费用与实际费用之间的差距将大大缩小。”\nzkSync提到，上述更新需要一些时间才能实施，并会在下一次协议升级时经过多次测试、审计和社区审查后部署。",
+          "link": "https://panewslab.com/zh/articledetails/ajbsdg7n.html",
+          "publishedOn": "2023-04-08T08:56:28.000Z",
+          "wordCount": 362,
+          "title": "zkSync分享支持遗留Solidity功能的更新，将在下次协议升级时部署",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/4iczqjbj.html",
+          "author": "PA一线",
+          "description": "PANews 4月8日消息，据Decrypt报道，日本金融巨头SBI Holdings旗下加密矿企SBI Crypto向美国德州法院提起诉讼，指控Riot Blockchain旗下数据中心Whinstone US涉嫌“欺诈、欺诈性合同诱导、保密欺诈、疏忽托管和违反托管服务协议”。\nSBI Crypto曾于2019年10月下旬与Whinstone US签署了合作协议。在2020年6月开始运营之前的几个月里，实际上需要相关文件才能允许矿机运行，而缺乏文件阻碍其开展业务。在众多虚假陈述中，SBIC坚持认为，Whinstone US不符合行业标准，该设施经常告知矿企，该设施不需要建筑许可证、认证和电力合同来履行托管服务协议。但Whinstone US谎称已准备好进行大规模挖矿作业，因此SBIC以延迟和不合格的条件为由向其索赔数百万美元。",
+          "link": "https://panewslab.com/zh/articledetails/4iczqjbj.html",
+          "publishedOn": "2023-04-08T08:05:25.000Z",
+          "wordCount": 361,
+          "title": "SBI Crypto对Riot旗下数据中心提起诉讼，指控其欺诈并索赔数百万美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/q47v7n8y.html",
+          "author": "PA一线",
+          "description": "PANews 4月8日消息，据The Block报道，Dune数据显示，Gem更名为OpenSea Pro（4月5日）后，活跃地址和交易量均有显著增长。OpenSea Pro上日新增地址数飙升至1,800以上，目前已回落至1,000；活跃地址每天也飙升至3500以上，此后一直徘徊在3,000以下。更名后平台的日交易量同样飙升，超过300万美元，此后一直徘徊在250万美元以上。\n此外，4月5日和4月6日，OpenSea Pro日交易量超过Blur，但4月7日Blur日交易量领先。同样，OpenSea Pro在4月5日和4月6日在NFT聚合器中获得了最大的市场份额，但昨天再次失去了对Blur的领先优势。OpenSea Pro在4 月5日的日交易量最多，占据了55.1%的市场份额，而Blur为29.5%。4月6日OpenSea Pro的日交易量所占的市场份额升至58.4%。\n相关阅读：新Gem变身OpenSea Pro正面对决Blur",
+          "link": "https://panewslab.com/zh/articledetails/q47v7n8y.html",
+          "publishedOn": "2023-04-08T07:49:04.000Z",
+          "wordCount": 361,
+          "title": "数据：OpenSea Pro市场份额在4月5日和6日超越Blur，升至55%以上",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/1wnt26gv.html",
           "author": "PA一线",
           "description": "PANews 4月8日消息，据Bitcoin.com报道，斯里兰卡央行 (CBSL) 上周发布通知，警告公众“使用和投资加密货币存在重大风险”。该通知称，央行最近收到的投诉表明，“公众在其加密货币投资上蒙受了重大损失，在某些情况下还遭受了加密货币相关金融诈骗。”，且越来越多的金融骗局承诺投资者可从加密投资中获得高回报。\n此外，斯里兰卡央行表示，CBSL没有颁发任何许可证或授权任何个人或企业经营涉及加密货币的计划，且“未授权任何IC0或其变体的筹资、加密货币业务、加密交易所、与加密货币相关的存款或托管服务或任何加密货币投资咨询服务。”",
@@ -3259,6 +3309,46 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5186291",
+          "author": "DAOrayaki",
+          "description": "简介\n今天我们将探讨一个备受关注的话题：Nostr的 Spam（垃圾邮件）问题，作为一种去中心化协议，Nostr 协议在全球范围内实现了社交媒体的去中心化，自主性和抗审查特性。同时，这种协议也存在着一些挑战，其中 Spam 问题是最为突出的一种，我们今天的讨论不会局限于 Spam 问题，还将着重探讨它对社交媒体的未来，去中心化技术的进展以及隐私保护方面的影响，为此 DAOrayaki 社区有幸邀请到了来自 Nostr CN 社区的数据科学家 Sherry 老师，从专业研究人员的角度，跟我们一起开启今天的话题：Nostr 的“去 Spam”之路还有多远？\n主持人：Shaun(DAOrayaki 负责人)\n嘉宾：Sherry(数据科学家）\n正文\nQ:在开启正式话题之前，大家应该很好奇您的背景，您为什么会对 Nostr 感兴趣呢？是跟您所研究或正在探索的领域相关联吗？\n其实相关性并不大，起初大概是在三四个月前，一个朋友向我介绍 Nostr，他是一个有很多年经验的比特币核心（Bitcoin Core）开发者，后来逐步转到了 Nostr 的开发上。最开始尝试了解 Nostr 的时候，我并没有意识到 Nostr 的迷人之处，我对它的认识仅仅是“又一个关于 Social Media 的协议。”\n其实自从 Twitter 流行开始，就不断有人提出，APP（应用程序）不应该是社交媒体的载体，应该把它变成一个协议，也有人在不断地尝试，但都没有得到广泛的应用。所以在两三个月后，我决定 Get hands dirty（亲自实践），真正参与一些 Nostr 方向的开发。\nQ:经过几个月的接触，您觉得 Nostr 的发展现状是怎样的？我们知道最初经历了“爆火”的阶段。\n其实从开发者的体感上来讲并没有那么火，我认为诸如 Twitter，Instagram 的社交媒体都遵循一个规律：用户是依照波浪形一波一…",
+          "link": "https://www.odaily.news/post/5186291",
+          "publishedOn": "2023-04-08T08:30:00.000Z",
+          "wordCount": 2120,
+          "title": "Nostr的“去Spam之路”还有多远？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5186313",
+          "author": "Foresight",
+          "description": "市场数据：\n一、公链总锁仓量情况 \n\n二、各公链 TVL 占比情况\n\n本周 TVL 总量上升 1.1 b。ETH 链占比小幅上升，从上周的 58.56% 上升到 59.15% ，近几个月的大趋势看 eth 生态的 TVL 仍然在稳定上升。从近七日的数据看，Optimism 的 TVL 已经连续几周下跌，本周下跌 0.26% ，其他 Layer 2 的公链都在继续上涨。Arbitrum 上涨 0.97% ，Polygon 上涨 2.33% ，、Avalanche 上涨 3.6% 。\n 三、各链协议锁仓量情况\n1 ）ETH 锁仓量情况\n\n2 ）BSC 锁仓量情况\n\n3 ）Tron 锁仓量情况\n\n4 ）Avalanche 锁仓量情况\n\n5 ）Polygon 锁仓量情况\n\n6 ）Arbitrum 锁仓量情况\n\n7 ）Optimism 锁仓量情况\n\n四、ETH Gas fee 历史情况\n\n当前链上转账费用约为$ 1.08 ，Uniswap 交易费用约为$ 4.58 ，Opensea 的交易费用约为$ 11.79 。Gas 走势略有下降，仍处于底部区间的阶段，从 gas 消耗看，Uniswap 占据头部位置，Arbitrum sequencer 和 blur marketplace 也非常活跃.\n五、NFT 市场数据变化\n1 ）NFT-500 指数：\n\n2 ）NFT 交易市场占比：\n\n3 ）NFT 不同类别分析：\n\n4 ）NFT 买家情况：\n\nBlur 的市场份额持续保持领先状态约为 57.75% ，虽然相比上周下降 22% ，但主要原因是 cryptopunk 本周交易活跃，占据份额较大，opensea 份额约为 13% 。从短期买家分析看，returning buyer 处于低谷，但拉长周期到 90 天看，returning buyer 处于上升趋势。市场交易无明显热点。从类别上看，social 目录下的 NFT 占据主要市场份额，约为 79% ，且处于上升平稳阶段，metaverse 目录下的 NFT 占据市场份额 12% ，从近几个月的数据库比较稳定。\n六、项目最新融资情况\n\n关于 Foresight Ventures\nForesight Ventures 押注加密货币未来几十年的创新历程，旗下管理多支基金：VC 基金、二级主动管理基金、多策略 FOF、特殊目的 S 基金「Foresight Secondary Fund l」, 总资产管理规模超过 4 亿美元。Foresight Ventures 坚持“Unique, Independent, Aggressive, Long-term”的理念，通过强大的生态力量为项目提供广泛的支持。其团队来自包括红杉中国，中金公司，谷歌，比特大陆等顶级金融和技术公司的资深人士。\nWebsite: https://www.foresightventures.com/\n免责声明：Foresight Ventures 所有文章均不作为投资建议。投资有风险，请评估个人风险承受能力，审慎做出投资决策。",
+          "link": "https://www.odaily.news/post/5186313",
+          "publishedOn": "2023-04-08T06:30:00.000Z",
+          "wordCount": 1835,
+          "title": "Foresight Ventures市场周报：ETH汇率上升，曙光预兆",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5186315",
+          "author": "Moni",
+          "description": "来自 Otherside，Odaily 星球日报译者 | Moni\n\n\n4 月 4 日，奢侈品巨头 Gucci 宣布将与 Yuga Labs 旗下元宇宙游戏 Otherside 合作推出限量版 Otherside Relics by Gucci 系列，该系列首个圣人遗物（relic）元数据特征更新 KodaPendant 已于 4 月 7 日 6: 00 开启销售，共计发售 3, 333 枚，每个定价为 450 APE，合格参与者必须持有 Koda 或 Vessel NFT。据悉实物 KodaPendant 项链采用 925 银制成，带有古董饰面且配有 “GG”LOGO 的 Koda 形状吊坠，每个吊坠的背面都有一个独特的版本号。\n消息宣布之后，Otherside 官方网站发布了 Otherside Relics by Gucci 系列问答，旨在帮助用户了解如何“玩转”新推出的 KodaPendant，具体如下：\n1、GUCCI 的 OTHERSIDE RELICS 是什么？\nGucci 的 Otherside Relics 是 Otherside 和 Gucci 合作的 NFT 系列。\n2、什么是 KODAPENDANT？\nKodaPendant 是 Gucci 系列 Otherside Relics 中的首个圣人遗物（relic），专供 Vessel 和 Koda NFT 持有者使用，旨在将数字世界和实体世界整合在一起。KodaPendant 为 Vessel 或 Koda NFT（数字 KodaPendant）持有者提供 3, 333 个限量版元数据可视化功能更新，具有 KodaPendant 特征的 Vessel NFT 或 Koda NFT 持有者无需额外费用即可在访问 Gucci 品牌聊天渠道并在 Otherside 追踪 VFX，后续还能领取实物 KodaPe…",
+          "link": "https://www.odaily.news/post/5186315",
+          "publishedOn": "2023-04-08T06:07:17.000Z",
+          "wordCount": 2401,
+          "title": "Gucci入场元宇宙，Otherside Relics该怎么玩？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5186316",
+          "author": "星球君的朋友们",
+          "description": "原文作者：Aki Network/ Aki Protocol\n致我们的社区：\n请浏览我们的官网和推特参与最新的活动、获取更多信息。\n加密小牛市的背后 – 来自监管的挑战\n尽管硅谷银行和签名银行突然崩溃，导致了包括USDC在内的几个稳定币经历了惊心动魄的一个“去锚周末”。但2023 年对许多人来说，实际上是一个加密小货币牛市”。\n年初时，比特币的价格为16, 500 美元，最近却达到了29, 000 美元的高点，涨幅高达76% 。许多热门的山寨币，如Arbitrum上的垂直赛道头部玩家MAGIC和GMX涨幅都超过了大盘。\n开发者们也树立起了一个个新的里程碑——Optimism与Coinbase达成合作、Polygon的zkEVM和zkSyncEra发布、以太坊通过ERC-4337 、Cosmos V 9 Lambda升级到复制安全等等。\n可是，这种欣欣繁荣的Web3现状与加密世界所面临的监管挑战形成了鲜明的对比。尤其是在FTX和Celsius崩溃之后，美国当局对加密货币的态度日趋严厉。\n近期，美国证券交易委员会（SEC）主席Gary Gensler重申，任何权益证明（PoS）代币都应该被视为证券进行监管。他的观点却又遭到商品期货交易委员会（CFTC）主席Rostin Behnam的强烈反击，称（代币）在他看来是“商品”。而关于银行业是否应继续与加密货币行业维持业务往来，美联储副主席迈克尔·巴尔警告说：“【传统银行们】需要保持谨小慎微”。\n转向东方：日本加密监管虽然严格，但卓有成效\n随着加密行业的乐观前景在美国被更高利率和更重监管阻力所拖累，Web 3 的发展开始悄然转向：东方愈发变得更具吸引力，特别是日本。日本长期处于加密货币革命的最前沿，日本政府自加密货币发展初期就积极寻求为加密行业创建一个健全的、受监管的环境。\n2014 年，日本经历了行业最严重的挫折之一——全球大型比特…",
+          "link": "https://www.odaily.news/post/5186316",
+          "publishedOn": "2023-04-08T05:46:02.000Z",
+          "wordCount": 1721,
+          "title": "2023年，日本正迎来一次新的加密繁荣",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5186266",
           "author": "CoinVoice",
