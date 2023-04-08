@@ -3071,26 +3071,6 @@
           "wordCount": null,
           "title": "如何成为Web3智能合约审计师",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/36183",
-          "author": null,
-          "description": "zkSync Era 主网于 2023 年 3 月 24 日正式向公众开放，3 天内单一地址数便突破 10 万个，1.8 万枚 ETH 跨链进入 zkSync Era。截至 4 月 3 日，zkSync Era TVL 已达 1 亿美元，25.4 万个地址与之进行了交互，超 5.9 万枚 ETH 转入。\n\n\nOnchain Trade Protocol（OT）的上涨行情，更是燃起了大家对 zkSync 生态的预期，目前 zkSync Era 生态中有哪些可以交互的项目？\n\n\nDerivio\n\n\nDerivio 是一个衍生品交易平台，已上线 zkSync Era 测试网。Derivio 是一个结构化衍生品生态系统，提供合成衍生品，通过智能杠杆为交易者提供经过风险调整后的回报，同时为交易者提供具有足够深度的流动性资金池以进行有效对冲。\n\n\nDerivio 已透露其 Token 名称为 DRV，目前尚未公布 Tokenomics 与上线日期。\n\n\n交互流程\n\n\n1. 使用 zkSync Goerli Faucet 领取 ETH 测试币（也可使用该页面左侧 Bridge 以太坊 Goerli 跨链）。\n\n\n\n\n\n2. 使用 Derivio Faucet 领取测试币。\n\n\n\n\n\n3. 进行永续合约、期权、现货交易。\n\n\n\n\n\n4. 点击左上角 Earn 选项卡，Mint DLP-M 和 DLP-B Token，添加 LP，并将 LP Token 质押。\n\n\n\n\n\nNexon Finance\n\n\n\n\nNexon Finance 是一个借贷协议，已上线 zkSync Era 主网，旨在最大限度地提高资本效率，同时降低依赖外部流动性和预言机的风险。\n\n\nNexon Finance 的 Token 名为 NXN，总量 9700 万枚，61% 作为社区激励，其余则分配给 DAO、团队、顾问和 …",
-          "link": "https://www.theblockbeats.info/news/36183",
-          "publishedOn": "2023-04-04T04:17:38.000Z",
-          "wordCount": null,
-          "title": "zkSync Era∎第一批项目来了，都还没发币",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/36182",
-          "author": null,
-          "description": "Arweav数据存储协议有很多，最引人注目的唯属 Filecoin 和 Arweave。",
-          "link": "https://www.theblockbeats.info/news/36182",
-          "publishedOn": "2023-04-04T04:14:06.000Z",
-          "wordCount": null,
-          "title": "Filecoin与Arweave：从存储到计算，去中心化存储复兴",
-          "imageUrl": null
         }
       ]
     },
@@ -3727,16 +3707,6 @@
           "publishedOn": "2023-04-04T06:04:34.000Z",
           "wordCount": 3752,
           "title": "万字解析Curve的演进之路：超越代币设计的协议可持续之道",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5186221",
-          "author": "白泽研究院",
-          "description": "原文作者： 100 y，A 41 Alforone\n编译整理：白泽研究院\n上周，EigenLayer 宣布获得 5000 万美元融资，由 Blockchain Capital 领投，Coinbase Ventures、Polychain Capital、Bixin Ventures、Hack VC 等业内知名 VCs 参投。 \n在众多业内机构的 2022 年度回顾中，都有提到「再质押」这一新叙事。本文将全方位解读其创造者 EigenLayer。\n背景\n2009 年，一位名叫中本聪的匿名开发者通过创造比特币网络首次在数字世界中引入了「去中心化信任」的概念。比特币网络被设计成是一个使用 UTXO 和脚本语言的点对点数字货币系统，但限制是无法在网络上构建各种程序。为了解决这个问题， 2015 年，Vitalik Buterin 推出了以太坊网络，允许开发人员使用图灵完备的语言 Solidity 构建各种去中心化应用程序（dApp）。\n\n如上图所示，有三个模块负责以太坊的去中心化信任：\n\n信任层：由去中心化的区块生产者（验证者）组成的网络。\n\n共识层：关于如何生成区块以及在分布式网络中应将哪个链识别为规范的规则。\n\n执行层：以太坊虚拟机（EVM）。\n\n以太坊有一个类似于比特币的信任层，但是因为它将 EVM 作为执行层，所以可以在它之上构建各种 dApp。然而，以太坊有两个主要限制：\n首先，要独立构建一个独立的共识协议（如 Tendermint、Snowman 等）和执行层（如 Sealevel、FuelVM），是无法利用以太坊信任层的，必须再构建一个独立的信任层。虽然可以在以太坊上构建 Layer-2 解决方案作为独立的执行层，但交易结算最终还是发生在 EVM 上的智能合约中，这不可避免地依赖于以太坊的执行层。\n其次，虽然以太坊网络上的 dApp 似乎受到以太坊强大安全性的保护，但…",
-          "link": "https://www.odaily.news/post/5186221",
-          "publishedOn": "2023-04-04T04:30:00.000Z",
-          "wordCount": 2099,
-          "title": "EigenLayer：通过「再质押」扩展以太坊信任层",
           "imageUrl": null
         }
       ]
