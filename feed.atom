@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-08T17:05:37.938Z</updated>
+    <updated>2023-04-08T18:08:05.571Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -5801,107 +5801,6 @@ Marc Zeller认为目前还没有项目达到成熟的DAO阶段，MakerDAO和Aave
         <summary type="html"><![CDATA[观望者有了下场参与的迹象，但短期参与者的比例上升幅度仍然缓慢；]]></summary>
         <author>
             <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[万字解析Curve的演进之路：超越代币设计的协议可持续之道]]></title>
-        <id>https://www.odaily.news/post/5186208</id>
-        <link href="https://www.odaily.news/post/5186208"/>
-        <updated>2023-04-04T06:04:34.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：0xjeremy
-原文编译：Sissi, Leia
-「前言」
-上一轮加密货币牛市中，各种项目如繁花般绽放，不断涌现出新的叙事，如 DeFi Summer、X to Earn 等等。市场热度的推动使人们更加关注代币价格和代币经济学，但往往忽略了项目的实际价值和可持续性，容易进入 FOMO 情绪。但随着市场走熊，很多项目的的真正价值被暴露了出来，曾风光无限的项目，如 Terra/Luna、FTX 等，崩盘后价值不复存在。因此，我们需要冷静下来，反思并总结那些成功且可持续的项目背后的原因。
-正如《 V 神：超越代币经济学》一文所述，成功的可持续项目需要具备多个要素，不能仅仅局限于代币经济学上，因为加密市场已经不再是单一的代币经济机制的竞争，它已经演变成一个围绕正外部性的“业务 & 激励 & 治理”三方面的综合力量博弈。
-许多项目都在探索成功的秘诀，而作为 Web3.0  领域的佼佼者，Curve 的成长之路可以为其他项目提供有益的经验和启示。本文旨在：
-1. 以 Curve 协议为例，通过将 Curve 的演进历程分为不同阶段（如下表），可以更全面、系统地了解其发展轨迹和成功之路。（注：“ Curve X.0 阶段”指的是 Curve 成长历程的阶段，如 1.0 阶段；而“ Curve VX.0 ”则是指协议的功能版本，如 Curve V1.0 ）
-
-2. 探究 Curve 发展背后的重要事实和关键举措。这些关键点在其它文章中可能被忽略或未被提及，它们是 Curve 可持续背后的基石。通过总结 Web3.0 项目成功的可借鉴规律和模式，为其他项目提供有益的启示和参考。
-
-特别申明：文中涉及的内容与观点，对 Curve 协议或其它涉及的协议并无宣传目的。本文纯粹为探讨，不应被视作投资建议。
-
-「Curve 1.0 阶段」：实现 PMF，开启第一成长曲线 2019.11-2…]]></summary>
-        <author>
-            <name>TEDAO</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何成为Web3智能合约审计师]]></title>
-        <id>https://www.theblockbeats.info/news/36184</id>
-        <link href="https://www.theblockbeats.info/news/36184"/>
-        <updated>2023-04-04T06:00:01.000Z</updated>
-        <summary type="html"><![CDATA[为有兴趣从事区块链安全的普通公众提供⼀份专业的指南。]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[慢雾：MEV机器人攻击者恶意构造无效区块，建议relay operators及时升级中继]]></title>
-        <id>https://panewslab.com/zh/articledetails/yov8heci.html</id>
-        <link href="https://panewslab.com/zh/articledetails/yov8heci.html"/>
-        <updated>2023-04-04T05:57:49.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月4日消息，慢雾分析显示，MEV机器人被攻击的问题原因在于即使信标块不正确，中继仍将payload返回给提议者，导致了提议者在另一个区块被最终确定之前就能访问区块内容。攻击者利用此问题，恶意构造了无效的区块，使得该区块无法被验证，中继无法进行广播（状态码为202）从而提前获得交易内容。mev-boost-relay已紧急发布了新版本缓解此问题，建议relay operators及时升级中继。
-此前昨日消息，MEV机器人遭受恶意三明治攻击，损失金额约2500万美元。随后，攻击MEV机器人的恶意验证者已被Slash惩罚并踢出验证者队列。
-相关阅读：损失2500万美元，MEV机器人是如何被人“黑吃黑”的？]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aptos生态DeFi协议Thala将向早期用户发放分红奖励]]></title>
-        <id>https://panewslab.com/zh/articledetails/al0oktdz.html</id>
-        <link href="https://panewslab.com/zh/articledetails/al0oktdz.html"/>
-        <updated>2023-04-04T05:46:41.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月4日消息，Aptos生态DeFi协议Thala近期发文表示，Thala将向早期用户发放分红奖励，具体分配为：1.在Thala的TGE结束时（4月6日7:00），前40名THL持有者将获得额外的THL代币，相当于THL供应量的0.4%；这笔资金将在前40名持有者之间平均分配。2.在Thala的TGE结束时，随机选择的500名Galxe OAT持有者将获得相当于THL供应量0.1%的额外奖励，这笔资金将在选定的500名持有人中平均分配。为了符合资格，Galxe OAT持有者必须在快照时持有至少100枚THL，并与TGE相关推文互动(点赞和转发)。
-从主网启动开始，这两项奖金都将遵循一年的线性解锁时间表。快照将在LBP结束到协议主网启动之间的某个时间随机拍摄。
-相关阅读：Thala：Move 生态中通用的强大美元稳定币]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aave社区发起将V3部署至StarkNet的温度检查投票]]></title>
-        <id>https://panewslab.com/zh/articledetails/23nxztws.html</id>
-        <link href="https://panewslab.com/zh/articledetails/23nxztws.html"/>
-        <updated>2023-04-04T05:40:44.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月4日消息，Aave社区发起“将Aave V3部署至StarkNet”的温度检查（Temp Check）投票。根据该提案，Aave与StarkNet的集成计划分两个阶段进行，其中第一阶段为在以太坊和StarkNet之间为aTokens部署跨链桥，第一阶段已获社区投票通过。而此次提案旨在完成第二阶段，即在StarkNet上全面部署Aave协议。
-该投票目前支持率为99.21%，将于4月11日截止，此次投票若通过，该提案还需接受链上投票。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：两巨鲸地址今日共计买入近893万枚ARB]]></title>
-        <id>https://panewslab.com/zh/articledetails/517z3v27.html</id>
-        <link href="https://panewslab.com/zh/articledetails/517z3v27.html"/>
-        <updated>2023-04-04T05:36:33.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月4日消息，据推特用户余烬监测，0x35e开头巨鲸地址6小时前从币安提出474万枚ARB，并将500万枚USDC从以太坊跨链到Arbitrum，现已花费350万枚USDC买入300万枚ARB。该地址今天已买入774万枚ARB，成本为1.16美元。
-0xdca开头巨鲸地址3小时多前从币安提出119万枚ARB，并在几日前从OKX分两笔提出共351万枚ARB。目前该鲸鱼一共持有471万ARB，综合成本约1.25美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yuga Labs：将启动Otherdeed Expanded NFT铸造，以解锁LOTM等游戏体验]]></title>
-        <id>https://panewslab.com/zh/articledetails/kv5wn0st.html</id>
-        <link href="https://panewslab.com/zh/articledetails/kv5wn0st.html"/>
-        <updated>2023-04-04T05:28:35.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月4日消息，Yuga Labs更新元宇宙平台Otherside的2D策略游戏Legends of the Mara（LOTM）玩法，用户可通过参与Koda“解耦（Decoupling）”和Vessel申领，用户的Otherdeed将被销毁，并将成为Otherdeed Expanded NFT的一部分，新的NFT将转移到用户钱包，这些新收藏是用户通过Otherdeed Expanded解锁游戏体验的关键，包括LOTM游戏。
-据介绍，Otherdeed Expanded是可以随时间变化的动态NFT。LOTM游戏两个关键组成部分是Otherside Koda NFT和Otherside Vessel NFT，Koda Decoupling将于本周进行，Vessel申领将于本周晚些时候开放，都将无限期开放。
-此前3月28日消息，Otherside将推出基于收藏的2D策略游戏LOTM，4月初可申领Vessel NFT。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[赵长鹏：近期FUD或由其他交易所赞助传播，行业应团结而非攻击同行]]></title>
-        <id>https://panewslab.com/zh/articledetails/w9hlzkg5.html</id>
-        <link href="https://panewslab.com/zh/articledetails/w9hlzkg5.html"/>
-        <updated>2023-04-04T05:14:59.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月4日消息，币安首席执行官赵长鹏发推文称：“最新的 FUD只由加密新闻媒体和KOL传播，很可能是由另一个交易所植入/赞助的。这种做法非常小气，伤害了行业，也伤害了他们自己。有足够多的外部力量在攻击我们，我们的行业需要在这个节骨眼上团结起来。”
-此前今日早些时候消息，币安否认“国际刑警组织向赵长鹏发出红色通缉令”的传言。]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
 </feed>
