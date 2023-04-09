@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-09 datetime="2023-04-09T04:40:32.000Z">2023-04-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-09 datetime="2023-04-09T04:40:32.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-09 datetime="2023-04-09T06:15:17.000Z">2023-04-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-09 datetime="2023-04-09T06:15:17.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -67,6 +67,32 @@
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/x8ru7k3u.html"
+                        open
+                      >
+                        <summary class="article-expander__title">慢雾：SUSHI RouteProcessor2 遭受攻击，请及时撤销对其的授权</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/x8ru7k3u.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月9日消息，据慢雾安全团队情报分析，SUSHI RouteProcessor2 遭到攻击。慢雾安全团队以简讯的形式分享如下：
+1. 根本原因在于 ProcessRoute 未对用户传入的 route 参数进行任何检查，导致攻击者利用此问题构造了恶意的 route 参数使合约读取的 Pool 是由攻击者创建的。
+2. 由于在合约中并未对 Pool 是否合法进行检查，直接将 lastCalledPool 变量设置为 Pool 并调用了 Pool 的 swap 函数。
+3. 恶意的 Pool 在其 swap 函数中回调了 RouteProcessor2 的 uniswapV3SwapCallback 函数，由于 lastCalledPool 变量已被设置为 Pool，因此 uniswapV3SwapCallback 中对 msg.sender 的检查被绕过。
+4. 攻击者利用此问题在恶意 Pool 回调 uniswapV3SwapCallback 函数时构造了代币转移的参数，以窃取其他已对 RouteProcessor2 授权的用户的代币。
+幸运的是部分用户的资金已被白帽抢跑，有望收回。慢雾安全团队建议 RouteProcessor2 的用户及时撤销对 0x044b75f554b886a065b9567891e45c79542d7357 的授权。
+今日早些时候报道，SushiSwap项目疑似被攻击，损失约334万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -321,6 +347,82 @@
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186323"
+                        open
+                      >
+                        <summary class="article-expander__title">数据互操作：Web3的核心体验</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186323">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Chen Li, Jims Young, Li Gong 和 Ivo Entchev
+原文来源：Youbi Capital
+1 ）Web2的困局   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+我们每天生活在各种 APP 中：在微信上和朋友闲聊，用点评软件选要去的餐厅，在小红书上探索生活的多样，用支付宝付日常的开销……我们生活的痕迹被形形色色的 APP 捕获，沉淀在各自的数据库内。
+同时，随着对工作与生活要求的增多，我们有了越来越细分的 APP 们：从单纯视频到长视频，短视频，中视频的划分，从博客到微博，长文章，图文信息流等不同呈现方式，越来越精细化的用户需求创造了更加细分的 APP 分类，同时也导致了数据的更加分散。
+这种 APP 间的分散与数据不互通形成了一个个“数据孤岛”。我们在不同的 APP 之间重复着注册账号，撰写内容，并需要在各个平台中一次又一次地发布达到“全平台同步”。
+而试想一下，如果我们在抖音上的一个视频，可以无感地被同步到小红书。同样的，一个我们发在 B 站某视频的弹幕，也可以被同步到其他平台。APP 之间能够共享该用户的数据，数据便从此不再存在于孤岛，用户也能借助更自由的平台互操作实现更多有创造力的内容输出。这也是不断被提及的Web3终局体验——能够互操作的应用矩阵。
+
+
+
+
+而面对基于融合数据中台的应用矩阵的大趋势, 在不同平台上的数据孤岛间这个趋势会如何进一步落地? 而Web3技术如何服务于这个大趋势? 这是我们要讨论的问题。
+
+
+
+
+
+2 ）为什么是Web3   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Web3的含义包括区块链, 密码学, 去中心化经济模型等概念。代表性的产品有跨主权货币比特币, 基于智能合约的去中心化金融, 以及去中心化的计算, 存储网络等。
+以去中心化金融为例, Web3应用的主要特征是去信任资产管理和交易(签名), 用…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -8302,8 +8404,8 @@ OpenSea 在官方的介绍视频中宣称 OpenSea Pro 有着最快的 NFT 系列
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4649107824">
-        <time id="build-timestamp" datetime="2023-04-09T06:08:25.351Z">2023-04-09T06:08:25.351Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4649316767">
+        <time id="build-timestamp" datetime="2023-04-09T07:05:52.909Z">2023-04-09T07:05:52.909Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
