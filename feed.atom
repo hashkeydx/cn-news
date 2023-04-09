@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-09T15:06:34.389Z</updated>
+    <updated>2023-04-09T16:07:54.880Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4895,84 +4895,6 @@ zkSync 认为他们的 zkVM 更加具有未来性，即它可以更好地与 Sol
 性能一直是 Polygon 的重点，我们的 zkEVM 非常高效。在 CPU 上运…]]></summary>
         <author>
             <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[对话SSV：详谈DVT守护下的LSD赛道]]></title>
-        <id>https://www.odaily.news/post/5186235</id>
-        <link href="https://www.odaily.news/post/5186235"/>
-        <updated>2023-04-05T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文来源：Erin，Binary DAO
-Host: Muyi
-Guest: Robert Hu, SSV Network 中国大使
-
-“SSV 就是基于 DVT 技术的去中心化验证器基础设施。它属于介于信标链和验证节点之间的中间层，是管理拆分和发验证器密钥，并在多个节点上使用其 Keyshares 来重建数据签名的过程”。
-----  Robert
-
-Muyi：Staking 对以太坊意味着什么？LSD 赛道为什么会有千亿级业务规模的潜力？
-Robert：这是 LSD 赛道的一个基础问题。关于这个问题，我分三点来分享。第一点，以太坊主链分为共识层和执行层。Staking 与以太坊就好比是水与船，水能载舟，也能覆舟。
-第二点，水有多深？现在来看，以太坊的一个 POS 的质押量才只有 15% 多一点。目前来说，没有哪条链的质押量会是只有百分之十几的。
-Solana当前的质押率是 70% 左右，ETH的质押率是 15% 左右。BNB的质押率在 90% 以上，它不是一条可以宕机的链，而是一条可以关机的链，因为它的质押率足够高。有个段子是说，可能你把 21 个节点的头套全部摘下来之后会发现，这些节点全部由CZ本人在控制。
-那么你把以太坊的头套摘下来之后，你会看见谁呢？现在以太坊质押排名前几的几家是Coinbase、Kraken、BNB、Lido……这几家机构占据了市场 90% 以上的份额。如果这几家联合起来，就有可能导致以太坊分叉。
-2015 年，几个比特币头部矿池的算力加起来超过了 51% 。那时候，比特币社区的成员对去中心化很有信仰，他们自发地把算力从头部矿池中分流到了一些小的矿池里，使得当年没有发生 51% 攻击事件，但是 2017 年，比特币依然分叉了。
-那 Coinbase 现在已经决定要做个二层了，核心逻辑就在于只要你控制的量足够多，你的影响力就足够大。
-第三点，以太坊…]]></summary>
-        <author>
-            <name>Binary DAO</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[万字盘点2023年度Solana DeFi十大主题]]></title>
-        <id>https://www.odaily.news/post/5186250</id>
-        <link href="https://www.odaily.news/post/5186250"/>
-        <updated>2023-04-05T03:48:06.000Z</updated>
-        <summary type="html"><![CDATA[本文来自：substack，原文作者：Sitesh Kumar Sahoo、Yash Agarwal 和 Anna Yuan
-
-Odaily 星球日报译者 | Moni
-
-
-Solana 拥有一个蓬勃发展的 DeFi 生态系统，主要归功于其创新构建者社区：从交易、投资平台、以及与纳斯达克深度相当的中央限价订单簿(CLOB)，到衍生品、DEX、DEX 聚合器等。本文旨在全面概述 Solana 上的 DeFi 格局，重点介绍主要参与者和趋势，通过分析这些项目的优势和局限性来深入了解 Solana 的独特产品，以及与 DeFi 领域其他生态系统的对比。本文将全面概述 Solana 当前的 DeFi 格局，重点介绍主要参与者、趋势和构建机会。
-
-DeFi 生态系统整体概述
-从 2020 年 DeFi Summer 到 2021 年底，DeFi 锁仓量不断攀升，但在 2022 年却出现大幅下跌，由于 BlockFi、3AC、Celsius、FTX 等一系列中心化实体在客户存款方面出现巨大风险，由于这些企业不可持续的资金互借行为和使用非流动资产作为抵押品，最终导致垮台，也动摇了 DeFi 生态系统。
-实际上，每次加密市场遭遇重大事件之后，DeFi 总锁仓量都会出现巨大损失，这次也不例外。在 5 月份 Terra 崩溃之后，DeFi 总锁仓量暴跌了 600 亿美元， 6 月份的持续清算事件又损失了 250 亿美元。但是，最严重的打击发生在 11 月的 FTX 崩溃，造成约 100 亿美元的 DeFi 锁仓量损失，更影响了整个生态系统。
-目前大多数 DeFi 协议的原生代币价格已经从历史高点下跌了 80-90% ，由于锁仓量通常以美元价值衡量，因此价格下跌进一步加深了对 DeFi 的影响。
-
-
-上图：DeFi 总锁仓量（截至 3 月 30 日的数据，来源：DeFiLlama）
-但是，尽管锁…]]></summary>
-        <author>
-            <name>Moni</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[币安将于4月6日对以太坊钱包进行维护，代币交易不受影响]]></title>
-        <id>https://panewslab.com/zh/articledetails/8snkwu5p.html</id>
-        <link href="https://panewslab.com/zh/articledetails/8snkwu5p.html"/>
-        <updated>2023-04-05T03:35:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月5日消息，据官方公告，币安将于北京时间2023年4月6日15:00对以太坊网络（ERC20）钱包进行维护，预计需要两个小时。钱包维护期间，以太坊网络代币交易将不受影响。充值、提现业务将于4月6日14:55起暂停，并将在钱包维护完成后重新开放。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[棒约翰将基于Polygon区块链首次发行披萨主题NFT]]></title>
-        <id>https://panewslab.com/zh/articledetails/cbr8kvaf.html</id>
-        <link href="https://panewslab.com/zh/articledetails/cbr8kvaf.html"/>
-        <updated>2023-04-05T03:34:28.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月5日消息，据Nrn报道，世界三大披萨品牌之一的棒约翰（Papa Johns）宣布将基于Polygon区块链与OneRare合作首次发行NFT，用户收集数字食材制作虚拟比萨可获得奖励，据悉本次将推出三款“披萨NFT”，分别是Super Papas pizza、Spicy Chicken Ranch pizza、以及‘Sheese’ Garden Special pizza，未来NFT持有者也有机会参与棒约翰的忠诚度计划。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CertiK：若Sentiment黑客在规定之间内归还资产，将获9.5万美元奖励]]></title>
-        <id>https://panewslab.com/zh/articledetails/for454eg.html</id>
-        <link href="https://panewslab.com/zh/articledetails/for454eg.html"/>
-        <updated>2023-04-05T03:15:33.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月5日消息，CertiK推特发文称，一小时前有人给Sentiment黑客发送链上信息，表示如果黑客在北京时间4月6日下午4点前归还盗窃资产，将获得9.5万美元的奖励。如果黑客在上述时间没有归还资产，奖金将发放给那些提供黑客信息的人。据此前消息，DeFi借贷协议Sentiment今日凌晨在Arbitrum网络被盗约100万美元，根本原因在于Balancer的只读可重入性。Sentiment官方团队目前正在调查Sentiment协议被盗资金。Sentiment已经采取措施找出漏洞的根本原因，并降低进一步损失的风险。同时团队正与执法部门保持联系，并一直在与第三方审计机构和安全公司合作。]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
 </feed>
