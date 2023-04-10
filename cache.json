@@ -1834,16 +1834,6 @@
           "wordCount": 326,
           "title": "GMX发起关于将费用收入的1.2%分配给Chainlink以使用其新预言机的提案",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/2xagj434.html",
-          "author": "PA一线",
-          "description": "PANews 4月6日消息，据Web3知识图谱协议0xScope监测，Mechanism Capital联合创始人Andrew Kang以1.227美元的均价增持150万枚ARB，目前共持有230万枚ARB，平均成本为1.237美元。此外，Andrew Kang尚有5125枚ARB空投未申领。",
-          "link": "https://panewslab.com/zh/articledetails/2xagj434.html",
-          "publishedOn": "2023-04-06T06:37:32.000Z",
-          "wordCount": 346,
-          "title": "数据：Andrew Kang增持150万枚ARB，目前共持有230万枚ARB",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2191,16 +2181,6 @@
           "wordCount": null,
           "title": "简述Scroll zkEVM方案：如何实现去中心化的愿景？",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/36244",
-          "author": null,
-          "description": "「透过VC，观察市场」",
-          "link": "https://www.theblockbeats.info/news/36244",
-          "publishedOn": "2023-04-06T06:09:39.000Z",
-          "wordCount": null,
-          "title": "观察加密VC走向，DeFi研究员看好的三个项目",
-          "imageUrl": null
         }
       ]
     },
@@ -2209,6 +2189,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5186352",
+          "author": "链捕手",
+          "description": "原文标题：The making of Binance's CZ: An exclusive look at the forces that shaped crypto's most powerful founder\n原文编译：郭倩雯、麟奇、谷昱\nCZ 此刻正坐在迪拜家中的书架前，这里和巴黎一样，是他称之为家的地方。视频里的他和蔼可亲，态度温和，甚至十分谦逊。这与其竞争对手最熟悉的形象恰恰相反：他野心勃勃，将 Binance 打造成了世界上最大和最有影响力的加密货币交易平台。\n他习惯于用不同的面孔与他人打交道。「如果美国人与我打交道，他们会觉得我是亚洲人——比大多数美国人略微多一点亚洲人的特质，但比他们认识的其他亚洲人又少一点亚洲人的特质。如果亚洲人和我打交道，他们会觉得我像美国人，但比他们平日接触的美国人少一点美国人的特质。我算得上是介于两者之间的状态。」\n最近，CZ 的强硬一面让他遭受严格审查。CZ 和 Binance 在策略上制胜对手、玩弄宽松的法规，从而大获成功——每当有国家能够提供最有利的法规时，这位创始人就会在此处安营扎寨，各国官方包括美国都指责 Binance 具有欺骗行为，违反国际制裁和洗钱规则。\nBinance 坚称已改变运营方式，现在合规才是目标；CZ 在代言这家改过自新的公司时，展现的总是他说话温和、为人谦卑的另一面。但 Binance 的转变引起人们对 CZ 的真实面目和他如何建立起业务的疑问——有关 CZ 背景和 Binance 运营的公开记录十分少见，这让这些问题显得更加尖锐。\n对 CZ 背景的仔细研究填补了其中的许多空白，揭示了 Binance 创始人如何在双重身份中转换——多年来他以强硬手段击败商业对手，又能维持着态度友好的普通人形象。本杂志对他的过去进行详细调查，参考对他熟人的采访和中文媒体的广泛评论，发现了塑造 CZ 身份的两个世界：他成长…",
+          "link": "https://www.odaily.news/post/5186352",
+          "publishedOn": "2023-04-10T16:17:10.000Z",
+          "wordCount": 2697,
+          "title": "财富特稿：CZ的成长经历与父辈的传承造就了他的Binance帝国",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5186348",
           "author": "火星财经",
@@ -2797,16 +2787,6 @@
           "publishedOn": "2023-04-06T08:13:03.000Z",
           "wordCount": 1799,
           "title": "一文读懂ERC 6551：NFT与DID新范式",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5186272",
-          "author": "区块律动BlockBeats",
-          "description": "原文标题：《A comparison of zkEVMs》\n原文作者：Daniel Lubarov \n原文编译：Kxp，BlockBeats\n随着「zkEVM 战争」的升温，公众讨论了许多关于不同 zkEVM 的优点。但也存在一些错误的信息，因此我们想澄清一些关于 Polygon zkEVM 以及它与其他项目的比较的事实。\n作为 Polygon 的一名员工，我有偏见，但我会尽力保持比较公正。我主要关注 Polygon 的 zkEVM 和 zkSync Era，因为它们已经投入生产使用，并且我不太了解其他 zkEVM 项目。\nzkSync 的 zkEVM 和证明器由 100 k 多行代码组成。我尽力提供准确的摘要，如果有任何不准确之处，请告诉我，我会进行更正。\nEVM 兼容性\nPolygon zkEVM 直接执行 EVM 字节码。根据 Vitalik 的分类，它是一种类型 3 的 zkEVM。很快它将成为类型 2 ；目前我们缺少四个预编译。Scroll 也在努力向类型 2 zkEVM 发展。\n相比之下，zkSync Era 使用不同的字节码格式，通过提供编译器来支持 Solidity。这使它成为一种类型 4 的 zkEVM：它支持 Solidity，但不支持 EVM 字节码本身。例如 Hardhat 这样的工具不能直接使用，尽管可以使用 zkSync 的插件。\nzkSync 认为他们的 zkVM 更加具有未来性，即它可以更好地与 Solidity 以外的语言配合使用。但是，他们的 VM 似乎继承了 EVM 的许多性能特征，例如其 256 位字大小。像 Miden 这样的 zkVM 可能更具有未来性，因为它是为通用计算而设计的，而不是专注于 Solidity。\n性能\n性能一直是 Polygon 的重点，我们的 zkEVM 非常高效。在 CPU 上运行我们的证明器的成本大约为每笔…",
-          "link": "https://www.odaily.news/post/5186272",
-          "publishedOn": "2023-04-06T07:01:36.000Z",
-          "wordCount": 1986,
-          "title": "「zkEVM 战争」升温，一文全面对比Polygon zkEVM与zkSync Era",
           "imageUrl": null
         }
       ]
