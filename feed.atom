@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-10T00:37:13.798Z</updated>
+    <updated>2023-04-10T01:55:49.466Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Solana社区成员提议创建可将Ed25519密钥对转换为Curve25519密钥对的加密标准]]></title>
+        <id>https://panewslab.com/zh/articledetails/25hgpw34.html</id>
+        <link href="https://panewslab.com/zh/articledetails/25hgpw34.html"/>
+        <updated>2023-04-10T01:11:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月10日消息，Solana社区成员Valentin发起一项提案，建议创建一个将Ed25519密钥对转换为为Diffie Hellman密钥交换协议设计的Curve25519密钥对的标准，这将支持非对称加密，而不必生成单独的密钥来执行这种操作。
+Valentin解释称，随着Solana生态系统的发展，对于保护敏感数据(如帐户状态或IPFS和Arveawe等分布式文件系统上的文件)，对Solana密钥对加密标准的需求变得越来越重要。虽然Ed25519密钥对对签名消息有效，但它们不能用于非对称加密，而非对称加密对于用户隐私和数据保护至关重要。再次，提出这个建议是为了就如何派生Solana密钥对以兼容Diffie Hellman密钥交换或其他类型的加密机制兼容达成一致。一旦就此主题达成一致，钱包就可以开始实施加密功能，作为钱包标准的一部分。
+Valentin还提到，作为从常规Solana密钥对派生Curve25519密钥对来执行加密的替代方案，Jordan Sexton建议可以从任何钱包（包括硬件钱包）的签名消息中派生密钥对来派生加密密钥。这种方法的一个问题可能是，一旦两个dApp请求使用相同种子的签名，密码就可能被破解。需要某种在每次加密时都必须不同的一次性随机数，这很难实现。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[俄罗斯执法机构要求国会允许其设立专用钱包来管理没收的加密货币]]></title>
+        <id>https://panewslab.com/zh/articledetails/i2ofswea.html</id>
+        <link href="https://panewslab.com/zh/articledetails/i2ofswea.html"/>
+        <updated>2023-04-10T00:51:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月10日消息，据Bitcoin.com报道，俄罗斯联邦总检察长办公室正在向莫斯科的议会和政府施压，要求允许其设立加密账户和钱包，用于存储在刑事案件中没收的加密货币，这些加密货币以后可以出售，为该国谋利。
+总检察长办公室刑事诉讼部门代表Madina Dolgieva认为，这可以通过政府法令来实现，没有必要修改刑事诉讼法，因为修法是一个漫长的过程。她还认为，有必要发布单独的政府法令或修改现行的执法程序法律，以授权俄罗斯联邦法警署拍卖没收的加密货币。
+此前昨日消息，俄罗斯总检察长表示，加密交易所有义务与安全部门共享用户数据。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3 NFT游戏平台Gameta完成500万美元种子轮融资，Binance Labs等参投]]></title>
+        <id>https://panewslab.com/zh/articledetails/rqulrdyx.html</id>
+        <link href="https://panewslab.com/zh/articledetails/rqulrdyx.html"/>
+        <updated>2023-04-10T00:40:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月10日消息，据官方博客，Web3 NFT游戏平台Gameta宣布完成500万美元的种子轮投资，Binance Labs、Huobi Ventures、Arcane Capital、Ceras Ventures、Start VC、Gate.io Labs, W3Coins、Redline Dao、DefinanceX、Rana Capital和Infinity Labs参投。Gameta将使用本次融资加快其游戏生态系统、代币和NFT体系建设，并扩大其用户群。
+据悉，Gameta是一个多层NFT游戏生态系统，为玩家提供Web3游戏和娱乐体验。在其最新NFT游戏Hippo Dash中，Gameta建立了让用户可以进行游戏、社交、经验共享以及Web3资产互动的Hippo Club NFT系统。根据官方介绍，该项目目前在BNB Chain上活跃用户中排名第一，也是Binance Labs的Most Valuable Builder孵化营获奖者。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tether CTO：公司一季度利润已超7亿美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/vflrl46n.html</id>
+        <link href="https://panewslab.com/zh/articledetails/vflrl46n.html"/>
+        <updated>2023-04-10T00:14:46.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月10日消息，Tether首席技术官Paolo Ardoino今日在推特上表示，公司今年第一季度的利润已超过7亿美元。
+此前3月24日消息，Paolo Ardoino曾预计该季度超​​额储备将增加7亿美元，这将使Tether的超额储备达到16.6亿美元，这将是Tether超额储备首次突破10亿美元大关。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SushiSwap主厨：已确认从CoffeeBabe追回超300 ETH的Sifu被盗资金]]></title>
+        <id>https://panewslab.com/zh/articledetails/suo55csd.html</id>
+        <link href="https://panewslab.com/zh/articledetails/suo55csd.html"/>
+        <updated>2023-04-10T00:08:08.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月10日消息，SushiSwap主厨Jared Grey在社交媒体再次呼吁尽快撤销RouteProcessor 2的合约错误批准，还透露恢复工作正在进行中，目前已经在白帽安全流程中保护了大部分受影响的资金且用户可以与SushiSwap安全团队联系。SushiSwap已确认从CoffeeBabe追回了300多枚ETH的Sifu被盗资金，正在正就700 ETH的问题与Lido团队联系。
+此外，SushiSwap首席技术官Matthew Lilley在社交媒体澄清SushiSwap协议和UI没有风险，所有RouterProcessor2合约问题都已从前端移除，所有LPing/当前交换活动都可以安全进行，SushiSwap将在资金可用时继续监控/救援资金，白帽救援地址为：0x74Ebb8e8d0B0cc65F06040EB0f77B5DA0e33fFeE。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FTX债务人发布第一份报告，讨论前管理层的控制失误]]></title>
+        <id>https://panewslab.com/zh/articledetails/b2ee80vn.html</id>
+        <link href="https://panewslab.com/zh/articledetails/b2ee80vn.html"/>
+        <updated>2023-04-09T23:58:08.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月10日消息，FTX及其债务人发布了第一份报告，确定并讨论了FTX集团前管理层在关键领域的的控制失误，包括管理和治理、财务和会计、数字资产管理、信息安全和网络安全。FTX信任首席执行官 John J. Ray III 表示，我们发现 FTX Group 未能在对保护现金和加密资产至关重要的领域实施适当控制。FTX Group 被一小群人严格控制，他们谎称负责任地管理 FTX Group，但实际上对建立监督或实施适当的控制框架并不关心。我们正在继续努力审查导致FTX崩溃的事件，并帮助债权人恢复尽可能多的资产。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美联储：FedNow与数字货币无关，尚未决定发行CBDC]]></title>
         <id>https://panewslab.com/zh/articledetails/4ua6fkxn.html</id>
@@ -4273,36 +4340,6 @@ BTC Stamps 系由匿名开发者 Mike In Space! 创建，根据其提交的 Gith
         <link href="https://panewslab.com/zh/articledetails/v6k5r6uh.html"/>
         <updated>2023-04-05T14:36:11.000Z</updated>
         <summary type="html"><![CDATA[PANews 4月5日消息，Safe、BitKeep、DODO、Oasis、Balancer、1inch等超过30个以太坊项目合作推出MEV Blocker RPC，该工具旨在保护用户免受各种类型的MEV攻击。MEV Blocker RPC是一个路由用户交易到“搜索器”网络而不是公共内存池的工具，这些搜索器通过竞标获取反向运行交易的权利，帮助用户免受抢先交易和三明治攻击。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeFi 平台 M^ZERO 完成 2250 万美元种子轮融资，Pantera Capital 领投]]></title>
-        <id>https://panewslab.com/zh/articledetails/q68v3bmy.html</id>
-        <link href="https://panewslab.com/zh/articledetails/q68v3bmy.html"/>
-        <updated>2023-04-05T13:24:13.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月5日消息，据 Coindesk报道，DeFi 平台 M^ZERO 完成 2250 万美元种子轮融资，本轮融资由 Pantera Capital 领投，Road Capital、AirTree、Standard Crypto、SALT Fund、ParaFi Capital、Distributed Capital、Kraynos Capital、Earlybird 和 Mouro Capital 参投。 M^ZERO Labs 首席执行官 Luca Prosperi 称，M^ZERO 旨在实现机构价值传输，为支付流动创建一个中立的基础设施。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Animoca Brands：将与Yuga Labs合作开发LOTM游戏]]></title>
-        <id>https://panewslab.com/zh/articledetails/sxjgpo62.html</id>
-        <link href="https://panewslab.com/zh/articledetails/sxjgpo62.html"/>
-        <updated>2023-04-05T13:07:02.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月5日消息，香港Web3游戏开发商及投资机构Animoca Brands在社交媒体宣布将与Yuga Labs合作开发Otherside的2D策略游戏Legends of the Mara（LOTM），未来还将推出更多以Yuga Labs为中心的游戏。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美联储梅斯特：预计利率将“略有提高”，然后保持不变]]></title>
-        <id>https://panewslab.com/zh/articledetails/gn0el5wq.html</id>
-        <link href="https://panewslab.com/zh/articledetails/gn0el5wq.html"/>
-        <updated>2023-04-05T12:54:47.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月5日消息，美国克利夫兰联储主席梅斯特(Loretta Mester）表示，企业正在为经济放缓做准备；现在不清楚银行动荡影响的持续时间和程度；银行业的紧张局势增加了利率走势的不确定性；预计利率将“略有提高”，然后保持不变；现在判断美联储是否会在5月份加息还为时过早。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
