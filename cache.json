@@ -2294,16 +2294,6 @@
           "wordCount": 335,
           "title": "Instagram将于4月11日停止对数字收藏品的支持",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ajbsdg7n.html",
-          "author": "PA一线",
-          "description": "PANews 4月8日消息，针对昨日Gemholic项目资金被卡的问题，zkSync发布推文称：“我们想分享有关更好地支持遗留Solidity功能的更新，transfer()和.send()将可完全像在EVM中一样工作。该解决方案不涉及任何类型的重组或再生。这将是一个正常的协议升级。 ”\nzkSync对此技术进行了相信的解释：“在zkSync Era上，value>0的调用通过MsgValueSimulator系统合约，消耗一些gas。这就是为什么在zkEVM上不提供gas而调用transfer会失败的原因。因此作出以下更改：对没有最低gas需求的MsgValueSimulator的调用现在至少需要2*64*pubdata_bytes + K ergs。其中，需要pubdata来传输值，并且K将被选择得足够高以处理transfer。在MsgValueSimulator结束时，将确保至少花费2*64*pubdata_bytes + K'来处理transfer(如果花费的ergs更少，则退款将退还给调用者)。K - K'将是zkSync Era津贴。为了防止重入，我们将确保存储写入成本至少为K - K'ergs。这种方法与以太坊非常一致：当value>0并授予一些津贴时，向用户收取更多费用。实际上，这意味着津贴将启用一次且仅支持一个存储更新，除此之外别无其他（与EVM完全相同）。此更改可能会略微影响交易成本的估计和退款后的实际交易成本。但是，未来估计费用与实际费用之间的差距将大大缩小。”\nzkSync提到，上述更新需要一些时间才能实施，并会在下一次协议升级时经过多次测试、审计和社区审查后部署。",
-          "link": "https://panewslab.com/zh/articledetails/ajbsdg7n.html",
-          "publishedOn": "2023-04-08T08:56:28.000Z",
-          "wordCount": 362,
-          "title": "zkSync分享支持遗留Solidity功能的更新，将在下次协议升级时部署",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3307,16 +3297,6 @@
           "publishedOn": "2023-04-08T10:30:00.000Z",
           "wordCount": 2638,
           "title": "Messari：详解Optimism超级链，统一Layer2网络打造Rollup链工厂",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5186291",
-          "author": "DAOrayaki",
-          "description": "简介\n今天我们将探讨一个备受关注的话题：Nostr的 Spam（垃圾邮件）问题，作为一种去中心化协议，Nostr 协议在全球范围内实现了社交媒体的去中心化，自主性和抗审查特性。同时，这种协议也存在着一些挑战，其中 Spam 问题是最为突出的一种，我们今天的讨论不会局限于 Spam 问题，还将着重探讨它对社交媒体的未来，去中心化技术的进展以及隐私保护方面的影响，为此 DAOrayaki 社区有幸邀请到了来自 Nostr CN 社区的数据科学家 Sherry 老师，从专业研究人员的角度，跟我们一起开启今天的话题：Nostr 的“去 Spam”之路还有多远？\n主持人：Shaun(DAOrayaki 负责人)\n嘉宾：Sherry(数据科学家）\n正文\nQ:在开启正式话题之前，大家应该很好奇您的背景，您为什么会对 Nostr 感兴趣呢？是跟您所研究或正在探索的领域相关联吗？\n其实相关性并不大，起初大概是在三四个月前，一个朋友向我介绍 Nostr，他是一个有很多年经验的比特币核心（Bitcoin Core）开发者，后来逐步转到了 Nostr 的开发上。最开始尝试了解 Nostr 的时候，我并没有意识到 Nostr 的迷人之处，我对它的认识仅仅是“又一个关于 Social Media 的协议。”\n其实自从 Twitter 流行开始，就不断有人提出，APP（应用程序）不应该是社交媒体的载体，应该把它变成一个协议，也有人在不断地尝试，但都没有得到广泛的应用。所以在两三个月后，我决定 Get hands dirty（亲自实践），真正参与一些 Nostr 方向的开发。\nQ:经过几个月的接触，您觉得 Nostr 的发展现状是怎样的？我们知道最初经历了“爆火”的阶段。\n其实从开发者的体感上来讲并没有那么火，我认为诸如 Twitter，Instagram 的社交媒体都遵循一个规律：用户是依照波浪形一波一…",
-          "link": "https://www.odaily.news/post/5186291",
-          "publishedOn": "2023-04-08T08:30:00.000Z",
-          "wordCount": 2120,
-          "title": "Nostr的“去Spam之路”还有多远？",
           "imageUrl": null
         }
       ]
