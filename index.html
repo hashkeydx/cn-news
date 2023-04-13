@@ -10036,32 +10036,6 @@ Odaily星球日报提示：下文不含投资建议，投资者谨慎参与。
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/x8ru7k3u.html"
-                        open
-                      >
-                        <summary class="article-expander__title">慢雾：SUSHI RouteProcessor2 遭受攻击，请及时撤销对其的授权</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/x8ru7k3u.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月9日消息，据慢雾安全团队情报分析，SUSHI RouteProcessor2 遭到攻击。慢雾安全团队以简讯的形式分享如下：
-1. 根本原因在于 ProcessRoute 未对用户传入的 route 参数进行任何检查，导致攻击者利用此问题构造了恶意的 route 参数使合约读取的 Pool 是由攻击者创建的。
-2. 由于在合约中并未对 Pool 是否合法进行检查，直接将 lastCalledPool 变量设置为 Pool 并调用了 Pool 的 swap 函数。
-3. 恶意的 Pool 在其 swap 函数中回调了 RouteProcessor2 的 uniswapV3SwapCallback 函数，由于 lastCalledPool 变量已被设置为 Pool，因此 uniswapV3SwapCallback 中对 msg.sender 的检查被绕过。
-4. 攻击者利用此问题在恶意 Pool 回调 uniswapV3SwapCallback 函数时构造了代币转移的参数，以窃取其他已对 RouteProcessor2 授权的用户的代币。
-幸运的是部分用户的资金已被白帽抢跑，有望收回。慢雾安全团队建议 RouteProcessor2 的用户及时撤销对 0x044b75f554b886a065b9567891e45c79542d7357 的授权。
-今日早些时候报道，SushiSwap项目疑似被攻击，损失约334万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10212,8 +10186,8 @@ DeFi 从 Uniswap 开启的 token 空投用于社区治理是对 OG 的奖励现�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4692438124">
-        <time id="build-timestamp" datetime="2023-04-13T18:09:14.963Z">2023-04-13T18:09:14.963Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4692902195">
+        <time id="build-timestamp" datetime="2023-04-13T19:05:46.719Z">2023-04-13T19:05:46.719Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

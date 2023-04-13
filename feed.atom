@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-13T18:09:15.004Z</updated>
+    <updated>2023-04-13T19:05:46.755Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -6049,22 +6049,6 @@ DeFi 从 Uniswap 开启的 token 空投用于社区治理是对 OG 的奖励现�
         <summary type="html"><![CDATA[本文介绍了三种提示工程的方法，分别是OpenAI推荐的前置提示工程，AI自动生成，以及以反思为主的后置提示工程。]]></summary>
         <author>
             <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[慢雾：SUSHI RouteProcessor2 遭受攻击，请及时撤销对其的授权]]></title>
-        <id>https://panewslab.com/zh/articledetails/x8ru7k3u.html</id>
-        <link href="https://panewslab.com/zh/articledetails/x8ru7k3u.html"/>
-        <updated>2023-04-09T06:15:17.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月9日消息，据慢雾安全团队情报分析，SUSHI RouteProcessor2 遭到攻击。慢雾安全团队以简讯的形式分享如下：
-1. 根本原因在于 ProcessRoute 未对用户传入的 route 参数进行任何检查，导致攻击者利用此问题构造了恶意的 route 参数使合约读取的 Pool 是由攻击者创建的。
-2. 由于在合约中并未对 Pool 是否合法进行检查，直接将 lastCalledPool 变量设置为 Pool 并调用了 Pool 的 swap 函数。
-3. 恶意的 Pool 在其 swap 函数中回调了 RouteProcessor2 的 uniswapV3SwapCallback 函数，由于 lastCalledPool 变量已被设置为 Pool，因此 uniswapV3SwapCallback 中对 msg.sender 的检查被绕过。
-4. 攻击者利用此问题在恶意 Pool 回调 uniswapV3SwapCallback 函数时构造了代币转移的参数，以窃取其他已对 RouteProcessor2 授权的用户的代币。
-幸运的是部分用户的资金已被白帽抢跑，有望收回。慢雾安全团队建议 RouteProcessor2 的用户及时撤销对 0x044b75f554b886a065b9567891e45c79542d7357 的授权。
-今日早些时候报道，SushiSwap项目疑似被攻击，损失约334万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
 </feed>
