@@ -3234,26 +3234,6 @@
           "wordCount": 359,
           "title": "Mysten Labs联创：SUI没有空投或永远不会有，请谨防诈骗",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/xx2k5kwe.html",
-          "author": "PA一线",
-          "description": "PANews 4月10日消息，DefiLlama创始人0xngmi在推特上表示，其已建立一个网站，可帮助用户检查地址是否受到SushiSwap合约攻击事件的影响，同时知道哪些代币的授权需要撤销。\n此前昨日消息，SushiSwap项目遭遇攻击，损失约334万美元。SushiSwap官方呼吁尽快撤销RouteProcessor 2的合约错误批准。",
-          "link": "https://panewslab.com/zh/articledetails/xx2k5kwe.html",
-          "publishedOn": "2023-04-10T01:35:04.000Z",
-          "wordCount": 346,
-          "title": "DefiLlama创始人推出用于检查地址是否受SushiSwap攻击事件影响的网站",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/25hgpw34.html",
-          "author": "PA一线",
-          "description": "PANews 4月10日消息，Solana社区成员Valentin发起一项提案，建议创建一个将Ed25519密钥对转换为为Diffie Hellman密钥交换协议设计的Curve25519密钥对的标准，这将支持非对称加密，而不必生成单独的密钥来执行这种操作。\nValentin解释称，随着Solana生态系统的发展，对于保护敏感数据(如帐户状态或IPFS和Arveawe等分布式文件系统上的文件)，对Solana密钥对加密标准的需求变得越来越重要。虽然Ed25519密钥对对签名消息有效，但它们不能用于非对称加密，而非对称加密对于用户隐私和数据保护至关重要。再次，提出这个建议是为了就如何派生Solana密钥对以兼容Diffie Hellman密钥交换或其他类型的加密机制兼容达成一致。一旦就此主题达成一致，钱包就可以开始实施加密功能，作为钱包标准的一部分。\nValentin还提到，作为从常规Solana密钥对派生Curve25519密钥对来执行加密的替代方案，Jordan Sexton建议可以从任何钱包（包括硬件钱包）的签名消息中派生密钥对来派生加密密钥。这种方法的一个问题可能是，一旦两个dApp请求使用相同种子的签名，密码就可能被破解。需要某种在每次加密时都必须不同的一次性随机数，这很难实现。",
-          "link": "https://panewslab.com/zh/articledetails/25hgpw34.html",
-          "publishedOn": "2023-04-10T01:11:37.000Z",
-          "wordCount": 342,
-          "title": "Solana社区成员提议创建可将Ed25519密钥对转换为Curve25519密钥对的加密标准",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3262,6 +3242,16 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/news/36490",
+          "author": null,
+          "description": "原文标题：《香港金融科技咨询小组主席：将对 DeFi 进行强监管，相关企业需持牌经营》\n原文来源：吴说区块链\n\n\n\n演讲嘉宾：蔡钟辉，香港证券及期货事务检查委员会中介机构部临时主管 (金融科技咨询小组主席)\n\n\n早上好。很荣幸受邀在这个精彩的节日上发言。在过去的几年中，各种技术出现了许多惊人的发展和突破。例如，我们已经看到企业将人工智能融入其业务，中央银行、金融机构正在探索使用分布式账本技术 (DLT) 的好处。就在几周前，我亲身体验了 Chatgpt 的奇妙之处。\n\n\n相关技术的潜在应用及其具体化影响是巨大的。我们看到新闻报道说金融公司正在测试该工具并使用它来撰写研究报告。我必须承认，使用 Chatgpt 来撰写这篇演讲稿的想法也出现在我的脑海中。但我放弃了，那是因为此类技术有其自身的局限性和错误性，包括它有时会对问题生成错误答案。举个例子。一位资产经理要求 Chatgpt 给他十只可以从虚拟现实中获益的股票。\n\n\nChatgpt 提供了 7 个名字，经理从剩下的 3 个中发现 Chatgpt 编造了 3 个假名字。这个例子强调了以负责任的方式利用创新技术优势的重要性。正如基于 DLT 的 web3 的出现一样，它有望带来巨大的经济利益，并有可能改变互联网和我们互动的方式。我们还必须意识到潜在的风险并妥善管理它们。\n\n\n需要明确的是，SFC（香港证券及期货事务监察委员会）认识到 web3 带来的机会。事实上，我们的首席执行官 Julia Leung 女士已经在去年香港金融科技周的发言中表示，SFC 已经注意到 web3、虚拟资产、NFT、元宇宙和 GameFi 在我们日常生活中的潜在影响，我们支持底层 DLT 技术发展和创新，所以让我今天借此机会与大家分享：SFC 政策举措与之相关的两个非常重要的主题——中心化虚拟资产交易平台（VATP）和去中心化金融（DeFi）。\n\n\n…",
+          "link": "https://www.theblockbeats.info/news/36490",
+          "publishedOn": "2023-04-14T12:00:02.000Z",
+          "wordCount": null,
+          "title": "香港金融科技咨询小组主席：将对DeFi进行强监管，相关企业需持牌经营",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/news/36518",
           "author": null,
