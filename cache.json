@@ -6,6 +6,36 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/dkj73u3v.html",
+          "author": "PA一线",
+          "description": "PANews 4月15日消息，据The Block报道，Arbitrum社区提议“将基金会剩余的7亿枚ARB返还给DAO”的提案AIP-1.05未通过，反对票占84.01%，2100万ARB对该提案投了赞成票，占总票数的14.57%。200万ARB弃权。据悉，Arbitrum的治理代币价格在过去 24 小时内上涨了8%以上。\n此前消息，Arbitrum提议将基金会剩余的7亿枚ARB返还给DAO",
+          "link": "https://panewslab.com/zh/articledetails/dkj73u3v.html",
+          "publishedOn": "2023-04-15T09:27:06.000Z",
+          "wordCount": 386,
+          "title": "Arbitrum社区提案AIP-1.05未通过，反对率达84%",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/5473wfug.html",
+          "author": "PA一线",
+          "description": "PANews 4月15日消息，据CoinDesk报道，美国政府道德办公室的一份文件显示，前总统唐纳德特朗普从特朗普品牌的NFT的销售中赚取了10万至100万美元。以第45任总统肖像为特色的4.5万件数字收藏品于12月发布，并在一天内售罄。由于前总统在纽约被传讯的消息，过去几周该系列的价格飙升。",
+          "link": "https://panewslab.com/zh/articledetails/5473wfug.html",
+          "publishedOn": "2023-04-15T08:21:50.000Z",
+          "wordCount": 354,
+          "title": "外媒：特朗普从NFT销售中赚取了10万至100万美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/7vqy274u.html",
+          "author": "PA一线",
+          "description": "PANews 4月15日消息，据The Block报道，Token.unlocks数据显示，目前有价值31亿美元的148万枚以太币等待提取。预计在接下来的11小时内将提取257,340 枚以太币（价值5.3695亿美元）。自上海升级以来，质押的以太币数量净减少了11.211万枚（约2.2872亿美元），其中解除质押数量约为32.6万枚。目前质押的以太币总量（不包括赚取的奖励）为1723万枚，价值359.5亿美元，占总供应量的15.34%。",
+          "link": "https://panewslab.com/zh/articledetails/7vqy274u.html",
+          "publishedOn": "2023-04-15T08:08:17.000Z",
+          "wordCount": 365,
+          "title": "数据：以太坊质押总量为1723万枚，占总供应量的15.34%",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/ltzlr2wp.html",
           "author": "PA一线",
           "description": "PANews 4月15日消息，The Sandbox宣布与NBA夏洛特黄蜂队球员拉梅洛·鲍尔（LaMelo Ball）达成合作，拉梅洛·鲍尔将入驻The Sandbox元宇宙。The Sandbox将为拉梅洛·鲍尔创建一个元宇宙社交中心，并在4月17日至5月1日举行球迷活动，活动包括19个独特的任务，所有任务都与梅洛的爱好有关。\n此前消息，NBA最佳新秀拉梅洛·鲍尔拍卖与NFT相关的签名球鞋",
@@ -3729,6 +3759,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5186437",
+          "author": "R3PO",
+          "description": "EIP的全称是以太坊改进提案(Ethereum Improvement Proposals)，以太坊社区中的任何人都可以创造一个 EIP。以太坊改进提案编写准则在 EIP-1 中提供。以太坊改进提案的创作者负责在社区内建立共识并记录不同意见。从历史上看，大多数以太坊改进提案的创作者通常是应用程序或协议开发者，因为提交高水平的以太坊改进提案需要很强的技术能力，EIP经过初审后会按照时序给予一个编号，并经由下图所示的审核流程进行讨论。 \n\nEIP有很多种类型，其中包括有Core、Networking 、Interface 、ERC、Meta、Informational，每一类解决的问题都不一样，我们耳熟能详的ERC-20 、ERC-721 、ERC-1155 ，属于应用级的标准协议，目前绝大多数NFT产业应用都是围绕着这几种主流协议展开的。EIP就像是一部以太坊的编年史，记录了其诞生至今所有的发展脉络，同时也有着预见整个以太坊生态前进方向的能力，见微知著，一个EIP的改动可能蕴含着颠覆整个行业的巨大机会。本文在此将会把目光聚焦在与NFT相关的并且处于Last call和最近Final阶段的EIP提案。\nEIP-4955 元数据标准扩展\n该EIP建议规范NFT元数据(metadata)的模式，为EIP-721 和EIP-1155 标准NFT的JSON模式中添加一个新字段命名空间(namespaces)。主要代码如下图所示：\n\nEIP-4955 采用了直接扩展EIP-721 元数据的方式，背后的想法是为了向后兼容。使得那些不能修改元数据响应（schema）的现有项目，能够创建一个新的智能合约，基于tokenId返回更新的元数据模式。鉴于以太坊上的大多数项目都使用不可升级的合约。如果这个EIP需要对这些合约进行全新的实现，就必须重新部署。这样既浪费时间又浪费钱。而利用EIP-721 …",
+          "link": "https://www.odaily.news/post/5186437",
+          "publishedOn": "2023-04-15T08:30:00.000Z",
+          "wordCount": 1861,
+          "title": "从即将通过的EIP提案窥见NFT的未来",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5186435",
           "author": "Foresight",
