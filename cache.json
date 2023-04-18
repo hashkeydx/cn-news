@@ -2023,6 +2023,36 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/36586",
+          "author": null,
+          "description": "原文来源：妙蛙种子, CapitalismLab\n\n\nBSC 老牌衍生品交易所 @ApolloX_Finance 已发布 V2 版本，在此前 V1 订单簿模式的基础上，部分整合 GMX 和 GNS 的机制并进行了符合 BSC「链情」的特色创新\n\n本 Thread 将锐评 ApolloX V2 的特点，产品优劣势，以及对 BSC 生态的意义。\n\n\n\n\n\nApolloX V2 基本特点可以概括为: \n\n\n1. ALP 为类似 GLP 的指数资产模式，使 BTC/ETH 等主流加密资产交易体验和风控达 GMX 水平 \n\n\n2. 类似 CEX 体验的多空双边一致的资金费率，类似 GNS 的动态滑点机制 \n\n\n3. 支持合成资产交易，控制容量来控制风险\n.\n\n\n4 紧密合作 Binance Oracle，便于灵活支持更多资产交易的。\n\n\n接下来展开讲下 Apollox V2 比较有特色的方面 \n\n\n A . 资金费率\n\n虽然 Apollox V2 的资金费率公式与 GMX V2/GNS 非常相似，一样是根据多空比和波动性定价的，但是 Apollox 多空双方使用相同的费率。  \n\n\n如果 Long OI> Short OI 的情况下，ShortOI*Funding Fee Rate 这部分会支付给空方，剩下来的 (LongOI-ShortOI)*Funding Fee 则会成为系统收入。\n\n\n\n\n\n\n\n\n是的，虽然它没有 Borrow Fee，但某种意义上来说，他是把 Borrow Fee 和 Funding Fee 有机结合了一把。加上 BSC 的用户小白居多，也习惯了币安合约的搞法，算是一个本地化创新。  \n\n\n\nB. 动态滑点\n\nApollox V2 的开仓滑点类似 GNS\n1。整体 OI 越高，开仓量越大，滑点越大\n2. 对应交易对在 CEX 上的深度越大，滑点越小\n\n这一动态滑点有助于提高价格操纵攻击的成本以降低风险。\n\n\n\n\n\n目前来看这一机制和 GNS 的滑点设置是比较像的，是一个已经经过市场验证的方式。\n\n\nC. 灵活的合成资产品类\n\nApollox 还支持合成资产，直接使用 ALP 支持合成资产。合成资产模式下由于缺乏对应的底层资产支撑，风险会放大，Apollox 选择控制这些资产的规模来在增加交易品种的同时控制风险。\n\n\n由于 Apollox 本来就是 Binance Labs 投资的，加上背靠 Binance Oracle，可以比较快的定制化资产类别，不同于一般的会受限与 chainlink。如果以后能支持 A 股相关资产交易的话，倒比较有趣。感觉可能性还是比较小的。\n\n\nD. 基础交易体验\n\nApollox 作为一个老牌项目，在交易方面有着不少积累，这些能力也有望复用到 V2。\n\n\n1. 比如止盈止损修改、添加保证金这些基础体验功能。 \n\n\n2. 交易通知 bot，通过 telegram 等渠道去通知客户，虽然很基础，但大部分 DEX 也没有。\n\n\n\n\n\n\n\nE. 对外合作\n\nApollox 也一直对外输出技术能力，比如 Pancake 的合约交易模块就是由 Apollox 支持的。目前看来是 Pancake 等协议提供品牌和流量，Apollox 提供技术支持的传统合作模式，双方分成手续费。这块如果能在将来 web3 一点的话，可能也会有一定的空间。\n\n\n\n\n\n\n\n 如上所述，Apollox 的竞争优势主要还是在于 \n\n\n1. BSC 本地化创新，「更适合 BSC 用户体质」 \n\n\n2. BD 资源，背靠 Binance Labs，在 BSC 内和其他项目合作非常顺畅 \n\n\n3. 交易基础体验，作为一名练习时长一年半的老牌衍生品交易所，还是有点积累的 \n\n\n劣势在于 \n\n\n1. V2 只是 Apollox 的一个子集，和专业做 GMX 仿盘的相比，代币定位比较模糊，Tokenomics 也无法全力支持 V2 \n\n\n2. 品牌+流量合作的模式比较 web2，缺乏深层的合作。加上 BSC 目前流量属实比较一般，导致合作对其的增益有限。\n\n\n\n\n对 BSC 生态的意义 \n\n\n BSC 生态有很重的「短期」观感，项目团队多数打一枪换一个地，Apollox 团队选择老项目继续做新事，一比较也多少有种「长期」观感。\n\n\n此外通过广泛合作这种模式开拓流量，工作量其实是不小的，虽然目前看来没有充分盘活，但至少占住了位置，将来也可以改进，徐徐图之。\n\n简而言之，从「短期」和「孤立」，到「长期」和「合作」，生态的氛围改变并非一朝一夕的事，但是至少已经看到这个趋势有一点点苗头，Gud! \n\n\n总结 \n\n\n Apollox V2 是一个在整合先进衍生品协议的基础上创新的具有 BSC 特色的衍生品交易所。\n\n据传 Apollox 有计划在近几周在 v2 开启流动性挖矿，Maybe 也有不错的 Farming 机会。\n\n\n原文链接",
+          "link": "https://www.theblockbeats.info/news/36586",
+          "publishedOn": "2023-04-18T06:07:27.000Z",
+          "wordCount": null,
+          "title": "衍生品交易平台ApolloX V2版本发布，锐评优劣势及影响",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36585",
+          "author": null,
+          "description": "你知道V神为什么没去香港吗？",
+          "link": "https://www.theblockbeats.info/news/36585",
+          "publishedOn": "2023-04-18T05:37:32.000Z",
+          "wordCount": null,
+          "title": "美国监管三连击：Bittrex、Paxful与稳定币",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36584",
+          "author": null,
+          "description": "「跟随韩国市场，助力token收益」",
+          "link": "https://www.theblockbeats.info/news/36584",
+          "publishedOn": "2023-04-18T05:23:28.000Z",
+          "wordCount": null,
+          "title": "监测韩国市场，帮助你寻找下一个pump",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/36583",
           "author": null,
           "description": "原文标题：《研报：坎昆升级——Layer2 Rollup 将迎来爆发》  \n原文来源：\n\nMarsbit\n\n\n\n目录 \n\n\n引言 \n坎昆升级 \n以太坊的扩容之路 \n以太坊之外的扩容：L2 Rollup \n以太坊之内的扩容：L1 分片 \nEIP-4844 \n深远的影响 \nLayer2 Rollup 将迎来真正的爆发 \n总结\n\n\n引言  \n\n\n期待已久的上海和卡佩拉升级已经顺利完成：终于可以提款了！这也是以太坊区块链继去年由 POW 成功过渡到 POS 的又一大步。那么沿着以太坊路线图的安排，下一步又是什么呢？\n\n\n坎昆升级\n\n\n遵循使用 devcon 城市名称进行升级的惯例，以太坊下一次升级将是坎昆升级（cancun）。目前，从以太坊 github 上也可以看到，「cancun.md」已经被创建并维护。\n\n\n实际上，以太坊上海升级除了解锁质押可以提款以外，原本还考虑包含了其他改进提议，比如关于「proto-danksharding」的改进提议 EIP-4844。但是为了降低延误，在去年 12 月的核心开发者大会中，以太坊核心开发者达成一致，决定上海升级主要包括取款、小部分 EOF 等，这些只要不耽误取款即可。而在上海升级中被推迟的「EIP-4844」将成为以太坊下一次升级「坎昆升级」的中心。\n\n\n\n来源：以太坊路线图\n\n\n目前，坎昆升级，除了已经被确认包含的 EIP-4844 之外，还有一些其他纳入考虑的 EIP。\n\n\n以太坊的扩容之路\n\n\n2022 年，Aptos、Sui 等新公链高调宣发，超越以太坊 TPS 打造高性能公链，这给以太坊社区带来了很大压力。一直以来，由于可扩展性不足而导致的高昂 gas 费，一直困扰着以太坊，也经常被大家吐槽。所以，无论是来自外界的竞争压力，还是内部的用户体验，以太坊的扩容都被迫在眉睫。\n\n\n随着以太坊的进一步升级和发展，目前扩容方向主要有两…",

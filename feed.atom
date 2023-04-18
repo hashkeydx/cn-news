@@ -2,10 +2,169 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-18T06:10:09.429Z</updated>
+    <updated>2023-04-18T07:07:10.407Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[衍生品交易平台ApolloX V2版本发布，锐评优劣势及影响]]></title>
+        <id>https://www.theblockbeats.info/news/36586</id>
+        <link href="https://www.theblockbeats.info/news/36586"/>
+        <updated>2023-04-18T06:07:27.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：妙蛙种子, CapitalismLab
+
+
+BSC 老牌衍生品交易所 @ApolloX_Finance 已发布 V2 版本，在此前 V1 订单簿模式的基础上，部分整合 GMX 和 GNS 的机制并进行了符合 BSC「链情」的特色创新
+
+本 Thread 将锐评 ApolloX V2 的特点，产品优劣势，以及对 BSC 生态的意义。
+
+
+
+
+
+ApolloX V2 基本特点可以概括为: 
+
+
+1. ALP 为类似 GLP 的指数资产模式，使 BTC/ETH 等主流加密资产交易体验和风控达 GMX 水平 
+
+
+2. 类似 CEX 体验的多空双边一致的资金费率，类似 GNS 的动态滑点机制 
+
+
+3. 支持合成资产交易，控制容量来控制风险
+.
+
+
+4 紧密合作 Binance Oracle，便于灵活支持更多资产交易的。
+
+
+接下来展开讲下 Apollox V2 比较有特色的方面 
+
+
+ A . 资金费率
+
+虽然 Apollox V2 的资金费率公式与 GMX V2/GNS 非常相似，一样是根据多空比和波动性定价的，但是 Apollox 多空双方使用相同的费率。  
+
+
+如果 Long OI> Short OI 的情况下，ShortOI*Funding Fee Rate 这部分会支付给空方，剩下来的 (LongOI-ShortOI)*Funding Fee 则会成为系统收入。
+
+
+
+
+
+
+
+
+是的，虽然它没有 Borrow Fee，但某种意义上来说，他是把 Borrow Fee 和 Funding Fee 有机结合了一把。加上 BSC 的用户小白居多，也习惯了币安合约的搞法，算是一个本地化创新。  
+
+
+
+B. 动态滑点
+
+Apollox V2 的开仓滑点类似 GNS
+1。整体 OI 越高，开仓量越大，滑点越大
+2. 对应交易对在 CEX 上的深度越大，滑点越小
+
+这一动态滑点有助于提高价格操纵攻击的成本以降低风险。
+
+
+
+
+
+目前来看这一机制和 GNS 的滑点设置是比较像的，是一个已经经过市场验证的方式。
+
+
+C. 灵活的合成资产品类
+
+Apollox 还支持合成资产，直接使用 ALP 支持合成资产。合成资产模式下由于缺乏对应的底层资产支撑，风险会放大，Apollox 选择控制这些资产的规模来在增加交易品种的同时控制风险。
+
+
+由于 Apollox 本来就是 Binance Labs 投资的，加上背靠 Binance Oracle，可以比较快的定制化资产类别，不同于一般的会受限与 chainlink。如果以后能支持 A 股相关资产交易的话，倒比较有趣。感觉可能性还是比较小的。
+
+
+D. 基础交易体验
+
+Apollox 作为一个老牌项目，在交易方面有着不少积累，这些能力也有望复用到 V2。
+
+
+1. 比如止盈止损修改、添加保证金这些基础体验功能。 
+
+
+2. 交易通知 bot，通过 telegram 等渠道去通知客户，虽然很基础，但大部分 DEX 也没有。
+
+
+
+
+
+
+
+E. 对外合作
+
+Apollox 也一直对外输出技术能力，比如 Pancake 的合约交易模块就是由 Apollox 支持的。目前看来是 Pancake 等协议提供品牌和流量，Apollox 提供技术支持的传统合作模式，双方分成手续费。这块如果能在将来 web3 一点的话，可能也会有一定的空间。
+
+
+
+
+
+
+
+ 如上所述，Apollox 的竞争优势主要还是在于 
+
+
+1. BSC 本地化创新，「更适合 BSC 用户体质」 
+
+
+2. BD 资源，背靠 Binance Labs，在 BSC 内和其他项目合作非常顺畅 
+
+
+3. 交易基础体验，作为一名练习时长一年半的老牌衍生品交易所，还是有点积累的 
+
+
+劣势在于 
+
+
+1. V2 只是 Apollox 的一个子集，和专业做 GMX 仿盘的相比，代币定位比较模糊，Tokenomics 也无法全力支持 V2 
+
+
+2. 品牌+流量合作的模式比较 web2，缺乏深层的合作。加上 BSC 目前流量属实比较一般，导致合作对其的增益有限。
+
+
+
+
+对 BSC 生态的意义 
+
+
+ BSC 生态有很重的「短期」观感，项目团队多数打一枪换一个地，Apollox 团队选择老项目继续做新事，一比较也多少有种「长期」观感。
+
+
+此外通过广泛合作这种模式开拓流量，工作量其实是不小的，虽然目前看来没有充分盘活，但至少占住了位置，将来也可以改进，徐徐图之。
+
+简而言之，从「短期」和「孤立」，到「长期」和「合作」，生态的氛围改变并非一朝一夕的事，但是至少已经看到这个趋势有一点点苗头，Gud! 
+
+
+总结 
+
+
+ Apollox V2 是一个在整合先进衍生品协议的基础上创新的具有 BSC 特色的衍生品交易所。
+
+据传 Apollox 有计划在近几周在 v2 开启流动性挖矿，Maybe 也有不错的 Farming 机会。
+
+
+原文链接]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国监管三连击：Bittrex、Paxful与稳定币]]></title>
+        <id>https://www.theblockbeats.info/news/36585</id>
+        <link href="https://www.theblockbeats.info/news/36585"/>
+        <updated>2023-04-18T05:37:32.000Z</updated>
+        <summary type="html"><![CDATA[你知道V神为什么没去香港吗？]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Binance Labs公布第6季MVB加速器计划12支入选团队名单]]></title>
         <id>https://panewslab.com/zh/articledetails/l3x0k8lf.html</id>
@@ -15,6 +174,16 @@
 入选的12个项目是：DeFi借贷协议Kinza、去中心化的隐私协议Hinkal Protocol、永续合约DEX KiloEx、抗MEV的跨链聚合器Cashmere Labs、DeFi衍生品平台EthosX、区块链执行和弹性扩容层AltL ayer、多链ZK-Rollup执行层ZKCross、AI对话游戏HIM、占卜主题NFT社交游戏Sparkle.xyz、Soulbound代币SDKMasa Finance、Web3原生程序化广告平台Slise、NFT消费信贷协议xBank。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[监测韩国市场，帮助你寻找下一个pump]]></title>
+        <id>https://www.theblockbeats.info/news/36584</id>
+        <link href="https://www.theblockbeats.info/news/36584"/>
+        <updated>2023-04-18T05:23:28.000Z</updated>
+        <summary type="html"><![CDATA[「跟随韩国市场，助力token收益」]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>
