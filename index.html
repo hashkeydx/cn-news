@@ -51,391 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-18 datetime="2023-04-18T06:07:27.000Z">2023-04-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-18 datetime="2023-04-18T06:07:27.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-18 datetime="2023-04-18T08:00:25.000Z">2023-04-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-18 datetime="2023-04-18T08:00:25.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36586"
-                        open
-                      >
-                        <summary class="article-expander__title">衍生品交易平台ApolloX V2版本发布，锐评优劣势及影响</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36586">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：妙蛙种子, CapitalismLab
-
-
-BSC 老牌衍生品交易所 @ApolloX_Finance 已发布 V2 版本，在此前 V1 订单簿模式的基础上，部分整合 GMX 和 GNS 的机制并进行了符合 BSC「链情」的特色创新
-
-本 Thread 将锐评 ApolloX V2 的特点，产品优劣势，以及对 BSC 生态的意义。
-
-
-
-
-
-ApolloX V2 基本特点可以概括为: 
-
-
-1. ALP 为类似 GLP 的指数资产模式，使 BTC/ETH 等主流加密资产交易体验和风控达 GMX 水平 
-
-
-2. 类似 CEX 体验的多空双边一致的资金费率，类似 GNS 的动态滑点机制 
-
-
-3. 支持合成资产交易，控制容量来控制风险
-.
-
-
-4 紧密合作 Binance Oracle，便于灵活支持更多资产交易的。
-
-
-接下来展开讲下 Apollox V2 比较有特色的方面 
-
-
- A . 资金费率
-
-虽然 Apollox V2 的资金费率公式与 GMX V2/GNS 非常相似，一样是根据多空比和波动性定价的，但是 Apollox 多空双方使用相同的费率。  
-
-
-如果 Long OI&gt; Short OI 的情况下，ShortOI*Funding Fee Rate 这部分会支付给空方，剩下来的 (LongOI-ShortOI)*Funding Fee 则会成为系统收入。
-
-
-
-
-
-
-
-
-是的，虽然它没有 Borrow Fee，但某种意义上来说，他是把 Borrow Fee 和 Funding Fee 有机结合了一把。加上 BSC 的用户小白居多，也习惯了币安合约的搞法，算是一个本地化创新。  
-
-
-
-B. 动态滑点
-
-Apollox V2 的开仓滑点类似 GNS
-1。整体 OI 越高，开仓量越大，滑点越大
-2. 对应交易对在 CEX 上的深度越大，滑点越小
-
-这一动态滑点有助于提高价格操纵攻击的成本以降低风险。
-
-
-
-
-
-目前来看这一机制和 GNS 的滑点设置是比较像的，是一个已经经过市场验证的方式。
-
-
-C. 灵活的合成资产品类
-
-Apollox 还支持合成资产，直接使用 ALP 支持合成资产。合成资产模式下由于缺乏对应的底层资产支撑，风险会放大，Apollox 选择控制这些资产的规模来在增加交易品种的同时控制风险。
-
-
-由于 Apollox 本来就是 Binance Labs 投资的，加上背靠 Binance Oracle，可以比较快的定制化资产类别，不同于一般的会受限与 chainlink。如果以后能支持 A 股相关资产交易的话，倒比较有趣。感觉可能性还是比较小的。
-
-
-D. 基础交易体验
-
-Apollox 作为一个老牌项目，在交易方面有着不少积累，这些能力也有望复用到 V2。
-
-
-1. 比如止盈止损修改、添加保证金这些基础体验功能。 
-
-
-2. 交易通知 bot，通过 telegram 等渠道去通知客户，虽然很基础，但大部分 DEX 也没有。
-
-
-
-
-
-
-
-E. 对外合作
-
-Apollox 也一直对外输出技术能力，比如 Pancake 的合约交易模块就是由 Apollox 支持的。目前看来是 Pancake 等协议提供品牌和流量，Apollox 提供技术支持的传统合作模式，双方分成手续费。这块如果能在将来 web3 一点的话，可能也会有一定的空间。
-
-
-
-
-
-
-
- 如上所述，Apollox 的竞争优势主要还是在于 
-
-
-1. BSC 本地化创新，「更适合 BSC 用户体质」 
-
-
-2. BD 资源，背靠 Binance Labs，在 BSC 内和其他项目合作非常顺畅 
-
-
-3. 交易基础体验，作为一名练习时长一年半的老牌衍生品交易所，还是有点积累的 
-
-
-劣势在于 
-
-
-1. V2 只是 Apollox 的一个子集，和专业做 GMX 仿盘的相比，代币定位比较模糊，Tokenomics 也无法全力支持 V2 
-
-
-2. 品牌+流量合作的模式比较 web2，缺乏深层的合作。加上 BSC 目前流量属实比较一般，导致合作对其的增益有限。
-
-
-
-
-对 BSC 生态的意义 
-
-
- BSC 生态有很重的「短期」观感，项目团队多数打一枪换一个地，Apollox 团队选择老项目继续做新事，一比较也多少有种「长期」观感。
-
-
-此外通过广泛合作这种模式开拓流量，工作量其实是不小的，虽然目前看来没有充分盘活，但至少占住了位置，将来也可以改进，徐徐图之。
-
-简而言之，从「短期」和「孤立」，到「长期」和「合作」，生态的氛围改变并非一朝一夕的事，但是至少已经看到这个趋势有一点点苗头，Gud! 
-
-
-总结 
-
-
- Apollox V2 是一个在整合先进衍生品协议的基础上创新的具有 BSC 特色的衍生品交易所。
-
-据传 Apollox 有计划在近几周在 v2 开启流动性挖矿，Maybe 也有不错的 Farming 机会。
-
-
-原文链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36585"
-                        open
-                      >
-                        <summary class="article-expander__title">美国监管三连击：Bittrex、Paxful与稳定币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36585">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>你知道V神为什么没去香港吗？</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36584"
-                        open
-                      >
-                        <summary class="article-expander__title">监测韩国市场，帮助你寻找下一个pump</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36584">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>「跟随韩国市场，助力token收益」</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36583"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊迎来坎昆升级，Layer2 扩容将真正爆发</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36583">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《研报：坎昆升级——Layer2 Rollup 将迎来爆发》  
-原文来源：
-
-Marsbit
-
-
-
-目录 
-
-
-引言 
-坎昆升级 
-以太坊的扩容之路 
-以太坊之外的扩容：L2 Rollup 
-以太坊之内的扩容：L1 分片 
-EIP-4844 
-深远的影响 
-Layer2 Rollup 将迎来真正的爆发 
-总结
-
-
-引言  
-
-
-期待已久的上海和卡佩拉升级已经顺利完成：终于可以提款了！这也是以太坊区块链继去年由 POW 成功过渡到 POS 的又一大步。那么沿着以太坊路线图的安排，下一步又是什么呢？
-
-
-坎昆升级
-
-
-遵循使用 devcon 城市名称进行升级的惯例，以太坊下一次升级将是坎昆升级（cancun）。目前，从以太坊 github 上也可以看到，「cancun.md」已经被创建并维护。
-
-
-实际上，以太坊上海升级除了解锁质押可以提款以外，原本还考虑包含了其他改进提议，比如关于「proto-danksharding」的改进提议 EIP-4844。但是为了降低延误，在去年 12 月的核心开发者大会中，以太坊核心开发者达成一致，决定上海升级主要包括取款、小部分 EOF 等，这些只要不耽误取款即可。而在上海升级中被推迟的「EIP-4844」将成为以太坊下一次升级「坎昆升级」的中心。
-
-
-
-来源：以太坊路线图
-
-
-目前，坎昆升级，除了已经被确认包含的 EIP-4844 之外，还有一些其他纳入考虑的 EIP。
-
-
-以太坊的扩容之路
-
-
-2022 年，Aptos、Sui 等新公链高调宣发，超越以太坊 TPS 打造高性能公链，这给以太坊社区带来了很大压力。一直以来，由于可扩展性不足而导致的高昂 gas 费，一直困扰着以太坊，也经常被大家吐槽。所以，无论是来自外界的竞争压力，还是内部的用户体验，以太坊的扩容都被迫在眉睫。
-
-
-随着以太坊的进一步升级和发展，目前扩容方向主要有两…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36577"
-                        open
-                      >
-                        <summary class="article-expander__title">模块化区块链Mantle测试教程</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36577">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Mantle是一个高性能的以太坊第2层网络，采用模块化架构构建，可提供低费用和高安全性。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36582"
-                        open
-                      >
-                        <summary class="article-expander__title">第17周链上数据：全球购买力较多下降；阶段性上行出现阻力</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36582">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>链下交易数据显示 27500 价位有购买意愿； 31500 价位有抛售意愿。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36581"
-                        open
-                      >
-                        <summary class="article-expander__title">前Pantera高管Joey Krug加入硅谷著名风投Founders Fund担任合伙人意味着什么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36581">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>前 Pantera 联席首席投资官 Joey Krug 周一宣布加入硅谷知名风险投资公司 Founders Fund 担任合伙人。这意味着 Founders Fund 将在加密领域加大战略布局，并助力加密行业的发展。
-
-
-
-
-Founders Fund 成立于 2005 年，由亿万富翁企业家 Peter Thiel 在内的一众 PayPal 创始人联手成立。这家风投公司投资了 Facebook、SpaceX、Lyft、Stripe 等诸多知名企业，在硅谷享有盛誉。Founders Fund 在加密领域同样有着举足轻重的地位，2014 年便开始购买比特币并在随后 8 年陆续增持，成为美国最早涉足加密资产的一级市场基金之一。去年初，Peter Thiel 在加密资产高点清仓，为 Founders Fund 赚得近 20 亿美元的丰厚回报。与此同时，Pantera 在接下来的加密熊市中损失了 80% 的资金。
-
-
-
-
-Joey Krug 的加入意味着 Founders Fund 将进一步加大在加密领域的投资力度。Krug 在推特上表示，他将致力于为 Founders Fund 制定未来十年的加密战略，并搜寻具有创新潜力的加密初创公司和创始人。Krug 在 Pantera 的六年任职期间积累了丰富的加密投资经验，这将为 Founders Fund 的加密投资策略注入新的活力。
-
-
-
-
-
-
-
-随着 Joey Krug 的加入，Founders Fund 将充分发挥其品牌优势和加密领域专长，为加密初创公司提供更全面的支持。Krug 在一篇 Medium 博客中表示：「历史上，加密创始人往往需要在传统风投和加密领域专家之间做出选择。然而，通过将我的加密专长与 Founders Fund 的品牌和综合专业知识相结合，我相信没有哪家公司比我们更适合在未来十年引领加密协议和公司的融资和发展。」</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36579"
-                        open
-                      >
-                        <summary class="article-expander__title">真相大白？「麻吉大哥」退出NFT领域背后的两种猜测</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36579">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《 黄立成退圈 NFT，是亏麻的绝望还是受迫的冷静？  
-
-》
-原文来源：ODAILY星球日报
-
-
-最近三天，两位 NFT OG「Franklin」和「麻吉大哥」黄立成相继宣布退出 NFT 领域。「Franklin」和「麻吉大哥」是最早一批具有一定交易规模的 NFT 玩家，也是 BAYC 大户。他们的交易频率、NFT 持有量、卖出价格都会对 NFT 交易市场以及 BAYC 等蓝筹 NFT 的地板价产生一定的影响。
-
-
-此前，Blur 创始人 Pacman 就表示，「Franklin」和「麻吉大哥」相当于是 NFT 领域的 Jump Trading 和 Jane Street，将他们比作「头部做市商」也意味着双方为 NFT 交易的流动性以及新玩家的入圈都做出了巨大贡献。
-
-
-因此，此次二位大哥的退出，为本就沉闷的 NFT 市场新增了一丝不确定性。
-
-
-与「Franklin」赌博和投资失败为理由退出 NFT 市场不同，「麻吉大哥」并未说出具体原因，且「Franklin」在宣布退出 NFT 领域后抛售了大量 BAYC，几乎卖掉所有 BAYC。而「麻吉大哥」目前仍未大量出售手中的 NFT，且于 4 月 10 日发推文表示仍然喜爱 BAYC 这个社群，并将「退出 NFT 领域」的推文取消置顶，新置顶改为 BAYC NFT。
-
-
-这番矛盾的举动引发社区热议，更让人捉摸不透。不过从其推文内容以及近来 NFT 交易情况来看，我们猜测「麻吉大哥」此般言论背后的原因有二。
-
-
-猜测一：被责怪操控 NFT 市场，大哥生气了
-
-
-自从 Blur 开启第二季空投积分活动后，「麻吉大哥」就一直霸占 Blur 积分榜第一、交易动作频繁。「麻吉大哥」拥有大量 BAYC 和其他蓝筹 NFT，通过挂单和出价来获得交易积分，同时增加了 NFT 的流动性，这其实是很正常的表现。但随着近来 NFT 市场下…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -447,6 +67,257 @@ Joey Krug 的加入意味着 Founders Fund 将进一步加大在加密领域的�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/3dxefgod.html"
+                        open
+                      >
+                        <summary class="article-expander__title">阿联酋金融监管机构开放虚拟资产服务提供商许可申请</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3dxefgod.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据Cointelegraph报道，阿联酋证券和商品管理局（SCA）宣布，将开始接收希望在该国提供虚拟资产服务的公司的许可申请。 所有在该国运营的虚拟资产服务提供商（VASP）都必须提交申请并获得监管机构的许可，但在该国金融自由区获得许可的除外。
+同时，在迪拜酋长国境内运营的数字资产公司仍必须遵守其自身的金融监管机构虚拟资产服务管理局 (VARA),这些公司还需要向VARA申请并获得许可。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/yqe0qb7g.html"
+                        open
+                      >
+                        <summary class="article-expander__title">高盛将其VS工具功能扩展到加密货币等领域</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/yqe0qb7g.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据官网消息，高盛将推出网络版和安卓版Visual Structuring（简称“VS工具”），并将VS工具功能扩展到股票、加密货币和贵金属领域。
+据悉，Visual Structuring工具正在申请专利，用于期权指示性价格发现和交易想法生成，可通过Goldman Sachs Marquee为机构客户提供。该工具支持广泛的期权结构，将交易者需要的所有信息组合到一个易于共享的图表视图中。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/glsxiacs.html"
+                        open
+                      >
+                        <summary class="article-expander__title">新加坡法院将贝宝金融破产保护期延长至7月21日</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/glsxiacs.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据彭博社报道，贝宝金融（Babel Finance）联合创始人Flex Yang表示，新加坡一家法院将对该公司的债权人保护期限延长了约三个月。暂缓执行期（期间使其免受债权人诉讼的困扰）将持续到7月21日。
+此前今日早些时候消息，贝宝金融集团破产保护在新加坡高院进行聆讯，正式开启庭内重组程序。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ec185f8w.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ArbShibAI项目疑似发生Rug Pull，且官方推特账号访问受限</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ec185f8w.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，Meme项目ArbShibAI疑似发生Rug Pull，共撤出约32.74枚ETH和43.12亿AISHB流动性。目前其官方推特账号的访问受限，只有获得批准的关注者才能查看其推文。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/apitbewp.html"
+                        open
+                      >
+                        <summary class="article-expander__title">SPACE ID成立DAO Treasury，将实施代币回购和销毁机制</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/apitbewp.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据官方博客，去中心化通用域名协议SPACE ID宣布成立DAO Treasury，将实施代币回购和销毁机制。平台收入将包括自TGE日期以来积累的所有注册收益，并按季度移动执行向前。
+具体而言，SPACE ID平台产生的总净收入（包括域名注册、续订、礼品卡购买和 SPACE ID 市场费用的收入）的50%将用于购买和销毁ID代币。总净收入的剩余50% 将添加到DAO金库中，该金库将以稳定币的形式持有，并由所有符合条件的ID代币持有者管理。
+据悉，SPACE ID DAO是一个社区驱动的平台，治理委托人的申请截止时间为北京时间2023年4月28日22:00。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/bk2c21es.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：比特币挖矿日收入30天平均值已升至2734万美元，创去年6月以来新高</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/bk2c21es.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据路透社引援Blockchain.com数据，比特币挖矿收入的30天平均值已升至每天2734万美元，为去年6月以来的最高水平。不过，这距离2021年11月创下的6120万美元的峰值还有一段距离。
+比特币挖矿服务公司Luxor分析师Jaran Mellerud表示，去年年底，许多上市矿企濒临破产边缘，以目前的比特币价格计算，这些公司的现金流量已大幅改善，其中大多数应该可以毫无问题地履行其义务。矿业公司的债务股本比率现在看起来更健康，许多公司在过去几个月进行了重组并偿还了债务。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/fsucoile.html"
+                        open
+                      >
+                        <summary class="article-expander__title">GPT产业联盟正式成立，移动、联通等单位共同发起</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/fsucoile.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据上证报报道，2023全球元宇宙大会18号在北京举行。大会上，GPT产业联盟正式成立。GPT产业联盟由中国移动通信联合会、中国电信、中国移动、中国联通、中国广电等单位共同发起成立。根据介绍，接下来，GPT产业联盟将努力做到：探索智能涌现产生的机制和工程路径；发现智能时代开启原始创新机会；发明支撑智能商业价值涌现与流转的技术架构，致力于将人工智能力量打造成为造福人类、影响世界、影响未来的强大数字力量。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/v1u4wfcx.html"
+                        open
+                      >
+                        <summary class="article-expander__title">知情人士：香港某大型银行倾向于在许可区块链上开发数字港元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/v1u4wfcx.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据CoinDesk报道，香港今年正在加紧努力开发数字港元(e-HKD)，但监管机构将有关账本本身性质（完全中心化或去中心化）的研究留给了银行。相关人士透露，至少有一家大型银行倾向于在许可区块链上开发e-HKD。
+这位驻香港的银行官员说，与中国央行的数字人民币（e-CNY）不同，e-HKD的架构并不是由中央政府决定的。该消息人士称：“他们被允许去审查和研究，然后再提出建议。”其补充说，e-HKD可能会在“未知悉公众决定他们真正想要什么”的情况下开发。
+去年，香港金管局发表了一份讨论文件，就零售CBDC的相关问题征求意见。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/xrkmebv2.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：黄立成地址再次购入6枚NFT，包括2枚BAYC和1枚MAYC</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/xrkmebv2.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，数据显示，此前曾在推特上宣布退出NFT领域的黄立成地址今日在Blur平台购入2枚BAYC（#1510和#3949）、2枚BAKC（#2552和#3182）、1枚MAYC（#9920）以及1枚DeFi Apes（#2712）。
+此前消息，黄立成4月15日发推文称“其已退出NFT领域”，此条推文仍未删除，但取消了置顶。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/gb5gsxr0.html"
+                        open
+                      >
+                        <summary class="article-expander__title">英财政部官员：英国或在未来12个月内出台加密监管法规</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/gb5gsxr0.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据CNBC报道，英国财政部经济大臣Andrew Griffith表示，英国可能会在未来12个月内出台旨在监管加密货币行业的具体法律。Griffith 还表示，英国希望将自己定位为“加密资产技术的全球中心”。
+此前英国政府在2月份制定了监管加密资产的计划，并向公众公开其计划以供咨询。咨询期于4月30日结束。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/drd2hl2z.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国法官裁定SEC可向新加坡监管机构索取Do Kwon相关案件文件</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/drd2hl2z.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据彭博社报道，根据法庭记录，美国地区法官Jed Rakoff在周五的听证会上驳回了Do Kwon和Terraform的请求，Do Kwon及其公司之前要求下令强制枚SEC撤回其向被告和Luna Foundation Guard索取新加坡监管机构持有的文件。目前尚不清楚美国证券交易委员会向新加坡索要哪些记录，但Terraform的总部设在新加坡。
+此前消息，美国和韩国目前都在寻求从黑山引渡Do Kwon。韩检方发现Do Kwon涉嫌欺诈新证据，Terra崩盘前其曾向某律所汇款90亿韩元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/4suekcg5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：上海升级完成后，昨日以太坊质押量首次超过提取量</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/4suekcg5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月18日消息，据欧科云链OKLink上海升级专题页显示，4月12日以太坊上海升级完成后，连续5天日提取量超过质押量，昨日质押量首次超过提取量。截止目前，已有超106.54万枚ETH解锁提取，Lido提款地址提取量达26万枚，提取占比达24.47%，排名第一。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1147,10 +1018,426 @@ DFS 的虚拟货币监管框架仿照全范围银行监管，要求公司在资�
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36586"
+                        open
+                      >
+                        <summary class="article-expander__title">衍生品交易平台ApolloX V2版本发布，锐评优劣势及影响</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36586">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：妙蛙种子, CapitalismLab
+
+
+BSC 老牌衍生品交易所 @ApolloX_Finance 已发布 V2 版本，在此前 V1 订单簿模式的基础上，部分整合 GMX 和 GNS 的机制并进行了符合 BSC「链情」的特色创新
+
+本 Thread 将锐评 ApolloX V2 的特点，产品优劣势，以及对 BSC 生态的意义。
+
+
+
+
+
+ApolloX V2 基本特点可以概括为: 
+
+
+1. ALP 为类似 GLP 的指数资产模式，使 BTC/ETH 等主流加密资产交易体验和风控达 GMX 水平 
+
+
+2. 类似 CEX 体验的多空双边一致的资金费率，类似 GNS 的动态滑点机制 
+
+
+3. 支持合成资产交易，控制容量来控制风险
+.
+
+
+4 紧密合作 Binance Oracle，便于灵活支持更多资产交易的。
+
+
+接下来展开讲下 Apollox V2 比较有特色的方面 
+
+
+ A . 资金费率
+
+虽然 Apollox V2 的资金费率公式与 GMX V2/GNS 非常相似，一样是根据多空比和波动性定价的，但是 Apollox 多空双方使用相同的费率。  
+
+
+如果 Long OI&gt; Short OI 的情况下，ShortOI*Funding Fee Rate 这部分会支付给空方，剩下来的 (LongOI-ShortOI)*Funding Fee 则会成为系统收入。
+
+
+
+
+
+
+
+
+是的，虽然它没有 Borrow Fee，但某种意义上来说，他是把 Borrow Fee 和 Funding Fee 有机结合了一把。加上 BSC 的用户小白居多，也习惯了币安合约的搞法，算是一个本地化创新。  
+
+
+
+B. 动态滑点
+
+Apollox V2 的开仓滑点类似 GNS
+1。整体 OI 越高，开仓量越大，滑点越大
+2. 对应交易对在 CEX 上的深度越大，滑点越小
+
+这一动态滑点有助于提高价格操纵攻击的成本以降低风险。
+
+
+
+
+
+目前来看这一机制和 GNS 的滑点设置是比较像的，是一个已经经过市场验证的方式。
+
+
+C. 灵活的合成资产品类
+
+Apollox 还支持合成资产，直接使用 ALP 支持合成资产。合成资产模式下由于缺乏对应的底层资产支撑，风险会放大，Apollox 选择控制这些资产的规模来在增加交易品种的同时控制风险。
+
+
+由于 Apollox 本来就是 Binance Labs 投资的，加上背靠 Binance Oracle，可以比较快的定制化资产类别，不同于一般的会受限与 chainlink。如果以后能支持 A 股相关资产交易的话，倒比较有趣。感觉可能性还是比较小的。
+
+
+D. 基础交易体验
+
+Apollox 作为一个老牌项目，在交易方面有着不少积累，这些能力也有望复用到 V2。
+
+
+1. 比如止盈止损修改、添加保证金这些基础体验功能。 
+
+
+2. 交易通知 bot，通过 telegram 等渠道去通知客户，虽然很基础，但大部分 DEX 也没有。
+
+
+
+
+
+
+
+E. 对外合作
+
+Apollox 也一直对外输出技术能力，比如 Pancake 的合约交易模块就是由 Apollox 支持的。目前看来是 Pancake 等协议提供品牌和流量，Apollox 提供技术支持的传统合作模式，双方分成手续费。这块如果能在将来 web3 一点的话，可能也会有一定的空间。
+
+
+
+
+
+
+
+ 如上所述，Apollox 的竞争优势主要还是在于 
+
+
+1. BSC 本地化创新，「更适合 BSC 用户体质」 
+
+
+2. BD 资源，背靠 Binance Labs，在 BSC 内和其他项目合作非常顺畅 
+
+
+3. 交易基础体验，作为一名练习时长一年半的老牌衍生品交易所，还是有点积累的 
+
+
+劣势在于 
+
+
+1. V2 只是 Apollox 的一个子集，和专业做 GMX 仿盘的相比，代币定位比较模糊，Tokenomics 也无法全力支持 V2 
+
+
+2. 品牌+流量合作的模式比较 web2，缺乏深层的合作。加上 BSC 目前流量属实比较一般，导致合作对其的增益有限。
+
+
+
+
+对 BSC 生态的意义 
+
+
+ BSC 生态有很重的「短期」观感，项目团队多数打一枪换一个地，Apollox 团队选择老项目继续做新事，一比较也多少有种「长期」观感。
+
+
+此外通过广泛合作这种模式开拓流量，工作量其实是不小的，虽然目前看来没有充分盘活，但至少占住了位置，将来也可以改进，徐徐图之。
+
+简而言之，从「短期」和「孤立」，到「长期」和「合作」，生态的氛围改变并非一朝一夕的事，但是至少已经看到这个趋势有一点点苗头，Gud! 
+
+
+总结 
+
+
+ Apollox V2 是一个在整合先进衍生品协议的基础上创新的具有 BSC 特色的衍生品交易所。
+
+据传 Apollox 有计划在近几周在 v2 开启流动性挖矿，Maybe 也有不错的 Farming 机会。
+
+
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36585"
+                        open
+                      >
+                        <summary class="article-expander__title">美国监管三连击：Bittrex、Paxful与稳定币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36585">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>你知道V神为什么没去香港吗？</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36584"
+                        open
+                      >
+                        <summary class="article-expander__title">监测韩国市场，帮助你寻找下一个pump</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36584">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>「跟随韩国市场，助力token收益」</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36583"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊迎来坎昆升级，Layer2 扩容将真正爆发</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36583">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《研报：坎昆升级——Layer2 Rollup 将迎来爆发》  
+原文来源：
+
+Marsbit
+
+
+
+目录 
+
+
+引言 
+坎昆升级 
+以太坊的扩容之路 
+以太坊之外的扩容：L2 Rollup 
+以太坊之内的扩容：L1 分片 
+EIP-4844 
+深远的影响 
+Layer2 Rollup 将迎来真正的爆发 
+总结
+
+
+引言  
+
+
+期待已久的上海和卡佩拉升级已经顺利完成：终于可以提款了！这也是以太坊区块链继去年由 POW 成功过渡到 POS 的又一大步。那么沿着以太坊路线图的安排，下一步又是什么呢？
+
+
+坎昆升级
+
+
+遵循使用 devcon 城市名称进行升级的惯例，以太坊下一次升级将是坎昆升级（cancun）。目前，从以太坊 github 上也可以看到，「cancun.md」已经被创建并维护。
+
+
+实际上，以太坊上海升级除了解锁质押可以提款以外，原本还考虑包含了其他改进提议，比如关于「proto-danksharding」的改进提议 EIP-4844。但是为了降低延误，在去年 12 月的核心开发者大会中，以太坊核心开发者达成一致，决定上海升级主要包括取款、小部分 EOF 等，这些只要不耽误取款即可。而在上海升级中被推迟的「EIP-4844」将成为以太坊下一次升级「坎昆升级」的中心。
+
+
+
+来源：以太坊路线图
+
+
+目前，坎昆升级，除了已经被确认包含的 EIP-4844 之外，还有一些其他纳入考虑的 EIP。
+
+
+以太坊的扩容之路
+
+
+2022 年，Aptos、Sui 等新公链高调宣发，超越以太坊 TPS 打造高性能公链，这给以太坊社区带来了很大压力。一直以来，由于可扩展性不足而导致的高昂 gas 费，一直困扰着以太坊，也经常被大家吐槽。所以，无论是来自外界的竞争压力，还是内部的用户体验，以太坊的扩容都被迫在眉睫。
+
+
+随着以太坊的进一步升级和发展，目前扩容方向主要有两…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36577"
+                        open
+                      >
+                        <summary class="article-expander__title">模块化区块链Mantle测试教程</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36577">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Mantle是一个高性能的以太坊第2层网络，采用模块化架构构建，可提供低费用和高安全性。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36582"
+                        open
+                      >
+                        <summary class="article-expander__title">第17周链上数据：全球购买力较多下降；阶段性上行出现阻力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36582">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>链下交易数据显示 27500 价位有购买意愿； 31500 价位有抛售意愿。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36581"
+                        open
+                      >
+                        <summary class="article-expander__title">前Pantera高管Joey Krug加入硅谷著名风投Founders Fund担任合伙人意味着什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36581">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>前 Pantera 联席首席投资官 Joey Krug 周一宣布加入硅谷知名风险投资公司 Founders Fund 担任合伙人。这意味着 Founders Fund 将在加密领域加大战略布局，并助力加密行业的发展。
+
+
+
+
+Founders Fund 成立于 2005 年，由亿万富翁企业家 Peter Thiel 在内的一众 PayPal 创始人联手成立。这家风投公司投资了 Facebook、SpaceX、Lyft、Stripe 等诸多知名企业，在硅谷享有盛誉。Founders Fund 在加密领域同样有着举足轻重的地位，2014 年便开始购买比特币并在随后 8 年陆续增持，成为美国最早涉足加密资产的一级市场基金之一。去年初，Peter Thiel 在加密资产高点清仓，为 Founders Fund 赚得近 20 亿美元的丰厚回报。与此同时，Pantera 在接下来的加密熊市中损失了 80% 的资金。
+
+
+
+
+Joey Krug 的加入意味着 Founders Fund 将进一步加大在加密领域的投资力度。Krug 在推特上表示，他将致力于为 Founders Fund 制定未来十年的加密战略，并搜寻具有创新潜力的加密初创公司和创始人。Krug 在 Pantera 的六年任职期间积累了丰富的加密投资经验，这将为 Founders Fund 的加密投资策略注入新的活力。
+
+
+
+
+
+
+
+随着 Joey Krug 的加入，Founders Fund 将充分发挥其品牌优势和加密领域专长，为加密初创公司提供更全面的支持。Krug 在一篇 Medium 博客中表示：「历史上，加密创始人往往需要在传统风投和加密领域专家之间做出选择。然而，通过将我的加密专长与 Founders Fund 的品牌和综合专业知识相结合，我相信没有哪家公司比我们更适合在未来十年引领加密协议和公司的融资和发展。」</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36579"
+                        open
+                      >
+                        <summary class="article-expander__title">真相大白？「麻吉大哥」退出NFT领域背后的两种猜测</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36579">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《 黄立成退圈 NFT，是亏麻的绝望还是受迫的冷静？  
+
+》
+原文来源：ODAILY星球日报
+
+
+最近三天，两位 NFT OG「Franklin」和「麻吉大哥」黄立成相继宣布退出 NFT 领域。「Franklin」和「麻吉大哥」是最早一批具有一定交易规模的 NFT 玩家，也是 BAYC 大户。他们的交易频率、NFT 持有量、卖出价格都会对 NFT 交易市场以及 BAYC 等蓝筹 NFT 的地板价产生一定的影响。
+
+
+此前，Blur 创始人 Pacman 就表示，「Franklin」和「麻吉大哥」相当于是 NFT 领域的 Jump Trading 和 Jane Street，将他们比作「头部做市商」也意味着双方为 NFT 交易的流动性以及新玩家的入圈都做出了巨大贡献。
+
+
+因此，此次二位大哥的退出，为本就沉闷的 NFT 市场新增了一丝不确定性。
+
+
+与「Franklin」赌博和投资失败为理由退出 NFT 市场不同，「麻吉大哥」并未说出具体原因，且「Franklin」在宣布退出 NFT 领域后抛售了大量 BAYC，几乎卖掉所有 BAYC。而「麻吉大哥」目前仍未大量出售手中的 NFT，且于 4 月 10 日发推文表示仍然喜爱 BAYC 这个社群，并将「退出 NFT 领域」的推文取消置顶，新置顶改为 BAYC NFT。
+
+
+这番矛盾的举动引发社区热议，更让人捉摸不透。不过从其推文内容以及近来 NFT 交易情况来看，我们猜测「麻吉大哥」此般言论背后的原因有二。
+
+
+猜测一：被责怪操控 NFT 市场，大哥生气了
+
+
+自从 Blur 开启第二季空投积分活动后，「麻吉大哥」就一直霸占 Blur 积分榜第一、交易动作频繁。「麻吉大哥」拥有大量 BAYC 和其他蓝筹 NFT，通过挂单和出价来获得交易积分，同时增加了 NFT 的流动性，这其实是很正常的表现。但随着近来 NFT 市场下…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >最新 - Odaily星球日报</button>
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186502"
+                        open
+                      >
+                        <summary class="article-expander__title">Pantera Capital合伙人：详解MEV常见攻击方法和解决方案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186502">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Paul Veradittakit，Pantera Capital 合伙人
+原文编译：Leah，Foresight News
+MEV 简介
+MEV（最大可提取价值）是一个近期在加密货币领域受到广泛关注的概念。随着区块链技术的发展，交易排序的重要性日益凸显，但排序可以被操纵，有心之人可以从交易系统中提取价值。
+
+MEV 是指矿工或验证者从区块链中提取的超出了正常交易费用的价值。矿工在打包交易的时候可以做到将某些交易进行排序干预等，通过这些操作，矿工可能获取除了交易费用和区块奖励之外的额外利润，这些多出来的价值就被称为 MEV。为了缓解 MEV 的负面影响，出现了像 Flashbots 这样的公司，Flashbots 是 Pantera 的投资组合公司。
+
+示例
+让我们通过一个假设的情景来分析 MEV 在加密货币领域的应用。
+假设你是一个去中心化交易所的交易员，想要在特定的价格点购买某种代币，你下单完成后等待区块链网络执行。但你可能并没有意识到，你想执行的交易在同一时间已经被纳入了更复杂交易网络。
+与此同时，交易网络中的某名矿工可以访问所有未确定交易，并有可能为了自己的利益操纵交易。例如，为了获取利益，矿工可能选择优先处理某些交易，其中也包括他们自己的交易。这就是所谓的 MEV。
+ 
+在执行你的那笔交易时，如果你的订单排在另一个附有更高手续费的交易之后，矿工可能会选择优先执行那笔手续费更高的交易，导致你的订单未能以你期望的价格成交。结果就是作为交易员的你遭受了损失，而矿工获得了更多利润。
+总的来说，虽然 MEV 是加密领域的一个问题，但各方正在协力找寻解决方案，以期减轻 MEV 的负面影响，并为交易员和用户提供一个更公平、安全的环境。
+最常见的 MEV 攻击
+下面我将介绍几种最常见 MEV 攻击及其攻击原理。
+抢先交易（Front-Running）
+简单来说，抢先交易…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -8040,8 +8327,8 @@ CZ：CeFi 和 DeFi 有不同的风险，都需要将安全列入考量，CeFi �
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4729575787">
-        <time id="build-timestamp" datetime="2023-04-18T07:07:10.373Z">2023-04-18T07:07:10.373Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4730093808">
+        <time id="build-timestamp" datetime="2023-04-18T08:09:53.026Z">2023-04-18T08:09:53.026Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
