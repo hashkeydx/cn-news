@@ -2,10 +2,117 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-19T16:09:11.881Z</updated>
+    <updated>2023-04-19T17:06:33.467Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文了解a16z的“L2野心”Magi]]></title>
+        <id>https://www.odaily.news/post/5186556</id>
+        <link href="https://www.odaily.news/post/5186556"/>
+        <updated>2023-04-19T16:28:45.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 The Block & a16z Crypto，原文作者：Noah Citron、Adam Morgan McCarthy、 Vishal Chawla
+
+Odaily 星球日报译者 | Moni
+
+
+在 Coinbase 推出基于 OP Stack 的全新以太坊 L2 网络 Base 之后，a16z 也出手了。
+4 月 19 日晚间，a16z Crypto 宣布推出名为“Magi”的二层 Rollup 客户端解决方案，无独有偶，Magi 客户端软件也将在 OP Stack 上构建（注：OP Stack 是一个软件堆栈，可用于围绕 Optimism Layer 2   网络创建区块链 dApp 生态系统），并将作为 a16z迈进 Optimism Collective 的第一步。
+A16z 是加密领域最知名的投资者之一，拥有超过 70 亿美元的资金用于该领域的投资。2023 年至今，该风投已经参与了 11 项加密初创公司的融资交易。A16z Crypto 也是以太坊扩容项目 Optimism 的投资者之一，根据 CoinGecko 最新数据显示， Optimism 原生代币 OP 在今天 Magi 消息发布后已从约 2.55 美元攀升至 2.65 美元。  
+Magi 是什么？
+Magi 是一个用 Rust 编写的高速 OP Stack Rollup 客户端，在以太坊的传统执行/共识拆分中充当共识客户端，向执行客户端提供新区块以推进链上交易。Magi 执行与参考实现（op-node）具有相同的核心功能，并与执行节点（如 op-geth）一起工作以同步到任何 OP Stack 链，包括 Optimism 和 Base。
+A16z 构建 Magi 的原因：为 Rollup 客户端带来多样性
+以太坊链上执行和共识方面都需要客户端多样性，然而到目前为止，大部分开发都集中在执行客户端上。
+现有的以太坊执行客户端都可以通过实施一组适度的更改与 Optimism 兼容，并且几个新项目已经在调整这些客户端以帮助实现客户端多样性，比如 OP Labs 修改 Geth 客户端以构建 op-geth，其他团体目前正在建设 op-erigon 和 op-reth。
+不过，Rollup 客户端改造难度更高，因为 Rollup 客户端是一个全新的软件。到目前为止，只有一种实现：op-node，由 OP Labs 维护并用 Go 语言编写。Magi 的目标是成为一个独立开发的 op-node 直接替代品，以提升 Rollup 的客户端多样性。A16z 希望构建一个基于 Rust 的新客户端将鼓励整个 OP 堆栈更加安全和活跃，并为生态系统带来更多贡献者。
+Magi 未来的发展方向
+Magi 仍处于非常早期的阶段，可能需要数月的开发时间才能成为 op-node 的可行替代方案。A16z 计划在不久的将来添加的一些功能和改进，主要包括：
+1、追踪不安全的区块头（未确认的区块）以降低延迟。
+2、构建新的同步机制可提高初始同步速度。
+3、为替代数据可用性层提供支持。
+4、用于测试 Magi、op-node 和任何未来客户端的更好框架。
+a16z 表示，Rollup 客户端还有很长的路要走，a16z 也希望能共同努力，继续推动 Magi 和 OP Stack 生态系统向前发展。]]></summary>
+        <author>
+            <name>Moni</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yuga Labs已获得CryptoPunks Wrapper所有权]]></title>
+        <id>https://panewslab.com/zh/articledetails/db4w5fd7.html</id>
+        <link href="https://panewslab.com/zh/articledetails/db4w5fd7.html"/>
+        <updated>2023-04-19T15:56:44.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，蓝筹NFT项目CryptoPunks在社交媒体宣布，作为Punks修复项目的一部分，Yuga Labs目前已获得了CryptoPunks Wrapper的所有权，@Robi_air和Ark Gallery DAO团队也完成了相关移交工作，CryptoPunks Wrapper的官方主页也已迁移，用户可以在其中找到与CryptoPunks NFT相关的信息和资源。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta已开始裁撤技术职位员工，针对业务部门的裁员将于5月下旬进行]]></title>
+        <id>https://panewslab.com/zh/articledetails/qy9xkp3k.html</id>
+        <link href="https://panewslab.com/zh/articledetails/qy9xkp3k.html"/>
+        <updated>2023-04-19T15:46:20.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，据CNBC报道，作为上个月宣布的裁员计划的一部分，Meta 于周三开始裁撤技术职位员工。具有用户体验、软件工程、图形编程等技术背景的员工在 LinkedIn 上宣布，他们已于周三上午被公司解雇。Meta 发言人向 CNBC 证实，裁员已经开始。此外，针对业务部门（例如财务、法律和人力资源）的裁员将于 5 月下旬进行。在 2022 年 11 月和今年 3 月的两轮裁员中，Meta 表示将裁员约 2.1 万名员工。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微软与Space and Time合作为Azure Cloud添加实时区块链数据]]></title>
+        <id>https://panewslab.com/zh/articledetails/o6p2iqtu.html</id>
+        <link href="https://panewslab.com/zh/articledetails/o6p2iqtu.html"/>
+        <updated>2023-04-19T15:14:58.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，据CoinDesk报道，微软与去中心化数据平台 Space and Time 合作，通过 Microsoft Azure Marketplace 向开发人员提供实时区块链数据。通过 Azure 市场的一键式部署，开发人员能够访问、管理和分析区块链数据。企业可以在不改造现有技术架构的情况下开发区块链。
+七个月前，Space and Time完成微软的风险投资部门M12领投的2000万美元融资。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3通知平台Yoz Labs完成350万美元融资，Electric Capital领投]]></title>
+        <id>https://panewslab.com/zh/articledetails/jp8btf3l.html</id>
+        <link href="https://panewslab.com/zh/articledetails/jp8btf3l.html"/>
+        <updated>2023-04-19T15:02:31.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，据CoinDesk报道，Web3 通知平台 Yoz Labs 已筹集 350 万美元资金，以进一步实现其构建可扩展消息传递轨道的目标，使开发人员能够直接向用户发送即时链上通知。早期风险投资公司 Electric Capital 领投，Collab+Currency、Coinbase Ventures、Dapper Labs、Form Capital、North Island、Mike Krieger 和 Naval Ravikant 等参投。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maple Finance推出现金管理池，可帮助链上参与者投资美国国库券]]></title>
+        <id>https://panewslab.com/zh/articledetails/dv8bo130.html</id>
+        <link href="https://panewslab.com/zh/articledetails/dv8bo130.html"/>
+        <updated>2023-04-19T14:55:35.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，加密借贷协议Maple Finance发文宣布推出现金管理池（Cash Management Pool）。该池提供链上现金管理解决方案，支持非美国 DAO、离岸公司等将限制资金投入 Maple Finance 设置的资金池，该资金池将提供美国国库券收益并满足客户的流动性、风险控制和会计要求。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HOPE现已正式登陆以太坊主网]]></title>
+        <id>https://www.odaily.news/post/5186555</id>
+        <link href="https://www.odaily.news/post/5186555"/>
+        <updated>2023-04-19T14:51:27.000Z</updated>
+        <summary type="html"><![CDATA[HOPE 现已在以太坊主网上线。HOPE 是一个基于原生加密分布式稳定币 $HOPE 而打造的一站式 DeFi 生态系统。在经过成功的公共测试阶段之后，包括 HopeSwap、$HOPE 质押和 DAO 在内的协议与功能现已正式向所有用户推出。$LT 奖励将于 2023 年 4 月 20 日上午 8: 00 （UTC+ 8 ）之后开始释放。
+
+这一里重大程碑是在 Coinbase 的支持下实现的。Coinbase 是世界上最大、最合规的托管提供商之一。作为$HOPE 分布式储备网络中的首个托管服务提供商，Coinbase 使$HOPE 投资者可以以非混合的方式将其资产安全地保管在信誉良好、独立和受监管的托管方手中。
+我们还要感谢我们的合约审计方 SlowMist、CertiK 和 PeckShield 对我们智能合约安全性的支持和认可。
+体验 HOPE 生态
+1. HopeSwap
+1.资产 Swap
+HopeSwap 是大众用户进入 HOPE 生态系统的门户，用户能够使用主流加密资产通过链上 AMM 获取$HOPE 和$LT。
+2.流动性池
+用户可以向现有交易对提供流动性，或创建新的交易对来赚取 HopeSwap 所产生手续费的 50% 。
+3.流动性挖矿
+在此基础上，LP 代币持有者还可以通过质押符合条件的 LP 代币，并根据相对应的 Gauge 权重获得$LT 奖励。
+2. $HOPE 质押
+通过单币质押，$HOPE 持有者可以在不承担无常损失的前提下获取$LT 奖励。
+3. DAO
+1.veLT
+$LT 持有者可以将$LT 锁定一段时间，来获得 veLT（vote-escorted LT）。用户可获得的 veLT 数量与锁定时间成正比。例如，将 10, 000 枚$LT 锁定 1 年、 2 年、 3 年或 4 年，可以分别获得 0.25、 0.5、 0.75 或 1…]]></summary>
+        <author>
+            <name>HOPE ⚡️</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[比特币矿企Mawson以850万美元的价格将其在德克萨斯州的矿场出售给一家新加坡基金]]></title>
         <id>https://panewslab.com/zh/articledetails/e24fvvoo.html</id>
@@ -5396,42 +5503,6 @@ PENDLE：固定利率衍生品的 Pendle 的 TVL 持续创新高，受益流
         <link href="https://panewslab.com/zh/articledetails/wz68dhia.html"/>
         <updated>2023-04-15T05:34:47.000Z</updated>
         <summary type="html"><![CDATA[PANews 4月15日消息，DeFi协议Shell Protocol推出NFT AMM产品，该产品由Proteus AMM提供支持。目前该产品仅支持Shell Protocol发行的Government Toucan NFT。在用户体验上，可以将Toucan换成想要的任何代币，或者用钱包中的任何代币购买Toucan。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LD Capital：深入解析Grayscale信托，五折买ETH机会还是陷阱？]]></title>
-        <id>https://www.odaily.news/post/5186448</id>
-        <link href="https://www.odaily.news/post/5186448"/>
-        <updated>2023-04-15T04:34:14.000Z</updated>
-        <summary type="html"><![CDATA[摘要
-
-2023 年加密市场从去年的深熊里大幅反弹，很多人可能还未来的及‘上车’，此时对比资产净值（NAV）仍有 5 折左右折价的 Grayscale 信托份额显得格外有吸引力；
-
-基于以太坊 Web3 核心基础设施的地位，我们看好 Grayscale 信托产品矩阵中 Ethereum Trust (ETHE) 在未来潜在牛市中的反弹表现；
-
-ETHE 历史上曾长期溢价或折价，产生正溢价的原因包括，申购有锁定期、产品可触达性高于 ETH 现货，相比自己保管私钥的成本 ETHE 更适合传统金融领域机构和小白散户投资；
-
-目前长期折价的原因主要与该产品无法直接赎回、类似封闭基金的产品结构有关，此外，套利机会的限制、大型投机者的被迫平仓、机会成本的折现、竞争性产品的冲击也是原因；
-
-2021 年中负溢价趋势形成以后市场对 ETHE 恢复平价的时间预期越来越长，经我们测算，在去年底一度超过了 14 年，如今回落到 10 年左右。我们认为这一预期仍然过长，待乐观预期来临之际这一隐含恢复时间可能回落至 2 年以下较为合理；
-
-有七种情况可以导致折价收窄甚至消失：包括开放赎回 ETH 现货（分为赎回获得 SEC 豁免以及 ETF 转换申请通过两种情况）、获得赎回豁免、产品解散清算、Grayscale 自行回购、套利策略的发展和市场信心的提升、机会成本的下降有助于折价修复；
-
-自 2019 年 ETHE 诞生以来，该产品还尚未经历完整的“周期”。我们认为一个完整的周期应遵循 溢价→平价→折价→平价→溢价的循环，目前 ETHE 产品只走完了一半的周期，我们认为假若押注潜在的牛市，则 ETHE 具有更好的弹性，年初以来 ETHE 涨幅是 ETH 的 1.7 倍证明了这一点；
-
-但历史数据测算显示 ETHE 的风险回报比不佳，如表 1 可见 ETHE 几乎在所有方面相较于 ETH/USD 表现较…]]></summary>
-        <author>
-            <name>LD Capital</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase已为FLR-USD交易对开通全交易模式]]></title>
-        <id>https://panewslab.com/zh/articledetails/l6a81n93.html</id>
-        <link href="https://panewslab.com/zh/articledetails/l6a81n93.html"/>
-        <updated>2023-04-15T04:29:26.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月15日消息，据官方消息，FLR-USD交易对现已在Coinbase交易所、Coinbase Pro和Advanced Trade处于全交易模式，限价单、市价单和止损单现已全部可用。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
