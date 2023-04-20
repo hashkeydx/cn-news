@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-20T04:08:33.837Z</updated>
+    <updated>2023-04-20T05:07:39.239Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文梳理9个模块化区块链平台的特点和最新动态]]></title>
+        <id>https://www.odaily.news/post/5186566</id>
+        <link href="https://www.odaily.news/post/5186566"/>
+        <updated>2023-04-20T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：饼干，ChainCatcher
+自第一个加密货币出现以来，单体区块链一直是行业标准，但这种情况正在迅速改变。2023 年，随着以太坊合并成功、 Layer 2 Rollups 生态爆发，以太坊系统转向了模块化架构。
+所谓模块化，就是把区块链的共识层、执行层、数据可用性层（DA）、结算层分工给不同的链，而不是一条链处理所有模块。Rollup 是将其区块发布到另一个区块链的区块链，并继承该区块链的共识和数据可用性。读者可在《一文详解模块化公链及市场竞争格局》、《Amber Group：为什么模块化区块链是未来？》 中深入了解模块化区块链的技术原理。
+
+图片来源: Celestia
+模块化区块链的优势包括可扩展性、灵活性以及构建项目的便利性。模块化区块链很可能成为新一代的基建设施，为推动区块链技术的应用和发展做出重要贡献。
+2022 年 8 月 10 日，Celestia 推出了模块化研究计划 Celestia Modular Fellows，其中发展出许多该赛道的项目，如 Eclipse、AltLayer、Sovereign、Dymension 等，这些新兴项目普遍受到资本的青睐，并在近期完成新一轮融资。
+此外，如果根据模块化的使用场景进行分类，还有专注于使用 zkWASM 的 ZKCross、共享去中心化 Sequencer 的模块化网络 Astria、Move 执行层模块化解决方案 Rooch Network 等等。本文将介绍这些模块化区块链的不同特点和最新动态。
+Eclipse
+Eclipse 是一个可定制的 Rollup 提供程序，与多个第 1 层区块链兼容。 该平台使开发人员能够部署他们自己的由 Solana 操作系统提供支持的 rollup，使用任何链进行安全或数据存储。
+Eclipse 于 2022 年 8 月完成 600 万美元的 Pre-Seed 轮…]]></summary>
+        <author>
+            <name>链捕手</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一览3个DeFi协议：无许可的链上美债]]></title>
+        <id>https://www.odaily.news/post/5186565</id>
+        <link href="https://www.odaily.news/post/5186565"/>
+        <updated>2023-04-20T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[从 2022 年 3 月开始，美联储将连续加息，一口气将联邦利率提升到 4.75% ～ 5% ，可以说是有史以来速度最快幅度最大的加息周期。
+联邦利率 5% 意味着你什么事都不用做，把钱放进 money market fund 里就能美美的享受接近 5% 的无风险利率。
+而与此同时，DeFi 世界里老牌协议（Curve，Aave，Compound）的普遍收益率在 0.1 ～ 2% 之间，为了农这 1% 利率需要承担的风险有智能合约风险+预言机单点风险+USD 稳定币脱锚定风险，而实际上在这一年间也确实出现了数不胜数的黑客攻击事件、预言机报价错误造成坏账、以及 USDT 和 USDC 的短时间但大幅度的脱锚。
+DeFi 农民这一年真是难上加难啊，那不如干脆出金买国债去咯，可惜 tradfi 的种种门槛对于生长在中国大陆的我们来说是在太高，别说美债了，在国内开个 I 类户再开个美元帐户存个美元定期都难倒不少人。
+这时候以 MakerDAO 为首的 DeFi 协议就想方设法把真实世界资产（Real World Asset，RWA）带到链上，从而把非旁氏的 real yield 引入 DeFi。
+但是普通散户并不能分到一杯羹，可以说当前 DeFi 世界的主要矛盾是：人民日益增长的美债需求和不平衡不均等的美债获取权之间的矛盾，为了争夺这一 DeFi 圣杯从而成为众多 DeFi 乐高年化率基石，Flux Finance/T Protocol/Ribbon Finance 应运而生。
+
+
+Flux Finance
+Flux Finance 是由 Ondo Finance 团队开发的去中心化借贷协议，讲 Flux 之前必须先介绍 Ondo 的 OUSG，Ondo Finance 和机构对接在链上发行由国债 ETF 做抵押的 OUSG，只有机构能够铸造和赎回 OUSG。看到这你会问：这不还是…]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ParaSpace将从5月1日起引入费用：APE质押收取3%，所有借贷利息收取10%]]></title>
         <id>https://panewslab.com/zh/articledetails/1pqi0gih.html</id>
@@ -19,6 +58,23 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[链游的AI革命：AI不是一个新命题（一）]]></title>
+        <id>https://www.odaily.news/post/5186557</id>
+        <link href="https://www.odaily.news/post/5186557"/>
+        <updated>2023-04-20T03:16:55.000Z</updated>
+        <summary type="html"><![CDATA[开篇语 
+“狼来了，狼来了……”AI 这次真的来了，如洪水猛兽，短短两个月时间，OpenAI 旗下的 ChatGPT 月度活跃用户数突破了一亿大关，成为历史上增长最快的应用之一。而最新的 GPT-4 于 3 月 14 日发布，随后在 3 月 29 日，狗狗币的统帅马斯克与 1000 多名专家和产业高层联名呼吁，暂停开发比 GPT-4 更强大的人工智能系统至少 6 个月，给个缓冲期，以认识并远离极端的大规模风险。
+
+带货大师马斯克都按下了暂停键（然后反手就把推特头像换成狗狗抢热度？哈哈），给手机前的你和我准备了 6 个月的实习时间，好好备战。暂停键也意味着，这将是一个不可逆转和不可抗拒的趋势，所以，我们现在还有 5 个多月时间好好思考下，该如何面对或迎接 AI 给我们的工作和生活带来的变革。
+AI 之所以如此强大，是因为它让计算机像人类一样思考、学习和用逻辑关系解决问题。就好比你和不熟悉的网友聊天一样自然，而且对方拥有无穷多的知识储备和话题可以让你撩，还能兼具德云社捧哏和逗哏的功能。
+如果让这样一个全知全能的智能帮助人类工作，超过 50% 以上的工作可能很快就会被 AI 替代， 90% 以上的工作都将逐渐受到影响并大大提高效率，同时也将解放人类更多时间。
+比如，如果有一天，AI 语音机器人通过与小朋友聊天，就知道小朋友的知识面低于平均水平，同时可以像一个和蔼可亲的老师一样长期陪伴，通过聊天和讲故事的形式，逐渐将许多空缺的知识传达给小朋友，会是天下虎爸虎妈们最幸福的短暂时刻。
+AI 带来了一场全新的革命，谁都逃不过。感谢统帅按下了暂停键，哪怕是假装暂停，而自己“明修栈道，暗度陈仓”地偷偷在研发。瓜田实验室 W Labs 在 ChatGPT 3.5 刚兴起的时候就成立了专门的“AI 链游研究小组”，这段时间拜访了我们能通达到的已经涉足 AI 的链游项目和团队，并结合我们学习到的 …]]></summary>
+        <author>
+            <name>瓜田实验室 W Labs</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[NFT游戏Tales of Elleria遭黑客攻击，损失超28万美元]]></title>
         <id>https://panewslab.com/zh/articledetails/rle8srh9.html</id>
         <link href="https://panewslab.com/zh/articledetails/rle8srh9.html"/>
@@ -27,6 +83,16 @@
 黑客地址为0xf2cbF39e7668EbB113f2C609BBd6eA1dFCe5d376。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密利率市场春风将至？深度解析LSD利率市场服务商Pendle]]></title>
+        <id>https://www.theblockbeats.info/news/36655</id>
+        <link href="https://www.theblockbeats.info/news/36655"/>
+        <updated>2023-04-20T03:02:41.000Z</updated>
+        <summary type="html"><![CDATA[随着LSD叙事的深入，基于LSD发展更复杂的DeFi工具、关注和推演债券市场叙事的呼声逐渐大了起来]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>
