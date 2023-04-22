@@ -2844,16 +2844,6 @@
           "wordCount": 481,
           "title": "Sui基金会任命Greg Siourounis为董事总经理",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/zox1794u.html",
-          "author": "PA一线",
-          "description": "PANews 4月17日消息，据Prnewswire报道，NFT平台Refinable宣布已被Artifact Labs收购，但收购金额暂未对外披露。Artifact Labs是一个多链 NFT 生态系统，由《南华早报》剥离了其基于区块链的NFT业务而成立，《南华早报》目前仍是Artifact Labs的股东，本次收购Refinable将加速其推出去中心化NFT市场、以及Web3产品路线图的开发。\n此前报道，Refinable于2021年4月完成300万美元私募融资，币安、Mr. Beast等参投。",
-          "link": "https://panewslab.com/zh/articledetails/zox1794u.html",
-          "publishedOn": "2023-04-17T14:31:53.000Z",
-          "wordCount": 400,
-          "title": "NFT平台Refinable被Artifact Labs收购",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2862,6 +2852,26 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/news/36741",
+          "author": null,
+          "description": "原文作者：Leo，BlockBeats\n\n\n资产 token 化（也可以说是 RWA）是一个价值万亿美元的领域，Ondo Finance 便是目前该领域的佼佼者。Ondo 是一种结构化产品 DeFi 协议，以其流动性即服务（Liquidity-as-a-Service）特性在 DeFi 2.0 趋势中非常突出，LaaS 是一种帮助项目以低成本获得深度流动性的服务，即便没有流动性挖矿，Ondo 仍然吸引了超过 2 亿美元的 TVL。\n\n\n\n\n此前于 2022 年 4 月 27 日，Ondo Finance 完成了 2000 万美元融资，由 Founders Fund 和 Pantera Capital 领投；并且去年 Ondo Finance 还在 CoinList 公开 token 销售中筹集了 1000 万美元。DefiLlama 数据显示，其 TVL 为 1.02 亿美元，且未使用任何 ONDO 激励措施。\n\n\n\n\n\n\n\n\n\nOndo Finance 此前产品\n\n\n\n\n在此之前，简单说一下 Ondo 的资金策略，用户可以通过 Ondo 将 USDC（或其他稳定币）投资其基金时，需要执行五个基本步骤：\n\n\n-Ondo 将该 USDC 兑换成美元，然后将其保存在银行账户中；\n\n\n-随后 Ondo 使用这些美元购买资产，这些资产可以是 ETF 或基金（持有单一名称证券和其他资产）；\n\n\n-新的基金 token 被铸造并存入用户钱包；\n\n\n-当这些标的资产获得收益时，该收益将被再投资以购买更多资产，从而自动复利用户收益；\n\n\n-任何时候用户都可以收回自己的 toekn，基金 token 会被销毁，用户收回 USDC。\n\n\n\n\n\n\n\nOndo 已推出的三类基金 token，分别是：OHYG、OSTB、OUSG。OHYG 提供高收益债券敞口；OSTG 提供加权平均投资等级评级的短期…",
+          "link": "https://www.theblockbeats.info/news/36741",
+          "publishedOn": "2023-04-22T02:21:32.000Z",
+          "wordCount": null,
+          "title": "Ondo的稳定币OMMF：由美债支持的算稳",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36722",
+          "author": null,
+          "description": "原文标题：《\n\n盘点Polygon zkEVM生态12个DeFi项目\n\n》\n原文来源：\n\nForesight News\n\n\n\n3 月底，由 Polygon 打造的新产品 Polygon zkEVM 正式发布主网 Beta 版本。Polygon zkEVM 是一种 Layer2 Rollup 解决方案，三个主要组件包括可信定序器（Trusted Sequencer）、可信聚合器（Trusted Aggregator）以及部署在 Layer1 上的共识合约（Consensus Contract）。\n\n\n\n\n\n \n\n\n其中，可信定序器组件负责接收 Layer2 交易，并进行排序和生成批次，然后以序列的方式提交至共识合约的存储插槽（storage slots）中。可信定序器执行批量交易时还会将交易广播到 Layer2 网络节点；可信聚合器组件根据定序器的 Layer2 交易批次计算 Layer2 状态，并获取由可信定序器提交到 Layer2 的批次，并生成零知识证明来证明批处理的计算完整性。共识合约的逻辑会验证零知识证明，证明交易批次的正确执行，使得 zkEVM 能够继承 Layer1 安全性。\n \nForesight News 整理了上线 Polygon zkEVM 的 12 个 DeFi 项目。在上线主网三周多的时间，已有主要包括跨链和 DEX 的协议上线，除了扩展过来的项目之外，多数 DeFi 项目还处于非常早期的阶段（建议用户谨慎参与），且在 NFT、元宇宙、游戏、借贷等领域鲜有触及。考虑到 Polygon 本来的生态相对繁荣，之后有待涌入更多的生态项目来 zkEVM 构建。\n \n\n \n桥 / 跨链\n \n当前，Polygon 官方桥仅支持从以太坊桥接至 Polygon zkEVM 或撤回，支持的资产包括 ETH、MATIC、USDC、USDT、DAI、Aave 等多个资产。…",
+          "link": "https://www.theblockbeats.info/news/36722",
+          "publishedOn": "2023-04-22T02:00:01.000Z",
+          "wordCount": null,
+          "title": "盘点Polygon zkEVM生态12个DeFi项目",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/news/36721",
           "author": null,
@@ -2880,6 +2890,16 @@
           "publishedOn": "2023-04-21T08:39:03.000Z",
           "wordCount": null,
           "title": "Binance新IEO Open Campus是做什么的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36719",
+          "author": null,
+          "description": "去年 6 月，BMAN 宣布他与 Huobi 联合创始人杜均合作联合创办 ABCDE Capital，专注于支持 Web3 建设者。杜均在出售火币之后进行多元化配置，在香港重组上市公司新火科技，在新加坡进行 SAAS、媒体、开发者生态及一级市场直投布局，和 BMAN 推出 4 亿美元专注 Crypto 早期的 ABCDE，是亚太突出的「Capital With Ecosystem」，为全球的一线创始人提供端到端的包括资本、流量、交易、牌照、开发者等生态资源扶持。ABCDE 囊括了香港主板上市公司新火科技、新加坡 SAAS 公司 ChainUP、交易所 Huobi、媒体公司 Cointime 等生态，在新加坡香港双中心布局，且在新加坡中心 One Raffles Place 设立了线下 5,000 平方英尺的 Crypto 加速 hub，代表「以区块链为中心的发展生态系统」。\n\n\n\n\nBMAN 作为中国加密世界的 OG 之一，入圈 10 年，穿越多个周期，见证了华人 Web3 全球化的浪潮与起起伏伏，积累了对行业的深刻理解。同时，BMAN 之前在 Web2 的创业经历，贯穿 Web2 和 Web3 两个技术浪潮打造数亿美金市值公司的经历，也让他以 hands-on 的实操经验成为「创业者背后的创业者」。跳出对加密领域的惯性思维，他坚信世界公民和自由的理念，就像大多数 Web3 信徒一样，同时他也认为 Web3 需要一个超级应用程序来提供集成服务解决方案以让更多人参与，这可能恰恰违反许多 Web3 人的直觉。\n\n\n\n\n在香港 Web3 大会期间，BlockBeats 对 ABCDE Capital 联合创始人 BMAN 进行了专访。\n\n\n\n\nBMAN 的经历：被美国大兵安利了比特币\n\n\n从学生时代果断拥抱比特币，15 年投身 AI 创业，再到如今创办 ABCDE Capital…",
+          "link": "https://www.theblockbeats.info/news/36719",
+          "publishedOn": "2023-04-21T07:29:54.000Z",
+          "wordCount": null,
+          "title": "对话ABCDE Capital联创BMAN：ABCDE的「根叶投资哲学」",
           "imageUrl": null
         },
         {
@@ -4117,16 +4137,6 @@
           "publishedOn": "2023-04-18T00:00:00.000Z",
           "wordCount": 2051,
           "title": "星球日报 | 黄立成发推称退出NFT领域；美国SEC指控Bittrex及其前CEO（4月18日）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5186492",
-          "author": "星球君的朋友们",
-          "description": "AI WORLD 项目启动发布会于 4 月 13 日在英国伦敦成功举办，这也是 AI WORLD 正式宣告全球上线的时刻，本次发布会吸引了来自 20 多个 AI 和加密社区以及 100 多个合作伙伴的参与 。 \n\n作为此次发布会的焦点，联合创始人 Ioannis Korkos 博士、区块链专家 Simone De Rosa 和项目顾问 Gong hui 博士，出席了发布会，并发表演讲，分享了他们在人工智能和区块链领域的深厚专业知识和经验，详细介绍了 AI WORLD 项目的前景和规划并 介绍了 AI WORLD 的优势和前景 。\n\nAI WORLD 是一个创新的区块链+AI 项目，旨在通过区块链技术和人工智能算法的融合，实现更高效、更安全、更可靠的数据管理和应用。 \n作为 AI+CRYPTO 项目，AI WORLD 致力于将 AI 技术与区块链技术结合，推动区块链技术在智能合约、数字身份验证、数据隐私保护等领域的应用，为用户带来更加优质、便捷的服务和产品。同时，该项目还将通过人工智能技术的应用，为用户带来更便捷、更个性化的服务体验。 \n\n据悉，AI WORLD 的核心团队成员来自于全球顶尖科技企业和研究机构，拥有丰富的技术背景和行业经验，将结合 AI 技术和区块链技术的优势，为用户提供更加优质、高效、可靠的服务和产品。 \n\n本次发布会现场，AI WORLD 还宣布将发起 AI 生成图片 mint NFT 的活动，并空投 AI WORLD 的代币给支持 AI WORLD 的社区，以感谢和回馈用户的支持和信任。 \nAI 技术的发展为人工智能行业带来了巨大的机遇和挑战，AI WORLD 项目的启动，也是聚焦区块链和 AI 两大技术领域的融合和突破，将进一步推动 AI 和区块链技术的发展和应用，助力实现数字经济的高质量发展。",
-          "link": "https://www.odaily.news/post/5186492",
-          "publishedOn": "2023-04-17T14:37:41.000Z",
-          "wordCount": 1696,
-          "title": "AI WORLD正式上线，将发起AI生成图片mint NFT和代币空投活动",
           "imageUrl": null
         }
       ]
