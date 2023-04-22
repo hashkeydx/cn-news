@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-22 datetime="2023-04-22T02:21:32.000Z">2023-04-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-22 datetime="2023-04-22T02:21:32.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-22 datetime="2023-04-22T04:00:00.000Z">2023-04-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-22 datetime="2023-04-22T04:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -63,68 +63,42 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36741"
+                        data-accordion-key="https://www.odaily.news/post/5186604"
                         open
                       >
-                        <summary class="article-expander__title">Ondo的稳定币OMMF：由美债支持的算稳</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36741">
+                        <summary class="article-expander__title">Messari：Filecoin2023年一季度生态进展报告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186604">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>原文作者：Leo，BlockBeats
+                              <span>原文来源：Messari
+原文编译：Filecoin Network
 
+关键数据
 
-资产 token 化（也可以说是 RWA）是一个价值万亿美元的领域，Ondo Finance 便是目前该领域的佼佼者。Ondo 是一种结构化产品 DeFi 协议，以其流动性即服务（Liquidity-as-a-Service）特性在 DeFi 2.0 趋势中非常突出，LaaS 是一种帮助项目以低成本获得深度流动性的服务，即便没有流动性挖矿，Ondo 仍然吸引了超过 2 亿美元的 TVL。
+Filecoin存储市场在 2023 年第一季度持续增长，活跃存储交易提议比去年同期增长 75% 。
 
+存储容量比去年同期下降 13% ，而存储利用率比去年同期上升 105% 。
 
+费用收入在 2023 年第一季度增加 5% （美元计价增长 21% )，这是由比去年同期增加 14% 的新增存储交易提议带来的。
 
+Filecoin 虚拟机发布将以太坊式的智能合约带到了 Filecoin，将促进包括DeFi、永续存储和分布式计算等领域的新用例。
 
-此前于 2022 年 4 月 27 日，Ondo Finance 完成了 2000 万美元融资，由 Founders Fund 和 Pantera Capital 领投；并且去年 Ondo Finance 还在 CoinList 公开 token 销售中筹集了 1000 万美元。DefiLlama 数据显示，其 TVL 为 1.02 亿美元，且未使用任何 ONDO 激励措施。
+Filecoin 基本信息
+依赖于中心化数据存储有一个严重问题：就是很难系统性验证存储数据的完整性。如今，Filecoin 网络已经是亚马逊 S 3 云服务的点对点版本了。它是在星际文件系统(IPFS)之上搭建的，后者作为 Filecoin 网络的分布式数据存储和分享层。Filecoin 会定期验证数据存储有效性，还使用了基于动态供需关系定价的存储交易提议 deals（而不是固定价格策略）。
 
-
-
-
-
-
-
-
-
-Ondo Finance 此前产品
-
-
-
-
-在此之前，简单说一下 Ondo 的资金策略，用户可以通过 Ondo 将 USDC（或其他稳定币）投资其基金时，需要执行五个基本步骤：
-
-
--Ondo 将该 USDC 兑换成美元，然后将其保存在银行账户中；
-
-
--随后 Ondo 使用这些美元购买资产，这些资产可以是 ETF 或基金（持有单一名称证券和其他资产）；
-
-
--新的基金 token 被铸造并存入用户钱包；
-
-
--当这些标的资产获得收益时，该收益将被再投资以购买更多资产，从而自动复利用户收益；
-
-
--任何时候用户都可以收回自己的 toekn，基金 token 会被销毁，用户收回 USDC。
-
-
-
-
-
-
-
-Ondo 已推出的三类基金 token，分别是：OHYG、OSTB、OUSG。OHYG 提供高收益债券敞口；OSTG 提供加权平均投资等级评级的短期…</span>
+一项存储交易提议就如带有服务等级协议(SLA)的合约——用户向存储提供者支付费用来在指定周期存储数据。为了保证数据安全，Filecoin 使用了加密经济学激励模型来定期用零知识证明来验证存储。为了激励存储提供者参与这些存储交易提议，Filecoin 会以网络的原生 token FIL 作为奖励。如果存储提供者无法提供可靠的在线时间或对网络作恶，还会受到惩罚（slashed）。
+为了检索数据，Filecoin 用户会向检索提供者支付费用来获取数据。与存储交易提议的链上交易方式不同，检索交易提议会链下结算费用，这样检索速度会更快。
+2023 年 3 月发布的 Filecoin 虚拟机将以太坊的智能合约带到了 Filecoin，将促进包括 DeFi、永续存储和分布式计…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -134,42 +108,58 @@ Ondo 已推出的三类基金 token，分别是：OHYG、OSTB、OUSG。OHYG 提�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36722"
+                        data-accordion-key="https://www.odaily.news/post/5186612"
                         open
                       >
-                        <summary class="article-expander__title">盘点Polygon zkEVM生态12个DeFi项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36722">
+                        <summary class="article-expander__title">登陆币安Launchpad，「Open Campus」有何亮点？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186612">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>原文标题：《
+                              <span>4 月 21 日，Binance 官宣了即将上线的第 31 个 Launchpad 项目 Open Campus（EDU），成为继 Hooked 和 SpaceID 之后第三个登上Binance Launchpad的 BNB Chain 生态项目。
 
-盘点Polygon zkEVM生态12个DeFi项目
+Open Campus 是什么来头？
+Open Campus 是一个Web3教育协议平台，教师和创作者可以以代币认识拥有他们所制作的教育内容并利用此以营利。此项目的使命为鼓励教师对社会的贡献及给予充分认可，并为全世界的学生提供一个全球性的另类学习系统。
+Open Campus 目前的对外资料并不多，这也让不少初次接触这一项目的研究者和用户发出了质疑，但其实只要稍加探究便知，Open Campus 团队的实力、履历都非常耀眼。
+Open Campus 本身搭建了一个完善的协议层基础设施，供学校、科技教育平台和其他教育者使用，让他们将产出的教育内容带给全球的学生，教育内容及课程可以代币化为NFT，内容产生的收入将经由智能合约分发给创作者、NFT 的持有人及其他贡献者。
+它的第一个采用者 TinyTap，已经是全球教育行业的佼佼者。这支成立于 2012 年、来自以色列的团队，创造了无需代码即可让用户制作教育内容及课堂的模式，目前平台已经有超过 25 万互动课程。它在 App Store 及 Google Play 上是头十名总收入最高的儿童移动应用程式，有超过 9 百万家庭使用过并有超过 10 万名创作者，并与芝麻街、牛津大学等多个著名的出版商合作。
+而 TinyTap 此前正是 BNB Chain 上的明星项目。4 月初的数据显示，以活跃钱包数排名，TinyTap 位列 BNB Chain 最活跃 dApp 前五名。
+除了 TinyTap 以外，Open Campus 还与世界上最大的私立学校网络之一 GEMS 教育达成了合作，G…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5185841"
+                        open
+                      >
+                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0415-0421）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185841">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
+因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
+下面，来和我们一起阅读吧：
 
-》
-原文来源：
+投资与创业
+为什么 Arthur Hayes 要在美国财政部账户余额见底时清仓比特币？
+美国财政部账户余额（TGA）已不足千亿美元，而 4 月份美国税收数据低于预期，如果当前财政不足以支撑偿还美债利息，市场预期美国将在今年下半年再次提高 31.4 万亿美元的美债上限，而再次发行美债会抽血市场的美元流动性，因此将不利于风险资产，所以利空比特币。
+也许是对 2022 年的路径依赖，也许是在灵性匮乏的市场里抓住了救命稻草，不得不承认的是，「放水与加息」已经成为支配当前加密行情的最重要叙事。
+一文探讨 Shapella 升级后的市场影响和流动性状况
+Shapella 升级后 ETH 飙升；交易活动向亚太时段转移；比特币与美国股票的相关性存在差异，今年 BTC 与风险资产的走势不太一致，因为流动性低和卖家疲惫等特定于加密货币的因素也在价格表现中发挥了作用。
+一文探讨 Meme 币成功的底层逻辑及投资方法论
 
-Foresight News
-
-
-
-3 月底，由 Polygon 打造的新产品 Polygon zkEVM 正式发布主网 Beta 版本。Polygon zkEVM 是一种 Layer2 Rollup 解决方案，三个主要组件包括可信定序器（Trusted Sequencer）、可信聚合器（Trusted Aggregator）以及部署在 Layer1 上的共识合约（Consensus Contract）。
-
-
-
-
-
- 
-
-
-其中，可信定序器组件负责接收 Layer2 交易，并进行排序和生成批次，然后以序列的方式提交至共识合约的存储插槽（storage slots）中。可信定序器执行批量交易时还会将交易广播到 Layer2 网络节点；可信聚合器组件根据定序器的 Layer2 交易批次计算 Layer2 状态，并获取由可信定序器提交到 Layer2 的批次，并生成零知识证明来证明批处理的计算完整性。共识合约的逻辑会验证零知识证明，证明交易批次的正确执行，使得 zkEVM 能够继承 Layer1 安全性。
- 
-Foresight News 整理了上线 Polygon zkEVM 的 12 个 DeFi 项目。在上线主网三周多的时间，已有主要包括跨链和 DEX 的协议上线，除了扩展过来的项目之外，多数 DeFi 项目还处于非常早期的阶段（建议用户谨慎参与），且在 NFT、元宇宙、游戏、借贷等领域鲜有触及。考虑到 Polygon 本来的生态相对繁荣，之后有待涌入更多的生态项目来 zkEVM 构建。
- 
-
- 
-桥 / 跨链
- 
-当前，Polygon 官方桥仅支持从以太坊桥接至 Polygon zkEVM 或撤回，支持的资产包括 ETH、MATIC、USDC、USDT、DAI、Aave 等多个资产。…</span>
+STEPPS 模型：病毒营销的 6 大特点
+meme 项目的成功离不开：好叙事——社交货币、热点关联——诱因、情感共鸣——情绪、名人效应——公共性、效用 Utility——实用价值和传播载体——故事。
+meme 估值&#x3D;叙事+数字估值&#x3D;叙事大小（影响市场的范围大小）+情绪的唤醒度频率+名人效应 ( KOL 认可度及带货能力）+SOV（Share of Voice：媒体比重占有率) 等多重因素的结合。
+mem…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -189,6 +179,146 @@ Foresight News 整理了上线 Polygon zkEVM 的 12 个 DeFi 项目。在上线�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/0g41cx4l.html"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊核心开发者：EIP-4844的第五个开发测试网将于下周启动</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/0g41cx4l.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月22日消息，Galaxy研究副总裁Christine Kim发文总结第107次以太坊核心开发者共识（ACDC）会议，本次会议在对上海升级的成功进行简短确认后，便开始讨论Deneb（即EIP-4844）的准备工作。其中，以太坊核心开发者Tim Beiko表示，EIP-4844的第五个开发测试网将于下周某个时候启动。开发者讨论了在链重组事件中如何将blob交易重新插入区块中的问题，对此Danny Ryan提出了两种解决方案：让共识层将每个区块的blob数据传递给执行层或者让用户重新提交交易。针对前者，开发者展开了讨论并谈及数据可用性抽样DAS实现将使该假设方案失效，不过由于会议缺少执行层客户端相关代表，所以问题将留待下周执行层开发者会议讨论。与此同时，共识会议上，开发者拟将EIP-4788与3175和EIP-4844一起纳入Deneb升级。关于EIP-6914，开发者同意继续敲定代码更改细节，并将其实施推到Deneb之后的硬分叉。此外，开发者讨论了信标链认证子网（attnets），Lighthouse（CL）客户端团队的Adrian Manning提出了一个将验证者节点订阅到长期的attnets解决方案，并表示此更改不必通过硬分叉来执行。据此前消息，在2023年首次以太坊核心开发者会议上，开发者同意将上海升级之后的Cancun升级专注于EIP-4844。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/2keggls3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Cardano发布首份年报：因持有BTC和ADA整个2022全年未受加密行业风险事件影响</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2keggls3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月22日消息，Cardano基金会官方网站发布了首份年度报告，其中回顾了该区块链在整个2022年取得的成就。报告指出，由于主要持有比特币（价值1900万美元）和ADA（价值1.66亿美元），因此Cardano整个2022年都没有受到加密行业各类风险事件的直接影响。Cardano基金会还披露了其他里程碑，包括：支持Vasil硬分叉、与联合国难民署和苏黎世大学签署合作协议、开发Kupo V2、扩展Developer Portal等。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/1l1npg0c.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：今年第一季度Web3初创公司所获风投金额同比下降82%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/1l1npg0c.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月22日消息，Crunchbase的数据显示，今年第一季度对Web3初创企业的风险投资金额同比下降82%，从2022年第一季度的91亿美元下降到17亿美元，创2020年第四季度以来Web3公司融资金额新低。与此同时，交易总数也出现了显著下降。2023年第一季度记录了333笔交易，同比下降约33%。此外，在2022年第一季度，Web3共完成29轮金额超过1亿美元的融资，而在今年第一季度，只有两轮融资超过1亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/p5nhghrp.html"
+                        open
+                      >
+                        <summary class="article-expander__title">MyAlgo公布攻击事件报告：攻击者利用CDN API密钥注入恶意代码</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/p5nhghrp.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月22日消息，MyAlgo推特公布关于此前攻击事件的报告。报告称，攻击者利用可能CDN API密钥，通过中间人攻击在实际的http://wallet(.)myalgo(.)com网页端和用户之间注入恶意代码。尚不清楚CDN API密钥是如何获得的，在MyAlgo代码库中没有发现攻击或漏洞证据，没有证据表明CDN用户账号被泄露。此外，CDN审计日志中没有证据能够表明曾创建了可以发动此攻击的密钥。审计日志覆盖18个月，而受影响的帐户是19个月前创建的，但这个账户直到2022年10月（6个月前）才被使用。这增加了一种很低的可能性，即日志丢失或API密钥是在19个月前获得的，从而避开了日志记录。另外，攻击者（针对特定版本的MyAlgo）于1月21日上传恶意代码，攻击一直持续到2月中旬新版本MyAlgo发布。执法部门和安全专业人员将继续调查，收集更多信息，以帮助阐明攻击细节。据链上数据分析师ZachXBT此前发布的推特，由于2月19日至21日Algorand生态钱包MyAlgo遭受攻击，Algorand上可能有超过920万美元资产（1950万枚ALGO、350万枚USDC等）被盗。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/x2u3o979.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Coinbase CEO：国会应介入制定明确的加密监管法规</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/x2u3o979.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月22日消息，Coinbase首席执行官Brian Armstrong在推特发文称，“今天与美国证券交易委员会（SEC）会面。我们将继续推动在美国制定明确的加密监管法规。美国不能在这项更新金融系统这项重要技术上落后。与此同时，监管机构需要先制定政策再执行，在有明确的规则之前不要强制执行。在这一点上，似乎国会需要介入。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/l14zai9b.html"
+                        open
+                      >
+                        <summary class="article-expander__title">深圳数据交易所与蚂蚁集团签订合作框架协议，推进区块链和AI技术研究合作</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/l14zai9b.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月22日，据界面新闻报道，4月20日，深圳重大交易平台推介会在杭州举行。会上，前海联合交易中心、电子元器件和集成电路国际交易中心、深圳国际珠宝玉石综合贸易平台、深交所科技成果与知识产权交易中心、深圳数据交易所等五大交易平台集中亮相。当天，深圳数据交易所与蚂蚁科技集团、华东大数据交易中心、阿里巴巴集团、浙江省大数据联合计算中心有限公司、郑州数据交易中心战略签约。其中，深圳数据交易所与蚂蚁集团签订合作框架协议，双方将在包括共建共享高价值数据合作渠道，开展数据合规专项研究，推进区块链、隐私计算、AI等技术研究和互联互通等方面合作。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ynsgwp19.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Do Kwon律师：SEC指控Do Kwon与Terraform Labs进行证券欺诈没有依据</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ynsgwp19.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月22日消息，据彭博社报道，前Terraform Labs首席执行官Do Kwon的律师表示，美国证券交易委员会（SEC）指控Do Kwon与Terraform Labs Pte进行证券欺诈的诉讼没有根据，部分原因是所涉稳定币是一种货币，而不是证券。该律师周五在请求法官驳回诉讼时表示，美国法律禁止监管机构“在这种情况下使用联邦证券法来主张对数字资产的管辖权”。据此前消息，今年2月，SEC起诉Do Kwon和Terraform Labs，指控他们非法发行未经注册的证券并多次误导和欺骗投资者。上个月，Do Kwon因伪造护照在黑山被捕入狱，随后美国和韩国都要求将其引渡。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -459,39 +589,156 @@ Foresight News 整理了上线 Polygon zkEVM 的 12 个 DeFi 项目。在上线�
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5185841"
+                        data-accordion-key="https://www.theblockbeats.info/news/36654"
                         open
                       >
-                        <summary class="article-expander__title">每周编辑精选 Weekly Editors&#x27; Picks（0415-0421）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5185841">
+                        <summary class="article-expander__title">重塑联系：去中心化社交网络全景解析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36654">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
-因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
-下面，来和我们一起阅读吧：
+                              <span>原文标题：《Rebuilding Connections》
+原文作者：STEVEN SHI
+原文编译：Kxp，Blockbeats
 
-投资与创业
-为什么 Arthur Hayes 要在美国财政部账户余额见底时清仓比特币？
-美国财政部账户余额（TGA）已不足千亿美元，而 4 月份美国税收数据低于预期，如果当前财政不足以支撑偿还美债利息，市场预期美国将在今年下半年再次提高 31.4 万亿美元的美债上限，而再次发行美债会抽血市场的美元流动性，因此将不利于风险资产，所以利空比特币。
-也许是对 2022 年的路径依赖，也许是在灵性匮乏的市场里抓住了救命稻草，不得不承认的是，「放水与加息」已经成为支配当前加密行情的最重要叙事。
-一文探讨 Shapella 升级后的市场影响和流动性状况
-Shapella 升级后 ETH 飙升；交易活动向亚太时段转移；比特币与美国股票的相关性存在差异，今年 BTC 与风险资产的走势不太一致，因为流动性低和卖家疲惫等特定于加密货币的因素也在价格表现中发挥了作用。
-一文探讨 Meme 币成功的底层逻辑及投资方法论
 
-STEPPS 模型：病毒营销的 6 大特点
-meme 项目的成功离不开：好叙事——社交货币、热点关联——诱因、情感共鸣——情绪、名人效应——公共性、效用 Utility——实用价值和传播载体——故事。
-meme 估值&#x3D;叙事+数字估值&#x3D;叙事大小（影响市场的范围大小）+情绪的唤醒度频率+名人效应 ( KOL 认可度及带货能力）+SOV（Share of Voice：媒体比重占有率) 等多重因素的结合。
-mem…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
+今年早些时候，Twitter 突然关闭了第三方应用程序。几周后，它取消了免费 API 访问，其最便宜的套餐现在每月要价 42,000 美元。
+
+
+现在，大多数用户已经适应了这个现实。我们最重要的社交媒体应用程序，从 Facebook 和 TikTok 到微信和 Grab，都是中心化平台。尽管这些平台通常很温顺，但它们偶尔会以凸显中心化权威的任性方式行使权力，比如根据模糊的内容政策审查和封禁用户，或者武断地提升某些用户的地位。
+
+
+这些平台对我们的日常生活至关重要。因此，用户对现状感到沮丧，但没有太多选择。因此，在 Web3 运动中，去中心化社交媒体是一个重点方向。由于 Crypto 行业在 Twitter 上运行，因此建立一个「去中心化 Twitter」对 Web3 创始人来说更有吸引力，因为他们非常清楚 Twitter 的痛点。
+
+
+本报告探讨了去中心化社交（DeSoc）协议。我们审查了各种 DeSoc 设计，并聚焦于有趣的项目。我们还就每个协议的方法分析了其优缺点，并概述了我们对整个垂直领域的看法。
+
+
+社交图谱的价值
+
+
+自成立以来，Twitter 进行了 19 轮融资，筹集了 44 亿美元的资本。当它上市时，它累计亏损了近 10 亿美元。然而，过去五年，产品本身几乎没有改变。
+
+
+然而，Twitter 仍然非常有价值，其估值至少为数十亿美元。如果今天拍卖，毫无疑问会有大量买家愿意以慷慨的估值对 Twitter 的收入进行出价。
+
+
+Twitter 和任何社交媒体平台的关键价值主要在于其社交图谱。功能即商品（参见：Clubhouse 的空间，Snapchat 的故事，TikTok/Douyin 的短视频）。但是独特和差异化的社交图谱非…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36741"
+                        open
+                      >
+                        <summary class="article-expander__title">Ondo的稳定币OMMF：由美债支持的算稳</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36741">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Leo，BlockBeats
+
+
+资产 token 化（也可以说是 RWA）是一个价值万亿美元的领域，Ondo Finance 便是目前该领域的佼佼者。Ondo 是一种结构化产品 DeFi 协议，以其流动性即服务（Liquidity-as-a-Service）特性在 DeFi 2.0 趋势中非常突出，LaaS 是一种帮助项目以低成本获得深度流动性的服务，即便没有流动性挖矿，Ondo 仍然吸引了超过 2 亿美元的 TVL。
+
+
+
+
+此前于 2022 年 4 月 27 日，Ondo Finance 完成了 2000 万美元融资，由 Founders Fund 和 Pantera Capital 领投；并且去年 Ondo Finance 还在 CoinList 公开 token 销售中筹集了 1000 万美元。DefiLlama 数据显示，其 TVL 为 1.02 亿美元，且未使用任何 ONDO 激励措施。
+
+
+
+
+
+
+
+
+
+Ondo Finance 此前产品
+
+
+
+
+在此之前，简单说一下 Ondo 的资金策略，用户可以通过 Ondo 将 USDC（或其他稳定币）投资其基金时，需要执行五个基本步骤：
+
+
+-Ondo 将该 USDC 兑换成美元，然后将其保存在银行账户中；
+
+
+-随后 Ondo 使用这些美元购买资产，这些资产可以是 ETF 或基金（持有单一名称证券和其他资产）；
+
+
+-新的基金 token 被铸造并存入用户钱包；
+
+
+-当这些标的资产获得收益时，该收益将被再投资以购买更多资产，从而自动复利用户收益；
+
+
+-任何时候用户都可以收回自己的 toekn，基金 token 会被销毁，用户收回 USDC。
+
+
+
+
+
+
+
+Ondo 已推出的三类基金 token，分别是：OHYG、OSTB、OUSG。OHYG 提供高收益债券敞口；OSTG 提供加权平均投资等级评级的短期…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36722"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点Polygon zkEVM生态12个DeFi项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36722">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《
+
+盘点Polygon zkEVM生态12个DeFi项目
+
+》
+原文来源：
+
+Foresight News
+
+
+
+3 月底，由 Polygon 打造的新产品 Polygon zkEVM 正式发布主网 Beta 版本。Polygon zkEVM 是一种 Layer2 Rollup 解决方案，三个主要组件包括可信定序器（Trusted Sequencer）、可信聚合器（Trusted Aggregator）以及部署在 Layer1 上的共识合约（Consensus Contract）。
+
+
+
+
+
+ 
+
+
+其中，可信定序器组件负责接收 Layer2 交易，并进行排序和生成批次，然后以序列的方式提交至共识合约的存储插槽（storage slots）中。可信定序器执行批量交易时还会将交易广播到 Layer2 网络节点；可信聚合器组件根据定序器的 Layer2 交易批次计算 Layer2 状态，并获取由可信定序器提交到 Layer2 的批次，并生成零知识证明来证明批处理的计算完整性。共识合约的逻辑会验证零知识证明，证明交易批次的正确执行，使得 zkEVM 能够继承 Layer1 安全性。
+ 
+Foresight News 整理了上线 Polygon zkEVM 的 12 个 DeFi 项目。在上线主网三周多的时间，已有主要包括跨链和 DEX 的协议上线，除了扩展过来的项目之外，多数 DeFi 项目还处于非常早期的阶段（建议用户谨慎参与），且在 NFT、元宇宙、游戏、借贷等领域鲜有触及。考虑到 Polygon 本来的生态相对繁荣，之后有待涌入更多的生态项目来 zkEVM 构建。
+ 
+
+ 
+桥 / 跨链
+ 
+当前，Polygon 官方桥仅支持从以太坊桥接至 Polygon zkEVM 或撤回，支持的资产包括 ETH、MATIC、USDC、USDT、DAI、Aave 等多个资产。…</span>
                             </span>
                           </div>
                         </a>
@@ -10346,8 +10593,8 @@ NFT.NYC 是由 Jodee Rich 和 Cameron Bale 在 2018 年共同创立，初
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4770826115">
-        <time id="build-timestamp" datetime="2023-04-22T04:08:31.081Z">2023-04-22T04:08:31.081Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4771038548">
+        <time id="build-timestamp" datetime="2023-04-22T05:07:02.087Z">2023-04-22T05:07:02.087Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
