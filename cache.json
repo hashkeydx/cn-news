@@ -2633,6 +2633,26 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/36603",
+          "author": null,
+          "description": "随着未来主网的上线， Sui 或许能在激烈的 Layer1赛道获取一席之地。",
+          "link": "https://www.theblockbeats.info/news/36603",
+          "publishedOn": "2023-04-23T05:57:25.000Z",
+          "wordCount": null,
+          "title": "解读公链Sui：发展史、Token经济、生态全景与技术性能",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36758",
+          "author": null,
+          "description": "本文介绍了两个建立在永续协议GMX之上的协议 Rage Trade 和 Umami Finance，它们旨在提供 Delta 中性策略和稳定币收益，但也面临平衡风险和依赖GLP收益的挑战。",
+          "link": "https://www.theblockbeats.info/news/36758",
+          "publishedOn": "2023-04-23T05:00:01.000Z",
+          "wordCount": null,
+          "title": "链上永续合约协议的创新",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/36757",
           "author": null,
           "description": "原文标题：《DeFi Lending Concepts Part 1: Lending and Borrowing》\n原文作者：Tal\n原文编译：Kxp，Blockbeats\n\n\n这篇文章是三篇系列文章的第一篇，讨论 DeFi 借贷协议的工作原理——它们的关键组成部分、公式和用例。在这一过程中，我们将强调，尽管协议使用不同和创意的命名方式，但它们倾向于重复、迭代和分享核心概念。其中一篇本博客文章中详细介绍如何使用 ERC20  Token来代表用户在借贷池中的份额。我们将从分析这些协议的独特元素开始，并提供技术概念来区分它们的工作方式。\n\n\n借贷池\n\n\n在传统金融（或 TradFi）中，借贷由第三方金融机构进行调整。这些金融机构被委托执行两项关键任务：强制借方向贷方支付利息，并评估并防止被认为是不可信的当事方参与这些活动。\n\n\n相比之下，在去中心化金融（或 DeFi）中，第三方借款人和贷款人是不值得信任的。这种信任的缺失激发了一个创新的设计，用于在链上促进借贷过程。\n\n\n借贷池是一个智能合约。DeFi 协议用户可以存入资产（通常是 ERC20 Token），目的是使用该合约来借出他们存入的资产。其他用户可以与借贷池进行交互，享受即时贷款，即抵押在池中的资产进行借款。\n\n\n与传统金融方法相比，借贷池在借贷方面具有一些重大的优点，例如：\n\n\n· 在 DeFi 中，贷款不受贷款资金与借款金额 1:1 可用性的限制。相反，来自协议所有用户的资金都被存入池中，从而创建了足够大的Token库存，以立即满足贷款需求。\n· DeFi 不需要还款计划。贷款是根据以前存入的抵押品执行的，用户可以随时选择还款。\n\n\n此时，你可能会想，「如果我不得不提供同等价值（甚至高估）的资产作为抵押品，为什么要在借贷协议上借入资产？难道我不应该出售抵押品并购买所借资产吗？」\n\n\n实际上，这种 DeFi 借贷协…",
