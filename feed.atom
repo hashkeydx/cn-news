@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-24T04:09:22.920Z</updated>
+    <updated>2023-04-24T05:07:21.638Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4840,36 +4840,6 @@ Mehta于2020年8月开始为Bitcoin Core做出贡献，曾由Block子公司Spira
         <summary type="html"><![CDATA[PANews 4月20日消息，据The Block报道，纽约金融服务部（NYDFS）反驳了Signature Bank因其对加密行业的敞口而倒闭的说法。NYDFS负责人Adrienne Harris在众议院关于稳定币的听证会上表示，将Signature Bank的失败与加密货币联系在一起是不准确的。上个月由于硅谷银行倒闭引发恐慌，包括信托基金和批发食品供应商在内的Signature客户从该银行取款。银行出现挤兑当然是不幸的，但这并不是说Signature失败与加密货币有关。在硅谷银行倒闭的那天晚上，Signature约有20%的存款从银行流出，但“这其中只有20%”是与加密货币相关的存款，其余的是正常的商业客户，所以我们不认为加密存款及其不稳定性导致了崩溃”。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文了解a16z的“L2野心”Magi]]></title>
-        <id>https://www.odaily.news/post/5186556</id>
-        <link href="https://www.odaily.news/post/5186556"/>
-        <updated>2023-04-19T16:28:45.000Z</updated>
-        <summary type="html"><![CDATA[本文来自 The Block & a16z Crypto，原文作者：Noah Citron、Adam Morgan McCarthy、 Vishal Chawla
-
-Odaily 星球日报译者 | Moni
-
-
-在 Coinbase 推出基于 OP Stack 的全新以太坊 L2 网络 Base 之后，a16z 也出手了。
-4 月 19 日晚间，a16z Crypto 宣布推出名为“Magi”的二层 Rollup 客户端解决方案，无独有偶，Magi 客户端软件也将在 OP Stack 上构建（注：OP Stack 是一个软件堆栈，可用于围绕 Optimism Layer 2   网络创建区块链 dApp 生态系统），并将作为 a16z迈进 Optimism Collective 的第一步。
-A16z 是加密领域最知名的投资者之一，拥有超过 70 亿美元的资金用于该领域的投资。2023 年至今，该风投已经参与了 11 项加密初创公司的融资交易。A16z Crypto 也是以太坊扩容项目 Optimism 的投资者之一，根据 CoinGecko 最新数据显示， Optimism 原生代币 OP 在今天 Magi 消息发布后已从约 2.55 美元攀升至 2.65 美元。  
-Magi 是什么？
-Magi 是一个用 Rust 编写的高速 OP Stack Rollup 客户端，在以太坊的传统执行/共识拆分中充当共识客户端，向执行客户端提供新区块以推进链上交易。Magi 执行与参考实现（op-node）具有相同的核心功能，并与执行节点（如 op-geth）一起工作以同步到任何 OP Stack 链，包括 Optimism 和 Base。
-A16z 构建 Magi 的原因：为 Rollup 客户端带来多样性
-以太坊链上执行和共识方面都需要客户端多样性，然而到目前为止，大部分开发都集中在执行客户端上。
-现有的以太坊执行客户端都可以通过实施一组适度的更改与 Optimism 兼容，并且几个新项目已经在调整这些客户端以帮助实现客户端多样性，比如 OP Labs 修改 Geth 客户端以构建 op-geth，其他团体目前正在建设 op-erigon 和 op-reth。
-不过，Rollup 客户端改造难度更高，因为 Rollup 客户端是一个全新的软件。到目前为止，只有一种实现：op-node，由 OP Labs 维护并用 Go 语言编写。Magi 的目标是成为一个独立开发的 op-node 直接替代品，以提升 Rollup 的客户端多样性。A16z 希望构建一个基于 Rust 的新客户端将鼓励整个 OP 堆栈更加安全和活跃，并为生态系统带来更多贡献者。
-Magi 未来的发展方向
-Magi 仍处于非常早期的阶段，可能需要数月的开发时间才能成为 op-node 的可行替代方案。A16z 计划在不久的将来添加的一些功能和改进，主要包括：
-1、追踪不安全的区块头（未确认的区块）以降低延迟。
-2、构建新的同步机制可提高初始同步速度。
-3、为替代数据可用性层提供支持。
-4、用于测试 Magi、op-node 和任何未来客户端的更好框架。
-a16z 表示，Rollup 客户端还有很长的路要走，a16z 也希望能共同努力，继续推动 Magi 和 OP Stack 生态系统向前发展。]]></summary>
-        <author>
-            <name>Moni</name>
         </author>
     </entry>
 </feed>
