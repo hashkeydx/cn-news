@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-24T13:10:59.408Z</updated>
+    <updated>2023-04-24T14:07:02.040Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[MEV赛道初具雏形，或是下一个LSD级的机会？]]></title>
+        <id>https://www.odaily.news/post/5186672</id>
+        <link href="https://www.odaily.news/post/5186672"/>
+        <updated>2023-04-24T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Flashbots 发布了 Mev-Share，标志着这一赛道走入新纪元。MEV 收入预计在牛市中将贡献不少于 70% 的 ETH Staking 收入，这或许是下一个 LSD 级别的赛道。
+本文将为你带来 MEV 和 MEV- Share 的深入分析，以及对于 MEV 赛道的展望。
+MEV & MEV-Share
+所谓 MEV (Maximal extractable value MEV) 就是指验证者通过操纵区块中的交易以及交易顺序所能提取的最大价值。
+比如下面这条做 Uniswap 和 Sushi 差价套利的交易，在 Uniswap 上花 6.17 E 买的 ICE 在 Sushi 上卖成 8.73 E，然后上贡了 2.52 E 给 Builder, 只留下 8.73-6.17-2.52-0.01(Gas) = 0.03 E 的微薄利润。 Builder 预计最终也上贡给了 Validator。
+
+
+
+
+问题来了，为什么要上贡？因为排序是由验证者决定的（这一描述是为了方便理解，并不完全准确），Sushi 上价格比 Uniswap 高是公开的信息，那么自然有一大群人（Searchers）发现这个机会抢着做这笔买卖，而决定谁能排在前面做成这笔买卖的是掌握着权力的 Validator， 所以自然 Validators 占了大头。至于 Validator 怎么通过操纵这种交易和排序最大化利益就是 MEV。
+为了让 Validator（Merge 前是 Miner）把自己排到前面，ETH 变成了一个黑暗森林，Searchers 纷纷拔高 gas fee，多个 Searcher 提交同一交易只能成交一个，导致资源大量浪费。Searcher 与 Miner 私下合作，Miner 甚至会直接不要中间商赚差价，把 Searcher 提交上来套利交易抄一遍顶替掉。总而言之就是下面这张图
+…]]></summary>
+        <author>
+            <name>CapitalismLab</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[罗马尼亚信息学研究所将推出机构NFT交易平台]]></title>
         <id>https://panewslab.com/zh/articledetails/2ourkswi.html</id>
@@ -14,6 +35,59 @@
         <summary type="html"><![CDATA[PANews 4月24日消息，据Cointelegraph报道，罗马尼亚国家信息学研究与发展研究所 (ICI Bucharest) 旨在通过推出内部NFT交易平台来推动 Web3 在该国的采用。名为 ICI D|Services 的机构 NFT 平台将于 4 月 26 日上线，旨在建立私营和公共部门机构与用户之间的联系。该平台主要是一个 NFT 市场，允许公共和机构用户铸造、管理和交易 NFT。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊上的Rollup比Celestia上的更安全吗？]]></title>
+        <id>https://www.odaily.news/post/5186671</id>
+        <link href="https://www.odaily.news/post/5186671"/>
+        <updated>2023-04-24T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Nick White
+原文编译：Luffy，Foresight News
+以太坊上的 Rollup 是否比 Celestia 上的 Rollup 更安全？这篇贴文是关于这个问题的权衡，以及为什么安全性并不是你所想的那样。
+
+要理解为什么以太坊上的 Rollup 不一定比 Celestia 上的更安全，我们需要先定义「安全性」。
+安全有两个方面：不变性和可验证性。我们来逐一解释。
+不变性是指重组区块链的难度。重组的成本越高，链对双花或类似攻击的防御就越强。Nic Carter 就这个主题写过一篇很棒的文章。
+可验证性是指用户验证链中的区块是否有效的难易程度。验证成本越低、越简单，就越能有效防止区块生产者违反规则。Hasu 解释过这个问题。
+在我看来，可验证性比不变性更重要。如果区块链的规则可以被打破，那么攻击的负面影响几乎是无穷无尽的。相比之下，双花虽然很糟糕，但它的负面影响有限。
+不变性：以太坊遥遥领先
+回到以太坊和 Celestia 的安全性，我们先来看不变性。
+在 PoS 协议中，不变性随着质押价值的增加而增加。如果一条链上有更多的质押资产，那么重组区块就会导致更多的资产被销毁。
+以太坊上质押了 380 亿美元的 ETH，它的重组成本比 Celestia 高得多。因此，在不变性方面，以太坊遥遥领先。
+
+可验证性：Celestia 更胜一筹
+那么可验证性呢？
+如果你需要资金购买功能强大的计算机和快速的宽带来验证区块链，那么可验证性就很低。如果能像 Celestia 一样，在智能手机上验证区块链，那么可验证性就很高了。
+Celestia 验证区块链所需要的资源比以太坊少得多。
+以太坊的要求： 
+
+4 核 
+
+16 GB 内存 
+
+1 TB 固态硬盘 
+
+25 Mbps 带宽 
+
+Celestia 的要求：
+
+单核
+
+2 GB 内存
+
+5 GB 固态硬盘 
+
+56 Kbps 带宽
+
+所以在可验证性维度上，Celestia 更胜一筹。
+如果有了 Danksharding，以太坊的验证成本可能会降低，但用户仍需要运行正常执行的全节点才能验证数据可用性链。
+需要明确的是，我并不是说一个比另一个更好，我只是说明这个问题需要权衡。
+模块化意味着开发人员可以选择最适合其用例的折衷方案。开发人员应该构建他们想要的任何东西。
+
+所以，以太坊上的 Rollup 是否比 Celestia 上的更安全？如果你想要的是不变性，以太坊更好；但如果你想要可验证性，Celestia 更好。]]></summary>
+        <author>
+            <name>Foresight News</name>
         </author>
     </entry>
     <entry>
@@ -5295,90 +5369,6 @@ cr: How R…]]></summary>
         <link href="https://panewslab.com/zh/articledetails/5cg0me6w.html"/>
         <updated>2023-04-20T02:08:30.000Z</updated>
         <summary type="html"><![CDATA[PANews 4月20日消息，据Whale Alert数据监测，匿名比特币地址休眠超9年后被激活，于今日00:45:17转出6071枚比特币（约1.78亿美元），2013年当年价值3,362,853美元，目前浮盈约53倍。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：Andrew Kang近10个小时前卖出228.5万枚ARB，获利70.7万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/89qccwy7.html</id>
-        <link href="https://panewslab.com/zh/articledetails/89qccwy7.html"/>
-        <updated>2023-04-20T02:04:49.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月20日消息，据Lookonchain监测，Mechanism Capital联合创始人Andrew Kang近10个小时前以1.56美元的价格卖出了所有228.5万枚ARB，换取356万枚的USDC。他以285万枚USDC的成本购买了这些ARB，并获利约70.7万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Voyager债权人已和美国政府达成推进Binance.US交易的决议]]></title>
-        <id>https://panewslab.com/zh/articledetails/ogb7gjn1.html</id>
-        <link href="https://panewslab.com/zh/articledetails/ogb7gjn1.html"/>
-        <updated>2023-04-20T01:55:31.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月20日消息，据Voyager无担保债权人委员会在社交媒体披露，Voyager无担保债权人委员会（UCC）已经和美国政府达成了一项决议，将允许Binance.US收购交易计划向前推进并推动快速生效。该决议体现在一项联合规定中，规定上诉将继续针对该计划的免责条款，美国政府已同意该计划可以在没有此类规定的情况下向前推进交易，并且不会以其他方式中止。Voyager、以及Voyager无担保债权人委员会正在和Binance.US进行合作，以便在地区法院批准该规定后尽快推进交易。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[去中心化身份协议SPACE ID与公链Sei合作，或将推出.sei域名服务]]></title>
-        <id>https://panewslab.com/zh/articledetails/h631ffnt.html</id>
-        <link href="https://panewslab.com/zh/articledetails/h631ffnt.html"/>
-        <updated>2023-04-20T01:47:36.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月20日消息，据官方推特，去中心化身份协议SPACE ID与Layer1公链Sei Network达成合作，Sei发文“Soon.sei”暗示或将推出.sei域名服务。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密金融服务提供商Januar获得丹麦支付机构许可证]]></title>
-        <id>https://panewslab.com/zh/articledetails/e737pnat.html</id>
-        <link href="https://panewslab.com/zh/articledetails/e737pnat.html"/>
-        <updated>2023-04-20T01:42:43.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月20日消息，据Cointelegraph报道，加密金融服务提供商Januar宣布，它已获得丹麦金融监管局 (DFSA) 颁发的支付机构许可证。此前其仅在有限许可下为丹麦公司提供服务。目前，Januar已在30个欧洲经济区市场开展业务。
-据悉，Januar由前Chainalysis员工于2021年创立，2022年Januar完成600万欧元（650万美元）种子轮融资。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[日本首相：G7峰会将讨论ChatGPT，须制定国际规则]]></title>
-        <id>https://panewslab.com/zh/articledetails/p58br6jx.html</id>
-        <link href="https://panewslab.com/zh/articledetails/p58br6jx.html"/>
-        <updated>2023-04-20T01:36:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月20日消息，据金十引援日本共同社消息，日本首相岸田文雄表示，七国集团（G7）领导人将在5月G7广岛峰会期间讨论讨论生成性人工智能ChatGPT相关议题，称“必须制定国际规则”。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hundred Finance：与黑客谈判失败，将悬赏50万美元征求黑客信息]]></title>
-        <id>https://panewslab.com/zh/articledetails/4g0fg7od.html</id>
-        <link href="https://panewslab.com/zh/articledetails/4g0fg7od.html"/>
-        <updated>2023-04-20T01:33:28.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月20日消息，据官方推特，跨链借贷协议Hundred Finance称由于攻击者决定不接受提议，将悬赏50万美元征求可导致黑客被捕并返还所有资金的信息，目前团队正在联系并参与多个司法管辖区的执法部门行动。
-此前4月16日消息，Hundred Finance遭黑客攻击，损失700万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deribit将于4月24日推出零费用现货交易]]></title>
-        <id>https://panewslab.com/zh/articledetails/s9v9pmzv.html</id>
-        <link href="https://panewslab.com/zh/articledetails/s9v9pmzv.html"/>
-        <updated>2023-04-20T01:22:19.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月20日消息，据The Block报道，加密期权交易平台Deribit宣布将于4月24日推出零费用现货交易，Deribit首席商务官Luuk Strijers表示：“过去几个月，我们一直致力于现货交易解决方案的实施。我们现在能够为客户提供全方位的交易机会，包括衍生品和现货交易。”
-在推出时，Deribit将提供三对现货交易：BTC/USDC, ETH/USDC和ETH/BTC。Strijers表示，该平台可能会上线更多的代币，但零费用不会长期持续下去。他说，自由交易将在“可预见的未来”存在。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3数据管理工具开发公司Fluree完成1000万美元A轮融资]]></title>
-        <id>https://panewslab.com/zh/articledetails/rx9z7dex.html</id>
-        <link href="https://panewslab.com/zh/articledetails/rx9z7dex.html"/>
-        <updated>2023-04-20T01:13:58.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月20日消息，据VentureBeat报道，Web3数据管理工具开发公司Fluree宣布完成1000万美元A轮融资，SineWave Ventures领投，其他投资者未披露。截至目前该公司的融资总金额已超过1600万美元。新资金将用于该公司继续建设其“以数据为中心的基础设施”，并协助企业将其遗留基础设施升级为协作式现代数据平台。
-据悉，Fluree主要提供区块链支持的语义图形数据库，帮助企业管理数据资产，通过结合许可区块链技术、语义Web标准和数据安全策略控制，让开发人员以去中心化和可信的格式存储和管理数据。]]></summary>
         <author>
             <name>PA一线</name>
         </author>

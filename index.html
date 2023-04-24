@@ -51,11 +51,568 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-24 datetime="2023-04-24T12:01:20.000Z">2023-04-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-24 datetime="2023-04-24T12:01:20.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-24 datetime="2023-04-24T13:00:00.000Z">2023-04-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-24 datetime="2023-04-24T13:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186672"
+                        open
+                      >
+                        <summary class="article-expander__title">MEV赛道初具雏形，或是下一个LSD级的机会？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186672">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Flashbots 发布了 Mev-Share，标志着这一赛道走入新纪元。MEV 收入预计在牛市中将贡献不少于 70% 的 ETH Staking 收入，这或许是下一个 LSD 级别的赛道。
+本文将为你带来 MEV 和 MEV- Share 的深入分析，以及对于 MEV 赛道的展望。
+MEV &amp; MEV-Share
+所谓 MEV (Maximal extractable value MEV) 就是指验证者通过操纵区块中的交易以及交易顺序所能提取的最大价值。
+比如下面这条做 Uniswap 和 Sushi 差价套利的交易，在 Uniswap 上花 6.17 E 买的 ICE 在 Sushi 上卖成 8.73 E，然后上贡了 2.52 E 给 Builder, 只留下 8.73-6.17-2.52-0.01(Gas) &#x3D; 0.03 E 的微薄利润。 Builder 预计最终也上贡给了 Validator。
+
+
+
+
+问题来了，为什么要上贡？因为排序是由验证者决定的（这一描述是为了方便理解，并不完全准确），Sushi 上价格比 Uniswap 高是公开的信息，那么自然有一大群人（Searchers）发现这个机会抢着做这笔买卖，而决定谁能排在前面做成这笔买卖的是掌握着权力的 Validator， 所以自然 Validators 占了大头。至于 Validator 怎么通过操纵这种交易和排序最大化利益就是 MEV。
+为了让 Validator（Merge 前是 Miner）把自己排到前面，ETH 变成了一个黑暗森林，Searchers 纷纷拔高 gas fee，多个 Searcher 提交同一交易只能成交一个，导致资源大量浪费。Searcher 与 Miner 私下合作，Miner 甚至会直接不要中间商赚差价，把 Searcher 提交上来套利交易抄一遍顶替掉。总而言之就是下面这张图
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186671"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊上的Rollup比Celestia上的更安全吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186671">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：Nick White
+原文编译：Luffy，Foresight News
+以太坊上的 Rollup 是否比 Celestia 上的 Rollup 更安全？这篇贴文是关于这个问题的权衡，以及为什么安全性并不是你所想的那样。
+
+要理解为什么以太坊上的 Rollup 不一定比 Celestia 上的更安全，我们需要先定义「安全性」。
+安全有两个方面：不变性和可验证性。我们来逐一解释。
+不变性是指重组区块链的难度。重组的成本越高，链对双花或类似攻击的防御就越强。Nic Carter 就这个主题写过一篇很棒的文章。
+可验证性是指用户验证链中的区块是否有效的难易程度。验证成本越低、越简单，就越能有效防止区块生产者违反规则。Hasu 解释过这个问题。
+在我看来，可验证性比不变性更重要。如果区块链的规则可以被打破，那么攻击的负面影响几乎是无穷无尽的。相比之下，双花虽然很糟糕，但它的负面影响有限。
+不变性：以太坊遥遥领先
+回到以太坊和 Celestia 的安全性，我们先来看不变性。
+在 PoS 协议中，不变性随着质押价值的增加而增加。如果一条链上有更多的质押资产，那么重组区块就会导致更多的资产被销毁。
+以太坊上质押了 380 亿美元的 ETH，它的重组成本比 Celestia 高得多。因此，在不变性方面，以太坊遥遥领先。
+
+可验证性：Celestia 更胜一筹
+那么可验证性呢？
+如果你需要资金购买功能强大的计算机和快速的宽带来验证区块链，那么可验证性就很低。如果能像 Celestia 一样，在智能手机上验证区块链，那么可验证性就很高了。
+Celestia 验证区块链所需要的资源比以太坊少得多。
+以太坊的要求： 
+
+4 核 
+
+16 GB 内存 
+
+1 TB 固态硬盘 
+
+25 Mbps 带宽 
+
+Celestia 的要求：
+
+单核
+
+2 GB 内存
+
+5 GB 固态硬盘 
+
+56 Kbps 带宽
+
+所以在可验证性维度上，Celestia 更胜一筹。
+如果有了 Danksharding，以太坊的验证成本可能会降低，但用户仍需要运行正常执行的全节点才能验证数据可用性链。
+需要明确的是，我并不是说一个比另一个更好，我只是说明这个问题需要权衡。
+模块化意味着开发人员可以选择最适合其用例的折衷方案。开发人员应该构建他们想要的任何东西。
+
+所以，以太坊上的 Rollup 是否比 Celestia 上的更安全？如果你想要的是不变性，以太坊更好；但如果你想要可验证性，Celestia 更好。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186669"
+                        open
+                      >
+                        <summary class="article-expander__title">充满争议的比特币Ordinals、比特币跨链与BitcoinFi走向何方？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186669">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自香港 Web3 嘉年华速记
+Jeffrey Hu（主持人）：我是 Jeffrey Hu，来自 HashKey Capital
+讨论的话题是比特币新兴技术，因为现在有非常多的比特币新热点出来，非常高兴能跟各位嘉宾进行介绍。
+这场参与圆桌的嘉宾有：
+潘致雄，ChainFeeds 联合创始人
+馀明超 Babylon 创始人 &amp; CTO
+Jack 3.0 Matrix Labs COO
+首先请每个嘉宾用 2 分钟左右的时间做个简单的自我介绍，以及介绍一下自己所做的项目。
+潘致雄：大家好！我是潘致雄，我们在做 Web3 和 Crypto 垂直的信息聚合平台叫 ChainFeeds，今天的话题主要是聊比特币，我是在 2011 年的时候就有第一个比特币钱包，并且当时更多社区是通过“领水头龙”的方式领到 BTC 的，现在已经不太可能了，大概一次就能领 0.01 个或者更少的水平。
+在 2017 年及之后，我非常关注比特币技术发展，所以说在去年、前年都研究过一些关于 Taproot 和闪电网络相关的东西，所以非常关注比特币的技术以及后续产品服务。
+馀明超：大家好！我是馀明超，是 Babylon 的 Co-founder 和 CTO。Babylon 是基于 Bitcoin 基础设施的项目，愿景是让比特币成为去中心化世界的基石，将比特币的安全性带给去中心化世界，让去中心化的所有 App 和 Chain 都成为比特币扩展的二层。
+Jack 3.0 ：大家好！我是 Jack 3.0 ，我自己是 Matrix LabsCOO，主要解决整个行业比较中心化的问题，从 2019 年探索到现在，打磨了四年，自己挖矿赚的钱都砸进来研究这件事，论文发布在 IEEE 上。
+我自己是 2017、 2018 年 all in 入圈，这十年一直在开源社区做开发者关系，大概是这样的背景。
+Jeffrey Hu（主持…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186668"
+                        open
+                      >
+                        <summary class="article-expander__title">跌的比大盘猛？低迷的NFT市场未来前景如何？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186668">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：比特傻
+原文整理：深潮 TechFlow
+最近 NFT 市场的萎靡不振让人们感到十分焦虑。交易量、活跃地址和交易笔数都大幅下降，而新用户占比也逐渐下跌。
+加密 KOL 比特傻认为，大多数分析师，不过堆砌数据，而没有真正理解市场。以下是他对 NFT 市场的看法。
+
+2 月份以来，价量齐跌。交易量从每天 3.6 万 eth 跌到了 1 万 eth；蓝筹指数从 9000 多，跌到了 7500 。这期间，一众 NFT 大佬黯然失色。
+
+
+交易笔数下降、活跃地址大幅下降。活跃地址从 2 月份下降了 90% 。交易笔数从月份下降了约 8 成。
+
+
+更可怕的是，NFT 没啥新用户了。去年 4 月份以来，新用户占比逐渐下跌。新用户比例少，就意味着没有太多的增量资金。可见 NFT 市场，的确处在熊市，完全没有走出来。
+
+Blur 对 NFT 市场的影响
+有分析师说，铁顺的 Blur 把 NFT 给害了。
+
+其一是说 NFT 经不起高频次交易。但在比特傻看来，NFT 交易频次增加，是因为交易的摩擦成本降低了。NFT 交易摩擦成本降低，交易更顺滑是对资产价格有微弱的好处的。 另外，目前 NFT 交易量已大幅降低，也未见 NFT 价格企稳。
+
+其二，是说 Bur 把 NFT 大众化了，脱离了小众的圈子，导致价格下跌。这个逻辑，也站不住脚。因为 NFT 自诞生就是链上公开透明的，在 Opensea 的时代，就是所有人可以围观交易的。
+
+
+
+其三，是说 Blur 到来的巨大流动性击溃了 NFT。这个逻辑也经不起推敲。把这流动性推到尽头，就是普通的同质化代币。大量的同质化代币都在市场起舞，怎么流动性更小的 NFT 就不行了。更遑论，流动性注入对资产价格是有好处的。
+
+
+ETH 涨，所以 NFT 跌
+市场上还有分析师说，因为 ETH 涨了，所以 NFT 扛不住了。
+问他们为啥，他们支支吾吾说 N…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186647"
+                        open
+                      >
+                        <summary class="article-expander__title">ETH周报 | 以太坊坎昆升级预计今年晚些进行；法兴业银行在以太坊上推出欧元稳定币（4.17-4.23）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186647">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>一、整体概述
+以太坊核心开发人员会议中表示，计划对区块链的共识层进行代码修改，为下一次坎昆升级（Cancun-Deneb）做准备，坎昆升级预计将于今年晚些时候进行。以太坊的 Cancun-Deneb 升级中预期的最重大变化将是 EIP-4844 ，也称为“ proto-danksharding ”。 EIP-4844 旨在通过以太坊节点实现链下数据的临时存储和检索，以满足区块链应用程序的数据和存储需求。如果成功激活，EIP-4844 有望降低第 2 层 rollup 解决方案（包括 Optimism 和 Arbitrum）的交易成本。
+法国兴业银行宣布针对机构客户推出与欧元挂钩的稳定币 EUR CoinVertible，该稳定币基于以太坊，将以“EURCV”代码进行交易，仅提供给该行通过其现有的 KYC 客户和反洗钱程序加入的投资者。法国兴业银行表示，EUR CoinVertible 稳定币符合主要市场标准，包括被称为证券 Token 合规架构（CAST）的开源互操作性和证券化框架。该公司强调，它将确保支持稳定币价值的抵押资产与发行方“完全隔离”，并将提供每日透明度报告和抵押品头寸。该稳定币智能合约已由普华永道（PwC）审计。对于发行稳定币，SG-Forge 已获得律师事务所 White&amp;Case 的建议。
+二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1850、 1800 美元，阻力位 1900 美元。
+
+二、二级市场
+
+ 1.现货市场
+OKX 行情数据显示，上周 ETH 价格一度下跌至 1820 美元，周内收于 1870 美元，环比下跌 10.6% 。
+
+ETH 日线图，来自 OKX
+日线图上显示，价格目前在 1850 美元左右盘整，短期内可能回调至 1800 美元；如果支撑有效，则有望反弹至 1900 美元以上。
+ 2.网络运行情况
+
+Etherscan…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186666"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂Pacman：Arbitrum上的去中心化杠杆挖矿协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186666">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Pacman 是一个部署在Arbitrum上的去中心化杠杆挖矿协议。谈及杠杆挖矿，很多人第一时间想到的就是 Alpaca Finance。Alpaca Finance 是一个建立在BNB Chain 上的杠杆挖矿协议，通过给予贷款人高利率和借款人高杠杆（借款增加仓位）挖矿收益（cover 高借款利息）来实现最大化资本效率。
+
+Pacman 同理，但也做了一些延伸。
+杠杆挖矿的原理就是在你原有挖矿仓位的基础上借入资金进行挖矿，增加你的收益的同时，用你挖矿的收益来 cover 掉借款利息。
+我们来看看 Pacman 做了哪些延伸？
+1、集中流动性挖矿：杠杆会带来清算，集中在某一价格区间的流动性挖矿会降低被清算的风险，从而规避市场快速下跌时带来的清算问题。
+2、Pacman 增加了 veToken 经济学（提供 veNFT 和 veNFT 的合并）和 xPAC、oPAC 经济学。veToken 治理来调整代币在不同 Leverage Farm Lps 中的排放。因此 veToken 也就有了贿赂收入，同时也会捕获协议收入。
+oPAC 是 PAC Token 的看涨期权，允许人们以折扣价格购买 PAC。形式是 oPAC，没有到期日。oPAC 是 Pacman 给予用户的部分奖励媒介。另外一部分是 PAC。
+oPAC 如何实现看涨期权呢？
+官方举的例子是：PAC Price: $ 0.78 ETH Price: $ 1600/ Strike Price: $ 0.39/ Discount: 30% + 20% 
+1 oPAC + 0.00024375 ETH &#x3D; 1 PAC；After selling PAC, the user can get $ 0.78 
+Treasury Income: 1 oPAC + 0.00024375 wETH（wETH 是国库收入）
+
+简而言之，就是白嫖的 oPAC+wETH 就能换成 PAC，然后卖掉就获得了 discount rate%的利润。这个贴现率取决于 B(x)+L(x)，B(x)是由 PAC 价格变化决定的，价格越高，B(x)越高；L(x)是由协议 TVL 决定的，也就是说 LP 越多，锁定时间越高，L(x)就越高。也就是说，币价和 LP 的增长将推动 oPAC 的利润变高，也就能够增加 oPAC 持有者对于 PAC 币价更高的预期。
+oPAC 是可以直接转换为 vePAC 的，这意味着你可以在市场上以折扣价格来获得 vePAC。
+xPAC 就是 vePAC（lock 2 years），是一种流通的 ERC 20 Token。这给予了 veToken 一个退出渠道。
+PAC 代币经济学
+PAC 总供应量： 30, 000, 000 
+
+PAC 的 veIDO 和往常的 IDO 不同，锁定的时间越久，能拿到的折扣也就越高。第一轮 veIDO 非锁仓部分的上限是 300 E，锁仓上限是 300 E。三个 veIDO 轮次非锁仓部分的总上限是 600 E，锁仓部分的总上限是 300 E。三轮 veIDO 将发行 15% 的代币。
+
+为了吸引锁仓资金，Pacman 采取了一些措施：
+1、代币购买折扣；
+2、更高权重的投票权；
+3、更低的 oPAC 行权价格；
+4、优先享有 xPAC 回购权；
+排放时间表</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186665"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊上海升级10天后，当前网络上都发生了哪些变化？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186665">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：21 Shares 分析师 Tom Wan
+原文编译：PANews
+以太坊上海升级已过去 10 天有余，当前网络上究竟发生了什么变化呢？ 21 Shares 研究分析师 Tom Wan 用数据进行了解读分析，以下统计数据截至日期为 4 月 22 日。
+1 、1 30 万枚 ETH 已被提取
+
+130 万枚 ETH 已被提取，价值约合 25 亿美元，在这些被提取的 ETH 中， 65.8% 是质押奖励或部分提款， 34.1% 是本金或全额提款。
+2 、Kraken 平台上有 1 万名以太坊验证者完全退出
+
+由于监管审查，Kraken 不得不关闭其为美国公民提供的质押服务，结果：
+-全额提款取走了 33.3 万枚 ETH（占到以太坊全额提款总量的 71% ）
+-部分提款取走了 10 万枚 ETH
+-Kraken 用户提取的 ETH 总价值达到 8.07 亿美元
+3、Kraken 在以太坊质押市场份额下降 1 .4% 
+
+在上海升级之前，Kraken 在以太坊质押市场份额约为 7.2% ，但自从启动提款后，该指标下降到 5.8% 。总体而言，CEX 在以太坊质押的市场份额有所下降（从 27.6% 跌至 25.6% ），但 CEX 的以太坊质押池规模却出现小幅上涨，从 13.2% 升至 13.7% 。
+4 、值得一提的是，大量机构质押者涌入以太坊
+由于上海升级后降低了流动性风险，大量机构投资者涌入以太坊。最近 30 天内，以太坊质押流入较大的用户包括：
+-Stakedfish： 9 万枚 ETH
+-Staked： 7 万枚 ETH
+-Klin Finance： 3.5 万枚 ETH
+-Bitcoin Suisse： 1.7 万枚 ETH
+-Figment： 1.2 万枚 ETH
+
+
+5、0x 01 凭证比例从 43% 升至 86% 
+
+验证者必须从 BLS (0x 00)…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186661"
+                        open
+                      >
+                        <summary class="article-expander__title">与L2一样重要的应用链，谁能成为领跑者？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186661">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：Lukasinho@GCR
+原文编译：白泽研究院
+Web3 近年来发展迅速，对可扩展解决方案的需求变得更加迫切。
+“应用链”（dApp Chain）叙事渐起：专注于特定用例、可互操作的区块链网络，可以为 dApp 提供更具可扩展性、高效和灵活的基础设施。
+在本文中，我们将探讨应用链的优势，并比较四个领先的应用链生态系统：Avalanche、Polkadot、Celestia 和 Cosmos。他们中谁将是最适合市场的产品，并且最有能力在未来几年引领应用链领域的发展？
+为什么需要应用链？
+长久以来，区块链“三难困境”一直是开发者的眼中钉。事实证明，无法创建一个在安全性、去中心化和可扩展性这三个属性上都表现出色的区块链。
+许多人已将应用链视为救世主，因为它允许多个链互操作，并通过减少每个链上的交易负载来实现可扩展性，而不会影响安全性和去中心化。然而，应用链却渐渐被另一种解决方案所掩盖：Layer-2 。最近，围绕 L2 的讨论越来越多，rollups 有望成为实现可扩展性、同时保持安全性和去中心化的首选解决方案。
+你可能认为应用链再无出头之日，但事实并非如此。偏爱应用链的开发者认为，应用链可以创造新的价值主张，以 dApp 的原生代币作为支付手段可以增强用户体验，而且应用链允许 MEV 的内部化，从而为 dApp 本身创造收入。因此，虽然 L2 已经成为了热门话题，但应用链不会就此没落。
+什么是 MEV？
+MEV，即最大可提取价值。简而言之，MEV 允许矿工和验证者通过操纵交易在区块中的位置来从区块链中提取更多价值。从历史上看，这与抢先交易和三明治攻击等负面行为有关，但它也有一些优势。良好的 MEV，例如套利和清算，对于提高 DeFi 的效率至关重要。 
+对于 dApp 开发者来说，拥有自己的区块链可以更好地控制 MEV，并能够最大限度地减少不良行为。这意味着 MEV…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186663"
+                        open
+                      >
+                        <summary class="article-expander__title">深入探讨DeFi借贷清算机制及其实现原理、风险与用例</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186663">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《DeFi Lending Concepts Part 2: Liquidations》
+原文作者：Tal 
+原文编译：Kxp，BlockBeats
+这篇文章是三篇系列文章中的第二篇，讨论 DeFi 借贷协议的工作原理——它们的关键组成部分、公式和用例。在我们之前的文章中，我们回顾了 DeFi 的核心操作——借贷，以及不同协议如何选择实现这些操作（还记得「份额 Token」吗？）。在这篇文章中，我们将重点介绍我们认为最令人兴奋的 DeFi 借贷概念之一：清算。
+过度抵押和坏账
+你可能会从我们之前的博客文章中想起，协议用户只能对其提供给协议的抵押品的百分比进行资产借贷。这是有道理的，因为协议需要确保如果你无法偿还债务，它可以从你那里收回其资产（或任何其他价值相等的资产）。这种资产抵押的过程始于传统金融，例如今天，一个人可以把他们的房子或兰博基尼作为贷款偿还的抵押品。
+抵押依赖于抵押品价格保持其价值的前提条件——尽管房屋或兰博基尼的价格无法保证，但它们各自的价值相对不太不稳定，而比起 ERC 20 或 NFT 等资产来说，更为稳定。
+在大多数 DeFi 借贷协议中，你的抵押贷款资产必须比你贷款的价值更有价值，也就是所谓的过度抵押。
+如果借贷协议想要保持财务稳定，只允许过度抵押的贷款是有利的。想象一下，你提供了一些资产作为抵押品，而这些资产的价值突然低于你从协议中借到的资产价值。现在，你的抵押品价值低于你欠协议的债务，你就没有还款的动力。毕竟，在偿还贷款的过程中，你将获救的抵押品现在的价值低于实际偿还贷款所需的金额。这种贷款现在已经无力偿还。
+每笔无力偿还的贷款对其所在的协议都是有害的。从无力偿还的贷款中产生的债务会在协议中产生不安全因素，毕竟，债务的数量是借出者无法从协议中收回的资产的数量。为了强调这些坏账有多糟糕：如果在协议上出现了类似传统金融「银行挤兑」的情况，最…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186656"
+                        open
+                      >
+                        <summary class="article-expander__title">Binary Research：解读Gains Network，走近去中心化杠杆交易的黑暗森林</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186656">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：Binary Dao
+  「Gains Network 是在以太坊上创立的，初时未受热捧，后来迁移到 Polygon 链，并逐渐积累业务。直到集成 Arbitrum 链后，市场才被引爆。截至目前，平台累计交易量超过 87 万笔，交易额突破了 340 亿美元。其创始人非常优秀，早期仅雇用了一位 UI 开发者，而其他所有工作，从业务设计到代码实现，都由他独自完成。」gTrade 是 Gains Network 推出的第一款产品，它是一个去中心化杠杆交易平台，目前部署在 Arbitrum 及 Polygon 上。
+一、gTrade 核心特点
+（一）合成流动性池
+合成流动性池对于流动性池的高效运作至关重要。目前，gTrade 采用的是基于 DAI 的合成流动性池（gDAI 池）来扮演杠杆交易者的对手盘角色。
+这个流动性池的设计有几个特点：首先，它的合成机制可以使得资金使用效率更高。其次，它的合成机制可以使得交易更加灵活。因为通过合成流动性池，gTrade 可以提供更多的杠杆交易对，这意味着交易者可以更灵活地选择交易对，并可以根据市场情况进行交易。
+最后 gTrade 的合成流动性池可以通过不同的合成机制来控制风险，例如通过调整杠杆倍数或者通过限制合成流动性池的规模等方式来降低风险。这样可以使得交易者和提供流动性者都可以更加安心地参与到交易中。
+dydx 采用 orderbook 机制，这种机制要求在链下储存 orderbook，还需要做市商提供流动性，因此去中心化程度不高且资金效率低。相比之下，gTrade 的 gDAI 池避免了这些问题，并且无需为每个交易对设置流动性池。
+与 GMX 相比，虽然它们都使用流动性池提供流动性，但 gTrade 表现出了极高的资金效率。
+
+以近 7 天的数据为例，gTrade 的 50 m gDAI 池 TVL 实现了 913 m 的交易量…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186657"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus：华尔街预计一季度经济向好，大型银行压力缓解</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186657">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>各位朋友，欢迎来到 SignalPlus 每日晨报。SignalPlus 晨报每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
+为了应对期权、特别是短期期权交易需求的快速增长，芝加哥期权交易所 (CBOE) 宣布将推出其旗舰 VIX 指数的一天版本，名为“VIX 1 D”，该指数计划于今天（4 月 24 日）正式投入运作。
+正如许多市场观察家所点出的那样，尽管利率波动创下纪录，且银行业出现严重动荡，但传统的 VIX 指数在过去 9 个月中异常平静，这要不是股票投资者过于自满，就是该指数已经无法捕捉到完整的风险概况，我们更倾向于后者的观点。
+
+
+
+现在交易的 SPX 期权约有 50% 是在 24 小时或更短时间内到期的（0 DTEs - 0 天到期期权），使得做市商的对冲活动对市场结构和波动率产生永久性的影响，简而言之，短期期权的增加会导致更大的日内波动（由于它们的 gamma 特性），但因为这些期权大多数会在价外情况到期（做市商 Delta 对冲），以收盘数值来衡量的波动程度会被降到最低，这在上周的价格走势中最为明显，SPX 指数多数在 25 点的窄幅范围内波动 ( 4140-4165)，恰好是最大 gamma 敞口的范围之内。
+实际上，随著 VIX 1 D 的发布，我们将会有一个 VIX 波动率的准期限结构，涵盖 CBOE 官方标准的 1 D、 30 D 和 90 D；此外，像许多人在加密货币行业中所经历的那样，步入中年的 VIX 指数现在将面临更年轻、更有活力的竞争对手，挑战其作为股票首选指标的地位。
+
+
+
+转回市场方面，货币市场基金的资金流量显示过去一周资金流出 500 亿美元，自 SVB 事件以来数周的资金流入趋势出现反转；另外，虽然商业银行的准备金整体上仍持续下降，但大部分资金流出来自大型银行，小型机构的资金保持稳定，这进一步显示区域性银行危机的最严重阶段可能已经过去了。
+
+
+在经济方面，华尔街估计第一季度实际 GDP 环比增长将约为 2.3% ，主要得益于消费和工资增长仍保持强劲，面对资本市场的忧虑，实体经济和美国消费者仍继续表现出非凡的韧性，市场预期 5 月 FOMC 加息的可能性在美联储进入缄默期前回升至 90% 以上。在信贷方面，私募市场的未投资资金 (dry powder) 仍接近 3, 850 亿美元的历史高点，未实现的组合收益更是高达该总额的 2.5 倍，规模相当于所有未偿还高收益债券的总量！当前环境与全球金融危机期间截然不同，私募市场的资本在缓冲整个体系的损失方面发挥著巨大作用，这也有助于解释为什么信用利差在这场小规模银行危机中仍是表现良好。
+
+
+最后，回到我们最喜欢的评论 - “一切都与利率有关”。自 2022 年初以来，如果我们说，像是 S&amp;P 500 和美国 5 年期 CDS（作为风险资产代表）等传统金融资产的价格走势可以完全用利率隐含波动率的变化来解释，你会相信吗？与其担心企业获利表现、市场热钱走向、HTM/AFS 损失、技术水平发展、经济数据发布等等，或许我们更应该集中关心（利率）掉期期权波动率的走向？
+不过，又有多少人知道什么是利率掉期期权波动率？
+从基本面的角度来看，这其实是很有道理的，自美联储开始加息周期以来，由于通货膨胀和工资数据的黏滞性，加息步调比大多数投资者预期的要激进得多；另外，“市场意外”往往发生在利率开始超过 GDP 增长时，比如说全球金融危机期间的次级房贷，以及这次的英国 LDI / SVB 持有至到期日资产损失 / 瑞士信贷 AT 1 s / 商业房地产贷款问题等，换句话说，利率波动有效地反映了 FOMC 的可预测性，这是当前投资者情绪面临的最大风险，其他一切都只是对于美联储将采取的利率措施的次要反应，不要与美联储作对。
+
+
+最后，尽管股市平稳，但加密货币在上周结束时的表现非常疲软，BTC 跌至接近 27, 000 美元，ETH 低于 1, 900 美元，大量期货多头部位遭到清算以及 Binance 平台上大量 BTC 现货卖出可能在最初引发了抛售，由于市场持仓误判情势，二级市场流动性仍相当薄弱，缺乏新资本的流入，再加上整个生态系统的情绪疲软，例如 NFT 用户和地板价崩溃等，我们必须重申我们对短期内价格走势保持谨慎的态度。
+
+
+
+如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website: https://www.signalplus.com/</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186635"
+                        open
+                      >
+                        <summary class="article-expander__title">明星项目周报 | Sui宣布将于5月3日启动主网；a16z推出OP Stack rollup客户端Magi（4.17-4.23）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186635">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>4 月 17 日-4 月 23 日当周，比较值得关注的动态如下：Sui 将于 5 月 3 日正式启动主网；隐私网络 Iron Fish 主网正式上线；Layer 1 公链 Berachain 完成 4200 万美元融资；a16z crypto 推出用 Rust 编写的新 OP Stack rollup 客户端 Magi；Taiko 已弃用 alpha-2 测试网；Gitcoin 新一轮捐赠活动将于 4 月 25 日开启；Rocket Pool 完成 Atlas 升级；分布式 LSD 协议 Obol Network 主网 Alpha 阶段已启动；Yearn 社区发起推出 yETH 的投票；NFT 项目 Moonbirds 将推出奖励代币 TALONS；NFT 项目 Memeland 或将推出 MEME 代币。
+以下为具体项目进展：
+底层-Layer 1 
+Sui 将于 5 月 3 日正式启动主网
+Odaily星球日报讯 据官方推特，公链项目 Sui Network 宣布主网将于 2023 年 5 月 3 日正式启动。
+此外，测试网版本已更新至 v 0.32.0 ，主要包含以下重要更新：将 DeepBook 包添加到 Sui Framework 中，允许 Sui 开发者在 DeepBook 上构建。此版本增加了新的 getBalances/Coins 二级索引，提高查询效率。在 v 5 版协议中，将启用新的成本表来计算 Gas 费，这可能使交易花费更多等。
+Sui 计划随机为 18 万账户分配 9.6 万个白名单资格，将陆续发邮件通知中签者
+Odaily星球日报讯 据 Discord 官方公告显示，Sui 目前已停止接 Recognition Sale 申请，仅面向 2 月 1 日之前加入 Discord 的社区成员开放，合格成员超 34 万个帐户。目前，Recognition…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186653"
+                        open
+                      >
+                        <summary class="article-expander__title">今天来扒一扒Crypto亿万富翁们的持仓情况</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186653">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Blockworks，原文作者：DAVID CANELLIS，由 Odaily 星球日报译者 Katie 辜编译。
+
+
+
+区块链改变了我们看待金钱的方式，也开启了一种全新的“欣赏”他人钱包内资产的乐趣。对加密货币感兴趣的人现在可以在链上光明正大研究加密亿万富翁们的持仓，而不需要通过研究 SEC 的文件或福布斯榜单来做猜测。
+实际上，链上从来不缺亿万富翁，但大多数人都是匿名的，人们只知道他们的地址。然而，也有少数大佬公开了他们的钱包地址（也就是公开了其部分投资组合）。
+以太坊联合创始人 Vitalik Buterin：意外“养狗”
+2021 年，V 神被《福布斯》评为世界上最年轻的加密亿万富翁，当时 ETH 价格首次达到 3000 美元。链上数据无法证实其“最年轻的加密亿万富翁”的绰号，但依然可以证实这些资产数据的真实性。
+根据 Arkham Intelligence 的数据， 2021 年 5 月，V 神已知的加密资产组合价值约为 20 亿美元，ETH 占了这些资产的一半左右。但在狗狗币暴涨的时候，V 神的资产价值远不止于此。
+狗狗币狂热粉丝和发行者曾向 V 神的以太坊地址转入大量狗狗币。这是一种“游击式”的营销形式，通过假装是 V 神本人“扫货”狗狗币，从而欺骗链上观察者，让他们相信 V 神正“看好”他们的 meme coin。
+
+来源： Arkham Intelligence
+在上一轮牛市中，V 神是 meme 币的主要营销目标。因此，在 2021 年 5 月 12 日，V 神的加密投资组合价值超过 205 亿美元，这使他与桥水基金的 Ray Dalio 和谷歌的 Eric Schmidt 等人的身家不相上下。
+在这些资产中，Shiba Inu（SHIB）占 178 亿美元（87% ），但还有许多其他类型的“狗狗币”，包括 AKITA 和 HUSKY。随后 S…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186649"
+                        open
+                      >
+                        <summary class="article-expander__title">全面解读DeFi借贷：组成、公式、用例</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186649">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《DeFi Lending Concepts Part 1: Lending and Borrowing》
+原文作者：Tal
+原文编译：Kxp，Blockbeats
+这篇文章是三篇系列文章的第一篇，讨论 DeFi 借贷协议的工作原理——它们的关键组成部分、公式和用例。在这一过程中，我们将强调，尽管协议使用不同和创意的命名方式，但它们倾向于重复、迭代和分享核心概念。其中一篇本博客文章中详细介绍如何使用 ERC 20  Token 来代表用户在借贷池中的份额。我们将从分析这些协议的独特元素开始，并提供技术概念来区分它们的工作方式。
+借贷池
+在传统金融（或 TradFi）中，借贷由第三方金融机构进行调整。这些金融机构被委托执行两项关键任务：强制借方向贷方支付利息，并评估并防止被认为是不可信的当事方参与这些活动。
+相比之下，在去中心化金融（或 DeFi）中，第三方借款人和贷款人是不值得信任的。这种信任的缺失激发了一个创新的设计，用于在链上促进借贷过程。
+借贷池是一个智能合约。DeFi 协议用户可以存入资产（通常是 ERC 20 Token），目的是使用该合约来借出他们存入的资产。其他用户可以与借贷池进行交互，享受即时贷款，即抵押在池中的资产进行借款。
+与传统金融方法相比，借贷池在借贷方面具有一些重大的优点，例如：
+· 在 DeFi 中，贷款不受贷款资金与借款金额 1: 1 可用性的限制。相反，来自协议所有用户的资金都被存入池中，从而创建了足够大的 Token 库存，以立即满足贷款需求。
+· DeFi 不需要还款计划。贷款是根据以前存入的抵押品执行的，用户可以随时选择还款。
+此时，你可能会想，「如果我不得不提供同等价值（甚至高估）的资产作为抵押品，为什么要在借贷协议上借入资产？难道我不应该出售抵押品并购买所借资产吗？」
+实际上，这种 DeFi 借贷协议似乎只允许完全抵押（或…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186654"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | 坎昆升级预计将于今年晚些时候进行；OPNX将于5月份上线索赔交易服务（4月24日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186654">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+以太坊坎昆升级预计今年晚些进行
+
+Odaily星球日报讯 周四，以太坊核心开发人员会议中表示，计划对区块链的共识层进行代码修改，为下一次坎昆升级（Cancun-Deneb）做准备，坎昆升级预计将于今年晚些时候进行。
+以太坊的 Cancun-Deneb 升级中预期的最重大变化将是 EIP-4844 ，也称为“ proto-danksharding ”。 EIP-4844 旨在通过以太坊节点实现链下数据的临时存储和检索，以满足区块链应用程序的数据和存储需求。如果成功激活，EIP-4844 有望降低第 2 层 rollup 解决方案（包括 Optimism 和 Arbitrum）的交易成本。 
+据悉，EIP-4844 已经在四个开发网络上完成了测试。在电话会议期间，开发人员宣布本周五将启动第五个测试网络。（The Block）
+OPNX CEO：将于 5 月份上线索赔交易服务
+Odaily星球日报讯 三箭资本创始人 Zhu Su 等人创办的加密索赔和交易平台 Open Exchange（OPNX）首席执行官 Leslie Lamb 表示，将于 5 月份上线索赔交易服务。此前 OPNX 在 4 月初正式上线时已支持加密货币现货和衍生品交易服务。 
+Leslie Lamb 还就“多个机构否认投资 OPNX”一事表示，其机构支持者要么直接投资 OPNX，要么通过 CoinFLEX 重组就股权进行谈判，公开法庭文件可以证明。
+本周五，OPNX 公布了投资者，包括 AppWorks、Susquehanna（SIG）、DRW、MIAX Group、China Merchant Bank International（招商银行香港分行）、Token Bay Capital、Nascent、Tuwaiq Limited 等。随后，DRW、Nascent、MIAX、Susquehanna（SI…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1050,471 +1607,6 @@ Scaramucci还表示：“我不明白他们是如何重启的，我看不出重�
                             <span class="media-object__text">
                               <span>PANews 4月23日消息，据Ru.beincrypto报道，加密货币交易所币安已使俄罗斯人可以通过银行卡和电子钱包购买/出售加密货币。交易所接受存款以补充卢布余额，但不是直接接受，而是通过 Qiwi 支付提供商。平台按输入金额的1.2%收取手续费。交易平台也支持通过 Qiwi 将卢布提现至银行卡。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186669"
-                        open
-                      >
-                        <summary class="article-expander__title">充满争议的比特币Ordinals、比特币跨链与BitcoinFi走向何方？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186669">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自香港 Web3 嘉年华速记
-Jeffrey Hu（主持人）：我是 Jeffrey Hu，来自 HashKey Capital
-讨论的话题是比特币新兴技术，因为现在有非常多的比特币新热点出来，非常高兴能跟各位嘉宾进行介绍。
-这场参与圆桌的嘉宾有：
-潘致雄，ChainFeeds 联合创始人
-馀明超 Babylon 创始人 &amp; CTO
-Jack 3.0 Matrix Labs COO
-首先请每个嘉宾用 2 分钟左右的时间做个简单的自我介绍，以及介绍一下自己所做的项目。
-潘致雄：大家好！我是潘致雄，我们在做 Web3 和 Crypto 垂直的信息聚合平台叫 ChainFeeds，今天的话题主要是聊比特币，我是在 2011 年的时候就有第一个比特币钱包，并且当时更多社区是通过“领水头龙”的方式领到 BTC 的，现在已经不太可能了，大概一次就能领 0.01 个或者更少的水平。
-在 2017 年及之后，我非常关注比特币技术发展，所以说在去年、前年都研究过一些关于 Taproot 和闪电网络相关的东西，所以非常关注比特币的技术以及后续产品服务。
-馀明超：大家好！我是馀明超，是 Babylon 的 Co-founder 和 CTO。Babylon 是基于 Bitcoin 基础设施的项目，愿景是让比特币成为去中心化世界的基石，将比特币的安全性带给去中心化世界，让去中心化的所有 App 和 Chain 都成为比特币扩展的二层。
-Jack 3.0 ：大家好！我是 Jack 3.0 ，我自己是 Matrix LabsCOO，主要解决整个行业比较中心化的问题，从 2019 年探索到现在，打磨了四年，自己挖矿赚的钱都砸进来研究这件事，论文发布在 IEEE 上。
-我自己是 2017、 2018 年 all in 入圈，这十年一直在开源社区做开发者关系，大概是这样的背景。
-Jeffrey Hu（主持…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186668"
-                        open
-                      >
-                        <summary class="article-expander__title">跌的比大盘猛？低迷的NFT市场未来前景如何？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186668">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：比特傻
-原文整理：深潮 TechFlow
-最近 NFT 市场的萎靡不振让人们感到十分焦虑。交易量、活跃地址和交易笔数都大幅下降，而新用户占比也逐渐下跌。
-加密 KOL 比特傻认为，大多数分析师，不过堆砌数据，而没有真正理解市场。以下是他对 NFT 市场的看法。
-
-2 月份以来，价量齐跌。交易量从每天 3.6 万 eth 跌到了 1 万 eth；蓝筹指数从 9000 多，跌到了 7500 。这期间，一众 NFT 大佬黯然失色。
-
-
-交易笔数下降、活跃地址大幅下降。活跃地址从 2 月份下降了 90% 。交易笔数从月份下降了约 8 成。
-
-
-更可怕的是，NFT 没啥新用户了。去年 4 月份以来，新用户占比逐渐下跌。新用户比例少，就意味着没有太多的增量资金。可见 NFT 市场，的确处在熊市，完全没有走出来。
-
-Blur 对 NFT 市场的影响
-有分析师说，铁顺的 Blur 把 NFT 给害了。
-
-其一是说 NFT 经不起高频次交易。但在比特傻看来，NFT 交易频次增加，是因为交易的摩擦成本降低了。NFT 交易摩擦成本降低，交易更顺滑是对资产价格有微弱的好处的。 另外，目前 NFT 交易量已大幅降低，也未见 NFT 价格企稳。
-
-其二，是说 Bur 把 NFT 大众化了，脱离了小众的圈子，导致价格下跌。这个逻辑，也站不住脚。因为 NFT 自诞生就是链上公开透明的，在 Opensea 的时代，就是所有人可以围观交易的。
-
-
-
-其三，是说 Blur 到来的巨大流动性击溃了 NFT。这个逻辑也经不起推敲。把这流动性推到尽头，就是普通的同质化代币。大量的同质化代币都在市场起舞，怎么流动性更小的 NFT 就不行了。更遑论，流动性注入对资产价格是有好处的。
-
-
-ETH 涨，所以 NFT 跌
-市场上还有分析师说，因为 ETH 涨了，所以 NFT 扛不住了。
-问他们为啥，他们支支吾吾说 N…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186647"
-                        open
-                      >
-                        <summary class="article-expander__title">ETH周报 | 以太坊坎昆升级预计今年晚些进行；法兴业银行在以太坊上推出欧元稳定币（4.17-4.23）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186647">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>一、整体概述
-以太坊核心开发人员会议中表示，计划对区块链的共识层进行代码修改，为下一次坎昆升级（Cancun-Deneb）做准备，坎昆升级预计将于今年晚些时候进行。以太坊的 Cancun-Deneb 升级中预期的最重大变化将是 EIP-4844 ，也称为“ proto-danksharding ”。 EIP-4844 旨在通过以太坊节点实现链下数据的临时存储和检索，以满足区块链应用程序的数据和存储需求。如果成功激活，EIP-4844 有望降低第 2 层 rollup 解决方案（包括 Optimism 和 Arbitrum）的交易成本。
-法国兴业银行宣布针对机构客户推出与欧元挂钩的稳定币 EUR CoinVertible，该稳定币基于以太坊，将以“EURCV”代码进行交易，仅提供给该行通过其现有的 KYC 客户和反洗钱程序加入的投资者。法国兴业银行表示，EUR CoinVertible 稳定币符合主要市场标准，包括被称为证券 Token 合规架构（CAST）的开源互操作性和证券化框架。该公司强调，它将确保支持稳定币价值的抵押资产与发行方“完全隔离”，并将提供每日透明度报告和抵押品头寸。该稳定币智能合约已由普华永道（PwC）审计。对于发行稳定币，SG-Forge 已获得律师事务所 White&amp;Case 的建议。
-二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1850、 1800 美元，阻力位 1900 美元。
-
-二、二级市场
-
- 1.现货市场
-OKX 行情数据显示，上周 ETH 价格一度下跌至 1820 美元，周内收于 1870 美元，环比下跌 10.6% 。
-
-ETH 日线图，来自 OKX
-日线图上显示，价格目前在 1850 美元左右盘整，短期内可能回调至 1800 美元；如果支撑有效，则有望反弹至 1900 美元以上。
- 2.网络运行情况
-
-Etherscan…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186666"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂Pacman：Arbitrum上的去中心化杠杆挖矿协议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186666">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Pacman 是一个部署在Arbitrum上的去中心化杠杆挖矿协议。谈及杠杆挖矿，很多人第一时间想到的就是 Alpaca Finance。Alpaca Finance 是一个建立在BNB Chain 上的杠杆挖矿协议，通过给予贷款人高利率和借款人高杠杆（借款增加仓位）挖矿收益（cover 高借款利息）来实现最大化资本效率。
-
-Pacman 同理，但也做了一些延伸。
-杠杆挖矿的原理就是在你原有挖矿仓位的基础上借入资金进行挖矿，增加你的收益的同时，用你挖矿的收益来 cover 掉借款利息。
-我们来看看 Pacman 做了哪些延伸？
-1、集中流动性挖矿：杠杆会带来清算，集中在某一价格区间的流动性挖矿会降低被清算的风险，从而规避市场快速下跌时带来的清算问题。
-2、Pacman 增加了 veToken 经济学（提供 veNFT 和 veNFT 的合并）和 xPAC、oPAC 经济学。veToken 治理来调整代币在不同 Leverage Farm Lps 中的排放。因此 veToken 也就有了贿赂收入，同时也会捕获协议收入。
-oPAC 是 PAC Token 的看涨期权，允许人们以折扣价格购买 PAC。形式是 oPAC，没有到期日。oPAC 是 Pacman 给予用户的部分奖励媒介。另外一部分是 PAC。
-oPAC 如何实现看涨期权呢？
-官方举的例子是：PAC Price: $ 0.78 ETH Price: $ 1600/ Strike Price: $ 0.39/ Discount: 30% + 20% 
-1 oPAC + 0.00024375 ETH &#x3D; 1 PAC；After selling PAC, the user can get $ 0.78 
-Treasury Income: 1 oPAC + 0.00024375 wETH（wETH 是国库收入）
-
-简而言之，就是白嫖的 oPAC+wETH 就能换成 PAC，然后卖掉就获得了 discount rate%的利润。这个贴现率取决于 B(x)+L(x)，B(x)是由 PAC 价格变化决定的，价格越高，B(x)越高；L(x)是由协议 TVL 决定的，也就是说 LP 越多，锁定时间越高，L(x)就越高。也就是说，币价和 LP 的增长将推动 oPAC 的利润变高，也就能够增加 oPAC 持有者对于 PAC 币价更高的预期。
-oPAC 是可以直接转换为 vePAC 的，这意味着你可以在市场上以折扣价格来获得 vePAC。
-xPAC 就是 vePAC（lock 2 years），是一种流通的 ERC 20 Token。这给予了 veToken 一个退出渠道。
-PAC 代币经济学
-PAC 总供应量： 30, 000, 000 
-
-PAC 的 veIDO 和往常的 IDO 不同，锁定的时间越久，能拿到的折扣也就越高。第一轮 veIDO 非锁仓部分的上限是 300 E，锁仓上限是 300 E。三个 veIDO 轮次非锁仓部分的总上限是 600 E，锁仓部分的总上限是 300 E。三轮 veIDO 将发行 15% 的代币。
-
-为了吸引锁仓资金，Pacman 采取了一些措施：
-1、代币购买折扣；
-2、更高权重的投票权；
-3、更低的 oPAC 行权价格；
-4、优先享有 xPAC 回购权；
-排放时间表</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186665"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊上海升级10天后，当前网络上都发生了哪些变化？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186665">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：21 Shares 分析师 Tom Wan
-原文编译：PANews
-以太坊上海升级已过去 10 天有余，当前网络上究竟发生了什么变化呢？ 21 Shares 研究分析师 Tom Wan 用数据进行了解读分析，以下统计数据截至日期为 4 月 22 日。
-1 、1 30 万枚 ETH 已被提取
-
-130 万枚 ETH 已被提取，价值约合 25 亿美元，在这些被提取的 ETH 中， 65.8% 是质押奖励或部分提款， 34.1% 是本金或全额提款。
-2 、Kraken 平台上有 1 万名以太坊验证者完全退出
-
-由于监管审查，Kraken 不得不关闭其为美国公民提供的质押服务，结果：
--全额提款取走了 33.3 万枚 ETH（占到以太坊全额提款总量的 71% ）
--部分提款取走了 10 万枚 ETH
--Kraken 用户提取的 ETH 总价值达到 8.07 亿美元
-3、Kraken 在以太坊质押市场份额下降 1 .4% 
-
-在上海升级之前，Kraken 在以太坊质押市场份额约为 7.2% ，但自从启动提款后，该指标下降到 5.8% 。总体而言，CEX 在以太坊质押的市场份额有所下降（从 27.6% 跌至 25.6% ），但 CEX 的以太坊质押池规模却出现小幅上涨，从 13.2% 升至 13.7% 。
-4 、值得一提的是，大量机构质押者涌入以太坊
-由于上海升级后降低了流动性风险，大量机构投资者涌入以太坊。最近 30 天内，以太坊质押流入较大的用户包括：
--Stakedfish： 9 万枚 ETH
--Staked： 7 万枚 ETH
--Klin Finance： 3.5 万枚 ETH
--Bitcoin Suisse： 1.7 万枚 ETH
--Figment： 1.2 万枚 ETH
-
-
-5、0x 01 凭证比例从 43% 升至 86% 
-
-验证者必须从 BLS (0x 00)…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186661"
-                        open
-                      >
-                        <summary class="article-expander__title">与L2一样重要的应用链，谁能成为领跑者？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186661">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：Lukasinho@GCR
-原文编译：白泽研究院
-Web3 近年来发展迅速，对可扩展解决方案的需求变得更加迫切。
-“应用链”（dApp Chain）叙事渐起：专注于特定用例、可互操作的区块链网络，可以为 dApp 提供更具可扩展性、高效和灵活的基础设施。
-在本文中，我们将探讨应用链的优势，并比较四个领先的应用链生态系统：Avalanche、Polkadot、Celestia 和 Cosmos。他们中谁将是最适合市场的产品，并且最有能力在未来几年引领应用链领域的发展？
-为什么需要应用链？
-长久以来，区块链“三难困境”一直是开发者的眼中钉。事实证明，无法创建一个在安全性、去中心化和可扩展性这三个属性上都表现出色的区块链。
-许多人已将应用链视为救世主，因为它允许多个链互操作，并通过减少每个链上的交易负载来实现可扩展性，而不会影响安全性和去中心化。然而，应用链却渐渐被另一种解决方案所掩盖：Layer-2 。最近，围绕 L2 的讨论越来越多，rollups 有望成为实现可扩展性、同时保持安全性和去中心化的首选解决方案。
-你可能认为应用链再无出头之日，但事实并非如此。偏爱应用链的开发者认为，应用链可以创造新的价值主张，以 dApp 的原生代币作为支付手段可以增强用户体验，而且应用链允许 MEV 的内部化，从而为 dApp 本身创造收入。因此，虽然 L2 已经成为了热门话题，但应用链不会就此没落。
-什么是 MEV？
-MEV，即最大可提取价值。简而言之，MEV 允许矿工和验证者通过操纵交易在区块中的位置来从区块链中提取更多价值。从历史上看，这与抢先交易和三明治攻击等负面行为有关，但它也有一些优势。良好的 MEV，例如套利和清算，对于提高 DeFi 的效率至关重要。 
-对于 dApp 开发者来说，拥有自己的区块链可以更好地控制 MEV，并能够最大限度地减少不良行为。这意味着 MEV…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186663"
-                        open
-                      >
-                        <summary class="article-expander__title">深入探讨DeFi借贷清算机制及其实现原理、风险与用例</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186663">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《DeFi Lending Concepts Part 2: Liquidations》
-原文作者：Tal 
-原文编译：Kxp，BlockBeats
-这篇文章是三篇系列文章中的第二篇，讨论 DeFi 借贷协议的工作原理——它们的关键组成部分、公式和用例。在我们之前的文章中，我们回顾了 DeFi 的核心操作——借贷，以及不同协议如何选择实现这些操作（还记得「份额 Token」吗？）。在这篇文章中，我们将重点介绍我们认为最令人兴奋的 DeFi 借贷概念之一：清算。
-过度抵押和坏账
-你可能会从我们之前的博客文章中想起，协议用户只能对其提供给协议的抵押品的百分比进行资产借贷。这是有道理的，因为协议需要确保如果你无法偿还债务，它可以从你那里收回其资产（或任何其他价值相等的资产）。这种资产抵押的过程始于传统金融，例如今天，一个人可以把他们的房子或兰博基尼作为贷款偿还的抵押品。
-抵押依赖于抵押品价格保持其价值的前提条件——尽管房屋或兰博基尼的价格无法保证，但它们各自的价值相对不太不稳定，而比起 ERC 20 或 NFT 等资产来说，更为稳定。
-在大多数 DeFi 借贷协议中，你的抵押贷款资产必须比你贷款的价值更有价值，也就是所谓的过度抵押。
-如果借贷协议想要保持财务稳定，只允许过度抵押的贷款是有利的。想象一下，你提供了一些资产作为抵押品，而这些资产的价值突然低于你从协议中借到的资产价值。现在，你的抵押品价值低于你欠协议的债务，你就没有还款的动力。毕竟，在偿还贷款的过程中，你将获救的抵押品现在的价值低于实际偿还贷款所需的金额。这种贷款现在已经无力偿还。
-每笔无力偿还的贷款对其所在的协议都是有害的。从无力偿还的贷款中产生的债务会在协议中产生不安全因素，毕竟，债务的数量是借出者无法从协议中收回的资产的数量。为了强调这些坏账有多糟糕：如果在协议上出现了类似传统金融「银行挤兑」的情况，最…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186656"
-                        open
-                      >
-                        <summary class="article-expander__title">Binary Research：解读Gains Network，走近去中心化杠杆交易的黑暗森林</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186656">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：Binary Dao
-  「Gains Network 是在以太坊上创立的，初时未受热捧，后来迁移到 Polygon 链，并逐渐积累业务。直到集成 Arbitrum 链后，市场才被引爆。截至目前，平台累计交易量超过 87 万笔，交易额突破了 340 亿美元。其创始人非常优秀，早期仅雇用了一位 UI 开发者，而其他所有工作，从业务设计到代码实现，都由他独自完成。」gTrade 是 Gains Network 推出的第一款产品，它是一个去中心化杠杆交易平台，目前部署在 Arbitrum 及 Polygon 上。
-一、gTrade 核心特点
-（一）合成流动性池
-合成流动性池对于流动性池的高效运作至关重要。目前，gTrade 采用的是基于 DAI 的合成流动性池（gDAI 池）来扮演杠杆交易者的对手盘角色。
-这个流动性池的设计有几个特点：首先，它的合成机制可以使得资金使用效率更高。其次，它的合成机制可以使得交易更加灵活。因为通过合成流动性池，gTrade 可以提供更多的杠杆交易对，这意味着交易者可以更灵活地选择交易对，并可以根据市场情况进行交易。
-最后 gTrade 的合成流动性池可以通过不同的合成机制来控制风险，例如通过调整杠杆倍数或者通过限制合成流动性池的规模等方式来降低风险。这样可以使得交易者和提供流动性者都可以更加安心地参与到交易中。
-dydx 采用 orderbook 机制，这种机制要求在链下储存 orderbook，还需要做市商提供流动性，因此去中心化程度不高且资金效率低。相比之下，gTrade 的 gDAI 池避免了这些问题，并且无需为每个交易对设置流动性池。
-与 GMX 相比，虽然它们都使用流动性池提供流动性，但 gTrade 表现出了极高的资金效率。
-
-以近 7 天的数据为例，gTrade 的 50 m gDAI 池 TVL 实现了 913 m 的交易量…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186657"
-                        open
-                      >
-                        <summary class="article-expander__title">SignalPlus：华尔街预计一季度经济向好，大型银行压力缓解</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186657">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>各位朋友，欢迎来到 SignalPlus 每日晨报。SignalPlus 晨报每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
-为了应对期权、特别是短期期权交易需求的快速增长，芝加哥期权交易所 (CBOE) 宣布将推出其旗舰 VIX 指数的一天版本，名为“VIX 1 D”，该指数计划于今天（4 月 24 日）正式投入运作。
-正如许多市场观察家所点出的那样，尽管利率波动创下纪录，且银行业出现严重动荡，但传统的 VIX 指数在过去 9 个月中异常平静，这要不是股票投资者过于自满，就是该指数已经无法捕捉到完整的风险概况，我们更倾向于后者的观点。
-
-
-
-现在交易的 SPX 期权约有 50% 是在 24 小时或更短时间内到期的（0 DTEs - 0 天到期期权），使得做市商的对冲活动对市场结构和波动率产生永久性的影响，简而言之，短期期权的增加会导致更大的日内波动（由于它们的 gamma 特性），但因为这些期权大多数会在价外情况到期（做市商 Delta 对冲），以收盘数值来衡量的波动程度会被降到最低，这在上周的价格走势中最为明显，SPX 指数多数在 25 点的窄幅范围内波动 ( 4140-4165)，恰好是最大 gamma 敞口的范围之内。
-实际上，随著 VIX 1 D 的发布，我们将会有一个 VIX 波动率的准期限结构，涵盖 CBOE 官方标准的 1 D、 30 D 和 90 D；此外，像许多人在加密货币行业中所经历的那样，步入中年的 VIX 指数现在将面临更年轻、更有活力的竞争对手，挑战其作为股票首选指标的地位。
-
-
-
-转回市场方面，货币市场基金的资金流量显示过去一周资金流出 500 亿美元，自 SVB 事件以来数周的资金流入趋势出现反转；另外，虽然商业银行的准备金整体上仍持续下降，但大部分资金流出来自大型银行，小型机构的资金保持稳定，这进一步显示区域性银行危机的最严重阶段可能已经过去了。
-
-
-在经济方面，华尔街估计第一季度实际 GDP 环比增长将约为 2.3% ，主要得益于消费和工资增长仍保持强劲，面对资本市场的忧虑，实体经济和美国消费者仍继续表现出非凡的韧性，市场预期 5 月 FOMC 加息的可能性在美联储进入缄默期前回升至 90% 以上。在信贷方面，私募市场的未投资资金 (dry powder) 仍接近 3, 850 亿美元的历史高点，未实现的组合收益更是高达该总额的 2.5 倍，规模相当于所有未偿还高收益债券的总量！当前环境与全球金融危机期间截然不同，私募市场的资本在缓冲整个体系的损失方面发挥著巨大作用，这也有助于解释为什么信用利差在这场小规模银行危机中仍是表现良好。
-
-
-最后，回到我们最喜欢的评论 - “一切都与利率有关”。自 2022 年初以来，如果我们说，像是 S&amp;P 500 和美国 5 年期 CDS（作为风险资产代表）等传统金融资产的价格走势可以完全用利率隐含波动率的变化来解释，你会相信吗？与其担心企业获利表现、市场热钱走向、HTM/AFS 损失、技术水平发展、经济数据发布等等，或许我们更应该集中关心（利率）掉期期权波动率的走向？
-不过，又有多少人知道什么是利率掉期期权波动率？
-从基本面的角度来看，这其实是很有道理的，自美联储开始加息周期以来，由于通货膨胀和工资数据的黏滞性，加息步调比大多数投资者预期的要激进得多；另外，“市场意外”往往发生在利率开始超过 GDP 增长时，比如说全球金融危机期间的次级房贷，以及这次的英国 LDI / SVB 持有至到期日资产损失 / 瑞士信贷 AT 1 s / 商业房地产贷款问题等，换句话说，利率波动有效地反映了 FOMC 的可预测性，这是当前投资者情绪面临的最大风险，其他一切都只是对于美联储将采取的利率措施的次要反应，不要与美联储作对。
-
-
-最后，尽管股市平稳，但加密货币在上周结束时的表现非常疲软，BTC 跌至接近 27, 000 美元，ETH 低于 1, 900 美元，大量期货多头部位遭到清算以及 Binance 平台上大量 BTC 现货卖出可能在最初引发了抛售，由于市场持仓误判情势，二级市场流动性仍相当薄弱，缺乏新资本的流入，再加上整个生态系统的情绪疲软，例如 NFT 用户和地板价崩溃等，我们必须重申我们对短期内价格走势保持谨慎的态度。
-
-
-
-如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
-SignalPlus Official Website: https://www.signalplus.com/</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186635"
-                        open
-                      >
-                        <summary class="article-expander__title">明星项目周报 | Sui宣布将于5月3日启动主网；a16z推出OP Stack rollup客户端Magi（4.17-4.23）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186635">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>4 月 17 日-4 月 23 日当周，比较值得关注的动态如下：Sui 将于 5 月 3 日正式启动主网；隐私网络 Iron Fish 主网正式上线；Layer 1 公链 Berachain 完成 4200 万美元融资；a16z crypto 推出用 Rust 编写的新 OP Stack rollup 客户端 Magi；Taiko 已弃用 alpha-2 测试网；Gitcoin 新一轮捐赠活动将于 4 月 25 日开启；Rocket Pool 完成 Atlas 升级；分布式 LSD 协议 Obol Network 主网 Alpha 阶段已启动；Yearn 社区发起推出 yETH 的投票；NFT 项目 Moonbirds 将推出奖励代币 TALONS；NFT 项目 Memeland 或将推出 MEME 代币。
-以下为具体项目进展：
-底层-Layer 1 
-Sui 将于 5 月 3 日正式启动主网
-Odaily星球日报讯 据官方推特，公链项目 Sui Network 宣布主网将于 2023 年 5 月 3 日正式启动。
-此外，测试网版本已更新至 v 0.32.0 ，主要包含以下重要更新：将 DeepBook 包添加到 Sui Framework 中，允许 Sui 开发者在 DeepBook 上构建。此版本增加了新的 getBalances/Coins 二级索引，提高查询效率。在 v 5 版协议中，将启用新的成本表来计算 Gas 费，这可能使交易花费更多等。
-Sui 计划随机为 18 万账户分配 9.6 万个白名单资格，将陆续发邮件通知中签者
-Odaily星球日报讯 据 Discord 官方公告显示，Sui 目前已停止接 Recognition Sale 申请，仅面向 2 月 1 日之前加入 Discord 的社区成员开放，合格成员超 34 万个帐户。目前，Recognition…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186653"
-                        open
-                      >
-                        <summary class="article-expander__title">今天来扒一扒Crypto亿万富翁们的持仓情况</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186653">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>本文来自 Blockworks，原文作者：DAVID CANELLIS，由 Odaily 星球日报译者 Katie 辜编译。
-
-
-
-区块链改变了我们看待金钱的方式，也开启了一种全新的“欣赏”他人钱包内资产的乐趣。对加密货币感兴趣的人现在可以在链上光明正大研究加密亿万富翁们的持仓，而不需要通过研究 SEC 的文件或福布斯榜单来做猜测。
-实际上，链上从来不缺亿万富翁，但大多数人都是匿名的，人们只知道他们的地址。然而，也有少数大佬公开了他们的钱包地址（也就是公开了其部分投资组合）。
-以太坊联合创始人 Vitalik Buterin：意外“养狗”
-2021 年，V 神被《福布斯》评为世界上最年轻的加密亿万富翁，当时 ETH 价格首次达到 3000 美元。链上数据无法证实其“最年轻的加密亿万富翁”的绰号，但依然可以证实这些资产数据的真实性。
-根据 Arkham Intelligence 的数据， 2021 年 5 月，V 神已知的加密资产组合价值约为 20 亿美元，ETH 占了这些资产的一半左右。但在狗狗币暴涨的时候，V 神的资产价值远不止于此。
-狗狗币狂热粉丝和发行者曾向 V 神的以太坊地址转入大量狗狗币。这是一种“游击式”的营销形式，通过假装是 V 神本人“扫货”狗狗币，从而欺骗链上观察者，让他们相信 V 神正“看好”他们的 meme coin。
-
-来源： Arkham Intelligence
-在上一轮牛市中，V 神是 meme 币的主要营销目标。因此，在 2021 年 5 月 12 日，V 神的加密投资组合价值超过 205 亿美元，这使他与桥水基金的 Ray Dalio 和谷歌的 Eric Schmidt 等人的身家不相上下。
-在这些资产中，Shiba Inu（SHIB）占 178 亿美元（87% ），但还有许多其他类型的“狗狗币”，包括 AKITA 和 HUSKY。随后 S…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186649"
-                        open
-                      >
-                        <summary class="article-expander__title">全面解读DeFi借贷：组成、公式、用例</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186649">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《DeFi Lending Concepts Part 1: Lending and Borrowing》
-原文作者：Tal
-原文编译：Kxp，Blockbeats
-这篇文章是三篇系列文章的第一篇，讨论 DeFi 借贷协议的工作原理——它们的关键组成部分、公式和用例。在这一过程中，我们将强调，尽管协议使用不同和创意的命名方式，但它们倾向于重复、迭代和分享核心概念。其中一篇本博客文章中详细介绍如何使用 ERC 20  Token 来代表用户在借贷池中的份额。我们将从分析这些协议的独特元素开始，并提供技术概念来区分它们的工作方式。
-借贷池
-在传统金融（或 TradFi）中，借贷由第三方金融机构进行调整。这些金融机构被委托执行两项关键任务：强制借方向贷方支付利息，并评估并防止被认为是不可信的当事方参与这些活动。
-相比之下，在去中心化金融（或 DeFi）中，第三方借款人和贷款人是不值得信任的。这种信任的缺失激发了一个创新的设计，用于在链上促进借贷过程。
-借贷池是一个智能合约。DeFi 协议用户可以存入资产（通常是 ERC 20 Token），目的是使用该合约来借出他们存入的资产。其他用户可以与借贷池进行交互，享受即时贷款，即抵押在池中的资产进行借款。
-与传统金融方法相比，借贷池在借贷方面具有一些重大的优点，例如：
-· 在 DeFi 中，贷款不受贷款资金与借款金额 1: 1 可用性的限制。相反，来自协议所有用户的资金都被存入池中，从而创建了足够大的 Token 库存，以立即满足贷款需求。
-· DeFi 不需要还款计划。贷款是根据以前存入的抵押品执行的，用户可以随时选择还款。
-此时，你可能会想，「如果我不得不提供同等价值（甚至高估）的资产作为抵押品，为什么要在借贷协议上借入资产？难道我不应该出售抵押品并购买所借资产吗？」
-实际上，这种 DeFi 借贷协议似乎只允许完全抵押（或…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186654"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | 坎昆升级预计将于今年晚些时候进行；OPNX将于5月份上线索赔交易服务（4月24日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186654">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-以太坊坎昆升级预计今年晚些进行
-
-Odaily星球日报讯 周四，以太坊核心开发人员会议中表示，计划对区块链的共识层进行代码修改，为下一次坎昆升级（Cancun-Deneb）做准备，坎昆升级预计将于今年晚些时候进行。
-以太坊的 Cancun-Deneb 升级中预期的最重大变化将是 EIP-4844 ，也称为“ proto-danksharding ”。 EIP-4844 旨在通过以太坊节点实现链下数据的临时存储和检索，以满足区块链应用程序的数据和存储需求。如果成功激活，EIP-4844 有望降低第 2 层 rollup 解决方案（包括 Optimism 和 Arbitrum）的交易成本。 
-据悉，EIP-4844 已经在四个开发网络上完成了测试。在电话会议期间，开发人员宣布本周五将启动第五个测试网络。（The Block）
-OPNX CEO：将于 5 月份上线索赔交易服务
-Odaily星球日报讯 三箭资本创始人 Zhu Su 等人创办的加密索赔和交易平台 Open Exchange（OPNX）首席执行官 Leslie Lamb 表示，将于 5 月份上线索赔交易服务。此前 OPNX 在 4 月初正式上线时已支持加密货币现货和衍生品交易服务。 
-Leslie Lamb 还就“多个机构否认投资 OPNX”一事表示，其机构支持者要么直接投资 OPNX，要么通过 CoinFLEX 重组就股权进行谈判，公开法庭文件可以证明。
-本周五，OPNX 公布了投资者，包括 AppWorks、Susquehanna（SIG）、DRW、MIAX Group、China Merchant Bank International（招商银行香港分行）、Token Bay Capital、Nascent、Tuwaiq Limited 等。随后，DRW、Nascent、MIAX、Susquehanna（SI…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7847,170 +7939,6 @@ SBF的法律团队要求法官将SBF新保释条件执行延长到2023年4月21�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/89qccwy7.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：Andrew Kang近10个小时前卖出228.5万枚ARB，获利70.7万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/89qccwy7.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月20日消息，据Lookonchain监测，Mechanism Capital联合创始人Andrew Kang近10个小时前以1.56美元的价格卖出了所有228.5万枚ARB，换取356万枚的USDC。他以285万枚USDC的成本购买了这些ARB，并获利约70.7万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ogb7gjn1.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Voyager债权人已和美国政府达成推进Binance.US交易的决议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ogb7gjn1.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月20日消息，据Voyager无担保债权人委员会在社交媒体披露，Voyager无担保债权人委员会（UCC）已经和美国政府达成了一项决议，将允许Binance.US收购交易计划向前推进并推动快速生效。该决议体现在一项联合规定中，规定上诉将继续针对该计划的免责条款，美国政府已同意该计划可以在没有此类规定的情况下向前推进交易，并且不会以其他方式中止。Voyager、以及Voyager无担保债权人委员会正在和Binance.US进行合作，以便在地区法院批准该规定后尽快推进交易。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/h631ffnt.html"
-                        open
-                      >
-                        <summary class="article-expander__title">去中心化身份协议SPACE ID与公链Sei合作，或将推出.sei域名服务</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/h631ffnt.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月20日消息，据官方推特，去中心化身份协议SPACE ID与Layer1公链Sei Network达成合作，Sei发文“Soon.sei”暗示或将推出.sei域名服务。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/e737pnat.html"
-                        open
-                      >
-                        <summary class="article-expander__title">加密金融服务提供商Januar获得丹麦支付机构许可证</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/e737pnat.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月20日消息，据Cointelegraph报道，加密金融服务提供商Januar宣布，它已获得丹麦金融监管局 (DFSA) 颁发的支付机构许可证。此前其仅在有限许可下为丹麦公司提供服务。目前，Januar已在30个欧洲经济区市场开展业务。
-据悉，Januar由前Chainalysis员工于2021年创立，2022年Januar完成600万欧元（650万美元）种子轮融资。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/p58br6jx.html"
-                        open
-                      >
-                        <summary class="article-expander__title">日本首相：G7峰会将讨论ChatGPT，须制定国际规则</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/p58br6jx.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月20日消息，据金十引援日本共同社消息，日本首相岸田文雄表示，七国集团（G7）领导人将在5月G7广岛峰会期间讨论讨论生成性人工智能ChatGPT相关议题，称“必须制定国际规则”。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/4g0fg7od.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Hundred Finance：与黑客谈判失败，将悬赏50万美元征求黑客信息</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/4g0fg7od.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月20日消息，据官方推特，跨链借贷协议Hundred Finance称由于攻击者决定不接受提议，将悬赏50万美元征求可导致黑客被捕并返还所有资金的信息，目前团队正在联系并参与多个司法管辖区的执法部门行动。
-此前4月16日消息，Hundred Finance遭黑客攻击，损失700万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/s9v9pmzv.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Deribit将于4月24日推出零费用现货交易</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/s9v9pmzv.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月20日消息，据The Block报道，加密期权交易平台Deribit宣布将于4月24日推出零费用现货交易，Deribit首席商务官Luuk Strijers表示：“过去几个月，我们一直致力于现货交易解决方案的实施。我们现在能够为客户提供全方位的交易机会，包括衍生品和现货交易。”
-在推出时，Deribit将提供三对现货交易：BTC/USDC, ETH/USDC和ETH/BTC。Strijers表示，该平台可能会上线更多的代币，但零费用不会长期持续下去。他说，自由交易将在“可预见的未来”存在。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/rx9z7dex.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3数据管理工具开发公司Fluree完成1000万美元A轮融资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/rx9z7dex.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月20日消息，据VentureBeat报道，Web3数据管理工具开发公司Fluree宣布完成1000万美元A轮融资，SineWave Ventures领投，其他投资者未披露。截至目前该公司的融资总金额已超过1600万美元。新资金将用于该公司继续建设其“以数据为中心的基础设施”，并协助企业将其遗留基础设施升级为协作式现代数据平台。
-据悉，Fluree主要提供区块链支持的语义图形数据库，帮助企业管理数据资产，通过结合许可区块链技术、语义Web标准和数据安全策略控制，让开发人员以去中心化和可信的格式存储和管理数据。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9053,8 +8981,8 @@ cr: How R…</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4786714607">
-        <time id="build-timestamp" datetime="2023-04-24T13:10:59.351Z">2023-04-24T13:10:59.351Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4787290321">
+        <time id="build-timestamp" datetime="2023-04-24T14:07:01.997Z">2023-04-24T14:07:01.997Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
