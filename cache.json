@@ -2184,36 +2184,6 @@
           "wordCount": 372,
           "title": "数据：昨日晚间3.082亿PHA代币转至新的非交易所地址，价值5300万美元",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/sn6e5q94.html",
-          "author": "PA一线",
-          "description": "PANews 4月21日消息，据官方推特，公链项目Aptos宣布推出委托质押功能，用户现在可以将他们的抵押权委托给受信任的网络验证器，并作为个人获得奖励。多个钱包可以将APT质押在一个受信任的验证节点上。用户可以委托他们的抵押权并以低至11 APT的价格参与质押。",
-          "link": "https://panewslab.com/zh/articledetails/sn6e5q94.html",
-          "publishedOn": "2023-04-21T00:08:53.000Z",
-          "wordCount": 381,
-          "title": "公链项目Aptos推出委托质押功能",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/stfx4aur.html",
-          "author": "PA一线",
-          "description": "PANews 4月21日消息，Coinbase首席执行官Brian Armstrong推特发文称，一整天都在华盛顿特区与国会议员会面。出于消费者保护、国家安全和经济增长等多种原因，美国需要对加密领域的中心化参与者进行明确的监管。美国证交会（SEC）的强制监管政策给美国造成了难以估量的伤害。我们将为解决这个问题而斗争。",
-          "link": "https://panewslab.com/zh/articledetails/stfx4aur.html",
-          "publishedOn": "2023-04-20T23:46:03.000Z",
-          "wordCount": 367,
-          "title": "Coinbase CEO：美国中心化加密交易所需要明确监管，将为此而斗争",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/xe54ry1a.html",
-          "author": "PA一线",
-          "description": "PANews 4月21日消息，据英国金融时报报道，Meta计划裁减逾10%的英国员工，并放弃Instagram在伦敦的中心。周三发给员工的一份内部文件显示，将至少裁撤687个职位，主要位于伦敦，而在英国约5000名员工中，还有更多人面临裁员风险。受裁员影响最大的为伦敦的Instagram团队，250个工作岗位将被裁减，其余员工将有机会迁往纽约。裁员还将影响WhatsApp和Facebook等应用程序的约55个工作岗位，以及Reality Labs以及人工智能团队的近60个工作岗位。",
-          "link": "https://panewslab.com/zh/articledetails/xe54ry1a.html",
-          "publishedOn": "2023-04-20T23:27:27.000Z",
-          "wordCount": 358,
-          "title": "Meta计划在英国裁员10%，Instagram伦敦中心将关闭",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2669,6 +2639,26 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5186696",
+          "author": "Foresight News",
+          "description": "原文作者：Karen，Foresight News\n在 DEX 交易时非常容易遭到 MEV（以太坊最大可提取价值）攻击，最常见的典型攻击抢先交易和三明治攻击，这类攻击经常会攫取交易者的利益。\n根据 EigenPhi 此前发布的一份 MEV 报告， 2022 年全年主流 MEV 机器人在以太坊上产生了至少 3.07 亿美元的收入，其中套利机器人产生的收入占总收入的 47.5% 以上。就大家常用的 DEX Uniswap V3 而言，Uniswap V3 上主流 MEV 机器人的收入规模占 LP 收入的 25% ，这里面可能就有我们贡献的一部分利益。在跨链交易需求较高的当下，可以抗 MEV 的跨链 DEX 聚合器就显得相对重要。\n上周末，基于 LayerZero 的跨链抗 MEV DEX 聚合器 Cashmere 发布了初始阶段公开测试网。作为入选了 Binance Labs 旗下 MVB 加速器的项目，Cashmere 是否会在基于 LayerZero 的全链借贷协议 Radiant Capital 大火之后再次掀起「LayerZero 热」？今天 Foresight News 将带你简要了解 Cashmere 背景和抗 MEV 攻击设计。\nCashmere 是什么？\nCashmere（中文译为「羊绒」）并未公布团队背景，CEO 官推账号为 @0x Reliq，不过暂未找到进一步信息。该项目团队 Cashmere Labs 此前于去年 12 月在 BNB Chain 欧洲创新孵化器计划中获得二等奖，今年 4 月份入选 Binance Labs 第 6 季 MVB 加速器计划。\nCashmere 建立在 LayerZero 之上，会聚合多条链上的 DEX，然后为用户提供跨链兑换服务，同时，会推荐一条更好的兑换路线，不过在这一点上，Cashmere 还会考虑到 MEV 攻击，帮助用户在交易过程中规避 MEV 攻击。\n聚合方面，Cashmere 最初会聚合 11 条链，测试网已经在以太坊 Goerli、Polygon Mumbai、BSC Testnet、Arbitrum Goerli、Avalanche Fuji、Fantom 测试网、Optimism Goerli、Base Goerli、Linea zkEVM Testnet、Polygon zkEVM Testnet、Metis Goerli 上完成部署。\nCashmere 在去年 7 月份发布的第一篇 Medium 文章中表示，除了跨链 DEX，还会通过单边 AMM 支持跨链和链间 stableswap，将允许以非常低的滑点兑换稳定币，从而解决稳定币流动性问题。目前暂不清楚 Cashmere stableswap 的进展状况。\n那在跨链 DEX 聚合器中的抗 MEV 攻击设计中，Cashmere 采取了怎样的对策？\nCashmere 如何实现抗 MEV 攻击？\n在 DEX 时交易时虽说能够自行设置滑点，但由于交易额、不当的滑点设置、资产潜在价格变动以及池子储备金等因素，经常会给 MEV 攻击机器人趁虚而入的机会。\nCashmere 在去年 9 月份表示，Cashmere 开发了多种 MEV 抢跑机制，来帮助保护用户利益。\n比如，用户想要在目标链上取回的目标资产只能被 Cashmere 验证者知道，由于使用了类似 ZK 的证明，普通的 MEV 抢跑机器人将无法在链上看到。\n再比如， 在以太坊上，用户将能够从以太坊内存池中隐藏他们的交易，并通过 Cashmere 应用提供使用私有 RPC flashbots 的选项，来保护他们免受抢先交易。在其他 L1 和 L2 上 Cashmere 开发了 front-run protector 工具，这个工具基于 Cashmere 上兑换资产的流动性（在源链和目标链上），并计算出用户交易的最佳滑点值，让 MEV 抢先攻击者无利可图。\n上月底，Cashmere 在解释其 MEV 策略时称，其通过进行攻击收益模拟，来为用户计算出 MEV 机器人无法从中获利的最优滑点。具体计算方式可戳此了解。\n当然，Cashmere 当前还处于测试网初期阶段，目前 App 体验也不太流畅，包括兑换操作、签名调用、交易处理等操作均比较迟缓，尚需不断优化。\n\n参考：\nhttps://www.dropbox.com/s/9wphe0hp4t00qn6/cashmere_wp.pdf?dl=0 \nhttps://cashmerelabs.medium.com/introducing-cashmerelabs-mev-strategy-e9fd3ff69419",
+          "link": "https://www.odaily.news/post/5186696",
+          "publishedOn": "2023-04-25T09:40:00.000Z",
+          "wordCount": 1865,
+          "title": "一文详解Cashmere：基于LayerZero的跨链抗MEV DEX聚合器",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5186695",
+          "author": "区块律动BlockBeats",
+          "description": "原文标题：《Bandwidth Usage after Ethereum Withdrawals》\n原文作者：Alex Miller \n原文编译：Kxp，BlockBeats\n4 月 12 日，Ethereum 进行了 Shapella 升级。实际上，这是两个不同升级的组合：共识层的 Capella 升级和执行层的 Shanghai 升级。这个联合升级包含了各种功能，但最受期待的还是验证者提现，打破了质押闭环。一旦升级上线，所有具有 0x 01 类型凭据的验证者都可以通过以下两种方式之一提取质押：\n1. 用户可以指示他们的共识客户端完全退出验证器。这将使验证者进入一个队列，之后该验证者的全部余额将被分散到执行层的提款地址中。\n2. 不退出的验证者每 4 天左右自动 \"清空 \"其超过 32 ETH 2 的余额。重点是自动执行——用户不需要指示其共识客户端执行此操作，即使他们想保留验证者余额，也无法执行。\n第一种选项用于解锁质押，并为用户的质押风险设定上限——具体来说，退出的验证者仍然要进行证明/提议，直到它通过队列，队列的长度决定了对无法继续运作的验证者的预期惩罚（例如，队列中的 4 天= 4 天的离线惩罚）。\n然而，从网络的角度来看，第二个选项更为有趣，因为这些消息将由提款队列（不同于退出队列）中的每个验证者不断广播。\nShapella 新增了两种不断广播的消息类型：共识提款和可执行 EIP 4895 。这意味着网络上的所有节点都有两个新的 Gossip 话题，并且我们应该预期带宽消耗的增加。但问题是，带宽究竟增加了多少？\nCapella 之前和之后的数据快照\n我自己正在运行一个质押盒子并进行系统监控，因此我去看了一下 Shapella 之后带宽消耗是否有实质性变化。我在升级前后各有大约一周的数据，结果相当明显。每种类型的数据从 4 月 3 日到 12 日进行预升级跟踪，从…",
+          "link": "https://www.odaily.news/post/5186695",
+          "publishedOn": "2023-04-25T08:45:00.000Z",
+          "wordCount": 1763,
+          "title": "一览以太坊提款功能开启后的带宽使用情况",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5186693",
           "author": "慢雾科技",
