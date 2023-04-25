@@ -2,10 +2,153 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-25T06:09:39.409Z</updated>
+    <updated>2023-04-25T07:07:10.146Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文读懂BTCDomain：会超越ENS么？]]></title>
+        <id>https://www.odaily.news/post/5186686</id>
+        <link href="https://www.odaily.news/post/5186686"/>
+        <updated>2023-04-25T05:48:26.000Z</updated>
+        <summary type="html"><![CDATA[近 48 小时来，Ordinals 在加密世界中引起了广泛关注。在OKX宣布其链上钱包开始支持 Ordinals 之后，币安紧接着发布了“Ordinals, made simple”这篇推文 。随着Web3巨头加入，“Ordinals 之夏”或即将来临。
+在众多基于 Ordinals 的 PFP 项目中，BTCDomain 是一个少见的 Ordinals 域名项目。简而言之，BTCDomain 在保持完全基于比特币的同时，提供了类似于ENS的用户体验。如果说比特币在未来相当长的时间内，仍然是比以太坊更具有共识、更安全的区块链，那么 BTCDomain 或将超越以太坊域名龙头 ENS。
+什么是 Ordinals 和 inscription
+要更好地理解 Ordinals，我们需要介绍一下 inscription 这个概念，它类似于NFT，将所有数据都将永久存储在比特币第一层。为了更好地说明什么是 inscription，我们可以用.btc 的 inscription 作为例子。在BTCDomain官方网站上查询任何域名，比如 satoshi.btc，点击域名所属的 inscription id 的超链接，就可以直接跳转到 ordinals 浏览器。
+
+由于 satoshi.btc 域名本身是一个 Ordinals inscription，您可以在 Ordinal Explorer 中查看它的明细信息，同时在这个页面获得创世交易哈希( 4 d 8 c...fc 63)，
+
+将 genesis transaction 的哈希值粘贴到比特币浏览器中，以 json 格式查看原始数据，复制"witness"的第二部分( 20 eb...d 68)，它是一个十六进制的 hex 文本，将其粘贴到 hex 转 string 的工具中便可以解读这段被 BTCDomain 刻在比特币主网上的信息…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密交易所Globix的清算人获准冻结加密资产以寻找丢失的4300万美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/ixgllug6.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ixgllug6.html"/>
+        <updated>2023-04-25T05:46:02.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月25日消息，据金融时报报道，破产的加密货币交易商Globix的清算人已获得一项法院命令，即冻结数字资产，并迫使Globix在寻找4300万美元失踪资金的过程中交出客户信息。法院还要求包括Crypto.com、Bitstamp和Kraken在内的竞争对手交易所披露与Globix平台相关的某些加密钱包背后的身份。
+据悉，Globix在投资者主要来自直布罗陀和英国等地，该交易所于去年停运。该交易所运营商Miracle World Ventures Limited系一家在英属维尔京群岛（“BVI”）注册成立的公司，于今年3月10日进入在清算程序。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[上海：给予“元宇宙”领域招商项目不超过项目投资30%的资金支持]]></title>
+        <id>https://panewslab.com/zh/articledetails/23ldcn9x.html</id>
+        <link href="https://panewslab.com/zh/articledetails/23ldcn9x.html"/>
+        <updated>2023-04-25T05:34:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月25日消息，据财联社报道，上海市人民政府办公厅印发《关于新时期强化投资促进加快建设现代化产业体系的政策措施》，其中提到，围绕“元宇宙”基础设施、交互终端、数字工具等领域开展招商引资，开放50个以上市级重大元宇宙应用场景对外招商，持续开展供需对接和揭榜挂帅，加快引进三维图形、图像引擎、数字建模等“元宇宙”项目。加大“元宇宙”领域招商项目支持力度，对引进符合条件的关键技术、重点工程和产业化项目，按照规定给予不超过项目投资的30%、最高2000万元的支持。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：三个持有8199枚BTC巨鲸已在5天内苏醒]]></title>
+        <id>https://panewslab.com/zh/articledetails/219ef9f8.html</id>
+        <link href="https://panewslab.com/zh/articledetails/219ef9f8.html"/>
+        <updated>2023-04-25T05:23:03.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月25日消息，Lookonchain监测数据显示，一些沉寂多年的BTC巨鲸最近苏醒了。三个持有8199枚BTC（2.25亿美元）的巨鲸在短短五天内苏醒。相关的三笔交易分别是昨日休眠12年的地址转账的1000枚BTC，4月21日休眠10.5年的地址转账的1128枚BTC，4月20日休眠9.3年的地址转账的6071枚BTC。
+此外，Lookonchain提及持有79,957枚BTC（21.9亿美元）的一个巨鲸（1FeexV开头）已沉寂12年，当时收到BTC的单价仅为0.93美元。经查看，该地址并未转出任何资金，而是近日收到几笔小额转账。Lookonchain补充称该地址未激活，只是提醒大家注意这个地址。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SignalPlus宏观点评(20230425)]]></title>
+        <id>https://www.odaily.news/post/5186685</id>
+        <link href="https://www.odaily.news/post/5186685"/>
+        <updated>2023-04-25T04:42:14.000Z</updated>
+        <summary type="html"><![CDATA[各位朋友，欢迎来到 SignalPlus 宏观点评。SignalPlus 宏观点评每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
+由于投资者正等待繁忙的财报周的到来，加上 FOMC 会议前美联储进入缄默期，昨天市场毫无波澜。中国股市本周开盘风险情绪不佳，由于房地产市场复苏迹象疲弱，房地产板块下跌 1.5% ，此外，中国国内股票的表现也继续逊于美国和欧洲上市的中国增长敏感类股，显示中国国内投资者的风险情绪持续降温。
+
+
+
+在美国方面，穆迪评级服务上周五下调了 11 家区域性银行的评级，表示其担忧低息贷款与当前高融资利率之间的平衡压力。此外，区域性制造业调查也进一步显示疲软的结果，达拉斯联储商业活动指数受就业疲软和价格上涨拖累，下跌 7.7 点至 -23.4 ，而 4 月份芝加哥联储非制造业活动指数从上个月的 -9 降至 -24 ，附加的评论也证实情绪低迷，调查参与者指出“经济肯定有放缓，新订单几乎停止”。
+由于经济数据疲软，美债收益率当天下跌约 5 个基点，不过市场预期 FOMC 5 月份加息的机率仍远高于 85% 。远期通胀预期则保持稳定， 1 年期通胀掉期利率自 3 月初以来一直徘徊在 2.5% 左右，这有助于支撑股市情绪，并为最早 9 月开始的降息提供理由。收益率曲线也保持稳定， 2/10 s 利差稳定维持在 -60 个基点左右，不过 Powell 偏好的 18 m 3 m 远期曲线倒挂情况仍十分严重，利差在 -150 个基点左右，进一步预示著未来的增长隐忧。
+
+
+
+
+近期有一些新闻指出股票和美债的投机性空头创下历史新高，虽然其中一些空头涉及做市商对冲，例如针对新发行的公司债券等，不过推测谁做多可能会十分有趣，SPX （收盘价）的实际波动率下跌使系统性基金得以重新将杠杆加回股票多头，到达 2021 年以来的最高水平，这与传统的基本面投资者的观点形成对比，后者仍担心经济放缓以及可能出现的企业盈利衰退。
+本周将进入全面的财报季，我们预计价格走势将受到财报结果的驱动，而宏观因素将退居二线。S&P 500 指数目前正朝著 EPS 同比下降 7.3% 的方向发展，仍稍微比最糟糕的预期好一些，这要归功于银行业目前为止的强劲业绩表现。尽管如此，投资者将会将焦点放在经济敏感型类股和科技巨头的获利表现，以确定股市的下一步动向。
+
+
+在加密货币方面，市场情绪仍然不佳，BTC 和 ETH 都未能反弹突破 2.75 万和 1, 800 美元的水平，不过投机者仍做多，资金费率保持正值；然而，CeFi 平台上的稳定币余额仍持续大幅减少，显示负面情绪没有反转，加密货币流动性仍继续萎缩，使交易环境更加偏向“零和”。此外，监管打击和主流兴趣的下降使得 Tether 重新主宰稳定币市场，主导地位超过 64% ，自 3 月初出现脱钩事件以来，USDT 的交易价格一直略高于 USDC。最后再次重申，我们对短期内加密货币价格保持谨慎态度。
+
+
+
+
+如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website: https://www.signalplus.com/]]></summary>
+        <author>
+            <name>SignalPlus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[教程：如何为潜在BASE空投做准备？]]></title>
+        <id>https://www.odaily.news/post/5186684</id>
+        <link href="https://www.odaily.news/post/5186684"/>
+        <updated>2023-04-25T04:36:24.000Z</updated>
+        <summary type="html"><![CDATA[来自 Twitter，原文作者：加密行业投资人 Axel Bitblaze
+
+Odaily 星球日报讯 | Moni
+
+
+4 月 25 日，Coinbase 二层网络 Base 宣布 Base Goerli 测试网将于北京时间 4 月 28 日 01: 00 进行 Regolith 硬分叉升级，作为 Base 测试网的首次升级，旨在使网络更加安全可靠。
+事实上，Base 本身就是为以太坊链上可访问性、安全性、以及低成本交易而设计，许多加密社区用户认为后续可能会有潜在的 BASE 空投。如果你已经是 Coinbase Base 二层网络平台的早期用户，如何可以赚取免费的 BASE NFT 并解锁潜在的奖励？
+首先，让我们简单介绍一下什么是 Base？Base 是 Coinbase 建立在以太坊二层网络 Optimism 上的 L2 区块链，Optimism 是仅次于于 Arbitrum 的第二大 L2 生态系统，通过实现参与 Rollup 之间的互操作性和可组合性来解决区块链三难困境。
+接下来，如果想要为潜在的 BASE 空投做好准备，不妨按以下步骤试试：
+第一步，将 Base 网络添加到你的 MetaMask 钱包
+你可以进入 MetaMask 钱包并搜索 Base Goerli Testnet - 点击 Base Goerli Testnet 下方的“connect wallet” - 批准在 Metamask 钱包中添加 Base 网络权限。
+第二步，申领一些测试 ETH（gETH）代币
+此时你需要访问并复制自己的 ETH 钱包地址，然后把复制的地址粘贴到搜索栏中，单击确定之后即可将获取测试网中的 ETH，只要在钱包的弹出窗口中批准相关交易，就会收到测试代币 gETH。
+第三步，将你的测试网资金 gETH 桥接至 Base Goerli 测试网
+
+当你走到这一步，就需要访问 bridge.base.org/deposit，然后将自己的钱包连接到该网站并且输入希望桥接接入的 gETH 金额。之后，你需要点击“DEPOSIT ETH（存入 ETH）”并批准钱包中的交易。
+第四步，在 BASE 上部署合约并开始铸造 NFT
+这一环节的主要步骤如下：
+-访问：thirdweb.com/thirdweb.eth/TokenERC 20 。
+-连接自己的钱包。
+-点击“DEPLOY NOW（立即部署）”。
+
+
+-你的钱包必须在 Base 网络上连接。
+-输入必要的细节信息，比如姓名、符号、描述&钱包地址（参见以下图片）。
+
+
+-点击“DEPLOY NOW（立即部署）”。
+第五步：在 Base quest 上提交你的合约地址
+这一环节的主要步骤如下：
+-访问：quests.base.org。
+-连接你的钱包。
+
+-点击“START QUEST（开始探索）”。
+-在第二步时，会询问你的测试代币合约地址。
+
+-将地址粘贴在地址栏中（参见以下图片）。
+
+
+-点击“VERIFY TXN（验证交易）”。
+第六步：铸造你的 NFT
+
+
+这一环节的主要步骤如下：
+-完成上述验证合约的步骤后，您将会在下一页看到铸造 NFT 的选项。
+-点击“MINT NFT（铸造 NFT）”并批准钱包中的交易。
+-完毕。现在你已经领取自己的 NFT 了。
+第七步：你可以完成公会中的任务以获得 Discord 中的角色
+这一环节的主要步骤如下：
+-访问：https://guild.xyz/buildonbase。
+-将你的钱包连接到公会站点。
+-完成公会中提到的任务，比如在推特上进行关注，加入 Discord 等。
+第八步：完成 Layer 3   的基础训练任务
+访问：https://layer 3.xyz/quests/intro-to-base，然后根据平台要求完成基础训练任务即可。]]></summary>
+        <author>
+            <name>Moni</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[以太坊提款功能开启后的带宽使用情况]]></title>
         <id>https://www.theblockbeats.info/news/36802</id>
