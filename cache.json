@@ -2313,6 +2313,26 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/36820",
+          "author": null,
+          "description": "一个关于如何获得秘密安全助记词的攻略",
+          "link": "https://www.theblockbeats.info/news/36820",
+          "publishedOn": "2023-04-26T13:00:01.000Z",
+          "wordCount": null,
+          "title": "如何通过物理手段获得一组秘密安全的助记词？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36821",
+          "author": null,
+          "description": "「NFT 文化正在改变」",
+          "link": "https://www.theblockbeats.info/news/36821",
+          "publishedOn": "2023-04-26T12:37:10.000Z",
+          "wordCount": null,
+          "title": "NFT未死，只是「重生」",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/36818",
           "author": null,
           "description": "Rollup as a Service",
@@ -2710,16 +2730,6 @@
           "publishedOn": "2023-04-22T02:21:32.000Z",
           "wordCount": null,
           "title": "Ondo的稳定币OMMF：由美债支持的算稳",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/36722",
-          "author": null,
-          "description": "原文标题：《\n\n盘点Polygon zkEVM生态12个DeFi项目\n\n》\n原文来源：\n\nForesight News\n\n\n\n3 月底，由 Polygon 打造的新产品 Polygon zkEVM 正式发布主网 Beta 版本。Polygon zkEVM 是一种 Layer2 Rollup 解决方案，三个主要组件包括可信定序器（Trusted Sequencer）、可信聚合器（Trusted Aggregator）以及部署在 Layer1 上的共识合约（Consensus Contract）。\n\n\n\n\n\n \n\n\n其中，可信定序器组件负责接收 Layer2 交易，并进行排序和生成批次，然后以序列的方式提交至共识合约的存储插槽（storage slots）中。可信定序器执行批量交易时还会将交易广播到 Layer2 网络节点；可信聚合器组件根据定序器的 Layer2 交易批次计算 Layer2 状态，并获取由可信定序器提交到 Layer2 的批次，并生成零知识证明来证明批处理的计算完整性。共识合约的逻辑会验证零知识证明，证明交易批次的正确执行，使得 zkEVM 能够继承 Layer1 安全性。\n \nForesight News 整理了上线 Polygon zkEVM 的 12 个 DeFi 项目。在上线主网三周多的时间，已有主要包括跨链和 DEX 的协议上线，除了扩展过来的项目之外，多数 DeFi 项目还处于非常早期的阶段（建议用户谨慎参与），且在 NFT、元宇宙、游戏、借贷等领域鲜有触及。考虑到 Polygon 本来的生态相对繁荣，之后有待涌入更多的生态项目来 zkEVM 构建。\n \n\n \n桥 / 跨链\n \n当前，Polygon 官方桥仅支持从以太坊桥接至 Polygon zkEVM 或撤回，支持的资产包括 ETH、MATIC、USDC、USDT、DAI、Aave 等多个资产。…",
-          "link": "https://www.theblockbeats.info/news/36722",
-          "publishedOn": "2023-04-22T02:00:01.000Z",
-          "wordCount": null,
-          "title": "盘点Polygon zkEVM生态12个DeFi项目",
           "imageUrl": null
         }
       ]

@@ -51,11 +51,465 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-26 datetime="2023-04-26T12:48:34.000Z">2023-04-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-26 datetime="2023-04-26T12:48:34.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-26 datetime="2023-04-26T13:00:01.000Z">2023-04-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-26 datetime="2023-04-26T13:00:01.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36820"
+                        open
+                      >
+                        <summary class="article-expander__title">如何通过物理手段获得一组秘密安全的助记词？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36820">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>一个关于如何获得秘密安全助记词的攻略</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36821"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT未死，只是「重生」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36821">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>「NFT 文化正在改变」</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36818"
+                        open
+                      >
+                        <summary class="article-expander__title">对话Offchain Labs工程师，Arbitrum在ModuLar Oriented中如何解决Rollup面临的问题？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36818">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Rollup as a Service</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36817"
+                        open
+                      >
+                        <summary class="article-expander__title">获利约180万美元，zkSync生态DEX Merlin安全事件分析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36817">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《获利约 180 万美元，zkSync 生态 DEX Merlin 安全事件分析》
+原文来源：Foresightnews
+
+
+2023 年 4 月 26 日，据 Beosin-Eagle Eye 态势感知平台消息，Merlin Dex 发生安全事件，USDC-WETH 流动性池的资金已全部被提取，攻击者获利共约 180 万美金。据了解，Merlin Dex 是一个去中心化交易所，关于本次安全事件，Beosin 安全团队第一时间对事件进行了分析，结果如下。
+
+
+
+
+
+
+
+
+
+
+
+事件相关信息
+
+
+
+
+我们以其中一笔交易为例进行分析
+
+
+
+
+攻击交易
+
+
+0xf21bedfb0e40bc4e98fd89d6b2bdaf82f0c452039452ca71f2cac9d8fea29ab2
+
+
+
+
+攻击者地址
+
+
+0xc0D6987d10430292A3ca994dd7A31E461eb28182
+
+
+0x2744d62a1e9ab975f4d77fe52e16206464ea79b7
+
+
+
+
+被攻击合约
+
+
+0x82cf66e9a45Df1CD3837cF623F7E73C1Ae6DFf1e（USDC-WETH 池子）
+
+
+
+
+攻击流程
+
+
+
+
+1. 第一步，池子创建者 (0xc0D6987d10430292A3ca994dd7A31E461eb28182) 创建了工厂合约
+
+
+（0x63E6fdAdb86Ea26f917496bEEEAEa4efb319229F），在初始化时 Feeto 地址已经被设为
+
+
+(0xc0D6987d10430292A3ca994dd7A31E461eb28182)。
+
+
+
+
+
+
+
+
+
+2. 攻击者通过工厂合约部署 USDC-WETH 池子（0x82cf66e9a45Df1CD3837cF623F7E73C1Ae6DFf1e），池子初始化时便将池子中的 USDC 和 WETH 最大化授权给了合约工厂的 Feeto 地址，可以看到这存在明显的中心化风险。
+
+
+
+
+
+
+
+
+
+3. 于是在有了最大授权的情况下，攻击者转走了该池子中的所有代币。
+
+
+
+
+
+
+
+
+
+4. 值得注意的是，在攻击发生之前，工厂合约的 Owner 和 Feeto 地址曾有过改动，但这一步并不是攻击所必须的，猜测可能是攻击者为了迷惑他人所做的操作。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+最后可以看到 USDC-WETH 流动性池的资金已全部被提取，攻击者获利共约 180 万美金。
+
+
+
+
+漏洞分析
+
+
+
+
+Beosin 安全团队分析本次攻击主要利用了 pair 合约的中心化问题，在初始化时最大化授权了工厂合约中的 Feeto 地址，而导致池子中的资金随时可能被初始化时设定的 Feeto 地址提取走。
+
+
+
+
+资金追踪
+
+
+
+
+攻击者调用了 transferFrom 函数从池子转出了 811K 的 USDC 给攻击者地址 1（0x2744d62a1e9ab975f4d77fe52e16206464ea79b7）。攻击者地址 2（0xcE4ee0E01bb729C1c5d6D2327BB0F036fA2cE7E2）从 token1 合约（WETH）提取了 435.2 的 eth，通过 Anyswap 跨链后转到以太坊地址（0xa7D481944730a88B862eB57248Cb1B2C8aa358Ad）和地址
+
+
+（0x0b8a3ef6307049aa0ff215720ab1fc885007393d）上，共获利约 180 万美元。
+
+
+
+
+截止发文时，Beosin KYT 反洗钱分析平台发现目前被盗资金仍存放在上述攻击者的两个以太坊主网地址上，Beosin 安全团队将持续对被盗资金进行监追踪。
+
+
+ 
+
+
+
+ 
+
+
+总结
+
+
+
+
+针对本次事件，Beosin 安全团队建议，项目方应该使用多签钱包或 DAO 治理来管理具有重要权限的地址，用户在进行项目交互时也要多多了解此项目是否涉及风险。
+
+
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/32141"
+                        open
+                      >
+                        <summary class="article-expander__title">为什么通过安全审计的项目还是会被攻击？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/32141">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：
+
+Haotian（Twitter：@tmel0211），区块链安全从业者
+
+
+本文首发于 2022 年 10 月，今日 zkSync 生态 DEX Merlin 流动性耗尽，黑客盗取 182 万美元资金。随后有读者发现，这个 Merlin 在上线前刚刚完成由 CertiK 进行的审计，虽然 CertiK 在报告中指出 Merlin 项目存在中心化问题，但仍没能避免安全问题发生，最终资金损失。
+
+
+那么为什么通过审计的项目还会被攻击、Rug或者存在各种漏洞？区块链安全领域从业者 Haotian（
+
+@tmel0211）在本文针对一些审计相关问题进行解答。
+
+
+年底安全事件一个个接踵而至，黑客估计是怕市场熊的没钱了，以亿为单位先把年终奖领了。有人要问了，Rabby、TempleDAO、Mango 这些被攻击的项目，都是被安全审计过的，为何还被攻击了？有人甚至借此非议安全审计没意义，作为多年区块链安全行业的从业者，简单说两句：
+
+
+1、各位看官得先调整预期，安全审计不可或缺，但审计完了也绝不可能一劳永逸。攻击和防御工事完全不是一个量级。我们看安全公司的 audit report 会发现，几乎每一个项目都能找出 1 个严重漏洞，2-4 个高风险漏洞，还有若干中等以及低级别的漏洞。你能说，这些漏洞发现没意义吗？有，但更多是降低安全风险！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2、有人会在东窗事发后说，漏洞这么简单，为何没被发现？这个问题很复杂，安全审计基于已有的工具，已有的经验进行逻辑审查，扫除代码缺陷，排查诸如溢出、重放、验签等常规漏洞。但 defi 等协议难的并非代码，而是复杂的金融业务逻辑，比如流程管控，外部组合嵌套，市场操纵等，超出安全公司的业务范畴。
+
+
+
+
+
+
+
+
+
+
+
+
+3、区块链生态存在形形色色的组合，开源+非开源，已审计项目+非审计项目，链下 validator+链上执行等等，很多项目给安全公司的审计也都只是模块化展开，比如审计开源的部分，那未开源的部分呢？因链下流程影响到链上执行呢，因市场交易深度问题导致市场被操纵呢？出了事，不可能全部让安全公司背锅。  
+
+
+4、可怕的是很多项目方，找安全审计的目的并不纯，只是希望拿到一份所谓的「安全背书」，抱有这样的心态做项目，其在自身安全防备上的投入可想而知。出了问题又一副我找 xx 头部安全公司审计过的无辜嘴脸，试问，项目本身在安全防御+加固+应急响应上的投入有多少呢？我想这才是安全事件屡见不鲜的根本原因；  
+
+
+5、其实，行业生态大的威胁并不全是黑客攻击，更多是安全意识薄弱造成的「人祸」，比如某些项目一旦遭攻击就会传出 rug 消息，我们司空见惯的网络钓鱼受诈骗等等，这些压根就没法统计，如果把人为 rug、网络钓鱼、网络勒索、资金盘诈骗等等一系列安全损失都统计起来呢？其安全威胁丝毫也不逊色于黑客；  
+
+
+6、在我看来，加密行业安全问题路漫漫其修远兮，我们预期的生态是，项目自身安全防护+第三方安全审计预防协助+用户人人皆有安全意识，行业从根本上变得更「安全」。但事实上，安全公司压根不是 security 建设者身份，安全公司能作为修理工，桥塌修桥，路断补路就不错了。安全生态需要每一个参与者共同守护。  
+
+
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36814"
+                        open
+                      >
+                        <summary class="article-expander__title">MEV2023展望：穿越黑暗森林</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36814">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《MEV Outlook 2023: Walking Through the Dark Forest》
+
+原文作者：EigenPhi
+
+原文编译：Foresight News
+
+
+
+
+* 注：本报告计算的清算交易统计范围为 2022 年 5 月至 12 月，其余类型统计范围为 2022 年全年。
+
+
+
+
+一、MEV 的新视角
+
+
+
+
+目前，大多数关于 MEV 主题的报告和文章都围绕着概念介绍与如何将订单（order）引入 MEV 市场，所关注的问题包括但不限于 MEV 市场的公平性、MEV 带来的负外部性以及与机制设计有关的中心化风险或审查问题，这些都是许多区块链协议与应用层建设者正在努力解决的方向。
+
+
+
+
+此外，Amber Group 与《福布斯》还撰文介绍了大量长尾 MEV 案例、著名的 MEV 搜索者 Nathan Worsley 的掘金策略内幕，以及 Wintermute 与 Alameda Research 这两个运行 MEV 策略的量化机构。它们的文章中都提到了「订单流支付」（Payment for Order Flow）的概念，这似乎是一个大的趋势，开发者们正在为之努力，包括 Cowswap、1inch Fusion 模式与 Flashbots 的 MEV-Share。主流金融机构也开始关注 MEV 领域，譬如纳斯达克的新闻与见解栏目转发了 CoinDesk 关于 JIT 机器人与 MEV 如何促进 DeFi 的文章。当然，也有小部分人关注 MEV 市场的监管。
+
+
+
+
+事实上，在普遍关注 MEV 宏观市场机制的运作之外，我们认为还有一个微观的问题值得关注：作为一个代表，MEV 交易意味着流动性数据（liquidity data）具有前所未有的机会和挑战。
+
+
+
+
+早在 2022 年 5 月 UST-LUNA 熔断引发的一系列事件中，从事加密业务的…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36812"
+                        open
+                      >
+                        <summary class="article-expander__title">第18周链上数据：市场不安情绪依然在弥漫，但抛压已得到一定缓解</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36812">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>场内交易量仍然较高，可能是处于换手阶段</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36807"
+                        open
+                      >
+                        <summary class="article-expander__title">BASE：一个新的由Coinbase孵化并建立在开源OP Stack之上的以太坊L2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36807">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《BASE：一个新的由 Coinbase 孵化并建立在开源 OP Stack 之上的以太坊 L2》
+原文来源：@Yinan 推特
+
+
+Base 是一个由 Coinbase 推出的基于开源 OP Stack 之上的一个以太坊二层网络。
+
+
+
+
+共享以太坊的安全性
+
+
+Base 具有支持分散式应用程序所需的安全性和可扩展性。它利用以太坊的底层安全性以及 Coinbase 的最佳实践，使用户可以从 Coinbase、以太坊 L1 和其他可互操作的链进入 Base。
+
+
+功能强大，费用低廉
+
+
+Base 以极低的成本提供完整的 EVM 等效性，并致力于推动开发人员平台的发展。
+
+
+由 Coinbase 提供支持
+
+
+Base 通过访问 Coinbase 的产品、用户和工具，可以轻松构建去中心化应用程序。无缝的 Coinbase 产品集成、轻松的法定入口和强大的获取工具使开发人员能够为超过 1.1 亿的经过验证的用户提供服务，并在 Coinbase 生态系统的平台上访问价值 800 亿美元的资产
+
+
+开源
+
+
+Base 的目标是实现去中心化、无需许可且向任何人开放，其愿景是创建一个由 Optimism 驱动的标准、模块化、对 rollup 无偏见的超级链。
+
+
+
+
+之前 Coinbase 的产品大都不是智能合约编写的，它们主要利用与其他 Web2 公司相同的应用基础设施。虽然它们使 Coinbase 的客户能够使用加密货币，但它们并非在加密货币支持的链上平台上作为原生 dapp 构建。在过去的几年里，Coinbase 团队已经慢慢改变了这一点：USDC、Coinbase 钱包和 cbETH 是原生链上产品的例子，它们为 Coinbase 带来了大量的活动和收入。
+
+
+
+
+
+在未来，团队希望构建更多像这样充分利用链上环境能力的产品。为了将数十亿用户带入加密经济，dapps 需…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -2005,426 +2459,6 @@ Odaily星球日报讯 Lookonchain 监测数据显示，一些沉寂多年的 B
 此外，持有 79, 957 枚 BTC（21.9 亿美元）的一个巨鲸已经沉寂 …</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36818"
-                        open
-                      >
-                        <summary class="article-expander__title">对话Offchain Labs工程师，Arbitrum在ModuLar Oriented中如何解决Rollup面临的问题？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36818">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Rollup as a Service</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36817"
-                        open
-                      >
-                        <summary class="article-expander__title">获利约180万美元，zkSync生态DEX Merlin安全事件分析</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36817">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《获利约 180 万美元，zkSync 生态 DEX Merlin 安全事件分析》
-原文来源：Foresightnews
-
-
-2023 年 4 月 26 日，据 Beosin-Eagle Eye 态势感知平台消息，Merlin Dex 发生安全事件，USDC-WETH 流动性池的资金已全部被提取，攻击者获利共约 180 万美金。据了解，Merlin Dex 是一个去中心化交易所，关于本次安全事件，Beosin 安全团队第一时间对事件进行了分析，结果如下。
-
-
-
-
-
-
-
-
-
-
-
-事件相关信息
-
-
-
-
-我们以其中一笔交易为例进行分析
-
-
-
-
-攻击交易
-
-
-0xf21bedfb0e40bc4e98fd89d6b2bdaf82f0c452039452ca71f2cac9d8fea29ab2
-
-
-
-
-攻击者地址
-
-
-0xc0D6987d10430292A3ca994dd7A31E461eb28182
-
-
-0x2744d62a1e9ab975f4d77fe52e16206464ea79b7
-
-
-
-
-被攻击合约
-
-
-0x82cf66e9a45Df1CD3837cF623F7E73C1Ae6DFf1e（USDC-WETH 池子）
-
-
-
-
-攻击流程
-
-
-
-
-1. 第一步，池子创建者 (0xc0D6987d10430292A3ca994dd7A31E461eb28182) 创建了工厂合约
-
-
-（0x63E6fdAdb86Ea26f917496bEEEAEa4efb319229F），在初始化时 Feeto 地址已经被设为
-
-
-(0xc0D6987d10430292A3ca994dd7A31E461eb28182)。
-
-
-
-
-
-
-
-
-
-2. 攻击者通过工厂合约部署 USDC-WETH 池子（0x82cf66e9a45Df1CD3837cF623F7E73C1Ae6DFf1e），池子初始化时便将池子中的 USDC 和 WETH 最大化授权给了合约工厂的 Feeto 地址，可以看到这存在明显的中心化风险。
-
-
-
-
-
-
-
-
-
-3. 于是在有了最大授权的情况下，攻击者转走了该池子中的所有代币。
-
-
-
-
-
-
-
-
-
-4. 值得注意的是，在攻击发生之前，工厂合约的 Owner 和 Feeto 地址曾有过改动，但这一步并不是攻击所必须的，猜测可能是攻击者为了迷惑他人所做的操作。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-最后可以看到 USDC-WETH 流动性池的资金已全部被提取，攻击者获利共约 180 万美金。
-
-
-
-
-漏洞分析
-
-
-
-
-Beosin 安全团队分析本次攻击主要利用了 pair 合约的中心化问题，在初始化时最大化授权了工厂合约中的 Feeto 地址，而导致池子中的资金随时可能被初始化时设定的 Feeto 地址提取走。
-
-
-
-
-资金追踪
-
-
-
-
-攻击者调用了 transferFrom 函数从池子转出了 811K 的 USDC 给攻击者地址 1（0x2744d62a1e9ab975f4d77fe52e16206464ea79b7）。攻击者地址 2（0xcE4ee0E01bb729C1c5d6D2327BB0F036fA2cE7E2）从 token1 合约（WETH）提取了 435.2 的 eth，通过 Anyswap 跨链后转到以太坊地址（0xa7D481944730a88B862eB57248Cb1B2C8aa358Ad）和地址
-
-
-（0x0b8a3ef6307049aa0ff215720ab1fc885007393d）上，共获利约 180 万美元。
-
-
-
-
-截止发文时，Beosin KYT 反洗钱分析平台发现目前被盗资金仍存放在上述攻击者的两个以太坊主网地址上，Beosin 安全团队将持续对被盗资金进行监追踪。
-
-
- 
-
-
-
- 
-
-
-总结
-
-
-
-
-针对本次事件，Beosin 安全团队建议，项目方应该使用多签钱包或 DAO 治理来管理具有重要权限的地址，用户在进行项目交互时也要多多了解此项目是否涉及风险。
-
-
-原文链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/32141"
-                        open
-                      >
-                        <summary class="article-expander__title">为什么通过安全审计的项目还是会被攻击？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/32141">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：
-
-Haotian（Twitter：@tmel0211），区块链安全从业者
-
-
-本文首发于 2022 年 10 月，今日 zkSync 生态 DEX Merlin 流动性耗尽，黑客盗取 182 万美元资金。随后有读者发现，这个 Merlin 在上线前刚刚完成由 CertiK 进行的审计，虽然 CertiK 在报告中指出 Merlin 项目存在中心化问题，但仍没能避免安全问题发生，最终资金损失。
-
-
-那么为什么通过审计的项目还会被攻击、Rug或者存在各种漏洞？区块链安全领域从业者 Haotian（
-
-@tmel0211）在本文针对一些审计相关问题进行解答。
-
-
-年底安全事件一个个接踵而至，黑客估计是怕市场熊的没钱了，以亿为单位先把年终奖领了。有人要问了，Rabby、TempleDAO、Mango 这些被攻击的项目，都是被安全审计过的，为何还被攻击了？有人甚至借此非议安全审计没意义，作为多年区块链安全行业的从业者，简单说两句：
-
-
-1、各位看官得先调整预期，安全审计不可或缺，但审计完了也绝不可能一劳永逸。攻击和防御工事完全不是一个量级。我们看安全公司的 audit report 会发现，几乎每一个项目都能找出 1 个严重漏洞，2-4 个高风险漏洞，还有若干中等以及低级别的漏洞。你能说，这些漏洞发现没意义吗？有，但更多是降低安全风险！
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2、有人会在东窗事发后说，漏洞这么简单，为何没被发现？这个问题很复杂，安全审计基于已有的工具，已有的经验进行逻辑审查，扫除代码缺陷，排查诸如溢出、重放、验签等常规漏洞。但 defi 等协议难的并非代码，而是复杂的金融业务逻辑，比如流程管控，外部组合嵌套，市场操纵等，超出安全公司的业务范畴。
-
-
-
-
-
-
-
-
-
-
-
-
-3、区块链生态存在形形色色的组合，开源+非开源，已审计项目+非审计项目，链下 validator+链上执行等等，很多项目给安全公司的审计也都只是模块化展开，比如审计开源的部分，那未开源的部分呢？因链下流程影响到链上执行呢，因市场交易深度问题导致市场被操纵呢？出了事，不可能全部让安全公司背锅。  
-
-
-4、可怕的是很多项目方，找安全审计的目的并不纯，只是希望拿到一份所谓的「安全背书」，抱有这样的心态做项目，其在自身安全防备上的投入可想而知。出了问题又一副我找 xx 头部安全公司审计过的无辜嘴脸，试问，项目本身在安全防御+加固+应急响应上的投入有多少呢？我想这才是安全事件屡见不鲜的根本原因；  
-
-
-5、其实，行业生态大的威胁并不全是黑客攻击，更多是安全意识薄弱造成的「人祸」，比如某些项目一旦遭攻击就会传出 rug 消息，我们司空见惯的网络钓鱼受诈骗等等，这些压根就没法统计，如果把人为 rug、网络钓鱼、网络勒索、资金盘诈骗等等一系列安全损失都统计起来呢？其安全威胁丝毫也不逊色于黑客；  
-
-
-6、在我看来，加密行业安全问题路漫漫其修远兮，我们预期的生态是，项目自身安全防护+第三方安全审计预防协助+用户人人皆有安全意识，行业从根本上变得更「安全」。但事实上，安全公司压根不是 security 建设者身份，安全公司能作为修理工，桥塌修桥，路断补路就不错了。安全生态需要每一个参与者共同守护。  
-
-
-原文链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36814"
-                        open
-                      >
-                        <summary class="article-expander__title">MEV2023展望：穿越黑暗森林</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36814">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《MEV Outlook 2023: Walking Through the Dark Forest》
-
-原文作者：EigenPhi
-
-原文编译：Foresight News
-
-
-
-
-* 注：本报告计算的清算交易统计范围为 2022 年 5 月至 12 月，其余类型统计范围为 2022 年全年。
-
-
-
-
-一、MEV 的新视角
-
-
-
-
-目前，大多数关于 MEV 主题的报告和文章都围绕着概念介绍与如何将订单（order）引入 MEV 市场，所关注的问题包括但不限于 MEV 市场的公平性、MEV 带来的负外部性以及与机制设计有关的中心化风险或审查问题，这些都是许多区块链协议与应用层建设者正在努力解决的方向。
-
-
-
-
-此外，Amber Group 与《福布斯》还撰文介绍了大量长尾 MEV 案例、著名的 MEV 搜索者 Nathan Worsley 的掘金策略内幕，以及 Wintermute 与 Alameda Research 这两个运行 MEV 策略的量化机构。它们的文章中都提到了「订单流支付」（Payment for Order Flow）的概念，这似乎是一个大的趋势，开发者们正在为之努力，包括 Cowswap、1inch Fusion 模式与 Flashbots 的 MEV-Share。主流金融机构也开始关注 MEV 领域，譬如纳斯达克的新闻与见解栏目转发了 CoinDesk 关于 JIT 机器人与 MEV 如何促进 DeFi 的文章。当然，也有小部分人关注 MEV 市场的监管。
-
-
-
-
-事实上，在普遍关注 MEV 宏观市场机制的运作之外，我们认为还有一个微观的问题值得关注：作为一个代表，MEV 交易意味着流动性数据（liquidity data）具有前所未有的机会和挑战。
-
-
-
-
-早在 2022 年 5 月 UST-LUNA 熔断引发的一系列事件中，从事加密业务的…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36812"
-                        open
-                      >
-                        <summary class="article-expander__title">第18周链上数据：市场不安情绪依然在弥漫，但抛压已得到一定缓解</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36812">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>场内交易量仍然较高，可能是处于换手阶段</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36807"
-                        open
-                      >
-                        <summary class="article-expander__title">BASE：一个新的由Coinbase孵化并建立在开源OP Stack之上的以太坊L2</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36807">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《BASE：一个新的由 Coinbase 孵化并建立在开源 OP Stack 之上的以太坊 L2》
-原文来源：@Yinan 推特
-
-
-Base 是一个由 Coinbase 推出的基于开源 OP Stack 之上的一个以太坊二层网络。
-
-
-
-
-共享以太坊的安全性
-
-
-Base 具有支持分散式应用程序所需的安全性和可扩展性。它利用以太坊的底层安全性以及 Coinbase 的最佳实践，使用户可以从 Coinbase、以太坊 L1 和其他可互操作的链进入 Base。
-
-
-功能强大，费用低廉
-
-
-Base 以极低的成本提供完整的 EVM 等效性，并致力于推动开发人员平台的发展。
-
-
-由 Coinbase 提供支持
-
-
-Base 通过访问 Coinbase 的产品、用户和工具，可以轻松构建去中心化应用程序。无缝的 Coinbase 产品集成、轻松的法定入口和强大的获取工具使开发人员能够为超过 1.1 亿的经过验证的用户提供服务，并在 Coinbase 生态系统的平台上访问价值 800 亿美元的资产
-
-
-开源
-
-
-Base 的目标是实现去中心化、无需许可且向任何人开放，其愿景是创建一个由 Optimism 驱动的标准、模块化、对 rollup 无偏见的超级链。
-
-
-
-
-之前 Coinbase 的产品大都不是智能合约编写的，它们主要利用与其他 Web2 公司相同的应用基础设施。虽然它们使 Coinbase 的客户能够使用加密货币，但它们并非在加密货币支持的链上平台上作为原生 dapp 构建。在过去的几年里，Coinbase 团队已经慢慢改变了这一点：USDC、Coinbase 钱包和 cbETH 是原生链上产品的例子，它们为 Coinbase 带来了大量的活动和收入。
-
-
-
-
-
-在未来，团队希望构建更多像这样充分利用链上环境能力的产品。为了将数十亿用户带入加密经济，dapps 需…</span>
                             </span>
                           </div>
                         </a>
@@ -9199,51 +9233,6 @@ Ondo 已推出的三类基金 token，分别是：OHYG、OSTB、OUSG。OHYG 提�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36722"
-                        open
-                      >
-                        <summary class="article-expander__title">盘点Polygon zkEVM生态12个DeFi项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36722">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《
-
-盘点Polygon zkEVM生态12个DeFi项目
-
-》
-原文来源：
-
-Foresight News
-
-
-
-3 月底，由 Polygon 打造的新产品 Polygon zkEVM 正式发布主网 Beta 版本。Polygon zkEVM 是一种 Layer2 Rollup 解决方案，三个主要组件包括可信定序器（Trusted Sequencer）、可信聚合器（Trusted Aggregator）以及部署在 Layer1 上的共识合约（Consensus Contract）。
-
-
-
-
-
- 
-
-
-其中，可信定序器组件负责接收 Layer2 交易，并进行排序和生成批次，然后以序列的方式提交至共识合约的存储插槽（storage slots）中。可信定序器执行批量交易时还会将交易广播到 Layer2 网络节点；可信聚合器组件根据定序器的 Layer2 交易批次计算 Layer2 状态，并获取由可信定序器提交到 Layer2 的批次，并生成零知识证明来证明批处理的计算完整性。共识合约的逻辑会验证零知识证明，证明交易批次的正确执行，使得 zkEVM 能够继承 Layer1 安全性。
- 
-Foresight News 整理了上线 Polygon zkEVM 的 12 个 DeFi 项目。在上线主网三周多的时间，已有主要包括跨链和 DEX 的协议上线，除了扩展过来的项目之外，多数 DeFi 项目还处于非常早期的阶段（建议用户谨慎参与），且在 NFT、元宇宙、游戏、借贷等领域鲜有触及。考虑到 Polygon 本来的生态相对繁荣，之后有待涌入更多的生态项目来 zkEVM 构建。
- 
-
- 
-桥 / 跨链
- 
-当前，Polygon 官方桥仅支持从以太坊桥接至 Polygon zkEVM 或撤回，支持的资产包括 ETH、MATIC、USDC、USDT、DAI、Aave 等多个资产。…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9251,8 +9240,8 @@ Foresight News 整理了上线 Polygon zkEVM 的 12 个 DeFi 项目。在上线�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4809091632">
-        <time id="build-timestamp" datetime="2023-04-26T13:10:58.882Z">2023-04-26T13:10:58.882Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4809662696">
+        <time id="build-timestamp" datetime="2023-04-26T14:07:21.275Z">2023-04-26T14:07:21.275Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
