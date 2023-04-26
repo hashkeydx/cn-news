@@ -51,465 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-26 datetime="2023-04-26T13:00:01.000Z">2023-04-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-26 datetime="2023-04-26T13:00:01.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-26 datetime="2023-04-26T14:36:10.000Z">2023-04-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-26 datetime="2023-04-26T14:36:10.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36820"
-                        open
-                      >
-                        <summary class="article-expander__title">如何通过物理手段获得一组秘密安全的助记词？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36820">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>一个关于如何获得秘密安全助记词的攻略</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36821"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT未死，只是「重生」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36821">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>「NFT 文化正在改变」</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36818"
-                        open
-                      >
-                        <summary class="article-expander__title">对话Offchain Labs工程师，Arbitrum在ModuLar Oriented中如何解决Rollup面临的问题？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36818">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Rollup as a Service</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36817"
-                        open
-                      >
-                        <summary class="article-expander__title">获利约180万美元，zkSync生态DEX Merlin安全事件分析</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36817">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《获利约 180 万美元，zkSync 生态 DEX Merlin 安全事件分析》
-原文来源：Foresightnews
-
-
-2023 年 4 月 26 日，据 Beosin-Eagle Eye 态势感知平台消息，Merlin Dex 发生安全事件，USDC-WETH 流动性池的资金已全部被提取，攻击者获利共约 180 万美金。据了解，Merlin Dex 是一个去中心化交易所，关于本次安全事件，Beosin 安全团队第一时间对事件进行了分析，结果如下。
-
-
-
-
-
-
-
-
-
-
-
-事件相关信息
-
-
-
-
-我们以其中一笔交易为例进行分析
-
-
-
-
-攻击交易
-
-
-0xf21bedfb0e40bc4e98fd89d6b2bdaf82f0c452039452ca71f2cac9d8fea29ab2
-
-
-
-
-攻击者地址
-
-
-0xc0D6987d10430292A3ca994dd7A31E461eb28182
-
-
-0x2744d62a1e9ab975f4d77fe52e16206464ea79b7
-
-
-
-
-被攻击合约
-
-
-0x82cf66e9a45Df1CD3837cF623F7E73C1Ae6DFf1e（USDC-WETH 池子）
-
-
-
-
-攻击流程
-
-
-
-
-1. 第一步，池子创建者 (0xc0D6987d10430292A3ca994dd7A31E461eb28182) 创建了工厂合约
-
-
-（0x63E6fdAdb86Ea26f917496bEEEAEa4efb319229F），在初始化时 Feeto 地址已经被设为
-
-
-(0xc0D6987d10430292A3ca994dd7A31E461eb28182)。
-
-
-
-
-
-
-
-
-
-2. 攻击者通过工厂合约部署 USDC-WETH 池子（0x82cf66e9a45Df1CD3837cF623F7E73C1Ae6DFf1e），池子初始化时便将池子中的 USDC 和 WETH 最大化授权给了合约工厂的 Feeto 地址，可以看到这存在明显的中心化风险。
-
-
-
-
-
-
-
-
-
-3. 于是在有了最大授权的情况下，攻击者转走了该池子中的所有代币。
-
-
-
-
-
-
-
-
-
-4. 值得注意的是，在攻击发生之前，工厂合约的 Owner 和 Feeto 地址曾有过改动，但这一步并不是攻击所必须的，猜测可能是攻击者为了迷惑他人所做的操作。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-最后可以看到 USDC-WETH 流动性池的资金已全部被提取，攻击者获利共约 180 万美金。
-
-
-
-
-漏洞分析
-
-
-
-
-Beosin 安全团队分析本次攻击主要利用了 pair 合约的中心化问题，在初始化时最大化授权了工厂合约中的 Feeto 地址，而导致池子中的资金随时可能被初始化时设定的 Feeto 地址提取走。
-
-
-
-
-资金追踪
-
-
-
-
-攻击者调用了 transferFrom 函数从池子转出了 811K 的 USDC 给攻击者地址 1（0x2744d62a1e9ab975f4d77fe52e16206464ea79b7）。攻击者地址 2（0xcE4ee0E01bb729C1c5d6D2327BB0F036fA2cE7E2）从 token1 合约（WETH）提取了 435.2 的 eth，通过 Anyswap 跨链后转到以太坊地址（0xa7D481944730a88B862eB57248Cb1B2C8aa358Ad）和地址
-
-
-（0x0b8a3ef6307049aa0ff215720ab1fc885007393d）上，共获利约 180 万美元。
-
-
-
-
-截止发文时，Beosin KYT 反洗钱分析平台发现目前被盗资金仍存放在上述攻击者的两个以太坊主网地址上，Beosin 安全团队将持续对被盗资金进行监追踪。
-
-
- 
-
-
-
- 
-
-
-总结
-
-
-
-
-针对本次事件，Beosin 安全团队建议，项目方应该使用多签钱包或 DAO 治理来管理具有重要权限的地址，用户在进行项目交互时也要多多了解此项目是否涉及风险。
-
-
-原文链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/32141"
-                        open
-                      >
-                        <summary class="article-expander__title">为什么通过安全审计的项目还是会被攻击？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/32141">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：
-
-Haotian（Twitter：@tmel0211），区块链安全从业者
-
-
-本文首发于 2022 年 10 月，今日 zkSync 生态 DEX Merlin 流动性耗尽，黑客盗取 182 万美元资金。随后有读者发现，这个 Merlin 在上线前刚刚完成由 CertiK 进行的审计，虽然 CertiK 在报告中指出 Merlin 项目存在中心化问题，但仍没能避免安全问题发生，最终资金损失。
-
-
-那么为什么通过审计的项目还会被攻击、Rug或者存在各种漏洞？区块链安全领域从业者 Haotian（
-
-@tmel0211）在本文针对一些审计相关问题进行解答。
-
-
-年底安全事件一个个接踵而至，黑客估计是怕市场熊的没钱了，以亿为单位先把年终奖领了。有人要问了，Rabby、TempleDAO、Mango 这些被攻击的项目，都是被安全审计过的，为何还被攻击了？有人甚至借此非议安全审计没意义，作为多年区块链安全行业的从业者，简单说两句：
-
-
-1、各位看官得先调整预期，安全审计不可或缺，但审计完了也绝不可能一劳永逸。攻击和防御工事完全不是一个量级。我们看安全公司的 audit report 会发现，几乎每一个项目都能找出 1 个严重漏洞，2-4 个高风险漏洞，还有若干中等以及低级别的漏洞。你能说，这些漏洞发现没意义吗？有，但更多是降低安全风险！
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2、有人会在东窗事发后说，漏洞这么简单，为何没被发现？这个问题很复杂，安全审计基于已有的工具，已有的经验进行逻辑审查，扫除代码缺陷，排查诸如溢出、重放、验签等常规漏洞。但 defi 等协议难的并非代码，而是复杂的金融业务逻辑，比如流程管控，外部组合嵌套，市场操纵等，超出安全公司的业务范畴。
-
-
-
-
-
-
-
-
-
-
-
-
-3、区块链生态存在形形色色的组合，开源+非开源，已审计项目+非审计项目，链下 validator+链上执行等等，很多项目给安全公司的审计也都只是模块化展开，比如审计开源的部分，那未开源的部分呢？因链下流程影响到链上执行呢，因市场交易深度问题导致市场被操纵呢？出了事，不可能全部让安全公司背锅。  
-
-
-4、可怕的是很多项目方，找安全审计的目的并不纯，只是希望拿到一份所谓的「安全背书」，抱有这样的心态做项目，其在自身安全防备上的投入可想而知。出了问题又一副我找 xx 头部安全公司审计过的无辜嘴脸，试问，项目本身在安全防御+加固+应急响应上的投入有多少呢？我想这才是安全事件屡见不鲜的根本原因；  
-
-
-5、其实，行业生态大的威胁并不全是黑客攻击，更多是安全意识薄弱造成的「人祸」，比如某些项目一旦遭攻击就会传出 rug 消息，我们司空见惯的网络钓鱼受诈骗等等，这些压根就没法统计，如果把人为 rug、网络钓鱼、网络勒索、资金盘诈骗等等一系列安全损失都统计起来呢？其安全威胁丝毫也不逊色于黑客；  
-
-
-6、在我看来，加密行业安全问题路漫漫其修远兮，我们预期的生态是，项目自身安全防护+第三方安全审计预防协助+用户人人皆有安全意识，行业从根本上变得更「安全」。但事实上，安全公司压根不是 security 建设者身份，安全公司能作为修理工，桥塌修桥，路断补路就不错了。安全生态需要每一个参与者共同守护。  
-
-
-原文链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36814"
-                        open
-                      >
-                        <summary class="article-expander__title">MEV2023展望：穿越黑暗森林</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36814">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《MEV Outlook 2023: Walking Through the Dark Forest》
-
-原文作者：EigenPhi
-
-原文编译：Foresight News
-
-
-
-
-* 注：本报告计算的清算交易统计范围为 2022 年 5 月至 12 月，其余类型统计范围为 2022 年全年。
-
-
-
-
-一、MEV 的新视角
-
-
-
-
-目前，大多数关于 MEV 主题的报告和文章都围绕着概念介绍与如何将订单（order）引入 MEV 市场，所关注的问题包括但不限于 MEV 市场的公平性、MEV 带来的负外部性以及与机制设计有关的中心化风险或审查问题，这些都是许多区块链协议与应用层建设者正在努力解决的方向。
-
-
-
-
-此外，Amber Group 与《福布斯》还撰文介绍了大量长尾 MEV 案例、著名的 MEV 搜索者 Nathan Worsley 的掘金策略内幕，以及 Wintermute 与 Alameda Research 这两个运行 MEV 策略的量化机构。它们的文章中都提到了「订单流支付」（Payment for Order Flow）的概念，这似乎是一个大的趋势，开发者们正在为之努力，包括 Cowswap、1inch Fusion 模式与 Flashbots 的 MEV-Share。主流金融机构也开始关注 MEV 领域，譬如纳斯达克的新闻与见解栏目转发了 CoinDesk 关于 JIT 机器人与 MEV 如何促进 DeFi 的文章。当然，也有小部分人关注 MEV 市场的监管。
-
-
-
-
-事实上，在普遍关注 MEV 宏观市场机制的运作之外，我们认为还有一个微观的问题值得关注：作为一个代表，MEV 交易意味着流动性数据（liquidity data）具有前所未有的机会和挑战。
-
-
-
-
-早在 2022 年 5 月 UST-LUNA 熔断引发的一系列事件中，从事加密业务的…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36812"
-                        open
-                      >
-                        <summary class="article-expander__title">第18周链上数据：市场不安情绪依然在弥漫，但抛压已得到一定缓解</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36812">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>场内交易量仍然较高，可能是处于换手阶段</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36807"
-                        open
-                      >
-                        <summary class="article-expander__title">BASE：一个新的由Coinbase孵化并建立在开源OP Stack之上的以太坊L2</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36807">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《BASE：一个新的由 Coinbase 孵化并建立在开源 OP Stack 之上的以太坊 L2》
-原文来源：@Yinan 推特
-
-
-Base 是一个由 Coinbase 推出的基于开源 OP Stack 之上的一个以太坊二层网络。
-
-
-
-
-共享以太坊的安全性
-
-
-Base 具有支持分散式应用程序所需的安全性和可扩展性。它利用以太坊的底层安全性以及 Coinbase 的最佳实践，使用户可以从 Coinbase、以太坊 L1 和其他可互操作的链进入 Base。
-
-
-功能强大，费用低廉
-
-
-Base 以极低的成本提供完整的 EVM 等效性，并致力于推动开发人员平台的发展。
-
-
-由 Coinbase 提供支持
-
-
-Base 通过访问 Coinbase 的产品、用户和工具，可以轻松构建去中心化应用程序。无缝的 Coinbase 产品集成、轻松的法定入口和强大的获取工具使开发人员能够为超过 1.1 亿的经过验证的用户提供服务，并在 Coinbase 生态系统的平台上访问价值 800 亿美元的资产
-
-
-开源
-
-
-Base 的目标是实现去中心化、无需许可且向任何人开放，其愿景是创建一个由 Optimism 驱动的标准、模块化、对 rollup 无偏见的超级链。
-
-
-
-
-之前 Coinbase 的产品大都不是智能合约编写的，它们主要利用与其他 Web2 公司相同的应用基础设施。虽然它们使 Coinbase 的客户能够使用加密货币，但它们并非在加密货币支持的链上平台上作为原生 dapp 构建。在过去的几年里，Coinbase 团队已经慢慢改变了这一点：USDC、Coinbase 钱包和 cbETH 是原生链上产品的例子，它们为 Coinbase 带来了大量的活动和收入。
-
-
-
-
-
-在未来，团队希望构建更多像这样充分利用链上环境能力的产品。为了将数十亿用户带入加密经济，dapps 需…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -521,6 +67,170 @@ Base 的目标是实现去中心化、无需许可且向任何人开放，其愿
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/467t3sc4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT期货DEX Tribe3完成210万美元融资，Spartan Capital等参投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/467t3sc4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月26日消息，社交和游戏化去中心化 NFT 期货交易所 Tribe3 完成 210 万美元融资，参投方包括 Spartan Capital、Newman Capital、Infinity Ventures Crypto、Modular Capital、Cogitent Ventures、Blockbuilders、Founderheads、Lapin Digital、Blockhype 等。Tribe3 将于 2023 年 5 月 3 日在 Arbitrum 上推出测试网，首阶段将支持 4 个 NFT 系列，包括 Bored Ape Yacht Club、Mutant Ape Yacht Club、Azuki 和 CryptoPunks。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/76rkfm1h.html"
+                        open
+                      >
+                        <summary class="article-expander__title">第一共和银行市值跌破10亿美元，现跌近40%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/76rkfm1h.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月26日消息，美股行情显示，第一共和银行市值跌破10亿美元，股价跌破5美元，现跌近40%。
+今日早些时候报道，美国白宫或财政部似乎拒绝了向银行施压以迫使其出售资产自救。分析师称第一共和银行找到买家的机会“几乎为零”。部分分析师将今日比特币大幅反弹的原因归咎于美国银行业危机的再次发酵。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/mg2jupt4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">英国阻止微软以690亿美元收购动视暴雪</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/mg2jupt4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月26日消息，英国竞争和市场管理局（CMA）周三阻止微软收购动视暴雪。这对微软来说是一个重大打击，因为它一直试图说服英国当局，这笔交易将促进市场竞争。微软表示，计划对这一裁决提起上诉。CMA表示，这笔交易引发了对新兴云游戏市场竞争的担忧。CMA此前曾表示，担心这笔交易影响游戏机行业的市场竞争，但在3月份的初步决定中排除了这种担忧。CMA认为，微软可能会将动视的游戏设为其云游戏平台Xbox Game Pass的专属，切断动视游戏向其他主要云游戏平台的分销。CMA在新闻稿中表示：“就在云游戏行业开始快速增长的阶段，允许微软占据如此强大的地位，可能会破坏创新，而创新对行业的发展至关重要。”
+相关阅读：微软将收购动视暴雪，此举是否与其元宇宙战略结合？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/5vqhu85e.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Circle推出以太坊和Avalanche之间的USDC跨链协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5vqhu85e.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月26日消息，Circle 今日宣布推出以太坊和 Avalanche 之间的 USDC 跨链传输协议(CCTP)，该协议会在用户跨链时销毁原链上的代币并在目标链上铸造新的代币。Circle 表示，包括 Celer、Hyperlane、LayerZero、LI.FI、MetaMask、Wormhole 等跨链项目未来将使用该协议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/y3to7m5o.html"
+                        open
+                      >
+                        <summary class="article-expander__title">观点：比特币上涨或再次受益于美国银行业危机，美股第一共和银行盘中两度停牌</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/y3to7m5o.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月26日消息，据Cointelegraph报道，部分分析师将今日比特币大幅反弹的原因归咎于美国银行业危机的再次发酵。美股行情显示，第一共和银行今日盘中已两度停牌，目前跌幅扩大至24%。据其此前发布的收益报告显示，由于客户提取资金，第一共和银行本季度客户存款减少了40.8%。该银行在 3 月份获得 300 亿美元的现金注入，但季度流出已超过 1000 亿美元。
+另据据CNBC援引消息人士报道，目前美国白宫或财政部似乎不愿意向银行施压，要求它们制定第一共和银行的资产出售计划。CNBC财经记者和市场新闻分析师David Faber说，他目前不知道这家银行能否在未来的日子继续经营下去，也不知道联邦存款保险公司是否会对此家银行发表“破产声明”。但他说，解决方案（可能是联邦存款保险公司的接管）目前正变得越来越有可能，因为第一共和银行找到买家的机会“几乎为零”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/h66ruuag.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Bitpanda和Raiffeisen Unit合作计划为银行客户提供加密货币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/h66ruuag.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月26日消息，加密货币交易所 Bitpanda 和奥地利传统银行 Raiffeisen Bank 位于维也纳的一个部门正在合作向银行客户提供加密货币服务。为此，RLB NÖ-Wien 签署了一份意向书，以研究与 Bitpanda 的合作。具体报价的评估过程应在年底前完成。Raiffeisen 计划在其数字投资产品中纳入加密货币和其他资产类别，这在欧盟的传统银行中尚属首次。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/uclosxpj.html"
+                        open
+                      >
+                        <summary class="article-expander__title">首个完全基于Bitcoin的链上网站及域名已上线</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/uclosxpj.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月26日消息，Ordinals域名项目BTCDomain实现跨界技术突破，首个完全基于Bitcoin的链上网站+域名已上线。点击原文链接即可通过web2方式浏览比特币原生网站。近日将对部分域名持有者开放内测。
+相关阅读：搭建在比特币主网上的去中心化域名系统——BTCDomain</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/zno7dsmm.html"
+                        open
+                      >
+                        <summary class="article-expander__title">去中心化交易所Vertex Protocol主网已上线Arbitrum</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/zno7dsmm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 4月26日消息，去中心化交易所 Vertex Protocol 主网已上线 Arbitrum。Vertex 是一个建立在 Arbitrum 网络上的一个 CLOB，交叉保证金（全仓模式）的 DEX 协议，包含现货、合约期货与货币市场。Vertex 融合了订单簿和 AMM 的优势，核心协议是一个带有链下订单簿的链上交易协议（恒定产品 AMM），订单簿是一个用于订单匹配的链下排序器，AMM 的池流动性会被注入到链下订单簿中，为交易者提供更深的流动性、更小的点差和滑点。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1827,6 +1537,460 @@ CoinLoan此前曾在2022年7月限制用户取款，还在2022年11月降低了�
 此前消息，谷歌云初创公司支持计划已开放给Web3行业建设者。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36820"
+                        open
+                      >
+                        <summary class="article-expander__title">如何通过物理手段获得一组秘密安全的助记词？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36820">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>一个关于如何获得秘密安全助记词的攻略</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36821"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT未死，只是「重生」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36821">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>「NFT 文化正在改变」</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36818"
+                        open
+                      >
+                        <summary class="article-expander__title">对话Offchain Labs工程师，Arbitrum在ModuLar Oriented中如何解决Rollup面临的问题？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36818">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Rollup as a Service</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36817"
+                        open
+                      >
+                        <summary class="article-expander__title">获利约180万美元，zkSync生态DEX Merlin安全事件分析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36817">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《获利约 180 万美元，zkSync 生态 DEX Merlin 安全事件分析》
+原文来源：Foresightnews
+
+
+2023 年 4 月 26 日，据 Beosin-Eagle Eye 态势感知平台消息，Merlin Dex 发生安全事件，USDC-WETH 流动性池的资金已全部被提取，攻击者获利共约 180 万美金。据了解，Merlin Dex 是一个去中心化交易所，关于本次安全事件，Beosin 安全团队第一时间对事件进行了分析，结果如下。
+
+
+
+
+
+
+
+
+
+
+
+事件相关信息
+
+
+
+
+我们以其中一笔交易为例进行分析
+
+
+
+
+攻击交易
+
+
+0xf21bedfb0e40bc4e98fd89d6b2bdaf82f0c452039452ca71f2cac9d8fea29ab2
+
+
+
+
+攻击者地址
+
+
+0xc0D6987d10430292A3ca994dd7A31E461eb28182
+
+
+0x2744d62a1e9ab975f4d77fe52e16206464ea79b7
+
+
+
+
+被攻击合约
+
+
+0x82cf66e9a45Df1CD3837cF623F7E73C1Ae6DFf1e（USDC-WETH 池子）
+
+
+
+
+攻击流程
+
+
+
+
+1. 第一步，池子创建者 (0xc0D6987d10430292A3ca994dd7A31E461eb28182) 创建了工厂合约
+
+
+（0x63E6fdAdb86Ea26f917496bEEEAEa4efb319229F），在初始化时 Feeto 地址已经被设为
+
+
+(0xc0D6987d10430292A3ca994dd7A31E461eb28182)。
+
+
+
+
+
+
+
+
+
+2. 攻击者通过工厂合约部署 USDC-WETH 池子（0x82cf66e9a45Df1CD3837cF623F7E73C1Ae6DFf1e），池子初始化时便将池子中的 USDC 和 WETH 最大化授权给了合约工厂的 Feeto 地址，可以看到这存在明显的中心化风险。
+
+
+
+
+
+
+
+
+
+3. 于是在有了最大授权的情况下，攻击者转走了该池子中的所有代币。
+
+
+
+
+
+
+
+
+
+4. 值得注意的是，在攻击发生之前，工厂合约的 Owner 和 Feeto 地址曾有过改动，但这一步并不是攻击所必须的，猜测可能是攻击者为了迷惑他人所做的操作。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+最后可以看到 USDC-WETH 流动性池的资金已全部被提取，攻击者获利共约 180 万美金。
+
+
+
+
+漏洞分析
+
+
+
+
+Beosin 安全团队分析本次攻击主要利用了 pair 合约的中心化问题，在初始化时最大化授权了工厂合约中的 Feeto 地址，而导致池子中的资金随时可能被初始化时设定的 Feeto 地址提取走。
+
+
+
+
+资金追踪
+
+
+
+
+攻击者调用了 transferFrom 函数从池子转出了 811K 的 USDC 给攻击者地址 1（0x2744d62a1e9ab975f4d77fe52e16206464ea79b7）。攻击者地址 2（0xcE4ee0E01bb729C1c5d6D2327BB0F036fA2cE7E2）从 token1 合约（WETH）提取了 435.2 的 eth，通过 Anyswap 跨链后转到以太坊地址（0xa7D481944730a88B862eB57248Cb1B2C8aa358Ad）和地址
+
+
+（0x0b8a3ef6307049aa0ff215720ab1fc885007393d）上，共获利约 180 万美元。
+
+
+
+
+截止发文时，Beosin KYT 反洗钱分析平台发现目前被盗资金仍存放在上述攻击者的两个以太坊主网地址上，Beosin 安全团队将持续对被盗资金进行监追踪。
+
+
+ 
+
+
+
+ 
+
+
+总结
+
+
+
+
+针对本次事件，Beosin 安全团队建议，项目方应该使用多签钱包或 DAO 治理来管理具有重要权限的地址，用户在进行项目交互时也要多多了解此项目是否涉及风险。
+
+
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/32141"
+                        open
+                      >
+                        <summary class="article-expander__title">为什么通过安全审计的项目还是会被攻击？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/32141">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：
+
+Haotian（Twitter：@tmel0211），区块链安全从业者
+
+
+本文首发于 2022 年 10 月，今日 zkSync 生态 DEX Merlin 流动性耗尽，黑客盗取 182 万美元资金。随后有读者发现，这个 Merlin 在上线前刚刚完成由 CertiK 进行的审计，虽然 CertiK 在报告中指出 Merlin 项目存在中心化问题，但仍没能避免安全问题发生，最终资金损失。
+
+
+那么为什么通过审计的项目还会被攻击、Rug或者存在各种漏洞？区块链安全领域从业者 Haotian（
+
+@tmel0211）在本文针对一些审计相关问题进行解答。
+
+
+年底安全事件一个个接踵而至，黑客估计是怕市场熊的没钱了，以亿为单位先把年终奖领了。有人要问了，Rabby、TempleDAO、Mango 这些被攻击的项目，都是被安全审计过的，为何还被攻击了？有人甚至借此非议安全审计没意义，作为多年区块链安全行业的从业者，简单说两句：
+
+
+1、各位看官得先调整预期，安全审计不可或缺，但审计完了也绝不可能一劳永逸。攻击和防御工事完全不是一个量级。我们看安全公司的 audit report 会发现，几乎每一个项目都能找出 1 个严重漏洞，2-4 个高风险漏洞，还有若干中等以及低级别的漏洞。你能说，这些漏洞发现没意义吗？有，但更多是降低安全风险！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2、有人会在东窗事发后说，漏洞这么简单，为何没被发现？这个问题很复杂，安全审计基于已有的工具，已有的经验进行逻辑审查，扫除代码缺陷，排查诸如溢出、重放、验签等常规漏洞。但 defi 等协议难的并非代码，而是复杂的金融业务逻辑，比如流程管控，外部组合嵌套，市场操纵等，超出安全公司的业务范畴。
+
+
+
+
+
+
+
+
+
+
+
+
+3、区块链生态存在形形色色的组合，开源+非开源，已审计项目+非审计项目，链下 validator+链上执行等等，很多项目给安全公司的审计也都只是模块化展开，比如审计开源的部分，那未开源的部分呢？因链下流程影响到链上执行呢，因市场交易深度问题导致市场被操纵呢？出了事，不可能全部让安全公司背锅。  
+
+
+4、可怕的是很多项目方，找安全审计的目的并不纯，只是希望拿到一份所谓的「安全背书」，抱有这样的心态做项目，其在自身安全防备上的投入可想而知。出了问题又一副我找 xx 头部安全公司审计过的无辜嘴脸，试问，项目本身在安全防御+加固+应急响应上的投入有多少呢？我想这才是安全事件屡见不鲜的根本原因；  
+
+
+5、其实，行业生态大的威胁并不全是黑客攻击，更多是安全意识薄弱造成的「人祸」，比如某些项目一旦遭攻击就会传出 rug 消息，我们司空见惯的网络钓鱼受诈骗等等，这些压根就没法统计，如果把人为 rug、网络钓鱼、网络勒索、资金盘诈骗等等一系列安全损失都统计起来呢？其安全威胁丝毫也不逊色于黑客；  
+
+
+6、在我看来，加密行业安全问题路漫漫其修远兮，我们预期的生态是，项目自身安全防护+第三方安全审计预防协助+用户人人皆有安全意识，行业从根本上变得更「安全」。但事实上，安全公司压根不是 security 建设者身份，安全公司能作为修理工，桥塌修桥，路断补路就不错了。安全生态需要每一个参与者共同守护。  
+
+
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36814"
+                        open
+                      >
+                        <summary class="article-expander__title">MEV2023展望：穿越黑暗森林</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36814">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《MEV Outlook 2023: Walking Through the Dark Forest》
+
+原文作者：EigenPhi
+
+原文编译：Foresight News
+
+
+
+
+* 注：本报告计算的清算交易统计范围为 2022 年 5 月至 12 月，其余类型统计范围为 2022 年全年。
+
+
+
+
+一、MEV 的新视角
+
+
+
+
+目前，大多数关于 MEV 主题的报告和文章都围绕着概念介绍与如何将订单（order）引入 MEV 市场，所关注的问题包括但不限于 MEV 市场的公平性、MEV 带来的负外部性以及与机制设计有关的中心化风险或审查问题，这些都是许多区块链协议与应用层建设者正在努力解决的方向。
+
+
+
+
+此外，Amber Group 与《福布斯》还撰文介绍了大量长尾 MEV 案例、著名的 MEV 搜索者 Nathan Worsley 的掘金策略内幕，以及 Wintermute 与 Alameda Research 这两个运行 MEV 策略的量化机构。它们的文章中都提到了「订单流支付」（Payment for Order Flow）的概念，这似乎是一个大的趋势，开发者们正在为之努力，包括 Cowswap、1inch Fusion 模式与 Flashbots 的 MEV-Share。主流金融机构也开始关注 MEV 领域，譬如纳斯达克的新闻与见解栏目转发了 CoinDesk 关于 JIT 机器人与 MEV 如何促进 DeFi 的文章。当然，也有小部分人关注 MEV 市场的监管。
+
+
+
+
+事实上，在普遍关注 MEV 宏观市场机制的运作之外，我们认为还有一个微观的问题值得关注：作为一个代表，MEV 交易意味着流动性数据（liquidity data）具有前所未有的机会和挑战。
+
+
+
+
+早在 2022 年 5 月 UST-LUNA 熔断引发的一系列事件中，从事加密业务的…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36812"
+                        open
+                      >
+                        <summary class="article-expander__title">第18周链上数据：市场不安情绪依然在弥漫，但抛压已得到一定缓解</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36812">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>场内交易量仍然较高，可能是处于换手阶段</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36807"
+                        open
+                      >
+                        <summary class="article-expander__title">BASE：一个新的由Coinbase孵化并建立在开源OP Stack之上的以太坊L2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36807">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《BASE：一个新的由 Coinbase 孵化并建立在开源 OP Stack 之上的以太坊 L2》
+原文来源：@Yinan 推特
+
+
+Base 是一个由 Coinbase 推出的基于开源 OP Stack 之上的一个以太坊二层网络。
+
+
+
+
+共享以太坊的安全性
+
+
+Base 具有支持分散式应用程序所需的安全性和可扩展性。它利用以太坊的底层安全性以及 Coinbase 的最佳实践，使用户可以从 Coinbase、以太坊 L1 和其他可互操作的链进入 Base。
+
+
+功能强大，费用低廉
+
+
+Base 以极低的成本提供完整的 EVM 等效性，并致力于推动开发人员平台的发展。
+
+
+由 Coinbase 提供支持
+
+
+Base 通过访问 Coinbase 的产品、用户和工具，可以轻松构建去中心化应用程序。无缝的 Coinbase 产品集成、轻松的法定入口和强大的获取工具使开发人员能够为超过 1.1 亿的经过验证的用户提供服务，并在 Coinbase 生态系统的平台上访问价值 800 亿美元的资产
+
+
+开源
+
+
+Base 的目标是实现去中心化、无需许可且向任何人开放，其愿景是创建一个由 Optimism 驱动的标准、模块化、对 rollup 无偏见的超级链。
+
+
+
+
+之前 Coinbase 的产品大都不是智能合约编写的，它们主要利用与其他 Web2 公司相同的应用基础设施。虽然它们使 Coinbase 的客户能够使用加密货币，但它们并非在加密货币支持的链上平台上作为原生 dapp 构建。在过去的几年里，Coinbase 团队已经慢慢改变了这一点：USDC、Coinbase 钱包和 cbETH 是原生链上产品的例子，它们为 Coinbase 带来了大量的活动和收入。
+
+
+
+
+
+在未来，团队希望构建更多像这样充分利用链上环境能力的产品。为了将数十亿用户带入加密经济，dapps 需…</span>
                             </span>
                           </div>
                         </a>
@@ -8691,66 +8855,6 @@ Trust Wallet称，事件发生后，Trust Wallet迅速修补了漏洞，所有�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/l14zai9b.html"
-                        open
-                      >
-                        <summary class="article-expander__title">深圳数据交易所与蚂蚁集团签订合作框架协议，推进区块链和AI技术研究合作</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/l14zai9b.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月22日，据界面新闻报道，4月20日，深圳重大交易平台推介会在杭州举行。会上，前海联合交易中心、电子元器件和集成电路国际交易中心、深圳国际珠宝玉石综合贸易平台、深交所科技成果与知识产权交易中心、深圳数据交易所等五大交易平台集中亮相。当天，深圳数据交易所与蚂蚁科技集团、华东大数据交易中心、阿里巴巴集团、浙江省大数据联合计算中心有限公司、郑州数据交易中心战略签约。其中，深圳数据交易所与蚂蚁集团签订合作框架协议，双方将在包括共建共享高价值数据合作渠道，开展数据合规专项研究，推进区块链、隐私计算、AI等技术研究和互联互通等方面合作。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ynsgwp19.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Do Kwon律师：SEC指控Do Kwon与Terraform Labs进行证券欺诈没有依据</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ynsgwp19.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月22日消息，据彭博社报道，前Terraform Labs首席执行官Do Kwon的律师表示，美国证券交易委员会（SEC）指控Do Kwon与Terraform Labs Pte进行证券欺诈的诉讼没有根据，部分原因是所涉稳定币是一种货币，而不是证券。该律师周五在请求法官驳回诉讼时表示，美国法律禁止监管机构“在这种情况下使用联邦证券法来主张对数字资产的管辖权”。据此前消息，今年2月，SEC起诉Do Kwon和Terraform Labs，指控他们非法发行未经注册的证券并多次误导和欺骗投资者。上个月，Do Kwon因伪造护照在黑山被捕入狱，随后美国和韩国都要求将其引渡。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/3pp5u4dc.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Voyager债权人委员会：地方法院已批准与美国政府和解推进Binance.US交易的决议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3pp5u4dc.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月22日消息，Voyager无担保债权人委员会在社交媒体披露，美国地方法院已批准与美国政府和解推进Binance.US交易的决议，Voyager已提交一项动议，要求法院下令授予其代表在完善该计划时遵守适用法律的权力，鉴于当前加密行业状态、以及监管机构的声明和行动，Voyager将寻求法院进一步澄清，可以在遵守适用法律所必需的范围内以法定货币向其客户分配资金（或采取任何其他必要的行动来做这件事）。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9127,112 +9231,6 @@ FUD 可以带动大规模的互动。
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36654"
-                        open
-                      >
-                        <summary class="article-expander__title">重塑联系：去中心化社交网络全景解析</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36654">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《Rebuilding Connections》
-原文作者：STEVEN SHI
-原文编译：Kxp，Blockbeats
-
-
-今年早些时候，Twitter 突然关闭了第三方应用程序。几周后，它取消了免费 API 访问，其最便宜的套餐现在每月要价 42,000 美元。
-
-
-现在，大多数用户已经适应了这个现实。我们最重要的社交媒体应用程序，从 Facebook 和 TikTok 到微信和 Grab，都是中心化平台。尽管这些平台通常很温顺，但它们偶尔会以凸显中心化权威的任性方式行使权力，比如根据模糊的内容政策审查和封禁用户，或者武断地提升某些用户的地位。
-
-
-这些平台对我们的日常生活至关重要。因此，用户对现状感到沮丧，但没有太多选择。因此，在 Web3 运动中，去中心化社交媒体是一个重点方向。由于 Crypto 行业在 Twitter 上运行，因此建立一个「去中心化 Twitter」对 Web3 创始人来说更有吸引力，因为他们非常清楚 Twitter 的痛点。
-
-
-本报告探讨了去中心化社交（DeSoc）协议。我们审查了各种 DeSoc 设计，并聚焦于有趣的项目。我们还就每个协议的方法分析了其优缺点，并概述了我们对整个垂直领域的看法。
-
-
-社交图谱的价值
-
-
-自成立以来，Twitter 进行了 19 轮融资，筹集了 44 亿美元的资本。当它上市时，它累计亏损了近 10 亿美元。然而，过去五年，产品本身几乎没有改变。
-
-
-然而，Twitter 仍然非常有价值，其估值至少为数十亿美元。如果今天拍卖，毫无疑问会有大量买家愿意以慷慨的估值对 Twitter 的收入进行出价。
-
-
-Twitter 和任何社交媒体平台的关键价值主要在于其社交图谱。功能即商品（参见：Clubhouse 的空间，Snapchat 的故事，TikTok/Douyin 的短视频）。但是独特和差异化的社交图谱非…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36741"
-                        open
-                      >
-                        <summary class="article-expander__title">Ondo的稳定币OMMF：由美债支持的算稳</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36741">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Leo，BlockBeats
-
-
-资产 token 化（也可以说是 RWA）是一个价值万亿美元的领域，Ondo Finance 便是目前该领域的佼佼者。Ondo 是一种结构化产品 DeFi 协议，以其流动性即服务（Liquidity-as-a-Service）特性在 DeFi 2.0 趋势中非常突出，LaaS 是一种帮助项目以低成本获得深度流动性的服务，即便没有流动性挖矿，Ondo 仍然吸引了超过 2 亿美元的 TVL。
-
-
-
-
-此前于 2022 年 4 月 27 日，Ondo Finance 完成了 2000 万美元融资，由 Founders Fund 和 Pantera Capital 领投；并且去年 Ondo Finance 还在 CoinList 公开 token 销售中筹集了 1000 万美元。DefiLlama 数据显示，其 TVL 为 1.02 亿美元，且未使用任何 ONDO 激励措施。
-
-
-
-
-
-
-
-
-
-Ondo Finance 此前产品
-
-
-
-
-在此之前，简单说一下 Ondo 的资金策略，用户可以通过 Ondo 将 USDC（或其他稳定币）投资其基金时，需要执行五个基本步骤：
-
-
--Ondo 将该 USDC 兑换成美元，然后将其保存在银行账户中；
-
-
--随后 Ondo 使用这些美元购买资产，这些资产可以是 ETF 或基金（持有单一名称证券和其他资产）；
-
-
--新的基金 token 被铸造并存入用户钱包；
-
-
--当这些标的资产获得收益时，该收益将被再投资以购买更多资产，从而自动复利用户收益；
-
-
--任何时候用户都可以收回自己的 toekn，基金 token 会被销毁，用户收回 USDC。
-
-
-
-
-
-
-
-Ondo 已推出的三类基金 token，分别是：OHYG、OSTB、OUSG。OHYG 提供高收益债券敞口；OSTG 提供加权平均投资等级评级的短期…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9240,8 +9238,8 @@ Ondo 已推出的三类基金 token，分别是：OHYG、OSTB、OUSG。OHYG 提�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4809662696">
-        <time id="build-timestamp" datetime="2023-04-26T14:07:21.275Z">2023-04-26T14:07:21.275Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4810304261">
+        <time id="build-timestamp" datetime="2023-04-26T15:07:36.487Z">2023-04-26T15:07:36.487Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
