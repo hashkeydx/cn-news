@@ -2304,56 +2304,6 @@
           "wordCount": 385,
           "title": "数据：蔡文胜相关地址将1万枚ETH存入Compund，后借出320万枚USDC转入币安",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/0g41cx4l.html",
-          "author": "PA一线",
-          "description": "PANews 4月22日消息，Galaxy研究副总裁Christine Kim发文总结第107次以太坊核心开发者共识（ACDC）会议，本次会议在对上海升级的成功进行简短确认后，便开始讨论Deneb（即EIP-4844）的准备工作。其中，以太坊核心开发者Tim Beiko表示，EIP-4844的第五个开发测试网将于下周某个时候启动。开发者讨论了在链重组事件中如何将blob交易重新插入区块中的问题，对此Danny Ryan提出了两种解决方案：让共识层将每个区块的blob数据传递给执行层或者让用户重新提交交易。针对前者，开发者展开了讨论并谈及数据可用性抽样DAS实现将使该假设方案失效，不过由于会议缺少执行层客户端相关代表，所以问题将留待下周执行层开发者会议讨论。与此同时，共识会议上，开发者拟将EIP-4788与3175和EIP-4844一起纳入Deneb升级。关于EIP-6914，开发者同意继续敲定代码更改细节，并将其实施推到Deneb之后的硬分叉。此外，开发者讨论了信标链认证子网（attnets），Lighthouse（CL）客户端团队的Adrian Manning提出了一个将验证者节点订阅到长期的attnets解决方案，并表示此更改不必通过硬分叉来执行。据此前消息，在2023年首次以太坊核心开发者会议上，开发者同意将上海升级之后的Cancun升级专注于EIP-4844。",
-          "link": "https://panewslab.com/zh/articledetails/0g41cx4l.html",
-          "publishedOn": "2023-04-22T03:58:01.000Z",
-          "wordCount": 396,
-          "title": "以太坊核心开发者：EIP-4844的第五个开发测试网将于下周启动",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/2keggls3.html",
-          "author": "PA一线",
-          "description": "PANews 4月22日消息，Cardano基金会官方网站发布了首份年度报告，其中回顾了该区块链在整个2022年取得的成就。报告指出，由于主要持有比特币（价值1900万美元）和ADA（价值1.66亿美元），因此Cardano整个2022年都没有受到加密行业各类风险事件的直接影响。Cardano基金会还披露了其他里程碑，包括：支持Vasil硬分叉、与联合国难民署和苏黎世大学签署合作协议、开发Kupo V2、扩展Developer Portal等。",
-          "link": "https://panewslab.com/zh/articledetails/2keggls3.html",
-          "publishedOn": "2023-04-22T03:54:24.000Z",
-          "wordCount": 384,
-          "title": "Cardano发布首份年报：因持有BTC和ADA整个2022全年未受加密行业风险事件影响",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/1l1npg0c.html",
-          "author": "PA一线",
-          "description": "PANews 4月22日消息，Crunchbase的数据显示，今年第一季度对Web3初创企业的风险投资金额同比下降82%，从2022年第一季度的91亿美元下降到17亿美元，创2020年第四季度以来Web3公司融资金额新低。与此同时，交易总数也出现了显著下降。2023年第一季度记录了333笔交易，同比下降约33%。此外，在2022年第一季度，Web3共完成29轮金额超过1亿美元的融资，而在今年第一季度，只有两轮融资超过1亿美元。",
-          "link": "https://panewslab.com/zh/articledetails/1l1npg0c.html",
-          "publishedOn": "2023-04-22T03:49:01.000Z",
-          "wordCount": 378,
-          "title": "数据：今年第一季度Web3初创公司所获风投金额同比下降82%",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/p5nhghrp.html",
-          "author": "PA一线",
-          "description": "PANews 4月22日消息，MyAlgo推特公布关于此前攻击事件的报告。报告称，攻击者利用可能CDN API密钥，通过中间人攻击在实际的http://wallet(.)myalgo(.)com网页端和用户之间注入恶意代码。尚不清楚CDN API密钥是如何获得的，在MyAlgo代码库中没有发现攻击或漏洞证据，没有证据表明CDN用户账号被泄露。此外，CDN审计日志中没有证据能够表明曾创建了可以发动此攻击的密钥。审计日志覆盖18个月，而受影响的帐户是19个月前创建的，但这个账户直到2022年10月（6个月前）才被使用。这增加了一种很低的可能性，即日志丢失或API密钥是在19个月前获得的，从而避开了日志记录。另外，攻击者（针对特定版本的MyAlgo）于1月21日上传恶意代码，攻击一直持续到2月中旬新版本MyAlgo发布。执法部门和安全专业人员将继续调查，收集更多信息，以帮助阐明攻击细节。据链上数据分析师ZachXBT此前发布的推特，由于2月19日至21日Algorand生态钱包MyAlgo遭受攻击，Algorand上可能有超过920万美元资产（1950万枚ALGO、350万枚USDC等）被盗。",
-          "link": "https://panewslab.com/zh/articledetails/p5nhghrp.html",
-          "publishedOn": "2023-04-22T03:40:15.000Z",
-          "wordCount": 395,
-          "title": "MyAlgo公布攻击事件报告：攻击者利用CDN API密钥注入恶意代码",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/x2u3o979.html",
-          "author": "PA一线",
-          "description": "PANews 4月22日消息，Coinbase首席执行官Brian Armstrong在推特发文称，“今天与美国证券交易委员会（SEC）会面。我们将继续推动在美国制定明确的加密监管法规。美国不能在这项更新金融系统这项重要技术上落后。与此同时，监管机构需要先制定政策再执行，在有明确的规则之前不要强制执行。在这一点上，似乎国会需要介入。”",
-          "link": "https://panewslab.com/zh/articledetails/x2u3o979.html",
-          "publishedOn": "2023-04-22T03:28:12.000Z",
-          "wordCount": 387,
-          "title": "Coinbase CEO：国会应介入制定明确的加密监管法规",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2769,6 +2719,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5186730",
+          "author": "十文",
+          "description": "自诞生起的 15 年间，比特币很少被用于点对点转账及价值存储外的其他用途。但随着 Ordinals 协议的出现，这条古老的公链也焕发了新的生机。\n从 2022 年 12 月 14 日以来，比特币网络上已经铸造了超过 160 万个 NFT 。这些 NFT 类型包括图像、文本、音频和应用程序等，每个 NFT 都可以与聪（sats）相关联，这是比特币的最小单位，它们都有唯一的序号。\n随着 Ordinals 协议逐渐获得更广泛人群的关注，早期上线的比特币 NFT（如 Ordinal punks）场外交易量激增，让越来越多的 NFT 爱好者对此感到兴奋。Yuga Labs 等蓝筹 NFT、Magic Eden 等 NFT 市场以及 OKX、币安等头部交易所更是抢先瞄准机会，纷纷支持 Ordinals 生态，带动其使用量爆发式增长。\n但相比于以太坊链上的繁荣景象，比特币就像一片荒芜之地，上面鲜有基础设施和辅助工具，目前可玩的领域主要集中在 Ordinals NFT、BRC-20 代币以及 BTC 域名。\n下面，Odaily星球日报就和大家一起看下，这三个领域目前的发展现状。\n「BRC-20 」设施仍不完善\n「BRC-20 」创新实验上线近两个月，Fomo 仍在持续。\n早期的 ordi 代币从被铸造至今已有百倍涨幅，随着市场热点逐渐分散，「BRC-20 」作为早期、带有 「meme」属性且有 BTC 生态做背书的创新概念，再次成为近期市场上追逐的焦点。\n「BRC-20 」代币标准是一个由 Twitter 用户@domodata 于 2023 年 3 月 8 日创建的，尽管创建者一再表示这只是一个创新性的实验，最初的目的是想要尝试创建一个可以对标「ERC-20 」令牌标准的模式，尽可能的实现在比特币上进行部署代币合约、铸造代币和转移代币的功能，并不值钱。\n但是同为 BTC 生态的一份子，「…",
+          "link": "https://www.odaily.news/post/5186730",
+          "publishedOn": "2023-04-26T13:24:15.000Z",
+          "wordCount": 1974,
+          "title": "狂飙中的比特币生态，发展到了哪个阶段？",
+          "imageUrl": null
+        },
         {
           "id": "https://www.odaily.news/post/5186733",
           "author": "火星财经",
@@ -3457,26 +3417,6 @@
           "publishedOn": "2023-04-22T06:30:00.000Z",
           "wordCount": 1911,
           "title": "Foresight Ventures市场周报：MEME集体爆发，市场回调巩固",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5186604",
-          "author": "星球君的朋友们",
-          "description": "原文来源：Messari\n原文编译：Filecoin Network\n\n关键数据\n\nFilecoin存储市场在 2023 年第一季度持续增长，活跃存储交易提议比去年同期增长 75% 。\n\n存储容量比去年同期下降 13% ，而存储利用率比去年同期上升 105% 。\n\n费用收入在 2023 年第一季度增加 5% （美元计价增长 21% )，这是由比去年同期增加 14% 的新增存储交易提议带来的。\n\nFilecoin 虚拟机发布将以太坊式的智能合约带到了 Filecoin，将促进包括DeFi、永续存储和分布式计算等领域的新用例。\n\nFilecoin 基本信息\n依赖于中心化数据存储有一个严重问题：就是很难系统性验证存储数据的完整性。如今，Filecoin 网络已经是亚马逊 S 3 云服务的点对点版本了。它是在星际文件系统(IPFS)之上搭建的，后者作为 Filecoin 网络的分布式数据存储和分享层。Filecoin 会定期验证数据存储有效性，还使用了基于动态供需关系定价的存储交易提议 deals（而不是固定价格策略）。\n\n一项存储交易提议就如带有服务等级协议(SLA)的合约——用户向存储提供者支付费用来在指定周期存储数据。为了保证数据安全，Filecoin 使用了加密经济学激励模型来定期用零知识证明来验证存储。为了激励存储提供者参与这些存储交易提议，Filecoin 会以网络的原生 token FIL 作为奖励。如果存储提供者无法提供可靠的在线时间或对网络作恶，还会受到惩罚（slashed）。\n为了检索数据，Filecoin 用户会向检索提供者支付费用来获取数据。与存储交易提议的链上交易方式不同，检索交易提议会链下结算费用，这样检索速度会更快。\n2023 年 3 月发布的 Filecoin 虚拟机将以太坊的智能合约带到了 Filecoin，将促进包括 DeFi、永续存储和分布式计…",
-          "link": "https://www.odaily.news/post/5186604",
-          "publishedOn": "2023-04-22T04:00:00.000Z",
-          "wordCount": 2095,
-          "title": "Messari：Filecoin2023年一季度生态进展报告",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5186612",
-          "author": "星球君的朋友们",
-          "description": "4 月 21 日，Binance 官宣了即将上线的第 31 个 Launchpad 项目 Open Campus（EDU），成为继 Hooked 和 SpaceID 之后第三个登上Binance Launchpad的 BNB Chain 生态项目。\n\nOpen Campus 是什么来头？\nOpen Campus 是一个Web3教育协议平台，教师和创作者可以以代币认识拥有他们所制作的教育内容并利用此以营利。此项目的使命为鼓励教师对社会的贡献及给予充分认可，并为全世界的学生提供一个全球性的另类学习系统。\nOpen Campus 目前的对外资料并不多，这也让不少初次接触这一项目的研究者和用户发出了质疑，但其实只要稍加探究便知，Open Campus 团队的实力、履历都非常耀眼。\nOpen Campus 本身搭建了一个完善的协议层基础设施，供学校、科技教育平台和其他教育者使用，让他们将产出的教育内容带给全球的学生，教育内容及课程可以代币化为NFT，内容产生的收入将经由智能合约分发给创作者、NFT 的持有人及其他贡献者。\n它的第一个采用者 TinyTap，已经是全球教育行业的佼佼者。这支成立于 2012 年、来自以色列的团队，创造了无需代码即可让用户制作教育内容及课堂的模式，目前平台已经有超过 25 万互动课程。它在 App Store 及 Google Play 上是头十名总收入最高的儿童移动应用程式，有超过 9 百万家庭使用过并有超过 10 万名创作者，并与芝麻街、牛津大学等多个著名的出版商合作。\n而 TinyTap 此前正是 BNB Chain 上的明星项目。4 月初的数据显示，以活跃钱包数排名，TinyTap 位列 BNB Chain 最活跃 dApp 前五名。\n除了 TinyTap 以外，Open Campus 还与世界上最大的私立学校网络之一 GEMS 教育达成了合作，G…",
-          "link": "https://www.odaily.news/post/5186612",
-          "publishedOn": "2023-04-22T03:56:26.000Z",
-          "wordCount": 1719,
-          "title": "登陆币安Launchpad，「Open Campus」有何亮点？",
           "imageUrl": null
         }
       ]
