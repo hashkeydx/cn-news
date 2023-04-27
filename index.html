@@ -174,6 +174,79 @@ Giddy 表示，在 Giddy 的自托管钱包中，访问用户资金的私钥被�
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186764"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂Circle推出的跨链传输协议CCTP</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186764">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>本文来自 Blockworks Research &amp; Circle，原文作者：链上研究员@purplepil l3 m
+
+Odaily 星球日报译者 | Moni
+
+
+4 月 26 日，美元稳定币 USDC 发行方 Circle 宣布推出以太坊和 Avalanche 之间的 USDC 跨链传输协议（CCTP），该协议可在用户跨链时销毁原链上的代币并在目标链上铸造新的代币。Circle 表示，包括 Celer、Hyperlane、LayerZero、LI.FI、MetaMask、Wormhole 在内的众多跨链项目未来将会使用该协议。
+
+那么，这个跨链传输协议的工作原理、以及给加密市场带来的影响会是什么呢？
+CCTP（跨链传输协议）是 Circle 推出的一种免许可的链上工具，可促进不同区块链之间的 USDC 传输。Circle 不需要目标链上的流动性，而是在源链上销毁 USDC 并在目标链上铸造原生 USDC，继而使 USDC 能够在本地跨区块链流动，让 Web3 中的流动性更加统一并简化用户体验。
+CCTP 如何运作？
+首先，用户需要通过源链上的任意集成门户发起 USDC 转账，并且指定目标链上的接收钱包地址，门户/钱包/桥（dApp）在源链上销毁 USDC，然后 Circle 会证明源链上的销毁事件。
+接下来，dApp 会向 Circle 发送请求证明，Circle 授权其在目标链上铸造已销毁的 USDC。
+最后，dApp 使用该证明在目标链上铸造 USDC 并将其发送给接收者。截至 4 月 27 日，Metamask、 5 个桥和 10 个不同的合作伙伴 SDK（例如 Layer Zero 和 Wormhole）已与 CCTP 集成。
+
+
+CCTP 为谁设计？
+CCTP 充当开发人员无需许可的基础设施，可以在现有的应用程序、钱包和桥接器之上构建或集成到他们现有的应用程序、钱包和跨链桥接器中。
+使用 CCTP 是否需要在 Circle 上注册？
+不需要，CCTP 是第三方开发人员免许可的链上实用程序。
+CCTP 什么时候可以在其他区块链上使用？
+CCTP 现在可以在以太坊和 Avalanche 的主网上使用。预计在今年将扩展到更多链。开发人员可以访问 Circle 的开发人员文档以开始在 CCTP 上进行构建。
+用户能否使用 Circle Account 或 Core API 跨链移动 USDC？中心化交易所可以吗？
+Circle Account 和 Core API 能够在本地跨链移动 USDC，但是这些商业产品仅供 Circle 批准的合格企业使用。
+中心化交易所通常在其平台上持有各种原生形式的 USDC 流动性，在中心化交易所拥有账户的用户可以将 USDC（给定链的原生）存入他们的交易所钱包，然后将 USDC（不同链的原生）提取到他们的外部钱包。
+相比之下，CCTP 是免许可的，这意味着任何第三方开发人员都可以访问它以集成到他们的应用程序中，并且不需要注册帐户。用户可以随时通过支持 CCTP 的应用程序将 USDC 移动到任何受支持的区块链。开发人员还可以在他们的应用程序中基于 CCTP 构建新的链上体验。
+
+
+CCTP 与跨链流动性池解决方案有何不同？
+CCTP 不需要集中的 USDC 流动性来执行跨链转移，即热提高了资本效率并避免了流动性提供者收取的费用。
+在源链上销毁给定数量的 USDC 如何在目标链上成功铸造？
+USDC 的所有销毁都会在源链上发出一个事件交易，该事件会被 Circle 的证明服务自动观察到，发起 USDC 销毁的应用程序负责从 Circle 获取签名证明，然后使 CCTP 能够在目标链上铸造 USDC。
+CCTP 智能合约是否通过安全审计？
+Circle CCTP 智能合约已通过 ChainSecurity 和 Halborn 执行的第三方审计。
+如果 Circle 的证明服务没有响应该怎么办？
+虽然 Circle 的证明服务不可用性会暂时阻止签署新的销毁消息，但预计正常运行时间和可用性将与现有的铸币服务运作方式类似。
+当用户通过 CCTP 发送 USDC 时，Circle 是否可以访问或存储任何个人身份信息（PII）？
+不会。
+CCTP 如何影响现有的 USDC 跨链桥接服务？
+CCTP 对现有的 USDC 桥接版本没有直接影响。
+CCTP 如何影响 Circle 在更多区块链上推出 USDC？
+Circle 将 USDC 原生引入更多区块链网络的计划保持不变，并将继续增长，CCTP 将推动 USDC 成为 Web3 的通用流动性层，最终让所有人都可以访问。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -9517,48 +9590,6 @@ Polyhedra Network表示，其协议通过使用BNB Greenfield提供的数据可�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/8rplomzp.html"
-                        open
-                      >
-                        <summary class="article-expander__title">SBF律师团队就监控SBF父母手机设备向法院提出新的解决方案</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8rplomzp.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月23日消息，据Business Insider报道，周五，加密交易所FTX的创始人Sam Bankman-Fried（SBF）的律师团队在致法官Lewis Kaplan的一封信中，提出了一种新的解决方案来监控SBF家庭中的监控数字活动，即使用他们已经下载的软件来监控他父母设备上的活动，比如对他父母手机的每一次按键、下载应用程序、搜索互联网、短信和通话进行跟踪，这些活动将由“技术顾问”审查，如果任何活动可能违反SBF的其他保释条件，顾问可以通知法院，或者如果法院认为已经发生违规行为，则可以要求提供数据。
-此前4月20日消息，SBF法律团队称无法为其父母的智能手机安装监控软件，即每五分钟自动为手机用户拍照以监控手机使用者，并要求法官将SBF新保释条件执行延长到2023年4月21日。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/z5eyt5c0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国玩具制造商美泰旗下NFT平台将推出P2P市场功能</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/z5eyt5c0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月23日消息，据Bitcoin.com报道，美国玩具制造商美泰旗下数字藏品平台Mattel Creations将于4月27日推出P2P（点对点）市场功能，该功能由NFT公司Rarible提供支持。
-据悉，美泰是芭比娃娃制造商，于去年11月在Flow链上推出其NFT市场Mattel Creations。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9701,23 +9732,6 @@ Polyhedra Network表示，其协议通过使用BNB Greenfield提供的数据可�
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>重温本周热点：meme行情；Web3香港大会感悟；SUI开启IEO；Binance推出新一期Launchpad引发热议......</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36603"
-                        open
-                      >
-                        <summary class="article-expander__title">解读公链Sui：发展史、Token经济、生态全景与技术性能</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36603">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>随着未来主网的上线， Sui 或许能在激烈的 Layer1赛道获取一席之地。</span>
                             </span>
                           </div>
                         </a>
@@ -9961,36 +9975,6 @@ Sui 是世界上第一个完全由前 Facebook 开发人员设计的无许可的
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186624"
-                        open
-                      >
-                        <summary class="article-expander__title">全览MEV市场版图：基础设施、解决方案、应用</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186624">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：Ali
-原文编译：深潮 TechFlow
-随着区块链技术的不断发展，MEV 已成为一个备受关注的话题。MEV 市场是一个复杂且不断发展的领域，因此，本文介绍的分类可能会随着时间的推移而演变。但无论如何，研究员 Ali 在本文提供一个 详细的 MEV 市场版图，探索 3 个不同类别的 MEV 复杂世界：
-1. 基础设施 ；
-2. 解决方案 ；
-3. 应用。
-
-I. 基础设施层
-从基础设施层开始，该层由“验证者和质押参与者”构成。正如我们早期 MEV 研究所预期的那样，MPSV（MEV 利润分享验证者）的出现已经改变了市场格局，许多验证者现在提供增强的 MEV 奖励以及传统的质押收益。我们观察到 MPSV 和 LSD 在提供 MEV 奖励的不同链中兴起。一些提供给质押者 MEV 奖励的著名验证者包括 Cogent、Chainflow、Chorus One 和 Stakefish。
-类似地，在 LSD 方面，许多协议正在将 MEV 奖励分配到质押者之间，例如 Manifold、Frax、Rocketpool、Laine（StakeWiz）、Marinade Finance 和 Lido。这些市场参与者除了纯质押带来的回报外，还提供 MEV 奖励。
-在这个子类别之上，我们发现核心的区块构建者（Block Builders） 和中继（ Relay）参与者。区块构建者是高度专业化的参与者，他们根据交易顺序流（公共交易、捆绑交易、私人交易等）构建区块。中继接受来自构建者的区块，并选择当前提议者获利最大的区块。
-在区块构建者类别中，有一些特殊的参与者，例如提供主权 MEV 基础设施的 Skip 协议（Cosmos）。所谓主权是指 Skip 正在创建模块化工具，允许应用程序链完全控制和自定义交易偏好规则。另外的参与者还有 Jito，它作为 MPSV，拥有自己的流动质押衍生品 jSO…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9998,8 +9982,8 @@ I. 基础设施层
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4822492119">
-        <time id="build-timestamp" datetime="2023-04-27T17:06:38.103Z">2023-04-27T17:06:38.103Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4823013963">
+        <time id="build-timestamp" datetime="2023-04-27T18:08:52.368Z">2023-04-27T18:08:52.368Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
