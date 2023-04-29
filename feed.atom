@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-04-29T21:05:42.363Z</updated>
+    <updated>2023-04-29T22:06:09.121Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -5120,66 +5120,6 @@ Alpha Orange 团队： 
         <updated>2023-04-25T10:22:49.000Z</updated>
         <summary type="html"><![CDATA[PANews 4月25日消息，美国商品期货交易委员会 (CFTC) 委员克里斯蒂·戈德史密斯·罗梅罗 (Christy Goldsmith Romero) 在伦敦举行的 2023 年城市周上提议减少加密货币的匿名性，以此作为管理与数字资产相关风险的一种手段。并表示国会正在考虑解决匿名和数字身份问题的新法律。
 Romero强调政府和行业需要解决使加密货币对非法金融具有吸引力的主要特征——匿名性。其在演讲中表示，必须管理与数字资产相关的风险，因为市场诚信、国家安全和金融稳定至关重要，不能妥协。Romero说，减少加密货币市场的非法金融风险需要解决身份验证的挑战。她补充说，尽管公共区块链提供了一定的透明度和可追溯性，但混合器和匿名增强技术的使用增加了潜在的重大风险。Romero鼓励验证数字身份，敦促交易所以及提供去中心化金融 (DeFi)服务的交易所验证用户的数字身份。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文详解Cashmere：基于LayerZero的跨链抗MEV DEX聚合器]]></title>
-        <id>https://www.odaily.news/post/5186696</id>
-        <link href="https://www.odaily.news/post/5186696"/>
-        <updated>2023-04-25T09:40:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Karen，Foresight News
-在 DEX 交易时非常容易遭到 MEV（以太坊最大可提取价值）攻击，最常见的典型攻击抢先交易和三明治攻击，这类攻击经常会攫取交易者的利益。
-根据 EigenPhi 此前发布的一份 MEV 报告， 2022 年全年主流 MEV 机器人在以太坊上产生了至少 3.07 亿美元的收入，其中套利机器人产生的收入占总收入的 47.5% 以上。就大家常用的 DEX Uniswap V3 而言，Uniswap V3 上主流 MEV 机器人的收入规模占 LP 收入的 25% ，这里面可能就有我们贡献的一部分利益。在跨链交易需求较高的当下，可以抗 MEV 的跨链 DEX 聚合器就显得相对重要。
-上周末，基于 LayerZero 的跨链抗 MEV DEX 聚合器 Cashmere 发布了初始阶段公开测试网。作为入选了 Binance Labs 旗下 MVB 加速器的项目，Cashmere 是否会在基于 LayerZero 的全链借贷协议 Radiant Capital 大火之后再次掀起「LayerZero 热」？今天 Foresight News 将带你简要了解 Cashmere 背景和抗 MEV 攻击设计。
-Cashmere 是什么？
-Cashmere（中文译为「羊绒」）并未公布团队背景，CEO 官推账号为 @0x Reliq，不过暂未找到进一步信息。该项目团队 Cashmere Labs 此前于去年 12 月在 BNB Chain 欧洲创新孵化器计划中获得二等奖，今年 4 月份入选 Binance Labs 第 6 季 MVB 加速器计划。
-Cashmere 建立在 LayerZero 之上，会聚合多条链上的 DEX，然后为用户提供跨链兑换服务，同时，会推荐一条更好的兑换路线，不过在这一点上，Cashmere 还会考虑到 MEV 攻击，帮助用户在交易过程中规避 MEV 攻击。
-聚合方面，Cashmere 最初会聚合 11 条链，测试网已经在以太坊 Goerli、Polygon Mumbai、BSC Testnet、Arbitrum Goerli、Avalanche Fuji、Fantom 测试网、Optimism Goerli、Base Goerli、Linea zkEVM Testnet、Polygon zkEVM Testnet、Metis Goerli 上完成部署。
-Cashmere 在去年 7 月份发布的第一篇 Medium 文章中表示，除了跨链 DEX，还会通过单边 AMM 支持跨链和链间 stableswap，将允许以非常低的滑点兑换稳定币，从而解决稳定币流动性问题。目前暂不清楚 Cashmere stableswap 的进展状况。
-那在跨链 DEX 聚合器中的抗 MEV 攻击设计中，Cashmere 采取了怎样的对策？
-Cashmere 如何实现抗 MEV 攻击？
-在 DEX 时交易时虽说能够自行设置滑点，但由于交易额、不当的滑点设置、资产潜在价格变动以及池子储备金等因素，经常会给 MEV 攻击机器人趁虚而入的机会。
-Cashmere 在去年 9 月份表示，Cashmere 开发了多种 MEV 抢跑机制，来帮助保护用户利益。
-比如，用户想要在目标链上取回的目标资产只能被 Cashmere 验证者知道，由于使用了类似 ZK 的证明，普通的 MEV 抢跑机器人将无法在链上看到。
-再比如， 在以太坊上，用户将能够从以太坊内存池中隐藏他们的交易，并通过 Cashmere 应用提供使用私有 RPC flashbots 的选项，来保护他们免受抢先交易。在其他 L1 和 L2 上 Cashmere 开发了 front-run protector 工具，这个工具基于 Cashmere 上兑换资产的流动性（在源链和目标链上），并计算出用户交易的最佳滑点值，让 MEV 抢先攻击者无利可图。
-上月底，Cashmere 在解释其 MEV 策略时称，其通过进行攻击收益模拟，来为用户计算出 MEV 机器人无法从中获利的最优滑点。具体计算方式可戳此了解。
-当然，Cashmere 当前还处于测试网初期阶段，目前 App 体验也不太流畅，包括兑换操作、签名调用、交易处理等操作均比较迟缓，尚需不断优化。
-
-参考：
-https://www.dropbox.com/s/9wphe0hp4t00qn6/cashmere_wp.pdf?dl=0 
-https://cashmerelabs.medium.com/introducing-cashmerelabs-mev-strategy-e9fd3ff69419]]></summary>
-        <author>
-            <name>Foresight News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：链游Trident已出售从Arbitrum分配到的全部257,540枚ARB]]></title>
-        <id>https://panewslab.com/zh/articledetails/u8yk425o.html</id>
-        <link href="https://panewslab.com/zh/articledetails/u8yk425o.html"/>
-        <updated>2023-04-25T09:31:13.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月25日消息，0xScope监测显示，在Arbitrum完成对其生态DAO的初始ARB分配的发放后，Arbitrum生态链游Trident已出售分配到的全部 257,540枚ARB，并兑换为ETH和USDC。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ARPA Network宣布获得来自DWF Labs的数百万美元战略投资]]></title>
-        <id>https://panewslab.com/zh/articledetails/737ei2dh.html</id>
-        <link href="https://panewslab.com/zh/articledetails/737ei2dh.html"/>
-        <updated>2023-04-25T09:27:26.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月25日消息，去中心化安全计算网络 ARPA Network 宣布获得来自 DWF Labs 的数百万美元战略投资。ARPA Network 将进一步增强 ARPA 的密码学和区块链研发能力，与 DWF 的投资组合项目建立联系，以及促进门限签名方案在区块链行业的更广泛应用。ARPA Network 还将加快开发基于其基础设施的创新应用，包括游戏、彩票、NFT 铸造、白名单、密钥生成和区块链验证器任务分配的解决方案。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[老虎证券称有意在香港申请虚拟资产交易平台牌照]]></title>
-        <id>https://panewslab.com/zh/articledetails/fn5i596y.html</id>
-        <link href="https://panewslab.com/zh/articledetails/fn5i596y.html"/>
-        <updated>2023-04-25T09:20:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月25日消息，据Stheadline报道，老虎国际旗下老虎证券（香港）宣布推出现金管理服务。此外，老虎证券（香港）机构部执行董事陈纪贤表示，公司客户对虚拟资产服务有需求，故公司会认真考虑提供相关服务，并有意在港申请虚拟资产交易平台牌照，目前正与相关公司商谈有关事宜。今年6月为老虎国际（Tiger Global）成立9周年，该公司预告在6月将会做相关推广。]]></summary>
         <author>
             <name>PA一线</name>
         </author>

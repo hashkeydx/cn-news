@@ -2544,36 +2544,6 @@
           "wordCount": 385,
           "title": "美CFTC委员：国会正在考虑解决匿名和数字身份问题的新法律",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/u8yk425o.html",
-          "author": "PA一线",
-          "description": "PANews 4月25日消息，0xScope监测显示，在Arbitrum完成对其生态DAO的初始ARB分配的发放后，Arbitrum生态链游Trident已出售分配到的全部 257,540枚ARB，并兑换为ETH和USDC。",
-          "link": "https://panewslab.com/zh/articledetails/u8yk425o.html",
-          "publishedOn": "2023-04-25T09:31:13.000Z",
-          "wordCount": 377,
-          "title": "数据：链游Trident已出售从Arbitrum分配到的全部257,540枚ARB",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/737ei2dh.html",
-          "author": "PA一线",
-          "description": "PANews 4月25日消息，去中心化安全计算网络 ARPA Network 宣布获得来自 DWF Labs 的数百万美元战略投资。ARPA Network 将进一步增强 ARPA 的密码学和区块链研发能力，与 DWF 的投资组合项目建立联系，以及促进门限签名方案在区块链行业的更广泛应用。ARPA Network 还将加快开发基于其基础设施的创新应用，包括游戏、彩票、NFT 铸造、白名单、密钥生成和区块链验证器任务分配的解决方案。",
-          "link": "https://panewslab.com/zh/articledetails/737ei2dh.html",
-          "publishedOn": "2023-04-25T09:27:26.000Z",
-          "wordCount": 445,
-          "title": "ARPA Network宣布获得来自DWF Labs的数百万美元战略投资",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/fn5i596y.html",
-          "author": "PA一线",
-          "description": "PANews 4月25日消息，据Stheadline报道，老虎国际旗下老虎证券（香港）宣布推出现金管理服务。此外，老虎证券（香港）机构部执行董事陈纪贤表示，公司客户对虚拟资产服务有需求，故公司会认真考虑提供相关服务，并有意在港申请虚拟资产交易平台牌照，目前正与相关公司商谈有关事宜。今年6月为老虎国际（Tiger Global）成立9周年，该公司预告在6月将会做相关推广。",
-          "link": "https://panewslab.com/zh/articledetails/fn5i596y.html",
-          "publishedOn": "2023-04-25T09:20:29.000Z",
-          "wordCount": 369,
-          "title": "老虎证券称有意在香港申请虚拟资产交易平台牌照",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3587,16 +3557,6 @@
           "publishedOn": "2023-04-25T10:40:00.000Z",
           "wordCount": 1680,
           "title": "OrangeFinance：可对冲Uniswap V3的流动性管理工具",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5186696",
-          "author": "Foresight News",
-          "description": "原文作者：Karen，Foresight News\n在 DEX 交易时非常容易遭到 MEV（以太坊最大可提取价值）攻击，最常见的典型攻击抢先交易和三明治攻击，这类攻击经常会攫取交易者的利益。\n根据 EigenPhi 此前发布的一份 MEV 报告， 2022 年全年主流 MEV 机器人在以太坊上产生了至少 3.07 亿美元的收入，其中套利机器人产生的收入占总收入的 47.5% 以上。就大家常用的 DEX Uniswap V3 而言，Uniswap V3 上主流 MEV 机器人的收入规模占 LP 收入的 25% ，这里面可能就有我们贡献的一部分利益。在跨链交易需求较高的当下，可以抗 MEV 的跨链 DEX 聚合器就显得相对重要。\n上周末，基于 LayerZero 的跨链抗 MEV DEX 聚合器 Cashmere 发布了初始阶段公开测试网。作为入选了 Binance Labs 旗下 MVB 加速器的项目，Cashmere 是否会在基于 LayerZero 的全链借贷协议 Radiant Capital 大火之后再次掀起「LayerZero 热」？今天 Foresight News 将带你简要了解 Cashmere 背景和抗 MEV 攻击设计。\nCashmere 是什么？\nCashmere（中文译为「羊绒」）并未公布团队背景，CEO 官推账号为 @0x Reliq，不过暂未找到进一步信息。该项目团队 Cashmere Labs 此前于去年 12 月在 BNB Chain 欧洲创新孵化器计划中获得二等奖，今年 4 月份入选 Binance Labs 第 6 季 MVB 加速器计划。\nCashmere 建立在 LayerZero 之上，会聚合多条链上的 DEX，然后为用户提供跨链兑换服务，同时，会推荐一条更好的兑换路线，不过在这一点上，Cashmere 还会考虑到 MEV 攻击，帮助用户在交易过程中规避 MEV 攻击。\n聚合方面，Cashmere 最初会聚合 11 条链，测试网已经在以太坊 Goerli、Polygon Mumbai、BSC Testnet、Arbitrum Goerli、Avalanche Fuji、Fantom 测试网、Optimism Goerli、Base Goerli、Linea zkEVM Testnet、Polygon zkEVM Testnet、Metis Goerli 上完成部署。\nCashmere 在去年 7 月份发布的第一篇 Medium 文章中表示，除了跨链 DEX，还会通过单边 AMM 支持跨链和链间 stableswap，将允许以非常低的滑点兑换稳定币，从而解决稳定币流动性问题。目前暂不清楚 Cashmere stableswap 的进展状况。\n那在跨链 DEX 聚合器中的抗 MEV 攻击设计中，Cashmere 采取了怎样的对策？\nCashmere 如何实现抗 MEV 攻击？\n在 DEX 时交易时虽说能够自行设置滑点，但由于交易额、不当的滑点设置、资产潜在价格变动以及池子储备金等因素，经常会给 MEV 攻击机器人趁虚而入的机会。\nCashmere 在去年 9 月份表示，Cashmere 开发了多种 MEV 抢跑机制，来帮助保护用户利益。\n比如，用户想要在目标链上取回的目标资产只能被 Cashmere 验证者知道，由于使用了类似 ZK 的证明，普通的 MEV 抢跑机器人将无法在链上看到。\n再比如， 在以太坊上，用户将能够从以太坊内存池中隐藏他们的交易，并通过 Cashmere 应用提供使用私有 RPC flashbots 的选项，来保护他们免受抢先交易。在其他 L1 和 L2 上 Cashmere 开发了 front-run protector 工具，这个工具基于 Cashmere 上兑换资产的流动性（在源链和目标链上），并计算出用户交易的最佳滑点值，让 MEV 抢先攻击者无利可图。\n上月底，Cashmere 在解释其 MEV 策略时称，其通过进行攻击收益模拟，来为用户计算出 MEV 机器人无法从中获利的最优滑点。具体计算方式可戳此了解。\n当然，Cashmere 当前还处于测试网初期阶段，目前 App 体验也不太流畅，包括兑换操作、签名调用、交易处理等操作均比较迟缓，尚需不断优化。\n\n参考：\nhttps://www.dropbox.com/s/9wphe0hp4t00qn6/cashmere_wp.pdf?dl=0 \nhttps://cashmerelabs.medium.com/introducing-cashmerelabs-mev-strategy-e9fd3ff69419",
-          "link": "https://www.odaily.news/post/5186696",
-          "publishedOn": "2023-04-25T09:40:00.000Z",
-          "wordCount": 1865,
-          "title": "一文详解Cashmere：基于LayerZero的跨链抗MEV DEX聚合器",
           "imageUrl": null
         }
       ]
