@@ -2194,26 +2194,6 @@
           "wordCount": 462,
           "title": "Sui生态社交协议Suia将发行SUIA代币，总量1亿枚",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/9djl4ra9.html",
-          "author": "PA一线",
-          "description": "PANews 4月26日消息，据官方博客，元宇宙项目The Sandbox将于北京时间今日23:00启动Mega City 3土地销售，本次土地销售的合作伙伴均是来自中国的品牌或实体，包括香港科技大学、Nouns、Softstar等。参与者钱包中至少需要持有1011枚SAND代币。\n用户可在北京时间4月26日23:00至5月10日11:00进行抽奖注册，5月11日19:00将公布抽奖结果。Mega City 3土地销售和第一次拍卖将于5月11日20:00至5月15日20:00进行，第二次拍卖时间则为5月15日23:00至5月17日23:00。",
-          "link": "https://panewslab.com/zh/articledetails/9djl4ra9.html",
-          "publishedOn": "2023-04-26T08:34:26.000Z",
-          "wordCount": 414,
-          "title": "The Sandbox将于今日晚间启动Mega City 3土地销售",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/1p1kxrsr.html",
-          "author": "PA一线",
-          "description": "PANews 4月26日消息，据CoinDesk报道，Coinbase前产品经理Ishan Wahi的律师在向法庭递交的文件中表示，被告希望法院以内幕交易指控对其判处不超过10个月的监禁，律师认为不超过10个月的有期徒刑是“足够但不过分”的惩罚。据悉，法院将于5月9日举行针对Wahi的量刑听证会。",
-          "link": "https://panewslab.com/zh/articledetails/1p1kxrsr.html",
-          "publishedOn": "2023-04-26T08:16:06.000Z",
-          "wordCount": 371,
-          "title": "Coinbase前产品经理拟在内幕交易案中寻求量刑不超过10个月",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2580,26 +2560,6 @@
           "publishedOn": "2023-04-26T09:20:50.000Z",
           "wordCount": null,
           "title": "获利约180万美元，zkSync生态DEX Merlin安全事件分析",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/32141",
-          "author": null,
-          "description": "原文作者：\n\nHaotian（Twitter：@tmel0211），区块链安全从业者\n\n\n本文首发于 2022 年 10 月，今日 zkSync 生态 DEX Merlin 流动性耗尽，黑客盗取 182 万美元资金。随后有读者发现，这个 Merlin 在上线前刚刚完成由 CertiK 进行的审计，虽然 CertiK 在报告中指出 Merlin 项目存在中心化问题，但仍没能避免安全问题发生，最终资金损失。\n\n\n那么为什么通过审计的项目还会被攻击、Rug或者存在各种漏洞？区块链安全领域从业者 Haotian（\n\n@tmel0211）在本文针对一些审计相关问题进行解答。\n\n\n年底安全事件一个个接踵而至，黑客估计是怕市场熊的没钱了，以亿为单位先把年终奖领了。有人要问了，Rabby、TempleDAO、Mango 这些被攻击的项目，都是被安全审计过的，为何还被攻击了？有人甚至借此非议安全审计没意义，作为多年区块链安全行业的从业者，简单说两句：\n\n\n1、各位看官得先调整预期，安全审计不可或缺，但审计完了也绝不可能一劳永逸。攻击和防御工事完全不是一个量级。我们看安全公司的 audit report 会发现，几乎每一个项目都能找出 1 个严重漏洞，2-4 个高风险漏洞，还有若干中等以及低级别的漏洞。你能说，这些漏洞发现没意义吗？有，但更多是降低安全风险！\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2、有人会在东窗事发后说，漏洞这么简单，为何没被发现？这个问题很复杂，安全审计基于已有的工具，已有的经验进行逻辑审查，扫除代码缺陷，排查诸如溢出、重放、验签等常规漏洞。但 defi 等协议难的并非代码，而是复杂的金融业务逻辑，比如流程管控，外部组合嵌套，市场操纵等，超出安全公司的业务范畴。\n\n\n\n\n\n\n\n\n\n\n\n\n3、区块链生态存在形形色色的组合，开源+非开源，已审计项目+非审计项目，链下 validator+链上执行等等，很多项目给安全公司的审计也都只是模块化展开，比如审计开源的部分，那未开源的部分呢？因链下流程影响到链上执行呢，因市场交易深度问题导致市场被操纵呢？出了事，不可能全部让安全公司背锅。  \n\n\n4、可怕的是很多项目方，找安全审计的目的并不纯，只是希望拿到一份所谓的「安全背书」，抱有这样的心态做项目，其在自身安全防备上的投入可想而知。出了问题又一副我找 xx 头部安全公司审计过的无辜嘴脸，试问，项目本身在安全防御+加固+应急响应上的投入有多少呢？我想这才是安全事件屡见不鲜的根本原因；  \n\n\n5、其实，行业生态大的威胁并不全是黑客攻击，更多是安全意识薄弱造成的「人祸」，比如某些项目一旦遭攻击就会传出 rug 消息，我们司空见惯的网络钓鱼受诈骗等等，这些压根就没法统计，如果把人为 rug、网络钓鱼、网络勒索、资金盘诈骗等等一系列安全损失都统计起来呢？其安全威胁丝毫也不逊色于黑客；  \n\n\n6、在我看来，加密行业安全问题路漫漫其修远兮，我们预期的生态是，项目自身安全防护+第三方安全审计预防协助+用户人人皆有安全意识，行业从根本上变得更「安全」。但事实上，安全公司压根不是 security 建设者身份，安全公司能作为修理工，桥塌修桥，路断补路就不错了。安全生态需要每一个参与者共同守护。  \n\n\n原文链接",
-          "link": "https://www.theblockbeats.info/news/32141",
-          "publishedOn": "2023-04-26T08:18:49.000Z",
-          "wordCount": null,
-          "title": "为什么通过安全审计的项目还是会被攻击？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/36814",
-          "author": null,
-          "description": "原文标题：《MEV Outlook 2023: Walking Through the Dark Forest》\n\n原文作者：EigenPhi\n\n原文编译：Foresight News\n\n\n\n\n* 注：本报告计算的清算交易统计范围为 2022 年 5 月至 12 月，其余类型统计范围为 2022 年全年。\n\n\n\n\n一、MEV 的新视角\n\n\n\n\n目前，大多数关于 MEV 主题的报告和文章都围绕着概念介绍与如何将订单（order）引入 MEV 市场，所关注的问题包括但不限于 MEV 市场的公平性、MEV 带来的负外部性以及与机制设计有关的中心化风险或审查问题，这些都是许多区块链协议与应用层建设者正在努力解决的方向。\n\n\n\n\n此外，Amber Group 与《福布斯》还撰文介绍了大量长尾 MEV 案例、著名的 MEV 搜索者 Nathan Worsley 的掘金策略内幕，以及 Wintermute 与 Alameda Research 这两个运行 MEV 策略的量化机构。它们的文章中都提到了「订单流支付」（Payment for Order Flow）的概念，这似乎是一个大的趋势，开发者们正在为之努力，包括 Cowswap、1inch Fusion 模式与 Flashbots 的 MEV-Share。主流金融机构也开始关注 MEV 领域，譬如纳斯达克的新闻与见解栏目转发了 CoinDesk 关于 JIT 机器人与 MEV 如何促进 DeFi 的文章。当然，也有小部分人关注 MEV 市场的监管。\n\n\n\n\n事实上，在普遍关注 MEV 宏观市场机制的运作之外，我们认为还有一个微观的问题值得关注：作为一个代表，MEV 交易意味着流动性数据（liquidity data）具有前所未有的机会和挑战。\n\n\n\n\n早在 2022 年 5 月 UST-LUNA 熔断引发的一系列事件中，从事加密业务的…",
-          "link": "https://www.theblockbeats.info/news/36814",
-          "publishedOn": "2023-04-26T08:10:59.000Z",
-          "wordCount": null,
-          "title": "MEV2023展望：穿越黑暗森林",
           "imageUrl": null
         }
       ]
