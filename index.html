@@ -51,11 +51,137 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-01 datetime="2023-05-01T03:04:51.000Z">2023-05-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-01 datetime="2023-05-01T03:04:51.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-01 datetime="2023-05-01T04:00:00.000Z">2023-05-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-01 datetime="2023-05-01T04:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186792"
+                        open
+                      >
+                        <summary class="article-expander__title">一文了解​BRC-721协议及其应用场景</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186792">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：xiyu（@ohxiyu）
+原文来源：SevenUp DAO
+一.背景
+1.比特币 ordinals 缺乏将项目分组到集合中的标准化方法，因为这依赖于特定的、通常集中的服务和钱包。目前的市场情况基本上是每个交易市场、钱包都在运行自己的 server，使用自己的方法中心化处理，没有统一的标准。
+2.这样中心化的合集标准，限制了序数生态系统的发展，并可能存在一些作恶的行为。
+3.BRC-721 是一个合集标准，市场可以通过这个标准准确的识别合集并显示元数据
+二.BRC-721 是什么？
+BRC-721: Ordinals Collection Protocol 是一个用于验证比特币序数集合真实性的标准接口。为解决上述问题，该协议引入了一种去中心化和无需信任的集合创建和验证方法，类似于以太坊区块链上的 ERC-721 标准。
+BRC-721 协议旨在通过提供一个真实性来源，简化集合创建和验证过程，无需预先付款。
+该协议规定了集合及其项目在清单中的数据结构。清单和验证规则决定序数铭文是否属于某个集合。
+BRC-721 协议解决的问题包括：
+
+在其他区块链上的预付款问题
+
+缺乏元数据标准和揭示机制
+
+缺乏关于集合或其项目的共享规范
+
+需要信任集合创建者将您的铭文纳入集合
+
+通过这个协议，比特币 nft 集合的创建和验证将变得去中心化且无需信任，从而拓展 ordinals 生态系统的潜力。
+三.技术规格
+1.BRC-721 协议基于三种类型的清单。每个清单都有协议和版本字段，允许第三方服务理解规范。
+📜 CollectionManifest（集合清单）
+CollectionManifest 是集合的真实来源。它存储集合参数和允许链接和验证底层集合项目的字段。
+💎 InscriptionManifest（铭文清单）
+InscriptionManifest 是与 Collec…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186793"
+                        open
+                      >
+                        <summary class="article-expander__title">浅析LSD MEV赛道：MEV市场化和公平化将会为LSD带来什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186793">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文作者：雨中狂睡
+原文编辑：David
+MEV（Maximal Extractable Value 最大可提取价值）是加密世界最重要的议题之一。它是指验证者通过添加、删除并更改区块中的交易顺序，在超过标准区块奖励和 Gas 费用的区块生产中所能提取的最大价值。
+当 MEV 邂逅火热的 LSD 浪潮，两者会有怎样的结合？
+MEV 概念回顾
+MEV 并非一个新产物，它涉及区块链用户、验证者和搜索者三个利益相关群体。
+本质上，MEV 促成了所有区块链使用者展开了对于区块空间使用权的争夺。因此，在链上回暖的当下，MEV 成为了许多搜索者的“提款机”。比如，在 Memecoin 风潮下，截止 4 月 19 日，七天内 MEV 所产生的利润已经超过三百万美元。
+
+这里的一个反直觉现象是，MEV 的价值并非由区块链的验证者捕获，而是由搜索者捕获，搜索者在中文加密圈子里往往会被称为“科学家”。
+MEV 可以简单理解为以抢先交易等形式进行的链上套利，常见的就是三明治攻击，俗称夹子机器人。
+比如，当你在 Uniswap 买入 1 万美元的代币 X ，机器人嗅到了这笔交易，于是赶在区块打包之前，用更高的手续费也买入 X，机器人的交易被抢先执行。
+由于 Uniswap 自动做市机制，代币 X 单价会被抬高，你的交易执行后，代币 X 价格会继续升高。这时候，机器人再生成一笔交易，将前一笔交易中较低价格买入的 X 卖出，刚好赚下差价。
+机器人生成的两笔交易刚好包夹了我们的交易，看起来就像一个三明治。
+MEV 协议和实践
+为了规范 MEV 所带来的无节制索取，加密行业也涌现出一批 MEV 相关协议，比如 Flashbots、CowSawp、Manifold Finance 等。
+CowSwap 和 Flashbots 基本代表了 MEV 赛道应用的两个方向。
+
+CowSwap 站在了 MEV 搜索者的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186813"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | DigiDaigaku宣布将推出比特币Original NFT；比特币减半还有364天（5月1日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186813">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>头条
+
+DigiDaigaku：将推出比特币 Original NFT，将于 5 月 1 日进行快照
+Odaily星球日报讯 据官方推特，NFT 项目 DigiDaigaku 宣布将推出比特币 Original NFT，DigiDaigaku Genesis 持有者将免费或比特币 NFT DigiDaigaku Chibi，预计将于 5 月 1 日在以太坊区块高度 1714466 进行快照，DigiDaigaku 提醒用户需要确保 Genesis NFT 在热钱包中，而不是像 Safe 这样的多签钱包。据悉，Chibi Genesis 系列将是 DigiDaigaku 公司 Limit Break 首次涉足比特币 NFT。
+第 160 次以太坊 ACDE 会议：坎昆升级确定纳入 EIP-4844、 6780、 6475、 1153 
+Odaily星球日报讯 根据 Christine Kim 对第 160 次以太坊执行层核心开发者会议（ACDE）进行的总结，本次会议主要讨论在下次坎昆（Cancun）升级中，需要纳入哪些代码修改。
+除了此次升级的主角 EIP-4844 （降低L2手续费） 外，开发者还同意将以下 EIPs 纳入升级：
+·EIP-6780 （修改 SELFDESTRUCT 操作码的功能，主要是为未来应用 Verkle 树做准备）；
+·EIP-6475 （为可选值引入新的简单序列化类型，以提供更佳的可读性和紧凑的序列化）；
+·EIP-1153 （引入瞬态存储操作码）。
+另外，还有部分 EIPs 提案尚未被正式接受纳入升级（EIP-6913、 6493、 4788、 2537、 5656 ）以及部分被确定不考虑纳入本次升级（Big EOF 和 EVMMAX）。
+在对围绕坎昆 EIPs 进行讨论后，下一次会议议程将是关于 EIP-4844 的进展。
+比特币减半倒计时：预…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -460,87 +586,6 @@ Ordinals 协议和 BRC-20 标准到底是什么？
 
 
 Ordinals 是基于 BTC 网络的一种 NFT 协议，旨在为每 satoshis（sat）分配唯一身份。通过使用 Ord 软件，该协议将数据添加到这些 sats，并允许软件用户基于一个序数（ordinal numbers）系统来跟踪它们。换言之，Ordinal 协议将比特币最小单位 sats 以 NFT 的形式表现出来，并为 sats 赋予了理由充分的交易价值和收藏价值。当最小单位成为新的炒作标的，某种…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186793"
-                        open
-                      >
-                        <summary class="article-expander__title">浅析LSD MEV赛道：MEV市场化和公平化将会为LSD带来什么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186793">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文作者：雨中狂睡
-原文编辑：David
-MEV（Maximal Extractable Value 最大可提取价值）是加密世界最重要的议题之一。它是指验证者通过添加、删除并更改区块中的交易顺序，在超过标准区块奖励和 Gas 费用的区块生产中所能提取的最大价值。
-当 MEV 邂逅火热的 LSD 浪潮，两者会有怎样的结合？
-MEV 概念回顾
-MEV 并非一个新产物，它涉及区块链用户、验证者和搜索者三个利益相关群体。
-本质上，MEV 促成了所有区块链使用者展开了对于区块空间使用权的争夺。因此，在链上回暖的当下，MEV 成为了许多搜索者的“提款机”。比如，在 Memecoin 风潮下，截止 4 月 19 日，七天内 MEV 所产生的利润已经超过三百万美元。
-
-这里的一个反直觉现象是，MEV 的价值并非由区块链的验证者捕获，而是由搜索者捕获，搜索者在中文加密圈子里往往会被称为“科学家”。
-MEV 可以简单理解为以抢先交易等形式进行的链上套利，常见的就是三明治攻击，俗称夹子机器人。
-比如，当你在 Uniswap 买入 1 万美元的代币 X ，机器人嗅到了这笔交易，于是赶在区块打包之前，用更高的手续费也买入 X，机器人的交易被抢先执行。
-由于 Uniswap 自动做市机制，代币 X 单价会被抬高，你的交易执行后，代币 X 价格会继续升高。这时候，机器人再生成一笔交易，将前一笔交易中较低价格买入的 X 卖出，刚好赚下差价。
-机器人生成的两笔交易刚好包夹了我们的交易，看起来就像一个三明治。
-MEV 协议和实践
-为了规范 MEV 所带来的无节制索取，加密行业也涌现出一批 MEV 相关协议，比如 Flashbots、CowSawp、Manifold Finance 等。
-CowSwap 和 Flashbots 基本代表了 MEV 赛道应用的两个方向。
-
-CowSwap 站在了 MEV 搜索者的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186813"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | DigiDaigaku宣布将推出比特币Original NFT；比特币减半还有364天（5月1日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186813">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>头条
-
-DigiDaigaku：将推出比特币 Original NFT，将于 5 月 1 日进行快照
-Odaily星球日报讯 据官方推特，NFT 项目 DigiDaigaku 宣布将推出比特币 Original NFT，DigiDaigaku Genesis 持有者将免费或比特币 NFT DigiDaigaku Chibi，预计将于 5 月 1 日在以太坊区块高度 1714466 进行快照，DigiDaigaku 提醒用户需要确保 Genesis NFT 在热钱包中，而不是像 Safe 这样的多签钱包。据悉，Chibi Genesis 系列将是 DigiDaigaku 公司 Limit Break 首次涉足比特币 NFT。
-第 160 次以太坊 ACDE 会议：坎昆升级确定纳入 EIP-4844、 6780、 6475、 1153 
-Odaily星球日报讯 根据 Christine Kim 对第 160 次以太坊执行层核心开发者会议（ACDE）进行的总结，本次会议主要讨论在下次坎昆（Cancun）升级中，需要纳入哪些代码修改。
-除了此次升级的主角 EIP-4844 （降低L2手续费） 外，开发者还同意将以下 EIPs 纳入升级：
-·EIP-6780 （修改 SELFDESTRUCT 操作码的功能，主要是为未来应用 Verkle 树做准备）；
-·EIP-6475 （为可选值引入新的简单序列化类型，以提供更佳的可读性和紧凑的序列化）；
-·EIP-1153 （引入瞬态存储操作码）。
-另外，还有部分 EIPs 提案尚未被正式接受纳入升级（EIP-6913、 6493、 4788、 2537、 5656 ）以及部分被确定不考虑纳入本次升级（Big EOF 和 EVMMAX）。
-在对围绕坎昆 EIPs 进行讨论后，下一次会议议程将是关于 EIP-4844 的进展。
-比特币减半倒计时：预…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -5924,27 +5969,6 @@ Zodia将利用这笔资金在其目前的欧洲和亚洲之外的市场进行扩
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/soqp8tk5.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Certik：正探索社区补偿计划以弥补Merlin用户损失，敦促恶意开发者接受20%的白帽赏金</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/soqp8tk5.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 4月27日消息，安全公司CertiK发推文称：“正在与@ZKSync探索一项社区补偿计划以弥补Merlin DEX事件造成的约200万美元用户资金损失。初步调查表明，该恶意开发商位于欧洲，正在与执法部门合作追查他们。已敦促该恶意开发者接受20%的白帽赏金。若攻击者不接受，将立即采取一切可能的行动来保护zk社区。”CertiK将在未来几天内宣布一个180万美金的社区补偿计划以弥补损失。更多的计划细节将会于随后发布，以帮助每一个受此事件影响的受害者。
-相关阅读：zkSync生态DEX Merlin安全事件分析</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -6728,8 +6752,8 @@ TCP/IP 协议的出现改变了这一现状，TCP/IP 协议提供了一种通�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4848345472">
-        <time id="build-timestamp" datetime="2023-05-01T04:09:14.768Z">2023-05-01T04:09:14.768Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4848633484">
+        <time id="build-timestamp" datetime="2023-05-01T05:07:44.772Z">2023-05-01T05:07:44.772Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
