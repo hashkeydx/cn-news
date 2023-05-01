@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-01T16:08:59.516Z</updated>
+    <updated>2023-05-01T17:06:38.011Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ETH周报 | 坎昆升级确定纳入EIP-4844；Uniswap Wallet上架App Store（4.24-4.30）]]></title>
+        <id>https://www.odaily.news/post/5186831</id>
+        <link href="https://www.odaily.news/post/5186831"/>
+        <updated>2023-05-01T15:06:47.000Z</updated>
+        <summary type="html"><![CDATA[一、整体概述
+根据 Christine Kim 对第 160 次以太坊执行层核心开发者会议（ACDE）进行的总结，本次会议主要讨论在下次坎昆（Cancun）升级中，需要纳入哪些代码修改。除了此次升级的主角 EIP-4844 （降低L2手续费） 外，开发者还同意将以下 EIPs 纳入升级：
+·EIP-6780 （修改 SELFDESTRUCT 操作码的功能，主要是为未来应用 Verkle 树做准备）；
+·EIP-6475 （为可选值引入新的简单序列化类型，以提供更佳的可读性和紧凑的序列化）；
+·EIP-1153 （引入瞬态存储操作码）。
+另外，还有部分 EIPs 提案尚未被正式接受纳入升级（EIP-6913、 6493、 4788、 2537、 5656 ）以及部分被确定不考虑纳入本次升级（Big EOF 和 EVMMAX）。在对围绕坎昆 EIPs 进行讨论后，下一次会议议程将是关于 EIP-4844 的进展。
+Uniswap 宣布其自托管开源移动钱包 Uniswap Wallet 已在 App Store 正式上线， 此前用户在 TestFlight 的所有信息都会自动移植过来。 Uniswap Wallet 支持用户创建新的以太坊钱包或导入现有钱包，用户可以在多个链上存储、监控和交易代币，而无需更改或配置网络，可以查看 NFT、连接到Web3应用程序等。Uniswap 钱包源代码已经过安全公司 Trail of Bits 的审计。
+二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1850、 1800 美元，阻力位 1900 美元。
+
+二、二级市场
+
+ 1.现货市场
+OKX 行情数据显示，上周 ETH 价格宽幅整荡，一度上涨至 1965 美元，周内收于 1919 美元，环比上涨 2.6% 。
+
+ETH 日线图，来自 OKX
+日线图上显示，价格目前在 1850 美…]]></summary>
+        <author>
+            <name>秦晓峰</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[区块链营销方案提供商MetaCRM完成250万美元种子轮融资]]></title>
         <id>https://panewslab.com/zh/articledetails/p9kgirl0.html</id>
@@ -3740,46 +3765,6 @@ AIP-239提案旨在通过自治工作组来运营ApeCoin DAO，工作组是有�
         <updated>2023-04-27T05:16:37.000Z</updated>
         <summary type="html"><![CDATA[PANews 4月27日消息，据CoinDesk报道，知情人士透露，风险投资公司 Andreessen Horowitz (a16z)的前首席技术官Riyaz Faizullabhoy和前首席信息安全官Nassim Eddequiouaq正在创办一家面向机构的加密货币托管公司，并得到了a16z的种子资金支持。
 他们都于今年2月离开了a16z，开始了新的托管业务。据悉，在加入a16z之前，两人共同为Facebook的Novi（原Calibra）钱包创建了加密货币托管基础设施。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Animoca Brands将于明年推出Web3格斗游戏ONE Fight Arena]]></title>
-        <id>https://panewslab.com/zh/articledetails/2nume07z.html</id>
-        <link href="https://panewslab.com/zh/articledetails/2nume07z.html"/>
-        <updated>2023-04-27T05:04:47.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月27日消息，据Decrypt报道，Animoca Brands正与新加坡综合格斗品牌One Championship合作开发一款Web3策略格斗游戏ONE Fight Arena，预计于2024年推出，早期玩家测试今年晚些时候开始。该游戏中的每个格斗家角色都会推出相应的NFT，让玩家获得数字所有权。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Polygon推出Polygon zkEVM跨链桥Polygon Bridge]]></title>
-        <id>https://panewslab.com/zh/articledetails/zert2f1r.html</id>
-        <link href="https://panewslab.com/zh/articledetails/zert2f1r.html"/>
-        <updated>2023-04-27T05:02:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月27日消息，据官方推特，Polygon推出Polygon zkEVM跨链桥Polygon Bridge。该跨链桥由零知识技术驱动，由以太坊和Polygon zkEVM上的智能合约管理，支持ERC-20代币和ERC-777代币，通过它用户在以太坊主网上提取资金可在30-60分钟内完成。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[探索加密市场新机遇：12个受加密VC们青睐的新项目]]></title>
-        <id>https://www.theblockbeats.info/news/36841</id>
-        <link href="https://www.theblockbeats.info/news/36841"/>
-        <updated>2023-04-27T04:11:32.000Z</updated>
-        <summary type="html"><![CDATA[以下是 12 个备受期待的加密货币项目，它们已经得到了来自多家知名风险投资公司的支持。]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美众议院将于4月28日凌晨举行数字资产现货市场监管相关听证会]]></title>
-        <id>https://panewslab.com/zh/articledetails/ea3wr4ws.html</id>
-        <link href="https://panewslab.com/zh/articledetails/ea3wr4ws.html"/>
-        <updated>2023-04-27T04:11:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月27日消息，据CoinDesk报道，美国众议院商品市场、数字资产和农村发展小组委员会将于北京时间4月28日02:00举行题为“数字资产的未来：识别现货市场监管中的漏洞”听证会。前商品期货交易委员会（CFTC）主席Timothy Massad、机构加密货币交易平台FalconX总法律顾问Purvi Maniar、去中心化权益证明分类账Hedera全球政策负责人Nilmini Rubin等将出席听证会。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
