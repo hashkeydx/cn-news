@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-01T10:08:19.224Z</updated>
+    <updated>2023-05-01T11:05:53.480Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[摩根大通已获准并完成对第一共和银行的收购]]></title>
+        <id>https://panewslab.com/zh/articledetails/p53v26o7.html</id>
+        <link href="https://panewslab.com/zh/articledetails/p53v26o7.html"/>
+        <updated>2023-05-01T10:49:52.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月1日消息，据金十报道，摩根大通表示，已获得所有监管机构批准，（收购第一共和银行的）交易已经完成。摩根大通表示，将向美国联邦存款保险公司支付106亿美元，用于收购第一共和国银行。此外，摩根大通将偿还来自美国大型银行的250亿美元存款，并取消（第一共和银行）欠摩根大通的50亿美元存款。美国联邦存款保险公司将向其提供500亿美元的5年期固定利率融资。
+今日早些时候消息，美国FDIC发布公告称，第一共和银行办公室将以摩根大通分支机构的身份重新开业。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Sandbox将为香港知专设计学院的学生提供元宇宙教育]]></title>
+        <id>https://panewslab.com/zh/articledetails/wqcko52e.html</id>
+        <link href="https://panewslab.com/zh/articledetails/wqcko52e.html"/>
+        <updated>2023-05-01T10:41:30.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月1日消息，据官方推特，元宇宙项目The Sandbox宣布与香港知专设计学院（HKDI）达成合作。作为合作的一部分，The Sandbox将为HKDI的学生提供元宇宙教育。
+据悉，香港知专设计学院是香港特区政府的职业训练局，为培训创意工业人才而成立的一专上院校。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rollup Layer2的模块化演进之路]]></title>
+        <id>https://www.odaily.news/post/5186790</id>
+        <link href="https://www.odaily.news/post/5186790"/>
+        <updated>2023-05-01T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[本文尝试从演化角度讨论 Rollup Layer 2 的发展以及演进，主要解答以下几个问题：
+
+Rollup 是如何工作的
+
+Rollup 的模块化演进
+
+模块化带来的可能性
+
+模块化应用的技术趋势
+
+总结
+
+Rollup 是如何工作的
+区块链的“三难问题”一直是困扰业界的一个难题，如果我们认为 Layer 1 区块链应该首先保证“去中心化”和“安全”，那将“扩展性”方案从 Layer 1 迁移出来就是自然的选择了，于是有了 Layer 2 。那新的难题就是如何通过 Layer 1 来保证 Layer 2 的安全。
+最初有一种想法是定时将 Layer 2 应用的状态树根写到 Layer 1 ，这样可以通过状态证明来校验应用的状态，类似于交易所储备金证明。但这种方式第三方无法通过公开的方式验证两次状态转换是正确的。
+为了更深入的探讨这个问题，我们抽象一下，任何程序的状态都可以通过一个状态转换公式表达：
+σt+ 1 ≡ Υ(σt, T)
+这个公式来自于 Ethereum 黄皮书，但它可以代表任意的程序。在这里 Υ 代表程序，σ 代表状态。状态 σt+ 1 由程序 Y 通过状态 σt 和交易 T 计算得出。交易 T 代表程序的输入。任意时候，如果 σt 是确定的，程序 Y 是确定的，T 是确定的，那 σt+ 1 就是确定的。
+所以要提供公开的可验证性，关键是 Y 要公开可用，历史上所有的 T 要公开可用并且顺序确定，中间的状态可通过 Y 和 T 重新计算得到。而程序的公开可用我们可以通过开源来实现，关键是 T 公开可用如何保证，这就引入了数据可用性（DA）的概念。
+数据可用性需要有个公开的不可篡改的账本来记录应用的交易。自然想到，区块链账本就是这样一个系统，于是将 Layer 2 的交易写回 Layer 1 ，保证数据可用性，这也就是 Rollup 名称的来源。
+所以 Layer…]]></summary>
+        <author>
+            <name>RoochNetwork</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[孙宇晨：团队成员无意中将部分TUSD用于参与兑换活动，已联系团队全额退款]]></title>
+        <id>https://panewslab.com/zh/articledetails/v2th2aoe.html</id>
+        <link href="https://panewslab.com/zh/articledetails/v2th2aoe.html"/>
+        <updated>2023-05-01T09:00:42.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月1日消息，孙宇晨发推文对赵长鹏回应称：“作为TUSD的合作做市商，TRON DAO Venture存入TUSD的主要目的是促进TUSD领先交易所之间的做市，从而提高流动性和交易量，而不是参与任何交易所促销活动。在过去的几个小时内，我们的做市商已经实现了4000万美元的总交易量，为TUSD价格的稳定做出了贡献。遗憾的是，我们的一些团队成员并未完全了解这些资金的预期用途，并无意中将其中的一部分用于参与兑换活动。意识到这个错误后，我们立即联系了交易所团队并安排了全额退款。对于此次疏忽，我们深表歉意。”
+此前今日消息时候消息，孙宇晨今日分10笔交易累计向币安共转入4.05亿枚TUSD。赵长鹏表示，已警告孙宇晨不能用其TUSD参与SUI新币挖矿，否则将对其采取行动。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023年第19周融资精选，Omni Network获投1800万美元]]></title>
         <id>https://www.theblockbeats.info/news/36872</id>
