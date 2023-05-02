@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-02T13:10:30.428Z</updated>
+    <updated>2023-05-02T14:06:53.160Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Coinbase宣布推出国际交易所，向美国以外的机构用户提供永续合约交易服务]]></title>
+        <id>https://panewslab.com/zh/articledetails/gjbztpdt.html</id>
+        <link href="https://panewslab.com/zh/articledetails/gjbztpdt.html"/>
+        <updated>2023-05-02T13:20:43.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月2日消息，Coinbase 宣布推出国际交易所（Coinbase International Exchange），目前已获得百慕大金融管理局（BMA）的监管许可证，该交易所将使位于美国以外符合条件的司法管辖区的机构用户能够交易永续合约。
+目前该交易所已上市 BTC 和 ETH 永续期货合约，所有交易均以 USDC 结算，无需法币入口，最初提供高达 5 倍的杠杆。通过 API 直接访问交易适用于符合条件的非美国司法管辖区的机构客户，这些产品目前不向零售客户提供。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一诉讼称Coinbase高管在上市前因不披露负面信息而多赚10亿美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/dkdzehfr.html</id>
+        <link href="https://panewslab.com/zh/articledetails/dkdzehfr.html"/>
+        <updated>2023-05-02T12:32:30.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月2日消息，据The Block报道，根据在特拉华州法院提起的诉讼，Coinbase 的高管因未能在 2021 年 4 月上市前披露有关该公司的负面信息而多赚 10.9 亿美元。Coinbase 否认了这些说法，称该行为“轻率”和“毫无根据”。
+据悉，该诉讼由 Coinbase 股票的投资者 Adam Grabski于 5 月 1 日代表所有股东提起。它将著名投资者 Marc Andreessen 和 Fred Wilson 以及 Coinbase 首席执行官 Brian Armstrong 及其高层管理团队列为被告。它还详细说明了他们通过出售股票赚了多少钱。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基于Cosmos的Sommelier通过Axelar连接至Arbitrum One]]></title>
+        <id>https://panewslab.com/zh/articledetails/j1ck0n7z.html</id>
+        <link href="https://panewslab.com/zh/articledetails/j1ck0n7z.html"/>
+        <updated>2023-05-02T12:24:02.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月2日消息，据The Block报道，基于 Cosmos 的收益优化协议 Sommelier 已通过跨链互操作性协议 Axelar 连接至以太坊第 2 层网络 Arbitrum One 上，并运行跨链 DeFi 保险库以提高 Arbitrum One 上 DeFi 的资本效率。
+2021年10月，Sommelier曾完成2300万美元融资，Polychain Capital领投。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么说zkRollup的可行性起源于零知识证明的计算代理思想]]></title>
+        <id>https://www.odaily.news/post/5186781</id>
+        <link href="https://www.odaily.news/post/5186781"/>
+        <updated>2023-05-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[撰文：Fox Tech CTO 林彦熹，Fox Tech 首席科学家 孟铉济
+前言
+Prover 和 Verifier 之间的计算代理思想是零知识证明的核心内容之一，是调节证明者和验证者工作量于复杂度之间取舍（trade-off）的工具。不同的零知识证明算法本质的不同在于不同程度的计算代理；高度的代理虽然会使验证的计算容易，但是却可能使得证明的复杂度高，从而导致证明耗时长，或是生成的证明大小较大；反之，低程度的代理会使得验证者的开销较大。
+
+图 1: 零知识证明的计算代理程度影响
+计算代理是什么
+随着以太坊上应用和用户的扩展，以太主网上的拥堵程度不断提升，使用 zkRollup 进行 Layer 2 的扩容成为一个很有吸引力的方案，FOX 就是专注于使用 FOAKS 算法进行 zkRollup 的项目。而 zkRollup 的可行性，本质上在于使用的零知识证明算法的原理可行性。简单来说，零知识证明算法实现的功能是使得证明者向验证者证明某件事，但又不透露任何关于这件事的信息。zkRollup 的构造就是利用了这个性质，使得 Layer 2 的节点可以执行原本在 Layer 1 进行的计算，同时向 Layer 1 节点提供计算正确性的证明。
+从更广义的角度来说，上述的过程我们可以理解为，由于验证者（Layer 1 节点）计算能力有限，所以将这部分的计算代理给了证明者（Layer 2 节点）来执行，证明者完成了这个任务，需要返回结果给验证者。从这个角度来说，我们可以说，零知识证明算法使得保障正确性的“计算代理”得以实现。从宏观上这种计算代理的例子可以表现为 zkRollup 这种形式的应用，具体到零知识算法当中，这种计算代理的思想也有各种应用。
+本文主要介绍 FOAKS 使用的在 Orion 当中提到的 Code-Switching 所做的令证明者帮助验证者执行的验证计算过程，以…]]></summary>
+        <author>
+            <name>Fox Tech</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据；交易所持有的稳定币数量下滑至2年低点，为210.6亿美元]]></title>
         <id>https://panewslab.com/zh/articledetails/z4212y4t.html</id>
@@ -3524,105 +3575,6 @@ CyberProfile 是开发者和用户进入 CyberConnect 生态的入口。…]]></
         <link href="https://panewslab.com/zh/articledetails/6fyhax7h.html"/>
         <updated>2023-04-28T02:10:50.000Z</updated>
         <summary type="html"><![CDATA[PANews 4月28日消息，据CoinDesk报道，Jack Dorsey旗下支付公司Block的去中心化身份（DID）网络负责人Daniel Buchner在2023年共识大会上表示，灵魂绑定代币（SBT）在很大程度上是一种欺诈性Meme代币，去中心化身份不需要仅仅为了拥有区块链或代币而需要区块链或代币。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SPACE ID将为Sei Network生态引入“.sei”域名]]></title>
-        <id>https://panewslab.com/zh/articledetails/530qf2h3.html</id>
-        <link href="https://panewslab.com/zh/articledetails/530qf2h3.html"/>
-        <updated>2023-04-28T01:59:00.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月28日消息，据官方推特，去中心化身份协议SPACE ID与Layer1公链Sei Network建立合作伙伴关系，SPACE ID将为Sei Network生态引入“.sei”域名。此外，“.sei”域名服务产生的部分收入将被视为与SPACE ID中的其他收入相同的类型。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：Blockchain Capital凌晨将1820万枚MATIC转至交易所]]></title>
-        <id>https://panewslab.com/zh/articledetails/exq636l5.html</id>
-        <link href="https://panewslab.com/zh/articledetails/exq636l5.html"/>
-        <updated>2023-04-28T01:56:08.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月28日消息，据Spot On Chain监测，Blockchain Capital今日凌晨将1820万枚MATIC（约合1840万美元）转移至Coinbase和Gemini。
-Blockchain Capital系从多个来源（Binance、Coinbase、Cumberland、Uniswap）以1.09美元的均价积累了这些代币，他们第一次收到MATIC是在2021年12月，最近一次是在8天前。
-此前他们从来没有从这个钱包转移MATIC。如果现在出售它们，他们会蒙受损失。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公链Sui发布性能更新：峰值吞吐量最高达29.7万TPS]]></title>
-        <id>https://panewslab.com/zh/articledetails/6as2avo0.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6as2avo0.html"/>
-        <updated>2023-04-28T01:43:03.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月28日消息，公链项目Sui Network发布性能更新，其进行了一系列测试，以确定各种工作负载的当前峰值吞吐量以及完成时间。当前Sui测试网具有100个全球分布式验证器，在各种工作负载上实现了从10,871 TPS到 297,000 TPS的峰值吞吐量。
-Sui的最终确定时间约为480毫秒。之后Sui将在“基准测试工具的可扩展性和覆盖范围”、“水平可扩展性以支持跨多台机器的验证器内部扩展”等方面进行优化。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[区块链数字提单平台Secro完成360万美元种子轮融资]]></title>
-        <id>https://panewslab.com/zh/articledetails/nq4di1wl.html</id>
-        <link href="https://panewslab.com/zh/articledetails/nq4di1wl.html"/>
-        <updated>2023-04-28T01:35:27.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月28日消息，据Finsmes报道，区块链数字提单平台Secro宣布完成360万美元种子轮融资，Augment Ventures和TMV共同领投，Kluz Ventures 和 Grit and Gumption Ventures参投。
-据悉，Secro建立在NEM Symbol私链上，支持用户以更高速度、更低成本和安全性执行纸质提单的所有功能和用户交互，无需依赖传统电子提单（eBL）供应商。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美SEC主席重申加密交易平台必须在SEC注册登记]]></title>
-        <id>https://panewslab.com/zh/articledetails/1mg0u6qe.html</id>
-        <link href="https://panewslab.com/zh/articledetails/1mg0u6qe.html"/>
-        <updated>2023-04-28T01:31:58.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月28日消息，美国证券交易委员会（SEC）主席Gary Gensler在推特上表示：“加密货币交易平台必须遵守各项规定，在SEC注册登记，并同时相关利益冲突。加密货币交易平台必须像对待证券一样对待加密货币，并且平台要停止表现得好像法规模棱两可。如果你是证券交易所、票据交易所、经纪人或交易商，你必须遵守规定，向我们注册，处理利益冲突并披露重要信息。”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GMX：ARB空投分配将存放至金库，使用方式正待治理批准]]></title>
-        <id>https://panewslab.com/zh/articledetails/qv7zuoy4.html</id>
-        <link href="https://panewslab.com/zh/articledetails/qv7zuoy4.html"/>
-        <updated>2023-04-28T01:26:13.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月28日消息，据官方推特，Arbitrum生态去中心化衍生品交易所GMX宣布，将把获得的ARB空投分配存放在金库中，一旦获得治理批准，即可投入使用。
-此前4月25日，Arbitrum已完成对DAO的初始ARB分配。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase回应美SEC韦尔斯通知：将积极为自己辩护并要求国会立法]]></title>
-        <id>https://panewslab.com/zh/articledetails/20xlixyh.html</id>
-        <link href="https://panewslab.com/zh/articledetails/20xlixyh.html"/>
-        <updated>2023-04-28T01:21:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月28日消息，Coinbase在博客文章中表示：“Coinbase以书面和视频方式回应了美国证券交易委员会（SEC）上个月发出的韦尔斯通知，Coinbase与两年前SEC允许上市时的公司是同一家公司，当时和现在均未上市证券，我们不愿意对SEC提起诉讼，但我们会积极为自己辩护。还将继续要求国会立法，要求美国证券交易委员会制定规则。”
-Coinbase还表示，若SEC对Coinbase提起诉讼，将威胁到加密货币交易所未受监管的商业模式，该模式是这些交易所早期盈利和快速增长的原因。如果Coinbase败诉，该公司可能会被迫向监管机构注册其部分业务，或停止提供许多加密代币的交易服务，监管机构称这些代币属于证券，应该遵守投资者保护规则。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lens Protocol将L3扩展解决方案Bonsai更名为Momoka]]></title>
-        <id>https://panewslab.com/zh/articledetails/7eoig8iu.html</id>
-        <link href="https://panewslab.com/zh/articledetails/7eoig8iu.html"/>
-        <updated>2023-04-28T01:14:34.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月28日消息，据官方推特，Web3社交图谱协议Lens Protocol将Optimistic L3扩展解决方案Bonsai更名为Momoka。目前，Momoka已经在Lens生态应用Lenster、Lenstube、orb、Buttrfly、Phaver开始测试。
-据悉，Momoka作为一种扩展解决方案，可以在链下处理Polygon交易，实现超大规模扩容并降低成本。与L2解决方案不同，Momoka不会将交易压缩到L1中，而是将它们发送并存储在数据可用性层上。
-此前昨日消息，Lens Protocol推出L3扩展解决方案Bonsai测试版。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFT市场Magic Eden推出AMM矿池]]></title>
-        <id>https://panewslab.com/zh/articledetails/rjgzhwvl.html</id>
-        <link href="https://panewslab.com/zh/articledetails/rjgzhwvl.html"/>
-        <updated>2023-04-28T01:10:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月28日消息，据官方推特，NFT市场Magic Eden宣布推出Magic Eden AMM矿池，允许用户充当买方LP、卖方LP以及双边LP。
-当前Maker费用 0（直至另行通知），所有流动性池有1.3倍费用乘数（5万美元奖池）。所有费用乘数将发送给流动性池提供者。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
