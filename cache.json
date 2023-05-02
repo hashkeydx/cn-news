@@ -6,6 +6,46 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/1jpj9ulr.html",
+          "author": "PA一线",
+          "description": "PANews 5月2日消息，据官方消息，去中心化ZK Raas平台Opside正式启动Pre-Alpha Testnet验证者白名单第一轮预申请。本轮预申请于5月2日18:00正式开始，社区用户可通过填写谷歌表单申请成为验证者。白名单地址将在Pre-Alpha Testnet上线前一天公布。符合条件的用户可以访问Opside Discord的Validator Faucet频道，第一时间领取Opside测试 token，并通过质押测试代币成为Opside验证者节点。申请通道：https://docs.google.com/forms/d/e/1FAIpQLSdcvSZSaxvAQriKKlcTUQmshyaelOQD0t_boRdNTicyP8LHBA/viewform\nOpside于今年4月完成了400万美元的种子轮融资。其计划于5月下旬推出Pre-Alpha激励测试网，并逐步支持Polygon zkEVM、Scroll、zkSync、Taiko等zkEVM开源方案的zkRollup一键部署和硬件全托管服务。",
+          "link": "https://panewslab.com/zh/articledetails/1jpj9ulr.html",
+          "publishedOn": "2023-05-02T03:38:26.000Z",
+          "wordCount": 390,
+          "title": "去中心化ZK-Raas平台Opside开放测试网验证者节点申请",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/jg4ee4jr.html",
+          "author": "PA一线",
+          "description": "PANews 5月2日消息，据福布斯报道，不丹王国多年来一直使用其可再生能源来运营比特币挖矿业务。据知情人士透露，水力发电项目相关会谈从2020年就开始了，但直到本周不丹政府从未透露过其计划。不丹试图利用该国的水力发电厂为矿机提供动力。本周六，一名政府代表向当地媒体The Bhutanese表示，几年前，当比特币的价格在5000美元左右时，不丹已开始挖矿，其收入用于补贴电力和硬件成本。知情人士进一步透露，不丹政府已经与纳斯达克上市矿企BitDeer合作。据此前消息，法庭文件显示，在过去一年里，不丹王国皇家持有和管理的主权财富基金Druk Holdings & Investments向比特币、以太坊和其他数字资产投入了数千万美元，并且其是已破产加密货币贷款平台BlockFi和Celsius的客户，但它从未公开披露过这两点。据悉，该基金持有29亿美元的资产。",
+          "link": "https://panewslab.com/zh/articledetails/jg4ee4jr.html",
+          "publishedOn": "2023-05-02T02:23:13.000Z",
+          "wordCount": 379,
+          "title": "福布斯：不丹王国已秘密挖矿比特币数年",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/5opzjv9n.html",
+          "author": "PA一线",
+          "description": "PANews 5月2日消息，据The Block报道，敦促英国考虑采用“更细致的方法”来监管数字资产。该风投基金在致英国财政部的一封信中表示：“对加密资产交易进行‘一刀切’的监管，将不符合财政部‘相同风险，相同监管结果’的核心设计原则”。这是对英国政府今年2月首次发布的一份咨询文件的回应。a16z Crypto表示，政策制定者和监管机构都需要对Web3系统中的去中心化如何运作形成“更统一”的理解。其认为，监管框架应该包括“基于原则的分析”，考虑特定平台或协议的结构本身是否已经降低了可能的风险。监管不应该对项目的去中心化造成不必要的阻碍。此外，a16z Crypto在信中表示，英国不应该采用美国的做法。美国证券交易委员会（SEC）持续应用Howey测试来采取执法行动，导致了巨大的不确定性，激励了监管套利，并对整个Web3行业造成了严重拖累。此外，不确定性增加了项目开发者和用户之间信息不对称的风险。",
+          "link": "https://panewslab.com/zh/articledetails/5opzjv9n.html",
+          "publishedOn": "2023-05-02T02:15:42.000Z",
+          "wordCount": 382,
+          "title": "a16z Crypto敦促英国考虑采用“更细致”的加密监管框架",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/hzsngnpz.html",
+          "author": "PA一线",
+          "description": "PANews 5月2日消息，根据区块链安全审计公司Beosin旗下的Beosin EagleEye安全风险监控、预警与阻断平台监测显示，2023年5月2日BSC链上的Level Finance项目被攻击，损失资金高达一百万美元。Level Finance团队表示，目前漏洞合约已经与其它合约隔离开来，修复将在12小时内部署，LP和DAO的财务不受影响。通过分析代码得知，攻击者地址0x61bb...12e创建了攻击合约0xf08a...629，随后利用攻击合约调用了被攻击合约0x9770...63a的claimMultiple函数，由于被攻击合约在用户奖励计算后没有进行对应的users账本清除，导致同一个epoch的奖励可以被反复领取。攻击者多次调用函数使用同一个epoch来反复领取Level Token，随后将领取的Level Token在多个交易对中兑换成3345个BNB(约109万美元)，被盗资金目前仍存放在攻击者地址内(0x70319d1c09e1373fc7b10403c852909e5b20a9d5)，Beosin将持续对被盗资金监控。",
+          "link": "https://panewslab.com/zh/articledetails/hzsngnpz.html",
+          "publishedOn": "2023-05-02T02:00:09.000Z",
+          "wordCount": 386,
+          "title": "Level Finance项目遭攻击，损失100万美元，LP和DAO的财务未受影响",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/dd9d3bhz.html",
           "author": "PA一线",
           "description": "PANews 5月2日消息，据官方消息，以太坊再质押协议EigenLayer宣布即将推出第一阶段主网。EigenLayer将分三个阶段推出，以确保用户的安全性和稳定性。三个阶段分别为再质押、节点运营者注册和AVS服务。据此前消息，4月初，EigenLayer在以太坊Goerli网络上发布其协议第一阶段测试网，目前仅支持流动性再质押（liquid restaking）和原生再质押（native restaking）。今年3月，EigenLabs完成5000万美元A轮融资，Blockchain Capital领投。",
@@ -1563,6 +1603,26 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/36875",
+          "author": null,
+          "description": "WispSwap、Suia、Shoshin Square，一个繁荣的生态已初具雏形",
+          "link": "https://www.theblockbeats.info/news/36875",
+          "publishedOn": "2023-05-02T02:44:38.000Z",
+          "wordCount": null,
+          "title": "盘点第一批上线Sui主网的项目",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36873",
+          "author": null,
+          "description": "「拳无强弱，人有高低」，方法论没有绝对的好与不好，最后还是得一把钥匙开一把锁，对的人遇到合适的方法论，才是最重要的。",
+          "link": "https://www.theblockbeats.info/news/36873",
+          "publishedOn": "2023-05-02T02:30:02.000Z",
+          "wordCount": null,
+          "title": "对话Cypher Capital：群雄逐鹿，什么样的L1才能赢得「Web3 操作系统」之争？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/36874",
           "author": null,
           "description": "原文标题：《Jaypeggers 项目介绍》\n原文作者：SLEEPY\n\n\n\n\n\n最近刷推特的时候看到有人在聊一个号称「只会涨」的币，而且还和 NFT 有关系，这让我很感兴趣，于是就去研究了一下。\n\n\n这个项目叫做 Jaypeggers。\n\n\n官网链接：https://jaypeggers.com/\n\n\n由于最近 Meme 币比较火，所以有不少人人第一眼看到它的平台币 JAY 以为是蹭周杰伦的 Meme 币。但其实 Jaypeggers 是一个针对 NFT 的投资损失节税解决方案，并且在平台币 JAY 的支撑下，用户还有机会赚取平台奖励及套利。\n\n\n\n一、何为「投资损失节税」\n\n\n\n\n\n\n\n\n\n首先来聊聊什么是「投资损失节税」。\n\n\n简单来说，如果你炒股、炒房地产赚钱了，你是需要交税的（一些国家炒币赚钱也要交税），而一些投资者为了少交税则会想办法把某一特定纳税年度的资本收益降低，比如亏本出售一些资产，这就叫做「投资损失节税」。\n\n\n投资损失节税策略其实很适用于加密行业。在传统市场中，投资人往往会受限于「Wash sale rule」（假售回购规则），即纳税人在 30 天之内 (购买日的前 30 天或后 30 天)，反复出售或购买一只相同股票，则任何损失都不能计入亏损。\n\n\n但是，美国国税局明确指出这个规则的适用范围是证券，而国税局指南中又定义加密货币是资产而非证券，所以假售回购规则其实并不适用于加密货币。那么 NFT 呢？NFT 被认为是一种加密资产，一般要遵守与加密货币类似的税收规则，也就是说假售回购规则也并不适用于 NFT。\n\n\n而且，受益于加密市场比传统市场更高的波动性，投资者将会有更多执行投资损失节税策略的机会。\n\n\n\n二、更早的解决方案：NFT Loss Harvestooor\n\n\n\n\n\n\n\n\n\n先附上官网：https://nftlossharvestooor.co…",
@@ -1809,6 +1869,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5186780",
+          "author": "Footprint",
+          "description": "作者：lesley@footprint.network\n主要观点\n\n即使市场深陷寒冬，但 web3 游戏每天依然有八十万的用户。\n\nWeb3 游戏正在逐步完善，从 DeFi 演变出的 Web3 游戏 ，到增强了叙事的 X 2 E，再到 AAA 游戏和元宇宙。\n\n未来，Web3 游戏需要共识和更多优质项目来共建行业生态系统。\n\n加密市场在逐渐回暖了。Web3 游戏这一引人瞩目的领域也在吸引着更多 buidler 来贡献。\n虽然经济激励在 Web3 游戏的早期阶段吸引了许多人，但最终仍会有相当大的一部分玩家主要受到游戏体验和社区的驱动来进入 Web3 游戏的世界。了解不同用户如何以及为何参与 Web3 游戏十分重要，可以窥见这个行业的未来趋势。\n主流受众越来越愿意接受新形式以及沉浸式娱乐的时代，Web3 游戏因此具有巨大的增长潜力。本文通过分析目前游戏市场上的主要类别、项目特征以及不同用户群体参与的动机，探讨了 Web3 游戏的演变。\nWeb3 Game 是什么？\nWeb3 游戏是建立在区块链技术的去中心化、点对点结构上的游戏。\n从游戏中赚钱的概念并不新鲜，但 Web3 游戏代表了用户真正对游戏生态系统有了所有权和控制权。玩家拥有游戏内的资产，这些资产以非同质化代币（NFT）或加密货币的形式完全属于他们，并可以自由地进行交易或出售。\nWeb3 游戏正处于快速发展的阶段，代表着游戏行业的未来。虽然像开放性元宇宙这样的概念仍处于初级阶段，但 Web3 游戏已经展示出了强大的的潜力。随着 Web3 游戏从新兴市场向主流市场转变，我们有充分的理由对该行业的增长前景保持乐观态度。\nWeb3 游戏的玩家是谁？\n\nWeb3 Game Users & Projects\n即使市场深陷寒冬，但 web3 游戏每天依然有八十万的用户。\n由于有许多不同的交互方式可用于不同的目的，很难对 Web3 游戏…",
+          "link": "https://www.odaily.news/post/5186780",
+          "publishedOn": "2023-05-02T02:00:00.000Z",
+          "wordCount": 2012,
+          "title": "Web3游戏全景图：各类玩家群像解读",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5186832",
           "author": "十文",
