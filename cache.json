@@ -2284,26 +2284,6 @@
           "wordCount": 363,
           "title": "数据：孙宇晨向币安转入约1.15亿枚TUSD",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/nowura6m.html",
-          "author": "PA一线",
-          "description": "PANews 5月1日消息，据派盾预警监测，2023年4月，价值约323万美元的NFT被盗，比上个月减少68%。一半被盗的NFT在2小时内在市场上迅速售出。大约70%被盗的NFT首先在Blur上出售，其次是OpenSea(27.94%)。",
-          "link": "https://panewslab.com/zh/articledetails/nowura6m.html",
-          "publishedOn": "2023-05-01T05:45:38.000Z",
-          "wordCount": 395,
-          "title": "数据：4月共计价值323万美元的NFT被盗，环比减少68%",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/o9wgn7rs.html",
-          "author": "PA一线",
-          "description": "PANews 5月1日消息，据Dune Analytics数据显示，4月30日比特币NFT协议Ordinals的铭文铸造量超30万枚，创历史新高。截至目前，Ordinals铭文铸造总量接近276万枚，产生的总费用约为229枚BTC。",
-          "link": "https://panewslab.com/zh/articledetails/o9wgn7rs.html",
-          "publishedOn": "2023-05-01T05:06:55.000Z",
-          "wordCount": 370,
-          "title": "比特币NFT协议Ordinals单日铸造量超30万枚",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3197,16 +3177,6 @@
           "publishedOn": "2023-05-01T10:30:00.000Z",
           "wordCount": 3568,
           "title": "Rollup Layer2的模块化演进之路",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5186798",
-          "author": "DeFi之道",
-          "description": "原文标题：《Time, slots, and the ordering of events in Ethereum Proof-of-Stake》\n原文作者：Georgios Konstantopoulos、Mike Neuder，Paradigm\n原文编译：wesely\n4 月 2 日，一名恶意的以太坊网络参与者利用 mev-boost-relay 中的漏洞窃取了一位 MEV 搜索者的 2000 万美元（请参阅 Flashbots 的事后分析）。在接下来的几天里，开发人员通过发布五个补丁来解决这个 bug，并结合现有的网络延迟和验证器策略，在 4 月 6 日导致以太坊网络出现短暂不稳定期。重新组织对于网络健康是不利的，因为它会降低区块生产率并减少结算保证。\n本文旨在探讨 mev-boost 和共识之间相互作用、揭示以太坊权益证明机制中微妙之处，并列举一些可能前进方向。我们受到搜索者遭受攻击和网络暂时不稳定事件所启发。\n什么是 mev-boost？为什么重要？\nmev-boost 是由 Flashbots 和社区设计的协议，旨在缓解最大可提取价值（MEV）对以太坊网络造成负面影响。\nmev-boost 中有三个角色：\n\nRelays - 相互信任拍卖商将提案人连接到区块构建者。\n\nBuilders - 构建区块以最大化自己和提案人的 MEV 的复杂实体。\n\nProposers - 以太坊权益证明验证器。\n\n每个区块的大致事件序列是：\n\nBuilders 通过从用户、搜索者或其他（私有或公共）订单流中接收交易来创建一个区块。\n\nBuilders 将该区块提交给 Relay。\n\nRelays 证该区块是否有效，并计算它向提案人支付多少费用。\n\nRelay 向当前时隙的提案人发送「blinded」头部和付款价值。\n\n提议人评估他们收到的所有出价，并签署与最高付款相关联的 blin…",
-          "link": "https://www.odaily.news/post/5186798",
-          "publishedOn": "2023-05-01T06:00:00.000Z",
-          "wordCount": 2037,
-          "title": "Paradigm：探讨MEV-Boost和共识机制之间的关系",
           "imageUrl": null
         }
       ]
