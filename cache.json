@@ -2254,16 +2254,6 @@
           "wordCount": 371,
           "title": "数字资产公司Fineqia完成100万加元私募融资",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/g2ixntz0.html",
-          "author": "PA一线",
-          "description": "PANews 5月1日消息，据官方消息，Layer 1区块链网络Sui宣布其主网将于北京时间2023年5月3日20时正式上线。",
-          "link": "https://panewslab.com/zh/articledetails/g2ixntz0.html",
-          "publishedOn": "2023-05-01T01:40:21.000Z",
-          "wordCount": 373,
-          "title": "Sui主网将于5月3日20时正式上线",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2272,6 +2262,46 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/news/36900",
+          "author": null,
+          "description": "仅在去年，我就与50多家Web3公司谈过，在我的职业生涯中与100多家Web2公司谈过。但是，在独特的、竞争激烈的Web3招聘世界中，赌注甚至更高。",
+          "link": "https://www.theblockbeats.info/news/36900",
+          "publishedOn": "2023-05-05T14:00:01.000Z",
+          "wordCount": null,
+          "title": "Pantera Capital：Web3初创企业常见的5大招聘错误",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36903",
+          "author": null,
+          "description": "只有当我们对金融市场、协议原理以及造市的辅助协议有更进一步的理解，才能驾驭造市者的角色，实现稳定获利的流动性提供者。",
+          "link": "https://www.theblockbeats.info/news/36903",
+          "publishedOn": "2023-05-05T13:00:02.000Z",
+          "wordCount": null,
+          "title": "为什么你在DeFi造市不赚钱？5个在Uniswap V3当LP的误区",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36906",
+          "author": null,
+          "description": "即将推出实用程序和治理Token VEXT。",
+          "link": "https://www.theblockbeats.info/news/36906",
+          "publishedOn": "2023-05-05T12:13:46.000Z",
+          "wordCount": null,
+          "title": "VEXT：数字赛车媒体网络Veloce Web3征程的下一个目标",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36905",
+          "author": null,
+          "description": "给NFT市场的强心针？",
+          "link": "https://www.theblockbeats.info/news/36905",
+          "publishedOn": "2023-05-05T11:07:59.000Z",
+          "wordCount": null,
+          "title": "关于亚马逊NFT市场的5个要点",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/news/36902",
           "author": null,
@@ -3177,16 +3207,6 @@
           "publishedOn": "2023-05-01T04:00:00.000Z",
           "wordCount": 1714,
           "title": "一文了解​BRC-721协议及其应用场景",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/post/5186793",
-          "author": "深潮TechFlow",
-          "description": "原文作者：雨中狂睡\n原文编辑：David\nMEV（Maximal Extractable Value 最大可提取价值）是加密世界最重要的议题之一。它是指验证者通过添加、删除并更改区块中的交易顺序，在超过标准区块奖励和 Gas 费用的区块生产中所能提取的最大价值。\n当 MEV 邂逅火热的 LSD 浪潮，两者会有怎样的结合？\nMEV 概念回顾\nMEV 并非一个新产物，它涉及区块链用户、验证者和搜索者三个利益相关群体。\n本质上，MEV 促成了所有区块链使用者展开了对于区块空间使用权的争夺。因此，在链上回暖的当下，MEV 成为了许多搜索者的“提款机”。比如，在 Memecoin 风潮下，截止 4 月 19 日，七天内 MEV 所产生的利润已经超过三百万美元。\n\n这里的一个反直觉现象是，MEV 的价值并非由区块链的验证者捕获，而是由搜索者捕获，搜索者在中文加密圈子里往往会被称为“科学家”。\nMEV 可以简单理解为以抢先交易等形式进行的链上套利，常见的就是三明治攻击，俗称夹子机器人。\n比如，当你在 Uniswap 买入 1 万美元的代币 X ，机器人嗅到了这笔交易，于是赶在区块打包之前，用更高的手续费也买入 X，机器人的交易被抢先执行。\n由于 Uniswap 自动做市机制，代币 X 单价会被抬高，你的交易执行后，代币 X 价格会继续升高。这时候，机器人再生成一笔交易，将前一笔交易中较低价格买入的 X 卖出，刚好赚下差价。\n机器人生成的两笔交易刚好包夹了我们的交易，看起来就像一个三明治。\nMEV 协议和实践\n为了规范 MEV 所带来的无节制索取，加密行业也涌现出一批 MEV 相关协议，比如 Flashbots、CowSawp、Manifold Finance 等。\nCowSwap 和 Flashbots 基本代表了 MEV 赛道应用的两个方向。\n\nCowSwap 站在了 MEV 搜索者的…",
-          "link": "https://www.odaily.news/post/5186793",
-          "publishedOn": "2023-05-01T02:00:00.000Z",
-          "wordCount": 1845,
-          "title": "浅析LSD MEV赛道：MEV市场化和公平化将会为LSD带来什么？",
           "imageUrl": null
         }
       ]
