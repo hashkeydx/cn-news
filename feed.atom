@@ -2,10 +2,127 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-06T13:07:13.197Z</updated>
+    <updated>2023-05-06T14:05:58.336Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[浅谈Layer3的潜在优势及应用链的未来发展]]></title>
+        <id>https://www.odaily.news/post/5186915</id>
+        <link href="https://www.odaily.news/post/5186915"/>
+        <updated>2023-05-06T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Chris | Yicheng
+原文编译：深潮 TechFlow
+Layer 3 和应用链解决方案的崛起为以太坊生态系统带来了新的可能性。在这篇文章中，Scroll 研究员 Yicheng 将深入探讨 L3 的主要优势和 Scroll 的发展，以及个人期待的未来探索方向。
+Layer 3 (L3) 和应用链解决方案的兴起为以太坊生态系统带来了新的可能性。
+虽然通过"Rollup 套 Rollup"实现指数级扩展可能是不可行的，但专注于 L3 以获取定制功能、自定义扩展和弱信任扩展（Validiums）是一种有前途的方法。
+拥有类似于 EVM 的 L2 Scroll 作为基础层为开发人员和用户提供了一个强大的选择。这使他们可以享受熟悉的 EVM 执行环境、低 Gas 费用以及构建任何所需执行环境的灵活性。
+以太坊生态系统的未来景观很可能由简单的 L1、可扩展的 L2 和定制的 L3 解决方案组成。
+L3 的主要好处包括：
+高度可定制性：L3 解决方案能够创建任何需要的执行环境和 DA （数据可用）解决方案，开发人员可以将 Cairo 部署在 Scroll 之上以获得更有利于 ZK 的执行环境，构建隐私链、游戏引擎，甚至将其他 L1 迁移到以太坊生态系统作为 L3 来共享其好处。他们也可以选择任何所需的 DA 方案，如委员会或 DA 链，这对企业级区块链尤其有利。
+高效链间互操作性：理想情况下所有链间的互动都将在 L2 上进行，消除了提款冗长的确认期及与 L1 交易相关的高额 Gas 费用。
+降低成本：L3 解决方案不仅降低了链之间互操作性的成本，还降低了每笔交易的平均成本。虽然从计算角度来看，可能无法将数据层堆迭以实现二次扩展，但通过为许多 SNARKs 生成一个 SNARK，L3 的批量释放成本依然很低。
+与当前的 zk-Rollup 相比，L3 交易不需要大量的交易来释放批次，从而缩短了确认时间，提高了用户体验，同时降低了成本。这个特点也使得 L3 具有高度的自适应性和定制性。
+作为一个原生 zkEVM，我们的核心原则是围绕安全和去中心化进行构建。同时我们也在探索创新的「Beyond Scroll」解决方案，用户和开发者能够在基础层上无限制进行构建。
+作为基础设施供应商，我们的首要任务是确保稳健性和稳定性。但是，作为 L2 解决方案，我们还旨在变得更强大，L1 和 L2 的理念不同，我们正在探索更多设计空间以支持更多特定功能。
+我个人非常兴奋地探索以下方向：
+
+共享去中心化证明者网络；
+
+弱治理"聚合证明协议"；
+
+无信任的跨链互操作方案；
+
+更安全的 L3 共识协议。
+
+多 Rollup 模式仍在演变之中，最终架构仍不确定。然而，我们作为基础设施提供商的理念和重点是明确的。我们将专注于一个强大的协议层设计，为开发人员和用户留出更多创新的空间，并让社区引领 Scroll 走向去中心化的未来。
+原文链接]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深度解析SuiPad：Launchpad一体化解决方案]]></title>
+        <id>https://www.theblockbeats.info/news/36917</id>
+        <link href="https://www.theblockbeats.info/news/36917"/>
+        <updated>2023-05-06T12:06:01.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《
+
+Launchpad 一体化解决方案 SuiPad 深度解析
+
+》
+原文来源：veDAO
+
+
+SuiPad 是建立在 Sui 公链上的首个 IDO、ISO 和 INO Launchpad 项目，据官方给出的消息，5 月 7、8 日两天 SuiPad 将在 DaoMaker 上进行 OG (Private) 轮和 WL (Public) 轮 IDO，下面 veDAO 将给大家深度解析该项目的特色和创新玩法。
+
+
+一、SuiPad 简介
+
+
+Suipad 是 Sui 生态一个以社区为中心的新项目启动平台，其是 Sui 上的 Tier 1 项目，SuiPad 通过与 Mysten Labs 的官方合作伙伴关系， 将成为 Sui 上项目启动的一体化解决方案。当前其旗舰产品是 Suipad launchpad，这是一个 IDO launchpad。通过独特的策划流程和行业准入为用户提供 Sui 区块链中最好的新项目。
+
+
+二、SuiPad 的特色
+
+
+当前用户参与 IDO 主要面临两个问题：1）中小散户投资者缺乏专业参与初创新项目的知识和能力。大量 IDO 参与者对于如何从不同角度和指标正确分析项目的知识非常有限。对于项目，项目方专业知识更多，但如果没有专业 VC 投资人士，中心散户也很难问出更专业、更客观的问题。2）用户参与 IDO 获得的代币在 TGE 后, 发现二级市场价格低于 IDO 打新价格。这让许多 IDO 参与者在 TGE 后立即遭受损失，尤其是在加密市场的熊市中。针对上述问题 SuiPad 给出的解决方案为以下几个：
+
+
+2.1、Sui Tank
+
+
+
+
+
+
+Suitank 是一个真人秀系列节目，就是 Web3 初创项目方通过真人秀的形式将他们的项目推销给 VC 投资小组。这就是所谓的 Web3 鲨鱼坦克 (Web3 Shark Tank)。
+
+
+该节目…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：某巨鲸今日用1128 ETH兑换7606亿枚PEPE，目前该地址PEPE持仓达4.56万亿枚]]></title>
+        <id>https://panewslab.com/zh/articledetails/1puwaa0l.html</id>
+        <link href="https://panewslab.com/zh/articledetails/1puwaa0l.html"/>
+        <updated>2023-05-06T11:43:09.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月6日消息，链上数据显示，某巨鲸地址在过去几小时内将 1,128 ETH 兑换为 7606 亿枚 PEPE，平均买入价格为 0.000002859 美元。目前该地址持仓 4.56 万亿枚 PEPE，价值约 1400 万美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shapella之后，ETH收益产品赛道的新曙光]]></title>
+        <id>https://www.odaily.news/post/5186912</id>
+        <link href="https://www.odaily.news/post/5186912"/>
+        <updated>2023-05-06T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《After Shapella, a new dawn for ETH yield products》
+原文作者：CHRIS POWERS
+原文编译：Kxp，BlockBeats
+Ethereum 的 Shapella 升级是一个近十年来转向权益证明（PoS）的巅峰之作。这个升级使得持有 PoS 的 Ethereum 可以进行提款，紧随其后的是信标链在 2020 年 11 月的上线和 Merge 在去年 9 月的完成，这也标志着权益证明链正式被废弃。
+2019 年和 2020 年，Ethereum 上的 DeFi 蓬勃发展，ETH 在这两年的总锁仓价值中提供了超过一半的资金。Ethereum 转向权益证明随之创造了新的赚取 Ethereum 收益的机会。
+信标链推出不久之后，新的收益机会便开始显现了出来——流动性质押衍生品（LSD）。Lido 的 stETH，Coinbase 的 cbETH 和 Rocketpool 的 rETH 都允许持有 Token 直接获得 Ethereum 质押收益。在过去的两年中，LSD 一直保持增长，其受欢迎程度现在将随着 Shapella 的提款功能开启而加速。
+然而，这些 Token 仅仅是一个开始。期待已久的 EigenLayer 协议，可以通过测试网络在本月初启动，它使得 Ethereum 的重质押获得额外收益成为可能。该协议可能会显著降低在 Ethereum 上构建复杂应用程序的成本。它也可能开启 Ethereum 再质押 Token 的新时代，这将重新定义 DeFi 协议的核心资产基础。
+Ethereum 收益的 ETF 化 
+Ethereum 质押 Token 时代的想法已经得到了高度关注。在上个月的 MEVnomics.wtf 在线峰会上，Gauntlet 的创始人 Tarun Chitra 阐述了一个引人注目的愿景:…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[科大讯飞的星火认知大模型将在8月15日正式开放给客户]]></title>
+        <id>https://panewslab.com/zh/articledetails/bq69b0hd.html</id>
+        <link href="https://panewslab.com/zh/articledetails/bq69b0hd.html"/>
+        <updated>2023-05-06T11:28:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月6日消息，科大讯飞今日正式发布讯飞星火认知大模型。发布会上，据科大讯飞董事长刘庆峰介绍，该大模型在能够自动生成内容的同时，还能将生成的文字内容自动进行语音合成，并进行智能播报。此外还具备多层次跨语种的理解能力，在多语言理解和纠错能力上已达业界领先水平。发布会现场，科大讯飞演示了星火认知大模型写发言稿、邮件、营销方案等功能，表现相当出色。刘庆峰表示，在目前可测的国内AI大模型中，星火认知大模型是明显遥遥领先的，中文已经超越ChatGPT，英文已接近，总体和ChatGPT还有细微差距，目前正在进一步优化中。
+据其透露，星火认知大模型将在8月15日正式开放给客户，10月24日科大讯飞全球开发者大会期间，会迎来一次大升级，希望星火能够全面对标ChatGPT，在中文上要超越ChatGPT，在英文上要达到跟它相当的水平。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[英国第四大报与Nifty Gateway合作发行英国查尔斯国王加冕NFT]]></title>
         <id>https://panewslab.com/zh/articledetails/50zblowg.html</id>
@@ -4885,132 +5002,6 @@ Opside于今年4月完成了400万美元的种子轮融资。其计划于5月下
         <link href="https://panewslab.com/zh/articledetails/5opzjv9n.html"/>
         <updated>2023-05-02T02:15:42.000Z</updated>
         <summary type="html"><![CDATA[PANews 5月2日消息，据The Block报道，敦促英国考虑采用“更细致的方法”来监管数字资产。该风投基金在致英国财政部的一封信中表示：“对加密资产交易进行‘一刀切’的监管，将不符合财政部‘相同风险，相同监管结果’的核心设计原则”。这是对英国政府今年2月首次发布的一份咨询文件的回应。a16z Crypto表示，政策制定者和监管机构都需要对Web3系统中的去中心化如何运作形成“更统一”的理解。其认为，监管框架应该包括“基于原则的分析”，考虑特定平台或协议的结构本身是否已经降低了可能的风险。监管不应该对项目的去中心化造成不必要的阻碍。此外，a16z Crypto在信中表示，英国不应该采用美国的做法。美国证券交易委员会（SEC）持续应用Howey测试来采取执法行动，导致了巨大的不确定性，激励了监管套利，并对整个Web3行业造成了严重拖累。此外，不确定性增加了项目开发者和用户之间信息不对称的风险。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Level Finance项目遭攻击，损失100万美元，LP和DAO的财务未受影响]]></title>
-        <id>https://panewslab.com/zh/articledetails/hzsngnpz.html</id>
-        <link href="https://panewslab.com/zh/articledetails/hzsngnpz.html"/>
-        <updated>2023-05-02T02:00:09.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月2日消息，根据区块链安全审计公司Beosin旗下的Beosin EagleEye安全风险监控、预警与阻断平台监测显示，2023年5月2日BSC链上的Level Finance项目被攻击，损失资金高达一百万美元。Level Finance团队表示，目前漏洞合约已经与其它合约隔离开来，修复将在12小时内部署，LP和DAO的财务不受影响。通过分析代码得知，攻击者地址0x61bb...12e创建了攻击合约0xf08a...629，随后利用攻击合约调用了被攻击合约0x9770...63a的claimMultiple函数，由于被攻击合约在用户奖励计算后没有进行对应的users账本清除，导致同一个epoch的奖励可以被反复领取。攻击者多次调用函数使用同一个epoch来反复领取Level Token，随后将领取的Level Token在多个交易对中兑换成3345个BNB(约109万美元)，被盗资金目前仍存放在攻击者地址内(0x70319d1c09e1373fc7b10403c852909e5b20a9d5)，Beosin将持续对被盗资金监控。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3游戏全景图：各类玩家群像解读]]></title>
-        <id>https://www.odaily.news/post/5186780</id>
-        <link href="https://www.odaily.news/post/5186780"/>
-        <updated>2023-05-02T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[作者：lesley@footprint.network
-主要观点
-
-即使市场深陷寒冬，但 web3 游戏每天依然有八十万的用户。
-
-Web3 游戏正在逐步完善，从 DeFi 演变出的 Web3 游戏 ，到增强了叙事的 X 2 E，再到 AAA 游戏和元宇宙。
-
-未来，Web3 游戏需要共识和更多优质项目来共建行业生态系统。
-
-加密市场在逐渐回暖了。Web3 游戏这一引人瞩目的领域也在吸引着更多 buidler 来贡献。
-虽然经济激励在 Web3 游戏的早期阶段吸引了许多人，但最终仍会有相当大的一部分玩家主要受到游戏体验和社区的驱动来进入 Web3 游戏的世界。了解不同用户如何以及为何参与 Web3 游戏十分重要，可以窥见这个行业的未来趋势。
-主流受众越来越愿意接受新形式以及沉浸式娱乐的时代，Web3 游戏因此具有巨大的增长潜力。本文通过分析目前游戏市场上的主要类别、项目特征以及不同用户群体参与的动机，探讨了 Web3 游戏的演变。
-Web3 Game 是什么？
-Web3 游戏是建立在区块链技术的去中心化、点对点结构上的游戏。
-从游戏中赚钱的概念并不新鲜，但 Web3 游戏代表了用户真正对游戏生态系统有了所有权和控制权。玩家拥有游戏内的资产，这些资产以非同质化代币（NFT）或加密货币的形式完全属于他们，并可以自由地进行交易或出售。
-Web3 游戏正处于快速发展的阶段，代表着游戏行业的未来。虽然像开放性元宇宙这样的概念仍处于初级阶段，但 Web3 游戏已经展示出了强大的的潜力。随着 Web3 游戏从新兴市场向主流市场转变，我们有充分的理由对该行业的增长前景保持乐观态度。
-Web3 游戏的玩家是谁？
-
-Web3 Game Users & Projects
-即使市场深陷寒冬，但 web3 游戏每天依然有八十万的用户。
-由于有许多不同的交互方式可用于不同的目的，很难对 Web3 游戏…]]></summary>
-        <author>
-            <name>Footprint</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFT投资损失节税解决方案：号称只涨不跌的Jaypeggers]]></title>
-        <id>https://www.theblockbeats.info/news/36874</id>
-        <link href="https://www.theblockbeats.info/news/36874"/>
-        <updated>2023-05-02T01:52:13.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《Jaypeggers 项目介绍》
-原文作者：SLEEPY
-
-
-
-
-
-最近刷推特的时候看到有人在聊一个号称「只会涨」的币，而且还和 NFT 有关系，这让我很感兴趣，于是就去研究了一下。
-
-
-这个项目叫做 Jaypeggers。
-
-
-官网链接：https://jaypeggers.com/
-
-
-由于最近 Meme 币比较火，所以有不少人人第一眼看到它的平台币 JAY 以为是蹭周杰伦的 Meme 币。但其实 Jaypeggers 是一个针对 NFT 的投资损失节税解决方案，并且在平台币 JAY 的支撑下，用户还有机会赚取平台奖励及套利。
-
-
-
-一、何为「投资损失节税」
-
-
-
-
-
-
-
-
-
-首先来聊聊什么是「投资损失节税」。
-
-
-简单来说，如果你炒股、炒房地产赚钱了，你是需要交税的（一些国家炒币赚钱也要交税），而一些投资者为了少交税则会想办法把某一特定纳税年度的资本收益降低，比如亏本出售一些资产，这就叫做「投资损失节税」。
-
-
-投资损失节税策略其实很适用于加密行业。在传统市场中，投资人往往会受限于「Wash sale rule」（假售回购规则），即纳税人在 30 天之内 (购买日的前 30 天或后 30 天)，反复出售或购买一只相同股票，则任何损失都不能计入亏损。
-
-
-但是，美国国税局明确指出这个规则的适用范围是证券，而国税局指南中又定义加密货币是资产而非证券，所以假售回购规则其实并不适用于加密货币。那么 NFT 呢？NFT 被认为是一种加密资产，一般要遵守与加密货币类似的税收规则，也就是说假售回购规则也并不适用于 NFT。
-
-
-而且，受益于加密市场比传统市场更高的波动性，投资者将会有更多执行投资损失节税策略的机会。
-
-
-
-二、更早的解决方案：NFT Loss Harvestooor
-
-
-
-
-
-
-
-
-
-先附上官网：https://nftlossharvestooor.co…]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EigenLayer即将推出第一阶段主网]]></title>
-        <id>https://panewslab.com/zh/articledetails/dd9d3bhz.html</id>
-        <link href="https://panewslab.com/zh/articledetails/dd9d3bhz.html"/>
-        <updated>2023-05-02T01:19:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月2日消息，据官方消息，以太坊再质押协议EigenLayer宣布即将推出第一阶段主网。EigenLayer将分三个阶段推出，以确保用户的安全性和稳定性。三个阶段分别为再质押、节点运营者注册和AVS服务。据此前消息，4月初，EigenLayer在以太坊Goerli网络上发布其协议第一阶段测试网，目前仅支持流动性再质押（liquid restaking）和原生再质押（native restaking）。今年3月，EigenLabs完成5000万美元A轮融资，Blockchain Capital领投。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密交易所Poloniex与OFAC就违反制裁指控达成和解]]></title>
-        <id>https://panewslab.com/zh/articledetails/6i6x601v.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6i6x601v.html"/>
-        <updated>2023-05-02T01:13:48.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月2日消息，据CoinDesk报道，美国财政部外国资产控制办公室（OFAC）周一发布公告称，已与此前隶属于加密交易所Poloniex的美国实体Poloniex, LLC就违反制裁一事达成和解。Poloniex同意支付759万美元和解金。OFAC表示，该平台有近6.6万项违反制裁计划的行为。在2014年1月至2019年11月期间，Poloniex允许克里米亚、古巴、伊朗、苏丹和叙利亚的客户进行总额高达1500万美元的交易。虽然Poloniex于2014年1月推出，但直到2015年5月才开始实施制裁合规计划。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
