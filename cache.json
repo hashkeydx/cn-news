@@ -2283,6 +2283,46 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/36944",
+          "author": null,
+          "description": "比特币协议中有且只有一种东西：UTXO",
+          "link": "https://www.theblockbeats.info/news/36944",
+          "publishedOn": "2023-05-09T08:01:43.000Z",
+          "wordCount": null,
+          "title": "BRC-20和「客户端验证」：你不该继续购买用这些「协议」发行的Token",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36943",
+          "author": null,
+          "description": "拥有黄金和比特币是不会输的，除非你相信政治精英愿意忍受银行体系的彻底失败。",
+          "link": "https://www.theblockbeats.info/news/36943",
+          "publishedOn": "2023-05-09T08:00:01.000Z",
+          "wordCount": null,
+          "title": "Arthur Hayes：拿好你的BTC，规避美国银行体系未来的灾难",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36941",
+          "author": null,
+          "description": "Sui生态DEX Cetus Launchpad超募超950%，它有成为头部的潜力吗？",
+          "link": "https://www.theblockbeats.info/news/36941",
+          "publishedOn": "2023-05-09T07:30:01.000Z",
+          "wordCount": null,
+          "title": "详解Cetus Protocol：Aptos和Sui生态Dex和流动性协议",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/36942",
+          "author": null,
+          "description": "观察筹码分布图，在约 28143 附近有大量筹码成交，将有一定的支撑或压力。",
+          "link": "https://www.theblockbeats.info/news/36942",
+          "publishedOn": "2023-05-09T06:43:14.000Z",
+          "wordCount": null,
+          "title": "第20周链上数据：市场整体情绪谨慎偏空，有一定的回调压力",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/36940",
           "author": null,
           "description": "原文标题：《BRC-20、ORC-20 之后，BRC-21 又是什么？》\n原文来源：Odaily 星球日报\n\n\n随着 BRC-20 的爆火，一些围绕着比特币网络构建的其他资产标准也开始相继出现。\n\n\n5 月 7 日，跨链互操作性项目 Interlay 的创始人 Alexei Zamyatin 提议推出 BRC-21 标准，以向比特币网络上引入完全去中心化的跨链资产，并在闪电网络中使用它们。\n\n\n\n\n\nInterlay Labs 同时发布了关于 BRC-21 代币标准 V 0.1 版本文档。根据该文档描述，BRC-21 资产本质上依然是 BRC-20 资产，但与「凭空生出」的 BRC-20 资产不同，BRC-21 需要通过锁定起始链上的资产来生成（比如 ETH、DOT、ATOM、DAI 等等），换句话说，BRC-21 标准提供了一种在比特币网络上铸造 BRC-20 版本 ETH、DAI 等其他链上资产的可能性。\n\n\n从技术角度来看，BRC-21 资产的跨链只需要依赖三个组件完成，全程有望实现完全的去中心化：\n\n\n1. 起始链智能合约：负责处理起始链上的铸币和赎回操作。\n\n\n2. 自定义索引器（Custom indexer）：负责验证比特币网络上的 BRC-21 铸币、转移、赎回等操作，以及起始链上的智能合同状态。\n\n\n3. 比特币中继器（BTC-Relay）：作为比特币网络上的轻客户端来实现智能合约的效果，需要验证比特币网络上的交易包含情况并进行解析。\n\n\nInterlay Labs 在文档中同时演示了关于 BRC-21 资产的部署，起始链上的智能合约该如何设置暂且不提，比较值得注意的是如何在比特币网络上进行部署。\n\n\n总体来说，部署 BRC-21 代币与部署 BRC-20 代币的方式大差不差，但存在一些细节上的差异，比如：\n\n\n1. 用以定义最大供应量的「max」字段不再是必须填写，而是可以选填，因为 BRC-21 背后原资产的最大供应量一般都已在起始链上定义，选填只是提供了一层额外的事故保障。\n\n\n2. 用以定义铸造限制的「lim」的字段被删除，因为 BRC-21 资产均需遵循严格的铸造和赎回规则，因此无需限制单笔交易中可以铸造多少代币。\n\n\n3. 添加新字段「src」，用以指定起始链，可以是一串字母（比如 Ethereum），也可以是一个编号（但需要额外提供列表）。\n\n\n4. 添加新字段「id」，用以指定起始链上的目标代币，可以填写该代币的合约地址。\n\n\n\nBRC-20 资产部署格式\n\n\n\nBRC-21 资产部署格式\n\n\n至于用例，Interlay Labs 的看法是，虽然 BRC-21 标准理论上可以将 ETH、DOT、SOL 等各种各样的其他链资产引入比特币网络，但该标准真正的用武之地实际上在于引入去中心化稳定币，并将其部署至闪电网络或其他支付协议之上。\n\n\nInterlay Labs 进一步解释称，类似 DAI、RAI 等去中心化稳定币往往需要复杂的铸币、赎回和清算机制来保持其有效锚定。由于比特币网络天然缺乏可编程性，所以 MakerDAO 等协议并不能直接将 DAI 等稳定币部署在比特币网络上，这一情况未来依旧不太可能有所改变。\n\n\nInterlay Labs 认为，通过 BRC-21 标准，以完全去中心化的形式将这些资产桥接至比特币网络，进而充分利用比特币网络的去中心化属性，相较于把大量的时间花费在为比特币构建编程协议之上，这种只需要几行代码即可生效的方式或许更有机会实现大规模的采用。\n\n\n原文链接",
@@ -2719,6 +2759,36 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5186962",
+          "author": "PANews",
+          "description": "原文作者：Nancy，PANews\n加密行情动荡之际，成立于 2015 年的加密交易所 Bittrex 宣布于 5 月 9 日在美国特拉华州申请破产，引发了市场恐慌和猜测。不少投资者心存疑惑，为何这家与 Bitfinex 齐名的老牌交易所会突然破产？其实，Bittrex Global 业务并未受到影响，仅为美国子公司受到美国证券交易委员会 (SEC) 的指控后申请破产。\n美国子公司申请破产，业务关闭前被 SEC 指控\n今年 4 月初，Bittrex 宣布在运营 9 年后，将于 4 月 30 日关闭其美国平台。对此，Bittrex 联合创始人兼首席执行官 Ritchie Lai 在声明中表示，在当前的美国监管和经济环境下，继续运营从经济角度来看是不可行的。监管要求通常不明确，并且在没有适当讨论的情况下强制执行，导致竞争格局不均衡。因此在美国运营已经不再可行，但他们也强调，所有客户的资金都是安全的，可以取款。同时，在欧洲、加拿大和南美等地区运营的 Bittrex Global 不受影响，将继续开放交易。\n不过，主动退出的 Bittrex 依旧未能幸免美国监管机构的执法行动。4 月中旬，SEC 官网披露，Bittrex 及其前 CEO Bill Shihara 收到了该机构的“韦尔斯通知”，执法部门以涉嫌违反投资者保护法起诉 Bittrex。\n实际上，根据 Bittrex 总法律顾问 David Maria 的说法，SEC 执法部门在今年 3 月份就向 Bittrex 通报了 SEC 可能采取的行动。SEC 在向 Bittrex 发出的韦尔斯通知中表示， 2017 年至 2022 年期间，Bittrex 违反了监管机构的规定，同时产生了至少 13 亿美元的收入。Bittrex 在未向监管机构注册的情况下作为交易所、经纪自营商和票据交易所开展业务，违反了法律。\n在被 SEC 起诉数…",
+          "link": "https://www.odaily.news/post/5186962",
+          "publishedOn": "2023-05-09T09:00:00.000Z",
+          "wordCount": 1735,
+          "title": "Bittrex申请破产？实为退出美国市场，将反击SEC指控",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5186961",
+          "author": "深潮TechFlow",
+          "description": "原文来源：TechFlow Research\n原文作者：0xmin\n在今年 2 月中旬，我们专门制作了一期关于 Ordinals 以及 BTC NFT 的视频。\n\n在寻找相关资料的过程中，我们发现一个有意思的现象，那就是对 Ordinals 最上头的其实是一群原 BSV 社区的人，尽管由于整个 BSV 生态衰退，目前已人数寥寥。\n在不少 BSV 爱好者看来，无论是 BTC NFT 还是 Ordinals 都是之前 BSV 社区一直倡导做的一些事情，并在推特上感谢 Casey（Ordinals 创建者）成为特洛伊木马。\n\n笔者几年前曾在 BSV 骷髅会社群围观过一段时间，的确发现二者有异曲同工之妙。\nBSV 脱胎于 BCH，都是走大区块路线，但 BSV 更加激进，开放扩容，主张区块大小无上限，由市场决定，并且未来希望将更多的商业数据放到链上。\n基于 Bitcoin SV 的区块链系统，他们提出了 Metanet 这一概念，也就是基于 BSV 的价值网络，在上面可以进行数据传输和存储，去中心化且不可被篡改，让企业也可以在 BSV 上构建应用。\n基于 BSV，有骷髅会成员开发了链上微博以及 NFT 相关的应用。\n总体上，BSV 与 BTC 有着截然不同的路线，BTC 对标的是数字黄金，核心是价值储存；BSV 希望万物上链，单笔手续费必须足够低到让用户无感，因此需要不断扩容，通过海量的交易来积少成多维持整个系统的平稳运作。\n后来的事情大家也知道了，并没有 BSV 生态应用得到使用，链上数据惨淡，在那个为 DeFi、NFT、新公链疯狂的季节，BSV 逐渐被遗忘。\n如今，BRC 20 大火，BSV 这个词再度回到大家的视野中，是由于 BRC 20 大量生态应用来自于原 BSV 社区开发者。\n\nBRC 20 最核心的钱包 Unisat 背后就是此前 BSV 生态的华人开发团队， 曾开发 BSV 上的智能合约方案 Sensible Contract。\n\n首个 BRC 20 交易平台 Ordswap 背后是团队曾开发 BSV 网络首个去中心交易平台 RelayX，创始人曾是 OKCoin 高管。\n\n钱包 Ordinals Wallet 背后是 Twetch，一个建立在 BSV 上的社交应用，随着 Ordinals 协议的兴起，Twetch 也开始支持 BTC NFT。\n\n此外，包括大家常见到的 Mempool 矿池，其创始人也是 BSV 社区核心成员。\n\nBRC 20 的路线和方向似乎正是 BSV 爱好者所支持的，他们也算是利用 BRC 20 重新站上了舞台，并获得了财富。\n但是，这也引起了众多比特币支持者，特别是比特币最大主义者的不满。在他们看来，目前的 BRC 20 目前对 BTC 网络是一种攻击和伤害。\n首当其冲，BRC 20 导致比特币网络大量堵塞，迟迟无法出块，同时当比特币手续费收入持续超过出块奖励，那么可能会造成时间盗贼攻击（Time-Bandit Attacks），矿工会选择处理手续费更高的交易，而忽略手续费低或者没有手续费的交易，就会出现交易发出去不能成交的情况。\n安全从业者 Haotian 认为，BRC 20 违背了去中心化、扩容、低成本的主流叙事，比特币网络没办法阻止失效铭文上链，中心化平台要裁定谁的铭文有效；此外其交易场景若没有中心化平台裁定极易被双花作恶；铭文先到先得的 fomo 机制和矿工按矿工费优先打包的机制存在逻辑悖论，导致 Mint 并不公平。\nBTCStudy 贡献者 Ajian 认为不该继续购买用这些 “协议” 发行的 Token（BRC 20 ） ，它们根本不能被称为协议。\n“请停止买入使用 Inscription 方法发行的 Token，直到这些 Token 的开发者提供允许客户端验证的规则，否则你买入的就是空气，得不到任何的保护。开发者们，如果你真的在乎你的用户，请先设想这样的客户端验证规则并实现这样的客户端。”\n不过以上都是行业从业者从技术视角进行的解读和判断，对于大部分人而言，无论是 BTC/ETH 主流币，还是山寨币，MEME/BRC 20 ，或者是模式币，只要能赚到钱就行，并不太会在意区块扩容等路线之争。\n目前，BRC 20 也属于另一种 MEME 币，共识是涨出来的，入场时机和市场情绪最重要，总有人赚得盆满钵满，总有人高位套牢，实现了圈内财富再分配的重大历史任务。\n要说“归零或者暴富”性质的投机建议只有一个：保持好奇，不要偷懒。",
+          "link": "https://www.odaily.news/post/5186961",
+          "publishedOn": "2023-05-09T08:26:46.000Z",
+          "wordCount": 1797,
+          "title": "BRC20背后：来自BSV社区的「复仇」",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5186955",
+          "author": "SignalPlus",
+          "description": "各位朋友，欢迎来到 SignalPlus 宏观点评。SignalPlus 宏观点评每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。\n\n本周第一个交易日，风险市场延续上周的正面基调，不过交易活动相对安静；昨天唯一值得关注的数据是美联储高级信贷人员意见调查 (SLOOS)，调查报告显示，商业、工业和消费贷款等类别的信贷条件和贷款需求预计将收紧，不过收紧程度在市场预期之内；该调查于 3 月 27 日至 4 月 7 日进行，其中共有 3 组特殊问题涉及商业房地产贷款条件的变化，包括变化的原因以及对今年剩余时间的预期。\n对于商业贷款，银行报告称贷款标准从 44.8% 收紧至 46% ，其中 94% 的银行认为不确定的经济前景对此有所影响；中大型企业的工商贷款需求也大幅减弱，报告需求减弱的银行比例从上一次调查的 31% 升至 56% ；不意外地，商业房地产贷款受到的打击最为严重， 74% 的银行收紧了商业房地产的贷款标准，不过住房抵押贷款的标准实际上没有变化；最后，对于特殊问题的回复，没有任何银行预计其商业贷款标准会在今年放宽，且 33% 的银行预计贷款条件将进一步收紧。\n总体而言，虽然信贷稳步收紧，但并未出现许多人担忧的严重信贷紧缩情况，支持了美联储对当前信贷形势较为乐观的看法。\n\n市场相对平静，S&P 500 指数基本保持不变， 2 年期美债收益率没有突破 4% ， 10 年期收益率低于 3.50% ，美元相对于大部分主要货币走弱，信用市场则比较活跃，预计在 CPI 数据公布前会有 200 亿美元的债券新发行（来自科技和制药公司）。\n至于 CPI，市场普遍预期环比增长 0.4% ，不过许多机构估计的数字更接近 0.45% ，因此也有机会出现 0.5% 的结果；近几个月住房价格呈下降趋势，不过随著我们进入旅游旺季，其他项目例如二手车和机票等可能会增加价格上行风险，环比数据将变得更加难以估计。\n从风险回报的角度来看，尽管利率市场基本没有预期会进一步加息，我们仍认为短期内偏向利率上升的风险报酬会更有利。\n\n\n\n过去 24 小时里，BTC 跌破 28, 000 美元，表现远不及股票、美元和黄金价格，让投机者措手不及，约 2 亿美元的期货部位遭到清算。不过价格走跌也触发了看跌期权的购买兴趣，随著 BTC 的技术面开始变得更加不乐观，期权波动率偏斜开始左移。\n\n\n\n如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。\nSignalPlus Official Website: https://www.signalplus.com/",
+          "link": "https://www.odaily.news/post/5186955",
+          "publishedOn": "2023-05-09T07:13:33.000Z",
+          "wordCount": 1688,
+          "title": "SignalPlus宏观点评(20230509)",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5186959",
           "author": "Go2Mars的Web3研究",
