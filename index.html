@@ -51,11 +51,178 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-09 datetime="2023-05-09T00:14:14.000Z">2023-05-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-09 datetime="2023-05-09T00:14:14.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-09 datetime="2023-05-09T02:58:11.000Z">2023-05-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-09 datetime="2023-05-09T02:58:11.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186952"
+                        open
+                      >
+                        <summary class="article-expander__title">全面对比以太坊主流ZK系Layer2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186952">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来源：链茶馆
+以 ZK rollups 技术展开的项目不难看出最终目标都是 zkEVM，而从去年至今将是日常加密货币用户将能够首次尝试 zkEVM 的一年。
+
+Layer 2 扩展是目前行业最关键的问题之一，原先 L1 是由以太坊本身实现的，在以太坊区块链上运行智能合约平台，但由于以太坊的原始架构存在吞吐量限制和高昂交易手续费等问题，因此需要构建 L2 扩展解决方案来提高交易速度和降低成本。
+而基于 zkEVM 项目旨在提高以太坊的可扩展性和安全性，通过使用零知识证明、分片技术和其他技术来实现更快、更高效的交易。
+zkEVM（Zero-Knowledge Execution Environment Virtual Machine）是一种利用零知识证明实现隐私保护的以太坊虚拟机。它允许以保护智能合约条款和合约中涉及的数据隐私方式执行智能合同，其中完全是通过零知识证明所实现的。
+可以把 zkEVM 视为，在以太坊的智能合约执行过程中，部分数据可在不泄露原始数据的情况下进行处理和验证。项目若引入 zkEVM 可以有效提高智能合约的隐私性和性能，而借由 zkEVM，用户可以在保护隐私的前提下，以更快的速度执行包含秘密计算的智能合约。
+根据 Vitalik 的解读， zkEVM 可分为：
+（一）类型 1 PSE：（完全以太坊——等效）—— zkEVM 不会改变以太坊系统的任何部分，并力求完全等效。
+（二）类型 2 Scroll（完全 EVM——等效）—— zkEVM 看起来会完全等同以太坊，但在数据结构和状态树等方面有所不同。
+（三）类型 2.5 （EVM——等同于 gas、成本除外）—— zkEVM 显著增加 GAS 成本，以满足 EVM 中非常难以 zk 证明的特定操作，而开发人员在此处部署 dApp 时需要小心，因这些可能会破坏一些开发人员的工具。
+（四） 类型 3 （几乎…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186950"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂Artemis：Paradigm出品，开源的MEV Bot框架</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186950">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Frankie
+原文编译：深潮 TechFlow
+Paradigm 宣布开源了一个关于 MEV Bot 的框架 Artemis，在本文中，Paradigm 的助理研究员 Frankie 将解释构建 Artemis 的原因以及该框架的目标。
+
+Artemis，一个用 Rust 编写 MEV 机器人的框架，同时也是开源的。 Artemis 的主要特点在于简单、模块化和快速。
+为什么要构建 Artemis？
+MEV 仍然是当今以太坊上最强大的中心化力量之一。我们认为，构建用于 MEV 研究和提取的开源工具是应对这种中心化压力的明确途径。
+目前，MEV 市场的新进入者面临诸多障碍：
+
+作为一个新的搜索者，入门很困难：Bot 运营商没有太大的动力分享他们的代码，因此新的搜索者经常需要重新编写相同的组件，并重新构建类似的基础设施。
+
+作为一个新的协议，很难找到搜索者来运行 Keepers：在您的协议达到规模之前，很难引起搜索者的注意。
+
+我们希望 Artemis 能够通过提供灵活且可重用的组件来编写 MEV 机器人，并作为贡献策略和 Keepers 的存储库，来缓解其中的一些问题。
+什么是 Artemis？
+Artemis 是一个用于编写机器人的库，也是一个策略库。我们在设计该项目时考虑了以下一些目标：
+
+简单性：Artemis 被设计为一个简单的事件引擎，这意味着它足够灵活以支持广泛的策略，同时避免不必要的复杂性。
+
+模块化：Artemis 提供了常用的机器人组件。这些组件可以混合和匹配以编写策略，使搜索者可以专注于实现每个机会的核心逻辑。
+
+性能：我们希望 Artemis 具有良好的性能，因此该框架使用 Rust 编写。
+
+内置： Artemis 包含使其易于在生产环境中运行的工具，例如 dockerized 部署，以及使用 Prometheus 和 Grafana 进行监控和警报。
+
+Artemis 的体系结构
+其核心被构建为一个事件处理管道，由三个主要组件组成：
+
+收集者：收集和接收外部事件（如未决交易、新区块、链下订单等），并将其转换为内部事件表示。
+
+策略：策略包含每个 MEV 机会所需的核心逻辑。它们将事件作为输入，并计算是否存在任何机会（例如，策略可能会监听市场订单流以查看是否存在跨交易所的套利）。策略产生行动。
+
+执行者：执行者负责处理行动，并负责在不同领域中执行它们（例如，向公共 mempool 提交交易、提交 flashbots 包或下链下订单）。
+
+此外，我们正在开源一个跨市场的 NFT 套利策略，并将很快推出更多策略。
+深潮注：目前 Artemis 框架已开源，在 Github 上可以找到该项目的目录并进行使用。
+项目首页的贡献者信息显示，该框架的主要贡献者为本文原作者，即 Paradigm 研究员 Frankie。
+此外，上文中所指的 NFT 套利也显示在该目录中，即在 Seaport 和 Sudoswap 之间实施原子、跨市场 NFT 套利的策略，同样开源可复制。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186949"
+                        open
+                      >
+                        <summary class="article-expander__title">教程：无节点如何Mint ORC-20代币？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186949">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>除了大火的 BRC-20 以外，比特币现在还有包括 BRC-21、ORC-20 等诸多创新，或许都可潜在的下一个热点。
+Odaily星球日报曾刊文对二者进行解读：
+BRC-20、ORC-20 之后，BRC-21 又是什么？
+错过 BRC-20 ？一文详解 Ordinals 生态中新的发币规则 ORC-20 
+本文将以最简短的方式，快速教你如何在没有节点的情况下 Mint ORC-20 。
+1.阅读 ORC-20 的快速入门文档。
+2.创建一个文本文件，里面写清楚需要铭刻（铸币或部署）的内容。
+
+3.访问unisat 铭刻页面并上传保存的文本文件。此处可通过同时上传文本文件多次的方式来实现同时铭刻多个内容。
+
+4.留意内存池的单价。确保输入了正确的收款地址，很快即可完成。
+5.付款，等待铸币完成。
+
+恭喜，现在您已成功铭刻了一个 ORC-20 。
+&quot;,&quot;extraction_tags&quot;:&quot;&quot;,&quot;source_type&quot;:&quot;original&quot;,&quot;source_urls&quot;:&quot;&quot;,&quot;next_post&quot;:{&quot;title&quot;:&quot;「淘金热」过后，Sui链上的NFT场景能否实现可持续发展？&quot;,&quot;entity_id&quot;:5186947,&quot;id&quot;:5186947}},&quot;user&quot;:{&quot;type&quot;:&quot;SET_POST_USER&quot;,&quot;id&quot;:2147517633,&quot;avatar&quot;:&quot;https://piccdn.0daily.com/202304/30/4dc9e152dcdca21a42e29d593c853841.png&quot;,&quot;name&quot;:&quot;Loopy Lu&quot;,&quot;introduction&quot;:&quot;关注DeFi赛道，DEX深度玩家，欢迎加微信lift_example交流&quot;,&quot;title&quot;:&quot;资深作者&quot;,&quot;total&quot;:&quot;130&quot;},&quot;comments&quot;:[],&quot;counters&quot;:{&quot;view_coun…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36931"
+                        open
+                      >
+                        <summary class="article-expander__title">揭秘Berachain：何以融资 4200万美元？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36931">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>流动性是链上黄金，是DeFi的活水之源，因为它，Curve战争兴起，吸血鬼袭击泛滥。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -262,54 +429,6 @@
                             <span class="media-object__text">
                               <span>PANews 5月8日消息，据Decrypt援引Nansen数据报道，2023 年一季度 NFT 交易额约为 45 亿美元，相比 2022 年第四季度的 19 亿美元环比增长 136.8%，交易 NFT 的独立钱包地址仅增长 24.5% 至 1390 万，这很可能与 Blur 代币空投有关。此外，2023 年 4 月的 NFT 交易额较 3 月环比下降了 30%，而 5 月第一周单周交易额和交易地址均创年内新低。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5186949"
-                        open
-                      >
-                        <summary class="article-expander__title">教程：无节点如何Mint ORC-20代币？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186949">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>除了大火的 BRC-20 以外，比特币现在还有包括 BRC-21、ORC-20 等诸多创新，或许都可潜在的下一个热点。
-Odaily星球日报曾刊文对二者进行解读：
-BRC-20、ORC-20 之后，BRC-21 又是什么？
-错过 BRC-20 ？一文详解 Ordinals 生态中新的发币规则 ORC-20 
-本文将以最简短的方式，快速教你如何在没有节点的情况下 Mint ORC-20 。
-1.阅读 ORC-20 的快速入门文档。
-2.创建一个文本文件，里面写清楚需要铭刻（铸币或部署）的内容。
-
-3.访问unisat 铭刻页面并上传保存的文本文件。此处可通过同时上传文本文件多次的方式来实现同时铭刻多个内容。
-
-4.留意内存池的单价。确保输入了正确的收款地址，很快即可完成。
-5.付款，等待铸币完成。
-
-恭喜，现在您已成功铭刻了一个 ORC-20 。
-&quot;,&quot;extraction_tags&quot;:&quot;&quot;,&quot;source_type&quot;:&quot;original&quot;,&quot;source_urls&quot;:&quot;&quot;,&quot;next_post&quot;:{&quot;title&quot;:&quot;「淘金热」过后，Sui链上的NFT场景能否实现可持续发展？&quot;,&quot;entity_id&quot;:5186947,&quot;id&quot;:5186947}},&quot;user&quot;:{&quot;type&quot;:&quot;SET_POST_USER&quot;,&quot;id&quot;:2147517633,&quot;avatar&quot;:&quot;https://piccdn.0daily.com/202304/30/4dc9e152dcdca21a42e29d593c853841.png&quot;,&quot;name&quot;:&quot;Loopy Lu&quot;,&quot;introduction&quot;:&quot;关注DeFi赛道，DEX深度玩家，欢迎加微信lift_example交流&quot;,&quot;title&quot;:&quot;资深作者&quot;,&quot;total&quot;:&quot;130&quot;},&quot;comments&quot;:[],&quot;counters&quot;:{&quot;view_coun…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6445,27 +6564,6 @@ FTX.US于2021年8月购买LedgerX。在一次探讨FTX倒闭的国会听证会�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/9pzh1t41.html"
-                        open
-                      >
-                        <summary class="article-expander__title">阿里云与Avalanche等合作在区块链上部署元宇宙</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9pzh1t41.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月4日消息，据Techcrunch报道，阿里巴巴集团的数字技术和智能部门阿里云已与第 1 层区块链 Avalanche 合作，第三个合作伙伴为 MUA DAO。该合作伙伴关系将为阿里巴巴的客户提供一个名为 Cloudverse 的启动板，旨在帮助企业在 Avalanche 的区块链上定制、启动和维护他们自己的元宇宙空间。
-去年底报道，阿里云已添加对 Avalanche 验证节点和基础设施的支持。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7441,80 +7539,10 @@ Odaily星球日报讯 zkSync 上 meme 项目 SHIBE…</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-04 datetime="2023-05-04T14:52:05.000Z">2023-05-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-04 datetime="2023-05-04T14:52:05.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PANews - 快讯</button>
-                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/6f49t6kv.html"
-                        open
-                      >
-                        <summary class="article-expander__title">金融时报：Western Alliance成为最新一家探索潜在出售的美国银行</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6f49t6kv.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月4日消息，据英国金融时报援引知情人士报道，美国地区性银行 Western Alliance（阿莱恩斯西部银行）正在考虑包括出售（资产）在内的选择，包括考虑出售全部或部分业务。知情人士说，这家总部位于亚利桑那州的银行截至 3 月底拥有 710 亿美元的资产，该行已经聘请顾问就相关事宜进行讨论。但知情人士补充称，该行出售业务的考虑尚处于早期阶段，可能不会有任何结果。
-阿莱恩斯西部银行表示，有关其将出售自身业务的报道绝对是假的。
-行情显示，阿莱恩斯西部银行（WAL）今日曾多次停牌。盘中最多下跌超60%，现跌幅收窄至40%左右。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/e2p888pm.html"
-                        open
-                      >
-                        <summary class="article-expander__title">德勤集成Polkadot生态身份协议KILT Protocol</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/e2p888pm.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月4日消息，会计师事务所德勤宣布正在集成 Polkadot 生态身份协议 KILT Protocol，用于发行可重复使用的数字证书，以支持其了解你的客户 / 了解你的业务 (KYC/KYB) 流程， KILT 的技术可消除围绕 KYC/KYB 流程现有效率低的问题。这些凭证有多个用例，包括银行和 DeFi 的监管合规、电子商务的年龄验证、私人登录和筹款等。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4921700464">
-        <time id="build-timestamp" datetime="2023-05-09T02:33:13.646Z">2023-05-09T02:33:13.646Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4921898710">
+        <time id="build-timestamp" datetime="2023-05-09T03:08:40.211Z">2023-05-09T03:08:40.211Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
