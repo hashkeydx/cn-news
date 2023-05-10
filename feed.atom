@@ -2,10 +2,85 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-10T09:07:33.636Z</updated>
+    <updated>2023-05-10T10:07:54.760Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[MEV-Burn：ETH下一次大升级，进一步缩减代币排放]]></title>
+        <id>https://www.theblockbeats.info/news/36955</id>
+        <link href="https://www.theblockbeats.info/news/36955"/>
+        <updated>2023-05-10T08:30:01.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Why the Devs Want to Burn More ETH》
+原文来源：Bankless
+原文编译：深潮 TechFlow 
+
+
+当 EIP-1559 于 2021 年 8 月在以太坊上实施时，这标志着网络开始销毁 ETH。该升级将用户以前支付给区块验证者 (称为基础费用) 的部分费用重新定向销毁。
+
+
+迄今为止，在 EIP-1559 之后，当前 1.2 亿个流通供应量中有超过 320 万个 ETH 已被燃烧。以太坊的多头们喜欢这一举措，因为它使 ETH 更加稀缺，从而更有价值。
+
+
+但是，我们能燃烧更多的 ETH 吗？以太坊路线图上下一个重大的「ETH 销毁」升级是「MEV-Burn」，以太坊研究员 Justin Drake 和 Dom 在 Bankless 播客中提到它是 EIP-1559 的「逻辑延续」。
+
+
+MEV 快速介绍
+
+
+以太坊最初的协议设计是幼稚的。它假设用户只需将交易发送给中立的区块验证者来构建区块，但实际上，在区块构建中的寻租机会导致了一个可开发市场。这种现象被称为 MEV，即「最大可提取价值」。快进到现在，总共有 56.6 万个 ETH 是通过 MEV 从普通以太坊用户中提取出来的。
+
+
+MEV 存在一些问题。
+
+
+首先，MEV 是从普通用户中提取的货币价值。其次，MEV 扭曲了区块验证者行为中立的激励机制，导致区块链不稳定。MEV 机器人进行竞争性攻击，如抢先交易、DDOS 攻击和链重组，所有这些都是为了获得大量的 MEV 赏金。或者，如果 MEV 赏金的利润超过它，信标链上的 ETH 质押者可能会选择削减其抵押品。虽然这种情况不会经常发生，但一旦发生，对以太坊来说是不利的。
+
+
+更快地执行交易带来极具盈利性的机会，套利商和投机者愿意支付巨额的 Gas 费用，以及由此产生的「竞争费用」，正是 MEV-Burn 的目标所在。
+
+
+什么是 MEV-Burn？
+
+
+MEV-Burn 只是以太坊路线图中直接解决 MEV 问题的一部分。该解决方案通过燃烧当前被 MEV 参与者提取的价值，将 MEV 返回给 ETH 持有人。这相当于将价值间接重新分配给 ETH 持有人，使资产更加稀缺，并减少区块验证者的抛售压力。
+
+
+MEV-Burn 的次要目标是通过平等化区块构建者的 MEV 利润来降低链的不稳定性。这又被称为「MEV-smoothing」。以太坊开发者希望对 MEV 利润的追求是可预测和稳定的，而不是像如今的这种情况。
+
+
+这就是棘手之处——为了知道可以销毁多少 MEV，以太坊协议首先必须找到一种能够量化 MEV 的方法，并且基于区块提议者（也称为构建者）在假设有效市场中「中立」支付的数量。我们今天不知道这些数字，因为目前存在的区块构建市场是一个不透明的链下市场。
+
+
+这就是为什么 MEV-Burn 需要首先完成另一个主要的以太坊网络升级，称为提议者-建造者分离（PBS）。PBS 将传统的验证者角色分成两个独立的角色：提案者和区块构建者。PBS 的目标是防止区块构建者能够同时选择和排序要包含在该区块中的交易。这种分工剥夺了区块构建者交易歧视的能力，这正是 MEV 的本质。
+
+
+
+
+
+完成 PBS 后，区块提案者将不再能够确定哪些交易更有价值。提案者别无选择，只能为区块构建者为他们组装的区块提交「中立」的费用出价。这个市场过程将完全存在于链上，而不是今天由 Flashbot 的第三方 MEV-Boost 软件支持的链下市场。
+
+
+只有在所有这些发生之后，MEV-Burn 之路才会开始。通过完全了解信标链上的中立区块提议者出价，以太坊协议可以执行 MEV-Burn。
+
+
+MEV-Burn 的好处
+
+
+目前，以太坊每年发行 686K ETH 作为对 ETH 验证者的奖励。请注意，此发行因验证者获得 MEV 利润的结果而变得复杂，这反过来又增加了发行。预计 MEV-Burn 将进一步减少每年排放的 400K-500K ETH 量。
+
+
+稳定的 MEV 利润也意味着让区块验证者将资本重新定向到质押，特别是在牛市中发行奖励增加时。这扩大了 ETH 的经济带宽，并为 dapp 抵押品保留了资本，例如去中心化的稳定币抵押品、借贷、其他形式的抵押等。
+
+
+与许多以太坊提案一样，MEV-Burn 将在短期内不会就绪，而是着眼于 3-5 年的时间。但如果等待的回报是最终走出 MEV 黑暗森林，那么这个等待就是值得的。
+
+
+原文链接]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[超募30倍，Cetus会成为Sui上的DEX龙头吗？]]></title>
         <id>https://www.odaily.news/post/5186987</id>
@@ -57,6 +132,49 @@ Cetus 特点
 fiatjaf解释了其提出这个想法的原因：“最近由Ordinals和BRC-20代币引起的费用飙升表明闪电网络不是灵丹妙药。通道太脆弱了，在高手续费环境下开通通道、运行路由节点等成本都很高。想要继续使用闪电网络的人转而涌向大型闪电网络托管提供商：WalletofSatoshi、ZEBEDEE、OpenNode等等。我们可以利用人们对这些运营闪电网络提供商的公司(和个人)的信任，把它们每个都变成一个比特币代币发行者。每个公司发行自己的代币，交易自由流动。每个人只能持有他们更信任的发行方的资产。”]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[简析Sui生态DEX Turbos Finance Token经济学及IDO细则]]></title>
+        <id>https://www.theblockbeats.info/news/36954</id>
+        <link href="https://www.theblockbeats.info/news/36954"/>
+        <updated>2023-05-10T07:19:27.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《
+
+Turbos Finance 将于 5 月 12 日开启 IDO
+
+》
+
+原文编译：
+
+Sui world
+
+
+
+由 Jump 投资，Mystenlab 战略支持的 Turbos Finance 是建立在 Sui 公链上的面向所有人的 DEX，目前已经上线 Sui Network 主网。据官方给出的消息，UTC 时间 5 月 12 日上午 10 点到 5 月 14 日上午 10 点将开启白名单轮和公开轮 IDO，下面 Sui World 将给大家介绍该项目的创新以及 IDO 规则。 
+
+
+Turbos Finance 简介 
+
+
+Turbos Finance 是第一个建立在 Sui 上的去中心化零滑点永续合约交易和现货交易平台，由 Sui（Turbos）驱动的去中心化永续交易平台，交易效率更快、手续费更低、清算风险更低。3 月 29 日，Sui 生态去中心化交易平台 TurbosFinance 宣布获得 Jump Crypto 投资。作为加密领域的顶级投资与交易机构，Jump Crypto 长期与战略合作伙伴一起支持 TurbosFinance 在 Sui 上构建非托管 DEX。
+
+
+Turbos Finance 的特色 
+
+
+Turbos 将在 sui 上建立完整的 DeFi 生态，包括三个关键组成部分：
+
+
+1）集中流动性做市商（CLMM）去中心化交易平台（DEX）
+
+
+2）Sui 生态的无许可上币 
+
+
+3）永续合约自动做市商 Turbo Finance 是目前 Sui Network 上唯一可以实现 abc 智能路由的 DEX。Turbos 的集中流动性允许用户自定义作为 LP 的价格范围，并看到对应的 APR，帮助 LP 最大化收益，并避免过高的无常损失。另外，Turbos 已经集成了 wormhole，方便用户将资产跨入 Sui Network …]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>
