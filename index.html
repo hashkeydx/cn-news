@@ -51,270 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-10 datetime="2023-05-10T08:30:01.000Z">2023-05-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-10 datetime="2023-05-10T08:30:01.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-10 datetime="2023-05-10T10:20:00.000Z">2023-05-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-10 datetime="2023-05-10T10:20:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36955"
-                        open
-                      >
-                        <summary class="article-expander__title">MEV-Burn：ETH下一次大升级，进一步缩减代币排放</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36955">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《Why the Devs Want to Burn More ETH》
-原文来源：Bankless
-原文编译：深潮 TechFlow 
-
-
-当 EIP-1559 于 2021 年 8 月在以太坊上实施时，这标志着网络开始销毁 ETH。该升级将用户以前支付给区块验证者 (称为基础费用) 的部分费用重新定向销毁。
-
-
-迄今为止，在 EIP-1559 之后，当前 1.2 亿个流通供应量中有超过 320 万个 ETH 已被燃烧。以太坊的多头们喜欢这一举措，因为它使 ETH 更加稀缺，从而更有价值。
-
-
-但是，我们能燃烧更多的 ETH 吗？以太坊路线图上下一个重大的「ETH 销毁」升级是「MEV-Burn」，以太坊研究员 Justin Drake 和 Dom 在 Bankless 播客中提到它是 EIP-1559 的「逻辑延续」。
-
-
-MEV 快速介绍
-
-
-以太坊最初的协议设计是幼稚的。它假设用户只需将交易发送给中立的区块验证者来构建区块，但实际上，在区块构建中的寻租机会导致了一个可开发市场。这种现象被称为 MEV，即「最大可提取价值」。快进到现在，总共有 56.6 万个 ETH 是通过 MEV 从普通以太坊用户中提取出来的。
-
-
-MEV 存在一些问题。
-
-
-首先，MEV 是从普通用户中提取的货币价值。其次，MEV 扭曲了区块验证者行为中立的激励机制，导致区块链不稳定。MEV 机器人进行竞争性攻击，如抢先交易、DDOS 攻击和链重组，所有这些都是为了获得大量的 MEV 赏金。或者，如果 MEV 赏金的利润超过它，信标链上的 ETH 质押者可能会选择削减其抵押品。虽然这种情况不会经常发生，但一旦发生，对以太坊来说是不利的。
-
-
-更快地执行交易带来极具盈利性的机会，套利商和投机者愿意支付巨额的 Gas 费用，以及由此产生的「竞争费用」，正是 MEV-Burn 的目标所在。
-
-
-什么是 MEV-Burn？
-
-
-MEV-Burn 只是以太坊路线图中直接解决 MEV 问题的一部分。该解决方案通过燃烧当前被 MEV 参与者提取的价值，将 MEV 返回给 ETH 持有人。这相当于将价值间接重新分配给 ETH 持有人，使资产更加稀缺，并减少区块验证者的抛售压力。
-
-
-MEV-Burn 的次要目标是通过平等化区块构建者的 MEV 利润来降低链的不稳定性。这又被称为「MEV-smoothing」。以太坊开发者希望对 MEV 利润的追求是可预测和稳定的，而不是像如今的这种情况。
-
-
-这就是棘手之处——为了知道可以销毁多少 MEV，以太坊协议首先必须找到一种能够量化 MEV 的方法，并且基于区块提议者（也称为构建者）在假设有效市场中「中立」支付的数量。我们今天不知道这些数字，因为目前存在的区块构建市场是一个不透明的链下市场。
-
-
-这就是为什么 MEV-Burn 需要首先完成另一个主要的以太坊网络升级，称为提议者-建造者分离（PBS）。PBS 将传统的验证者角色分成两个独立的角色：提案者和区块构建者。PBS 的目标是防止区块构建者能够同时选择和排序要包含在该区块中的交易。这种分工剥夺了区块构建者交易歧视的能力，这正是 MEV 的本质。
-
-
-
-
-
-完成 PBS 后，区块提案者将不再能够确定哪些交易更有价值。提案者别无选择，只能为区块构建者为他们组装的区块提交「中立」的费用出价。这个市场过程将完全存在于链上，而不是今天由 Flashbot 的第三方 MEV-Boost 软件支持的链下市场。
-
-
-只有在所有这些发生之后，MEV-Burn 之路才会开始。通过完全了解信标链上的中立区块提议者出价，以太坊协议可以执行 MEV-Burn。
-
-
-MEV-Burn 的好处
-
-
-目前，以太坊每年发行 686K ETH 作为对 ETH 验证者的奖励。请注意，此发行因验证者获得 MEV 利润的结果而变得复杂，这反过来又增加了发行。预计 MEV-Burn 将进一步减少每年排放的 400K-500K ETH 量。
-
-
-稳定的 MEV 利润也意味着让区块验证者将资本重新定向到质押，特别是在牛市中发行奖励增加时。这扩大了 ETH 的经济带宽，并为 dapp 抵押品保留了资本，例如去中心化的稳定币抵押品、借贷、其他形式的抵押等。
-
-
-与许多以太坊提案一样，MEV-Burn 将在短期内不会就绪，而是着眼于 3-5 年的时间。但如果等待的回报是最终走出 MEV 黑暗森林，那么这个等待就是值得的。
-
-
-原文链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36954"
-                        open
-                      >
-                        <summary class="article-expander__title">简析Sui生态DEX Turbos Finance Token经济学及IDO细则</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36954">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《
-
-Turbos Finance 将于 5 月 12 日开启 IDO
-
-》
-
-原文编译：
-
-Sui world
-
-
-
-由 Jump 投资，Mystenlab 战略支持的 Turbos Finance 是建立在 Sui 公链上的面向所有人的 DEX，目前已经上线 Sui Network 主网。据官方给出的消息，UTC 时间 5 月 12 日上午 10 点到 5 月 14 日上午 10 点将开启白名单轮和公开轮 IDO，下面 Sui World 将给大家介绍该项目的创新以及 IDO 规则。 
-
-
-Turbos Finance 简介 
-
-
-Turbos Finance 是第一个建立在 Sui 上的去中心化零滑点永续合约交易和现货交易平台，由 Sui（Turbos）驱动的去中心化永续交易平台，交易效率更快、手续费更低、清算风险更低。3 月 29 日，Sui 生态去中心化交易平台 TurbosFinance 宣布获得 Jump Crypto 投资。作为加密领域的顶级投资与交易机构，Jump Crypto 长期与战略合作伙伴一起支持 TurbosFinance 在 Sui 上构建非托管 DEX。
-
-
-Turbos Finance 的特色 
-
-
-Turbos 将在 sui 上建立完整的 DeFi 生态，包括三个关键组成部分：
-
-
-1）集中流动性做市商（CLMM）去中心化交易平台（DEX）
-
-
-2）Sui 生态的无许可上币 
-
-
-3）永续合约自动做市商 Turbo Finance 是目前 Sui Network 上唯一可以实现 abc 智能路由的 DEX。Turbos 的集中流动性允许用户自定义作为 LP 的价格范围，并看到对应的 APR，帮助 LP 最大化收益，并避免过高的无常损失。另外，Turbos 已经集成了 wormhole，方便用户将资产跨入 Sui Network …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36953"
-                        open
-                      >
-                        <summary class="article-expander__title">去中心化的Prover如何实现？Opside创新性提出ZKP的两步提交算法</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36953">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Opside 提出的 ZKP 两步提交算法，在实现了 prover 去中心化的同时，能很好地规避针对 prover 的抢跑攻击，并鼓励更多的矿工提供稳定、持续的 ZKP 算力。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36952"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3可组合之旅7天后黑山启程，你上车么？| Web3 Composability Odyssey@EDCON</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36952">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>与来自全世界的 Web3 建设者一起奔赴 5 月 19 日召开的以太坊社区开发大会 EDCON 2023，开启黑山 Web3 可组合性之旅</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36950"
-                        open
-                      >
-                        <summary class="article-expander__title">融资2500万美元，Polyhedra Network银河忠诚计划交互指南</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36950">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>项目融资2500万美元，参与人数还不多，收好这份操作指南</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36945"
-                        open
-                      >
-                        <summary class="article-expander__title">zkEVM领域的新兴力量：以太坊Layer2扩展技术探讨</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36945">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《比较以太坊 ZK 系 6 个 Layer 2 项目：探索 ZkEVM 的技术差异》
-原文来源：链茶馆
-
-
-以 ZK rollups 技术展开的项目不难看出最终目标都是 zkEVM，而从去年至今将是日常加密货币用户将能够首次尝试 zkEVM 的一年。
-
-
-Layer 2 扩展是目前行业最关键的问题之一，原先 L1 是由以太坊本身实现的，在以太坊区块链上运行智能合约平台，但由于以太坊的原始架构存在吞吐量限制和高昂交易手续费等问题，因此需要构建 L2 扩展解决方案来提高交易速度和降低成本。
-
-
-而基于 zkEVM 项目旨在提高以太坊的可扩展性和安全性，通过使用零知识证明、分片技术和其他技术来实现更快、更高效的交易。
-
-
-zkEVM（Zero-Knowledge Execution Environment Virtual Machine）是一种利用零知识证明实现隐私保护的以太坊虚拟机。它允许以保护智能合约条款和合约中涉及的数据隐私方式执行智能合同，其中完全是通过零知识证明所实现的。
-
-
-可以把 zkEVM 视为，在以太坊的智能合约执行过程中，部分数据可在不泄露原始数据的情况下进行处理和验证。项目若引入 zkEVM 可以有效提高智能合约的隐私性和性能，而借由 zkEVM，用户可以在保护隐私的前提下，以更快的速度执行包含秘密计算的智能合约。
-
-
-根据 Vitalik 的解读，zkEVM 可分为：
-
-
-（一）类型 1 PSE：（完全以太坊——等效）——zkEVM 不会改变以太坊系统的任何部分，并力求完全等效。
-
-
-（二）类型 2 Scroll（完全 EVM——等效）——zkEVM 看起来会完全等同以太坊，但在数据结构和状态树等方面有所不同。
-
-
-（三）类型 2.5 （EVM——等同于 gas、成本除外）——zkEVM 显著增加 GAS 成本，以满足 EVM 中非常难以 zk …</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/36949"
-                        open
-                      >
-                        <summary class="article-expander__title">迪拜VARA高度认可MaskEX的初步批准，并许可其开始为在阿联酋推出做准备</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36949">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>一个重要的里程碑</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -326,6 +67,192 @@ zkEVM（Zero-Knowledge Execution Environment Virtual Machine）是一种利用�
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186992"
+                        open
+                      >
+                        <summary class="article-expander__title">全景式解读执行层：EVM一枝独秀，业务能力为成败关键</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186992">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：节选自ELI NUSS, Stratos
+原文编译：Felix, PANews
+导语：区块链中的执行层在多年技术发展下，扩展性不再成为主要矛盾，而业务开发和吸引有趣应用程序的能力似乎成了项目成败的关键因素。
+介绍
+在过去的一年里，执行层变得越来越拥挤。虽然将 Rollup 作为一种扩展解决方案已经有一段时间了，但采用才刚刚开始。在过去的一个月里，Rollup 合约消耗的 Gas 占以太坊 Gas 总支出的 10% 以上。
+
+来自 funnyking 的 Dune 仪表板
+Arbitrum 和 Optimism 的吸引力，以及 zkSync、Starknet 等预期推出的产品，加快了新执行层构建的速度。自 2018 年以来，有超过 20 亿美元的风投资金进入了这一领域。该领域目前有几十个项目正在建设，因此跟踪这些项目变得越来越有挑战性。此外，随着最近将 rollup SDKs/rollup 作为服务提供商的趋势出现，这种情况更加严重。
+要点
+
+从长远来看，证明机制将是一个越来越注重细节的工作：
+○ 在丰富的区块空间中，有效性证明（zk）执行层相对于欺诈证明（optimistic）执行层的优势变得不那么明显。optimistic 的设计可能会出奇地好。
+○ 如果/当 zk 变得更好时，optimistic 系统可以将欺诈证明换成有效性证明。
+
+随着状态增长不再是瓶颈，执行将成为新的瓶颈。这为改进执行设计提供了机会。从长远来看，执行设计可能是主要的差异化因素。部署架构将取决于经济偏好。更多的主权 -&gt; 更多的价值捕获 -&gt; 更少的可组合性。
+
+Rollup 框架和服务提供商将导致大量的执行层。
+
+预计随着技术变得更加成熟，执行层的设计空间可能会得到巩固。
+
+剩下的问题：排序器去中心化、跨 Rollup atomicity、ZK 证明效率、可持续代币模型。
+
+从投资者的角…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186991"
+                        open
+                      >
+                        <summary class="article-expander__title">Delphi Ventures合伙人：盘点推动Cosmos生态爆发的关键项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186991">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：José Maria Macedo，Delphi Ventures 合伙人
+原文编译：深潮 TechFlow
+Cosmos 生态向外界展示了强大的增长势头和技术创新。
+Delphi Ventures 合伙人 José Maria Macedo 盘点了一些 Cosmos 生态中的推动事件：dYdX 推出 v 4 版本、Neutron 和 Sei 两个无权限链地推出、Metamask 支持等，这些都将带来大量新用户和 dApps。本文中，将对这些发展进行更详细的解析。以下为原文：
+我们一直看好 Cosmos，将其选为 Delphi Labs 孵化项目的家园。现在这个观点正在逐渐得到验证，有许多令人兴奋的项目即将到来。
+1 ）Noble 上的原生 $USDC
+通过 Noble，原生 USDC 最终进入了 Cosmos。这种稳定币的重要性怎么强调都不为过。
+每个生态系统都需要原生稳定币，因为在如今超过 20 亿美元的跨链桥攻击且还在不断增长的情况下，没有人想长期持有非原生资产。 $UST 曾填补了 Cosmos 中的这一角色，但它的消亡留下了巨大的稳定币流动性空缺。
+原生 USDC 将在 Noble 上发行，并通过 IBC 在 Cosmos 上流通，这意味着在 60 多个 Cosmos 链中的任何一个链，都能使用原生 USDC。
+2 ）dYdX v4
+dYdX 是有史以来交易量最成功的链上衍生品 DEX，总成交量约为 1 万亿美元。
+该团队早已接受了 L2，并且在 2020 年选择了 Starkware。同样，他们对应用链方面的研究也很早，在 2022 年宣布将移至 Cosmos 应用链。这个决定很大胆，且信念充足。
+这是一个已经拥有该领域最成功的 dApp 之一的团队，每天交易量达到 9-10 位数。但他们依然选择使用 Cosmos SDK 从零开始重建。
+他们为什么这…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186914"
+                        open
+                      >
+                        <summary class="article-expander__title">RWA成为DeFi新叙事：2023年成为代币化拐点之年？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186914">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在过去几年中，RWA（Real World Assets，真实世界资产）的叙事一直处于沉寂状态，但最近它开始走红。许多传统金融机构都开始布局RWA领域，如J.P. Morgan在 Polygon 区块链上使用日元和新加坡元的代币化版本执行了第一笔实时交易，持有超过 10 万亿美元金融资产的 BlackRock 正在积极推进其向许可区块链领域的扩张，并将股票和债券转换为数字化代币。
+花旗银行报告指出，几乎任何有价值的东西都可以进行代币化，金融和现实世界资产的代币化可能是区块链实现突破的“杀手级应用”，预测到2030 年，将有4 万亿至5 万亿美元的代币化数字证券，而基于分布式账本技术（DLT）的贸易金融交易额将达到1 万亿美元。
+香港方面也在期待RWA方面的发展。今年2 月，香港特区政府在政府绿色债券计划（绿债计划）下成功发售8 亿港元的代币化绿色债券，这是全球首批由政府发行的代币化绿色债券。欧科云链研究院分析认为，香港发展Web3和虚拟资产不仅是务虚，更要务实。只有弥合加密市场与现实世界间的裂痕，提升虚拟资产的实用价值，最终服务于香港经济社会发展，Web3才能在香港真正落地生根。而 RWA是虚拟资产与Web3应用连接和覆盖现实世界的重要载体，也是香港Web3未来最值得期待的发展方向。
+业内甚至提出，2023 年或将是代币化的拐点之年。区块链技术将改变我们交易、消费和与金融产品互动的方式，以符合监管的方式让公开股票可以在链上交易只是一个开始。
+Part 1 RWA叙事为何火热
+RWA即通过代币化进入区块链的实物资产，这些资产可以是任何形式的实物资产，如不动产、股票、债券、商品、艺术品等，将这些实际存在的资产在区块链上代币化，可以使这些资产更容易流通、交易和融资，也可以增加其透明度、流动性和价值。R3PO分析认为，RWA叙事之所以火热起来，主要有两点原因。
+一方面，美债收益率上…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186994"
+                        open
+                      >
+                        <summary class="article-expander__title">Shapella升级抛压已过，ETH本周能突破2000美元吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186994">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>自 4 月 13 日以太坊完成 Shapella 升级，在过去近一个月的时间里，ETH 价格经历了冲高（最高至 2140 美元）后回调，宽幅整荡，目前价格（1840 美元）相较于升级日（1917 美元）仅仅下跌 4% ，远远小于同期比特币跌幅 7.6% 。
+更关键是，链上数据显示，Shapella 升级带来抛压已经正式过去，ETH 价格有望在未来一段时间迎来上涨。Token Unlocks 数据显示，Shapella 升级后 ETH 总提款量为 248 万枚，总存款量为 266 万枚，净质押余额增长了 18.4 万枚。
+
+（数据来自欧科云链 OKLink）
+如果我们将数据进一步细化，可以发现，ETH 提款量最高峰出现在 4 月 15 日，高达 39.28 万枚；此后提款量逐步下降，高点不断下移；从 5 月初以来，平均每天提款量为 58002 枚 ETH。
+与此同时，ETH 存款量不断增长，从 4 月 29 日起连续 11 天日质押量超过日提取量；5 月以来平均每天 ETH 存入量为 114641 枚，平均每天净存入 56639 枚。当前 ETH 质押量达 1806 万枚 ETH，创历史新高，质押率 15.01% 。预计这一趋势还将持续下去，从而导致净质押量不断增长——更强劲的买盘也会推动 ETH 价格不断上涨，重回 2000 美元也只是时间问题。
+另外，关于 ETH 提款还有一些有意思的数据值得关注。
+
+Nansen 数据显示，提款第一周，主要以提取质押奖励（即部分提现）为主，这一部分（85.6 万枚 ETH ）在整个提币总量（108.8 万枚）中占比接近 80% ；结合 4 月 13 日～ 4 月 19 日期间行情在上涨至 2100 美元后骤跌，可以解读为用户已完成获利抛售。迄今为止，已有 89% 的验证者处于待提款状态（状态为 0x 01 类型），仅仅剩余 11% 的验…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5186989"
+                        open
+                      >
+                        <summary class="article-expander__title">走近RWA的分支：起底链上国债生态项目的发展状况</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5186989">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来源：DODO Research
+原文作者：Flamie
+
+
+
+
+
+
+
+
+
+
+
+
+
+背景
+随着宏观经济环境的变化，DeFi 产品正在适应并改变。在 DeFi 1.0 中，可持续的稳定币收益是一个支柱，但现在低风险工具的收益率已经低于传统金融市场。因此，传统金融产品因其低风险特点而变得更具吸引力，这导致传统金融和 DeFi 之间出现了有趣的交织。
+Defillama 数据显示，过去一年，受到加密资产大幅下跌的影响，DeFi 总锁仓量从最高超 1800 亿美元降至约 390 亿美元，降幅超 78% ，这与传统资产的体量不可同日而语。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Source: https://defillama.com/
+而在这之前，已经有不少项目试水将现实资产引入 DeFi。比如，摩根大通、星展银行和 SBI 数字资产控股公司就曾使用基于 Polygon 上的 Aave 协议完成了以太坊网络上的外汇和政府债券交易。银行将新加坡政府证券的代币化版本换成日本政府债券，将日元换成新加坡元作为测试。
+再例如 MakerDAO 发行世界上首笔基于 DeFi 的现实资产贷款，在基于 Centrifuge 协议的借贷平台 Tinlake 上的 Fix&amp;Flip 贷款池 New Silver 作为资产发起方，使用 MakerDAO 作为信贷工具获得了首笔贷款。不仅如此， 2022 年 MakerDAO 还与 BlockTower Credit 联合推出 2.2 亿美元基金，为现实世界资产提供资金。2021 年，Aave 与加密公司 Centrifuge 合作推出了一个现实世界资产市场 RWA Market，允许企业对其业务的各个方面允许用户投资于以现实世界资产为抵押的市场。
+2022 年加密寒冬来袭，当诱人的 APR 不再时，人们开始转向探索无风险收益率，而代币化的现实世界资产正在彻…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -657,6 +584,192 @@ Odaily星球日报讯 Inscription 和 BRC-20 的火热所导致的比特币�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/g4irkpo1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Chiliz上线以太坊和Chiliz Chain之间的跨链桥，目前仅支持CHZ代币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/g4irkpo1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，体育和娱乐区块链解决方案Chiliz宣布上线以太坊和Chiliz Chain之间的跨链桥，用户可通过该跨链桥将以太坊主网 (ERC-20) 上的 CHZ 跨链至Chiliz Chain(CAP-20)。目前该跨链桥仅支持CHZ代币。
+今日早些时候报道，Chiliz推出的Layer 1公链Chiliz Chain已上线主网。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/k3w2jqai.html"
+                        open
+                      >
+                        <summary class="article-expander__title">火必更新5月默克尔树资产证明数据</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/k3w2jqai.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，火必宣布更新最新一期默克尔树资产证明数据，新增BETH数据。用户可直接通过火必官方平台的资产审计页面查看BTC、ETH（含BETH）、TRX、USDT、HT的储备金数据。
+据此前消息，火必储备金情况查看功能在数月前就已完成开发，于年初正式上线，实现了默克尔树开源验证、钱包地址所有权开源验证、链上资产开源验证。目前，相关储备金数据实行月更，将于每月1日进行快照，一般在每月第一周完成默克尔树数据更新。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/6vrmq8w2.html"
+                        open
+                      >
+                        <summary class="article-expander__title">马斯克：推特将推出加密私信，语音和视频聊天功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6vrmq8w2.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，马斯克今日发推表示，使用最新版本的（推特）应用程序，用户可以直接回复线程中的任何消息（不仅仅是最近的消息）并使用任何表情符号。 明天应该会发布加密的私信 V1.0。 即将推出的是通过您的 handle 与此平台上的任何人进行语音和视频聊天，这样您就可以与世界上任何地方的人交谈，而无需提供您的电话号码。在（推特）这个平台上，不同于广播的单行道，人们可以互动，评论，反驳。此外，推特还即将推出订阅和广告收入分成奖励，这是订阅人数和与内容相关的广告浏览量的函数。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/5gb1tekd.html"
+                        open
+                      >
+                        <summary class="article-expander__title">预警：微软发布含修复零日漏洞等38个安全漏洞的补丁，请及时升级</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5gb1tekd.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，安全公司慢雾发布安全预警：微软推出了2023年5月的补丁更新，以解决38个安全漏洞，其中包括一个零日漏洞，据称该漏洞正在被积极利用。成功利用该漏洞(CVE-2023-29336)的攻击者可以获得SYSTEM权限。一个关键的远程代码执行漏洞(Windows OLE CVE-2023-29325)可能允许攻击者通过发送特制的电子邮件来破坏受害者的设备。请及时升级。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/s985yk26.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：某巨鲸地址过去3天内从币安提出2050枚BTC，约合5700万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/s985yk26.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，Lookonchain数据监测，某巨鲸地址在过去3天里从币安提出2050枚BTC，约合5700万美元。
+从2022年11月30日到12月20日，该地址从币安提出1,636枚BTC（约2777万美元），平均提款价格为16,970美元，然后于3月28日以27060美元的价格存入币安，利润约为1650万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/7amwhyde.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Chiliz推出的Layer 1公链Chiliz Chain已上线主网</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/7amwhyde.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，据官方博客，体育和娱乐区块链解决方案Chiliz推出的Layer 1公链Chiliz Chain正式上线主网。Chiliz Chain是一个Layer 1、EVM兼容、可互操作的生态系统，将引入一个由11个活跃的股权授权证明 (PoSA) 节点验证者组成的系统，Jump Crypto是首批验证者之一。CHZ代币被作为该公链的原生代币。
+Chiliz表示将通过其5000万美元的加速器计划Chiliz Labs以及在全球举办一系列黑客马拉松来推动Chiliz Chain的发展。Chiliz Labs孵化的一系列web3体育项目将在未来几个月公布。项目将包括基于元宇宙的体育、足球游戏、基于奖励的社区平台、社交游戏平台、基于AI的内容平台、3D数字体育收藏品和NFT票务项目。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/j8303qz2.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Axie Infinity上线Origins第四赛季，奖励为11.17万枚AXS</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/j8303qz2.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，据官方博客，链游Axie Infinity宣布Origins Season 4（第四赛季）上线，总奖池达111,764 AXS。该赛季持续42天，引入新的机制，玩家可以使用能量碎片（Energy Fragments）来保留卡牌；还对竞技场排名奖励和进度进行升级。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/h0braml0.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Ordinals Wallet已向早期用户空投Pixel Pepes NFT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/h0braml0.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，据官方推特，比特币钱包服务商Ordinals Wallet宣布，已向产品发布首周即参与交易的用户空投Pixel Pepes NFT。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/7vgdfjja.html"
+                        open
+                      >
+                        <summary class="article-expander__title">韩国法院认定Do Kwon犯罪所得为2333亿韩元，已批准对其资产进行诉前保全</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/7vgdfjja.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，据韩国经济日报报道，韩国首尔南部地方法院法官近日接受了检方要求对Terra联合创始人Do Kwon的财产进行诉前保全的请求。资产诉前保全是指冻结犯罪嫌疑人的犯罪所得或者财产，直至确定​​有罪为止。法院认定Do Kwon犯罪所得为2333亿韩元（约合1.76亿美元）。
+由于法院接受了这一请求，Do Kwon禁止出售位于首尔城东区的商住公寓大楼“Galleria Foret”、位于论岘洞的新办公楼以及进口汽车。不过其存放在未来资产证券中的证券、存放在友利银行中的存款以及存放在加密交易所中的加密货币不能被处分。收回和保全其他金融资产的请求被驳回。
+此前消息，3月份Do Kwon因伪造护照在黑山被捕入狱，随后美国和韩国都要求将其引渡。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1375,6 +1488,265 @@ Alameda Research目前在其加密钱包中持有价值超过2.84亿美元的资
                               <span>PANews 5月9日消息，跨链 DeFi 协议 Prime Protocol 发布了一项基于资产的借贷服务，旨在消除区块链间代币转移的需要。该协议将允许用户在多个受支持的区块链（包括 Moonbeam、Ethereum、Arbitrum 和 Avalanche 上借用其整个资产组合的价值，而无需代币桥。Prime Protocol 于 9 月开始在测试网上运行。该协议拥有超过 51,000 个独立用户。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36955"
+                        open
+                      >
+                        <summary class="article-expander__title">MEV-Burn：ETH下一次大升级，进一步缩减代币排放</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36955">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Why the Devs Want to Burn More ETH》
+原文来源：Bankless
+原文编译：深潮 TechFlow 
+
+
+当 EIP-1559 于 2021 年 8 月在以太坊上实施时，这标志着网络开始销毁 ETH。该升级将用户以前支付给区块验证者 (称为基础费用) 的部分费用重新定向销毁。
+
+
+迄今为止，在 EIP-1559 之后，当前 1.2 亿个流通供应量中有超过 320 万个 ETH 已被燃烧。以太坊的多头们喜欢这一举措，因为它使 ETH 更加稀缺，从而更有价值。
+
+
+但是，我们能燃烧更多的 ETH 吗？以太坊路线图上下一个重大的「ETH 销毁」升级是「MEV-Burn」，以太坊研究员 Justin Drake 和 Dom 在 Bankless 播客中提到它是 EIP-1559 的「逻辑延续」。
+
+
+MEV 快速介绍
+
+
+以太坊最初的协议设计是幼稚的。它假设用户只需将交易发送给中立的区块验证者来构建区块，但实际上，在区块构建中的寻租机会导致了一个可开发市场。这种现象被称为 MEV，即「最大可提取价值」。快进到现在，总共有 56.6 万个 ETH 是通过 MEV 从普通以太坊用户中提取出来的。
+
+
+MEV 存在一些问题。
+
+
+首先，MEV 是从普通用户中提取的货币价值。其次，MEV 扭曲了区块验证者行为中立的激励机制，导致区块链不稳定。MEV 机器人进行竞争性攻击，如抢先交易、DDOS 攻击和链重组，所有这些都是为了获得大量的 MEV 赏金。或者，如果 MEV 赏金的利润超过它，信标链上的 ETH 质押者可能会选择削减其抵押品。虽然这种情况不会经常发生，但一旦发生，对以太坊来说是不利的。
+
+
+更快地执行交易带来极具盈利性的机会，套利商和投机者愿意支付巨额的 Gas 费用，以及由此产生的「竞争费用」，正是 MEV-Burn 的目标所在。
+
+
+什么是 MEV-Burn？
+
+
+MEV-Burn 只是以太坊路线图中直接解决 MEV 问题的一部分。该解决方案通过燃烧当前被 MEV 参与者提取的价值，将 MEV 返回给 ETH 持有人。这相当于将价值间接重新分配给 ETH 持有人，使资产更加稀缺，并减少区块验证者的抛售压力。
+
+
+MEV-Burn 的次要目标是通过平等化区块构建者的 MEV 利润来降低链的不稳定性。这又被称为「MEV-smoothing」。以太坊开发者希望对 MEV 利润的追求是可预测和稳定的，而不是像如今的这种情况。
+
+
+这就是棘手之处——为了知道可以销毁多少 MEV，以太坊协议首先必须找到一种能够量化 MEV 的方法，并且基于区块提议者（也称为构建者）在假设有效市场中「中立」支付的数量。我们今天不知道这些数字，因为目前存在的区块构建市场是一个不透明的链下市场。
+
+
+这就是为什么 MEV-Burn 需要首先完成另一个主要的以太坊网络升级，称为提议者-建造者分离（PBS）。PBS 将传统的验证者角色分成两个独立的角色：提案者和区块构建者。PBS 的目标是防止区块构建者能够同时选择和排序要包含在该区块中的交易。这种分工剥夺了区块构建者交易歧视的能力，这正是 MEV 的本质。
+
+
+
+
+
+完成 PBS 后，区块提案者将不再能够确定哪些交易更有价值。提案者别无选择，只能为区块构建者为他们组装的区块提交「中立」的费用出价。这个市场过程将完全存在于链上，而不是今天由 Flashbot 的第三方 MEV-Boost 软件支持的链下市场。
+
+
+只有在所有这些发生之后，MEV-Burn 之路才会开始。通过完全了解信标链上的中立区块提议者出价，以太坊协议可以执行 MEV-Burn。
+
+
+MEV-Burn 的好处
+
+
+目前，以太坊每年发行 686K ETH 作为对 ETH 验证者的奖励。请注意，此发行因验证者获得 MEV 利润的结果而变得复杂，这反过来又增加了发行。预计 MEV-Burn 将进一步减少每年排放的 400K-500K ETH 量。
+
+
+稳定的 MEV 利润也意味着让区块验证者将资本重新定向到质押，特别是在牛市中发行奖励增加时。这扩大了 ETH 的经济带宽，并为 dapp 抵押品保留了资本，例如去中心化的稳定币抵押品、借贷、其他形式的抵押等。
+
+
+与许多以太坊提案一样，MEV-Burn 将在短期内不会就绪，而是着眼于 3-5 年的时间。但如果等待的回报是最终走出 MEV 黑暗森林，那么这个等待就是值得的。
+
+
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36954"
+                        open
+                      >
+                        <summary class="article-expander__title">简析Sui生态DEX Turbos Finance Token经济学及IDO细则</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36954">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《
+
+Turbos Finance 将于 5 月 12 日开启 IDO
+
+》
+
+原文编译：
+
+Sui world
+
+
+
+由 Jump 投资，Mystenlab 战略支持的 Turbos Finance 是建立在 Sui 公链上的面向所有人的 DEX，目前已经上线 Sui Network 主网。据官方给出的消息，UTC 时间 5 月 12 日上午 10 点到 5 月 14 日上午 10 点将开启白名单轮和公开轮 IDO，下面 Sui World 将给大家介绍该项目的创新以及 IDO 规则。 
+
+
+Turbos Finance 简介 
+
+
+Turbos Finance 是第一个建立在 Sui 上的去中心化零滑点永续合约交易和现货交易平台，由 Sui（Turbos）驱动的去中心化永续交易平台，交易效率更快、手续费更低、清算风险更低。3 月 29 日，Sui 生态去中心化交易平台 TurbosFinance 宣布获得 Jump Crypto 投资。作为加密领域的顶级投资与交易机构，Jump Crypto 长期与战略合作伙伴一起支持 TurbosFinance 在 Sui 上构建非托管 DEX。
+
+
+Turbos Finance 的特色 
+
+
+Turbos 将在 sui 上建立完整的 DeFi 生态，包括三个关键组成部分：
+
+
+1）集中流动性做市商（CLMM）去中心化交易平台（DEX）
+
+
+2）Sui 生态的无许可上币 
+
+
+3）永续合约自动做市商 Turbo Finance 是目前 Sui Network 上唯一可以实现 abc 智能路由的 DEX。Turbos 的集中流动性允许用户自定义作为 LP 的价格范围，并看到对应的 APR，帮助 LP 最大化收益，并避免过高的无常损失。另外，Turbos 已经集成了 wormhole，方便用户将资产跨入 Sui Network …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36953"
+                        open
+                      >
+                        <summary class="article-expander__title">去中心化的Prover如何实现？Opside创新性提出ZKP的两步提交算法</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36953">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Opside 提出的 ZKP 两步提交算法，在实现了 prover 去中心化的同时，能很好地规避针对 prover 的抢跑攻击，并鼓励更多的矿工提供稳定、持续的 ZKP 算力。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36952"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3可组合之旅7天后黑山启程，你上车么？| Web3 Composability Odyssey@EDCON</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36952">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>与来自全世界的 Web3 建设者一起奔赴 5 月 19 日召开的以太坊社区开发大会 EDCON 2023，开启黑山 Web3 可组合性之旅</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36950"
+                        open
+                      >
+                        <summary class="article-expander__title">融资2500万美元，Polyhedra Network银河忠诚计划交互指南</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36950">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>项目融资2500万美元，参与人数还不多，收好这份操作指南</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36945"
+                        open
+                      >
+                        <summary class="article-expander__title">zkEVM领域的新兴力量：以太坊Layer2扩展技术探讨</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36945">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《比较以太坊 ZK 系 6 个 Layer 2 项目：探索 ZkEVM 的技术差异》
+原文来源：链茶馆
+
+
+以 ZK rollups 技术展开的项目不难看出最终目标都是 zkEVM，而从去年至今将是日常加密货币用户将能够首次尝试 zkEVM 的一年。
+
+
+Layer 2 扩展是目前行业最关键的问题之一，原先 L1 是由以太坊本身实现的，在以太坊区块链上运行智能合约平台，但由于以太坊的原始架构存在吞吐量限制和高昂交易手续费等问题，因此需要构建 L2 扩展解决方案来提高交易速度和降低成本。
+
+
+而基于 zkEVM 项目旨在提高以太坊的可扩展性和安全性，通过使用零知识证明、分片技术和其他技术来实现更快、更高效的交易。
+
+
+zkEVM（Zero-Knowledge Execution Environment Virtual Machine）是一种利用零知识证明实现隐私保护的以太坊虚拟机。它允许以保护智能合约条款和合约中涉及的数据隐私方式执行智能合同，其中完全是通过零知识证明所实现的。
+
+
+可以把 zkEVM 视为，在以太坊的智能合约执行过程中，部分数据可在不泄露原始数据的情况下进行处理和验证。项目若引入 zkEVM 可以有效提高智能合约的隐私性和性能，而借由 zkEVM，用户可以在保护隐私的前提下，以更快的速度执行包含秘密计算的智能合约。
+
+
+根据 Vitalik 的解读，zkEVM 可分为：
+
+
+（一）类型 1 PSE：（完全以太坊——等效）——zkEVM 不会改变以太坊系统的任何部分，并力求完全等效。
+
+
+（二）类型 2 Scroll（完全 EVM——等效）——zkEVM 看起来会完全等同以太坊，但在数据结构和状态树等方面有所不同。
+
+
+（三）类型 2.5 （EVM——等同于 gas、成本除外）——zkEVM 显著增加 GAS 成本，以满足 EVM 中非常难以 zk …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/36949"
+                        open
+                      >
+                        <summary class="article-expander__title">迪拜VARA高度认可MaskEX的初步批准，并许可其开始为在阿联酋推出做准备</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/36949">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>一个重要的里程碑</span>
                             </span>
                           </div>
                         </a>
@@ -8554,8 +8926,8 @@ Suitank 是一个真人秀系列节目，就是 Web3 初创项目方通过真人
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4935740608">
-        <time id="build-timestamp" datetime="2023-05-10T10:07:54.715Z">2023-05-10T10:07:54.715Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4936247903">
+        <time id="build-timestamp" datetime="2023-05-10T11:06:10.589Z">2023-05-10T11:06:10.589Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
