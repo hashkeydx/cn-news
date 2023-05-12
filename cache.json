@@ -2634,26 +2634,6 @@
           "wordCount": 373,
           "title": "列支敦士登计划接受使用比特币支付政府服务",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/55441ycc.html",
-          "author": "PA一线",
-          "description": "PANews 5月7日消息，Galaxy研究副总裁Christine Kim发文总结以太坊核心开发者第108次共识会议，开发者同意考虑将EIP-4788、EIP-6987纳入Deneb进行测试。EIP-4788 将启用执行层上的共识层状态证明，以通过智能合约进行无信任验证。此前PR #3175正处在格式化为EIP的过程中，将改为EIP-6987，即出于安全考虑，防止罚没（slashed）验证节点被选为区块提议者。\n开发者还讨论了在Deneb规范中引入一个额外的变量与常量，以允许执行层具有更大的弹性，以独立于共识层调整每个区块的最大blob交易数。以太坊核心开发者Tim Beiko提醒共识层客户端团队，通过EIP-4844引入的新SSZ类型应在多大程度上与即将到来的SSZ升级兼容或针对当前RLP标准进行优化，仍然不确定。Ryan表示，目前在EIP-4844中使用flat hash的SSZ类型是两头吃亏的，因为它没有为RLP格式化，但也没有利用完整的SSZ序列化的优势。开发者将在下周的ACDE电话会议上继续讨论这一问题。\n考虑到最近的MEV-Boost漏洞攻击，中继现在在通过gossip上广播前会验证区块内容。该功能需要Lighthouse与Prysm客户端的自定义分叉。Lighthouse客户端开发者Michael Sproul提出了一个标准查询参数，用于在所有共识层客户端中启用相同的功能。Prysm客户端开发者Terence Tsao表示，在某些方面引入次功能会增加对MEV-Boost的依赖性，MEV-Boost是一种用于在以太坊上赚取MEV的临时软件，应该弃用它以支持PBS。此外，信标链证明子网（attnet）的改造已于5月4日推出。开发者还在信标链API Github存储库上讨论了PR #317。",
-          "link": "https://panewslab.com/zh/articledetails/55441ycc.html",
-          "publishedOn": "2023-05-07T12:28:03.000Z",
-          "wordCount": 398,
-          "title": "以太坊核心开发者第108次共识会议：将为Deneb升级纳入与测试EIP-4788、EIP-6987",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/13x6z6g3.html",
-          "author": "PA一线",
-          "description": "PANews 5月7日消息，据Whale Alert监测显示，孙宇晨从JustLend赎回约1.2亿枚USDT，并将6000万枚USDT转入Binance，随后又将约6711万枚USDT转入JustLend。",
-          "link": "https://panewslab.com/zh/articledetails/13x6z6g3.html",
-          "publishedOn": "2023-05-07T11:47:31.000Z",
-          "wordCount": 384,
-          "title": "数据：孙宇晨从JustLend赎回约1.2亿枚USDT，并将6000万枚USDT转入币安",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
