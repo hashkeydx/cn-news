@@ -2394,36 +2394,6 @@
           "wordCount": 398,
           "title": "支付巨头Visa正与微软、Agrotoken等合作探索巴西CBDC用例",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/flglug3l.html",
-          "author": "PA一线",
-          "description": "PANews 5月9日消息，Web3反诈骗工具Scam Sniffer表示，通过分析链上数据发现一共有大概300多名受害者被这类基于Permit2的恶意签名盗取了69万美金的资产。过去两周内，这类钓鱼案例迅速增长。而从Uniswap推出Permit2到现在为止，以太坊主网上已经有669k个地址授权过Permit2。\n此前，DeBank工程师曾提醒：Uniswap用户需认真检查签名内容以防被钓鱼攻击，因Uniswap已使用Permit2。galenyuan.eth补充道：“Permit2实际上本身是没问题的，只是强大带来的副作用就是钓鱼利用，用户只要注意不要被钓鱼就好了。”",
-          "link": "https://panewslab.com/zh/articledetails/flglug3l.html",
-          "publishedOn": "2023-05-09T09:56:04.000Z",
-          "wordCount": 386,
-          "title": "安全团队：基于Uniswap Permit2的恶意签名已导致69万美金资产被盗",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/zgdjjl2n.html",
-          "author": "PA一线",
-          "description": "PANews 5月9日消息，据金十报道，根据SimilarWeb统计数据，ChatGPT上月全球访问量17.6亿次，已超越必应、DuckDuckGo等其他国际搜索引擎，并达到谷歌的2%，百度的60%。不过，ChatGPT自身的高速增涨也有了一点放缓的迹象。4月ChatGPT访问量增长12.6%，而3月增长为55.8%、2月62.5%、1月131.6%。",
-          "link": "https://panewslab.com/zh/articledetails/zgdjjl2n.html",
-          "publishedOn": "2023-05-09T09:28:19.000Z",
-          "wordCount": 371,
-          "title": "ChatGPT访问量再创新高，达到百度的60%，谷歌的2%",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/f23hc5fw.html",
-          "author": "PA一线",
-          "description": "PANews 5月9日消息，据The Block报道，币安NFT市场计划在 5 月下旬开始“支持”比特币Ordinals协议，以进一步发展其“多链生态系统”。但具体日期尚未公布。该公司在一份声明中表示，币安客户将能够买卖 Ordinals，而无需使用“单独的比特币钱包”。币安NFT目前正在积极寻求与专注于比特币Ordinals的相关NFT项目进行合作。",
-          "link": "https://panewslab.com/zh/articledetails/f23hc5fw.html",
-          "publishedOn": "2023-05-09T09:14:04.000Z",
-          "wordCount": 380,
-          "title": "币安NFT市场计划于5月下旬开始“支持”比特币Ordinals",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2780,16 +2750,6 @@
           "publishedOn": "2023-05-09T14:00:01.000Z",
           "wordCount": null,
           "title": "一文读懂EIP-4626: 代币化保险库的通用标准",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/36947",
-          "author": null,
-          "description": "从筛选到决策，授人以鱼不如授人以渔。",
-          "link": "https://www.theblockbeats.info/news/36947",
-          "publishedOn": "2023-05-09T09:39:52.000Z",
-          "wordCount": null,
-          "title": "以Sei为例，聊聊散户应该怎样分析一个项目",
           "imageUrl": null
         }
       ]
@@ -3417,26 +3377,6 @@
           "publishedOn": "2023-05-09T10:30:00.000Z",
           "wordCount": 1825,
           "title": "一览Sui生态值得关注的10个DeFi项目",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5186964",
-          "author": "深潮TechFlow",
-          "description": "原文作者：Stader Ethereum\n原文编译：深潮 TechFlow\n代币化保险库，作为一种新兴的数字资产管理方式，已经在以太坊上得到广泛应用。然而，不同协议之间缺乏统一的标准，使得它们之间的集成变得困难。幸运的是，EIP-4626 的出现将改变这一局面。本文将详细介绍 EIP-4626 的作用，以及其带来的好处。\n\n以太坊上的代币化保险库实际上并不是什么新鲜事物。\n像 Yearn 这样的协议可以让你将代币存入保险库中。在这些代币被锁定的期间，你可以获得收益。相似的例子还有 Aave 和 Compound，它们通过其借贷协议进行类似的操作。\n所有这些协议有什么共同之处呢？\n当你存入代币时，你会收到一个“保险库代币”。当你持续保持代币锁定时，这些协议会累积更多的“保险库代币”。当你决定取回代币时，你只需交换“保险库代币”即可获得原始代币和奖励。\n目前为止，一切都很好，不是吗？然而，存在一个问题：没有统一的标准。这意味着协议之间的集成几乎是不可能的，这迫使协议实现自己的适配器。\n这就是 EIP-4626 的切入点——EIP-4626 将会代币化保险库的游戏规则。\n它为以太坊设置了标准，目标是在不同的代币化保险库之间实现互操作性，EIP-4626 就是代币保险库的通用适配器。\nEIP-4626 规定了每个代币化保险库应遵循的标准接口。\n首先，每个代币化保险库默认应为 ERC-20 代币。此外，ERC-4626 添加了一系列可以在此合约上调用的方法。例如：\n“Total Assets” ：这将显示保险库管理的基础代币的总金额。\n\n“Convert To Shares”：这个可以让你知道，在交换基础代币时，将获得多少收益代币。\n\n随着越来越多的协议开始采用该标准，我们可以预期看到：\n▻ 互操作性提升：因为每个协议都使用相同的标准；\n▻ 开发时间减少：不再需要编写新的适配器；\n▻ 更安全：帮助审计知道在哪里查找漏洞。\n总之——EIP-4626 是以太坊社区的一项重要发展。它为代币化保险库提供了一套标准，使它们更加安全和可互操作性更高。",
-          "link": "https://www.odaily.news/post/5186964",
-          "publishedOn": "2023-05-09T10:00:00.000Z",
-          "wordCount": 1599,
-          "title": "一文读懂EIP-4626: 代币化保险库的通用标准",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5186963",
-          "author": "深潮TechFlow",
-          "description": "原文作者：apix\n原文编译：深潮 TechFlow\nSUI 正逐渐成为游戏开发者们的热门选择，目前已经有 40 多款游戏正在该链上开发，其中包括一些备受瞩目的项目，研究员 apix 总结其中比较流行的 9 款游戏，下面我们一起来看看：\n1. Overworld\n它是过去几周最受瞩目的游戏项目之一，拥有杰出的创始人——JeremyHorn。\n他们正在开发一个沙盒 RPG，并在今年刚完成了融资。他们的创世 NFT 白单目前的交易价格约为 1500 美元。\n\n项目推特：https://twitter.com/OverworldPlay\n2. Bushi——由 Onenet 构建\n一款用虚幻 5 构建的快节奏第三人称动作游戏，其画面让我想起了瓦洛兰特和守望先锋，而且游戏玩法看起来很有趣。\n游戏将很快通过 Elixir Game Launcher 发布。\n项目推特：https://twitter.com/playBushi\n3. Netmarble Official 与 Grand Cross: Metaworld\nNetmarble 正在开发一种“元宇宙”体验。Netmarble 是最大的移动游戏出版商之一，旗下游戏拥有数亿次下载量。\n该公司正在瞄准二次元主播等用户群体。\n\n项目推特：https://twitter.com/NetmarbleO\n4. Stella Fantasy\n该游戏在视觉表现上非常像原神。\n而这个Web3 世界的原神也将在 SUI 上发布。这是一个以动漫为主题的 MMORPG，他们不久前宣布了采用多链的计划。SUI 将是其中之一。\n项目推特：https://twitter.com/rStellaFantasy\n5. Panzerdogs\n现在处于早期阶段的坦克战斗手游：\n• 由 LuckyKat 开发；\n• 应用商店中已有数个下载量超过 1000 万的游戏；\n• 总下载量达 2 亿次；\n• 他们的创世 NFT 交易额为 50 万美元。\n项目推特：https://twitter.com/panzerdogs\n6. Project Eluüne\n它是：\n· 社交自动战斗游戏；\n· 实力雄厚的支持者；\n· 团队成员曾从事 Dota 2 和 COD 等游戏的开发。\n有点像是英雄联盟云顶之弈和 Illuvium 的混合体。\n项目推特：https://twitter.com/ProjectEluune\n7. Abyss World\n由 Metagame 开发的开放世界动作角色扮演游戏，将于 2023 年第三季度在 Epic 平台上发布。\n游戏得到了 Sui 官方的合作支持，且目前游戏放出的演示表明其质量更像web2中的 3 A 游戏。\n他们与 AMD、Epic Games 和 IGN 合作，最初是在 2020 年自筹资金。\n\n项目推特：https://twitter.com/AbyssWorldHQ\n8. Aether Games 旗下的 Cards of Ethernity\n一款以黑暗奇幻为主题的竞技纸牌游戏。Aether Games 正在计划开发多款 Web3 游戏，其中 CoE 是他们的第一个项目，已经可以在 Epic Games 上游玩。\n他们正在向多个区块链平台扩展，因此不是 $SUI 独占。\n项目推特：https://twitter.com/CoECardGame\n9. Dinosaurs vs. Aliens——由 Orange Comet 开发\n· 知名游戏《方舟：生存进化》的 Web3 版本；\n· 与像 Barry Sonnenfeld （电影导演，例如黑衣人）等人建立合作伙伴关系；\n· 团队在游戏和电影领域都有丰富的经验。\n团队推特：https://twitter.com/OrangeCometNFT\n\n为什么这些游戏开发商选择 SUI 作为他们的区块链平台？\nSUI 已经有超过 40 款游戏，它基于对象的结构使游戏内资产能够以比其他平台更快的速度动态变化。 此外，成为该链的早期采用者可以吸引到关注和支持。",
-          "link": "https://www.odaily.news/post/5186963",
-          "publishedOn": "2023-05-09T09:30:00.000Z",
-          "wordCount": 1775,
-          "title": "盘点Sui上值得关注的9款潜力游戏",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
