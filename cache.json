@@ -2610,6 +2610,26 @@
       "siteUrl": "https://www.odaily.news",
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5187057",
+          "author": "Moni",
+          "description": "本文来自 nftnow，原文作者：Langston Thomas\n\nOdaily 星球日报译者 | Moni\n\n\n在短短一年多时间里，“无聊猿” Bored Ape Yacht Club (BAYC) 已然成为所有 NFT 系列中最大的品牌之一。作为 NFT 生态系统中“最赚钱”的一个项目，在 2022 年的大部分时间里，你几乎不可能以低于六位数的价格购买 BAYC NFT。\n然而，“低买高卖”并不一定是从 NFT 生态系统中获利的唯一途径，这可能会让一些人感到意外（也可能不会），因为我们其实可以从使用 BAYC 的 IP 中获利。\n接下来，让我们来看看“无聊猿” BAYC NFT 持有者如何使用 IP 获利的一些方法。 \n饮料和食品行业里的“无聊猿”\n1、Food Fighters Universe\n当谈到 BAYC 在烹饪界的存在时，目前应该没有一个品牌规模比 Food Fighters Universe 创造的更大。Food Fighters 首先通过 Bored & Hungry 确立了其在行业中的地位——这是一家快餐店，使用四个 BAYC NFT 作为其品牌的“形象大使”。\n\n自 Bored & Hungry 推出以来，Food Fighters 还涉足了各种受 BAYC 启发的美食活动。 以 BAYC 为中心的最新和现在最著名的两个食品产品是 Dr. Bombay's Sweet Exploration（与 Snoop Dogg 合作的甜品店）和 Bored Taco（与 Web3 架构师和加密基金创始人 Champ Medici 的合资企业）。\n2、Bored Wine Co.\n\nBored Wine Co. 是一家葡萄酒公司，允许 BAYC NFT 所有者将他们的 Apes 印在六种不同类型葡萄酒的瓶子上。Bored Wine 还推出了一个代币门控门户网站，…",
+          "link": "https://www.odaily.news/post/5187057",
+          "publishedOn": "2023-05-14T03:13:11.000Z",
+          "wordCount": 2330,
+          "title": "12个例子告诉你如何利用“无聊猿”IP赚钱",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5187055",
+          "author": "区块律动BlockBeats",
+          "description": "原文标题：《Time, slots, and the ordering of events in Ethereum Proof-of-Stake》\n原文作者：Georgios Konstantopoulos, Mike Neuder\n原文编译：Kxp，BlockBeats\n引言\n4 月 2 日，恶意的 Ethereum 网络参与者利用 MEV-Boost 中继中的漏洞从一个 MEV 搜索者那里窃取了 2000 万美元（请参阅 Flashbots 的报告）。接下来几天，开发者通过发布五个补丁来解决这个漏洞。这些补丁，加上网络延迟和验证器策略，导致 Ethereum 网络在 4 月 6 日出现了短暂的波动。重组区块对网络健康会产生不利影响，因为它们减缓了区块的生产速率并降低了结算保障（settlement assurances）。\n在这篇文章中，由于搜索者受到攻击且网络暂时不稳定，我们探讨了 MEV-Boost 与共识之间的相互作用，分析了 Ethereum 的权益证明机制的微妙之处，并列举了一些可能的前进路径。\nMEV-Boost 及其重要性\nMEV-Boost 是由 Flashbots 和社区设计的一个协议，旨在减轻最大可提取价值（MEV）对 Ethereum 网络的负面影响。\nMEV-Boost 中有 3 个参与者：\n1. 中继——相互信任的拍卖者，连接出块者和区块构建者\n2. 构建者——构建区块的复杂实体，以最大化自己和出块者的 MEV\n3. 出块者——Ethereum 的权益证明验证者\n每个区块的大致事件序列是：\n1. 构建者通过从用户、搜索者或其他（私人或公共）订单流接收交易创建一个区块\n2. 构建者将该区块提交给中继\n3. 中继验证块的有效性并计算它向出块者支付的金额\n4. 中继向当前 slot 的出块者发送空白标题和支付值\n5. 出块者评估他们收到的所有出价，并…",
+          "link": "https://www.odaily.news/post/5187055",
+          "publishedOn": "2023-05-14T02:00:00.000Z",
+          "wordCount": 2156,
+          "title": "全面解读MEV-Boost工作原理及Ethereum分叉选择规则",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
           "id": "https://www.odaily.news/post/5187035",
           "author": "欧科云链OKLink",
           "description": "原文来源：欧科云链研究院\n原文作者：彭紫盈\n不可否认，传统的科技巨头在「下一代互联网」的豪赌中输得满盘皆落索，而加密货币生态圈的崛起则引领着这一时代的变革。比起相对稚嫩的 BRC 20 ，以太坊拥有着无可匹敌的优势，而 Yuga Labs 则是以太坊生态系统中最杰出的代表之一。正如其新任 CEO Daniel Alegre 说在共识大会 Consensus 2023 中说的：「我们不是一家游戏公司，而是一家内容（content）与社区（community）公司」。其前瞻性的宗教式思维在游戏、NFT 和元宇宙领域迅速崛起，成为无冕之王。\n数据不说谎。先来看看 Yuga Labs 的近期收获：\n\nYuga Labs 16 个 NFT 收藏品占整个 NFT 行业的 34.6% ，过去 2 个季度的总交易量为 20 亿美元。\n\n\n\nYuga Labs 于 2021 年首个推出的由 1 万只无聊猿组成的 NFT 系列 —— Bored Ape Yacht Club 在 NFT 行业中拥有最高的地板价（NFT 系列中市场定价最低的那个价格），价格高达为 9.6 万美元，紧随其后的是 CryptoPunks，价格为 9.2 万美元。\n\n\n\nOtherdeed for Otherside（Otherside 是汇集了各种 NFT 项目的元宇宙游戏世界；Otherdeed 是为该游戏设计的全新 NFT，是某种虚拟土地的凭证）是表现最好的元宇宙 NFT 集合，在过去两个季度的交易量为 3.22 亿美元，平均销售价格为 3112 美元。\n\n\n\n$APE（ApeCoin，又叫猿币，服务于无聊猿社区及相关社区的治理和实用代币）交易总额已突破 100 万 ETH，达 16.8 亿美元市值，使其成为领先的元宇宙游戏代币。\n\n然而这些耀眼的数据背后，始于两个并不起眼的「小」人物。\n两个「无聊」的人创造的无…",
