@@ -51,475 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-15 datetime="2023-05-15T10:30:00.000Z">2023-05-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-15 datetime="2023-05-15T10:30:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-15 datetime="2023-05-15T12:02:29.000Z">2023-05-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-15 datetime="2023-05-15T12:02:29.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187082"
-                        open
-                      >
-                        <summary class="article-expander__title">3分钟内超募200%，Sui生态社交应用Suia有何过人之处？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187082">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：雨中狂睡
-去中心化社交应用一直是Web3行业的一个重要应用方向，虽然我们一直看到Web3社交应用的出现，但也见证了它们的热度消失。Lens Protocol 拥有庞大的用户群，不过大多数用户都是出于对其空投的预期。本质来看，是因为这些社交协议没有能力与Web2好用的社交产品抗衡。
-而一款来自于 Sui 生态中的社交应用正在改变这一情况。如今 Suia 正在利用 Sui Network 所带来的成本优势、速度优势和强大组合性来落实社交应用在该方向的采用。
-
-如今 Suia 正在迎来其最关键的应用发展节点之一：代币发行。5 月 15 日，Suia 将于 Sui 生态应用 Cetus 的 LaunchPad 板块进行代币发行。
-在代币发行前，Suia 也取得了不少的优异表现：
-
-经过十个月的建设，Suia 已经拥有超过 32 万用户，与超过 100 个的 Sui 上的品牌达成了合作，日活跃用户突破 50000 ；
-
-Suia 获得了来自 Sui 基金会授予的 Sui Grants 和 Sui Builder Heros 奖励，并赢得了 Move CTF 冠军和 Sui Demo day 冠军；
-
-作为 Sui 基金会亚洲首个合作项目，Suia 已帮助 Sui 基金会链接超过 80 个来自亚太地区生态系统中的项目；
-
-Suia 与 Sui 基金会联合开发了线下 NFT 咖啡系统，并前往台北智慧城市峰会参展；
-
-如今，Suia 已经 Sui Network 主网上最受欢迎的去中心化应用程序，拥有超过 20 万次的交互量。那么，Suia 到底有什么过人之处？
-
-了解 Sui 生态社交应用 Suia
-Suia 是一个部署在 Sui Network 上的新型社交应用，他们的理念是通过产品创造一个开放、强大以及由用户驱动的新型社区。为了实现这一目标，在 Suia 的产品设计中，我们…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187078"
-                        open
-                      >
-                        <summary class="article-expander__title">初识BRC-20 Staking (3,3)：在BRC-20协议上引入收益/质押功能</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187078">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本文是0x_web3对 BRC-20 代币质押的实验协议介绍，由 Odaily星球日报十文翻译整理。
-
-在 Ordinals 中，我们已经走了很长的路程。从运行完整节点到点击几个按钮进行铭刻，这一切都让比特币铭文变得如此简单，这都归功于我们开发人员的贡献。
-随着 BRC-20 代币的发展，引入质押功能也是水到渠成的事情。那么 BRC-20 将如何进行质押呢？我已经思考了一些实现方法，并对现有基础设施进行了最小的更改，同时保持向后兼容性。
-在 BRC-20 的“deploy”方法中，我们引入了一个额外的参数称为“yield”。
-
-
-“yield”表示每个区块的代币增值。它是一个嵌套的 JSON 对象，其中“ 6000 ”表示前 6000 个区块及其收益，“ 8000 ”则表示前 8000 个区块及其收益，依此类推。例如：如果你将 1000 个$bYLD 代币存放在质押库（staking vault）中并保持质押状态持续 100 个区块，你将获得总计 1070 个代币，其中 70 个代币是作为奖励给予的。“max”表示初始铸币供应量。显然，在质押开始后，它将不断增加。
-那么如何质押 BRC-20 代币呢？
-在 BRC-20 生态系统中没有智能合约，但我们需要一种质押机制来实现它。我们引入了一个质押地址，用户可以通过进行转账调用来将代币转入该地址，并通过转账调用将它们（连同奖励）取回。
-如果要质押代币，你可以使用常规的转账功能。铭刻并发送铭文发送到质押地址（即将推出）。要解除质押代币，需要在相同地址上铭刻“取消转账”，然后发送到质押地址。
-
-这里的&#x27;txn&#x27;代表已发送到质押地址的“转账”的铭刻 ID。如果尚未解除质押，你的（代币+奖励）将会被发送回钱包。
-
-
-与现有的 BRC-20 工具兼容：
-“铸币”、“转账”和“部署”功能保持不变。在质押开始后，索引客户端需要根据质押奖励更新“余额”，并遵守质押地址的转账/取消转账规则。
-我们正在全天候工作，创建一个实时的 POC（BitStake 协议），你可以质押代币并查看更新后的余额。
-Degens 请注意，该实验也可能只是我在 Web3 中的其他数百个失败的实验之一。
-最后简单总结下：我们正在做的事情，是在 BRC-20 代币上推出质押功能；使用$bYLD 代币进行概念验证或测试；正在建设基础设施以进行代币的质押/解除质押；质押功能将很快上线。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187072"
-                        open
-                      >
-                        <summary class="article-expander__title">veDAO研究院：深度解读以太坊互操作性基础设施Omni Network</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187072">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>随着以太坊生态系统的发展，在保持其高安全性的同时，在以太坊 Layer 1 上扩展交易吞吐量和降低成本将、变得异常困难。随着时间的推移，各种提案都试图解决这个问题：支付通道、状态通道和 Plasma 等等。但这些提案中通常会以牺牲安全性来实现其目标，不过正是这些提案的出现让 Rollup 方案不断完善。
-Omni Network 旨在连通不同的 Rollup 方案，通过将以太坊再质押协议 EigenLayer 和 Cosmos SDK 融合到一个统一的平台中，聚合以太坊的模块化生态系统，使开发人员能够在以太坊上的所有 Layer 2 上构建全球应用程序，同时从 ETH 本身获得安全性。通过这种方式同时兼顾以太坊的安全性、Cosmos 的速度和可编程性，从而使开发人员可以访问更多用户，并且让用户本身可以更轻松地访问新的创新应用程序。
-Omni Network 的特点
-
-目前区块链生态系统趋向于高度分散，随着越来越多的 Layer 2   项目部署到主网，可以看到以太坊的流动性网络效应随着用户资金被隔离在孤立的环境中而不断降低。除此之外，许多 Layer 2 项目计划建立自己的 Layer 3   生态系统，这会进一步分散流动性和用户。
-Omni Network 和其他跨链协议不同的是，Omni Network 认为目前以太坊 Layer 2 赛道的 Rollup 解决方案已经解决了以太坊的可扩展性问题，但不同 Rollup 之间却无法实现交互，导致流动性被碎片化分割在不同的L2网络中，不仅是用户体验大打折扣，也使得以太坊比以往任何时候都更加分裂。
-因此 Omni Network 旨在成为“以太坊互操作性基础设施”，为 Optimism、Arbitrum、zkSync 和 Starkware 等 Rollup 网络提供互操作性，成为以太坊上所有 Rollup 网络和模块化应用的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187079"
-                        open
-                      >
-                        <summary class="article-expander__title">一周融资速递 | 29家项目获投；已披露融资总额约为1.56亿美元（5.8-5.14）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187079">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>经 Odaily星球日报不完全统计， 5 月 8 日-5 月 14 日公布的海内外区块链融资事件共 29 起，较上周数据有大幅增多，已披露融资总额约为 1.56 亿美元，较上周数据有明显上升。
-从上周已披露的融资金额来看，比较受欢迎的项目有数字支付初创公司 Nomba（3000 万美元），去中心化患者网络 Humanscape （1500 万美元）以及加密媒体公司 Blockworks  （1200 万美元）等。
-以下为具体融资事件（注： 1. 依照已公布金额大小排序；2. 不含基金募资及并购事件；3. *为部分业务涉及区块链的“传统”领域公司）：
-
-
-
-
-
-数字支付公司 Nomba 完成 3000 万美元 Pre-B 轮融资，Base 10 Partners 领投
-5 月 6 日，尼日利亚数字支付初创公司 Nomba（前身为 Kudi）宣布完成 3000 万美元 Pre-B 轮融资，Base 10 Partners 领投，Helios Digital Ventures、Shopify、Partech 和 Khosla Ventures 参投。
-Nomba 支付解决方案能够填补数字支付流程中的空白，让企业更高效地运营并提供“卓越的客户体验”，目前其月均交易额已达到约 10 亿美元。（Bitcoin.com）
-去中心化患者网络 Humanscape 完成 200 亿韩元 C 轮融资，新韩银行等参投
-5 月 12 日，基于区块链的去中心化患者网络 Humanscape 完成 200 亿韩元（约 1500 万美元）C 轮融资，新韩银行、新韩资产管理、教保证券、韩亚证券和 Mint Venture Partners 作为新投资者参投，GC Green Cross Holdings、Care Labs、UTC Investment 等现有投资者追加投资。新资金将用于该公司进行进一步扩…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187031"
-                        open
-                      >
-                        <summary class="article-expander__title">Meme币要想成为主流资产，拢共分几步？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187031">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本文来自 Decentralised，原文作者：Joel John ，由 Odaily 星球日报译者 Katie 辜编译。
-
-
-
-驱动资产价格的因素有两个——流动性和信仰。流动性指的是买家和卖家进入或离开市场时可用的资本数量。信仰激励买家或卖家采取行动，而叙事在塑造信仰方面起着重要作用。当集体信仰动摇时，人们往往急于出售资产。
-最近发生在硅谷银行挤兑事件就是集体信仰动摇的一个例子。但是，当人们对一种资产形成共识，并急于迅速交易时，会发生什么呢？是否会呈现出与银行挤兑相反的结果？
-本文研究了链上数据，了解谁在交易近期大火的 Meme 资产，产生了多少回报，以及投入大量资金购买 Meme 币是否是一个好主意，最终，我也会就 Meme 币如何更有存续性（做大做强）发表一些个人观点。
-新 Meme 币是否比“老牌”Meme 币更有价值？
-PEPE 在过去几周内上涨了 60 多倍。撰写本文时，PEPE 产生的交易量已经超过了 Solana、Avalanche、Polygon，甚至是狗狗币 Doge。一个新出现的 Meme 币是否比“老牌”Meme 币更有价值？评估这个问题答案的一种方法是检查代币持有者的行为。
-
-根据 Nansen 的数据，超过 10 万个独立钱包拥有这些 Meme 资产。超过 140 万个钱包持有像 Shiba Inu 这样的“老牌”Meme 资产。“协议”多年来一直难以达到这样的成绩。就规模来看，Aave 和 Compound 各自只有大约 30 万个独立钱包存放着其代币。这一数字较低的部分原因是许多用户可能在交易所持有这些代币。
-因此最初你会看到持有这些资产的钱包数量有所增加，因为去中心化的交易所是用户唯一可以获得这些资产的地方。下图中 5 月 5 日左右的图表趋于平缓，是因为当时币安上线了该代币。因此，交易者有可能在中心化的交易所购买这些代币，而不是通过去中心…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187076"
-                        open
-                      >
-                        <summary class="article-expander__title">数据解读跨链桥现状：LI.FI和Stargate的留存率最高</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187076">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Tide
-原文编译：Felix, PANews
-跨链桥是Web3中竞争最激烈的赛道之一，跨链桥希望吸引新用户并将其转化为老用户，但这些跨链桥项目知道如何竞争吗？本文来看看头部跨链桥的数据和见解。
-为什么跨链桥与其他Web3赛道竞争困难？
-
-跨链桥非常复杂。没有明确的公式（比如 DEX 的 AMM）。这种复杂性会使普通用户难以理解。
-
-用户需要快捷便宜的桥接服务，而安全性却难以形成卖点。
-
-网络效应不像 DeFi dApp 那样明显，并且对于普通Web3用户来说，为跨链桥提供流动性是一项复杂的操作。
-
-为了成为头部协议，跨链桥需要在以下方面做出选择:
-
-B2B合作和集成：LI.FI 是一个很好的例子，专注于集成，许多用户愿意为更好的用户体验支付额外的交易费用。
-
-B2C活动（任务、空投、社区参与）可以形成品牌差异化：Stargate 在这方面是一流的。
-
-很少有数据可以为跨链桥的发展战略提供信息。本文通过查看链上数据列出了必要的数据指标：
-
-跨链桥数量趋势
-
-用户留存趋势
-
-投资回报率
-
-客户终身价值
-
-跨链桥市场份额
-2023 年第一季度的日均交易量约为 2 亿美元。市场仍然由 Arbitrum、Optimism 和 Polygon 跨链桥主导，但是诸如 Stargate、Multichain、Synapse Protocol 和 CelerNetwork 等“品牌”跨链桥正在侵蚀老牌跨链桥份额，随着时间的推移，这种趋势可能会持续下去。
-
-
-活跃用户和留存趋势
-本文将重点关注 Across、Stargate、LI.FI、AnySwap 和 Hop。Stargate 目前在活跃用户方面领先，但是 LI.FI 和 Stargate 的留存率最高。
-
-
-跨链桥之间的迁移
-迁移率是了解有多少用户切换到其他跨链桥的更好指标。下表显示了用户在跨链桥之间的迁移。
-
-下图中斜对角…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187071"
-                        open
-                      >
-                        <summary class="article-expander__title">ETH周报 | 开发者已针对信标链停止出块故障发布补丁；Direxion、Valkyrie向美SEC提交以太坊ETF申请（5.8-5.14）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187071">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一、整体概述
-ETF 发行商 Direxion 已向美国 SEC 提交以太坊 ETF 申请。根据其分享的招股说明文件图片，该基金名为“DIREXION ETHER STRATEGY ETF”，计划在纽约证券交易所 Arca, Inc.上市交易，目前 SEC 正审核申请。
-
-此外，加密资产管理公司 Valkyrie Investments 也向美国 SEC 提交了 Valkyrie Ethereum Strategy ETF 的申请文件。该基金是 Valkyrie ETF Trust II 的一个系列，希望通过将其部分资产投资于该基金根据开曼群岛法律成立的全资子公司 Valkyrie Ethereum Strategy (Cayman) Ltd.，从而获得以太坊期货合约的敞口。Valkyrie Funds LLC 担任子公司的投资顾问。
-
-以太坊信标链社区健康顾问 superphiz.eth 发推表示，以太坊开发人员已为以太坊客户端 Teku 和 Prysm 部署了可以防止证明泛滥（attestation flooding）的修复程序，以解决最近影响以太坊信标链的最终确定性问题并恢复网络的稳定性。据悉，信标链于上周五和周六凌晨出现停止出块的故障。此外，以太坊基金会在博客中表示，最终确定性问题的全部原因仍在调查中，但“这似乎是由某些共识层客户端的高负载引起的，而这又是由异常情况引起的”。
-二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1800 美元，阻力位 1860 美元。
-
-二、二级市场
-
- 1.现货市场
-OKX 行情数据显示，上周 ETH 价格整荡下跌，一度下跌至 1737 美元，周内收于 1917 1818 美元，环比下跌 4.7% 。
-
-
-ETH 日线图，来自 OKX
-
-日线图上显示，价格目前在 1830 美元左右盘整，短期内可能继续测试 1800 美元，…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187068"
-                        open
-                      >
-                        <summary class="article-expander__title">SignalPlus宏观点评(20230515)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187068">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>各位朋友，欢迎来到 SignalPlus 宏观点评。SignalPlus 宏观点评每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
-
-周五宏观市场仍相当平静，尽管关于美联储暂停加息、区域性银行隐忧以及迫在眉睫的债务上限问题的新闻消息频频出现，S&amp;P 500 指数仍连续 7 周（自 3 月 31 日以来）收在 4125 点 ± 0.5% 范围内，这是近期缺乏波动性最长的一段时间。
-
-
-
-另一方面，上周四公布的初领失业金人数的激增现在受到质疑，因为 Massachusetts 当局报告指出初领失业金人数的上升很大一部分要归咎于虚假的失业救济申请；实际上，上周申领人数的激增有一半可以追溯到 Massachusetts，自 4 月开始，该州的失业申请明显偏离了全国趋势，在通胀预期仍然居高不下的背景下，这对于市场相信紧绷的就业市场正在降温的信心无疑是一个打击。
-数据结果出现转折导致美债收益率在熊平走势中跳升， 2 年期收益率当日上涨 10 个基点至 4% ，而 OIS 显示的 6 月加息机率回升至 13% ；股市盘中一度出现接近 -1% 的跌幅，不过最后一刻美国债务上限谈判取得进展的消息带动反弹，最终收平。
-
-
-最新的预测显示债务上限的突破可能会发生在 6 月初，白宫发言人表示官员们将在本周末进行会谈，以加快谈判进程，Yellen 部长也计划在本周与多位华尔街高管会谈，而 Biden 总统也表示，如果在他周三出发前没有达成协议，他将不会出席即将举行的 G 7 峰会；然而，考虑到过去的边缘政策历史，我们对于本周初能否达成协议抱持著怀疑的态度，随著谈判再次被迫推进到最后一刻，如果未来几天风险资产面临困境，我们也不会太意外。
-
-加密货币价格在上周结束时仍继续挣扎，meme-token 的每日交易量从前一周的 10 亿美元下降至 5 亿；随著 Bitcoin 持续受到 BRC-20/Ordinal 活动的影响，BTC 与 ETH 的关联性已降至多年来的最低水平；从技术分析角度来看，链上数据提供商的分析估计短期 BTC 持有者的成本基础约在 2.5 万美元，如果价格跌破该水平，可能会导致进一步的止损抛售。BTC 看涨期权的未平仓量仍远高于看跌期权，比例近 2: 1 ，隐含波动率水平仍然低迷，我们仍对当前价格前景保持谨慎的态度。
-
-
-
-
-
-
-如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
-SignalPlus Official Website: https://www.signalplus.com/</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187074"
-                        open
-                      >
-                        <summary class="article-expander__title">Kava EVM一周年：进展回顾与未来展望</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187074">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>自 2022 年 5 月Kava EVM 成功上线以来，越来越多的用户和优秀的开发者来到 Kava，链上数据也随之获得爆炸式增长。根据 DeFillama 数据显示，截至发文，已经有超过 110 个协议成功部署到 Kava，TVL 更是达到了 2.5 亿美元。随着 Kava 生态采用量的增长，从软件系统和节点性能的角度来看，基础设置的扩展也有了相当大的进展。同时，更多的开发者资源，使开发者在 Kava EVM 上构建和开发变得更为便捷。
-Kava 12 主网成功上线
-Kava 12 主网为 Cosmos 生态带来了全新的开源的 DAO 技术。
-Kava 13 主网即将上线
-2023 年第一季开始，越来越多的 Cosmos 和 EVM dApp 成功部署，使得 Kava 生态得以增长。随着需求的激增，Kava 对速度、安全和性能力的需求也越来越大。
-为了满足这些需求，Kava 13 主网进行了结构升级以增强性能，帮助开发者扩展和加速他们的协议，并优化整个 Kava 生态的用户体验。同时，通过并执行请求处理来显示增强 EVM 软件的交易处理，并为节点数据库的进一步精细化确立基础。
-Kava 战略库
-Kava 创建Kava Strategic Vault，为整个 Kava 生态的增长和安全保障提供资金保障。
-与 Akash 建立合作伙伴关系
-Akash 将 250 万枚 AKT 分配给 Kava Strategic Vault，与 Kava 共同推进去中心化基础设施的建设。
-Uniswap 的部分正在前进中
-Uniswap v3部分配置到 Kava EVM 网络的相关提交案例已经通过第二阶段（共三个阶段）的高温检测（Temperature Check）投票，支持率达 100% 。
-超过 110 个协议成功部到 Kava
-拥有一个繁荣的生态是每条公链成功的关键因素。Kava 将继续…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187065"
-                        open
-                      >
-                        <summary class="article-expander__title">盘点10家ETHGlobal Lisbon黑客松决赛项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187065">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>5 月 14 日，于葡萄牙举办的 ETHGlobal Lisbon 主题黑客松正式落幕。
-本届黑客松最终筛选出了 10 家决赛入围项目，涉及了 AI、社交、NFT、DeFi、零知识证明等多个领域，值得一提的是，结合了 GPT 类的项目本次独占三席之多。这些项目将共同分享由 ETHGlobal 联合 Polygon、Worldcoin、Optimism、1inch、Uniswap 等 25 家项目提供的 275000 美元奖金。接下来，Odaily 星球日报就带大家一起来了解下这 10 家入围项目。
-
-Credential Corgi
-获奖主页：https://ethglobal.com/showcase/credential-corgi-a 7 a 0 r 
-Credential Corgi 是一个基于 GPT 4 和零知识证明的凭证发行及证明工具，其可作用的场景包括：支持平台创建凭证标准，支持发行与 ZKP 兼容的凭证，第三方可与凭证持有者进行证明交互。具体来说：
-
-机构平台可以利用 Credential Corgi 发布凭证的结构标准，结合 GPT-4 的自动生成能力，无需编写具体的技术规范；
-
-发行方可在机构平台上发行与零知识证明（ZKP）兼容的凭证，并可在不泄露隐私信息的前提下将其记录在链上；
-
-第三方可使用 GPT-4 来验证凭证，也无需编写技术规范；
-
-凭证持有者可使用 ZKP 完成这些验证请求，无需透露任何其他信息。
-
-Credential Corgi 最大的特点在于可利用 GPT-4 将凭证的语言描述转换为结构化的 JSON 数据，从而简化了平台、发行者、第三方验证者的工作。
-Dookies
-获奖主页：https://ethglobal.com/showcase/dookies-0 g 13 u 
-Dookies 是一个基于 Cookie 创建的个性化、隐私…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187070"
-                        open
-                      >
-                        <summary class="article-expander__title">BRC-20等致网络拥堵，比特币开发者们怎么看？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187070">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文编辑：GaryMa 吴说区块链
-Inscription 和 BRC-20 的火热所导致的比特币网络拥堵手续费高昂这一事宜已经在比特币开发者社区中有所讨论。
-5 月 8 日，比特币核心开发者 Ali Sherief 在比特币开发邮件列表中发起讨论，表示面对这类“无价值”的交易，比特币开发者是否应该采取行动，并给出了一种可选方案，即“引入一个运行时选项来立即删除所有非标准的 Taproot 事务”。
-目前，已经有众多开发者参与到讨论当中，少数人认为得直接审查这类交易，有些人认为这就是系统运作的方式，无需干预，也有建议进行适当调整或者引流至 L2 等观点，吴说整理如下：
-Ali Sherief（讨论发起者）：“最近由于诸如 BRC-20 之类的项目占据了大量交易量，导致真正的比特币交易价格过高，从而引发了比特币交易池的大规模拥堵，这种情况自 2017 年 12 月以来很少见。这些几乎毫无价值的代币威胁到了比特币网络作为点对点数字货币的正常使用。如果未来几周交易量不降下来，是否应该采取措施？比特币网络是开发者、矿工和用户三方结构，而矿工往往是导致系统被滥用的主体，因此目前比特币交易的和谐受到了干扰。我们应该考虑采取行动，以缩小 BIP 342 中的漏洞，并通过 BIP 和比特币核心代码库的提交来实现这一目标。另一种替代方案是在节点级别实施 “审查”，并引入运行时选项以立即清除所有非标准的 Taproot 交易，这种方案更容易实现，但需要至少下一次发布才能推出。我们需要为所有人寻找一种解决方案，虽然有些人会有批评意见，但我们有责任确保这种拥堵不会再次发生。”
-链接
-Michael Folkson：“矿工在区块中包含手续费高、符合共识规则的交易。如果用户不喜欢矿工所包含的交易，有两个理论上的选择：共识规则变更或政策变更。前者需要软分叉，难以实现且效果有限；后者无需共识规则变更，但仍…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187066"
-                        open
-                      >
-                        <summary class="article-expander__title">LD Capital：万字解读比特币二层网络Stacks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187066">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者: Jaden Fan、Jinze Jiang、LD Capital Research
-矿工收益可持续性问题显现，比特币社区面临潜在的算力危机，比特币智能网络生态发展可有效提高网络使用率，解决矿工收入可持续性问题。但网络拥堵问题严重阻碍比特币网络生态发展，L2 方案重要性凸显。其中 Stacks 在 BTC 二层网络项目中生态最为繁荣， 2023 年底即将迎来重大更新。
-本文将介绍 Stacks 的机制以及其生态内两个重要 DeFi 协议：ALEX 和 Arkadiko Protocol。
-BTC 区块奖励每次减半，矿工收益也随之减半，由于 BTC 交易贡献的手续费占矿工收入比例不足 5% ，因此过去一直靠着 BTC 价格翻倍来支撑算力体系。随着 BTC 市值提升，波动率逐渐减少，减半后挖矿奖励可能会逐渐无法覆盖算力成本，所以 BTC 需要一个可持续的收入来源。随着应用的爆发，ETH 的生态应用已经解决了持续性收入的问题，而目前由于比特币网络出块时间和智能合约限制，因此无法获得可持续收入。
-比特币 NFT 协议 Ordinals 揭开了比特币生态爆发序幕，网络使用率增长，手续费飙升至 18 年初水平。截至 5 月 11 日，Ordinals BRC 20 代币种类突破 1.4 万，铭文锻造数量突破 580 万次，矿工收益也随之增长。2019 年中和 2021 年比特币网络日交易费用增长收益于整体市场高度活跃，而本次交易增长来自比特币生态创新发展，BTC 日交易费用最高达到 600+BTC。
-图：BTC 网络每日手续费总和，按 BTC 计算，来源：Blockchain.com, Trend Research
-但是 BTC 网络的容量和速度限制了相关交易活动的发展，如果 BTC 像 ETH 生态有 L2 层创造更多用例和手续费，可以大大增加网络矿工的收益，保持算力的增长…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187064"
-                        open
-                      >
-                        <summary class="article-expander__title">明星项目周报 | Worldcoin正寻求1亿美元融资；Tessera宣布将在几周内停运（5.8-5.14）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187064">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>5 月 8 日-5 月 14 日当周，比较值得关注的动态如下：OpenAI CEO 旗下 Worldcoin 正寻求融资 1 亿美元；Cosmos 生态智能合约平台 Neutron 已上线主网；Arbitrum 社区发起“将部分 DAO 收入分配给 ARB 持有者”的提案；Starknet 排序器 Madara 已发布官方文档；Lido 已正式启动V2版本升级投票；Solana Web3手机 Saga 公开发售；MakerDAO 启动借贷协议 Spark Protocol；Blur Dao 提议让社区参与决定上线 Blend 的 NFT 项目；NFT 碎片化协议 Tessera 宣布将在未来几周内结束所有业务。
-以下为具体项目进展：
-底层-Layer 1 
-OpenAI CEO 旗下 Worldcoin 正寻求融资 1 亿美元
-Odaily星球日报讯 三位知情人士透露，OpenAI 首席执行官 Sam Altman 创立的加密项目 Worldcoin 正就融资约 1 亿美元进行深入谈判，准备在未来几周内推出。
-一位知情人士表示，谈判涉及现有投资者和新投资者。该公司此前的投资者包括 Khosla Ventures 和 Andreessen Horowitz 的加密基金，以及 FTX 创始人 Sam Bankman-Fried 和互联网企业家 Reid Hoffman。
-该项目一直处于 Beta 测试阶段，现在正准备推出其区块链协议，并在未来六周内开始记录交易。
-Worldcoin 由 Sam Altman 和 Alex Blania 于 2019 年创立，计划利用眼球扫描技术创建一个全球身份识别系统，该系统可用于免费使用其全球货币 Worldcoin。据 The Information 报道，去年初 1 亿美元的代币销售使该公司的代币总供应量估值为 30 亿美元。（金融时报）…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -531,6 +67,191 @@ Worldcoin 由 Sam Altman 和 Alex Blania 于 2019 年创立，计划利�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/8950hjir.html"
+                        open
+                      >
+                        <summary class="article-expander__title">G7财长讨论加密资产监管问题，承诺将遵守FSB和IMF的建议和规范</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8950hjir.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月15日消息，据CoinDesk报道，政府间政治论坛七国集团（G7）已表示，将致力于实施金融稳定委员会（FSB）即将出台的加密资产监管规范和国际货币基金组织（IMF）关于央行数字货币的建议。G7 的财政部长和央行行长宣布，在下周 G7 峰会之前，他们已经于上周六在日本新泻举行的会议上讨论加密资产监管问题。今年峰会的东道主、日本首相岸田文雄表示，G7 领导人将联合声明支持更严格的加密规则。
+七国集团包括美国、英国、加拿大、法国、德国、意大利和日本，今年 G7 还邀请了来自欧盟、澳大利亚、印度和其他几个司法管辖区的代表。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/76opge8w.html"
+                        open
+                      >
+                        <summary class="article-expander__title">DID解决方案提供商Lifeform以3亿美元估值完成IDG Capital领投的B轮融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/76opge8w.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月15日消息，去中心化数字身份 (DID) 解决方案提供商 Lifeform 发推宣布以 3 亿美元估值完成 IDG Capital 领投的 B 轮融资。迄今为止，Lifeform的种子轮、A轮及B轮融资总额已超千万美金。IDG Capital将深度参与共建数字公民世界，为Lifeform提供更多生态合作伙伴。Lifeform将与用户一起在GameFi和元宇宙会议等不同场景中发展，创造一个令人兴奋的多元宇宙。
+2022年8月，DID解决方案提供商Lifeform完成Binance Labs领投的数百万美元种子轮融资，今年2月，Lifeform完成500万美元A轮融资，当时估值为1亿美金。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/s8o1z2aw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">加密交易平台Tbit将于2023年5月31日停止运营</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/s8o1z2aw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月15日消息，加密货币合约交易和投资平台Tbit发文宣布将于后期全面转型Web3.0方向的基础设施建设，现决定对Tbit的交易用户进行清退。Tbit交易平台将于2023年5月31日停止运营，平台将在保证全球用户资产安全的前提下完成交易业务的有序清退。用户在Tbit的资产将得到100%兑付与提现。待清退完成后将永久关闭网站服务。Tbit平台还声明，Tbit早在2021年12月24日就已经响应中国大陆地区政策完成了中国大陆市场的清退，并发布了正式的官方公告，此次清退为全网全地区清退。
+Tbit平台将于2023年5月16日下午3点关闭全网注册。将于2023年5月19日下午3点关闭全网现货交易及合约交易等交易类服务。平台将保留在线客服至2023年5月31日。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/62z8hqy9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">期权交易平台Aevo开始提供LDO、PEPE、SUI、ARB等代币相关的期权交易</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/62z8hqy9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月15日消息，据CoinDesk报道，链上结构化产品Ribbon Finance推出的期权交易平台Aevo开始提供与替代加密货币 (altcoins) 相关的期权，Aevo 用户现可以交易与 Lido 的 LDO、Pepecoin (PEPE)、Sui 的 SUI、Arbitrum 的 ARB、Litecoin (LTC)、Aptos (APT) 和其他代币相关的期权，这些代币之前只能通过场外交易平台 Ribbon Finance 进行交易。用户可以选择期权执行价格和这些期权的期限，并从加密货币做市商 Galaxy、GSR 和 OrBit Markets 获得即时报价。
+上月报道，期权交易平台Aevo主网正式上线，当时仅支持用户交易ETH期权。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/qqyv70jq.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美俄勒冈州民主党因未披露与前FTX高管有关的50万美元捐款而被罚款</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qqyv70jq.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月15日消息，美国俄勒冈州民主党官员故意就加密货币公司 FTX 的高管尼沙德·辛格 (Nishad Singh) 的 500,000 美元捐款的来源提交虚假报告，但与该党关系密切的州选举官员在没有追究刑事责任的情况下解决了此事。选举官员还同意将针对虚假报告的拟议罚款从 35,000 美元削减至 15,000 美元。据报道，这笔款项是该党（俄勒冈州民主党）有史以来最大的一笔捐款，是在去年 10 月支付的，就在FTX交易所破产前几周。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/p3r1ueh3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">CoinShares：上周数字资产投资产品净流出5380万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/p3r1ueh3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月15日消息，据CoinShares周报数据，上周数字资产投资产品净流出 5380 万美元，为连续第四周资金流出。近四周总流出量达到 2 亿美元，占管理资产总额（AuM）的 0.6%。其中上周比特币投资产品净流出 3750 万美元，占同期所有资金流出的 80%，以太坊投资产品净流入 10 万美元，做空比特币的投资产品净流出 1040 万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ydj4tiwt.html"
+                        open
+                      >
+                        <summary class="article-expander__title">安全团队：jnewby.eth被网络钓鱼，共丢失5.6万枚LINK（约37.8万美元）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ydj4tiwt.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月15日消息，Web3反诈骗工具Scam Sniffer监测显示，jnewby.eth 在三个小时前通过签署了两笔恶意交易被网络钓鱼，共丢失了 5.6 万枚 LINK（约37.8万美元）。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/dc0o890m.html"
+                        open
+                      >
+                        <summary class="article-expander__title">以色列加密初创公司CryptoHub以3000万美元估值完成600万美元融资，Tectona领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/dc0o890m.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月15日消息，据Calcalistech报道，以色列加密初创公司CryptoHub宣布以3000万美元估值完成600万美元融资，Tectona领投（本轮融资中贡献了300万美元）。CryptoHub公司由Eliran Ouzan和Shlomi Bazel于2021年11月成立，旨在成为区块链行业提供技术工具和解决方案，该公司即将推出首个项目“CoinScan”，一个实时显示加密交易信息并提供分析和研究资源的平台。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/k3sipi8g.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Snag Solutions提案改变ApeCoin NFT市场版税和费用策略以提高交易量</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/k3sipi8g.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月15日消息，据ApeCoin DAO官方论坛，ApeCoin DAO定制NFT市场开发公司Snag Solutions已在论坛上征求社区对ApeCoin官方NFT市场未来发展的意见和建议。在名为《ApeCoin Marketplace Renewal》的帖子中，Snag Solutions创始人ZheerWagen透露，因Blur和OpenSea的市场竞争，从2022年12月到2023年2月期间，ApeCoin NFT市场只出售了4只Bored Apes、10只Mutants、16只Bored Ape Kennel Club Dogs和9 个Otherside元宇宙虚拟地块Otherdeed。
+Snag Solutions希望社区可以评估是否需要改变版税和费用策略以提高交易数量，是否应该将DAO产生的资金指向ThriveCoin以资助对DAO的贡献，以及是否需要审核零费用P2P交易产品来降低欺诈风险。据悉，相关意见和建议的收集截止日期为5月17日。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1236,6 +957,23 @@ ImmutableX(IMX)将于5月20日18时解锁18,075,990.71枚代币，价值约1357�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/37004"
+                        open
+                      >
+                        <summary class="article-expander__title">回顾Binance Launchpad历史数据，分析BNB长期持有收益</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/37004">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>用数据说话，对比历史评估当前 Launchpad 的收益水平，以及对标 ETH 质押回报计算长期持有 BNB 的打新回报率</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.theblockbeats.info/news/37003"
                         open
                       >
@@ -1485,6 +1223,470 @@ https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021620.ht…</s
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>EIP6969处于非常早期的论证阶段，一旦执行通过对于开发者和矿工会产生非常大的利益影响。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187082"
+                        open
+                      >
+                        <summary class="article-expander__title">3分钟内超募200%，Sui生态社交应用Suia有何过人之处？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187082">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：雨中狂睡
+去中心化社交应用一直是Web3行业的一个重要应用方向，虽然我们一直看到Web3社交应用的出现，但也见证了它们的热度消失。Lens Protocol 拥有庞大的用户群，不过大多数用户都是出于对其空投的预期。本质来看，是因为这些社交协议没有能力与Web2好用的社交产品抗衡。
+而一款来自于 Sui 生态中的社交应用正在改变这一情况。如今 Suia 正在利用 Sui Network 所带来的成本优势、速度优势和强大组合性来落实社交应用在该方向的采用。
+
+如今 Suia 正在迎来其最关键的应用发展节点之一：代币发行。5 月 15 日，Suia 将于 Sui 生态应用 Cetus 的 LaunchPad 板块进行代币发行。
+在代币发行前，Suia 也取得了不少的优异表现：
+
+经过十个月的建设，Suia 已经拥有超过 32 万用户，与超过 100 个的 Sui 上的品牌达成了合作，日活跃用户突破 50000 ；
+
+Suia 获得了来自 Sui 基金会授予的 Sui Grants 和 Sui Builder Heros 奖励，并赢得了 Move CTF 冠军和 Sui Demo day 冠军；
+
+作为 Sui 基金会亚洲首个合作项目，Suia 已帮助 Sui 基金会链接超过 80 个来自亚太地区生态系统中的项目；
+
+Suia 与 Sui 基金会联合开发了线下 NFT 咖啡系统，并前往台北智慧城市峰会参展；
+
+如今，Suia 已经 Sui Network 主网上最受欢迎的去中心化应用程序，拥有超过 20 万次的交互量。那么，Suia 到底有什么过人之处？
+
+了解 Sui 生态社交应用 Suia
+Suia 是一个部署在 Sui Network 上的新型社交应用，他们的理念是通过产品创造一个开放、强大以及由用户驱动的新型社区。为了实现这一目标，在 Suia 的产品设计中，我们…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187078"
+                        open
+                      >
+                        <summary class="article-expander__title">初识BRC-20 Staking (3,3)：在BRC-20协议上引入收益/质押功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187078">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文是0x_web3对 BRC-20 代币质押的实验协议介绍，由 Odaily星球日报十文翻译整理。
+
+在 Ordinals 中，我们已经走了很长的路程。从运行完整节点到点击几个按钮进行铭刻，这一切都让比特币铭文变得如此简单，这都归功于我们开发人员的贡献。
+随着 BRC-20 代币的发展，引入质押功能也是水到渠成的事情。那么 BRC-20 将如何进行质押呢？我已经思考了一些实现方法，并对现有基础设施进行了最小的更改，同时保持向后兼容性。
+在 BRC-20 的“deploy”方法中，我们引入了一个额外的参数称为“yield”。
+
+
+“yield”表示每个区块的代币增值。它是一个嵌套的 JSON 对象，其中“ 6000 ”表示前 6000 个区块及其收益，“ 8000 ”则表示前 8000 个区块及其收益，依此类推。例如：如果你将 1000 个$bYLD 代币存放在质押库（staking vault）中并保持质押状态持续 100 个区块，你将获得总计 1070 个代币，其中 70 个代币是作为奖励给予的。“max”表示初始铸币供应量。显然，在质押开始后，它将不断增加。
+那么如何质押 BRC-20 代币呢？
+在 BRC-20 生态系统中没有智能合约，但我们需要一种质押机制来实现它。我们引入了一个质押地址，用户可以通过进行转账调用来将代币转入该地址，并通过转账调用将它们（连同奖励）取回。
+如果要质押代币，你可以使用常规的转账功能。铭刻并发送铭文发送到质押地址（即将推出）。要解除质押代币，需要在相同地址上铭刻“取消转账”，然后发送到质押地址。
+
+这里的&#x27;txn&#x27;代表已发送到质押地址的“转账”的铭刻 ID。如果尚未解除质押，你的（代币+奖励）将会被发送回钱包。
+
+
+与现有的 BRC-20 工具兼容：
+“铸币”、“转账”和“部署”功能保持不变。在质押开始后，索引客户端需要根据质押奖励更新“余额”，并遵守质押地址的转账/取消转账规则。
+我们正在全天候工作，创建一个实时的 POC（BitStake 协议），你可以质押代币并查看更新后的余额。
+Degens 请注意，该实验也可能只是我在 Web3 中的其他数百个失败的实验之一。
+最后简单总结下：我们正在做的事情，是在 BRC-20 代币上推出质押功能；使用$bYLD 代币进行概念验证或测试；正在建设基础设施以进行代币的质押/解除质押；质押功能将很快上线。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187072"
+                        open
+                      >
+                        <summary class="article-expander__title">veDAO研究院：深度解读以太坊互操作性基础设施Omni Network</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187072">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>随着以太坊生态系统的发展，在保持其高安全性的同时，在以太坊 Layer 1 上扩展交易吞吐量和降低成本将、变得异常困难。随着时间的推移，各种提案都试图解决这个问题：支付通道、状态通道和 Plasma 等等。但这些提案中通常会以牺牲安全性来实现其目标，不过正是这些提案的出现让 Rollup 方案不断完善。
+Omni Network 旨在连通不同的 Rollup 方案，通过将以太坊再质押协议 EigenLayer 和 Cosmos SDK 融合到一个统一的平台中，聚合以太坊的模块化生态系统，使开发人员能够在以太坊上的所有 Layer 2 上构建全球应用程序，同时从 ETH 本身获得安全性。通过这种方式同时兼顾以太坊的安全性、Cosmos 的速度和可编程性，从而使开发人员可以访问更多用户，并且让用户本身可以更轻松地访问新的创新应用程序。
+Omni Network 的特点
+
+目前区块链生态系统趋向于高度分散，随着越来越多的 Layer 2   项目部署到主网，可以看到以太坊的流动性网络效应随着用户资金被隔离在孤立的环境中而不断降低。除此之外，许多 Layer 2 项目计划建立自己的 Layer 3   生态系统，这会进一步分散流动性和用户。
+Omni Network 和其他跨链协议不同的是，Omni Network 认为目前以太坊 Layer 2 赛道的 Rollup 解决方案已经解决了以太坊的可扩展性问题，但不同 Rollup 之间却无法实现交互，导致流动性被碎片化分割在不同的L2网络中，不仅是用户体验大打折扣，也使得以太坊比以往任何时候都更加分裂。
+因此 Omni Network 旨在成为“以太坊互操作性基础设施”，为 Optimism、Arbitrum、zkSync 和 Starkware 等 Rollup 网络提供互操作性，成为以太坊上所有 Rollup 网络和模块化应用的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187079"
+                        open
+                      >
+                        <summary class="article-expander__title">一周融资速递 | 29家项目获投；已披露融资总额约为1.56亿美元（5.8-5.14）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187079">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>经 Odaily星球日报不完全统计， 5 月 8 日-5 月 14 日公布的海内外区块链融资事件共 29 起，较上周数据有大幅增多，已披露融资总额约为 1.56 亿美元，较上周数据有明显上升。
+从上周已披露的融资金额来看，比较受欢迎的项目有数字支付初创公司 Nomba（3000 万美元），去中心化患者网络 Humanscape （1500 万美元）以及加密媒体公司 Blockworks  （1200 万美元）等。
+以下为具体融资事件（注： 1. 依照已公布金额大小排序；2. 不含基金募资及并购事件；3. *为部分业务涉及区块链的“传统”领域公司）：
+
+
+
+
+
+数字支付公司 Nomba 完成 3000 万美元 Pre-B 轮融资，Base 10 Partners 领投
+5 月 6 日，尼日利亚数字支付初创公司 Nomba（前身为 Kudi）宣布完成 3000 万美元 Pre-B 轮融资，Base 10 Partners 领投，Helios Digital Ventures、Shopify、Partech 和 Khosla Ventures 参投。
+Nomba 支付解决方案能够填补数字支付流程中的空白，让企业更高效地运营并提供“卓越的客户体验”，目前其月均交易额已达到约 10 亿美元。（Bitcoin.com）
+去中心化患者网络 Humanscape 完成 200 亿韩元 C 轮融资，新韩银行等参投
+5 月 12 日，基于区块链的去中心化患者网络 Humanscape 完成 200 亿韩元（约 1500 万美元）C 轮融资，新韩银行、新韩资产管理、教保证券、韩亚证券和 Mint Venture Partners 作为新投资者参投，GC Green Cross Holdings、Care Labs、UTC Investment 等现有投资者追加投资。新资金将用于该公司进行进一步扩…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187031"
+                        open
+                      >
+                        <summary class="article-expander__title">Meme币要想成为主流资产，拢共分几步？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187031">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文来自 Decentralised，原文作者：Joel John ，由 Odaily 星球日报译者 Katie 辜编译。
+
+
+
+驱动资产价格的因素有两个——流动性和信仰。流动性指的是买家和卖家进入或离开市场时可用的资本数量。信仰激励买家或卖家采取行动，而叙事在塑造信仰方面起着重要作用。当集体信仰动摇时，人们往往急于出售资产。
+最近发生在硅谷银行挤兑事件就是集体信仰动摇的一个例子。但是，当人们对一种资产形成共识，并急于迅速交易时，会发生什么呢？是否会呈现出与银行挤兑相反的结果？
+本文研究了链上数据，了解谁在交易近期大火的 Meme 资产，产生了多少回报，以及投入大量资金购买 Meme 币是否是一个好主意，最终，我也会就 Meme 币如何更有存续性（做大做强）发表一些个人观点。
+新 Meme 币是否比“老牌”Meme 币更有价值？
+PEPE 在过去几周内上涨了 60 多倍。撰写本文时，PEPE 产生的交易量已经超过了 Solana、Avalanche、Polygon，甚至是狗狗币 Doge。一个新出现的 Meme 币是否比“老牌”Meme 币更有价值？评估这个问题答案的一种方法是检查代币持有者的行为。
+
+根据 Nansen 的数据，超过 10 万个独立钱包拥有这些 Meme 资产。超过 140 万个钱包持有像 Shiba Inu 这样的“老牌”Meme 资产。“协议”多年来一直难以达到这样的成绩。就规模来看，Aave 和 Compound 各自只有大约 30 万个独立钱包存放着其代币。这一数字较低的部分原因是许多用户可能在交易所持有这些代币。
+因此最初你会看到持有这些资产的钱包数量有所增加，因为去中心化的交易所是用户唯一可以获得这些资产的地方。下图中 5 月 5 日左右的图表趋于平缓，是因为当时币安上线了该代币。因此，交易者有可能在中心化的交易所购买这些代币，而不是通过去中心…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187076"
+                        open
+                      >
+                        <summary class="article-expander__title">数据解读跨链桥现状：LI.FI和Stargate的留存率最高</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187076">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Tide
+原文编译：Felix, PANews
+跨链桥是Web3中竞争最激烈的赛道之一，跨链桥希望吸引新用户并将其转化为老用户，但这些跨链桥项目知道如何竞争吗？本文来看看头部跨链桥的数据和见解。
+为什么跨链桥与其他Web3赛道竞争困难？
+
+跨链桥非常复杂。没有明确的公式（比如 DEX 的 AMM）。这种复杂性会使普通用户难以理解。
+
+用户需要快捷便宜的桥接服务，而安全性却难以形成卖点。
+
+网络效应不像 DeFi dApp 那样明显，并且对于普通Web3用户来说，为跨链桥提供流动性是一项复杂的操作。
+
+为了成为头部协议，跨链桥需要在以下方面做出选择:
+
+B2B合作和集成：LI.FI 是一个很好的例子，专注于集成，许多用户愿意为更好的用户体验支付额外的交易费用。
+
+B2C活动（任务、空投、社区参与）可以形成品牌差异化：Stargate 在这方面是一流的。
+
+很少有数据可以为跨链桥的发展战略提供信息。本文通过查看链上数据列出了必要的数据指标：
+
+跨链桥数量趋势
+
+用户留存趋势
+
+投资回报率
+
+客户终身价值
+
+跨链桥市场份额
+2023 年第一季度的日均交易量约为 2 亿美元。市场仍然由 Arbitrum、Optimism 和 Polygon 跨链桥主导，但是诸如 Stargate、Multichain、Synapse Protocol 和 CelerNetwork 等“品牌”跨链桥正在侵蚀老牌跨链桥份额，随着时间的推移，这种趋势可能会持续下去。
+
+
+活跃用户和留存趋势
+本文将重点关注 Across、Stargate、LI.FI、AnySwap 和 Hop。Stargate 目前在活跃用户方面领先，但是 LI.FI 和 Stargate 的留存率最高。
+
+
+跨链桥之间的迁移
+迁移率是了解有多少用户切换到其他跨链桥的更好指标。下表显示了用户在跨链桥之间的迁移。
+
+下图中斜对角…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187071"
+                        open
+                      >
+                        <summary class="article-expander__title">ETH周报 | 开发者已针对信标链停止出块故障发布补丁；Direxion、Valkyrie向美SEC提交以太坊ETF申请（5.8-5.14）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187071">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一、整体概述
+ETF 发行商 Direxion 已向美国 SEC 提交以太坊 ETF 申请。根据其分享的招股说明文件图片，该基金名为“DIREXION ETHER STRATEGY ETF”，计划在纽约证券交易所 Arca, Inc.上市交易，目前 SEC 正审核申请。
+
+此外，加密资产管理公司 Valkyrie Investments 也向美国 SEC 提交了 Valkyrie Ethereum Strategy ETF 的申请文件。该基金是 Valkyrie ETF Trust II 的一个系列，希望通过将其部分资产投资于该基金根据开曼群岛法律成立的全资子公司 Valkyrie Ethereum Strategy (Cayman) Ltd.，从而获得以太坊期货合约的敞口。Valkyrie Funds LLC 担任子公司的投资顾问。
+
+以太坊信标链社区健康顾问 superphiz.eth 发推表示，以太坊开发人员已为以太坊客户端 Teku 和 Prysm 部署了可以防止证明泛滥（attestation flooding）的修复程序，以解决最近影响以太坊信标链的最终确定性问题并恢复网络的稳定性。据悉，信标链于上周五和周六凌晨出现停止出块的故障。此外，以太坊基金会在博客中表示，最终确定性问题的全部原因仍在调查中，但“这似乎是由某些共识层客户端的高负载引起的，而这又是由异常情况引起的”。
+二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1800 美元，阻力位 1860 美元。
+
+二、二级市场
+
+ 1.现货市场
+OKX 行情数据显示，上周 ETH 价格整荡下跌，一度下跌至 1737 美元，周内收于 1917 1818 美元，环比下跌 4.7% 。
+
+
+ETH 日线图，来自 OKX
+
+日线图上显示，价格目前在 1830 美元左右盘整，短期内可能继续测试 1800 美元，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187068"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus宏观点评(20230515)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187068">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>各位朋友，欢迎来到 SignalPlus 宏观点评。SignalPlus 宏观点评每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
+
+周五宏观市场仍相当平静，尽管关于美联储暂停加息、区域性银行隐忧以及迫在眉睫的债务上限问题的新闻消息频频出现，S&amp;P 500 指数仍连续 7 周（自 3 月 31 日以来）收在 4125 点 ± 0.5% 范围内，这是近期缺乏波动性最长的一段时间。
+
+
+
+另一方面，上周四公布的初领失业金人数的激增现在受到质疑，因为 Massachusetts 当局报告指出初领失业金人数的上升很大一部分要归咎于虚假的失业救济申请；实际上，上周申领人数的激增有一半可以追溯到 Massachusetts，自 4 月开始，该州的失业申请明显偏离了全国趋势，在通胀预期仍然居高不下的背景下，这对于市场相信紧绷的就业市场正在降温的信心无疑是一个打击。
+数据结果出现转折导致美债收益率在熊平走势中跳升， 2 年期收益率当日上涨 10 个基点至 4% ，而 OIS 显示的 6 月加息机率回升至 13% ；股市盘中一度出现接近 -1% 的跌幅，不过最后一刻美国债务上限谈判取得进展的消息带动反弹，最终收平。
+
+
+最新的预测显示债务上限的突破可能会发生在 6 月初，白宫发言人表示官员们将在本周末进行会谈，以加快谈判进程，Yellen 部长也计划在本周与多位华尔街高管会谈，而 Biden 总统也表示，如果在他周三出发前没有达成协议，他将不会出席即将举行的 G 7 峰会；然而，考虑到过去的边缘政策历史，我们对于本周初能否达成协议抱持著怀疑的态度，随著谈判再次被迫推进到最后一刻，如果未来几天风险资产面临困境，我们也不会太意外。
+
+加密货币价格在上周结束时仍继续挣扎，meme-token 的每日交易量从前一周的 10 亿美元下降至 5 亿；随著 Bitcoin 持续受到 BRC-20/Ordinal 活动的影响，BTC 与 ETH 的关联性已降至多年来的最低水平；从技术分析角度来看，链上数据提供商的分析估计短期 BTC 持有者的成本基础约在 2.5 万美元，如果价格跌破该水平，可能会导致进一步的止损抛售。BTC 看涨期权的未平仓量仍远高于看跌期权，比例近 2: 1 ，隐含波动率水平仍然低迷，我们仍对当前价格前景保持谨慎的态度。
+
+
+
+
+
+
+如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website: https://www.signalplus.com/</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187074"
+                        open
+                      >
+                        <summary class="article-expander__title">Kava EVM一周年：进展回顾与未来展望</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187074">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>自 2022 年 5 月Kava EVM 成功上线以来，越来越多的用户和优秀的开发者来到 Kava，链上数据也随之获得爆炸式增长。根据 DeFillama 数据显示，截至发文，已经有超过 110 个协议成功部署到 Kava，TVL 更是达到了 2.5 亿美元。随着 Kava 生态采用量的增长，从软件系统和节点性能的角度来看，基础设置的扩展也有了相当大的进展。同时，更多的开发者资源，使开发者在 Kava EVM 上构建和开发变得更为便捷。
+Kava 12 主网成功上线
+Kava 12 主网为 Cosmos 生态带来了全新的开源的 DAO 技术。
+Kava 13 主网即将上线
+2023 年第一季开始，越来越多的 Cosmos 和 EVM dApp 成功部署，使得 Kava 生态得以增长。随着需求的激增，Kava 对速度、安全和性能力的需求也越来越大。
+为了满足这些需求，Kava 13 主网进行了结构升级以增强性能，帮助开发者扩展和加速他们的协议，并优化整个 Kava 生态的用户体验。同时，通过并执行请求处理来显示增强 EVM 软件的交易处理，并为节点数据库的进一步精细化确立基础。
+Kava 战略库
+Kava 创建Kava Strategic Vault，为整个 Kava 生态的增长和安全保障提供资金保障。
+与 Akash 建立合作伙伴关系
+Akash 将 250 万枚 AKT 分配给 Kava Strategic Vault，与 Kava 共同推进去中心化基础设施的建设。
+Uniswap 的部分正在前进中
+Uniswap v3部分配置到 Kava EVM 网络的相关提交案例已经通过第二阶段（共三个阶段）的高温检测（Temperature Check）投票，支持率达 100% 。
+超过 110 个协议成功部到 Kava
+拥有一个繁荣的生态是每条公链成功的关键因素。Kava 将继续…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187065"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点10家ETHGlobal Lisbon黑客松决赛项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187065">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>5 月 14 日，于葡萄牙举办的 ETHGlobal Lisbon 主题黑客松正式落幕。
+本届黑客松最终筛选出了 10 家决赛入围项目，涉及了 AI、社交、NFT、DeFi、零知识证明等多个领域，值得一提的是，结合了 GPT 类的项目本次独占三席之多。这些项目将共同分享由 ETHGlobal 联合 Polygon、Worldcoin、Optimism、1inch、Uniswap 等 25 家项目提供的 275000 美元奖金。接下来，Odaily 星球日报就带大家一起来了解下这 10 家入围项目。
+
+Credential Corgi
+获奖主页：https://ethglobal.com/showcase/credential-corgi-a 7 a 0 r 
+Credential Corgi 是一个基于 GPT 4 和零知识证明的凭证发行及证明工具，其可作用的场景包括：支持平台创建凭证标准，支持发行与 ZKP 兼容的凭证，第三方可与凭证持有者进行证明交互。具体来说：
+
+机构平台可以利用 Credential Corgi 发布凭证的结构标准，结合 GPT-4 的自动生成能力，无需编写具体的技术规范；
+
+发行方可在机构平台上发行与零知识证明（ZKP）兼容的凭证，并可在不泄露隐私信息的前提下将其记录在链上；
+
+第三方可使用 GPT-4 来验证凭证，也无需编写技术规范；
+
+凭证持有者可使用 ZKP 完成这些验证请求，无需透露任何其他信息。
+
+Credential Corgi 最大的特点在于可利用 GPT-4 将凭证的语言描述转换为结构化的 JSON 数据，从而简化了平台、发行者、第三方验证者的工作。
+Dookies
+获奖主页：https://ethglobal.com/showcase/dookies-0 g 13 u 
+Dookies 是一个基于 Cookie 创建的个性化、隐私…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187070"
+                        open
+                      >
+                        <summary class="article-expander__title">BRC-20等致网络拥堵，比特币开发者们怎么看？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187070">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文编辑：GaryMa 吴说区块链
+Inscription 和 BRC-20 的火热所导致的比特币网络拥堵手续费高昂这一事宜已经在比特币开发者社区中有所讨论。
+5 月 8 日，比特币核心开发者 Ali Sherief 在比特币开发邮件列表中发起讨论，表示面对这类“无价值”的交易，比特币开发者是否应该采取行动，并给出了一种可选方案，即“引入一个运行时选项来立即删除所有非标准的 Taproot 事务”。
+目前，已经有众多开发者参与到讨论当中，少数人认为得直接审查这类交易，有些人认为这就是系统运作的方式，无需干预，也有建议进行适当调整或者引流至 L2 等观点，吴说整理如下：
+Ali Sherief（讨论发起者）：“最近由于诸如 BRC-20 之类的项目占据了大量交易量，导致真正的比特币交易价格过高，从而引发了比特币交易池的大规模拥堵，这种情况自 2017 年 12 月以来很少见。这些几乎毫无价值的代币威胁到了比特币网络作为点对点数字货币的正常使用。如果未来几周交易量不降下来，是否应该采取措施？比特币网络是开发者、矿工和用户三方结构，而矿工往往是导致系统被滥用的主体，因此目前比特币交易的和谐受到了干扰。我们应该考虑采取行动，以缩小 BIP 342 中的漏洞，并通过 BIP 和比特币核心代码库的提交来实现这一目标。另一种替代方案是在节点级别实施 “审查”，并引入运行时选项以立即清除所有非标准的 Taproot 交易，这种方案更容易实现，但需要至少下一次发布才能推出。我们需要为所有人寻找一种解决方案，虽然有些人会有批评意见，但我们有责任确保这种拥堵不会再次发生。”
+链接
+Michael Folkson：“矿工在区块中包含手续费高、符合共识规则的交易。如果用户不喜欢矿工所包含的交易，有两个理论上的选择：共识规则变更或政策变更。前者需要软分叉，难以实现且效果有限；后者无需共识规则变更，但仍…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187066"
+                        open
+                      >
+                        <summary class="article-expander__title">LD Capital：万字解读比特币二层网络Stacks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187066">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者: Jaden Fan、Jinze Jiang、LD Capital Research
+矿工收益可持续性问题显现，比特币社区面临潜在的算力危机，比特币智能网络生态发展可有效提高网络使用率，解决矿工收入可持续性问题。但网络拥堵问题严重阻碍比特币网络生态发展，L2 方案重要性凸显。其中 Stacks 在 BTC 二层网络项目中生态最为繁荣， 2023 年底即将迎来重大更新。
+本文将介绍 Stacks 的机制以及其生态内两个重要 DeFi 协议：ALEX 和 Arkadiko Protocol。
+BTC 区块奖励每次减半，矿工收益也随之减半，由于 BTC 交易贡献的手续费占矿工收入比例不足 5% ，因此过去一直靠着 BTC 价格翻倍来支撑算力体系。随着 BTC 市值提升，波动率逐渐减少，减半后挖矿奖励可能会逐渐无法覆盖算力成本，所以 BTC 需要一个可持续的收入来源。随着应用的爆发，ETH 的生态应用已经解决了持续性收入的问题，而目前由于比特币网络出块时间和智能合约限制，因此无法获得可持续收入。
+比特币 NFT 协议 Ordinals 揭开了比特币生态爆发序幕，网络使用率增长，手续费飙升至 18 年初水平。截至 5 月 11 日，Ordinals BRC 20 代币种类突破 1.4 万，铭文锻造数量突破 580 万次，矿工收益也随之增长。2019 年中和 2021 年比特币网络日交易费用增长收益于整体市场高度活跃，而本次交易增长来自比特币生态创新发展，BTC 日交易费用最高达到 600+BTC。
+图：BTC 网络每日手续费总和，按 BTC 计算，来源：Blockchain.com, Trend Research
+但是 BTC 网络的容量和速度限制了相关交易活动的发展，如果 BTC 像 ETH 生态有 L2 层创造更多用例和手续费，可以大大增加网络矿工的收益，保持算力的增长…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187064"
+                        open
+                      >
+                        <summary class="article-expander__title">明星项目周报 | Worldcoin正寻求1亿美元融资；Tessera宣布将在几周内停运（5.8-5.14）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187064">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>5 月 8 日-5 月 14 日当周，比较值得关注的动态如下：OpenAI CEO 旗下 Worldcoin 正寻求融资 1 亿美元；Cosmos 生态智能合约平台 Neutron 已上线主网；Arbitrum 社区发起“将部分 DAO 收入分配给 ARB 持有者”的提案；Starknet 排序器 Madara 已发布官方文档；Lido 已正式启动V2版本升级投票；Solana Web3手机 Saga 公开发售；MakerDAO 启动借贷协议 Spark Protocol；Blur Dao 提议让社区参与决定上线 Blend 的 NFT 项目；NFT 碎片化协议 Tessera 宣布将在未来几周内结束所有业务。
+以下为具体项目进展：
+底层-Layer 1 
+OpenAI CEO 旗下 Worldcoin 正寻求融资 1 亿美元
+Odaily星球日报讯 三位知情人士透露，OpenAI 首席执行官 Sam Altman 创立的加密项目 Worldcoin 正就融资约 1 亿美元进行深入谈判，准备在未来几周内推出。
+一位知情人士表示，谈判涉及现有投资者和新投资者。该公司此前的投资者包括 Khosla Ventures 和 Andreessen Horowitz 的加密基金，以及 FTX 创始人 Sam Bankman-Fried 和互联网企业家 Reid Hoffman。
+该项目一直处于 Beta 测试阶段，现在正准备推出其区块链协议，并在未来六周内开始记录交易。
+Worldcoin 由 Sam Altman 和 Alex Blania 于 2019 年创立，计划利用眼球扫描技术创建一个全球身份识别系统，该系统可用于免费使用其全球货币 Worldcoin。据 The Information 报道，去年初 1 亿美元的代币销售使该公司的代币总供应量估值为 30 亿美元。（金融时报）…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -6843,109 +7045,6 @@ Marathonz在文件中表示：“公司于2023年4月10日收到了SEC的额外�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/p9bi9591.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Circle因避免陷入美国债务违约风险重新调整USDC储备组合</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/p9bi9591.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月11日消息，据彭博社报道，USDC稳定币发行商Circle首席执行官Jeremy Allaire在接受采访时表示，Circle调整了支持USDC的储备组合，以支持短期美国国债，从而避免陷入潜在的美国债务违约。Allaire表示，该公司不再持有6月初以后到期的美国国债。
-贝莱德管理的Circle Reserve Fund披露的信息显示，该储备基金目前所持债券最迟于5月31日到期。根据CoinGecko的数据，截至周三，USDC的市值约为300亿美元。
-据悉，美国总统拜登和国会高层周二就提高31.4万亿美元债务上限而举行的面对面会谈未能打破僵局，三周后美国就有可能被迫陷入前所未有的债务违约。不过，拜登和国会高层周五将再次会面以继续讨论，而且双方都极力强调美国不会出现债务违约。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/l16md3ur.html"
-                        open
-                      >
-                        <summary class="article-expander__title">马斯克推特分享Milady NFT动图，Milady地板价触及历史高点7.3 ETH</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/l16md3ur.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月11日消息，推特CEO马斯克在推特分享了一个Milady NFT的动图，上面写着“没有表情包，我爱你（There is no meme, I love you）”。该NFT系列立即登上NFT市场OpenSea的热门排行榜，地板价一度达到7.3 ETH(约合13700美元)的历史高点，目前回落至4.88 ETH。过去七天，该系列的地板价上涨了43%。Miladys是一款由9825张大眼睛孩子脸组成的NFT系列。
-相关阅读：老牌NFT Milady再度翻红：资金抱团炒PEPE后，反向带动地板价上涨</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/4yndz1f1.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国国税局对FTX提出价值440亿美元的索赔</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/4yndz1f1.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月11日消息，据CoinDesk报道，美国国税局(IRS)已对加密交易所FTX及其附属实体的资产提出价值近440亿美元的索赔。根据4月27日和28日的破产申请，美国国税局对FTX提出了45项索赔，针对West Realm Shires (FTX US的法人实体)、Ledger Holdings (LedgerX和LedgerPrime的母公司)和Blockfolio等实体。其中金额最大的索赔包括针对Alameda Research LLC提出的204亿美元和79亿美元的索赔，以及针对Alameda Research Holdings Inc.的两项总计95亿美元的索赔。这些申请按“行政优先权”分类提交，这可能使美国国税局的申请优先于破产案件中其他债权人的申请。破产文件详细说明了针对Alameda Research LLC的204亿美元索赔，其中包括约200亿美元的合伙税以及剩余的数百万美元的预扣所得税和工资税。FTX的破产律师表示，他们在2023年1月的听证会上确定了超过50亿美元的各种资产。FTX在最初的破产申请中表示，其总资产估计在10亿至100亿美元之间。但过去几个月随着FTX管理层找到了额外资金，这些数字已经发生了变化。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/5i9p424h.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：今年第一季度Robinhood加密交易收入同比下降30%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5i9p424h.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月11日消息，据The Block报道，Robinhood财报显示，其今年第一季度加密货币交易收入下降30%至3800万美元。去年同期该公司的交易收入为5400万美元。该公司还表示，其“托管”的加密资产同比下降42%至120亿美元。然而，Robinhood首席执行官Vlad Tenev一直对加密货币的长期前景持乐观态度。今年3月，该公司向全球iOS客户推出了一款支持Polygon和以太坊网络的数字钱包。Robinhood的安卓钱包预计将于今年晚些时候上线。去年年底，Tenev表示，在FTX倒闭后Robinhood获得了一些市场份额。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/9nuxdcbc.html"
-                        open
-                      >
-                        <summary class="article-expander__title">律师：Bittrex的美国和马耳他子公司自4月1日以来处理了4.25亿美元提款</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9nuxdcbc.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月11日消息，据CoinDesk报道，Bittrex的律师周三向特拉华州一家破产法庭表示，自该交易所宣布将于4月1日关闭美国业务以来，其美国和马耳他子公司处理了4.25亿美元的提款。该交易所周一以监管不确定性为由申请破产，此前其管理的资产在短短两年内减少了近80%。Bittrex的代表Susheel Kirpalani表示，Bittrex没有进行抵押和贷款，也没有将客户的存款置于风险之中，因此很难产生收入，特别是在监管环境开始限制交易的情况下。Kirpalani表示，美国子公司持有5000万美元的客户现金和2.5亿美元的客户加密货币，马耳他子公司拥有1.2亿美元的客户现金和加密货币，两者的资产都与负债相匹配。Bittrex于3月31日宣布，由于监管和经济环境不确定，它计划退出美国市场。4月17日，美国证券交易委员会（SEC）指控Bittrex未注册为交易所、经纪商或清算机构。法官Brendan Shannon表示将于6月7日举行下一次听证会。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7929,8 +8028,8 @@ BRC-20s 使用 JSON 数据的序数铭文来创建本质上是可替代的 NFT �
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4979608499">
-        <time id="build-timestamp" datetime="2023-05-15T11:06:09.583Z">2023-05-15T11:06:09.583Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/4980197463">
+        <time id="build-timestamp" datetime="2023-05-15T12:14:28.581Z">2023-05-15T12:14:28.581Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
