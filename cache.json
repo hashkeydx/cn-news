@@ -1854,46 +1854,6 @@
           "wordCount": 363,
           "title": "孙宇晨：个人将积极交易Meme币和有前途的项目，利润全部捐赠给慈善机构",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/bbtnkc69.html",
-          "author": "PA一线",
-          "description": "PANews 5月11日消息，做市商 Wintermute 宣布加入 Uniswap 的委托治理竞赛，将支持 Uniswap 多链扩张、去中心化和长期增长。\n此前，Gitcoin 基金会执行董事 Kyle、Uniswap 治理活跃参与者 monetsupply.eth、atiselsts_eth 等均宣布加入 Uniswap 的委托治理竞赛。Uniswap 基金会于 5 月 2 日启动 Uniswap Agora 并开启第一次委托治理竞赛，参赛者申请的截止日期为 5 月 12 日，5 月 13 日至 26 日 UNI 代币持有人可进行审查并委托治理。",
-          "link": "https://panewslab.com/zh/articledetails/bbtnkc69.html",
-          "publishedOn": "2023-05-11T10:06:12.000Z",
-          "wordCount": 507,
-          "title": "做市商Wintermute宣布加入Uniswap委托治理竞赛，参赛申请将于明日截止",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/m8752o0l.html",
-          "author": "PA一线",
-          "description": "PANews 5月11日消息，据Gate.io官方公告，Gate.io已于北京时间5月11日17:30上线Milady Meme Coin (LADYS)交易。Milady Meme Coin (LADYS)旨在向Milady NFT系列致敬。",
-          "link": "https://panewslab.com/zh/articledetails/m8752o0l.html",
-          "publishedOn": "2023-05-11T09:54:55.000Z",
-          "wordCount": 432,
-          "title": "Gate.io上线Milady Meme Coin (LADYS)交易",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/yh29yw5p.html",
-          "author": "PA一线",
-          "description": "PANews 5月11日消息，据官方推特， Sui生态上的Launchpad平台SuiPad宣布，其SUIP代币将于北京时间今日晚7点上线中心化交易所KuCoin、MEXC Global和Gate.io。\n据悉，基于Sui开发的ID0和IN0平台SuiPad日前宣布完成115.5万美元融资，NGC Ventures、GBV Capital、Cogitent Ventures、PANONY等参投。SuiPad宣称其为Sui开发商Mysten Labs的官方合作伙伴，将帮助启动基于SUI的重大项目，它的未来路线图包括质押、流动性池和NFT发行平台。",
-          "link": "https://panewslab.com/zh/articledetails/yh29yw5p.html",
-          "publishedOn": "2023-05-11T09:34:58.000Z",
-          "wordCount": 416,
-          "title": "SuiPad平台代币SUIP将于今晚7点上线KuCoin、MEXC Global和Gate.io",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/yg8ed3a7.html",
-          "author": "PA一线",
-          "description": "PANews 5月11日消息，DWF Labs管理合伙人Andrei Grachev发推文称，该机构将向gate交易所转入的6000亿枚LADYS（约10万美元），用于做市。\n今日早些时候，DWF Labs曾向Huobi转入6000亿枚LADYS，将用于做市。",
-          "link": "https://panewslab.com/zh/articledetails/yg8ed3a7.html",
-          "publishedOn": "2023-05-11T09:20:41.000Z",
-          "wordCount": 388,
-          "title": "DWF Labs将向gate交易所转入6000亿枚LADYS，用于做市",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2250,16 +2210,6 @@
           "publishedOn": "2023-05-11T11:26:39.000Z",
           "wordCount": null,
           "title": "OKX与SignalPlus达成深度合作，将为用户提供高级期权交易工具",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/36967",
-          "author": null,
-          "description": "原文来源： \n\nHaotian（Twitter：@tmel0211），区块链安全从业者\n\n\n自 Ordinals 问世以来，比特币 inscription 市场一直都很小众，但 BRC20 标准的出现改变了这一局面。当 ordi 万倍神话还在耳边传扬时，比特币 NFT 小图片市场也顺势打破了冷寂。\n本着硬核科普的态度，接下来 thread，我浅薄梳理下比特币 UTXO、Ordinals、Brc20 之间的技术逻辑关系，探究下其背后的叙事经济学。\n\n\n在看到 ERC721 标准带给以太坊的市场繁华之后，就有开发者思考能否给比特币注入 NFT 的玩法。具有唯一特性的 UTXO 数据结构就成了突破口：\n当一个地址新增一笔 BTC 时就会生成一个 UTXO，而当一个地址花费一笔 BTC 且未花完时，一个新的 UTXO 来替代原有的 UTXO，以此追踪 UTXO 就能追踪比特币地址余额等状态信息。\n\n\n而 UTXO 由一个 TX 哈希值，和一个 output 指向的从零开始递增索引号构成，类似于 ERC721 的 ID 序列号；\n且每个索引号还对应一个公钥脚本 ScriptSubKey，原本只描述可以花费该 UTXO 的条件和规则。在 Taproot 软分叉后，UTXO 可以在其输出脚本中嵌入，image、text、audio 以及 json 数据包等附加内容；  \n\n\n这些序列号和脚本数据都在比特币链上，Ordinals 检索器工具出现对其进行了解析，给出了把 NFT 搬到比特币网络的解决方案。\n提供了根据 UTXO 索引号序列号检索其对应公钥输出脚本中 Metadata 数据的功能，这就使得 UTXO 具备了承载 NFT 功能。\ninscribe 刻铭文的就是为 UTXO 上传相应的 NFT 数据，生成 NFT 的过程.\n\n\n\n\n\n\n然而，Crypto 领域神奇的创新力量总是此起彼伏，3 月初一个名为@domodata的开发者设计了一种 BRC20 铭文实验，以公钥脚本中的 json 数据包为承载体，包含 depoly、mint、transfer 等参数。因为 BTC 公钥脚本只存储数据，并不支持智能合约指令执行程序。有了 json 数据包，链下平台可记录一套账本扩展应用。\n\n\n\n\n\n打个比方：domo deploy 了 ordi 的 BRC20，并注明总供应量 2100 万，单个地址 limit1000 个，链下管账平台自 ordi 的部署序列号开始追踪此后备注为 mint 的铭文数据信息，只有接下来 21000 个包含 mint 的铭文数据包会被认为成有效铭文，遵循 fist is first 的原则。后续铭文再认定的话就超过总 supply 了，显然不行。\n\n\n这正是为啥 BRC20 需要三方平台读账、管账的原因。\n现在 transfer、mint 等功能简单，追踪起来比较快捷，但若要升级 BRC20，再添加 deploy 地址税收之类的功能就复杂了，不像以太坊可以多个合约公开调用。这非常考验平台读取、检索、管理账本的权威和公正性。\n\n\n\n\n\n\n\n\n\n\n原文链接",
-          "link": "https://www.theblockbeats.info/news/36967",
-          "publishedOn": "2023-05-11T09:15:01.000Z",
-          "wordCount": null,
-          "title": "梳理比特币UTXO、Ordinals、BRC20技术逻辑关系",
           "imageUrl": null
         }
       ]
