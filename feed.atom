@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-16T23:06:30.047Z</updated>
+    <updated>2023-05-17T00:40:49.885Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[​星球日报 | 欧盟理事会一致批准MiCA法案；Jump Trading曾通过与Terraform Labs进行秘密交易赚取10亿美元（5月17日）]]></title>
+        <id>https://www.odaily.news/post/5187121</id>
+        <link href="https://www.odaily.news/post/5187121"/>
+        <updated>2023-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[头条
+欧盟理事会一致批准加密资产市场法规（MiCA）
+欧盟（EU）财长在周二签署具有里程碑意义的新加密规则。代表 27 个成员国的欧盟理事会一致批准加密资产市场法规（MiCA），使其成为首个拥有加密许可制度的主要管辖区。它还同意在加密资金转移方面采取新的反洗钱措施。MiCA 要求钱包提供商和交易所等加密公司寻求运营许可证，并要求稳定币发行方持有适当的储备。欧盟财长们还将于周二正式同意新措施，允许税务机关共享人们持有的加密货币数据。（CoinDesk）
+
+行业要闻
+
+比特币已实现价格与 LTH 已实现价格正接近看涨交叉
+根据区块链分析公司 Glassnode 跟踪的数据，截至发稿时，比特币的已实现价格为 20129 美元，仅比 LTH（长期持有者）的 20845 美元的已实现价格低 3.5% 。自去年 11 月以来，LTH 的已实现价格一直在稳步下跌。Blockware Solution 在 5 月 12 日的每周通讯中称，“从 LTH 的已实现价格和比特币已实现价格（所有市场参与者的总成本基础）来看，它们正接近一个看涨交叉，这是之前熊市底部的准确信号。”此前的两次交叉交易分别发生在 2019 年 6 月、 2016 年 5 月和 2012 年 9 月，为多年的牛市铺平了道路。（CoinDesk）
+Tether 发布一季度储备证明，美债持有量超 530 亿美元创历史新高
+稳定币 USDT 发行方 Tether 发布一季度储备证明，USDT 发行量从 660 亿美元增长至超 820 亿美元，其中担保贷款占 Tether 储备的百分比从 8.7% 减少到 6.5% ，Tether 的美国国债持有量达到历史新高，超过 530 亿美元，占总储备的 64% 以上，国债连同现金和现金等价物类别中的其他储备（例如隔夜回购、定期回购、货币市场基金、现金和银行存款）占近 85% ，达到历史最高…]]></summary>
+        <author>
+            <name>秦晓峰</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenAI CEO：非常担心（AI技术）可能对选举产生的影响]]></title>
         <id>https://panewslab.com/zh/articledetails/kippl1sp.html</id>
@@ -4055,143 +4074,6 @@ Rollup 排序器目前的状态
         <updated>2023-05-12T12:43:56.000Z</updated>
         <summary type="html"><![CDATA[PANews 5月12日消息，韩国公司 LG 电子正在为一款能让用户交易 NFT 的电视寻求专利保护。该设备将能够与 NFT 市场服务器建立连接，接收和显示预览图，并通过连接到电视的用户加密货币钱包完成购买。LG 于去年 9 月开始了将 NFT 引入其电视的工作，发布了插入 Hedera Network 的艺术实验室市场，自 2020 年以来 LG 一直是该网络的节点运营商。
 值得一提的是，三星电子也拟于今年上半年推出可交易和展示NFT的智能电视。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文读懂治理收益聚合器Magpie：用例、优势及其玩法]]></title>
-        <id>https://www.odaily.news/post/5187044</id>
-        <link href="https://www.odaily.news/post/5187044"/>
-        <updated>2023-05-12T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[投票治理大家都很熟悉，源自 Curve 推出的 veTokenomic 模型，在该模型中，用户必须将其治理 token 按照一定期限锁定为 veToken 间，以提高其获得的 APR 并通过投票来决定协议的治理 token 的释放，有助于平台控制治理 token 通胀，并将更多治理 token 分配给长期持有者。然而 veTokenomics 模型并不是很完善，仍有改进空间，诸如以下问题：
--买入和锁定一段时间的要求阻止了很多用户的参与；
--veToken 持有者的收入不高，甚至可能为零；
--高成本的投票权——用户必须购买、锁定 token 获得投票权，但没有获得被动收入的资格。
-而随着 DeFi 的创新，致力于高质押收益又可以提高投票权的解决方案出现了，今天为大家介绍一个通过引入 veToken 机制来最大化用户收益的项目——Magpie。
-Magpie 简介
-Magpie 是通过与 Wombat 交易平台合作建立的收益聚合器和多链 DeFi 应用，该项目利用了 Curve 的 veToken 机制，通过减少供应来奖励长期持有者，同时将治理权分配给 token 持有者。
-该协议由交易平台 Wombat 支持，且 Magpie 目前管理着 Wombat 约 30% 的治理权力，帮助该协议优化其多种跨链 DeFi 服务。截止发文，Magpie 锁仓量为 1916 万美元，而 Magpie 平台涉及到两类重要 token，分别是 WOM 和 MGP，WOM 是 Wombat 交易平台的 token，而 MGP 是 Magpie 的平台 token。
-用户可以通过该平台将他们的稳定币、BNB、Liquid BNB、frxETH、ETH、WOM、mWOM 存入单边池中以获得高 APR，同时支持 Wombat 交易平台的治理投票，赚取被动收入。而 Magpie 将所有转换的 WOM …]]></summary>
-        <author>
-            <name>区块律动BlockBeats</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interlay创始人提议创建BRC-42标准，旨在将BRC-20代币桥接至以太坊等外部网络]]></title>
-        <id>https://panewslab.com/zh/articledetails/6c4auzpo.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6c4auzpo.html"/>
-        <updated>2023-05-12T12:19:01.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月12日消息，跨链互操作性项目Interlay创始人Alexei Zamyatin发推提议创建BRC-42标准（对BRC-20标准的扩展），旨在以完全去中心化的方式将BRC-20代币桥接至以太坊、Solana、Polkadot、Interlay等外部智能合约链，从而解锁BRC-20代币的DeFi用例，比如闪兑、借贷等。
-此前，Interlay Labs发布BRC-21代币标准，用于铸造和赎回去中心化的跨链BRC-20代币。
-相关阅读：比特币生态代币新标准BRC-21是什么？]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aragon宣布暂时将Aragon DAO更名为Aragon Grants DAO]]></title>
-        <id>https://panewslab.com/zh/articledetails/kx64d292.html</id>
-        <link href="https://panewslab.com/zh/articledetails/kx64d292.html"/>
-        <updated>2023-05-12T12:04:59.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月12日消息，Aragon协会发布澄清公告表示： 1. 金库目前由作为其托管人的 AA（Aragon协会）控制；2. AA 正在逐步将国库和核心基础设施转移到 Aragon DAO 以降低风险；3. 作为非营利组织，AA 有责任确保财政部实现其目标，建立去中心化的治理基础设施。此外，暂时将 Aragon DAO 更名为 Aragon Grants DAO，向 “无风险价值(RFV)攻击者”传达的信息非常明确：从协会发送到 DAO 的任何更多资金都用于建设者。
-前天报道，Aragon协会取消ANT代币持有人投票权，以应对Arca等投资者对其发起的“51%攻击”。dForce创始人指责Aragon团队通过“重新调整DAO劫持协议金库”。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MEV和隐私发展趋势：MEV技术现状与新型隐私设计]]></title>
-        <id>https://www.theblockbeats.info/news/36986</id>
-        <link href="https://www.theblockbeats.info/news/36986"/>
-        <updated>2023-05-12T12:01:48.000Z</updated>
-        <summary type="html"><![CDATA[MEV现状、技术动向与新设计]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[外媒：Do Kwon将在支付40万欧元保释金后被释放出狱]]></title>
-        <id>https://panewslab.com/zh/articledetails/3zy95551.html</id>
-        <link href="https://panewslab.com/zh/articledetails/3zy95551.html"/>
-        <updated>2023-05-12T11:51:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月12日消息，据黑山当地媒体Pobjeda报道，在法院同意支付 400,000 欧元（436,000 美元）保释金后，Terraform Labs 联合创始人 Do Kwon 将被释放出狱，等待审判。其同伙Hon Chand Jun也将以 40 万欧元的保释金获释。被告人还承诺，如果获得保释，他们将在刑事诉讼结束之前不会躲藏，他们将定期回应法庭传票，并将在辩护律师提供的地址与他们联系。据被告人称，除保释外，作为保证被告人在场和诉讼顺利进行的措施，还确定了禁止他们离开公寓的措施，法院认为该措施取代了拘留。
-控方代表反对上述提议，指出所提供的金额并不能保证被告人在场，被告人没有兴趣留在黑山境内，他还指出，没有确定监视措施的条件。不服的一方有权在三日内对该（法院）决定提出上诉。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[市场消息：津巴布韦央行发行了价值140亿津元的黄金支持数字货币]]></title>
-        <id>https://panewslab.com/zh/articledetails/h3hscj1u.html</id>
-        <link href="https://panewslab.com/zh/articledetails/h3hscj1u.html"/>
-        <updated>2023-05-12T11:34:49.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月12日消息，据金十报道，市场消息称，津巴布韦央行发行了价值140亿津元的黄金支持数字货币。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[当应用不会再有护城河，价值该被如何捕获？]]></title>
-        <id>https://www.odaily.news/post/5187040</id>
-        <link href="https://www.odaily.news/post/5187040"/>
-        <updated>2023-05-12T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《Small Applications, Growing Protocols》
-原文作者：Packy McCormick，Not Boring
-原文编译：Sleepy, BlockBeats
-我一直在思考，如今构建一个 App 已经不是什么难事，这时的我们就会面临这些问题：「价值会在哪里被捕获」、「是否应该建立护城河」、「如何建立护城河」、「如何应对种种竞争」……
-本文是我对这些问题的思考。
-小巧的应用程序，不断增长的协议
-
-短暂的手舞足蹈，小小的应用程序闪烁，然后消亡，无尽的变化在不断扩大。——ChatGPT
-如今，搭建一个有趣的应用比以往任何时候都更容易。但是想让这些应用持续运转，变成持久的公司，却比以往任何时候都更困难。
-这两个事情是相对又相融的，就像阴阳。
-
-小应用是一种极具潜力的新模式，但是目前还没有行之有效的商业模式。小应用所创造的潜在价值比他们能够捕获到的价值更多，而如果小应用和协议结合便能填补这一空白。
-创造容易维系难，这并不新鲜。自从我在 2020 年 8 月写下文章《Shopify 和那些容易做的困难事》以来，我就一直在思考这个问题：容易做的困难事指的是，如果每个人都能做某件事，那么做这件事就没有任何好处，但你还是必须做这件事，只是为了跟上时代。
-那篇文章是关于电商的，但我写到，同样的模式在各个行业的垂直领域都在上演。
-「它正在发生在自媒体领域中，Substack 为作者提供了一个简单的方法来试图让自己成为下一个本·汤普森。它发生在游戏领域中，Epic Games 正在开发工具并提供免费使用，以扩大整体潜在市场。它正在发生在人工智能领域，OpenAI 让每个人都能使用 ChatGPT，以便让人们在此基础上进行构建。」
-近几个月来，随着 GPT-3 升级为 GPT-4 ，上一段最后一句话得到了更有力的印证。而且，这不仅仅是 GPT 营销话术，事实…]]></summary>
-        <author>
-            <name>区块律动BlockBeats</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bitget Research每周要闻：Meme板块集体回调，Bitget独家发布首个BRC20 Launchpad项目BIP1]]></title>
-        <id>https://www.odaily.news/post/5187048</id>
-        <link href="https://www.odaily.news/post/5187048"/>
-        <updated>2023-05-12T11:15:59.000Z</updated>
-        <summary type="html"><![CDATA[过去一周（5 /8 - 5/12 ），市场出现了不少新的热门币种和话题。
-1.市场焦点 Market Trends
-本周( 05.08-05.12)市场最关注的焦点话题为：
-
-Milady 开始回调，BRC 20 市场延续下跌
-
-CPI 利好后大盘震荡，MEME 币 LADYS 引领新 Meme 行情
-
-BRC 20 板块热度持续，Bitget 独家发布首个 BRC 20 Launchpad 项目 BIP 1 
-
-Meme 板块集体跳水，以太坊链上新 Meme 遭到 MEV 持续攻击
-
-BRC 20 代币成市场焦点，Meme 板块热度持续
-
-2.热门项目 Popular Projects
-本周( 05.08-05.12)热度最高的项目有：
-LADYS（token）：Milady 社区发行的 meme 代币，份额 1% 空投给 Milady NFT 持有人，未被官方关注和承认，属于社区小团体自发；受 DWF 投资、马斯克转发 Milady 头像影响，代币自昨日晚开始拉升，资金进入炒作；今日 LADYS 代币第一大地址被项目方黑名单，再次刺激币价，目前代币市值达到 1.6 亿美金，较昨日低点上涨百倍， 24 小时交易量 1.5 亿美金；
-MEMEME（token）：Milady 社区发行的 meme 币，代币 4% 空投至 Milady 官方钱包，受社区创始人关注，目前由于代币名称未与 Milady 挂钩，项目整体炒作处于跟随$LADYS 的状态，市值 600 万美金， 24 小时交易量 1100 万美金；
-BEN（token）：已上线 6 天的 meme，灵感是一条小狗，官网简单，由于其头像 meme 属性高，近期在链上一度成为交易的焦点，今日价格出现 60% 以上回调，代币链上流动性 240 万美金，近 24 小时交易额 3892 万美金；
-CAPO（token）：150 …]]></summary>
-        <author>
-            <name>Bitget研究院</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase薪酬披露显示其CEO去年获得了630万美元的安保福利]]></title>
-        <id>https://panewslab.com/zh/articledetails/9y6223tt.html</id>
-        <link href="https://panewslab.com/zh/articledetails/9y6223tt.html"/>
-        <updated>2023-05-12T11:08:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月12日消息，根据美国证券交易委员会的披露， Coinbase 首席执行官Brian Armstrong去年获得了 630 万美元的安保福利，是前一年公司为其支付的安保成本的三倍多。2021 年，Armstrong的安保费用为 190 万美元。该公司上个月发布的高管薪酬摘要没有对这一涨幅做出解释。
-Armstrong在 2022 年的总薪酬为 750 万美元。他拿了 100 万美元的固定工资，剩下的是安全费用和法律费用。他在 2021 年和 2020 年领取相同的基本工资。其大部分财富来自他持有和出售的 Coinbase 股票。在公司于 2021 年上市后的几周内，他从股票销售中赚取了 2.92 亿美元。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
