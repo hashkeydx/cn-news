@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-17T06:09:23.759Z</updated>
+    <updated>2023-05-17T07:06:53.434Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[veDAO研究院：Taro协议是否能缓解比特币链的拥堵且享受低Gas费？]]></title>
+        <id>https://www.odaily.news/post/5187095</id>
+        <link href="https://www.odaily.news/post/5187095"/>
+        <updated>2023-05-17T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[最近一段时间，由于 ORDI 代币的财富效应和 BRC-20 的热潮，导致比特币链上出现拥堵严重 Gas 费激增的情况。因此社区的目光都集中在了，对专注于降低比特币交易费用的闪电网络上，希望于此有关的相关协议可以尽快解决比特币当前的困境。
+Taro 是一种能够给比特币区块链带来资产、开启新场景的协议。它被认为是可扩展的，有潜力让比特币成为一个能够容纳多种资产的网络，并且在这个网络上，用户可以使用比特币的可靠性、享受低手续费的即时全球终极结算。那么 Taro 到底是什么？它怎么工作？它是否解决比特币当前的困境呢？
+Taro 协议是什么？
+
+Taro 是由 Lightning Labs 开发的一种新的 Taproot 支持的协议，它允许用户在比特币区块链上创建资产，然后通过闪电网络发送，以最小的成本进行快速，大量的交易。它既可以用来发行同质化的资产（比如稳定币），也可以发行非同质化的、独一无二的代币（比如 NFT，或者说收藏品）。
+Taro 的核心是利用比特币网络的安全性和稳定性加上 Lightning 的速度、可扩展性和较低的成本。它旨在改变数字资产大多在放在其它区块链上的情况。
+技术上，为了能够快速、有效地进行，私人检索和修改的信息或交易数据，并证明合法的保护/非通货膨胀。Taro 依赖于比特币的最新升级 Taproot 来构建新的树结构(Merkle Trees)，允许开发人员在现有输出中嵌入任意资产元数据。
+Merkle Trees 准确来说是 “默克尔总和树（Merkle Sum tree）” 和 “稀疏默克尔树（Sparse Merkle tree）” 的结合，它是一种可以存储大量数据、同时很容易证明某个数据存在于某棵树上，更快地验证资产的总数量没有变化并且依然放在跟以前相同的位置的数据结构。它拥有以下属性：
+
+可以容纳大量的资产。
+
+让用户可以证明某一项资产存储在…]]></summary>
+        <author>
+            <name>veDAO研究院</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NEAR选择Wormhole作为官方跨链桥，并将共同开发ZK轻客户端]]></title>
         <id>https://panewslab.com/zh/articledetails/f36ou336.html</id>
@@ -30,6 +51,32 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Messari：从财富效应到有机增长，揭示优质项目的成功之道]]></title>
+        <id>https://www.odaily.news/post/5187126</id>
+        <link href="https://www.odaily.news/post/5187126"/>
+        <updated>2023-05-17T05:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Messari - Ally Zach
+原文编译：BlockTurbo
+关键洞察
+
+在加密领域中，“财富效应”是指一个生态系统的受欢迎程度受与新代币推出相关的模因驱动现象；
+
+根据Solana原生生态系统代币市值和用户活动之间的历史相关性，Solana 的用户基数在原生项目推出代币后有可能增长 30-80% ；
+
+虽然通过代币推出的激励可以推动初始增长，但需要有更好的战略规划以确保项目能够长期留住用户。
+
+“财富效应”是指用户增长是由于新生态系统推出代币所创造的财富诱惑所驱动的现象。当生态系统中新的原生协议推出其代币时，它们引入了相应的市值。随后，这些市值通过空投或其他分发方式流入去中心化交易所的总锁定价值（TVL）和用户钱包。随着以美元计价的 TVL 激增和用户获得更多“财富”，基础生态系统的估值也会上升。基础层代币价格的增长吸引了外部用户，从而推动了生态系统代币的实用和交易，在财富效应下，最后以模因方式推动用户采用率的增加。
+用户活动和原生代币表现之间的历史关系有助于确定哪些生态系统和应用程序成功地创造了持久价值。例如，从历史上看，财富创造与用户采用具有很强相关性的生态系统表明用户群更加唯利是图或以利润为动机；而较弱的相关性则表明用户被吸引到一些原生应用而不是纯粹的财富激励。
+本报告预测了代币推出对生态系统的涟漪效应，并提供了一个框架来预测在新代币推出后一个生态系统的潜在用户增长。
+历史基准
+为了研究网络的日活跃地址和市值之间的关联，我们收集了Avalanche、Polygon和Arbitrum这三个已建立的生态系统的历史数据，包括原生代币和相关原生项目的市值。利用时间滞后交叉相关分析，我们分析了市值和用户活动之间的关系，并考虑了变量之间可能存在的时间延迟相关性。
+Avalanche
+总体而言，Avalanche 上的用户活动与生态系统的市值同步变化。这种关系…]]></summary>
+        <author>
+            <name>区块引擎BlockTurbo</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Anchorage Digital为托管客户开放快照投票]]></title>
         <id>https://panewslab.com/zh/articledetails/flk4ki5c.html</id>
         <link href="https://panewslab.com/zh/articledetails/flk4ki5c.html"/>
@@ -37,6 +84,28 @@
         <summary type="html"><![CDATA[PANews 5月17日消息，加密托管公司Anchorage Digital在推特上宣布，客户现在可以使用他们的Anchorage Digital地址参与快照投票。通过其WalletConnect集成可实现：1.在合格的托管内投票，没有资金流动；2.为机构客户提供安全的链下治理；3.代币持有者就可通过Anchorage Digital进行托管。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SignalPlus宏观点评(20230517)]]></title>
+        <id>https://www.odaily.news/post/5187130</id>
+        <link href="https://www.odaily.news/post/5187130"/>
+        <updated>2023-05-17T04:59:10.000Z</updated>
+        <summary type="html"><![CDATA[各位朋友，欢迎来到 SignalPlus 宏观点评。SignalPlus 宏观点评每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
+
+美国零售销售数据表现相对强劲，整体环比增长 0.4% ，此前 2 月和 3 月均有 0.7% 的降幅；核心零售销售（除汽车和汽油）环比上涨 0.6% ，高于预期的 0.2% ，控制组也反弹至 0.7% ，高于预期的 0.4% ；名目零售销售的增长主要是来自价格上涨而非数量增加，显示消费力度在面对更高的通胀时仍能保持韧性，但这也增加了 4 月 PCE 数据走强的可能性（5 月 26 公布）。
+NAHB 房产市场指数也攀升至 10 个月高点，显示美国住宅房地产市场情绪持续大幅反弹，强劲的需求加上住房低库存正在推动住房新建，有助于提高房地产建筑商的信心，早期迹象也显示租金开始上涨；今天将有营建许可数据发布，在住宅房地产市场大幅反弹的背景下，预期该数据环比增长有机会超过 6% 。
+一连串美联储官员的发言则几乎没有提供什么新的信息，发言中鹰派和鸽派的评论皆有，进一步支持“美联储将依赖数据”的方向；Mester 表示美联储还没有达到可以“维持”利率的地步，Barkin 表示他正关注经济数据并将“稍后决定” 6 月 FOMC 的决策，Goolsbee 表示 5 月加息是“千钧一发”，美联储必须在下一次利率决策中考虑到金融紧缩的因素，最后，纽约联储的 Williams 表示，通胀正朝著正确的方向发展，但仍然过高。
+
+经济数据走强，Pfizer 大规模发行 310 亿美元债券，加上 FDIC 出售 120 亿美元的 MBS（作为 SVB 平仓的一部分），使得美债收益率曲线整体上移了约 5 个基点；Pfizer 的新债发行是自 2021 年以来首次，并成为美国史上第四大规模的企业债交易，即使在当前收益率水平下，投资者仍继续涌向固定收益，因此仍成功吸引了超过 850 亿美元的订单。由于美国债务上限僵局可能会导致借贷成本飙升，预计债券发行人将在未来几周继续提前完成发行需求，在短期内给予美债收益率一些底部支持。
+
+在股市方面，市场继续陷入停滞，S&P 500 指数已经连续 30 多个交易日都保持在 4130 点附近，SPX 实际波动率的暴跌使得风险控制和系统性策略能够继续重度投资股票，否则大多数的宏观交易者还是还是会倾向看跌；此外，虽然有经济衰退迫在眉睫的呼声，但这次财报季的结果明显好于预期，企业利润率得以改善，也有助于股市；最后，在板块选择上，投资者继续从以全球增长为导向的股票、利率敏感型类股以及能源股转向科技巨头。
+
+关于大家近期最喜欢的债务上限肥皂剧，Biden 总统宣布缩短行程，将于周日、日本举行的 G 7 会议后不久就返回美国；国会高层领导人间的 1 小时会议仍未能取得任何有意义的进展，议长 McCarthy 指出，双方仍然“分歧很大”，但每个人都同意“不违约”；此外，据称 Yellen 部长将于周四与华尔街高管会面，讨论违约的后果，不过宏观市场仍未认真对待违约的可能性，至少目前还是如此。
+如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website: https://www.signalplus.com/]]></summary>
+        <author>
+            <name>SignalPlus</name>
         </author>
     </entry>
     <entry>
