@@ -51,11 +51,481 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-19 datetime="2023-05-19T08:42:31.000Z">2023-05-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-19 datetime="2023-05-19T08:42:31.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-19 datetime="2023-05-19T09:20:43.000Z">2023-05-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-19 datetime="2023-05-19T09:20:43.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187196"
+                        open
+                      >
+                        <summary class="article-expander__title">Filecoin和IPFS检索用户端Lassie正式上线</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187196">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来源：Filecoin Network
+
+
+
+我们很高兴在此分享，您现在可以使用一个叫做“Lassie”的简单检索用户端从Filecoin和IPFS检索数据。Lassie 能够让您轻松地从 Filecoin 和 IPFS 网络中获取数据——它将通过现有的最佳检索协议寻找和获取内容。由于 IPFS 生态系统中数据传输协议的多样性，Lassie 目前能够同时使用 Graphsync 或 Bitswap 协议，这主要取决于所请求的数据如何被获取。在未来，Lassie 可能能够支持更多的数据传输协议。
+对于终端用户和用户端来说，这意味着可以使用 Lassie 用户端轻松地从 Filecoin 或 IPFS 检索内容寻址数据(使用 CIDs)，而无需运行自己的 IPFS 节点或 Filecoin 节点。只需下载 Lassie 二进制文件，然后用简单的指令开始检索数据。
+&#x60;&#x60;&#x60;javascript
+lassie fetch 
+&#x60;&#x60;&#x60;
+Lassie 以内容寻址存档（CAR）的形式获取内容，因此在大多数情况下，需要额外的工具来处理 CAR 文件。除了直接使用 Lassie 来检索终端用户的内容外，应用程序开发人员还可以利用 Lassie 作为库，直接通过应用程序内部从 Filecoin 和 IPFS 中获取内容。目前，Saturn 网络（Filecoin 检索市场中的Web3 CDN）正在使用 Lassie 作为库，从 Filecoin 和 IPFS 中检索数据。
+如下视频概述了 Lassie 如何产生，并深入探讨了 Lassie 在分布式网关中的应用。
+
+（地址：https://youtu.be/d5 SzSm 8 NkUU）
+通过如下资源了解更多关于 Lassie 的信息：
+
+Github
+
+概述：基本检索
+
+技术文件
+
+提问：#retrieval-help in Filecoin slack
+
+在此特别鸣谢所有为构建此优先检索用户端做出贡献的小伙伴(w3rc、filclient）。
+
+
+我们鼓励社区进行尝试，并与希望从 Filecoin 或 IPFS 检索内容的小伙伴们分享，期待您的反馈。您可以通过 Github 以及 Filecoin slack 的#retrieval-help 联系我们。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187189"
+                        open
+                      >
+                        <summary class="article-expander__title">交互全指南：ConsenSys旗下Linea「大航海计划」之NFT专场</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187189">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Linea 是一个新的 zk-rollup 网络，由 ConsenSys 公司研发设计并负责运营，与以太坊虚拟机（EVM）完整兼容。其目标是成为“字节码兼容级别”的 zkEVM，使开发人员可以更轻松地在 Layer 2 上构建和维护应用程序。去年 12 月，Linea 推出私人测试网并运行三个月，总交易量达 150 万笔。
+
+今年 5 月 2 日，Linea 联合 Galxe 正式启动忠诚度计划“Linea Voyage&quot;以鼓励早期用户使用公共测试网，活动为期 9 周，用户可以探索 Linea 生态系统，参与每周挑战并收集积分以领取专属 Linea NFT。
+NFT 有什么用？Linea Voyage 最终目的是通过测试网活动为今年晚些时候主网上线做准备，为此官方共准备了四个「版本」的 NFT 作为激励，每个版本对应本次 Voyage 积累的分数阈值。此外，Linea 测试网如果在 Voyage 结束前超过 3000 万笔交易，官方还将额外为所有参与者提供一个纪念版 NFT——纪念版 NFT 并不意味着将来会有 Linea 代币（Odaily星球日报注：换言之，前四个版本的 NFT 大概率有代币空投）。
+目前，活动已经进行两周，第一周是跨链（总分 116 分），第二周是社区活动（15 分，即便错过也无妨）。第三周活动主题为 NFT（5 月 16 日至 5 月 21 日），总分 109 分，共计 20 项目小任务。本周任务的合作伙伴是 ghostNFT、NFTs 2 me、Zonic 和 Bilinear，任务链接：https://galxe.com/Linea/campaign/GCEMnUEySZ
+在开始交互前，请确保你在 MetaMask 钱包中添加了 Lieaa 测试网（点击查询网络信息）以及获得测试币 Goerli ETH：
+1 ）直接领取 Linea 链上 0.5…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187190"
+                        open
+                      >
+                        <summary class="article-expander__title">全览DePIN赛道：是破坏式创新还是「空中楼阁」？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187190">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Jason，Puzzle Ventures
+引言
+DePIN 是 Decentralized Physical Infrastructure Networks 的简称，顾名思义也就是「去中心化的网络硬件基础设施」。实际上这种去中心化的硬件设施在很早以前就有模糊的概念的实际的应用，例如比特币矿机实际上就是一种去中心化的硬件网络，而 web2 世界的电网管理系统也涵盖一定的去中心化硬件设施理念。
+为了准确定义这篇文章中 DePIN 的概念，我们采用 Messari（https://messari.io/report/the-depin-sector-map）对于 DePIN 的解释：一种采用区块链技术，通过代币激励的方式，以无需许可、无需信任和可编程的形式来协调多个个体单位的物理硬件设施。DePIN 也可以被描述成 Proof of Physical Network (PoPW) 或 Token Incentivized Physical Infrastructure Networks (TIPIN)。用简单的话来说，就是由代币激励来进行管理的无数个单体硬件所组成的一个网络，而这个网络可用来服务于某些具体的项目。
+从广义上来看，DePIN 涵盖的范围实际上非常广。PoW 矿机就是维持区块链网络运营的硬件设施，但是随着传统 PoW 的模式逐渐被淘汰，矿机并不在本文的讨论范围之内，本文将更专注于在区块链网络之上提供具体服务的硬件网络，而不是区块链网络本身。从另一个角度来看，整个 web3 世界都是构架在 DePIN 网络之上的，因为每一个节点的运营都是基于个体单位租用各自的服务器来实现的。在厘清了这两个逻辑之后，我们可以更加专注于本文的研究方向：非区块链网络本身所涵盖的，提供额外 toB 或 toC 的服务的，但是用区块链网络来管理和协调的，硬件设施所形成的网络。
+
+图 …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187184"
+                        open
+                      >
+                        <summary class="article-expander__title">玩转比特币域名你必须知道的十件事</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187184">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：0x BeyondLee
+目录
+
+一、既然遵循 first is first 原则，为何域名仍有大量重复？
+
+二、高度“去中心化”的BTC生态域名为何极度依赖“中心化”平台？
+
+三、平台索引之困：inscribe 和 mint 的区别
+
+四、主流平台的域名查重误差对比
+
+五、是困难也是机会
+
+六、关于域名的“大小写”与“繁简体”
+
+七、域名费用相关问题
+
+八、出现 bug 或解决不了的问题怎么办？
+
+九、打域名有什么用？
+
+十、未来预期如何？
+
+一、既然遵循 first is first 原则，为何域名仍有大量重复？
+主要原因有二：
+1、早期全节点用户自行铸造不方便查重。
+2、基础设施不完善，平台查重准确度仍待提高，目前查重功能做的最好的是铸造交易平台 @unisat 的 http://unisat.io 和集合平台 @bestinslotxyz 的 http://bestinslot.xyz。
+
+二、高度“去中心化”的 BTC 生态域名为何极度依赖“中心化”平台？
+的确相较于其他的域名服务系统（ENS、SpaceID 等），BTC 生态域名尤其是.sat 域名呈现更高的去中心化，具有全过程上链、独立完成、一经铸造永久保存等优点。
+但是截止到目前为止 BTC 链上资产的铸造和读取仍高度依赖于中心化平台的算法。
+如果将 BTC 链比作是运行中的“纸带”，那中心化平台就相当于是“打点计时器”，中心化平台只是相当于一个工具，这并不影响 BTC 生态域名的优良特性。
+
+三、平台索引之困：inscribe 和 mint 的区别
+想厘清各平台在查重上的困境，首先要明白 inscribe 和 mint 的区别。
+由于 brc 20 （以及 inscription）和 erc 20 （以及 eth nft）名称的类似，不少人误以为 brc 20 就是在 btc 链上的 erc 2…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187180"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus：梦回8月，尽情狂欢特别版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187180">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>各位朋友，欢迎来到 SignalPlus 宏观点评。SignalPlus 宏观点评每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
+
+
+强劲的美国经济数据（初领失业金人数 -2.2 万，费城联储制造业指数 + 20.9 ）、美联储的鹰派言论以及对美国债务上限情况缓解的乐观前景共同帮助美国资产重回主导地位，在全球范围内引发新一波风险情绪升温。快速回顾昨天的热点：
+
+美国房屋建商指数（+ 23% ）达到 52 周高点，德国 DAX 指数、Nasdaq 100 指数、日本 Nikkei 指数均上涨 16% ，S&amp;P 500 指数紧随其后（+ 8% ）。
+
+尽管不断有声音称美元消亡，但贸易加权的美元汇率在技术面出现向上突破。
+
+由于美联储的鹰派言论和即将达成的债务上限协议，美债收益率突破 3 月份的低点区间走高。
+
+市场定价 6 月 FOMC 加息 25 个基点的可能性现在来到 35% 。
+
+市值加权的 S&amp;P 500 指数今年的表现明显优于等权重的版本，超额报酬 8% ，这要归功于市场对大型 AI 相关股票的无限兴趣（AI 霸主 Nvidia 今年上涨了 100% ）。
+
+虽然中国股票表现疲软，且 USDCNH 突破 7.00 水平，不过美国股市的表现仍相当出色。
+
+
+申请失业救济人数恢复稳定（移除了之前的虚假数据后），债务上限问题显著缓解，加上美国股市强势回升至去年 8 月 Jackson Hole 时期的高点（J-Pow 的巅峰时期），这些因素都提高了 6 月 SEP（美联储经济预测）全面升级的可能性，市场对 6 月 FOMC 加息的预期也同步上调（~ 33% ）。一连串鹰派的美联储言论重新浮出水面以管理市场预期，Dallas 联储的 Logan 表示“目前的数据还不足以支持暂停加息”，Jefferson 宣称通胀“过高”，不过高利率的影响尚未完全显现，Bullard 则重申他对更高利率的支持。核心 CPI 仍保持在 5% 左右，就业市场以历史标准来看仍相当火热，而房地产市场则因低库存而大幅反弹，现在所有的目光都集中在主席今天将发表的谈话上（CDT 上午 10 点），看他是否会重新引导他的“内在鹰派灵魂”，来抑制当前过度繁荣的美国股市。
+
+由于股市继续上涨，原先偏好持有固定收益并在股票上保持轻仓的对冲基金和专业经理人在过去几个交易日中纷纷增加 SPX 的看涨期权敞口，凶猛的市场反弹已经迅速突破了最大看涨期权敞口所在的价格区域（SPX 约 4185 点），0 DTE 期权玩家自 4 月以来已经转向净 short gamma，这在上涨过程中进一步增加反弹动力。投行研究估计市场 gamma 将在当前指数水平回到正值，今天还会有相当规模的期权到期，这应该会使本周市场的收盘更加精彩。
+
+与过去几周的情况一样，加密货币参与者显然没有收到派对通知，完全错过了 TradFi 资产的最新一波反弹。另外，DefiLlama 一个图显示了 Bitcoin 价格与风险投资基金的融资水平间的有趣关系，这基本上表明加密货币仍需要主流市场的持续参与和外部资本注入以维持其上升轨迹（一言蔽之就是 FOMO），不幸的是这两者目前都很难获得。在比较令人振奋的消息方面，香港金管局周四高调宣布启动数码港元 (e-HKD) 计划，详细介绍了该稳定币在消费支付和代币化存款等多个潜在用例中的使用，包括金融、支付和科技行业在内的 16 家机构被选中参与试点，其中包括汇丰银行、渣打银行、中行、建行、支付宝金融服务、Visa、Mastercard，以及最有趣的 Ripple，虽然目前还没有推出 e-HKD 的时间点和最终官方计划，但该试点计划是朝著正确方向迈出的重要一步，为加密货币行业提供了真实世界的用例，特别是在美国 SEC 仍持续对加密货币行业进行监管攻击的背景下，这是一个令人欣喜的发展，随著亚洲地区在数字资产的处理上持续采取稳健且实际的方式，加密货币的圣地应该会继续向东移动，我们希望这种趋势在中长期也能持续下去。
+
+如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website: https://www.signalplus.com/</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187182"
+                        open
+                      >
+                        <summary class="article-expander__title">以Lens Protocol为例，浅谈Web3社交的3个决定性特征</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187182">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文标题：《Web3 Social Media Under the Lens》
+原文作者：LiJin, Variant 联创
+原文编译：Yvonne，MarsBit
+十年前，林肯公园是世界上最大的乐队，或者至少是 Facebook 上最受欢迎的音乐团体，拥有 5600 万粉丝和 5800 万点赞量。在 Facebook 上，乐队不仅会宣布音乐发行和演唱会日期，还发布了一款 2013 年的视频游戏。
+然后，Facebook 改变了算法，正如它经常做的那样，最大化为自己带来更高收入的指标。吉他手 Mike Shinoda 表示，Facebook 告诉乐队，“每次你想要发布并触达到 100% 的粉丝时，都需要花费广告费”，免费的帖子只会被乐队的一小部分粉丝看到。
+算法阻隔了艺术家与观众。
+但 Facebook 和其他Web2社交媒体平台由于算法调整和榨取性的货币化策略而明显衰落。Web3的出现意味着价值不再需要主要归属于社交媒体中介，后者的主要用途是促进联系。有了Web3社交网络，更多的价值流向了用户和那些首先使网络有价值的内容贡献者。
+什么是Web3社交?
+去年 12 月，当我展望 2023 年时，我预测去中心化的社交网络将是“下一个大事件”。这些平台可以以多种方式运作，但它们有一些共同的特点，包括抵制审查和用户对数据的控制。
+Web3社交隐含地利用了区块链技术和代币化，将其与联盟模型和其他形式的去中心化区分开来。Web2社交商业模式几乎需要收集用户数据来启动广告和订阅收入，而Web3社交可以最小化甚至完全消除平台的干扰。在Web3社交中，目标是连接用户和吸引开发者，继而尽可能地避开对二者的影响。
+今年 2 月，我有幸与Web3社交图谱 Lens Protocol 创始人 Stani Kulechov 和 Lens 用户一起主持了一场 Twitter Spaces 活动，讨论他…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187179"
+                        open
+                      >
+                        <summary class="article-expander__title">IOBC Capital：从FlashBots看MEV去中心化之路</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187179">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：IOBC Capital
+MEV（Miner / Maximum Extractable Value）是指在区块链交易中，矿工或验证者能够获取的潜在价值，是由交易顺序和打包的选择方式所产生的利润。MEV 的来源有 Front Running、Back Running、三明治攻击等等，更多关于 MEV 的概念可阅读《浅析 MEV 的发展现状及趋势》。
+Flashbots 推出一系列关于 MEV 的解决方案，致力于建立一个公平、透明、安全的交易环境，本文将盘点 Flashbots 为 MEV 去中心化所做的努力。
+Flashbots Auction——矿工去中心化
+在 PoW 时代，MEV 的主要参与者包括搜索者和矿工，其中矿工拥有出矿权，并且在交易排序、插队和篡改方面具有特权，从而占据利润的大头。同时，搜索者愿意支付高昂的 Gas 费用，以确保自己的交易被包含在区块中，某些情况下，搜索者可能会拿出 MEV 的 90% 甚至更多作为奖励支付给矿工。
+显而易见，这种特权地位对交易的隐私以及安全造成了威胁，带来了包括网络拥堵、Gas 竞争等负外部性。
+Flashbots Auction 提供了以太坊用户和矿工之间的私密通信渠道，通过透明和公平的方式来协商交易的执行顺序和价格。
+
+提交拍卖：搜索者将交易打包成 Bundles 提交到 Flashbots 拍卖系统中，同时指定一个最低价格展示交易的潜在价值；
+
+矿工竞价：矿工在拍卖系统中对感兴趣的 Bundle 进行竞价，指定自己愿意接受的最低价格；
+
+构建区块：矿工从拍卖系统中选择一个或多个竞价最高的 Bundle，将其包含在区块中；
+
+结算和执行：区块中包含的交易和 Bundle 将按照拍卖中达成的顺序和价格进行执行。
+
+通过 Flashbots Auction，搜索者不再需要通过 Gas War 的方式来确保自己的交易被…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187177"
+                        open
+                      >
+                        <summary class="article-expander__title">一文探讨比特币上的DeFi：突破还是泡沫？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187177">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Kadeem Clarke, M 6 Labs 负责人
+原文编译：Felix, PANews
+以太坊作为领先的智能合约平台和市值第二大的区块链，DeFi 在以太坊网络上更具优势。此外受益于 DeFi 领域的先发优势，以太坊成为自 2015 年以来第一个支持去中心化应用程序的公链。
+然而，Solana、Avalanche、Cardano和Polkadot等新兴的区块链对以太坊网络提出了越来越多的挑战。比特币，这个旨在实现点对点在线交易的旗舰公链，在这场讨论中频繁受到关注。
+比特币网络开发人员最近发现了将网络功能扩展到支付以外的方法，推出比特币生态系统原生的 DeFi 应用程序。
+什么是比特币上的DeFi？
+Taproot 升级让比特币网络支持去中心化应用程序的愿景得以实现，对于希望推出 dApps 的开发人员来说，比特币替代以太坊成为可行。
+在比特币网络上推出 DeFi 应用程序之前，BTC 持有者可以将其持有的 BTC 转换为其他区块链上的包装版本。以太坊网络上最受欢迎的资产（ERC-20 代币）是封装 BTC (wBTC)资产。
+wBTC 允许 BTC 持有者通过将其资产锁定在智能合约中，并在衍生协议中获得等额资产（即 1: 1 的比例）参与基于以太坊的 DeFi 协议。然后，用户可以在这些平台上参与流动性挖矿，存款、借贷和赚取被动收入。
+然而，自从基于比特币的 DeFi 平台推出以来，兑换为其他资产已成过去式，用户现在可以在这些基于比特币的 DeFi 平台上使用原生 BTC 代币。
+DeFi 与比特币最常见的交互方式是在非比特币区块链上使用封装版本的 BTC。用户将 BTC 发送给托管人，托管人存储 BTC 并以 1: 1 的比例返给用户 wBTC。
+例如，如果您发送一个 BTC，将收到一个 wBTC。包装代币可用于基于以太坊的 DeFi 协议，如 Curve…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187080"
+                        open
+                      >
+                        <summary class="article-expander__title">一文快速了解BRC20\LRC20\ORC20\SRC20</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187080">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>BRC 20 开创了一个不同的时代，不仅是对于大饼生态来说，更是对于一些公链的启发和思考，
+今年最大的创新不是L2不是以太坊升级也不是 AI 结合区块链，而是 ordinals 和 BRC 20 。
+Ordinals:将打破以太坊上 NFT 格局，未来会诞生基于 BTC 蓝筹的 NFT，价格将达到巅峰市值 BAYC 水准，甚至更高,催生基于 ordinals 的 nft 交易平台以及 nftfi。
+BRC 20:改变项目发行方式交易方式，以及交易所格局，看好@unisat_wallet 成为下一个 uniswap，以后可兑换各种 X 20 。
+两者都会对现有加密生态格局产生影响，我们应该注意到近期支持 ordinals NFT 的 CEX 有币安、OKX 等，对于 brc 20 支持力度的最大的莫过于 OKX 和 huobi。因为 brc 20 采取的挂单交易方式，虽不利于项目流动性交易，但是这比看似去中心化的交易更加公平。
+关于这两个的概念我们不作赘述，在上一篇文章我们列举了生态产品。
+目前 ordinals 主流的交易市场就是：ordswap、Ordinals Wallet、magiceden
+而 brc 20 交易场所主要就是 unisat。
+策略一：关注知名 IP 以及 brc 20 原生产品发行代币机会。
+说一下这些生态的机会，可以博取空投，多使用以上生态工具，同时关注这些工具可能会发行 brc 20 代币。因为 brc 20 初始 mint 分发方式都是很公平的，所以一旦抢到就是赚到。
+当前整个 BRC 20 市场，除了龙头 ordi 以为，具有 IP 性质发行的就是 VMPX。其余几乎都是靠名字炒作的 meme，单纯这样是不行的，未来必须也一定会有更多知名的项目方在 brc 20 进行部署。不管是大大小小的项目方， 都可以参与，根据我们的观察，gas 费用不太…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187175"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂BRC-20上的Launchpad BisoSwap</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187175">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>继上线BRC 20 上的DEX之后，BisoSwap宣布推出Launchpad业务，提供开放筹资的新项目启动平台。据官方社交媒体消息，目前已经完成「Public Sale」轮和「Whitelist Sale」轮IDO，共募资约合 546 万美元，下文将解析Launchpad的特色和玩法。
+一、BisoSwap简介
+BisoSwap，通过增加LP交易的流动性池和实现实时交易来解决BRC 20 的流动性不足问题，BisoSwap使用AMM机制，是BRC 20 协议中的第一个DEX，用户可以使用代币添加LP，以获得交易流动性并获得费用激励。
+BisoSwap的Launchpad业务，旨在去中心化地为BRC 20 生态引入创新项目，保护早期加密货币投资者，并使初创公司能够筹集资金。
+二、Launchpad：BRC 20 上实现代币分发功能
+Launchpad 将之前为机构投资者和风投机构保留的筹码扩展到普通用户。新项目可以依托利用IDO平台的成熟度和社区规模等因素，允许项目的早期贡献者获得利润。
+Launchpad 通过优化筹资流程、减少项目孵化成本等方式为BRC 20 生态中的新项目提供了更加完善的孵化服务，同时提供多钱包集成、自动流动性矿池、质押模块。
+此外BisoSwap也为项目提供高效、多元的品牌传播与营销服务，让他们有机会通过Launchpad建立自己的社区。
+在生态建设中，Launchpad 通过与其他项目的合作，可以更加方便地建立和拓展BRC 20 生态中的网络，实现各个项目之间的互通和协同发展。
+安全问题一直是人们关注的重点之一。首先，Launchpad 通过对项目的审核、筛选和评估等机制，确保BRC 20 生态中新上线项目的安全性。对于参与投资的用户来说，Launchpad会对每个项目的风险进行详细披露，让用户可以更加清晰地了解项目的风险和利润，并做出符合自身风险承受能力的决策。
+其次，Launchpad 通过代码审查、合约安全性检测等手段，确保项目的安全性和可靠性。例如，针对代码审查环节，Launchpad 会派出团队进行项目的代码审查，对合约漏洞和其他潜在的安全问题进行排查和修复。并和知名的安全机构和第三方审计公司合作，提供专业的安全评估和审计服务。
+最后，Launchpad项目通过建立公正透明的治理机制，确保生态系统的长期稳定和健康发展。例如，在投票和治理过程中，Launchpad项目可以设立独立的投票委员会，并邀请各个项目方和社区代表参与进来，共同做出最终决策。在这一过程中维护社区利益和价值。
+三、BISO 代币分配
+BISO 代币作为BisoSwap的治理和生态代币，发挥着重要作用，有以下权益：治理权、流动性奖励、质押及如IDO优先享有等。
+
+
+
+四、融资信息
+目前已经完成「Public Sale」轮和「Whitelist Sale」轮IDO，共募资 201.53 BTC（约合 546 万美元）。
+五、最新动态
+目前已经集成 OKX Wallet，BISO代币可以在TokenInght上查看。
+
+
+
+此外，即将在BRC 20 推出定制版“比特牛” NFT，将在官方推特、链上交互以及参加IDO中的账号抽奖。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187174"
+                        open
+                      >
+                        <summary class="article-expander__title">美众议院稳定币听证会：州与联邦监管权之争为两党焦点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187174">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在 5 月 18 日美国众议院关于稳定币的听证会上，众议院金融服务委员会新成立的数字资产、金融技术和包容性小组委员会听取了五位专家的证词，该委员会正在审议两个拟议的稳定币法案草案。听证会中，州与联邦监管权限是两党的一个关键争论点，共和党和民主党立法者未能就稳定币监管权力分配达成一致。
+
+权力辩论：州与联邦控制
+由共和党代表 French Hill（R-Ark.）牵头的提案于 4 月在金融服务委员会举行听证会之前公布。作为回应，民主党高级议员Maxine Waters提出了一项竞争性草案，该草案基于一项先前已提出但在上届国会会议期间未取得进展的法案。
+在由共和党主张的提案版本中，法案允许稳定币运营商选择在哪个州注册，而无需通过联邦储备委员会，各州能够自由设定自己的标准，发行人将有 180 天的时间向联邦监管机构提交所有必需的注册材料。 该法案的支持者认为，这将防止“竞次”(race to the bottom)，并符合美国两级联邦/州银行监管框架。
+在由民主党代表 Maxine Waters 推动的民主党提案中，联邦储备系统发挥主导作用，民主党提议授予州监管机构批准发行人注册的权力，而美联储保留批准或拒绝联邦注册的权力。民主党非常关注发行方的资质，例如发行人应该是联邦保险的存款机构。还可以预期要求稳定币发行人和/或分销商遵守某种了解你的客户（KYC）和反洗钱标准的条款。 
+小组中一些民主党人对允许州监管机构制定稳定币发行标准提出异议，认为门槛可能会被降低太多，从而促使加密公司转向监管最宽松的州。Waters 认为，共和党的提案中缺少“几个关键立场”，小组委员会的最高民主党众议员 Stephen Lynch（D-Mass.）认为：“我们似乎已经进一步分道扬镳。我的感觉是，如果我们将其指向 50 个州和地区，那么这种做法可能会继续下去，加密行业将寻找那些为他们提供最佳机会的地区，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187172"
+                        open
+                      >
+                        <summary class="article-expander__title">探访真实的日本加密市场：封闭与矛盾并存，机会在哪儿？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187172">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：0x min &amp; James
+原文来源：深潮 TechFlow
+想到日本，你首先想到什么？
+樱花、动漫、富士山、任天堂……？
+当日本与 Crypto 联系在一起，大部分加密从业者却鲜有认知，尽管从 2017 年开始，Crypto 交易和交易所在日本都有了合法地位，但是日本市场始终存在感不强，封闭与独立是很多人的固有印象。
+日本加密市场的真实现状是如何？目前有哪些核心的参与者？如何参与日本加密市场？
+带着好奇，深潮 TechFlow 记者于 4 月探访日本东京，与当地的加密从业者交流，获得了诸多信息，与大家分享，没有长篇大论的废话，只有干货，本文联合作者还包括 Emoote Venture Partner James，向他致敬。
+*本文节选自 TechFlow 深潮出品的《亚太市场 Web3 真相》报告日本市场部分。
+日本加密市场概述
+根据与朋友的讨论以及第三方机构的数据，参与虚拟货币投资的日本人可以分为 3 个圈层，且下面的圈层是上面的圈层的完全子集，整体而言，日本本地加密用户超过 500 万。
+
+日本加密市场充满着特殊性与矛盾，主要有以下三个方面：
+（1 ）合规但是缺乏活力
+在日本无论是交易加密资产还是运营交易所，都可以在合法合规的框架下运营，主要由日本金融厅和日本虚拟货币交易业协会（自律组织）监管，总体原则是：优先监管反洗钱/反恐怖融资，再监管交易平台从而保障用户利益。比如，要求交易所将客户资产与其运营资金分开，交易所至少 95% 的资产需存放在冷钱包中，充分保障了个人投资者的安全。
+但是重监管也带来诸多限制，让日本加密市场缺乏活力。所有在日本合规交易所上市的代币都需要经过日本虚拟货币交易所协会（JVCEA）的批准，这个周期至少是 6 个月到一年。
+其次，日本有着高昂的税负，根据日本现行规则，加密相关收入的税率取决于个人的总收入，对于高收入者来说，加密货币税的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187170"
+                        open
+                      >
+                        <summary class="article-expander__title">Hooked Protocol和Animoca联动，能否找到新的破圈之道？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187170">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>最近看了大量 Web3 应用层 - 教育赛道的项目，也和很多相关创业团队聊过，感慨应用层破圈不易的同时，也通过 Web3 教育赛道动态看到了一些新的可能性。先简单总结几点 Web3 创投圈关于应用层的共识：
+1. Web3 应用层的 Mass adoption 仍然需要关注具备破圈效应的应用，即新流量。
+2. 纯靠 Meme、NFT 等热点已经很难吸引大量的新用户了；项目方仍然需要关注用户刚需，通过产品提供底层价值；或者找到更多的用户场景。
+3. 区块链技术本身是生产关系的变革，很难直接 To C，还是需要和其他技术相结合；比如“区块链技术+物联网技术”、“区块链技术+AI”等。
+4. 过去半年里，Web3 教育赛道也涌现出一批新项目，币安 LaunchPad 更是给教育赛道带来了大量关注，最近 Animoca 也大量布局教育赛道，比如和 Hooked 合作共建生态等，通过元宇宙与教育赛道的梦幻联动尝试破圈，值得关注后续落地情况。
+总的来说，破圈仍然是重点，本文将重点探讨一下 Web3 教育赛道破圈的可能性。目前 Web3教育赛道主要有两个成长方向，一是 Web3 赛道本身的教育，通过学习降低用户进入 Web3 的门槛，从而实现赛道增长；另一个是传统教育内容 + Web3激励模式。
+比如 Animoca 成立了千万美元学习基金，鼓励传统教育从业者提供学习内容。币安在熊市 LaunchPad 了两个教育赛道项目，给教育赛道吸引了足够多的关注度，但也引起了大量争议。不过过去半年里，教育赛道早期布局项目 Hooked 从 Wild Cash 的 quiz to earn ，到 ToDaMoon 直播学习再到最近结合 AI Chat 的产品 Hooked Academy Sensei，证明了教育赛道本身的可扩展性和可破圈性；Open Campus 则鼓励内容创作，展现了 Web3 …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1043,382 +1513,27 @@ Bit Digital首席执行官Samir Tabar表示，该公司上周以500万美元的�
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187184"
-                        open
-                      >
-                        <summary class="article-expander__title">玩转比特币域名你必须知道的十件事</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187184">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：0x BeyondLee
-目录
-
-一、既然遵循 first is first 原则，为何域名仍有大量重复？
-
-二、高度“去中心化”的BTC生态域名为何极度依赖“中心化”平台？
-
-三、平台索引之困：inscribe 和 mint 的区别
-
-四、主流平台的域名查重误差对比
-
-五、是困难也是机会
-
-六、关于域名的“大小写”与“繁简体”
-
-七、域名费用相关问题
-
-八、出现 bug 或解决不了的问题怎么办？
-
-九、打域名有什么用？
-
-十、未来预期如何？
-
-一、既然遵循 first is first 原则，为何域名仍有大量重复？
-主要原因有二：
-1、早期全节点用户自行铸造不方便查重。
-2、基础设施不完善，平台查重准确度仍待提高，目前查重功能做的最好的是铸造交易平台 @unisat 的 http://unisat.io 和集合平台 @bestinslotxyz 的 http://bestinslot.xyz。
-
-二、高度“去中心化”的 BTC 生态域名为何极度依赖“中心化”平台？
-的确相较于其他的域名服务系统（ENS、SpaceID 等），BTC 生态域名尤其是.sat 域名呈现更高的去中心化，具有全过程上链、独立完成、一经铸造永久保存等优点。
-但是截止到目前为止 BTC 链上资产的铸造和读取仍高度依赖于中心化平台的算法。
-如果将 BTC 链比作是运行中的“纸带”，那中心化平台就相当于是“打点计时器”，中心化平台只是相当于一个工具，这并不影响 BTC 生态域名的优良特性。
-
-三、平台索引之困：inscribe 和 mint 的区别
-想厘清各平台在查重上的困境，首先要明白 inscribe 和 mint 的区别。
-由于 brc 20 （以及 inscription）和 erc 20 （以及 eth nft）名称的类似，不少人误以为 brc 20 就是在 btc 链上的 erc 2…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187180"
-                        open
-                      >
-                        <summary class="article-expander__title">SignalPlus：梦回8月，尽情狂欢特别版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187180">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>各位朋友，欢迎来到 SignalPlus 宏观点评。SignalPlus 宏观点评每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
-
-
-强劲的美国经济数据（初领失业金人数 -2.2 万，费城联储制造业指数 + 20.9 ）、美联储的鹰派言论以及对美国债务上限情况缓解的乐观前景共同帮助美国资产重回主导地位，在全球范围内引发新一波风险情绪升温。快速回顾昨天的热点：
-
-美国房屋建商指数（+ 23% ）达到 52 周高点，德国 DAX 指数、Nasdaq 100 指数、日本 Nikkei 指数均上涨 16% ，S&amp;P 500 指数紧随其后（+ 8% ）。
-
-尽管不断有声音称美元消亡，但贸易加权的美元汇率在技术面出现向上突破。
-
-由于美联储的鹰派言论和即将达成的债务上限协议，美债收益率突破 3 月份的低点区间走高。
-
-市场定价 6 月 FOMC 加息 25 个基点的可能性现在来到 35% 。
-
-市值加权的 S&amp;P 500 指数今年的表现明显优于等权重的版本，超额报酬 8% ，这要归功于市场对大型 AI 相关股票的无限兴趣（AI 霸主 Nvidia 今年上涨了 100% ）。
-
-虽然中国股票表现疲软，且 USDCNH 突破 7.00 水平，不过美国股市的表现仍相当出色。
-
-
-申请失业救济人数恢复稳定（移除了之前的虚假数据后），债务上限问题显著缓解，加上美国股市强势回升至去年 8 月 Jackson Hole 时期的高点（J-Pow 的巅峰时期），这些因素都提高了 6 月 SEP（美联储经济预测）全面升级的可能性，市场对 6 月 FOMC 加息的预期也同步上调（~ 33% ）。一连串鹰派的美联储言论重新浮出水面以管理市场预期，Dallas 联储的 Logan 表示“目前的数据还不足以支持暂停加息”，Jefferson 宣称通胀“过高”，不过高利率的影响尚未完全显现，Bullard 则重申他对更高利率的支持。核心 CPI 仍保持在 5% 左右，就业市场以历史标准来看仍相当火热，而房地产市场则因低库存而大幅反弹，现在所有的目光都集中在主席今天将发表的谈话上（CDT 上午 10 点），看他是否会重新引导他的“内在鹰派灵魂”，来抑制当前过度繁荣的美国股市。
-
-由于股市继续上涨，原先偏好持有固定收益并在股票上保持轻仓的对冲基金和专业经理人在过去几个交易日中纷纷增加 SPX 的看涨期权敞口，凶猛的市场反弹已经迅速突破了最大看涨期权敞口所在的价格区域（SPX 约 4185 点），0 DTE 期权玩家自 4 月以来已经转向净 short gamma，这在上涨过程中进一步增加反弹动力。投行研究估计市场 gamma 将在当前指数水平回到正值，今天还会有相当规模的期权到期，这应该会使本周市场的收盘更加精彩。
-
-与过去几周的情况一样，加密货币参与者显然没有收到派对通知，完全错过了 TradFi 资产的最新一波反弹。另外，DefiLlama 一个图显示了 Bitcoin 价格与风险投资基金的融资水平间的有趣关系，这基本上表明加密货币仍需要主流市场的持续参与和外部资本注入以维持其上升轨迹（一言蔽之就是 FOMO），不幸的是这两者目前都很难获得。在比较令人振奋的消息方面，香港金管局周四高调宣布启动数码港元 (e-HKD) 计划，详细介绍了该稳定币在消费支付和代币化存款等多个潜在用例中的使用，包括金融、支付和科技行业在内的 16 家机构被选中参与试点，其中包括汇丰银行、渣打银行、中行、建行、支付宝金融服务、Visa、Mastercard，以及最有趣的 Ripple，虽然目前还没有推出 e-HKD 的时间点和最终官方计划，但该试点计划是朝著正确方向迈出的重要一步，为加密货币行业提供了真实世界的用例，特别是在美国 SEC 仍持续对加密货币行业进行监管攻击的背景下，这是一个令人欣喜的发展，随著亚洲地区在数字资产的处理上持续采取稳健且实际的方式，加密货币的圣地应该会继续向东移动，我们希望这种趋势在中长期也能持续下去。
-
-如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
-SignalPlus Official Website: https://www.signalplus.com/</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187182"
-                        open
-                      >
-                        <summary class="article-expander__title">以Lens Protocol为例，浅谈Web3社交的3个决定性特征</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187182">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文标题：《Web3 Social Media Under the Lens》
-原文作者：LiJin, Variant 联创
-原文编译：Yvonne，MarsBit
-十年前，林肯公园是世界上最大的乐队，或者至少是 Facebook 上最受欢迎的音乐团体，拥有 5600 万粉丝和 5800 万点赞量。在 Facebook 上，乐队不仅会宣布音乐发行和演唱会日期，还发布了一款 2013 年的视频游戏。
-然后，Facebook 改变了算法，正如它经常做的那样，最大化为自己带来更高收入的指标。吉他手 Mike Shinoda 表示，Facebook 告诉乐队，“每次你想要发布并触达到 100% 的粉丝时，都需要花费广告费”，免费的帖子只会被乐队的一小部分粉丝看到。
-算法阻隔了艺术家与观众。
-但 Facebook 和其他Web2社交媒体平台由于算法调整和榨取性的货币化策略而明显衰落。Web3的出现意味着价值不再需要主要归属于社交媒体中介，后者的主要用途是促进联系。有了Web3社交网络，更多的价值流向了用户和那些首先使网络有价值的内容贡献者。
-什么是Web3社交?
-去年 12 月，当我展望 2023 年时，我预测去中心化的社交网络将是“下一个大事件”。这些平台可以以多种方式运作，但它们有一些共同的特点，包括抵制审查和用户对数据的控制。
-Web3社交隐含地利用了区块链技术和代币化，将其与联盟模型和其他形式的去中心化区分开来。Web2社交商业模式几乎需要收集用户数据来启动广告和订阅收入，而Web3社交可以最小化甚至完全消除平台的干扰。在Web3社交中，目标是连接用户和吸引开发者，继而尽可能地避开对二者的影响。
-今年 2 月，我有幸与Web3社交图谱 Lens Protocol 创始人 Stani Kulechov 和 Lens 用户一起主持了一场 Twitter Spaces 活动，讨论他…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187179"
-                        open
-                      >
-                        <summary class="article-expander__title">IOBC Capital：从FlashBots看MEV去中心化之路</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187179">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：IOBC Capital
-MEV（Miner / Maximum Extractable Value）是指在区块链交易中，矿工或验证者能够获取的潜在价值，是由交易顺序和打包的选择方式所产生的利润。MEV 的来源有 Front Running、Back Running、三明治攻击等等，更多关于 MEV 的概念可阅读《浅析 MEV 的发展现状及趋势》。
-Flashbots 推出一系列关于 MEV 的解决方案，致力于建立一个公平、透明、安全的交易环境，本文将盘点 Flashbots 为 MEV 去中心化所做的努力。
-Flashbots Auction——矿工去中心化
-在 PoW 时代，MEV 的主要参与者包括搜索者和矿工，其中矿工拥有出矿权，并且在交易排序、插队和篡改方面具有特权，从而占据利润的大头。同时，搜索者愿意支付高昂的 Gas 费用，以确保自己的交易被包含在区块中，某些情况下，搜索者可能会拿出 MEV 的 90% 甚至更多作为奖励支付给矿工。
-显而易见，这种特权地位对交易的隐私以及安全造成了威胁，带来了包括网络拥堵、Gas 竞争等负外部性。
-Flashbots Auction 提供了以太坊用户和矿工之间的私密通信渠道，通过透明和公平的方式来协商交易的执行顺序和价格。
-
-提交拍卖：搜索者将交易打包成 Bundles 提交到 Flashbots 拍卖系统中，同时指定一个最低价格展示交易的潜在价值；
-
-矿工竞价：矿工在拍卖系统中对感兴趣的 Bundle 进行竞价，指定自己愿意接受的最低价格；
-
-构建区块：矿工从拍卖系统中选择一个或多个竞价最高的 Bundle，将其包含在区块中；
-
-结算和执行：区块中包含的交易和 Bundle 将按照拍卖中达成的顺序和价格进行执行。
-
-通过 Flashbots Auction，搜索者不再需要通过 Gas War 的方式来确保自己的交易被…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187177"
-                        open
-                      >
-                        <summary class="article-expander__title">一文探讨比特币上的DeFi：突破还是泡沫？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187177">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Kadeem Clarke, M 6 Labs 负责人
-原文编译：Felix, PANews
-以太坊作为领先的智能合约平台和市值第二大的区块链，DeFi 在以太坊网络上更具优势。此外受益于 DeFi 领域的先发优势，以太坊成为自 2015 年以来第一个支持去中心化应用程序的公链。
-然而，Solana、Avalanche、Cardano和Polkadot等新兴的区块链对以太坊网络提出了越来越多的挑战。比特币，这个旨在实现点对点在线交易的旗舰公链，在这场讨论中频繁受到关注。
-比特币网络开发人员最近发现了将网络功能扩展到支付以外的方法，推出比特币生态系统原生的 DeFi 应用程序。
-什么是比特币上的DeFi？
-Taproot 升级让比特币网络支持去中心化应用程序的愿景得以实现，对于希望推出 dApps 的开发人员来说，比特币替代以太坊成为可行。
-在比特币网络上推出 DeFi 应用程序之前，BTC 持有者可以将其持有的 BTC 转换为其他区块链上的包装版本。以太坊网络上最受欢迎的资产（ERC-20 代币）是封装 BTC (wBTC)资产。
-wBTC 允许 BTC 持有者通过将其资产锁定在智能合约中，并在衍生协议中获得等额资产（即 1: 1 的比例）参与基于以太坊的 DeFi 协议。然后，用户可以在这些平台上参与流动性挖矿，存款、借贷和赚取被动收入。
-然而，自从基于比特币的 DeFi 平台推出以来，兑换为其他资产已成过去式，用户现在可以在这些基于比特币的 DeFi 平台上使用原生 BTC 代币。
-DeFi 与比特币最常见的交互方式是在非比特币区块链上使用封装版本的 BTC。用户将 BTC 发送给托管人，托管人存储 BTC 并以 1: 1 的比例返给用户 wBTC。
-例如，如果您发送一个 BTC，将收到一个 wBTC。包装代币可用于基于以太坊的 DeFi 协议，如 Curve…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187080"
-                        open
-                      >
-                        <summary class="article-expander__title">一文快速了解BRC20\LRC20\ORC20\SRC20</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187080">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>BRC 20 开创了一个不同的时代，不仅是对于大饼生态来说，更是对于一些公链的启发和思考，
-今年最大的创新不是L2不是以太坊升级也不是 AI 结合区块链，而是 ordinals 和 BRC 20 。
-Ordinals:将打破以太坊上 NFT 格局，未来会诞生基于 BTC 蓝筹的 NFT，价格将达到巅峰市值 BAYC 水准，甚至更高,催生基于 ordinals 的 nft 交易平台以及 nftfi。
-BRC 20:改变项目发行方式交易方式，以及交易所格局，看好@unisat_wallet 成为下一个 uniswap，以后可兑换各种 X 20 。
-两者都会对现有加密生态格局产生影响，我们应该注意到近期支持 ordinals NFT 的 CEX 有币安、OKX 等，对于 brc 20 支持力度的最大的莫过于 OKX 和 huobi。因为 brc 20 采取的挂单交易方式，虽不利于项目流动性交易，但是这比看似去中心化的交易更加公平。
-关于这两个的概念我们不作赘述，在上一篇文章我们列举了生态产品。
-目前 ordinals 主流的交易市场就是：ordswap、Ordinals Wallet、magiceden
-而 brc 20 交易场所主要就是 unisat。
-策略一：关注知名 IP 以及 brc 20 原生产品发行代币机会。
-说一下这些生态的机会，可以博取空投，多使用以上生态工具，同时关注这些工具可能会发行 brc 20 代币。因为 brc 20 初始 mint 分发方式都是很公平的，所以一旦抢到就是赚到。
-当前整个 BRC 20 市场，除了龙头 ordi 以为，具有 IP 性质发行的就是 VMPX。其余几乎都是靠名字炒作的 meme，单纯这样是不行的，未来必须也一定会有更多知名的项目方在 brc 20 进行部署。不管是大大小小的项目方， 都可以参与，根据我们的观察，gas 费用不太…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187175"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂BRC-20上的Launchpad BisoSwap</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187175">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>继上线BRC 20 上的DEX之后，BisoSwap宣布推出Launchpad业务，提供开放筹资的新项目启动平台。据官方社交媒体消息，目前已经完成「Public Sale」轮和「Whitelist Sale」轮IDO，共募资约合 546 万美元，下文将解析Launchpad的特色和玩法。
-一、BisoSwap简介
-BisoSwap，通过增加LP交易的流动性池和实现实时交易来解决BRC 20 的流动性不足问题，BisoSwap使用AMM机制，是BRC 20 协议中的第一个DEX，用户可以使用代币添加LP，以获得交易流动性并获得费用激励。
-BisoSwap的Launchpad业务，旨在去中心化地为BRC 20 生态引入创新项目，保护早期加密货币投资者，并使初创公司能够筹集资金。
-二、Launchpad：BRC 20 上实现代币分发功能
-Launchpad 将之前为机构投资者和风投机构保留的筹码扩展到普通用户。新项目可以依托利用IDO平台的成熟度和社区规模等因素，允许项目的早期贡献者获得利润。
-Launchpad 通过优化筹资流程、减少项目孵化成本等方式为BRC 20 生态中的新项目提供了更加完善的孵化服务，同时提供多钱包集成、自动流动性矿池、质押模块。
-此外BisoSwap也为项目提供高效、多元的品牌传播与营销服务，让他们有机会通过Launchpad建立自己的社区。
-在生态建设中，Launchpad 通过与其他项目的合作，可以更加方便地建立和拓展BRC 20 生态中的网络，实现各个项目之间的互通和协同发展。
-安全问题一直是人们关注的重点之一。首先，Launchpad 通过对项目的审核、筛选和评估等机制，确保BRC 20 生态中新上线项目的安全性。对于参与投资的用户来说，Launchpad会对每个项目的风险进行详细披露，让用户可以更加清晰地了解项目的风险和利润，并做出符合自身风险承受能力的决策。
-其次，Launchpad 通过代码审查、合约安全性检测等手段，确保项目的安全性和可靠性。例如，针对代码审查环节，Launchpad 会派出团队进行项目的代码审查，对合约漏洞和其他潜在的安全问题进行排查和修复。并和知名的安全机构和第三方审计公司合作，提供专业的安全评估和审计服务。
-最后，Launchpad项目通过建立公正透明的治理机制，确保生态系统的长期稳定和健康发展。例如，在投票和治理过程中，Launchpad项目可以设立独立的投票委员会，并邀请各个项目方和社区代表参与进来，共同做出最终决策。在这一过程中维护社区利益和价值。
-三、BISO 代币分配
-BISO 代币作为BisoSwap的治理和生态代币，发挥着重要作用，有以下权益：治理权、流动性奖励、质押及如IDO优先享有等。
-
-
-
-四、融资信息
-目前已经完成「Public Sale」轮和「Whitelist Sale」轮IDO，共募资 201.53 BTC（约合 546 万美元）。
-五、最新动态
-目前已经集成 OKX Wallet，BISO代币可以在TokenInght上查看。
-
-
-
-此外，即将在BRC 20 推出定制版“比特牛” NFT，将在官方推特、链上交互以及参加IDO中的账号抽奖。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187174"
-                        open
-                      >
-                        <summary class="article-expander__title">美众议院稳定币听证会：州与联邦监管权之争为两党焦点</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187174">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在 5 月 18 日美国众议院关于稳定币的听证会上，众议院金融服务委员会新成立的数字资产、金融技术和包容性小组委员会听取了五位专家的证词，该委员会正在审议两个拟议的稳定币法案草案。听证会中，州与联邦监管权限是两党的一个关键争论点，共和党和民主党立法者未能就稳定币监管权力分配达成一致。
-
-权力辩论：州与联邦控制
-由共和党代表 French Hill（R-Ark.）牵头的提案于 4 月在金融服务委员会举行听证会之前公布。作为回应，民主党高级议员Maxine Waters提出了一项竞争性草案，该草案基于一项先前已提出但在上届国会会议期间未取得进展的法案。
-在由共和党主张的提案版本中，法案允许稳定币运营商选择在哪个州注册，而无需通过联邦储备委员会，各州能够自由设定自己的标准，发行人将有 180 天的时间向联邦监管机构提交所有必需的注册材料。 该法案的支持者认为，这将防止“竞次”(race to the bottom)，并符合美国两级联邦/州银行监管框架。
-在由民主党代表 Maxine Waters 推动的民主党提案中，联邦储备系统发挥主导作用，民主党提议授予州监管机构批准发行人注册的权力，而美联储保留批准或拒绝联邦注册的权力。民主党非常关注发行方的资质，例如发行人应该是联邦保险的存款机构。还可以预期要求稳定币发行人和/或分销商遵守某种了解你的客户（KYC）和反洗钱标准的条款。 
-小组中一些民主党人对允许州监管机构制定稳定币发行标准提出异议，认为门槛可能会被降低太多，从而促使加密公司转向监管最宽松的州。Waters 认为，共和党的提案中缺少“几个关键立场”，小组委员会的最高民主党众议员 Stephen Lynch（D-Mass.）认为：“我们似乎已经进一步分道扬镳。我的感觉是，如果我们将其指向 50 个州和地区，那么这种做法可能会继续下去，加密行业将寻找那些为他们提供最佳机会的地区，…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187172"
-                        open
-                      >
-                        <summary class="article-expander__title">探访真实的日本加密市场：封闭与矛盾并存，机会在哪儿？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187172">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：0x min &amp; James
-原文来源：深潮 TechFlow
-想到日本，你首先想到什么？
-樱花、动漫、富士山、任天堂……？
-当日本与 Crypto 联系在一起，大部分加密从业者却鲜有认知，尽管从 2017 年开始，Crypto 交易和交易所在日本都有了合法地位，但是日本市场始终存在感不强，封闭与独立是很多人的固有印象。
-日本加密市场的真实现状是如何？目前有哪些核心的参与者？如何参与日本加密市场？
-带着好奇，深潮 TechFlow 记者于 4 月探访日本东京，与当地的加密从业者交流，获得了诸多信息，与大家分享，没有长篇大论的废话，只有干货，本文联合作者还包括 Emoote Venture Partner James，向他致敬。
-*本文节选自 TechFlow 深潮出品的《亚太市场 Web3 真相》报告日本市场部分。
-日本加密市场概述
-根据与朋友的讨论以及第三方机构的数据，参与虚拟货币投资的日本人可以分为 3 个圈层，且下面的圈层是上面的圈层的完全子集，整体而言，日本本地加密用户超过 500 万。
-
-日本加密市场充满着特殊性与矛盾，主要有以下三个方面：
-（1 ）合规但是缺乏活力
-在日本无论是交易加密资产还是运营交易所，都可以在合法合规的框架下运营，主要由日本金融厅和日本虚拟货币交易业协会（自律组织）监管，总体原则是：优先监管反洗钱/反恐怖融资，再监管交易平台从而保障用户利益。比如，要求交易所将客户资产与其运营资金分开，交易所至少 95% 的资产需存放在冷钱包中，充分保障了个人投资者的安全。
-但是重监管也带来诸多限制，让日本加密市场缺乏活力。所有在日本合规交易所上市的代币都需要经过日本虚拟货币交易所协会（JVCEA）的批准，这个周期至少是 6 个月到一年。
-其次，日本有着高昂的税负，根据日本现行规则，加密相关收入的税率取决于个人的总收入，对于高收入者来说，加密货币税的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187170"
-                        open
-                      >
-                        <summary class="article-expander__title">Hooked Protocol和Animoca联动，能否找到新的破圈之道？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187170">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>最近看了大量 Web3 应用层 - 教育赛道的项目，也和很多相关创业团队聊过，感慨应用层破圈不易的同时，也通过 Web3 教育赛道动态看到了一些新的可能性。先简单总结几点 Web3 创投圈关于应用层的共识：
-1. Web3 应用层的 Mass adoption 仍然需要关注具备破圈效应的应用，即新流量。
-2. 纯靠 Meme、NFT 等热点已经很难吸引大量的新用户了；项目方仍然需要关注用户刚需，通过产品提供底层价值；或者找到更多的用户场景。
-3. 区块链技术本身是生产关系的变革，很难直接 To C，还是需要和其他技术相结合；比如“区块链技术+物联网技术”、“区块链技术+AI”等。
-4. 过去半年里，Web3 教育赛道也涌现出一批新项目，币安 LaunchPad 更是给教育赛道带来了大量关注，最近 Animoca 也大量布局教育赛道，比如和 Hooked 合作共建生态等，通过元宇宙与教育赛道的梦幻联动尝试破圈，值得关注后续落地情况。
-总的来说，破圈仍然是重点，本文将重点探讨一下 Web3 教育赛道破圈的可能性。目前 Web3教育赛道主要有两个成长方向，一是 Web3 赛道本身的教育，通过学习降低用户进入 Web3 的门槛，从而实现赛道增长；另一个是传统教育内容 + Web3激励模式。
-比如 Animoca 成立了千万美元学习基金，鼓励传统教育从业者提供学习内容。币安在熊市 LaunchPad 了两个教育赛道项目，给教育赛道吸引了足够多的关注度，但也引起了大量争议。不过过去半年里，教育赛道早期布局项目 Hooked 从 Wild Cash 的 quiz to earn ，到 ToDaMoon 直播学习再到最近结合 AI Chat 的产品 Hooked Academy Sensei，证明了教育赛道本身的可扩展性和可破圈性；Open Campus 则鼓励内容创作，展现了 Web3 …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >TheBlockBeats - undefined</button>
                   <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/37103"
+                        open
+                      >
+                        <summary class="article-expander__title">BTC DeFi有哪些能关注的项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/37103">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>加密货币 KOL Seth 列举了一些项目方一直在做事的 BRC20 DeFi 项目。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -11652,8 +11767,8 @@ Worldcoin 由 Sam Altman 和 Alex Blania 于 2019 年创立，计划利�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5022670269">
-        <time id="build-timestamp" datetime="2023-05-19T09:07:17.826Z">2023-05-19T09:07:17.826Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5023163999">
+        <time id="build-timestamp" datetime="2023-05-19T10:07:43.242Z">2023-05-19T10:07:43.242Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
