@@ -2484,36 +2484,6 @@
           "wordCount": 504,
           "title": "硬件钱包Ledger推出基于ID的密钥恢复服务“Ledger Recover”，引部分用户反对",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/9qovzju8.html",
-          "author": "PA一线",
-          "description": "PANews 5月16日消息，李林回应称：“很遗憾再次讨论huobi是以这种方式关于所谓我弟弟李伟以不正常手段获取ht (包括历史上) ，希望火必提供证据，如果确认是通过不合法的手段获取的零成本的ht，我个人赔付10倍的ht给火必公司。如果不属实，希望火必归还用户合法资产。相信这应该是一个误会，希望火必未来越来越好。”\n今日早些时候，孙宇晨发推表示：李林弟弟李伟多次抛售零成本HT并巨额提现，将进行追缴和销毁。",
-          "link": "https://panewslab.com/zh/articledetails/9qovzju8.html",
-          "publishedOn": "2023-05-16T10:38:55.000Z",
-          "wordCount": 417,
-          "title": "李林回应：希望火必提供“李伟以不正常手段获取ht”的证据，若属实愿赔付10倍的ht给火必",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/y2452fyh.html",
-          "author": "PA一线",
-          "description": "PANews 5月16日消息，波场TRON创始人、火必Huobi全球顾问委员会成员孙宇晨发推表示，“李林弟弟李伟，多次通过不正常手段大量获取零成本 HT，历史上多次在火币平台内进行抛售，巨额提现，不仅玷污了李林在国内多年积累声誉，还损害了 HT 社区每一个人的利益，经火币全球顾问委员会，HT DAO 社区决议 ，对于李伟零成本获取的 HT 进行追缴，销毁，HT 销毁将在 HT 社区公示。对于此类行为，绝不姑息。”",
-          "link": "https://panewslab.com/zh/articledetails/y2452fyh.html",
-          "publishedOn": "2023-05-16T10:28:19.000Z",
-          "wordCount": 406,
-          "title": "孙宇晨：李林弟弟李伟多次抛售零成本HT并巨额提现，将进行追缴和销毁",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/sx8n35de.html",
-          "author": "PA一线",
-          "description": "PANews 5月16日消息，据Decrypt报道，加密货币基金公司 Valkyrie 昨天提交了一份新的比特币期货交易所交易基金（ETF）申请，该基金希望在纳斯达克交易，与该公司已经活跃的 BTF 基金不同，这只基金将被杠杆化，正在申请的该杠杆比特币期货 ETF 股票代码为“BTFD”。\n据悉，该代码首字母缩写词代表的加密行业俚语是“buy the f********g dip”（意思是逢低买入）。最初于 2021 年被吹捧。",
-          "link": "https://panewslab.com/zh/articledetails/sx8n35de.html",
-          "publishedOn": "2023-05-16T10:21:25.000Z",
-          "wordCount": 414,
-          "title": "Valkyrie为其比特币期货杠杆策略ETF提交“BTFD”代码申请",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2920,26 +2890,6 @@
           "publishedOn": "2023-05-16T15:26:27.000Z",
           "wordCount": null,
           "title": "Web3日报｜Justin Sun称将追缴李林弟弟Huobi内资产；OKX首次公布Web3钱包比特币生态路线图",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/37034",
-          "author": null,
-          "description": "原文来源：NOTONLYOWNER\n原文作者：tincho\n原文编译：登链社区翻译小组\n\n\n你有 1 个 DAI，使用钱包（如 Metamask）发送 1 个 DAI 到「0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045」（就是 vitalik.eth），点击发送。\n\n\n一段时间后，钱包显示交易已被确认。突然，vitalik.eth 现在有了 1 个 DAI 的财富。这背后到底发生了什么？\n\n\n让我们回放一下。并以慢动作回放。\n\n\n准备好了吗？\n\n\n构建交易\n\n\n钱包是便于向以太坊网络发送交易的软件。\n\n\n交易只是告诉以太坊网络，你作为一个用户，想要执行一个行动的一种方式。在此案例中，这将是向 Vitalik 发送 1 个 DAI。而钱包（如 Metamask）有助于以一种相对简单的方式建立这种交易。\n\n\n让我们先来看看钱包将建立的交易，可以被表示为一个带有字段和相应数值的对象。\n\n\n我们的交易开始时看起来像这样：\n\n\n\n\n\n其中字段 to 说明目标地址。在此案例中，「0x6b175474e89094c44da98b954eedeac495271d0f」是 DAI 智能合约的地址。\n\n\n等等，什么？\n\n\n我们不是应该发送 1 个 DAI 给 Vitalik 吗？to 不应该是 Vitalik 的地址吗？\n\n\n嗯，不是。要发送 DAI，必须制作一个交易，执行存储在区块链（以太坊数据库的花哨名称）中的一段代码，将更新 DAI 的记录余额。执行这种更新的逻辑和相关存储都保存在以太坊数据库中的一个不可改变的公共计算机程序中 - DAI 智能合约。\n\n\n因此，你想建立一个交易，告诉合约「嘿，伙计，更新你的内部余额，从我的余额中取出 1 个 DAI，并添加 1 个 DAI 到 Vitalik 的余额」。在以太坊的行话中，「hey buddy」这句话翻…",
-          "link": "https://www.theblockbeats.info/news/37034",
-          "publishedOn": "2023-05-16T10:29:40.000Z",
-          "wordCount": null,
-          "title": "深度解析：在发送1个DAI时发生了什么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/37033",
-          "author": null,
-          "description": "比特币生态各赛道近期的表现异常亮眼，Ordinals 协议给比特币生态带来了空前的曝光度以及流动性，Inscriptions（铭文）使得比特币网络 NFT 成为可能，BRC-20 Token 标准的推出带领市场走向一波新高潮，比特币网络拥堵、手续费高昂也成为近期热门话题。\n\n\n\n\n情绪之下，一些新项目开始布局比特币 DeFi 方向，由于比特币网络的特殊性，DeFi 领域很少涉及，但居然连图片和 Token 都能炒起来，DeFi 似乎也不是没可能。BlockBeats 整理了一些比特币 DeFi 概念项目：\n\n\n\n\nDeFiChain\n\n\nDeFiChain 是一个创新性的 DeFi 平台，致力于提供快捷、智能、透明的 DeFi 服务。该平台旨在通过将 DeFi 功能完全集成到比特币生态系统中。DeFiChain 本身是比特币的硬分叉，其大部分编程代码与比特币相似，使用比特币共识机制来保护其网络。DeFiChain 提供各种 DeFi 服务，包括去中心化借贷、去中心化交易平台和去中心化资产管理。\n\n\n\n\n\n据 DefiLlama 数据显示，当前 DeFiChain TVL 约为 2.21 亿美元。DFI 是 DeFiChain 平台的原生 Token，可用于支付 DeFiChain 的网络费用，赚取贷款利息，并参与治理。平台无需许可，任何人都可以参与其生态系统。\n\n\n\n\nRootstock\n\n\nRootstock 是由比特币矿工担保的智能合约平台，目前是最安全的基于工作量的智能合约网络。作为比特币侧链，它通过扩大比特币货币的使用来提升比特币生态系统的价值，还在 EVM 等方面和以太坊有很好的兼容性。去中心化应用程序可以使用 Solidity 编译器和 Web3 标准库编写，从而实现以太坊兼容性。此外，它还可以通过 RIF Lumino 支付渠道网络提供的更多链上空间和链外交易…",
-          "link": "https://www.theblockbeats.info/news/37033",
-          "publishedOn": "2023-05-16T10:14:47.000Z",
-          "wordCount": null,
-          "title": "BRC-20后，比特币DeFi还远么？",
           "imageUrl": null
         }
       ]
