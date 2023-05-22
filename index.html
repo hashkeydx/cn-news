@@ -51,11 +51,244 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-22 datetime="2023-05-22T06:13:01.000Z">2023-05-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-22 datetime="2023-05-22T06:13:01.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-22 datetime="2023-05-22T07:26:24.000Z">2023-05-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-22 datetime="2023-05-22T07:26:24.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/37120"
+                        open
+                      >
+                        <summary class="article-expander__title">Lagrange协议：通过ZK实现无需信任的跨链互操作性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/37120">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Lagrange协议：通过ZK实现无需信任的跨链互操作性》
+原文来源：
+
+深潮 TechFlow
+
+
+
+跨链互操作性和安全性成为了当下区块链技术的一个挑战，ZK 初创公司 Lagrange Labs 给出了它的解决方案。Maven11 作为参投机构撰文对 Lagrange 的重要性进行了阐述，本文详细介绍 Lagrange 协议的核心概念、验证过程以及如何利用零知识证明技术实现无需信任的跨链操作。
+
+
+跨链状态证明对于多链世界中的应用程序至关重要。它使得应用程序能够使用不受信任的用户提交可验证的链状态声明。用例包括多链 DEX 定价、收益聚合器、借贷定价等。
+
+
+简单来说，状态（存储）证明是一种证明（零知识），证明了任意链上存在某种链上状态。通过零知识证明（ZKP）的魔力，我们可以高效且无需信任地实现这一点，而无需信任预言机网络。
+
+
+传统的消息传递协议依赖节点来传递信息，但 Lagrange 采用了不同的方法。它允许任何人加密验证信息提交，类似于 IBC 依赖轻客户端进行跨链验证。
+
+
+在 Lagrange 中，任何跨链传输层或不受信任的用户都可以提交在链上验证的非交互式证明。这些证明不依赖验证者集合或签名，确保直接在链上获取数据并在链之间高效地聚合。
+
+
+Lagrange 状态证明的验证涉及多个步骤：
+
+
+状态根验证：验证由 Lagrange 状态委员会生成的简洁零知识证明，显示给定状态根（区块头）的真实性。
+
+
+批量存储证明：验证一组声明的状态是否存在于特定链的状态根中。
+
+
+零知识分布式计算：验证在链上状态上执行的任意分布式计算。
+
+
+由于 Lagrange 状态证明是模块化的，协议可以选择使用状态、存储或计算的部分证明，以根据其应用程序定制证明系统。现有的跨链应用程序可以轻松提高其跨链工具的安全性或表现力。
+
+
+Lagrange 零知识大数据框架利用类似于 Verkle 树的动态数据结构，允许应用程序将高效的存储包含证明与任意分布式计算（如 MapReduce 或分布式 SQL）相结合。
+
+
+
+
+
+借助 LagrangeJS SDK，开发人员可以轻松请求任何链的状态证明，并指定在存储状态子集上运行的任意计算。这使开发人员能够在用户友好的界面中利用安全的跨链状态和存储证明。
+
+
+Lagrange SDK 还简化了同时生成跨多个链的状态证明的过程。这些证明使得与 Lagrange 协议集成的 DApp 可以将多个状态验证集成到单个链上交易中。
+
+
+Lagrange 协议通过整合主要区块链来促进跨链状态验证。最初，它与所有 EVM L1、L2 和 rollup 兼容。未来，计划支持 Solana、Sui、Aptos 和基于 Cosmos SDK 的链等非 EVM 链。
+
+
+此外，Lagrange 还致力于通过利用经济债券声明来改善现有跨链桥接和消息传递协议的安全性，为 Optimistic Rollup 创建强大的经济单槽保证最终确定性。这可以显著提高以太坊上孤立的 Rollup 之间的互操作性。
+
+
+其工作原理本质上是为 Optimistic Rollup 生成 ZK 轻客户端证明，而不是当前在以太坊上的「轻客户端」实现——即以太坊同步委员会。
+
+
+当前的以太坊同步委员会只有 512 个随机选择的验证者，他们每天获得更高的奖励以提供轻客户端功能。
+
+
+
+
+
+Lagrange 跨链状态委员会的安全性源于不断增长、动态大小的节点，这些节点具有经济债券，这些节点要么用 EigenLayeer 再质押，要么用流动性质押衍生品质押，例如 Rocket Pool。
+
+
+
+
+
+节点必须对每个在他们所证明的链上达到最终结果的新区块执行签名。与以太坊轻客户端同步委员会的 512 个节点上限相反，跨链状态委员会支持无限制的节点。因此，每个证明背后的抵押品可以根据需要动态扩展，为每个给定的链或 Rollup 创建安全证明。
+
+
+状态证明在诸如共享排序器等协议中具有重要用例，有助于改进跨 Rollup 通信，以及在 SUAVE 等实现中解决预言机问题。
+
+
+原文链接</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/37119"
+                        open
+                      >
+                        <summary class="article-expander__title">专访Arbitrum创始人：3人、9年、20亿市值</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/37119">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>从白宫走向Web3，为什么坚信OP Rollup扩容是最佳选择？“DAO资金门”原委，Stylus又有着什么新叙事？BlockBeats对Arbitrum的创始人Ed Felten进行了专访</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/37118"
+                        open
+                      >
+                        <summary class="article-expander__title">2023年第22周融资精选，比特币服务商相关融资逐步增加</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/37118">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>据 BlockBeats 统计，上周的融资总数为 25 笔，数量与上周变化不大，总金额约 35193.89 万美元，平均融资金额为 1407.76 万美元。其中，基础设施占据主体，资管支付和其他领域融资相对较多，社交/创作者经济融资数量有所增加，元宇宙/Gamefi、NFT/数字时尚和 DeFi 领域较少。下图为上周各板块融资占比：
+
+
+
+
+
+
+
+元宇宙/GameFi
+
+
+
+
+在元宇宙/GameFi 领域共计 3 笔融资，总金额 2691 万美元，占上周融资总额的 7.65%。
+
+
+ Super League 
+
+
+
+
+
+
+
+
+
+
+5 月 15 日，元宇宙公司 Super League 通过两笔可转换优先股交易完成 2380 万美元私募融资。根据纳斯达克规则，最终交易预计将于本周晚些时候完成，SternAegis Ventures 担任本次融资交易的独家配售代理，现有投资者、新投资者和配售代理的关联方参投。
+
+据悉，Super League 在 Roblox、Minecraft 和 Fortnite 等元宇宙游戏平台上提供游戏和数字空间体验，其创新解决方案能让消费者在元宇宙中进行社交、娱乐、探索、协作、购物、学习和创造。
+
+
+ Planetary
+
+
+
+
+
+
+
+5 月 16 日，Web3 和区块链技术厂商 nChain 宣布已向 3D 元宇宙平台 Planetary 投资 250 万英镑购买其 25% 的股权。
+
+据悉，Planetary 是一个虚拟的 3D 世界，人们可以在功能齐全的元宇宙中会面、工作和娱乐。Planetary 旨在整合 NFT 社区并为用户提供新的 play2earn 模型，该应用程序具有可定制的虚拟空间和各种货币化选项等创新功能，为创作者提供了新的收入机会。
+
+
+元宇宙/GameFi 领域其余融资包括：
+
+
+
+
+5 月 19 日，Web3 游戏发布平台…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/37116"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik：保持链的极简主义，不要让以太坊的共识过载</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/37116">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Vitalik：保持链的极简主义，不要让以太坊的共识过载》
+原文来源：Web3 大航海
+
+
+以太坊网络的共识机制是目前最安全的加密经济系统之一。价值 1800 万 ETH（约 340 亿美元）的验证节点每 6.4 分钟就会确认一个区块，这些验证节点运行了多种不同的协议实现以保证冗余。如果加密经济共识出现问题，无论是由于 bug 还是有意的 51% 攻击，一个由数千名开发者和更多用户组成的庞大社区都会仔细监控，确保链正确地恢复。一旦链恢复，协议规则将确保攻击者可能会遭受严重的惩罚。
+
+
+多年来，有许多想法（通常在思考实验阶段）提出利用以太坊验证节点集合，甚至以太坊社会共识，来达到其他目的：
+
+
+最终的预言机：提出一个用户可以通过发送 ETH 来投票表明事实真相的提案，采用 SchellingCoin 机制：每个投票给多数答案的人都可以获得所有投票给少数答案的 ETH 的比例份额。
+
+
+该描述继续说明：「所以原则上这是一个对称的游戏。打破对称的是 a) 真相是协调的自然点，更重要的是 b) 投注真相的人可以在他们输掉的情况下，威胁要分叉以太坊。」
+
+
+Re-staking：许多协议（包括 EigenLayer）使用的一套技术，在此基础上，以太坊的持币人可以同时把他们的股份作为在另一个协议中的存款。在某些情况下，如果他们违反了其他协议的规则，他们的存款也会被处罚。在其他情况下，没有协议内激励，股权仅用于投票。
+
+
+L1 驱动的 L2 项目恢复：多次提出，如果 L2 有一个 bug，L1 可以分叉来恢复它。最近的一个例子是这个设计，使用 L1 软分叉来恢复 L2 的失败。
+
+
+这篇文章的目的将详细解释为什么，我认为，这些技术中的一部分会给生态系统带来高度的系统风险，应该被阻止和抵制。
+
+
+这些提议通常是以良好的意图提出的，因此目标不是关注个人或项目，而是关注技术。本文将…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -534,129 +767,6 @@ Avalanche(AVAX)将于5月28日8时解锁9,541,800枚代币，价值约1.37亿美
                               <span>PANews 5月22日消息，ConsenSys推特发文澄清了关于ConsenSys服务条款的不准确信息，表示MetaMask不对加密货币交易征税。ConsenSys的目标是通过提供产品套件使 Web3更易于使用、访问和构建。所提及的税收条款仅适用于ConsenSys提供的需缴纳销售税的产品和付费计划，并不适用于MetaMask或其它无需缴纳销售税的产品。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/37118"
-                        open
-                      >
-                        <summary class="article-expander__title">2023年第22周融资精选，比特币服务商相关融资逐步增加</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/37118">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>据 BlockBeats 统计，上周的融资总数为 25 笔，数量与上周变化不大，总金额约 35193.89 万美元，平均融资金额为 1407.76 万美元。其中，基础设施占据主体，资管支付和其他领域融资相对较多，社交/创作者经济融资数量有所增加，元宇宙/Gamefi、NFT/数字时尚和 DeFi 领域较少。下图为上周各板块融资占比：
-
-
-
-
-
-
-
-元宇宙/GameFi
-
-
-
-
-在元宇宙/GameFi 领域共计 3 笔融资，总金额 2691 万美元，占上周融资总额的 7.65%。
-
-
- Super League 
-
-
-
-
-
-
-
-
-
-
-5 月 15 日，元宇宙公司 Super League 通过两笔可转换优先股交易完成 2380 万美元私募融资。根据纳斯达克规则，最终交易预计将于本周晚些时候完成，SternAegis Ventures 担任本次融资交易的独家配售代理，现有投资者、新投资者和配售代理的关联方参投。
-
-据悉，Super League 在 Roblox、Minecraft 和 Fortnite 等元宇宙游戏平台上提供游戏和数字空间体验，其创新解决方案能让消费者在元宇宙中进行社交、娱乐、探索、协作、购物、学习和创造。
-
-
- Planetary
-
-
-
-
-
-
-
-5 月 16 日，Web3 和区块链技术厂商 nChain 宣布已向 3D 元宇宙平台 Planetary 投资 250 万英镑购买其 25% 的股权。
-
-据悉，Planetary 是一个虚拟的 3D 世界，人们可以在功能齐全的元宇宙中会面、工作和娱乐。Planetary 旨在整合 NFT 社区并为用户提供新的 play2earn 模型，该应用程序具有可定制的虚拟空间和各种货币化选项等创新功能，为创作者提供了新的收入机会。
-
-
-元宇宙/GameFi 领域其余融资包括：
-
-
-
-
-5 月 19 日，Web3 游戏发布平台…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/37116"
-                        open
-                      >
-                        <summary class="article-expander__title">Vitalik：保持链的极简主义，不要让以太坊的共识过载</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/37116">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《Vitalik：保持链的极简主义，不要让以太坊的共识过载》
-原文来源：Web3 大航海
-
-
-以太坊网络的共识机制是目前最安全的加密经济系统之一。价值 1800 万 ETH（约 340 亿美元）的验证节点每 6.4 分钟就会确认一个区块，这些验证节点运行了多种不同的协议实现以保证冗余。如果加密经济共识出现问题，无论是由于 bug 还是有意的 51% 攻击，一个由数千名开发者和更多用户组成的庞大社区都会仔细监控，确保链正确地恢复。一旦链恢复，协议规则将确保攻击者可能会遭受严重的惩罚。
-
-
-多年来，有许多想法（通常在思考实验阶段）提出利用以太坊验证节点集合，甚至以太坊社会共识，来达到其他目的：
-
-
-最终的预言机：提出一个用户可以通过发送 ETH 来投票表明事实真相的提案，采用 SchellingCoin 机制：每个投票给多数答案的人都可以获得所有投票给少数答案的 ETH 的比例份额。
-
-
-该描述继续说明：「所以原则上这是一个对称的游戏。打破对称的是 a) 真相是协调的自然点，更重要的是 b) 投注真相的人可以在他们输掉的情况下，威胁要分叉以太坊。」
-
-
-Re-staking：许多协议（包括 EigenLayer）使用的一套技术，在此基础上，以太坊的持币人可以同时把他们的股份作为在另一个协议中的存款。在某些情况下，如果他们违反了其他协议的规则，他们的存款也会被处罚。在其他情况下，没有协议内激励，股权仅用于投票。
-
-
-L1 驱动的 L2 项目恢复：多次提出，如果 L2 有一个 bug，L1 可以分叉来恢复它。最近的一个例子是这个设计，使用 L1 软分叉来恢复 L2 的失败。
-
-
-这篇文章的目的将详细解释为什么，我认为，这些技术中的一部分会给生态系统带来高度的系统风险，应该被阻止和抵制。
-
-
-这些提议通常是以良好的意图提出的，因此目标不是关注个人或项目，而是关注技术。本文将…</span>
                             </span>
                           </div>
                         </a>
@@ -8130,8 +8240,8 @@ Santiment 数据显示，过去五周，随着比特币价格陷入停滞，持
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5042838977">
-        <time id="build-timestamp" datetime="2023-05-22T07:07:17.481Z">2023-05-22T07:07:17.481Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5043372612">
+        <time id="build-timestamp" datetime="2023-05-22T08:10:13.395Z">2023-05-22T08:10:13.395Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
