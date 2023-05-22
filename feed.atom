@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-22T00:39:48.287Z</updated>
+    <updated>2023-05-22T02:05:39.576Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4502,139 +4502,6 @@ Santiment 数据显示，过去五周，随着比特币价格陷入停滞，持
         <link href="https://panewslab.com/zh/articledetails/uy8r4204.html"/>
         <updated>2023-05-17T14:06:28.000Z</updated>
         <summary type="html"><![CDATA[PANews 5月17日消息，去中心化衍生品协议 GMX 的 V2 版本测试网现已公开发布，用户可在 Avalanche Fuji 测试网上进行测试，V2 版本的新功能包括市价订单、限价订单、止盈止损订单等。此外，V2 版本将实施资金费用以平衡多空比。用户除了尝试进行合约交易外，也可以测试提供流动性的功能。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么Crypto Game都开始转型做游戏平台了？]]></title>
-        <id>https://www.theblockbeats.info/news/37080</id>
-        <link href="https://www.theblockbeats.info/news/37080"/>
-        <updated>2023-05-17T14:00:01.000Z</updated>
-        <summary type="html"><![CDATA[GameFi赛道萎靡不振，项目急需转型，困境求生]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3开发者平台Airstack完成超700万美元融资，Superscrypt领投]]></title>
-        <id>https://panewslab.com/zh/articledetails/4eya8fw4.html</id>
-        <link href="https://panewslab.com/zh/articledetails/4eya8fw4.html"/>
-        <updated>2023-05-17T13:59:56.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月17日消息，据CoinDesk报道，由人工智能支持的 Web3 开发者平台 Airstack 完成 700 万美元融资，本轮融资由 Superscrypt 领投，Polygon、Hashed Emergent、NGC、Primal Capital、UOB Ventures 和 Signum Capital 等参投。这是pre-seed轮融资的后半部分，前半部分于 2023 年第三季度完成，Polygon等参投。
-Airstack 允许开发者使用 AI 支持的自然语言请求访问和利用链上数据。在宣布融资的同时，Airstack 推出了其 Jam 社交应用程序的更新版本。Airstack 目前免费提供服务，但该公司计划在未来实施定价模式。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[收益聚合协议Harvest推出V3版本，支持通过任意ERC-20代币进行投资]]></title>
-        <id>https://panewslab.com/zh/articledetails/187tmn8h.html</id>
-        <link href="https://panewslab.com/zh/articledetails/187tmn8h.html"/>
-        <updated>2023-05-17T13:49:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月17日消息，收益聚合协议Harvest推出V3版本，目前在以太坊主网、Arbitrum和Polygon上可用。该版本除了改进部分UI上的使用体验外，最主要的更新为通过与Wido的合作，支持用户将钱包内任意ERC-20代币资产转化为可进行投资的资产后与协议交互，无需用户手动进行交易操作。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[万字详解共享排序器：共享测序、聚合理论与垂直整合]]></title>
-        <id>https://www.odaily.news/post/5187147</id>
-        <link href="https://www.odaily.news/post/5187147"/>
-        <updated>2023-05-17T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《The Shared Sequencer》
-原文作者：MAVEN 11 
-原文编译：Kxp，BlockBeats
-想象一下，如果「开箱即用」的 Rollup 可以实现高度的抗审查性、易部署性、互操作性、快速确定性、活跃性和 MEV 民主化，会是怎样的境况。这似乎是一个宏伟的目标，但随着共享排序器的到来，这种想象可能很快就会成为现实。然而，并非所有的 Rollup 都一样，所以我们不得不考虑如何在共享排序器网络上分配奖励和 MEV 的问题。在本文中，我们将探讨共享排序器网络如何实现，以及可以实现的属性。
-共享排序器网络主要由 Alex Beckett 介绍，后来由 Celestia 和 Espresso Systems 团队的 Evan Forbes（以及 Radius），以及 Jon Charbonneau 的新文章更深入地介绍了该主题。Josh、Jordan 及其 Astria 团队正在构建第一个生产用的共享排序器网络。Astria 的共享排序器网络是一个模块化区块链，聚合和排序 Rollup 的交易，而不执行这些交易。
-
-在 Astria 的设置中，排序器将有序块发送到 DA 层，也会发送到 Rollup 节点。Rollup 从排序器获得软性确定性保证，从 DA 层获得硬性确定性保证（在块被确定后），然后它们将执行有效交易。
-共享排序器网络本质上是一个兼容 Rollup 的一组排序器，正如其名称所示，它可以为不同的 Rollup 提供服务。这有各种权衡和属性，我们稍后会详细介绍。首先，我们必须描述排序器（或排序器组）最重要的属性。在 Rollup 中，排序器或排序器组的主要要求是抗审查性或活跃性（其中一些来自于基础层，以及安全性）。这意味着提交给排序器的有效交易必须在有限的时间内（超时参数）包含在链中。共享排序器组只需要确保交易包含在块中（即 crLists…]]></summary>
-        <author>
-            <name>区块律动BlockBeats</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在Moonbeam上部署Uniswap V3的提案获得通过]]></title>
-        <id>https://panewslab.com/zh/articledetails/5sc5rirq.html</id>
-        <link href="https://panewslab.com/zh/articledetails/5sc5rirq.html"/>
-        <updated>2023-05-17T13:17:04.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月17日消息，Tally页面显示，Uniswap社区的“在Polkadot的EVM兼容平行链Moonbeam上部署Uniswap V3”的提案以近乎100%的支持率获得通过。
-根据该提案，GFX labs将负责目标链上合约的技术部署，跨链桥由Wormhole提供。Uniswap治理层批准该提案将导致所述Uniswap v3合约被视为Moonbeam上的规范部署。投票通过后，与所有规范的v3部署一样，此部署将受到以太坊Layer 1 Uniswap协议的治理和控制。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3初创公司Story Protocol完成A16z Crypto领投的2930万美元种子轮融资]]></title>
-        <id>https://panewslab.com/zh/articledetails/0q446153.html</id>
-        <link href="https://panewslab.com/zh/articledetails/0q446153.html"/>
-        <updated>2023-05-17T13:01:52.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月17日消息，据DealStreetAsia报道，Web3 初创公司 Story Protocol 完成 2930 万美元种子轮融资，a16z Crypto 领投，参投方包括 Hashed、Samsung Next Fund、Two Small Ventures、DAO5、Berggruen Holdings、Foresight Ventures、Mirana Corp 和 SLVC 等。根据会计与企业监管局 (ACRA) 的文件，A16z 通过其 CNK 种子基金向 Story Protocol 投资了 1000 万美元。
-Story Protocol 提供了一种在链上创建、管理和许可知识产权的方式，并形成了一个可以重新混合和组合的故事乐高生态，使创作者能够创作具有所有权和激励的故事。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欧盟推出的加密行业MiCA监管框架全解析]]></title>
-        <id>https://www.theblockbeats.info/news/37052</id>
-        <link href="https://www.theblockbeats.info/news/37052"/>
-        <updated>2023-05-17T13:00:01.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《
-
-7500 字长文：欧盟推出的加密行业 MiCA 监管框架全解析 - 加密大一统时代的开篇
-
-》
-原文作者：  Patrick Hansen,Circle欧盟战略与政策总监
-
-
-原文来源：
-
-LegalDAOCN
-
-
-
-对 NFT、DeFi、ICO——加密领域充满了首字母缩略词。最近进入主流加密货币说法的是 MiCA。MiCA 代表加密资产监管市场（Markets in Crypto-Assets Regulation)，这是欧盟即将出台的加密规则手册。
-
-
-它是当今全球最全面的加密资产框架，这就是为什么除了让人担心它可能会禁止欧洲的采矿和比特币交易外，它还引起了全球加密社区的关注。
-
-
-经过多年的紧张谈判和大约 10 个月前达成的政治协议，MiCA 终于在今天（4.20）的欧洲议会全体会议上正式投票通过。
-
-
-但由于 MiCA 的出台对于欧洲和其他地方的加密业务意味着什么仍然存在很大的困惑，本篇文章将阐明 MiCA 的起源、目标、主要监管类别和要求，以及它对加密行业的可能影响。
-
-
-
-截图来自于币安创始人/CEO 赵长鹏在 MiCA 投票通过后的推文
-
-
-MiCA 的起源 - 为什么欧盟决定领先世界？
-
-
-诚然，欧洲并不是当今最大的加密业务所在地。大部分价值创造和获取发生在美国和亚洲。在 2022 年全球加密采用指数中，没有一个欧盟国家跻身前 20 名。这就提出了一个问题：为什么欧盟首先决定推进这样一套全面的、具有区域范围约束力的法规？
-
-
-四个原因脱颖而出：
-
-
-1. 2018 年，欧盟委员会指示欧盟金融监管机构审查欧盟金融法对比特币等加密资产的适用性。2019 年初，欧洲银行管理局（EBA）发布的报告给出了明确建议：由于加密资产在很大程度上不受欧盟法律管辖，同时构成不可忽视的消费者保护和洗钱风险，因此，委员会应该采取行动
-
-
-2. 2020 年初，欧盟第…]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密初创公司Hourglass完成420万美元种子轮融资，Electric Capital领投]]></title>
-        <id>https://panewslab.com/zh/articledetails/6q7y7t80.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6q7y7t80.html"/>
-        <updated>2023-05-17T12:49:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月17日消息，时间绑定代币（time-bound tokens）基础设施公司 Hourglass 宣布完成 420 万美元种子轮融资，Electric Capital 领投，参投方包括 Coinbase Ventures、Circle Ventures、Tribe Capital 以及 Hack VC 等。
-Hourglass（时间沙漏）旨在为愿意在一定时间内将资产锁定在智能合约内的用户提供额外奖励。其发布了有史以来第一个时间绑定代币 (TBT) 的市场，它根据锁定时间段将用户在去中心化金融 (DeFi) 协议中的质押资产标记化。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
