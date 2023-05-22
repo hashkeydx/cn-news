@@ -2,10 +2,112 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-22T04:08:45.974Z</updated>
+    <updated>2023-05-22T05:07:36.082Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[韩国检方对议员金南国进行加密交易的平台运营商进行扣押搜查]]></title>
+        <id>https://panewslab.com/zh/articledetails/r8c4x6yo.html</id>
+        <link href="https://panewslab.com/zh/articledetails/r8c4x6yo.html"/>
+        <updated>2023-05-22T03:17:10.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月22日消息，据朝鲜日报报道，韩国首尔南部地方检察厅刑事部今日上午加密货币存款和兑换平台KLAYswap的运营商Ozys派出检察官和调查员，以调查国会议员金南国的加密货币交易细节。
+据悉，金南国通过KLAYswap进行了数十种山寨币交易，检方怀疑其可能通过这些交易进行洗钱，因此对KLAYswap运营商Ozys进行扣押搜查。
+此前消息，身陷加密货币丑闻的韩民主党议员金南国宣布退党后，被该国检方指控违反《政治资金法》和《资本市场法》，并涉嫌收受贿赂，检方此前还搜查了与其相关的Upbit和Bithumb账户。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget推出全网首创EVM地址及开放小额免密功能]]></title>
+        <id>https://panewslab.com/zh/articledetails/k725l54g.html</id>
+        <link href="https://panewslab.com/zh/articledetails/k725l54g.html"/>
+        <updated>2023-05-22T03:16:14.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月22日消息，Bitget推出全网首创的EVM地址功能，EVM 地址则是一个汇集了 ETH、BSC、MATIC、Arbitrum One、Optimism 等区块链网络的网络集合。用户添加 EVM 地址后，若提现的网络已包含在 EVM 地址中，则用户直接向 EVM 地址提现即可。一个地址可对应多个网络多个代币，用户均无需配置地址本，即可实现丝滑提币体验。
+此外，其同时推出小额免密功能，用户开启小额免密开关后，将单个地址设置为小额免密地址，该地址在提币时就可免除输入密码的步骤，提高用户小额提币的效率；小额免密适用于链上提币和内部转账。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitalik：保持链的极简主义，不要让以太坊的共识过载]]></title>
+        <id>https://www.theblockbeats.info/news/37116</id>
+        <link href="https://www.theblockbeats.info/news/37116"/>
+        <updated>2023-05-22T03:13:17.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Vitalik：保持链的极简主义，不要让以太坊的共识过载》
+原文来源：Web3 大航海
+
+
+以太坊网络的共识机制是目前最安全的加密经济系统之一。价值 1800 万 ETH（约 340 亿美元）的验证节点每 6.4 分钟就会确认一个区块，这些验证节点运行了多种不同的协议实现以保证冗余。如果加密经济共识出现问题，无论是由于 bug 还是有意的 51% 攻击，一个由数千名开发者和更多用户组成的庞大社区都会仔细监控，确保链正确地恢复。一旦链恢复，协议规则将确保攻击者可能会遭受严重的惩罚。
+
+
+多年来，有许多想法（通常在思考实验阶段）提出利用以太坊验证节点集合，甚至以太坊社会共识，来达到其他目的：
+
+
+最终的预言机：提出一个用户可以通过发送 ETH 来投票表明事实真相的提案，采用 SchellingCoin 机制：每个投票给多数答案的人都可以获得所有投票给少数答案的 ETH 的比例份额。
+
+
+该描述继续说明：「所以原则上这是一个对称的游戏。打破对称的是 a) 真相是协调的自然点，更重要的是 b) 投注真相的人可以在他们输掉的情况下，威胁要分叉以太坊。」
+
+
+Re-staking：许多协议（包括 EigenLayer）使用的一套技术，在此基础上，以太坊的持币人可以同时把他们的股份作为在另一个协议中的存款。在某些情况下，如果他们违反了其他协议的规则，他们的存款也会被处罚。在其他情况下，没有协议内激励，股权仅用于投票。
+
+
+L1 驱动的 L2 项目恢复：多次提出，如果 L2 有一个 bug，L1 可以分叉来恢复它。最近的一个例子是这个设计，使用 L1 软分叉来恢复 L2 的失败。
+
+
+这篇文章的目的将详细解释为什么，我认为，这些技术中的一部分会给生态系统带来高度的系统风险，应该被阻止和抵制。
+
+
+这些提议通常是以良好的意图提出的，因此目标不是关注个人或项目，而是关注技术。本文将…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gate.io正式开启10周年庆典，推出多项感恩回馈活动]]></title>
+        <id>https://panewslab.com/zh/articledetails/68oh6ddz.html</id>
+        <link href="https://panewslab.com/zh/articledetails/68oh6ddz.html"/>
+        <updated>2023-05-22T02:59:04.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月22日消息，据官方公告，数字资产交易所Gate.io已于5月20日正式开启以“拾光如初，与您同行”为主题的10周年庆典。为感谢全球超1300万用户的支持与信赖，周年庆典推出多项回馈活动，包含拾光信笺、赢兰博基尼、Gate Charity1:1捐赠、加密世界杯、红包大派送、P2P专属奖池等。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩国国会政治改革特别委员会通过将加密货币纳入立法者私人利益登记的法案]]></title>
+        <id>https://panewslab.com/zh/articledetails/dwpd5so2.html</id>
+        <link href="https://panewslab.com/zh/articledetails/dwpd5so2.html"/>
+        <updated>2023-05-22T02:57:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月22日消息，据韩联社报道，韩国国会政治改革特别委员会今日上午召开法案审查第1小委员会，一致投票通过了一项国会法律修正案，该修正案要求国会当选议员必须在国会伦理审查咨询委员会登记其虚拟资产。该修正案旨在在现行法律规定的立法者“私人利益登记”的主体中涵盖虚拟资产，以防止相关立法活动中可能存在的利益冲突。改革特别委员会将于今天下午召开全体会议通过修正案，并计划在5月25日的全体会议上最终确定该法案。
+此外，据Fecenter报道，韩国国会行政安全委员会今日举行第一次立法审查小组委员会会议，审议了《公职人员道德法修正案》，要求公职人员登记其虚拟资产。该委员会将于本月24日、25日连续举行全体会议，以便在定于25日举行的全体会议上最终通过修正案。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：某巨鲸地址于8小时前将36834枚GMX兑换成213万枚DAI]]></title>
+        <id>https://panewslab.com/zh/articledetails/6s2uipib.html</id>
+        <link href="https://panewslab.com/zh/articledetails/6s2uipib.html"/>
+        <updated>2023-05-22T02:38:55.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月22日消息，据链上分析师余烬监测，8小时前，0x2535开头的鲸鱼地址卖出 36,834枚GMX换成213万枚DAI（均价58.3美元）。受此影响，CEX的GMX价格也由61.4美元下跌至60.2美元。
+该鲸鱼GMX是在3月14日以71.9美元的均价买入，现以58.3售出，本次投资GMX实现亏损50万美元。不过在此前他还有过一次GMX投资，那次是盈利的：他在1月25日至1月26日，以128万美元买入28,872枚GMX （均价44.3美元）。3月9日至3月11日，以185万美元售出（均价 64.2美元），实现盈利57万美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mina推出激励测试网Testworld Mission 2.0，旨在为硬分叉做准备]]></title>
+        <id>https://panewslab.com/zh/articledetails/k3mttpvg.html</id>
+        <link href="https://panewslab.com/zh/articledetails/k3mttpvg.html"/>
+        <updated>2023-05-22T02:19:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月22日消息，轻量级区块链Mina在推特上宣布，将推出Mina激励测试网Testworld Mission 2.0，为验证者、zkApp开发者和用户提供在即将到来的硬分叉之前测试Mina区块链的机会。
+Testworld Mission 2.0的目标是在所有条件下对网络进行Battle测试，确保SnarkyJS和与zkApp相关的代码按计划运行。为实现这些目标，测试网将采取4个不同的路径，分别是：zkApp端到端（E2E）测试、外部安全审计、协议和性能测试、硬分叉准备。
+目前，zkApp端到端测试已完成，外部安全审计、协议和性能测试正在进行中，已确定审计者与节点运营商，将很快上线并运行约2个月，硬分叉准备将很快开始。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[用20张图打碎“比特币减半周期论”]]></title>
         <id>https://www.odaily.news/post/5187220</id>
@@ -4480,16 +4582,6 @@ Santiment 数据显示，过去五周，随着比特币价格陷入停滞，持
         <link href="https://panewslab.com/zh/articledetails/pq3en876.html"/>
         <updated>2023-05-17T17:25:57.000Z</updated>
         <summary type="html"><![CDATA[PANews 5月18日消息，据彭博社报道，Citadel Securities起诉两名前雇员窃取商业机密。根据周三提交的一份起诉书，Citadel Securities声称，Leonard Lancia和Alex Casimo在该公司任职期间，开始筹集资金并创建加密做市商Portofino Technologies。在一项内部调查中，Citadel Securities发现了Portofino早期筹款活动的信息和一份推介材料，而几个月后，两人宣布辞职。起诉书中称，两人“肆无忌惮地窃取了Citadel Securities的商业机密，并向他们的同事撒谎”。Citadel Securities正在寻求审判，以确定经济损失程度和可能赔偿。去年9月，Portofino获得了5000万美元的风险投资。据悉，Lancia是Citadel Securities欧洲衍生品系统做市业务的负责人，而Casimo则是该公司欧洲业务管理团队的一员。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ParaSpace创始人Yubo：两名前顾问同意交出多重签名和推特账户权限，已成功在Arbitrum网络部署协议]]></title>
-        <id>https://panewslab.com/zh/articledetails/zlzku414.html</id>
-        <link href="https://panewslab.com/zh/articledetails/zlzku414.html"/>
-        <updated>2023-05-17T16:50:30.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月18日消息，NFT借贷协议ParaSpace创始人Yubo在推特发布的视频中表示，该协议目前运营一切正常。团队一直在与机构伙伴密切合作，以增加流动性并降低利率。内部团队正在重组过程中，将为社区带来更多透明度。两名前顾问Thomas Schmidt和Jay Yao同意交出多重签名和官方推特账户权限，但要求Yubo承认其为项目做出的贡献并保留其联合创始人头衔。两人将在签署双方和解协议后离开团队。此外，项目团队已成功在Arbitrum网络部署协议，并将与Arbitrum团队展开更多合作。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
