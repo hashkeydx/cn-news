@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-24T10:07:36.088Z</updated>
+    <updated>2023-05-24T11:05:57.557Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -28,6 +28,66 @@ Shaquille O'Neal此前曾收到FTX集体诉讼案诉讼书。]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[BRC-20热潮过后，SRC-20又是什么？]]></title>
+        <id>https://www.odaily.news/post/5187301</id>
+        <link href="https://www.odaily.news/post/5187301"/>
+        <updated>2023-05-24T09:34:39.000Z</updated>
+        <summary type="html"><![CDATA[BRC-20 的热潮刚过，SRC-20 的大风又刮起了，为了不耽误小伙伴们赚（kui）钱的速度，带你快速了解和入门 SRC-20 的科普来了。
+本文将为大家从以下几个方面科普： 
+
+Stamps 与 SRC-20 是什么？
+
+如何 Mint SRC-20 ？
+
+如何购买 Stamps？
+
+SRC-20 的相关网站 
+
+Stamps 与 SRC-20 风险
+
+一、SRC-20 是什么 ？
+在了解 SRC-20 之前，我们需要先知道什么是 BTC Stamps，该协议由 @mikeinspace 发明，他与 Ordinals 的最大区别是 Ordinals 的图片/文本信息是存储见证数据中，而 Stamps 数据存储在交易输出中，该差异造成了 Stamps 的一个重要特点，即永远可以存在 BTC 链上，全节点必须同步该数据。
+
+图源网络
+而 SRC-20/21 是基于 Stamps 协议开发的代币标准，在 5 月 17 号 SCR-20 升级成 SRC-21 后，mint 的 gas 费成本得到了优化，gas 费大大降低，降低了进入的门槛，这也是最近 SRC-20 风开始变大的原因之一。
+目前 SRC-20 的首个代币为$KEVIN，目前仅能场外交易。
+
+
+二、如何 Mint SRC-20 ？
+
+目前 Mint 的主流网站之一是：https://stampchain.io/src 20/只需选择 Mint，填入 tick 和数量，以及接受 SRC-20 的地址，需要注意，选择接收 SRC-20 或者 Stamps 小图片的地址要选择 bc 1 q 开头的。
+
+Mint 完后去https://stampchain.io 填写地址查询 Stamps 的序列号，（注意，不是有出现图片就代表 mint 成功了）
+在查询完序列号后要检查该 Stamps 有没有打废，因为有时候 mint 进度超出 100% 后 mint 到的 Stamps 也会出现图片，但其实超出 100% 后 mint 到的都是废图。
+
+因此我们需要去https://crypt 0 biwan.github.io/src 20/ 该网站找到对应的 Stamps，点击蓝色感叹号，找到 100% 进度的序列号，然后跟自己的序列号进行对比，如果自己的序列号在 100% 内，则打成功，如果在 100% 外，则失败了。
+三、如何购买 Stamps （非 SRC-20 ）？
+进入交易市场https://rarestamp.xyz/listing/0 后选择 Only Listed, 然后选取 Open Dispensers 下列出的挂单，点进去后跳转付款，需注意，付款也需要选择 bc 1 q 开头的地址付款，目前主流推荐的钱包是 Hiro Wallet 进行付款，付款后可去https://xchain.io 查询记录。
+
+
+四、SRC-20 的相关网站
+
+
+Stamps mint 网站：https://stampchain.io/src 20/
+
+代打网站：https://rarestamp.xyz/minting/src 20 
+
+Stamps 交易平台：https://rarestamp.xyz/0 
+
+查询 Mint 情况即持仓：https://stampchain.iohttps://stampscan.xyz/minting
+
+链上交易情况查询：https://xchain.io
+
+五、风险提示
+1、目前 SRC-20 的基础设施十分不完善，跟 BRC-20 相比，索引机制和交易市场体验和功能都较差; 
+2、需要注意最好创建新钱包来 Mint，不要使用含有 BRC-20 的钱包，以防把 NFT 当成 Gas 费花了; 
+3、网上的攻略和教程可以多看看，确保每一步都是到位的，尝试过程要注意的细节很多，需要耐心和细心。
+原文链接]]></summary>
+        <author>
+            <name>Biteye</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Synthetix创始人讨论将SNX拆分并回购以解决代币通胀问题的可行性]]></title>
         <id>https://panewslab.com/zh/articledetails/bjqt371z.html</id>
         <link href="https://panewslab.com/zh/articledetails/bjqt371z.html"/>
@@ -48,6 +108,22 @@ Shaquille O'Neal此前曾收到FTX集体诉讼案诉讼书。]]></summary>
 此前消息，荷兰当局于去年8月逮捕了Alexey Pertsev，罪名为涉嫌通过Tornado Cash“隐瞒犯罪资金流动和协助洗钱”。今年4月，Pertsev已被保释。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一周5亿TVL，深挖PulseChain异军突起背后的故事]]></title>
+        <id>https://www.odaily.news/post/5187299</id>
+        <link href="https://www.odaily.news/post/5187299"/>
+        <updated>2023-05-24T08:42:20.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：蒋海波，PANews
+区块链上的资金从 2021 年以来开始下降，新公链难以吸引大量资金。但近期上线的 PulseChain 和链上去中心化交易所 PulseX 却让人意外，PulseX 在上线一周时间里为 PulseChain 吸引了 5 亿美元的 TVL，使 PulseChain 的 TVL 直接升至第八位。在本文中，PANews 将带你了解 PulseChain 异军突起的背景和潜在风险。
+创始人 Richard Heart 与颇受争议的 HEX
+PulseChain 的成功和它的创始人 Richard Heart 的背景密不可分。从推特数据看，PulseChain 的官方推特少有更新，而创始人 Richard 则在卖力营销，并取得了很好的效果。可以说 PulseChain 的成功主要是因为创始人 Richard 的背景，这就要从他曾经创造的加密货币 HEX 说起。
+HEX 于 2019 年 12 月初通过比特币 UTXO 快照在以太坊上发行，比特币的持有者可以免费领取。HEX 是世界上第一个高息区块链存款证明，也被称为传统定期存款的加密版本。Richard 称 HEX 能够以一种更好的方式将金钱的时间价值货币化，在传统世界中，货币发行量不断增加，价值逐渐降低。HEX 的通货膨胀率是设定好的，在一年内下降到 3.69% 以下。
+HEX 的持有者可以将他们的代币质押一段时间（1-5555 天），在到达指定期限时获得投资的本金和利息。质押者可以享受到可观的增值速度，持有 HEX 而不锁定的用户将遭遇通胀，如果提前结束质押则会遭受很大损失。比如在 3.69% 的通胀率下，质押率为 10% ，那么质押者的质押年化收益率为 36.9% 。
+HEX 在发行时遭到了很多批评，其中包括代币领取中的隐私问题和类似庞氏骗局的代币结构。比特币持有人虽然在最初时能够免费领取 HEX…]]></summary>
+        <author>
+            <name>PANews</name>
         </author>
     </entry>
     <entry>
