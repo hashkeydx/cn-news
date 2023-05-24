@@ -51,11 +51,245 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-24 datetime="2023-05-24T01:35:21.000Z">2023-05-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-24 datetime="2023-05-24T01:35:21.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-24 datetime="2023-05-24T04:03:59.000Z">2023-05-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-24 datetime="2023-05-24T04:03:59.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187242"
+                        open
+                      >
+                        <summary class="article-expander__title">上海升级后ETH Staking市场需求、收益率和产品的演变</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187242">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>提款潮之后 ETH 质押需求上升
+自 2020 年 12 月以来，以太坊信标链上就可以进行 ETH 质押，但直到上个月的上海升级后才启用了质押提款。上海升级之后，由于以太坊验证者能够提取质押的 ETH，市场对 ETH 质押的需求显著增加 。
+目前，ETH 持有者可以通过设置网络验证器或 LSD 等质押服务商来参与质押，每年赚取 4-6 ％的 ETH 币本位收益。在大多数投资者眼中，开放 ETH 质押提款提高了资金灵活性，再也无需担心资金会在很长一段时间内被锁定，质押风险大大降低。
+
+从 ETH 质押存款和提款的走势图来看，上海升级之后，提款潮正在逐渐平息，而最近质押存款已经大大超过了提款数量。
+ 根据 Wenmerge.com 5 月 20 日的数据，有 62932 个“准验证者”正在质押等待队列中，如果目前想要在以太坊网络上排队质押 ETH，需等待 34 天 2 小时；而等待退出质押的验证者仅 6 个，几乎已经不需要排队等待。
+
+根据 OKLINK 数据，上海升级时（4 月 12 日）ETH 质押数约为 1801 万枚 ETH，而 5 月 18 日 ETH 质押数达到了 1841 万，在经历了几波提款潮之后，ETH 的质押数反而增加了 40 万枚。
+由于 ETH 的总供应量约为 1.2 亿枚，这意味着以太坊当前的质押参与率为 15.47 ％，比上海升级前 15.1% 有所上升。
+ETH 潜在的双重“通缩”趋势
+对比其它如 Cardano、Solana、Avalanche、Cosmos 等可灵活撤出质押的 PoS 区块链（质押参与率都在 60-70 ％的范围内），ETH 的质押率还有很大的上升空间。Ebunker 创始人 Allen 以预测，以太坊的未来质押率大概在 40% 左右。当然，鉴于每天仅允许 50, 000 多枚 ETH 从质押合同中撤出，ETH 质押提款严格来说…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187282"
+                        open
+                      >
+                        <summary class="article-expander__title">一文探讨Rollup扩容方案的演进思路和设计缘由</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187282">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：ORFEO
+原文来源：The SeeDAO
+L2 项目再次成为万众焦点。
+作为 L2 中 Rollup 扩容路线的代表，前脚 Arbitrum 空投完，后脚 zkSync Era 就上线了。层出不穷的新设计、路线图背后，Rollup 到底有一条什么主线，演进的思路是怎样的，今天就来理一理。
+本文要点：
+
+写给三年级看的 L1 的扩容思路
+
+从零设计一个 Rollup 方案
+
+如何用零知识证明让 Rollup 再进化
+
+从一个类比说起
+对比特币、以太坊而言，自诞生起，来自普通用户的最大诟病有二：
+
+慢：本来就车道窄，车稍微一多就堵得水泄不通。
+
+贵：平峰过路费就不便宜，要遇到高峰期想快点过，更是要使用「钞能力」，加钱让矿工开直升机来捞你。
+
+这俩诟病之处，分别源于区块链设计上的 2 个因素：
+
+区块容量：类比车道，区块容量越大，能容纳的车就越多，就越不容易堵。
+
+激励机制：再大的车道，都有堵的可能，这种时候让谁先过呢，看谁有急事，但不能光听人嘴上说，得看掏钱意愿，比如叫救护车一趟就要好几百。
+
+要是区块链真可以类似车道，那么治本之策自然是奔着拓宽车道去，同时配合价格手段来在出门时间上进行疏导，不急的就先别出门了。
+然而，拓宽车道，提升区块容量，虽然是个诱人的通行效率解决方案，但在区块链设计上，却是舍本逐末了。因为区块容量越大，对矿工的硬件要求就越高，能达到要求的矿工就越少；按这种思路，要想做到像 Visa 那样每秒处理成千上万条交易，最终只会做出另一个中心化的 Visa，与区块链去信任的核心目的南辕北辙。
+那还有其他解法吗？有的，除了在时间上疏导，我们在空间上也可以优化，包括但不限于：
+
+开辟不同车道，大货车走一条，小轿车走一条，公交车走一条，互不干扰 — — 基于这个思路，我们可以来些各有所长的主链、侧链或 Plasma。
+
+优化路线设计，适当分流，别进城干点啥都…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187281"
+                        open
+                      >
+                        <summary class="article-expander__title">距比特币减半不足一年，周期理论还靠得住吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187281">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>撰文：Zero Ika
+编译：Luffy，Foresight News
+比特币减半是加密世界中许多人关注的话题。从历史上看，它通常是新一轮牛市的催化剂。这篇推文是关于我对比特币周期的分析。
+
+什么是比特币减半？
+比特币减半是一项旨在减少矿工获得区块奖励的计划。在比特币于 2019 年推出时，矿工可以从每个区块获得 50 BTC 奖励。之后每经过大约四年时间，这个奖励会减少为此前的一半。
+
+2012 年减半：每个区块 25 BTC 奖励
+
+2016 年减半：每个区块 12.5 BTC 奖励
+
+2020 年减半：每个区块 6.25 BTC 奖励
+
+2024 年减半：每个区块 3.12 BTC 奖励
+
+减半的目的
+由于比特币创建于 2009 年（2008 年全球经济危机之后），其目标是成为一种不受通货膨胀影响的法定货币的替代品。因此，减半对于创建通货紧缩的货币协议至关重要。
+一些误解
+人们普遍认为，比特币每 4 年产生一次牛市，每 4 年发生一次减半。
+这并不完全正确。具体时间不是准确的 4 年，而是取决于出块时间，每 210, 000 个区块发生一次减半。
+供求规律
+从历史上看，比特币减半发生后几个月总是伴随着牛市。这是供求关系导致的，资产越稀缺，随着需求的增加，它的价值就越大。
+
+因此，价格与减半之间的关系是由需求决定的，这并不意味着价格一定会上涨。由于区块奖励减半，即使买家数量不变，也将有助于提高价格。这就是供求规律的运作方式。
+预测
+每个人都试图「预测」周期，渴望抓住比特币的顶部和底部来提高投资组合的收益。
+但「预测」往往是最困难的，因为许多事情可能会破坏我们的理论基础：
+
+黑天鹅（Covid、战争等）
+
+意外事件（FTX + LUNA 崩溃等）
+
+白天鹅（货币政策的变化等）
+
+所以，拥有开放的心态很重要。
+无论如何，周期都是为我们提供更好导航的「指南针」。如果将比特币的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187280"
+                        open
+                      >
+                        <summary class="article-expander__title">挪用资产、资不抵债？WOO X回应均为不实资讯</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187280">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Nancy，PANews
+2022 年，CoinDesk 爆料 FTX 旗下对冲基金 Alameda Research 的资产负债表存在极大隐患后，间接触发了 FTX 的崩溃，且在后续调查中两者之间的关联交易、挪用用户资产等真相也浮出水面。
+而在 5 月 23 日，Karlstack 媒体调查记者 Chris Brunet 也发文警告称去中心化加密交易平台 WOO X 的资金储备存在与 FTX 类似问题，且怀疑平台已挪用用户资产投资造成资不抵债。对此，WOO X 予以否认并称用户可自行决定风险，未来将引入更多的流动性服务商。
+WOO Network 是由全球前五大的加密货币量化交易团队 Kronos Research 于 2019 年所孵化的流动性网络，曾获得 Binance Labs、三箭资本、PSP Soteria Ventures、QCP Capital 和 Gate Ventures 等机构千万美元级别投资。WOO X 则是 WOO Network 的旗舰产品，是面向专业交易者的交易平台，公开资料显示，Kronos Research 的最初角色是在 WOO X Global 上引导流动性，为多种代币对提供即时的深度流动性，帮助平台吸引交易员并获得关键用户，激励其他做市商进一步入场改善流动性。简单来说，与 FTX 和 Alameda Research 的关系类似，WOO X 同样有个对冲基金 Kronos Research。
+从 Chris Brune 发布的内容来看，他从多个方面的数据和服务条款怀疑 Kronos Research 利用客户存款从事风险活动，以及 WOO X 存在资不抵债的情况。
+Chris Brune 指出，WOO X 服务条款显示 WOOTECH Limited 有权自行决定将用户在 WOO X 账户下持有的部分或全部数字资产出借给做市…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187279"
+                        open
+                      >
+                        <summary class="article-expander__title">一文梳理香港虚拟资产交易平台监管文件关键信息</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187279">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来源：《有关适用于获证券及期货事务监察委员会发牌的虚拟资产交易平台营运者的建议监管规定的咨询总结》
+原文编译：angelilu，Foresight News
+香港证券及期货事务监察员会（证监会）发布了公众对监管持牌虚拟资产交易平台建议的咨询总结，证监会收到了 152 份意见书，根据公众的反馈意见，证监会对其中的 10 个主要问题进行了总结并做出了回应，下文为主要内容概述。证监会表示，修订后的香港《虚拟资产交易平台营运者指引》及《打击洗钱指引》将于 6 月 1 日生效。
+第⼀部分：有关适⽤于持牌虚拟资产交易平台运营商的建议监管规定的修改
+1.你是否赞同，持牌平台营运者在采取所建议的妥善投资者保障措施的前提下，应获准向零售投资者提供服务？ 请说明你的看法。
+证监会注意到回应者大力支持允许持牌虚拟资产交易平台向零售投资者提供服务，并对与零售客户建立业务关系的规定表示支持，他们也大力支持本会要求持牌虚拟资产交易平台设立代币纳入及审查委员会以加强治理。
+为确保零售投资者的保护，持牌虚拟资产交易平台在向零售投资者提供服务前需遵循一系列涵盖业务关系、治理、披露和代币审查的措施。零售投资者需要了解虚拟资产的特点和风险，本会将继续与投资者和理财教育委员会合作，进行相关的教育工作。
+证监会已经考虑放宽与零售客户建立业务关系的特定规定的建议。本会认为平台运营者应全面评估投资者对虚拟资产性质和风险的了解，并对《虚拟资产交易平台指引》进行相应修订，证监会将以常⻅问题的形式发布发布⼀步指南（例如关于如何评价客⼾对虚拟资产的⻛险承接以及⻛险承接能⼒） 。
+涉及委员会成员与平台运营者之间的利益冲突也受到重视。为此，平台运营者应设立内部政策和程序来妥善处理这些冲突。
+持牌虚拟资产交易平台在纳入每个虚拟资产之前需要进行尽职调查，证监会已对《虚拟资产交易平台指引》中的信息披露责任进行了微调，规定平台运营者应…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187278"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | 香港将从6月起实施虚拟资产交易监管规定；LayerZero称暂无空投计划（5月24日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187278">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>头条
+香港证监会：将从 6 月 1 日起实施虚拟资产交易监管规定
+
+Odaily星球日报讯 香港证监会官网消息，有关适用于获证券及期货事务监察委员会发牌的虚拟资产交易平台营运者的建议监管规定的咨询期于 2023 年 3 月 31 日结束，回应者普遍支持适用于持牌虚拟资产交易平台的建议监管规定。经修订的建议监管规定将于 2023 年 6 月 1 日生效。 
+香港证监会表示，本会注意到，回应者对容许持牌虚拟资产交易平台向零售投资者提供服务表示大力支持。本会将落实有关容许持牌虚拟资产交易平台向零售投资者提供服务的建议。
+香港将允许散户投资者在新规则下交易主流加密货币，暂时禁止稳定币、自营交易和借贷等服务
+Odaily星球日报讯 香港宣布散户投资者可以根据数字资产行业的新规则进行加密货币交易，香港证券及期货事务监察委员会（SFC）今日下午详细介绍了零售参与的咨询总结文件。预计个人投资者从 6 月 1 日开始在适当的保障措施下可以交易 BTC、ETH 等主流加密货币。
+SFC 文件显示，对于规定非证券型代币须具有至少 12 个月往绩纪录的意见。稳定币的监管安排预计将于 2023/24 年实施。在稳定币于香港受到规管前，稳定币不应获纳入以供零售买卖。关于自营交易，SFC 同意交易平台上的流动性对客户来说十分重要。因此，SFC 允许由第三方做市商进行流动性提供活动。然而，现时禁止自营交易的规定是全面性的，并实际上禁止持牌虚拟资产交易平台的集团公司拥有任何虚拟资产的持仓。
+SFC 表示，平台营运者不应提供与买卖特定虚拟资产相关的奖励活动。这项原则构成了规定平台营运者不应登载有关特定虚拟资产的任何广告的依据。关于虚拟资产市场上其他常见服务（例如收益、存款及借贷），SFC 不允许持牌虚拟资产交易平台提供这些服务。（彭博社）
+香港证监会：散户最快下半年可在发牌交易平台买卖虚拟资产
+Odaily星…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +301,320 @@
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/9c8sqagp.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Polygon集成De.Fi的Web3防病毒软件以阻止黑客攻击</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9c8sqagp.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据Beincrypto报道，以太坊L2解决方案Polygon已与De.Fi合作，将De.Fi的防病毒软件集成到Polygon生态系统中。Polygon将可为其用户提供了一套DeFi安全工具套件，理论上可以防止常见的加密攻击。这些工具解决了网络钓鱼、智能合约漏洞、盲签等问题，增强了Polygon网络上交易的安全性和保障性。
+其中De.Fi Shield的运行方式类似于传统的防病毒软件，扫描用户PC上下载的文件，它还会扫描钱包中的智能合约批准，如果用户接触到有风险的合约，就会发出提醒。De.Fi Scanner是一种尽职调查工具，使用户能够在参与之前评估NFT 、代币或质押金库的安全级别。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/2ufs64fm.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Uniswap基金会就如何分配约440万枚ARB征集社区提案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2ufs64fm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据治理页面显示，Uniswap基金会管理者之一Erin Koen在Uniswap社区就“如何分配约440万枚ARB”征集提案。提案期持续两周至6月7日。届时，已获得社区反馈的提案应根据批准的治理流程将其纳入新的温度检查提案。
+据悉，Arbitrum DAO已经将部分ARB代币分配给基于Arbitrum生态并为其发展做出贡献的协议。作为分配的一部分，Uniswap将收到约440万枚ARB。这些代币将发送至DAO在Arbitrum上的别名地址；如何部署分配需要经过正常的治理投票。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/v07bz3c4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">加密初创公司Prometheum已找到根据经纪商规则向美SEC注册的途径，但不支持比特币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/v07bz3c4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据彭博社报道，加密初创公司Prometheum Ember Capital表示，它已获得美国证券交易委员会（SEC）指导方针下的第一个特殊用途经纪交易商许可证，该许可证将允许其托管数字资产证券。但有一个问题：它不支持比特币。Prometheum Ember Capital称，该批准使该公司能够作为合格托管人代表个人和机构客户保管数字资产证券，最终使其母公司Prometheum Inc.能够为客户提供加密货币交易。
+Prometheum Inc.联席首席执行官Aaron Kaplan称：“公司的整体论点是数字资产是证券，监管它们的最佳方式是根据联邦证券法。”Prometheum拒绝透露其将支持的代币列表，称将基于其内部确定资产是否为数字资产证券。 Kaplan称：“Gensler主席曾表示，绝大多数数字资产，基本上除了比特币之外的所有资产，都是一种证券，我们持相同观点，并希望能够支持其中的许多资产。”
+一些法律专家表示，该许可证的首次批准标志着一个重要的里程碑，尽管公司目前可以使用它做的事情有限。然而，对于现有的加密货币交易所，获得特殊经纪人许可证可能很复杂。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/e3wjunxa.html"
+                        open
+                      >
+                        <summary class="article-expander__title">郑州拟出台元宇宙产业方案：设100亿基金，主板上市奖2000万元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/e3wjunxa.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据大河报报道，郑州市发改委就《郑州市元宇宙产业发展实施方案（征求意见稿）》和《郑州市元宇宙产业发展若干政策（征求意见稿）》向社会公开征求意见。征集意见时间为2023年5月24日-5月31日。
+《郑州市元宇宙产业发展实施方案（2023-2025年）（征求意见稿）》提出发展目标：到2025年，元宇宙核心产业规模突破500亿元，带动相关产业规模超过2000亿元。引进培育“100+”元宇宙领先企业，培育“300+”家创新型中小企业，打造“50+”典型应用场景。力争经过三年努力，把郑州市打造成为全国一流元宇宙创新之城、产业之城、融合应用之城。
+《郑州市元宇宙产业发展若干政策（征求意见稿）》则提出：郑州市设立总规模100亿元的元宇宙产业发展专项基金，并联合部委、省财政部门及社会投资机构，建成500亿元专项基金，用于支持郑州市元宇宙产业发展。鼓励元宇宙企业上市，对于主板上市企业，给予2000万元一次性奖励。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/h63oxvhm.html"
+                        open
+                      >
+                        <summary class="article-expander__title">香港虚拟资产交易平台 Gate.HK 已于5月23日上线</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/h63oxvhm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据官方消息，香港虚拟资产交易平台 Gate.HK已于5月23日正式开启网站并开放注册和交易服务，Gate.HK专注于为虚拟资产投资者提供优质的虚拟资产交易体验，目前支持BTC、ETH及LTC的现货交易，将陆续提供更多交易服务。据悉，此前Gate.HK已根据最新的监管要求准备向香港证监会申请虚拟资产服务提供者 (VASP) 的牌照，旨在为香港用户提供合规的虚拟资产交易服务。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/8jndec6o.html"
+                        open
+                      >
+                        <summary class="article-expander__title">派盾：CS Token遭黑客攻击，71.4万枚USDT被盗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8jndec6o.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据派盾预警监测，新生的代币CS Token被黑客攻击，共盗走71.4万枚USDT。据悉，该黑客最初从Tornado Cash将1枚BNB转换成约383枚ETH，而后将这些ETH混入了Tornado Cash中。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/2cppc3lz.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Cosmos集成ICS-721标准以实现跨链NFT跟踪和传输</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2cppc3lz.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据NFT Gators报道，Cosmos近日宣布已集成新的NFT互操作性标准ICS-721，该标准将允许用户在不使用桥接协议的情况下跨区块链跟踪和传输他们的NFT，并支持NFT在游戏、web3身份协议和社交平台等多个领域的整合。
+据悉，ICS-721被描述为一种应用层区块链间通信(IBC)协议，使区块链之间的通信不需要桥接协议。ICS-721 NFT标准是Interchain Foundation和Bianjie的合作项目，旨在通过实现跨链互操作性为跨链NFT添加实用程序。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/31xt65um.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美CFTC专员：加密公司不应将CFTC视为比SEC更友好的监管机构</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/31xt65um.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据路透社报道，美国商品期货交易委员会 (CFTC) 的五名专员之一Christy Goldsmith Romero表示，加密货币案件约占该机构案件的20%，其中包括最近针对交易所币安和FTX的民事案件。Goldsmith Romero称：“这个领域有很多欺诈行为，我们无法监管所有欺诈行为，但我们必须做点什么。”
+Goldsmith Romero驳斥了CFTC与美国证券交易委员会（SEC）之间就监管加密货币展开“地盘争夺战”的说法，但承认该行业的许多产品都是新产品，各机构“仍在努力弄清楚”。她还表示，加密公司不应将CFTC视为比SEC更友好的监管机构。Goldsmith Romero称：“我不喜欢CFTC在某种程度上过于宽松的说法，CFTC并不是‘轻触式监管机构’。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/fsi371fp.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Layer 1公链LUKSO主网已正式上线</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/fsi371fp.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据官方推特，以太坊ERC-20代币标准发明者Fabian Vogelsteller推出的Layer 1公链LUKSO宣布主网已正式上线。LUKSO主网上线后，LYXe将转换为LYX，即LUKSO的原生代币。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/isjh1zef.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Opside已上线Pre-alpha激励测试网，预计将运行大约三个月</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/isjh1zef.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据官方推特及博客，去中心化ZK Raas平台Opside宣布，其Pre-alpha激励测试网已于北京时间5月24日正式上线，预计将运行3个月。期间，生态各角色（普通用户、节点验证者、矿工和开发者）均可参与其中以获取积分作为回报，测试网期间获得的积分均可在Opside主网上线后兑换为主网代币。
+本轮测试网旨在测试PoS与PoW的混合共识机制、一键生成ZK-Rollup，实现可用的ZK-Rollup执行环境、支持多种方式使资产在不同层和ZK-Rollup之间的流动等功能并丰富应用生态。
+据悉，Opside在本轮Pre-alpha测试网结束后，还将于Q3将推出Alpha测试网，实现ZK-Rollup证明节点的去中心化、完整的PoW挖矿机制、跨Rollup通信机制等。最终预计主网将于明年上半年上线。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/319vvy59.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3游戏工作室Metagame Industries以近1亿美元估值完成战略融资，Mysten Labs等参投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/319vvy59.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据GLOBE NEWSWIRE报道，Web3游戏工作室Metagame Industries宣布完成一轮战略融资，估值接近1亿美元。Sui公链开发商Mysten Labs、游戏开发商 Funplus/Xterio Ecosystem Fund、2Moon Capital、Big Brain Holdings、Chainhill Capital、MH Ventures、DWeb3 Capital、ZeroX Fund、GMA等参投。新资金将加速其旗下游戏Abyss World的开发。
+据悉，Abyss World是Sui生态首款动作角色扮演游戏，目前Abyss World在全球Steam愿望清单预定已达12万。项目已开启白名单邀请活动，并将于近期进行ID0。根据路线图，Abyss World将于今年第三季度正式开启公测。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ftn02wln.html"
+                        open
+                      >
+                        <summary class="article-expander__title">破产加密基金EmpiresX与美SEC达成和解，同意支付近3500万美元罚款</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ftn02wln.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据CoinGeek报道，美国证券交易委员会（SEC）已与加密对冲基金 EmpiresX达成和解，这家已倒闭的公司同意支付3484万美元作为对欺骗投资者和违反证券法指控的罚款。
+去年6月，SEC宣布对EmpiresX及其联合创始人Emerson Sousa Pires、Flavio Mendes Goncalves以及首席交易员Joshua David Nicholas提出欺诈指控，四名被告被指控以每日1%的利润虚报引诱投资者，挪用投资者的大笔资金据为己有。去年12月消息，Joshua David Nicholas因1亿美元的加密欺诈罪获刑4年3个月。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/dx249mye.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Gemini在其推出学院的公告中强调其基金会不适用于美国、英国或欧盟的客户</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/dx249mye.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，加密交易所Gemini宣布推出“Gemini基金会学院”，旨在为用户提供加密货币衍生品交易相关知识和工具。Gemini强调，Gemini基金会不适用于美国、英国或欧盟的客户。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/13pgzcif.html"
+                        open
+                      >
+                        <summary class="article-expander__title">马斯克：不建议购买加密货币或把全部赌注押在狗狗币上</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/13pgzcif.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据财富杂志报道，特斯拉CEO兼推特CEO埃隆·马斯克在伦敦华尔街日报主办的虚拟会议上发言时表示，我不建议任何人购买加密货币或把全部赌注押在狗狗币上。尽管他不鼓励外行投资代币，但他表示，狗狗币仍然是他的最爱，因为它有“最好的幽默感”、并且“有狗”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/jpqhucr4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">暴雪已开始部署生成式AI游戏开发工具</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/jpqhucr4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月24日消息，据纽约时报报道，游戏开发公司暴雪娱乐（Blizzard Entertainment）首席设计官Allen Adham在上个月向员工发布的电子邮件中透露，该公司正在试验生成人工智能技术作为其游戏开发的一部分，并且已经开始在团队内部部署生成式AI游戏开发工具。
+这个内部工具叫做“Blizzard Diffusion”，是对“Stable Diffusion”的翻版，Stable Diffusion是一种流行的图像生成器，可以让任何人把文本变成艺术。该公司希望这项技术能够减少一些设计和开发的繁琐工作，让视频游戏的创作变得更加有趣。
+不过，一些暴雪员工表示，现阶段生成式AI游戏开发工具在捕捉Bug和游戏互动方面存在不足。截至目前，暴雪暂未回应相关置评请求。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -478,50 +1026,6 @@ Michael Saylor认为，监管机构已经得出结论，大部分加密代币都
                               <span>PANews 5月23日消息，据彭博社报道，总部位于弗吉尼亚州亚历山大市的风险投资公司 QED Investors 宣布旗下两支基金完成 9.25 亿美元募资，其中一个早期基金筹集了 6.5 亿美元，另一个早期成长基金筹集了 2.75 亿美元，新基金将支持 QED 继续在全球范围内的支付、贷款和加密货币领域进行投资。
 QED Investors 于 2007 年由 Nigel Morris 和 Frank Rotman 创立，投资了 200 多家公司，其中 28 家融资估值超过 10 亿美元。QED 已支持 Credit Karma、Klarna、Nubank 和 Remitly 等金融科技公司，旗下加密投资组合包括加密财务公司 Meow、区块链开发平台 QuickNode、金融科技支付公司 Tribal Credit 等。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187278"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | 香港将从6月起实施虚拟资产交易监管规定；LayerZero称暂无空投计划（5月24日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187278">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>头条
-香港证监会：将从 6 月 1 日起实施虚拟资产交易监管规定
-
-Odaily星球日报讯 香港证监会官网消息，有关适用于获证券及期货事务监察委员会发牌的虚拟资产交易平台营运者的建议监管规定的咨询期于 2023 年 3 月 31 日结束，回应者普遍支持适用于持牌虚拟资产交易平台的建议监管规定。经修订的建议监管规定将于 2023 年 6 月 1 日生效。 
-香港证监会表示，本会注意到，回应者对容许持牌虚拟资产交易平台向零售投资者提供服务表示大力支持。本会将落实有关容许持牌虚拟资产交易平台向零售投资者提供服务的建议。
-香港将允许散户投资者在新规则下交易主流加密货币，暂时禁止稳定币、自营交易和借贷等服务
-Odaily星球日报讯 香港宣布散户投资者可以根据数字资产行业的新规则进行加密货币交易，香港证券及期货事务监察委员会（SFC）今日下午详细介绍了零售参与的咨询总结文件。预计个人投资者从 6 月 1 日开始在适当的保障措施下可以交易 BTC、ETH 等主流加密货币。
-SFC 文件显示，对于规定非证券型代币须具有至少 12 个月往绩纪录的意见。稳定币的监管安排预计将于 2023/24 年实施。在稳定币于香港受到规管前，稳定币不应获纳入以供零售买卖。关于自营交易，SFC 同意交易平台上的流动性对客户来说十分重要。因此，SFC 允许由第三方做市商进行流动性提供活动。然而，现时禁止自营交易的规定是全面性的，并实际上禁止持牌虚拟资产交易平台的集团公司拥有任何虚拟资产的持仓。
-SFC 表示，平台营运者不应提供与买卖特定虚拟资产相关的奖励活动。这项原则构成了规定平台营运者不应登载有关特定虚拟资产的任何广告的依据。关于虚拟资产市场上其他常见服务（例如收益、存款及借贷），SFC 不允许持牌虚拟资产交易平台提供这些服务。（彭博社）
-香港证监会：散户最快下半年可在发牌交易平台买卖虚拟资产
-Odaily星…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6927,129 +7431,6 @@ Grails 系列第 1 部分中价格最高的 NFT 是 Fidenza #725，估计售价�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/6ihnw491.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美SEC与Ripple等联合要求延期一周至6月13日提交简易判决交叉动议的编辑版本</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6ihnw491.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月19日消息，美国前联邦检察官James K. Filan援引法庭文件表示，在美国证券交易委员会（SEC）诉Ripple案中，原告SEC与被告Ripple Labs、Bradley Garlinghouse和Christian A. Larsen向法院提交了联合信函，要求将提交公开的、未经编辑的简要判决交叉动议和附带的证据的期限延长一周，至2023年6月13日，这其中包括美国证券交易委员会前财务部主任William Hinman的材料。
-本周早些时候，法官裁定SEC不能封存Hinman相关文件。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/h50dfijr.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美联储主席：还没有就利率是否“足够限制性”做出任何决定</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/h50dfijr.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月19日消息，美联储主席鲍威尔在出席关于货币政策的小组讨论时表示，劳动力市场疲软并没有影响早期通胀；但认为，劳动力疲软将成为未来通胀的一个因素。非住房服务领域的通胀特别容易受到劳动力结果的影响。美联储的透明度在今天尤为重要，美联储有解释自己的特殊义务。
-鲍威尔称，我们有能力关注数据和持续的前景。我们今天的指引仅限于影响政策决策的因素。评估将是持续进行的。现在仍是历史上不确定性极高的时期。还没有就利率是否“足够限制性”做出任何决定，我们的目标是达到足够限制性的政策立场，尚未决定需要再加强多少。直到最近，美联储还预计进一步加紧货币政策。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/c0bryfwk.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Ripple CEO：Ripple不急于上市，不需要筹集更多资金</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/c0bryfwk.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月19日消息，Ripple首席执行官布Brad Garlinghouse在接受CNBC采访时表示，如果监管机构继续打击它们，更多的加密公司可能会离开美国，前往欧洲等更进步的司法管辖区。Ripple 的资产负债表非常强劲，Ripple 不急于上市，不需要筹集更多资金。
-本周早些时候，Ripple宣布推出Ripple CBDC平台，Ripple还以2.5亿美元收购加密托管公司Metaco，这将帮助该公司扩大其海外业务。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/r8kwrsd9.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美联储主席鲍威尔：由于银行信贷条件收紧，政策利率可能不必像以前那样上升那么高</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/r8kwrsd9.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月19日消息，据金十报道，美联储主席鲍威尔在出席关于货币政策的小组讨论时表示，货币政策和金融监管应该有不同的工具，货币政策和监管工具是分开的。银行和银行系统均具有韧性。由于银行信贷条件收紧，政策利率可能不必像以前那样上升那么高。3月份的行动支持了银行，而且没有影响货币政策。货币政策、监管工具没有绝对的分离。美联储工具大多数时候是互补的，实现可持续的价格稳定取决于稳定的金融体系。在任何领域使用的工具都可能影响其他领域。全球化期间的积极供给冲击可能确实有助于保持低通货膨胀。对于政策制定者而言，无论供应冲击如何，央行仍然负责维护价格稳定。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/i078c0rq.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国共和党谈判代表离开现场，债务上限谈判突然中止</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/i078c0rq.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月19日消息，据金十报道，美国共和党债务上限谈判代表格雷夫斯周五上午与白宫代表举行闭门会议，但会议开始后不久就突然离开。格雷夫斯说：白宫谈判代表实在不可理喻，并表示目前谈判处于“暂停”状态。格雷夫斯说，他不知道双方是否会在周五或周末再次会面。在格雷夫斯发表上述言论的前一天，众议院议长麦卡锡还表示，预计众院下周将审议债务上限协议，这是他迄今对避免违约谈判最积极的看法。最近几周，市场参与者一直警告称，一旦出现违约，美国借贷成本将出现飙升，股市将受到打击，其对全球经济的影响可能堪比2008年的危机。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/9runi2rx.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美联储主席鲍威尔：美联储坚定致力于实现2%的目标；未能实现将会造成更大的伤害</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9runi2rx.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月19日消息，美联储主席鲍威尔在出席关于货币政策的小组讨论时表示，价格稳定是强劲经济的基石，维护价格稳定是央行的责任。通货膨胀对社会边缘人群造成重大困难。美联储坚定致力于实现2%的目标；未能实现将会造成更大的伤害。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7218,8 +7599,8 @@ Account Labs：UniPass 和 Keystone 两支团队拥有共同的愿景——让�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5064280867">
-        <time id="build-timestamp" datetime="2023-05-24T03:08:04.728Z">2023-05-24T03:08:04.728Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5064592928">
+        <time id="build-timestamp" datetime="2023-05-24T04:08:54.375Z">2023-05-24T04:08:54.375Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
