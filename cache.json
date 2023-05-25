@@ -2743,6 +2743,26 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/37377",
+          "author": null,
+          "description": "原文作者：Poopman\n原文编译：Kxp，BlockBeats\n\n\n时间就是金钱，当 Token 被锁定时，时间的机会成本就会随之升高。但在 Hourglass 上，你可以将资产的锁仓时间「Token 化」，并在需要流动性时随时交易你的时间绑定 Token。\n\n\n背景信息：\n\n\nHourglass 由创办了 ZetaChain 的开发者 Charlie Pyle 创建。最近，Hourglass 由 Electric Capital 领投并获得了 Coinbase Ventures 等机构的种子轮投资，总计 420 万美元。\n\n\n\n\n\n1. 什么是时间绑定 Token（TBT）？\n\n\n时间绑定 Token（TBT）代表在 Hourglass 上质押了一段时间的资产。例如，锁定期为 3 个月的 10 个 frxETH/ETH LP Token 将会转化为 10 个 3 个月期限的 frxETH/ETH TBT。\n\n\n\n\n\n2. 什么是 Hourglass？\n\n\nHourglass 是一个提供时间绑定 Token 服务和用户交易 TBT 的平台。为了实现这一目标，Hourglass 依赖于两个主要机制：\n\n\n· Hourglass 质押 \n· Hourglass TBT 交易市场\n\n\n3. Hourglass 机制\n\n\nHourglass 质押\n\n\n首先，Hourglass 有一个名为 Hourglass Custodian 的智能合约，为每种类型的资产创建质押库。在质押库中，用户可以将 LP Token 质押到具有不同到期日的代理质押库（目前仅支持 frxETH/ETH Convex 交易对）。\n\n\n\n\n\n每次将 frxETH/ETH LP Token 存入 Hourglass，就相当于将锁定在 Frax Finance Farm 上的 Curve LP Token 通过 Convex Finance 进行质押。目前，Hourglass 上只有 4 个具有不同到期日的质押库，到期日从 5 月到 12 月不等。\n\n\n\n\n\n将 LP Token 质押到代理质押库的用户会收到 TBT（ERC1155 Token），它们将作为用户质押资产的「收据」。一旦到期，质押资产就可以由到期库中的 ERC1155 持有者赎回。\n\n\n奖励分配\n\n\n持有 TBT 的用户会定期通过 Merkle 空投获得收益，其中 Merkle 空投是利用默克尔树和证明来验证 Token 持有者是否有资格领取奖励的奖励分配机制。\n\n\n4. Hourglass TBT 市场\n\n\nHourglass 采用订单簿模型，实现了具有不同到期日的 TBT 交易。\n\n\n举个例子：假设用户 A 能够以极低折扣（1%）购买将在 5 月 30 日解锁并于 6 月 30 日到期的 10 个 frxETH/ETH LP。折扣的大小将根据到期日的接近程度而有所变化（假设收益率 APY 保持不变）。这是因为用户在接下来的一个月内将无法使用底层资产，而折扣实质上是对时间机会成本的补偿。\n\n\n目前，Hourglass 市场上只有有限的订单（价格已指定）。用户可以查看特定到期日的买入/卖出价格、折扣和流动性深度。然后，用户可以「填补」现有订单来购买或出售 TBT。\n\n\n\n\n\n5. 与 stETH 的协同效应\n\n\n由于 stETH 已经可提取，提款大概率会在高流量时期出现拥堵，并且可能需要几周才能完成。\n\n\nHourglass 市场允许用户交易 Lido 的提款请求 NFT，并在需要时提前退出他们的持仓。\n\n\n6. Poopman 的思考\n\n\n通过 Hourglass，协议可以在其产品中获得锁定流动性的保证，同时实现更高的收益（例如，在 Curve 上的 4 年 veCRV 锁仓增益）；另一方面，该市场还为锁仓资产提供了更高的资本效率。\n\n\n同时，用户应该监控 TBT 市场的流动性深度，因为这是决定他们能否退出持仓的最关键参数。否则，即使底层资产的价格暴跌，用户可能不得不等到到期日。\n\n\n此外，Hourglass 的可扩展性受限于底层收益来源（例如 Frax），就像 Convex 等其他收益聚合器一样。要了解原因，请阅读 Messari 的报告，该报告详细分析了项目的盈利能力和可持续性。\n\n\n尽管如此，我依然对 Hourglass 的未来感到非常兴奋，希望将来能看到更多的质押库被添加进来。\n\n\n原文链接",
+          "link": "https://www.theblockbeats.info/news/37377",
+          "publishedOn": "2023-05-25T10:38:09.000Z",
+          "wordCount": null,
+          "title": "Hourglass：什么是时间绑定Token？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/37366",
+          "author": null,
+          "description": "原文标题：《「被诅咒的铭文」是什么？（附铭刻保姆级教程》\n\n原文来源：ODAILY星球日报\n\n\n今天逛推的时候，发现 Ordinals 圈内不少人在聊 Cursed Inscription（被诅咒的铭文），似乎正有从小众走向热门之势。\n\n\n那到底是什么？如何参与？又有何风险？Odaily 星球日报整合了几位 Ordinals 大 V 的观点意见，试图回答上述问题。\n\n\n「被诅咒的铭文」出现的契机是，此前有几个错误和缺失的功能导致 代码无法识别某些铭文，于是 Ordinals 创始人 Casey 提出了「诅咒」的铭文概念：修改 以识别上述当前无效的铭文，包括追溯旧区块中的铭文但将这些新铭文视为「诅咒」并为其分配负铭文编号。由于他们不会收到正的铭文编号，因此他们不会破坏现有的铭文编号。（这也是为什么被诅咒的铭文也被称为负数铭文。）\n\n\nOrdinals 团队表示会在特定的块进行修复，意味着一旦修复，诅咒铭文将永远无法铸造。有限数量的被诅咒铭文会继续存在，但是在之后就无法铭刻新的被诅咒铭文。这也是诅咒铭文的叙事基础和稀有之处。\n\n\n推特 KOL @0x AKLabs 表示，其目前风险在于被诅咒（负数）铭文尚未被合并，甚至有可能合并永远不会发生，或者是社区对这个方案有一些争论。目前看来，Ordinals 协议的三位主要开发者（Casey、Rafjaff 和 Ordinally）似乎偏向于支持它。\n\n\n实操层面，由于目前普通钱包不会识别这些，所以最好使用 Sparrow Wallet 保存被诅咒的铭文的 UTXO，而不是 Unisat 或 Xverse 等，这些钱包会认为这是一个普通的 UTXO ，导致用户在正常的 BTC 交易中钱包可能不小心将其当作普通 Sats 花掉。\n\n\n铭刻诅咒铭文保姆级教程\n\n\n方法一\n\n下载 Sparrow Wallet：https://sparrowwallet.com/download/\n\n复制铭文信息：\n\n{\n\"p\": \"brc-20\",\n\"op\": \"mint\",\n\"tick\": \"crsd\",\n\"amt\": \"1000\"\n}\n\n打开网站，https://inscribor.com\n\n点 TEXT，粘贴铭文信息，输入 Sparrow Wallet接收地址。\n\n务必点上cursed，然后选择 gas。\n\n\n\n付款\n\n提现成功就代表已经发起交易，一个地址一个 UTXO 最保险，不要多个打到同一个地址，目前此法最为稳妥，但是 Gas 比较昂贵。\n\n\n方法二\n\n\n\n进入网站 https://looksordinal.com输入接收，点击 text\n\n复制粘贴铭文信息：\n\n复制铭文信息：\n\n{\n\"p\": \"brc-20\",\n\"op\": \"mint\",\n\"tick\": \"crsd\",\n\"amt\": \"1000\"\n}\n\n\n选择数量为 1 ，调整 gas，勾选 Cursed，选择服务费。如果不自建节点，打账给平台会有一个区块的延迟。\n\n\n\n\n点击 inscribe。\n\n付款，发送金额到指定地址，越早把钱发到这个地址，越早打包交易到内存池里。\n\n切记进入这个界面后不要关闭，然后等待即可。\n\n\n\n铭刻完成后，进入 cursedordinals.com，复制浏览器上的 tx，进行搜索即可查询到代币。\n\n\n\n原文链接",
+          "link": "https://www.theblockbeats.info/news/37366",
+          "publishedOn": "2023-05-25T10:21:01.000Z",
+          "wordCount": null,
+          "title": "「被诅咒的铭文」是什么，该如何参与？（附铭刻教程）",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/37332",
           "author": null,
           "description": "原文标题：《浅析 Lybra Finance v2：创造 eUSD 应用场景、吸引 TVL 和 Tokenomics 优化》\n原文作者：雨中狂睡\n\n\n\n\n$LBR 一直在涨，我大概是0.1x卖掉的。快一个月时间，$LBR距离我卖出已经十倍，写这些东西的时候是1.8u左右。我觉得能涨这么多，离不开团队在token price和产品方面的努力。\n\n\nToken price方面，团队没有使用高排放的模型，反而注重长期发展，因此协议TVL也在一直涨。产品方面，团队也没有因为自身获得了一些成绩而止步不前，现在即将于6月中旬推出v2测试网（在Immunefi和code4rena审计和bug bounty之后）。\n\n\n\n \n\n\n因此，在今天我就来分享一下我个人对于Lybra Finance v2的见解。\n\n\nv2有几个令人兴奋的内容是：\n\n\n1、通过LayerZero进行全链扩张；\n\n\n2、添加更多的LST资产类型；\n\n\n3、LBR新的Tokenomics；\n\n\n4、协议收入/费用捕获改革；\n\n\n5、DAO治理；\n\n\n第一点，全链扩张。第一个跨链目标是Arbitrum，据我所知，团队已经开始与Arbitrum上的协议谈起了合作。我猜测，Layer2是跨链首选，未来可能会将eUSD跨链到其他alt-layer1上。协议会搞一个weUSD，用于跨链目的。其实在跨链之外，weUSD场景会更加广泛，比如参与其他DeFi协议等等。\n\n\n第二点，为抵押品添加更多的LST资产类型。这个事情的难点在于stETH是自动复合，因此eUSD也是自动复合。如果引入其他LST资产，那么eUSD的自动复合应该如何实现。我猜测，如果回归统一，那就将eUSD的自动复合功能取消——只有质押eUSD才能获得ETH质押APY。在质押后，用户可以获得weUSD版本，可以用于跨链或者参与其他DeFi协议。如果用户想要退出，就需要将weUSD来转化为eUSD，从而获得本金+利润。\n\n\n\n \n\n\n第三点和第四点，Lybra引入了投资者，VC拥有至少1年的解锁期，VC将帮助Lybra发展市场和生态。\n\n\n另外就是为 $LBR 引入通缩的元素和增加esLBR的归属期（增加到了60天），以及允许锁定更长的时间。\n\n\n\n \n\n\n为了保证token price，协议v2也为 $LBR 创造了一些场景，比如引入了DLP（动态流动性供应）机制，要从eUSD池子里挖 $LBR ，就需要提供最低质押总价值5%的DLP token。token通缩将会在此场景中得以体现：如果没有达到5%的DLP， 其他用户可以以5折的折扣用LBR购买这些esLBR奖励。协议在收到LBR之后，其中10%被销毁，90%会被重新发送给奖励池。\n\n\n第五点，DAO治理。将esLBR引入DAO治理之后，Lybra将允许社区参与协议的决策权。\n\n\n另外值得注意的是一点是，Lybra正在思考如何在未来保证eUSD拥有充足的流动性和更稳定的挂钩。其主要思路是将eUSD引入Curve。不过，这需要一步步来，协议需要积累 $CRV 。\n\n\n整体而言，我对于Lybra v2的设想是比较满意的，它致力于解决自身协议发展所遇到的问题（TVL和Tokenomics）和eUSD缺乏应用场景的问题。\n\n\n接下来，如何为eUSD营造充足的流动性和丰富的流通场景将成为协议发展中至关重要的一环。\n\n\n原文链接",
@@ -3119,6 +3139,36 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5187340",
+          "author": "深潮TechFlow",
+          "description": "原文作者：AN APE'S PROLOGUE\n原文编译：深潮 TechFlow\n随着$ETH 质押基础设施的成熟以及以及用户越来越愿意以质押形式持有$ETH 并$ETH 从中获利，现在是时候展望 DeFi 组合性的下一步 ——LSDfi 了。\n\n在 Lido V2 之后，人们对质押$ETH 的兴趣依然强烈。目前，LSD 的总量接近占到迄今为止质押的 1880 万 $ETH 的 48% 。\n\n鉴于对质押$ETH 持续增长的预期，各种协议应运而生，为寻求更多效用和收益的资本池提供服务。\n虽然不全面，但以下是我们目前在 LSDfi 类别中认为值得关注的协议。\n\nLSDfi 协议允许 LSD 持有者高效地管理其质押资产的收益，简化技术复杂性并降低 Gas 成本。这方面的例子包括通过 Lybra 的$eUSD“出售”收益或通过$unshETH 提高基础收益。\n\n得益于 Lido 在 LSD 市场中超过 70% 的主导市场份额，$stETH 成为 LSDfi 协议中最广泛接受的 LSD。Origin Protocol 的$OETH 以及$unshETH 是目前接受 LSD 范围最广的产品之一。\n\n尽管 Lido 在 V2 中启用$stETH 提款后，除 Celsius 外，流出有限，但它必须保持警惕，维持其市场领导者地位。\n\n随着$rETH 和$frxETH 的激增，LSD 市场份额的竞争日益激烈。在今年，$rETH 和$frxETH 都稳步获得了市场份额，这是 LSDfi 协议在开发产品时可能会考虑的因素。\n\nLSDfi 产品通常分为两大类：贷款和收益优化器：\n1 ）贷款 - 通过质押收益抵消自身或不成比例地奖励贷款代币持有人；\n2 ）收益优化器 - 为资金池贡献者提供更高的收益。\n\n首先，Lybra Finance 凭借其 LSD 支持的稳定币$eUSD 脱颖而出。$eUSD 根据协议内 LSD 抵押品赚取的收益进行调整。过去一周，TVL 增长了 400% ，$LBR 在 LSDfi 类别中吸引了最多的关注。\n\nunshETH 及其衍生品$unshETH，通过一篮子质押 ETH 资产来产生最佳风险调整收益。\n在协议中持有的 LSD 还通过其 vdAMM 交换费用获得额外收益，因为它们使协议成为$ETH LSD 的流动性中心。\n\nOrigin Protocol 虽然不是新产品，但于 5 月 17 日推出了新产品$OETH。它汇集各种 LSD，通过在标准质押收益之上提供流动性，产生提高的收益。\n\nGravita Protocol 发行$GRAI，一种 0% 利息贷款代币，自然价格上限为 1.10 美元，硬价格下限为 0.97 美元。\n由 LSDs 和 bLUSD（Liquity 提供的加强版 LUSD）组成的混合篮子支持，贷款期间继续产生利息。\n\n将 Alchemix 的自我偿还贷款概念引入 LSDs，Zero Liquid 允许用户在无清算风险的情况下，使用 LSD 抵押品铸造$zETH。\n协议随后定期收获用户的质押收益，以减少债务。\n\nLSDfi 是一项有趣的创新，为 LSD 持有者提供更广泛的独特收益策略。迎合各种 LSD 所有者的需求，提高了持有$ETH 作为收入产生资产的吸引力，从而丰富了整个以太坊生态系统。\n尽管如此，投资者在投机这些协议时，应考虑像 Frax Finance、Pendle 和 Alchemix 这样的 LSDfi 现有公司，因为它们有能力构建类似的产品，只要选择将资源投入其中。\n无论如何，LSDfi 整体板块应该会长期存在。",
+          "link": "https://www.odaily.news/post/5187340",
+          "publishedOn": "2023-05-25T11:00:00.000Z",
+          "wordCount": 1856,
+          "title": "一文盘点值得关注的LSDFi协议",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5187297",
+          "author": "Web3人物志",
+          "description": "1.您可以简单介绍一下自己\n大家好，我是贝卡，一位Web3 builder 兼 AMA 主持人， 2022 年很早接触到黑猫这个 nft 项目，后面也有一些合作。\n很多人可能会因为我的名字“贝卡老师”而认识我。我曾在推特上创建过一个英语群，每天会教大家一些实用的英文单词，并布置作业。另外，我也曾在推特 Space 上与孙哥和杜均一起上台，开玩笑地说要给火币员工培训英语。\n\n2.您可以分享一下您的入圈契机吗\n我目前在一家Web2公司担任数据分析师，平时的工作包括使用清洗数据和绘制可视化图表等。但是，我对Web3的理念非常感兴趣，这主要是因为我有一个朋友在波卡链的一家公司担任运营，带我参加了一次关于Web3的分享活动。在那次活动上，我受到了主讲人的启发，并逐渐进入了Web3的领域。我发现，Web3有一个很大的空缺，就是因为中国的一些好项目由于语言障碍或文化差异等原因，很难让国外的圈子了解我们的项目价值所在。因为我在加拿大生活了很多年，英语也成为了我的母语之一，所以我觉得我可以作为一个连接者，用英语输出中国项目方的观点。由于我对Web3的理解比较深入，并且了解中外文化的差异，我可以更好地与国外圈子进行交流互动，以及将我们项目的理念传递到国外。在一些全英 AMA 活动中，我可以利用我的语言专长和对Web3的理解，更好地与国外观众交流，帮助合作的项目实现圈层的突破。\n核心内容：我是一名数据分析师，目前在一家Web2公司工作。然而，我对Web3的理念非常感兴趣，因为我有一个朋友在波卡链的一家公司工作，带我参加了一次分享活动。在那次活动中，我受到了启发，并逐渐进入了Web3的领域。我发现，由于语言障碍或文化差异等原因，中国的一些好项目很难让国外的圈子了解我们的项目价值所在。因此，我想利用我的语言专长和对Web3的理解，作为连接者将中国项目方的观点传递到国外，并帮助实现圈层的突破。\n3.您…",
+          "link": "https://www.odaily.news/post/5187297",
+          "publishedOn": "2023-05-25T10:36:22.000Z",
+          "wordCount": 1746,
+          "title": "Web3中无法忽视的女性力量：「贝卡酱」打破圈层障碍，连接全球社区",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5187338",
+          "author": "区块律动BlockBeats",
+          "description": "原文来源： #BRC-721 （@real_BRC 721 ）\nBRC-20 类似于以太坊上的 ERC-20 ，用于发行同质化 Token ，而 BRC-721 则用于发行非同质化 Token （NFT）。文章探讨了这些标准的基本原理、优势以及与原生 Ordinals NFT 的区别，并讨论了 BTC NFT 的市场前景和挑战。\nBRC-20 是什么？\nBRC-20 是比特币网络上发行同质化 Token 的一个实验性格式标准，类似于以太坊上的 ERC-20 。\n在理解 BRC-20 之前首先要了解两个概念。\n1、SATS：聪，比特币上的最小单位， 1 个 BTC 等于 1 亿个 SATS ；\n2、Ordinals 协议：为每一个 SATS 打编号的协议。\n原本每个单位的聪 SATS 都是没有区别的，而通过 Ordinals 协议，则可以按照一定顺序排列这些 SATS，并给它们附加上特定的信息，使得每一个原本同质化 SATS 都变成独一无二的 NFT。\n这些信息可以是文字、图片或者代码等，而附加到 SATS 上之后的信息就叫做「Inscriptions」（铭文）。\n可以看得出来，Ordinals 协议其实最开始是为发行比特币网络上的 NFT 服务的。\n而 BRC-20 可以理解成一种特殊的 Ordinals NFT，它通过将铭文设置为统一的 JSON 数据格式（文本），规定了包括 Token 的名称、符号、总量、小数位数等在内的 Token 信息，开发者按照标准执行就可完成同质化 Token 的发行。\nBRC-721 是什么？\nBRC-721 是一种在比特币网络上发行非同质化 Token （NFT）的实验性标准，它借鉴了 BRC-20 的理念和原则，并通过解决原生 Ordinals NFT 的限制来提供更多功能和灵活性。\n使用 BRC-721 标准，用户可以轻松创建、铸造、转…",
+          "link": "https://www.odaily.news/post/5187338",
+          "publishedOn": "2023-05-25T09:40:23.000Z",
+          "wordCount": 1945,
+          "title": "BRC-20之后，什么是BRC-721？",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5187333",
           "author": "little bear",
