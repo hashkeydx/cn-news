@@ -51,112 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-26 datetime="2023-05-26T02:00:00.000Z">2023-05-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-26 datetime="2023-05-26T02:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-26 datetime="2023-05-26T03:24:10.000Z">2023-05-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-26 datetime="2023-05-26T03:24:10.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187342"
-                        open
-                      >
-                        <summary class="article-expander__title">a16z：Cicada如何利用时间锁谜题和ZK证明实现链上投票</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187342">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Michael Zhu
-原文编译：Lynn，MarsBit
-所有无论以何种有意义的方式运作的投票系统都依赖于完整性和透明度。从表面上看，这使得区块链成为构建这些系统的理想平台——事实上，许多去中心化的组织已经接受了无许可投票来表达集体意图，通常是在挥舞大量财富或调整关键协议参数的情况下。但是链上投票也有缺点，隐私仍未被探索和开发，对 Web3 投票系统不利——在目前使用的大多数链上投票协议中，选票和投票结果是完全公开的。如果没有隐私，投票结果很容易被操纵和选民激励错位，可能会导致不民主的结果。
-这就是为什么我们要发布 Cicada：一个新的、开源的 Solidity 库，利用时间锁谜题和零知识证明来实现私人链上投票。与现有的系统相比，Cicada 具有新颖的隐私属性，最大限度地减少了信任假设，并且足够高效，可以在以太坊主网上使用。
-在这篇文章中，我们调查了投票隐私的情况，并提供了关于 Cicada 如何工作的高层次描述（正式的证明即将到来）。我们还鼓励开发者查看 GitHub 仓库——Cicada 可以通过许多方式进行调整和扩展，以支持不同的投票方案和功能，我们希望与社区合作，探索这些可能性。
-私人投票的简要调查
-在任何投票系统（链上或其他）中，有许多不同层次的隐私需要考虑。个别选票的披露、运行中的计票和选民身份都会以不同方式影响选民的积极性。哪些隐私属性是必要的，取决于投票的背景。在密码学和社会科学文献中经常出现的几个：
-
-选票隐私：秘密选票，也被称为「澳大利亚选票」，是为现实世界的投票系统开发的，作为保持个人选民的偏好的一种方式，并减轻贿赂和胁迫（在链上设置，我们可能需要一个比选票隐私更强大的属性——见下文的「无收据性」）。选票隐私还可以减轻社会期望偏差——某人基于他人对其选择的看法而投票的压力较小。
-
-正在进行中计票的隐私：许多投票系统在选民仍在投票时隐藏正…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187347"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | Worldcoin完成1.15亿美元C轮融资；Multichain称部分路由因不可抗力无法使用</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187347">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>头条
-Worldcoin 完成 1.15 亿美元 C 轮融资，Blockchain Capital 领投
-
-Odaily星球日报讯 OpenAI CEO 旗下加密项目 Worldcoin 开发公司 Tools for Humanity 宣布完成 1.15 亿美元 C 轮融资，本轮融资由 Blockchain Capital 领投，a16z、Bain Capital Crypto 和 Distributed Global 参投。本轮融资资金将用于加速 Worldcoin 项目和 World App 的研发和增长工作，World App 是 Worldcoin 生态系统的第一个加密钱包。
-据悉，Worldcoin 是一个开源协议，由致力于扩大参与和进入全球经济的开发人员、个人、经济学家和技术专家组成的全球社区提供支持。Worldcoin 基金会是管家，将支持和发展 Worldcoin 社区，直到它变得自给自足。Tools for Humanity 帮助推出了 Worldcoin，目前担任 World App 基金会和运营商的顾问。（CoinDesk）
-Multichain：部分跨链路由因不可抗力无法使用，恢复服务时间未知，将对受影响用户补偿
-Odaily星球日报讯 Multichain 发推称，虽然 Multichain 协议的大部分跨链路由运行正常，但由于不可抗力，部分跨链路由无法使用，恢复服务的时间未知。在服务恢复后，待处理的交易将自动入账。Multichain 将对在此过程中受到影响的用户进行补偿，补偿方案将在后续公布。
-据昨日报道，针对多位社区用户反映“Multichain 跨链资金到账延迟”的情况，Multichain 官方在社群中回应称，后端节点的升级比预期的时间要长。大多数路线都在照常工作，因为有些路线（Kava、zkSync、Polygon zkEVM）暂时暂停…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5187348"
-                        open
-                      >
-                        <summary class="article-expander__title">交互全指南：ConsenSys旗下Linea「大航海计划」第四周开「盲盒」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187348">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Linea 是一个新的 zk-rollup 网络，由 ConsenSys 公司研发设计并负责运营，与以太坊虚拟机（EVM）完整兼容。今年 5 月 2 日，Linea 联合 Galxe 正式启动忠诚度计划“Linea Voyage&quot;以鼓励早期用户使用公共测试网，活动为期 9 周，用户可以探索 Linea 生态系统，参与每周挑战并收集积分以领取专属 Linea NFT。
-
-Linea NFT 有什么用？Linea Voyage 最终目的是通过测试网活动为今年晚些时候主网上线做准备，为此官方共准备了四个「版本」的 NFT 作为激励，每个版本对应本次 Voyage 积累的分数阈值。此外，Linea 测试网如果在 Voyage 结束前超过 3000 万笔交易，官方还将额外为所有参与者提供一个纪念版 NFT——纪念版 NFT 并不意味着将来会有 Linea 代币（Odaily星球日报注：换言之，前四个版本的 NFT 大概率有代币空投）。
-目前，活动已经进行了三周，第一周是跨链（总分 116 分），第二周是社区活动（15 分），第三周活动主题为 NFT（总分 109 分）。
-第四周活动已经正式开启（点击跳转至 galxe 任务页面），从北京时间 5 月 25 日上午 10 点开始，持续到 5 月 29 日上午 12 点结束；任务完成后，将有额外 24 小时领取积分。与此前持续一周时间不同，本周任务量较少，活动时间也更短，极容易错过，建议及时交互。本周任务只有三项：
-
-观看 Youyutbe 视频，视频全长 23 分钟，但无需看完，点击「Watch」跳转至视频页面后返回点击「Verify」即可完成任务；
-
-转发推文，点击「Retweet Now」跳转至任务 Twitter 页面转发即可，而后点击「Verify」即可完成任务；
-
-Snapshot 投票，点击「Vote Now」跳转至 Sna…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -168,6 +67,215 @@ Snapshot 投票，点击「Vote Now」跳转至 Sna…</span>
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/nv63ol8k.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：Multicoin Capital凌晨将83.3万枚LDO转至Coinbase</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/nv63ol8k.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，据Spot On Chain监测，9.5小时前， Multicoin Capital通过2个钱包以2.05美元的均价（共计171万美元）将83.3万枚LDO转移到Coinbase 。
+Multicoin Capital于2020年12月通过多签钱包从项目方那里收到了1000万枚LDO 。自 2022年10月以来，其以2.04美元均价（共计1871万美元）向Coinbase、FalconX和DEX转移了总计916万枚LDO。目前，Multicoin Capital仍在其0xa82开头的钱包中持有83.3万枚LDO（约166万美元）。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/9i4f6r4q.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT 市场和聚合交易平台 AlienSwap上线NONE-ZERO 实验，将免费发放 Infinity NFT 空投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9i4f6r4q.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，NFT 市场和聚合交易平台 AlienSwap 上线 NFT NONE-ZERO 实验并向社区用户免费发放 Infinity NFT 空投，持有 Infinity NFT 可以获得 LaunchPad 签号奖励。None-Zero 是一个NFT 实验，参与者可以在以数字 0 为背景的像素区间内上传 NFT，并赚取 ALIEN LaunchPad 签号。
+此前，AlienSwap 完成 OKX Ventures 和 C² Ventures 等头部机构参与的1200万美元战略融资，并发布 Explorer 空投计划路线图。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/95cwdhod.html"
+                        open
+                      >
+                        <summary class="article-expander__title">币安研究：DeFi和NFT等领域正在将AI与加密技术集成</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/95cwdhod.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，币安研究院近日发布一篇题为《加密中的人工智能——探索用例和可能性》的研究报告，DeFi和NFT等领域正在将AI与加密技术集成，在DeFi领域中，人工智能可增强智能合约审计流程，促进了交易自动化，并可与预测分析相结合以实现更准确的预测，以及其他创新。在NFT领域，人工智能实现了艺术创作，允许智能和交互式NFT（iNFT），并提供了简化数据分析过程的工具，以及其他创新。
+报告总结称，人工智能和区块链等突破性技术的结合开辟了一个充满可能性和潜在用例的领域。虽然概念用例看起来很有趣，但AI加密项目尚未获得广泛采用。这表明此类项目可能是“可有可无”，但并非绝对必要——至少基于该领域当前的创新水平。尽管如此，新兴技术需要时间来发展并达到更确定的状态。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/kutsrhfr.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Twitter推出每月5000美元的新API访问级层，适用于创业公司</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/kutsrhfr.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，据Techcrunch报道，Twitter今天宣布了一个新的API访问级层，称为 Twitter API Pro，适用于初创公司，每月收费5000美元。该级层使开发人员能够每月获取100万条推文和每月发布30万条推文，并使他们能够访问完整的存档搜索端点。
+此前Twitter于2月9日开始不再提供免费Twitter API，随后推出了三个层级，分别为免费 (Free)、基础 (Basic) 和企业 (Enterprise)。基础套餐为每月收费100美元，企业套餐每月为42000美元。
+从前5月24日消息，马斯克表示，推特下个月或将实现正现金流。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/b3c01fqo.html"
+                        open
+                      >
+                        <summary class="article-expander__title">火必将推出火必香港站Huobi HK</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/b3c01fqo.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，据官方推特，火必宣布将正式推出火必香港站Huobi HK，并已准备好为用户提供多种加密货币交易服务。从6月1日起，用户可以通过Huobi HK购买、出售和持有包括BTC、ETH等主流加密货币以及其独立指数中列出的其他主要加密货币。
+此前消息，香港证监会近日公布了有关《虚拟资产交易平台营运者的指引》咨询总结，确定对虚拟资产交易平台营运者的规管，将于6 月1日生效。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ahnk1870.html"
+                        open
+                      >
+                        <summary class="article-expander__title">徐明星：OKX在SAMO突发行情中误封约10个账户，正在改进风控策略</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ahnk1870.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，OKX创始人徐明星在推特发文称：“由于SAMO出现了突发行情，大约10个账户命中了‘疑似被黑的风控策略’，这个策略会临时冻结账户，客服会立即联系客户核实是否为本人操作，目前所有的被冻结账户都已经解冻。这个风控策略确实存在缺陷，导致了本次的误杀，团队正在改进这个风控策略。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/jetrnmw5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：黄立成地址今晨将803 ETH兑换为JIMBO V2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/jetrnmw5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，据链上分析师余烬监测，黄立成地址于今晨将803枚ETH（约合145万美元）兑换为JIMBO V2。
+此前该地址曾于5月17日花费224.4枚ETH购入289万枚JIMBO V1，后JIMBO因其合约设计有问题，在今天凌晨发布了V2。黄立成地址昨晚将JIMBO V1售出换成为235.8 ETH，盈利11.4枚ETH。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/6m8088ti.html"
+                        open
+                      >
+                        <summary class="article-expander__title">香港金融机构对加密客户的尽职审查须在为其执行不少于8000元虚拟资产的非经常交易前进行</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6m8088ti.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，香港证监会近日发布的《打击洗钱及恐怖分子资金筹集指引》第12章中的内容涉及虚拟资产，其中几个子章节规定了客户尽职审查。指引称，在为客户执行属虚拟资产转帐（并涉及相当于不少于8,000元的虚拟资产）的非经常交易（包括虚拟资产转账及兑换）之前，金融机构须就该客户执行客户尽职审查措施，不论该交易是以单一次操作执行，或是以该金融机构觉得是有关连的若干次操作执行。除了一般识别的身份资料外，金融机构应取得额外的客户资料，可包括互联网规约（IP）地址连同相关的时间印章、地理位置数据、及装置识别码等。
+文件还提供了如何识别虚拟货币相关洗钱的内容：由虚拟资产业务所促成的交易可能以现金作交易，所以此类业务可能被用作存放从犯罪活动所得的现金得益。此外，虚拟资产业务可能被利用来处置或存放从非法活动所得或与上游罪行（例如网上骗局、勒索软件及其他网络罪案）有关连的虚拟资产。虚拟资产业务亦有可能被用于洗钱的第二个阶段，即分层交易的过程。为了使从非法活动所得的虚拟资产的来源变得模糊，不法分子或洗钱人士可能会在不同的钱包地址、服务提供者、虚拟资产的类别或区块链之间转移资产。他们可能会利用虚拟资产特有的分层技术，例如剥离链和跳链。虚拟资产有时会透过强化匿名服务而被清洗。非托管钱包、去中心化虚拟资产交易所、点对点平台或不受规管或设有宽松的打击洗钱／恐怖分子资金筹集管控措施的虚拟资产业务，对不法分子或洗钱人士来说特别具吸引力。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/lz952kxp.html"
+                        open
+                      >
+                        <summary class="article-expander__title">研究公司：Fantom系对Multichain风险敞口最大的协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/lz952kxp.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，Thanefield Capital研究部门An Ape&#x27;s Prologue发推文称，Fantom系对Multichain风险敞口最大的协议，其总锁仓量（TVL）的35%被锁定在Multichain上，而且该链的很大一部分资产都是由Multichain发行的。Multichain发行了40%的Fantom资产，不包括其原生代币FTM。这些资产（主要是封装资产）总计6.5亿美元，表明对Multichain的严重依赖。稳定币情况更加令人担忧，在Fantom生态系统中，Multichain发行的稳定币市值（4.58亿美元）占Fantom生态稳定币（5.67亿美元）总市值的81%，其中USDC以1.94亿美元领先。
+此前昨日消息，Fantom基金会表示，Multichain与Fantom的桥接正常运行，随后Fantom基金会董事Andre Cronje表示，此前Fantom基金会地址从SushiSwap上撤回了价值约240万美元的MULTI，因为在不确定的时候，LP毫无意义。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/v8i598zw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Blur借贷合约已是“胖企鹅”Pudgy Penguins NFT第三大持有者</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/v8i598zw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月26日消息，据区块链分析公司Nansen首席执行官Alex Svanevik在社交媒体披露数据显示，当前Blur借贷合约在已是“胖企鹅”Pudgy Penguins NFT的第三大持有者，数据显示该合约内总计持有60枚Pudgy Penguins NFT，仅次于“Metadrop：Wrapped Penguins”（82枚）和“Big Brain Holdings”（68枚）。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -473,6 +581,138 @@ OpenAI的ChatGPT迫使整个行业都在努力应对人工智能的到来，包�
                               <span>PANews 5月26日消息，据官方消息，CoinList宣布将于北京时间6月15日23点开启Archway(ARCH)代币销售，现已开放注册。总供应量为3000万枚ARCH代币，每枚代币0.2美元，40天的锁定期，然后是8个月的线性归属时间表。注册将于北京时间6月12日20点截止。
 据悉，Archway是Cosmos原生的第 1 层区块链，它允许开发人员通过新颖的、以开发人员为中心的经济学来获取他们为网络带来的价值。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/37380"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊黑山大会：热点趋势和重点关注项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/37380">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>黑山立法宽松，税收优惠，政府积极，未来黑山有机会入驻更多的 Web3 产业。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187342"
+                        open
+                      >
+                        <summary class="article-expander__title">a16z：Cicada如何利用时间锁谜题和ZK证明实现链上投票</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187342">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Michael Zhu
+原文编译：Lynn，MarsBit
+所有无论以何种有意义的方式运作的投票系统都依赖于完整性和透明度。从表面上看，这使得区块链成为构建这些系统的理想平台——事实上，许多去中心化的组织已经接受了无许可投票来表达集体意图，通常是在挥舞大量财富或调整关键协议参数的情况下。但是链上投票也有缺点，隐私仍未被探索和开发，对 Web3 投票系统不利——在目前使用的大多数链上投票协议中，选票和投票结果是完全公开的。如果没有隐私，投票结果很容易被操纵和选民激励错位，可能会导致不民主的结果。
+这就是为什么我们要发布 Cicada：一个新的、开源的 Solidity 库，利用时间锁谜题和零知识证明来实现私人链上投票。与现有的系统相比，Cicada 具有新颖的隐私属性，最大限度地减少了信任假设，并且足够高效，可以在以太坊主网上使用。
+在这篇文章中，我们调查了投票隐私的情况，并提供了关于 Cicada 如何工作的高层次描述（正式的证明即将到来）。我们还鼓励开发者查看 GitHub 仓库——Cicada 可以通过许多方式进行调整和扩展，以支持不同的投票方案和功能，我们希望与社区合作，探索这些可能性。
+私人投票的简要调查
+在任何投票系统（链上或其他）中，有许多不同层次的隐私需要考虑。个别选票的披露、运行中的计票和选民身份都会以不同方式影响选民的积极性。哪些隐私属性是必要的，取决于投票的背景。在密码学和社会科学文献中经常出现的几个：
+
+选票隐私：秘密选票，也被称为「澳大利亚选票」，是为现实世界的投票系统开发的，作为保持个人选民的偏好的一种方式，并减轻贿赂和胁迫（在链上设置，我们可能需要一个比选票隐私更强大的属性——见下文的「无收据性」）。选票隐私还可以减轻社会期望偏差——某人基于他人对其选择的看法而投票的压力较小。
+
+正在进行中计票的隐私：许多投票系统在选民仍在投票时隐藏正…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187347"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | Worldcoin完成1.15亿美元C轮融资；Multichain称部分路由因不可抗力无法使用</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187347">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>头条
+Worldcoin 完成 1.15 亿美元 C 轮融资，Blockchain Capital 领投
+
+Odaily星球日报讯 OpenAI CEO 旗下加密项目 Worldcoin 开发公司 Tools for Humanity 宣布完成 1.15 亿美元 C 轮融资，本轮融资由 Blockchain Capital 领投，a16z、Bain Capital Crypto 和 Distributed Global 参投。本轮融资资金将用于加速 Worldcoin 项目和 World App 的研发和增长工作，World App 是 Worldcoin 生态系统的第一个加密钱包。
+据悉，Worldcoin 是一个开源协议，由致力于扩大参与和进入全球经济的开发人员、个人、经济学家和技术专家组成的全球社区提供支持。Worldcoin 基金会是管家，将支持和发展 Worldcoin 社区，直到它变得自给自足。Tools for Humanity 帮助推出了 Worldcoin，目前担任 World App 基金会和运营商的顾问。（CoinDesk）
+Multichain：部分跨链路由因不可抗力无法使用，恢复服务时间未知，将对受影响用户补偿
+Odaily星球日报讯 Multichain 发推称，虽然 Multichain 协议的大部分跨链路由运行正常，但由于不可抗力，部分跨链路由无法使用，恢复服务的时间未知。在服务恢复后，待处理的交易将自动入账。Multichain 将对在此过程中受到影响的用户进行补偿，补偿方案将在后续公布。
+据昨日报道，针对多位社区用户反映“Multichain 跨链资金到账延迟”的情况，Multichain 官方在社群中回应称，后端节点的升级比预期的时间要长。大多数路线都在照常工作，因为有些路线（Kava、zkSync、Polygon zkEVM）暂时暂停…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187348"
+                        open
+                      >
+                        <summary class="article-expander__title">交互全指南：ConsenSys旗下Linea「大航海计划」第四周开「盲盒」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187348">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Linea 是一个新的 zk-rollup 网络，由 ConsenSys 公司研发设计并负责运营，与以太坊虚拟机（EVM）完整兼容。今年 5 月 2 日，Linea 联合 Galxe 正式启动忠诚度计划“Linea Voyage&quot;以鼓励早期用户使用公共测试网，活动为期 9 周，用户可以探索 Linea 生态系统，参与每周挑战并收集积分以领取专属 Linea NFT。
+
+Linea NFT 有什么用？Linea Voyage 最终目的是通过测试网活动为今年晚些时候主网上线做准备，为此官方共准备了四个「版本」的 NFT 作为激励，每个版本对应本次 Voyage 积累的分数阈值。此外，Linea 测试网如果在 Voyage 结束前超过 3000 万笔交易，官方还将额外为所有参与者提供一个纪念版 NFT——纪念版 NFT 并不意味着将来会有 Linea 代币（Odaily星球日报注：换言之，前四个版本的 NFT 大概率有代币空投）。
+目前，活动已经进行了三周，第一周是跨链（总分 116 分），第二周是社区活动（15 分），第三周活动主题为 NFT（总分 109 分）。
+第四周活动已经正式开启（点击跳转至 galxe 任务页面），从北京时间 5 月 25 日上午 10 点开始，持续到 5 月 29 日上午 12 点结束；任务完成后，将有额外 24 小时领取积分。与此前持续一周时间不同，本周任务量较少，活动时间也更短，极容易错过，建议及时交互。本周任务只有三项：
+
+观看 Youyutbe 视频，视频全长 23 分钟，但无需看完，点击「Watch」跳转至视频页面后返回点击「Verify」即可完成任务；
+
+转发推文，点击「Retweet Now」跳转至任务 Twitter 页面转发即可，而后点击「Verify」即可完成任务；
+
+Snapshot 投票，点击「Vote Now」跳转至 Sna…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10743,8 +10983,8 @@ L1 驱动的 L2 项目恢复：多次提出，如果 L2 有一个 bug，L1 可�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5087104628">
-        <time id="build-timestamp" datetime="2023-05-26T04:08:40.401Z">2023-05-26T04:08:40.401Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5087410033">
+        <time id="build-timestamp" datetime="2023-05-26T05:07:10.377Z">2023-05-26T05:07:10.377Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
