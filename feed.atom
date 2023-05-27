@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-27T03:07:54.144Z</updated>
+    <updated>2023-05-27T04:08:02.400Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[数据：持有超过0.01枚比特币的地址数量创历史新高]]></title>
+        <id>https://panewslab.com/zh/articledetails/0elc15xo.html</id>
+        <link href="https://panewslab.com/zh/articledetails/0elc15xo.html"/>
+        <updated>2023-05-27T03:54:03.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月27日消息，Glassnode数据显示，持有超过0.01枚比特币的地址数量达到12,072,702个，创历史新高。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[跨链桥Stargate提议禁用Fantom流动性池和跨链路径]]></title>
+        <id>https://panewslab.com/zh/articledetails/ry4oodgh.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ry4oodgh.html"/>
+        <updated>2023-05-27T03:48:43.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月27日消息，跨链桥Stargate发起社区提案投票，表示为降低Stargate及其流动性提供者的风险，Stargate应该删除Fantom USDC池，并从池中移除所有DAO控制的资金。Stargate提议禁用Fantom流动性池和跨链路径。根据该提案，将Fantom流动性池中的STG排放设置为0，断开Fantom流动性池与所有其他池的连接，通过Multichain移除任何USDC POL，然后将POL存入以太坊USDC池，同时将现有LP列入白名单，以便将他们的LP赎回到任何其他链。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cronos Labs启动第二批加速器计划，将提供1亿美元支持]]></title>
+        <id>https://panewslab.com/zh/articledetails/gxuwndg9.html</id>
+        <link href="https://panewslab.com/zh/articledetails/gxuwndg9.html"/>
+        <updated>2023-05-27T03:40:56.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月27日消息，据Cointelegraph报道，区块链孵化机构Cronos Labs宣布启动第二批加速器计划，为期12周，重点关注人工智能和区块链技术的融合，并拟提供1亿美元支持，指导并资助早期加密项目。共有8个Web3项目入选本次加速器计划，分别为Omnus、DeMe、Furrend、Solace、Sakaba、Eisen Finance、Earn Network和CorgiAI。这些项目都获得了3万美元的pre-seed资金。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LD Capital：Zksync主网上线两个月，生态发展状况如何？]]></title>
         <id>https://www.theblockbeats.info/news/37640</id>
@@ -53,6 +83,33 @@ zksync era TVL 在上线前三周保持稳定的增长，4 月中旬后增长停
 5 月 11 日，OKX Wallet 推出一站式 DApp 探索和空投交互平台 Cryptopedia，将 zkSync Era 作为上线的第一期的主题，设置了 zkSync Era 交互专区。完成交互任务的用户除了潜在空投奖励还可抽取抽取由 OKX Wallet 和 zkSync 联合设计五种不同稀有度的 NFT。受该活动…]]></summary>
         <author>
             <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ERC-6551：NFT即钱包，将带来SocialFi的新范式？]]></title>
+        <id>https://www.odaily.news/post/5187353</id>
+        <link href="https://www.odaily.news/post/5187353"/>
+        <updated>2023-05-27T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在现在的加密世界，越来越多人使用 NFT 作为链上身份的一种形式。而目前的 ERC-721 代币（NFT）不具有代理功能或者不拥有其他链上资产，这与现实世界中不可替代资产的用例是不同步的。因此出现了 ERC-6551 提案。它通过为每个 NFT 授予以太坊账户的全部功能来解决这个问题，同时保持与现有 ERC-721 合约的兼容性。
+什么是 ERC-6551 ？
+ERC-6551 提案是一个全新代币标准，极大地增强了 ERC-721 （即 NFT）的功能性，于 2023 年 5 月 7 日在以太坊主网上发布：通过 ERC-6551 ，可以为 NFT 创建一个或多个智能合约钱包，使其更具可组合性、动态性和交互性。简单来说，ERC-6551 使 NFT 本身成为一个拥有地址的钱包。
+这些钱包被称为“代币绑定账户”(Token Bound Accounts)，简称 TBA（TBA 控制权委托给 NFT 持有者，即 NFT 持有者可以使用 TBA 发起链上操作）使用 TBA，你可以将任何加密资产存储在你所拥有的 NFT 中。例如之前购买 BAYC，需放入 Metamusk；通过 ERC-6551 ，则是为购买 BAYC 创建一个 TBA 进行存储。同时，不仅可以在 BAYC 的 TBA 中存储 ETH，还包括其他的 NFT。同时，作为一个“钱包”，TBA 也可以用于在 dApps 中进行交互。值得注意的是，单个 NFT 也可以通过 ERC-6551 拥有多个代币绑定帐户。从这个意义上说，一个 NFT 现如今可以包含多个钱包等等。
+ERC-6551 引入的系统主要由两部分构成：用于部署代币绑定帐户的无许可注册表和用于与这些帐户交互的标准接口。下图说明了 ERC-721 代币、ERC-721 代币所有者、代币绑定帐户（TBA）和注册表之间的关系：
+
+ERC-6551 带来的改变
+通过 E…]]></summary>
+        <author>
+            <name>veDAO研究院</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blend将支持Azuki旗下BEANZ NFT系列]]></title>
+        <id>https://panewslab.com/zh/articledetails/8ul375c2.html</id>
+        <link href="https://panewslab.com/zh/articledetails/8ul375c2.html"/>
+        <updated>2023-05-27T01:59:02.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月27日消息，据官方消息，Blur旗下NFT借贷协议Blend将新增支Azuki旗下NFT项目BEANZ。用户可按照0.25枚ETH的价格进行先买后付，最高可以获得1.1枚ETH的BEANZ贷款。Blend此前已支持的NFT系列包括CryptoPunks、Azuki、Milady Maker、DeGods、BAYC、MAYC、Kanpai Pandas、Redacted Remilio Babies、Pudgy Penguins、Otherdeeds、BAKC和Clone X。]]></summary>
+        <author>
+            <name>PA一线</name>
         </author>
     </entry>
     <entry>
@@ -6399,18 +6456,6 @@ OpenAI高管认为，重要的是允许公司和开源项目开发低于重要�
         <link href="https://panewslab.com/zh/articledetails/p3t60560.html"/>
         <updated>2023-05-22T19:29:38.000Z</updated>
         <summary type="html"><![CDATA[PANews 5月23日消息，据官方消息，Coinbase表示，为了巩固流动性，将于北京时间2023年5月24日0点左右下架ASM/USDT、ATA/USDT、DESO/EUR、FORT/USDT、FORTH/GBP、MCO2/USDT、XYO/BTC等交易对。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MicroStrategy表示支持FASB提议的加密货币会计规则]]></title>
-        <id>https://panewslab.com/zh/articledetails/wfadkvrn.html</id>
-        <link href="https://panewslab.com/zh/articledetails/wfadkvrn.html"/>
-        <updated>2023-05-22T15:49:49.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月22日消息，MicroStrategy 周一在一封公开信中表示，它支持美国财务会计服务委员会（FASB）的一项提议，该提议允许公司对其资产负债表上持有的加密货币使用公允价值记账。MicroStrategy 是最大的比特币上市公司持有者（约14万枚），按当前市场公允价格计算，14 万枚 BTC 相当于近 40 亿美元。但根据被称为“使用寿命不确定的无形资产会计模型”的现行会计规则，该公司必须使用原始购买价格，然后记录累计减值费用。这意味着其持有的比特币在其资产负债表上的价值仅为 20 亿美元，是其公平市场价值的一半。
-FASB（美国财务会计准则委员会）于2023年3月23日发布了一项提案，针对加密资产提出了新的会计准则，并将在6月6日针对这份提案征询公众建议，如果提案通过，将成为美国会计准则中第一条明确的加密资产会计准则，对加密行业起到不可估量的正向推进作用。
-相关阅读：FASB发布加密资产会计准则 重塑⾏业格局]]></summary>
         <author>
             <name>PA一线</name>
         </author>
