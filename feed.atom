@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-27T10:06:54.396Z</updated>
+    <updated>2023-05-27T11:05:35.211Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -37,6 +37,62 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[MODragon：能否在Arbitrum重现链游新风潮？]]></title>
+        <id>https://www.theblockbeats.info/news/37935</id>
+        <link href="https://www.theblockbeats.info/news/37935"/>
+        <updated>2023-05-27T08:38:07.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Bob，BlockBeats
+
+
+
+
+Arbitrum 空投账户「金铲子」的绰号名不虚传，本周四，元宇宙游戏平台 MOBOX 推出的 DragonMO Genesis 7000 枚 NFT 空投计划正式开奖，其中 5000 枚的抽奖资格仅面向 ARB 空投地址开放。
+
+
+
+
+开奖后，良好品质 DragonMO NFT 地板价一度接近 1 ETH，引发社区广泛讨论，MODragon 究竟有何魔力？
+
+
+
+
+
+游戏介绍
+
+
+
+
+链游 MODragon 由 2021 年获得 Binance Labs 战略投资的元宇宙游戏平台 MOBOX 开发，构建于 Arbitrum 链上，北京时间 2023 年 5 月 25 日 14:00 正式开服。DragonMO（下文简称「龙」）是 MOBOX 平台基于 ARB 链发行的 ERC-721 标准的 NFT。
+
+
+
+
+创世龙蛋共 7000 个，其中 5000 个向 ARB「金铲子」中奖地址空投、2000 个空投至中奖的 MOBOX 用户。
+
+
+每两只龙可进行繁殖，每只龙最多可以繁殖多达 7 次。若繁殖第 7 次结束后，对应的龙被销毁，则链游 MODragon 的龙总量存在理论上的最大值，为 7000（1.5^7-1）119,601 只；若繁殖第 7 次结束后，对应的龙不被销毁，则龙总量不存在理论上的最大值。
+
+
+
+DragonMO 繁殖的概率表
+
+
+龙的能力与品质、潜力、星级和等级相关。能力影响龙的挖矿效率，是龙挖取资源的重要属性。
+
+
+
+
+龙的品质分为普通、良好、稀有、史诗和传说 5 类，不同品质对应着不同的潜力上限与下限；同时共有火、水、木、土和光、暗 6 种元素，排第 1 个的元素即为主元素。
+
+
+
+
+星级和等级则需要消耗龙以获得提升。只有普通和良好品质的龙才可以被作为升级材料，对应的经验值分别为 1 和 2。而升星可以提升龙…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[本周新闻回顾｜Hotbit停止运营；Multichain部分跨链路由暂无法使用]]></title>
         <id>https://www.theblockbeats.info/news/37902</id>
         <link href="https://www.theblockbeats.info/news/37902"/>
@@ -68,6 +124,42 @@ Hotbit 已宣布停止运营，用户需在 6 月 21 日 12:00 前提取资产
 跨链路由协议 Multichain 官方 5 月 25 日发文回应表示，虽然 Multichain 协议的大部分跨链路由运行良好，但部分跨链路由因不可抗力因素…]]></summary>
         <author>
             <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solidity通用安全编码指南]]></title>
+        <id>https://www.odaily.news/post/5187287</id>
+        <link href="https://www.odaily.news/post/5187287"/>
+        <updated>2023-05-27T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[一、变量存储/赋值/删除：
+1.不存储任何敏感信息到链上
+漏洞详情：
+基于区块链的透明性，任何部署到链上的合约数据，都是透明可见，既便是 private 修饰的变量也是如此。因为 private 的可见性仅仅是对函数和外部合约的而言,任意用户都可以通过检索链上数据获取到这些值。这种情况下，任何希望通过基于链上 private 修饰来保证的机密性操作都是不安全的。
+如果存在下面的简单的抽奖代码：
+
+contract Eocene{
+    mapping(address => bytes 32) candidate;
+    uint private seed = 0x 12341 3d;
+    function select() public{
+            bytes 32  result = keccak 256(abi.encodePacked(seed));
+            if(result == candidate[msg.sender]){
+                payable(msg.sender).transfer( 1 ether);
+            }
+        }
+}
+
+即便 seed 已经声明为 private 变量，但是任何人都可以通过合约地址以及 seed 的 slot 位置在链上检索到 seed 值，借此计算出对应的值来获取到 eth。
+修复措施：
+不要在合约中存储任何用于验证的关键值，将关键值存储到链下，链上仅仅实现相应的验证逻辑。
+2.注意变量默认值
+漏洞详情：
+在 solidity 中，变量的初始值为 0/false。这种情况下，在基于某个变量做判断时如果不考虑变量初始值的影响，可能会导致相应的安全问题。
+考虑如下空投解锁代码：
+
+contract Eocene{
+    mapping(ad…]]></summary>
+        <author>
+            <name>EoceneResearch</name>
         </author>
     </entry>
     <entry>
