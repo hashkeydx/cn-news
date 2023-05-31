@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-05-31T06:09:44.760Z</updated>
+    <updated>2023-05-31T07:07:06.189Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SignalPlus 投资研报(20230531)]]></title>
+        <id>https://www.odaily.news/post/5187448</id>
+        <link href="https://www.odaily.news/post/5187448"/>
+        <updated>2023-05-31T06:47:45.000Z</updated>
+        <summary type="html"><![CDATA[各位朋友，欢迎来到 SignalPlus 投资研报。SignalPlus 投资研报每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
+
+当前加密货币的期权市场结构
+数据来源 GVOL.IO，目前整体加密市场的期权波动率出现了比较显著的特点，从盘口来看，亚盘和欧盘，呈现了卖方更加强势的导向。
+
+从盘口的偏离度来看，卖方在亚盘和欧盘的优势更大，均为 5% ，美洲则只有 3 – 4% ，甚至在部分日期出现了打平的局面。所以整个市场存在跨所针对超卖仓位进行套利的机会。初步判断这应该是最近 1 年销售较好的结构化理财产品造成的持续卖方优势的局面。
+
+而从整个盘面的持仓来看，市场对于 7 月和 8 月的反应都比较平淡，可能随着 AI 的叙事更加火爆，加上以太坊的升级效果低于市场预期，所以并没有任何一个主流的老币种在这段时间内创造更大的热点。资金都倾向于相对保守的选择。
+
+从年初到现在的整个市场的 PUT / CALL 可以看出，纯币本位的 deribit 在 PUT 端的成交比例一直不高，市场对于 U 本位的以及跨币种保证金本位的交易所，更倾向于用 PUT 的方式来参与期权。这也和前面猜想的大量持有双币结构化的 “低买”仓位的猜想匹配。
+所以目前的行情来看，基于卖方较为充足的保证金和市场对于 PUT 端的成交稳健且温和上涨。未来卖方的主要机会依然在 PUT 端，而买方可能更多的要通过希腊字母 gamma 盈利。
+Purpose Bitcoin ETF 资产管理总规模(比特币数量) 现在稳定在 2.3 万枚附近，接近牛市前夕，相比去年此刻的 4 W 枚，几乎腰斩。场外的资金进场动力依然不足。
+
+
+美国 5 月份消费者信心指数小幅下滑至 102.3 ，较 4 月份下降 1.4 个百分点，主要是受现况指数和就业强度差异 ( 31) 下降…]]></summary>
+        <author>
+            <name>SignalPlus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[研报：除了BRC20，比特币还有RGB这些Layer2]]></title>
+        <id>https://www.odaily.news/post/5187446</id>
+        <link href="https://www.odaily.news/post/5187446"/>
+        <updated>2023-05-31T06:08:24.000Z</updated>
+        <summary type="html"><![CDATA[比特币的 NFT 协议自 2 月份面世以来，引发了一系列关注——从基于 Ordinals 的 NFT 到基于 Ordinals 的 BRC 20 代币，但是对于 BRC 20 协议，一些比特币研究人员认为，他们并不是最佳解决方案，类似于 RGB 这样的比特币二层，才是更好的选择。
+Mempool 播客在这一期节目请到了比特币研究人员阿剑以及 Harshky Capital 的 Tech lead Jeffery Hu 来谈论他们对包括 Brc 20 在内的比特币二层的看法。
+1. 比特币为新的二层的做好了准备
+Ordinals 由比特币核心开发者 Casey Rodarmor 在 2022 年 2 月 2 日提出 BIP，到了 2023 年 1 月底上线，整个开发经过了差不多一年的时间，简单来说，它用一种独特的方式，把任意一段 4 MB 大小内容数据写到比特币上，每一段数据和比特币的一个聪绑定。可以从两个部分理解 Ordinals 这个协议，一个是 Ordinals 序数，一个是 Inscription 铭文：
+
+Ordinals 序数：要 Ordinals 要先理解比特币最小的货币单位 Satoshi 聪，一个比特币等于 1 亿个聪，这些聪之间本来没有差别，但是就像各国央行发行法币时给法币打上编号一样。在比特币 UTXO 记账系统的基础上，Casey 利用一套技术方案，给聪打上序号，并且追踪他们。
+
+inscription 铭刻：当每个聪被打上编号之后，就可以将一段内容写入见证隔离区，内容可以是图片、文字、音视频，甚至是代码，只要大小在 4 MB 以下，这个过程也就是将艺术品和聪绑定，从而发行、流转。
+
+比特币实际上是一个去中心化的账本系统，而这个账本的核心是它的脚本系统——用来编写交易规则的语言，这种语言不具备图灵完备性，提供了执行交易和定制特定操作的功能。
+Ordin…]]></summary>
+        <author>
+            <name>Mempool Podcast</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《比特币标准》一书作者成为萨尔瓦多国家比特币办公室经济顾问]]></title>
         <id>https://panewslab.com/zh/articledetails/fvqaalvr.html</id>
