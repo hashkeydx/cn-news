@@ -564,92 +564,37 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/42328"
-                        open
-                      >
-                        <summary class="article-expander__title">Arthur Hayes：比特币不会再低于20,000美元，加息反而会促成新一轮牛市</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42328">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>储户将资金存入大银行，美联储不得不发行新币支付利息，美元流动性将增长，钱最终会流向风险资产。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/42322"
-                        open
-                      >
-                        <summary class="article-expander__title">本周新闻回顾｜BKEX配合警方调查暂停提币；香港虚拟资产交易新规施行</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42322">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>回顾5月29日-6月03日重点资讯、热门文章推荐。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/42325"
-                        open
-                      >
-                        <summary class="article-expander__title">专访Kakarot：Vitalik投资的未来超级赛亚人</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42325">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Kakarot其实是一个有寓意的名字，在日本东映动画制作的经典动画片《龙珠》中，主角孙悟空的名字就叫「卡卡罗特」。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/42316"
-                        open
-                      >
-                        <summary class="article-expander__title">半年涨幅10倍，一文读懂LSD赛道创新协议Pendle</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42316">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>半年十倍的涨幅表征着Pendle的价值正在被市场逐步认可，未来Pendle可能达到更高的位置。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >最新 - Odaily星球日报</button>
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187527"
+                        open
+                      >
+                        <summary class="article-expander__title">Trader Joe、Izumi、Maverick：L2头部流动性定制DEX机制分析</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187527">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Yilan，LD Capital
+前言
+随着 Uniswap V3许可证过期，许多集中流动性 AMM（CLMM）的分叉项目开始兴起。“Uni v3-Fi”包括 Dex（单纯的 fork V3或在V3的基础上对定价区间进行定制的不同策略模型），收益增强类协议（Gammaswap），为解决V3无常损失的 Option 类及其他协议等，本文主要介绍在V3基础上对定价区间进行了策略优化的 Dex — — Trader Joe v2、Izumi Finance 和 Maverick Protocol。
+Uni V3的问题
+在 Uniswap V3中，流动性是集中在特定的价格范围内的。这意味着如果资产的价格偏离了这个范围，就会出现所谓的“无常损失”（IL, Impermanent Loss）。无常损失是指相对于持有资产而言，流动性提供者在 AMM 中所遭受的损失。当价格偏离了流动性提供者所选择的价格范围时，无常损失可能会大幅增加，甚至超过原始资产的损失。
+而 Uni v3的集中流动性导致的 IL 风险更大，这部分的解释涉及期权希腊字母概念中的 gamma, Gamma 是指标的价格变化相对于 Delta 值的变动速率。当 Gamma 较大时，意味着 Delta 对标的价格变动非常敏感，因此需要及时调整持仓以避免潜在损失，这被称为 Gamma 风险。在不考虑时间因素的情况下，可以说，当标的资产的波动率增大时，期权的价格也会相应增加，因为更高的波动性增加了期权实现收益的概率，因此市场对这样的期权要求更高的价格。
+当资产波动率大时，gamma 风险也就越高，LP 们承受的无常损失也就越大，因此需求的对无常损失的补偿也更多。因此 AMM 可以看成是内嵌了一个永续期权市场，而 LP 则暴露在 gamma 风险之下，承受无常损失的风险来获取交易手续费或挖矿收益。
+为了应对这个挑战，流动性…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -836,6 +781,88 @@ Web1 时代协议是去中心化、无明确经济模型的，Web2 时代协议�
 a…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/42328"
+                        open
+                      >
+                        <summary class="article-expander__title">Arthur Hayes：比特币不会再低于20,000美元，加息反而会促成新一轮牛市</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42328">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>储户将资金存入大银行，美联储不得不发行新币支付利息，美元流动性将增长，钱最终会流向风险资产。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/42322"
+                        open
+                      >
+                        <summary class="article-expander__title">本周新闻回顾｜BKEX配合警方调查暂停提币；香港虚拟资产交易新规施行</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42322">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>回顾5月29日-6月03日重点资讯、热门文章推荐。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/42325"
+                        open
+                      >
+                        <summary class="article-expander__title">专访Kakarot：Vitalik投资的未来超级赛亚人</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42325">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Kakarot其实是一个有寓意的名字，在日本东映动画制作的经典动画片《龙珠》中，主角孙悟空的名字就叫「卡卡罗特」。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/42316"
+                        open
+                      >
+                        <summary class="article-expander__title">半年涨幅10倍，一文读懂LSD赛道创新协议Pendle</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42316">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>半年十倍的涨幅表征着Pendle的价值正在被市场逐步认可，未来Pendle可能达到更高的位置。</span>
                             </span>
                           </div>
                         </a>
@@ -8769,47 +8796,6 @@ Gemini的许多竞争对手（包括Coinbase、Kraken），在4月份的市场�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/5yw4g8kz.html"
-                        open
-                      >
-                        <summary class="article-expander__title">El Dorado Exchange疑似被攻击，损失约58万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5yw4g8kz.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月30日消息，Proximity Labs研究员Res发推表示，永续DEX El Dorado Exchange（EDE）疑似被攻击，损失约58万美元，某地址一直在向Arbitrum的ELP-1池发送小额资金，并在之后立即提取大额资金。
-攻击者已在链上发送了两条消息，表示“你好，我不是黑帽黑客”，“EDE管理员创建了一个机器人，可以在他们喜欢的时候强制平仓，问问管理员，看看他们是否对你撒谎”。该地址为0x80826e9801420e19a948b8ef477fd20f754932dc。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/nxilp2n6.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国比特币挖矿税提案已被取消</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/nxilp2n6.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月30日消息，据CryptoPotato报道，美国俄亥俄州众议员Warren Davidson证实，拜登政府对美国所有比特币矿工征收30%税的联邦预算提案已被取消。他于周日分享了新提议的债务上限协议文本，协议主要内容包括在2025年1月1日之前完全暂停债务上限，同时实施一系列削减开支的措施，包括限制非国防开支等。比特币矿企Riot Platforms研究副总裁Pierre Rochard指出，该协议没有提及政府此前提议的数字资产矿业能源(DAME)税。Davidson随后证实该提案已被取消。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9703,8 +9689,8 @@ BRC-20 + ERC-1155 &#x3D; BRC-1155
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5163329162">
-        <time id="build-timestamp" datetime="2023-06-03T11:04:51.062Z">2023-06-03T11:04:51.062Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5163577201">
+        <time id="build-timestamp" datetime="2023-06-03T12:13:15.491Z">2023-06-03T12:13:15.491Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
