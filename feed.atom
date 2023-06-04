@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-06-04T14:05:33.539Z</updated>
+    <updated>2023-06-04T15:06:17.778Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4327,116 +4327,6 @@ Lookonchain分析称，每当OP价格上涨时，该地址就会从币安提出O
         <link href="https://panewslab.com/zh/articledetails/0xs4yl9g.html"/>
         <updated>2023-05-31T03:12:53.000Z</updated>
         <summary type="html"><![CDATA[PANews 5月31日消息，推特用户@ChrisONCT引援链上数据揭露了一项疑似骗局的Meme币项目Waifu AI World(WFAI)，该项目公布的代币经济学称95%供应量分配给LP，但在WFAI上线后不久，便有4个新钱包在前后四笔交易中花费共计花费14.4 ETH购买了647万亿枚WFAI，约占供应量（777万亿）的83.2%。目前，项目方已将其中购入457万亿枚WFAI的钱包列入黑名单，现在WFAI总供应量为320万亿枚，也就是说有190万亿枚代币由内部人士持有，即占总代币供应量的60%。而DWF Labs于昨日下午花费约20枚ETH购买了6249亿枚WFAI；DEXTools信任评分在几小时内由极低变成极高。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文对比Polygon四大ZK解决方案：有何特点及优势？]]></title>
-        <id>https://www.odaily.news/post/5187441</id>
-        <link href="https://www.odaily.news/post/5187441"/>
-        <updated>2023-05-31T03:03:52.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：cookies, 风投分析师
-原文编译：Felix, PANews
-当以太坊面临网络拥堵时，天价的费用让以太坊网络过于昂贵，部分用户无力承担，导致许多用户离开以太坊生态。鉴于 Ethereum 以 rollup 为中心的路线图和 Vitalik 认为 ZK rollups 将在未来击败 Optimistic rollups 的立场。作为旨在解决可扩展性的以太坊侧链 Polygon，看到了 ZK 在将下一代十亿用户带入区块链领域的潜力，并投资 10 亿美元用于构建 ZK 解决方案。关于 Polygon 在 ZK 上的布局，风投分析师 cookies 解读了 Polygon 的四大 ZK 解决方案。
-Polygon Hermez | zkEVM
-Hermez 是以太坊主网上第一个去中心化的 ZK Rollup，早在 2021 年 3 月就开始提供支付服务。Polygon Hermez 基于 ZK-SNARK 架构，旨在通过使用零知识证明来解决以太坊区块链的可扩展性问题，以便在以太坊网络上实现更快、更便宜的交易。由于 EVM 不是为了生成 ZK 证明 (ZKP) 而创建的，因此 Polygon Hermez 主要通过重新创建所有 EVM 操作代码来构建 zkEVM。
-为什么是zkEVM?
-通过构建 zkEVM, Polygon Hermez 模拟的 EVM 操作码可以带来以下优势:
-1. 继承以太坊强大的安全性
-2. 易于采用，因为以太坊开发者社区可以轻松地将他们的 EVM 工作迁移到 zkEVM 并使用现有的工具（开发体验佳）。
-性能
-基于 ZK-SNARK 的架构能够提供高达 2000 TPS，并将成本保持在 30 万 Gas 以下。
-Polygon Zero | SNARK + STARK
-Polygon Zero 前身为 Mir Protocol。Polygon Zero 在最初开发 Plonky 2 时，需要 2 分钟才能生成递归证明。而现在 Plonky 2 仅需 170 毫秒即可在笔记本电脑上生成递归证明。
-Polygon Zero 最终要建设由 Plonky 2 提供支持的最具可扩展性的 zkEVM。Plonky 2 是一种递归 SNARK，比以太坊上任何其他 ZK 扩展方案都要快 100 倍。这是通过结合 STARKs 的优点（快速证明及无可信设置）和 SNARKs 的优点（递归，低验证成本）来实现。
-EVM 兼容性
-Plonky 2 与原生以太坊兼容，支持 Solidity 代码，并将其转换为 ZK 字节码。因而 Polygon Zero 能够利用现有的以太坊 dApp 生态系统。
-Polygon Miden | STARK
-基于 STARK 的 rollup 具有以下功能：
-
-透明且可扩展：无需可信设置/预处理
-
-精益密码学：未来量子计算机攻击是不可能的
-
-高性能：领先的证明生成和验证时间
-
-Polygon Miden 以 Miden VM（虚拟机）为中心并支持任意程序。通过隐藏 ZKP 的所有加密复杂性并遵循开发人员熟悉的架构模式（栈机、读写内存等），对开发人员更友好。
-安全
-Polygon Miden 的主要特点之一是安全性。该协议删除了一些不安全的功能（在 EVM 上可用），这使得对智能合约进行静态分析和防止虚拟机 (VM) 级别的某些错误变得更加容易。
-EVM 兼容性
-Miden 在 Solidity 级别与以太坊兼容。开发人员无需修改即可在 Miden 上部署大多数 Solidity 智能合约。此外一个新颖点是与其他语言(如 Move 和 Sway)的兼容性。
-性能
-发布时，TPS 将在 1000 到 2000 之间。一旦在以太坊上部署分片，TPS 将达到约 2 万 TPS。
-Polygon Nightfall| Optimistic + ZK
-与上述 ZK 解决方案相反，Nightfall 专注于私人转账和支付，支持 ERC 20、ERC 721 和 ERC 1155 代币。
-任何不需要存储在智能合约上的数据都存储在链下，优化了智能合约。该团队正在研究一种即时提款机制，以便用户绕过提交欺诈证明 1 周的最终期限。该协议速度明显较慢，最高可达 105 TPS。但据估计，转账的 gas 费用最多可减少 86% ，稳定在约 9000 gas。
-比较
-下图是作者对四种方案的汇总：
-
-结论
-显然，Polygon 正在投入大量时间和资金，带头开发 ZK 扩容方案。对于主网的性能，以及与其他 ZK 协议之间如何协同，一起拭目以待。]]></summary>
-        <author>
-            <name>PANews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MAP Protocol与Waterdrip Capital和Arcane Group成立1000万美元生态基金]]></title>
-        <id>https://panewslab.com/zh/articledetails/d12k4c4w.html</id>
-        <link href="https://panewslab.com/zh/articledetails/d12k4c4w.html"/>
-        <updated>2023-05-31T02:38:23.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月31日消息，据官方推特，全链互操作基础设施MAP Protocol宣布与Waterdrip Capital和Arcane Group共同成立1000万美元生态基金。该基金将专注于Omnichain全链互操作生态建设，支持并发展具有创新价值、能为区块链互操作未来做出贡献并符合三者投资标准的开发团队或项目。该基金即将对项目开放申请。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[香港证监会行政总裁：虚拟资产交易平台指引以保护投资者为首要考虑]]></title>
-        <id>https://panewslab.com/zh/articledetails/5r62k0q7.html</id>
-        <link href="https://panewslab.com/zh/articledetails/5r62k0q7.html"/>
-        <updated>2023-05-31T02:35:09.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月31日消息，据中新网报道，香港证券及期货事务监察委员会行政总裁梁凤仪表示，香港证监会在制订虚拟资产交易平台营运者指引时，将如何保护投资者放在首要考虑位置。
-香港虚拟资产交易平台营运者指引6月起生效。梁凤仪认为，该指引符合市场期望，将保护投资者放在首要位置也是正确做法，例如就稳妥保管资产、分隔客户资产和避免利益冲突等作出监管。她乐见香港证监会成为监管机构的领先榜样。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Curve：已部署Tricrypto-NG并进行3项相关投票，有望优化GAS费和预言机]]></title>
-        <id>https://panewslab.com/zh/articledetails/9y0wy3id.html</id>
-        <link href="https://panewslab.com/zh/articledetails/9y0wy3id.html"/>
-        <updated>2023-05-31T02:33:05.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月31日消息，据官方推特，DeFi协议Curve Finance宣布已部署Tricrypto-NG，现在需要进行3项投票，即在以太坊上接受优化的Tricrypto Factory插件、为新优化的Tricrypto-NG池TricryptoUSDC添加一个计量器、为新优化的Tricrypto-NG池TricryptoUSDT添加一个计量器。接下来，Etherscan需要解决vyper-0.3.9验证的一些问题，即在UI中包含池及池创建。Tricrypto-NG的实施产生的新变化是，Swap费用将从35万gas降至16万至20万gas，价格预言机更加可靠。
-相关阅读：下一代Tricrypto将如何影响Curve生态？DEX或迎来Gas费优化竞赛]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[被质疑蹭热度、信息不透明？一文了解Ordinals上的稳定币Stably USD]]></title>
-        <id>https://www.odaily.news/post/5187439</id>
-        <link href="https://www.odaily.news/post/5187439"/>
-        <updated>2023-05-31T02:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：蒋海波，PANews
-Ordinals 协议的出现为比特币带来新的叙事，这些铭文或 BRC 20 代币在去中心化市场上进行交易时，几乎都是以 BTC 为媒介，没有一种价格稳定的支付工具。而在交易量更大的中心化交易所中，人们通常更习惯使用 USDT、USDC 或 USD 进行交易。
-5 月 25 日，Stably 在推特表示已经在比特币 Ordinals 协议上发行一种由美元支持的、符合监管要求的稳定币#USD。随后，Ordinals 的主要钱包和 NFT 市场 UniSat 也表示已与 Stably 合作。如果能够使用稳定币在 UniSat 市场上买卖 BRC 20 代币，无疑对用户会更加方便。Stably 并非首次发行稳定币，此前在以太坊、Harmony、Stellar 等链上都有发行稳定币。
-BRC 20 #USD 的基本信息
-Stably 发行的稳定币被称为 Stably USD，通常用 USDS 表示。由于 Ordinals 中的 USDS 已经被占用，且 BRC 20 代币符号不能重复又必须是 4 个字符，最终 Stably 选择了“#USD”来表示自己发行的稳定币。
-#USD 的最大供应量采用了 BRC 20 代币的最大理论限额 69.42 万亿。根据公布的Treasury 钱包，#USD 的铸造已经通过 Treasury 钱包的一笔铸币交易达到上限，且 Stably 还部署并铸造了包括 USD*、^USD 在内的多种和 USD 名称相关的 BRC 20 代币。
-
-需要注意，Stably 并不直接持有发行#USD 所需的美元，而是由托管公司 Prime Trust 持有。Prime Trust 帮助 Stably 进行托管，在有 FDIC 存款保险的银行设立托管账户。但 Prime Trust 本身并不是受 FDIC 保障的存款机构或银行，FDIC 存…]]></summary>
-        <author>
-            <name>PANews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[香港虚拟资产评级机构HKVAC成立，将推出虚拟资产指数和交易所评级]]></title>
-        <id>https://panewslab.com/zh/articledetails/6r25q005.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6r25q005.html"/>
-        <updated>2023-05-31T02:24:52.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月31日消息，据官方消息，香港虚拟资产评级机构HKVAC（Hong Kong Virtual Asset Consortium）宣布正式成立，并将推出“虚拟资产指数”及 “虚拟资产交易所评级”。其中，HKVAC大型加密货币指数反映了市值高的加密货币在全球加密货币市场中的整体表现，包含符合其候选资格的全球市值最高的30种加密货币，指数调整于每季度进行检阅，调整检阅日期分别为每季度（3月、6月、9月及12月）的最后一日。虚拟资产交易所评级反映交易平台的信用状况并促进虚拟资产交易市场透明度和问责制。
-HKVAC由专业评级机构及业界发起成立，由虚拟资产业界利益相关者包括大数据公司、交易所、机构投资者等并同香港牌照评级机构组成，旨在创造安全的虚拟资产投资环境，以提高公众投资者对虚拟资产的认可。HKVAC持续监控交易市场的风险水平，为行业利益相关者及投资者提供风险管理指标，对在交易所上的虚拟资产进行信用评估，确保所有投资者能清楚其投资的风险水平。
-HKVAC表示已获得以下合作机构支持，包括 FrancXav Asia Ratings、G-Rocket Global Accelerator、Hong Kong Data Infinity Technology、HKVAEX、Huobi、Ipollo、KuCoin、LK Venture、Nano Labs、Purise、Wealthking Investment Limited。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
