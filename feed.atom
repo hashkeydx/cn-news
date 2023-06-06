@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-06-06T05:07:02.823Z</updated>
+    <updated>2023-06-06T06:09:38.171Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -24,6 +24,56 @@
         <summary type="html"><![CDATA[PANews 6月6日消息，区块链分析公司ChainArgos相关的Data Finnovation在一篇博客文章中揭露，Digital Currency Group（DCG）旗下有个名为HQ Digital的投资子公司，专为DCG创始人Barry Silbert服务，管理着大约36亿美元的资产，它在2022年初从Genesis Global借了10亿美元，然后在承担三箭资本责任时偿还给Genesi。HQ Digital于2021年底成立，已在美国证券交易委员会注册，一直没有宣传任何业务。Data Finnovation认为上述HQ Digital和Genesis之间的交易属于内部交易，并怀疑是DCG拖延谈判的真正原因。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SharkTeam：zkSync Era链上数据分析]]></title>
+        <id>https://www.odaily.news/post/5187576</id>
+        <link href="https://www.odaily.news/post/5187576"/>
+        <updated>2023-06-06T03:34:18.000Z</updated>
+        <summary type="html"><![CDATA[5 月 31 日，zkSyncc Era 生态总 TVL 达到 3.5 亿美元，占 Layer 2 所有项目 TVL 总和的 3.95% ，排名第 3 。尽管与 Arbitrum 和 Optimism 相比还有较大的差距，但 zkSync Era 上线仅 2 个月，TVL 增速很快，值得关注。
+
+zkSync是由Matter Labs推出的以太坊Layer 2 扩容解决方案，旨在解决以太坊的可扩展性问题。其1.0 版本（Zksync Lite）于2020 年6 月发布。虽然zkSync Lite的交易成本不高，但是速度较慢，确认时间比较长且不兼容EVM。zkSync 2.0 （zkSync Era）在1.0 的版本上做了升级，提高了交易速度，大幅度降低了成本，zkSync Era提供了对EVM兼容智能合约的完全支持，这意味着开发者可以轻松地将现有的以太坊智能合约部署到zkSync Era。
+zkSync Era使用了零知识证明+Rollup架构，提供了比以太坊主网更快、更便宜的交易体验。通过将大部分活动从Layer 1 网络中移出，它在保持以太坊安全性和终结性的同时，减少了网络拥堵，降低了转账费用。
+目前，zkSync Era的用户体验差强人意。如大家频频吐槽的gas费高、交易失败、滑点不稳定等。整个zkSyncc Era生态，主要聚焦在DEX交互，衍生品和借贷类型的项目仍较少。zkSync Era表现具体如何，以下是关于zkSync Era的链上数据分析：
+1. TVL
+3 月24 日zkSync Era主网向所有人开放，到4 月14 日，20 天的时间，TVL达到2.41 亿美元，平均每天增加1000 万美元。4 月15 日，TVL与前一天相比减少了152 万美元，开始震荡，5 月17 日之后，TVL重新开始逐步攀升，5 月31 日，zkSync Era的TVL达到3.61 亿美元。
+
+2. 存款地址
+6 月2 日，zkSync Era存款地址总数为72.3 万个。其中与Arbitrum和Optimism都进行过交互的地址数为309, 471 ，占比42.8% ，未与之进行过交互的地址数为24, 219 ，占比3.35% 。3 月25 日，当日存款地址数达41, 341 ，达到高峰，3 月底交易活跃。在每日存款地址数中，新老地址比为4: 1 。大多数地址只进行一次交易，重复交易的地址数较少。
+
+
+3. 跨链交易
+zkSync Era官方桥支持从以太坊主网跨到zkSync Era，并且允许任何ERC 20 的代币进行转化。5 月31 日，当日跨链桥转移ETH数量为10, 576.76 枚，达到高峰。截止到6 月1 日，从ETH跨链到zkSync Era的ETH总数达到30 多万个，平均每个地址0.42 枚ETH。
+
+4. 巨鲸地址
+下图为跨链桥的Top 20 巨鲸地址，地址0x2c...8299 通过跨链桥转移ETH数量为9523.7 枚，排名第一。地址0x66...9de0 转移的数量为5500 枚，排名第二。按照转移的ETH的数量分类，可以发现，小于0.1 ETH的地址数为443, 944 ，占总地址数的62% ，占比最大。0.1-1 ETH的地址数为222, 868 ，占比31% ，排名第二。超过10 ETH的地址数为2196 个，不到1% 。
+
+5. 资产分布
+存款金额在$ 10-$ 100 的地址数为308, 883 ，占总地址数的43% ，占比最大。存款金额在$ 10-$ 1000 的地址数为583, 212 ，占比81% 。存款金额超过10 万的地址数为450 ，占比0.06% 。
+
+About us
+SharkTeam的愿景是全面保护Web3世界的安全。团队由来自世界各地的经验丰富的安全专业人士和高级研究人员组成，精通区块链和智能合约的底层理论，提供包括智能合约审计、链上分析、应急响应等服务。已与区块链生态系统各个领域的关键参与者,如Polkadot、Moonbeam、polygon、OKC、Huobi Global、imToken、ChainIDE等建立长期合作关系。
+官网 | Twitter]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文了解FPGA和GPU加速零知识证明计算的优缺点]]></title>
+        <id>https://www.odaily.news/post/5187574</id>
+        <link href="https://www.odaily.news/post/5187574"/>
+        <updated>2023-06-06T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Star Li
+原文来源：IOSG Ventures
+零知识证明技术应用越来越广，隐私证明，计算证明，共识证明等等。在寻找更多更好的应用场景的同时，很多人逐步发现零知识证明证明性能是个瓶颈。Trapdoor Tech 团队从 2019 年开始深入研究零知识证明技术，并一直探索高效的零知识证明加速方案。GPU 或者 FPGA 是目前市面上比较常见的加速平台。本文从 MSM 的计算入手，分析 FPGA 和 GPU 加速零知识证明计算的优缺点。
+TL;DR
+ZKP 是拥有未来广泛前景的技术。越来越多的应用开始采用零知识证明技术。但 ZKP 算法比较多，各种项目使用不同的 ZKP 算法。同时，ZKP 证明的计算性能比较差。本文详细分析了 MSM 算法，椭圆曲线点加算法，蒙哥马利乘法算法等等，并对比了 GPU 和 FPGA 在 BLS 12 _ 381 曲线点加的性能差别。总的来说，在 ZKP 证明计算方面，短期 GPU 优势比较明显，Throughput 高，性价比高，具有可编程性等等。FPGA 相对来说，功耗有一定的优势。长期看，有可能出现适合 ZKP 计算的 FPGA 芯片，也可能为 ZKP 定制的 ASIC 芯片。
+ZKP 算法复杂
+ZKP 是个零知识证明技术的统称（Zero Knowledge Proof）。主要由两种分类：zk-SNARK 以及 zk-STARK。zk-SNARK 目前常见的算法是 Groth 16 ，PLONK，PLOOKUP，Marlin 和 Halo/Halo 2 。zk-SNARK 算法的迭代主要是沿着两条方向： 1/ 是否需要 trusted setup 2/ 电路结构的性能。zk-STARK 算法的优势是毋需 trusted setup，但是验证计算量是对数线性的。
+就 zk-SNARK/zk-STARK 算法的应用来看，不同项目使用…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
