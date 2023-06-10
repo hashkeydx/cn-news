@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-06-10T10:06:45.165Z</updated>
+    <updated>2023-06-10T11:05:15.899Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[​深入探讨BTC Layer2的前世今生与未来]]></title>
+        <id>https://www.odaily.news/post/5187683</id>
+        <link href="https://www.odaily.news/post/5187683"/>
+        <updated>2023-06-10T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者: Glimmer @Glimmerllx, William, Hankester @0x Hankester
+导师指导: Jademont, Elaine, Bill @Waterdrip Capital
+比特币 (Bitcoin)，简称 BTC，是一个基于区块链去中心化共识并且应用点对点网络通信的开源加密货币系统，由分布在全球各地的计算机网络和节点共同维护。BTC 的白皮书由中本聪在 2008 年 10 月 31 日发布，此后的 2009 年 1 月 3 日，BTC 的共识链产生了第一个区块。然而，随着加密社区和生态日渐壮大繁荣，早期的 BTC 技术已无法满足用户对加密货币系统可扩展性的需求。直接改进 BTC 底层协议的复杂度高、社区阻力大，会增加 BTC 系统的风险、导致硬分叉和社区分裂。一个更加合适的方案是 BTC Layer 2 ，即基于 BTC 构建新的层级而不对 BTC 进行改动，兼容 BTC 的同时，满足用户对扩展性的需求。本文对 BTC Layer 2 进行调查，综合地阐述 BTC 现状、问题以及 BTC Layer 2 的技术方案以及优劣性，并且对其未来进行展望。
+BTC 的技术简介
+BTC 的核心是分布式账本技术，使用区块链储存交易数据。区块链是基于哈希指针链表结构，链表的每节是一个数据区块，包含上一个区块的哈希值、交易数据、时间数据、挖矿参数和协议版本信息。BTC 网络中，新区块链的写入权力，即记账权，由节点遵循工作量证明机制 (Proof of Work, PoW) 依靠算力竞争得到。获得记账权的节点成功写入新的区块后，获得一定的比特币代币作为奖励，因此这个过程也被称为挖矿。
+
+BTC 的区块数据结构，图片来源: https://www 3.ntu.edu.sg/home/ehchua/programming/blockchain/bitc…]]></summary>
+        <author>
+            <name>Watedrip Capital</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一PEPE巨鲸卖出4685亿枚PEPE，较买入价或亏损达52%]]></title>
+        <id>https://panewslab.com/zh/articledetails/po7295e4.html</id>
+        <link href="https://panewslab.com/zh/articledetails/po7295e4.html"/>
+        <updated>2023-06-10T10:11:09.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月10日消息，据Lookonchain监测，一个PEPE的持币鲸鱼地址在2小时前以109枚ETH和23.7万USDT的价格亏本卖出了4685亿枚PEPE 。该地址于5月9日从KuCoin中提走了这些PEPE，当时价格为 $0.0000019。这一鲸鱼可能亏损了52%，损失了46.3万美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本周新闻回顾｜SEC起诉Binance及Coinbase；BKEX热钱包风险资金主要来自网赌平台以及非法四方支付平台]]></title>
+        <id>https://www.theblockbeats.info/news/42541</id>
+        <link href="https://www.theblockbeats.info/news/42541"/>
+        <updated>2023-06-10T10:00:01.000Z</updated>
+        <summary type="html"><![CDATA[回顾6月04日-6月10日重点资讯、热门文章推荐。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：价值170万美元的ARB在近3小时从Kraken转存入Binance等交易所]]></title>
+        <id>https://panewslab.com/zh/articledetails/edyqekgu.html</id>
+        <link href="https://panewslab.com/zh/articledetails/edyqekgu.html"/>
+        <updated>2023-06-10T09:27:35.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月10日消息，自3 小时前以来，共有价值170 万美元的ARB从Kraken交易所提出并转而存入Binacne、Bybit、OKX、Gate。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[签名就被盗？警惕Uniswap Permit2签名钓鱼手法]]></title>
         <id>https://www.odaily.news/post/5187685</id>
@@ -6331,36 +6377,6 @@ Grewal表示：“国会需要明确划定数字资产及其基础技术何时�
         <link href="https://panewslab.com/zh/articledetails/c087vk73.html"/>
         <updated>2023-06-05T23:26:14.000Z</updated>
         <summary type="html"><![CDATA[PANews 6月6日消息，据CoinDesk报道，美国破产法院法官Sean Lane在周一的破产听证会上延长了加密贷款机构Genesis与其债权人之间的调解期。原定于上月结束的调解期将于6月16日结束。今年早些时候双方的谈判破裂后，Lane于5月1日任命了一名调解人来引导Genesis与其债权人之间的谈判。在听证会上，法官还拒绝了Genesis与FTX展开和解谈判的请求，FTX声称Genesis欠其39亿美元，而Genesis则声称自己对FTX没有任何负债。Genesis已要求法官估计其欠FTX的具体金额，这将在下周的听证会上讨论。此前，Genesis曾试图将FTX的未清算债权评估为零。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[苹果发布首款MR头显设备Vision Pro，将于2024年初上市，售价3499美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/z4ii6lnc.html</id>
-        <link href="https://panewslab.com/zh/articledetails/z4ii6lnc.html"/>
-        <updated>2023-06-05T22:57:19.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月6日消息，据财联社报道，苹果公司于当地时间周一在美国旧金山召开2023年全球开发者大会（简称WWDC23），推出iOS 17，iPadOS 17，macOS等软件系统，并发布了首款混合现实（MR）头显设备Apple Vision Pro。Vison Pro同时搭载了M2和全新的R1芯片，R1芯片是苹果公司专门为这款产品研制的芯片，主要负责数据传输。据苹果公司介绍，用户可以通过手、眼和声音来控制Vision Pro，这款设备将使用户能够以更身临其境的方式体验电影、电视节目和游戏。Apple Vision Pro定价3499美元，将于明年年初在美国上市，明年晚些时候在其他国家和地区上市。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：BNB和CAKE价格暴跌，24小时跌幅均已超过10%]]></title>
-        <id>https://panewslab.com/zh/articledetails/oeufjmgd.html</id>
-        <link href="https://panewslab.com/zh/articledetails/oeufjmgd.html"/>
-        <updated>2023-06-05T22:19:01.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月6日消息，在美国证券交易委员会(SEC)对币安提起诉讼后，币安生态系统中两大代币BNB和CAKE的价格暴跌。CoinGecko的数据显示，BNB目前报275.12美元，24小时跌幅达10.1%。而CAKE目前报1.54美元，24小时跌幅达11.9%。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[孙宇晨发文支持赵长鹏，称“相信币安会自证清白”]]></title>
-        <id>https://panewslab.com/zh/articledetails/kx9dhfc3.html</id>
-        <link href="https://panewslab.com/zh/articledetails/kx9dhfc3.html"/>
-        <updated>2023-06-05T22:11:04.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月6日消息，孙宇晨就SEC起诉币安和赵长鹏一事在推特发文，表示将坚定支持赵长鹏，相信其会按照法律要求处理这件事，并采取必要的措施来解决问题。孙宇晨还表示，相信币安会自证清白，正义会得到伸张，他愿与赵长鹏共同面对这一挑战。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
