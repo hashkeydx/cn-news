@@ -2,10 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-06-10T00:40:49.118Z</updated>
+    <updated>2023-06-10T02:11:09.543Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Arbitrum发布排序器故障分析报告：没有用户资金面临风险]]></title>
+        <id>https://panewslab.com/zh/articledetails/gvl1kp0d.html</id>
+        <link href="https://panewslab.com/zh/articledetails/gvl1kp0d.html"/>
+        <updated>2023-06-10T02:09:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月10日消息，据官方消息，Arbitrum发布了关于此前交易批量提交故障的事后分析报告。Arbitrum表示，排序器没有宕机或耗尽资金，排序器会继续接受用户交易，没有用户资金面临任何风险。据此前消息，Arbitrum的排序器代码出现bug，导致该网络批量提交交易的功能短暂中断，交易无法在主链上得到确认。随后漏洞被修复，交易批量提交功能已恢复。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MEV Capital推出USDC计价的数字资产对冲基金]]></title>
+        <id>https://panewslab.com/zh/articledetails/uc7whuy2.html</id>
+        <link href="https://panewslab.com/zh/articledetails/uc7whuy2.html"/>
+        <updated>2023-06-10T01:50:25.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月10日消息，据Crowdfundinsider报道，MEV Capital正在推出一个新的数字资产对冲基金“MEV Capital Stablecoin High-Yield Fund SP”。该基金采用开放式结构，在开曼群岛金融管理局 (CIMA) 注册，并由CIMA批准的审计师审计。该基金本月开始认购并以USDC计价，目标是到2023年达到1.3亿美元的资管规模。MEV Capital正在寻求在今年晚些时候推出一个ETH计价的高收益基金，并逐步扩展到其他Layer 2网络。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Circle将采取措施继续寻求上市]]></title>
+        <id>https://panewslab.com/zh/articledetails/9ryozhsi.html</id>
+        <link href="https://panewslab.com/zh/articledetails/9ryozhsi.html"/>
+        <updated>2023-06-10T01:16:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月10日消息，据Blockworks报道，美国证券交易委员会（SEC）对上市公司Coinbase的最新执法行动并没有阻止Circle或其他公司继续寻求上市。Circle高管在今年早些时候表示，上市仍然是Circle战略的关键部分，而本周Circle的发言人再次证实了这一计划。该发言人表示：“我们不准备设定具体的最后期限，但我们将采取措施，在可行的情况下继续上市之旅”。此外，Circle于两周前发布了一份企业法律顾问的招聘启事，称该职位将“协助潜在的上市流程”，以及“支持建立上市公司政策、实践和流程”。不过，一位业内高管表示，在目前的环境下，大多数考虑上市的公司都可能面临很多困难。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[每周编辑精选 Weekly Editors' Picks（0603-0609）]]></title>
+        <id>https://www.odaily.news/post/5187366</id>
+        <link href="https://www.odaily.news/post/5187366"/>
+        <updated>2023-06-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「每周编辑精选」是Odaily星球日报的一档“功能性”栏目。星球日报在每周覆盖大量即时资讯的基础上，也会发布许多优质的深度分析内容，但它们也许会藏在信息流和热点新闻中，与你擦肩而过。
+因此，我们编辑部将于每周六从过去 7 天发布的内容中，摘选一些值得花费时间品读、收藏的优质文章，从数据分析、行业判断、观点输出等角度，给身处加密世界的你带来新的启发。
+下面，来和我们一起阅读吧：
+
+DeFi
+Trader Joe、Izumi、Maverick：L2头部流动性定制 DEX 机制分析
+文章主要介绍在V3基础上对定价区间进行了策略优化的 3 家 Dex——Trader Joe v2、Izumi Finance 和 Maverick Protocol。
+Trader Joe V2的 LB（Liquidity Book）对 Uniswap V3的最大改进是引入了“Bin”的概念并使流动性分布可策略化。Bin 是一种价格区间，作为流动性分布的单元，在 Liquidity Book 中，流动性被划分为离散的 Bin 单元。每个 Bin 内的流动性遵循固定的汇率进行兑换。允许流动性提供者将资金集中在特定的价格范围内，从而避免滑点。
+Izumi 的 AMM 使用的是 DL-AMM 算法，一种新的离散集中流动性算法，具有类似于 Uniswap V3的集中流动性做市商特征，但能够在任何固定价格上精确分布流动性，而不是一个价格范围。这使得 iZiSwap 在流动性管理方面更加可控，并且支持更多的交易方式，例如限价订单。
+Maverick AMM 的自动流动性放置（ALP）机制与 Uniswap V3类似，但是重要区别是 ALP 机制可以自动实现集中流动性的动态再平衡，以使得交易滑点低于非集中式 AMM 模型，但无常损失又低于集中式 AMM 模型（单面流动性机制减少无常损失的场景）。其关键机制是通过使用…]]></summary>
+        <author>
+            <name>郝方舟</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Circle CEO、Ava Labs创始人等将出席美国众议院数字资产听证会]]></title>
+        <id>https://panewslab.com/zh/articledetails/o8iw4qhe.html</id>
+        <link href="https://panewslab.com/zh/articledetails/o8iw4qhe.html"/>
+        <updated>2023-06-09T23:23:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月10日消息，Fox Business记者Eleanor Terrett推特发文称称，Circle首席执行官Jeremy Allaire、Steptoe & Johnson律师事务所合伙人Coy Garrison、Ava Labs创始人兼CEO Emin Gün Sirer、NFA News总裁兼CEO Thomas Sexton III将出席下周二举行的美国众议院金融服务委员会数字资产听证会。据此前消息，美国众议院金融服务委员会宣布将于当地时间6月13日14:00（北京时间6月14日凌晨）召开一场题为“数字资产的未来：为数字资产生态系统提供清晰度”的听证会。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：SEC执法行动已导致40亿美元从币安、Coinbase和Binance US流出]]></title>
+        <id>https://panewslab.com/zh/articledetails/ioi1w1iy.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ioi1w1iy.html"/>
+        <updated>2023-06-09T23:18:27.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月10日消息，据CoinDesk报道，链上数据显示，自美国证券交易委员会(SEC)执法行动后，已有大约40亿美元资金从币安、Coinbase和Binance US流出。区块链分析公司Nansen和Glassnode的数据显示，本周一至周四，这三家交易所通过以太坊网络净流出31亿美元，比特币(BTC)净流出8.64亿美元。其中币安在四天内的以太坊净流出为20亿美元。该指标包括ETH和所有基于以太坊的代币。与此同时，比特币净流出8.38亿美元(31,868枚比特币)。Coinbase的以太坊净流出达10亿美元，比特币净流出总额为2500万美元。而Binance US以太坊净流出总额为7500万美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crypto.com将于6月21日停止向美国机构客户提供服务，零售业务不受影响]]></title>
+        <id>https://panewslab.com/zh/articledetails/0f2kgn0l.html</id>
+        <link href="https://panewslab.com/zh/articledetails/0f2kgn0l.html"/>
+        <updated>2023-06-09T23:08:58.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月10日消息，据CoinDesk报道，加密交易所Crypto.com宣布，从6月21日起将不再向美国的机构客户提供服务，机构用户已提前收到暂停服务决定的通知。该交易所表示，鉴于“当前的市场格局”，机构客户的“需求有限”。零售投资者不会受此决定的影响，可以继续能够在美国使用该平台。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：约42%的DAI初始用例用于去中心化交易所]]></title>
         <id>https://panewslab.com/zh/articledetails/wbg2wurm.html</id>
@@ -6115,68 +6194,6 @@ Binance.US发言人Christian Hertenstein表示，自从现任首席执行官 Bri
         <summary type="html"><![CDATA[PANews 6月5日消息，ENS宣布推出AI机器人NickGPT，目前已部署至Discord。机器人NickGPT是基于自定义自然语言模型开发，受过ENS文档训练，可以回答用户关于ENS的相关问题。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[萨尔瓦多计划建设241兆瓦的可再生能源发电园区，旨在推动Bitcoin挖矿业的发展]]></title>
-        <id>https://panewslab.com/zh/articledetails/htu32ia8.html</id>
-        <link href="https://panewslab.com/zh/articledetails/htu32ia8.html"/>
-        <updated>2023-06-05T13:56:26.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月5日消息，据Bitcoin Magazine报道，萨尔瓦多正在利用其丰富的自然资源建设可再生能源发电园区，以推动Bitcoin挖矿业的发展。据悉，萨尔瓦多计划在Metapán地区建设一个241兆瓦 (MW) 的可再生能源发电园区，结合太阳能和风能项目。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：韩国交易所今年前20种加密货币总交易量为2018亿美元，XRP交易量远超以太坊]]></title>
-        <id>https://panewslab.com/zh/articledetails/p6xq2v4z.html</id>
-        <link href="https://panewslab.com/zh/articledetails/p6xq2v4z.html"/>
-        <updated>2023-06-05T13:33:13.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月5日消息，据Blockworks报道，Kaiko数据显示，从年初到5月30日，除比特币和以太坊外，在韩国加密货币交易所Upbit、Bithumb、Coinone和Korbit上市的交易量最大的前20种加密货币的总交易量为2018亿美元。XRP交易额为245亿美元，比特币和以太币的交易额分别为367亿美元和89亿美元。交易额排名 4 到 10 位的分别为DOGE、SXP、ETC、SAND、T、ARB、AXS。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Binance聘请前OKX全球品牌和合作伙伴主管Rachel Conlan，任全球营销副总裁]]></title>
-        <id>https://panewslab.com/zh/articledetails/ccxc0m6i.html</id>
-        <link href="https://panewslab.com/zh/articledetails/ccxc0m6i.html"/>
-        <updated>2023-06-05T13:10:08.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月5日消息，据The Block报道，Binance聘请Rachel Conlan担任其全球营销副总裁，目标是帮助公司从目前超过1.28亿用户扩大到10亿用户，并帮助提高加密货币的采用率。据悉，Rachel Conlan之前在OKX工作了一年，担任其品牌和合作伙伴关系的全球负责人。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arthur Hayes：别灰心，第四季度牛市即将到来]]></title>
-        <id>https://www.theblockbeats.info/news/42360</id>
-        <link href="https://www.theblockbeats.info/news/42360"/>
-        <updated>2023-06-05T13:00:01.000Z</updated>
-        <summary type="html"><![CDATA[为什么美联储没有开始降息，为什么美国没有开始进行收益率曲线控制。]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IOSG Ventures：V神二次创业，Zuzalu公民的以太坊社会学实验]]></title>
-        <id>https://www.odaily.news/post/5187561</id>
-        <link href="https://www.odaily.news/post/5187561"/>
-        <updated>2023-06-05T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Shuyao
-原文来源：IOSG Ventures
-优秀的基础设施
-比起海边的加密会议，Zuzalu 更像是一个古希腊城市。
-你可能听说过，这次聚会 – 是以太坊创始人 V 神的创意 – 富得流油的加密圈老板们也在这里计划如何逃避死亡。当然，在 Zuzalu 发生的，不仅如此。
-我在 Zuzalu 度过了一个月，在黑山 Lustica Bay 参与了为期两个月的临时城市项目，并有幸与世界上最聪明的人相处。高浓度的人才集中，是 Zuzalu 的杀手锏！
-到了 Zuzalu （这个词是虚构的），我用 ZuPass 登记参加这个项目，并用二维码生成了一本「护照」，这是一个用零知识证明的身份验证系统，用于验证居民的身份。这个 App 就是出自于一位 Zuzalu 居民之手，其实，这次项目的技术方案也是由 Zuzalu 居民支持解决。
-不需要太长时间，你就可以完全熟悉 Zuzalu 的重要景观。那是一个美丽的海湾，绿色的山脉戏剧性地延伸下来，触碰亚得里亚海。大多数参与者（尽管说是 200 人参加，实际上有 700 人）住在由核心组织者租用的公寓里，费用只是实际支付的一小部分。
-学生和其他需要经济援助的人可以申请补贴。我很开心能够和我的朋友 Eric Annan 见面，他是一位来自加纳的创始人，在非洲建立了一个 Web3 人才协议。也是多亏了这份补贴，Eric 才能够来到 Zuzalu。
-这个海湾由一家埃及房地产公司持有和开发，周边几乎拥有你所需要的一切设施：餐厅、杂货店、面包店、咖啡厅（开心果味冰淇淋很好吃）、药店、儿童游乐场和服装店。
-在这一个月里，我和当地的老板成为了朋友。他们知道我喜欢喝什么咖啡，也总是友好地在我嘴馋的时候提供免费的水果。
-我最喜欢的地方
-在 Zuzalu ，我最喜欢的地方其实是共享办公空间（co-working space）。你可以在这里举办演讲、小…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
         </author>
     </entry>
 </feed>
