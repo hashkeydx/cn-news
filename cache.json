@@ -2214,16 +2214,6 @@
           "wordCount": 347,
           "title": "韩国金融当局：将关注币安诉讼进展，币安对Gopax收购可能会被取消",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/i7fyn78n.html",
-          "author": "PA一线",
-          "description": "PANews 6月7日消息，以太坊Layer2网络Arbitrum在推特上表示，AIP-1.1和1.2提案将于6月10日凌晨在Tally平台开启链上投票，并将与6月24日结束。AIP-1.1和1.2提案此前均于4月中旬通过Snapshot温度检查投票。\n提案AIP-1.1建议将基金会剩余的7亿ARB置于“智能合约控制的锁定”中，四年内解锁根据提案，在社区成员批准代币分配预算之前，基金会将无法使用代币。此外，Arbitrum 基金会还发布了一份关于该组织如何成立的透明度报告。\n提案AIP-1.2旨在修改Arbitrum生态系统的几个治理文件，包括将在链上发布改进提案所需的ARB代币数量的门槛从500万降低到100万。目前该两项提案的支持率均在98%以上。",
-          "link": "https://panewslab.com/zh/articledetails/i7fyn78n.html",
-          "publishedOn": "2023-06-07T06:39:33.000Z",
-          "wordCount": 354,
-          "title": "Arbitrum社区将于6月10日起对AIP-1.1和1.2提案进行链上投票",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2560,16 +2550,6 @@
           "publishedOn": "2023-06-07T07:50:40.000Z",
           "wordCount": null,
           "title": "IPOR：DeFi发展的新脉搏",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/42449",
-          "author": null,
-          "description": "多位立法者表达了他们对美国目前采用的执法监管模式的担忧。",
-          "link": "https://www.theblockbeats.info/news/42449",
-          "publishedOn": "2023-06-07T06:25:49.000Z",
-          "wordCount": null,
-          "title": "众议院听证会概览：SEC执法行动遭批评，加密新规或需数年时间",
           "imageUrl": null
         }
       ]
@@ -3167,16 +3147,6 @@
           "publishedOn": "2023-06-07T07:34:31.000Z",
           "wordCount": 1839,
           "title": "SignalPlus宏观研报20230607：BTC出现强劲反弹，美国科技业ETF受青睐",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5187615",
-          "author": "PoopmanDeFi",
-          "description": "等待终于结束了，Sam Kazemian 最近宣布了 frxETH v2。通过市场利率等创新手段，Frax Finance 正在将 frxETH 推向 LSD 领域的新高峰。\n在接下来的文章中，我将深入剖析 frxETH v2 的精妙设计。\n先介绍一些背景信息。\nfrxETH 是增长最快的 LSD 之一，在一年多时间里已经累积了超过 233.4 K ETH。这种指数级的增长主要得益于 sfrxETH 和 Curve 上的 frxETH-ETH 池的协同作用。\n\n虽然确保早期验证者的质量很重要,但 Frax 在版本 1 中依赖于内部验证者。为了解决这个问题, frxETH 版本 2 引入了新的机制,以进一步去中心化 frxETH 并提高借贷市场效率。\n我将围绕以下内容进行讨论:\n\n流动性来源发现(LSD)的基本概念\n\n什么使 frxETH v2 创新\n\n基于市场的利率\n\n可编程的借贷市场\n\nLSD 的基本理念\nLSD 的核心理念很简单,即为创立一个基于以太坊的借贷市场。用户可将以太坊抵押品借出,获得代表权益的代币作为凭证。借款人则可使用这些抵押品来运行验证者节点,并向债权人支付利息。\n\n可以确定的是, P2P质押池是最高效且去中心化的模式。与此同时,类似 stETH 和 rETH 的 LSD 本质上是锚接于 ETH 的收益性稳定币。\n然而, LSD 的年化收益率受抵押成本限制。Rocket Pool 年化收益率为 3.69% , Lido Finance 为 4.3% 。这是因为在向 LSD 持有者分配奖励前,必须先从更大的资金池中分配奖励。\n\nfrxETH v2 的创新亮点\n那么, frxETH v2有哪些创新点呢?\n为了创建一个真正去中心化的 LSD 项目, frxETH v2引入了一些创新机制,其中最重要的包括：\n\n基于市场和利用率的浮动利率\n\n可编程的借贷市场\n\n让我们快速回顾 frxETH v1:\n在 Frax v1中,用户存入 ETH 并获得 frxETH。用户可以质押 frxETH 获得 sfrxETH 赚取奖励,或者将其与 ETH-frxETH 对配对在 Curve Finance 上赚取 CRV。\n在 frxETH V2中,用户可以根据贷款价值比(LTV)“借用”验证器。要“借用”验证器,用户必须首先抵押一定数量的 ETH(可能超过 8 ETH),这样他们才有权在 Frax Finance 上借款并运行验证器。同时,借款利息直接从用户的 ETH 和验证者奖励中扣除。\n下图概览了 frxETH V2的架构,为简单起见,我只会专注于圆圈区域：\n\n基于市场的浮动利率是一个创新点\n与其他协议不同,\nfrxETH v2 不使用固定费率;相反,它依赖于基于以下因素的动态浮动利率：\n\n利用率\n\n市场供求\n\n借款人可以实时查看并以浮动利率进行交易,这为节点运营者提供了更多可挣利润的选择。\n\n让我们用一个例子来说明:\n如果借贷利率较低(有大量的贷款人或 ETH 质押人),用户可以\"借用\"一个验证者,执行验证操作,并向贷款人(也就是 sfrxETH 持有者)支付利息。同时,验证者可以保留所有的奖金,如 MEV、优先笔等。\n另一方面,如果利率增加(需求高于供应),那么运行验证者可能无法盈利。此时,用户可能选择:\n• 偿还债务\n• 放弃验证者\n• 等待更有利可图的时机\n有了浮动利率后,有经验的节点运营者可以根据市场利率制定策略,获得更多赚钱的选择。\n\n惩罚机制:\n当验证者未能完成某些工作时,惩罚机制会启动。由于验证者的总价值下降,借款人的贷款价值比(LTV)将上升。如果 LTV 达到不健康的水平,为了保持协议的稳定性,验证者将被废弃。\n可编程的借贷市场\nveFXS 持有者提议新的抵押品类型(例如新的链或 Token)\n通过治理来设计新的借款条款,包括最低投标额度、利率等\n允许不同的用户群体和用例获得定制化的借贷条件\n结论\n总的来说,可编程性赋予 frxETH v2一个灵活的、可扩展的框架。这将有助于开发出更多应用场景和产生一个新的借贷市场。\n更多精彩内容请关推特：poopmandefi",
-          "link": "https://www.odaily.news/post/5187615",
-          "publishedOn": "2023-06-07T07:00:00.000Z",
-          "wordCount": 1756,
-          "title": "frxETH v2：引领LSD进入新时代与创新亮点",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
