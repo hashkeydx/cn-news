@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-11 datetime="2023-06-11T10:30:00.000Z">2023-06-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-11 datetime="2023-06-11T10:30:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-11 datetime="2023-06-11T12:00:00.000Z">2023-06-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-11 datetime="2023-06-11T12:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -67,6 +67,44 @@
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187699"
+                        open
+                      >
+                        <summary class="article-expander__title">V神提倡使用原子交换，但它们真的好用吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187699">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Ignas，DeFi Research
+原文编译：白泽研究院
+你如何将 BTC 转换为 ETH？或者将 BTC 转换为 ATOM？
+与许多人一样，我通常将 ETH 存入中心化交易所（CEX），将其交易成 BTC，然后再将 BTC 转移到链上钱包。
+这让我陷入了一个颇具讽刺意味的境地：在提倡使用 DeFi 的同时，我自己却在使用 CEX 进行这些所谓的“跨链交易”。
+事实上，以太坊联合创始人 Vitalik Buterin 一再强调“将资产保存在它们起源的链上，并使用原子交换在不同链之间进行转移价值。” 
+听起来很简单，但现实远非如此简单。
+原子交换（Atomic swap）到底是什么？它们如何运作，以及它们能否真正取代中心化交易所？
+让我们在本文中一探究竟。
+原子交换：从想法到执行
+原子交换的想法最初是由 Tier Nolan 在 2013 年的 Bitcointalk 论坛帖子中提出的。然而，直到 2017 年，第一次原子交换才成功完成。当时莱特币的创始人 Charlie Lee 在推特上分享道：“完成了一次 LTC/BTC 的跨链原子交换！”（顺便说一句，这是一笔不错的交易：他在这笔交易中赚了 330% ）
+
+原子交换的工作原理是什么？我们可以这样简单理解：
+原子交换发生在两个加密钱包之间，没有任何中介来促进交易。 它们是“原子的”，就像原子是不可分割的一样，要么交易成功完成并且每个交易者都收到对方的资金，要么什么都没发生，两个交易者只有他们交易前的资金。
+原子交换机制依赖于哈希时间锁定合约 (HTLC)，可以被理解为是一个带有“哈希锁定”(HashLock) 和“时间锁定”(TimeLock) 两项特殊保障的虚拟保险箱：
+
+哈希锁定：在交易发起方将用于解锁 HTLC 合约的密钥发给另一方之前，确保资金被锁定在合约中。
+
+时间锁定：如果交易未在指定的时间段内完…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -264,79 +302,30 @@ BRC-20 发布 token 做到了加密行业最初的想法——人人都可以�
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >TheBlockBeats - undefined</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/42553"
-                        open
-                      >
-                        <summary class="article-expander__title">详解融资2400万美元的RWA DeFi协议Ondo Finance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42553">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Ondo致力于开发去中心化、可组合的协议，并提供量身定制的服务，满足组织、DAO和高净值个人的需求。该平台旨在通过将现实世界资产（RWAs）引入DeFi，弥合TradFi和DeFi之间的鸿沟。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblockbeats.info/news/42550"
-                        open
-                      >
-                        <summary class="article-expander__title">Cicada: 通过时间锁谜题和ZK实现链上私密投票</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42550">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文标题：《Building Cicada: Private on-chain voting using time-lock puzzles》
-原文来源：a16z
-原文作者：Michael Zhu
-原文编译：Kxp，BlockBeats
-
-
-所有的投票系统都需要依赖诚信和透明度才能发挥实际作用。从表面上看，区块链似乎是构建这些系统的理想平台。事实上，许多去中心化组织已经采用了无许可投票来表达集体意愿，通常是在行使重要财务权力或调整关键协议参数的情况下。然而，链上投票存在一些缺点，并且对于 Web3 投票系统而言，隐私问题尚未得到充分的探索，这给其带来了负面影响。在今天大多数使用的链上投票协议中，选票和投票结果都是完全公开的。缺乏隐私保护意味着投票结果容易受到操纵，同时也可能导致选民激励不一致，潜在地导致非民主的结果。
-
-
-为此，我们推出了 Cicada：一个全新、开源的 Solidity 库，利用时间锁谜题和零知识证明来实现链上私密投票。与现有系统相比，Cicada 具备独特的隐私属性，最小化了对信任的依赖，并且在 Ethereum 主网上的使用效率也非常高。
-
-
-在本文中，我们对投票隐私的现状进行了调研，并对 Cicada 的工作原理进行了高层次的介绍（正式证明将在后续提供）。我们还鼓励开发者们前往 GitHub 存储库查看详细信息——Cicada 可以根据不同的投票方案和特性进行灵活调整和扩展。我们期待与社区合作，共同探索这些可能性。
-
-
-投票隐私性概述
-
-
-在任何投票系统（链上或其他系统）中，我们都需要考虑许多不同层次的隐私性。个人选票的披露、持续的投票统计和选民身份都会以不同的方式影响到选民。在不同的投票中，所需的隐私属性也不尽相同，以下是密码学和社会科学文献中经常涉及的一些属性：
-
-
-· 选票隐私性：秘密投票，也称为「澳大利亚式选举」（Australian bal…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >PANews - 快讯</button>
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/w008h0cr.html"
+                        open
+                      >
+                        <summary class="article-expander__title">安全机构：BSC生态协议Atlantis Loans遭治理攻击，已损失约100万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/w008h0cr.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 6月11日消息，据安全机构 Beosin监控，BSC 生态协议 Atlantis Loans 遭治理攻击，攻击者获得了对合约的控制权，并替换为包含后门功能的合约，以转移用户资产，目前损失约为 100 万美元。攻击者于 2023 年 6 月 7 日在 GovernorBravo 合约中创建恶意治理提案。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -714,6 +703,75 @@ Polygon Lab在 MATIC代币从交易应用程序 Robinhood 下架之后发表相�
                               <span>PANews 6月11日消息，币安CEO赵长鹏昨晚推特发文称，过去24小时币安平台资产净流出约为3.92亿美元。币安平台钱包地址是公开的。一些第三方分析将美元加价的资产管理规模变化视为流出，但这其中还包括因加密货币价格下跌 (资产管理规模减少) 而导致的流出。它们是两个不同的概念。 有些甚至只衡量流出，而不衡量流入。像今天这样价格剧烈波动的日子里，许多套利交易者在各个交易平台之间转移大量资金，规模通常要比平时多出很多。而作为参考，币安曾在去年11月的某一天内处理了70亿美元的净流出。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >TheBlockBeats - undefined</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/42553"
+                        open
+                      >
+                        <summary class="article-expander__title">详解融资2400万美元的RWA DeFi协议Ondo Finance</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42553">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Ondo致力于开发去中心化、可组合的协议，并提供量身定制的服务，满足组织、DAO和高净值个人的需求。该平台旨在通过将现实世界资产（RWAs）引入DeFi，弥合TradFi和DeFi之间的鸿沟。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/42550"
+                        open
+                      >
+                        <summary class="article-expander__title">Cicada: 通过时间锁谜题和ZK实现链上私密投票</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/42550">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Building Cicada: Private on-chain voting using time-lock puzzles》
+原文来源：a16z
+原文作者：Michael Zhu
+原文编译：Kxp，BlockBeats
+
+
+所有的投票系统都需要依赖诚信和透明度才能发挥实际作用。从表面上看，区块链似乎是构建这些系统的理想平台。事实上，许多去中心化组织已经采用了无许可投票来表达集体意愿，通常是在行使重要财务权力或调整关键协议参数的情况下。然而，链上投票存在一些缺点，并且对于 Web3 投票系统而言，隐私问题尚未得到充分的探索，这给其带来了负面影响。在今天大多数使用的链上投票协议中，选票和投票结果都是完全公开的。缺乏隐私保护意味着投票结果容易受到操纵，同时也可能导致选民激励不一致，潜在地导致非民主的结果。
+
+
+为此，我们推出了 Cicada：一个全新、开源的 Solidity 库，利用时间锁谜题和零知识证明来实现链上私密投票。与现有系统相比，Cicada 具备独特的隐私属性，最小化了对信任的依赖，并且在 Ethereum 主网上的使用效率也非常高。
+
+
+在本文中，我们对投票隐私的现状进行了调研，并对 Cicada 的工作原理进行了高层次的介绍（正式证明将在后续提供）。我们还鼓励开发者们前往 GitHub 存储库查看详细信息——Cicada 可以根据不同的投票方案和特性进行灵活调整和扩展。我们期待与社区合作，共同探索这些可能性。
+
+
+投票隐私性概述
+
+
+在任何投票系统（链上或其他系统）中，我们都需要考虑许多不同层次的隐私性。个人选票的披露、持续的投票统计和选民身份都会以不同的方式影响到选民。在不同的投票中，所需的隐私属性也不尽相同，以下是密码学和社会科学文献中经常涉及的一些属性：
+
+
+· 选票隐私性：秘密投票，也称为「澳大利亚式选举」（Australian bal…</span>
                             </span>
                           </div>
                         </a>
@@ -7587,132 +7645,6 @@ Facilitator是由GHO引入的概念，Facilitator（如协议、实体等）可�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/slgzrx9e.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：近两日前三大DEX交易量激增444%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/slgzrx9e.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月7日消息，据Cointelegraph报道，由于美国证券监管机构最近对加密货币交易所Coinbase和币安采取的法律行动，前三大去中心化交易所 (DEX) 的交易量激增了444%。
-CoinGecko数据显示，6月5日至6月7日期间，Uniswap V3(以太坊)、Uniswap V3 (Arbitrum)和Pancakeswap V3 (BSC)的日交易量总额增加了7.92亿美元以上，占过去24小时DEX交易量总额的53%。此外，允许稳定币交易的DEX Curve的交易量激增了328%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/yd7u7nrj.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Cathie Wood旗下ARK基金再次加仓约2164万美元的Coinbase股票</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/yd7u7nrj.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月7日消息，Ark Invest Daily数据显示，Cathie Wood旗下多支ARK基金今日合计加仓共419,324股Coinbase股票（COIN），其中ARKK加仓329,773股，ARKW加仓53,885股，ARKF加仓35,666股。 按今日COIN的收盘价51.61美元/股计算，合计总价值约为2164万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/o0hlxmgz.html"
-                        open
-                      >
-                        <summary class="article-expander__title">彭博社：过去两天赵长鹏和Coinbase CEO的净资产分别缩水14亿美元和3.61亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/o0hlxmgz.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月7日消息，据彭博社报道，彭博亿万富翁指数显示，币安首席执行官赵长鹏的净资产在过去两天缩水14亿美元至260亿美元，而Coinbase首席执行官Brian Armstrong的净资产缩水3.61亿美元至22亿美元。这是因为美SEC起诉两家公司违反证券规则，导致几家加密相关公司的股票和代币暴跌。
-在本周下跌之前，赵长鹏的净资产今年飙升了117%，Armstrong上涨了61%。相比之下，彭博财富指数中其他亿万富翁的净资产总计上涨了9%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ei6dybxj.html"
-                        open
-                      >
-                        <summary class="article-expander__title">卢森堡反垄断局正在对区块链和Web3技术进行竞争市场研究</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ei6dybxj.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月7日消息，据CoinDesk报道，根据周二的一份公告，卢森堡反垄断局将对区块链技术展开竞争市场研究，该研究可能是其对Web3经济学的首次探索。该监管机构在一份声明中说：“鉴于该行业的强大潜力，确保Web3参与者能够在一个有效和有竞争力的市场上发展非常重要。”
-竞争市场研究系从活跃于该行业的公司收集有关特定市场运作方式的信息，并且可以作为对违反反托拉斯规则（例如滥用垄断地位）的行为采取进一步执法行动的基础。该监管机构表示，这项研究将研究新的基于区块链的公司在何处以及如何与现有的Web2互联网公司竞争，并记录针对Web3项目实施的潜在反竞争做法。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/y5pluyhl.html"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT市场Magic Eden已上线Ordinals API</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/y5pluyhl.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月7日消息，据官方推特，NFT市场Magic Eden宣布Ordinals应用程序接口（API）现已上线，可供比特币建设者在此基础上构建。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/2a7ii3ck.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Coinbase：如果需要愿将与美SEC的法律斗争打到最高法院</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2a7ii3ck.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 6月7日消息，据彭博社报道，加密交易所Coinbase Inc.表示，随着美国政府机构扩大对其视为上线证券代币的打击力度，它愿意将其与美国证券交易委员会的法律斗争一直打到美国最高法院。
-Coinbase首席法务官Paul Grewal在接受采访时说，“如果需要上最高法院，我们就准备这么做。我相信相信公司会胜诉。我认为，每个关注这个问题的法院都会得出结论，认为SEC从根本上犯了错误。通过执法行动可能需要数月甚至数年的时间，尽管该机构的诉讼适用于公司创收业务的一小部分。”
-在另一个问题上，美国上诉法院提出了一项命令，要求SEC在7天内提交一封信函，说明其是否拒绝了Coinbase提出的加密规则制定申请，以及该机构需要多少时间才能做出决定。
-此前昨日消息，SEC起诉加密交易所Coinbase，指控Coinbase未能在该机构注册为经纪商、交易所或清算公司，且Coinbase的质押计划也违反了证券法。在对Coinbase的诉讼中，SEC将SOL、ADA、MATIC、FIL、SAND、AXS、CHZ、FLOW、ICP、NEAR、VGX、DASH和NEXO代币认定为证券。Coinbase回应称，解决方案是立法而非诉讼，将照常运营业务。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8481,8 +8413,8 @@ Shapella 升级后，愿意质押的新参与者的比率有所增加，这表�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5235625479">
-        <time id="build-timestamp" datetime="2023-06-11T13:08:07.957Z">2023-06-11T13:08:07.957Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5235858398">
+        <time id="build-timestamp" datetime="2023-06-11T14:05:43.492Z">2023-06-11T14:05:43.492Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
