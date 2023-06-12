@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-06-12T06:10:01.962Z</updated>
+    <updated>2023-06-12T07:07:29.853Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -17,6 +17,32 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Sei如何使用订单簿引擎抵制MEV？]]></title>
+        <id>https://www.odaily.news/post/5187715</id>
+        <link href="https://www.odaily.news/post/5187715"/>
+        <updated>2023-06-12T05:47:28.000Z</updated>
+        <summary type="html"><![CDATA[Sei 是首个专为交易类应用量身定制的特定订单簿的 L1 区块链，其主要特性之一就是内置的订单匹配模块。
+文章来源：3 V Labs，作者：@Macr 0 Mark
+Sei 网络旨在处理大规模的机构级订单流，它采用了三项主要的技术创新：
+
+原生订单匹配
+
+双涡轮共识
+
+市场化的并行链
+
+什么是原生订单匹配引擎？为何这个特性能将 MEV 保护提升至全新水平？
+MEV 是什么，它为何成为威胁所有 Layer 1 的最大问题？ 
+在 Sei 团队的视线中，存在两种类型的 MEV，一种是前置交易的机器人/验证人，一种是清算/套利者。前者会带来负面后果，而后者对于一个强大的交易经济模型来说则是可以接受的。
+Sei 试图通过频繁的批量拍卖（FBA）最小化不良 MEV，同时通过链下闪电机器人式拍卖最大化良性 MEV。
+从气费中获取代币价值对于像 Sei 这样的高吞吐量链来说收益不足。因此，Sei 计划通过分配由良性 MEV 机器人生成的拍卖利润给验证人和股权人，来获取价值增值。Sei 的拍卖将是私人的且在链下进行，类似于闪电机器人模型（一种基于 MEV-boost 的实施方案，允许以太坊进行前置运行保护）。这个系统是私人的，意味着它是一个盲拍（也被称为第一价格封闭标书拍卖），在这里投标者可以提交精确的交易订单偏好，而无需揭示其出价，也无需为失败的标书付费。
+这次拍卖将允许机器人竞争典型的 MEV 交易，比如清算和套利。而不是拥塞 P2P 网络并提高气价。机器人将为交易的经济价值进行投标，中标的出价将接近交易的实际价值。在足够多的市场参与者的情况下，中标价可能会略低于交易价值，一部分给予赢家，其余的则进行分配。
+例如，在一次价值 100 美元的清算中，机器人会竞争并加价，以便参与清算交易，但是它们不会对 Sei 链造成垃圾信息，而是在链下进行，超越了气费。在一个高效的市场中，获胜的出价可能…]]></summary>
+        <author>
+            <name>Sei</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Aave已执行“BUSD下架计划第二部分”，以激励不活跃借款人退出]]></title>
         <id>https://panewslab.com/zh/articledetails/htmfb23c.html</id>
         <link href="https://panewslab.com/zh/articledetails/htmfb23c.html"/>
@@ -25,6 +51,34 @@
 此前，Aave已于3月份执行BUSD下架计划的第一部分，即更改Aave V2以太坊池中BUSD储备的利率策略并增加ReserveFactor（储备系数），去除流动性并激励活跃用户偿还债务并将其头寸转移到其他稳定币。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ETH周报 | 以太坊Dencun升级已获得开发者最终确认；Cboe Digital将在下半年推出以太坊期货合约（6.5-6.11）]]></title>
+        <id>https://www.odaily.news/post/5187712</id>
+        <link href="https://www.odaily.news/post/5187712"/>
+        <updated>2023-06-12T05:32:20.000Z</updated>
+        <summary type="html"><![CDATA[一、整体概述
+以太坊开发者已经确认了网络即将到来的全面升级，本次升级被称为 Dencun。本次升级包括五个 EIP，旨在增加更多的数据存储和降低费用。升级以 EIP-4844 为核心，除此之外，还包括 EIP-1153、EIP-4788、EIP-5656、EIP-6780 四项改进提案。目前还没有升级的确切日期，但预计会在 2023 年底上线。
+
+根据一份声明，Cboe Global Markets 旗下数字资产交易所 Cboe Digital 已于周一获得美国商品期货交易委员会（CFTC）的批准，将于今年下半年开始提供实物和现金结算的保证金期货合约。Cboe Digital 总裁 John Palmer 表示，数字资产的实物结算将使传统金融公司无需中介机构托管即可获得比特币或以太坊期货敞口。
+二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1700 美元，阻力位 1800 美元。
+
+二、二级市场
+
+ 1.现货市场
+OKX 行情数据显示，上周 ETH 价格一度跌至 1713 美元 ，周内收于 1741 美元，环比下跌 8.4% 。
+
+ETH 日线图，来自 OKX
+日线图上显示，价格目前在 1750 美元左右盘整，下方支撑位是 1700 美元；如果支撑有效，短期内可能继续测试 1800 美元；如果跌破则可能进一步下跌至 1600 美元。
+ 2.网络运行情况
+
+Etherscan 数据显示，过去一周以太坊网络出块量为 49635 个，环比下降 0.1% ；每周活跃地址数为 3278554 ，环比上涨 11.8% ；区块奖励收入为 4004 枚 ETH，环比下降 22% ；每周 ETH 销毁量达到 18192 个，环比下降 28.1% 。
+ 3.大额异动
+
+欧科云链 OKlink 数据显示，上周链上大额交易笔数达到 2046 ，相较于前一周（1812 ）环比上涨  1…]]></summary>
+        <author>
+            <name>秦晓峰</name>
         </author>
     </entry>
     <entry>
@@ -47,6 +101,32 @@
 此前今日早些时候消息，Sturdy疑似遭遇攻击，攻击者已转移442.6枚ETH，派盾称此次攻击或通过价格操纵实行。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港会对加密货币强监管吗？SEC与SFC的对比分析]]></title>
+        <id>https://www.odaily.news/post/5187716</id>
+        <link href="https://www.odaily.news/post/5187716"/>
+        <updated>2023-06-12T04:28:02.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：0xLoki，新火科技
+之前 Space 聊到过一个话题：香港 SFC 会不会和美国 SEC 一样，去疯狂定义证券然后监管、调查、罚款？ 这个问题的关键是我们不能只看他们是怎么说的（组织目标），还需要看他们怎么做的（实际行为）。回答这个问题有个很简单的办法：搞明白 SEC 和 SFC 的业务和人员构成。
+美国证监会 SEC
+首先我们来看一下 SEC 的架构，最上面是包括主席+ 4 名委员构成的委员会，下设 6 个部门+ 1 个监察长办公室+ 11 个办公室。除此以外，还有 11 个分地区的办公室。需要注意的是，这 11 个地区办公室需要同时向执法司（Enforcement）和检查司（Examinations）汇报。 
+
+从组织架构上我们就可以发现，执法司（Enforcement）和检查司（Examinations）似乎在所有科室中是最重要的。在后面的各部门描述当中，我们也可以看到执法司和检查司也分列一二。  
+
+除此之外还有个更具有说服力的数据：财务情况。SEC 的资金来源大致由三部分组成： 
+1 ）财政预算； 
+2 ）证券交易费用和申请费用； 
+3 ）罚没收入。  
+其中罚没收入又分成两个 Part： 
+A. 需要赔偿受害者的，罚没收入会补偿受害者+注入美国财政部的 GeneralFund 
+B. 不需要赔偿受害者的，罚没收入会分配给投资者保护基金、吹哨人（调查线索的提供者）、资助监察长办公室的调查.。
+接下来来看一下 SEC 的资产负债表。按照 2022 财年年报，SEC 的总资产从 122 亿增长到了 141 亿美元，增长 19 亿美元。其中投资科目增长了 4 亿美元；应收账款增加了 15 亿美元，这两项的绝大部分都是由罚没收入构成，其中投资科目还已经扣除了监管过程中的支出。 
+
+除了罚没收入以外，OMB 2022 年批给 SEC 的储备金预算为 5000 …]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
@@ -80,6 +160,37 @@
 据悉，该巨鲸在6月2日使用134万枚USDC以1.25美元单价买入108万枚ARB。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SignalPlus宏观研报20230612：TradFi资产毫无波澜，加密货币市场动荡不安]]></title>
+        <id>https://www.odaily.news/post/5187713</id>
+        <link href="https://www.odaily.news/post/5187713"/>
+        <updated>2023-06-12T03:55:33.000Z</updated>
+        <summary type="html"><![CDATA[各位朋友，欢迎来到 SignalPlus 宏观研报。SignalPlus 宏观研报每天为各位更新宏观市场信息，并分享我们对宏观趋势的观察和看法。欢迎追踪订阅，与我们一起关注最新的市场动态。
+
+
+与加密货币的困境不同，TradFi 资产在上周的结尾又度过了平静的一天，虽然暑假还没开始，短天期美债收益率的交易区间已经降至 3 月以来最窄（约 18 个基点），股票 VIX 跌至疫情前低点的 14 左右，全球外汇波动率也已经跌至 12 个月低点；由于美国经济数据大致是仍然支持软著陆和通胀放缓的理想繁荣前景，即使投资者对市场广度不佳表示担忧，但仍看不出有什么理由放弃他们的股票多头策略。
+
+本周一系列的经济数据和央行会议有望在暑假正式开始之前给市场带来一些刺激和活动，周二将公布英国失业率和美国 CPI，FOMC 会议将在周三登场，中国人民银行和欧洲央行利率决议将会在周四，紧接著以日本央行在周五的利率决议结束本周。FOMC 的决议将最为棘手，当前市场对于 6 月份加息的机率预测约为 30% ，因此无论是 0 或 25 个基点的利率变动应该都会引起一些市场波动，特别取决于声明发表后、记者会上美联储所传递的信息。
+
+股市则出现进一步的再平衡，科技股重新领涨，这要归功于 Tesla 的反弹而非 AI，GM 正在将其电动车适配至 Tesla 的充电站，帮助电动车行业的充电标准化。此外，华尔街投行一直积极上调 S&P 500 指数的年底目标价格，高盛最近将年底目标价格从 4000 点上调至 4500 点，这要归功于估值倍数的多次扩大（EPS 的预测保持在 224 美元不变）。
+
+
+最后，一项研究结果或许有些令人惊讶，根据之前的历史，市场宽度的狭窄并不一定会导致股市在中期表现不佳，因此，股市当前的自满情绪也许并没有错。
+
+在加密货币方面，市场情绪日夜变化，受到美国 SEC 将大多数代币视为证券的执法行动的持续影响，Solana、Matic、Cardano 和 Avalanche 等代币在周末暴跌了约 30% 以上，此外，Robinhood 宣布将从 6 月 27 日起将 Solana、Cardano 和 Polygon 从其平台移除，并将在月底强制清算相关头寸。另外，一篇关于所谓的加密货币对冲基金陷入清算的假新闻文章/图片更是增加了市场的 FUD 情绪，BTC 跌破 26, 000 美元，ETH 接近 1, 750 美元。
+
+仅在过去一周，BTC 期货清算规模就达到今年最高水平两次，近期的市场动态让许多原生用户措手不及，多头头寸被残酷地清算，二级市场流动性和交易量也相当疲软，CEX 的交易量在 5 月和 6 月触及一些最低水平，同比下降了约 50% ，因此加剧了下行趋势的猛烈程度。
+考虑到在美国的执法行动可能需要数年时间才会结束，加密货币冬天可能会比许多人预期的要长，即使对于之前经历过加密货币冬天的老手也是如此，希望大家都能注意安全。
+
+由 OKX 和 SignalPlus 联合举办的“期权之王争夺战” 开赛啦！现在就报名参战，不要错过赢取高达 115, 000 USDT 奖金的机会！
+报名链接：https://t.signalplus.com/competition-okx? locale=zh-CN
+
+如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website: https://www.signalplus.com/]]></summary>
+        <author>
+            <name>SignalPlus</name>
         </author>
     </entry>
     <entry>
