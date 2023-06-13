@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-06-13T14:06:21.454Z</updated>
+    <updated>2023-06-13T15:07:44.850Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[关于Uniswap v4，你需要知道的一切]]></title>
+        <id>https://www.theblockbeats.info/news/42643</id>
+        <link href="https://www.theblockbeats.info/news/42643"/>
+        <updated>2023-06-13T14:13:28.000Z</updated>
+        <summary type="html"><![CDATA[对于 Web3 来说，身处熊市，我们即将度过艰难的六月，但 Crypto 开发者并不会停止动作。今日，Uniswap 发布了 Uniswap V4 版本代码草稿，以便可以公开构建 V4 版本。Bankless 与 Uniswap 创始人 Hayden Adams 交谈后，深入了解这个将到来的 V4 版本的所有功能更新。
+
+
+
+在这之前，我们先熟悉一下上个版本 V3 的具体情况，Uniswap V3 于 2021 年 5 月发布，引入了集中流动性（可以在特定价格范围内提供流动性），从而显着提高 DEX 的资本效率，也奠定了 Uniswap 作为 DeFi 领域最大 DEX 的地位。目前 Uniswap 在 DeFi 链上交易量中占有 57.4% 的份额，是该领域排名第二 DEX 的 3 倍之多。
+
+
+
+Uniswap V4 的愿景是允许任何人通过引入「挂钩」（Hooks）来做出这些权衡决定。以下是 Uniswap V4 版本的主要功能：
+
+
+挂钩 Hooks
+
+
+
+
+
+例如，挂钩可以用来创建具有根据市场条件变动的动态交换费用的资金池，而不是预先设置和静态的交换费用。同时，挂钩还使交易者能够下更复杂的订单，例如限价订单或 TWAP（时间加权平均价格）订单，这些订单会在一定时间内买入/卖出一定数量的 Token。
+
+
+
+不仅如此，挂钩还允许以不同的方式使用 Uniswap 的流动性。这类似于 Balancer 的 Boosted Pools，超出范围的流动性可以存入其他协议，例如借贷者，以获得额外的收益。
+
+
+
+以上这些有关挂钩的示例，仅仅是 Uniswap 团队构思出的一些应用。除此之外，任何人都可以无需获得许可的构建和部署自己的挂钩。
+
+
+
+律动 BlockBeats 注：在 DeFi 中，Hooks是一种编程概念，指的是一组用于在智能合约执行特定操作时自动触发的函数或代码片…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Uniswap Labs 发布 Uniswap v4 计划，正邀请社区反馈]]></title>
         <id>https://panewslab.com/zh/articledetails/gcc4ci6o.html</id>
@@ -15,6 +54,26 @@
 Uniswap v3 最初于 2021 年在以太坊区块链上首次亮相，此后已扩展到多个其他网络。截至目前，Uniswap v3 是交易量最大的去中心化交易所，自成立以来已处理超过 1.5 万亿美元的交易量。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI开始对Web3全行业产生影响力]]></title>
+        <id>https://www.theblockbeats.info/news/42592</id>
+        <link href="https://www.theblockbeats.info/news/42592"/>
+        <updated>2023-06-13T13:00:01.000Z</updated>
+        <summary type="html"><![CDATA[AI对Web3的整顿一方面是，AI技术的出现，分散了资本对Web3的注意力；另一方面是AI使得Web3领域机制和逻辑正在发生改变。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance最新Launchpool，日均资本效率达100%以上Maverick是什么来头]]></title>
+        <id>https://www.theblockbeats.info/news/42640</id>
+        <link href="https://www.theblockbeats.info/news/42640"/>
+        <updated>2023-06-13T12:58:10.000Z</updated>
+        <summary type="html"><![CDATA[“我们的目标是在未来六个月内成为交易量排名前三的去中心化交易所。”核心开发者Bob Baxley在谈及Maverick的未来时说道。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>
@@ -4703,124 +4762,6 @@ Ankr 致力于提供领先的技术，帮助客户在瞬息万变的行业中保
         <updated>2023-06-09T03:19:50.000Z</updated>
         <summary type="html"><![CDATA[PANews 6月9日消息，据Techcrunch报道，生成式AI初创公司Cohere宣布完成2.7亿美元C轮融资，Inovia Capital领投，英伟达、Oracle、Salesforce Ventures、DTCP、Mirae Asset、Schroders Capital、SentinelOne、Thomvest Ventures和Index Ventures参投。Cohere没有透露其估值，但知情人士称其估值在21亿美元至22亿美元之间。这笔融资将用于购买的新的计算资源和招聘人才。
 据悉，该公司总部位于加拿大多伦多，由谷歌的前AI研究人员创立，其核心业务与微软支持的OpenAI类似，专注于为企业客户构建AI模型。Cohere最近发布了首个公开可用的多语言理解模型，该模型根据来自母语者的真实数据进行训练，它能够阅读和理解世界上100多种最常用的语言。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFT交易协议SudoSwap上线V2版本，含链上版税、Gas优化等新功能]]></title>
-        <id>https://panewslab.com/zh/articledetails/e60cw9y7.html</id>
-        <link href="https://panewslab.com/zh/articledetails/e60cw9y7.html"/>
-        <updated>2023-06-09T03:05:43.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月9日消息，据官方推特，NFT交易协议SudoSwap宣布上线V2版本，新迭代功能包括链上版税、自定义创作者设置、ERC-1155支持、条件订单、费用流和Gas优化等。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[预警：多名用户CEX存取款地址因恶意插件被黑客地址替换]]></title>
-        <id>https://panewslab.com/zh/articledetails/4wqlx49e.html</id>
-        <link href="https://panewslab.com/zh/articledetails/4wqlx49e.html"/>
-        <updated>2023-06-09T03:02:07.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月9日消息，据X-explore披露，由于恶意浏览器插件，许多用户在中心化交易平台（CEX）的存款和取款地址已经被黑客地址所替换。自2022年6月以来，已有数百起针对币安等数十家CEX的攻击。
-X-explore建议用户不要下载并安装未知的浏览器扩展/软件/应用程序，仔细检查电子邮件中的提款和存款地址。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[预警：Nacos出现远程代码执行漏洞攻击案例，请相关方及时升级]]></title>
-        <id>https://panewslab.com/zh/articledetails/nq5t5eh6.html</id>
-        <link href="https://panewslab.com/zh/articledetails/nq5t5eh6.html"/>
-        <updated>2023-06-09T02:57:39.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月9日消息，据慢雾区消息，Nacos出现远程代码执行漏洞攻击案例。Nacos是Alibaba开源的一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台，帮助用户快速实现动态服务发现、服务配置、服务元数据及流量管理。Nacos 在处理某些基于 Jraft 的请求时，采用 Hessian 进行反序列化，但并未设置限制，导致应用存在远程代码执行（RCE）漏洞。其中，1.4.1 <= Nacos < 1.4.6，使用cluster集群模式运行受影响；1.4.0、2.0.0 <= Nacos < 2.2.3，任意模式启动均受到影响。加密货币行业有大量平台采用此方案，请注意风险，并将Nacos升级到官方最新新版本。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美SEC要求法院允许其以“替代方法”向币安和赵长鹏送达文件]]></title>
-        <id>https://panewslab.com/zh/articledetails/f4hosn0g.html</id>
-        <link href="https://panewslab.com/zh/articledetails/f4hosn0g.html"/>
-        <updated>2023-06-09T02:56:40.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月9日消息，据彭博社报道，美国证券交易委员会(SEC)要求联邦法院允许使用“替代方法”向Binance Holding Ltd.和赵长鹏送达文件，并指出，这位赵长鹏“出了名的”不知所踪。该机构要求哥伦比亚特区地方法院允许其在法律案件调查期间的文件副本发送给代表币安和赵长鹏的律师。
-报道称，币安长期以来一直声称没有总部，员工遍布世界各地。赵长鹏出生于中国，是加拿大公民，据信最近在迪拜。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Binance.US：将暂停美元存款并过渡到仅限加密货币的交易所]]></title>
-        <id>https://panewslab.com/zh/articledetails/q8hgf7xm.html</id>
-        <link href="https://panewslab.com/zh/articledetails/q8hgf7xm.html"/>
-        <updated>2023-06-09T02:50:26.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月9日消息，Binance.US在推特上发布公告称：“SEC在对美国数字资产行业发起意识形态运动时，已经开始使用极其激进和恐吓的策略。Binance.US和我们的商业伙伴在使用这些策略时也未能幸免，这给与我们合作的银行带来了挑战。因此，为了保护我们的客户和平台，我们今天暂停美元存款，并通知客户，我们的银行合作伙伴准备最早于2023年6月13日暂停法币(美元)取款渠道。建议客户对其美元采取适当的行动。我们正在采取这些积极措施，因为我们在一段时间内过渡到仅限加密货币的交易所。需要明确的是，我们对所有客户资产保持1:1的储备金。处理提款的任何停机时间都可能是数量增加和周末银行关闭的结果。此外，加密货币的交易、质押、存取款仍在全面运营。”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据解读：曾经的“牛市永动机”币安生态系是否具备抗打能力？]]></title>
-        <id>https://www.odaily.news/post/5187663</id>
-        <link href="https://www.odaily.news/post/5187663"/>
-        <updated>2023-06-09T02:50:06.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Nancy，PANews
-近期，币安"腹背受敌"，一面是美国监管机构的步步紧逼，另一面是加密社区就围绕着币安上币标准和收益爆发争议，除了表达对回报率的不满，更对上新标准提出了质疑。与美国监管的纠缠势必又是一场旷日持久的法律官司战，外界普遍认为，将直到双方和解为止。
-站在舆论风暴的中心，作为曾经的“牛市永动机”，币安生态系是否具备抗打能力？币安的价值捕获又是否仍然能够带来惊喜？这个头部加密大厂的“流量效应”是否还在？PANews 试图从数据来一探究竟。
-市场份额和链上生态均加速回暖
-相比于主流币的低迷行情，过去一段时间，BRC 20、Meme 等凭借千倍万倍涨幅的暴富神话抢尽市场风头，这些概念币交易量的活跃 CEX（中心化交易所）的流量被 DEX 和比特币交易市场瓜分。The Block 数据显示，今年 5 月底，DEX 与 CEX 现货交易量比率首次超过 21% ，CEX 的交易量一度处于今年的历史最低水平，目前已大幅回落至 13.9% 。
-但这些热门概念币看似一派繁荣景象的背后是大量的幸存者偏差，除了极少数“聪明钱”成功押注外，更多投资者面临着内幕交易、抢跑被埋和项目跑路等风险。而成功赚取高额利润的案例则更容易被社区传播。实际上，当前这些山寨币的热度在持续下降，市场资金也开始逃离，市场热度重新回到了 CEX。
-The Block 数据显示，截至 6 月 7 日，币安月交易额的市场占比曾在 2023 年 2 月达到峰值 62.01% 后开，开始在 3 月和 4 月持续下滑至 48.58% ，而这段时间正是 Meme 和 BRC 20 热潮之际。但在 4 月之后，币安交易额市场占比开始明显回升至目前的 52.9% 。
-
-不仅如此，BNB Chain 生态也已开始复苏。据 Messari 盘点的 15 条L1公链Q1市场表现，BNB Chain 的第一季度财务收入和市…]]></summary>
-        <author>
-            <name>PANews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[预警：NFT巨鲸Franklin推特账号疑似被盗，请勿点击可疑链接]]></title>
-        <id>https://panewslab.com/zh/articledetails/17057zm9.html</id>
-        <link href="https://panewslab.com/zh/articledetails/17057zm9.html"/>
-        <updated>2023-06-09T02:29:52.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月9日消息，NFT巨鲸Franklin疑似在其推特小号@ElectionDayMad1上用文字和视频发布警告，称其推特账号@franklinisbored被盗，请勿发送任何加密货币或点击任何链接，从6月9日凌晨起的推文均不是其本人发布。
-此前4月19日消息，知名BAYC持有者Franklin已删除其推特账号，此前因赌博和投资失败抛售大量BAYC。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「侵吞」VC的币买豪宅? Curve创始人遭ParaFi等三大加密VC联合起诉]]></title>
-        <id>https://www.odaily.news/post/5187662</id>
-        <link href="https://www.odaily.news/post/5187662"/>
-        <updated>2023-06-09T02:16:50.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：0x min
-
-加密世界需要更多的法官，继 SEC 起诉 Binance 之后，加密 VC 们也开始了诉讼之旅。
-根据 DL News 报道，最近，ParaFi、Framework Ventures 和 1kx 三家知名加密 VC 在旧金山起诉 Curve 创始人 Michael Egorov 商业欺诈。
-这个名字你或许比较熟悉， 最近，Michael Egorov 及其妻子 Anna Egorov 豪掷 4100 万美元买下位于墨尔本的豪宅 Avon Court，创下年内维多利亚州单笔最高的房产成交纪录。去年 3 月，Egorov 夫妇还曾以 1825 万美元的价格在当地购入一座意大利风格的豪宅。
-加密熊市，丝毫没有影响 Michael Egorov 挥金如土，但是 ParaFi、Framework Ventures 和 1kx 三家 VC 却表示，他们曾经投资 Curve 100 万美元，如今却拿不到任何商业回报。
-首先了解一下 Michael Egorov 其人。
-他是俄罗斯人，在莫斯科物理技术学院获得了应用数学和物理学士学位，后来去了澳大利亚，在斯威本科技大学获得了物理专业博士学位，又在莫纳什大学物理专业又拿到了博士后学位。
-2013 年，他接触到了比特币；2015 年，他从领英离职创业，联合创建了区块链隐私项目 NuCypher 并担任 CTO。2016 年，该项目获得了 Y Combinator 的种子轮投资， 后又获得 Polychain 等知名加密 VC 的投资。
-在 NuCypher 工作期间，因为 MakerDAO 的启发思考，Egorov 于 2019 年下半年开始开发 Curve，直到 2020 年 6 月，正式离开 NuCypher。2020 年 6 月 Michael Egorov 离开了 NuCypher，All in Curve。
-为了扩展 Curve，Michael Egorov 需要 VC 的投资，一方面是资金，另一方面是来自知名 DeFi 领域风险基金的正统性背书，于是，Egorov 接触了 ParaFi、Framework Ventures 和 1kx 三家 VC。
-最终，这三家 VC 选择投资 Egorov 注册在瑞士的运营实体 Swiss Stake GmbH，Egorov 当时表示，他们的资产将用于雇用开发人员、律师和其他员工。
-如今，VC 们在诉讼中表示，Egorov 无意放弃本人对 Curve 的控制权，他锁定了比预期更多的 CRV，即 Curve 的治理代币，Egorov 没有向 Curve DAO 交出权力，而是出售了足够多的 CRV 代币，获得利润，同时保持压倒性的控制权。
-「Egorov 从他的欺诈行为中发了财，」诉讼文件表示，「由于他将本属于原告的资金存入 Curve 的流动性池，Egorov 已经收到了大量 CRV 代币和费用，作为提供流动性的奖励。」
-当然最根本的问题还是在于，VC 们没有获得他们应有的利益，风险投资公司声称，他们没有收到承诺的 Swiss Stake 的股权，他们的近 100 万美元的资金从未归还，他们也从未收到他们有权获得的价值数千美元的 CRV。
-Egorov 已经出售了上千万美元的 CRV 代币，VC 们认为这些代币本属于他们。此外，VC 们还表示，他们因此也错过了投资 Curve 的竞争对手的商业机会。]]></summary>
-        <author>
-            <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DWF Labs合伙人：加密公司避免风险最好的方式是减少许可证和监管义务]]></title>
-        <id>https://panewslab.com/zh/articledetails/e5x2z84x.html</id>
-        <link href="https://panewslab.com/zh/articledetails/e5x2z84x.html"/>
-        <updated>2023-06-09T02:10:19.000Z</updated>
-        <summary type="html"><![CDATA[PANews 6月9日消息，DWF Labs管理合伙人Andrei Grachev在推特上表示，其认为在市场动荡时“最好的办法是尽可能减少许可证和监管义务”。Grachev称：“在动荡时期，每一项额外的义务都可能带来风险。运营应该是目标受众可以接受的，这就足够了。许可证本身并不是价值。”他以SEC和币安/Coinbase案件的纠纷举例阐释其观点，称：“Coinbase在美国且在美国注册，其总部也在美国，如果监管机构决定关闭它，这将是非常容易的，USDC和USDT的情况也是如此。虽然币安有美国的业务地点，但主要业务分布在各个司法管辖区，即使某些国家/地区会禁止它，公司也可以忽略它或直接离开该国而不会遇到大麻烦。”
-Grachev表示，加密公司应该去中心化，“如果某公司在唯一一个司法管辖区获得许可/受监管，并且整个管理团队和资源也驻扎在那里，这是很大的风险。当今世界变化太快，不能只依赖一个地方。每一个风险都应该被减轻”。Grachev称监管规则和许可证并不能保护消费者，许多银行和金融机构都都比了，并且比不受监管的银行和金融机构多损失了几倍的用户资金。
-Grachev还表示：“美国有很多有才华的人和不错的加密初创公司，但监管机构与他们进行任何互动都是危险的。它将明确导致加密公司从美国流出到其他更中立和可预测的司法管辖区。”]]></summary>
         <author>
             <name>PA一线</name>
         </author>
