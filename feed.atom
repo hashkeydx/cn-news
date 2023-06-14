@@ -2,10 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-06-14T10:07:45.328Z</updated>
+    <updated>2023-06-14T11:05:52.811Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[数据：Polygon PoS链上独立地址数接近3亿个]]></title>
+        <id>https://panewslab.com/zh/articledetails/qjyc2lsb.html</id>
+        <link href="https://panewslab.com/zh/articledetails/qjyc2lsb.html"/>
+        <updated>2023-06-14T10:23:16.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月14日消息，据Polygon创始人Sandeep Nailwal在社交媒体分享数据显示，Polygon PoS链上独立地址数据已接近3亿个，当前达到292,764,007个。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安全公司：有攻击者分发问题Win10 ISO镜像，通过EFI分区隐藏窃取加密货币]]></title>
+        <id>https://panewslab.com/zh/articledetails/f98f98us.html</id>
+        <link href="https://panewslab.com/zh/articledetails/f98f98us.html"/>
+        <updated>2023-06-14T10:22:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月14日消息，据IT之家报道，网络安全公司 Dr. Web 近日发布博文表示，希望用户不要通过非信任渠道，下载精简、盗版的 Win10 ISO 镜像。该机构近期发现有攻击者分发 Win10 ISO 镜像，并在 EFI（可扩展固件接口）分区中隐藏挖矿代码，可以躲避杀软的监测。（注：EFI 分区是一个小型系统分区，其中包含在操作系统启动之前执行的引导加载程序和相关文件。）
+这些恶意 Win10 ISO 镜像包含以下恶意应用：
+\Windows\Installer\iscsicli.exe(dropper)
+\Windows\Installer\recovery.exe(injector)
+\Windows\Installer\kd_08_5e78.dll(clipper)
+设备一旦感染之后就会监测进程资源管理器、任务管理器、进程监视器、进程等，一旦发现剪贴板中的加密货币钱包地址，就会立即替换为攻击者预设的地址。Dr. Web 表示调查重定向的加密钱包地址，发现该钱包账号上至少有价值 19000 美元的加密货币。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文读懂ERC-4626：DeFi代币化保险库的新标准]]></title>
+        <id>https://www.odaily.news/post/5187780</id>
+        <link href="https://www.odaily.news/post/5187780"/>
+        <updated>2023-06-14T09:20:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Sina Pilehchiha
+原文编译：深潮 TechFlow
+TLDR： ERC-4626 是用于代币化保险库 (Vault) 的标准。
+在引入 ERC-4626 之前，每个保险库都有其各自的规范和实现细节。这使得集成变得困难、容易出错且浪费资源。
+ERC-4626 试图通过标准规范来解决这个问题，以降低集成工作量，并创建更一致和强大的实现模式，就像 ERC-20 一样。
+什么是 ERC-4626 ？
+ERC-4626 是一种标准，它改进了收益型保险库的技术参数。它为代表单个底层 ERC-20 代币份额的收益保险库提供标准 API。
+代币化保险库已经成为 DeFi 中极为常见的模式。收益聚合器、借贷市场、质押衍生品等许多 dApp 都利用和依赖于代币化保险库。代币化保险库的示例包括 Yearn 和 Balancer。作为一个收益聚合器，Yearn 保险库使用户可以存入数字资产并获得收益。Balancer 是一个自动化的组合管理器和流动性提供商，其业务逻辑的核心依赖保险库。这些保险库管理各种池中的代币。同时，它们将代币管理与池子本身的逻辑分离开来。
+协议通过代币化其保险库来增强流动性和灵活性。代币化保险库可以轻松进行交易，并在 DeFi 平台上使用资产。此外，它们还能够创建多样化、相互连接的金融产品。该行业一直倡导这种范式，通常称为“货币乐高”。
+然而，没有适当的适应性或标准化的可组合性会带来挑战。它不仅使开发人员难以遵守 ERC-20 等行业标准，而且还会使新开发人员感到困惑。如果没有适当的适应性或标准化，就很难审查新的变化并验证集成的实施细节。
+于是 ERC-4626 被提出来解决这个问题，并简化集成，同时允许 DeFi 参与者最终采用更安全和强大的统一保险库规范。这反过来也将减少协议可能遭受的攻击面，同时在多个协议之间集成代币。
+ERC-4626 可以预防…]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[破产的加密交易所Bittrex US将于周四开始允许提款]]></title>
+        <id>https://panewslab.com/zh/articledetails/n4ms8af8.html</id>
+        <link href="https://panewslab.com/zh/articledetails/n4ms8af8.html"/>
+        <updated>2023-06-14T09:14:24.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月14日消息，据CoinDesk报道，在特拉华州破产法院周二作出裁决后，法官 Brendan Shannon 授权 Bittrex US 及其附属公司“允许其持有无争议、非或有和已清算债权的客户在此类债权范围内从债务人的交易平台中提取加密货币资产和法定货币。”加密货币交易所 Bittrex 的美国分支机构 Bittrex US 将于周四（6月15日）开放供客户取款。
+上月报道，Bittrex美国子公司申请破产，美国以外业务不受影响。上周消息称，加密交易所Bittrex的客户还款计划面临美国政府的反对。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SignalPlus宏观研报：美联储暂停加息，核心通胀趋势放缓]]></title>
         <id>https://www.theblockbeats.info/news/42655</id>
@@ -60,6 +117,28 @@ SignalPlus 宏观研报 (20230614)
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[国家税务总局：试点数字人民币缴纳税费功能，今年共缴纳税费259亿]]></title>
+        <id>https://panewslab.com/zh/articledetails/74cklls0.html</id>
+        <link href="https://panewslab.com/zh/articledetails/74cklls0.html"/>
+        <updated>2023-06-14T08:46:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月14日消息，据中国网报道，国家税务总局纳税服务司司长沈新国6月14日在国务院政策例行吹风会上表示，税务部门提速税费智能办理，打造便捷高效能的税收营商环境。拓展非接触事项范围，试点增值税留抵退税“智能预填”、出口退税“免填报”等功能。目前已实现96%的税费事项、99%的纳税申报可网上办理，全国社保缴费“网上办”“掌上办”业务量占比达95%以上。试点数字人民币缴纳税费功能，今年共缴纳税费1.2万笔、259亿元。创新征纳互动服务，通过智能应答、三方视频等，辅导纳税人解决线上办税缴费问题，今年以来提供互动服务148万次。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安澄清使用条款：计划将用户的“僵尸资产”转换为稳定币]]></title>
+        <id>https://panewslab.com/zh/articledetails/ad1mss56.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ad1mss56.html"/>
+        <updated>2023-06-14T08:41:54.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月14日消息，据Cryptoslate报道，有部分用户对本月初币安更新的使用条款中的一项条款表示担忧，即：“如果平台上下线的数字资产在指定期限后仍保留在币安账户中，币安可自行决定将此类数字资产转换为不同类型的数字资产。”对此，币安回应称，在美国证券交易委员会于6月5日起诉它之前，它已经更新了服务条款，并且更新“与近期美国市场的不稳定无关”。
+币安表示：“之前下架的资产可以由用户在币安钱包中持有很长时间，但是如果在网络完全不受支持之前它们没有转换成其他资产，它们最终可能会被困在用户的账户中（僵尸资产）。根据社区反馈，我们认识到 ‘使用条款’语言可以更明确，我们将很快更新以澄清①资产应转换为稳定币，以及②这只会在通知期后发生，因此用户可以选择退出下线资产。这不会改变我们的政策，只是澄清了我们的做法。”不过币安没有说明这些资金将转换为哪种稳定币。
+经PANews查看，目前币安尚未对上述条款进行修改。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Uniswap V4是如何实现限价单交易的？]]></title>
         <id>https://www.theblockbeats.info/news/42667</id>
         <link href="https://www.theblockbeats.info/news/42667"/>
@@ -67,6 +146,32 @@ SignalPlus 宏观研报 (20230614)
         <summary type="html"><![CDATA[V4版本的新功能Hooks使交易者能够部署更复杂的交易订单，其中就包括限价单交易。]]></summary>
         <author>
             <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据解读：Curve稳定币近期表现如何？]]></title>
+        <id>https://www.odaily.news/post/5187776</id>
+        <link href="https://www.odaily.news/post/5187776"/>
+        <updated>2023-06-14T08:18:40.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《June 12, 2023: Benchmarking $crvUSD》
+原文作者：CRV.MKTCAP.ETH 
+原文编译：Kxp，BlockBeats
+Curve 总是发布一些令人激动的 crvUSD 市值和锚定图表数据。这些图表总是看起来那么完美、让人眼红。但实际上，它们并没有给我们提供太多信息——只能告诉我们这些线要么只朝上（市值），要么保持平稳（锚定）。在近一个月的数据中，crvUSD 与其他稳定币相比表现如何？
+TL/DR
+crvUSD 还处于早期阶段，但在锚定和利用率方面表现强劲。目前，crvUSD 正经历快速增长，因此建议在稳定币的增长趋于平稳时重新审视这些数据。
+方法论
+为了保证透明度和可重复性，我们将我们的方法尽可能做了简化。我们几乎全部直接从 Coingecko 获取数据，这样任何人都可以在家里重复这个过程。具体来说，我们根据此处的链接下载了 10 种稳定币历史数据的 CSV 文件。
+唯一的例外是 CoinGecko 没有 crvUSD 的市值数据，所以我们创建了一个简单的 Dune 仪表板，方便从链上获取数据，这要多亏 Dune 的新免费套餐计划允许导出 CSV 文件。
+
+当然，我们在这里的数据规模很小——不到一个月的数据，而且相对于其他稳定币，crvUSD 的份额非常小，请注意下面的所有内容都带有重要的注释。
+在拥有更多数据之后，我们可能会再次审视这个问题，但目前这是我们首次将 crvUSD 与其他稳定币进行基准对比的尝试。
+我们公开了所有原始数据，并使用了简单且公开可用的 Jupyter Notebook 进行绘制，因此任何人都可以使用这些数据。
+锚定情况
+虽然 Curve 一直有发布 crvUSD 在 1 美元附近保持平稳的图表，但我们想看看与其他稳定币相比，这个锚定的精确度如何。
+
+在这段时间里，几乎所有稳定币都处于同一堆杂乱的彩…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
         </author>
     </entry>
     <entry>
