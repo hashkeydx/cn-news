@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-06-15T19:05:59.207Z</updated>
+    <updated>2023-06-15T20:07:29.971Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -6351,37 +6351,6 @@ LSD 赛道经过反复炒作，市场对该赛道已经具备了较高的了解
 Prisma Finance …]]></summary>
         <author>
             <name>LD Capital</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cicada: 通过时间锁谜题和ZK实现链上私密投票]]></title>
-        <id>https://www.theblockbeats.info/news/42550</id>
-        <link href="https://www.theblockbeats.info/news/42550"/>
-        <updated>2023-06-11T07:58:42.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《Building Cicada: Private on-chain voting using time-lock puzzles》
-原文来源：a16z
-原文作者：Michael Zhu
-原文编译：Kxp，BlockBeats
-
-
-所有的投票系统都需要依赖诚信和透明度才能发挥实际作用。从表面上看，区块链似乎是构建这些系统的理想平台。事实上，许多去中心化组织已经采用了无许可投票来表达集体意愿，通常是在行使重要财务权力或调整关键协议参数的情况下。然而，链上投票存在一些缺点，并且对于 Web3 投票系统而言，隐私问题尚未得到充分的探索，这给其带来了负面影响。在今天大多数使用的链上投票协议中，选票和投票结果都是完全公开的。缺乏隐私保护意味着投票结果容易受到操纵，同时也可能导致选民激励不一致，潜在地导致非民主的结果。
-
-
-为此，我们推出了 Cicada：一个全新、开源的 Solidity 库，利用时间锁谜题和零知识证明来实现链上私密投票。与现有系统相比，Cicada 具备独特的隐私属性，最小化了对信任的依赖，并且在 Ethereum 主网上的使用效率也非常高。
-
-
-在本文中，我们对投票隐私的现状进行了调研，并对 Cicada 的工作原理进行了高层次的介绍（正式证明将在后续提供）。我们还鼓励开发者们前往 GitHub 存储库查看详细信息——Cicada 可以根据不同的投票方案和特性进行灵活调整和扩展。我们期待与社区合作，共同探索这些可能性。
-
-
-投票隐私性概述
-
-
-在任何投票系统（链上或其他系统）中，我们都需要考虑许多不同层次的隐私性。个人选票的披露、持续的投票统计和选民身份都会以不同的方式影响到选民。在不同的投票中，所需的隐私属性也不尽相同，以下是密码学和社会科学文献中经常涉及的一些属性：
-
-
-· 选票隐私性：秘密投票，也称为「澳大利亚式选举」（Australian bal…]]></summary>
-        <author>
-            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
 </feed>
