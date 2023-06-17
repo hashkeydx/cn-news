@@ -2894,26 +2894,6 @@
           "wordCount": 517,
           "title": "21Shares推出适用于Lido DAO的Liquid Staking平台的交易所交易产品LIDO",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/x7sc4m45.html",
-          "author": "PA一线",
-          "description": "PANews 6月12日消息，ConsenSys zkEVM网络Linea在推特上表示，目前正与 Gitcoin Passport、Galxe Passport 和 Guild.xyz 合作启动 Linea Voyage Quest - “我是一流的 Linea 公民”活动。该活动旨在打击机器人和女巫并优先考虑真正用户参与的活动，系统将为获得有效的人工验证的用户提供非常高的人工验证凭证积分。以对准备主网启动的网络进行压力测试。\n此前报道，ConsenSys zkEVM网络Linea将于6月13日发布Alpha v0.2，为主网启动做准备。",
-          "link": "https://panewslab.com/zh/articledetails/x7sc4m45.html",
-          "publishedOn": "2023-06-12T14:58:05.000Z",
-          "wordCount": 418,
-          "title": "ConsenSys zkEVM网络Linea启动Voyage Quest活动以打击机器人",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/7giy1owv.html",
-          "author": "PA一线",
-          "description": "PANews 6月12日消息，月度运营数据显示，Robinhood 5 月加密货币交易量为 21 亿美元，环比下降 43%，同比下降 68%，此外每月活跃用户数环比下降 8%（90万）至 1060 万人，加密货币的每日平均交易收入环比下降 22%，同比下降 53%。尽管其股票和期权的交易量仍然很高。",
-          "link": "https://panewslab.com/zh/articledetails/7giy1owv.html",
-          "publishedOn": "2023-06-12T14:32:51.000Z",
-          "wordCount": 399,
-          "title": "Robinhood 5月加密货币交易量环比减少43%至21亿美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2922,6 +2902,26 @@
       "feedUrl": "https://rsshub.app/blockbeats/flash",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://www.theblockbeats.info/news/42732",
+          "author": null,
+          "description": "原文标题：《\n\n解密排序器：保障交易真实性的关键\n\n》\n原文来源：Ebunker\n\n\n排序器（Sequencer）是加密货币领域中的关键技术，用于对交易进行排序并创建区块。在区块确认之前，预先确认信息将发送给用户。\n\n\n去中心化排序器的重要性在于随着更多的交易量和流动性转移到二层解决方案（L2），中心化排序器可能会收取任意价格并利用用户交易。因此，寻找去中心化的排序解决方案变得非常重要。\n\n\n什么是「排序器」？\n\n\n排序器通过在链下汇集许多 L2 上的用户交易，并将它们作为一个集合的单个交易提交到主链 L1 上，来让 L2 高效运行。这样，这种承诺的成本就可以在集合中的所有用户交易上分摊。排序器还可以压缩集合，以进一步节省主链数据可用性的成本。总的来说，它是 L2 必不可少的组件。\n\n\n然而，排序器对于集合中交易的排序具有控制权。排序器可以选择不包含用户交易，排序器还可以通过标准的重新排序和插入提取方法，在集合中提取 MEV（最大收益可实现性）。他们实际上具有对扩容的优先写访问权限。值得注意的是，由于排序器可以与合约进行交互，只有无误的交易才能通过链上机制可靠地强制执行。而有错误可能在强制排序时失败。\n\n\n这使得排序器对于扩容用户而言是一个半可信任的角色。排序器可以延迟用户的访问，并从用户的交易中提取价值。通过去中心化来进一步限制排序器的行为是一个正在积极研究的课题。\n\n\n总的来说，排序器在 OP 系 L2 中起着重要的作用。它通过聚合和提交交易集合来改善用户体验，并降低用户的交易成本。然而，由于排序器对交易排序和提取价值具有控制权，我们需要继续研究如何通过去中心化的方式限制排序器的行为，以确保用户的利益和扩容的安全性。\n\n\n\n\n\n排序器的中心化风险\n\n\n目前，乐观扩容中的排序器在分布式方面还存在一些问题。由于排序器通常扮演集中化角色，因此存在以下集中化风险：\n\n\n弱防审查…",
+          "link": "https://www.theblockbeats.info/news/42732",
+          "publishedOn": "2023-06-17T02:00:01.000Z",
+          "wordCount": null,
+          "title": "解密排序器：保障交易真实性的关键",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theblockbeats.info/news/42738",
+          "author": null,
+          "description": "原文标题：《\n\n从数据视角解读 Azuki\n\n》\n原文来源：NFTGo\n\n\n\n\n\n简介\n\n\n一颗红豆能有什么样的魔力？\n\n\nAzuki 是一个由一万个以动画为灵感的非同质化代币（NFT）构成的系列。自 2022 年由 Chiru Labs 推出以来已成为 Web3 领域的强势力量。Azuki 的推出见证了该系列在短短几分钟内销售一空，并积累了超过 2900 万美元的资金。该项目能有今天的地位，归功于其多样化且忠实的社区。除了令人惊叹的数据，Azuki 的独特之处其实在于团队对创造游戏化元宇宙的雄心壮志。他们的目标是创造一个名为 Hilumia 的空间，为持有者提供沉浸式的互动体验。\n\n\n本报告对 Azuki 和 Beanz 在 NFT 市场上的表现进行了全面分析，重点关注其社区实力、借贷动态以及推动其坚韧成长的战略性合作。我们将从数据角度探讨他们的交易活动、持有人规律、贷款量和跨平台吸引力，多方面展示这两个项目是如何在市场波动中打出一片江山。\n\n\n\nIPX x Chiru Labs：一场革命性的 Web3 扩张行动\n\n\n\n来源：Tweet@Azuki\n\n\nChiru Labs 是 Azuki 背后的创意力量来源，该公司宣布与著名全球 IP 平台 IPX 建立重要合作关系。IPX 因与 BTS、Netflix 和星巴克等知名品牌的成功合作而闻名。这一联盟标志着 LINE FRIENDS 在 Web 领域的重大突破（LINE FRIENDS 是一系列流行全球且诞生于 LINE 短信应用程序的贴图角色）。\n\n\n这次合作标志着 Web3 和现有 IP 的突破性结合，范围涵盖内容共创、LINE FRIENDS 商店的零售分销以及沉浸式线下活动。既然 BEANZ 和 LINE FRIENDS 已经起了头，这种合作很有可能扩展到其他 IP，包括那些由 IPX 指定的 Web3 合作伙伴所…",
+          "link": "https://www.theblockbeats.info/news/42738",
+          "publishedOn": "2023-06-17T01:00:01.000Z",
+          "wordCount": null,
+          "title": "从数据视角解读Azuki和Beanz，如何在市场波动中打江山",
+          "imageUrl": null
+        },
         {
           "id": "https://www.theblockbeats.info/news/42770",
           "author": null,
