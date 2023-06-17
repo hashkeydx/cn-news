@@ -2864,16 +2864,6 @@
           "wordCount": 376,
           "title": "Jump Trading寻求将Terra投资者对其的集体诉讼移至美国加州",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/34uo42a9.html",
-          "author": "PA一线",
-          "description": "PANews 6月13日消息，据Lookonchain监测，除交易所地址外的SHIB最大持有者于近5小时前通过币安和Coinbase增持1.5万亿枚SHIB（约合1000万美元）。\n目前“0x40B3”开头地址持有5.3万亿枚SHIB（约合3550万美元），此前曾于 5月16日将200万亿枚SHIB（约合1.344亿美元）转移到“0x73AF”开头地址。",
-          "link": "https://panewslab.com/zh/articledetails/34uo42a9.html",
-          "publishedOn": "2023-06-13T05:05:49.000Z",
-          "wordCount": 370,
-          "title": "数据：SHIB最大持有者增持1.5万亿枚SHIB，约合1000万美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -4207,16 +4197,6 @@
           "publishedOn": "2023-06-13T05:35:08.000Z",
           "wordCount": 1336,
           "title": "一图纵览被SEC定义为证券的67种代币",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5187727",
-          "author": "十四君",
-          "description": "在智能合约领域，\"以太坊虚拟机 EVM\" 以及其算法和数据结构就是第一性原理。\n本文从合约为什么要分类出发，结合每个场景可能面对怎样的恶意攻击，最终给出一套达成相对安全的合约分类分析算法。\n虽然技术含量较高，但亦可作为杂谈读物，一览去中心化系统间博弈的黑暗森林。\n1、合约为什么要分类？\n因为太重要了，可谓是交易所、钱包、区块链浏览器、数据分析平台等等 Dapp 的基石！\n一笔交易之所以是 ERC 20 转账，是因为他的行为符合 ERC 20 标准，至少得有：\n\n交易的状态是成功\n\nTo 地址为某个符合 ERC 20 标准的合约\n\n调用了 Transfer 函数，其特点是该交易 CallData 的前 4 位为0x a 9059 cbb\n\n执行后，在该 To 地址上发出了transfer的事件\n\n分类有误则交易行为会误判\n以交易行为为基石，则 To 地址能否被准确分类则对其 CallData 的判断会有截然不然的结论。对 Dapp 而言，链上链下的信息沟通高度依赖于交易事件的监听，而同样的事件编码也只有在符合标准的合约中发出，才具有可信度。\n分类有误则交易会误入黑洞\n如果用户进行一笔 Token 转移，转入到某个合约中，如果该合约没有预设 Token 转出的函数方法，则资金会雷同于 Burn 一样被锁定，无法控制\n且如今大量项目开始增加内置的钱包支持，要为用户管理钱包也就不可避免的，需要时刻从链上实时分类出最新部署的合约，是否能够吻合资产标准。\n拓展阅读第 1 段：【合约解读】CryptoPunk 世界上最早的去中心化 NFT 交易市场\n\n2、分类会有怎样的风险？\n链上是一个没有身份没有法治的地方，你无法制止一笔正常的交易，哪怕他是恶意的。\n他可以是冒充外婆的狼，做出多数符合你预期的外婆行为，但目的是进屋抢劫。\n声明标准，但可能实质不符合\n常见的分类方式是直接采用 EIP-1…",
-          "link": "https://www.odaily.news/post/5187727",
-          "publishedOn": "2023-06-13T05:00:00.000Z",
-          "wordCount": 1936,
-          "title": "深入EVM-合约分类这件小事背后的风险",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
