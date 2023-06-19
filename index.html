@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-19 datetime="2023-06-19T09:00:00.000Z">2023-06-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-19 datetime="2023-06-19T09:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-19 datetime="2023-06-19T11:00:00.000Z">2023-06-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-19 datetime="2023-06-19T11:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -67,6 +67,135 @@
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187883"
+                        open
+                      >
+                        <summary class="article-expander__title">DEX困境下，Uniswap V4解决了哪些问题？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187883">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：雨中狂睡
+Uni v4 草稿的发布是一件能够极大振奋人心的事情，虽然又与其 token 赋能无关，且还没有公布具体的发布日期，但是它提出了两个核心的创新，一是 Hook，二是 The Singleton。在分解这两个核心升级之前，我们先来聊聊当下 DEX 所遇到的瓶颈⬇️
+
+行业对于 DEX 的态度是一如既往看好的，因为它们在做的事情是将交易和托管去中心化，交易者不需要担心费用、价格和结算的不透明，这一切在链上都是可查的。Uniswap 引发了 DEX 的浪潮，允许每个人进行无许可交易，并提供流动性参与做市。
+不过即使愿景如此美好，但是 DEX 仍然无法与 CEX 直接竞争。个中缘由众所周知，MEV、价格没有优势、GAS 费用、LP 赚不到钱等等。从 Coingecko 制作的图中也可以看到，CEX 仍然拥有着碾压优势。（可能 Q2 的 DEX 数据会好一点，因为链上经历了一波 Meme 热潮，交易量暴涨）
+
+那么，Uni v4 讲了一个什么样的故事呢？
+可定制性（Hook）和极致的成本降低（The Singleton 和记账）。
+极致的可定制化：Hook 功能允许任何人使用自定义合约来部署流动性池。这句话其实有点抽象，在官方提到的例子的基础上（执行 TWAMM 订单、限价订单、动态费用、内部化 MEV 分配机制、自定义预言机），我再来拓展几个例子——Hook 是如何支持不同开发者所需的自定义执行逻辑的：
+1、Camelot 产品实现的功能：流动池可变费用和为 LP 增加额外奖励。在 v4 推出后，部署者可以直接在 Uniswap 上部署此类池子。包括，以后发 meme 都可以直接通过 Uniswap v4 来设置各种交易税。之前可以参考的实例是 $AIDOGE ，包括交易税、用 $ARB 激励 $AIDOGE 流动性等。但 Hook 的优势在于，它在满足了这些需…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187880"
+                        open
+                      >
+                        <summary class="article-expander__title">加密战争：揭秘SEC主席的策略</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187880">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Sam Lyman
+原文编译：Block unicorn
+
+六月意味着炎热的天气和夏天的鞋子，人们纷纷换上了人字拖（Flip-flops）——但美国证券交易委员会似乎特别时尚。
+Block unicorn 注释：“ Flip-flops ” 在英语中既有 “人字拖 ” 的意思，又常常用来形容政策、立场、观点等的&quot;反复无常&quot;或&quot;摇摆不定&quot;。在这里指的是 SEC 对加密货币是否是证券的政策问题上不够坚定、反复无常，就像更换人字拖一样频繁
+在一段 2018 年的新公布视频中，现任 SEC 主席 Gary Gensler 明确表示，比特币、以太坊、莱特币和比特币现金“并非证券”，这与他现在在这个问题上的立场大相径庭。就在今年二月， Gary Gensler 在接受《纽约杂志》采访时表示，“除了比特币以外的所有东西”都是证券。
+上周发布的臭名昭著的希南文档（Hinman documents）只是加深了人们的困惑，这些文档在 SEC 与瑞波币案件中作为关键证据。最引人注目的是，这些文档显示 SEC 官员在如何分类数字资产的证券法中发现了“监管空白”，这些电子邮件反映出，监管机构对哪种加密货币是证券以及为什么是证券缺乏共识。
+然而， Gary Gensler 公开的立场，却是完全没有任何模糊性的立场的说道：“ 加密货币平台实际上就是证券交易所，他们的活动完全在 SEC 的监管范围内。加密市场受制于监管合规的缺乏，而非监管明确性的缺乏。”
+但是，希南文档（Hinman documents）显示，他自己的机构在 2018 年就面临着围绕数字资产的法律灰色地带的问题。同年， Gary Gensler 在对一群对冲基金的演讲中说，“这个市场大概四分之三的部分可能并不是证券。”这里，他特指那时交易量最大的四大数字资产：比特币、以太坊、莱特币和比特币现金。
+所有这些都引出了一个问题：发生了…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187881"
+                        open
+                      >
+                        <summary class="article-expander__title">LD宏观周报(2023/06/19)：市场情绪好转，全球加仓进行时</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187881">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>摘要
+AI 引领的反弹正在逐步发展成更为稳定的乐观情绪，市场宽度正在改善，有更多的股票参与到市场上涨中，同时稳定的通胀数据和投资人正在积极加仓的状态在短期内仍将对股票市场产生支持。
+数字货币市场上周再 FOMC 大幅调高利率终点 50 bp 后大跌，但周五后情绪好转基本收复跌幅，整体与股市相关性进一步下降。本周包括鲍威尔证言在内大量 Fed 官员讲话会让市场对“+ 50 bp”进行一轮更精准的定价。
+市场表现
+受益于美联储暂停加息的决定，以及数据显示美国消费者信心和支出双双上升，上周标普 500 指数连续第五周收高，为 2021 年秋季以来最长周度连涨走势，当时美联储还没有开始加息。科技股集中的纳斯达克综合指数连续第八周上涨，为 2019 年初以来最长周度连涨走势。
+上周美股大多数板块上涨，表现最差的是医疗保健板块，下跌 2.85% ，表现最好的依旧是耐用品上涨 5.28% ，科技板块重拾动能：
+
+利率市场上周 1 – 3 M 超短债收益率小幅下跌， 2 年期上涨（主要因为 Fomc 调高了今年的利率终点预期 50 bp）， 30 年和 10 年期基本走平：
+
+其它市场方面，日股、港股、中国股市、铜、原油上涨，美元指数黄金下跌，数字货币在 FOMC 鹰派暂停后一度大跌，但周五以后基本收复跌幅：
+
+数字货币与股市的 60 日滚动相关性进一步下降，刷新 2021 年 7 月来最低水平：
+
+资金流、仓位、情绪
+EPFR 国际资金流动
+
+根据 EPFR 数据，截至 6 月 14 日的一周内全球基金流动的情况，简而言之，美股尤其是科技股大幅流入，中日股市流入，欧股流出，货币基金流出，债券流入：
+股票和固定收益基金都有净流入，全球股票基金的净流入量增加到了 220 亿美元，相比之前的 80 亿美元有所提升。
+这种净流入主要是由于对美股的需求，尤其是大规模的流入美国科技行业基金。然而，西…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5187879"
+                        open
+                      >
+                        <summary class="article-expander__title">NYDIG：从周期看比特币接下来会发生什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5187879">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文编译：吴说区块链
+NYDIG 是一家专门从事比特币金融服务的机构,服务内容包括储蓄账户、交易经纪、 401(k)等。最新一笔融资使其估值接近 70 亿美元。
+看点速览
+
+自第二季度以来比特币价格一直较为低迷，本文回顾过去的周期以了解比特币接下来可能发生的情况。
+
+监管活动一直是热门话题，但这并不涉及比特币，而最近案件的结果可能需要几年时间才能得知。
+
+在寻找推动未来价格的催化剂时，过去的周期表明，诸如银行体系上尚未解决的压力等问题需要平静下来，市场才会稳定。
+
+未来之路
+自第一季度结束以来，加密资产领域发生了很多变化。虽然比特币第一季度在美国银行系统信心下降的推动下获得了可观的回报，但第二季度的情况却恰恰相反。市场表现不佳的主要原因是金融监管机构对加密资产行业采取的行动。尽管比特币在年初至今上涨了 53.6% ，但 2023 年到目前为止，可以说是好坏参半。令一些比特币投资者感到沮丧的是，与第一季度比特币的出色表现不同，比特币在第二季度的表现不及其他风险资产，如股票。在这样的背景下，我们认为回顾过去的周期，以及它们如何影响我们对比特币未来表现的看法可能会有所帮助。过去的表现并不能保证未来的结果，但与我们研究或经历的其他技术革命不同，这一次似乎展示出更清晰的重复模式。
+监管阴影
+毫无疑问，第二季度最重要的事件围绕着美国金融监管机构对一些业内最大的服务提供商采取的行动展开。我们认为，SEC 对 Coinbase 的案件，以及 CFTC 和 SEC 对 Binance 的案件是最重要的，尽管这些案件并没有涉及比特币，也没有对其监管地位提出质疑。且这些案例强调了一个事实，比特币是具有最大监管清晰度的加密资产，而许多其他加密资产的分类仍存疑。这些案件可能需要几年时间来解决，除非有新的立法，否则我们不会很快知道它们对行业的影响。例如，Ripple 与 SEC 的诉讼已经进行了两年半…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -9155,8 +9284,8 @@ Haru Invest 总部位于新加坡，但一直主要在韩国开展业务…</spa
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5310555357">
-        <time id="build-timestamp" datetime="2023-06-19T10:08:28.572Z">2023-06-19T10:08:28.572Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5311096594">
+        <time id="build-timestamp" datetime="2023-06-19T11:06:41.422Z">2023-06-19T11:06:41.422Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
