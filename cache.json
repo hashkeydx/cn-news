@@ -2394,36 +2394,6 @@
           "wordCount": 406,
           "title": "数据：以太坊Layer 2总锁仓量为85亿美元，7日涨幅2.69%",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/40ac68au.html",
-          "author": "PA一线",
-          "description": "PANews 6月17日消息，据欧科云链OKLink多链浏览器数据显示，21181枚BTC于今日15:45从币安转出至未知钱包，价值约5.6亿美元。",
-          "link": "https://panewslab.com/zh/articledetails/40ac68au.html",
-          "publishedOn": "2023-06-17T07:58:48.000Z",
-          "wordCount": 336,
-          "title": "数据：约5.6亿美元BTC从币安转出至未知钱包",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/i59ackke.html",
-          "author": "PA一线",
-          "description": "PANews 6月17日消息，波场TRON创始人、火必Huobi全球顾问委员会成员孙宇晨在推特宣布，向ZachXBT捐赠10000枚TUSD。孙宇晨表示，尽管他自己不是法律专家，但非常重视Zach对区块链安全的重大贡献以及在指导用户保护自身资金方面的关键作用。\n据悉，NFT交易员Machi Big Brother（黄立成Jeffrey Huang）已起诉独立区块链侦探 ZachXBT涉嫌诽谤，该诉讼引用了ZachXBT于2022年6月在他的博客和推特上发布的一项调查，指控Machi Big Brother操纵加密货币市场并挪用了22000个以太坊，价值数千万美元。\n对此，ZachXBT在推特中回应称，该诉讼毫无根据，是对言论自由的扼杀。同时，ZachXBT发起公开捐赠以募集100万美元以协助支付与此案辩护相关的法律费用，如最终资金有剩余将会按比例返还给捐赠者。目前，相关捐赠地址已获价值数十万美元的加密货币捐助。",
-          "link": "https://panewslab.com/zh/articledetails/i59ackke.html",
-          "publishedOn": "2023-06-17T07:21:03.000Z",
-          "wordCount": 375,
-          "title": "孙宇晨：向独立链上侦探ZachXBT捐赠10000枚TUSD",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/wcfwk18j.html",
-          "author": "PA一线",
-          "description": "PANews 6月17日消息，据Blockworks报道，根据提交给美国证券交易委员会的两份文件，总部位于纽约的加密初创公司DBA Crypto将其5亿美元的筹资削减至1.5亿美元。此前DBA Crypto期望融资至少5亿美元的外部资金，并在2022年底或2023年初推出。但目前三名核心员工已离职到其他加密企业。 根据文件和一个消息来源表明，DBA Crypto由前Galay Digital投资联席主管迈克尔乔丹以及德尔福数字和德意志银行的校友Jon Charbonneau领导，两人都拥有管理成员的头衔。 消息人士称，DBA Crypto最初着手寻求一种联合投资方法，包括数字资产风险投资和流动性策略，包括衍生品。",
-          "link": "https://panewslab.com/zh/articledetails/wcfwk18j.html",
-          "publishedOn": "2023-06-17T07:17:39.000Z",
-          "wordCount": 380,
-          "title": "加密初创公司DBA Crypto将融资目标从5亿美元削减至1.5亿美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2790,16 +2760,6 @@
           "publishedOn": "2023-06-17T09:52:04.000Z",
           "wordCount": null,
           "title": "详解SCAC：智能合约的权威冲突",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.theblockbeats.info/news/42779",
-          "author": null,
-          "description": "原文标题：《Smart Contract Authority Conflicts》\n原文来源：Stanford Blockchain Review \n原文作者：Shi Khai Wei，Raghav Agarwal \n原文编译：Kxp，BlockBeats\n\n\n引言 \n\n\n多链是未来的发展趋势，可扩展性的追求将 Ethereum 引向了 Rollup 技术的搭建。在转向模块化区块链的过程中，人们再次关注到了应用链。而在不远的未来，我们听到了关于特定应用 Rollup、L3 和主权链的传闻。但这一切都将以碎片化为代价，而目前的跨链桥通常在功能上存在限制，并依赖于可信的签名者来确保安全性。\n\n\n那么，互联的 Web3 最终将呈现出怎样的局面呢？我们认为，跨链桥最终将演变为跨链消息传递或「任意消息传递」（AMP）协议，以解锁新的应用场景，让应用能够在源链和目标链之间传递任意消息。我们还将见证「信任机制格局」的出现，其中构建者将在可用性、复杂性和安全性之间做出各种权衡。\n\n\n每个 AMP 解决方案都需要实现两个关键功能：\n\n\n• 验证：能够在目标链上验证来自源链消息的有效性\n\n\n• 活跃性：能够将信息从源链传递到目标链\n\n\n很遗憾，百分之百的无信任验证并不现实，用户必须根据验证是在链上还是链下，选择相信代码、博弈理论、人类（或实体），或者这些的组合。\n\n\n在本文中，我们将整体互操作性领域垂直划分为基于信任机制和基于集成架构两个方面。\n\n\n信任机制：\n\n\n1. 信任代码和数学：对于这些解决方案，存在着链上的证明，任何人都可以验证。这些解决方案通常依赖于轻客户端，用于验证源链在目标链上的共识或验证源链在目标链上状态转换的有效性。通过轻客户端进行的验证可以通过零知识证明来提高效率，将任意长的计算压缩为离线进行，同时提供简单的链上验证来证明计算结果。\n\n\n2. 信任博弈论：当用户/应用程序…",
-          "link": "https://www.theblockbeats.info/news/42779",
-          "publishedOn": "2023-06-17T07:06:12.000Z",
-          "wordCount": null,
-          "title": "破解互操作性信任难题：Web3和跨连桥最终将如何演变？",
           "imageUrl": null
         }
       ]
