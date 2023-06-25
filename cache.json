@@ -2114,16 +2114,6 @@
           "wordCount": 380,
           "title": "Tether在以太坊网络增发2.5亿枚USDT",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ybslssxs.html",
-          "author": "PA一线",
-          "description": "PANews 6月21日消息，据Cointelegraph报道，稳定币协议 Reserve 将向 Curve (CRV)、Convex (CVX) 和 Stake DAO (SDT) 的治理代币投资 2000 万美元。该投资旨在增加 Reserve 稳定币 RTokens 的流动性。它还将增加 Reserve 在这些应用程序的治理系统中的投票权。Reserve 团队表示，这项投资可能会带来新功能，例如抵押贷款和钱包产品。",
-          "link": "https://panewslab.com/zh/articledetails/ybslssxs.html",
-          "publishedOn": "2023-06-20T16:06:49.000Z",
-          "wordCount": 430,
-          "title": "稳定币协议Reserve向Convex、Curve和Stake DAO投资2000万美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2349,6 +2339,36 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5187959",
+          "author": "星球君的朋友们",
+          "description": "原文作者：waynezhang.eth\n上次LSDFi Map 发布后，我们的预测的产品大部分都已经出现，比如 LST 支持的稳定币（R，TAI，USDL 等），veToken 引发的 Governance War（Pendle War）等。但也有很多出乎意料的数据与发现。本文将整理可查大部分 LSD 相关项目并提出问题，思考与行动指南。\n首先是整理好的 LSD MAP 2.0 ，如下图。详细的数据部分及主观评价部分，请见个人整理Google Sheet。\n\n格局\nLSD 赛道已经形成初步格局。若以层级划分，SSV Network，Obol Labs 等 DVT 技术服务商可视为L0。DVT 技术可以使验证器更稳定、更安全行使签名责任。作为层级首个发行代币的项目，SSV Network 在品牌知名度方面占据先发优势。\nLido、Ankr、Coinbase 等 LST 发行商则可视为L1。L1主要是佣金模式，用户主要获益点来自 ETH 的 POS 收入。上海升级之后，根据统计数据，L1层级项目数竟远多于于接下来的L2层级，超出第一版 MAP 预测，但经调查发现， 20% 以上正在测试网阶段。根据Defilama数据，Lido 占据流动性质押份额的 74.45% 。Lido 与 Rocket Pool 占 82.5% 左右，以 Coinbase 为首的中心化交易所发行的 LST 占流动性质押比例 12% 以上，留给其他去中心化质押的空间狭隘。此层级中一些参与项目是多链 LST 发行商来分一杯羹，但事实上，以太坊 LSD 玩法与其他公链略有不同，除了占据先发优势的 Ankr 之外，暂未见过其它成绩优异的项目。\n\nTVL 份额图（来源：DeFillama，时间： 2023.6.23 ）\n基于 LST 设计出的固收类产品，稳定币，收益聚合等占据L3层级，也就是大家常说的 LSDFi。…",
+          "link": "https://www.odaily.news/post/5187959",
+          "publishedOn": "2023-06-25T03:40:00.000Z",
+          "wordCount": 2102,
+          "title": "LSD MAP2.0：多维度解读LSD赛道发展情况",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5187958",
+          "author": "星球君的朋友们",
+          "description": "原文作者：Lian Zhu, Aperture Finance CEO\n日本设计师原研哉曾这样诠释他的设计哲学：“这个世界上，我们用的东西只有两样，一个是棍子，一个是碗”。“碗”泛指一切承载其他事物的载体，比如书架、冰箱；而“棍子”则是作用于其他事物的工具，比如螺丝刀、杠杆。\n如果说Uniswap V3更像碗，承载流动性为DeFi赋能，那V4则更像棍子，凭借功能性促使行业变革，颠覆DeFi的现有局面。作为DeFi从业者，根据目前的信息对Uniswap产品形态和用户体验做一番推演，不难想象风暴已经在酝酿，半年后V4上线必将掀起血雨腥风。\n回顾一下这家“独角兽”的历史，Uniswap V1（第一版）诞生于 2018 年 11 月，作为首个以太坊上的去中心化交易所横空出世，提供 ERC-20 代币和 ETH 之间的兑换。同一时期或借鉴或集成而起家的项目包括SushiSwap, 1inch, Curve Finance, Balancer 和Synthetix。Uniswap V2（第二版）诞生于 2020 年 5 月，进一步提供了 ERC-20 代币之间的互换。有了它的流动性赋能，同一时期兴起的项目包括Yearn.finance, AAVE, Compound 和Chainlink。Uniswap V3（第三版）于 2021 年 5 月上线，引入了集中式流动性，由于提供仓位管理而成名的项目包括 Visor Finance（后合并入 Gamma）以及Instadapp等等。\n从V1到V3是技术上的突破，但本质上一脉相承，项目方依托Uniswap，搭建出了一个庞大的生态系统。然而从V3到V4，技术上不再是从零到一的突破，但却是对市场的颠覆。以下从流动性和产品形态层面做一个浅析。\nUniswap V3是整合流动性池，即针对某一币对的流动性相对集中。Uni V3的流动性池，是由两个参数来…",
+          "link": "https://www.odaily.news/post/5187958",
+          "publishedOn": "2023-06-25T03:20:00.000Z",
+          "wordCount": 1708,
+          "title": "深度解析Uniswap V4的创新与颠覆",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5187957",
+          "author": "吴说",
+          "description": "本文来自香港 Web3 嘉年华速记，演讲内容为作者个人分享，不代表吴说观点。\nVictor Zhou, 以太坊标准 EIP 编辑评审。\nVictor Zhou：大家好！我是 Victor，感谢主持人，感谢大家来收听我的演讲，抱歉我没办法亲自到场，我从加州跟大家进行远程介绍。\n今天我要谈一谈开放思维，先介绍一下自己，我是 EIP 编辑，我主要活跃在 ERC 智能合约还有以太坊应用层方面，我是之前 Google 的校友、约翰霍普金斯大学及微软的校友。\n很多人问我以太坊的治理模型，我的回答是什么呢？\n可以有人会说，看起来以太坊其实治理是非常混乱的，这种治理是开放的，而且会给我们带来很多好处。现在想要问一下观众，你们有多少人有写过智能合约？有多少人写过后台服务？我知道在座有很多开发者。\n通常我会问一下我的开发者朋友，你怎么样把这两个设计的问题相差异区分。一个是有 API Write，一个是 API Save，选择的话你选择哪一个呢？答案是我们根本不在乎，因为除了要一致性外，不介意其他的东西。\n现在在 Web3 的机制中，但先退后一下，从 Web1 开始服务总是有读方和写方，会让公司允许请求 API，不同写方呼叫不同的服务，就好像你去呼叫 Google API 平台、微信、SDK 等等。在 Web2.0 可以加入更多新的读方和写方。Web3 有新的机制，允许服务被替代。\n在 Web3 的机制中要有开放的思维。\n共识所带来了价值，尽管解决这个问题，把它叫做呼叫一个 API 的话，可能有内建的 WiFi、蓝牙、CDMA，有 HTTP、SSL、TCP、USB、TypeC 等等，这些都是标准化的连接，让我们连到汽车上、耳机上。\n为什么香港是非常伟大的海港呢？有很多集装箱船进出，这也是你们在港口附近很多人可以看到的东西。一开始，集装箱是用于火车运输的，后来变成了非常重要的标准，可以让船来运输，…",
+          "link": "https://www.odaily.news/post/5187957",
+          "publishedOn": "2023-06-25T02:24:18.000Z",
+          "wordCount": 1740,
+          "title": "以太坊EIP评审：以太坊社区如何进行开放式的治理？",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5187955",
           "author": "jk",
