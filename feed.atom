@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-06-27T09:08:23.850Z</updated>
+    <updated>2023-06-27T10:09:31.580Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[昔日明星公链Harmony为何陷入困境？前员工指控其管理层混乱]]></title>
+        <id>https://www.odaily.news/post/5188021</id>
+        <link href="https://www.odaily.news/post/5188021"/>
+        <updated>2023-06-27T09:01:32.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Tim Craig, DL News
+原文编译：Felix, PANews
+由 Simple Rules 公司负责开发和维护，曾繁荣一时的 Harmony 公链面临指控，Harmony 前员工指责 Harmony 剩下的两名联合创始人行为不当和管理不善。
+五名前团队成员和几名 Harmony 生态开发人员指控，首席执行官兼创始人 Stephen Tse 违背承诺，对员工进行“控制”，导致 Harmony 在过去 1 年中用户和开发人员急剧下降。
+同一批员工指责联合创始人之一，Stephen Tse 的副手 Li Jiang“财务管理不善”，导致 Harmony 的金库价值从 2022 年初的 10 亿美元降至如今的 5000 万美元。
+几名前团队成员还称，一名不满的生态建设者曾在 Harmony 位于 Palo Alto 的办公室对 Stephen Tse 进行身体攻击，攻击者声称 Stephen Tse 违背了 25 万美元的资助承诺。
+Harmony 的混乱
+Harmony 是一条支持智能合约的公链，允许生态系统开发人员构建 DeFi 协议、加密游戏和 NFT 项目。Harmony 最大的吸引力在于其交易费用比以太坊链便宜。Harmony 也是在 2021 年加密牛市期间，市值飙升的几个 Layer 1 之一。
+去年，Harmony 的 TVL 达 14.2 亿美元的高位。Harmony 的旗舰应用程序是一款名为《DeFi Kingdoms》的奇幻 RPG 游戏，在加密“degens”中风靡一时，该链的原生代币 ONE 的价格也接近历史最高记录。但 1 年后，Harmony 就成了一座“鬼城”（暗指无人问津）。
+
+截至 6 月，其 TVL 不到 300 万美元，下降了 98% 。开发者活动已经慢得像爬行一样。ONE 代币的价格图看起来像是拉高抛售，而不是“金融…]]></summary>
+        <author>
+            <name>PANews</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈流动性与PoS如何有效结合？以Berachain、Tenet、Mangate为例]]></title>
+        <id>https://www.odaily.news/post/5188017</id>
+        <link href="https://www.odaily.news/post/5188017"/>
+        <updated>2023-06-27T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[PoS 机制在保护公链安全性的同时也占用了大量资金，导致这些资金利用率低下。而 DeFi 也常常被人诟病，流动性没有忠诚度，项目容易陷入死亡螺旋。如何将这两者结合，让流动性能够在获得收益的同时，参与到保护公链的安全？Berachain、Tenet、Mangate 等项目在这方面做了尝试，PANews 将在本文中做简要探讨。
+Berachain：流动性证明与三代币模型
+Berachain 是一个使用 Cosmos SDK 构建的 EVM 兼容链，它采用了一种独特的“流动性证明”共识机制和三代币模型。Berachain 希望以一种更可持续的方式来激励生态系统，流动性证明共识促进 Berachain 的流动性、资产利用率与市值的同步增长。
+Berachain 中的三种代币分别为：原生稳定币$HONEY、Gas 代币$BERA、治理代币$BGT。之所以将 Gas 代币和治理代币分开，是为了避免网络中的频繁使用者的投票权随着时间的推移而减少。
+用户将各种资产存入 Berachain 的共识系统中，以获得参与共识的权利，并分享交易费用、协议费用和区块奖励$BERA。用户存入的资产会用于和新铸造的稳定币$HONEY 在 AMM 中提供流动性，铸造$HONEY 的抵押品即为用户存入的资产，如果因为 AMM 中的无常损失等原因导致损失，用户最终能够赎回的资产数量也可能减少。$BERA 除了用于支付 Gas 费之外，还可以用于质押以获得治理代币$BGT，这也是产生$BGT 的唯一渠道。
+质押$BGT 可以获得 AMM 中的交易手续费等协议收入的分成。那么，Berachain 的飞轮可能如下。
+
+
+用户质押资产以获得$BERA 区块奖励，质押的资产和$HONEY 在 AMM 中组成交易对；
+
+质押的资产越多，协议的流动性就越好，也更能吸引交易量；
+
+交易量越多，产生的协议收入就越多，对$BGT …]]></summary>
+        <author>
+            <name>PANews</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bithumb因业绩恶化重组业务，拟推出投资信息服务以吸引新用户]]></title>
         <id>https://panewslab.com/zh/articledetails/4hd27wkx.html</id>
@@ -95,6 +137,93 @@ zkSync 团队在上周分享了 ZK Credo 的初稿，阐明了去中心化区块
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[第25周链上数据：交易活跃度波动性增强，积极信号略有增加]]></title>
+        <id>https://www.theblockbeats.info/news/43008</id>
+        <link href="https://www.theblockbeats.info/news/43008"/>
+        <updated>2023-06-27T07:00:01.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《浩空璀耀，舒云细流｜WTR 6.26》
+原文来源：WatchToweR 研究院  
+
+
+本周回顾
+
+
+ 本周从 6 月 19 日到 6 月 26 日，冰糖橙最高附近$31431，最低接近$26256，震荡幅度达到 18% 左右。
+
+
+观察筹码分布图，在约 30000 附近有大量筹码成交，将有一定的支撑或压力。
+
+
+
+
+
+分析：
+
+
+26000-31000 约 336 万枚；
+
+
+20000~25000 约 121 万枚；
+
+
+短期内跌不破在 24000~ 26000 概率为 65 %；
+
+
+其中短期内涨不破 32000～34000 的概率为 60 %。
+
+
+重要消息方面
+
+
+经济消息方面
+
+
+1、日本的代币发行者免于 30% 的加密税：
+
+
+日本的代币发行者在纸面收益上免于 30% 的加密税，这可能会对日本的加密市场产生影响。
+
+2、中国经济危机可能影响比特币和加密货币：
+
+
+分析师正在研究中国经济危机可能如何影响比特币和其他加密货币，这可能会对全球加密市场产生影响。
+
+3、塞浦路斯加密货币采用率提高：
+
+
+Bybit 获得了塞浦路斯的许可证批准，这将有助于提高该国的加密货币采用率。
+
+4、澳大利亚的代币映射将是'技术中立'：
+
+
+澳大利亚财政部官员表示，该国的代币映射将是'技术中立'，这可能会对澳大利亚的加密政策产生影响。
+
+5、俄罗斯产生了内部的政治争端。
+
+
+加密生态消息方面
+
+
+1、zkSync 发布新的'Hyperchains'网络：zkSync 计划在今年年底前发布新的'Hyperchains'网络，这可能会对加密货币网络的性能和安全性产生影响。
+
+2、汇丰在香港推出加密货币服务：汇丰银行在香港推出了加密货币服务，这标志着传统金融机构对加密货币的进一步接纳。
+
+3、币安将阿联酋视为未来运营的'焦点'：币安计划将阿联酋作为其未来运营的'焦点'，这可能会…]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欧易OKX流动性市场上线「价差速递」，机构客户可一键完成基差交易]]></title>
+        <id>https://www.theblockbeats.info/news/43012</id>
+        <link href="https://www.theblockbeats.info/news/43012"/>
+        <updated>2023-06-27T06:54:57.000Z</updated>
+        <summary type="html"><![CDATA[‘价差速递’提高了基差交易的行业效率与准确度标准，方便机构交易者执行各类基差交易策略。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[欧盟就新的银行资本立法达成政治协议，或会对加密货币持有实施严格限制]]></title>
         <id>https://panewslab.com/zh/articledetails/9wdrb7u2.html</id>
         <link href="https://panewslab.com/zh/articledetails/9wdrb7u2.html"/>
@@ -113,6 +242,16 @@ zkSync 团队在上周分享了 ZK Credo 的初稿，阐明了去中心化区块
         <summary type="html"><![CDATA[PANews 6月27日消息，据Coindesk报道，Circle联合创始人兼首席执行官Jeremy Allaire在2023天津夏季达沃斯论坛接受彭博社采访时表示，随着监管机构“过去的担忧”得到解决，新一波比特币ETF将会获得批准。Allaire称：“我相信随着更成熟的市场结构的发展，我们正在取得进展，这些结构将支持类似的事情。过去的许多担忧正在得到解决，这表明此类产品更有可能被批准供一般投资者使用。”]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[zkSync推出的OP Stack竞品，能否赢下L2扩容之战？]]></title>
+        <id>https://www.theblockbeats.info/news/43007</id>
+        <link href="https://www.theblockbeats.info/news/43007"/>
+        <updated>2023-06-27T06:23:28.000Z</updated>
+        <summary type="html"><![CDATA[一边是具有先发优势的OP Stack，一边是具有技术优势的ZK Stack，L2扩容之战才刚刚开始。]]></summary>
+        <author>
+            <name>TheBlockBeats - undefined</name>
         </author>
     </entry>
     <entry>
