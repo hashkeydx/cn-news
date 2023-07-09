@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-07-09T14:06:48.324Z</updated>
+    <updated>2023-07-09T15:06:59.161Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[以太坊最新ACDE会议：EIP-6466与6406代码更改将影响LayerZero、zkBridge和Telepathy，但不影响升级]]></title>
+        <id>https://panewslab.com/zh/articledetails/t2sxvvgc.html</id>
+        <link href="https://panewslab.com/zh/articledetails/t2sxvvgc.html"/>
+        <updated>2023-07-09T12:54:54.000Z</updated>
+        <summary type="html"><![CDATA[PANews 7月9日消息，Galaxy Digital研究副总裁Christine Kim发文总结最新一次的以太坊执行层核心开发者电话会议（ACDE）讨论内容，包括对EIP 6466和6406的影响分析；坎昆/Deneb测试工作的进展；将BuilderOverrideFlag（构建者覆盖标志）包含到引擎API中；以及EIP 4788规范中包含的两个环形缓冲区。
+首先是EIP-6466和6406代码更改，将两个区块头字段transactions_root和receipts_root中的数据编码从RLP更新到SSZ。分析发现，SSZ更新将影响三个主要项目：LayerZero、zkBridge和Telepathy。尽管这些应用程序受到影响，Dedaub总监Neville Grech表示，所有三个应用程序都可以升级，以适应通过EIP 6466和6406实施的代码更改。
+其次关于Cancun/Deneb测试，Cancun/Deneb升级已于6月30日启动，测试网络正在顺利完成，并以发现客户端实施中的一些问题。以太坊基金会的DevOps工程师Parithosh Jayanthi表示，一旦客户团队修复了未解决的问题，将尝试在更长的时间内向网络发送Blob交易，以了解网络如何处理3个目标 Blob/块的负载（从2个Blob的目标增加） /block在最后一个测试网期间。
+最后关于BuilderOverrideFlag（构建者覆盖标志），Teku (CL) 开发人员Mikhail Kalinin询问EL客户团队是否愿意接受坎昆升级中引擎API的更改。该更改旨在在get_payload API命令中创建布尔标志，如果以太坊验证器节点的EL客户端检测到审查行为，该标志将返回true。此外，EIP-4788引入了一种新的预编译，这是一种具有成本效益的智能合约操作，将在EL上公开有关CL的信息，以防止通过代码更改过度使用存储空间。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：自6月17日以来，持有10至1万枚BTC的地址已累计增持7.1万枚BTC，价值约21.5亿美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/5fjph2cc.html</id>
+        <link href="https://panewslab.com/zh/articledetails/5fjph2cc.html"/>
+        <updated>2023-07-09T12:40:41.000Z</updated>
+        <summary type="html"><![CDATA[PANews 7月9日消息，链上分析公司Santiment发推称，比特币的鲨鱼和鲸鱼地址并没有显示出任何放缓的迹象，即便价格开始在30,000美元至31,000美元区间内开始变得“​​无聊”。自6月17日以来，持有10至1万枚比特币的地址，已积累增持7.1万枚比特币，价值约21.5亿美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gate.io将于7月10日20:00上线UmisFriends治理代币UNT]]></title>
         <id>https://panewslab.com/zh/articledetails/t9m3coj2.html</id>
@@ -4003,153 +4026,6 @@ OPNX 千万交易量被质疑存在「虚假交易」，上线首日却不到两
         <summary type="html"><![CDATA[PANews 7月5日消息，Nansen数据显示，目前以太坊上BAYC的链上版税收入已超5800万美元，Otherdeed for Otherside超5200万美元，Azuki超过4300万美元，Pudgy Penguins超过720万美元。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以太坊客户端Lighthouse发布v4.3.0版本，支持Gnosis Capella升级]]></title>
-        <id>https://panewslab.com/zh/articledetails/1opztcrd.html</id>
-        <link href="https://panewslab.com/zh/articledetails/1opztcrd.html"/>
-        <updated>2023-07-05T02:58:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 7月5日消息，以太坊客户端Lighthouse开发团队Sigma Prime在推特上表示，新的Lighthouse版本v4.3.0已发布，支持Gnosis Capella升级，Gnosis用户必须在8月1日之前升级至v4.3.0。该版本对于主网、Goerli和Sepolia用户来说是低优先级版本。对于所有网络，此版本包含新功能、错误修复和优化。
-此前6月26日消息，Gnosis Chain计划于北京时间8月1日19:34左右启动主网Shapella升级。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：BLUR第二大的空投大户于15小时前将320万枚BLUR转至OKX]]></title>
-        <id>https://panewslab.com/zh/articledetails/j4w3v3vw.html</id>
-        <link href="https://panewslab.com/zh/articledetails/j4w3v3vw.html"/>
-        <updated>2023-07-05T02:51:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 7月5日消息，据链上分析师余烬监测，BLUR第二大的空投大户/工作室在15小时前将2月14日领取的320万枚BLUR(约110万美元)转入了OKX，他这320万枚空投的BLUR最高时价值450万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[速览使用LST作为抵押品的9个去中心化稳定币协议]]></title>
-        <id>https://www.odaily.news/post/5188177</id>
-        <link href="https://www.odaily.news/post/5188177"/>
-        <updated>2023-07-05T02:40:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：mysexylife.eth, 加密 KOL
-原文编译：Felix, PANews
-UST 崩溃后，很多交易者对去中心化稳定失去了信任。因此会根据当前的情况从一个中心化稳定币转向另一个中心化稳定币。
-
-随着所有即将推出的使用 LST（流动性质押代币）作为抵押品的稳定币协议，贪婪情绪或被触发。这些协议中的大多数目前与 UST 相距甚远。其中很多甚至是经过修改的 Liquity 分叉。目前 CDP（抵押债务头寸）市场变得越来越庞大，很难进行监督，而且还存在复制品。本文为加密 KOL mysexylife.eth 对目前使用 LST 作为抵押品的稳定币协议的盘点。
-Raft
-建立在以太坊上。
-
-抵押品：wstETH、rETH
-
-稳定币：R，市值 3100 万美元
-
-Raft 是去中心化的借贷协议，允许用户以 LST（目前支持 stETH）为抵押品借出稳定币 R。Raft 的产品特点在于闪兑与一步杠杆功能，最高可以一次性增加 11 倍杠杆。
-
-Ethos Reserve
-建立在 Optimism 上。
-
-抵押品：ETH、wBTC、OP
-
-稳定币：ERN，市值 340 万美元
-
-Ethos Reserve 将允许任何人以 ERN 的形式获得无息贷款，同时使用他们的抵押品产生收益。目前没有 LST，但会随着 v 2 一起上线。
-Shade Protocol
-建立在 Secret Network 之上。
-
-抵押品：stATOM、stOSMO、stkd-SCRT
-
-稳定币：SILK，市值 280 万美元
-
-Shade Protocol 是建立在 Secret Network 上的连接隐私保护 DeFi 应用程序。隐私保护稳定币 SILK 使用 Terra/Luna 开创的算法稳定币模型，与黄金、比特币、美元等挂钩。
-Vesta
-建立在 Arbitrum 上
-
-抵押品：ETH、wstETH、GMX、ARB、GLP、DPX、gOHM
-
-稳定币：VST，市值 730 万美元
-
-用户可以根据他们的抵押率（CR）存入资产作为抵押品铸造 VST 稳定币。存放在 Vesta 的资产将进入活跃池。在作者看来，Vesta 仍然是 Arbitrum 最好的 CDP 协议。
-Prisma Finance 
-建立在 Curve 生态上
-
-抵押品：wstETH、cbETH、rETH、sfrxETH 与 WBETH
-
-稳定币：acUSD
-
-Prisma Finance 的解决的核心需求是资金效率的提升，用户可以在保留 LST 的价格波动与收益率敞口的同时通过 CDP 的方式铸造稳定币实现加杠杆。
-TapiocaDAO
-Tapioca 是一个全链货币市场，建立在 LayerZero 上。用户可以铸造美元，一种全链稳定币：usd 0 。采用可变的借贷费用来鼓励套利者保持挂钩。
-Sable Finance
-Sable Finance 是一个去中心化借贷协议，用户可以通过 BNB 作为抵押品，借贷稳定币 USDS，利率为零，最低抵押比率为 110 ％。贷款由稳定性池加固，稳定性池由 USDS 和担保人组成，确保提供最大程度的保护。与 Liquity 的原始模型相比，用户可以获得额外的收益来源。
-Lucid Finance
-Lucid Finance 是一个为 LST-LPT 提供借款协议的平台，其稳定币 dUSD 是超额抵押。这个项目将首先在以太坊网络上启动，并且几周后将在 Polygon, Arbitrum 和 Optimism 网络上运行。抵押品包括 LST 和蓝筹 LP 代币。
-Seneca
-Seneca 是一个全链独立借贷市场，专注于抵押品。该平台允许用户利用列入白名单的有收益抵押品借入 senUSD，提供机构级贷款和杠杆，最大限度地提高资本效率。Seneca 的贷款市场使用独立的债务池运作。Seneca 协议将在 Arbitrum 上启动。]]></summary>
-        <author>
-            <name>PANews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moonbirds联创：奖励系统即将推出，奖励代币TALONS将包含多种用例]]></title>
-        <id>https://panewslab.com/zh/articledetails/6m1l2t8c.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6m1l2t8c.html"/>
-        <updated>2023-07-05T02:36:01.000Z</updated>
-        <summary type="html"><![CDATA[PANews 7月5日消息，NFT项目Moonbirds联合创始人Kevin Rose在推特上更新项目进展，称连接创作者和收藏者的奖励系统即将推出，奖励代币TALONS将包含以下用例：1.参加PROOF策划的展览和合作的资格；2.限量周边商品的购买权；3.独家活动的访问权，如私人晚宴、播客录制等；4.PROOF原创藏品实验的访问权；5.未来项目、铸造资格的白名单；6.其他实验性体验的资格，如Moonbirds定制等。
-此外，Moonbirds将推出在洛杉矶的实验性实体空间The Foundry，此外还即将推出新NFT系列 Mythics。Kevin Rose称：“我们从未动摇过对每件产品的需求，以实现我们为创作者和收藏者提供体验的愿景，这包括Talons和Mythics。但PROOF的核心产品应该是一个更加统一的产品。”
-NFTGo.io数据显示，Moonbirds NFT系列地板价目前为1.67 ETH，24小时涨幅达20.24%。
-此前4月消息，Moonbirds将推出奖励代币TALONS，NFT持有者每天可积累该代币。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[赵长鹏：持最稀有款ForeverCR7: The GOAT NFT将有机会与C罗见面及一起训练]]></title>
-        <id>https://panewslab.com/zh/articledetails/9bkh9jn5.html</id>
-        <link href="https://panewslab.com/zh/articledetails/9bkh9jn5.html"/>
-        <updated>2023-07-05T02:11:36.000Z</updated>
-        <summary type="html"><![CDATA[PANews 7月5日消息，币安首席执行官赵长鹏在推特上发文称，持有最稀有款ForeverCR7: The GOAT NFT将有机会与C罗见面及一起训练，币安将承担机票与住宿费用。
-此前昨日消息，币安NFT市场将推出与C罗合作的“ForeverCR7: The GOAT”NFT系列。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文详解BRC69：如何将铭文成本降低90%以上？]]></title>
-        <id>https://www.odaily.news/post/5188176</id>
-        <link href="https://www.odaily.news/post/5188176"/>
-        <updated>2023-07-05T02:07:50.000Z</updated>
-        <summary type="html"><![CDATA[Ordinals 协议在今年早些时候崭露头角，它使得在比特币上创建代币和 NFT 成为可能，并一度导致比特币网络上的交易和费用激增。
-随着 Ordinals 协议的推广，越来越多的用户将数据刻写到比特币上的非同质化 Ordinals 集合中。这种增加的使用量导致对比特币区块空间的需求增加，进而导致比特币网络费用上涨。为了继续鼓励创作者在比特币区块链上发布创新想法，在继12 种“新生代协议”之后，BTC 生态 Launchpad Luminex 于 GitHub 上发布了 BRC 69 标准，该标准利用递归铭文来优化铭刻的成本。Odaily星球日报就将围绕其原理、特点以及铸造和部署操作展开分析，旨在帮助读者全面了解这一新协议。
-
-
-通过四个步骤将铭文成本降低 90% 以上
-7 月 3 日，BTC 生态 Launchpad Luminex 宣布推出 BRC 69 标准，通过 BRC 69 ，可以将 Ordinals 收藏品的铭文成本降低 90% 以上。具体取决于初始集合的大小和网络费用。这个过程包括四个步骤：
-
-在链上刻写特征图片；
-
-在链上刻写 BRC 69 集合部署 JSON；
-
-在链上刻写 BRC 69 集合编译器 JavaScript；
-
-在链上刻写带有铸造操作的 BRC 69 资产只要集合的创建者发布其集合的官方刻写清单（目前已有要求），所有这些过程都可以在不需要外部索引器的情况下进行。此外，已经实施了递归刻写的所有前端界面都将自动渲染图像，无需额外的步骤。
-
-这个标准为更有趣的链上功能铺平了道路，例如预先公开的集合发布和链上揭示。通过在 Ordinals 浏览器上自动且无需额外操作地渲染图像，实现了这一目标。
-如何部署 BRC-69 
-一旦包含集合特征的图片被刻写到链上，我们可以在部署操作中刻写集合部署 JSON。
-部署操作是一个包含集合的常规信息以及特征刻写 ID 数组的 JSON/文本刻写。部署刻写作为特征的参考和权威来源。
-以下是集合部署 JSON 的示例：
-
-
-
-如何编译 BRC 69 
-编译操作将最终资产的渲染逻辑存储在一个 JavaScript 刻写中。编译刻写是一个递归刻写，它会指向部署刻写，以获取特征的刻写 ID，并最终渲染资产。编译刻写的逻辑可以根据需要自定义，以满足需要更具体渲染功能的集合。
-如何铸造 BRC 69 
-铸造操作使用一个 HTML 类型刻写，其中存储了用于生成最终资产的特征索引，并在单行中指向编译刻写。这种方式使得任何具备递归刻写功能的前端都可以使用链上刻写的数据自动渲染图片。
-以下是一个铸造操作的示例：
-
-实施 BRC 69 标准将提高比特币区块空间的利用效率。由于独特的特征图像在部署交易中只被铭刻一次，资产是由一个 HTML 文件组成的，引用这些特征的文件只有一行，大约 150 字节。任何具有递归铭文实现的前端都可以使用链上的部署的铭文来渲染图像，而无需额外步骤。]]></summary>
-        <author>
-            <name>Jessica</name>
         </author>
     </entry>
     <entry>
