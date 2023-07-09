@@ -6,6 +6,16 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/ds71f0mo.html",
+          "author": "PA一线",
+          "description": "PANews 7月10日消息，比特币铭文钱包UniSat Wallet推特发文称，将于下周推出NFT市场，将支持超过1500个NFT系列。与此同时，UniSat计划将整个市场的服务费从1.6%下调至1%以下。此外，UniSat表示将在未来几天推出UniSat Collections NFT系列，将很快公布更多细节。",
+          "link": "https://panewslab.com/zh/articledetails/ds71f0mo.html",
+          "publishedOn": "2023-07-09T18:14:48.000Z",
+          "wordCount": 337,
+          "title": "比特币铭文钱包UniSat Wallet将于下周推出NFT市场",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/t2sxvvgc.html",
           "author": "PA一线",
           "description": "PANews 7月9日消息，Galaxy Digital研究副总裁Christine Kim发文总结最新一次的以太坊执行层核心开发者电话会议（ACDE）讨论内容，包括对EIP 6466和6406的影响分析；坎昆/Deneb测试工作的进展；将BuilderOverrideFlag（构建者覆盖标志）包含到引擎API中；以及EIP 4788规范中包含的两个环形缓冲区。\n首先是EIP-6466和6406代码更改，将两个区块头字段transactions_root和receipts_root中的数据编码从RLP更新到SSZ。分析发现，SSZ更新将影响三个主要项目：LayerZero、zkBridge和Telepathy。尽管这些应用程序受到影响，Dedaub总监Neville Grech表示，所有三个应用程序都可以升级，以适应通过EIP 6466和6406实施的代码更改。\n其次关于Cancun/Deneb测试，Cancun/Deneb升级已于6月30日启动，测试网络正在顺利完成，并以发现客户端实施中的一些问题。以太坊基金会的DevOps工程师Parithosh Jayanthi表示，一旦客户团队修复了未解决的问题，将尝试在更长的时间内向网络发送Blob交易，以了解网络如何处理3个目标 Blob/块的负载（从2个Blob的目标增加） /block在最后一个测试网期间。\n最后关于BuilderOverrideFlag（构建者覆盖标志），Teku (CL) 开发人员Mikhail Kalinin询问EL客户团队是否愿意接受坎昆升级中引擎API的更改。该更改旨在在get_payload API命令中创建布尔标志，如果以太坊验证器节点的EL客户端检测到审查行为，该标志将返回true。此外，EIP-4788引入了一种新的预编译，这是一种具有成本效益的智能合约操作，将在EL上公开有关CL的信息，以防止通过代码更改过度使用存储空间。",
@@ -2024,46 +2034,6 @@
           "wordCount": 396,
           "title": "数据：Poly Network攻击者将约200万枚DOWS兑换为以太坊并转入新地址",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/5lb3gnb9.html",
-          "author": "PA一线",
-          "description": "PANews 7月5日消息，据官方公告，Layer2跨链桥Orbiter Finance针对6月1日Discord被攻击的事件发布赔偿计划。赔偿计划依据用户损失金额分为3档，1000美元及以下的损失Orbiter Finance将全额补偿。用户可从7月5日14：30分开始申请补偿，申请时间窗口48小时。",
-          "link": "https://panewslab.com/zh/articledetails/5lb3gnb9.html",
-          "publishedOn": "2023-07-05T09:01:50.000Z",
-          "wordCount": 361,
-          "title": "Orbiter Finance将对6月1日Discord被攻击事件受损用户提供赔偿",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ptmhynn1.html",
-          "author": "PA一线",
-          "description": "PANews 7月5日消息，据官方博客，新加坡加密金融服务公司Matrixport旗下加密货币交易所BIT宣布已在立陶宛完成虚拟资产服务提供商 (VASP) 的注册。此次注册使BIT能够向欧盟/欧洲经济区内的客户提供一系列加密相关服务。通过此次注册，BIT现已获得授权提供加密货币兑换和加密货币存托钱包服务。BIT被允许提供其平台作为交易所，用户可以在其中购买、出售和交易各种加密货币，并促进数字资产与法定货币或其他加密货币之间的交易。\nBIT的下一步工作包括为其立陶宛实体建立必要的运营基础。这包括实施当地会计实践和遵守金融监管报告要求。此外，BIT将更新其条款和条件，纳入针对立陶宛实体提供的服务的具体规定。此外，还将对反洗钱/KYC 流程进行调整，以确保遵守立陶宛监管要求。",
-          "link": "https://panewslab.com/zh/articledetails/ptmhynn1.html",
-          "publishedOn": "2023-07-05T08:41:10.000Z",
-          "wordCount": 331,
-          "title": "Matrixport旗下加密交易所BIT在立陶宛完成虚拟资产服务提供商注册",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/q9t5gdeg.html",
-          "author": "PA一线",
-          "description": "PANews 7月5日消息，加密索赔和交易平台OPNX在推特上分享其首席执行官Leslie Lamb参与访谈时的会话，Lamb表示，OPNX没有任何内部做市行为，已给出“优厚的做市商计划”；OPNX将会从香港开始，在与当地监管部门的对话中确保OPNX走上获得合规许可的道路；OPNX也不断在拓展市场，像中国大陆和台湾、韩国、日本等。\n此外，针对之前宣布正在开发中的平台信用货币oUSD，Lamb表示，oUSD是OPNX的信用贷币，系统中的抵押品实际上是在链上隔离，并保管在从法律意义上与交易平台分离的智能合约中；这与FTX的投资组合保证金方式不同，因为FTX用户无法知道平台资金与自己的资金是分开的还是混合的；oUSD这套系统可以让交易者随时了解交易平台的健康状况，也能够知道交易平台没有使用或挪用客户资产。",
-          "link": "https://panewslab.com/zh/articledetails/q9t5gdeg.html",
-          "publishedOn": "2023-07-05T08:35:22.000Z",
-          "wordCount": 335,
-          "title": "OPNX CEO：没有内部做市行为，寻求在香港获得合规许可",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/365v344i.html",
-          "author": "PA一线",
-          "description": "PANews 7月5日消息，据CoinDesk报道，根据周三的公告，新加坡星展银行启动数字人民币收款平台，其商户客户可用数字人民币向客户收取付款。新推出的商户收款平台允许企业将数字人民币自动结算到其银行存款账户。",
-          "link": "https://panewslab.com/zh/articledetails/365v344i.html",
-          "publishedOn": "2023-07-05T08:26:37.000Z",
-          "wordCount": 314,
-          "title": "新加坡星展银行启动数字人民币收款平台",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3097,16 +3067,6 @@
           "publishedOn": "2023-07-05T11:00:00.000Z",
           "wordCount": 1831,
           "title": "Meta推出推特竞品Threads背后：马斯克与扎克伯格长达数年的私人恩怨",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5188142",
-          "author": "欧科云链OKLink",
-          "description": "原文来源：欧科云链研究院\n原文作者：Jason Jiang\n在 Web 3 世界，链上活动所产生的数据直接对应着价值流动，掌握链上数据就能发现更多 Alpha。加上近年加密市场频繁遭遇风险事件，个人和机构用户对链上数据也愈加敏感。链上数据已成为洞悉加密世界必不可少的“利器”。但面对近来风头正盛的 BRC 20 交易，我们对其进行地址标签分析时，却发现此前的 BTC-UTXO 模型却似乎并不完全适用。那问题究竟出在哪儿？又该如何解决？\n BRC 20 交易与 PSBT  \n分析问题前，首先要了解 BRC 20 基本情况。2023 年 1 月，比特币核心贡献者 Casey Rodarmor 提出“序数理论”（Ordinals Theory），允许用户在比特币最小单位“聪”上写入任意文件（不超过 4 MB 的图像、文本、视频等）。随后，匿名分析师@domodata 基于 Ordinals 协议创建 BRC 20 代币标准。这是一种实验性代币标准，允许任何人在比特币网络发行代币。\nOrdinals 协议和 BRC 20 标准给比特币生态创造了价值转移之外的全新用例，使其在减半之后有了另一种极具吸引力的叙事逻辑。作为最古老的区块链生态，比特币因此焕发无限活力，BRC 20 代币也在 2023 年上半年成为广受关注的赛道：截至 2023 年 6 月 29 日，BRC 20 相关代币已超过 6000 种，市值超过 6 亿美元。\n但与以太坊 ERC 20 部署智能合约后可立即发行和传输代币不同，BRC 20 并不是实际意义上的代币，而是记录特定文本的“聪”，因此需要单独索引器来了解 BRC 20 代币的状态或余额。同时，BRC 20 是以公钥脚本中的 JSON 数据包为承载体，相关代币合约部署以及代币铸造、转移都需要利用 Ordinals 协议将铭文设置为 JSON 数据格式来实现。\n由于…",
-          "link": "https://www.odaily.news/post/5188142",
-          "publishedOn": "2023-07-05T09:00:00.000Z",
-          "wordCount": 2141,
-          "title": "欧科云链：BRC-20交易并不适用BTC-UTXO标签模型",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
