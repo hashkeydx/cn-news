@@ -2294,16 +2294,6 @@
           "wordCount": 337,
           "title": "比特币铭文钱包UniSat Wallet将于下周推出NFT市场",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/t2sxvvgc.html",
-          "author": "PA一线",
-          "description": "PANews 7月9日消息，Galaxy Digital研究副总裁Christine Kim发文总结最新一次的以太坊执行层核心开发者电话会议（ACDE）讨论内容，包括对EIP 6466和6406的影响分析；坎昆/Deneb测试工作的进展；将BuilderOverrideFlag（构建者覆盖标志）包含到引擎API中；以及EIP 4788规范中包含的两个环形缓冲区。\n首先是EIP-6466和6406代码更改，将两个区块头字段transactions_root和receipts_root中的数据编码从RLP更新到SSZ。分析发现，SSZ更新将影响三个主要项目：LayerZero、zkBridge和Telepathy。尽管这些应用程序受到影响，Dedaub总监Neville Grech表示，所有三个应用程序都可以升级，以适应通过EIP 6466和6406实施的代码更改。\n其次关于Cancun/Deneb测试，Cancun/Deneb升级已于6月30日启动，测试网络正在顺利完成，并以发现客户端实施中的一些问题。以太坊基金会的DevOps工程师Parithosh Jayanthi表示，一旦客户团队修复了未解决的问题，将尝试在更长的时间内向网络发送Blob交易，以了解网络如何处理3个目标 Blob/块的负载（从2个Blob的目标增加） /block在最后一个测试网期间。\n最后关于BuilderOverrideFlag（构建者覆盖标志），Teku (CL) 开发人员Mikhail Kalinin询问EL客户团队是否愿意接受坎昆升级中引擎API的更改。该更改旨在在get_payload API命令中创建布尔标志，如果以太坊验证器节点的EL客户端检测到审查行为，该标志将返回true。此外，EIP-4788引入了一种新的预编译，这是一种具有成本效益的智能合约操作，将在EL上公开有关CL的信息，以防止通过代码更改过度使用存储空间。",
-          "link": "https://panewslab.com/zh/articledetails/t2sxvvgc.html",
-          "publishedOn": "2023-07-09T12:54:54.000Z",
-          "wordCount": 360,
-          "title": "以太坊最新ACDE会议：EIP-6466与6406代码更改将影响LayerZero、zkBridge和Telepathy，但不影响升级",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2769,6 +2759,26 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5188384",
+          "author": "jk",
+          "description": "本文来自普华永道《PwC Global Crypto Hedge Fund Report》，由Odaily星球日报 jk 编译。\n概要\n\n传统对冲基金投资加密资产的比例下降到 29% ，较去年的 37% 有所减少。然而，目前没有任何一家传统对冲基金计划在 2023 年减少其加密资产的投资比例。\n\n由于美国的监管环境，有 23% 的传统对冲基金正在重新评估其加密策略；而有 12% 的加密对冲基金正在考虑从美国迁移到对加密资产更友好的司法管辖区。\n\n93% 的加密对冲基金预计到 2023 年底，加密资产的市值将高于 2022 年。\n\n31% 的传统对冲基金认为代币化（Tokenization）是 2023 年最大的机会；25% 的传统对冲基金（包括那些目前没有投资加密资产的基金）表示正在探索代币化。\n\n尽管投资加密资产的传统对冲基金的比例从 2022 年的 37% 下降至 2023 年的 29% ，但加密资产的价值主张和长期可持续性的信心似乎保持稳固。\n根据 2023 年全球加密对冲基金报告，目前投资加密资产的传统对冲基金受访者指出，无论基础市场波动性和监管障碍削弱了对该资产类别的信心，他们都将增加或维持其投资比例。\n该报告由普华永道（PwC）与替代投资管理协会（AIMA）和 CoinShares 合作编制，包括传统对冲基金和加密对冲基金的两项调研结果。\n报告还发现，在过去一年中，受调查的传统对冲基金管理的加密资产的平均配置比例从 4% 增加到 7% 。与此同时， 93% 的加密对冲基金受访者预计到 2023 年底，加密资产的市值将会更高。\n在被问及增加投资比例的计划时，超过三分之一（37% ）不投资加密资产的传统对冲基金表示他们对此感到好奇，但正在等待资产更加成熟，这一比例较去年的 30% 有所增加。而有 54% 的受访者表示在未来三年内不太可能投资，这一比例较去年的 41%…",
+          "link": "https://www.odaily.news/post/5188384",
+          "publishedOn": "2023-07-14T01:04:21.000Z",
+          "wordCount": 1775,
+          "title": "普华永道2023加密对冲基金报告：传统基金两极分化，加密基金仍有信心",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5188385",
+          "author": "jk",
+          "description": "在北美时间 7 月 13 日，加密行业迎来了一次密集的市场波动，随着法院裁定 XRP 在散户销售中不属于证券，诸多币种价格连带 Coinbase 的股价都出现了大幅上涨。\n\nXRP（瑞波币）\nRipple 在与 SEC 的三年法院斗争迎来了一个结果，这个结果代表了 Ripple 和加密行业的短暂胜利（详见《XRP 短暂胜诉，判决书透露了哪些重要信息？》）。这一消息是针对 Ripple 和 XRP 代币的巨大利好，随即在加密市场上掀起了一轮上涨大潮。\n根据最新的法院裁定结果，XRP（瑞波币）在程序化销售（即即通过交易所向散户销售，而非机构客户）的范畴内，不被视为证券，从而也不需要向 SEC 注册或是经历与证券相似的监管流程。尽管机构客户对于 XRP 的投资仍被视为一种证券投资行为，投资者们还是对于这一裁定感到欣喜，并将其视为对 XRP 合法性的肯定。\n因此，XRP 的价格在裁定结果公布后出现了剧烈的上涨，从约 0.47 美元飙升至 0.87 美元， 24 小时涨幅超过 80% 。Coinbase 随后宣布，将重新上架 XRP 交易对，并在北美时间今日开始交易。目前，XRP 的价格在 0.8 左右波动。\n\n过去一天 XRP 大幅上涨（Coinmarketcap）\nCoinbase\nCoinbase 的股价也迎来了剧烈上涨。一方面，市场对于前段时间的机构批量提交 ETF 采用 Coinbase 作为 SSA 合作方的热情尚未冷却；另一方面，XRP 被裁定为非证券给 Coinbase 带来了重大利好，即按照美国采用的判例法，这一结果可能导致 Coinbase 上交易的数百种代币同样被判定为非证券，继而也不再需要向 SEC 注册或是经历类似证券的监管。由于证券问题是 Coinbase 与 SEC 近日法庭交锋的核心问题，XRP 的这一法庭判决将可能成为 Coinbase 赢下这场官司的核心。\n这一利好直接反应在了 Coinbase 的股价上。北美时间 7 月 13 日，Coinbase 从 11 时左右的 84 至 85 美元之间一路冲上了收盘价的 107 美元，今日涨幅达到了恐怖的 24.49% 。相比之下，昨日的收盘价为 85.95 美元。这也同样标志着，Coinbase 的价格来到了一年以来的最高点，且仍在不断打破这个记录。\n截止本文写作时间，Coinbase 股价在盘后市场已经达到 109 美元的高价，涨幅达到 28.2% 。\n\n\nCoinbase 今日价格走势（Google）\n其他主流加密货币\nXRP 的此次法庭判决同样给整个加密货币市场带来了不小的涨幅。前段时间，SEC 的诉讼把不同的加密货币列为证券，并称这些代币需要注册并监管；在今天的判决后，这些加密货币也是涨幅最大的一批，因为 SEC 的诉讼可能会失败。（注：SEC 前段时间在对于币安和 Coinbase 的诉讼中列入的代币为：SOL、ADA、MATIC、FIL、SAND、AXS、CHZ、FLOW、ICP、NEAR、VGX、DASH、NEXO、ATOM、SAND、MANA、ALGO、BNB、BUSD 和 COTI，并不包括 XRP）尽管 XRP 并不在列表当中，但是基于相同的判例逻辑，相关的代币出现了很大涨幅。\n根据 Coinmarketcap 数据，截止发稿，ADA 的 24 小时涨幅为 17.7% ，SOL 为 16.47% ，MATIC 为 15.75% ，FIL 为 8.71% 。在 Coinmarketcap 发布的前 50 代币中，仅有一种出现跌幅。其他主流货币也出现了相当程度的涨幅：比特币站上 31000 点，且出现了一年以内的最高价格，现报 31, 294 美元；ETH 一度站上 2000 点，目前在 1980 点左右浮动。\n相关阅读\n一图纵览被 SEC 定义为证券的 67 种代币",
+          "link": "https://www.odaily.news/post/5188385",
+          "publishedOn": "2023-07-14T00:56:21.000Z",
+          "wordCount": 1848,
+          "title": "昨夜行情总结：XRP和Coinbase暴涨，加密小牛市的起点？",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5188383",
           "author": "秦晓峰",
