@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-07-15T04:09:06.399Z</updated>
+    <updated>2023-07-15T05:07:54.594Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sui NFTs：带领DeFi走向大规模采用]]></title>
+        <id>https://www.odaily.news/post/5188412</id>
+        <link href="https://www.odaily.news/post/5188412"/>
+        <updated>2023-07-15T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：six0hfour，Typus 团队
+原文编译：Kyrie
+原文来源：Typus Finance
+
+本研究旨在探讨 Sui 的基于物件(objects)的程式设计模型，以及它如何活用各式各样的 NFT 结构，借此对 DeFi 的大规模应用做出贡献。
+
+我们之前撰写了一份报告，讲述为何我们认为若要定义和建立基于区块链的 DeFi 原生资产，Sui 会是最佳选择。 Sui 的基础设计捕捉了区块链上数位资产的本质，并使智能合约能够在其上运作，取代中间人的功能。
+链上与链下的差异
+在像 EVM 或 Solana 这样的区块链上，数位资产的状态(the state of digital assets)，或说 NFT，是存储在链下的。对于静态(static)的 NFT，这是一种可接受的模型，因为这些 NFT 不会被进行转移或进行任何状态更改。
+一个简单的类比是默克尔树，其中 NFT 是其叶子，而在区块链上发布的只是树的根。
+如果使用者经常创建新的 NFT，且创建后也不太关注他们，这种模型是有效的；他们不需要对其进行任何修改或转移。然而，如果需要对其中一个 NFT 字段进行转移或更新，这将变得更加昂贵且需要更长的交易哈希。由于只有树的根被发布在区块链上，每次更新都需要一个默克尔证明。即使是读取 NFT 也需要一个默克尔证明。
+
+最近由a16z crypto 发表的一篇论文《关于可撤销性证明系统的限制，对无状态区块链的影响》探讨了无状态区块链(stateless blockchain)的概念及其取舍。该概念源于对区块链范式的一个挑战，传统上每个验证者都需要存储整个系统的完整状态。这种要求引起了对中心化的担忧，因为随着状态变得越来越大，只有资金充足的组织才能负担得起存储费用。
+这引出了无状态区块链设计的概念，该概念建议验证者仅存储系统的一小部分全局状态（例如，仅存储默克尔树的根）。…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[摩根大通：Ripple的胜利是积极的，但加密行业仍有许多尚未解决的法律问题]]></title>
         <id>https://panewslab.com/zh/articledetails/00x467n1.html</id>
