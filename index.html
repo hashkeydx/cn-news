@@ -51,11 +51,699 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-18 datetime="2023-07-18T12:39:21.000Z">2023-07-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-18 datetime="2023-07-18T12:39:21.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-18 datetime="2023-07-18T13:00:00.000Z">2023-07-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-18 datetime="2023-07-18T13:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188475"
+                        open
+                      >
+                        <summary class="article-expander__title">详解zkSync NFT空投：获得本次NFT是否等价于zkSync空投代币资格？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188475">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来源：Trusta Labs
+
+7 月 15 日，zkSync 官方宣布对生态内 NFT 玩家进行 NFT 空投，首批 10, 000 个地址已收到空投的 NFT。作为万众瞩目的头部 layer 2 ，zkSync 此举引来社区热议。大家纷纷猜测，获得本次 NFT 是否等价于 zkSync 空投代币资格？
+为了回答这个问题，Trusta Labs 针对 10, 000 名已获得 NFT 的用户在 zksync Era 的链上交互行为进行分析：
+交互行为分析
+交易笔数
+zkSync Era 全网用户平均交易笔数 21 笔。本次 NFT 空投用户： 70% 累计交易笔数&gt;&#x3D; 20 笔，高于平均值。15% 的空投账户累计交易&lt;&#x3D; 10 笔，其中有 690 个用户甚至&lt;&#x3D; 4 笔。
+
+交易额
+zkSync Era 全网用户中一半以上累计交易额为 44 U。 本次 NFT 空投用户： 15.4% 地址交易额&lt;&#x3D; 50 U，其中甚至有 530 个地址额&lt;&#x3D; 10 U（远低于平均）。
+
+Gas fee 贡献
+zkSync Era 全网 gas fee 贡献中位数为 0.002 eth，本次 NFT 空投用户： 12.3% gas fee 消耗低于中位值。
+
+活跃时间
+zkSync Era 全网地址平均活跃周数 3.6 周。本次空投用户： 25% 活跃周数不超过 3 周，其中 700 个仅在一周内活跃。
+
+特殊情形
+
+“ 0 ”交易“中奖”地址
+
+我们找到了以下三个地址，完全没有在 zkSync Era 的交互记录，依然获得空投。按照交互 top 100 NFT 的要求，这三个地址显然不符合。推测可能是官方测试地址，建议@zksync 官方说明以免引发误会。
+地址一：0x200ae0ab4e65bf0a80748cf4ebce814667513ba5 (https://explorer…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188471"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂zkSync Boojum升级：更安全更高效的zkEVM</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188471">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：zkSync
+原文编译：深潮 TechFlow
+
+TLDR
+
+升级：zkSync Era 正在过渡到新的 Boojum 证明系统，无需重新生成。
+
+性能：Boojum 展示了一流的证明性能，补充了 zkSync Era 排序器，该排序器已经可以处理超过 100 TPS。
+
+去中心化：Boojum 证明者仅需要 16 GB RAM，可实现未来大规模证明者去中心化。
+
+zkSync 的使命是推进所有人的个人自由——通过构建一个无需信任、安全、无需许可、价格合理、易于使用、弹性和可无限扩展的区块链网络，使数字自我所有权普遍可及。
+为了履行这一使命，zkSync Era 的 Alpha 版本于三个多月前向公众开放，反响非常惊人。网络亮点：
+
+锁定总价值 TVL 5.77 亿美元（来源：L 2B eat）；
+
+过去 30 天的 23, 750, 000 笔交易——是所有 L2 中最多的（来源：L 2B eat）；
+
+9, 735 个源代码验证的智能合约。
+
+2023 年 3 月，基于 SNARK 的 zkSync Era 出世，利用了经过实战检验的电路框架，该框架已经在主网上为 zkSync Lite 提供了近三年的支持。然而，我们知道这不会是 zkSync Era 证明系统的最终版本，因此设计了这个系统，使我们能够在不进行重新生成的情况下对其进行根本性的更改。这意味着我们可以在不干扰开发者和用户的情况下部署重大的密码学升级。
+在幕后，我们已经在进行密码学升级的工作很长时间了。今天，我们很高兴地宣布第一个升级：zkSync Era 正在过渡到一种名为“Boojum”的新的 STARK 证明系统。
+认识 Boojum
+Boojum 是我们基于 Rust 开发的算术和约束库，我们使用它来实现 zkSync Era 和 ZK Stack 的升级版本的 ZK 电路。
+Boojum …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188474"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus波动率专栏(20230718)：BTC表现低迷，板块轮动效应显著</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188474">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在下周 FOMC 会议之前，美联储已经进入噤声期，无法利用公开信息来重塑市场对降息的预期并扭转上周以来美元的自由落体走势，这也使得本周将发布的零售销售，初请失业金人数和成屋销售总数成为会议前可能影响市场的主要因素。
+
+数字货币方面，BTC 的上涨明显地表现出疲态，市场的关注点更多地投入到 XRP，SOL，LINK 等小币上，小币的轮动愈演愈烈，过去 24 H Top 20 Altcoin 对 Bitcoin 的交易量比例更是上升到了接近 50% ，后续的 BTC 走势或将持续一段时间的低迷。
+
+Source: coinmarketcap，Top 交易量币种
+回到期权方面，市场下调了对于近期数据发布和决策带来的不确定性的预期，使得 BTC/ETH 前端的波动率均出现明显下跌，回到了过去三个月以来 25 分位数的水平。中远期 2 m/3 m 的 BTC IV 略有升高，ETH 则几乎维持不变。
+大宗交易方面，BTC 的上涨无力使得市场在方向性上出现了明显的转向，八月底开始出现大量的 Short Call Spread（30000/34000 ， 32000/38000）成交。但反观 ETH 上仍有交易员看好中远期的上涨，过去 24 H 最大的策略交易是看涨的 29 SEP 23 Call Spread（2000/2500 ， 2100/2300），以及同样九月的 1700/2200 RR。除此之外，散落在七八月底的 Short Strangle 策略也在一定程度上解释了今日 ETH 中前端 IV 的下跌。
+
+Source: Deribit （截至 16: 00 UTC+ 8）
+
+Source: SignalPlus，前端 IV 下跌
+
+Source: SignalPlus，前端 IV 下跌至过去三个月以来 25 分位数的水平
+
+Source: Deribit Block Trade
+
+Source: Deribit Block Trade
+
+您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website: https://www.signalplus.com</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188472"
+                        open
+                      >
+                        <summary class="article-expander__title">​前有Unibot，后有LootBot，近期火热的bot类项目都有何来头？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188472">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>近期，一些 bot 项目进入大家视线内。比如前段时间涨幅较高的 Unibot；比如，近一天内涨幅最高达 4 倍的 LootBot（LOOT），可能有些人昨天冲过 LOOT，且获得了翻倍的收益。所以这类 bot 项目都什么来头呢？
+前有 Unibot，后有 LootBot
+其实说到暴涨的 bot 项目，LootBot 之前涨幅不错的 Unibot 绝对算是一个比较有名的项目，第一次看到 Unibot 是在 0x Scope 提供的以太坊上大额交易数据上（6 月 15 日到 6 月 27 日），两周时间 UNIBOT 在以太坊上巨鲸交易（30 万美元以上）次数为 52 次，甚至接近主流比特币和以太坊的交易次数。为了解开疑惑，我去查了一下 Unibot 这个项目是什么。
+首先为大家介绍一下 Unibot，Unibot 是一类 Tel 交易工具机器人，可以帮助用户实现比 DEX 更快速的交易，也有用户通过 Unibot 实现了不错的收益。
+
+其界面显示，该 bot 交易速度是 Uniswap 的 6 倍之多，作为一个较新的项目，Unibot 上的总交易量和收益分成数据也很不错。
+
+Unbot 操作很简单，首先进入 Telegram 搜索 Unibot sniper，点击开始，Unibot 会为你提供三个新钱包地址，你可以将自己的钱包资产转到其中一个 Unibot 钱包中，然后就会看到新钱包的资产余额更新。此外还可以点击新钱包的设置-私钥，将新钱包导入到小狐狸中（私钥使用后需要删除该信息，如果大家担心安全性，可以采用第一种转币的方法）。
+Unibot 的交易功能也很强大，分别为：多钱包交易、私人节点交易、Mirror Sniper 跟单交易、token 价格监测。基本是按照提示栏进行操作，但是交易速度超过很多 DEX（比如 Uniswap）。点击教程参考
+
+而据 CoinMarket…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188468"
+                        open
+                      >
+                        <summary class="article-expander__title">本周代币解锁项目一览：X2Y2、AXS大额解锁；6个项目值得关注</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188468">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本周，解锁项目较多，有 9 个将迎来解锁的项目值得关注，远多于此前数周。
+其中，DYDX、 TOR、HFT、NYM 将面临大额解锁，LQTY、GAL、EUL、 1 INCH 则面临着小额解锁。而 SAFE 的解锁最为特殊，目前 SAFE 代币尚未开放交易。Odaily星球日报将在下文中一一详述。
+X2Y2
+项目官网：https://x2y2.io/ 
+项目推特：https://twitter.com/the_x2y2
+本次解锁数量： 3750 万枚
+
+本次解锁金额：（约） 94.4 万美元
+X2Y2 是一家 NFT 交易平台。在推出之初，曾以零版税和低交易费用而闻名。本次将解锁 3750 万枚代币，价值约 94 万美元。
+NFTGo 数据显示，X2Y2目前交易规模在所有 NFT 交易市场中排名第三，交易量仅低于 Blur 和 Opensea。
+
+
+从解锁曲线来看，同类规模的解锁每季度出现一次。X2Y2 流通市值仅 700 余万美元，本次近百万美元规模的代币解锁，已占据 X2Y2 流通量的 12.75% ，这是一次值得引起投资者注意的解锁。
+
+Euler
+项目官网：https://www.euler.finance/
+项目推特：https://twitter.com/eulerfinance
+本次解锁数量： 15.4 万枚
+本次解锁金额：约 40.3 万美元
+Euler 是一个定制的无许可借贷协议，可帮助用户借出和借入比以往更多的基于以太坊的代币。作为一个定制的无许可借贷协议，该协议具有一系列新功能，可帮助用户借出和借入比以往更多类型的代币。在借贷方面，借贷加密资产的长尾资产仍有大量未满足的需求。
+EUL 流通市值仅 5000 万美元，本次解锁仅 40 万美元，不足流通量的 1% ，无需过度担忧。
+
+1inch
+项目官网：https://1inch.io/
+项目推特：http…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188466"
+                        open
+                      >
+                        <summary class="article-expander__title">算稳式微、新秀涌现，一窥去中心化稳定币市场格局变化</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188466">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>撰文：Frank，Foresight News
+加密世界叙事喧嚣，但稳定币一直是永恒的主题。不过过去一年，稳定币赛道历经了 UST 崩塌算稳式微、硅谷银行 USDC 脱锚危机等一系列重大危机，无论是市场体量还是内部结构，都发生了一些有意思的变化。
+尤其是今年以来，以 DAI、FRAX、LUSD 为代表的老牌玩家，和以 crvUSD、GHO、HOPE 为代表的新秀选手，都在探索新的业务方向，很大可能会为去中心化稳定币市场乃至整个稳定币赛道带来全新的变量。
+稳定币「此消彼长」的一年
+过去一年，是去中心化稳定币与中心化稳定币此消彼长的一年。
+稳定币赛道先是欢呼于算法稳定币的迅速崛起——UST 以一己之力将算稳破圈出界的可能性带入加密舞台中央，但随后看似大而不能倒的 Terra 公链生态与 UST 算稳帝国一周之内迅速崩塌，算稳从此一蹶不振。
+而一直以「合规」著称的中心化稳定币代表 USDC 在去年的 CeFi 机构接连暴雷中，也牵扯颇深，而今年年初硅谷银行风波的重创，又进一步打断了它积极扩张的步伐。
+算法稳定币的楼起楼塌
+2022 年 5 月之前，稳定币迎来算法稳定币时代，尤其是 UST 在保证币值稳定的前提下呈用例扩张态势，市值一度逾 180 亿美元，连续超越 DAI 与 BUSD，仅次于 USDT、USDC。
+连带着彼时的算稳 FRAX 也一路高歌猛进，不断接入以太坊之外大部分的主流公链，市值最高时近 30 亿美元，
+甚至于 Terraform Labs 发布新提案，计划在 Curve 上推出 UST、FRAX、USDC、USDT 4 pool，旨在通过去中心化算法稳定币取代居于稳定币市场核心的 3 pool（USDT、USDC、DAI），一时风头无两。
+但 2022 年 5 月 UST/Terra 的突然崩盘导致算法稳定币赛道迎来巨震，该构想戛然而止，不仅 UST 一夕归零…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188465"
+                        open
+                      >
+                        <summary class="article-expander__title">利好比特币？一文读懂Stacks即将发布的Nakamoto版本</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188465">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Alex Nguyen
+原文编译：深潮 TechFlow
+Stacks 作为一个智能合约平台，可以让比特币用于去中心化应用和去中心化金融（DeFi），释放出数万亿潜在的比特币资本。在本文中，加密分析师 Alex Nguyen 将解释 Stacks 及其即将发布的 Nakamoto 版本，以及这为什么利好比特币。
+
+Stacks 允许开发者构建使用真实比特币进行支付、抵押、代币、非同质化代币（NFT）、去中心化自治组织（DAO）等的 dApps。它通过扩展比特币的脚本功能，实现了去中心化金融（DeFi）、元宇宙、Web 3.0 和其他用例，同时尊重比特币的理念。
+Stacks 的一些关键特性包括：
+
+与比特币的无信任跨链桥；
+
+一种新的 Clarity 编程语言，用于更安全的智能合约；
+
+通过循环使用 BTC 能量的转移证明（PoX）达成共识；
+
+紧密的比特币节点集成，以对 BTC 交易做出反应。
+
+Stacks 通过以下技术实现了这一目标：
+
+在比特币上记录数据，实现对 Stacks 活动的无信任验证；
+
+一旦 Stacks 交易被 PoX 区块确认，继承比特币的安全性；
+
+利用比特币的 UTXO 系统；
+
+尊重比特币的货币政策。
+
+Stacks 与比特币之间建立了一种共生关系：
+
+比特币提供安全性、流动性和货币基础资产。
+
+Stacks 使比特币资本能够在先进应用中发挥生产力。
+
+下一个重要版本名为 Nakamoto，其中包括：
+
+sBTC —— 一种无信任的去中心化双向锚定，将比特币流动性引入智能合约。
+
+比特币的最终性 —— 一旦在 PoX 区块下确认，Stacks 交易将不可逆转。
+
+更快的区块 ——保持安全性的同时，每 5 秒产生一个区块。
+
+
+sBTC 允许在 Stacks 上以去中心化的方式铸造一种可以 1: 1 兑换为实际比特币的资产。
+
+sBTC 可以为以下用途释放出数万亿的资本：
+
+在 DeFi 中使用比特币作为抵押品；
+
+在去中心化交易所上进行无信任的比特币交易；
+
+发行以比特币支持的稳定币和资产；
+
+比特币支付通道。
+
+比特币的最终性使得 Stacks 交易在确认后的约 100 个 PoX 区块内不可逆转，需要对比特币进行深度重组才能撤销。这使得 Stacks 交易不仅继承了 Stacks 的概率不可变性，还继承了比特币的安全性。
+
+更快的约 5 秒区块大大提高了交易吞吐量，改善了 dApp 的响应能力，同时保持了比特币结算的安全性。
+
+通过增强比特币的功能，同时深刻尊重 BTC 精神，Stacks + Nakamoto 可以释放比特币在 Web 3.0 中的全部潜力。已经有数百个团队正在使用 Stacks 构建 dApps、代币、非同质化代币（NFT）、DeFi、DAO 等。
+Stacks 与 Nakamoto 版本的发布将把比特币转变为开放元宇宙的基础结算层和储备资产，这个元宇宙是自主、抗审查、无信任且赋予个人权力的。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188464"
+                        open
+                      >
+                        <summary class="article-expander__title">For the Culture：从ThreadGuy定制版Opepen开始的“整活狂潮”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188464">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：For the Culture: Jack Butcher’s Custom ThreadGuy Opepen Edition Goes Viral
+作者：Langston Thomas，nftnow
+编译：Odaily 星球日报 Aya
+
+NFT 这个特定的“互联网亚文化”经历了多次演变。从市场周期到争议，区块链居民口中的 Web 3 的术语、优先级和整体氛围一直在持续起伏，就像驱动它的代币价格一样。
+然而，有一件事是能够确定的，那就是无论如何投机，NFT 都具有比艺术和金钱所能带来的事物更深层的意义——NFT 领域已经形成了一种独特的文化，尽管存在欺诈和自私，但这种文化多数仍由善意和友情组成。
+而最近，多元艺术家 Jack Butcher 提醒整个元宇宙世界什么才是推动这种文化的真正力量。通过为多产的 NFT 评论员 ThreadGuy 推出开放版本，Butcher 掀起了一股风潮，席卷了 NFT 领域。
+现在，“For the Culture”的口号再次吹响，而故事是这样开始的：
+从 Checks 到 Opepen
+那些在 NFT 赛道中待了一段时间的人肯定已经对 Butcher 的 Opepen 项目有所耳闻。该项目于 2023 年 1 月推出，作为 Checks 的续作，这款 60 分钟的 NFT 最终分批发行，并成为开放版 NFT 赛道崛起的重要作品。
+从那时起，这个受青蛙 Pepe 启发的收藏品火了，并在接下来的几个月中不断完善其复杂机制并积累了影响力。最终，在狂热粉丝的推动下，这个项目得以成为 NFT 市场的顶级项目之一。
+在那段时间里，一位名为 Bored Elon（B.E.）的收藏家成为了 Opepen NFT 的头号 Holder。作为 Pepe 和 Jack Butcher 的忠实支持者，这位从 KOL 转向 Builder 的大哥坚定地认为 …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188463"
+                        open
+                      >
+                        <summary class="article-expander__title">万字剖析六家顶级加密VC的投资概况与战略布局</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188463">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Betalpha Labs
+1. 概述
+随着区块链技术的快速发展，加密货币和去中心化金融产业日益壮大，推动了加密风险投资行业的迅猛增长。加密货币风险投资公司（Crypto Venture Capital，简称加密 VC）是一类专注于投资加密货币和区块链领域的风险投资公司。它们向初创公司和项目提供资金和资源支持，以推动区块链技术的发展和创新，加密 VC 正在逐渐成为风险投资领域的重要力量。
+本文将对加密风险投资行业进行讨论，重点分析六家顶级加密 VC 公司，包括 a16z、Multicoin Capital、Paradigm、Mechanism Capital、Polychain 和 Variant Fund，探讨它们在该行业中的以下几个方面：
+1、各 VC 公司概述：本部分将对六家加密 VC 的基本情况进行介绍，包括公司的成立背景、团队构成、投资策略等方面，以便读者对各公司有一个整体的了解； 
+2、历年投资分析：本部分将对各加密 VC 的历年投资项目进行详细梳理和分析，包括投资领域、投资轮次、投资金额等方面的数据，以期揭示各公司的投资重点和趋势； 
+3、投资案例解析：本部分将选取各家加密 VC 的典型投资案例，深入剖析投资背后的逻辑和价值观，展示各公司在不同领域的投资实力和眼光；   
+
+4、未来发展预测：本部分将结合全球加密市场的发展态势，对六家加密 VC 的未来发展方向进行预测，提出可能的市场机遇和挑战，为投资者和行业从业者提供参考。
+本文希望通过以上内容的详细阐述使读者对加密 VC 行业拥有更详细的了解，并为投资者和市场观察者提供一些有价值的洞察。
+（本文选取的分析机构并不代表任何排名，仅为文章提供分析资本框架和模板的参考。其他资本可以参考上述模板进行分析。未来，我们也将持续关注行业中各个 VC 的投资策略变化和战略发展布局。）
+2. 加密 VC 市场整体对…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;17
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188462"
+                        open
+                      >
+                        <summary class="article-expander__title">Paradigm合伙人：UniswapX将改变DEX、MEV和互操作性游戏规则</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188462">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Dan Robinson，Paradigm 普通合伙人
+原文编译：Luffy，Foresight News
+Uniswap Labs 宣布推出一种无需许可、开源（GPL）、基于荷兰式拍卖的协议，用于跨 AMM 和其他流动性来源进行交易。Paradigm 合伙人 Dan Robinson 发推表示看好 UniswapX 和 Uniswap v4 改变去中心化交易所的潜力。Foresight News 编译整理如下：
+我认为 UniswapX 将改变去中心化交易所（DEX）、MEV 和互操作性游戏的规则，有这五个原因。
+
+1.UniswapX 架构为 DEX 开辟了广阔的设计空间。
+签署的订单（用我们的说法叫「意图」）可以比交易更高效、更灵活，并且最终更强大。
+2.为将 MEV 返还给用户的订单流拍卖奠定了更好的基础。
+今天的 OFA（订单流拍卖） 通常建立在基于 tx 的交易之上，这是一个尴尬的选择（通常需要多笔交易并在链上支付额外费用）。
+我认为明天的 OFA 将建立在 UniswapX 上。
+3.链下订单匹配尚在早期。
+我认为，在改善链下订单匹配方面还有很多工作要做（包括使其尽可能去中心化和保护隐私）。
+UniswapX 是朝着这个目标迈出的必要一步，我对如何走得更远有很多想法。
+链下订单比链上交易更「不透明」，并且在数学上更容易处理。它们可以被聚合、打包、添加、删除、压缩、加密、证明和挑战等等。这为订单匹配这个领域的大量创新打开了大门。
+从长远来看，我认为 UniswapX 的订单匹配组件甚至可能成为 Flashbots 的 SUAVE 等去中心化区块构建器的理想应用程序。
+一旦 SUAVE 上线，UniswapX 可能是第一个展示和利用其强大功能的应用程序之一。
+4. 无缝跨链和跨 Rollup 交易将是革命性的。
+为了使以太坊以 Rollup 为中心的路线图发挥作用，用户需要能够廉价、快速且轻松地在 Rollup 之间转移资产。
+我认为 UniswapX 为跨链交易设计了正确的方式。
+5. UniswapX 是对 Uniswap v4 的补充，Uniswap v4 旨在支持新技术来持续改善被动流动性供应。
+这反映了我的一个非常基本的信念：Uniswap 生态系统的改进不会来自零和再分配。
+如果交易者的交易没有获得最佳执行，他们最终会转移到其他地方。
+如果流动性提供者亏损，他们最终也会离开。
+我们需要提高交易者的价格，但不是由流动性提供者来掏腰包。 UniswapX 是实现这一改进的一种方法。
+总而言之，我认为 UniswapX v4 和 UniswapX 为 DEX 的未来指明了方向。并不是因为它们是协议设计的最后定论，而是因为它们开拓了 DEX 的设计空间。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188461"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 |以太坊L2网络总锁仓量时隔近3个月重返100亿美元上方；UniSat宣布推出Ordinals原生Swap平台brc20-swap（7月18日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188461">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>头条
+以太坊L2网络总锁仓量时隔近 3 个月重返 100 亿美元上方
+L 2B EAT 数据显示，以太坊 Layer 2 网络总锁仓量在时隔近 3 个月后重返 100 亿美元上方，现为 100.8 亿美元，过去 7 日涨幅为 6.77% 。
+其中，排名前三的项目表现如下：Arbitrum One TVL 为 60.6 亿美元，过去 7 日涨幅为 6.04% ；Optimism TVL 为 24.2 亿美元，过去 7 日涨幅为 13.38% ；zkSync Era TVL 为 5.76 亿美元，过去 7 日跌幅为 10.3% 。
+此外值得一提的是，Starknet TVL 过去 7 日涨幅达 34.59% ，暂报 9578 万美元。
+
+加密货币
+GBTC 交易量飙升至年内新高
+受多家传统金融巨头申请 ETF 影响，灰度的 GBTC 日交易量持续飙升
+灰度最大的基金产品在 6 月 20 日日交易量突破 1.7 亿美元，并在 7 月 13 日交易量突破 1.83 亿美元，到达年内新高。（theblock）
+币安完成比特币于闪电网络的集成，并开放充提业务
+据官方公告，币安现已完成 Bitcoin（BTC）于 Lightning 网络的集成，并开放 Bitcoin（BTC）于 Lightning 网络的充值、提现业务。
+Celsius 开始出售山寨币，包括 127 万枚 LINK、 283 万枚 SNX、 445 万枚1INCH等
+据 Lookonchain 监测，Celsius 开始出售山寨币，其中：
+- 127 万枚 LINK（850 万美元）、 283 万枚 SNX（784 万美元）、 12597 枚 BNB（300 万美元）、 445 万枚1INCH（226 万美元）、 853 万枚 ZRX（190 万美元）和 43.9 万枚 FTT（71.3 万美元）被转移至 Falcon…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188449"
+                        open
+                      >
+                        <summary class="article-expander__title">研报：LSDFI、新型稳定币以及下一轮繁荣市场新叙事</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188449">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一切起源于以太坊从 POW 转 POS
+转向 POS 之后，因为需要给验证者们分发收入，以太坊实际上每年会产生超过 5% 的利息，正是这些利息，给 Defi 市场带来了新机会，让创业者们跃跃欲试。
+先是 Lido 这样的协议解决了质押流动性问题，发行了对应的代币 LST，让质押中以太坊所蕴含的资金力量新回到市场。紧接着，又一批协议以 LSD 为底层，发行了更上一层的金融衍生品，包括稳定币等，开创了 LSDFi 这个全新赛道。
+一直以来，我们把 DeFi 看作乐高，那么 LSDFi 实际上打造出了一个全新的乐高模块。在我们的嘉宾看来，LSDFi 会是下一轮牛市的重要驱动力，因为它行业里创造了一个全新的货币乘数工具，将会大大提升货币使用效率。当然，也带来了全新的叙事——Web 3 市场里最重要的事情，而这个新的叙事就是 衍生资产会替代 ETH 这样的原生资产，成为新的底层。1. 以太坊质押四种方式以及 LSD 成为最简易通道
+LSD，它全称叫 Liquid staking directive，即流动性质押衍生品。LSD 的诞生是为了解决质押流动性的问题：Staking 的机制需要验证者把代币锁在智能合约里面去参与挖矿，毫无疑问，这个让质押的资产丧失流动性。因此，包括 Lido 在内的 LSD 协议向用户提供质押凭证，让用户既可以享受质押的利息，又可以拥有流动性，从而不丧失在参与其它市场活动的机会。
+LSD 协议的代币，简称 LST，实际上就是质押凭证，比如 Lido 的代币为 stETH，Rocket Pool 的质押凭证为 rETH，这些质押凭证和作为底层的以太坊比率接近于“ 1: 1 ”，但是因为各家付息模式差异，汇率会在“ 1 ”上下波动。
+实际上，LSD 概念开始于 2020 年。2019 年以太坊就提出了从 POW 转向 POS 的设想即“Eth 2.0 ”的概念。到…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188454"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus宏观研报(20230718)：美国经济好于预期，市场依旧乐观</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188454">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>日本因假期休市，香港市场也因八号风球关闭，市场正逐步进入夏季低流动性的状态，纽约市场也同样平静，固定收益交易量仅为正常水平的一半，市场徘徊在上周五的水平附近，整体仍倾向偏好风险；中国再一次疲软的经济数据（第二季度 GDP 同比增长 6.3% vs 预期的 7.3% ）在稍早时略微打击了欧洲市场的情绪，不过对后续美国市场的交易并没有什么负面影响。
+
+美国利率全线下跌约 5 个基点，而股市则在科技股和成长股的带动下再次上涨，房地产和公用事业类股则出现流出趋势；另外，部长 Yellen 表示，虽然“中国经济增长缓慢可能对美国产生一些负面溢出效应”，但美国就业市场仍然强劲，她预期美联储能够在不削弱就业市场的情况下降低通胀，且美国将可以避免经济衰退， Yellen 这番言论进一步推动了市场乐观的风险情绪。
+
+美国债券大幅上涨，加上美国股市和贸易加权美元持续呈现风险偏好的走势，美国金融形势在过去一周再次大幅放松；此外，美国经济数据表现显然超出预期，同时当前活动数据也明显改善，使得第二季度 GDP 预期也相应地上修。
+
+除了今天要发布的零售销售数据外，本周经济数据将较为平淡，随著美联储官员进入缄默期，交易活动可能会继续减少，近期也缺乏会影响市场的重要数据，市场可能会继续安于当前通胀放缓的叙事和趋势。
+然而，就在经济数据转趋平淡的同时，财报结果将会更加火热，尚未公布财报的大型银行将在本周公布盈利结果，而 Tesla 和 Netflix 也将在周三收盘后率先公布科技业的业绩。
+
+
+您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website: https://www.signalplus.com</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188453"
+                        open
+                      >
+                        <summary class="article-expander__title">游戏巨头世嘉的Web3之旅：用投资和IP授权探索Web3游戏</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188453">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Zen
+6 月底，FTC（美国联邦贸易委员会）与微软的反垄断官司中被爆出猛料，后者一直想要收购日本电子游戏公司世嘉（SEGA），并指出世嘉的软件阵容在各细分市场均拥有全球号召力。而昔日的游戏巨头对此不以为意，世嘉坚持独立运营，还在今年早些时候以 7.76 亿欧元收购了《愤怒的小鸟》的开发商 Rovio。
+世嘉的起源最早可以追溯到上个世纪 40 年代，堪称历史悠久，其发展轨迹很大程度上代表了游戏行业在硬件领域的不断探索。虽然如今人们提到世嘉，能想到的代表作品还是数年前的《刺猬索尼克》《如龙》系列，但其根据技术进步，不断应用新技术并调整发展方向，至今仍保持广泛的影响力。
+「超级游戏」计划以及与 NFT 的若即若离
+2021 年 5 月，世嘉在财务业绩发布会上，首次公开「超级游戏（Super Game）」计划，其母公司世嘉飒美 (Sega Sammy) 在同年 11 月称，为完成该计划，将考虑在未来五年内投资高达 1000 亿日元（约 9 亿美元）。
+最初因世嘉未公布有关该计划的详细内容，人们误以为「超级游戏」也许会是一款单独的超大型游戏。但在 2022 年 4 月的一次采访中，世嘉执行副总裁 Shuji Utsumi 透露，世嘉已在「超级游戏」的框架内开发多款游戏，而每款游戏都会有所不同，它们将是超越传统游戏框架的互动游戏。他还表示「超级游戏」将是综合其所有开发技术的 AAA 游戏，这其中就包括了世嘉在那时刚涉足的云技术和 NFT 领域。
+
+2021 年 4 月，世嘉投资了区块链初创公司 double jump.tokyo，并计划与之合作开发基于公司游戏 IP 的数字收藏品，由此宣布正式进军 NFT 领域。在该年第二季度的财务报告中，世嘉称「对 NFT 等新兴业务领域的投资」是未来的一部分。同年年底，其还在日本申请注册了「Sega NFT」商标。然而，老牌游戏巨头的玩…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188452"
+                        open
+                      >
+                        <summary class="article-expander__title">IOSG Ventures：深入探讨New DeFi，释放数据的潜力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188452">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Momir，IOSG Ventures
+智能合约具有局限性，因为它们缺乏与环境交互的能力，这限制了去中心化应用 (dApps) 的发展潜力。为了实现更多更复杂的功能，DeFi 协议有两个选择: 它们可以采用灵活的设计，比如玩家可以个性化处理各种场景；或者它们可以引入 external dependencies ——依赖于链下基础设施，如 oracle、keepers 或链下计算——以维持简单的用户体验。 
+在最近一篇发人深思的题为「为什么 DeFi 被破坏以及如何修复—第 1 部分:无 oracle 协议」的文章中，Dan Elitzer 主张使用零外部依赖的 DeFi 原语（primitives）来最小化攻击向量。这个想法是为了消除对第三方机构的信任需求。然而，一个零依赖的 DeFi 生态系统必将对专业化的要求更高。大多数用户缺乏时间、专业知识或资源，无法成为 Uniswap v3 上的做市商，也无法在没有 external dependencies 的情况下评估协议中的抵押品质量，他们不得不依赖于可信的中介机构参与。 
+因此，对零依赖的追求可能会让我们回到起点，或者更糟的是，迫使非专业用户信任复杂的实体或将资金存入过渡型智能合约，这会增加不安全因素。与其为完全消除外部依赖关系而奋斗，不如考虑更实用的方法，比如对 external dependencies 进行更严格的审查，并限制潜在的黑天鹅场景。我们必须认识到，某种程度的依赖是不可避免的，甚至对行业的发展至关重要。 
+在知名的 DeFi 项目中，Uniswap 的早期版本最接近于实现零依赖。然而，最近引入的 Uniswap v4 表明了一种转变趋势，通过高度模块化的方法 (「Hooks」）以推动此领域向前发展。
+数据原语
+关于外部依赖的讨论主要围绕智能合约与外部数据交互的能力展开。如今，数据交互通常依赖于预言…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188448"
+                        open
+                      >
+                        <summary class="article-expander__title">Base生态发展迅猛，有哪些值得关注的项目？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188448">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：AlEx Wacy
+原文编译：深潮 TechFlow
+
+Coinbase，一家市值 200 亿美元的加密巨头，拥有无与伦比的全球影响力。由它孵化的链——Base ，有望成为加密货币领域下一个重要事件的催化剂，目前，生态系统正在大规模快速扩张。让我们深入探讨一下：
+
+DackieSwap
+
+DackieSwap 是 Base 上首个原生 DEX，它最主要的特点是 StableSwap，这是 Curve Finance 协议的一个分叉，为用户提供最优化的交易路径。 DackieSwap 在过去 30 天内吸引了大量用户，流动资金达到 7.3 亿美元，成交量达到 4200 万美元。DackieSwap 旨在为用户提供无需注册和繁琐操作的交易体验。用户只需连接钱包，即可在几秒钟内无缝交易 Base 链上的任何代币。此外，DackieSwap 还致力于帮助用户通过加密货币获得被动收入，并通过 DackiePad（Launchpad）发现生态早期机会。
+MES Protocol
+
+MES （Multi-rollup Exchange Solutions）旨在创建一个跨 Rollup 互操作的交易所解决方案，实现 Rollup 之间的流动性流动、整合的代币交换订单簿以及网络间无缝资产转移。它的目标是提供一个真正的跨 Rollup 去中心化交易所（DEX），与其他在不同 Rollup 上部署的 DEX 有所区别。
+MES 提供了一个统一的订单簿，跨多个 Rollup 实现资产和数据交换的能力，使 L2 生态系统的用户能够享受到中心化交易所（CEX）的交易体验。用户既可以从以太坊 L1 获得安全性，又可以从 L2 Rollup 获得高吞吐量和低成本。
+MES 协议运行在 Rollup 上，Rollup 通过减少执行交易所需的计算量，将交易压缩，从而降低了消耗的 Gas。MES 利用…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188450"
+                        open
+                      >
+                        <summary class="article-expander__title">来，认识下众议院最力挺加密行业的立法人士Tom Emmer</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188450">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>长达三年的 Ripple 案终于告一大段落，XRP 应声而涨， 7 月 14 日， 24 H 涨幅超 65% ，币价一度冲高至 0.94 USDT，市值攀升至第四位，仅次于 BTC、ETH、USDT；随之而来的是各家交易所开放交易，Coinbase、Upbit、BitGo 等宣布上线 XRP 交易；交易所日均现货交易量在裁决后增加近 40 亿美元。
+除了 XRP，整个加密市场也一片喜气，BTC、ETH 破新高，分别站上 31550 USDT、 2000 USDT。
+这一切除了原生加密人士对美 SEC 不懈的抗击，也离不开“加密友好派”立法者中的力挺。今天，Odaily星球日报将介绍一位一直活跃在加密行业的男人，他就是推出了《证券明确性法案》（The Securities Clarity Act）、《SEC 稳定法案》（SEC Stability Act）、《区块链监管确定性法案》等法案的美国众议院多数党党鞭 Tom Emmer。
+据公开资料，Tom Emmer，生于 1961 年，分别获得政治学学士学位、法学博士学位，于 2015 年加入美国众议院，是众议院金融服务委员会的成员，也是众议院共和党指导委员会的成员，近日被选举为进入第 118 届国会的多数党党鞭。
+在 XRP 案结束之后，Tom Emmer 在社交媒体发文表示，“Ripple 案是一个具有里程碑意义的发展，它确立了代币与投资合同的独立和区别，无论代币是否是投资合同的一部分。现在，让我们使其成为法律。”
+Tom 提到的“使其成为法律”，是 5 月 18 日，和众议员 Darren Soto 宣布推出两党《证券明确性法案》（The Securities Clarity Act），该法案认为，现行证券法并未区分资产及其可能属于或不属于的证券合同。许多加密货币最初可能作为证券合约的一部分发行，但是，一旦项目完全开发和去中心化，代币可能会属于不同的类别，例如商品。
+如果不区分资产和证券合约，早期需要筹集资金发展的代币项目一旦去中心化就无法脱离证券框架，从而阻碍了这些代币的使用，这只会损害代币持有者的利益。
+《证券明确性法案》在现有证券法中引入新的关键术语「投资合约资产」，将使加密项目能够以合规的方式充分发挥其潜力，使美国能够在下一代互联网中参与全球竞争。这项立法对于确保国内创新蓬勃发展以及美国保持全球竞争力至关重要。
+在 Tom 眼里，SEC 对于加密货币采取的强监管行为，是在玩政治游戏。早在 2012 年 3 月 16 日，Tom 指控 SEC 滥用权力调查加密货币公司，并向 SEC 主席 Gary Gensler 发送一封美国两党对于加密货币监管提出质询的信函，要求 SEC 公开搜集标准流程，并确保这些调查工作不会违反《减少文书行政工作法》的规定，据了解该美国法律限制了联邦政府对于私营企业与民间施加的负担与调查权力。
+Coinbase 等机构一直在呼吁美国在监管立法方面的清晰，Tom 也一直致力于此，除了开头提到的《证券明确性法案》，在 2023 年 3 月 23 日，他和 Darren Soto 已向国会重新提出《区块链监管确定性法案》，该法案确保不托管消费者资金的区块链开发商、和非托管服务提供商（包括矿工、验证者和钱包提供商）不应被视为汇款服务商（money transmitters），不该与提供托管服务的加密货币交易所，受到相同等级的监管。
+据了解，区块链监管确定性法案最初于 2021 年 8 月 17 日提出，但并未进一步推进。
+6 月 6 日，SEC 在纽约联邦法院起诉加密货币交易所 Coinbase， 6 月 13 日，Tom Emmer 和众议员 Warren Davidson 提出了《SEC 稳定法案》（SEC Stability Act），该法案旨在罢免 Gensler 的 SEC 主席职务，并对 SEC 进行改革。
+“美国投资者和行业应该得到明确和一致的监督，而不是政治游戏。”Tom Emmer 在新闻稿中说。“《美国 SEC 稳定法案》将做出符合常识的改变，以确保美国 SEC 的优先级是他们有责任保护的投资者，而不是其鲁莽主席的心血来潮。”
+虽然加密市场的“监管清晰”进程道阻且长，但正是因为有了“Tom Emmer”们坚持不懈地支持，也许有朝一日，我们会迎来在监管上的春天，不再是长达几年的诉讼，不再是“被迫和解”，而是在合法监管下，加密货币蓬勃发展。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188451"
+                        open
+                      >
+                        <summary class="article-expander__title">一文详解Uniswap新推的跨AMM协议UniswapX</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188451">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>自 Uniswap 协议第一个版本于 2018 年推出以来，链上交易已呈爆炸式增长。 Uniswap 现已支持数百万用户、数百个用例和 1.5 万亿美元的交易量。
+为了发展链上交易并改善自托管 swap，Uniswap 宣布推出一种新的无需许可、开源 (GPL)、基于荷兰式拍卖的协议 UniswapX，用于跨 AMM 和其他流动性来源进行交易。
+
+目前，在 Uniswap Labs 界面上推出该协议的测试版选项，适用于以太坊主网，并将在未来扩展到其他链和 Uniswap 钱包。
+UniswapX 将逐步实现：
+
+聚合流动性来源以提高兑换价值
+
+防 MEV
+
+提供无 Gas 交易（swap）
+
+失败的交易无成本
+
+并将在几个月内扩展到支持跨链无 Gas 交易
+
+UniswapX：下一级聚合器
+链上路由（Onchain routing ）是一个日益重要和复杂的问题。链上交易的创新导致了流动性池的爆炸式增长。新的费用等级、新的 L2 和更多的链上协议会分散流动性。Uniswap 预计将在 Uniswap v4 版本上构建数千个定制池设计，这使得路由变得更具挑战性。但随着流动性来源的增长，继续提供有竞争力的价格需要手动集成以及大量的持续维护和工作。
+UniswapX，旨在通过将路由复杂性外包给开放的第三方构建者网络来解决这个问题，这些构建者则利用基于链上流动性（如 AMM 池或其自有库存）进行竞争来完成交换。
+借助 UniswapX，交易者将能够使用 Uniswap 界面，而不必担心自己是否获得最佳价格，并且交易将始终在链上透明地记录和结算。所有订单均由 Uniswap 智能订单路由支持，这迫使构建者与 Uniswap v1、v2、v3 以及一旦启动后的 v4 竞争。
+UniswapX 如何使用？
+
+无 Gas 交换——交易失败也无需支付任何费用
+通过 UniswapX，交易者签署一个独特的链下订单，然后由代表交易者支付 Gas 的构建者在链上提交该订单。因为交易者不需要支付 Gas，所以他们不需要链的本地网络代币（例如 ETH、MATIC）来进行交易或为失败的交易支付任何费用。构建者将 Gas 费计入掉期价格，但可以通过批量多个订单来竞争最佳价格来降低交易成本。
+在特定情况下，用户仍然需要支付 gas，例如 Permit 2 的初始代币批准。此外，原生网络代币在出售时需要打包，这会消耗 Gas 费用。
+MEV 保护
+MEV 是当今链上交换面临的最大问题之一，导致交易成本变高。
+借助 UniswapX，原本可以通过套利交易捕获的 MEV 会通过提高价格返还给交换者。UniswapX 还帮助用户避免更明确的 MEV 提取形式：使用构建者库存执行的订单不能夹在中间，并且在将订单路由到链上流动性场所时，构建者被激励使用私人交易中继。
+跨链
+预计将在今年晚些时候推出 UniswapX 的跨链版本，它将交换和桥接结合到一个无缝操作中。通过跨链 UniswapX，交易者将能够在几秒钟内在链之间进行交换。交易者还可以选择在目标链上接收哪些资产，而不是特定于桥的代币。
+启动 UniswapX
+UniswapX 是一种不可变的智能合约，完全无需许可。包括 Uniswap Labs 在内的任何人都无法修改或暂停合约。最早的构建者随时待命，以确保适当的拍卖起始价格和快速的订单执行，预计构建者网络将随着用户的采用而迅速扩大。目前，ABDK 对 UniswapX 代码进行了广泛的测试和审核，并且 Uniswap 提供了漏洞赏金。交换者始终保持其资金的自我托管。只有在订单执行并且他们收到交易收益后，资产才会从他们的账户中转出。
+就像 Uniswap 协议一样，UniswapX 包含一个协议费用开关，只能由 Uniswap 治理激活（Uniswap Labs 不参与该过程）。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1339,608 +2027,6 @@ PANews Telegram频道，立即订阅</span>
                               <span>PANews 7月17日消息，去中心化加密货币交易所 Uniswap 推出了新的区块链协议“UniswapX”，用于在自动做市商（AMM）和其他流动性来源之间进行交易。Uniswap 正在以太坊主网络的 Uniswap Labs 界面上推出“选择加入测试版”的 UniswapX，并计划“在不久的将来”扩展到其他链和 Uniswap 钱包。该公司没有透露最终版本何时推出。
 UniswapX 声称通过聚合流动性来源、无 Gas 掉期和针对“最大可提取价值（MEV）”的保护来提供更好的价格。在未来几个月内，UniswapX 将扩展到无 Gas 跨链交换。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188474"
-                        open
-                      >
-                        <summary class="article-expander__title">SignalPlus波动率专栏(20230718)：BTC表现低迷，板块轮动效应显著</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188474">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在下周 FOMC 会议之前，美联储已经进入噤声期，无法利用公开信息来重塑市场对降息的预期并扭转上周以来美元的自由落体走势，这也使得本周将发布的零售销售，初请失业金人数和成屋销售总数成为会议前可能影响市场的主要因素。
-
-数字货币方面，BTC 的上涨明显地表现出疲态，市场的关注点更多地投入到 XRP，SOL，LINK 等小币上，小币的轮动愈演愈烈，过去 24 H Top 20 Altcoin 对 Bitcoin 的交易量比例更是上升到了接近 50% ，后续的 BTC 走势或将持续一段时间的低迷。
-
-Source: coinmarketcap，Top 交易量币种
-回到期权方面，市场下调了对于近期数据发布和决策带来的不确定性的预期，使得 BTC/ETH 前端的波动率均出现明显下跌，回到了过去三个月以来 25 分位数的水平。中远期 2 m/3 m 的 BTC IV 略有升高，ETH 则几乎维持不变。
-大宗交易方面，BTC 的上涨无力使得市场在方向性上出现了明显的转向，八月底开始出现大量的 Short Call Spread（30000/34000 ， 32000/38000）成交。但反观 ETH 上仍有交易员看好中远期的上涨，过去 24 H 最大的策略交易是看涨的 29 SEP 23 Call Spread（2000/2500 ， 2100/2300），以及同样九月的 1700/2200 RR。除此之外，散落在七八月底的 Short Strangle 策略也在一定程度上解释了今日 ETH 中前端 IV 的下跌。
-
-Source: Deribit （截至 16: 00 UTC+ 8）
-
-Source: SignalPlus，前端 IV 下跌
-
-Source: SignalPlus，前端 IV 下跌至过去三个月以来 25 分位数的水平
-
-Source: Deribit Block Trade
-
-Source: Deribit Block Trade
-
-您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
-SignalPlus Official Website: https://www.signalplus.com</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188472"
-                        open
-                      >
-                        <summary class="article-expander__title">​前有Unibot，后有LootBot，近期火热的bot类项目都有何来头？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188472">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>近期，一些 bot 项目进入大家视线内。比如前段时间涨幅较高的 Unibot；比如，近一天内涨幅最高达 4 倍的 LootBot（LOOT），可能有些人昨天冲过 LOOT，且获得了翻倍的收益。所以这类 bot 项目都什么来头呢？
-前有 Unibot，后有 LootBot
-其实说到暴涨的 bot 项目，LootBot 之前涨幅不错的 Unibot 绝对算是一个比较有名的项目，第一次看到 Unibot 是在 0x Scope 提供的以太坊上大额交易数据上（6 月 15 日到 6 月 27 日），两周时间 UNIBOT 在以太坊上巨鲸交易（30 万美元以上）次数为 52 次，甚至接近主流比特币和以太坊的交易次数。为了解开疑惑，我去查了一下 Unibot 这个项目是什么。
-首先为大家介绍一下 Unibot，Unibot 是一类 Tel 交易工具机器人，可以帮助用户实现比 DEX 更快速的交易，也有用户通过 Unibot 实现了不错的收益。
-
-其界面显示，该 bot 交易速度是 Uniswap 的 6 倍之多，作为一个较新的项目，Unibot 上的总交易量和收益分成数据也很不错。
-
-Unbot 操作很简单，首先进入 Telegram 搜索 Unibot sniper，点击开始，Unibot 会为你提供三个新钱包地址，你可以将自己的钱包资产转到其中一个 Unibot 钱包中，然后就会看到新钱包的资产余额更新。此外还可以点击新钱包的设置-私钥，将新钱包导入到小狐狸中（私钥使用后需要删除该信息，如果大家担心安全性，可以采用第一种转币的方法）。
-Unibot 的交易功能也很强大，分别为：多钱包交易、私人节点交易、Mirror Sniper 跟单交易、token 价格监测。基本是按照提示栏进行操作，但是交易速度超过很多 DEX（比如 Uniswap）。点击教程参考
-
-而据 CoinMarket…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188468"
-                        open
-                      >
-                        <summary class="article-expander__title">本周代币解锁项目一览：X2Y2、AXS大额解锁；6个项目值得关注</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188468">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本周，解锁项目较多，有 9 个将迎来解锁的项目值得关注，远多于此前数周。
-其中，DYDX、 TOR、HFT、NYM 将面临大额解锁，LQTY、GAL、EUL、 1 INCH 则面临着小额解锁。而 SAFE 的解锁最为特殊，目前 SAFE 代币尚未开放交易。Odaily星球日报将在下文中一一详述。
-X2Y2
-项目官网：https://x2y2.io/ 
-项目推特：https://twitter.com/the_x2y2
-本次解锁数量： 3750 万枚
-
-本次解锁金额：（约） 94.4 万美元
-X2Y2 是一家 NFT 交易平台。在推出之初，曾以零版税和低交易费用而闻名。本次将解锁 3750 万枚代币，价值约 94 万美元。
-NFTGo 数据显示，X2Y2目前交易规模在所有 NFT 交易市场中排名第三，交易量仅低于 Blur 和 Opensea。
-
-
-从解锁曲线来看，同类规模的解锁每季度出现一次。X2Y2 流通市值仅 700 余万美元，本次近百万美元规模的代币解锁，已占据 X2Y2 流通量的 12.75% ，这是一次值得引起投资者注意的解锁。
-
-Euler
-项目官网：https://www.euler.finance/
-项目推特：https://twitter.com/eulerfinance
-本次解锁数量： 15.4 万枚
-本次解锁金额：约 40.3 万美元
-Euler 是一个定制的无许可借贷协议，可帮助用户借出和借入比以往更多的基于以太坊的代币。作为一个定制的无许可借贷协议，该协议具有一系列新功能，可帮助用户借出和借入比以往更多类型的代币。在借贷方面，借贷加密资产的长尾资产仍有大量未满足的需求。
-EUL 流通市值仅 5000 万美元，本次解锁仅 40 万美元，不足流通量的 1% ，无需过度担忧。
-
-1inch
-项目官网：https://1inch.io/
-项目推特：http…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188466"
-                        open
-                      >
-                        <summary class="article-expander__title">算稳式微、新秀涌现，一窥去中心化稳定币市场格局变化</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188466">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>撰文：Frank，Foresight News
-加密世界叙事喧嚣，但稳定币一直是永恒的主题。不过过去一年，稳定币赛道历经了 UST 崩塌算稳式微、硅谷银行 USDC 脱锚危机等一系列重大危机，无论是市场体量还是内部结构，都发生了一些有意思的变化。
-尤其是今年以来，以 DAI、FRAX、LUSD 为代表的老牌玩家，和以 crvUSD、GHO、HOPE 为代表的新秀选手，都在探索新的业务方向，很大可能会为去中心化稳定币市场乃至整个稳定币赛道带来全新的变量。
-稳定币「此消彼长」的一年
-过去一年，是去中心化稳定币与中心化稳定币此消彼长的一年。
-稳定币赛道先是欢呼于算法稳定币的迅速崛起——UST 以一己之力将算稳破圈出界的可能性带入加密舞台中央，但随后看似大而不能倒的 Terra 公链生态与 UST 算稳帝国一周之内迅速崩塌，算稳从此一蹶不振。
-而一直以「合规」著称的中心化稳定币代表 USDC 在去年的 CeFi 机构接连暴雷中，也牵扯颇深，而今年年初硅谷银行风波的重创，又进一步打断了它积极扩张的步伐。
-算法稳定币的楼起楼塌
-2022 年 5 月之前，稳定币迎来算法稳定币时代，尤其是 UST 在保证币值稳定的前提下呈用例扩张态势，市值一度逾 180 亿美元，连续超越 DAI 与 BUSD，仅次于 USDT、USDC。
-连带着彼时的算稳 FRAX 也一路高歌猛进，不断接入以太坊之外大部分的主流公链，市值最高时近 30 亿美元，
-甚至于 Terraform Labs 发布新提案，计划在 Curve 上推出 UST、FRAX、USDC、USDT 4 pool，旨在通过去中心化算法稳定币取代居于稳定币市场核心的 3 pool（USDT、USDC、DAI），一时风头无两。
-但 2022 年 5 月 UST/Terra 的突然崩盘导致算法稳定币赛道迎来巨震，该构想戛然而止，不仅 UST 一夕归零…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188465"
-                        open
-                      >
-                        <summary class="article-expander__title">利好比特币？一文读懂Stacks即将发布的Nakamoto版本</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188465">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Alex Nguyen
-原文编译：深潮 TechFlow
-Stacks 作为一个智能合约平台，可以让比特币用于去中心化应用和去中心化金融（DeFi），释放出数万亿潜在的比特币资本。在本文中，加密分析师 Alex Nguyen 将解释 Stacks 及其即将发布的 Nakamoto 版本，以及这为什么利好比特币。
-
-Stacks 允许开发者构建使用真实比特币进行支付、抵押、代币、非同质化代币（NFT）、去中心化自治组织（DAO）等的 dApps。它通过扩展比特币的脚本功能，实现了去中心化金融（DeFi）、元宇宙、Web 3.0 和其他用例，同时尊重比特币的理念。
-Stacks 的一些关键特性包括：
-
-与比特币的无信任跨链桥；
-
-一种新的 Clarity 编程语言，用于更安全的智能合约；
-
-通过循环使用 BTC 能量的转移证明（PoX）达成共识；
-
-紧密的比特币节点集成，以对 BTC 交易做出反应。
-
-Stacks 通过以下技术实现了这一目标：
-
-在比特币上记录数据，实现对 Stacks 活动的无信任验证；
-
-一旦 Stacks 交易被 PoX 区块确认，继承比特币的安全性；
-
-利用比特币的 UTXO 系统；
-
-尊重比特币的货币政策。
-
-Stacks 与比特币之间建立了一种共生关系：
-
-比特币提供安全性、流动性和货币基础资产。
-
-Stacks 使比特币资本能够在先进应用中发挥生产力。
-
-下一个重要版本名为 Nakamoto，其中包括：
-
-sBTC —— 一种无信任的去中心化双向锚定，将比特币流动性引入智能合约。
-
-比特币的最终性 —— 一旦在 PoX 区块下确认，Stacks 交易将不可逆转。
-
-更快的区块 ——保持安全性的同时，每 5 秒产生一个区块。
-
-
-sBTC 允许在 Stacks 上以去中心化的方式铸造一种可以 1: 1 兑换为实际比特币的资产。
-
-sBTC 可以为以下用途释放出数万亿的资本：
-
-在 DeFi 中使用比特币作为抵押品；
-
-在去中心化交易所上进行无信任的比特币交易；
-
-发行以比特币支持的稳定币和资产；
-
-比特币支付通道。
-
-比特币的最终性使得 Stacks 交易在确认后的约 100 个 PoX 区块内不可逆转，需要对比特币进行深度重组才能撤销。这使得 Stacks 交易不仅继承了 Stacks 的概率不可变性，还继承了比特币的安全性。
-
-更快的约 5 秒区块大大提高了交易吞吐量，改善了 dApp 的响应能力，同时保持了比特币结算的安全性。
-
-通过增强比特币的功能，同时深刻尊重 BTC 精神，Stacks + Nakamoto 可以释放比特币在 Web 3.0 中的全部潜力。已经有数百个团队正在使用 Stacks 构建 dApps、代币、非同质化代币（NFT）、DeFi、DAO 等。
-Stacks 与 Nakamoto 版本的发布将把比特币转变为开放元宇宙的基础结算层和储备资产，这个元宇宙是自主、抗审查、无信任且赋予个人权力的。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188464"
-                        open
-                      >
-                        <summary class="article-expander__title">For the Culture：从ThreadGuy定制版Opepen开始的“整活狂潮”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188464">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文：For the Culture: Jack Butcher’s Custom ThreadGuy Opepen Edition Goes Viral
-作者：Langston Thomas，nftnow
-编译：Odaily 星球日报 Aya
-
-NFT 这个特定的“互联网亚文化”经历了多次演变。从市场周期到争议，区块链居民口中的 Web 3 的术语、优先级和整体氛围一直在持续起伏，就像驱动它的代币价格一样。
-然而，有一件事是能够确定的，那就是无论如何投机，NFT 都具有比艺术和金钱所能带来的事物更深层的意义——NFT 领域已经形成了一种独特的文化，尽管存在欺诈和自私，但这种文化多数仍由善意和友情组成。
-而最近，多元艺术家 Jack Butcher 提醒整个元宇宙世界什么才是推动这种文化的真正力量。通过为多产的 NFT 评论员 ThreadGuy 推出开放版本，Butcher 掀起了一股风潮，席卷了 NFT 领域。
-现在，“For the Culture”的口号再次吹响，而故事是这样开始的：
-从 Checks 到 Opepen
-那些在 NFT 赛道中待了一段时间的人肯定已经对 Butcher 的 Opepen 项目有所耳闻。该项目于 2023 年 1 月推出，作为 Checks 的续作，这款 60 分钟的 NFT 最终分批发行，并成为开放版 NFT 赛道崛起的重要作品。
-从那时起，这个受青蛙 Pepe 启发的收藏品火了，并在接下来的几个月中不断完善其复杂机制并积累了影响力。最终，在狂热粉丝的推动下，这个项目得以成为 NFT 市场的顶级项目之一。
-在那段时间里，一位名为 Bored Elon（B.E.）的收藏家成为了 Opepen NFT 的头号 Holder。作为 Pepe 和 Jack Butcher 的忠实支持者，这位从 KOL 转向 Builder 的大哥坚定地认为 …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188463"
-                        open
-                      >
-                        <summary class="article-expander__title">万字剖析六家顶级加密VC的投资概况与战略布局</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188463">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Betalpha Labs
-1. 概述
-随着区块链技术的快速发展，加密货币和去中心化金融产业日益壮大，推动了加密风险投资行业的迅猛增长。加密货币风险投资公司（Crypto Venture Capital，简称加密 VC）是一类专注于投资加密货币和区块链领域的风险投资公司。它们向初创公司和项目提供资金和资源支持，以推动区块链技术的发展和创新，加密 VC 正在逐渐成为风险投资领域的重要力量。
-本文将对加密风险投资行业进行讨论，重点分析六家顶级加密 VC 公司，包括 a16z、Multicoin Capital、Paradigm、Mechanism Capital、Polychain 和 Variant Fund，探讨它们在该行业中的以下几个方面：
-1、各 VC 公司概述：本部分将对六家加密 VC 的基本情况进行介绍，包括公司的成立背景、团队构成、投资策略等方面，以便读者对各公司有一个整体的了解； 
-2、历年投资分析：本部分将对各加密 VC 的历年投资项目进行详细梳理和分析，包括投资领域、投资轮次、投资金额等方面的数据，以期揭示各公司的投资重点和趋势； 
-3、投资案例解析：本部分将选取各家加密 VC 的典型投资案例，深入剖析投资背后的逻辑和价值观，展示各公司在不同领域的投资实力和眼光；   
-
-4、未来发展预测：本部分将结合全球加密市场的发展态势，对六家加密 VC 的未来发展方向进行预测，提出可能的市场机遇和挑战，为投资者和行业从业者提供参考。
-本文希望通过以上内容的详细阐述使读者对加密 VC 行业拥有更详细的了解，并为投资者和市场观察者提供一些有价值的洞察。
-（本文选取的分析机构并不代表任何排名，仅为文章提供分析资本框架和模板的参考。其他资本可以参考上述模板进行分析。未来，我们也将持续关注行业中各个 VC 的投资策略变化和战略发展布局。）
-2. 加密 VC 市场整体对…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188462"
-                        open
-                      >
-                        <summary class="article-expander__title">Paradigm合伙人：UniswapX将改变DEX、MEV和互操作性游戏规则</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188462">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Dan Robinson，Paradigm 普通合伙人
-原文编译：Luffy，Foresight News
-Uniswap Labs 宣布推出一种无需许可、开源（GPL）、基于荷兰式拍卖的协议，用于跨 AMM 和其他流动性来源进行交易。Paradigm 合伙人 Dan Robinson 发推表示看好 UniswapX 和 Uniswap v4 改变去中心化交易所的潜力。Foresight News 编译整理如下：
-我认为 UniswapX 将改变去中心化交易所（DEX）、MEV 和互操作性游戏的规则，有这五个原因。
-
-1.UniswapX 架构为 DEX 开辟了广阔的设计空间。
-签署的订单（用我们的说法叫「意图」）可以比交易更高效、更灵活，并且最终更强大。
-2.为将 MEV 返还给用户的订单流拍卖奠定了更好的基础。
-今天的 OFA（订单流拍卖） 通常建立在基于 tx 的交易之上，这是一个尴尬的选择（通常需要多笔交易并在链上支付额外费用）。
-我认为明天的 OFA 将建立在 UniswapX 上。
-3.链下订单匹配尚在早期。
-我认为，在改善链下订单匹配方面还有很多工作要做（包括使其尽可能去中心化和保护隐私）。
-UniswapX 是朝着这个目标迈出的必要一步，我对如何走得更远有很多想法。
-链下订单比链上交易更「不透明」，并且在数学上更容易处理。它们可以被聚合、打包、添加、删除、压缩、加密、证明和挑战等等。这为订单匹配这个领域的大量创新打开了大门。
-从长远来看，我认为 UniswapX 的订单匹配组件甚至可能成为 Flashbots 的 SUAVE 等去中心化区块构建器的理想应用程序。
-一旦 SUAVE 上线，UniswapX 可能是第一个展示和利用其强大功能的应用程序之一。
-4. 无缝跨链和跨 Rollup 交易将是革命性的。
-为了使以太坊以 Rollup 为中心的路线图发挥作用，用户需要能够廉价、快速且轻松地在 Rollup 之间转移资产。
-我认为 UniswapX 为跨链交易设计了正确的方式。
-5. UniswapX 是对 Uniswap v4 的补充，Uniswap v4 旨在支持新技术来持续改善被动流动性供应。
-这反映了我的一个非常基本的信念：Uniswap 生态系统的改进不会来自零和再分配。
-如果交易者的交易没有获得最佳执行，他们最终会转移到其他地方。
-如果流动性提供者亏损，他们最终也会离开。
-我们需要提高交易者的价格，但不是由流动性提供者来掏腰包。 UniswapX 是实现这一改进的一种方法。
-总而言之，我认为 UniswapX v4 和 UniswapX 为 DEX 的未来指明了方向。并不是因为它们是协议设计的最后定论，而是因为它们开拓了 DEX 的设计空间。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188461"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 |以太坊L2网络总锁仓量时隔近3个月重返100亿美元上方；UniSat宣布推出Ordinals原生Swap平台brc20-swap（7月18日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188461">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>头条
-以太坊L2网络总锁仓量时隔近 3 个月重返 100 亿美元上方
-L 2B EAT 数据显示，以太坊 Layer 2 网络总锁仓量在时隔近 3 个月后重返 100 亿美元上方，现为 100.8 亿美元，过去 7 日涨幅为 6.77% 。
-其中，排名前三的项目表现如下：Arbitrum One TVL 为 60.6 亿美元，过去 7 日涨幅为 6.04% ；Optimism TVL 为 24.2 亿美元，过去 7 日涨幅为 13.38% ；zkSync Era TVL 为 5.76 亿美元，过去 7 日跌幅为 10.3% 。
-此外值得一提的是，Starknet TVL 过去 7 日涨幅达 34.59% ，暂报 9578 万美元。
-
-加密货币
-GBTC 交易量飙升至年内新高
-受多家传统金融巨头申请 ETF 影响，灰度的 GBTC 日交易量持续飙升
-灰度最大的基金产品在 6 月 20 日日交易量突破 1.7 亿美元，并在 7 月 13 日交易量突破 1.83 亿美元，到达年内新高。（theblock）
-币安完成比特币于闪电网络的集成，并开放充提业务
-据官方公告，币安现已完成 Bitcoin（BTC）于 Lightning 网络的集成，并开放 Bitcoin（BTC）于 Lightning 网络的充值、提现业务。
-Celsius 开始出售山寨币，包括 127 万枚 LINK、 283 万枚 SNX、 445 万枚1INCH等
-据 Lookonchain 监测，Celsius 开始出售山寨币，其中：
-- 127 万枚 LINK（850 万美元）、 283 万枚 SNX（784 万美元）、 12597 枚 BNB（300 万美元）、 445 万枚1INCH（226 万美元）、 853 万枚 ZRX（190 万美元）和 43.9 万枚 FTT（71.3 万美元）被转移至 Falcon…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188449"
-                        open
-                      >
-                        <summary class="article-expander__title">研报：LSDFI、新型稳定币以及下一轮繁荣市场新叙事</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188449">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一切起源于以太坊从 POW 转 POS
-转向 POS 之后，因为需要给验证者们分发收入，以太坊实际上每年会产生超过 5% 的利息，正是这些利息，给 Defi 市场带来了新机会，让创业者们跃跃欲试。
-先是 Lido 这样的协议解决了质押流动性问题，发行了对应的代币 LST，让质押中以太坊所蕴含的资金力量新回到市场。紧接着，又一批协议以 LSD 为底层，发行了更上一层的金融衍生品，包括稳定币等，开创了 LSDFi 这个全新赛道。
-一直以来，我们把 DeFi 看作乐高，那么 LSDFi 实际上打造出了一个全新的乐高模块。在我们的嘉宾看来，LSDFi 会是下一轮牛市的重要驱动力，因为它行业里创造了一个全新的货币乘数工具，将会大大提升货币使用效率。当然，也带来了全新的叙事——Web 3 市场里最重要的事情，而这个新的叙事就是 衍生资产会替代 ETH 这样的原生资产，成为新的底层。1. 以太坊质押四种方式以及 LSD 成为最简易通道
-LSD，它全称叫 Liquid staking directive，即流动性质押衍生品。LSD 的诞生是为了解决质押流动性的问题：Staking 的机制需要验证者把代币锁在智能合约里面去参与挖矿，毫无疑问，这个让质押的资产丧失流动性。因此，包括 Lido 在内的 LSD 协议向用户提供质押凭证，让用户既可以享受质押的利息，又可以拥有流动性，从而不丧失在参与其它市场活动的机会。
-LSD 协议的代币，简称 LST，实际上就是质押凭证，比如 Lido 的代币为 stETH，Rocket Pool 的质押凭证为 rETH，这些质押凭证和作为底层的以太坊比率接近于“ 1: 1 ”，但是因为各家付息模式差异，汇率会在“ 1 ”上下波动。
-实际上，LSD 概念开始于 2020 年。2019 年以太坊就提出了从 POW 转向 POS 的设想即“Eth 2.0 ”的概念。到…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188454"
-                        open
-                      >
-                        <summary class="article-expander__title">SignalPlus宏观研报(20230718)：美国经济好于预期，市场依旧乐观</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188454">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>日本因假期休市，香港市场也因八号风球关闭，市场正逐步进入夏季低流动性的状态，纽约市场也同样平静，固定收益交易量仅为正常水平的一半，市场徘徊在上周五的水平附近，整体仍倾向偏好风险；中国再一次疲软的经济数据（第二季度 GDP 同比增长 6.3% vs 预期的 7.3% ）在稍早时略微打击了欧洲市场的情绪，不过对后续美国市场的交易并没有什么负面影响。
-
-美国利率全线下跌约 5 个基点，而股市则在科技股和成长股的带动下再次上涨，房地产和公用事业类股则出现流出趋势；另外，部长 Yellen 表示，虽然“中国经济增长缓慢可能对美国产生一些负面溢出效应”，但美国就业市场仍然强劲，她预期美联储能够在不削弱就业市场的情况下降低通胀，且美国将可以避免经济衰退， Yellen 这番言论进一步推动了市场乐观的风险情绪。
-
-美国债券大幅上涨，加上美国股市和贸易加权美元持续呈现风险偏好的走势，美国金融形势在过去一周再次大幅放松；此外，美国经济数据表现显然超出预期，同时当前活动数据也明显改善，使得第二季度 GDP 预期也相应地上修。
-
-除了今天要发布的零售销售数据外，本周经济数据将较为平淡，随著美联储官员进入缄默期，交易活动可能会继续减少，近期也缺乏会影响市场的重要数据，市场可能会继续安于当前通胀放缓的叙事和趋势。
-然而，就在经济数据转趋平淡的同时，财报结果将会更加火热，尚未公布财报的大型银行将在本周公布盈利结果，而 Tesla 和 Netflix 也将在周三收盘后率先公布科技业的业绩。
-
-
-您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
-SignalPlus Official Website: https://www.signalplus.com</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188453"
-                        open
-                      >
-                        <summary class="article-expander__title">游戏巨头世嘉的Web3之旅：用投资和IP授权探索Web3游戏</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188453">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Zen
-6 月底，FTC（美国联邦贸易委员会）与微软的反垄断官司中被爆出猛料，后者一直想要收购日本电子游戏公司世嘉（SEGA），并指出世嘉的软件阵容在各细分市场均拥有全球号召力。而昔日的游戏巨头对此不以为意，世嘉坚持独立运营，还在今年早些时候以 7.76 亿欧元收购了《愤怒的小鸟》的开发商 Rovio。
-世嘉的起源最早可以追溯到上个世纪 40 年代，堪称历史悠久，其发展轨迹很大程度上代表了游戏行业在硬件领域的不断探索。虽然如今人们提到世嘉，能想到的代表作品还是数年前的《刺猬索尼克》《如龙》系列，但其根据技术进步，不断应用新技术并调整发展方向，至今仍保持广泛的影响力。
-「超级游戏」计划以及与 NFT 的若即若离
-2021 年 5 月，世嘉在财务业绩发布会上，首次公开「超级游戏（Super Game）」计划，其母公司世嘉飒美 (Sega Sammy) 在同年 11 月称，为完成该计划，将考虑在未来五年内投资高达 1000 亿日元（约 9 亿美元）。
-最初因世嘉未公布有关该计划的详细内容，人们误以为「超级游戏」也许会是一款单独的超大型游戏。但在 2022 年 4 月的一次采访中，世嘉执行副总裁 Shuji Utsumi 透露，世嘉已在「超级游戏」的框架内开发多款游戏，而每款游戏都会有所不同，它们将是超越传统游戏框架的互动游戏。他还表示「超级游戏」将是综合其所有开发技术的 AAA 游戏，这其中就包括了世嘉在那时刚涉足的云技术和 NFT 领域。
-
-2021 年 4 月，世嘉投资了区块链初创公司 double jump.tokyo，并计划与之合作开发基于公司游戏 IP 的数字收藏品，由此宣布正式进军 NFT 领域。在该年第二季度的财务报告中，世嘉称「对 NFT 等新兴业务领域的投资」是未来的一部分。同年年底，其还在日本申请注册了「Sega NFT」商标。然而，老牌游戏巨头的玩…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188452"
-                        open
-                      >
-                        <summary class="article-expander__title">IOSG Ventures：深入探讨New DeFi，释放数据的潜力</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188452">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Momir，IOSG Ventures
-智能合约具有局限性，因为它们缺乏与环境交互的能力，这限制了去中心化应用 (dApps) 的发展潜力。为了实现更多更复杂的功能，DeFi 协议有两个选择: 它们可以采用灵活的设计，比如玩家可以个性化处理各种场景；或者它们可以引入 external dependencies ——依赖于链下基础设施，如 oracle、keepers 或链下计算——以维持简单的用户体验。 
-在最近一篇发人深思的题为「为什么 DeFi 被破坏以及如何修复—第 1 部分:无 oracle 协议」的文章中，Dan Elitzer 主张使用零外部依赖的 DeFi 原语（primitives）来最小化攻击向量。这个想法是为了消除对第三方机构的信任需求。然而，一个零依赖的 DeFi 生态系统必将对专业化的要求更高。大多数用户缺乏时间、专业知识或资源，无法成为 Uniswap v3 上的做市商，也无法在没有 external dependencies 的情况下评估协议中的抵押品质量，他们不得不依赖于可信的中介机构参与。 
-因此，对零依赖的追求可能会让我们回到起点，或者更糟的是，迫使非专业用户信任复杂的实体或将资金存入过渡型智能合约，这会增加不安全因素。与其为完全消除外部依赖关系而奋斗，不如考虑更实用的方法，比如对 external dependencies 进行更严格的审查，并限制潜在的黑天鹅场景。我们必须认识到，某种程度的依赖是不可避免的，甚至对行业的发展至关重要。 
-在知名的 DeFi 项目中，Uniswap 的早期版本最接近于实现零依赖。然而，最近引入的 Uniswap v4 表明了一种转变趋势，通过高度模块化的方法 (「Hooks」）以推动此领域向前发展。
-数据原语
-关于外部依赖的讨论主要围绕智能合约与外部数据交互的能力展开。如今，数据交互通常依赖于预言…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188448"
-                        open
-                      >
-                        <summary class="article-expander__title">Base生态发展迅猛，有哪些值得关注的项目？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188448">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：AlEx Wacy
-原文编译：深潮 TechFlow
-
-Coinbase，一家市值 200 亿美元的加密巨头，拥有无与伦比的全球影响力。由它孵化的链——Base ，有望成为加密货币领域下一个重要事件的催化剂，目前，生态系统正在大规模快速扩张。让我们深入探讨一下：
-
-DackieSwap
-
-DackieSwap 是 Base 上首个原生 DEX，它最主要的特点是 StableSwap，这是 Curve Finance 协议的一个分叉，为用户提供最优化的交易路径。 DackieSwap 在过去 30 天内吸引了大量用户，流动资金达到 7.3 亿美元，成交量达到 4200 万美元。DackieSwap 旨在为用户提供无需注册和繁琐操作的交易体验。用户只需连接钱包，即可在几秒钟内无缝交易 Base 链上的任何代币。此外，DackieSwap 还致力于帮助用户通过加密货币获得被动收入，并通过 DackiePad（Launchpad）发现生态早期机会。
-MES Protocol
-
-MES （Multi-rollup Exchange Solutions）旨在创建一个跨 Rollup 互操作的交易所解决方案，实现 Rollup 之间的流动性流动、整合的代币交换订单簿以及网络间无缝资产转移。它的目标是提供一个真正的跨 Rollup 去中心化交易所（DEX），与其他在不同 Rollup 上部署的 DEX 有所区别。
-MES 提供了一个统一的订单簿，跨多个 Rollup 实现资产和数据交换的能力，使 L2 生态系统的用户能够享受到中心化交易所（CEX）的交易体验。用户既可以从以太坊 L1 获得安全性，又可以从 L2 Rollup 获得高吞吐量和低成本。
-MES 协议运行在 Rollup 上，Rollup 通过减少执行交易所需的计算量，将交易压缩，从而降低了消耗的 Gas。MES 利用…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188450"
-                        open
-                      >
-                        <summary class="article-expander__title">来，认识下众议院最力挺加密行业的立法人士Tom Emmer</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188450">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>长达三年的 Ripple 案终于告一大段落，XRP 应声而涨， 7 月 14 日， 24 H 涨幅超 65% ，币价一度冲高至 0.94 USDT，市值攀升至第四位，仅次于 BTC、ETH、USDT；随之而来的是各家交易所开放交易，Coinbase、Upbit、BitGo 等宣布上线 XRP 交易；交易所日均现货交易量在裁决后增加近 40 亿美元。
-除了 XRP，整个加密市场也一片喜气，BTC、ETH 破新高，分别站上 31550 USDT、 2000 USDT。
-这一切除了原生加密人士对美 SEC 不懈的抗击，也离不开“加密友好派”立法者中的力挺。今天，Odaily星球日报将介绍一位一直活跃在加密行业的男人，他就是推出了《证券明确性法案》（The Securities Clarity Act）、《SEC 稳定法案》（SEC Stability Act）、《区块链监管确定性法案》等法案的美国众议院多数党党鞭 Tom Emmer。
-据公开资料，Tom Emmer，生于 1961 年，分别获得政治学学士学位、法学博士学位，于 2015 年加入美国众议院，是众议院金融服务委员会的成员，也是众议院共和党指导委员会的成员，近日被选举为进入第 118 届国会的多数党党鞭。
-在 XRP 案结束之后，Tom Emmer 在社交媒体发文表示，“Ripple 案是一个具有里程碑意义的发展，它确立了代币与投资合同的独立和区别，无论代币是否是投资合同的一部分。现在，让我们使其成为法律。”
-Tom 提到的“使其成为法律”，是 5 月 18 日，和众议员 Darren Soto 宣布推出两党《证券明确性法案》（The Securities Clarity Act），该法案认为，现行证券法并未区分资产及其可能属于或不属于的证券合同。许多加密货币最初可能作为证券合约的一部分发行，但是，一旦项目完全开发和去中心化，代币可能会属于不同的类别，例如商品。
-如果不区分资产和证券合约，早期需要筹集资金发展的代币项目一旦去中心化就无法脱离证券框架，从而阻碍了这些代币的使用，这只会损害代币持有者的利益。
-《证券明确性法案》在现有证券法中引入新的关键术语「投资合约资产」，将使加密项目能够以合规的方式充分发挥其潜力，使美国能够在下一代互联网中参与全球竞争。这项立法对于确保国内创新蓬勃发展以及美国保持全球竞争力至关重要。
-在 Tom 眼里，SEC 对于加密货币采取的强监管行为，是在玩政治游戏。早在 2012 年 3 月 16 日，Tom 指控 SEC 滥用权力调查加密货币公司，并向 SEC 主席 Gary Gensler 发送一封美国两党对于加密货币监管提出质询的信函，要求 SEC 公开搜集标准流程，并确保这些调查工作不会违反《减少文书行政工作法》的规定，据了解该美国法律限制了联邦政府对于私营企业与民间施加的负担与调查权力。
-Coinbase 等机构一直在呼吁美国在监管立法方面的清晰，Tom 也一直致力于此，除了开头提到的《证券明确性法案》，在 2023 年 3 月 23 日，他和 Darren Soto 已向国会重新提出《区块链监管确定性法案》，该法案确保不托管消费者资金的区块链开发商、和非托管服务提供商（包括矿工、验证者和钱包提供商）不应被视为汇款服务商（money transmitters），不该与提供托管服务的加密货币交易所，受到相同等级的监管。
-据了解，区块链监管确定性法案最初于 2021 年 8 月 17 日提出，但并未进一步推进。
-6 月 6 日，SEC 在纽约联邦法院起诉加密货币交易所 Coinbase， 6 月 13 日，Tom Emmer 和众议员 Warren Davidson 提出了《SEC 稳定法案》（SEC Stability Act），该法案旨在罢免 Gensler 的 SEC 主席职务，并对 SEC 进行改革。
-“美国投资者和行业应该得到明确和一致的监督，而不是政治游戏。”Tom Emmer 在新闻稿中说。“《美国 SEC 稳定法案》将做出符合常识的改变，以确保美国 SEC 的优先级是他们有责任保护的投资者，而不是其鲁莽主席的心血来潮。”
-虽然加密市场的“监管清晰”进程道阻且长，但正是因为有了“Tom Emmer”们坚持不懈地支持，也许有朝一日，我们会迎来在监管上的春天，不再是长达几年的诉讼，不再是“被迫和解”，而是在合法监管下，加密货币蓬勃发展。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188451"
-                        open
-                      >
-                        <summary class="article-expander__title">一文详解Uniswap新推的跨AMM协议UniswapX</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188451">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>自 Uniswap 协议第一个版本于 2018 年推出以来，链上交易已呈爆炸式增长。 Uniswap 现已支持数百万用户、数百个用例和 1.5 万亿美元的交易量。
-为了发展链上交易并改善自托管 swap，Uniswap 宣布推出一种新的无需许可、开源 (GPL)、基于荷兰式拍卖的协议 UniswapX，用于跨 AMM 和其他流动性来源进行交易。
-
-目前，在 Uniswap Labs 界面上推出该协议的测试版选项，适用于以太坊主网，并将在未来扩展到其他链和 Uniswap 钱包。
-UniswapX 将逐步实现：
-
-聚合流动性来源以提高兑换价值
-
-防 MEV
-
-提供无 Gas 交易（swap）
-
-失败的交易无成本
-
-并将在几个月内扩展到支持跨链无 Gas 交易
-
-UniswapX：下一级聚合器
-链上路由（Onchain routing ）是一个日益重要和复杂的问题。链上交易的创新导致了流动性池的爆炸式增长。新的费用等级、新的 L2 和更多的链上协议会分散流动性。Uniswap 预计将在 Uniswap v4 版本上构建数千个定制池设计，这使得路由变得更具挑战性。但随着流动性来源的增长，继续提供有竞争力的价格需要手动集成以及大量的持续维护和工作。
-UniswapX，旨在通过将路由复杂性外包给开放的第三方构建者网络来解决这个问题，这些构建者则利用基于链上流动性（如 AMM 池或其自有库存）进行竞争来完成交换。
-借助 UniswapX，交易者将能够使用 Uniswap 界面，而不必担心自己是否获得最佳价格，并且交易将始终在链上透明地记录和结算。所有订单均由 Uniswap 智能订单路由支持，这迫使构建者与 Uniswap v1、v2、v3 以及一旦启动后的 v4 竞争。
-UniswapX 如何使用？
-
-无 Gas 交换——交易失败也无需支付任何费用
-通过 UniswapX，交易者签署一个独特的链下订单，然后由代表交易者支付 Gas 的构建者在链上提交该订单。因为交易者不需要支付 Gas，所以他们不需要链的本地网络代币（例如 ETH、MATIC）来进行交易或为失败的交易支付任何费用。构建者将 Gas 费计入掉期价格，但可以通过批量多个订单来竞争最佳价格来降低交易成本。
-在特定情况下，用户仍然需要支付 gas，例如 Permit 2 的初始代币批准。此外，原生网络代币在出售时需要打包，这会消耗 Gas 费用。
-MEV 保护
-MEV 是当今链上交换面临的最大问题之一，导致交易成本变高。
-借助 UniswapX，原本可以通过套利交易捕获的 MEV 会通过提高价格返还给交换者。UniswapX 还帮助用户避免更明确的 MEV 提取形式：使用构建者库存执行的订单不能夹在中间，并且在将订单路由到链上流动性场所时，构建者被激励使用私人交易中继。
-跨链
-预计将在今年晚些时候推出 UniswapX 的跨链版本，它将交换和桥接结合到一个无缝操作中。通过跨链 UniswapX，交易者将能够在几秒钟内在链之间进行交换。交易者还可以选择在目标链上接收哪些资产，而不是特定于桥的代币。
-启动 UniswapX
-UniswapX 是一种不可变的智能合约，完全无需许可。包括 Uniswap Labs 在内的任何人都无法修改或暂停合约。最早的构建者随时待命，以确保适当的拍卖起始价格和快速的订单执行，预计构建者网络将随着用户的采用而迅速扩大。目前，ABDK 对 UniswapX 代码进行了广泛的测试和审核，并且 Uniswap 提供了漏洞赏金。交换者始终保持其资金的自我托管。只有在订单执行并且他们收到交易收益后，资产才会从他们的账户中转出。
-就像 Uniswap 协议一样，UniswapX 包含一个协议费用开关，只能由 Uniswap 治理激活（Uniswap Labs 不参与该过程）。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5863,96 +5949,6 @@ BitMEX最终冻结了这些资金，但在去年8月法院作出裁决后，最�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/oi4o0nqi.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Crypto.com宣布上线XRP</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/oi4o0nqi.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 7月14日消息，Crypto.com宣布上线XRP，可使用美元、欧元、英镑等 20 多种法定货币交易。
-此前消息，Kraken Pro已在美国上线XRP交易，Gemini正探索上线XRP现货和衍生品交易。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/qr409t5f.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：BAYC#1734 以 600 ETH 成交</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qr409t5f.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 7月14日消息，Opensea数据显示，BAYC#1734 以 600 ETH 的价格成交，价值约 121 万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/spl5p01o.html"
-                        open
-                      >
-                        <summary class="article-expander__title">昨夜今晨重要资讯（7月13日-7月14日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/spl5p01o.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/07/14/images/sJyD8S88mc.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>1.法院裁定Ripple与SEC诉讼：通过订单簿销售的XRP并非证券，但机构销售之类的是证券
-2.美SEC回应Ripple案：对法院部分裁决感到满意，但仍将审核法院的决定
-3.Celsius与美国联邦贸易委员会达成47亿美元和解协议，但前CEO尚未同意和解
-4.Celsius：公司重组不受47亿美元和解协议的影响
-5.彭博分析师：富达对其比特币现货ETF申请提交了第二次修订
-6.SEC告知已收到Bitwise的比特币现货ETF申请，目前已正式开启审查流程
-7.圣路易斯联储主席布拉德辞职，将在美国普渡大学任职
-PANews APP积分——PT（葡萄）正式上线，立即下载，一起参与Read to Earn🍇
-PANews Telegram社群，立即加入
-PANews Telegram频道，立即订阅</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/9un0hsfv.html"
-                        open
-                      >
-                        <summary class="article-expander__title">XRP市值排名升至第4，24小时涨幅61.7%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9un0hsfv.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 7月14日消息，据CoinGecko数据显示，XRP市值排名升至第4位，当前总市值约为413亿美元，24小时涨幅61.7%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8518,8 +8514,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5587908851">
-        <time id="build-timestamp" datetime="2023-07-18T13:14:55.380Z">2023-07-18T13:14:55.380Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5588489352">
+        <time id="build-timestamp" datetime="2023-07-18T14:07:40.836Z">2023-07-18T14:07:40.836Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
