@@ -1674,26 +1674,6 @@
           "wordCount": 450,
           "title": "美SEC：批准Coinbase上市不是“护身符”，不代表该公司是否符合监管要求",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/0evw96wq.html",
-          "author": "PA一线",
-          "description": "PANews 7月15日消息，Fantom基金会推特发文称，对关于Multichain的最新消息深感失望。作为回应，团队已立即开始联系包括Circle（USDC）、Tether（USDT）和TrueUSD（TUSD）在内的稳定币发行商，以冻结Multichain钱包中的资产。团队已核实约有超过6000万美元的USDC和超过200万美元的USDT被冻结，并正在确定其他受影响的资产。Fantom基金会正积极与各种联系人和消息来源接触，以全面了解Multichain事件的相关情况。此外还成立了一个由Multichain在职员工组成的小组，以便更好地从他们的角度了解情况，并在力所能及的情况下提供支持。在接下来的几周内，基金会将进一步公布Opera链上的各种活动，以帮助社区和建设者继续前进。",
-          "link": "https://panewslab.com/zh/articledetails/0evw96wq.html",
-          "publishedOn": "2023-07-15T03:59:57.000Z",
-          "wordCount": 332,
-          "title": "Fantom基金会：已冻结Multichain钱包中6000万美元USDC和200万美元USDT",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/cd3mmuh9.html",
-          "author": "PA一线",
-          "description": "PANews 7月15日消息，据链上分析师余烬监测，4796万枚BLUR在5小时前解锁转出至Coinbase Prime。BLUR自6月15日进入解锁周期以来已累计解锁2.39亿枚BLUR，并在解锁后转入Coinbase Prime。2.39亿枚BLUR中有1.4亿枚BLUR在过去的一个月里陆续从Coinbase Prime转出至各CEX。",
-          "link": "https://panewslab.com/zh/articledetails/cd3mmuh9.html",
-          "publishedOn": "2023-07-15T03:32:44.000Z",
-          "wordCount": 353,
-          "title": "数据：5小时前4796万枚BLUR解锁转出至Coinbase Prime",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2727,16 +2707,6 @@
           "publishedOn": "2023-07-15T06:30:00.000Z",
           "wordCount": 1961,
           "title": "探索韩国加密文化：喜欢加密货币，但不喜欢DeFi?",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5188412",
-          "author": "星球君的朋友们",
-          "description": "原文作者：six0hfour，Typus 团队\n原文编译：Kyrie\n原文来源：Typus Finance\n\n本研究旨在探讨 Sui 的基于物件(objects)的程式设计模型，以及它如何活用各式各样的 NFT 结构，借此对 DeFi 的大规模应用做出贡献。\n\n我们之前撰写了一份报告，讲述为何我们认为若要定义和建立基于区块链的 DeFi 原生资产，Sui 会是最佳选择。 Sui 的基础设计捕捉了区块链上数位资产的本质，并使智能合约能够在其上运作，取代中间人的功能。\n链上与链下的差异\n在像 EVM 或 Solana 这样的区块链上，数位资产的状态(the state of digital assets)，或说 NFT，是存储在链下的。对于静态(static)的 NFT，这是一种可接受的模型，因为这些 NFT 不会被进行转移或进行任何状态更改。\n一个简单的类比是默克尔树，其中 NFT 是其叶子，而在区块链上发布的只是树的根。\n如果使用者经常创建新的 NFT，且创建后也不太关注他们，这种模型是有效的；他们不需要对其进行任何修改或转移。然而，如果需要对其中一个 NFT 字段进行转移或更新，这将变得更加昂贵且需要更长的交易哈希。由于只有树的根被发布在区块链上，每次更新都需要一个默克尔证明。即使是读取 NFT 也需要一个默克尔证明。\n\n最近由a16z crypto 发表的一篇论文《关于可撤销性证明系统的限制，对无状态区块链的影响》探讨了无状态区块链(stateless blockchain)的概念及其取舍。该概念源于对区块链范式的一个挑战，传统上每个验证者都需要存储整个系统的完整状态。这种要求引起了对中心化的担忧，因为随着状态变得越来越大，只有资金充足的组织才能负担得起存储费用。\n这引出了无状态区块链设计的概念，该概念建议验证者仅存储系统的一小部分全局状态（例如，仅存储默克尔树的根）。…",
-          "link": "https://www.odaily.news/post/5188412",
-          "publishedOn": "2023-07-15T04:00:00.000Z",
-          "wordCount": 3575,
-          "title": "Sui NFTs：带领DeFi走向大规模采用",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
