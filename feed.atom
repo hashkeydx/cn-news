@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-07-21T17:06:26.507Z</updated>
+    <updated>2023-07-21T18:09:53.764Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4087,67 +4087,6 @@ Etherscan   …]]></summary>
         <link href="https://panewslab.com/zh/articledetails/149uz39z.html"/>
         <updated>2023-07-17T06:10:44.000Z</updated>
         <summary type="html"><![CDATA[PANews 7月17日消息，币安公告称，Binance Launchpad 上的 Arkham (ARKM) 代币销售认购现已开放，并将持续 24 小时。认购完成后，币安将把 Arkham（ARKM）列入创新区，并将于北京时间 7 月 18 日 20:00 开通 ARKM/BTC、ARKM/USDT、ARKM/TUSD、ARKM/BNB、ARKM/TRY 交易市场。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：某巨鲸自6月24日起总计从币安转出约3070万美元的ETH并将其质押]]></title>
-        <id>https://panewslab.com/zh/articledetails/f2yjiyju.html</id>
-        <link href="https://panewslab.com/zh/articledetails/f2yjiyju.html"/>
-        <updated>2023-07-17T06:02:30.000Z</updated>
-        <summary type="html"><![CDATA[PANews 7月17日消息，据 Lookonchain 监测，自 6 月 24 日以来，某巨鲸每天都从 Binance 中提取 ETH 并质押。 目前从 Binance 中提取了总计 15,880 枚 ETH（价值约3070万美元)）。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFT即钱包的ERC-6551真有那么神奇吗？]]></title>
-        <id>https://www.odaily.news/post/5188419</id>
-        <link href="https://www.odaily.news/post/5188419"/>
-        <updated>2023-07-17T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ERC-6551 提案是一个全新 Token 标准，属于一种对原 NFT 标准的颠覆升级，就在六月底结束的 ETHGloble Waterloo 黑客松比赛中，入围决赛的 11 个项目中有 4 个都是基于 ERC-6551 协议的项目。
-一下子让人们关注到这样新协议的吸引力，并且该协议本身立意较高。
-ERC-6551 作为拓展却可以兼容以往绝大多数已经部署的 NFT 协议，而拓展后的 NFT 可以作为账号本身的定位实现 NFT 嵌套组合，并且 NFT 转移时等于全关联资产的转移，进一步被认为是最适合 on-chain 与 GameFi 场景的 NFT 拓展。
-1、NFT 即钱包并不是首次尝试
-ERC-6551 推出的这些钱包被称为 “Token 绑定账户”(Token Bound Accounts)，简称 TBA（即 NFT 持有者可以使用 TBA 发起链上操作），其灵感来源于 SBT，笔者在一年前有研究过 SBT 与类似的 A 3 S 协议。
-
-对于 A3S，用户使用的操作其实和目前 ERC-6551 的运作模式很相似。
-
-用户从智能合约地址工厂中铸造一个 Commander NFT，它就会自动部署相应的智能合约。
-
-智能合约的所有者指向相应的 NFT 持有者。
-
-合约可以接收任何类型的链上资产，并且只允许所有者发送资产，就是将这个智能合约将作为用户与任何区块链 dApp 交互的载体。
-
-对比优缺 ERC-6551 则是围绕 ERC 721 的拓展的定位，他不依赖于必须使用 A 3 S 制定的这一个 NFT，而是任意已经部署过的 NFT 比如 Azuki，无聊猿等都可以作为所有权的来源。
-拓展阅读：一种转移并在 Os 拍卖不可转移灵魂绑定代币的方法
-2、ERC-6551 是如何运作的？
-核心是注册与调用流程。
-
-
-对于运作机制的详细解读以及部署指南，以及 NFT 协议历史对协议拓展进行的尝试以及其发展脉络，完整的研报已经投稿至 Web 3 Caff 平台的 research 频道（头部付费研报平台，正在进行十四君粉丝联合活动，可使用"shisi"为推荐码延长 15 天会员期）。
- 阅读全文：《NFT 即钱包新标准 ERC-6551 研究报告：能否成为 NFT 的破局之道？全景式拆解其构成背景、实现机制、应用场景与优缺挑战》https://research.web3caff.com/zh/archives/9513
-3、如何评价 ERC-6551 ？
-3.1、优点源于 CA 的高度定制性
-由于其部署出来的本质是 CA 地址，除了无法签名，依赖 EOA 交易来驱动之外，属性（含 Nonce 后）与正常 EOA 地址别无二至，所以等于让 NFT 具有了和 EOA 账户一样的承载能力。便于批量化的转移，是直接转移账号本身的所有权，类似于交易 On-Chain 游戏中的账号本身但要注意，他底子依旧需要 EOA 交易来驱动，只是链上身份主体不是 EOA 中私钥所对应的地址，所以一些说法：“你的 NFT 可以独立地与 dApp 交互，而不必依赖持有它的钱包”。这是错误的。由于链上身份的定位，所以凡是和身份有关的角度都可以再次复现。
-3.2、缺点源于依赖应用层的必要性
-往往点评我会说，优势很明显，但局限性是 xx，然而面对 ERC 6551 其实是相反的，因为他的优势并不那么明显而局限性却很显著，因为“为什么必须是他”这点很难解释出来。对于链上 NFT 的可组合性，这本身不是 ERC-6551 的能力，而是作为 CA 钱包本身自带的基础功能，至于通过 ERC-6551 所增幅到的通过 NFT 来转移的这点，更多类似一种采用市场的方式来公平化账号转移的定价和执行上。
-所以问题的根源就会回到，凭什么 NFT 更会期望用如此的方式来实现组合？
-如果实在要有意义，那就只能说是，对于超大批量的 NFT 资产同时交易的 Gas 消耗很低，然而我想多数用户应该是只想卖点家具，而不是把整个房子打包卖完。即使是针对某个游戏方里的游戏 NFT 资产，游戏方也应该是并不希望玩家就此卖号走人，所以天然的对其支持有限。至于 SocialFi 的核心叙事 Web 3 社交与 ERC-6551 的结合这点也会有同样的问题，即社交本身不应该鼓励卖号本身，否则关注的岂非是个被人买卖的数据了。
-3.3、总结
-如今市场一瞬间被新标准所抓住眼球本质上是对目前贫瘠的 NFT 协议创新的悲观，现在的 NFT 缺乏实际价值映射未必是协议层的问题，而是应用层的问题。如今生成端产生的大量 NFT 需要被链上多元化的用户需求所消费掉，正如长期看 ETH 总是有价值，因为生态越繁荣会需要的手续费就越高，同理 NFT 本身也应该是某种消耗品，会逾期，会 Burn，可以融合产生更高净值的产物。
-点赞关注，十四用技术视角带给你价值]]></summary>
-        <author>
-            <name>十四君</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ripple总法律顾问：预计将在Q3与美国金融公司就使用ODL产品进行谈判]]></title>
-        <id>https://panewslab.com/zh/articledetails/tgy3hj9r.html</id>
-        <link href="https://panewslab.com/zh/articledetails/tgy3hj9r.html"/>
-        <updated>2023-07-17T05:54:13.000Z</updated>
-        <summary type="html"><![CDATA[PANews 7月17日消息，据CNBC报道，Ripple总法律顾问Stu Alderoty近日在接受采访时表示，Ripple 预计将在第三季度开始与美国金融公司就使用其ODL产品进行谈判，该产品使用XRP进行转账。Ripple 还在其业务中使用区块链在银行之间发送消息，有点像基于区块链的 Swift 替代方案。据悉，Ripple 在法官判定该公司在与 SEC 的斗争中取得部分胜利后，Ripple 相信美国银行将开始希望使用其 XRP 加密货币进行跨境交易。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
