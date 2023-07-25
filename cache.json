@@ -2120,6 +2120,26 @@
       "siteUrl": "https://www.odaily.news",
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5188565",
+          "author": "白泽研究院",
+          "description": "原文作者： 2 Lambro\n原文编译：白泽研究院\nTelegram Bot 赛道在近期爆火，Unibot 代币从 2 个月前的 2.46 美元暴涨至 143 美元，最大供应市值（总市值）在 30 天内从 3000 万美元增至 1.4 亿美元。\nbot 是否只是一个 meme？\nUnibot 是否能够证明其 1.4 亿美元的总市值要比市值更小的 DeFi 应用 Trader Joe ($JOE) 和 Kyber ($KNC) 更有价值？\n我没能早期抓住 $unibot 的机会，现在还能买入吗？\n什么是 Telegram Bot？\n简而言之，Telegram Bot 是在 Telegram 上提供各种 DeFi 交易工具的机器人，在输入你的钱包助记词后可为你执行某些指令，例如代币交换、跟单交易、分析、自动刷空投交易、资产跨链等等。\n$Unibot 以 1.4 亿美元的总市值成为 Telegram Bot 赛道的领导者，而除了 $WAGIEBOT 有 1200 万美元的总市值外，其他项目都低于 500 万美元。\n\n这些项目中的大多数都是通过 Telegram 或 Discord 提供各种功能，并与代币持有者分享收入，因此也可以被称为是“实际收益”（real yield）项目。\nUnibot 的收入（看起来很像 Safemoon 的模式）：\n• 1% 交易费\n• 销售代币时 5% 销售税\n\n在此译者简单整理了一下该赛道现有项目：\nDeFi 类\nUnibot（交易）、WagieBot（交易和追踪）、Boltbot（交易）、 0 x Sniper（交易）、NitroBot（交易）、Xbot（自定义交易）、ASAP（Discord 专用）、SwipeBot（$ETH、$ARB、$BSC 人工智能交易）、Bridge Bot（跨链）、AI DEV（AI 交易、代币发行）、All In（A…",
+          "link": "https://www.odaily.news/post/5188565",
+          "publishedOn": "2023-07-25T07:00:00.000Z",
+          "wordCount": 2036,
+          "title": "突然爆红后的Unibot和Telegram Bot赛道，还值得入手吗？",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5188593",
+          "author": "MataTrust Labs",
+          "description": "我们分析了 Worldcoin 代币$WLD 的智能合约0x163f8c2467924be0ae7b5347228cabf260318753，发现其存在一定的安全隐患，以下是关于代币$WLD 的相关风险详解。\n中心化方法\n\nmintOnce 函数\n\n该合约实现了一个中心化的铸币机制 mintOnce，允许 owner 调用此函数一次性地对多个地址进行批量铸币。经查证，该函数已经被当前的 owner 调用过。\n当前的 owner 是一个 1/1 多签钱包合约：0x59a0f98345f54bAB245A043488ECE7FCecD7B596，且只有一个合约拥有者 0 x c 534 a 745 bFfaF 9466 Ed 7 B 47 fA 23 B 0177 b 99 A 3 e 77 ，这意味着只需要一个签名就可代表 owner 进行特权操作。\n\n\nsetMinter 函数\n\n该合约还实现了 setMinter 函数，允许 owner 设置一个 minter 地址，不过目前 minter 是零地址。\n\nmintInflation 函数\n\n如果 owner 设置了一个非零 minter，该 minter 就可以随意调用 mintInflation 对任意地址无限量增发代币。\n\n代币分配\n经过统计，前 6 个地址已经持有了 94.5% 的总发行量，这说明代币分配非常集中。\n\n综上所述，$WLD 代币存在以下安全隐患:\n\nOwner 目前只有一个签名者，意味着只需要一个人的签名就可以代表 owner 对合约进行特权操作\n\n存在设置 minter 后无限增发代币的风险\n\n代币分配过于集中，前 6 个地址持有绝大部分代币\n\n为降低这些安全风险，我们建议:\n\n增加 owner 的签名者数量，实施多签管理\n\n约束合约拥有者任意设置 minter，防止无限增发\n\n采取锁仓或者持续释放等措施，降低代币分配的集中度\n\n安全是区块链生态健康发展的基石，我们会继续关注项目安全，及时进行安全风险提示，共同维护链上资产安全。",
+          "link": "https://www.odaily.news/post/5188593",
+          "publishedOn": "2023-07-25T06:29:47.000Z",
+          "wordCount": 1640,
+          "title": "被疯狂FOMO的Worldcoin代币，多签合约Owner竟只有一人？",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
           "id": "https://www.odaily.news/post/5188590",
           "author": "SignalPlus",
           "description": "昨天是 PMI 数据日，首先英国 7 月制造业 PMI 指数结果为 45 ，随后德国公布制造业 PMI 指数为 38.8 ，低于预期的 41 ，且创近 40 个月新低，这些数据结果仍显示出制造业在利率上升和供应链挑战的重压下苦苦挣扎的长期趋势，不过服务业 PMI 则因消费力度展现韧性而持续较强劲的表现。\n\n在美国方面， 7 月 S&P 制造业 PMI 表现稍好，上升 2.7 点至 49 ，而服务业 PMI 初值则略微下降至 52.4 ，但仍处于扩张区间；然而，伴随著较佳 PMI 指数出现的是不乐见的价格反弹，投入价格从上个月的 47.2 反弹至 50.6 ，且评论称“销售价格指数的调查结果出现了一个令人担忧的信号，通胀在短期内可能难以进一步降至 3% 以下”。\n\n谈到价格压力，有消息称 Exxon 旗下一家炼油厂因催化裂化装置发生故障将停产 3-4 周，汽油期货价格因此飙升，而供应紧张正好出现在 OPEC+ 已经开始减产之际，导致原油价格上涨至 5 月份以来的高点，并突破 200 日移动平均线。\n\n即使在最近几次疲软的 CPI 发布后通胀预期已大幅放缓，但汽油价格的上涨并没有被市场忽视，在经历了长期停滞后，市场对抗通胀债券 (inflation protected securities, TIPS) 的需求已连续两天大幅上涨。\n\n就在本周即将举行的美联储/欧洲央行/日本央行会议之前，中国领导层刚结束了中央政治局会议，为 2023 下半年设定政策基调。与之前的预期不同，官员们承认当前经济运行面临“新的困难挑战”，并誓言将在当前政策空间内稳步推进刺激措施；会议也指出要“适时调整优化房地产政策”，并在维持货币稳定的同时“活跃资本市场”，最后，党呼吁“制定实施一揽子化债方案，以有效防范化解地方债务风险”，显示对地方政府风险持续打击的软化姿态。\n有趣的是，由于对会议的预期非常低，恒生指数初步表现疲弱，期货当日下跌近 2% ，直至纽约开盘时才出现延迟反应，从谷底反弹至 4% ；虽然反弹的时机令人怀疑，且仍然缺乏经济刺激措施的细节，但考虑到香港和中国股市的持仓量都相对不足，市场有机会在短期内受预期驱动出现轧空行情，进一步推高价格，预计未来几天或几周内 A 股和恒生指数的价格走势将较为震荡。\n\n在加密货币方面，随著监管和 ETF 申请的热潮持续消退，且市场内部不稳定，价格继续缓慢下跌，不过 SEC-Ripple 的裁决衍生出一个有趣的发展，近期 Altcoins 在交易量方面的主导地位有所增加，因为相较于宏观叙事，交易员现在更关注“证券代币”的监管影响，特别是从证券分类的分歧（散户 vs 机构）中潜在的受益者（或输家）。\n\n此外，即使是非专业人士也难以忽视 DOGE 的卓越表现，其价格在过去 24 小时内上涨了 6.5% ，而 Bitcoin 则是下跌了 3% ，Elon Musk 突然宣布，Twitter 及其深受喜爱的“小鸟标志”将退役，取而代之的是新的名称“X”，这引发了市场的疯狂臆测，认为 Elon 最喜欢的宠物代币终于将以某种形式与新的平台品牌整合。\n最后，Sam Altman（因 OpenAI 出名）的 WorldCoin 代币昨天上线，交易首日从开盘价 0.15 美元飙升至最高 5.29 美元，Musk 与 Altman 之间多年来的 AI 竞争已广为人知，而随著他们逐渐揭露其最新项目的更多细节，市场也高度期待他们是否会在加密货币领域继续展开竞争。\n\n\n您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。\nSignalPlus Official Website：https://www.signalplus.com",

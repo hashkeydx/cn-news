@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-07-25T07:07:15.585Z</updated>
+    <updated>2023-07-25T08:09:58.770Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[突然爆红后的Unibot和Telegram Bot赛道，还值得入手吗？]]></title>
+        <id>https://www.odaily.news/post/5188565</id>
+        <link href="https://www.odaily.news/post/5188565"/>
+        <updated>2023-07-25T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者： 2 Lambro
+原文编译：白泽研究院
+Telegram Bot 赛道在近期爆火，Unibot 代币从 2 个月前的 2.46 美元暴涨至 143 美元，最大供应市值（总市值）在 30 天内从 3000 万美元增至 1.4 亿美元。
+bot 是否只是一个 meme？
+Unibot 是否能够证明其 1.4 亿美元的总市值要比市值更小的 DeFi 应用 Trader Joe ($JOE) 和 Kyber ($KNC) 更有价值？
+我没能早期抓住 $unibot 的机会，现在还能买入吗？
+什么是 Telegram Bot？
+简而言之，Telegram Bot 是在 Telegram 上提供各种 DeFi 交易工具的机器人，在输入你的钱包助记词后可为你执行某些指令，例如代币交换、跟单交易、分析、自动刷空投交易、资产跨链等等。
+$Unibot 以 1.4 亿美元的总市值成为 Telegram Bot 赛道的领导者，而除了 $WAGIEBOT 有 1200 万美元的总市值外，其他项目都低于 500 万美元。
+
+这些项目中的大多数都是通过 Telegram 或 Discord 提供各种功能，并与代币持有者分享收入，因此也可以被称为是“实际收益”（real yield）项目。
+Unibot 的收入（看起来很像 Safemoon 的模式）：
+• 1% 交易费
+• 销售代币时 5% 销售税
+
+在此译者简单整理了一下该赛道现有项目：
+DeFi 类
+Unibot（交易）、WagieBot（交易和追踪）、Boltbot（交易）、 0 x Sniper（交易）、NitroBot（交易）、Xbot（自定义交易）、ASAP（Discord 专用）、SwipeBot（$ETH、$ARB、$BSC 人工智能交易）、Bridge Bot（跨链）、AI DEV（AI 交易、代币发行）、All In（A…]]></summary>
+        <author>
+            <name>白泽研究院</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[被疯狂FOMO的Worldcoin代币，多签合约Owner竟只有一人？]]></title>
+        <id>https://www.odaily.news/post/5188593</id>
+        <link href="https://www.odaily.news/post/5188593"/>
+        <updated>2023-07-25T06:29:47.000Z</updated>
+        <summary type="html"><![CDATA[我们分析了 Worldcoin 代币$WLD 的智能合约0x163f8c2467924be0ae7b5347228cabf260318753，发现其存在一定的安全隐患，以下是关于代币$WLD 的相关风险详解。
+中心化方法
+
+mintOnce 函数
+
+该合约实现了一个中心化的铸币机制 mintOnce，允许 owner 调用此函数一次性地对多个地址进行批量铸币。经查证，该函数已经被当前的 owner 调用过。
+当前的 owner 是一个 1/1 多签钱包合约：0x59a0f98345f54bAB245A043488ECE7FCecD7B596，且只有一个合约拥有者 0 x c 534 a 745 bFfaF 9466 Ed 7 B 47 fA 23 B 0177 b 99 A 3 e 77 ，这意味着只需要一个签名就可代表 owner 进行特权操作。
+
+
+setMinter 函数
+
+该合约还实现了 setMinter 函数，允许 owner 设置一个 minter 地址，不过目前 minter 是零地址。
+
+mintInflation 函数
+
+如果 owner 设置了一个非零 minter，该 minter 就可以随意调用 mintInflation 对任意地址无限量增发代币。
+
+代币分配
+经过统计，前 6 个地址已经持有了 94.5% 的总发行量，这说明代币分配非常集中。
+
+综上所述，$WLD 代币存在以下安全隐患:
+
+Owner 目前只有一个签名者，意味着只需要一个人的签名就可以代表 owner 对合约进行特权操作
+
+存在设置 minter 后无限增发代币的风险
+
+代币分配过于集中，前 6 个地址持有绝大部分代币
+
+为降低这些安全风险，我们建议:
+
+增加 owner 的签名者数量，实施多签管理
+
+约束合约拥有者任意设置 minter，防止无限增发
+
+采取锁仓或者持续释放等措施，降低代币分配的集中度
+
+安全是区块链生态健康发展的基石，我们会继续关注项目安全，及时进行安全风险提示，共同维护链上资产安全。]]></summary>
+        <author>
+            <name>MataTrust Labs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美共和党议员呼吁禁止CBDC并将其定为犯罪]]></title>
         <id>https://panewslab.com/zh/articledetails/64c0r6ti.html</id>
