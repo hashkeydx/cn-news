@@ -51,11 +51,142 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-25 datetime="2023-07-25T00:29:50.000Z">2023-07-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-25 datetime="2023-07-25T00:29:50.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-25 datetime="2023-07-25T02:49:10.000Z">2023-07-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-25 datetime="2023-07-25T02:49:10.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188584"
+                        open
+                      >
+                        <summary class="article-expander__title">IOSG Ventures：详解链上游戏技术栈，如何同步游戏状态？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188584">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Fiona，IOSG Ventures
+感谢@BriefKandle Creator of @netherscape_xyz, @stokasz CEO@rhascau @mintersworld,@0x curio team, @SebastienGllmt cofounder@PaimaStudios, @hiCaptainZ, and @SerenaTaN 5 提供的帮助和宝贵意见！
+TL;DR
+
+全链游戏 / 自治世界（「FOG/AW」）是围绕 Web 3 的少数重要叙事之一。相比于只通过 NFT 连接到 Web3 的 Web2.5 应用不同，FOG/AW 将游戏逻辑也放在了链上。它利用区块链作为游戏服务器，成为游戏状态的去中心化信任源。这带来了持久性、抗审查、可组合性等优点，但也限制了构建在其之上的游戏多样性和复杂性。
+
+随着游戏复杂性和可玩性要求的提高，对引擎架构提出了更多的挑战要求：比如帧数延迟、随机数、生命值恢复、连续的被动效果、计时器等等。其中时间的概念以及 Ticks 单位在区块链上是不一样的。Mud 提供了不少思路来模拟时间流逝以及被动恢复技能。比如，当玩家在房间中移动时，交易中附带根据一些预定义的设计移动房间中的所有物品。以此感知时间和状态的变化。
+
+FOG/AW 技术栈可被抽象为：开发者为 ui/ux 和游戏核心逻辑编写前端和后端代码，然后通过游戏状态的循环来同步所有的变化，最后由索引器将新的状态反映到前端的本地设备上。
+
+由于许多游戏类型，如 RTS，需要高的 tickrates，而由共识产生的区块链只能处理区块时间的变化，tickrate 是这里要解决的一个大问题。Curio 和 Argus 是这方面的领先者，他们正在摸索链的层面上增加游戏 tickrate。Mud 在试图最大程度实现全链上，整个应用程序状态都保存在 EVM 中。并没…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188583"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik谈Worldcoin：生物人格证明将如何重塑世界？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188583">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文标题：What do I think about biometric proof of personhood?
+原文作者：Vitalik
+原文编译：倩雯，bayemon.eth，ChainCatcher
+特别感谢 Worldcoin 团队、Proof of Humanity 社区和 Andrew Miller 的讨论。
+以太坊社区的人们一直在努力构建一个去中心化的人格证明解决方案，这是一个比较棘手但可能是最有价值的小工具之一。人格证明（Proof of personhood），又称唯一人问题，是一种有限的真实世界身份形式，它断言一个给定的注册账户是由一个真实的人控制的（而且是一个与其他注册账户不同的真实的人），理想情况下可以不透露它是哪个真实的人。
+在解决这一问题方面，已经有一些尝试：例如，人格证明、BrightID、Idena 和 Circles。它们中的一些都有自己的应用程序（通常是 UBI 代币），还有一些在 GitcoinPassport 中被用来验证哪些账户在四元投票中是有效的。像 Sismo 这样的零知识技术为许多此类解决方案增添了隐私性。最近，我们看到了一个规模更大、更雄心勃勃的身份证明项目的崛起：世界币（Worldcoin）。
+Worldcoin 由 SamAltman 共同创建，他因担任 OpenAI 的首席执行官而闻名。这个项目背后的理念很简单：人工智能将为人类创造大量的财富，但也可能会让很多人失业。让人们几乎无法分辨谁是人类而不是机器人，因此我们需要通过以下方式来堵住这个漏洞：
+（i）创建一个非常好的身份证明系统，这样人类就可以证明自己确实是人类；
+（ii）给每个人提供无息贷款。
+Worldcoin 的独特之处在于，它依赖于高度复杂的生物识别技术，使用一种名为 Orb 的专用硬件扫描每个用户的虹膜：他们的目标是生产大量的 Orb，并在世界各地广泛分…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188581"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | Worldcoin正式上线；推特官方账号已将头像更换为X Logo（7月25日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188581">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>头条
+Worldcoin 正式上线，将向参与测试版合格用户铸造并发放 WLD
+Odaily星球日报讯 Worldcoin 基金会子公司 World Assets 将向参与测试版的百万名合格用户铸造并发放 Worldcoin 代币 WLD，现可在链上交易。同时，Tools For Humanity 推出 World App 新版本，这是首个与协议兼容的钱包，目前在法律允许的情况下，个人可以通过该钱包存储 WLD。
+Worldcoin 承诺通过在全球 20 个国家的超过 35 个城市部署 orb 来加快注册速度，通过 ORB 验证的人最初将获得 25 个 WLD 代币，以后还会定期获得奖励。
+Worldcoin 发布代币经济学，总流通量 1.43 亿， 75% 分配给社区
+Odaily星球日报讯 Worldcoin 发布代币经济学， 75% 分配给社区、 9.8% 团队、 13.5% TFH 投资者、 1.7% TFH 储备。
+初始流通量为 1.43 亿，其中 1 亿贷款给做市商，发布前共分配了超 4300 万个 WLD 代币。通胀为每年 1.5% ，预计会在 15 年后开始。
+4300 万枚代币中，各地区分发比例如下：亚洲 32.1% 、非洲 31.6% 、拉美 18.8% 、欧洲 17.1% ，其余地区 0.1% 。
+据悉，Worldcoin 项目的预启动阶段为 2021 年 5 月至 2023 年 7 月。在此期间，超过 200 万人在 30 多个不同国家/地区的 Orb 上验证了其 World ID。Worldcoin 在启动时全面推出 1500 个 Orb，以满足全球对 World ID 的需求。
+推特官方账号已将头像更换为 X Logo
+Odaily星球日报讯 根据推特官方账号界面显示，该账号已将头像更换为 X Logo。Musk 个人推特账号头像也已修改为 X L…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188580"
+                        open
+                      >
+                        <summary class="article-expander__title">华尔街巨头蓄势待发，瞄准加密资产托管业务</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188580">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文来自彭博社，原文作者：Emily Nicolle &amp; Anna Irrera
+为了“争夺”向市值超万亿美元的数字资产市场提供托管服务的这块蛋糕，华尔街巨头们之间的战斗正悄然白热化——进而导致这一通常被认为没太多关注度的金融业务摇身一变，成了近期最活跃的领域之一。
+实际上从表面上看，加密托管领域似乎遇到了不少阻碍。例如，纳斯达克（Nasdaq Inc.）上周表示，将暂停推出自己的加密资产托管服务计划，给出的理由是缺乏商业机会和不确定的监管环境。此外，花旗集团（Citigroup Inc.）正在评估与瑞士数字资产托管软件提供商 Metaco Inc.的合作关系，后者已被另一家加密货币公司收购，而道富银行（State Street）则取消了与伦敦 Copper Technologies 的交易。
+然而与此同时，该领域也取得了引人注目的进展，包括法国兴业银行（Societe Generale）获得了法国市场监管机构的许可，允许其提供存储和保管数字资产的服务，以及英国资产管理公司施罗德（Schroders）正在寻找加密货币托管方等。
+去年 FTX 和其他加密货币平台的接连倒闭，导致在这些平台存储加密货币的交易者损失惨重。这些接二连三的事件也让投资者对第三方托管的需求激增，同时越来越多的银行和机构也从中看到了赚钱机会。
+伦敦加密货币基金 Nickel Digital Asset Management 首席执行官 Anatoly Crachilov 表示：“从第一天起，获得托管权对于数字资产投资者而言一直是最重要的事情，但在去年的多次失败后，投资者的风险承受能力发生了变化。”
+“不幸的是，许多投资者直到 FTX 事件发生才意识到，托管和匹配引擎等核心功能的分离方能为投资者提供关键的保护，并有助于该领域的发展。”Crachilov 说道。
+时机未到？
+虽然这种认知为传统金融公司在托管业…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +198,219 @@
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/35q59p01.html"
+                        open
+                      >
+                        <summary class="article-expander__title">马斯克回应Twitter更名：Twitter名字已无意义，将增加全面的沟通和管理金融的能力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/35q59p01.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月25日消息，马斯克发文回应Twitter更名，表示 Twitter 被 X Corp 收购，既是为了确保言论自由，也是为了推动 X 的一切应用程序。这并不是简单的公司更名，而是（X 生态）在做同样的事情。 Twitter 的名字在当时只有 140 个字符的信息来回传递时很有意义，就像鸟儿鸣叫一样，但现在你几乎可以发布任何内容，包括几个小时的视频。 在接下来的几个月中，X 将增加全面的沟通和管理用户整个金融世界的能力。 Twitter 的名字在这种情况下没有任何意义，所以必须告别这个名字。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/23g5a6zo.html"
+                        open
+                      >
+                        <summary class="article-expander__title">CoinList：已关闭骗局代币销售网站，正与Twitter官方合作，以重新获得Twitter账户控制权</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/23g5a6zo.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月25日消息，CoinList已经关闭了骗局代币销售的恶意网站，安全团队正在积极调查，并与所有相关方合作，包括与Twitter的支持人员合作，以重新获得CoinList Twitter账户的控制权。CoinList将在修复过程完成后立即通知社区，目前CoinList仍然控制着所有其他官方社交媒体渠道。
+此前7月23日消息，CoinList推特账号被盗。此前CoinList推特发文称将推出原生代币，随后Neon EVM推特发文称CoinList账号被盗，并提醒用户不要点击任何链接。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/kttv2fpc.html"
+                        open
+                      >
+                        <summary class="article-expander__title">“链上侦探”ZachXBT发文质疑Worldcoin：一直在剥削发展中国家人民</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/kttv2fpc.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月25日讯，“链上侦探”ZachXBT在社交媒体发文质疑Worldcoin，他表示该项目团队一直在吹嘘用户量，但其实一直在剥削发展中国家的人民。此外，Worldcoin目前似乎仅在注册级别强制执行验证用户是否为真人，结果导致出现账户黑市，相比之下Telegram上每个帐户费用只有1美元。另据Coindesk披露，WorldCoin将分配给内部人员和投资者的代币比例从20%增加到25%，然而WorldCoin在早期项目视频曾声称“WLD会比BTC更好，因为BTC只掌握在极少数富人手中”。ZachXBT表示，上述问题让他反对Worldcoin项目，但WLD叙事可能会因为代币表现而改变，毕竟“价格上涨&#x3D;好项目，价格下跌&#x3D;反乌托邦噩梦”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/vptg35bg.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Arkham Intel Exchange批准悬赏5000美元，以获取Do Kwon和Terra钱包信息</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/vptg35bg.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月25日消息，据 Cointelegraph 报道，Arkham Intel Exchange 批准悬赏 5000 美元，以获取 Do Kwon 和 Terra 钱包的信息。在 7 月 24 日的公告中，Arkham Intel Exchange 表示，它已接受两名“链上侦探”提交的申请，最终支付了 9,519.2625 枚ARKM（约 5000 美元）的赏金。一位匿名用户和 Ergo（一位自称与 OXT Research 合作的“荣誉会计师”）向该平台发送了 Kwon 和 Terra 拥有的“钱包证据”。Ergo 表示，这一信息可能与 Terra 的公开声明相矛盾，该声明仅持有一个 Luna Foundation Guard 钱包，据报道，其中有 313 个比特币。这些信息将在 Arkham 获得批准后 90 天向公众发布。这表明有关 Kwon 和 Terra 钱包地址的所有信息可能会在 10 月底公开。
+此前消息，加密货币数据平台 Arkham 宣布推出链上情报交易平台 Arkham Intel Exchange，用户可通过智能合约匿名买卖任何区块链钱包地址所有者的信息：买家通过悬赏向社区索取情报，赏金猎人通过提交所要求的情报来获得奖励。此外，任何拥有钱包或其所有者的有价值信息的人都可以将这些信息以立即购买或通过拍卖的方式出售给其他用户。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/pdju9nbh.html"
+                        open
+                      >
+                        <summary class="article-expander__title">慢雾：Apple Store出现恶意钓鱼程序，可模仿正常应用程序盗取账号密码</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/pdju9nbh.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月25日消息，慢雾首席信息安全官 23pds 在推特发文表示，Apple store 出现恶意钓鱼程序，通过模仿正常应用程序盗取用户账号和密码，然后攻击者把自己的号码加入双重认证的信任号码，控制账号权限，用来绕过苹果的 2FA。23pds 提醒加密货币用户务必注意，因为目前有不少用户、钱包的备份方案是iCloud 备份，一旦被攻击，可能造成资产损失。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/y976nqgc.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Twitter更改为X或将导致数十亿美元的品牌价值缩水</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/y976nqgc.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月25日消息，据彭博社报道，马斯克下令将 Twitter 的产品名称更改为“X”，并取消蓝鸟标志和所有相关词语，包括“tweet”。据分析师和品牌机构称，马斯克的举动使公司价值损失了 40 亿至 200 亿美元。
+Siegel &amp; Gale 品牌传播总监 Steve Susi 表示：“我们花了 15 年多的时间才在全球范围内赢得了如此多的追捧，因此失去 Twitter 这一品牌名称将带来重大的财务打击。”分析师和品牌机构称该产品的重命名是一个错误。品牌机构 Fazer 创始人 Todd Irwin 表示，Twitter 是最知名的社交媒体品牌之一。鸟类贴花与 Instagram 和 Facebook 徽标一起装饰着世界各地的小型企业和网站。Insider Intelligence 分析师Jasmine Enberg表示：“Twitter 的企业品牌已经与马斯克的个人品牌紧密相连，无论有没有 X 这个名字，Twitter 的大部分既定品牌资产已经在用户和广告商中流失。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/3hqf32k9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">昨夜今晨重要资讯（7月24日-7月25日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3hqf32k9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/07/25/images/mJ5c96Q9ol.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>1.Worldcoin在Zora发布NFT收藏品，以纪念代币发行
+2.SBF已同意禁言令，将被禁止与媒体讨论可能干扰审判的事宜
+3.Connext推出代币标准xERC20，以降低流动性成本及提高桥接代币安全性
+4.币安和CZ向法院申请扩大法律备忘录页数限制，以发起动议驳回CFTC起诉
+5.Alchemy Pay宣布集成由SPACE ID提供支持的Web3域名服务
+6.普京正式签署在俄罗斯引入数字卢布的法律，新立法将于8月1日生效
+7.原Midas Investments创始人推出新的DeFi投资平台Locus Finance
+PANews APP积分——PT（葡萄）正式上线，立即下载，一起参与Read to Earn🍇
+PANews Telegram社群，立即加入
+PANews Telegram频道，立即订阅</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/bqwsb66b.html"
+                        open
+                      >
+                        <summary class="article-expander__title">BAYC与SaaSy Labs合作推出链上许可申请平台Made by Apes，可验证和区分BAYC和MAYC是否为正品</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/bqwsb66b.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月25日消息，Bored Ape Yacht Club 宣布与 SaaSy Labs 合作推出链上许可申请平台 Made by Apes，会员可申请唯一链上许可、注册业务或产品（比如服装、食品、游戏、音乐等），该平台还可用于验证和区分 BAYC 和 MAYC 持有者的正品产品。目前已与 Ape Beverage、Applied Primate、Artin Motion、Bored Media Group 等合作，未来将推出更多社区产品。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/hx3u4xtw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ETF发行商Global X向美SEC申请比特币趋势策略ETF</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/hx3u4xtw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月25日消息，据Blockworks.报道，总部位于纽约的交易所交易基金 (ETF) 发行商 Global X 向美国证券交易委员会（SEC）提交比特币趋势策略 ETF 申请，作为比特币期货 ETF 的不同版本，将跟踪 CoinDesk 比特币趋势指标指数，该指数“系统地和动态地”在比特币期货合约和 Global X 1-3 个月国库 ETF (CLIP) 之间进行分配。CoinDesk 在四月份创建了比特币趋势指标（BTI），旨在衡量比特币价格的方向动力和强度。相关指数尚未公开。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/1pihle5s.html"
+                        open
+                      >
+                        <summary class="article-expander__title">币安和CZ向法院申请扩大法律备忘录页数限制，以发起动议驳回CFTC起诉</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/1pihle5s.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月25日消息，据法庭文件显示，币安与赵长鹏（CZ）向美国伊利诺伊州北区地方法院提出许可申请，计划提交法律备忘录，以发起动议驳回美国商品期货交易委员会（CFTC）的起诉。被告（币安与赵长鹏）恳请将法律备忘录15页页数的限制扩大至50页，该动议与CFTC律师进行协商，CFTC的律师声明CFTC不反对该请求，因此希望法院能批准该申请。
+此前消息，今年3月，美国商品期货交易委员会（CFTC）指控币安向美国交易员提供未经注册的期货和期权合约。CFTC将寻求对币安实施永久性的交易和注册禁令。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -201,48 +545,6 @@
                             <span class="media-object__text">
                               <span>PANews 7月24日消息，加密货币支付服务提供商 Alchemy Pay 宣布集成了由 SPACE ID 提供支持的 Web3 域名服务，使用户能够在 Alchemy Pay 的入口服务上使用本地法定货币购买加密货币时利用个性化域名。购买的数字货币将被转移到与SPACE ID域链接的以.bnb和.arb结尾的钱包地址。此外，Alchemy Pay 已成为 SPACE ID 资助计划的合格合作伙伴。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188580"
-                        open
-                      >
-                        <summary class="article-expander__title">华尔街巨头蓄势待发，瞄准加密资产托管业务</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188580">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本文来自彭博社，原文作者：Emily Nicolle &amp; Anna Irrera
-为了“争夺”向市值超万亿美元的数字资产市场提供托管服务的这块蛋糕，华尔街巨头们之间的战斗正悄然白热化——进而导致这一通常被认为没太多关注度的金融业务摇身一变，成了近期最活跃的领域之一。
-实际上从表面上看，加密托管领域似乎遇到了不少阻碍。例如，纳斯达克（Nasdaq Inc.）上周表示，将暂停推出自己的加密资产托管服务计划，给出的理由是缺乏商业机会和不确定的监管环境。此外，花旗集团（Citigroup Inc.）正在评估与瑞士数字资产托管软件提供商 Metaco Inc.的合作关系，后者已被另一家加密货币公司收购，而道富银行（State Street）则取消了与伦敦 Copper Technologies 的交易。
-然而与此同时，该领域也取得了引人注目的进展，包括法国兴业银行（Societe Generale）获得了法国市场监管机构的许可，允许其提供存储和保管数字资产的服务，以及英国资产管理公司施罗德（Schroders）正在寻找加密货币托管方等。
-去年 FTX 和其他加密货币平台的接连倒闭，导致在这些平台存储加密货币的交易者损失惨重。这些接二连三的事件也让投资者对第三方托管的需求激增，同时越来越多的银行和机构也从中看到了赚钱机会。
-伦敦加密货币基金 Nickel Digital Asset Management 首席执行官 Anatoly Crachilov 表示：“从第一天起，获得托管权对于数字资产投资者而言一直是最重要的事情，但在去年的多次失败后，投资者的风险承受能力发生了变化。”
-“不幸的是，许多投资者直到 FTX 事件发生才意识到，托管和匹配引擎等核心功能的分离方能为投资者提供关键的保护，并有助于该领域的发展。”Crachilov 说道。
-时机未到？
-虽然这种认知为传统金融公司在托管业…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6881,8 +7183,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5651853463">
-        <time id="build-timestamp" datetime="2023-07-25T02:14:07.296Z">2023-07-25T02:14:07.296Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5652197303">
+        <time id="build-timestamp" datetime="2023-07-25T03:07:54.926Z">2023-07-25T03:07:54.926Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
