@@ -51,11 +51,215 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-26 datetime="2023-07-26T03:15:49.000Z">2023-07-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-26 datetime="2023-07-26T03:15:49.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-26 datetime="2023-07-26T03:37:44.000Z">2023-07-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-26 datetime="2023-07-26T03:37:44.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188609"
+                        open
+                      >
+                        <summary class="article-expander__title">Paradigm的头号焦点，「intent-centric」究竟是什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188609">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>7 月 25 日晚间，顶级 Crypto 风投机构 Paradigm 于官网发布了一篇文章《Collaborate with Paradigm》。
+文中，Paradigm 介绍了该机构当前在 Crypto 领域着重关注的十个潜在趋势，其中第一项为“以意图为中心的（intent-centric）的协议及基础设施”。
+
+提及 intent-centric，部分读者或许仍对该概念有些陌生，但事实上在过去一周的 EthCC 及其周边活动上，该概念已引发了广泛讨论，甚至有声音直呼“这就是 Web 3 的未来”。
+在 7 月 23 日闭幕的 ETHGlobal Paris 主题黑客松上，一家名为 Bob the Solver 的项目凭借着对 intent-centric 的具象开发入选了最终的决赛名单，我们正好可以借该项目简单一窥所谓的 intent-centric 究竟指的是什么。
+
+Bob the Solver 的创意源自于账户抽象领域的新兴范式转变，其核心焦点在于不关注精确的“交易”流程，而是关注用户的最终“意图”。
+在该项目的叙事逻辑下，&quot;意图&quot;代表了用户所期望的结果，而&quot;交易&quot;则包含了实现该结果所需的精确步骤。举个例子，某用户计划在 Polygon 网络上购买一个 NFT，这就是他的“意图”，很简单也很好理解，但是所对应的“交易”则可能涉及换币、跨链、购买等一系列复杂且耗时的链上操作，对于区块链相关的知识素养有一定要求。
+在 Bob the Solver 看来，通常情况下用户其实只有“意图”需求，而没有对“交易”的精确细节需求，所以该项目可以接受用户的“意图”，自动制定适当的交易，并代表用户执行它们。最终，Bob the Solver 希望借此简化链上交互的全过程，从而让更多对区块链不甚了解的用户可以参与到 Web 3 的浪潮中来。
+无独有偶，刚刚完成 2500 万美元融资的 Anoma 也在 EthCC 上围绕着 intent-centric 频频发声。该项目的两位联合创始人 Arian Brink 和 Christopher Goes 均曾演讲分享过关于 intent-centric 的发展状况。
+
+Odaily 星球日报注：Christopher Goes 围绕 intent-centric rollups 的演讲。
+与 Bob the Solver 类似，Arian Brink 在分享中表示 Anoma 支持以“意图”为中心的架构规范，在此架构中用户需要发起的是“意图”而非“交易”。具体来说，用户只需要指定其想要实现进行的状态改变，而无需担心具体的执行。
+
+在 Anoma 看来，“意图”可定制，其内容也可以很复杂，因此可实现更好的用户需求表达，并最终发散出全新的应用可能性。
+除了 Bob the Solver 和 Anoma 之外，当前市面上也有着其他一些项目正在围绕着 intent-centric 进行开发，比如 7 月 18 日刚刚亮相的 Essential。
+Essential 的主要关注点在于削减“交易”流程中的一些压榨行为（比如 MEV），从而为用户返还最理想的“意图”结果。
+
+在 Essential 看来，当用户发起一笔“交易”后，交易链各环节上的每个参与方均会按照自己的利益行事并从中获利，这削减了用户所收到的最终价值。
+因此，Essential 希望构建一个基于“意图”的区块链系统，并引入一个解决者（Solvers）角色，该角色将负责批量收集用户的“意图”需求，并负责寻找最佳解决方案，从而最大限度地向用户返还符合“意图”的结果。
+总而言之，当下围绕着 intent-centric 概念进行开发的项目已不在少数。虽然各个项目的愿景均不相同（比如 Bob the Solver 希望吸引更多用户，Anoma 希望帮助用户实现更好的需求表达，Essential 则重点关注减缓压榨行为），但却均采取了相同的路径，即希望通过用“意图”来取代“交易”，彻底改变当前链上生态的交互范式。
+随着 Paradigm 的“振臂一呼”，凭借着该机构在业界内的影响力，未来势必还有会更多聚焦 intent-centric 的项目涌现，或许这也会是推动 Crypto 冲向下一轮高峰的一颗种子吧。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188610"
+                        open
+                      >
+                        <summary class="article-expander__title">Mint Ventures：熊市抄底，不要选择Meme</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188610">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者： Alex Xu ， Mint Ventures  研究合伙人
+本期 Clips 来自于笔者与其他投资者在一个加密社群关于 Meme 话题的一次讨论，笔者将自己的观点在本文进行了展开叙述，以充分表达自己的观点。
+以下文章内容为笔者截至发表时的阶段性看法，可能存在事实、观点的错误和偏见，仅作为讨论之用，也期待来自其他投研同业的指正。
+熊市抄底，不要选择 Meme 项目。
+这听起来像是一句废话，不是吗？谁会选择生命周期长至个把月，短至一天的土狗来做长周期配置呢？
+但是本篇文章讨论的 Meme，是 Doge、Shiba、Pepe 等市值庞大，已经登录大所的“蓝筹 Meme”。
+有一些看法认为，像 Pepe 这样已经颇具影响力的“新一代小市值 Meme”，在下一个牛市周期会复刻 Doge 的走势，达成百亿市值的目标。
+但在笔者看来，在做跨周期配置时，它可能不是熊市时该抄底买入的好品种。
+Meme 代币的价值来源
+Meme（模因）是一种文化和信息自我繁衍、复制和传播的现象，Meme 代币则是具有模因属性的加密项目的代币。其特点之一是代币本身一般没有直接的价值捕获，而项目往往寄生或衍生自加密世界之外的模因 IP，比如 Doge 的柴犬，Pepe 的 Pepe 蛙，或是近期很火爆、代币名为 Bitcoin 的哈利波特、奥巴马和索尼克（叠了四层 Buff）。除了知名人物和大众流行文化之外，一些广泛接受的观点也可以成为 Meme 的来源。比如 LTC 相对于 BTC 作为“数字黄金”（digital gold）的定位，一度被认为是“数字白银”（digital silver），它作为一种金融 Meme，继承了来自贵金属白银和 BTC 的双重文化力量。
+
+与其他商业类加密项目如 DeFi、web 3 Game 不同，Meme 看似没有经营模式，但是其商业模式和 PMF（Product …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188611"
+                        open
+                      >
+                        <summary class="article-expander__title">一文梳理美国加密监管关键法案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188611">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者： Mary Liu，比推 BitpushNews
+据福布斯报道，自 2022 年以来，美国立法者已经将至少 50 项数字资产法案提交给国会，这些草案以多种方式涵盖了加密货币监管领域，旨在监督从稳定币到监管机构管辖权的一切主题。本文将梳理可能对加密行业产生重大影响（如果通过）的几项关键法案。
+加密资产国家安全增强法案（The Crypto Asset National Security Enhancement Act）
+7 月 21 日由参议员 Jack Reed 提出，并由参议员 Mark Warner（弗吉尼亚州民主党人）、Mike Rounds 和 Mitt Romney（犹他州共和党人）共同发起，这是一项专注于洗钱和制裁合规的两党法案，如果获得批准，将对 DEFI 协议产生重大影响。
+法案重点：
+根据草案副本，该法案旨在使 DeFi 协议遵守与其他美国监管的金融中介机构相同的规则。
+法案将要求任何「控制」 DeFi 协议的人确保反洗钱计划有效，并遵守了解你的客户（KYC）政策。DeFi 协议控制者还将负责报告可疑活动，并确保任何被制裁阻止的人都不会使用该协议。
+如果该协议没有可识别的控制者，该法案规定，任何投资超过 2500 万美元用于开发该协议的人都将承担责任。
+该法案提议，根据联邦法律，比特币 ATM 机等「虚拟货币亭」必须遵守 KYC 法，此类 ATM 运营商必须「至少验证并记录消费者的姓名和实际地址，其中应包括审查证明国籍或居住地的官方文件，其中包含消费者的照片」。
+前景：
+DeFi 教育基金首席执行官 Miller Whitehouse-Levine 认为，该立法「将通过强制集中化的方式有效禁止美国 DeFi 的发展」，他表示：「不幸的是，这种做法不仅是对非法使用 DeFi 的不成比例的反应，而且还有可能破坏美国执法部门对点对点加密货币活动的现有洞…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188592"
+                        open
+                      >
+                        <summary class="article-expander__title">UniswapX：开启Uniswap V4 DeFi实验基地的门扉</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188592">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Yilan，LD Capital
+近期推出的 UniswapX 目前处于 opt in beta 版本状态，预计 Uniswap X 会发挥全链路由的功能，对现有的聚合器以及跨链桥赛道产生结构性影响。目前市场认为最直接的影响是从卷费率的赛道即聚合器市场（如 1 inch, Cowswap 等)虹吸交易量， 1 inch 在 UniswapX 推出后价格有较大下调。
+UniswapX 本质上是一个基于荷兰式拍卖的非托管交易协议。协议允许第三方 Filler 执行交易（做 taker），Filler 可以是链上链下的流动性提供者，比如做市商、MEV 搜索者、DEX 等。 Filler 间的竞争通过荷兰拍来实现，即一种参数化荷兰式订单起始价格的方式。荷兰拍的起始价格通过 RFQ，一个链下的询价系统，对一些 Filler 进行投票（为了将订单路由到链上流动性池，做市商将受到激励使用私人交易中继）。同时为了激励 Filler 网络提供最优惠的价格，UniswapX 允许订单指定一个 Filler，在短暂的时间内独享填充订单的权利，之后荷兰式拍卖开始，任何 Filler 都可以执行订单。RFQ+荷兰拍这种模式 Cowswap 的 Coincident of Wants 很早就已经实现，1 inch Fusion 在去年也实现了集成专业做市商链下订单匹配的功能，UniswapX 选择集成专业做市商的方式结合后期 V 4 组合性，令市场的多元化选择更多。
+UniswapX 的优化和解决的问题
+( 1) MEV 收益内置化，一部分补贴给 swapper（以更低成交价的方式），一部分被 Filler 获得，利润还给用户；
+( 2) 链下签署交易，对散户友好，Filler 会在优化 gas 费和优化实际交换之间进行综合计算，利用这种复杂性进行计算，以产生最佳结果。在跨很多池子交易不需要…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188606"
+                        open
+                      >
+                        <summary class="article-expander__title">一览近期值得关注的5个DeFi项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188606">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>比特币前两周突破了 31, 000 后再次跌回 29, 000 周围，炒币似乎很难获得高收益，但新项目在增加，项目方还在努力。此时需要我们转换视角，把目光移至新项目本身，BlockBeats 为大家盘点了近期值得关注的 DeFi 新项目，或许里面会有下个 Alpha，如下：
+Pound Swap
+Pound Swap 是建立在 zkSync 上的由社区驱动的、 ve( 3, 3) 流动性账簿 DEX，为 DeFi 流动性和 token swap 提供强大的交易平台。作为 Trader Joe Liquidity Book 的分支，Pound Swap 在设计和功能上与 Traderjoe LB 类似，为用户提供零滑点、资本效率高的 AMM 解决方案。Pound Swap 是首个将 ve( 3, 3) 与 Liquidity Book 相结合的 DEX，也是 LB 与 ve( 3, 3) 结合的首次尝试，希望为流动性管理和 token 激励提供更公平、更高效的解决方案。Pound Swap 目前还未上线，可以关注其上线进度。
+
+Pound Swap 特点是：
+-零滑点：交易者可以在平台上以零滑点 swap token。
+-Surging Pricing：LP 在市场剧烈波动期间赚取额外的动态费用。
+-高资本效率：流动性账簿可以支持低流动性要求的大批量交易。
+-灵活的流动性：LP 可以根据自己的策略构建灵活的流动性分配。
+Mori Finance
+Mori Finance 是以太坊上的下一代原生稳定资产 DeFi 协议，通过抵押 ETH 生成低波动性的稳定资产，且不会造成任何损失。此外，用户可以选择创建资产衍生资产（ETHS、ETHC）作为针对 ETH 价格波动的对冲资产，从而可以免费持有 ETH 多头头寸，而无需面临清算风险。目前处于测试网阶段。
+此前也有针对 ETH 为标的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188608"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | 币安将于8月在日本新平台上推出全面服务；EraLend遭黑客攻击（7月26日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188608">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>头条
+日本首相：Web3是新型资本主义的一部分
+
+Odaily星球日报讯 日本首相岸田文雄在由 CoinPost 策划并运营的 WebX 上发表视频致辞。在谈到岸田政府的“新资本主义”时，表示Web3是新型资本主义的一部分，他强调“把解决社会问题作为增长的引擎”。Web3有潜力改变互联网的传统框架，引发社会变革，政府正在努力改善推广Web3的环境。岸田首相强烈希望日本各大企业能够在本次大会上向全世界宣布一项在元宇宙空间打造有价值的经济区的大型项目，并希望Web3产业能够重新获得关注和活力，并诞生各种新项目。（coinpost）
+CZ：币安将于 8 月在日本新平台上推出全面服务
+Odaily星球日报讯 CZ 周二在东京的一次会议上通过视频表示，币安将于 8 月在其日本新平台上推出全面服务。（彭博社）
+此前 5 月 8 日消息，币安已经启动日本子公司过渡到新平台的计划。币安将开始在日本建立一家新的、受到全面监管的子公司。
+此前，币安于 2022 年 11 月收购受监管的加密货币交易所 Sakura Exchange Bitcoin（SEBC），作为交易的一部分，SEBC 将在 5 月 31 日之前停止其当前服务，并在未来几周内以 Binance Japan 的名义重新开放，日本用户必须在新实体注册。迁移将于 2023 年 8 月 1 日之后可用，并将包括新的身份验证流程 （KYC）以符合当地要求。
+Twitter 官网 Logo 已改为 X
+Odaily星球日报讯 Twitter 官网信息显示，官网此前的蓝鸟 Logo 已改为新的黑底白字 X Logo，App 暂未出现改动。
+行业要闻
+币安和 CZ 向法院申请扩大法律备忘录页数，以发起动议驳回 CFTC 起诉
+Odaily星球日报讯 据相关文件显示，币安、CEO CZ 及 Samuel Lim（被告）向美国法院提出许可申请，计…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -508,108 +712,6 @@ Cyber​​Kongz 创始人 Myoo 表示：“Cyber​​Kongz 将与 Ronin 合作
                             <span class="media-object__text">
                               <span>PANews 7月25日消息，OpenAI表示，ChatGPT安卓版现在可以在美国、印度、孟加拉国和巴西下载使用。计划在下周将推广范围扩大到更多国家。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188592"
-                        open
-                      >
-                        <summary class="article-expander__title">UniswapX：开启Uniswap V4 DeFi实验基地的门扉</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188592">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Yilan，LD Capital
-近期推出的 UniswapX 目前处于 opt in beta 版本状态，预计 Uniswap X 会发挥全链路由的功能，对现有的聚合器以及跨链桥赛道产生结构性影响。目前市场认为最直接的影响是从卷费率的赛道即聚合器市场（如 1 inch, Cowswap 等)虹吸交易量， 1 inch 在 UniswapX 推出后价格有较大下调。
-UniswapX 本质上是一个基于荷兰式拍卖的非托管交易协议。协议允许第三方 Filler 执行交易（做 taker），Filler 可以是链上链下的流动性提供者，比如做市商、MEV 搜索者、DEX 等。 Filler 间的竞争通过荷兰拍来实现，即一种参数化荷兰式订单起始价格的方式。荷兰拍的起始价格通过 RFQ，一个链下的询价系统，对一些 Filler 进行投票（为了将订单路由到链上流动性池，做市商将受到激励使用私人交易中继）。同时为了激励 Filler 网络提供最优惠的价格，UniswapX 允许订单指定一个 Filler，在短暂的时间内独享填充订单的权利，之后荷兰式拍卖开始，任何 Filler 都可以执行订单。RFQ+荷兰拍这种模式 Cowswap 的 Coincident of Wants 很早就已经实现，1 inch Fusion 在去年也实现了集成专业做市商链下订单匹配的功能，UniswapX 选择集成专业做市商的方式结合后期 V 4 组合性，令市场的多元化选择更多。
-UniswapX 的优化和解决的问题
-( 1) MEV 收益内置化，一部分补贴给 swapper（以更低成交价的方式），一部分被 Filler 获得，利润还给用户；
-( 2) 链下签署交易，对散户友好，Filler 会在优化 gas 费和优化实际交换之间进行综合计算，利用这种复杂性进行计算，以产生最佳结果。在跨很多池子交易不需要…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188606"
-                        open
-                      >
-                        <summary class="article-expander__title">一览近期值得关注的5个DeFi项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188606">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>比特币前两周突破了 31, 000 后再次跌回 29, 000 周围，炒币似乎很难获得高收益，但新项目在增加，项目方还在努力。此时需要我们转换视角，把目光移至新项目本身，BlockBeats 为大家盘点了近期值得关注的 DeFi 新项目，或许里面会有下个 Alpha，如下：
-Pound Swap
-Pound Swap 是建立在 zkSync 上的由社区驱动的、 ve( 3, 3) 流动性账簿 DEX，为 DeFi 流动性和 token swap 提供强大的交易平台。作为 Trader Joe Liquidity Book 的分支，Pound Swap 在设计和功能上与 Traderjoe LB 类似，为用户提供零滑点、资本效率高的 AMM 解决方案。Pound Swap 是首个将 ve( 3, 3) 与 Liquidity Book 相结合的 DEX，也是 LB 与 ve( 3, 3) 结合的首次尝试，希望为流动性管理和 token 激励提供更公平、更高效的解决方案。Pound Swap 目前还未上线，可以关注其上线进度。
-
-Pound Swap 特点是：
--零滑点：交易者可以在平台上以零滑点 swap token。
--Surging Pricing：LP 在市场剧烈波动期间赚取额外的动态费用。
--高资本效率：流动性账簿可以支持低流动性要求的大批量交易。
--灵活的流动性：LP 可以根据自己的策略构建灵活的流动性分配。
-Mori Finance
-Mori Finance 是以太坊上的下一代原生稳定资产 DeFi 协议，通过抵押 ETH 生成低波动性的稳定资产，且不会造成任何损失。此外，用户可以选择创建资产衍生资产（ETHS、ETHC）作为针对 ETH 价格波动的对冲资产，从而可以免费持有 ETH 多头头寸，而无需面临清算风险。目前处于测试网阶段。
-此前也有针对 ETH 为标的…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188608"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | 币安将于8月在日本新平台上推出全面服务；EraLend遭黑客攻击（7月26日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188608">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>头条
-日本首相：Web3是新型资本主义的一部分
-
-Odaily星球日报讯 日本首相岸田文雄在由 CoinPost 策划并运营的 WebX 上发表视频致辞。在谈到岸田政府的“新资本主义”时，表示Web3是新型资本主义的一部分，他强调“把解决社会问题作为增长的引擎”。Web3有潜力改变互联网的传统框架，引发社会变革，政府正在努力改善推广Web3的环境。岸田首相强烈希望日本各大企业能够在本次大会上向全世界宣布一项在元宇宙空间打造有价值的经济区的大型项目，并希望Web3产业能够重新获得关注和活力，并诞生各种新项目。（coinpost）
-CZ：币安将于 8 月在日本新平台上推出全面服务
-Odaily星球日报讯 CZ 周二在东京的一次会议上通过视频表示，币安将于 8 月在其日本新平台上推出全面服务。（彭博社）
-此前 5 月 8 日消息，币安已经启动日本子公司过渡到新平台的计划。币安将开始在日本建立一家新的、受到全面监管的子公司。
-此前，币安于 2022 年 11 月收购受监管的加密货币交易所 Sakura Exchange Bitcoin（SEBC），作为交易的一部分，SEBC 将在 5 月 31 日之前停止其当前服务，并在未来几周内以 Binance Japan 的名义重新开放，日本用户必须在新实体注册。迁移将于 2023 年 8 月 1 日之后可用，并将包括新的身份验证流程 （KYC）以符合当地要求。
-Twitter 官网 Logo 已改为 X
-Odaily星球日报讯 Twitter 官网信息显示，官网此前的蓝鸟 Logo 已改为新的黑底白字 X Logo，App 暂未出现改动。
-行业要闻
-币安和 CZ 向法院申请扩大法律备忘录页数，以发起动议驳回 CFTC 起诉
-Odaily星球日报讯 据相关文件显示，币安、CEO CZ 及 Samuel Lim（被告）向美国法院提出许可申请，计…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7411,8 +7513,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5664539955">
-        <time id="build-timestamp" datetime="2023-07-26T04:08:28.851Z">2023-07-26T04:08:28.851Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5664874736">
+        <time id="build-timestamp" datetime="2023-07-26T05:06:43.614Z">2023-07-26T05:06:43.614Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
