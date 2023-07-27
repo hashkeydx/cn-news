@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-27 datetime="2023-07-27T10:30:00.000Z">2023-07-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-27 datetime="2023-07-27T10:30:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-27 datetime="2023-07-27T12:30:00.000Z">2023-07-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-27 datetime="2023-07-27T12:30:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -67,6 +67,145 @@
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188655"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币ETF竞赛，Coinbase竟成最大赢家？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188655">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文标题：Coinbase Is the Real Winner in the Bitcoin ETF Race—Here’s Why
+原文作者：Nicholas Morgan，Decrypt
+原文编译：bayemon.eth, ChainCatcher
+比特币 ETF 竞赛正在进行，贝莱德（BlackRock）和富达（Fidelity）等华尔街巨头正在争夺“第一个“提供现货市场产品的头衔。不过，获胜者最终将与帮助它冲过终点线的合作伙伴共享这一荣誉。
+这位合作伙伴很可能就是 Coinbase。
+贝莱德（BlackRock）在 6 月 15 日宣布将与 Coinbase 合作推出自己的现货比特币 ETF 产品。这家资产规模达 8.5 万亿美元的资产管理公司指定位于旧金山的加密货币交易所 Coinbase 作为该比特币基金的托管人，并在随后修改了申报文件，表示 Coinbase 还将提供监控共享服务，允许双方共享有关交易、清算活动和客户身份的信息，以降低市场操纵的风险。
+资产代币化公司 Sologenic 的联合创始人 Bob Ras 对此表示&quot;在这方面，Coinbase 可能会成为首选交易所。很明显，大玩家们将 Coinbase 视为合法且极其重要的机构。”
+贝莱德并不是唯一一个向 Coinbase 寻求帮助的比特币 ETF 申请者。与芝加哥交易所合作的所有五家现货 ETF 比特币申请者——富达、VanEck、Ark Invest 旗下的 21 Shares、Valkyrie 和 Invesco--都提交了修订后的申请，并指定 Coinbase 为其合作伙伴。
+就在 SEC 向 Coinbase 提起诉讼，指控其交易未注册的证券，并通过盯盘服务 Coinbase Earn 从事未注册的证券交易之后不久，Coinbase 又与多家机构建立了合作关系。虽然 Coinbase 此前…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188657"
+                        open
+                      >
+                        <summary class="article-expander__title">一文详解EIP-4844：坎昆升级的核心</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188657">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>以太坊大规模采用的最大阻碍之一是：用户必须支付高昂的 gas 费用来进行交易或交互。当链上活动增加时，gas 费用也会显著增加，从而推高了用户门槛。
+为了提高以太坊L1+L2性能并解决 gas 费的问题，以太坊基金会提出用 EIP-4844 减少 gas 费用和增加吞吐量，作为一个中期的过渡解决方案。本文将详细介绍 EIP-4844 以及为什么它对于以太坊路线图的实施至关重要。
+
+EIP-4844 简介
+以太坊 EIP-4844 是坎昆升级的核心内容，它引入了一种新的交易类型（blob 携带交易），以减少以太坊的交易费用。blob 携带交易与常规的以太坊交易一样，但有一些额外的数据，被称为 blob。与当前 calldata 存储交易数据不可变和内存只读相比，blob 储存量大得多而且更便宜。
+
+从上图的 blockspace 和 blobspace 的区别来看，blob 与以太坊虚拟机（EVM）可见的区块不同，blob 仅在短时间内可用，而对 EVM 不可见。此外，blob 位于以太坊共识层上，而不是在注重计算的执行层上。最重要的是，blobspace 比 blockspace 便宜得多。
+EIP-4844 也被称为 Proto-Danksharding，它将实现与新的交易格式和验证规则一样的 Danksharding 的框架和逻辑。
+EIP-4844 发展时间线
+在过去的 3 年中，以太坊经历了一系列升级，以 PoW 转为 PoS 共识，并使其区块链更具可扩展性。
+以下是以太坊重要更新的时间线和概述：
+2020 年 12 月 1 日，由 PoS 驱动的信标链上线，以太坊用户可以将其 ETH 质押在单独的信标链上来以验证交易。
+2022 年 9 月，信标链与以太坊主网合并，将网络的执行层和共识层合在一起。
+2023 年 4 月 13 日，上海升级（EIP-4895）上线，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188653"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus波动率专栏(2023.07.27)：市场行情低迷，交易员依旧以看涨为主</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188653">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>昨日 FOMC 会议符合市场市场预期，将利率提高了 25 个基点。提问环节中鲍威尔并没有给鹰派或者鸽派提供有突破性的线索，他强调了对数据的依赖，指出当前的政策环境下不适合 FOMC 提供大量的前瞻性指引，为继续加息与否留足了灵活性，但同时也重申了打击通胀的决心，以及今年不会降息的预期。
+
+Source: Deribit （截至 16: 00 UTC+ 8）
+很显然这次会议并没有给到市场产生变化的动力，BTC 小幅上升了一段，但很快便回吐了大部分涨幅，交割价格与昨日相比未见明显变化。前端隐含波动率在不确定性落地以后大幅回落，中远端 IV 也可见 0.8% 左右的跌幅。总体来说，由于缺乏实际波动率和预期不确定性的支撑，BTC/ETH 的 IV 仍无法摆脱低迷的困境，各期限均已经贴近过去一年以来的最低点。
+
+Source: SignalPlus，IV 下跌
+
+Source: SignalPlus，各期限 IV 贴近过去一年的最低点
+大宗交易方面，市场对BTC 短期内的看涨热情暂时消退，八月底出现大量对 ATM 的卖压，包括 1: 1: 3: 3 的宽 Iron Condor（卖出 ATM，买入 Tail 保护），还有 250 组卖出 25 AUG 23-31000-C 买入 29 SEP 23-34000-C 的日历三角价差等。卖方需在此时注意保证金率的问题，避免价格波动+IV 反弹对 PM 保证金造成双杀。对较长期限而言，由于 IV 仍处于历史低位，交易员仍愿意投入资金买涨，如一笔 425 组 28 JU L 2 4-40000-55000 Call Spread。
+ETH 以购入看涨策略为主，中期（八九月底）集中在 1900-C 和 2400-C 的位置，十二月更是出现许多 10000 ETH 以上的买 Call 大单，比如 20499 张 29 DEC 23-2300-C 清掉了原本持有的空头，更远的 2500-C/2600-C 也分别有 10 K/5 K ETH 的大宗买入。
+
+Source: Deribit Block Trade
+
+Source: Deribit Block Trade
+
+您可在 ChatGPT 4.0 的   Plugin   Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website：https://www.signalplus.com</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188649"
+                        open
+                      >
+                        <summary class="article-expander__title">Binance Research：全览RWA生态系统现状</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188649">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Binance Research
+原文编译：金色财经
+1、 要点
+真实世界资产（RWAs）的代币化在用户采用率不断增加和大型机构进入的情况下继续获得推广。
+结合较低的去中心化金融（DeFi）收益率，不断上升的利率促使人们对代币化国债产生了兴趣。
+目前，投资者投向代币化的国债的资金规模超过 6 亿美元，并获得约 4.2% 的年化收益率。
+预计到 2030 年，代币化资产市场规模将达到 16 万亿美元，具有显著增长空间，远超 2022 年的 3100 亿美元。
+许多协议已经整合了 RWAs 或参与了其增长。本文简要介绍了 MakerDAO、Maple Finance 和 Ondo Finance 等。
+2、概述
+距离 Binance 首次发布有关真实世界资产的报告已经过去了四个多月。市场景观自那以来发生了哪些变化，有哪些最新发展？本报告将探讨这一切。
+2.1 真实世界资产入门
+在深入探讨图表和最新市场数据之前，我们在本节中总结了有关真实世界资产（RWAs）的几个关键点。这涵盖了 RWAs 的基本概念，并作为该领域的快速介绍。
+什么是真实世界资产？
+正如名字所示，真实世界资产代表现实世界中的有形和无形资产（例如房地产、债券、商品等）。RWAs 的代币化使得我们可以将这些链下资产带到区块链上，从而在组合性和潜在用例方面开辟了新的可能性。
+
+图 1 ：真实世界资产例子
+通过将 RWAs 代币化，市场参与者可以享受更高的效率、更高的透明度和减少人为错误，因为这些资产可以在链上存储和跟踪。
+代币化过程是如何工作的？
+要将 RWAs 上链，必须在区块链上记录其所有权和代表。虽然具体的机制可能有所不同，但通常的过程包括在制定交易条款后，在链上铸造资产的代币化表示。
+
+图 2 ：链上代币化过程示例
+2.2 RWA 生态系统
+RWA 生态系统是多样化的，并随着更多项目进入市场而稳步扩展…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -526,6 +665,130 @@ Odaily星球日报讯 据官方公告，币安将于 7 月 26 日推出种�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/2a53n0j9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Securitize在欧洲推出代表实体公司股权的代币化证券</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2a53n0j9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月27日消息，据The Block报道，专门从事现实世界资产代币化的区块链公司 Securitize 宣布，开始在欧洲发行代表西班牙房地产投资信托公司 Mancipi Partners 股权的代币化证券。该证券将在 Avalanche 上进行代币化，二级交易将于 9 月开始。
+近一个月前，西班牙财政部和国际金融总秘书处批准该公司在受监管的“沙盒”条件下向少数企业和投资者部署数字资产证券，一旦沙盒期在大约六个月后到期并且该公司获得欧盟试点制度的批准，Securitize 计划在西班牙和欧盟更广泛地发行、管理和交易代币化证券。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/8520hxr7.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：a16z将6750枚MKR转移到新地址，约825万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8520hxr7.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月27日消息，Lookonchain 监测显示，a16z 在约半小时前将 6,750 枚 MKR（825 万美元）转移到新地址。a16z 可能会再次出售 MKR。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/cnaeue9u.html"
+                        open
+                      >
+                        <summary class="article-expander__title">币安将于明日上线ARKM U本位永续合约</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/cnaeue9u.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月27日消息，币安合约交易平台将于2023年7月28日10:45（北京时间）上线USDⓈ-M ARKM永续合约，最高杠杆为20倍。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/2isr35ih.html"
+                        open
+                      >
+                        <summary class="article-expander__title">加密支付应用程序Hi获得Animoca Brands的3000万美元投资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2isr35ih.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月27日消息，据CoinDesk报道，Metaverse 游戏和风险投资巨头Animoca Brands已向 Web3 支付应用程序和协议hi投资 3000 万美元。此外，hi 还与 Animoca Brands 建立了合作伙伴关系。hi 计划利用这笔资金来扩展其应用程序，并为兼容以太坊虚拟机 (EVM)的hi 协议的主网启动做好准备。
+Hi的联合创始人Sean Rach表示，hi 作为新银行运营，即提供银行服务的纯数字应用程序，允许用户以加密货币或法币进行交易。2022年，hi联手万事达卡发行了可以用NFT图像定制的借记卡。hi 的大部分用户群存在于欧洲，但他们计划扩展到亚洲、拉丁美洲，最终扩展到美国——前提是监管明确。hi 正在致力于将人类身份证明 (POHI) 实施到其 KYC 流程中，该流程不涉及扫描眼球。该公司目前拥有 350 万用户和 100 万 KYC 用户。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/4i7c9368.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Immunefi、Polygon Labs和Solana基金会合作推出web3基线安全标准“Rekt 测试”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/4i7c9368.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月27日消息，据The Block报道，Bug 赏金安全平台 Immunefi 正在与网络安全公司 Trails of Bits、Polygon Labs、Fireblocks、DeFi Education Fund、Ribbit Capital、和 Solana 基金会等合作推出 web3 的基线安全标准“The Rekt Test”。该测试通过一系列旨在确保 web3 项目遵守最低安全性能水平的问题来指导 web3 项目。Rekt 测试涵盖七项安全评估：系统文档和角色、密钥管理和访问控制、事件响应和危机管理、团队和人员安全、代码安全和测试、外部审计和漏洞管理以及攻击缓解和用户保护。
+上周曾报道，Immunefi被ChatGPT生成的web3错误赏金报告发送垃圾邮件。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ko24bh75.html"
+                        open
+                      >
+                        <summary class="article-expander__title">欧易OKX发布官方预告，AA智能合约钱包即将上线</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ko24bh75.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月27日消息，欧易OKX中文官推发称：“更智能，更多新可能，欧易OKX新一代Web3钱包即将上线”，正式预告其AA智能合约钱包即将上线。
+此前，以太坊创始人 Vitalik Buterin多次重点提及，智能合约钱包是Web3钱包的未来，并在EthCC会议演讲总结中强调，未来账户抽象将让加密钱包像电子邮件一样简单。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -7171,26 +7434,6 @@ Odaily 星球日报讯 破产的加密货币借贷平台 Celsius Network 已�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/sysc83w0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">CoinList推特账号被盗，用户应警惕点击任何链接</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/sysc83w0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 7月23日消息，CoinList推特账号被盗。此前CoinList推特发文称将推出原生代币，随后Neon EVM推特发文称CoinList账号被盗，并提醒用户不要点击任何链接。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7421,34 +7664,6 @@ BTC …</span>
 
 来源：R…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188546"
-                        open
-                      >
-                        <summary class="article-expander__title">安克雷奇：机构仍在瓜分加密货币的蛋糕</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188546">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>尽管夏季市场低迷，但过去几周出现了一系列与机构相关的活动，从申请现货比特币 ETF 到关于托管的广泛讨论，再到即将出台的美国国会立法，有关基础话题的辩论仍在激烈进行。
-Anchorage Digital（安克雷奇）联合创始人兼总裁 Diogo Mónica 接受了 The block 的采访，该公司是美国联邦特许的加密银行，采访话题涉及监管，立法和更广泛的全球市场，由 Odaily星球日报 Aya 编译。
-机构们的动作和态度
-The Block：让我们从一个宏观的视角来看待现在已经完全进入下半年的情况。在过去几周，机构方面出现了许多有趣的头条新闻，包括所有 ETF 的申请。我们还看到了 Prime Trust 的新闻，以及美国持续存在的监管不确定性。对这一切您有何想法？
-Diogo Mónica：我认为目前对机构参与的最好描述是他们正在尝试留下来，并且他们的兴趣和需求在增长。有趣的是，我们从内部看到了这一点，而外界并没有看到。正如您所知，我们在安克雷奇专注于机构业务。
-但是这些公司（指贝莱德、富达等）在过去两年中开始已经开始实际参与生态系统，并启动这些需要 18 至 24 个月时间的项目，特别是对于像加密货币这样在推出之前必须经过仔细考虑的东西。所以现在，贝莱德的这些 ETF 和所有这些东西都出来了。因此，你所看到的实际上是加密货币的持续势头，事实上机构并没有回避它。
-叙事重点有些转向 RWA，这是有道理的，因为谈论它的机构谈论的是这个对监管机构和大众非常友好的特定用例。我们已经来回讨论过了，每当市场处于牛市时，所有机构都会谈论加密货币。而每当市场不是牛市时，他们会谈论区块链或全球资产的代币化。这次并没有什么不同。
-这次不同的是，这个领域有很多合法且资本充足的机构。它们不会离开。因此，安克雷奇在今年年初看到了大规模的安全资金流入。
-Prime Trust 是这一趋势继续的又…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9546,8 +9761,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5680354536">
-        <time id="build-timestamp" datetime="2023-07-27T12:13:36.916Z">2023-07-27T12:13:36.916Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5680960923">
+        <time id="build-timestamp" datetime="2023-07-27T13:10:05.225Z">2023-07-27T13:10:05.225Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
