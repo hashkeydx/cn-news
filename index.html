@@ -51,11 +51,161 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-30 datetime="2023-07-30T00:53:11.000Z">2023-07-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-30 datetime="2023-07-30T00:53:11.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-30 datetime="2023-07-30T04:00:00.000Z">2023-07-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-30 datetime="2023-07-30T04:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188696"
+                        open
+                      >
+                        <summary class="article-expander__title">UniswapX研报(上)：总结V1-3发展链路，解读下一代DEX的原理创新与挑战</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188696">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>导读
+鲜有一个协议的问世，能彻底改变一个链上生态的格局，uniswap V 1 是一个而 uniswapX 又是一个。作为最大的去中心化交易协议推出五个版本，累计处理的交易量超过 1.5 万亿美元。在 V 1 之后 AMM 巨大的 MEV 潜力被挖掘，无数的套利机会再链上节点之间公开的内存池里传播，看似是 MEV 阻碍了用户，总让他们以更差的价格成交，然而却结结实实的促成了链上下价格的一致性！这也就是 UniswapX 的核心奥义-“群体博弈”，让去中心化系统在聪明人的动机博弈中达成极致的平衡。请跟随本文深入 Uniswap 系列的变迁以及 AMM 的交易机制，并且最终回溯到 UniswapX 的运作原理来，来感觉这份博弈以及从博弈中寻找机会。
+1、Uniswap 重大版本回顾
+Uniswap 是历久弥新坚持完全去中心化信念的团队，每一个版本的推出都伴随着重大 Defi 格局的变迁。
+
+Uniswap V 1 于 2018 年 11 月推出，虽然仅允许 ETH 和 Token 之间的交换，但以区区两百行代码作为了起点，开启了 DEX 试图对抗 CEX 的漫漫长途。
+
+Uniswap V 2 于 2020 年 3 月推出，它是 V 1 的巨大改进，允许任何 ERC 20 之间直接交换以及链式交换。
+
+Uniswap V 3 于 2021 年 5 月推出，在 V 2 已经达成大多数功能的前提下，V 3 显着提高了资本效率，这使得流动性提供者用更小的流动性成本，但仍然获得相同的奖励
+
+Uniswap V 4 于 2023 年 6 月推出，更多是面向开发者的系统优化，通过 Hook 机制在交易对生命周期的各个时间点运行特定的合约，是一种进一步释放 V 2、V 3 流动性价值的机制，还处于前期迭代的状态。
+
+Uniswap X 于 2023 年 7 月推出，是一种新的无需许可、开源 …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188615"
+                        open
+                      >
+                        <summary class="article-expander__title">EthCC大会频繁出现的EIP-7212究竟是什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188615">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在巴黎 EthCC 大会结束几天后，很容易看到很多有关以太坊顶尖技术团队分享的“alpha”内容。其中一个关键词越来越频繁地出现是 EIP-7212 。那么这个提案是什么，为什么值得关注？请在下面的文章中找到答案！
+
+基本信息
+
+在谈论 EIP-7212 之前，也许我们应该先来讨论一些更熟悉的内容。具体来说，这里有提案 EIP-4337 ，涉及账户抽象（AA）模型。
+
+简而言之，这些是支持&quot;智能合约&quot;加密钱包处理的基础性改进。从而有助于减少用户在链上交互时遇到的问题。
+
+最近在 ETHCC 上，关于（AA）的话题也被许多团队分享。特别是 Vitalik 的创始人也对这个关键词和它所带来的用户体验潜力有他的看法。
+
+什么是 EIP-7212 ？
+
+EIP-7212 将创建一个预编译的合约框架，用于加密签名和公钥，从而支持在 EVM 链上进行更安全、更便捷的签名认证。
+
+目前，以太坊仅支持“secp 256 k 1 ”形式的签名标准。但这个标准相当受限，并且与今天大多数常用的加密机制不兼容。因此，EIP-7212 希望在上述合约框架中添加“secp 256 r 1 ”标准，以便许多传统的加密服务和设备可以轻松连接。从“操作成本”（即等效安全性）的角度来看，“k”标准和“r”标准在根本上没有太大的区别，所以这就是以太坊希望推动这一改变的原因。
+
+简而言之，EIP-7212 将重新构建签名的工作方式，从而为网络转向智能合约钱包机制创造了前提条件。
+
+EIP-7212 解决了什么问题？
+如果您关注 Vitalik 的博客文章，您可能会多次遇到这位关键意见领袖(KOL)谈论在 Layer-1 和 Layer-2 中标准化多签名签名的问题。以下是 Vitalik 博文中标题为&quot;对钱包和其他用例进行跨 Layer-2 读取的更深入探讨&quot;的一节摘录。
+
+首个问题（也是 Vitalik 提到的）是 Layer-1 和 Layer-2 多签名钱包的签名将是不同的。如果用户需要为他的多签名钱包更改签名，情况会变得更加复杂。因此，为不同的 EVM 网络标准化签名的合约框架是必不可少的。
+
+“半真半假”的关于 Wintermute 在 L 1 和 L 2 的多签地址不同导致黑客攻击提取资金的故事，是这个问题最具体的例子。
+第二个问题是认证的成本。对于 EVM 链，这个新的合约框架在计算效率和优化 gas 费用方面的提升将有助于增加网络的处理能力。
+
+EIP-7212 的未来应用
+
+根据 Ethereum EIPs 文档，如果被整合到主网络中，该提案将解锁许多重要功能，并利用来自许多传统电子设备的认证机制。这些工具包括：
+
+
+Apple&#x27;s Secure Enclave
+
+
+Web Authentication
+
+Android Keystore
+
+Passkeys
+
+目前，与这个关键词相关的另一个正在开发中的项目是 OpClave，这是一个构建在 OP Stack 工具包之上并集成了苹果的 Enclave 安全机制的链，用于开发 AA 钱包。
+一个有趣的比较是，EIP-7212 可以被认为是一个解决方案，用于&quot;连接真实世界&quot;，但不是与真实世界的资产连接，而是与传统的地址认证操作（如电子邮件，Web Authenticator 等）连接。而在 Worldcoin 刚刚推出时，还有一个更特殊的关键词，那就是&quot;生物识别&quot;认证。
+如概述中所提到的，ERC-4337 钱包可以完全整合这个新的签名模板，使用户体验更加便利。
+这个提案对 DeFi 市场会产生什么影响呢？
+可以看出，当前的智能合约钱包市场仍处于初级阶段，原因有很多，但最主要的肯定是不稳定和完全构建的基础设施问题。然而，可以清楚地看到，Safe 仍然是这个领域的领导者，并在一定程度上拥有“早期优势”。
+然而，当 EIP-7212 被整合进来时，同时实施 EIP-1271 （提案要求优先使用智能合约并支持多签名验证）时，智能合约钱包市场将有许多新的变量。从这些变量中，如果有任何项目能够利用并适应，一大批用户可以通过我们大多数人每天熟悉的简单交互工具被吸引到 DeFi。
+EIP-7212 的当前状态
+如果我们关注以太坊网站上关于 7212 的状态，我们会看到该提案仍处于“审核”阶段，技术实施可能会有很多变化。
+
+如果以太坊团队在技术整合方面有任何变化，我会及时更新 EIP-7212 的最新状态。
+
+结尾
+
+因此，我们已经了解了一些关于 EIP-7212 的信息，以及为什么以太坊社区非常期待这个提案在不久的将来的原因。希望以上文章对您有所帮助，期待在下一篇文章中再见！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188697"
+                        open
+                      >
+                        <summary class="article-expander__title">闪电网络被骂“难用”？Casa CTO：别急，在改了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188697">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文来自 The Block，原文作者：James Hunt
+摘要：
+- Casa 首席技术官 Jameson Lopp 表示，闪电网络因其复杂性和用户对托管解决方案的依赖而受到批评，但它仍然是比特币的一个有前途的扩容解决方案。
+- 上周末异常激增的比特币网络活动，围绕 Ordinals 和铭文的争论以及 Casa 提供以太坊支持的举动也是下文采访中讨论的话题之一。
+比特币钱包提供商 Casa 首席技术官 Jameson Lopp 在接受采访时，针对最近的批评为比特币闪电网络辩护。近日，比特币交易出现了多次异常状况，与此同时，围绕 Ordinals 和铭文的争论不止。
+闪电网络旨在通过比特币区块链之上快速且具有成本效益的双向支付渠道解决比特币的可扩展性问题。然而自 2018 年推出以来，闪电网络一直受到更广泛加密行业的批评。
+最近，闪电网络再次受到了比特币社区内部人士的攻击，去中心化社交媒体协议 Nostr 的创始人 Fiatjaf 将其描述为“一堆不雅、丑陋且复杂的 hacks”。
+另一个批评是，大量用户依赖 Wallet of Satoshi 等托管解决方案与比特币进行交互，尽管这些解决方案很方便，但也存在这样的风险：这些项目可能会在未来的某个时候“携款潜逃”。
+对于这些质疑，Lopp 承认闪电网络的复杂性导致了与托管解决方案之间的便利权衡。然而，他指出，这一积极开发的系统远未完成，工程师的部分工作是解决剩余的复杂性。
+Lopp 称：“毫无疑问，闪电网络是复杂的，复杂性意味着你需要权衡，这就是为什么很多人最终使用托管解决方案的原因之一。托管平台有能力隐藏很多复杂性，这就是为什么他们能够获得更多用户的原因，因为他们提供了一个更用户友好的解决方案。”
+“但另一方面，我们不断了解到这是一个处于积极开发中的生态系统，所以它远未完成，”Lopp 继续说道，“当你遇到复杂性时，作为…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +217,86 @@
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ery4yzmq.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：预计莱特币将于8月3日区块奖励减半</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ery4yzmq.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月30日消息，Litecoinhalving数据显示，莱特币（LTC）区块奖励减半时间预计为北京时间2023年8月3日05:48:23，届时区块奖励将从12.5枚LTC降至6.25枚LTC。行情显示，LTC目前报价94.7美元，24小时涨幅为3.69%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ohddgrnb.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：某鲸鱼通过交易MKR实现37万美元收益，收益率达57%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ohddgrnb.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月30日消息，据链上数据分析师余烬监测，某鲸鱼于6月18日和7月14日从币安取出793枚MKR，均价818美元。其于7小时前将793枚MKR转入币安，价格为1287美元。该鲸鱼通过交易MKR实现37万美元收益，收益率达57%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/pn96aim3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：持有WLD的Optimism链上钱包突破30万个</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/pn96aim3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月30日消息，据Dune Analytics数据显示，持有WLD代币的Optimism链上钱包数量已突破30万个，目前为326,178个。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/8m05ihpx.html"
+                        open
+                      >
+                        <summary class="article-expander__title">华为云Web3.0节点引擎服务NES上线公测</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8m05ihpx.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 7月30日消息，据官方消息，华为云Web3.0节点引擎服务NES上线国际站进行公测。目前Web3.0节点引擎服务提供完全托管能力的全节点服务，帮助DApp开发者和网络验证者实现快速、稳定和高效的网络连接。目前该服务支持以太坊和波场网络，未来计划支持Polygon、Arbitrum、Starknet、Optimism等。当前仅“亚太-新加坡”区域支持以太坊网络的节点引擎与质押。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -726,6 +956,68 @@ Warren 最初在 2022 年 12 月的参议院银行委员会听证会上提出了
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188527"
+                        open
+                      >
+                        <summary class="article-expander__title">Hot air balloon：dYdX链上衍生品赛道的龙头项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188527">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一、项目介绍
+1、什么是 dYdX
+dYdX 是全球首个去中心化数字货币衍生品交易平台，该平台旨在通过去中心化技术来建立更加开放、透明和安全的金融产品。
+
+在 dYdX 平台中，主要支持保证金（杠杆）交易和衍生品（永续合约）交易，最多可以支持 20 倍杠杆。
+2、产品架构
+1）主要交易模式
+众所周知，AMM（Automated market maker）是 DeFi 的基石协议之一，在 AMM 模式中，交易对手方是资金池，由资金池实时完成报价，相当于人机交易，无需等待平台的交易撮合，因此可以快速完成交易，这也是 AMM 模式的优势所在。
+DeFi 经典项目 Uniswap（DEX）、Pancakeswap 和 GMX（衍生品）等都采用了 AMM 模式。
+但是，dYdX 却反其道而行之，它并没有跟风采用 AMM 模式，而是采用了中心化交易所（CEX）一直沿用至今的订单簿模式。
+用户在 dYdX 平台不但可以下市价单和限价单，而且还包括了 5 种止损模式，另外，还可以设置订单的有效截止时间。
+在 dYdX 看来，订单簿模式更加契合专业交易者的需求，而且也迎合了更多加密货币交易者的需求，毕竟在目前的加密货币交易中，中心化交易所（CEX）的市场份额占到了 95% 以上。
+和采用 AMM 模式（被动交易）的 DeFi 平台相比，很显然，交易者在 dYdX 平台拥有更多的自主权。用户可以根据自己的需求组合（对杠杆倍数、订单类型、止损类型、订单有效期等进行自定义组合）出更加复杂的交易策略，从而满足自己的交易需求。
+2）底层技术架构
+dYdX（目前是 V 3 版本）是搭建在以太坊 L 2 赛道四大天王之一的 Starkware 网络上的 DeFi 衍生品交易平台。
+借助于 Starkware 的高扩展性和低交易费率，以及 dYdX 丝滑的链下订单簿、链上结算模式，用户在 dYdX 平台的交…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188644"
+                        open
+                      >
+                        <summary class="article-expander__title">ConsenSys领军，Linea登场：突破ZK Rollup限制，实现EVM完全兼容</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188644">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一、项目简介
+Linea 是一种创新的区块链解决方案，将强大的零知识证明功能与完整的以太坊虚拟机（EVM）等效性相结合。它允许开发者构建可扩展的去中心化应用（dapp）或迁移现有的 dapp 而无需更改代码或重写智能合约，极大地简化了开发过程。Linea 由 ConsenSys 构建，属于 zkEVM 众多类型中的 Type 2 ，它利用 zkEVM 的可扩展性属性来提供更快的交易时间和更高的吞吐量。zkEVM 是以太坊虚拟机 (EVM) 的零知识证明 (ZKP) 版本，可确保交易和智能合约执行得到验证，而不会泄露任何敏感信息。这不仅增强了安全性，而且还实现了更具可扩展性和更高效的平台。
+2022 年第四季度，ConsenSys 推出的 Linea 内部测试版，为有限用户提供了早期访问权限，处理了超过 350, 000 笔交易，并部署了各种去中心化应用程序。测试网允许 Solidity 开发人员构建、测试和启动 DApp，同时大规模测试 zkEVM。
+2023 年 3 月 28 日，Linea 上线公共测试网，发布 zkEVM rollup，以便对 Layer 2 扩展技术进行压力测试，在公开测试网时期，约有 550 万个独特的钱包执行了超过 4600 万笔交易。
+7 月 18 日，Linea 上线主网 Alpha 版本，截至 7 月 24 日，Linea 主网拥有超过 100 个生态项目，已跨入 10, 921 枚 ETH，交易笔数达 64, 604 笔，交互地址数达 58, 344 。
+根据 Linea 全球商务负责人 @hotpot_dao 介绍，主网上线后，Linea 计划着重发展 Layer 3 和 Appchain 两个方向，以满足游戏项目方对吞吐量和点对点交易的需求，同时进一步推进 Multi Prover 的合作。
+二、背景团队
+Linea 由 Consen…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -8579,8 +8871,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5704193332">
-        <time id="build-timestamp" datetime="2023-07-30T04:07:55.029Z">2023-07-30T04:07:55.029Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5704409992">
+        <time id="build-timestamp" datetime="2023-07-30T05:06:38.055Z">2023-07-30T05:06:38.055Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
