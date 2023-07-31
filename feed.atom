@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-07-31T16:09:37.686Z</updated>
+    <updated>2023-07-31T17:06:41.054Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Meme代币Bald存在的意义或为测试Base链的负载处理能力]]></title>
+        <id>https://panewslab.com/zh/articledetails/rtxhjz7j.html</id>
+        <link href="https://panewslab.com/zh/articledetails/rtxhjz7j.html"/>
+        <updated>2023-07-31T15:51:57.000Z</updated>
+        <summary type="html"><![CDATA[PANews 7月31日消息，Coinbase推出的Layer2网络Base上的meme龙头BALD项目方官推今晚曾发文表示：“看来 BASE 链可以很好地处理重负载”。或是暗示发布BALD项目仅为在Base链主网测试其实际负载处理能力。
+据悉，目前Base主网仅向开发者开放，尚未对公众正式发布。但依托Coinbase的威望迅速在LeetSwap上建立了流动性，引发Meme热。有市即有价，早先伴随着币价波动 BALD/WETH 交易对的24h交易量曾超1亿美元。但随着流动性的撤离，币价迅速下跌。截至北京时间晚间11:30，(BALD/WETH)流动性池中 WETH 已不足 10 ETH，BALD价格下跌至0.003附近，日内币价下跌超90%。
+相关阅读：BALD一夜千倍，Base生态除了Meme还有什么值得关注？]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yuga Labs收购沉浸式媒体体验开发商Roar Studios]]></title>
+        <id>https://panewslab.com/zh/articledetails/tqwy35g3.html</id>
+        <link href="https://panewslab.com/zh/articledetails/tqwy35g3.html"/>
+        <updated>2023-07-31T15:17:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 7月31日讯，据PR Newswire报道，“无聊猿”BAYC、CryptoPunks等头部NFT项目母公司Yuga Labs宣布收购沉浸式媒体体验开发商Roar Studios，目前具体收购金额暂未披露。Roar Studios主要构建基于游戏、社交媒体、AI的元宇宙虚拟世界，可以融合MMO游戏和平台系统。据悉，本次收购交易完成后，Roar Studios公司创始人兼首席执行官Eric Reid将加入 Yuga Labs担任旗下元宇宙游戏Otherside总经理。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[外媒：韩国央行将于明年在三个地区进行CBDC测试，但排除首都首尔]]></title>
         <id>https://panewslab.com/zh/articledetails/9mp9fjza.html</id>
@@ -15,6 +37,34 @@
 韩国近年来一直在加大 CBDC 勘探力度，并且至少从 2020 年起就一直在开展该项目。央行于 2021 年 12 月完成了CBDC 模拟项目的第一阶段，该项目在模拟环境中测试了 CBDC 的制造、发行和分销等功能。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chainlink：我们是如何「拯救」DeFi的？]]></title>
+        <id>https://www.odaily.news/post/5188737</id>
+        <link href="https://www.odaily.news/post/5188737"/>
+        <updated>2023-07-31T14:52:29.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Philip
+原文来源：Chainlink
+
+2023 年 7 月 30 日，由于智能合约编程语言 Vyper 的部分版本被发现存在严重漏洞，包括 Curve  Finance 在内的一些重要项目因此遭受了攻击。CRV 在多个 DEX 上的交易价格均出现了剧烈波动，某一时刻，某 DEX 上 CRV/WETH 交易对出现极端价格。
+
+如果采用这一价格，大量借贷协议之上的 CRV 抵押债仓将直接面临清算风险，众多用户均会面临资金损失，而考虑到当时链上的 CRV 流动性承接能力已然不足，这些清算很难得到有效执行，从而对一众借贷协议造成潜在的坏账威胁。而随着清算的推进，社区的恐慌情绪也将进步一蔓延，从而引发更严峻的事态。
+整个 DeFi 世界危在旦夕。
+幸运的是，Chainlink 凭借持续稳定的喂价机制，阻止了这一切的发生。那么，Chainlink 的喂价机制到底是如何运行的呢？
+Chainlink 喂价的数据聚合层
+
+为了充分保障数据的防篡改性和可靠性，Chainlink 喂价只从优质的付费数据聚合商获取数据。也就是说，Chainlink 喂价使用的每个数据源都全面覆盖了市场上绝大多数的中心化和去中心化交易平台，并将交易量作为权重，调整并最终聚合出可信的价格数据上链，因此可以有效抵御闪电贷或价格异常偏差等各类攻击。
+除了数据源外，Chainlink 喂价还包含多个预言机节点运营商，每个预言机节点会从多个独立的数据聚合商获取价格数据，剔除异常值，对数据取中位数，成为该预言机上报的数据。随后去中心化预言机网络在共识的时候会将每一个预言机上报的数据再次剔除异常值，再次对数据取中位数，才最终得到该一轮可信的上链数据。因此，不仅每个数据源都全面覆盖所有交易环境聚合价格数据，而且每个节点都从多个数据源聚合数据并经过共识之后传输到链上，这样能更好地避免单点故障。
+Chainlink 喂价还聚合了众多节点响应的数据，并且这些节点都经过了安全评估。聚合方式的触发由偏差阈值（Deviation Threshold）与心跳时间（Heartbeat）共同决定。整套聚合机制既保障了预言机网络整体的运行时间，又有效避免了数据在传输到区块链的过程中被人为操纵，甚至可以防止几个节点或数据源下线或发起恶意攻击等极端情况。
+更多 Chainlink 喂价机制相关内容可参见《一文读懂 Chainlink 喂价的三个数据聚合层》，《平均价格算法：TWAP vs. VWAP》。（注：文章配图为撰写时截图，最新喂价节点信息以官网为准)
+去中心化精神
+1281 年，文天祥在狱中写下《正气歌》。“时穷节乃见，一一垂丹青”。
+
+危难之际，正义之士们为了正义而不避祸难，表现出了凛凛气节，留下了可歌可泣的事迹彪炳于青史。在Web3世界中，去中心化思想是名副其实的“节”。近年来Web3世界多次深陷危机之时，力挽狂澜的往往是那些深谙去中心化之道的人们。他们用实际行动守护了 Truth>Trust 的信念，一步一步推动行业的前进与发展。
+Chainlink 如此严谨的数据聚合机制是由于其充分贯彻了去中心化思想。与其说 Chainlink 在此次事件中“拯救”了 DeFi，不如说去中心化思想正如其最初的设计那样，时刻以公平、透明的方式来守护逐渐走上主流舞台的新金融秩序。]]></summary>
+        <author>
+            <name>Chainlink</name>
         </author>
     </entry>
     <entry>
@@ -45,6 +95,23 @@
         <summary type="html"><![CDATA[PANews 7月31日消息，据吴说报道，部分社区用户反映名为 ZT Global 的加密交易所疑似跑路，自 7 月 28 日宣布进行系统升级维护后平台内已无法进行交易，TG 频道禁言，无法联系到创始人。7 月 31 日 21 时该交易所发布公告声称已完成维护，并恢复交易功能，但交易页面显示仅 0.0006 BTC（17 美元）的买盘就将该平台内 BTC 的价格推高并维持在 6 万美元，ETH 的价格也在数十美元交易量的情况下发生剧烈波动。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全览60个永续合约协议：订单簿仍占优势，预言机依赖加剧]]></title>
+        <id>https://www.odaily.news/post/5188729</id>
+        <link href="https://www.odaily.news/post/5188729"/>
+        <updated>2023-07-31T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Pablo Bartol
+原文编译：深潮 TechFlow
+介绍
+在衍生品领域，永续合约比期权更受欢迎，这在散户和机构市场上获得了广泛的认可。BTC 永续合约的总交易量从 2020 年初的每天约 30 亿美元增长到 2023 年的 130 亿美元。
+本系列文章旨在概述当前的 DeFi 永续合约领域，并比较不同的协议，重点关注它们的工作原理，而不是作为投资工具的潜力。
+以下 60 多个协议在本次分析中被涉及：
+0x，Alex，Angle，Apollo，Avantis，BlueFin，bZx，Cap，Contango，ConvergenceRFQ，DDEX，DDX，Deri，Derivio，Digitex，Dolomite，Drift，dYdX，Futureswap，Gains Network，Gearbox，GMX，GMX Forks，Good Entry，Hubble，Hyperliquid，IDEX，Increment，InfinityPool，Injective，Kujira，Kwenta，Lendroid，Levana，Level，Lexer，Mango，MarketProtocol，MCDEX，Mux，NFTperp，Numoen，OpenBook，Opyn（Squeeth），Perennial，Perpetual Protocol，Perpy，Pika，Polynomial，Predy，RabbitX，RageTrade，Sentiment，Serum，STFX，Syndr，Synfutures Protocol，Synthetix，Tigris Trade，Tribe 3 ，Unidex，Variabl，Vega，Vela，Vertex，Vyper 和 Zeta Markets。
+在本文中，我们将首先简要回顾永续期货，然后对上述协议进行广泛分类。在此分…]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
         </author>
     </entry>
     <entry>
@@ -3676,55 +3743,6 @@ Stacks 值得关注的社区活动和发展有 2023 年 BTC Miami（比特币迈
         <summary type="html"><![CDATA[PANews 7月27日消息，据官方公告，币安矿池推出比特币现金（BCH）挖矿服务，采用FPPS结算方式。收益将在每日18:00（北京时间）之前自动存入用户的资金账户。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CertiK：zkSync借贷协议EraLend被攻击事件分析]]></title>
-        <id>https://www.odaily.news/post/5188637</id>
-        <link href="https://www.odaily.news/post/5188637"/>
-        <updated>2023-07-27T04:30:00.000Z</updated>
-        <summary type="html"><![CDATA[简介
-在 2023 年 7 月 25 日，zkSync Era-based 借贷协议 EraLend 宣布发生了一起安全事件。在初步调查后，CertiK 发现 EraLend 遭到了只读可重入攻击，导致总损失约 270 万美元。
-事件概要
-EraLend 在 zkSync 主网上遭受了只读可重入攻击。该攻击由地址 0xf1D 07 执行，攻击者利用了闪电贷去操控 EraLend 价格预言机。EraLend 使用 Syncswap 交易对作为价格预言机，其中存在只读可重入漏洞。攻击者能够销毁代币，并在_updateReserves 被调用之前进行回调，导致预言机基于未更新的储备计算价格。
-
-受到攻击的代码，来源 Syncswap Github
-EraLend 团队发布了一份声明，称“攻击已经得到控制，攻击者不能再能够继续他们的行动。目前正在评估影响的范围，之后将进一步公布。”建议用户目前不要向 EraLend 存入 USDC。
-资产追踪
-CertiK 追踪到被盗资金被转移到多个由攻击者控制的 EOA（Externally Owned Address）地址上，涉及以太坊、Arbitrum 和 Optimism 网络。其中大部分资金被整合到以太坊网络的四个钱包中。
-
-含有被盗资金的钱包
-有关重入攻击
-2020 年数据：
-总损失金额：$ 62, 936, 849.00 
-总重入攻击次数： 6 
-平均每次攻击损失金额(USD++++++++)：$ 10, 489, 474.83 
-2021 年数据：
-总损失金额：$ 67, 924, 596.28 
-总重入攻击次数： 7 
-平均每次攻击损失金额(USD)：$ 9, 703, 513.75 
-2022 年数据：
-总损失金额：$ 18, 403, 869.53 
-总重入攻击次数： 8 
-平均每次攻击损失金额(USD)：$ 2, 300, 483.69 
-2023 年数据：
-总损失金额：$ 14, 121, 542.00 
-总重入攻击次数： 7 
-平均每次攻击损失金额(USD)：$ 2, 017, 363.14 
-闪电贷攻击：日益增长的威胁
-在 2023 年，加密货币和区块链领域的闪电贷攻击日益令人担忧。与 2022 年的 101 起攻击相比，今年已经发生了 128 起事件。这些攻击利用智能合约的漏洞来最大化利润。
-闪电贷允许用户在无抵押品的情况下借取大额资金，但必须在同一笔交易内还清贷款。攻击者滥用了这一特性，导致迄今为止总计 2.55 亿美元的损失，平均每起事件损失约为 200 万美元。
-在 7 月的头三周内，已经发生了 22 起攻击，导致损失 850 万美元，而 2023 年每月平均闪电贷攻击为 18 起。7 月和 2023 年 2 月各自创下了每月 22 起攻击的记录。这凸显了理解 DeFi 风险和在加密货币领域构建更安全的智能合约的重要性。警惕和预防是在这个波动的领域中安全航行的必要条件。
-
-2023 年闪电贷攻击损失金额（按月度）
-
-2023 年闪电贷攻击损失数量（按月度）
-总结
-EraLend 是 CertiK 在 7 月发生的第二大可重入攻击事件，本月由于闪电贷攻击共损失 640 万美元。
-到目前为止， 7 月份已经发生了 3 次可重入攻击。7 月份可重入攻击的总损失为 640 万美元，平均每次攻击损失 210 万美元。截至 2023 年，已经发生了 7 次可重入攻击，总损失约为 1410 万美元，平均每次攻击损失 200 万美元。值得注意的是，今年的数据至今仅统计到 7 月份，截至目前 8 月至 12 月尚未报告有关的攻击或损失。到目前为止， 2023 年的总损失可能超过 2022 年的总损失，甚至可能达到 2021 年的水平，因为还有 5 个月的时间。
-了解可重入攻击对于涉足区块链和 DeFi 领域的任何人来说都至关重要，以加强安全实践并防止财务损失。2023 年闪电贷攻击的数量证明了对强大的安全措施和第三方审计的需求。请查看CertiK Skynet - Web 3 安全，尽职调查和洞察，帮助您了解您希望参与的项目背后的安全风险。]]></summary>
-        <author>
-            <name>CertiK</name>
         </author>
     </entry>
     <entry>
