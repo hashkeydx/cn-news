@@ -51,11 +51,701 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-02 datetime="2023-08-02T08:36:21.000Z">2023-08-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-02 datetime="2023-08-02T08:36:21.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-02 datetime="2023-08-02T10:30:00.000Z">2023-08-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-02 datetime="2023-08-02T10:30:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188785"
+                        open
+                      >
+                        <summary class="article-expander__title">从算法视角解读L2交易定价：收入、费用和协议的影响</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188785">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者： 0x Mlze、Salve Boccaccio &amp; 0x Munehisa
+原文编译：深潮 TechFlow
+第二层解决方案
+以太坊主网目前每秒处理平均 12 笔交易，在网络活动高峰期，交易成本已经达到了大多数用户无法接受的水平。这个可扩展性问题源于网络中的每个节点都需要存储和验证在网络上发生的所有交易。
+
+为了解决这个问题并扩展以太坊，人们发明了第二层解决方案（L2）。第二层是一个独立的区块链，扩展了以太坊并继承了以太坊的安全保证。第二层本质上是一个独立的区块链，用户在主链（以太坊）之外进行交易。每个第二层解决方案都有自己的安全保证和权衡。在以太坊上，最流行的第二层扩展形式是 Rollups（Arbitrum、Optimism、zkSync）。
+Rollups
+Rollups 是 L2 解决方案，在返回到 L1 之前处理 L1 的事务。以太坊上的标准交易通常为 156 字节，其中签名是数据密度最高的部分。因此，Rollups 在 L2 执行环境中处理多个交易，然后将它们捆绑成一个交易，提交给 L1 进行常规状态验证。将多个交易捆绑成一个交易可以减少每个交易支付的 Gas 费，因为 Gas 费分摊到多个交易上，而不仅仅是一个交易。然而，并非所有的 Rollups 都是相同的，有许多不同类型的 Rollups：
+
+智能合约 Rollups：Optimistic Rollups（Arbitrum、Optimism）、零知识 Rollups（Matic 的 zkEVM、zkSync、Scroll）；
+
+Celestiums;
+
+Enshrined Rollups;
+
+Sovereign Rollups.
+
+智能合约 Rollups
+智能合约 Rollups 是用户将资金发送到 L1 上的 Rollup 智能合约，然后该智能合约管理交易和状态变化。
+Rollups 和区…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188789"
+                        open
+                      >
+                        <summary class="article-expander__title">SharkTeam：Uniswap V4 Hook最佳安全实践</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188789">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>近期 Uniswap Lab 官宣了下一代 AMM Uniswap V4 的开发进展，并公开了白皮书和代码仓库。这次 V4 的白皮书仅仅只有 3 页，原因是 V4并没有对 AMM 的核心算法逻辑做太多修改，而是在 V3 的基础上，增加了一些新的特性，以满足更多的场景需求。SharkTeam 将基于目前已开源的代码，来看看 V4 带来了哪些新的特性，并针对V4推出的重要特性 Hook 分析最佳应用实践。
+一、V4与V3的差别
+1.1 AMM
+在 AMM 算法层面，Uniswap V4 并没有对 V3 做修改，依然使用基于恒定乘积 x*y&#x3D;k 的流动性算法。
+在 Uniswap V3，每一个交易对可以有 4 个池子（原本是 3 个，后来增加了一个新的 1 bp pool），分别代表 0.01% , 0.05% , 0.3% , 1% 费率的池子，这些池子对应的 tick space 也各不相同，在创建池子的时候，只能选择这 4 种中的任一个。
+在 Uniswap V4，每一个交易对理论上可以有任意数量的 pool，并且每一个 pool 的 fee rate 也可以是任意值，这些 pool 的 tick space 也可以是任意值。
+这同时也带来了一个问题：Uniswap V4 中交易对的流动性将被碎片化，因此需要一个更有效的 router/aggregator 来帮助用户找到最优的交易路径。
+1.2 Hooks
+Hooks 是一组由第三方或者 Uniswap 官方开发的合约，在创建 pool 的时候，pool 可以选择绑定一个 hook. 之后在交易的特定阶段，pool 都会自动调用与之绑定的 Hook 合约。Uniswap V4 一共定义了这些可以执行 hook 合约代码的阶段：
+
+beforeInitialize
+
+afterInitialize
+
+beforeModify…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188781"
+                        open
+                      >
+                        <summary class="article-expander__title">一览Lens Protocol Web3社交技术栈实践</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188781">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Web2 是平台化的时代，无论是代码、托管用户个人资料的数据库还是用户通信信息都放在同一个实体下托管。Web3 在底层架构上和 Web2 存在根本不同，所有以上这些功能都是解耦的，用户个人资料、数据存储和 DM 都由不同的协议提供支持，此外，其无需许可的开放性和可组合性支持第三方开发者构建任何可用应用和构建新的用户体验，为生态添砖加瓦。
+Lens Protocol 是一个基于 Polygon 构建的 Web3 社交图谱协议，作为重要的 Web2 社交媒体平替之一，其采用开放的去中心化底层架构创建的做法，让其在短短时间形成了一个繁茂的生态系统，除了项目方本身开发的应用，还出现了大量的第三方应用，以及数个可兼容的去中心化社交技术栈。
+究其根本，这要得益于区块链所固有的「无需许可的开放性和可组合性」，这意味着开发者无需许可即可自行构建任何可用的应用，而不仅仅是依赖核心开发者。而包括 Lens Protocol 在内所有的社交媒体技术栈都可无需许可地被开发者用于构建任何去中心化应用。
+那么，除了 Lens Protocol，还有哪些可用的去中心化技术栈呢？本文列出一系列可用于构建 Web3 社交应用相关的技术栈，BlockBeats 认为，作为 Web3 龙头协议，Lens Protocol 创始人 Stani 本人在该条推文中发布的去中心化技术栈极具代表性。值得注意的是，考虑到 Web3 日新月异的发展进度，本文并未详尽所有去中心化社交相关的技术栈。
+Huddle 01 
+一键开会。使用 Web3 登录，创建代币支持的 spaces，支持使用 NFT 化身和去中心化存储。
+Livepeer
+Livepeer 是一个去中心化的视频转码服务，可将需要视频转码服务的应用与执行转码的节点（协调器）连接起来。
+Livepeer 提供去中心化视频编码服务。以 Lens 上的应用 Lenstu…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188780"
+                        open
+                      >
+                        <summary class="article-expander__title">专访1inch：Uniswap接连出击，1inch如何应对？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188780">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>采访：Jack，BlockBeats
+整理：Jaleel、Kaori，BlockBeats
+编辑：Jack，BlockBeats
+诞生于 2019 年黑客马拉松 1inch，在 2020 年 DeFi Summer 的助推下，成功地崭露头角。在两位俄罗斯青年 Sergej Kunz 和 Anton Bukov 的引领下，1inch 凭借高效且低成本的交易方式，稳步攀升至 DeFi 聚合器赛道的领头羊位置。
+根据 DUNE 的数据显示，自上个月来，使用 1inch 的唯一钱包数量已超过 100 万大关，超过了在 2021 年的高峰期。在近期 1INCH 上涨突破 0.5 美元，团队也推出了自己的开发者门户测试版本，该 Web3 SaaS（软件即服务）平台提供了用于开发新产品的 API，包括交易、现货价格、代币信息等。
+
+与此对应的，是 DeFi 市场另一只独角兽的接连出击。今年 6 月 13 日，Uniswap 团队宣布推出第四代版本 V4，引入了「Hooks」和「The Singleton」两个新概念。其中，前者 Hooks 尤其受关注。在许多人看来，它似乎成为了 Uniswap 击败所有 DEX 的杀手锏。而在随后的 ETHCC 大会上，Uniswap 又推出了 UniswapX，向流动性聚合器领域发起进攻。在这种接连冲击下，许多 DeFi 创业者都发出了「放弃 DEXs，加入 Hooks」的感叹。
+上周，在巴黎 ETHCC 大会期间，BlockBeats 对 1inch 联合创始人 Anton Bukov 进行了专访，深度探讨了 1inch 的发展历程、对 DeFi 创新的看法和思考，以及如何应对 Uniswap 的出击等话题。
+寸拳，1inch 的创新哲学
+1inch 这个名字蕴含了浓烈的东方哲学，源自李小龙的名招「一寸拳」，这是国际间对中国传统武术中「寸拳」技法的译…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188743"
+                        open
+                      >
+                        <summary class="article-expander__title">Lybra：LSDFi新贵的成长之道和现实挑战</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188743">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：  Lawrence Lee, Mint Ventures 研究员
+引言
+Lybra Finance 是今年 4 月才诞生的 LSDFi 的新项目，从其诞生伊始就风波不断，IDO 资金来源以及合约问题、社交媒体上对与 Lido 关系的暗示都使得 Lybra Finance 一度成为争议焦点，而其稳定币设计中缺乏锚定的能力也广受 DeFi 玩家诟病。
+但是尽管如此，Lybra 的 TVL 已经在在所谓的 LSDFi summer 中占据了半壁江山。
+
+来源：https://dune.com/defimochi/LSDFi-summer
+其治理代币 LBR 的价格也在 5 月短短 20 余天上涨近 20 倍，目前仍有 1.5 亿美元以上的全流通市值。
+
+来源：https://www.coingecko.com/en/coins/lybra-finance
+本文我们通过对 Lybra Finance 的机制梳理，希望解答如下几个问题：
+
+Lybra 缘何可以取得上述成绩
+
+Lybra 目前遇到了哪些问题
+
+Lybra 的 V 2 会如何解决这些问题
+
+以期读者对 Lybra Finance 及其稳定币 eUSD 有一个更加全面的了解。
+以下文章内容为笔者截至发表时的阶段性看法，可能存在事实、观点的错误和偏见，仅作为讨论之用，不作为任何投资建议，也期待来自其他投研同业的指正。
+1. 基础资料及业务数据
+Lybra Finance 是一个稳定币协议，其稳定币为 eUSD，治理代币为 LBR。
+Lybra Finance 的过往历史比较简短，他们在 4 月 11 日上线测试网，在 4 月 24 日产品正式上线，至今只有 3 个多月的时间。
+Lybra Finance 为匿名团队，也并未进行私募融资，其融资只有在 2023 年 4 月 20 日进行的一轮公开 IDO，当时以 1…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188782"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币OG观点：请停止参与落后的BRC-20打新</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188782">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来自Twitter，作者 @AurtrianAjian from BTCStudy；经授权转载，不代表 Odaily 观点
+我听过离谱的事情，但不知道你们可以这么离谱。 请停止参与 “BRC 20 ” 打新，并且，抵制它。 
+你不应该再参加，因为从技术上来说这种落后的东西必定会被淘汰。你应该抵制它，因为它会造成 UTXO 集的膨胀，其应用的实际后果已近乎粉尘攻击。
+之前我已经写过，像 BRC 20 这样的东西压根不能被称为 “协议”，因为它根本无法保护使用它的用户。但当时我没有深入了解，我不知道它其实比我想象的还要离谱。
+
+从表面上看，BRC 20 定义了同质化代币的两种操作：“铸造（Mint）” 和 “转移（Transfer）”  ……
+在每一种操作的每一步中，都需要发起比特币交易并在交易输入中写入铭文（Inscription，通过输入的见证脚本在区块中写入数据）。但是，在 BRC 20 中，这些写入铭文的交易所形成的交易输出几乎没有任何意义。这就是问题所在。
+仔细看上面那份文档你会发现，其说法是：
+“BRC 20 的余额状态可通过聚合所有这些函数的活动得出”；但是，所有这些函数的活动都是通过铭文表现出来的，没有任何一个函数的有效性要求花费特定的 UTXO（乃至特定的聪）。不论是你通过铸造还是转移获得了一些 token，在你后续需要转移这些 token 的时候，都不需要花费这笔让你获得这些 token 的交易。
+也即这些 token 实际上并不附身于比特币 UTXO，它们的状态完全由已经写入区块的铭文（以及这些铭文的顺序）决定；改变这些 token 的状态不需要你拥有解锁某个 UTXO 的能力。
+（唯一需要 UTXO 关联的是转移操作的两步，详见下文）
+这种设计对协议的安全性、经济性（可扩展性）和去中心化都有重大影响。首先，因为它不附身于 UTXO，自然也就无法依赖于…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188724"
+                        open
+                      >
+                        <summary class="article-expander__title">大陆Web 3.0从业者如何入驻香港数码港？从募资到入境，看这份指南就够了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188724">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Meta Era
+推特：https://twitter.com/MetaEraCN 
+
+当下香港加密货币市场蓬勃发展，政府支持和利好的政策频出，使得投资者和建设者们对 Web 3.0 和区块链技术充满信心。在这个蓬勃发展的市场中，位于钢线湾的数码港正在成为香港地区新兴 Web 3.0 市场的数字科技旗舰。
+由香港特区政府全资拥有的数码港目前拥有 380 多家金融科技公司，涉及区块链、网络安全、人工智能、大数据、财富管理和交易工程等不同领域，得益于港府积极拥抱虚拟资产，越来越多希望在 Web 3.0 领域里一展身手的项目方开始涌入东方之珠。
+那么，大陆 Web 3.0 从业者怎样才能在寸土寸金的香港拥有一席之地呢？实际上，数码港拥有充足的资金支持、人才资源和场地，Web 3.0 项目方可以充分利用这些丰富资源进行创业创新。本指南将提供最详尽的帮助。
+大陆 Web 3.0 从业者入驻香港数码港基本条件
+首先需要注意的是，现阶段只有在香港注册的公司才能申请入驻香港数码港，那么大陆 Web 3.0 项目方如何在香港注册公司呢？流程其实并不复杂：
+你最先需要的是确定公司类别，目前香港公司类别有股份有限公司和担保有限公司两类，前者有股本且公司成员的法律责任根据其组织章程细则限于各成员所分别持有的股份的未缴款额，后者无股本，公司成员的法律责任限于各成员藉其组织章程细则分别承诺在公司清盘时所支付作为公司资产的款额；然后，你需要有一个公司名称，香港对公司名称的约束要求可参见《香港公司名称注册指引》。
+上面两件简单的事情敲定后，就可以访问香港公司注册处的「注册易」，并按照要求如实提交申请（当然也可以线下提交纸质材料），如申请获批准，香港公司注册处会给你发送电子形式的「公司注册证明书」及「商业登记证」（也有纸质版），这些证书到手，基本上一家公司就完成注册了。
+那么接下来，如何将自己的 …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188779"
+                        open
+                      >
+                        <summary class="article-expander__title">The Block：12张图回顾7月加密市场表现</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188779">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Lars，The Block 研究主管
+原文编译：Luffy，Foresight News
+7 月份，大多数指标都出现大幅度修正。调整后的比特币和以太坊链上总交易量下降 16.9% 至 1880 亿美元（BTC -13.1% ，ETH -21.9 %）：
+
+调整后的稳定币链上交易量下降 12.3% 至 4878 亿美元。稳定币发行量减少 1% 至 1177 亿美元，其中 USDT 市场份额上升至 71.5% ，USDC 下降至 20.9% ：
+
+比特币矿工收入增长 10.1% 至 8.63 亿美元，而以太坊质押者收入增长 17.6% 至 1.405 亿美元：
+
+7 月份总共销毁了 82, 846 ETH，价值约为 1.567 亿美元。 ETH 自 2023 年 1 月以来一直处于通缩状态。自 2021 年 8 月上旬实施 EIP-1559 以来，共有 351 万 ETH（约 100 亿美元）被销毁：
+
+以太坊上 NFT 市场月度交易量下降 20.4% 至 4.25 亿美元。 Blur 连续六个月交易量超越 OpenSea，主要是由于其 BLUR 代币激励措施推动的：
+
+合规的 CEX 现货交易量下降 17.3% 至 2691 亿美元，为 2020 年 10 月以来的最低交易量。
+
+CEX 现货市场份额为：Binance 70.6% ，Coinbase 10.8% ，Kraken 5% ，BTSE 4.6% ，LMAX Digital 3% ：
+
+GBTC 日均交易量增加 1% 至 6500 万美元：
+
+期货市场中，BTC 期货持仓量下降 -8.4% ；交易量下降幅度较大，BTC 月度期货成交量下降 27.1% 至 6372 亿美元。 
+
+CME 比特币期货持仓量下降 15.8% 至 23.4 亿美元（日均成交量下降 2.9% 至 16.3 亿美元）：
+
+至于 ETH 期货，月交易量下降 25.2% 至 3126 亿美元：
+
+最后是期权。BTC/ETH 期权持仓量都大幅下降 （BTC：-38.6% ，ETH：-25 %) 。BTC 期权交易量下降，而 ETH 期权交易量有所上升 。BTC 期权交易量下降 16% 至 189 亿美元，ETH 期权月交易量上升 8.1% 至 107 亿美元：</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188775"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂Bitgert Chain：构建高效安全的公链生态系统</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188775">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>公链作为区块链行业中重要的基础设施，不仅仅是诸多生态得以发展繁荣的基础，更是当下 Web 3 时代不可忽视的流量入口。从比特币到以太坊，再到后来的波卡、Cosmos、Dfinity，以及当下大热的 Layer 2 ……公链及其扩展性领域的竞争从未止步。而竞争背后的逻辑在于，随着区块链行业和加密市场的快速发展，对公链的效率、费用、安全跨链以及易操作性等各方面都提出了更高的要求。那么，在未来十年，区块链生态系统中还需要有什么样的公链来满足市场需求？或许我可以关注 Bitgert Chain 提出的解决方案。
+
+什么是 Bitgert Chain
+一句话概况，Bitgert Chain 创建了一个包括公链、DEX、DeFi、钱包服务、Staking 服务等在内的涵盖加密资产主流业态的全新生态系统。凭借 Bitgert 推出的这一套完整的产品矩阵，每个人都能够更便捷地参与加密货币交易，轻松地找到适合自己的 Web 3 服务。
+Bitgert Chain 于 2021 年 7 月上线，历经两年时间的发展建设。
+接下来快速了解一下 Bitgert 生态系统的主要产品：
+Bitgert Chain 是一个与 EVM 兼容的区块链，每笔交易的 Gas 费低至 0.00000001 美元， TPS 可达 10 万以上；
+BRISE：BRISE 是 Bitgert Chain 网络的原生代币，作为打通 Bitgert Chain 生态系统的重要媒介，它不仅被赋予多样化的权益，比如用户持有 BRISE 可以在 Bitgert Chain 生态系统中享有作为验证者确保区块链的安全性以此获得奖励的权利等。另外，BRISE 采用了通缩的经济模型，每一笔交易 BRISE 所产生的交易费用的 5% 都将被用于 BRISE 回购。随着 Bitgert Chain 生态体系的持续繁荣，可以预见 BRISE 的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188777"
+                        open
+                      >
+                        <summary class="article-expander__title">欧易OKX推出AA智能合约钱包</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188777">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>2023 年 8 月 2 日，Web3 科技公司 OKX 宣布，OKX Web3钱包现已正式推出 AA 智能合约钱包，将支持用户在多条链上使用稳定币 USDT/USDC 支付 Gas。此外，在后续研发迭代中，AA 智能合约钱包也即将支持社交恢复等更多新功能，即使在丢失私钥的情况下，也可以帮助用户通过社交网络中的值得信赖的人进行账户恢复。
+OKX Web3钱包是首批支持多链账户抽象的钱包之一，通过 AA 智能合约钱包，用户可以在一次交易中与多个合约进行交互，极大增强高级用户的多层次需求同时，也增加了初学用户的便捷性，从而创造出对用户更加友好和直观的钱包体验。
+OKX 首席创新官 Jason Lau 表示：“我们的目标是为用户提供最便捷、最安全、最强大的Web3平台，而 OKX AA 智能合约钱包将在实现这一目标方面发挥重要作用。帐户抽象技术将助力Web3的广泛应用，并带来了新的用例和用户体验。我们将继续基于此技术进行开发，为用户提供更多新功能服务。”
+账户抽象通过支持创建Web3钱包账户，将其链上交互的更多技术细节隐藏在更易于访问和以用户为中心的界面后面，从而来简化加密资产交易。这是通过将用户的智能合约和外部拥有账户(EOA)合并为一个「智能账户」来实现的，从而提供更统一的Web3体验。
+基于账户抽象技术打造的 AA 智能合约钱包，简化了区块链交易的复杂性，例如用户面临的最大痛点之一是需要进行复杂的交易流程，并理解诸如“Gas Fees”和“Gwei”等技术术语，而 AA 智能合约钱包则是通过将代币交换或交易所需的步骤，减少到只需单击一次，进而来解决此痛点。
+OKX 首席营销官 Haider Rafique 表示：“我们向客户和广泛的 DeFi 社区承诺，在构建我们的Web3钱包和应用程序时，将优先考虑安全性和互操作性。OKX Web3钱包现已支持 60+公链，MPC 钱包等…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188751"
+                        open
+                      >
+                        <summary class="article-expander__title">玩转Base指南： 除了MEME币外Base链还有哪些值得参与的项目？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188751">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>由 Coinbase 基于 OP Stack 推出的 L 2 网络 Base 最近引起了加密社区的热议，原因在于发行于 Base 之上的模因币 BALD 造就了“一日百倍神话”。 此后，数千万美元的热钱被吸引至 Base 链，土狗成百上千的出现。截止发文时，Base 链 TVL 已突破 8000 万美元。
+
+然而，除了模因币以外，Base 链上有哪些 DeFi 项目可玩？本文整理自 Crypto 研究员 2 Lambro 的推特线程。
+Base 链能够爆火的原因，无非是：
+• Coinbase + OP 的强大知名度
+• 模因币龙头 BALD 的造富神话，价格增长了 X 倍
+然而，Base 链目前只有一个没有前端的单向跨链桥（以太坊 → Base），所以体验起来非常的早期。
+如何看待 Base？是否有发展前景？
+这个问题取决于：
+• Coinbase 在未来会采用何种能够影响生态系统的增长方式？
+• Coinbase 是否为会 Base 链设计激励措施？
+• Base 链能否帮助 Optimism 生态系统作为成功的 L 2 ？能否为 OP 代币带来价值？
+就目前来说，对 Base 的未来下结论还为时过早，因为目前大多数正在运行的 EVM 链只有一种“分叉”罢了。
+加密社区喜欢新鲜事物，但是只是不同“颜色”的相同“玩具”也会很无聊。
+总体而言，Base 链值得一试，因为加密行业常常会奖励那些尝试新事物的人。
+如何玩转当前的 Base 链？
+首先在 MetaMask 钱包中设置 Base 网络，可以通过 Chainlist（Chainlist.org）一键添加网络，也可以手动添加以下内容：
+- Network: Base Mainnet 
+- RPC: https://mainnet.base.org
+- Chain ID: 8453 
+- Currency: ETH 
+- …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188764"
+                        open
+                      >
+                        <summary class="article-expander__title">Horairballoon项目解析：跨链桥变身，Orbiter将成为通用以太坊基础协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188764">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一、行业趋势和现状
+
+区块链技术的出现带来了分布式账本、去中心化等诸多优点，但同时也导致每条区块链形成了一个相对孤立的生态系统。不同区块链之间无法直接交互，这给区块链技术的应用带来了很多限制和挑战。因此，如何实现不同区块链之间的互操作性成为了一个重要问题。
+为了解决这个问题，跨链桥技术应运而生。跨链桥是一种技术手段，可以在不同区块链之间建立连接，实现跨链通信和资产转移。
+通过跨链桥，用户可以将资产从一条区块链转移到另一条区块链，也可以实现跨链智能合约的执行，促进区块链生态系统的融合和发展。
+
+因此，跨链桥是实现不同区块链之间互操作性的关键技术之一，对于区块链技术的实际应用和推广具有重要意义。
+1、跨链桥技术日益成熟，需求及作用彰显
+过去，用户一般会通过中心化交易所来完成跨链操作，例如先把资产转移到中心化交易所，然后再提现到目标链上。
+随着公链生态的不断完善和 DeFi 技术的普及和发展，数字资产的使用场景越来越多，流动性明显增强。
+例如，需要将资产转移到不同链的 DApp 中参与质押、理财等，跨链资产转移的需求日益增多，这催生了跨链桥应用的出现，现在人们越来越倾向于直接使用跨链桥技术来完成不同链之间资产的转移，而不是通过中心化交易所实现跨链。
+2、针对不同 L 2 间的 Rollup 跨链桥
+在目前的公链格局中，以太坊生态的发展依然还是最成熟和最完善的，越来越多的 DApp 选择在以太坊生态上发展。
+但是，以太坊被大家称为“贵族链”，不但 Gas 费用比较贵，而且速度并不能满足对即时性要求比较高的 DApp，于是越来越多的以太坊 Layer 2 出现了，它们在提高性能的同时，同时也继承了以太坊的底层安全性。
+例如，被称为以太坊 Layer 2 四大天王的 Arbitrum、Optimism、Starknet 和 Zksync，发展非常迅猛并且自成生态，各自 Layer 2 …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;24
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188773"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus宏观研报(20230802)：宏观数据疲软，BTC继续小幅盘整</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188773">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>美国经济数据略显疲软，首先 JOLTS 职位空缺数为 958.2 万人，略低于预期的 960 万，同时辞职率也下降至 2.4% ，达到过去两年的低点，关键的“职位空缺对失业人数”的比率稳定保持在 1.6 倍，位于 2021 年以来的周期低点，但从历史标准来看，仍然处于极高的水平。
+
+
+此外， 7 月 ISM 制造业指数 46.4 ，低于预期的 46.9 ，组成项目表现好坏参半，新订单和生产出现增长，就业则是下滑，不过支付价格大幅滑落至 42.6 ，对市场风险情绪来说是正面的消息，各种通胀放缓的迹象都受到风险资产的欢迎。
+
+
+在信贷方面，美联储高级贷款官员意见调查（Senior Loan Officer Opinion Survey, SLOOS）结果显示，第二季度贷款标准再次收紧，且收紧速度稍快， 51% 的银行收紧了对大中型企业的贷款标准（上一季度为 46% ），而 49% 的银行收紧了对小型企业的贷款标准（上一季度为 47% ）；银行仍将收紧贷款标准的原因归咎于经济前景的恶化，但这与公开市场近期对强劲经济数据的解读似乎有些冲突，此外，本季度的贷款需求以及向消费者提供贷款的意愿也较弱。
+
+总体而言，贷款标准目前处于互联网泡沫末期、Lehman 事件和疫情期间所见过的最严格的水平，且预计在接下来两个季度将导致 GDP 减少 0.5% 至 1% ，不过与之前情况不同的是，市场对企业盈利的预期仍然正面、经济数据结果相当良好，加上对美联储 2024 年开始降息有著高度期望，使得市场风险情绪仍保持高涨，股市对于贷款收紧的情况几乎完全不在意。
+
+
+昨天大部分的价格走势都集中在美债，在日本调整 YCC 机制后，日本国债收益率也持续出现调整，加上美国财政部宣布将大幅增加长天期债券发行，以资助其不断扩大的预算赤字，导致 30 年期美债收益率升至 11 月以来的最高水平；财政部将第三季度净借款预测上调至 1 万亿美元，远高于 5 月份预测的 7, 330 亿美元，而今天稍晚将会公布其他季度融资信息，包括各个拍卖的规模。
+30 年期收益率突破今年高点 4.08% ，上涨 10 个基点至 4.11% ，是去年 11 月以来的最高收益率水平，随著通胀数据放缓，且对美联储在 2024 年开始降息的确定性增加，最近的债券市场更容易出现熊陡下跌走势，市场关注焦点开始转向长天期债券供应消化不良的问题。
+
+
+雪上加霜的是，Fitch Ratings 在收盘后宣布将美国长期外币债务发行人评级下调至 AA+，其称“反复的债务上限政治僵局和最后一秒的解决方案已经削弱了人们对财政管理的信心”，因此，美国现在在 S&amp;P 和 Fitch 的评级皆为 AA+， AAA 评级仅剩 Moody&#x27;s。
+虽然这些新闻听起来相当负面，我们仍要警告不要对这些新闻过度反应，因为 S&amp;P 上一次在  2011 年下调评级时，实际上导致了美国国债收益率下降和美元升值，价格反应违背直觉；现代金融市场仍坚定重视货币政策和系统流动性，而不是美国的信誉，因此我们不认为这个调降评级的行动会对债券收益率产生持久的负面影响。
+
+在加密货币方面，夏季的市场相当低迷，7 月份 Bitcoin 现货交易量跌至 2021 年初以来的最低水平，基本上完全回到加密货币进入主流意识前的活跃程度；价格波动率在市场交易兴趣低迷的影响下继续下滑，BTC 的 5 日实际波动率已经远低于 Nasdaq、S&amp;P 500、美元以及黄金的水平；历史上，Bitcoin 波动率很难长时间保持在如此低迷的水平，希望随著暑假结束、我们逐渐进入年末，波动率能有所回升。
+
+
+您可在 ChatGPT 4.0 的   Plugin   Store 搜索  SignalPlus  ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website: https://www.signalplus.com</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188771"
+                        open
+                      >
+                        <summary class="article-expander__title">后Zuzalu时代的DAO生态建设</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188771">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>内容整理：Jomosis
+原文来源：The SeeDAO
+当代年轻人因为老板 PUA、部门内卷、气氛压抑和无穷无尽的会议和周报日报喘不过气，打工人开始审视自我，审视公司制。
+我们好奇：在这个充满不确定性的时代背景下，打工人是否可以逃离这样的痛苦。在所谓的「内卷」和「躺平」之间，看似非左即右的选择中，是否又有第三条路。
+我们邀请了一些行业内对 DAO 的模式颇有见解的项目方和投资人，就我们需要怎样的工作生活模式，以及对于去中心化组织的形式和未来展望进行了圆桌对谈。
+——这注定会对现有的认知产生很大的冲击，会经历漫长的自我怀疑的过程。但往往正是在这个过程中，我们唤醒了感受，也逐渐发现了自己真正想要的生活。
+PART 1 一种新型的社会组织形式—— Zuzalu
+去过 Zuzalu 的嘉宾都认为这是一种类似大学校园的氛围环境。虽然作为一次社会实验，还是很多人所向往的那种自由和开放的一种生活状态。
+刘怿斯
+MaskNetwork 联合创始人 &amp; CTO
+我觉得非常像美国大学的生活。或者说相当于换个地方生活或换一个地方上班而已。
+我还遇到一件有意思的事。这里支付公寓费用时，是根据参与者所持有的护照所在国的人均 GDP 来计算所付金额。比如说，发达国家的参加者需要按照 100% 的人均 GDP 金额来支付房租。但是，对于来自欠发达国家的参与者只需要支付人均 GDP 的 50% 。
+同时我还觉得在 Zuzalu 生活的人是拥有工作特权的，正常人没有机会突然就飞到了另外一个国家，然后生活两个月。因为他们不仅要面对这个 remote work 的问题，还得面临时差的问题，我觉得对于任何一个正常普通人来说都是很难的。所以我会把 Zuzalu 当成一个很 privilege 阶级的一群人的集结。
+Dr.Sun
+社会学学者，comupage 发起人
+从社会学的视角来看，其实下午的交流中大家提到的身…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188765"
+                        open
+                      >
+                        <summary class="article-expander__title">LD Capital：ConsenSys强势背书Linea，能否在竞争激烈的L2突出重围？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188765">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Jill，LD Capital
+
+一、项目简介
+Linea 是 ConsenSys 公司开发的 Layer 2 解决方案，旨在提高以太坊的可扩展性和效率。作为 zkEVM，Linea 利用具有 EVM 等效的零知识证明，使开发人员能够轻松构建可扩展的 dapp 或迁移现有的 dapp。
+1. 团队
+Linea 隶属 ConsenSys 公司旗下产品，ConsenSys 成立于 2014 年，总部位于纽约布鲁克林，其与政府组织机构（美洲开发银行、欧洲委员会、南非储备银行）和商业巨头（微软、摩根大通）都保持良好的关系，是以太坊联盟等加密行业委员会的领导成员。
+ConsenSys 初始业务为风险投资， 2020 年开始进行重组，将公司拆分为 ConsenSys Mesh 和 ConsenSys Software 两个实体。ConsenSys Mesh 作为投资实体，Software 则专注区块链产品开发，旗下产品包括原生加密钱包 Metamask，月活用户超 3, 000 万，是区块链最大的加密流量入口，以及面向开发者的区块链开发工具 Infura，用户数量超过 40 万，是以太坊生态系统中最具影响力和实力的公司之一。
+目前 Metamask 已经从 ConsenSys 拆分出去作为单独实体，Linea 团队成员任职仍然属于 ConsenSys，在领英注册员工数量为 837 位。Linea 可以获得与 ConsenSys 旗下产品的无缝集成，例如在 Metamask 钱包插件中，Linea 是默认存在的，消除用户手动添加网络的体验障碍。
+
+来源：ConsenSys 官网
+2. 融资
+Linea 当前并未进行过单独的融资，其母公司 ConsenSys 从 2019 年至 2022 年共进行过四轮融资，融资金额超过 7 亿美元，参投公司不仅包括顶级加密投资机构 Dragon…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188770"
+                        open
+                      >
+                        <summary class="article-expander__title">别只盯着RWA赛道，预言机赛道同样值得关注</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188770">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Asher Zhang，比推 BitpushNews
+7 月 24 日， OpenAI 首席执行官 Sam Altman 创立的加密货币公司 Worldcoin 宣布推出 WLD 代币，一上线便受到市场热捧，其通过建立链上 ID，正在加速链上信用扩张的速度，这也将大大推动信用预言机发展，那么信用预言机的应用场景都有哪些？加密市场中主流的预言机项目又有哪些呢？
+
+为什么预言机赛道值得关注？
+RWA 本质上是将现实资产引入区块链，使之成为链上资产，从而进一步将链下交易转为链上公开透明的交易。在交易过程中，链下数据需要传导至链上，在这过个过程中，预言机就必不可少。预言机（Oracle）本质上是一种将现实世界数据引入区块链的技术，用于在区块链上获取和验证外部数据的工具。在上一轮牛市周期中，预言机龙头 Chainlink 暴涨便主要得益于「DeFi Summer」的爆火；近期，RWA 赛道大热，现实世界中的各类资产不断上链，预言机的需求也进一步增加。所以，未来 RWA 赛道暴热的过程中，预言机赛道很值得关注。
+除了 RWA 赛道，细分领域上的预言机也很值得关注，比如，L2、信用、NFT、DID 等几个方向都有潜在机会。 L2 预言机主要是 op/zk 两种生态的原生解决方案，低延迟和安全性应当是核心关切要素，喂价便宜相对次要；信用和 DID 方向的预言机更有可能在下一轮牛市爆发，后文会重点提及。
+
+预言机赛道如何分类？
+预言机赛道其实是一个很庞大的赛道，根据不同场景等会有不同的分类。
+从预言机形式看，可将其分为软件预言机、硬件预言机；从数据来源看，可以将其分为中心化预言机和去中心化预言机。中心化预言机通常只集成单个值得信赖的第三方如政府部门、官方机构、信誉良好的公司等提供数据；去中心化预言机是指具有分布式共识机制的预言机，也称为共识预言机。
+除此之外，还有联盟预言机和 TW…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188769"
+                        open
+                      >
+                        <summary class="article-expander__title">Curve创始人开启自救行动：谁在场外收购「打折」CRV？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188769">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Babywhale，Foresight News
+北京时间昨日凌晨，因以太坊编程语言 Vyper 0.2.15、 0.2.16 和 0.3.0 版本受到重入锁故障的影响，使用该语言编写代码的项目遭到攻击，黑客将这些项目在 Curve 上流动性池中的资金盗走，使得 Curve 的 TVL 在 24 小时之间近乎「腰斩」。随着而来的就是 CRV 代币价格的下跌，由于 CRV 流通量接近一半都掌握在创始人 Michael Egorov 手中，而这些代币已几乎全部被用于抵押借贷，如果 CRV 价格持续下跌并到达清算线，数亿美元的抛压将是当前市场流动性无法承受的。
+今日，在 CRV 价格依然跌跌不休之下，Michael Egorov 展开了自救行动，开始偿还部分贷款并取回作为抵押品的 CRV，再卖出 CRV 回笼资金，如此一直循环。或许是因为市场流动性不足以及害怕对价格产生极端影响，Michael Egorov 选择了通过场外交易的方式进行，且售价均为 0.4 美元，相较发文时 CRV 的价格下浮了约 30% 。面对这块送上门来的肥肉，大量投资人和机构参与了这场「折扣季」。值得一提的是，Frog Nation 前 CFO 0x sifu 发推称，Michael Egorov 通过 OTC 卖出的 CRV 存在六个月锁定期，故虽然是打折出售，但短期内可能不会对二级市场产生太大的影响。
+孙宇晨
+孙宇晨花费 200 万美元购买了 500 万枚 CRV，随后表示计划在 Curve 上设立 stUSDT 流动性池。
+
+Wintermute
+0x Scope 研究员 Bobie 披露，被标记为加密做市商 Wintermute Trading 的地址向 0x 4 D 3 开头地址转入共计 100 万枚 USDT，此后 Curve 创始人向该地址转入 250 万枚 CRV。
+
+DCF GOD
+据 Lookonchain 监测，推特名为 DCF GOD 的投资人购买了 425 万枚 CRV。DCF GOD 在今年以及去年参与了包括流动性激励协议 Fluidity 和全链货币市场协议 TapiocaDAO 的投资。
+
+DWF Labs
+在今年频繁出手且似乎资金无限的 DWF Labs 花费 500 万美元购买了 1250 万枚 CRV。
+黄立成
+据 PeckShield 监测，黄立成花费 150 万枚 USDT 购买了 375 万枚 CRV。
+除了上述购买者之外，参与的机构和项目还包括了 Prisma Finance（购买了 125 万枚 CRV）、Cream Finance（购买了 250 万枚 CRV），截至北京时间今日 20: 00 左右，Curve 创始人 Michael Egorov 已出售了 5450 万枚 CRV，回笼了 2180 万枚 USDT。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188768"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | 5公司提交以太坊期货ETF；CZ曾试图关闭Binance.US（8月2日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188768">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>头条
+继 Volatility Shares 后，灰度、Bitwise、VanEck 等 5 家公司提交以太坊期货 ETF 申请
+根据彭博 ETF 高级分析师 Eric Balchunas 在推特上分享的信息，目前有 6 家公司正在申请以太坊期货 ETF。
+继 Volatility Shares 7 月 28 日提交以太坊期货 ETF 申请后，Bitwise、Roundhill、VanEck、Proshares 和 Grayscale（灰度）于 8 月 1 日纷纷跟进，分别是 Bitwise Ethereum Strategy ETF、Roundhill Ether Strategy ETF、Ethereum Strategy ETF、Proshares Short Ether Strategy ETF 和 Grayscale Ethereum Futures ETF（ETHG）。
+美 SEC 此外对 Volatility Shares 的申请作出决定的下个期限为 10 月 11 日，对其他五项申请作出决定的下个期限均为 10 月 16 日。
+
+Volatility Shares 拟推出以太坊期货 ETF，已向 SEC 提交申请文件
+Volatility Shares 拟推出以太坊期货 ETF，于 7 月 28 日向 SEC 提交了申请文件。此前 5 月份灰度、Bitwise Asset Management、Direxion、Roundhill Investments 也曾提出过以太坊期货 ETF 申请，与 SEC 沟通后撤回了申请。（Blockworks）
+行业要闻
+
+知情人士：CZ 今年曾试图关闭 Binance.US，遭到 Binance.US CEO 反对
+两名知情人士透露，CZ 今年早些时候曾试图关闭 Binance.US，以保护币安的整体利益。
+其中一位知情人…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188767"
+                        open
+                      >
+                        <summary class="article-expander__title">版税盈利前十的以太坊NFT，在何时遭遇转折点？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188767">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《Most Profitable NFT Projects by Royalty Earnings on Ethereum》，作者 Nicholas Boey，由 Odaily星球日报 Jessica 编译。
+本文根据从启动到 2023 年 7 月 12 日期间赚取的版税，考察了以太坊上头部 NFT 项目的盈利能力。该分析仅考虑版税收入，不包括任何其他外部收入来源。特许权使用费根据销售时的 CoinGecko 价格数据转换为美元。该研究特别关注基于以太坊的 NFT 集合，得出以下发现：
+以太坊上最赚钱的 NFT 项目
+Yuga Labs (BAYC)利润最高，从 2021 年 4 月 23 日到 2023 年 7 月 12 日，带来了 5910 万美元的特许权使用费，紧随其后的是 Otherside 5330 万美元（特许权使用费）。有趣的是，Otherdeed 赚取的版税中有 81.2% 是在该系列于 2022 年 5 月推出的同一个月产生的，这表明围绕该系列的发布产生了巨大的炒作。
+MAYC 是第三大最赚钱的系列，累计版税为 4370 万美元。这三个系列占 Yuga Labs 整体版税收入的大部分，总计 87.3% 。
+第二个最赚钱的项目是耐克旗下时尚平台 RTFKT，从 2021 年 3 月 3 日到 2023 年 7 月 12 日，该项目累计获得了 8370 万美元的特许权使用费。RTFKT 最赚钱的系列是与著名艺术家村上隆合作的 CloneX ，已产生 3790 万美元的版税。其次是 CloneX Mintvial 和 MNLTH，分别累计 1390 万美元和 1640 万美元。尽管发布了 20 多个系列，但这三个系列构成了 RTFKT 版税收入的大部分，占项目总额的 81.5% 。
+Azuki 开发团队 Chiru Labs 在特许权使用费收入方面排名第三…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188766"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂即将上线Coinlist的原生跨链DEX Chainflip</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188766">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>CoinList 宣布将于北京时间 9 月 1 日 1 点开启 Chainflip（FLIP）代币销售，我们一起来了解下新生代跨链 DEXChainflip。
+Chainflip 是一种去中心化、无需信任的协议，允许在任何区块链（包括 BTC、EVM 和底层网络）之间进行无缝价值转移。
+使用 Chainflip 的即时 (JIT) 自动做市商 (AMM)，用户可以在链之间交换资产，而无需 wrap 代币、使用传统的跨链桥或通过中心化交易所。JIT AMM 从其连接的链和合作聚合器中获取流动性，为用户提供准确、有竞争力的价格和低廉的现货交易费用。
+Chainflip 没有创建新的桥，而是通过集成现有跨链解决方案的优点，同时引入优化机制。
+150 个主要验证器和可扩展的签名算法
+真正去中心化的跨链网络需要大量验证器集，以实现安全性和反审查。Chainflip 每个金库需要多达 150 个验证者。在共享经济安全方面，这种方法优于同类的跨链系统。此外，Chainflip 使用 Schnorr 签名，使这 150 个验证器能够支持大量资产和多个并行签，而不会产生过多的硬件成本。
+JIT AMM 设计可提高资本效率 
+
+Chainflip 的 JIT（即时）AMM 设计通过最大限度地减少滑点并提供精确的定价来解决跨链挑战。它有效地利用大型交易的流动性，充当所有市场的去中心化聚合器。这使得 Chainflip 类似于一种开放透明的去中心化 OTC 服务，实现价格优势。
+代币经济模型
+
+Chainflip Labs 公布代币经济模型并将向社区进行空投。FLIP 是 Chainflip Labs 的 ERC-20 原生代币，预计于 2023 年第二季度推出。该代币的初始供应量为 9000 万，每年通胀率为 8% 。
+分配计划如下：
+（1）将向社区空投 475 万枚 FLIP，分配给在 2020 与 2021 年参与 Service Node 空投计划的服务节点运营商；
+（2） 690 万枚 FLIP 用于代币销售；
+（3） 1300 万枚 FLIP 分配给贡献者；
+（4）约 3, 400 万枚 FLIP 分配给战略投资者；
+（5） 420 万枚 FLIP 分配给 Oxen 基金会；
+（6） 4, 968, 503 枚 FLIP 作为流动资金；
+（7） 2, 200 万枚 FLIP 作为储备资金。
+据悉，Chainflip Labs 融资 1000 万美元，Framework Ventures、Blockchain Capital 和 Pantera Capital 参投，并换取了该公司的股权。Chainflip 创始人兼首席执行官 Simon Harman 称，该初创公司正试图通过简单的界面和用户体验“将资本效率发挥到极致”，从而消除封装代币或小型钱包的需求。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +757,129 @@
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/hw5t5a0d.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Cosmos生态EVM兼容链Evmos 2.0已上线</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/hw5t5a0d.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月2日消息，Cosmos 生态 EVM 兼容链 Evmos 发推表示 Evmos 2.0 已经到来。2.0版本更新包括通过 Evmos EVM 扩展启用 StakeFi 和 IBC 可组合性，可激励持续增长的 Evmos v2 代币经济模型、通过软件许可，以创造与未来 Evmos SDK 链的价值一致性。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/q2efv74d.html"
+                        open
+                      >
+                        <summary class="article-expander__title">火币与 AICoin 达成合作，将全面打通 API 交易功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/q2efv74d.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月2日消息，火币已正式与数据服务商 AICoin 达成深度合作，双方将全面打通 API 交易功能。据了解，随着双方接口的逐步打通，用户即可在AICoin各个端口自由使用火币全币种的现货与合约功能。火币用户将可通过 AICoin APP 以及 PC 端，对火币的全部币种进行搜索，实时获取市场行情、深度图标等信息，并添加自选；同时，火币用户还可以自定义交易策略、利用 AICoin 的数据分析工具进行交易决策，并快速执行交易操作。
+此外，针对此次合作，火币将联合AICoin于8月7日开始上线一系列限时优惠活动，通过AICoin链接注册火币的新用户，将有机会获得Prime4费率优惠等级、交易手续费全返、体验金等多种奖励。活动开放时间为8月7日至20日。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/o5ad5j9p.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Uwerx遭到闪电贷攻击，损失176枚ETH，约32.7万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/o5ad5j9p.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月2日消息，据CertiK官方推特发布消息称，Uwerx (WERX) 遭到闪电贷攻击。攻击者从2笔交易中获利176枚ETH（约合32.7万美元）。行情显示，Uwerx代币价格近乎归零。
+据慢雾分析，被攻击的根本原因是当接收地址为 uniswapPoolAddress（0x01）时，将会多 burn 掉 from 地址的转账金额 1% 的代币，因此攻击者利用 uniswapv2 池的 skim 功能消耗大量 WERX 代币，然后调用 sync 函数恶意抬高代币价格，最后反向兑换手中剩余的 WERX 为 ETH 以获得利润。据 MistTrack 分析，黑客初始资金来自 Tornadocash 转入的 10 BNB，接着将 10 BNB 换成 1.3 ETH，并通过 Socket 跨链到以太坊。目前，被盗资金仍停留在黑客地址 0x605...Ce4。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/6ukg8wdj.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：Grayscale的GBTC和ETHE 7月份营收超4000万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6ukg8wdj.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月2日消息，据 The Block 报道，Grayscale（灰度）的比特币和以太坊信托基金 GBTC 和 ETHE 在 7 月份的预计收入为 4192 万美元，使该公司两个最大基金产品的总收入达到 2.78 亿美元。ETHE 和 GBTC 预计第二季度收入为 1.262 亿美元。 但其母公司 Digital Currency Group 第二季度综合 EBITDA 亏损 7900 万美元，说明整个业务的现金流状况不佳。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/gd13ckv9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：一FalconX存款地址近5日从币安取出超1.2万枚MKR，价值约1600万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/gd13ckv9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月2日消息，据链上分析师余烬监测，0x1157开头的FalconX存款地址近5日从币安取出超12791 枚MKR，价值约1600万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/5kfgwr43.html"
+                        open
+                      >
+                        <summary class="article-expander__title">灰度研究董事总经理：加密市场的前景或将取决于美国经济是否能实现软着陆</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5kfgwr43.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月2日消息，据彭博社报道，加密资产管理公司Grayscale Investments新任研究董事总经理、前高盛策略师Zach Pandl认为，如果美国经济能够实现软着陆，今年加密货币市场的反弹可能还有空间。
+Pandl在一份报告中写道，低通胀和稳定增长的情况可能会通过允许美联储降低实际利率来帮助包括加密货币在内的风险资产。但他表示，“如果央行决定进一步提高实际利率，或者迄今为止的货币紧缩政策导致经济陷入衰退，那么加密货币复苏可能会在短期内暂停。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1060,392 +1873,6 @@ MicroStrategy创始人Michael Saylor在推特上表示，该公司在4月29日�
 Chainflip 是一种去中心化、无需信任的跨链交易协议，允许用户在任何区块链（包括 BTC、EVM 和底层网络）之间进行交换原生资产。
 此前3月，ChainflipLabs公布代币经济模型，称将向社区空投475万枚FLIP。去年，跨链DEX项目ChainflipLabs完成1000万美元融资，Framework Ventures等参投。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188777"
-                        open
-                      >
-                        <summary class="article-expander__title">欧易OKX推出AA智能合约钱包</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188777">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>2023 年 8 月 2 日，Web3 科技公司 OKX 宣布，OKX Web3钱包现已正式推出 AA 智能合约钱包，将支持用户在多条链上使用稳定币 USDT/USDC 支付 Gas。此外，在后续研发迭代中，AA 智能合约钱包也即将支持社交恢复等更多新功能，即使在丢失私钥的情况下，也可以帮助用户通过社交网络中的值得信赖的人进行账户恢复。
-OKX Web3钱包是首批支持多链账户抽象的钱包之一，通过 AA 智能合约钱包，用户可以在一次交易中与多个合约进行交互，极大增强高级用户的多层次需求同时，也增加了初学用户的便捷性，从而创造出对用户更加友好和直观的钱包体验。
-OKX 首席创新官 Jason Lau 表示：“我们的目标是为用户提供最便捷、最安全、最强大的Web3平台，而 OKX AA 智能合约钱包将在实现这一目标方面发挥重要作用。帐户抽象技术将助力Web3的广泛应用，并带来了新的用例和用户体验。我们将继续基于此技术进行开发，为用户提供更多新功能服务。”
-账户抽象通过支持创建Web3钱包账户，将其链上交互的更多技术细节隐藏在更易于访问和以用户为中心的界面后面，从而来简化加密资产交易。这是通过将用户的智能合约和外部拥有账户(EOA)合并为一个「智能账户」来实现的，从而提供更统一的Web3体验。
-基于账户抽象技术打造的 AA 智能合约钱包，简化了区块链交易的复杂性，例如用户面临的最大痛点之一是需要进行复杂的交易流程，并理解诸如“Gas Fees”和“Gwei”等技术术语，而 AA 智能合约钱包则是通过将代币交换或交易所需的步骤，减少到只需单击一次，进而来解决此痛点。
-OKX 首席营销官 Haider Rafique 表示：“我们向客户和广泛的 DeFi 社区承诺，在构建我们的Web3钱包和应用程序时，将优先考虑安全性和互操作性。OKX Web3钱包现已支持 60+公链，MPC 钱包等…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188751"
-                        open
-                      >
-                        <summary class="article-expander__title">玩转Base指南： 除了MEME币外Base链还有哪些值得参与的项目？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188751">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>由 Coinbase 基于 OP Stack 推出的 L 2 网络 Base 最近引起了加密社区的热议，原因在于发行于 Base 之上的模因币 BALD 造就了“一日百倍神话”。 此后，数千万美元的热钱被吸引至 Base 链，土狗成百上千的出现。截止发文时，Base 链 TVL 已突破 8000 万美元。
-
-然而，除了模因币以外，Base 链上有哪些 DeFi 项目可玩？本文整理自 Crypto 研究员 2 Lambro 的推特线程。
-Base 链能够爆火的原因，无非是：
-• Coinbase + OP 的强大知名度
-• 模因币龙头 BALD 的造富神话，价格增长了 X 倍
-然而，Base 链目前只有一个没有前端的单向跨链桥（以太坊 → Base），所以体验起来非常的早期。
-如何看待 Base？是否有发展前景？
-这个问题取决于：
-• Coinbase 在未来会采用何种能够影响生态系统的增长方式？
-• Coinbase 是否为会 Base 链设计激励措施？
-• Base 链能否帮助 Optimism 生态系统作为成功的 L 2 ？能否为 OP 代币带来价值？
-就目前来说，对 Base 的未来下结论还为时过早，因为目前大多数正在运行的 EVM 链只有一种“分叉”罢了。
-加密社区喜欢新鲜事物，但是只是不同“颜色”的相同“玩具”也会很无聊。
-总体而言，Base 链值得一试，因为加密行业常常会奖励那些尝试新事物的人。
-如何玩转当前的 Base 链？
-首先在 MetaMask 钱包中设置 Base 网络，可以通过 Chainlist（Chainlist.org）一键添加网络，也可以手动添加以下内容：
-- Network: Base Mainnet 
-- RPC: https://mainnet.base.org
-- Chain ID: 8453 
-- Currency: ETH 
-- …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188764"
-                        open
-                      >
-                        <summary class="article-expander__title">Horairballoon项目解析：跨链桥变身，Orbiter将成为通用以太坊基础协议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188764">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一、行业趋势和现状
-
-区块链技术的出现带来了分布式账本、去中心化等诸多优点，但同时也导致每条区块链形成了一个相对孤立的生态系统。不同区块链之间无法直接交互，这给区块链技术的应用带来了很多限制和挑战。因此，如何实现不同区块链之间的互操作性成为了一个重要问题。
-为了解决这个问题，跨链桥技术应运而生。跨链桥是一种技术手段，可以在不同区块链之间建立连接，实现跨链通信和资产转移。
-通过跨链桥，用户可以将资产从一条区块链转移到另一条区块链，也可以实现跨链智能合约的执行，促进区块链生态系统的融合和发展。
-
-因此，跨链桥是实现不同区块链之间互操作性的关键技术之一，对于区块链技术的实际应用和推广具有重要意义。
-1、跨链桥技术日益成熟，需求及作用彰显
-过去，用户一般会通过中心化交易所来完成跨链操作，例如先把资产转移到中心化交易所，然后再提现到目标链上。
-随着公链生态的不断完善和 DeFi 技术的普及和发展，数字资产的使用场景越来越多，流动性明显增强。
-例如，需要将资产转移到不同链的 DApp 中参与质押、理财等，跨链资产转移的需求日益增多，这催生了跨链桥应用的出现，现在人们越来越倾向于直接使用跨链桥技术来完成不同链之间资产的转移，而不是通过中心化交易所实现跨链。
-2、针对不同 L 2 间的 Rollup 跨链桥
-在目前的公链格局中，以太坊生态的发展依然还是最成熟和最完善的，越来越多的 DApp 选择在以太坊生态上发展。
-但是，以太坊被大家称为“贵族链”，不但 Gas 费用比较贵，而且速度并不能满足对即时性要求比较高的 DApp，于是越来越多的以太坊 Layer 2 出现了，它们在提高性能的同时，同时也继承了以太坊的底层安全性。
-例如，被称为以太坊 Layer 2 四大天王的 Arbitrum、Optimism、Starknet 和 Zksync，发展非常迅猛并且自成生态，各自 Layer 2 …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;24
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188773"
-                        open
-                      >
-                        <summary class="article-expander__title">SignalPlus宏观研报(20230802)：宏观数据疲软，BTC继续小幅盘整</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188773">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>美国经济数据略显疲软，首先 JOLTS 职位空缺数为 958.2 万人，略低于预期的 960 万，同时辞职率也下降至 2.4% ，达到过去两年的低点，关键的“职位空缺对失业人数”的比率稳定保持在 1.6 倍，位于 2021 年以来的周期低点，但从历史标准来看，仍然处于极高的水平。
-
-
-此外， 7 月 ISM 制造业指数 46.4 ，低于预期的 46.9 ，组成项目表现好坏参半，新订单和生产出现增长，就业则是下滑，不过支付价格大幅滑落至 42.6 ，对市场风险情绪来说是正面的消息，各种通胀放缓的迹象都受到风险资产的欢迎。
-
-
-在信贷方面，美联储高级贷款官员意见调查（Senior Loan Officer Opinion Survey, SLOOS）结果显示，第二季度贷款标准再次收紧，且收紧速度稍快， 51% 的银行收紧了对大中型企业的贷款标准（上一季度为 46% ），而 49% 的银行收紧了对小型企业的贷款标准（上一季度为 47% ）；银行仍将收紧贷款标准的原因归咎于经济前景的恶化，但这与公开市场近期对强劲经济数据的解读似乎有些冲突，此外，本季度的贷款需求以及向消费者提供贷款的意愿也较弱。
-
-总体而言，贷款标准目前处于互联网泡沫末期、Lehman 事件和疫情期间所见过的最严格的水平，且预计在接下来两个季度将导致 GDP 减少 0.5% 至 1% ，不过与之前情况不同的是，市场对企业盈利的预期仍然正面、经济数据结果相当良好，加上对美联储 2024 年开始降息有著高度期望，使得市场风险情绪仍保持高涨，股市对于贷款收紧的情况几乎完全不在意。
-
-
-昨天大部分的价格走势都集中在美债，在日本调整 YCC 机制后，日本国债收益率也持续出现调整，加上美国财政部宣布将大幅增加长天期债券发行，以资助其不断扩大的预算赤字，导致 30 年期美债收益率升至 11 月以来的最高水平；财政部将第三季度净借款预测上调至 1 万亿美元，远高于 5 月份预测的 7, 330 亿美元，而今天稍晚将会公布其他季度融资信息，包括各个拍卖的规模。
-30 年期收益率突破今年高点 4.08% ，上涨 10 个基点至 4.11% ，是去年 11 月以来的最高收益率水平，随著通胀数据放缓，且对美联储在 2024 年开始降息的确定性增加，最近的债券市场更容易出现熊陡下跌走势，市场关注焦点开始转向长天期债券供应消化不良的问题。
-
-
-雪上加霜的是，Fitch Ratings 在收盘后宣布将美国长期外币债务发行人评级下调至 AA+，其称“反复的债务上限政治僵局和最后一秒的解决方案已经削弱了人们对财政管理的信心”，因此，美国现在在 S&amp;P 和 Fitch 的评级皆为 AA+， AAA 评级仅剩 Moody&#x27;s。
-虽然这些新闻听起来相当负面，我们仍要警告不要对这些新闻过度反应，因为 S&amp;P 上一次在  2011 年下调评级时，实际上导致了美国国债收益率下降和美元升值，价格反应违背直觉；现代金融市场仍坚定重视货币政策和系统流动性，而不是美国的信誉，因此我们不认为这个调降评级的行动会对债券收益率产生持久的负面影响。
-
-在加密货币方面，夏季的市场相当低迷，7 月份 Bitcoin 现货交易量跌至 2021 年初以来的最低水平，基本上完全回到加密货币进入主流意识前的活跃程度；价格波动率在市场交易兴趣低迷的影响下继续下滑，BTC 的 5 日实际波动率已经远低于 Nasdaq、S&amp;P 500、美元以及黄金的水平；历史上，Bitcoin 波动率很难长时间保持在如此低迷的水平，希望随著暑假结束、我们逐渐进入年末，波动率能有所回升。
-
-
-您可在 ChatGPT 4.0 的   Plugin   Store 搜索  SignalPlus  ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
-SignalPlus Official Website: https://www.signalplus.com</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188771"
-                        open
-                      >
-                        <summary class="article-expander__title">后Zuzalu时代的DAO生态建设</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188771">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>内容整理：Jomosis
-原文来源：The SeeDAO
-当代年轻人因为老板 PUA、部门内卷、气氛压抑和无穷无尽的会议和周报日报喘不过气，打工人开始审视自我，审视公司制。
-我们好奇：在这个充满不确定性的时代背景下，打工人是否可以逃离这样的痛苦。在所谓的「内卷」和「躺平」之间，看似非左即右的选择中，是否又有第三条路。
-我们邀请了一些行业内对 DAO 的模式颇有见解的项目方和投资人，就我们需要怎样的工作生活模式，以及对于去中心化组织的形式和未来展望进行了圆桌对谈。
-——这注定会对现有的认知产生很大的冲击，会经历漫长的自我怀疑的过程。但往往正是在这个过程中，我们唤醒了感受，也逐渐发现了自己真正想要的生活。
-PART 1 一种新型的社会组织形式—— Zuzalu
-去过 Zuzalu 的嘉宾都认为这是一种类似大学校园的氛围环境。虽然作为一次社会实验，还是很多人所向往的那种自由和开放的一种生活状态。
-刘怿斯
-MaskNetwork 联合创始人 &amp; CTO
-我觉得非常像美国大学的生活。或者说相当于换个地方生活或换一个地方上班而已。
-我还遇到一件有意思的事。这里支付公寓费用时，是根据参与者所持有的护照所在国的人均 GDP 来计算所付金额。比如说，发达国家的参加者需要按照 100% 的人均 GDP 金额来支付房租。但是，对于来自欠发达国家的参与者只需要支付人均 GDP 的 50% 。
-同时我还觉得在 Zuzalu 生活的人是拥有工作特权的，正常人没有机会突然就飞到了另外一个国家，然后生活两个月。因为他们不仅要面对这个 remote work 的问题，还得面临时差的问题，我觉得对于任何一个正常普通人来说都是很难的。所以我会把 Zuzalu 当成一个很 privilege 阶级的一群人的集结。
-Dr.Sun
-社会学学者，comupage 发起人
-从社会学的视角来看，其实下午的交流中大家提到的身…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188765"
-                        open
-                      >
-                        <summary class="article-expander__title">LD Capital：ConsenSys强势背书Linea，能否在竞争激烈的L2突出重围？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188765">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Jill，LD Capital
-
-一、项目简介
-Linea 是 ConsenSys 公司开发的 Layer 2 解决方案，旨在提高以太坊的可扩展性和效率。作为 zkEVM，Linea 利用具有 EVM 等效的零知识证明，使开发人员能够轻松构建可扩展的 dapp 或迁移现有的 dapp。
-1. 团队
-Linea 隶属 ConsenSys 公司旗下产品，ConsenSys 成立于 2014 年，总部位于纽约布鲁克林，其与政府组织机构（美洲开发银行、欧洲委员会、南非储备银行）和商业巨头（微软、摩根大通）都保持良好的关系，是以太坊联盟等加密行业委员会的领导成员。
-ConsenSys 初始业务为风险投资， 2020 年开始进行重组，将公司拆分为 ConsenSys Mesh 和 ConsenSys Software 两个实体。ConsenSys Mesh 作为投资实体，Software 则专注区块链产品开发，旗下产品包括原生加密钱包 Metamask，月活用户超 3, 000 万，是区块链最大的加密流量入口，以及面向开发者的区块链开发工具 Infura，用户数量超过 40 万，是以太坊生态系统中最具影响力和实力的公司之一。
-目前 Metamask 已经从 ConsenSys 拆分出去作为单独实体，Linea 团队成员任职仍然属于 ConsenSys，在领英注册员工数量为 837 位。Linea 可以获得与 ConsenSys 旗下产品的无缝集成，例如在 Metamask 钱包插件中，Linea 是默认存在的，消除用户手动添加网络的体验障碍。
-
-来源：ConsenSys 官网
-2. 融资
-Linea 当前并未进行过单独的融资，其母公司 ConsenSys 从 2019 年至 2022 年共进行过四轮融资，融资金额超过 7 亿美元，参投公司不仅包括顶级加密投资机构 Dragon…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188770"
-                        open
-                      >
-                        <summary class="article-expander__title">别只盯着RWA赛道，预言机赛道同样值得关注</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188770">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Asher Zhang，比推 BitpushNews
-7 月 24 日， OpenAI 首席执行官 Sam Altman 创立的加密货币公司 Worldcoin 宣布推出 WLD 代币，一上线便受到市场热捧，其通过建立链上 ID，正在加速链上信用扩张的速度，这也将大大推动信用预言机发展，那么信用预言机的应用场景都有哪些？加密市场中主流的预言机项目又有哪些呢？
-
-为什么预言机赛道值得关注？
-RWA 本质上是将现实资产引入区块链，使之成为链上资产，从而进一步将链下交易转为链上公开透明的交易。在交易过程中，链下数据需要传导至链上，在这过个过程中，预言机就必不可少。预言机（Oracle）本质上是一种将现实世界数据引入区块链的技术，用于在区块链上获取和验证外部数据的工具。在上一轮牛市周期中，预言机龙头 Chainlink 暴涨便主要得益于「DeFi Summer」的爆火；近期，RWA 赛道大热，现实世界中的各类资产不断上链，预言机的需求也进一步增加。所以，未来 RWA 赛道暴热的过程中，预言机赛道很值得关注。
-除了 RWA 赛道，细分领域上的预言机也很值得关注，比如，L2、信用、NFT、DID 等几个方向都有潜在机会。 L2 预言机主要是 op/zk 两种生态的原生解决方案，低延迟和安全性应当是核心关切要素，喂价便宜相对次要；信用和 DID 方向的预言机更有可能在下一轮牛市爆发，后文会重点提及。
-
-预言机赛道如何分类？
-预言机赛道其实是一个很庞大的赛道，根据不同场景等会有不同的分类。
-从预言机形式看，可将其分为软件预言机、硬件预言机；从数据来源看，可以将其分为中心化预言机和去中心化预言机。中心化预言机通常只集成单个值得信赖的第三方如政府部门、官方机构、信誉良好的公司等提供数据；去中心化预言机是指具有分布式共识机制的预言机，也称为共识预言机。
-除此之外，还有联盟预言机和 TW…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188769"
-                        open
-                      >
-                        <summary class="article-expander__title">Curve创始人开启自救行动：谁在场外收购「打折」CRV？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188769">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Babywhale，Foresight News
-北京时间昨日凌晨，因以太坊编程语言 Vyper 0.2.15、 0.2.16 和 0.3.0 版本受到重入锁故障的影响，使用该语言编写代码的项目遭到攻击，黑客将这些项目在 Curve 上流动性池中的资金盗走，使得 Curve 的 TVL 在 24 小时之间近乎「腰斩」。随着而来的就是 CRV 代币价格的下跌，由于 CRV 流通量接近一半都掌握在创始人 Michael Egorov 手中，而这些代币已几乎全部被用于抵押借贷，如果 CRV 价格持续下跌并到达清算线，数亿美元的抛压将是当前市场流动性无法承受的。
-今日，在 CRV 价格依然跌跌不休之下，Michael Egorov 展开了自救行动，开始偿还部分贷款并取回作为抵押品的 CRV，再卖出 CRV 回笼资金，如此一直循环。或许是因为市场流动性不足以及害怕对价格产生极端影响，Michael Egorov 选择了通过场外交易的方式进行，且售价均为 0.4 美元，相较发文时 CRV 的价格下浮了约 30% 。面对这块送上门来的肥肉，大量投资人和机构参与了这场「折扣季」。值得一提的是，Frog Nation 前 CFO 0x sifu 发推称，Michael Egorov 通过 OTC 卖出的 CRV 存在六个月锁定期，故虽然是打折出售，但短期内可能不会对二级市场产生太大的影响。
-孙宇晨
-孙宇晨花费 200 万美元购买了 500 万枚 CRV，随后表示计划在 Curve 上设立 stUSDT 流动性池。
-
-Wintermute
-0x Scope 研究员 Bobie 披露，被标记为加密做市商 Wintermute Trading 的地址向 0x 4 D 3 开头地址转入共计 100 万枚 USDT，此后 Curve 创始人向该地址转入 250 万枚 CRV。
-
-DCF GOD
-据 Lookonchain 监测，推特名为 DCF GOD 的投资人购买了 425 万枚 CRV。DCF GOD 在今年以及去年参与了包括流动性激励协议 Fluidity 和全链货币市场协议 TapiocaDAO 的投资。
-
-DWF Labs
-在今年频繁出手且似乎资金无限的 DWF Labs 花费 500 万美元购买了 1250 万枚 CRV。
-黄立成
-据 PeckShield 监测，黄立成花费 150 万枚 USDT 购买了 375 万枚 CRV。
-除了上述购买者之外，参与的机构和项目还包括了 Prisma Finance（购买了 125 万枚 CRV）、Cream Finance（购买了 250 万枚 CRV），截至北京时间今日 20: 00 左右，Curve 创始人 Michael Egorov 已出售了 5450 万枚 CRV，回笼了 2180 万枚 USDT。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188768"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | 5公司提交以太坊期货ETF；CZ曾试图关闭Binance.US（8月2日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188768">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>头条
-继 Volatility Shares 后，灰度、Bitwise、VanEck 等 5 家公司提交以太坊期货 ETF 申请
-根据彭博 ETF 高级分析师 Eric Balchunas 在推特上分享的信息，目前有 6 家公司正在申请以太坊期货 ETF。
-继 Volatility Shares 7 月 28 日提交以太坊期货 ETF 申请后，Bitwise、Roundhill、VanEck、Proshares 和 Grayscale（灰度）于 8 月 1 日纷纷跟进，分别是 Bitwise Ethereum Strategy ETF、Roundhill Ether Strategy ETF、Ethereum Strategy ETF、Proshares Short Ether Strategy ETF 和 Grayscale Ethereum Futures ETF（ETHG）。
-美 SEC 此外对 Volatility Shares 的申请作出决定的下个期限为 10 月 11 日，对其他五项申请作出决定的下个期限均为 10 月 16 日。
-
-Volatility Shares 拟推出以太坊期货 ETF，已向 SEC 提交申请文件
-Volatility Shares 拟推出以太坊期货 ETF，于 7 月 28 日向 SEC 提交了申请文件。此前 5 月份灰度、Bitwise Asset Management、Direxion、Roundhill Investments 也曾提出过以太坊期货 ETF 申请，与 SEC 沟通后撤回了申请。（Blockworks）
-行业要闻
-
-知情人士：CZ 今年曾试图关闭 Binance.US，遭到 Binance.US CEO 反对
-两名知情人士透露，CZ 今年早些时候曾试图关闭 Binance.US，以保护币安的整体利益。
-其中一位知情人…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188767"
-                        open
-                      >
-                        <summary class="article-expander__title">版税盈利前十的以太坊NFT，在何时遭遇转折点？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188767">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文：《Most Profitable NFT Projects by Royalty Earnings on Ethereum》，作者 Nicholas Boey，由 Odaily星球日报 Jessica 编译。
-本文根据从启动到 2023 年 7 月 12 日期间赚取的版税，考察了以太坊上头部 NFT 项目的盈利能力。该分析仅考虑版税收入，不包括任何其他外部收入来源。特许权使用费根据销售时的 CoinGecko 价格数据转换为美元。该研究特别关注基于以太坊的 NFT 集合，得出以下发现：
-以太坊上最赚钱的 NFT 项目
-Yuga Labs (BAYC)利润最高，从 2021 年 4 月 23 日到 2023 年 7 月 12 日，带来了 5910 万美元的特许权使用费，紧随其后的是 Otherside 5330 万美元（特许权使用费）。有趣的是，Otherdeed 赚取的版税中有 81.2% 是在该系列于 2022 年 5 月推出的同一个月产生的，这表明围绕该系列的发布产生了巨大的炒作。
-MAYC 是第三大最赚钱的系列，累计版税为 4370 万美元。这三个系列占 Yuga Labs 整体版税收入的大部分，总计 87.3% 。
-第二个最赚钱的项目是耐克旗下时尚平台 RTFKT，从 2021 年 3 月 3 日到 2023 年 7 月 12 日，该项目累计获得了 8370 万美元的特许权使用费。RTFKT 最赚钱的系列是与著名艺术家村上隆合作的 CloneX ，已产生 3790 万美元的版税。其次是 CloneX Mintvial 和 MNLTH，分别累计 1390 万美元和 1640 万美元。尽管发布了 20 多个系列，但这三个系列构成了 RTFKT 版税收入的大部分，占项目总额的 81.5% 。
-Azuki 开发团队 Chiru Labs 在特许权使用费收入方面排名第三…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188766"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂即将上线Coinlist的原生跨链DEX Chainflip</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188766">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>CoinList 宣布将于北京时间 9 月 1 日 1 点开启 Chainflip（FLIP）代币销售，我们一起来了解下新生代跨链 DEXChainflip。
-Chainflip 是一种去中心化、无需信任的协议，允许在任何区块链（包括 BTC、EVM 和底层网络）之间进行无缝价值转移。
-使用 Chainflip 的即时 (JIT) 自动做市商 (AMM)，用户可以在链之间交换资产，而无需 wrap 代币、使用传统的跨链桥或通过中心化交易所。JIT AMM 从其连接的链和合作聚合器中获取流动性，为用户提供准确、有竞争力的价格和低廉的现货交易费用。
-Chainflip 没有创建新的桥，而是通过集成现有跨链解决方案的优点，同时引入优化机制。
-150 个主要验证器和可扩展的签名算法
-真正去中心化的跨链网络需要大量验证器集，以实现安全性和反审查。Chainflip 每个金库需要多达 150 个验证者。在共享经济安全方面，这种方法优于同类的跨链系统。此外，Chainflip 使用 Schnorr 签名，使这 150 个验证器能够支持大量资产和多个并行签，而不会产生过多的硬件成本。
-JIT AMM 设计可提高资本效率 
-
-Chainflip 的 JIT（即时）AMM 设计通过最大限度地减少滑点并提供精确的定价来解决跨链挑战。它有效地利用大型交易的流动性，充当所有市场的去中心化聚合器。这使得 Chainflip 类似于一种开放透明的去中心化 OTC 服务，实现价格优势。
-代币经济模型
-
-Chainflip Labs 公布代币经济模型并将向社区进行空投。FLIP 是 Chainflip Labs 的 ERC-20 原生代币，预计于 2023 年第二季度推出。该代币的初始供应量为 9000 万，每年通胀率为 8% 。
-分配计划如下：
-（1）将向社区空投 475 万枚 FLIP，分配给在 2020 与 2021 年参与 Service Node 空投计划的服务节点运营商；
-（2） 690 万枚 FLIP 用于代币销售；
-（3） 1300 万枚 FLIP 分配给贡献者；
-（4）约 3, 400 万枚 FLIP 分配给战略投资者；
-（5） 420 万枚 FLIP 分配给 Oxen 基金会；
-（6） 4, 968, 503 枚 FLIP 作为流动资金；
-（7） 2, 200 万枚 FLIP 作为储备资金。
-据悉，Chainflip Labs 融资 1000 万美元，Framework Ventures、Blockchain Capital 和 Pantera Capital 参投，并换取了该公司的股权。Chainflip 创始人兼首席执行官 Simon Harman 称，该初创公司正试图通过简单的界面和用户体验“将资本效率发挥到极致”，从而消除封装代币或小型钱包的需求。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9261,8 +9688,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5737496328">
-        <time id="build-timestamp" datetime="2023-08-02T10:07:41.136Z">2023-08-02T10:07:41.136Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5738036831">
+        <time id="build-timestamp" datetime="2023-08-02T11:06:05.269Z">2023-08-02T11:06:05.269Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
