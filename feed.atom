@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-06T21:05:29.121Z</updated>
+    <updated>2023-08-06T22:06:06.362Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -3766,69 +3766,6 @@ Rollups 和区…]]></summary>
 此外，针对此次合作，火币将联合AICoin于8月7日开始上线一系列限时优惠活动，通过AICoin链接注册火币的新用户，将有机会获得Prime4费率优惠等级、交易手续费全返、体验金等多种奖励。活动开放时间为8月7日至20日。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uwerx遭到闪电贷攻击，损失176枚ETH，约32.7万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/o5ad5j9p.html</id>
-        <link href="https://panewslab.com/zh/articledetails/o5ad5j9p.html"/>
-        <updated>2023-08-02T09:59:56.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月2日消息，据CertiK官方推特发布消息称，Uwerx (WERX) 遭到闪电贷攻击。攻击者从2笔交易中获利176枚ETH（约合32.7万美元）。行情显示，Uwerx代币价格近乎归零。
-据慢雾分析，被攻击的根本原因是当接收地址为 uniswapPoolAddress（0x01）时，将会多 burn 掉 from 地址的转账金额 1% 的代币，因此攻击者利用 uniswapv2 池的 skim 功能消耗大量 WERX 代币，然后调用 sync 函数恶意抬高代币价格，最后反向兑换手中剩余的 WERX 为 ETH 以获得利润。据 MistTrack 分析，黑客初始资金来自 Tornadocash 转入的 10 BNB，接着将 10 BNB 换成 1.3 ETH，并通过 Socket 跨链到以太坊。目前，被盗资金仍停留在黑客地址 0x605...Ce4。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SharkTeam：Uniswap V4 Hook最佳安全实践]]></title>
-        <id>https://www.odaily.news/post/5188789</id>
-        <link href="https://www.odaily.news/post/5188789"/>
-        <updated>2023-08-02T09:51:03.000Z</updated>
-        <summary type="html"><![CDATA[近期 Uniswap Lab 官宣了下一代 AMM Uniswap V4 的开发进展，并公开了白皮书和代码仓库。这次 V4 的白皮书仅仅只有 3 页，原因是 V4并没有对 AMM 的核心算法逻辑做太多修改，而是在 V3 的基础上，增加了一些新的特性，以满足更多的场景需求。SharkTeam 将基于目前已开源的代码，来看看 V4 带来了哪些新的特性，并针对V4推出的重要特性 Hook 分析最佳应用实践。
-一、V4与V3的差别
-1.1 AMM
-在 AMM 算法层面，Uniswap V4 并没有对 V3 做修改，依然使用基于恒定乘积 x*y=k 的流动性算法。
-在 Uniswap V3，每一个交易对可以有 4 个池子（原本是 3 个，后来增加了一个新的 1 bp pool），分别代表 0.01% , 0.05% , 0.3% , 1% 费率的池子，这些池子对应的 tick space 也各不相同，在创建池子的时候，只能选择这 4 种中的任一个。
-在 Uniswap V4，每一个交易对理论上可以有任意数量的 pool，并且每一个 pool 的 fee rate 也可以是任意值，这些 pool 的 tick space 也可以是任意值。
-这同时也带来了一个问题：Uniswap V4 中交易对的流动性将被碎片化，因此需要一个更有效的 router/aggregator 来帮助用户找到最优的交易路径。
-1.2 Hooks
-Hooks 是一组由第三方或者 Uniswap 官方开发的合约，在创建 pool 的时候，pool 可以选择绑定一个 hook. 之后在交易的特定阶段，pool 都会自动调用与之绑定的 Hook 合约。Uniswap V4 一共定义了这些可以执行 hook 合约代码的阶段：
-
-beforeInitialize
-
-afterInitialize
-
-beforeModify…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：Grayscale的GBTC和ETHE 7月份营收超4000万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/6ukg8wdj.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6ukg8wdj.html"/>
-        <updated>2023-08-02T09:41:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月2日消息，据 The Block 报道，Grayscale（灰度）的比特币和以太坊信托基金 GBTC 和 ETHE 在 7 月份的预计收入为 4192 万美元，使该公司两个最大基金产品的总收入达到 2.78 亿美元。ETHE 和 GBTC 预计第二季度收入为 1.262 亿美元。 但其母公司 Digital Currency Group 第二季度综合 EBITDA 亏损 7900 万美元，说明整个业务的现金流状况不佳。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一览Lens Protocol Web3社交技术栈实践]]></title>
-        <id>https://www.odaily.news/post/5188781</id>
-        <link href="https://www.odaily.news/post/5188781"/>
-        <updated>2023-08-02T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Web2 是平台化的时代，无论是代码、托管用户个人资料的数据库还是用户通信信息都放在同一个实体下托管。Web3 在底层架构上和 Web2 存在根本不同，所有以上这些功能都是解耦的，用户个人资料、数据存储和 DM 都由不同的协议提供支持，此外，其无需许可的开放性和可组合性支持第三方开发者构建任何可用应用和构建新的用户体验，为生态添砖加瓦。
-Lens Protocol 是一个基于 Polygon 构建的 Web3 社交图谱协议，作为重要的 Web2 社交媒体平替之一，其采用开放的去中心化底层架构创建的做法，让其在短短时间形成了一个繁茂的生态系统，除了项目方本身开发的应用，还出现了大量的第三方应用，以及数个可兼容的去中心化社交技术栈。
-究其根本，这要得益于区块链所固有的「无需许可的开放性和可组合性」，这意味着开发者无需许可即可自行构建任何可用的应用，而不仅仅是依赖核心开发者。而包括 Lens Protocol 在内所有的社交媒体技术栈都可无需许可地被开发者用于构建任何去中心化应用。
-那么，除了 Lens Protocol，还有哪些可用的去中心化技术栈呢？本文列出一系列可用于构建 Web3 社交应用相关的技术栈，BlockBeats 认为，作为 Web3 龙头协议，Lens Protocol 创始人 Stani 本人在该条推文中发布的去中心化技术栈极具代表性。值得注意的是，考虑到 Web3 日新月异的发展进度，本文并未详尽所有去中心化社交相关的技术栈。
-Huddle 01 
-一键开会。使用 Web3 登录，创建代币支持的 spaces，支持使用 NFT 化身和去中心化存储。
-Livepeer
-Livepeer 是一个去中心化的视频转码服务，可将需要视频转码服务的应用与执行转码的节点（协调器）连接起来。
-Livepeer 提供去中心化视频编码服务。以 Lens 上的应用 Lenstu…]]></summary>
-        <author>
-            <name>区块律动BlockBeats</name>
         </author>
     </entry>
     <entry>
