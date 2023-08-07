@@ -51,769 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-07 datetime="2023-08-07T11:00:00.000Z">2023-08-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-07 datetime="2023-08-07T11:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-07 datetime="2023-08-07T13:30:20.000Z">2023-08-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-07 datetime="2023-08-07T13:30:20.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188904"
-                        open
-                      >
-                        <summary class="article-expander__title">一文详解街机帐户：成本20美分，链上游戏的金钥匙</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188904">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>得益于 Play-to-earn 的模式，像 StepN 这样的 GameFi 游戏迅速走红，并带动越来越多的资金涌入赛道。据区块链游戏平台服务商 Blockchaingamer 统计，截至 2022 年 11 月，区块链游戏领域的投资额高达 25.6 亿美元。但由于经济模型和基础设施尚未成熟，资本加持之下的 GameFi 概念很快就冷却下来。
-2023 年，人们将发展目光转向全链游戏。对于全链游戏来说，除了游戏中的数字资产，游戏的所有逻辑也都在链上发生，这意味着游戏合约的每一次状态变化都需要在链上注册，玩家需对游戏中的每一次操作都执行签署交易，对于像 RTS 即时战略这样的高频操作游戏来说是非常糟糕的玩家体验。
-会话密钥（Session Key）是一个为了解决加密原生游戏所固有糟糕游戏体验的应对方案，旨在利用帐户抽象和 Starknet 上的一些巧妙创新，让加密游戏玩家无需为每一次操作频繁签名交易。而今天，Loot Realms 发布了基于会话密钥的首个实现——街机帐户（Arcade Accounts）。有了 Arcade Account 功能后，玩家可将密钥安全地存储在浏览器存储中，无需对每一次游戏中的「攻击」操作进行签名，从而实现更流畅的玩家体验。
-街机帐户到底是什么？其运行原理又是什么样的？在解答这些问题之前，先来了解一下会话密钥（Session Key）。
-会话密钥是什么？
-会话密钥是 Briqs、Realms 和 Topology 三家团队于 1 年前在 Starknet 黑客松上联合发起的一个创意，旨在利用帐户抽象和 Starknet 上的一些巧妙创新，解决加密原生游戏所固有的糟糕体验——玩家需为游戏中的每一次操作执行交易签名。
-在链上游戏场景中，每一次游戏中的操作行为都会跳出一个钱包弹窗，并需要用户确认「你想确认这项交易吗？」，同时还有一些大多数人无法解读的内容，这可能会导致错误、混乱，甚至丢钱。
-会话密钥允许用户预先批准与特定 Dapp 的交互规则，比如，仅限特定的持续时间，最大的 Gas 限值，对代币的最大交易量进行限制，或特定合约的特定功能等。这样，游戏玩家就可以在这些限定的规则内随心所欲交互，而不必签署每一笔交易。
-换句话说，有了会话密钥，玩家可以在享用 Dapp 乐趣的同时，同时确认自己的资产是受保护的。因为 Session keys 已经限制了 Dapp 什么可以做，什么不能做。这意味着你在玩链上游戏的时候，不会被无休止的确认所困扰，同时清楚钱包里最有价值的资产是安全的。
-Arcade Accounts 是什么？
-街机帐户（Arcade Accounts）则是 Realms 团队首次使用帐户抽象在 Starknet 上首个对会话密钥（Session keys）的实现。
-通过采用（限制权限的）中间件，允许 Realms 玩家创建新型的街机帐户，这可极大地改善链上游戏的用户体验。
-
-本质上，一个街机帐户就是一个 Starknet 帐户，不过带有一些功能上的变体，这包括：
-- 每一个 Arcade 帐户均有一个主帐户
-- 除了主帐户，其他级别的帐户无法将 ETH/Tokens 转出
-- 其他帐户只能签署交易，除非经过身份验证
-也就是说，Arcade 帐户仅提供有限的玩家功能，这些权限的限制可将安全风险降至最低，即使街机帐户被利用，攻击者也无能为力，因为主帐户可以提取所有资金，并创建一个新的街机帐户。
-Starknet 所特有的「声明合约」方法，可将添加一个 Arcade 帐户的成本降低至 20 美分左右。
-街机帐户的体验到底如何？Loot Realms 在轻量级小游戏 Loot Survivor 中展示了一个 Arcade 帐户为游戏玩家带来的直观感受——「流畅的游戏内交互体验，无需为每一次攻击操作签名」。
-在没有使用街机帐户时，玩家需对游戏中的每一次攻击操作进行消息签名，等待较长的确认时间，添加 Arcade Account 之后，用户可将密钥安全地存储在浏览器存储中，则无需进行消息签名，直接进行游戏中的攻击操作。
-
-以上仅仅是将合约作为帐户（Contracts as Accounts）实现的一些基本功能，Loot Realms 接下来将实现两项高级功能：ETH 不足时自动充值和当代币到达帐户时转出。
-实际上，会话密钥并非 Starknet 专属技术，而全链游戏的 Session Key 功能也只是账户抽象（Account Abstraction）所解锁的用例之一，随着账户抽象方案的普及和扩展，钱包将会变得更加安全也更易于使用，Web3 世界将迎来更多的用户。
-参考内容：
-https://twitter.com/lordOfAFew/status/1687976673902538752
-https://www.defidaonews.com/article/6773674</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188905"
-                        open
-                      >
-                        <summary class="article-expander__title">用市盈率评估ETH：越贵越买反直觉</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188905">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：SAM ANDREW
-原文编译：深潮 TechFlow
-以太坊具有生产性资产的特点，它能够产生利润，这些利润归属于代币持有者。但是，它是否像股票一样被视为一种生产性资产呢？以太坊的估值倍数是否会影响 ETH 的价格？
-估值倍数是一种评估资产价值的启发式方法。谷歌的市盈率为 30 倍。英伟达的市盈率为 230 倍。如果谷歌目前的盈利持续 30 年，那么需要 30 年才能收回对谷歌的投资。如果谷歌的盈利增长，所需年数将更少。相对于英伟达而言，谷歌的估值较低。价格估值，例如 30 倍与 230 倍之间的差异，不是投资回报的唯一驱动因素，但却是一个重要因素。昂贵的资产，如英伟达，其当前估值倍数中蕴含了高增长的预期。如果它们无法达到这些高预期，价格将会暴跌。
-类似的估值倍数也可以应用于加密货币。市值除以总费用是一种加密货币的估值倍数。市值代表市场对资产价值的当前看法。费用是协议所产生的总收入。区块链的收入类似于它在整个网络中分配的利润。因此，区块链的收入和盈利倍数是相同的。
-以太坊的估值倍数是多少？
-以太坊目前的交易估值是其七天年化费用的 100 倍。自 2022 年夏季以来，以太坊的费用倍数在 25 倍和 235 倍之间波动（参见下图：自 2022 年低点以来的 ETH 价格和市值/费用）。
-
-意想不到的关系
-上面的图表显示了以太坊价格和估值倍数之间的反向关系。购买以太坊的最佳时机是在 2022 年底，当时以太坊的价格约为 1200 美元。然而，恰好在那个时候，以太坊的估值倍数更高，达到了 200 倍的费用。到了 2023 年春季，以太坊的价格接近 2000 美元，但其费用倍数降至 50-100 倍。
-价格和估值倍数之间的反向关系是出乎意料的。通常情况下，当资产的估值倍数较低时，它更具投资价值。在资产达到拐点之前，倍数通常较低。市场意识到资产被低估。价格开始上涨，估值倍数…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188909"
-                        open
-                      >
-                        <summary class="article-expander__title">从做市基金出发，Solv V3引领链上资产走向多元化新纪元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188909">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>尽管市场处于熊市之中，行业中仍存在诸如做市、LSD 等真实收益来源，然而多数散户的财富不但没有增值反而承受了损失。
-以做市为例，作为 DeFi 最早的真实收益来源之一，早期的做市策略和操作方式都很简单，即便伴随着行情上升出现一定的无常损失，但总体收益仍然非常可观。而如今，以 Uniswap 为代表的老牌 DEX 已经经过了几次迭代，GMX 一类新兴协议作为行业最高收益来源之一也为 LP 提供了更灵活的功能和策略空间，DeFi 参与需要配合更多灵活高效的策略，同时具备一定的风控管理能力。普通散户在 DeFi 市场中的生存空间越来越小，想要获得更高的收益越来越难。
-另一方面，加密市场并不缺少可以带来增值收益的实体，专业的 DeFi 做市团队就是在这样的行业趋势下出现的，他们利用专业的量化交易工具制定交易策略辅之以严密的风险管理，赚取着可观收益，而散户却只有眼红的份。散户想从中分一杯羹就要撬动专业团队的智慧，问题的关键是专业团队的策略和散户的资金如何连接与匹配。专业策略团队难以建立信任自证清白、也无从创造金融工具拓展融资渠道，信任问题和金融工具的缺失导致专业策略很难扩大规模。
-Solv Protocol 自 2020 年 8 月创立以来，一直致力于降低链上金融工具的创造与使用门槛，相继推出了行业首个 1.5 级市场流动性解决方案 Vesting Voucher，以及第一个链上债券市场，实现了超过 1 亿美金的债券发行与交易。2023 年 3 月正式推出的 Solv V 3 定位链上基金平台，实现了链上基金发行、交易与清结算的全流程标准。Solv V 3 背后是一个通用的基金基础设施，由两个关键模块组成：
-1）链上基金协议，支持基金创造、发行与交易；
-2）多环节链上风控体系，从资产筛选、资金权限、清算等多环节保护资金安全。
-
-7 月 31 日，Solv V 3 正式推出首个灵活申赎…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188910"
-                        open
-                      >
-                        <summary class="article-expander__title">OKX成为新加坡TOKEN2049峰会的冠名赞助商及主要演讲嘉宾</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188910">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>8 月 7 日，全球领先的加密资产交易所和Web3科技公司 OKX 宣布成为亚洲首屈一指的Web3加密货币峰会「TOKEN 2049 」的冠名赞助商以及主要演讲嘉宾。
-TOKEN 2049 将于 2023 年 9 月 13 日至 14 日在新加坡举行，预计将迎来超过 10, 000 名与会者，或成为今年规模最大的Web3活动。
-OKX 总裁 Hong、OKX 首席营销官 Haider Rafique 以及 OKX 全球首席商务官 Lennix Lai 已确认受邀出席并发表演讲。此外，两位杰出的 OKX 大使 F1 车手 Daniel Ricciardo 和奥运会单板滑雪选手 Scotty James、以及 OKX 首席营销官 Haider Rafiqu 也将在会议第一天一起受邀参加 TOKEN 2049 的炉边对话。
-
-图：F1 车手 Daniel Ricciardo(左)、奥运会单板滑雪选手 Scotty James(右)
-OKX 总裁 Hong 表示：“TOKEN 2049 新加坡是一个让行业团结起来的好机会，倡导让加密货币惠及更多最需要它的人群。随着我们从中心化信任系统到去中心化信任系统的转变，此次会议是让我们分享 OKX 如何在亚洲及其他地区进一步推广加密行业应用愿景的重要和有趣的方式。”
-OKX 首席营销官 Haider Rafique：“这是我们连续第二年将 TOKEN 2049 和新加坡大奖赛结合起来，是把加密行业和 F 1 球迷聚集在一起的良好开端。今年我们通过最新的“The System Needs a Rewrite”活动，帮助人们看到Web3的未来，而新加坡是我们发力的主要场所，Daniel Ricciardo、Scotty James 和我还可能将在本次大会的炉边对话中给与会者一个惊喜。”
-OKX 全球首席商务官 Lennix Lai 表示：“新加坡是将 TOKEN 2049 的各种Web3创新者聚集在一起的理想场所，这些人都在为行业发展奠定良好基础的层面发挥着重要作用。我期待在本次大会上讨论关于新加坡监管格局如何演变、以及Web3公司如何通过加强透明度、安全性和合规性来与用户和监管机构建立信任等主题时做出贡献。”
-关于 OKX
-OKX 是全球领先的加密货币交易所和Web3科技公司。OKX 以提供速度与可靠性兼备的加密货币交易应用程序，深受全球超五千万用户信任。
-OKX 与英超冠军曼城（Manchester City F.C.）、迈凯轮 F 1 车队（McLaren F 1 Team）、奥运会单板滑雪选手 Scotty James 以及 F 1 车手 Daniel Ricciardo 紧密合作，希望通过全新的互动方式增强粉丝体验。此外，OKX 亦是翠贝卡电影节（Tribeca Festival）的顶级合作伙伴，致力吸引更多创作者进入Web3领域。
-除 OKX 交易所服务外，OKX 最新推出 OKX Web3钱包服务，旨在为用户提供探索 DeFi、NFT、DEX、GameFi 等的一站式Web3入口。
-OKX 致力于提高透明度和安全性，并每月定期发布储备金证明报告。
-免责声明
-本公告仅供参考。本公告无意提供任何投资、税务或法律意见，也不应被视为购买、出售或持有数字资产的要约。持有包括稳定币在内的数字资产风险较高，市场波动亦可能较大，您甚至可能会损失全部资产价值。您应根据您的财务状况及风险承受能力，仔细考虑您是否适合交易或持有数字资产。OKX 不会提供任何投资或资产建议。您本人必须为您作出的投资决定负上全责，而 OKX 亦不会就任何损失承担责任。往绩亦不代表未来的结果。如您对自身具体情况有任何疑问，请咨询您的法律/税务/投资专家。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188907"
-                        open
-                      >
-                        <summary class="article-expander__title">宏观周报(8.7)：全球定价之锚飙升带来的影响</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188907">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>概述
-
-上周，受到美债被下调评级的影响，长期债券价格大跌，主要发达国家股指下跌，尽管周五美国就业报告公布后小幅反弹，但最终还是全部回吐。
-
-过去一周尽管美股 2 季报表现总体良好，但股市整体并未出现进一步上涨。宏观数据仍较为稳健，但已经接近预期上限。
-
-全球风险偏好下降，新兴市场货币普遍大跌，美元上涨，也压制了黄金价格。但油价上涨，因有消息称沙特阿拉伯自愿减产将延续至 9 月甚至更久。
-
-数字货币一度受到美债评级下调的利好刺激，但最终随全球风险偏好一起回落。稳定币从链上和交易所双流出。
-
-考虑到美股已超过 4 个半月未见调整，出现 3 – 5% 的小幅回调不足为奇，该时长已远超过典型的 2 – 3 个月调整的周期。
-
-市场要点
-美国国债收益率倒挂收窄：上周，两年期与十年期国债收益率差距缩小了 20 个基点，是自 2008 年 3 月银行危机以来的最大缩小幅度。主要因长端利率上升更快，十年期国债收益率本周上涨 8 个基点至 4.03% 。在 7 月就业数据公布后早盘曾一度升至 4.20% ，与去年 10 月 21 日的峰值仅差 2 个基点，当时是自 2008 年 6 月以来的最高收益率水平。
-
-与此同时，两年期国债收益率下滑 11 个基点至近三周低点 4.77% 。市场预期美联储 9 月 20 日会议加息 25 个基点的概率由 19% 下降至 13% 。
-债券收益率长涨短跌，并伴随加息预期下降，这样的走势在过去两年里非常少见。
-新兴市场：上周全球出现避险情绪，新兴市场货币承压。例如，南非兰特下跌 4.5% ，俄罗斯卢布下跌 3.9% ，哥伦比亚比索下跌 3.7% ，人民币小跌 0.35% 。
-股市表现：Nasda q 1 00 指数下跌近 3% ，为自硅谷银行危机( 3 月 10 日)以来最大跌幅；S&amp;P 500 下跌 2.3% ，为 3 月以来最大单周跌幅，公用事业股大跌 …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188868"
-                        open
-                      >
-                        <summary class="article-expander__title">一周融资速递 | 13家项目获投，已披露融资总额约为8837万美元（7.31-8.6）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188868">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>经 Odaily星球日报不完全统计， 7 月 31 日-8 月 6 日公布的海内外区块链融资事件共 13 起，较上周数据（15 起）有所下降，已披露融资总额约为 8837 万美元，较上周数据（1.1 亿美元）有所下降。
-上周，获投金额最多的项目为开源软件安全解决方案 Socket 和美国区块链“挖矿即服务”生态平台 Xgminer（2000 万美元）；此外，Web3麻将链游平台 Mahjong Meta 凭借着亮眼的资方阵容吸引了一定关注。
-以下为具体融资事件（注： 1. 依照已公布金额大小排序；2. 不含基金募资及并购事件；3. *为部分业务涉及区块链的“传统”领域公司）：
-
-
-开源软件安全解决方案 Socket 完成 2000 万美元 A 轮融资，a16z领投
-8 月 2 日，开源软件安全解决方案 Socket 宣布完成 2000 万美元 A 轮融资，a16z 领投，Abstract Ventures、Wndrco、Unusual Ventures，以及包括 Box 联合创始人 Aaron Levie、Figma 联合创始人 Dylan Field、Okta 联合创始人 Frederic Kerrest、Vercel CEO Guillermo Rauch 和 Eventbrite 联合创始人 Julia 和 Kevin Hartz 在内的多名天使投资人参投。
-
-Socket 首席执行官 Feross Aboukhadijeh 表示，加上此前 460 万美元种子轮融资，Socket 融资总额达到 2460 万美元。新融资将被用于扩充 Socket 团队，并支持和集成更多编程语言。
-该公司客户包括 Brave、Figma 和 Vercel（后两家公司的联合创始人已投资 Socket）。Aboukhadijeh 预计，如果公司保持目前的发展轨迹，在未来几个月内，公司的规模将…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188896"
-                        open
-                      >
-                        <summary class="article-expander__title">一览“Curve事件”中关键利益团体的资金动向</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188896">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>7 月 30 日，因 Vyper 部分版本（0.2.15、 0.2.16 和 0.3.0）存在功能失效的递归锁漏洞，Curve 稳定币池 alETH/msETH/pETH 遭遇攻击。受 Curve 部分稳定币池攻击事件影响，Alchemix、JPEG&#x27;d、Metronome、deBridge 和 Ellipsis 目前累计损失约为 7000 万美元：
-
-
-Alchemix： 7259 枚 ETH 和 4821 枚 alETH（约 2200 万美元）；
-
-JPEG&#x27;d： 6106 枚 ETH (约 1140 万美元）；
-
-Metronome： 866.554 枚 ETH (约 160 万美元）， 955 枚 smETH（约 170 万美元）；
-
-CRV-ETH pool： 1.05 万枚 ETH（约 1940 万美元）， 719 万枚 CRV（约 440 万美元）。
-
-
-
-受攻击影响，CRV 价格下跌，创始人借款面临清算风险
-受攻击影响，在 7 月 31 日，Curve Finance 总锁仓量（TVL）已由 7 月 30 日的 32.66 亿美元降至 18.69 亿美元， 24 小时降幅为 42.78% ，CRV 价格 24 小时跌幅为 14.89% 。
-而 CRV 价格下跌走势迫使 Curve 创始人 Michael Egorov 在 Aave 上的 7000 万美元借款头寸面临清算风险。鉴于此，Egorov 通过 OTC 出售 CRV，换得资金来还贷款。
-自 8 月 1 日开始 OTC 出售以来，截止 8 月 6 日，Egorov 已累计向 30 家投资者/机构出售了 1.4265 亿枚 CRV ，换得资金 5706 万美元。
-截至 8 月 6 日，Egorov 在四个平台上仍抵押 2.698 亿枚 CRV（约合 1.66 亿美元），债务规模约为 4870 万美元。
-
-攻击者归还资金
-
-7 月 30 日，漏洞利用者 coffeebabe.eth 将 786 枚 ETH（145 万美元）和 955 枚 smETH（174 万美元）归还给 Metronome，将 2879 枚 ETH（536 万美元）归还给 Curve Finance；
-8 月 3 日，Curve 基金会向漏洞利用者发送了链上消息，如果攻击者在 8 月 6 日上午 8 点（UTC）之前归还剩余的 90% ，将获得被盗资金的 10% 作为赏金；
-8 月 4 日，攻击者 0x6ec 向 JPEG&#x27;d 归还了 5495 枚 WETH ( 1000 万美元) 并保留了 610 枚 ETH ( 110 万美元) 作为 10% 赏金；攻击者 0xdce 向 AlchemixFi 返还 2258 枚 ETH ( 415 万美元) 和 4820 枚 alETH ( 882 万美元)；
-8 月 5 日，0xdce 向 AlchemixFi 返还 4999 枚 ETH（918 万美元），已全部返还；
-8 月 6 日， 32% 的被盗资产（约 1870 万美元）尚未归还： 
-
-来自 MetronomeDAO（由 coffeebabe.eth 保管）的 80 枚 ETH（1.47 万美元） ；
-
-来自 CRV-ETH 池的 7681 枚 ETH（1440 万美元）和 719 万枚 CRV（443 万美元）。
-
-截止发稿，在 Curve Finance Vyper 漏洞利用中被盗的 5950 万美元中，约 4030 万美元已经归还， 56 万美元作为黑客的赏金，约 1870 万美元仍未被 CRV/ETH 漏洞利用者归还（0xb752...b324）。
-
-8 月 7 日，Curve Finance 发推称，CRV/ETH 漏洞攻击者自愿归还资金的截止日期已过，将提供赏金对任何提供导致黑客被捕和定罪信息的人的报酬（目前为 185 万美元）。
-此外，Odaily星球日报特别提示，近日 X（即 Twitter）上出现一些账户冒充 Curve 官方，诈骗账户往往标有蓝色或黄色标记，需注意防范。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188900"
-                        open
-                      >
-                        <summary class="article-expander__title">“胖企鹅”CEO亲笔长文：NFT发展的六大要点</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188900">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>8 月 5 日，推特 KOL Gary 发帖称，投资者应该意识到 PFPs 类 NFT 的商业扩展只会帮助项目方创收，但不会给持有者带来任何收益，因此不应该把 PFPs 视作股票。
-对此，NFT 项目「胖企鹅」（Pudgy Penguins）的首席执行官 Luca Netz 发布了一篇长文予以驳斥。文中，Luca Netz 分六个层面系统性地阐述了品牌商业化对 NFT 项目发展的重要意义，包括通过“漏斗”模型解释了收益将如何最终流向 NFT 的持有者们，以及结合供需关系解释了为什么有些蓝筹 NFT 项目会逐渐归零。
-
-作为熊市期间表现最为亮眼的 NFT 项目之一，自去年二月 Luca Netz 接手项目以来，「胖企鹅」不但走出了历史阴霾，还在其他 PFPs 类项目地板价持续阴跌之时一度刷新了 ETH 本位的历史峰值。也正是因此，Luca Netz 的声誉在 NFT 业界持续走高，许多项目方会将其视作榜样和楷模，希望通过模仿、学习其操作来复刻「胖企鹅」的成功。
-
-考虑到 Luca Netz 在最近的这篇文章中较详尽地梳理了其对 NFT 发展的思路，该内容对于同赛道从业者而言或许会有一定的参考意义。以下为 Luca Netz 原文内容，由 Odaily 星期日报编译。
-
-Gary 的观点非常糟糕。
-在下文中，我会向你解释为什么这种思维方式从根本上就是错误的，以及为什么这个观点非常糟糕。
-为了明确地阐述我的看法，我将列出直接支撑「为何打造一个全球知名品牌是为 NFT 持有者积累价值的最佳途径」的 6 个要点。
-要点 1 ：市场营销（Marketing）
-
-NFT 是一种有限资源，随着兴趣和需求的增长，你所持有的 NFT 自然会积累价值。
-NFT 需要通过市场营销来走向成功。每个人都想要即时的价值转换，然而在深熊期间，这是不可能的。当 NFT 处于热炒阶段时市，一些公告可能会引发巨…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188903"
-                        open
-                      >
-                        <summary class="article-expander__title">YGG暴涨，一览三家加密游戏公会国库与市值对比</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188903">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：0 xscarlettw，Investment Manager @Mint Ventures
-总结：
-
-YGG：几乎全是 YGG，流动资产不到 4% ；
-
-Merit Circle 国库平衡得最好，稳定币+蓝筹，NFT 和其它游戏资产几乎一半一半；
-
-GuildFi 国库：以太坊信仰者， 1/4 LSD 稳健收入+ 9% U+大半 GF。
-
-YGG：几乎全是 YGG，流动资产不到 4% 
-FDV 269 M, mcap 49 M。
-
-国库情况： 203 M YGG, 6.3 M USDT 其余忽略不计。
-
-市场流动性：今日流动性特别好，交易量小几亿，但几个月前其实已经萎缩到几百万了。
-评：市场给 YGG 的估值应该很大一部分在它的品牌价值、一级投资和用户。如果看国库的话，这个资金也太不平衡了…（6.3 M 稳定币，价值 203 M 的 YGG，FDV 270 M &amp; mCap 49 M）不排除 Arkham 有钱包没打标签的情况。
-YGG 的一级没看到很好的总结，之后有时间搞一下。
-Merit Circle 国库平衡得最好，稳定币+蓝筹，NFT 和其它游戏资产几乎一半一半
-coingecko ：FDV 134 M, mcap 93 M(mcap 基本跟国库总量齐平）。
-
-国库情况： 38 M usdt/usdc, 7 M 蓝筹（wBTC, uni, weth etc.）， 3 M NFT, 45 M 其它游戏 token。
-
-评：MC 应该是国库资金分配最稳健的一个，稳定币比例最高（40% ），部分较为均匀分配的蓝筹，NFT、一级（45% ）和可交易的游戏代币（3.9% ）。重要的是，它的 MC/FDV 约 60% ，没有如 YGG（20% 不到）的大抛压出现。
-国库内 MC 价值 0.3 M（0.31% ），抛压最不集中的代币之一。
-目前市场给出的估值（mCap）很符合 MC 对自身国库的估值，由于投资的一级游戏在现在的市场下可能还打折，可能实际价值要更低一点。
-GuildFi 国库：以太坊信仰者， 1/4 LSD 稳健收入+ 9% U+大半 GF
-
-国库情况（链上）（公开 medium） : 41 M GF， 23 M stETH, 8.7 M USDT/USDC
-
-评： 1/4 给 LSD 还蛮有意思的，以太坊信仰者.jpg
-Medium 对大半 liquid asset 是自己的 GF 避而不谈 lmao, 但 market cap 也显示了市场对此还是有点数的。但 market cap 也显示了市场对此还是有点数的。不过 mCap&lt;stables+stETH，还是有点低估了。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188892"
-                        open
-                      >
-                        <summary class="article-expander__title">ETH周报 | 7家公司提交以太坊期货ETF申请；Vyper编译器漏洞影响多个DeFi协议（7.31-8.6）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188892">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一、整体概述
-以太坊编程语言 Vyper 发布有关上周漏洞事件的事后分析报告。7 月 30 日，由于 Vyper 编译器中的潜在漏洞，多个 Curve 流动性池被攻击，该漏洞本身是一个未正确实施的重入防护，受影响的 Vype 版本为 v 0.2.15、v 0.2.16、v 0.3.0 。该漏洞已在 v 0.3.1 中修复和测试，V 0.3.1 及更高版本是安全的。然而，当时并没有意识到对有效合约的影响，也没有通知下游协议。Vyper 表示，未来将采取几个步骤来提高使用 Vyper 编译的智能合约的正确性。
-目前有 7 家公司正在申请以太坊期货 ETF。继 Volatility Shares 7 月 28 日提交以太坊期货 ETF 申请后，Bitwise、Roundhill、VanEck、Proshares 和 Grayscale（灰度）于 8 月 1 日纷纷跟进，分别是 Bitwise Ethereum Strategy ETF、Roundhill Ether Strategy ETF、Ethereum Strategy ETF、Proshares Short Ether Strategy ETF 和 Grayscale Ethereum Futures ETF（ETHG）。8 月 3 日，ETF 发行商 Direxion 再向美国 SEC 提交比特币和以太坊期货 ETF 申请。该产品名为“Direxion Bitcoin Ether Strategy ETF”，将投资于比特币和以太坊期货合约，同时还可投资于其他有期货产品敞口的 ETF。
-二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1850 美元，阻力位 1900 美元。
-
-二、二级市场
-
- 1.现货市场
-OKX 行情数据显示，上周 ETH 一度反弹至 1879 美元，周内收于 1829 美元，环比下跌 2…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188902"
-                        open
-                      >
-                        <summary class="article-expander__title">剖析DAI稳定币年化利率8%的收益来源，如何参与？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188902">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：@Cook 0x
-本文将细说年化利率 8% 的收益来源，以及什么是 DSR 和 EDSR。由于 MakerDAO 没有官方的存款页面，还将为大家介绍 4 个实现 $DAI 存款的位置和步骤。
-首先做一个概念科普： MakerDAO 的 DSR 即 - Dai Savings Rate，可以简单理解为稳定币 $DAI 的存款利率，将 $DAI 存款合约中即可自动获得收益，相当于现实世界的活期存款。
-本次提出的 8% 利率严格来说是一个新的机制 EDSR 即 - Enhanced Dai Savings Rate，是当前利率模型的增强版本。
-先说收益来源， 8% 的收益率我们都知道已经超过了美国国债以及其他优质的投资标的收益，所以它是否是真实收益？
-首先它是暂时性利率，采用阶梯计算。EDSR (增强型 Dai 储蓄利率) 是一个在 DSR 利用率较低时临时提高用户存款动力的措施，EDSR 根据 DSR 的利用率确定，并随着利用率的增加而逐渐减小。
-什么是 DSR 的利用率呢？
-简单来说就是 $DAI 存入了 DSR 的量与总量的比，也就是说随着越多的 $DAI 存入了 DSR，那么利率将会逐渐降低。
-如下图，在利用率50% 以后，利率将降至 4.16% 。
-
-同时需要注意的是，EDSR 是一种一次性、单向临时机制，这意味着 EDSR 只能随着时间的推移而减少，即使 DSR 利用率下降，也无法再次增加。
-简单说， 8% 可能只有这一次机会。
-经过上面的分析基本了解了 8% 的收益来源，原理是假设 MakerDAO 100% 的稳定币资产都去买了 RWA，那只有不到 20% 的 $DAI 在领收益，那么整体的收益率就是溢出的，这部分就构成了「 8% &gt; 国债收益」的来源。(具体真实数据这里需要精确计算) 相当于减少了 DAO 本身的收益，然后分给了 $DAI 的存款人。
-如何操作？- DeFiSaver (Smart Saving)
-https://app.defisaver.com/smart-savings
-- 在 [Smart Saving] 中选择 Maker DSR；
-- 在 Supply 中输入要存款的金额；
-- 右侧显示了每周/每月/每年的预估收益。
-
-如何操作？- DeFiSaver (Spark)
-https://app.defisaver.com/spark
-- 在 Spark 的 Supply 窗口中将币种切换到 $DAI；
-- 提供 DAI 后转换成 sDAI，可以用于抵押品借款；
-- Spark 是 MakerDAO 旗下的借贷协议，sDAI 相当于 Aave 中的 aDAI，这里相当于可以在得到 DSR 的存款利率同时进行借款。
-
-
-如何操作？- SummerFi
-https://summer.fi/earn
-- 在 Earn 页面中选择 Maker，后续操作与 DeFiSaver 类似。
-
-
-如何操作？-chai.money
-http://chai.money
-$CHAI 可以理解为是一种封装代币，它可以自动帮你积累 $DAI 在 DSR 中的本金和利息。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188878"
-                        open
-                      >
-                        <summary class="article-expander__title">Hotairballoon项目解析：LayerZero推出的首个解决”桥接三难困境”的跨链桥</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188878">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一、背景
-首先，随着区块链行业的不断发展，出现了各种形态的链，例如 Layer 1、Layer 2、Layer 3、侧链、Rollups 等，有同构链也有异构链，而且，每条区块链上，又分为很多个不同的协议。
-这些不同的区块链、不同的协议，把区块链的世界，割裂为一座座的信息孤岛，大量的加密资产分布在这些不同的链及不同的协议之上，这无疑降低了资金的利用效率。
-而跨链桥的出现，则可以在这些不同的链之间搭建起桥梁，可以把一个链上的资产，桥接到其它区块链上。
-例如，Coinbase 推出的二层网络 Base 跨链桥的出现，可以把其它链上的加密资产，桥接到 Base 网络上，用户可以享受到 Base 链的一些早期红利，与此同时，通过跨链桥也可以把 Base 链上的资产桥接到其它区块链。
-跨链桥的出现，大大提高了资金的利用效率。
-
-根据 defillama 的数据统计，在当前的 DeFi 格局中，跨链桥 TVL 总量排名第四，达到了 97 亿美元的体量，仅次于 Dex 赛道。
-另外，在跨链桥赛道中，普遍存在着安全性低、费用高、跨链速度慢等问题。而 Stargate 就是在这样的背景下出现的。
-二、Stargate 协议概述
-
-Stargate Finance 是基于 LayerZero 的多链跨链桥协议，由 LayerZero Labs 于 2022 年 3 月创建，同时也是第一个基于 LayerZero 协议的 DApp，是一种可以实现多条区块链之间的资产转移的协议。
-Stargate 的目标是简化将资产从一条区块链转移到另一条区块链的过程，省去繁琐的锁定、铸造、燃烧和赎回等步骤，以实现一次交易完成转移的便利性。
-由于 Stargate 是搭建在 LayerZero 上的跨链协议，所以谈到 Stargate，就需要从 LayerZero 谈起。
-什么是 LayerZero
-LayerZ…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188857"
-                        open
-                      >
-                        <summary class="article-expander__title">LD Capital：新近POW项目速览</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188857">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Duoduo, LD Capital
-
-自以太坊转为 POS 模式之后，占据市场大多数注意力的公链也多为 POS 模式。不过，POW 模式也依然处于发展之中。典型代表如 KAS，提出了新的 POW 区块链模式。由于 KAS 的持续上涨，新的 POW 项目也逐渐引起资金和社区的注意。本文介绍几个近期市场表现尚可的 POW 项目。
-一、市场表现
-
-来源：coingecko, LD Capital
-备注：本文数据截至 2023 年 8 月 1 日。
-从上表可以看到，这几个项目上线的时间尚不足一年，市值在 5000 万美元以下，近两个月价格获得不错的涨幅。
-此外，Dynex、Neurai 的团队处于匿名状态，未对外披露信息。Microvision Chain 的联合创始人（推特：@Jason_K 0001）为中国人，官网未披露具体履历经验。
-二、叙事
-新的 POW 项目，都结合当前的市场环境和热点提出了各自的叙事重点。
-Dynex
-Dynex 是基于 DynexSolve 芯片算法的神经形态超级计算区块链，提出有用工作量证明 (PoUW)方法，来提高去中心化网络的速度和效率。
-DynexSolve 可以运行“神经形态芯片”，这种芯片在一系列计算任务上的性能优于传统计算方法。神经形态计算机是当今许多人工智能和机器学习的天然平台。Dynex 希望在此基础上为人工智能、机器学习、金融科技、生物医药等提供算力。
-Dynex 主要采用的是 GPU 的算力，根据 hiveon.com 算力管理平台的统计，DNX 当前的算力占比达到了 14% ，是该平台所统计的算力范围内第一大的 pow 代币。
-Microvision Chain
-Microvision Chain 的目标是建立具有较高扩展性的 pow 公链，成为比特币二层，提高效率，降低费用。该协议主要提出了三个方面的改进： 1）基…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188874"
-                        open
-                      >
-                        <summary class="article-expander__title">SignalPlus宏观研报(20230807)：加密市场持续横盘，复制2018年走势？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188874">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>周五的市场在波动中为动荡的一周划下句点，首先是“好坏参半”的就业数据，整体就业人口增长 18.7 万，低于预期，前值也下修了 5 万，不过失业率 ( 3.5% ) 走跌，且工资增长高于预期；拆解数据后可以看到，服务业中的医疗保健和教育领域就业表现强劲，但被休闲和酒店业行业的放缓所抵消。
-
-
-非农就业数据呈现的信息混杂，足以让“依赖数据”的美联储陷入两难（周五收盘时，年底前加息的可能性仍低于 20% ），而美债终于出现了缓解性反弹， 10 年期收益率在盘中下跌了 11 个基点，但这些仍不足以挽救艰难的一周，美债出现了自 2 月份以来最大的单周波动，SPX 指数则经历了 3 月份以来最糟的一周，而尽管原油价格上涨了 10% 以上，大宗商品的表现仍是自 6 月份以来最差。
-
-
-不出所料，在过去一周，科技股和利率敏感型类股因利率飙升而表现较差，而能源股是唯一上涨的板块，原油期货价格自 6 月底的低点已经上涨了 20%  ，居高不下的通胀压力、沙特阿拉伯和 OPEC+ 国家的石油减产以及美国战略石油储备 (SPR) 处于历史低点，共同推动了原油价格走势，预计这种趋势在短期内可能会持续。
-
-在股市方面，由于就业数据不冷不热，市场认为足以阻止美联储进一步加息，股市试图在此叙事上展开又一次的反弹，然而，在纽约时间刚过下午 1 点后，市场突然出现抛售，SPX 指数在没有消息的情况下迅速下跌 1.5% ，这是自 3 月份反弹开始以来我们没有真正看到过的技术面看跌走势；此外，在发布第二季度财报后， Apple 已完全打破今年以来的上行趋势线，反转向下，而股市 VIX 也终于从 4 个月的沉睡中苏醒。在大多数市场参与者看多，且多头敞口回到历史高点的此刻，我们是否终于看到股市出现暂时性的顶部、正好赶上以季节性来说较具挑战的秋季？唯有时间能告诉我们答案了，不过周三的 CPI 数据或许可以提供另一个关键线索。
-
-在加密货币方面，BTC 再次出现横盘走势，连续 8 个交易日的收盘价变动幅度未超过 1%  ，这是自 2022 年圣诞/新年假期以来最长的横盘走势，而上一次出现这种情况还要追溯到 2018 年。
-
-在 DeFi 方面，Curve 事件仍未落幕，不过最坏的情况似乎已经过去了，黑客已经开始退还部分窃取的资金（Alchemix 追回了 1, 200 万 的 ETH，JPEG 追回了 1, 000 万），而 Curve 创始人 Michael Egorov 似乎通过向 OTC 买家出售 CRV 代币偿还了约 5, 000 万的 DeFi 借款（价格约为 0.40 美元 vs 现货价格 0.62 美元），希望这已经是这波 FUD 的尾声，虽然这个事件对流动性的负面影响可能还会持续一段时间。
-
-
-
-您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
-SignalPlus Official Website：https://www.signalplus.com</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188876"
-                        open
-                      >
-                        <summary class="article-expander__title">Glassnode最新研报：龙头项目表现优异，DeFi正在卷土重来？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188876">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文来源：Glassnode
-原文编译：比推 BitpushNews Tracy
-2023 年的监管环境一直是积极和消极消息之间的一场拉锯战，其中受到最大影响的是山寨币和 DeFi 代币。随着 MKR 和 COMP 在最近几周表现出显著的超额收益，我们探讨如何从去中心化交易所（DEX）流动性的变化中提取信息。
-摘要：
-1. 数字资产行业的几个积极发展以及 DeFi 领域内的进展，激发了投资者对 DeFi 代币的重新兴趣。
-2. DeFi 代币兴趣的增加引起了市场做市商的关注，他们增加了相应池子的流动性，表明在这些代币周围的交易和价格活动展望积极。
-3. 进一步分析 Uniswap 的交易量分布显示，其中相当一部分的交易活动可以归因于机器人，这些机器人主要关注 ETH-稳定币交易对。
-山寨币再次受到青睐吗？
-在过去几个月中，山寨币市场一直在积极和消极的新闻事件之间进行拉锯战，受到几个关键发展的推动：
-6 月初，美国证券交易委员会（SEC）将 68 种加密货币标记为未注册的证券，这使得比特币和以太坊以外的山寨币市场兴趣受到抑制。在此消息之前，许多这些代币的表现就已经不佳，我们在我们的报告《应对 DeFi 下行趋势》中有所涉及。
-像黑石集团（BlackRock）和富达（Fidelity）这样的金融巨头提交比特币现货交易所交易基金（ETF）的申请，导致市场情绪上升，并波及比特币以外的数字资产领域。
-此外， 7 月中旬的 Ripple Labs 与 SEC 的官司判决认定，该加密公司在公开交易所出售其 XRP 代币并未违反联邦证券法，这为其他美国加密项目和整个行业发出了积极的信号。XRP 的胜诉为替代币投资者提供了一定的希望，认为其对进一步的监管行动具有一定的韧性。
-特别是与 DeFi 领域相关的代币表现最为强劲，我们的 DeFi 指数价格自 6 月 11 日低点以来上涨了 56% …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188873"
-                        open
-                      >
-                        <summary class="article-expander__title">Web3大规模采用来了，解析前沿技术账户抽象背后的叙事</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188873">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：欧科云链研究院
-原文作者：毕良寰
-1971 年，美国计算机工程师发出了第一封测试 Email，打破了在同一台计算机内部的信息交流限制，而近期热议的账户抽象（Account Abstraction，也被称为 AA)就是 Web 3 时代的“Email”，是一种可以使区块链账户可编程的新模式。这种新模式带来在账户应用上的无限潜力，为 Web 3 大规模采用提供了技术基础。笔者在分析整个账户抽象过程时，发现其背后的解析才是 Web 3 大规模采用不可或缺的关键。
- Web 3 大规模采用的技术突破——账户抽象  
-区块链技术发展多年，但进入主流视野的总是局限在资产这个较为单一的形式，其应用的发展一直受制于可拓展性等问题的困扰。而账户抽象热议的原因之一是它的技术设想就是针对公链的难题之一——可拓展性来提出的，旨在支持更多的应用场景，为了迎接 Web 3 应用百花齐放的时代，就如同 20 世纪 90 年代初至中期，随着技术基础的不断发展，互联网爆发，直到现在，我们所看到的上市公司市值排名前三的公司，前两家均为互联网科技公司，市值达 2 万亿美元以上，而这就是 Web 3 行业众人期待的下一个阶段。
-昨日，OKX 宣布推出首款 AA 智能合约钱包，一改目前市场链上资产钱包账户不可编程，只能实现存储和转移简单功能的状态。
-账户抽象最初是由以太坊创始人 Vitalik Buterin 在 2014 年提出，其过程就像 Email 把邮件地址抽象成为一个统一的标识符，从而来实现自我管理和控制的电子邮件系统一样，运用可编程的方式，可以使区块链账户更加灵活、高效、可管理和可控制。账户抽象带来的可编程可以使资产完全由智能合约持有，为用户提供了更加灵活和高效的账户管理自托管体验。其本质是自托管（self-custody)的用户体验扩展。
-
-图:抽象的逻辑
- 账户抽象解析，过滤无效信息  
-可以提供解析的链上基础设施对于账户抽象来说尤为重要，因为账户抽象的交易过程很像《机器人瓦力》里将地球垃圾压成块，然后就没有了后续的动作，日复一日，年复一年。这种独特的交易过程会导致用户在操作和管理资产时面临额外的复杂性和技术难度，打包在一起的信息无法单独抽离出来呈现你真正想看的信息。
-目前行业里已有多个项目在尝试账户抽象，例如以太坊、区块链 Layer 2 技术方向的 StarkNet。但支持解析账户抽象的基础设施还很少，欧科云链 OKLink 区块链浏览器是目前可提供账户抽象解析为数不多的选择，同时也是唯一支持查询用户操作的可视化窗口。
-如果想要找到打好包的那一抹绿色，账户抽象的解析就是关键。通过欧科云链 OKLink 多链浏览器，就可以像使用谷歌一样来查询账户抽象的具体有效信息即特定的用户操作（User Operation)。这样，我们既可以通过账户抽象智能合约发起交易，还能知道该操作具体的过程、路径、成本和执行效果。账户抽象的解析（Account Abstraction Analysis) 作用就是帮助用户了解区块链上交易和合约执行的相关信息，包括交易费用、合约执行的相关信息和日志，从而更好地了解智能合约的执行情况等等。
-
-图 OKLink 区块链浏览器查询 Uop 详情
-通过 OKLink 区块链浏览器展现出的账户抽象解析过程缩短了 Web 2 与 Web 3 用户之间的距离，让技术以自然、高效、无缝地融入商业现实世界，以至于用户无需特别注意或意识到它的存在。
- 化繁为简，新技术应“隐身”  
-无论是账户抽象的技术理念，还是科技公司推出的每一款产品，都在无限追求产品用户体验。优秀的设计应该是无形的，“设计不仅仅是外观和感觉，设计还包括产品的功能和使用方式。” 苹果公司创始人乔布斯如是说。
-“润物细无声”，在多链浏览器的用户体验上，欧科云链 OKLink 团队让新技术“隐身”，让用户使用谷歌一样去使用 OKLink，为整个行业打造链上数据的闭环。
-欧科云链 OKLink 多链浏览器基于前期积累的数据优势（已支持 29 条公链全节点数据查询，几乎囊括了目前行业内主流的公链），已在短时间内快速支持以太坊、OKTC、Polygon、Arbitrum 等 7 条公链的账户抽象解析，根据公链本身不同账户模型与标准，提供目前市场上最佳的账户抽象跨链交互和数据查询的用户体验。
-让新技术“隐身”，像苹果一样化繁为简，基于链上数据的多种分析工具将助力 Web 3 走向更大规模采用。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188872"
-                        open
-                      >
-                        <summary class="article-expander__title">多维度盘点Paradigm十大关注领域相关项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188872">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者： defioasis，吴说 Real
-原文编辑：Colin Wu
-注：本文仅作信息分享，不为所述项目背书，与所述项目无任何利益相关。
-近日， Paradigm 发布英雄帖，希望与加密领域的优秀团队和人才合作，去解决重要的业务和研究问题。 Paradigm 于 2018 年成年，在 2021 年 11 月筹集了 25 亿美元的风险基金。作为一家以研究为导向的技术投资公司， Paradigm 为整个行业输送了许多优秀的项目，其投资的 Uniswap、 Lido、 Blur 等成为了其各自赛道的中流砥柱。
-在最新的英雄贴中， Paradgim 表示其探索的重要领域包括：以“意图”为中心的协议和基础设施、构建在 Uniswap v4 上的 Hooks （尤其是专注于 LP 盈利能力和损失与再平衡）、面向以 Rollup 为中心的多链世界基础设施、共享排序器、全链游戏、加密原生社交应用、预测市场（创造具有真实的流动性市场）、稳定币支付/金融科技、链上国债和 ZKP apps 。
-本文将从项目进展、融资、链上数据、社交关注度等多个维度去盘点 Paradigm 所关注重点领域的项目。
-以“意图”为中心的协议和基础设施
-过去开发者设计和开发出符合一定规范或标准的协议，这些协议在功能、性能和安全性等方面会有明确的规定，但往往会忽视最终用户的实际需求与使用意图。以意图为中心，是从用户的角度出发，以用户的目标或意图为指导，设计出具有更好的用户体验和匹配用户需求的协议和基础设施。
-Anoma
-Anoma 可能是有史以来首个明确以“意图”概念并作为核心架构去设计的协议。 Anoma 以意图核心性，引入了新的基元（构成系统或程序的基础部件或操作），使得现有的 Web 2.5 dAPPs 可以实现完全的去中心化，如 Optimism 和 ZK rollups、 DEXs、 NFT Market…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188870"
-                        open
-                      >
-                        <summary class="article-expander__title">解读币安研究院Telegram Bots报告：赛道前景和风险</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188870">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Jie Xuan Chua， Binance Research
-原文整理：深潮 TechFlow
-Telegram 上的各种 Bots 代币，前阵子以惊人的涨幅引起大家注意。虽然目前价格有所回落，但处在早期起伏中的叙事仍值得关注。
-币安研究院发布了 Teleram Bots 的研究报告，指出 Telegram 机器人的累计交易量已超过 1.9 亿美元,单日最高交易量达 1000 万美元。
-机器人交易模式是怎样的，整个赛道未来发展如何，又有哪些可能存在的风险？
-深潮对该报告进行了整理和解读，以下是核心观点。
-关键要点：
-
-Telegram 机器人通过提供如交易、空投刷取等功能,以更加用户友好的方式让他们通过移动设备参与加密活动。
-
-Telegram 机器人的累计交易量已超过 1.9 亿美元,单日最高交易量达 1000 万美元。
-
-Telegram 机器人通过收取交易费用以及代币买卖「税费」获利。总收入已超过 2870 万美元。
-
-现阶段很难判断真实需求量,目前的火爆很大程度上是因代币价格上涨所驱动。但短期内这一领域仍将持续发展。
-
-Telegram 机器人交易一般流程
-
-用户在 Telegram 机器人的频道内输入命令,机器人会生成主菜单。
-
-用户可以在菜单里设置新钱包或者连接已有的钱包，用提供的地址给钱包充值。
-
-而后执行不同类型的交易,例如买卖代币、空投刷取、复制交易等。
-
-
-评价：
-
-相比现有的 DeFI 前端, Telegram 机器人提供了一个更友好、便捷的用户体验 ( 对更初阶的用户来说）。
-
-Telegram 拥有 8 亿月活跃用户, 切那部分在电报上「耳濡目染」但没有进圈的用户其实是个好选择。
-
-Telegram 机器人常见功能及对比
-
-交易 (Trading):可以通过 Telegram 直接买卖代币。
-
-空投刷取 (Sniping):代币上新时可…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188866"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | Elon Musk：X永远不会推出加密货币；Global X重新提交现货比特币ETF申请（8月7日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188866">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>头条
-灰度：千禧一代和 Z 世代选民可能会决定 2024 “比特币选举”年的结果
-灰度（Grayscale）发布报告称，千禧一代和 Z 世代选民可能会最终决定“比特币选举”的结果，因为他们越来越担心自己的财务状况。据悉，Cathie Wood 和 Balaji Srinivasan 将 2024 年称为“比特币选举”（Bitcoin election）。
-灰度团队研究这些趋势与即将到来的 2024 年美国总统大选有何关系。首先，比特币目前处于一个美国总统选举周期的最高价格；比特币目前的交易价格超过 29, 000 美元，而 2020 年第四季度上一个选举周期的高点约为 20, 000 美元。
-其次，可以说同样重要的是，对机构尤其不信任、同时又担心其未来财务状况的人群，可能是 2024 年之前最关键的选民群体。
-在 2024 年的美国总统选举中，预计年轻人将成为历史上最大比例的选民。早期的报告指出，到 2024 年，千禧一代和 Z 世代将占美国选民的 44% 。
-灰度指出，随着 Donald Trump、Ron DeSantis、Joe Biden 和 Robert Kennedy Jr.等知名政治家开始表达他们对比特币和更广泛的数字资产行业的立场，比特币可能会在政治上变得越来越重要。“这些事实和比特币生态系统的持续成熟似乎表明，比特币现在和将来都会比以往任何时候都更与美国大选相关。事实上，早期的政治候选人已经开始更广泛地分享比特币和加密货币的立场。”
-灰度还表示，当选的总统对比特币和数字资产的立场很重要，因为他们将负责任命美国 SEC 和 CFTC 等监管机构的负责人。“美国总统候选人对比特币和加密货币的看法很重要，不仅因为总统领导着国家，还因为总统负责任命 50 多个独立联邦委员会的负责人，这些委员会可以对加密货币的各个方面产生影响，包括美国 SEC、CFTC、美联储和财…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188865"
-                        open
-                      >
-                        <summary class="article-expander__title">深入探讨重入攻击如何盗走Curve池7000万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188865">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文《A Deep Dive Into How Curve Pool’s $ 70 Million Reentrancy Exploit Was Possible》，作者：Ann，由Odaily星球日报 jk 编译。
-近期的 Curve 池漏洞与我们在过去几年里看到的大多数加密货币黑客事件有所不同，因为与之前的许多漏洞不同，这一次并不直接与智能合约本身的漏洞有关，而是与它所使用的语言的底层编译器有关。
-
-在这里，我们谈论的是 Vyper：一个面向智能合约的、具有 Pythonic 风格的编程语言，旨在与以太坊虚拟机（EVM）交互。我对此次漏洞的背后原因非常感兴趣，所以我决定深入研究。
-随着这次漏洞的发展，每天的新闻头条都在报告新的数字。现在看来，情况终于得到了控制，但在此之前已经有超过 7000 万美元被盗。根据 LlamaRisk 的事后评估，截止到今天，有几个 DeFi 项目的池子也被黑客攻破，包括 PEGD 的 pETH/ETH: 1100 万美元；Metronome 的 msETH/ETH: 340 万美元；Alchemix 的 alETH/ETH: 2260 万美元；和 Curve DAO: 大约 2470 万美元。
-这次漏洞被称为重入错误，它是在 Vyper 编程语言的某些版本上出现的，特别是 v 0.2.15、v 0.2.16 和 v 0.3.0 。因此，使用这些特定版本的 Vyper 的所有项目都可能成为攻击的目标。
-什么是重入（reentrancy）？ 
-为了理解这次漏洞为什么会发生，我们首先需要了解什么是重入以及它是如何工作的。
-如果一个函数在执行过程中可以被中断，并且在其之前的调用完成执行之前可以安全地再次被调用（“重新进入”），则称该函数为可重入的。可重入函数在硬件中断处理、递归等应用中都有使用。
-为了使一个函数变得可重入，它需要满足以下条件：
-
-它…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -825,6 +67,149 @@ Telegram 机器人常见功能及对比
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/uxgqqgs1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国众议院金融服务委员会主席：PayPal的稳定币对于两党法案显示出希望</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/uxgqqgs1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月7日消息，美国众议院金融服务委员会主席McHenry：PayPal的稳定币对于两党法案显示出希望。
+今日早些时候报道，PayPal推出美元稳定币PYUSD，由Paxos Trust发行。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/2bbgqpc1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">PayPal推出美元稳定币PYUSD，由Paxos Trust发行</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2bbgqpc1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月7日消息，据彭博报道，Paypal(PYPL.O)宣布推出美元稳定币用于转账和支付。PayPal USD (PYUSD) 由 Paxos Trust Co. 发行，完全由美元存款、短期国债和类似现金等价物支持。它与美元挂钩，并将逐步向 PayPal 在美国的客户开放。该代币还可以转移到 PayPal 网络之外的兼容第三方钱包。
+PYUSD 旨在随时可兑换为美元，也可兑换为 PayPal 网络上提供的其他加密货币。它可用于为购买提供资金，并将很快在 PayPal 流行的支付应用程序 Venmo 上提供。用户最终将能够在 PayPal 和 Venmo 钱包之间发送其持有的代币。PayPal 表示，从 9 月份开始，Paxos 将发布月度报告，详细说明支持 PYUSD 的资产。Paxos还将发布会计师事务所对PYUSD储备资产的第三方证明。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/y714nbe5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">HashKey交易所将新增BTC/USDT、ETH/USDT交易对</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/y714nbe5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月7日消息，HashKey交易所将新增BTC/USDT、ETH/USDT交易对。这些货币对的交易将于2023年8月10日16:00（UTC+8）开始。支持的用户类型仅限专业投资者。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/qspz9ky1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国SEC主席：人工智能技术可能导致未来的金融危机</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qspz9ky1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月7日消息，美国SEC主席Gary Gensler在接受采访时表示，人工智能可能是金融体系的下一个重大系统性风险。他预计，美国最终很可能会出现两到三个基础性的人工智能模型。这将加深整个经济体系的相互联系，使金融崩溃的可能性更大，因为当一个模型或数据集成为中心时，它会增加“羊群”效应，这意味着每个人都将依赖相同的信息并做出类似的反应。Gensler称，这项技术将成为未来危机以及未来金融危机的中心。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/6uu9wzim.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Etherscan团队的即时聊天工具“Blockscan Chat”推出移动端App</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6uu9wzim.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月7日消息，Etherscan宣布其团队创建的即时聊天工具“Blockscan Chat”已推出移动端App，用户进入Google Play或App Store搜索即可下载。
+相关阅读：加密世界的“简约版微信”，一文带你玩转Blockscan Chat</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/0om3z0r3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Paradigm研究员Samczsun成立Web3紧急安全响应系统SEAL 911</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/0om3z0r3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月7日消息，Paradigm 研究员 Samczsun 在 ETHSecurity 社区发文表示，为防止用户在寻求安全帮助时无意间通知恶意行为者，他与一小群受信任的白帽黑客、审计员等一起研究了一个 Web3 911 系统。如果用户有紧急情况需要帮助或联系安全人员，均可在 Telegram 通过 @seal_911_bot 向其发送消息。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/tw5cpjun.html"
+                        open
+                      >
+                        <summary class="article-expander__title">马斯克将Twitter Blue订阅服务更名为X Premium</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/tw5cpjun.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月7日消息，埃隆·马斯克 (Elon Musk) 现已将 Twitter Blue 订阅服务重新命名为 X Premium。X Premium 订阅服务附带广告收入分享模式，该模式将使所有符合条件的 X Premium 订阅者都有资格根据其在平台上的参与度分享广告收入。只有那些在过去 3 个月内其帖子总展示次数至少达到 1500 万次、拥有至少 500 名关注者且年满 18 岁的 X-Premium 订阅者才有资格获得广告收入。马斯克还表示，非订阅者产生的所有广告收入将由该平台保留。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1669,6 +1054,896 @@ ImmutableX（IMX）将于8月12日6时解锁约1808万枚代币，价值约1331�
                             <span class="media-object__text">
                               <span>PANews 8月7日消息，Curve Finance推特发文称，CRV/ETH黑客自愿返还剩余资金的截止日期已过。Curve Finance将向公众提供赏金，协助抓获黑客的人将获得剩余资金的10%作为奖励，目前为185万美元。Curve Finance补充表示，如果攻击者选择全额退还资金，我们将不再追究。据此前消息，Curve Finance、Metronome和Alchemix承诺向黑客提供10%的赏金，以作为其归还剩余代币的回报。退还资金的最后期限为北京时间8月6日16点。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188912"
+                        open
+                      >
+                        <summary class="article-expander__title">指南：Matr1x即将开启首轮公测，如何获得最大化的奖励？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188912">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：@0xWatell
+备受期待的 Matr1xOfficial 将在明天开启首轮公开测试，掌握哪些细节能帮你获得最大化的奖励？花 5 分钟时间了解它们。
+
+为了保证你的阅读质量，让我们先回顾一下 Matr1x 的背景介绍： &quot;Matr1x 是一款由顶尖游戏团队开发的 Metaverse FPS 手游&quot; ，而且，在完成了 1000 万美元的 A 轮融资之后，新一轮的融资可能才是 Matr1x 的重点。在阅读完这则线程之后，我相信你会完全赞成这个观点。
+
+Matr1x 的团队成员拥有平均 8 年以上的游戏开发经验，最重要的是： &quot;他们不仅擅长开发游戏，也是资深的游戏玩家 —— Matr1x 知道什么样的游戏才是好玩的游戏&quot; 。
+单凭只言片语没什么信服力，所以请观看他们最新的实机演示视频。
+Matr1x 将在 8 月 8 日(也就是明天) 开启新一轮的公开测试，此前，他们已经进行过一轮内测，为的是验证整个游戏的 &quot;可运行性&quot;。
+如果说上一次内测是为了证明 → &quot;Matr1x 是一款游戏&quot;， 那这次的公测则是为了证明 → &quot;Matr1x 是一款好玩的游戏&quot;。
+现在，让我们正式进入到本次活动的讲解中。
+
+本次测试活动的代号为：Mission Frontier/使命前沿 
+Matr1x 准备了相当优厚的奖励：
+
+$FIRE
+
+$MAX
+
+Matr1x FIRE Genesis Blueprint
+
+Gene Evolutionary Factor
+
+Mission Frontier Case
+
+YATC NFT 
+
+关于这些道具的具体介绍，请看下图。
+
+本次测试活动的时间： 8 月 8 日 ~ 8 月 28 日，每天的 18: 00 ~ 23: 00 (SGT/新加坡时间) 。
+也就是说 —— 你需要每天在规定的时间内完成任务才能获得奖励。 
+此外，需要特别注意的是：只有激活了…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188913"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus波动率专栏(20230807)：持续低波动率，市场多头押注ETH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188913">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>上周五美国公布的数据可谓是喜忧参半， 7 月季调后非农就业人口增长 18.7 万人，为 2020 年 12 以来最小增幅，且连续第二个月低于预期，然而失业率（3.5% ）出现下跌，每小时工资增长数据也略高于预期（环比增长 0.4% vs 预期 0.3% ）。数据公布后隔天，美联储理事 Michelle Bowman 表示，她支持上个月美联储的加息决议，并预计可能需要进一步加息才能让通胀降至 FOMC 设定的 2% 目标。
+
+Source: SignalPlus
+数字货币方面，BTC/ETH 价格未见波澜，仍在较低的实际波动率下横盘。期权也并未摆脱低隐含波动率的泥沼，ETH 中远端的 IV 在今日持续下降(-2% 左右)，而前端并没有明显变化；与之不同的是，BTC 最明显的 IV 变化出现在 1 m 前后 IV 的回升，曲线中段因此恢复到了正常形态。
+
+Source: Deribit （截至 16: 00 UTC+ 8）
+
+Source: SignalPlus
+受周末低流动性的影响，期权整体交易量偏低。在过去 24 H 的交易中，BTC 看跌期权的成交比例明显变多，其主要来自于 18 AUG 23-28500-P, 25 AUG 23-28000-P 以及 27 OCT 23-27000-P 上买入大宗交易，尽管到期日和行权价不尽相同，但他们都为 Delta&#x3D; 30 的价位提供了保护。
+与之相反，ETH 的关注点仍聚焦于看涨期权。尽管当前 IV 低迷，散户仍大量抛售 Wing 上的 Call，其中 2000 的阻力位上累计净卖出 10.97 K 张看涨期权。大宗交易方面， 29 DEC 23 vs 29 MAR 24 看涨日历价差吸引了市场的注意，交易员在 12 月分别买入了 4250/6000 张 2100/2500 Call，同时卖出了等量的 29 MAR 24 2300/3000 作为对冲。
+
+
+Source: Laevitas，周末期权成交量低迷，BTC P/C Ratio 明显上升
+
+Source: Deribit Block Trade
+
+Source: Deribit Block Trade
+
+您可在 ChatGPT 4.0 的    Plugin  Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website：https://www.signalplus.com</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188911"
+                        open
+                      >
+                        <summary class="article-expander__title">BAYC 7月报告：有哪些值得关注的数据走势？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188911">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来源：NFTGo Research
+要点
+
+地板价在月中波动，月底地板价与上月月底相同，交易趋势受巨鲸交易的影响。
+
+BAYC 的市值收缩和交易量减少与总 NFT 市值强烈相关，但同时突显其市场领导地位。
+
+总持有者数量增加预示 BAYC 在市场整合过程中保持其作为长期投资的吸引力。
+
+BAYC 的借贷 ETH 量显示了其强大的市场表现，Yuga Labs 生态系统中的不同行为–MAYC 持有者寻求流动性和 BAYC 持有者追求长期价值–突显了独特的社区文化。
+
+尽管 HV-MTL Forge 启动时的活动量激增，但游戏的复杂性可能会阻碍未来玩家的参与。LoTM 的地板价格上涨，但用户获取和交易量下降。
+
+Boredgentleman.eth 认为 Crypto +NFTs+AI&#x3D;Metaverse 将会带来下一个市场热点。
+
+在这份报告中，我们将探讨 Yuga 生态系统多个维度的数据，包括了 Yuga Labs 的新闻和即将举行的活动，BAYC 和 ApeCoin 的数据分析，持有者趋势，最高销售，借贷情况和游戏经济。
+
+这次报告中我们特别邀请了 @boredgentleman，Bored Ape #2069 的持有者和长期的 NFT 交易者。他将在整个报告中提供一些主题的内幕洞察。让我们从新闻部分开始！
+新闻和即将举行的活动
+FuckItSaturday: BAYC 宣布将在 2023 年 8 月 26 日在佛罗里达州的迈阿密庆祝 MAYC 的两周年纪念。门票已公布。
+
+10 KTF Battle.town 第二季：Battle.town 的第二季于 7 月 14 日上线。这一季推出了一系列社区广泛的围攻以及更有效游戏玩法的新功能。该平台现在支持在 iOS 和 Android 设备上运行，并包含一个 Loadout Optimizer 用于战略规划。
+
+Global…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188904"
+                        open
+                      >
+                        <summary class="article-expander__title">一文详解街机帐户：成本20美分，链上游戏的金钥匙</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188904">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>得益于 Play-to-earn 的模式，像 StepN 这样的 GameFi 游戏迅速走红，并带动越来越多的资金涌入赛道。据区块链游戏平台服务商 Blockchaingamer 统计，截至 2022 年 11 月，区块链游戏领域的投资额高达 25.6 亿美元。但由于经济模型和基础设施尚未成熟，资本加持之下的 GameFi 概念很快就冷却下来。
+2023 年，人们将发展目光转向全链游戏。对于全链游戏来说，除了游戏中的数字资产，游戏的所有逻辑也都在链上发生，这意味着游戏合约的每一次状态变化都需要在链上注册，玩家需对游戏中的每一次操作都执行签署交易，对于像 RTS 即时战略这样的高频操作游戏来说是非常糟糕的玩家体验。
+会话密钥（Session Key）是一个为了解决加密原生游戏所固有糟糕游戏体验的应对方案，旨在利用帐户抽象和 Starknet 上的一些巧妙创新，让加密游戏玩家无需为每一次操作频繁签名交易。而今天，Loot Realms 发布了基于会话密钥的首个实现——街机帐户（Arcade Accounts）。有了 Arcade Account 功能后，玩家可将密钥安全地存储在浏览器存储中，无需对每一次游戏中的「攻击」操作进行签名，从而实现更流畅的玩家体验。
+街机帐户到底是什么？其运行原理又是什么样的？在解答这些问题之前，先来了解一下会话密钥（Session Key）。
+会话密钥是什么？
+会话密钥是 Briqs、Realms 和 Topology 三家团队于 1 年前在 Starknet 黑客松上联合发起的一个创意，旨在利用帐户抽象和 Starknet 上的一些巧妙创新，解决加密原生游戏所固有的糟糕体验——玩家需为游戏中的每一次操作执行交易签名。
+在链上游戏场景中，每一次游戏中的操作行为都会跳出一个钱包弹窗，并需要用户确认「你想确认这项交易吗？」，同时还有一些大多数人无法解读的内容，这可能会导致错误、混乱，甚至丢钱。
+会话密钥允许用户预先批准与特定 Dapp 的交互规则，比如，仅限特定的持续时间，最大的 Gas 限值，对代币的最大交易量进行限制，或特定合约的特定功能等。这样，游戏玩家就可以在这些限定的规则内随心所欲交互，而不必签署每一笔交易。
+换句话说，有了会话密钥，玩家可以在享用 Dapp 乐趣的同时，同时确认自己的资产是受保护的。因为 Session keys 已经限制了 Dapp 什么可以做，什么不能做。这意味着你在玩链上游戏的时候，不会被无休止的确认所困扰，同时清楚钱包里最有价值的资产是安全的。
+Arcade Accounts 是什么？
+街机帐户（Arcade Accounts）则是 Realms 团队首次使用帐户抽象在 Starknet 上首个对会话密钥（Session keys）的实现。
+通过采用（限制权限的）中间件，允许 Realms 玩家创建新型的街机帐户，这可极大地改善链上游戏的用户体验。
+
+本质上，一个街机帐户就是一个 Starknet 帐户，不过带有一些功能上的变体，这包括：
+- 每一个 Arcade 帐户均有一个主帐户
+- 除了主帐户，其他级别的帐户无法将 ETH/Tokens 转出
+- 其他帐户只能签署交易，除非经过身份验证
+也就是说，Arcade 帐户仅提供有限的玩家功能，这些权限的限制可将安全风险降至最低，即使街机帐户被利用，攻击者也无能为力，因为主帐户可以提取所有资金，并创建一个新的街机帐户。
+Starknet 所特有的「声明合约」方法，可将添加一个 Arcade 帐户的成本降低至 20 美分左右。
+街机帐户的体验到底如何？Loot Realms 在轻量级小游戏 Loot Survivor 中展示了一个 Arcade 帐户为游戏玩家带来的直观感受——「流畅的游戏内交互体验，无需为每一次攻击操作签名」。
+在没有使用街机帐户时，玩家需对游戏中的每一次攻击操作进行消息签名，等待较长的确认时间，添加 Arcade Account 之后，用户可将密钥安全地存储在浏览器存储中，则无需进行消息签名，直接进行游戏中的攻击操作。
+
+以上仅仅是将合约作为帐户（Contracts as Accounts）实现的一些基本功能，Loot Realms 接下来将实现两项高级功能：ETH 不足时自动充值和当代币到达帐户时转出。
+实际上，会话密钥并非 Starknet 专属技术，而全链游戏的 Session Key 功能也只是账户抽象（Account Abstraction）所解锁的用例之一，随着账户抽象方案的普及和扩展，钱包将会变得更加安全也更易于使用，Web3 世界将迎来更多的用户。
+参考内容：
+https://twitter.com/lordOfAFew/status/1687976673902538752
+https://www.defidaonews.com/article/6773674</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188905"
+                        open
+                      >
+                        <summary class="article-expander__title">用市盈率评估ETH：越贵越买反直觉</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188905">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：SAM ANDREW
+原文编译：深潮 TechFlow
+以太坊具有生产性资产的特点，它能够产生利润，这些利润归属于代币持有者。但是，它是否像股票一样被视为一种生产性资产呢？以太坊的估值倍数是否会影响 ETH 的价格？
+估值倍数是一种评估资产价值的启发式方法。谷歌的市盈率为 30 倍。英伟达的市盈率为 230 倍。如果谷歌目前的盈利持续 30 年，那么需要 30 年才能收回对谷歌的投资。如果谷歌的盈利增长，所需年数将更少。相对于英伟达而言，谷歌的估值较低。价格估值，例如 30 倍与 230 倍之间的差异，不是投资回报的唯一驱动因素，但却是一个重要因素。昂贵的资产，如英伟达，其当前估值倍数中蕴含了高增长的预期。如果它们无法达到这些高预期，价格将会暴跌。
+类似的估值倍数也可以应用于加密货币。市值除以总费用是一种加密货币的估值倍数。市值代表市场对资产价值的当前看法。费用是协议所产生的总收入。区块链的收入类似于它在整个网络中分配的利润。因此，区块链的收入和盈利倍数是相同的。
+以太坊的估值倍数是多少？
+以太坊目前的交易估值是其七天年化费用的 100 倍。自 2022 年夏季以来，以太坊的费用倍数在 25 倍和 235 倍之间波动（参见下图：自 2022 年低点以来的 ETH 价格和市值/费用）。
+
+意想不到的关系
+上面的图表显示了以太坊价格和估值倍数之间的反向关系。购买以太坊的最佳时机是在 2022 年底，当时以太坊的价格约为 1200 美元。然而，恰好在那个时候，以太坊的估值倍数更高，达到了 200 倍的费用。到了 2023 年春季，以太坊的价格接近 2000 美元，但其费用倍数降至 50-100 倍。
+价格和估值倍数之间的反向关系是出乎意料的。通常情况下，当资产的估值倍数较低时，它更具投资价值。在资产达到拐点之前，倍数通常较低。市场意识到资产被低估。价格开始上涨，估值倍数…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188909"
+                        open
+                      >
+                        <summary class="article-expander__title">从做市基金出发，Solv V3引领链上资产走向多元化新纪元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188909">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>尽管市场处于熊市之中，行业中仍存在诸如做市、LSD 等真实收益来源，然而多数散户的财富不但没有增值反而承受了损失。
+以做市为例，作为 DeFi 最早的真实收益来源之一，早期的做市策略和操作方式都很简单，即便伴随着行情上升出现一定的无常损失，但总体收益仍然非常可观。而如今，以 Uniswap 为代表的老牌 DEX 已经经过了几次迭代，GMX 一类新兴协议作为行业最高收益来源之一也为 LP 提供了更灵活的功能和策略空间，DeFi 参与需要配合更多灵活高效的策略，同时具备一定的风控管理能力。普通散户在 DeFi 市场中的生存空间越来越小，想要获得更高的收益越来越难。
+另一方面，加密市场并不缺少可以带来增值收益的实体，专业的 DeFi 做市团队就是在这样的行业趋势下出现的，他们利用专业的量化交易工具制定交易策略辅之以严密的风险管理，赚取着可观收益，而散户却只有眼红的份。散户想从中分一杯羹就要撬动专业团队的智慧，问题的关键是专业团队的策略和散户的资金如何连接与匹配。专业策略团队难以建立信任自证清白、也无从创造金融工具拓展融资渠道，信任问题和金融工具的缺失导致专业策略很难扩大规模。
+Solv Protocol 自 2020 年 8 月创立以来，一直致力于降低链上金融工具的创造与使用门槛，相继推出了行业首个 1.5 级市场流动性解决方案 Vesting Voucher，以及第一个链上债券市场，实现了超过 1 亿美金的债券发行与交易。2023 年 3 月正式推出的 Solv V 3 定位链上基金平台，实现了链上基金发行、交易与清结算的全流程标准。Solv V 3 背后是一个通用的基金基础设施，由两个关键模块组成：
+1）链上基金协议，支持基金创造、发行与交易；
+2）多环节链上风控体系，从资产筛选、资金权限、清算等多环节保护资金安全。
+
+7 月 31 日，Solv V 3 正式推出首个灵活申赎…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188910"
+                        open
+                      >
+                        <summary class="article-expander__title">OKX成为新加坡TOKEN2049峰会的冠名赞助商及主要演讲嘉宾</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188910">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>8 月 7 日，全球领先的加密资产交易所和Web3科技公司 OKX 宣布成为亚洲首屈一指的Web3加密货币峰会「TOKEN 2049 」的冠名赞助商以及主要演讲嘉宾。
+TOKEN 2049 将于 2023 年 9 月 13 日至 14 日在新加坡举行，预计将迎来超过 10, 000 名与会者，或成为今年规模最大的Web3活动。
+OKX 总裁 Hong、OKX 首席营销官 Haider Rafique 以及 OKX 全球首席商务官 Lennix Lai 已确认受邀出席并发表演讲。此外，两位杰出的 OKX 大使 F1 车手 Daniel Ricciardo 和奥运会单板滑雪选手 Scotty James、以及 OKX 首席营销官 Haider Rafiqu 也将在会议第一天一起受邀参加 TOKEN 2049 的炉边对话。
+
+图：F1 车手 Daniel Ricciardo(左)、奥运会单板滑雪选手 Scotty James(右)
+OKX 总裁 Hong 表示：“TOKEN 2049 新加坡是一个让行业团结起来的好机会，倡导让加密货币惠及更多最需要它的人群。随着我们从中心化信任系统到去中心化信任系统的转变，此次会议是让我们分享 OKX 如何在亚洲及其他地区进一步推广加密行业应用愿景的重要和有趣的方式。”
+OKX 首席营销官 Haider Rafique：“这是我们连续第二年将 TOKEN 2049 和新加坡大奖赛结合起来，是把加密行业和 F 1 球迷聚集在一起的良好开端。今年我们通过最新的“The System Needs a Rewrite”活动，帮助人们看到Web3的未来，而新加坡是我们发力的主要场所，Daniel Ricciardo、Scotty James 和我还可能将在本次大会的炉边对话中给与会者一个惊喜。”
+OKX 全球首席商务官 Lennix Lai 表示：“新加坡是将 TOKEN 2049 的各种Web3创新者聚集在一起的理想场所，这些人都在为行业发展奠定良好基础的层面发挥着重要作用。我期待在本次大会上讨论关于新加坡监管格局如何演变、以及Web3公司如何通过加强透明度、安全性和合规性来与用户和监管机构建立信任等主题时做出贡献。”
+关于 OKX
+OKX 是全球领先的加密货币交易所和Web3科技公司。OKX 以提供速度与可靠性兼备的加密货币交易应用程序，深受全球超五千万用户信任。
+OKX 与英超冠军曼城（Manchester City F.C.）、迈凯轮 F 1 车队（McLaren F 1 Team）、奥运会单板滑雪选手 Scotty James 以及 F 1 车手 Daniel Ricciardo 紧密合作，希望通过全新的互动方式增强粉丝体验。此外，OKX 亦是翠贝卡电影节（Tribeca Festival）的顶级合作伙伴，致力吸引更多创作者进入Web3领域。
+除 OKX 交易所服务外，OKX 最新推出 OKX Web3钱包服务，旨在为用户提供探索 DeFi、NFT、DEX、GameFi 等的一站式Web3入口。
+OKX 致力于提高透明度和安全性，并每月定期发布储备金证明报告。
+免责声明
+本公告仅供参考。本公告无意提供任何投资、税务或法律意见，也不应被视为购买、出售或持有数字资产的要约。持有包括稳定币在内的数字资产风险较高，市场波动亦可能较大，您甚至可能会损失全部资产价值。您应根据您的财务状况及风险承受能力，仔细考虑您是否适合交易或持有数字资产。OKX 不会提供任何投资或资产建议。您本人必须为您作出的投资决定负上全责，而 OKX 亦不会就任何损失承担责任。往绩亦不代表未来的结果。如您对自身具体情况有任何疑问，请咨询您的法律/税务/投资专家。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188907"
+                        open
+                      >
+                        <summary class="article-expander__title">宏观周报(8.7)：全球定价之锚飙升带来的影响</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188907">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>概述
+
+上周，受到美债被下调评级的影响，长期债券价格大跌，主要发达国家股指下跌，尽管周五美国就业报告公布后小幅反弹，但最终还是全部回吐。
+
+过去一周尽管美股 2 季报表现总体良好，但股市整体并未出现进一步上涨。宏观数据仍较为稳健，但已经接近预期上限。
+
+全球风险偏好下降，新兴市场货币普遍大跌，美元上涨，也压制了黄金价格。但油价上涨，因有消息称沙特阿拉伯自愿减产将延续至 9 月甚至更久。
+
+数字货币一度受到美债评级下调的利好刺激，但最终随全球风险偏好一起回落。稳定币从链上和交易所双流出。
+
+考虑到美股已超过 4 个半月未见调整，出现 3 – 5% 的小幅回调不足为奇，该时长已远超过典型的 2 – 3 个月调整的周期。
+
+市场要点
+美国国债收益率倒挂收窄：上周，两年期与十年期国债收益率差距缩小了 20 个基点，是自 2008 年 3 月银行危机以来的最大缩小幅度。主要因长端利率上升更快，十年期国债收益率本周上涨 8 个基点至 4.03% 。在 7 月就业数据公布后早盘曾一度升至 4.20% ，与去年 10 月 21 日的峰值仅差 2 个基点，当时是自 2008 年 6 月以来的最高收益率水平。
+
+与此同时，两年期国债收益率下滑 11 个基点至近三周低点 4.77% 。市场预期美联储 9 月 20 日会议加息 25 个基点的概率由 19% 下降至 13% 。
+债券收益率长涨短跌，并伴随加息预期下降，这样的走势在过去两年里非常少见。
+新兴市场：上周全球出现避险情绪，新兴市场货币承压。例如，南非兰特下跌 4.5% ，俄罗斯卢布下跌 3.9% ，哥伦比亚比索下跌 3.7% ，人民币小跌 0.35% 。
+股市表现：Nasda q 1 00 指数下跌近 3% ，为自硅谷银行危机( 3 月 10 日)以来最大跌幅；S&amp;P 500 下跌 2.3% ，为 3 月以来最大单周跌幅，公用事业股大跌 …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188868"
+                        open
+                      >
+                        <summary class="article-expander__title">一周融资速递 | 13家项目获投，已披露融资总额约为8837万美元（7.31-8.6）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188868">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>经 Odaily星球日报不完全统计， 7 月 31 日-8 月 6 日公布的海内外区块链融资事件共 13 起，较上周数据（15 起）有所下降，已披露融资总额约为 8837 万美元，较上周数据（1.1 亿美元）有所下降。
+上周，获投金额最多的项目为开源软件安全解决方案 Socket 和美国区块链“挖矿即服务”生态平台 Xgminer（2000 万美元）；此外，Web3麻将链游平台 Mahjong Meta 凭借着亮眼的资方阵容吸引了一定关注。
+以下为具体融资事件（注： 1. 依照已公布金额大小排序；2. 不含基金募资及并购事件；3. *为部分业务涉及区块链的“传统”领域公司）：
+
+
+开源软件安全解决方案 Socket 完成 2000 万美元 A 轮融资，a16z领投
+8 月 2 日，开源软件安全解决方案 Socket 宣布完成 2000 万美元 A 轮融资，a16z 领投，Abstract Ventures、Wndrco、Unusual Ventures，以及包括 Box 联合创始人 Aaron Levie、Figma 联合创始人 Dylan Field、Okta 联合创始人 Frederic Kerrest、Vercel CEO Guillermo Rauch 和 Eventbrite 联合创始人 Julia 和 Kevin Hartz 在内的多名天使投资人参投。
+
+Socket 首席执行官 Feross Aboukhadijeh 表示，加上此前 460 万美元种子轮融资，Socket 融资总额达到 2460 万美元。新融资将被用于扩充 Socket 团队，并支持和集成更多编程语言。
+该公司客户包括 Brave、Figma 和 Vercel（后两家公司的联合创始人已投资 Socket）。Aboukhadijeh 预计，如果公司保持目前的发展轨迹，在未来几个月内，公司的规模将…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188896"
+                        open
+                      >
+                        <summary class="article-expander__title">一览“Curve事件”中关键利益团体的资金动向</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188896">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>7 月 30 日，因 Vyper 部分版本（0.2.15、 0.2.16 和 0.3.0）存在功能失效的递归锁漏洞，Curve 稳定币池 alETH/msETH/pETH 遭遇攻击。受 Curve 部分稳定币池攻击事件影响，Alchemix、JPEG&#x27;d、Metronome、deBridge 和 Ellipsis 目前累计损失约为 7000 万美元：
+
+
+Alchemix： 7259 枚 ETH 和 4821 枚 alETH（约 2200 万美元）；
+
+JPEG&#x27;d： 6106 枚 ETH (约 1140 万美元）；
+
+Metronome： 866.554 枚 ETH (约 160 万美元）， 955 枚 smETH（约 170 万美元）；
+
+CRV-ETH pool： 1.05 万枚 ETH（约 1940 万美元）， 719 万枚 CRV（约 440 万美元）。
+
+
+
+受攻击影响，CRV 价格下跌，创始人借款面临清算风险
+受攻击影响，在 7 月 31 日，Curve Finance 总锁仓量（TVL）已由 7 月 30 日的 32.66 亿美元降至 18.69 亿美元， 24 小时降幅为 42.78% ，CRV 价格 24 小时跌幅为 14.89% 。
+而 CRV 价格下跌走势迫使 Curve 创始人 Michael Egorov 在 Aave 上的 7000 万美元借款头寸面临清算风险。鉴于此，Egorov 通过 OTC 出售 CRV，换得资金来还贷款。
+自 8 月 1 日开始 OTC 出售以来，截止 8 月 6 日，Egorov 已累计向 30 家投资者/机构出售了 1.4265 亿枚 CRV ，换得资金 5706 万美元。
+截至 8 月 6 日，Egorov 在四个平台上仍抵押 2.698 亿枚 CRV（约合 1.66 亿美元），债务规模约为 4870 万美元。
+
+攻击者归还资金
+
+7 月 30 日，漏洞利用者 coffeebabe.eth 将 786 枚 ETH（145 万美元）和 955 枚 smETH（174 万美元）归还给 Metronome，将 2879 枚 ETH（536 万美元）归还给 Curve Finance；
+8 月 3 日，Curve 基金会向漏洞利用者发送了链上消息，如果攻击者在 8 月 6 日上午 8 点（UTC）之前归还剩余的 90% ，将获得被盗资金的 10% 作为赏金；
+8 月 4 日，攻击者 0x6ec 向 JPEG&#x27;d 归还了 5495 枚 WETH ( 1000 万美元) 并保留了 610 枚 ETH ( 110 万美元) 作为 10% 赏金；攻击者 0xdce 向 AlchemixFi 返还 2258 枚 ETH ( 415 万美元) 和 4820 枚 alETH ( 882 万美元)；
+8 月 5 日，0xdce 向 AlchemixFi 返还 4999 枚 ETH（918 万美元），已全部返还；
+8 月 6 日， 32% 的被盗资产（约 1870 万美元）尚未归还： 
+
+来自 MetronomeDAO（由 coffeebabe.eth 保管）的 80 枚 ETH（1.47 万美元） ；
+
+来自 CRV-ETH 池的 7681 枚 ETH（1440 万美元）和 719 万枚 CRV（443 万美元）。
+
+截止发稿，在 Curve Finance Vyper 漏洞利用中被盗的 5950 万美元中，约 4030 万美元已经归还， 56 万美元作为黑客的赏金，约 1870 万美元仍未被 CRV/ETH 漏洞利用者归还（0xb752...b324）。
+
+8 月 7 日，Curve Finance 发推称，CRV/ETH 漏洞攻击者自愿归还资金的截止日期已过，将提供赏金对任何提供导致黑客被捕和定罪信息的人的报酬（目前为 185 万美元）。
+此外，Odaily星球日报特别提示，近日 X（即 Twitter）上出现一些账户冒充 Curve 官方，诈骗账户往往标有蓝色或黄色标记，需注意防范。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188900"
+                        open
+                      >
+                        <summary class="article-expander__title">“胖企鹅”CEO亲笔长文：NFT发展的六大要点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188900">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>8 月 5 日，推特 KOL Gary 发帖称，投资者应该意识到 PFPs 类 NFT 的商业扩展只会帮助项目方创收，但不会给持有者带来任何收益，因此不应该把 PFPs 视作股票。
+对此，NFT 项目「胖企鹅」（Pudgy Penguins）的首席执行官 Luca Netz 发布了一篇长文予以驳斥。文中，Luca Netz 分六个层面系统性地阐述了品牌商业化对 NFT 项目发展的重要意义，包括通过“漏斗”模型解释了收益将如何最终流向 NFT 的持有者们，以及结合供需关系解释了为什么有些蓝筹 NFT 项目会逐渐归零。
+
+作为熊市期间表现最为亮眼的 NFT 项目之一，自去年二月 Luca Netz 接手项目以来，「胖企鹅」不但走出了历史阴霾，还在其他 PFPs 类项目地板价持续阴跌之时一度刷新了 ETH 本位的历史峰值。也正是因此，Luca Netz 的声誉在 NFT 业界持续走高，许多项目方会将其视作榜样和楷模，希望通过模仿、学习其操作来复刻「胖企鹅」的成功。
+
+考虑到 Luca Netz 在最近的这篇文章中较详尽地梳理了其对 NFT 发展的思路，该内容对于同赛道从业者而言或许会有一定的参考意义。以下为 Luca Netz 原文内容，由 Odaily 星期日报编译。
+
+Gary 的观点非常糟糕。
+在下文中，我会向你解释为什么这种思维方式从根本上就是错误的，以及为什么这个观点非常糟糕。
+为了明确地阐述我的看法，我将列出直接支撑「为何打造一个全球知名品牌是为 NFT 持有者积累价值的最佳途径」的 6 个要点。
+要点 1 ：市场营销（Marketing）
+
+NFT 是一种有限资源，随着兴趣和需求的增长，你所持有的 NFT 自然会积累价值。
+NFT 需要通过市场营销来走向成功。每个人都想要即时的价值转换，然而在深熊期间，这是不可能的。当 NFT 处于热炒阶段时市，一些公告可能会引发巨…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188903"
+                        open
+                      >
+                        <summary class="article-expander__title">YGG暴涨，一览三家加密游戏公会国库与市值对比</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188903">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：0 xscarlettw，Investment Manager @Mint Ventures
+总结：
+
+YGG：几乎全是 YGG，流动资产不到 4% ；
+
+Merit Circle 国库平衡得最好，稳定币+蓝筹，NFT 和其它游戏资产几乎一半一半；
+
+GuildFi 国库：以太坊信仰者， 1/4 LSD 稳健收入+ 9% U+大半 GF。
+
+YGG：几乎全是 YGG，流动资产不到 4% 
+FDV 269 M, mcap 49 M。
+
+国库情况： 203 M YGG, 6.3 M USDT 其余忽略不计。
+
+市场流动性：今日流动性特别好，交易量小几亿，但几个月前其实已经萎缩到几百万了。
+评：市场给 YGG 的估值应该很大一部分在它的品牌价值、一级投资和用户。如果看国库的话，这个资金也太不平衡了…（6.3 M 稳定币，价值 203 M 的 YGG，FDV 270 M &amp; mCap 49 M）不排除 Arkham 有钱包没打标签的情况。
+YGG 的一级没看到很好的总结，之后有时间搞一下。
+Merit Circle 国库平衡得最好，稳定币+蓝筹，NFT 和其它游戏资产几乎一半一半
+coingecko ：FDV 134 M, mcap 93 M(mcap 基本跟国库总量齐平）。
+
+国库情况： 38 M usdt/usdc, 7 M 蓝筹（wBTC, uni, weth etc.）， 3 M NFT, 45 M 其它游戏 token。
+
+评：MC 应该是国库资金分配最稳健的一个，稳定币比例最高（40% ），部分较为均匀分配的蓝筹，NFT、一级（45% ）和可交易的游戏代币（3.9% ）。重要的是，它的 MC/FDV 约 60% ，没有如 YGG（20% 不到）的大抛压出现。
+国库内 MC 价值 0.3 M（0.31% ），抛压最不集中的代币之一。
+目前市场给出的估值（mCap）很符合 MC 对自身国库的估值，由于投资的一级游戏在现在的市场下可能还打折，可能实际价值要更低一点。
+GuildFi 国库：以太坊信仰者， 1/4 LSD 稳健收入+ 9% U+大半 GF
+
+国库情况（链上）（公开 medium） : 41 M GF， 23 M stETH, 8.7 M USDT/USDC
+
+评： 1/4 给 LSD 还蛮有意思的，以太坊信仰者.jpg
+Medium 对大半 liquid asset 是自己的 GF 避而不谈 lmao, 但 market cap 也显示了市场对此还是有点数的。但 market cap 也显示了市场对此还是有点数的。不过 mCap&lt;stables+stETH，还是有点低估了。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188892"
+                        open
+                      >
+                        <summary class="article-expander__title">ETH周报 | 7家公司提交以太坊期货ETF申请；Vyper编译器漏洞影响多个DeFi协议（7.31-8.6）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188892">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一、整体概述
+以太坊编程语言 Vyper 发布有关上周漏洞事件的事后分析报告。7 月 30 日，由于 Vyper 编译器中的潜在漏洞，多个 Curve 流动性池被攻击，该漏洞本身是一个未正确实施的重入防护，受影响的 Vype 版本为 v 0.2.15、v 0.2.16、v 0.3.0 。该漏洞已在 v 0.3.1 中修复和测试，V 0.3.1 及更高版本是安全的。然而，当时并没有意识到对有效合约的影响，也没有通知下游协议。Vyper 表示，未来将采取几个步骤来提高使用 Vyper 编译的智能合约的正确性。
+目前有 7 家公司正在申请以太坊期货 ETF。继 Volatility Shares 7 月 28 日提交以太坊期货 ETF 申请后，Bitwise、Roundhill、VanEck、Proshares 和 Grayscale（灰度）于 8 月 1 日纷纷跟进，分别是 Bitwise Ethereum Strategy ETF、Roundhill Ether Strategy ETF、Ethereum Strategy ETF、Proshares Short Ether Strategy ETF 和 Grayscale Ethereum Futures ETF（ETHG）。8 月 3 日，ETF 发行商 Direxion 再向美国 SEC 提交比特币和以太坊期货 ETF 申请。该产品名为“Direxion Bitcoin Ether Strategy ETF”，将投资于比特币和以太坊期货合约，同时还可投资于其他有期货产品敞口的 ETF。
+二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1850 美元，阻力位 1900 美元。
+
+二、二级市场
+
+ 1.现货市场
+OKX 行情数据显示，上周 ETH 一度反弹至 1879 美元，周内收于 1829 美元，环比下跌 2…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188902"
+                        open
+                      >
+                        <summary class="article-expander__title">剖析DAI稳定币年化利率8%的收益来源，如何参与？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188902">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：@Cook 0x
+本文将细说年化利率 8% 的收益来源，以及什么是 DSR 和 EDSR。由于 MakerDAO 没有官方的存款页面，还将为大家介绍 4 个实现 $DAI 存款的位置和步骤。
+首先做一个概念科普： MakerDAO 的 DSR 即 - Dai Savings Rate，可以简单理解为稳定币 $DAI 的存款利率，将 $DAI 存款合约中即可自动获得收益，相当于现实世界的活期存款。
+本次提出的 8% 利率严格来说是一个新的机制 EDSR 即 - Enhanced Dai Savings Rate，是当前利率模型的增强版本。
+先说收益来源， 8% 的收益率我们都知道已经超过了美国国债以及其他优质的投资标的收益，所以它是否是真实收益？
+首先它是暂时性利率，采用阶梯计算。EDSR (增强型 Dai 储蓄利率) 是一个在 DSR 利用率较低时临时提高用户存款动力的措施，EDSR 根据 DSR 的利用率确定，并随着利用率的增加而逐渐减小。
+什么是 DSR 的利用率呢？
+简单来说就是 $DAI 存入了 DSR 的量与总量的比，也就是说随着越多的 $DAI 存入了 DSR，那么利率将会逐渐降低。
+如下图，在利用率50% 以后，利率将降至 4.16% 。
+
+同时需要注意的是，EDSR 是一种一次性、单向临时机制，这意味着 EDSR 只能随着时间的推移而减少，即使 DSR 利用率下降，也无法再次增加。
+简单说， 8% 可能只有这一次机会。
+经过上面的分析基本了解了 8% 的收益来源，原理是假设 MakerDAO 100% 的稳定币资产都去买了 RWA，那只有不到 20% 的 $DAI 在领收益，那么整体的收益率就是溢出的，这部分就构成了「 8% &gt; 国债收益」的来源。(具体真实数据这里需要精确计算) 相当于减少了 DAO 本身的收益，然后分给了 $DAI 的存款人。
+如何操作？- DeFiSaver (Smart Saving)
+https://app.defisaver.com/smart-savings
+- 在 [Smart Saving] 中选择 Maker DSR；
+- 在 Supply 中输入要存款的金额；
+- 右侧显示了每周/每月/每年的预估收益。
+
+如何操作？- DeFiSaver (Spark)
+https://app.defisaver.com/spark
+- 在 Spark 的 Supply 窗口中将币种切换到 $DAI；
+- 提供 DAI 后转换成 sDAI，可以用于抵押品借款；
+- Spark 是 MakerDAO 旗下的借贷协议，sDAI 相当于 Aave 中的 aDAI，这里相当于可以在得到 DSR 的存款利率同时进行借款。
+
+
+如何操作？- SummerFi
+https://summer.fi/earn
+- 在 Earn 页面中选择 Maker，后续操作与 DeFiSaver 类似。
+
+
+如何操作？-chai.money
+http://chai.money
+$CHAI 可以理解为是一种封装代币，它可以自动帮你积累 $DAI 在 DSR 中的本金和利息。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188878"
+                        open
+                      >
+                        <summary class="article-expander__title">Hotairballoon项目解析：LayerZero推出的首个解决”桥接三难困境”的跨链桥</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188878">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一、背景
+首先，随着区块链行业的不断发展，出现了各种形态的链，例如 Layer 1、Layer 2、Layer 3、侧链、Rollups 等，有同构链也有异构链，而且，每条区块链上，又分为很多个不同的协议。
+这些不同的区块链、不同的协议，把区块链的世界，割裂为一座座的信息孤岛，大量的加密资产分布在这些不同的链及不同的协议之上，这无疑降低了资金的利用效率。
+而跨链桥的出现，则可以在这些不同的链之间搭建起桥梁，可以把一个链上的资产，桥接到其它区块链上。
+例如，Coinbase 推出的二层网络 Base 跨链桥的出现，可以把其它链上的加密资产，桥接到 Base 网络上，用户可以享受到 Base 链的一些早期红利，与此同时，通过跨链桥也可以把 Base 链上的资产桥接到其它区块链。
+跨链桥的出现，大大提高了资金的利用效率。
+
+根据 defillama 的数据统计，在当前的 DeFi 格局中，跨链桥 TVL 总量排名第四，达到了 97 亿美元的体量，仅次于 Dex 赛道。
+另外，在跨链桥赛道中，普遍存在着安全性低、费用高、跨链速度慢等问题。而 Stargate 就是在这样的背景下出现的。
+二、Stargate 协议概述
+
+Stargate Finance 是基于 LayerZero 的多链跨链桥协议，由 LayerZero Labs 于 2022 年 3 月创建，同时也是第一个基于 LayerZero 协议的 DApp，是一种可以实现多条区块链之间的资产转移的协议。
+Stargate 的目标是简化将资产从一条区块链转移到另一条区块链的过程，省去繁琐的锁定、铸造、燃烧和赎回等步骤，以实现一次交易完成转移的便利性。
+由于 Stargate 是搭建在 LayerZero 上的跨链协议，所以谈到 Stargate，就需要从 LayerZero 谈起。
+什么是 LayerZero
+LayerZ…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188857"
+                        open
+                      >
+                        <summary class="article-expander__title">LD Capital：新近POW项目速览</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188857">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Duoduo, LD Capital
+
+自以太坊转为 POS 模式之后，占据市场大多数注意力的公链也多为 POS 模式。不过，POW 模式也依然处于发展之中。典型代表如 KAS，提出了新的 POW 区块链模式。由于 KAS 的持续上涨，新的 POW 项目也逐渐引起资金和社区的注意。本文介绍几个近期市场表现尚可的 POW 项目。
+一、市场表现
+
+来源：coingecko, LD Capital
+备注：本文数据截至 2023 年 8 月 1 日。
+从上表可以看到，这几个项目上线的时间尚不足一年，市值在 5000 万美元以下，近两个月价格获得不错的涨幅。
+此外，Dynex、Neurai 的团队处于匿名状态，未对外披露信息。Microvision Chain 的联合创始人（推特：@Jason_K 0001）为中国人，官网未披露具体履历经验。
+二、叙事
+新的 POW 项目，都结合当前的市场环境和热点提出了各自的叙事重点。
+Dynex
+Dynex 是基于 DynexSolve 芯片算法的神经形态超级计算区块链，提出有用工作量证明 (PoUW)方法，来提高去中心化网络的速度和效率。
+DynexSolve 可以运行“神经形态芯片”，这种芯片在一系列计算任务上的性能优于传统计算方法。神经形态计算机是当今许多人工智能和机器学习的天然平台。Dynex 希望在此基础上为人工智能、机器学习、金融科技、生物医药等提供算力。
+Dynex 主要采用的是 GPU 的算力，根据 hiveon.com 算力管理平台的统计，DNX 当前的算力占比达到了 14% ，是该平台所统计的算力范围内第一大的 pow 代币。
+Microvision Chain
+Microvision Chain 的目标是建立具有较高扩展性的 pow 公链，成为比特币二层，提高效率，降低费用。该协议主要提出了三个方面的改进： 1）基…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188874"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus宏观研报(20230807)：加密市场持续横盘，复制2018年走势？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188874">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>周五的市场在波动中为动荡的一周划下句点，首先是“好坏参半”的就业数据，整体就业人口增长 18.7 万，低于预期，前值也下修了 5 万，不过失业率 ( 3.5% ) 走跌，且工资增长高于预期；拆解数据后可以看到，服务业中的医疗保健和教育领域就业表现强劲，但被休闲和酒店业行业的放缓所抵消。
+
+
+非农就业数据呈现的信息混杂，足以让“依赖数据”的美联储陷入两难（周五收盘时，年底前加息的可能性仍低于 20% ），而美债终于出现了缓解性反弹， 10 年期收益率在盘中下跌了 11 个基点，但这些仍不足以挽救艰难的一周，美债出现了自 2 月份以来最大的单周波动，SPX 指数则经历了 3 月份以来最糟的一周，而尽管原油价格上涨了 10% 以上，大宗商品的表现仍是自 6 月份以来最差。
+
+
+不出所料，在过去一周，科技股和利率敏感型类股因利率飙升而表现较差，而能源股是唯一上涨的板块，原油期货价格自 6 月底的低点已经上涨了 20%  ，居高不下的通胀压力、沙特阿拉伯和 OPEC+ 国家的石油减产以及美国战略石油储备 (SPR) 处于历史低点，共同推动了原油价格走势，预计这种趋势在短期内可能会持续。
+
+在股市方面，由于就业数据不冷不热，市场认为足以阻止美联储进一步加息，股市试图在此叙事上展开又一次的反弹，然而，在纽约时间刚过下午 1 点后，市场突然出现抛售，SPX 指数在没有消息的情况下迅速下跌 1.5% ，这是自 3 月份反弹开始以来我们没有真正看到过的技术面看跌走势；此外，在发布第二季度财报后， Apple 已完全打破今年以来的上行趋势线，反转向下，而股市 VIX 也终于从 4 个月的沉睡中苏醒。在大多数市场参与者看多，且多头敞口回到历史高点的此刻，我们是否终于看到股市出现暂时性的顶部、正好赶上以季节性来说较具挑战的秋季？唯有时间能告诉我们答案了，不过周三的 CPI 数据或许可以提供另一个关键线索。
+
+在加密货币方面，BTC 再次出现横盘走势，连续 8 个交易日的收盘价变动幅度未超过 1%  ，这是自 2022 年圣诞/新年假期以来最长的横盘走势，而上一次出现这种情况还要追溯到 2018 年。
+
+在 DeFi 方面，Curve 事件仍未落幕，不过最坏的情况似乎已经过去了，黑客已经开始退还部分窃取的资金（Alchemix 追回了 1, 200 万 的 ETH，JPEG 追回了 1, 000 万），而 Curve 创始人 Michael Egorov 似乎通过向 OTC 买家出售 CRV 代币偿还了约 5, 000 万的 DeFi 借款（价格约为 0.40 美元 vs 现货价格 0.62 美元），希望这已经是这波 FUD 的尾声，虽然这个事件对流动性的负面影响可能还会持续一段时间。
+
+
+
+您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website：https://www.signalplus.com</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188876"
+                        open
+                      >
+                        <summary class="article-expander__title">Glassnode最新研报：龙头项目表现优异，DeFi正在卷土重来？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188876">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来源：Glassnode
+原文编译：比推 BitpushNews Tracy
+2023 年的监管环境一直是积极和消极消息之间的一场拉锯战，其中受到最大影响的是山寨币和 DeFi 代币。随着 MKR 和 COMP 在最近几周表现出显著的超额收益，我们探讨如何从去中心化交易所（DEX）流动性的变化中提取信息。
+摘要：
+1. 数字资产行业的几个积极发展以及 DeFi 领域内的进展，激发了投资者对 DeFi 代币的重新兴趣。
+2. DeFi 代币兴趣的增加引起了市场做市商的关注，他们增加了相应池子的流动性，表明在这些代币周围的交易和价格活动展望积极。
+3. 进一步分析 Uniswap 的交易量分布显示，其中相当一部分的交易活动可以归因于机器人，这些机器人主要关注 ETH-稳定币交易对。
+山寨币再次受到青睐吗？
+在过去几个月中，山寨币市场一直在积极和消极的新闻事件之间进行拉锯战，受到几个关键发展的推动：
+6 月初，美国证券交易委员会（SEC）将 68 种加密货币标记为未注册的证券，这使得比特币和以太坊以外的山寨币市场兴趣受到抑制。在此消息之前，许多这些代币的表现就已经不佳，我们在我们的报告《应对 DeFi 下行趋势》中有所涉及。
+像黑石集团（BlackRock）和富达（Fidelity）这样的金融巨头提交比特币现货交易所交易基金（ETF）的申请，导致市场情绪上升，并波及比特币以外的数字资产领域。
+此外， 7 月中旬的 Ripple Labs 与 SEC 的官司判决认定，该加密公司在公开交易所出售其 XRP 代币并未违反联邦证券法，这为其他美国加密项目和整个行业发出了积极的信号。XRP 的胜诉为替代币投资者提供了一定的希望，认为其对进一步的监管行动具有一定的韧性。
+特别是与 DeFi 领域相关的代币表现最为强劲，我们的 DeFi 指数价格自 6 月 11 日低点以来上涨了 56% …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188873"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3大规模采用来了，解析前沿技术账户抽象背后的叙事</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188873">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：欧科云链研究院
+原文作者：毕良寰
+1971 年，美国计算机工程师发出了第一封测试 Email，打破了在同一台计算机内部的信息交流限制，而近期热议的账户抽象（Account Abstraction，也被称为 AA)就是 Web 3 时代的“Email”，是一种可以使区块链账户可编程的新模式。这种新模式带来在账户应用上的无限潜力，为 Web 3 大规模采用提供了技术基础。笔者在分析整个账户抽象过程时，发现其背后的解析才是 Web 3 大规模采用不可或缺的关键。
+ Web 3 大规模采用的技术突破——账户抽象  
+区块链技术发展多年，但进入主流视野的总是局限在资产这个较为单一的形式，其应用的发展一直受制于可拓展性等问题的困扰。而账户抽象热议的原因之一是它的技术设想就是针对公链的难题之一——可拓展性来提出的，旨在支持更多的应用场景，为了迎接 Web 3 应用百花齐放的时代，就如同 20 世纪 90 年代初至中期，随着技术基础的不断发展，互联网爆发，直到现在，我们所看到的上市公司市值排名前三的公司，前两家均为互联网科技公司，市值达 2 万亿美元以上，而这就是 Web 3 行业众人期待的下一个阶段。
+昨日，OKX 宣布推出首款 AA 智能合约钱包，一改目前市场链上资产钱包账户不可编程，只能实现存储和转移简单功能的状态。
+账户抽象最初是由以太坊创始人 Vitalik Buterin 在 2014 年提出，其过程就像 Email 把邮件地址抽象成为一个统一的标识符，从而来实现自我管理和控制的电子邮件系统一样，运用可编程的方式，可以使区块链账户更加灵活、高效、可管理和可控制。账户抽象带来的可编程可以使资产完全由智能合约持有，为用户提供了更加灵活和高效的账户管理自托管体验。其本质是自托管（self-custody)的用户体验扩展。
+
+图:抽象的逻辑
+ 账户抽象解析，过滤无效信息  
+可以提供解析的链上基础设施对于账户抽象来说尤为重要，因为账户抽象的交易过程很像《机器人瓦力》里将地球垃圾压成块，然后就没有了后续的动作，日复一日，年复一年。这种独特的交易过程会导致用户在操作和管理资产时面临额外的复杂性和技术难度，打包在一起的信息无法单独抽离出来呈现你真正想看的信息。
+目前行业里已有多个项目在尝试账户抽象，例如以太坊、区块链 Layer 2 技术方向的 StarkNet。但支持解析账户抽象的基础设施还很少，欧科云链 OKLink 区块链浏览器是目前可提供账户抽象解析为数不多的选择，同时也是唯一支持查询用户操作的可视化窗口。
+如果想要找到打好包的那一抹绿色，账户抽象的解析就是关键。通过欧科云链 OKLink 多链浏览器，就可以像使用谷歌一样来查询账户抽象的具体有效信息即特定的用户操作（User Operation)。这样，我们既可以通过账户抽象智能合约发起交易，还能知道该操作具体的过程、路径、成本和执行效果。账户抽象的解析（Account Abstraction Analysis) 作用就是帮助用户了解区块链上交易和合约执行的相关信息，包括交易费用、合约执行的相关信息和日志，从而更好地了解智能合约的执行情况等等。
+
+图 OKLink 区块链浏览器查询 Uop 详情
+通过 OKLink 区块链浏览器展现出的账户抽象解析过程缩短了 Web 2 与 Web 3 用户之间的距离，让技术以自然、高效、无缝地融入商业现实世界，以至于用户无需特别注意或意识到它的存在。
+ 化繁为简，新技术应“隐身”  
+无论是账户抽象的技术理念，还是科技公司推出的每一款产品，都在无限追求产品用户体验。优秀的设计应该是无形的，“设计不仅仅是外观和感觉，设计还包括产品的功能和使用方式。” 苹果公司创始人乔布斯如是说。
+“润物细无声”，在多链浏览器的用户体验上，欧科云链 OKLink 团队让新技术“隐身”，让用户使用谷歌一样去使用 OKLink，为整个行业打造链上数据的闭环。
+欧科云链 OKLink 多链浏览器基于前期积累的数据优势（已支持 29 条公链全节点数据查询，几乎囊括了目前行业内主流的公链），已在短时间内快速支持以太坊、OKTC、Polygon、Arbitrum 等 7 条公链的账户抽象解析，根据公链本身不同账户模型与标准，提供目前市场上最佳的账户抽象跨链交互和数据查询的用户体验。
+让新技术“隐身”，像苹果一样化繁为简，基于链上数据的多种分析工具将助力 Web 3 走向更大规模采用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188872"
+                        open
+                      >
+                        <summary class="article-expander__title">多维度盘点Paradigm十大关注领域相关项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188872">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者： defioasis，吴说 Real
+原文编辑：Colin Wu
+注：本文仅作信息分享，不为所述项目背书，与所述项目无任何利益相关。
+近日， Paradigm 发布英雄帖，希望与加密领域的优秀团队和人才合作，去解决重要的业务和研究问题。 Paradigm 于 2018 年成年，在 2021 年 11 月筹集了 25 亿美元的风险基金。作为一家以研究为导向的技术投资公司， Paradigm 为整个行业输送了许多优秀的项目，其投资的 Uniswap、 Lido、 Blur 等成为了其各自赛道的中流砥柱。
+在最新的英雄贴中， Paradgim 表示其探索的重要领域包括：以“意图”为中心的协议和基础设施、构建在 Uniswap v4 上的 Hooks （尤其是专注于 LP 盈利能力和损失与再平衡）、面向以 Rollup 为中心的多链世界基础设施、共享排序器、全链游戏、加密原生社交应用、预测市场（创造具有真实的流动性市场）、稳定币支付/金融科技、链上国债和 ZKP apps 。
+本文将从项目进展、融资、链上数据、社交关注度等多个维度去盘点 Paradigm 所关注重点领域的项目。
+以“意图”为中心的协议和基础设施
+过去开发者设计和开发出符合一定规范或标准的协议，这些协议在功能、性能和安全性等方面会有明确的规定，但往往会忽视最终用户的实际需求与使用意图。以意图为中心，是从用户的角度出发，以用户的目标或意图为指导，设计出具有更好的用户体验和匹配用户需求的协议和基础设施。
+Anoma
+Anoma 可能是有史以来首个明确以“意图”概念并作为核心架构去设计的协议。 Anoma 以意图核心性，引入了新的基元（构成系统或程序的基础部件或操作），使得现有的 Web 2.5 dAPPs 可以实现完全的去中心化，如 Optimism 和 ZK rollups、 DEXs、 NFT Market…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188870"
+                        open
+                      >
+                        <summary class="article-expander__title">解读币安研究院Telegram Bots报告：赛道前景和风险</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188870">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Jie Xuan Chua， Binance Research
+原文整理：深潮 TechFlow
+Telegram 上的各种 Bots 代币，前阵子以惊人的涨幅引起大家注意。虽然目前价格有所回落，但处在早期起伏中的叙事仍值得关注。
+币安研究院发布了 Teleram Bots 的研究报告，指出 Telegram 机器人的累计交易量已超过 1.9 亿美元,单日最高交易量达 1000 万美元。
+机器人交易模式是怎样的，整个赛道未来发展如何，又有哪些可能存在的风险？
+深潮对该报告进行了整理和解读，以下是核心观点。
+关键要点：
+
+Telegram 机器人通过提供如交易、空投刷取等功能,以更加用户友好的方式让他们通过移动设备参与加密活动。
+
+Telegram 机器人的累计交易量已超过 1.9 亿美元,单日最高交易量达 1000 万美元。
+
+Telegram 机器人通过收取交易费用以及代币买卖「税费」获利。总收入已超过 2870 万美元。
+
+现阶段很难判断真实需求量,目前的火爆很大程度上是因代币价格上涨所驱动。但短期内这一领域仍将持续发展。
+
+Telegram 机器人交易一般流程
+
+用户在 Telegram 机器人的频道内输入命令,机器人会生成主菜单。
+
+用户可以在菜单里设置新钱包或者连接已有的钱包，用提供的地址给钱包充值。
+
+而后执行不同类型的交易,例如买卖代币、空投刷取、复制交易等。
+
+
+评价：
+
+相比现有的 DeFI 前端, Telegram 机器人提供了一个更友好、便捷的用户体验 ( 对更初阶的用户来说）。
+
+Telegram 拥有 8 亿月活跃用户, 切那部分在电报上「耳濡目染」但没有进圈的用户其实是个好选择。
+
+Telegram 机器人常见功能及对比
+
+交易 (Trading):可以通过 Telegram 直接买卖代币。
+
+空投刷取 (Sniping):代币上新时可…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188866"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | Elon Musk：X永远不会推出加密货币；Global X重新提交现货比特币ETF申请（8月7日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188866">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>头条
+灰度：千禧一代和 Z 世代选民可能会决定 2024 “比特币选举”年的结果
+灰度（Grayscale）发布报告称，千禧一代和 Z 世代选民可能会最终决定“比特币选举”的结果，因为他们越来越担心自己的财务状况。据悉，Cathie Wood 和 Balaji Srinivasan 将 2024 年称为“比特币选举”（Bitcoin election）。
+灰度团队研究这些趋势与即将到来的 2024 年美国总统大选有何关系。首先，比特币目前处于一个美国总统选举周期的最高价格；比特币目前的交易价格超过 29, 000 美元，而 2020 年第四季度上一个选举周期的高点约为 20, 000 美元。
+其次，可以说同样重要的是，对机构尤其不信任、同时又担心其未来财务状况的人群，可能是 2024 年之前最关键的选民群体。
+在 2024 年的美国总统选举中，预计年轻人将成为历史上最大比例的选民。早期的报告指出，到 2024 年，千禧一代和 Z 世代将占美国选民的 44% 。
+灰度指出，随着 Donald Trump、Ron DeSantis、Joe Biden 和 Robert Kennedy Jr.等知名政治家开始表达他们对比特币和更广泛的数字资产行业的立场，比特币可能会在政治上变得越来越重要。“这些事实和比特币生态系统的持续成熟似乎表明，比特币现在和将来都会比以往任何时候都更与美国大选相关。事实上，早期的政治候选人已经开始更广泛地分享比特币和加密货币的立场。”
+灰度还表示，当选的总统对比特币和数字资产的立场很重要，因为他们将负责任命美国 SEC 和 CFTC 等监管机构的负责人。“美国总统候选人对比特币和加密货币的看法很重要，不仅因为总统领导着国家，还因为总统负责任命 50 多个独立联邦委员会的负责人，这些委员会可以对加密货币的各个方面产生影响，包括美国 SEC、CFTC、美联储和财…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5188865"
+                        open
+                      >
+                        <summary class="article-expander__title">深入探讨重入攻击如何盗走Curve池7000万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188865">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文《A Deep Dive Into How Curve Pool’s $ 70 Million Reentrancy Exploit Was Possible》，作者：Ann，由Odaily星球日报 jk 编译。
+近期的 Curve 池漏洞与我们在过去几年里看到的大多数加密货币黑客事件有所不同，因为与之前的许多漏洞不同，这一次并不直接与智能合约本身的漏洞有关，而是与它所使用的语言的底层编译器有关。
+
+在这里，我们谈论的是 Vyper：一个面向智能合约的、具有 Pythonic 风格的编程语言，旨在与以太坊虚拟机（EVM）交互。我对此次漏洞的背后原因非常感兴趣，所以我决定深入研究。
+随着这次漏洞的发展，每天的新闻头条都在报告新的数字。现在看来，情况终于得到了控制，但在此之前已经有超过 7000 万美元被盗。根据 LlamaRisk 的事后评估，截止到今天，有几个 DeFi 项目的池子也被黑客攻破，包括 PEGD 的 pETH/ETH: 1100 万美元；Metronome 的 msETH/ETH: 340 万美元；Alchemix 的 alETH/ETH: 2260 万美元；和 Curve DAO: 大约 2470 万美元。
+这次漏洞被称为重入错误，它是在 Vyper 编程语言的某些版本上出现的，特别是 v 0.2.15、v 0.2.16 和 v 0.3.0 。因此，使用这些特定版本的 Vyper 的所有项目都可能成为攻击的目标。
+什么是重入（reentrancy）？ 
+为了理解这次漏洞为什么会发生，我们首先需要了解什么是重入以及它是如何工作的。
+如果一个函数在执行过程中可以被中断，并且在其之前的调用完成执行之前可以安全地再次被调用（“重新进入”），则称该函数为可重入的。可重入函数在硬件中断处理、递归等应用中都有使用。
+为了使一个函数变得可重入，它需要满足以下条件：
+
+它…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6645,94 +6920,6 @@ BlockFi在新闻稿中指出，通过公司的计划，BlockFi打算将钱包资
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/wcnot9b1.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：Wintermute Trading凌晨从币安提取850万枚ARKM</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/wcnot9b1.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月3日消息，据Coindesk报道，Nansen数据显示，今日凌晨01:14至02:30期间，做市商Wintermute Trading通过5笔交易从币安共提取850万枚ARKM，使Wintermute的对该代币的持仓增加了超过731%。交易完成后，Wintemute成为ARKM第十大持有者。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/dd0sclp0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">昨夜今晨重要资讯（8月2日-8月3日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/dd0sclp0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/08/03/images/Qzfls8Q766.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>1.知情人士：美国司法部考虑对币安提起欺诈指控，但担心造成挤兑
-据Semafor援引知情人士的话称，美国司法部官员正在考虑对币安提起欺诈指控，但担心如果他们起诉币安，可能会导致类似于FTX的挤兑，进而导致消费者损失资金并可能引发加密市场的恐慌。知情人士表示，检方正在考虑其他选择，比如罚款、暂缓起诉或不起诉协议。这样的结果将是一种妥协，让币安对所谓的违法行为负责同时减少对消费者的伤害。
-2.江苏省公安厅：多名群众从事“虚拟币”关联投资被骗损失极其惨重，请提高警惕
-江苏省公安厅近日发布的群发信息显示：“近期我省多名群众在相关网站或APP上从事‘虚拟币’关联投资被骗，损失极其惨重。请广大市民提高警惕，不要轻信非国家相关部门批准、监管或认可的投资理财渠道。”
-3.Calvin Ayre旗下Ayre Group以约5.7亿美元收购nChain多数股权
-BSV 支持者 Calvin Ayre 旗下 Ayre Group 已与 BSV 协议开发商 nChain 签订协议，以 5 亿瑞士法郎（约 5.7 亿美元）的价格获得该公司多数股权、信贷额度、以及知识产权许可等资产。nChain 是是 Bitcoin SV 节点软件开发商，也是 Teranode、LiteClient 等区块链软件的开发商，目前该公司拥有近 800 项技术专利，还有 3,000 多项正在等待批准。
-Ayre Group创始人Calvin Ayre 称：“在过去十年的大部分时间里，nChain 及其驻伦敦的首席科学家 Craig Wright 博士一直在悄悄积累范围无与伦比的专利组合，这实际上是企业区块链、人工智能和 Web3 的基本要素。我的目标是加快 nChain 的开发步伐并提高其广泛的 IP 库的商业采用率。没有一个区块链或 Web3 项目不是站在 nChain 专利库的肩膀上的——该专利库是该领域最早、最大、质…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/hxpoi578.html"
-                        open
-                      >
-                        <summary class="article-expander__title">麻省理工学院数字货币计划支持基于ERC-20的大规模可编程CBDC平台PArSEC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/hxpoi578.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月3日消息，据Cointelegraph报道，麻省理工学院 (MIT) 数字货币计划 (DCI) 推出了实验性PArSEC平台。PArSEC（“可扩展执行智能合约的并行架构”的缩写）是开源的，并在开发时考虑了央行数字货币（CBDC）。
-开发人员强调了该平台的速度。他们表示，它每秒在128台主机上执行118,000笔ERC-20交易，超过了公共无许可区块链。因此，该平台能够处理跨境承包，也可用于创新供应链和合规检查。PArSEC支持ERC-20代币，因此在该平台上推出的自动做市商可以与除CBDC之外的债券、代币化证券和回购协议等资产进行交易。由于它支持虚拟机，因此将简化央行和商业银行之间的交互。
-开发人员表示，他们需要持续对该平台进行大量研究，该平台的安全、密钥管理、数据迁移工具、隐私等方面需要改进。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/bn8q82qz.html"
-                        open
-                      >
-                        <summary class="article-expander__title">江苏省公安厅：多名群众从事“虚拟币”关联投资被骗损失极其惨重，请提高警惕</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/bn8q82qz.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月3日消息，江苏省公安厅近日发布的群发信息显示：“近期我省多名群众在相关网站或APP上从事‘虚拟币’关联投资被骗，损失极其惨重。请广大市民提高警惕，不要轻信非国家相关部门批准、监管或认可的投资理财渠道。”</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7284,76 +7471,6 @@ TL;DR
 穿针引线
 时机太糟糕了。在 2022 年春季推出新的加密货币基金，无异于在大流行病来临之前创办一家新的连锁电影院。在短短几个月的时间里，狂暴的牛市（比特币一度达到 69000 美…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188799"
-                        open
-                      >
-                        <summary class="article-expander__title">Curve 危机后，借贷平台疯狂“打补丁”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188799">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>经历了前两天的 Curve 事件，DeFi 板块正面临重大的信心危机。其中与 Curve 创始人 Michael Egorov 个人债务有关的借贷平台这两天可谓是提心吊胆。
-
-Egorov 已通过一些列操作来降低被清算的风险，例如 Curve 上线 crvUSD/fFRAX 池子，进而影响 Fraxlend 上的 CRV/FRAX 池子的债仓利率，并以 OTC 的方式大量出售手中锁仓 6 个月的 CRV 来还款。据链上分析师余烬监测，截至 8 月 2 日 22 点，Egorov 已累计出售 5950 万枚 CRV，换得 2380 万美元资金。
-Curve 事件看似已经转好（起码 DeFi 还在）。但像 Aave、Fraxlend、Abracadabra、Inverse 这四个被牵入水中的核心借贷平台则忙着未雨绸缪，对 Curve 池大刀阔斧地上提案，以期待降低未来坏账及连环清算的风险。
-Odaily 星球日报对这四家平台的最新动作进行一番了解，将其改进方向和进展分享如下。
-Aave
-Aave 作为债仓规模最大的一方，它的后续举措最值得大家关注。具体如何规避大的头寸影响平台的正常运营呢？
-其实在今年的 5 月底到 6 月中旬已经发生过一次清算风险，Egorov 先是购入豪宅，后被三家 VC 起诉，再到后来从 Aave 借出共 7100 万美元的稳定币（Lookonchain 统计），引发市场对其的恐慌情绪。
-6 月中，ChaosLabs 在 Aave 上发起一个提案，针对此类事件，降低 3% 的 CRV LT 来缓慢抑制其过热行为。提案也通过了，只是效果不够明显。（6 月 15 日，CRV 曾跌至当月最低价 0.558 USDT。）
-
-Gauntlet 后又在 Aave 的治理论坛上建议冻结 CRV ，并在 Aave v 2 上设置 CRV LTV 为 0 。具体如下：
-
-可…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188798"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | 美司法部或将起诉币安； 6 家公司正申请以太坊ETF（8月3日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188798">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>美司法部或对币安提起欺诈指控，鉴于其市场影响亦考虑其他选择
-
-
-头条
-美司法部或对币安提起欺诈指控，鉴于其市场影响亦考虑其他选择
-财经媒体 semafor 从知情人士处获悉，美国司法部官员正考虑对币安提出欺诈指控。
-但鉴于其市场影响，司法部官员担心引发挤兑产生类似 FTX 事件的影响，进而导致投资者受损。知情人士称检察官正考虑其他选择，例如罚款、延期或不起诉协议。（semafor）
-Direxion 已向美 SEC 提交比特币和以太坊期货 ETF 申请
-ETF 发行商 Direxion 已向美国 SEC 提交比特币和以太坊期货 ETF 申请。
-该产品名为“Direxion Bitcoin Ether Strategy ETF”，将投资于比特币和以太坊期货合约，同时还可投资于其他有期货产品敞口的 ETF。（CoinDesk）
-此前消息，目前有 6 家公司正在申请以太坊期货 ETF。
-行业要闻
-莱特币网络完成第三次减半，区块奖励降至 6.25 LTC
-Tokenview 数据显示，莱特币（LTC）网络在区块高度 2, 520, 000 完成第三次减半。区块奖励从 12.5 LTC 减少到 6.25 LTC。
-据悉，莱特币第一次减半是在 2015 年 8 月 25 日，区块奖励从 50 LTC 降至 25 LTC。第二次是在 2019 年 8 月 5 日，奖励减半至 12.5 LTC。
-Curve  事件追踪
-Gauntlet 发起提案，提议将 Aave v2上的 CRV LTV 设置为零
-DeFi 风险管理器 Gauntlet 在 Aave 社区发起提案，提议将 Aave v2上的 CRV LTV 设置为零。
-提案称，Gauntlet 一直在研究0x 7 a 16 开头钱包地址的风险概况。截至 2023 年 8 月 1 日，该账户以 1.58 亿美元的 CRV 作为抵押品借入了…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9451,8 +9568,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5785545024">
-        <time id="build-timestamp" datetime="2023-08-07T13:10:18.546Z">2023-08-07T13:10:18.546Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5786142603">
+        <time id="build-timestamp" datetime="2023-08-07T14:06:42.577Z">2023-08-07T14:06:42.577Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
