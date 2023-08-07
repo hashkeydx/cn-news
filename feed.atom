@@ -2,10 +2,218 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-07T11:06:01.393Z</updated>
+    <updated>2023-08-07T12:13:22.272Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文详解街机帐户：成本20美分，链上游戏的金钥匙]]></title>
+        <id>https://www.odaily.news/post/5188904</id>
+        <link href="https://www.odaily.news/post/5188904"/>
+        <updated>2023-08-07T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[得益于 Play-to-earn 的模式，像 StepN 这样的 GameFi 游戏迅速走红，并带动越来越多的资金涌入赛道。据区块链游戏平台服务商 Blockchaingamer 统计，截至 2022 年 11 月，区块链游戏领域的投资额高达 25.6 亿美元。但由于经济模型和基础设施尚未成熟，资本加持之下的 GameFi 概念很快就冷却下来。
+2023 年，人们将发展目光转向全链游戏。对于全链游戏来说，除了游戏中的数字资产，游戏的所有逻辑也都在链上发生，这意味着游戏合约的每一次状态变化都需要在链上注册，玩家需对游戏中的每一次操作都执行签署交易，对于像 RTS 即时战略这样的高频操作游戏来说是非常糟糕的玩家体验。
+会话密钥（Session Key）是一个为了解决加密原生游戏所固有糟糕游戏体验的应对方案，旨在利用帐户抽象和 Starknet 上的一些巧妙创新，让加密游戏玩家无需为每一次操作频繁签名交易。而今天，Loot Realms 发布了基于会话密钥的首个实现——街机帐户（Arcade Accounts）。有了 Arcade Account 功能后，玩家可将密钥安全地存储在浏览器存储中，无需对每一次游戏中的「攻击」操作进行签名，从而实现更流畅的玩家体验。
+街机帐户到底是什么？其运行原理又是什么样的？在解答这些问题之前，先来了解一下会话密钥（Session Key）。
+会话密钥是什么？
+会话密钥是 Briqs、Realms 和 Topology 三家团队于 1 年前在 Starknet 黑客松上联合发起的一个创意，旨在利用帐户抽象和 Starknet 上的一些巧妙创新，解决加密原生游戏所固有的糟糕体验——玩家需为游戏中的每一次操作执行交易签名。
+在链上游戏场景中，每一次游戏中的操作行为都会跳出一个钱包弹窗，并需要用户确认「你想确认这项交易吗？」，同时还有一些大多数人无法解读的内容，这可能会导致错误、混乱，甚至丢钱。
+会话密钥允许用户预先批准与特定 Dapp 的交互规则，比如，仅限特定的持续时间，最大的 Gas 限值，对代币的最大交易量进行限制，或特定合约的特定功能等。这样，游戏玩家就可以在这些限定的规则内随心所欲交互，而不必签署每一笔交易。
+换句话说，有了会话密钥，玩家可以在享用 Dapp 乐趣的同时，同时确认自己的资产是受保护的。因为 Session keys 已经限制了 Dapp 什么可以做，什么不能做。这意味着你在玩链上游戏的时候，不会被无休止的确认所困扰，同时清楚钱包里最有价值的资产是安全的。
+Arcade Accounts 是什么？
+街机帐户（Arcade Accounts）则是 Realms 团队首次使用帐户抽象在 Starknet 上首个对会话密钥（Session keys）的实现。
+通过采用（限制权限的）中间件，允许 Realms 玩家创建新型的街机帐户，这可极大地改善链上游戏的用户体验。
+
+本质上，一个街机帐户就是一个 Starknet 帐户，不过带有一些功能上的变体，这包括：
+- 每一个 Arcade 帐户均有一个主帐户
+- 除了主帐户，其他级别的帐户无法将 ETH/Tokens 转出
+- 其他帐户只能签署交易，除非经过身份验证
+也就是说，Arcade 帐户仅提供有限的玩家功能，这些权限的限制可将安全风险降至最低，即使街机帐户被利用，攻击者也无能为力，因为主帐户可以提取所有资金，并创建一个新的街机帐户。
+Starknet 所特有的「声明合约」方法，可将添加一个 Arcade 帐户的成本降低至 20 美分左右。
+街机帐户的体验到底如何？Loot Realms 在轻量级小游戏 Loot Survivor 中展示了一个 Arcade 帐户为游戏玩家带来的直观感受——「流畅的游戏内交互体验，无需为每一次攻击操作签名」。
+在没有使用街机帐户时，玩家需对游戏中的每一次攻击操作进行消息签名，等待较长的确认时间，添加 Arcade Account 之后，用户可将密钥安全地存储在浏览器存储中，则无需进行消息签名，直接进行游戏中的攻击操作。
+
+以上仅仅是将合约作为帐户（Contracts as Accounts）实现的一些基本功能，Loot Realms 接下来将实现两项高级功能：ETH 不足时自动充值和当代币到达帐户时转出。
+实际上，会话密钥并非 Starknet 专属技术，而全链游戏的 Session Key 功能也只是账户抽象（Account Abstraction）所解锁的用例之一，随着账户抽象方案的普及和扩展，钱包将会变得更加安全也更易于使用，Web3 世界将迎来更多的用户。
+参考内容：
+https://twitter.com/lordOfAFew/status/1687976673902538752
+https://www.defidaonews.com/article/6773674]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[肯尼亚警方上周六突袭位于内罗毕的Worldcoin办公室]]></title>
+        <id>https://panewslab.com/zh/articledetails/fzvizgv1.html</id>
+        <link href="https://panewslab.com/zh/articledetails/fzvizgv1.html"/>
+        <updated>2023-08-07T10:59:13.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月7日消息，据肯尼亚当地媒体kahawatungu报道，肯尼亚警方在上周六突袭位于内罗毕的Worldcoin办公室，并没收了警方认为收集用户数据的机器，警方将这些数据带到刑事调查局总部进行分析。据报道，这次突袭是在肯尼亚数据保护专员 Immaculate Kassait 的监督下进行的，lmmaculate Kassait 表示，Worldcoin 母公司 Tools for Humanity 在注册时未能透露其真实意图。
+此前报道，肯尼亚政府以隐私和安全问题为由暂停Worldcoin的运营。Worldcoin称正与有关部门合作，很快将在肯尼亚恢复虹膜扫描。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[波场TRON成为日本加密资产商业协会（JCBA）准会员]]></title>
+        <id>https://panewslab.com/zh/articledetails/bq9xrikx.html</id>
+        <link href="https://panewslab.com/zh/articledetails/bq9xrikx.html"/>
+        <updated>2023-08-07T10:48:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月7日消息，据官网公告显示，波场TRON已正式成为日本加密资产商业协会（JCBA）准会员。作为重要的全球支付网络，截至目前，波场 TRON 交易笔数超 62 亿，账户总数突破 1.77 亿，总锁仓量（TVL）超 131 亿美元。去年 10 月，波场 TRON 被多米尼克官方指定为其国家级区块链基础设施。
+据悉，日本加密资产商业协会（JCBA）成立于2016年，是一个在日本旨在改善与资产相关商业环境的会员制组织，及构成公共区块链和Web 3.0生态系统的利益相关者群体。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新加坡金管局承诺提供高达1.5亿新元用于金融领域的技术和创新，包含Web 3.0]]></title>
+        <id>https://panewslab.com/zh/articledetails/7egawpvy.html</id>
+        <link href="https://panewslab.com/zh/articledetails/7egawpvy.html"/>
+        <updated>2023-08-07T10:46:44.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月7日消息，新加坡金融管理局 (MAS) 今天宣布，根据新的金融部门技术和创新计划 (FSTI 3.0)，将在三年内投入高达 1.5 亿新元。FSTI 3.0 旨在通过支持涉及使用尖端技术或具有区域联系的项目来加速和加强创新，同时加倍履行 MAS 为金融部门促进充满活力的技术生态系统的承诺。
+MAS 称认识到与行业合作以支持 Web 3.0 等新兴技术产生的创新金融科技解决方案的重要性。MAS 将公开呼吁在行业用例中使用创新技术。将提供赠款资金以支持实际试验和商业化。FSTI 3.0将继续支持人工智能和数据分析（AIDA）、监管技术（RegTech）等关键领域的先进能力开发和采用。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CoinShares：上周数字资产投资产品净流出1.07亿美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/jf0y7i89.html</id>
+        <link href="https://panewslab.com/zh/articledetails/jf0y7i89.html"/>
+        <updated>2023-08-07T10:21:05.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月7日消息，据CoinShares周报数据，上周数字资产投资产品净流出资金总额达 1.07 亿美元，其中比特币投资产品净流出 1.114 亿美元，以太坊投资产品净流出 590 万美元。资金流出主要集中在加拿大和德国的两家 ETP 提供商，分别流出了 7080 万美元和 2850 万美元。此外，Solana 投资产品单周净流入 950 万美元，创下 2022 年 3 月以来周净流入新高。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欧易OKX AA钱包现已开源智能合约代码]]></title>
+        <id>https://panewslab.com/zh/articledetails/8xw83jrn.html</id>
+        <link href="https://panewslab.com/zh/articledetails/8xw83jrn.html"/>
+        <updated>2023-08-07T10:09:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月7日消息，据官方消息，欧易OKX AA钱包现已开源智能合约代码，覆盖Ethereum、OKTC、Arbitrum、Polygon、Optimism、BNB Chain、Avalanche共7条热门公链。此前，欧易OKX Web3钱包多链签名SDK也已实现全面开源，支持60+多链，全面覆盖所有热门生态。欧易OKX表示，持续开源旨在提升其Web3钱包的安全透明，助力加密行业健康发展，为行业建设贡献一份力量。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新加坡红十字会与Triple-A合作开始接受加密货币捐赠]]></title>
+        <id>https://panewslab.com/zh/articledetails/phi0855h.html</id>
+        <link href="https://panewslab.com/zh/articledetails/phi0855h.html"/>
+        <updated>2023-08-07T10:05:34.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月7日消息，新加坡红十字会今日宣布与 Triple-A 达成合作，开始提供加密货币匿名捐赠选项。将接受比特币、以太币、Tether 和 USD Coin 捐赠。 所有捐款将在一个工作日内兑换成法定货币并通过银行转账结算。Triple-A 是新加坡金融管理局 (MAS) 许可的第一个加密支付网关。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用市盈率评估ETH：越贵越买反直觉]]></title>
+        <id>https://www.odaily.news/post/5188905</id>
+        <link href="https://www.odaily.news/post/5188905"/>
+        <updated>2023-08-07T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：SAM ANDREW
+原文编译：深潮 TechFlow
+以太坊具有生产性资产的特点，它能够产生利润，这些利润归属于代币持有者。但是，它是否像股票一样被视为一种生产性资产呢？以太坊的估值倍数是否会影响 ETH 的价格？
+估值倍数是一种评估资产价值的启发式方法。谷歌的市盈率为 30 倍。英伟达的市盈率为 230 倍。如果谷歌目前的盈利持续 30 年，那么需要 30 年才能收回对谷歌的投资。如果谷歌的盈利增长，所需年数将更少。相对于英伟达而言，谷歌的估值较低。价格估值，例如 30 倍与 230 倍之间的差异，不是投资回报的唯一驱动因素，但却是一个重要因素。昂贵的资产，如英伟达，其当前估值倍数中蕴含了高增长的预期。如果它们无法达到这些高预期，价格将会暴跌。
+类似的估值倍数也可以应用于加密货币。市值除以总费用是一种加密货币的估值倍数。市值代表市场对资产价值的当前看法。费用是协议所产生的总收入。区块链的收入类似于它在整个网络中分配的利润。因此，区块链的收入和盈利倍数是相同的。
+以太坊的估值倍数是多少？
+以太坊目前的交易估值是其七天年化费用的 100 倍。自 2022 年夏季以来，以太坊的费用倍数在 25 倍和 235 倍之间波动（参见下图：自 2022 年低点以来的 ETH 价格和市值/费用）。
+
+意想不到的关系
+上面的图表显示了以太坊价格和估值倍数之间的反向关系。购买以太坊的最佳时机是在 2022 年底，当时以太坊的价格约为 1200 美元。然而，恰好在那个时候，以太坊的估值倍数更高，达到了 200 倍的费用。到了 2023 年春季，以太坊的价格接近 2000 美元，但其费用倍数降至 50-100 倍。
+价格和估值倍数之间的反向关系是出乎意料的。通常情况下，当资产的估值倍数较低时，它更具投资价值。在资产达到拐点之前，倍数通常较低。市场意识到资产被低估。价格开始上涨，估值倍数…]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安将于8月8日上线DODO U本位永续合约]]></title>
+        <id>https://panewslab.com/zh/articledetails/oab544p3.html</id>
+        <link href="https://panewslab.com/zh/articledetails/oab544p3.html"/>
+        <updated>2023-08-07T09:57:05.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月7日消息，币安合约交易平台将于2023年8月8日20:00（北京时间）上线USDⓈ-M DODO永续合约，最高杠杆为20倍。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[英国国家犯罪局为其数字资产调查团队招募新员工]]></title>
+        <id>https://panewslab.com/zh/articledetails/4ca26p68.html</id>
+        <link href="https://panewslab.com/zh/articledetails/4ca26p68.html"/>
+        <updated>2023-08-07T09:51:34.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月7日消息，据Cointelegraph报道，英国国家犯罪局 (NCA) 希望扩大其数字资产调查团队，为其复杂金融犯罪团队聘请四名高级调查员，专门从事与加密货币相关的犯罪活动。该职位涉及调查有组织犯罪集团实施的高端加密货币欺诈、洗钱和其他基于区块链的犯罪。调查人员将与监视小组和伦敦警方合作。该角色需要与其他调查人员、情报和分析团队成员合作，利用各种来源的数据和证据来开发复杂的案件。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从做市基金出发，Solv V3引领链上资产走向多元化新纪元]]></title>
+        <id>https://www.odaily.news/post/5188909</id>
+        <link href="https://www.odaily.news/post/5188909"/>
+        <updated>2023-08-07T09:43:12.000Z</updated>
+        <summary type="html"><![CDATA[尽管市场处于熊市之中，行业中仍存在诸如做市、LSD 等真实收益来源，然而多数散户的财富不但没有增值反而承受了损失。
+以做市为例，作为 DeFi 最早的真实收益来源之一，早期的做市策略和操作方式都很简单，即便伴随着行情上升出现一定的无常损失，但总体收益仍然非常可观。而如今，以 Uniswap 为代表的老牌 DEX 已经经过了几次迭代，GMX 一类新兴协议作为行业最高收益来源之一也为 LP 提供了更灵活的功能和策略空间，DeFi 参与需要配合更多灵活高效的策略，同时具备一定的风控管理能力。普通散户在 DeFi 市场中的生存空间越来越小，想要获得更高的收益越来越难。
+另一方面，加密市场并不缺少可以带来增值收益的实体，专业的 DeFi 做市团队就是在这样的行业趋势下出现的，他们利用专业的量化交易工具制定交易策略辅之以严密的风险管理，赚取着可观收益，而散户却只有眼红的份。散户想从中分一杯羹就要撬动专业团队的智慧，问题的关键是专业团队的策略和散户的资金如何连接与匹配。专业策略团队难以建立信任自证清白、也无从创造金融工具拓展融资渠道，信任问题和金融工具的缺失导致专业策略很难扩大规模。
+Solv Protocol 自 2020 年 8 月创立以来，一直致力于降低链上金融工具的创造与使用门槛，相继推出了行业首个 1.5 级市场流动性解决方案 Vesting Voucher，以及第一个链上债券市场，实现了超过 1 亿美金的债券发行与交易。2023 年 3 月正式推出的 Solv V 3 定位链上基金平台，实现了链上基金发行、交易与清结算的全流程标准。Solv V 3 背后是一个通用的基金基础设施，由两个关键模块组成：
+1）链上基金协议，支持基金创造、发行与交易；
+2）多环节链上风控体系，从资产筛选、资金权限、清算等多环节保护资金安全。
+
+7 月 31 日，Solv V 3 正式推出首个灵活申赎…]]></summary>
+        <author>
+            <name>了了</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OKX成为新加坡TOKEN2049峰会的冠名赞助商及主要演讲嘉宾]]></title>
+        <id>https://www.odaily.news/post/5188910</id>
+        <link href="https://www.odaily.news/post/5188910"/>
+        <updated>2023-08-07T09:36:15.000Z</updated>
+        <summary type="html"><![CDATA[8 月 7 日，全球领先的加密资产交易所和Web3科技公司 OKX 宣布成为亚洲首屈一指的Web3加密货币峰会「TOKEN 2049 」的冠名赞助商以及主要演讲嘉宾。
+TOKEN 2049 将于 2023 年 9 月 13 日至 14 日在新加坡举行，预计将迎来超过 10, 000 名与会者，或成为今年规模最大的Web3活动。
+OKX 总裁 Hong、OKX 首席营销官 Haider Rafique 以及 OKX 全球首席商务官 Lennix Lai 已确认受邀出席并发表演讲。此外，两位杰出的 OKX 大使 F1 车手 Daniel Ricciardo 和奥运会单板滑雪选手 Scotty James、以及 OKX 首席营销官 Haider Rafiqu 也将在会议第一天一起受邀参加 TOKEN 2049 的炉边对话。
+
+图：F1 车手 Daniel Ricciardo(左)、奥运会单板滑雪选手 Scotty James(右)
+OKX 总裁 Hong 表示：“TOKEN 2049 新加坡是一个让行业团结起来的好机会，倡导让加密货币惠及更多最需要它的人群。随着我们从中心化信任系统到去中心化信任系统的转变，此次会议是让我们分享 OKX 如何在亚洲及其他地区进一步推广加密行业应用愿景的重要和有趣的方式。”
+OKX 首席营销官 Haider Rafique：“这是我们连续第二年将 TOKEN 2049 和新加坡大奖赛结合起来，是把加密行业和 F 1 球迷聚集在一起的良好开端。今年我们通过最新的“The System Needs a Rewrite”活动，帮助人们看到Web3的未来，而新加坡是我们发力的主要场所，Daniel Ricciardo、Scotty James 和我还可能将在本次大会的炉边对话中给与会者一个惊喜。”
+OKX 全球首席商务官 Lennix Lai 表示：“新加坡是将 TOKEN 2049 的各种Web3创新者聚集在一起的理想场所，这些人都在为行业发展奠定良好基础的层面发挥着重要作用。我期待在本次大会上讨论关于新加坡监管格局如何演变、以及Web3公司如何通过加强透明度、安全性和合规性来与用户和监管机构建立信任等主题时做出贡献。”
+关于 OKX
+OKX 是全球领先的加密货币交易所和Web3科技公司。OKX 以提供速度与可靠性兼备的加密货币交易应用程序，深受全球超五千万用户信任。
+OKX 与英超冠军曼城（Manchester City F.C.）、迈凯轮 F 1 车队（McLaren F 1 Team）、奥运会单板滑雪选手 Scotty James 以及 F 1 车手 Daniel Ricciardo 紧密合作，希望通过全新的互动方式增强粉丝体验。此外，OKX 亦是翠贝卡电影节（Tribeca Festival）的顶级合作伙伴，致力吸引更多创作者进入Web3领域。
+除 OKX 交易所服务外，OKX 最新推出 OKX Web3钱包服务，旨在为用户提供探索 DeFi、NFT、DEX、GameFi 等的一站式Web3入口。
+OKX 致力于提高透明度和安全性，并每月定期发布储备金证明报告。
+免责声明
+本公告仅供参考。本公告无意提供任何投资、税务或法律意见，也不应被视为购买、出售或持有数字资产的要约。持有包括稳定币在内的数字资产风险较高，市场波动亦可能较大，您甚至可能会损失全部资产价值。您应根据您的财务状况及风险承受能力，仔细考虑您是否适合交易或持有数字资产。OKX 不会提供任何投资或资产建议。您本人必须为您作出的投资决定负上全责，而 OKX 亦不会就任何损失承担责任。往绩亦不代表未来的结果。如您对自身具体情况有任何疑问，请咨询您的法律/税务/投资专家。]]></summary>
+        <author>
+            <name>欧易OKX</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宏观周报(8.7)：全球定价之锚飙升带来的影响]]></title>
+        <id>https://www.odaily.news/post/5188907</id>
+        <link href="https://www.odaily.news/post/5188907"/>
+        <updated>2023-08-07T09:31:15.000Z</updated>
+        <summary type="html"><![CDATA[概述
+
+上周，受到美债被下调评级的影响，长期债券价格大跌，主要发达国家股指下跌，尽管周五美国就业报告公布后小幅反弹，但最终还是全部回吐。
+
+过去一周尽管美股 2 季报表现总体良好，但股市整体并未出现进一步上涨。宏观数据仍较为稳健，但已经接近预期上限。
+
+全球风险偏好下降，新兴市场货币普遍大跌，美元上涨，也压制了黄金价格。但油价上涨，因有消息称沙特阿拉伯自愿减产将延续至 9 月甚至更久。
+
+数字货币一度受到美债评级下调的利好刺激，但最终随全球风险偏好一起回落。稳定币从链上和交易所双流出。
+
+考虑到美股已超过 4 个半月未见调整，出现 3 – 5% 的小幅回调不足为奇，该时长已远超过典型的 2 – 3 个月调整的周期。
+
+市场要点
+美国国债收益率倒挂收窄：上周，两年期与十年期国债收益率差距缩小了 20 个基点，是自 2008 年 3 月银行危机以来的最大缩小幅度。主要因长端利率上升更快，十年期国债收益率本周上涨 8 个基点至 4.03% 。在 7 月就业数据公布后早盘曾一度升至 4.20% ，与去年 10 月 21 日的峰值仅差 2 个基点，当时是自 2008 年 6 月以来的最高收益率水平。
+
+与此同时，两年期国债收益率下滑 11 个基点至近三周低点 4.77% 。市场预期美联储 9 月 20 日会议加息 25 个基点的概率由 19% 下降至 13% 。
+债券收益率长涨短跌，并伴随加息预期下降，这样的走势在过去两年里非常少见。
+新兴市场：上周全球出现避险情绪，新兴市场货币承压。例如，南非兰特下跌 4.5% ，俄罗斯卢布下跌 3.9% ，哥伦比亚比索下跌 3.7% ，人民币小跌 0.35% 。
+股市表现：Nasda q 1 00 指数下跌近 3% ，为自硅谷银行危机( 3 月 10 日)以来最大跌幅；S&P 500 下跌 2.3% ，为 3 月以来最大单周跌幅，公用事业股大跌 …]]></summary>
+        <author>
+            <name>LD Capital</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[香港证监会：某些未获发牌的虚拟资产交易平台使用不当的经营手法]]></title>
         <id>https://panewslab.com/zh/articledetails/saxeb6fp.html</id>
@@ -4069,57 +4277,6 @@ Ayre Group创始人Calvin Ayre 称：“在过去十年的大部分时间里，n
         <updated>2023-08-03T00:22:52.000Z</updated>
         <summary type="html"><![CDATA[PANews 8月3日消息，Base链上DEX LeetSwap在推特上表示：“平台已从有问题的流动性池中共收回314枚ETH。然后我们开始使用自定义逻辑查看从恢复程序失败的税收代币。我们设法将一些代币的ETH直接拯救到其中一些代币的税务钱包中。所有这些代币的代码都需要逐一检查，这就是为什么DEX上有这么多代币的交易对需要这么长时间。现在我们尝试在这些剩余的代币上运行这个新解决方案。之后，我将开始将ETH发送给我们拯救的流动性池的部署者，以便他们的开发人员可以重新启动。最后，我们将恢复交易，因为由于某些税收代币合约的限制，有些池无法获救。”
 此前8月1日消息，LeetSwap中axlUSD/WETH池遭遇价格操控攻击，损失金额约62万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国多位民主党参议员敦促国税局和财政部发布加密货币经纪人税收规则]]></title>
-        <id>https://panewslab.com/zh/articledetails/93ax6lld.html</id>
-        <link href="https://panewslab.com/zh/articledetails/93ax6lld.html"/>
-        <updated>2023-08-02T23:59:39.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月3日消息，美国民主党参议员Elizabeth Warren、Bob Casey和Richard Blumenthal周二与Bernie Sanders一起签署了一封信，敦促美国国税局和财政部发布针对加密货币经纪人的税务报告指南，然后大力执行。
-Warren等参议员们指的是参议院2021年8月通过的1.2万亿美元基础设施法案中的指令，该法案扩大了对充当加密货币“经纪人”（包括交易所）的企业当前的税务报告要求。尽管该法案已签署成为法律，并且白宫于5月份完成了对规则的审查，但财政部和国税局尚未发布这些规则，该规则将于今年实施。信中写道：“该法律颁布已近两年，距离实施期限还不到六个月，但财政部尚未公布拟议规则。 ”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Robinhood第二季度加密交易收入报3100万美元，环比下降18%]]></title>
-        <id>https://panewslab.com/zh/articledetails/y9aehm0w.html</id>
-        <link href="https://panewslab.com/zh/articledetails/y9aehm0w.html"/>
-        <updated>2023-08-02T23:45:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月3日消息，在线交易平台Robinhood最新发布的财报显示，该公司今年第二季度的加密交易收入为3100万美元，相比第一季度的3800万美元下降了18%。与此同时，加密交易收入占所有类别总交易收入（1.93亿美元）的16%，环比下降7%。此外，Robinhood第二季度托管加密资产的价值为1150万美元，与第一季度末持平。今年6月，Robinhoold下架了所有被美国证券交易委员会（SEC）称为证券的代币，包括Cardano (ADA)、Polygon (MATIC)和Solana (SOL)。该交易平台目前提供15种加密货币交易，包括比特币(BTC)、以太坊(ETH)、狗狗币(DOGE)和avalanche (AVAX)。Robinhood股价周三盘后交易中下跌6.35%，至11.65美元。今年以来其股价已累计上涨54%。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Curve Finance已终止受近期攻击事件影响的多个流动性池的CRV奖励]]></title>
-        <id>https://panewslab.com/zh/articledetails/ooq7251s.html</id>
-        <link href="https://panewslab.com/zh/articledetails/ooq7251s.html"/>
-        <updated>2023-08-02T23:35:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月3日消息，Delphi Labs总法律顾问Gabriel Shapiro推特发文称，Curve Finance紧急多签名已经终止了受近期攻击事件影响的多个流动性池的CRV奖励，包括受最近Vyper编译器漏洞影响的流动性池和受最近Multichain漏洞影响的multiBTC池。采取这一行动是为了避免用户进一步参与这些受攻击的流动性池。受影响的流动性池包括alETH+ETH、msETH-ETH、pETH-ETH、crvCRVETH、Arbitrum Tricrypto和multibtc3CRV。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Direxion已向美国SEC提交比特币和以太坊期货ETF申请]]></title>
-        <id>https://panewslab.com/zh/articledetails/2kc65rhm.html</id>
-        <link href="https://panewslab.com/zh/articledetails/2kc65rhm.html"/>
-        <updated>2023-08-02T23:27:15.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月3日消息，据CoinDesk报道，ETF发行商Direxion已向美国证券交易委员会（SEC）提交比特币和以太坊期货ETF申请。该产品名为“Direxion Bitcoin Ether Strategy ETF”，将投资于比特币和以太坊期货合约，同时还可投资于其他有期货产品敞口的ETF。据此前消息，本周已有6家公司申请推出以太坊期货ETF，分别为Volatility Shares、Bityise、Roundhill、VanEck、Proshares和Grayscale（灰度）。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[赵长鹏否认有关“他试图关闭Binance.US但遭到Binance.US CEO反对”的报道]]></title>
-        <id>https://panewslab.com/zh/articledetails/nnaotn3t.html</id>
-        <link href="https://panewslab.com/zh/articledetails/nnaotn3t.html"/>
-        <updated>2023-08-02T23:13:23.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月3日消息，赵长鹏推特发文回应了有关“他今年曾试图关闭Binance.US，但遭到Binance.US CEO反对“的报道，称这是FUD消息，该报道的研究、验证甚至逻辑思维都极为不准确。如果是董事会投票，1票反对票无法阻止任何决定通过，因为三分之二多数票便可获得通过。如果是股东投票，Brian Shroder是首席执行官，而不是风投或任何其他类型的投资者。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
