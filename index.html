@@ -8281,52 +8281,6 @@ Global…</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5188904"
-                        open
-                      >
-                        <summary class="article-expander__title">一文详解街机帐户：成本20美分，链上游戏的金钥匙</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5188904">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>得益于 Play-to-earn 的模式，像 StepN 这样的 GameFi 游戏迅速走红，并带动越来越多的资金涌入赛道。据区块链游戏平台服务商 Blockchaingamer 统计，截至 2022 年 11 月，区块链游戏领域的投资额高达 25.6 亿美元。但由于经济模型和基础设施尚未成熟，资本加持之下的 GameFi 概念很快就冷却下来。
-2023 年，人们将发展目光转向全链游戏。对于全链游戏来说，除了游戏中的数字资产，游戏的所有逻辑也都在链上发生，这意味着游戏合约的每一次状态变化都需要在链上注册，玩家需对游戏中的每一次操作都执行签署交易，对于像 RTS 即时战略这样的高频操作游戏来说是非常糟糕的玩家体验。
-会话密钥（Session Key）是一个为了解决加密原生游戏所固有糟糕游戏体验的应对方案，旨在利用帐户抽象和 Starknet 上的一些巧妙创新，让加密游戏玩家无需为每一次操作频繁签名交易。而今天，Loot Realms 发布了基于会话密钥的首个实现——街机帐户（Arcade Accounts）。有了 Arcade Account 功能后，玩家可将密钥安全地存储在浏览器存储中，无需对每一次游戏中的「攻击」操作进行签名，从而实现更流畅的玩家体验。
-街机帐户到底是什么？其运行原理又是什么样的？在解答这些问题之前，先来了解一下会话密钥（Session Key）。
-会话密钥是什么？
-会话密钥是 Briqs、Realms 和 Topology 三家团队于 1 年前在 Starknet 黑客松上联合发起的一个创意，旨在利用帐户抽象和 Starknet 上的一些巧妙创新，解决加密原生游戏所固有的糟糕体验——玩家需为游戏中的每一次操作执行交易签名。
-在链上游戏场景中，每一次游戏中的操作行为都会跳出一个钱包弹窗，并需要用户确认「你想确认这项交易吗？」，同时还有一些大多数人无法解读的内容，这可能会导致错误、混乱，甚至丢钱。
-会话密钥允许用户预先批准与特定 Dapp 的交互规则，比如，仅限特定的持续时间，最大的 Gas 限值，对代币的最大交易量进行限制，或特定合约的特定功能等。这样，游戏玩家就可以在这些限定的规则内随心所欲交互，而不必签署每一笔交易。
-换句话说，有了会话密钥，玩家可以在享用 Dapp 乐趣的同时，同时确认自己的资产是受保护的。因为 Session keys 已经限制了 Dapp 什么可以做，什么不能做。这意味着你在玩链上游戏的时候，不会被无休止的确认所困扰，同时清楚钱包里最有价值的资产是安全的。
-Arcade Accounts 是什么？
-街机帐户（Arcade Accounts）则是 Realms 团队首次使用帐户抽象在 Starknet 上首个对会话密钥（Session keys）的实现。
-通过采用（限制权限的）中间件，允许 Realms 玩家创建新型的街机帐户，这可极大地改善链上游戏的用户体验。
-
-本质上，一个街机帐户就是一个 Starknet 帐户，不过带有一些功能上的变体，这包括：
-- 每一个 Arcade 帐户均有一个主帐户
-- 除了主帐户，其他级别的帐户无法将 ETH/Tokens 转出
-- 其他帐户只能签署交易，除非经过身份验证
-也就是说，Arcade 帐户仅提供有限的玩家功能，这些权限的限制可将安全风险降至最低，即使街机帐户被利用，攻击者也无能为力，因为主帐户可以提取所有资金，并创建一个新的街机帐户。
-Starknet 所特有的「声明合约」方法，可将添加一个 Arcade 帐户的成本降低至 20 美分左右。
-街机帐户的体验到底如何？Loot Realms 在轻量级小游戏 Loot Survivor 中展示了一个 Arcade 帐户为游戏玩家带来的直观感受——「流畅的游戏内交互体验，无需为每一次攻击操作签名」。
-在没有使用街机帐户时，玩家需对游戏中的每一次攻击操作进行消息签名，等待较长的确认时间，添加 Arcade Account 之后，用户可将密钥安全地存储在浏览器存储中，则无需进行消息签名，直接进行游戏中的攻击操作。
-
-以上仅仅是将合约作为帐户（Contracts as Accounts）实现的一些基本功能，Loot Realms 接下来将实现两项高级功能：ETH 不足时自动充值和当代币到达帐户时转出。
-实际上，会话密钥并非 Starknet 专属技术，而全链游戏的 Session Key 功能也只是账户抽象（Account Abstraction）所解锁的用例之一，随着账户抽象方案的普及和扩展，钱包将会变得更加安全也更易于使用，Web3 世界将迎来更多的用户。
-参考内容：
-https://twitter.com/lordOfAFew/status/1687976673902538752
-https://www.defidaonews.com/article/6773674</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -8582,109 +8536,6 @@ PYUSD 旨在随时可兑换为美元，也可兑换为 PayPal 网络上提供的
                             <span class="media-object__text">
                               <span>PANews 8月7日消息，埃隆·马斯克 (Elon Musk) 现已将 Twitter Blue 订阅服务重新命名为 X Premium。X Premium 订阅服务附带广告收入分享模式，该模式将使所有符合条件的 X Premium 订阅者都有资格根据其在平台上的参与度分享广告收入。只有那些在过去 3 个月内其帖子总展示次数至少达到 1500 万次、拥有至少 500 名关注者且年满 18 岁的 X-Premium 订阅者才有资格获得广告收入。马斯克还表示，非订阅者产生的所有广告收入将由该平台保留。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/fzvizgv1.html"
-                        open
-                      >
-                        <summary class="article-expander__title">肯尼亚警方上周六突袭位于内罗毕的Worldcoin办公室</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/fzvizgv1.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月7日消息，据肯尼亚当地媒体kahawatungu报道，肯尼亚警方在上周六突袭位于内罗毕的Worldcoin办公室，并没收了警方认为收集用户数据的机器，警方将这些数据带到刑事调查局总部进行分析。据报道，这次突袭是在肯尼亚数据保护专员 Immaculate Kassait 的监督下进行的，lmmaculate Kassait 表示，Worldcoin 母公司 Tools for Humanity 在注册时未能透露其真实意图。
-此前报道，肯尼亚政府以隐私和安全问题为由暂停Worldcoin的运营。Worldcoin称正与有关部门合作，很快将在肯尼亚恢复虹膜扫描。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/bq9xrikx.html"
-                        open
-                      >
-                        <summary class="article-expander__title">波场TRON成为日本加密资产商业协会（JCBA）准会员</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/bq9xrikx.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月7日消息，据官网公告显示，波场TRON已正式成为日本加密资产商业协会（JCBA）准会员。作为重要的全球支付网络，截至目前，波场 TRON 交易笔数超 62 亿，账户总数突破 1.77 亿，总锁仓量（TVL）超 131 亿美元。去年 10 月，波场 TRON 被多米尼克官方指定为其国家级区块链基础设施。
-据悉，日本加密资产商业协会（JCBA）成立于2016年，是一个在日本旨在改善与资产相关商业环境的会员制组织，及构成公共区块链和Web 3.0生态系统的利益相关者群体。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/7egawpvy.html"
-                        open
-                      >
-                        <summary class="article-expander__title">新加坡金管局承诺提供高达1.5亿新元用于金融领域的技术和创新，包含Web 3.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/7egawpvy.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月7日消息，新加坡金融管理局 (MAS) 今天宣布，根据新的金融部门技术和创新计划 (FSTI 3.0)，将在三年内投入高达 1.5 亿新元。FSTI 3.0 旨在通过支持涉及使用尖端技术或具有区域联系的项目来加速和加强创新，同时加倍履行 MAS 为金融部门促进充满活力的技术生态系统的承诺。
-MAS 称认识到与行业合作以支持 Web 3.0 等新兴技术产生的创新金融科技解决方案的重要性。MAS 将公开呼吁在行业用例中使用创新技术。将提供赠款资金以支持实际试验和商业化。FSTI 3.0将继续支持人工智能和数据分析（AIDA）、监管技术（RegTech）等关键领域的先进能力开发和采用。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/jf0y7i89.html"
-                        open
-                      >
-                        <summary class="article-expander__title">CoinShares：上周数字资产投资产品净流出1.07亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/jf0y7i89.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月7日消息，据CoinShares周报数据，上周数字资产投资产品净流出资金总额达 1.07 亿美元，其中比特币投资产品净流出 1.114 亿美元，以太坊投资产品净流出 590 万美元。资金流出主要集中在加拿大和德国的两家 ETP 提供商，分别流出了 7080 万美元和 2850 万美元。此外，Solana 投资产品单周净流入 950 万美元，创下 2022 年 3 月以来周净流入新高。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/8xw83jrn.html"
-                        open
-                      >
-                        <summary class="article-expander__title">欧易OKX AA钱包现已开源智能合约代码</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/8xw83jrn.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月7日消息，据官方消息，欧易OKX AA钱包现已开源智能合约代码，覆盖Ethereum、OKTC、Arbitrum、Polygon、Optimism、BNB Chain、Avalanche共7条热门公链。此前，欧易OKX Web3钱包多链签名SDK也已实现全面开源，支持60+多链，全面覆盖所有热门生态。欧易OKX表示，持续开源旨在提升其Web3钱包的安全透明，助力加密行业健康发展，为行业建设贡献一份力量。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10782,8 +10633,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5837435532">
-        <time id="build-timestamp" datetime="2023-08-11T22:06:34.700Z">2023-08-11T22:06:34.700Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5837790583">
+        <time id="build-timestamp" datetime="2023-08-11T23:06:22.250Z">2023-08-11T23:06:22.250Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
