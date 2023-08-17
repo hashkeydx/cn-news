@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-17T13:08:00.875Z</updated>
+    <updated>2023-08-17T14:06:29.318Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[veDAO研究院：进击的钱包，带你了解加密钱包的新技术与新发展]]></title>
+        <id>https://www.odaily.news/post/5189063</id>
+        <link href="https://www.odaily.news/post/5189063"/>
+        <updated>2023-08-17T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[今日 veDAO 研究院将围绕所有加密投资者都熟悉的概念——“加密钱包”来进行分享。加密钱包是Web3经济的主要接入点，它也随着Web3经济的发展和Web3应用的广泛采用而愈发被重视，也更需要匹配Web3的进程、满足用户更多样的需求和更多的新技术新创造，这既是市场带来的挑战也是机遇。本文将带大家一同梳理加密钱包的发展，围绕发展趋势和创新方向，分享具有创新亮点的钱包项目。
+加密钱包基本概念
+传统电子钱包的功能是储存资产与移动支付，加密钱包在储存资产与移动支付的基础上，增加了身份标识的功能，这也是 Web3中用户得以在各种 DApp 中通行的入口与认证。 当前市场上的加密钱包有许多种形式，每种形式的安全性和便利程度都不同，主要可以按照以下两种形式来分类：
+按照是否可以联网，分为冷钱包和热钱包：
+
+冷钱包(离线钱包)：密钥存储在硬件设备中，包括使用助记词保管的“纸钱包”、离线手机、硬件钱包等，只有当你想使用加密货币时才会连接。
+
+热钱包 (在线钱包)：密钥存储在应用程序或软件中，在交易签名时私钥需要触网的钱包，包括我们常用的钱包 App、网页插件钱包等。
+
+
+按照是否自己掌握私钥，可分为托管钱包和非托管钱包：
+
+托管钱包（中心化钱包）：由受信任的第三方持有私钥，并在区块链上安全地存储数字资产，这也意味着用户不能完全控制你的资金。这种类型的钱包主要由加密货币交易所或专业托管服务等实体提供，比如币安，Huobi 等交易平台。
+
+非托管钱包（去中心化钱包）：一种让用户完全控制自己的密钥和资金的钱包。非托管钱包可以基于浏览器、软件或硬件等，比如我们常见的 MetaMask、TokenPocket、imToken 等。非托管钱包可以进一步分为三类：
+
+外部账户（EOA）钱包：EOA 钱包是存储和管理加密货币最常见的数字钱包。EOA 钱包通常由中心化交易所或钱包提供商提供，需要用户持有自己的…]]></summary>
+        <author>
+            <name>veDAO研究院</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[详谈意图叙事：向意图的范式转变意味着什么？]]></title>
+        <id>https://www.odaily.news/post/5189144</id>
+        <link href="https://www.odaily.news/post/5189144"/>
+        <updated>2023-08-17T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Powerful Intents: Part 1 》
+原文作者：Mike Calvanese、Brink
+原文编译：深潮 TechFlow
+本文是由 Mike Calvanese 和 Brink 团队撰写的关于意图（Intents）叙事的 3 部分系列中的第 1 部分。
+意图叙事正在迅速传播。它们是通过账户抽象实现的众多用户体验改进之一，账户抽象是 Vitalik 在 EthCC 上讨论的另一个热门话题。意图允许用户定义他们在链上期望实现的结果，并将实现这些结果的工作外包给第三方求解器，这些求解器会代表用户直接与网络和协议进行交互。最终，这种抽象层将使 Web3 应用程序感觉像普通应用程序一样。它减少了当前存在的技术学习曲线，并将帮助我们吸引数百万新用户。
+向意图的范式转变意味着未来的用户不需要关心诸如提交交易、使用 ETH 支付 Gas 费、通过设置滑点限制来减轻 AMM 上的 MEV、聚合代币交换以实现最佳路径路由，或者在网络之间跨链资产等技术任务。
+理解意图的一种简单方法是，将其视为把用户希望发生的事情以声明的形式表达，而不是以命令式的步骤来说明事情应该如何发生。
+当前的意图
+意图并不是一个新概念。在 Uniswap 和 AMM 出现之前，以太坊项目如 EtherDelta 和 0x 提供了基于意图的订单簿。NFT 市场多年来一直在使用签名意图进行 NFT 列表和报价。像 CoW Swap 和 UniswapX 这样的新系统现在为 ERC 20 限价订单提供了更高级的基于意图的基础设施。从当前的情况来看，「意图」这个术语可能似乎与「限价订单」同义，因为在当今的 Web3 中，广泛支持的意图只有「我想要 X，我愿意支付 Y」。
+限价订单的意图架构通常简单且专注于单一目的：以更好的价格进行交换的意图。用户签署他们的限价订单意图，求解器寻找用于「填充」签署的意图…]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tether将8月17日起停止铸造USD₮-Omni、USD₮-Kusama和USD₮-BCHSLP]]></title>
         <id>https://panewslab.com/zh/articledetails/08j3pyqm.html</id>
@@ -27,6 +72,80 @@ Tether 还表示，正致力于开发 RGB，这是一个在比特币生态系统
 总花费 2325 万美元，目前浮亏 775 万美元(-33%)。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[交互教程：手把手教你玩转全链游戏Yolee Universe]]></title>
+        <id>https://www.odaily.news/post/5189141</id>
+        <link href="https://www.odaily.news/post/5189141"/>
+        <updated>2023-08-17T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[近期，Yolee Universe 在社交媒体发布关于 Yolee Universe 的空投活动，Yolee Universe 生态系统作为 Sei 上人气较高的原生 gamefi 项目,已经完成了在 Sei 链的封闭测试并开启主网系列测试活动。
+
+Yolee Universe 经济系统
+
+一项突出的特点是，Yolee Universe 项目坚持让每位玩家都能够参与游戏，而不必购买 NFT。这样的设计体现了项目方对用户体验的承诺，确保没有门槛地让任何人都能够加入游戏的欢乐之中，Yolee 团队希望通过免费游戏的模式来与玩家共同探索建设全链游戏。
+
+同时，项目方认识到 NFT 在游戏经济中的潜力。NFT 不仅仅是游戏内部的一种道具，更是一种收益证明。拥有 NFT 的玩家可以分享 NFT 项目方的收益分红，这为 NFT 的持有者带来了独特的收益机会。这样的经济模型吸引了更多的玩家投身其中，既为游戏生态注入了价值，也让玩家在参与的过程中有了更多的回报。
+关于项目方的盈利逻辑，他们以多元化的方式确保了收入来源的稳定性：
+NFT 收入： 通过 NFT 的销售和交易，项目方可以获得收入，并将一部分分红给 NFT 持有者。这激励玩家购买 NFT，不仅仅是为了游戏内的特殊体验，还有了一份实实在在的经济回报。
+代币收入： 代币作为项目内部的价值媒介，可以用于交易、购买虚拟商品等，从而为项目方带来稳定的经济支持。
+游戏内部道具收入： 出售游戏内部的道具和皮肤等可以为项目方创造收益，同时丰富了游戏的内部内容。
+广告商分红： 游戏内的广告合作为项目方提供了额外的收入来源，同时与玩家分享部分广告收益也是一种激励机制，促使玩家积极参与。
+对于不同类别的玩家，项目方也为其提供了适合的收益途径：
+非 NFT 用户： 他们通过玩游戏获得基础代币奖励同时观看广告来获得广告分成，这为游戏的吸引力提供了基础，为大量玩家的参与创造了机会。
+NFT 持有用户： 除了游戏和广告带来的收益外，NFT 持有者还能够分享额外的收益分红，这增加了 NFT 的持有动力，也为项目的经济系统注入了更多价值。
+通过这种精心设计的经济模型，Yolee Universe 项目方努力平衡各类玩家的利益，鼓励新玩家加入，同时激励 NFT 持有者积极参与。整个生态系统的运行不仅仅是一个商业模式，更是一个关乎互动、共创和共赢的全新游戏世界。
+Yolee Universe 交互流程
+目前 Yolee Universe 已开放的两种游戏类型进行交互体验。接下来为大家带来 Adventure Mode 和 Online to earn 的交互教程。
+Yolee Team 将在此次活动种提供：
+1） 100% 的 Gas 返还（SEI）
+2） 2, 000, 000 Yole 代币奖励及随机数量 SEI 的奖励
+注册账号
+首先，进入 Yolee Universe 官网，在登录选项中注册账号；
+
+安装钱包
+安装并创建 Compass 钱包
+在官网点击 connect，下载 Compass 钱包
+
+
+创建 Compass 钱包
+
+
+
+创建钱包后，需确认 Compass 钱包大于 0.7.9 
+
+网络选择为 Mainnet
+
+确保钱包内有足够的 Sei 用来支付 gas。
+
+Adventure 模式交互
+在登入账号和钱包后，点击 Game-test
+
+点击进入冒险模式
+
+用户可以选择关卡来进行战斗
+
+点击 start，开始游戏
+
+需要足够的 Sei 作为 gas
+
+如果钱包剩余 gas 不够的话，则无法进入游戏
+
+选择合适的卡牌，来进行战斗。
+
+Online to earn 模式交互
+点击进入挂机赚钱模式
+
+Yolee 飞船将自动通过战斗来获取收益
+
+Yolee 飞船被摧毁后，需要玩家支付 gas 来自动修复飞船
+
+飞船修复后，将会进行新一轮的战斗。
+
+完成以上步骤，就可以开始正式的交互，此次活动将会根据玩家的累计活跃日数及玩家的交互次数为玩家发放空投奖励。
+Yolee Universe 官网：www.yoleeuniverse.com]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
@@ -4490,32 +4609,6 @@ XRP 社区成员对 Buterin 的言论做出了愤怒的反应。XRP 爱好者 Ri
         <link href="https://panewslab.com/zh/articledetails/4e7ue75h.html"/>
         <updated>2023-08-13T02:08:37.000Z</updated>
         <summary type="html"><![CDATA[PANews 8月12日消息，据CRV Telegram交易社区分享的数据，Curve代币CRV的通胀率将于今日下降15.9%，从每天释放大约 53.2万枚CRV降至约44.8万枚 CRV。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LD Capital：一文了解即将上线币安的CyberConnect现状]]></title>
-        <id>https://www.odaily.news/post/5189026</id>
-        <link href="https://www.odaily.news/post/5189026"/>
-        <updated>2023-08-13T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Jaden, LD Capital
-近期币安宣布 Launchpool 上线 CyberConnect 治理代币 CYBER。CyberConnect 作为去中心化社交协议旨在为用户提供更高的隐私性、数据主动权和更加多样的内容经济模式等。CyberConnect 协议自创建以来不断迭代，本文将梳理 CyberConnect 的发展历程及现状。
-一． CyberConnect 发展动态
-CyberConnect 项目于 2021 年创建，旨在打造一个去中心化社交图谱。CyberConnect 的基础架构重点强调了数据自主权，通过基于 Ceramic 和 IPFS 的存储底层实现以用户为中心的数据流体系。
-2022 年 CyberConnect 上线v2版本，为社交应用程序部署了混合的拓展构架（EVM+Arweave），dApp 通过这种混合方案可以在链上存储更多的用户社交数据。此外v2还采用类 SBT 方案，通过将一系列社交数据绑定至 W 3 ST（不可转让且采用 ERC-721 标准）还原用户 Web 3 身份。采用 CyberConnect v2的代表产品为 Link 3 。
-2023 年 7 月 14 日宣布其v3版本，并且将在接下来 2 个月完成 6 个 EVM 兼容网络部署。v3核心是希望将 CyberConnect 打造成全链社交协议，其核心组件包括：兼容 ERC-4337 的身份基础设施 CyberAccount、记录用户内容和社交关系的抗审查数据库 Cyber Graph 以及多链解决方案 CyberNetwork。
-Cyber Account 是一套智能合约，相关组件能够很大程度实现web2用户习惯，降低用户迁移门槛，具体包括： 1）身份验证和授权，包括在身份/私钥丢失情况下能够通过电子邮件、电话等方式恢复账户，同时未来几个月团队将提高隐私性；2）…]]></summary>
-        <author>
-            <name>LD Capital</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：已申领WLD代币数量突破1600万枚]]></title>
-        <id>https://panewslab.com/zh/articledetails/17sf8e4c.html</id>
-        <link href="https://panewslab.com/zh/articledetails/17sf8e4c.html"/>
-        <updated>2023-08-13T01:46:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月12日消息，Dune数据显示，已申领的WLD代币数量突破1600万枚，目前达16,060,916枚。共有518,390个地址参与申领，每个WLD代币申领者平均获利54.72美元。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
