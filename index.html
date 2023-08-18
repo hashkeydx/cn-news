@@ -51,11 +51,342 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-18 datetime="2023-08-18T06:49:12.000Z">2023-08-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-18 datetime="2023-08-18T06:49:12.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-18 datetime="2023-08-18T08:18:00.000Z">2023-08-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-18 datetime="2023-08-18T08:18:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189163"
+                        open
+                      >
+                        <summary class="article-expander__title">Tornado Cash「维权」失败？捍卫智能合约和代码的路可能还要走很远</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189163">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>2023 年 8 月 17 日，尽管有 Coinbase 等巨头的支持，由以太坊核心开发者和 Coinbase 员工在内的六人组成的团队，在指控美国财政部（OFAC）制裁 Tornado Cash 时超出权限的诉讼还是失败了。
+该诉讼是对 2022 年美国财政部的海外资产控制办公室（OFAC）对隐私平台 Tornado Cash 制裁的回应。此前，美国财政部的海外资产控制办公室（OFAC）将部分与 Tornado Cash 协议或与之相关的以太坊地址进行交互的地址，放入 SDN (美国特别制定国民名单）制裁名单之中。
+在此制裁事件之后，大量的 DeFi 协议封禁了与 Tornado Cash 有关的地址，创始团队成员的 Github 代码库也遭删除，甚至其联创 Alexey Pertsev 于 2022 年 8 月 12 日在荷兰被逮捕（已于 2023 年 4 月获释），罪名是「隐瞒犯罪资金流动，并为洗钱提供便利」。此外，Tornado Cash Discord 频道以及 DAO 治理论坛也在同日被关闭。
+参考阅读：《史上最严厉加密制裁解读：Tornado Cash 发生了什么》
+主要动议被驳回
+争议的焦点在于，Tornado Cash 的性质和财产权益。
+原告（六人团队）和被告（OFAC）对 Tornado Cash 的性质有不同的看法。原告认为它是一组智能合约，而被告则认为它是一个组织；原告称 Tornado Cash 没有智能合约的财产权益，而被告则持相反观点。
+负责此次案件的德克萨斯州法官 Robert Pitman 认为，智能合约「就像一台自动贩卖机」，因为「智能合约自动执行特定的预定任务，无需额外的人工干预」。这一事实并不影响智能合约从属于合约类型的地位，因此也不影响其作为法规范围内的一种财产类型。
+Tornado Cash 推广智能合约具有单方面提供服务的特点（类似于自动售货机），且 Tornado Cash 在这些智能合约中拥有足够的财产权益。
+不仅如此，Robert 还认为，「即使智能合约是自动和不可更改的，但其背后的开发者和组织仍然可以被视为一个实体，并可能需要承担法律责任。」
+「DAO 本身就是一个实体，通过其投票成员表明了对共同目标的一致。正如政府指出的那样，这种结构与公司股东的结构没有什么不同，他们可能不打算在股东大会上投票，但这不会影响实体的结构。」
+最终，原告在这个特定案件中彻底败诉，法院否决了原告的动议，并支持了被告的动议。
+有社区成员表示，此前的 Tornado Cash 案件很可能是第一次将一段代码作为组织来制裁。所以鉴于 Tornado Cash 案件的特殊性，以及涉及加密货币和区块链技术的复杂法律问题，此事的任何法律判决都很可能对该领域的法规和合规产生重大的影响。这或许也是本案受到关注的原因。
+继续上诉
+针对本次败诉，Coinbase 的首席法务官 Paul Grewal 表示，我们仍然相信，对于 Tornado Cash 一事件，向 OFAC 提出指控是正确的。我们早就知道需要第五巡回法院审查（Fifth Circuit review）才能解决这些问题，并且我们将继续支持他们的上诉。
+
+六人团队中的成员 Joseph Van Loon，Tyler Almeida，Alexander Fisher，Preston Van Loon，Kevin Vitale 和 Nate Welch 均尚未对本次判决发表评论。
+而在 2022 年 9 月宣布创建该组织时，其创立宣言中表示，代码就是言论，言论自由是一项值得保护的权利。
+
+参考此前诸如 SEC 和美国司法部对加密行业密集且强硬的监管事件，捍卫智能合约和代码的路可能还要走很远。
+参考阅读：
+https://twitter.com/AlexanderFisher/status/1567874996235558913
+https://twitter.com/BillHughesDC/status/1692256433818001792</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189162"
+                        open
+                      >
+                        <summary class="article-expander__title">拆解加密牛市四阶段：如何利用市场周期把握机会？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189162">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：The DeFi Edge 
+原文编译：Luffy，Foresight News
+加密货币牛市有 4 个阶段，我们正处于第一阶段的末尾。这篇文章将告诉你如何利用市场周期，以便你不会错失一次世代财富的机会。
+如何把握机会呢？你需要做到三点：
+
+驾驭牛市的各个阶段
+
+利润最大化
+
+避免最常见的陷阱。
+
+第一阶段：积累阶段
+这就是我们过去一年的处境。在 Terra 崩盘、FTX 倒闭以及 USDC 脱钩恐慌之后，市场触底反弹。
+显而易见的是，最坏的情况已经过去了（除非币安 / Tether 出现大的变故）。
+当前的加密货币价格平稳而乏味。 即便 Paypal 推出稳定币这样的重大新闻，也只是对价格影响甚微。当前，没有新的流动性进入市场，市场缺乏波动性。就像是一场 500 个 degens 之间的 PVP 游戏，都试图抢在对方之前进入下一个叙事。
+
+这是牛市的准备阶段，棋子刚被摆放在棋盘上。而这恰恰也是播种的最好时节。
+行动指南：
+
+囤积好的项目。寻找那些你认为会在即将到来的牛市中蓬勃发展的项目。这样项目需要满足一定条件：具有产品 / 市场契合度、竞争对手优势、团队仍在建设中、可靠的路线图和健全的财务指标。
+
+节省弹药。冲进一些老项目是很诱人的。它们看起来很值得入手，因为它们距离历史最高点已经下跌了 90% 。但事实却是是这样的……大多数下一个周期那些表现亮眼的项目现在还没有诞生。人们通常喜欢作为「最早的赶海人」进入一个全新的项目，而不是买入旧项目。
+
+不要过度交易。不要陷入仓鼠比赛和 Bald 这样的游戏，它们可能会让你一无所有。你必须先生存下来才能获得最后的胜利。不要因为无聊而加入坏的牌局，耐心等待好牌。
+
+填补你的知识空白。牛市不是用来学习的。牛市就是用来从场内捡钱的。而现在正是学习的时间。如果你现在不想听到一个建立在 GMX 之上的新协议，那你就必须在牛市期间花一…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189159"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus宏观研报(20230818)：悲观情绪蔓延，BTC短时下跌超3000美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189159">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>最近美股和数字货币久违地同时迎来调整，从消息面上看每天都有新消息，但是并没有出现那种能影响趋势走向的消息。近期的调整笔者觉得更多的是风险资产上涨过快让市场产生对未来流动性紧缺担忧从而产生的抛售，数字货币期权市场的波动率曲面也迎来久违的上涨，同样地反应了期权参与者对未来流动性的担忧。笔者维持过往观点不变，在加息周期完结之前市场较难产生大级别牛市行情。
+
+
+
+宁静的夏末看来已经是奢望。
+美债已连续 6 天遭到抛售， 30 年期收益率升至近 4.40% ，突破 2022 年的恐慌高点，上次接近这个水平还是 2010/2011 年的时候，这场混乱始于有史以来最疲软的 20 年期日本国债拍卖，尾部为 7 个基点，导致收益率曲线整体上扬 7-10 个基点，一早就引发了全球固定收益市场的抛售。
+
+在中国，人民银行一直在干预外汇市场，与 Bloomberg 的市场预测相比，人民币出现了史上第二强劲的定盘价（相差 918 点），截至撰写本文时，美元兑离岸人民币即期已经从 7.35 跌至 7.28 ；在近期人民币快速贬值的背景下，人民银行昨天发布了第二季度货币政策报告，除了此前中央政治局“加大宏观政策调整力度”的一贯口号外，货币政策委员会首次明确提到“坚决防范汇率超调风险”作为官方指导意见；另外，昨天中国股票/H 股的官方买盘也很明显，港股通昨天出现大量南向资金流入，恒生指数从盘中约 2% 的下跌中反弹，最终收平。
+
+不幸的是，即使中国引起的避险情绪暂时平静也挽救不了美债的抛售，稳定的首次申请失业救济人数（-1.1 万至 23.9 万）以及费城联储制造业指数的反弹推高了债券收益率，费城联储制造业指数反弹 25.5 点至 12 ，是一年以来首次出现正值，远高于市场预期，且所有组成项目都出现改善，特别是新订单激增 30 点；30 年期实际收益率（经通胀调整后）升至 2.10% 的新高，收益率曲线继续熊陡走势，利率的走高已经不是由鹰派美联储所主导，而是受到长天期利率和经济情况改善的推动， 10 年期收益率一度触及 4.33% 的周期高点，随后因股市持续下跌而有所反弹，交易员担心风险情绪会大幅下跌，因此削减了部分债券空头头寸。
+
+利率升至更高维持更久的叙事持续影响股市，尤其是对高成长行业和盈利不佳的公司，SPX 昨天由科技股 (-1% ) 和消费类股 (-1.6% ) 领跌，能源则是昨天唯一上涨的板块；花旗“未盈利科技股”指数昨日下跌 3.3% ，Russell 2000 指数则连续 8 个交易日下跌，已跌至 7 月以来的最低水平。
+
+市场普遍的避险基调最终蔓延到了加密货币领域，黄金现货价格 (&lt; 1890) 和加密货币价格在纽约尾盘时同步出现暴跌，在流动性极薄的情况下，BTC 和 ETH 价格直线下跌近 15% ，不出所料，这次暴跌导致大量期货多头头寸被清算，清算规模达到数月以来的最高水平，加剧了下行的循环；更复杂的是，随后有新闻指出，根据“知情人士”的消息，美国 SEC 似乎“准备”批准 ETH 期货 ETF，使价格反弹收复了大约一半的跌势。
+我们预计价格将继续与宏观市场的风险基调同步变化，特别是利率是否会从当前水平再次突破走高，建议各位谨慎控制风险并采取防御性策略。
+
+
+
+您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website：https://www.signalplus.com</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189158"
+                        open
+                      >
+                        <summary class="article-expander__title">探讨Web3社交的未来：构建社交图谱破解获客问题</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189158">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：PAUL VERADITTAKIT，Pantera Capital 合伙人
+原文编译：深潮 TechFlow
+本文是 Pantera 合伙人 PAUL 撰写的去中心化社交系列文章的第 1 篇。
+该系列探讨了当今的技术和趋势如何解决去中心化社交网络的一系列问题，并对每个问题做了具体的解释和探索.
+在 2017 年，一群麻省理工学院媒体实验室的研究人员在《连线》杂志上声称去中心化社交网络“永远不会成功”。在他们的文章中，他们列举了三个不可能的挑战：
+（1）从零开始吸引（和留住）用户的问题
+（2）处理用户个人信息的问题
+（3）面向用户的广告问题
+他们认为，在这三种情况下，现有的科技巨头，如 Facebook、Twitter 和 Google，由于其广泛的规模经济，根本没有为任何重要的竞争留下空间。
+时间来到现在，曾经被誉为“不可能”的事情似乎不再那么遥不可及，我们似乎正处在社交媒体网络概念转变的黎明时期。在这个三部分系列中（这是第一部分），我们将探讨去中心化社交（DeSo）中的新思想如何解决这些“古老”的问题，具体包括：
+（1）使用开放社交图层解决冷启动问题
+（2）使用人身证明和密码学技术解决用户身份问题
+（3）利用代币经济模型和激励机制解决收入问题
+社交图谱与冷启动问题
+社交媒体平台总是面临冷启动问题：在没有现有用户群或网络效应的情况下吸引和吸引用户。传统上，像 Snapchat、Clubhouse 或最近的 Threads 这样的新兴社交媒体初创公司试图通过强大的市场推广和纯粹的营销能力来克服这个问题。通过在恰当的时刻吸引所有人的注意力，无论是通过新颖的用户体验设计、媒体头条还是 FOMO，它们发起了大规模的注册闪击战，几乎立即在平台上建立起用户壁垒。例如，Threads 在短短 5 天内就成功吸引了 1 亿用户。
+但往往这些成功的营销活动会面临一个存在危机：如何留…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189138"
+                        open
+                      >
+                        <summary class="article-expander__title">一文盘点7款热门全链游戏</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189138">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来源：Snapfingers DAO
+前言
+全链游戏（Full Chain Game）是链游的重要发展发向，通过将区块链技术与游戏产业相结合，全链游戏为玩家和开发者带来了全新的体验和机会。全链游戏不仅改变了传统游戏的运营和交易方式，还赋予了玩家更大的权益和参与度。
+全链游戏有以下几个特点：
+
+真实资产拥有权：在全链游戏中，虚拟世界中的游戏资产可以通过区块链技术实现真实拥有权。玩家可以自由买卖、交易游戏资产，而不再受限于游戏内部的封闭性经济系统。
+
+唯一可验证的数字资产：全链游戏中的游戏资产采用非同质化代币（Non-Fungible Token，NFT）进行表示，每个资产都是独一无二且具备唯一性。这使得玩家可以凭借区块链上的数据验证资产的真实性和稀缺性。
+
+去中心化的交易市场：全链游戏通过智能合约和去中心化交易平台，为玩家提供了开放、公平、高效的交易环境。玩家可以直接与其他玩家进行买卖交易，消除了传统游戏中的中介和对第三方平台的依赖。
+
+参与度和社区治理：全链游戏鼓励玩家积极参与游戏的运营决策和社区治理。玩家可以通过持有代币、投票等方式参与游戏的发展方向和决策过程，增加了玩家的参与度和归属感。
+
+响指搜集了 7 款目前最热门的全链游戏，包括：
+
+Dark Forest
+
+Loot Survivor
+
+Treaty
+
+Isaac
+
+Mithraeum
+
+Influence
+
+Wolf Game
+
+本文将从开发团队、项目背景、全链技术和经济模型四个方面对项目进行细致的介绍，限于篇幅将分为上下两篇，本篇将介绍 Dark Forest、Loot Survivor、Treaty 这三个项目。
+01 Dark Forest
+
+游戏类型：RTS 即时战略游戏
+
+推特粉丝数： 2.6 w
+
+所在链：Ethereum
+
+官网：https://zkga.me/
+
+开发团队：Gubsheep、…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189156"
+                        open
+                      >
+                        <summary class="article-expander__title">上线就出Bug，Shiba Inu推出的Shibarium主网能走多远？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189156">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Felix，PANews
+千呼万唤始出来，在社区经历了漫长等待后，Shiba Inu 于 8 月 16 日推出 Shibarium 主网，定位是一种以太坊 Layer 2 扩展解决方案。但自 Shibarium 推出以来，Shiba Inu 和相关代币的价格暴跌，有关 Shibarium 网络出现重大技术错误的传言一直在流传。
+此前 Shiba Inu 宣称 Shibarium 经过数月的测试，有数百万用户参与并创建了 2100 万个钱包。Shibarium 建立在一种名为参与证明（PoP）的新共识机制之上，根据验证者持有的相关加密货币数量的比例来选择验证者。这样做是为了避免工作量证明方案的计算成本。新的 L2 区块链解决方案旨在与主要的以太坊 Layer 1 区块链进行交互，提供更具可扩展性和成本效益的交易平台。Shibarium 将利用 BONE、TREAT、SHIB 和 LEASH 代币来构建基于区块链的应用程序，重点关注元宇宙和游戏应用程序，尤其是考虑到 NFT 领域预计将在未来几年升温。
+此外，Shiba Inu 表示 Layer 2 的验证者将获得名为 BONE 的治理代币的奖励。用户必须在 Shibarium 网络中锁定 1 万枚 BONE 才能成为验证者。2100 万枚 BONE 将被保留作为 Shibarium 生态系统内验证者和委托者的奖励，并用于支付授权的 Gas 费用。
+在 Shibarium 主网启动之前，Shiba Inu 的首席开发人员（化名 Shytoshi Kusama）指出，Shibarium 在新项目中具有极大的吸引力。在 X（原名 Twitter）上的一篇帖子中，开发者分享了目前在 Shibarium 上开发的公司的屏幕截图，表示已有 100 多家公司正在使用。
+
+但 Shiba Inu 上线不久就出现技术问题。根据 Shi…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189150"
+                        open
+                      >
+                        <summary class="article-expander__title">六位顶级法学院教授围攻美SEC，加密货币到底是不是证券？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189150">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原创 | Odaily星球日报
+作者 | jk
+
+
+前几日，来自耶鲁大学、芝加哥大学、加利福尼亚大学洛杉矶分校、福特汉姆大学、波士顿大学和威德纳大学的法学教授提交了一份法庭之友意见书，该意见书追溯了“投资合同”一词在 1933 年联邦证券法通过前、中、后的含义历史，彻底驳斥了 SEC 的“投资合同”理论。
+
+以下是学者们的结论：
+
+“ 1933 年，各州法院在如何解释‘投资合同’这一术语上已达成共识，即认为它是一种合同安排，该安排赋予投资者资格，使其在卖方的后续收入、利润或资产中占有合同份额。”
+
+1946 年 Howey 案件裁决后，“[投资合同的] 共同特点依然是……因其投资，投资者必须被承诺，将持续在企业的收入、利润或资产中拥有合同利益。”
+
+“最高法院识别的每一个‘投资合同’都涉及承诺给予在企业中持续的权益的合同承诺。”
+
+Twitter 上的@MetaLawMan 说：依我之见，这份法庭之友意见书对 SEC 关于在二级市场交易的加密货币是投资合同的论点给予了致命的打击。
+背景：“蓝天法”（Blue-Sky Laws）
+当国会在“证券”的定义中纳入“投资合同”这一术语时，该术语在蓝天法（Blue-Sky Laws）中已有明确的意义，要求合同承诺未来的价值。
+当国会采纳《证券法》和《交易所法》时，几乎每一个州已经通过州法律规定证券交易。在定义一套国家标准和联邦监管方案时，国会选择制定基于这些所谓的“蓝天法”的联邦法律。最相关的是，在定义新的国家证券法律所涉及的“证券”时，国会从这些蓝天法中整体引入了“投资合同”这一术语。
+有了这个背景，我们回顾了 Howey 引用的蓝天法下“投资合同”概念的发展，作为该术语“统一”的定义的依据。
+20 世纪初，美国部分州开始颁布首批“蓝天法”。
+在 19 世纪之交，随着美国经济的繁荣，交易美国企业股份的市场也随之繁荣起来。随着中产阶级…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189151"
+                        open
+                      >
+                        <summary class="article-expander__title">跌破2.8万美元，BTC触底了吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189151">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原创 | Odaily星球日报
+
+作者 | 秦晓峰
+
+OKX 欧易行情显示，北京时间 17 日晚 11 点，BTC 跌破 2.8 万美元大关，创下自今年 6 月 20 日以来新低。过去 48 小时，BTC 价格从 29330 USDT 不断下行，最低跌至 27676 USTD，最大跌幅 5.6% 。截至发稿前，BTC 暂报 27900 USDT， 24 小时跌幅 3.8% 。
+受 BTC 下行影响，加密市场整体表现不佳，过去 24 小时跌幅普遍在 3% 以上；其中，ETH 最低跌至 1718 USDT， 24 小时跌幅 4.4% ；市值前五十代币中，跌幅榜前三名分别是 SHIB（-11.7% ）、BSV（-7.4% ）以及 BCH（-5.5% ）。
+
+Tradingview 数据显示，目前加密总市值降至 11533 亿美元， 24 小时下降 3.3% ；从市值占比来看，BTC 市值占比仍然维持在 50% 以上，暂报 50.09% ，相较于今年高点（52.03% ）下降 1.94% ；ETH 市值占比 19.25% ，回到 6 月 20 日左右的水平。今日恐慌与贪婪指数为 50 （昨日为 50），等级仍为中性。
+
+衍生品交易方面，Coinglass 数据显示，过去 4 小时全网爆仓 1.02 亿美元，其中比特币爆仓 4300  万美元，以太坊爆仓 3500 万美元；过去 24 小时全网爆仓金额达 2.24 亿美元，多单爆仓金额约为 2.01 亿美元，空单爆仓金额约 2262 万美元，共计 59, 289 人成为爆仓受害者，最大单笔爆仓单发生在 OKX-ETH-USD-SWAP，价值 600 万美元。
+值得关注的是，灰度基金旗下信托产品折价在过去两月有所好转， 14 个产品中目前仅有 7 个折价，相较于 6 月份减少一个折价产品（BAT），并且此前正溢价产品的溢价率也在过去两月…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -872,250 +1203,6 @@ Do Kwon和Daniel Shin共同创立了Chai，该公司最初与Terraform共用办�
                             <span class="media-object__text">
                               <span>PANews 8月18日消息，Coinglass 数据显示，过去 1 小时全网合计爆仓 6738 万美元，其中比特币爆仓约 2431 万美元，以太坊爆仓约 2956 万美元。按交易所划分，OKX 上爆仓额占比近 40%，Binance 和 Huobi 分别占比接近 20%。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189159"
-                        open
-                      >
-                        <summary class="article-expander__title">SignalPlus宏观研报(20230818)：悲观情绪蔓延，BTC短时下跌超3000美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189159">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>最近美股和数字货币久违地同时迎来调整，从消息面上看每天都有新消息，但是并没有出现那种能影响趋势走向的消息。近期的调整笔者觉得更多的是风险资产上涨过快让市场产生对未来流动性紧缺担忧从而产生的抛售，数字货币期权市场的波动率曲面也迎来久违的上涨，同样地反应了期权参与者对未来流动性的担忧。笔者维持过往观点不变，在加息周期完结之前市场较难产生大级别牛市行情。
-
-
-
-宁静的夏末看来已经是奢望。
-美债已连续 6 天遭到抛售， 30 年期收益率升至近 4.40% ，突破 2022 年的恐慌高点，上次接近这个水平还是 2010/2011 年的时候，这场混乱始于有史以来最疲软的 20 年期日本国债拍卖，尾部为 7 个基点，导致收益率曲线整体上扬 7-10 个基点，一早就引发了全球固定收益市场的抛售。
-
-在中国，人民银行一直在干预外汇市场，与 Bloomberg 的市场预测相比，人民币出现了史上第二强劲的定盘价（相差 918 点），截至撰写本文时，美元兑离岸人民币即期已经从 7.35 跌至 7.28 ；在近期人民币快速贬值的背景下，人民银行昨天发布了第二季度货币政策报告，除了此前中央政治局“加大宏观政策调整力度”的一贯口号外，货币政策委员会首次明确提到“坚决防范汇率超调风险”作为官方指导意见；另外，昨天中国股票/H 股的官方买盘也很明显，港股通昨天出现大量南向资金流入，恒生指数从盘中约 2% 的下跌中反弹，最终收平。
-
-不幸的是，即使中国引起的避险情绪暂时平静也挽救不了美债的抛售，稳定的首次申请失业救济人数（-1.1 万至 23.9 万）以及费城联储制造业指数的反弹推高了债券收益率，费城联储制造业指数反弹 25.5 点至 12 ，是一年以来首次出现正值，远高于市场预期，且所有组成项目都出现改善，特别是新订单激增 30 点；30 年期实际收益率（经通胀调整后）升至 2.10% 的新高，收益率曲线继续熊陡走势，利率的走高已经不是由鹰派美联储所主导，而是受到长天期利率和经济情况改善的推动， 10 年期收益率一度触及 4.33% 的周期高点，随后因股市持续下跌而有所反弹，交易员担心风险情绪会大幅下跌，因此削减了部分债券空头头寸。
-
-利率升至更高维持更久的叙事持续影响股市，尤其是对高成长行业和盈利不佳的公司，SPX 昨天由科技股 (-1% ) 和消费类股 (-1.6% ) 领跌，能源则是昨天唯一上涨的板块；花旗“未盈利科技股”指数昨日下跌 3.3% ，Russell 2000 指数则连续 8 个交易日下跌，已跌至 7 月以来的最低水平。
-
-市场普遍的避险基调最终蔓延到了加密货币领域，黄金现货价格 (&lt; 1890) 和加密货币价格在纽约尾盘时同步出现暴跌，在流动性极薄的情况下，BTC 和 ETH 价格直线下跌近 15% ，不出所料，这次暴跌导致大量期货多头头寸被清算，清算规模达到数月以来的最高水平，加剧了下行的循环；更复杂的是，随后有新闻指出，根据“知情人士”的消息，美国 SEC 似乎“准备”批准 ETH 期货 ETF，使价格反弹收复了大约一半的跌势。
-我们预计价格将继续与宏观市场的风险基调同步变化，特别是利率是否会从当前水平再次突破走高，建议各位谨慎控制风险并采取防御性策略。
-
-
-
-您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：chillywzq）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
-SignalPlus Official Website：https://www.signalplus.com</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189158"
-                        open
-                      >
-                        <summary class="article-expander__title">探讨Web3社交的未来：构建社交图谱破解获客问题</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189158">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：PAUL VERADITTAKIT，Pantera Capital 合伙人
-原文编译：深潮 TechFlow
-本文是 Pantera 合伙人 PAUL 撰写的去中心化社交系列文章的第 1 篇。
-该系列探讨了当今的技术和趋势如何解决去中心化社交网络的一系列问题，并对每个问题做了具体的解释和探索.
-在 2017 年，一群麻省理工学院媒体实验室的研究人员在《连线》杂志上声称去中心化社交网络“永远不会成功”。在他们的文章中，他们列举了三个不可能的挑战：
-（1）从零开始吸引（和留住）用户的问题
-（2）处理用户个人信息的问题
-（3）面向用户的广告问题
-他们认为，在这三种情况下，现有的科技巨头，如 Facebook、Twitter 和 Google，由于其广泛的规模经济，根本没有为任何重要的竞争留下空间。
-时间来到现在，曾经被誉为“不可能”的事情似乎不再那么遥不可及，我们似乎正处在社交媒体网络概念转变的黎明时期。在这个三部分系列中（这是第一部分），我们将探讨去中心化社交（DeSo）中的新思想如何解决这些“古老”的问题，具体包括：
-（1）使用开放社交图层解决冷启动问题
-（2）使用人身证明和密码学技术解决用户身份问题
-（3）利用代币经济模型和激励机制解决收入问题
-社交图谱与冷启动问题
-社交媒体平台总是面临冷启动问题：在没有现有用户群或网络效应的情况下吸引和吸引用户。传统上，像 Snapchat、Clubhouse 或最近的 Threads 这样的新兴社交媒体初创公司试图通过强大的市场推广和纯粹的营销能力来克服这个问题。通过在恰当的时刻吸引所有人的注意力，无论是通过新颖的用户体验设计、媒体头条还是 FOMO，它们发起了大规模的注册闪击战，几乎立即在平台上建立起用户壁垒。例如，Threads 在短短 5 天内就成功吸引了 1 亿用户。
-但往往这些成功的营销活动会面临一个存在危机：如何留…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189138"
-                        open
-                      >
-                        <summary class="article-expander__title">一文盘点7款热门全链游戏</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189138">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文来源：Snapfingers DAO
-前言
-全链游戏（Full Chain Game）是链游的重要发展发向，通过将区块链技术与游戏产业相结合，全链游戏为玩家和开发者带来了全新的体验和机会。全链游戏不仅改变了传统游戏的运营和交易方式，还赋予了玩家更大的权益和参与度。
-全链游戏有以下几个特点：
-
-真实资产拥有权：在全链游戏中，虚拟世界中的游戏资产可以通过区块链技术实现真实拥有权。玩家可以自由买卖、交易游戏资产，而不再受限于游戏内部的封闭性经济系统。
-
-唯一可验证的数字资产：全链游戏中的游戏资产采用非同质化代币（Non-Fungible Token，NFT）进行表示，每个资产都是独一无二且具备唯一性。这使得玩家可以凭借区块链上的数据验证资产的真实性和稀缺性。
-
-去中心化的交易市场：全链游戏通过智能合约和去中心化交易平台，为玩家提供了开放、公平、高效的交易环境。玩家可以直接与其他玩家进行买卖交易，消除了传统游戏中的中介和对第三方平台的依赖。
-
-参与度和社区治理：全链游戏鼓励玩家积极参与游戏的运营决策和社区治理。玩家可以通过持有代币、投票等方式参与游戏的发展方向和决策过程，增加了玩家的参与度和归属感。
-
-响指搜集了 7 款目前最热门的全链游戏，包括：
-
-Dark Forest
-
-Loot Survivor
-
-Treaty
-
-Isaac
-
-Mithraeum
-
-Influence
-
-Wolf Game
-
-本文将从开发团队、项目背景、全链技术和经济模型四个方面对项目进行细致的介绍，限于篇幅将分为上下两篇，本篇将介绍 Dark Forest、Loot Survivor、Treaty 这三个项目。
-01 Dark Forest
-
-游戏类型：RTS 即时战略游戏
-
-推特粉丝数： 2.6 w
-
-所在链：Ethereum
-
-官网：https://zkga.me/
-
-开发团队：Gubsheep、…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189156"
-                        open
-                      >
-                        <summary class="article-expander__title">上线就出Bug，Shiba Inu推出的Shibarium主网能走多远？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189156">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Felix，PANews
-千呼万唤始出来，在社区经历了漫长等待后，Shiba Inu 于 8 月 16 日推出 Shibarium 主网，定位是一种以太坊 Layer 2 扩展解决方案。但自 Shibarium 推出以来，Shiba Inu 和相关代币的价格暴跌，有关 Shibarium 网络出现重大技术错误的传言一直在流传。
-此前 Shiba Inu 宣称 Shibarium 经过数月的测试，有数百万用户参与并创建了 2100 万个钱包。Shibarium 建立在一种名为参与证明（PoP）的新共识机制之上，根据验证者持有的相关加密货币数量的比例来选择验证者。这样做是为了避免工作量证明方案的计算成本。新的 L2 区块链解决方案旨在与主要的以太坊 Layer 1 区块链进行交互，提供更具可扩展性和成本效益的交易平台。Shibarium 将利用 BONE、TREAT、SHIB 和 LEASH 代币来构建基于区块链的应用程序，重点关注元宇宙和游戏应用程序，尤其是考虑到 NFT 领域预计将在未来几年升温。
-此外，Shiba Inu 表示 Layer 2 的验证者将获得名为 BONE 的治理代币的奖励。用户必须在 Shibarium 网络中锁定 1 万枚 BONE 才能成为验证者。2100 万枚 BONE 将被保留作为 Shibarium 生态系统内验证者和委托者的奖励，并用于支付授权的 Gas 费用。
-在 Shibarium 主网启动之前，Shiba Inu 的首席开发人员（化名 Shytoshi Kusama）指出，Shibarium 在新项目中具有极大的吸引力。在 X（原名 Twitter）上的一篇帖子中，开发者分享了目前在 Shibarium 上开发的公司的屏幕截图，表示已有 100 多家公司正在使用。
-
-但 Shiba Inu 上线不久就出现技术问题。根据 Shi…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189150"
-                        open
-                      >
-                        <summary class="article-expander__title">六位顶级法学院教授围攻美SEC，加密货币到底是不是证券？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189150">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原创 | Odaily星球日报
-作者 | jk
-
-
-前几日，来自耶鲁大学、芝加哥大学、加利福尼亚大学洛杉矶分校、福特汉姆大学、波士顿大学和威德纳大学的法学教授提交了一份法庭之友意见书，该意见书追溯了“投资合同”一词在 1933 年联邦证券法通过前、中、后的含义历史，彻底驳斥了 SEC 的“投资合同”理论。
-
-以下是学者们的结论：
-
-“ 1933 年，各州法院在如何解释‘投资合同’这一术语上已达成共识，即认为它是一种合同安排，该安排赋予投资者资格，使其在卖方的后续收入、利润或资产中占有合同份额。”
-
-1946 年 Howey 案件裁决后，“[投资合同的] 共同特点依然是……因其投资，投资者必须被承诺，将持续在企业的收入、利润或资产中拥有合同利益。”
-
-“最高法院识别的每一个‘投资合同’都涉及承诺给予在企业中持续的权益的合同承诺。”
-
-Twitter 上的@MetaLawMan 说：依我之见，这份法庭之友意见书对 SEC 关于在二级市场交易的加密货币是投资合同的论点给予了致命的打击。
-背景：“蓝天法”（Blue-Sky Laws）
-当国会在“证券”的定义中纳入“投资合同”这一术语时，该术语在蓝天法（Blue-Sky Laws）中已有明确的意义，要求合同承诺未来的价值。
-当国会采纳《证券法》和《交易所法》时，几乎每一个州已经通过州法律规定证券交易。在定义一套国家标准和联邦监管方案时，国会选择制定基于这些所谓的“蓝天法”的联邦法律。最相关的是，在定义新的国家证券法律所涉及的“证券”时，国会从这些蓝天法中整体引入了“投资合同”这一术语。
-有了这个背景，我们回顾了 Howey 引用的蓝天法下“投资合同”概念的发展，作为该术语“统一”的定义的依据。
-20 世纪初，美国部分州开始颁布首批“蓝天法”。
-在 19 世纪之交，随着美国经济的繁荣，交易美国企业股份的市场也随之繁荣起来。随着中产阶级…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189151"
-                        open
-                      >
-                        <summary class="article-expander__title">跌破2.8万美元，BTC触底了吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189151">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原创 | Odaily星球日报
-
-作者 | 秦晓峰
-
-OKX 欧易行情显示，北京时间 17 日晚 11 点，BTC 跌破 2.8 万美元大关，创下自今年 6 月 20 日以来新低。过去 48 小时，BTC 价格从 29330 USDT 不断下行，最低跌至 27676 USTD，最大跌幅 5.6% 。截至发稿前，BTC 暂报 27900 USDT， 24 小时跌幅 3.8% 。
-受 BTC 下行影响，加密市场整体表现不佳，过去 24 小时跌幅普遍在 3% 以上；其中，ETH 最低跌至 1718 USDT， 24 小时跌幅 4.4% ；市值前五十代币中，跌幅榜前三名分别是 SHIB（-11.7% ）、BSV（-7.4% ）以及 BCH（-5.5% ）。
-
-Tradingview 数据显示，目前加密总市值降至 11533 亿美元， 24 小时下降 3.3% ；从市值占比来看，BTC 市值占比仍然维持在 50% 以上，暂报 50.09% ，相较于今年高点（52.03% ）下降 1.94% ；ETH 市值占比 19.25% ，回到 6 月 20 日左右的水平。今日恐慌与贪婪指数为 50 （昨日为 50），等级仍为中性。
-
-衍生品交易方面，Coinglass 数据显示，过去 4 小时全网爆仓 1.02 亿美元，其中比特币爆仓 4300  万美元，以太坊爆仓 3500 万美元；过去 24 小时全网爆仓金额达 2.24 亿美元，多单爆仓金额约为 2.01 亿美元，空单爆仓金额约 2262 万美元，共计 59, 289 人成为爆仓受害者，最大单笔爆仓单发生在 OKX-ETH-USD-SWAP，价值 600 万美元。
-值得关注的是，灰度基金旗下信托产品折价在过去两月有所好转， 14 个产品中目前仅有 7 个折价，相较于 6 月份减少一个折价产品（BAT），并且此前正溢价产品的溢价率也在过去两月…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10987,8 +11074,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5900330919">
-        <time id="build-timestamp" datetime="2023-08-18T08:08:51.756Z">2023-08-18T08:08:51.756Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5900850371">
+        <time id="build-timestamp" datetime="2023-08-18T09:06:50.424Z">2023-08-18T09:06:50.424Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
