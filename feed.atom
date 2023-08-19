@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-19T04:07:41.547Z</updated>
+    <updated>2023-08-19T05:06:25.359Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[加密衍生品赛道火爆，MEKE如何成为DEX破局者？]]></title>
+        <id>https://www.odaily.news/post/5189184</id>
+        <link href="https://www.odaily.news/post/5189184"/>
+        <updated>2023-08-19T04:42:46.000Z</updated>
+        <summary type="html"><![CDATA[自 2009 年比特币诞生的那一刻，区块链技术就注定要改变生活，加密货币领域不断发展壮大。近年，随着入场者不断增加，越来越多的用户需求偏好也逐渐由现货交易转向衍生品交易，加密衍生品赛道愈发火热，早已成为万亿美元级别的市场。
+据 CryptoCompare 发布的今年 6 月份市场交易报告显示，当月加密衍生品交易量达到 2.75 万亿美元，占总交易量的 66.1% 。 即使此后加密市场出现明显下滑，目前加密衍生品市场交易规模依然保持较高水平。
+Genesis 2023 年第二季度市场报告称，如果遵循传统金融衍生品的趋势，加密期权市场有比目前水平增长 10 倍的空间。报告认为，期权已成为机构投资者进入加密货币市场的首选工具。目前，机构投资者在加密衍生品领域的资金流入情况呈增长态势，与衍生品交易量的增长形成鲜明对比的是，现货市场的流动性正在受到影响，表现为现货订单深度长期疲弱。该报告显示，未来加密货币交易量增长的很大一部分将来自衍生品。
+不可否认的是，近几年，衍生品 DEX 赛道发展势头迅猛，市值已突破了 20 亿美元，占 DeFi 总市值的 7.9% ，但目前，衍生品交易市场却仍被 CEX 占据主导地位，DEX 仅占总交易量的 3% 。然而，DEX 的崛起显然已经势不可挡，相较于传统 CEX，DEX 具有无需许可的特点，任何人都能在协议上开发新产品；DEX 具有抗审查性，可以有效抵抗中心化机构的操纵；DEX 具有可以 7* 24 H 全天候交易等优势。
+此前 FTX 暴雷显示了 CEX 的脆弱性，越来越多的投资者正将目光转向 DEX。对于 DEX 而言，目前有四大方面需要破局：如何进行功能升级；能否通过聚合流动性提供市场最优价格；需要注重发展链上跟单交易，吸引更多用户；应发力传统资产，满足用户的多样化需求。
+
+MEKE 是一个值得关注的破局者。MEKE 是由美国团队开发的一款由…]]></summary>
+        <author>
+            <name>MEKE</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开除Validium?从Danksharding提出者的视角重新理解Layer2]]></title>
+        <id>https://www.odaily.news/post/5189173</id>
+        <link href="https://www.odaily.news/post/5189173"/>
+        <updated>2023-08-19T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Faust
+原文来源：极客Web3
+导语：近日，Danksharding 的提出者、以太坊基金会的研究员 Dankrad Feist 在推特上发表了一番颇具争议的言论。他明确指出，不采用 ETH 作 DA 层（数据可用性层）的模块化区块链不是 Rollup，同时也不是以太坊 Layer 2 。如果按照 Dankrad 的说法，Arbitrum Nova 和 Immutable X、Mantle 都要从 Layer 2 名单里「除名」，因为它们只在 ETH 之外（自己构建了名为 DAC 的链下 DA 网络）披露交易数据。
+
+同时，Dankrad 还表示，像 Plasmas 和状态通道这种不需要链上数据可用性（Data Availability）来确保安全的方案仍算是 Layer 2 ，但 Validium（不用 ETH 作 DA 层的 ZKRollup）不算 Layer 2 。
+
+
+Dankrad 此言一出，便引来了诸多 Rollup 领域的 Founder 或 Researcher 质疑。毕竟有许多「Layer 2 」项目为了节约成本，并没有采用 ETH 作为 DA( 数据可用性 ) 层，如果把这些项目踢出 L2 名单，必然波及到相当多的扩容网络；同时，如果 validium 不算 L2，Plasma 应该也没资格算作 L2。
+对此，Dankrad 表示，Plasma 用户在 DA 不可用时（就是指链下的 DA 层网络搞数据扣留，不公开交易数据），仍然可以把自己的资产安全撤出至 L1；但相同的情况下，Validium（大多数采用 StarkEx 方案的项目都是 validium）却可以让用户无法撤资至 L1，把钱冻住。
+
+显然，Dankrad 打算从「是否安全」来界定一个扩容项目是否为以太坊 Layer 2 。如果从「安全性」的角度来考量，Validium 在定序…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[某鲸鱼自Cumberland收到2.5万枚ETH，或通过Cumberland抄底]]></title>
         <id>https://panewslab.com/zh/articledetails/i0atfczy.html</id>
