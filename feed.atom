@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-20T03:07:07.237Z</updated>
+    <updated>2023-08-20T04:08:25.241Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[慢雾创始人余弦：BNB Chain存在0x751开头恶意合约地址，提醒用户做异常授权检查及取消]]></title>
+        <id>https://panewslab.com/zh/articledetails/hvqqhs6i.html</id>
+        <link href="https://panewslab.com/zh/articledetails/hvqqhs6i.html"/>
+        <updated>2023-08-20T03:31:09.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月20日消息，慢雾创始人余弦推特发文，称近期有用户资产被莫名盗走。用户可检查是否在BNB Chain上向0x751开头的恶意合约地址授权资产，用Revoke.cash与Rabby Wallet 都可以快速做异常授权检查及取消。该恶意合约没开源验证，但反编译可以很容易分析出存在针对授权资产的任意转移后门，这种后门会导致资产被盗。
+该恶意合约地址为：0x75117c9158f53998ce8689B64509EFf4FA10AD80，与恶意合约有关的相关黑地址为：0xE2A178C2C5C4920C1b2B947A35edDb4f8EcBb7dD、0xB88457b62491CBcEc42203672cFcb4269bd64c7e。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[慢雾：安全人员发现iOS 16新漏洞，提醒加密货币从业者不要使用越狱设备]]></title>
+        <id>https://panewslab.com/zh/articledetails/cin2egmz.html</id>
+        <link href="https://panewslab.com/zh/articledetails/cin2egmz.html"/>
+        <updated>2023-08-20T02:37:40.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月20日消息，慢雾首席信息安全官23pds在推特发文称，网络安全研究人员发现iOS 16存在一种新的漏洞利用后持久化技术：即使受害者的苹果设备处于离线状态，也可以利用该技术悄无声息地访问该设备。该漏洞只有在已经被利用或越狱的设备上才有可能。攻击者诱使受害者认为他们设备的飞行模式正常工作，而实际上攻击者在成功利用设备后已经植入了一个虚假的人工飞行模式，该模式会编辑用户界面以显示飞行模式图标，并切断除攻击者应用程序外所有应用程序的互联网连接。慢雾提醒加密货币从业者不要图方便而使用越狱设备。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[多个头部NFT单日跌幅超10%]]></title>
+        <id>https://panewslab.com/zh/articledetails/ppzzvydd.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ppzzvydd.html"/>
+        <updated>2023-08-20T02:10:17.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月20日消息，Blur行情显示，多个头部NFT单日下跌超10%。其中BAYC地板价24.38 ETH，日内下跌6.96%；MAYC地板价4.55 ETH，日内下跌10.04%；Azuki地板价3.47 ETH，单日下跌14.95%。BAKC地板价1.54 ETH，单日下跌14.11%。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：某鲸鱼或出售MATIC并购入价值160万美元的PEPE]]></title>
         <id>https://panewslab.com/zh/articledetails/pbl2tst0.html</id>
@@ -3816,89 +3847,6 @@ McHenry提及，在Prometheum许可证获得批准前一周，众议院金融服
         <link href="https://panewslab.com/zh/articledetails/ggmiuifm.html"/>
         <updated>2023-08-15T20:02:02.000Z</updated>
         <summary type="html"><![CDATA[PANews 8月16日消息，彭博高级ETF分析师Eric Balchunas推特发文称，Volatility Shares宣布计划在10月12日上线以太坊期货ETF交易。据此前消息，Volatility Shares在7月28日提交给美国证券交易委员会(SEC)的文件中详细介绍了其提议的“以太坊战略ETF”，该ETF将投资于在芝加哥商品交易所(CME)交易的现金结算以太坊期货合约。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stellar发展基金会战略投资MoneyGram International]]></title>
-        <id>https://panewslab.com/zh/articledetails/8z080891.html</id>
-        <link href="https://panewslab.com/zh/articledetails/8z080891.html"/>
-        <updated>2023-08-15T15:56:33.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月15日消息，Stellar 发展基金会（SDF）宣布战略投资跨境支付巨头 MoneyGram International（MGI，速汇金）。这项投资是由 SDF 现金库（为支持 SDF 运营而预留的资产）进行，而非由企业基金（用于投资初创企业和早期公司的基金）。这项投资将推动 MGI 扩展其数字业务、探索区块链技术等领域，并探索可以帮助消费者和企业在全球转移和管理资金的许多其他方式。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以太坊基金会今年Q2共向57个项目分配约920万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/9uvuroya.html</id>
-        <link href="https://panewslab.com/zh/articledetails/9uvuroya.html"/>
-        <updated>2023-08-15T15:46:06.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月15日消息，以太坊基金会公布了今年第二季度“生态系统支持计划”的项目及活动资助情况，合计向57个项目分发了9218158.34美元的资金支持。受助项目及活动包括巴黎 DeFi 安全峰会、以太坊阿根廷会议等十余场会议，以及大量关于密码学和零知识证明的研究项目等。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TON生态Launchpad平台TonUP获得TONcoin.Fund六位数投资]]></title>
-        <id>https://panewslab.com/zh/articledetails/mc84cpaf.html</id>
-        <link href="https://panewslab.com/zh/articledetails/mc84cpaf.html"/>
-        <updated>2023-08-15T15:32:15.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月15日消息，TON生态Launchpad平台TonUP宣布获得TONcoin.Fund的六位数投资。TONcoin.Fund是一个价值 2.5 亿美元的基于 TON 的基金，致力于支持创始人，及各种关键项目，特别关注 DeFi 。 每个项目将获得 50,000 至 250,000 美元的资金。除了资金外，每项投资还将获得加速器合作伙伴的合作和指导。
-此前报道，TON加速器计划今年将拨款2500万美元用于推进生态系统建设。
-相关阅读：一文速览TON生态：如何向Telegram的7亿用户提供Web3产品？]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Voyager已抛售超4000万美元代币，剩余持仓将如何影响市场？]]></title>
-        <id>https://www.odaily.news/post/5189097</id>
-        <link href="https://www.odaily.news/post/5189097"/>
-        <updated>2023-08-15T15:18:21.000Z</updated>
-        <summary type="html"><![CDATA[近几日，在人们视野中消失许久的加密借贷企业 Voyager Digital 正重获关注。
-8 月 12 日，Voyager 开始进入代币出售流程，此后其钱包内的代币不断转移。截止目前，在不到五天内，Voyager 已转出价值超 4000 万美元的加密货币。同样，其地址也收到了约 5100 万枚 USDC。在持续不断的抛售后，Voyager 已经收回了多少资金？还有多少代币可供出售？对市场有何影响？
-Voyager 卖币还债
-
-
-根据此前报道，Voyager 一直积极的卖币还债，目前正不断将其持仓转移至 CEX，并将之抛售以兑换为法币。
-今年 5 月中旬，法官批准了 Voyager 的清算计划。按照其清算计划，Voyager Digital 将向客户返还约 13.3 亿美元的加密资产，虽然仅占客户总存款的 35% 。
-按照 Voyager 的还款计划， 6 月 20 日～ 7 月 5 日为加密货币的赔付周期，客户可以选择提取 35.72% 的代币。也可不提去加密存款，而是待这一流程结束之后，等待 Voyager 将加密货币出售，并获得美元赔偿。链上数据显示，在提款开始之后，Voyager 的代币快速流出。
-
-而随着代币赔付的停止，Voyager 的行动也进入了下一个阶段。8 月 12 日开始，其被索赔的加密货币开始转移并出售。
-链上数据显示，Voyager 已将超过 30 种代币转入 Coinbase，合计超过 4000 万美元。其中价值超过 100 万美元的包括：BTC、ETH、SHIB、LINK、MATIC。
-具体包括：约 1750 万美元的 BTC、约 1290 万美元的 ETH、约 800 万美元的 SHIB。此外， BAT、SAND、MANA、APE 代币合计约 200 万美元。而大量的卖出也为 Voyager 带来了可观的现金。链上数据显示，Voyager从 Coinbase 取出约 8237 万美元的 USDC，并将其转账至 Circle 并兑换成美元。
-8 月 14 日，单日净流出更是高达 7440 万美元，其中包括 4618 万美元价值的稳定币。
-
-Voyager 还有多少家底？
-在持续不断的大额流出之后，Voyager 还有多少资产可供变卖？查询 Voyager 的 EVM钱包地址，我们可以快速纵览这一昔日巨头目前仍拥有的持仓。
-Zerion 数据显示，目前 Voyager 钱包地址的资产净值已经较一周前减少 70% 。
-
-目前 Voyager 仍有价值超过 800 万美元的 VGX 等待出售。持有价值超过 10 万美元的非稳定包括：VGX、KNC、SHIB、FTM、STMX、GALA。
-
-
-
-而 Voyager 的两个比特币地址也仍有部分持仓，合计持有约 55 枚比特币，现价约合 162 万美元。
-
-
-将如何影响市场？
-2022 年 7 月，Voyager Digital 向美国申请破产保护，成为熊市之中倒下的又一个巨人。此前，三箭资本曾向Voyager 借入了大量资产。随着三箭资本的破产、加密市场的下跌，Voyager Digital 也受到连锁反应冲击，继而迎来破产结局。
-在 Voyager 崩溃不到一周之前，该公司暂停了交易，并停止了客户的资金提取。Voyager 在破产后，曾试图以 14.2 亿美元的价格将其资产出售给 FTX，但由于 FTX 的崩溃，这笔交易以失败告终。
-Voyager 的最终目标是对所有客户完成赔付（尽管只能赔付部分损失）。而目前随着赔付的进行，这一过程已逐渐进入尾声。
-而我们最关注的自然是 Voyager 的抛售，是否会波及市场行情？主流代币的深度是可以承接的，以 SHIB 为例，Voyager 在过去数日内已抛售了数百万美元的 SHIB。而 SHIB 最近 24 小时交易量达 2.8 亿美元。
-但其他小币种则不容乐观，尤其是 Voyager 自己所发行的 VGX。Coingecko 数据显示，目前 VGX 市值仅 4581 万美元， 24 小时成交量仅 486 万美元。而在 Voyager 的钱包中尚有价值 815 万美元的 VGX 等待抛售。
-目前，Voyager 的资产变卖仍在进行中，后续处理方式仍有待观察。而对广大投资者（或投机者）来说，在这场抛售之中，仍然蕴含着一定的市场机会。]]></summary>
-        <author>
-            <name>Loopy Lu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密货币做市商GSR缩减规模，首席财务官和其他高管离职]]></title>
-        <id>https://panewslab.com/zh/articledetails/6z0sefl9.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6z0sefl9.html"/>
-        <updated>2023-08-15T15:17:41.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月15日消息，据The Block报道，自去年年底以来，几位高管和部门负责人离开了加密货币做市商 GSR，其中包括首席财务官乔纳森·休 (Jonathan Hugh)。该公司在熊市中一直在缩减规模，尤其是在美国，该公司在当地交易所的交易量有所减少。据五位消息人士透露，在这次裁员中，包括最高管理层和部门负责人在内的多名高管已准备退出。GSR 全球产品主管 Benoit Bosc 和交易运营总监 Aman Bhalla 也将离开这家做市商。其他离职者包括 Jake Dwyer，他于 2021 年加入该公司，领导 GSR 的 DeFi 和风险投资计划。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
