@@ -2,10 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-22T11:05:38.167Z</updated>
+    <updated>2023-08-22T12:12:54.303Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[加密市场下跌，以太坊近期处境如何？]]></title>
+        <id>https://www.odaily.news/post/5189200</id>
+        <link href="https://www.odaily.news/post/5189200"/>
+        <updated>2023-08-22T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[ETH 日销毁数量创年内新低
+自 2021 年 8 月伦敦升级之后，以太坊区块链开启了 ETH 燃烧机制，目的是优化交易费。EIP-1559 将原来以太坊上需要给矿工支付的 gas 费分成两个部分：基础费和矿工小费。基础费用是用户必须支付的费用，它将被销毁而非矿工所有；而矿工小费则是动态的费用，用于在交易拥堵时激励矿工优先打包用户的交易。
+
+根据 The Block 数据统计， 2023 年 8 月 18 日 ETH 的日销毁数量为 946.63 ETH，创下了自今年以来的新低，同时也是 EIP-1559 实施两年之后的相对低位。
+由于当 ETH 主网发生交易时，就会触发 ETH 的销毁，而近期 ETH 销毁量下降则表明了以太坊L1活动的减弱。这是因为市场参与者将注意力转移到了可扩展性更强的L2之上。Base 的链上活动，以及 Optimism 等L2的分流，是近期 ETH 销毁数量降低的重要原因。此外，正处于开发阶段的 zkSync 和 StarkNet 等项目也间接造成了 ETH 销毁数量的减少。
+
+近期，Coinbase 的推出的 Base L2受到加密社区的欢迎。自推出以来，已有价值 2.36 亿美元的加密资产跨到 Base 之上，其中包括价值 1.44 亿美元的 ETH。
+
+Base 于 8 月 9 日启动了 100 多个 Dapp，数据达到了与其他主流以太坊L2网络相媲美的水平。根据 Dune Analytics 的统计数据，Base 日常活跃用户的数量在 8 月 10 日一度超过 136, 000 ，高于同期 Optimism 的 114, 700 。
+
+根据L2 Beat 的数据，Base 目前每秒平均处理 5 笔交易，并不拥堵，远远没有达到峰值。这个数据和 Optimism 相当，在L2中仅次于 Zksync ERA 和 Arbitrum One。
+最近其…]]></summary>
+        <author>
+            <name>Ebunker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mint Ventures：万字详解去中心化储备稳定币]]></title>
+        <id>https://www.odaily.news/post/5189240</id>
+        <link href="https://www.odaily.news/post/5189240"/>
+        <updated>2023-08-22T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Lawrence Lee，Mint Ventures
+不可能三角
+
+制图：Mint Ventures
+加密稳定币领域一直存在一个不可能三角，即价格的稳定性、去中心化和资本效率不可兼得。
+USDT 和 USDC 等中心化的稳定币具备目前链上最优秀的价格稳定性以及高至 100% 的资本效率，唯一的问题是中心化带来的风险， BUSD 受监管影响而停止新业务、今年 3 月 SVB 事件给 USDC 造成的影响都很清楚地揭示了这一点。
+自 20 年下半年开始的算法稳定币热潮试图实现去中心化基础上的不足额抵押，此间 Empty Set Dollar 以及 Basis Cash 等项目都很快走向了崩溃；此后的 Luna 以整条公链的信用作为隐性担保，并不对用户铸造 UST 的过程要求超额抵押，在相当长的时间（ 2020 - 2022 年 5 月）都实现了去中心化、资本效率和价格稳定的三者合一，但最终还是信用崩溃走向死亡螺旋；此后在不足额抵押代币也出现过像 Beanstalk 等项目，但并未引起市场的太大关注。这类代币难以稳定的锚定是其发展的死穴。
+而另外一条道路则是从 MakerDAO 开始，通过对底层去中心化资产的超额抵押，在牺牲了一定资本效率的基础上希望实现价格稳定。目前 Liquity 的 LUSD 是完全由去中心化资产所支持的最大规模的稳定币，不过为了保证 LUSD 价格稳定， Liquity 的资本效率确实较低，整个系统的抵押率常年在 250% 以上，也就是说每 1 枚流通的 LUSD 需要价值 2. 5 U 以上的 ETH 来作为抵押品。 Synthetix 的 sUSD 则更为极端，由于抵押品 SNX 的波动性更大， Synthetix 要求的最低抵押率通常超过 500% 。资本效率低就意味着规模的天花板低，也意味着对用户的吸引力低， Liquity 规划中的 V…]]></summary>
+        <author>
+            <name>Mint Ventures</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[EraLend 攻击者已将大约410枚ETH 转入CEX，占盗取金额的 31%]]></title>
         <id>https://panewslab.com/zh/articledetails/c3rt3el2.html</id>
@@ -3458,49 +3496,6 @@ Coinbase首席法务官Paul Grewal对此在X平台（原推特）上表示：“
         <updated>2023-08-18T00:23:30.000Z</updated>
         <summary type="html"><![CDATA[PANews 8月18日消息，万事达卡（MasterCard）于当地时间周四在官网上宣布，万事达卡正在召集一批领先的区块链技术和支付服务提供商加入其新的央行数字货币（CBDC）合作伙伴计划，以促进与该领域主要参与者的合作，以便他们能够推动创新和效率。首批合作伙伴包括CBDC平台Ripple、区块链和Web3软件公司ConsenSys、多CBDC和代币化资产解决方案提供商Fluency、数字身份技术提供商Idemia、数字身份顾问Consult Hyperion、安全技术集团Giesecke+Devrient和数字资产运营平台Fireblocks。
 万事达卡数字资产和区块链主管Raj Dhamodharan表示：“我们相信支付选择以及不同支付方式之间的互操作性是繁荣经济的重要组成部分，展望数字驱动的未来时，CBDC所持有的价值必须像其他形式的货币一样易于使用，这一点至关重要。”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CoinDesk确认已于本周裁员，名单包括曾因FTX爆炸新闻而获波尔克新闻奖的记者]]></title>
-        <id>https://panewslab.com/zh/articledetails/zpoov0tm.html</id>
-        <link href="https://panewslab.com/zh/articledetails/zpoov0tm.html"/>
-        <updated>2023-08-18T00:11:40.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月18日消息，加密媒体CoinDesk的活动策划Marc Hochstein在X平台（原推特）上透露，CoinDesk已于本周进行了裁员，裁员名单包括曾因报道FTX爆炸新闻、即“SBF内部圈子的奢侈生活方式”而获得波尔克新闻奖的Tracy Wang，以及其他编辑及记者。Hochstein列举了这些前员工为新闻工作所做的贡献，并呼吁其他公司招聘他们。CoinDesk官方也通过转发了该帖子对此事进行了确认。
-此前8月14日消息，据The Block援引知情人士称，由于母公司DCG计划引入战略投资者，加密媒体公司CoinDesk将裁员20人，占其编辑团队的45%。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celsius破产重组计划披露声明相关网络研讨会将于8月21日举行]]></title>
-        <id>https://panewslab.com/zh/articledetails/2k2vfrzq.html</id>
-        <link href="https://panewslab.com/zh/articledetails/2k2vfrzq.html"/>
-        <updated>2023-08-17T23:52:33.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月18日消息，Celsius无担保债权人官方委员会在X平台（原推特）上表示，Celsius破产重组计划的披露声明相关网络研讨会将于8月21日举行，将就特定主题启动几场会议，内容包括债权人根据计划可以进行的投票以及如何填写选票。
-此前8月15日消息，Celsius计划成立由债权人所有的新公司，已获法院许可进行客户投票。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国法官允许SEC关于Terraform询问Daniel Shin并从支付公司Chai收集证据]]></title>
-        <id>https://panewslab.com/zh/articledetails/cnc3u9b2.html</id>
-        <link href="https://panewslab.com/zh/articledetails/cnc3u9b2.html"/>
-        <updated>2023-08-17T23:38:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月18日消息，据彭博社报道，美国地区法官Jed Rakoff裁定，美国证券交易委员会（SEC）可以寻求韩国政府的协助，询问Terraform Labs联合创始人Daniel Shin，并从支付公司Chai Corp.收集证据。SEC希望询问Shin并从Chai那里获得文件，以帮助证明其对Terraform及其前首席执行官Do Kwon的指控。Do Kwon目前因持假护照在黑山服刑4个月，他在美国和韩国都面临刑事指控，并面临美国证交会的诉讼。Daniel Shin在今年4月被韩国检方起诉。他的律师当时表示，他与Terra的崩溃无关。
-Do Kwon和Daniel Shin共同创立了Chai，该公司最初与Terraform共用办公室和员工。两家公司于2020年分拆，Do Kwon成为Terraform CEO，Shin留在Chai担任CEO。SEC在其诉讼中指控Kwon虚假声称Chai使用Terraform的区块链及其TerraKRW稳定币来处理韩国消费者的数百万笔零售交易。在上个月提交的文件中，SEC表示，它正在寻求有关Chai如何处理支付及使用Terraform的区块链和稳定币、两家公司之间的通讯以及如何向Chai投资者披露双方关系的证词和文件。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[彭博社：SEC计划批准以太坊期货ETF，或将于10月前上市]]></title>
-        <id>https://panewslab.com/zh/articledetails/32dj07o1.html</id>
-        <link href="https://panewslab.com/zh/articledetails/32dj07o1.html"/>
-        <updated>2023-08-17T23:15:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月18日消息，据彭博社报道，美国证券交易委员会(SEC)计划批准首只以太坊期货ETF上市，这对长期以来寻求提供此类产品的几家公司来说是一个重大胜利。据知情人士透露，SEC不太可能阻止这些产品上市。包括Volatility Shares、Bitwise、Roundhill和ProShares在内的多家公司已申请推出以太坊期货ETF。目前尚无法立即确定哪些基金将获得批准。一位不愿透露姓名的知情人士说，官员们已经暗示，有几只ETF可能会在10月份之前上市。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
