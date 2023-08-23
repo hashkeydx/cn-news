@@ -2204,16 +2204,6 @@
           "wordCount": 340,
           "title": "上海人工智能实验室发布多模态语料",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/fsro838t.html",
-          "author": "PA一线",
-          "description": "PANews 8月19日消息，据Dune数据显示，friend.tech交易总量达11345.3 ETH，协议收入达515.7 ETH，有超3.5万名买家，用户“个人股票”总市值达5736.2 ETH。\n此前消息，friend.tech推特发文称已完成种子轮投资，Paradigm参投。",
-          "link": "https://panewslab.com/zh/articledetails/fsro838t.html",
-          "publishedOn": "2023-08-19T05:31:21.000Z",
-          "wordCount": 352,
-          "title": "数据：friend.tech交易量超1万枚ETH，协议收入达500枚ETH",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2679,6 +2669,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5189269",
+          "author": "秦晓峰",
+          "description": "原创 | Odaily星球日报\n作者 | 秦晓峰\n\n这几天，随着 BNB 跨链桥黑客 Venus 账户头寸开始清算，外网加密 KOL 们开始集中讨论 BNB 未来走势。悲观者认为，BNB 可能重蹈覆辙，与 FTT 一样走向崩盘，甚至还有模有样的比较了二者的历史走势，引起社区恐慌。如下所示：\n\n（KOL 将 BNB 与 FTT 价格比较）\n问题来了，BNB 最近的清算，对市场究竟会造成多大的抛压？先说结论，没有大的影响，Venus 上 BNB 头寸清算全部由 BNB Chain 团队接管，也不会抛向市场，更不会发生大规模连环清算。\n事情起因要从去年 10 月说起，一名黑客利用 BNB 跨链桥「BSC Token Hub」的漏洞窃取了约 200 万枚 BNB——当时 BNB 价格为 280 美元，总价值约为 5.6 亿美元。而后，黑客将其中 924, 821 个 BNB 存入借贷协议 Venus，借出约 1.52 亿美元稳定币（包括 1.16 亿 USDT 和 3600 万 USDC）并转移至其他链上。\n事故发生后，BNB Chain 第一时间发布了新版本 BSC v1.1.15 ，该版本可以阻止黑客账户相关活动，同时 BNB Chain 节点程序通过黑名单与暂停功能的方式阻止被盗资金流动与潜在的攻击。简单来说，黑客钱包地址资产（钱包中剩余的 102 万 BNB 以及其他稳定币资产）被限制转移——从某种程度上讲，钱包资产已经永久冻结，黑客真正盗取的只有 90 多万个的 BNB。\n\n（黑客钱包地址资产）\n此时，对各方来说，唯一头疼的问题是，已经在 Venus 作为抵押物的 BNB 资产应该如何处理？直接零成本收回销毁，意味着 Venus 将出现 1.5 亿美元的巨额亏空，Venus 的储户显然也不答应；如果任由 Venus 协议自行运转，达到清算价格自动抛向市场，巨量 BNB 又…",
+          "link": "https://www.odaily.news/post/5189269",
+          "publishedOn": "2023-08-23T16:01:59.000Z",
+          "wordCount": 2347,
+          "title": "已清算30万BNB，黑客账户还会造成多大抛压？",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5189267",
           "author": "深潮TechFlow",
@@ -3237,16 +3237,6 @@
           "publishedOn": "2023-08-19T08:30:00.000Z",
           "wordCount": 3740,
           "title": "LD Capital：GMX V2的改动与影响",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5189181",
-          "author": "深潮TechFlow",
-          "description": "整理 & 编译：深潮 TechFlow\n在近期 Bell Curve 播客中，主持人 Mike and Myles 与 Frax Finance 创始人 Sam Kazemian 一起探索了 FRAX 从去中心化稳定币到 Liquid Stake 代币（LST）和 Liquid Stake 衍生品（LSD）的创新之旅。 Sam 分享了对算法稳定性机制、去中心化信任、DeFi 统治计划和 FRAX V2 去中心化的见解。\n5 分钟阅读本期播客笔记，为你节省 60 分钟时间。\n以下是本次对话的主要内容，由深潮进行听译和整理，并输出了主要观点：\n\n主持人：Mike & Myles，Bell Curve\n主讲人：Sam Kazemian，Frax Finance 创始人\n原标题：《Frax’s Alternative Approach to Scaling LSTs》\n视频归属： Bell Curve 播客\n节目：链接\n发布时间： 8 月 15 日\nFrax Finance 的发展历程和生态系统\nSam 描述了 Frax 的演变过程。他提到，Frax 最初是一个混合算法和抵押稳定币，于 2020 年 12 月发布。自发布以来，Frax 生态系统逐渐发展壮大，现在更像是一个包含多个组件的多功能生态系统。\nSam 解释说，Frax 不仅仅是一个稳定币，还包括 Frax Ether（一种流动性质押代币，也称为 LSD），FPI（一种与消费品价格指数挂钩的稳定币）以及一系列称为子协议的工具，如 Fraxland（一个独立的借贷市场）和 Frax Swap。\n主持人询问 Sam 关于产品扩展的顺序和逻辑，特别是从稳定币转向流动性抵押代币。\nSam 举例说明了跨链桥协议和流动性质押代币与稳定币之间的相似性。Sam 许多 DeFi 项目实际上都是稳定币发行者，只是他们可能没有意识到这一点。无论是…",
-          "link": "https://www.odaily.news/post/5189181",
-          "publishedOn": "2023-08-19T06:00:00.000Z",
-          "wordCount": 2304,
-          "title": "对话Frax Finance创始人：长期目标是使FXS成为前五的数字资产",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]

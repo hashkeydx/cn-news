@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-23T17:05:14.737Z</updated>
+    <updated>2023-08-23T18:07:18.842Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -14,6 +14,27 @@
         <summary type="html"><![CDATA[PANews 8月24日消息，据官方公告，美国司法部指控Tornado Cash创始人Roman Storm和Roman Semenov串谋洗钱、违反制裁规定并经营无牌汇款业务。起诉书表示，二人涉嫌创建、运营和推广Tornado Cash，为超过10亿美元的洗钱交易提供便利，并为受制裁的朝鲜网络犯罪组织Lazarus Group洗钱数亿美元。Roman Storm已在华盛顿州被捕，并将于今日在美国华盛顿西区地方法院出庭受审，Roman Semenov仍然在逃。此外，Roman Semenov已被列入美国财政部外国资产控制办公室 (OFAC) 特别调查名单。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[已清算30万BNB，黑客账户还会造成多大抛压？]]></title>
+        <id>https://www.odaily.news/post/5189269</id>
+        <link href="https://www.odaily.news/post/5189269"/>
+        <updated>2023-08-23T16:01:59.000Z</updated>
+        <summary type="html"><![CDATA[原创 | Odaily星球日报
+作者 | 秦晓峰
+
+这几天，随着 BNB 跨链桥黑客 Venus 账户头寸开始清算，外网加密 KOL 们开始集中讨论 BNB 未来走势。悲观者认为，BNB 可能重蹈覆辙，与 FTT 一样走向崩盘，甚至还有模有样的比较了二者的历史走势，引起社区恐慌。如下所示：
+
+（KOL 将 BNB 与 FTT 价格比较）
+问题来了，BNB 最近的清算，对市场究竟会造成多大的抛压？先说结论，没有大的影响，Venus 上 BNB 头寸清算全部由 BNB Chain 团队接管，也不会抛向市场，更不会发生大规模连环清算。
+事情起因要从去年 10 月说起，一名黑客利用 BNB 跨链桥「BSC Token Hub」的漏洞窃取了约 200 万枚 BNB——当时 BNB 价格为 280 美元，总价值约为 5.6 亿美元。而后，黑客将其中 924, 821 个 BNB 存入借贷协议 Venus，借出约 1.52 亿美元稳定币（包括 1.16 亿 USDT 和 3600 万 USDC）并转移至其他链上。
+事故发生后，BNB Chain 第一时间发布了新版本 BSC v1.1.15 ，该版本可以阻止黑客账户相关活动，同时 BNB Chain 节点程序通过黑名单与暂停功能的方式阻止被盗资金流动与潜在的攻击。简单来说，黑客钱包地址资产（钱包中剩余的 102 万 BNB 以及其他稳定币资产）被限制转移——从某种程度上讲，钱包资产已经永久冻结，黑客真正盗取的只有 90 多万个的 BNB。
+
+（黑客钱包地址资产）
+此时，对各方来说，唯一头疼的问题是，已经在 Venus 作为抵押物的 BNB 资产应该如何处理？直接零成本收回销毁，意味着 Venus 将出现 1.5 亿美元的巨额亏空，Venus 的储户显然也不答应；如果任由 Venus 协议自行运转，达到清算价格自动抛向市场，巨量 BNB 又…]]></summary>
+        <author>
+            <name>秦晓峰</name>
         </author>
     </entry>
     <entry>
@@ -3756,42 +3777,6 @@ GMX V2的核心是保证协…]]></summary>
         <updated>2023-08-19T06:20:51.000Z</updated>
         <summary type="html"><![CDATA[PANews 8月19日消息，据人民网报道，上海人工智能实验室宣布联合语料数据联盟成员单位，共同开源发布“书生·万卷”1.0多模态预训练语料。“书生·万卷”1.0集合了语料数据联盟成员丰富的内容积累与上海人工智能实验室的数据处理能力等优势，将为学术界及产业界提供高质量大模型多模态预训练语料。本次开源的数据总量超过2TB，具备多元融合、精细处理、价值对齐、易用高效等四大特征。
 本次开源的“书生·万卷”1.0包含文本、图文、视频三部分数据集。其中文本数据来自网页、百科、书籍、专利、教材、考题等，数据总量超过5亿个文档，数据大小超过1TB，覆盖科技、文学、媒体、教育、法律等多个领域；图文数据主要来自公开网页，经处理后形成图文交错文档，总量超过2200万个，数据大小超过140GB（不含图片），覆盖新闻事件、人物、自然景观、社会生活等多个领域；视频数据主要来自中央广播电视总台和上海文广集团，包含新闻、影视等多种类型的节目影像，总计视频文件数超过1000个，数据大小超过900GB，内容覆盖军事、文艺、体育、自然、知识、影像艺术等方面。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[对话Frax Finance创始人：长期目标是使FXS成为前五的数字资产]]></title>
-        <id>https://www.odaily.news/post/5189181</id>
-        <link href="https://www.odaily.news/post/5189181"/>
-        <updated>2023-08-19T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[整理 & 编译：深潮 TechFlow
-在近期 Bell Curve 播客中，主持人 Mike and Myles 与 Frax Finance 创始人 Sam Kazemian 一起探索了 FRAX 从去中心化稳定币到 Liquid Stake 代币（LST）和 Liquid Stake 衍生品（LSD）的创新之旅。 Sam 分享了对算法稳定性机制、去中心化信任、DeFi 统治计划和 FRAX V2 去中心化的见解。
-5 分钟阅读本期播客笔记，为你节省 60 分钟时间。
-以下是本次对话的主要内容，由深潮进行听译和整理，并输出了主要观点：
-
-主持人：Mike & Myles，Bell Curve
-主讲人：Sam Kazemian，Frax Finance 创始人
-原标题：《Frax’s Alternative Approach to Scaling LSTs》
-视频归属： Bell Curve 播客
-节目：链接
-发布时间： 8 月 15 日
-Frax Finance 的发展历程和生态系统
-Sam 描述了 Frax 的演变过程。他提到，Frax 最初是一个混合算法和抵押稳定币，于 2020 年 12 月发布。自发布以来，Frax 生态系统逐渐发展壮大，现在更像是一个包含多个组件的多功能生态系统。
-Sam 解释说，Frax 不仅仅是一个稳定币，还包括 Frax Ether（一种流动性质押代币，也称为 LSD），FPI（一种与消费品价格指数挂钩的稳定币）以及一系列称为子协议的工具，如 Fraxland（一个独立的借贷市场）和 Frax Swap。
-主持人询问 Sam 关于产品扩展的顺序和逻辑，特别是从稳定币转向流动性抵押代币。
-Sam 举例说明了跨链桥协议和流动性质押代币与稳定币之间的相似性。Sam 许多 DeFi 项目实际上都是稳定币发行者，只是他们可能没有意识到这一点。无论是…]]></summary>
-        <author>
-            <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：friend.tech交易量超1万枚ETH，协议收入达500枚ETH]]></title>
-        <id>https://panewslab.com/zh/articledetails/fsro838t.html</id>
-        <link href="https://panewslab.com/zh/articledetails/fsro838t.html"/>
-        <updated>2023-08-19T05:31:21.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月19日消息，据Dune数据显示，friend.tech交易总量达11345.3 ETH，协议收入达515.7 ETH，有超3.5万名买家，用户“个人股票”总市值达5736.2 ETH。
-此前消息，friend.tech推特发文称已完成种子轮投资，Paradigm参投。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
