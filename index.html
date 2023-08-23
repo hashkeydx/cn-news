@@ -51,133 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-23 datetime="2023-08-23T02:18:55.000Z">2023-08-23</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-23 datetime="2023-08-23T02:18:55.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-23 datetime="2023-08-23T02:43:52.000Z">2023-08-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-23 datetime="2023-08-23T02:43:52.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189243"
-                        open
-                      >
-                        <summary class="article-expander__title">BNB Chain安全开发，这10大实用tips一定要收藏</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189243">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>BNB Chain 是Web3世界中最受欢迎的区块链之一，其费用合理、交易迅速以及项目生态系统丰富几大原因吸引了广大用户。与任何的区块链都一样，BNB Chain 上的开发者在开发过程中首先考虑的应该是安全问题：因为任何资金的损失都会导致用户对协议及平台的信心减弱，而安全漏洞和黑客攻击是开发者面临的最大风险之一。
-在本文中，我们提供了十大实用安全 tips，让开发者可以在 BNB Chain 上减少风险并开发更安全的智能合约。
-
-01 
-╱ 定义 ╱
-重放攻击(Replay Attacks)又称重播攻击、回放攻击，是区块链环境中一种常见的攻击类型。在网络安全中，“重放攻击&quot;”是一种网络攻击类型，其中有效的数据传输被恶意或欺诈性地重复或延迟。
-在Web3和智能合约的环境背景下，这通常意味着攻击者能够在未经原始用户允许的情况下重复智能合约中的交易或操作。这可能会导致各种形式的欺诈，如双重支付等。
-这些攻击会给用户和开发者带来严重的后果，因为它们允许攻击者重复使用相同的签名，以获得智能合约上所有资金或其他资产的未授权访问。
-为了防止重放攻击，开发人员必须仔细设计和实现他们的智能合约代码，并遵循签名验证以及行业最佳安全标准。
-02 
-╱ 案例解析 ╱
-以下代码片段表示了 BNB 链上一个代币的转移 transfer 实现过程。该代码很容易受到重放攻击，从而使得攻击者能够重复使用同一个签名。
-这个功能缺乏 nonce 或重放保护，允许攻击者多次“重放”一个已签名的转账交易。攻击者可以拦截已签署的交易，并再次将其发送到同一个合约或另一个合约，而合约仍会认为它是有效的，因此攻击者就可能利用该漏洞窃取资产。
-03 
-╱ 改进方法 ╱
-在签名中增加一个 nonce 或使用 mapping 变量来记录签名。其中更具地的解决方案会根据项目设计的不同而不同。
-
-01 
-╱ 定义 ╱
-当一个恶意合约…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189247"
-                        open
-                      >
-                        <summary class="article-expander__title">friend.tech引爆Base生态，这十个项目值得重点关注</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189247">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原创 | Odaily星球日报
-作者 | 秦晓峰
-
-借助 Coinbase 的网络效应，L2 扩容方案 Base 网络在熊市中迅速扩张。
-从 8 月 10 日上线主网至今，短短两周时间，Base 主网 TVL 已达 2.4 亿美元，目前在 L2 中排名第五，仅次于 Arbitrum、OP Mainnet、zkSync Era 以及 dYdX。21co链上数据分析师 Tom Wan 发文称，就“L2 以太坊渗透率”指标而言，Base 增长用时远少于 Arbitrum、Optimism——达到 0.25% 渗透率，Arbitrum 用时 9 个月，Optimism 用时约 8 个月，Base 用时约 1 个月。
-Base 协议负责人 Jesse Pollak 表示，目前已有 100 多个 DApp 和服务提供商加入，进一步壮大了 Base 生态系统。不同于其他 L2 协议，Base 官方曾明确表示不会发币，因此「撸空投」的预期大大降低。想要获得新生态早期红利，只能寄希望于生态项目本身。
-本期，Odaily星球日报甄选了 Base 网络上十个重点项目，供读者参考。项目部分筛选标准：（1）Base 网络原生项目且 TVL 较高，Uniswap、Compound 等老牌多链部署项目不在统计范围在内；（2）曾获得 Coinbase Venture 投资，潜力较大，并且已经上线 Base 网络；（3）Base 网络爆火、用户量较大的知名项目。如下所示：
-
- 
-
-
-项目名：friend.tech
-
-官网：https://www.friend.tech/
-简介：friend.tech 是一个去中心化社交平台，允许用户购买和出售网络中其他用户的“股份”，其本质上是对大 V 们影响力进行投注；购买大 V 们“股份”的投资者将直接获得访问该用户内容以及与该用户发送消息的权限。此前，friend.t…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189248"
-                        open
-                      >
-                        <summary class="article-expander__title">星球日报 | BAYC地板价再创年度新低；币安合约将逐步上线跟单交易（8月23日）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189248">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>头条
-币安合约将逐步上线跟单交易，带单交易功能现已开启
-据官方公告，币安合约于 2023 年 8 月 22 日 14: 45 （东八区时间）起，逐步上线跟单交易。现阶段，带单交易功能已开启。
-跟单交易是一个全新的功能，帮助用户自动跟随带单交易员的实时合约交易策略。跟单交易功能将于 2023 年 9 月中旬全面上线。
-BAYC 地板价再创年度新低，暂报 22.49 ETH
-Blur 数据显示，BAYC 地板价现报 22.49 ETH， 24 小时跌幅为 4.26% ， 7 天跌幅为 22.05% ，再创年度新低。
-
-加密货币
-外媒：阿曼斥资 3.7 亿美元推出新加密挖矿中心，到 10 月将安装 1.5 万台比特大陆矿机
-阿曼苏丹国推出一个新的加密挖矿中心，这是该国十个月内开设的第二个挖矿设施。
-据 Oman Observer 报道，一个数据托管和加密货币挖矿中心在 Salalah 自由区落成，这是该国的一个经济特区，几乎没有公司税。当地公司 Exahertz International 将与总部位于迪拜的区块链公司 Moonwalk International 合作运营该中心。
-该中心的建设成本为 3.7 亿美元，使用比特大陆的最新矿机，到 2023 年 10 月将安装 1.5 万台矿机。目前，该项目处于试点阶段，有 2000 台矿机在线运行，耗电量为 11 兆瓦。
-据悉，阿曼另一个挖矿中心于 2022 年 11 月启动，投资额为 3.89 亿美元。（Cointelegraph）
-PYUSD 发行量突破 4000 万枚
-Etherscan 数据显示，PayPal 推出的美元稳定币 PYUSD 发行量突破 4000 万枚，达 4067.57 万枚，较两天前增长超过 1000 万枚；目前共 106 名持有人， 24 小时增长 21% 。
-另外，Kraken Pro 已开放 PYU…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -189,6 +67,242 @@ Etherscan 数据显示，PayPal 推出的美元稳定币 PYUSD 发行量突�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/chk8g6i8.html"
+                        open
+                      >
+                        <summary class="article-expander__title">香港科技大学副校长等人再次发文呼吁尽快发行政府支持的港元稳定币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/chk8g6i8.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，据大公报报道，香港科技大学副校长兼香港Web3.0协会首席科学顾问汪扬等人再次发文《抢夺先机发行政府支持的港元稳定币》，呼吁特区政府采取行动发行HKDG。文章称：“鉴于数字资产领域的迅速发展，特别是现实世界资产（RWA）的代币化和主要实体推出自己的稳定币的计划，这些发展突显了发行HKDG的迫切性。可以预见的是，由于对RWA代币化的监管限制，公共区块链上RWA代币的流动大部分将会以稳定币的形式发生。因此，我们必须为稳定币市值的急剧扩大做好准备。我们有一个狭窄的机会之窗，将香港真正打造成Web3的主要国际枢纽。我们预计这个机会之窗最多开放一年左右。这是一个重要的布局：不仅关系到香港能否成为数字资产和Web3发展的世界中心，还关系到挑战美元主导地位的国家战略目标。”
+此前7月消息，香港科技大学副校长等人发布政策建议，提议香港发行以外汇储备背书的港元稳定币。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/7xwi1m0i.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Pendle：3个Pendle池受Balancer紧急措施影响而不会产生费用或收益，但资金安全</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/7xwi1m0i.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，DeFi收益率协议Pendle Finance宣布3个Pendle池受到Balancer紧急措施的影响，分别为ETHx-bbaWETH、swETH-bbaWETH、swETH-bbaWETH（旧），其他池不受影响。受影响池中的资金是安全的，但base Balancer池中的掉期交易已被禁用，这意味者不会产生进一步的费用或收益，但仍然建议持有者按照Balancer的建议提取至base LP资产。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/r5721pgd.html"
+                        open
+                      >
+                        <summary class="article-expander__title">加密支付相关金融科技公司Ramp以58亿美元估值完成3亿美元融资，Thrive Capital等领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/r5721pgd.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，据TechCrunch报道，专注于加密支付的金融科技公司Ramp宣布以58亿美元投后估值完成3亿美元融资，Thrive Capital、Sands Capital领投，General Catalyst、Founders Fund和其他现有支持者参投。新资金将用于加速产品开发并在今年下半年扩大招聘。
+据悉，Ramp是一种非托管、全栈支付基础设施，允许用户在不离开dApp或钱包的情况下购买加密货币。
+此前去年11月消息，Ramp完成7000万美元B轮融资，Mubadala Capital和Korelya Capital领投。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/xwqvdx6p.html"
+                        open
+                      >
+                        <summary class="article-expander__title">币安全仓、逐仓杠杆新增CYBER资产以及新的SEI交易对</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/xwqvdx6p.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，据官方公告，币安全仓、逐仓杠杆新增CYBER可借资产，以及全仓杠杆、逐仓杠杆开放更多新的SEI交易对。新全仓杠杆交易对：CYBER/USDT、 SEI/BTC；新逐仓杠杆交易对：CYBER/USDT、 SEI/BTC。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/4nqcazei.html"
+                        open
+                      >
+                        <summary class="article-expander__title">昨夜今晨重要资讯（8月22日-8月23日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/4nqcazei.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/08/23/images/6cR34UGfFM.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>1.OpenSea前产品负责人因内幕交易被判3个月监禁
+据CoinDesk报道，OpenSea前产品负责人Nate Chastain因内幕交易被判处3个月监禁。今年5月，Chastain在纽约联邦法庭被判电信欺诈和洗钱罪。Chastain利用内部消息提前购买至少45枚NFT，并在上线首页后以2到5倍的价格出售这些NFT。他通过多个匿名钱包和OpenSea账户隐瞒这些交易，从中获利超过5万美元。
+2.Curve创始人：违反合作协议的CRV买家不会受负面影响，但相信他们会遵守锁仓半年承诺
+据Blockworks报道，Curve Finance创始人Michael Egorov此前为了挽救他的贷款，并可能防止整个DeFi领域的级联清算，其与十多个交易对手达成了一系列场外交易（OTC），出售大量CRV换取稳定币来偿还债务。虽然交易条款没有正式披露，但多位声称接触过Egorov的人士公开写道，这些代币的售价为每枚CRV 0.40美元(远低于当时的市场价格)，锁定期为6个月。然而，锁定似乎并没有通过法律或智能合约强制执行。Egorov在一份声明中证实，违反合作协议的买家不会受到负面影响，但他“认为他们会”遵守有关6个月锁定期的承诺。
+报道称，观察人士已经注意到，一些参与方已将其代币转移到中心化交易所，这通常表明他们打算出售。而一些项目的社区通过投票托管其CRV间接承诺了6个月的锁定。此前消息，DWF Lab在8月1日花费500万枚USDT从Egorov处购得1250万枚CRV，但于8月19日将200万枚CRV转入币安；DWF Lab负责人昨日表示，向币安转入CRV为交易需要。
+数据显示，CRV价格现报0.47美元，7天跌幅达15.1%。
+3.Aptos推出“Aptos数字资产标准”，具有简化代币管理和创建可组合NFT等功能
+据官方X账号，Facebook系公链Aptos宣布推出“Apt…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/5qjn1s09.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Curve创始人：违反合作协议的CRV买家不会受负面影响，但相信他们会遵守锁仓半年承诺</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5qjn1s09.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，据Blockworks报道，Curve Finance创始人Michael Egorov此前为了挽救他的贷款，并可能防止整个DeFi领域的级联清算，其与十多个交易对手达成了一系列场外交易（OTC），出售大量CRV换取稳定币来偿还债务。虽然交易条款没有正式披露，但多位声称接触过Egorov的人士公开写道，这些代币的售价为每枚CRV 0.40美元(远低于当时的市场价格)，锁定期为6个月。然而，锁定似乎并没有通过法律或智能合约强制执行。Egorov在一份声明中证实，违反合作协议的买家不会受到负面影响，但他“认为他们会”遵守有关6个月锁定期的承诺。
+报道称，观察人士已经注意到，一些参与方已将其代币转移到中心化交易所，这通常表明他们打算出售。而一些项目的社区通过投票托管其CRV间接承诺了6个月的锁定。此前消息，DWF Lab在8月1日花费500万枚USDT从Egorov处购得1250万枚CRV，但于8月19日将200万枚CRV转入币安；DWF Lab负责人昨日表示，向币安转入CRV为交易需要。
+数据显示，CRV价格现报0.47美元，7天跌幅达15.1%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/nge5ql7r.html"
+                        open
+                      >
+                        <summary class="article-expander__title">澳大利亚央行已完成CBDC试点，指出可实现智能支付和资产代币化等用例</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/nge5ql7r.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，澳大利亚央行和数字金融合作研究中心(DFCRC)今日发布了一份报告，其中表示澳大利亚央行已经完成了央行数字货币(CBDC)的试点，探索了潜在的电子澳元的用例，发现CBDC可以改进的四个主要领域，包括实现更智能的支付和资产代币化，可以支持债务证券市场等金融市场创新，促进新兴私人数字货币领域的创新，并增强更广泛的数字经济的弹性和包容性。该报告还详细介绍了一些CBDC并不完全需要实现所述用例的案例。
+报告还写道：“由于持有或交易试点CBDC，一些参与者不确定他们是在提供托管服务还是在交易受监管的金融产品。理想情况下，这些问题将在相关法律和监管改革中得到预期和解决。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/q1vl1v3z.html"
+                        open
+                      >
+                        <summary class="article-expander__title">OpenAI推出GPT-3.5 Turbo微调功能，可打造专属的ChatGPT聊天机器人</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/q1vl1v3z.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，OpenAI在官方上宣布推出GPT-3.5 Turbo微调功能并更新API，使企业、开发人员可以使用自己的数据，结合业务用例构建专属ChatGPT。OpenAI表示，从早期测试数据来看，GPT-3.5 Turbo的微调版本在某些特定任务上，其性能可以匹配甚至超越GPT-4的基本功能。此外，GPT-4的微调功能将于今年秋天推出。
+OpenAI公司在博客文章中写道：“自GPT-3.5 Turbo发布以来，开发人员和企业都要求能够定制模型，为用户创造独特且差异化的体验。此更新使开发人员能够定制更适合其用例的模型，并大规模运行这些定制模型。”此外，微调使OpenAI客户能够缩短文本提示词，以加快API调用并降低成本。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/wzxettp8.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：某巨鲸凌晨于链上抛售10600枚ETH，亏损290万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/wzxettp8.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，据链上数据分析师余烬监测，某巨鲸今天凌晨3:44至4:14直接在链上抛售10,600枚ETH(约1719万美元)，每枚均价1622美元。
+余烬表示，该巨鲸于6月22日至8月18日期间买入22,600枚ETH(约4285万美元)，每枚均价1896美元。其此次抛售导致290万美元亏损，目前该巨鲸仍持有12,000枚ETH。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/68459m95.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Aptos推出“Aptos数字资产标准”，具有简化代币管理和创建可组合NFT等功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/68459m95.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，据官方X账号，Facebook系公链Aptos宣布推出“Aptos数字资产标准（DA）”，为构建者提供了灵活性、可组合性和可扩展性，并对Aptos进行重大改进。新标准专注于现实世界的适用性：无缝空投、代币灵魂绑定和高效性能，这些特性培育了一个动态的、自适应的、不复杂的代币生态系统。通过简化代币管理、改善用户体验以及创建可组合NFT的能力，新标准将使创作者、开发者和用户能够在Aptos生态系统中释放其项目的全部潜力。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/5t1b0jzi.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Tether：凌晨销毁12亿枚USDT系周期换链和赎回，总供应量未改变</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/5t1b0jzi.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 8月23日消息，Tether今日凌晨在X平台上预告，在几分钟内，Tether将波场上销毁金库钱包中累积的12亿枚USDT（在Tron上），作为过去周期换链和赎回的一部分。USDT总供应量在此过程中不会改变。
+链上数据显示，在Tether发布上述预告的几分钟后，Tether金库已于北京时间01:17在波场上销毁12亿枚USDT。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -427,6 +541,128 @@ Etherscan 数据显示，PayPal 推出的美元稳定币 PYUSD 发行量突�
                               <span>PANews 8月22日消息，美国民主党总统参选人小罗伯特·肯尼迪今日在推特宣传比特币，其表示：“我一生都是公民自由的捍卫者，比特币既是这些自由的行使，也是这些自由的保证。”
 小罗伯特·肯尼迪本人已证实其确实持有比特币，并宣布接受比特币捐款。他此前在政治行动委员会 (PAC) 弥合分歧活动上发表讲话时允诺，计划用比特币支持美元，并宣称他的政府“将免除将比特币兑换成美元的资本利得税”。他还称“比特币不是一种证券，不应该作为一种证券进行监管”。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189243"
+                        open
+                      >
+                        <summary class="article-expander__title">BNB Chain安全开发，这10大实用tips一定要收藏</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189243">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>BNB Chain 是Web3世界中最受欢迎的区块链之一，其费用合理、交易迅速以及项目生态系统丰富几大原因吸引了广大用户。与任何的区块链都一样，BNB Chain 上的开发者在开发过程中首先考虑的应该是安全问题：因为任何资金的损失都会导致用户对协议及平台的信心减弱，而安全漏洞和黑客攻击是开发者面临的最大风险之一。
+在本文中，我们提供了十大实用安全 tips，让开发者可以在 BNB Chain 上减少风险并开发更安全的智能合约。
+
+01 
+╱ 定义 ╱
+重放攻击(Replay Attacks)又称重播攻击、回放攻击，是区块链环境中一种常见的攻击类型。在网络安全中，“重放攻击&quot;”是一种网络攻击类型，其中有效的数据传输被恶意或欺诈性地重复或延迟。
+在Web3和智能合约的环境背景下，这通常意味着攻击者能够在未经原始用户允许的情况下重复智能合约中的交易或操作。这可能会导致各种形式的欺诈，如双重支付等。
+这些攻击会给用户和开发者带来严重的后果，因为它们允许攻击者重复使用相同的签名，以获得智能合约上所有资金或其他资产的未授权访问。
+为了防止重放攻击，开发人员必须仔细设计和实现他们的智能合约代码，并遵循签名验证以及行业最佳安全标准。
+02 
+╱ 案例解析 ╱
+以下代码片段表示了 BNB 链上一个代币的转移 transfer 实现过程。该代码很容易受到重放攻击，从而使得攻击者能够重复使用同一个签名。
+这个功能缺乏 nonce 或重放保护，允许攻击者多次“重放”一个已签名的转账交易。攻击者可以拦截已签署的交易，并再次将其发送到同一个合约或另一个合约，而合约仍会认为它是有效的，因此攻击者就可能利用该漏洞窃取资产。
+03 
+╱ 改进方法 ╱
+在签名中增加一个 nonce 或使用 mapping 变量来记录签名。其中更具地的解决方案会根据项目设计的不同而不同。
+
+01 
+╱ 定义 ╱
+当一个恶意合约…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189247"
+                        open
+                      >
+                        <summary class="article-expander__title">friend.tech引爆Base生态，这十个项目值得重点关注</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189247">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原创 | Odaily星球日报
+作者 | 秦晓峰
+
+借助 Coinbase 的网络效应，L2 扩容方案 Base 网络在熊市中迅速扩张。
+从 8 月 10 日上线主网至今，短短两周时间，Base 主网 TVL 已达 2.4 亿美元，目前在 L2 中排名第五，仅次于 Arbitrum、OP Mainnet、zkSync Era 以及 dYdX。21co链上数据分析师 Tom Wan 发文称，就“L2 以太坊渗透率”指标而言，Base 增长用时远少于 Arbitrum、Optimism——达到 0.25% 渗透率，Arbitrum 用时 9 个月，Optimism 用时约 8 个月，Base 用时约 1 个月。
+Base 协议负责人 Jesse Pollak 表示，目前已有 100 多个 DApp 和服务提供商加入，进一步壮大了 Base 生态系统。不同于其他 L2 协议，Base 官方曾明确表示不会发币，因此「撸空投」的预期大大降低。想要获得新生态早期红利，只能寄希望于生态项目本身。
+本期，Odaily星球日报甄选了 Base 网络上十个重点项目，供读者参考。项目部分筛选标准：（1）Base 网络原生项目且 TVL 较高，Uniswap、Compound 等老牌多链部署项目不在统计范围在内；（2）曾获得 Coinbase Venture 投资，潜力较大，并且已经上线 Base 网络；（3）Base 网络爆火、用户量较大的知名项目。如下所示：
+
+ 
+
+
+项目名：friend.tech
+
+官网：https://www.friend.tech/
+简介：friend.tech 是一个去中心化社交平台，允许用户购买和出售网络中其他用户的“股份”，其本质上是对大 V 们影响力进行投注；购买大 V 们“股份”的投资者将直接获得访问该用户内容以及与该用户发送消息的权限。此前，friend.t…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189248"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | BAYC地板价再创年度新低；币安合约将逐步上线跟单交易（8月23日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189248">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>头条
+币安合约将逐步上线跟单交易，带单交易功能现已开启
+据官方公告，币安合约于 2023 年 8 月 22 日 14: 45 （东八区时间）起，逐步上线跟单交易。现阶段，带单交易功能已开启。
+跟单交易是一个全新的功能，帮助用户自动跟随带单交易员的实时合约交易策略。跟单交易功能将于 2023 年 9 月中旬全面上线。
+BAYC 地板价再创年度新低，暂报 22.49 ETH
+Blur 数据显示，BAYC 地板价现报 22.49 ETH， 24 小时跌幅为 4.26% ， 7 天跌幅为 22.05% ，再创年度新低。
+
+加密货币
+外媒：阿曼斥资 3.7 亿美元推出新加密挖矿中心，到 10 月将安装 1.5 万台比特大陆矿机
+阿曼苏丹国推出一个新的加密挖矿中心，这是该国十个月内开设的第二个挖矿设施。
+据 Oman Observer 报道，一个数据托管和加密货币挖矿中心在 Salalah 自由区落成，这是该国的一个经济特区，几乎没有公司税。当地公司 Exahertz International 将与总部位于迪拜的区块链公司 Moonwalk International 合作运营该中心。
+该中心的建设成本为 3.7 亿美元，使用比特大陆的最新矿机，到 2023 年 10 月将安装 1.5 万台矿机。目前，该项目处于试点阶段，有 2000 台矿机在线运行，耗电量为 11 兆瓦。
+据悉，阿曼另一个挖矿中心于 2022 年 11 月启动，投资额为 3.89 亿美元。（Cointelegraph）
+PYUSD 发行量突破 4000 万枚
+Etherscan 数据显示，PayPal 推出的美元稳定币 PYUSD 发行量突破 4000 万枚，达 4067.57 万枚，较两天前增长超过 1000 万枚；目前共 106 名持有人， 24 小时增长 21% 。
+另外，Kraken Pro 已开放 PYU…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5204,66 +5440,6 @@ Web3 社交作为一个垂直领域是否能够成功的最终问题在于它是
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/9fdc13d1.html"
-                        open
-                      >
-                        <summary class="article-expander__title">彭博分析师：灰度比特币ETF申请相关诉讼今日不会作出判决</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9fdc13d1.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月18日消息，彭博 ETF 分析师 James Seyffart 发推称，美国上诉法院今日尚未就灰度与美国证券交易委员会（SEC）关于将 GBTC 转换为比特币 ETF 的案件做出决定。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/603hb3h3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Messari：Maker在未来12个月的利润预期从8000万美元降至不到200万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/603hb3h3.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月18日消息，据Coinedition报道，Messari研究专家Kunal Goel表示，Maker预计未来12个月的利润为8000万美元，但已降至200万美元以下。Goel解释说，引入EDSR是为了增加DAI供应并提高DSR采用率。它在这方面取得了成功，DAI供应量增长了9亿美元，DSR存款增长了10亿美元。然而，Goel指出，尽管利润蒸发，但新提案将调整EDSR并恢复利润。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/bk0or99h.html"
-                        open
-                      >
-                        <summary class="article-expander__title">MakerDAO关于EDSR和稳定费调整的提案获得通过，DSR将由8%降低至5%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/bk0or99h.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 8月18日消息，MakerDAO 治理页面显示，关于 EDSR 和稳定费等一系列调整提案已获得投票通过，将于北京时间 2023 年 8 月 20 日 22:24 执行。提案主要内容包括：DSR 将根据 EDSR 更新而降低，本次提案通过后 DSR 将由 8% 降低至 5%；提升 ETH、wstETH、rETH 等一系列稳定费；更新智能燃烧引擎参数等。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -7608,8 +7784,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5946543093">
-        <time id="build-timestamp" datetime="2023-08-23T03:07:40.131Z">2023-08-23T03:07:40.131Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/5946896051">
+        <time id="build-timestamp" datetime="2023-08-23T04:08:31.678Z">2023-08-23T04:08:31.678Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
