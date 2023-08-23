@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-23T02:11:50.086Z</updated>
+    <updated>2023-08-23T03:07:40.179Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[BNB Chain安全开发，这10大实用tips一定要收藏]]></title>
+        <id>https://www.odaily.news/post/5189243</id>
+        <link href="https://www.odaily.news/post/5189243"/>
+        <updated>2023-08-23T02:18:55.000Z</updated>
+        <summary type="html"><![CDATA[BNB Chain 是Web3世界中最受欢迎的区块链之一，其费用合理、交易迅速以及项目生态系统丰富几大原因吸引了广大用户。与任何的区块链都一样，BNB Chain 上的开发者在开发过程中首先考虑的应该是安全问题：因为任何资金的损失都会导致用户对协议及平台的信心减弱，而安全漏洞和黑客攻击是开发者面临的最大风险之一。
+在本文中，我们提供了十大实用安全 tips，让开发者可以在 BNB Chain 上减少风险并开发更安全的智能合约。
+
+01 
+╱ 定义 ╱
+重放攻击(Replay Attacks)又称重播攻击、回放攻击，是区块链环境中一种常见的攻击类型。在网络安全中，“重放攻击"”是一种网络攻击类型，其中有效的数据传输被恶意或欺诈性地重复或延迟。
+在Web3和智能合约的环境背景下，这通常意味着攻击者能够在未经原始用户允许的情况下重复智能合约中的交易或操作。这可能会导致各种形式的欺诈，如双重支付等。
+这些攻击会给用户和开发者带来严重的后果，因为它们允许攻击者重复使用相同的签名，以获得智能合约上所有资金或其他资产的未授权访问。
+为了防止重放攻击，开发人员必须仔细设计和实现他们的智能合约代码，并遵循签名验证以及行业最佳安全标准。
+02 
+╱ 案例解析 ╱
+以下代码片段表示了 BNB 链上一个代币的转移 transfer 实现过程。该代码很容易受到重放攻击，从而使得攻击者能够重复使用同一个签名。
+这个功能缺乏 nonce 或重放保护，允许攻击者多次“重放”一个已签名的转账交易。攻击者可以拦截已签署的交易，并再次将其发送到同一个合约或另一个合约，而合约仍会认为它是有效的，因此攻击者就可能利用该漏洞窃取资产。
+03 
+╱ 改进方法 ╱
+在签名中增加一个 nonce 或使用 mapping 变量来记录签名。其中更具地的解决方案会根据项目设计的不同而不同。
+
+01 
+╱ 定义 ╱
+当一个恶意合约…]]></summary>
+        <author>
+            <name>CertiK</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[friend.tech引爆Base生态，这十个项目值得重点关注]]></title>
+        <id>https://www.odaily.news/post/5189247</id>
+        <link href="https://www.odaily.news/post/5189247"/>
+        <updated>2023-08-23T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原创 | Odaily星球日报
+作者 | 秦晓峰
+
+借助 Coinbase 的网络效应，L2 扩容方案 Base 网络在熊市中迅速扩张。
+从 8 月 10 日上线主网至今，短短两周时间，Base 主网 TVL 已达 2.4 亿美元，目前在 L2 中排名第五，仅次于 Arbitrum、OP Mainnet、zkSync Era 以及 dYdX。21co链上数据分析师 Tom Wan 发文称，就“L2 以太坊渗透率”指标而言，Base 增长用时远少于 Arbitrum、Optimism——达到 0.25% 渗透率，Arbitrum 用时 9 个月，Optimism 用时约 8 个月，Base 用时约 1 个月。
+Base 协议负责人 Jesse Pollak 表示，目前已有 100 多个 DApp 和服务提供商加入，进一步壮大了 Base 生态系统。不同于其他 L2 协议，Base 官方曾明确表示不会发币，因此「撸空投」的预期大大降低。想要获得新生态早期红利，只能寄希望于生态项目本身。
+本期，Odaily星球日报甄选了 Base 网络上十个重点项目，供读者参考。项目部分筛选标准：（1）Base 网络原生项目且 TVL 较高，Uniswap、Compound 等老牌多链部署项目不在统计范围在内；（2）曾获得 Coinbase Venture 投资，潜力较大，并且已经上线 Base 网络；（3）Base 网络爆火、用户量较大的知名项目。如下所示：
+
+ 
+
+
+项目名：friend.tech
+
+官网：https://www.friend.tech/
+简介：friend.tech 是一个去中心化社交平台，允许用户购买和出售网络中其他用户的“股份”，其本质上是对大 V 们影响力进行投注；购买大 V 们“股份”的投资者将直接获得访问该用户内容以及与该用户发送消息的权限。此前，friend.t…]]></summary>
+        <author>
+            <name>秦晓峰</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[星球日报 | BAYC地板价再创年度新低；币安合约将逐步上线跟单交易（8月23日）]]></title>
+        <id>https://www.odaily.news/post/5189248</id>
+        <link href="https://www.odaily.news/post/5189248"/>
+        <updated>2023-08-23T01:30:00.000Z</updated>
+        <summary type="html"><![CDATA[头条
+币安合约将逐步上线跟单交易，带单交易功能现已开启
+据官方公告，币安合约于 2023 年 8 月 22 日 14: 45 （东八区时间）起，逐步上线跟单交易。现阶段，带单交易功能已开启。
+跟单交易是一个全新的功能，帮助用户自动跟随带单交易员的实时合约交易策略。跟单交易功能将于 2023 年 9 月中旬全面上线。
+BAYC 地板价再创年度新低，暂报 22.49 ETH
+Blur 数据显示，BAYC 地板价现报 22.49 ETH， 24 小时跌幅为 4.26% ， 7 天跌幅为 22.05% ，再创年度新低。
+
+加密货币
+外媒：阿曼斥资 3.7 亿美元推出新加密挖矿中心，到 10 月将安装 1.5 万台比特大陆矿机
+阿曼苏丹国推出一个新的加密挖矿中心，这是该国十个月内开设的第二个挖矿设施。
+据 Oman Observer 报道，一个数据托管和加密货币挖矿中心在 Salalah 自由区落成，这是该国的一个经济特区，几乎没有公司税。当地公司 Exahertz International 将与总部位于迪拜的区块链公司 Moonwalk International 合作运营该中心。
+该中心的建设成本为 3.7 亿美元，使用比特大陆的最新矿机，到 2023 年 10 月将安装 1.5 万台矿机。目前，该项目处于试点阶段，有 2000 台矿机在线运行，耗电量为 11 兆瓦。
+据悉，阿曼另一个挖矿中心于 2022 年 11 月启动，投资额为 3.89 亿美元。（Cointelegraph）
+PYUSD 发行量突破 4000 万枚
+Etherscan 数据显示，PayPal 推出的美元稳定币 PYUSD 发行量突破 4000 万枚，达 4067.57 万枚，较两天前增长超过 1000 万枚；目前共 106 名持有人， 24 小时增长 21% 。
+另外，Kraken Pro 已开放 PYU…]]></summary>
+        <author>
+            <name>0xAyA</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BlockFi寻求法院阻止FTX和三箭资本追回去年的数十亿美元交易]]></title>
         <id>https://panewslab.com/zh/articledetails/igegbect.html</id>
@@ -2985,26 +3063,6 @@ Dankrad 此言一出，便引来了诸多 Rollup 领域的 Founder 或 Researche
         <link href="https://panewslab.com/zh/articledetails/bk0or99h.html"/>
         <updated>2023-08-18T15:35:59.000Z</updated>
         <summary type="html"><![CDATA[PANews 8月18日消息，MakerDAO 治理页面显示，关于 EDSR 和稳定费等一系列调整提案已获得投票通过，将于北京时间 2023 年 8 月 20 日 22:24 执行。提案主要内容包括：DSR 将根据 EDSR 更新而降低，本次提案通过后 DSR 将由 8% 降低至 5%；提升 ETH、wstETH、rETH 等一系列稳定费；更新智能燃烧引擎参数等。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Base日均交易量超过Arbitrum和Optimism]]></title>
-        <id>https://panewslab.com/zh/articledetails/i5ukr154.html</id>
-        <link href="https://panewslab.com/zh/articledetails/i5ukr154.html"/>
-        <updated>2023-08-18T14:32:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月18日消息，据The Block报道，由加密货币交易所 Coinbase 孵化的以太坊 Layer 2 网络 Base 本周在日均交易量方面超越了占主导地位的 Optimistic Rollup 扩展解决方案 Arbitrum 和 Optimism。8 月 15 日，Base 的 7 天移动平均日交易量达到 610,000 笔，而 Optimism 为 597,000 笔，Arbitrum 为 576,000 笔，然后有所回落。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[摩根大通表示比特币矿商在减半前正在多元化]]></title>
-        <id>https://panewslab.com/zh/articledetails/c610lf28.html</id>
-        <link href="https://panewslab.com/zh/articledetails/c610lf28.html"/>
-        <updated>2023-08-18T14:17:33.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月18日消息，据The Block报道，以 Nikolaos Panigirtzoglou 为首的摩根大通分析师在一份报告中写道，在即将到来的减半事件之前，加密货币矿工现在正在为快速发展的人工智能市场提供高性能计算服务，这可能为他们带来盈利。加密货币挖矿和人工智能开发，包括训练大型语言模型，都需要先进的计算机芯片。Applied Digital最近推出了人工智能云服务，并签署了一项价值4.6亿美元的协议，在其数据中心托管人工智能云计算。与此同时，随着人们对人工智能的兴趣日益浓厚，Iris Energy 最近恢复了托管 HPC 服务的战略。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
