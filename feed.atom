@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-24T20:07:17.686Z</updated>
+    <updated>2023-08-24T21:06:09.759Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4236,54 +4236,6 @@ Source:wikibit
 据了解，Eric Wall是Taproot Wizards发起人之一，该项目于今年2月首发，是一个以巫师为主题的Ordinals项目，总量2106个，致敬十年前“mavensbot”首发的比特币巫师元素。今年2月，比特币矿业公司Luxor挖出了有史以来最大的比特币区块，该区块大小为3.96MB，包含Taproot Wizards NFT。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安全机构：发现BNB Chain上一恶意合约地址，用户应撤销异常授权]]></title>
-        <id>https://panewslab.com/zh/articledetails/xtnpakql.html</id>
-        <link href="https://panewslab.com/zh/articledetails/xtnpakql.html"/>
-        <updated>2023-08-20T08:38:52.000Z</updated>
-        <summary type="html"><![CDATA[PANews 8月20日消息，安全机构慢雾在推特发文提醒：请用户检查是否已将资产授权到BNB Chain上的一恶意合约地址：0x75117c9158f53998ce8689B64509EFf4FA10AD80。
-该恶意合约尚未通过开源进行验证，但反编译显示其存在针对授权资产的任意转账后门。这种类型的后门让用户钱包在很长一段时间内保持正常使用，但当某天转移一笔金额稍大的资产时，它会突然被盗，而链上不会显示任何最近的异常授权。
-用户可使用Revoke.cash和Rabby Wallet进行快速验证并撤销异常授权。
-以下是与上述合约相关的恶意地址：
-0xE2A178C2C5C4920C1b2B947A35edDb4f8EcBb7dD
-0xB88457b62491CBcEc42203672cFcb4269d64c7e]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OKLink链上科普（一）：详解反洗钱方案KYT]]></title>
-        <id>https://www.odaily.news/post/5189139</id>
-        <link href="https://www.odaily.news/post/5189139"/>
-        <updated>2023-08-20T08:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Jason Jiang
-随着行业高速发展与监管持续关注，虚拟资产领域正加速迈入合规时代。为应对虚拟资产的链上洗钱风险，欧科云链此前推出了 Onchain AML 合规技术方案，以助力行业健康有序发展。在 Onchain AML 反洗钱方案中，很多人都关注到了一个有些陌生但又感觉非常重要的概念：KYT（Know Your Transaction）。
-那究竟什么是 KYT？为什么虚拟资产反洗钱需要 KYT？
-1、初识 KYT
-提起反洗钱，很多人首先想到的都是 KYC（Know Your Customer）。但随着合规科技的兴起，KYT 正成为金融机构的关注焦点。
-所谓 KYT，是指金融机构用来监控和跟踪金融交易是否存在欺诈或可疑活动的过程。毕马威此前在《银行业未来展望》中提出，未来反洗钱的关注重点应该从遵守 KYC 规则，转变为积极管控处理潜在可疑交易时产生的风险。而积极管控交易风险的关键就是 KYT。
-
-KYC 与 KYT 的主要差别在于，前者更关注特定个体/机构的静态身份，而 KYT 则更关注相关主体的动态交易过程。举个不太恰当的例子，如果将 KYC 看作是一张张照片，所记录的只是拍摄时的特定瞬间，那 KYT 就像一场永不谢幕的在线直播，不仅能看到当前状态，还能回看直播过程。
-当然，KYC 与 KYT 并非非此即彼，很多国际监管和监管科技专家更愿意将 KYT 视为 KYC 的未来。在 KYC 的基础上应用 KYT，或许更适配当前数字金融的发展趋势。
-2、KYT 与虚拟资产交易
-在传统金融领域，KYT 现阶段是加分项，但在虚拟资产交易中，KYT 已经成为应对风险的必需品。
-就像如今我们的手机可以自动辨别来电是否是诈骗电话一样，随着链上交互多样化，以及用户日常操作的频繁，链上交易同样需要检测。毕竟所有参与链上生态的人都希望自己的交易是安全的，没有谁希望被暴露在风险之下。
-KYT 就是我们应对链上交易风险的利器：它能帮助我们识别每笔链上交易是否可能存在钓鱼、欺诈、盗窃等风险，还可以在监测到风险的同时自动采取有效措施隔断风险。这不就是“稳稳的安全感”吗？
-
-KYT 之所以如此适配虚拟资产交易场景，是因为链上世界本就更关注交易而非身份。更重要的是，比特币和主流虚拟资产所使用的分布式账本技术让我们有了“透视眼”：每个链上地址和他们的所有交易记录都是公开透明且无法更改的。而可疑的交易行为、暗网中的交易地址、它的关联地址们、某个地址在交易所的 KYC 记录等信息则可以帮助我们将链上地址与对应的实体联系起来，从而更好地满足用户、金融机构和 VASP 的监管合规和风险管理要求。
-3、Onchain AML 提供的 KYT 有何优势？
-目前全球已有不少科技企业推出 KYT 解决方案。与之相比，欧科云链的 KYT 交易监控产品有什么优势？
-KYT 有效性首先与底层数据能力和地址标签能力密切相关。截止 2023 年 8 月，欧科云链 OKLink 已覆盖全球 170 余条区块链网络，收录链上数据量超 1000 TB，并拥有超过 34 亿的地址标签，黑灰地址标签近 7000 万。基于如此庞大的数据解析能力和地址标签库，欧科云链的 KYT 可以将虚拟资产交易地址与现实世界的组织、受制裁实体和恶意事件建立联系，帮助 VASP 及金融机构了解客户的身份及交易情况。
-其次，对金融机构及 VASP 而言，持续且实时的交易监控才是发现潜在洗钱风险的关键。所以评估一款 KYT 产品的优劣，除了底层核心能力外，“实时性”和“持续性”是另外两大重要维度。
-任何监控技术都无法做到完全实时，但可以尽可能降低延迟——欧科云链的 KYT 的 API 对接完成后开始交易监控，每笔交易都能做到在 100 毫秒内完成快速检测，这一响应速度处于业内领先水平。
-
-持续监控方面，发现可疑交易并分析交易风险是首要任务。当发现存在与钓鱼、欺诈、盗窃等外部风险地址进行交互时，或触发此前用户自行设置的风险配置规则，欧科云链的 KYT 产品都能自动生成预警，并对可疑交易行为采取拒绝或冻结账户等措施以减低被攻击风险。此外，还能对重点充提地址定期进行风险检测，进一步降低潜在新增风险。
-据预测，KYT 市场在 2021 年至 2026 年将以 14.5% 的复合增长率增长，而虚拟资产市场的 KYT 需求伴随着自身合规度和创新速率的提高将更为强劲。尤其随着 FATF 旅行规则的广泛采用，以及香港等地区逐步将虚拟资产反洗钱纳入监管范围，金融机构和 VASP 们都不可避免地需要通过 KYT 来补充 KYC 的尽调工作，以满足监管部门对 VASP 的合规要求。
-欧科云链 OKLink 即将推出下一篇：揭开地址背后的故事，你需要知道的 KYA]]></summary>
-        <author>
-            <name>欧科云链OKLink</name>
         </author>
     </entry>
     <entry>
