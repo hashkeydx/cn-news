@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-24T04:08:44.929Z</updated>
+    <updated>2023-08-24T05:07:09.146Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[爆火的OP Stack，打开以太坊生态快速扩展之门]]></title>
+        <id>https://www.odaily.news/post/5189221</id>
+        <link href="https://www.odaily.news/post/5189221"/>
+        <updated>2023-08-24T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[最近的这段时间，Linea、BASE、opBNB 等L2项目相继宣布主网上线，L2赛道也变得越来越热闹，很多人认为L2将是下一轮牛市最重要的叙事。在L2蓬勃发展的这一进程中，我们不能忽略的就是 OP Stack。
+一、OP Stack 简介
+OP Stack 是 Optimism 推出的区块链扩展解决方案,可帮助项目构建 Layer 2 侧链。OP Stack 是一套标准化、共享和开源的开发堆栈，由 op collective 组织来维护，允许任何人使用 Optimisitc Rollup 在以太坊上构建自己的L2区块链。
+OP Stack 整体是一个六层的结构：
+1）数据可用层
+数据可用层（DA 层）是 OP Stack 中的一个重要组成部分，用于存储和检索 OP Stack 发布的数据，直接影响到网络的性能和可扩展性。在 OP Stack 中，以太坊目前被用作数据可用性层，这意味着 OP Stack 的数据将存储在以太坊区块链上，这保证了其数据的安全性。
+EIP-4844 是一个重要的提案，旨在降低数据可用层的费用，这也是坎昆升级备受关注的原因之一。
+2）排序层
+排序层在 OP Stack 中起着关键的作用，它决定如何有效地收集链上用户的交易并将其发布到数据可用层模块中。默认情况下，OP Stack 使用单个专用排序器来处理交易。然而，这种单一排序器的方式可能会引入链的中心化风险。
+为了解决这个问题，官方建议未来可以采用多重排序器的模式。多重排序器可以提供更高的安全性和去中心化程度，但可能会对链的性能产生一定的影响。
+3）派生层
+派生层在处理数据可用层中的原始数据时，在 OP Stack 中主要负责解析和处理这些数据，以生成经过处理的输入。
+派生层和数据可用层之间的紧密连接确保了原始数据的准确性和完整性。派生层的主要任务是处理原始数据，将其转化为可执行的输入，并确保这些…]]></summary>
+        <author>
+            <name>风吹一池皱</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深度解析：区块链数据工具Dune是如何快速崛起的]]></title>
+        <id>https://www.odaily.news/post/5189271</id>
+        <link href="https://www.odaily.news/post/5189271"/>
+        <updated>2023-08-24T03:10:16.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Pete Boyle
+原文翻译：链集市
+我在开始进行市场分析时，专注于 Web 2.0 品牌在 Growth Models 方面的研究。老实说，我从不缺乏分析的策略。在 Web3 领域，情况要困难得多，因为许多项目似乎都在走 "社区优先 "的老路。这也许很好，但很多项目做得并不好，他们错过了一些真正容易获取的机会。Dune Analytics 是过去几年中给我留下深刻印象的品牌之一。我曾与在该领域有十年经验的人以及刚刚进入的人进行过交流，他们都提到过 Dune。
+Dune 的神奇之处在于，他们没有采用 Web3 中常见的方法，比如：
+
+空投
+
+“付费关注”社区增长
+
+使用自己的通证进行赚取模型（他们没有通证）
+
+他们借助了很多我认为是传统公关和品牌意识策略，这种策略很容易在搜索引擎结果页面中占据优势地位，而这一切都源于他们打造产品的方式。这是一个令人难以置信的工具，也是人们在谈到区块链分析时最先想到的工具之一。
+那么，Dune 是如何迅速崛起的呢？
+Dune Analytics 是什么？
+Dune 是一款基于网络的应用程序，任何人（具备一定的 SQL 知识）都可以通过它查询区块链数据，并创建像下面这样的可视化效果。
+
+有些人甚至花时间构建完整的仪表板，让其他人了解某个项目、系列甚至行业子集的概况，比如这个关于 CEXs 的示例。
+
+这是一件疑惑的事情。Dune 并没有花钱雇人来构建这些仪表板，但每天都有无数新的可视化内容出现，并由制作这些仪表盘的人进行推广（我稍后会解释他们这样做的原因）。在我看来，他们比许多其他提供数据可视化的品牌（如 Nansen ）更受人关注。
+问题是，他们是如何做到的？让我们一起来看看。
+Dune 的爆炸式增长
+Dune 成立于 2018 年。但如果你观察市场上现有的分析工具，你会发现这个平台要到 2021 年左右才会真正起飞。SEMRus…]]></summary>
+        <author>
+            <name>链集市ChainMarket</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：约113个机器人在friend.tech窃取超2万个密钥并获利200万美元以上]]></title>
         <id>https://panewslab.com/zh/articledetails/xpp7c03f.html</id>
@@ -35,6 +88,24 @@
 此前消息，某地址将其上万枚ETH换成stETH，随后存入AAVE借出1000万枚USDT转到币安。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[星球日报 | Starknet代币或在11月29日迎来首次解锁；Azuki地板价跌破4 ETH（8月24日）]]></title>
+        <id>https://www.odaily.news/post/5189270</id>
+        <link href="https://www.odaily.news/post/5189270"/>
+        <updated>2023-08-24T01:30:00.000Z</updated>
+        <summary type="html"><![CDATA[头条
+Starknet 代币或在 11 月 29 日迎来首次解锁，建议用户提前完成必要交互
+加密研究院 Rekt Fencer 在推特上发文分析，Starknet 代币 STRK 或在 11 月 29 日迎来首次解锁，据此前 Starknet 公布的代币经济学显示，STRK 将在 4 年内线性解锁。
+Rekt 在对 Etherscan 上的 STRK 代币页面进行研究，点击“持有者”部分并选择前 4 个持有者发现合约信息，在“内部交易”部分，发现了另一个合约的链接，在此合约内，globalUnlockTime 函数提供以下响应：“ 1701295200 uint 256 ”-这转换为首次解锁的日期，使用 Unix 转换器进行转换时，为 2023 年 11 月 29 日 22: 00: 00 GMT。
+这可能表示 11 月 29 日是投资者和团队代币首次解锁的日期。不过，这并不一定意味着会立即上市。在许多情况下，投资者的代币解锁早在交易开始之前就已开始。
+此外 Starknet 团队表示，到 2024 年才会建立 DAO。Rekt 建议用户若想获得 STRK 空投，建议在 11 月 29 日之前开始在 Starknet 上进行所有必要的交互。
+加密货币
+Dymension 推出激励测试网 Froopyland，将奖励 1000 万枚 DYM
+模块化区块链网络 Dymension 宣布推出激励测试网 Froopyland ，用于无需许可的 IBC RollApp 部署，未来 DYM 创世供应总量 1% （1000 万枚）将分配给持续三个月的 Froopyland 激励测试网。其中 10% 的奖励分配给前十名 RollApes（100 万枚）、 10% 的奖励分配给测试用户（100 万枚）、 40% 的奖励分配给验证节点（400 万枚）、 40% 的奖励分配给 RollApp 部…]]></summary>
+        <author>
+            <name>0xAyA</name>
         </author>
     </entry>
     <entry>
