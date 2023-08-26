@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-08-26T13:06:43.397Z</updated>
+    <updated>2023-08-26T14:05:44.845Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[币安协助塔吉克斯坦及TRM Labs逮捕伊斯兰国高级成员]]></title>
+        <id>https://panewslab.com/zh/articledetails/40j8gkyz.html</id>
+        <link href="https://panewslab.com/zh/articledetails/40j8gkyz.html"/>
+        <updated>2023-08-26T12:24:30.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月26日消息，据Fortune报道，币安制裁调查与合规团队与塔吉克斯坦国家银行下属的金融监控部门以及区块链情报公司TRM Labs合作，成功逮捕多名与伊斯兰国呼罗珊省（ISKP）有关的成员。据悉，币安的团队在识别、定位和分享情报方面发挥了关键作用。币安金融犯罪合规主管 Tigran Gambaryan 表示，调查涉及监控 ISIS 成员的 Telegram 频道，然后定位恐怖分子头目用于接收捐款的加密钱包地址。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XRP律师敦促两名SEC前官员在诉Ripple案中出庭作证]]></title>
+        <id>https://panewslab.com/zh/articledetails/936rpfi3.html</id>
+        <link href="https://panewslab.com/zh/articledetails/936rpfi3.html"/>
+        <updated>2023-08-26T11:46:38.000Z</updated>
+        <summary type="html"><![CDATA[PANews 8月26日消息，据 Coingape 报道，XRP 律师 John Deaton 认为美国证券交易委员会对 Ripple 首席执行官 Brad Garlinghouse 提出协助和教唆指控是错误的。前 SEC 官员Bill Hinman和Jay Clayton在美国 SEC 诉 Ripple Labs 案中的证词在诉讼程序的第一年就将 XRP 归类为非证券，但 SEC 多年来故意否认这一点。Digital Asset Investor 表示，将会传唤 a16z 律师 Lowell Ness 和 Chris Dixon 以及前 SEC 官员 Jay Clayton 和 Bill Hinman 作为 SEC 诉 Ripple 案的第一批证人。 John Deaton 表示，同意 Bill Hinman 需要出庭作证，Jay Clayton 是重要证人，应该出庭作证。两位 SEC 前官员 Clayton 和 Hinman 的澄清将节省诉讼成本和开支、诉讼中浪费的时间，并增加加密货币的采用。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[dYdX赠款计划前受托人Alexios Valonasis被指控滥用职权发放赠款]]></title>
         <id>https://panewslab.com/zh/articledetails/p2z8b9p5.html</id>
@@ -4405,43 +4425,6 @@ TL, DR;
 信息具有多个维度，多源化，异质性强。…]]></summary>
         <author>
             <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Opside推出NCRC协议，允许无需信任的原生跨Rollup通信]]></title>
-        <id>https://www.odaily.news/post/5189209</id>
-        <link href="https://www.odaily.news/post/5189209"/>
-        <updated>2023-08-22T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TL; DR
-Opside 的 NCRC（Native Cross Rollup Communication） 协议提供了一种无需信任的 Rollup 互操作性解决方案。NCRC 协议并不是在各个 Rollup 上额外添加一个第三方桥，而是在系统层面改造了 ZK-Rollup 自带的 bridge（native bridge），从而直接使用各个 ZK-Rollup 的 native bridge 来实现跨 Rollup 通信。这样的做法更加简洁和彻底，既继承了 native bridge 绝对的安全性，也避免了第三方桥所带来的系统复杂度和信任成本。
-为什么我们需要无需信任的跨 Rollup 通信？
-Rollup 能够显著提高区块链网络的可扩展性、降低交易成本并提高整体效率，它们受到越来越多的关注和使用。Opside 为Web3应用提供 ZK-RaaS 服务，任何开发者都可以通过 Opside Rollup Launchbase 创建自己的 Rollup。在这个多 Rollup 的时代里，我们预计会有越来越多的 Rollup 共存，因此不同的 Layer 2 之间的无缝互操作性变得至关重要。目前，Rollup 之间运作相对孤立，缺乏实时的跨链通信和资产互通。这种隔离导致了碎片化的格局，其中资产在特定的 Rollup 内被隔离，限制了它们在不同网络之间的自由流动和利用。
-缺乏高效的跨 Rollup 通信不仅限制了各个 Rollup 的潜力，还影响了整体用户体验。用户在尝试在 Rollup 之间转移资产或执行跨链交易时面临繁琐而耗时的流程。这种次优的体验削弱了 Rollup 的吸引力，并在一定程度上阻碍了二层扩展方案的广泛采用。
-目前的跨 Rollup 桥接方案大部分是在 Rollup 链上部署新的一套跨链合约，然后通过多链流动性激励机制来提供资产的跨链。这些方案并不是通用的消息…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[星球日报 | friend.tech交易总量超3万ETH；稳定币总市值创2021年9月以来最低水平（8月22日）]]></title>
-        <id>https://www.odaily.news/post/5189223</id>
-        <link href="https://www.odaily.news/post/5189223"/>
-        <updated>2023-08-22T01:30:00.000Z</updated>
-        <summary type="html"><![CDATA[头条
-数据：当前稳定币总市值约 1233 亿美元，创 2021 年 9 月以来最低水平
-据 DefiLlama 数据显示，当前稳定币总市值约 1233 亿美元，创 2021 年 9 月 7 日以来最低水平， 7 日跌幅达 0.94% ，USDT 市值占比 67.15% 。
-
-加密货币
-HashKey 将于 8 月 28 日发布面向散户交易平台，限制投资额低于总资产 30% ，将推动衍生品监管
-HashKey 发布公告，将于 28 日（下周一）发布面向散户的交易平台。HashKey Group 首席营运官翁晓奇（Livio Weng）接受专访时表示，最开始散户可购买 BTC 和 ETH，并会限制对虚拟资产的投资不能超过总资产的 30% 。
-翁晓奇称，会为散户设立分级制度，将通过 KYC 程序，评估投资者投资经验和风险承担能力，并设问卷判断对于虚拟资产是否有正确理解，新手可参与的投资相对有限，第一批散户只可购买 BTC 和 ETH。目前证监会未批准提供保证金及衍生工具，未来当监管许可时，将会为相关产品分级，向不同类型用户推出各类产品。
-HashKey 将与多家商业银行合作，为用户提供法定货币存取款服务，会先支持美元交易，暂不支持港元。暂时只接受银行卡买卖，不支持信用卡。若散户在平台为虚拟资产投资超过总资产 30% ，会出现风险提示，投资也会受限制。不过，平台无法真正核实用户总资产，仅可靠用户自行提供。
-翁晓奇表示，会积极与监管机构沟通推进稳定币监管，并探索是否可批准一定程度的合约交易及质押产品，预计衍生品上线将会比较曲折。（信报）
-BALD 部署者将 1500 枚 ETH 自 Base 跨链至以太坊，累计跨链 9048 枚 ETH
-据 Spot On Chain 监测，BALD 部署者将 1500 枚 ETH 自 Base 跨链至以太坊，Base 中剩余 677 枚 ETH。
-…]]></summary>
-        <author>
-            <name>0xAyA</name>
         </author>
     </entry>
     <entry>
