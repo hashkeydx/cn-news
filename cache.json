@@ -1814,46 +1814,6 @@
           "wordCount": 363,
           "title": "韩国女团BLACKPINK将在Roblox推出虚拟空间，首日参与者将获得特别徽章",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/4d2dbncf.html",
-          "author": "PA一线",
-          "description": "PANews 8月23日消息，安全机构Quantstamp成功开发了名为“经济漏洞分析”的自动化工具，希望能够显著降低DeFi领域内的闪电贷攻击频率及由此导致的损失。\n至今通过闪电贷攻击被盗的资金估计达到3亿美元，其中仅2023年上半年，就有高达2.07亿美元被盗。Quantstamp不只审查客户合约，还整合其他协议的合约，以全面加强对DeFi生态的保护。值得注意的是，此项服务适用于所有EVM链上，无论协议是否已部署。",
-          "link": "https://panewslab.com/zh/articledetails/4d2dbncf.html",
-          "publishedOn": "2023-08-23T14:06:32.000Z",
-          "wordCount": 346,
-          "title": "Quantstamp发布“经济漏洞分析”工具以对抗闪电贷攻击",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ce2rki4i.html",
-          "author": "PA一线",
-          "description": "PANews 8月23日消息，Dune数据显示，friend.tech的协议费用已超过2000 ETH（约合 341 万美元），协议累计交易笔数已超192万笔。",
-          "link": "https://panewslab.com/zh/articledetails/ce2rki4i.html",
-          "publishedOn": "2023-08-23T13:56:41.000Z",
-          "wordCount": 357,
-          "title": "数据：friend.tech协议费用已超2000 ETH",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/34w61ax0.html",
-          "author": "PA一线",
-          "description": "PANews 8月23日消息，Solana Pay宣布已集成至电商平台Shopify，使商家能够用Solana Pay来管理资金和流动性，同时实现与Solana兼容的美元稳定币的即时直接支付结算。",
-          "link": "https://panewslab.com/zh/articledetails/34w61ax0.html",
-          "publishedOn": "2023-08-23T13:50:00.000Z",
-          "wordCount": 352,
-          "title": "Solana Pay已作为新的支付选项集成至Shopify",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/b9eoe6fc.html",
-          "author": "PA一线",
-          "description": "PANews 8月23日消息，去中心化本地点对点开源工具Anytype官方宣布已完成1340万美元新一轮融资，Balderton Capital领投，Inflection、Square One、Script Capital、Protocol Labs、Connect Ventures、New Forge和Foreword VC，以及一批Web3领域的知名天使投资人参投。Anytype以本地为中心的点对点开源工具能为用户提供最初预期的网络自由，同时保护隐私、数据自治和控制，通过将无代码工具与去中心化架构相结合，让创作者和社区能够按照自己的方式构建网络。",
-          "link": "https://panewslab.com/zh/articledetails/b9eoe6fc.html",
-          "publishedOn": "2023-08-23T13:42:00.000Z",
-          "wordCount": 374,
-          "title": "去中心化本地点对点开源工具Anytype完成1340万美元融资，Balderton Capital领投",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2319,6 +2279,36 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5189333",
+          "author": "火星财经",
+          "description": "原文标题：Ethereum's Rollups are Centralized: A Look Into Decentralized Sequencers\n原文来源：Binance Research\n1. 要点\n❖ 交易排序已成为第二层（\"L2\"）领域一个日益严重的问题。第二层 rollup 的主要作用是为廉价交易提供安全的场所。L2 rollup 为用户提供执行层，然后将他们的交易数据提交给上级第一层（\"L1\"），即以太坊的 Arbitrum、Optimism、zkSync 等。\n❖ 排序器是有权将这些交易排序成组的实体。排序器接收来自用户的无序交易，在链外将其处理成组，然后生成一批压缩的有序交易。然后，这些交易可被放入区块并发送到父 L1。\n❖ Rollups 实际上不需要排序器；这只是一种设计上的选择，目的是以更低的费用和更快的交易确认速度为用户带来更好的体验。例如，就像大多数 rollup 使用以太坊基础层来获得数据可用性一样，它们也可以使用基础层来进行排序。然而，以太坊的基础层可能相对低效和昂贵。这意味着，迄今为止，每一个主要的 L2 rollup 项目都发现，运行一个中心化测序器更方便、更便宜，而且对用户更友好。\n❖ 由于排序器控制着交易的排序，因此它有权审查用户交易（尽管完全审查不太可能，因为用户可以直接向 L1 提交交易）。排序器还可以提取最大可提取值（\"MEV\"），这可能会对用户群造成经济损失。此外，有效性也可能是一个大问题，即如果唯一的中心化排序器宕机，那么用户将无法使用该排序器，整个 rollup 都会受到影响。\n❖ 问题的解决方案是共享、去中心化排序器。共享排序器本质上是为 rollup 提供去中心化服务。除了解决审查、MEV 提取和有效性等问题外，共享排序器还引入了跨 rollup 的功能，开启了各种新的可能性。Espresso、Astria 和 …",
+          "link": "https://www.odaily.news/post/5189333",
+          "publishedOn": "2023-08-28T02:11:35.000Z",
+          "wordCount": 3606,
+          "title": "Binance Research：深度解读去中心化排序器",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5189331",
+          "author": "秦晓峰",
+          "description": "整理 | Odaily星球日报\n作者 | 秦晓峰\n\n一、整体概述\n彭博 ETF 分析师 James Seyffart 在推特发文表示，ARK Invest 和 21 Shares 再次联合提交两份以太坊期货 ETF 申请，分别是 ARK 21 Shares Active Ethereum Futures ETF（ARKZ）、ARK 21 Shares Active Bitcoin Ethereum Strategy ETF（ARKY）。\n以太坊基金会工程师 Barnabas Busa 在 X 平台（原 Twitter）发文表示，近日 Holesky 公共测试网创世文件已生成，并合并到以太坊客户端 Holesky GitHub 库的主分支中。Holesky 公共测试网预计在北京时间 2023 年 9 月 15 日 22: 00 推出，将拥有 1,460,000 个验证节点，是迄今为止最大的公共网络。以太坊基金会将在 Holesky 公共测试网创世阶段分配超过 20 亿枚 hETH。\n二级市场方面，目前 ETH  价格短时可能继续盘整，支撑位 1650 美元，阻力位 1700 美元。\n\n二、二级市场\n\n 1.现货市场\nOKX 行情数据显示，上周 ETH 一度下跌至 1576 USDT，周内收于 1657 USDT，环比下跌 1% \n\nETH 日线图，来自 OKX\n日线图上显示，价格目前在 1660 美元左右盘整，下方支撑位是 1650 美元，如果跌破则可能进一步下跌至 1600 美元；上方阻力位是 1700 美元。\n 2.网络运行情况\n\nEtherscan数据显示，过去一周以太坊网络出块量为 50033 个，与前周基本保持一致；每周活跃地址数为 2652772 ，环比下降 4.8% ；区块奖励收入为 3703 枚 ETH，环比下降 8.4% ；每周 ETH 销毁量达到 1573…",
+          "link": "https://www.odaily.news/post/5189331",
+          "publishedOn": "2023-08-28T01:55:57.000Z",
+          "wordCount": 2648,
+          "title": "ETH 周报 | ARK Invest和21Shares联合提交两份以太坊期货ETF申请；Holesky公共测试网将于9月15日正式推出（8.21-8.27）",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5189332",
+          "author": "Azuma",
+          "description": "头条\nPEPE 公布“多签卖币”真相： 3 名前成员私自抛售后删除多签权限，剩余 10 万亿枚代币安全\n\nOdaily星球日报讯 Meme 代币项目 PEPE 在 X 平台（原 Twitter）发文表示，昨日 PEPE 多签 CEX 钱包发生一系列令人意外的交易。多签钱包中的约 16 万亿枚 PEPE 代币被转至 OKX、Binance、KuCoin 和 Bybit 交易所，多签钱包阈值被改为 2/8 。多签钱包中还剩下 10 万亿枚代币和一个签名者，目前这些代币是安全的。\nPEPE 官方表示，自成立以来，PEPE 一直饱受内部纷争的困扰，团队中的一部分人因自负和贪婪而成为不良行为者。此前由于无法签署交易、存在意见分歧以及连续数周无法与其取得联系，这些人阻碍了团队使用多签钱包进行捐赠或购买代币的进度。现在，PEPE 已经完全摆脱了这些包袱，前路一片光明。\n本次卖币事件的真实情况是， 3 名前团队成员于昨日秘密回归，登录并窃取多签钱包中 60% 的代币，也就是那 16 万亿枚 PEPE，并将其发送到交易平台出售。然后他们删除了自己的多签权限，试图避免与 PEPE 存在关联，同时也删除其所有的社交账号，只留下一条消息，显示“多重签名已更新，你现在有完全的控制权了。”\nPEPE 官方表示，其对所发生的事情感到震惊，并对不良行为者给社区成员造成的所有恐惧和不确定性以及任何损失表示歉意。目前 X 平台（原 Twitter）账号由 PEPE 官方控制，多签钱包中剩余的 10 万亿枚代币是安全的，前团队成员已无法访问。\n比特浏览器：服务端缓存数据遭黑客入侵，部分用户钱包存在被盗风险\nOdaily星球日报讯 PeopleDAO 核心开发者0x AA 在 X 平台（原 Twitter）上发文表示，比特浏览器发布紧急通知称，目前比特服务端缓存数据遭到黑客入侵，比特已报案，如有开启了扩展数据同步…",
+          "link": "https://www.odaily.news/post/5189332",
+          "publishedOn": "2023-08-28T01:32:34.000Z",
+          "wordCount": 2801,
+          "title": "星球日报 | PEPE“团队卖币”风波引热议；比特浏览器服务端缓存数据遭黑客入侵（8月28日）",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5189323",
           "author": "Biteye",
