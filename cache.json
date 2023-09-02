@@ -1944,16 +1944,6 @@
           "wordCount": 350,
           "title": "数据：某地址将约20万枚CYBER转至Wintermute，然后转入币安",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/4cw8gyk5.html",
-          "author": "PA一线",
-          "description": "PANews 8月28日消息，美国证券交易委员会（SEC）今天指控总部位于洛杉矶的媒体和娱乐公司 Impact Theory, LLC 以所谓的不可替代代币 (NFT) 的形式进行未经注册的加密资产证券发行。Impact Theory 通过此次发行从数百名投资者（包括美国各地的投资者）筹集了约 3000 万美元。",
-          "link": "https://panewslab.com/zh/articledetails/4cw8gyk5.html",
-          "publishedOn": "2023-08-28T15:09:00.000Z",
-          "wordCount": 458,
-          "title": "美国SEC指控洛杉矶娱乐公司Impact Theory未经注册发行NFT",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2419,6 +2409,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5189454",
+          "author": "星球君的朋友们",
+          "description": "原文来源：Filecoin Network\n\nTLDR\n\n由于 Filecoin 协议设计中内置了反脆弱机制，Filecoin 能够抵御算力大幅下降的影响。\n\n该机制为新存储提供者（SP）的加入和现有存储提供者在断电后继续留在网络中提供了强大的经济激励。\n\n具体来说，在算力大量流失之后，由于奖励集中度的急剧增加，进入网络的算力将获得超额奖励。\n\n导言\nFilecoin 是一个存储着人类最重要信息的分布式数据存储网络。SP 在规定的合约期内为网络提供存储容量，并获得区块奖励作为报酬。为确保合约得到履行，需要以 FIL 代币作为抵押。抵押品金额和获得的区块奖励会根据入网算力的类型（承诺容量与真实数据）而变化。\n弹性是什么意思？《韦氏词典》将弹性定义为从不幸或变化中轻松恢复或调整的能力。弹性与 Filecoin 等加密经济的许多方面都相关，例如51% 攻击、Sybil 攻击 和 Finney 攻击。本文将重点关注弹性的一个特定方面：Filecoin 网络对算力冲击的弹性。在 Filecoin 中，算力是指网络服务的存储量和数据量。由于各种原因，SP 退出网络会导致电力冲击。\n首先，让我们准确地提出希望定量回答的与弹性相关的问题：若 SP 出现以下情况，Filecoin 网络将如何应对断电情况？\n\nSP 优雅离开，在完成存储合约后断电离网。\n\nSP 在结束日期前突然终止存储合约，导致网络受到冲击并突然断电。\n\n建模\n如何以有条理的方式对网络弹性进行建模，并确保预测遵循 Filecoin 加密经济学？我们的方法是使用 Filecoin 经济的代理模型（ABM），ABM 由环境和与环境交互的代理组成。在此 ABM 中，环境实现了 Filecoin 的加密经济学机制（例如锁定、归属、铸币以及代币供应这些方面的交互），而代理则是 SP 的模型。有关 Filecoin ABM 的更多信息，请…",
+          "link": "https://www.odaily.news/post/5189454",
+          "publishedOn": "2023-09-02T02:00:00.000Z",
+          "wordCount": 1734,
+          "title": "一文探讨Filecoin应对网络算力冲击的弹性如何？",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5189164",
           "author": "郝方舟",
