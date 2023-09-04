@@ -2394,16 +2394,6 @@
           "wordCount": 359,
           "title": "Balancer：已针对漏洞制定缓解程序但无法暂停受影响的池，尚无法披露损失确切数字",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/g89w3fae.html",
-          "author": "PA一线",
-          "description": "PANews 8月31日消息，官方治理页面显示，Cosmos社区正对“v12软件升级”提案进行投票。Gaia v12升级是一个主要版本，包含流动性质押模块（Liquid Staking Module）和其他核心依赖项更新。此次投票将于9月8日结束。\n此前消息，Cosmos Hub表示，启用流动性质押模块将带来即时流动性质押，无需等待解绑期。用户将能够直接对他们已经质押的Atom进行流动性质押。为了减轻流动性质押风险，LSM引入了治理控制参数。可以流动质押的ATOM总量将有一个初始上限。上限将设定为所有质押ATOM的25％，并且可以通过治理进行更改。作为一项额外的安全功能，想要从流动质押提供商处获得委托的验证者将需要自行绑定一定数量的ATOM。",
-          "link": "https://panewslab.com/zh/articledetails/g89w3fae.html",
-          "publishedOn": "2023-08-31T00:12:26.000Z",
-          "wordCount": 356,
-          "title": "Cosmos社区正对“v12升级”提案进行投票，拟启用流动性质押模块",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2869,6 +2859,16 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5189507",
+          "author": "星球君的朋友们",
+          "description": "原文作者：yyy（@y_cryptoanalyst）\n聚焦 Rollup 赛道，Arbitrum 和 Optimism 之间的神仙打架确实精彩。 Optimism 以其 OP Stack 为戟横向开疆扩土，Arbitrum 则另辟蹊径以 Arbitrum Orbit 开启纵向的L3 变革。 Arbitrum 团队亲自下场搞基于 Arbitrum Orbit 的首条L3 -XAI 正式向 Optimism 宣战。\n在我看来，XAI 的推出对 Arbitrum 而言具有重要的战略地位，是对 OP 发出的正面宣战。 OP 借助强大的 B 端资源先后推动币安、Coinbase 基于其 OP Stack 构建L2 链，大刀阔斧地扩充L2 生态版图；彼时 Arbitrum 显得默默无闻，未见太大动作。 在 OP 发展如火如荼之际，XAI 的火速推出感觉不是巧合。\n\nArbitrum Orbit\n聊 XAI 之前，就不得不聊 Arbitrum Orbit. Arbitrum Orbit 是通用的模块化L3 堆栈，允许开发者基于其搭建专用的L3 链，L3 上的交易将通过 Arbitrum L2(Arbitrum One 或 Nova)进行结算。 XAI 正是基于 Arbitrum Orbit 构建的、专注于游戏场景的L3 链。\n\nArbitrum Nova vs. XAI\nNova 是专注于游戏场景的通用L2, 照理说已经可以满足游戏场景的需求了，为何还要推出 XAI? 理由很简单：相对于 Nova 游戏公用链的定位，XAI 作为游戏专用L3 能实现更高的性能，拥有专用的计算和存储资源。 使链上资源密集型用例成为可能，比如说计算密集型的 AI 模型等。\nXAI 将原生受益于 Arbitrum 的技术堆栈:Nitro+ BOLD+ Stylus. Nitro 是 One 的技术栈升级。通过客户端软件的基础层直接编译了 Geth 的核心，Geth 是主流的以太坊客户端，从而实现更高的以太坊兼容性。 关于 Arbitrum Nitro/One/Nova 的区别，之前有单独讲，此处不赘述。（相关链接）\nBOLD\nBOLD 是 Arbitrum 团队提出的无需许可验证机制，目的是最小化结算状态的延迟。 大白话讲，对于乐观 Rollup 而言，普遍存在一周的挑战期，用户从L2 提现到L1 要等一周； 挑战期内验证者如果发现提交上来的L2 交易有问题，可以发起挑战。\n这里的挑战有 2 个问题： 1 是谁有挑战的权限？ 2 是为什么不是任何人都可以挑战？\n目前的欺诈证明挑战机制并非无需许可，都是由特定的角色充当挑战者。如果挑战是无需许可的，恶意挑战者可以通过发起 DDOS 攻击一直不让结算状态得到确认。\n比如说提现正常一周能到账，但实际上时间要更长。\n通过引入 BOLD 机制，一方面能实现验证的无需许可，更符合区块链去中心化的理念； 另一方面，能实现最小化结算状态的延迟。 BOLD 允许单个诚实的验证者在以太坊上与任意数量的对手进行争议时取胜，从而使 DDOS 攻击失效。\nStylus\nStylus 是 Arbitrum 开发的支持多语言构建应用程序的开源 SDK 。这是一种实现 EVM+ 兼容性的产品。 简言之，开发人员在 Arbitrum 上既能使用传统 Solidity 语言，又能使用 WASM 兼容的语言，如 Rust、C 和 C++等来构建应用程序。 此外，Stylus 使 Dapps 的执行更加高效，显著地降低了 gas 成本。\n\nStylus 不局限于支持 Rust、C 和 C++, 例如 Move、Sway、Cairo 和 Go 等。 试想下，以后 Aptos/ Fuel/ StarkNet 上的 dApps 能一键迁移至 Arbitrum 上。 甚至可以通过 Arbitrum Orbit 实现一键L3 链的链改。\n\n更有趣的是，BOLD, Stylus 都是通用的模块化组件；\n开发者基于 Arbitrum Orbit 启动特定用例的L3，可以原生集成 BOLD, Stylus；\n也可以通过去中心化 DAO 治理的形式，在L3 启动并平稳运行后再投票决定集成上述模块化组件。\nXAI 已经打响了 Arbitrum L2 保卫战的第一枪，这场跟 Optimism 的较量或许才刚刚开始。\n原文链接",
+          "link": "https://www.odaily.news/post/5189507",
+          "publishedOn": "2023-09-04T11:00:00.000Z",
+          "wordCount": 2041,
+          "title": "Arbitrum推出首条L3 XAI，与Optimism的较量或许才刚开始",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5189495",
           "author": "小飞",
