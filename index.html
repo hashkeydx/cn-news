@@ -51,6 +51,74 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-06 datetime="2023-09-05T16:30:02.000Z">2023-09-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-06 datetime="2023-09-05T16:30:02.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189550"
+                        open
+                      >
+                        <summary class="article-expander__title">Connext空投闹剧：漏洞乌龙和查不完的女巫</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189550">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原创 | Odaily星球日报
+作者 | 秦晓峰
+
+在等待了两周时间， Layer 2 互操作性协议 Connext 今晚终于开放空投申领（网址：https://airdrop.connext.network/claim/52），但却闹出一场乌龙事件。
+申领开放刚过半小时，加密 KOL 「猪猪 Bang」发文称，Connext 空投合约疑似存在漏洞，“科学家”可以利用漏洞无限盗取其他用户的 NEXT 空投，并附上了 0x44Af 开头地址（点击跳转）频繁申领记录。
+
+该消息在社区中广泛传播，随后有用户分析链上信息发现，0x44Af 开头地址的地址今日才正式创建，并在空投开放后领取次数超过 230 次，所得代币全部卖出换成 ETH、USDT 与 USDC，获利约 3.9 万美元。
+此时，Connext 空投合约也出现故障，部分用户反映无法成功领取空投，社群中开始流传着官方因为漏洞关闭了空投申领的传言。
+然而，事情的真相是，Connext 空投合约并没有漏洞。
+加密 KOL「猪猪 Bang」表示，Connext 空投合约是安全的，自己最开始的分析误导了读者。他表示，虽然 Connext 空投合约规定了空投发送者和领取者可以是不同的地址，但却需要原始地址进行签名授权才能调用。
+“首先领取方法为 claimBySignature，最后一个参数就是传递签名信息，而这个 “签名” 是用户自己去利用智能合约或其他方式去调用返回的。所以我们可以理解为：_signature 就是一个凭证，_recipient 用户拿着这个凭证就可以去获取 _beneficiary 地址的 token 了。”他补充说，0x44Af 开头地址应该是工作室进行代币归集，而不是合约本身存在漏洞。
+
+（智能合约部分信息）
+慢雾安全团队告诉Odaily星球日报，Connext 空投合约并没有存在明显漏洞，导致他人冒领空投；
+用户可以通过 NEXT Distributor 合约的 claimBySignature 函数领取 NEXT 代币，其中存在 recipient 与 beneficiary 角色：recipient 角色用于接收 claim 的 NEXT 代币，beneficiary 角色是有资格领取 NEXT 代币的地址，其在 Connext 协议公布空投资格时就已经确定。在用户进行 NEXT 代币 claim 时，合约会进行两次检查：一是检查 beneficiary 角色的签名，二是检查 beneficiary 角色是否有资格领取空投。
+在进行第一次检查时其会检查用户传入的 recipient 是否是由 beneficiary 角色进行签名，因此随意传入 recipient 地址在未经过 beneficiary 签名的情况下是无法通过检查的。如果指定一个 beneficiary 地址进行构造签名即使可以通过签名检查，但却无法通过第二个对空投领取资格的检查。空投领取资格检查是通过默克尔证明进行检查的，其证明应由 Connext 协议官方生成。因此没有资格领取空投的用户是无法绕过检查领取他人的空投的。
+总结一下上面的分析，用户 A 地址如果有资格申领，可以授权给 B 进行申领，而这次 0x44Af 开头地址的地址之所以可以申领如此多的代币，是因为该实体控制的多个合格地址对其进行授权，并非黑客利用漏洞攻击。
+不过，有意思的是，在空投开放前，Connext 就针对女巫地址进行「围剿」，邀请社区帮助团队筛选女巫地址，并愿意将追回 NEXT 的 25% 作为奖励送给举报者。根据官方数据，最终 5,725个女巫地址被识别并从资格列表中删除，收回 5,932,065枚代币。
+不过，从今晚的表现来看，反女巫行动似乎还留下了体量巨大的漏网之鱼，甚至还给整个空投平添了许多障碍。
+Connext 核心贡献者 Arjun Bhuptani 发文表示，0x44Af开头地址是一个女巫 bot，该 bot 向 Tokensoft 后台发送大量垃圾请求导致其 API 崩溃，这也可能是空投申领界面无法使用的原因。（Odaily 注：阻止其他人申领，可能是想获得更好的出售价格。）
+好消息是，官方已经注意到这一问题，空投将重新开放。Connext 发文表示：“我们已意识到影响空投网站的问题，导致用户无法领取。我们检测到机器人活动导致我们的合作伙伴和服务提供商服务器 Tokensoft 超载。他们正在积极努力解决这个问题，以实现正常的索赔。一切都应该很快就会恢复正常。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-05 datetime="2023-09-05T14:59:30.000Z">2023-09-05</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-05 datetime="2023-09-05T14:59:30.000Z"></time>
           </button>
@@ -6713,26 +6781,6 @@ Exactly Protocol表示，DebtManager黑客事件的一个重要教训是，只�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/le3xz65w.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：DWF Labs地址过去24小时已向Bithumb转入17万枚CYBER</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/le3xz65w.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月1日消息，据Arkham数据信息，过去24小时，DWF Labs地址已向Bithumb转入17万枚 CYBER（价值约合146万美元）。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9206,8 +9254,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6087129569">
-        <time id="build-timestamp" datetime="2023-09-05T16:09:20.353Z">2023-09-05T16:09:20.353Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6087609612">
+        <time id="build-timestamp" datetime="2023-09-05T17:06:41.895Z">2023-09-05T17:06:41.895Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
