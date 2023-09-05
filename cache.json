@@ -6,6 +6,66 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/nv4e6rap.html",
+          "author": "PA一线",
+          "description": "PANews 9月5日消息，LayerZero Labs 发推称，LayerZero 已在 Zora Network 主网上线，用户可以免费铸造纪念版 NFT LayerZero Zorb。同时，在 LayerZero 上构建的应用程序可扩展至 Zora Network，Zora Network 开发者也可与 LayerZero 网络其他部分集成。\n据悉，Zora Network是一个基于OP Stack构建的Layer2区块链，重点支持NFT创建者、收集者和应用程序，其链上已mint超过400万枚NFT，且有超过90万收集者与Zora NFT互动。",
+          "link": "https://panewslab.com/zh/articledetails/nv4e6rap.html",
+          "publishedOn": "2023-09-05T15:59:42.000Z",
+          "wordCount": 414,
+          "title": "LayerZero上线Zora Network主网，用户可免费mint纪念NFT“LayerZero Zorb”",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/mskebtje.html",
+          "author": "PA一线",
+          "description": "PANews 9月5日消息，据The Block报道，Web3域名初创公司 D3 Global 完成 500 万美元种子轮融资，Shima Capital 领投，Arthur Hayes 的 Maelstrom、Lightshift、Dispersion Capital、VentureSouq 和 Infinite Capital 以及 Identity Digital 创始人 Paul Stahura 等参投。\nD3 Global 是一家致力于将 Web3 的实用性与现有互联网基础设施融合的初创公司，可以为 Web2 和 Web3 版本的互联网带来更多的互操作性，同时创造更多的实用性和安全性。D3 还表示，计划在 ICANN 即将到来的申请窗口期间申请并获取新的顶级域名，以提供所有浏览器和设备本身支持的安全身份。",
+          "link": "https://panewslab.com/zh/articledetails/mskebtje.html",
+          "publishedOn": "2023-09-05T15:54:55.000Z",
+          "wordCount": 439,
+          "title": "Web3域名初创公司D3 Global完成500万美元种子轮融资，Shima Capital领投",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/y42fzup8.html",
+          "author": "PA一线",
+          "description": "PANews 9月5日消息，据慢雾区情报，有部分账户的 NEXT 代币被 claim 到非预期的地址，慢雾安全团队跟进分析后分享简析如下：\n用户可以通过 NEXT Distributor 合约的 claimBySignature 函数领取 NEXT 代币。其中存在 recipient 与 beneficiary 角色，recipient 角色用于接收 claim 的 NEXT 代币，beneficiary 角色是有资格领取 NEXT 代币的地址，其在 Connext 协议公布空投资格时就已经确定。\n在用户进行 NEXT 代币 claim 时，合约会进行两次检查：一是检查 beneficiary 角色的签名，二是检查 beneficiary 角色是否有资格领取空投。在进行第一次检查时其会检查用户传入的 recipient 是否是由 beneficiary 角色进行签名，因此随意传入 recipient 地址在未经过 beneficiary 签名的情况下是无法通过检查的。如果指定一个 beneficiary 地址进行构造签名即使可以通过签名检查，但却无法通过第二个对空投领取资格的检查。空投领取资格检查是通过默克尔证明进行检查的，其证明应由 Connext 协议官方生成。因此没有资格领取空投的用户是无法绕过检查领取他人的空投的。",
+          "link": "https://panewslab.com/zh/articledetails/y42fzup8.html",
+          "publishedOn": "2023-09-05T15:46:22.000Z",
+          "wordCount": 453,
+          "title": "慢雾：没有资格领取NEXT代币空投的用户无法通过第二个资格检查",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/yhfcema8.html",
+          "author": "PA一线",
+          "description": "PANews 9月5日消息，Layer2 互操作性协议 Connext 发推表示：“我们已意识到影响空投网站的问题，导致用户无法领取。我们检测到机器人活动导致我们的合作伙伴和服务提供商 Tokensoft 服务器超载。他们正在积极努力解决这个问题，以实现正常的索赔。有很多错误信息在流传：请务必参考我们的官方渠道以获取准确信息并随时关注更新 - 一切都应该很快就会恢复正常。”",
+          "link": "https://panewslab.com/zh/articledetails/yhfcema8.html",
+          "publishedOn": "2023-09-05T15:27:07.000Z",
+          "wordCount": 374,
+          "title": "Connext：因机器人活动导致服务提供商Tokensoft服务器超载，正努力解决问题",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/214psnql.html",
+          "author": "PA一线",
+          "description": "PANews 9月5日消息，比特币矿企MarathonDigital发布未经审计的8月比特币产量与挖矿运营更新：8 月比特币产量为 1072 枚，较 7 月环比下降 9%，较去年 8 月同比增长 5 倍。年初至今生产了 7,368 枚比特币。8 月比特币减产主要是由于得克萨斯州的高温导致。8 月 Marathon 美国运营算力环比增加 2% 至 19.1 EH/s，安装算力环比增加 1% 至 23.1 EH/s，算力增长主要是由于矿机替换成 S19 XP。",
+          "link": "https://panewslab.com/zh/articledetails/214psnql.html",
+          "publishedOn": "2023-09-05T15:21:25.000Z",
+          "wordCount": 416,
+          "title": "比特币矿企Marathon Digital 8月产出1072枚比特币，环比下降9%",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/fxdwr5hq.html",
+          "author": "PA一线",
+          "description": "PANews 9月5日消息，Yuga Labs 发推称，已推出密码难题，将在 12 周内每周发布一个“Moon Puzzle”，第一个解开谜题的用户将获得 0.12 枚 BTC 奖励，最后一个谜题“the Sun Puzzle”将在第 13 周发布，其奖品是一个 Yuga Twelvefold Ordinals。用户可通过将答案刻在 Statoshis 上的方式进行提交，用户无需持有 TwelveFold，只需一个 Ordinals 比特币钱包即可参与。",
+          "link": "https://panewslab.com/zh/articledetails/fxdwr5hq.html",
+          "publishedOn": "2023-09-05T15:12:48.000Z",
+          "wordCount": 417,
+          "title": "Yuga Labs将发布Moon Puzzle，首次解开谜题的用户可获得0.12枚BTC奖励",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/883ebc6i.html",
           "author": "PA一线",
           "description": "PANews 9月5日消息，MetaMask宣布推出最新功能“Sell”，允许用户通过MetaMask Portfolio将加密货币兑换为法定货币，并将资金发送到银行账户。该功能目前在美国、英国和欧洲部分地区可用，最初支持以太坊主网上的ETH，并计划很快扩展到Layer2网络上的原生gas代币。",
@@ -2243,46 +2303,6 @@
           "publishedOn": "2023-09-01T07:05:59.000Z",
           "wordCount": 358,
           "title": "ParaSpace开始协助部分账户向ParaX平台迁移，并发布2000枚限量NFT空投细则",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/wqch4yay.html",
-          "author": "PA一线",
-          "description": "PANews 9月1日消息，链游发行商Xterio在X平台上宣布将推出XTER代币，该代币将为Xterio游戏生态系统提供动力，生态内交易者、持有者和游戏玩家将可通过其实用程序和内置系统获益。\n此前7月消息，Binance Labs宣布向Web3游戏发行商Xterio投资1500万美元。",
-          "link": "https://panewslab.com/zh/articledetails/wqch4yay.html",
-          "publishedOn": "2023-09-01T06:59:03.000Z",
-          "wordCount": 361,
-          "title": "链游发行商Xterio宣布将推出XTER代币",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/7r38459k.html",
-          "author": "PA一线",
-          "description": "PANews 9月1日消息，CryptoSlam追踪的22条区块链上的NFT销售额数据显示，7月份NFT销售额共计约3.95亿美元，较7月份的4.92亿美元（7月监测的是21条链）下降19.7%。在这些销售额中，以太坊链上NFT销售额占比达57%，约2.26亿美元。NFT销售额排名第二的区块链是Polygon，约3512万美元；其次是Solana（3394万美元）、Mythos（2662万美元）、ImmutableX（2089万美元）。\n值得一提的是，比特币链上NFT销售额排名已降至第7位，仅约1185万美元，较7月的6492万美元下降81.7%。",
-          "link": "https://panewslab.com/zh/articledetails/7r38459k.html",
-          "publishedOn": "2023-09-01T06:54:03.000Z",
-          "wordCount": 342,
-          "title": "数据：8月份NFT销售额环比下降20%至3.95亿美元，其中以太坊链占比达57%",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/jszm7jze.html",
-          "author": "PA一线",
-          "description": "PANews 9月1日消息，据链上分析师余烬监测，在今日早间卖出1.2万枚ETH的巨鲸过去1个多小时里又卖出了6000枚ETH（约合982万美元）。\n该巨鲸今天已累计抛售1.8万枚ETH（约合2960万美元），出售均价1644美元。出售的这1.8万枚ETH实现274万美元的亏损。该巨鲸目前地址里还持有4000枚ETH。",
-          "link": "https://panewslab.com/zh/articledetails/jszm7jze.html",
-          "publishedOn": "2023-09-01T06:28:50.000Z",
-          "wordCount": 339,
-          "title": "数据：某巨鲸再次卖出6000枚ETH，今日已累计抛售1.8万枚ETH",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/y3xky72i.html",
-          "author": "PA一线",
-          "description": "PANews 9月1日消息，Aave社区正对“资助Aave机器人用于治理V2的自动化”提案进行链上投票，并将于9月3日结束。该提案旨在使用Aave Collector合约中的LINK代币资助Aave机器人的运营成本，这将有助于对Aave治理v2的某些无需许可的行动进行自动化操作，提高Aave治理的整体有效性。\n该提案将总共转移：1275枚aLINK（约7500美元），从以太坊、Polygon、Arbitrum、Optimism 网络的收集器合约转移到短期执行器/Bridge执行器。在该执行器上，转移的aLINK代币将被提取为LINK代币。对于Polygon，由于从池中提取的LINK不是ERC-677，因此有效负载使用PegSwap将其一对一交换为ERC-677 LINK代币。在收到的所有LINK代币中，675枚LINK将用于通过调用refillKeeper()方法使用Aave CL Robot Operator合约资助预先注册的机器人。一旦keeper重新充值，总共600枚LINK将被转移到BGD Lab，以支付他们之前在Aave机器人上的运营费用。",
-          "link": "https://panewslab.com/zh/articledetails/y3xky72i.html",
-          "publishedOn": "2023-09-01T06:25:30.000Z",
-          "wordCount": 353,
-          "title": "Aave社区正对“资助Aave机器人用于治理V2的自动化”提案进行链上投票",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
