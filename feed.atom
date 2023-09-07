@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-09-07T07:07:07.955Z</updated>
+    <updated>2023-09-07T08:09:50.759Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[V神最新论文：隐私池协议如何保护用户隐私又满足合规要求]]></title>
+        <id>https://www.odaily.news/post/5189594</id>
+        <link href="https://www.odaily.news/post/5189594"/>
+        <updated>2023-09-07T07:03:42.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Blockchain Privacy and Regulatory Compliance: Towards a Practical Equilibrium》
+作者：Vitalik Buterin, Jacob Illum, Matthias Nadler, Fabian Schar and Ameen Soleimani
+编译：Odaily星球日报夫如何
+今日，V神等人联合撰写了一篇有关隐私协议的研究论文，题目为“Blockchain Privacy and Regulatory Compliance: Towards a Practical Equilibrium”（区块链隐私和监管合规：走向实际平衡）。
+论文阐述了一种新的基于智能合约的隐私增强协议——隐私池，并讨论其优缺点，展示其如何平衡诚实用户和不诚实用户。该协议旨在使用零知识证明来验证用户资金的合法性，而不泄露其完整的交易历史记录，在过滤掉与犯罪活动相关资金的同时权衡了隐私和监管要求。
+Odaily星球日报现将论文精华编译如下。
+一、引言
+公共区块链设计上是透明的。基本思想是任何人都可以选择验证交易，而不必依赖于中心化的第三方；通过降低依赖性，为各种应用提供了一个中立的基础，包括但不限于金融和自我主权身份。
+然而，从隐私角度来看，公共数据集拥有包含每个区块链地址的每笔交易。每当有人将资产转移到另一个地址，或与智能合约交互时，该交易将永远在区块链上可见。 这显然不符合隐私要求。
+例如：Alice 在餐馆用区块链钱包支付晚餐。收款方现在知道了 Alice 的地址，并且可以分析该地址的所有过去和未来活动。同样，Alice 现在知道了餐厅的钱包地址，并可以使用这些信息来获取其他客人的钱包地址或查看餐厅的收入。或者第三方（如社交媒体）知道餐厅和 Alice 钱包地址，就可以轻松推导出 Alice 的实际居住地址，并研…]]></summary>
+        <author>
+            <name>夫如何</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[蚂蚁集团井贤栋：大模型进展将于明日发布]]></title>
         <id>https://panewslab.com/zh/articledetails/eqzyto2d.html</id>
