@@ -2,10 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-09-10T08:08:37.791Z</updated>
+    <updated>2023-09-10T09:06:43.150Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[慢雾：LDO的Token合约存在潜在的“假充值”风险]]></title>
+        <id>https://panewslab.com/zh/articledetails/t9wwmxjq.html</id>
+        <link href="https://panewslab.com/zh/articledetails/t9wwmxjq.html"/>
+        <updated>2023-09-10T08:48:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月10日消息，据慢雾安全团队链上情报，LDO的token合约在处理转账操作时，如果转账数量超过用户实际持有的数量，该操作并不会触发交易的回滚。相反，它会直接返回一个`false`作为处理结果。这种处理方式与许多常见的ERC20标准token合约不同。
+由于上述特性，存在一种潜在的“假充值”风险。恶意攻击者可能会尝试利用这一特性进行欺诈行为。慢雾建议如下：
+1. 在处理token到账的逻辑时，不仅仅依赖于交易的成功或失败，还需要根据token合约的实际返回值进行判断。
+2. 请注意，市场上存在许多非ERC20标准的token合约。在接入新的token之前，务必对其合约代码进行深入的理解和分析，确保实现正确的入账逻辑。
+3. 建议定期进行代码审计和安全检查，确保系统的健壮性和安全性。
+Token合约的实现和行为可能因项目而异。为了确保资金的安全和交易的准确性，强烈建议在接入任何新的token之前，深入理解其合约逻辑并进行充分的测试。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：PayPal美元稳定币PYUSD发布至今仅有一个非交易钱包持有量超过1万美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/8h6s506m.html</id>
+        <link href="https://panewslab.com/zh/articledetails/8h6s506m.html"/>
+        <updated>2023-09-10T08:35:33.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月10日消息，据Dapprader最新发布的八月加密市场报告显示，PayPal美元稳定币PYUSD在推出后第一个月就遭遇市场冷遇，日均交易量基本无法超过10万美元，此外PYUSD的采用率也很低，截至目前只有一个非交易钱包持有超过10,000 美元的代币。报告还披露另一个美元稳定币USDC在九月初登陆Base链，但其市值却在过去14个月缩水了50%，不过Circle正计划在11月之前将USDC部署到Optimism和另外四个区块链。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase CEO：加密货币可能成为2024年美国总统竞选的“热门话题”]]></title>
+        <id>https://panewslab.com/zh/articledetails/rsp5cssj.html</id>
+        <link href="https://panewslab.com/zh/articledetails/rsp5cssj.html"/>
+        <updated>2023-09-10T07:58:58.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月10日消息，据雅虎财经报道，Coinbase 首席执行官Brian Armstrong表示加密行业面临的问题之一是缺乏明确的监管。行业可以通过多种方式获得明确性，例如通过法院、国会和美国商品期货交易委员会 (CFTC)。他还认为 2024 年可能会有一位新的 SEC 主席。如果Gary Gensler不再担任 SEC 主席，“肯定会帮助”该行业。谈到 2024 年的竞选，加密货币可能成为白宫竞选中的一个“热门话题”。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[下周必关注 | TOKEN2049将于13日-14日在新加坡举办；以太坊Holesky测试网将于15日正式推出（9.11-9.17）]]></title>
+        <id>https://www.odaily.news/post/5189647</id>
+        <link href="https://www.odaily.news/post/5189647"/>
+        <updated>2023-09-10T07:28:03.000Z</updated>
+        <summary type="html"><![CDATA[下周重点预告：
+Polygon zkEVM 主网测试版已完成火龙果升级，预计于 9 月 11 日登录主网；
+TOKEN 2049 将于 2023 年 9 月 13 日-14 日于新加坡举办；
+美国受托人反对 FTX 出售、质押和对冲逾 30 亿美元加密持仓计划，下周听证会或影响市场走势；
+
+dYdX 将于 9 月 13 日启动测试网 3 ，测试网 2 将于 9 月 11 日关闭；
+以太坊 Holesky 公共测试网创世文件已生成，将于 9 月 15 日正式推出；
+BAYC：HV-MTL Rift 最终测试期间发现 bug，将推迟至下周开放；
+9 月 11 日 - 9 月 17 日，行业内所有较值得关注的事件预告如下：
+9 月 11 日
+CME 和 CF Benchmarks 将于 9 月 11 日推出比特币和以太坊亚太地区参考汇率
+Odaily星球日报讯 CME Group 与加密货币基准指数提供商 CF Benchmarks 计划推出两种新的亚太地区特定参考利率。9 月 11 日将推出 CME CF 比特币亚太地区参考汇率（BRRAP）和 CME CF 以太坊美元亚太地区参考汇率（ETHUSD_AP），分别为比特币和以太坊的美元价格提供每日一次的参考汇率。 
+CME 加密货币产品全球主管 Giovanni Viciioso 表示，“这些新的参考利率旨在满足全球参与者在不断增长的数字资产领域不断变化的需求。CME Group 37% 的加密货币总交易量是在非美国市场进行，其中 11% 的交易来自亚太地区。”（PRNewswire）
+Web3 Ventures 完成私募配售，将于 9 月 11 日在加拿大证交所上市
+Odaily星球日报讯 专注于区块链解决方案、去中心化应用领域战略投资的Web3 Ventures 宣布已获得最终批准，将在加拿大证券交易所（CSE）上市，股票代…]]></summary>
+        <author>
+            <name>Azuma</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[香港警方破获利用数万张预付卡洗钱1.05亿港元的犯罪集团并逮捕5人]]></title>
         <id>https://panewslab.com/zh/articledetails/xg14ahvw.html</id>
@@ -25,6 +84,39 @@
         <summary type="html"><![CDATA[PANews 9月10日消息，据Cointelegraph报道，根据市场情报公司Amberdata最近的一份报告显示，美国和欧洲四分之一的资产管理公司和对冲基金已聘请高级管理人员来监督数字资产策略。24% 的资产管理公司已采用数字资产战略，另有 13% 的公司计划在未来两年内这样做。该报告调查了美国、英国和欧洲的 60 名投资专业人士。受访者包括资产管理公司、对冲基金和其他投资者。大约一半（48%）的研究参与者将数字资产纳入其公司的投资组合中。Amberdata 进一步预测，未来两年，管理者将优先考虑交易和投资策略，特别强调创造创新的投资产品。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Foresight Ventures市场周报：市场持续低迷，等待复苏？]]></title>
+        <id>https://www.odaily.news/post/5189639</id>
+        <link href="https://www.odaily.news/post/5189639"/>
+        <updated>2023-09-10T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[A. 市场观点
+一、宏观流动性
+货币流动性趋紧。国际油价上涨至 10 个月最高加剧通胀担忧；同时美国经济数据突显消费者需求和整体经济韧性，提升了避免衰退的概率，市场对美联储 11 月加息的预期升温。美元指数站稳 6 个月最高，压制风险类资产。美股明星科技股急转直下，主流加密货币普跌。
+
+二、全市场行情
+市值排名前 100 涨幅榜：
+
+本周市场持续阴跌。山寨小票短线拉盘，缺乏持续性。加密市场 1.1 万亿美元市值，其中 BTC、ETH 和稳定币 8000 亿美元；其他几万个山寨币萎缩到只有 3000 亿美元。市场缺乏热点，围绕合约小票逼空。
+
+TON：市值接近前 10 名，是近期表现最强势公链。TON 在技术上没有创新，主要是电报的流量红利。电报生态发展迅速，出现很多机器人项目，类似微信小程序。
+
+SOL：VISA 选择用 SOL 链支付，而不是 ETH 链。因为 SOL 更快和便宜。
+
+BANANA GUN：交易机器人项目近期计划空投代币，抢到很多 UNIBOT 客户，类似 SUSHI 和 UNI 的关系。市场预期空投后或达到 UNIBOT 一半市值。
+
+三、BTC 行情
+1）链上数据
+衍生品市场的风险偏好下降。23 年 ETH 期货市场活动明显低于 21-22 年水平，平均日交易量已降至过去两年的一半。现货市场资金持续外流，衍生品市场流动性持续下降。总体而言，投资者似乎对重返市场犹豫不决。
+
+稳定币整体明显下降。USDT 市值增长 500 万美元，但是 USDC 市值下降 1.4 亿美元，而且 USDC 所代表的主要是美国投资者。
+
+长期趋势指标 MVRV-ZScore 以市场总成本作为依据，反映市场总体盈利状态。当指标大于 6 时，是顶部区间；当指标小于 2 时，是底部区间。MVRV 跌破关键水平 1 ，持有者总体上处于亏损状态。当前指标为 0.4 ，进入复苏阶段。
+
+…]]></summary>
+        <author>
+            <name>Foresight</name>
         </author>
     </entry>
     <entry>
