@@ -6,6 +6,36 @@
       "siteUrl": "https://panewslab.com/zh/news/index.html",
       "articles": [
         {
+          "id": "https://panewslab.com/zh/articledetails/59kvlgca.html",
+          "author": "PA一线",
+          "description": "PANews 9月11日消息，据Web3社区NounsDAO官网信息，NounsDAO推出分叉页面，支持分叉的社区成员可选择加入分叉并分割DAO财库。支持分叉的时间窗口为一周，窗口期结束后，若20%的Nouns NFT支持此次分叉，支持者将从NounsDAO主体中分离，并从该项目财库分割出相应比例的ETH。目前已有265枚Nouns加入分叉，距离窗口结束还剩5天16小时50分钟。",
+          "link": "https://panewslab.com/zh/articledetails/59kvlgca.html",
+          "publishedOn": "2023-09-10T04:36:35.000Z",
+          "wordCount": 348,
+          "title": "NounsDAO推出分叉页面，支持者可加入分叉并分割DAO财库",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/7srz9b3n.html",
+          "author": "PA一线",
+          "description": "PANews 9月10日消息，据官方数据，过去7天Circle共发行9亿美元USDC，赎回11亿美元USDC，流通量减少2亿美元。截至9月7日，USDC总流通量为259亿美元，储备量为260亿美元，其中现金17亿美元，Circle Reserve Fund持有243亿美元。",
+          "link": "https://panewslab.com/zh/articledetails/7srz9b3n.html",
+          "publishedOn": "2023-09-10T04:29:24.000Z",
+          "wordCount": 354,
+          "title": "数据：过去一周Circle USDC流通量减少2亿美元",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
+          "id": "https://panewslab.com/zh/articledetails/bwp399lv.html",
+          "author": "PA一线",
+          "description": "PANews 9月10日消息，据链上分析师余烬监测，某地址在最近两天内从Bithumb提出4700枚ETH（766万美元），然后换成WETH转至0x912开头多签地址。0x912开头多签地址使用WETH不断买入PERP，目前已使用4509枚WETH买入680万枚PERP（706万美元），均价1.08美元，买入量已占PERP流通量的10%。",
+          "link": "https://panewslab.com/zh/articledetails/bwp399lv.html",
+          "publishedOn": "2023-09-10T03:38:29.000Z",
+          "wordCount": 343,
+          "title": "数据：某多签地址买入680万枚PERP，占PERP流通量的10%",
+          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
+        },
+        {
           "id": "https://panewslab.com/zh/articledetails/pw4j5a0g.html",
           "author": "PA一线",
           "description": "PANews 9月10日消息，据Spot On Chain监测，0x171开头鲸鱼地址于10小时前向币安存入37728枚COMP，均价39.64美元，总价值150万美元。该巨鲸目前仍有5.8万枚COMP（259万美元）存放在Aura Finance平台，估计总亏损为132万美元。",
@@ -3717,16 +3747,6 @@
           "publishedOn": "2023-09-06T01:36:13.000Z",
           "wordCount": 2259,
           "title": "星球日报 | Connext空投现漏洞；Hayes称近期一直处于牛市（9月6日）",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5189550",
-          "author": "秦晓峰",
-          "description": "原创 | Odaily星球日报\n作者 | 秦晓峰\n\n在等待了两周时间， Layer 2 互操作性协议 Connext 今晚终于开放空投申领（网址：https://airdrop.connext.network/claim/52），但却闹出一场乌龙事件。\n申领开放刚过半小时，加密 KOL 「猪猪 Bang」发文称，Connext 空投合约疑似存在漏洞，“科学家”可以利用漏洞无限盗取其他用户的 NEXT 空投，并附上了 0x44Af 开头地址（点击跳转）频繁申领记录。\n\n该消息在社区中广泛传播，随后有用户分析链上信息发现，0x44Af 开头地址的地址今日才正式创建，并在空投开放后领取次数超过 230 次，所得代币全部卖出换成 ETH、USDT 与 USDC，获利约 3.9 万美元。\n此时，Connext 空投合约也出现故障，部分用户反映无法成功领取空投，社群中开始流传着官方因为漏洞关闭了空投申领的传言。\n然而，事情的真相是，Connext 空投合约并没有漏洞。\n加密 KOL「猪猪 Bang」表示，Connext 空投合约是安全的，自己最开始的分析误导了读者。他表示，虽然 Connext 空投合约规定了空投发送者和领取者可以是不同的地址，但却需要原始地址进行签名授权才能调用。\n“首先领取方法为 claimBySignature，最后一个参数就是传递签名信息，而这个 “签名” 是用户自己去利用智能合约或其他方式去调用返回的。所以我们可以理解为：_signature 就是一个凭证，_recipient 用户拿着这个凭证就可以去获取 _beneficiary 地址的 token 了。”他补充说，0x44Af 开头地址应该是工作室进行代币归集，而不是合约本身存在漏洞。\n\n（智能合约部分信息）\n慢雾安全团队告诉Odaily星球日报，Connext 空投合约并没有存在明显漏洞，导致他人冒领空投；\n用户可以通过 NEXT Distributor 合约的 claimBySignature 函数领取 NEXT 代币，其中存在 recipient 与 beneficiary 角色：recipient 角色用于接收 claim 的 NEXT 代币，beneficiary 角色是有资格领取 NEXT 代币的地址，其在 Connext 协议公布空投资格时就已经确定。在用户进行 NEXT 代币 claim 时，合约会进行两次检查：一是检查 beneficiary 角色的签名，二是检查 beneficiary 角色是否有资格领取空投。\n在进行第一次检查时其会检查用户传入的 recipient 是否是由 beneficiary 角色进行签名，因此随意传入 recipient 地址在未经过 beneficiary 签名的情况下是无法通过检查的。如果指定一个 beneficiary 地址进行构造签名即使可以通过签名检查，但却无法通过第二个对空投领取资格的检查。空投领取资格检查是通过默克尔证明进行检查的，其证明应由 Connext 协议官方生成。因此没有资格领取空投的用户是无法绕过检查领取他人的空投的。\n总结一下上面的分析，用户 A 地址如果有资格申领，可以授权给 B 进行申领，而这次 0x44Af 开头地址的地址之所以可以申领如此多的代币，是因为该实体控制的多个合格地址对其进行授权，并非黑客利用漏洞攻击。\n不过，有意思的是，在空投开放前，Connext 就针对女巫地址进行「围剿」，邀请社区帮助团队筛选女巫地址，并愿意将追回 NEXT 的 25% 作为奖励送给举报者。根据官方数据，最终 5,725个女巫地址被识别并从资格列表中删除，收回 5,932,065枚代币。\n不过，从今晚的表现来看，反女巫行动似乎还留下了体量巨大的漏网之鱼，甚至还给整个空投平添了许多障碍。\nConnext 核心贡献者 Arjun Bhuptani 发文表示，0x44Af开头地址是一个女巫 bot，该 bot 向 Tokensoft 后台发送大量垃圾请求导致其 API 崩溃，这也可能是空投申领界面无法使用的原因。（Odaily 注：阻止其他人申领，可能是想获得更好的出售价格。）\n好消息是，官方已经注意到这一问题，空投将重新开放。Connext 发文表示：“我们已意识到影响空投网站的问题，导致用户无法领取。我们检测到机器人活动导致我们的合作伙伴和服务提供商服务器 Tokensoft 超载。他们正在积极努力解决这个问题，以实现正常的索赔。一切都应该很快就会恢复正常。”",
-          "link": "https://www.odaily.news/post/5189550",
-          "publishedOn": "2023-09-05T16:30:02.000Z",
-          "wordCount": 1915,
-          "title": "Connext空投闹剧：漏洞乌龙和查不完的女巫",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
