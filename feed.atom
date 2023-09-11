@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-09-11T09:08:13.990Z</updated>
+    <updated>2023-09-11T10:08:04.983Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一周融资速递 | 20家项目获投，已披露融资总额约2.91亿美元（9.4-9.10）]]></title>
+        <id>https://www.odaily.news/post/5189665</id>
+        <link href="https://www.odaily.news/post/5189665"/>
+        <updated>2023-09-11T09:03:09.000Z</updated>
+        <summary type="html"><![CDATA[经 Odaily星球日报不完全统计， 9 月 4 日-9 月 10 日公布的海内外区块链融资事件共 20 起，较上周数据（10 起）大幅增加，已披露融资总额约为 2.91 亿美元，较上周数据（3895 万美元）大幅增加。
+上周，获投金额最多的项目为英国数字银行 Zopa（9300 万美元）；链上 IP 基础设施 Story Protocol 也凭借着较好的资方背景收获一波关注。
+以下为具体融资事件（注： 1. 依照已公布金额大小排序；2. 不含基金募资及并购事件；3. *为部分业务涉及区块链的“传统”领域公司）：
+
+
+英国数字银行 Zopa 完成 7500 万英镑融资，IAG SilverStripe 领投
+9 月 8 日，英国数字银行 Zopa 宣布完成 7500 万英镑（约合 9300 万美元）融资，IAG SilverStripe 领投。截至目前，Zopa 融资总额达 5.3 亿英镑。
+
+据悉，Zopa 目前不支持直接进行加密货币交易，但其客户可以通过将英镑（GBP）从其账户转移到受英国金融行为监管局（FCA）认可和监管的第三方交易所（比如 eToro）来进行数字资产投资。
+
+IP 基础设施 Story Protocol 累计完成 5400 万美元融资，a16z领投
+9 月 6 日，链上 IP 基础设施 Story Protocol 已累计完成 5400 万美元融资，a16z领投，Hashed、Endeavor、Samsung Next、dao 5、Insignia Venture Partners 等参投。
+
+印度游戏和体育媒体平台 Nazara 完成 4920 万美元融资，将投资区块链游戏
+9 月 7 日，印度多元化游戏和体育媒体平台 Nazara Technologies Limited 以 2.3 亿美元估值完成 4920 万美元融资，SBI Mutual F…]]></summary>
+        <author>
+            <name>夫如何</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1inch社区已通过“质押100万枚DAI以从DSR中赚取收益”提案]]></title>
         <id>https://panewslab.com/zh/articledetails/2o4sr0jr.html</id>
@@ -28,6 +52,28 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[a16z：如何用一场魔术表演来理解零知识证明]]></title>
+        <id>https://www.odaily.news/post/5189666</id>
+        <link href="https://www.odaily.news/post/5189666"/>
+        <updated>2023-09-11T08:29:01.000Z</updated>
+        <summary type="html"><![CDATA[本文来自 | a16z
+原文作者 | Michael Blau
+编译 | Odaily 星球日报 Azuma
+编者按：作为 Crypto 在扩容、隐私等多个方向上发展的“秘籍宝典”，零知识证明（zero-knowledge proofs，简称 ZKPs）被业界寄予了了极高的期许。然而，由于针对该概念的解释性内容大多面向于具有一定计算机科学或密码学基础的人群，所以对于多数普通用户而言，想要彻底理解该概念本身仍具有一定的障碍。
+9 月 8 日，a16z 合伙人 Michael Blau 发布了关于零知识证明的科普性文章。文章巧妙了避开了零知识证明概念本身较为抽象的数学思辨部分，而是利用魔术表演来将 ZKP 的效用具象地展现了出来。 
+以下为 Odaily 星球日报就 Michael Blau 的原文内容（第一人称口吻）所做的编译，出于阅读流畅度考虑，存在一定删改。
+
+
+《 2001 太空漫游》的作者克拉克说过：“任何足够先进的科技，都与魔法无异。”
+零知识证明就是那些如同魔法般的科技中的一个，它其实是一个密码学概念，可用来解决 Web3 中的两项重大难题——扩容和隐私。
+从效用来看，采用零知识证明有助于降低链上交易费用，设计全新的隐私保护型 App，从而推动 Crypto 传播至十亿级别的用户。抛开 Crypto 不提，ZKP 也有潜力被应用于安全传输敏感数据，进而帮助打击非法金融系统或对抗泛滥的诈骗信息。
+但零知识证明究竟是什么呢？对于少部分研究员、开发者而言，网络上可以找到很多详尽的解释，但这些内容并不面向计算机科学或秘密学经验较少的普通用户。尽管部分先驱也写过一些类比型的科普文章，但截至今日，想要找到一个精辟、通俗的零知识证明相关解释，进而帮助普通人准确地把握其魔力，仍不是一件简单的事情。
+所以在接下来这篇文章中，我结合了我在 Crypto 和魔术行业的背景来探索一个全新…]]></summary>
+        <author>
+            <name>Azuma</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[以太坊网络Gas费跌至10 Gwei]]></title>
         <id>https://panewslab.com/zh/articledetails/5rmmjafb.html</id>
         <link href="https://panewslab.com/zh/articledetails/5rmmjafb.html"/>
@@ -35,6 +81,22 @@
         <summary type="html"><![CDATA[PANews 9月11日消息，Etherscan数据显示，当前以太坊网络Gas费已跌至10 Gwei。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欧科云链OKLink正式发布链上AML服务，让合规变得更加简单]]></title>
+        <id>https://www.odaily.news/post/5189667</id>
+        <link href="https://www.odaily.news/post/5189667"/>
+        <updated>2023-09-11T08:23:19.000Z</updated>
+        <summary type="html"><![CDATA[2023 年 9 月 11 日，区块链技术公司欧科云链控股（01499.HK，下称“OKLink”）正式推出多功能链上反洗钱服务：OKLink Onchain AML（anti-money laundering）。作为亚洲提供此类监管技术（RegTech）平台的区块链技术公司，此次欧科云链推出的 AML 服务能够通过对地址交易进行解析，并结合区块链标准和安全审计技术，助力数字资产公司、DeFi 项目和金融机构实现合规和风险检测。
+OKLink Onchain AML 服务以“标签”的形式为区块链地址附加标识符，从而有效检测和识别风险合约、地址、代币和非法活动，帮助用户区分交易所、MEV 机器人、智能合约、黑客和加密鲸等地址。标签数据与链上数据分析紧密结合的方式，有效增强了 OKLink Onchain AML 提供自动化和持续交易筛查和追踪的能力。与此同时，用户还可以根据特定的合规程序、风险政策或其他要求在 AML 平台上进行个性化定制。
+作为 OKLink Onchain AML 中两大核心产品，KYT（Know Your Trasaction）和 KYA（Know Your Address）在传统的 KYC 服务基础上进行革新。KYT 将地址与现实世界建立关联， 监控充提币交易风险、识别恶意地址并生成警报，满足数字资产服务商 (VASP) 的合规与风控需求；KYA 可针对链上地址的风险类型进行识别、分析、测算和分类，并协助数字资产调查，初步筛查链上交易风险，从而提高数字资产透明度。值得一提的是，目前 KYT 已经率先支持了对 Base、Starknet 等热门链检测的功能。
+谈及此次 Onchain AML 服务正式上线，欧科云链集团副总裁、欧科云链控股执行董事张超表示：“欧科云链正式推出 OKLink Onchain AML，引领了数字资产行业透明和安全的潮流，体现了欧科云链持续致力于开发和提供直观的、基于区块链的工具，帮助客户监测风险，并确保符合不断变化的监管环境。我们期待为虚拟资产服务提供商、金融机构、项目方和政府与执法机构提供包罗万象且量体裁衣的服务。”
+在产品功能方面，张超透露：“OKLink 已具备全球主流区块链的全方位解析能力，现已覆盖各类区块链网络 170 余条，并拥有超过 34 亿的地址标签。在此基础上，OKLink Onchain AML 服务支持对所有这些区块链上曾记录的所有交易历史的追溯。虚拟资产服务提供商（VASP）可由此进行配置，满足各个司法管辖区监管要求；金融机构可以通过 AML 的合规解决方案检测非法活动，如洗钱、恐怖融资、欺诈和盗窃等事件；DeFi 和链上协议项目方可以通过自定义警报来检测和减轻资金风险，如用于与金融不端行为、制裁、洗钱、恐怖融资和其他非法活动相关的合约代码和资金；政府机构和执法机构能够更高效便捷地识别、监测和调查虚拟资产交易风险和金融犯罪。”
+OKLink Onchain AML 积极响应香港于 2023 年 6 月 1 日实施的 VASP 新许可制度。新的 VASP 指南旨在通过实施严格的要求和与资产托管、客户资产隔离和网络安全标准相关的保护措施来保护投资者。由于 VASP 需要在香港的监管框架下运营，该地区将更加重视满足监管合规要求，包括 AML 和链上交易监测。“这些都与 OKLink Onchain AML 的理念与使命不谋而合”，张超进一步介绍道。
+据官方介绍，欧科云链同时提供Web3数据分析平台区块链浏览器、专注链上调查的链上天眼（Chaintelligence）数据工具，始终助力构建虚拟资产领域的合规与安全。]]></summary>
+        <author>
+            <name>欧科云链OKLink</name>
         </author>
     </entry>
     <entry>
@@ -4067,16 +4129,6 @@ Trident首席执行官DeMartino曾就职于瑞银、巴克莱和汇丰银行，2
         <link href="https://panewslab.com/zh/articledetails/69298uiz.html"/>
         <updated>2023-09-06T22:21:52.000Z</updated>
         <summary type="html"><![CDATA[PANews 9月7日消息，据CoinDesk报道，互操作性协议Socket完成500万美元融资，Coinbase Ventures和Framework Ventures领投。新资金将用于扩大Socket与Coinbase的合作，包括为Coinbase钱包和Base的开发者及用户提供桥接服务。据悉，Socket自上线以来已经促成超过250万笔跨链交易，交易量超过35亿美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ARK Invest和21Shares已向SEC提交以太坊现货ETF申请]]></title>
-        <id>https://panewslab.com/zh/articledetails/cw6jjnlz.html</id>
-        <link href="https://panewslab.com/zh/articledetails/cw6jjnlz.html"/>
-        <updated>2023-09-06T22:05:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月7日消息，据CoinDesk报道，根据周三向美国证券交易委员会(SEC)提交的一份文件，资产管理公司ARK Invest和21Shares已提交以太坊现货ETF申请。该基金名为“ARK 21Shares以太坊ETF”，将直接投资于ETH，并在Cboe BZX交易所进行交易。21Shares是该信托的发起人，Delaware信托公司是受托人，Coinbase托管信托公司是托管人。此外，Cboe BZX还提交了VanEck以太坊现货ETF的19b-4文件，Coinbase将作为监控共享合作伙伴。据此前消息，ARK Invest和21Shares已联合提交两份以太坊期货ETF申请，预计SEC将在10月中旬之前做出决定。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
