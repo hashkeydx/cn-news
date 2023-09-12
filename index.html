@@ -51,8 +51,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-12 datetime="2023-09-12T10:29:09.000Z">2023-09-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-12 datetime="2023-09-12T10:29:09.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-12 datetime="2023-09-12T12:30:00.000Z">2023-09-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-12 datetime="2023-09-12T12:30:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -67,6 +67,125 @@
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189704"
+                        open
+                      >
+                        <summary class="article-expander__title">深入探讨模块化智能合约账户设计：解决落地技术难题</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189704">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文标题：Modular Smart Contract Account Architecture and Challenges
+原文作者：Rui S，SevenX Ventures
+原文编译：深潮 TechFlow
+介绍
+从外部拥有账户（EOA）向智能合约账户（SCA）的转变正在蓬勃发展，并得到了许多爱好者的支持，包括 Vitalik 本人。尽管引起了人们的兴奋，但 SCA 的采用并不像 EOA 那样普及。其中的关键问题包括熊市带来的挑战、迁移的担忧、签名问题、Gas 开销以及最关键的工程难题。
+账户抽象（AA）最重要的优势之一是能够使用代码定制功能。然而，一个主要的工程挑战是 AA 功能的非互操作性，而这种碎片化阻碍了集成，并为供应商锁定打开了大门。此外，在同时升级和组合功能时确保安全性可能会很复杂。
+模块化账户抽象的出现是更广泛的 AA 运动的一个子集，这种创新的方法可以将智能账户与其自定义功能分离。其目标是创建一个模块化结构，以开发具有多样功能的安全、无缝集成的钱包。在未来，它可以实现一个自由的智能合约账户“应用商店”，使钱包和 dApp 不再专注于构建功能，而是专注于用户体验。
+AA 简述
+
+传统的 EOA 引入了许多挑战，如种子短语、Gas、跨链和多个交易。我们从未打算引入复杂性，但事实上，区块链对于大众来说并不是一款简单的游戏。
+账户抽象利用智能合约账户，允许可编程验证和执行，用户能够一次性批准一系列交易，而不是每个交易都要签名和广播，并实现更多功能。它为用户体验（例如，Gas 抽象和会话密钥）、成本（例如，批处理交易）和安全性（例如，社交恢复、多签名）带来了好处。目前，有两种实现账户抽象的方式：
+
+协议层：一些协议本身提供了本地账户抽象支持，ZKsync 交易无论是来自 EOA 还是 SCA，都遵循相同的流程，使用单个内存池和交易流程来支持 AA，而 Star…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189702"
+                        open
+                      >
+                        <summary class="article-expander__title">a16z对话Solana联创：尝试创造更伟大的想法，而不是重复已有的东西</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189702">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文标题：Debating Blockchain Architectures (with Solana)
+主持人：a16z crypto 普通合伙人 Ali Yahya、a16z crypto 交易团队合伙人 Guy Wuollet
+嘉宾：Solana Labs CEO、Solana 联合创始人 Anatoly Yakovenko
+编译：倩雯，ChainCatcher
+“但我想说的是，人们应该尝试创造更伟大的想法，而不是重复已有的东西。我听过的最好的比喻是，当人们发现水泥时，每个人都专注于用水泥砌砖，然后有一个人想，我可以建摩天大厦。他们想出了一个办法，把钢筋水泥和建筑结合在了一起，这是谁也想不到的。新工具就是水泥。你只需要搞清楚摩天大厦是什么，然后去建造大厦。”
+本期节目，a16z crypto 与 Solana Labs 联合创始人、首席执行官 Anatoly Yakovenko 对话，Anatoly Yakovenko 曾在高通公司任职，担任过高级工程师和工程经理。
+概要
+
+去中心化计算的终极目标
+
+Solana 背后的理念
+
+Solana 与以太坊的异同
+
+区块链的未来发展
+
+Web3社群与开发
+
+Web3初创公司人才招募
+
+去中心化计算的终极目标
+a16z crypto：首先，我想知道你如何看待去去中心化计算的终极目标？如何看待区块链架构？
+Anatoly Yakovenko：我的立场比较极端。我认为，结算将变得越来越不重要，就像在传统金融中一样。你仍然需要有人提供担保，但这些担保可以通过许多不同的方式实现。我认为对世界真正有价值的，是拥有全球分布、全球同步的同步状态，这也是真正的难点。你可以把它想象成 Google Spanner 对谷歌的作用，或者纳斯达克对金融市场的作用。
+从宏观看，区块链系统无需权限、可编程、高度开放，但是在堆栈的后背仍旧是某种市场。对所有…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189699"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus波动率专栏(20230912)：加密市场波动率走高，BTC下跌后收回失地</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189699">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>昨日，美股三大指数集体收涨，纳指涨超 1% 。摩根士丹利提高了特斯拉的评级，认为超级计算机 Dojo 带来的潜力或可促使股价上涨到$ 400 ，在此利好信息的刺激下，特斯昨日暴涨 10% 。此外，美债收益率维持区间震荡，两年期美债收益率未能站上 5% 关口，下跌 1.06 bp，而十年期基准国债收益率则上涨 1.04 bp，收报 4.292% 。
+
+Source: SignalPlus, Economic Calendar
+数字货币方面，BTC 延续了前一日的小幅震荡下跌行情，并于昨日晚间（约 11 Sep 22: 00 UTC+ 8）迅速扩大了跌幅，在跌破 25000 的支撑位以后价格迎来反弹并在最终收复全部失地，交割于 25802.3 （-0.0067% ）。
+
+Source: Binance &amp; TradingView
+实际波动率持续走高，推动了期权 IV 的抬升，截止今日交割，BTC/ETH IV 整体上涨 0.75% 左右，回到了过去三个月以来的中位数附近；在此基础之上，本周五和十月底还分别有+ 0.4% Vol 左右的额外溢价，形成了曲面上的局部高点。
+
+Source: Deribit （截至 12 Sep 16: 00 UTC+ 8）
+
+
+Source: SignalPlus
+交易方面，这次的暴跌让市场的焦点重新回到看跌策略上，过去 24 H 里分别有累积 3549 BTC/ 19854 ETH Notional 的 Bear Put Spread 成交，大多数集中在九月下旬至十月底的期限上。除此之外，ETH 中远期上还有数量可观的 Short Risky 交易，将 ETH 25 RR 打压至过去三个月的 25% 分位数附近。
+
+Source: SignalPlus
+还观察到，在昨日 IV 逐渐升高之时，BTC-29 Sep 23 涌现了源源不断的 Straddle 卖单，一路卖到了 11 Sep 15: 38: 22 UTC，接近日内 IV 的峰值。
+
+Source: SignalPlus
+
+Source: Deribit Block Trade
+
+Source: Deribit Block Trade
+
+您可在 ChatGPT 4.0 的  Plugin   Store 搜索  SignalPlus  ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web 3 ，或者加入我们的微信群（添加小助手微信：SignalPlus 123）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。
+SignalPlus Official Website：https://www.signalplus.com</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -406,6 +525,129 @@ FTX 债权人@sunil_trades 于 X 平台公布了一份更新于 9 月 11�
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/wgbm07p1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">L1区块链LUKSO发布“通用配置文件”的测试版，旨在为用户提供完整的“链上身份”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/wgbm07p1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 9月12日消息，据CoinDesk报道，由区块链资深人士 Fabian Vogelsteller 和 Marjorie Hernandez 共同创立的 Layer 1 区块链 Lukso 正在发布“通用配置文件”的测试版 - 该功能旨在为用户提供完整的“链上身份”，该功能带有可恢复的加密钱包以及用于与社交媒体应用程序交互的配置文件。通用配置文件可在区块链上用于各种应用程序（NFT、去中心化社交媒体、支付），因此将用户的活动集成到一个帐户下，而不仅仅是一个钱包地址。
+此前5月，Layer 1公链LUKSO主网已正式上线。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/3423zwah.html"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊客户端Geth发布v1.13版本，提供存储以太坊状态的新数据库模型</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/3423zwah.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 9月12日消息，据以太坊官方博客，Go Ethereum发布以太坊客户端 Geth v1.13 版本。Go Ethereum 表示，该版本主要功能已经开发了 6 年，提供了一个用于存储以太坊状态的新数据库模型，比以前的方案更快，并且还具有适当剪枝（pruning）实施。该模型支持对历史状态进行正确、全面的动态剪枝，这意味着不需要再次使节点离线来重新同步或手动剪枝。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/t313x1kz.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国白宫：英伟达等八家公司自愿承诺管理AI风险 包括展开安全测试、添加数字水印等</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/t313x1kz.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 9月12日消息，美国白宫今日在官网发布声明称，美国商务部长雷蒙多等政府高官将在白宫召集AI行业高管，宣布Adobe、Cohere、IBM、英伟达、Palantir、Salesforce、Scale AI和 Stability八家公司承诺采取自愿监管措施管理AI技术开发风险，包括在推出前展开安全测试、构建将安全放在首位的系统、为AI生成内容添加数字水印等。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/9u2o19r8.html"
+                        open
+                      >
+                        <summary class="article-expander__title">LayerZero与Google Cloud达成合作，Google Cloud将作为LayerZero的默认预言机</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9u2o19r8.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 9月12日消息，跨链消息协议 LayerZero 背后的团队 LayerZero Labs 今天宣布与 Google Cloud 开展新的合作，以高性能和可靠的方式增强其跨链环境的安全性云基础设施并有助于加速 Web3 互操作性的未来。
+通过该协议，Google Cloud 将作为 LayerZero 的默认预言机，保护 LayerZero 网络上的消息。在 LayerZero 之上构建去中心化应用程序 (dApps) 的开发人员现在可以使用 Google Cloud 预言机来验证交易。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/qe14d9av.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Range Protocol完成375万美元种子轮融资，HashKey Capital和Nomad Capital共同领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qe14d9av.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 9月12日消息，据官方medium，链上资产管理平台 Range Protocol 宣布完成 375 万美元种子轮融资，本轮融资由 HashKey Capital 和 Nomad Capital 共同领投，Spark Digital Capital、Mirana Ventures、Symbolic Capital、Asymm Ventures 和 Comma3 Ventures 参投。本轮融资资金将用于继续建设 Range Protocol 的一体化链上资产管理平台，并进一步扩大团队和社区规模。
+Range Protocol 是一个链上资产管理平台，旨在为散户投资者和专业数字资产管理者之间提供公平的竞争环境，平台目前已在以太坊、BSC、Mantle、Polygon 和 Arbitrum 上部署。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/u3fhaq81.html"
+                        open
+                      >
+                        <summary class="article-expander__title">行情：比特币站上26000美元/枚，以太坊触及1600美元/枚</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/u3fhaq81.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 9月12日消息，行情显示，比特币站上26000美元/枚，日内涨3.64%；以太坊向上触及1600美元/枚，日内涨3.90%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -6648,91 +6890,6 @@ CFTC命令这三家公司分别支付民事处罚金，分别为：Opyn 25万美
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/75wpeno5.html"
-                        open
-                      >
-                        <summary class="article-expander__title">东南亚多功能在线服务平台Grab新增Web3钱包功能，尚不支持打车等场景支付</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/75wpeno5.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月8日消息，据官网消息，东南亚多功能在线服务平台Grab在其应用的“财务”页面新增Web3钱包功能，允许用户存储和管理数字资产，包括SG Pitstop Pack优惠券和数字收藏品。使用Grab Web3钱包，用户可以执行区块链交易，访问有关区块链的教育文章，查看交易历史并与其数字资产进行交互。该钱包目前只支持Polygon区块链，Grab限时为发送和接收交易相关的费用提供赞助。不过Web3钱包尚未提及是否支持打车等场景支付。
-据悉，Grab是东南亚地区最大的多功能在线平台之一，总部位于新加坡。它最初是一家出租车预订应用，后来扩展到食品送货、货运、支付、金融服务等多个领域。Grab的服务在东南亚的许多国家和地区都非常流行，包括新加坡、马来西亚、印度尼西亚、菲律宾、越南、泰国等。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/qhyhh43q.html"
-                        open
-                      >
-                        <summary class="article-expander__title">预警：请尽快更新苹果设备，已发现被积极利用的零点击漏洞和零日漏洞BLASTPASS</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/qhyhh43q.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月8日消息，Citizen Lab在X平台上表示：“敦促大家尽快更新其苹果设备，我们发现了一个被积极利用的零点击漏洞和零日漏洞，该漏洞被用来传播以色列网络武器公司NSO Group的间谍软件Pegasus（飞马）。”
-根据其发布的报告，该漏洞链称为BLASTPASS，能够在没有受害者任何交互的情况下，入侵运行最新版本iOS（16.6）的iPhone。该漏洞涉及含有恶意图像的PassKit附件，这些图像从攻击者的iMessage帐户发送给受害者。Citizen Lab已向Apple披露了其发现，并协助他们进行了调查。Apple针对此漏洞链发布了两个CVE（CVE-2023-41064和CVE-2023-41061）。请立即更新Apple设备，并敦促那些由于自己的身份或工作而面临更大风险的人启用Lockdown模式，Apple的安全工程和架构团队已确认，Lockdown模式可以阻止这种特定攻击。
-据悉，飞马间谍软件是一款特洛伊木马软件，通过飞马能够监控受害设备所有活动，还能控制麦克风和摄像头的开关。飞马可以在受害者不知情的情况下，解密其加密通信（例如Whatsapp、脸书、Line、微信等应用的通信），且不需要借助运营商，苹果或其他公司的协助。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/bb3ce244.html"
-                        open
-                      >
-                        <summary class="article-expander__title">LBRY计划就违反证券法指控向美国第一巡回上诉法院提起上诉</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/bb3ce244.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月8日消息，据美国前联邦检察官James K. Filan在X平台上分享的一份法律文件，基于区块链的文件共享网络LBRY已发出通知，打算就美国证券交易委员会（SEC）指控其违反证券法的案件向美国第一巡回上诉法院提起上诉。
-此前消息，2021年3月份，SEC对LBRY提起诉讼，指控其出售其LBC代币违反证券法；2022年11月，美国法官在此案中裁定SEC胜诉；今年5月，SEC向法院申请将对LBRY的2200万美元罚金改为约11万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/tpj9hu31.html"
-                        open
-                      >
-                        <summary class="article-expander__title">链上发票结算平台Zeebu完成2500万美元预售轮融资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/tpj9hu31.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月8日消息，据CryptoSlate报道，链上发票结算平台Zeebu在预售轮融资中筹集了2500万美元，Bankai Ventures等多家战略投资者参投。
-据悉，Zeebu利用区块链技术为电信运营商提供忠诚度奖励、简化发票结算并提高透明度。Zeebu已经与Hayo Telecom Inc.、Axistel FZE、Qatama Ltd、BBT Voice Limited、Broadband Telecom Inc.、BridgeVoice Inc.和Novatel doo等电信提供商建立了战略合作伙伴关系，目标是与100多家此类电信运营商合作以促进跨境结算流程。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9173,8 +9330,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6159239765">
-        <time id="build-timestamp" datetime="2023-09-12T12:13:30.269Z">2023-09-12T12:13:30.269Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6159920565">
+        <time id="build-timestamp" datetime="2023-09-12T13:10:02.662Z">2023-09-12T13:10:02.662Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
