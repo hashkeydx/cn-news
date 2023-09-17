@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-09-17T17:05:27.901Z</updated>
+    <updated>2023-09-17T18:08:23.034Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -3867,71 +3867,6 @@ Parallax专注于为自由职业者、远程工作者和其他全球专业人士
         <summary type="html"><![CDATA[PANews 9月13日消息，据《财富》杂志报道，加密信托公司Fortress Trust创始人兼首席执行官Scott Purcell表示，该公司在最近的一次黑客攻击中损失了1200万至1500万美元的加密货币，其中大部分是比特币，但两种稳定币USDC和USDT也有少量被盗，公司立刻弥补了这一损失，“在22.5万名客户中，真正受影响的只有4名客户。”Purcell反复强调，安全漏洞的过错在于第三方供应商，而不是Fortress Trust或该公司的托管合作伙伴Fireblocks或BitGo。
 Ripple发言人拒绝就安全漏洞的严重程度发表评论，但表示“用于支付客户资金的金额已纳入交易中”。The Block曾报道称，作为收购交易的一部分，Ripple已对遭遇安全事件的Fortress客户进行全额赔偿。Ripple发言人表示，收购过程在此安全事件发生后加快了进展。而截至收购交易公告发布时，Ripple和Fortress Trust均未透露Ripple已同意将客户作为交易的一部分。
 据悉，Fortress在9月7日在X平台上发布的一份声明中表示，其客户受到了“云工具受到损害的第三方供应商”的影响，但没有造成资金损失。而9月8日，Ripple宣布了收购Fortress的交易，Ripple通过现金和股权的组合为此次收购提供了资金，但没有披露估值。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BitMEX推出首批预测市场合约，包括“SBF的命运”、“比特币ETF的未来”等预测]]></title>
-        <id>https://panewslab.com/zh/articledetails/bagdxnuq.html</id>
-        <link href="https://panewslab.com/zh/articledetails/bagdxnuq.html"/>
-        <updated>2023-09-13T05:57:30.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月13日消息，据官方博客，加密交易所BitMEX宣布推出预测市场，这是一种加密货币衍生品，可使能交易者能够预测现实生活中各种主题、行业等事件的结果并采取仓位。目前可交易的第一批合约包括以下预测：FTX破产申请(产品为P_FTXZ26)、比特币ETF的未来(产品为P_XBTETF)以及FTX创始人Sam Bankman-Fried(产品为P_SBFJAILZ26)的命运。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SignalPlus：自动编码器 (autoencoder)]]></title>
-        <id>https://www.odaily.news/post/5189710</id>
-        <link href="https://www.odaily.news/post/5189710"/>
-        <updated>2023-09-13T05:56:04.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Steven Wang
-
-前言
-两兄弟 N.Coder 和 D.Coder 经营着一家艺术画廊。一周末，他们举办了一场特别奇怪的展览，因为它只有一面墙，没有实体艺术品。当他们收到一幅新画时，N.Coder 在墙上选择一个点作为标记来代表这幅画，然后扔掉原来的艺术品。当顾客要求观看这幅画时，D.Coder 尝试仅使用墙上相关标记的坐标来重新创作这件艺术品。
-展墙如下图所示，每个黑点是 N.Coder 放置的一个标记，代表一幅画。在墙上坐标 [– 3.5, 1 ] 处的那幅原图 (original) 数字 6 的画 N.Coder 对其进行了重建 (reconstruction)。
-
-下图展示了更多例子，顶行的数字是原图，中行的坐标是 N.Coder 将图挂在墙上的坐标，底行是 D.Coder 根据坐标重建的作品。
-
-问题来了，N.Coder 如何决定每幅画在展墙上对应的坐标，而使得 D.Coder 仅用它就能重建原图的？原来是两兄弟在放置标记和重建作品的过程中，仔细监控售票处因顾客因重建质量不佳而要求退款而造成的收入损失，他们经过多年的“训练”逐渐“精通”标记放置和作品重建，而最大限度地减少这种收入损失。从上图对比原图和重建可以看出，两兄弟之间的磨合效果还不错。来参观艺术品的顾客很少抱怨 D.Coder 重新创作的画作与他们来参观的原始作品有很大的不同。
-有一天，N.Coder 望着展墙，有了一个大胆的想法，对于那些墙上当前没有标记的部分，如果让 D.Coder 来重建能创作出什么样的作品？如果成功的话，那么他们就可以举办自己 100% 原创的画展了。想想就兴奋，于是 D.Coder 随机选取了之前没有标记的坐标 (红点) 来重建，结果如下图所示。
-
-正如你所看到的，重建效果较差，有些图甚至都分辨不出是什么数字。那么到底出了什么问题，Coder 两兄弟该如何改进他们…]]></summary>
-        <author>
-            <name>SignalPlus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Block.one旗下加密交易所Bullish计划在香港申请牌照]]></title>
-        <id>https://panewslab.com/zh/articledetails/8rx1p0j9.html</id>
-        <link href="https://panewslab.com/zh/articledetails/8rx1p0j9.html"/>
-        <updated>2023-09-13T05:40:08.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月13日消息，据彭博社报道，Block.one旗下加密交易所Bullish首席执行官Tom Farley表示，作为其国际扩张努力的一部分，该交易所计划在香港申请牌照。Farley透露，该公司在全球拥有260名员工，其中110人在香港，约75人在美国，40人在新加坡，另外还有几十人在直布罗陀。Farley称：“我们正在申请香港的牌照，我们已经在那里建立一个交易所四年了，这是我们最大的办公室。”
-据该公司网站称，Bullish交易所在直布罗陀注册，目前不在美国、加拿大、中国大陆、日本、以色列和俄罗斯提供服务。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[德勤与Bitwave成立战略联盟，为企业提供数字资产合规解决方案]]></title>
-        <id>https://panewslab.com/zh/articledetails/nlv4a187.html</id>
-        <link href="https://panewslab.com/zh/articledetails/nlv4a187.html"/>
-        <updated>2023-09-13T05:33:48.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月13日消息，据美通社报道，四大会计师事务所之一德勤（Deloitte）宣布与数字资产会计平台Bitwave成立战略联盟。该联盟将Bitwave的软件平台与德勤的创新会计、税务和治理、风险和控制咨询服务结合在一起。Bitwave的软件平台可以自动将来自70多个区块链和去中心化金融（DeFi）生态系统的数据流纳入ERP系统，如Oracle NetSuite和Sage Intacct。双方合作将帮助使用数字资产的企业提高速度和流程效率、节省成本并增强合规性。
-德勤与Bitwave的联盟为客户提供了一套相互依存的数字资产产品来管理复杂的数据、风险、法规和复杂的合规要求，包括将区块链数据连接到ERP系统以帮助公司实时解锁有价值的信息，通过自动会计加速每月的结算，以及简化加密支付。该联盟还致力于帮助公司遵守美国公认会计原则（U.S. GAAP）和国际财务报告准则（IFRS），通过强化流程和控制来降低风险和提高透明度，考虑交易流中的税收，以及满足全球税收合规要求。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[会宁公安打掉一利用虚拟币为赌博及诈骗“跑分洗钱”的团伙，涉案资金300余万元]]></title>
-        <id>https://panewslab.com/zh/articledetails/hd9oazi4.html</id>
-        <link href="https://panewslab.com/zh/articledetails/hd9oazi4.html"/>
-        <updated>2023-09-13T05:12:34.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月13日消息，据“会宁公安”微信公众号，近日，甘肃省会宁县公安局成功打掉一家族式“跑分”洗钱团伙，成功抓获4名为网络赌博、电信诈骗“跑分洗钱”的犯罪嫌疑人。经初步统计，该团伙使用个人账户转移资金流水达300余万元。
-经查，今年8月份以来，犯罪嫌疑人南某伙同其亲属共四人，为获取不法利益，利用“飞机”聊天软件与境外电信诈骗、网络赌博等洗钱团伙取得联系，在洗钱团伙的指导下，四人通过“USTD”虚拟货币交易群购买“USTD”虚拟货币，再通过微信群、跑分平台出售变现，并利用自己及亲属的的银行卡、微信、支付宝等账户向对方指定账户转账，从中非法牟利8万余元。
-9月7日，侦办民警展开收网行动，将南某等四人全部抓获归案，现场查扣作案手机18部，境外电话卡39张，台式电脑主机1台，笔记本电脑1台，查获价值7000余元的USDT虚拟币900余个。目前，该4名犯罪嫌疑人已被会宁县公安局依法采取刑事强制措施，案件正在进一步侦办中。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
