@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-09-16T23:06:35.433Z</updated>
+    <updated>2023-09-17T00:35:53.237Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[数据：过去一周Circle USDC流通量增加1亿美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/yllz7q21.html</id>
+        <link href="https://panewslab.com/zh/articledetails/yllz7q21.html"/>
+        <updated>2023-09-17T00:11:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews 9月16日消息，据官方数据，过去7天Circle共发行12亿美元USDC，赎回11亿美元USDC，流通量增加1亿美元。截至9月7日，USDC总流通量为260亿美元，储备量为261亿美元，其中现金18亿美元，Circle Reserve Fund持有243亿美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tether首席技术官：已和首批矿工启动比特币挖矿平台Moria测试]]></title>
         <id>https://panewslab.com/zh/articledetails/hx7dim4c.html</id>
@@ -4248,114 +4258,6 @@ Jeff 强调称，OKX Ventures 正与 Gitcoin 和 EthGlobal 等行业领导
         <updated>2023-09-12T13:01:58.000Z</updated>
         <summary type="html"><![CDATA[PANews 9月12日消息，据Tijd报道，区块链基金 Tioga Capital 宣布为其机会基金（Opportunity Fund）额外筹集到 2000 万欧元，投资资本增至 8500 万欧元。Tioga Capital 主要投资于为 Crypto 和 Web3 创建加密基础设施的公司。
 Tioga Capital 于 2020 年在金融科技投资者 Jurgen Ingels 和加密货币研究员 Bart Preneel 的支持下成立。2020年，比利时主权财富基金SRIW曾投资Tioga Capital。Tioga Capital 投资组合包括比利时区块链技术提供商 Venly（原 Arkane Network）、比特币托管公司 Casa、Web3 社交协议 Lens Protocol 等。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[深入探讨模块化智能合约账户设计：解决落地技术难题]]></title>
-        <id>https://www.odaily.news/post/5189704</id>
-        <link href="https://www.odaily.news/post/5189704"/>
-        <updated>2023-09-12T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：Modular Smart Contract Account Architecture and Challenges
-原文作者：Rui S，SevenX Ventures
-原文编译：深潮 TechFlow
-介绍
-从外部拥有账户（EOA）向智能合约账户（SCA）的转变正在蓬勃发展，并得到了许多爱好者的支持，包括 Vitalik 本人。尽管引起了人们的兴奋，但 SCA 的采用并不像 EOA 那样普及。其中的关键问题包括熊市带来的挑战、迁移的担忧、签名问题、Gas 开销以及最关键的工程难题。
-账户抽象（AA）最重要的优势之一是能够使用代码定制功能。然而，一个主要的工程挑战是 AA 功能的非互操作性，而这种碎片化阻碍了集成，并为供应商锁定打开了大门。此外，在同时升级和组合功能时确保安全性可能会很复杂。
-模块化账户抽象的出现是更广泛的 AA 运动的一个子集，这种创新的方法可以将智能账户与其自定义功能分离。其目标是创建一个模块化结构，以开发具有多样功能的安全、无缝集成的钱包。在未来，它可以实现一个自由的智能合约账户“应用商店”，使钱包和 dApp 不再专注于构建功能，而是专注于用户体验。
-AA 简述
-
-传统的 EOA 引入了许多挑战，如种子短语、Gas、跨链和多个交易。我们从未打算引入复杂性，但事实上，区块链对于大众来说并不是一款简单的游戏。
-账户抽象利用智能合约账户，允许可编程验证和执行，用户能够一次性批准一系列交易，而不是每个交易都要签名和广播，并实现更多功能。它为用户体验（例如，Gas 抽象和会话密钥）、成本（例如，批处理交易）和安全性（例如，社交恢复、多签名）带来了好处。目前，有两种实现账户抽象的方式：
-
-协议层：一些协议本身提供了本地账户抽象支持，ZKsync 交易无论是来自 EOA 还是 SCA，都遵循相同的流程，使用单个内存池和交易流程来支持 AA，而 Star…]]></summary>
-        <author>
-            <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[L1区块链LUKSO发布“通用配置文件”的测试版，旨在为用户提供完整的“链上身份”]]></title>
-        <id>https://panewslab.com/zh/articledetails/wgbm07p1.html</id>
-        <link href="https://panewslab.com/zh/articledetails/wgbm07p1.html"/>
-        <updated>2023-09-12T12:12:54.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月12日消息，据CoinDesk报道，由区块链资深人士 Fabian Vogelsteller 和 Marjorie Hernandez 共同创立的 Layer 1 区块链 Lukso 正在发布“通用配置文件”的测试版 - 该功能旨在为用户提供完整的“链上身份”，该功能带有可恢复的加密钱包以及用于与社交媒体应用程序交互的配置文件。通用配置文件可在区块链上用于各种应用程序（NFT、去中心化社交媒体、支付），因此将用户的活动集成到一个帐户下，而不仅仅是一个钱包地址。
-此前5月，Layer 1公链LUKSO主网已正式上线。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以太坊客户端Geth发布v1.13版本，提供存储以太坊状态的新数据库模型]]></title>
-        <id>https://panewslab.com/zh/articledetails/3423zwah.html</id>
-        <link href="https://panewslab.com/zh/articledetails/3423zwah.html"/>
-        <updated>2023-09-12T11:47:06.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月12日消息，据以太坊官方博客，Go Ethereum发布以太坊客户端 Geth v1.13 版本。Go Ethereum 表示，该版本主要功能已经开发了 6 年，提供了一个用于存储以太坊状态的新数据库模型，比以前的方案更快，并且还具有适当剪枝（pruning）实施。该模型支持对历史状态进行正确、全面的动态剪枝，这意味着不需要再次使节点离线来重新同步或手动剪枝。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国白宫：英伟达等八家公司自愿承诺管理AI风险 包括展开安全测试、添加数字水印等]]></title>
-        <id>https://panewslab.com/zh/articledetails/t313x1kz.html</id>
-        <link href="https://panewslab.com/zh/articledetails/t313x1kz.html"/>
-        <updated>2023-09-12T11:33:46.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月12日消息，美国白宫今日在官网发布声明称，美国商务部长雷蒙多等政府高官将在白宫召集AI行业高管，宣布Adobe、Cohere、IBM、英伟达、Palantir、Salesforce、Scale AI和 Stability八家公司承诺采取自愿监管措施管理AI技术开发风险，包括在推出前展开安全测试、构建将安全放在首位的系统、为AI生成内容添加数字水印等。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[a16z对话Solana联创：尝试创造更伟大的想法，而不是重复已有的东西]]></title>
-        <id>https://www.odaily.news/post/5189702</id>
-        <link href="https://www.odaily.news/post/5189702"/>
-        <updated>2023-09-12T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：Debating Blockchain Architectures (with Solana)
-主持人：a16z crypto 普通合伙人 Ali Yahya、a16z crypto 交易团队合伙人 Guy Wuollet
-嘉宾：Solana Labs CEO、Solana 联合创始人 Anatoly Yakovenko
-编译：倩雯，ChainCatcher
-“但我想说的是，人们应该尝试创造更伟大的想法，而不是重复已有的东西。我听过的最好的比喻是，当人们发现水泥时，每个人都专注于用水泥砌砖，然后有一个人想，我可以建摩天大厦。他们想出了一个办法，把钢筋水泥和建筑结合在了一起，这是谁也想不到的。新工具就是水泥。你只需要搞清楚摩天大厦是什么，然后去建造大厦。”
-本期节目，a16z crypto 与 Solana Labs 联合创始人、首席执行官 Anatoly Yakovenko 对话，Anatoly Yakovenko 曾在高通公司任职，担任过高级工程师和工程经理。
-概要
-
-去中心化计算的终极目标
-
-Solana 背后的理念
-
-Solana 与以太坊的异同
-
-区块链的未来发展
-
-Web3社群与开发
-
-Web3初创公司人才招募
-
-去中心化计算的终极目标
-a16z crypto：首先，我想知道你如何看待去去中心化计算的终极目标？如何看待区块链架构？
-Anatoly Yakovenko：我的立场比较极端。我认为，结算将变得越来越不重要，就像在传统金融中一样。你仍然需要有人提供担保，但这些担保可以通过许多不同的方式实现。我认为对世界真正有价值的，是拥有全球分布、全球同步的同步状态，这也是真正的难点。你可以把它想象成 Google Spanner 对谷歌的作用，或者纳斯达克对金融市场的作用。
-从宏观看，区块链系统无需权限、可编程、高度开放，但是在堆栈的后背仍旧是某种市场。对所有…]]></summary>
-        <author>
-            <name>链捕手</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LayerZero与Google Cloud达成合作，Google Cloud将作为LayerZero的默认预言机]]></title>
-        <id>https://panewslab.com/zh/articledetails/9u2o19r8.html</id>
-        <link href="https://panewslab.com/zh/articledetails/9u2o19r8.html"/>
-        <updated>2023-09-12T11:10:48.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月12日消息，跨链消息协议 LayerZero 背后的团队 LayerZero Labs 今天宣布与 Google Cloud 开展新的合作，以高性能和可靠的方式增强其跨链环境的安全性云基础设施并有助于加速 Web3 互操作性的未来。
-通过该协议，Google Cloud 将作为 LayerZero 的默认预言机，保护 LayerZero 网络上的消息。在 LayerZero 之上构建去中心化应用程序 (dApps) 的开发人员现在可以使用 Google Cloud 预言机来验证交易。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Range Protocol完成375万美元种子轮融资，HashKey Capital和Nomad Capital共同领投]]></title>
-        <id>https://panewslab.com/zh/articledetails/qe14d9av.html</id>
-        <link href="https://panewslab.com/zh/articledetails/qe14d9av.html"/>
-        <updated>2023-09-12T11:06:32.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月12日消息，据官方medium，链上资产管理平台 Range Protocol 宣布完成 375 万美元种子轮融资，本轮融资由 HashKey Capital 和 Nomad Capital 共同领投，Spark Digital Capital、Mirana Ventures、Symbolic Capital、Asymm Ventures 和 Comma3 Ventures 参投。本轮融资资金将用于继续建设 Range Protocol 的一体化链上资产管理平台，并进一步扩大团队和社区规模。
-Range Protocol 是一个链上资产管理平台，旨在为散户投资者和专业数字资产管理者之间提供公平的竞争环境，平台目前已在以太坊、BSC、Mantle、Polygon 和 Arbitrum 上部署。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
