@@ -2,10 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-09-20T07:07:35.552Z</updated>
+    <updated>2023-09-20T08:09:53.234Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[LD Capital：Aave短期资金面分析]]></title>
+        <id>https://www.odaily.news/post/5189874</id>
+        <link href="https://www.odaily.news/post/5189874"/>
+        <updated>2023-09-20T07:51:45.000Z</updated>
+        <summary type="html"><![CDATA[一、项目简介
+Aave 是以太坊上借贷龙头，现部署在 Polygon、Arbitrum、Optimism 等 9 条链上。该项目成立于 2017 年，初始版本为点对点借贷，后因借贷撮合效率低下而改版，借鉴 Compound 资金池借贷模型提供高流动性。Aave 当前为V3版本，该版本的目的是为提供更高的资本效率、更高的安全性和跨链借贷功能。
+
+更高的资本效率是指高效模式（eMode），即将资产进行分类并依据资产类型设置风险参数，当借款人的抵押品与借出资产为同一类别时，可获得更高借款额度。
+
+更高的安全性是指隔离模式，即通过链上投票上新的的借贷资产会首先进入隔离模式。该种模式下的资产会设置债务上限，且当该资产作为抵押品时，仅允许借出许可的稳定币，目的是即许可该协议上列出更多长尾资产，同时保障协议的安全性。
+
+以上两项功能目前在V3上均可实现，而跨链借贷（Portal）功能早在 2022 年 3 月V3版本推出之时就已达到可部署状态，但是出于安全考虑，团队对此功能的推出比较慎重，至今未正式部署。因为 Aave 的跨链借贷并非由 Aave 协议自己掌控，而是引入了第三方的跨链桥协议。
+
+二、业务数据
+1）借贷
+根据 defillama 数据显示，Aave 当前 TVL 规模已达 46.72 亿美元，是借贷板块龙头。Aave 在发展初期支持的山寨币种类更多，后因部分代币的潜在风险因而冻结。目前以太坊V3支持的代币种类约 20 个，跟 Compound V2支持的代币种类不相上下，且稳定币和山寨币的资金利用效率均高于 Compound。并且，Aave 较早地支持 stETH 等以太坊衍生代币。
+Aave 在借贷业务上之所以发展迅速，一方面是其激进的业务拓展策略，另一方面则是较早地布局多链。Aave 早在 21 年就已进驻 Polygon 等链，且在其它链上基本也处于头部地位，从而抢占了更多市场份额。不过，以太坊仍然是最主要的借贷场所。
+2）稳定币
+Aave 的稳定币 GHO 在今年 7 月 15 日上线， 1.5% 的借款利率使得其比其它稳定币更具竞争优势，且为 AAVE 质押者提供 30% 的利率折扣，GHO 利息收入将全部归金库所有。初始借贷上限为 1 亿，目前出借资产 2, 337 万，在稳定币板块内占据的市场份额非常狭小。
+3）RWA
+Aave 是继 Maker 之后第二个引入 RWA 资产的 DeFi 协议，与 Centrifuge Tinlake 合作，RWA 市场与 Aave 借贷市场是分开独立运行的。当前资金规模约为 710 万美元，相比 Maker 23 亿美元的规模远不能及。目前只有 USDC 市场还能提供存借 APY，其它市场都已不再提供，成功通过 KYC 的用户只需在 USDC 市场存入 USDC，可获得 1.64% %的基础年化收益以及 3.23% 的 wCFG 流动性挖矿收益率。
+三、链上持仓数据
+Aave 代币总量为 1600 万枚，主要用途就是质押和治理。Aave 协议内置安全模块（SM，Safety Module）组件，代币持有者可将资金质押在其中，目的是在 Aave 协议出现债务缺口时进行兜底。作为回报，质押者可以获得 AAVE 代币激励以及分享协议收入。
+从官网质押界面可以看到，目前 AAVE 代币日排放量为 1, 100 枚，依据 Coingecko 目前的价格$ 63.2 计算，价值约 69.5 万美元。AAVE 代币当前流通量达到 90.88% ， 24 小时交易量达到 1.2 亿美元。
+
+AAVE 前 30 地址代币持仓占比 70.68% ，交易所持仓占比 14.64% ，其中币安占比 11.06% ，币安是 AAVE 流动性最好的交易场所，大户地址持仓占比为 7.23% ，机构持仓占比 2.09% ，持仓主体为 Blockchain Capital 和 Jump Trading。大户地址在近 30 天内余额变动较小。
+
+从近 30 天链上地址建仓情况来看，建仓行为不明显。一个比较大的异常就是有 AAVE 质押者@luggisdoeth 于 8 月 22 日从 Aave V2赎回 10 万枚代币，价值约 638 万美金，这部分代币当前仍在钱包中，未有移动，可持续关注该地址动向。
+
+从近半年 Aave 合约链上交互来看，活跃高峰期 6 月 25 日至 7 月 18 日，这时期因 Compound 创始人创建 RWA 新项目而带起的 RWA 概念热潮带动了 AAVE 代币价格出现同期回暖，代币价格最高触达$ 81 。
+
+从 Aave 价格走势来看，目前处在比较底部的价格区间。
+
+总结：Aave 是链上借贷龙头项目，业务稳步发展中。近 30 天内链上无明显的建仓行为，有大户地址进行解质押动作，目前处在比较底部的价格区间。]]></summary>
+        <author>
+            <name>LD Capital</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[详谈Solana的技术架构：为什么Solana没有被Ethereum杀死？]]></title>
+        <id>https://www.odaily.news/post/5189888</id>
+        <link href="https://www.odaily.news/post/5189888"/>
+        <updated>2023-09-20T07:18:57.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：Haotian，区块链安全从业者
+在熊市的基底下，大家会冷静思考一些牛市可能忽略的东西，比如，重回公众视野的 Solana，技术到底行不行，一句「中心化宕机」就能毁所有吗？
+最近，MakerDAO 说 Solana 的 codebase 还不错，Visa 也宣布要和 Solana 试点合作，Solana 的 TVL 等数据指标也回暖不少，Solana 要迎来第二春吗？到底该怎么解读？
+牛市正当时的时候，面对$SOL 突突上涨的币价，大家都说 Solana 的资本背景和 Community 生态很强，鲜有人能说清楚 Solana 的技术框架到底怎样。
+不吹不黑，本文从科普角度浅析下 Solana 的背后的技术架构，以及为什么 Solana 没有被 Ethereum 杀死的原因。
+Tips：仅本着技术科普的角度，带大家重新认识和理解 Solana，不做任何投资参考。
+POH 共识机制
+首先说说 POH 共识机制，即（Proof of history），它是 Solana 采用的特殊创新机制。 传统意义上区块时间和物理时间并没有关系（弱关联），比如比特币以太坊等公链的时间基准为块高度，时间流逝的表现载体也只是块高度的不断叠加，因此坎昆升级这种具体时间只能根据网络出块速率进行预估。
+Solana 的 POH 创新点就在于把链的时间流逝和物理时间锚定了，比如：每个 POH 出块的间隔时间是固定的，连续的哈希运算会产生一个可验证的时间序列等等。
+这样做可以避免「主观」时间带来的操纵和攻击问题，试想若出块时间不规律，节点之间很难快速达成共识，就容易产生回滚、重放等攻击，而物理时间的客观性是无法撼动的，节点无需回溯全部历史数据仅依据当前时间序列就能监测一些异常情况。
+因此，POH 的创新就是为了强绑定物理时间，以促进 Solana 节点之间更好协作和达成共识。
+在我看来，POH …]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cosmos/Polkadot V.S. Layer 2 Stacks Series 2 ：做Layer 1还是Layer 2?]]></title>
+        <id>https://www.odaily.news/post/5189854</id>
+        <link href="https://www.odaily.news/post/5189854"/>
+        <updated>2023-09-20T06:21:34.000Z</updated>
+        <summary type="html"><![CDATA[引言
+在本系列的第一篇文章中，初步对 CP(Cosmos & Polkadot) 以及 Layer 2 Stacks 的技术方案进行梳理之后，我们得以了解 CP 与 Layer 2 Stacks 方案的网络架构和核心技术。就目前来看， CP 的技术远远超过 Layer 2 Stacks, 那么社区和生态状况呢？
+接下来，本篇将从各自的代币经济模型和生态发展层面展开描述。通过梳理代币价值捕获场景，以及各自方案各个维度的对比。帮助读者了解各自代币的可能发展趋势以及方案的特征优劣。
+一. 代币价值
+随着 CP 和 Layer 2 相继发展超链网络，其生态代币会在这其中发挥着什么样的作用，或者超链网络的发展给这些代币带来了哪些更多的可能性呢？
+为了讨论代币的未来发展趋势，本文先梳理了各自的代币模型，分析异同；再深入讨论各自的方案可能给代币带来的潜在影响，并挖掘出对应的投资价值等等。那么接下来，就让我们一起看看他们代币经济模型如何充分激发各自的潜能。
+1.1 Cosmos
+其实，如果能理解 Cosmos 框架，就可以知道在其提倡主权和自由定制链下，Cosmos Hub 的 $ATOM 代币在实际的应用场景需求不大，因为每条链都有自己的原生代币， $ATOM 并不是必须。不过，在 Cosmos 2.0 大会上，该团队制定了 ATOM 2.0 计划，致力于为 $ATOM 代币带来额外的效用和价值。
+1.1.1 代币分配
+$ATOM 的供应没有限制，目前市面上以发行 2.9 亿 $ATOM。其中：
+
+Seed Sale: 11.8 million ATOM at $ 0.025 per token
+
+Strategic Sale: 16.9 million ATOM at $ 0.079 per token
+
+Public Sale: 160.3 million ATOM at $ 0.1…]]></summary>
+        <author>
+            <name>Gryphsis Academy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Horizen将于9月26日进行主网升级，将删除主链隐私功能并启用HorizenDAO]]></title>
         <id>https://panewslab.com/zh/articledetails/c0k56lum.html</id>
