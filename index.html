@@ -51,11 +51,591 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-22 datetime="2023-09-22T10:14:10.000Z">2023-09-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-22 datetime="2023-09-22T10:14:10.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-22 datetime="2023-09-22T10:29:58.000Z">2023-09-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-22 datetime="2023-09-22T10:29:58.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189963"
+                        open
+                      >
+                        <summary class="article-expander__title">​OKX Ventures：系统解析账户抽象赛道的过去、现在和未来</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189963">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本文作者 OKX Ventures 研究员 Kiwi ，不构成任何投资建议。
+
+自 2021 年 9 月 Vitalik Buterin 提出了 EIP-4337 以来，账户抽象概念正逐步被引入到主流Web3钱包中，OKX Ventures 以这一概念的起源为切入点，系统化梳理了账户抽象的过去、现状以及未来机遇。
+文章要点
+• 关于基础信息：
+￮ 账户抽象（AA），支持 session key 可以将交易来源和签名解耦，同时帮助用户避免备份私钥、gas 费等复杂操作，降低用户参与 Web3 门槛；
+￮ 为了简化账户类型，给予链上行为更多自由度，同时将账户放置于更高的安全级别，需要账户抽象。
+￮ 经历 EIP-86 ，EIP-1014 ，EIP-2938 ，EIP 3074 后，EIP 4337 由于无需改动共识层，基本可以认定为以太坊 AA 的定稿方案。
+• 多链账户抽象的两个路线：兼容 4337 方案（4337 compatible method），原生账户抽象方案( native account abstraction)。
+￮ 兼容 4337 方案：目前 Arbitrum、Polygon、Optimism 和 BNB 没有原生集成账户抽象。不过更多是通过 4337 相关产品进行支持（如 Biconomy、Stackup 等），基础设施的搭建依旧处于概念阶段；
+￮ 原生账户抽象方案：Starknet 和 zkSync 两条链支持原生的账户抽象，区别于 4337 方案。差异：Starknet 无 Bundler 和 Paymaster，由 Sequencer 确定交易顺序、支付 gas 并执行，zkSync 通过 Operator 确定交易顺序、支付 gas，再调用 bootloader 一起操作；
+• 发展数据：以太坊、Arbitrum、Optimism 和 Polygo…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189959"
+                        open
+                      >
+                        <summary class="article-expander__title">天价提币手续费的背后：JPEX事件全回顾</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189959">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原创 | Odaily星球日报
+作者 | 0xAyA
+
+
+自称“缔造香港Web3新地基”的 JPEX 交易所此刻正身陷泥潭——截至发稿前，涉及 JPEX 交易所的案件中有超过 2000 人报警声称受害，涉及金额 13 亿港元，这起案件也被一些香港媒体称为“史上最大金融诈骗案”，而目前已被拘捕的 11 名犯罪嫌疑人中，不仅有交易所的相关人员，更不乏有此前替其摇旗呐喊的 KOL 们。
+而就在 Token 2049 的第一天，这个交易所还存在于展台区，以一家“受监管合规”交易所的身份活跃着，没多久，因“提现 1000 USDT，手续费 999 USDT”等闹剧，JPEX 被警方立案调查，甚至被特首点名，背后到底发生了什么？
+
+时间线整理
+9 月 13 日，香港证监会在其官网发布了《有关不受规管的虚拟资产交易平台》的警告声明，其内容如下：
+
+证券及期货事务监察委员会留意到一家名为“JPEX”的虚拟资产交易平台，透过社交媒体网红及场外虚拟资产货币兑换商（场外找换店）积极地向香港公众推广该平台的服务和产品。
+证监会谨此阐明，JPEX 集团旗下的实体一概没有获证监会发牌，且并无向证监会申领在香港经营虚拟资产交易平台的牌照。
+证监会亦观察到，JPEX 及那些向香港公众积极推广 JPEX 的人士和找换店所使用的手法存在众多可疑之处：
+(a)JPEX 在其网站声明，它是“一间持牌，并受认可的数字资产、虚拟货币平台”。它在其网站及本地社论式广告中声称已向若干海外监管机构取得经营虚拟资产交易平台的牌照，而这实际上与事实不符。
+(b)JPEX 为其部分产品提供极高回报。
+(c)证监会接获散户投资者的投诉，并注意到媒体报道，指有散户投资者未能从在 JPEX 开设的帐户中提取虚拟资产，或发现他们的帐户结余被减少及更改。
+(d)JPEX 提供的部分产品似乎是涉及虚拟资产的安排，例如在证监会的虚拟资产交易平…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189786"
+                        open
+                      >
+                        <summary class="article-expander__title">复盘2023年主流稳定币脱锚时刻：原因及建议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189786">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者 | Riyad Carey
+原文编译 | Odaily 星球日报南枳
+
+概述
+
+什么是脱锚（Depeg）？以最简单的形式来说，脱锚是指稳定币以低于它所代表的法定货币价格折扣交易。
+然而，在最严格和最实际的条件下，这个定义并不完全适用；美元稳定币或以美元的十分之一、百分之一或千分之一的折扣成交都属于脱锚。如果我们说价格为 0.9998 美元的 TUSD 已经脱锚，那这个术语开始失去其意义。
+因此，作者提出了一个度量标准，使用稳定币的总交易量来创建一个脱锚阈值，并基于不同交易平台的交易量进行加权。
+基于这个度量标准，今年前五大稳定币中最严重的脱锚是 3 月 12 日的 USDC 和 DAI， 6 月 12 日的 TUSD 以及 8 月 7 日的 USDT。值得注意的是，USDT 在大部分八月都处于轻微的脱锚状态。
+脱锚阈值
+
+作者使用稳定币全球交易量建立了一个脱锚阈值，随着稳定币的交易量增加，这个阈值会变得更小。简而言之，一个月交易量为 100 亿美元的稳定币，如果以 0.995 美元的价格交易，其严重性远远高于一个月交易量为 1000 万美元的稳定币以同样的价格交易。最终公式如下：
+
+应用于所讨论的五种稳定币，我们得到以下结果：
+
+
+TUSD 的脱锚阈值在 2 月至 3 月迅速变小，因为币安取消了 BTC-TUSD 的交易费来推广这个稳定币。
+
+BUSD 的阈值从 0.998 扩大到 0.9955 ，因为其交易量有所下降。
+
+USDT 阈值一直最低，八月为 0.998 。
+
+交易量衡量办法
+
+下图显示了截止到今年的稳定币对稳定币的交易量，颜色代表不同的交易所。DAI 的交易量最低，仅为 170 亿美元，其中近 130 亿美元来自 Uniswap V3 和 Curve。TUSD 排在其后，仅有 245 亿美元的交易量，其中 235 亿美元来自一个单一的交易对：在币安上的 TUSD-USDT。
+
+BUSD 的交易量为 975 亿美元，并且同样高度集中，其中 930 亿美元来自币安上的 BUSD-USDT 交易对。USDC 和 USDT 与其他稳定币差异较大，USDC 的交易量为 1500 亿美元，分布于 48 个交易平台，而 USDT 的交易量为 3200 亿美元，分布于 75 个交易平台。
+结论
+
+以小时为基本单位观察八月初的情况，USDT 在 8 月 7 日出现重大脱锚达 98% ，这意味着 USDT 几乎在每个交易平台上都以折扣价交易。币安、Huobi 和 Uniswap 上共计卖出了 5 亿美元的 USDT，作者认为是由于 Tether 的赎回费和最低限制带来的不灵活性导致。
+
+以天为基本单位，自 5 月以来最严重的脱锚是发生在 6 月 7 日的 TUSD 脱锚，几乎达到了 60% ，大部分时间都在币安折扣交易。
+
+
+TUSD、DAI、BUSD 都较为稳定，其中 TUSD 受益于其流动性近乎完全集中在同一交易平台；
+USDC 在三月份发生了 10 %以上的脱锚，此后再未超过 1% ，稳定程度日益上升；
+USDT 存在稳定性问题。它的赎回费和最低限制意味着对于 USDT 持有者来说，将代币在市场上出售优于 Tether 兑换成美元。随着流动性的减少，市场已经不能吸收大规模的 USDT 出售。尽管从价格方面脱锚程度较低，但其持续的折扣现象令人担忧。最直接的解决办法是 Tether 移除其赎回费和最低限制。Tether 第二季度报告中利润达 8.5 亿美元，移除费用对利润几乎没有显著影响，除非公司认为降低赎回成本会显著减少 USDT 的供应。
+相关阅读
+为什么 Tether 继续发放 USDT 贷款是个危险信号？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189960"
+                        open
+                      >
+                        <summary class="article-expander__title">深入探讨Filecoin检索市场及其领先项目Saturn</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189960">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文来源：Filecoin Network
+
+Filecoin 更宏大的路线图旨在将云服务转变为无需许可市场，任何提供者都可以在此提供服务。该网络始于存储市场，在 2022 年 10 月于主网推出。近期引入了 Filecoin 虚拟机（FVM），将智能合约功能引入网络。这让用户可以对 Filecoin 网络上的关键服务进行编程，包括大规模存储和即将推出的检索。
+本文将深入探讨 Filecoin 正在开发的检索市场及其领先项目之一，涉及以下主题：
+
+Filecoin 检索市场和检索市场工作小组（RMWG）
+
+内容分发网络（CDN）和 Saturn 项目作用
+
+Saturn 分布式 CDN 方法及其迄今为止的发展情况
+
+Saturn 项目未来计划
+
+Filecoin 检索市场和 RMWG
+正如我们前期文章所述，Filecoin 致力于构建开放数据服务，其中包括三大支柱（存储、检索和数据计算）。从 2020 年到 2022 年，存储一直是 Filecoin 的重点——其已成为迄今为止最大的分布式存储网络，存储超过 1170 PiB 的数据，拥有从 Opensea 到互联网档案馆等 20 多万用户。自 2022 年以来，检索和数据计算也一直在开发中，并围绕这些市场的建设而设立了工作组（对任何个人或实体开放）。工作组鼓励模块化，通常由不同团队组成，负责解决不同难题。
+
+Filecoin 开放数据服务路线图的关键组成部分
+检索市场工作组（RMWG）的核心工作是为 Filecoin 生态系统构建分布式 CDN（内容分发网络）。超过 15 个团队（如Magmo、Ken Labs、Protocol Labs 等）正致力于解决该领域的技术难题，从实现超快速支付到数据传输协议增强，再到数据检索的加密经济模型。以下是 RMWG 自 2022 年上半年以来一直在组织的构建区块，其建立在可与 File…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189952"
+                        open
+                      >
+                        <summary class="article-expander__title">Arca首席投资官：过去五年管理加密基金的九个重要收获</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189952">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Jeff Dorman, Arca 首席投资官
+原文编译：Felix, PANews
+加密投资公司 Arca 首席投资官 Jeff Dorman 已经运营加密货币基金 1825 天了。Arca 刚刚实现了一个重要的里程碑，在流动性对冲基金中管理的外部资本刷新了五年以来的记录。
+在任何其他行业中，五年似乎都不是一个很长的时间范围，但在加密领域，五年是一个比较长的时间。因为全天候的交易，加密行业的一年可以说相当于传统行业正常的五年。在过去的五年里，看到许多同行来来去去，Jeff Dorman 在加密资产管理方面留下了一些生存见解。
+CoinDesk 专栏作家 Jeff Dorman 是 Arca 的首席投资官，领导投资委员会，负责投资组合规模调整和风险管理。他在 Merrill Lynch 和 Citadel Securities 等公司拥有 20 多年的交易和资产管理经验。
+作为负责监管该基金以及 Arca 旗下其他三只基金的首席投资官，Jeff Dorman 亲身经历了这个行业的演变，包括顺境、逆境和不断的创新。以下是过去五年管理加密货币投资组合最重要的收获。
+简而言之：加密投资市场非常具有挑战性。
+调整假设和风险模型
+对于投资过这个市场的任何人来说，调整假设和风险模型是不言而喻的，但加密资产并不是一个容易投资的类别。对于新人来说，频繁的繁荣和萧条会造成一种错误的流动性认识，以及对预期 beta（注：此处指衡量个别代币相对于整个市场的价格波动情况）和回报的不准确描述。所有风险模型、预期损失准备金和规模参数均基于历史数据和相关性，而这些数据和相关性的变化速度非常快。对于那些管理流动资金的人来说，这是一场不断调整假设和风险模型的游戏。
+解读胜过速度
+与市场上普遍看法相反，加密市场可在全球范围内 24* 7 进行交易但并不需要全天候交易覆盖。在任何资产类别中，每次价格变…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189958"
+                        open
+                      >
+                        <summary class="article-expander__title">ArkStream Capital: 概览Lens Protocol动向，如何突围抗衡FT和电报生态？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189958">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者： Larissa
+在以太坊社区大会（ETHCC）之后，Lens Protocol 以其最新升级 Lens V2的公告登上了头条。这个备受期待的发布包括两项革命性的升级。第一个升级是“开放行动”（Open Actions），引入了一个具有突破性意义的功能，使用户和开发者能够将外部智能合约行动无缝集成到 Lens 出版物中。第二个增强功能是与 ERC 6551 的重大整合，通过允许用户将 NFT 作为其独特的身份，将所有帐户活动绑定在 Lens 生态系统内，彻底改变了身份管理方式。现在可以通过一个 NFT 将多个钱包地址关联起来，简化用户体验。
+Lens 及其竞争对手
+Lens Protocol 已经在以太坊上确立了自己作为领先的 SocialFi 平台的地位。与竞争对手相比，Lens 在增长和用户参与方面表现出色。一个具有类似社交图谱概念的社交合约 Fracaster 目前拥有 17, 286 个活跃帐户，而 Lens Protocol 则拥有惊人的 119, 241 个活跃帐户，明显超过竞争对手。
+虽然另一家竞争对手 Cyberconnect 拥有超过 296, 342 个帐户，但 Lens Protocol 设置了访问控制措施，所以直接比较没太大意义。尽管 Cyberconnect 拥有更大的用户群，但在总交易量方面，Lens Protocol 表现优异，总交易量为 21, 931, 943 笔，而 Cyberconnect 的总交易量为 16, 249, 274 笔。
+Lens Protocol 的生态系统不仅吸引了更大的用户群体，而且还在用户活动方面与其他社交合约平台相比有更活跃水平，反映了 Lens Protocol 在其分散式生态系统内创建充满活力和蓬勃发展的社区方面的效果。然而，Lens Protocol 并不满足于目前，仍在不断升级到下一个阶段。
+L…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189951"
+                        open
+                      >
+                        <summary class="article-expander__title">详解EigenLayer重质押的新用例：MEV-Boost+</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189951">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：0X NATALIE
+
+背景
+90% 以上的以太坊区块由 MEV-Boost 生成，主要因为其 PBS 机制使验证者可以获得更多的利润。PBS 使得验证者从区块构建中分离出来，将构建排序交易的行为外包给构建者，由中继充当两者的交互通道，验证者只需向网络提议新区块，所以也称为提议者。提议者可以通过向区块构建者出售区块空间来获得更多的收入，提高了利润。这促使越来越多的验证者加入 MEV-Boost。
+然而维护中继所需的运营成本可能非常高，估计范围在每年 50 万美元到 100 万美元，而收入为零，这导致了构建者与中继之间的垂直整合，影响中继的中立性。而且如果将中继算入构建者的成本话，构建者每天需要赚取约 3000 美元才能实现收支平衡。目前只有三到五家构建者能够做到这一点，他们的利润大都来自私人订单流（CEX/DEX 套利）。
+详解 MEV-Boost+
+EigenLayer 认为构建者的中心化加上在 PBS 中提议者是没有交易包含权力的，他们只负责从中继中选择构建者出价最高的区块头进行签名，等中继返回完整的区块将其广播以验证，使得构建者权力过大，以太坊网络的审查抵抗能力将受到构建者的单方面影响。于是提出 MEV-Boost+ 机制，旨在让提议者也可以包含交易。
+在 PBS 中提议者对交易没有排序和选择权力，是保护构建者的 MEV 不被窃取的必要条件，那么如何在保护构建者的同时让提议者可以包含交易？MEV-Boost+ 引入部分区块中继（ partial block relay）产生部分区块拍卖机制，提议者可以自己创建区块的一部分（区块其余部分 RoB），并将另一部分拍卖出去（区块顶部 ToB），由构建者创建。此外，部分区块拍卖被提议作为 PBS 中 crLists（抗审查列表）的替代方案。MEV-Boost+ 是 MEV-Boost 的补充软件，MEV-Boost 仍将处理整个区块的拍卖，MEV-Boost+ 将处理其余的部分区块拍卖。
+
+流程：
+
+注册（Enrolling）：验证者必须通过 EigenLayer 重质押来使用 MEV-Boost+ 的部分区块中继。需要更新其提款凭证指向 EigenLayer 合约，该合约包含一个 Slashing 功能，可对验证者的任何恶意行为进行惩罚。
+
+提案（Proposing）：构建者构建相应的部分区块，然后发送给 MEV-Boost+ 中继。中继将验证这些部分区块的有效性，并将部分区块的交易默克尔根与相关的元数据（区块号、交易数量等）发送给提议者。提议者将对中继发送的数据进行签名，并将签名后的数据发送回中继。中继验证签名的有效性后，释放部分区块。提议者将部分区块和自己的交易合并完成整个区块，并向网络提议整个区块。部分区块的原子性由提议者担保，如果提出者在构建部分块时进行操纵或更改，构建者不会遭受与整个块相关的所有风险。
+
+惩罚（Slashing）：惩罚阶段在检测到提议者的恶意行为时触发，对 ToB 的任何更改都被视为提案人的恶意行为。观察者（中继）可以提交欺诈证明，表明提议者修改了构建者提供的部分区块。如果欺诈证明被验证为准确无误，提议者会通过 EigenLayer 的重质押机制受到削减惩罚（32 ETH）。2 个 ETH 将分配给中继， 30 个 ETH 将分配给区块建设者。
+
+那么提议者和构建者选择部分区块的动力是什么？提议者不用多说，他可以包含自己的交易，一种可能的想法：如果提议者检测到网络审查压力，并且部分区块出价与完整区块出价之间的差异小于 0.005 ETH，他将选择部分区块并自行构建区块的其余部分。在这种设定下，提议者可以灵活选择 MEV-Boost（完整区块）或者 MEV-Boost+（部分区块） 。而构建者构建部分区块的动力是在较低的成本下参与块构建，获取竞争优势，同时转移区块的原子性的风险。 
+区块原子性强调了在区块链上执行的多个操作要么全部被接受和确认，要么全部被拒绝，没有中间状态。保证区块原子性的目的是确保区块链的一致性和安全性。如果区块内的交易或操作是部分成功的，可能会导致不一致的状态，损害区块链的可信度和完整性。
+EigenLayer 提出的 MEV-Boost+ 机制可以平衡提议者和构建者之间的权力，为以太坊的抗审查能力带来了更多保障。EigenLayer 的重质押机制用于削减惩罚，保障系统的安全性，同时提高资金效率以鼓励更多验证者的参与以太坊和其他网络的生态系统，实现更加去中心化和公平的加密世界。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189954"
+                        open
+                      >
+                        <summary class="article-expander__title">鉴SEC v. Ripple Labs判决：Token经济设计如何规避股票特征？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189954">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：William
+原文来源：Axia8 Ventures
+SEC 在 2020 年对 Ripple 提起诉讼，多年之后，联邦法院的一纸判决却给了币圈熊市增加了一点乐趣。我们先来看看这份判决书都说了些什么。
+证券法 Section 5 与 Howey Test
+美国 1933 年证劵法 Section 5 规定任何未经 SEC 注册的证券公开销售都是违法的。
+为了证明是否违反 Section 5 的规定，SEC 则需要向法院证明 Ripple （1）未经注册登记进行交易，（2）直接或间接销售证券，（3）有跨州交易。
+Ripple 则辩护：销售的 XRP 不是 Investment contract (证券类别)，因此并不需要注册。
+美国如何定义证券？
+1933 年证券法对证券采取了列举的方式。“证券”通常泛指任何票据、股票、国库券、证券期货、证券掉期、债券、信用证    、投资合同……。但又通过“投资合同”给各种新的金融工具留了一个口子，而 Howey Test 是判断某交易是否为投资合同通常采用的一个标准。如果某一交易行为符合 Howey Test 关于投资合同的认定，则被认定为证券，应当受证券法约束并接受 SEC 的监管。
+
+In SEC v. W.J. Howey Co., the Supreme Court held that under the Securities Act, an investment contract is “a contract, transaction or scheme whereby a person [( 1)] invests his money [( 2)] in a common enterprise and [( 3)] is led to expect profits solely from the efforts o…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189948"
+                        open
+                      >
+                        <summary class="article-expander__title">简析FTX索赔市场形势：FTX到底会不会赔钱？如果赔钱会赔多少？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189948">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Benson Sun，前 FTX 台湾社区合伙人（推特：@BensonTWN）
+这阵子协助大家提交 claim 时很常被问到一个问题：FTX 到底会不会赔钱？如果赔钱会赔多少钱？
+最客观的方式是看二级市场债权的价格。
+Claim market 上面 FTX 债权 (net deposit) 收购价已经上升到 35% 左右，而且呈现每月逐渐上升的趋势。
+
+
+我问过一个 claim buyer，他们怎么帮债权定价，对方表示以 FTX 的案件来说，他们预期的回报是 5 年内翻倍。也就是说目前 claim buyer 的共识是 5 年回收率会达到 7 成以上，才会以 35% 的价格去买债权。
+PS：注意这里指的是 net deposit 的帐号，其他帐号价格会不同，具体后面会展开。
+FTX 现在已经找回总值 70 亿美元的资产，对照 120 亿美元债权规模，回收比例约在 60% -70% 之间，跟这个数字也是吻合的。当然二级市场的债权买家也是根据市场的条件去出价，而这些条件都会随著时间变化。
+变化的因子包括：
+1. FTX 是否能从高管、捐赠单位、政客拿回更多的 clawback
+2. 债权规模是否有变化（譬如有黑户因身份因素无法提交 claim，进而缩小债权规模，或是突然又跳出一个政府罚单增加债权规模）
+3. John Ray 提出的重组方案需要多长时间
+4. FTX 出价者的报价有多高
+5. 资产清算的价格
+另外要注意的是，债权的状态本身也会影响索赔最后的金额/顺序，所以这也反映在了债权的二级市场价格上。
+变化的因素包括：
+1. 是否有锁仓代币（譬如 locked FTT, locked SRM 等等）
+2. 2022/11/11 前 90 天，帐号是净存入 (net deposit)，或是净提领 (net withdraw)
+3. 是否有资金在 FTX earn（5…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189947"
+                        open
+                      >
+                        <summary class="article-expander__title">加密熊市寒意侵袭，多个项目接连宣布关停</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189947">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Sharon，BlockBeats
+原文编辑：Jack，BlockBeats
+
+尽管刚过去的 Token 2049 大会热闹非凡，加密行业的现状却似陷入泥沼，无法摆脱整体性的低迷情绪。
+9 月 21 日，DeFi 项目 Fuji Finance 宣布停止运营， 2024 年前用户可通过用户界面提取资金。这已经是今年 9 月第 4 个宣布停运的项目了，在它之前宣布解散的，还有 9 月 20 日的 DeFi 项目 Gro Protocol、 9 月 20 日的 DeFi 和 NFT 交易机器人 None Trading，以及公链 EOS 创始人 BM 创办的 NFT 平台 Voice。
+据 BlockBeats 不完全计算，加密货币行业内的项目方、交易所和社区停运的，在 2021 年有 9 个， 2022 年有 17 个，到了 2023 年增长到 27 个。同时在 2023 年，停运的项目增长速度越来越快，从月均 1 个增长到最高月均 5 个。在这些事件背后，从社区运营到项目融资，每一个加密行业的参与者都感受到了熊市的寒意。
+项目停运愈发频繁
+Fuji Finance 作为以太坊上「第一个 DiFi 聚合器」，如今的关闭，与同为 DiFi 项目的 Gro Protocol 一样，简单来说都是因为没钱了。
+
+其在发布的新闻稿中指出「自今年 2 月以来，Fuji 团队一直在筹集资金，继续开发该协议，并构建跨链 DeFi 运营的未来。我们无法找到适合市场的产品。随着我们的资金不断减少，我们决定需要开始关闭公司并结束运营，而且筹款活动目前还看不到结束的迹象。」
+9 月 20 日的 Gro Protocol 也表示「尽管所有 Gro DAO 贡献者和成员，在过去三年中为这个社区和协议投入了令人难以置信的奉献、时间和资源，但 Gro DAO 发现自己面临着不容忽视的挑战。艰难的市…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189945"
+                        open
+                      >
+                        <summary class="article-expander__title">Solidity VS Rust：智能合约开发者该选经典还是创新？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189945">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者 | Vara Network
+编译 | Odaily 星球日报 Jessica
+
+编者按：在选择特定智能合约语言之前，明智的做法是深入研究并找出哪种语言适合自己的项目。要想写智能合约，两个流行的选择脱颖而出：Solidity 和 Rust，两者各有特色。Vara Network 发文探讨 Solidity 和 Rust 之间的差异（需要注意的是，Vara 选择了 Rust），Odaily星球日报将其编译如下。
+Solidity：最流行的区块链开发编程语言
+
+Solidity 作为高级语言，专注于数据和对象而不是复杂的函数。由于是静态类型，它可以在编译期间发现错误，使其更加可靠。它是作为以太坊区块链上的智能合约的编程语言而创建的。
+Solidity 不仅限于以太坊，Polygon、Avalanche、Polkadot、Optimism 和 Arbitrum 等网络同样支持其功能。虽然各种 Polkadot 平行链都集成了 EVM，但并非所有都采用了此功能。Solidity 设计使其可以跨具有 EVM 执行器的设备移植，从而实现平稳执行。
+Solidity 成为智能合约开发的流行选择并考虑到以太坊兼容性的因素：
+1.内置条件
+Solidity 可以轻松根据特定条件执行操作。开发人员无需单独编写复杂的条件语句。相反，他们可以在源代码中指定这些条件。一旦所有需求签出，代码将自动执行操作。
+2.数据类型变得简单
+Solidity 具有对整数、字符串、浮点数和数组等常见数据类型的内置支持。此外，开发人员甚至可以为其智能合约创建自定义数据类型。
+3.开发期间的安全
+编译器在开发人员编写代码时检查其错误，并让他们了解潜在的问题。该功能非常有用，尤其是在处理大型且复杂的 DApp 时。
+然而，Solidity 也有其缺点。
+它是一种高级语言，因此它不像其他语言那么快。在处理棘手的智…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189946"
+                        open
+                      >
+                        <summary class="article-expander__title">OKX与Solana Mobile达成合作，成首批登上Saga Web3智能手机的交易所APP</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189946">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>全球领先的虚拟资产交易所和Web3技术公司 OKX 宣布与 Solana Mobile 达成合作，OKX APP 现已上架 Solana Saga 的 DApp Store，成首批登上 Solana Saga 的交易所 APP。
+Solana Saga 是 Solana Labs 子公司 Solana Mobile 推出Web3智能手机，通过与 OKX 的强强合作，旨在为其手机用户提供一个强大的入口，享受 OKX 领先的Web3产品和交易所服务。此外，OKX 通过 Saga Web3智能手机，可以接触并服务更多用户，重塑用户未来互动方式。
+OKX 首席创新官 Jason Lau 表示：“OKX 与 Solana Mobile 的合作体现了Web3的无限潜质。我们将 OKX 一系列的新世代产品与 Solana Saga 结合起来，让大众可更多在日常生活中接触到一个开放、去中心化、并以Web3驱动的未来。”
+Solana 基金会的主席刘元立表示：“ 感谢 OKX 作为Web3头部应用对 Solana Saga 及 Dapp Store 的支持， 我们相信Web3移动端的发展可以极大的促进新用户的加入，为Web3用户提供最友好的交互体验，期待和 OKX 一起推动Web3大规模应用的到来。”
+OKX 将中心化交易所与Web3钱包整合在同一个 APP 内的，方便用户在去中心化和中心化之间随时随地一键切换，兼顾安全与便捷的同时，彻底打通链上链下世界，为Web2和Web3用户提供强大的入口。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189944"
+                        open
+                      >
+                        <summary class="article-expander__title">SignalPlus：跟着点阵图走特别版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189944">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在前一天美联储进行了较为激进的点阵图调整后，对风险市场来说，“跟著点阵图走”已被证明是一种充满凶险的行为，投资人终于从长时间的自满中醒来，在 SPX 今年第三大单日跌幅（-1.6% ）中，充分地感受到了 Powell “鹰派暂停加息”的余震，跌幅主要由消费品板块下跌 2.9% 以及房地产板块下跌 3.5% 所带动。
+
+2 年期美债收益率攀升至 2006 年以来的最高水平（5.18% ！），而 10 年期收益率则触及 15 年高点 4.50% ，全球收益率指数目前处于 2008 年以来的最高水平，而 2020 年发行的 30 年期长天期美债目前的交易价格为 48 美元，自拍卖以来价格下跌了 52% ，这可是无风险、美国政府发行的长期国债，在短短三年内损失了一半价值（由于久期的数学计算），是谁说债券交易很无聊的？
+
+并非要散播恐慌，但如果收益率完全跟随美联储的预测，短天期收益率将从当前水平再上涨 20-30 个基点，这是自互联网时代以来从未见过的水平。
+
+更糟的是，美国能源部原油库存继续大幅减少，已回到 1985 年的水平，原油期货逆势上扬，价格仍保持在 90 美元附近，我们仍认为当前市场低估了成本上升所带来的通胀反弹的风险。
+
+科技股终于对收益率飙升做出了反应，经历了今以来表现最糟糕的一个月，从技术面来看，SPX 打破了自 3 月以来的趋势线支撑， 5 年期投资等级 CDS 也强势上行，利差终于开始呈现与利率上升的正向关联，日圆似乎也很有机会跌破 150 ，而美元指数则似乎正准备进一步走高。
+展望未来，如果避险走势持续下去，我们预计跨资产的相关性将开始进一步接近 1 ，距离投资组合的月末再平衡还有一周的时间，预计加密货币价格等应会继续跟随收益率的走势，我们仍建议继续密切关注收益率的变化，以判断资产价格在短期内的走向，且目前不建议进行任何冒险的抄底尝试。
+
+最后，就在我们已经有太多事情需要处理时，美国国会赶在 10 月 1 日的最后期限前，再度上演边缘政策，政府停摆的可能性再次增加，剧本又一次重演，真是太棒了......</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189941"
+                        open
+                      >
+                        <summary class="article-expander__title">再探Stacks：升级将至，比特币L2生态是否会迎来爆发？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189941">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：PAUL VERADITTAKIT
+原文编译：深潮 TechFlow
+在需要比特币区块空间的新活动和交易激增的情况下，其基本的第一层协议在可扩展性方面面临着固有障碍。比特币的设计本身就对交易吞吐量施加了限制，这是为了确保安全而采用的去中心化共识机制。这些限制在网络拥堵期尤其明显，活动激增会导致确认时间延迟和交易费用上升。此外，比特币第 1 层的有限脚本功能也限制了可行应用的范围，加剧了与可扩展性相关的问题。虽然有限的设计空间既有限又往往是可取的，但到目前为止，这使在网络上构建更复杂的应用程序变得困难或不可行。
+在这种背景下，第 2 层解决方案作为一种设计用来补充和增强第 1 层功能的概念而出现。如其名称所暗示的，第 2 层解决方案在现有区块链之上运行，缓解拥堵并支持开发复杂的应用程序，而不会损害关键的安全性和去中心化。第 2 层解决方案的重要性在于它们创建新的网络功能的能力，从而在不背叛基础区块链的基本安全性和经济承诺的情况下实现创新。
+揭开 Stacks（STX）的面纱
+在针对比特币网络的各种第 2 层解决方案中，Stacks（STX）作为一种创新平台突出地位居其中，它重新定义了可扩展性和功能的界限。Stacks 作为第 2 层解决方案运行，可与比特币区块链无缝集成，开启崭新可能。Stacks 在其核心引入了开创性的方法论，架起了比特币基础层与优化用于复杂应用程序的辅助层之间的桥梁。
+与仅专注于链下交易管理的常规第 2 层解决方案不同，Stacks 通过在其第 2 层上授权开发者设计动态智能合约来提升比特币的第 1 层功能。这种方法促进了这两层之间的互利连接，确保复杂的计算和交互在第 2 层上进行，而交易安全性和最终性坚定地依赖比特币基础区块链。
+这种创新架构不需要对比特币第 1 层进行任何更改，保留了比特币的强大安全性，并优先考虑可扩展性，允许大量应用程序无缝…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189940"
+                        open
+                      >
+                        <summary class="article-expander__title">SBF审判在即，来看法律专家怎么说？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189940">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Nikhilesh De，Coindesk
+原文编译：Mary Liu，比推 BitpushNews
+FTX 创始人兼前首席执行官 Sam Bankman-Fried (SBF) 将在不到两周的时间内接受审判，为自己辩护，SBF 被指控故意实施欺诈并合谋欺骗 FTX 和 Alameda Research 的投资者和客户。
+检察官需要陪审团达成一致裁决，将 SBF 定罪。预计为期六周的审判定于美国东部时间 2023 年 10 月 3 日开始，这距离 Bankman-Fried 首次被捕仅 10 个月，距离 FTX 倒闭还不到 11 个月。
+
+为了更好地了解审判过程，CoinDesk 采访了几位法律专家，其中一些专家要求匿名以讨论这个备受瞩目的案件。
+评审团选择
+尽管审判定于下个月开始，但距离提出实际论据还需要一段时间。第一步可能会在下周举行，即最终的审前会议。
+纽约南区法官 Lewis Kaplan 将在会上列出最终证人时间表、审判日期可能会是多长，对任何问题作出裁决的最后未决动议。Withersworldwide 律师事务所律师 Martin Auerbach 表示，在选出陪审团后，卡普兰法官也可能会考虑一些动议。
+第二步是 voir dire（预先审查），这实际上将于 10 月 3 日开始。
+在陪审团选择过程中，法官将向潜在陪审员提出一些问题。一位拥有白领诉讼经验的律师告诉 CoinDesk，他可能会先广泛询问是否有任何潜在陪审员计划在未来几周内出差，否则可能几周内都无法离开工作岗位。
+他们表示，他还可能会询问是否有任何潜在陪审员拥有 FTX 账户，这些人将被 PASS。一旦完成这些广泛的陪审团问题，法官将开始向个人询问控方和辩护团队提出的问题。
+他们表示：「辩方和检方可能会争夺每位陪审员，这需要很长时间.这不会是一个是或否的问题，而是一个来来回回的过程，所以我…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189936"
+                        open
+                      >
+                        <summary class="article-expander__title">为什么Tether继续发放USDT贷款是个危险信号？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189936">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文《Tether Keeps Lending Tethers》，由 Odaily 星球日报 jk 编译。
+原文作者：Matt Levine 是一位负责金融报道的彭博观点专栏作家。他曾是 Dealbreaker 的编辑，曾在高盛的投行部任职，担任 Wachtell、Lipton、Rosen &amp; Katz 的并购律师，并在美国第三巡回上诉法院担任助理法官。
+
+Tether 开始发放 USDT 贷款
+
+我知道我经常这么说，但我就是想强调，Tether，这个大型稳定币发行商，在做个极好的生意。它是一个不受监管的银行，不支付利息，利率正在上升，其存款人基础相当稳定。到六月底为止，Tether 报告的资产约为 865 亿美元，其中大部分为美国国债，用以支持约 832 亿的 Tether。与上一季度相比有所增加：在去年的加密货币寒冬期间，Tether 曾短暂遭遇挤兑，但并不太严重，并且已经恢复得很好；加密货币投资者仍希望保留他们的资金在 Tether 中。
+反正，如果你是 Tether 的经营者，你不需要担心挤兑风险。Tether 主要投资于短期安全资产，现在这些短期安全资产支付很高的利息。只需将 Tether 的资金投资于以美国国债为担保的隔夜贷款，以隔夜融资利率，你就可以获得约 5.3% 的收益率，也就是每年约 46 亿美元，完全无风险，几乎没有费用。如果有人带着 Tether 来要求兑换美元，你可以直接给他们美元；你的投资都是短期的，流动性好。这是个绝妙的生意。
+这意味着，如果你负责 Tether，有人来找你提议一个能带来更高回报的聪明投资，即使只有一点点风险，你也应该塞住耳朵大喊“不”，然后把他们赶出你的办公室。你可以在不冒风险的情况下赚取数十亿美元的纯利润！没有信用风险（购买国债）、没有期限风险（购买非常短期的国债）、没有流动性风险（如果有人提款可以轻松出售国债），没有任何风…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5189939"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂Dencun升级新增的EIP-7514提案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189939">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>撰文&amp;编译：Karen，Foresight News
+在上一次的以太坊执行层会议中，以太坊核心开发者将 EIP-7514 定为 Dencun 升级的一部分，旨在减缓验证者增长速度并预留更多的时间，来研究以太坊质押的未来和解决方案。
+根据来自 beaconcha.in 的数据显示，当前以太坊质押量达到 2584 万枚，相较一年前合并（2022 年 9 月 15 日）前的约 1350 万枚增加逾 90% ，与此同时，活跃验证者数量从 49 万增加至目前的 80 万以上。
+
+
+来源：beaconcha.in
+同样值得关注的是，当前还有超过 2.8 万的验证者正在排队，另外还有 621 个验证者在等待退出。
+EIP-7514 是什么？为何提出？
+正如以太坊基金会研究员 Dankrad Feist 所说，以太坊验证者集正在激增。此外，截至目前，Lido 在流动性质押领域占据主导地位，持有所有质押 ETH 的近 1/3 ，并且没有自我限制的意愿，这可能对以太坊的去中心化构成风险。此外，对 Lido 的治理攻击也可能会给以太坊网络带来严重问题。
+
+来源：Dune
+为此，Dankrad Feist 认为以太坊社区需要一些时间来弄清楚以太坊质押的未来，作为一个临时解决方案，降低验证者 Churn（每个 Epoch 会限制可以进入成为激活验证者的数量）可能是有益的。
+以太坊开发者 dapplion.eth 和 Tim Beiko 提出的 EIP-7514 即是希望通过限制 Max Epoch Churn Limit，将最大验证者增长率从指数增长更新为线性增长，从而减缓验证者数量的增长。
+如果以太坊存款队列一直保持爆满状态，预计到 2024 年 5 月，所有 ETH 的 50% 会被质押，到 2024 年 9 月，这一比例将上升到 75% ，到 2024 年 12 月，可能会达到 100% 。此…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -667,368 +1247,6 @@ sBTC开发者版本将包括一个前端应用程序，提供一个简单的界�
 关于量刑，如果SBF因所面临的一项或多项指控而被定罪，他将在监狱中度过多长时间将在很大程度上取决于法官。量刑指南更多地被视为一个起点，而不是严格的规则。美国缓刑和审前服务系统将首先创建一个报告，其中包括“建议判刑范围的计算初步结果”，然后司法部和辩护团队可以提出任何异议，主张更长或更短的刑期。如果SBF被定罪他的团队也很可能会上诉。这并不是SBF的最后一次刑事审判。明年初，他还将面临司法部在初步起诉后提出的新指控。
 相关阅读：SBF审判在即，法律专家如何看待这起案件？</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189951"
-                        open
-                      >
-                        <summary class="article-expander__title">详解EigenLayer重质押的新用例：MEV-Boost+</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189951">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：0X NATALIE
-
-背景
-90% 以上的以太坊区块由 MEV-Boost 生成，主要因为其 PBS 机制使验证者可以获得更多的利润。PBS 使得验证者从区块构建中分离出来，将构建排序交易的行为外包给构建者，由中继充当两者的交互通道，验证者只需向网络提议新区块，所以也称为提议者。提议者可以通过向区块构建者出售区块空间来获得更多的收入，提高了利润。这促使越来越多的验证者加入 MEV-Boost。
-然而维护中继所需的运营成本可能非常高，估计范围在每年 50 万美元到 100 万美元，而收入为零，这导致了构建者与中继之间的垂直整合，影响中继的中立性。而且如果将中继算入构建者的成本话，构建者每天需要赚取约 3000 美元才能实现收支平衡。目前只有三到五家构建者能够做到这一点，他们的利润大都来自私人订单流（CEX/DEX 套利）。
-详解 MEV-Boost+
-EigenLayer 认为构建者的中心化加上在 PBS 中提议者是没有交易包含权力的，他们只负责从中继中选择构建者出价最高的区块头进行签名，等中继返回完整的区块将其广播以验证，使得构建者权力过大，以太坊网络的审查抵抗能力将受到构建者的单方面影响。于是提出 MEV-Boost+ 机制，旨在让提议者也可以包含交易。
-在 PBS 中提议者对交易没有排序和选择权力，是保护构建者的 MEV 不被窃取的必要条件，那么如何在保护构建者的同时让提议者可以包含交易？MEV-Boost+ 引入部分区块中继（ partial block relay）产生部分区块拍卖机制，提议者可以自己创建区块的一部分（区块其余部分 RoB），并将另一部分拍卖出去（区块顶部 ToB），由构建者创建。此外，部分区块拍卖被提议作为 PBS 中 crLists（抗审查列表）的替代方案。MEV-Boost+ 是 MEV-Boost 的补充软件，MEV-Boost 仍将处理整个区块的拍卖，MEV-Boost+ 将处理其余的部分区块拍卖。
-
-流程：
-
-注册（Enrolling）：验证者必须通过 EigenLayer 重质押来使用 MEV-Boost+ 的部分区块中继。需要更新其提款凭证指向 EigenLayer 合约，该合约包含一个 Slashing 功能，可对验证者的任何恶意行为进行惩罚。
-
-提案（Proposing）：构建者构建相应的部分区块，然后发送给 MEV-Boost+ 中继。中继将验证这些部分区块的有效性，并将部分区块的交易默克尔根与相关的元数据（区块号、交易数量等）发送给提议者。提议者将对中继发送的数据进行签名，并将签名后的数据发送回中继。中继验证签名的有效性后，释放部分区块。提议者将部分区块和自己的交易合并完成整个区块，并向网络提议整个区块。部分区块的原子性由提议者担保，如果提出者在构建部分块时进行操纵或更改，构建者不会遭受与整个块相关的所有风险。
-
-惩罚（Slashing）：惩罚阶段在检测到提议者的恶意行为时触发，对 ToB 的任何更改都被视为提案人的恶意行为。观察者（中继）可以提交欺诈证明，表明提议者修改了构建者提供的部分区块。如果欺诈证明被验证为准确无误，提议者会通过 EigenLayer 的重质押机制受到削减惩罚（32 ETH）。2 个 ETH 将分配给中继， 30 个 ETH 将分配给区块建设者。
-
-那么提议者和构建者选择部分区块的动力是什么？提议者不用多说，他可以包含自己的交易，一种可能的想法：如果提议者检测到网络审查压力，并且部分区块出价与完整区块出价之间的差异小于 0.005 ETH，他将选择部分区块并自行构建区块的其余部分。在这种设定下，提议者可以灵活选择 MEV-Boost（完整区块）或者 MEV-Boost+（部分区块） 。而构建者构建部分区块的动力是在较低的成本下参与块构建，获取竞争优势，同时转移区块的原子性的风险。 
-区块原子性强调了在区块链上执行的多个操作要么全部被接受和确认，要么全部被拒绝，没有中间状态。保证区块原子性的目的是确保区块链的一致性和安全性。如果区块内的交易或操作是部分成功的，可能会导致不一致的状态，损害区块链的可信度和完整性。
-EigenLayer 提出的 MEV-Boost+ 机制可以平衡提议者和构建者之间的权力，为以太坊的抗审查能力带来了更多保障。EigenLayer 的重质押机制用于削减惩罚，保障系统的安全性，同时提高资金效率以鼓励更多验证者的参与以太坊和其他网络的生态系统，实现更加去中心化和公平的加密世界。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189954"
-                        open
-                      >
-                        <summary class="article-expander__title">鉴SEC v. Ripple Labs判决：Token经济设计如何规避股票特征？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189954">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：William
-原文来源：Axia8 Ventures
-SEC 在 2020 年对 Ripple 提起诉讼，多年之后，联邦法院的一纸判决却给了币圈熊市增加了一点乐趣。我们先来看看这份判决书都说了些什么。
-证券法 Section 5 与 Howey Test
-美国 1933 年证劵法 Section 5 规定任何未经 SEC 注册的证券公开销售都是违法的。
-为了证明是否违反 Section 5 的规定，SEC 则需要向法院证明 Ripple （1）未经注册登记进行交易，（2）直接或间接销售证券，（3）有跨州交易。
-Ripple 则辩护：销售的 XRP 不是 Investment contract (证券类别)，因此并不需要注册。
-美国如何定义证券？
-1933 年证券法对证券采取了列举的方式。“证券”通常泛指任何票据、股票、国库券、证券期货、证券掉期、债券、信用证    、投资合同……。但又通过“投资合同”给各种新的金融工具留了一个口子，而 Howey Test 是判断某交易是否为投资合同通常采用的一个标准。如果某一交易行为符合 Howey Test 关于投资合同的认定，则被认定为证券，应当受证券法约束并接受 SEC 的监管。
-
-In SEC v. W.J. Howey Co., the Supreme Court held that under the Securities Act, an investment contract is “a contract, transaction or scheme whereby a person [( 1)] invests his money [( 2)] in a common enterprise and [( 3)] is led to expect profits solely from the efforts o…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189948"
-                        open
-                      >
-                        <summary class="article-expander__title">简析FTX索赔市场形势：FTX到底会不会赔钱？如果赔钱会赔多少？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189948">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Benson Sun，前 FTX 台湾社区合伙人（推特：@BensonTWN）
-这阵子协助大家提交 claim 时很常被问到一个问题：FTX 到底会不会赔钱？如果赔钱会赔多少钱？
-最客观的方式是看二级市场债权的价格。
-Claim market 上面 FTX 债权 (net deposit) 收购价已经上升到 35% 左右，而且呈现每月逐渐上升的趋势。
-
-
-我问过一个 claim buyer，他们怎么帮债权定价，对方表示以 FTX 的案件来说，他们预期的回报是 5 年内翻倍。也就是说目前 claim buyer 的共识是 5 年回收率会达到 7 成以上，才会以 35% 的价格去买债权。
-PS：注意这里指的是 net deposit 的帐号，其他帐号价格会不同，具体后面会展开。
-FTX 现在已经找回总值 70 亿美元的资产，对照 120 亿美元债权规模，回收比例约在 60% -70% 之间，跟这个数字也是吻合的。当然二级市场的债权买家也是根据市场的条件去出价，而这些条件都会随著时间变化。
-变化的因子包括：
-1. FTX 是否能从高管、捐赠单位、政客拿回更多的 clawback
-2. 债权规模是否有变化（譬如有黑户因身份因素无法提交 claim，进而缩小债权规模，或是突然又跳出一个政府罚单增加债权规模）
-3. John Ray 提出的重组方案需要多长时间
-4. FTX 出价者的报价有多高
-5. 资产清算的价格
-另外要注意的是，债权的状态本身也会影响索赔最后的金额/顺序，所以这也反映在了债权的二级市场价格上。
-变化的因素包括：
-1. 是否有锁仓代币（譬如 locked FTT, locked SRM 等等）
-2. 2022/11/11 前 90 天，帐号是净存入 (net deposit)，或是净提领 (net withdraw)
-3. 是否有资金在 FTX earn（5…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189947"
-                        open
-                      >
-                        <summary class="article-expander__title">加密熊市寒意侵袭，多个项目接连宣布关停</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189947">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Sharon，BlockBeats
-原文编辑：Jack，BlockBeats
-
-尽管刚过去的 Token 2049 大会热闹非凡，加密行业的现状却似陷入泥沼，无法摆脱整体性的低迷情绪。
-9 月 21 日，DeFi 项目 Fuji Finance 宣布停止运营， 2024 年前用户可通过用户界面提取资金。这已经是今年 9 月第 4 个宣布停运的项目了，在它之前宣布解散的，还有 9 月 20 日的 DeFi 项目 Gro Protocol、 9 月 20 日的 DeFi 和 NFT 交易机器人 None Trading，以及公链 EOS 创始人 BM 创办的 NFT 平台 Voice。
-据 BlockBeats 不完全计算，加密货币行业内的项目方、交易所和社区停运的，在 2021 年有 9 个， 2022 年有 17 个，到了 2023 年增长到 27 个。同时在 2023 年，停运的项目增长速度越来越快，从月均 1 个增长到最高月均 5 个。在这些事件背后，从社区运营到项目融资，每一个加密行业的参与者都感受到了熊市的寒意。
-项目停运愈发频繁
-Fuji Finance 作为以太坊上「第一个 DiFi 聚合器」，如今的关闭，与同为 DiFi 项目的 Gro Protocol 一样，简单来说都是因为没钱了。
-
-其在发布的新闻稿中指出「自今年 2 月以来，Fuji 团队一直在筹集资金，继续开发该协议，并构建跨链 DeFi 运营的未来。我们无法找到适合市场的产品。随着我们的资金不断减少，我们决定需要开始关闭公司并结束运营，而且筹款活动目前还看不到结束的迹象。」
-9 月 20 日的 Gro Protocol 也表示「尽管所有 Gro DAO 贡献者和成员，在过去三年中为这个社区和协议投入了令人难以置信的奉献、时间和资源，但 Gro DAO 发现自己面临着不容忽视的挑战。艰难的市…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189945"
-                        open
-                      >
-                        <summary class="article-expander__title">Solidity VS Rust：智能合约开发者该选经典还是创新？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189945">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者 | Vara Network
-编译 | Odaily 星球日报 Jessica
-
-编者按：在选择特定智能合约语言之前，明智的做法是深入研究并找出哪种语言适合自己的项目。要想写智能合约，两个流行的选择脱颖而出：Solidity 和 Rust，两者各有特色。Vara Network 发文探讨 Solidity 和 Rust 之间的差异（需要注意的是，Vara 选择了 Rust），Odaily星球日报将其编译如下。
-Solidity：最流行的区块链开发编程语言
-
-Solidity 作为高级语言，专注于数据和对象而不是复杂的函数。由于是静态类型，它可以在编译期间发现错误，使其更加可靠。它是作为以太坊区块链上的智能合约的编程语言而创建的。
-Solidity 不仅限于以太坊，Polygon、Avalanche、Polkadot、Optimism 和 Arbitrum 等网络同样支持其功能。虽然各种 Polkadot 平行链都集成了 EVM，但并非所有都采用了此功能。Solidity 设计使其可以跨具有 EVM 执行器的设备移植，从而实现平稳执行。
-Solidity 成为智能合约开发的流行选择并考虑到以太坊兼容性的因素：
-1.内置条件
-Solidity 可以轻松根据特定条件执行操作。开发人员无需单独编写复杂的条件语句。相反，他们可以在源代码中指定这些条件。一旦所有需求签出，代码将自动执行操作。
-2.数据类型变得简单
-Solidity 具有对整数、字符串、浮点数和数组等常见数据类型的内置支持。此外，开发人员甚至可以为其智能合约创建自定义数据类型。
-3.开发期间的安全
-编译器在开发人员编写代码时检查其错误，并让他们了解潜在的问题。该功能非常有用，尤其是在处理大型且复杂的 DApp 时。
-然而，Solidity 也有其缺点。
-它是一种高级语言，因此它不像其他语言那么快。在处理棘手的智…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189946"
-                        open
-                      >
-                        <summary class="article-expander__title">OKX与Solana Mobile达成合作，成首批登上Saga Web3智能手机的交易所APP</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189946">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>全球领先的虚拟资产交易所和Web3技术公司 OKX 宣布与 Solana Mobile 达成合作，OKX APP 现已上架 Solana Saga 的 DApp Store，成首批登上 Solana Saga 的交易所 APP。
-Solana Saga 是 Solana Labs 子公司 Solana Mobile 推出Web3智能手机，通过与 OKX 的强强合作，旨在为其手机用户提供一个强大的入口，享受 OKX 领先的Web3产品和交易所服务。此外，OKX 通过 Saga Web3智能手机，可以接触并服务更多用户，重塑用户未来互动方式。
-OKX 首席创新官 Jason Lau 表示：“OKX 与 Solana Mobile 的合作体现了Web3的无限潜质。我们将 OKX 一系列的新世代产品与 Solana Saga 结合起来，让大众可更多在日常生活中接触到一个开放、去中心化、并以Web3驱动的未来。”
-Solana 基金会的主席刘元立表示：“ 感谢 OKX 作为Web3头部应用对 Solana Saga 及 Dapp Store 的支持， 我们相信Web3移动端的发展可以极大的促进新用户的加入，为Web3用户提供最友好的交互体验，期待和 OKX 一起推动Web3大规模应用的到来。”
-OKX 将中心化交易所与Web3钱包整合在同一个 APP 内的，方便用户在去中心化和中心化之间随时随地一键切换，兼顾安全与便捷的同时，彻底打通链上链下世界，为Web2和Web3用户提供强大的入口。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189944"
-                        open
-                      >
-                        <summary class="article-expander__title">SignalPlus：跟着点阵图走特别版</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189944">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>在前一天美联储进行了较为激进的点阵图调整后，对风险市场来说，“跟著点阵图走”已被证明是一种充满凶险的行为，投资人终于从长时间的自满中醒来，在 SPX 今年第三大单日跌幅（-1.6% ）中，充分地感受到了 Powell “鹰派暂停加息”的余震，跌幅主要由消费品板块下跌 2.9% 以及房地产板块下跌 3.5% 所带动。
-
-2 年期美债收益率攀升至 2006 年以来的最高水平（5.18% ！），而 10 年期收益率则触及 15 年高点 4.50% ，全球收益率指数目前处于 2008 年以来的最高水平，而 2020 年发行的 30 年期长天期美债目前的交易价格为 48 美元，自拍卖以来价格下跌了 52% ，这可是无风险、美国政府发行的长期国债，在短短三年内损失了一半价值（由于久期的数学计算），是谁说债券交易很无聊的？
-
-并非要散播恐慌，但如果收益率完全跟随美联储的预测，短天期收益率将从当前水平再上涨 20-30 个基点，这是自互联网时代以来从未见过的水平。
-
-更糟的是，美国能源部原油库存继续大幅减少，已回到 1985 年的水平，原油期货逆势上扬，价格仍保持在 90 美元附近，我们仍认为当前市场低估了成本上升所带来的通胀反弹的风险。
-
-科技股终于对收益率飙升做出了反应，经历了今以来表现最糟糕的一个月，从技术面来看，SPX 打破了自 3 月以来的趋势线支撑， 5 年期投资等级 CDS 也强势上行，利差终于开始呈现与利率上升的正向关联，日圆似乎也很有机会跌破 150 ，而美元指数则似乎正准备进一步走高。
-展望未来，如果避险走势持续下去，我们预计跨资产的相关性将开始进一步接近 1 ，距离投资组合的月末再平衡还有一周的时间，预计加密货币价格等应会继续跟随收益率的走势，我们仍建议继续密切关注收益率的变化，以判断资产价格在短期内的走向，且目前不建议进行任何冒险的抄底尝试。
-
-最后，就在我们已经有太多事情需要处理时，美国国会赶在 10 月 1 日的最后期限前，再度上演边缘政策，政府停摆的可能性再次增加，剧本又一次重演，真是太棒了......</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189941"
-                        open
-                      >
-                        <summary class="article-expander__title">再探Stacks：升级将至，比特币L2生态是否会迎来爆发？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189941">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：PAUL VERADITTAKIT
-原文编译：深潮 TechFlow
-在需要比特币区块空间的新活动和交易激增的情况下，其基本的第一层协议在可扩展性方面面临着固有障碍。比特币的设计本身就对交易吞吐量施加了限制，这是为了确保安全而采用的去中心化共识机制。这些限制在网络拥堵期尤其明显，活动激增会导致确认时间延迟和交易费用上升。此外，比特币第 1 层的有限脚本功能也限制了可行应用的范围，加剧了与可扩展性相关的问题。虽然有限的设计空间既有限又往往是可取的，但到目前为止，这使在网络上构建更复杂的应用程序变得困难或不可行。
-在这种背景下，第 2 层解决方案作为一种设计用来补充和增强第 1 层功能的概念而出现。如其名称所暗示的，第 2 层解决方案在现有区块链之上运行，缓解拥堵并支持开发复杂的应用程序，而不会损害关键的安全性和去中心化。第 2 层解决方案的重要性在于它们创建新的网络功能的能力，从而在不背叛基础区块链的基本安全性和经济承诺的情况下实现创新。
-揭开 Stacks（STX）的面纱
-在针对比特币网络的各种第 2 层解决方案中，Stacks（STX）作为一种创新平台突出地位居其中，它重新定义了可扩展性和功能的界限。Stacks 作为第 2 层解决方案运行，可与比特币区块链无缝集成，开启崭新可能。Stacks 在其核心引入了开创性的方法论，架起了比特币基础层与优化用于复杂应用程序的辅助层之间的桥梁。
-与仅专注于链下交易管理的常规第 2 层解决方案不同，Stacks 通过在其第 2 层上授权开发者设计动态智能合约来提升比特币的第 1 层功能。这种方法促进了这两层之间的互利连接，确保复杂的计算和交互在第 2 层上进行，而交易安全性和最终性坚定地依赖比特币基础区块链。
-这种创新架构不需要对比特币第 1 层进行任何更改，保留了比特币的强大安全性，并优先考虑可扩展性，允许大量应用程序无缝…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189940"
-                        open
-                      >
-                        <summary class="article-expander__title">SBF审判在即，来看法律专家怎么说？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189940">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Nikhilesh De，Coindesk
-原文编译：Mary Liu，比推 BitpushNews
-FTX 创始人兼前首席执行官 Sam Bankman-Fried (SBF) 将在不到两周的时间内接受审判，为自己辩护，SBF 被指控故意实施欺诈并合谋欺骗 FTX 和 Alameda Research 的投资者和客户。
-检察官需要陪审团达成一致裁决，将 SBF 定罪。预计为期六周的审判定于美国东部时间 2023 年 10 月 3 日开始，这距离 Bankman-Fried 首次被捕仅 10 个月，距离 FTX 倒闭还不到 11 个月。
-
-为了更好地了解审判过程，CoinDesk 采访了几位法律专家，其中一些专家要求匿名以讨论这个备受瞩目的案件。
-评审团选择
-尽管审判定于下个月开始，但距离提出实际论据还需要一段时间。第一步可能会在下周举行，即最终的审前会议。
-纽约南区法官 Lewis Kaplan 将在会上列出最终证人时间表、审判日期可能会是多长，对任何问题作出裁决的最后未决动议。Withersworldwide 律师事务所律师 Martin Auerbach 表示，在选出陪审团后，卡普兰法官也可能会考虑一些动议。
-第二步是 voir dire（预先审查），这实际上将于 10 月 3 日开始。
-在陪审团选择过程中，法官将向潜在陪审员提出一些问题。一位拥有白领诉讼经验的律师告诉 CoinDesk，他可能会先广泛询问是否有任何潜在陪审员计划在未来几周内出差，否则可能几周内都无法离开工作岗位。
-他们表示，他还可能会询问是否有任何潜在陪审员拥有 FTX 账户，这些人将被 PASS。一旦完成这些广泛的陪审团问题，法官将开始向个人询问控方和辩护团队提出的问题。
-他们表示：「辩方和检方可能会争夺每位陪审员，这需要很长时间.这不会是一个是或否的问题，而是一个来来回回的过程，所以我…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189936"
-                        open
-                      >
-                        <summary class="article-expander__title">为什么Tether继续发放USDT贷款是个危险信号？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189936">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文《Tether Keeps Lending Tethers》，由 Odaily 星球日报 jk 编译。
-原文作者：Matt Levine 是一位负责金融报道的彭博观点专栏作家。他曾是 Dealbreaker 的编辑，曾在高盛的投行部任职，担任 Wachtell、Lipton、Rosen &amp; Katz 的并购律师，并在美国第三巡回上诉法院担任助理法官。
-
-Tether 开始发放 USDT 贷款
-
-我知道我经常这么说，但我就是想强调，Tether，这个大型稳定币发行商，在做个极好的生意。它是一个不受监管的银行，不支付利息，利率正在上升，其存款人基础相当稳定。到六月底为止，Tether 报告的资产约为 865 亿美元，其中大部分为美国国债，用以支持约 832 亿的 Tether。与上一季度相比有所增加：在去年的加密货币寒冬期间，Tether 曾短暂遭遇挤兑，但并不太严重，并且已经恢复得很好；加密货币投资者仍希望保留他们的资金在 Tether 中。
-反正，如果你是 Tether 的经营者，你不需要担心挤兑风险。Tether 主要投资于短期安全资产，现在这些短期安全资产支付很高的利息。只需将 Tether 的资金投资于以美国国债为担保的隔夜贷款，以隔夜融资利率，你就可以获得约 5.3% 的收益率，也就是每年约 46 亿美元，完全无风险，几乎没有费用。如果有人带着 Tether 来要求兑换美元，你可以直接给他们美元；你的投资都是短期的，流动性好。这是个绝妙的生意。
-这意味着，如果你负责 Tether，有人来找你提议一个能带来更高回报的聪明投资，即使只有一点点风险，你也应该塞住耳朵大喊“不”，然后把他们赶出你的办公室。你可以在不冒风险的情况下赚取数十亿美元的纯利润！没有信用风险（购买国债）、没有期限风险（购买非常短期的国债）、没有流动性风险（如果有人提款可以轻松出售国债），没有任何风…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5189939"
-                        open
-                      >
-                        <summary class="article-expander__title">一文读懂Dencun升级新增的EIP-7514提案</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5189939">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>撰文&amp;编译：Karen，Foresight News
-在上一次的以太坊执行层会议中，以太坊核心开发者将 EIP-7514 定为 Dencun 升级的一部分，旨在减缓验证者增长速度并预留更多的时间，来研究以太坊质押的未来和解决方案。
-根据来自 beaconcha.in 的数据显示，当前以太坊质押量达到 2584 万枚，相较一年前合并（2022 年 9 月 15 日）前的约 1350 万枚增加逾 90% ，与此同时，活跃验证者数量从 49 万增加至目前的 80 万以上。
-
-
-来源：beaconcha.in
-同样值得关注的是，当前还有超过 2.8 万的验证者正在排队，另外还有 621 个验证者在等待退出。
-EIP-7514 是什么？为何提出？
-正如以太坊基金会研究员 Dankrad Feist 所说，以太坊验证者集正在激增。此外，截至目前，Lido 在流动性质押领域占据主导地位，持有所有质押 ETH 的近 1/3 ，并且没有自我限制的意愿，这可能对以太坊的去中心化构成风险。此外，对 Lido 的治理攻击也可能会给以太坊网络带来严重问题。
-
-来源：Dune
-为此，Dankrad Feist 认为以太坊社区需要一些时间来弄清楚以太坊质押的未来，作为一个临时解决方案，降低验证者 Churn（每个 Epoch 会限制可以进入成为激活验证者的数量）可能是有益的。
-以太坊开发者 dapplion.eth 和 Tim Beiko 提出的 EIP-7514 即是希望通过限制 Max Epoch Churn Limit，将最大验证者增长率从指数增长更新为线性增长，从而减缓验证者数量的增长。
-如果以太坊存款队列一直保持爆满状态，预计到 2024 年 5 月，所有 ETH 的 50% 会被质押，到 2024 年 9 月，这一比例将上升到 75% ，到 2024 年 12 月，可能会达到 100% 。此…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7878,109 +8096,6 @@ PANews 启动全球LEAP 之旅！
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/aaxhorhp.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Aave社区正对“提高GHO借贷利率至2.5%”提案进行链上投票</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/aaxhorhp.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月18日消息，治理页面显示，Aave社区正对“提高稳定币GHO借贷利率”提案进行链上投票，并将于9月19日结束。该提案提议将GHO的借贷年利率从目前的1.5%提高到2.5%，目的是解决GHO的挂钩偏差问题，确保其增长和市场可信度。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/r6p733qy.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：Highstreet Treasury &amp; Reserve钱包向币安存入300万枚HIGH</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/r6p733qy.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月18日消息，据Lookonchain监测，Highstreet Treasury &amp; Reserve钱包于大约8小时前向币安存入300万枚HIGH（约合393万美元），过去一个月内已向币安累计转入627万枚HIGH（约合815万美元）。据此前消息，币安推动低市值项目采取措施增加流动性以应对市场操纵担忧，其中一项政策是邀请这些项目将其流通代币的1-5%存入其储蓄账户以赚取利息。Highstreet官方对PANews表示，其将部分HIGH转入币安的行为系配合币安的此项政策。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/vp7ep90n.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：本周2种代币将迎来解锁，总计释放价值近370万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/vp7ep90n.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月18日消息，Token Unlocks数据显示，本周2个加密项目将进行代币解锁，总计释放价值近370万美元。
-SPACE ID（ID）将于9月22日8时解锁约1849万枚代币，价值约368万美元；
-1inch（1INCH）将于9月22日16时解锁约5.35万枚代币，价值约1.3万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/dvc30lb4.html"
-                        open
-                      >
-                        <summary class="article-expander__title">JPEX提高取款费用并暂停Earn计划运营</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/dvc30lb4.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月18日消息，据The Block报道，加密交易所JPEX宣布，在持续的流动性危机之后，该公司已经提高了取款费用，并在其平台上暂停了Earn计划的运营，声称其第三方做市商“恶意冻结”了该公司的资金。 虽然现货交易似乎仍在继续，但一些用户声称，该平台对提现收取999 USDT的费用，提现上限设定为1000 USDT。对此，JPEX表示：“我们承诺尽快从第三方做市商那里恢复流动性，并逐步将提现费用调整回正常水平。” 据此前消息，JPEX已暂时关闭游戏大厅所有功能，并计划向用户征求DAO重组提案。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/fovlp61k.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国众议院正推进旨在阻止CBDC的立法</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/fovlp61k.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月18日消息，据Cointelegraph报道，美国众议院金融服务委员会正在推进旨在阻止央行发行数字货币（CBDC）的立法。 根据主席Patrick McHenry的公告，该委员会将于9月20日对两项有关潜在数字美元的法案进行最后审议。
-第一项法案是《数字美元试点预防法案》（HR 3712），禁止美联储在未经国会批准的情况下启动测试CBDC的试点计划。该法案由众议员Alex Mooney于5月提出。第二项立法是对《美联储法》的修正案，禁止美联储银行直接向个人提供某些产品或服务，并禁止将 CBDC用于货币政策和其他目的。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10609,8 +10724,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6273482549">
-        <time id="build-timestamp" datetime="2023-09-22T11:06:13.705Z">2023-09-22T11:06:13.705Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6274084499">
+        <time id="build-timestamp" datetime="2023-09-22T12:13:12.395Z">2023-09-22T12:13:12.395Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
