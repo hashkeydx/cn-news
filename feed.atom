@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-09-23T05:06:39.778Z</updated>
+    <updated>2023-09-23T06:08:49.604Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bitget Research每周要闻：SocialFi赛道近期创新不断，Mt.Gox还款日期延期一年]]></title>
+        <id>https://www.odaily.news/post/5189976</id>
+        <link href="https://www.odaily.news/post/5189976"/>
+        <updated>2023-09-23T04:47:29.000Z</updated>
+        <summary type="html"><![CDATA[过去一周（09.18-09.22  ），市场出现了不少新的热门币种和话题。
+1.市场焦点 Market Trends
+本周( 09.18-09.22)市场最关注的焦点话题为：
+
+FOMC 鹰派发言使美元指数上涨，加密资产整体下跌
+
+Mt.gox 将还款日期延期一年，美联储 9 月维持利率不变
+
+SocialFi 赛道近期创新不断，SEC 加密主管透露更多行业指控将会到来
+
+大盘先涨后跌表现弱势，TIP 上线二级市场后持续上涨
+
+以太坊 gas 费降至个位数，friend.tech 协议费超 2000 万美元
+
+2.热门项目 Popular Projects
+本周( 09.18-09.22)热度最高的项目有：
+SATS（Token）：BRC 20 代币，比特币最小单位聪，总量一共 2100 万张，目前 Mint 进度 96% ，因而未上榜，由于单张 mint 成本在 0.3 u-1.6 u 区间，目前仅 Mint 的 Gas 消耗就达到 1500 万美金以上；Unisat 今日官宣将在 9 月 26 日下周二发布其 brc 20-swap 进行早期公开测试阶段，对 BRC 20 赛道利好；
+TIP（Token）：SocialFi 热门项目 Tip Coin 发币，TIP 代币空投份额占总量 40% ，Epoch 1 阶段 15% 用于流动性提供， 15% 用于空投；Epoch 2 阶段 20% 代币用于空投；Epoch 3 阶段 5% 代币用于空投。TIP 在因数据问题推迟至 9 月 19 日上线，前期空投用户抛售压力消化后，代币在二级市场出现 4 倍的涨幅，市值最高达到 1000 万美金， 24 小时链上交易量 120 万美金；
+APX（Token）：由知名 kol CroissantEth 创建，其利用 chatgpt 创建了一个脚本，能够让 chatgpt 直接发币并且…]]></summary>
+        <author>
+            <name>Bitget研究院</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tether CTO：《华尔街日报》报道失实，Tether仍致力于从储备金中去除担保贷款]]></title>
         <id>https://panewslab.com/zh/articledetails/cf85iwbt.html</id>
@@ -15,6 +43,23 @@
 Paolo Ardoino补充称，Tether目前收取稳定币发行和赎回费用收入，也正在向其他业务领域扩张，包括通信、人工智能、能源生产和比特币挖矿等，并没有像大多数公司那样向股东提供巨额股息，而是投资于增长且仍然保持谨慎，一步一步做。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文读懂以“意图”为中心只看重结果的Intent-centric架构]]></title>
+        <id>https://www.odaily.news/post/5189961</id>
+        <link href="https://www.odaily.news/post/5189961"/>
+        <updated>2023-09-23T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：@YBBCapital  Researcher @Ac_Core_
+
+前言 
+Web3繁琐的用户体验成为了阻碍区块链被大规模采用的原因之一，随着近期Web3知名风投 Paradigm 对外介绍该机构在加密领域重点关注的 10 个潜在趋势时，将“以意图为中心（Intent-Centric）协议及基础设施” 位居榜首后，这一概念瞬间引发了业内的重点关注。这是一种围绕用户需求将意图视为核心的设计理念。举例说明，“我要点一份 30 元汉堡外卖”就是一个“意图”，为完成这个意图用户需在外卖平台输入姓名、电话、配送地址后下单支付，过程不必在意所支付的 30 元中商家获取的利润及平台分配给骑手的利润，我只需在家等待汉堡送达即可。这种架构形式极大简化了用户的体验门槛，让每一位用户只需表达自己的意图，把中间过程移交给各类其他协议，等待最终结果即可。注意：本文不为项目宣发，适合大众读者阅读，内容仅做分析参考。
+Intent-Centric 设计原理
+产生背景：
+在Web3世界里，交易是最核心的功能，无论 DeFi、GameFi、NFT 甚至任何一个赛道都离不开基础交易。但现实是，区块链的去中心化属性决定了不同链之间都是一座独立的孤岛，我们需要在不同岛之间找到链接它们的桥梁才能完成资产兑换。虽然中心化交易提供了便捷的用户资产交易体验，但用户仍需逐一授权钱包才能逐一畅游无数的 Dapp 应用，为降低去中心化应用程序的体验门槛，Intent-Centric 概念应运而生。
+虽然“意图”的雏形不是在近期诞生的，但这场概念风波由 Paradigm 引发，所以我们借用他们的定义来做参考：“意图是一套经过签名的声明性约束，它允许用户将交易创建给第三方外包，但不放弃对交易方的完全控制”。在实际中签名是受到用户自发性的意图主导，但为降低用户使用门槛而把资产移交给第三方外包处理真能实现嘛？下文将展开讨论…]]></summary>
+        <author>
+            <name>YBB Capital</name>
         </author>
     </entry>
     <entry>
