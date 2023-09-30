@@ -2594,26 +2594,6 @@
           "wordCount": 385,
           "title": "Gemini计划未来两年向其印度古尔冈中心投资20亿卢比，约2400万美元",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/q626gc9q.html",
-          "author": "PA一线",
-          "description": "PANews 9月26日消息，据Cryptoslate报道，根据最近的一份法庭文件，FTX 创始人 Sam Bankman-Fried 的辩护团队再次请求在即将到来的审判期间暂时释放他，理由是在当前的限制下很难准备充分的辩护。律师团队表示，对于审查涉及复杂的数千页调查材料和财务记录，SBF 的知识和参与至关重要。\n此前，美国第二巡回上诉法院驳回SBF的审前释放动议。",
-          "link": "https://panewslab.com/zh/articledetails/q626gc9q.html",
-          "publishedOn": "2023-09-26T07:02:29.000Z",
-          "wordCount": 356,
-          "title": "SBF律师再次提出审前释放动议，以为庭前辩护做准备",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/46lzbe6j.html",
-          "author": "PA一线",
-          "description": "PANews 9月26日消息，据Cointelegraph报道，比特币协议Ordinals创建者Casey Rodarmor提出了一种新的基于比特币的可替代代币协议“Runes”，作为 BRC-20 代币标准的潜在替代方案。其认为，像 Runes 这样的可替代代币协议不会像 BRC-20 代币那样在比特币网络上留下那么多“垃圾”，BRC-20 代币的问题在于，它们用“垃圾”未花费交易输出（UTXO）向比特币发送垃圾邮件。\n相关阅读：“激情褪去”后的Ordinals生态：一文全览各个协议发展现状",
-          "link": "https://panewslab.com/zh/articledetails/46lzbe6j.html",
-          "publishedOn": "2023-09-26T06:34:57.000Z",
-          "wordCount": 374,
-          "title": "Ordinals创建者Casey Rodarmor提出基于比特币的可替代代币协议“Runes”",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3537,16 +3517,6 @@
           "publishedOn": "2023-09-26T07:40:00.000Z",
           "wordCount": 1716,
           "title": "深入探讨自治世界：传统游戏模式的彻底转变",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5190022",
-          "author": "Foresight News",
-          "description": "原文作者：0x fan，Smarti Lab\n原文编译：Peng SUN，Foresight News\nTL;DR：\n1.我们通过两种计算方法来评估实施 EIP-4844 后可能会减少的 Gas 费、TPS（每秒交易量）和容纳 Rollups 的能力。\n2. 据估算，在 Calldata 大小分别为 10 KB 和 2 KB 的情况下，EIP-4844 可能会容纳更多的 Calldata，从 38 倍到 192 倍不等。由于能在同一区块内容纳更多 Calldata，每单位 Calldata 的成本也会相应降低。\n3. 假设每个 Rollup 的 Calldata 大小统一为 2 KB，则 EIP-4844 最多只能容纳 384 个 Rollup。\n4. 在正常情况下（即区块达到目标大小时），以太坊将通过 EIP-4844 达到 175 TPS，最高可达 350 。\n5. 与普遍看法相反，仅仅依靠 EIP-4844 还不足以让以太坊显著提高可扩展性。\n6. 利用替代的 DA 层（如 Celestia）或 DAC（如 zkPorter），提高 L2 交易数据的压缩率以及增加 zk Rollups 的比例都会对进一步提高以太坊可扩展性产生重要影响。\nProto-danksharding（也就是 EIP-4844）提议实现 Danksharding 未来可能使用的大部分逻辑和规则。目前，由于 L1 上的存储成本较高，导致 L2 的过渡费也比较高。为了解决这个问题，EIP-4844 引入了一种新的数据类型 Blob，它比 calldata 更便宜、更大，为 rollup 数据存储提供了另一种方式。\n随着 EIP-4844 即将推出，L2 定序器或许会获得更高的利润。这是因为定序器负责将交易批量导入 L1 并支付数据费用，而定序器支付的 L1 数据费用将大幅降低。低交易费有可能通过增加…",
-          "link": "https://www.odaily.news/post/5190022",
-          "publishedOn": "2023-09-26T06:53:43.000Z",
-          "wordCount": 2393,
-          "title": "EIP-4844的潜在影响：究竟能在多大程度上提高可扩展性和降低交易费用？",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-09-30T18:08:22.383Z</updated>
+    <updated>2023-09-30T19:05:01.274Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -3969,48 +3969,6 @@ Lybra Finance 于今年 4 月推出，自推出以来团队一直在积极建设
         <updated>2023-09-26T07:38:28.000Z</updated>
         <summary type="html"><![CDATA[PANews 9月26日消息，Gemini 今日宣布在未来两年计划投资 20 亿印度卢比（2400 万美元）来​​发展其位于古尔冈的开发中心。Gemini 的古尔冈办事处将成为其工程、设计和运营团队专业人员的所在地，他们负责为全球 70 多个国家/地区的客户开发产品和服务。以及将古尔冈办事处的员工人数增加一倍，从 70 人增加到 150 多人。Gemini 还在 Campus Cyber​​ Greens 的 Cyber​​ Hub 内开设了办公室。
 据悉，古尔冈是印度主要的经济和工业城市之一，是印度的第三大资本流入城市。继孟买和钦奈之后，古尔冈已成为印度领先的金融和银行中心，被称为印度的“深圳”。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SBF律师再次提出审前释放动议，以为庭前辩护做准备]]></title>
-        <id>https://panewslab.com/zh/articledetails/q626gc9q.html</id>
-        <link href="https://panewslab.com/zh/articledetails/q626gc9q.html"/>
-        <updated>2023-09-26T07:02:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月26日消息，据Cryptoslate报道，根据最近的一份法庭文件，FTX 创始人 Sam Bankman-Fried 的辩护团队再次请求在即将到来的审判期间暂时释放他，理由是在当前的限制下很难准备充分的辩护。律师团队表示，对于审查涉及复杂的数千页调查材料和财务记录，SBF 的知识和参与至关重要。
-此前，美国第二巡回上诉法院驳回SBF的审前释放动议。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EIP-4844的潜在影响：究竟能在多大程度上提高可扩展性和降低交易费用？]]></title>
-        <id>https://www.odaily.news/post/5190022</id>
-        <link href="https://www.odaily.news/post/5190022"/>
-        <updated>2023-09-26T06:53:43.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：0x fan，Smarti Lab
-原文编译：Peng SUN，Foresight News
-TL;DR：
-1.我们通过两种计算方法来评估实施 EIP-4844 后可能会减少的 Gas 费、TPS（每秒交易量）和容纳 Rollups 的能力。
-2. 据估算，在 Calldata 大小分别为 10 KB 和 2 KB 的情况下，EIP-4844 可能会容纳更多的 Calldata，从 38 倍到 192 倍不等。由于能在同一区块内容纳更多 Calldata，每单位 Calldata 的成本也会相应降低。
-3. 假设每个 Rollup 的 Calldata 大小统一为 2 KB，则 EIP-4844 最多只能容纳 384 个 Rollup。
-4. 在正常情况下（即区块达到目标大小时），以太坊将通过 EIP-4844 达到 175 TPS，最高可达 350 。
-5. 与普遍看法相反，仅仅依靠 EIP-4844 还不足以让以太坊显著提高可扩展性。
-6. 利用替代的 DA 层（如 Celestia）或 DAC（如 zkPorter），提高 L2 交易数据的压缩率以及增加 zk Rollups 的比例都会对进一步提高以太坊可扩展性产生重要影响。
-Proto-danksharding（也就是 EIP-4844）提议实现 Danksharding 未来可能使用的大部分逻辑和规则。目前，由于 L1 上的存储成本较高，导致 L2 的过渡费也比较高。为了解决这个问题，EIP-4844 引入了一种新的数据类型 Blob，它比 calldata 更便宜、更大，为 rollup 数据存储提供了另一种方式。
-随着 EIP-4844 即将推出，L2 定序器或许会获得更高的利润。这是因为定序器负责将交易批量导入 L1 并支付数据费用，而定序器支付的 L1 数据费用将大幅降低。低交易费有可能通过增加…]]></summary>
-        <author>
-            <name>Foresight News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ordinals创建者Casey Rodarmor提出基于比特币的可替代代币协议“Runes”]]></title>
-        <id>https://panewslab.com/zh/articledetails/46lzbe6j.html</id>
-        <link href="https://panewslab.com/zh/articledetails/46lzbe6j.html"/>
-        <updated>2023-09-26T06:34:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 9月26日消息，据Cointelegraph报道，比特币协议Ordinals创建者Casey Rodarmor提出了一种新的基于比特币的可替代代币协议“Runes”，作为 BRC-20 代币标准的潜在替代方案。其认为，像 Runes 这样的可替代代币协议不会像 BRC-20 代币那样在比特币网络上留下那么多“垃圾”，BRC-20 代币的问题在于，它们用“垃圾”未花费交易输出（UTXO）向比特币发送垃圾邮件。
-相关阅读：“激情褪去”后的Ordinals生态：一文全览各个协议发展现状]]></summary>
         <author>
             <name>PA一线</name>
         </author>
