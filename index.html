@@ -51,6 +51,65 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-10-01 datetime="2023-09-30T18:11:12.000Z">2023-10-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-10-01 datetime="2023-09-30T18:11:12.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190103"
+                        open
+                      >
+                        <summary class="article-expander__title">V神最新长文：以太坊协议是否应该封装更多功能？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190103">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文标题：Should Ethereum be okay with enshrining more things in the protocol?
+原文作者：Vitalik Buterin
+Odaily星球日报译者 | 念银思唐
+特别感谢 Justin Drake, Tina Zhen 和 Yoav Weiss 的反馈和审查。
+从以太坊项目开始，就有一个强烈的理念，即试图使核心以太坊尽可能简单，并通过在其上构建协议来尽可能实现这一点。在区块链领域，“在L1上构建”与“专注于L2”的争论通常被认为主要是关于扩展的，但实际上，在满足多种以太坊用户的需求方面存在类似的问题：数字资产交换、隐私、用户名、高级加密、账户安全、抗审查、抢先交易保护，等等。然而，最近有一些谨慎的想法愿意将更多这些功能封装（enshrine）进核心以太坊协议中。
+这篇文章将深入探讨最初的最小封装哲学背后的一些哲学推理，以及一些最近思考这些想法的方法。目标将是开始建立一个框架，以便更好地确定可能的目标，在这些目标中，封装某些功能可能值得考虑。
+关于协议极简主义的早期哲学
+在当时被称为“以太坊 2.0 ”的早期历史中，人们强烈希望创建一个干净，简单和美观的协议，该协议尽可能少地尝试通过自身来构建，并将几乎所有这类工作都留给用户。理想情况下，协议只是一个虚拟机，而验证一个区块只是一个虚拟机调用。
+
+这是我和 Gavin Wood 在 2015 年初绘制白板图的近似重建，当时我在谈论以太坊 2.0 的样子。
+“状态转换函数”（处理区块的函数）将只是单个 VM 调用，所有其他逻辑将通过合约发生：一些系统级合约，但主要是由用户提供的合约。这个模型的一个非常好的功能是，即使是整个硬分叉也可以被描述为对于区块处理器合约而言的单笔交易，该交易将通过链下或链上治理进行批准，然后以升级的权限运行。
+2015 年的这些讨论特别适用…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-09-30 datetime="2023-09-30T12:18:24.000Z">2023-09-30</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-09-30 datetime="2023-09-30T12:18:24.000Z"></time>
           </button>
@@ -6666,110 +6725,6 @@ Xbox的负责人Phil Spencer将文件泄露归因于美国联邦贸易委员会�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/15tr91n3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">香港警方：JPEX案被捕人数升至12人，涉及金额升至14.97亿港元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/15tr91n3.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月26日消息，据香港电台报道，在虚拟资产交易平台JPEX案中，香港警方再拘捕了一人，至今共有12人被捕。警方表示，截至下午5时，警方共接获2392名事主报案，涉及金额约14.97亿港元。警方指出，案件调查仍在进行中，不排除有更多人被捕。商业罪案调查科人员亦积极跟进调查，会继续联络涉案人士以提供相关资料协助警方调查。
-根据昨日的数据，香港警方共接获2360名受害人报案，当中涉及金额约14.9亿港元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ud26ffoz.html"
-                        open
-                      >
-                        <summary class="article-expander__title">野村旗下数字资产公司Laser Digital获得阿布扎比全球市场的原则性许可</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ud26ffoz.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月26日消息，据Ledger Insights报道，野村控股旗下数字资产公司Laser Digital获得阿布扎比全球市场（ADGM）的原则性许可，在满足所有条件后，可获得作为加密货币和传统资产的经纪交易商和资产/基金经理的许可证。
-此前8月消息，野村旗下数字资产子公司Laser Digital获得了迪拜加密货币业务的完全许可。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/g7ion68a.html"
-                        open
-                      >
-                        <summary class="article-expander__title">慢雾：Upbit遭受Aptos假充值攻击系其未注意代币转账机制更新所致</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/g7ion68a.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月26日消息，针对近日Upbit遭受Aptos假充值攻击事件，安全公司慢雾在X平台上表示，Aptos的代币转账机制在2023年1月15日进行了重要更新。在此之前，接收方必须在接收代币的合约中预注册其地址，才能接收相应的代币。Aptos根据Aptos Labs在GitHub上的提交正式更改了这一点。现在进行Aptos代币转账时，如果接收方的地址没有在代币合约中注册，系统将默认将转账用户注册为接收方。在这次攻击中，攻击者向入口地址执行了虚假代币转账。由于Upbit没有检查代币类型，导致了入账错误。因此建议依赖转账检测的实体始终关注官方代码更新，并对账户入账进行多维度检查，以确保资产的安全性。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/lfky0uof.html"
-                        open
-                      >
-                        <summary class="article-expander__title">前美SEC官员呼吁美国司法部对更多加密公司发起诉讼</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/lfky0uof.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月26日消息，据Bitcoin.com报道，美国证券交易委员会（SEC）前互联网执法负责人John Reed Stark呼吁美国司法部（DOJ）起诉更多加密公司。他表示：“残酷的现实是，SEC只是一个民事执法机构。除非加密欺诈者面临着司法部起诉（即监禁）的威胁，否则他们将继续将SEC执法相关的风险视为监管套利的成本，并将其视为资产负债表上的另一项负债。”
-在评论加密交易所FTX创始人Sam Bankman-Fried (SBF)的欺诈案时，Stark写道：“我无论如何都无法理解，为什么美国司法部和美国SEC会没有将SBF的父母列为被告。对于SEC来说，SBF的父母至少应该被列为‘救济被告’。特别是，在接近200起与加密相关的SEC执法行动的情况下，美国司法部加密相关刑事起诉的极度匮乏令人难以置信。”据悉，“救济被告”是指民事诉讼程序中，未被指控从事了违法行为，但是，获取了源自于被告违法行为的财物，对该财物并无合法权利，法院可以判令救济被告向原告返还或者交回该财物。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/9hwrn3ix.html"
-                        open
-                      >
-                        <summary class="article-expander__title">台湾金管会正式发布《管理虚拟资产平台及交易业务事业指导原则》</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9hwrn3ix.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 9月26日消息，据官网消息，台湾金融监督管理委员会正式发布《管理虚拟资产平台及交易业务事业（VASP）指导原则》，重点摘述如下：1.虚拟资产发行面管理：如有透过平台发行之虚拟资产，发行人应于其网站公告所编制之白皮书（且要求应至少揭露一定内容），平台应公告该网站连结。2.虚拟资产上下架之审查机制：应就虚拟资产之白皮书内容与上下架订定审查标准及程序，并纳入内部控制制度。3.平台资产与客户资产之分离保管：平台就虚拟资产交易及其款项代收付业务收受客户之法定货币或虚拟资产，应与其自有之上述资产分离保管。4.交易公平及透明度：平台应订定虚拟资产交易规则并公告，及应建立确保市场交易公平之相关机制。5.契约订定、广告招揽及申诉处理：平台应本于公平合理、平等互惠及诚信原则以落实客户保护规定。6.营运系统、资讯安全及冷热钱包之管理机制：平台应就其持续营运、资讯安全及冷热钱包之私钥等建立管理制度。7.资讯公告揭露：就上述虚拟资产发行与商品上下架、资产分离保管、交易资讯与规则及客户保护等事项，平台应充分公告揭露。8.内部控制及机构查核：平台应建立内控内稽制度等机制，并应确保其运作具独立客观，及同意接受金管会或所委托机构办理实地查核。9.个人币商：自然人从事虚拟资产业务，向金管会申报洗钱防制法令遵循之声明者，其声明之内容与品质须与法人组织相当。10.台湾地区以外币商：台湾地区以外虚拟资产平台业者非经依公司法办理登记，并向金管会办理并完成洗钱防制法令遵循之声明者，不得于台湾或向台湾人进行业务招揽。
-此前今日早些时候消息，台湾九家加密货币交易所已成立工作组，准备成立加密货币行业协会。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -6983,37 +6938,6 @@ Brent Crude Oil prices up significantly
 美国汽车工人联合会的罢工可能会比预期持续更长时间，而 10 月份即将到来的政府停摆可能会对经济造成适度的打击。
 但是，市场正在忽视来自华盛顿的混乱和政治姿态，并保持其积极的动能，可能会在年底前倾向于上升。科技股的表现仍然强劲，直到他们的收益令人失望，而 Arm Holdings 上周成功的首次公开募股显示了 IPO 市场的健康重启和对风险的持续需求。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5190030"
-                        open
-                      >
-                        <summary class="article-expander__title">取代BRC-20激活BTC生态？Ordinals创始人带来新协议Runes</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190030">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文 | Casey Rodarmor 
-编译 | Odaily星球日报
-
-
-昨天，Ordinals 创建者 Casey Rodarmor 发布博客，介绍了一个新的可替代代币（fungible token，简称 FT）协议 Runes。
-
-关于比特币究竟是否需要 FT，Casey Rodarmor 在其推文中表示 FT 具有两面性。一方面， 99.99% 的 FT 都是「狗屎」和骗局，削弱了比特币的纯净度；另一方面，它们为比特币生态带来大量的费用收入、开发者和用户。“人们喜欢代币，它们就像赛博朋克赌场，所以费用收入可能是可观的和持续的，直到人们对（网络）安全预算的担忧完全缓解。”
-他补充说，目前已经出现了 BRC-20、RGB 和 Taproot 等 FT 协议。与简单的链上协议相比，RGB 和 Taproot 这样的协议很复杂，可能会给用户体验带来挑战。BRC-20 非常简单，并且与需要链下数据存储和检索基础设施的 RGB/Taproot 相比，可以提供不错的用户体验；但 BRC 20 代币的问题在于，它们会产生“垃圾 UTXO”而占据比特币的空间。
-Rodarmor 表示，Runes 是以 UTXO 为基础的协议，更自然地适应比特币，并通过避免创建“垃圾 UTXO”来促进 UTXO 集合的最小化。
-以下内容来自 Casey Rodarmor 博文，由Odaily星球日报编译
-我不确定，为比特币创建一个新的可替代代币（FT）协议是否是一个好主意。99.9% 的 FT 都是骗局和表情包。然而，它们似乎不会很快消失，就像赌场似乎不会很快消失一样。
-为比特币创建一个良好的 FT 协议，可能会为比特币带来可观的交易费收入、开发者关注度以及用户。此外，如果该协议的链上足迹较小并激励负责任的 UTXO 管理，那么与现有协议相比，它可能会减少危害。比如现在流行的 BRC-20 ，就导致…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9111,8 +9035,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6365603856">
-        <time id="build-timestamp" datetime="2023-09-30T21:05:56.632Z">2023-09-30T21:05:56.632Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6365891133">
+        <time id="build-timestamp" datetime="2023-09-30T22:06:07.431Z">2023-09-30T22:06:07.431Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
