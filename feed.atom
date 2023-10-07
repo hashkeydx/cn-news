@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-10-07T09:06:29.628Z</updated>
+    <updated>2023-10-07T10:07:03.900Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[NGC Ventures：区块链系统中以意图为中心的设计]]></title>
+        <id>https://www.odaily.news/post/5190147</id>
+        <link href="https://www.odaily.news/post/5190147"/>
+        <updated>2023-10-07T07:49:53.000Z</updated>
+        <summary type="html"><![CDATA[原文撰文：Adam Arreola @NGC Ventures
+中文翻译：Tudd Cai & Henry Zhang @NGC Ventures
+介绍
+在目前阶段，使用区块链解决方案进行交易对普通用户来说过于复杂。用户可能知道他们的目标是什么，但复杂的步骤阻碍了他们实现意图（Intent）的过程。最近，一种被称为“以意图为中心的设计”(Intent-centric design)的解决方案引起了社区的关注。通过意图，用户可以描述他们期望的结果，而不是列出实现这一目标所需的每个步骤。例如，如果一个用户想要收到一定数量的以太坊（ETH），并愿意支付一定数量的比特币（BTC）来收到它，以意图为中心的解决方案将可以实现这一目标，而无需用户指定跨链交易的具体步骤。
+本文将探讨新兴的以意图为中心的设计以及它们将如何简化区块链交互，并将详细探讨意图的生命周期、相关设计目前的实现情况以及未来该技术的应用。除了评估意图为中心的系统带来的风险和挑战之外，本文还将评估其中的价值流向，对这个正在迅速改变区块链格局的创新进行全面的考察。
+用户需要简洁的区块链交互过程
+区块链交易的复杂性造成了一个不公平的竞争环境，只有最精明的用户才有望获利。做市商、高频交易公司和 MEV 搜索者（Searcher）等经验丰富的参与者利用先进的资源、系统和算法竞争，来获取最大的利润。
+以意图为中心的设计有助于公平竞争，简化用户在链上交易的方式，同时提高整个系统的资本效率。对于经验丰富的参与者来说，考虑到他们现有的能力，在以意图为中心的系统中成为处理者（Solver）并不是一个重大的转变，因为他们已经具备了相应的能力。以意图为中心的系统提供了更好的 UI、优化的Gas 费用、滑点处理以及更好的可组合性。
+用户只需要描述他们想要实现的效果，他们就能轻松地实现目标。用户不需要知道或理解实现其目标所需的底层流程；他们只需要知…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：约2.3万枚ETH从Binance转移到未知钱包]]></title>
         <id>https://panewslab.com/zh/articledetails/8j2k2rd2.html</id>
@@ -3001,36 +3019,6 @@ i…]]></summary>
         <updated>2023-10-03T00:47:24.000Z</updated>
         <summary type="html"><![CDATA[PANews 10月3日消息，美国证券交易委员会（SEC）和金融业监管局 (FINRA)、商品期货交易委员会 (CFTC)、全国期货协会 (NFA)、证券投资者保护公司 (SIPC) 和北美证券管理员协会（NASAA）针对加密资产投资共同发出多项警告，称加密资产投资可能具有异常波动性和投机性，投资者买卖、借入或借出这些资产的平台可能缺乏保护。 
 监管机构警告说，那些提供加密资产投资或服务的人可能不遵守适用法律，包括联邦证券法。此外，该公告还详细指出，加密资产投资者面临着许多风险，包括未注册发行、缺乏证券投资者保护公司（SIPC）的保护以及欺诈。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chia Network裁员三分之一]]></title>
-        <id>https://panewslab.com/zh/articledetails/2t9l3eo2.html</id>
-        <link href="https://panewslab.com/zh/articledetails/2t9l3eo2.html"/>
-        <updated>2023-10-02T21:28:59.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月3日消息，据CoinDesk报道，加密存储区块链项目和智能交易平台Chia Network宣布裁员26名，占总员工人数的三分之一。该公司将继续向美国证券交易委员会（SEC）推销上市事宜，并正在考虑首次出售其部分代币。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[野村旗下数字资产公司Laser Digital在日本设立新办事处]]></title>
-        <id>https://panewslab.com/zh/articledetails/k8s0bkcm.html</id>
-        <link href="https://panewslab.com/zh/articledetails/k8s0bkcm.html"/>
-        <updated>2023-10-02T21:18:54.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月3日消息，据The Block报道，野村旗下数字资产公司Laser Digital已将业务扩展至日本，在东京设立了新办事处。Hideaki Kudo被任命为新办事处的负责人。此前Kudo是野村Digital Company的执行董事，负责其数字资产战略。Laser Digital于去年成立，专注于三个核心领域：风险投资、资产管理和交易。迄今为止，Laser风投公司已经投资了十多家加密初创公司，包括Orderly Network、WebN Group和Infinity Exchange。Laser Digital此前还获得了迪拜加密业务的完全许可。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美联储报告：检查人员未能迅速发现Silvergate Bank问题，且银行管理人员“效率低下”]]></title>
-        <id>https://panewslab.com/zh/articledetails/qf67gbu7.html</id>
-        <link href="https://panewslab.com/zh/articledetails/qf67gbu7.html"/>
-        <updated>2023-10-02T21:11:39.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月3日消息，美联储监察长办公室(OIG)的一份报告显示，在Silvergate Bank从一家社区银行转变为一家加密银行的过程中，美联储检查人员并未发出警报，并允许其承担可能致命的风险。鉴于该行不受约束的增长，监管机构本应采取更积极、更果断的监管行动，将若干问题升级。此外，Silvergate的问题还包括其“效率低下”的高级管理层，后者受到裙带关系的困扰。报告总结称:“该银行的公司治理和风险管理能力没有跟上其快速增长步伐以及日益复杂和不断变化的风险状况。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
