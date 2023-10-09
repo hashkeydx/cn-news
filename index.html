@@ -915,6 +915,139 @@ CyberConnect（CYBER）将于10月15日8时解锁126万枚（约623万美元）�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190173"
+                        open
+                      >
+                        <summary class="article-expander__title">Token 2049会议结束，AlienSwap用户实现快速增长</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190173">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>上个月 Token 2049 大会在新加坡顺利召开，作为大会期间唯一参展的多链 NFT 交易平台，AlienSwap 通过其卓越的数据表现毫不掩饰地展现了其在 NFT 交易市场的创新力量。
+1、交易量飙升
+首先是交易量呈现出爆发式增长。据 NFTScan 数据显示，AlienSwap 在大会展期间平均每 24 小时全链交易量 为 910 万美元，超过 OpenSea 和 Blur，排名全网第一。AlienSwap 在加密市场交易领域的影响力和用户基础不断扩大，用户对其交易平台的信任度也在不断提升。
+2、用户增长迅猛
+用户数量也呈现出迅猛增长的趋势。根据官方数据显示，AlienSwap 在大会期间新增用户数量较平时增长了超过 400% 。注册钱包地址数从 70 w+突破到了 300 w+，AlienSwap 成功吸引了大量新用户的加入，进一步扩大了其用户基础。
+3、项目方合作伙伴增多
+据悉，AlienSwap 在参会期间与 OKX、DeBox、VIP3 等多个知名项目方达成合作伙伴关系，进一步提升了其在加密货币行业的影响力。各种蓝筹项目方的加入无疑给 NFT 这个细分赛道注入了更多的想象空间和利好预期。
+4、社区活跃度提升
+AlienSwap 作为第一个基于会员制的 NFT 市场和聚合器，其社区氛围本身就很浓厚。新用户的大量增加对 AlienSwap 的社区活跃度有很大提升，社区成员积极参与讨论、分享经验并参与活动，为 AlienSwap 的发展提供了宝贵的意见和支持。AlienSwap 的社区正在不断壮大，成为一个充满活力和创新思维的社区。
+AlienSwap 如何在这么短的时间内产生如此成就？
+一、多链星球部署计划
+AlienSwap 的多链大航海计划（Space Voyage）于 9 月初刚刚推出，作为其多链星球计划的起航活动，其目的更多的是拓展更多的公链及 Layer…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190168"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂“延时貔貅”的实现原理和防范措施</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190168">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原创 | Odaily星球日报
+作者 | 南枳
+
+代币貔貅，通常指某个代币只能购买而不能出售的情况，而开发者会在一段时间后撤除 LP 获利，对购买者 Rug Pull。而延时貔貅则是在代币刚开放交易的短时间内可以交易，而后变成了貔貅状态。对于此类  Rug Pull 手法，许多合约检测工具暂未添加相应的检测功能，正成为恶意开发者的主要获利手段之一。
+下面，Odaily星球日报将通过简易概述 ERC 20 和 Uniswap 的原理，讲解延时貔貅是如何实现的。
+注：文章中的部分类比，为便于理解，并不完全严谨。
+ERC 20 基础
+市场上绝大部分代币遵守 ERC-20 标准，而 ERC-20 是什么，ChatGPT 答案如下：
+ERC-20 是一种以太坊（Ethereum）区块链上的代币标准，它定义了代币合约必须遵循的一组规则和接口。这个标准规范了代币的基本功能，包括转账、余额查询、授权代表他人花费代币等。
+以下是一些主要的 ERC-20 代币标准规则和功能：
+
+转账（Transfer）：ERC-20 代币可以通过智能合约的方法进行转账，使用户能够向其他以太坊地址发送代币。
+
+余额查询（BalanceOf）：用户可以查询他们的 ERC-20 代币余额，以查看他们拥有的代币数量。
+
+余额查询（BalanceOf）：
+实际上，该函数不仅具有“查询”功能，用户“拥有”多少代币也由该函数定义。可以将每个代币理解为一个“银行”，而每个钱包地址在交易代币后，从“银行”处获得了一张“储蓄卡”，记录了每个地址的余额（Balance），用户即可以向银行申请查询自己的余额情况，也可以向银行提出资产变更请求进行交易。
+注：以太坊采用了账本（Account-Based）模型。
+因此，用户本质上并不“拥有”其资产，而是由一个函数“定义”了你可以去”花费“的代币数量。
+
+即：X 代币 Balance Of…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190185"
+                        open
+                      >
+                        <summary class="article-expander__title">MetaMask的增长飞轮正在失效，泛用户应用成为新「入口」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190185">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Pengyu, Co-founder of Particle Network
+MetaMask 是业内最知名的钱包产品，其影响力已经超越了钱包领域，给人一种几乎不可撼动的印象。其核心原因在于利用了开发者群体中的先发优势，并与 dApp 生态共同构建了一个增长飞轮。本文将分析 MetaMask 增长飞轮的启动与运行，以及为何可能正在失效。
+简单回顾 MetaMask 发展历史
+让我们简单回顾一下 MetaMask 的发展历史：
+MetaMask 是由 Kumavis（也称为 Aaron Davis）和其他几位核心成员共同创建的。其目的是通过浏览器扩展插件简化用户与 dApps 的互动。在 2016 年之前，要与基于以太坊的 dApp 进行互动通常需要运行一个完整的以太坊节点，这对许多用户来说相当复杂。
+与大家可能的直观感受不同，MetaMask 在初始阶段更多地被定位为一个开发者工具，其目的是为开发人员提供一个友好且易于使用的用户接入界面。
+
+图 1-MetaMask 的增长飞轮
+从发展历史可以总结出 MetaMask 的增长飞轮起始状态和运行状态
+在 DeFi 和 NFT 领域迅速崛起的过程中，得益于 MetaMask 的资产和用户规模优势，越来越多的 dApp 选择 MetaMask 作为连接链上业务的首选方案，从而进一步增强了 MetaMask 的资产规模和用户规模。
+对 MetaMask 的发展历程进行总结，我们可以明确看到其增长飞轮的起始、启动和运行各阶段：
+飞轮的起始阶段：以开发者友好的特点为主，成为早期 dApp 的默认用户接入工具。
+飞轮的启动阶段：在用户和资产规模上取得领先。
+飞轮的运行阶段：行业内的「财富效应」- 增量用户进入链上产品（这类产品以 DeFi 类产品为主，且主要通过网页端交互）- 默认使用 MetaMask 进行连接 - 增加 Me…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190183"
+                        open
+                      >
+                        <summary class="article-expander__title">ETHS一晚两倍，除价格外的运营手段值得项目方们学习</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190183">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>在 ordinals 生态一片沉寂之下，模仿 BRC-20 Token 的 Ethscriptions 却被突然爆拉，在 270-300 横了 3-4 个月后，在昨夜翻了近两倍达到 800 U。
+
+这让许多人感到意外，毕竟 Ethscription 最早发出时，没有索引、没有交易市场，甚至不像 BRC-20 那样有 domo 拟好的技术文档。
+推手们看好 ETHS，大举进场
+Ethscriptions 使得非金融和任意数据可以被写入以太坊区块链，只要文件大小不超过 96 千字节，用户可以刻录任何类型的文件。据其创建者称，虽然目前它只允许图片——但将来会有所改变。
+这些刻录利用了所谓的以太坊「调用数据（Calldata）」，它指的是在对智能合约的调用中提供的数据。Lehman 表示，这比使用合约存储更便宜且更去中心化。这个协议「保证所有有效的 Ethscriptions 内容的唯一的」，创建者在推特上写道。
+BlockBeats 在 ETHscriptions 上线时曾撰写过相关内容，相关阅读：《Ordinals 引发的「NFT 返祖」，不是理想主义的回归》。
+
+在一篇发表于 2 年前的推文中，@dhof 根据不同的「全链上 NFT」实现方式，对 ETH「全链上 NFT」进行了分级。一星级的是将数据存储在 ETH 交易的数据存储字段 calldata 中，二星级的是通过 EVM 操作码 sstore 来存储数据并通过外部脚本渲染数据，最高的三星级是通过 EVM 操作码 sstore 来存储数据并通过智能合约内置的渲染器完成渲染以输出 svg 图像或其它类似的 data URI。
+如果我们按照这个标准来给 Ethscription 评分，Ethscription 只能获得一星评级。正如其官网开头就提到的，Ethscription 是通过将数据存储在 ETH 交易的数据存储字段 …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.odaily.news/post/5190177"
                         open
                       >
@@ -8248,8 +8381,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6455186631">
-        <time id="build-timestamp" datetime="2023-10-09T10:08:33.656Z">2023-10-09T10:08:33.656Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6455773632">
+        <time id="build-timestamp" datetime="2023-10-09T11:06:36.073Z">2023-10-09T11:06:36.073Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
