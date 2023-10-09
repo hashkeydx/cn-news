@@ -2274,36 +2274,6 @@
           "wordCount": 359,
           "title": "TON从MEXC Ventures获得千万美元级别投资",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ppk4ezvk.html",
-          "author": "PA一线",
-          "description": "PANews 10月5日消息，据链上分析师余烬监测，FTX黑客在昨晚继续转出1.5万枚ETH（2475万美元），然后通过THORChain跨链交换为BTC。FTX黑客自9月30日以来已通过4个地址共计转出6万枚ETH（9900万美元），其中5.6万枚ETH通过THORChain跨链交换为BTC，2500枚ETH兑换为153.4tBTC后通过ThresholdNetwork桥接回Bitcoin网络，1500枚ETH通过隐私网络RAILGUN转移。目前FTX黑客在以太坊网络上还通过9个地址共计持有125,735枚ETH（2.07亿美元）。",
-          "link": "https://panewslab.com/zh/articledetails/ppk4ezvk.html",
-          "publishedOn": "2023-10-05T01:40:05.000Z",
-          "wordCount": 339,
-          "title": "数据：FTX黑客再转出1.5万枚ETH，目前在以太坊网络仍持有125,735枚ETH",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ujqz7olw.html",
-          "author": "PA一线",
-          "description": "PANews 10月5日消息，据The Block报道，区块链社交应用Stars Arena推动Avalanche交易量大幅增加。这款受FriendTech启发的社交协议于9月底推出，在用户中迅速获得了吸引力。数据显示，在24小时内，超过1万个独立活跃钱包与Stars Arena进行了互动。该平台在推出两周内总锁仓价值已超过100万美元。与此同时，Avalanche上的交易量大幅上升，从9月20日Stars Arena推出时的15.8万笔跃升至10月3日的超过25万笔。此外，随着Avalanche交易量的增加，AVAX交易价格24小时上涨9.9%，目前为10.14美元。",
-          "link": "https://panewslab.com/zh/articledetails/ujqz7olw.html",
-          "publishedOn": "2023-10-05T01:36:12.000Z",
-          "wordCount": 353,
-          "title": "Stars Arena推动Avalanche交易量大幅增加",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/nllo8q6x.html",
-          "author": "PA一线",
-          "description": "PANews 10月5日消息，据The Block报道，Manifold Finance推出了一种新的MEV拍卖协议。它引入了一个新的拍卖系统，允许每个拍卖时段有多个获胜者，而不是以太坊生态系统中常见的“每个时段一个获胜者”模式。Manifold Finance证实，自8月以来，已有超过28000枚ETH质押于MEV协议的mevETH。它还公布了一个简化的流程，用户可以通过其平台直接存入ETH和铸造mevETH。该项目还邀请了以太坊社区的知名人士担任顾问，如Frax创始人Sam Kazemian和0xMaki。",
-          "link": "https://panewslab.com/zh/articledetails/nllo8q6x.html",
-          "publishedOn": "2023-10-05T01:23:00.000Z",
-          "wordCount": 353,
-          "title": "Manifold Finance推出MEV拍卖协议，任命Frax创始人和0xMaki为顾问",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -2770,6 +2740,46 @@
       "siteUrl": "https://www.odaily.news",
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5190194",
+          "author": "深潮TechFlow",
+          "description": "原文来源：Anders Elowsson，以太坊研究者\n原文编译：深潮 TechFlow\n介绍\n我认为实现「最小可行发行量」（MVI, Minimum Viable Issuance）非常重要，这是对普通以太坊用户的一项重要承诺。质押应该能够保障以太坊的安全，而不是成为通货膨胀税，同时降低效用和流动性，而产生寡头风险。\n以太坊正在不断发展，未来可能会驱动全球金融系统。我们必须假设「普通用户」对以太坊内部运作的了解，将会和普通人对当前金融系统的了解差不多。\n当然，我们无法假设普通用户会被某种意识形态驱动，正如以太坊初始创建的动力一样。我们的工作就是确保正确的激励机制到位，这样以太坊就可以不受阻碍地发展。\n以太坊诞生之初就存在的一个重要设计原则是「最小可行发行」（MVI），即协议发行的 ETH 数量不应超过安全严格所需的数量。无论是在工作量证明（PoW）还是权益证明（PoS）下，该原理都是合理的。\n在 PoW 下，MVI 的作用是为了防止矿工向普通用户收取过多的通货膨胀税。因此，区块奖励从 5 个 ETH 降低到 3 个 ETH，最后降低到 2 个 ETH。\n在 PoS 下，MVI 原则也应该被坚持，不向普通用户收取过多的通货膨胀税。普通用户不应该需要操心质押的细节，以避免他们的储蓄被侵蚀，或是支持可能存在审查的验证节点集等等。\n因此，MVI 实际上就是能够将抵押率（所有 ETH 中用于质押的比例）维持在足够高的水平，但不要更高。在本文文中，我将试着阐明超过「最小可行量」的发行为什么会降低以太坊的效用。\nMVI 对用户赋能的好处\n对个人来说，参与质押有各种机会成本。它需要资源、专注和技术知识，或者需要信任第三方，同时也降低流动性。流动性质押代币（LST）不如原生代币可靠，也不如原生代币适合作为货币或抵押品。\n因此，个人希望能够通过质押获得回报。定义他们的最低预期收益率为他们愿意…",
+          "link": "https://www.odaily.news/post/5190194",
+          "publishedOn": "2023-10-09T12:00:00.000Z",
+          "wordCount": 2444,
+          "title": "解读“最小可行发行量”：在ETH安全与通胀间寻求平衡",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5190195",
+          "author": "SignalPlus",
+          "description": "上周五（6 Oct）公布的非农数据几乎是预期的 2 倍，表明美国就业市场依然强劲，数据公布后，美债一度拉升超过 10 个基点，随后回吐大部分涨幅，目前 10 年期国债收益率处于 4.73 价格附近。美国三大股指扭转了非农带来的早盘颓势（跌幅约 1% ）实现全面上涨，其中，纳斯达克涨幅达 1.60% ，标普 500 上涨 1.18% ，道琼斯指数涨 0.87% 。受巴以冲突影响，市场避险情绪升温，黄金与原油价格大幅高开。本周可重点关注周四晚（12 Oct 08.30 pm UTC+ 8）美国消费者物价指数数据，市场普遍预期 CPI 将环比上涨 0.3 – 0.4% 。\n\nSource: SignalPlus, Economic Calendar\n期权方面，隐含波动率相较于昨天并无显著变化。BTC 中前端 IV经过周末两天已顺利完成了谷底反弹，重新回到 30% 以上（当前约 33% Vol）。反观 ETH，一个月内的 IV 基本都还在 30% Vol 之下，中远端和 BTC 也还有 3 ～ 5% Vol 的差距。\n\nSource: Deribit （截至 9 Oct 16: 00 UTC+ 8）\n\nSource: SignalPlus\n周末大宗交易相对平淡。在期权链市场，BTC 的成交集中在 28000-C 和 30000-C 上，进一步分析得出，其成因主要是一周内 28000-C 附近的 Call 遭到大量抛售，而次周（20 OCT 23）的 30000-C 又被大量买入建仓，形成了类似日历三角价差的 FLow。ETH 的成交分布向中期转移，买入十一月底 1700-C 看涨期权交易成为市场热点，据统计，该合约在过去一日累计买入量达到 20.57 K ETH，OI 增长接近 19 K。\n\nSource: Laevitas\n\nSource: Deribit Block Trade\n\nSource: Deribit Block Trade\n\n您可在 ChatGPT 4.0 的 Plugin Store 搜索 SignalPlus ，获取实时加密资讯。如果想即时收到我们的更新，欢迎关注我们的推特账号@SignalPlus_Web3 ，或者加入我们的微信群（添加小助手微信：SignalPlus 123）、Telegram 群以及 Discord 社群，和更多朋友一起交流互动。\nSignalPlus Official Website：https://www.signalplus.com",
+          "link": "https://www.odaily.news/post/5190195",
+          "publishedOn": "2023-10-09T11:16:45.000Z",
+          "wordCount": 1809,
+          "title": "SignalPlus波动率专栏(20231009)：美国就业强劲，美债居高不下",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5190148",
+          "author": "夫如何",
+          "description": "经 Odaily星球日报不完全统计， 9 月 25 日-10 月 8 日公布的海内外区块链融资事件共 29 起，已披露融资总额约为 2.5 亿美元。\n上两周，获投金额最多的项目为 AI 数字身份提供商 Prins AI（1 亿美元）；预言机解决方案 Supra 和 Web3 酒店平台 Blackbird 紧随其后（2400 万美元）。\n以下为具体融资事件（注： 1. 依照已公布金额大小排序；2. 不含基金募资及并购事件；3. *为部分业务涉及区块链的“传统”领域公司）：\n\n\n\n\nAI 数字身份提供商 Prins AI 完成 1 亿美元 B 轮融资，AAB VC 领投\n\n10 月 2 日，AI 数字身份提供商 Prins AI 完成 1 亿美元 B 轮融资，AAB VC 领投。\n\nPrins AI 将利用此轮融资资金继续进行深度学习技术研发工作，以推出更准确、自然和高效的数字身份产品；扩大其团队，包括招聘更多技术人才以增强产品开发能力，并扩大营销和销售团队。\nPrins AI 平台利用区块链技术和智能合约记录 AI 数字人训练和应用行为，并采用加密货币奖励机制让用户参与 AI 数字人训练计划。\n预言机项目 Supra 累计完成超 2400 万美元融资，Animoca 和 Coinbase Ventures 等参投\n9 月 28 日，下一代预言机解决方案 Supra 累计完成超 2400 万美元融资，Animoca、Coinbase Ventures、HashKey、Prosus Ventures、Razer、United Overseas Bank Venture Management、Valor Equity Partners 等参投。Supra 正在开发一个创新的跨链预言机和无桥通信网络，旨在实现 2 秒内的最终性。\n\nWeb3酒店平台 Blackbird 完成 2400…",
+          "link": "https://www.odaily.news/post/5190148",
+          "publishedOn": "2023-10-09T11:09:16.000Z",
+          "wordCount": 3522,
+          "title": "双周融资速递 | 29家项目获投，已披露融资总额约为2.5亿美元（9.25-10.8）",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5190186",
+          "author": "veDAO研究院",
+          "description": "9 月 12 日，区块链钱包 MetaMask 推出了一个名为 Snaps 的测试版功能，该功能将允许第三方开发人员自定义钱包特性等机制，这使得 MetaMask 钱包可以无缝地用于非 EVM（Non-EVM） 区块链上资产的操作。这一版本可以说是 MetaMask 朝着完全无前提和去中心化迈出的又一步；另一个值得注意的是，MetaMask 也开始兼容非 EVM。本文将解析 EVM 和非 EVM 的区别，以进一步理解这两种区块链虚拟机的异同之处。\n\nEVM 和非 EVM\n以太坊虚拟机（EVM）\n\n以太坊虚拟机（Ethereum Virtual Machine，EVM）是第一个为区块链行业创建的虚拟机，它是物理机器（节点）和智能合约代码之间的抽象层。它可以使在其上面运行的程序彼此隔离，并且与以太坊的主链分离。简单理解就是依赖以太坊生态的生态做出来的链，进行快速地开发迭代。这样降低开发工作量，避免从零开始。每个以太坊节点都运行一个 EVM 实例，它们一起工作形成一种网络或全球去中心化计算机。正如 Vitalik Buterin 所说，以太坊甚至被称为“世界计算机”。\nEVM 是以太坊网络的心脏和灵魂，它也是智能合约部署和执行的平台。EVM 的物理实例化无法用云或海浪那样的方式来描述，但它确实作为一个实体存在，由数千台运行以太坊客户端的连接计算机维护。EVM 是图灵完备的，这意味着如果有问题它会找到答案。用户可以使用以太坊的编程语言 Solidity 创建智能合约，并将其发送到 EVM 进行解释和执行。简单来说，EVM 的好处就是更容易与以太坊生态系统实现互操作性。继承以太坊链上已有的 dApps；但是缺点也很明显，就是受到以太坊路线图的约束，这可能会干扰项目方的计划，必须要跟随以太坊的节奏前行。\n非 EVM 虚拟机（Non-EVM）\n其他区块链选择了与 EVM 兼容性不同的道路…",
+          "link": "https://www.odaily.news/post/5190186",
+          "publishedOn": "2023-10-09T11:00:00.000Z",
+          "wordCount": 2202,
+          "title": "veDAO研究院：EVM vs 非EVM，谁才是未来的方向？",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
           "id": "https://www.odaily.news/post/5190187",
           "author": "SharkTeam",
           "description": "2023 年 9 月 7 日，地址（0x 13 e 382）遭遇钓鱼攻击，损失超 2, 400 万美元。钓鱼黑客通过资金盗取、资金兑换和分散式地资金转移，最终损失资金中 3, 800 ETH 被相继分批次转移至 Tornado.Cash、 10, 000 ETH 被转移至中间地址（0x 702350），以及 1078, 087 DAI 至今保留在中间地址（0x4F2F02）。\n这是一次典型的钓鱼攻击，攻击者通过骗取钱包授权或私钥，窃取用户资产，已形成了以钓鱼+洗钱的黑色产业链，目前越来越多的诈骗团伙甚至是国家黑客都采用钓鱼的方式在Web3领域为非作歹，非常需要大家关注和警惕。\n根据 SharkTeam 链上大数据分析平台 ChainAegis (https://app.chainaegis.com/) 的跟踪分析，我们将对典型钓鱼攻击的诈骗过程、资金转移情况以及诈骗者链上行为进行相关分析。\n1、钓鱼诈骗过程\n受害者地址（0x13e382）通过‘Increase Allowance’向诈骗者地址 1 （0x4c10a4）授权 rETH 和 stETH。\n\n\n诈骗者地址 1 （0x4c10a4）将受害者地址（0x13e382）账户中的 9, 579 stETH 转账至诈骗者地址 2 （0x693b72），金额约 1, 532 万美元。\n\n诈骗者地址 1 （0x4c10a4）将受害者地址（0x13e382）账户中的 4, 850 rETH 转账至诈骗者地址 2 （0 x693b72），金额约 841 万美元。\n\n\n\n2、 资金转移追踪\n2.1 资金兑换\n将盗取的 stETH 和 rETH 兑换成 ETH。自 2023-09-07 凌晨开始，诈骗者地址 2 （0x693b72）分别在 Uniswap V2、Uniswap V3、Curve 平台进行多笔兑换交易，将 9, 579 s…",
@@ -3197,16 +3207,6 @@
           "publishedOn": "2023-10-05T04:00:00.000Z",
           "wordCount": 3127,
           "title": "Rollup 2.0：去中心化排序器之争",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5190120",
-          "author": "PANews",
-          "description": "原文作者：Helene Braun、Elizabeth Napolitano，Coindesk\n原文编译：王尔玉，PANews\n\nFTX 创始人 SBF 本周受审，这家崩盘的加密交易所涉嫌窃取数十亿美元。\n\n主要证人包括曾经的同事和朋友，特别是 Caroline Ellison 和 Gary Wang，两人与 FTX 和 Alameda Research 关联密切。SBF 曾经的情侣 Ellison 十分了解 FTX 的内部运作，并已承认存在误导性行为。\n\nNishad Singh 和 Wang 等证人曾在 FTX 和 Alameda 担任要职，并已对相关指控认罪。\n\n全球加密交易所 FTX 崩盘已近一年，其创始人兼前首席执行官 Sam Bankman-Fried 已经名誉扫地。本周，他将努力说服其同龄人组成的陪审团让他重获自由。但首先，我们将听取他的一些亲密朋友的证词。\n在为期六周的庭审中，检察官将钻研各种证词、内部文件、电子邮件及堆积如山的证据，揭示这家加密交易所涉嫌窃取数十亿美元客户资金的蛛丝马迹。最引人注目的证据可能来自检察官的证人：SBF 曾经的朋友和盟友。\nSBF 的几位前同事和朋友与美国司法部达成认罪协议后，将出庭指控这位曾经的加密大亨，包括他的前恋人 Caroline Ellison 和发小 Gary Wang，他们都深度参与了 FTX 及其量化交易基金 Alameda Research 的日常运作。另外两名尚未公开姓名的人士可能在得到豁免权后出庭作证，表明他们也可能与该交易所有关。美国司法部还在上周末宣布，检察官计划在庭审期间传唤来自世界各地的前 FTX 客户和投资者作为证人。\n\n证人\nCaroline Ellison：原 Alameda CEO，已认罪\nCaroline Ellison 是最受瞩目的证人之一，她预计将站在 SBF 的对立面。法庭文件显示，…",
-          "link": "https://www.odaily.news/post/5190120",
-          "publishedOn": "2023-10-05T02:00:00.000Z",
-          "wordCount": 2020,
-          "title": "CoinDesk：曾经的密友将出庭指控SBF，还有多名出庭人员揭晓",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
