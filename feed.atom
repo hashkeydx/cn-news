@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-10-14T10:06:45.593Z</updated>
+    <updated>2023-10-14T11:05:51.061Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -25,6 +25,35 @@
         <summary type="html"><![CDATA[PANews 10月14日消息，Sui开发公司Mysten Labs宣布推出dApp Kit，这是一种用于在 Sui 上构建 React 应用程序和 dApp 的一体化解决方案，可以用来简化连接钱包、签署交易和获​​取数据等任务。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TxFusion为何方神圣？zkSync Era为何将「官方跨链桥」交给了它？]]></title>
+        <id>https://www.odaily.news/post/5190298</id>
+        <link href="https://www.odaily.news/post/5190298"/>
+        <updated>2023-10-14T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Haotian（Twitter/X：@tmel0211）
+依照 ZK Credo 宣言 zkSync Era 最近先后完成了 Ecosystem Portal、Block Explorer 以及官方 Cross-Bridge 的去中心化，将这些核心部分开源由第三方技术方提供服务。
+然而百思不得其解的是，涉及重大资产 deposit 和 withdraw 通道的“官方跨链桥”，竟然交给了名不见经传的 TxFusion。Why？该如何解读这件事？
+通常而言，生态数据分析服务和浏览器之类的辅助性产品功能，一般都由社区 builder 提供服务，比如，主流公链项目像 Ethereum 背后的 Etherscan 等均来自社区 Builder。因此不难理解，zkSync 把生态 DApp 数据分析和 Ranking 以及浏览器呈现交给 Dappradar，l2s can 等三方较知名技术团队。
+这样可以 win-win 优势互补，Matter labs 可以聚焦精力做技术开发和 ZK Stack 技术架构的推进，包括：共享 Sequencer、共享 zkPorter 等技术组件。这对社区还是团队而言都百利无一害。
+因为区块链社区有不少做数据分析服务的团队，比如 dune analytics、0x Scope、nansen 等，他们最大的的痛点就是商业模式。to C 的收费模式很难 cover 高昂运营成本，to B 的服务，大部分项目方都习惯了自己做，不愿意拱手让人，这让一大批数据服务公司都过得很艰难。若有大批的项目方效仿 zkSync，这会给这类技术服务公司带来新生机。(不过多展开了
+然而，“官方跨链桥”这么事关 layer 2 资产安全的技术组件，zkSync 竟交给了一个全新的 Starup—TxFusion。我查阅了不少资料，也没挖掘出这 TxFusion 为何方神圣？但发现若干有意思的点：
+1)TxFusion 最早一篇 Blog 发布于今年 2 月 21 日，没有披露投资方，团队也较为模糊，但开篇文就要和 zkSync 合作，似乎是专为 zkSync 而生。
+
+2）TxFusion 创始人 Ines Isliami 2020 年以来在 Blockchain Collective，HyperGrowth、Shard Labs 等区块链相关公司，有过数据相关从业经验，但时间都不长；
+3）TxFusion 创始人 Ines Isliam 有一期视频采访，听口音和 zkSync 创始人 Alex 很相似，估计都是俄罗斯人。
+我目前就看到这些消息，所以很费解，为啥 zkSync 会把跨链桥交给 TxFusion。不过，作为长期关注 zkSync 动态的博主，我个人挺理解背后的动机，简单分享下：
+内核是，zkSyn 压根不愿意也不想认可“官方跨链桥”的存在。
+一方面因为，啥跨链桥是L2安全生命线。简单理解，任何在L2流通的资产都是 Wrap 形式的映射资产，大凡在L2流通的资产，受到黑客攻击也好，Rugpull 也好只要能在“黑客”把资产 withdraw 回主链之前都是受限的流通资产。
+Rollup 主网合约完全可以通过 Update 形式阻断L2嫌疑资产流回主网，进而实现对突发异常状况的控制。现在主流 layer 2 都预设了 Security Council，背后的多签委员会的主要职责就是在危机时刻决策是否要升级合约来控制嫌疑资产。
+但 Rollup 合约预留的可升级特性，被诟病中心化，一直无法上台面说。Alex 在采访时说过即使多签委员会有权限，也只能暂停资产，至于资产的决策交给 DAO 社区。但这个解释只能听听，因为一旦 layer 2 遭受巨额资产攻击，比如某个合约被凭空增发几个 Trillion 的资产，要买断 Layer 2 的资产并做 DAO 治理投票似乎也可行。
+还有一方面，Alex 发表了文章探讨用最高法院层层治理的机制来管理 layer 2 ，但那一提议最终会触动主网的硬分叉可能。impossible，现在的 layer 2 不可能有决定主网分叉与否的权限，这只能停留在设想阶段。
+可见 Alex 对于安全性和去中心化的矛盾焦虑许久。
+这样布局听起来很合理，但也只是权宜之计，毕竟即使是第三方跨链桥，只要流动性控制达到一定规模就会存在中心化隐患。TxFusion 到底如何做跨链桥，希望官方有技术细节有关的披露。比如，未来 TxFusion 的 Portal 和 Bridge 出现类似的安全危机，zkSync 会如何应对？这个问题现在得不到答案，静观其变。
+原文链接]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
