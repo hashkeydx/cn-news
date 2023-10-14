@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-10-14T07:06:12.016Z</updated>
+    <updated>2023-10-14T08:08:36.760Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -14,6 +14,28 @@
         <summary type="html"><![CDATA[PANews 10月14日消息，据路透社报道，法拉利营销和商务主管Enrico Galliera表示其在美国的豪华跑车已开始接受加密货币付款，并将根据富有客户的要求将该计划扩展到欧洲。法拉利表示，这一决定是为了响应市场和经销商的要求，因为其许多客户都投资了加密货币。“有些是年轻投资者，他们通过加密货币积累了财富。其他一些人是更传统的投资者，他们希望实现投资组合多元化。”今年上半年，法拉利向包括美国在内的美洲地区运送了 1,800 多辆汽车。Enrico Galliera没有透露将通过加密货币销售多少辆汽车。他表示，该公司的订单组合很强劲，并且到 2025 年都已订满，但该公司希望测试这个不断扩大的领域。Enrico Galliera表示：“如果通过加密货币付款，价格不会改变，不收取任何费用，也不收取附加费。”]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[危机四伏：警惕SIM卡交换攻击]]></title>
+        <id>https://www.odaily.news/post/5190297</id>
+        <link href="https://www.odaily.news/post/5190297"/>
+        <updated>2023-10-14T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[背景
+friend.tech 是一个社交平台，用户需要购买其他用户的 Key 才能跟其对话，Key 的价格也会随着购买的人增多而上涨，持有者可以通过出售 Key 获利。
+2023 年 10 月 3 日，慢雾(SlowMist) 创始人 Cos 针对近期 friend.tech 用户的账号被黑，资产被盗的情况，在社交媒体发文表示 friend.tech 缺乏双因素认证，存在风险。
+2023 年 10 月 5 日，链上侦探 ZachXBT 在社交媒体发文表示，一名黑客在过去的 24 小时内通过对四名不同的 friend.tech 用户进行 SIM 卡交换攻击，获利 234 枚 ETH（约 385, 000 美元）。
+截至目前，friend.tech 用户因 SIM 卡交换攻击已损失约 306 枚 ETH。
+
+2023 年 10 月 10 日，friend.tech 表示用户现在可以在 friend.tech 账户中添加 2 FA 密码，以便在运营商或电子邮件服务受到威胁时，提供额外保护。
+2023 年 7 月 17 日，慢雾 CISO @ 23 pds 在接受 Cointelegraph 采访时提到 “SIM Swap 因为攻击成本低，预计未来将愈演愈烈，而且随着 Web3 的普及并吸引更多人进入该行业，由于 SIM Swap 技术要求相对较低，SIM 卡交换攻击的可能性也随之增加。”
+下图是黑市上针对不同运营商的 SIM Swap 报价：
+
+在各种背景下，基于此次 friend.tech 安全事件，本文将讲解 SIM 卡交换攻击的实现方式和应对措施。首先，我们来解释下什么是 SIM 卡和 2 FA。
+SIM 卡和 2FA
+SIM 卡（Subscriber Identity Module）即用户识别模块。SIM 卡的主要功能是存储与用户身份和移动网络运营商相关的信息，并且允许用…]]></summary>
+        <author>
+            <name>慢雾科技</name>
         </author>
     </entry>
     <entry>

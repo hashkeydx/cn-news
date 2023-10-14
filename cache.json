@@ -3660,6 +3660,16 @@
       "siteUrl": "https://www.odaily.news",
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5190297",
+          "author": "慢雾科技",
+          "description": "背景\nfriend.tech 是一个社交平台，用户需要购买其他用户的 Key 才能跟其对话，Key 的价格也会随着购买的人增多而上涨，持有者可以通过出售 Key 获利。\n2023 年 10 月 3 日，慢雾(SlowMist) 创始人 Cos 针对近期 friend.tech 用户的账号被黑，资产被盗的情况，在社交媒体发文表示 friend.tech 缺乏双因素认证，存在风险。\n2023 年 10 月 5 日，链上侦探 ZachXBT 在社交媒体发文表示，一名黑客在过去的 24 小时内通过对四名不同的 friend.tech 用户进行 SIM 卡交换攻击，获利 234 枚 ETH（约 385, 000 美元）。\n截至目前，friend.tech 用户因 SIM 卡交换攻击已损失约 306 枚 ETH。\n\n2023 年 10 月 10 日，friend.tech 表示用户现在可以在 friend.tech 账户中添加 2 FA 密码，以便在运营商或电子邮件服务受到威胁时，提供额外保护。\n2023 年 7 月 17 日，慢雾 CISO @ 23 pds 在接受 Cointelegraph 采访时提到 “SIM Swap 因为攻击成本低，预计未来将愈演愈烈，而且随着 Web3 的普及并吸引更多人进入该行业，由于 SIM Swap 技术要求相对较低，SIM 卡交换攻击的可能性也随之增加。”\n下图是黑市上针对不同运营商的 SIM Swap 报价：\n\n在各种背景下，基于此次 friend.tech 安全事件，本文将讲解 SIM 卡交换攻击的实现方式和应对措施。首先，我们来解释下什么是 SIM 卡和 2 FA。\nSIM 卡和 2FA\nSIM 卡（Subscriber Identity Module）即用户识别模块。SIM 卡的主要功能是存储与用户身份和移动网络运营商相关的信息，并且允许用…",
+          "link": "https://www.odaily.news/post/5190297",
+          "publishedOn": "2023-10-14T06:30:00.000Z",
+          "wordCount": 2053,
+          "title": "危机四伏：警惕SIM卡交换攻击",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
           "id": "https://www.odaily.news/post/5190284",
           "author": "Gryphsis Academy",
           "description": "TL;DR\n1. dYdX 成立于 2017 年，是一家去中心化永续合约交易所，集成了借贷、杠杆交易与永续合约三种功能。dYdX 目前完成了四轮融资，由 Paradigm 和 A16Z 等知名机构投资。\n2. 2021 年，dYdX 迁移到 Starkware 后，解决了 TPS 和 Gas 费用问题，目前日交易量超过 8 亿美元，在永续合约市场占据龙头地位。\n3. dYdX 采取分层交易费机制，通过对 Maker 和交易量大的用户收取更低费用来转化流动性，手续费水平较低；为鼓励新版本 v4 的采用，协议将为早期用户分配 $DYDX 代币奖励，进一步扩大了手续费优势。\n4. v4 新版本特性：\n\ndYdX v4 迁移到基于 Cosmos SDK 的独立链。\n\n更新下单流程，链下匹配和链上共识。\n\n提交/取消订单不需 Gas 费，只在完成时收费。\n\ndYdX 实现完全去中心化管理。\n\n5. 对比 v3，v4 从代币的协议标准、治理功能、折扣功能、质押功能、支付 Gas 费和费用分配六个方面进行了边际改进，增加了代币的实际用途和价值捕获能力。\n6. dYdX 选择 Cosmos 的原因：\n\nCosmos 提供去中心化和高性能。\n\nv4 版本的去中心化有助于避免监管。\n\nCosmos 原生支持 USDC，提高 dYdX 流动性与减少资产跨链带来的风险。\n\nCosmos 为 dYdX 提供更好的可扩展性和可组合性。\n\n7. 我们认为，Layer 1 质押、手续费分配增加了代币实际用途和价值捕获能力, Cosmos 原生稳定币的引入则增加了代币的流动性，三者将共同改善 $DYDX 代币的基本面，为代币带来持续利好。但同时我们也应注意到安全性降低的相关风险。\n1. 项目简介\n dYdX 是一个去中心化永续合约交易所，目前托管在 StarkWare 构建的以太坊 Layer 2 区块链上…",
