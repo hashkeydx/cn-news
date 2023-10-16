@@ -51,11 +51,114 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-10-16 datetime="2023-10-16T00:09:16.000Z">2023-10-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-10-16 datetime="2023-10-16T00:09:16.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-10-16 datetime="2023-10-16T02:56:31.000Z">2023-10-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-10-16 datetime="2023-10-16T02:56:31.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190319"
+                        open
+                      >
+                        <summary class="article-expander__title">imToken ETHKL演讲：基于Intent的Swap及其对DEX市场的影响</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190319">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>分享者：Charles，imToken Labs 研究员
+
+本次分享的主题是 Intent-Based Swap 以及它将如何影响 DEX 市场。以下分享内容会先介绍目前 DEX 的主流交易模式，然后介绍 intent 概念以及基于 intent 的交易的原理和优劣势，再是目前基于 intent 的主要交易产品及其延伸。
+当下主流交易模式
+目前主流的交易模式有两类。第一类是常见的 AMM 模型，简洁的 x*y&#x3D;k 设计，采用这一模式的 DEX 能够让用户可以随时进行交易，但为了达到这一点，AMM 选择了相对保守的流动性策略，这样的策略使得资金利用率并不高，价格的波动会导致流动性提供者损失资金。此外链上订单还会遇到交易抢跑，或者因价格变化导致交易失败等问题。大家熟悉的基于 AMM 模式的 DeFi 产品有 Uniswap、Curve 和 Balancer。
+第二类是链下撮合链上清算的 RFQ 模式，即用户首先询问报价，而后由专业做市商提供报价，在用户确认后完成交易。该模式对于用户相对友好，既不存在滑点问题，也无需担心被 MEV 攻击；但对于做市商则存在挑战，需要兼顾价格波动、订单有效期以及对用户报价需求进行管理。简而言之，即对用户友好，对做市商不友好。因此，AMM 和 RFQ 是互补的关系。
+
+Intent 是什么
+目前，用户和 DApp 进行链上交互需要提交完整交易信息，其 Calldata 包含该交易执行所需的全部信息。而 Intent 着重于交易的意图（或目的），并将如何达成意图的中间步骤留给专业的 Solver 角色处理。 
+
+如图所示，传统模式下，用户需要在发起交易时明确交易的路径、目的等签名信息。而在 Intent 模式下，用户只需要明确交易目的，而无需操心更多。除交易目的外的交易内容，会由 Solver 来补足，并确保补足后的交易执行结果可以满足用户的交易目的。…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190317"
+                        open
+                      >
+                        <summary class="article-expander__title">WIRED: 调查FTX破产当天的“离奇黑客事件”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190317">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Wired
+原文编译：吴说区块链
+去年 11 月 11 日的傍晚，FTX 的员工已经经历了该公司短暂历史中最糟糕的一天。仅仅 10 个月前，这家刚刚成为全球顶级加密货币交易所之一的公司便宣布破产。经过长时间的努力，高管们说服了该公司的首席执行官 Sam Bankman-Fried 将权力交给 John Ray III，这位新的首席执行官现在的任务是引导公司走出一片令人噩梦般的债务困境，而公司似乎没有偿还这些债务的手段。
+FTX 似乎已经跌入谷底。直到某个人——一个或多个尚未确定身份的窃贼——选择了那个特定时刻，让事情变得更糟。那个周五傍晚，疲惫不堪的 FTX 员工开始在 Etherscan 上看到公司加密货币的神秘流出，数以亿计美元的加密货币正实时被盗。
+“我靠，经过这一切，我们还被黑了吗？”一位前 FTX 员工回忆说，他要求不具名，因为他没有被授权谈论公司内部事务。
+根据 FTX 自己的账目，该公司最终将因那些未知窃贼而损失 4.15 亿至 4.32 亿美元的加密货币资产，这一数字已作为其破产程序的一部分被公开确认。FTX 以前没有透露的是，它有多接近可能损失更多——其员工和外部顾问急忙将超过 10 亿美元的加密货币转移到更安全的存储空间，以免其被恶意存在窃取。甚至一度争先恐后地向一位顾问办公室的物理 USB 驱动器发送近 5 亿美元，以防止其落入窃贼之手。
+“邀请：紧急”
+随着 FTX 不光彩的创始人 Sam Bankman-Fried 的审判进入第二周，加密货币社区的许多人都在密切关注法庭事件，以获取任何关于交易所是如何在离开他的控制几小时后就被如此灾难性地洗劫一空的线索。谁进行了那次盗窃——以及盗贼是 FTX 的内部人还是外部黑客——这个问题最为关键。这个谜尚未解开，Bankman-Fried 和其他 FTX 高级执行官都没有因那次盗窃而被起诉。
+但现在，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190313"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | G20联合公报：通过监管加密资产路线图；美国政府监控中国相关比特币矿企（10.16）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190313">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>头条
+G20领导人发布联合公报，一致通过加密货币监管路线图
+
+Odaily星球日报讯 G20财长和央行行长在摩洛哥马拉喀什发表联合公报，宣布一致通过监管加密资产的全面路线图。该路线图旨在增强全球金融稳定性，并确保加密货币在国际经济框架内得到有效管理。
+Tether 任命前 CTO Paolo Ardoino 为 CEO
+Odaily星球日报讯 稳定币发行商 Tether 任命 Paolo Ardoino（前 CTO）为其新任首席执行官，前首席执行官 Jean-Louis van der Velde 转任顾问角色。Van der Velde 将继续担任 Bitfinex 首席执行官，而 Ardoino 则保留 Bitfinex 和 Holepunch 首席技术官的职位。Ardoino 在三年前加入 Bitfinex 后，于 2017 年成为 Tether 的首席技术官。
+纽约时报：美国政府出于国家安全考虑监控与中国有关的比特币矿企
+Odaily星球日报讯 美国政府官员一直在密切关注与中国有关的某些加密货币挖矿业务。当局正在监控的其中一个地点是怀俄明州的一个加密挖矿作业区，该矿场靠近支持五角大楼部分行动的一个微软数据中心。
+印度央行已在活期贷款市场进行 CBDC 试点，包括资产代币化等
+Odaily星球日报讯 知情人士表示，印度央行已经开始在活期贷款市场（call money market）上测试其批发央行数字货币（CBDC），并且已经进行了一些交易。未来几天还将测试更多用例，路线图涵盖整个批发领域，例如资产代币化、回购交易等。电子卢比将从债券转向赎回资金和回购。一旦覆盖整个细分市场，就会对整个批发细分市场进行最终试点。
+CME 美联储观察：美联储 11 月维持利率不变的概率为 93.8% 
+Odaily星球日报讯 据 CME 美联储观察数据显示，美联储 11 月维持利率在 5…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +170,353 @@
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/0ajh7e8w.html"
+                        open
+                      >
+                        <summary class="article-expander__title">律师：中国区块链创业有三件事不能干，包括IC0、交易所和挖矿</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/0ajh7e8w.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，据海豚区块链报道，上海曼昆律所刘红林律师谈及从法律合规的角度看待在中国区块链创业中哪些事情不能干。第一件，打着虚拟货币名义进行非法集资，包括虚拟货币集资或者传统的法币集资，这个就是我们知道的禁掉IC0。第二件在中国不能做的是虚拟货币交易所业务，包括两种：一种方式是在中国是不能进行虚拟货币交易所创业，第二个是哪怕公司注册地或者说团队人员在海外，也是不能面向中国公民开展虚拟货币交易所业务。第三件在中国区块链创业的红线是虚拟货币挖矿，“双碳”是中国的国家战略，基于环保的考量。从法律的角度上来讲，这件事儿可能就是涉嫌违法，虚拟货币挖矿在中国内地不受监管层欢迎，是一个比较确定的情况。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/w3331c6w.html"
+                        open
+                      >
+                        <summary class="article-expander__title">加密资产合成平台Noahswap获得300万美元投资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/w3331c6w.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，加密资产合成平台Noahswap近日在官方博客中宣布从Coinstore旗下区块链创新实验室Coinstore Labs获得300万美元投资。
+据悉，Noahswap的核心机制是 “合成资产铸造”，通过让用户在平台上质押不良加密货币来 &quot;对冲损失风险&quot;。通过这种方法，投资者可以将不良加密货币重新配置为更有价值的其他数字资产，减少损失并提高收益。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/0jqx84m1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">昨夜今晨重要资讯（10月15日-10月16日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/0jqx84m1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/10/16/images/8vkd3d7AVs.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Grayscale：已准备好在获得SEC批准后将GBTC转换为ETF
+Fox Business记者Eleanor Terrett推特发文称，灰度Grayscale针对美国SEC不寻求重审的决定发表声明称：“《联邦上诉程序规则》规定的寻求重审的45天期限已过。法院将在7天内发布最终授权。Grayscale团队已准备就绪，一旦获得SEC批准，就将GBTC转换为ETF&quot;。据此前消息，SEC不计划就Grayscale裁决提出上诉，这与很多行业人士对局势的预测相符，这将增加GBTC转换为ETF的可能性。
+Stars Arena已重新开放，但交易尚未恢复
+PANews 10月16日消息，基于AVAX网络的社交协议Stars Arena在推特宣布已重新开放，但交易尚未恢复。Stars Arena此前表示，只有在公布完整的审计报告并开源合约供社区审查后，交易才会恢复。
+澳大利亚计划对加密交易所实施监管
+据彭博社报道，澳大利亚财政部在周一发布的题为“监管数字资产平台”的咨询文件中表示，持有超过500万澳元(合320万美元)的数字资产平台或持有超过1500澳元的个人，必须获得澳大利亚证券投资委员会(ASIC)颁发的许可。该咨询文件提议根据现有的金融服务法对加密交易所进行监管，而不是制定新的加密货币特定规则。加密公司的义务来自现有的金融服务法律，包括提交财务记录、监控市场不当行为、满足偿付能力和现金储备要求。此外，加密公司还需在交易、质押和代币创建等领域需要承担更多义务。澳大利亚政府将在12月1日之前就该提案进行磋商。预计立法草案将于明年出台，之后交易所将有12个月的时间确保合规。
+数据：价值约6459万美元的AXS、1660万美元的APE将在本周解锁
+Token Unlocks数据显示，本周4个项目将进行代币解锁，总计释放价值超过8780万美元。
+Flow(FLOW)将于10月16日上午8时解…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/rce5m4ek.html"
+                        open
+                      >
+                        <summary class="article-expander__title">莫斯科证券交易所将于2024年发行代币化房地产资产</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/rce5m4ek.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，据Cryptoslate报道，莫斯科证券交易所数字资产主管Sergei Kharinov表示，该交易所正准备在2024年推出针对房地产资产的数字金融资产 (DFA)，以使该行业的投资变得更容易。
+国家结算存管机构（NSD）将监督将在莫斯科证券交易所交易的 DFA 的发行。NSD是俄罗斯央行授权监督DFA发行的10家运营商之一。其他运营商包括俄罗斯储蓄银行、阿尔法银行、Lighthouse和圣彼得堡交易所等传统金融实体，以及Blockchain Hub等Web 3公司。
+与股票或债券等传统金融工具不同，DFA是基于区块链的数字权利，记录为分布式账本上的程序代码。本质上，它们是区块链上现实世界资产（在本例中为房地产）的代币化版本。尽管根据俄罗斯法律，DFA不能用作支付手段，但它们为投资者提供了独特的优势——包括将证券的价值划分为多个代币并执行可编程交易的能力。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/rd7602xi.html"
+                        open
+                      >
+                        <summary class="article-expander__title">黄立成近两小时买入8枚Winds of Yawanawa，该NFT地板价24小时涨超70%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/rd7602xi.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，链上信息显示，黄立成地址近两小时共买入8枚艺术类NFT Winds of Yawanawa，共花费117.77枚ETH。
+Blur数据显示，该NFT地板价目前为14.49 ETH，24小时涨幅达70.67%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/pjqbpm36.html"
+                        open
+                      >
+                        <summary class="article-expander__title">针对FTX开发人员可随意开启和关闭Solana的说法，Solana基金会推出漏洞赏金计划</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/pjqbpm36.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，此前曾有假冒KOL Inner City Press 的账号发布谣言称，上周在法庭上，前Alameda Research首席执行官Caroline Ellison告诉联邦检察官，FTX开发人员可以随意“开启和关闭”Solana区块链。随后，Solana基金会宣布推出漏洞赏金计划，针对那些能够找到可关闭该区块链的漏洞的人士。Solana基金会开发者关系负责人Jacob Creech表：“对于任何能够找到可以关闭Solana的代码的人，都有40万美元的奖励。请尽管去找吧。”
+目前尚不清楚单一开发人员如何能够切实关闭一个去中心化区块链，因为该区块链旨在防止任何实体对其加以控制。然而，赏金计划或许是必要的，以使社区确信该系统不受操纵——并进一步摆脱FTX和SBF的影响。
+Solana及其链上SOL代币曾是SBF的喜好，SBF是Solana开发的积极支持者。FTX崩溃前，FTX曾为Solana NFT提供交易平台，并投资了多个与Solana相关的项目。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/03rc1jw7.html"
+                        open
+                      >
+                        <summary class="article-expander__title">RLB部署者相关地址近1日买入142.6万枚RLB，约19.3万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/03rc1jw7.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，据Spot On Chain监测，rollbot.eth（与RLB部署者相关地址）在过24小时内以0.135美元均价将123.89枚ETH兑换为142.6万枚RLB （19.3万美元）。
+该地址最近一次购买RLB是在40分钟前，在此期间，RLB价格上涨了10%以上。目前，rollbot.eth在该地址中持有1426万枚RLB （约204万美元），在流动性池中持有1360万枚RLB （约195万美元）。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/fe6o6b2l.html"
+                        open
+                      >
+                        <summary class="article-expander__title">y00ts迁移回以太坊的跨链桥已上线，10月22日起对Polygon上交易收取33.3%版税</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/fe6o6b2l.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，NFT项目y00ts在X平台宣布，将y00ts从Polygon迁移回以太坊的跨链桥已上线，团队将承担第一天的所有Gas费，并向24小时内进行跨链的钱包地址随机发放10枚y00ts。
+迁移期间，跨链交易将在几秒钟内在Polygon上进行验证，但必须首先在以太坊主网上进行验证，然后才能铸造NFT。此外，10月22日后，在Polygon上交易y00ts将收取33.3%的版税，团队建议用户在7天内完成迁移。
+此前8月10日消息，NFT项目y00ts宣布将迁移到以太坊网络，将100%返还Polygon提供的资助。今年早些时候，y00ts曾从Solana生态迁移至Polygon。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/q41tty0i.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国政府持有50亿美元的比特币，出售行为不出于行情状况而由法律程序决定</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/q41tty0i.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，据华尔街日报报道，美国政府是世界上最大的比特币持有者之一，但与其他加密巨头不同的是，它并不关心数字货币的价值是涨还是跌。这是因为美国政府所持有的约20万枚比特币是从网络犯罪分子和黑暗网络市场上收缴而来的。这些比特币主要储存在由司法部、国税局或其他机构控制的加密、有密码保护的硬件钱包里，不会在线上交易。
+美国将比特币转换为美元的速度一直非常缓慢。它并没有长期持有比特币不卖，加密圈称这种行为是“紧抓比特币不放手”，但并不打算出售。它也不是在等待比特币升值，以便高价出售所持有的比特币。那大量比特币更像是一个漫长法律过程的副产品，而非战略计划。美国国税局网络和取证服务部门执行主任Jarod Koopman表示：“我们不参与市场交易。我们的行动基本上是由法律程序的时间安排决定的。”
+据加密公司21.co对公开文件的分析，仅最近三次查获的比特币就超过20万枚，进入了政府的金库。即使政府已经售出了约2万枚比特币，其持有的比特币仍价值超过50亿美元。从查获非法比特币到收到最终命令将代币变现，法律程序可能需要数年的时间。在某些情况下，这有利于政府，因为加密货币的价值大幅上涨。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ocxhnysl.html"
+                        open
+                      >
+                        <summary class="article-expander__title">韩国加密交易所Upbit已获得新加坡大型支付机构牌照的原则性批准</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ocxhnysl.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，据Cointelegraph报道，韩国加密交易所Upbit的新加坡子公司今日表示，已获得新加坡大型支付机构牌照（MPI）的原则性批准，允许其继续为机构投资者提供数字支付代币服务，同时等待全面牌照的发放。
+Upbit Singapore创始人兼首席执行官Alex Kim在一份声明中表示，该公司成立于2018年，但最近的批准对于深化其在当地的业务具有战略意义。如果Upbit获得全面批准，它将加入15家拥有新加坡金融管理局（MAS）颁发的全面MPI数字支付代币服务许可证的加密公司行列。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/mryqbvqx.html"
+                        open
+                      >
+                        <summary class="article-expander__title">SBF申请在受审期间加大药物剂量以保证其作证能力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/mryqbvqx.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，据Coinage报道，FTX创始人Sam Bankman-Fried（SBF）的代理律师在当地时间周日晚间向法庭提交申请，表示希望SBF可以获准在庭审期间加大阿得拉（Adderall）的药物剂量，并指出这可能会影响SBF作证的能力。
+据悉，阿德拉是一种神经兴奋类药物，因能够增加人的机敏性，暂时减轻疲劳感并增加攻击性，多用于治疗注意力缺陷与多动症障碍（ADHD）以及发作性嗜睡症。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/bp91fsn8.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Friend.tech仿盘Tomo和New Bitcoin City的TVL均突破100万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/bp91fsn8.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，据The Block报道，Friend.tech仿盘、社交金融协议Tomo和New Bitcoin City目前在各自的智能合约中锁定了超过100万美元，其中Tomo TVL 已达146万美元，New Bitcoin City TVL已达107万美元。这两个协议都是基于社交媒体与金融相结合的新兴领域的先行者——基于社交媒体Friend.tech的类似项目。FriendTech普及了拥有封闭社区的想法，用户需要支付所谓的key才能访问群聊，每次购买key时，key的价格都会变得更加昂贵。
+与Friend.tech相比，Tomo在Linea平台上提供了一些不同的功能，比如能够直接给某人发信息。但使Tomo与众不同的主要方面是，它让用户可以对人们加入平台后的key价值进行押注，比如特斯拉首席执行官埃隆·马斯克的密钥，目前价值0.478 ETH（约合743美元），如果加入该平台，这就是他开始交易的价格。
+New Bitcoin City基于比特币二层网络NOS，与大多数社交金融平台略有不同，更倾向于成为一个社交层，允许来自Friend.tech等其他协议的用户在其应用程序上使用他们的key。New Bitcoin City增加了几个级别的定制化，包括设置群聊所有者购买他们的密钥的费用（0-8%）和访问他们的群聊所需的key数量，它支持用户间互相购买对方使用了一个月的key，这个过程被称为“(3,3)”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/zsat1wf9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Uniswap V4的KYC hook引发社区争议，或可让DeFi被监管机构列入白名单</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/zsat1wf9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，据Cointelegraph报道，Uniswap V4 hook开源目录中提供的新hook（即“KYC hook”）在加密社区内引发了争议，该hook使用户在交易池之前可以进行KYC检查。某X平台用户批评了这个hook，指出它开启了去中心化金融（DeFi）协议被监管机构列入白名单的可能性。
+hook是允许开发人员在不更改程序主结构的情况下自定义代码的工具。在Uniswap V4中，这个hook将允许开发人员在去中心化金融协议中使用KYC验证。KYC hook是由Uniswap V4目录上的社区开发人员作为可选功能推出的，KYC验证由NFT执行。根据另一位X用户的说法，该NFT是专门针对流动性提供商的，可能对必须遵守某些司法管辖区监管要求的项目有用。
+据悉，Uniswap V4引入了可定制的hook功能，预计将于2024年初推出，并且仅限于经过治理批准的实体才能访问。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/lxpsl071.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3社交应用Tip Coin将于10月23日启动TipChat</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/lxpsl071.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，Web3社交应用Tip Coin在X平台上称，TipChat将于10月23日启动，启动前将接受全面审核。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/z2mnjbv9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币算力已升至455 EH/s创历史新高，有望在年底前达到半个ZettaHash</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/z2mnjbv9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，据Bitcoin.com报道，近日比特币的挖矿哈希率创历史新高，七日均线达每秒455 EH/s，2023初该数据仅261 EH，这意味着在9个月左右的时间里，哈希率增加了194 EH，接近半个Zettahash（即大约500 EH/s）。如果算力维持目前每天0.68 EH/s的增长率，七日均线在大约66天或9-10周内（即2023年12月20日左右）达到500 EH/s。
+今年早些时候，River Financial研究分析师Sam Wouters预计，到2025年底，比特币可能会进入ZettaHash（每秒1,000 EH）时代。如果哈希率保持目前每天0.68 EH/s的增长势头，这一里程碑可能会在2025年12月23日左右或可能在2026年初达到。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/awaenx2e.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ether.fi将在EigenLayer上推出原生再质押代币eETH，拟明年3月实现DAO治理</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/awaenx2e.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 10月16日消息，非托管流动性质押协议ether.fi在X平台公布其去中心化路线图并宣布将进行市场份额限制，其承诺将协议的验证者数量和ETH自我限制在共识层的25%以下。
+根据其去中心化路线图，ether.fi将在一个月内在EigenLayer上推出原生再质押代币eETH。此外，团队计划于今年12月将协议全部开源，并于明年3月实现DAO治理、分布式验证器技术 (DVT)集成第二阶段（无需许可的单独质押）以及合约僵化（Contracts ossification）。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -6017,115 +6467,6 @@ Ellison：是的，每当他询问时，我都更新了余额表。他是我的�
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-10-11 datetime="2023-10-11T14:58:46.000Z">2023-10-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-10-11 datetime="2023-10-11T14:58:46.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PANews - 快讯</button>
-                  <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/9uof8mqi.html"
-                        open
-                      >
-                        <summary class="article-expander__title">币安已推出与C罗合作的NFT系列CR7 ForeverZone</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/9uof8mqi.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 10月11日消息，据官方公告，币安宣布已推出CR7 ForeverZone NFT合集，这是币安延续与足球偶像Cristiano Ronaldo的合作关系下推出的第三个NFT合集。加入CR7 ForeverZone，即有机会瓜分50,000个免费CR7 ForeverZone Box盲盒，有机会开出克里斯蒂亚诺·罗纳尔多亲笔签名的足球和球衣，以及C罗同场训练之旅“黄金入场券”等。活动时间为2023年10月11日22:00 至2023年10月24日07:59。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/7yr8j3z9.html"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币矿企Marathon购买比特大陆最新S21蚂蚁矿机</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/7yr8j3z9.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 10月11日消息，据美通社报道，比特币矿企Marathon宣布已购买挖矿算力达4.4 EH/s的比特大陆最新S21蚂蚁矿机，这些矿机预计于2024年1月开始交付，并以优惠条件购买，其中包括总购买价格20%（约1235万美元或2.80美元/T）的卖方融资，该融资在机器交付后365天内到期。一旦所有矿机安装完毕并运行，该公司预计将达到 23.5 joules/terahash的运行效率，比CleanSpark目前的运行效率提高17.25%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/276hh8k8.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Stars Arena：已编写全新智能合约，审计完成后将开源</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/276hh8k8.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 10月11日消息，基于AVAX网络的社交协议Stars Arena在X平台上表示，技术团队编写了全新的智能合约，正在与Paladin Blockchain Security完成全面的合约审计，审计完成后将开源。在重新启动之前，将有一份已暂停的经验证合约，为弥补缺口而获得的资金将在审计完成后直接转入合约。此外，Stars Arena正在对服务器进行负载测试，以处理重启时的流量。
-此前10月7日消息，Stars Arena遭遇攻击，损失约300万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/hspplucv.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Worldcoin更新状态桥，支持在EVM兼容链上同步World ID合约状态</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/hspplucv.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 10月11日消息，据官方博客，Worldcoin开发者更新了状态桥，采用模块化、无需许可且Gas高效的新架构，允许任何人无需许可地在EVM兼容链上开发和运营状态桥。Worldcoin的状态桥用于与其他链共享World ID合约的当前状态，使开发者能够验证Layer2、侧链等之上的身份证明。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-29 datetime="2023-06-28T15:02:55.000Z">2023-06-29</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-29 datetime="2023-06-28T15:02:55.000Z"></time>
           </button>
@@ -8205,8 +8546,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6528196028">
-        <time id="build-timestamp" datetime="2023-10-16T02:17:41.885Z">2023-10-16T02:17:41.885Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6528505423">
+        <time id="build-timestamp" datetime="2023-10-16T03:08:29.004Z">2023-10-16T03:08:29.004Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
