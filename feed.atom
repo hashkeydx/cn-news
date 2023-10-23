@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-10-23T05:07:32.062Z</updated>
+    <updated>2023-10-23T06:10:50.222Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[预言机项目Supra将10月25日开启公售]]></title>
+        <id>https://panewslab.com/zh/articledetails/mne8p137.html</id>
+        <link href="https://panewslab.com/zh/articledetails/mne8p137.html"/>
+        <updated>2023-10-23T05:49:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月23日消息，据官方公告，预言机项目Supra将于10月25日15:00开启公售，公售数量5000万枚，TGE释放10%，后续18个月每个月释放5%，最低投资额200美元。
+根据官方文档显示，SUPRA代币供应为100亿枚。此外，剩余SUPRA代币分配方式如下：21%分配给区块奖励；17.00%分配给基金会；16.00%分配给创始人、团队、未来员工和顾问；3.85%分配给交易所流动性；Pre-Seed轮、Seed轮、Strategic轮等，分别有不同的分发机制。
+此前9月消息，Supra宣布迄今已完成超2400万美元融资，投资者包括Animoca Brands和Coinbase Ventures。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3社交数据网站Port3 Network获得DWF Labs投资]]></title>
+        <id>https://panewslab.com/zh/articledetails/7sr76ndk.html</id>
+        <link href="https://panewslab.com/zh/articledetails/7sr76ndk.html"/>
+        <updated>2023-10-23T05:36:56.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月23日消息，Web3社交数据网站Port3 Network在X平台上宣布，已获得DWF Labs投资，该轮融资将用于推动其链上交互自动化语言BQL发展，增强即将推出的社交数据层。
+此前2月消息，Port3 Network完成300万美元种子轮融资，KuCoin Ventures领投，Jump Crypto等参投；8月消息，Port3 Network完成数百万美元融资，并获得Binance Labs等公司赠款。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特大陆计划推出Aleo蚂蚁矿机]]></title>
+        <id>https://panewslab.com/zh/articledetails/7uatdcnt.html</id>
+        <link href="https://panewslab.com/zh/articledetails/7uatdcnt.html"/>
+        <updated>2023-10-23T05:32:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月23日消息，据官方消息，比特大陆计划推出Aleo蚂蚁矿机。Aleo项目深度使用零知识证明（Zero-Knowledge Proof，ZKP）技术，旨在构建兼顾去中心化、可扩展性和隐私保护的区块链网络。通过ZKP编程语言Leo，Aleo是第一个提供全栈可编程的区块链隐私网络，用户可以自由地在Aleo网络构建隐私应用。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分析：部署TrueUSD的其中一个私钥或被泄露，因TEURO合约由TrueUSD部署者部署]]></title>
+        <id>https://panewslab.com/zh/articledetails/65m9cfho.html</id>
+        <link href="https://panewslab.com/zh/articledetails/65m9cfho.html"/>
+        <updated>2023-10-23T05:30:44.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月23日消息，稳定币发行商TrueUSD于10月16日的公告中澄清其与TEURO“没有任何关系”，但区块链分析公司ChainArgos分析称，TEURO代币合约是使用TrueUSD的私钥之一进行部署的。鉴于TrueUSD最迟于9月18日承认遭到黑客攻击，并且TEURO已在10天前部署，这里似乎只有一种解释：1.有人拥有TrueUSD的一些私钥；2.这意味着TrueUSD可能没有说出有关黑客攻击程度的全部真相；3.考虑到有人（孙宇晨）在公认的黑客攻击日期前3天成功铸造了8.5亿枚TUSD，整个情况尤其危险。也就是说至少有可能TUSD的储备金被持有公司私钥的人窃取了。
+ChainArgos称，TUSD运作方式是TUSD客户都经过KYC/AML检查，并且每个客户都有一个链上兑换地址，该地址与银行账户绑定。每个TrueUSD客户每天可以铸造/兑换的金额都有预设的限制，但任何互动都可能不会达到该限制。假设一个实体HAXOR想要窃取支持TUSD的所有资金 ： 1.已确认HAXOR不迟于9月18日侵入TrueUSD；2. TrueUSD承认银行账号、电子邮件地址、电话号码等被HAXOR窃取；3. HAXOR使用这些被盗凭证在各个客户的账户中快速铸造TUSD代币，每日限额较高；4.HAXOR将所有这些代币发送到stUSDT铸币地址；5. stUSDT账户持有者销毁所有TUSD ，这会触发TUSD储备金的自动汇入8.65亿美元存入他们的现实世界后台账户；6. 在9月中旬，如果HAXOR能够处理一笔8.65亿美元的电汇，他们将窃取TUSD储备中的8.65亿美元；7. 9月中旬，stUSDT市值也飙升了8.65亿美元。
+加密侦探ZachXBT也表示，如果官方按照规定没有创建TEURO，那么同意部署的私钥可能已被泄露，因为TUSD部署者也部署了TEURO合约。与TUSD部署者合约互有ETH交易的地址0x465发送了200万枚TEURO 至0x9132，随后将13枚ETH桥接至Arbitrum后返回到以太坊主网0x472中，然后0x472使用官方TureAUD部署程序创建了TrueChineseYuan（TCNY）合约；0x9132向TCNY部署者发送了一个名为HighNetwrokh 的Memecoin。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安将于Polygon网络支持原生USDC]]></title>
+        <id>https://panewslab.com/zh/articledetails/tobo5w8e.html</id>
+        <link href="https://panewslab.com/zh/articledetails/tobo5w8e.html"/>
+        <updated>2023-10-23T04:56:56.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月23日消息，据官方公告，币安将支持由Circle在Polygon网络发行的原生USD Coin（USDC）。该代币于上述网络的充值、提现业务将于近期开放，详情将另行公告。币安现已支持跨链版本USD Coin (PoS)（USDC.e），并将采用MATICUSDCE作为代码。
+请注意：币安将于10月25日14:00暂停平台在Polygon网络现有的USDC充值、提现业务；USDC的现货交易、杠杆交易、合约交易、币安赚币及币安支付服务将不受影响；跨链USD Coin (PoS)（USDC.e）代币将采用MATICUSDCE作为代码，币安将继续支持MATICUSDCE的充值、提现业务。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某钱包将价值134万美元的TRB转移至疑似交易所存款地址]]></title>
+        <id>https://panewslab.com/zh/articledetails/ebx92t7l.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ebx92t7l.html"/>
+        <updated>2023-10-23T04:01:10.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月23日消息，据Lookonchain监测，刚才有一个钱包将17,533枚TRB（134万美元）转移到了新地址（疑似交易所存款地址）。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ETH短时突破1700美元，24小时涨幅4.14%]]></title>
+        <id>https://panewslab.com/zh/articledetails/kh2j861g.html</id>
+        <link href="https://panewslab.com/zh/articledetails/kh2j861g.html"/>
+        <updated>2023-10-23T03:52:21.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月23日消息，行情显示，ETH短时突破1700美元，现已回落至1695.39美元，24小时涨幅4.14%。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scroll链上TVL接近1500万美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/zvbke3zs.html</id>
+        <link href="https://panewslab.com/zh/articledetails/zvbke3zs.html"/>
+        <updated>2023-10-23T03:42:42.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月23日消息，L2beat数据显示，自10月17日以太坊扩容项目Scroll正式启动主网以来，Scroll链上总锁仓价值（TVL）已达1478万美元。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LD Capital周报(10.23)：真正的战争还未开始]]></title>
         <id>https://www.odaily.news/post/5190469</id>
