@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-10-25T00:34:02.757Z</updated>
+    <updated>2023-10-25T01:41:51.978Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -3523,59 +3523,6 @@ CertiK表示，该团队于8月进行了“品牌重塑”，“Fintoch”更名
 关于Dencun升级的新CL代码规范，该规范被命名为“The Summoning”，该版本在CL GitHub存储库中正式标记为1.4.0-beta.3版本，主要变化包括主网KZG配置（完成以太坊可信设置仪式输出所需的格式化工作已完成，并包含在最新的CL规范版本中）以及新的gossip规则（确保CL节点传播的Blob数量不会超过每个区块的最大Blob数量，目前规范中将其定义为每个区块6个Blob，将确保验证者无法向网络发送垃圾邮件）。
 关于Devnet-10，CL规范1.4.0-beta.3版本中的更改将在Devnet-10上进行测试，Devnet-10的推出存在一些障碍，等待客户端团队发布新软件，一旦准备就绪，希望在10月20日的某个时间启动Devnet-10（截止目前尚未启动）。匿名开发人员指出，包含在最新CL规范中的主网KZG配置不能被合并到Geth和Prysm中，除非对“Go - KZG”进行更改将KZG承诺方案实现到Go编程语言中，且Devnet-9上的CL客户端实现中发现了“验证器没有正确地消减无效blob”的问题，有开发者认为应解决上述两个问题后再启动Devnet-10，以太坊基金会研究员Danny Ryan认为有关新削减条件的讨论仅适用Prague/Electra升级而非Dencun升级，并且有关导入具有无效blob的区块的CL规范的更改不应成为Devnet-10启动的障碍。Prysm和Lighthouse客户团队的代表表示，他们将在10月20日之前发布其软件的更新版本。
 关于blob延迟分析，从Gajinder Singh在Devnet-9上的实验来看，验证器收到的blob数量越多，区块的延迟就会显着增加。Ryan鼓励另一个CL团队尝试在Devnet-9上重现Singh的实验，看看他们是否能得到类似的值和结果。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[将15175枚ETH转入Kraken的巨鲸再次将1万枚ETH转入Kraken]]></title>
-        <id>https://panewslab.com/zh/articledetails/19nww1ma.html</id>
-        <link href="https://panewslab.com/zh/articledetails/19nww1ma.html"/>
-        <updated>2023-10-20T13:23:16.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月20日消息，据链上分析师余烬监测，此前报道的将15175枚ETH转入Kraken的巨鲸刚才继续将1万枚ETH转入Kraken、1枚ETH 转入Coinbase。他今天已累计转入Kraken 25175枚ETH(约4068万美元)。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[某巨鲸过去3个小时将15175枚ETH转入Kraken，约2440万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/4cmtg00w.html</id>
-        <link href="https://panewslab.com/zh/articledetails/4cmtg00w.html"/>
-        <updated>2023-10-20T13:04:03.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月20日消息，据链上分析师余烬监测，某巨鲸在2018/10/2-2022/11/14期间从Kraken累计提出了35175枚ETH(预计花费约1460万美元)，均价415美元。在今天市场反弹后，他在过去的3个小时里已将15175枚ETH(约2440万美元) 转入Kraken。地址内目前还有2万枚ETH(约3215美元)。目前ETH价格相较他的提出均价，上涨了2.87倍(约4195万美元)。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jimmy Zhong的双面人生：从比特币开发大佬到暗网惊天巨盗]]></title>
-        <id>https://www.odaily.news/post/5190451</id>
-        <link href="https://www.odaily.news/post/5190451"/>
-        <updated>2023-10-20T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文来源：CNBC
-原文编译：比推 BitpushNews Yanan
-佐治亚州雅典市(Athens)是佐治亚大学的所在地，那里的警察对大学城常见的犯罪类型，像是入室抢劫、酒吧斗殴和各种骚乱等，都已司空见惯。
-但 2019 年 3 月 13 日晚，当地警察却接到了一个与众不同的报警电话。
-打电话的是 28 岁的 Jimmy Zhong，一名常光顾酒吧的当地人，佐治亚大学校友。除了喜欢派对，他还是一个计算机专家，家中安装了先进的数字监控系统。
-当时，这位 Jimmy Zhong 向警察报案，说自己有数十万美元的加密货币从家中被盗。一想到那些丢失的钱，Zhong 就心痛不已。
-根据 CNBC 获得的录音，当时 Zhong 对接线员说："我恐慌症发作了。”
-Zhong 拒绝了接线员的呼叫急救车提议，并开始尝试解释：“我是比特币的投资者。比特币是一个线上、互联网性质的新玩意儿。”
-没人预料到，这通电话牵扯到一场跨越近十年的追踪战，揭示了加密时代的一桩重大罪行，并导致了美国司法部历史上第二大笔的加密货币查封额（译者注：案发时这是美国历史上查获的最大一笔加密货币，但这纪录在去年 2 月被 2016 年 Bitfinex 黑客案查获的 40 亿美元比特币刷新。）。
-那晚，Zhong 的电话将调查员带入了一条通往比特币初创时期的隐秘小路。一个英雄与反派界限模糊的世界，缓缓地揭开了面纱。
-这一切都会超乎 Zhong 的想象。
-当地警方在处理 Zhong 的盗窃案时，并未找到嫌疑人。对于与加密货币有关的案件，警方显然缺乏处理经验，因此案件调查进展缓慢。
-于是，Zhong 决定找当地私人侦探 Robin Martinelli 帮忙。这位私人侦探在佐治亚州的洛根维尔(Loganville)经营着自己的调查公司。
-Martinelli 之前是警察，后来转行做侦探，虽然她不是加密货币领域的专家，但她在…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aave社区提议DAO收购约160万枚GHO以支持短期资助需求]]></title>
-        <id>https://panewslab.com/zh/articledetails/nmwdv8mj.html</id>
-        <link href="https://panewslab.com/zh/articledetails/nmwdv8mj.html"/>
-        <updated>2023-10-20T12:45:11.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月20日消息，据官方治理页面，Aave社区正对“Aave DAO收购GHO以支持其短期资助需求”提案进行链上投票，提案提议支持的5项潜在用例共计135.9万枚GHO，在加上未来ACI资金预算，预计将从二级市场获得价值160万美元的GHO。此次投票将于10月21日结束。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
