@@ -3064,16 +3064,6 @@
           "wordCount": 376,
           "title": "数据：ARK方舟基金10月至今累计减持约13.5万份GBTC",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/l75zwlax.html",
-          "author": "PA一线",
-          "description": "PANews 10月22日消息，Coinglass数据显示，过去4小时全网爆仓2231.65万美元，BTC爆仓533.24万美元，ETH爆仓228.86万美元，LINK爆仓186.39万美元，SOL爆仓170.29万美元；多单爆仓1504.36万美元。",
-          "link": "https://panewslab.com/zh/articledetails/l75zwlax.html",
-          "publishedOn": "2023-10-22T07:51:14.000Z",
-          "wordCount": 346,
-          "title": "过去4小时全网爆仓2231.65万美元，LINK爆仓186.39万美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -4217,26 +4207,6 @@
           "publishedOn": "2023-10-22T08:30:00.000Z",
           "wordCount": 1663,
           "title": "2亿美元虚拟货币被盗，谁来为MIXIN的用户损失买单？",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5190464",
-          "author": "Azuma",
-          "description": "下周重点预告：\n\n美国众议院金融服务委员会将于 10 月 24 日举行 SEC 相关主题听证会；\n波卡首批 Crowdloan 中锁定的约 1 亿枚 DOT 将于 10 月 24 日解锁；\nUniSat 将于 10 月 25 日上线 brc 20-swap 主网版本；\n美众议院 10 月 26 日听证会或将讨论加密货币在恐怖主义融资中的作用；\n针对 SBF 的庭审将于 10 月 26 日恢复；\n10 月 23 日至 10 月 29 日，业内更多较为值得关注的事件如下： \n10 月 23 日 \nOKX Jumpstart 将于 10 月 23 日开启 SPURS 新币挖矿\nOdaily星球日报讯 据官方消息，OKX Jumpstart 将于 2023 年 10 月 23 日 14: 00 开始 SPURS 新币挖矿。CHZ 和 OKB 的持有者都可以质押 CHZ 和 OKB 来进行 SPURS 挖矿。目前仅限东亚国家，不包括中国大陆、香港、澳门、蒙古、朝鲜和日本用户。 \n据悉，SPURS 是托特纳姆热刺足球俱乐部的球迷代币，由 Socios 推出，总供应量为 40, 000, 000 枚。\nOptimism 开放 RetroPGF 第三轮申请将于 10 月 23 日结束\nOdaily星球日报讯 Optimism 宣布了其第三轮 RetroPGF（追溯公共产品资金）。即日起，RetroPGF 第三轮申请已开放，申请持续至 10 月 23 日，将向在建设 Optimism Collective 中展现影响力的建设者、艺术家、创作者和教育工作者分配 3000 万个 OP。\nOptimism 生态系统的每种类型的贡献者都有资格获得 RetroPGF。无论是以太坊执行客户端的开发人员，还是创建 Optimism 视频内容的教育者，均有资格获得。\nLybra Finance 将于 10 …",
-          "link": "https://www.odaily.news/post/5190464",
-          "publishedOn": "2023-10-22T07:33:54.000Z",
-          "wordCount": 2908,
-          "title": "下周必关注 | 约1亿枚DOT将于24日解锁；针对SBF的庭审将于26日恢复（10.23-10.29）",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5190459",
-          "author": "南枳",
-          "description": "原创 | Odaily星球日报\n作者 | 南枳\n\n引言\n10 月 20 日，Bitcoin Core 核心开发者/dev/fd0 在 X 平台宣布，将停止参与闪电网络及其实施的开发，包括协调处理协议级安全问题。\n/dev/fd0 表示，每个比特币节点都有自己的内存池。交易由对等节点转发。如果闪电网络节点用于打开通道并接受 HTLC 转发，那么很容易受到替代循环攻击（Replacement Cycling Attacks）。\n该开发者所指的“替代循环攻击”是什么，其具体实现途径如何，Odaily星球日报将于本文揭示。\n闪电网络\n比特币网络的 TPS 仅约为 7 ，并且手续费高昂，为解决小额支付的需求，闪电网络应运而生。\n闪电网络（Lightning Network）是一种针对比特币和其他加密货币的第二层扩展解决方案，旨在解决加密货币网络的可扩展性和交易速度问题。\n其实现原理可简化为：\n\n交易双方 A 与 B 建立了一个“交易通道”（实际上是个多签钱包）\n\nA 与 B 分别往里面充钱 A1 和 B1 （此步上链）\n\nA 与 B 在链下发生任意笔交易，A 净转出额 X（例如 A 向 B 转账 100 次 1 元，B 向 A 转账 99 次 1 元，最终 A 净流出 1 元）\n\n将 A1-X 与 B1+X 的交易更新上链\n\n通过以上流程，不论 A、B 在链下进行多少次交易，都只要支付两笔上链费用，并节约了大量的时间。\n哈希时间锁合约（HTLC）\n以上介绍的形式限于 A 和 B 之间有直接的交易通道，为跨通道支付而出现了中继节点，中继节点中转两者交易，以便跨通道进行支付，而中继节点可以收取小费。\n但这面临着一个问题：需要确保每个通道内每个参与者都是诚实守信的，通过多通道链接是安全的。\n因而出现了 HTLC（Hash Time-Lock Contract、哈希时间锁合约），一笔带有 H…",
-          "link": "https://www.odaily.news/post/5190459",
-          "publishedOn": "2023-10-22T07:24:37.000Z",
-          "wordCount": 1848,
-          "title": "闪电网络有资金风险？一文解读其原理和处理方法",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
