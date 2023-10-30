@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-10-30T04:09:10.102Z</updated>
+    <updated>2023-10-30T05:07:51.214Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[「一键发链」时代来临，链还是不是一门好生意？]]></title>
+        <id>https://www.odaily.news/post/5190640</id>
+        <link href="https://www.odaily.news/post/5190640"/>
+        <updated>2023-10-30T03:17:00.000Z</updated>
+        <summary type="html"><![CDATA[链是不是有点太多了？
+恐怕没有人能理得清楚，如今究竟有多少条链。
+曾几何时，区块链代替比特币成为整个行业的代名词，链化身整个加密行业的明珠，市场会如数家珍般的探讨每一条链的异同。可是随着技术迭代和叙事的迁移，时代变了——链越多，使用场景被证伪的就越多；老的链被证伪，新的链就会以「更高、更快、更强」的姿态补上。天知道现在一共有多少条链？
+
+在德国剑术大师米夏尔·亨特撰写的关于冷兵器的《刺剑 100 招》中，亨特的最后一招是建议他的领主在决斗中选择热武器火枪当副手。
+不仅没有人能数得清有多少链。更重要的是，如今大额融资的 Layer 1 和 Layer 2 在市场先生看来都不再性感。面对同质化使用的体验，似乎只有空投猎人和自动化程序在坚持。通过数据我们可以发现，如今已经有不止一条链的 TVL 价值抵不过项目的融资额了，公链本身代币市值能超过链上资产价值的所剩无几。似乎曾经憧憬中将运行整个「世界」的公链，到头来只服务了链自己。
+在近几年的金融行业，似乎叙事总可以充当第一生产力。每个人都是听故事长大的，只不过加密的故事变成了叙事，内容从小时候喜欢的小红帽与大灰狼变成了成年人追寻的范式转移和「To da moon」。
+每一个「天王级」项目或者热门赛道，都包裹着一个故事。最好还是能反复进化和迭代的故事。这样故事加工出来的叙事，是事件驱动投资者的最爱——有故事就有预期，有预期就可以换更高的估值。作为强周期性行业，潮水之后的叙事总被发现在裸泳，且越强有力的叙事受到的负反馈越强。
+叙事虽好，可不要贪杯。对于从各种叙事衍生出的项目来说，时机是关键。类似公链这种曾经最吸引人的叙事被拍在岸边上的事情比比皆是。从加密行业的历史规律来看，这种是必然。技术进步衍生出新的赛道，蓝海终变红海。
+Bitcoin 时代，调整参数和算法造就了 Litecoin 和 Dogecoin。Polkadot、Cardan…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一巨鲸从币安提取2374枚ETH，此前在Aave借入100枚WBTC并兑换成ETH]]></title>
         <id>https://panewslab.com/zh/articledetails/ezkbedjx.html</id>
@@ -26,6 +45,23 @@
 相关阅读：LayerZero的一份“合作”公告，为何令Lido社区和友商集体愤怒？]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅论Celestia的商业思路：引流以太坊Layer2能否行得通？]]></title>
+        <id>https://www.odaily.news/post/5190637</id>
+        <link href="https://www.odaily.news/post/5190637"/>
+        <updated>2023-10-30T02:29:54.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Faust，极客 Web3
+本文并不涉及多少技术相关解读，而是就事论事分析 Celestia 现在的商业思路及其处境。
+Celestia 的自我定位，是模块化区块链叙事下的「最佳 DA 层」。Celestia 自己做了一条公链，这条公链专门为 Rollup 项目提供数据发布服务，也即 Data Publication。「数据发布」要确保一件事：需要获取最新数据的个体，能很快获取到需要的数据。过去很多人将数据发布称为数据可用性，将其与历史数据可检索混为一谈，是一种概念误用，这一点正在被以太坊基金会和 Celestia 官方持续纠正中。
+如果你有关于 Rollup 的简单知识，那么接下来的内容将很好理解：Celestia 认为，类似 Layer 2 的以太坊扩容网络，可以把新产生的数据发布到 Celestia 链上，而不是直接发布到以太坊上，这样就可以节省 90% 以上的手续费。
+以 Arbitrum Orbit 为例，Orbit 的排序器 Sequencer 可以把 Layer 2 最新的数据发布到 Celestia 的区块里。然后，需要获取这部分数据的节点（比如 Orbit 全节点），可以再运行 Celestia 的轻节点，从 Celestia 全节点那里获取排序器发布上去的数据。
+
+至于 Celestia 的代币 TIA，主要应用场景是数据发布费用 +POS 节点质押，如果一个 Rollup 项目选用 Celestia 作为 DA 层，每次发布数据要交手续费；同时，专门用来承载 Rollup 发布的数据的 Celestia 主链，最多有 200 多个 Validator 节点，TIA 代币就是 Validator 需要事先质押的资产。
+虽然 Celestia 官方文档中提到，TIA 代币也可以作为 Celestia 生态内 Rollup 项目的 gas 支付代币…]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
         </author>
     </entry>
     <entry>
