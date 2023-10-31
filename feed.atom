@@ -2,10 +2,148 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-10-31T05:07:05.697Z</updated>
+    <updated>2023-10-31T06:10:07.815Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[数据：一鲸鱼1小时前将529万枚ZRX转入Binance]]></title>
+        <id>https://panewslab.com/zh/articledetails/0jzn8ees.html</id>
+        <link href="https://panewslab.com/zh/articledetails/0jzn8ees.html"/>
+        <updated>2023-10-31T05:57:39.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月31日消息，一鲸鱼在 1 小时前将 529 万枚 ZRX($1.61M) 转入 Binance，预计获利 $48 万(42%)。
+该鲸鱼是在 10/20-26 从 Binance 提出：92,610 TRB($7.29M)，均价78；5,296,928 ZRX($1.13M)，均价 $0.214；831,510 FTT($1.07M)，均价 $1.29；560,958 LQTY($1.13M)，均价 $2.02。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beosin：Unibot被攻击的根本原因是CAll注入，用户需尽快撤销授权]]></title>
+        <id>https://panewslab.com/zh/articledetails/z3o46hrh.html</id>
+        <link href="https://panewslab.com/zh/articledetails/z3o46hrh.html"/>
+        <updated>2023-10-31T05:55:40.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月31日消息，Beosin Alert发文表示，Unibot 被攻击的根本原因是 CAll 注入，攻击者可以将自定义的恶意调用数据传递到 0xb2bd16ab() 方法中，以将批准的代币转移到 Unibot 合约中。用户需要尽快撤销对 0x126c9FbaB3A2FCA24eDfd17322E71a5e36E91865 的授权。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安将于今晚上线SLP U本位永续合约]]></title>
+        <id>https://panewslab.com/zh/articledetails/i0f19w93.html</id>
+        <link href="https://panewslab.com/zh/articledetails/i0f19w93.html"/>
+        <updated>2023-10-31T05:51:03.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月31日消息，币安合约交易平台将于2023年10月31日22:30（北京时间）推出USDⓈ-M SLP永续合约，最高杠杆为50倍。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[撸空投必备工具：头部CEX多地址充值功能解析]]></title>
+        <id>https://www.odaily.news/post/5190670</id>
+        <link href="https://www.odaily.news/post/5190670"/>
+        <updated>2023-10-31T05:49:34.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：珞珈微观
+Celestia (TIA)空投于 10 月 31 日正式发放，很多链上用户都有 TIA 代币空投，并且其中部分用户一个人的多个钱包地址均获得了空投。如何将多个地址的 TIA 代币进行归集而不被判定为女巫账户呢？多地址充值能否有效规避项目方的防女巫判定？哪家交易所的多地址充值功能更好用呢？这篇文章将详细解答多地址充值的优势和使用方法，教你如何正确撸空投。
+1. 当前撸空投的不便之处
+所谓女巫账户，就是指一个人控制了多个链上地址，伪装成不同用户进行交互的行为。对于项目方来说，女巫的行为其实破坏了项目去中心化的过程。所以在空投发放的过程中，项目方可能会主动筛查女巫，或者由社区举报，从而取消其空投资格。
+而一个用户为了获得更多的空投资格，通常都会用一个地址频繁地向多个地址发送/归集资产，而这样的链上行为会很容易地被判定为女巫账户，从而损失获得空投的资格。
+2. 多地址充值的优势
+而要防范项目方的女巫判定，最重要的就是要做好地址隔离。简单来说，就是不要在链上进行资金分发 / 归集，而是通过交易所来生成多个不同的地址来进行归集从而避免这个问题。
+所以，多地址充值应用而生，它最大的优势就是可以生成不同的地址来分发/归集资金，避免被项目方判定为女巫账号。此外，多地址充值还有更高的安全性与隐私性。每个账户（包括子账户）可以添加多个独立的充值地址。每次充值都提供多个地址供用户选择，这使得用户的交易不容易被追踪，从而提高了隐私保护水平。
+3. 各交易所多地址充值功能的对比
+目前，多家主流的中心化交易平台都推出了多地址充值功能，包括币安、Bitget 和 OKX。以下是各家交易所多地址充值功能的对比。
+
+这三家交易所的多地址充值功能大同小异。相比而言，Bitget 单个账户支持更多的地址数，一个账户可以生成 50 个单独的地址，用起来更加方便，无须在多个子账户间来回切换。在支持公链数量上，Bitget 和 OKX 也更多，用户可选的范围更广。因此，如果对地址数和支持的公链有更高的要求的话，建议选择 Bitget 和 OKX。
+此外，反女巫的重要还有：不要选择相同金额转账、提币，要随机金额，随机时间；不要同一时间多账号进行相同路径的链上交互，比如多账号一天内都按照相同的顺序进行相同的几个 DeFi 的交互。做到以上这些就可以很好地避免被判定为女巫，获得空投的概率也将大大提升。]]></summary>
+        <author>
+            <name>星球君的朋友们</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unibot疑似遭受攻击，损失约为56万美元]]></title>
+        <id>https://panewslab.com/zh/articledetails/59jq8693.html</id>
+        <link href="https://panewslab.com/zh/articledetails/59jq8693.html"/>
+        <updated>2023-10-31T05:23:12.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月31日消息，据多位社区成员反映，链上数据显示，Telegram Bot 项目 Unibot 疑似遭受攻击。损失约为56万美元。
+Coingecko行情显示，代币 Unibot 半小时内跌幅约25%。现报43美元/枚。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万字回望比特币发展史：15年，4300万倍]]></title>
+        <id>https://www.odaily.news/post/5190668</id>
+        <link href="https://www.odaily.news/post/5190668"/>
+        <updated>2023-10-31T05:16:38.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Jack、律动小工，BlockBeats
+10 月 31 日，距中本聪（Satoshi Nakamoto）在 P2P foundation 网站发布比特币白皮书《比特币：一种点对点的电子现金系统》已满 15 周年。比特币网络于 2009 年 1 月 3 日正式推出，比特币的初始交易价格为 0.0008 美元。
+据行情数据，当前比特币价格为 34, 429.09 美元，总市值达 6729 亿美元。如今，比特币自推出以来逐步升值超 4300 万倍。让我们回到加密诞生的起点，纪念比特币白皮书的发布。
+一切的起点
+2008 年 11 月，一份署名中本聪的论文被发表在网络上，其标题为《比特币：一种点对点的电子现金系统》（Bitcoin: A Peer-to-Peer Electronic Cash System）。论文中详细描述了如何使用对等网络来创造一种「不需依赖信任的电子交易系统」。
+中本聪创造比特币的背景，正是比特币被创造的初心。2008 年 9 月 15 日，以雷曼兄弟的倒闭为开端，金融危机在美国爆发并向全世界迅速蔓延。
+雷曼破产之后，为了应对危机，美国财政部展开了前所未有的大规模救助，不惜动用数量惊人的公共资金挽救房利美以及房贷美两大房屋贷款商。同时美联储采取量化宽松政策大量放水，试图通过超发货币刺激美国经济。不仅仅是美国本土，全世界也跟着一起遭殃。各个国家手上的美元大幅缩水，引起诸如汇率波动加剧、股市踩踏式崩盘等一系列蝴蝶效应；霎时间全球经济深陷在衰退的泥潭中难以自拔。
+出于对当前货币体系的失望和对隐私权的保护，中本聪创造了比特币。在传统的货币系统中，所有的货币都是由央行发行，并由银行在交易中进行记录和确认。而比特币打破了这种传统的模式，使个人之间可以进行点对点的交易，无需经过银行或其他金融机构的中介。由于比特币的数量是有限的，总量为 2100 万枚。这意味着它…]]></summary>
+        <author>
+            <name>区块律动BlockBeats</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：Telegram Premium订阅用户数已接近350万]]></title>
+        <id>https://panewslab.com/zh/articledetails/9rpzbjay.html</id>
+        <link href="https://panewslab.com/zh/articledetails/9rpzbjay.html"/>
+        <updated>2023-10-31T05:02:29.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月31日消息，Telegram创始人Pavel Durov今日在其TG个人频道中表示，Telegram Premium 订阅用户目前已有接近 350 万人。最新版本 Telegram 的“Replies 2.0”更新中允许用户在回复时引用消息的特定部分、将回复发送到其他聊天、为任何文本添加引用格式、配置链接预览、为帐户选择颜色等等。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[潜入暗池，透明区块链上的隐私研究]]></title>
+        <id>https://www.odaily.news/post/5190666</id>
+        <link href="https://www.odaily.news/post/5190666"/>
+        <updated>2023-10-31T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Muhammad Yusuf， Delphi Digital
+原文编译：吴说区块链
+译者注：本文详细介绍了不同类型的暗池的工作原理、隐私架构、订单匹配、流动性来源、MEV 和抗审查等多个方面内容。通过引入零知识证明等隐私增强技术，暗池试图在保护交易隐私的同时提供高度的安全性。此外，本文还提到了与监管合规性和交易可见性相关的问题，以及探讨了在暗池中不同的商业模式。
+在深入了解基于区块链的暗池内部运作之前，让我们先了解一下暗池的来龙去脉，它们是如何出现的，为什么能持续运作，以及它们在多大程度上改变了游戏规则。
+20 世纪 60 年代的暗池
+1969 年，当时的计算机体积仍足以占用一两个房间，交易者在交易大厅里大声喊着指令，机构投资者需要一种更好的方式来买卖股票，而不会在市场上引发连锁反应。Jerome Pustilnik 创立了 Instinet，开创了华尔街电子交易的先河。机构投资者可以下订单，Instinet 将匹配买卖订单并执行它们。要让 Instinet 这样的平台发挥作用，需要大量的供需双方订单。那么，是什么让机构投资者尝到了甜头？保密性。Instinet 允许大公司通过隐藏其身份和订单免受其他参与者和更广泛市场的监视，以匿名方式运作。这一方面可以防止他们的交易影响市场，另一方面也意味着降低了被其他交易者抢先交易的风险。
+截至 2022 年，已经有 60 多个暗池在 SEC 注册。其中一些是由交易所运营的，如纽约证券交易所（NYSE）和纳斯达克（NASDAQ）；一些是由经纪商运营的，如摩根士丹利的 MS Pool 和高盛的 SigmaX；还有一些是独立运营的，如 Liquidnet 和 MatchNow。
+由运营商运营暗池的问题在于，运营商可能更有动机采取不正当行为，而不是以合规的方式运作。等式很简单：腐败利润 > 腐败成本。运营商可以获得比他们必须支付的罚…]]></summary>
+        <author>
+            <name>吴说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget Launchpad项目T2T2已有4000+战队进入拼团模式]]></title>
+        <id>https://panewslab.com/zh/articledetails/0ya8cstf.html</id>
+        <link href="https://panewslab.com/zh/articledetails/0ya8cstf.html"/>
+        <updated>2023-10-31T04:58:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月31日消息，Bitget新一期 Launchpad 项目 T2T2，首次推出拼团模式，三人即可成团。截止发稿已有4000+战队进入拼团模式，成团用户，最高可投入平均持仓的两倍；未成团用户，最高可投入统计阶段的 BGB 平均持仓；拼团时间为10月27日 15:00 - 11月6日 15:00 (UTC+8)。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Argent钱包将逐步停止对zksync Era的支持，转而专注于Starknet]]></title>
+        <id>https://panewslab.com/zh/articledetails/5tpnhywm.html</id>
+        <link href="https://panewslab.com/zh/articledetails/5tpnhywm.html"/>
+        <updated>2023-10-31T04:36:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月31日消息，有X用户称收到来自 Argent 的电子邮件。智能合约钱包 Argent 将逐步停止对zksync Era网络的支持，转而专注于Starknet。具体为：从2024年1月31日开始，将开始减少对Argent上zkSync Era alpha账户的支持。而且不会有为zkSync Era帐户构建的新功能。1月后，不会关闭用户的zkSync Era alpha帐户。但随着zkSync Era基础设施的缩减，性能将有所下降。这些更改不会影响帐户的安全性。建议用户的zkSync Era资产尽快从Argent转移到另一个zkSync Era钱包，例如Metamask等。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gate Web3 Startup已开启KStarNFT项目免费认购]]></title>
+        <id>https://panewslab.com/zh/articledetails/875o83k9.html</id>
+        <link href="https://panewslab.com/zh/articledetails/875o83k9.html"/>
+        <updated>2023-10-31T04:15:24.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月31日消息，据官方公告，Gate Web3 Startup 已于北京时间10月27日14时开启 KStarNFT 项目免费认购，将于11月1日14时结束认购。KStarNFT 是一家具有全球影响力的 K-pop 媒体实体，拥有 930 万用户，利用最先进的人工智能技术，策划了包括娱乐和教育在内的各种内容。Gate Web3 Startup 是Web3创新项目的代币发行平台，用户连接Web3钱包，确保EVM链持有≥100 USD等值EVM，即可轻松参与Startup，获得免费代币空投。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：一新钱包20分钟前从Binance提取927万枚BLZ]]></title>
         <id>https://panewslab.com/zh/articledetails/o81iwonw.html</id>
