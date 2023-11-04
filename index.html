@@ -51,6 +51,90 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-11-05 datetime="2023-11-04T16:07:30.000Z">2023-11-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-11-05 datetime="2023-11-04T16:07:30.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190767"
+                        open
+                      >
+                        <summary class="article-expander__title">Avail的模块化之路：致力成为以太坊rollup默认的DA层</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190767">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Avail 正在为未来的区块链创建基础层，使开发者能够以可扩展性、灵活性和简易性来构建 rollups 和 appchains。Avail 对未来的设想是，为 Web3 开发者提供像 Web2 一样轻松构建的环境，并将传统基于中心化信任的系统转化为无需信任的系统。
+Avail 在今年 3 月份宣布从 Polygon 独立出来，将专注于成为整个区块链生态系统的首选共识和数据可用性层。
+截止到目前，已经发生很多新的进展，在今年 6 月份发布了第二个长期运行的测试网：Kate 测试网。一组新的外部验证人也已经加入了系统，参与者已经开始运行验证者和完整节点，以及轻客户端。
+选择自己独特的发展路径需要很大的勇气。因此，当有其他项目和新的合作伙伴主动联系 Avail 并希望进行合作时，他们十分积极。他们与多家公司，如 Sovereign Labs、Dymension 和 Madara 等，正在进行或计划进行合作集成。当他们与这些可能的合作伙伴接触时，这些合作伙伴给予的正面反馈和对产品的匹配度评价让他们感到很受鼓舞。这些积极的反馈再次强化了他们的信心，相信他们作为一个主要集中于达成共识和提供数据可用性的区块链，拥有数据可用性采样功能，他们正在为未来的区块链技术打下坚实的基础。
+
+走向模块化
+
+在过去的一年中，用于执行扩展的 rollup 已经成为焦点。现在，Rollups 被公认为是在基础层之外进行链下计算的主要方式。
+随着这些和其他技术的发展，我们正在说的区块链构造本质上正在变得模块化。Ethereum 的 rollups 本质上是在链下执行，并依赖基础层处理数据可用性和结算，最常见的是通过 rollup 智能合约。
+Rollups 专注于扩展执行，但如何扩展数据可用性呢？Rollups 的数据扩展是所有基础层区块链发展的下一个前沿领域。Avail 正处于这个前沿领域，拥有无与伦比的数…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190766"
+                        open
+                      >
+                        <summary class="article-expander__title">关于数据可用性的十问十答：以Celestia为例</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190766">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>什么是 DA 数据可用性？
+数据可用性解决的问题是：这些数据已经发布了吗？具体来说，当节点接收到一个新的即将添加到链上的区块时，它会验证数据的可用性。节点会尝试下载新区块的所有交易数据以确认其可用性。如果节点能够下载所有交易数据，那么它就成功地验证了数据可用性，证明了区块数据确实已经发布到网络上。
+如你所见，模块化区块链，例如 Celestia (可通过此链接了解更多信息：https://docs.celestia.org/learn/how-celestia-works/data-availability-faq) 利用其他原语让节点更高效地验证数据可用性。数据可用性对于任何区块链的安全至关重要，因为它确保任何人都可以检查交易账本并进行验证。当区块链规模扩大时，数据可用性尤其成问题。随着区块变大，普通用户下载所有数据变得不切实际，因此用户无法再验证链的真实性。
+数据可用性的问题是什么？
+这个问题发生在新区块的交易数据不能被网络上的节点下载和验证时。一个可能的情况是，区块的生产者故意不公布交易数据，这被称为数据隐匿攻击。如果交易数据没有被发布，那么网络上的节点就不能确认并接受新区块，导致区块链更新到最新状态的过程中断。
+由于节点不能验证新区块的数据，这可能导致区块链运行停止，或者更糟糕的是，攻击者可能利用这个漏洞盗取资金。后果的严重程度将取决于区块链的类型（L1 或 L2）以及数据可用性是保持在链上还是链下。在 Layer 2 的扩展方案中，比如 rollups 和 validiums，数据可用性问题尤为常见。这些技术尝试通过在链上扩展处理能力来提高区块链的性能，但这也可能引发新的数据可用性挑战。
+在 Celestia 中节点怎么验证数据可用性？
+在大多数区块链中，节点通过下载一个区块的所有交易数据来验证数据的可用性。如果节点能够下载所有数据，那么它们就验证了数据的可用性。…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-11-04 datetime="2023-11-04T12:16:11.000Z">2023-11-04</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-11-04 datetime="2023-11-04T12:16:11.000Z"></time>
           </button>
@@ -9283,88 +9367,6 @@ Backpack 由加密基础设施公司 Coral 创办，去年，Coral曾完成2000�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/0jzn8ees.html"
-                        open
-                      >
-                        <summary class="article-expander__title">数据：一鲸鱼1小时前将529万枚ZRX转入Binance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/0jzn8ees.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 10月31日消息，一鲸鱼在 1 小时前将 529 万枚 ZRX($1.61M) 转入 Binance，预计获利 $48 万(42%)。
-该鲸鱼是在 10/20-26 从 Binance 提出：92,610 TRB($7.29M)，均价78；5,296,928 ZRX($1.13M)，均价 $0.214；831,510 FTT($1.07M)，均价 $1.29；560,958 LQTY($1.13M)，均价 $2.02。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/z3o46hrh.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Beosin：Unibot被攻击的根本原因是CAll注入，用户需尽快撤销授权</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/z3o46hrh.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 10月31日消息，Beosin Alert发文表示，Unibot 被攻击的根本原因是 CAll 注入，攻击者可以将自定义的恶意调用数据传递到 0xb2bd16ab() 方法中，以将批准的代币转移到 Unibot 合约中。用户需要尽快撤销对 0x126c9FbaB3A2FCA24eDfd17322E71a5e36E91865 的授权。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/i0f19w93.html"
-                        open
-                      >
-                        <summary class="article-expander__title">币安将于今晚上线SLP U本位永续合约</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/i0f19w93.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 10月31日消息，币安合约交易平台将于2023年10月31日22:30（北京时间）推出USDⓈ-M SLP永续合约，最高杠杆为50倍。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/59jq8693.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Unibot疑似遭受攻击，损失约为56万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/59jq8693.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 10月31日消息，据多位社区成员反映，链上数据显示，Telegram Bot 项目 Unibot 疑似遭受攻击。损失约为56万美元。
-Coingecko行情显示，代币 Unibot 半小时内跌幅约25%。现报43美元/枚。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -9775,65 +9777,6 @@ OKX POR 一周年里程碑事件回顾
 OKX 同时实现默克尔树开源验证、钱包地址所有权开源验证、链上资产开源验证的交易所，在保护隐私的前提下，允许用户随时可以独立验证其偿付能力，当前已有数十万用户参与访问 POR 页面并完成自行验证。
 储备金证明通过加密的证明方法来确认数字货币交易所在特定时间在某区块链上…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5190670"
-                        open
-                      >
-                        <summary class="article-expander__title">撸空投必备工具：头部CEX多地址充值功能解析</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190670">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：珞珈微观
-Celestia (TIA)空投于 10 月 31 日正式发放，很多链上用户都有 TIA 代币空投，并且其中部分用户一个人的多个钱包地址均获得了空投。如何将多个地址的 TIA 代币进行归集而不被判定为女巫账户呢？多地址充值能否有效规避项目方的防女巫判定？哪家交易所的多地址充值功能更好用呢？这篇文章将详细解答多地址充值的优势和使用方法，教你如何正确撸空投。
-1. 当前撸空投的不便之处
-所谓女巫账户，就是指一个人控制了多个链上地址，伪装成不同用户进行交互的行为。对于项目方来说，女巫的行为其实破坏了项目去中心化的过程。所以在空投发放的过程中，项目方可能会主动筛查女巫，或者由社区举报，从而取消其空投资格。
-而一个用户为了获得更多的空投资格，通常都会用一个地址频繁地向多个地址发送/归集资产，而这样的链上行为会很容易地被判定为女巫账户，从而损失获得空投的资格。
-2. 多地址充值的优势
-而要防范项目方的女巫判定，最重要的就是要做好地址隔离。简单来说，就是不要在链上进行资金分发 / 归集，而是通过交易所来生成多个不同的地址来进行归集从而避免这个问题。
-所以，多地址充值应用而生，它最大的优势就是可以生成不同的地址来分发/归集资金，避免被项目方判定为女巫账号。此外，多地址充值还有更高的安全性与隐私性。每个账户（包括子账户）可以添加多个独立的充值地址。每次充值都提供多个地址供用户选择，这使得用户的交易不容易被追踪，从而提高了隐私保护水平。
-3. 各交易所多地址充值功能的对比
-目前，多家主流的中心化交易平台都推出了多地址充值功能，包括币安、Bitget 和 OKX。以下是各家交易所多地址充值功能的对比。
-
-这三家交易所的多地址充值功能大同小异。相比而言，Bitget 单个账户支持更多的地址数，一个账户可以生成 50 个单独的地址，用起来更加方便，无须在多个子账户间来回切换。在支持公链数量上，Bitget 和 OKX 也更多，用户可选的范围更广。因此，如果对地址数和支持的公链有更高的要求的话，建议选择 Bitget 和 OKX。
-此外，反女巫的重要还有：不要选择相同金额转账、提币，要随机金额，随机时间；不要同一时间多账号进行相同路径的链上交互，比如多账号一天内都按照相同的顺序进行相同的几个 DeFi 的交互。做到以上这些就可以很好地避免被判定为女巫，获得空投的概率也将大大提升。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5190668"
-                        open
-                      >
-                        <summary class="article-expander__title">万字回望比特币发展史：15年，4300万倍</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190668">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Jack、律动小工，BlockBeats
-10 月 31 日，距中本聪（Satoshi Nakamoto）在 P2P foundation 网站发布比特币白皮书《比特币：一种点对点的电子现金系统》已满 15 周年。比特币网络于 2009 年 1 月 3 日正式推出，比特币的初始交易价格为 0.0008 美元。
-据行情数据，当前比特币价格为 34, 429.09 美元，总市值达 6729 亿美元。如今，比特币自推出以来逐步升值超 4300 万倍。让我们回到加密诞生的起点，纪念比特币白皮书的发布。
-一切的起点
-2008 年 11 月，一份署名中本聪的论文被发表在网络上，其标题为《比特币：一种点对点的电子现金系统》（Bitcoin: A Peer-to-Peer Electronic Cash System）。论文中详细描述了如何使用对等网络来创造一种「不需依赖信任的电子交易系统」。
-中本聪创造比特币的背景，正是比特币被创造的初心。2008 年 9 月 15 日，以雷曼兄弟的倒闭为开端，金融危机在美国爆发并向全世界迅速蔓延。
-雷曼破产之后，为了应对危机，美国财政部展开了前所未有的大规模救助，不惜动用数量惊人的公共资金挽救房利美以及房贷美两大房屋贷款商。同时美联储采取量化宽松政策大量放水，试图通过超发货币刺激美国经济。不仅仅是美国本土，全世界也跟着一起遭殃。各个国家手上的美元大幅缩水，引起诸如汇率波动加剧、股市踩踏式崩盘等一系列蝴蝶效应；霎时间全球经济深陷在衰退的泥潭中难以自拔。
-出于对当前货币体系的失望和对隐私权的保护，中本聪创造了比特币。在传统的货币系统中，所有的货币都是由央行发行，并由银行在交易中进行记录和确认。而比特币打破了这种传统的模式，使个人之间可以进行点对点的交易，无需经过银行或其他金融机构的中介。由于比特币的数量是有限的，总量为 2100 万枚。这意味着它…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11931,8 +11874,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6756129435">
-        <time id="build-timestamp" datetime="2023-11-04T17:06:11.216Z">2023-11-04T17:06:11.216Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6756410266">
+        <time id="build-timestamp" datetime="2023-11-04T18:08:20.630Z">2023-11-04T18:08:20.630Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
