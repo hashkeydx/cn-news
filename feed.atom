@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-11-04T12:11:56.617Z</updated>
+    <updated>2023-11-04T13:06:48.401Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[数据：超5000万枚USDT从未知钱包转移到Binance]]></title>
+        <id>https://panewslab.com/zh/articledetails/jnpu7fos.html</id>
+        <link href="https://panewslab.com/zh/articledetails/jnpu7fos.html"/>
+        <updated>2023-11-04T12:16:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月4日消息，据Whale Alert监测，50,348,861 枚 USDT （约 50,401,979 美元）从未知钱包转移到Binance。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BRC-20创始人发布将名为“fraction”的新功能集成到BRC-20协议的提案]]></title>
+        <id>https://panewslab.com/zh/articledetails/nqpgk7b0.html</id>
+        <link href="https://panewslab.com/zh/articledetails/nqpgk7b0.html"/>
+        <updated>2023-11-04T11:49:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 11月4日消息，BRC-20 创始人 domo 发布将一个名为“fraction”的新核心功能集成到 BRC-20 协议中的安全性改进提案，以改善所有用户的代币传输体验。当前的brc-20协议允许任何人创建到任何地址的传输铭文。尽管这种可访问性允许使用铭文工具，但它也为潜在的破坏者打开了大门，以破坏用户的余额并干扰他们的活动。迄今为止，几乎没有证据表明发生了这些“攻击”。
+通过将 fraction 函数直接合并到 BRC-20 协议中，可以对传输强制执行特定的有效性条件。该措施旨在通过增加执行此类干扰的难度和成本来阻止攻击者。fraction 函数旨在成为 BRC-20 协议的核心部分，不太适合模块化实现。它将设置传输金额的允许范围和/或创建有效传输铭文所需的最小填充。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：1.5万枚ETH从钱包转移到Gate]]></title>
         <id>https://panewslab.com/zh/articledetails/mxl6pwc5.html</id>
@@ -24,6 +45,23 @@
         <summary type="html"><![CDATA[PANews 11月4日消息，Yuga Labs在X平台上表示，正在与 Magic Eden 合作推出新的 Magic Eden ETH 市场，该市场是根据合约义务，兑现创作者版税的专业市场。 该市场将于 2023 年底推出。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YBB Capital：潜力赛道前瞻-去中心化算力市场（上）]]></title>
+        <id>https://www.odaily.news/post/5190769</id>
+        <link href="https://www.odaily.news/post/5190769"/>
+        <updated>2023-11-04T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Zeke, YBB Capital
+
+前言
+自 GPT-3 诞生以来，生成式 AI 以其惊人的表现以及广阔的应用场景，让人工智能领域迎来了爆炸式的拐点，科技巨头开始扎堆抱团跳入 AI 赛道。但问题也随之而来，大型语言模型（LLM）训练和推理的运行需要大量算力支撑，伴随着模型的迭代升级，算力需求和成本更是呈指数级的增加。以 GPT-2 和 GPT-3 为例，GPT-2 和 GPT-3 之间的参数量相差 1166 倍（GPT-2 为 1.5 亿参数，GPT-3 为 1750 亿参数），GPT-3 的一次训练成本以当时公有 GPU 云的价格模型计算最高可达 1200 万美元，为 GPT-2 的 200 倍。而在实际使用过程中，用户的每次提问都需要推理运算，按今年年初 1300 万独立用户访问的情况来说，对应的芯片需求是 3 万多片 A 100 GPU。那么初始投入成本将达到惊人的 8 亿美元，每日模型推理费用预估费用 70 万美元。
+算力不足和成本过高成为整个 AI 行业面临的难题，然而同样的问题似乎也将困扰区块链行业。一方面比特币的第四次减半与 ETF 通过即将到来，随着未来价格攀升，矿商对于算力硬件的需求必然大幅提高。而另一方面零知识证明（ "Zero-Knowledge Proof"，简称 ZKP）技术正在蓬勃发展，Vitalik 也曾多次强调 ZK 在未来十年内对区块链领域的影响将与区块链本身一样重要。虽然这项技术的未来被区块链行业寄予厚望，但 ZK 由于复杂的计算过程，在生成证明过程中同 AI 一样也需要消耗大量的算力与时间。
+在可预见的未来里，算力短缺将成为必然，那么去中心化算力市场是否会是一门好生意？
+去中心化算力市场定义
+去中心化算力市场其实基本等价于去中心化云计算赛道，但相比于去中心化云计算，我个人认为这个词来描述之后所讲的新项目会更为贴切。去中心化算…]]></summary>
+        <author>
+            <name>YBB Capital</name>
         </author>
     </entry>
     <entry>
@@ -5849,48 +5887,6 @@ VanEck 比特币现货 ETF 修正案建议使用比特币作为种子资金
 The Block 数据板显示， 10 月 1 日至今，加密货币交易所累计交易额已达 4432.7 亿美元。其中币安…]]></summary>
         <author>
             <name>夫如何</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[链上数据平台Arkham推出聊天室功能]]></title>
-        <id>https://panewslab.com/zh/articledetails/tiq5kj14.html</id>
-        <link href="https://panewslab.com/zh/articledetails/tiq5kj14.html"/>
-        <updated>2023-10-31T01:06:30.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月31日消息，链上数据平台 Arkham 推出聊天室功能，所有实体和代币页面在 Arkham 上都有聊天室，用户可以直接与平台上对该社区或页面感兴趣的其他用户互动，并可通过验证自己的实体页面和参与聊天来赚取积分。尤其适用于协议发生黑客或诈骗事件后的多方沟通。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[量子初创公司Atom Computing宣称正在测试1180量子比特的量子计算机]]></title>
-        <id>https://panewslab.com/zh/articledetails/fa144f75.html</id>
-        <link href="https://panewslab.com/zh/articledetails/fa144f75.html"/>
-        <updated>2023-10-31T00:54:35.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月31日消息，据Decrypt报道，量子计算初创企业Atom Computing近日声称，它正在测试 1,180 量子比特的量子计算机，该计算机可能在明年面世，超越IBM 和 Google 等巨头的同类产品。但分析文章也指出，原子计算可能用一堆量子位创建了量子计算，但有时量子世界更注重质量而不是数量。
-这家企业透露使用中性原子作为主要量子比特，来提高计算稳定性和可扩展性；但目前单个量子比特运算的错误率非常高，因此目前还无法进行复杂的计算。Atom Computing 公司声称很快就能解决这个问题，并力争在 2025 年实现与 IBM 即将推出的拥有 1,386 个量子比特的多芯片处理器 Kookaburra相媲美的成绩。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radiant社区的RFP-25提案获得通过，将在52周内把约50万枚ARB空投到以太坊上的新dLP]]></title>
-        <id>https://panewslab.com/zh/articledetails/r718t43f.html</id>
-        <link href="https://panewslab.com/zh/articledetails/r718t43f.html"/>
-        <updated>2023-10-31T00:32:38.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月31日消息，多链借贷协议 Radiant Capital 已通过 RFP-25 号社区提案，约 50 万枚 ARB 将在 52 周内空投到以太坊上的新 dLP，并在 Arbitrum 上将 50 万枚 ARB 空投到 Arbitrum 上的所有现有 dLP。Radiant 此前还获得Arbitrum 社区280万枚 ARB 短期激励计划（STIP）补助金。
-此外，Radiant Capital还表示，已获准登陆以太坊。部署即将进行（72 小时内）。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密货币反欺诈公司Vaas完成约200万美元Pre-Seed轮融资，ABSeed领投]]></title>
-        <id>https://panewslab.com/zh/articledetails/gdfbqnd2.html</id>
-        <link href="https://panewslab.com/zh/articledetails/gdfbqnd2.html"/>
-        <updated>2023-10-31T00:12:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 10月31日消息，据Contxto报道，巴西加密货币反欺诈公司Vaas宣布完成1000万巴西雷亚尔（约合200万美元）的Pre-Seed轮融资，ABSeed领投，Fuse Capital和4UM旗下Honey Island参投。Vaas公司推出的解决方案支持追踪加密钱包内资产的全部历史记录，并识别出一些非常规、或是可疑的交易，新资金将用于开发新产品并将业务拓展到银行等传统金融领域。]]></summary>
-        <author>
-            <name>PA一线</name>
         </author>
     </entry>
     <entry>
