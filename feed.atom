@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-11-07T17:06:48.529Z</updated>
+    <updated>2023-11-07T18:09:24.279Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4534,103 +4534,6 @@ Ordinals 铭文的崛起，来源：Dune Analytics， 10 月 6 日
         <link href="https://panewslab.com/zh/articledetails/phof6jl6.html"/>
         <updated>2023-11-03T06:44:51.000Z</updated>
         <summary type="html"><![CDATA[PANews 11月3日消息，据Coingape报道，XRP 律师 John Deaton 提出了 FTX 创始人 SBF 的父亲参与导致 2022 年 11 月加密货币交易所崩溃的不当行为的问题。Deaton 律师表示，SBF 不是自己组建这些控股公司的。他爸爸要求更高的工资并不是无缘无故的。John Deaton 的诉讼文件披露了Joseph Bankman(SBF父亲)于 2022 年 1 月发给 SBF 的一封电子邮件，其中表示他对自己收到的 20 万美元年薪并不满意，而且这只是他认为应该得到的 20%。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PeckShield：Tellor的官推已被黑客攻击]]></title>
-        <id>https://panewslab.com/zh/articledetails/0mr2hqf6.html</id>
-        <link href="https://panewslab.com/zh/articledetails/0mr2hqf6.html"/>
-        <updated>2023-11-03T06:08:58.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月3日消息，PeckShieldAlert发推表示，去中心化预言机项目Tellor的官方推特账户已被黑客攻击，不断发送大量发布与空投 Tellor 代币 TRB 有关的领取链接，该链接实为钓鱼链接。·]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[从比特币应用编程理解CKB的可编程性]]></title>
-        <id>https://www.odaily.news/post/5190761</id>
-        <link href="https://www.odaily.news/post/5190761"/>
-        <updated>2023-11-03T06:04:11.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Ajian
-摘要
-理解一个系统的可编程性要求我们辨识这个系统在结构上的特征。对基于比特币脚本的应用编程的探索，有助于我们理解 CKB Cell 的基本结构及其编程范式。不仅如此，它还能将 CKB 的编程元件分解为恰当的部分，并帮助我们理解每一部分所带来的可编程性增益。
-一. 引言
-“可编程性（programmability）” 是人们在比较区块链系统时经常采取的一个维度。然而，关于可编程性的描述方法，却常见分歧。一种常见的表述是，“XX 区块链支持图灵完备的编程语言”，或者， “XX 区块链支持通用的编程”，意在表示这里的 “XX 区块链” 具备强大的可编程性。这些语句的暗示有一些道理：支持图灵完备编程的系统一般都比不支持的更容易编程。但是，智能合约系统的结构性特征有多个方面，这一语句只涉及其中一个方面，因此，不足以凭它获得足够深的理解：开发者从中得不到指引，普通用户也无法凭此分辨诈骗。
-智能合约系统在结构上的特征包括：
-
-状态表达（合约）的基本形式（账户 vs. 交易输出）
-
-是否允许编程任意计算（“图灵完备” 的说法关涉的就是这个方面）
-
-执行过程可创造新数据，还是只传出布尔值？（计算 vs. 验证）
-
-是否允许在合约内记录额外的状态
-
-一个合约在执行的时候是否可以访问另一个合约的状态
-
-所以，在 “可否编程任意计算” 之外，至少还有四个方面的特征会影响一个智能合约系统的可编程性。甚至可以说，这些其它方面的特征是更为重要的，因为它们更深层地决定了什么容易实现、什么难以实现；什么是较为经济的实现，而什么是较为低效的实现。
-举个例子，人们常常拿以太坊作为良好可编程性的例子，但是，以太坊的状态表达的基本形式是账户，它难以编程点对点的合约（例如，支付通道、一对一的打赌合约） —— 并非绝对不能实现，只是吃力不讨好。以太坊生态并非从未有过尝试实现 支付通道/状态通道 的…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[veDAO研究院：Unibot遭遇黑客入侵，Telegram用户该如何保障资产安全？]]></title>
-        <id>https://www.odaily.news/post/5190757</id>
-        <link href="https://www.odaily.news/post/5190757"/>
-        <updated>2023-11-03T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[著名的 Telegram 交易工具 Unibot 成为了不断扩大的一系列加密货币被攻击事件中的最新受害者。
-
-Unibot 承认在 10 月 31 日遭受了攻击，原因是在新路由器中出现了代币批准的漏洞。Unibot 官方发布公告称：“在新路由器中出现了代币批准的漏洞，Unibot 已暂停了新路由器以解决这个问题。由于新路由器的错误而造成的任何资金损失都将得到补偿；用户的密钥和钱包是安全的，将在调查结束后发布详细回应。”据悉该漏洞造成了超过 630, 000 美元的损失。本篇，veDAO 研究院将带来该事件的具体消息，以及如何保护自己在 Telegram 上的资产安全的建议。
-Unibot 被攻击的始末
-
-10 月 31 日，区块链分析公司 Scopescan 通知 Unibot 的用户，称该平台正在遭受一次正在进行但未被发现的攻击事件，Unibot 的一个最新部署的合约上的漏洞导致了多个用户的加密货币余额被清空。
-随后，Unibot 发布了文章开头提到的公告，透露了被黑客攻击的第一批细节，并确认了是由于新路由器中出现了代币批准的漏洞导致遭受攻击。
-Scopescan 敦促用户取消对被利用合约（0x126c9FbaB3A2FCA24eDfd17322E71a5e36E91865）的批准，并将资金转移到新钱包，以配合 Unibot 和区块链调查人员的持续调查。
-
-Unibot 承诺将赔偿所有因合同漏洞造成财务损失的用户。此次攻击从北京时间 31 日 12: 39: 23 开始，持续到了 31 日的 14: 09: 47 。在此期间，攻击者执行了 22 次攻击交易，总共有 42 种代币通过路由器从 364 个受害者地址转移到了攻击者手中，漏洞利用者随后出售了这些代币，获得总计 355.5 ETH。目前所有 355.5 ETH 已被转入 Tornado.Cash。根据每周交易统计数…]]></summary>
-        <author>
-            <name>veDAO研究院</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IOSG Ventures创始人：L2生态的增长困境与破局之道]]></title>
-        <id>https://www.odaily.news/post/5190760</id>
-        <link href="https://www.odaily.news/post/5190760"/>
-        <updated>2023-11-03T05:52:17.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Jocy， IOSG 创始人
-L2 summer or 困境？
-我最近听到几个从事撸毛工作室的朋友向我抱怨，过去许多工作室在 zkSync 和 Linea 上投入了巨量资源和交易流水，最后发现空空如也，反而帮助了几大 L2 贡献了几千万美金的手续费收入。因此，当这些工作室看到新的 L2 上线之后，他们开始不再那么积极去创造交易。
-我们原来期待的是一个繁荣的、不需要工作室的 L2 Summer，但现在我们发现，随着工作室渐渐淡出，几大 zkEVM 的交易量和 TVL 并没能达到迎来预期。当市场上的 speculator 都不再去参与 L2，不再为生态创造生机和活力时，增长乏力和生态萎缩的困境就出现了。
-投资人眼中的 L2 竞争
-从投资人角度来说，布局 L2 基础设施的投资逻辑，在于我们相信这些团队会在充沛的资本支持下展开不同维度的生态竞争，鼓励生态内应用的百花齐放。但是目前大部分 L2 军备竞赛没有把重心放到生态建设上，仍然把大量的资金用于高价招揽 ZK 和来自 PSE 的技术大牛（当然，从战略上来说，L2 在技术研发和人才争夺的投入无可厚非），但是我认为，没有应用的高并发兼容 Rollup 没什么价值，只会是空中楼阁。
-L2 生态的增长困境
-等待生态的自然增长会是一个漫长的过程。如果这场军备竞赛不能帮助以太坊迎来应用生态的井喷式增长，仍然在 share sequencers/Bytecode 底层设计/等底层技术上过度投入、重复投入的话，那我们不可能看到繁荣生态的出现。
-而目前 L2 在生态应用的竞争上是非常激烈的，如果某个应用与一条 L2 链进行了利益绑定，那么想要获得其他 L2 的支持就会变得异常困难，该应用在现阶段也不敢轻易迁移到其他 L2 链上，因为一旦迁移将意味着他们会更难拿得到原绑定 L2 的 Grant。
-因此选择合适的合作伙伴成为了应用需要面对的难…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3公司Treehouse收购Origins以扩展NFT数据产品]]></title>
-        <id>https://panewslab.com/zh/articledetails/uf7s8fdt.html</id>
-        <link href="https://panewslab.com/zh/articledetails/uf7s8fdt.html"/>
-        <updated>2023-11-03T05:26:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月3日消息，总部位于新加坡的 Web3 数据公司 Treehouse 收购了 NFT 分析平台 Origins，以扩大其 NFT 产品范围。作为收购的一部分，去年筹集了 400 万美元的 Origins 创始团队将加入 Treehouse，提供包括算法标记的 NFT 钱包通知系统、NFT 分析机器人和 NFT 钱包分析 API 在内的服务。Treehouse没有透露收购交易的规模。
-去年，Web3初创公司Treehouse曾完成1800万美元种子轮融资，Binance等参投。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[币安将于今晚22:30上线TWT U本位永续合约]]></title>
-        <id>https://panewslab.com/zh/articledetails/x0gmx3xl.html</id>
-        <link href="https://panewslab.com/zh/articledetails/x0gmx3xl.html"/>
-        <updated>2023-11-03T05:12:47.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月3日消息，币安合约交易平台将于2023年11月3日22:30（北京时间）上线USDⓈ-M TWT永续合约，杠杆高达50倍。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
