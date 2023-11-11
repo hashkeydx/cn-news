@@ -2,10 +2,103 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-11-11T15:06:46.215Z</updated>
+    <updated>2023-11-11T16:08:18.294Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[M6 Labs：BTC和ETH暴涨，市场风险偏好加大]]></title>
+        <id>https://www.odaily.news/post/5190950</id>
+        <link href="https://www.odaily.news/post/5190950"/>
+        <updated>2023-11-11T15:16:09.000Z</updated>
+        <summary type="html"><![CDATA[欢迎来到本周的加密市场观察！在这里，我们深入挖掘加密领域，为您提供详尽的重要事件和新兴趋势的分析。BTC 和 ETH 正在经历显著的涨势，同时 Polygon 在游戏领域迅速崛起。链上活动逐渐增多，精明的投资者正在战略性地调整自己的位置，表明风险偏好重新升温。接下来是高潮部分：ETF 的即将确认，今年能实现吗？似乎只剩下最后一块拼图需要放置了。
+
+这只是一个预览，请确保查看完整版本的报告。
+获取我们的加密原生行业洞察和研究报告，请在此订阅。
+本周 Alpha 焦点
+
+如果你正在阅读这篇文章，请注意你的早期位置。
+本周话题：市场暴涨和游戏及 NFT 领域的最新动态
+市场总览
+首先，BlackRock 在特拉华州注册了 iShares 以太坊信托，这一举措引起了机构级别对以太坊的关注。以太坊价格暴涨，首次突破自七月以来的 2000 美元关口。这一发展表明，机构对以太坊的兴趣不断增长，并看好它作为一种有价值的资产类别的潜力。另外，彭博分析师表示，从 11 月 9 日开始的 8 天时间窗口内，有可能批准多个现货比特币 ETF。
+然而，需要注意的是，美国证券交易委员会（SEC）尚未明确批准，并且开启此窗口并不保证 ETF 的批准。投资者们对此抱有希望，因为 SEC 要求就申请进行评论，并要求申请人对担忧进行改进，包括市场操纵防范措施和监测共享协议等。结果仍然不确定，但在这一时间范围内批准多个 ETF 的可能性值得注意。
+与此同时，MicroStrategy 从其比特币持有中获得了可观的利润，其比特币价格升至每枚超过 3.7 万美元的年度高点。截至 9 月 30 日，MicroStrategy 已以 468 亿美元购买了 15.84 万枚比特币，他们的投资显示出令人瞩目的未实现收益达到 12 亿美元。比特币本身经历了显著的价格波动，达到了年度高点，并推动了其市值超越特斯拉。
+比特币市值…]]></summary>
+        <author>
+            <name>M6 Labs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MetaTrust：Raft遭攻击损失360万，黑客骚操作几乎全部送进黑洞]]></title>
+        <id>https://www.odaily.news/post/5190953</id>
+        <link href="https://www.odaily.news/post/5190953"/>
+        <updated>2023-11-11T14:07:40.000Z</updated>
+        <summary type="html"><![CDATA[摘要
+2023 年 11 月 11 日上午 02: 59: 23 ，UTC+ 8: 00 ，MetaScout 探测到在 Ethereum 上的稳定币协议 Raft 遭受了一次闪电贷攻击。结果导致 6.7 百万枚稳定币$R 被铸造，协议损失了 360 万美元。根本原因是在铸造份额代币时发生的精度计算问题，黑客利用这一问题获取额外的份额代币。
+MetaTrust Labs 对这次攻击进行了深入的研究和分析，揭示了黑客如何利用漏洞发起攻击。
+稳定币协议 Raft
+Raft是一个 DeFi 协议，通过存入流动性质押代币（LSDs）作为抵押，提供了一种资本高效的借贷方式，同时保留了质押奖励。
+
+截至撰写本文时，其总锁定价值（TVL）在今天的攻击后下降了 46% ，为 700 万美元。$R 的价格下降了 99.6% ，为 0.0036 美元。
+
+交易
+https://etherscan.io/tx/0xfeedbf51b4e2338e38171f6e19501327294ab1907ab44cfd2d7e7336c975ace7
+攻击者
+0xc1f2b71a502b551a65eee9c96318afdd5fd439fa
+攻击合约
+0x0a3340129816a86b62b7eafd61427f743c315ef8
+受攻击的合约
+InterestRatePositionManager: 0x9ab6b21cdf116f611110b048987e58894786c244
+攻击步骤
+1. 通过闪电贷从 AAVE 借入 6000 枚$cbETH；
+2. 将总计 6001 枚$cbETH 转移到 InterestRatePositionManager 合约；
+3. 清算 InterestRatePositionManager 合约上预先创建的仓位0x011992114806e2c3770df73fa0d19884215db85f；
+
+4. 将 raft 抵押代币的索引设置为 6, 003, 441, 032, 036, 096, 684, 181 ，即 InterestRatePositionManager 合约的$cbETH 余额，并由于步骤 2 的捐款而放大了上 1000 倍；
+
+5. 通过使用 divUp 函数计算份额时，通过仅 1 wei 的$cbETH 就铸造 1 wei 份额。注意，当分子非零时，无论分母有多大，divUp 函数的最小返回值都为 1:
+
+6. 重复第 5 步 60 次，以获得 60 wei 份额，即 10, 050 $cbETH；
+
+7. 通过只有 90 wei $rcbETH-c 兑换 6003 $cbETH；
+
+8. 借入 6.7 百万$R，即利润，并最终在不同的 Dapps 中交换为价值 360 万美元的 1575 枚$ETH，其中包括：
+
+在 Balancer 上将 210 万$R 兑换为 200 万$sDAI
+
+在 Balancer 上将 120 万$R 兑换为 115 万$DAI
+
+在 Uniswap 上将 20 万$R 兑换为 8.6 万$USDC
+
+
+9. 令人大跌眼镜的是，黑客将 1570 枚$ETH 烧给了黑洞地址，这意味着黑客一分利润都没拿到。
+
+根本原因
+根本原因是在铸造份额代币时发生的精度计算问题，黑客利用这一问题获取额外的份额代币。由于$cbETH 的捐款放大了 index，导致黑客的份额价值更高，因此黑客仅仅用了一点$rcbETH-c 就兑换了 6003 枚$cbETH 并借入大量$R。
+关键代码
+
+资产损失
+360 万美元。
+资金流向
+1570 $ETH 由于黑客的误操作而被烧掉。
+
+截至目前撰写本文时，攻击者的钱包中有 140 万$R 代币（价值 4.6 千美元）。
+
+安全建议
+
+考虑在利率计算的情况下检查潜在的四舍五入问题，如在边缘情况下是否可以被恶意用户操纵，正如 Raft 攻击案例情形。
+
+
+建议在发生紧急情况时采取监控系统并暂停协议的措施。或者，整合一个内存池阻塞系统将是有益的。这个系统可以在攻击者执行攻击时有效地检测内存池中的攻击交易，以进行预防性阻塞，避免损失。
+
+关于 MetaTrust Labs
+MetaTrust Labs 是新加坡南洋理工大学孵化的领先Web3人工智能安全工具和代码审计服务提供商。我们提供先进的 AI 解决方案，赋予开发者和项目相关者保护Web3应用程序和智能合约的能力。我们的综合服务包括 AI 安全扫描、代码审计、智能合约监控和交易监控。通过整合 AI，我们确保构建一个安全的生态系统，增强用户和开发者之间的信任。
+Website: https://metatrust.io/
+Twitter: https://twitter.com/MetatrustLabs]]></summary>
+        <author>
+            <name>MetaTrust Labs</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[6000万枚USDT从Bitfinex转到Kraken]]></title>
         <id>https://panewslab.com/zh/articledetails/s5sypt4n.html</id>
@@ -5547,140 +5640,6 @@ plsAssets（LSD）：
         <link href="https://panewslab.com/zh/articledetails/43fwmgtc.html"/>
         <updated>2023-11-07T04:29:57.000Z</updated>
         <summary type="html"><![CDATA[PANews 11月7日消息，据Coinbase主管Conor在社交媒体披露，此前发现的一个持有25万枚ETH且过去9年内未有任何交易的钱包地址所有者是LHV银行创始人Rain Lohmus，据悉他曾在2014年时以7.5万美元价格通过IC0购入了这些ETH，目前这些ETH的价值已达到约4.5亿美元，但由于丢失密钥导致无法访问钱包，Rain Lohmus已表示如果有人能够恢复该钱包，愿意平分这些ETH。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩国SK Telecom与A​​ptos、Atomrigs Lab合作开发加密钱包]]></title>
-        <id>https://panewslab.com/zh/articledetails/dhmitg97.html</id>
-        <link href="https://panewslab.com/zh/articledetails/dhmitg97.html"/>
-        <updated>2023-11-07T04:04:46.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月7日消息，据The Block报道，韩国最大的移动运营商SK Telecom正在与Aptos和Atomrigs Lab合作开发名为T wallet的Web3钱包服务。SK Telecom今天在LinkedIn帖子中表示，三方合作伙伴关系旨在加强其与客户首选的主网和去中心化应用程序的联系，重点是T wallet。
-SK Telecom指出，与Aptos的合作将是其首次非以太坊虚拟机区块链集成。该公司补充道：“我们还将通过连接到Aptos内dApp生态系统，为用户提供有形的价值。通过利用Aptos提供的创新MoveVM区块链技术，这一整合代表了Web3服务向更广泛的受众开放的重大进步。”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SSV Network已通过“主网激励计划”提案和“为DAO建立SSV基金会”提案]]></title>
-        <id>https://panewslab.com/zh/articledetails/jenp3s3g.html</id>
-        <link href="https://panewslab.com/zh/articledetails/jenp3s3g.html"/>
-        <updated>2023-11-07T03:57:36.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月7日消息，以太坊质押基础设施SSV Network宣布2项关键提案通过了快照投票。主网激励计划将通过奖励让DVT得到更广泛的采用，而基金会公司将有助于简化线下和线上的运营。
-“主网激励计划”提案旨在为正在运行的SSV主网创建一个激励层，通过奖励来年在SSV网络上运行的参与者来刺激DVT采用和SSV网络的增长。该计划持续时间将从232538 epoch开始运行1到12个月的轮次，直到314887 epoch。主网上的每个验证者都将根据分级奖励系统获得SSV代币奖励，奖励的SSV代币将由DAO铸造。
-另一项“ssv.network DAO基金会合并”提案概述了为ssv.network DAO建立开曼基金会（简称：SSV基金会）的步骤和动机，包括基金会文件、人员以及成立时间表。自该提案通过之日起三个月内，基金会工作组（FWG）将有权指示SSV基金会采取必要步骤来完成注册流程并开始SSV基金会平稳高效的运营。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bitget Launchpad项目T2T2投入总量超1亿枚BGB，今日晚8点上线交易]]></title>
-        <id>https://panewslab.com/zh/articledetails/5agrube2.html</id>
-        <link href="https://panewslab.com/zh/articledetails/5agrube2.html"/>
-        <updated>2023-11-07T03:52:58.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月7日消息，Bitget 新一期 Launchpad 项目T2T2投入总量已超1亿枚BGB，投入人数超8000人。投入通道将于今日18:00关停，20:00上线T2T2/USDT交易对。 据悉，昨日T2T2开放投入后，30分钟之内投入总量超1100万枚BGB。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[马斯克旗下AI公司xAI推出PromptIDE工具]]></title>
-        <id>https://panewslab.com/zh/articledetails/0y02kk1z.html</id>
-        <link href="https://panewslab.com/zh/articledetails/0y02kk1z.html"/>
-        <updated>2023-11-07T03:46:58.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月7日消息，马斯克旗下AI公司xAI今发文宣布推出xAI PromptIDE ，PromptIDE是一个用于提示工程和可解释性研究的集成开发环境。它通过SDK加速提示工程，该SDK允许实现复杂的提示技术和丰富的分析功能，从而实现网络输出可视化。
-xAI表示，PromptIDE可以向社区的工程师和研究人员透明地提供Grok-1（为Grok提供支持的模型）的透明访问权限。该IDE旨在赋予用户权力，帮助他们快速探索大型语言模型的魅力。xAI还表示现在正在为Grok早期访问计划的成员提供PromptIDE。
-此前11月5日消息，马斯克宣布，xAI的AI模型Grok系统已发布。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解析做市商在贝莱德比特币ETF充当的关键角色]]></title>
-        <id>https://www.odaily.news/post/5190823</id>
-        <link href="https://www.odaily.news/post/5190823"/>
-        <updated>2023-11-07T03:43:44.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Matthew Lee
-近期有消息透露，贝莱德正寻求 Jane Street，Jump Trading 等顶尖做市商商议潜在合作的可能，希望未来可以在比特币现货 ETF 通过后帮助贝莱德做市。而做市商与贝莱德的潜在合作的可能性也再次激起了民众对市场回暖的信心。尤其是去年 FTX 破产到今年加密银行 Signiture 和 Sivergate 倒闭后，市场的流动性就不断枯竭。
-而今年 6 月监管启动对加密货币调查以来，市场变得越来越脆弱。更多人开始指向是因为监管的不确定性，导致 Jump Trading，Jane Street 等做市商开始逐渐退出加密货币市场，导致的流动性枯竭。行业巨头 Coinbase 也在最新财报透露做市商的退出导致大批交易量的流失。
-
-Source：Coinbase Q3 Earnings
-根据 KaiKo 的数据， 7 月初到 8 月中旬， 1% 的市场深度降低约 15 %，做市商对市场的重要性不言而喻。
-* 1% 的市场深度指的是当交易量达到某个数量可以提升资产价格 1% ，如下图 7 月初需要 $ 400 M 才可以提升 1% 的价格，但是在 8 月中旬只需要 $ 320 M 即可。
-
-Source: Kaiko Research
-在市场深度逐渐减弱的情况下，出现任何风吹草动，都会导致资产价格大幅波动，比如 8 月份，恒大宣布破产保护，特斯拉在过去一个季度清算一定量比特币等轻微负面消息都使 BTC 价格跌幅超过 16.7 %。10 月份，比特币现货 ETF 通过的假新闻可以使得整个市场瞬间上涨近 17 %，这些看似无理性的暴涨或者暴跌主要原因是做市商流动性的撤出。
-因此不止是贝莱德，每一个 ETF 管理公司都会积极雇佣做市商，帮助减轻 ETF 大宗交易或短时间内集中交易订单对 ETF 价格的冲击。尤其是某个不太活跃的 ETF 在某一天没…]]></summary>
-        <author>
-            <name>欧科云链OKLink</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[构架BTC复杂生态的根基，RGB协议被低估了吗？]]></title>
-        <id>https://www.odaily.news/post/5190839</id>
-        <link href="https://www.odaily.news/post/5190839"/>
-        <updated>2023-11-07T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《RGB 协议，等待腾飞》
-原文作者：DaPangDun（X：@DaPangDunCrypto）
-1、唠叨的前言
-最近 BTC 生态如火如荼的爆发中，虽然各个方向的协议大多处于早期，infra 还很不完善，但是依然抵挡不住大家追逐这些创新的热情。
-从长远的角度来看，当前大部分项目、token 或者 NFT 最后会走向消亡，但是不影响在建设初期具有较好的财富效应。
-我对于 BTC 生态一直有关注，其原因主要是基于以下判断：
-
-BTC 的价格不可能永远上涨，那么随着减半，矿工的收益就得不到足够的保证，虽然存在动态平衡，但是基于“算力是保证安全的基础”的认知，必须要有新叙事来解决这个问题。
-
-一个解决方法就是构建 BTC 的生态，创造更多的交易，为矿工提供足够的打包交易费用；另外一种是增发（虽然很多人说这绝不可能，但是我不认为这是完全不可能的）。相对而言，第二种很可能会破坏 BTC 的共识，所以第一种肯定是更优的解法，而第一种会带来一种新的叙事。
-
-但由于 BTC 底层架构的问题，各项开发的进度都比较慢，在变化迅速、信息繁杂的 crypto 中，很容易就会错过焦点，这也让我错过了 BTC 生态发展比较快速的赛道中早期的机会。
-BTC 链上 NFT 我个人认为会受到区块空间大小的限制，铭文系我个人更倾向于认知为“饰品”的概念（当然，我的认知有可能不正确）。二者对于 BTC 生态的爆发虽然起着非常重要的作用（容易理解，易于 fomo），但是依然不是我心目中能够构架复杂生态的根基。
-我的目光更多的关注在我认为可以改变 BTC 整个生态的创新上，所以今天就说一下我比较看好的一个协议：
-2、聊聊 RGB 协议
-2.1 RGB 协议是啥
-通俗来说，你可以理解这个协议就是为了给比特币网络创建智能合约使用的。ETH 腾飞的一个重要原因就是引入了智能合约，随后就逐步构建了庞大的、多样的生…]]></summary>
-        <author>
-            <name>星球君的朋友们</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[某巨鲸从币安提取20万枚UNFI，约合229万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/w36iwi2o.html</id>
-        <link href="https://panewslab.com/zh/articledetails/w36iwi2o.html"/>
-        <updated>2023-11-07T03:26:59.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月7日消息，据Spot On Chain监测，约20分钟前，0x931开头巨鲸地址刚刚从币安中提取了20万 枚UNFI（约合229万美元）。UNFI价格在过去24小时内上涨了18.2%。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ParaFi Capital向Coinbase转入4000枚MKR，约合530万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/uvbbhe1f.html</id>
-        <link href="https://panewslab.com/zh/articledetails/uvbbhe1f.html"/>
-        <updated>2023-11-07T03:25:11.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月7日消息，据Scopescan监测，ParaFi Capital于1小时前向Coinbase存入4000枚MKR（约合530万美元）。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SushiSwap CEO发起“部署SUSHI新代币经济学”提案]]></title>
-        <id>https://panewslab.com/zh/articledetails/ek6rb64v.html</id>
-        <link href="https://panewslab.com/zh/articledetails/ek6rb64v.html"/>
-        <updated>2023-11-07T03:14:38.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月7日消息，SushiSwap新任CEO Jared Grey发起“为SUSHI部署新代币经济学”的社区提案，目前正在进行民意调查。
-新代币模型建立在协议可持续性、代币效用增强和资金多样化之上，包括：流动性补贴（提高流动性补贴的效率，从而降低SUSHI的年度排放成本）、 余额价值（使SUSHI的收入与排放量可持续进行）、金融稳定（解决当前影响经济生存能力的排放与收入比率，以增强稳定性）、LP激励措施（对流动性提供者的激励措施需要重新调整以保持竞争力）、质押机制（正考虑修改xSushi质押）、xSushi分配（使xSushi质押在参与者之间提供更公平的价值分配）。
-此前10月31日消息，SushiSwap社区发起“治理改革”提案，提议让将DAO重新掌握治理权，以获得更大的市场份额、交易量和新的代币化设计。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LayerZero联创：“layerzero.foundation”域名虽归团队所有，但未由团队添加SSL证书]]></title>
-        <id>https://panewslab.com/zh/articledetails/qjcl7xo8.html</id>
-        <link href="https://panewslab.com/zh/articledetails/qjcl7xo8.html"/>
-        <updated>2023-11-07T03:09:25.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月7日消息，LayerZero联合创始人兼首席执行官Bryan Pellegrino在官方Telegram频道内就“layerzero.foundation”域名近期添加了SSL证书一事进行了社区沟通， Pellegrino表示，SSL不是LayerZero团队添加的。不过Pellegrino也承认了“layerzero.foundation”域名的确归LayerZero团队所有。他表示：“这确实是我们的域名，我特地询问了安全负责人，他说我们并没有添加SSL证书，他正在检查这究竟是如何发生的。”
-社区用户表示：“据我所知，如果没有域名所有权，应该不可能为指定域名添加SSL证书。”Pellegrino回答称：“我们也是这么想的，所以我们的安全负责人今天一整天都在追查这件事。”部分社区成员询问是否有黑客侵入了网站，Pellegrino回到称：“不太像，我们会看看。”Bryan（Primo）补充表示，团队正在追查域名托管服务情况，结果将很快知晓。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
