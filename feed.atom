@@ -2,10 +2,115 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-11-14T11:06:25.793Z</updated>
+    <updated>2023-11-14T12:13:44.475Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[LUCIDA：如何利用多因子策略构建强大的加密资产投资组合？]]></title>
+        <id>https://www.odaily.news/post/5191018</id>
+        <link href="https://www.odaily.news/post/5191018"/>
+        <updated>2023-11-14T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前言
+在去年 6 月份，我设想了用多因子模型去择币的简单构思。
+相关阅读：《LUCIDA：用多因子模型去选赛道、选币种》
+一年后，我们已经着手研发针对加密资产市场的多因子策略，并把整体的策略框架写成系列的文章《用多因子策略构建强大的加密资产投资组合》。
+本系列的大体框架如下（不排除微调的可能）：
+一、多因子模型理论基础
+二、单因子构建
+因子数据预处理
+
+数据筛选
+
+异常值处理：极值、错误值、空值
+
+标准化
+
+中性化：行业、市场、市值
+
+因子有效性判断
+
+信息比率 IC、收益率、夏普比率、换手率
+
+三、大类因子合成
+因子共线性分析
+正交消除因子共线性
+经典加权方法→合成因子
+
+等权、滚动 IC 加权、IC_IR 加权
+
+合成因子的测试：收益率、分组收益率、因子值加权收益率、合成因子 IC、分组换手率
+
+其他加权方法（因子与收益率存在非线性关系）：机器学习、强化学习（由于加密货币行业的特殊性，不考虑）
+四、风险组合优化
+以下是第一篇**#理论基础篇#**的正文内容。
+一、“因子“是什么
+“因子”即技术分析中的“指标”、人工智能机器学习的“特征”，是决定加密货币收益率涨跌的原因。
+我们团队把加密货币领域常见的因子类型：基本面因子、链上因子、量价因子、衍生品因子、另类因子和宏观因子。
+挖掘和计算“因子”的最终目的是为了准确计算资产的预期收益率。
+二、“因子”的计算
+（1）多因子模型的推导
+起源：单因子模型——CAPM
+因子研究可追溯于 20 C 60 S，资本资产定价模型（Capital Asset Pricing Model, CAPM）问世，该模型量化了风险如何影响一个公司的资本成本从而影响预期收益率。根据 CAPM 理论，单个资产的预期超额收益可由以下的一元线性模型决定：
+
+补充理解：
+
+CAPM 模型是最简单的线性因子模型，指出资产的超额收益只由市场**组合（市场因子）**的预期超额收益和资产对市场风险的暴露大小决定。该模型为后续大量线性多因子定价模型的研究奠定基理论础。
+发展：多因子模型——APT
+在 CAPM 基础，人们发现不同资产的收益率受多个因子影响，套利定价理论（Arbitrage Pricing Theory, APT）问世，构建线性多因子模型：
+
+成熟：多因子模型—.Alpha 收益 & Beta 收益
+综合考虑金融市场实际存在的定价误差和 APT 模型，从时序角度上看，单个资产的预期收益率由以下的多元线性模型决定：
+
+多因子模型关注资产预期收益率在截面上的差异，本质是关于均值的模型，而预期收益率是收益率在时间序列上的平均。基于( 3) ，可推导出截面角度的多元线性模型：
+
+补充理解：
+
+
+结合统计学知识，该模型隐含三层假设：
+
+
+
+（2）多因子模型的波动率
+
+
+formula 7 
+
+
+
+formula 8 
+
+∧ 表示 K 个因子的因子收益率协方差矩阵(K×K)：
+
+formula 9 
+
+由假设 3 ，不同资产间的特质收益率也不相关，可得Δ 矩阵为：
+
+formula 10 
+
+关于 LUCIDA & FALCON
+Lucida 是行业领先的量化对冲基金，在 2018 年 4 月进入 Crypto 市场，主要交易 CTA / 统计套利 / 期权波动率套利等策略，现管理规模 3000 万美元。
+Falcon 是新一代的Web3投资基础设施，它基于多因子模型，帮助用户“选”、“买”、“管”、“卖”加密资产。Falcon 在 2022 年 6 月由 Lucida 所孵化。
+更多内容可访问：https://linktr.ee/lucida_and_falcon]]></summary>
+        <author>
+            <name>LUCIDA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget 研究院：大盘回调静待CPI数据，BGB逆势大涨破历史新高]]></title>
+        <id>https://www.odaily.news/post/5191017</id>
+        <link href="https://www.odaily.news/post/5191017"/>
+        <updated>2023-11-14T10:34:49.000Z</updated>
+        <summary type="html"><![CDATA[1.热门币种
+XRP（Token）：据彭博社报道，今日一份出现在特拉华州官方网站上的、声称由资产管理巨头贝莱德提交的「iShares XRP Trust」注册文件引起市场关注，XRP 在消息传播后短时上涨近 13% 。但贝莱德的发言人明确表示，该文件为虚假信息，与贝莱德无关。根据 bitget 行情数据，目前报价 0.66 ，已经基本回吐所有涨幅。
+TIA（Token）：Celestia 可以说是第一个模块化区块链网络，也就是可插拔的共识和数据可用性层，让任何人都可以快速部署去中心化的区块链，而无需额外的共识层的成本。由于新资金介入，TIA 代币迅速上涨。今日 Celestia 的实时价格为$ 5.322637 （TIA/USD），当前市值为$ 750.72 M USD。24 小时的成交量为$ 861.18 M USD。
+BGB（Token）：昨日“Foresight Ventures 以 7000 万美元估值收购 The Block 多数股权”的新闻传出，再加上近期 Bitget 市场份额大增，使得 Bitget 平台币 BGB 应声大涨，突破前高。
+GROK（Token）：以马斯克的 xAI 大模型为意象创造的 meme coin，链上交易热度非常高，代币 TGE 后暴涨 10 天，上线多个 CEXs，链上持币人数超过 12 k。昨日知名链上侦探 ZachXBT 表示，GROK 系由诈骗者所创建，因为该项目的官方 X 账户曾被重复用于至少一起骗局，GROK 币价大跌，GROK 官方迅速开 AMA 并作出了回应。目前社媒上存在争议，推动其 24 h 全网交易量达到 1.5 亿美金（链上交易量超 7000 万美金）。
+LINK（Token）：Chainlink Staking v 0.2 将分阶段启动，普通访问将于 12 月 12 日开放。目前灰度 LINK 信托正溢价为 …]]></summary>
+        <author>
+            <name>Bitget研究院</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LayerZero Labs推出链上归因解决方案ColorTrace]]></title>
         <id>https://panewslab.com/zh/articledetails/45jc98dq.html</id>
@@ -102,6 +207,29 @@ Coingecko数据显示，MOON代币价格现报0.1302美元，24小时涨幅达15
 Coinbase表示，ETF的叙事在适当的时候让人们更加关注比特币，在地缘政治紧张局势加剧和经济失调加剧的背景下，世界上的避险替代品越来越少；美国国债市场已经受到震动，美国银行业仍然非常脆弱，这使得比特币作为“传统金融体系的替代品”在进入2024年时更具吸引力。]]></summary>
         <author>
             <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinfund合伙人参会小作文：Solana正处于牛熊的哪个阶段？]]></title>
+        <id>https://www.odaily.news/post/5191008</id>
+        <link href="https://www.odaily.news/post/5191008"/>
+        <updated>2023-11-14T09:05:30.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：Coinfund 合伙人 Austin Barack
+编译：Odaily 星球日报 Azuma
+
+编者按： 10 月 30 日至 11 月 3 日，Solana 于阿姆斯特丹举办了一年一度的生态大会 Breakpoint。会议同期，SOL 正在经历着牛市后最强劲的一轮反弹，最高时一度突破了 60 美元。
+Solana 早期投资机构 Coinfund 的合伙人 Austin Barack 全程参与了本次 Breakpoint。11 月 14 日，Austin 在 Coinfund 的官方博客上分享了自己在本届大会上的见闻，并结合自己此前 2021 年于里斯本参加 Breakpoint 的经历，试图判断出当下 Solana 正处于牛熊周期中的哪个节点。
+以下为 Austin 原文内容，由 Odaily 星球日报编译。
+
+
+我们今天正处于市场周期的哪一个阶段？是牛市、熊市，还是介于两者之间？
+参加会议是了解真实市场情况的最佳举措之一。通过参加会议，我们可以第一时间了解到某个生态系统中有多少开发者正在努力耕耘，他们到底在开发些什么，面临着哪些挑战，哪些问题需要被优先解决，技术堆栈内中有着哪些空缺需要填补，哪些客户的需求尚未得到满足，开发者的使命感究竟有多强……所有的这些我们都可以一目了然。而这么多年来，参加 Breakpoint 的经历已让我对 Solana 的发展状况有了梗深刻的理解。
+这是我第二次参加 Breakpoint。2021 年时我去了里斯本， 2022 年也计划参会，但最后却因肩部韧带撕裂而被迫取消了行程，只能在线上密切关注回忆动态。
+牛市下的 2021 Breakpoint
+2021 年的 Breakpoint 是一场典型的牛市大会，当时 SOL 的价格一度飙升至 250 美元，而在一年之前的，它的价格还仅仅只有 1 美元。
+2021 年 11 月，Sol…]]></summary>
+        <author>
+            <name>Azuma</name>
         </author>
     </entry>
     <entry>
@@ -4782,47 +4910,6 @@ Storj团队地址在最近2个月里累计转出了2085万枚STORJ(约合1626万
         <updated>2023-11-10T00:18:57.000Z</updated>
         <summary type="html"><![CDATA[PANews 11月10日消息，据彭博社报道，在香港推动数字资产中心建设的过程中，瑞银集团与汇丰控股等竞争对手一起，允许香港客户交易一些与加密货币挂钩的交易所交易基金。知情人士表示，从周五起，富裕客户将可以在瑞银香港平台上购买由香港证监会授权的三只加密货币ETF，包括三星比特币期货活跃基金（Samsung Bitcoin Futures Active）、南方东英比特币期货（CSOP Bitcoin Futures）和南方东英以太坊期货（CSOP Ether Futures）ETF，客户还可以访问教育材料来了解风险。
 南方东英比特币期货和南方东英以太坊期货在去年12月推出时，被誉为亚洲首只上市的比特币和以太坊期货ETF。这两只基金和三星的投资工具的资产总额相对较小，约为7000万美元。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国将对哈马斯实施更多制裁，阻止其通过加密资产等方式的筹资行为]]></title>
-        <id>https://panewslab.com/zh/articledetails/mcy4hh0a.html</id>
-        <link href="https://panewslab.com/zh/articledetails/mcy4hh0a.html"/>
-        <updated>2023-11-10T00:08:33.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月10日消息，据路透社报道，美国财政部副部长Wally Adeyemo周四表示，在哈马斯上个月袭击以色列之后，美国及其盟国将在未来几天和几周内实施更多制裁，以阻止哈马斯获得资金，包括打击其使用加密资产的行为。Adeyemo表示，虽然加密货币并不是哈马斯目前大部分资产的来源，但“随着时间的推移，如果加密货币行业不采取保障措施，并认真对待反洗钱责任，哈马斯和其他人将越来越多地使用加密货币。”
-另外，美国财政部最高制裁官员Brian Nelson周四会见了包括加密货币公司和支付处理商在内的私营部门，讨论对抗哈马斯的筹款技巧。美国财政部在一份声明中表示，负责恐怖主义和金融情报的财政部副部长Nelson听取了货币服务企业、支付处理商和区块链分析公司的意见，了解该激进组织筹集和转移资金所使用的技术。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：芝商所成为比特币期货未平仓合约最大交易所]]></title>
-        <id>https://panewslab.com/zh/articledetails/7b3rwyu4.html</id>
-        <link href="https://panewslab.com/zh/articledetails/7b3rwyu4.html"/>
-        <updated>2023-11-10T00:00:04.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月10日消息，Coinglass数据显示，芝加哥商品交易所（CME）的比特币期货未平仓合约已增至111,080 BTC（价值40.8亿美元），超过币安的104,100 BTC（价值38.3亿美元），成为比特币期货未平仓合约规模最大的交易所。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[福克斯记者：贝莱德有信心SEC将在1月份批准其现货比特币ETF]]></title>
-        <id>https://panewslab.com/zh/articledetails/uak7f62j.html</id>
-        <link href="https://panewslab.com/zh/articledetails/uak7f62j.html"/>
-        <updated>2023-11-09T23:47:35.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月10日消息，福克斯商业网记者Charles Gasparino推特发文称，消息人士表示，贝莱德称越来越有信心美国SEC将在1月份批准其现货比特币ETF。据此前消息，SEC将开启一个八天的窗口期，可能会批准所有12只比特币现货ETF。从理论上讲，从现在到2024年1月10日，SEC可以随时对其中9只ETF做出决定。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国CFTC制定新草案，要求衍生品交易所隔离客户资金和公司自有资金]]></title>
-        <id>https://panewslab.com/zh/articledetails/oolwwpxt.html</id>
-        <link href="https://panewslab.com/zh/articledetails/oolwwpxt.html"/>
-        <updated>2023-11-09T23:32:19.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月10日消息，据彭博社报道，美国商品期货交易委员会（CFTC）正在制定一项草案，以确保更多衍生品交易所将客户资金与公司现金隔离。该草案将扩大CFTC现有监管范围，将适用于允许客户无需通过经纪公司进行交易的交易所。CFTC民主党成员Kristin Johnson表示，要求客户资产隔离的规则应适用于任何直接面向客户模式的公司，无论他们提供的是加密产品还是其他类型的衍生品。鉴于FTX倒闭等事件，CFTC应立即采取行动，制定规则，防止客户资金被滥用或损失。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
