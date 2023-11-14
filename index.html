@@ -51,549 +51,11 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-11-14 datetime="2023-11-14T11:00:00.000Z">2023-11-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-11-14 datetime="2023-11-14T11:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-11-14 datetime="2023-11-14T12:35:08.000Z">2023-11-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-11-14 datetime="2023-11-14T12:35:08.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >最新 - Odaily星球日报</button>
-                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191018"
-                        open
-                      >
-                        <summary class="article-expander__title">LUCIDA：如何利用多因子策略构建强大的加密资产投资组合？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191018">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>前言
-在去年 6 月份，我设想了用多因子模型去择币的简单构思。
-相关阅读：《LUCIDA：用多因子模型去选赛道、选币种》
-一年后，我们已经着手研发针对加密资产市场的多因子策略，并把整体的策略框架写成系列的文章《用多因子策略构建强大的加密资产投资组合》。
-本系列的大体框架如下（不排除微调的可能）：
-一、多因子模型理论基础
-二、单因子构建
-因子数据预处理
-
-数据筛选
-
-异常值处理：极值、错误值、空值
-
-标准化
-
-中性化：行业、市场、市值
-
-因子有效性判断
-
-信息比率 IC、收益率、夏普比率、换手率
-
-三、大类因子合成
-因子共线性分析
-正交消除因子共线性
-经典加权方法→合成因子
-
-等权、滚动 IC 加权、IC_IR 加权
-
-合成因子的测试：收益率、分组收益率、因子值加权收益率、合成因子 IC、分组换手率
-
-其他加权方法（因子与收益率存在非线性关系）：机器学习、强化学习（由于加密货币行业的特殊性，不考虑）
-四、风险组合优化
-以下是第一篇**#理论基础篇#**的正文内容。
-一、“因子“是什么
-“因子”即技术分析中的“指标”、人工智能机器学习的“特征”，是决定加密货币收益率涨跌的原因。
-我们团队把加密货币领域常见的因子类型：基本面因子、链上因子、量价因子、衍生品因子、另类因子和宏观因子。
-挖掘和计算“因子”的最终目的是为了准确计算资产的预期收益率。
-二、“因子”的计算
-（1）多因子模型的推导
-起源：单因子模型——CAPM
-因子研究可追溯于 20 C 60 S，资本资产定价模型（Capital Asset Pricing Model, CAPM）问世，该模型量化了风险如何影响一个公司的资本成本从而影响预期收益率。根据 CAPM 理论，单个资产的预期超额收益可由以下的一元线性模型决定：
-
-补充理解：
-
-CAPM 模型是最简单的线性因子模型，指出资产的超额收益只由市场**组合（市场因子）**的预期超额收益和资产对市场风险的暴露大小决定。该模型为后续大量线性多因子定价模型的研究奠定基理论础。
-发展：多因子模型——APT
-在 CAPM 基础，人们发现不同资产的收益率受多个因子影响，套利定价理论（Arbitrage Pricing Theory, APT）问世，构建线性多因子模型：
-
-成熟：多因子模型—.Alpha 收益 &amp; Beta 收益
-综合考虑金融市场实际存在的定价误差和 APT 模型，从时序角度上看，单个资产的预期收益率由以下的多元线性模型决定：
-
-多因子模型关注资产预期收益率在截面上的差异，本质是关于均值的模型，而预期收益率是收益率在时间序列上的平均。基于( 3) ，可推导出截面角度的多元线性模型：
-
-补充理解：
-
-
-结合统计学知识，该模型隐含三层假设：
-
-
-
-（2）多因子模型的波动率
-
-
-formula 7 
-
-
-
-formula 8 
-
-∧ 表示 K 个因子的因子收益率协方差矩阵(K×K)：
-
-formula 9 
-
-由假设 3 ，不同资产间的特质收益率也不相关，可得Δ 矩阵为：
-
-formula 10 
-
-关于 LUCIDA &amp; FALCON
-Lucida 是行业领先的量化对冲基金，在 2018 年 4 月进入 Crypto 市场，主要交易 CTA / 统计套利 / 期权波动率套利等策略，现管理规模 3000 万美元。
-Falcon 是新一代的Web3投资基础设施，它基于多因子模型，帮助用户“选”、“买”、“管”、“卖”加密资产。Falcon 在 2022 年 6 月由 Lucida 所孵化。
-更多内容可访问：https://linktr.ee/lucida_and_falcon</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191017"
-                        open
-                      >
-                        <summary class="article-expander__title">Bitget 研究院：大盘回调静待CPI数据，BGB逆势大涨破历史新高</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191017">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>1.热门币种
-XRP（Token）：据彭博社报道，今日一份出现在特拉华州官方网站上的、声称由资产管理巨头贝莱德提交的「iShares XRP Trust」注册文件引起市场关注，XRP 在消息传播后短时上涨近 13% 。但贝莱德的发言人明确表示，该文件为虚假信息，与贝莱德无关。根据 bitget 行情数据，目前报价 0.66 ，已经基本回吐所有涨幅。
-TIA（Token）：Celestia 可以说是第一个模块化区块链网络，也就是可插拔的共识和数据可用性层，让任何人都可以快速部署去中心化的区块链，而无需额外的共识层的成本。由于新资金介入，TIA 代币迅速上涨。今日 Celestia 的实时价格为$ 5.322637 （TIA/USD），当前市值为$ 750.72 M USD。24 小时的成交量为$ 861.18 M USD。
-BGB（Token）：昨日“Foresight Ventures 以 7000 万美元估值收购 The Block 多数股权”的新闻传出，再加上近期 Bitget 市场份额大增，使得 Bitget 平台币 BGB 应声大涨，突破前高。
-GROK（Token）：以马斯克的 xAI 大模型为意象创造的 meme coin，链上交易热度非常高，代币 TGE 后暴涨 10 天，上线多个 CEXs，链上持币人数超过 12 k。昨日知名链上侦探 ZachXBT 表示，GROK 系由诈骗者所创建，因为该项目的官方 X 账户曾被重复用于至少一起骗局，GROK 币价大跌，GROK 官方迅速开 AMA 并作出了回应。目前社媒上存在争议，推动其 24 h 全网交易量达到 1.5 亿美金（链上交易量超 7000 万美金）。
-LINK（Token）：Chainlink Staking v 0.2 将分阶段启动，普通访问将于 12 月 12 日开放。目前灰度 LINK 信托正溢价为 …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191008"
-                        open
-                      >
-                        <summary class="article-expander__title">Coinfund合伙人参会小作文：Solana正处于牛熊的哪个阶段？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191008">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Coinfund 合伙人 Austin Barack
-编译：Odaily 星球日报 Azuma
-
-编者按： 10 月 30 日至 11 月 3 日，Solana 于阿姆斯特丹举办了一年一度的生态大会 Breakpoint。会议同期，SOL 正在经历着牛市后最强劲的一轮反弹，最高时一度突破了 60 美元。
-Solana 早期投资机构 Coinfund 的合伙人 Austin Barack 全程参与了本次 Breakpoint。11 月 14 日，Austin 在 Coinfund 的官方博客上分享了自己在本届大会上的见闻，并结合自己此前 2021 年于里斯本参加 Breakpoint 的经历，试图判断出当下 Solana 正处于牛熊周期中的哪个节点。
-以下为 Austin 原文内容，由 Odaily 星球日报编译。
-
-
-我们今天正处于市场周期的哪一个阶段？是牛市、熊市，还是介于两者之间？
-参加会议是了解真实市场情况的最佳举措之一。通过参加会议，我们可以第一时间了解到某个生态系统中有多少开发者正在努力耕耘，他们到底在开发些什么，面临着哪些挑战，哪些问题需要被优先解决，技术堆栈内中有着哪些空缺需要填补，哪些客户的需求尚未得到满足，开发者的使命感究竟有多强……所有的这些我们都可以一目了然。而这么多年来，参加 Breakpoint 的经历已让我对 Solana 的发展状况有了梗深刻的理解。
-这是我第二次参加 Breakpoint。2021 年时我去了里斯本， 2022 年也计划参会，但最后却因肩部韧带撕裂而被迫取消了行程，只能在线上密切关注回忆动态。
-牛市下的 2021 Breakpoint
-2021 年的 Breakpoint 是一场典型的牛市大会，当时 SOL 的价格一度飙升至 250 美元，而在一年之前的，它的价格还仅仅只有 1 美元。
-2021 年 11 月，Sol…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191013"
-                        open
-                      >
-                        <summary class="article-expander__title">Mint Ventures：铭文资产的暴涨逻辑与崩盘路径推演</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191013">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Alex Xu
-引言
-以 BRC 20 系列为代表的铭文资产最近非常火热，印象里这是 ordinal 协议推出以来，今年的第二波资产主升浪。笔者近期就目前的铭文市场进行了调研，除了消化行业信息和数据之外，也参加了一些线上线下的 BRC 20 主题交流活动，形成了对于这个市场的一些阶段性看法，尝试通过本文进行整理和表述。
-本文尝试回答以下几个问题：
-
-什么是铭文资产？爆款 BRC 20 资产的甄选标准有哪些？
-
-以 BRC 20 资产为代表的铭文资产，其核心价值主张是什么？
-
-铭文资产是好的商业创新吗？
-
-铭文资产暴涨的机制逻辑和推动力量是什么？
-
-铭文下一个阶段有哪些剧本？
-
-铭文资产崩盘的路径推演
-
-以下文章内容为笔者截至发表时的阶段性看法，可能存在事实、观点的错误和偏见，仅作为讨论之用，也期待来自其他投研同业的指正。
-铭文资产以及“优质资产”的标准
-铭文资产指的是通过在 BTC（或其他区块链）上做规定格式的信息记账，然后通过特定的索引协议把链上规定格式的记账信息转化而成的虚拟资产，这类资产可以是同质化资产（比如 BRC 20 资产），也可以是非同质化的（比如 Bitcoin Frogs 这样的类 NFT）。
-对于 Bitcoin 来说，其作为一个公共账本，过往的主要用途就是记录网络上的转账交易。而 Bitcoin 在 2021 年 11 月完成 Taproot 升级之后，其作为一个公共账本提供了更高效的数据存储能力，可以更低成本上传文字以及多媒体内容，这就为铭文资产提供了技术基础。
-相对于以太坊来说，资产的发行和运转是基于智能合约的，而对于 BTC 的铭文资产，则是基于链上信息+索引规范发行和运营的。
-虽然机制不同，但两者都是基于区块链公共账本的数据发行的资产。
-
-Bitcoin 上的代币类铭文资产，来源：BTCTOOL
-
-Bitcoin 上的 NFT 类铭文…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191011"
-                        open
-                      >
-                        <summary class="article-expander__title">ETF浪潮下比特币的十字路口：去中心化与制度化</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191011">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Susie Violet Ward
-原文编译：Luffy，Foresight News
-比特币诞生于一个革命性愿景：一个去中心化的点对点金融系统，通过消除中介机构来赋予个人权力。随着机构投资者寻求受监管带来的安全性，这种嵌入比特币创世区块的愿景现在正处于十字路口。
-比特币对机构的吸引力是显而易见的。它提供高回报，被视为类似于黄金的数字避风港。然而，这些机构很少持有实际的比特币，而是选择安全和合规的托管服务。这种对第三方托管人的依赖催生了「纸质比特币」的概念，它代表所有权，但不是数字货币本身的实际拥有。这可能会带来更多实际存在的比特币债权，从而产生类似于部分准备金银行的情况，这与比特币的愿景背道而驰。
-
-「纸质比特币」的概念与传统银行业务相关的风险相呼应，传统银行业务中只有一小部分实际资产支持已发行的债权。如果许多投资者同时要求赎回基础比特币资产，这种部分准备金制度可能会引发流动性危机。
-在 The Ned 会议期间的《What Is Money》节目中，Robert Breedlove 提出了一个令人心酸的观察。会议的场馆位于伦敦金融区的中心地带，毗邻以历史悠久的银行金库而闻名的英格兰银行，是讨论金融主权的理想场所。
-在这种与货币安全和历史主题相呼应的背景下，Breedlove 表示，「比特币因其不可变性而从根本上改变了世界；但人们必须持有自己的比特币私钥才能真正拥有它——not your keys, not your coins。」
-Breedlove 强调持有自己的比特币密钥以确保真正的所有权，这充分说明了比特币的基本原则。这种对自我托管和比特币不可变性的内在价值的观点引发了另一种关于其未来的批判观点。
-随着关于比特币未来方向的争论愈演愈烈，Bitcoin Policy UK 政策主管 Freddie New 等专家提供了宝贵的见解。New 表示，「对我来说，…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191009"
-                        open
-                      >
-                        <summary class="article-expander__title">指南：埋伏下一个ETHS，其他公链首个铭文怎么买？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191009">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>截止目前，Ethscriptions 平台成交额 7000 eth，地板 4032 U，在 6 月 18 日时的打新成本不到 1 U，那些从始至终未离场的人已经有了 6000 倍的收益。
-
-随着比特币铭文、以太坊铭文造富效应溢出，类似于 ETHS 这样的，其他公链「RC 20 」代币或许也将成为下一个潜在的财富密码，连孙哥也忍不住来蹭一波：「很多人私信我，让我在波场上搞铭文，搞还是不搞」。
-
-BlockBeats 整理了其他主流链上的首个铭文购买渠道及教程（标的选择不作为任何投资建议）：
-以太坊铭文
-以太坊的首个铭文 Ethscriptions 使得非金融和任意数据可以被写入以太坊区块链，只要文件大小不超过 96 千字节，用户可以刻录任何类型的文件。据其创建者称，虽然目前它只允许图片——但将来会有所改变，目前单个 ETHS 价格为 4 U。
-ETHS 官网：https://twitter.com/eths_X；
-二级交易市场：https://www.etch.market/market/token?category&#x3D;token&amp;collectionName&#x3D;erc-20%20eths；
-狗狗链铭文
-dogi 是狗狗链首个 DRC-20 铭文，单个 dogi 目前的价格为 0.6 U， 24 小时涨幅 105.76% ，总市值 125 万美元左右。
-dogi 官网：https://dogi.world；
-二级交易市场：https://drc-20.org；
-https://ordifind.com；
-https://doggy.market；
-除了在交易市场购入外，官方 OTC 教程为：
-1. 添加「DPal:Wallet for DogeCoin」钱包。在浏览器扩展插件中搜索「DPal:Wallet for DogeCoin」，启动钱包并以安全的方式保护助记词。
-2. 准备一些狗狗币。可以从其他钱包中转移到新创建的「DPal:Wallet for DogeCoin」钱包中，或者临时购买并发送到以「D」开头的狗狗地址中。
-3. 进入 OTC Discord。进入 DC 的「want to sell」或「want to buy」频道，进行询价，进行 OTC。
-
-4. 处理第三方托管。一旦通过私信与另一个人达成协议，就在官方 DC 中开票，为了增加安全性，请始终确保使用第三方托管服务。
-币安智能链铭文
-币安智能链的首个铭文是 BNBS，诞生于 6 月 20 日，目前主要在场外群交易，项目方的 discord 有 OTC 频道，微信群要进的自己电报搜 changwaiotc。BNBS 前几天刚打完，目前可以去网站查有效的数量了，单个 BNBS 目前的价格为 0.017 U。
-BNBS 官网：https://evm.ink/tokens?searchTick&#x3D;bnbs&amp;chainId&#x3D;eip155%3A 56 ；
-OKX 二级交易市场：https://www.okx.com/cn/web3/marketplace/ordinals/brc 20/BNBs；
-
-莱特铭文
-LTC 20 的首个铭文是 LITE，相关阅读：《LTC-20 的双引擎：铭文社交与流动性挖矿》
-LITE 二级交易市场：https://unilit.io/referral/6VWQUf；
-https://unisat.io/market/brc20?tick&#x3D;lite&amp;tab&#x3D;1；
-LITE 官推：https://twitter.com/litecoin；
-
-BASE 链铭文
-base 20 的首个铭文是 base，目前正在寻找合作伙伴来推动 Pure Inscription Transaction（PIT）技术方案对协议的改进，单个 base 目前的价格为 0.034 U。
-铭文 base 二级交易市场：https://base20.live/#/market；
-https://www.okx.com/cn/web3/marketplace/ordinals/brc 20/base；
-铭文 base 项目官推：https://twitter.com/base20live；
-
-BlockBeats 注：本文不作为任何投资建议，BRC-20 代币铸币成本较低，绝大部分代币本身暂无任何用例，请用户注意甄别风险。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191006"
-                        open
-                      >
-                        <summary class="article-expander__title">PSE Trading：资产发行新范式，下一波比特币元数据协议浪潮已至</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191006">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：PSE 交易实习生@JohnHol10
-今年，比特币链上的资产发行协议成为所有权讨论的焦点，这些协议都属于元数据协议，即通过在比特币交易中记录一些信息来定义一种资产。不同点存在记录的位置不同，记录的方式不同等，这些差异决定了协议的差异。
-一、什么是元数据协议
-区块链是一种承载梯度指针的链表结构，其本质上是一个由循环节点维护的数据库。中本聪决定通过区块链记录由椭圆曲线函数与梯度函数加密的交易数据这里的重点是，只要能想到在某个地方记录哪个地址向哪个地址增加多少数量的各类资产，并且能够创建简单地验证资产来源合法、资产没有被花费过、交易签名合法等，那么创建一种数字资产就是可能的。
-在比特币的古早时期，就有人想到可以在 op_return 输出里记录这些信息，这样就可以继承比特币的安全性，直接在比特币链上释放新的资产而消耗一条新的链。这就是染色货币协议，历史上第一个元数据协议。但不幸的是，染色币协议的理念在当时还过于先进，彼时人们对比特币是否有价值还存在怀疑。在当时更令人信服的方式是再一次建立一条区块链，重新寻找一个“账本”来记录资产的转移。
-二、BRC-20 ： 加固现场新范式
-
-2023 年 2 月，Ordinals 协议的出现再次开启了人们对比特币生态的想象。Ordinals 协议按照每一个聪被挖出来的顺序给出了每一个聪的一个编号，并通过将任何数据记录在一次比特上币交易的隔离见证字段里，称其为铭文，并定义了这个交易输出 UTXO 的第一个聪的拥有者，拥有这个铭文的比特。
-可以在见证场里存放任何数据，那么自然可以记录着交易信息的文本数据记录见证名称场。这就是 BRC-20 系列协议，它们将包括着协议版本号、操作类型、发行资产的、循环数量的文本数据交换一次比特币交易输入的预留字段，从而定义了 BRC-20 资产的配置、铭刻与转移。
-
-BRC-20 协议引起了热烈的反响，其…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191007"
-                        open
-                      >
-                        <summary class="article-expander__title">一文详解CEX平台币投资潜力</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191007">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>随着比特币冲破 38000 美元美元大关，加密市场正在迅速走出长达两年的熊市。比特币的减半即将到来，并且比特币现货 ETF 也有望获得批准，这些因素都预示着加密行业可能即将迎来前所未有的大牛市。那么，如何才能更稳地抓住这次加密行业的财富机会呢？
-
-目前，加密行业中最赚钱的领域之一是交易平台，平台币也成为了加密资产中重要的赛道之一。在上次的牛市期间，比特币从 5021 美元上涨到 67000 美元的历史高点，涨幅约为 1200% 。而各大交易所的平台币涨幅远超比特币的涨幅。以头部交易平台币安为例，其平台币上涨约为 60 倍，而其他多家交易平台的平台币如 OKB、GT、KCS 等均有超过 20 倍的涨幅。因此，在牛市初期布局平台币赛道或许是一个明智的选择，这不仅具有更高的确定性，风险相对较小，未来的升值潜力也巨大。
-那么，如何选择平台币呢？哪类平台币的升值空间更大呢？下面我们将从交易平台的基本面、平台币价格走势、平台币的附加价值等方面进行全方位的对比分析。通过深入了解各个交易平台的运营情况、市场份额等基本面因素，以及平台币的历史价格走势和附加价值，我们可以更好地评估每个平台币的升值空间和潜力。同时，我们还可以关注一些具有创新性和发展潜力的新平台和平台币。最终，通过全面分析和综合考虑，我们可以选择具有更大升值空间和潜力的平台币。
-头部交易所增速放缓，二线平台增长明显
-俗话说，背靠大树好乘凉。这句话在加密货币领域同样适用。平台币的价值在很大程度上是由其背后的交易平台基本面所决定的。在过去的将近两年熊市期间，加密平台的格局发生了不小的变化。以币安为例，在 2023 年初，其交易量和市场份额占比一度高达 60% ，展现出了明显的领先优势。然而，根据近期0x Scope 发布的 CEX 报告，币安的市场份额降至 51% 。
-
-与此同时，一些二线交易所如 Bitget、Bybit 等却异军…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191005"
-                        open
-                      >
-                        <summary class="article-expander__title">盘点即将在Epic Games商城上架的15款Web3游戏</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191005">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Zen，PANews
-自 11 月以来，RPG 链游 Illuvium 的 ILV 代币价格一度实现翻倍，从 0.77 美元最高上涨至 11 月 12 日的 1.58 美元（现价约 1.44 美元）。在连续近两周的上涨过程中，Illuvium 官推于 11 月 8 日发布公告表示计划于 11 月 28 日在 Epic Games Store 上架后，其代币价格从 1.17 美元左右继续大幅上涨。
-根据 Epic 的 2022 年报数据，Epic 游戏商城现有超过 2.3 亿 PC 用户。同样是传统游戏平台，比起龙头大哥 Steam 对Web3游戏的拒之千里，想要后来居上的 Epic Games 就显得开明得多。今年 3 月，Epic Games 的总经理 Steve Allison 表示，其游戏商城将在 2024 年初之前上架近 20 款加密游戏，但官方不会参与任何此类游戏的开发或发行。
-
-在欢迎Web3游戏入驻的同时，Epic Games 商城也对这些发布使用区块链技术的产品做出多项要求和规定，包括禁止出现任何区块链、NFT 或加密货币商城的链接，不得促进赌博行为，不能向中国和韩国的用户提供产品服务，以及 Epic Games 有权基于市场行为（如为了应对可能对玩家产生负面影响的问题）随时从商城中移除使用区块链技术的产品等。
-Epic 能够提供的曝光度与玩家数量，远非当前任何Web3游戏平台可比，这为迫切想要进入主流玩家视野的Web3游戏们提供了机遇。除了 Illuvium，还有 NFT 卡牌游戏 Parallel 等Web3游戏也计划或已经入驻 Epic Games Store。据 PANews 统计，目前 Epic Games 商城内已列出 77 款游戏，其中有 41 款游戏即将推出，已上架的游戏数量早已超过 20 个的“小目标”。按照游戏人气和社区热度，P…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5190995"
-                        open
-                      >
-                        <summary class="article-expander__title">Odaily专访Base：社交起步的爆发增长，未来将专注于哪条赛道？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190995">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原创 | Odaily星球日报
-作者 | Loopy
-
-今年 7 月，由 Coinbase 构建的 Layer 2 扩容方案 Base 向开发者开放，并于 8 月 10 日正式上线主网。
-Base 网络基于 OP Stack 构建，接入以太坊网络并共享安全性和资源。上线之初，Base 曾依靠 BALD 代币一夜千倍的神话迅速获得了市场的关注；SocialFi 应用 friend.tech 则进一步将 Base 推入了所有人的视野——friend tech 不仅带火了社交赛道，也快速推高了 Base 的 TVL。
-近日，CoinGecko 发布了一份报告，分析了多个 Layer 2 在今年的 TVL 和市场份额变化情况。推出仅仅数个月的 Base，已经成为了第五大 Layer 2 网络。
-
-通过市场份额变化我们不难看出，Base 一举成为了增长最快的 Layer 2 。DeFiLlama 数据显示，目前 Base TVL 已经突破 3 亿美元。
-
-目前加密市场拥有的 Layer 2 已经非常多，Base 如何在这个竞争激烈的赛道中实现突围？既需要日渐繁荣的生态，也离不开“爆款”的成功打造，当然 Coinbase 带来的品牌效应也是非常重要的。
-据不完全统计，当前，Base 生态项目数量已超过 100 个，规模相对完善，其中基础设施占据半壁江山，包括但不限于桥、On- Ramp、钱包、预言机、节点提供商等。
-而除了原生项目，也有相当多的知名品牌通过多链部署的方式将业务拓展到了 BASE 链，包括 Uniswap、OpenSea 等知名项目。
-上周，曼谷进行了长达一周的「Blockchain Genesis 暨 2023 泰国区块链周」活动。Odaily星球日报在现场采访到了 Base 亚太区负责人 GIULIANO OCTAVIANOS ，就 Base 现状和发展展开了探讨。
-…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191002"
-                        open
-                      >
-                        <summary class="article-expander__title">对话比特币生态社区：比特币铭文是否会迎来第二春？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191002">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>近日，Bitget 在其中文社区举办了主题为&quot;sats 上线 Bitget，比特币铭文是否会迎来第二春&quot;的 X Space，共同探讨近期火出圈的比特币生态。参与嘉宾包括比特币生态社区的多名 OG：ordi 社区-社畜小迟、sats 社区-钟师傅、BTCs 社区-孙新.x、shib 社区-btc 520 |渡鸦.x、honk 社区-龙鹅.x、rats 社区-哭米丶、whee 社区-紫气东来。
-以下为社区对话实录：
-主持人：hello，大家晚上好，欢迎来到 Bitget 中文和 Bitget Builder 中文联合主办的 AMA。我是本次 Space 的主持人 Sylvia，也是咱们 Bitget VIP 的运营负责人。今天我们讨论的第一个问题是比特币铭文市场与传统现货交易对比起来，它最突出的一个优点是什么呢？
-钟师傅：最大的优点就是去中心化，没有项目方跑路的风险和担忧。此外，它也不会出现各种智能合约的漏洞。不需要授权各种各样乱七八糟的网站。此外，新项目的启动环境也相对更加公平。
-Kumi：我认为最突出的优势还是公平发售。很多新手，项目方，VC，庄家有机会同台竞技。他能让我们这些普通投资者也获得收益，我相信这是最突出的优点。
-BTC 520 ：总结下来的话，有三个关键词：一个是投放红利，一个是持仓红利，另外一个是建设红利。
-社畜小迟：我主要想分享两个点，第一点是全流通。第二是价格上涨快。因为其独特的交易方式会使价格的上涨变得非常螺旋化，大家要看到好的一方面，要看到它不好的一方面。
-孙新：它纯粹的链上玩法使其高度透明化，我们不用再看 VC，机构，项目方的脸色，也不用担心莫名其妙的砸盘，以及无限解锁，漏洞等等。所以它的第一大特点就是铸币权在我们散户手里，另外第二个特点就是定价权也来到咱们散户手里，或者说参与者的手里。
-紫气东来：铭文赛道它属于普通的散户，大家人人都有机会参与，最原始的一级筹码通过 Mint 的方式在所有的散户手里流通。所以他表现出来的就是的确很公平。但是它也有一个缺点，很容易一夜之间就这个缩水 70% 、 80% 、 90% ，甚至 99% 。
-龙鹅：最突出的肯定是公平安全，还有它的天然群众基础比较大，因为它是大家一起去铸造币，这让 B2C 20 系列在最初阶段就会产生一定的群众基础。
-主持人：我们都知道明年比特币 5 月份的时候会减半，想请各位老师预测一下减半后比特币生态会达到怎样一个状态，以及咱们普通用户如果参与，什么时候会是一个合适的时机？
-孙新：从我的理解来说，这次行情将叠加三层 buff。第一个 BTC 减半，大概还有不到半年的时间。第二个 buff BTC 现货 ETF 的通过，将是一个大概率的事件，也会成为下个牛市的最强助推器。第三个就是比特币生态的繁荣。那么对于新人，我觉得要加入到比特币生态还是要注意以下方面：
-1. 在进入铭文生态时，要做好全方位的调研，不要太 FOMO。
-2. 学会管理风险，把风险控制在自己可承受的范围内。
-3. 要保持一个学习的心态。
-龙鹅：我们玩 BRC 20 的时候要控制仓位，也要敢于投入一些，你看准了你自己认可的，你就要去为自己认可的这个项目去努力。其次要按比例去投入，去布局，还是得能拿住。再次，选择一些比较认可的社区，去深入研究这个板块，挖掘更多的机会。
-除了嘉宾们进行了激烈的讨论和交流外，热心观众也加入了讨论，以下是用户关于铭文生态最关心的问题。
-热心观众：我买的是 Shiba 社区的铭文，我想问一下 Shiba 后面会有什么生态？
-BTC 520 ：
-关于 Shiba 铭文的相关信息我之前分享过，现在社区的主要方向还是要做好基础建设。至于说后面有什么样的动作，其实很难去讲。只要把这些基础的东西做好之后，才能吸引很多的大户进场。因为很多东西都是不确定的，而我是抱有一个比较平和的心态，只要基础建设起来了一切都会有的。包括你能看到的，Shiba 正在构建一个全球共识社区，我们其实也可以去自发的自愿的去做一些这样的事情，来形成更多的共识。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5191000"
-                        open
-                      >
-                        <summary class="article-expander__title">减半临近，投资比特币矿商是门好生意吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191000">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文作者：Roger Huang
-原文编译：Luffy，Foresight News
-比特币挖矿的区块奖励每四年就会减少一半，下一次减半将在 2024 年 4 月发生，届时区块奖励补贴将从 6.25 枚比特币（价值 221, 000 美元）降至 3.125 枚比特币（价值 110, 625 美元）。矿工也能收到网络参与者支付的交易费用，但这些只是他们报酬的一小部分。虽然减半的实际影响将使比特币矿工的生产成本增加一倍，但比特币矿业股票可能仍然非常适合某些加密货币投资组合。
-背景
-比特币网络通过名为挖矿的过程将交易添加到网络中。作为对消耗计算和能源成本的补偿，每个区块的打包矿工目前可以获得 6.25 枚比特币的增发奖励。这是产生新比特币的唯一方式，减半是减缓通货膨胀速度的一种方式，它使现有资产更加稀缺。这个过程将持续到 2140 年最后一枚比特币被铸造。
-15 年前，当比特币推出时，它的价值仅为几美分，挖矿可以在一台普通笔记本电脑上进行。如今，顶尖矿工加起来运行的算力超过 450 EH/ 秒，比特币挖矿已成为一项大生意。事实上，一些估计认为比特币网络的年度能源消耗与中等收入国家相当。
-
-过去市场周期中比特币的哈希率，来源：福布斯
-这场军备竞赛带来了每年数百万美元的成本（例如采购专用硬件、能源费用和管理费用），因此许多矿商已发展成为拥有全球供应链的跨国公司。事实上，在纳斯达克和多伦多证券交易所等主要股票市场上市的主要矿商有 15 家，它们 2023 年 10 月的实现算力均超过 0.5 EH/s，以下是最大的 10 家。
-
-Core Scientific 曾经是全球算力最大的比特币矿商，但它于 2022 年 12 月根据美国破产法第 11 章宣布破产。比特币网络上的大部分算力都掌握在私人矿工手中，其中许多矿商运营着个人矿工加入的矿池，来源：福布斯
-值得注意的是，比特币减半历史上一…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5190998"
-                        open
-                      >
-                        <summary class="article-expander__title">业界头号侦探直指“欺诈”，GROK的万倍传说会就此终结吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190998">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原创 | Odaily星球日报
-作者 | Azuma
-美国当地时间 11 月 4 日，Elon Musk 旗下 xAI 团队发布了首款 AI 大模型产品 —— Grok。
-作为 Crypto 业界最爱“蹭热度”的对象，Musk 这次的大动作自然也不会被所放过，仅在 Grok 发布后一周内，各大 Layer 1、Layer 2 之上便已出现了数百个同名的 GROK 代币。
-诸多同名的 GROK 代币之中，以太坊上合约地址为 0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5 的 GROK（作为区分，接下来所有的 GROK 均指此代币）最终杀出重围，成为当下 Crypto 市场上交易量最大、热度最高的炒作标的之一。
-
-GROK 是一个纯粹的 meme 代币，该项目临时以 xAI 为概念设计了 Logo 及网站页面，并在显眼的位置放上了代币合约。截至发文，GROK 的官方 X 账户已有 1.5 万名关注者，而 Telegram 频道内目前也已超过 1.3 万人。
-GROK 部署于 Grok 上线的同一天（11 月 4 日），总供应量共有 69 亿枚（注： 69 和 420 是 Musk 最喜欢玩梗的两个数字）。GROK 的开发者在创建完代币之后便向 Uniswap V2 池子内添加了 50.16 亿 GROK 和 1 ETH 作为初始流动性池。
-
-依照 11 月 4 日 ETH 大约 1900 美元的价格计算，GROK 的初始流通价格约为 0.00000038 美元，该价格亦可通过 Dex Screener 所提供的历史数据查询。
-
-而根据 Bitget 行情显示，在经历了一周多的热炒与追捧之后，GROK 于 11 月 13 日晚间一度上涨至约 0.025 USDT，这一价格较其初始流通价格已上涨了约 6.5 万倍。
-这本该是 GROK 社区“欢庆收获”的日子，但狂欢的声音却随着一则推文戛然而止。
-11 月 13 日 23: 59 ，曾揭露过多起骗局的知名链上侦探 ZachXBT 表示，GROK 系由诈骗者所创建，因为该项目的官方 X 账户（ID： 1690060301465714692）曾被重复用于至少一起骗局。
-
-受 ZachXBT 的调查影响，GROK 的价格快速跳水，最低一度跌至 0.0087 美元附近，较最高点跌幅超过 65% 。
-针对 ZachXBT 的指控，GROK 的开发者很快也通过官方 Telegram 频道、X Space 等渠道做出了回应。
-
-对于社交媒体曾被重复用于其他项目一事，GROK 方面的解释为团队之前确实运营过其他项目，但却并不认为这是欺诈，那个项目知只是因无人问津而夭折了而已。
-为了平息社区质疑，GROK 方面随即还通过两笔交易将部署者地址内预留的 1.8 亿枚 GROK 全部销毁，销毁代币的总价值超过 200 万美元。
-
-随着该开发者的积极回应，GROK 的价格随即也出现了一定回升，截至发文暂报 0.017 美元，较最低点已反弹近一倍。
-
-综合目前社交媒体上的讨论来看，关于此事的立场大概可分为两大派。
-支持 GROK 的一方认为，从事实上来看 GROK 团队目前确实并未作恶，而随着部署者地址内预留代币的销毁，GROK 也实现了公平分发，X 账户曾用于它途一事多少也情有可原，ZachXBT 的指责完全是为了 FUD。
-对此，ZachXBT 也再度回应表示：“如果我在内部人员抛售之前发声，那么人们就会指责我 FUD，但如果我在内部人员抛售之后才这么做，人们又会询问我为什么不早点儿提醒了。我永远都赢不了舆论。”
-作为 Crypto 业内声誉最高的链上侦探，ZachXBT 过往曾亲手揭露过多起不当行为，并帮助许多受害项目追回过赃款（最经典的案例是在 JPEG&#x27;d Curve 池被盗后指出黑客可能是 X 用户 @MichaelRazum，次日黑客就主动归还了赃款），因此也有相当大一部分社区用户选择了支持 ZachXBT，认为其有必要针对社区未知的不透明情况进行调查。
-回归到本次事件上，正是由于 ZachXBT 的勇敢披露，才会推动 GROK 项目方做出更多披露，并选择销毁部署者地址内的预留代币，排除了一些可能会危及社区未来发展的一些暗雷。
-至于遭此风波后 GROK 能否继续延续过往数日的惊人涨势，就需要考验社区的生命力究竟如何了。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -605,6 +67,258 @@ GROK 部署于 Grok 上线的同一天（11 月 4 日），总供应量共有 69
                   <a class="source-heading__link" href="https://panewslab.com/zh/news/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/ry2mt912.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik：Plasma是一个被低估的设计空间，有效性证明或可解决其面临的挑战</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ry2mt912.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，以太坊联合创始人Vitalik Buterin今日发文《EVM验证的退出游戏：Plasma的回归》。文章称，Plasma是一类区块链扩展解决方案，极大地提高了区块链的可扩展性，不再受限于链上数据可用性的限制。Plasma于2017年首次发明，并在2018年进行了多次迭代，不幸的是，Plasma此后在很大程度上被rollups所取代。有效性证明（也称为ZK-SNARK）的出现，可以有效解决Plasma在适用于支付和客户端数据存储方面所面临的最大挑战。此外，有效性证明提供了一系列工具，可帮助构建一个类似Plasma的链，该链可以运行EVM。虽然Plasma的安全保证无法覆盖所有用户，但在实践中，可以通过一些方法确保很大一部分资产仍然保持安全。尽管将Plasma式的退出方案扩展到多种复杂应用程序存在根本上的不可能性，但仍然可以探索其可行性，并寻找更有效的解决方案来简化开发人员体验并保护用户的资金。这篇文章重新探讨了Plasma的可行性，描述了如何扩展Plasma的思想来实现这一目标。
+Vitalik Buterin总结称，2023年，Plasma是一个被低估的设计空间。尽管Rollups仍然是黄金标准，并具有无可比拟的安全属性，但从开发人员体验的角度来看，Plasma的优势不可忽视。它的简洁性使得应用程序开发人员无需考虑所有权图和应用程序中的激励流，大大简化了开发过程。与此同时，Plasma有助于完全回避数据可用性问题，有效降低了交易费用。对于原本作为验证器的链来说，Plasma提供了一个重要的安全升级方案。而随着ZK-EVM在今年取得成果，我们有机会重新探索这一设计空间，并提出更有效的结构来简化开发人员体验并保护用户的资金。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/p850shuh.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Circle跨链传输协议CCTP将于11月28日上线Cosmos生态应用链Noble</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/p850shuh.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据dYdX披露，由Circle开发的原生USDC跨链传输协议CCTP将于11月28日上线Noble链。Noble为Cosmos生态应用链，今后Noble用户可获得原生的USDC跨链支持。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/uy63jx20.html"
+                        open
+                      >
+                        <summary class="article-expander__title">10个地址近十天累计将1500万枚IMX通过0x8C4开头地址存入Coinbase Prime</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/uy63jx20.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据链上分析师余烬监测，3小时前，800万枚IMX(约合922万美元) 通过0x8C4 Coinbase Prime存款地址存入Coinbase Prime。随后有400万枚IMX(约合461万美元) 从Coinbase Prime转至OKX。
+在过去十天，10个地址累计将1500万枚IMX(约合1730万美元) 通过该存款地址存入Coinbase Prime。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/jwg9uzy1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一持仓BAT近6年的地址将价值340万美元的BAT存入币安</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/jwg9uzy1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据Scopescan监测，“0x9d39”开头地址持有BAT近6年，1小时前将1460万枚 BAT（约合340万美元）存入币安。
+该地址于2018年1月从ETH IC0参与者地址收到了价值735万美元的BAT。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/2g9r6lt8.html"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX和BlockFi之间自动中止程序解除，双方可就索赔和解进行谈判</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/2g9r6lt8.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据CoinDesk报道，美国法官Michael Kaplan下令终止破产加密公司FTX和BlockFi之间的自动中止程序，这意味着两家公司可以开始就索赔和解进行谈判。根据法院命令，中止措施已被修改，以允许FTX债务人就FTX破产程序中的BlockFi索赔提出“论点、抗辩、反诉、抵销或其他……”
+BlockFi于去年11月底申请破产，部分原因是当月早些时候FTX突然崩溃带来的连锁反应。这触发了自动中止，停止了两者之间的诉讼。据估计，BlockFi在加密货币交易所平台上冻结了3.55亿美元，Alameda Research还欠BlockFi 6.71亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/h2x8e8o3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">OpenAI CEO：下一代AI模型GPT-5已在训练中，需要更多数据</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/h2x8e8o3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据AI新智能引援英国《金融时报》报道，OpenAI CEO Sam Altman近期在接受采访时，透露了OpenAI更多下一步的规划。Altman表示，公司正在开发下一代AI模型GPT-5。但他没有承诺发布时间表。Altman称这将需要更多数据来训练，数据将来自互联网上公开可用的数据集以及公司的专有数据。OpenAI最近发出了征集大规模数据集的呼吁，特别是那些“今天在互联网上尚未公开轻松获取”的数据集，尤其是长篇写作或任何格式的对话。
+Altman还表示，为了训练其模型，OpenAI和大多数其他大型AI公司一样使用Nvidia的高级H100芯片。他提到，由于Nvidia的芯片供应短缺，今年一直存在“严重的紧张局势”。然而，随着谷歌、微软AMD和英特尔等其他公司准备发布竞争对手的AI芯片，对Nvidia的依赖可能不会持续太久。
+此外，尽管OpenAI取得了消费者成功，但Altman表示，公司寻求向构建人工通用智能方向取得进展。他认为，大型语言模型（LLM），即支撑ChatGPT的模型，是“构建AGI的核心部分之一，但在其上还会有很多其他部分”。他还强调了语言作为信息压缩的重要性，这是他认为像谷歌DeepMind这样的公司忽视的一个因素。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/af16j8m5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">巨鲸持仓占GROK总供应量的70%，80个聪明钱地址平均投资回报率为190%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/af16j8m5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据0xScope监测，持有GROK代币的80个“聪明钱”地址，总利润达185万美元，平均投资回报率为190%。巨鲸持仓占GROK代币总供应量的70%，最大的巨鲸是grokwhale.eth，持有 2.515亿枚GROK（占供应量的3.81%）。grokwhale.eth在GROK上花费了128枚ETH。
+据悉，该代币系马斯克的AI模型“Grok”的一款同名代币。
+相关阅读：GROK背后团队被指“犯有前科”，万倍Meme神话将终结？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/mz2u3rd5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">某地址出售2732万枚GROK后，以较低价再次买入1630万枚GROK</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/mz2u3rd5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据Lookonchain监测，在GROK负面消息发布之前，一个地址出售了2732万枚GROK获得212枚ETH （约合43.6万美元）。然后该地址在8小时后花费了80枚ETH （约合16.4万美元）以较低的价格回购了1630万枚GROK。
+据悉，该代币系马斯克的AI模型“Grok”的一款同名代币。
+相关阅读：GROK背后团队被指“犯有前科”，万倍Meme神话将终结？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/eh5abei1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">持牌商OSL母公司BC科技集团获得BGX 7.1亿港元战略投资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/eh5abei1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据官方消息，香港持牌虚拟资产交易所OSL母公司BC科技集团宣布获得加密货币集团BGX对其的战略投资，投资额约为7.1亿港元。
+此前昨日消息，BC科技集团发布公告表示，已于11月13日9:00起在香港联合交易所有限公司（香港联交所）暂时停止买卖，以待发布一项须予公布交易（ 其构成内幕消息 ）的公告。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/plotpzld.html"
+                        open
+                      >
+                        <summary class="article-expander__title">孙宇晨地址从币安提取约76万枚MATIC</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/plotpzld.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据派盾预警监测，链上标记为“Justin Sun（孙宇晨）”地址已从币安提取764,740.28枚MATIC。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/b0ue1w8m.html"
+                        open
+                      >
+                        <summary class="article-expander__title">加密投资平台Bake.io母公司Cake Group裁员30%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/b0ue1w8m.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据Tech inAsia报道，总部位于新加坡的加密投资平台Bake.io母公司Cake Group证实，该公司已裁员30%。今天，员工已收到有关此举的通知。首席执行官兼联合创始人Julian osp在给员工的电子邮件中表示，为了将Cake Group的重心重新集中在核心业务上，我们做出了艰难的决定，重组我们的垂直行业，并将我们的团队规模调整为约122名团队成员。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://panewslab.com/zh/articledetails/laziz4qs.html"
+                        open
+                      >
+                        <summary class="article-expander__title">渣打银行推出区块链部门Libeara，关注新加坡债券基金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/laziz4qs.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月14日消息，据日经亚洲报道，国际银行渣打银行的风险投资部门周二推出了一个新的区块链部门Libeara，旨在帮助传统金融工具代币化。Libeara是一家技术服务提供商，旨在帮助机构在区块链(支撑加密货币的基础设施)上实现金融工具的数字化，目的是减少对通常参与此类工具交易的中介机构的需求。从理论上讲，这提高了效率，降低了买卖资产的成本。
+Libeara正在与新加坡基金平台解决方案提供商FundBridge Capital合作，为专业投资者创建首个代币化新加坡元政府债券基金。预计将在晚些时候推出，但须获得新加坡当局的监管批准。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1879,6 +1593,544 @@ Pantera还针对加密领域的团队建设提出了一些想法：1. 在组织�
                             <span class="media-object__text">
                               <span>PANews 11月13日消息，dYdX基金会战略与运营副总裁David Gogel在X平台表示，dYdX Chain治理提案#1已通过，dYdX Chain上的第一笔交易已经执行。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >最新 - Odaily星球日报</button>
+                  <a class="source-heading__link" href="https://www.odaily.news">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191018"
+                        open
+                      >
+                        <summary class="article-expander__title">LUCIDA：如何利用多因子策略构建强大的加密资产投资组合？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191018">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>前言
+在去年 6 月份，我设想了用多因子模型去择币的简单构思。
+相关阅读：《LUCIDA：用多因子模型去选赛道、选币种》
+一年后，我们已经着手研发针对加密资产市场的多因子策略，并把整体的策略框架写成系列的文章《用多因子策略构建强大的加密资产投资组合》。
+本系列的大体框架如下（不排除微调的可能）：
+一、多因子模型理论基础
+二、单因子构建
+因子数据预处理
+
+数据筛选
+
+异常值处理：极值、错误值、空值
+
+标准化
+
+中性化：行业、市场、市值
+
+因子有效性判断
+
+信息比率 IC、收益率、夏普比率、换手率
+
+三、大类因子合成
+因子共线性分析
+正交消除因子共线性
+经典加权方法→合成因子
+
+等权、滚动 IC 加权、IC_IR 加权
+
+合成因子的测试：收益率、分组收益率、因子值加权收益率、合成因子 IC、分组换手率
+
+其他加权方法（因子与收益率存在非线性关系）：机器学习、强化学习（由于加密货币行业的特殊性，不考虑）
+四、风险组合优化
+以下是第一篇**#理论基础篇#**的正文内容。
+一、“因子“是什么
+“因子”即技术分析中的“指标”、人工智能机器学习的“特征”，是决定加密货币收益率涨跌的原因。
+我们团队把加密货币领域常见的因子类型：基本面因子、链上因子、量价因子、衍生品因子、另类因子和宏观因子。
+挖掘和计算“因子”的最终目的是为了准确计算资产的预期收益率。
+二、“因子”的计算
+（1）多因子模型的推导
+起源：单因子模型——CAPM
+因子研究可追溯于 20 C 60 S，资本资产定价模型（Capital Asset Pricing Model, CAPM）问世，该模型量化了风险如何影响一个公司的资本成本从而影响预期收益率。根据 CAPM 理论，单个资产的预期超额收益可由以下的一元线性模型决定：
+
+补充理解：
+
+CAPM 模型是最简单的线性因子模型，指出资产的超额收益只由市场**组合（市场因子）**的预期超额收益和资产对市场风险的暴露大小决定。该模型为后续大量线性多因子定价模型的研究奠定基理论础。
+发展：多因子模型——APT
+在 CAPM 基础，人们发现不同资产的收益率受多个因子影响，套利定价理论（Arbitrage Pricing Theory, APT）问世，构建线性多因子模型：
+
+成熟：多因子模型—.Alpha 收益 &amp; Beta 收益
+综合考虑金融市场实际存在的定价误差和 APT 模型，从时序角度上看，单个资产的预期收益率由以下的多元线性模型决定：
+
+多因子模型关注资产预期收益率在截面上的差异，本质是关于均值的模型，而预期收益率是收益率在时间序列上的平均。基于( 3) ，可推导出截面角度的多元线性模型：
+
+补充理解：
+
+
+结合统计学知识，该模型隐含三层假设：
+
+
+
+（2）多因子模型的波动率
+
+
+formula 7 
+
+
+
+formula 8 
+
+∧ 表示 K 个因子的因子收益率协方差矩阵(K×K)：
+
+formula 9 
+
+由假设 3 ，不同资产间的特质收益率也不相关，可得Δ 矩阵为：
+
+formula 10 
+
+关于 LUCIDA &amp; FALCON
+Lucida 是行业领先的量化对冲基金，在 2018 年 4 月进入 Crypto 市场，主要交易 CTA / 统计套利 / 期权波动率套利等策略，现管理规模 3000 万美元。
+Falcon 是新一代的Web3投资基础设施，它基于多因子模型，帮助用户“选”、“买”、“管”、“卖”加密资产。Falcon 在 2022 年 6 月由 Lucida 所孵化。
+更多内容可访问：https://linktr.ee/lucida_and_falcon</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191017"
+                        open
+                      >
+                        <summary class="article-expander__title">Bitget 研究院：大盘回调静待CPI数据，BGB逆势大涨破历史新高</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191017">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>1.热门币种
+XRP（Token）：据彭博社报道，今日一份出现在特拉华州官方网站上的、声称由资产管理巨头贝莱德提交的「iShares XRP Trust」注册文件引起市场关注，XRP 在消息传播后短时上涨近 13% 。但贝莱德的发言人明确表示，该文件为虚假信息，与贝莱德无关。根据 bitget 行情数据，目前报价 0.66 ，已经基本回吐所有涨幅。
+TIA（Token）：Celestia 可以说是第一个模块化区块链网络，也就是可插拔的共识和数据可用性层，让任何人都可以快速部署去中心化的区块链，而无需额外的共识层的成本。由于新资金介入，TIA 代币迅速上涨。今日 Celestia 的实时价格为$ 5.322637 （TIA/USD），当前市值为$ 750.72 M USD。24 小时的成交量为$ 861.18 M USD。
+BGB（Token）：昨日“Foresight Ventures 以 7000 万美元估值收购 The Block 多数股权”的新闻传出，再加上近期 Bitget 市场份额大增，使得 Bitget 平台币 BGB 应声大涨，突破前高。
+GROK（Token）：以马斯克的 xAI 大模型为意象创造的 meme coin，链上交易热度非常高，代币 TGE 后暴涨 10 天，上线多个 CEXs，链上持币人数超过 12 k。昨日知名链上侦探 ZachXBT 表示，GROK 系由诈骗者所创建，因为该项目的官方 X 账户曾被重复用于至少一起骗局，GROK 币价大跌，GROK 官方迅速开 AMA 并作出了回应。目前社媒上存在争议，推动其 24 h 全网交易量达到 1.5 亿美金（链上交易量超 7000 万美金）。
+LINK（Token）：Chainlink Staking v 0.2 将分阶段启动，普通访问将于 12 月 12 日开放。目前灰度 LINK 信托正溢价为 …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191008"
+                        open
+                      >
+                        <summary class="article-expander__title">Coinfund合伙人参会小作文：Solana正处于牛熊的哪个阶段？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191008">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Coinfund 合伙人 Austin Barack
+编译：Odaily 星球日报 Azuma
+
+编者按： 10 月 30 日至 11 月 3 日，Solana 于阿姆斯特丹举办了一年一度的生态大会 Breakpoint。会议同期，SOL 正在经历着牛市后最强劲的一轮反弹，最高时一度突破了 60 美元。
+Solana 早期投资机构 Coinfund 的合伙人 Austin Barack 全程参与了本次 Breakpoint。11 月 14 日，Austin 在 Coinfund 的官方博客上分享了自己在本届大会上的见闻，并结合自己此前 2021 年于里斯本参加 Breakpoint 的经历，试图判断出当下 Solana 正处于牛熊周期中的哪个节点。
+以下为 Austin 原文内容，由 Odaily 星球日报编译。
+
+
+我们今天正处于市场周期的哪一个阶段？是牛市、熊市，还是介于两者之间？
+参加会议是了解真实市场情况的最佳举措之一。通过参加会议，我们可以第一时间了解到某个生态系统中有多少开发者正在努力耕耘，他们到底在开发些什么，面临着哪些挑战，哪些问题需要被优先解决，技术堆栈内中有着哪些空缺需要填补，哪些客户的需求尚未得到满足，开发者的使命感究竟有多强……所有的这些我们都可以一目了然。而这么多年来，参加 Breakpoint 的经历已让我对 Solana 的发展状况有了梗深刻的理解。
+这是我第二次参加 Breakpoint。2021 年时我去了里斯本， 2022 年也计划参会，但最后却因肩部韧带撕裂而被迫取消了行程，只能在线上密切关注回忆动态。
+牛市下的 2021 Breakpoint
+2021 年的 Breakpoint 是一场典型的牛市大会，当时 SOL 的价格一度飙升至 250 美元，而在一年之前的，它的价格还仅仅只有 1 美元。
+2021 年 11 月，Sol…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191013"
+                        open
+                      >
+                        <summary class="article-expander__title">Mint Ventures：铭文资产的暴涨逻辑与崩盘路径推演</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191013">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Alex Xu
+引言
+以 BRC 20 系列为代表的铭文资产最近非常火热，印象里这是 ordinal 协议推出以来，今年的第二波资产主升浪。笔者近期就目前的铭文市场进行了调研，除了消化行业信息和数据之外，也参加了一些线上线下的 BRC 20 主题交流活动，形成了对于这个市场的一些阶段性看法，尝试通过本文进行整理和表述。
+本文尝试回答以下几个问题：
+
+什么是铭文资产？爆款 BRC 20 资产的甄选标准有哪些？
+
+以 BRC 20 资产为代表的铭文资产，其核心价值主张是什么？
+
+铭文资产是好的商业创新吗？
+
+铭文资产暴涨的机制逻辑和推动力量是什么？
+
+铭文下一个阶段有哪些剧本？
+
+铭文资产崩盘的路径推演
+
+以下文章内容为笔者截至发表时的阶段性看法，可能存在事实、观点的错误和偏见，仅作为讨论之用，也期待来自其他投研同业的指正。
+铭文资产以及“优质资产”的标准
+铭文资产指的是通过在 BTC（或其他区块链）上做规定格式的信息记账，然后通过特定的索引协议把链上规定格式的记账信息转化而成的虚拟资产，这类资产可以是同质化资产（比如 BRC 20 资产），也可以是非同质化的（比如 Bitcoin Frogs 这样的类 NFT）。
+对于 Bitcoin 来说，其作为一个公共账本，过往的主要用途就是记录网络上的转账交易。而 Bitcoin 在 2021 年 11 月完成 Taproot 升级之后，其作为一个公共账本提供了更高效的数据存储能力，可以更低成本上传文字以及多媒体内容，这就为铭文资产提供了技术基础。
+相对于以太坊来说，资产的发行和运转是基于智能合约的，而对于 BTC 的铭文资产，则是基于链上信息+索引规范发行和运营的。
+虽然机制不同，但两者都是基于区块链公共账本的数据发行的资产。
+
+Bitcoin 上的代币类铭文资产，来源：BTCTOOL
+
+Bitcoin 上的 NFT 类铭文…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191011"
+                        open
+                      >
+                        <summary class="article-expander__title">ETF浪潮下比特币的十字路口：去中心化与制度化</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191011">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Susie Violet Ward
+原文编译：Luffy，Foresight News
+比特币诞生于一个革命性愿景：一个去中心化的点对点金融系统，通过消除中介机构来赋予个人权力。随着机构投资者寻求受监管带来的安全性，这种嵌入比特币创世区块的愿景现在正处于十字路口。
+比特币对机构的吸引力是显而易见的。它提供高回报，被视为类似于黄金的数字避风港。然而，这些机构很少持有实际的比特币，而是选择安全和合规的托管服务。这种对第三方托管人的依赖催生了「纸质比特币」的概念，它代表所有权，但不是数字货币本身的实际拥有。这可能会带来更多实际存在的比特币债权，从而产生类似于部分准备金银行的情况，这与比特币的愿景背道而驰。
+
+「纸质比特币」的概念与传统银行业务相关的风险相呼应，传统银行业务中只有一小部分实际资产支持已发行的债权。如果许多投资者同时要求赎回基础比特币资产，这种部分准备金制度可能会引发流动性危机。
+在 The Ned 会议期间的《What Is Money》节目中，Robert Breedlove 提出了一个令人心酸的观察。会议的场馆位于伦敦金融区的中心地带，毗邻以历史悠久的银行金库而闻名的英格兰银行，是讨论金融主权的理想场所。
+在这种与货币安全和历史主题相呼应的背景下，Breedlove 表示，「比特币因其不可变性而从根本上改变了世界；但人们必须持有自己的比特币私钥才能真正拥有它——not your keys, not your coins。」
+Breedlove 强调持有自己的比特币密钥以确保真正的所有权，这充分说明了比特币的基本原则。这种对自我托管和比特币不可变性的内在价值的观点引发了另一种关于其未来的批判观点。
+随着关于比特币未来方向的争论愈演愈烈，Bitcoin Policy UK 政策主管 Freddie New 等专家提供了宝贵的见解。New 表示，「对我来说，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191009"
+                        open
+                      >
+                        <summary class="article-expander__title">指南：埋伏下一个ETHS，其他公链首个铭文怎么买？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191009">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>截止目前，Ethscriptions 平台成交额 7000 eth，地板 4032 U，在 6 月 18 日时的打新成本不到 1 U，那些从始至终未离场的人已经有了 6000 倍的收益。
+
+随着比特币铭文、以太坊铭文造富效应溢出，类似于 ETHS 这样的，其他公链「RC 20 」代币或许也将成为下一个潜在的财富密码，连孙哥也忍不住来蹭一波：「很多人私信我，让我在波场上搞铭文，搞还是不搞」。
+
+BlockBeats 整理了其他主流链上的首个铭文购买渠道及教程（标的选择不作为任何投资建议）：
+以太坊铭文
+以太坊的首个铭文 Ethscriptions 使得非金融和任意数据可以被写入以太坊区块链，只要文件大小不超过 96 千字节，用户可以刻录任何类型的文件。据其创建者称，虽然目前它只允许图片——但将来会有所改变，目前单个 ETHS 价格为 4 U。
+ETHS 官网：https://twitter.com/eths_X；
+二级交易市场：https://www.etch.market/market/token?category&#x3D;token&amp;collectionName&#x3D;erc-20%20eths；
+狗狗链铭文
+dogi 是狗狗链首个 DRC-20 铭文，单个 dogi 目前的价格为 0.6 U， 24 小时涨幅 105.76% ，总市值 125 万美元左右。
+dogi 官网：https://dogi.world；
+二级交易市场：https://drc-20.org；
+https://ordifind.com；
+https://doggy.market；
+除了在交易市场购入外，官方 OTC 教程为：
+1. 添加「DPal:Wallet for DogeCoin」钱包。在浏览器扩展插件中搜索「DPal:Wallet for DogeCoin」，启动钱包并以安全的方式保护助记词。
+2. 准备一些狗狗币。可以从其他钱包中转移到新创建的「DPal:Wallet for DogeCoin」钱包中，或者临时购买并发送到以「D」开头的狗狗地址中。
+3. 进入 OTC Discord。进入 DC 的「want to sell」或「want to buy」频道，进行询价，进行 OTC。
+
+4. 处理第三方托管。一旦通过私信与另一个人达成协议，就在官方 DC 中开票，为了增加安全性，请始终确保使用第三方托管服务。
+币安智能链铭文
+币安智能链的首个铭文是 BNBS，诞生于 6 月 20 日，目前主要在场外群交易，项目方的 discord 有 OTC 频道，微信群要进的自己电报搜 changwaiotc。BNBS 前几天刚打完，目前可以去网站查有效的数量了，单个 BNBS 目前的价格为 0.017 U。
+BNBS 官网：https://evm.ink/tokens?searchTick&#x3D;bnbs&amp;chainId&#x3D;eip155%3A 56 ；
+OKX 二级交易市场：https://www.okx.com/cn/web3/marketplace/ordinals/brc 20/BNBs；
+
+莱特铭文
+LTC 20 的首个铭文是 LITE，相关阅读：《LTC-20 的双引擎：铭文社交与流动性挖矿》
+LITE 二级交易市场：https://unilit.io/referral/6VWQUf；
+https://unisat.io/market/brc20?tick&#x3D;lite&amp;tab&#x3D;1；
+LITE 官推：https://twitter.com/litecoin；
+
+BASE 链铭文
+base 20 的首个铭文是 base，目前正在寻找合作伙伴来推动 Pure Inscription Transaction（PIT）技术方案对协议的改进，单个 base 目前的价格为 0.034 U。
+铭文 base 二级交易市场：https://base20.live/#/market；
+https://www.okx.com/cn/web3/marketplace/ordinals/brc 20/base；
+铭文 base 项目官推：https://twitter.com/base20live；
+
+BlockBeats 注：本文不作为任何投资建议，BRC-20 代币铸币成本较低，绝大部分代币本身暂无任何用例，请用户注意甄别风险。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191006"
+                        open
+                      >
+                        <summary class="article-expander__title">PSE Trading：资产发行新范式，下一波比特币元数据协议浪潮已至</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191006">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：PSE 交易实习生@JohnHol10
+今年，比特币链上的资产发行协议成为所有权讨论的焦点，这些协议都属于元数据协议，即通过在比特币交易中记录一些信息来定义一种资产。不同点存在记录的位置不同，记录的方式不同等，这些差异决定了协议的差异。
+一、什么是元数据协议
+区块链是一种承载梯度指针的链表结构，其本质上是一个由循环节点维护的数据库。中本聪决定通过区块链记录由椭圆曲线函数与梯度函数加密的交易数据这里的重点是，只要能想到在某个地方记录哪个地址向哪个地址增加多少数量的各类资产，并且能够创建简单地验证资产来源合法、资产没有被花费过、交易签名合法等，那么创建一种数字资产就是可能的。
+在比特币的古早时期，就有人想到可以在 op_return 输出里记录这些信息，这样就可以继承比特币的安全性，直接在比特币链上释放新的资产而消耗一条新的链。这就是染色货币协议，历史上第一个元数据协议。但不幸的是，染色币协议的理念在当时还过于先进，彼时人们对比特币是否有价值还存在怀疑。在当时更令人信服的方式是再一次建立一条区块链，重新寻找一个“账本”来记录资产的转移。
+二、BRC-20 ： 加固现场新范式
+
+2023 年 2 月，Ordinals 协议的出现再次开启了人们对比特币生态的想象。Ordinals 协议按照每一个聪被挖出来的顺序给出了每一个聪的一个编号，并通过将任何数据记录在一次比特上币交易的隔离见证字段里，称其为铭文，并定义了这个交易输出 UTXO 的第一个聪的拥有者，拥有这个铭文的比特。
+可以在见证场里存放任何数据，那么自然可以记录着交易信息的文本数据记录见证名称场。这就是 BRC-20 系列协议，它们将包括着协议版本号、操作类型、发行资产的、循环数量的文本数据交换一次比特币交易输入的预留字段，从而定义了 BRC-20 资产的配置、铭刻与转移。
+
+BRC-20 协议引起了热烈的反响，其…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191007"
+                        open
+                      >
+                        <summary class="article-expander__title">一文详解CEX平台币投资潜力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191007">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>随着比特币冲破 38000 美元美元大关，加密市场正在迅速走出长达两年的熊市。比特币的减半即将到来，并且比特币现货 ETF 也有望获得批准，这些因素都预示着加密行业可能即将迎来前所未有的大牛市。那么，如何才能更稳地抓住这次加密行业的财富机会呢？
+
+目前，加密行业中最赚钱的领域之一是交易平台，平台币也成为了加密资产中重要的赛道之一。在上次的牛市期间，比特币从 5021 美元上涨到 67000 美元的历史高点，涨幅约为 1200% 。而各大交易所的平台币涨幅远超比特币的涨幅。以头部交易平台币安为例，其平台币上涨约为 60 倍，而其他多家交易平台的平台币如 OKB、GT、KCS 等均有超过 20 倍的涨幅。因此，在牛市初期布局平台币赛道或许是一个明智的选择，这不仅具有更高的确定性，风险相对较小，未来的升值潜力也巨大。
+那么，如何选择平台币呢？哪类平台币的升值空间更大呢？下面我们将从交易平台的基本面、平台币价格走势、平台币的附加价值等方面进行全方位的对比分析。通过深入了解各个交易平台的运营情况、市场份额等基本面因素，以及平台币的历史价格走势和附加价值，我们可以更好地评估每个平台币的升值空间和潜力。同时，我们还可以关注一些具有创新性和发展潜力的新平台和平台币。最终，通过全面分析和综合考虑，我们可以选择具有更大升值空间和潜力的平台币。
+头部交易所增速放缓，二线平台增长明显
+俗话说，背靠大树好乘凉。这句话在加密货币领域同样适用。平台币的价值在很大程度上是由其背后的交易平台基本面所决定的。在过去的将近两年熊市期间，加密平台的格局发生了不小的变化。以币安为例，在 2023 年初，其交易量和市场份额占比一度高达 60% ，展现出了明显的领先优势。然而，根据近期0x Scope 发布的 CEX 报告，币安的市场份额降至 51% 。
+
+与此同时，一些二线交易所如 Bitget、Bybit 等却异军…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191005"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点即将在Epic Games商城上架的15款Web3游戏</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191005">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Zen，PANews
+自 11 月以来，RPG 链游 Illuvium 的 ILV 代币价格一度实现翻倍，从 0.77 美元最高上涨至 11 月 12 日的 1.58 美元（现价约 1.44 美元）。在连续近两周的上涨过程中，Illuvium 官推于 11 月 8 日发布公告表示计划于 11 月 28 日在 Epic Games Store 上架后，其代币价格从 1.17 美元左右继续大幅上涨。
+根据 Epic 的 2022 年报数据，Epic 游戏商城现有超过 2.3 亿 PC 用户。同样是传统游戏平台，比起龙头大哥 Steam 对Web3游戏的拒之千里，想要后来居上的 Epic Games 就显得开明得多。今年 3 月，Epic Games 的总经理 Steve Allison 表示，其游戏商城将在 2024 年初之前上架近 20 款加密游戏，但官方不会参与任何此类游戏的开发或发行。
+
+在欢迎Web3游戏入驻的同时，Epic Games 商城也对这些发布使用区块链技术的产品做出多项要求和规定，包括禁止出现任何区块链、NFT 或加密货币商城的链接，不得促进赌博行为，不能向中国和韩国的用户提供产品服务，以及 Epic Games 有权基于市场行为（如为了应对可能对玩家产生负面影响的问题）随时从商城中移除使用区块链技术的产品等。
+Epic 能够提供的曝光度与玩家数量，远非当前任何Web3游戏平台可比，这为迫切想要进入主流玩家视野的Web3游戏们提供了机遇。除了 Illuvium，还有 NFT 卡牌游戏 Parallel 等Web3游戏也计划或已经入驻 Epic Games Store。据 PANews 统计，目前 Epic Games 商城内已列出 77 款游戏，其中有 41 款游戏即将推出，已上架的游戏数量早已超过 20 个的“小目标”。按照游戏人气和社区热度，P…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190995"
+                        open
+                      >
+                        <summary class="article-expander__title">Odaily专访Base：社交起步的爆发增长，未来将专注于哪条赛道？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190995">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原创 | Odaily星球日报
+作者 | Loopy
+
+今年 7 月，由 Coinbase 构建的 Layer 2 扩容方案 Base 向开发者开放，并于 8 月 10 日正式上线主网。
+Base 网络基于 OP Stack 构建，接入以太坊网络并共享安全性和资源。上线之初，Base 曾依靠 BALD 代币一夜千倍的神话迅速获得了市场的关注；SocialFi 应用 friend.tech 则进一步将 Base 推入了所有人的视野——friend tech 不仅带火了社交赛道，也快速推高了 Base 的 TVL。
+近日，CoinGecko 发布了一份报告，分析了多个 Layer 2 在今年的 TVL 和市场份额变化情况。推出仅仅数个月的 Base，已经成为了第五大 Layer 2 网络。
+
+通过市场份额变化我们不难看出，Base 一举成为了增长最快的 Layer 2 。DeFiLlama 数据显示，目前 Base TVL 已经突破 3 亿美元。
+
+目前加密市场拥有的 Layer 2 已经非常多，Base 如何在这个竞争激烈的赛道中实现突围？既需要日渐繁荣的生态，也离不开“爆款”的成功打造，当然 Coinbase 带来的品牌效应也是非常重要的。
+据不完全统计，当前，Base 生态项目数量已超过 100 个，规模相对完善，其中基础设施占据半壁江山，包括但不限于桥、On- Ramp、钱包、预言机、节点提供商等。
+而除了原生项目，也有相当多的知名品牌通过多链部署的方式将业务拓展到了 BASE 链，包括 Uniswap、OpenSea 等知名项目。
+上周，曼谷进行了长达一周的「Blockchain Genesis 暨 2023 泰国区块链周」活动。Odaily星球日报在现场采访到了 Base 亚太区负责人 GIULIANO OCTAVIANOS ，就 Base 现状和发展展开了探讨。
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191002"
+                        open
+                      >
+                        <summary class="article-expander__title">对话比特币生态社区：比特币铭文是否会迎来第二春？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191002">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>近日，Bitget 在其中文社区举办了主题为&quot;sats 上线 Bitget，比特币铭文是否会迎来第二春&quot;的 X Space，共同探讨近期火出圈的比特币生态。参与嘉宾包括比特币生态社区的多名 OG：ordi 社区-社畜小迟、sats 社区-钟师傅、BTCs 社区-孙新.x、shib 社区-btc 520 |渡鸦.x、honk 社区-龙鹅.x、rats 社区-哭米丶、whee 社区-紫气东来。
+以下为社区对话实录：
+主持人：hello，大家晚上好，欢迎来到 Bitget 中文和 Bitget Builder 中文联合主办的 AMA。我是本次 Space 的主持人 Sylvia，也是咱们 Bitget VIP 的运营负责人。今天我们讨论的第一个问题是比特币铭文市场与传统现货交易对比起来，它最突出的一个优点是什么呢？
+钟师傅：最大的优点就是去中心化，没有项目方跑路的风险和担忧。此外，它也不会出现各种智能合约的漏洞。不需要授权各种各样乱七八糟的网站。此外，新项目的启动环境也相对更加公平。
+Kumi：我认为最突出的优势还是公平发售。很多新手，项目方，VC，庄家有机会同台竞技。他能让我们这些普通投资者也获得收益，我相信这是最突出的优点。
+BTC 520 ：总结下来的话，有三个关键词：一个是投放红利，一个是持仓红利，另外一个是建设红利。
+社畜小迟：我主要想分享两个点，第一点是全流通。第二是价格上涨快。因为其独特的交易方式会使价格的上涨变得非常螺旋化，大家要看到好的一方面，要看到它不好的一方面。
+孙新：它纯粹的链上玩法使其高度透明化，我们不用再看 VC，机构，项目方的脸色，也不用担心莫名其妙的砸盘，以及无限解锁，漏洞等等。所以它的第一大特点就是铸币权在我们散户手里，另外第二个特点就是定价权也来到咱们散户手里，或者说参与者的手里。
+紫气东来：铭文赛道它属于普通的散户，大家人人都有机会参与，最原始的一级筹码通过 Mint 的方式在所有的散户手里流通。所以他表现出来的就是的确很公平。但是它也有一个缺点，很容易一夜之间就这个缩水 70% 、 80% 、 90% ，甚至 99% 。
+龙鹅：最突出的肯定是公平安全，还有它的天然群众基础比较大，因为它是大家一起去铸造币，这让 B2C 20 系列在最初阶段就会产生一定的群众基础。
+主持人：我们都知道明年比特币 5 月份的时候会减半，想请各位老师预测一下减半后比特币生态会达到怎样一个状态，以及咱们普通用户如果参与，什么时候会是一个合适的时机？
+孙新：从我的理解来说，这次行情将叠加三层 buff。第一个 BTC 减半，大概还有不到半年的时间。第二个 buff BTC 现货 ETF 的通过，将是一个大概率的事件，也会成为下个牛市的最强助推器。第三个就是比特币生态的繁荣。那么对于新人，我觉得要加入到比特币生态还是要注意以下方面：
+1. 在进入铭文生态时，要做好全方位的调研，不要太 FOMO。
+2. 学会管理风险，把风险控制在自己可承受的范围内。
+3. 要保持一个学习的心态。
+龙鹅：我们玩 BRC 20 的时候要控制仓位，也要敢于投入一些，你看准了你自己认可的，你就要去为自己认可的这个项目去努力。其次要按比例去投入，去布局，还是得能拿住。再次，选择一些比较认可的社区，去深入研究这个板块，挖掘更多的机会。
+除了嘉宾们进行了激烈的讨论和交流外，热心观众也加入了讨论，以下是用户关于铭文生态最关心的问题。
+热心观众：我买的是 Shiba 社区的铭文，我想问一下 Shiba 后面会有什么生态？
+BTC 520 ：
+关于 Shiba 铭文的相关信息我之前分享过，现在社区的主要方向还是要做好基础建设。至于说后面有什么样的动作，其实很难去讲。只要把这些基础的东西做好之后，才能吸引很多的大户进场。因为很多东西都是不确定的，而我是抱有一个比较平和的心态，只要基础建设起来了一切都会有的。包括你能看到的，Shiba 正在构建一个全球共识社区，我们其实也可以去自发的自愿的去做一些这样的事情，来形成更多的共识。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5191000"
+                        open
+                      >
+                        <summary class="article-expander__title">减半临近，投资比特币矿商是门好生意吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5191000">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Roger Huang
+原文编译：Luffy，Foresight News
+比特币挖矿的区块奖励每四年就会减少一半，下一次减半将在 2024 年 4 月发生，届时区块奖励补贴将从 6.25 枚比特币（价值 221, 000 美元）降至 3.125 枚比特币（价值 110, 625 美元）。矿工也能收到网络参与者支付的交易费用，但这些只是他们报酬的一小部分。虽然减半的实际影响将使比特币矿工的生产成本增加一倍，但比特币矿业股票可能仍然非常适合某些加密货币投资组合。
+背景
+比特币网络通过名为挖矿的过程将交易添加到网络中。作为对消耗计算和能源成本的补偿，每个区块的打包矿工目前可以获得 6.25 枚比特币的增发奖励。这是产生新比特币的唯一方式，减半是减缓通货膨胀速度的一种方式，它使现有资产更加稀缺。这个过程将持续到 2140 年最后一枚比特币被铸造。
+15 年前，当比特币推出时，它的价值仅为几美分，挖矿可以在一台普通笔记本电脑上进行。如今，顶尖矿工加起来运行的算力超过 450 EH/ 秒，比特币挖矿已成为一项大生意。事实上，一些估计认为比特币网络的年度能源消耗与中等收入国家相当。
+
+过去市场周期中比特币的哈希率，来源：福布斯
+这场军备竞赛带来了每年数百万美元的成本（例如采购专用硬件、能源费用和管理费用），因此许多矿商已发展成为拥有全球供应链的跨国公司。事实上，在纳斯达克和多伦多证券交易所等主要股票市场上市的主要矿商有 15 家，它们 2023 年 10 月的实现算力均超过 0.5 EH/s，以下是最大的 10 家。
+
+Core Scientific 曾经是全球算力最大的比特币矿商，但它于 2022 年 12 月根据美国破产法第 11 章宣布破产。比特币网络上的大部分算力都掌握在私人矿工手中，其中许多矿商运营着个人矿工加入的矿池，来源：福布斯
+值得注意的是，比特币减半历史上一…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5190998"
+                        open
+                      >
+                        <summary class="article-expander__title">业界头号侦探直指“欺诈”，GROK的万倍传说会就此终结吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5190998">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原创 | Odaily星球日报
+作者 | Azuma
+美国当地时间 11 月 4 日，Elon Musk 旗下 xAI 团队发布了首款 AI 大模型产品 —— Grok。
+作为 Crypto 业界最爱“蹭热度”的对象，Musk 这次的大动作自然也不会被所放过，仅在 Grok 发布后一周内，各大 Layer 1、Layer 2 之上便已出现了数百个同名的 GROK 代币。
+诸多同名的 GROK 代币之中，以太坊上合约地址为 0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5 的 GROK（作为区分，接下来所有的 GROK 均指此代币）最终杀出重围，成为当下 Crypto 市场上交易量最大、热度最高的炒作标的之一。
+
+GROK 是一个纯粹的 meme 代币，该项目临时以 xAI 为概念设计了 Logo 及网站页面，并在显眼的位置放上了代币合约。截至发文，GROK 的官方 X 账户已有 1.5 万名关注者，而 Telegram 频道内目前也已超过 1.3 万人。
+GROK 部署于 Grok 上线的同一天（11 月 4 日），总供应量共有 69 亿枚（注： 69 和 420 是 Musk 最喜欢玩梗的两个数字）。GROK 的开发者在创建完代币之后便向 Uniswap V2 池子内添加了 50.16 亿 GROK 和 1 ETH 作为初始流动性池。
+
+依照 11 月 4 日 ETH 大约 1900 美元的价格计算，GROK 的初始流通价格约为 0.00000038 美元，该价格亦可通过 Dex Screener 所提供的历史数据查询。
+
+而根据 Bitget 行情显示，在经历了一周多的热炒与追捧之后，GROK 于 11 月 13 日晚间一度上涨至约 0.025 USDT，这一价格较其初始流通价格已上涨了约 6.5 万倍。
+这本该是 GROK 社区“欢庆收获”的日子，但狂欢的声音却随着一则推文戛然而止。
+11 月 13 日 23: 59 ，曾揭露过多起骗局的知名链上侦探 ZachXBT 表示，GROK 系由诈骗者所创建，因为该项目的官方 X 账户（ID： 1690060301465714692）曾被重复用于至少一起骗局。
+
+受 ZachXBT 的调查影响，GROK 的价格快速跳水，最低一度跌至 0.0087 美元附近，较最高点跌幅超过 65% 。
+针对 ZachXBT 的指控，GROK 的开发者很快也通过官方 Telegram 频道、X Space 等渠道做出了回应。
+
+对于社交媒体曾被重复用于其他项目一事，GROK 方面的解释为团队之前确实运营过其他项目，但却并不认为这是欺诈，那个项目知只是因无人问津而夭折了而已。
+为了平息社区质疑，GROK 方面随即还通过两笔交易将部署者地址内预留的 1.8 亿枚 GROK 全部销毁，销毁代币的总价值超过 200 万美元。
+
+随着该开发者的积极回应，GROK 的价格随即也出现了一定回升，截至发文暂报 0.017 美元，较最低点已反弹近一倍。
+
+综合目前社交媒体上的讨论来看，关于此事的立场大概可分为两大派。
+支持 GROK 的一方认为，从事实上来看 GROK 团队目前确实并未作恶，而随着部署者地址内预留代币的销毁，GROK 也实现了公平分发，X 账户曾用于它途一事多少也情有可原，ZachXBT 的指责完全是为了 FUD。
+对此，ZachXBT 也再度回应表示：“如果我在内部人员抛售之前发声，那么人们就会指责我 FUD，但如果我在内部人员抛售之后才这么做，人们又会询问我为什么不早点儿提醒了。我永远都赢不了舆论。”
+作为 Crypto 业内声誉最高的链上侦探，ZachXBT 过往曾亲手揭露过多起不当行为，并帮助许多受害项目追回过赃款（最经典的案例是在 JPEG&#x27;d Curve 池被盗后指出黑客可能是 X 用户 @MichaelRazum，次日黑客就主动归还了赃款），因此也有相当大一部分社区用户选择了支持 ZachXBT，认为其有必要针对社区未知的不透明情况进行调查。
+回归到本次事件上，正是由于 ZachXBT 的勇敢披露，才会推动 GROK 项目方做出更多披露，并选择销毁部署者地址内的预留代币，排除了一些可能会危及社区未来发展的一些暗雷。
+至于遭此风波后 GROK 能否继续延续过往数日的惊人涨势，就需要考验社区的生命力究竟如何了。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7570,194 +7822,6 @@ Chainlink Staking v0.2质押池上限为4500万枚LINK。本次升级重点关�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/6k57yixq.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Tether凌晨于以太坊网络铸造10亿枚USDT</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/6k57yixq.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月10日消息，据Whale Alert监测，稳定币发行商Tether 6小时前于以太坊网络铸造10亿枚USDT。
-Tether首席执行官Paolo Ardoino表示，这10亿枚USDT是对以太坊网络库存的补充，是一笔已授权但未发行的交易，意味着本次增发将用于下一期发行请求和链交换的库存。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/pppb8iah.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Coinbase Cloud引入基于链上证明协议EAS的“Coinbase验证”功能</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/pppb8iah.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月10日消息，Coinbase Cloud在X平台上宣布引入“Coinbase验证”功能，用户可以在链上证明账户和国家/地区凭证，所有这些凭证均由Coinbase验证。该验证建立在以太坊证明服务（EAS）开放标准之上，是公开且可组合的。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ldiqhfze.html"
-                        open
-                      >
-                        <summary class="article-expander__title">上海市印发《推动区块链、大模型技术赋能生产性互联网服务平台发展实施方案》</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ldiqhfze.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月10日消息，上海市经济信息化委、市商务委印发 《推动区块链、大模型技术赋能生产性互联网服务平台发展实施方案》的通知，主要任务包括打造区块链公共基础服务平台，打造区块链跨链公共服务平台，深化区块链技术应用场景建设，推动大模型技术赋能平台发展等。
-打造区块链公共基础服务平台，方案指出，推动链联盟管理、业务链管理、后台管理、合约管理、运维管理、统计分析等区块链即服务功能模块研发部署，提供高效易用、场景化、集约化的基础服务，降低业务方使用区块链的技术难度和成本；建设监管服务、分布式身份认证服务以及数据服务等通用服务模块，支撑区块链创新应用。
-关于打造区块链跨链公共服务平台，方案指出，在公证人、中继链、哈希锁定等领域开展技术攻关，研发覆盖不同类型共识机制、智能合约编辑运行、账本存储标准、密码算法、身份认证与管理、软硬件协同等跨链公共服务平台，支撑区块链BaaS平台及规模化行业应用场景打造，实现全市范围内区块链基础设施的互联互通，推动异构链链上价值可信流转。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/mgcag5sw.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Storj团队将250万枚STORJ转入GSR的币安存款地址，约合195万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/mgcag5sw.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月10日消息，据链上分析师余烬监测，8小时前，Storj团队地址将250万枚STORJ(约合195万美元) 转入GSR的币安存款地址。
-Storj团队地址在最近2个月里累计转出了2085万枚STORJ(约合1626万美元)，其中1827.5万枚(约合1425万美元) 是转入GSR的币安存款地址。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/m1rae896.html"
-                        open
-                      >
-                        <summary class="article-expander__title">1inch投资基金约8小时前出售1500枚stETH，换得302万枚USDC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/m1rae896.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月10日消息，据Spot On Chain监测，1inch投资基金约8小时前出售了1500枚stETH，以换得302万枚USDC。
-值得注意的是，该基金在2023年购买了28,871枚ETH（约合4640万美元，均价：1608美元）。到目前为止，他们已以1,868美元的均价出售了6,185枚stETH，价格为1,160万枚USDC。因此，该基金从ETH中实现的利润约为161万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/ft4xnd52.html"
-                        open
-                      >
-                        <summary class="article-expander__title">过去24小时全网爆仓4.93亿美元，多空双爆</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/ft4xnd52.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月10日消息，Coinglass数据显示，过去24小时加密货币市场全网合约爆仓4.93亿美元，其中多单爆仓2.19亿美元，空单爆仓2.74亿美元。按币种划分，BTC爆仓约为1.67亿美元，占比最大，ETH爆仓约8195.12万美元。最大单笔爆仓单发生在OKX - BTC-USDT-SWAP，价值1476.16万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/jrwzlcwi.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Celsius：预计将于2024年初摆脱第11章破产程序的约束</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/jrwzlcwi.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月10日消息，Celsius Network在X平台上表示：“经过成功的债权人投票程序和确认听证会后，法院确认了我们的重组计划。超过95%的投票债权人对该计划投了赞成票，标志着Celsius努力最大限度地向客户分配资产的又一个重要里程碑。公司正在努力实施该计划，预计将于2024年初摆脱第11章破产程序的约束。”
-此前今日早些时候消息，Celsius转型为比特币挖矿公司的计划获破产法院批准，价值约20亿美元的比特币和以太坊将与NewCo的股权一起重新分配给Celsius债权人。但该转型计划仍有待SEC批准。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/1mym8w1w.html"
-                        open
-                      >
-                        <summary class="article-expander__title">基于DLT技术的债券交易所BondbloX完成600万美元B轮融资，花旗参投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/1mym8w1w.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月10日消息，据Ledger Insights报道，使用分布式账本技术（DLT）的债券交易所BondbloX宣布完成600万美元B轮融资，泰国开泰银行旗下Beacon Venture Capital、花旗、MassMutual Ventures、Potato Productions和Octava参投。
-据悉，BondbloX于2020年推出，是一家受新加坡监管、使用原子结算和分布式账本技术的分数（fractional）债券交易所，BondbloX于上个月才向专业和合格投资者开放，但现在允许向散户投资者出售。此前9月消息，花旗成为债券交易所BondbloX的数字托管机构。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://panewslab.com/zh/articledetails/vnkq8ff0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">彭博社：瑞银将支持富裕客户购买由香港证监会授权的三只加密ETF</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://panewslab.com/zh/articledetails/vnkq8ff0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/images/logo1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月10日消息，据彭博社报道，在香港推动数字资产中心建设的过程中，瑞银集团与汇丰控股等竞争对手一起，允许香港客户交易一些与加密货币挂钩的交易所交易基金。知情人士表示，从周五起，富裕客户将可以在瑞银香港平台上购买由香港证监会授权的三只加密货币ETF，包括三星比特币期货活跃基金（Samsung Bitcoin Futures Active）、南方东英比特币期货（CSOP Bitcoin Futures）和南方东英以太坊期货（CSOP Ether Futures）ETF，客户还可以访问教育材料来了解风险。
-南方东英比特币期货和南方东英以太坊期货在去年12月推出时，被誉为亚洲首只上市的比特币和以太坊期货ETF。这两只基金和三星的投资工具的资产总额相对较小，约为7000万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -10698,8 +10762,8 @@ Azuki 推出 Azuki Elementals 系列 NFT，Azuki 和 BEANZ …</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6863414035">
-        <time id="build-timestamp" datetime="2023-11-14T12:13:44.445Z">2023-11-14T12:13:44.445Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/6864090192">
+        <time id="build-timestamp" datetime="2023-11-14T13:10:34.501Z">2023-11-14T13:10:34.501Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
