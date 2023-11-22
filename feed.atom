@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-11-22T20:08:03.420Z</updated>
+    <updated>2023-11-22T21:06:52.081Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -4804,66 +4804,6 @@ Parrot Capital 批评的基础是 Coinbase 支持失败的韩国加密项目 Ter
         <summary type="html"><![CDATA[PANews 11月18日消息，Balancer在X平台上表示，Balancer 将为其在 Arbitrum 网络上进行的流动性增长计划 (LGP) 额外提供 120 万枚ARB激励。此前LGP所提供的激励总额为100万ARB，因此新的资金注入意味着LGP计划的激励力度将实现翻倍。此前该计划将在每个epoch分配8万ARB，持续至11月底，现在则是大约每两周分配17.1万ARB，持续至明年2月底。]]></summary>
         <author>
             <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据可用性的问题是什么？]]></title>
-        <id>https://www.odaily.news/post/5191089</id>
-        <link href="https://www.odaily.news/post/5191089"/>
-        <updated>2023-11-18T08:30:00.000Z</updated>
-        <summary type="html"><![CDATA[在区块链网络中，节点如何确保新提出的区块的所有数据都是可用的？这为什么重要？
-在这篇文章中，我们将深入探讨数据可用性问题及其如何影响以太坊的扩展性。
-数据可用性问题是什么？
-数据可用性（DA）问题：区块链网络中的节点如何确保新提出的区块中的所有数据实际上是可用的？如果数据不可用，该区块可能包含由区块生产者隐藏的恶意交易。即使区块包含非恶意交易，隐藏它们也可能威胁到系统的安全。
-例如，假设 Alice 是一个 ZK-Rollup 的运营者。她在以太坊上提交了一个 ZK-Proof 并得到验证。如果她没有在以太坊上提交所有交易数据，尽管她的证明证实了在 rollup 中进行的所有状态转换都是有效的，但 rollup 的用户仍可能对他们当前的账户余额一无所知。因为零知识的特性，提交的证明无法揭示当前状态的信息。
-在 Optimistic Rollup 的场景中，也存在类似的例子，其中 Alice 在以太坊上提交了一个声明（assertion），但是由于交易数据不可用，OPR 的参与者无法重新计算或质疑该声明。
-为了应对上述情况，OPR 和 ZKR 的设计都要求运营者将所有交易细节作为“calldata”提交到以太坊上。虽然这使它们在短期内避免了 DA 问题，但随着 rollup 内部交易数量的增加，需要提交的数据量也会增长，限制了这些 rollup 能够提供的扩展量。
-更糟糕的是，数据不可用是一种无法唯一归因的错误。这意味着参与者无法向其他节点证明特定数据块缺失。这是因为 Bob 可以广播 Alice 提交的区块缺少数据，但当 Charlie 向 Alice 查询时，她可能会提供数据给他。
-数据可用性问题怎么影响当前的区块链？
-为回答这个问题，让我们首先回顾一下类似以太坊的区块链的一般区块结构，以及任何区块链网络上存在的客户端类型。
-一个区块可以分为两个主要部分：
-
-区块头：一个…]]></summary>
-        <author>
-            <name>Modular101</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：以太坊Layer2总锁仓量131.2亿美元，7日跌幅2.47%]]></title>
-        <id>https://panewslab.com/zh/articledetails/94mkxroo.html</id>
-        <link href="https://panewslab.com/zh/articledetails/94mkxroo.html"/>
-        <updated>2023-11-18T08:29:04.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月18日消息，据L2BEAT数据显示，以太坊Layer2网络当前总锁仓量为131.2亿美元，7日跌幅2.47%。锁仓量前五分别为： Arbitrum One（71.4亿美元，7日跌幅4.01%）； OP Mainnet（33.6亿美元，7日跌幅2.04%）；Base（5.62亿美元，7日跌幅5.61%）；zkSync Era（4.41亿美元，7日跌幅3.2%）；dYdX（4.08亿美元，7日涨幅8.37%）。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CKB即将迎来首次减半，通胀率降至3.77%]]></title>
-        <id>https://www.odaily.news/post/5191108</id>
-        <link href="https://www.odaily.news/post/5191108"/>
-        <updated>2023-11-18T08:21:01.000Z</updated>
-        <summary type="html"><![CDATA[Nervos Network（原生代币为 CKB）将于 11 月 19 日迎来首次减半。这一事件将使 CKB 的硬顶基础发行率降低一半，使实际通胀率从 7.92% 降至 3.77% ，在主流 Layer 1 区块链中最低。
-
-按名义价值计算，CKB 基础发行量将从每年 42 亿枚降至 21 亿枚，而二级发行将保持不变（二级发行没有上限，遵循固定的释放时间表），每年 13.44 亿枚。
-无上限的二级发行防止了过度的状态（state）增长，并确保 CKB 矿工获得独立于交易量的可预测长期收入来源。值得注意的是，二次释放造成的通胀范围很窄，只影响到状态占有者（occupier），这意味着 CKB 对其长期持有者来说是一种抗通胀的代币。
-
-关于“公共知识库”
-该网络的 Layer 1 被称为公共知识库（Common Knowledge Base，简称 CKB），其采用工作量（PoW）证明共识，通过开创性的通用 UTXO 模型，以及基于 RISC-V 指令集的虚拟机，进行交易和智能合约执行。
-CKB 的高度灵活性使其能够支持各类扩展和构建在其上的应用解决方案，而通过工作量证明的安全性确保了网络的全球数字基础设施保持弹性、中立和无需许可。
-不止于“账户抽象”
-CKB 致力于为帐户抽象的灵活性设定新的行业标准。其记账模型被称为 Cell 模型，是比特币 UTXO 模型的概括，使开发人员能够完全控制存储在链上的数据结构以及交易授权逻辑，使 CKB“账户”在定义上变得抽象。
-此外，CKB 利用了一个完全抽象的低级别虚拟机，称为 CKB-VM，它允许开发人员部署各种签名和哈希（hashing）算法，操作上类似利用插件，而不需要硬分叉。与其他平台（加密原语通过协议硬编码）不同的是，该协议级抽象允许使用来自任何区块链系统（甚至更广泛支持的标准，如Passkeys或DKIM）的签名进行交易签名，真正地重新定义区块链可以做什么。
-像JoyID（一款便捷的 WebAuthn 钱包）和d.id（一个链不可知的去中心化身份提供商）这样的产品，已经在使用 CKB 为成千上万的用户提供优质区块链体验。
-解决状态膨胀之挑战
-Nervos Network 的设计直接解决了状态膨胀（state bloat）的问题。它采用多层架构，并将状态增长与该网络的原生代币联系起来，即一枚 CKB 代表在链上存储一个字节数据的权利。
-该架构通过促进链下计算来减少链上存储需求，同时通过发行 CKB 来限制区块链的状态增长，从而最小化节点硬件需求，确保网络去中心化。
-此外，状态出租（state rent）通过收窄目标通胀来实施，激励链上负责任的状态管理，并为矿工提供可持续的、可预测的长期收入来源。
-首次减半即将到来
-随着 CKB 第一次减半事件临近，Nervos Network 正努力在行业中不断追求创新并保持长期可持续发展。
-此次减半无疑将成为该网络发展旅程中的关键时刻之一。对此，Nervos 基金会正在组织一场在线活动，欢迎感兴趣的用户可以于 EST 时间 11 月 19 日上午 10 点（北京时间当日 23 点）在YouTube上参与。]]></summary>
-        <author>
-            <name>NervosCommunity</name>
         </author>
     </entry>
     <entry>
