@@ -3194,16 +3194,6 @@
           "wordCount": 330,
           "title": "YFI五小时内暴跌43%，引发社区对退出骗局的担忧",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/ifsf0y5g.html",
-          "author": "PA一线",
-          "description": "PANews 11月19日消息，据Bitcoinist报道，畅销书作家兼华尔街投资家Linda Jones预测Ripple将在明年启动IPO。Jones表示，5月中旬将是一个理想的时间，大约在5月15日左右。如果IPO届时没有发生，那么可能会推迟到2025年。",
-          "link": "https://panewslab.com/zh/articledetails/ifsf0y5g.html",
-          "publishedOn": "2023-11-18T23:04:01.000Z",
-          "wordCount": 326,
-          "title": "华尔街投资家：Ripple或将在明年5月中旬启动IPO",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -3669,6 +3659,56 @@
       "feedUrl": "https://rsshub.app/odaily",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/post/5191220",
+          "author": "Modular101",
+          "description": "Avail 测试网现已上线。随着用户开始将 Avail 集成到他们的链设计中，经常出现的一个问题是：“Avail 能处理多少交易？”这是关于扩展性系列文章的最后一篇，将讨论 Avail 目前的性能以及其短期和长期的扩展能力。你可以在这里阅读第一部分，这里阅读第二部分。\n下面的模型描述了一种架构，在这个架构中，提出和构建区块的行为（决定哪些交易/数据块包含在区块中）被分开，并由不同的参与者执行。\n通过创建这种新的区块构建者实体，生成行承诺（row commitments）和生成单元证明（cell proofs）所需的计算工作可以在不同的参与者之间分担。\n\nAvail 的核心功能是接收数据并输出有序数据。可以将其想象成一个 API。Avail 使任何人都能够对数据的可用性进行抽样。\n在强调我们能改进的地方之前，我们首先详细说明 Avail 在当前状态下对区块提议者和验证者/完整节点的要求。\n1. 区块生产者创建区块主体\n\n收集交易（数据提交）\n\n将这些交易排序到 Avail 数据矩阵中，该矩阵成为区块主体\n\n2. 区块生产者创建区块头\n\n为矩阵的每一行生成承诺\n\n使用多项式插值扩展这些承诺（生成的和扩展的承诺成为区块头）\n\n3. 区块生产者传播区块（主体 + 头）\n4. 验证者和完整节点接收区块\n5. 验证者和完整节点对区块进行解码、重构和验证\n\n重建数据矩阵\n\n重建承诺\n\n扩展承诺\n\n验证他们收到的所有数据是否与他们生成的承诺相匹配\n\n第五步，要求完整节点重新生成区块头，在像 Avail 这样的系统中是不必要的。\n完整节点目前之所以这样做，是因为 Avail 继承了传统区块链的架构，而传统区块链需要验证者来确认执行操作是否正确完成。Avail 不处理执行操作。区块提议者、验证者和轻客户端只关心数据的可用性。这意味着 Avail 网络中的所有参与者都可以选择使用数据可用性抽样来…",
+          "link": "https://www.odaily.news/post/5191220",
+          "publishedOn": "2023-11-23T08:46:09.000Z",
+          "wordCount": 1916,
+          "title": "Avail的可扩展性：未来的发展方向",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5191221",
+          "author": "区块律动BlockBeats",
+          "description": "原文作者：Kaori，BlockBeats \n原文编辑：Jack，BlockBeats\n曾经被加密 VC 视为掌中瑰宝的 L2 们，正在被自己的「PUA 行为」反噬。\n自 Blur 创始人 Pacman 在本周推出自己的新 L2 项目 Blast 后，L2 这个被比特币生态小牛市远远甩在身后的赛道重新迎来了市场的高度关注。只不过这一次，没有任何人是赢家。\n随着 Blast 的 TVL 在短短一天内闪电突破千万美元大关，人们开始对 L2 赛道过去的「行业潜规则」进行反思。拒绝或者迟迟不肯向撸毛大军回馈空投的「L2 技术贵族」们，似乎在绝对的市场趋势前面临着前所未有的困境。\nL2 们焦虑极了\nBlur 创始人 Pacman 的 L2 新项目 Blast 通过社交裂变加上空投预期，这几天可谓赚足了眼球。\nBlast 声称现有 Layer 2 的基准利率为 0% ，在默认情况下，用户的资产价值会随着时间的推移而贬值，而在 Blast 上，用户的余额会自动复利，并额外赚取 Blast 奖励。\n当用户将资金存入 Blast 后，Blast 随即将把锁定于 Layer 1 网络上的对应 ETH 用于网络原生质押，并将所获得的 ETH 质押收益自动返还给 Blast 之上的用户。此外，Blast 还支持稳定币的被动生息。\n对于用户来说，除了质押赚取的被动收益，Blast 还同 Blur 玩法一样，推出了积分系统。目前关于积分的描述，官方只透露出 Blast 计划于明年 2 月 24 日上线主网并开发提款， 5 月 24 日开放 Blast Points 的「赎回」。\n相关阅读：《Blast：Blur 创始人的颠覆级新作，生息型L2能否搅乱赛道格局？》\n11 月 22 日，Blast 在其社交平台表示，推出首日其 TVL 已达 8126.56 万美元，用户数达 23, 368 。截至撰稿前，…",
+          "link": "https://www.odaily.news/post/5191221",
+          "publishedOn": "2023-11-23T08:42:52.000Z",
+          "wordCount": 2852,
+          "title": "搅局者Blast TVL迅速攀升，L2贵族们焦虑极了",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5186767",
+          "author": "Loopy Lu",
+          "description": "原创 | Odaily星球日报\n作者 | Loopy Lu\n\n11 月 23 日，多链 DEX 聚合器 Kyberswap 近日遭受了严重的网络攻击，导致价值约 4830 万美元的各种加密资产被盗，主要包括 16, 217 枚 ETH（价值 3350 万美元）、 3, 987, 332 枚 ARB （价值 406 万美元）、 591, 441 枚 OP （价值 103 万美元）和 1, 111, 926 枚 DAI。\n数千万美元被盗\n\n事件发生后，Kyber Network 团队在 X （Twitter） 帖子中提醒其用户，称 KyberSwap Elastic“经历了安全事故”。它建议用户提取资金作为预防措施，并补充说正在调查情况。\n\n\n\n\nKyber 于 2018 年推出，在黑客攻击之前的 TVL 约为 8600 万 美元，目前 TVL 已跌至 1300 万美元。\n\n\nKyberSwap 是一个部署在 15 个区块链上的去中心化 DEX 及聚合器。官方介绍显示，该平台已经进行了超过 100 亿美元的总交易量和超过 200 万总交易笔数，并且集成了超过 100 个 DEX。\n\n\n（KyberSwap 已在 15 条链上可用）\n\n而链上数据显示，本次 KyberSwap 被盗也发生在了多个网络之上。Spot On Chain 监测，KyberSwap 被盗发生在包括 Arbitrum、Optimism、Ethereum、Polygon 和 Base。\n\n其中，价值约 2000 万美元的代币从 Arbitrum 网络中被盗， 1500 万美元从 Optimism 网络中被盗，超过 700 万美元从以太坊被盗。\n需要注意的是，这并不是 KyberSwap 首次被盗。2022 年 9 月，KyberSwap 前端漏洞导致 265, 000 美元用户资金被盗 。\nKyberSwap…",
+          "link": "https://www.odaily.news/post/5186767",
+          "publishedOn": "2023-11-23T07:43:32.000Z",
+          "wordCount": 2132,
+          "title": "Kyberswap被盗4800万美元，戏精黑客却来主动谈判",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5191218",
+          "author": "Foresight News",
+          "description": "采访：MarK Goodwin\n受访者：Robert F. Kennedy, Jr.\n原文编译：Luffy，Foresight News\n乘坐飞机、渡轮和火车，匆匆赶来纽约曼哈顿的我发现自己只有三十多分钟的时间准备一场重要的采访。我即将在在哈德逊广场酒店三十多层的高处与总统候选人小罗伯特·F·肯尼迪 (Robert F. Kennedy, Jr.) 坐下来交谈。电影制片人 Jeremy Poley 拍摄了大约四十分钟 RFK 回答我们问题的视频。他的反应敏锐、清晰，具有百科全书般的记忆，他回答了我准备的每一个问题。也许是他无可争议的反主流文化形象掩盖了他的可爱之处。但是，尽管美国人可能喜欢他背后的肯尼迪家族，但民主党肯定不喜欢。他的竞选活动向民主党施加来自外部但任然有党派倾向的压力，拜登不得不假装齐心协力以赢得连任。（注：小罗伯特·F·肯尼迪此前宣布退出民主党，独立参选 2024 美国总统）\nRFK 进来很匆忙。他的呼吸平稳，但双手握住茶杯时沉重得像职业拳击手。经过热情但简短的介绍后，正式采访在半小时后开始。\n\nGoodwin：如果你父亲今天还在，他会认识到民主党全国委员会的现状吗？肯尼迪民主党人对你来说意味着什么？\nRFK：我想说肯尼迪民主党是传统的民主党，是工人阶级、工薪阶层的政党。这是一个一直对环境问题非常重视的政党。它的传统是反战、对军事工业联合体持怀疑态度，对华尔街也持怀疑态度。我想说的是，采取的立场是阻止华尔街制定服务于企业贵族和企业盗贼统的政策，他们剥夺中产阶级、劳动人民和工会成员的财富和权力。\nGoodwin：这听起来不像今天的民主党全国委员会。\n罗伯特·肯尼迪：是的，不像。\nGoodwin：你打算如何对抗控制我们食品、媒体、货币和健康的超级垄断企业？\nRFK：每个部门都必须做一些不同的事情。确实，贝莱德（BlackRock）、道富银行（State Stre…",
+          "link": "https://www.odaily.news/post/5191218",
+          "publishedOn": "2023-11-23T07:40:09.000Z",
+          "wordCount": 1790,
+          "title": "专访小罗伯特·肯尼迪：总统竞选、比特币与个人自由",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5191213",
+          "author": "Ebunker",
+          "description": "以太坊 L2 TVL 创新高\n\n根据L2 Beat 数据显示， 11 月 20 日，以太坊L2上锁定的总价值（TVL）达 138 亿美元，创下新高。尽管L2在用户体验和安全性等方面仍存在一些挑战，但L2将继续保持整体上升的趋势。\n据L2 Beat 统计，有 32 种不同的网络符合以太坊L2的资格，包括 Arbitrum One、Optimism、 Base、Polygon zkEVM、Metis 等。从上图可见，自今年 4 月份以来，L2的 TVL 一直在下降，直到 6 月 15 日之后，TVL 开始转为积极增长，恢复到 100 亿美元以上。10 月底，TVL 达到了近 120 亿美元，此后市场对L2应用程序的投资继续攀升，达到目前的 138 亿美元。\n2021 年牛市期间，加密领域的投资比现在大得多，但目前L2网络 TVL 的上升却比牛市期间更加显著。2021 年 11 月 12 日，当加密货币总市值达到了 2.82 万亿美元的历史最高水平时，L2网络 TVL 仅不到 60 亿美元。根据 CoinMarketCap 的数据，目前加密货币的总市值跌约 50% ，但L2的 TVL 却上涨到了 138 亿美元。这说明了尽管当前市场仍处于熊市，但L2生态却在继续增长。\n以太坊在上个牛市周期的高 gas 费对市场和用户产生了重大影响，从而导致市场渴望在需求开始回来时有更好的替代方案。L2网络在熊市中蓬勃发展的另一个原因是由于众多开发团队的成功营销工作，导致了用户活动高度活跃，因此产生了较高的收益。 L2网络正在部署资本来吸引新用户，并将新业务吸引到 DeFi 中。\nL2面临挑战\n尽管如此，L2网络仍在用户体验领域面临挑战。Optimistic rollup 网络要求用户需要等待 7 天才能完成将资金从官方官网撤回L1，这可能导致用户体验不佳。另一方面，零知识证明网络（ZK 网络）可…",
+          "link": "https://www.odaily.news/post/5191213",
+          "publishedOn": "2023-11-23T07:29:40.000Z",
+          "wordCount": 2092,
+          "title": "以太坊L2生态现状与技术发展趋势浅析",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5191212",
           "author": "区块律动BlockBeats",
