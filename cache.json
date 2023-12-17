@@ -2664,66 +2664,6 @@
           "wordCount": 362,
           "title": "OKX：资产转移事件是由废弃的DEX做市商合约管理权限被盗而导致，将补偿用户资损约37万美金",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/x7beicm3.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据萨尔瓦多国家比特币办公室（ONBTC）透露，该国的\"自由签证\"项目自12月7日启动以来已收到数百个咨询和多份申请，并预计将在年底前售罄。该项目每年限制1000个名额​​。这个由El Salvador政府与稳定币发行商Tether合作推出的项目，是一种通过捐赠获得居留签证和公民身份的程序，面向愿意向该国捐赠100万美元比特币（BTC）或Tether（USDT）的1000人开放​​。",
-          "link": "https://panewslab.com/zh/articledetails/x7beicm3.html",
-          "publishedOn": "2023-12-13T04:02:31.000Z",
-          "wordCount": 352,
-          "title": "萨尔瓦多已收到数十份\"自由签证\"申请，1000个名额预计将在年底前售罄",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/5g9hreh3.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据慢雾区消息，OKX DEX 合约疑似出现问题，慢雾分析后发现：用户进行兑换时会授权给 TokenApprove 合约，DEX 合约通过调用 TokenApprove 合约转移用户代币。DEX 合约存在 claimTokens 函数，允许可信的 DEX Proxy 进行调用，其功能是调用 TokenApprove 合约的 claimTokens 函数转移已授权用户的代币。可信的 DEX Proxy 由 Proxy Admin 进行管理，Proxy Admin Owner 可以通过 Proxy Admin 升级 DEX Proxy 合约。\nProxy Admin Owner 在 2023-12-12 22:23:47 通过 Proxy Admin 升级了 DEX Proxy 合约到新的实现合约，新的实现合约功能是直接调用 DEX 合约的 claimTokens 函数转移代币。随后攻击者开始调用 DEX Proxy 窃取代币。Proxy Admin Owner 在 2023-12-12 23:53:59 再次升级了合约，实现功能与先前类似，升级后继续窃取代币。截止现在获利约 43 万 U。\n该攻击或为 Proxy Admin Owner 私钥泄漏，目前 DEX Proxy 已被移出受信列表。\n相关信息：\nDEX 合约：0x70cbb871e8f30fc8ce23609e9e0ea87b6b222f58\nOKX DEX TokenApprove 合约：0x40aa958dd87fc8305b97f2ba922cddca374bcd7f\nDEX Proxy：0x55b35bf627944396f9950dd6bddadb5218110c76\nProxy Admin：0x3c18F8554362c3F07Dc5476C3bBeB9Fdd6F6a500\nProxy Admin Owner：0xc82Ea2afE1Fd1D61C4A12f5CeB3D7000f564F5C6\n升级交易：\nhttps://etherscan.io/tx/0xc6a5a7bc31bbc9a7530189e718f7ed96789fa65c56c3a4a08079a95074e280c8\nhttps://etherscan.io/tx/0x22ebd267d7344780e6d63cf3a76bab57b8f8fa41cf58df1a2e1707d75d8bee89\n疑似攻击者：\n0xFacf375Af906f55453537ca31fFA99053A010239\n获利地址：\n0x1F14E38666cDd8e8975f9acC09e24E9a28fbC42d",
-          "link": "https://panewslab.com/zh/articledetails/5g9hreh3.html",
-          "publishedOn": "2023-12-13T03:55:03.000Z",
-          "wordCount": 529,
-          "title": "慢雾：OKX DEX Proxy Admin Owner私钥泄漏",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/hb9y7z6x.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据推特用户 @eno_eth 表示，社区成员 @axe_ping 声称钱包资金被盗，大量资金转入 0x1f14 开头的黑客地址，所有被盗钱包均授权给了 OKX DEX，其称很明显是Okx DEX被黑客攻击了，1 小时前 OKX 移除了被黑客攻击的代理地址。目前，慢雾团队正在追踪分析。\nENO还称，Okx Dex 合约创建人今天对Okx部分智能合约地址进行了升级，似乎攻击与本次升级有关。也怀疑是私钥泄露。",
-          "link": "https://panewslab.com/zh/articledetails/hb9y7z6x.html",
-          "publishedOn": "2023-12-13T03:36:36.000Z",
-          "wordCount": 384,
-          "title": "OKX DEX疑似被黑客攻击，目前已移除被黑客攻击的代理地址",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/aydm04tu.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据知情人士透露，马斯克旗下的社交网络平台X（原推特）2023年广告收入预计约为25亿美元，较往年大幅下滑。知情人士称，X在今年前三个季度中每个季度的广告收入都略高于6亿美元，预计当前季度表现也差不多。相比之下，去年每季度广告收入超过10亿美元。两位知情人士表示，广告收入目前占X总收入的70%-75%。这意味着2023年收入约为34亿美元，其中包括来自订阅和数据许可交易的销售。其中一位知情人士表示，X高管最初的目标是在2023年实现30亿美元的广告和订阅收入，但实际将远低于这个数字。不过由于假日季尚未结束，年度数据仍在变化中。",
-          "link": "https://panewslab.com/zh/articledetails/aydm04tu.html",
-          "publishedOn": "2023-12-13T03:21:36.000Z",
-          "wordCount": 335,
-          "title": "马斯克旗下X今年广告收入料将下滑至约25亿美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/xh0e6bme.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据GeckoTerminal数据，Solana 生态流动性质押协议 mSOL（Marinade staked SOL）于今日凌晨 00:45-02:00 间在Orca（DEX）上与 SOL 汇率大幅下跌，一度跌超 15%。在此期间，mSOL 价格一度跌破 65 美元，随后反弹至 75 美元上方。\n链上数据显示，一名巨鲸（85b5jK…9PqTPA）在此期间抛售了价值超过 800 万美元的 mSOL，兑换为 USDT，引发了此次短暂脱钩。",
-          "link": "https://panewslab.com/zh/articledetails/xh0e6bme.html",
-          "publishedOn": "2023-12-13T03:19:39.000Z",
-          "wordCount": 388,
-          "title": "因巨鲸抛售，mSOL价格于今日凌晨曾短暂大幅下跌15%",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/82v1ud32.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，Bitget 昨日发布2023 年 11 月报告。该月共上线51种代币，现货交易量增长 82%，并升级了跟单交易功能，推出交易专家尊享模式。11月份共有5000名交易专家，以及超20,000名新用户使用跟单功能，交易专家总收益超445,000 美金。\n此外，11月10日，Bitget启动Builders全球行活动，首站为蒙巴萨科技大学。并推出Bitget Builder 限量版 NFT，为核心贡献者提供专属福利。在教育合作方面。与伦敦大学学院（UCL）展开教育合作，致力于推进行业发展。",
-          "link": "https://panewslab.com/zh/articledetails/82v1ud32.html",
-          "publishedOn": "2023-12-13T03:16:56.000Z",
-          "wordCount": 382,
-          "title": "Bitget 发布 11 月报告，现货交易量增长 82%",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
