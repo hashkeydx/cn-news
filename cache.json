@@ -2284,66 +2284,6 @@
           "wordCount": 336,
           "title": "美联储维持利率不变，点阵图暗示明年或降息75个基点",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/xkughr8w.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据官方公告，基于DAG的Layer1协议COTI宣布计划在2024年第二季度进行V2升级，并将推出注重dApp用户隐私的以太坊Layer 2。Coti V2预计于2024年年底前启动主网络。Coti V2将利用密码学保护交易隐私，采用Garbled Circuits方法。Coti V2预计于2024年年底前启动主网络。Coti V2将利用密码学保护交易隐私，采用Garbled Circuits方法。",
-          "link": "https://panewslab.com/zh/articledetails/xkughr8w.html",
-          "publishedOn": "2023-12-13T15:59:40.000Z",
-          "wordCount": 368,
-          "title": "COTI拟于明年Q2进行V2升级，将推出以太坊Layer 2",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/nssoka68.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据彭博社报道，加密货币交易所Blockchain.com是早期的比特币基础设施提供商之一，该公司计划在明年第一季度将员工人数增加25%，以进入尼日利亚和土耳其等新市场。\n该交易所还聘请了曾担任Kraken全球业务主管的Curtis Ting，帮助该公司在巴黎建立新的中心，并在欧洲各地创建当地实体，这些都需要遵守新的监管规定。Blockchain.com的欧洲业务目前由位于伦敦的单一实体管理。Blockchain.com首席执行官Peter Smith在接受采访时表示，该公司还将寻求更多的本地许可证。",
-          "link": "https://panewslab.com/zh/articledetails/nssoka68.html",
-          "publishedOn": "2023-12-13T15:36:34.000Z",
-          "wordCount": 339,
-          "title": "Blockchain.com计划明年Q1将员工人数增加25%，并将业务扩展至尼日利亚和土耳其",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/acp781rg.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据The Block报道，基于Avalanche的网络SEQ开发团队NodeKit完成120万美元Pre-Seed轮融资，Borderless Capital领投，Avalanche Blizzard Fund、Polygon Ventures和Wormhole Cross-Chain Ecosystem Fund参投。\nNodeKit正在构建SEQ，这是一个共享排序器的L1网络，将帮助rollup chains推出并去中心化其交易排序。SEQ将作为一个独立的区块链或子网在Avalanche生态系统中运行。SEQ的设计还将支持各种数据可用性层，例如Celestia。SEQ的测试网计划于2024年启动，随后发布主网。",
-          "link": "https://panewslab.com/zh/articledetails/acp781rg.html",
-          "publishedOn": "2023-12-13T15:28:31.000Z",
-          "wordCount": 362,
-          "title": "Avalanche生态Rollup网络SEQ开发团队NodeKit完成120万美元Pre-Seed轮融资",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/y1me177i.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据财联社报道，美国将出台第一版加密数字货币会计制度，以捕捉代币的高位和低点。根据新版FASB制度，将按公允价衡量加密货币。",
-          "link": "https://panewslab.com/zh/articledetails/y1me177i.html",
-          "publishedOn": "2023-12-13T15:19:09.000Z",
-          "wordCount": 342,
-          "title": "美国将出台首版加密货币会计制度，将按公允价衡量",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/y785yed4.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，以太坊联合创始人Vitalik Buterin发文探讨了ZK-EVM的概念及其可能实现形式。文章指出，当前的Layer-2 EVM协议（如Optimistic Rollups和ZK Rollups）需要依赖于EVM的验证机制，但这同时意味着他们必须信任庞大的代码库。一旦代码库中存在漏洞，这些虚拟机可能面临被攻击的风险。这意味着即使ZK-EVM想要保持完全的L1等效的，需要有某种形式的治理，把L1 EVM的变化复制到他们自己的EVM实现中。\nButerin提出的ZK-EVM概念旨在减少Layer 2项目对Ethereum协议功能的重复实现，并提高其在验证Layer 1 Ethereum区块时的效率。他还展望了未来光客户端（light clients）将更加强大，甚至可能利用 ZK-SNARKs（零知识证明）完全验证L1 EVM执行，届时Ethereum网络将实质上具备内置的ZK-EVM功能。\n文章还讨论了实现ZK-EVM的不同版本，包括它们的设计挑战、权衡利弊，以及为何某些方向可能不被采纳。强调了在实现协议功能时，应权衡其优势与保持基础协议简洁性的好处。对于ZK-EVM的关键属性，Buterin强调了其基本功能性、与Ethereum多客户端哲学的兼容性、数据可用性要求、可审计性和可升级性。此外，他还提到了对“almost-EVM”的支持，即允许L2的VM在与EVM只有微小差异的情况下，仍能使用协议内的ZK-EVM，同时也为EVM的部分定制化提供了灵活性。",
-          "link": "https://panewslab.com/zh/articledetails/y785yed4.html",
-          "publishedOn": "2023-12-13T15:15:46.000Z",
-          "wordCount": 370,
-          "title": "Vitalik发文探讨ZK-EVM的未来展望与挑战",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://panewslab.com/zh/articledetails/tp0v2kmb.html",
-          "author": "PA一线",
-          "description": "PANews 12月13日消息，据Techcrunch报道，专注于数字资产风险基础设施的Andalusia Labs(原名RiskHarbor)以超10亿美元估值完成4800万美元A轮融资，Lightspeed Venture partners领投，Mubadala Capital、Pantera Capital、Framework Ventures、Bain Capital Ventures和Digital Currency Group等参投。在获得新一轮融资的同时，Andalusia Labs还在阿布扎比开设了全球总部。新资金还将用于产品开发和扩大团队。到目前为止，该公司共筹集了约5100万美元。\n据悉，这家初创公司有三个主要的数字资产技术解决方案，一个是名为Karak的Layer 2区块链，一个是名为Subsea的加密风险管理市场，一个是名为Watchtower的以安全为中心的机构平台。所有这些都旨在通过各自的利基为机构、开发商和消费者提供数字资产支持。",
-          "link": "https://panewslab.com/zh/articledetails/tp0v2kmb.html",
-          "publishedOn": "2023-12-13T15:09:59.000Z",
-          "wordCount": 379,
-          "title": "数字资产风险基础设施初创公司Andalusia Labs以超10亿美元估值完成4800万美元A轮融资",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
