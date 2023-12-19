@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2023-12-19T00:36:41.854Z</updated>
+    <updated>2023-12-19T01:49:53.110Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
@@ -2517,130 +2517,6 @@ Solana 联合创始人 Raj Gokal 发推表示：“Saga 的销量在过去 48 �
         <link href="https://panewslab.com/zh/articledetails/9wbq13l8.html"/>
         <updated>2023-12-14T13:59:00.000Z</updated>
         <summary type="html"><![CDATA[PANews 12月14日消息，MetaMask在X平台就Ledger Connect漏洞发布提醒：用户在MetaMask Portfolio上执行任何交易之前，请确保已在MetaMask扩展中启用Blockaid功能。MetaMask Portfolio团队正在着手解决这个问题，并且已经准备好了一个补丁，将于今天发布。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[慢雾：使用Ledger Connect Kit 1.1.4以上版本的Dapp均受到影响，请注意排查]]></title>
-        <id>https://panewslab.com/zh/articledetails/vj5cau46.html</id>
-        <link href="https://panewslab.com/zh/articledetails/vj5cau46.html"/>
-        <updated>2023-12-14T13:47:59.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，2023年12月14日8:33 PM慢雾安全威胁情报发现@ledgerhq/connect-kit遭受供应链攻击，攻击者在@ledgerhq/connect-kit >1.1.4的版本中植入了恶意的JS代码从而对加密货币用户发起钓鱼攻击。使用@ledgerhq/connect-kit版本 >1.1.4 的Dapp均受到影响，请注意排查代码中是否有使用到如下受影响版本。
-影响版本范围：
-@ledgerhq/connect-kit 1.1.5 (攻击者在代码中进行留言)
-@ledgerhq/connect-kit 1.1.6 (攻击者在代码中进行留言并植入恶意的JS代码)
-@ledgerhq/connect-kit 1.1.7 (攻击者在代码中进行留言并植入恶意的JS代码)
-慢雾安全团队建议，在没有官方明确修复前，请谨慎使用DApp进行交互操作。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ledger：已识别并删除Ledger Connect Kit恶意版本，暂勿与任何dApp交互]]></title>
-        <id>https://panewslab.com/zh/articledetails/wsqp2b7y.html</id>
-        <link href="https://panewslab.com/zh/articledetails/wsqp2b7y.html"/>
-        <updated>2023-12-14T13:37:27.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，Ledger官方发帖称，已经识别并删除了Ledger Connect Kit的恶意版本。现在正推送一个正版版本来替换恶意文件。暂时不要与任何dApp交互。将随时向大众通报情况。用户Ledger设备和Ledger Live没有受到损害。
-此前消息，目前一个Web3项目常用的代码库（LedgerHQ的connect-kit）已被攻击，允许注入影响众多dApp的恶意代码。请用户切勿与任何dApp交互。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BTC生态稳定币协议bitSmiley完成首轮融资，OKX Ventures和ABCDE联合领投]]></title>
-        <id>https://panewslab.com/zh/articledetails/hd9hhpxi.html</id>
-        <link href="https://panewslab.com/zh/articledetails/hd9hhpxi.html"/>
-        <updated>2023-12-14T13:31:06.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，据官方消息，BTC生态稳定币协议bitSmiley宣布完成首轮融资，由OKX Ventures、ABCDE联合领投，具体金额未披露。
-据悉，该协议可让用户在BTC网络超额抵押原生BTC铸造稳定币bitUSD。同时，bitSmiley还囊括了借贷及衍生品协议，旨在为比特币提供一个全新的金融生态系统。此前，bitSmiley入选了今年11月由ABCDE和OKX Ventures联合举办的BTC黑客松的优质项目。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[慢雾：不少DApp依赖Ledger被投毒的库，请警惕所有DApp相关操作]]></title>
-        <id>https://panewslab.com/zh/articledetails/7ui7qt9u.html</id>
-        <link href="https://panewslab.com/zh/articledetails/7ui7qt9u.html"/>
-        <updated>2023-12-14T13:22:36.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，慢雾创始人余弦在X平台发文表示：“Ledger的一个模块被供应链劫持篡改了，特别注意下这个风险，主要是不知道影响面多广，可能不少DApp都有依赖Ledger被投毒的库ledgerhq/connect-kit。大家警惕下所有DApp相关操作，注意钱包待签名的请求信息是不是预期内的。
-此前消息，目前一个Web3项目常用的代码库（LedgerHQ的connect-kit）已被攻击，允许注入影响众多dApp的恶意代码。请用户切勿与任何dApp交互。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Revoke.cash确认遭受Ledger事故影响并暂时关闭网站]]></title>
-        <id>https://panewslab.com/zh/articledetails/itz7chfu.html</id>
-        <link href="https://panewslab.com/zh/articledetails/itz7chfu.html"/>
-        <updated>2023-12-14T13:18:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，Revoke.cash于X平台发文表示：“与Ledger ConnectKit库集成的多个常用加密应用程序（包括Revoke.cash）已受到损害。在进一步调查过程中，我们暂时关闭了该网站。我们建议在该漏洞利用期间不要使用任何加密网站。”
-此前消息，目前一个Web3项目常用的代码库（LedgerHQ的connect-kit）已被攻击，允许注入影响众多dApp的恶意代码。请用户切勿与任何dApp交互。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aava创始人：Aava Interface暂未受影响，Ledger澄清之前暂勿使用dApp]]></title>
-        <id>https://panewslab.com/zh/articledetails/291c9078.html</id>
-        <link href="https://panewslab.com/zh/articledetails/291c9078.html"/>
-        <updated>2023-12-14T13:16:00.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，Aava创始人Stani在X平台就此前Sushi CTO发布的警告表示，Aava上的Interface（接口）暂未受影响，所有资金安全。在Ledger进一步澄清之前，暂时不要使用dApp。
-此前消息，目前一个Web3项目常用的代码库（LedgerHQ的connect-kit）已被攻击，允许注入影响众多dApp的恶意代码。请用户切勿与任何dApp交互。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kyber Network：出于谨慎考虑已禁用前端UI]]></title>
-        <id>https://panewslab.com/zh/articledetails/mrgqxz7j.html</id>
-        <link href="https://panewslab.com/zh/articledetails/mrgqxz7j.html"/>
-        <updated>2023-12-14T13:11:19.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，跨链DEX项目Kyber Network在X平台发文表示，出于谨慎考虑，其已禁用前端UI，直到情况明确为止。
-此前消息，目前一个Web3项目常用的代码库（LedgerHQ的connect-kit）已被攻击，允许注入影响众多dApp的恶意代码。请用户切勿与任何dApp交互。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密货币托管公司Taurus开始对德国中小企业贷款进行代币化]]></title>
-        <id>https://panewslab.com/zh/articledetails/xj1ea6oj.html</id>
-        <link href="https://panewslab.com/zh/articledetails/xj1ea6oj.html"/>
-        <updated>2023-12-14T13:07:37.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，据CoinDesk报道，由德意志银行 (DBK) 支持的瑞士加密货币托管公司Taurus与专注于德国中小企业市场的金融科技贷款平台Teylor就贷款代币化达成合作，Teylor的信用投资组合代币的结构由Allen and Overy律师事务所监管，可在Taurus的TDX市场进行二级市场交易。
-Taurus联合创始人Lamine Brahimi表示，代币化过程涉及卢森堡的投资工具，符合瑞士和欧洲法规。Brahimi在接受采访时补充道，针对德国中小企业市场的代币化债务产品将在未来两周内获得一些机构投资者的“里程碑式”投资。Brahimi介绍称：“TDX市场是Taurus除了托管之外的其他业务，目前已经做了20多笔交易，其中包括代币化股权、债务、结构性产品和艺术品。就名义价值而言，迄今为止已超过10亿美元。”]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeFi资管协议Zapper的前端疑似被劫持]]></title>
-        <id>https://panewslab.com/zh/articledetails/lpdbc61s.html</id>
-        <link href="https://panewslab.com/zh/articledetails/lpdbc61s.html"/>
-        <updated>2023-12-14T12:53:15.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，慢雾首席信息安全官23pds转发X账号@g4sarah发布的帖子，该帖子称DeFi资管协议Zapper的前端疑似被劫持。
-此外，派盾表示，Sushi前端也已被入侵。早些时候消息，Sushi CTO警告称，切勿与任何dApp交互，且Ledger疑似存在可疑代码。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sushi CTO警告：切勿与任何dApp交互，且Ledger疑似存在可疑代码]]></title>
-        <id>https://panewslab.com/zh/articledetails/y0jlqrhf.html</id>
-        <link href="https://panewslab.com/zh/articledetails/y0jlqrhf.html"/>
-        <updated>2023-12-14T12:50:01.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，Sushi首席技术官Matthew Lilley在X平台上发布警告称：请用户切勿与任何dApp交互，直至另行通知。一个常用的Web3 connector（某JavaScript库，是web3-react项目的一部分）疑似已被破坏，允许注入影响众多dApp的恶意代码。随后，Lilley在评论中表示Ledger可能存在可疑代码。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[去中心化物理基础设施网络Hivello完成100万美元Pre-Seed轮融资]]></title>
-        <id>https://panewslab.com/zh/articledetails/30ywvb6o.html</id>
-        <link href="https://panewslab.com/zh/articledetails/30ywvb6o.html"/>
-        <updated>2023-12-14T12:46:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 12月14日消息，据美通社报道，去中心化物理基础设施网络(DePIN) Hivello宣布完成100万美元Pre-Seed轮融资，NGC、Blockchain Founders Fund、Side Door Ventures、IDG、Bing Ventures、MEXC Exchange、XT.com Exchange、Genesis Block和NxGen等参投。
-据悉，DePIN是指利用区块链技术和代币激励来构建物理基础设施网络，这样其他项目就不需要承担购买和运行自己的设备的成本。根据新闻稿， Hivello准备在今年圣诞节推出其技术，预计未来12个月内将集成100个DePIN。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
