@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-01-20T11:05:47.543Z</updated>
+    <updated>2024-01-20T12:12:28.796Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[币安合约将于今晚九点上线ONDO U本位永续合约]]></title>
+        <id>https://panewslab.com/zh/articledetails/md3f08nw.html</id>
+        <link href="https://panewslab.com/zh/articledetails/md3f08nw.html"/>
+        <updated>2024-01-20T11:10:45.000Z</updated>
+        <summary type="html"><![CDATA[PANews 1月20日消息，据官方公告，币安合约交易平台将于1月20日21:00推出高达50倍杠杆的USDⓈ-M ONDO永续合约。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Filecoin 23年Q4活跃交易环比增长23%，同比增长414%]]></title>
+        <id>https://panewslab.com/zh/articledetails/2lhzfn7v.html</id>
+        <link href="https://panewslab.com/zh/articledetails/2lhzfn7v.html"/>
+        <updated>2024-01-20T10:23:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 1月20日消息，Messari发布报告显示，Filecoin 在 23 年第 4 季度活跃交易环比增长 23%，同比增长 414%。同时，存储利用率从23 年第 3 季度的 13% 增长到 23 年第 4 季度的 18%，因为 Filecoin 的存储容量继续环比下降 15%。此外，截至 2023 年底，已有超过 1,800 个客户在 Filecoin 上加载了数据集，其中 465 个数据集大小超过 1,000 TiB，环比增长 10%，同比增长 196%。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一周前建仓API3的地址向币安充值45.3万枚代币，或获利60.3万美元]]></title>
         <id>https://panewslab.com/zh/articledetails/2rg1susi.html</id>
@@ -3665,57 +3685,6 @@ Alex Mashinsky的律师还主张法庭应因“缺乏公正通告”而撤销操
         <summary type="html"><![CDATA[PANews 1月16日消息，X平台用户@0xBoboShanti发帖称，Fantom生态项目Hector Network的社区成员最近表示担心，他们认为赎回合约早些时候被利用了270万美元。背景：经过长期低于账面价值的交易，Hector Network最终决定在2023年7月清算金库并将资金分配给HEC持有人。在此过程中会遇到许多困难，包括对财政部的进一步损失(如Multichain黑客攻击)。社区努力尝试（例如成立HectorCommunity.eth）并加快这一进程，并尽可能地保护金库资金。
 该用户表示：“今天早些时候，Hector Network似乎开始采取第一步来启用分发，部署了新的合约，1100万美元从多签地址转移到HectorRedemptionTreasury合约。要从HectorRedemptionTreasury接收资金，用户需要在TokenVault合约上调用mintWithdraw(…)，这将：1.从recipientTokens映射中检索用户的redeemAmount；2.调用内部mintwidraw ()；3._mintWithdraw()生成一个NFT，之后将资金从HectorRedemptionTreasury转移到用户，销毁NFT。在_mintwidraw()中有条件检查。最值得注意的是，它要求接收者存在于eligibleWallets映射中。那么，如果用户不在符合条件的钱包中，他们是如何兑换270万美元的呢？为什么他们的redeemAmount(从recipientTokens映射中获得)是270万美元呢？”
 该用户分析称，这是因为部署者明确地将这个钱包添加到映射中。TokenVault合约的部署者之前通过addEligibleWallet(…)添加了这个特定的钱包，金额约为279万美元。值得注意的是，这是仅有的两个钱包中的一个，作为合格的钱包添加到TokenVault合约中。(还添加了另一个钱包，可兑换2000美元)。收到USDC后，该钱包迅速通过Uniswap X将270万USDC兑换为1100枚ETH，然后440个ETH被发送到一个新的钱包，然后358个ETH被发送到另外4个新的钱包。不久之后，Hector Network multisig在HectorRedemptionTreasury上调用了withwall()，将剩余的900万USDC返还给multisig。在这个阶段，确认这是否是一个漏洞还为时过早，或者是一些非正统的测试，涉及将金库资金交换为ETH并分发到新的钱包(没有逻辑原因)。由于钱包是由部署者明确添加到TokenVault合约中的，因此最有可能的解释是私钥泄露或流氓开发人员。由于团队保持沉默，监控相关钱包可能是确定实际发生情况的唯一方法。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blast质押排名第四的巨鲸将56145枚BNB和810万枚USDT转入币安，或将用于新币挖矿]]></title>
-        <id>https://panewslab.com/zh/articledetails/tg28e6l0.html</id>
-        <link href="https://panewslab.com/zh/articledetails/tg28e6l0.html"/>
-        <updated>2024-01-16T00:12:09.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月16日消息，据链上分析师@ai_9684xtpa监测，Blast质押排名第四的巨鲸于一小时前从Venus借出56145枚BNB充值进币安（健康度1.5）；又向币安转移了810万枚USDT，分析师称其大概率会换成FDUSD。此外，分析师预测该巨鲸用这些代币参与币安新币挖矿（Manta）。
-币安新币挖矿将于01.16上午8点开始，持续两天。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Circle CEO：美国今年很有可能通过稳定币法律]]></title>
-        <id>https://panewslab.com/zh/articledetails/n1epjcrq.html</id>
-        <link href="https://panewslab.com/zh/articledetails/n1epjcrq.html"/>
-        <updated>2024-01-16T00:08:55.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月16日消息，据CNBC报道，Circle首席执行官Jeremy Allaire在瑞士达沃斯举行的世界经济论坛上接受采访时表示，美国今年通过稳定币法律的“机会非常大”，他认为，全球范围内加密行业的监管发展正在加快，美国比以前更有可能批准稳定币法律。他表示，其他政府在美国之前就开始监管美元，因此应尽快采取行动维护美国的领导地位并保护消费者。Circle首席战略官兼全球公共政策主管Dante Disparte也对Allaire的观点表示赞同，认为美国将于2024年出台稳定币规则。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jupiter将于1月31日推出JUP代币]]></title>
-        <id>https://panewslab.com/zh/articledetails/1i7ap746.html</id>
-        <link href="https://panewslab.com/zh/articledetails/1i7ap746.html"/>
-        <updated>2024-01-15T23:57:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月16日消息，Solana生态交易聚合器Jupiter联合创始人Meow推特发文宣布，协议代币JUP将于北京时间1月31日晚上10点推出。在推出JUP之前，团队计划先测试新的发布平台并完成JUPITER最终版本的白皮书。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国SEC同意将Do Kwon审判日期推迟，但反对将其案件与Terraform案件分开审理]]></title>
-        <id>https://panewslab.com/zh/articledetails/6jgtoxbr.html</id>
-        <link href="https://panewslab.com/zh/articledetails/6jgtoxbr.html"/>
-        <updated>2024-01-15T23:50:43.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月16日消息，据Cointelegrah报道，在1月15日向美国纽约南区地方法院提交的文件中，美国证券交易委员会（SEC）表示同意Do Kwon法律团队提出的将审判日期推迟至不早于3月18日的请求。文件中称：“SEC同意Do Kwon提出的适度休庭的要求，以便他可以参加审判。如果审判日期推迟，SEC谨请审判于2024年4月15日开始。” 然而尽管SEC同意了推迟审判日期的请求，但它反对将Do Kwon的案件与Terraform案件分开审理，并表示举行两次审判将不必要地要求证人，包括SEC的举报人和财力有限的散户投资者，在不同的审判中就相同的事实作两次证词。SEC于2023年2月提起诉讼，将Do Kwon和Terraform同时列为被告，指控他们策划了与UST和LUNA有关的“数十亿美元的加密资产证券欺诈”。据此前消息，Do Kwon的律师于1月11日致信法官Jed Rakoff，要求推迟1月份的审判，直到他能够亲自参加辩护。律师团队表示，Do Kwon引渡程序的进展比预期的要慢。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以太坊再质押协议Renzo完成320万美元种子轮融资，Maven11 Capital领投]]></title>
-        <id>https://panewslab.com/zh/articledetails/l6xf36kk.html</id>
-        <link href="https://panewslab.com/zh/articledetails/l6xf36kk.html"/>
-        <updated>2024-01-15T23:20:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 1月16日消息，据The Block报道，基于EigenLayer的以太坊再质押协议Renzo完成320万美元种子轮融资。本轮融资由Maven11 Capital领投，Figment Capital、SevenX Ventures、IOSG Ventures等参投，Renzo的投后估值达到2500万美元。Renzo计划利用新融资对其协议进行额外审计，增加其在Immunefi平台上的漏洞赏金计划的奖励，整合更多DeFi协议并扩大其团队规模。Renzo于去年8月成立，目前通过EigenLayer帮助用户再质押以太坊。该协议还计划在未来支持流动性质押代币（LST）。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
