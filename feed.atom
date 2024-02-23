@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-02-23T16:08:37.787Z</updated>
+    <updated>2024-02-23T17:06:33.826Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ava Labs工程主管：请将节点升级到AvalancheGo v1.11.1版本]]></title>
+        <id>https://panewslab.com/zh/articledetails/t0106jlu.html</id>
+        <link href="https://panewslab.com/zh/articledetails/t0106jlu.html"/>
+        <updated>2024-02-23T16:08:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月24日消息，Ava Labs工程主管Patrick O'Grady在X平台发文表示，请将节点升级到AvalancheGo v1.11.1版本，此版本禁用了v1.10.18中添加的导致验证器的逻辑互相发送过多的gossip。Avalanche验证器为每个对等方提供权益加权的带宽分配，这种有缺陷的逻辑导致每个节点的分配都充满了无用的交易gossip。这种动态阻止了验证器发出的拉取查询得到及时处理，并导致共识停滞。
+此前消息，Avalanche主网已宕机3小时48分钟。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Avalanche主网已宕机3小时48分钟]]></title>
+        <id>https://panewslab.com/zh/articledetails/ohoaoauo.html</id>
+        <link href="https://panewslab.com/zh/articledetails/ohoaoauo.html"/>
+        <updated>2024-02-23T16:01:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月23日消息，AVAX网络状态页面显示，Avalanche主网中断问题目前已持续3小时48分钟，尚未恢复。
+此前消息，Ava Labs联创表示，Avalanche主网中断或系与代码相关的错误有关，而非性能问题。]]></summary>
+        <author>
+            <name>PA一线</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[富达高管：比特币将占据当前银行和私人投资者持有的黄金市场近四分之一的份额]]></title>
         <id>https://panewslab.com/zh/articledetails/f2b97pqh.html</id>
@@ -4086,46 +4108,6 @@ RollApps将在Dymension的流动性层上推出其资产，创建模块化生态
         <link href="https://panewslab.com/zh/articledetails/116yb8ns.html"/>
         <updated>2024-02-19T05:13:53.000Z</updated>
         <summary type="html"><![CDATA[PANews 2月19日消息，据The Block报道，前Ripple董事总经理Navin Gupta被任命为加密情报公司Crystal Blockchain的新任首席执行官。Gupta将接替过去五年担任首席执行官的Marina Khaustova，后者将出任首席运营官。Crystal Blockchain专注于提供交易跟踪软件给企业和政府机构，与Chainalysis等竞争对手争夺市场。Gupta将在中东和亚洲地区推进公司的业务拓展​​。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[行情：ETH突破2900美元/枚]]></title>
-        <id>https://panewslab.com/zh/articledetails/x1dovo1p.html</id>
-        <link href="https://panewslab.com/zh/articledetails/x1dovo1p.html"/>
-        <updated>2024-02-19T04:39:19.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月19日消息，OKX行情显示，ETH价格突破2900美元，现报2891美元/枚，日内上涨约3%。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[行情：WLD突破6.6美元/枚，日内上涨超20%]]></title>
-        <id>https://panewslab.com/zh/articledetails/64pofggo.html</id>
-        <link href="https://panewslab.com/zh/articledetails/64pofggo.html"/>
-        <updated>2024-02-19T04:32:43.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月19日消息，OKX行情显示，WLD价格突破6.6美元，现报6.68美元/枚，日内上涨约21%。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[韩国执政党考虑将加密货币投资收益税的征收再次延期两年]]></title>
-        <id>https://panewslab.com/zh/articledetails/nl5hbed3.html</id>
-        <link href="https://panewslab.com/zh/articledetails/nl5hbed3.html"/>
-        <updated>2024-02-19T04:24:51.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月19日消息，据The Block报道，韩国执政党人民力量党正考虑在即将到来的大选活动中，将加密货币投资收益税的征收再次延期两年。该党表示，将优先建立加密货币的基本监管框架，而非对投资者征税，并计划在下届任期提出一系列加密行业的新规定。韩国的加密货币收益税原定于2023年1月1日开始征收，目前已推迟至2025年1月生效，又一次的延期将使税收计划启动时间推迟至2027年​​。]]></summary>
-        <author>
-            <name>PA一线</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Abraxas Capital疑似出售5002枚ETH，价值约为1412万美元]]></title>
-        <id>https://panewslab.com/zh/articledetails/yx0z9y1h.html</id>
-        <link href="https://panewslab.com/zh/articledetails/yx0z9y1h.html"/>
-        <updated>2024-02-19T04:10:25.000Z</updated>
-        <summary type="html"><![CDATA[PANews 2月19日消息，据@ai_9684xtpa监测，Abraxas Capital Management疑似出售了5,002枚以太坊（ETH），交易价值约为1412万美元。七小时前，该机构从Lido提取了其质押的3640枚ETH，并从Compound中取出2240枚ETH，随后这些ETH被全部充值进入了加密货币交易所Bitfinex。]]></summary>
         <author>
             <name>PA一线</name>
         </author>
