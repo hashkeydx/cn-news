@@ -2,10 +2,299 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-03-29T11:08:42.285Z</updated>
+    <updated>2024-03-29T12:14:03.607Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[启用SAFE代币可转让性提案开始投票，拟于4月15日结束]]></title>
+        <id>https://www.odaily.news/newsflash/361628</id>
+        <link href="https://www.odaily.news/newsflash/361628"/>
+        <updated>2024-03-29T12:12:33.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 此前由 12 位作者联合于 SafeDAO 社区治理论坛发起启用 SAFE 代币可转让性已启动提案投票，预计在 2024 年 4 月 15 日结束，如果获得批准，将于 2024 年 4 月 23 日启用转让功能。此前消息，SAFE 代币拟调用代币合约的 unpause 方法（使用 SafeSnap 模块），使代币可转让，未解锁的 SAFE 代币仍将保留在锁仓合约中，在启用 SAFE 代币可转让性后不可转让。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Euclid推出针对运营商的分级委托模式]]></title>
+        <id>https://m.theblockbeats.info/news/52545?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/52545?t=binance"/>
+        <updated>2024-03-29T12:10:35.000Z</updated>
+        <summary type="html"><![CDATA[EigenLayer 首次提出了再质押 (Restaking) 的概念，使得以太坊的质押者可以在获得原本 ETH 质押奖励的同时，通过再质押来给其他公链、预言机、中间件等服务商提供经济安全性并得到额外奖励。通过重新利用 ETH 来为不同的服务提供安全，不仅提高了质押者的资金利用效率，并显著增加了对不同服务商的信任保证。 
+
+
+新兴的流动性再质押解决方案 (Liquidity Restaking) 为用户提供了许多好处，但尚未解决再质押本身面临的挑战，包括意外罚没、运营商权威偏见和信任假设。为了有效应对这些挑战，Euclid 提出了针对运营商的分级委托模式。该机制旨在创建一个公平的委托环境，并促进运营商网络的去中心化。 
+
+
+要了解面临的挑战和解决方案，让我们从了解流动性再质押中的三个不同角色开始： 
+
+
+质押者：这些个人通过 EigenLayer 贡献其质押的 ETH，以提供经济安全性。 
+
+
+运营商：作为节点运行，这些实体通过 EigenLayer 为寻求通过 EigenLayer 获得安全性。更加去中心化的运营商网络意味着 EigenLayer 提供的服务的安全性更高。 
+
+
+主动验证服务（AVS）：他们通过 EigenLayer 从运营商那里租用安全服务，如区块链网络、跨链桥、预言机等。 
+
+
+下面的流程图描述了流动性再质押协议如何帮助用户进行再质押。质押者将 ETH/LST 存入流动性再质押平台。然后，该平台根据其自身选择将这些资金委托给运营商。收到委托后，这些运营商利用资金为 AVS 提供安全服务。作为回报，运营商将获得 AVS 提供的补偿奖励，并将其分配给用户。 
+
+
+
+
+
+尽管流动性再质押平台有效地简化了再质押过程，但它们仍然面临与再质押相关的固有挑战。 
+
+
+意外罚没：如果 AVS 或运营商在一些情况下面临意外罚没，例如触发了程序故障，质押者可能会损失资金。 
+
+
+运营商权威偏见：质押者或 AVS 会更加倾向于选择有权威有名气的大运营商。 
+
+
+信任假设：质押者和 AVS 需要相信运营商会诚实执行任务而不会被罚没。 
+
+
+Euclid 作为流动性再质押平台，一直在探索能够有效解决上述挑战的办法。我们认为，通过变革现有的委托模式，使得质押者、运营商和 AVS 三方之间形成利益绑定，能够有效化解上述风险。因此，我们提出了一种针对运营商委托权益的结构设立方法，这种方法称为分级委托模式。
+
+
+
+
+
+在分级委托模式下，运营商除了管理用户委托给他们的再质押资金，还需要拿出一部分自有资金用于再质押并委托给自己。此外，运营商需要质押 Euclid 的代币 ECL 作为分级组合的一部分。 
+
+
+优先级由质押者委托的资产组成； 
+
+
+劣后级包括运营商自我委托的资产和质押的$ECL 代币组成。 
+
+
+在恶意罚没事件中，分级委托模式确保了罚没过程的特定优先顺序。首先罚没的是运营商自我委托的资产，然后是运营商质押的$ECL 代币。 
+
+
+通过将这一模式嵌入运营商网络，将为质押者、运营商和 AVS 带来三赢局面，确保所有参与方都能获得利益和公平待遇。请参阅下面的流程图，其中描述了具有分级委托模式的流动性再质押过程。 
+
+
+
+
+
+对于运营商 
+
+
+分级委托确保了所有运营商被平等对待。通过自我委托资产和质押$ECL 代币，运营商可以赢得质押者的信任。在承担罚没风险的同时，运营商展示了他们诚实行事并为 AVS 提供服务的承诺。 
+
+
+该模式为运营商提供了强有力的激励，包括$ECL 质押奖励以及作为运营商的佣金收入。 
+
+
+对于 AVS 
+
+
+该模式促进了更多运营商的广泛参与，最大程度减少了对有限数量运营商的信任需求。 AVS 还可以利用经过筛选的和无许可的运营商组合，来显著降低运营商串通攻击的风险，并提高去中心化程度。 
+
+
+对于质押者 
+
+
+流动性质押服务有效降低了原生 ETH 质押的门槛。质押者可以灵活地将任意数量的 ETH 转换为 elETH，并将其质押在 EigenLayer 上。 
+
+
+通过使质押者将其资产分散在足够去中心化的运营商网络中，该模式减轻了与单一故障点相关的风险。 
+
+
+通过分级委托模式，质押者可以免受恶意资金罚没事件的影响。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yolo Investments向TON生态系统投资800万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/u410pf56.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/u410pf56.html"/>
+        <updated>2024-03-29T12:05:52.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月28日消息，专注于游戏、金融科技、区块链和新兴技术的风险投资公司Yolo Investments近日宣布对The Open Network（TON）生态系统进行了800万美元的投资。这表明了Yolo Investments对TON愿景的支持。该公司已经在多个基于TON的创业项目上进行了投资，包括Tonstarter, Fanton和PlayDeck。此外，此次合作还将支持learncrypto.com——一个领先的加密教育平台的成长和扩张，该平台计划引入更多针对TON的新内容。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget Wallet周度Swap交易量超MetaMask，交易订单量位列全球第一]]></title>
+        <id>https://www.odaily.news/post/5194194</id>
+        <link href="https://www.odaily.news/post/5194194"/>
+        <updated>2024-03-29T12:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Web3钱包Bitget Wallet的周度Swap交易量超越MetaMask，交易订单数创历史新高，位列全球Web3钱包第一。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Layer N与Modulus Labs合作推出人工智能工具AI Functions]]></title>
+        <id>https://www.odaily.news/newsflash/361627</id>
+        <link href="https://www.odaily.news/newsflash/361627"/>
+        <updated>2024-03-29T12:01:10.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Layer N 宣布与 Modulus Labs 合作推出人工智能工具 AI Functions，该工具允许开发人员在其应用程序中集成 AI 推理和 AI 用例。（CoinDesk）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[英国法官下令冻结Craig Wright的资产，以防止其逃避法庭费用]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/2m2fhzoe.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/2m2fhzoe.html"/>
+        <updated>2024-03-29T12:00:43.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月29日消息，据CoinDesk报道，英国法官James Mellor对Craig Wright的资产实施了全球冻结，总额达600万英镑，以防止他将资产转移海外，逃避与伪称比特币创始人中本聪相关案件的法庭费用。此前，Mellor法官在由加密开放专利联盟（COPA）提起的诉讼中裁定，Wright非比特币发明者中本聪。在判决后不久，Wright通知了英国公司注册处，他在RCJBR Holding公司的股份已转移到新加坡的DeMorgan公司。​​.]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文梳理近期值得关注的18个NFT新项目]]></title>
+        <id>https://www.odaily.news/post/5194193</id>
+        <link href="https://www.odaily.news/post/5194193"/>
+        <updated>2024-03-29T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[比特币、以太坊、 Solana和Polygon上有哪些值得关注的新项目？]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stellar发展基金会拟向Soroban生态建设项目分配100万美元的安全审计积分]]></title>
+        <id>https://www.odaily.news/newsflash/361626</id>
+        <link href="https://www.odaily.news/newsflash/361626"/>
+        <updated>2024-03-29T11:58:29.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Stellar 发展基金会宣布推出“Soroban 安全审计银行（Soroban Security Audit Bank）”，将与六家审计公司协调，向建立在 Soroban 之上的 20-30 个高优先级项目（管理链上价值的金融协议）分配 100 万美元的安全审计信用积分。（CoinDesk）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yolo Investment对Toncoin和TON生态进行800万美元投资]]></title>
+        <id>https://www.odaily.news/newsflash/361624</id>
+        <link href="https://www.odaily.news/newsflash/361624"/>
+        <updated>2024-03-29T11:51:54.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 风险投资公司 Yolo Investments 已对 Toncoin 和 TON 生态系统投资 800 万美元，通过此次合作，TON 基金会和 Yolo Investments 还将支持加密货币教育平台 learncrypto.com 的发展，后续将推出大量专为 TON 量身定制的内容。据悉，Yolo Investments 此前已投资了多家 TON 生态项目，包括 Tonstarter、Fanton 和 PlayDeck 等。（CoinDesk）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MOCA代币社区销售细节公布，总量8,888,888,888枚]]></title>
+        <id>https://www.odaily.news/newsflash/361623</id>
+        <link href="https://www.odaily.news/newsflash/361623"/>
+        <updated>2024-03-29T11:50:50.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Animoca Brands 旗下 Web3 项目 Mocaverse 发布博客公布其代币 MOCA 的社区销售细节。社区公开发售将分配给 Mocaverse NFT 持有者、Moca ID 用户和战略合作伙伴社区。MOCA 总供应量为 8,888,888,888 枚，社区公开发售将分配 126,984,127 枚 MOCA，需要 Moca ID 才能参与公开发售。对于 Moca NFT 持有者，需要确保将 NFT 链接到 Moca ID，以访问销售中的代币分配。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ronin Guild已在Base生态Guild.xyz上线]]></title>
+        <id>https://www.odaily.news/newsflash/361622</id>
+        <link href="https://www.odaily.news/newsflash/361622"/>
+        <updated>2024-03-29T11:42:12.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，Ronin 宣布旗下无代码平台 Ronin Guild 已在 Base 生态 Guild.xyz 上线，Guild.xyz 是一个 Base 生态管理基础设施，允许针对社区已使用的平台进行自动会员管理。上线 Guild.xyz 后，Ronin 将使游戏公会能够围绕各种链外和链上属性形成和发展，连接社交帐户、加密钱包并管理社区。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Safe启动代币可转让性提案，投票截止至4月15日]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/xi3bh341.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/xi3bh341.html"/>
+        <updated>2024-03-29T11:38:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月29日消息，智能钱包基础设施SAFE代币即将迎来转让性启用的重要提案。该提案预计在2024年4月15日前通过投票，若成功，将于2024年4月23日启用转让功能。此提案旨在通过调用代币合约的解除暂停（unpause）方法，使SAFE代币可转让，而未解锁的代币将保留在归属合约中，不受影响。提案包括三个投票选项：启用代币转让性、不作更改、弃权，采用单选投票制度。成功通过后，任何人可在特定期限内执行此提案，使代币可转让。该提案不仅增强了SAFE代币的即时应用，还为外部贡献者参与Safe治理投票机制打开了大门，支持Safe生态系统的增长。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bybit拟于4月3日下架YFIIUSDT永续合约]]></title>
+        <id>https://www.odaily.news/newsflash/361620</id>
+        <link href="https://www.odaily.news/newsflash/361620"/>
+        <updated>2024-03-29T11:35:53.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方公告，Bybit 将于 UTC 时间 2024 年 4 月 3 日上午 10 点下架 YFIIUSDT 永续合约，不再支持交易，据悉所有 YFIIUSDT 永续合约的有效订单和条件订单将被取消，所有 YFIIUSDT 永续合约未平仓合约均按照下市前最后 30 分钟指数均价进行平仓。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[马斯克：Grok 1.5将于下周推出，Grok 2将全面超过市面上所有AI]]></title>
+        <id>https://m.theblockbeats.info/flash/242132?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/242132?t=binance"/>
+        <updated>2024-03-29T11:35:10.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，3 月 29 日，马斯克在其社交平台表示，Grok 1.5 版本将于下周推出。此外，Grok 2 在所有指标上都将超过当前的 AI，现在正在训练中。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[贝莱德IBIT持仓已超25.2万枚比特币，市值逼近180亿美元]]></title>
+        <id>https://www.odaily.news/newsflash/361618</id>
+        <link href="https://www.odaily.news/newsflash/361618"/>
+        <updated>2024-03-29T11:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 贝莱德官方数据显示，截至 3 月 28 日，其现货比特币 ETF IBIT 比特币的持仓量已达到 252,011.4093 BTC，市值约合 17,832,735,583.58 美元，续创历史新高，当前流通股数量升至 440,040,000 份。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aptos Wallet Adapter最新版本支持AIP-62钱包标准]]></title>
+        <id>https://www.odaily.news/newsflash/361619</id>
+        <link href="https://www.odaily.news/newsflash/361619"/>
+        <updated>2024-03-29T11:31:03.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，Aptos Wallet Adapter 已经更新，以支持新的 AIP-62 钱包标准。官方推荐升级到 Wallet Adapter 最新版本，以提升用户和开发者的体验。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[星球晚讯]]></title>
+        <id>https://www.odaily.news/newsflash/361615</id>
+        <link href="https://www.odaily.news/newsflash/361615"/>
+        <updated>2024-03-29T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[1. Vitalik：用户参与 Meme 币因其价格可能上涨且有趣，希望看到更多好项目；
+2. Mask 多签地址两天前向 DWF Labs 关联地址转移 60 万枚 MASK；
+3. Prisma Finance 攻击者地址将 740 枚 ETH 转入 Tornado Cash；
+4. BNB Chain 上遭攻击的 ENA 系诈骗代币，与 Ethena Labs 无关；
+5. 某 GMT 吸筹地址再次从币安转出 3939 万枚 GMT；
+6. BONKbot：产品本身安全，未导出私钥的用户资金安全；
+7. Prisma Finance 攻击者链上留言：要求项目方回应合约审计和项目责任等问题；
+8. 分析：预计下周一美股开盘后 ETF 托管地址将净流入约 2581 枚 BTC；
+9. 比特大陆发布新款蚂蚁矿机 S21 Pro;
+10. Elon Musk 称 Grok 1.5 下周应该会在 X 上可使用；
+11. 10x Research：4 月通常是比特币表现相对强劲的月份；
+12. Bitwise 首席投资官：比特币 ETF 或吸引机构投入 1 万亿美元资金；
+13. 以太坊链上 DEX 昨日交易量超 21 亿美元；
+14. Vitalik：“Base 超越以太坊”就如同“得州奥斯汀超越美国”；
+15. Ordinals 开发者：Runestone 并非 NFT 收藏品，而将是 Meme 币。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget Wallet周度Swap交易量超MetaMask，交易订单量位列全球第一]]></title>
+        <id>https://www.odaily.news/newsflash/361617</id>
+        <link href="https://www.odaily.news/newsflash/361617"/>
+        <updated>2024-03-29T11:24:34.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Dune 数据显示，Web3 钱包 Bitget Wallet 周度 Swap 交易量超越 MetaMask，交易订单数创历史新高，位列全球 Web3 钱包第一。
+目前，Bitget Wallet 支持近 50 条链的自由交易，聚合了数百个 DEX 及跨链桥的流动性，首创无 Gas 交易和“自动滑点”功能。其智能行情涵盖实时更新的多维度行情榜单以及聪明钱等功能，帮助用户更好地发现和交易新资产。近期 Bitget Wallet 上线平台币 BWB 积分空投活动，用户在发现和交易热门币种的同时还可赢取 BWB 积分奖励。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Polymarket上关于“以太坊现货ETF是否会在5月31日前获批”的预测概率仅19%]]></title>
+        <id>https://www.odaily.news/newsflash/361616</id>
+        <link href="https://www.odaily.news/newsflash/361616"/>
+        <updated>2024-03-29T11:22:07.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 链上预测市场 Polymarket 上关于“以太坊（现货）ETF 是否会在 5 月 31 日前获得 SEC 批准”的预测概率目前为 19%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vanar Chain启动测试网Vanguard第五阶段]]></title>
         <id>https://www.odaily.news/newsflash/361614</id>
@@ -45,6 +334,47 @@ OKX Gloabl 首席商务官 Lennix Lai、Solana 基金会增长负责人 Anna Yua
         <summary type="html"><![CDATA[Scroll有在认真地对待其用户群。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[律动晚报｜Binance上线Ethena (ENA)挖矿；某交易员买入DEGEN收益已达272倍]]></title>
+        <id>https://m.theblockbeats.info/news/52539?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/52539?t=binance"/>
+        <updated>2024-03-29T10:58:03.000Z</updated>
+        <summary type="html"><![CDATA[精选要闻：
+1.比特币跌破 70,000 美元，24 小时跌幅 0.71%；
+2.某交易员 1 月份买入约 1.8 万美元 DEGEN，当前收益 272 倍；
+3.Binance 新币挖矿上线第 50 期项目，使用 BNB、FDUSD 挖矿 Ethena (ENA)；
+4.Vitalik：Worldcoin 一直在认真对待关于隐私方面的批评，其系统所需数据设计得越来越少；
+5.全网比特币合约未平仓头寸超 388 亿美元，创历史新高；
+
+
+价格观察
+
+
+比特币跌破 70,000 美元，24 小时跌幅 0.71%
+据 OKX 行情数据，比特币跌破 70,000 美元，现报价 69,906 美元，24 小时跌幅 0.71%。
+
+
+LQTY 突破 1.5 美元，24 小时涨超 14%
+据 OKX 行情数据显示，LQTY（Liquity）突破 1.5 美元，现报价 1.58 美元，24 小时涨超 14%。
+
+
+Aevo 上 Ethena Labs（ENA）期货合约现报价 0.722 美元
+据期权交易平台 Aevo 数据，Ethena Labs（ENA）期货合约现报价 0.722 美元，24 小时涨幅 29.06%，24 小时成交量 39.9 万美元。
+
+
+BNB 突破 600 美元
+据 OKX 行情信息，BNB 突破 600 美元，现报价 605 美元，24 小时涨幅超 3%。
+
+
+Bitget 每日行情资讯：BASE 生态 Meme 币 DEGEN 24 小时涨幅 78.56%
+据 Bitget 数据，领涨板块分别为 Optimism、Solana 以及铭文板块，其中 SONNE 24 小时涨幅 58.37%，SOLS 24 小时涨幅 19.97%，SOLS 24 小时涨幅 19.97%。
+
+
+截止发稿，实时涨幅榜单前三的币种分别为 CATCH、DCB、DEGEN。成交额榜单前三的…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
         </author>
     </entry>
     <entry>
@@ -97,6 +427,16 @@ OKX Gloabl 首席商务官 Lennix Lai、Solana 基金会增长负责人 Anna Yua
 Bobaoppa 是 SOL 链上预售量最大 Meme 项目，由麻吉大哥黄立成主导。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ARK Invest昨日减持约416万美元Coinbase股票]]></title>
+        <id>https://m.theblockbeats.info/flash/242120?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/242120?t=binance"/>
+        <updated>2024-03-29T10:42:12.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，3 月 29 日，Cathie Wood 旗下 ARK Invest 于 3 月 28 日共计减持 15,693 股 Coinbase 股票，约合 416 万美元。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
         </author>
     </entry>
     <entry>
@@ -25523,98 +25863,6 @@ Sui（SUI）将于 3 月 31 日 8:00 解锁 400 万枚代币，价值约 668 万
         <link href="https://www.panewslab.com/zh/sqarticledetails/3g8u8byl.html"/>
         <updated>2024-03-25T00:14:31.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月25日消息，CryptoQuant分析师认为，比特币牛市周期尚未结束，因为价格估值指标与过去牛市顶峰时还相差甚远。比特币在升至73700美元的历史高位后进入价格修正期，矿工、"鲸鱼 "和其他市场参与者，包括大型投资者，都开始抛售手中的比特币以获利了结。CryptoQuant还发现，未实现利润率飙升至69%，为2021年3月以来的最高水平，当时比特币的交易价格约为6万美元。尽管交易者正在抛售资产，但未实现利润率仍高达47%。从长期来看，比特币尚未触及本轮牛市周期的顶部，这也反映在低水平的新投资流动中。目前，大约48%的比特币投资来自短期投资者，而从历史上看，当短期投资者占84%-92%的投资时牛市周期结束。此外，估值指标尚未接近与过去牛市顶峰一致的水平。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一场针对BlockFi、FTX债权人的电子邮件钓鱼骗局已造成至少500万美元损失]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/mj8oey79.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/mj8oey79.html"/>
-        <updated>2024-03-25T00:13:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月25日消息，据The Block报道，上周，一个以太坊钱包涉嫌一个针对BlockFi和FTX等破产加密公司的债权人的复杂诈骗行为，已在过去一周不断盗取至少价值500万美元的加密货币和NFT，而且没有停止的迹象。
-安全专家Plumferno首先在X上的一个帖子中指出了这一操作，她发现钱包被盗的加密货币疑似源自加密公司BlockFi和FTX以及其他公司向现已破产的公司的债权人发送的一系列网络钓鱼邮件，黑客有可能从最初从电子邮件服务Mailer Lite窃取的数据中获取了电子邮件地址列表，该服务于1月份遭到黑客攻击，导致另一起网络钓鱼骗局，并带来了巨额损失。 Plumferno在她的帖子中写道：“这个骗局最糟糕的部分是，大部分资产都是从休眠钱包中被盗的，这些人可能受到BlockFi破产的影响，并且从那以后就没有再动过这些资金。其中一些受害者也可能还不知道自己被盗。”]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PermaDAO 第 59 期周报｜everPay 空投任务，内容公会选题库上线｜3.16-3.22]]></title>
-        <id>foresightnews-article#56357</id>
-        <link href="https://foresightnews.pro/article/detail/56357"/>
-        <updated>2024-03-25T00:07:26.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>PermaDAO</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[bazingahappy.sol过去一周购买3.14亿枚BOME，并在其铭文竞拍中暂时领先]]></title>
-        <id>https://www.odaily.news/newsflash/360656</id>
-        <link href="https://www.odaily.news/newsflash/360656"/>
-        <updated>2024-03-24T23:59:44.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 TungstenDAO 社区成员 Sunday Funday 在 X 平台发文表示，bazingahappy.sol 在过去的一周里购买了 3.14 亿枚 BOME，其目前还在 Darkfarms 发起的 Ordinal 拍卖中以 16,666,666 枚 BOME（约合 225,000 美元）的价格领先。
-根据 Darkfarms 披露的信息，此次拍卖将于 3 月 26 日 7:20 结束。
-此前消息，BOME 创始人 Darkfarms 在 X 平台发文寻求社区意见，他表示目前铭文 149970 正在竞拍中，该铭文或将采用 BOME 支付，拟考虑销毁部分 BOME 以进一步减少供应。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：价值1.65亿美元的代币将在本周解锁]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/dg4m4lwx.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/dg4m4lwx.html"/>
-        <updated>2024-03-24T23:55:35.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月25日消息，Token Unlocks数据显示，本周OP、PRIME和YGG等代币将迎来一次性大额解锁，总计释放价值1.65亿美元。其中：
-Optimism（OP）将于3月29日中午12点解锁2416万枚代币，价值约8432万美元，占流通供应量的2.4%；
-Echelon Prime（PRIME）将于3月31日上午8点解锁166万枚代币，价值约3753万美元，占流通供应量的4.65%；
-Yield Guild Games（YGG）将于3月27日晚上10点解锁1669万枚代币，价值约1689万美元，占流通供应量的5.39%。
-SingularityNET（AGIX）将于3月28日上午8点解锁884万枚代币，价值约926万美元，占流通供应量的0.69%。
-Sui（SUI）将于3月31日上午8点解锁400万枚代币，价值约668万美元，占流通供应量的0.32%。
-Acala（ACA）将于3月25日上午8点解锁466万枚代币，价值约89.9万美元，占流通供应量的0.48%。
-Euler（EUL）将于3月28日晚上8点30分解锁8.16万枚代币，价值约50.2万美元，占流通供应量的0.44%。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[本周解锁数据一览：OP、PRIME将迎来一次性大额解锁]]></title>
-        <id>https://m.theblockbeats.info/flash/240324?t=binance</id>
-        <link href="https://m.theblockbeats.info/flash/240324?t=binance"/>
-        <updated>2024-03-24T23:44:52.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，3 月 25 日，据 Token Unlocks 数据显示，本周 OP、PRIME、YGG 将迎来代币一次性大额解锁，其中：
-
-Acala（ACA）将于 3 月 25 日 8:00 解锁 466 万枚代币，价值约 89.9 万美元，占流通供应量的 0.48%；
-
-Yield Guild Games（YGG）将于 3 月 27 日 22:00 解锁 1669 万枚代币，价值约 1689 万美元，占流通供应量的 5.39%；
-
-SingularityNET（AGIX）将于 3 月 28 日 8:00 解锁 884 万枚代币，价值约 926 万美元，占流通供应量的 0.69%；
-
-Optimism（OP）将于 3 月 29 日 12:00 解锁 2416 万枚代币，价值约 8432 万美元，占流通供应量的 2.4%；
-
-Echelon Prime（PRIME）将于 3 月 31 日 8:00 解锁 166 万枚代币，价值约 3753 万美元，占流通供应量的 4.65%；
-
-Sui（SUI）将于 3 月 31 日 8:00 解锁 400 万枚代币，价值约 668 万美元，占流通供应量的 0.32%。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dolomite：已成功追回被盗资金的90%，将于本周内公布分配计划]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/vsta6tn9.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/vsta6tn9.html"/>
-        <updated>2024-03-24T23:42:43.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月25日消息，货币市场协议Dolomite在推特发文称，已成功追回被盗资金的90%。将在本周内向每位受害者发布一份分配计划、一份详细的漏洞时候分析报告和一份事件日志。据此前消息，PeckShield监测显示，Dolomite Exchange的旧合约遭受攻击，导致约200万美元的损失。攻击者将盗取的USDC代币换成了大约541.5个以太坊（ETH），价值约190万美元，以及94000个DAI代币。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[行情：比特币突破67000美元，24小时涨幅4.4%]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/sfxv4py4.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/sfxv4py4.html"/>
-        <updated>2024-03-24T23:37:38.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月25日消息，行情显示，比特币突破67000美元，目前报67,300.48美元，24小时涨幅4.4%。与此同时，以太坊突破3400美元，目前报3,453.67美元，24小时涨幅2.78%。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
