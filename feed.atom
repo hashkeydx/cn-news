@@ -2,10 +2,274 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-04-01T09:09:38.888Z</updated>
+    <updated>2024-04-01T10:09:31.016Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OKX将上线Wormhole（W）]]></title>
+        <id>https://www.odaily.news/newsflash/361970</id>
+        <link href="https://www.odaily.news/newsflash/361970"/>
+        <updated>2024-04-01T10:08:45.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 OKX 即将上线 Wormhole（W），充值已开放，W/USDT 交易将于4 月 3 日下午 8:00（UTC+8）开放，4 月 4 日下午 8:00（UTC+8）开放提币。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[链游Space Nation Online将于4月1日推出封闭测试版]]></title>
+        <id>https://www.odaily.news/newsflash/361969</id>
+        <link href="https://www.odaily.news/newsflash/361969"/>
+        <updated>2024-04-01T10:05:11.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 链游 Space Nation Online 计划在 PC 平台上推出封闭测试版，测试将于 4 月 1 日至 4 月 22 日进行，历时 21 天。封闭测试版将提供精心设计的游戏体验，包括探索、挑战、交易、打金和挖矿等，让玩家尽情享受游戏乐趣并体验游戏玩法的多样化。玩家将有机会初探游戏乐趣和利益，共分发 225 万 OIK 代币，通过游戏内贡献系统进行分配。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OKX将上线Wormhole (W)]]></title>
+        <id>https://m.theblockbeats.info/flash/242755?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/242755?t=binance"/>
+        <updated>2024-04-01T10:05:00.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 1 日，据官方公告，OKX 即将上线 Wormhole (W)，具体时间安排如下：
+
+W 开放充币时间：4 月 1 日下午 6:00 (UTC+8)
+
+W/USDT 开盘时间：4 月 3 日下午 8:00 (UTC+8)
+
+W 开放提币时间：4 月 4 日下午 8:00 (UTC+8)
+
+据悉，Wormhole 是一个为大规模多链应用程序和桥梁提供支持的互操作平台，代币 W 发行总量为 100 亿枚。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitalik发布关于以太坊协议简化和节点资源负载减少（Purge）的后续步骤说明]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/jigmsxom.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/jigmsxom.html"/>
+        <updated>2024-04-01T10:04:08.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月1日消息，以太坊联合创始人Vitalik Buterin发文《关于以太坊协议简化和节点资源负载减少的后续步骤“净化（Purge）”说明》，Vitalik表示，Dencun硬分叉中的EIP-6780移除了SELFDESTRUCT操作码的大部分功能，通过消除复杂性并添加新的安全保证来简化协议。因此Vitalik将其标记为“净化（Purge）”的重要部分，关于正在发生的其他“净化（Purge）”，Vitalik举了三个例子：1.Geth最近通过放弃对合并前（PoW）网络的支持，删除了数千行代码。；2.EIP-161正式确立了这样一个事实：即我们不再需要有代码来担心“空账户”，该提案作为对上海DoS攻击的修复措施的一部分引入了此概念；3.Dencun中的blob的18天存储窗口，意味着以太坊节点只需要大约500GB来存储blob数据，并且这个数量不会随着时间的推移而增加。前两点显著改善了客户端开发人员的工作体验，而最后一点则显著改善了节点运营者的工作体验。此外，关于还有哪些方面可能需要“净化（Purge）”，Vitalik列出了预编译、历史记录（EIP-4444）、LOG改革、以及迁至SSZ。
+关于预编译，Vitalik指出：“部分预编译的需求远低于预期，这些预编译函数是共识错误的巨大来源，也是新EVM实现的巨大痛点。有两种方法可以删除这些预编译：1.只需删除预编译，例如EIP-7266会删除BLAKE2；2.用一段执行相同操作的EVM代码替换预编译（尽管不可避免地需要更高的gas成本）。”关于历史记录，Vitalik指出：“一个需要解决的关键问题是：如果旧的历史记录不是由每个节点都存储，那么谁会存储呢？实际上，大型实体，如区块浏览器将会存储。但是，也有可能并且不难制作对等网络协议来存储和传递这些信息，这些协议更适用于这项任务。以太坊区块链是永久性的，但要求每个节点永久存储所有数据是一种非常‘过度’的永久性实现方式。简单的点对点旧历史记录torrent网络是一种方法。为以太坊使用而更明确优化的协议是另一种方法。EIP-4444可以极大地提高以太坊节点的去中心化程度。如果每个节点默认只存储历史记录的一小部分，那么理论上，每个特定的历史记录片段在网络上的存储副本数量可能大致与今天相同。”
+关于LOG改革，Vitalik指出：“我们可以移除布隆bloom，并简化LOG操作码，使其仅创建一个值并将其哈希到状态中。然后，我们可以构建使用ZK-SNARKs和增量可验证计算（IVC）的单独协议，以生成可证明正确的‘日志树’，这些树代表一个给定主题的易于搜索的日志表，需要日志并希望去中心化的应用可以使用这些单独的协议。”关于迁至SSZ，Vitalik表示：“以太坊共识层已转向更清洁、更高效的SimpleSerialize (SSZ)，然而仍然需要完成过渡，并将执行层转移到相同的结构。如今，以太坊中有三种加密数据结构：SHA256二叉树、SHA3 RLP哈希列表和六进制Patricia树。一旦我们完成了向SSZ的过渡，将只剩下两种：SHA256二叉树和Verkle树。在更长远的未来，一旦我们足够擅长于使用SNARK进行哈希运算，可能会用二叉Merkle树替换SHA256二叉树和Verkle树，这种树使用适合SNARK的哈希算法。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenLeverage：保险、OLE回购资金和协议储备将覆盖所有损失]]></title>
+        <id>https://www.odaily.news/newsflash/361968</id>
+        <link href="https://www.odaily.news/newsflash/361968"/>
+        <updated>2024-04-01T09:58:57.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 DeFi 借贷协议 OpenLeverage 在 X 平台发文表示，最近的攻击事件导致 BNB Chain 上损失约 22 万，Arbitrum 链上损失约 4 万。值得庆幸的是，OpenLeverage 的协议内保险、OLE 回购资金和协议储备将覆盖所有协议损失，因此，用户资金不会遭受损失。
+基于此，OpenLeverage 决定停止 OpenLeverage 交易和借贷协议。OpenLeverage 正在启动用户关闭交易/借贷和安全提取资金的流程。所有协议操作将保持暂停状态，直到下周初开始提款流程。黑客返还资金将获得赏金，追踪和法律程序将立即启动。
+此前消息，据派盾监测，DeFi 借贷协议 OpenLeverage 遭攻击，损失约 23.6 万美元。之后 OpenLeverage 在 X 平台发文表示，OpenLeverage 协议暂停，调查正在进行中。累积的保险和回购资金应该能够弥补损失。D1 不受影响。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget研究院：BTC突破7万美元试探上方阻力位，Base链Meme财富效应显著]]></title>
+        <id>https://www.odaily.news/post/5194235</id>
+        <link href="https://www.odaily.news/post/5194235"/>
+        <updated>2024-04-01T09:47:47.000Z</updated>
+        <summary type="html"><![CDATA[BTC 现货 ETF 连续 4 日净流入，BTC 重返 70000 美金上方测试阻力位。周末 Base 生态 meme coins 造富效应强劲，推动 Base 生态 TVL 和 DEX 交易量双双突破历史新高。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[活动速递丨2024香港Web3嘉年华4月即将开幕，周边活动汇总]]></title>
+        <id>https://m.theblockbeats.info/news/52350?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/52350?t=binance"/>
+        <updated>2024-04-01T09:46:43.000Z</updated>
+        <summary type="html"><![CDATA[2024 香港 Web3 区块链周将于 4 月 6 日至 4 月 9 日在香港会展中心举办，活动由万向区块链实验室、HashKey Group 联合主办。本次活动持续四天，包括 4 个会场，活动将围绕 Web3 各个赛道的核心议题，邀请全球最聪明的大脑、最热门和最具潜力的专案分享 Web3 技术方案；也将邀请知名投资机构参与其中，更有监管机构代表深度解析监管政策，明晰发展边界。同时，秉承 Web3 开放合作精神，主办方还将招募合作伙伴，共建活动内容，共谋发展。
+
+
+详情请访问活动官网：https://www.web3festival.org/
+
+
+
+
+
+以下是关于香港 Web3 区块链周线下活动：
+
+
+3 月 27 日
+
+
+BIG DEMO DAY
+时间：3 月 27 日 10:00-18:00
+地点：香港数码港
+主办方：数码港 Cyberport、852Web3
+活动链接：https://lu.ma/3sbpxwl1
+
+
+Wow Summit Hong Kong 2024
+时间：3 月 26 日 - 3 月 27 日 10:00-16:45
+地点：siaWorld-Expo, Airport Expo Blvd, Chek Lap Kok, Hong Kong
+主办方：WOW Summit 
+活动链接：https://hongkong2024.wowsummit.net/
+
+
+4 月 3 日
+
+
+Sui Hong Kong Community Meetup
+时间： 4 月 3 日 19:00 - 22:30
+主办方：SUI
+地点：Ooosh Coworking Central by Ooosh Tech Lab
+活动链接：https://lu.ma/suihkmeetup
+
+
+Digital AssetsAsia 2024
+时间：4 月 3 日 14:00-18:00
+地…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[泰国加密交易所Bitkub计划于2025年进行IPO]]></title>
+        <id>https://www.odaily.news/newsflash/361967</id>
+        <link href="https://www.odaily.news/newsflash/361967"/>
+        <updated>2024-04-01T09:43:14.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 泰国最大加密货币交易所的所有者 Bitkub Capital Group Holdings 首席执行官 Jirayut Srupsrisopa 在周一接受采访时表示，其公司计划于 2025 年进行 IPO。
+Jirayut 表示，Bitkub 计划在泰国证券交易所上市，以提高公司的知名度并募集资金。Bitkub 正在为上市聘请财务顾问。（彭博社）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[泰国最大加密交易所Bitkub正为其2025年IPO计划聘请顾问]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/c14p96ca.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/c14p96ca.html"/>
+        <updated>2024-04-01T09:40:33.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月1日消息，据彭博社报道，泰国最大加密交易所的所有者Bitkub Capital Group Holdings首席执行官Jirayut Srupsrisopa在周一接受采访时表示，该公司计划于2025年进行首次公开​​募股。Jirayut表示，Bitkub计划在泰国证券交易所上市，以提升公司形象并筹集资金。他补充说，Bitkub正在为上市聘请财务顾问。
+Bitkub早些时候曾在一封股东信中表示计划在2023年在泰国进行IPO，但没有具体说明目标时间框架。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SubQuery宣布支持Japan Open Chain]]></title>
+        <id>https://www.odaily.news/newsflash/361966</id>
+        <link href="https://www.odaily.news/newsflash/361966"/>
+        <updated>2024-04-01T09:40:24.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，数据索引工具 SubQuery 宣布支持与以太坊兼容的 Layer 1 公链 Japan Open Chain，其网络参与者现可使用 SubQuery 数据索引器。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[入门指南：如何玩转Degen生态？]]></title>
+        <id>https://www.odaily.news/post/5194232</id>
+        <link href="https://www.odaily.news/post/5194232"/>
+        <updated>2024-04-01T09:36:40.000Z</updated>
+        <summary type="html"><![CDATA[Slay周末全场的Degen生态怎么入门？]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Curve团队建议更改以太坊上LlamaLend的利率参数]]></title>
+        <id>https://www.odaily.news/newsflash/361965</id>
+        <link href="https://www.odaily.news/newsflash/361965"/>
+        <updated>2024-04-01T09:34:41.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Curve 团队在论坛发起提案，建议更改其借贷平台 LlamaLend 在以太坊网络的利率参数。
+拟议的变更涉及 WETH 和 tBTC 市场的利率设置为最低 0.5%以及最高 25%、wstETH 设置为 1%至 30%、CRV 设置为 3%到 60%。该提案表示更改的目标是使利用率为 80% 时的借款利率大致等于当前市场利率。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[出圈靠Meme？Notcoin能否助力TON脱颖而出?]]></title>
+        <id>https://m.theblockbeats.info/news/52592?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/52592?t=binance"/>
+        <updated>2024-04-01T09:30:01.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《病毒式传播的 Notcoin，能否成为 Ton 生态破圈的 meme 币？》
+原文作者：Alfre、LD Capital
+
+
+一、背靠 9 亿月活的 TON
+
+
+The Open Netwotk(TON) 原名 Telegram Open Network，由 Telegram 团队在 2018 年创建，在 ICO 时代受到 SEC 指控进行了未经注册的证券发行后，Telegram 团队支付了罚款达成和解并放弃了该项目，由社区 TON Foundation 继续开发与运营。虽然与 Telegram 在名义上进行了脱离，但是二者的实际联系依然直接，TON 一直是 Telegram 明牌官方支持的唯一的公链并持续与 Telegram 深度集成，TON 将持续受益于 Telegram 巨大的用户基础和流量入口，Telegram 将通过支持 TON 来构建一个具有自由，隐私的去中心化数字生态。
+
+
+Telegram 以坚持言论自由和保护隐私的主张吸引了全球众多用户，其注册用户超过 13 亿，月活用户（MAU）近 9 亿。同时 Telegram 在 Web3 用户获取极具优势，得益于宽松的言论氛围和监管环境，几乎所有 Web 3.0/Crypto 项目都在 Telegram 运营社群，且 Telegram 的用户分布集中在亚洲、欧洲、南美和中东地区，散户特征较为明显，点对点支付需求旺盛，是较为理想的 Web3 待转化群体。
+
+
+近期，除了 Telegram 创始人 Durove 向表示正在考虑进行 IPO 的打算之外；Durove 在个人频道里明牌宣告 TON 代币的官方出售渠道；Telegram 广告平台将正式向近百个新国家的所有广告主开放，为了确保广告支付和提款的快速和安全，将专门使用 TON 区块链，内容创作者将能够兑现他们的 Toncoin，或者将其重新投资以推广和…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HECO攻击者地址已将470万枚TRX转至新地址]]></title>
+        <id>https://www.odaily.news/newsflash/361964</id>
+        <link href="https://www.odaily.news/newsflash/361964"/>
+        <updated>2024-04-01T09:29:21.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据派盾监测，HECO 攻击者地址已将约 470 万枚 TRX（约合 56.65 万美元）转移到新地址 TWetBM...Dk2S。此外，该地址已将约 58.1 万枚 TRX（约合 7.042 万美元）转移到 TFUasM...cWD。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scam Sniffer：2个钱包里约290万美元BTC可能被盗]]></title>
+        <id>https://www.odaily.news/newsflash/361963</id>
+        <link href="https://www.odaily.news/newsflash/361963"/>
+        <updated>2024-04-01T09:24:32.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Scam Sniffer 监测，疑似 2 个钱包里价值约 290 万美元的 BTC 可能被盗，被盗资金已被转换为 ETH。
+此外，据 MistTrack 监测数据，来自两个钱包的资金与此前发生 400 万美元 Rug Pull 事件的 Kokomo Finance 相关联。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3月份NFT销售额共计约14.13亿美元，环比上涨14.6%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/wq1mqvrc.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/wq1mqvrc.html"/>
+        <updated>2024-04-01T09:20:43.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月1日消息，CryptoSlam追踪的22条区块链上的NFT销售额数据显示，2024年3月份NFT销售额共计约14.13亿美元，较2月份的12.33亿美元上涨14.6%（较上月新增Blast链上数据）。在这些销售额中，以太坊链上NFT销售额占比达36.39%，约5.14亿美元，位居第一。比特币链上NFT销售额占比达34.68%，约4.9亿美元，排名第二。其次是Solana(2.43亿美元)、Polygon（3364万美元）、Mythos（3224万美元）、BNB（3136万美元）。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安将不再支持多个空投代币/已下架代币的提现业务，并将余额转换为USDT]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/nko0ofm8.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/nko0ofm8.html"/>
+        <updated>2024-04-01T09:12:52.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月1日消息，据官方公告，币安将基于用户在快照时间2024年04月21日08:00（东八区时间）于币安钱包的持仓量，将以下代币余额转换为等值USDT。币安将于2024年10月21日07:59（东八区时间）前将用户钱包中的以下代币余额转换为等值USDT。2024年04月21日07:59（东八区时间）后，币安将不再支持下列空投代币/已下架代币的提现业务。用户可在此时间前进行提现。
+受影响的币种：Moeda Loyalty Points（MDA）、Helium（HNT）、Mithril（MITH）、DFI.Money（YFII）、Mirror Protocol（MIR）、Venus Reward Token（VRT）、TokenClub（TCT）、Augur（REP）、EasyFi（EZ）、Swerve（SWRV）、Boba Network（BOBA）、Serum（SRM）、Raiden Network Token（RDN）、Cobak Token（CBK）、OnX Finance（ONX）。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从“跑路”中归来：一文读懂gm.ai的Solana生态野望]]></title>
+        <id>https://www.odaily.news/post/5194227</id>
+        <link href="https://www.odaily.news/post/5194227"/>
+        <updated>2024-04-01T09:10:21.000Z</updated>
+        <summary type="html"><![CDATA[立志成为Solana生态AI执行层。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安将不再支持HNT、SRM等代币提现并将相关代币余额转换为USDT]]></title>
+        <id>https://www.odaily.news/newsflash/361962</id>
+        <link href="https://www.odaily.news/newsflash/361962"/>
+        <updated>2024-04-01T09:08:02.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方公告，币安将基于用户在快照时间 4 月 21 日 08:00（东八区时间）于币安钱包的持仓量，将以下代币余额转换为等值 USDT。币安将于 10 月 21 日 07:59（东八区时间）前将用户钱包中的以下代币余额转换为等值 USDT。
+4 月 21 日 07:59（东八区时间）后，币安将不再支持下列空投代币/已下架代币的提现业务。用户可在此时间前进行提现。受影响的币种：
+Moeda Loyalty Points（MDA）、Helium（HNT）、Mithril（MITH）、DFI.Money（YFII）、Mirror Protocol（MIR）、Venus Reward Token（VRT）、TokenClub（TCT）、Augur（REP）、EasyFi（EZ）、Swerve（SWRV）、Boba Network（BOBA）、Serum（SRM）、Raiden Network Token（RDN）、Cobak Token（CBK）、OnX Finance（ONX）。
+兑换将根据 4 月 21 日 08:00 至 10 月 21 日 07:59（东八区时间）期间，代币兑 USDT 平均汇率作为兑换汇率。请注意：币安将在完成上述代币兑换 USDT 后更新本公告，并向所有受影响的用户单独发送电子邮件。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bithumb发布2023年年报：收入1358亿韩元，净利润为243亿韩元]]></title>
         <id>https://m.theblockbeats.info/flash/242740?t=binance</id>
@@ -17520,67 +17784,6 @@ He pointed out that strong economic and employment conditions are further reason
         <summary type="html"><![CDATA[PANews 3月28日消息，据彭博社报道，亚马逊公司表示，将向Anthropic追加投资27.5亿美元。此次注资使亚马逊对Anthropic的总投资达到40亿美元。作为合作的一部分，Anthropic还同意使用亚马逊网络服务数据中心以及亚马逊定制的计算机芯片。去年5月，Anthropic完成4.5亿美元C轮融资，星火资本(Spark Capital)领投，谷歌参投。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ethena将于4月2日向用户空投ENA代币]]></title>
-        <id>https://www.odaily.news/newsflash/361285</id>
-        <link href="https://www.odaily.news/newsflash/361285"/>
-        <updated>2024-03-27T21:58:49.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 提供价值 13 亿美元 USDe 代币的 DeFi 协议 Ethena 公布了计划，计划于 4 月 2 日向用户空投代币。该协议计划空投 7.5 亿个 ENA 代币，占总供应量的 5%。赚取“积分”的活动将于 4 月 1 日结束，该活动使用户有资格获得代币空投。在此日期之前取消质押、解锁或出售所有 USDe 的用户将没有资格获得空投。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以太坊的blobs正在被用来创建大量铭文]]></title>
-        <id>https://www.odaily.news/newsflash/361284</id>
-        <link href="https://www.odaily.news/newsflash/361284"/>
-        <updated>2024-03-27T21:57:10.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Dune Analytics 的数据显示，以太坊的 blobs 正在被用来创造铭文，这与比特币上的 Ordinals 非常相似，创造的速度达到了记录水平。根据一个名为 Hildobby 的 Dune Analytics 用户的数据，3 月 27 日见证了 2,437 个 blob 铭文，占当日发布 blobs 的 22.8%。这是在其他以太坊 L2 中，如 Arbitrum、Optimism、Base 和 Linea，发布的 blobs 使用量最高的记录。此外，blob 铭文的增加与 Base 上的费用激增相吻合，费用一度达到 300 美元，然后下降到大约 30 美元。由于 blob 引起的大区块大小，以太坊也在经历 slot 利用率的下降。（The Block）]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现货比特币ETF3月27日净流入约2.4亿美元]]></title>
-        <id>https://www.odaily.news/newsflash/361283</id>
-        <link href="https://www.odaily.news/newsflash/361283"/>
-        <updated>2024-03-27T21:54:37.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据 Lookonchain 数据，3 月 27 日 9 支比特币现货 ETF（包括灰度）增持 3,469 枚 BTC，净流入约 2.4 亿美元。其中灰度减持了 4,944 枚 BTC，净流出约 3.42 亿美元，目前持有 342,608 枚 BTC，约合 237 亿美元。富达增持了 4,001 枚 BTC，净流入约 2.76 亿美元，目前持有 143,721 枚 BTC，约合 99.5 亿美元。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[海牙国际法律机构开启数字资产代币化计划]]></title>
-        <id>https://www.odaily.news/newsflash/361282</id>
-        <link href="https://www.odaily.news/newsflash/361282"/>
-        <updated>2024-03-27T21:52:25.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 海牙国际私法会议（HCCH）启动了一项数字资产代币化项目，旨在解决跨境企业在法律方面的困惑。该项目将研究不同类型的数字代币，如房地产代币和支付代币。同时，HCCH 还在初步研究数字证券方面的法律问题，以及如何在区块链网络中管理和控制数字资产。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密做市商GSR将以太坊现货ETF五月获批几率下调至20%]]></title>
-        <id>https://www.odaily.news/newsflash/361281</id>
-        <link href="https://www.odaily.news/newsflash/361281"/>
-        <updated>2024-03-27T21:50:24.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 加密做市商 GSR 降低了以太坊现货 ETF 五月份批准的可能性，从之前的 75%下调至 20%。GSR 分析认为，美国 SEC 在审批过程中缺乏积极参与，且受到政治压力影响，预计以太坊现货 ETF 的批准过程可能延长至 2025 年至 2026 年。彭博分析师也将以太坊现货 ETF 批准几率下调至 30%。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[贝莱德代币化基金一周内吸引了1.6亿美元存款]]></title>
-        <id>https://www.odaily.news/newsflash/361280</id>
-        <link href="https://www.odaily.news/newsflash/361280"/>
-        <updated>2024-03-27T21:49:28.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 世界上最大的资产管理公司贝莱德上周推出了BUIDL。据彭博社周三的报告，该基金在首周募集了1.6亿美元。此后，Ondo在一篇博客文章中表示，它将把其代币化短期美国国债ETF，OUSG的“大部分”资产分配给BUIDL。Ondo正在向BUIDL转移9500万美元，截至周三下午，当几乎8400万美元在下午2:49 ET（18:49 UTC）存入时，BUIDL的余额达到了2.448亿美元，根据区块链数据。
-贝莱德美元机构数字流动性基金（BUIDL）是一个代币化货币市场基金，投资于美国国债、回购协议和现金。在迈阿密的Securitize的帮助下，它使用以太坊区块链发行BUIDL代币，旨在提供每个代币1美元的稳定价值，并以代表美元收益的代币形式支付给合格投资者股息。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
         </author>
     </entry>
 </feed>
