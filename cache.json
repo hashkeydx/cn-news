@@ -6,6 +6,76 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/23vimoj7.html",
+          "author": null,
+          "description": "PANews 4月9日消息，2024香港Web3嘉年华中，以太坊联合创始人Vitalik Buterin在由DRK Lab主办的“Web3学者峰会 2024”发表主旨演讲《Reaching the Limits of Protocol Design》，其表示，当前ZK-SNARKs、MPC、FHE等技术存在效率与安全问题，其中，以太坊Slot出块时间为12秒，“普通”区块验证时间约为400毫秒，ZK-SNARK证明时间约为20分钟，以太坊的目标是实现实时证明。对于当前效率低下问题，Vitalik表示解决方案为“并行化与聚合树”（Parallelization + aggregation trees）、使用SNARK algos与哈希提升效率、使用ASIC进行ZK硬件加速。\n此外，Vitalik表示，“ZK-SNARKs、MPC、FHE（完全同态加密）和BLS聚合等基于高级密码学的协议虽发展迅速，但同时也存在效率和安全问题，其中效率问题可用并行化和aggregation trees、提升效率（用SNARK 算法和哈希），以及ASIC来解决；ZK-SNARK电路漏洞问题可由安全委员会、multi-provers来解决，未来可用AI形式验证来解决。我们需要用密码学达到协议的极限，同时优化效率和提升安全性。”\nVitalik指出，当前签名聚合效率为每个slot约30000个签名，节点要求高，期望的目标是支持尽可能多的验证器，节点要求低，协议相当简单。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/23vimoj7.html",
+          "publishedOn": "2024-04-09T03:01:54.000Z",
+          "wordCount": 374,
+          "title": "Vitalik：需要用密码学达到协议的极限，同时优化效率和提升安全性",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/ag7eae61.html",
+          "author": null,
+          "description": "PANews 4月9日消息，Greeks.live宏观研究员Adam在X平台发文表示，以太坊今天迎来大幅度补涨，或与V神参与香港区块链活动有关，反观比特币反而进入回调。\n期权市场预期与币价走势较为一致，今天比特币期权主要以卖出短期为主，而以太坊主要以买入短期看涨为主，二者均主要以价差组合形式成交，说明市场对未来走势尚存疑虑，主要期限IV小幅下降。\nBTC也有不一样的信号，刚刚成交了350张明年3月到期20万行权价的看涨期权，仅权利金就价值250万美元，目前巨鲸在各期限10万美元以上已经囤积了近3万张看涨期权。\n此外，行情显示，以太坊24小时涨幅达8.36%，现报3709美元。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/ag7eae61.html",
+          "publishedOn": "2024-04-09T02:52:41.000Z",
+          "wordCount": 342,
+          "title": "Greeks.live：比特币和以太坊期权均主要以价差组合形式成交，说明市场对未来走势尚存疑虑",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/vv0jfcqs.html",
+          "author": null,
+          "description": "PANews 4月9日消息，据Cointelegraph报道，Solana开发人员计划于4月15日修复最近导致Solana交易失败率飙升的“实施错误”。Solana生态开发平台Helius首席执行官Mert Mumtaz在X平台发文强调，Solana目前存在的问题（网络不稳定）并非源自协议设计缺陷，而是在特定实现中出现了Bug。\nMert Mumtaz解释称，协议的设计就像汽车的总体设计，而具体实现则类似于不同品牌的汽车型号。某个品牌型号存在问题，并不意味着所有汽车都有设计缺陷。Solana采用QUIC网络协议，但目前使用的QUIC实现版本存在一些缺陷和 Bug。所以Solana只需要更换有问题的“零件”，而无需改变整个“车型”。\n他透露Firedancer正在开发的实现就不存在同样的问题。修复程序预计将于4月15日推出，若测试过程中发现其他问题，上线时间可能会推迟。除技术问题外，其认为Solana还需要考虑长期的经济可持续性因素，在修复Bug后可以更清晰地规划本地费用市场和经济激励措施。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/vv0jfcqs.html",
+          "publishedOn": "2024-04-09T02:42:08.000Z",
+          "wordCount": 354,
+          "title": "Helius CEO：Solana网络问题并非设计缺陷，修复程序预计4月15日推出",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/lb5tmz49.html",
+          "author": null,
+          "description": "PANews 4月9日消息，以太坊Layer2网络数据存储解决方案项目EthStorage在X平台宣布，EthStorage将为零知识证明项目Manta Network提供长期的模块化数据采集（DA）解决方案，其底层技术支持来自Celestia。此集成中，Celestia的模块化DA提供高性能的数据发布，EthStorage作为DA blob的永久数据存储解决方案，以永久延长DA的可用性时间。这由 EthStorage发明的关键技术提供支持，包括随时间推移的数据可用性采样 (DAS) 以及通过SNARK证明进行的链上验证。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/lb5tmz49.html",
+          "publishedOn": "2024-04-09T02:33:37.000Z",
+          "wordCount": 361,
+          "title": "EthStorage宣布为Manta Network提供长期的DA解决方案",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/3kjv1l28.html",
+          "author": null,
+          "description": "PANews 4月9日消息，EOS网络基金会（ENF）的创始人兼首席执行官YvesYves La Rose在X平台表示，计划在月底前提出新的代币经济学。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/3kjv1l28.html",
+          "publishedOn": "2024-04-09T02:25:02.000Z",
+          "wordCount": 349,
+          "title": "EOS网络基金会创始人：计划在月底前提出新的代币经济学",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/vozxykry.html",
+          "author": null,
+          "description": "PANews 4月9日消息，据Spot On Chain监测，Alameda Research钱包0xf02在6小时前再次向Coinbase存入4,000枚ETH（约合1475万美元），均价为3,688美元。\n值得注意的是，这是自2月份市场反弹以来FTX和Alameda最大的单笔ETH存款。自2024年2月1日以来，FTX/Alameda已向Coinbase存入21,650枚ETH（约合7240万美元），均价为3,343美元。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/vozxykry.html",
+          "publishedOn": "2024-04-09T02:21:30.000Z",
+          "wordCount": 344,
+          "title": "Alameda钱包6小时前再次向Coinbase存入4000枚ETH，约合1475万美元",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/epmizx1v.html",
+          "author": null,
+          "description": "PANews 4月9日消息，据Lookonchain监测，某钱包地址4天前从Ethena团队的Gnosis Safe Proxy钱包收到6250万枚ENA（约合8375万美元），并在6小时前将这些ENA代币全部存入币安。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/epmizx1v.html",
+          "publishedOn": "2024-04-09T02:18:05.000Z",
+          "wordCount": 344,
+          "title": "某地址6小时前将6250万枚ENA全部存入币安，约合8375万美元",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/pfr24ry7.html",
           "author": null,
           "description": "美SEC推迟对Bitwise和灰度的比特币现货ETF期权交易申请做出决议\n据Cointelegraph报道，美国证券交易委员会（SEC）推迟了是否允许纽约证券交易所提供现货比特币ETF期权交易的决定。根据4月8日的文件，美SEC的推迟将影响Bitwise比特币ETF（BITB）、灰度比特币信托（GBTC）以及在纽约证券交易所上市的其他持有比特币的信托的期权交易。\n该证券监管机构表示：“委员会认为有必要指定一个更长的期限来对此次提议的规则变更采取行动，以便有充足的时间考虑提议的规则变更。” 美国证券交易委员会（SEC）对纽约证券交易所提议的规则变更的下一个截止日期是5月29日，届时需作出批准、拒绝或推迟的决定。\nArthur Hayes：4月15日至5月1日市场或出现极度疲软，随后将迎来新一轮加密牛市\nPANews 4月9日消息，BitMEX联合创始人Arthur Hayes在最新博客文章中表示，4月15日（2023纳税年度的纳税到期日）至5月1日，法定货币资金流向集中于美国纳税、美联储的量化紧缩（QT）计划和财政部普通账户（TGA），风险资产的不稳定期是4月15日至5月1日，市场或出现极度疲软。但自5月1日起，随着美联储放缓缩表速度以及美国财政部动用资金以刺激市场，新一轮加密牛市有望开启。\nHayes指出，美联储已通过放宽银行资本金要求等方式，变相为银行体系“输血”，使其得以持有更多国债。美国财政部也一直在增发短期国债，以吸纳联邦储备银行逆回购工具中数万亿美元闲置资金。这两大举措均有利于提升市场流动性。不过，Hayes预计4月15日的纳税大限将从体系中抽离大量资金。同时，美联储仍在持续每月950亿美元的缩表。再加上比特币预期在4月20日进行的区块奖励减半可能带来短期超卖，都将给市场带来巨大压力。\nHayes建议投资者在4月谨慎行事，5 月以后则可大胆部署。他透露其不会彻底做…",
@@ -3034,26 +3104,6 @@
           "wordCount": 383,
           "title": "Coinbase将于4月11日上线Ordinals和Worldcoin永续期货合约",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
-        },
-        {
-          "id": "https://www.panewslab.com/zh/sqarticledetails/ikf66whn.html",
-          "author": null,
-          "description": "PANews 4月4日消息，首个支持去中心化 AI大规模应用的比特币二层网络项目AINN Layer2，宣布获得知名做市商Amber Group战略投资。此前该项目获得Waterdrip Capital，Satoshi Lab，Bitmart 旗下基金Cipholio Ventures，SuperEx，Genblock Capital等知名机构投资。\nAINN Layer2团队表示，融资将用于加速 AINN Layer2的技术选代和升级，以及支持全球化运营和生态的发展。",
-          "link": "https://www.panewslab.com/zh/sqarticledetails/ikf66whn.html",
-          "publishedOn": "2024-04-04T14:23:54.000Z",
-          "wordCount": 418,
-          "title": "AINN Layer2获得知名做市商Amber Group投资",
-          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
-        },
-        {
-          "id": "https://www.panewslab.com/zh/sqarticledetails/h6y30lhf.html",
-          "author": null,
-          "description": "PANews 4月4日消息，Fantom宣布其官方认可的稳定币USDC.e将于明天（4月5日）推出，由Circle和Wormhole支持。Wormhole 上的 USDC.e 是从原生$USDC桥接而来，位于以太坊的智能合约中，未来有可能升级为原生 USDC。它将成为Fantom生态系统（以及所有未来网络升级）的官方、认可的稳定币。",
-          "link": "https://www.panewslab.com/zh/sqarticledetails/h6y30lhf.html",
-          "publishedOn": "2024-04-04T14:20:12.000Z",
-          "wordCount": 378,
-          "title": "Fantom将于明日上线稳定币USDC.e，与Wormhole和Circle合作部署",
-          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         }
       ]
     },
@@ -3062,6 +3112,46 @@
       "feedUrl": "https://api.theblockbeats.news/v1/open-api/home-xml",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://m.theblockbeats.info/flash/245168?t=binance",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，4 月 9 日，Messari 发布 2024 年第一季度比特币状态报告，BTC 价格环比上涨 69% 至 71,310 美元，在 4 月份临近新的减半周期时创下历史新高。\n\n现货 BTC ETF 的成功是价格走势的驱动因素，第一季度资金流入超过 120 亿美元。现货 BTC ETF 目前持有 831,000 BTC，即 590 亿美元。\n\n铭文交易数和费用环比下降 40% 和 60%。然而，NFT 交易平台的日销售额仍然超过 1000 万美元。四月份的减半将带来 Runes 代币协议和 Epic sat 的发布。\n\n矿工收入（美元）环比增长 34%，矿工正在探索铭文和 MEV 作为额外收入来源。一些矿工已正式开始出售区块，以满足 Ordinals 开发者的需求。\n\n可编程比特币层的 TVL 环比增长 127%。正在构建数十个新层来扩展比特币并增加其可编程性，其中许多层正在探索基于 BitVM 的桥接和状态验证。",
+          "link": "https://m.theblockbeats.info/flash/245168?t=binance",
+          "publishedOn": "2024-04-09T02:27:57.000Z",
+          "wordCount": null,
+          "title": "BTC Q1状态报告：铭文交易数和费用环比下降40%和60%，减半将带来Runes代币协议和Epic sat的发布",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/flash/245165?t=binance",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，4 月 9 日，据 Spot On Chain 监测，Alameda 钱包 0xf02 在 6 小时前向 Coinbase 存入 4000 枚 ETH（1475 万美元），均价为 3688 美元。\n\n值得注意的是，这是自 2 月份市场反弹以来 FTX 和 Alameda 最大的单笔 ETH 存款。\n\n自 2024 年 2 月 1 日以来，FTX/Alameda 已向 Coinbase 存入 21,650 枚 ETH（7240 万美元），均价为 3343 美元。",
+          "link": "https://m.theblockbeats.info/flash/245165?t=binance",
+          "publishedOn": "2024-04-09T02:20:39.000Z",
+          "wordCount": null,
+          "title": "自2月以来，FTX/Alameda已向Coinbase存入21,650枚ETH",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/flash/245161?t=binance",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，4 月 9 日，Solana 生态开发平台 Helius 首席执行官 Mert Mumtaz 在社交平台撰文阐释了 Solana 近期网络不稳定的原因。\n\n他指出，Solana 目前存在的问题并非源自协议设计缺陷，而是在特定实现中出现了 Bug。Solana 采用了 QUIC 网络协议，但目前使用的 QUIC 实现版本存在一些缺陷和错误。\n\nCEO 进一步解释称，协议的设计就像汽车的总体设计，而具体实现则类似于不同品牌的汽车型号。某个品牌型号存在问题，并不意味着所有汽车都有设计缺陷。Solana 只需要更换有问题的「零件」，而无需改变整个「车型」。\n\n他透露 Firedancer 正在开发的实现就不存在同样的问题。修复程序预计将于 4 月 15 日推出，若测试过程中发现其他问题，上线时间可能会推迟。\n\n除技术问题外，CEO 认为 Solana 还需要考虑长期的经济可持续性因素，在修复 Bug 后可以更清晰地规划本地费用市场和经济激励措施。",
+          "link": "https://m.theblockbeats.info/flash/245161?t=binance",
+          "publishedOn": "2024-04-09T02:15:52.000Z",
+          "wordCount": null,
+          "title": "Helius CEO：Solana网络问题并非设计缺陷，修复程序预计将于4月15日推出",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/52871?t=binance",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "精选要闻：\n1. Runestone 地板价升至 0.085 BTC，市值突破 6.82 亿美元；\n2. Tether 2023 年净利润 62 亿美元，员工数仅百人；\n3. Whales Market 创始人 AI 项目 gm.ai 官网正式上线；\n4. SEC 推迟对 Bitwise 和 Grayscale 比特币现货 ETF 期权交易申请做出决定；\n5. 灰度 GBTC 昨日净流出约 3.033 亿美元\n\n\n价格观察\n\n\nENA 上涨突破 1.36 美元，创历史新高\n4 月 9 日，据行情数据，ENA 上涨突破 1.36 美元，24 小时涨幅 15.4%，创历史新高。\n\n\nTON 上涨触及 6.5 美元，再创历史新高\n4 月 9 日，据 OKX 行情数据，TON 上涨触及 6.5 美元，再创历史新高。现小幅回落至 6.37 美元，24 小时涨幅超过 20%。\n\n\n以太坊突破 3700 美元，24 小时涨幅 8.2%\n4 月 9 日，据 OKX 行情信息，以太坊突破 3700 美元，现报价 3716 美元，24 小时涨幅 8.2%。\n\n\nGearbox（GEAR）短时突破 0.03 美元，24 小时涨幅 29.06%\n4 月 9 日，据行情数据显示，Gearbox（GEAR）短时突破 0.03 美元，现报价 0.02931 美元，24 小时涨幅 29.06%。\n\n\nDEGEN 突破 0.046 美元，24 小时涨幅 48.37%\n4 月 8 日，据行情数据显示，DEGEN 突破 0.046 美元，现报价 0.04605 美元，24 小时涨幅 48.37%。\n\n\nENA 上涨触及 1.33 美元，创历史新高\n4 月 8 日，据行情数据，ENA 上涨触及 1.33 美元，现报价 1.319 美元，24 小时涨幅 10.14%，创历史新高。\n\n\n交易跟踪\n\n\n一地址申领 71…",
+          "link": "https://m.theblockbeats.info/news/52871?t=binance",
+          "publishedOn": "2024-04-09T02:05:12.000Z",
+          "wordCount": null,
+          "title": "律动早报｜Tether去年净利润62亿美元，员工数仅百人；灰度GBTC昨日净流出约3.033亿美元",
+          "imageUrl": null
+        },
         {
           "id": "https://m.theblockbeats.info/flash/245155?t=binance",
           "author": "contact@theblockbeats.org (律动BlockBeats)",
@@ -4299,6 +4389,136 @@
       "feedUrl": "https://www.odaily.news/v1/openapi/odailyrss",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/newsflash/363306",
+          "author": null,
+          "description": "Odaily星球日报讯 关于加密货币交易者 Avi Eisenberg 的刑事欺诈与操纵案审判即将于周二正式启动。\n在审判前，一名联邦法官已选定由 15 人组成的陪审团，成员包括稀有书籍销售者、小学音乐指导及金融专业人士。\n此次审判预计为期两周，将重点审查 Eisenberg 是否于去年 10 月通过实施所谓的“高盈利交易策略”，涉嫌违法并导致 Solana 生态加密货币交易平台 Mango Markets 陷入瘫痪。\nEisenberg 被控通过操纵 MNGO 代币价格，在 Mango Markets 期货合约中实施非法操作，并成功借取 Mango 平台上的全部存款作为抵押。他凭借这一手段，涉嫌非法获取平台上价值约 1.1 亿美元的加密货币。他之后返还部分资金，以换取 Mango 支持者不会起诉他的承诺。然而，这个承诺最终并未得到履行。（CoinDesk）",
+          "link": "https://www.odaily.news/newsflash/363306",
+          "publishedOn": "2024-04-09T03:08:25.000Z",
+          "wordCount": 1771,
+          "title": "Mango Markets攻击者的刑事审判将于周二开庭，预计持续两周",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363305",
+          "author": null,
+          "description": "Odaily星球日报讯 以太坊联合创始人 Vitalik Buterin 在2024 香港 Web3 嘉年华中由 DRK Lab 主办的“Web3 学者峰会 2024”发表主旨演讲《Reaching the Limits of Protocol Design》。\nVitalik 表示，当前 ZK-SNARKs、MPC、FHE 等技术存在效率与安全问题，其中，以太坊 Slot 出块时间为 12 秒，“普通”区块验证时间约为 400 毫秒，ZK-SNARK 证明时间约为 20 分钟，以太坊的目标是实现实时证明。\n对于当前效率低下问题，Vitalik 表示解决方案为“并行化与聚合树”（Parallelization + aggregation trees）、使用 SNARK algos 与哈希提升效率、使用 ASIC 进行 ZK 硬件加速。",
+          "link": "https://www.odaily.news/newsflash/363305",
+          "publishedOn": "2024-04-09T03:02:55.000Z",
+          "wordCount": 1783,
+          "title": "Vitalik：ZK-SNARKs、MPC、FHE 等效率低下，需实现实时证明",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363304",
+          "author": null,
+          "description": "Odaily星球日报讯 据派盾监测，地址 0x0461…9184 成为网络钓鱼攻击的受害者，损失价值约 11.47 万美元的加密货币，其中包括 3.67 万枚 ARB 和 5.75 万枚 MAGIC。\n派盾之后更新表示，该地址还损失 59.6 枚 wstETHCRV（约合 22.8 万美元）以及 45.9 枚 ETH（约合 17 万美元）。该地址于 2 月 17 日在 Curve 中增加 27.2 枚 wstETH 和 30.2 枚 ETH 的流动性。",
+          "link": "https://www.odaily.news/newsflash/363304",
+          "publishedOn": "2024-04-09T03:00:50.000Z",
+          "wordCount": 1776,
+          "title": "某地址因钓鱼攻击损失ARB、MAGIC、ETH等代币",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363303",
+          "author": null,
+          "description": "Odaily星球日报讯 据 Nansen 2 数据，Smart Money 24 小时在以太坊网络资金流入追踪榜单如下： \n1INCH：流入 417 万美元，现报 0.6018 美元，24H 涨幅 7.1%；\nGRT：流入 273 万美元，现报 0.3495 美元，24H 涨幅 5.02%；\nBICO：流入 145 万美元，现报 0.7945 美元，24H 跌幅  11.46%。",
+          "link": "https://www.odaily.news/newsflash/363303",
+          "publishedOn": "2024-04-09T02:51:29.000Z",
+          "wordCount": 1774,
+          "title": "1INCH、GRT、BICO位居Smart Money 24小时流入榜单前列",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363302",
+          "author": null,
+          "description": "Odaily星球日报讯 Greeks.live 宏观研究员 Adam 在 X 平台发文表示，以太坊今天迎来大幅度补涨，或与 Vitalik Buterin 参与香港区块链活动有关，反观比特币反而进入回调。\n期权市场预期与币价走势较为一致，今天比特币期权主要以卖出短期为主，而以太坊主要以买入短期看涨为主，二者均主要以价差组合形式成交，说明市场对未来走势尚存疑虑，主要期限 IV 小幅下降。\nBTC 也有不一样的信号，刚刚成交了 350 张明年 3 月到期 20 万行权价的看涨期权，仅权利金就价值 250 万美元，目前巨鲸在各期限 10 万美元以上已经囤积了近 3 万张看涨期权。",
+          "link": "https://www.odaily.news/newsflash/363302",
+          "publishedOn": "2024-04-09T02:47:57.000Z",
+          "wordCount": 1764,
+          "title": "Greeks.live：以太坊今天迎来大幅度补涨，或与Vitalik参与香港区块链活动有关",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363301",
+          "author": null,
+          "description": "Odaily星球日报讯 Coinglass 数据显示，全网 ETH 期货合约未平仓头寸为 395 万枚 ETH，约合 147 亿美元，24H 增幅为 10.79%。\n其中币安 ETH 合约未平仓头寸为 133 万枚 ETH（约合 49.6 亿美元），排名第一。",
+          "link": "https://www.odaily.news/newsflash/363301",
+          "publishedOn": "2024-04-09T02:44:41.000Z",
+          "wordCount": 1777,
+          "title": "全网ETH合约未平仓头寸增至147亿美元",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5194405",
+          "author": null,
+          "description": "Solana生态再次演绎“大毛不卷”。",
+          "link": "https://www.odaily.news/post/5194405",
+          "publishedOn": "2024-04-09T02:44:22.000Z",
+          "wordCount": 1975,
+          "title": "浅析Tensor：TNSR能否延续Solana生态的造富奇迹",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363300",
+          "author": null,
+          "description": "Odaily星球日报讯 以太坊 Layer2 网络数据存储解决方案项目 EthStorage 在 X 平台发文表示，EthStorage 将为零知识证明项目 Manta Network 提供长期的模块化数据采集（DA）解决方案，其底层技术支持来自 Celestia。在此集成中，Celestia 的模块化 DA 提供高性能的数据发布，EthStorage 作为 DA blob 的永久数据存储解决方案，以永久延长 DA 的可用时间。这由 EthStorage 发明的关键技术提供支持，包括随时间推移的数据可用性采样（DAS）以及通过 SNARK 证明进行的链上验证。",
+          "link": "https://www.odaily.news/newsflash/363300",
+          "publishedOn": "2024-04-09T02:41:59.000Z",
+          "wordCount": 1796,
+          "title": "EthStorage宣布为Manta Network提供长期DA解决方案",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363299",
+          "author": null,
+          "description": "Odaily星球日报讯 Messari 发布 2024 年第一季度比特币状态报告，BTC 价格环比上涨 69% 至 71,310 美元，在 4 月份临近新的减半周期时创下新高。\nBTC 现货 ETF 的成功是价格走势的驱动因素，第一季度资金流入超过 120 亿美元。BTC 现货 ETF 目前持有 831,000 枚 BTC，约合 590 亿美元。\n铭文交易和费用环比下降 40%和 60%。然而，NFT 交易所的日销售额仍然超过 1000 万美元。四月份的减半将带来 Runes 代币协议和 Epic sat 的推出。\n矿工收入（美元）环比增长 34%，矿工正在探索铭文和 MEV 作为额外收入来源。一些矿商已经正式进行大宗销售，以满足 Ordinals 构建者的需求。\n可编程比特币层的 TVL 环比增长 127%。数十个新层正在构建，以扩展比特币并增加其可编程性，其中许多层正在探索基于 BitVM 的桥接和状态验证。",
+          "link": "https://www.odaily.news/newsflash/363299",
+          "publishedOn": "2024-04-09T02:38:20.000Z",
+          "wordCount": 1839,
+          "title": "BTC Q1状态报告：铭文交易数和费用环比下降40%和60%，4月减半时Runes代币协议和Epic sat将推出",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363298",
+          "author": null,
+          "description": "Odaily星球日报讯 OKX 行情显示，ETH 再次突破 3700 USDT，现报 3714.34 USDT，24H 涨幅为 8.23%。",
+          "link": "https://www.odaily.news/newsflash/363298",
+          "publishedOn": "2024-04-09T02:33:29.000Z",
+          "wordCount": 1763,
+          "title": "ETH再次突破3700 USDT，24H涨幅8.23%",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363297",
+          "author": null,
+          "description": "Odaily星球日报讯 Solana 生态开发平台 Helius 首席执行官 Mert Mumtaz 在X平台发文表示，Solana 目前存在的问题（网络不稳定）并非源自协议设计缺陷，而是在特定实现中出现了 Bug。\nMert Mumtaz 解释称，协议的设计就像汽车的总体设计，而具体实现则类似于不同品牌的汽车型号。某个品牌型号存在问题，并不意味着所有汽车都有设计缺陷。Solana 采用 QUIC 网络协议，但目前使用的 QUIC 实现版本存在一些缺陷和 Bug。所以 Solana 只需要更换有问题的“零件”，而无需改变整个“车型”。\n他透露 Firedancer 正在开发的实现就不存在同样的问题。修复程序预计将于 4 月 15 日推出，若测试过程中发现其他问题，上线时间可能会推迟。除技术问题外，其认为 Solana 还需要考虑长期的经济可持续性因素，在修复 Bug 后可以更清晰地规划本地费用市场和经济激励措施。",
+          "link": "https://www.odaily.news/newsflash/363297",
+          "publishedOn": "2024-04-09T02:27:23.000Z",
+          "wordCount": 1804,
+          "title": "Helius CEO：Solana网络问题并非设计缺陷，修复程序预计4月15日推出",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5194407",
+          "author": null,
+          "description": "尽管BitVM处于初期阶段，本质上是一个未落地的虚拟计算机概念，但已激发来自各个项目的大量兴趣和声明。",
+          "link": "https://www.odaily.news/post/5194407",
+          "publishedOn": "2024-04-09T02:19:58.000Z",
+          "wordCount": 2215,
+          "title": "IOSG Ventures：详解BitVM，比特币可编程性的曙光",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/363296",
+          "author": null,
+          "description": "Odaily星球日报讯 据 Spot On Chain 监测，Alameda 钱包 0xf02 在 6 小时前向 Coinbase 存入 4000 枚 ETH（约合 1475 万美元），均价为 3688 美元。这是自 2 月市场反弹以来 FTX 和 Alameda 最大的单笔 ETH 充值。\n自 2024 年 2 月 1 日以来，FTX/Alameda 已向 Coinbase 存入 21,650 枚 ETH（约合 7240 万美元），均价为 3343 美元。",
+          "link": "https://www.odaily.news/newsflash/363296",
+          "publishedOn": "2024-04-09T02:18:37.000Z",
+          "wordCount": 1827,
+          "title": "FTX/Alameda自2月以来已向Coinbase存入21650枚ETH",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/newsflash/363295",
           "author": null,
@@ -10687,56 +10907,6 @@
           "publishedOn": "2024-04-04T16:03:26.000Z",
           "wordCount": 1735,
           "title": "比特币 L2 Zulu Network完成300万美元Pre-Seed轮融资，CatcherVC等参投",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/362681",
-          "author": null,
-          "description": "Odaily星球日报讯 据官方消息，Synthetix V3 现已在 Base 上线，用户可以存入 USDC 来获得交易奖励和 USDC/SNX LP 激励。此外，交易者也可以在 Base 链上开始交易 Synthetix Perps。",
-          "link": "https://www.odaily.news/newsflash/362681",
-          "publishedOn": "2024-04-04T14:57:26.000Z",
-          "wordCount": 1699,
-          "title": "Synthetix V3已在Base上线",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/362680",
-          "author": null,
-          "description": "Odaily星球日报讯 纽约金融公司 Oppenheimer 宣布将 Coinbase 股票目标价格从 200 美元大幅提高至 276 美元，比周三 Coinbase 收盘价 251.58 美元高出约 10%，同时重申其买入评级。Oppenheimer 表示，数字资产和区块链技术的持续采用可以帮助 Coinbase 长期保持加密货币领域的主要受益者的地位。（TheBlock）",
-          "link": "https://www.odaily.news/newsflash/362680",
-          "publishedOn": "2024-04-04T14:46:54.000Z",
-          "wordCount": 1698,
-          "title": "Oppenheimer将Coinbase股票目标价格从200美元大幅提高至276美元",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/362679",
-          "author": null,
-          "description": "Odaily星球日报讯 首个支持去中心化 AI 大规模应用的比特币二层网络项目 AINN Layer2，宣布获得知名做市商 Amber Group 战略投资。此前该项目获得 Waterdrip Capital，Satoshi Lab，Bitmart 旗下基金 Cipholio Ventures，SuperEx，AscendEx，Genblock Capital，Foundinals Lab， AlNN Labs，Bitrise Capital 等知名机构投资。\nAINN Layer2 团队表示，融资将用于加速 AINN Layer2 的技术选代和升级，以及支持全球化运营和生态的发展。",
-          "link": "https://www.odaily.news/newsflash/362679",
-          "publishedOn": "2024-04-04T14:33:17.000Z",
-          "wordCount": 1714,
-          "title": "AINN Layer2获得做市商Amber Group投资",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/362678",
-          "author": null,
-          "description": "Odaily星球日报讯 ENKI 宣布其空投领取页面正式上线，此举旨在奖励最早期的项目支持者。当前阶段，早期支持者有机会领取独家早期访问 NFT，这些 NFT 不仅象征对早期用户支持的感谢，更标志着参与者未来可获得的额外奖励。此次申领分为两个步骤：首先是领取早期 NFT（不可转让），其后依据 NFT 申领代币，代币申领预计很快开放。\nENKI 代币的总量为 1000 万枚，其中 Fantasy 活动总共分配 100 万枚代币（10%），本次申领的为 Fantasy 第一阶段活动的奖励，代币数量为 15 万枚（1.5%）。第二阶段活动，预计分配 85 万枚（8.5%）代币但目前尚未开放。\n据悉，领取入口现已开放，可访问页面查询。",
-          "link": "https://www.odaily.news/newsflash/362678",
-          "publishedOn": "2024-04-04T14:22:27.000Z",
-          "wordCount": 1702,
-          "title": "ENKI宣布正式上线空投领取页面",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/362677",
-          "author": null,
-          "description": "Odaily星球日报讯 Manta Network 拟于 Celestia、ORA 和 Hyperbolic 合作，将全面的人工智能开发带到 Manta Pacific，涵盖从训练到部署以及通过 Manta AI 增强的通用电路进行推理的整个周期。作为最大的模块化 L2 生态系统，Manta Network 非常适合部署和扩展 AI 应用程序，它通过简化人工智能工具和服务集成的模块化架构来实现这一目标。",
-          "link": "https://www.odaily.news/newsflash/362677",
-          "publishedOn": "2024-04-04T14:19:00.000Z",
-          "wordCount": 1703,
-          "title": "Manta与Celestia等合作将AI开发引入Manta Pacific",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
