@@ -2,10 +2,182 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-04-12T05:07:42.371Z</updated>
+    <updated>2024-04-12T06:11:13.053Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[分析：EIP-3074将为以太坊钱包引入恢复资产等新功能]]></title>
+        <id>https://www.odaily.news/newsflash/363908</id>
+        <link href="https://www.odaily.news/newsflash/363908"/>
+        <updated>2024-04-12T06:09:27.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 得益于 EIP-3074 升级计划中的新“社交恢复（social recovery）”功能，以太坊用户可能不再需要担心在 Pectra 硬分叉之后再次丢失他们的种子短语。
+以太坊改进提案 EIP-3074 被以太坊核心开发者 Tim Beiko 在 4 月 11 日的一篇文章中确认被纳入 Pectra 硬分叉升级。以太坊基金会研究员“Domothy”在 3 月 25 日的一篇博客文章中解释称，升级将使普通以太坊钱包（外部拥有的账户）获得“超级充电（supercharging）”，具有几种新的智能合约功能，包括恢复资产的能力。
+然而，要利用此社交恢复工具，用户必须首先通过数字签名将其资产的所有权转移给调用程序合约（invoker contract），该合约将代表用户执行未来的交易和函数调用。当所有权被委托时，如果用户丢失或忘记种子短语，数字签名中的消息将使其能够检索资产。
+加密货币评论员 cygaar 在 4 月 11 日的一篇文章中解释称，这一功能将通过实施“AUTH”和“AUTHCALL”操作码来实现。AUTH 将获取用户的签名和预期操作，并验证其签名是否正确；AUTHCALL 随后将调用目标合约来执行交易，但会将用户分配为调用方（caller），而不是调用程序合约。（Cointelegraph）、
+今日早些时候消息，4 月 12 日，以太坊核心开发者执行会议（ACDE）第 185 次会议召开，开发者 timbeiko.eth 整理了会议纪要，具体包括：
+EIP 2935 和 3074 已确定会被纳入 Pectra 升级（布拉格升级）；
+EOF 和 EIP 7623 已进入考虑纳入（CFI）的范畴，预计很快会做出最终决定；
+EIP-7667 以及 Verkle 迁移已进入大阪升级的考虑纳入范畴。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安新币挖矿将上线第52期项目Omni Network （OMNI）]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/fjyl9qvv.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/fjyl9qvv.html"/>
+        <updated>2024-04-12T06:00:05.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月12日消息，据官方公告，币安新币挖矿现已上线第52期项目 Omni Network (OMNI)。用户可以在4月13日8:00（东八区时间）后在 Launchpool网站，将BNB、FDUSD投入到OMNI挖矿池中获得OMNI奖励，OMNI共计可挖矿4天。网站预计将于此公告的大约五小时内，挖矿活动开放前更新。
+此外，币安将于4月17日20:00（东八区时间）上市 Omni Network (OMNI)，并开通 OMNI/BTC、OMNI/USDT、OMNI/BNB、OMNI/FDUSD和OMNI/TRY交易市场，适用种子标签交易规则。
+相关阅读：一文了解币安Launchpool最新项目Omni Network]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CoinW获得澳洲金融情报局（AUSTRAC）批准的数字货币交易服务牌照]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/cips2bae.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/cips2bae.html"/>
+        <updated>2024-04-12T05:58:51.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月12日消息，CoinW的数字货币交易服务已正式获得澳大利亚交易报告与分析中心（Australian Transaction Reports and Analysis Centre，简称AUSTRAC）的批准，可以合规进行现货交易以及法币买卖数字货币服务。
+该牌照是CoinW在合规服务、为客户提供更安全可靠的交易环境上取得的阶段性成果，也标志着CoinW在全球金融服务市场中的进一步拓展，并将继续致力于提供安全、合规的顶级数字货币交易解决方案。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安新币挖矿上线第52期项目Omni Network（OMNI）]]></title>
+        <id>https://www.odaily.news/newsflash/363907</id>
+        <link href="https://www.odaily.news/newsflash/363907"/>
+        <updated>2024-04-12T05:55:35.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方公告，币安新币挖矿现已上线第 52 期项目- Omni Network（OMNI），这是一个第 1 层区块链，旨在将以太坊的 rollup 生态系统集成到一个统一的系统中。
+用户可以在 2024 年 4 月 13 日 8:00（东八区时间）后在 Launchpool 网站将 BNB、FDUSD 投入到 OMNI 挖矿池中获得 OMNI 奖励，OMNI 共计可挖矿 4 天。网站预计将于此公告的大约五小时内，挖矿活动开放前更新。
+新币上市：币安将于 2024 年 04 月 17 日 20:00（东八区时间）上市 Omni Network（OMNI），并开通 OMNI/BTC、OMNI/USDT、OMNI/BNB、OMNI/FDUSD 和 OMNI/TRY 交易市场，适用种子标签交易规则。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[委内瑞拉披露与未注册石油销售有关的加密洗钱案件，涉及Kraken等交易所]]></title>
+        <id>https://www.odaily.news/newsflash/363905</id>
+        <link href="https://www.odaily.news/newsflash/363905"/>
+        <updated>2024-04-12T05:49:58.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 委内瑞拉总检察长 Tarek William Saab 公布了与加密货币洗钱案件有关的第二波拘留行动，该案件源于以不同货币和加密货币支付的未注册石油销售行为。
+国有石油公司 PDVSA 前总裁 Tareck El Aissami、前经济部长 Simon Alejandro Zerpa 和企业家 Samark Lopez 被逮捕，他们被指控通过 Kraken 等交易所洗钱，并投资加密货币矿场。（Bitcoin.com）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CoinW获得澳洲金融情报局（AUSTRAC）批准的数字货币交易服务牌照]]></title>
+        <id>https://www.odaily.news/newsflash/363904</id>
+        <link href="https://www.odaily.news/newsflash/363904"/>
+        <updated>2024-04-12T05:44:47.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 CoinW 的数字货币交易服务已正式获得澳大利亚交易报告与分析中心（Australian Transaction Reports and Analysis Centre，简称 AUSTRAC）的批准，可以合规进行现货交易以及法币买卖数字货币服务。该牌照的取得，进一步巩固了 CoinW 在合规服务、为客户提供更安全可靠的交易环境上做出的努力，也标志着 CoinW 在全球金融服务市场中的进一步拓展。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase获颁FinCEN总监执法奖，表彰其为重大刑事案件做出贡献]]></title>
+        <id>https://www.odaily.news/newsflash/363903</id>
+        <link href="https://www.odaily.news/newsflash/363903"/>
+        <updated>2024-04-12T05:43:55.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Coinbase 首席法务官 paulgrewal.eth 在 X 平台发文表示，该交易所收到了 FinCEN 的一封信函，祝贺 Coinbase 为七起重大刑事案件之一做出了重大贡献，并因此获得了 FinCEN 总监执法奖（FinCEN Director's Law Enforcement Award）。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[韩国首尔发生一起以代币交易诱饵勒索5亿韩元的抢劫案，目前嫌疑人正在被追踪]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/55jg1g4p.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/55jg1g4p.html"/>
+        <updated>2024-04-12T05:42:55.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月12日消息，据韩媒YTN报道，警方正在追踪一名40多岁的犯罪嫌疑人A先生，他被指控在首尔三成站附近约见一名受害人，提出以低于市场价格的价格出售代币，然后挥舞钝器并盗窃5亿韩元现金逃跑。受害者被送往医院并正在接受治疗，据报道目前没有生命危险。目前警方已经查明身份，并正在追捕。此前，3名30多岁的男子因以代币交易为诱饵盗窃5.5亿韩元现金在首尔驿三洞被捕，但警方认为他们与A先生之间没有联系。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[贝莱德IBIT累计净流入超150亿美元，GBTC累计净流出超160亿美元]]></title>
+        <id>https://www.odaily.news/newsflash/363902</id>
+        <link href="https://www.odaily.news/newsflash/363902"/>
+        <updated>2024-04-12T05:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Farside Investors 监测，比特币现货 ETF 自推出以来累计净流入 125.858 亿美元。其中：
+-IBIT 累计净流入 151.445 亿美元；
+-FBTC 累计净流入 80.478 亿美元；
+-BITB 累计净流入 17.43 亿美元；
+-ARKB 累计净流入 22.501 亿美元；
+-GBTC 累计净流出 161.059 亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[星球午讯]]></title>
+        <id>https://www.odaily.news/newsflash/363900</id>
+        <link href="https://www.odaily.news/newsflash/363900"/>
+        <updated>2024-04-12T05:30:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 第 185 次 ACDE 会议：EIP2935、EIP3074 已确定纳入布拉格升级；
+2. EigenLayer：继 EigenDA 之后，六个新的 AVS 已上线；
+3. Pac Finance 回应清算事件：正在联系受影响用户，未来将设置治理合约或时间锁；
+4. Solana 测试网 v1.18.11 已发布，节点需尽快升级以测试补丁对拥堵问题的修复效果；
+5. Lumoz 完成千万美元融资，Dragon Slayer 大型生态活动进入倒计时；
+6. Animoca Brands Japan 将于今年夏季推出 NFT 启动平台；	
+7. Ordinals 创始人：Ordinals 已发布 0.18.1 版本，新增关键修复与改进；
+8. 灰度 CEO：GBTC 的费率将在比特币 ETF“开始成熟”时下调；
+9. Greeks.live：本周加密市场波动水平显著上升，减半预期似乎已过度透支；
+10. Solana 生态借贷协议 Marginfi 昨日流出 1.27 亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Animoca Brands Japan将在今夏推出NFT启动平台，现已开放项目申请]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/dxv59dpc.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/dxv59dpc.html"/>
+        <updated>2024-04-12T05:26:14.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月12日消息，Animoca Brands 战略子公司 Animoca Brands Japan 将于今年夏季推出 NFT 启动平台，该启动平台现正在接受 Web3 项目的申请。启动平台的具体名称将于 5 月上旬公布。 Animoca Brands Japan 的 NFT 启动平台将为选定的项目提供 NFT 销售机会，并为销售策略和营销提供多方面的支持。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MixMob：Q2的主要目标是发布移动端应用，并实现100万次的下载量]]></title>
+        <id>https://www.odaily.news/newsflash/363901</id>
+        <link href="https://www.odaily.news/newsflash/363901"/>
+        <updated>2024-04-12T05:18:58.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Solana 游戏平台 MixMob 今日举报了社区 Alpha call，会议总结了 MixMob 第一季度的成果，具体如下：
+1. MixMob 售出了 10000 台 MixBot，借此筹集了 250 万美元资金；
+2. MXM 代币上线，并已上市 KuCoin 和 ByBit；
+3. 5000 美元的 MixMob World Clash 活动在所有社交媒体上触及了 300 万人，吸引了 7400 名用户；
+4. 竞技场费用收入达 18 万美元。
+此外，MixMob 还提到第二季度的主要目标是发布移动端应用程序，并实现 100 万次的下载量。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Base TVL突破54亿美元，7日内涨幅15.07%]]></title>
+        <id>https://www.odaily.news/newsflash/363899</id>
+        <link href="https://www.odaily.news/newsflash/363899"/>
+        <updated>2024-04-12T05:14:09.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 L2BEAT 数据显示，Base TVL 突破 54 亿美元，现报 54.7 亿美元，7 日内涨幅 15.07%。以太坊 TVL 回升至 431.4 亿美元，7 日内涨幅 2.4%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024年DePIN发展报告：机遇与生态]]></title>
+        <id>https://www.odaily.news/post/5194508</id>
+        <link href="https://www.odaily.news/post/5194508"/>
+        <updated>2024-04-12T05:08:42.000Z</updated>
+        <summary type="html"><![CDATA[深入探讨DePIN在数字经济中的革命性作用及其未来发展趋势。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Animoca Brands Japan将于今年夏季推出NFT启动平台]]></title>
         <id>https://www.odaily.news/newsflash/363897</id>
@@ -84,6 +256,37 @@ Dragon Slayer 是由 Lumoz & ZKFair 联合推出的大型生态活动，总奖�
         <updated>2024-04-12T03:55:43.000Z</updated>
         <author>
             <name>BeWater Community</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊核心开发者最新会议摘要：EIP-2935和EIP-3074将纳入Pectra升级]]></title>
+        <id>https://m.theblockbeats.info/news/53030?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53030?t=binance"/>
+        <updated>2024-04-12T03:54:33.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Ethereum All Core Developers Execution Call #185 Writeup》
+原文作者：Christine Kim
+原文编译：Luccy，BlockBeats
+
+
+编者按：
+以太坊所有核心开发者共识电话（ACDE）每两周举行一次，主要讨论和协调对以太坊执行层（EL）的更改。本次为 ACDE 第 185 次电话会议，会议上，开发者们就即将到来的 Prague 硬分叉所需的代码更改以及其他 EIPs 进行了深入的讨论和评估。
+
+
+开发者们就各项提案进行了激烈的辩论，并就其中一些提案是否应该包含在 Prague 中达成了初步共识。然而，也存在一些争议，例如关于 EOF 是否应该与 Verkle 升级捆绑在一起的讨论。会议的最后，开发者们就下一步的工作计划达成了一致，并决定在未来的开发网络中进一步测试和评估各项提案的影响。
+
+
+Galaxy Digital 研究副总裁 Christine Kim 对本次会议要点做了详细记录，BlockBeasts 将原文编译如下：
+
+
+2024 年 4 月 11 日，以太坊开发人员齐聚 Zoom 参加了 All Core Developers Execution (ACDE) call #185 会议。ACDE 电话会议是一个每两周举行一次的系列会议，由以太坊基金会协议支持主管 Tim Beiko 主持，开发人员在会上讨论和协调对以太坊执行层（EL）的更改。本周，开发者们讨论了应该添加到即将到来的以太坊 EL 升级——Prague 硬分叉中的代码变更。Prague 将与 CL 升级 Electra 同时激活，预计在 2024 年年底之前完成激活。
+
+
+最初，开发者们同意将 Prague/Electra（Pectra）的范围确定为包括五个以太坊改进提案（EIPs）。它们分别是：
+
+
+EIP 2537，…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
         </author>
     </entry>
     <entry>
