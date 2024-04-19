@@ -2,10 +2,288 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-04-18T23:08:58.761Z</updated>
+    <updated>2024-04-19T00:36:16.740Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[隐私优先移动运营商Cape完成6100万美元融资，A-Star和a16z共同领投]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/d4t9f002.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/d4t9f002.html"/>
+        <updated>2024-04-19T00:30:46.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，隐私优先的移动运营商Cape完成了6100万美元融资，由A-Star和a16z共同领投，XYZ Ventures、Costanoa Ventures、Point72 Ventures、Forward Deployed VC及Karman Ventures等参投。Cape致力于最小化数据收集，提供优质无线覆盖，承诺不将用户数据货币化。此轮资金将用于建设全美覆盖的移动网络，保证不泄露用户的姓名、社会安全号码及位置信息。
+据TechCrunch报道称，6100万美元融资是其种子轮和A轮（作为Private Tech时的隐秘模式）2100万美元及B轮4000万美元的汇总。Cape未披露其估值。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cysic：zkVM如何成为ZK行业的新范式？]]></title>
+        <id>https://m.theblockbeats.info/news/53192?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53192?t=binance"/>
+        <updated>2024-04-19T00:25:40.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《New Paradigm in Designing ZK-ASICs, the zkVM way》
+原文作者：Cysic 团队
+感谢 Justin Drake 和 Luke Pearson 的深刻讨论。
+
+
+TL;DR
+
+
+实时零知识证明生成需要端到端的硬件加速。zkVM 不仅简化了 ZK ASIC 的设计，还使硬件性能更高，成本更低。
+
+
+引言
+
+
+
+零知识证明（ZKP）允许一方（证明者）向另一方（验证者）证明某个声明是真实的，且无需透露除声明本身的有效性之外的任何信息。
+
+
+零知识证明的发明人之一 Silvio Micali（他与 Goldwasser 和 Rackoff 共同发明）曾表示，正如加密会混淆数据一样，零知识证明会混淆计算。更具体地说，加密算法（如 AES 或 RSA）可以将数据转换成相应的密文，这种密文隐藏了底层数据。零知识证明则将计算性声明转换为证明，这种证明不仅隐藏了计算的细节，而且验证了该声明的正确性。
+
+
+ZKP 拥有两个良好的特性——零知识性和简洁性。这也让其成为了最广泛使用的高级密码学原语之一。
+
+
+零知识性意味着证明本身不会泄露任何关于计算过程以及私有输入的信息。这一特性对于构建一些以隐私为导向的应用程序非常有用。例如 Aleo，它与比特币、以太坊和其他公链不同，能够隐藏交易细节。
+
+
+简洁性则指的是证明的小尺寸以及短验证时间，这意味着复杂的计算过程可以转换为一小块数据（即「证明」，「proof」）。并且几乎可以在弱计算设备（比如手机、甚至树莓派）上即时验证。这一特性在扩展以太坊时极为有用，我们可以将对应 1000 笔交易的 EVM 计算转换为一个微小的证明，然后将此证明发布在以太坊上。如果这样一个小证明（可能只有 100 字节）得到以太坊的验证，那么整个 1000 笔交易便得以最终确认。私有区块链和扩展解决方案只是区块链社区中 …]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTC短线跌破63000 USDT，24H涨幅收窄至3.11%]]></title>
+        <id>https://www.odaily.news/newsflash/365130</id>
+        <link href="https://www.odaily.news/newsflash/365130"/>
+        <updated>2024-04-19T00:23:45.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 OKX 行情显示，BTC 短线跌破 63000 USDT，现报 62993 USDT，24H 涨幅收窄至 3.11%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[距离比特币减半仅剩1天时间]]></title>
+        <id>https://www.odaily.news/newsflash/365129</id>
+        <link href="https://www.odaily.news/newsflash/365129"/>
+        <updated>2024-04-19T00:19:22.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 BTC.com 数据显示，当前距比特币第四次减半发生剩余 1 天左右，剩余区块 152 个。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[摩根大通：比特币减半后价格可能会下跌]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/yuym1qxh.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/yuym1qxh.html"/>
+        <updated>2024-04-19T00:14:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，据CoinDesk报道，JPMorgan预测比特币在即将到来的减半事件后价格将下跌。该银行的分析指出，比特币期货未平仓合约的开放兴趣显示这种加密货币仍被视为超买。减半事件预计在4月20日发生，此举将减缓比特币供应增长速度。JPMorgan进一步指出，比特币的生产成本历来为价格的下限，预测减半后生产成本约为42,000美元，而当前价格约为61,200美元。此外，矿工将是此次事件的主要受影响者。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[距比特币「减半」已剩余不足1天]]></title>
+        <id>https://m.theblockbeats.info/flash/247630?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/247630?t=binance"/>
+        <updated>2024-04-19T00:14:01.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 19 日，据 BTC.com 显示，当前距比特币第四次「减半」发生预计剩余不足 1 天，剩余区块 153 个。
+
+区块减半是指减少单位时间内产生的数字货币数量的过程，主要通过降低区块奖励来实现。迄今为止，比特币网络已经在 2012 年、2016 年和 2020 年共经历了三次减半。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[昨日贝莱德IBIT交易量12.7亿美元，灰度GBTC 5.56亿美元]]></title>
+        <id>https://www.odaily.news/newsflash/365128</id>
+        <link href="https://www.odaily.news/newsflash/365128"/>
+        <updated>2024-04-19T00:13:34.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 HODL15Capital 监测，4 月 18 日比特币现货 ETF 交易量数据如下：贝莱德 IBIT 12.7 亿美元，灰度 GBTC 5.56 亿美元，富达 FBTC 4.49 亿美元，ProShares BITO 2.57 亿美元，ARKB 1.48 亿美元，BITB 7042 万美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chia Network：上市计划取得进展，并已向美SEC提交修订后的S-1表格]]></title>
+        <id>https://www.odaily.news/newsflash/365127</id>
+        <link href="https://www.odaily.news/newsflash/365127"/>
+        <updated>2024-04-19T00:10:13.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 加密存储区块链项目和智能交易平台 Chia Network 首席执行官 Gene Hoffman 周四表示，公司在 IPO 方面取得了进展。他表示，在美国证券交易委员会（SEC）向该公司发出评论函后，Chia 已于 3 月底向 SEC 秘密提交了一份修订后的 S-1 表格。然而，由于该公司希望等待合适的市场条件，因此 IPO 仍没有确定的时间表。据此前消息，Chia 于 2023 年 4 月透露计划上市，但此后由于其承销商瑞士信贷面临的财务困境，其 IPO 计划遇阻。这导致该公司在去年 10 月裁员三分之一。Hoffman 还表示，Chia 计划在未来几个月推出 USDC 跨链桥以及其他基础设施项目。（CoinDesk）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kraken收购加密货币经纪公司TradeStation Crypto]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/pumadt71.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/pumadt71.html"/>
+        <updated>2024-04-19T00:08:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，据The Block报道，加密交易所Kraken已收购在线经纪公司TradeStation的加密货币部门。Kraken一名代表表示，此次收购是该交易所扩大其在美国服务的一部分。据悉，Kraken正在实施更广泛的全球扩张战略。今年早些时候，该交易所在西班牙和爱尔兰等几个主要欧洲市场获得了许可证。根据美国金融犯罪执法中心(FinCen)的数据库，TradeStation Crypto在47个州、华盛顿特区和波多黎各持有货币传输许可证。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美联储卡什卡利：或将要等到2025年才能降息]]></title>
+        <id>https://www.odaily.news/newsflash/365126</id>
+        <link href="https://www.odaily.news/newsflash/365126"/>
+        <updated>2024-04-19T00:06:44.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 美联储卡什卡利表示，美国住房市场的韧性让我感到惊讶；一旦通胀持续向 2% 回落，我们可以降息；需要耐心等待，直到确信通胀下降；或许将要等到 2025 年才能降息；随着政治热度上升，美联储更关注的是自身使命。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国稳定币法规提案：Circle或领先于Tether]]></title>
+        <id>https://www.odaily.news/newsflash/365125</id>
+        <link href="https://www.odaily.news/newsflash/365125"/>
+        <updated>2024-04-19T00:04:35.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 美国参议员 Cynthia Lummis 最新提出的稳定币法规建议引起了广泛关注。根据该提案，美国公司 Circle Internet Financial 将比全球稳定币领导者 Tether 更容易遵守新的稳定币法规。 
+Lummis 表示，美国客户更倾向于选择受美国监管的稳定币发行者。该法案要求稳定币发行者遵守类似银行的监管制度，而超过 100 亿美元发行代币的企业将被要求成为受监管的存款机构。尽管现行的稳定币领导者如 Circle 也将面临重大监管障碍，但 Lummis 表示愿意根据行业和政府的反馈调整法案。尽管加密货币立法在本届国会中仍然面临诸多挑战，但一些立法者表现出乐观态度，愿意就稳定币等议题进行讨论。众议院金融服务委员会主要负责人已与参议院多数党领袖就推动加密货币立法进行了会晤，但目前尚不清楚谈判进展如何。行业内人士正在密切关注该立法，但仍对其潜在影响和要求持谨慎态度。（CoinDesk）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Abra推出Abra Prime和Abra Private：面向机构和私人客户的集成数字资产解决方案]]></title>
+        <id>https://www.odaily.news/newsflash/365124</id>
+        <link href="https://www.odaily.news/newsflash/365124"/>
+        <updated>2024-04-19T00:01:05.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 4月17日，数字资产服务和财富管理平台Abra宣布，在美国SEC批准其子公司Abra Capital management LP（ACM）作为注册投资顾问（RIA）运营后，推出针对机构的Abra prime和面向私人客户的Abra Private产品。作为在美国SEC注册的投资顾问，Abra将通过单独管理账户模式（SMA）提供定制的加密货币投资解决方案。
+Abra平台将场外交易（包括现货和期权）、借贷、质押和收益服务以及资产管理集成到一个产品中，以机构风险管理为基础，并由DeFi专业知识提供支持。Abra Private为私人客户、家族理财办公室和信托提供定制解决方案，而Abra Prime的客户群包括对冲基金、风险投资、加密基础设施公司和其他机构投资者。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HODL15Capital ：昨日灰度GBTC净流出9000万美元]]></title>
+        <id>https://www.odaily.news/newsflash/365123</id>
+        <link href="https://www.odaily.news/newsflash/365123"/>
+        <updated>2024-04-19T00:00:14.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 HODL15Capital 监测，昨日 Bitwise BITB 资金净流入 1300 万美元，ARKB 净流入 1000 万美元，灰度 GBTC 净流出 9000 万美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drift开启创世空投，以奖励Solana DEX用户]]></title>
+        <id>https://www.odaily.news/newsflash/365122</id>
+        <link href="https://www.odaily.news/newsflash/365122"/>
+        <updated>2024-04-18T23:58:14.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 4月16日，Solana上去中心化衍生品交易所Drift的基金会宣布启动治理代币DRIFT，向去中心化继续迈进，将权力下放给其忠实用户——10%的DRIFT代币（1亿枚）将分发给Drift平台上符合活跃要求的18万用户。
+DRIFT最大供应量为10亿枚，初始投放约1亿枚，其中53%用于社区和生态系统，25%用于协议开发，22%给到战略参与者。
+除代币外，Drift将朝着多分支DAO的方向发展，将负责塑造Drift生态系统的未来，以确保其满足不断变化的需求。
+到目前为止，Drift已经促成210亿美元的交易量，1580万笔交易，并积累了超过178344名交易员，TVL超3.4亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mango Markets攻击者Avi Eisenberg被判欺诈和操纵罪]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ag05ur6m.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ag05ur6m.html"/>
+        <updated>2024-04-18T23:57:54.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，据CoinDesk报道，纽约曼哈顿陪审团裁定Mango Markets攻击者Avi Eisenberg犯有欺诈和市场操纵罪，他于2022年10月从Mango Markets盗窃了1.1亿美元。纽约地方法院法官Arun Subramanian将于7月29日对他判刑。Eisenberg于2022年12月在波多黎各被捕，并被指控商品欺诈、商品操纵和电汇欺诈罪。如果三项罪名全部成立，他将面临最高20年的监禁。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Avail公布空投规则并上线空投查询网站]]></title>
+        <id>https://m.theblockbeats.info/flash/247627?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/247627?t=binance"/>
+        <updated>2024-04-18T23:52:07.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 19 日，模块化区块链解决方案提供商 Avail 公布空投规则并上线空投查询网站，奖励类别包括整个区块链生态系统的开发人员、激励测试网贡献者、汇总用户、Polygon PoS 质押者以及对区块链生态系统做出重大贡献的社区成员。具体如下：
+
+-生态开发者：对 Github repos 做出重大贡献的开发者——9000 万枚 AVAIL；
+-激励测试网贡献者：碰撞节点激励排行榜和轻客户端挑战的赢家——4950 万枚 AVAIL；
+-以太坊 L2 用户：Arbitrum One、OP Mainnet、Polygon zkEVM、Starknet 和 zkSync 的高活跃用户——3.8 亿枚 AVAIL；
+-Polygon PoS 质押者：Polygon PoS 质押者——7000 万枚 AVAIL；
+-社区贡献者：教育、宣传和治理方面对生态做出重大贡献的个人——1050 万枚 AVAIL。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[stc Bahrain和Avalanche建立合作伙伴关系，以推动Web3在中东的发展]]></title>
+        <id>https://www.odaily.news/newsflash/365121</id>
+        <link href="https://www.odaily.news/newsflash/365121"/>
+        <updated>2024-04-18T23:50:14.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 4月18日，stc Bahrain与Ava Labs宣布合作。通过推出Avalanche子网作为其Web3 Launchpad计划的一部分，stc Bahrain正在努力加快区块链在中东的采用和扩展。
+作为计划的一部分，Avalanche被选为Qala'a Path合作伙伴和行业大使。Qala'a Path以联合国教科文组织遗产Qala'aal-Bahrain（巴林堡垒）命名，象征着力量和文化融合。
+stc Bahrain是中东电信品牌stc集团的子公司，价值139亿美元，后者曾部署世界上最大的海底电缆（连接欧洲、非洲和亚洲）和开发该地区第一个占地55000平方米的综合数据中心园区。现在，stc Bahrain将利用Avalanche促进该地区的Web3开发。
+stc Bahrain首席销售官Saad Odeh表示：“我们很高兴能与Avalanche一起踏上这段旅程，利用他们开创性的技术提升我们的Web3基础设施。部署Avalanche子网证明了我们致力于引领该地区的数字化转型和创新。”
+Ava Labs BD高级副总裁John Nahas表示：“我们很荣幸能与stc巴林公司合作，扩大Avalanche在中东和北非的业务。”]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Avail公布空投计划，将向354,605个钱包地址分发6亿枚代币]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/gozfao6s.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/gozfao6s.html"/>
+        <updated>2024-04-18T23:45:34.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，模块化区块链Avail在官方博客公布代币空投计划，将向354,605个钱包地址分发6亿枚代币。空投对象包括区块链生态系统开发人员、测试网贡献者、rollup用户(Polygon、zkSync、Starknet、Optimism和Arbitrum)、Polygon PoS质押者或对生态系统做出重大贡献的Avail社区成员。符合资格的参与者可在5月4日之前开始验证代币申领，代币将在Avail DA启动时分发。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QCP和Further Ventures宣布战略合作伙伴关系，以扩大加密资管规模]]></title>
+        <id>https://www.odaily.news/newsflash/365120</id>
+        <link href="https://www.odaily.news/newsflash/365120"/>
+        <updated>2024-04-18T23:43:40.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 4月17日，全球数字资产交易公司、做市商QCP与由Lunate和Mastercard支持的风投机构Further Ventures宣布战略合作伙伴关系，以扩大加密资管规模。QCP在2023年的年交易额接近600亿美元，并计划进军阿布扎比市场。
+上个月，阿布扎比Global Market（ADGM）宣布，截至2023年底，其管理的资产增长了35%，102家资产管理公司管理着141只基金。利用阿布扎比巨大的增长潜力，QCP和Further Ventures正合作推出新的金融衍生品。
+QCP首席执行官Melvin Deng表示，“机构对数字资产的日益采用，加上传统资产管理规模的指数级增长，为QCP在阿布扎比的扩张提供了一个令人信服且尚未开发的机会，这得益于我们与Further Ventures的合作伙伴关系。随着我们在机构数字资产领域的行业领先地位不断提高，我们非常重视Further Ventures在发展生态系统方面的深厚专业知识和热情。”
+Further Ventures管理合伙人Faisal Al Hammadi补充道：“我们选择QCP作为首选合作伙伴，以加深我们在机构数字资产生态系统中的影响力，并将新投资产品推向市场。将QCP在金融和衍生产品以及做市方面的广泛专业知识与Further通过Fuze和Tungsten等公司的分销渠道相结合，将巩固阿联酋作为数字资产投资产品交易和结算的首选管辖区的地位。”]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：4月18日灰度GBTC净流出9000万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/1d5u2f27.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/1d5u2f27.html"/>
+        <updated>2024-04-18T23:30:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，据HODL15Capital监测，4月18日Bitwise BITB资金净流入1300万美元，ARKB净流入1000万美元，灰度GBTC净流出9000万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：4月18日贝莱德IBIT交易量12.7亿美元，灰度GBTC 5.56亿美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/baasxly6.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/baasxly6.html"/>
+        <updated>2024-04-18T23:27:07.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，据HODL15Capital监测，4月18日比特币现货ETF交易量数据如下：贝莱德IBIT 12.7亿美元，灰度GBTC 5.56亿美元，富达FBTC 4.49亿美元，ProShares BITO 2.57亿美元，ARKB 1.48亿美元，BITB 7042万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chia Network上市计划取得进展，已向美国SEC提交修订后的S-1表格]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/z69jgdqb.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/z69jgdqb.html"/>
+        <updated>2024-04-18T23:23:48.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，据CoinDesk报道，加密存储区块链项目和智能交易平台Chia Network首席执行官Gene Hoffman周四表示，公司在IPO方面取得了进展。他表示，在美国证券交易委员会（SEC）向该公司发出评论函后，Chia已于3月底向SEC秘密提交了一份修订后的S-1表格。然而，由于该公司希望等待合适的市场条件，因此IPO仍没有确定的时间表。据此前消息，Chia于2023年4月透露计划上市，但此后由于其承销商瑞士信贷面临的财务困境，其IPO计划遇阻。这导致该公司在去年10月裁员三分之一。Hoffman还表示，Chia计划在未来几个月推出USDC跨链桥以及其他基础设施项目。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[过去24小时全网合约爆仓1.66亿美元，多空双爆]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/3k841vj5.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/3k841vj5.html"/>
+        <updated>2024-04-18T23:11:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月19日消息，Coinglass数据显示，过去24小时加密货币市场全网合约爆仓1.66亿美元，共有58,190人被爆仓，其中多单爆仓8412.22万美元，空单爆仓8206.84万美元。BTC爆仓总金额约5061.32万美元，ETH爆仓总金额4092.81万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[移动通讯服务公司Cape获4000万美元B轮投资，a16z领投]]></title>
         <id>https://www.odaily.news/newsflash/365119</id>
@@ -21517,198 +21795,6 @@ Nym（NYM）将于4月18日上午8点解锁308万枚代币，价值约56万美�
         <updated>2024-04-14T12:41:51.000Z</updated>
         <summary type="html"><![CDATA[Odaily星球日报讯 据 HODL15Capital 监测，神秘地址“Mr.100”今天早上逢低买入 200 枚 BTC。
 此前消息，Mr.100 钱包已被 Arkham Intelligence 标记为属于 Upbit 加密货币交易所的冷钱包。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：当前比特币网络超15.6万笔交易待确认]]></title>
-        <id>https://www.odaily.news/newsflash/364241</id>
-        <link href="https://www.odaily.news/newsflash/364241"/>
-        <updated>2024-04-14T12:25:40.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Mempool.space 数据显示，当前 Bitcoin 网络最低交易费用达 30 sat/vB，有超过 15.6 万笔交易待确认，内存池使用量超过了 300 MB 达 931 MB。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：146,503枚SOL从钱包转移到Coinbase]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/6hvb2qzi.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/6hvb2qzi.html"/>
-        <updated>2024-04-14T12:11:04.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月14日消息， 据Whale Alert监测， 146,503 枚 SOL （20,448,125 美元）从未知钱包转移到 Coinbase。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特币NFT系列Bitcoin Wizards地板价升至0.28 BTC，24小时涨幅达86.7%]]></title>
-        <id>https://m.theblockbeats.info/flash/246903?t=binance</id>
-        <link href="https://m.theblockbeats.info/flash/246903?t=binance"/>
-        <updated>2024-04-14T12:05:20.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 14 日，据行情信息，比特币 NFT 系列 Bitcoin Wizards 地板价升至 0.28 BTC，24 小时涨幅达 86.7%。
-
-此前消息，BRC-20 代币 WZRD（Bitcoin Wizards）报价 5.04 美元，24 小时涨幅达 129.1%，24 小时交易量达 662.9 万美元。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中国已备案近120款人工智能大模型]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/1eaag30h.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/1eaag30h.html"/>
-        <updated>2024-04-14T11:50:36.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月14日消息，据联合早报报道，截止3月底，中国已备案120款人工智能（AI）大模型。公开信息显示，完成生成式人工智能服务备案的大模型包括中国移动九天、百度文心一言、阿里巴巴通义千问、华为云盘古、腾讯混元助手、OPPO安第斯、vivo蓝心等。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[基于314协议的去中心化平台SSS314SWAP即将上线]]></title>
-        <id>https://www.odaily.news/newsflash/364240</id>
-        <link href="https://www.odaily.news/newsflash/364240"/>
-        <updated>2024-04-14T11:49:45.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 SSS314 是基于 BSC 链研发的创新协议，该协议采用点对点交易模式，为用户提供优质的交易体验，降低手续费成本，有效预防链上机器人，为区块链行业带来了新的创新。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Puffer Finance：明日凌晨起存入stETH或wstETH可获得5倍存款奖励]]></title>
-        <id>https://www.odaily.news/newsflash/364239</id>
-        <link href="https://www.odaily.news/newsflash/364239"/>
-        <updated>2024-04-14T11:38:49.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Puffer Finance 在 X 平台发文宣布，北京时间 4 月 15 日 00:00 开始，用户存入 stETH 或 wstETH 可获得 5 倍存款奖励。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[狂欢之夜！Dubai Magical Night 将点燃派对热情，探索开放技术与加密行业的未来]]></title>
-        <id>foresightnews-article#58030</id>
-        <link href="https://foresightnews.pro/article/detail/58030"/>
-        <updated>2024-04-14T11:35:49.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>UneMeta</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特币合约持仓量降至320亿美元，过去24小时跌幅9.6%]]></title>
-        <id>https://www.odaily.news/newsflash/364238</id>
-        <link href="https://www.odaily.news/newsflash/364238"/>
-        <updated>2024-04-14T11:34:54.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据 Coinglass 数据显示，当前比特币合约持仓量已降至 321.41 亿美元，过去 24 小时跌幅为 9.6%。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[星球晚讯]]></title>
-        <id>https://www.odaily.news/newsflash/364237</id>
-        <link href="https://www.odaily.news/newsflash/364237"/>
-        <updated>2024-04-14T11:30:19.000Z</updated>
-        <summary type="html"><![CDATA[1. 某鲸鱼再次从币安提取 598 枚 BTC，约合 3778 万美元；
-2. 疑似 QCP 地址将 5000 枚 ETH 存入币安；
-3. “比特币跳水 29 万人爆仓”登上热搜榜第 31 位；
-4. Base 上 ZebraDAO 与 Blast 上 Leaper Finance 疑似属于同一诈骗团伙；
-5. 两个鲸鱼在市场下跌后买入总价值超 200 万美元的 SLERF、BOME 和 BODEN；
-6. Tether 的代币化平台即将向所有人开放；
-7. 铭文项目 WZRD 突破 5 USDT，24H 涨幅为 132.8%；
-8. Kyber Network 24H 交易量达 2.235 亿美元，创历史新高。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[社区生态 | stUSDT 每日 Rebase 数据播报—2024 年 4 月 14 日]]></title>
-        <id>foresightnews-article#58037</id>
-        <link href="https://foresightnews.pro/article/detail/58037"/>
-        <updated>2024-04-14T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>波场 TRON</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[社区视频 | TRON 周资讯（04.06-04.12）新鲜出炉，波场 TRON 大事早知道]]></title>
-        <id>foresightnews-article#58036</id>
-        <link href="https://foresightnews.pro/article/detail/58036"/>
-        <updated>2024-04-14T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>波场 TRON</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据突破 | ​波场 TRON 账户总数突破 2.24 亿]]></title>
-        <id>foresightnews-article#58032</id>
-        <link href="https://foresightnews.pro/article/detail/58032"/>
-        <updated>2024-04-14T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>波场 TRON</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[社区生态 | ​孙宇晨：波场 TRON 致力于探索和扩大在日本市场的影响力]]></title>
-        <id>foresightnews-article#58031</id>
-        <link href="https://foresightnews.pro/article/detail/58031"/>
-        <updated>2024-04-14T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>波场 TRON</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[​Meta AI: Meta 在印度测试人工智能聊天机器人？]]></title>
-        <id>foresightnews-article#58029</id>
-        <link href="https://foresightnews.pro/article/detail/58029"/>
-        <updated>2024-04-14T11:26:07.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>阿法兔研究笔记</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BTC短线跌破64000 USDT，24H跌幅5.30%]]></title>
-        <id>https://www.odaily.news/newsflash/364236</id>
-        <link href="https://www.odaily.news/newsflash/364236"/>
-        <updated>2024-04-14T11:24:50.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 OKX 行情显示，BTC 短线跌破 64000 USDT，现报 63995 USDT，24H 跌幅为 5.30%。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IoTeX将与谷歌云共同举办迪拜Web3 Roadshow]]></title>
-        <id>https://www.odaily.news/newsflash/364235</id>
-        <link href="https://www.odaily.news/newsflash/364235"/>
-        <updated>2024-04-14T11:18:17.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据悉 IoTeX 将在 4 月 16 日和 Google Cloud 于 Google 迪拜办公室共同举办 Web3 Roadshow，届时会对 ZK、L1/L2 层网络、AI+DePIN 等话题进行深入探讨。
-为推动 AI+DePIN 发展，IoTeX 构建了去中心化的开放数据栈，通过其 W3bstream 等模块能够在安全隐私的情况下将真实世界数据储存于链上，为 AI 算法训练提供强大的数据支持。而 Google Cloud 作为传统算力龙头则能够为 AI 训练提供底层算力支持，双方此次合作将有益于推动 AI+DePIN 行业健康发展。
-据介绍，这是 Google Cloud Web3 Roadshow 的首次启程，通过系列的 Web3 巡展活动，Google Cloud 将与如 IoTeX 等先锋团队共同探索，为 Web3 的成长发展贡献力量。
-此次参与活动的嘉宾还有来自 Polyhedra、Zircut、Bouncebit 等团队的成员，更多信息及参与报名可通过 IoTeX 的官方推特了解。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：当前比特币网络超15.4万笔交易待确认]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/uqfr97i7.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/uqfr97i7.html"/>
-        <updated>2024-04-14T11:11:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月14日消息，Mempool.space数据显示，当前Bitcoin网络最低交易费用达18 sat/vB，有超过15.4万笔交易待确认，内存池使用量超过了300 MB达928 MB。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kyber Network 24H交易量达2.235亿美元，创历史新高]]></title>
-        <id>https://www.odaily.news/newsflash/364234</id>
-        <link href="https://www.odaily.news/newsflash/364234"/>
-        <updated>2024-04-14T11:10:09.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Kyber Network 在 X 平台发文表示，Kyber Network 在过去 24H 交易量创历史新高，达 2.235 亿美元，24H 涨幅为 82.2%。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
         </author>
