@@ -2,10 +2,139 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-05-05T08:09:45.303Z</updated>
+    <updated>2024-05-05T09:09:51.858Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vitalik：Binius，对二进制字段的高效证明]]></title>
+        <id>https://m.theblockbeats.info/news/53335?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53335?t=binance"/>
+        <updated>2024-05-05T09:00:01.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：Binius: highly efficient proofs over binary fields
+原文作者：Vitalik Buterin
+原文编译：Kate，MarsBit
+
+
+这篇文章主要针对大致熟悉 2019 年时代密码学的读者，特别是 SNARK 和 STARK。如果你不是，我建议你先阅读这些文章。特别感谢 Justin Drake, Jim Posen, Benjamin Diamond 和 Radi Cojbasic 的反馈和评论。
+
+
+在过去的两年中，STARK 已经成为一种关键且不可替代的技术，可以有效地对非常复杂的语句进行易于验证的加密证明（例如，证明以太坊区块是有效的）。其中一个关键原因是字段大小小：基于椭圆曲线的 SNARK 要求您在 256 位整数上工作才能足够安全，而 STARK 允许您使用更小的字段大小，效率更高：首先是 Goldilocks 字段（64 位整数），然后是 Mersenne31 和 BabyBear（均为 31 位）。由于这些效率的提高，使用 Goldilocks 的 Plonky2 在证明多种计算方面比其前辈快数百倍。
+
+
+一个自然而然的问题是：我们能否将这一趋势引向合乎逻辑的结论，通过直接在零和一上操作来构建运行速度更快的证明系统？这正是 Binius 试图做的事情，使用了许多数学技巧，使其与三年前的 SNARK 和 STARK 截然不同。这篇文章介绍了为什么小字段使证明生成更有效率，为什么二进制字段具有独特的强大功能，以及 Binius 用来使二进制字段上的证明如此有效的技巧。
+
+
+
+
+
+Binius。在这篇文章的最后，你应该能够理解此图的每个部分。
+
+
+回顾：有限域（finite fields）
+
+
+加密证明系统的关键任务之一是对大量数据进行操作，同时保持数字较小。如果你可以将一个关于大型程序的语句压缩成一个…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[780万枚GAL代币解锁并分配至六个多签地址]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/cls3tr6d.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/cls3tr6d.html"/>
+        <updated>2024-05-05T08:58:25.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月5日消息，据@ai_9684xtpa监测，一小时前，占GAL流通总量6.75%的代币已解锁，涉及780万枚，价值约2854万美元。，当前，这些解锁的GAL代币已分配至六个多签地址。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heroes of Mavia将于今日晚上9:30开放红宝石市场]]></title>
+        <id>https://www.odaily.news/newsflash/367788</id>
+        <link href="https://www.odaily.news/newsflash/367788"/>
+        <updated>2024-05-05T08:57:31.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 链游 He­roes of Mav­ia 在 X 平台发文表示，红宝石市场将于今日晚上 9:30 开放。
+此前消息，MAVIA 代币发行计划正在进行修改，到 2025 年 2 月为止，代币解锁量将减少 80%以上。同时，截至 2025 年 2 月，MAVIA 的流通供应量将保持在 14%以下。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blob团队在比特币减半区块铭刻符文，NFT地板价上涨]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/v2vrfqvm.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/v2vrfqvm.html"/>
+        <updated>2024-05-05T08:37:38.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月5日消息，比特币NFT项目Blob团队宣布，在比特币第四次减半区块史诗聪上成功铭刻符文EPIC•EPIC•EPIC•EPIC。此消息发布后，Blob NFT的地板价短时拉升至0.0699 BTC。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MATR1X公布了第一批顶级的武器皮肤NFT的形象]]></title>
+        <id>https://www.odaily.news/newsflash/367787</id>
+        <link href="https://www.odaily.news/newsflash/367787"/>
+        <updated>2024-05-05T08:37:10.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 MATR1X 在 X 平台发文宣布，平台己公布第一款纪念品宝箱—KUKU X Souvenir Case 中的顶级武器皮肤 NFT，共有 15 款，限量产出，永不增发。
+据此前消息，MATR1X 平台即将于 5 月中下旬上线开宝箱活动，宝箱包括 KUKU 纪念品宝箱（KUKU X Souvenir Case）和先锋宝箱（Pioneer Case）。
+开宝箱除了能产出公示的顶级武器 NFT 以外，还有 3000 万至4000 万的 MAX 代币将从开宝箱活动中产出。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今日解锁的780万枚GAL已分配至6个多签地址]]></title>
+        <id>https://www.odaily.news/newsflash/367786</id>
+        <link href="https://www.odaily.news/newsflash/367786"/>
+        <updated>2024-05-05T08:32:45.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据链上分析师 @ai_9684xtpa 监测，一小时前，GAL 流通总量 6.75%的代币已解锁，总解锁量 780 万枚，价值约合 2854 万美元。目前这 780 万枚解锁 GAL 已被分配至六个多签地址。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全球以太坊峰会EDCON 2024宣布DoraHacks.io为Super Demo Day唯一官方申请通道]]></title>
+        <id>https://www.odaily.news/newsflash/367784</id>
+        <link href="https://www.odaily.news/newsflash/367784"/>
+        <updated>2024-05-05T08:29:34.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，全球极客运动平台 DoraHacks.io 将作为全球以太坊峰会 EDCON 2024 Super Demo Day 合作伙伴提供官方唯一申请通道。目前报名通道已开启，提交截止日期为 5 月 31 日。
+Super Demo Day 是由 Edcon 主办的 Web3 创业项目展示日，申请者中的优秀团队将有机会在 EDCON 2024 东京涉谷主会场进行 10 分钟现场演示，评委包括全球一线创投基金与 Web3 团队。最终评选前三的项目将共享 10,000 美元的奖金池。
+Super Demo Day 不限制申请项目方向，推荐的赛道包括互操作性解决方案、消费级应用、ReFi、AI 加密应用、DePin 等方面等。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Backpack完成io.net第三阶段空投快照]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/k7yvopub.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/k7yvopub.html"/>
+        <updated>2024-05-05T08:27:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月5日消息，加密交易所Backpack在推特上宣布，已成功完成io.net第三阶段的空投快照。关于io.net空投的更多细节将于下周发布。此前，Backpack曾指出，io.net的空投快照拍摄时间为4月23日15:00至5月5日15:00。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GFX将于5月6号完成预售]]></title>
+        <id>https://www.odaily.news/newsflash/367783</id>
+        <link href="https://www.odaily.news/newsflash/367783"/>
+        <updated>2024-05-05T08:16:29.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 0xGameFiX 官方信息，GFX 启动最后预售，将于 48 小时后结束，8 号上线交易。
+GFX 宣布和 NFP、ID 达成战略合作，通过 NFP 的 AIGC 角色提升 0xGameFiX 的英雄 NFT，并集成由@SpaceIDProtocol 的 Web3 Name SDK 提供支持的 .bnb 域名。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gas Hero将在下周举办多个活动]]></title>
+        <id>https://www.odaily.news/newsflash/367782</id>
+        <link href="https://www.odaily.news/newsflash/367782"/>
+        <updated>2024-05-05T08:13:46.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Gas Hero 于 X 平台发文宣布，将在下周举办多个活动，具体包括部族 Boss 战、公会会长选举、公会 Gas War 注册和战斗等。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NFT项目Blob团队在比特币第四次减半区块史诗聪上铭刻符文EPIC•EPIC•EPIC•EPIC]]></title>
         <id>https://www.odaily.news/newsflash/367781</id>
@@ -13134,16 +13263,6 @@ Iris 还表示，如果在今年内完成 Childress 第 3 期工程，将追加 
         <link href="https://www.odaily.news/newsflash/367111"/>
         <updated>2024-04-30T21:11:50.000Z</updated>
         <summary type="html"><![CDATA[Odaily星球日报讯 美国众议院金融服务委员会发表声明称，美国证券交易委员会（SEC）对关于以太坊（ETH）安全性的说法与该机构主席 Gary Gensler 的声明自相矛盾。美国银行业委员会在声明中称，他们将继续追究 SEC 在数字资产市场中监管过度的责任，有关该机构对以太坊分类的问题，在目前申请发行美国首个现货以太坊 ETF 的过程中至关重要。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美议员对使用加密货币逃避制裁的问题表示高度担忧]]></title>
-        <id>https://www.odaily.news/newsflash/367110</id>
-        <link href="https://www.odaily.news/newsflash/367110"/>
-        <updated>2024-04-30T20:20:41.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 美国参议员 Elizabeth Warren 和 Roger Marshall 在周末致美国国防部长 Lloyd Austin 和财政部长 Janet Yellen 等官员的一封信中表达了对稳定币 Tether 的担忧。该信中写到，他们对俄罗斯、伊朗和朝鲜等国依赖加密货币逃避制裁表示高度担忧，加密货币构成的国家安全威胁需要美国国防界做出相应的反应。Tether 表示，他与执法部门合作追踪资产并抓捕罪犯。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
         </author>

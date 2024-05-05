@@ -51,11 +51,738 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-05 datetime="2024-05-05T08:07:17.000Z">2024-05-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-05 datetime="2024-05-05T08:07:17.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-05 datetime="2024-05-05T09:00:01.000Z">2024-05-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-05 datetime="2024-05-05T09:00:01.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >律动BlockBeats</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/53335?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik：Binius，对二进制字段的高效证明</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/53335?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：Binius: highly efficient proofs over binary fields
+原文作者：Vitalik Buterin
+原文编译：Kate，MarsBit
+
+
+这篇文章主要针对大致熟悉 2019 年时代密码学的读者，特别是 SNARK 和 STARK。如果你不是，我建议你先阅读这些文章。特别感谢 Justin Drake, Jim Posen, Benjamin Diamond 和 Radi Cojbasic 的反馈和评论。
+
+
+在过去的两年中，STARK 已经成为一种关键且不可替代的技术，可以有效地对非常复杂的语句进行易于验证的加密证明（例如，证明以太坊区块是有效的）。其中一个关键原因是字段大小小：基于椭圆曲线的 SNARK 要求您在 256 位整数上工作才能足够安全，而 STARK 允许您使用更小的字段大小，效率更高：首先是 Goldilocks 字段（64 位整数），然后是 Mersenne31 和 BabyBear（均为 31 位）。由于这些效率的提高，使用 Goldilocks 的 Plonky2 在证明多种计算方面比其前辈快数百倍。
+
+
+一个自然而然的问题是：我们能否将这一趋势引向合乎逻辑的结论，通过直接在零和一上操作来构建运行速度更快的证明系统？这正是 Binius 试图做的事情，使用了许多数学技巧，使其与三年前的 SNARK 和 STARK 截然不同。这篇文章介绍了为什么小字段使证明生成更有效率，为什么二进制字段具有独特的强大功能，以及 Binius 用来使二进制字段上的证明如此有效的技巧。
+
+
+
+
+
+Binius。在这篇文章的最后，你应该能够理解此图的每个部分。
+
+
+回顾：有限域（finite fields）
+
+
+加密证明系统的关键任务之一是对大量数据进行操作，同时保持数字较小。如果你可以将一个关于大型程序的语句压缩成一个…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249204?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT项目Blob团队在比特币第四次减半区块史诗聪上铭刻符文EPIC•EPIC•EPIC•EPIC</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249204?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 5 日，据官方消息，比特币 NFT Blob 团队宣布在第四次减半区块史诗聪上铭刻符文 EPIC•EPIC•EPIC•EPIC。
+
+受此消息影响，比特币 NFT Blob 地板价短时拉升至 0.0699 BTC。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249202?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币网络最佳手续费短时拉升至400聪/字节以上</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249202?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 5 日，据 BTC.com 数据，比特币网络最佳手续费短时拉升至 200Satoshi/vbyte 以上，高优先级现报 441 聪/字节。
+
+链上数据显示，EPIC•EPIC•EPIC•EPIC、DOPE•ASS•TICKER 及 FIRST•EPIC•RUNE 符文铭刻为当前比特币网络热度较高交互。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249194?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">friend.tech：代币LP提供者可通过三种途径赚取奖励</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249194?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 5 日，friend.tech 在其社交平台表示，FRIEND 代币 LP 提供者可通过三种途径赚取奖励：
+
+1、每次交易收取 ETH/FRIEND 交易对费用的 1.5%；
+2、12 个月内 LM 奖励 1200 万 FRIEND；
+3、Club Key 交易费用的 1.5% FRIEND。
+
+此外，friend.tech 称，BunnySwap 的 LP 费用会自动计入 LP 头寸，不需要像其他奖励一样手动领取。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/53343?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">解读Particle Network：链抽象怎么解决跨链复杂性？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/53343?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Particle Network 是一个面向 Web3 的开发平台，旨在提高开发者的开发效率并加速 Web3 的大规模采用。其核心产品是基于 MPC-TSS 技术的登录和钱包中间件，无需终端用户记忆助记词及使用 gas fee，大大降低 Web3 采用的门槛。
+
+
+目前，Particle Network 已完成三轮融资，2022 年 5 月由 Longhash Ventures 领投 150 万美元 Pre-Seed 融资，2023 年 3 月由 ABCDE Capital 领投 700 万美元融资，随后再次完成一轮战略轮融资。
+
+
+
+
+
+Particle 生态系统
+
+
+自 2022 年 10 月下旬产品发布以来，Particle Network 已与数百个 Web3 项目合作。
+
+
+Particle 新升级为钱包抽象、链抽象、流动性抽象、Gas 抽象等功能。所以在链抽象赛道，它的强项依然是抽象钱包，主打模块化智能 WaaS（Wallet as a Service，钱包及服务）。为此，Particle Network 推出 4 项主要产品打造钱包生态。
+
+
+在隐私保护方面，有机密 zkStack，一方面通过 zkWaaS 保护钱包登陆的隐私安全，另一方面通过 ERC-4337 引入 Paymaster 机制来实现私人交易。通过意图融合协议聚合链上和链下的数据流动性，在支付过程中可以使用Particle 代币充当所有链的 gas。而包括 Particle Chain 在内的所有组件构成了 Particle Network 的全链账户抽象，用以支持钱包账户的存储、管理、传输及协调等工作。
+
+
+此外，Particle Network 还发布 MPC+AA 钱包解决方案，提供跨平台 SDK，形成 MPC+EOA 和 MPC+AA 账户抽象钱包的产品矩阵。除了钱包和登录中间件，Par…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249189?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">BounceBit：主网和代币空投将于5月13日上线</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249189?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 5 日，据官方公告，BounceBit 宣布其主网上线时间表，5 月 6 日，Premium Yield Generation 将暂停直至主网上线。5 月 6 日—12 日 BounceBit 引入第一批专业节点运营商。5 月 13 日，BounceBit 主网将于当天上市。BB 积分空投将自动分发到每个符合条件的钱包中，无需声明或与任何网页交互。
+
+此外，Binance 上的 BB Megadrop 将于当天结束，奖励将在交易开始前发放。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249184?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">美联储4月实现缩表770亿美元，资产负债表规模已降至7.4万亿美元以下</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249184?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 5 日，据美联储官网数据显示，截至 4 月 30 日，美联储 4 月实现缩表 770 亿美元，当前其资产负债表规模已降至 7.4 万亿美元以下，为 7.362 万亿美元。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >PANews News</button>
+                  <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/cls3tr6d.html"
+                        open
+                      >
+                        <summary class="article-expander__title">780万枚GAL代币解锁并分配至六个多签地址</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/cls3tr6d.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，据@ai_9684xtpa监测，一小时前，占GAL流通总量6.75%的代币已解锁，涉及780万枚，价值约2854万美元。，当前，这些解锁的GAL代币已分配至六个多签地址。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/v2vrfqvm.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Blob团队在比特币减半区块铭刻符文，NFT地板价上涨</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/v2vrfqvm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，比特币NFT项目Blob团队宣布，在比特币第四次减半区块史诗聪上成功铭刻符文EPIC•EPIC•EPIC•EPIC。此消息发布后，Blob NFT的地板价短时拉升至0.0699 BTC。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/k7yvopub.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Backpack完成io.net第三阶段空投快照</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/k7yvopub.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，加密交易所Backpack在推特上宣布，已成功完成io.net第三阶段的空投快照。关于io.net空投的更多细节将于下周发布。此前，Backpack曾指出，io.net的空投快照拍摄时间为4月23日15:00至5月5日15:00。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/74745gc7.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NEAR第一季度TVL达3.35亿美元，环比增长163%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/74745gc7.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，Messari研究员Nick Garcia在X平台发文指出，NEAR Protocol在2024年第一季度表现突出，其总锁定价值（TVL）达到3.35亿美元，环比增长163%，较前六个月增长547%。日活跃地址数达到120万，环比增长42%，较前六个月增长377%。此外，NEAR的稳定币市值环比增长176%，达到2.14亿美元。NEAR的累计账户总数已超过1亿个。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/3j5aezq4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币网络手续费短时拉升至400聪/字节</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/3j5aezq4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，据BTC.com数据显示，比特币网络的最佳手续费短时拉升至400聪/字节以上，高优先级费率现报508聪/字节。GeniiMap数据显示，当前比特币网络链上热门项目包括EPIC•EPIC•EPIC•EPIC、DOPE•ASS•TICKER以及FIRST•EPIC•RUNE符文铭刻。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/tbr3ljq3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Cardano创始人提议将Cardano与BCH集成</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/tbr3ljq3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，Cardano创始人查尔斯·霍斯金森在X上提出一个建议，邀请公众投票支持他将比特币现金（BCH）作为合作伙伴链加入Cardano区块链的提案。此次集成将包括多个倾向于工作量证明（PoW）的新升级功能，目前已有66%的参与者支持这一提议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/8xnrul6h.html"
+                        open
+                      >
+                        <summary class="article-expander__title">多签钱包从币安提出超1万亿枚$PEPE</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/8xnrul6h.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，据余烬@EmberCN监测，一个多签钱包前20分钟，该钱包提出了9158亿$PEPE，价值773万美元。在过去28小时里该地址从币安提出总计1.238万亿$PEPE，价值约1046万美元。此21天前，该钱包曾将762万USDT转入币安，这些$PEPE的购买成本估计为每枚$0.00000617。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/k1xmmeyb.html"
+                        open
+                      >
+                        <summary class="article-expander__title">稳定币市值周增0.29%，USDT市占率达68.97%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/k1xmmeyb.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，据Defillama数据显示，过去一周，稳定币总市值增长0.29%，达到1604.07亿美元。在此期间，USDT的市值达到1106.27亿美元，市占率为68.97%，继续领先稳定币市场。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/d18yj7ev.html"
+                        open
+                      >
+                        <summary class="article-expander__title">某地址通过BunnySwap累计卖出677,197枚$FRIEND获利115万美金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/d18yj7ev.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，据@ai_9684xtpa报道，自friend.tech代币上线以来，地址0x262...3D069已通过BunnySwap累计卖出677,197枚$FRIEND空投代币，获利约115万美金。需注意的是，部分$FRIEND空投领取交易无法在链上展示。该地址未有过大额买入记录，因此代币来源很可能为空投。目前该地址仍持有约4.2万枚代币。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/t57a7eyn.html"
+                        open
+                      >
+                        <summary class="article-expander__title">FRIEND 短时触及 2.8USDT，24 小时涨幅 79.62%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/t57a7eyn.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews5月5日消息，据 coingecko行情显示，friend.tech 代币 FRIEND 短时触及 2.8 USDT，现报价 2.6 USDT，24 小时涨幅为 78.49%，市值约为2.1亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/jksofkb7.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Whales Market宣布Friendtech积分市场结算启动，无结算费</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/jksofkb7.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，Whales Market官方在X平台宣布，关于@friendtech的积分市场结算已经开始。值得注意的是，结算过程中买家不会被收取任何费用。然而，由于掉期产生的滑点和税收，收到的FRIEND代币数量可能会有所偏差。此外，因FRIEND代币不可转让，转让过程需通过BunnySwap完成。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/wifx3h2j.html"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊网络Gas费降至5 gwei</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/wifx3h2j.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，据Etherscan数据显示，当前以太坊网络的Gas费已降至5 gwei（约合0.3美元）。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/uhq22qam.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Avail宣布空投申领第一阶段结束，第二阶段信息下周公布</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/uhq22qam.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，Polygon模块化区块链项目Avail在推特上宣布，其AVAIL代币空投申领第一阶段已经结束，官方申领窗口已关闭。该项目预计在下周公布第二阶段申领的相关信息，将包括扩大奖励范围及向Polygon PoS验证者和LST持有者提供的奖励细节。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/qqo1kevs.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Bitfinex首席技术官强调，不会明文存储密码或2FA机密</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/qqo1kevs.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，Bitfinex首席技术官Paolo Ardoino近日声明，该交易所绝不会以明文形式存储用户的密码或二次验证（2FA）机密信息。
+此前，黑客组织 FSOCIETY 声称他们入侵了加密货币交易所 Bitfinex 的数据库并泄露了 22,500 封客户电子邮件和密码。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/dzq419p5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">交易者用402枚ETH买入FRIEND，未实现利润达65.3万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/dzq419p5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，据Spot On Chain监测显示，FRIEND上线2天价格飙升70%。一名交易者以每枚FRIEND约1.678美元的价格，使用402枚ETH（约123万美元）购买了732,326枚FRIEND。该交易者目前是FRIEND的第二大个人持有者，其未实现利润为65.3万美元，增值率达53%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/ct34xugi.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Friend.tech：48小时内6万独立地址加入近9万Club</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/ct34xugi.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，Friend.tech官方在X平台发文称，在过去48小时内，共有59,348个独立地址加入了88,987个Club。目前，$FRIEND LPs/farmers 可通过三种方式获得奖励： 每次掉期收取 1.5% 的 ETH/$FRIEND 费用 - 12 个月内 $FRIEND 获得 1200 万 LM 奖励 - 俱乐部钥匙交换中 $FRIEND 费用的 1.5%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/8rf914s1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Sui官方回应质疑，创始人不控制任何代币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/8rf914s1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews5月5日消息，针对近期社交媒体针对SUI代币模型和创始人控制代币的质疑和讨论，Sui官方在X平台进行了回应。
+Sui官方表示：MystenLabs的创始人不控制Sui基金金库、社区储备、股权补贴或分配给投资者的任何代币。Sui基金会是锁定代币的最大持有者，锁定代币将根据公开的排放时间表进行解锁。此外，Sui基金会表示会将获得的质押奖励100%返还给社区，并纳入公共排放计划。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/z6x7wkvo.html"
+                        open
+                      >
+                        <summary class="article-expander__title">SUI链上交易量突破4100万，曾短时超越Solana</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/z6x7wkvo.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews5月5日消息，据artemis数据显示，5月3日SUI链上交易数量激增20倍以上，达到4100万笔。当日链上交易数量超越Solana（2770万笔）。据PANews观察，随后SUI的链上交易量又迅速下跌，目前已恢复至此前的平均水平345万笔左右。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/c5946fhu.html"
+                        open
+                      >
+                        <summary class="article-expander__title">BounceBit 5月13日主网上线，积分空投同步进行</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/c5946fhu.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，根据官方公告，BounceBit将按照以下时间表进行主网上线：5月6日，Premium Yield Generation功能将暂停，直至主网正式上线。5月6日至12日，BounceBit将引入首批专业节点运营商。5月13日，BounceBit主网将正式上市，与此同时，BB积分空投将自动分发至每个符合条件的钱包，用户无需进行额外操作。
+此外，币安平台上的BB Megadrop活动将于同日结束，奖励将在交易开始前发放。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/0kmwxer5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Arbitrum One的ETH存款流入占L2网络75%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/0kmwxer5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，据链上分析平台OurNetwork创始人Spencer Noon在X平台发文表示，截至4月28日，Arbitrum One积累了价值52亿美元的ETH存款，达到历史新高。该平台拥有的174万枚ETH余额超过其他EVM链的总和。来自CEX的数据还显示，Arbitrum One是ETH存款的主要第二层（L2）网络，截至2024年5月，其存款流入占所有L2网络的75%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/nk362max.html"
+                        open
+                      >
+                        <summary class="article-expander__title">BTC跌破63000美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/nk362max.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，币安BTC/USDT交易对最新报价跌破63000美元，现报62891美元，24小时内跌幅为1.32%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/7v9xbj7a.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Uniswap创始人Hayden Adams谈代币分配：舍得分钱，要代币，不要积分</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/7v9xbj7a.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，Uniswap创始人Hayden Adams在推特上分享了关于代币分配的观点。他提出几点建议：发行代币，而不是积分；不要营销代币价格；不要吝啬空投；保持真是流动性；不要为了为了增加数量而戏弄farmers。Hayden Adams建议项目方捐出大量的钱。“如果你认为社区不值得，请不要发布代币。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/0558cbeo.html"
+                        open
+                      >
+                        <summary class="article-expander__title">孙宇晨团队存入12万枚EETH至Swell L2，占总存款46.6%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/0558cbeo.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，据@ai_9684xtpa监测，孙宇晨团队地址0x7a9...3095于5月4日将12万枚eETH（ETH存入Ether.Fi后的存款凭证）存入Swell L2，价值达3.76亿美元。当前Swell的为期四周的pre-launch存款活动将在5月8日结束，孙宇晨的质押资金占Swell L2总存款量的46.6%。此前，该地址在Ether.Fi空投活动结束前5天存入12万枚ETH，获取了2.2万枚ETHFI，价值10.5万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/i58ptxga.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美联储4月缩表770亿美元，资产负债表降至7.362万亿</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/i58ptxga.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，截至4月30日，美联储在4月份成功缩减资产负债表规模达770亿美元，当前资产负债表规模低于7.4万亿美元，降至7.362万亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/il2b75eb.html"
+                        open
+                      >
+                        <summary class="article-expander__title">PEPE 创始人身份曝料者­：遭遇攻击损失 1155 枚 WBTC的是我</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/il2b75eb.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月5日消息，PEPE 创始人身份曝料者­、Pond Coin 创始人 PAULY 在社交媒体平台透露，由于个人操作失误，损失 1155 枚 WBTC，价值近 7000 万美元。PAULY表示自己当时正在转移一大笔钱时，粘贴的地址被修改，将资金重定向到网络犯罪分子的账户。
+此前，据 Cyvers Alerts 监测，系统检测到某地址疑似成为一地址恶意交易的受害者，损失了 1155 枚 WBTC，价值约7000万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/q9om0zqw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">巴菲特：预计伯克希尔哈撒韦将在6月底持有2000亿美元现金，苹果仍将是长期投资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/q9om0zqw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月4日消息，据金十报道，巴菲特在2024年度伯克希尔-哈撒韦股东大会中表示，可以安全地假设伯克希尔哈撒韦的现金持有量将在6月底达到2000亿美元。将在合适的时候努力减少股份数量。巴菲特表示，我们还是会长期持有苹果、可口可乐和美国运通这三家公司的股票。到2024年底，苹果极有可能仍然是伯克希尔哈撒韦持有数量最大的股票。除非发生重大事件，否则苹果将继续是伯克希尔在股票领域的最大投资。相对于股票市场上的可用资金以及世界各地的冲突，持有大量现金“相当有吸引力”。如果伯克希尔公司采取重大行动，极有可能发生在美国。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +794,132 @@
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/367788"
+                        open
+                      >
+                        <summary class="article-expander__title">Heroes of Mavia将于今日晚上9:30开放红宝石市场</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/367788">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 链游 He­roes of Mav­ia 在 X 平台发文表示，红宝石市场将于今日晚上 9:30 开放。
+此前消息，MAVIA 代币发行计划正在进行修改，到 2025 年 2 月为止，代币解锁量将减少 80%以上。同时，截至 2025 年 2 月，MAVIA 的流通供应量将保持在 14%以下。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/367787"
+                        open
+                      >
+                        <summary class="article-expander__title">MATR1X公布了第一批顶级的武器皮肤NFT的形象</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/367787">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据 MATR1X 在 X 平台发文宣布，平台己公布第一款纪念品宝箱—KUKU X Souvenir Case 中的顶级武器皮肤 NFT，共有 15 款，限量产出，永不增发。
+据此前消息，MATR1X 平台即将于 5 月中下旬上线开宝箱活动，宝箱包括 KUKU 纪念品宝箱（KUKU X Souvenir Case）和先锋宝箱（Pioneer Case）。
+开宝箱除了能产出公示的顶级武器 NFT 以外，还有 3000 万至4000 万的 MAX 代币将从开宝箱活动中产出。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/367786"
+                        open
+                      >
+                        <summary class="article-expander__title">今日解锁的780万枚GAL已分配至6个多签地址</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/367786">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据链上分析师 @ai_9684xtpa 监测，一小时前，GAL 流通总量 6.75%的代币已解锁，总解锁量 780 万枚，价值约合 2854 万美元。目前这 780 万枚解锁 GAL 已被分配至六个多签地址。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/367784"
+                        open
+                      >
+                        <summary class="article-expander__title">全球以太坊峰会EDCON 2024宣布DoraHacks.io为Super Demo Day唯一官方申请通道</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/367784">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据官方消息，全球极客运动平台 DoraHacks.io 将作为全球以太坊峰会 EDCON 2024 Super Demo Day 合作伙伴提供官方唯一申请通道。目前报名通道已开启，提交截止日期为 5 月 31 日。
+Super Demo Day 是由 Edcon 主办的 Web3 创业项目展示日，申请者中的优秀团队将有机会在 EDCON 2024 东京涉谷主会场进行 10 分钟现场演示，评委包括全球一线创投基金与 Web3 团队。最终评选前三的项目将共享 10,000 美元的奖金池。
+Super Demo Day 不限制申请项目方向，推荐的赛道包括互操作性解决方案、消费级应用、ReFi、AI 加密应用、DePin 等方面等。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/367783"
+                        open
+                      >
+                        <summary class="article-expander__title">GFX将于5月6号完成预售</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/367783">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据 0xGameFiX 官方信息，GFX 启动最后预售，将于 48 小时后结束，8 号上线交易。
+GFX 宣布和 NFP、ID 达成战略合作，通过 NFP 的 AIGC 角色提升 0xGameFiX 的英雄 NFT，并集成由@SpaceIDProtocol 的 Web3 Name SDK 提供支持的 .bnb 域名。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/367782"
+                        open
+                      >
+                        <summary class="article-expander__title">Gas Hero将在下周举办多个活动</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/367782">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 Gas Hero 于 X 平台发文宣布，将在下周举办多个活动，具体包括部族 Boss 战、公会会长选举、公会 Gas War 注册和战斗等。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1007,633 +1860,6 @@
                             <span class="media-object__text">
                               <span>Odaily星球日报讯 据 CoinGecko 数据显示，当前 Solana 区块链锁定总价值（TVL）为 4,043,668,068 美元，24 小时涨幅 1.6%；24 小时交易额为 1,014,961,715 美元，跌幅达 11.4%。此前消息，2024 年 2 月，Solana TVL 自 2022 年 6 月以来首次超过 20 亿美元。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >律动BlockBeats</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249204?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">NFT项目Blob团队在比特币第四次减半区块史诗聪上铭刻符文EPIC•EPIC•EPIC•EPIC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249204?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 5 日，据官方消息，比特币 NFT Blob 团队宣布在第四次减半区块史诗聪上铭刻符文 EPIC•EPIC•EPIC•EPIC。
-
-受此消息影响，比特币 NFT Blob 地板价短时拉升至 0.0699 BTC。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249202?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币网络最佳手续费短时拉升至400聪/字节以上</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249202?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 5 日，据 BTC.com 数据，比特币网络最佳手续费短时拉升至 200Satoshi/vbyte 以上，高优先级现报 441 聪/字节。
-
-链上数据显示，EPIC•EPIC•EPIC•EPIC、DOPE•ASS•TICKER 及 FIRST•EPIC•RUNE 符文铭刻为当前比特币网络热度较高交互。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249194?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">friend.tech：代币LP提供者可通过三种途径赚取奖励</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249194?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 5 日，friend.tech 在其社交平台表示，FRIEND 代币 LP 提供者可通过三种途径赚取奖励：
-
-1、每次交易收取 ETH/FRIEND 交易对费用的 1.5%；
-2、12 个月内 LM 奖励 1200 万 FRIEND；
-3、Club Key 交易费用的 1.5% FRIEND。
-
-此外，friend.tech 称，BunnySwap 的 LP 费用会自动计入 LP 头寸，不需要像其他奖励一样手动领取。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/53343?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">解读Particle Network：链抽象怎么解决跨链复杂性？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/53343?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Particle Network 是一个面向 Web3 的开发平台，旨在提高开发者的开发效率并加速 Web3 的大规模采用。其核心产品是基于 MPC-TSS 技术的登录和钱包中间件，无需终端用户记忆助记词及使用 gas fee，大大降低 Web3 采用的门槛。
-
-
-目前，Particle Network 已完成三轮融资，2022 年 5 月由 Longhash Ventures 领投 150 万美元 Pre-Seed 融资，2023 年 3 月由 ABCDE Capital 领投 700 万美元融资，随后再次完成一轮战略轮融资。
-
-
-
-
-
-Particle 生态系统
-
-
-自 2022 年 10 月下旬产品发布以来，Particle Network 已与数百个 Web3 项目合作。
-
-
-Particle 新升级为钱包抽象、链抽象、流动性抽象、Gas 抽象等功能。所以在链抽象赛道，它的强项依然是抽象钱包，主打模块化智能 WaaS（Wallet as a Service，钱包及服务）。为此，Particle Network 推出 4 项主要产品打造钱包生态。
-
-
-在隐私保护方面，有机密 zkStack，一方面通过 zkWaaS 保护钱包登陆的隐私安全，另一方面通过 ERC-4337 引入 Paymaster 机制来实现私人交易。通过意图融合协议聚合链上和链下的数据流动性，在支付过程中可以使用Particle 代币充当所有链的 gas。而包括 Particle Chain 在内的所有组件构成了 Particle Network 的全链账户抽象，用以支持钱包账户的存储、管理、传输及协调等工作。
-
-
-此外，Particle Network 还发布 MPC+AA 钱包解决方案，提供跨平台 SDK，形成 MPC+EOA 和 MPC+AA 账户抽象钱包的产品矩阵。除了钱包和登录中间件，Par…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249189?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">BounceBit：主网和代币空投将于5月13日上线</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249189?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 5 日，据官方公告，BounceBit 宣布其主网上线时间表，5 月 6 日，Premium Yield Generation 将暂停直至主网上线。5 月 6 日—12 日 BounceBit 引入第一批专业节点运营商。5 月 13 日，BounceBit 主网将于当天上市。BB 积分空投将自动分发到每个符合条件的钱包中，无需声明或与任何网页交互。
-
-此外，Binance 上的 BB Megadrop 将于当天结束，奖励将在交易开始前发放。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249184?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">美联储4月实现缩表770亿美元，资产负债表规模已降至7.4万亿美元以下</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249184?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 5 日，据美联储官网数据显示，截至 4 月 30 日，美联储 4 月实现缩表 770 亿美元，当前其资产负债表规模已降至 7.4 万亿美元以下，为 7.362 万亿美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PANews News</button>
-                  <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/74745gc7.html"
-                        open
-                      >
-                        <summary class="article-expander__title">NEAR第一季度TVL达3.35亿美元，环比增长163%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/74745gc7.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，Messari研究员Nick Garcia在X平台发文指出，NEAR Protocol在2024年第一季度表现突出，其总锁定价值（TVL）达到3.35亿美元，环比增长163%，较前六个月增长547%。日活跃地址数达到120万，环比增长42%，较前六个月增长377%。此外，NEAR的稳定币市值环比增长176%，达到2.14亿美元。NEAR的累计账户总数已超过1亿个。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/3j5aezq4.html"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币网络手续费短时拉升至400聪/字节</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/3j5aezq4.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，据BTC.com数据显示，比特币网络的最佳手续费短时拉升至400聪/字节以上，高优先级费率现报508聪/字节。GeniiMap数据显示，当前比特币网络链上热门项目包括EPIC•EPIC•EPIC•EPIC、DOPE•ASS•TICKER以及FIRST•EPIC•RUNE符文铭刻。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/tbr3ljq3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Cardano创始人提议将Cardano与BCH集成</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/tbr3ljq3.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，Cardano创始人查尔斯·霍斯金森在X上提出一个建议，邀请公众投票支持他将比特币现金（BCH）作为合作伙伴链加入Cardano区块链的提案。此次集成将包括多个倾向于工作量证明（PoW）的新升级功能，目前已有66%的参与者支持这一提议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/8xnrul6h.html"
-                        open
-                      >
-                        <summary class="article-expander__title">多签钱包从币安提出超1万亿枚$PEPE</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/8xnrul6h.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，据余烬@EmberCN监测，一个多签钱包前20分钟，该钱包提出了9158亿$PEPE，价值773万美元。在过去28小时里该地址从币安提出总计1.238万亿$PEPE，价值约1046万美元。此21天前，该钱包曾将762万USDT转入币安，这些$PEPE的购买成本估计为每枚$0.00000617。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/k1xmmeyb.html"
-                        open
-                      >
-                        <summary class="article-expander__title">稳定币市值周增0.29%，USDT市占率达68.97%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/k1xmmeyb.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，据Defillama数据显示，过去一周，稳定币总市值增长0.29%，达到1604.07亿美元。在此期间，USDT的市值达到1106.27亿美元，市占率为68.97%，继续领先稳定币市场。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/d18yj7ev.html"
-                        open
-                      >
-                        <summary class="article-expander__title">某地址通过BunnySwap累计卖出677,197枚$FRIEND获利115万美金</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/d18yj7ev.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，据@ai_9684xtpa报道，自friend.tech代币上线以来，地址0x262...3D069已通过BunnySwap累计卖出677,197枚$FRIEND空投代币，获利约115万美金。需注意的是，部分$FRIEND空投领取交易无法在链上展示。该地址未有过大额买入记录，因此代币来源很可能为空投。目前该地址仍持有约4.2万枚代币。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/t57a7eyn.html"
-                        open
-                      >
-                        <summary class="article-expander__title">FRIEND 短时触及 2.8USDT，24 小时涨幅 79.62%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/t57a7eyn.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews5月5日消息，据 coingecko行情显示，friend.tech 代币 FRIEND 短时触及 2.8 USDT，现报价 2.6 USDT，24 小时涨幅为 78.49%，市值约为2.1亿美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/jksofkb7.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Whales Market宣布Friendtech积分市场结算启动，无结算费</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/jksofkb7.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，Whales Market官方在X平台宣布，关于@friendtech的积分市场结算已经开始。值得注意的是，结算过程中买家不会被收取任何费用。然而，由于掉期产生的滑点和税收，收到的FRIEND代币数量可能会有所偏差。此外，因FRIEND代币不可转让，转让过程需通过BunnySwap完成。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/wifx3h2j.html"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊网络Gas费降至5 gwei</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/wifx3h2j.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，据Etherscan数据显示，当前以太坊网络的Gas费已降至5 gwei（约合0.3美元）。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/uhq22qam.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Avail宣布空投申领第一阶段结束，第二阶段信息下周公布</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/uhq22qam.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，Polygon模块化区块链项目Avail在推特上宣布，其AVAIL代币空投申领第一阶段已经结束，官方申领窗口已关闭。该项目预计在下周公布第二阶段申领的相关信息，将包括扩大奖励范围及向Polygon PoS验证者和LST持有者提供的奖励细节。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/qqo1kevs.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Bitfinex首席技术官强调，不会明文存储密码或2FA机密</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/qqo1kevs.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，Bitfinex首席技术官Paolo Ardoino近日声明，该交易所绝不会以明文形式存储用户的密码或二次验证（2FA）机密信息。
-此前，黑客组织 FSOCIETY 声称他们入侵了加密货币交易所 Bitfinex 的数据库并泄露了 22,500 封客户电子邮件和密码。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/dzq419p5.html"
-                        open
-                      >
-                        <summary class="article-expander__title">交易者用402枚ETH买入FRIEND，未实现利润达65.3万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/dzq419p5.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，据Spot On Chain监测显示，FRIEND上线2天价格飙升70%。一名交易者以每枚FRIEND约1.678美元的价格，使用402枚ETH（约123万美元）购买了732,326枚FRIEND。该交易者目前是FRIEND的第二大个人持有者，其未实现利润为65.3万美元，增值率达53%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/ct34xugi.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Friend.tech：48小时内6万独立地址加入近9万Club</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/ct34xugi.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，Friend.tech官方在X平台发文称，在过去48小时内，共有59,348个独立地址加入了88,987个Club。目前，$FRIEND LPs/farmers 可通过三种方式获得奖励： 每次掉期收取 1.5% 的 ETH/$FRIEND 费用 - 12 个月内 $FRIEND 获得 1200 万 LM 奖励 - 俱乐部钥匙交换中 $FRIEND 费用的 1.5%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/8rf914s1.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Sui官方回应质疑，创始人不控制任何代币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/8rf914s1.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews5月5日消息，针对近期社交媒体针对SUI代币模型和创始人控制代币的质疑和讨论，Sui官方在X平台进行了回应。
-Sui官方表示：MystenLabs的创始人不控制Sui基金金库、社区储备、股权补贴或分配给投资者的任何代币。Sui基金会是锁定代币的最大持有者，锁定代币将根据公开的排放时间表进行解锁。此外，Sui基金会表示会将获得的质押奖励100%返还给社区，并纳入公共排放计划。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/z6x7wkvo.html"
-                        open
-                      >
-                        <summary class="article-expander__title">SUI链上交易量突破4100万，曾短时超越Solana</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/z6x7wkvo.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews5月5日消息，据artemis数据显示，5月3日SUI链上交易数量激增20倍以上，达到4100万笔。当日链上交易数量超越Solana（2770万笔）。据PANews观察，随后SUI的链上交易量又迅速下跌，目前已恢复至此前的平均水平345万笔左右。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/c5946fhu.html"
-                        open
-                      >
-                        <summary class="article-expander__title">BounceBit 5月13日主网上线，积分空投同步进行</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/c5946fhu.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，根据官方公告，BounceBit将按照以下时间表进行主网上线：5月6日，Premium Yield Generation功能将暂停，直至主网正式上线。5月6日至12日，BounceBit将引入首批专业节点运营商。5月13日，BounceBit主网将正式上市，与此同时，BB积分空投将自动分发至每个符合条件的钱包，用户无需进行额外操作。
-此外，币安平台上的BB Megadrop活动将于同日结束，奖励将在交易开始前发放。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/0kmwxer5.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Arbitrum One的ETH存款流入占L2网络75%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/0kmwxer5.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，据链上分析平台OurNetwork创始人Spencer Noon在X平台发文表示，截至4月28日，Arbitrum One积累了价值52亿美元的ETH存款，达到历史新高。该平台拥有的174万枚ETH余额超过其他EVM链的总和。来自CEX的数据还显示，Arbitrum One是ETH存款的主要第二层（L2）网络，截至2024年5月，其存款流入占所有L2网络的75%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/nk362max.html"
-                        open
-                      >
-                        <summary class="article-expander__title">BTC跌破63000美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/nk362max.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，币安BTC/USDT交易对最新报价跌破63000美元，现报62891美元，24小时内跌幅为1.32%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/7v9xbj7a.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Uniswap创始人Hayden Adams谈代币分配：舍得分钱，要代币，不要积分</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/7v9xbj7a.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，Uniswap创始人Hayden Adams在推特上分享了关于代币分配的观点。他提出几点建议：发行代币，而不是积分；不要营销代币价格；不要吝啬空投；保持真是流动性；不要为了为了增加数量而戏弄farmers。Hayden Adams建议项目方捐出大量的钱。“如果你认为社区不值得，请不要发布代币。”</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/0558cbeo.html"
-                        open
-                      >
-                        <summary class="article-expander__title">孙宇晨团队存入12万枚EETH至Swell L2，占总存款46.6%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/0558cbeo.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，据@ai_9684xtpa监测，孙宇晨团队地址0x7a9...3095于5月4日将12万枚eETH（ETH存入Ether.Fi后的存款凭证）存入Swell L2，价值达3.76亿美元。当前Swell的为期四周的pre-launch存款活动将在5月8日结束，孙宇晨的质押资金占Swell L2总存款量的46.6%。此前，该地址在Ether.Fi空投活动结束前5天存入12万枚ETH，获取了2.2万枚ETHFI，价值10.5万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/i58ptxga.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美联储4月缩表770亿美元，资产负债表降至7.362万亿</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/i58ptxga.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，截至4月30日，美联储在4月份成功缩减资产负债表规模达770亿美元，当前资产负债表规模低于7.4万亿美元，降至7.362万亿美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/il2b75eb.html"
-                        open
-                      >
-                        <summary class="article-expander__title">PEPE 创始人身份曝料者­：遭遇攻击损失 1155 枚 WBTC的是我</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/il2b75eb.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月5日消息，PEPE 创始人身份曝料者­、Pond Coin 创始人 PAULY 在社交媒体平台透露，由于个人操作失误，损失 1155 枚 WBTC，价值近 7000 万美元。PAULY表示自己当时正在转移一大笔钱时，粘贴的地址被修改，将资金重定向到网络犯罪分子的账户。
-此前，据 Cyvers Alerts 监测，系统检测到某地址疑似成为一地址恶意交易的受害者，损失了 1155 枚 WBTC，价值约7000万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/q9om0zqw.html"
-                        open
-                      >
-                        <summary class="article-expander__title">巴菲特：预计伯克希尔哈撒韦将在6月底持有2000亿美元现金，苹果仍将是长期投资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/q9om0zqw.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 5月4日消息，据金十报道，巴菲特在2024年度伯克希尔-哈撒韦股东大会中表示，可以安全地假设伯克希尔哈撒韦的现金持有量将在6月底达到2000亿美元。将在合适的时候努力减少股份数量。巴菲特表示，我们还是会长期持有苹果、可口可乐和美国运通这三家公司的股票。到2024年底，苹果极有可能仍然是伯克希尔哈撒韦持有数量最大的股票。除非发生重大事件，否则苹果将继续是伯克希尔在股票领域的最大投资。相对于股票市场上的可用资金以及世界各地的冲突，持有大量现金“相当有吸引力”。如果伯克希尔公司采取重大行动，极有可能发生在美国。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -23130,26 +23356,6 @@ Iris 还表示，如果在今年内完成 Childress 第 3 期工程，将追加 
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/367110"
-                        open
-                      >
-                        <summary class="article-expander__title">美议员对使用加密货币逃避制裁的问题表示高度担忧</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/367110">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 美国参议员 Elizabeth Warren 和 Roger Marshall 在周末致美国国防部长 Lloyd Austin 和财政部长 Janet Yellen 等官员的一封信中表达了对稳定币 Tether 的担忧。该信中写到，他们对俄罗斯、伊朗和朝鲜等国依赖加密货币逃避制裁表示高度担忧，加密货币构成的国家安全威胁需要美国国防界做出相应的反应。Tether 表示，他与执法部门合作追踪资产并抓捕罪犯。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -24221,8 +24427,8 @@ CZ 去年 11 月就违反反洗钱规定认罪，并于当地时间周二被法�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/8956801599">
-        <time id="build-timestamp" datetime="2024-05-05T08:09:45.255Z">2024-05-05T08:09:45.255Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/8957128717">
+        <time id="build-timestamp" datetime="2024-05-05T09:09:51.805Z">2024-05-05T09:09:51.805Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
