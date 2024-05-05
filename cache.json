@@ -2523,6 +2523,26 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://m.theblockbeats.info/flash/249213?t=binance",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，5 月 5 日，据 GeniiData 数据，比特币 NFT Blob 团队在第四次减半区块史诗聪上铭刻的符文 EPIC•EPIC•EPIC•EPIC 非预挖部分已全部蚀刻。据悉，该符文总量 10 亿，预挖 9.5 亿枚。",
+          "link": "https://m.theblockbeats.info/flash/249213?t=binance",
+          "publishedOn": "2024-05-05T10:47:08.000Z",
+          "wordCount": null,
+          "title": "符文EPIC•EPIC•EPIC•EPIC非预挖部分已全部蚀刻",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/flash/249212?t=binance",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，5 月 5 日，据 Lookonchain 监测，某鲸鱼此前因做多 ETH 损失 463 万美元，现在又选择了做多 ETH。在过去的一个小时内，该鲸鱼从 Binance 提出 6965 枚 ETH（价值约合 2190 万美元），并存入 Compound，然后借入 1450 万枚 USDT。",
+          "link": "https://m.theblockbeats.info/flash/249212?t=binance",
+          "publishedOn": "2024-05-05T10:11:25.000Z",
+          "wordCount": null,
+          "title": "此前因做多ETH损失463万美元鲸鱼再次做多ETH",
+          "imageUrl": null
+        },
+        {
           "id": "https://m.theblockbeats.info/news/53335?t=binance",
           "author": "contact@theblockbeats.org (律动BlockBeats)",
           "description": "原文标题：Binius: highly efficient proofs over binary fields\n原文作者：Vitalik Buterin\n原文编译：Kate，MarsBit\n\n\n这篇文章主要针对大致熟悉 2019 年时代密码学的读者，特别是 SNARK 和 STARK。如果你不是，我建议你先阅读这些文章。特别感谢 Justin Drake, Jim Posen, Benjamin Diamond 和 Radi Cojbasic 的反馈和评论。\n\n\n在过去的两年中，STARK 已经成为一种关键且不可替代的技术，可以有效地对非常复杂的语句进行易于验证的加密证明（例如，证明以太坊区块是有效的）。其中一个关键原因是字段大小小：基于椭圆曲线的 SNARK 要求您在 256 位整数上工作才能足够安全，而 STARK 允许您使用更小的字段大小，效率更高：首先是 Goldilocks 字段（64 位整数），然后是 Mersenne31 和 BabyBear（均为 31 位）。由于这些效率的提高，使用 Goldilocks 的 Plonky2 在证明多种计算方面比其前辈快数百倍。\n\n\n一个自然而然的问题是：我们能否将这一趋势引向合乎逻辑的结论，通过直接在零和一上操作来构建运行速度更快的证明系统？这正是 Binius 试图做的事情，使用了许多数学技巧，使其与三年前的 SNARK 和 STARK 截然不同。这篇文章介绍了为什么小字段使证明生成更有效率，为什么二进制字段具有独特的强大功能，以及 Binius 用来使二进制字段上的证明如此有效的技巧。\n\n\n\n\n\nBinius。在这篇文章的最后，你应该能够理解此图的每个部分。\n\n\n回顾：有限域（finite fields）\n\n\n加密证明系统的关键任务之一是对大量数据进行操作，同时保持数字较小。如果你可以将一个关于大型程序的语句压缩成一个…",
@@ -3719,6 +3739,56 @@
       "feedUrl": "https://www.odaily.news/v1/openapi/odailyrss",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/newsflash/367795",
+          "author": null,
+          "description": "Odaily星球日报讯 据 Lookonchain 监测，friend.tech 代币 FRIEND 前 5 大购买者已累计浮盈 289 万美元。",
+          "link": "https://www.odaily.news/newsflash/367795",
+          "publishedOn": "2024-05-05T10:54:32.000Z",
+          "wordCount": 1643,
+          "title": "FRIEND前5大购买者已累计浮盈近300万美元",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/367794",
+          "author": null,
+          "description": "Odaily星球日报讯 据 GeniiData 数据，比特币 NFT Blob 团队在第四次减半区块史诗聪上铭刻的符文 EPIC•EPIC•EPIC•EPIC 非预挖部分已全部铭刻。据悉，该符文总量 10 亿，预挖 9.5 亿枚。",
+          "link": "https://www.odaily.news/newsflash/367794",
+          "publishedOn": "2024-05-05T10:50:31.000Z",
+          "wordCount": 1645,
+          "title": "符文EPIC•EPIC•EPIC•EPIC非预挖部分已全部铭刻",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5194896",
+          "author": null,
+          "description": "凭借着廉价的共识，EigenLayer将吸引越来越多的隐私计算赛道的产品转向低执行成本的乐观去信任方案。且相比于竞争激烈的Rollup相关赛道，Web3隐私赛道属于蓝海阶段，更有利于新范式的推广。",
+          "link": "https://www.odaily.news/post/5194896",
+          "publishedOn": "2024-05-05T10:30:00.000Z",
+          "wordCount": 1858,
+          "title": "乐观去信任：EigenLayer AVS将凭借“廉价的安全性”率先引爆Web3隐私计算赛道",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/367793",
+          "author": null,
+          "description": "Odaily星球日报讯 据 Lookonchain 监测，某巨鲸此前因做多 ETH 损失 463 万美元，现在再次选择了做多 ETH。\n在过去的一个小时内，该巨鲸从币安提出 6965 枚 ETH（价值约合 2190 万美元），并存入 Compound，然后借入 1450 万枚 USDT。",
+          "link": "https://www.odaily.news/newsflash/367793",
+          "publishedOn": "2024-05-05T10:13:55.000Z",
+          "wordCount": 1650,
+          "title": "因做多ETH损失463万美元巨鲸再次选择做多ETH",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/367792",
+          "author": null,
+          "description": "Odaily星球日报讯 OKX 行情显示，ORDI 反弹突破 40 USDT，现报 40.08 USDT，24H 跌幅收窄至 1.72%。",
+          "link": "https://www.odaily.news/newsflash/367792",
+          "publishedOn": "2024-05-05T10:09:31.000Z",
+          "wordCount": 1645,
+          "title": "ORDI反弹突破40 USDT，24H跌幅收窄至1.72%",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/post/5195000",
           "author": null,
@@ -10487,16 +10557,6 @@
           "publishedOn": "2024-04-30T23:44:46.000Z",
           "wordCount": 1686,
           "title": "昨日灰度GBTC净流出9320万美元",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/post/5194970",
-          "author": null,
-          "description": "首位于比特币链上创作的著名现代艺术家。",
-          "link": "https://www.odaily.news/post/5194970",
-          "publishedOn": "2024-04-30T22:37:58.000Z",
-          "wordCount": 1755,
-          "title": "岳敏君在LiveArt上推出Ordinals系列作品",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
