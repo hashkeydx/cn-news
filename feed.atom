@@ -2,10 +2,426 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-05-08T06:10:22.883Z</updated>
+    <updated>2024-05-08T07:11:01.509Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Messari发布Fantom Q1报告：市值环比增长101%，DeFi TVL环比增长59%]]></title>
+        <id>https://www.odaily.news/newsflash/368341</id>
+        <link href="https://www.odaily.news/newsflash/368341"/>
+        <updated>2024-05-08T07:05:39.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Messari 于近日发布 Fantom 2024 年 Q1 状态报告，要点如下：
+-Fantom 在多个关键指标上都实现了环比增长，包括市值（+101%）、日均活跃地址（+24%）、美元计价的 DeFi TVL（+59%）、稳定币市值（+39%）和日均 DEX 交易量（+64%）；
+-FTM 总质押量环比增长 17%，达到 13 亿枚，合格供应质押量占比也环比增长 16%，至 44.6%；
+-今年 3 月，Fantom 的 DEX 月度交易量在过去一年中首次超过 10 亿美元，3 月 DEX 日均交易量为 3790 万美元，比 2 月（570 万美元）高出近 7 倍，比 1 月（660 万美元）高出 6 倍；
+-3 月 25 日，Fantom 基金会首席执行官 Michael Kong 公布了 Sonic 初步发布计划（计划 24 年 Q3 发布），计划包括规范桥接、简化的质押系统、构建者 grants、奖励计划、规范稳定币等；
+-Sonic Labs 孵化器项目的五名获胜者在 Q1 中被选出。每个项目将获得 20 万枚 FTM，并在 Sonic 主网上线之前获得开发支持。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安质押借币新增CELR、ENJ等8种可借资产]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/d6x8d9b7.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/d6x8d9b7.html"/>
+        <updated>2024-05-08T07:03:09.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月8日消息，据官方公告，币安质押借币（活期利率）新增可借资产：Celer Network（CELR）、Enjin Coin（ENJ）、Illuvium（ILV）、LeverFi（LEVER）、Livepeer（LPT）、Phoenix（PHB）、Reserve Rights（RSR）及Voxies（VOXEL）。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安质押借币新增CELR、ENJ等可借资产]]></title>
+        <id>https://www.odaily.news/newsflash/368340</id>
+        <link href="https://www.odaily.news/newsflash/368340"/>
+        <updated>2024-05-08T07:02:32.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方公告，币安质押借币（活期利率）新增可借资产：Celer Network（CELR）、Enjin Coin（ENJ）、Illuvium（ILV）、LeverFi（LEVER）、Livepeer（LPT）、Phoenix（PHB）、Reserve Rights（RSR）及 Voxies（VOXEL）。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深入理解EigenLayer的Intersubjective staking的意义：群体主观性，多数人暴政和可分叉代币]]></title>
+        <id>https://www.odaily.news/post/5195075</id>
+        <link href="https://www.odaily.news/post/5195075"/>
+        <updated>2024-05-08T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intersubjective staking的意义或价值在于，其提出了一个基于一种可分叉的ERC20 token模型的共识系统，可用于对一些“群体主观性”问题的决策，与此同时避免出现多数人暴政。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[zkSync将于5月13日进行升级，新增P256Verify、Bridgehub等功能]]></title>
+        <id>https://www.odaily.news/newsflash/368339</id>
+        <link href="https://www.odaily.news/newsflash/368339"/>
+        <updated>2024-05-08T06:57:48.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Matter Labs 产品交付负责人 Ramon 在 X 平台发文表示， zkSync 将于 5 月 13 日进行升级。此次升级主要包括4项内容：
+1. P256Verify：此预编译允许对 secp256r1 椭圆曲线进行签名验证，还添加了 ecAdd、ecMul 和 ecPairing预编译；
+2. Bridgehub：解锁所有 ZK Stack 链互操作性的基础组件，旨在使跨链交易无缝衔接；
+3. ZK Stack 方面，支持 Validium、自定义 DA 层和自定义基础代币的协议工作也已完成，随着一些即将实现的服务器更改，这些更改将可用于 ZK Stack 链；
+4. 支持.transfer/.send 调用，而无需提供 Gas，这可以解锁一些在未遵循最佳代码实践情况下部署的合约中卡住的 ETH。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解读Spam：Sui日交易数超过Solana的「幕后推手」]]></title>
+        <id>https://m.theblockbeats.info/news/53395?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53395?t=binance"/>
+        <updated>2024-05-08T06:56:51.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《解读 Spam：Sui 日交易数超过 Solana 的「幕后推手」》
+原文作者：Alex Liu，Foresight News
+
+
+
+
+
+Sui 上爆炸的交易笔数
+
+
+重点报道 Solana 生态的媒体 Degen News 日前一条新闻引发了激烈的讨论：「Sui 的单日交易数超过 Solana 了。」质疑声铺天盖地袭来：「数据肯定有问题，没见几个人在用！」，「它们又把指令数算成交易数了？」——Sui 之前就因在宣传时混淆指令数和交易数而饱受批评。（一条交易可能包括好几条指令）
+
+
+Solana 的联创 Toly 大方转发了这条消息并送上祝贺，而 Sui 的联创兼 CPO Adeniyi 也下场澄清「这些全都是独立的交易」，强调数据的真实性。
+
+
+
+相关推文
+
+
+Sui 链的交易数为何激增？Adeniyi @ 了这一切的始作俑者——Spam 的开发者 Juzy。Spam 又是个什么项目，该如何参与？
+
+
+Spam 是什么?
+
+
+简而言之，Spam 是个类似于 Solana 上 Ore 的，在 PoS 链上 PoW 的项目。用户通过不断发送交易赚取代币，发送出的交易笔数越多，获得的代币数就越多，Gas 费用是获得代币的唯一成本。
+
+
+SPAM 代币的总量是 1000 亿枚，每天固定挖出 10 亿，共可挖 100 天。代币每日的通胀率逐步下降。
+
+
+
+第一天代币通胀 100%，最后一天下降到 1%
+
+
+这样的代币显然没有任何的功能价值，但又由于具有这些特性收到追捧：人人都能平等参与、没有白名单；代币供应量可预测、简单透明；团队没有预挖，公平分发；花费只有 Gas。
+
+
+于是我们发现这一切其实并不新鲜。公平分发是一个已经炒作了大半年的概念，而 Spam 的玩法概念和 Ore 似乎也都大同小异。
+
+
+不过还是有一点不同。在 PoS 链上进行 PoW，有时起到对底层链「性能测试」的作用。Solana 在 Ore 的测试中暴露出了问题，交易成功率降到低点，维持了几天全链几乎不可用的状态。而 Sui 似乎顶住了压力测试，尽管交易的数量激增，交易成功率、确认速度和费用都仍然维持在良好状态。于是在单日交易数超过 Solana 的消息出现后，后续的动作似乎已成为了 Sui 和项目方的「联合营销」。而 Sui 官方也确实对 Spam 大力扶持，官号、联创纷纷下场转发，甚至 Turbos 上的 SPAM-SUI LP 已经开始收到官方补贴的 SUI 代币激励。
+
+
+
+Spam 创始人宣布 SPAM-SUI 收到代币激励
+
+
+如何参与 Spam？
+
+
+想要消耗 SUI Gas 铸造 SPAM，需要前往它的网页铸造器，在这里会生成一个浏览器内的钱包用于 Spam。
+
+
+网页铸造器会自动做好所有事情：自动发送交易、铸币和领取 SPAM。只需将用于交易费用的任意金额的 SUI 转帐到钱包中，点击开始，便大功告成。整体操作其实比之前的 Ore 简单。
+
+
+
+Spam 网页铸造器
+
+
+同时也能够使用现有钱包进行 Spam，但是需要将私钥加载到网页铸造器程序中使用。如果有其他资产（如 NFT 等），则不建议这样做，因为将私钥将保存在浏览器存储中会有点风险。
+
+
+另外，记得在 Spam 前进行注册！Spam 的计数器按这样的原理工作：每天都会创建一个新的计数器，在第 1 天发送交易，必须在第 2 天注册，从第 3 天开始，可以随时铸造 SPAM。
+
+
+
+
+
+原文链接]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coincheck正推进与SPAC公司合并协议以在美国纳斯达克上市]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/47nrce2e.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/47nrce2e.html"/>
+        <updated>2024-05-08T06:56:00.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月8日消息，据Finance Magnates报道，日本加密交易所Coincheck和特殊目的收购公司Thunder Bridge Capital Partners IV正在推进合并协议，这将使Coincheck能够在纳斯达克上市。据报道，Coincheck已向美国证券交易委员会（SEC）提交了关于该协议的提案，这标志着两家公司和寻求接触不断增长的加密货币行业的投资者迈出了重要一步。
+合并后的实体Coincheck Group N.V.正等待监管审批和股东同意。然而，去年Monex集团宣布将Coincheck上市计划推迟一年，合并日期由原定的2023年7月推迟至2024年7月。Monex集团表示，推迟原因是SPAC公司章程的修改需要股东大会批准。这一挫折使Coincheck在纳斯达克上市道路上再次受阻。
+根据协议，Thunder Bridge将向合并后的实体注入2.37亿美元现金，以支持其进一步发展。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某地址过去18小时内从币安提取11.2万枚PROM，其曾向DWF Labs联创出售PROM]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/biqy711e.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/biqy711e.html"/>
+        <updated>2024-05-08T06:46:32.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月8日消息，据Spot On Chain监测，曾向DWF Labs联创Andrei Grachev出售过PROM的钱包0x3a2在过去的18个小时内，以9.95美元均价从币安提取11.2万枚PROM(112万美元)。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[曾向DWF Labs联创出售PROM的某地址过去18小时内从币安提取11.2万枚PROM]]></title>
+        <id>https://www.odaily.news/newsflash/368338</id>
+        <link href="https://www.odaily.news/newsflash/368338"/>
+        <updated>2024-05-08T06:42:18.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Spot On Chain 监测，曾向 DWF Labs 联创 Andrei Grachev 出售过 PROM 的钱包（0x3a2开头地址）在过去的 18 个小时内，以均价 9.95 美元的价格从币安提取 11.2 万枚 PROM（112 万美元）。该钱包此前活动如下：
+•在 2023 年 12 月以均价 4.86 美元（25.7 万美元）的价格从币安提取 52.9 万枚 PROM；
+•将代币发送到钱包 0x3d1，在 2024 年 2 月以均价约 10 美元以 50 万美元向 Grachev 出售 49,965 枚 PROM，此后币价飙升约 75%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[链上衍生品协议3Jane推出EigenLayer上衍生品eETH-C]]></title>
+        <id>https://www.odaily.news/newsflash/368337</id>
+        <link href="https://www.odaily.news/newsflash/368337"/>
+        <updated>2024-05-08T06:39:58.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 链上衍生品协议 3Jane 在 X 平台宣布推出首个 EigenLayer 上衍生品 eETH-C。
+据其介绍，eETH-C 允许 LRT 持有者访问一个全新的收益来源：期权出售（options selling）。存款者可以封装其 eETH，并立即开始积累期权溢价收益，除了质押和再质押收益外，还可额外获得高 APY 收益。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solana链上DEX昨日交易量11.38亿美元，仅次以太坊位居第二]]></title>
+        <id>https://www.odaily.news/newsflash/368336</id>
+        <link href="https://www.odaily.news/newsflash/368336"/>
+        <updated>2024-05-08T06:39:05.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 DeFiLlama 数据显示，Solana 链上 DEX 5 月 7 日交易量为 11.38 亿美元，位居第二。
+此外，以太坊链上 DEX 昨日交易量为 15.91 亿美元，依然位居第一；BSC 链上 DEX 昨日交易量为 5.8137 亿美元，位居第三。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[火币HTX已开启SBD现货杠杆交易赛，提供4,000 USDT奖池]]></title>
+        <id>https://www.odaily.news/newsflash/368335</id>
+        <link href="https://www.odaily.news/newsflash/368335"/>
+        <updated>2024-05-08T06:38:48.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据火币 HTX 官方公告，火币 HTX 已开启 SBD 交易赛活动，交易瓜分 4,000 USDT 奖池。本次活动将持续至 5 月 15 日 12:00（UTC+8）。
+活动期间，在火币 HTX 参与 SBD 现货交易的用户，将按照现货交易数量排名瓜分 4,000 USDT。活动期间用户参与 SBD/USDT 杠杆交易，此部分杠杆交易额将以 3 倍计入用户总交易额。参与用户在任意一天成功访问活动页，即可视为报名参与，并计算活动期间的交易额。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[zkSync下一次升级将于5月13日推出，包含多项新功能]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/k9mg1kci.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/k9mg1kci.html"/>
+        <updated>2024-05-08T06:38:38.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月8日消息，Matter Labs产品交付负责人Ramon在平台宣布，zkSync下一次升级将于5月13日推出，新功能将包括，引入P256Verify预编译以支持secp256r1椭圆曲线签名验证，并添加ecAdd、ecMul、ecPairing预编译。同时，Bridgehub组件将启用ZK Stack链的互操作性。此外，ZK Stack的Validiums、自定义数据可用性层和自定义基础代币的支持也已完成，配合即将到来的服务器更新将正式可用。新升级还将支持.transfer/.send调用，无需Gas费用，解决了一些合约的部署问题。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安合约调整1000PEPEUSDT等多个U本位永续合约杠杆及保证金阶梯]]></title>
+        <id>https://www.odaily.news/newsflash/368334</id>
+        <link href="https://www.odaily.news/newsflash/368334"/>
+        <updated>2024-05-08T06:31:59.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方公告，币安合约已于 2024 年 05 月 08 日 14:00（东八区时间）更新 1000PEPEUSDT、FETUSDT、GLMUSDT、OMNIUSDT、REZUSDT 和 TNSRUSDT 的 U 本位永续合约杠杆和保证金阶梯。
+请注意：用户当前仓位不会受到影响。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HashKey交易所即将上线Toncoin（TON），并推出学习奖励活动]]></title>
+        <id>https://www.odaily.news/newsflash/368332</id>
+        <link href="https://www.odaily.news/newsflash/368332"/>
+        <updated>2024-05-08T06:30:24.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 HashKey 交易所即将上线 Toncoin（TON），交易对为 TON/USD，目前已经支持存款和提现，并于 2024 年 05 月 09 日 16 时（UTC+8）开放交易。
+同时 HashKey 交易所推出了学习 HSK 活动，向合格的客户开放 20,000 HSK 的奖励池。活动时间为 2024 年 5 月 8 日 16 时至 2024 年 5 月 22 日 16 时（UTC+8）。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AscendEX DEX：Orderly Network最新上线的经纪商（附交互指南）]]></title>
+        <id>https://www.odaily.news/post/5195079</id>
+        <link href="https://www.odaily.news/post/5195079"/>
+        <updated>2024-05-08T06:28:50.000Z</updated>
+        <summary type="html"><![CDATA[手把手带你交互AscendEX DEX，获得Orderly Merits奖励。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSea上以太坊NFT日交易量降至600枚ETH，较2022年5月高点跌超99%]]></title>
+        <id>https://www.odaily.news/newsflash/368331</id>
+        <link href="https://www.odaily.news/newsflash/368331"/>
+        <updated>2024-05-08T06:24:45.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 前 Proof 研究员 punk9059 在 X 平台发文表示，目前，OpenSea 在以太坊 NFT 市场上的日交易量约为 600 枚 ETH，为自 2021 年 5 月 NFT 牛市开始之前的最低水平。
+这一数字较 2022 年 5 月峰值下降了 99.1％，当时 OpenSea 日交易量达到 66,000 枚 ETH。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币闪电网络提供商Mash将关闭其当前版本]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/iqo3nrmh.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/iqo3nrmh.html"/>
+        <updated>2024-05-08T06:23:58.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月8日消息，据Bitcoin.com报道，比特币闪电网络基础设施提供商Mash最近宣布决定关闭其当前版本，所有产品和服务将于美东时间2024年5月17日9时停止运行。官方建议用户移除Mash产品中的任何资金，因为届时将无法访问这些产品。
+用户可以将资金转入支持闪电网络的钱包，包括Cash App、Mutiny Wallet、Kraken Zeus、Breeze、ZBD、Phoenix 等。该团队对多年来获得的支持表示感谢，并暗示将在重塑平台后重返市场。
+此前2022年6月消息，Mash完成600万美元的种子轮融资。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[详解HTX Liquid Restaking：业界首个融合CeFi+DeFi的再质押方案]]></title>
+        <id>https://www.odaily.news/post/5195072</id>
+        <link href="https://www.odaily.news/post/5195072"/>
+        <updated>2024-05-08T06:21:00.000Z</updated>
+        <summary type="html"><![CDATA[解锁再质押叙事的下一阶段。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EMC Labs 4月报告：宏观金融危机闪现，场内资金相机不动]]></title>
+        <id>https://www.odaily.news/post/5195053</id>
+        <link href="https://www.odaily.news/post/5195053"/>
+        <updated>2024-05-08T06:20:10.000Z</updated>
+        <summary type="html"><![CDATA[综合研判，3~4月的下跌属牛市正常回调，后市走势取决于宏观金融预期及场内资金的选择。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSea上以太坊NFT日交易量跌至两年低点，较峰值跌超99%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/291k344o.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/291k344o.html"/>
+        <updated>2024-05-08T06:19:12.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月8日消息，前Proof研究员punk9059在X平台表示，目前，OpenSea每天在以太坊NFT市场上的交易量约为600枚ETH，这是自2021年5月NFT牛市开始之前的最低水平。这一数字比2022年5月的峰值下降了99.1％，当时OpenSea每天交易量达到了66,000枚ETH。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Poloniex黑客地址再次向Tornado Cash转移600枚ETH]]></title>
+        <id>https://www.odaily.news/newsflash/368330</id>
+        <link href="https://www.odaily.news/newsflash/368330"/>
+        <updated>2024-05-08T06:16:45.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据派盾监测，Poloniex 黑客地址再次向 Tornado Cash 转移 600 枚 ETH。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SignalPlus宏观分析(20240508)：ETF资金连续三周出现净流出]]></title>
+        <id>https://www.odaily.news/post/5195076</id>
+        <link href="https://www.odaily.news/post/5195076"/>
+        <updated>2024-05-08T06:15:52.000Z</updated>
+        <summary type="html"><![CDATA[宏观资产再次经历一个平静的交易日，价格基本上保持平稳。几位美联储官员发表谈话，观点出现分歧。ETF连续三周出现资金流出，Greyscale又大举流出4.59亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一新建钱包从Coinbase提取29000枚ETH，约合8800万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/vy7dhq3c.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/vy7dhq3c.html"/>
+        <updated>2024-05-08T06:15:31.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月8日消息，据Scopescan监测，一新建钱包从Coinbase提取了29000枚ETH，约合8800万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bithumb首席执行官Lee Jae-won宣布连任至2026年]]></title>
+        <id>https://www.odaily.news/newsflash/368329</id>
+        <link href="https://www.odaily.news/newsflash/368329"/>
+        <updated>2024-05-08T06:15:22.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Bithumb 首席执行官 Lee Jae-won 宣布连任至 2026 年。Bithumb 首席执行官 Lee Jae-won 的任期原定于去年 3 月结束，但其成功连任，并于上月 1 日开始了新任期，新任期为两年。
+ Lee Jae-won 曾在 LG CNS、IGE 和 Affinity Media 工作，于 2017 年加入 Bithumb，担任管理咨询办公室顾问。随后，他负责整体管理和全球业务，并于 2022 年被任命为首席执行官。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解读Botanix：网络资产管理去中心化的BTC L2（附交互教程）]]></title>
+        <id>https://www.odaily.news/post/5195080</id>
+        <link href="https://www.odaily.news/post/5195080"/>
+        <updated>2024-05-08T06:15:21.000Z</updated>
+        <summary type="html"><![CDATA[通过动态变化的多签钱包Spiderchain，为网络资产提供高度安全性和去中心化特性。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某新建地址从Coinbase提取29000枚ETH，约合8800万美元]]></title>
+        <id>https://www.odaily.news/newsflash/368328</id>
+        <link href="https://www.odaily.news/newsflash/368328"/>
+        <updated>2024-05-08T06:14:54.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Scopescan 监测，一个新建鲸鱼地址从 Coinbase 提取了 29000 枚 ETH（8800 万美元）。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日活再创新高，回顾Farcaster四月亮点：开放协议、社交层与FarFi]]></title>
+        <id>https://m.theblockbeats.info/news/53394?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53394?t=binance"/>
+        <updated>2024-05-08T06:14:47.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Farcaster 四月记：开放协议、社交层与 FarFi》
+原文作者：0xluo.eth，Farcaster 前沿探索者
+
+在即将过去的四月份在 Farcaster 上面又发生了许多事情，Farcaster 的日活也迎来新高，并持续在 4 万人左右，成为加密世界越来越不可忽视的协议/社区，当然这种增长很大一部分可能是源于生态内 memecoin 财富效应以及各种新产品的推出。尽管 Farcaster 生态相关资产不可避免地受到加密市场因各类风险因素而整体下跌的影响，许多持有 Farcaster 相关资产的朋友开心迎来四月，悲伤告别四月，但 Farcaster 上依旧有许多印象深刻的亮点值得回顾。
+
+
+
+https://dune.com/pixelhack/farcaster
+
+
+当我准备开始回顾的时候，我发现 Farcaster 生态相关的各种公链、应用、代币环环相扣，你中有我、我中有你。我只能先试图将他们拆解，选择几个不同的维度去讨论。
+
+
+Being an open protocol
+
+
+首先还是从由团队主导的 Farcaster 协议和主要客户端 Warpcast 的功能开始。Farcaster 在本月推出了 Actions 功能，这是继 Channels 和 Frames 之后又一项重要的功能更新。Actions 功能可以在 Casts 下方点击与 Casts 进行交互，实现诸如点赞、翻译、便捷打赏、查看信息等，还可调取 Frames 进行更多交互。
+
+
+
+https://warpcast.com/v/0xbb2ed1b9
+
+
+在此之外，让人觉得有趣的是 @nbragg 很快基于 Actions 功能开发了一个 hotpotato 游戏，玩家可以通过在好友的 cast 下面点击「pass the potato」的 Action 传递土豆，接到土豆的玩家…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[派盾：通过“地址投毒”盗取1155枚WBTC的骗子正清洗被盗资金]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/v9tgn84k.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/v9tgn84k.html"/>
+        <updated>2024-05-08T06:14:07.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月8日消息，据派盾监测，通过“地址投毒”骗局盗取了1155枚WBTC(价值约7100万美元)骗子，正通过发送和分散这些被盗资金（约2.3万枚ETH）到大量钱包中来进行洗钱。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：OpenSea上以太坊NFT日交易量约600 ETH，较峰值跌超99%]]></title>
+        <id>https://m.theblockbeats.info/flash/249503?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/249503?t=binance"/>
+        <updated>2024-05-08T06:10:52.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，5 月 8 日，前 Proof 研究员 punk9059 在社交媒体发文表示，目前，OpenSea 每天在以太坊 NFT 市场上的交易量约为 600 枚以太坊，这是自 2021 年 5 月 NFT 牛市开始之前的最低水平。这一数字比 2022 年 5 月的峰值下降了 99.1％，当时 OpenSea 每天交易量达到了 66,000 枚以太坊。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[派盾：7100万美元WBTC诈骗者开始洗钱，涉及2.3万枚ETH]]></title>
         <id>https://www.odaily.news/newsflash/368327</id>
@@ -24,6 +440,15 @@
         <summary type="html"><![CDATA[PANews 5月8日消息，香港持牌交易所HashKey Exchange宣布即将上线Toncoin (TON)交易，开放充值和提现通道。交易对将为TON/USD，专业投资者将于2024年05月09日16:00（香港时间）开始交易。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深入理解 EigenLayer Intersubjectivestaking：群体主观性，多数人暴政和可分叉的 worktoken]]></title>
+        <id>foresightnews-article#59693</id>
+        <link href="https://foresightnews.pro/article/detail/59693"/>
+        <updated>2024-05-08T06:06:18.000Z</updated>
+        <author>
+            <name>马里奥看 Web3</name>
         </author>
     </entry>
     <entry>
@@ -56,6 +481,15 @@
         <summary type="html"><![CDATA[Odaily星球日报讯 据官方公告，继推出 BounceBit（BB）Megadrop 后，币安合约交易平台推出 BB 新限时活动，合约新用户及其推荐人均可参与本次活动，提供 42,000 BB 代币奖池。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Future3 Campus 推出 Web3 一对一咨询服务]]></title>
+        <id>foresightnews-article#59694</id>
+        <link href="https://foresightnews.pro/article/detail/59694"/>
+        <updated>2024-05-08T05:59:21.000Z</updated>
+        <author>
+            <name>Future3 Campus</name>
         </author>
     </entry>
     <entry>
@@ -100,6 +534,16 @@ SAB 121 概述了 SEC 工作人员关于加密货币托管人应考虑的风险�
         <summary type="html"><![CDATA[Odaily星球日报讯 Aptos 生态钱包 Pontem在X平台发文表示，Lumio将支持Solana VM（SVM）。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[唯一艺术小程序「爽约」 ，数藏市场难逃存量搏杀]]></title>
+        <id>foresightnews-article#59692</id>
+        <link href="https://foresightnews.pro/article/detail/59692"/>
+        <updated>2024-05-08T05:49:19.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>元宇宙日爆</name>
         </author>
     </entry>
     <entry>
@@ -198,6 +642,16 @@ SAB 121 概述了 SEC 工作人员关于加密货币托管人应考虑的风险�
         <summary type="html"><![CDATA[Odaily星球日报讯 Dune 数据显示，friend.tech V2 发布以来，Club 数已达 157,518 个，总交易额达 19,223,822 枚 FRIEND，Club 费用达 287,513 枚 FRIEND。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ZKM CEO：通用 zkVM 如何实现网络效应？]]></title>
+        <id>foresightnews-article#59667</id>
+        <link href="https://foresightnews.pro/article/detail/59667"/>
+        <updated>2024-05-08T05:34:50.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>ForesightNews 速递</name>
         </author>
     </entry>
     <entry>
@@ -540,6 +994,15 @@ Berachain 正在打造他们自己的并行 EVM，名为 Polaris，这将为 ETH
 另据 Coinglass 数据，过去 24 小时全网爆仓 1.37 亿美元，其中多单爆仓 1.03 亿美元，空单爆仓 3406.19 万美元。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盘活沉睡的 BTC，解读 Rollux 如何重构比特币的可编程性叙事？]]></title>
+        <id>foresightnews-article#59691</id>
+        <link href="https://foresightnews.pro/article/detail/59691"/>
+        <updated>2024-05-08T04:34:09.000Z</updated>
+        <author>
+            <name>行业观察</name>
         </author>
     </entry>
     <entry>
