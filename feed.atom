@@ -2,10 +2,340 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-05-09T07:10:39.388Z</updated>
+    <updated>2024-05-09T08:11:57.420Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Upbit因ONBUFF网络升级并进行代币置换将暂停ONIT充提]]></title>
+        <id>https://www.odaily.news/newsflash/368572</id>
+        <link href="https://www.odaily.news/newsflash/368572"/>
+        <updated>2024-05-09T08:10:34.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方公告，因 ONBUFF 网络升级并进行代币置换，Upbit 将于 5 月 14 日 17 时暂停 ONIT 充提，现有充值地址将无法使用。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitalik发文探讨在以太坊引入多维Gas定价机制的重要性和实现方式]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/28q28ic5.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/28q28ic5.html"/>
+        <updated>2024-05-09T08:09:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，以太坊创始人Vitalik Buterin发布题为《多维Gas定价》的文章，探讨在以太坊中引入多维Gas定价机制的重要性和可行路径。Vitalik指出，目前以太坊将所有资源的定价和限额简化为单一维度的Gas，虽然简化了市场设计，但也造成了显著的效率损失。如果网络需要管理n种不同的资源，单维Gas可能会导致吞吐量损失n倍之多。EIP-4844在以太坊中首次引入了多维定价，新增了专门的Blob数据区，并为其设置独立的价格和限额。这一改进使得Rollup的成本降低了100倍，交易量提升了3倍以上，而理论最大区块体积仅小幅增加。
+文章还讨论了在为无状态客户端引入存储证明时，采用多维Gas的必要性。由于Verkle树方案存在量子安全隐患，社区希望改用Binary Merkle树和STARK，但其证明生成速度要慢得多。通过独立定价和限制存储访问，可在保证稳定性的同时，避免因提高 Gas 价格而引发的成本问题。
+此外，Vitalik还提出了两种实现多维Gas定价的方案：1.较为简单的是设置每笔交易的资源上限，即每笔交易的Gas取所消耗的数据和计算资源中的较大值计价，如EIP-7623所建议的。2.理想但更复杂的方案是为每种资源分别建立类似EIP-1559的动态调整机制。Vitalik强调，引入多维执行Gas会在EVM层面带来一定的复杂性，但为了安全地提升以太坊L1的可扩展性，这种权衡是值得的。社区还需要在方案的经济性和开发友好性方面进一步探索更优雅的设计。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币拓展协议Side Protocol上线首个激励测试网]]></title>
+        <id>https://www.odaily.news/newsflash/368571</id>
+        <link href="https://www.odaily.news/newsflash/368571"/>
+        <updated>2024-05-09T08:06:40.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，比特币拓展协议 Side Protocol 已经上线首个激励测试网 S2，该测试网从上千份申请中选中了首批 100 个验证节点。
+同时，今天 Side 还上线了 Insider Point System 积分系统。普通用户可以通过完成任务来获得积分，从而获得未来空投奖励的资格。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DODO社区提议将以太坊上DODO流动性池迁移至DODOchain]]></title>
+        <id>https://www.odaily.news/newsflash/368570</id>
+        <link href="https://www.odaily.news/newsflash/368570"/>
+        <updated>2024-05-09T08:05:52.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Snapshot 页面显示，DODO 社区发起关于“以太坊上 DODO 流动性池迁移至DODOchain”提案，现已开启投票，截至 5 月 13 日。
+提案指出，随着 DODOchain 主网的推出，DODO DEX 将利用 DODOchain 和 DODO Trade Hub 发展成为 Omni Trading DEX。为了促进这种增长，并满足与多链资产交换 DODO 代币的需求，官方提议关闭以太坊上的 DODO 流动性池，并将其完全迁移到 DODOchain 上。这次迁移将使用户能够为 DODOchain 上的 DODO 池贡献流动性，并作为 LP 获得代币奖励。
+此前消息，DODOchain 在 X 平台宣布主网第一阶段 MACH AVS 已上线。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SBI控股旗下加密部门与Chiliz达成合作，拟在日本成立体育粉丝代币合资企业]]></title>
+        <id>https://www.odaily.news/newsflash/368569</id>
+        <link href="https://www.odaily.news/newsflash/368569"/>
+        <updated>2024-05-09T08:02:53.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 周四，日本证券和银行业巨头SBI控股的加密资产部门SBI Digital Asset Holdings宣布与体育区块链提供商Chiliz建立合作关系，以扩大日本的体育粉丝代币生态系统。
+双方在一份声明中表示，其计划在日本成立一家合资企业，为当地球迷提供曼城和AC米兰等热门足球俱乐部的代币。
+SBI数字资产首席执行官Fernando Luis Vázquez Cao表示：“SBI DAH和Chiliz之间的合作将汇集传统金融和Web3的一流能力，利用金融科技创新来改变社区的体育和娱乐体验。”（The Block）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SBI Holdings和Chiliz将在日本成立体育迷代币合资企业]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ugzfnaa2.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ugzfnaa2.html"/>
+        <updated>2024-05-09T08:02:17.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据The Block报道，日本证券和银行巨头SBI Holdings的加密资产部门SBI Digital Asset Holdings周四宣布与体育区块链提供商Chiliz建立合作伙伴关系，以扩大日本的体育迷代币生态系统。 双方在声明中表示，他们计划在该国成立一家合资企业，为当地球迷提供来自曼城和AC米兰等热门足球俱乐部的代币。
+声明称，该合资企业旨在为日本球迷提供基于代币的体育体验和奖励，包括比赛日激活和球迷相关决策的投票权。据其网站称，Chiliz目前拥有82个粉丝代币，并在全球拥有150多个体育合作伙伴。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VanEck旗下MarketVector推出Meme币指数]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/q2orfno3.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/q2orfno3.html"/>
+        <updated>2024-05-09T07:57:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据CoinDesk报道，VanEck旗下MarketVector已经加入了Meme币的行列，基于该类别推出了新的指数。MarketVector的Meme币指数追踪前六大Meme代币。Meme币指数的最大持仓包括Dogecoin（DOGE）、Shiba Inu（SHIB）和Pepe（PEPE）。其他持仓还包括dogwifhat（WIF）、Floki Inu（FLOKI）和BONK。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitalik撰文阐述以太坊引入多维Gas定价机制的必要性和实现方式]]></title>
+        <id>https://m.theblockbeats.info/flash/249651?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/249651?t=binance"/>
+        <updated>2024-05-09T07:55:00.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，5 月 9 日，以太坊创始人 Vitalik Buterin 发布长文，深入探讨了在以太坊中引入多维度 Gas 定价机制的重要性和可行路径。Vitalik 指出，目前以太坊将所有资源的定价和限额简化为单一维度的 Gas，虽然简化了市场设计，但也造成了显著的效率损失。如果网络需要管理 n 种不同的资源，单维 Gas 可能会导致吞吐量损失 n 倍之多。EIP-4844 在以太坊中首次引入了多维定价，新增了专门的 Blob 数据区，并为其设置独立的价格和限额。这一改进使得 Rollup 的成本降低了100倍，交易量提升了 3 倍以上，而理论最大区块体积仅小幅增加。文章还讨论了在为无状态客户端引入存储证明时，采用多维 Gas 的必要性。由于 Verkle 树方案存在量子安全隐患，社区希望改用 Binary Merkle 树和 STARK，但其证明生成速度要慢得多。通过独立定价和限制存储访问，可在保证稳定性的同时，避免因提高 Gas 价格而引发的成本问题。此外，Vitalik还提出了两种实现多维 Gas 定价的方案：1. 较为简单的是设置每笔交易的资源上限，即每笔交易的 Gas 取所消耗的数据和计算资源中的较大值计价，如 EIP-7623 所建议的。2. 理想但更复杂的方案是为每种资源分别建立类似 EIP-1559 的动态调整机制。Vitalik 强调，引入多维执行 Gas 会在 EVM 层面带来一定的复杂性，但为了安全地提升以太坊 L1 的可扩展性，这种权衡是值得的。社区还需要在方案的经济性和开发友好性方面进一步探索更优雅的设计。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币拓展协议Side Protocol上线首个激励测试网]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/cryo1vr9.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/cryo1vr9.html"/>
+        <updated>2024-05-09T07:54:45.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据官方消息，比特币拓展协议 Side Protocol 已上线首个激励测试网 S2，并从上千份申请中选中了首批 100 个验证节点。此外，Side Protocol今日还上线了 Insider Point System 积分系统。普通用户可以通过完成任务来获得积分，从而获得未来空投奖励的资格。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3身份验证工具Privy与Instagram集成]]></title>
+        <id>https://www.odaily.news/newsflash/368567</id>
+        <link href="https://www.odaily.news/newsflash/368567"/>
+        <updated>2024-05-09T07:52:45.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，Web3 身份验证工具 Privy 宣布已与社交媒体巨头 Instagram 完成集成，dApp 和协议现在可以选择将 Instagram 添加为 Privy 登录选项。
+此外，据 Privy 在其官方博客披露，其协议现已支持 Telegram 小程序开发，开发人员可以将 Privy 集成到小程序中来提供身份验证和自我托管钱包服务。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Balancer上LST 4月交易量近40亿美元]]></title>
+        <id>https://www.odaily.news/newsflash/368566</id>
+        <link href="https://www.odaily.news/newsflash/368566"/>
+        <updated>2024-05-09T07:52:28.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Balancer 在 X 平台发文表示，Dune 数据显示，Balancer 上 LST 月交易量一直在增加，4 月份达到近 40 亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[代币正式上线，详解AI赛道新星Morpheus]]></title>
+        <id>https://m.theblockbeats.info/news/53420?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53420?t=binance"/>
+        <updated>2024-05-09T07:50:14.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《超 10 万 ETH 质押，Morpheus 能否成为 AI 赛道的佼佼者？》
+原文作者：Asher，Odaily 星球日报
+
+今天凌晨，超 10 万 ETH 质押的 AI 概念项目 Morpheus 宣布开放代币 MOR 申领和交易。并且，LayerZero Labs 在 X 平台发文提及 Morpheus，称其生态原生代币 MOR 现已成为以太坊、Arbitrum 和其他 L2 上符合 OFT 标准的代币。截止目前，超 20 万枚 MOR 代币已领取，交易量突破 1000 万美元。那么，拥有超 3.2 亿美元 TVL 并且属于当下备受瞩目的 AI 概念项目是否能成为新一轮行情的佼佼者呢？下面，Odaily 星球日报将带大家了解 Morpheus 及其代币经济。
+
+
+Morpheus 全方位解析
+
+
+项目简介
+
+
+
+图源：官推
+
+
+Morpheus 属于 AI 概念项目，旨在激励个人通用 AI 网络的发展。其目标是为那些希望通过 AI 代理简化 Web 3 交互的普通用户提供服务，并为开发者提供一个构建和优化智能代理的平台。同时，它也为资本和计算资源提供者提供了激励机制。此外，Morpheus 使用 Wormhole 的 NTT 框架，使 MOR 代币原生多链。总的来说，有以下几点创新：
+
+
+· 智能代理概念：Morpheus 提供了一种个人通用 AI，这些 AI 作为智能代理，可以连接用户的钱包、Dapps 和智能合约。
+
+
+· SmartContractRank 算法：该算法为用户评分并推荐最佳智能合约，增加了交互的透明度和效率；
+
+
+· 分散式云存储和本地存储结合：通过结合分散式云存储和本地存储，用户的数据和应用连接的长期记忆可以得以保存，从而为智能代理行动提供更为丰富的背景信息。
+
+
+代币经济模型
+
+
+根据文档信息，Morpheus 生态原生代币 MO…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Libra分叉项目0L Network强制硬分叉引争议，投资者指责其无预警「没收」七位数资产]]></title>
+        <id>https://m.theblockbeats.info/flash/249650?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/249650?t=binance"/>
+        <updated>2024-05-09T07:48:30.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，5 月 9 日，据推特用户 @nn_blossoms 爆料，Libra 分叉项目 0L Network 团队近期在未充分告知社区的情况下，强制进行了硬分叉，导致约 4% 的代币供应量被销毁，部分持币用户的钱包资产也受到波及，涉及金额高达 7 位数美元。根据 @nn_blossoms 的描述，0L Network 此次硬分叉的原因是发现一名「离经叛道」的核心成员利用合约漏洞提前解锁了大量代币。但争议在于，项目方对此漏洞早有知悉，且当时并未予以重视和修复。直到代币价格大幅上涨后，团队才仓促决定通过分叉来销毁这部分「违规」解锁的代币，但同时也波及到不少此前通过场外交易 (OTC) 合规购得代币的无辜用户。@nn_blossoms 表示，自己作为早期的 OTC 购币者之一，两年前就以 147 万美元的价格购入了一批 0L 代币，如今却遭遇团队「踢出」的待遇。他指责项目方在分叉前并未给予充分的信息披露和补偿方案，也未给受影响用户任何申诉的机会，行为极不负责任。此外，@nn_blossoms 还质疑 0L Network 背后团队的道德和专业性，称其领导者 0D 实为曾被美国证监会 (SEC) 指控欺诈的 Lucas Geiger。目前 0L Network 官方尚未对此事件进行回应。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Poloniex攻击者地址已向Tornado Cash发送总计3970.7枚ETH]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/hs8vp9nu.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/hs8vp9nu.html"/>
+        <updated>2024-05-09T07:39:54.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据派盾监测，Poloniex攻击者地址已经将第三批被盗ETH转移Tornado Cash。目前攻击者已经向Tornado Cash发送了总计3970.7枚ETH（价值约1190万美元）。
+2023年11月，加密交易所Poloniex遭遇安全漏洞，导致黑客从该平台的热钱包窃取约1.25亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bithumb：因Hanbitco服务终止而暂停100万韩元以上虚拟资产提款]]></title>
+        <id>https://www.odaily.news/newsflash/368565</id>
+        <link href="https://www.odaily.news/newsflash/368565"/>
+        <updated>2024-05-09T07:36:52.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Bithumb 官方公告，由于部分虚拟资产服务提供商（VASP）的旅行规则解决方案服务停止，因此无法通过这些 VASP 提取价值超过 100 万韩元的虚拟资产，此次通知适用于 Hanbitco。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QCP Capital：比特币和以太坊期权隐含波动率出现明显分化]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/l43go8y5.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/l43go8y5.html"/>
+        <updated>2024-05-09T07:34:15.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，新加坡加密投资机构QCP Capital发文称，在当前平淡的市场中，比特币和以太坊期权的隐含波动率出现明显分化。比特币5月期权隐含波动率已跌破50%，而以太坊期权隐含波动率则被推高至接近60%。这种情况的逻辑原因是市场对以太坊现货ETF批准公告的预期带来波动率定价。
+资金流动方面，一些大型投机者在购买非常短期（少于2周）的以太坊看涨和看跌期权，名义本金约为1万枚ETH，试图捕捉价格突破区间。此外，一些熟悉的以太坊看涨期权卖方正在大量回购5月底到期的看涨期权。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[灰度报告：「公链和代币化革命」，谁是RWA的最大受益者？]]></title>
+        <id>https://www.odaily.news/post/5195099</id>
+        <link href="https://www.odaily.news/post/5195099"/>
+        <updated>2024-05-09T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[虽然各种资产都可从代币化趋势中受益，但最有潜力的则是能提供通用全球平台的协议。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：4月份加密市场大多数指标均下降，链上总交易量下降30.5%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/0btrk67g.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/0btrk67g.html"/>
+        <updated>2024-05-09T07:29:15.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据The Block研究总监@lars0x本月初发布的帖子，4月份加密市场大多数指标均下降，调整后的链上总交易量下降了30.5%至4080亿美元（BTC：-30.8%，ETH：-30.2%）。调整后稳定币链上交易量增长23.7%，达到1.1万亿美元历史新高。
+4月份BTC矿工收入下降11.3%至达到17.8亿美元，而ETH质押者收入下降16.9%至2.57亿美元。4月份总共销毁了54640枚ETH，相当于1.79亿美元。自2021年8月上旬实施EIP-1559以来，已销毁总计478万枚ETH，相当于120.2亿美元。以太坊上的月度NFT市场交易量下降34.5%至4.76亿美元。
+4月份合法CEX现货交易量下降38.4%至8880亿美元，币安市场份额为78.7%，Coinbase为10.1%，Kraken为3.7%，LMAX Digital为2.2%。比特币期货持仓量减少16.6%，以太坊期货持仓量减少17.7%。BTC月度期货交易量下降21.3%至1.59万亿美元。CME比特币期货未平仓合约减少23.7%至89亿美元（日均成交量减少30.1%至48亿美元）；ETH期货月交易量下降22.6%至5910亿美元。比特币月度期权交易量增加1.2%至473亿美元历史新高，ETH每月期权交易量增加25.4%至263.2亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase首席法务官敦促Gary Gensler停止将加密代币错误归类为证券]]></title>
+        <id>https://www.odaily.news/newsflash/368564</id>
+        <link href="https://www.odaily.news/newsflash/368564"/>
+        <updated>2024-05-09T07:28:56.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Coinbase 首席法务官 Paul Grewal 近日在平台 X 上向美国 SEC 主席 Gary Gensler 喊话，要求他停止将加密代币错误描述为证券。
+此前在向 Robinhood 发送了韦尔斯通知后，Gensler 表示，许多加密货币根据法律都是证券，但投资者并未获得要求或需要的披露。针对此言论，Grewal 表示：“请停止误导市场——代币不是证券。不管他们怎么辩解，你的律师已经在法庭上承认了这一点。”
+Gensler 近日强调，虽然加密货币只占整个金融市场的一小部分，但由于不遵守证券法，其不成比例地助长了欺诈和欺诈。他还强调了在加密领域进行适当披露的必要性，特别是在被归类为证券的代币方面，并认为投资者没有得到充分的信息披露。（Bitcoin.com）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tatis.eth因遭网络钓鱼损失的3枚BAYC NFT已被出售]]></title>
+        <id>https://www.odaily.news/newsflash/368563</id>
+        <link href="https://www.odaily.news/newsflash/368563"/>
+        <updated>2024-05-09T07:18:20.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据派盾监测，tatis.eth 因遭网络钓鱼攻击损失的 3 枚 BAYC NFT 已被出售，总价约为 48.5 枚 ETH（价值约为 14.5 万美元）。
+今日早些时候消息，据 ZachXBT 监测，一名 Bored Ape Yacht Club 持有者因网络钓鱼攻击而丢失三枚稀有的 NFT，分别为 BAYC#7531、BAYC#6736 和 BAYC#2100。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全网BTC期权未平仓头寸为180亿美元，ETH期权未平仓头寸为94.5亿美元]]></title>
+        <id>https://www.odaily.news/newsflash/368562</id>
+        <link href="https://www.odaily.news/newsflash/368562"/>
+        <updated>2024-05-09T07:17:33.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Coinglass 数据显示，目前全网 BTC 期权未平仓头寸的名义价值为 180 亿美元，ETH 期权未平仓头寸的名义价值为 94.5 亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[机构观点：Bitwise为何看好Base及Coinbase？]]></title>
+        <id>https://www.odaily.news/post/5195111</id>
+        <link href="https://www.odaily.news/post/5195111"/>
+        <updated>2024-05-09T07:16:45.000Z</updated>
+        <summary type="html"><![CDATA[受Base高毛利影响，Coinbase财报亮眼，有望成为“加密货币版亚马逊”。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安首个Megadrop项目BounceBit已有68.2万人参与]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/v55xiyi4.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/v55xiyi4.html"/>
+        <updated>2024-05-09T07:16:24.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据@ai_9684xtpa监测，币安首个Megadrop项目BounceBit已有68.2万人参与，目前完成Web3任务的人数约占总参与数的48%。
+据悉，BB将在05.13正式上线Binance，总供应量21亿枚，初始流通4.09亿枚，其中Megadrop额度占总供应量的8%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Poloniex攻击者地址已向Tornado Cash发送总计3970.7枚ETH]]></title>
+        <id>https://www.odaily.news/newsflash/368561</id>
+        <link href="https://www.odaily.news/newsflash/368561"/>
+        <updated>2024-05-09T07:16:16.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据派盾监测，Poloniex 攻击者地址已经将第三批被盗 ETH 转移到 Tornado Cash。目前攻击者已经向 Tornado Cash 发送了总计 3970.7 枚 ETH（价值约 1190 万美元）。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安首个Megadrop项目BounceBit已有68.2万人参与]]></title>
+        <id>https://www.odaily.news/newsflash/368560</id>
+        <link href="https://www.odaily.news/newsflash/368560"/>
+        <updated>2024-05-09T07:13:14.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据链上分析师@ai_9684xtpa 监测，币安首个 Megadrop 项目 BounceBit 已有 68.2 万人参与。
+BB 将在 05.13 正式上线币安，总供应量 21 亿枚，初始流通 4.09 亿枚，其中 Megadrop 额度占总供应量的 8%。目前完成 Web3 任务的人数占总参与数的~48%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密货币4月份交易量降至6.58万亿美元，系七个月以来首次下降]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/2sefm2hy.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/2sefm2hy.html"/>
+        <updated>2024-05-09T07:12:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据CoinDesk报道，4月份加密货币交易量降温，出现七个月以来的首次下降，因受地缘政治紧张局势升级和美国上市现货ETF资金流入放缓影响。据CCData报告，现货和衍生品市场累计交易量锐减43.8%，至6.58万亿美元，较3月份创下的9.12万亿美元的历史新高大幅下滑。衍生品再次失去投资者青睐，期货和期权市场的交易量下降了47.6%，至4.57万亿美元。与此同时，现货市场交易量相对温和地下跌了32.6%，至2.01万亿美元。
+尽管币安仍为交易量最大的交易所，但市场份额降至41.5%。其现货市场交易量暴跌39.2%，至6790亿美元，为2023年9月以来首次下滑。CCData指出，这与币安创始人赵长鹏因洗钱法被判刑的消息有关。赵长鹏（CZ）在11月认罪后辞职，Richard Teng接任。自那时起，币安现货市场份额有所回升，从30.8%增至33.8%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tether冻结0xc19开头地址超16.8万枚USDT]]></title>
+        <id>https://www.odaily.news/newsflash/368559</id>
+        <link href="https://www.odaily.news/newsflash/368559"/>
+        <updated>2024-05-09T07:10:07.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 MistTrack 监测，Tether 冻结了地址 0xc19...c5e 的 168,232.189 枚 USDT，且还冻结了一个没有任何交易的地址 0x058...549。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全球加密货币交易量连续7个月增长后首次下滑，4月份降至6.58万亿美元]]></title>
+        <id>https://m.theblockbeats.info/flash/249646?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/249646?t=binance"/>
+        <updated>2024-05-09T07:09:39.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，5 月 9 日，根据伦敦数字资产数据供应商 CCData 的报告，今年 4 月份全球加密货币现货和衍生品市场的累计交易量下降了 43.8%，从 3 月份的创纪录高位 9.12 万亿美元大幅回落至 6.58 万亿美元，这是自去年 9 月以来首次出现月度下滑。CCData 表示，此次下滑发生在意外的宏观经济数据、中东地缘政治危机升级以及流入美国比特币现货 ETF 的资金净流出等因素共同作用下，导致主要加密资产回吐了 3 月份的涨幅。（CoinDesk）]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CCData：加密货币4月交易量为6.58万亿美元，系7个月来首次下降]]></title>
         <id>https://www.odaily.news/newsflash/368558</id>
@@ -224,6 +554,16 @@ zkAuth 协议由两个主要组件组成：核心智能合约系统和配套开�
         <summary type="html"><![CDATA[Odaily星球日报讯 Solana 2024 Breakpoint 大会公布首批演讲嘉宾名单，其中包括 Bybit CEO Ben Zhou，OKX CIO Jason Lau，Circle CEO Jeremy Allaire，21.Co CEO Hany Rashwan，Visa Head of Crypto Guy Sheffield 及众多生态项目创始人。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特朗普要「让 NFT 再次伟大」，加密货币正成为美国大选重要议题]]></title>
+        <id>foresightnews-article#59760</id>
+        <link href="https://foresightnews.pro/article/detail/59760"/>
+        <updated>2024-05-09T06:24:32.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>律动 BlockBeats</name>
         </author>
     </entry>
     <entry>
@@ -522,6 +862,16 @@ Lalapalooza 效应
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Hotcoin Research | 模組化將是大勢所趨：拆解模組化區塊鏈的現狀和未來]]></title>
+        <id>foresightnews-article#59759</id>
+        <link href="https://foresightnews.pro/article/detail/59759"/>
+        <updated>2024-05-09T06:10:01.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>Hotcoin 研究院</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[OKX Jumpstart上线NOT (Notcoin)，需质押TON]]></title>
         <id>https://m.theblockbeats.info/flash/249641?t=binance</id>
         <link href="https://m.theblockbeats.info/flash/249641?t=binance"/>
@@ -629,6 +979,16 @@ OpenSea 数据显示，这三枚 NFT 的价值分别为 21 枚 ETH（约合 62,9
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[观点：爬升无门，才是加密青年涌向 MEME 的残酷真相]]></title>
+        <id>foresightnews-article#59758</id>
+        <link href="https://foresightnews.pro/article/detail/59758"/>
+        <updated>2024-05-09T05:52:33.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Sanctum代币经济学提案：总供应量的40%由社区管理，16%用于战略储备]]></title>
         <id>https://www.odaily.news/newsflash/368534</id>
         <link href="https://www.odaily.news/newsflash/368534"/>
@@ -663,6 +1023,16 @@ OpenSea 数据显示，这三枚 NFT 的价值分别为 21 枚 ETH（约合 62,9
         <summary type="html"><![CDATA[Odaily星球日报讯 Etherscan 数据显示，当前以太坊网络 Gas 费已降至 4 gwei。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欧洲杯即将开幕！Web3 足球手游 World League Live 成体育板块黑马]]></title>
+        <id>foresightnews-article#59756</id>
+        <link href="https://foresightnews.pro/article/detail/59756"/>
+        <updated>2024-05-09T05:34:35.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>区块链蓝海</name>
         </author>
     </entry>
     <entry>
@@ -738,6 +1108,16 @@ OpenSea 数据显示，这三枚 NFT 的价值分别为 21 枚 ETH（约合 62,9
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[从贝莱德 BUIDL 链上基金看 TradFi 与 DeFi 的融合]]></title>
+        <id>foresightnews-article#59755</id>
+        <link href="https://foresightnews.pro/article/detail/59755"/>
+        <updated>2024-05-09T05:22:48.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>金色财经</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[MixMob：Racer 1游戏将于5月14日在苹果App Store和谷歌Play Store发布]]></title>
         <id>https://www.odaily.news/newsflash/368528</id>
         <link href="https://www.odaily.news/newsflash/368528"/>
@@ -792,6 +1172,16 @@ MixMob：Racer 1 的 iPhone 和 iPad 版本现在可以在全球范围内“预�
 据悉，MetaComp是获得新加坡金融管理局（MAS）许可、专注于区块链技术和数字资产领域的金融科技公司和数字交易平台。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Variant Fund： 加密世界如何塑造更有品位的 AI 模型？]]></title>
+        <id>foresightnews-article#59754</id>
+        <link href="https://foresightnews.pro/article/detail/59754"/>
+        <updated>2024-05-09T05:00:32.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
         </author>
     </entry>
     <entry>
