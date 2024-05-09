@@ -2,10 +2,334 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-05-09T02:24:09.177Z</updated>
+    <updated>2024-05-09T03:09:23.206Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Jasper Vault推出时间锁期权：比特币点对点生态的新叙事]]></title>
+        <id>https://m.theblockbeats.info/news/53411?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53411?t=binance"/>
+        <updated>2024-05-09T03:06:54.000Z</updated>
+        <summary type="html"><![CDATA[原文来源：Jasper Vault
+
+
+5 月 9 日至 10 日，Bitcoin Magazine 首次在香港举办全球比特币大会。Jasper Vault 作为点对点去中心化金融的坚定继承者，在大会期间推出针对原生比特币 Layer 1 资产的点对点期权交易产品—时间锁期权（Hash Timelock Contract Options，简称 HTLC Options）。时间锁期权是在不改变原生比特币点对点支付特性的基础上，利用哈希时间锁合约将期权行权价的支付作为时间锁合约的条件，结合 Taproot 签名算法来实现在比特币原生链上的点对点期权交易协议。
+
+
+Jasper Vault 提出的比特币 DeFi 路线明显不同于目前比较流行的比特币 Layer 2 的 Wrapped Tokens 或者跨链桥。Jasper Vault 的时间锁期权协议允许期权购买者使用稳定币 USDT 在 EVM 链上支付期权费，而期权标的物仍然是比特币本身。清算仍然使用比特币 Layer 1，不需要离开比特币网络的 UTXO 账户。因此，在交易过程中无需跨链桥或转换为任何包装代币（Wrapped Token），完美保留了比特币点对点去中心化的安全性。
+
+
+用户在使用时间锁期权协议时，需要同时持有两个钱包：比特币钱包（如 Ledger）和 EVM 钱包（如 MetaMask）。点对点的互操作性包括两部分，期权标的物比特币的交割在比特币 Layer 1 的 UTXO 账户进行，而期权费和行权价的支付则使用稳定币（如 USDT）在以太坊（Layer 1 和 Layer 2）链上，通过双方对应的抽象账户（ERC-4337, Account Abstraction）来完成。时间锁期权协议同时兼容在 Solana 上使用程序派生账户（Program Derived Addresses，简称 PDAs）完成期权行权。
+
+
+Jasper Vault 在不改变比特币 Layer 1 的点对点原生生态基础上，提供了一种将加密货币中最重要的资产比特币引入到以太坊 Layer 1、Layer 2 以及 Solana 链上的方法。通过这种方式，在保持点对点基本生态的同时，实现了跨链账号之间的完全可互操作性（Interoperability）。
+
+
+比特币时间锁期权的核心技术是基于哈希时间锁和 Taproot 多签结合智能合约公链的可编程性，提供了原生比特币的去中心化金融期权交易。其优势包括：
+
+
+1.  继承比特币点对点生态：交易双方按照事先的约定，在智能合约链的基础设施和基于 Taproot 升级的比特币脚本上实现交易，无需第三方机构介入，完成整个交易流程。
+
+
+2.  BTC 原生资产安全：不需转移 BTC 资产至第三方控制的账户或转换为 Wrapped Token，期权交易前将 BTC 资产锁定在基于 Schnorr 签名的多签地址 UTXO 账户中，行权后按照期权交易逻辑，通过 Schnorr 签名方式转移资产至交易方的 UTXO 账户，保证 BTC 资产在整个期权交易过程中得到比特币 Layer 1 网络最安全的保护。
+
+
+3.  跨链的可互操作性：尽管比特币资产存储在 UTXO 账户中，但期权费和行权价支付发生在其他智能链上。时间锁期权协议可适配基于抽象账号的 EVM Layer 1 和 Layer 2 公链，同时兼容 Solana 的 PDA 地址，实现账户间的跨链交互和互操作性功能。
+
+
+Jasper Vault 针对比特币原生资产的期权协议利用比特币网路自身的时间锁技术和 Taproot 签名，将去中心化期权业务直接引入比特币 Layer 1 原生链上，同时保持点对点的现金支付和期权协议。持有比特币的用户可以通过在 UTXO 账户内卖出看涨比特币期权 (Covered Call) 来获得额外的期权费收益，或者通过购买看跌期权来对持有的比特币进行对冲保值（Protective Put）。对于那些希望获取闲置比特币收益，但又不信任其他公链的坚定比特币信徒来说，Jasper Vault 提供了一个几乎完美的解决方案。这种方案使得比特币持有者可以在比特币原生链上参与期权交易，同时保持资产安全和去中心化特性。
+
+
+Jasper Vault 的时间锁期权协议目前已上线测试版，未来将根据用户和社区的反馈持续完善时间锁期权协议，并进一步对接其他公链，同时开发更多期权之外的应用场景，致力于构建一个维持比特币原生态点对点的去中心化金融系统。这一努力皆在回归初心，即实现一个点对点的电子现金支付和期权协议，为比特币持有者提供更多的金融工具和参与机会，同时保持其原生态的特性和去中心化的理念。
+
+
+本文来自投稿，不代表 BlockBeats 观点]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[做多ETH的某鲸鱼从币安提取6030枚ETH]]></title>
+        <id>https://www.odaily.news/newsflash/368502</id>
+        <link href="https://www.odaily.news/newsflash/368502"/>
+        <updated>2024-05-09T03:06:53.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Lookonchain 监测，20 分钟前，做多 ETH 的某鲸鱼再次从币安提取 6030 枚 ETH（约合 1809 万美元）。
+自 5 月 2 日以来，该鲸鱼已从币安提取 10,758 枚 ETH（约合 3214 万美元）。
+他将 ETH 换成 stETH 并将其存入 Aave ，然后从 Aave 借入 2850 万美元的稳定币以买入更多 ETH 。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港证监会持牌人士：金管局正研究代币化存款在银行间交收和结算等事项]]></title>
+        <id>https://www.odaily.news/newsflash/368501</id>
+        <link href="https://www.odaily.news/newsflash/368501"/>
+        <updated>2024-05-09T03:03:22.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 香港证监会持牌人士庞宝林透露，市场期待香港推动虚拟资产交易、实物代币化（STO）等互通性，香港金管局已通过沙盒研究代币化存款在银行间交收和结算等事项，为日后数字化港元及稳定币进行支付测试，并为创新金融市场基建及未来数字化做出充分准备。（信报）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nethermind与Near和Eigen Labs合作开展NFFL项目，以推进区块链抽象化]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/3il48vv1.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/3il48vv1.html"/>
+        <updated>2024-05-09T03:01:31.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据The Block报道，以太坊生态系统开发商Nethermind正与Near和Eigen Labs合作开展NFFL项目，以推进区块链抽象化。NFFL旨在显著提高区块链的可扩展性和互操作性，并在Holesky EigenLayer测试网上进行测试。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitlayer设立200万美元上币基金，支持生态项目代币上线交易所]]></title>
+        <id>https://www.odaily.news/newsflash/368500</id>
+        <link href="https://www.odaily.news/newsflash/368500"/>
+        <updated>2024-05-09T03:01:03.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 基于 BitVM 的比特币 Layer 2 项目 Bitlayer 宣布设立 200 万美元上币基金，支持生态项目代币上线加密货币交易平台。
+该基金将首批支持生态项目寻求上线 Gate.io、KuCoin、Bybit、Bitget、HTX、OKX 和币安等 7 家交易所，并承担一半费用；若单个项目同时上线多家平台，Bitlayer 将承担最贵的一笔上币费。 
+Bitlayer 将按照赛道设立支持标准：Meme 类项目需满足持币地址数大于 2 万个、链上交易笔数大于 10 万笔、Twitter 粉丝数大于 10 万名、FDV 大于 200 万美元等 4 个指标；DeFi 类项目需要满足 TVL 超过 3000 万美元、持币地址数大于 1 万个，以及连续 7 天日活用户数大于 1000 名等 3 个指标。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wintermute或已成为Robinhood上主要加密货币做市机构]]></title>
+        <id>https://www.odaily.news/newsflash/368499</id>
+        <link href="https://www.odaily.news/newsflash/368499"/>
+        <updated>2024-05-09T02:58:11.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Robinhood 第一季度财报附带的 10-Q/10-K 文件显示，加密货币做市商 Wintermute 凭借 10%的交易收入占比首次出现在 Robinhood 的财报文件中，并成为占比第二大的做市商机构，仅次于传统证券做市商巨头 Citadel Securities（12%）。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Puffer Finance主网上线，其任务Chapter 4即将开始]]></title>
+        <id>https://www.odaily.news/newsflash/368498</id>
+        <link href="https://www.odaily.news/newsflash/368498"/>
+        <updated>2024-05-09T02:55:54.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Puffer Finance 在 X 平台发文表示，其主网已上线。主网发布标志着 Crunchy Carrot Quest 进入第四章（Chapter 4）。
+用户现可以存入 ETH、stETH 或 wstETH，详细的第四章任务即将推出，很快就会带来改进的积分系统。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Puffer Finance宣布其主网已正式上线]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/0c0bm42j.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/0c0bm42j.html"/>
+        <updated>2024-05-09T02:55:02.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，以太坊流动性质押协议Puffer Finance在X平台宣布，Puffer主网已正式上线。主网发布标志着Crunchy Carrot任务的第四章。现在用户可以存入ETH、stETH或wstETH。Crunchy Carrot的第四章即将推出，很快就会带来改进的积分系统。
+Puffer Finance还表示，LST的过度中心化可能会威胁以太坊的去中心化，从而导致交易审查、操纵MEV提取以及影响区块时间等风险。这些行为威胁到网络的完整性及其去中心化。为了解决这个问题，在未来几周内，所有stETH存款都将转换为ETH，为新一波多元化验证者提供资金。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Swan为机构投资者推出托管挖矿服务，并扩大与Tether的合作]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/s6ex5xx9.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/s6ex5xx9.html"/>
+        <updated>2024-05-09T02:48:35.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，比特币金融服务公司Swan在X平台宣布，为机构投资者推出托管挖矿服务Swan Managed Mining，并宣布与Tether进行战略合作，目标是到2026年达到100 EH。
+Swan表示，其托管挖矿服务是一项为寻求将 1 亿美元或更多资金投入比特币挖矿生态系统的机构投资者量身定制的新方法。Swan 为其客户提供完全隔离和专用的挖矿业务，以满足他们独特的需求、机会和战略优势。除了定制项目外，该公司还计划推出一只基金，允许高净值个人、家族办公室和较小的机构以500万至5000万美元的投资额度参与。Swan还表示，该公司已与Swan合作扩大其在比特币挖矿领域的参与度。Tether已经投入大量资金在比特币挖矿领域占据重要地位，其中大部分是通过Swan进行的。
+此前去年12月消息，Swan已筹集4000万美元用于开发比特币贷款等机构产品。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全网ETH合约未平仓头寸增至106.7亿美元]]></title>
+        <id>https://www.odaily.news/newsflash/368497</id>
+        <link href="https://www.odaily.news/newsflash/368497"/>
+        <updated>2024-05-09T02:48:34.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Coinglass 数据显示，全网 ETH 期货合约未平仓头寸为 355 万枚 ETH，约合 106.7 亿美元。
+其中币安 ETH 合约未平仓头寸为 118 万枚 ETH（约合 35.4 亿美元），排名第一。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文读懂Vitalik的EIP-7702新提案：账户抽象的终极药方？]]></title>
+        <id>https://www.odaily.news/post/5195105</id>
+        <link href="https://www.odaily.news/post/5195105"/>
+        <updated>2024-05-09T02:48:02.000Z</updated>
+        <summary type="html"><![CDATA[涉 3074、4337、5003 这 3 个账户抽象既往提案，或彻底改变所有人与 Web3 的交互方式。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全网BTC合约未平仓头寸降至295.5亿美元]]></title>
+        <id>https://www.odaily.news/newsflash/368496</id>
+        <link href="https://www.odaily.news/newsflash/368496"/>
+        <updated>2024-05-09T02:46:19.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Coinglass 数据显示，全网 BTC 期货合约未平仓头寸为 47.871 万枚 BTC，约合 295.5亿美元。
+其中 CME BTC 合约未平仓头寸为 13.272 万枚 BTC（约合 81.8 亿美元），排名第一；
+币安 BTC 合约未平仓头寸为 10.95 万枚 BTC（约合 67.6 亿美元），排名第二。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[拆解近半年KOL参与项目融资数据，寻找其中的Alpha]]></title>
+        <id>https://m.theblockbeats.info/news/53412?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53412?t=binance"/>
+        <updated>2024-05-09T02:45:40.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《拆解头部 KOL 投资列表，寻找新的 Alpha》
+原文作者：Wenser，Odaily 星球日报
+
+
+2024 年 4 月，Web3 资产数据平台 RootData 发布 KOL 近半年参与项目融资情况统计数据，其中 dingaling 以参与 21 个项目融资排名第一，GmoneyNFT、DCF GOD 分列第二和第三位。今天，Odaily 星球日报将和大家一起，从这份表格中拆解一下 KOL 们的投资策略并找寻新的 Alpha。
+
+
+
+https://x.com/RootDataLabs/status/1779848819364245812
+
+
+热门赛道：游戏、BTC L2、社交
+
+
+根据以上表格信息及 Rootdata 官网信息，众多 KOL 主要投资标的集中于游戏、社交、BTC L2 网络等热门赛道，其中，以下项目获得了较多 KOL 的认可与投资：
+
+
+· eesee 共有 7 位 KOL 投资，Blast 生态的一个去中化聚合交易和彩票平台，主要通过为数字资产、代币和 RWA 提供额外的流动性和交易市场服务于买卖双方，并借助特殊的 token cash-back 的形式来抵消掉用户未能中奖的负和效应，获胜者获得彩票池奖励，失败者则获得积分，与未来的奖励挂钩。代币 ESE 目前价格为 0.08 美元， 24 小时交易量为 182 万美元。
+
+
+· Mezo 共有 4 位 KOL 投资，最新的比特币 L2 网络之一，由开发商 Thesis 团队创建，此前曾完成由 Pantera Capital 领投、Multicoin、Hack VC、Draper Associates 等参投的 2100 万美元 A 轮融资，Mezo 通过「HODL 证明（Proof of HODL）」积分计划利用持币者的闲置比特币，存放时间越长，用户的「HODL 得分乘数」越多。目前未…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitlayer宣布设立200万美元上币基金，支持生态项目代币上线交易平台]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/re2q9a6k.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/re2q9a6k.html"/>
+        <updated>2024-05-09T02:44:23.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，首个基于BitVM的比特币安全等效Layer 2项目Bitlayer宣布设立200万美元上币基金，支持生态项目代币上线加密货币交易平台。该基金将首批支持生态项目寻求上线Gate、KuCoin、Bybit、Bitget、HTX、OKX和Binance等7家交易平台，并承担一半费用；若单个项目同时上线多家平台，Bitlayer将承担上币费最贵的一笔。
+Bitlayer也将按照细分赛道设立支持标准，如Meme类项目需满足持币地址数大于2 万、链上交易次数大于10 万、Twitter 粉丝数大于10 万和全流通市值大于200 万美元4个指标；DeFi类项目则需要满足总锁仓价值（TVL）超过3000万美元、持币地址数大于1万，以及连续7日日均交互人数大于1000共3个指标。原文来源：]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XT推出BTC云挖矿产品认购活动]]></title>
+        <id>https://www.odaily.news/newsflash/368495</id>
+        <link href="https://www.odaily.news/newsflash/368495"/>
+        <updated>2024-05-09T02:42:10.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 XT 推出 BTC 云挖矿产品认购活动，活动时间 5 月 9 日 08:00 - 5 月 19 日 24:00（UTC+8）。首次参与认购的用户可参与瓜分 60,000 美元 XT 奖金池。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密钱包提供商Exodus因美SEC审查推迟在NYSE American上市]]></title>
+        <id>https://www.odaily.news/newsflash/368494</id>
+        <link href="https://www.odaily.news/newsflash/368494"/>
+        <updated>2024-05-09T02:40:19.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 加密钱包提供商 Exodus Movement 周三晚间宣布，公司不会按计划于周四在纽约证券交易所的姊妹市场 NYSE American 上市。
+纽约证券交易所美国公司周三告知 Exodus，美 SEC 工作人员仍在审查 Exodus 的注册声明。Exodus 表示该声明已于 4 月底生效。
+Exodus 至周三的新闻稿中表示，“一旦美国 SEC 工作人员完成对注册声明的审查，公司可能会在未来某个日期重新考虑在一家国家证券交易所上市。” 
+Exodus 首席执行官 JP Richardson 表示：“我们对（SEC）这一最后一刻的决定感到惊讶和困惑。我们仍然希望美国 SEC 能够履行其承诺，按照法律规定对待我们。Exodus 在整个过程中一直保持完全透明且积极响应，我们希望此事能得到迅速解决。”（CoinDesk）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GSR Markets向币安存入400万枚OCEAN，约合359万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/gq4e553f.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/gq4e553f.html"/>
+        <updated>2024-05-09T02:39:01.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据链上分析师@ai_9684xtpa监测，四小时前，GSR Markets向币安充值400万枚OCEAN，价值359万美元。此前 FET/AGIX/OCEAN 合并为 ASI 的提案已获批，预计五月初执行。
+OCEAN目前仍是GSR链上持仓排名第二的资产，持有703万枚，价值644万美元；其中526万枚是2020年9月Ocean项目方分发的，当时价格仅为0.49美元，现价0.91美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[受特朗普言论影响，以其名命名的Meme币TRUMP 24小时涨幅超26%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/rbpoiwox.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/rbpoiwox.html"/>
+        <updated>2024-05-09T02:34:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，Meme币TRUMP今早短时突破6美元后，现回落至5.67美元，24小时涨幅达26.01%。
+此前今日早些时候消息，特朗普宣布其正接受加密货币形式的美国总统竞选捐款。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何搭建有效的链上治理机制：DoraHacks链上二次方治理与改进实例]]></title>
+        <id>https://www.odaily.news/post/5195104</id>
+        <link href="https://www.odaily.news/post/5195104"/>
+        <updated>2024-05-09T02:30:06.000Z</updated>
+        <summary type="html"><![CDATA[即使在复杂的治理场景中，创新的机制如链上二次方投票和 MACI 机制可以有效地平衡各方利益，保障项目的多样性与小团队的声音。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[io.net宣布Ignition第一季积分已上线]]></title>
+        <id>https://www.odaily.news/newsflash/368493</id>
+        <link href="https://www.odaily.news/newsflash/368493"/>
+        <updated>2024-05-09T02:29:49.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Solana 生态 DePIN 协议 io.net 在 X 平台发文表示，Ignition Season 1 积分现已上线。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[io.net：Ignition第1季积分现已上线]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/42s9hc8q.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/42s9hc8q.html"/>
+        <updated>2024-05-09T02:27:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，Solana生态DePIN协议io.net在X平台宣布，Ignition第1季积分现已上线。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Glif现已接入OKX Web3钱包]]></title>
+        <id>https://www.odaily.news/newsflash/368492</id>
+        <link href="https://www.odaily.news/newsflash/368492"/>
+        <updated>2024-05-09T02:26:57.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官网消息，Glif 现已接入 OKX Web3 钱包，用户可以通过 OKX Web3 钱包在 Glif 进行加密资产的质押并获取收益。
+Glif 是一个为 Filecoin 网络构建基础设施和质押工具的平台；OKX Web3 钱包是一站式 Web3 入口，现已支持 90+公链，App、插件、网页三端统一。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GSR Markets向币安存入400万枚OCEAN，约合359万美元]]></title>
+        <id>https://www.odaily.news/newsflash/368491</id>
+        <link href="https://www.odaily.news/newsflash/368491"/>
+        <updated>2024-05-09T02:26:21.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据链上分析师@ai_9684xtpa 监测，四小时前，GSR Markets 向币安充值 400 万枚 OCEAN，价值 359 万美元。此前 FET/AGIX/OCEAN 合并为 ASI 的提案已获批，预计五月初执行。
+OCEAN 目前仍是 GSR 链上持仓排名第二的资产，持有 703 万枚，价值 644 万美元；其中 526 万枚是 2020 年 9 月 Ocean 项目方分发的，当时价格仅为 0.49 美元，现价 0.91 美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[故意拼错美国总统拜登名字的Meme币Boden，在特朗普发表嘲讽言论后价格飙升]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ri09gkrk.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ri09gkrk.html"/>
+        <updated>2024-05-09T02:25:22.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月9日消息，据CoinDesk报道，故意拼错美国总统拜登名字的笑话Meme币Boden，在他的共和党挑战者、前总统唐纳德·特朗普回答记者的提问后，该代币周三飙升了25%。“我不喜欢这项投资，”特朗普在佛罗里达州棕榈滩海湖庄园举行的临时新闻发布会上说道，此前一名记者向他描述了BODEN并表示该代币的市值为2.4亿美元。
+在达到0.42美元的峰值后，BODEN价格出现波动，截至发稿时交易价格为0.40美元，仍较特朗普发表评论时上涨约15%。
+此前今日早些时候消息，特朗普宣布其正接受加密货币形式的美国总统竞选捐款。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zilliqa正在调查主网出块速度放缓等问题]]></title>
+        <id>https://www.odaily.news/newsflash/368490</id>
+        <link href="https://www.odaily.news/newsflash/368490"/>
+        <updated>2024-05-09T02:24:07.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Zilliqa 在 X 平台发文表示，UTC 时间 15:12 左右检测到主网区块生成速度放缓，为了更深入地研究，Zilliq 交易处理在 UTC 16:00 停止，允许网络清除内存池中的交易并进行自我恢复， 30 分钟后恢复正常运行。Zilliqa 团队表示，将继续调查以确定根本原因，后续将提供进一步的更新。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[香港比特币ETF昨日总申购量101.6枚，以太坊ETF连续两日呈现净赎回]]></title>
         <id>https://www.odaily.news/newsflash/368489</id>
@@ -54,6 +378,16 @@ Dai 储蓄利率（DSR）也呈现出积极势头，近几个月来，DSR 稳步
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[拆解头部 KOL 投资列表，寻找新的 Alpha]]></title>
+        <id>foresightnews-article#59743</id>
+        <link href="https://foresightnews.pro/article/detail/59743"/>
+        <updated>2024-05-09T02:11:10.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>星球日报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[LayerZero已上线Merlin Chain]]></title>
         <id>https://www.odaily.news/newsflash/368486</id>
         <link href="https://www.odaily.news/newsflash/368486"/>
@@ -61,6 +395,16 @@ Dai 储蓄利率（DSR）也呈现出积极势头，近几个月来，DSR 稳步
         <summary type="html"><![CDATA[Odaily星球日报讯 跨链互操作性协议 LayerZero 已上线 Merlin Chain。此次集成使 Merlin 能够与其他 70 个网络实现连接。开发人员可以利用 Merlin 的核心功能，比如 BRC-20/420。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文带你了解当下主流火热的投资分析平台 |TrendX 研究院]]></title>
+        <id>foresightnews-article#59742</id>
+        <link href="https://foresightnews.pro/article/detail/59742"/>
+        <updated>2024-05-09T02:05:39.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>TrendX</name>
         </author>
     </entry>
     <entry>
@@ -272,6 +616,16 @@ MakerDAO：过去两个月，DAI 供应量激增近 10 亿枚
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[一周翻三倍，熟悉的妖币 TRB 回来了]]></title>
+        <id>foresightnews-article#59741</id>
+        <link href="https://foresightnews.pro/article/detail/59741"/>
+        <updated>2024-05-09T01:40:26.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>律动 BlockBeats</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[CryptoQuant分析师：Dencun升级使ETH再次通胀]]></title>
         <id>https://www.odaily.news/newsflash/368478</id>
         <link href="https://www.odaily.news/newsflash/368478"/>
@@ -340,6 +694,16 @@ FOX 记者 Eleanor Terrett 在 X 平台发文表示，灰度从未为其以太�
 Exodus首席执行官JP Richardson在周三的声明中表示，该公司“对这一最后一刻的决定感到惊讶和困惑”。他表示：“我们仍然希望美国证券交易委员会能够履行其承诺，按照法律规定对待我们。Exodus在整个过程中一直保持完全透明且积极响应，我们希望此事能得到迅速解决。”]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何理解 ZKM 推出的 Entangled Rollup Network：一个「原生」资产跨链 BTC Layer 2 方案？]]></title>
+        <id>foresightnews-article#59740</id>
+        <link href="https://foresightnews.pro/article/detail/59740"/>
+        <updated>2024-05-09T01:17:06.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>Haotian</name>
         </author>
     </entry>
     <entry>
@@ -497,6 +861,16 @@ EIGEN 空投引发了关于私有市场与公开市场之间分歧的讨论。�
 结构性偏…]]></summary>
         <author>
             <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[去中心化计算和 Alpha Gems]]></title>
+        <id>foresightnews-article#59739</id>
+        <link href="https://foresightnews.pro/article/detail/59739"/>
+        <updated>2024-05-09T00:59:08.000Z</updated>
+        <summary type="html"><![CDATA[来源链接]]></summary>
+        <author>
+            <name>雨中狂睡</name>
         </author>
     </entry>
     <entry>
@@ -17351,63 +17725,6 @@ Particle 新升级为钱包抽象、链抽象、流动性抽象、Gas 抽象等�
         <summary type="html"><![CDATA[来源链接]]></summary>
         <author>
             <name>Rebase 社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[巴菲特：预计伯克希尔哈撒韦将在6月底持有2000亿美元现金，苹果仍将是长期投资]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/q9om0zqw.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/q9om0zqw.html"/>
-        <updated>2024-05-04T15:05:32.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月4日消息，据金十报道，巴菲特在2024年度伯克希尔-哈撒韦股东大会中表示，可以安全地假设伯克希尔哈撒韦的现金持有量将在6月底达到2000亿美元。将在合适的时候努力减少股份数量。巴菲特表示，我们还是会长期持有苹果、可口可乐和美国运通这三家公司的股票。到2024年底，苹果极有可能仍然是伯克希尔哈撒韦持有数量最大的股票。除非发生重大事件，否则苹果将继续是伯克希尔在股票领域的最大投资。相对于股票市场上的可用资金以及世界各地的冲突，持有大量现金“相当有吸引力”。如果伯克希尔公司采取重大行动，极有可能发生在美国。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microcosm Labs推出Move to TON Grant计划]]></title>
-        <id>https://www.odaily.news/newsflash/367735</id>
-        <link href="https://www.odaily.news/newsflash/367735"/>
-        <updated>2024-05-04T14:55:36.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Microcosm Labs 宣布推出 Move to TON Grant 计划，面向正在其他生态系统中建设但尚未推出代币的项目。金额为 5000 美元至 5 万美元。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023 年报综述：波动中的灯塔与礁石 - 聚焦 AI 算力与运营商]]></title>
-        <id>foresightnews-article#59477</id>
-        <link href="https://foresightnews.pro/article/detail/59477"/>
-        <updated>2024-05-04T14:47:53.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>吉时通信</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CyberConnect宣布生态Grants Pilot Round获奖项目]]></title>
-        <id>https://www.odaily.news/newsflash/367734</id>
-        <link href="https://www.odaily.news/newsflash/367734"/>
-        <updated>2024-05-04T14:33:38.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 CyberConnect 宣布生态 Grants Pilot Round 获奖项目，奖励总额为价值 17 万美元的 CYBER，项目分别为：
-游戏见解平台 Bitmon；
-促进人机交互和共同创造的综合社交网络 CharacterX；
-NFT 市场和聚合器 Element；
-基于 ERC-4337 的 UserOp 浏览器 JiffyScan；
-基于 ERC-4337 的钱包管理工具 UseSnaaps；
-AI 驱动的社媒平台 XO。
-此外还将向 Ecosapiens、Nomis、Plato、SuperSquad 发放创业 Grant。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tether CEO：黑客披露的密码至少在两家其他交易所有效，许多不符合Bitfinex最低密码强度要求]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/msm59p47.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/msm59p47.html"/>
-        <updated>2024-05-04T14:33:26.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月4日消息，Tether首席执行官Paolo Ardoino在推特发文补充称，Bitfinex已经测试了一些黑客披露的电子邮件/密码，结果发现这些信息至少在两家其他交易所有效。一些用户会在多家交易所中使用相同的电子邮件/密码，而黑客披露的密码里许多甚至不符合Bitfinex的最低密码强度要求。此前Tether首席执行官Paolo Ardoino发文表示，Bitfinex数据泄露或为假消息。从我们收集到的信息来看，黑客收集了可能来自不同加密泄露的电子邮件/密码数据库。虽然我们认为这是纯粹的FUD，但会继续审查信息以确保没有遗漏。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
 </feed>
