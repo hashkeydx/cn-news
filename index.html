@@ -51,11 +51,310 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-10 datetime="2024-05-10T03:05:00.000Z">2024-05-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-10 datetime="2024-05-10T03:05:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-10 datetime="2024-05-10T04:06:48.000Z">2024-05-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-10 datetime="2024-05-10T04:06:48.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >律动BlockBeats</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/53434?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik新文：多维Gas定价落地，将带来更广泛的应用</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/53434?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：Multidimensional gas pricing
+原文作者：Vitalik Buterin
+原文编译：Asher，Odaily 星球日报 
+
+
+在以太坊网络中，资源都是通过 &quot;Gas &quot;这个单一资源来限制和定价的。Gas 是对处理特定交易或区块所需的 &quot;计算工作量 &quot;的衡量。Gas 融合了多种类型的 &quot;努力&quot;，其中最主要的有：
+
+
+· 原始计算（如 ADD, MULTIPLY )
+· 读写以太坊存储（如 SSTORE, SLOAD, ETH transfers）
+· 数据带宽
+· 生成区块 ZK-SNARK 证明的成本
+
+
+例如，这笔交易总共花费了 47085 Gas。这其中包括：(i) 21000 Gas 的 &quot;基本费用&quot;；(ii) 1556 Gas 用于作为交易一部分的 calldata 字节；(iii) 16500 Gas 用于读写存储；(iv) 2149 Gas 用于制作日志；其余用于执行 EVM。用户必须支付的交易费与交易消耗的 Gas 成正比。一个区块最多可包含 3000 万 Gas，Gas 价格通过 EIP-1559 目标机制不断调整，确保区块平均包含 1500 万 Gas。
+
+
+
+演示案例
+
+
+这种方法有一个主要优点：由于所有交易都合并到一个虚拟资源中，因此市场设计非常简单。优化交易以最小化成本很容易，优化区块以收取尽可能高的费用也相对容易（不包括 MEV），而且没有奇怪的激励机制鼓励某些交易与其他交易捆绑以节省费用。
+
+
+但这种方法也存在一个主要的低效率问题：它将不同的资源视为可以相互转换，而网络所能处理的实际基本限制却并非如此。理解这个问题的一种方法是看下图：
+
+
+
+
+
+如果 n 资源有明显的安全限制，那么一维 Gas 可能会使吞吐量降低高达 n 倍。因此，人们对多维 Gas 概念的兴趣由来已久，通过 EIP-4844 ，我们今天实际上…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/53433?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊核心开发者最新会议摘要：EIP-7702纳入疑虑、坊执行层序列化方法转换</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/53433?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文标题：《Ethereum All Core Developers Execution Call #187 Writeup》
+原文作者：Christine Kim
+原文编译：Luccy，BlockBeats
+编者按：
+以太坊所有核心开发者共识电话（ACDE）每两周举行一次，主要讨论和协调对以太坊执行层（EL）的更改。本次为 ACDE 第 187 次电话会议，本次会议上，开发者们就 Pectra Devnet 0 的准备工作、EIP 3074 的实施更新以及将执行层的序列化方法从 MPT 转换为 SSZ 的紧迫性进行了讨论。
+除了针对 Pectra Devnet 0 的准备工作外，开发者们还探讨了新的 EIP 提案、对现有 EIP 的讨论和分析，以及对智能合约和交易的影响分析等。其中，对 EIP 7702 的讨论引起了与会者的广泛关注，该提案被视为取代 EIP 3074 的潜在方案。
+Galaxy Digital 研究副总裁 Christine Kim 对本次会议要点做了详细记录，BlockBeasts 将原文编译如下：
+
+2024 年 5 月 9 日，以太坊开发人员齐聚 Zoom 参加了 All Core Developers Execution (ACDE) call #187 会议。ACDE 电话会议是一个每两周举行一次的系列会议，由以太坊基金会协议支持主管 Tim Beiko 主持，开发人员在会上讨论和协调对以太坊执行层（EL）的更改。本周，开发者讨论了 Pectra Devnet 0 的准备工作，EIP 3074 实现的更新，以及将 EL 上的序列化方法从 MPT 转换为 SSZ 的紧迫性。
+
+
+Pectra Devnet-0 更新
+
+
+以太坊基金会开发者运营工程师 Barnabas Busa 表示，他的团队正在测试第一个 Pectra 开发者专注的测试网络的客户…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/53430?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">律动早报｜5月10日昨夜今晨重要资讯一览</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/53430?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Aevo 上线 Notcoin 期货交易
+5 月 9 日，据官方消息，Aevo 已上线 Notcoin（NOT）期货交易。
+
+
+Binance 新币挖矿上线第 54 期项目，使用 BNB、FDUSD 挖矿 Notcoin (NOT)
+5 月 9 日，据官方消息，Binance 新币挖矿上线第 54 期项目，使用 BNB、FDUSD 挖矿 Notcoin (NOT)。用户可以在 5 月 13 日 08:00（东八区时间）后在 Launchpool 网站 将 BNB、FDUSD 投入到 NOT 挖矿池中获得 NOT 奖励，NOT 共计可挖矿 3 天。网站预计将于此公告的大约二十四小时内，挖矿活动开放前更新。
+
+
+Binance 将于 5 月 16 日 20:00（东八区时间）上市 Notcoin (NOT)，并开通 NOT/BTC、NOT/USDT、NOT/BNB、NOT/FDUSD 和 NOT/TRY 交易市场，适用种子标签交易规则。
+
+
+以太坊联创：SEC 阻碍创新，加密技术威胁美国现有金融格局
+5 月 9 日，以太坊联创 Joseph Lubin 在 FT 加密货币和数字资产峰会上表示，美国证券交易委员会 (SEC) 故意阻碍创新，这威胁到了美国现有的金融格局。
+
+
+Joseph Lubin 称，SEC 会似乎已将以太坊重新归类为证券，他们正在采取一系列战略性执法行动，而不是公开讨论和明确的规则制定，「我认为他们担心如此多的注意力和资本会流向我们的生态系统，因为我们的生态系统在可扩展性和可用性方面正在取得巨大的进步。」
+
+
+比特币短时突破 62,000 美元
+5 月 9 日，据 OKX 行情信息，比特币短时突破 62,000 美元，现报价 62,003 美元。
+
+
+何一回应 WSJ 有关 DWF 报道：部分主流媒体文章带有情绪与偏见
+5 月 9 日，何一在其社交平台再度回…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249730?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">Runestone地板价暂报0.011 BTC，跌落NFT市值排行榜前十</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249730?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 10 日，据 Coingecko 数据，Runestone 地板价暂报 0.011 BTC（约合 682 美元），24 小时跌幅 13.1%。Runestone 市值暂报 7674 万美元，跌落 NFT 市值排行榜前十。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249728?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">FTX和Alameda持续清仓，一个月内合计清算近1亿美元资产</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249728?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 10 日，根据链上数据分析平台 Arkham 的最新监测，在过去一个月内，被标记的 FTX 和 Alameda Research 钱包合计向外转移并清算了价值 9735 万美元的加密资产。目前，FTX 仍持有价值 3385 万美元的 BOBA 代币和 1122 万美元的 ETH，以及超过 78% 的 FTT 代币供应量。而 Alameda 的主要持仓包括价值 1.4 亿美元的 WLD、1.02 亿美元的 BIT、9300 万美元的 BTC 以及 4800 万美元的 STG。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249724?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">苹果将于今年推出自研服务器芯片，为AI工具提供支持</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249724?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 10 日，据知情人士透露，苹果公司计划于今年秋季推出搭载自研服务器芯片的 AI 工具。这些高端芯片性能与 Mac 电脑相当，将被用于数据中心，处理即将登陆苹果设备的最先进 AI 任务。而相对简单的 AI 功能则会直接在 iPhone、iPad 和 Mac 上进行处理。这是苹果雄心勃勃的 AI 战略的一部分，旨在为其设备注入 AI 能力。知情人士称，苹果最初于三年前制定了这一使用自研芯片并在云端处理 AI 任务的计划，但在 ChatGPT 和 Google Gemini 引发的 AI 热潮的推动下，苹果加快了推进步伐。首批 AI 服务器芯片将采用去年发布的 M2 Ultra，未来还将基于 M4 芯片推出新版本。相对简单的 AI 任务（如为用户提供未接来电或短信摘要）可由苹果设备内部芯片处理，而更复杂的工作（如生成图像、总结长篇新闻文章、撰写电子邮件回复等）则可能需要采用基于云的方式。这一转变标志着苹果策略的改变，多年来苹果一直重视设备端处理以确保安全和隐私。但参与研发的人士称，苹果芯片中的安全区域（Secure Enclave）可以在云端处理的同时保护用户隐私。iOS 18 即将于今秋推出，届时苹果将进一步披露其 AI 战略的更多细节。（彭博社）</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249723?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">路透社：OpenAI将于下周一推出ChatGPT搜索产品，剑指Google</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249723?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 10 日，据知情人士透露，微软支持的人工智能公司 OpenAI 计划于下周一正式推出其 ChatGPT 搜索产品，与搜索巨头 Google 展开正面竞争。消息人士称，此次发布时间或有变动，但 OpenAI 有意选在 Google 年度 I/O 大会的前一天发布重磅产品。据悉，OpenAI 的搜索产品是其旗舰 ChatGPT 聊天机器人的延伸，可直接从网络获取信息并提供引用出处。业内人士一直将 ChatGPT 视为在线信息搜集的替代选择，尽管其在提供准确、实时的网络信息方面仍有不足。与此同时，估值 10 亿美元的初创公司 Perplexity 凭借其原生 AI 搜索界面和丰富的搜索结果展示，已吸引了 1000 万月活跃用户。而 ChatGPT 近期的全球访问量经历了大幅波动，OpenAI 亟需扩大其用户基数。此前，OpenAI 曾尝试通过名为 ChatGPT 插件的功能为其注入实时信息，但该功能已于 4 月下线。周一的新品发布，将是 OpenAI 在 AI 搜索领域向 Google 发起的新一轮冲击。（路透社）</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249721?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">Eclipse创始人Neel Somani否认性骚扰指控，宣布暂时淡出公众视野</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249721?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 10 日，以太坊首个 SVM Layer2 网络 Eclipse 创始人兼 CEO Neel Somani 通过推特发布声明，否认了近期在社交媒体上针对其的性骚扰指控。Somani 表示，自己从未对任何女性实施性侵犯或性骚扰，sexual misconduct 是一个普遍且严肃的社会问题，自己无意通过否认这些不实指控来淡化问题的严重性。为避免此事件影响 Eclipse 团队、投资者以及开发者生态的声誉，Somani 宣布将暂时淡出 Eclipse 的公众代言人角色，由高管团队接任相关职责。Somani 强调，有关性不当行为的讨论非常重要，相关声音不应被压制。他期待通过自己的行为证明这些指控的虚假性，并已做好捍卫自己声誉的准备。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249720?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">BlockFi宣布与Coinbase合作分发数字资产，平台即将关闭</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249720?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 10 日，加密货币贷款平台 BlockFi 宣布与 Coinbase 达成合作，后者将作为 BlockFi 的分发合作伙伴，以确保符合条件的 BlockFi 利息账户（BIA）、零售贷款和私人客户能够继续提取加密资产。BlockFi 表示，对于在规定时间内未能从 BlockFi 平台提取数字资产的客户，这些资产将通过 Coinbase 账户继续提供提取。如果客户未在 Coinbase 开设获批账户，其应得的数字资产可能会被清算为现金。此外，BlockFi 网络平台将于 2024 年 5 月关闭，具体日期尚未确定。BlockFi 建议客户在关闭日期之前下载其交易历史、税务表格和其他重要数据。BlockFi 强调不会与任何其他提供商合作进行数字资产分发，并提醒客户警惕第三方不法分子的诈骗企图。客户沟通将仅通过官方电子邮件渠道、社交媒体 @BlockFi 以及破产管理人 Kroll 等进行。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/53429?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">读懂Binance Launchpool最新项目Notcoin：助理TON生态破圈的meme币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/53429?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>编者按：5 月 9 日，据官方消息，Binance 新币挖矿上线第 54 期项目，使用 BNB、FDUSD 挖矿 Notcoin (NOT)。用户可以在 5 月 13 日 08:00（东八区时间）后在 Launchpool 网站 将 BNB、FDUSD 投入到 NOT 挖矿池中获得 NOT 奖励，NOT 共计可挖矿 3 天。
+据公告，Notcoin代币最大供应量为102,719,221,714 NOT，初始流通即完全解锁，挖矿总量：3,081,576,651 NOT（代币最大供应量的 3%）。Binance 将于 5 月 16 日 20:00（东八区时间）上市 Notcoin (NOT)，并开通 NOT/BTC、NOT/USDT、NOT/BNB、NOT/FDUSD 和 NOT/TRY 交易市场，适用种子标签交易规则。
+
+
+原文标题：《病毒式传播的 Notcoin，能否成为 Ton 生态破圈的 meme 币？》
+原文作者：Alfre、LD Capital
+
+
+一、背靠 9 亿月活的 TON
+
+
+The Open Netwotk(TON) 原名 Telegram Open Network，由 Telegram 团队在 2018 年创建，在 ICO 时代受到 SEC 指控进行了未经注册的证券发行后，Telegram 团队支付了罚款达成和解并放弃了该项目，由社区 TON Foundation 继续开发与运营。虽然与 Telegram 在名义上进行了脱离，但是二者的实际联系依然直接，TON 一直是 Telegram 明牌官方支持的唯一的公链并持续与 Telegram 深度集成，TON 将持续受益于 Telegram 巨大的用户基础和流量入口，Telegram 将通过支持 TON 来构建一个具有自由，隐私的去中心化数字生态。
+
+
+Telegram 以坚持言论自由和保护隐私的主张吸引了全…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249717?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">DCG公布Q1财报，收入同比增长51%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249717?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 10 日，Digital Money Group（DCG）公布 Q1 财报，受加密货币价格上涨的推动，其第一季度收入为 2.29 亿美元，同比增长 51%。此外，DCG 最大的子公司 Grayscale 的收入为 1.56 亿美元，与上一季度持平。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/249711?t&#x3D;binance"
+                        open
+                      >
+                        <summary class="article-expander__title">Binance新币挖矿上线第54期项目，使用BNB、FDUSD挖矿Notcoin (NOT)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249711?t&#x3D;binance">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，5 月 9 日，据官方消息，Binance 新币挖矿上线第 54 期项目，使用 BNB、FDUSD 挖矿 Notcoin (NOT)。用户可以在 5 月 13 日 08:00（东八区时间）后在 Launchpool 网站 将 BNB、FDUSD 投入到 NOT 挖矿池中获得 NOT 奖励，NOT 共计可挖矿 3 天。网站预计将于此公告的大约二十四小时内，挖矿活动开放前更新。Binance 将于 5 月 16 日 20:00（东八区时间）上市 Notcoin (NOT)，并开通 NOT/BTC、NOT/USDT、NOT/BNB、NOT/FDUSD 和 NOT/TRY 交易市场，适用种子标签交易规则。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +366,284 @@
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368742"
+                        open
+                      >
+                        <summary class="article-expander__title">美国比特币现货ETF昨日总净流出1128.53万美元，ETF净资产比率达4.18%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368742">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 根据 SoSoValue 数据，昨日（美东时间 5 月 9 日）美国比特币现货 ETF 总净流出 1128.53 万美元。昨日灰度（Grayscale）ETF GBTC 单日净流出 4335.22 万美元，目前 GBTC 历史净流出为 175.30 亿美元。
+昨日单日净流入最多的比特币现货 ETF 为贝莱德（BlackRock）ETF IBIT，单日净流入为 1419.46 万美元，目前 IBIT 历史总净流入达 154.90 亿美元。其次为 Bitwise ETF BITB，单日净流入为 679.41 万美元，目前 BITB 历史总净流入达 17.65 亿美元。
+截止发稿前，比特币现货 ETF 总资产净值为 516.11 亿美元，ETF 净资产比率（市值较比特币总市值占比）达 4.18%，历史累计净流入已达 117.62 亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368741"
+                        open
+                      >
+                        <summary class="article-expander__title">PeckShield：WOOFi攻击者地址已将100枚ETH转移至Tornado cash</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368741">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据 PeckShield 监测，WOOFi 攻击者地址已将 100 枚 ETH 转移至 Tornado cash。
+WOOFi 攻击者已经向 Tornado cash 转移了 2200 枚 ETH（价值约 650 万美元）。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5195128"
+                        open
+                      >
+                        <summary class="article-expander__title">Pantera：为什么TON会成为我们的头号重仓？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5195128">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>先有社区，再造产品，这是最简单的“逆向操作”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368740"
+                        open
+                      >
+                        <summary class="article-expander__title">Bluefin与Amber Group达成战略合作</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368740">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 去中心化合约交易协议 Bluefin 宣布与 Amber Group 达成战略合作。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368739"
+                        open
+                      >
+                        <summary class="article-expander__title">拉美电商巨头Mercado Libre替用户持有超4000万美元加密货币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368739">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 根据 Mercado Libre 2024 年第一季度的报告，Mercado Libre 作为拉丁美洲最大的电子商务平台之一，披露其持有超过 4000 万美元的加密货币。截至 3 月 31 日，该公司持有 412.7 枚比特币和 3041.6 枚以太坊。
+然而，Mercado Libre 并不拥有这些资产，正如其首席信息官 Richard Cathcart 所解释的那样，他表示公司在 2023 年已将其加密货币进行了清算。Cathcart 表示：“这份报告反映了我们为用户提供购买、持有和出售服务的事实。但目前，我们自己并没有持有这些资产。”（Bitcoin.com）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368737"
+                        open
+                      >
+                        <summary class="article-expander__title">某巨鲸5小时前买入140万枚WIF</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368737">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据 Lookonchain 监测，5 小时前，某巨鲸以 2.99 美元的价格花费 420 万枚 USDC 购买了 140 万枚 WIF。
+这位鲸鱼是 WIF 的早期交易者，在 WIF 上总共获利超过 800 万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368736"
+                        open
+                      >
+                        <summary class="article-expander__title">Bitget每日行情资讯：UNIBOT 24小时涨幅20.66%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368736">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 Bitget 行情显示，5 月 10 日领涨板块分别 Bot、Solana 以及 Meme 专区板块，其中 UNIBOT 24 小时涨幅 20.66%，MYRO 24 小时涨幅 10.66%，TURBO 24 小时涨幅 47.65%。
+截止发稿，实时涨幅榜单前三的币种分别为 MOVER、ROSX、KATT。成交额榜单前三的币种分别为 BTC、ETH、DOGE。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368735"
+                        open
+                      >
+                        <summary class="article-expander__title">GMX：新提案拟将GMX V2引入Solana以推出GMSOL项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368735">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 去中心化衍生品协议 GMX 的社区发起一项提案，拟将 GMX V2 引入 Solana 以推出 GMSOL 项目。根据该提案，在与 GMX 核心贡献者的密切沟通和社区反馈的指导下，相关项目团队完成了 GMSOL 基本框架的构建，为了确保最高标准的安全性和可靠性，GMSOL 在正式部署在 Solana 网络上之前将经过多轮审核。
+根据提案描述，GMSOL 将作为一个独立项目运营，同时与 GMX 保持密切关系。所有价值测量和存储都将专门使用 GMX 代币。GMX 将实行回购机制。很大一部分费用将用于回购 GMX，从而建立 GMSOL Treasury。GMSOL Treasury 将接受 GMX DAO 的监督。将引入 GMSOL 积分，得预铸或预售 GMSOL 积分，GMSOL 积分的具体规则将在 GMSOL 正式上线前公布。GMSOL 金库将为 GMSOL 积分提供价值支持。GMSOL 不需要任何风险投资的资金，所有初始技术开发和运营成本均由该项目团队自己承担。
+该提案要求 GMX DAO 承担 GMSOL 的潜在审计费用，并授予复制、使用和前端代码的许可证。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368734"
+                        open
+                      >
+                        <summary class="article-expander__title">美国比特币现货ETF昨日净流出1100万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368734">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据 HODL15Capital 监测数据显示，昨日（5 月 9 日）美国比特币 ETF 净流出 1100 万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5195094"
+                        open
+                      >
+                        <summary class="article-expander__title">模块化被忽视的领域：执行、结算与聚合层</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5195094">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>就关注度和创新性而言，模块化堆栈的各个组成部分并非都一样。虽然此前有许多项目在数据可用性 (DA) 和排序层上进行了创新，但直到最近，执行层和结算层才作为模块化堆栈的一部分被重视起来。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368733"
+                        open
+                      >
+                        <summary class="article-expander__title">昨日贝莱德IBIT净流入1400万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368733">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据 HODL15Capital 监测数据显示，贝莱德 IBIT 昨日（5 月 9 日）净流入 1400 万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368732"
+                        open
+                      >
+                        <summary class="article-expander__title">Axie Infinity日活跃地址数24H跌幅超20%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368732">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 根据链上数据，Axie Infinity 日活跃地址数下降至 3.2 万，24H 跌幅为 21.34%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/368731"
+                        open
+                      >
+                        <summary class="article-expander__title">符文DOG•GO•TO•THE•MOON市值暂居第一</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/368731">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据 Ord.io 在X体平台发布按市值排名前 10 位的符文： 
+-DOG•GO•TO•THE•MOON：2.807 亿美元，增加 4.3%； 
+-PUPS•WORLD•PEACE：1.979 亿美元，减少 57.8%； 
+-RSIC•GENESIS•RUNE：1.971 亿美元，减少 12.5%； 
+-DECENTRALIZED：4410 万美元，减少 1.2%； 
+-EPIC•EPIC•EPIC•EPIC：4390 万美元，减少 6.5%； 
+-SATOSHI•NAKAMOTO：3420 万美元，减少 5.6%； 
+-Z•Z•Z•Z•Z•FEHU•Z•Z•Z•Z•Z：2610 万美元，增加 4.3%； 
+-ZBIT•BLUE•BITCOIN：1760 万美元，减少 2.5%； 
+-LOBO•THE•WOLF•PUP：1440 万美元，减少 13.3%； 
+-WADDLE•WADDLE•PENGU：1420 万美元，增加 61.8%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1386,6 +1963,198 @@ Richard Teng 一份声明中表示，相关律师被要求在 48 小时内以加
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/th60or5w.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美国比特币现货ETF昨日总净流出1128.53万美元，ETF净资产比率达4.18%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/th60or5w.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，根据 SoSoValue 数据，昨日（美东时间 5 月 9 日）比特币现货 ETF 总净流出 1128.53 万美元。昨日灰度（Grayscale）ETF GBTC 单日净流出 4335.22 万美元，目前 GBTC 历史净流出为 175.30 亿美元。
+昨日单日净流入最多的比特币现货 ETF 为贝莱德（BlackRock）ETF IBIT，单日净流入为 1419.46 万美元，目前 IBIT 历史总净流入达 154.90 亿美元。其次为 Bitwise ETF BITB，单日净流入为 679.41 万美元，目前 BITB 历史总净流入达 17.65 亿美元。
+截止发稿前，比特币现货 ETF 总资产净值为 516.11 亿美元，ETF 净资产比率（市值较比特币总市值占比）达 4.18%，历史累计净流入已达 117.62 亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/gn4fq17z.html"
+                        open
+                      >
+                        <summary class="article-expander__title">日本Web3公司Metaplanet于4月份再次购入19.87枚比特币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/gn4fq17z.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，日本Web3基础设施提供商Metaplanet在X平台披露，其已于4月23日额外购入19.87枚比特币。
+此前4月初消息，Metaplanet效仿MicroStrategy，购买价值656万美元的比特币。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/j68vg7jw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Tether抨击德意志银行暗示其稳定币可能会失败的报告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/j68vg7jw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，据Cointelegraph报道，稳定币巨头Tether对德意志银行发布的一份报告进行了猛烈抨击。该报告称，包括Tether在内的稳定币可能面临“比索危机”，对加密货币行业构成威胁。Tether指出，将其与算法稳定币Terra相比是误导性的，与储备支持型稳定币的讨论无关。
+德意志银行的分析报告以TerraUSD的崩溃为例，对美元挂钩稳定币产品提出了批评。报告还指出，约半数的固定汇率货币在八到十年内失败，且42%的欧洲消费者认为稳定币将失败。然而，Tether发言人表示，报告缺乏实质性证据，依赖模糊断言，未能提供具体数据支持其主张。
+此外，Tether还质疑德意志银行的信誉，指出其因罚款和处罚记录而失去批评他人的立场。尽管面临质疑，Tether已发布多项财务证明，显示其储备超过1100亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/5tqm8btl.html"
+                        open
+                      >
+                        <summary class="article-expander__title">分析：Pantera对TON的投资金额或至少超2.5亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/5tqm8btl.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，链上分析师@ai_9684xtpa在X平台表示，Pantera Capital曾投资2.5亿美元从FTX Estate处以折扣价买入SOL，买入价格为低于30天平均价格39%或固定价格59.95美元，归属期长达四年。如果TON的投资是基金史上最大规模投资属实，投入资金将至少超过2.5亿美元。
+此前消息，Pantera创始人表示，对TON的投资是Pantera史上最大规模的投资。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/08sikcbj.html"
+                        open
+                      >
+                        <summary class="article-expander__title">拉美电商巨头Mercado Libre代表其用户持有价值超4000万美元的加密货币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/08sikcbj.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，据Bitcoin.com报道，根据Mercado Libre 2024年第一季度的报告，Mercado Libre作为拉丁美洲最大的电子商务平台之一，披露其持有超过4000万美元的加密货币。截至3月31日，该公司持有412.7枚比特币和3041.6枚以太坊。然而，Mercado Libre并不拥有这些资产，正如其首席信息官Richard Cathcart所解释的那样，他表示公司在2023年已将其加密货币进行了清算。Cathcart表示这份报告“反映了我们为用户提供购买、持有和出售服务的事实。但目前，我们自己并没有持有这些资产。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/fwxduxc8.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一巨鲸5小时前花费420万枚USDC买入140万枚WIF</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/fwxduxc8.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，据Lookonchain监测，5小时前，一巨鲸花费420万枚USDC以2.99美元均价购买了140万枚WIF 。
+该巨鲸是WIF的早期交易者，在WIF上赚取了超过800万美元的总利润。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/gu8eu4tv.html"
+                        open
+                      >
+                        <summary class="article-expander__title">GMX社区新提案拟将GMX V2引入Solana以推出GMSOL项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/gu8eu4tv.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，去中心化衍生品协议GMX的社区发起一项提案，拟将GMX V2引入Solana以推出GMSOL项目。根据该提案，在与GMX核心贡献者的密切沟通和社区反馈的指导下，相关项目团队完成了GMSOL基本框架的构建，为了确保最高标准的安全性和可靠性，GMSOL在正式部署在Solana网络上之前将经过多轮审核。
+根据提案描述，GMSOL将作为一个独立项目运营，同时与GMX保持密切关系。所有价值测量和存储都将专门使用GMX代币。GMX将实行回购机制。很大一部分费用将用于回购GMX，从而建立GMSOL Treasury。GMSOL Treasury将接受GMX DAO的监督。将引入GMSOL积分，得预铸或预售GMSOL积分，GMSOL积分的具体规则将在GMSOL正式上线前公布。GMSOL金库将为GMSOL积分提供价值支持。GMSOL不需要任何风险投资的资金，所有初始技术开发和运营成本均由该项目团队自己承担。
+该提案要求GMX DAO承担GMSOL的潜在审计费用，并授予复制、使用和前端代码的许可证。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/5um60rhd.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Qtum推出AI图像生成器“Qurator”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/5um60rhd.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，据官方消息，Qtum开发者发布了“Qurator”，这是一款由10,000个Nvidia GPU支持的AI图像生成器。它使用开源模型，允许用户根据文本提示生成图像。
+此前消息，Qtum基金会表示，将从加密货币挖矿运营商转型为AI聊天机器人和图像运营商。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/0vy7beev.html"
+                        open
+                      >
+                        <summary class="article-expander__title">0L Network强制硬分叉引发社区争议，被控其无预警“没收”投资者七位数资产</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/0vy7beev.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 5月10日消息，X平台用户@nn_blossoms爆料，Libra分叉项目0L Network团队近期在未充分告知社区的情况下强制进行了硬分叉，导致约4%的代币供应量被销毁，部分持币用户的钱包资产也受到波及，涉及金额高达7位数（以美元计算）。
+根据其描述，0L Network此次硬分叉的原因是发现一名“离经叛道”的核心成员利用合约漏洞提前解锁了大量代币。但争议在于，项目方对此漏洞早有知悉，且当时并未予以重视和修复。直到代币价格大幅上涨后，团队才仓促决定通过分叉来销毁这部分“违规”解锁的代币，但同时也波及到不少此前通过OTC合规购得代币的无辜用户。
+@nn_blossoms表示，自己作为早期的OTC购币者之一，两年前就以147万美元的价格购入了一批0L代币，如今却遭遇团队“踢出”的待遇。他指责项目方在分叉前并未给予充分的信息披露和补偿方案，也未给受影响用户任何申诉的机会，行为极不负责任。此外，@nn_blossoms还质疑0L Network背后团队的道德和专业性，称其领导者0D实为曾被美国证监会 (SEC) 指控欺诈的Lucas Geiger。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/rnigtbo4.html"
                         open
                       >
@@ -2360,227 +3129,6 @@ Uyeda是现货比特币ETF的支持者，并反对美国证券交易委员会拒
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>来源链接</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >律动BlockBeats</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/53430?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">律动早报｜5月10日昨夜今晨重要资讯一览</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/53430?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Aevo 上线 Notcoin 期货交易
-5 月 9 日，据官方消息，Aevo 已上线 Notcoin（NOT）期货交易。
-
-
-Binance 新币挖矿上线第 54 期项目，使用 BNB、FDUSD 挖矿 Notcoin (NOT)
-5 月 9 日，据官方消息，Binance 新币挖矿上线第 54 期项目，使用 BNB、FDUSD 挖矿 Notcoin (NOT)。用户可以在 5 月 13 日 08:00（东八区时间）后在 Launchpool 网站 将 BNB、FDUSD 投入到 NOT 挖矿池中获得 NOT 奖励，NOT 共计可挖矿 3 天。网站预计将于此公告的大约二十四小时内，挖矿活动开放前更新。
-
-
-Binance 将于 5 月 16 日 20:00（东八区时间）上市 Notcoin (NOT)，并开通 NOT/BTC、NOT/USDT、NOT/BNB、NOT/FDUSD 和 NOT/TRY 交易市场，适用种子标签交易规则。
-
-
-以太坊联创：SEC 阻碍创新，加密技术威胁美国现有金融格局
-5 月 9 日，以太坊联创 Joseph Lubin 在 FT 加密货币和数字资产峰会上表示，美国证券交易委员会 (SEC) 故意阻碍创新，这威胁到了美国现有的金融格局。
-
-
-Joseph Lubin 称，SEC 会似乎已将以太坊重新归类为证券，他们正在采取一系列战略性执法行动，而不是公开讨论和明确的规则制定，「我认为他们担心如此多的注意力和资本会流向我们的生态系统，因为我们的生态系统在可扩展性和可用性方面正在取得巨大的进步。」
-
-
-比特币短时突破 62,000 美元
-5 月 9 日，据 OKX 行情信息，比特币短时突破 62,000 美元，现报价 62,003 美元。
-
-
-何一回应 WSJ 有关 DWF 报道：部分主流媒体文章带有情绪与偏见
-5 月 9 日，何一在其社交平台再度回…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249730?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">Runestone地板价暂报0.011 BTC，跌落NFT市值排行榜前十</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249730?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 10 日，据 Coingecko 数据，Runestone 地板价暂报 0.011 BTC（约合 682 美元），24 小时跌幅 13.1%。Runestone 市值暂报 7674 万美元，跌落 NFT 市值排行榜前十。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249728?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">FTX和Alameda持续清仓，一个月内合计清算近1亿美元资产</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249728?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 10 日，根据链上数据分析平台 Arkham 的最新监测，在过去一个月内，被标记的 FTX 和 Alameda Research 钱包合计向外转移并清算了价值 9735 万美元的加密资产。目前，FTX 仍持有价值 3385 万美元的 BOBA 代币和 1122 万美元的 ETH，以及超过 78% 的 FTT 代币供应量。而 Alameda 的主要持仓包括价值 1.4 亿美元的 WLD、1.02 亿美元的 BIT、9300 万美元的 BTC 以及 4800 万美元的 STG。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249724?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">苹果将于今年推出自研服务器芯片，为AI工具提供支持</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249724?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 10 日，据知情人士透露，苹果公司计划于今年秋季推出搭载自研服务器芯片的 AI 工具。这些高端芯片性能与 Mac 电脑相当，将被用于数据中心，处理即将登陆苹果设备的最先进 AI 任务。而相对简单的 AI 功能则会直接在 iPhone、iPad 和 Mac 上进行处理。这是苹果雄心勃勃的 AI 战略的一部分，旨在为其设备注入 AI 能力。知情人士称，苹果最初于三年前制定了这一使用自研芯片并在云端处理 AI 任务的计划，但在 ChatGPT 和 Google Gemini 引发的 AI 热潮的推动下，苹果加快了推进步伐。首批 AI 服务器芯片将采用去年发布的 M2 Ultra，未来还将基于 M4 芯片推出新版本。相对简单的 AI 任务（如为用户提供未接来电或短信摘要）可由苹果设备内部芯片处理，而更复杂的工作（如生成图像、总结长篇新闻文章、撰写电子邮件回复等）则可能需要采用基于云的方式。这一转变标志着苹果策略的改变，多年来苹果一直重视设备端处理以确保安全和隐私。但参与研发的人士称，苹果芯片中的安全区域（Secure Enclave）可以在云端处理的同时保护用户隐私。iOS 18 即将于今秋推出，届时苹果将进一步披露其 AI 战略的更多细节。（彭博社）</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249723?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">路透社：OpenAI将于下周一推出ChatGPT搜索产品，剑指Google</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249723?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 10 日，据知情人士透露，微软支持的人工智能公司 OpenAI 计划于下周一正式推出其 ChatGPT 搜索产品，与搜索巨头 Google 展开正面竞争。消息人士称，此次发布时间或有变动，但 OpenAI 有意选在 Google 年度 I/O 大会的前一天发布重磅产品。据悉，OpenAI 的搜索产品是其旗舰 ChatGPT 聊天机器人的延伸，可直接从网络获取信息并提供引用出处。业内人士一直将 ChatGPT 视为在线信息搜集的替代选择，尽管其在提供准确、实时的网络信息方面仍有不足。与此同时，估值 10 亿美元的初创公司 Perplexity 凭借其原生 AI 搜索界面和丰富的搜索结果展示，已吸引了 1000 万月活跃用户。而 ChatGPT 近期的全球访问量经历了大幅波动，OpenAI 亟需扩大其用户基数。此前，OpenAI 曾尝试通过名为 ChatGPT 插件的功能为其注入实时信息，但该功能已于 4 月下线。周一的新品发布，将是 OpenAI 在 AI 搜索领域向 Google 发起的新一轮冲击。（路透社）</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249721?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">Eclipse创始人Neel Somani否认性骚扰指控，宣布暂时淡出公众视野</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249721?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 10 日，以太坊首个 SVM Layer2 网络 Eclipse 创始人兼 CEO Neel Somani 通过推特发布声明，否认了近期在社交媒体上针对其的性骚扰指控。Somani 表示，自己从未对任何女性实施性侵犯或性骚扰，sexual misconduct 是一个普遍且严肃的社会问题，自己无意通过否认这些不实指控来淡化问题的严重性。为避免此事件影响 Eclipse 团队、投资者以及开发者生态的声誉，Somani 宣布将暂时淡出 Eclipse 的公众代言人角色，由高管团队接任相关职责。Somani 强调，有关性不当行为的讨论非常重要，相关声音不应被压制。他期待通过自己的行为证明这些指控的虚假性，并已做好捍卫自己声誉的准备。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249720?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">BlockFi宣布与Coinbase合作分发数字资产，平台即将关闭</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249720?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 10 日，加密货币贷款平台 BlockFi 宣布与 Coinbase 达成合作，后者将作为 BlockFi 的分发合作伙伴，以确保符合条件的 BlockFi 利息账户（BIA）、零售贷款和私人客户能够继续提取加密资产。BlockFi 表示，对于在规定时间内未能从 BlockFi 平台提取数字资产的客户，这些资产将通过 Coinbase 账户继续提供提取。如果客户未在 Coinbase 开设获批账户，其应得的数字资产可能会被清算为现金。此外，BlockFi 网络平台将于 2024 年 5 月关闭，具体日期尚未确定。BlockFi 建议客户在关闭日期之前下载其交易历史、税务表格和其他重要数据。BlockFi 强调不会与任何其他提供商合作进行数字资产分发，并提醒客户警惕第三方不法分子的诈骗企图。客户沟通将仅通过官方电子邮件渠道、社交媒体 @BlockFi 以及破产管理人 Kroll 等进行。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/53429?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">读懂Binance Launchpool最新项目Notcoin：助理TON生态破圈的meme币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/53429?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>编者按：5 月 9 日，据官方消息，Binance 新币挖矿上线第 54 期项目，使用 BNB、FDUSD 挖矿 Notcoin (NOT)。用户可以在 5 月 13 日 08:00（东八区时间）后在 Launchpool 网站 将 BNB、FDUSD 投入到 NOT 挖矿池中获得 NOT 奖励，NOT 共计可挖矿 3 天。
-据公告，Notcoin代币最大供应量为102,719,221,714 NOT，初始流通即完全解锁，挖矿总量：3,081,576,651 NOT（代币最大供应量的 3%）。Binance 将于 5 月 16 日 20:00（东八区时间）上市 Notcoin (NOT)，并开通 NOT/BTC、NOT/USDT、NOT/BNB、NOT/FDUSD 和 NOT/TRY 交易市场，适用种子标签交易规则。
-
-
-原文标题：《病毒式传播的 Notcoin，能否成为 Ton 生态破圈的 meme 币？》
-原文作者：Alfre、LD Capital
-
-
-一、背靠 9 亿月活的 TON
-
-
-The Open Netwotk(TON) 原名 Telegram Open Network，由 Telegram 团队在 2018 年创建，在 ICO 时代受到 SEC 指控进行了未经注册的证券发行后，Telegram 团队支付了罚款达成和解并放弃了该项目，由社区 TON Foundation 继续开发与运营。虽然与 Telegram 在名义上进行了脱离，但是二者的实际联系依然直接，TON 一直是 Telegram 明牌官方支持的唯一的公链并持续与 Telegram 深度集成，TON 将持续受益于 Telegram 巨大的用户基础和流量入口，Telegram 将通过支持 TON 来构建一个具有自由，隐私的去中心化数字生态。
-
-
-Telegram 以坚持言论自由和保护隐私的主张吸引了全…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249717?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">DCG公布Q1财报，收入同比增长51%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249717?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 10 日，Digital Money Group（DCG）公布 Q1 财报，受加密货币价格上涨的推动，其第一季度收入为 2.29 亿美元，同比增长 51%。此外，DCG 最大的子公司 Grayscale 的收入为 1.56 亿美元，与上一季度持平。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/249711?t&#x3D;binance"
-                        open
-                      >
-                        <summary class="article-expander__title">Binance新币挖矿上线第54期项目，使用BNB、FDUSD挖矿Notcoin (NOT)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/249711?t&#x3D;binance">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，5 月 9 日，据官方消息，Binance 新币挖矿上线第 54 期项目，使用 BNB、FDUSD 挖矿 Notcoin (NOT)。用户可以在 5 月 13 日 08:00（东八区时间）后在 Launchpool 网站 将 BNB、FDUSD 投入到 NOT 挖矿池中获得 NOT 奖励，NOT 共计可挖矿 3 天。网站预计将于此公告的大约二十四小时内，挖矿活动开放前更新。Binance 将于 5 月 16 日 20:00（东八区时间）上市 Notcoin (NOT)，并开通 NOT/BTC、NOT/USDT、NOT/BNB、NOT/FDUSD 和 NOT/TRY 交易市场，适用种子标签交易规则。</span>
                             </span>
                           </div>
                         </a>
@@ -38477,8 +39025,8 @@ Moonbeam 将于 5 月 11 日 8 时解锁 304 万枚 GLMR，价值约合 92.33 �
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/9026678120">
-        <time id="build-timestamp" datetime="2024-05-10T03:09:08.624Z">2024-05-10T03:09:08.624Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/9027129620">
+        <time id="build-timestamp" datetime="2024-05-10T04:10:17.779Z">2024-05-10T04:10:17.779Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
