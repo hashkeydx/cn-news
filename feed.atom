@@ -2,10 +2,237 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-05-10T11:08:07.463Z</updated>
+    <updated>2024-05-10T12:14:25.059Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SingularityDAO：第二轮Wisdomise TGE已启动上线]]></title>
+        <id>https://www.odaily.news/newsflash/368797</id>
+        <link href="https://www.odaily.news/newsflash/368797"/>
+        <updated>2024-05-10T12:02:52.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 SingularityDAO 在 X 平台宣布，Wisdomise TGE 第二轮已启动，为预留分配的 WSDM 代币发布已经上线。对于那些未能获得预留代币的用户，现在可以先到先得，SDAO 钻石级和黄金级会员将有资格在 TGE 启动后 24 小时内获得退款。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[同样是账户抽象提案，ERC-4337、EIP-3074和EIP-7702的差别在哪？]]></title>
+        <id>https://m.theblockbeats.info/news/53439?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53439?t=binance"/>
+        <updated>2024-05-10T12:00:01.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《Vitalik 为什么着急提出账户抽象新方案 EIP-7702？》
+原文作者：0xNatalie，ChainFeeds
+
+
+EIP-3074 已于今年 4 月被纳入以太坊的下一次硬分叉计划中，该提案通过允许外部拥有账户（EOA）将交易权限委托给智能合约，旨在为用户带来更便捷的体验。然而，这一功能也引起了社区的担忧，许多成员担心若签名被误用，会使整个账户资金面临风险，为钓鱼攻击者提供机会。为了进一步增强安全性，Vitalik Buterin 最近提出了 EIP-7702 作为 EIP-3074 的替代方案，引起了社区的广泛讨论。
+
+
+EIP-7702 引入了一种新的交易类型来提升账户抽象功能。这种新交易类型允许外部拥有账户（EOA）在交易过程中临时采用智能合约的特性，然后在交易结束后恢复其原始状态。那么同样都是账户抽象提案，ERC-4337、EIP-3074 和 EIP-7702 的差别在哪里？
+
+
+ERC-4337：应用层的账户抽象标准
+
+
+ERC-4337：使用 Alt Mempool 进行账户抽象。ERC-4337 由 Vitalik 提出，是应用层标准，主要目标是让智能合约账户具有 EOA 主动发起交易的特性。它通过引入一个名为 EntryPoint 的智能合约，使得智能合约可以表现得像是用户的账户，也就意味着用户操作类似账户的智能合约来管理他们的资产和交易。这样便可以实现复杂逻辑，如多签名、自动执行交易等。
+
+
+主要特点：
+
+
+· 无需硬分叉：ERC-4337 不需要通过硬分叉来实现，不需要对以太坊的协议进行任何修改。
+
+
+· 兼容性：这种方法与现有的 EOA 系统兼容，使得过渡更为平滑。
+
+
+· 目标：实现账户抽象，使智能合约可以作为账户来处理和验证交易。
+
+
+· 本质：让智能合约账户具有 EOA 主动发起交易的特性。
+
+
+EIP-3074：授权和代理…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浅谈Restaking赛道后续发展：AVS落地赋能为正途？]]></title>
+        <id>https://www.odaily.news/post/5195149</id>
+        <link href="https://www.odaily.news/post/5195149"/>
+        <updated>2024-05-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[如何看待Restaking行业现状以及后续可能性的变局？]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[贝莱德：截至5月9日IBIT持仓较前一日增加约227枚BTC]]></title>
+        <id>https://www.odaily.news/newsflash/368796</id>
+        <link href="https://www.odaily.news/newsflash/368796"/>
+        <updated>2024-05-10T11:56:33.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据贝莱德更新官方现货比特币交易所交易基金数据显示，截至 5 月 9 日，旗下 IBIT 的比特币持仓量为 274,550.1515 枚 BTC，较前一日增加 227.7684 枚 BTC，当前市值约合 17,109,561,852.46 美元，流通股数量仍为 481,720,000 份。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase发起的Stand With Crypto完成募资并推出美国大选游说组织PAC]]></title>
+        <id>https://www.odaily.news/newsflash/368795</id>
+        <link href="https://www.odaily.news/newsflash/368795"/>
+        <updated>2024-05-10T11:51:40.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Coinbase 发起的加密倡导机构 Stand With Crypto 推出针对美国大选的游说组织 PAC（政治行动委员会），并且从其 44 万名成员那里筹集资金，以支持对加密货币友好的政客，据悉筹集的资金将用于支持在 11 月美国大选中竞选众议院和参议院的两党候选人。（Theblock）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aave社区发起在Base Aave v3流动性池中添加AERO的温度检查提案]]></title>
+        <id>https://www.odaily.news/newsflash/368794</id>
+        <link href="https://www.odaily.news/newsflash/368794"/>
+        <updated>2024-05-10T11:51:09.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Snapshot 治理页面显示，Aave 社区发起“在 Base Aave v3 流动性池中添加 AERO”温度检查提案，称将 AERO 添加到 Base V3 上有助于多样化上市资产并改善用户体验。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bybit发布储备证明：BTC储备金比例为116%，ETH为106%]]></title>
+        <id>https://www.odaily.news/newsflash/368793</id>
+        <link href="https://www.odaily.news/newsflash/368793"/>
+        <updated>2024-05-10T11:43:57.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 加密货币交易所 Bybit 通过发布其储备证明审计，其中包括 40 种加密货币，其储备支持率超过 100%的加密货币包括：BTC、ETH、USDT、USDC、AGI、AGLA、APEX、APT、ATOM、AVAX、BEAM、BLUR、COMP、CRV、DAI、DOGE、DOT、DYDX、EOS、FET 、FTM、GALA、IMX、LDO、LINK、LTC、MANA、MATIC、MNT、OP、PEPE、RNDR、SAND、SHIB、SHRAP、SOL、SUSHI、UNI、WLD 和 XRP。
+主要币种的准备金率如下：
+-BTC：116%
+-ETH：106%
+-SOL：111%
+-USDT：107%
+-USDC：129%]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[债券代币化平台BlockInvest完成新一轮融资，Open Venture参投]]></title>
+        <id>https://www.odaily.news/newsflash/368792</id>
+        <link href="https://www.odaily.news/newsflash/368792"/>
+        <updated>2024-05-10T11:42:33.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 法国农业信贷银行支持的债券代币化平台 BlockInvest 宣布获得 Open Venture 的战略投资，以扩展代币化解决方案，BlockInvest 的现有支持者之一是意大利农业信贷银行，该银行是多项代币化计划的合作伙伴。BlockInvest 首席执行官 Lorenzo Rigatti 表示："即使代币化行业发展势头良好，但仅仅依靠开发颠覆性软件就想成为欧洲市场领导者是不够的，现在正是奠定公司未来发展基础的最佳时机"。（Ledgerinsights）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[稳定币USDe发行量突破23亿枚]]></title>
+        <id>https://www.odaily.news/newsflash/368791</id>
+        <link href="https://www.odaily.news/newsflash/368791"/>
+        <updated>2024-05-10T11:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Etherscan 数据显示，由 Ethena Labs 发行、基于以太坊的稳定币 USDe 发行量已达 2,300,687,978 枚。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitwise BITB截至5月9日持仓较前一日增加约109枚BTC]]></title>
+        <id>https://www.odaily.news/newsflash/368790</id>
+        <link href="https://www.odaily.news/newsflash/368790"/>
+        <updated>2024-05-10T11:37:18.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Bitwise 官方数据显示，截至当地时间 5 月 9 日，其比特币现货 ETF（BITB）持有 33,786.68 枚 BTC，持仓市值达到 2,105,536,412.17 美元，较前一日增加 109.02 BTC。
+当前 BITB 流通份额为 61,980,000 份。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[灰度GBTC截至5月9日持仓较前一日减少约12枚BTC]]></title>
+        <id>https://www.odaily.news/newsflash/368789</id>
+        <link href="https://www.odaily.news/newsflash/368789"/>
+        <updated>2024-05-10T11:34:44.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 灰度官方更新数据显示，截至当地时间 5 月 9 日，GBTC 持有 291,790.1922 枚 BTC，较前一交易日减少 11.9591 枚 BTC。
+此外，GBTC 的资产管理规模（非公认会计原则）为 18,224,024,898.01 美元，流通份额为 327,890,100 份。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[星球晚讯]]></title>
+        <id>https://www.odaily.news/newsflash/368788</id>
+        <link href="https://www.odaily.news/newsflash/368788"/>
+        <updated>2024-05-10T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 价值 93 亿美元的期权即将到期，BTC 最大痛点 61000 美元；
+2. 币安合约将下架 KNCUSD、 ICXUSD、XTZUSD、ROSEUSD 和 APEUSD 币本位永续合约；
+3. 韩国金管局：将在虚拟资产用户保护法中加入代币退市标准；
+4. Ethena 发布 2024 年路线图：将推动 DeFi、CeFi 和 TradFi 与 USDe 的融合；
+5. 美联储博斯蒂克：尽管时间不确定，但仍然认为美联储今年将进行一次降息。；
+6. Glassnode：ETH 长期持有者仍在等待更好的抛售位置，但当前价格接近短线买家的恐慌线；
+7. 币安和 KuCoin 于印度金融情报单位完成注册，系该国反洗钱单位首次批准海外加密货币相关实体；
+8. Ordinals 创始人：现有的 Rune 和 Meme 并不好，需要更多努力；
+9. 韩国比特币“泡菜溢价”自 4 月中旬以来稳步下降，从三月峰值 11.44%下降至当前 1.54%；
+10. Scroll 联创：未有资方撤资；
+11. 钓鱼 1155 枚 WBTC 团队正在向受害者转账大批量 ETH；
+12. Amber Group 向 Coinbase 转入 50 万枚 LDO；
+13. Greeks.live：本周加密市场较为弱势，成交量继续下跌，弱势仍在持续；
+14. SBF 接受去年 8 月以来首次媒体会面采访：坚称自己无罪，在狱中交易袋装大米；
+15. 财新：6 万枚比特币洗钱案主犯钱志敏英国归案，共犯今日将宣判。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Themis Protocol将携数百万美元国库ETH资产迁移至Blast网络]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ou1nqyf4.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ou1nqyf4.html"/>
+        <updated>2024-05-10T11:15:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月10日消息，老牌DeFi衍生品协议Themis Protocol 将于近期部署Blast L2 网络，助力“Blast Summer”。
+Themis是基于Blast 构建的去中心化衍生品交易平台。作为 DeFi 领域的老牌协议，Themis一直以高效、安全、透明的服务赢得用户信赖。早在 2023 年 9 月，就布局了衍生品交易板块，旗下产品涵盖Swap、质押、债券、衍生品交易等。
+回顾其发展史，2022 年 5 月在 BSC Chain 测试，2023 年 5 月在 Filecoin（FEVM）正式运行，随后在 2023 年 9 月推出多项重要举措，包括 ETH 债券上线、国库建设启动，50 倍杠杆交易内测版上线等。到 2024 年 4 月，国库ETH资产已超1200 枚。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scroll联创：未有资方撤资]]></title>
+        <id>https://www.odaily.news/newsflash/368787</id>
+        <link href="https://www.odaily.news/newsflash/368787"/>
+        <updated>2024-05-10T11:13:01.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Scroll 联创 Ye Zhang 于 X 平台回应“是否存在资方从 Scroll 撤资”询问，表示完全没有（该情况）。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scroll联创回应资方撤资传言：可靠消息是完全没有]]></title>
+        <id>https://m.theblockbeats.info/flash/249793?t=binance</id>
+        <link href="https://m.theblockbeats.info/flash/249793?t=binance"/>
+        <updated>2024-05-10T11:09:26.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，5 月 10 日，Scroll 联创 Ye Zhang 在社交媒体上回应「听说 Scroll 的资方撤资了？真假？谁有可靠消息？」的言论表示，可靠消息是完全没有。不知道哪里传出来完全莫须有的消息，TVL 升起来以后开始 FUD 来减少竞争么。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全链Layer M基础设施Bmaker获Stratified Capital的pre-seed轮投资]]></title>
+        <id>https://www.odaily.news/newsflash/368786</id>
+        <link href="https://www.odaily.news/newsflash/368786"/>
+        <updated>2024-05-10T11:09:06.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，全链 Layer M 基础设施 Bmaker 获得新加坡加密基金 Stratified Capital 的 pre-seed 轮投资。
+据悉，Bmaker 建造了安全性基于比特币一层网络的 permissionless verification channel，支持多链资产秒级交易；并实现了 BTC 在一层网络上质押、清算与赎回，让 De-Fi 产品与源生 BTC 交互成为可能。
+Bmaker 将致力成为超级中间层协议，成为联结主流公链、L2 和金融产品的去中心化桥梁。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[土耳其头部交易所Paribu将上线ETHFI]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/477s6n83.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/477s6n83.html"/>
+        <updated>2024-05-10T11:07:34.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月10日消息，土耳其头部交易所Paribu宣布，其Paribu Box平台已开始接受ether.fi(ETHFI)的存款业务。从今日17:00（当地时间）起，用户可以在该平台进行ETHFI的买卖交易。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Perp破局者，SynFutures如何引领新一轮DeFi创新？]]></title>
         <id>https://m.theblockbeats.info/news/53442?t=binance</id>
@@ -23265,103 +23492,6 @@ Visa的这一发现挑战了稳定币支持者的论点，即这些与美元等�
 支付平台Airwallex的EMEA执行总经理Pranav Sood在谈到这些数据时表示：“这表明稳定币作为支付工具的发展仍处于非常初级的阶段，这并不意味着它们没有长期潜力，因为我认为它们有。但短期和中期的重点需要放在确保现有系统运作得更好上。”]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国洛杉矶前市长Antonio Villaraigosa加入Coinbase担任政策顾问]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/8soqtpkd.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/8soqtpkd.html"/>
-        <updated>2024-05-06T00:12:18.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月6日消息，据Blockworks报道，洛杉矶前市长Antonio Villaraigosa已被聘请为Coinbase的政策顾问。Villaraigosa将加入Coinbase的全球咨询委员会。Coinbase首席政策官Faryar Shirzad表示，Villaraigosa将为Coinbase的领导团队提供建议，以推进全球经济自由。据报道，Villaraigosa不会代表Coinbase进行游说，只会建议该公司制定公平和稳健的监管框架，以便为美国客户提供服务，并指出加密货币参与者“需要监管保护” 。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特币网络交易已突破10亿笔]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/kj377qbi.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/kj377qbi.html"/>
-        <updated>2024-05-06T00:07:56.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月6日消息，据Cointelegraph报道，Clark Moody数据显示，比特币网络的第10亿笔交易已经完成，这笔交易产生于区块高度842,241处，时间为北京时间5月6日05:34:43。自2009年1月3日比特币的匿名创始人中本聪挖出网络上的第一个区块后，已经过去了15年零4个月零4天。这意味着在比特币存在的5603天里，平均每天进行了178475笔交易。然而，交易计数并不包括在闪电网络上进行的交易。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特币网络已处理超过10亿笔交易]]></title>
-        <id>https://www.odaily.news/newsflash/367814</id>
-        <link href="https://www.odaily.news/newsflash/367814"/>
-        <updated>2024-05-06T00:07:19.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Clark Moody 数据显示，比特币网络已正式处理超过 10 亿笔交易。
-Wicked 披露的数据显示，第 10 亿笔交易产生于区块高度 842,240（出块时间 5 月 6 日 05:26:57）。
-自 2009 年 1 月 3 日比特币匿名创始人中本聪挖出网络的第一个区块后，已经过去 15 年零 4 个月零 4 天。这意味着在比特币存在的 5603 天里，平均每天进行 178475 笔交易。然而，交易计数并不包括在闪电网络上进行的交易。（Cointelegraph）]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ordinals铭文累计费用收入超6800枚BTC]]></title>
-        <id>https://www.odaily.news/newsflash/367813</id>
-        <link href="https://www.odaily.news/newsflash/367813"/>
-        <updated>2024-05-06T00:03:57.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Dune 数据显示，比特币 NFT 协议 Ordinals 铭文铸造累计费用收入突破 6800 枚 BTC，当前为 6,800.1029 枚 BTC，约合 432,064,214 美元。当前铸造铭文总量达到 66,405,307 枚。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[过去24小时符文铸币占比特币所有交易的70.2%]]></title>
-        <id>https://www.odaily.news/newsflash/367812</id>
-        <link href="https://www.odaily.news/newsflash/367812"/>
-        <updated>2024-05-06T00:01:08.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Ord.io 在 X 平台发文表示，过去 24 小时内，符文（Runes）铸币占比特币所有交易的 70.2%。 
-1. DOPE•ASS•TICKER：267,955 枚； 
-2. EPIC•EPIC•EPIC•EPIC：100,000 枚； 
-3. THE•DONALD•TRUMP：9,076 枚。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解读印度区块链市场：投资活动相对低迷，税制改革最关键]]></title>
-        <id>foresightnews-article#59500</id>
-        <link href="https://foresightnews.pro/article/detail/59500"/>
-        <updated>2024-05-05T23:59:52.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>PANews</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[本周解锁数据一览：Heroes of Mavia将解锁价值超3000美元代币]]></title>
-        <id>https://m.theblockbeats.info/flash/249233?t=binance</id>
-        <link href="https://m.theblockbeats.info/flash/249233?t=binance"/>
-        <updated>2024-05-05T23:50:24.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，5 月 6 日，据 Token Unlocks 数据显示，本周 5 个项目将迎来代币一次性解锁，其中：
-
-Heroes of Mavia 将于 5 月 6 日 8 时解锁 766 万枚 MAVIA，价值约合 3148 万美元，占流通总量 24.29%；
-
-Hashflow 将于 5 月 7 日 8 时解锁 1362 万枚 HFT，价值约合 430 万美元，占流通总量 3.46%；
-
-Euler 将于 5 月 9 日 23 时 20 分解锁 6.794 万枚 EUL，价值约合 38.79 万美元，占流通总量 0.36%；
-
-1inch 将于 5 月 10 日 8 时解锁 1.5 万枚 1INCH，价值约合 5820 美元；
-
-Moonbeam 将于 5 月 11 日 8 时解锁 304 万枚 GLMR，价值约合 92.33 万美元，占流通总量 0.35%。
-
-此外，Aptos 将于 5 月 13 日（下周一）2 时解锁 1131 万枚 APT，价值约合 1.03 亿美元，占流通总量 2.64%。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PermaDAO 第 65 期周报｜管理公会通过三个新提案｜4.27-5.03]]></title>
-        <id>foresightnews-article#59513</id>
-        <link href="https://foresightnews.pro/article/detail/59513"/>
-        <updated>2024-05-05T23:45:45.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>PermaDAO</name>
         </author>
     </entry>
 </feed>
