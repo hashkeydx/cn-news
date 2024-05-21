@@ -2,10 +2,264 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-05-21T12:15:13.069Z</updated>
+    <updated>2024-05-21T13:11:15.678Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[福克斯记者：ETF发行人和交易所需在今天更新19b-4文件]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/u2m2z25r.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/u2m2z25r.html"/>
+        <updated>2024-05-21T13:07:39.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月21日消息，据福克斯记者Eleanor Terrett在Twitter上爆料，以太坊现货ETF发行人和交易所需在今天上午10:30（美东时间）之前更新19b-4文件。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Farcaster宣布支持Arbitrum链上交易]]></title>
+        <id>https://www.odaily.news/newsflash/370717</id>
+        <link href="https://www.odaily.news/newsflash/370717"/>
+        <updated>2024-05-21T13:07:01.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，Farcaster 现已支持 Arbitrum 交易，据悉双方将合作推出总奖池达 50 万灭源的 Buildathon 活动“Frame It”。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MANTA流动性代币vMANTA上线无手续费交易挖矿、循环借贷等场景]]></title>
+        <id>https://www.odaily.news/newsflash/370716</id>
+        <link href="https://www.odaily.news/newsflash/370716"/>
+        <updated>2024-05-21T13:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 官方消息，全链流动性协议 Bifrost 支持的 vMANTA，将借助 Gull Network、Monroe 实现无手续费交易挖矿、循环借贷。前不久，Bifrost 结合 LayerZero 在以太坊 Layer2 Manta Pacific 内，实现 MANTA 代币原生质押。用户可在 omni。ls 使用 Metamask 钱包质押 MANTA，无需跨链。
+质押完成后，用户可获得流动性代币 vMANTA。可在 Gull Network 无手续费交易 vMANTA，或提供流动性，获得挖矿奖励，也可在 Monroe 借出稳定币实现循环借贷。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solana链上钱包Phantom收购a16z支持的Bitski]]></title>
+        <id>https://www.odaily.news/newsflash/370715</id>
+        <link href="https://www.odaily.news/newsflash/370715"/>
+        <updated>2024-05-21T13:01:32.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Solana 链上钱包 Phantom 宣布已收购 a16z 支持的钱包即服务平台 Bitski，作为交易的一部分，Phantom 将为 Solana 带来“嵌入式钱包”功能，据悉这是 Phantom 的首次收购，但具体金额暂未披露。（Theblock）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[并行EVM：高性能Layer1的换心术]]></title>
+        <id>https://m.theblockbeats.info/news/53579?t=binance</id>
+        <link href="https://m.theblockbeats.info/news/53579?t=binance"/>
+        <updated>2024-05-21T13:00:01.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《并行 EVM：高性能 Layer1 的换心术》
+原文来源：小猪 Web3
+
+
+EVM：以太坊的核心
+
+
+
+
+
+EVM（Ethereum Virtual Machine, 以太坊虚拟机）是以太坊的核心，负责运行智能合约和处理交易。
+
+
+虚拟机通常用于真实计算机的虚拟化，通常由「虚拟机管理程序」（如 VirtualBox）或整个操作系统实例（如 Linux 的 KVM）进行虚拟化。它们必须分别提供实际硬件、系统调用和其他内核功能的软件抽象。
+
+
+EVM 在一个更有限的领域中运行：它只是一个计算引擎，因此提供了计算和存储的抽象，例如类似于 Java 虚拟机（JVM）规范。从高层次的角度来看，JVM 旨在提供与底层主机操作系统或硬件无关的运行时环境，从而实现跨各种系统的兼容性。同样，EVM 执行自己的字节码指令集，这些指令集通常由 Solidity 编译而成。
+
+
+EVM 是一个准图灵完备的状态机，"准 "是因为所有执行步骤都会消耗有限的资源 Gas，因此任何给定的智能合约执行都会限制在有限的计算步数内，避免了执行过程可能的死循环，从而导致整个以太坊平台停止的情况。
+
+
+EVM 没有调度功能，以太坊的执行模块从区块中取出一个个交易，EVM 负责依次去执行。执行的过程中会修改最新的世界状态，一笔交易执行完成后进行状态累加，到达区块完成后的最新的世界状态。下一区块的的执行时又严格依赖上一个区块执行后的世界状态，所以以太坊的交易线性执行过程无法很好的进行并行执行优化。
+
+
+
+
+
+从这个意义上说，以太坊协议约定交易按照顺序执行。虽然顺序执行确保了交易和智能合约能够以确定性顺序执行，保障了安全性，但在面临高负载的情况下，可能会导致网络拥堵和延迟，这也是为什么以太坊有极大的性能瓶颈，需要 Layer2 Rollup 扩容的原因。
+
+
+高性能 Layer1 的并行之道
+
+
+
+
+
+大多…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smart Layer推出ERC-5169协议标准，为RWA建立新的基础设施]]></title>
+        <id>https://www.odaily.news/newsflash/370678</id>
+        <link href="https://www.odaily.news/newsflash/370678"/>
+        <updated>2024-05-21T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，Smart Layer（SLN）通过 ERC-5169 和 TokenScrip 创造新的数字资产模型，为 RWA 资产上链发行建立新的代币标准。
+据悉，ERC-5169 引入代币前端可以改变代币更灵活的效用，让代币超越 DApp 成为自引用代币，通过 Smart Layer 协议的发行的 RWA 代币本身就是一个 DApp，SLN 代币持有者通过协议就可以真正的拥有资产的权益而不是必须通过一个 DApp，这将最大限度的为 RWA 资产发行和链上交易带来更多的可操作性和实用性，让用户可以直接通过代币便捷的在链上对 RWA 资产的操作。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[friend.tech这么凉，为什么还要炒FRIEND？]]></title>
+        <id>https://www.odaily.news/post/5195406</id>
+        <link href="https://www.odaily.news/post/5195406"/>
+        <updated>2024-05-21T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[FRIEND 是通往「FT meme」的入场券。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fox Business记者：ETH ETF发行方需在当地时间今日10:30前提交更新备案文件]]></title>
+        <id>https://www.odaily.news/newsflash/370714</id>
+        <link href="https://www.odaily.news/newsflash/370714"/>
+        <updated>2024-05-21T12:58:21.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Fox Business 记者 Eleanor Terrett 在 X 平台披露，以太坊 ETF 发行方/交易所需在当地时间今日 10:30 前提交 19b-4 备案文件更新，根据富达的最新消息，ETH 质押是行不通的，此外 S-1 方面有“一些”接触，但目前不清楚具体程度如何。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Van Buren Capital合伙人：美SEC将放弃ETH是证券的论点]]></title>
+        <id>https://www.odaily.news/newsflash/370713</id>
+        <link href="https://www.odaily.news/newsflash/370713"/>
+        <updated>2024-05-21T12:51:30.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Van Buren Capital 合伙人、美国知名金融律师 Scott Johnsson 在 X 平台发文称，富达申请的以太坊现货 ETF 已经表示不会质押 ETH，而更大的信号是商品授予者信托结构和披露没有变化，所有迹象都表明美国证券交易委员会将放弃 ETH 作为证券的论点。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[波场黑客松第六季完美收官成果颇丰]]></title>
+        <id>https://www.odaily.news/post/5195407</id>
+        <link href="https://www.odaily.news/post/5195407"/>
+        <updated>2024-05-21T12:46:02.000Z</updated>
+        <summary type="html"><![CDATA[本届大赛共吸引962支团队参赛， 汇聚众多创新型区块链项目。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scroll TVL突破5亿美元，续创历史新高]]></title>
+        <id>https://www.odaily.news/newsflash/370712</id>
+        <link href="https://www.odaily.news/newsflash/370712"/>
+        <updated>2024-05-21T12:38:03.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 L2beat 最新数据显示，随着 ETH 价格上涨推动多个 L2 网络 TVL 走高，ZK Rollup L2 网络 Scroll 总锁仓量（TVL）已突破 5 亿美元，当前触及约 5.5949 亿美元，续创历史新高，7 日增幅达到 36.46%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BNB Chain推出交易量激励计划，奖池高达25万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/q21araq4.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/q21araq4.html"/>
+        <updated>2024-05-21T12:37:52.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月21日消息，BNB Chain宣布推出交易量激励计划，旨在奖励交易爱好者和生态合作伙伴。该激励计划提供高达25万美元的奖金池，分为交易量挑战和交易排名赛两部分。第一部分交易量挑战注册期：2024 年 5 月 21 日至 2024 年 5 月 26 日 23:59（UTC 时间）竞赛期：2024 年 5 月 27 日 00:00 至 2024 年 6 月 25 日 23:59（UTC 时间）第二部分交易排名竞赛活动期：2024 年 5 月 27 日 00:00 至 2024 年 6 月 25 日 23:59（UTC 时间）。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LayerZero Labs澄清：成为Humanity Protocol验证节点与解决女巫活动无关]]></title>
+        <id>https://www.odaily.news/newsflash/370711</id>
+        <link href="https://www.odaily.news/newsflash/370711"/>
+        <updated>2024-05-21T12:35:49.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 LayerZero Labs 在 X 平台发文澄清：在 Humanity Protocol 平台上线并成为其验证节点与解决女巫活动无关。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitalik：超智能AI具有高风险性，不应仓促推进]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/t15ubjaw.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/t15ubjaw.html"/>
+        <updated>2024-05-21T12:33:31.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月21日消息，以太坊联合创始人Vitalik Buterin在X(Twitter)上分享了他对超智能AI和开源模型的看法。他认为：
+超智能AI具有高风险性，不应仓促推进，并应抵制那些推动此技术发展的人。他反对建立价值7万亿美元的服务器农场。
+强大的开源模型生态系统运行在消费级硬件上，是防止AI价值高度集中、控制大部分人类思想的有效对策。这些模型比企业和军队的垄断风险更低。
+将AI划分为“小”和“大”类别，并豁免小型AI，监管大型AI，从原则上来说是合理的。然而，他担心许多当前的提案最终会将所有内容滑入“大”类别。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nansen：ETH本周或将升至4000美元]]></title>
+        <id>https://www.odaily.news/newsflash/370710</id>
+        <link href="https://www.odaily.news/newsflash/370710"/>
+        <updated>2024-05-21T12:31:09.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 链上分析平台 Nansen 在 X 平台发文称，ETH 本周很有可能从 3000 美元升至 4000 美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[消息人士：美国SEC要求交易所微调以太坊ETF申请，以取得批准]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/k7femsp5.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/k7femsp5.html"/>
+        <updated>2024-05-21T12:28:21.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月21日消息，据消息人士透露，美国证券交易委员会（SEC）周一要求纳斯达克和芝加哥期权交易所修改以太坊现货ETF申请，这表明监管机构可能准备批准这些申请。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美SEC已要求纳斯达克和芝加哥期权交易所调整现货以太坊ETF备案]]></title>
+        <id>https://www.odaily.news/newsflash/370709</id>
+        <link href="https://www.odaily.news/newsflash/370709"/>
+        <updated>2024-05-21T12:25:25.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据消息人士透露，美国证券交易委员会已于周一要求纳斯达克和芝加哥期权交易所调整现货以太坊 ETF 备案，据称美国证券交易委员会的请求表明监管机构可能准备批准现货以太坊 ETF。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitlayer启动首期2000万美元BTR代币奖励的Dapp榜单竞赛，项目可将奖励100%发放给参与用户]]></title>
+        <id>https://www.odaily.news/newsflash/370708</id>
+        <link href="https://www.odaily.news/newsflash/370708"/>
+        <updated>2024-05-21T12:23:07.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 比特币 L2 项目 Bitlayer 宣布开发者激励空投计划首期 Dapp 榜单竞赛将于 5 月 23 日正式启动，具体活动时间为 5 月 23 日至 6 月 23 日。本期竞赛将按照生态贡献度，向部署至 Bitlayer 主网的项目分配价值 2000 万美元的代币空投，所有空投将以 Bitlayer 宝石形式每日发放，并在 TGE 后按照规则兑换为 Bitlayer Token(BTR)。
+根据 Dapp 竞赛规则，项目可通过提高 TVL、增加用户交互量、提高有效用户数量和提升人气榜单等方式提高 Bitlayer 生态贡献度，获得更多 Bitlayer 宝石。此外，项目可以选择将空投奖励分配给参与用户，如果全额分配，项目所获奖励将在竞赛结束后自动分配给用户。除空投奖励外，Bitlayer 还设置了 200 万美元上币基金和 1 亿美元流动性基金全力支持生态项目。
+首期 Dapp 榜单竞赛是 Bitlayer 5000 万美金代币开发者激励空投计划 Ready Player One 的组成部分，本期竞赛结束后，其余代币奖励还将通过后续榜单竞赛和 Bitlayer Most Valuable Player(MVP)计划进行发放。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Starknet宣布推出创新中心Horus Labs]]></title>
+        <id>https://www.odaily.news/newsflash/370707</id>
+        <link href="https://www.odaily.news/newsflash/370707"/>
+        <updated>2024-05-21T12:21:56.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Starknet Africa 在 X 平台宣布，Starknet 已推出创新中心 Horus Labs，旨在培养创造力和创新能力，将大胆的想法转化为现实，同时通过提供在生态系统内外脱颖而出所需的工具和支持来增强开发者社区的能力，据悉 Horus Labs 目前专注于非洲社区。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitalik Buterin：超级智能AI存在风险不应急于推进]]></title>
+        <id>https://www.odaily.news/newsflash/370706</id>
+        <link href="https://www.odaily.news/newsflash/370706"/>
+        <updated>2024-05-21T12:18:59.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 以太坊联合创始人 Vitalik Buterin 在 X 平台回复有关 AI 的讨论时表示，超级智能的 AI 非常有风险，不应该急于推进，并且应该反对那些试图推进的人。他同时表示，运行在消费硬件上的开放模型的强大生态系统是防止未来人工智能所捕获的价值高度集中、大多数人类思想被少数人控制的少数中央服务器读取和调解的重要对冲，此类模型的毁灭风险较低。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mode Network TVL突破7亿美元续创新高，七日增幅超12.26%]]></title>
+        <id>https://www.odaily.news/newsflash/370705</id>
+        <link href="https://www.odaily.news/newsflash/370705"/>
+        <updated>2024-05-21T12:15:30.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 L2beat 最新数据显示，Mode Network 总锁仓量（TVL）已突破 7 亿美元，当前触及 7.4515 亿美元，续创历史新高，过去七日增长率达到 12.26%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SOL跌破180 USDT，24H涨幅收窄至1.28%]]></title>
         <id>https://www.odaily.news/newsflash/370704</id>
@@ -445,6 +699,16 @@ Polygon 的高层和内部人员策划推出了一种名为$ELE 的 meme 币，�
 此前消息，ZachXBT 声称 Lazarus Group 在四年内已将 2 亿美元被盗加密货币洗钱为法定货币。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyber支持Phaver首季空投活动“Phairdrop”，用户可通过质押CYBER参与]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/91jm1c7x.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/91jm1c7x.html"/>
+        <updated>2024-05-21T10:46:45.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月21日消息，去中心化社交L2 Cyber（原CyberConnect）宣布支持“Phairdrop”，所有$CYBER质押者均可参与，将有机会解锁专属福利并在 Phaver 上赚取额外积分和等级。“Phairdrop”是Web3社交应用Phaver发起的第一季空投活动，其同时推出了代币SOCIAL，目前仅开放空投查询，暂时无法在任何平台购买或交易。此外，Phaver已集成Farcaster，参与空投的用户，需要拥有Lens和Farcaster的个人资料，以及至少一个连接Phaver Cred。]]></summary>
+        <author>
+            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -16442,125 +16706,6 @@ DTCC 与 Chainlink 和美国多家主要金融机构完成加速基金代币化�
         <summary type="html"><![CDATA[Odaily星球日报讯 Layer2 网络 Mode 宣布上线质押 v1.2 版本，将提供 20 万枚 OP 作为奖励。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chainlink与DTCC以及全球十大金融机构合作开展Smart NAV行业试点]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/m1fbu1xa.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/m1fbu1xa.html"/>
-        <updated>2024-05-17T01:00:54.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月17日消息，据Chainlink官方消息，Chainlink与DTCC以及全球十大金融机构（摩根大通、邓普顿、纽约梅隆银行等美国主要银行）成功完成了Smart NAV行业试点，将关键的共同基金数据上链。此次试点展示了如何通过Chainlink和DTCC将净资产值（NAV）数据分发到任何区块链，支持基金代币化的多种应用场景。DTCC作为领先的后交易市场基础设施，每年处理巨量的交易。此次试点验证了Chainlink CCIP作为开放区块链互操作性标准的有效性，避免了未来的碎片化问题，并通过智能合约实现数据自动化路由和历史数据访问​​。
-行情显示，LINK代币24小时上涨12.3%，现报15.57美元/枚。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maker创始人：PureDai将有自己的治理代币，初始供应量为20亿]]></title>
-        <id>https://www.odaily.news/newsflash/369998</id>
-        <link href="https://www.odaily.news/newsflash/369998"/>
-        <updated>2024-05-17T00:58:49.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Maker 创始人 Rune Christensen 在 X 平台发文表示，PureDai 将拥有自己的新治理代币，其主要特点如下：
-1. PureDai 治理代币的初始供应量为 20 亿； 
-2. 初始供应将在 5 年内分配给以太坊主网上的 NewStable 挖矿用户；
-3. 永久性地分发给 PureDai vaults 用户，以补贴 PureDai 的生成；
-4. PureDai 的盈余部分将用于通过智能销毁引擎积累 PureDai 治理代币；
-5. PureDai 治理代币将在 PureDai 出现坏账时扮演后盾角色。
-此前消息，Rune 昨日层发文表示将在 NewStable 之外推出忠于协议初始愿景的稳定币 PureDai。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MN Trading创始人：已将全部BTC换仓为山寨币，今年晚些时候将重新买入更多BTC]]></title>
-        <id>https://www.odaily.news/newsflash/369997</id>
-        <link href="https://www.odaily.news/newsflash/369997"/>
-        <updated>2024-05-17T00:52:23.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 MN Trading CEO 兼创始人 Michaël van de Poppe 在 X 上表示，他已出售全部比特币并换成山寨币，他仍然预计这轮牛市周期还没有结束，而山寨币已经遭受了不合理的重创，尽管目前投资山寨币存在风险，但潜在回报巨大。
-此外，Poppe 还表示计划在今年晚些时候重新买入更多比特币。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[巨头下场？芝交所有意交易比特币，Coinbase 闻讯重挫]]></title>
-        <id>foresightnews-article#60212</id>
-        <link href="https://foresightnews.pro/article/detail/60212"/>
-        <updated>2024-05-17T00:45:26.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>行业观察</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Puffer Finance：目前有超过1万枚stETH正在等待兑换为ETH]]></title>
-        <id>https://www.odaily.news/newsflash/369996</id>
-        <link href="https://www.odaily.news/newsflash/369996"/>
-        <updated>2024-05-17T00:42:05.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Puffer Finance 在 X 平台发文表示，目前有 10,006.455 枚 stETH 正在排队等待兑换为 ETH。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[pump.fun：攻击系某前员工所为，窃取金额约190万美元]]></title>
-        <id>https://www.odaily.news/newsflash/369994</id>
-        <link href="https://www.odaily.news/newsflash/369994"/>
-        <updated>2024-05-17T00:35:25.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 pump.fun 在 X 平台发文表示，攻击系某位前员工利用其在公司的特权非法获取了提款权限，并借助借贷协议实施了闪电贷攻击，窃取金额约 12300 SOL（价值约 190 万美元）。
-此前消息，pump.fun 已经升级了合约，攻击者无法再窃取任何资金。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[昨日IBIT净流入9400万美元，ARKB净流入6200万美元]]></title>
-        <id>https://www.odaily.news/newsflash/369993</id>
-        <link href="https://www.odaily.news/newsflash/369993"/>
-        <updated>2024-05-17T00:27:25.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 HODL15Capital 监测数据显示，5 月 16 日贝莱德 IBIT 净流入 9400 万美元；ARK 21Shares 的 ARKB 净流入 6200 万美元；灰度 GBTC 资金净流入 500 万美元；Bitwise BITB 净流入 140 万美元；Franklin EZBC 净流入 400 万美元。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Merlin Chain将集成B² Network的数据可用层B² Hub]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/l1t1oq1m.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/l1t1oq1m.html"/>
-        <updated>2024-05-17T00:25:21.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月17日消息，据官方消息，Merlin Chain宣布与比特币L2网络B² Network达成战略合作关系。Merlin Chain将集成B² Network的DA Layer（数据可用层）– B² Hub。同时，Merlin Chain上的mBTC和solvBTC可以桥接到B² Network。B² Hub是B² Network推出的比特币数据可用层，结合比特币主网做结算，确保BTC Layer2安全性与比特币主网一致。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase 月度展望：ETH 未来数月仍有潜力上涨]]></title>
-        <id>foresightnews-article#60211</id>
-        <link href="https://foresightnews.pro/article/detail/60211"/>
-        <updated>2024-05-17T00:19:18.000Z</updated>
-        <summary type="html"><![CDATA[来源链接]]></summary>
-        <author>
-            <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vitalik Buterin：OpenAI的GPT-4已通过图灵测试]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/5kppd9v5.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/5kppd9v5.html"/>
-        <updated>2024-05-17T00:18:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 5月17日消息，以太坊联合创始人Vitalik Buterin表示，OpenAI的生成式人工智能(AI)模型GPT-4已通过图灵测试。根据加州大学圣地亚哥分校的一项研究，研究人员让大约500名人类测试对象在盲测中与人类和人工智能模型互动，以确定他们是否能分辨出人类和人工智能模型。研究结果显示，人类将GPT-4错误认为是“人类”的概率为56%。Buterin表示，一个人工智能系统能够欺骗与之互动的一半以上的人，就有资格通过图灵测试。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[昨日贝莱德IBIT净流入9400万美元，灰度GBTC净流入500万美元]]></title>
-        <id>https://m.theblockbeats.info/flash/250477?t=binance</id>
-        <link href="https://m.theblockbeats.info/flash/250477?t=binance"/>
-        <updated>2024-05-17T00:18:47.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，5 月 17 日，据 HODL15Capital 监测，5 月 16 日贝莱德 IBIT 净流入 9400 万美元；灰度 GBTC 资金净流入 500 万美元；Bitwise BITB 净流入 140 万美元；Franklin EZBC 净流入 400 万美元。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
         </author>
     </entry>
 </feed>
