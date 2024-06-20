@@ -6,6 +6,76 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/azq3ry9b.html",
+          "author": null,
+          "description": "PANews 6月20日消息，LayerZero基金会在X平台表示，25%的ZRO将在推出第一天解锁，其中TGE占比8.5%，11%用于未来Snapshot和RFP，5%分配至LayerZero基金会，0.5%分配至社区成员。申领将于6月20日19:00开放。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/azq3ry9b.html",
+          "publishedOn": "2024-06-20T01:47:54.000Z",
+          "wordCount": 341,
+          "title": "LayerZero：25%的ZRO将在推出首日解锁，今日19:00开放申领",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/83a2awq5.html",
+          "author": null,
+          "description": "PANews 6月20日消息，以太坊联合创始人Vitalik Buterin在X平台表示，同步原子组合性被高估了。其实，我们更应该关注一些具体的跨L2问题，这些问题目前或未来可能会遇到，并且如果解决得当，能带来更加无缝的体验。对我而言，最突出的两个问题如下：\n我在Optimism上有代币，但我想支付给仅在Arbitrum上的鲍勃。\n我在Taiko上有币，我想在Polygon上使用一个dapp，所以我需要把币发送到Polygon才能使用那个dapp。\n这些问题并不是靠解决同步性就能轻松搞定的高级技术问题。相反，它们主要是用户体验问题，可以通过以下方式解决：\n（一）广泛采用ERC-3770标准，将链信息作为地址的一部分，这样地址就再次成为了一个完整的“如何向我支付”的标识符。\n（二）引入跨L2交易协议（如ERC-7683），使用户能够编程式地进行跨链交易，而无需担心信任哪些中介或连接哪些API。\n（三）钱包集成，使得跨L2发送变得简单，用户只需将接收方的ERC-3770地址输入到与日常发送相同的文本框中即可。\n当然，解决这些技术问题确实可以大大提高效率，特别是通过使跨链交换市场对流动性提供者更友好，减少从1周到1小时再到1个时隙的提币时间。但即便如此，还有大量未开发的潜在收益，而这些并不依赖于同步性的实现。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/83a2awq5.html",
+          "publishedOn": "2024-06-20T01:44:58.000Z",
+          "wordCount": 356,
+          "title": "Vitalik：同步原子组合性被高估，具体的跨L2问题更值得关注",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/c82d5m0t.html",
+          "author": null,
+          "description": "PANews 6月20日消息，据官方消息，Coinbase将在以太坊网络（ERC-20 代币）上增加对欧元稳定币EURC (EURC) 的支持，交易将于北京时间2024年6月21日03:00左右开始。在支持交易的地区，此资产的转账可在Coinbase和CoinbaseExch上进行。\n注：EURC (EURC) 原为Euro Coin (EUROC)。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/c82d5m0t.html",
+          "publishedOn": "2024-06-20T01:35:12.000Z",
+          "wordCount": 371,
+          "title": "Coinbase将新增对欧元稳定币EURC (EURC)的支持",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/8fir9p5h.html",
+          "author": null,
+          "description": "PANews 6月20日消息，针对Kraken和CertiK之间的安全漏洞报告争议，链上侦探@0xBoboShanti称，一位Certik安全研究人员之前发布的一个地址早在5月27日就进行了探测和测试，这与Certik的事件时间表产生了矛盾。更进一步，该测试地址资金源于Certik的一个Tornado交易（Tornado tx），该钱包最近（直到今天）一直在与相同的合约进行交互，这一发现将这一事件与原始的安全研究人员联系了起来。\n安全研究员@tayvano进一步指出，该交易的Certik报告揭示了Kraken的存款地址0xa172342297f6e6d6e7fe5df752cbde0aa655e61c（MATIC）。在以太坊网络上，这个相同的地址被用于进行提款操作，具体的提款地址包括：0x3c6a231b1ffe2ac29ad9c7e392c8302955a97bb3、0xdc6af6b6fd88075d55ff3c4f2984630c0ea776bc和0xc603d23fcb3c1a7d1f27861aa5091ffa56d3a599。这些提款地址提取大量资金后抛售UDDT并使用ChangeNOW进行多次最大值交换。\n@tayvano写道：“抛售USDT并使用ChangeNOW并不能坐实该地址为黑客，但利用CEX系统中未披露的漏洞为自己谋取经济利益才是黑客。在漏洞被披露之前进行抛售和即时交易只是给这个疯狂的局势增添了更多的混乱。如果官方声明的是Certik泄露了安全通信，或者这是外部人士利用相同的漏洞，我会相信的。这甚至可能解释了Certik最初的声明，即Kraken要求退还的资金超过了他们提走的资金。”\n此前Kraken首席安全官Nick Percoco称该公司在收到安全漏洞报告后并修复后，发现有三个账户利用了该漏洞，从Kraken金库中提取了近300万美元，其中一个账户属于最初报告漏洞的研究员。对此，CertiK在X平台披露，Kraken所指的安全漏洞研究员系CertiK白帽黑客，并辩诉称：“在成功识别和修复漏洞的初步成功后，Kraken的安全运营团队甚至在没有提供还款地址的情况下，威胁CertiK的个别员工在不合理的时间内偿还不匹配的加密货币金额。”",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/8fir9p5h.html",
+          "publishedOn": "2024-06-20T01:30:15.000Z",
+          "wordCount": 352,
+          "title": "链上侦探：CertiK疑似利用Kraken漏洞牟利，Kraken黑客地址与CertiK存在联系",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/2z85n332.html",
+          "author": null,
+          "description": "PANews 6月20日消息，据unfolded报道，比特币现货ETF首次在澳大利亚主要股票市场上市，VanEck比特币ETF于周四开始在澳大利亚证券交易所ASX交易。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/2z85n332.html",
+          "publishedOn": "2024-06-20T01:24:49.000Z",
+          "wordCount": 336,
+          "title": "比特币现货ETF今日首次在澳大利亚主要股票市场上市",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/b0sx0jl2.html",
+          "author": null,
+          "description": "PANews 6月20日消息，据链上分析师余烬监测，一个鲸鱼/机构地址从Binance和OKX提出了6570枚BTC (约合4.27亿美元)。\n这个鲸鱼/机构此前曾在2022年10-12月的市场底部以约1.85万美元的价格从Binance和OKX提出了超过3.8万枚 BTC。\n然后在2023年3月至本月初期间陆续向Binance转移了约3.52万枚BTC，均价约4.58万美元。获利可能超过9.62亿美元。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/b0sx0jl2.html",
+          "publishedOn": "2024-06-20T01:20:58.000Z",
+          "wordCount": 342,
+          "title": "某巨鲸/机构从CEX提出6570枚比特币，约合4.27亿美元",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/80y0b10f.html",
+          "author": null,
+          "description": "PANews 6月20日消息，据BeInCrypto报道，基于Starknet和以太坊的衍生品DEX ZKX宣布完成760万美元的新一轮战略融资，主要投资方包括Flowdesk、GCR、DeWhales等，此前的投资者还包括Hashkey、Amber Group、Crypto.com、StarkWare。\n新融资将用于加速ZKX协议的扩展，并引入新功能，如社交复制交易池，并扩展到跨链互操作性。此外，ZKX推出将启动质押和空投。从6月19日开始，用户可以质押ZKX来获得平台收益的一部分。质押计划旨在激励稳定和忠诚的用户群，这对平台的增长和可持续性至关重要。空投将奖励活跃的社区成员和早期采用者。总供应量为1亿枚代币，其中33%将在ZKX推出时解锁。ZKX的目标是在2024年将其业务扩展到多个L1和L2区块链生态。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/80y0b10f.html",
+          "publishedOn": "2024-06-20T01:18:57.000Z",
+          "wordCount": 361,
+          "title": "衍生品平台ZKX完成760万美元战略融资，GCR等参投",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/t5cmdi9h.html",
           "author": null,
           "description": "PANews 6月20日消息，据官方公告，去中心化数据存储网络BNB Greenfield即将进行Veld硬分叉，对平台进行了重大更新和优化。测试网预计于区块高度9,581,218处进行Veld硬分叉。根据当前的区块间隔，预计将于北京时间6月25日15:00发生。主网预计于区块高度9,269,910进行硬分叉。根据当前的区块间隔，预计将于北京时间7月8日15:00发生。验证者和储存提供商应在硬分叉之前升级到最新版本。硬分叉不会影响用户的账户余额。",
@@ -3224,16 +3294,6 @@
           "wordCount": 380,
           "title": "德国电信宣布在 BTC Prague 开展比特币挖矿计划",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
-        },
-        {
-          "id": "https://www.panewslab.com/zh/sqarticledetails/d0wc049r.html",
-          "author": null,
-          "description": "PANews 6月15日消息，10x Research发文表示，在其报告《比特币挖矿战争正在升温——如何应对？》中表示，Bitfarms 是比特币挖矿行业持续整合的主要受益者。自报告发布之日起，Bitfarms 的股价已经飙升 25%。其他热门矿企股票，如 Bitdeer（上涨 61%）也在两周内大幅上涨。不过，10x Research仍建议投资者谨慎行事。比特币在这两周内小幅下跌了 1%，未能突破 71946 美元的阻力位。虽然加密矿企股票（如 Bitfarms）可能进一步上涨，但更倾向于在比特币的潜在看涨趋势下进行投资。目前情况并非如此，自我强化的比特币机制在 2 月/3 月产生了更少的流动性。\n尽管 MicroStrategy 宣布拟非公开发行 5 亿美元可转换优先票据，以购买更多的比特币，但市场反应相对平静——与 2023 年第四季度和 2024 年第一季度不尽相同，当时这些消息导致出现散户投机活动明显增长、资金费率上升等。",
-          "link": "https://www.panewslab.com/zh/sqarticledetails/d0wc049r.html",
-          "publishedOn": "2024-06-15T13:03:06.000Z",
-          "wordCount": 394,
-          "title": "10x Research：建议在比特币的潜在看涨趋势下投资矿企股票",
-          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         }
       ]
     },
@@ -3242,6 +3302,106 @@
       "feedUrl": "https://api.theblockbeats.news/v1/open-api/home-xml",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://m.theblockbeats.info/news/254025",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，ZRO 空投将于 6 月 20 日 19:00 开放申领。\n\n\n第一天解锁 25% – 在 TGE 时解锁 8.5%。11.0% 用于未来的快照和 RFPs。5% 分配给 LayerZero 基金会。0.5% 分配给社区成员。",
+          "link": "https://m.theblockbeats.info/news/254025",
+          "publishedOn": "2024-06-20T01:45:21.000Z",
+          "wordCount": null,
+          "title": "ZRO空投将于6月20日19:00开放申领",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/254024",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，据行情数据，特朗普概念 MEME 币 DJT 24 小时跌幅达 22.35%，暂报 0.015247 美元。\n\n\n此前消息人士披露，特朗普竞选团队未参与 MEME 项目 DJT。与此同时，前制药公司高管 Martin Shkreli 曾主张 DJT 为「官方特朗普币」，并向加密货币社区成员发起挑战。他与化名交易者 GCR 的赌注虽高达 1 亿美元，但因条款未达成一致而取消。",
+          "link": "https://m.theblockbeats.info/news/254024",
+          "publishedOn": "2024-06-20T01:43:30.000Z",
+          "wordCount": null,
+          "title": "DJT 24小时跌超22%，暂报0.015247美元",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/254023",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，据 Cointelegraph 报道，加拿大联邦法院系统文件显示，Binance 将对加拿大金融交易与报告分析中心（FINTRAC）提出的 440 万美元罚款发起上诉。Binance 表示，其没有直接向加拿大居民提供服务，并于 2023 年 5 月宣布退出加拿大市场。\n\n\n此前 5 月，FINTRAC 对 Binance 处以 600 万加元（约 440 万美元）的罚款，理由是 Binance 未作为外国货币服务业务进行注册，以及未报告超过 1 万加元的虚拟货币交易。",
+          "link": "https://m.theblockbeats.info/news/254023",
+          "publishedOn": "2024-06-20T01:38:35.000Z",
+          "wordCount": null,
+          "title": "Binance将对加拿大监管机构提出的440万美元罚款提起上诉",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/254022",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，以太坊联合创始人 Vitalik Buterin 于社交平台回复相关讨论时表示，「同步原子可组合性被高估了。想一想，你已经在做或者设想自己要做的一些跨 L2 的具体事情，这些事情本可以更无缝。对我来说，最主要的两个问题是：\n\n\n· 我在 Optimism 上有币，我想支付给 Bob，但 Bob 只在 Arbitrum 上；\n· 我在 Taiko 上有币，我想在 Polygon 上使用一个 dapp，所以我需要把币发送到 Polygon 才能使用那个 dapp。\n\n\n这些不是通过解决同步性可以解决的高级技术问题。这些是可以通过以下方法解决的用户体验问题：\n\n\n(i) 广泛采用 ERC-3770，使链成为地址的一部分，这样地址就再次成为一个自包含的「如何支付我」的标识符；\n(ii) 一个跨 L2 的交换协议（例如 ERC-7683），这样你可以通过程序化的跨链发送，而无需操心要信任哪些特定的中介和连接哪些 API；\n(iii) 钱包集成，这样跨 L2 发送可以通过在同一个文本框中输入接收者的 ERC-3770 地址来完成，就像你今天进行常规发送一样。\n\n\n解决技术问题确实可以使这个过程更高效，特别是通过使跨链交换市场对流动性提供者更友好，减少从 1 周（乐观汇总）到 1 小时（当前的 zk 汇总）再到 1 个时隙（理想的具有证明聚合的 zk 汇总）的提币时间。但是，即使在这方面，还有多个数量级的未开发收益，不需要涉及同步性。」",
+          "link": "https://m.theblockbeats.info/news/254022",
+          "publishedOn": "2024-06-20T01:23:22.000Z",
+          "wordCount": null,
+          "title": "Vitalik：同步原子可组合性被高估",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/254021",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，VanEck 比特币 ETF 周四在澳大利亚证券交易所 ASX 上市，标志着比特币现货 ETF 首次在澳大利亚主要股票市场上市。",
+          "link": "https://m.theblockbeats.info/news/254021",
+          "publishedOn": "2024-06-20T01:19:42.000Z",
+          "wordCount": null,
+          "title": "VanEck比特币ETF已在澳大利亚证券交易所ASX上市",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/254020",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，Coinbase 将在以太坊网络（ERC-20 代币）上增加对欧元稳定币 EURC (EURC) 的支持，交易将于 2024 年 6 月 20 日美国东部时间下午 3 点左右开始。\n\n\n在支持交易的地区，此资产的转账可在 Coinbase 和 CoinbaseExch 上进行。",
+          "link": "https://m.theblockbeats.info/news/254020",
+          "publishedOn": "2024-06-20T01:17:22.000Z",
+          "wordCount": null,
+          "title": "Coinbase将上线EURC (EURC)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/254019",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，Circle 首席执行官 Jeremy Allaire 表示，在未来十年或更长时间内，稳定币可能占「全球经济货币」的 10%。Allaire 提出了几个因素，这些因素可能会在未来「10 多年」内引发稳定币的采用呈指数级增长。\n\n\nAllaire 在 6 月 19 日的一篇文章中解释道：「世界上大多数最大的支付公司都在积极使用这项技术，并探索如何扩大其使用范围，因为公共链和稳定币的好处对每个人来说都是显而易见的。」\n\n\n潜在的市场规模是「数十亿」，在区块链上释放数字美元可以实现为没有银行账户的人提供银行服务的承诺，降低汇款成本，并允许无缝的跨境商业。\n\n\n其还指出，稳定币正成为一种越来越被接受的数字货币形式，到 2025 年底，稳定币将在全球 100 万亿美元的电子货币市场中占据「越来越大的份额」。",
+          "link": "https://m.theblockbeats.info/news/254019",
+          "publishedOn": "2024-06-20T01:11:12.000Z",
+          "wordCount": null,
+          "title": "Circle CEO：稳定币最快将在未来十年占据全球经济货币的10%",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/254018",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，据 OKX 行情数据，比特币回升至 65,000 美元上方，现报价 65,086 美元，24 小时跌幅收窄至 0.15%。",
+          "link": "https://m.theblockbeats.info/news/254018",
+          "publishedOn": "2024-06-20T00:59:03.000Z",
+          "wordCount": null,
+          "title": "比特币回升至65,000美元上方",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/254017",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，据 @EmberCN 监测，一个鲸鱼/机构地址从 Binance 和 OKX 提出了 6570 枚 BTC (约合 4.27 亿美元)。\n这个鲸鱼/机构此前曾在 2022 年 10-12 月的市场底部以约 1.85 万美元的价格从 Binance 和 OKX 提出了超过 3.8 万枚 BTC。\n\n然后在 2023 年 3 月至本月初期间陆续向 Binance 转移了约 3.52 万枚 BTC，均价约 4.58 万美元。获利可能超过 9.62 亿美元。",
+          "link": "https://m.theblockbeats.info/news/254017",
+          "publishedOn": "2024-06-20T00:55:13.000Z",
+          "wordCount": null,
+          "title": "某鲸鱼/机构从CEX提出6570枚比特币，约合4.27亿美元",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/254016",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 20 日，ETH Beijing 黑客松主赛道最终评选结果出炉，获奖项目名单如下：\n\n\nPublic Goods 赛道：\n第一名 POLP (Proof of Location Protocol)\n第二名 2PM Network\n第三名 ZK-Discord\nOpen Research 赛道：\n第一名 Centralized-PBS\n第二名 NFT_search\n第三名 NomadBnB \nLayer2 赛道：\n第一名 annihilate fi\n第二名 zkHumanDID\n第三名 Nexus",
+          "link": "https://m.theblockbeats.info/news/254016",
+          "publishedOn": "2024-06-20T00:52:10.000Z",
+          "wordCount": null,
+          "title": "ETH Beijing黑客松获奖名单公布，3个赛道共计9个项目",
+          "imageUrl": null
+        },
         {
           "id": "https://m.theblockbeats.info/news/254015",
           "author": "contact@theblockbeats.org (律动BlockBeats)",
@@ -7851,36 +8011,6 @@
           "wordCount": null,
           "title": "代币化美国国债市值超15亿美元，贝莱德BUIDL基金为主要推动力量",
           "imageUrl": null
-        },
-        {
-          "id": "https://m.theblockbeats.info/news/253581",
-          "author": "contact@theblockbeats.org (律动BlockBeats)",
-          "description": "BlockBeats 消息，6 月 15 日，据行情数据，以太坊生态主流代币上涨，其中：\n\n\nENS 现报 23.003 美元，单日涨幅达 6.31%；\n\n\nUNI 现报 13.318 美元，单日涨幅达 4.08%；\n\n\nETHFI 现报 3.95 美元，单日涨幅达 6.7%；\n\n\nLDO 现报 2.07 美元，单日涨幅达 3.4%。",
-          "link": "https://m.theblockbeats.info/news/253581",
-          "publishedOn": "2024-06-15T13:47:09.000Z",
-          "wordCount": null,
-          "title": "以太坊生态主流代币上涨，ENS单日涨幅达6.31%",
-          "imageUrl": null
-        },
-        {
-          "id": "https://m.theblockbeats.info/news/253580",
-          "author": "contact@theblockbeats.org (律动BlockBeats)",
-          "description": "BlockBeats 消息，6 月 15 日，T-Mobile（德国电信）宣布，其计划开始发展比特币挖矿业务，扩大其正在进行的加密活动。德国电信 Web3 基础设施和解决方案主管 Dirk Röder 在 BTC 布拉格发表讲话时表示：「自 2023 年以来，我们一直在运行比特币节点，并且我们也在运行比特币闪电节点。我想告诉你一个小秘密，我们很快就会进行数字货币挖矿活动。」（Cointelegraph）",
-          "link": "https://m.theblockbeats.info/news/253580",
-          "publishedOn": "2024-06-15T13:07:49.000Z",
-          "wordCount": null,
-          "title": "德国电信将发展比特币挖矿业务",
-          "imageUrl": null
-        },
-        {
-          "id": "https://m.theblockbeats.info/news/253579",
-          "author": "contact@theblockbeats.org (律动BlockBeats)",
-          "description": "BlockBeats 消息，6 月 15 日，Sushi 在社交平台表示，基于跨链桥 Stargate 的跨链 AMM SushiXSwap 下周将上线新链。",
-          "link": "https://m.theblockbeats.info/news/253579",
-          "publishedOn": "2024-06-15T13:04:09.000Z",
-          "wordCount": null,
-          "title": "Sushi：跨链AMM SushiXSwap下周将上线新链",
-          "imageUrl": null
         }
       ]
     },
@@ -7889,6 +8019,146 @@
       "feedUrl": "https://www.odaily.news/v1/openapi/odailyrss",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/newsflash/375993",
+          "author": null,
+          "description": "Odaily星球日报讯 阿根廷总统 Javier Milei 表示：“货币将自由竞争，所以如果你想使用比特币不会有任何问题。”（Bitcoin Magazine）",
+          "link": "https://www.odaily.news/newsflash/375993",
+          "publishedOn": "2024-06-20T01:45:49.000Z",
+          "wordCount": 1719,
+          "title": "阿根廷总统：货币将自由竞争，使用比特币不会有任何问题",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5196152",
+          "author": null,
+          "description": "Pantera Capital计划推出10亿美元的新基金，其中超2亿美元将投向AI领域。",
+          "link": "https://www.odaily.news/post/5196152",
+          "publishedOn": "2024-06-20T01:42:29.000Z",
+          "wordCount": 3204,
+          "title": "星球日报｜LayerZero空投引争议；币安将对BNB持有者进行空投（6月20日）",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375992",
+          "author": null,
+          "description": "Odaily星球日报讯 LayerZero 基金会于 X 发文表示，25%的 ZRO 将在推出第一天解锁，其中 TGE 占比 8.5%，11%用于未来 Snapshot 和 RFP，5%分配至 LayerZero 基金会，0.5%分配至社区成员。\n申领将于 6 月 20 日 19：00 开放。",
+          "link": "https://www.odaily.news/newsflash/375992",
+          "publishedOn": "2024-06-20T01:41:00.000Z",
+          "wordCount": 1734,
+          "title": "LayerZero基金会：ZRO推出首日将解锁总量的25%，今日19:00开放申领",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375991",
+          "author": null,
+          "description": "1. 币安将为 BNB 持有者推出 HODLer 空投；\n2. Arkham：德国政府钱包出售约 6500 枚 BTC，仍持有 43,359 枚 BTC；\n3. Lido：引入社区质押模块；\n4. Pantera Capital 分析师：拜登否决 SAB 121 法案因不愿反对美 SEC 主席；\n5. Kraken 首席安全官：欺诈者从 Kraken 账户提取近 300 万美元，客户资产未受威胁且漏洞已解决；\n6. Venus Protocol：ZRO 空投快照已拍摄完毕；\n7. 何一：激励 BNB 持有者的统计时间不按照未来持有逻辑，而是回溯逻辑；\n8. Web3 人才市场 Bondex 已完成超 1000 万美元融资，Animoca Brands 等参投；\n9. Optimism：Alt-DA 模式现已在测试版 OP Stack 推出；\n10. Jupiter 联创公布 J4J 计划草案，拟提案将代币总供应量减少 30%；\n11. 尼日利亚高院驳回币安高管拘留诉讼；\n12. 比特币交易所余额达 3 年低点；\n13. Consensys 创始人：将推进针对 SEC 的诉讼，为行业争取更多法律透明度；\n14. VanEck 比特币 ETF 已在澳大利亚证券交易所 ASX 上市；\n15. Vitalik：Farcaster、Lens、Zupass 等开放互联网项目已取得重要进展；\n16. Eigen 基金会：EIGEN 质押空投第二阶段现已开放。",
+          "link": "https://www.odaily.news/newsflash/375991",
+          "publishedOn": "2024-06-20T01:36:42.000Z",
+          "wordCount": 1783,
+          "title": "星球早讯",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375990",
+          "author": null,
+          "description": "Odaily星球日报讯 Solana 生态链游 Nyan He­roes 在 X 平台宣布，第二季代币空投已开放申领。",
+          "link": "https://www.odaily.news/newsflash/375990",
+          "publishedOn": "2024-06-20T01:29:02.000Z",
+          "wordCount": 1725,
+          "title": "链游Nyan Heroes第二季空投已开放申领",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375989",
+          "author": null,
+          "description": "Odaily星球日报讯 JusticeDAO 已为 Tornado Cash 开发者筹集 654 枚 ETH（约 230 万美元）法律辩护资金。JusticeDAO 此前通过去中心化平台 Juicebox 发起“Free Alexey & Roman”活动筹集资金。\n在 Tornado Cash 联合创始人 Roman Storm 和开发者 Alexey Pertsev 被捕后，加密社区联合成立 JusticeDAO，这是一个旨在为被捕者的法律辩护筹集资金的倡导组织。\n此前，Tornado Cash 开发者因涉嫌洗钱、违反制裁和无证汇款业务被指控，其中一人已被定罪入狱，美国财政部指控 Tornado Cash 被用于洗钱超过 70 亿美元，Storm 和 Roman Semenov 被控洗钱和违反制裁。\nJuicebox 发布了一份公开的电子表格，追踪了 Free Alexey & Roman 基金的支出情况。数据显示，该基金在 2023 年 12 月至 2024 年 5 月期间花费了 139 万美元的法律费用，预计在未来五个月内将再花费 280 万美元，并在专家研究和额外法律费用上再花费 40 万美元，预计 2024 年的总费用将达到近 335 万美元。\n该基金包括以太坊联合创始人 Vitalik Buterin 的大量捐助，他本人也是一位隐私倡导者。（Cointelegraph）",
+          "link": "https://www.odaily.news/newsflash/375989",
+          "publishedOn": "2024-06-20T01:27:47.000Z",
+          "wordCount": 1782,
+          "title": "JusticeDAO已为Tornado Cash开发者筹集约230万美元法律辩护资金",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375988",
+          "author": null,
+          "description": "Odaily星球日报讯 ETH Beijing 黑客松主赛道最终评选结果已公布：\n-Public Goods 赛道：\n第一名 POLP（Proof of Location Protocol）；\n第二名 2PM Network；\n第三名 ZK-Discord；\n-Open Research 赛道：\n第一名 Centralized-PBS；\n第二名 NFT_search；\n第三名 NomadBnB；\n-Layer2 赛道：\n第一名 annihilate fi；\n第二名 zkHumanDID；\n第三名 Nexus。",
+          "link": "https://www.odaily.news/newsflash/375988",
+          "publishedOn": "2024-06-20T01:20:19.000Z",
+          "wordCount": 1764,
+          "title": "ETH Beijing黑客松获奖名单公布，涉及L2等三个赛道",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5196153",
+          "author": null,
+          "description": "Kraken称CertiK在“敲诈”，而CertiK称员工收到Kraken威胁。",
+          "link": "https://www.odaily.news/post/5196153",
+          "publishedOn": "2024-06-20T01:15:59.000Z",
+          "wordCount": 1730,
+          "title": "CertiK“对垒”Kraken：白帽黑客的尺度，到底怎样才合适？",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375987",
+          "author": null,
+          "description": "Odaily星球日报讯 VanEck 比特币 ETF 周四在澳大利亚证券交易所 ASX 上市，标志着比特币现货 ETF 首次在澳大利亚主要股票市场上市。（unfolded.）",
+          "link": "https://www.odaily.news/newsflash/375987",
+          "publishedOn": "2024-06-20T01:14:17.000Z",
+          "wordCount": 1731,
+          "title": "VanEck比特币ETF已在澳大利亚证券交易所ASX上市",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375986",
+          "author": null,
+          "description": "Odaily星球日报讯 VeChain 于 X 宣布，VeBetterDAO 主网即将推出，面向测试网参与者的代币活动的最终快照将于 6 月 23 日进行，基于此数据，这些代币将被映射至主网。\nVeBetterDAO 奖励在 6 月 17 日-6 月 22 日期间开放申领，并将与 6 月 23 日暂停运行，之后主网代币将于 6 月 28 日推出。\n此前 2 月消息，VeChain 宣布将分 3 阶段推出 VeBetterDAO，拟引入激励代币 B3TR 和治理代币 VOT3。为了吸引初始用户群，VeChain 将在未来几个月内开展一系列 B3TR 空投活动，确保广泛分发并奖励用户参与。",
+          "link": "https://www.odaily.news/newsflash/375986",
+          "publishedOn": "2024-06-20T01:08:30.000Z",
+          "wordCount": 1789,
+          "title": "VeChain：VeBetterDAO主网将于6月28日上线",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375985",
+          "author": null,
+          "description": "Odaily星球日报讯 OKX 行情显示，BTC 重返 65000 USDT 上方，现报 65125.8 USDT，24H 跌幅收窄至 0.12%。",
+          "link": "https://www.odaily.news/newsflash/375985",
+          "publishedOn": "2024-06-20T01:02:05.000Z",
+          "wordCount": 1739,
+          "title": "BTC重返65000 USDT上方，24H跌幅收窄至0.12%",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375984",
+          "author": null,
+          "description": "Odaily星球日报讯 Circle 首席执行官 Jeremy Allaire 表示，在未来十年或更长时间内，稳定币可能占“全球经济货币”的 10%。Allaire 提出了几个因素，这些因素可能会在未来“10 多年”内引发稳定币的采用呈指数级增长。\nAllaire 在 6 月 19 日的一篇文章中解释道：“世界上大多数最大的支付公司都在积极使用这项技术，并探索如何扩大其使用范围，因为公共链和稳定币的好处对每个人来说都是显而易见的。”\n他说，潜在的市场规模是“数十亿”，在区块链上释放数字美元可以实现为没有银行账户的人提供银行服务的承诺，降低汇款成本，并允许无缝的跨境商业。\n其还指出，稳定币正成为一种越来越被接受的数字货币形式，到 2025 年底，稳定币将在全球 100 万亿美元的电子货币市场中占据“越来越大的份额”。（Cointelegraph）",
+          "link": "https://www.odaily.news/newsflash/375984",
+          "publishedOn": "2024-06-20T00:59:14.000Z",
+          "wordCount": 1754,
+          "title": "Circle CEO：稳定币最快将在未来十年占据全球经济货币的10%",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375983",
+          "author": null,
+          "description": "Odaily星球日报讯 据链上分析师余烬监测，7 小时前，一个鲸鱼/机构地址从币安和 OKX 提出了 6,570 枚 BTC （4.27 亿美元）。\n这个鲸鱼/机构此前曾在 2022 年 10-12 月的市场底部以约 1.85 万美元的价格从币安和 OKX 提出了超过 3.8 万枚 BTC。\n然后在 2023 年 3 月至本月初期间陆续向币安转移了约 3.52 万枚 BTC，均价约 4.58 万美元，获利可能超过 9.62 亿美元。",
+          "link": "https://www.odaily.news/newsflash/375983",
+          "publishedOn": "2024-06-20T00:51:14.000Z",
+          "wordCount": 1777,
+          "title": "某鲸鱼/机构7小时前从CEX买入6570枚BTC，约合4.27亿美元",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/375982",
+          "author": null,
+          "description": "Odaily星球日报讯 CoinSnacks 发布报告，质疑 DeFi Technologies（股票代码：DEFI）的股价上涨原因。其表示，该公司进行了一系列推广活动，包括付费电子邮件和影响力活动，以增加公司媒体曝光度，同时还获得了 Anthony Pompliano 和 Will Clemente 的支持——这两位加密货币投资者的市场分析公司 Reflexivity Research 于 1 月被 DeFi Technologies 收购。\nCoinSnacks 称：“有了 KOL 的推动，并在 CNBC 上被提及，此外还进行电子邮件宣传，还有高调的营销活动，这一系列强有力的证据表明，该股的上涨并非出于正确的原因。”\n报告发布前的周一，DEFI 报 3.3 加元，自 5 月 31 日以来上涨 202%。截至周二收盘，该股已重挫 35%，至每股 2.24 加元。\nDeFi Technologies 在周三的公开新闻发布会上回应了 CoinSnacks 的报告，称其为“诽谤性、有选择性、不准确的”，并包含了对公司做法和财务状况的“误导性陈述”。该公司推测，这份报告可能是受希望压低股价的卖空者委托撰写的。\nDeFi Technologies 表示，6 月 10 日，一家加拿大投资银行与该公司接洽，提出 1,500 万美元的收购要约。该公司表示，考虑到该公司新获得的资金实力，这是一个非常低的数字。同一天，该公司报告称，仅其资金就价值 6000 万美元，其中 790 万美元已转换为比特币。\nDeFi Technologies 进而指出：“公司认为，卖空者的协同操作，以及发布有关上市公司的误导性报告，构成了市场操纵。”（Decrypt）\n此前 6 月 10 日消息，DeFi Technologies（OTCMKTS：DEFTF）宣布将采用比特币作为其财库的主要储备资产，总共增持 110 枚 BTC，价值约 770 万美元。",
+          "link": "https://www.odaily.news/newsflash/375982",
+          "publishedOn": "2024-06-20T00:46:31.000Z",
+          "wordCount": 1842,
+          "title": "DeFi Technologies回应CoinSnacks看空报告：存在误导性信息，有操纵市场之嫌",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/newsflash/375981",
           "author": null,
@@ -15828,76 +16098,6 @@
           "wordCount": null,
           "title": "代币化美国国债的市值超过15亿美元，贝莱德BUIDL基金为主要贡献者",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/375241",
-          "author": null,
-          "description": "",
-          "link": "https://www.odaily.news/newsflash/375241",
-          "publishedOn": "2024-06-15T13:47:36.000Z",
-          "wordCount": null,
-          "title": "Arbitrum旨在支持项目建设的Infinite Launchpad提案遭社区反对",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/375240",
-          "author": null,
-          "description": "",
-          "link": "https://www.odaily.news/newsflash/375240",
-          "publishedOn": "2024-06-15T13:32:18.000Z",
-          "wordCount": null,
-          "title": "链游The Beacon降低了第四关战斗任务难度",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/375239",
-          "author": null,
-          "description": "",
-          "link": "https://www.odaily.news/newsflash/375239",
-          "publishedOn": "2024-06-15T13:23:19.000Z",
-          "wordCount": null,
-          "title": "Vitalik发帖介绍新图像压缩模式TiTok，并认为可用于链上存储",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/375238",
-          "author": null,
-          "description": "",
-          "link": "https://www.odaily.news/newsflash/375238",
-          "publishedOn": "2024-06-15T13:14:19.000Z",
-          "wordCount": null,
-          "title": "德国电信宣布将开展比特币挖矿业务",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/375237",
-          "author": null,
-          "description": "Odaily星球日报讯 Sushi 在 X 平台发文表示，旗下跨链交易平台 SushiXSwap 下周将在新链上线。",
-          "link": "https://www.odaily.news/newsflash/375237",
-          "publishedOn": "2024-06-15T13:07:20.000Z",
-          "wordCount": 1650,
-          "title": "Sushi：下周SushiXSwap将在新链上线",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/375236",
-          "author": null,
-          "description": "",
-          "link": "https://www.odaily.news/newsflash/375236",
-          "publishedOn": "2024-06-15T13:03:12.000Z",
-          "wordCount": null,
-          "title": "彭博ETF分析师：预测到2035年，ETF的全球资产规模可能达到35万亿美元",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/375235",
-          "author": null,
-          "description": "Odaily星球日报讯 一矿业公司今日在 X 平台发文表示，6 月 13 日向 Bitmain（比特大陆）支付一笔矿机货款时遭遇同尾号转账诈骗，在转账过程中，诈骗地址不断向其钱包发送小额支付，导致在第三笔大额转账中误触尾号相同的诈骗地址，将 405205.4 USDT 误转入其中。\n目前诈骗资金已经转移到了另一个地址：TNKrER2KWdwPB91TtvDD4ewzgfFnSw94Yk。随后，这些资金在 SUN SWAP 上被兑换成 TRX，处于质押的状态。目前该公司已报案，并收到了立案回执。\n钓鱼地址：TTUMpPrRgkwHFK4LFVbobN49SrmioWNWst\n交易 ID：937b17a1d8ab603ad3385f9a5f4324de880cc727b8b049e7f01f918c91c876d6",
-          "link": "https://www.odaily.news/newsflash/375235",
-          "publishedOn": "2024-06-15T12:48:06.000Z",
-          "wordCount": 1659,
-          "title": "一矿业公司因遭遇同尾号转账诈骗损失超40万枚USDT",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
     },
