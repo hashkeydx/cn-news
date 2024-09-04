@@ -23,6 +23,106 @@
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
         {
+          "id": "https://m.theblockbeats.info/news/262165",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，9 月 4 日，Ronin Network 官方表示，Ronin Bridge 已重新开放。Ronin Bridge 已完成两次外部安全审计。此后 Ronin Bridge 合约代码将不会进行任何例行更新，计划将 Ronin 桥接功能的运营和维护转变为专业的桥接解决方案。",
+          "link": "https://m.theblockbeats.info/news/262165",
+          "publishedOn": "2024-09-04T07:06:10.000Z",
+          "wordCount": null,
+          "title": "Ronin Network宣布Ronin Bridge已重新开放",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/262164",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，9 月 4 日，非托管流动性质押协议 ether.fi 与意图执行网络 dappOS 达成合作，dappOS 意图资产将以 ether.fi 发行的 eETH 作为底层收益来源之一，同时保持原生资产的使用灵活性。\n\n\ndappOS 意图资产在去中心化非托管的前提下，允许用户在获取收益的同时，像原生资产一样在链上直接使用。例如 intentETH 可以直接在 DEX 中用于添加 ETH/USDT 的流动性，或者直接作为 ETH 充值到 CEX 交易，还可以实时产生年化 6-12% 的利息。",
+          "link": "https://m.theblockbeats.info/news/262164",
+          "publishedOn": "2024-09-04T06:57:31.000Z",
+          "wordCount": null,
+          "title": "Ether.fi与dappOS达成合作",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/262163",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，9 月 4 日，据 Cointelegraph 报道，日本金融监管机构发布对 2025 财年税法进行全面改革的计划，包括针对加密资产的规定，希望以较低的税率征税。在 8 月 30 日的税制改革请求中，日本金融厅（FSA）对加密资产作出强调，希望推动将其列为可供公众投资的传统金融资产。据加密会计师 TokenTax 称，日本的加密利润目前作为杂项收入按 15% 至 55% 的税率征税。最高税率为 55%，适用于加密投资获利超过 1,377 美元（200,000 日元）的情况，但具体税率会根据个人的所得税等级而有所不同。相比之下，股票交易赚取的利润最高税率仅为 20%。企业加密货币持有者必须在财政年度结束时为其持有的资产缴纳 30% 的统一税率，即使他们没有通过出售获利。\n\n\n日本政府监管机构向执政党提交税制改革请求，然后执政党将其转交给税制研究委员会和国家立法机关审议。这项改革只有得到日本政府参众两院——众议院和参议院的批准才能通过成为法律。日本加密货币行业的倡导者多年来一直在推动修订数字资产的国家税收制度。支持加密货币的游说团体日本区块链协会（JBA）于 2023 年正式要求政府降低加密资产的税率。今年 7 月，该组织还提交了 2025 财年加密资产税收改革的请求，以促进国家加密行业的进一步增长。其提议包括对加密货币实行 20% 的统一税率，以及三年损失结转扣除。",
+          "link": "https://m.theblockbeats.info/news/262163",
+          "publishedOn": "2024-09-04T06:49:56.000Z",
+          "wordCount": null,
+          "title": "日本监管机构发布税法改革计划，或在2025年降低加密资产税率",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/flash/54901",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "原文标题：Glue and coprocessor architectures\n原文作者：Vitalik Buterin，以太坊创始人\n原文编译：邓通，金色财经\n\n\n特别感谢 Justin Drake、Georgios Konstantopoulos、Andrej Karpathy、Michael Gao、Tarun Chitra 和各种 Flashbots 贡献者提供的反馈和评论。\n\n\n如果你以中等程度的细节分析现代世界中正在进行的任何资源密集型计算，你会一次又一次发现的一个特点是，计算可以分为两个部分：\n\n\n· 相对少量的复杂但计算量不大的「业务逻辑」；\n· 大量密集但高度结构化的「昂贵工作」。\n\n\n这两种计算形式最好用不同的方式处理：前者，其架构可能效率较低但需要具有非常高的通用性；后者，其架构可能具有较低的通用性，但需要具有非常高的效率。\n\n\n实践中这种不同方式的例子有哪些？\n\n\n首先，让我们了解一下我最熟悉的环境：以太坊虚拟机 (EVM)。这是我最近进行的以太坊交易的 geth 调试跟踪：在 ENS 上更新我的博客的 IPFS 哈希。该交易总共消耗了 46924 gas，可以按以下方式分类：\n\n\n· 基本成本：21,000 \n· 调用数据：1,556EVM \n· 执行：24,368SLOAD \n· 操作码：6,400SSTORE \n· 操作码：10,100LOG \n· 操作码：2,149 \n· 其他：6,719\n\n\n\nENS 哈希更新的 EVM 跟踪。倒数第二列是 gas 消耗。\n\n\n这个故事的寓意是：大部分执行（如果仅看 EVM，则约为 73%，如果包括涵盖计算的基本成本部分，则约为 85%）集中在极少数结构化的昂贵操作中：存储读写、日志和加密（基本成本包括 3000 用于支付签名验证，EVM 还包括 272 用于支付哈希）。其余执行是「业务逻辑」：换 call…",
+          "link": "https://m.theblockbeats.info/flash/54901",
+          "publishedOn": "2024-09-04T06:47:24.000Z",
+          "wordCount": null,
+          "title": "Vitalik新文：胶合和协处理器架构，提升效率和安全性的新构想",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/262162",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，9 月 4 日，据 HiBT 行情数据，VISTA 暂报 20.2258 美元，24 小时涨幅 7.95%。自 9 月 3 日 5 美元开盘价以来，已涨超 300%。\n\n\nEtherVista 是一个去中心化交易所 (DEX)，旨在通过区块链项目的可持续性解决自动做市商 (AMM) 的问题。\n\n\nHiBT 是全球知名的数字资产交易平台，其致力于给用户提供优质潜力项目的早期交易机会与丝滑的交易体验，让用户能轻松的实现数字资产的增长。",
+          "link": "https://m.theblockbeats.info/news/262162",
+          "publishedOn": "2024-09-04T06:38:09.000Z",
+          "wordCount": null,
+          "title": "HiBT上VISTA暂报20.2258美元，24小时涨幅7.95%",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/262160",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，9 月 4 日，Justin Sun 于 X 表示，SunPump 已完成 800 万美元的 SUN 代币销毁，仍有 400 万美元的销毁计划待执行。\n\n\nBlockBeats 此前报道，9 月 3 日，Justin Sun 表示关于 SunPump 的收入回购和销毁问题，社区此前建议销毁流动性 LP 代币，因为这种方法被 SHIB 等主流 Meme 代币所采用。销毁 LP 代币有几个优势，包括增加代币流动性深度，使销毁的流动性仍可被利用，并且更加符合监管要求。",
+          "link": "https://m.theblockbeats.info/news/262160",
+          "publishedOn": "2024-09-04T06:35:07.000Z",
+          "wordCount": null,
+          "title": "Justin Sun：已销毁800万美元SUN代币，剩余400万美元销毁待执行",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/flash/54902",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "撰文：Evan、Joy、Aaron J，Waterdrip Capital\n\n\n1、现在是将 Mass Adoption 置于首要显性建设的时刻\n\n\nMass Adoption（大规模普及/采用），一直是 Web3 最核心的挑战。然而，市场往往更容易聚焦短期的财富效应，忽略项目的可持续和实现 Mass Adoption 的关键因素。自 2009 年 BTC 推出以来，纵观诸多赛道，唯有中心化交易平台如币安凭借其用户数突破 2 亿大关，成为 Web3 领域最先实现 Mass Adoption 的典型产品。\n\n\n随着 BTC ETF 的通过，市场迎来了独属于 BTC OG 和信仰者们的牛市。相比之下，由于流动性不足，新币表现差强人意，山寨币也远未呈现上轮牛市百花齐放的现象，大多数 Web3 用户也未享受到牛市的繁荣。在上轮牛市中，加密用户从 2019 年不到 5000 万用户，快速增长到 2022 年的 4.2 亿，增长 10 倍左右。然而，2024 年初至今，全球加密用户仅增长 3000 万用户，增速远低于上轮牛市。\n\n\n\n全球 Web3 用户量增长图，数据来源：Triple-A\n\n\n从第一性原理视角，差距的根本原因在于 Web3 领域缺乏能够有效吸引 Web2 用户和资金流入的 Mass Adoption 产品。也因如此，现在正是将 Mass Adoption 置于显性建设的关键时刻。\n\n\n2、Web3 实现 Mass Adoption 的障碍\n\n\nA16Z 在其《big-ideas-in-tech-2024报告中强调，简化用户体验是 Web3 实现 Mass Adoption 的基础。\n\n\n币安在其《Road to One Billion On-chain Users报告中指出，实现 Mass Adoption 需要两个核心条件：一是有用户想使用的链上应用程序；二是这些应…",
+          "link": "https://m.theblockbeats.info/flash/54902",
+          "publishedOn": "2024-09-04T06:31:22.000Z",
+          "wordCount": null,
+          "title": "全网首次披露Telegram用户画像：对比微信，TON实现Mass Adoption还有多久的路",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/262159",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，9 月 4 日，Pepperstone 高级研究策略师 Michael Brown 在一份报告中说，美国国债可能会延续周二涨势。周二的涨幅由长期债券领涨，不过可能在一定程度上受到大量新公司债券发行的抑制。\n\n\n「尽管避险需求可能会延续这些涨势，但如果这种需求在未来几个交易日持续下去，那么当市场开始将美联储的前景重新定价为鹰派方向时，前端国债再遭抛售和新一轮的曲线趋陡应该会成为现实。」\n\n\n他表示，目前货币市场对美联储将在年底前降息 100 个基点的预期仍然过于乐观。(金十)",
+          "link": "https://m.theblockbeats.info/news/262159",
+          "publishedOn": "2024-09-04T06:25:29.000Z",
+          "wordCount": null,
+          "title": "报告：避险需求料支撑美国国债",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/262158",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，9 月 4 日，Sky（原 Maker）联合创始人 Rune 表示，Sky 的新加密稳定币 USDS 可能会有一个类似法院的去中心化上诉程序作为其冻结功能的一部分。\n\n\nUSDS 在推出时不会有冻结功能，但如果管理机构决定添加，可以升级该功能。若该功能真的上线，那些 USDS 被冻结的用户可以「利用去中心化治理的力量，确保正当程序等事宜」透明地进行。\n\n\nRune 称，「不清楚」USDS 冻结功能何时或是否会上线——但它需要「非常仔细的法律、政治和监管分析，显然还需要由去中心化的 Sky 治理机构完成的非常彻底的设计过程」。",
+          "link": "https://m.theblockbeats.info/news/262158",
+          "publishedOn": "2024-09-04T06:22:11.000Z",
+          "wordCount": null,
+          "title": "Sky联创：USDS上线没有冻结功能，冻结流程或由去中心化法院决定",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/262157",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，9 月 4 日，日本金融监管机构发布了 2025 财年税法全面改革计划，其中包括对加密资产作出规定以降低其税率。\n\n\n在 8 月 30 日的税收改革请求中，日本金融厅 (FSA) 重点强调了加密资产，力推将其视为可供公众投资的传统金融资产。FSA 写道：「关于加密货币交易的税收处理，加密货币应该被视为一种金融资产，应该成为公众的投资目标。」\n\n\n据加密货币会计师事务所 TokenTax 称，日本的加密货币利润目前作为杂项收入征税，税率在 15% 至 55% 之间。",
+          "link": "https://m.theblockbeats.info/news/262157",
+          "publishedOn": "2024-09-04T06:16:48.000Z",
+          "wordCount": null,
+          "title": "日本监管机构呼吁在2025年降低加密货币税率",
+          "imageUrl": null
+        },
+        {
           "id": "https://m.theblockbeats.info/news/262155",
           "author": "contact@theblockbeats.org (律动BlockBeats)",
           "description": "BlockBeats 消息，9 月 4 日，据 Arkham 监测，以太坊联合创始人 Vitalik Buterin（0x22 开头地址）于今日 13:15 从 Starknet LockedTokenGrant 合约中解锁 126.8 万枚 STRK，约合 47 万美元。\n\n\n目前该地址共持有 211.3 万枚 STRK，约合 78 万美元。",
@@ -4149,6 +4249,136 @@
       "feedUrl": "https://www.odaily.news/v1/openapi/odailyrss",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/newsflash/388948",
+          "author": null,
+          "description": "Odaily星球日报讯 据官方消息，OKX Web3 钱包现已推出 DEX widget，用户和项目方可以无许可地将 OKX Web3 钱包 DEX 聚合器接入网页，充分利用 OKX Web3 钱包的交易流动性，提高用户粘性。据悉，OKX Web3 钱包是行业领先的一站式 Web3 入口，现已支持 100+条热门公链，App、插件、网页三端统一。",
+          "link": "https://www.odaily.news/newsflash/388948",
+          "publishedOn": "2024-09-04T07:08:43.000Z",
+          "wordCount": 1693,
+          "title": "OKX Web3钱包现已推出DEX widget",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388947",
+          "author": null,
+          "description": "Odaily星球日报讯 Ronin Network 官方发文表示，Ronin Bridge 已重新开放。Ronin Bridge 已完成两次外部安全审计。此后 Ronin Bridge 合约代码将不会进行任何例行更新，计划将 Ronin 桥接功能的运营和维护转变为专业的桥接解决方案。",
+          "link": "https://www.odaily.news/newsflash/388947",
+          "publishedOn": "2024-09-04T07:06:52.000Z",
+          "wordCount": 1684,
+          "title": "Ronin Bridge已重新开放",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388946",
+          "author": null,
+          "description": "Odaily星球日报讯 根据 HODL15Capital 最新数据，截至北京时间 2024 年 9 月 1 日，BlackRock 的 IBIT 已成为全球最大机构比特币持有者，持有 357,509 枚比特币。 MicroStrategy 以 226,500 枚比特币的持有量超越 Grayscale 的 GBTC（225,671 枚），跃居第二位。 Fidelity 的 FBTC ETF 以 178,349 枚比特币位列第四，稳定币巨头 Tether 持有 75,354 枚比特币排名第五。其他主要机构持有者包括 ARK Invest/21 Shares 的 ARKB（37,147 枚）和比特币矿企 Marathon Digital（25,000 枚）。\n值得注意的是，MicroStrategy 在今年早些时候宣布转型为\"比特币开发公司\"，是比特币 ETF 出现前最大的已知机构持有者。",
+          "link": "https://www.odaily.news/newsflash/388946",
+          "publishedOn": "2024-09-04T07:06:07.000Z",
+          "wordCount": 1717,
+          "title": "BlackRock IBIT成全球BTC最大机构持有者",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5198164",
+          "author": null,
+          "description": "回望Arbitrum One的成长路径并复盘其成功策略。",
+          "link": "https://www.odaily.news/post/5198164",
+          "publishedOn": "2024-09-04T07:06:00.000Z",
+          "wordCount": 3446,
+          "title": "L2巨擘Arbitrum One成长史：三年大浪淘沙，从0到200亿TVL",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388945",
+          "author": null,
+          "description": "Odaily星球日报讯 Matrixport 发布图表称，比特币价格在过去 30 天内波动范围为+20%至-10%。当价格下跌到-10%时买入，投资者在接下来的几周内通常能获得高达 20%，甚至 40%的回报。只要比特币保持在牛市中，这种趋势可能会继续。\n如果特朗普赢得美国总统选举或美联储降息，价格有可能上涨。然而，由于美国选举和经济增长的不确定性，任何反弹可能需要较长时间周期，类似于过去 10%的调整期。",
+          "link": "https://www.odaily.news/newsflash/388945",
+          "publishedOn": "2024-09-04T07:04:43.000Z",
+          "wordCount": 1675,
+          "title": "Matrixport：大选和经济不确定性下，比特币价格波动带来机会",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/post/5198168",
+          "author": null,
+          "description": "尽管降息已成大概率，但经济的韧性和通胀的温和上升可能会限制降息幅度，尤其是在经济基本面保持稳定的情况下。",
+          "link": "https://www.odaily.news/post/5198168",
+          "publishedOn": "2024-09-04T06:55:51.000Z",
+          "wordCount": 2119,
+          "title": "波场TRON行业周报：主流币8月跑输传统资产 以太坊、MakerDAO遭遇变革挑战",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388944",
+          "author": null,
+          "description": "Odaily星球日报讯 非托管流动性质押协议 ether.fi 与意图执行网络 dappOS 达成合作，dappOS 意图资产将以 ether.fi 发行的 eETH 作为底层收益来源之一，同时保持原生资产的使用灵活性。\ndappOS 意图资产在去中心化非托管的前提下，允许用户在获取收益的同时，像原生资产一样在链上直接使用。例如 intentETH 可以直接在 DEX 中用于添加 ETH/USDT 的流动性，或者直接作为 ETH 充值到 CEX 交易，还可以实时产生年化 6-12%的利息。",
+          "link": "https://www.odaily.news/newsflash/388944",
+          "publishedOn": "2024-09-04T06:54:41.000Z",
+          "wordCount": 1690,
+          "title": "ether.fi与dappOS达成合作，将提供意图资产收益",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388943",
+          "author": null,
+          "description": "Odaily星球日报讯 在周二的简报会上，联合国对逮捕和指控 Telegram 消息应用创始人杜罗夫表示了严重的人权关切。联合国发言人呼吁遵守国际人权标准，强调在监管社交媒体平台时需要合法性和比例性。",
+          "link": "https://www.odaily.news/newsflash/388943",
+          "publishedOn": "2024-09-04T06:36:59.000Z",
+          "wordCount": 1675,
+          "title": "联合国对Telegram创始人杜罗夫的案件提出人权问题",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388942",
+          "author": null,
+          "description": "Odaily星球日报讯 Pepperstone 高级研究策略师 Michael Brown 在一份报告中说，美国国债可能会延续周二涨势。周二的涨幅由长期债券领涨，不过可能在一定程度上受到大量新公司债券发行的抑制。 “尽管避险需求可能会延续这些涨势，但如果这种需求在未来几个交易日持续下去，那么当市场开始将美联储的前景重新定价为鹰派方向时，前端国债再遭抛售和新一轮的曲线趋陡应该会成为现实。”他表示，目前货币市场对美联储将在年底前降息 100 个基点的预期仍然过于乐观。（金十）",
+          "link": "https://www.odaily.news/newsflash/388942",
+          "publishedOn": "2024-09-04T06:34:12.000Z",
+          "wordCount": 1684,
+          "title": "报告：避险需求料支撑美国国债",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388933",
+          "author": null,
+          "description": "Odaily星球日报讯 Offchain Labs 联合创始人 Steven Goldfelder 确认出席由 Odaily 主办，Bitget 联合主办，ArkStream Capital 、Megabit、Mizu、AIAChain 等联合支持的“ FAT Awards 2024”年度盛典。\nOdaily“FAT Awards 2024”将在 TOKEN2049 期间召开，邀请头部机构，一线项目，热点生态带着锐利的视角和最新的趋势，为 Web3.0 市场揭晓最具影响力，最具创造性，最具前瞻性的行业领袖和顶级机构；为大家创造一个自由表达，共建行业生态的社交场合。\n时间：9 月 16 日\n地点：新加坡康莱德酒店\n请点击“原文链接”直接参与报名。",
+          "link": "https://www.odaily.news/newsflash/388933",
+          "publishedOn": "2024-09-04T06:30:00.000Z",
+          "wordCount": 1742,
+          "title": "Offchain Labs 联合创始人Steven Goldfelder确认出席“FAT Awards 2024”年度盛典",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388941",
+          "author": null,
+          "description": "Odaily星球日报讯 据官方消息，OKX Web3 钱包发现板块移动端现已上线 DApp 提醒功能，支持用户在 DApp 内一键添加提醒，或者通过 DApp 链接自定义添加提醒，操作快捷的同时，满足用户的多种需求。此外，用户还可以通过该功能一键同步至苹果日历和 Google 日历。通过站内站外提醒，可直达目标 DApp 方便快捷。\nOKX Web3 钱包是行业领先的一站式 Web3 入口，现已支持超过 100+公链，并提供 App、插件和网页三端统一的使用体验。",
+          "link": "https://www.odaily.news/newsflash/388941",
+          "publishedOn": "2024-09-04T06:27:52.000Z",
+          "wordCount": 1721,
+          "title": "OKX Web3 钱包移动端上线 DApp提醒功能",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388940",
+          "author": null,
+          "description": "Odaily星球日报讯 孙宇晨于 X 平台表示，SunPump 已完成 800 万美元的 SUN 代币销毁，还有 400 万美元的销毁计划待执行。",
+          "link": "https://www.odaily.news/newsflash/388940",
+          "publishedOn": "2024-09-04T06:26:28.000Z",
+          "wordCount": 1689,
+          "title": "孙宇晨：已完成800万美元SUN代币销毁",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
+        {
+          "id": "https://www.odaily.news/newsflash/388939",
+          "author": null,
+          "description": "Odaily星球日报讯 日本金融监管机构发布了 2025 财年税法全面改革计划，其中包括对加密资产作出规定以降低其税率。在 8 月 30 日的税收改革请求中，日本金融厅（FSA）重点强调了加密资产，力推将其视为可供公众投资的传统金融资产。FSA 写道：“关于加密货币交易的税收处理，加密货币应该被视为一种金融资产，应该成为公众的投资目标。”据加密货币会计师事务所 TokenTax 称，日本的加密货币利润目前作为杂项收入征税，税率在 15%至 55%之间。（Cointelegraph）",
+          "link": "https://www.odaily.news/newsflash/388939",
+          "publishedOn": "2024-09-04T06:18:54.000Z",
+          "wordCount": 1693,
+          "title": "日本监管机构呼吁在2025年降低加密货币税率",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/newsflash/388938",
           "author": null,
@@ -10386,6 +10616,146 @@
       "feedUrl": "https://rsshub.app/foresightnews/article",
       "siteUrl": "https://foresightnews.pro",
       "articles": [
+        {
+          "id": "foresightnews-article#67710",
+          "author": "深潮TechFlow",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67710",
+          "publishedOn": "2024-09-04T04:31:32.000Z",
+          "wordCount": 5369,
+          "title": "zkSync 创始人公开信：我们为什么要进行裁员？",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67698",
+          "author": "AiYing Compliance",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67698",
+          "publishedOn": "2024-09-04T04:16:19.000Z",
+          "wordCount": 5492,
+          "title": "从 SEC 对资管公司 Galois Capital 的指控看美国、香港、新加坡加密资产托管要求与合规解析",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67709",
+          "author": "肖飒 lawyer",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67709",
+          "publishedOn": "2024-09-04T04:12:24.000Z",
+          "wordCount": 10040,
+          "title": "庆祝｜飒姐执业 15 周年，专项法律服务回馈老友",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67708",
+          "author": "肖飒 lawyer",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67708",
+          "publishedOn": "2024-09-04T04:12:24.000Z",
+          "wordCount": 7769,
+          "title": "肖飒团队 | 涉案加密资产处置新规初现端倪？利好了谁？",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67707",
+          "author": "MetaCat",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67707",
+          "publishedOn": "2024-09-04T04:00:00.000Z",
+          "wordCount": 5816,
+          "title": "区块链作为娱乐与游戏的世界",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67706",
+          "author": "区块链头条",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67706",
+          "publishedOn": "2024-09-04T03:56:59.000Z",
+          "wordCount": 6015,
+          "title": "九月币圈大事件,牛熊掌握在手中",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67705",
+          "author": "SinoDAO",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67705",
+          "publishedOn": "2024-09-04T03:32:22.000Z",
+          "wordCount": 6362,
+          "title": "一家 AI 诊所在伦敦开业了",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67704",
+          "author": "深潮TechFlow",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67704",
+          "publishedOn": "2024-09-04T03:20:44.000Z",
+          "wordCount": 5695,
+          "title": "Arthur Hayes：牛市将推迟，美联储政策转向或引发 9 月市场变局",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67703",
+          "author": "ForesightNews 速递",
+          "description": "市场流动性恢复仍需要时间。",
+          "link": "https://foresightnews.pro/article/detail/67703",
+          "publishedOn": "2024-09-04T03:04:48.000Z",
+          "wordCount": 5572,
+          "title": "加密市场再度下跌：非农、CPI 以及美联储降息能否带来转机？",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67702",
+          "author": "曼昆区块链法律服务",
+          "description": "在当前的司法实践中，虚拟货币处置已经成为一个备受关注的焦点问题。",
+          "link": "https://foresightnews.pro/article/detail/67702",
+          "publishedOn": "2024-09-04T02:55:19.000Z",
+          "wordCount": 5413,
+          "title": "人民法院报发文，虚拟货币司法处置有何难点？",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67701",
+          "author": "WSPN",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67701",
+          "publishedOn": "2024-09-04T02:44:16.000Z",
+          "wordCount": 5388,
+          "title": "WSPN 将在 TOKEN2049 Singapore 期间举办稳定币主题边会”Stable Rise”",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67699",
+          "author": "区块链骑士",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67699",
+          "publishedOn": "2024-09-04T02:20:30.000Z",
+          "wordCount": 5445,
+          "title": "灰度 ETHE 解锁潮下，以太坊 ETF 资金最终将流向何方？",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67697",
+          "author": "DMZ Finance",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67697",
+          "publishedOn": "2024-09-04T01:48:35.000Z",
+          "wordCount": 5342,
+          "title": "卡塔尔金融中心发布《QFC 数字资产框架 2024》",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "foresightnews-article#67696",
+          "author": "比推 BitpushNews",
+          "description": "来源链接",
+          "link": "https://foresightnews.pro/article/detail/67696",
+          "publishedOn": "2024-09-04T01:41:45.000Z",
+          "wordCount": 5514,
+          "title": "为什么美国证券交易委员会对 NFT 的看法是错误的？",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
         {
           "id": "foresightnews-article#67695",
           "author": "DAOSquare",
