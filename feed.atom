@@ -2,10 +2,427 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-10-08T05:10:39.727Z</updated>
+    <updated>2024-10-08T06:15:02.816Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Infinex通过NFT销售募资6530万美元，并与Wormhole合作实现跨链功能]]></title>
+        <id>https://www.odaily.news/newsflash/394299</id>
+        <link href="https://www.odaily.news/newsflash/394299"/>
+        <updated>2024-10-08T06:12:58.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 DeFi 平台 Infinex 宣布已选择 Wormhole 作为其主要多链基础设施提供商。这一合作关系标志着“深度、多方面合作的开始”，更多的集成正在进行中，“未来几个月将推出更多功能”。Wormhole 的互操作性平台连接了 30 多个区块链，而 Infinex 的平台目前支持 6 个区块链：以太坊、Polygon、Base、Optimism 和 Arbitrum 以及 Solana。
+该平台最近通过出售“Patron NFT”募资 6530 万美元，共销售 41,252 枚 NFT，买家包括散户、Solana Ventures、Breyer Capital 以及 Solana 创始人 Anatoly Yakovenko 和 Aave 创始人 Stani Kulechov 等行业人士。Infinex 由 Synthetix 创始人 Kain Warwick 创立，旨在简化多链 DeFi 协议的使用，消除管理多个钱包和支付 gas 费等复杂性，其 TVL 已超过 1.25 亿美元。（The Block）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linea发起去中心化提案讨论，包括用于区块验证的权益证明模型]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/l9080zey.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/l9080zey.html"/>
+        <updated>2024-10-08T06:11:52.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月8日消息，据 The Block 报道，Consensys 支持的以太坊 L2 网络 Linea 在协议设计中提出了一项提案，详细介绍了实现去中心化所需的步骤。其中包括一个高级框架，用于将 zkEVM 过渡到无需许可的系统，并通过修改其现有的区块验证、区块提案和最终确定流程来建立去中心化治理。目标是让区块在 L2 和 L1 实现最终性。提案详细说明，在这种设置下，Linea 的排序器将确认 L2 的最终性，而当 L2 区块的数据和证明发布到以太坊上时，L1 的最终性将得到保障。
+Linea 的贡献者还提议用权益证明模型来取代网络当前的 L2 最终性系统，以进行区块验证。这将要求验证者质押代币并参与 QBFT 共识算法。该提案指出，行为不当的验证者将被削减，包括销毁其部分质押。此外还将引入链上拍卖系统来选择区块提议者，允许任何节点竞标该角色。出价最高的人将赢得提议区块的权利，出价金额将被烧毁以减少代币总供应量。恢复模式可确保即使验证器集六个月不活动，系统仍可继续运行。在这种情况下，任何节点都可以开始最终确定区块。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[专访CAT20：比特币生态最新焦点，能否终结Ordinals时代？]]></title>
+        <id>https://m.theblockbeats.info/flash/55269</id>
+        <link href="https://m.theblockbeats.info/flash/55269"/>
+        <updated>2024-10-08T06:09:03.000Z</updated>
+        <summary type="html"><![CDATA[采访/编辑：Jaleel 加六、Cookie，BlockBeats
+
+
+随着 Fractal Bitcoin 分型网络上线近一个月，CAT20 已成为协议上最火热、共识最强的项目之一。
+
+
+Fractal Bitcoin 的最大亮点之一就是激活了 OP_CAT 操作码，因而 OP_CAT 在比特币生态中的讨论愈加热烈。今年的比特币 Optech 时事通讯和开发者会议上，OP_CAT 成为频繁出现的关键词。相关阅读：《为什么你要关注比特币的 OP_CAT？闪电网络后的最大叙事》。
+
+
+而 CAT20 在 OP_CAT 上的研究上极深，因此 CAT20 的低调只维持了短短几小时，随后便迅速在社区中口口相传，引发了极大关注。在铸造的几天内，分型网络的矿工费率一度飙升至 5000 sats/vb。据 DotSwap 数据显示，当前一个 CAT 代币的价格维持在 1.28 美元左右（一张 9.2 美元）。早期铸造者的收益实现了 5 到 40 倍的涨幅。
+
+
+
+
+
+即使 Fractal Bitcoin 的热度最近有些下降，但 CAT 代币价格却保持强势，这背后有哪些原因？CAT20 的代码如此成熟，显然并非出自一个刚起步的团队。在这样的背景下，律动 BlockBeats 与 CAT20 官方进行了深入采访，揭示了 CAT20 的起源、背后的技术积累、CAT20 与 Fractal Bitcoin 的合作细节，以及 CAT20 对 Ordinals 协议的「威胁」。
+
+
+源起 6 年前，揭秘 CAT20 雏形的诞生
+
+
+作为基于 OP_CAT 操作码的创新比特币代币协议，CAT20 的起源可以追溯到六年前。其团队成员从 BCH 和 BSV 时代起便开始探索如何在比特币网络上实现智能合约，多年的技术积累为 CAT20 的诞生奠定了坚实的基础。在这一部分，CAT20 团队将详细分享他们的开发…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linea社区发起去中心化提案讨论，涉及区块验证、奖励分配等措施]]></title>
+        <id>https://www.odaily.news/newsflash/394297</id>
+        <link href="https://www.odaily.news/newsflash/394297"/>
+        <updated>2024-10-08T06:05:41.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Linea 社区发起关于 Linea 去中心化提案的讨论，目标是使 Linea 成为一个完全去中心化的 L2 链，并概述了为实现这一目标的一些建议，包括 L1-Finality & L2-Finality、区块验证的去中心化、恢复模式、区块提议者、L1 上 Linea 区块的 Finalization、奖励分配等。
+关于奖励分配，提案指出，为了使其与共识协议脱钩，验证者需要构建一个共识状态 Merkle 树，代表每个参与者所做的不同操作，包括投票和区块提案。这个 Merkle 树跟踪验证者需要执行的所有活动，因此可以利用它来计算每个验证者有权获得的奖励。然后，每个验证者可以通过提供他们执行的活动的一些证明来异步地声明他们的奖励，其声明的有效性将根据共识状态 Merkle 树进行检查。这种方法的一个优点是，不需要将与奖励分配相关的逻辑添加到共识层或执行层。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[摩根大通：未来几个月加密市场将受到Uptober、降息等多个关键因素影响]]></title>
+        <id>https://m.theblockbeats.info/news/265984</id>
+        <link href="https://m.theblockbeats.info/news/265984"/>
+        <updated>2024-10-08T06:04:43.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 8 日，据 The Block 报道，摩根大通分析师指出，未来几个月加密市场将受到多个关键因素的影响，包括季节性「Uptober」趋势、美联储降息、比特币 ETF 期权交易以及以太坊「Pectra」升级。
+
+
+报告提到，历史数据显示，超过 70% 的「Uptober」月份比特币收益为正，可能会对市场行为产生积极影响。此外，尽管美联储最近降息，但摩根大通分析师指出，更广泛的加密货币市场尚未看到预期的积极影响。他们表示，虽然利率下降的环境通常会支持风险资产，但加密货币总市值与联邦基金利率之间的相关性仍然很弱，为 0.46。
+
+
+分析师们表示，由于缺乏历史数据，很难准确预测加密货币对利率周期的反应，「加密资产实际上是在 2010 年代早期到中期才出现的，在它们存在的大部分时间里，利率都接近于零。稳定的利率，而不仅仅是低利率，可能会对这些市场最有利。」
+
+
+另一个潜在的催化剂是最近获批的现货比特币 ETF 期权交易。分析师预计，这可能会加深流动性，并吸引新的市场参与者。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Vitalik卖币”成Meme上涨发动机，一文解析Vitalik持仓与操作规律]]></title>
+        <id>https://www.odaily.news/post/5198900</id>
+        <link href="https://www.odaily.news/post/5198900"/>
+        <updated>2024-10-08T06:03:01.000Z</updated>
+        <summary type="html"><![CDATA[那问题来了，Vitalik卖ETH怎么不涨呢？]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zhu Su：已在0.473美元价位尝试做空SPX]]></title>
+        <id>https://www.odaily.news/newsflash/394296</id>
+        <link href="https://www.odaily.news/newsflash/394296"/>
+        <updated>2024-10-08T06:02:20.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 三箭资本联合创始人 Zhu Su 在 X 平台上发文表示，已尝试在 0.473 美元价位做空 Meme 币 SPX。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SunPump与Cryptorsy达成合作，共同推动波场TRON Meme生态发展]]></title>
+        <id>https://www.odaily.news/newsflash/394295</id>
+        <link href="https://www.odaily.news/newsflash/394295"/>
+        <updated>2024-10-08T06:01:02.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 SunPump 官方宣布与知名 Web3 营销工作室 Cryptorsy 达成生态合作，双方将共同致力于推动波场 TRON 网络上的 Meme 项目发展，为项目方提供更多增长机会和广泛曝光。这一合作不仅为波场 TRON 生态注入新动力，还将为 Meme 代币带来更多发展机遇。双方表示，未来将有更多令人期待的进展，进一步提升波场 TRON 在 Meme 领域的市场影响力和行业地位。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zhu Su：已在0.473美元价位尝试做空SPX]]></title>
+        <id>https://m.theblockbeats.info/news/265983</id>
+        <link href="https://m.theblockbeats.info/news/265983"/>
+        <updated>2024-10-08T06:00:25.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 8 日，三箭资本联合创始人 Zhu Su 在社交媒体上发文表示，已尝试在 0.473 美元价位做空 Meme 币 SPX。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[摩根大通：未来几个月加密市场将受到Uptober、降息等多个关键因素影响]]></title>
+        <id>https://www.odaily.news/newsflash/394294</id>
+        <link href="https://www.odaily.news/newsflash/394294"/>
+        <updated>2024-10-08T05:58:54.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 摩根大通分析师指出，未来几个月加密市场将受到多个关键因素的影响，包括季节性“Uptober”趋势、美联储降息、比特币 ETF 期权交易以及以太坊“Pectra”升级。
+报告提到，历史数据显示，超过 70%的“Uptober”月份比特币收益为正，可能会对市场行为产生积极影响。
+此外，尽管美联储最近降息，但摩根大通分析师指出，更广泛的加密货币市场尚未看到预期的积极影响。他们表示，虽然利率下降的环境通常会支持风险资产，但加密货币总市值与联邦基金利率之间的相关性仍然很弱，为 0.46。
+他们写道：“自美联储 9 月 18 日降息以来，我们还没有看到预期的低利率对加密货币价格的‘暴涨’。”他们补充说，市场可能会等待更持久的稳定，然后才会果断转变。
+此外，分析师们承认，由于缺乏历史数据，很难准确预测加密货币对利率周期的反应，“加密资产实际上是在 2010 年代早期到中期才出现的，在它们存在的大部分时间里，利率都接近于零。稳定的利率，而不仅仅是低利率，可能会对这些市场最有利。”
+另一个潜在的催化剂是最近获批的现货比特币 ETF 期权交易。分析师预计，这可能会加深流动性，并吸引新的市场参与者。（The Block）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Immunefi：以太坊仍是白帽黑客的首选区块链，Polygon排名升至第二]]></title>
+        <id>https://www.odaily.news/newsflash/394293</id>
+        <link href="https://www.odaily.news/newsflash/394293"/>
+        <updated>2024-10-08T05:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 根据 Immunefi 的 2024 年报告，尽管与 2023 年相比，受访者对以太坊的兴趣有所下降，但其仍然是加密白帽黑客的首选区块链，此外 Polygon、Arbitrum、Optimism 和 Solana 也获得了关注。
+具体而言，87%的受访者被以太坊吸引，低于 2023 年的 94%。Polygon 兴趣占比上升至 59%，排名升至第二，其次是 Arbitrum（47%）、Optimism（45%）。Solana 的兴趣占比也从 2023 年的 32%上升到 2024 年的 42%，排名第五。（The Block）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国庆假期你可能错过的Crypto重要消息]]></title>
+        <id>https://m.theblockbeats.info/flash/55274</id>
+        <link href="https://m.theblockbeats.info/flash/55274"/>
+        <updated>2024-10-08T05:51:03.000Z</updated>
+        <summary type="html"><![CDATA[长假结束，收工第一天，被隔壁大 A 涨服，但 7*24 的加密领域在这一周内依然发生了不少需要关注的大事，BlockBeats 将假期内值得关注的重要消息为读者整理如下。
+
+
+HBO 将上映试图解密中本聪身份的纪录片电影
+
+
+10 月 4 日，纪录片制片人 Cullen Hoback 和 HBO 宣布即将推出纪录片电影《MoneyElectric：比特币之谜》，该片试图解密中本聪身份。《MoneyElectric：比特币之谜》将于 10 月 8 日在 HBO 播出。影片中采访了声称在比特币发行后与创始人保持密切联系的人。其表示中本聪可能不是一个人，而是一群人。不过，预告片并没有提供足够的信息来揭示中本聪的身份。
+
+
+相关阅读：《本周将揭晓币圈最大谜底？「中本聪」到底是谁？》
+
+
+该片由艾美奖提名者、《Q：走进风暴》导演卡伦·霍巴克 (Cullen Hoback) 执导。目前 Polymarket 上用户认为 Len Sassaman 将会是这部纪录片中所揭示的「中本聪」。据悉，Len Sassaman 在与抑郁症斗争后于 2011 年自杀，因为他长期发表有关密码学的学术著作，这些著作常常显示出他对隐私和去中心化的坚定意识形态承诺，所以有人认为他就是中本聪。
+
+
+
+
+
+以太坊上 MOODENG 大幅上涨，meme 捐款做慈善成新宣传方式
+
+
+10 月 5 日，以太坊链上 Meme 币 MOODENG 市值突破 1100 万美元。暴涨源于以太坊联合创始人 Vitalik Buterin 通过 KyberSwap 卖出 117.6 亿枚 MOODENG 兑换为 21.033 枚 ETH（约 5.09 万美元）。10 月 7 日，Vitalik 地址再次出售 100 亿枚 MOODENG 获得 308.69 枚 ETH (76.2 万美元) 并将 260.16 枚 ETH (64.…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[21Shares呼吁欧洲证券和市场管理局统一加密货币ETF法规]]></title>
+        <id>https://www.odaily.news/newsflash/394292</id>
+        <link href="https://www.odaily.news/newsflash/394292"/>
+        <updated>2024-10-08T05:46:10.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 根据 10 月 7 日的一份声明，加密投资机构 21Shares 呼吁欧洲证券和市场管理局（ESMA）制定标准化法规，将加密货币纳入可转让证券集体投资（UCITS）基金。该公司指出，当前的做法缺乏一致性，例如，德国和马耳他允许 UCITS 基金包含加密货币，而卢森堡和爱尔兰则不允许。 
+21Shares 金融产品发展部主管 Mandy Chiu 解释称，这种碎片化的做法限制了散户投资者充分利用加密货币的能力：“通过在欧洲范围内提供一套一致的规则，ESMA 可以为投资者在受监管且旨在保护投资者的环境中开辟新的途径，以实现投资组合的多样化和增值。”Chiu 还指出，明确且一致的规则将有助于稳定市场，同时促进加密货币行业的增长。
+因此，21Shares 敦促 ESMA 制定全面的指导方针，允许所有欧盟成员国间接投资加密货币，这将保护投资者并拓宽加密货币投资的渠道。（CryptoSlate）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OKX HMSTR交易大赛进行中，参与有机会瓜分10万枚USDT奖金]]></title>
+        <id>https://m.theblockbeats.info/news/265982</id>
+        <link href="https://m.theblockbeats.info/news/265982"/>
+        <updated>2024-10-08T05:45:53.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 8 日，据官方消息，OKX HMSTR 交易大赛正在火热进行中。在 2024 年 9 月 27 日 12:00（UTC+8）至 2024 年 10 月 11 日 11:59（UTC+8）期间，用户参与该活动有机会瓜分 10 万 USDT 奖金，其中，交易量排名第一最高可领取 20,000USDT 现金，交易量排名前 3000 名均可获得奖金。
+
+
+此外，OKX HMSTR 奖池瓜分活动也在同步进行中，总奖池为 80,000,000 HMSTR。参与并满足交易条件的用户，将 100% 获得 HMSTR，本活动于 2024 年 10 月 4 日 23:59（UTC）结束。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OKX HMSTR交易大赛进行中，参与有机会瓜分10万USDT奖金]]></title>
+        <id>https://www.odaily.news/newsflash/394291</id>
+        <link href="https://www.odaily.news/newsflash/394291"/>
+        <updated>2024-10-08T05:45:14.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，OKX HMSTR 交易大赛正在火热进行中。在 2024 年 9 月 27 日 12：00 （UTC+8 ）至 2024 年 10 月 11 日 11：59 （UTC+8）期间，用户参与该活动有机会瓜分 10 万 USDT 奖金，其中，交易量排名第一最高可领取 20,000USDT 现金，交易量排名前 3000 名均可获得奖金。
+此外，OKX HMSTR 奖池瓜分活动也在同步进行中，总奖池为 80,000,000 HMSTR 。参与并满足交易条件的用户，将 100%获得 HMSTR，本活动于 2024 年 10 月 4 日 23：59（UTC）结束。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国嘻哈明星Cardi B的X账户疑被盗用，发布名为WAP的meme代币视频]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/l215hcnt.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/l215hcnt.html"/>
+        <updated>2024-10-08T05:43:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月8日消息，据 The Block 报道，美国说唱歌手 Cardi B 的 X 账号发布了一个名为 WAP 的 meme 代币的视频。PeckShield 对此表示： “Cardi B 的 X 帐户似乎已被盗用。与帖子中的任何地址/链接互动时请务必小心谨慎。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[巴林国家银行与ARP Digital合作推出比特币相关结构性投资基金]]></title>
+        <id>https://www.odaily.news/newsflash/394290</id>
+        <link href="https://www.odaily.news/newsflash/394290"/>
+        <updated>2024-10-08T05:41:10.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 巴林国家银行（NBB）宣布与 ARP Digital 合作推出其首个与比特币相关联的结构性投资基金，该投资产品专为合格投资者设计，在确保资本保值的同时提供获得比特币长期增长敞口的机会。（Khaleej Times）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solana Radar黑客松将于北京时间10月9日16时截止]]></title>
+        <id>https://www.odaily.news/newsflash/394289</id>
+        <link href="https://www.odaily.news/newsflash/394289"/>
+        <updated>2024-10-08T05:40:14.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 由 Solana 基金会举办的第十届 Radar 全球线上黑客松此前于 10 月 3 日已开启项目提交，并将于北京时间 10 月 9 日 16 时截止。据了解，本次黑客松共分设 DePIN、DeFi、DAOs&Network States、Payments、Consumer、Gaming、Infrastructure 7 大子赛道，每个子赛道前五名将共同瓜分 7.5 万美元的奖励。
+此前消息，Radar 黑客松设置了超过 60 万美元的总奖金、 25 万美元早期投资及来自 Colosseum 加速器的 1：1 孵化资格。参赛者可获得最高 5 万美元单项奖励与专项特别奖金。选择母语为华语或参赛地区选择香港/台湾/中国大陆/新加坡可瓜分额外 2 万美元的华语赛道奖池。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[德克萨斯州小镇居民因加密矿场噪音起诉Marathon Digital]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/j5eewv2t.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/j5eewv2t.html"/>
+        <updated>2024-10-08T05:38:03.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月8日消息，据 Cointelegraph 报道，德克萨斯州格兰伯里镇的二十多名居民对加密矿企 Marathon Digital 提起诉讼，声称其在该镇附近的矿场“噪音难以忍受”。诉讼称，一些当地人出现了疲劳、头痛、记忆力下降、听力丧失、偏头痛和耳鸣等症状。一些居民的高血压等原有健康状况也恶化了。居民们请求法院对矿企颁布永久禁令，以防止其“制造、造成或允许任何不合理的噪音”。他们还要求获得“可能合理应得的”任何赔偿以及诉讼费用。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arthur Hayes：避开CEX陷阱，项目在DEX上市有何优势？]]></title>
+        <id>https://www.odaily.news/post/5198899</id>
+        <link href="https://www.odaily.news/post/5198899"/>
+        <updated>2024-10-08T05:37:15.000Z</updated>
+        <summary type="html"><![CDATA[「花费巨大代价换取Binance的上架资格不值得」]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SUI链上Meme代币AAA 24小时涨超26%，市值达2420万美元]]></title>
+        <id>https://m.theblockbeats.info/news/265981</id>
+        <link href="https://m.theblockbeats.info/news/265981"/>
+        <updated>2024-10-08T05:32:48.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 8 日，据行情信息，SUI 链上 Meme 代币 AAA 24 小时涨超 26%，市值达 2420 万美元，24 小时交易量 66 万美元，流动性池 54 万美元。
+
+
+BlockBeats 提醒用户，Meme 币暂无实际用例，价格波动较大，投资需谨慎。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[星球午讯]]></title>
+        <id>https://www.odaily.news/newsflash/394287</id>
+        <link href="https://www.odaily.news/newsflash/394287"/>
+        <updated>2024-10-08T05:30:00.000Z</updated>
+        <summary type="html"><![CDATA[1.29 个 Solana 生态项目 2024 年 Q3 融资超 1.7 亿美元，为 2022 年 Q2 以来高点；
+2.某鲸鱼 10 小时前将 Stakestone 中质押的 1520 枚 ETH 全部取出并存入币安；
+3.某用户近 7 天内从从币安买入 6.95 亿枚 TURBO，约合 424 万美元；
+4.币安将不再支持 TORN 等空投代币/已下架代币提现，并将代币余额转换为等值 USDC；
+5.疑似 PORTAL 做市商地址 3 小时前从币安提出 260 万美元 ZRO，成为其持仓排名第二资产；
+6.USDT C2C 价格短时下跌约 1%，暂报 6.9 RMB；
+7.美国说唱歌手 Cardi B 的 X 账户疑似被盗并发布可疑代币合约地址；
+8.曾在 SHIB 上获利 1.45 亿美元实体 5 小时前将 1750 万枚 NEIROETH 换仓为 NEIRO；
+9.Kalshi 已列出押注美国大选结果的事件合约，标志选举预测市场首次获准在美运作；
+10.美联储威廉姆斯：9 月 50 个基点的降息并不是“我们未来行动的规则”；
+11.分析：美最高法院拒绝审理暗网丝绸之路上诉案，或取消 69370 枚比特币销售限制；
+12.贝莱德：加密货币采用速度超过互联网和手机；
+13.ZachXBT：某印度电话诈骗团伙盗取年长受害者超 500 万美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Polymarket上“预测HBO纪录片将认定Nick Szabo是中本聪”概率居首位]]></title>
+        <id>https://www.odaily.news/newsflash/394288</id>
+        <link href="https://www.odaily.news/newsflash/394288"/>
+        <updated>2024-10-08T05:29:46.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Polymarket 数据显示，当前关于“HBO 纪录片将认定谁是中本聪？”的预测投票中，美国计算机科学家 Nick Szabo 概率为 12.2%，排名第一；Blockstream 首席执行官 Adam Back 概率为 10.6%，位居第二；著名密码学家 Len Sassaman 概率为 11.5%，排名第三。
+目前该预测的投注金额超过 1200 万美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港证监会对虚拟资产交易平台现场审查首阶段已完成]]></title>
+        <id>https://m.theblockbeats.info/news/265980</id>
+        <link href="https://m.theblockbeats.info/news/265980"/>
+        <updated>2024-10-08T05:25:36.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 8 日，香港证监会行政总裁梁凤仪表示，已陆续完成首阶段的虚拟资产交易平台（VATP）现场审查，现场审查发现的缺失已告知申请平台，要求作出改善。
+
+
+梁凤仪补充称，香港证监会将适时公布下阶段计划，符合标准的平台将获有条件发牌，收到证监会指出有缺失地方的申请平台需向证监会提交方案作改善，而于先前 VATP 过渡期一样，下阶段计划亦会加设期限，于期限内未能满足及符合条件者将会丧失「被当作获发牌」并有序地结束香港业务。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[疑似属于B2C2 Group的地址过去24小时向CEX转入5895万枚USDC]]></title>
+        <id>https://m.theblockbeats.info/news/265979</id>
+        <link href="https://m.theblockbeats.info/news/265979"/>
+        <updated>2024-10-08T05:23:14.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 8 日，据 The Data Nerd 监测，过去 24 小时，某钱包（可能属于 B2C2 Group）向交易平台 Binance 、OKX、Coinbase、Kraken 共计存入 5895 万枚 USDC。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Arena将于下周上线ARENA代币]]></title>
+        <id>https://m.theblockbeats.info/news/265978</id>
+        <link href="https://m.theblockbeats.info/news/265978"/>
+        <updated>2024-10-08T05:20:34.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 8 日，Avalanche 生态社交协议 The Arena 于 X 发文表示：「我们计划下周上线代币。由于交易仍在进行中，我们将启动 Arena Uprising 活动作为 ARENA 代币推出的一部分，而不是提前一周。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[疑似B2C2钱包过去24小时内向CEX存入5895万枚USDC]]></title>
+        <id>https://www.odaily.news/newsflash/394286</id>
+        <link href="https://www.odaily.news/newsflash/394286"/>
+        <updated>2024-10-08T05:19:45.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 The Data Nerd 监测，在过去 24 小时内，一个钱包（可能属于 B2C2）共计向币安、OKX、Coinbase、Kraken 存入 5895 万枚 USDC。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某交易者在POPCAT上执行了8笔波段交易，总利润超100万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/mbcfo4mw.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/mbcfo4mw.html"/>
+        <updated>2024-10-08T05:14:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 10月8日消息，据 Lookonchain 监测，某交易者从 8 月 20 日至今已在 POPCAT 上执行了 8 笔波段交易，胜率为 100%，总利润超过 100 万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港证监会对虚拟资产交易平台现场审查首阶段已完成，将适时公布下阶段计划]]></title>
+        <id>https://www.odaily.news/newsflash/394285</id>
+        <link href="https://www.odaily.news/newsflash/394285"/>
+        <updated>2024-10-08T05:14:31.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 香港证监会行政总裁梁凤仪表示，已陆续完成首阶段的虚拟资产交易平台（VATP）现场审查，现场审查发现的缺失已告知申请平台，要求作出改善。
+梁凤仪补充称，香港证监会将适时公布下阶段计划，符合标准的平台将获有条件发牌，收到证监会指出有缺失地方的申请平台需向证监会提交方案作改善，而于先前 VATP 过渡期一样，下阶段计划亦会加设期限，于期限内未能满足及符合条件者将会丧失“被当作获发牌”并有序地结束香港业务。（明报）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美最高法院驳回Battle Born关于丝绸之路没收的69,370枚比特币所有权的案件]]></title>
+        <id>https://m.theblockbeats.info/news/265977</id>
+        <link href="https://m.theblockbeats.info/news/265977"/>
+        <updated>2024-10-08T05:14:07.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，10 月 8 日，据 Cointelegraph 报道，美国最高法院拒绝受理一桩关于 69,370 枚比特币（价值约 43.8 亿美元）所有权的案件，这些比特币是美国政府从暗网市场丝绸之路没收的。
+
+
+该上诉由 Battle Born Investments 提出，该公司声称通过破产资产购买了这些被没收的比特币的权益。最高法院拒绝审理此案，可能会让美国政府现在可以出售这批比特币。
+
+
+在此之前，Battle Born 未能说服地区法院（2022 年）和上诉法院（2023 年），其通过 2013 年 Silk Road 关闭后的一宗破产索赔获得了这些比特币。该公司声称，破产案中的债务人 Raymond Ngan 是神秘的「Individual X」，他从 Silk Road 中盗取了数十亿美元的比特币。
+
+
+两级法院都对此表示不信服。去年，一位旧金山上诉法院法官驳回了此案，称该公司对这批比特币没有合法索赔权。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zeta Markets将推出提高激励和费用折扣两项新功能]]></title>
+        <id>https://www.odaily.news/newsflash/394284</id>
+        <link href="https://www.odaily.news/newsflash/394284"/>
+        <updated>2024-10-08T05:13:35.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Zeta Markets 于 X 发文表示，ZEX 的实用性和使用正在升级，以增强其在 Zeta 生态系统中的作用。
+拟议的机制侧重于奖励 ZEX 质押者，并鼓励平台上增加交易活动。为了促进这一点，团队将推出两个关键功能：提高激励和费用折扣。质押加成将在 Epoch 3 中上线，敬请期待正式发布。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EMC Labs 9月报告：尘埃落定，货币扩张启动时的混乱与冲突]]></title>
+        <id>https://www.odaily.news/post/5198896</id>
+        <link href="https://www.odaily.news/post/5198896"/>
+        <updated>2024-10-08T05:09:57.000Z</updated>
+        <summary type="html"><![CDATA[加密资产市场复苏速度“低于”我们的预期，货币扩张趋势转向过程中的混乱与冲突阻压抑了行情。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Arena：将于下周上线ARENA，同时启动Arena Uprising活动]]></title>
         <id>https://www.odaily.news/newsflash/394283</id>
