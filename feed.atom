@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2024-11-05T19:08:04.666Z</updated>
+    <updated>2024-11-05T20:11:29.038Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[BTC短线跌破69000 USDT]]></title>
+        <id>https://www.odaily.news/newsflash/399276</id>
+        <link href="https://www.odaily.news/newsflash/399276"/>
+        <updated>2024-11-05T20:00:30.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 OKX 行情显示，BTC 跌破 69000 US­DT，现报 69052 US­DT，24H 涨幅收窄至 1.62%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特朗普媒体科技集团由涨转跌，再次触发熔断，跌幅扩大至4.1%]]></title>
+        <id>https://www.odaily.news/newsflash/399275</id>
+        <link href="https://www.odaily.news/newsflash/399275"/>
+        <updated>2024-11-05T19:58:29.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 特朗普媒体科技集团快速由涨转跌，再次触发熔断，跌幅扩大至 4.1%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[马斯克将与特朗普共度大选之夜]]></title>
         <id>https://m.theblockbeats.info/news/269219</id>
@@ -19946,332 +19966,6 @@ Ethena 是本轮周期少有的现象级 DeFi 项目，其代币上线后流通�
         <updated>2024-11-01T08:13:39.000Z</updated>
         <summary type="html"><![CDATA[PANews 11月1日消息，港股行情数据显示，截至收盘，今日所有香港虚拟资产ETF成交额约2717万港元。其中，华夏比特币ETF（3042.HK/9042.HK/83042.HK）成交额为950.05万港元，华夏以太币ETF（03046.HK/09046.HK/83046.HK）成交额为208.43万港元，嘉实比特币ETF（03439.HK/09439.HK）成交额为190.79万港元，嘉实以太币ETF（03179.HK/09179.HK）成交额259.8万港元，博时比特币ETF（03008.HK/09008.HK）成交额931.38港元，博时以太币ETF（03009.HK/09009.HK）成交额为176.77万港元。
 注：以上虚拟资产EFT均设有港币柜台和美元柜台，仅华夏两只ETF还设有人民币柜台。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[简析胖钱包理论：脱离协议和应用之外的价值累积]]></title>
-        <id>https://m.theblockbeats.info/flash/55596</id>
-        <link href="https://m.theblockbeats.info/flash/55596"/>
-        <updated>2024-11-01T08:09:53.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：The Fat Wallet Thesis
-原文作者：Robbie Petersen，Delphi Digital
-原文编译：zhouzhou，BlockBeats
-
-
-编者按：本文讲的是「Fat Wallet」理论，即钱包应用将逐渐主导区块链生态，因为它们掌握用户入口和交易流量。随着底层协议和应用的作用逐渐弱化，钱包能通过收取费用和提供推广服务盈利。Jupiter 和 Infinex 等应用可能会成为钱包的竞争者，但最终谁能抓住用户和订单流，谁就在加密经济中最具优势。
-
-
-以下为原文内容（为便于阅读理解，原内容有所整编）：
-
-
-在加密货币的发展历史中，关于价值最终将如何在区块链生态系统中积累的讨论一直在进行。尽管历史上核心争论主要集中在协议和应用之间，但在这个生态系统中还有一个被大家忽视的第三层——钱包。
-
-
-「肥胖钱包理论」主张，随着协议和应用的不断「变薄」，拥有两个最有价值资源——分发和订单流的个体将获得更多的空间。此外，作为最终的前端，我认为没有人比钱包更有能力将这一价值货币化。
-
-
-本文旨在实现三项目标，首先将概述三种结构性趋势，这些趋势将继续使协议层和应用层商品化。其次，我们将探索钱包如何利用其与最终用户的接近性实现货币化的各种途径，包括支付订单流（Payment-For-Order-Flow，PFOF）和出售应用分发作为服务（Distribution as a Service，DaaS）。
-
-
-最后，我们将探讨为什么两种替代前端——Jupiter 和 Infinex——最终可能在拥有最终用户的竞争中胜过钱包。
-
-
-更薄的协议和应用
-
-
-关于价值最终将如何在区块链生态系统中积累的问题可以简化为一个简单的框架。对于加密生态系统的每一层，问自己以下问题：
-
-
-如果这一层中的某个产品提高了其提成率，用户会不会转向更便宜的替代品？
-
-
-换句话说，如果 Arbi…]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[某巨鲸自10月11日至今已花费1068万枚USDC押注特朗普胜选]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/260wkmq6.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/260wkmq6.html"/>
-        <updated>2024-11-01T08:01:42.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月1日消息，据Lookonchain监测，巨鲸zxgngl今日再次从币安提出275万枚USDC押注特朗普赢得大选。10月11日至今，该巨鲸在Polymarket上共花费1068万枚USDC押注特朗普胜选。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第145次以太坊ACDC会议：Pectra Devnet 4未出现重大问题]]></title>
-        <id>https://m.theblockbeats.info/news/268764</id>
-        <link href="https://m.theblockbeats.info/news/268764"/>
-        <updated>2024-11-01T08:01:34.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，Galaxy 研究副总裁 Christine Kim 发文总结第 145 次以太坊核心开发者共识（ACDC）电话会议。本周开发人员讨论了希望纳入 Pectra Devnet 5 的 Pectra 规范变更；Pectra Devnet 4 未出现重大问题，团队已实施各种修复措施，使所有用户都能在开发网络上提出区块建议；PeerDAS Devnet 3 在进行了 100,000 个插槽（slot）的重组后已经关闭；在以太坊开发者大会 Devcon 结束前，团队很可能不会推出新的 PeerDAS 开发网络。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BNB Chain完成第29次BNB季度销毁，共销毁价值约10.7亿美元BNB]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/va449jpf.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/va449jpf.html"/>
-        <updated>2024-11-01T07:59:02.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月1日消息，据官方消息，BNB Chain完成第29次BNB季度销毁，本次共计销毁1772712.363枚BNB，销毁时美元价值约为10.7亿美元。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chameleon.Travel宣布获得日本国家旅游协会颁发的经营许可]]></title>
-        <id>https://m.theblockbeats.info/news/268763</id>
-        <link href="https://m.theblockbeats.info/news/268763"/>
-        <updated>2024-11-01T07:57:13.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，Chameleon Travel Club 在社交媒体上发文表示，该项目已获得日本国家旅游协会（JNTA）颁发的旅行许可证，允许其在日本全国开展全球旅游业务，相关线下门店已于今日正式开业。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WisdomTree近20小时共向Coinbase存入8258枚BTC，价值近6亿美元]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/933q8kbp.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/933q8kbp.html"/>
-        <updated>2024-11-01T07:53:26.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月1日消息，据Onchain Lens监测，在过去20小时内，WisdomTree向Coinbase存入了8258枚BTC，价值5.9889亿美元，以及48.83枚ETH，价值12.5万美元。
-WisdomTree仍持有5,611枚BTC，价值3.88亿美元，以及16,767ETH，价值4,190万美元。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[巨鲸zxgngl今日再次从币安提出275万枚USDC押注特朗普胜选]]></title>
-        <id>https://www.odaily.news/newsflash/398551</id>
-        <link href="https://www.odaily.news/newsflash/398551"/>
-        <updated>2024-11-01T07:53:23.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据 Lookonchain 监测，巨鲸 zxgngl 今日再次从币安提出 275 万枚 USDC 押注特朗普赢得大选。10 月 11 日至今，该巨鲸在 Polymarket 上共花费 1068 万枚 USDC 押注特朗普胜选。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[某鲸鱼地址今日再次从Binance提币275万USDC以押注特朗普胜选]]></title>
-        <id>https://m.theblockbeats.info/news/268762</id>
-        <link href="https://m.theblockbeats.info/news/268762"/>
-        <updated>2024-11-01T07:49:42.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，据 Lookonchain 监测，鲸鱼地址、Polymarket 用户「zxgngl」今日再次从 Binance 提币 275 万 USDC 以押注特朗普胜选。
-
-
-自 10 月 11 日以来，该鲸鱼地址总共花费了 1068 万枚 USDC 押注特朗普赢得美国大选。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[过去20小时内WisdomTree向Coinbase存入了8258枚BTC及48.83枚ETH，共约5.99亿美元]]></title>
-        <id>https://www.odaily.news/newsflash/398550</id>
-        <link href="https://www.odaily.news/newsflash/398550"/>
-        <updated>2024-11-01T07:48:32.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据 Onchain Lens 监测，在过去 20 小时内，WisdomTree 向 Coinbase 存入了 8258 枚 BTC（约合 5.9889 亿美元）以及 48.83 枚 ETH（约合 12.5 万美元）。目前 WisdomTree 仍持有 5611 枚 BTC，价值 3.88 亿美元，以及 16767 枚 ETH，价值约合 4190 万美元。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第145次以太坊ACDC会议：Pectra Devnet 4未出现重大问题]]></title>
-        <id>https://www.odaily.news/newsflash/398554</id>
-        <link href="https://www.odaily.news/newsflash/398554"/>
-        <updated>2024-11-01T07:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Galaxy 研究副总裁 Christine Kim 发文总结第 145 次以太坊核心开发者共识（ACDC）电话会议。本周开发人员讨论了希望纳入 Pectra Devnet 5 的 Pectra 规范变更；Pectra Devnet 4 未出现重大问题，团队已实施各种修复措施，使所有用户都能在开发网络上提出区块建议；PeerDAS Devnet 3 在进行了 100,000 个插槽（slot）的重组后已经关闭；在以太坊开发者大会 Devcon 结束前，团队很可能不会推出新的 PeerDAS 开发网络。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BNB Chain完成第29次BNB季度销毁，销毁价值约10.7亿美元]]></title>
-        <id>https://www.odaily.news/newsflash/398549</id>
-        <link href="https://www.odaily.news/newsflash/398549"/>
-        <updated>2024-11-01T07:43:45.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，BNB Chain 完成第 29 次 BNB 季度销毁，本次共计销毁 1772712.363 枚 BNB，销毁时价值约为 10.7 亿美元。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bybit推出链上赚币，提供极简质押服务]]></title>
-        <id>https://www.odaily.news/newsflash/398548</id>
-        <link href="https://www.odaily.news/newsflash/398548"/>
-        <updated>2024-11-01T07:42:21.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Bybit 近日发布全新链上赚币（On-Chain Earn）无缝质押服务，提供直接、无阻碍的区块链质押体验。自 10 月 30 日起，Bybit 用户无需处理节点管理、Gas 费用等复杂技术设置，即可通过新功能享受质押奖励，并且为零售用户打造 CeFi（中心化金融）和 DeFi（去中心化金融）的便捷通道。
-链上赚币由 Bybit 提供全面技术支持，助力用户轻松通过 PoS 机制获取收益，主要优势包括：
-简便质押：轻松点击即可质押 ETH、SOL 等热门加密货币，具体技术管理由平台负责。
-提升收益，支持去中心化：用户获得收益之余，可以为心仪的区块链安全和去中心化做贡献。
-激励与创新：未来将推出更多奖励和链上创新机会，结合 CeFi 与 DeFi 体验。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BNB Chain完成第29次BNB季度销毁，本次销毁价值10.7亿美元的BNB]]></title>
-        <id>https://m.theblockbeats.info/news/268760</id>
-        <link href="https://m.theblockbeats.info/news/268760"/>
-        <updated>2024-11-01T07:40:45.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，据官方消息，BNB Chain 完成第 29 次 BNB 季度销毁，本次共计销毁 1772712.363 枚 BNB，销毁时美元价值约为 10.7 亿美元。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「ETH maxis到SOL maxis」的心路之旅]]></title>
-        <id>https://m.theblockbeats.info/flash/55592</id>
-        <link href="https://m.theblockbeats.info/flash/55592"/>
-        <updated>2024-11-01T07:38:16.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：0x992，DDEX 联创、MinDao，dForce 创始人
-编者语：近期，以太坊的表现似乎不如 Solana，引起了业内的激烈讨论。DDEX 联创 0x992 在与 dForce 创始人 MinDao 的交流中，探讨了「Sol 升 ETH 降」这一现象。Solana 的 MEME 生态正在崛起，表现出类似于 2017 年以太坊 ICO 的繁荣。0x992 认为 Solana 的流动性和市场热度正在吸引大量投资者的注意，Solana 可能成为下一个以太坊。而 MinDao 则提出了不同的看法，他认为以太坊的 ICO 时代是其基础设施发展的重要时期，至今仍在影响着 DeFi 的核心生态。而以太坊在关键指标上并不逊色于 Solana，并对 Solana 的 Meme 文化能否持续表示担忧。他担心 Solana 的极商品化特征可能使其缺乏真正的竞争优势。BlockBeats 转载全文如下：
-
-
-0x992（DDEX 联创）
-
-早上和 @mindaoyang 老师聊「Sol 升 ETH 降」
-
-
-1. Sol MEME 2024 = ETH ICO 2017. 本质为资产发行, Sol Meme 1 美金 Liquidity 40 倍放大 FDV 
-
-
-2. @getgrass_io airdrop 150 万地址领空投，@phantom 宕机 都是 bullish signal, 上一次 block space 求大于供是 2017 年 @ethstatus@brave ICO 和 @CryptoKitties
-
-
-
-
-
-3. 买 FTX 锁仓打折 Sol 的 Galaxy Digital 不会 paper hands 出货，因为他们想要赚的是 RPC 和 MEV Arb 的钱，有多少 staked% SOL 就有多少 MEV searcher profit 机会。S…]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[某MEV机器人花费46枚ETH矿工费发起三明治攻击，仅获利49美元]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/j5txj0sh.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/j5txj0sh.html"/>
-        <updated>2024-11-01T07:34:45.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月1日消息，据链上分析师@ai_9684xtpa监测，约半个小时前，知名MEV机器人jaredfromsubway.eth对两个地址发起三明治攻击，让受害者一号以均价2702ETH的高价买入666枚ETH，受害人二号以0.0000027636美元均价的低价抛售POCHITA。
-整个交易矿工费达46.08枚ETH，即11.5万美元，利润仅49美元。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[媒体报道 | 海外媒体聚焦：波场TRON作为红宝石赞助商参与普林斯顿区块链社团活动]]></title>
-        <id>https://www.odaily.news/post/5199491</id>
-        <link href="https://www.odaily.news/post/5199491"/>
-        <updated>2024-11-01T07:25:14.000Z</updated>
-        <summary type="html"><![CDATA[近日，据 Cointelegraph、The Block 和 Blockworks 等国际权威媒体报道，波场 TRON 以红宝石赞助商的身份参与了普林斯顿区块链社团（Princeton Blockchain Club）第三届 Crypto TigerTrek 活动。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[社区生态 | Coinsbee已支持波场TRON]]></title>
-        <id>https://www.odaily.news/post/5199490</id>
-        <link href="https://www.odaily.news/post/5199490"/>
-        <updated>2024-11-01T07:25:09.000Z</updated>
-        <summary type="html"><![CDATA[Coinsbee 已支持波场 TRON，用户现可在 Coinsbee 使用 TRX 进行日常购物。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[媒体报道 | 外媒聚焦Messari最新研报：波场TRON链上活动推动协议收入达到新高峰]]></title>
-        <id>https://www.odaily.news/post/5199489</id>
-        <link href="https://www.odaily.news/post/5199489"/>
-        <updated>2024-11-01T07:25:05.000Z</updated>
-        <summary type="html"><![CDATA[近日，据 Benzinga、CryptoSlate 和 Crypto Briefing 等权威外媒报道， Messari 近日发布了关于波场 TRON 第三季度业绩表现的研究报告。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据突破 | TRC20-USDT发行量突破627亿枚，创历史新高]]></title>
-        <id>https://www.odaily.news/post/5199488</id>
-        <link href="https://www.odaily.news/post/5199488"/>
-        <updated>2024-11-01T07:25:01.000Z</updated>
-        <summary type="html"><![CDATA[TRC 20-USDT 发行量突破 627 亿枚，创历史新高。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lista DAO上lisUSD稳定币质押奖励提升至14.15%]]></title>
-        <id>https://m.theblockbeats.info/news/268759</id>
-        <link href="https://m.theblockbeats.info/news/268759"/>
-        <updated>2024-11-01T07:24:21.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，据 Lista DAO 质押界面，稳定币 lisUSD 单笔质押奖励提升至 14.15%。
-
-
-Lista DAO 是流动性质押和去中心化稳定币借贷协议。用户可以在 Lista 上进行质押和流动性质押，以及使用一系列去中心化抵押品借入 lisUSD。该协议由以下协同配合的主要部分组成：去中心化稳定币 lisUSD 以及 BNB 流动质押代币 slisBNB。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[福布斯：DCG是否从朝鲜黑客非法活动中获利？]]></title>
-        <id>https://www.odaily.news/post/5199493</id>
-        <link href="https://www.odaily.news/post/5199493"/>
-        <updated>2024-11-01T07:23:38.000Z</updated>
-        <summary type="html"><![CDATA[DCG去年6月至今从混币器Railgun获得了约43万美元资金。有调查显示，Railgun可能涉嫌朝鲜黑客集团Lazarus Group的非法洗钱活动。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Suilend推出sSUI，通过LST可即时赎回特性免除清算问题]]></title>
-        <id>https://www.odaily.news/newsflash/398547</id>
-        <link href="https://www.odaily.news/newsflash/398547"/>
-        <updated>2024-11-01T07:23:24.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Suilend 宣布推出 sSUI，相较其他流动性质押代币（LST），Suilend 基于 SIP-33 赋予 sSUI 可即时赎回特性，确保代币不会脱锚并免除清算问题。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[某MEV机器人花费46 ETH矿工费发起三明治攻击，仅获利49美元]]></title>
-        <id>https://www.odaily.news/newsflash/398546</id>
-        <link href="https://www.odaily.news/newsflash/398546"/>
-        <updated>2024-11-01T07:22:22.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据链上分析师 Ai 姨监测，15 分钟前，知名 MEV 机器人 jaredfromsubway.eth 对两个地址发起三明治攻击，让受害者一号以均价 2702 ETH 的高价买入 666 枚 ETH，受害人二号以 0.0000027636 美元均价的低价抛售 POCHITA。整个交易矿工费达 46.08 ETH，即 11.5 万美元，利润仅 49 美元。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[某MEV机器人花费46 ETH矿工费发起三明治攻击，仅获利49美元]]></title>
-        <id>https://m.theblockbeats.info/news/268758</id>
-        <link href="https://m.theblockbeats.info/news/268758"/>
-        <updated>2024-11-01T07:21:33.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，11 月 1 日，据链上数据分析师 @ai_9684xtpa 监测，15 分钟前，知名 MEV 机器人 jaredfromsubway.eth 对两个地址发起三明治攻击，让受害者一号以均价 2702 ETH 的高价买入 666 枚 ETH，受害人二号以 0.0000027636 美元均价的低价抛售 POCHITA。
-
-
-整个交易矿工费达 46.08 ETH，即 11.5 万美元，利润仅 49 美元。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase Q3交易数据：机构交易量占比超80%，比特币交易占比达37%]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/o5gbvnxy.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/o5gbvnxy.html"/>
-        <updated>2024-11-01T07:20:02.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月1日消息，根据Coinbase最新发布的2024年第三季度股东信中的数据显示：总交易量为1850亿美元，环比Q2下降18%；机构投资者交易量为1510亿美元，占总交易量的81.6%，继续保持主导地位；散户投资者交易量为340亿美元，占比18.4%。从加密资产交易结构来看：比特币交易份额升至37%，环比上升2个百分点；以太坊维持在15%的水平；USDT交易占比从10%回升至15%；其他加密资产占比下降至33%；值得注意的是，Solana在交易收入中的占比已达到11%。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CATI Launchpool即将登陆TON Space内置钱包]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/9kc15rpy.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/9kc15rpy.html"/>
-        <updated>2024-11-01T07:15:15.000Z</updated>
-        <summary type="html"><![CDATA[PANews 11月1日消息，在Gateway2024大会期间，TON 基金会董事、TheOpenPlatform (TOP) CEO Andrew宣布，CATI Launchpool即将登陆TON Space内置钱包。TON Space 是 Telegram APP 内置的非托管钱包，此前主要服务于Telegram和TON 官方的支付功能。
-Gateway是TON社区重要的年度活动，由TONSociety 主办，TON区块链提供支持，于11月1日至2日在迪拜会议中心君悦酒店举行。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
