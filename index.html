@@ -51,11 +51,791 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-11-27 datetime="2024-11-27T00:50:53.000Z">2024-11-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-11-27 datetime="2024-11-27T00:50:53.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-11-27 datetime="2024-11-27T02:17:50.000Z">2024-11-27</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-11-27 datetime="2024-11-27T02:17:50.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >律动BlockBeats</button>
+                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272100"
+                        open
+                      >
+                        <summary class="article-expander__title">ZRC突破0.078美元，24小时涨超23%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272100">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据 HTX 行情数据，Zircuit (ZRC) 突破 0.078 美元，现报价 0.0783 美元，24 小时涨幅 23.4%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272099"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik向加密智库Coin Center捐赠320枚ETH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272099">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据链上数据，26 分钟前，以太坊联合创始人 Vitalik Buterin 向加密智库 Coin Center 捐赠 320 枚 ETH（约 106 万美元）。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/55934"
+                        open
+                      >
+                        <summary class="article-expander__title">Nubit完成BitVM IDE：比特币上的首个零知识证明开发工具</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/55934">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：Nubit
+
+
+近日，继发布首个 BitVM 形式化验证研究成果后，Nubit 再次推动比特币编程能力升级，完成并发布了 BitVM IDE（Integrated Development Environment，集成开发环境）。
+
+
+这是一款基于 BitVM 在比特币上验证零知识证明（Zero-Knowledge Proof, ZKP）的开发工具。它允许开发者体验编写零知识电路、并快速、直接地在比特币网络上验证零知识证明的全部过程。这为比特币网络大幅降低技术难度，开发无需信任、且隐私性强的应用证明了切实可行的新路径。
+
+
+BitVM IDE 由 Nubit 联合 ZeroSync、Alpen Labs、Citrea 等合作伙伴共同推出。作为比特币生态的重要推动者，Nubit 正在成为比特币的「去信任世界计算机（Trustless World Computer for Bitcoin）」，让开发者能够利用比特币原生技术构建任何应用，推动比特币生态的大规模采用。
+
+
+
+BitVM IDE（示意图）
+
+
+关于 BitVM IDE
+
+
+以下内容摘取并编译自 Nubit 官方推文及博客：
+
+
+· BitVM IDE
+
+
+· BitVM IDE 视频演示
+
+
+· 博客原文
+
+
+BitVM IDE 提供了一个直观的界面，用户可以通过该工具在比特币网络上验证任意计算。其核心功能包括：
+
+
+· 编写和测试零知识证明电路
+
+
+· 提交并验证比特币网络上的 ZKP
+
+
+和过去需要大量运算及时间的验证相比，基于 Nubit 技术完成的 BitVM IDE，其核心是让开发者直观感受到验证过程的简化及加速。
+
+
+例如，用户可以使用 BitVM IDE 验证输入值是否满足特定公式（如 x * y &#x3D; z）。整个流程如下：
+
+
+1. 初始化交易：点击「Kickoff」按钮开启交易流程；
+
+
+2. 提交电路数据：输入 x, y, z 的值并点击「Assert」提交证明；
+
+
+  · 有效证明：进入「Payout」阶段领取比特币；
+
+
+  · 无效证明：进入「Disprove」阶段发起挑战；
+
+
+3. 领取奖励：在证明有效后确认交易并点击「Payout」领取比特币；
+
+
+4. 挑战无效证明：若证明无效，点击「Disprove」发起挑战，成功后确认证明无效。
+
+
+此外，BitVM IDE 还提供实时链上状态追踪以及会话重置功能，为开发者提供了便捷的开发环境。
+
+
+持续探索：从 BitVM IDE 到 Goldinals
+
+
+目前，BitVM IDE 支持基础电路验证功能（如 x * y &#x3D; z），未来将支持自定义电路功能，进一步拓展其应用场景。
+
+
+对 Nubit 来说，比特币原生技术的探索及开发，Nubit DA 及 BitVM IDE 的诞生还远远不够。Nubit 还在基于 BitVM 开发全新的资产协议——Goldinals。通过将执行证明与每笔交易绑定，Goldinals 将降低对中心化索引器的依赖，支持多样化的可编程资产类型。此资产协议有望在 2024 年结束前推出。Nubit 正与 ZeroSync、Alpen Labs 和 Citrea 等合作伙伴紧密合作，将 BitVM 应用推向更广泛的场景，持续推动比特币生态的可编程性。
+
+
+关于 Nubit
+
+
+由美国加州大学圣芭芭拉分校 (UCSB) 教授 Yu Feng 及其科研团队创立，Nubit 正在构建比特币的信任最小化世界计算机（Trustless World Computer for Bitcoin），通过比特币原生技术实现开放式扩展。作为全球领先的比特币开发平台之一，Nubit 致力于为开发者提供工具和解决方案，推动比特币原生应用的普及，助力比特币生态的全面发展。
+
+
+如需了解更多信息，请访问 Nubit 官网 或 BitVM IDE 平台。
+
+
+本文来自投稿，不代表 BlockBeats 观点</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272098"
+                        open
+                      >
+                        <summary class="article-expander__title">Pump Science：URO和RIF创建钱包攻击者正发行更多欺诈代币，用户需警惕风险</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272098">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，Pump Science 在社交平台上表示，「攻击者正在从我们被攻陷的钱包中发行更多代币。这些代币并非由我们团队创建，该钱包已被攻陷。
+
+
+再次重申，这些代币都不是由我们团队发布的，这些代币都是欺诈性的。
+
+
+请勿信任 PSCIENCE 的资料页。」</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272097"
+                        open
+                      >
+                        <summary class="article-expander__title">巴西国会将考虑建立比特币储备作为应对全球风险的对冲工具</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272097">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据 Cointelegraph 报道，巴西国会提出了一项新法案，计划建立一个主权比特币储备，可能会重塑该国对数字资产的态度。
+
+
+该法案由国会议员 Eros Biondini 于 11 月 25 日提出，旨在创建一个名为 RESBit 的主权战略比特币储备。
+
+
+根据该立法，比特币储备可以保护该国的主权储备免受货币波动和地缘政治风险的影响，同时也可作为巴西即将推出的中央银行数字货币的担保。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272073"
+                        open
+                      >
+                        <summary class="article-expander__title">跨链交易聚合平台Unizen与拉美银行交易网络SuRed达成合作</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272073">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，跨链交易聚合平台 Unizen 宣布和拉丁美洲最大的银行交易网络 SuRed 合作。此次合作是跨链聚合平台第一次和传统金融实际结合。SuRed 的 1200 万用户可以直接通过 27000+ATM 网点直接交易 USDT、ETH、BTC 和 Unizen 代币 ZCX。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/55939"
+                        open
+                      >
+                        <summary class="article-expander__title">11月27日关键市场信息差，一定要看！｜Alpha早报</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/55939">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>精选要闻
+
+
+1.TORN 突破 38 美元，24 小时涨超 940%
+2.：WalletConnect 已开放 WCT 空投资格查询
+3.市场消息：美国法院裁定针对 Tornado Cash 智能合约的制裁违法
+4.ZKasino 团队挪用用户资金持续杠杆做多 ETH，杠杆成本均价 3402 美元
+5.Glassnode：许多长期持有者仍等待更高价格才会将 BTC 释放回流通市场
+
+
+文章&amp;Threads
+
+
+1.《百亿美元「加密总统套」，特朗普牛市的阳谋｜牛市抄底指南》
+Ray，BlockBeats
+这轮周期有不少老玩家和老韭菜都觉得 2024 年的牛市风格迥异，和 21 年不是一个难度。难在没有原生叙事创、难在没有新韭菜入场、难在天量高 FDV 项目进场收割、难在心心念念多年的 Mass adaption 依然没有下文...... 然而正如狄更斯所言，「这是最好的时代，也是最坏的时代」。财富密码的谜底，往往都写在谜面上。
+
+
+2.《预言机真的是去中心化的吗？》
+100y.eth
+如何成为数据源和操作者：任何在 EigenLayer 上操作的人都可以通过设置 eOracle 节点成为 eOracle 数据验证者。总价值安全/加密经济安全：尽管仍处于早期阶段，eOracle 通过 1 个协议确保了约 8500 万美元的总价值。作为 EigenLayer 的 AVS 的一部分，它由约 10.1B 美元的重新抵押 ETH 提供支持。争议处理和削减：虽然恶意行为的确切标准尚未公开，但作为 EigenLayer AVS 的一部分，eOracle 可以对恶意验证者实施削减。
+
+
+24H 热门项目（‼️高 Rug 风险‼️）
+
+
+每日新项目或社区关注动态，按 X Alpha 帐号关注数量和增长筛选并排列
+数据来源：getmoni.io
+BlockBeats 注：以下均为关注人数较少的早期项目，Rug 及合约风险极高，须谨慎参与，非投资建议
+
+
+1. AMIX（@Ami_X_AI）
+一个 AI meme。
+
+
+
+2.fric(@fricthefrog）
+一个青蛙 meme。
+
+
+
+3.Yuma（@YumaGroup）
+DCG 成立的专门为 Bittensor 生态开发提供资金的子公司。
+
+
+
+市场数据
+
+
+每日市场整体资金热度（根据资金费率反映）与代币解锁
+
+
+数据来源：Coinglass、TokenUnlocks
+
+
+Funding Rate
+
+
+
+
+
+代币解锁</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272096"
+                        open
+                      >
+                        <summary class="article-expander__title">Worldcoin在巴拿马推出World ID验证服务</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272096">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据官方消息，Worldcoin 宣布已于巴拿马推出 World ID 验证服务。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272095"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik卖出DOG，兑换为10.961枚ETH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272095">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据 Zerion 监测，2 分钟前，以太坊联合创始人 Vitalik Buterin 卖出 DOG，兑换为 10.961 枚 ETH。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272094"
+                        open
+                      >
+                        <summary class="article-expander__title">消息人士：前SEC委员Paul Atkins仍是最有可能领导SEC的人选</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272094">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，FOX 记者 Eleanor Terrett 在社交媒体发文表示，据两位接近海湖庄园讨论情况的消息人士透露，在特朗普过渡团队的高层成员中，前 SEC 委员 Paul Atkins 仍然是最有可能领导 SEC 的人选。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272087"
+                        open
+                      >
+                        <summary class="article-expander__title">渣打银行：比特币可能在85,000至88,700美元区间盘整，之后恢复上涨</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272087">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，渣打银行全球数字资产研究主管 Geoff Kendrick 指出，比特币近期回调受到多个因素的影响，包括美国国债市场的变化以及即将到来的月度期权到期。
+
+
+Kendrick 将近期市场动荡（包括比特币的下跌和长期美国国债的反弹）归因于美国国债期限溢价的减少。期限溢价是投资者为持有长期债券而要求的额外收益，相较于不断滚动的短期债券。
+
+
+渣打分析师表示，由于比特币通常被视为对抗传统金融市场不稳定性的对冲工具，美国国债的信心提升可能会在短期内减少比特币的吸引力，从而导致其价格下跌。
+
+
+「这对比特币很重要，因为比特币的核心用途之一是对冲传统金融市场的问题，尤其是银行业或国债相关的问题，」Kendrick 在周二的一份报告中表示。「因此，较低的期限溢价会打压比特币，至少是暂时的。」
+
+
+尽管如此，他仍然对比特币的长期前景持乐观态度。Kendrick 重申了他对比特币的年终目标为 125,000 美元，并预测到 2025 年底比特币价格将进一步增长至 200,000 美元。
+
+
+Kendrick 指出，根据 Deribit 的数据，在行权价介于 85,000 美元至 100,000 美元之间的期权未平仓合约中，共有 18,000 枚比特币，这可能会在期权到期前限制价格波动。「这通常意味着随着期权到期临近，价格会停滞不前，」Kendrick 说道。
+
+
+然而，他表示，尽管比特币出现回调，但机构投资者的需求仍然强劲。Kendrick 指出，自本月初美国大选以来，现货比特币 ETF 已累计购买了约 77,000 枚比特币，而 MicroStrategy（MSTR）则额外购买了 134,000 枚比特币。
+
+
+「MicroStrategy 的购买没有放缓的迹象，而且它们不太可能出售，但自美国大选以来，现货 ETF 和 MicroStrategy 的平均购买价格为 88,700 美元，」Kendrick 表示。「这可能会成为一个短期的支撑位，比特币可能会在 85,000 美元到 88,700 美元之间盘整，之后再恢复上涨轨迹。」（The Block）</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272086"
+                        open
+                      >
+                        <summary class="article-expander__title">TORN突破38美元，24小时涨超940%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272086">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据行情数据，Tornado Cash（TORN）突破 38 美元，现报价 38.16 美元，24 小时涨幅 946%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272085"
+                        open
+                      >
+                        <summary class="article-expander__title">AI meme币UBC市值短时突破1亿美元，创历史新高</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272085">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据 GMGN 行情，Solana 生态 AI meme 币 UBC 市值短时突破 1 亿美元，现报 9400 万美元，创历史新高。
+
+
+UBC 源于自主 AI 图书项目，该项目通过通用基本计算 (UBC) 和 KinOS 实现真正自主的 AI 系统。a16z 联创 Justine Moore 于 21 日在社交平台为此项目宣传。
+
+
+BlockBeats 提醒用户，Meme 币暂无实际用例，价格波动较大，投资需谨慎。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272084"
+                        open
+                      >
+                        <summary class="article-expander__title">Pantera创始人：比特币价格可能在2028年4月达到74万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272084">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，Pantera 创始人 Dan Morehead 预测，随着「支持区块链」的美国当选总统唐纳德·特朗普重返白宫，比特币可能会飙升至 74 万美元。
+
+
+Morehead 表示，其专注于加密货币的 Pantera Bitcoin Fund 自 2013 年成立以来，已获得 131,165% 的历史回报。「比特币已经完成了三个数量级的增长，」他表示，「再来一次似乎是可能的。」
+
+
+根据 Morehead 的理论，比特币一直处于一个趋势线上，如果它继续保持增长模式，到 2028 年 4 月，它的价格可能会达到 74 万美元。自 Pantera 开始投资以来，比特币几乎每年都翻一番，复合年增长率约为 88%。
+
+
+他补充道：「相对于 500 万亿美元的金融资产，这个数字并不是不可想象的」。按 74 万美元的价格，比特币的市值将达到 15 万亿美元。（The Block）</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272082"
+                        open
+                      >
+                        <summary class="article-expander__title">Kraken将关闭旗下NFT市场</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272082">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，加密货币交易所 Kraken 将关闭其 NFT 市场，以释放资源用于即将推出的项目。
+
+
+2024 年 11 月 27 日后，用户将无法在 Kraken 的 NFT 市场上列出、竞标或出售 NFT 而只能提取资产，该市场将于 2025 年 2 月 27 日完全关闭。
+
+
+Kraken 的一位代表表示，「我们决定关闭 NFT 市场，以便将更多资源投入到新产品和服务中，包括一些尚未公开的在开发中的项目。客户已被通知这些变动，我们的团队将为他们提供支持，帮助他们将 NFT 转移到 Kraken 钱包或选择的自托管钱包中。」（The Block）</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272081"
+                        open
+                      >
+                        <summary class="article-expander__title">Justin Sun获聘为特朗普支持的加密项目WLFI顾问</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272081">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据官方消息，特朗普支持的加密项目 World Liberty Financial (WLFI) 宣布已聘请波场 TRON 创始人、HTX 全球顾问委员会成员 Justin Sun 担任顾问。
+
+
+BlockBeats 此前报道，Justin Sun 发文宣布，以 3000 万美元投资 World Liberty Financial（WLFI），成为其最大投资者。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272080"
+                        open
+                      >
+                        <summary class="article-expander__title">纽交所向美SEC申请上市Bitwise比特币和以太坊现货ETP</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272080">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据官方消息，Bitwise 宣布，纽约证券交易所（NYSE Arca）已提交申请，计划推出一款 Bitwise 交易所交易产品（ETP），该产品将同时涵盖现货比特币和以太坊的投资，且按市值加权。根据文件，该 ETP 将直接持有这两种资产。
+
+
+该 ETP 的推出尚待 19b-4 申请的批准以及 S-1 注册声明的生效。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272079"
+                        open
+                      >
+                        <summary class="article-expander__title">特朗普政府考虑让CFTC主导数字资产监管</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272079">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据 Fox Business 报道，特朗普政府计划通过赋予美国商品期货交易委员会（CFTC）监管 3 万亿美元数字资产市场的权力，来扩大 CFTC 的职能。
+
+
+这一举措将成为特朗普及国会中的共和党多数派的一项更广泛努力的一部分，目的是削弱现任美国总统拜登及即将离任的美国证券交易委员会（SEC）主席 Gary Gensler 在数字资产行业中所拥有的部分监管权力。
+
+
+CFTC 由美国国会授权监管 20 万亿美元的美国衍生品市场，包括期货、期权以及黄金、石油和小麦等实物商品的交易。与 SEC 一样，CFTC 有权制定市场规则并采取执法行动，但由于衍生品市场主要由成熟的机构投资者主导，而非散户投资者，因此通常被认为在监管上比 SEC 更为宽松，且更擅长管理风险。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272078"
+                        open
+                      >
+                        <summary class="article-expander__title">市场消息：美国法院裁定针对Tornado Cash智能合约的制裁违法</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272078">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据市场消息，美国法院裁定针对 Tornado Cash 智能合约的制裁违法。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272077"
+                        open
+                      >
+                        <summary class="article-expander__title">CryptoQuant：比特币长期持有者过去30天内抛售72.8万枚BTC</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272077">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，据 CryptoQuant 分析显示，比特币长期持有者在过去 30 天内已抛售 728,000 枚 BTC，这是自 4 月以来的最高水平。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272076"
+                        open
+                      >
+                        <summary class="article-expander__title">Bitcoin briefly dropped below $91,000 this morning, representing a 2.52% decrease over the past 24 hours.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272076">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats News, November 27th, according to HTX market data, Bitcoin fell below $91,000 briefly this morning, now trading at $91,904, a 24-hour decrease of 2.52%.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272075"
+                        open
+                      >
+                        <summary class="article-expander__title">顶级交易员Eugene ：市场下行期间已买入ETH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272075">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，顶级交易员 Eugene Ng Ah Sio 发文称，「趁这波下跌买了一些 ETH。虽然行情信号依然不太明朗，但 BTC 和 MSTR 的走势压缩意味着比特币的列车明显停下来了。
+
+
+按照最基本的「10 IQ 资本流动逻辑」，ETH 总该轮到它涨了吧，现在 3000 美元附近的价格看起来像是捡便宜。（拜托了）。」</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272074"
+                        open
+                      >
+                        <summary class="article-expander__title">Turbos Launchpad正式开放链游Final Salvation代币E4C公售</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272074">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 27 日，Sui 网络上由头部项目 Turbos Finance 推出的零佣金链上发行平台 Turbos Launchpad 于 11 月 26 日 4pm UTC 为链游开发商 Ambrus Studio 推出的重点产品《E4C：Final Salvation》举办其代币 E4C 的 IDO。
+
+
+IDO 详情：
+- 开始时间：11 月 26 日下午 4 点 UTC（北京时间 11 月 27 日 00:00）
+- 公募额度：100,000 美元
+- 代币价格：0.10 美元
+- 初始市值：10,000,000 美元
+
+
+E4C 由前 Riot Games 亚太区 CEO Johnson Yeh 创立的 Ambrus Studio 开发，工作室估值达 6500 万美元。「E4C：Final Salvation」已推出 Beta 测试版，并上线印度及全球 Google Play。该项目获得 The Spartan Group、Sui Foundation、Knight Capital 等知名投资方支持。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272072"
+                        open
+                      >
+                        <summary class="article-expander__title">Balance.fun的Key节点计划已获超1000万美元机构认购，其销售于11月26日正式开启</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272072">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 26 日，曾获 a16z 投资的 Web3 社交与游戏协议 Balance.fun 今日宣布，其关键节点 (Key Node) 销售于 11 月 26 日正式开启，起售价 599 美元。
+
+
+包括 Animoca Brands、Amber Group、GSR、MarbleX、MetaBlast Group、Bing Ventures、Nonagon Capital、Web3port、Mask Network 在内的多家知名机构已提前预购，总认购额超 1000 万美元。
+
+
+Balance.fun 前身是全球领先的游戏陪玩平台 E-PAL。根据官方介绍，关键节点持有者将获得多重权益，包括 Epal Fans 协议 100% 收入分成、25% 代币总供应量分配，以及通过回购机制获取额外收益。首批节点购买者的奖励将于 2024 年 12 月 25 日解锁。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272071"
+                        open
+                      >
+                        <summary class="article-expander__title">11月美国消费者信心再次改善，达到两年高位</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272071">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 26 日，世界大型企业联合会首席经济学家 Dana M. Peterson 表示，「美国消费者信心在 11 月继续改善，达到了过去两年的最高水平。11 月份的增长主要是由于消费者对当前形势的评估更加积极，特别是在劳动力市场方面。
+
+
+与 10 月份相比，消费者对未来就业机会的乐观程度也大大提高，达到近三年来的最高水平。与此同时，消费者对未来商业状况的预期没有变化，而对未来收入的乐观程度略有下降。」(金十)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272070"
+                        open
+                      >
+                        <summary class="article-expander__title">WELL 24小时涨超27%，暂报0.0753美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272070">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 26 日，据 HTX 行情数据，WELL 24 小时涨超 27%，暂报 0.0753 美元。
+
+
+Moonwell（WELL）是基于 Moonbeam 和 Moonriver 构建的开放借贷协议。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272069"
+                        open
+                      >
+                        <summary class="article-expander__title">Suilend原生代币SEND将于12月12日推出</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272069">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 26 日，Sui 生态借贷协议 Suilend 发文称，SEND 将于 12 月 12 日推出，分配检查器已上线。
+
+
+在 2024 年 5 月推出 Points 之前使用 Suilend 的早期用户将获得 2% 的 SEND，Suilend 积分占 SEND 的 18%；Rootlets 将获得 3.333% 的 SEND，分为三次空投，每次 1.111%。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/flash/55938"
+                        open
+                      >
+                        <summary class="article-expander__title">AgentLayer：全球首个AI Agent去中心化网络登陆Bitpanda及周年代币销毁计划启动</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/55938">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>原文来源：AgentLayer
+
+
+全球首个 AI Agent 去中心化网络 AgentLayer 宣布于 11 月 26 日在德国最大交易平台 Bitpanda 上线其代币 AGENT，并于 11 月 30 日迎来一周年纪念日，同时启动代币销毁计划。
+
+
+备受瞩目的 AI Agent 项目 AgentLayer 再次成为市场焦点，该项目于 11 月 26 日在德国最大的中心化交易平台 Bitpanda 上线其代币 AGENT，此前，AGENT 已成功上线 Gate.io、BingX、Uniswap。
+
+
+AgentLayer 是世界上首个为自主人工智能代理（AI Agent）设计的去中心化网络。目前，AgentLayer 生态平台已拥有超过 8 款 AI Agent 产品，覆盖 TON 生态。AgentLayer 团队由多名来自知名院校区块链行业的资深专家组成，创始人之一的 Professor Liu Yang 因在人工智能和网络安全方面的贡献，被斯坦福大学评为全球最杰出的 2% 科学家之一。
+
+
+AgentLayer 凭借其独特的产品和技术优势，在 AI 与区块链融合领域脱颖而出。产品方面，AgentLayer 的 AgentHub 为开发者提供了一站式的 AI Agent 管理和维护服务，支持 AI Agent 的导入、上链发布、属性修改及订阅管理等功能。AgentStudio 则是一个可视化创建对话式 AI Agent 的平台，支持多语言模型接入、RAG 及第三方 API 调用。AgentLayer 通过 AgentLink 链上协议层实现多链部署，确保 AI Agent 能够安全、高效地通信和处理交易。同时，该平台还利用区块链的去中心化属性，为 AI Agent 的协作提供了坚实的基础。
+
+
+2024 年 3 月，AgentLayer 推出了拥有 200 万参与用户的测试网，标志着平台进入了实际应用阶段。随后，在 7 月，AgentLayer 发布了首个生态系统开发的人工智能产品 0xAgent，进一步展示了其技术实力。目前，已有超过 8 个 AI Agent 产品服务于 9000 多名每日活跃用户。这些产品包括 Wallet Checker、Sentinel、AGIS、Fortuna、Tarot AI、Astro AI、CryptoRoast 和 0xAgent，各自具有独特的功能和应用场景。例如，Wallet Checker 可以帮助用户检查钱包地址的安全性，而 Sentinel 则是一款用于网络安全监控的 AI Agent。
+
+
+2024 年 9 月 18 日，$AGENT 代币在 Gate.io、BingX 成功上市，这不仅为投资者提供了新的机会，也为 AgentLayer 的进一步发展注入了资金支持。此外，AgentLayer 计划在 2024 年第四季度升级现有产品，扩展生态集成，并增强开发平台。特别是新预测市场产品 TonaMarket，以 Telegram MiniApp 的形式开放交互，为用户提供市场预测服务，并将收益用于回购 AGENT 代币，进一步提升代币的价值。
+
+
+11 月 30 日，AgentLayer 将迎来一周年纪念日，同时启动代币销毁计划。从这一天开始，AgentLayer 将每月定期开启代币销毁计划，一部分产品代币收入将用于购买市场上的 AGENT 代币并进行销毁。通过减少市场上流通的 AGENT 代币数量，团队希望创造更有利的市场环境，增加稀缺性，并随着时间的推移和买量的增大来提高代币的价值。AgentLayer 表示这不仅表明了团队对项目长期潜力的信心，也符合建立可持续和繁荣生态系统的愿景。
+
+
+随着 AgentLayer 在 Bitpanda 的上线，欧洲市场将迎来新的发展机遇。同时，随着一周年代币销毁计划的启动，AGENT 代币的价值有望进一步提升。
+
+
+关于 AgentLayer
+
+
+AgentLayer 是一个具有开创性的去中心化人工智能区块链网络，它为 AI Agent 的发展提供了坚实的基础。核心组件的协同作用使得 AgentLayer 能够为 AI Agent 提供高效运行环境。AgentHub 方便开发者对 AI Agent 进行全面管理，AgentStudio 让对话式 AI Agent 的创建更加可视化。AgentLayer 正在为新的 AI Agent 经济奠定基础，赋能开发者和企业大规模创建和部署智能、自主的 AI Agent。
+
+
+本文来自投稿，不代表 BlockBeats 观点。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://m.theblockbeats.info/news/272068"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币加速器Bitcoin Frontier Fund拟投资sBTC生态团队</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272068">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BlockBeats 消息，11 月 26 日，比特币加速器 Bitcoin Frontier Fund 宣布拟投资 sBTC 生态团队，旨在推动比特币生态的 DeFi 解决方案，目前 Bitcoin Frontier Fund 的投资组合包括 Xverse、ALEX、Liquidium、Bitflow 等。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -67,6 +847,345 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/77xcd8bh.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik通过出售Meme币获得22.89枚ETH，并向CoinCenter捐赠320枚ETH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/77xcd8bh.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，据Lookonchain监测，vitalik.eth再次出售了一些免费获得的Meme币（包括早些时候报道的DOG） ，获得了22.89枚ETH（7.65万美元）。然后他向CoinCenter捐赠了320枚ETH （107万美元） 。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/wzod8h5u.html"
+                        open
+                      >
+                        <summary class="article-expander__title">外媒：失踪的OneCoin“加密女王”Ruja Ignatova或藏身于俄罗斯</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/wzod8h5u.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，据Decrypt报道，据一位专注于克里姆林宫事务的BBC调查记者报道，失踪的“加密女王”Ruja Ignatova可能正藏身于俄罗斯，以逃避刑事指控。同样为Bellingcat工作的Yoran Tsalov向该媒体透露，Ignatova“与克里姆林宫的多个人和利益集团有关联”。
+Tsalov声称，这些关联关系在Ignatova的前安全顾问Frank Schneider接受BBC采访时得到了证实，该采访是BBC“失踪的加密女王”调查和播客系列的一部分。Schneider曾是瑞士的一名间谍，后来他创立了一家私人调查公司，并受雇于OneCoin。由于与该行动有关联，他在法国被软禁，随后于2023年开始逃亡。此外，Tsalov声称，BBC正在进行的调查证实，一些通过OneCoin洗钱的公司与乌克兰前亲俄总统Viktor Yanukovich有联系。Yanukovich目前在俄罗斯过着流亡生活。
+据悉，OneCoin于2014年推出，Ignatova通过40亿美元的庞氏骗局诈骗了世界各地的投资者，直到2017年骗局破灭，她才失踪。她最后一次露面是在2017年，当时她正乘坐飞机逃离保加利亚前往希腊雅典，并被列入美国联邦调查局 (FBI) 十大通缉犯名单。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/k4ku64vh.html"
+                        open
+                      >
+                        <summary class="article-expander__title">消息人士：前SEC专员Paul Atkins仍是领导SEC过渡团队成员中最受欢迎人选</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/k4ku64vh.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，据福克斯商业记者Eleanor Terrett报道，两位接近海湖庄园讨论的消息人士称，前SEC专员Paul Atkins仍是领导SEC的顶级过渡团队成员中最受欢迎的人选。Atkins不仅精通加密货币技术，而且对SEC的内部运作有着深刻理解，他曾担任过两任SEC 主席Richard C。Breeden和Arthur Levitt的专员和工作人员。Atkins被认为能够制定支持创新的议程，同时让该机构恢复所谓的“黄金标准”，共和党中的许多人认为，在即将离任的主席 Gary Gensler 的领导下，该标准已经消失。
+现在，特朗普的大部分内阁人选已经公布，过渡团队将把注意力转向填补联邦机构的职位，但尚不清楚这些公告的具体发布时间。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/kmc90bgl.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Messari：Polkadot第三季度国库支出环比下降53%至2800万美元，活跃验证者数量增至400个</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/kmc90bgl.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，Messari发布Polkadot 2024年第三季度状态报告，报告显示，Parity推出了Agile Coretime系统，用区块空间销售模式取代了原有的平行链租赁系统，实现了网络资源的按需分配。
+Mythical Games在第三季度登陆Polkadot后迅速成为生态系统中交易量前三的项目，其NFL Rivals游戏产生了1100万笔交易，占季度总交易量的15%。
+尽管Polkadot DAO国库支出环比下降53%至2800万美元，但OpenGov活动保持活跃，2024年7月的公投数量创下171个的历史新高。
+第三季度，Polkadot rollup外部调用环比增长69%，达到日均76.3万笔交易，主要来自Frequency、Litentry和Mythos等rollup的贡献。此外，活跃验证者数量增至400个，预计第四季度将达到500个，使得Polkadot的中本聪系数在第三季度升至112。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/p59sv124.html"
+                        open
+                      >
+                        <summary class="article-expander__title">行情：ALGO日内涨幅10.90%，GLM日内跌幅5.52%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/p59sv124.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，据欧易OKX行情显示，日内涨幅排名靠前的几个代币为：ALGO现报0.304美元，日内涨幅10.90%；LDO现报1.674美元，日内涨幅10.08%；AAVE现报186.86美元，日内涨幅8.85%；NEAR现报6.535美元，日内涨幅8.05%；LPT现报12.946美元，日内涨幅7.62%。
+此外，日内跌幅排名靠前的几个代币为：GLM现报0.484美元，日内跌幅5.52%；SAND现报0.592美元，日内跌幅3.52%；XLM现报0.433美元，日内跌幅1.97%；ENJ现报0.264美元，日内跌幅0.94%；OKB现报52.14美元，日内跌幅0.70%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/e2koshcl.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik于18分钟前将约3292亿枚DOG兑换为10.961枚ETH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/e2koshcl.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，据Arkham监测，18分钟前，以太坊联合创始人Vitalik Buterin卖出约3292亿枚DOG，兑换为10.961枚ETH。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/sygwl2uq.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3分发平台Portal宣布将于12月推出三款新产品</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/sygwl2uq.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，Web3分发平台Portal宣布将于2024年12月推出三款新产品，用户可通过这些产品在任意区块链上使用Hyperway的功能。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/1zi1qsva.html"
+                        open
+                      >
+                        <summary class="article-expander__title">昨夜今晨重要资讯（11月26日-11月27日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/1zi1qsva.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2024/11/27/images/sSP64RfAKc.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>美国法院裁定OFAC越权制裁Tornado Cash智能合约
+美国第五巡回上诉法院推翻了下级法院的判决，认定海外资产控制办公室（OFAC）在制裁 Tornado Cash 不可变智能合约时超出了其权限范围，这对该协议及其用户来说是一次重大胜利。三名法官组成的合议庭在判决意见中指出，虽然财政部有权对&quot;财产&quot;采取行动，但由于 Tornado Cash 的智能合约具有不可变性，无法被控制或拥有，因此根据《国际紧急经济权力法》（IEEPA）不构成财产。 Coinbase 首席法务官 Paul Grewal 表示，这些智能合约现在必须从制裁名单中移除，美国用户将再次被允许使用这个保护隐私的协议。上诉法院已指示德克萨斯地区法院批准由 Joseph Van Loon 等原告-上诉人提出的部分简易判决动议。
+晚些时候消息，Tornado Cash（TORN）突破34美元，24小时上涨超900%。
+美联储会议纪要：未来倾向“渐进”降息，有暂停可能
+据金十报道，美联储最近一次政策会议的纪要显示，美联储官员普遍支持在经济保持稳健、通胀缓慢降温的情况下，谨慎对待未来的降息措施。根据会议纪要，“与会者预计，如果数据与预期差不多，通胀率继续持续下降至2%，经济保持在最大就业率附近，那么随着时间的推移逐步转向更加中性的政策立场可能是合适的。” 11月份会议的纪要显示，一些官员表示，如果通胀持续走高，美联储可能会暂停降息，并将借贷成本维持在限制性水平。一些官员指出，如果经济或劳动力市场恶化，可以加快降息。政策制定者们还指出，所谓的中性利率不明确也是谨慎行事的一个原因。根据纪要，许多官员表示，不确定性“使货币政策限制程度的评估变得复杂，他们认为，逐步减少政策限制是适当的” 。在过去一年中，官员们对中性利率的估计稳步上升，但利率离这一水平还有多远仍不清楚。据悉，美联储官员将于12月17-18日召开今年最后一次…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/6d4r6orj.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Eigen基金会公布EigenLayer治理系统EigenGov的核心是组建理事会网络</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/6d4r6orj.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，Eigen基金会在官方博客介绍EigenLayer的治理系统EigenGov第一部分。EigenGov V1的核心是其理事会（council）。EigenGov的权力将由一个理事会网络掌握，该网络由值得信赖的高语境领域专家组成，由代币持有者授权代表社区做出决策，并通过制衡系统承担责任。理事会将拥有特定领域的权力，可以就EigenLayer协议和EigenGov做出决策并采取行动。此外，EIGEN持有者将有权否决理事会决定。Eigen基金会正在实施一种孵化理念，用于创建、任命和管理理事会，以确保建立一个有弹性、透明和去中心化的理事会网络。该理事会治理设计包括：1.理事会激励：奖励理事会成员持续、高质量和长期的价值创造；2.理事会协调：通过创建新系统来支持决策者和协议需求的分散协调，从而减少委托代理问题；3.理事会问责制：通过制衡、透明度和报告让决策者对代币持有者负责。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/e1s7hxd5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Movement Network基金会公布MoveDrop，将向社区空投10% MOVE代币</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/e1s7hxd5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，Movement Network Foundation公布MoveDrop空投计划，旨在奖励Movement的早期用户和社区成员。MoveDrop将分配1,000,000,000个$MOVE（总供应量的10%）给社区，满足条件的用户包括：Road to Parthenon参与者、Battle of Olympus获奖者、Gmovers、指定社区、Movement测试网建设者。
+用户可以访问MoveDrop网站并注册，截止日期为2024年12月2日UTC时间下午2点。TGE（即将到来）后，可以查看MoveDrop资格并领取空投。未按时注册将导致失去MoveDrop申领资格。
+用户可以选择在以太坊主网上领取$MOVE，也可以待Movement Network主网后（即将上线）领取$MOVE，这将产生1.25倍的奖励乘数。Movement Network Foundation还表示，计划在未来的活动中分发更多$MOVE代币。
+此前昨日消息，Movement Network基金会公布MOVE代币经济学，60%分配给社区。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/ma7h2d61.html"
+                        open
+                      >
+                        <summary class="article-expander__title">WalletConnect上线WCT代币资格检查页面</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/ma7h2d61.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，加密钱包协议WalletConnect宣布启动代币资格检查功能，符合条件的用户可以申领WCT代币并进行质押。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/7fq0dqt0.html"
+                        open
+                      >
+                        <summary class="article-expander__title">某新地址近3小时累计从Coinbase提出116万枚EIGEN，价值391万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/7fq0dqt0.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，据@ai_9684xtpa监测，新地址0xB14...6284f过去3小时内累计从Coinbase提出116万枚EIGEN，价值391万美元，均价3.37美元。
+今早BTC短线跌破9.1万美元，EIGEN逆势上涨了8%，现价3.33美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/2za5x0bw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Ripple向加密PAC投入2500万美元，以影响2026年美国国会选举</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/2za5x0bw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，据CoinDesk报道，Ripple Labs已向加密货币行业的Fairshake 政治行动委员会投入了另外2500万美元，以影响2026年美国国会选举。
+该超级政治行动委员会在2026年选举周期中取得了前所未有的领先优势。在Ripple、加密交易所Coinbase 和风投公司Andreessen Horowitz (a16z)的帮助下，Fairshake已积累了7300万美元的新承诺。这是在2024年周期保留的3000万美元的基础上的额外资金。
+该政治行动委员会仍在等待11月5日美国国会议员竞选的结果，Fairshake的过往记录包括支持至少53名明年的国会议员。1.03亿美元的竞选资金使Fairshake成为一股重要政治力量，将影响从2027年开始的会议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/8mu2l1uj.html"
+                        open
+                      >
+                        <summary class="article-expander__title">某巨鲸七小时前再次建仓34.5万枚UNI，价值375万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/8mu2l1uj.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，据链上分析师@ai_9684xtpa监测，曾在UNI上获利177万美元的巨鲸0x20d...2dEDa七小时前再次建仓34.5万枚UNI，价值375万美元。
+UNI近七天已上涨近16%，但过去24小时随着大盘回调下跌了超4%。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/exk4e55j.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一包含25枚BTC的休眠地址在沉睡11.5年后于今日凌晨被激活</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/exk4e55j.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，Whale Alert监测显示，北京时间今日04:23左右，一个包含25枚BTC的休眠地址在11.5年后被激活，这些比特币在2013年仅价值2498美元，目前价值已升至约228万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/te6xeur9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Glassnode：比特币可能跌至8.8万美元下方，然后再次尝试突破10万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/te6xeur9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 11月27日消息，据Cryptoslate报道，根据Glassnode的报告，如果市场进一步下跌，比特币可能会跌至88,000美元以下的区域，然后继续向100,000美元的门槛迈进。该报告强调了一个关键的“空隙”，因为BTC的快速上涨导致76,000美元至88,000美元之间的交易活动很少，从而形成了一个未开发的价格区间，如果当前的回调持续下去，可能会引起市场关注。然而，这种价格行为在价格发现阶段是自然的，价格发现阶段通常涉及上涨、修正和盘整的周期，以建立稳定的价格区间。在价格发现阶段观察供应分布对于揭示可能影响比特币走势的供需区域至关重要。
+此前今日早些时候消息，渣打银行分析师表示，BTC或将在85,000至88,700美元区间盘整，随后上行。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -522,462 +1641,554 @@ Morehead预测，比特币可能在未来几年达到74万美元/枚的市值水
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >律动BlockBeats</button>
-                  <a class="source-heading__link" href="https://www.theblockbeats.info">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272087"
-                        open
-                      >
-                        <summary class="article-expander__title">渣打银行：比特币可能在85,000至88,700美元区间盘整，之后恢复上涨</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272087">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，渣打银行全球数字资产研究主管 Geoff Kendrick 指出，比特币近期回调受到多个因素的影响，包括美国国债市场的变化以及即将到来的月度期权到期。
-
-
-Kendrick 将近期市场动荡（包括比特币的下跌和长期美国国债的反弹）归因于美国国债期限溢价的减少。期限溢价是投资者为持有长期债券而要求的额外收益，相较于不断滚动的短期债券。
-
-
-渣打分析师表示，由于比特币通常被视为对抗传统金融市场不稳定性的对冲工具，美国国债的信心提升可能会在短期内减少比特币的吸引力，从而导致其价格下跌。
-
-
-「这对比特币很重要，因为比特币的核心用途之一是对冲传统金融市场的问题，尤其是银行业或国债相关的问题，」Kendrick 在周二的一份报告中表示。「因此，较低的期限溢价会打压比特币，至少是暂时的。」
-
-
-尽管如此，他仍然对比特币的长期前景持乐观态度。Kendrick 重申了他对比特币的年终目标为 125,000 美元，并预测到 2025 年底比特币价格将进一步增长至 200,000 美元。
-
-
-Kendrick 指出，根据 Deribit 的数据，在行权价介于 85,000 美元至 100,000 美元之间的期权未平仓合约中，共有 18,000 枚比特币，这可能会在期权到期前限制价格波动。「这通常意味着随着期权到期临近，价格会停滞不前，」Kendrick 说道。
-
-
-然而，他表示，尽管比特币出现回调，但机构投资者的需求仍然强劲。Kendrick 指出，自本月初美国大选以来，现货比特币 ETF 已累计购买了约 77,000 枚比特币，而 MicroStrategy（MSTR）则额外购买了 134,000 枚比特币。
-
-
-「MicroStrategy 的购买没有放缓的迹象，而且它们不太可能出售，但自美国大选以来，现货 ETF 和 MicroStrategy 的平均购买价格为 88,700 美元，」Kendrick 表示。「这可能会成为一个短期的支撑位，比特币可能会在 85,000 美元到 88,700 美元之间盘整，之后再恢复上涨轨迹。」（The Block）</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272086"
-                        open
-                      >
-                        <summary class="article-expander__title">TORN突破38美元，24小时涨超940%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272086">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，据行情数据，Tornado Cash（TORN）突破 38 美元，现报价 38.16 美元，24 小时涨幅 946%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272085"
-                        open
-                      >
-                        <summary class="article-expander__title">AI meme币UBC市值短时突破1亿美元，创历史新高</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272085">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，据 GMGN 行情，Solana 生态 AI meme 币 UBC 市值短时突破 1 亿美元，现报 9400 万美元，创历史新高。
-
-
-UBC 源于自主 AI 图书项目，该项目通过通用基本计算 (UBC) 和 KinOS 实现真正自主的 AI 系统。a16z 联创 Justine Moore 于 21 日在社交平台为此项目宣传。
-
-
-BlockBeats 提醒用户，Meme 币暂无实际用例，价格波动较大，投资需谨慎。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272084"
-                        open
-                      >
-                        <summary class="article-expander__title">Pantera创始人：比特币价格可能在2028年4月达到74万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272084">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，Pantera 创始人 Dan Morehead 预测，随着「支持区块链」的美国当选总统唐纳德·特朗普重返白宫，比特币可能会飙升至 74 万美元。
-
-
-Morehead 表示，其专注于加密货币的 Pantera Bitcoin Fund 自 2013 年成立以来，已获得 131,165% 的历史回报。「比特币已经完成了三个数量级的增长，」他表示，「再来一次似乎是可能的。」
-
-
-根据 Morehead 的理论，比特币一直处于一个趋势线上，如果它继续保持增长模式，到 2028 年 4 月，它的价格可能会达到 74 万美元。自 Pantera 开始投资以来，比特币几乎每年都翻一番，复合年增长率约为 88%。
-
-
-他补充道：「相对于 500 万亿美元的金融资产，这个数字并不是不可想象的」。按 74 万美元的价格，比特币的市值将达到 15 万亿美元。（The Block）</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272082"
-                        open
-                      >
-                        <summary class="article-expander__title">Kraken将关闭旗下NFT市场</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272082">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，加密货币交易所 Kraken 将关闭其 NFT 市场，以释放资源用于即将推出的项目。
-
-
-2024 年 11 月 27 日后，用户将无法在 Kraken 的 NFT 市场上列出、竞标或出售 NFT 而只能提取资产，该市场将于 2025 年 2 月 27 日完全关闭。
-
-
-Kraken 的一位代表表示，「我们决定关闭 NFT 市场，以便将更多资源投入到新产品和服务中，包括一些尚未公开的在开发中的项目。客户已被通知这些变动，我们的团队将为他们提供支持，帮助他们将 NFT 转移到 Kraken 钱包或选择的自托管钱包中。」（The Block）</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272081"
-                        open
-                      >
-                        <summary class="article-expander__title">Justin Sun获聘为特朗普支持的加密项目WLFI顾问</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272081">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，据官方消息，特朗普支持的加密项目 World Liberty Financial (WLFI) 宣布已聘请波场 TRON 创始人、HTX 全球顾问委员会成员 Justin Sun 担任顾问。
-
-
-BlockBeats 此前报道，Justin Sun 发文宣布，以 3000 万美元投资 World Liberty Financial（WLFI），成为其最大投资者。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272080"
-                        open
-                      >
-                        <summary class="article-expander__title">纽交所向美SEC申请上市Bitwise比特币和以太坊现货ETP</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272080">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，据官方消息，Bitwise 宣布，纽约证券交易所（NYSE Arca）已提交申请，计划推出一款 Bitwise 交易所交易产品（ETP），该产品将同时涵盖现货比特币和以太坊的投资，且按市值加权。根据文件，该 ETP 将直接持有这两种资产。
-
-
-该 ETP 的推出尚待 19b-4 申请的批准以及 S-1 注册声明的生效。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272079"
-                        open
-                      >
-                        <summary class="article-expander__title">特朗普政府考虑让CFTC主导数字资产监管</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272079">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，据 Fox Business 报道，特朗普政府计划通过赋予美国商品期货交易委员会（CFTC）监管 3 万亿美元数字资产市场的权力，来扩大 CFTC 的职能。
-
-
-这一举措将成为特朗普及国会中的共和党多数派的一项更广泛努力的一部分，目的是削弱现任美国总统拜登及即将离任的美国证券交易委员会（SEC）主席 Gary Gensler 在数字资产行业中所拥有的部分监管权力。
-
-
-CFTC 由美国国会授权监管 20 万亿美元的美国衍生品市场，包括期货、期权以及黄金、石油和小麦等实物商品的交易。与 SEC 一样，CFTC 有权制定市场规则并采取执法行动，但由于衍生品市场主要由成熟的机构投资者主导，而非散户投资者，因此通常被认为在监管上比 SEC 更为宽松，且更擅长管理风险。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272078"
-                        open
-                      >
-                        <summary class="article-expander__title">市场消息：美国法院裁定针对Tornado Cash智能合约的制裁违法</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272078">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，据市场消息，美国法院裁定针对 Tornado Cash 智能合约的制裁违法。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272077"
-                        open
-                      >
-                        <summary class="article-expander__title">CryptoQuant：比特币长期持有者过去30天内抛售72.8万枚BTC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272077">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，据 CryptoQuant 分析显示，比特币长期持有者在过去 30 天内已抛售 728,000 枚 BTC，这是自 4 月以来的最高水平。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272076"
-                        open
-                      >
-                        <summary class="article-expander__title">Bitcoin briefly dropped below $91,000 this morning, representing a 2.52% decrease over the past 24 hours.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272076">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats News, November 27th, according to HTX market data, Bitcoin fell below $91,000 briefly this morning, now trading at $91,904, a 24-hour decrease of 2.52%.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272075"
-                        open
-                      >
-                        <summary class="article-expander__title">顶级交易员Eugene ：市场下行期间已买入ETH</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272075">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，顶级交易员 Eugene Ng Ah Sio 发文称，「趁这波下跌买了一些 ETH。虽然行情信号依然不太明朗，但 BTC 和 MSTR 的走势压缩意味着比特币的列车明显停下来了。
-
-
-按照最基本的「10 IQ 资本流动逻辑」，ETH 总该轮到它涨了吧，现在 3000 美元附近的价格看起来像是捡便宜。（拜托了）。」</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272074"
-                        open
-                      >
-                        <summary class="article-expander__title">Turbos Launchpad正式开放链游Final Salvation代币E4C公售</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272074">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 27 日，Sui 网络上由头部项目 Turbos Finance 推出的零佣金链上发行平台 Turbos Launchpad 于 11 月 26 日 4pm UTC 为链游开发商 Ambrus Studio 推出的重点产品《E4C：Final Salvation》举办其代币 E4C 的 IDO。
-
-
-IDO 详情：
-- 开始时间：11 月 26 日下午 4 点 UTC（北京时间 11 月 27 日 00:00）
-- 公募额度：100,000 美元
-- 代币价格：0.10 美元
-- 初始市值：10,000,000 美元
-
-
-E4C 由前 Riot Games 亚太区 CEO Johnson Yeh 创立的 Ambrus Studio 开发，工作室估值达 6500 万美元。「E4C：Final Salvation」已推出 Beta 测试版，并上线印度及全球 Google Play。该项目获得 The Spartan Group、Sui Foundation、Knight Capital 等知名投资方支持。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272072"
-                        open
-                      >
-                        <summary class="article-expander__title">Balance.fun的Key节点计划已获超1000万美元机构认购，其销售于11月26日正式开启</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272072">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 26 日，曾获 a16z 投资的 Web3 社交与游戏协议 Balance.fun 今日宣布，其关键节点 (Key Node) 销售于 11 月 26 日正式开启，起售价 599 美元。
-
-
-包括 Animoca Brands、Amber Group、GSR、MarbleX、MetaBlast Group、Bing Ventures、Nonagon Capital、Web3port、Mask Network 在内的多家知名机构已提前预购，总认购额超 1000 万美元。
-
-
-Balance.fun 前身是全球领先的游戏陪玩平台 E-PAL。根据官方介绍，关键节点持有者将获得多重权益，包括 Epal Fans 协议 100% 收入分成、25% 代币总供应量分配，以及通过回购机制获取额外收益。首批节点购买者的奖励将于 2024 年 12 月 25 日解锁。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272071"
-                        open
-                      >
-                        <summary class="article-expander__title">11月美国消费者信心再次改善，达到两年高位</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272071">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 26 日，世界大型企业联合会首席经济学家 Dana M. Peterson 表示，「美国消费者信心在 11 月继续改善，达到了过去两年的最高水平。11 月份的增长主要是由于消费者对当前形势的评估更加积极，特别是在劳动力市场方面。
-
-
-与 10 月份相比，消费者对未来就业机会的乐观程度也大大提高，达到近三年来的最高水平。与此同时，消费者对未来商业状况的预期没有变化，而对未来收入的乐观程度略有下降。」(金十)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272070"
-                        open
-                      >
-                        <summary class="article-expander__title">WELL 24小时涨超27%，暂报0.0753美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272070">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 26 日，据 HTX 行情数据，WELL 24 小时涨超 27%，暂报 0.0753 美元。
-
-
-Moonwell（WELL）是基于 Moonbeam 和 Moonriver 构建的开放借贷协议。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272069"
-                        open
-                      >
-                        <summary class="article-expander__title">Suilend原生代币SEND将于12月12日推出</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272069">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 26 日，Sui 生态借贷协议 Suilend 发文称，SEND 将于 12 月 12 日推出，分配检查器已上线。
-
-
-在 2024 年 5 月推出 Points 之前使用 Suilend 的早期用户将获得 2% 的 SEND，Suilend 积分占 SEND 的 18%；Rootlets 将获得 3.333% 的 SEND，分为三次空投，每次 1.111%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/flash/55938"
-                        open
-                      >
-                        <summary class="article-expander__title">AgentLayer：全球首个AI Agent去中心化网络登陆Bitpanda及周年代币销毁计划启动</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/flash/55938">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>原文来源：AgentLayer
-
-
-全球首个 AI Agent 去中心化网络 AgentLayer 宣布于 11 月 26 日在德国最大交易平台 Bitpanda 上线其代币 AGENT，并于 11 月 30 日迎来一周年纪念日，同时启动代币销毁计划。
-
-
-备受瞩目的 AI Agent 项目 AgentLayer 再次成为市场焦点，该项目于 11 月 26 日在德国最大的中心化交易平台 Bitpanda 上线其代币 AGENT，此前，AGENT 已成功上线 Gate.io、BingX、Uniswap。
-
-
-AgentLayer 是世界上首个为自主人工智能代理（AI Agent）设计的去中心化网络。目前，AgentLayer 生态平台已拥有超过 8 款 AI Agent 产品，覆盖 TON 生态。AgentLayer 团队由多名来自知名院校区块链行业的资深专家组成，创始人之一的 Professor Liu Yang 因在人工智能和网络安全方面的贡献，被斯坦福大学评为全球最杰出的 2% 科学家之一。
-
-
-AgentLayer 凭借其独特的产品和技术优势，在 AI 与区块链融合领域脱颖而出。产品方面，AgentLayer 的 AgentHub 为开发者提供了一站式的 AI Agent 管理和维护服务，支持 AI Agent 的导入、上链发布、属性修改及订阅管理等功能。AgentStudio 则是一个可视化创建对话式 AI Agent 的平台，支持多语言模型接入、RAG 及第三方 API 调用。AgentLayer 通过 AgentLink 链上协议层实现多链部署，确保 AI Agent 能够安全、高效地通信和处理交易。同时，该平台还利用区块链的去中心化属性，为 AI Agent 的协作提供了坚实的基础。
-
-
-2024 年 3 月，AgentLayer 推出了拥有 200 万参与用户的测试网，标志着平台进入了实际应用阶段。随后，在 7 月，AgentLayer 发布了首个生态系统开发的人工智能产品 0xAgent，进一步展示了其技术实力。目前，已有超过 8 个 AI Agent 产品服务于 9000 多名每日活跃用户。这些产品包括 Wallet Checker、Sentinel、AGIS、Fortuna、Tarot AI、Astro AI、CryptoRoast 和 0xAgent，各自具有独特的功能和应用场景。例如，Wallet Checker 可以帮助用户检查钱包地址的安全性，而 Sentinel 则是一款用于网络安全监控的 AI Agent。
-
-
-2024 年 9 月 18 日，$AGENT 代币在 Gate.io、BingX 成功上市，这不仅为投资者提供了新的机会，也为 AgentLayer 的进一步发展注入了资金支持。此外，AgentLayer 计划在 2024 年第四季度升级现有产品，扩展生态集成，并增强开发平台。特别是新预测市场产品 TonaMarket，以 Telegram MiniApp 的形式开放交互，为用户提供市场预测服务，并将收益用于回购 AGENT 代币，进一步提升代币的价值。
-
-
-11 月 30 日，AgentLayer 将迎来一周年纪念日，同时启动代币销毁计划。从这一天开始，AgentLayer 将每月定期开启代币销毁计划，一部分产品代币收入将用于购买市场上的 AGENT 代币并进行销毁。通过减少市场上流通的 AGENT 代币数量，团队希望创造更有利的市场环境，增加稀缺性，并随着时间的推移和买量的增大来提高代币的价值。AgentLayer 表示这不仅表明了团队对项目长期潜力的信心，也符合建立可持续和繁荣生态系统的愿景。
-
-
-随着 AgentLayer 在 Bitpanda 的上线，欧洲市场将迎来新的发展机遇。同时，随着一周年代币销毁计划的启动，AGENT 代币的价值有望进一步提升。
-
-
-关于 AgentLayer
-
-
-AgentLayer 是一个具有开创性的去中心化人工智能区块链网络，它为 AI Agent 的发展提供了坚实的基础。核心组件的协同作用使得 AgentLayer 能够为 AI Agent 提供高效运行环境。AgentHub 方便开发者对 AI Agent 进行全面管理，AgentStudio 让对话式 AI Agent 的创建更加可视化。AgentLayer 正在为新的 AI Agent 经济奠定基础，赋能开发者和企业大规模创建和部署智能、自主的 AI Agent。
-
-
-本文来自投稿，不代表 BlockBeats 观点。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/272068"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币加速器Bitcoin Frontier Fund拟投资sBTC生态团队</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/272068">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 26 日，比特币加速器 Bitcoin Frontier Fund 宣布拟投资 sBTC 生态团队，旨在推动比特币生态的 DeFi 解决方案，目前 Bitcoin Frontier Fund 的投资组合包括 Xverse、ALEX、Liquidium、Bitflow 等。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >Odaily星球日报 | 区块链新闻数据资讯媒体</button>
                   <a class="source-heading__link" href="https://www.odaily.news">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403629"
+                        open
+                      >
+                        <summary class="article-expander__title">Vitalik标记地址将LEDOG等代币兑换为逾20枚ETH，并向Coin Center捐赠320枚ETH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403629">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据派盾监测，Vitalik 标记地址已将 3300 亿枚 LEDOG （$DOG）兑换为约 11 枚 ETH，将约 3 万亿枚 DOGC 兑换为约 10.8 枚 ETH，将 3 亿枚 VITALIK 兑换为约 1.1 枚 ETH，同时还向 Coin Center 捐赠了 320 枚 ETH。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403628"
+                        open
+                      >
+                        <summary class="article-expander__title">特朗普与拜登政府达成总统过渡工作必要协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403628">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 当地时间 11 月 26 日，美国当选总统特朗普与现任总统拜登的政府达成一项必要协议，以允许特朗普的过渡团队在其 1 月 20 日就职前与现有的联邦工作人员进行协调。
+根据国会授权的协议，过渡团队的工作人员可以与联邦机构合作并获取非公开信息，同时政府工作人员也被允许与过渡团队进行交流。
+然而，特朗普拒绝签署另一份与总务管理局（GSA）的协议。这份协议本可以让他的团队使用政府的安全办公场所和电子邮件账户，但这需要总统当选人将捐款限制在 5000 美元以内，并公开为其过渡工作捐款的人员名单。（金十）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403627"
+                        open
+                      >
+                        <summary class="article-expander__title">加密政治行动委员会Fairshake已为2026年中期选举积累1.03亿美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403627">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 FOX Business 记者 Eleanor Terrett 于 X 发文表示，加密政治行动委员会 Fairshake 向其透露，Ripple 的最新捐赠加上来自 Coinbase 和 a16z 的捐赠，以及这次选举剩余的资金，其目前已经为 2026 年中期选举积累了 1.03 亿美元。
+今日早些时候消息，区块链支付公司 Ripple 首席执行官 Brad Garlinghouse 宣布，该公司将向 Fairshake 捐款 2500 万美元，以帮助在未来的美国大选中选出“支持加密、支持增长和支持创新的候选人”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403626"
+                        open
+                      >
+                        <summary class="article-expander__title">交易员Eugene：BTC走势停滞，已抄底ETH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403626">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 交易员 Eugene Ng Ah Sio 今日凌晨于 X 发文表示：“在市场本轮下跌期间买了一些 ETH。虽然行情信号依然不太明朗，但 BTC 和 MSTR 的走势压缩意味着 BTC 走势明显停滞。按照最基本的‘10 IQ 资本流动逻辑’，总该轮到 ETH 上涨了吧，现在 3000 美元附近的价格看起来像是捡便宜。”</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403625"
+                        open
+                      >
+                        <summary class="article-expander__title">Upbit因STX网络维护将暂停其充提</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403625">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据官方公告，Upbit 表示由于 STX 网络维护，将暂停其充提服务，待网络恢复稳定后另行恢复。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403624"
+                        open
+                      >
+                        <summary class="article-expander__title">ZachXBT：过去数月针对麦当劳、Kabosu主人等社媒账户的攻击导致超350万美元被盗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403624">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 链上侦探 ZachXBT 于 X 发文表示：“在过去的几个月里，我一直在 X 和 IG 上追踪针对麦当劳、Usher、Kabosu 主人、Andy Ayrey、Wiz Khalifa、SPX 6900 等的一系列相关攻击，这些攻击通过推出 Pump.Fun Meme 币导致约 350 万美元以上的资金被盗。”
+其还称，关于此次调查的第二部分可能会在明天发布，将揭露与超过 9 次入侵相关的多个威胁行为者。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403623"
+                        open
+                      >
+                        <summary class="article-expander__title">TORN 24H涨幅达595.5%，暂报24.32美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403623">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 CoinGecko 数据显示，TORN 短线逼近 35 美元后回落，现报 24.32 美元，24H 涨幅达 595.5%。
+今日早些时候消息，美国法院裁定对 Tornado Cash 智能合约的制裁违法。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403622"
+                        open
+                      >
+                        <summary class="article-expander__title">Consensys律师：即使法院裁定财政部对Tornado Cash的制裁违法，创始人Roman也不会因此获释</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403622">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 Consensys 律师 Bill Hughes 于 X 平台发文表示，即使法院裁定财政部对 Tornado Cash 的制裁违法，创始人 Roman 依旧运行了一项违反制裁、非法转移资金和协助洗钱的服务，该裁定没有改变这些指控。
+此前消息，Coinbase 首席法务官 Paul Grewal 于 X 发文表示：“隐私权获胜。今天，美国第五巡回法院裁定，美国财政部对 Tornado Cash 智能合约的制裁是非法的。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403621"
+                        open
+                      >
+                        <summary class="article-expander__title">消息人士：前SEC专员Paul Atkins仍是领导SEC过渡团队成员中最受欢迎人选</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403621">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 FOX Business 记者 Eleanor Terrett 于 X 发文表示，据两位接近海湖庄园讨论的消息人士称，前 SEC 专员 Paul Atkins 仍是领导 SEC 的顶级过渡团队成员中最受欢迎的人选。
+Atkins 不仅精通加密货币技术，而且对 SEC 的内部运作有着深刻理解，他曾担任过两任 SEC 主席 Richard C。Breeden 和 Arthur Levitt 的专员和工作人员。Atkins 被认为能够制定支持创新的议程，同时让该机构恢复所谓的“黄金标准”，共和党中的许多人认为，在即将离任的主席 Gary Gensler 的领导下，该标准已经消失。
+现在，特朗普的大部分内阁人选已经公布，过渡团队将把注意力转向填补联邦机构的职位，但尚不清楚这些公告的具体发布时间。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403620"
+                        open
+                      >
+                        <summary class="article-expander__title">昨日富达FBTC净流出9570万美元，FETH净流出170万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403620">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据 Farside Investors 数据，昨日富达 FBTC 净流出 9570 万美元，FETH 净流出 170 万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403619"
+                        open
+                      >
+                        <summary class="article-expander__title">巴西议员提议建立国家比特币主权战略储备</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403619">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 巴西一名国会议员正式提出一项法案，提议在该国建立比特币主权战略储备（Bitcoin Sovereign Strategic Reserve），旨在实现该国国库多元化。据巴西媒体平台 Portal do Bitcoin 报道，国会议员 Eros Biondini 于周一提出了这项提案。（Watcher.Guru）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/post/5200058"
+                        open
+                      >
+                        <summary class="article-expander__title">星球日报 | 美法院裁定对Tornado Cash智能合约的制裁违法；MicroStrategy创始人Micheal Saylor重申不会出售BTC（11月27日）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5200058">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>CZ：没有试图结束Meme狂热，只是鼓励更多建设者；纽交所就上市Bitwise BTCÐ ETF向SEC提交19b-4和S-1文件。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403613"
+                        open
+                      >
+                        <summary class="article-expander__title">星球早讯</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403613">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>1. CZ：没有试图结束 Meme 狂热，只是鼓励更多建设者；
+2. Michael Saylor：本季度迄今 MicroStrategy 已为股东带来约 88820 枚 BTC 净收益；
+3. Pantera 比特币基金回报突破 1000 倍，回报率目前达 131,165%；
+4. Movement Network 基金会公布 MoveDrop，向社区空投 10%代币；
+5. 渣打银行分析师：BTC 的短期底部为 85,000 美元至 88,700 美元区间；
+6. Kraken 将于 2025 年 2 月 27 日关闭其 NFT 市场；
+7. 美法院裁定对 Tornado Cash 智能合约的制裁违法；
+8. 纽交所就上市 Bitwise BTCÐ ETF 向 SEC 提交 19b-4 和 S-1 文件；
+9. DeFi Technologies 子公司 Valour 在北欧推出首个 Dogecoin ETP；
+10. Coinbase 首席法务官：法院裁定 Tornado Cash 的智能合约不属于受制裁“财产”；
+11. 外媒：特朗普政府考虑让 CFTC 主导数字资产监管；
+12. EigenLayer 治理系统 EigenGov 计划组建理事会网络，EIGEN 持有者有权否决理事会决定；
+13. MicroStrategy 创始人 Micheal Saylor 重申不会出售 BTC；
+14. Ripple 在美国中期选举前再次向 Fairshake PAC 捐赠 2500 万美元；
+15. Uniswap v4 推出 1550 万美元漏洞赏金计划；
+16. Suilend 原生代币 SEND 拟于 12 月 12 日推出；
+17. 灰度向合格投资者开放 SOL、SUI、XRP 等 17 个代币信托基金私募认购。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403618"
+                        open
+                      >
+                        <summary class="article-expander__title">OpenAI文本转视频工具Sora遭艺术家和早期测试者群体泄露访问权限</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403618">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 一群艺术家和 OpenAI 未发布的文本转视频工具 Sora 的早期测试者，在称该工具被用于“无偿研发”后，泄露了新模型的访问权限以示抗议。
+该群体于 11 月 26 日向 AI 开发平台 HuggingFace 发布了似乎是 Sora 前端版本的工具，允许任何人使用该工具进行创作。然而据报道，OpenAI 此后已介入并将其关闭。
+此次泄密是由一群艺术家和 beta 测试人员以“PR-Puppets”用户名共同进行的。
+“我们获得了 Sora 的使用权，并承诺成为早期测试人员、红队成员和创意合作伙伴。然而，我们认为，我们被引诱进行‘艺术清洗’，以告诉世界 Sora 对艺术家来说是一个有用的工具，”该组织表示。
+根据与 Sora 泄密事件同时发布的公开信，该组织声称“数百名艺术家”通过错误测试、反馈和实验工作提供了无偿劳动，却发现自己被排除在 OpenAI 的任何补偿或认可之外。
+艺术家们称，OpenAI（现在私下估值为 1570 亿美元）不公平地阻止艺术家和贡献者获得测试、反馈和开发的报酬。（Cointelegraph）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403617"
+                        open
+                      >
+                        <summary class="article-expander__title">Altura与Immutable达成合作，拟向Immutable zkEVM Main Quest奖池提供500万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403617">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 Web3 游戏平台 Immutable 宣布与 Altura 建立战略合作伙伴关系，Altura 是构建下一代游戏的一体化平台。通过合作，Immutable 和 Altura 推出新的定制市场解决方案，使用由 Altura 提供支持的 Immutable 上的这些创新市场工具为所有游戏项目集成 Immutable Passport 和 Checkout 基础设施。
+此次合作使基于 Altura 构建的游戏能够加入 Immutable zkEVM Main Quest 计划，奖励玩家的参与度和活动。为了进一步加强这一举措，Altura 将向现有的 Main Quest 奖励池贡献高达 500 万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403616"
+                        open
+                      >
+                        <summary class="article-expander__title">特朗普选择文斯·黑利领导国内事务委员会</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403616">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 美国当选总统特朗普：选择文斯·黑利（Vince Haley）领导国内事务委员会。（金十）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403615"
+                        open
+                      >
+                        <summary class="article-expander__title">某新建地址过去3小时内累计从Coinbase买入116万枚EIGEN，价值391万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403615">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据链上分析师@ai_9684xtpa 监测，新地址 0xB14...6284f 过去 3 小时内累计从 Coinbase 提出 116 万枚 EIGEN，价值 391 万美元，均价 3.37 美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403614"
+                        open
+                      >
+                        <summary class="article-expander__title">WalletConnect已上线空投查询页面，用户可申领并质押WCT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403614">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 WalletConnect 官方宣布，空投查询页面已上线，符合资格的用户可申领并质押自己的 WCT。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403612"
+                        open
+                      >
+                        <summary class="article-expander__title">曾在UNI上获利177万美元巨鲸七小时前再次建仓34.5万枚UNI，价值375万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403612">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据链上分析师@ai_9684xtpa 监测，曾在 UNI 上获利 177 万美元的巨鲸 0x20d...2dEDa 七小时前再次建仓 34.5 万枚 UNI，价值 375 万美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403611"
+                        open
+                      >
+                        <summary class="article-expander__title">Bitwise在瑞士证券交易所上市Staked Aptos ETP， Coinbase作为托管人和质押提供商</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403611">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 Coinbase Institutional 于 X 宣布担任 Bitwise Europe 新推出的 Staked Aptos ETP 托管人和质押提供商，该产品现已在瑞士证券交易所（SIX Swiss Exchange）上市。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403610"
+                        open
+                      >
+                        <summary class="article-expander__title">新西兰联储如期降息50个基点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403610">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 新西兰联储将利率下调 50 个基点至 4.25%，符合市场预期，为连续第三次降息。（金十）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403601"
+                        open
+                      >
+                        <summary class="article-expander__title">一体化公链Supra宣布上线主网并启动TGE，与多家交易所合作推出</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403601">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 一体化公链 Supra 宣布上线主网并启动 TGE。Supra 作为首款垂直集成一体化 L1 公链，提供 MultiVM 支持、原生预言机、链上随机数、跨链通信及自动化功能。此次 TGE 的$SUPRA 代币将于 2024 年 11 月 27 日在 ByBit、Kucoin、Gate 和 MEXC 发布，未来还将发布在更多交易所。这一重要里程碑标志着 Supra 进入全新阶段，为 Web3 生态带来巨大潜力。
+Supra 已完成 3800 万美元融资，投资机构包括 Coinbase、HashKey 和 Animoca 等。Supra 的测试网自 2024 年 8 月上线以来，已处理超过 900 万笔交易。与此同时，Blastoff 活动吸引了 51 万用户参与，成为 Web3 社区的典范。许多开发者计划于今年底在 Supra 主网上线 dApp，进一步推动生态成长。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403609"
+                        open
+                      >
+                        <summary class="article-expander__title">Flashbots推出以太坊上去中心化区块构建网络BuilderNet</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403609">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 区块链基础设施公司 Flashbots 推出 BuilderNet，这是一个以太坊上的去中心化区块构建网络，旨在“消除审查制度”并解决该网络最大的“瓶颈”之一。
+BuilderNet 于 11 月 26 日推出，旨在让“多方合作构建区块”。值得一提的是，最近几周，大约 88%的以太坊区块都是由 Beaverbuild 和 Titan Builder 构建。
+Coinbase 的协议专家 Viktor Bunin 在 X 上表示，这“绝对意义重大”，因为它将“消除审查制度”和以太坊上的独家订单流交易。
+Flashbots 的产品经理 Shea Ketsdever 表示，BuilderNet 的第一个版本现已在以太坊主网上线，并将在“稍后”作为 L2 去中心化排序的嵌入式解决方案提供。（Cointelegraph）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403608"
+                        open
+                      >
+                        <summary class="article-expander__title">昨日贝莱德IBIT无资金流入/流出</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403608">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据 Trader T 监测，昨日贝莱德 IBIT 无资金流入/流出。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.odaily.news/newsflash/403607"
+                        open
+                      >
+                        <summary class="article-expander__title">EigenLayer治理系统EigenGov计划组建理事会网络，EIGEN持有者有权否决理事会决定</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/403607">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Odaily星球日报讯 据官方消息，Eigen 基金会发文介绍 EigenLayer 的治理系统 EigenGov 第一部分。
+EigenGov 的作用是维护 EigenLayer 生态的协调层，该生态由 EIGEN 持有者、AVS 开发人员、运营商和质押者组成，他们是 EigenLayer 协议繁荣、安全和可靠性的关键参与者。EigenGov 将生态参与者聚集在一起，通过一个既有效又去中心化的新颖系统来支持对开放创新的共同愿景。
+EigenGov V1 的核心是其理事会（council）。EigenGov 的权力将由一个理事会网络掌握，该网络由值得信赖的高语境领域专家组成，由代币持有者授权代表社区做出决策，并通过制衡系统承担责任。理事会将拥有特定领域的权力，可以就 EigenLayer 协议和 EigenGov 做出决策并采取行动。这些权力包括决策权和升级核心协议合约的权力（协议理事会）、管理奖励参数的权力（激励理事会）、管理社区拨款预算的权力（拨款理事会），以及对治理和治理权力设定限制和评估的权力（Eigen 理事会）。
+每个理事会都将有一份章程来管理其决策权和权力的范围，随着时间的推移，这些初始理事会的数量、活动范围和成员数量将不断扩大。
+而 EIGEN 持有者将有权否决理事会决定。在不久的将来，Eigen 持有者还将能够（i）直接认可 EigenLayer 贡献者在某些主题知识或技能方面的资格，这些知识或技能可能使这些贡献者有资格成为理事会成员，和/或（ii）将权力分配给“策展人（curator）”，策展人将代表那些将权力分配给他们的 Eigen 持有者做出此类认可。这种“认可”模式是新颖的，应该与委托区分开来。拥有社区信任的决策者被提升为理事会成员，并积极对所有提案进行投票。代币持有者可以根据需要否决提案，以检查严重不一致的决策。
+此外，代币持有者将能够在理事会投票之前对提案发表意见，从而增强集体意见，而无需对每个问题都进行详细的专业知识。
+为了解决有效和去中心化治理的挑战，Eigen 基金会正在实施孵化理念，以创建、任命和管理理事会。
+最初将在 Eigen 基金会内孵化的去中心化结构作为独立的理事会。孵化确保理事会在短期内有效运作。它还提供了时间来研究、开发、测试和迭代新的理事会和治理设计。这些设计将针对以下关键问题推出强大的分散解决方案：
+理事会激励：奖励理事会成员持续、高质量和长期的价值创造。
+理事会协调：通过创建新系统来支持决策者和协议需求的分散协调，从而减少委托代理问题。
+理事会问责制：通过制衡、透明度和报告让决策者对代币持有者负责。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -33885,502 +35096,6 @@ BlockBeats 提醒用户，Meme 币暂无实际用例，价格波动较大，投�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402884"
-                        open
-                      >
-                        <summary class="article-expander__title">某交易者花费总计131枚SOL买入4044万枚BULLY，当前价值已达595万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402884">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 据 Lookonchain 监测，某交易者在一个月前花费 115 枚 SOL 买入 2051 万枚 BULLY，结果却眼睁睁地看着它下跌了 90%，但他并未抛售。相反，在 11 月 18 日，该交易者又花费 16 枚 SOL 买入 1993 万枚 BULLY，今日 BULLY 市值突破 1.4 亿美元，他通过两笔交易买入的 4044 万枚 BULLY，当前价值已达 595 万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402883"
-                        open
-                      >
-                        <summary class="article-expander__title">Michael Saylor：MicroStrategy通过比特币财务运营为MSTR股票持有人创造价值</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402883">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 Michael Saylor 于 X 平台发文称，MicroStrategy 依靠其比特币财务运营。通过 ATM（“自动化市场做市商”）产品出售波动性，将比特币的风险、波动性和业绩从固定收益证券中剥离，并将该业绩转移给 MSTR 股票持有人。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402882"
-                        open
-                      >
-                        <summary class="article-expander__title">XEX上线Slerf/USDT永续合约</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402882">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 据官方消息，XEX 于 11 月 22 日 19：00 （UTC+8）正式上线 Slerf/USDT 永续合约。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402880"
-                        open
-                      >
-                        <summary class="article-expander__title">OKX将上线MEMEFI杠杆交易、永续合约及简单赚币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402880">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 据官方公告，OKX 将于 2024 年 11 月 22 日下午 11：00 （UTC+8）在网页端、App 端及 API 正式上线 MEMEFIUSDT 永续合约，并于 2024 年 11 月 25 日中午 12：00 （UTC+8）上线 MEMEFI/USDT 的杠杆交易、简单赚币</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402879"
-                        open
-                      >
-                        <summary class="article-expander__title">Sui宣布与富兰克林邓普顿数字资产建立战略合作伙伴关系</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402879">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 据官方消息，Sui 宣布与富兰克林邓普顿数字资产（Franklin Templeton Digital Assets）建立战略合作伙伴关系，专注于支持 Sui 生态系统建设者并利用 Sui 区块链协议部署新技术。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402878"
-                        open
-                      >
-                        <summary class="article-expander__title">OKX：Web3钱包仍在维护，链上资产不受任何影响</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402878">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 据官方公告，OKX 表示 Web3 钱包服务仍在维护中，部分用户出现加载慢和网络异常的情况。服务维护将尽快结束，恢复后将第一时间通知，维护期间，链上资产不受任何影响，仅是资产和交易状态的展示有延迟。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402877"
-                        open
-                      >
-                        <summary class="article-expander__title">特朗普或将发起美国参议院休会绕过下届美SEC主席审查</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402877">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 美国证券交易委员会（SEC）主席 Gery Gensler 宣布拟于 2025 年 1 月 20 日辞职，不过新任美国证券交易委员会主席的人选将面临美国参议院的审查，因为所有委员会成员都必须经过参议院的确认。据悉特朗普或将尝试通过休会任命来绕过一些任命确认程序，然而这将要求国会投票休会，而除非提名人没有争议，否则国会可能不愿意这样做。（Cointelegra）</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402876"
-                        open
-                      >
-                        <summary class="article-expander__title">Farside：比特币ETF已连续四天流入超10亿美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402876">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 据 Farside Investors 在 X 平台披露，比特币 ETF 已连续四天流入超 10 亿美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402875"
-                        open
-                      >
-                        <summary class="article-expander__title">Solana 链上TVL升至92.65亿美元，创三年来最高水平</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402875">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 DefiLlama 数据显示，Solana 链上 TVL 升至 92.65 亿美元，创三年来最高水平。
-前四名 DeFi 协议分别是：
-Jito TVL 暂报 37.06 亿美元；Kamino TVL 暂报 24.41 亿美元；Raydium TVL 暂报 24.07 亿美元；Jupiter TVL 暂报 23.73 亿美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402874"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币矿企Bitdeer宣布发行3.6亿美元的可转换优先票据</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402874">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 比特币矿企 Bitdeer 宣布以私募方式向合格机构买家发行 3.6 亿美元的可转换优先票据，到期日为 2029 年。公司还授予票据的初始购买者在票据首次发行之日起 13 天内购买最多额外 4000 万美元本金票据的选择权。票据的出售预计将于 2024 年 11 月 26 日完成，但须遵守惯例成交条件，相关资金拟用于数据中心扩建、基于 ASIC 的采矿设备的开发和制造，以及营运资金和其他一般公司用途。（globenewswire）</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402873"
-                        open
-                      >
-                        <summary class="article-expander__title">OKX：拟于11月28日交割MAJORUSDT盘前交割合约</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402873">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 据官方公告，OKX 宣布将于 2024 年 11 月 28 日下午 7：00 （UTC+8）交割 MAJORUSDT 盘前交割合约，合约交割后，在 MAJORUSDT 合约交割时持仓价值大于 10,000 美元的用户会被限制交易账户所有资产划转，30 分钟后恢复正常。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402872"
-                        open
-                      >
-                        <summary class="article-expander__title">1confirmation创始人：过度宣传是反向信号，庞大且有坚定信念的持有者群体才是最佳信号</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402872">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 1confirmation 的创始人 Nick Tomaino 在 X 平台发文表示，从过去的牛市中学到最宝贵的一课是，过度宣传往往是一个反向信号。当大多数人都在喧嚣时，通常意味着他们对自己的持仓不自信，一旦有机会，他们会抛售给你。而一个庞大且坚定信念的持有者群体就是最好的信号。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402871"
-                        open
-                      >
-                        <summary class="article-expander__title">顶峰AscendEX将上线Mumu (MUMU)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402871">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 顶峰 AscendEX  （原 BitMax）将于 11 月 23 日 03：00 上线 Mumu （MUMU），开放 MUMU/USDT 交易对，现已开放充值。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402870"
-                        open
-                      >
-                        <summary class="article-expander__title">纳斯达克上市公司Anixa Biosciences董事会批准购买比特币作为储备资产</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402870">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 美国纳斯达克上市公司 Anixa Biosciences， Inc.（NASDAQ：ANIX）宣布其董事会已批准购买比特币作为财库储备资产，旨在实现公司资产多元化，同时使 Anixa 能够从数字资产的潜在长期价值中获益。据悉，Anixa 是一家专注于癌症治疗和预防的临床阶段生物技术公司。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402869"
-                        open
-                      >
-                        <summary class="article-expander__title">Zeus Network：ZEUS代币实际用例第一阶段开启，将以20000:1的比率将BTC引入Solana生态</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402869">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 Zeus Network 官方发文表示，即将推出 ZEUS 代币实际用例第一阶段。作为 Jupiter LFG Launchpad 上的首个项目，ZEUS 致力于连接两大最具影响力的区块链生态系统——比特币生态和 Solana 生态，目标是将 1%的 BTC 供应链引入 Solana 生态。
-据了解，第一阶段将通过在早期阶段 BTC 与 ZEUS 代币汇率保持在 1：20,000 的比率来建立网络基础，并将比特币引入 Solana 生态；随着比特币流动性的进入，该比率将根据比特币市场和 Solana 的流动性需求动态调整。
-此外，第一阶段中，ZEUS 定位为 Layer 级代币，其初始使命是使比特币流动性安全高效地流入 Solana，将其转化为 ZPL 资产，从而释放比特币的全部潜力，实现链上收益生成并积极参与 Solana 动态 DeFi 生态系统。后续第二阶段将致力于构建 ZPL-Asset 生态系统；第三阶段致力于实现多链资产交互，挖掘 BTC、LTC、DOGE 和 KAS 等代币的潜在流动性。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402868"
-                        open
-                      >
-                        <summary class="article-expander__title">过去1小时全网爆仓超5500万美元，主爆多单</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402868">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 Coinglass 数据显示，过去 1 小时全网爆仓 5519.2 万美元，其中多单爆仓 4751.97 万美元，空单爆仓 767.23 万美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402867"
-                        open
-                      >
-                        <summary class="article-expander__title">ETH跌破3300 USDT，24H跌幅1.15%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402867">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 OKX 行情显示，ETH 跌破 3300 USDT，现报 3296.6 USDT，24H 跌幅 1.15%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402865"
-                        open
-                      >
-                        <summary class="article-expander__title">BTC跌破98000 USDT，24H涨幅收窄至0.61%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402865">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 OKX 行情显示，BTC 跌破 98000 USDT，现报 97976 USDT，24H 涨幅收窄至 0.61%</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402864"
-                        open
-                      >
-                        <summary class="article-expander__title">Aave联创：Arbitrum现在是Aave上最大的L2市场</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402864">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 Aave 联创 Stani 在 X 平台发文称，Arbitrum 在 Aave 上的增长并未获得足够的赞誉，祝贺 Arbitrum 生态系统取得的所有进展，它现在是 Aave 上最大的 L2 市场。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402863"
-                        open
-                      >
-                        <summary class="article-expander__title">Solana昨日链上部署代币项目超7.7万个续创新高，大部分为Meme币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402863">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 据 SolanaFloor 在 X 平台发文披露，11 月 21 日，超过 7.7 万个代币项目在 Solana 链上部署，创下单日代币项目部署数量记录，其中大部分为 Meme 币项目。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402819"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊meme发行平台jump.fun已于11月22号上线1</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402819">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 以太坊生态 meme 发行平台 jump.fun 正式上线主网，旨在为开发者和用户提供一站式 meme 币发行与交易解决方案。
-据悉，jump.fun 支持用户填写基础代币信息（名称、符号及简单描述）完成 meme 发行，且每个新发行代币即刻免费获得 6 ETH 流动性贷款，用于在 Uniswap 提供初始流动性。jump.fun 提出的“LiqWar”模式，允许 meme 币以流动性竞赛形式分批竞争，赢家流动性倍增。此外，平台收入 100%用于回购 JUMP，并按比例分配：25%用于代币销毁，25%支持协议开发，50%分配为社区奖励。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/post/5199975"
-                        open
-                      >
-                        <summary class="article-expander__title">预言川普中枪的神父，预告XRP价格将达到1万美元？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/post/5199975">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>预言虽然是天方夜谭，但监管环境的改变对Ripple却是发展良机。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402862"
-                        open
-                      >
-                        <summary class="article-expander__title">Zircuit：ZRC代币总供应量100亿枚，21%用于空投和社区奖励</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402862">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 据 Zircuit 官方信息披露代币经济学显示，ZRC 代币总供应量为 100 亿枚，其中：
-21%用于空投和社区奖励，是所有 L2 中空投比例最高的项目之一，包括；
-   -7.00%用于第 1 季空投：在 TGE 解锁；
-   -3.00%用于第 2 季空投：在 TGE 解锁；
-   -2.45%用于活动（Fairdrop、Catizen、Binance Web3 等）：在 TGE 解锁；
-   -8.55%用于未来空投和奖励：6 个月和 12 个月悬崖期，然后 24 个月线性归属；
-13.08%用于 Community Provisions：1 年悬崖期，然后 24 个月线性归属；
-17.93%用于生态系统发展：1 年悬崖期，然后 24 个月线性归属；
-18.70%用于基金会：1 年悬崖期，然后 24 个月线性归属；
-18.74%用于团队：1 年悬崖期，然后 24 个月线性归属；
-10.55%用于投资者：1 年悬崖期，然后 24 个月线性归属。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.odaily.news/newsflash/402854"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊meme发行平台jump.fun已于11月22号上线</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.odaily.news/newsflash/402854">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Odaily星球日报讯 以太坊生态 meme 发行平台 jump.fun 正式上线主网，旨在为开发者和用户提供一站式 meme 币发行与交易解决方案。
-据悉，jump.fun 支持用户填写基础代币信息（名称、符号及简单描述）完成 meme 发行，且每个新发行代币即刻免费获得 6 ETH 流动性贷款，用于在 Uniswap 提供初始流动性。jump.fun 提出的“LiqWar”模式，允许 meme 币以流动性竞赛形式分批竞争，赢家流动性倍增。此外，平台收入 100%用于回购 JUMP，并按比例分配：25%用于代币销毁，25%支持协议开发，50%分配为社区奖励。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -34466,198 +35181,6 @@ Jito TVL 暂报 37.06 亿美元；Kamino TVL 暂报 24.41 亿美元；Raydium TV
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271660"
-                        open
-                      >
-                        <summary class="article-expander__title">某交易者花费22600美元买入BULLY，目前价值595万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271660">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，据 Lookonchain 监测，一个月前，某交易者花费 115 枚 SOL（19400 美元）购买了 2051 万枚 BULLY 后其价格下跌了 90%。11 月 18 日，该交易者再次花费了 16 枚 SOL（3200 美元）购买了 1993 万枚 BULLY。
-
-
-目前，随着 BULLY 市值突破 1.4 亿美元，该交易者持有的 4044 万枚 BULLY 现在价值 595 万美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271659"
-                        open
-                      >
-                        <summary class="article-expander__title">OKX将上线MEMEFI永续合约</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271659">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，据官方消息，OKX 将于 2024 年 11 月 22 日下午 11:00 (UTC+8) 在网页端、App 端及 API 正式上线 MEMEFIUSDT 永续合约，并于 2024 年 11 月 25 日中午 12:00 (UTC+8) 上线 MEMEFI/USDT 的杠杆交易、简单赚币。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271658"
-                        open
-                      >
-                        <summary class="article-expander__title">Michael Saylor：MicroStrategy通过比特币财务运营为MSTR股票持有人创造价值</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271658">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，Michael Saylor 于社交平台发文称，MicroStrategy 依靠其比特币财务运营。通过 ATM（「自动化市场做市商」）产品出售波动性，将比特币的风险、波动性和业绩从固定收益证券中剥离，并将该业绩转移给 MSTR 股票持有人。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271657"
-                        open
-                      >
-                        <summary class="article-expander__title">Sui与富兰克林邓普顿数字资产达成战略合作伙伴关系</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271657">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，据官方消息，Sui 与富兰克林邓普顿数字资产达成战略合作伙伴关系，旨在支持 Sui 生态系统建设者并利用 Sui 区块链协议部署新技术。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271656"
-                        open
-                      >
-                        <summary class="article-expander__title">比特小鹿拟发行3.6亿美元可转换优先票据用于数据中心扩张与矿机研发</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271656">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，比特小鹿（Bitdeer Technologies Group）宣布，将向合格机构投资者发行 3.6 亿美元 5.25% 可转换优先票据，到期日为 2029 年。初始购买者可在发行后 13 天内追加购买 4000 万美元本金票据，预计交易将于 11 月 26 日完成。
-
-票据初始转股价为每股 15.95 美元，较 11 月 21 日收盘价溢价 42.5%。扣除相关费用后，预计净募资约 3.482 亿美元，若追加认购份额全部行使，净募资将达 3.870 亿美元。资金将用于数据中心扩张、ASIC 矿机研发制造及日常运营。公司同时宣布与部分 2029 年到期的 8.50% 可转债持有人达成交换协议。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271655"
-                        open
-                      >
-                        <summary class="article-expander__title">Solana TVL突破90亿美元，创2021年12月以来新高</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271655">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，据 DefiLlama 数据，Solana TVL 突破 90 亿美元，，达 92.56 亿美元，创 2021 年 12 月以来新高。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271654"
-                        open
-                      >
-                        <summary class="article-expander__title">过去4小时全网爆仓9054万美元，主爆多单</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271654">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，据 Coinglass 数据，过去 4 小时全网爆仓 9054 万美元，其中多单爆仓 6653 万美元。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271653"
-                        open
-                      >
-                        <summary class="article-expander__title">1confirmation创始人：牛市中过度宣传是反向信号，庞大且坚定信念的社区才是最佳信号</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271653">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，1confirmation 的创始人 Nick Tomaino 于 X 发文表示，「从过去的牛市中学到的最宝贵的一课是，过度宣传往往是一个反向信号。当大多数人都在喧嚣时，通常意味着他们对自己的持仓不自信，一旦有机会，他们会抛售给你。一个庞大且坚定信念的持有者群体就是最好的信号。」</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271652"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊跌破3300美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271652">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，据 HTX 行情数据，以太坊跌破 3300 美元，现报价 3296 美元，24 小时跌幅 1.14%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271651"
-                        open
-                      >
-                        <summary class="article-expander__title">比特币短时跌破98,000美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271651">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，据 HTX 行情信息，比特币短时跌破 98,000 美元，现报价 98,102 美元，24 小时涨幅 0.82%。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://m.theblockbeats.info/news/271650"
-                        open
-                      >
-                        <summary class="article-expander__title">Magic Eden基金会：即将推出ME代币</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://m.theblockbeats.info/news/271650">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BlockBeats 消息，11 月 22 日，Magic Eden 基金会官方在社交媒体上发文表示，「ME 代币已在以下上线盘前交易：Coinbase 国际站、OKX、Bybit、Bitget、Gate、Mexc 和 Kucoin。真正的 ME 代币即将推出。」</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -34734,195 +35257,6 @@ Jito TVL 暂报 37.06 亿美元；Kamino TVL 暂报 24.41 亿美元；Raydium TV
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/y4iqjv37.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Pythagoras加密基金回报率达230%，超过比特币的涨势</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/y4iqjv37.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据彭博社报道，投资管理公司Pythagoras Investment Management的Alpha Long Biased策略自推出以来已近一年，除两个月外，该基金每个月都跑赢比特币，今年迄今的涨幅约为230%，扣除费用后为206%。
-Pythagoras的Bitcoin-beating fund（比特币跑赢基金）持有约500万美元的资产，是Mitchell Dong在其公司管理的约1.3亿美元资产中运行的四种策略中规模最小的。其他三只基金并没有带来同样惊人的回报：今年迄今为止，它们的收益率在13%至34%之间。
-Alpha Long Biased策略包含几个组成部分。首先，有三分之一的核心持仓是比特币本身。另外三分之一采用趋势跟踪策略，在加密货币市场上涨时做多至两倍杠杆，市场下跌时则相反。其余部分则采用一种多空策略，该策略保持市场中性、贝塔中性以及美元中性</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/lj0934vr.html"
-                        open
-                      >
-                        <summary class="article-expander__title">IOST与PetPals达成合作，IOST链上首个宠物Meme游戏将于Q4上线</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/lj0934vr.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据官方消息，2024年11月22日，IOST与区块链游戏开发团队PetPals建立战略合作伙伴关系。PetPals正式成为IOST生态节点合伙人，并将于今年第四季度推出IOST链上首款创新型宠物Meme游戏 —— PetPals。
-本次合作旨在整合双方资源优势， 构建更具可扩展性、可持续性的IOST多维生态系统。PetPals将在IOST打造一款融合宠物养成、Meme文化及Play-to-Earn经济模型的Telegram宠物Meme游戏。未来，双方将共同探索Web3游戏的发展方向，推动区块链技术在游戏领域的创新应用。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/0fej0cd4.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Sui与富兰克林邓普顿数字资产建立战略合作伙伴关系</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/0fej0cd4.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据官方博客，Sui与富兰克林邓普顿数字资产公司建立了战略合作伙伴关系，专注于支持Sui生态系统建设者并利用Sui区块链协议部署新技术。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/6yih5yyh.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Bitdeer宣布发行3.6亿美元可转换优先票据</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/6yih5yyh.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据Globenewswire报道，比特币矿企Bitdeer宣布以私募方式向合格机构买家的人士发行3.6亿美元本金的5.25%可转换高级票据，到期日为2029年。公司还授予票据的初始购买者在票据首次发行之日起13天内购买最多额外4000万美元本金票据的选择权。票据的出售预计将于2024年11月26日完成，但须遵守惯例成交条件。
-公司估计，在扣除初始购买者的折扣及公司应付的预计发行费用后，此次发行的净收益将约为3.482亿美元（若初始购买者选择全额购买额外债券，则净收益约为3.870亿美元）。公司计划将此次发行净收益的一部分用于支付零执行价看涨期权交易的成本，并支付公司已签订的同时进行的债券交换交易的现金对价。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/39s1obyp.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Zeus Network公布ZEUS最新代币经济学，分三阶段促进比特币流动性与Solana整合</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/39s1obyp.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，Zeus Network今日公布了$ZEUS的最新代币经济学，该模型分为三个阶段，每阶段都旨在促进BTC流动性无缝流入 Solana，同时释放其全部潜力。
-第一阶段“保护网络安全”计划在 Solana 上实现比特币流动性的引入，将其转化为 ZPL-资产 (Zeus Program Library 支持的资产)，从而激活比特币的链上收益潜力并融入 Solana 的 DeFi 生态系统。$ZEUS 作为 Layer Token，可用于委托至 ZeusNode Guardian，以确保网络和 ZPL-资产的安全性。
-第二阶段“构建 ZPL 资产生态”旨在通过扩展 $ZEUS 的效用，进一步推动 Solana DeFi 生态的深度融合，为 ZPL-资产提供更多价值实现的可能性。此外，通过开源ZPL，允许推出多版本的 BTC在 Solana 上流通，增强 ZPL-资产的多样性和使用场景。
-第三阶段“实现多链交互”计划通过连接比特币 ($BTC)、莱特币 ($LTC)、狗狗币 ($DOGE)、Kaspa ($KAS) 等主流 UTXO 区块链，实现跨链资产的互操作性，释放这些资产的潜在流动性。
-其中，第二、三阶段的代币效用的详细信息将在之后陆续公开。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/9gadidg1.html"
-                        open
-                      >
-                        <summary class="article-expander__title">美国上市公司Anixa Biosciences董事会批准购买比特币作为储备资产</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/9gadidg1.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据美通社报道，美国上市公司Anixa Biosciences, Inc. (NASDAQ: ANIX)宣布其董事会已批准购买比特币作为财库储备资产，旨在实现公司资产多元化，同时使Anixa能够从数字资产的潜在长期价值中获益。
-据悉，Anixa是一家专注于癌症治疗和预防的临床阶段生物技术公司。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/401ijh4c.html"
-                        open
-                      >
-                        <summary class="article-expander__title">ETH跌破3300美元，日内涨幅 0.41%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/401ijh4c.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，欧易OKX行情显示，ETH刚刚跌破3300美元，现报3290.59美元/枚，日内涨幅 0.41%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/bl3e6trd.html"
-                        open
-                      >
-                        <summary class="article-expander__title">BTC跌破98000美元，日内涨幅 1.38%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/bl3e6trd.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，欧易OKX行情显示，BTC刚刚跌破98000美元，现报97996.00美元/枚，日内涨幅 1.38%。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/8e9pgf5n.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Bitwise CEO：SOL是本轮周期中取得突破性成功的加密货币之一</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/8e9pgf5n.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 11月22日消息，据Blockworks报道，Bitwise首席执行官Hunter Horsley表示，Solana是本轮周期中取得突破性成功的加密货币之一，他认为客户会想要入手SOL。Hunter Horsley还称SOL是“一项令人难以置信的新兴资产和故事”，许多比特币ETF买家可能正在寻找加密货币领域的“下一件大事”。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -34930,8 +35264,8 @@ Alpha Long Biased策略包含几个组成部分。首先，有三分之一的核
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/12041638118">
-        <time id="build-timestamp" datetime="2024-11-27T00:52:15.853Z">2024-11-27T00:52:15.853Z</time>
+      <a class="footer-link" href="https://github.com/hashkeydx/cn-news/actions/runs/12042534144">
+        <time id="build-timestamp" datetime="2024-11-27T02:21:57.965Z">2024-11-27T02:21:57.965Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
