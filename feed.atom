@@ -2,10 +2,533 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2025-03-27T03:26:50.596Z</updated>
+    <updated>2025-03-27T04:13:53.073Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[速度快到飞起还不够，EVM链到底在拼什么？]]></title>
+        <id>https://m.theblockbeats.info/news/57483</id>
+        <link href="https://m.theblockbeats.info/news/57483"/>
+        <updated>2025-03-27T04:12:29.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：Battle of the EVM Chains: Who』s Winning the Giga Gas War?
+原文作者：yusufxzy，Delphi_Digital 研究员
+原文编译：律动小 Deep
+
+
+编者按：当前 EVM 兼容链（如 Sonic、MegaETH、Monad、Sei、Fuel）的竞争焦点已从去中心化和安全性转向原始性能与生态策略。各链通过差异化路径（如开发者激励、极致速度、生态预构建、技术优化或 DA 层创新）争夺市场，但最终胜出者需在速度、用户体验、经济模型和生态成熟度等综合维度建立优势，而非仅靠吞吐量。
+
+
+以下为原文内容（为便于阅读理解，原内容有所整编）：
+
+
+区块链领域已进入全新竞争维度。早期的 L1 与 L2 之争聚焦去中心化、可组合性与安全性，如今战场已转向原始性能赛道。包括 Sonic、MegaETH、Fuel、Monad 和 Sei 在内的多条 EVM 兼容链，正竞相突破曾被视作不可能的扩展性巅峰。但原始性能就是决胜关键吗？本文剖析这些链的战略差异点。
+
+
+Sonic：让开发者收益与生态贡献挂钩
+
+
+@SonicLabs（原 Fantom）已完成战略转型，其核心创新"费用货币化（FeeM）"机制将应用产生交易费的 90% 分配给开发者，验证者仅得 10%。
+
+
+
+
+
+这种模式已显现成效——生态内 DEX 项目 @ShadowOnSonic
+
+
+迅速跻身周收入榜 Top4。同时 Sonic 通过 DeFi 应用交互与持币空投的双重激励，推动 TVL 攀升至 9.62 亿美元历史高点。
+
+
+竞争优势：
+
+
+• 直接经济激励绑定开发者忠诚度
+
+
+• 高收益驱动的应用生态粘性
+
+
+• 早期采用指标验证模型有效性
+
+
+潜在挑战：
+
+
+• 去中心化程度仍处初级阶段（当前约 35-40 个验证节点）
+
+
+• 需延续发展势头以消除 Fantom 品牌历史影响
+
+
+MegaETH：极致速度与用户体验的平衡术
+
+
+@megaeth_labs 测试网以 0.1 毫秒出块时间创下千兆 Gas/s 的性能纪录，其 L2 架构通过舍弃共识机制实现突破。
+
+
+但该链的野心不止于数据：率先实验性支持 EIP-7702，通过交易批处理与 Gas 抽象等创新，解决自 2020 年以来用户因授权操作损失超 3 亿美元的历史痛点。
+
+
+
+
+
+社区建设方面，MegaETH 以 200 万美元估值公募 10 分钟募满 1000 万美元，后续 NFT 募资更达 600 万估值，形成与 VC 融资的鲜明对比。
+
+
+竞争优势：
+
+
+• 测试网性能指标行业领先
+
+
+• UX 创新先发优势（EIP-7702）
+
+
+• 公平代币分配获得的社区共识
+
+
+潜在挑战：
+
+
+• 对 EigenDA 数据可用性层的依赖
+
+
+• 待现实验证的激进性能目标
+
+
+Monad：未上线先筑生态
+
+
+@monad_xyz 主网虽未启动，却已构建完整基础设施矩阵：首日即接入 Phantom 钱包，吸引 Uniswap/Balancer 等顶级 DeFi 协议，并整合 LayerZero 等跨链方案。
+
+
+
+
+
+这种「开箱即用」策略在当今拥挤的区块链赛道堪称降维打击。
+
+
+竞争优势：
+
+
+• 即装即用的生态基础设施
+
+
+• 首发即具备高流动性通道
+
+
+潜在挑战：
+
+
+• 需将早期势能转化为持续增长
+
+
+Sei：技术优等生的破局难题
+
+
+@SeiNetwork 通过对共识层与存储层的深度优化实现内部扩展性突破，并向早期开发者倾注资金扶持。但当前生态仍缺乏标杆应用，用户规模与竞品存在差距，技术优势尚未转化为市场影响力。
+
+
+竞争优势：
+
+
+• 经过验证的扩展性技术架构
+
+
+• 针对建设者的专项资助计划
+
+
+潜在挑战：
+
+
+• 实际采用率低迷
+
+
+• 急需打造现象级应用
+
+
+Fuel：挣脱以太坊 DA 枷锁
+
+
+@fuel_network 即将推出的"Redacted"L2 采用替代 DA 方案，目标实现 15 万 TPS 吞吐量，标志着从以太坊兼容到性能优先的战略转向。其 1 毫秒确认、40 万订单/秒的愿景将重新定义公链性能基准。
+
+
+
+
+
+终局思考：超越吞吐量的价值战争
+
+
+
+
+
+虽然这些代币的市场价值仍有待观察，但当前 L1 和 L2 赛道已趋于饱和。随着各链在流动性、应用、开发者和用户层面的激烈竞争，估值可能会呈现下行趋势。
+
+
+当千兆级 Gas 成为常态时，真正的赢家将是那些能提供更高价值的公链——包括速度优势、激励机制、用户体验、生态完备性和安全保障等综合实力。千兆 Gas 大战正愈演愈烈，但最终决胜关键绝不仅限于原始吞吐量。
+
+
+「原文链接」]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget Seed上线项目Ghiblification（GHIBLI）]]></title>
+        <id>https://www.odaily.news/newsflash/424829</id>
+        <link href="https://www.odaily.news/newsflash/424829"/>
+        <updated>2025-03-27T04:10:52.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Bitget Seed 上线 Solana 生态的 MEME 代币 Ghiblification（GHIBLI）。
+Bitget Seed 是一个全新的链上资产交易平台，专注于挖掘市场上的高潜力项目。Bitget Seed 将每日精选 0-5 个优质代币。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget CEO 质疑 Hyperliquid 风控机制，呼吁加强透明度与用户保护]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/i5y4p33i.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/i5y4p33i.html"/>
+        <updated>2025-03-27T04:09:27.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月27日消息，Bitget CEO Gracy Chen对 Hyperliquid 在 $JELLY 事件中的处理方式表示质疑，并指出该平台在强制平仓机制、资金池管理以及 KYC/AML 规范上的缺失，可能引发严重的市场风险。
+Gracy 强调，无论是 CEX 还是 DEX，信任才是交易所的基石，一旦失去，很难恢复。Hyperliquid 此次关闭 $JELLY 交易对并以特定价格强制平仓的做法，已引发市场对其交易机制公正性的担忧。若平台不解决产品设计缺陷和信任危机，或成为"下一个 FTX"。此次争议源于 Hyperliquid 此前关闭 JELLY 交易对并强制按特定价格平仓的操作。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitget Seed上线项目Ghiblification（GHIBLI）]]></title>
+        <id>https://m.theblockbeats.info/flash/287181</id>
+        <link href="https://m.theblockbeats.info/flash/287181"/>
+        <updated>2025-03-27T04:08:39.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，3 月 27 日，Bitget Seed 上线 Solana 生态的 MEME 代币 Ghiblification（GHIBLI）。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[灰度报告：Story 强势跻身加密 Top 20，IP 代币增幅领跑全榜]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/2kdvfb4z.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/2kdvfb4z.html"/>
+        <updated>2025-03-27T04:04:12.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月27日消息，全球顶级数字资产管理公司灰度在最新发布的《2025 年第二季度加密市场报告》中指出，Story 作为 AI 与 IP 赛道的代表性项目，首次跻身全球加密资产前 20，展现出强劲增长态势。
+报告显示，IP 资产已成为本季度增长最快的类别，市场对叙事驱动型代币的关注度持续上升。与此同时，IP 类加密资产正逐步进入 BTC、ETH、SOL 等核心资产配置，在机构投资组合中的比重显著提升。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEC圆桌会议：成功、失败和下一步]]></title>
+        <id>https://www.odaily.news/post/5202583</id>
+        <link href="https://www.odaily.news/post/5202583"/>
+        <updated>2025-03-27T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在经历多年「以执法代监管」后，这个证券监管机构首次召集行业重量级人物举行加密圆桌会议，号称「迈向加密货币清晰化的春季冲刺」。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[花费0.1BNB与CZ私聊，加密社交新品ReachME怎么玩？]]></title>
+        <id>https://m.theblockbeats.info/news/57482</id>
+        <link href="https://m.theblockbeats.info/news/57482"/>
+        <updated>2025-03-27T03:58:54.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《CZ 今晨站台的 ReachMe 是什么？会引发加密社交回潮吗？》
+原文作者：CryptoLeo，Odaily 星球日报
+
+
+夜晚欢乐多！今日凌晨之际，币安创始人 CZ 将其 X 账户简介改为：「DM me at https://reachme.io/@cz_binance（fees go to charity）」（在 ReachMe 上 DM 我，费用将用于慈善）。
+
+
+在今天之前，大部分人并未听说过 ReachMe 以及与其相关的融资消息或社交媒体上的蛛丝马迹。一脸懵逼之际，我顺藤摸瓜查了一下该项目的网址和 X 账号，发现 ReachMe 是以 BNB 支付的付费聊天应用，具体特性包括：
+
+
+为连接 KOL 与粉丝的付费聊天应用，支付价格分为：低（最低 0.01 BNB）、中（0.1 至 1 BNB）、高（高于 1 BNB），应用界面显示：Discover Key Opinion Leaders；
+
+
+用户连接钱包后可以选择自己想要私信的 KOL，并根据其聊天价格选择支付一定数量的 BNB 以发送消息。如果 KOL 在 5 天内没有回复，用户将自动收到 50% 的退款；
+
+
+可输入消息的最大长度为 2000 字符；
+
+
+只允许文字，不允许添加任何附件连接或图像（防止木马病毒）。
+
+
+当然，用户也可以连接 X 并完成 KOL 验证的信息，设置（如下图）：自己的用户名、发送信息需支付的价格、KOL 分类和本人的描述，等待其他人来撩（打钱）。
+
+
+
+
+
+Pay to Reach，源于 CZ 在币安广场发布的一篇文章
+
+
+追根溯源，ReachMe 起源于 CZ 在 3 月 8 日上币安广场发布的一篇名为「Pay to Reach」的文章，该文章的重点如下：
+
+
+1、针对最有用的信息筛选，优化交流覆盖面的聊天应用
+
+
+时间代币化的出现启发了 CZ 关于「让粉丝与 KO…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币现货ETF昨日总净流入8956.96万美元，持续9日净流入]]></title>
+        <id>https://www.odaily.news/newsflash/424827</id>
+        <link href="https://www.odaily.news/newsflash/424827"/>
+        <updated>2025-03-27T03:56:11.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 根据 SoSoValue 数据，昨日（美东时间 3 月 26 日）比特币现货 ETF 总净流入 8956.96 万美元。
+昨日单日净流入最多的比特币现货 ETF 为贝莱德比特币 ETF IBIT，单日净流入为 1.08 亿美元，目前 IBIT 历史总净流入达 399.42 亿美元。
+昨日单日净流出最多的比特币现货 ETF 为 Bitwise ETF BITB，单日净流出为 1831.60 万美元，目前 BITB 历史总净流入达 20.15 亿美元。
+截至发稿前，比特币现货 ETF 总资产净值为 972.17 亿美元，ETF 净资产比率（市值较比特币总市值占比）达 5.61%，历史累计净流入已达 362.49 亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊陷入“中年危机”，数据维度剖析发展表现]]></title>
+        <id>https://www.odaily.news/post/5202568</id>
+        <link href="https://www.odaily.news/post/5202568"/>
+        <updated>2025-03-27T03:54:15.000Z</updated>
+        <summary type="html"><![CDATA[要么是以太坊社区内部掀起的一场自我革命，要么是来自 BTC、SOL 生态的价格革命。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币现货ETF连续第9日净流入，单日吸金近9000万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/z9cln8ve.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/z9cln8ve.html"/>
+        <updated>2025-03-27T03:53:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月27日消息，据SoSoValue数据，美东时间3月26日，比特币现货ETF单日总净流入达8956.96万美元，已连续9日录得净流入。贝莱德IBIT净流入最多，达1.08亿美元，历史累计流入399.42亿美元；Bitwise的BITB则录得单日最大净流出，为1831.6万美元。当前比特币现货ETF总资产达972.17亿美元，占BTC总市值5.61%，累计净流入已达362.49亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊现货ETF昨日全线净流出，单日流出达589万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/c74au0ws.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/c74au0ws.html"/>
+        <updated>2025-03-27T03:51:46.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月27日消息，据SoSoValue数据，美东时间3月26日，以太坊现货ETF单日净流出总额达589.4万美元，九支ETF无一录得净流入。其中灰度ETH基金单日净流出489.79万美元，Fidelity的FETH净流出99.61万美元。
+截至目前，ETH现货ETF总资产为68.43亿美元，占ETH总市值的2.82%，历史累计净流入24.08亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊现货ETF昨日总净流出589.40万美元，九支ETF无一净流入]]></title>
+        <id>https://www.odaily.news/newsflash/424826</id>
+        <link href="https://www.odaily.news/newsflash/424826"/>
+        <updated>2025-03-27T03:51:04.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 根据 SoSoValue 数据，昨日（美东时间 3 月 26 日）以太坊现货 ETF 总净流出 589.40 万美元。
+昨日单日净流出最多的以太坊现货 ETF 为灰度 ETF ETH，单日净流出为 489.79 万美元，目前 ETH 历史总净流入达 5.71 亿美元。
+其次为富达 ETF FETH，单日净流出为 99.61 万美元，目前 FETH 历史总净流入达 14.10 亿美元。
+截至发稿前，以太坊现货 ETF 总资产净值为 68.43 亿美元，ETF 净资产比率（市值较以太坊总市值占比）达 2.82%，历史累计净流入已达 24.08 亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中央汇金等投资成立人工智能科技公司]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/e2qnlp82.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/e2qnlp82.html"/>
+        <updated>2025-03-27T03:50:27.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月27日消息，企查查APP显示，近日，深圳市欧拉象人工智能科技有限公司成立，法定代表人为翟间起，注册资本5000万元，经营范围包括人工智能理论与算法软件开发、人工智能应用软件开发、人工智能行业应用系统集成服务、人工智能公共数据平台等。企查查股权穿透显示，该公司由深圳红杉汇投资合伙企业（有限合伙）全资持股，后者股东为中央汇金投资有限责任公司、深圳中汇天启投资合伙企业（有限合伙）。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[昨日美国比特币现货ETF净流入8960万美元]]></title>
+        <id>https://m.theblockbeats.info/flash/287180</id>
+        <link href="https://m.theblockbeats.info/flash/287180"/>
+        <updated>2025-03-27T03:48:43.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，3 月 27 日，据 Farside Investors 监测，昨日美国比特币现货 ETF 净流入 8960 万美元，其中：
+
+
+贝莱德 IBIT：+ 1.079 亿美元 
+Bitwise BITB：- 1830 万美元]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[昨日美国以太坊现货ETF净流出590万美元]]></title>
+        <id>https://m.theblockbeats.info/flash/287179</id>
+        <link href="https://m.theblockbeats.info/flash/287179"/>
+        <updated>2025-03-27T03:47:28.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，3 月 27 日，据 Farside Investors 监测，昨日美国以太坊现货 ETF 净流出 590 万美元，其中：
+
+
+富达 FETH：- 100 万美元
+灰度迷你 ETH：- 490 万美元]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某新建地址从币安提币5000亿枚PEPE]]></title>
+        <id>https://www.odaily.news/newsflash/424825</id>
+        <link href="https://www.odaily.news/newsflash/424825"/>
+        <updated>2025-03-27T03:45:22.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Lookonchain 监测，某新建地址刚刚从币安提币 5000 亿枚 PEPE，价值 430 万美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BitMart已上线JELLYJELLY永续合约，最高杠杆50倍]]></title>
+        <id>https://www.odaily.news/newsflash/424824</id>
+        <link href="https://www.odaily.news/newsflash/424824"/>
+        <updated>2025-03-27T03:43:04.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 BitMart 已于 2025 年 3 月 27 日 1:00（UTC+8）上线 Jelly-My-Jelly （JELLYJELLY）永续合约，届时将开通 JELLYJELLY/USDT 交易对，最高杠杆倍数为 50 倍。
+Jelly-My-Jelly 是一个运行在 Solana 区块链上的 MEME 币。自成立以来，它一直专注于建立充满活力的社区，并与互联网文化相呼应的平台进行整合。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某新建地址从Binance提币5000亿枚PEPE]]></title>
+        <id>https://m.theblockbeats.info/flash/287178</id>
+        <link href="https://m.theblockbeats.info/flash/287178"/>
+        <updated>2025-03-27T03:41:15.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，3 月 27 日，据 Lookonchain 监测，某新建地址刚刚从 Binance 提币 5000 亿枚 PEPE，价值 430 万美元。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[贝莱德扩充数字资产团队，新设四个高阶职位]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/a57vonvb.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/a57vonvb.html"/>
+        <updated>2025-03-27T03:40:12.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月27日消息，据CoinDesk报道，贝莱德新增四个数字资产相关职位，包括数字资产总监、法规事务总监、ETF法律顾问副总裁及数字资产助理，进一步扩展其加密业务布局。尽管尚未公开更多产品计划，贝莱德已推出比特币及以太坊现货ETF，并主导推出17亿美元规模的代币化货币市场基金BUIDL，领跑资产代币化赛道。新岗位多数设于纽约，总体职责偏向合规与产品拓展。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一新建钱包从币安提取5000亿枚PEPE，价值约430万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/pr2b7qk9.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/pr2b7qk9.html"/>
+        <updated>2025-03-27T03:38:54.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月27日消息，据Onchain Lens监测，一个新创建的钱包近日从币安提取了5000亿枚PEPE代币，按当前价格约合430万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全球29家银行去年Q2托管约3683亿美元的加密资产，但现货资产占比不足3%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/uuvyfygy.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/uuvyfygy.html"/>
+        <updated>2025-03-27T03:36:32.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月27日消息，据CoinDesk援引巴塞尔银行监管委员会（BCBS）发布的数据，2024年第二季度全球29家银行托管的加密资产总额达3415亿欧元（约3683亿美元），其中仅2.46%为现货加密资产。相比2021年，银行现货加密持仓已下降44%。数据显示，银行更倾向于投资加密相关的交易所交易产品（ETP），其占比达92.5%，以规避高波动性与监管风险。BCBS建议银行现货加密资产敞口不应超过2%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEC圆桌会议：成功、失败和下一步]]></title>
+        <id>https://m.theblockbeats.info/news/57481</id>
+        <link href="https://m.theblockbeats.info/news/57481"/>
+        <updated>2025-03-27T03:33:45.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：SEC Roundtable: Hits, Misses and What's Next 
+文章作者：Prathik Desai，Nameet Potnis，Thejaswini M A
+文章编译：Block unicorn
+
+
+上周五，美国证券交易委员会（SEC）迈出了与加密货币行业缓和关系的第一步，但未能提供业界期待的全部答案。
+
+
+在经历多年「以执法代监管」后，这个证券监管机构首次召集行业重量级人物举行加密圆桌会议，号称「迈向加密货币清晰化的春季冲刺」。
+
+
+尽管标题充满希望，但与会者在长达两个小时的会议中却花了大量时间争论沿用几十年前的「豪威测试」（Howey Test）标准，而非规划明确的监管路径。
+
+
+会议确有收获——但足够吗？本文将探讨这一监管转向对加密行业的意义：
+
+
+· SEC 如何承认过往的失败，却仍难定义未来方向
+
+
+· 拟议的 DART 追踪系统对透明度意味着什么
+
+
+· 为何 NFT 可能成为下一个接受监管指导的领域
+
+
+· 对话中缺失哪些行业迫切需要的内容
+
+
+新领导层，新监管思路
+
+
+SEC 在特朗普第二届总统任期前后的执政风格对比鲜明。前任主席加里·根斯勒（Gary Gensler）曾宣称大多数加密货币属于证券，并将执法作为主要手段；而代理主席马克·乌耶达（Mark Uyeda）与委员海丝特·皮尔斯（Hester Peirce）在会议开场时，却承认需要协作重启监管框架。
+
+
+「我认为我们已经为未来的冲刺做好了准备」，皮尔斯告诉与会者，他提到了工作组雄心勃勃的「加密货币清晰化的春季冲刺」计划。
+
+
+「我们能否将证券的特征转化为一套简明分类体系，以涵盖目前存在和未来可能存在的多种不同类型的加密资产？」这是皮尔斯在解决将加密货币视为证券的困境时提出的问题之一。
+
+
+这种公开对话邀请标志着 SEC 态度的转变。
+
+
+圆桌会议邀请了十几位证券…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数字金融基础设施服务商APACX正式成立，提供稳定币基础设施及跨境支付服务]]></title>
+        <id>https://www.odaily.news/newsflash/424823</id>
+        <link href="https://www.odaily.news/newsflash/424823"/>
+        <updated>2025-03-27T03:32:45.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 数字金融基础设施服务商 APACX 今日宣布正式成立，将聚焦东南亚市场稳定币基础设施建设。核心业务方向将包括：稳定币发行咨询服务、跨境支付结算方案、Web3 合规接入支持等。
+APACX 将采用多链钱包、动态抵押技术和区块链基建等建立标准化服务模块，还引入“Stablecoin-as-a-Service”理念，为合作伙伴提供稳定币技术支持。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[贝莱德拟扩大其数字资产团队，新增4个高级职位招聘信息]]></title>
+        <id>https://www.odaily.news/newsflash/424822</id>
+        <link href="https://www.odaily.news/newsflash/424822"/>
+        <updated>2025-03-27T03:30:12.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 随着数字资产行业在华尔街公司中越来越受欢迎，贝莱德正在寻求招募更多人才来充实其数字资产团队。
+贝莱德官方网站于本周三新增了数字资产团队的四个职位，包括数字资产总监、监管事务总监、数字资产副总裁及 ETF 法律顾问以及数字资产助理。根据职位描述，其中三个职位在纽约，另一个在亚特兰大。除此之外，职位描述相当宽泛，没有透露贝莱德未来可能寻求什么工作的任何线索。（CoinDesk）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[$Ghibli半天100倍，GPT-4o的新功能让「宫崎骏风」席卷全网]]></title>
+        <id>https://www.odaily.news/post/5202581</id>
+        <link href="https://www.odaily.news/post/5202581"/>
+        <updated>2025-03-27T03:29:10.000Z</updated>
+        <summary type="html"><![CDATA[Sam Altman：吉卜力，就是今天的主题。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[贝莱德拟扩大其数字资产团队，新增4个高级职位招聘信息]]></title>
+        <id>https://m.theblockbeats.info/flash/287176</id>
+        <link href="https://m.theblockbeats.info/flash/287176"/>
+        <updated>2025-03-27T03:28:40.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，3 月 27 日，据 Coindesk 报道，随着数字资产行业在华尔街公司中越来越受欢迎，贝莱德正在寻求招募更多人才来充实其数字资产团队。
+
+
+贝莱德官方网站于本周三新增了数字资产团队的四个职位，包括数字资产总监、监管事务总监、数字资产副总裁及 ETF 法律顾问以及数字资产助理。根据职位描述，其中三个职位在纽约，另一个在亚特兰大。除此之外，职位描述相当宽泛，没有透露贝莱德未来可能寻求什么工作的任何线索。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hyperliquid困兽之斗：三方博弈，胜者为王]]></title>
         <id>https://m.theblockbeats.info/news/57479</id>
@@ -17781,37 +18304,6 @@ Autoglyphs #402：188,475 美元（99.9 ETH）]]></summary>
         <summary type="html"><![CDATA[Odaily星球日报讯 OKX 行情显示，ETH 突破 2000 USDT，现报 2000.39 USDT，24H 涨幅 1.8%。 （本条快讯由AI辅助生成）]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[观点：Ripple诉讼被撤销标志美SEC针对加密货币行业的讨伐已经结束]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/6gt5smqd.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/6gt5smqd.html"/>
-        <updated>2025-03-22T15:53:40.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月22日消息，据CNBC报道，Ripple本周宣布美国证券交易委员会正式撤销针对该公司长达四年的诉讼，CNBC发文称这代表了美国证券交易委员会多年来针对加密货币行业的讨伐已经结束，Ripple案件或将成为相关诉讼的最后一章，因为本案是在前美国证券交易委员会主席Jay Clayton任职最后一天提起的。截至目前，Coinbase、Kraken、Robinhood、币安和OpenSea的诉讼或调查均已被撤销、解决或搁置。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[过去24小时全网合约爆仓1.16亿美元，主爆空单]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/cpkoe8h8.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/cpkoe8h8.html"/>
-        <updated>2025-03-22T15:30:01.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月22日消息，Coinglass数据显示，过去24小时加密货币市场全网合约爆仓1.16亿美元，其中多单爆仓4475.99万美元，空单爆仓7099.03万美元。BTC爆仓总金额1110.95万美元，ETH爆仓总金额1383.42万美元。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZOTH设立50万美元赏金以获取被盗资金线索，未来几周拟披露详细报告]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/lb804s4j.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/lb804s4j.html"/>
-        <updated>2025-03-22T15:28:51.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月22日消息，RWA项目ZOTH在X平台发布被盗更新，其中披露团队正在积极调查被盗事件，链上活动表明这是一次精心策划的攻击，目前正在与专业专家合作追踪被盗资金并进行恢复，平台上73%的TVL（总锁仓价值）已经在资产发行方的帮助下立即得到了保障，未来几周拟分享攻击事件的详细报告。此外，ZOTH还宣布已设立50万美元的公开赏金，任何有助于资金追回的可操作线索将从赏金中获得奖励。
-此前消息，ZOTH遭遇攻击后，黑客已将880万USDO++兑换为830万DAI，再通过CoW Swap将DAI换成4223枚ETH，存入地址0x7b0c…60cf，该地址目前余额约4.2K ETH。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
 </feed>
