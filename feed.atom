@@ -2,10 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2025-04-03T22:10:31.340Z</updated>
+    <updated>2025-04-03T23:11:50.722Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[链上数据学堂（二）：老是赚钱的Hodlers们，他们买BTC的成本是多少？]]></title>
+        <id>https://m.theblockbeats.info/news/57577</id>
+        <link href="https://m.theblockbeats.info/news/57577"/>
+        <updated>2025-04-03T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：《链上数据学堂（二）：老是赚钱的 Hodlers 们，他们买 $BTC 的成本是多少？》
+原文作者：貝格先生，链上数据分析师
+
+
+本文为链上数据学堂系列文章第 2 篇，共有 10 篇。带您一步步认识链上数据分析，欢迎有兴趣的读者追踪本系列文章。
+
+
+相关阅读《链上数据学堂（一）：你知道全市场的 BTC 平均成本是多少吗？》
+
+
+TLDR  
+
+
+- 本篇文章将延续上篇 MVRV 的概念，介绍 LTH-MVRV  
+- LTH = Long Term Holder，定义为持有时间超 155 日的 BTC  
+- LTH-MVRV 代表长期持有者的盈利状态  
+- LTH-RP 代表长期持有者的平均成本  
+
+
+以下就让我们进入正文吧！
+
+
+LTH 是什么？
+
+
+LTH = Long Term Holder，在 Glassnode 的定义是「持有时间超过 155 日的 BTC」。
+
+
+至于为何是 155 日，Glassnode 在官网有给出详细的解释；由于内容较为复杂，在此先按下不表，有兴趣的读者可以自行阅读。
+
+
+LTH-RP 介绍  
+
+
+LTH-RP，就是长期持有者的 Realized Price，也就是他们的平均持仓成本。算法是将 LTH-Realized Cap 除以流通量。
+
+
+如下图所示，浅绿色是全市场的 Realized Price，深绿色则是 LTH 的 Realized Price，长期持有者的持有成本通常会低于全市场的平均成本。
+
+
+
+Realized Price 与 LTH-RP 的比较
+
+
+LTH-MVRV 介绍  
+
+
+代表长期持有者的盈利状况，和 MVRV 的计算方式大同小异，LTH-MVRV 的算法是「当前市值 / LTH-Realized Cap」，也可以写成「当前市价 / LTH-Realized Price」。
+
+
+如下图所示，LTH-MVRV 的变化通常比 MVRV 更明显，这是因为 LTH 的盈利通常都比较丰厚（就是比较会赚钱的意思）。
+
+
+MVRV 与 LTH-MVRV 的比较，橘色线是 LTH-MVRV，黄色线是 MVRV
+
+
+LTH-MVRV 的抄底应用  
+
+
+当 LTH-MVRV < 1（或者说市价低于 LTH-RP）时，代表就连长期持有者平均都是亏钱的，通常这种时候就是一个不错的抄底时机。
+
+
+如下图所示，我把 LTH-MVRV < 1 的时候标注出来，对应到的几乎都是周期性的大底部。在设计抄底策略的时候，可以考虑把这个指标纳入考量～  
+
+
+
+LTH-MVRV < 1 时对应的价格
+
+
+结语  
+
+
+以上就是链上数据学堂（二）的全部内容，有兴趣更深入学习链上数据分析的读者，记得务必追踪本系列文章！
+
+
+如果想看到更多关于链上数据的分析、教学内容，也欢迎追踪我的推特（X）账号！
+
+
+希望本文有帮助到你，感谢阅读。
+
+
+原文链接]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[摩根大通上调今年全球经济衰退预期至60%]]></title>
+        <id>https://m.theblockbeats.info/flash/288233</id>
+        <link href="https://m.theblockbeats.info/flash/288233"/>
+        <updated>2025-04-03T22:45:46.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 4 日，摩根大通首席经济学家布鲁斯·卡斯曼表示，如果特朗普政府宣布对美国贸易伙伴征收的关税持续，将可能在 2025 年将美国乃至全球经济推入衰退。卡斯曼周四在一份说明中表示：「今年全球经济衰退的风险从 40% 提高到了 60%。」他称关税是自 1968 年以来对美国家庭和企业最大的一次加税。他还表示，这次加税的影响很可能通过报复、商业情绪下滑和供应链中断等方式被放大。(金十)]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ETH突破1800 USDT，24H涨幅4.36%]]></title>
         <id>https://www.odaily.news/newsflash/425781</id>
@@ -20800,69 +20901,6 @@ Tether 即将推出的项目组合将颠覆许多传统的 Web2 业务。我们�
 Blechner 在审查包括实施 SIM 卡交换的攻击者在内的重要证人时表示：「这对我们的客户以及全球手机用户来说都是一个伟大的结果。多年来，SIM 卡交换一直是一个未受控制的安全漏洞。像 T-Mobile 这样的运营商早就知道这个问题，却未能采取基本预防措施。这项裁决表明：他们必须做得更好。」]]></summary>
         <author>
             <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Movement Labs向Coinbase存入1715万枚MOVE，价值774万美元]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/0h9tilrs.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/0h9tilrs.html"/>
-        <updated>2025-03-30T11:10:16.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月30日消息，据OnChain Lens监测，Movement Labs向Coinbase存入1715万枚MOVE，价值774万美元，过去两天Movement Labs已向交易所转入2415万枚MOVE，价值1103万美元。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tether拟招募人才支持旗下人工智能、电信和数据项目]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/86ckd876.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/86ckd876.html"/>
-        <updated>2025-03-30T11:08:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月30日消息，Tether首席执行官Paolo Ardoino在X平台发文称，Tether拟招募人才支持旗下人工智能、电信和数据项目，主要包括C++、JavaScript、操作系统开发人员，产品经理和技术项目经理。
-Paolo Ardoino还透露即将推出的项目和计划将会颠覆许多传统的Web2业务，并且专注于通过点对点技术实现现实世界消费者应用程序的去中心化。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Movement 10分钟前向Coinbase存入1715万枚MOVE，约合774万美元]]></title>
-        <id>https://www.odaily.news/newsflash/425183</id>
-        <link href="https://www.odaily.news/newsflash/425183"/>
-        <updated>2025-03-30T11:07:06.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据 Onchain Lens 监测，Movement 过去 10 分钟向 Coinbase 存入 1715 万枚 MOVE，约合 774 万美元。过去 2 天他们共向 Coinbase 发送了 2415 万枚 MOVE，约合 1103 万美元。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[日本FSA考虑监管加密资产的内部交易]]></title>
-        <id>https://www.odaily.news/newsflash/425182</id>
-        <link href="https://www.odaily.news/newsflash/425182"/>
-        <updated>2025-03-30T11:03:15.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 日本金融服务厅（FSA）考虑对加密数字货币资产的内部交易实施监管。日本监管部门考虑按日本法律将加密资产归类为金融工具。预计日本 FSA 最快将于下一个年度向议会递交关于修订金融交易法的草案。日本 FSA 希望，出于投资目的而进行加密资产交易时，他们能阻止不公平的交易行为。预计（日本 FSA 下辖）一个金融委员会将从 2025 年夏季开始讨论前述修订草案的更多细节。（金十）]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZachXBT提醒：警惕新EVM链上的分叉DeFi协议及没有社区关注的新项目]]></title>
-        <id>https://www.odaily.news/newsflash/425181</id>
-        <link href="https://www.odaily.news/newsflash/425181"/>
-        <updated>2025-03-30T10:13:46.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 ZachXBT 发文提醒称，“如果你做出以下任一决定，那是你个人的选择，风险自担，我不会帮助你：
-将资金存入一个新的 EVM 链上的分叉 DeFi 协议，该协议后来被利用（团队未编写原始代码；所需技术技能较低）；
-被一个几乎没有 Kaito 关注者的项目欺骗（至少做最基本的尽职调查，以免成为假关注者或无意义流行词的受害者）。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Peter Schiff：若黄金升至5000美元，或将把BTC价格拉低至1万美元]]></title>
-        <id>https://www.odaily.news/newsflash/425180</id>
-        <link href="https://www.odaily.news/newsflash/425180"/>
-        <updated>2025-03-30T10:12:03.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 对加密货币不友好的经济学家 Peter Schiff 在 X 平台发文称，黄金价格已经再次创下历史新高，一盎司超过 3,080 美元，与此同时数百万美国年轻人却让这趟“高速列车”从他们身边驶过，转而关注比特币。如果等到黄金价格达到 5,000 美元时，可能会把比特币价格拉低至 10,000 美元，将较 2021 年黄金价格的峰值下跌 95%。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
         </author>
     </entry>
 </feed>
