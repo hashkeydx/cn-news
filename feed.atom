@@ -2,10 +2,81 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2025-04-05T14:09:11.616Z</updated>
+    <updated>2025-04-05T15:10:00.412Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hyperliquid联创：已更新杠杆系统和HLP清算机制并设定损失上限]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/h9sk3aqd.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/h9sk3aqd.html"/>
+        <updated>2025-04-05T14:57:08.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月5日消息，Hyperliquid联创@chameleon_jeff在X平台发文回应协议安全性担忧，他表示Hyperliquid 的保证金设计通过数学机制严格确保平台偿付能力，HLP 的损失始终仅限其自有金库，且协议运行从不依赖 HLP——该特性在 JELLYJELLY 事件前即已存在。事件后新增的保护机制仅优化 HLP 在后备清算中的抗损能力，协议底层架构并未改变。近期 JELLYJELLY 事件中一名攻击者试图通过对自己建立巨额多空头寸来操纵 HLP（流动性提供者池）。虽然当时未平仓合约上限允许交易时建立价值 400 万 USDC 的头寸，但逻辑漏洞在于 HLP 使用其全部资金余额为此次清算提供抵押。需澄清的是，平台本身并不存在偿付能力风险，但 HLP 确实因市场操纵而面临过度风险暴露。
+目前 HLP 的清算组件金库已设置抵押上限，通过后备清算机制限制了潜在损失。Hyperliquid 仍维持原有运行机制，对抵押不足的仓位按以下顺序处理：1）市场清算 2）后备清算 3）自动去杠杆（ADL）。当前 HLP 的后备清算已新增保护机制，通过设定损失上限，使得操纵标记价格的攻击成本远高于其能从 HLP 获取的有限收益。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hyperliquid联创：已更新杠杆系统和HLP清算机制并设定损失上限]]></title>
+        <id>https://www.odaily.news/newsflash/425941</id>
+        <link href="https://www.odaily.news/newsflash/425941"/>
+        <updated>2025-04-05T14:54:46.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Hyperliquid 联创@chameleon_jeff 在 X 平台发文称，看到针对 Hyperliquid 的协同错误信息活动令人感到悲伤，因此将提供有关 Hyperliquid 工作原理的详细、事实解释：
+Hyperliquid 的保证金设计通过数学机制严格确保平台偿付能力，HLP 的损失始终仅限其自有金库，且协议运行从不依赖 HLP——该特性在 JELLYJELLY 事件前即已存在。事件后新增的保护机制仅优化 HLP 在后备清算中的抗损能力，协议底层架构并未改变。近期 JELLYJELLY 事件中一名攻击者试图通过对自己建立巨额多空头寸来操纵 HLP（流动性提供者池）。虽然当时未平仓合约上限允许交易时建立价值 400 万 USDC 的头寸，但逻辑漏洞在于 HLP 使用其全部资金余额为此次清算提供抵押。需澄清的是，平台本身并不存在偿付能力风险，但 HLP 确实因市场操纵而面临过度风险暴露。
+目前 HLP 的清算组件金库已设置抵押上限，通过后备清算机制限制了潜在损失。Hyperliquid 仍维持原有运行机制，对抵押不足的仓位按以下顺序处理：1）市场清算 2）后备清算 3）自动去杠杆（ADL）。当前 HLP 的后备清算已新增保护机制，通过设定损失上限，使得操纵标记价格的攻击成本远高于其能从 HLP 获取的有限收益。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分析：OpenSea市场份额虽有所反弹，但NFT整体表现仍未摆脱困境]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/p0o2287i.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/p0o2287i.html"/>
+        <updated>2025-04-05T14:31:15.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月5日消息，据The Block报道，2022 年初，OpenSea 在以太坊 NFT 市场交易量中所占份额高达 97%左右。仅仅两年后，该平台似乎在激烈的竞争中萎缩，其市场份额降至略低于 20%。然而此后的 10 个月里，OpenSea 在以太坊 NFT 市场交易量中的份额稳步攀升，目前已经超过 51%。不过分析认为，OpenSea 的市场份额似乎正在复苏，但并不因为 OpenSea 协议本身表现良好，很可能是由于其主要竞争对手 Blur 在相对竞争的基础上表现不佳。自 2024 年 12 月达到最新峰值以来，Blur 的每月 NFT 交易量一直在持续下降，平均每月下降率为 55%。在同一时期，OpenSea 的每月 NFT 交易量变化更大，从 12 月到 1 月下降了 48%。值得一提的是，以太坊 NFT 交易量在过去三个月中大幅下降，整个行业表现糟糕。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deribit：某用户卖出12月底9万美元BTC看涨和看跌期权，共计100枚BTC]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/zq89lfcl.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/zq89lfcl.html"/>
+        <updated>2025-04-05T14:21:00.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月5日消息，Deribit 亚太商务负责人 LinChen 在 X 平台发文称，今日最大的 BTC 大宗期权交易，某用户卖出 12 月底 9 万美元的比特币看涨和 9 万美元比特币看跌期权，共计 100 枚 BTC，收入 156.5 万美元权利金，到期盈利区间为 8.4-10.4 万美元之间，币本位年化约 24.5%。做空波动率。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[孙宇晨：FDT和FTX都是挪用用户资金事件，但前者恶劣程度更加严重]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/998yis6m.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/998yis6m.html"/>
+        <updated>2025-04-05T14:15:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月5日消息，孙宇晨在 X 平台发文称，First Digital Trust（FDT）盗窃用户资金与 FTX 挪用用户资金都是非常严重与恶劣的挪用用户资金事件，但是如果一定要比较一个恶劣程度，前者的恶劣程度更加严重，甚至比 FTX 恶劣十倍以上，原因如下：
+1. FTX 挪用用户资金，虽然用户对挪用并不知情，但至少在 FTX 内部，SBF 是做了一个质押借贷的样子，代表 Alemeda Research,向 FTX 抵押了大量的 FTT/SRM/FTX 股份/Maps 代币，来出借用户资金，至少在表面上看起来，这是一笔借贷，并且按照百分比进行了一定程度的抵押，而 FDT 则是直接未经用户授权，在用户不知情的情况下直接挪用盗窃资产，连内部抵押的流程都没有。
+2. SBF 挪用 FTX 的用户资金，未经用户授权，但最终用于了投资，最终至少绝大多数进入了 Robinhood 公司股票，Anthropic 等 AI 公司等质量上乘的公司，并未进行贪污与享乐，而 FDT 目前来看，绝大多数进入了私人公司，完全被挪用贪污了，并未进行任何实质意义的投资。
+3. SBF 在事件败露后，态度至少是积极的，聘请律所想办法挽回用户资产，而 Vincent Chok 卓君强在挪用事实败露后，仍然指鹿为马，装作什么事情都没发生，主观恶意极大。
+4. FTX 事件发生后，美国监管机构与执法机关迅速采取了行动，主动介入了 FTX 破产环节，并且逮捕了 FTX 相关涉事人员（包括 SBF），积极控制局面，帮助用户挽损，避免了对于美国金融声誉的重大影响。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[孙宇晨：FDT和FTX都是挪用用户资金事件，FDT恶劣程度更加严重]]></title>
+        <id>https://www.odaily.news/newsflash/425940</id>
+        <link href="https://www.odaily.news/newsflash/425940"/>
+        <updated>2025-04-05T14:11:24.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 孙宇晨在 X 平台发文称，First Digital Trust（FDT）盗窃用户资金与 FTX 挪用用户资金事件都是非常严重与恶劣的挪用用户资金事件，但是如果一定要比较一个恶劣程度，First Digital Trust （FDT）的恶劣程度是更加严重的，甚至比 FTX 恶劣十倍以上，原因如下：
+1. FTX 挪用用户资金，虽然用户对挪用并不知情，但至少在 FTX 内部，SBF 是做了一个质押借贷的样子，代表 Alemeda Research,向 FTX 抵押了大量的 FTT/SRM/FTX 股份/Maps 代币，来出借用户资金，至少在表面上看起来，这是一笔借贷，并且按照百分比进行了一定程度的抵押，而 FDT 则是直接未经用户授权，在用户不知情的情况下，直接挪用盗窃资产，连内部抵押的流程都没有。
+2. SBF 挪用 FTX 的用户资金，未经用户授权，但最终用于了投资，最终至少绝大多数进入了 Robinhood 公司股票，Anthropic 等 AI 公司等质量上乘的公司，并未进行贪污与享乐，而 FDT 目前来看，绝大多数进入了私人公司，完全被挪用贪污了，并未进行任何实质意义的投资。
+3. SBF 在事件败露后，态度至少是积极的，至少积极补救，聘请律所想办法挽回用户资产，而 Vincent Chok 卓君强在挪用事实败露后，仍然指鹿为马，装作什么事情都没发生，主观恶意极大。
+4. FTX 事件发生后，美国监管机构与执法机关迅速采取了行动，主动介入了 FTX 破产环节，并且逮捕了 FTX 相关涉事人员（包括 SBF），积极控制局面，帮助用户挽损，避免了对于美国金融声誉的重大影响。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美国财长：比特币正在成为一种新兴的价值储存工具]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/reibx3lk.html</id>
@@ -20817,437 +20888,6 @@ Xatarrer最初在3月30日表示，尽管遭遇挫折，SIR.trading团队仍打�
         <summary type="html"><![CDATA[关键词：多链扩张、机构接入、费率市场、伊斯兰金融……]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4E：特朗普关税生效在即，市场严正以待，避险情绪升温]]></title>
-        <id>https://m.theblockbeats.info/flash/287755</id>
-        <link href="https://m.theblockbeats.info/flash/287755"/>
-        <updated>2025-04-01T03:06:23.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 1 日，据 4E 监测，特朗普对等关税在即，美股受早盘避险情绪升温而低开，不过芝加哥 PMI 数据超预期提振风险情绪，加上季底再平衡交易，美股盘中收敛跌幅，终场主要指数涨跌互见。标普 500 收涨 0.55%，3 月份下跌 5.75%，一季度累跌 4.59%；道指收涨 1.00%，月线收黑 4.20%，一季度累跌 1.28%；纳指微跌 0.14%，3 月份重挫 8.21%，一季度累跌 10.42%。科技股普遍低迷，「科技七姐妹」指数一季度下跌 14.83%，特斯拉领跌 35.83%，英伟达紧随其后跌 19.29%。
-
-
-加密市场窄幅波动，比特币在美股提振下反弹触及 8.4 万美元，美股收盘后有所回落，截稿时报 82781 美元，24 小时上涨 1.18%，在 2 月份录得 18% 的下跌后，3 月再次以 3.5% 的跌幅收尾。以太坊重回 1800 美元上方，继 2 月重挫 32% 后，3 月再跌 18%，币价表现让人大失所望，市场情绪非常消极。
-
-
-外汇大宗方面，美元指数震荡走强涨 0.18%，3 月份累计下跌 3.15%，一季度累计下跌 3.94%；地缘政治紧张升级，美油涨超 3.05%，3 月份累计上涨超 3.08%，一季度累计上涨 1.39%。资金争相涌入避风港，现货黄金涨 1.25% 至 3145 美元再创新高，3 月份累计上涨 9.33%，一季度累计上涨 18.48%。
-
-
-全球主要资产的受制于特朗普关税的影响，其飘忽不定的态度加剧市场对未来预期的不确定性。关税解放日逼进，市场倍感不安，可能进一步放大市场波动。eeee.com 作为一家支持加密货币、股票指数、大宗黄金、外汇等资产的金融交易平台，近期推出了年化收益率 8% 的 USDT 稳定币理财产品，为投资者提供潜在的避险选择。4E 提醒您注意市场波动风险，合理配置资产。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密市场板块小幅反弹，SocialFi板块连涨四日，BTC及ETH企稳回升]]></title>
-        <id>https://www.odaily.news/newsflash/425332</id>
-        <link href="https://www.odaily.news/newsflash/425332"/>
-        <updated>2025-04-01T03:05:06.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 4 月 1 日，根据 SoSoValue 数据，加密市场板块小幅反弹，SocialFi 板块连涨四日，板块内，Toncoin（TON）持续上涨，24 小时涨幅达到 5.72%。此外，Bitcoin （BTC）上涨 1.20%，一度涨至 84000 美元附近，Ethereum （ETH）上涨 1.01%，重返 1800 美元上方。
-其他板块方面，RWA 板块 24 小时上涨 0.96%，板块内，Pendle（PENDLE）上涨 9.56%；CeFi 板块上涨 0.56%，其中，Hyperliquid（HYPE）上涨 6.01%；Meme 板块上涨 0.37%，Pepe（PEPE）、Fartcoin （FARTCOIN）分别上涨 4.42%、10.38%；Layer1 板块上涨 0.21%，DeFi 板块下跌 0.31%，PayFi 板块下跌 0.66%，Layer2 板块下跌 1.09%。
-反映板块历史行情的加密板块指数显示，ssiSocialFi、ssiRWA 指数 24 小时分别上涨 5.20%、1.28%。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[派盾：2025年Q1加密黑客事件造成的损失达16.3亿美元，同比增长131%]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/sw88x146.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/sw88x146.html"/>
-        <updated>2025-04-01T03:05:01.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，据派盾监测，2025年第一季度发生了60多起加密货币黑客事件，总损失达16.3亿美元，较2024年第一季度的7.06亿美元增长了131%。2025年3月发生了20起加密货币黑客事件，损失达3346万美元，其中包括影响1inch的500万美元黑客事件，现已追回 90%。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[疑似GUN做市商凌晨转出1.91亿枚代币，早间现高频抛压迹象]]></title>
-        <id>https://www.odaily.news/newsflash/425331</id>
-        <link href="https://www.odaily.news/newsflash/425331"/>
-        <updated>2025-04-01T03:03:50.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据链上分析师@ai_9684xtpa 监测，昨日凌晨3点，GUN项目一个关联地址转出1.91亿枚GUN代币（占总量约2%），该部分原定用于流动性/做市。随后至今日早上8点，该币种持续出现高频小额卖单，平均每秒约10笔、每单约6美元，推算每小时抛售金额超21万美元。
-据币安新币研报，该部分代币原本“暂未分发至做市商，后续将提供额外地址信息”。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密市场板块小幅反弹，SocialFi板块连涨四日，BTC及ETH企稳回升]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/m7jyf3pp.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/m7jyf3pp.html"/>
-        <updated>2025-04-01T03:01:34.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，根据 SoSoValue 数据，加密市场板块小幅反弹，SocialFi 板块连涨四日，板块内，Toncoin(TON)持续上涨，24小时涨幅达到5.72%。此外，Bitcoin (BTC) 上涨1.20%，一度涨至84000美元附近，Ethereum (ETH) 上涨1.01%，重返1800美元上方。
-其他板块方面，RWA 板块24小时上涨0.96%，板块内，Pendle(PENDLE) 上涨9.56%；CeFi 板块上涨0.56%，其中，Hyperliquid(HYPE) 上涨6.01%；Meme 板块上涨0.37%，Pepe(PEPE)、Fartcoin (FARTCOIN)分别上涨4.42%、10.38%；Layer1 板块上涨0.21%，DeFi 板块下跌0.31%，PayFi 板块下跌0.66%，Layer2 板块下跌1.09%。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[疑似GUN做市商昨天凌晨三点转移1.91亿枚代币，至早上八点始终有高频小额卖单]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/4lagi3qx.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/4lagi3qx.html"/>
-        <updated>2025-04-01T03:00:24.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，据链上分析师@ai_9684xtpa监测，刚严打了做市商作恶， GUN疑似这是在顶风作案。凌晨到早上八点始终有高频小额卖单，平均1s有10单每单约6美元，每小时大约能抛售21.6万美元的代币。
-而根据币安新币研报显示，GUN总量2%的代币（即2亿枚）用于流动性/做市，并标注“代币暂未分发至做市商处，后续将提供额外地址信息”，但该地址已在昨天凌晨三点转移了1.91亿枚代币。目前GUN币价已下跌至0.07634美元，做市商似乎刚撤销了批量卖单，币价略有回升。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密市场小幅反弹，SocialFi板块连涨四日，BTC及ETH企稳回升]]></title>
-        <id>https://m.theblockbeats.info/flash/287754</id>
-        <link href="https://m.theblockbeats.info/flash/287754"/>
-        <updated>2025-04-01T03:00:04.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 1 日，据 SoSoValue 数据，加密市场板块小幅反弹，SocialFi 板块连涨四日，板块内，Toncoin(TON) 持续上涨，24 小时涨幅达到 5.72%。此外，Bitcoin (BTC) 上涨 1.20%，一度涨至 84000 美元附近，Ethereum (ETH) 上涨 1.01%，重返 1800 美元上方。
-
-
-其他板块方面，RWA 板块 24 小时上涨 0.96%，板块内，Pendle(PENDLE) 上涨 9.56%；CeFi 板块上涨 0.56%，其中，Hyperliquid(HYPE) 上涨 6.01%；Meme 板块上涨 0.37%，Pepe(PEPE)、Fartcoin (FARTCOIN) 分别上涨 4.42%、10.38%；Layer1 板块上涨 0.21%，DeFi 板块下跌 0.31%，PayFi 板块下跌 0.66%，Layer2 板块下跌 1.09%。
-
-
-反映板块历史行情的加密板块指数显示，ssiSocialFi、ssiRWA 指数 24 小时分别上涨 5.20%、1.28%。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[当ETH跌破1800美元时，Vitalik在思考什么]]></title>
-        <id>https://m.theblockbeats.info/news/57534</id>
-        <link href="https://m.theblockbeats.info/news/57534"/>
-        <updated>2025-04-01T02:57:35.000Z</updated>
-        <summary type="html"><![CDATA[原文标题：《当 ETH 跌破 1800 美元时，Vitalik 在思考什么》
-原文来源：金色财经
-
-
-当 ETH 跌跌不休时，当很多用户在 Vitalik 推文下面喊「Fix your eth」时，人们都很好奇，作为以太坊的创始人，Vitalik 在想些什么？
-
-
-ETH 跌破 1800 美元 来源：Coingecko
-
-
-2025 年 3 月 29 日，Vitalik 连发 2 篇博文，能透露其目前的所思所想。显然，Vitalik 并不特别在意 ETH 价格。
-
-
-以下为 Vitalik 近日新发的两篇博文：
-
-
-其一、文化与政治的年轮模型
-
-
-在我成长的过程中，经常让我感到困惑的一件事是，人们经常重复声称我们生活在一个高度重视「放松管制」的「深度新自由主义社会」。我感到困惑，因为虽然我看到相当多的人主张新自由主义和放松管制，但总体而言，政府监管的实际状况与任何可以反映这些价值观的监管都非常不同。联邦法规的总数一直在不断增加。KYC、版权、机场安检和各种其他规则都在不断收紧。自二战以来，美国联邦税收占 GDP 的百分比大致保持不变。
-
-
-
-
-
-如果你在 2020 年告诉某人，五年后，美国或中国将在开源 AI 领域领先，而另一个将在闭源 AI 领域领先，并问他们哪个会领先哪里，他们可能会盯着你看，好像你在问一个刁钻的问题。美国是一个重视开放的国家，中国是一个重视封闭和控制的国家，美国技术总体上比中国技术更倾向于开源，拜托，这很明显！然而，他们完全错了。
-
-
-这是怎么回事呢？在这篇文章中，我将提出一个简单的解释，我称之为政治和文化的年轮模型：
-
-
-
-
-
-模型如下：
-
-
-一种文化如何对待新事物，是该文化在特定时期流行的态度和激励机制的产物。一种文化如何对待旧事物主要受到现状偏见的影响。
-
-
-每一段时期都会给树增加一个新的年轮，在新年轮形成的同时，人们对新事物的态度也随之形成。然…]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragonfly合伙人：认为VC币没有未来大可做空，3年后见分晓]]></title>
-        <id>https://m.theblockbeats.info/flash/287752</id>
-        <link href="https://m.theblockbeats.info/flash/287752"/>
-        <updated>2025-04-01T02:55:23.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 1 日，Dragonfly Capital 管理合伙人 Haseeb Qureshi 在社交媒体上针对「VC 在本轮全军覆没」相关言论回应称：
-
-
-「我在加密货币风投领域摸爬滚打近八年，这种陈词滥调听得耳朵都起茧了。2018/2019 年加密风投募资那才叫惨烈，类似『这些代币根本没人接盘、遮羞布被扯下来了、这垃圾行业看不到任何回报』之类的话不绝于耳。既然可以说得这么笃定，那就用真金白银来做空，三年后见分晓，拿结果说话。」]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[彭博社：Coinbase股价迎来自FTX崩溃以来最糟糕季度]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/2ompbf39.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/2ompbf39.html"/>
-        <updated>2025-04-01T02:54:15.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，据彭博社报道，受美国经济前景担忧加剧的影响，2025年第一季度Coinbase Global Inc.及其他与加密货币相关的公司股价遭遇重创。Coinbase股价下跌31%，创下自2022年底FTX崩溃以来最糟糕的季度表现。几乎所有主要的加密货币相关股票都随之暴跌，从综合企业Galaxy Digital Holdings Ltd.到矿企Riot Platforms Inc.和Core Scientific Inc. 均未能幸免。加密市场的情况同样不容乐观，比特币市值下跌超过10%，以太坊市值更是下跌了45%。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PumpFun向Kraken充值65284枚SOL，累计转入逾163万枚SOL]]></title>
-        <id>https://www.odaily.news/newsflash/425330</id>
-        <link href="https://www.odaily.news/newsflash/425330"/>
-        <updated>2025-04-01T02:53:51.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据 OnchainLens 监测，PumpFun 今日向 Kraken 交易所充值 65,284 枚 SOL，按当前价格价值约 815 万美元。
-2025 年至今，PumpFun 累计向交易所转入 1,638,597 枚 SOL，累计价值约 3.01 亿美元；其累计收益为 3,238,352 枚 SOL，按当前价格计算价值约 4.06 亿美元。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pump Fun再次向Kraken存入65,284枚SOL，价值815万美元]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/15egmf1e.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/15egmf1e.html"/>
-        <updated>2025-04-01T02:52:09.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，据OnchainLens监测，Pump Fun再次向Kraken存入65,284枚SOL，价值815万美元。
-在2025年，他们总共发送了1,638,597枚SOL，价值3.0141亿美元。总体而言，他们已经赚取了3,238,352枚SOL，目前价值4.056亿美元。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[受上线Bithumb消息影响，REZ短时涨超30%]]></title>
-        <id>https://m.theblockbeats.info/flash/287751</id>
-        <link href="https://m.theblockbeats.info/flash/287751"/>
-        <updated>2025-04-01T02:50:11.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 1 日，据 HTX 行情数据显示，受上线韩国加密交易平台 Bithumb 消息影响，Renzo（REZ）短时涨超 30%，现报价 0.02238 美元。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bithumb将在韩元市场上线REZ代币]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/dvh3969y.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/dvh3969y.html"/>
-        <updated>2025-04-01T02:48:47.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，据官方公告，韩国加密交易所Bithumb将在韩元市场上线REZ代币。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[区块链AI计算协议Gensyn测试网现已上线]]></title>
-        <id>https://www.odaily.news/newsflash/425329</id>
-        <link href="https://www.odaily.news/newsflash/425329"/>
-        <updated>2025-04-01T02:48:32.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 区块链 AI 计算协议 Gensyn 在 X 平台发文宣布测试网现已上线，用户可以运行一个节点，训练其个人模型，并通过仪表板监控群组的进度查看各个节点的贡献和参与情况。同时表示，测试网将分阶段推出，每个阶段都会引入源自 Gensyn 构建的基础设施的新功能。
-此前消息，2023 年 6 月 Gensyn 宣布完成 4300 万美元 A 轮融资，a16z 领投、Protocol Labs 参投。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bithumb新增上线Renzo (REZ)]]></title>
-        <id>https://www.odaily.news/newsflash/425328</id>
-        <link href="https://www.odaily.news/newsflash/425328"/>
-        <updated>2025-04-01T02:47:50.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 4 月 1 日，据官方消息，韩国加密交易平台 Bithumb 宣布新增上线 Renzo （REZ）。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bithumb新增上线Renzo (REZ)]]></title>
-        <id>https://m.theblockbeats.info/flash/287750</id>
-        <link href="https://m.theblockbeats.info/flash/287750"/>
-        <updated>2025-04-01T02:47:25.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 1 日，据官方消息，韩国加密交易平台 Bithumb 宣布新增上线 Renzo (REZ)。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bitdeer开启SEALMINER A2 Pro Hyd水冷矿机预售，能效比14.9J/TH]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/u6czi2bb.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/u6czi2bb.html"/>
-        <updated>2025-04-01T02:47:06.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，Bitdeer将于2025年4月1日10:00AM UTC+8至4月3日10:00AM UTC+8期间，在其官网开放海豹矿机SEALMINER A2 Pro Hyd水冷型号的正式发售，共计2000台，定价$15.5/T。A2 Pro Hyd能效比14.9J/TH，算力最高可达530TH/s，功耗7,450W-7,900W，支持进水温度60°C、出水温度高达70°C环境下高效运行。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[zkLend攻击者或与仿冒Tornado Cash钓鱼案为同一人]]></title>
-        <id>https://www.odaily.news/newsflash/425327</id>
-        <link href="https://www.odaily.news/newsflash/425327"/>
-        <updated>2025-04-01T02:46:54.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 据链上分析师@im23pds 指出，zkLend 遭攻击事件与仿冒 Tornado Cash 的钓鱼网站攻击可能出自同一人之手。
-具体而言，攻击者地址与 ENS 域名 safe-relayer.eth 存在关联，该地址已在 Etherscan 上被标记，且可通过其历史转账记录进一步追踪。
-此前消息，该黑客曾因误点钓鱼网站，导致其盗取的 2930 枚 ETH 赃款被盗，并在事后通过链上交易联系 zkLend 表达歉意，归还了部分剩余资金。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[特朗普家族发币捞金，立法蓝图或遭「自己人」背刺]]></title>
-        <id>https://www.odaily.news/post/5202677</id>
-        <link href="https://www.odaily.news/post/5202677"/>
-        <updated>2025-04-01T02:41:14.000Z</updated>
-        <summary type="html"><![CDATA[参与国会加密立法谈判的民主党议员表示，特朗普家族的稳定币计划对立法进程构成了阻碍。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安全公司：提醒用户将Google Chrome和基于Chromium的浏览器更新到最新版本]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/yl35th72.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/yl35th72.html"/>
-        <updated>2025-04-01T02:40:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，安全公司Kaspersky在X平台披露：“我们发现了一种高度复杂的攻击，被称为OperationForumTroll，它利用了Google Chrome最新版本中一个先前未知的零日漏洞。如果一位使用Chrome浏览器的Windows PC用户点击了恶意链接，他们的电脑就会感染病毒，而无需受害者采取任何进一步行动。我们立即向Google发出警报，Google迅速修复了这个可能使数百万用户面临风险的漏洞。我们强烈建议所有用户将他们的Google Chrome和任何基于Chromium的浏览器更新到最新版本。”]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[zkLend黑客也被盗，链上致歉是真心悔过还是自导自演？]]></title>
-        <id>https://m.theblockbeats.info/news/57532</id>
-        <link href="https://m.theblockbeats.info/news/57532"/>
-        <updated>2025-04-01T02:36:20.000Z</updated>
-        <summary type="html"><![CDATA[今年愚人节的梗一早就出来了：黑客被黑，被盗 ETH 被钓。zkLend 黑客盗取在 2930 枚 ETH 之后，竟因误入钓鱼网站导致全盘资金被盗。如今，这位黑客通过链上留言向 zkLend 项目方致歉，声称「崩溃了」，并恳请项目方追查钓鱼网站运营者以挽回损失。这到底是一出因果报应的黑色幽默，还是黑客的障眼法？让我们一探究竟。
-
-
-
-
-
-从黑客到「受害者」
-
-
-今年 2 月，zkLend——基于 Starknet 网络的去中心化借贷协议，遭遇了一场毁灭性的攻击。黑客利用智能合约中的一个「四舍五入错误」漏洞，成功卷走 3600 枚 ETH。事后，zkLend 团队曾向黑客喊话，提出若归还 90%（3300 枚 ETH），可保留 10% 作为「白帽赏金」，并免除法律追责。然而，黑客未予回应，资金被迅速转移至以太坊网络，并试图通过隐私协议 Railgun 洗钱。虽然 Railgun 将这笔资金强制返还导致黑客洗钱未果，但线索一度中断。
-
-
-相关阅读：《500 万美元被盗资金遭拒，混币器 Railgun 竟成 DeFi 协议「追款工具」？》
-
-
-就在所有人以为这笔巨款已石沉大海时，4 月 1 日，慢雾创始人余弦爆料了一则戏剧性转折：黑客改用 Tornado Cash 进一步混淆资金流向，却误点了一个伪装成 Tornado Cash 的钓鱼网站，结果 2930 枚 ETH 被一扫而空。
-
-
-更令人意外的是，黑客随后通过链上留言主动联系 zkLend，语气充满懊悔：「你好，我本想把资金转入 Tornado Cash，但误用了一个钓鱼网站，结果所有资金都丢失了。我崩溃了。对由此造成的混乱和损失，我深感抱歉。2930 枚 ETH 已全部被该网站的运营者夺走，我手上已经没有任何币了。请把精力转向那些网站运营者，看看是否能追回部分资金。这是我的最后一条消息，结束这一切或许是最好的选择。再次抱歉。」
-
-
-
-
-
-这封「告白信」迅速在加密社区炸开了锅。留言中，黑客不仅承认了自己的错误，还流露出懊悔，甚至暗示可能「退出江湖」。然而，这份「真情流露」却让人不禁怀疑其真实性。
-
-
-社区怎么看？
-
-
-事件曝光后，有人戏称这是「黑客版的愚人节笑话」，感叹「出来混迟早要还」；也有人调侃「相当于，缅北电诈分子被街边电灯柱上的牛皮癣广告给骗了。」
-
-
-
-
-
-除了吃瓜看热闹之外，还有社区成员指出，黑客也可能在自导自演一出闹剧，通过伪装成「受害者」转移视线，甚至可能与钓鱼网站运营者串通，以此洗白身份或掩盖资金去向。但根据余弦追踪，这个钓鱼网站已经潜伏 5 年，如果是这次的黑客自导自演，有些未免过于「有耐心」。目前看来，虽然黑客钱包确实已清空，但不排除其背后仍有隐藏账户。
-
-
-截至发稿，zkLend 官方尚未对黑客的留言作出正式回应。此前，项目方已于 3 月 5 日推出「恢复门户」，为受影响的用户提供部分赔偿，并承诺加强安全措施。
-
-
-如今，zkLend 被盗事件像是为加密世界上演了一出「黑吃黑」的戏码。黑客主动求助，是否会促使 zkLend 联合执法机构追查钓鱼网站？还是说这只是黑客「洗白」的障眼法？黑客的「悔过书」究竟是真心悔悟，还是精心布局的「愚人节幽默」？BlockBeats 将继续跟踪报道事件进展。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[a16z Speedrun启动新一轮初创公司申请，将为早期初创企业提供高达100万美元投资]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/odyj8cle.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/odyj8cle.html"/>
-        <updated>2025-04-01T02:34:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，a16z普通合伙人Andrew Chen在X平台披露，a16z Speedrun已启动新一轮初创公司申请，申请截止日期为5月11日。a16z Speedrun将向处于非常早期阶段的创业公司提供高达100万美元投资，然后在接下来的90天内与他们紧密合作，并将助力其推广。下一轮项目将于2025年7月28日至10月10日启动。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dragonfly管理合伙人：若不看好加密，就去做空市场，三年后见分晓]]></title>
-        <id>https://www.odaily.news/newsflash/425326</id>
-        <link href="https://www.odaily.news/newsflash/425326"/>
-        <updated>2025-04-01T02:30:55.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 Dragonfly 管理合伙人 Haseeb Qureshi 在 X 平台发文回应市场对加密行业的唱衰声音称，自己作为加密行业的风险投资人已近 8 年，期间多次听到类似“没有人会买这些代币”“行业真相已揭晓”“不会再有回报”等言论。
-他表示，2018/2019 年加密 VC 募资极为艰难，但现实已经证明周期会重启。他强调：“如果你真的不看好加密，那就拿出真金白银去做空市场。三年后我们再来对比结果。”]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[昨夜今晨重要资讯（3月31日-4月1日）]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/w0j3896p.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/w0j3896p.html"/>
-        <updated>2025-04-01T02:30:00.000Z</updated>
-        <summary type="html"><![CDATA[马斯克计划于5月底辞去美国政府效率部（DOGE）的职务
-据潇湘晨报报道，埃隆·马斯克计划于5月底辞去美国政府效率部（DOGE）的职务。在接受福克斯新闻采访时，马斯克表示，他有信心在离职前完成削减1万亿美元联邦赤字的目标。并强调政府效率低下、存在大量浪费和欺诈，有信心在不影响关键服务的情况下减少15%的支出。此外，马斯克对国会成员财富异常丰厚的现象表示质疑。他指出，许多国会成员年薪仅20万美元，却拥有高达2000万美元的财产，质疑他们如何在有限的收入下积累如此巨额财富。
-Arthur Hayes：即使美国股市继续因关税等因素下跌，仍相信比特币到年底可达25万美元
-BitMEX联合创始人Arthur Hayes在最新博客文章中表示：“比特币价值 = 技术 + 法定流动性，这项技术有效，并且在不久的将来不会发生任何重大变化，无论是好是坏。因此，比特币的交易完全基于市场对未来法定货币供应的预期。如果我对美联储从国债QT转向QE的主要转向的分析是正确的，那么比特币上个月触及了76,500美元的局部低点，现在我们开始迈向年底的250,000美元。当然，这不是一门精确的科学，但如果我以黄金为例，如果我不得不在我认为比特币会先触及76,500美元还是110,000美元之间下注，我会押注后者。即使美国股市继续因关税、盈利预期崩溃或外国需求下降而下跌，我仍然相信比特币继续攀升的概率更大。认识到其中的利弊，Maelstrom正在谨慎地部署资本。我们不使用杠杆，并且相对于我们总投资组合的规模，我们进行小额购买。我们一直在90,000美元至76,500美元之间的所有水平上购买比特币和山寨币。资本部署的速度将根据我预测的准确性而加快或放缓。我仍然相信，到年底，比特币可以达到250,000美元。”
-美高官：稳定币法案两院版本接近一致，仅存20%的文本差异
-据加密记者Eleanor Terrett报道，美…]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pantera拟为其新基金Fund V募资10亿美元，提供接触全方位区块链资产的机会]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/u0xj7s4g.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/u0xj7s4g.html"/>
-        <updated>2025-04-01T02:29:29.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，Pantera在一篇名为《PANTERA全方位区块链投资策略》的博客文章中披露，其计划为第五只风险投资基金（Pantera Fund V）募资，现已开放订阅。该新基金系“All-in-one”风险投资风格基金，提供接触全方位区块链资产的机会，其中包括风险投资股权、私有代币、流动性代币等。首次封闭日期为2025年6月30日，目标募集金额为10亿美元，最低投资额为10亿美元。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[派盾：2025年Q1发生60余起加密黑客事件，总损失达16.3亿美元]]></title>
-        <id>https://m.theblockbeats.info/flash/287748</id>
-        <link href="https://m.theblockbeats.info/flash/287748"/>
-        <updated>2025-04-01T02:24:11.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 1 日，据派盾监测，2025 年第一季度发生了 60 多起加密货币黑客事件，总损失达 16.3 亿美元，较 2024 年第一季度的 7.06 亿美元增长了 131%。
-
-
-2025 年 3 月发生了 20 起加密货币黑客事件，损失达 3346 万美元，其中包括影响 1inch 的 500 万美元黑客事件，现已追回 90%。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[马斯克计划于5月底辞去美国政府效率部（DOGE）的职务]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/16p2lfkm.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/16p2lfkm.html"/>
-        <updated>2025-04-01T02:20:01.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，据潇湘晨报报道，埃隆·马斯克计划于5月底辞去美国政府效率部（DOGE）的职务。在接受福克斯新闻采访时，马斯克表示，他有信心在离职前完成削减1万亿美元联邦赤字的目标。并强调政府效率低下、存在大量浪费和欺诈，有信心在不影响关键服务的情况下减少15%的支出。此外，马斯克对国会成员财富异常丰厚的现象表示质疑。他指出，许多国会成员年薪仅20万美元，却拥有高达2000万美元的财产，质疑他们如何在有限的收入下积累如此巨额财富。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BTC突破83000美元，日内下跌 0.47%]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/brmuqeme.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/brmuqeme.html"/>
-        <updated>2025-04-01T02:17:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，欧易OKX行情显示，BTC刚刚突破83000美元，现报83031.90美元/枚，日内下跌 0.47%。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arthur Hayes：即便美股下跌，比特币年底仍有望冲至25万美元]]></title>
-        <id>https://www.odaily.news/newsflash/425324</id>
-        <link href="https://www.odaily.news/newsflash/425324"/>
-        <updated>2025-04-01T02:11:48.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 BitMEX 联合创始人 Arthur Hayes 在最新博客中重申对比特币的长期看涨立场。他表示，比特币的定价核心在于“技术+法币流动性”，当前技术层面无重大变化，市场主要围绕未来法币供应预期进行交易。
-Hayes 认为，如果美联储真的从量化紧缩（QT）转向量化宽松（QE），那么比特币已在此前的 76,500 美元附近见底。他称，尽管美国股市可能因关税、企业盈利预期下修或海外需求疲软而下跌，但比特币仍有望持续上涨，年底挑战 25 万美元。
-他补充道，旗下基金 Maelstrom 正在稳健加仓 BTC 和部分山寨币，不使用杠杆，操作量也相对保守，将根据行情判断调整资本部署节奏。相比于先到 76,500 美元还是 11 万美元，他更愿意押注后者。]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arthur Hayes：即使美国股市继续因关税等因素下跌，仍相信比特币到年底可达25万美元]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/6r5vzim5.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/6r5vzim5.html"/>
-        <updated>2025-04-01T02:08:54.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月1日消息，BitMEX联合创始人Arthur Hayes在最新博客文章中表示：“比特币价值 = 技术 + 法定流动性，这项技术有效，并且在不久的将来不会发生任何重大变化，无论是好是坏。因此，比特币的交易完全基于市场对未来法定货币供应的预期。如果我对美联储从国债QT转向QE的主要转向的分析是正确的，那么比特币上个月触及了76,500美元的局部低点，现在我们开始迈向年底的250,000美元。当然，这不是一门精确的科学，但如果我以黄金为例，如果我不得不在我认为比特币会先触及76,500美元还是110,000美元之间下注，我会押注后者。即使美国股市继续因关税、盈利预期崩溃或外国需求下降而下跌，我仍然相信比特币继续攀升的概率更大。认识到其中的利弊，Maelstrom正在谨慎地部署资本。我们不使用杠杆，并且相对于我们总投资组合的规模，我们进行小额购买。我们一直在90,000美元至76,500美元之间的所有水平上购买比特币和山寨币。资本部署的速度将根据我预测的准确性而加快或放缓。我仍然相信，到年底，比特币可以达到250,000美元。”]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
 </feed>
