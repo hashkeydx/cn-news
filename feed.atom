@@ -2,10 +2,442 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2025-04-18T02:21:21.879Z</updated>
+    <updated>2025-04-18T03:28:18.745Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Galaxy Research新提案引入加权投票机制，旨在降低SOL通胀率]]></title>
+        <id>https://m.theblockbeats.info/flash/290239</id>
+        <link href="https://m.theblockbeats.info/flash/290239"/>
+        <updated>2025-04-18T03:23:47.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 18 日，据 Cointelegraph 报道，加密研究机构 Galaxy Research 在 Solana 社区提出「多轮选举质押权重聚合机制」（Multiple Election Stake-Weight Aggregation，简称 MESA）提案，旨在降低 SOL 的通胀率。研究人员将该提案描述为一种「更具市场导向的方式，用于确定未来 SOL 通胀率」。
+
+
+与传统的「赞成/反对」二元投票不同，MESA 允许验证者对多个通胀下调幅度进行投票，最终结果则通过加权平均得出。Galaxy 表示：「与其不断更换通胀下调方案直到某一项通过，不如允许验证者对一个或多个提案分配投票权重，然后将所有「赞成」票的加权结果作为最终的发行曲线。」
+
+
+该机制的灵感来源于此前的提案 SIMD-228。尽管社区普遍支持降低 SOL 通胀率，但由于二元投票机制难以就具体参数达成共识，导致该提案未能通过。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分析：Mantra与做市商通过利用数据聚合商验证漏洞来虚增OM代币流动性]]></title>
+        <id>https://www.odaily.news/newsflash/427590</id>
+        <link href="https://www.odaily.news/newsflash/427590"/>
+        <updated>2025-04-18T03:18:30.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 在最新一期《The Chopping Block》播客讨论中，据称 Mantra 及其关联做市商利用数据聚合商自报告系统漏洞，操纵 OM 代币流动性指标。他们歪曲流通供应量和交易量，营造市场活跃假象。Mantra 团队与做市商合作，在受控地址和交易所间循环代币模拟交易量，虚增数据且无大量自然参与。
+链上观察人士称，OM 代币真正有流动性的供应量不到 1%，却高居市值前 25。该策略利用了 CoinGecko 和 CoinMarketCap 验证流程漏洞，这两个平台依赖项目团队自报告数据，与交易所上市信息及表面区块链分析交叉核对。别有用心者可向做市商分配代币，策划看似自然的交易活动规避检查，即便无散户参与。一位 OM 大户抛售时，人为流动性崩塌，价格 90 分钟内下跌 90%，事件使市值蒸发数十亿美元，暴露了该资产交易深度的脆弱性。（CryptoSlate）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[观点：为什么Bittensor是一个骗局，TAO正在走向归零？]]></title>
+        <id>https://m.theblockbeats.info/news/57811</id>
+        <link href="https://m.theblockbeats.info/news/57811"/>
+        <updated>2025-04-18T03:17:42.000Z</updated>
+        <summary type="html"><![CDATA[原文作者：思维怪怪
+
+
+开个长贴，记录下自己的思考：为什么 #Bittensor 是一个骗局，$TAO 正在走向归零？
+
+
+首先，Bittensor 虽然官方一直标榜自己是一个「公平挖矿」的项目，但实际上底层 Subtensor 既不是 PoW 公链，也不是 PoS 公链；而是一个由 Opentensor Foundation（Bittensor 的基金会）负责的单机链，机制非常黑盒。
+
+
+至于所谓的「三巨头+参议院」二元治理结构，三巨头是 Opentensor Foundation 的三名员工，参议院是排名前 12 的验证节点，全部都是自己人或者利益相关方。
+
+
+
+
+
+
+
+
+
+
+
+其次，2021 年 1 月 3 日「Kusanagi」发布，标志着 Bittensor 网络的激活，允许矿工和验证者开始获得第一批 TAO 奖励。从网络激活到 2023 年 10 月 2 日上线子网的这 2 年零 9 个月，Bittensor 总共已经挖出了 538 万枚 TAO。但没有文档或资料说明从 2021 年 1 月 3 日到 2023 年 10 月 2 日子网上线这段时间内产生的代币通过什么规则分配，以及最终流向。
+
+
+可以合理揣测这部分代币是被内部成员和利益集团瓜分了，因为 Bittensor 不像比特币，它是由 VC 孵化和投资的。
+
+
+如果用这部分代币除以现在的发行量 861 万，就是有至少 62.5% 的 TAO 处于内部成员和利益集团手中。此外，Opentensor Foundation 和一些投资的 VC 也运营着 Bittensor 上的验证节点业务，所以他们手上的筹码比例只会比 62.5% 这个数字更多。
+
+
+
+
+
+和前几天雪崩的 OM 一样，所有你不知道市值为什么这么高的项目，它们畸形的市值往往是由可怜的流通量造就的。
+
+
+Billions marketcap bac…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密市场板块企稳反弹，AI 板块领涨3.98%，GameFi 板块上涨2.62%]]></title>
+        <id>https://www.odaily.news/newsflash/427589</id>
+        <link href="https://www.odaily.news/newsflash/427589"/>
+        <updated>2025-04-18T03:11:50.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 根据 SoSoValue 数据，加密市场板块企稳反弹，AI 板块领涨 3.98%，板块内，Fetch.ai（FET） 、Render（RENDER） 、Bittensor（TAO） 24 小时分别上涨 6.94%、8.98%、10.36%。但此前涨幅较大的 Fartcoin （FARTCOIN）迎来回调，24 小时下跌 12.89%。
+其他表现亮眼板块包括：GameFi 板块 24 小时上涨 2.62%，其中，ImmutableX（IMX）上涨 4.81%；NFT 板块上涨 1.96%，其中，APENFT（NFT） 、Pudgy Penguins（PENGU）分别上涨 2.20%、8.07%。
+此外，Layer1 板块 24 小时上涨 1.48%，板块内，Binance Coin（BNB） 、Solana（SOL）分别上涨 1.09%、3.63%；Layer2 板块上涨 0.95%，其中，Celestia（TIA）上涨 4.50%；CeFi 板块上涨 0.71%，Hyperliquid（HYPE）上涨 8.10%；DeFi 板块上涨 0.48%，PayFi 板块下跌 0.52%，Meme 板块下跌 0.92%。
+与此同时，反映板块历史行情的加密板块指数显示，ssiAI、ssiNFT、ssiDePIN 指数分别上涨 4.66%、2.67%、2.61%，周回报率分别为 1.81%、1.23%、0.90%。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分析：Mantra与做市商通过利用数据聚合商验证漏洞来虚增OM代币流动性]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/2q72vp7i.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/2q72vp7i.html"/>
+        <updated>2025-04-18T03:09:07.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月18日消息，据Cryptoslate报道，在最新一期《The Chopping Block》播客讨论中，据称Mantra及其关联做市商利用数据聚合商自报告系统漏洞，操纵OM代币流动性指标。他们歪曲流通供应量和交易量，营造市场活跃假象。Mantra团队与做市商合作，在受控地址和交易所间循环代币模拟交易量，虚增数据且无大量自然参与。
+链上观察人士称，OM代币真正有流动性的供应量不到1%，却看似市值排名前25的资产。该策略利用了CoinGecko 和CoinMarketCap验证流程漏洞，这两平台依赖项目团队自报告数据，与交易所上市信息及表面区块链分析交叉核对。别有用心者可向做市商分配代币，策划看似自然的交易活动规避检查，即便无散户参与。一位OM大户抛售时，人为流动性崩塌，价格90分钟内下跌90%，事件使市值蒸发数十亿美元，暴露该资产交易深度脆弱性。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance Wallet将举办Lorenzo Protocol（BANK）代币生成活动]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5xk3xm24.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5xk3xm24.html"/>
+        <updated>2025-04-18T03:08:16.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月18日消息，据官方消息，Binance Wallet宣布将于北京时间4月18日17:00至19:00，与Lorenzo Protocol（BANK）合作通过PancakeSwap举办第十次独家代币生成活动（TGE）。参与者必须在TGE日期前30天内，通过Binance Wallet（无密钥版）或Binance交易所完成有效的Binance Alpha代币购买。额外8400万枚BANK代币将用于未来的营销活动。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如果特朗普解雇了美联储鲍威尔，市场会发生什么？]]></title>
+        <id>https://m.theblockbeats.info/news/57810</id>
+        <link href="https://m.theblockbeats.info/news/57810"/>
+        <updated>2025-04-18T03:08:13.000Z</updated>
+        <summary type="html"><![CDATA[鲍威尔在昨天的芝加哥经济俱乐部活动没有传递出降息的信号。最急的人，莫过于特朗普。这位总统折腾了一个多月的关税，显然对美联储不降息的决定恼羞成怒，接连对鲍威尔开火猛攻：「如果我要求，美联储主席鲍威尔将离职。我对他（鲍威尔）并不满意。我认为鲍威尔没有做好工作。」「鲍威尔反应迟缓、行动缓慢」「鲍威尔在玩弄政治，利率现在应该下降。」「美联储的人不太聪明，鲍威尔太糟糕了。」鲍威尔是「我从来都不怎么喜欢的人」。而鲍威尔则强硬捍卫美联储的独立性，反驳政治干预，并表示美联储将仅根据对美国人民最有利的因素来做出决定。
+
+
+
+
+
+特朗普挑战美联储独立性
+
+
+特朗普从不掩饰对鲍威尔的失望。2025 年 4 月 17 日，他在椭圆形办公室对记者放话：「如果我想让他走，相信我，他很快就会走！」随后，他在 Truth Social 再度发文催促美联储主席鲍威尔降息，「欧洲央行即将第七次降息，而美联储的「永远迟到先生」鲍威尔再次搞砸了一切。昨日他又抛出一份典型的混乱报告——油价在跌、食品价格在下跌，连鸡蛋都在降价，美国正通过关税大赚特赚。这个「慢半拍」早该像欧洲央行那样降息，现在更是刻不容缓，鲍威尔的下台倒计时该加快了！」
+
+
+
+
+
+特朗普的愤怒多半源于鲍威尔在货币政策上的「保守」态度。他认为，鲍威尔未能及时大幅降息，错过了刺激经济增长的窗口期。更令特朗普不满的是，美联储的高利率政策与他上台后推行的关税计划产生冲突。特朗普的关税政策旨在保护美国本土产业，但可能推高进口商品价格，进而加剧通胀压力。耶鲁大学预算实验室估计，这些关税相当于每户美国家庭增加 4900 美元的实际税负。在这种背景下，特朗普希望美联储通过降息缓解经济压力，为其政策「保驾护航」。
+
+
+至于特朗普是否想解雇鲍威尔，虽然他在公开场合向记者表示「不后悔提名鲍威尔」，但从WSJ报道或许能看出端倪。消息人士称，特朗普曾与前美联储理事凯文·沃什私…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4E：关税不确定性令市场持谨慎态度，美股承压加密市场窄幅震荡]]></title>
+        <id>https://m.theblockbeats.info/flash/290238</id>
+        <link href="https://m.theblockbeats.info/flash/290238"/>
+        <updated>2025-04-18T03:06:48.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 18 日，据 4E 监测，关税不确定性继续令美股承压，周四三大指数收盘涨跌互现，道指跌 1.33%，标普 500 涨 0.13%，纳指小幅下跌 0.13%。周五美股将因耶稣受难日休市。本周三大股指连续第三周收跌，道指累计下跌 2.66%，纳指下跌 2.62%，标普 500 指数下跌 1.5%。
+
+
+ 加密市场窄幅震荡，比特币持稳在 8.4 万美元，以太坊在 1600 下方徘徊，山寨市场波动收窄。投资者在关税政策的不确定性中仍持谨慎态度，衍生品市场对下跌的担忧明显压过了对上涨的期待。
+
+
+外汇大宗市场，美元指数微跌 0.01%，连续第三周走弱；受美元走弱和特朗普能源贸易乐观言论推动，美油周四大涨超 3%，本周已累计上涨约 5%；金价高位回落，现货黄金跌 0.46%。
+
+
+欧洲央行持续宽松，美联储坚持观望态度，特朗普周四发帖猛批鲍威尔的利率政策「总是太迟且错误」，直言解雇鲍威尔刻不容缓。市场关注鲍威尔是否会因政治压力调整政策。eeee.com 作为一家支持加密货币、股票指数、黄金、外汇等资产的金融交易平台，近期推出了年化收益率 8% 的 USDT 稳定币理财产品，为投资者提供潜在的避险选择。4E 提醒您注意市场波动风险，合理配置资产。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance Wallet本轮TGE活动新增规则：用户需在TGE日前30天通过无私钥钱包或交易平台完成Binance Alpha代币的有效购买]]></title>
+        <id>https://m.theblockbeats.info/flash/290237</id>
+        <link href="https://m.theblockbeats.info/flash/290237"/>
+        <updated>2025-04-18T03:06:34.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 18 日，据官方消息，Binance Wallet 本轮 TGE 活动 Lorenzo Protocol 新增参与者资格：用户需在 TGE 日前 30 天（即 UTC 时间 2025 年 3 月 19 日 00:00:00 至 4 月 17 日 23:59:59）通过 Binance 无私钥钱包或 Binance 交易平台完成 Binance Alpha 代币的有效购买。用户可在 TGE 活动页面查询参与资格。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance Wallet将上线Lorenzo Protocol（BANK），用户需在TGE前30天内操作Binance Alpha代币购买]]></title>
+        <id>https://www.odaily.news/newsflash/427588</id>
+        <link href="https://www.odaily.news/newsflash/427588"/>
+        <updated>2025-04-18T03:06:19.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Binance Wallet 宣布将联合 PancakeSwap 为 Lorenzo Protocol（BANK）举办独家 TGE 活动。时间为 4 月 18 日，上午 9:00 - 11:00（UTC）。
+据官方最新规定：用户须在 TGE 日期（2025 年 3 月 19 日 00:00:00 UTC 至 2025 年 4 月 17 日 23:59:59 UTC）前 30 天内通过 Binance 钱包（无密钥）或 Binance 交易所完成有效的 Binance Alpha 代币购买。额外分配 8400 万枚 BANK 代币用于未来的营销活动。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一周涨超1500%，DARK究竟有何来头？]]></title>
+        <id>https://www.odaily.news/post/5203095</id>
+        <link href="https://www.odaily.news/post/5203095"/>
+        <updated>2025-04-18T03:05:44.000Z</updated>
+        <summary type="html"><![CDATA[DARK 市值短时突破 3200 万美元创历史新高，同一创始人的MtnDAO代币MTN市值也达到920万美元，他们之间有什么关系？]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币实现市值创新高，但比特币短期持有者仍处于亏损状态，避险情绪主导市场]]></title>
+        <id>https://www.odaily.news/newsflash/427587</id>
+        <link href="https://www.odaily.news/newsflash/427587"/>
+        <updated>2025-04-18T03:02:28.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 数据显示，比特币实现市值（Realized Cap）达 8720 亿美元，创历史新高。但 Glassnode 数据显示，投资者对当前比特币价格水平的热情依然不足。表示尽管实现市值创下历史新高，但该指标的月增长率已降至 0.9%，显示出市场处于“规避风险”情绪之中。
+实现市值衡量的是所有比特币按其上一次转账时的价格计算的总价值，反映了实际投入的资本规模，可用于观察比特币的经济活跃度。其增长放缓说明资金流入仍为正值，但已明显减少，暗示新投资者数量下降，或现有持有者的活跃度减弱。
+此外，Glassnode 的实现盈亏（Realized Profit and Loss）图表近期出现了 40%的大幅下跌，这表明市场出现了大量获利了结或止损行为。比特币短期持有者的市场价值与实际价值之比仍低于 1，这一水平在历史上与买入机会相关，进一步证明短期持有者处于亏损状态。（Cointelegraph）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance Wallet将上线Lorenzo Protocol TGE，认购上限为3 BNB]]></title>
+        <id>https://m.theblockbeats.info/flash/290236</id>
+        <link href="https://m.theblockbeats.info/flash/290236"/>
+        <updated>2025-04-18T03:01:48.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 18 日，Binance Wallet 宣布将联合 PancakeSwap 为 Lorenzo Protocol 举办独家代币生成活动。
+
+
+代币名称：BANK (Lorenzo Governance Token)
+链：BSC 
+开始日期：2025 年 4 月 18 日晚上 17:00 
+结束日期：2025 年 4 月 18 日晚上 19:00 
+总募集金额：200,000 美元（BNB）
+可用代币：42,000,000（占总供应量的 2％）
+接受的代币：BNB 
+每个代币价格：0.0048 美元（BNB）
+每个 Binance 钱包用户的认购上限：3 BNB]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密市场板块企稳反弹，AI板块领涨3.98%，GameFi板块上涨2.62%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/fvmyfj4a.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/fvmyfj4a.html"/>
+        <updated>2025-04-18T02:59:55.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月18日消息，根据 SoSoValue 数据，加密市场板块企稳反弹，AI 板块领涨3.98%，板块内，Fetch.ai(FET) 、Render(RENDER) 、Bittensor(TAO) 24小时分别上涨6.94%、8.98%、10.36%。但此前涨幅较大的Fartcoin (FARTCOIN) 迎来回调，24小时下跌12.89%。
+其他表现亮眼板块包括：GameFi 板块24小时上涨2.62%，其中，ImmutableX(IMX) 上涨4.81%；NFT 板块上涨1.96%，其中，APENFT(NFT) 、Pudgy Penguins(PENGU) 分别上涨2.20%、8.07%。
+此外，Layer1 板块24小时上涨1.48%，板块内，Binance Coin(BNB) 、Solana(SOL) 分别上涨1.09%、3.63%；Layer2 板块上涨0.95%，其中，Celestia(TIA) 上涨4.50%；CeFi 板块上涨0.71%，Hyperliquid(HYPE)上涨8.10%；DeFi 板块上涨0.48%，PayFi 板块下跌0.52%，Meme 板块下跌0.92%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FARTCOIN波段巨鲸2小时前抛售价值143万美元的代币，累计获利18.4万美元]]></title>
+        <id>https://www.odaily.news/newsflash/427586</id>
+        <link href="https://www.odaily.news/newsflash/427586"/>
+        <updated>2025-04-18T02:59:32.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据链上分析师@ai_9684xtpa 监测，FARTCOIN 波段巨鲸 8Ejzv...irXJv 于 2 小时前抛售价值 143 万美元的代币，3 月 11 日以来通过两次波段已累计获利 18.4 万美元。本次卖出的 FARTCOIN 部分是 13 天前以 0.4774 美元买入的，平均卖出价格 0.7697 美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分析：比特币短期持有者处于亏损状态，市场仍处于避险情绪中]]></title>
+        <id>https://m.theblockbeats.info/flash/290235</id>
+        <link href="https://m.theblockbeats.info/flash/290235"/>
+        <updated>2025-04-18T02:58:55.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 18 日，据 Cointelegraph 报道，比特币实现市值（Realized Cap）达 8720 亿美元，创历史新高。但 Glassnode 的数据显示，投资者对当前比特币价格水平的热情依然不足。表示尽管实现市值创下历史新高，但该指标的月增长率已降至 0.9%，显示出市场处于「规避风险」情绪之中。
+
+
+实现市值衡量的是所有比特币按其上一次转账时的价格计算的总价值，反映了实际投入的资本规模，可用于观察比特币的经济活跃度。其增长放缓说明资金流入仍为正值，但已明显减少，暗示新投资者数量下降，或现有持有者的活跃度减弱。
+
+
+此外，Glassnode 的实现盈亏（Realized Profit and Loss）图表近期出现了 40% 的大幅下跌，这表明市场出现了大量获利了结或止损行为。比特币短期持有者的市场价值与实际价值之比仍低于 1，这一水平在历史上与买入机会相关，进一步证明短期持有者处于亏损状态。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UXLINK社交加密货币支付卡Fuji Card已在多个国家开始KYC测试]]></title>
+        <id>https://www.odaily.news/newsflash/427585</id>
+        <link href="https://www.odaily.news/newsflash/427585"/>
+        <updated>2025-04-18T02:57:53.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 UXLINK 官方于 X 平台宣布，目前正在日本、韩国、新加坡、印度尼西亚、越南、尼日利亚、巴基斯坦、孟加拉国、南非和部分中东国家进行 Fuji Card 的 KYC 流程测试，用户主要来自于 UXLINK 社区的志愿者。
+UXLINK 社区负责人表示，Fuji Card 将是一张社交化的虚拟加密卡，后续将致力于让加密支付与日常生活紧密结合。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某FARTCOIN波段巨鲸2小时前抛售价值143万美元的代币]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/fgoqdgk4.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/fgoqdgk4.html"/>
+        <updated>2025-04-18T02:56:21.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月18日消息，据链上分析师@ai_9684xtpa监测，FARTCOIN波段巨鲸8Ejzv...irXJv于2小时前抛售价值143万美元的代币，03.11以来通过两次波段已累计获利18.4万美元。
+本次卖出的FARTCOIN部分是13天前以0.4774美元买入的，平均卖出价格0.7697美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FARTCOIN波段巨鲸2小时前抛售价值143万美元的代币]]></title>
+        <id>https://m.theblockbeats.info/flash/290234</id>
+        <link href="https://m.theblockbeats.info/flash/290234"/>
+        <updated>2025-04-18T02:56:00.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 18 日，据 @ai_9684xtpa 监测，FARTCOIN 波段巨鲸 8Ejzv...irXJv 于 2 小时前抛售价值 143 万美元的代币，3 月 11 日以来通过两次波段已累计获利 18.4 万美元。
+
+
+本次卖出的 FARTCOIN 部分是 13 天前以 0.4774 美元买入的，平均卖出价格 0.7697 美元。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Galaxy提出新的共识方法来解决Solana通胀争论]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ql748s54.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ql748s54.html"/>
+        <updated>2025-04-18T02:50:23.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月18日消息，据Cryptoslate报道，Galaxy Research向Solana社区提交了一项新提案，旨在通过一种名为多重选举质押权重聚合（MESA）的方法，改革该网络的通胀治理讨论。该机制试图引入一种市场驱动流程，在不依赖单一结果投票的情况下，优化SOL排放曲线。拟议的方法不会改变Solana实现1.5%最终通胀率的最终目标，但根据社区投票结果，可能会大幅缩短实现该目标的时间线。根据Galaxy的预测，若维持当前15%的通缩率，该网络将在epoch 2,135处达到最终通胀率。提高通缩率将使这一时间点提前。
+在当前的Solana系统中，通胀遵循一条固定的、与时间相关的曲线，目标是实现1.5%的最终通胀率。然而，Galaxy指出，此前的投票表明尽管人们普遍认为通胀率高于必要水平，但在调整参数方面达成共识却面临挑战。Galaxy的新提案提供了一种替代方案，让验证者从多个预先确定的通缩率中进行选择，结果通过这些投票的加权平均值来确定。MESA投票不会根据实时指标动态调整通胀，而是将强制执行一条固定的反通胀轨迹，一旦获得批准，通缩率将根据验证者的集体意见进行调整。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Backpack Exchange第一赛季积分活动已开启四周，现货和合约总交易量达32亿美元]]></title>
+        <id>https://m.theblockbeats.info/flash/290233</id>
+        <link href="https://m.theblockbeats.info/flash/290233"/>
+        <updated>2025-04-18T02:49:22.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 18 日，据官方消息，Backpack Exchange 第一赛季积分活动已运行四周，现货和合约总交易量达 32 亿美元。未平仓合约金额达 1.31 亿美元，创历史新高，独立交易用户达 3.55 万。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欧洲央行降息25基点，市场关注美联储最新表态]]></title>
+        <id>https://www.odaily.news/newsflash/427584</id>
+        <link href="https://www.odaily.news/newsflash/427584"/>
+        <updated>2025-04-18T02:47:12.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 欧央行如期降息 25BP，为过去一年内第七次降息，注意此次决定为一致通过。除此之外，特朗普督促美联储早就应该像欧央行那样降低利率。最新 CME“美联储观察”数据显示，5 月维持利率不变的概率为 86.3%，降息 25 个基点的概率为 13.7%，到 6 月维持利率不变的概率为 38.2%，累计降息 25 个基点的概率为 54.1%，累计降息 50 个基点的概率为 7.6%。综合而言，货币政策宽松以及全球贸易形势严峻，成为近期支撑金价的两大因素。（金十）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[股市流入「比特币芬太尼」]]></title>
+        <id>https://m.theblockbeats.info/news/57809</id>
+        <link href="https://m.theblockbeats.info/news/57809"/>
+        <updated>2025-04-18T02:46:55.000Z</updated>
+        <summary type="html"><![CDATA[想象一下，当你的公司面临倒闭危机，这时你只需增发股份买入，或者仅仅是宣布将比特币作为资产储备，便可轻松打败讨厌的空头，从清退边缘重新走回市场注意力的中心。如果这是真的，你会这么做吗？
+
+
+在$MSTR 再度成为投资圈年度热词后，比特币正迅速侵占全球企业的资产负债表，在这场新的围绕比特币的资本游戏中，有人追逐风口，有人拙劣模仿，也有人发现新的商机，摇身变成创造「价格奇迹」幕后的攒局者。
+
+
+MSTR 流向世界
+
+
+2024 年，MSTR 股价飙涨 477%，在美股市值超 50 亿美元的科技公司中排名第二，仅次于 AppLovin。比特币投资也为公司带来了高达 131.4 亿美元的账面收益，推动市值一度突破 1000 亿美元，成为美股市场的明星企业。
+
+
+截至 2025 年 4 月，公司共持有 528,185 枚 BTC，持仓成本约 331.4 亿美元，平均买入价为 66,385 美元，以比特币当前价约 81,400 美元计算，总市值约 430 亿美元，占全球流通量的 2.5% 以上。
+
+
+相关阅读：《「发债买币」的策略没变，为什么 MSTR 溢价却突然飙升？》
+
+
+早在 2020 年 8 月，加密市场处于熊市尾声，微策略在比特币 1 万美元区间首次购入 21,454 枚 BTC，开启了「比特币财资策略」，成为首家大规模将企业资金投入比特币的上市公司。
+
+
+此后，公司持续在低谷期加仓，贯穿 2020 至 2022 年，并在 2023 年稳步增持。2024 至 2025 年比特币进入牛市后，微策略进一步加速建仓，形成了清晰的「熊市建底、牛市提速」的操作路径。股价的疯狂像一颗石子扔进池塘，激起涟漪。企业都开始扪心自问：如果我们跑不过比特币，为什么不干脆买它？
+
+
+
+
+
+根据 Bitcointreasuries 的数据，截至 2025 年 4 月 16 日，共有 178 个主体合计持…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Circle推出Refund Protocol以解决稳定币支付中的争议]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ehd83xqv.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ehd83xqv.html"/>
+        <updated>2025-04-18T02:43:25.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月18日消息，据Cryptoslate报道，Circle宣布推出Refund Protocol，引入了一种非托管智能合约系统，使稳定币交易能够在不依赖中心化中介的情况下进行争议解决。该举措旨在解决使用稳定币的一个关键缺陷，即缺乏内置的退款或拒付机制。Refund Protocol赋予支付仲裁者特定权限，同时限制其控制资金的能力。仲裁者可以锁定资金一段时间，授权向付款人预先设定的地址退款，并允许在协商费用后提前提款。然而，仲裁者被禁止随意转移资金，从而保持了该系统的非托管性质。该公司承认，目前托管资产不会产生收益，但建议未来的升级可以整合像Aave这样的借贷协议，使锁定资金代币化，并可能在收款人和仲裁者之间分享收益。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jupiter最新聚合器Juno已上线]]></title>
+        <id>https://www.odaily.news/newsflash/427583</id>
+        <link href="https://www.odaily.news/newsflash/427583"/>
+        <updated>2025-04-18T02:42:01.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，Solana 生态 DEX Jupiter 宣布其新的聚合器 Juno 现已上线。Juno 包含：聚合来自 Jupiter、以及第三方聚合器 hashflow 和 DFlow 的多个路由器、新的路由器 Metis v1.5、自学习功能、新的实验性算法。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Virtuals推出积分化打新机制Genesis，首个打新项目为h011yw00d（HOLLY）]]></title>
+        <id>https://www.odaily.news/newsflash/427582</id>
+        <link href="https://www.odaily.news/newsflash/427582"/>
+        <updated>2025-04-18T02:37:14.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 Virtuals 官方于 X 平台宣布推出新的积分化打新机制 Genesis，用户可通过购买 Virtuals 生态代币、持仓 VIRTUAL、质押 VADER 等渠道累积积分，并获得参与新项目发行的访问权限。
+Genesis 的首个打新项目为 h011yw00d（HOLLY），认购将于今晚 21:00 结束，已拥有积分的用户可投入积分和 VIRTUAL 参与认购。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Threshold Network宣布网络重组计划，并将通过T代币回购进行战略再投资]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/4z9qyu2e.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/4z9qyu2e.html"/>
+        <updated>2025-04-18T02:35:10.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月18日消息，据Chainwire报道，Threshold Network宣布网络重组计划，并将通过T代币回购进行战略再投资。该计划旨在通过削减年度运营开支、停止金库出售T代币以及通过有针对性的回购积 T代币来提高成本效益。Threshold DAO的金库还将继续通过桥接费积累tBTC，并通过回购积累T代币。
+Threshold表示，重组改善了协议的财务状况。它使年度运营成本降低了约110万美元，使治理和贡献者角色的总成本降至每年60.2万美元。此外，取消tBTC质押奖励而预计每年节省的850多万美元。Threshold已完成首次购买约3000万枚T代币，花费5.8枚tBTC。目前，约有4.2亿枚T代币用于治理和多重签名，按当前市场价值计算约700万美元。此外，还有800-900万美元的储备资产（tBTC、ETH 和稳定币），可保障2-3年的运营。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[昨夜今晨重要资讯（4月17日-4月18日）]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/unjkt3us.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/unjkt3us.html"/>
+        <updated>2025-04-18T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Galaxy Digital凌晨再次向币安存入12500枚ETH，价值2000万美元
+据Lookonchain监测，8小时前，Galaxy Digital再次向币安存入12,500枚ETH（价值2000万美元）。 在过去6天里，Galaxy Digital已向交易所存入62,181枚ETH（价值9946万美元）。
+赵长鹏称BNB是一种Meme币
+赵长鹏援引BNB即将上线Kraken消息表示：“ BNB是一种Meme币。” 此前消息 ，BNB将于4月22日上线Kraken，现已开放存款。
+Pump.fun联创：将继续在社交媒体和代币化的交叉领域进行试验，但不会发币
+Pump.fun联合创始人Alon Cohen在X平台发文称：“Pump.fun将继续在社交媒体和代币化的交叉领域进行试验。其中一些尝试（比如直播，顺便说一下，现已经完全恢复直播）。无论我们做什么，我们都会尽最大努力确保与我们的核心用户群体保持一致。话虽如此：别指望我、pump.fun或任何员工会发行代币（也不会有“秘密发行”）。”
+Wintermute宣布已投资借贷协议Euler Finance
+做市商Wintermute于X平台发文宣布，旗下投资机构Wintermute Ventures已投资DeFi借贷协议Euler Finance，具体金额暂未披露。
+sUSD脱锚加剧至0.6825美元，24小时跌幅达16.5%
+行情显示，Synthetix生态稳定币sUSD脱锚程度加剧，现报0.6825美元，24小时跌幅达16.5%，市值跌至2198万美元。
+加密交易所eXch因洗钱指控宣布将于5月1日关停
+据Cointelegraph报道，加密交易所eXch宣布将于5月1日停止运营。此前有报道称该平台被用于清洗Bybit交易所被盗资金中的部分赃款。在4月17日的公告中，eXch表示其管理团队多数成员投票决定“停止运营并退…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jupiter宣布推出新的聚合器Juno]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/9al3a4bf.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/9al3a4bf.html"/>
+        <updated>2025-04-18T02:26:30.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月18日消息，据官方消息，Solana生态DEX Jupiter宣布其新的聚合器Juno现已上线。Juno包含：聚合来自Jupiter、以及第三方聚合器hashflow和DFlow的多个路由器、新的路由器Metis v1.5、自学习功能、新的实验性算法。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MEXC Ventures启动3000万美元“IgniteX”计划以培育Web3人才并推动创新]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/24p1yngi.html</id>
@@ -23109,101 +23541,6 @@ Solix 允许用户通过浏览器扩展分享闲置带宽并获得奖励，目�
 BlockBeats 注：Meme 币交易波动巨大，多依赖市场情绪和概念炒作，并无实际价值或用例，投资者需注意风险。]]></summary>
         <author>
             <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Binance新一期Launchpool已存入超1861万枚BNB]]></title>
-        <id>https://m.theblockbeats.info/flash/289553</id>
-        <link href="https://m.theblockbeats.info/flash/289553"/>
-        <updated>2025-04-13T15:08:04.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 13 日，据官方数据，Binance Launchpool 第 67 期项目 WalletConnect (WCT) 矿池现已存入近 1861.1 万枚 BNB，24.31 亿枚 USDC 以及 7.23 亿枚 FDUSD，目前距离挖矿结束还有 1 日 8 小时 52 分钟。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[摩根大通CEO：美债市场可能出现混乱导致美联储干预，或使部分投资者转向BTC]]></title>
-        <id>https://m.theblockbeats.info/flash/289552</id>
-        <link href="https://m.theblockbeats.info/flash/289552"/>
-        <updated>2025-04-13T14:53:20.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 13 日，据 CoinDesk 报道，摩根大通首席执行官 Jamie Dimon 表示，他正在准备应对近 30 万亿美元的美国国债市场的混乱，而美联储只有在他们开始有点恐慌时才会采取行动。美国国债市场在全球金融中扮演着核心角色，为从抵押贷款利率到公司债券收益率等所有市场因素定下基调。
-
-
-Jamie Dimon 警告称，如果金融系统再次陷入瘫痪，其后果可能会波及整个经济。美国国债市场动荡导致美联储干预，可能会促使一些投资者转向比特币（BTC），比特币通常被视为对冲货币不稳定的工具——2020 年的情况似乎如此，当时美联储采取了积极的刺激措施，比特币价格飙升。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国贸易代表格里尔：相信美国将在接下来的几周内与多个国家达成有意义的关税协议]]></title>
-        <id>https://m.theblockbeats.info/flash/289551</id>
-        <link href="https://m.theblockbeats.info/flash/289551"/>
-        <updated>2025-04-13T14:47:35.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 13 日，美国贸易代表格里尔表示，对电子产品的关税豁免反映了从对等关税转向国家安全关税的趋势。我们必须更加审慎地考虑半导体供应链。相信美国将在接下来的几周内与多个国家达成有意义的关税协议。(金十)]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[分析：若美债市场混乱迫使美联储干预或将促使投资者转向比特币]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/5r58kegn.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/5r58kegn.html"/>
-        <updated>2025-04-13T14:45:05.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月13日消息，据CoinDesk报道，摩根大通首席执行官Jamie Dimon正准备应对近30万亿美元的美国国债市场的混乱，而美联储只有在他们开始有点恐慌时才会采取行动，美国国债市场在全球金融中扮演着核心角色，为从抵押贷款利率到公司债券收益率等所有市场因素定下基调。Jamie Dimon警告称，如果金融系统再次陷入瘫痪，其后果可能会波及整个经济。
-美国国债市场动荡导致美联储干预，可能会促使一些投资者转向比特币（BTC），比特币通常被视为对冲货币不稳定的工具，2020年的情况似乎如此，当时美联储采取了积极的刺激措施，比特币价格飙升。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[观点：美债市场可能出现混乱迫使美联储干预，或将促使一些投资者转向比特币]]></title>
-        <id>https://www.odaily.news/newsflash/426947</id>
-        <link href="https://www.odaily.news/newsflash/426947"/>
-        <updated>2025-04-13T14:43:21.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 摩根大通首席执行官 Jamie Dimon 正准备应对近 30 万亿美元的美国国债市场的混乱，而美联储只有在“他们开始有点恐慌”时才会采取行动，美国国债市场在全球金融中扮演着核心角色，为从抵押贷款利率到公司债券收益率等所有市场因素定下基调。Jamie Dimon 警告称，如果金融系统再次陷入瘫痪，其后果可能会波及整个经济。
-美国国债市场动荡导致美联储干预，可能会促使一些投资者转向比特币（BTC），比特币通常被视为对冲货币不稳定的工具，2020 年的情况似乎如此，当时美联储采取了积极的刺激措施，比特币价格飙升。（CoinDesk）]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[过去24小时全网爆仓1.93亿美元，多空双爆]]></title>
-        <id>https://m.theblockbeats.info/flash/289550</id>
-        <link href="https://m.theblockbeats.info/flash/289550"/>
-        <updated>2025-04-13T14:42:07.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 13 日，据 Coinglass 数据，过去 24 小时全网爆仓 1.93 亿美元，多单爆仓 1.08 亿美元，空单爆仓 8497.62 万美元。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rugcard过去24小时交易量达2234万美元，位列BSC生态Meme币交易量排行榜第一]]></title>
-        <id>https://m.theblockbeats.info/flash/289549</id>
-        <link href="https://m.theblockbeats.info/flash/289549"/>
-        <updated>2025-04-13T14:34:21.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 13 日，BSC 生态 meme 币 Rugcard 24 小时交易量达 2234 万美元，位列 BSC 生态 Meme 币交易量排行榜第一。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国商务部长：美国对电子产品的关税豁免可能只是暂时的]]></title>
-        <id>https://m.theblockbeats.info/flash/289548</id>
-        <link href="https://m.theblockbeats.info/flash/289548"/>
-        <updated>2025-04-13T14:28:37.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 13 日，美国商务部长卢特尼克在接受采访时表示，智能手机、笔记本电脑和无线耳机等获得关税豁免的电子产品将被重新审查，这是政府对半导体行业调查的一部分。这些产品可能会被纳入对半导体行业的关税中，该行业关税可能在一两个月后出台。当被要求澄清 iphone 的关税是否会「在一个月左右恢复」时，卢特尼克回答说：「没错。我们需要我们的药品、半导体和电子产品在美国生产。」他的言论将加剧企业对特朗普关税举措的不确定性。特朗普的关税举措出现了一系列逆转，并在上周导致价值 29 万亿美元的美国国债市场出现大规模抛售。此外，卢特尼克还提到，制药行业关税将在下个月或两个月内出台。(金十)]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[苏格兰Lomond School宣布接受比特币支付并考虑建立比特币资产储备，成为英国首例]]></title>
-        <id>https://www.odaily.news/newsflash/426946</id>
-        <link href="https://www.odaily.news/newsflash/426946"/>
-        <updated>2025-04-13T14:21:22.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 苏格兰私立寄宿学校 Lomond School 宣布决定接受比特币支付，这意味着该校将成为英国第一所开始接受比特币支付的学校。据悉，Lomond School 将分阶段接受比特币并且会把收到的数字货币兑换成英镑，该校还表示在接受比特币时将确保完全遵守英国金融法规，同时如果比特币在英国的使用场景扩大将考虑建立比特币储备。（泰晤士报）]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
         </author>
     </entry>
 </feed>
