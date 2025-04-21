@@ -2,10 +2,277 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2025-04-21T04:15:41.970Z</updated>
+    <updated>2025-04-21T05:12:25.754Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vitalik长期L1执行层提案全文：用RISC-V取代EVM]]></title>
+        <id>https://m.theblockbeats.info/news/57838</id>
+        <link href="https://m.theblockbeats.info/news/57838"/>
+        <updated>2025-04-21T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：Long-term L1 execution layer proposal: replace the EVM with RISC-V
+原文来源：Vitalik Buterin
+原文编译：KarenZ，Foresight News
+
+
+4 月 20 日，Vitalik Buterin 在 Ethereum Magicians 平台提出一项关于以太坊长期 L1 执行层的重要提案。他建议采用 RISC-V 架构取代现有的 EVM（以太坊虚拟机）作为编写智能合约的虚拟机语言，旨在从根本上提升以太坊执行层的运行效率，突破当前主要的扩展瓶颈之一，同时大幅简化执行层的简洁性。
+
+
+Foresight News 对该提案进行了全文编译，旨在帮助读者了解这一技术设想。以下为提案原文的编译内容：
+
+
+本文提出了一个关于以太坊执行层未来的激进想法，其雄心程度不亚于共识层的 Beam Chain 计划。该提案旨在大幅提高以太坊执行层的效率，解决主要的扩展瓶颈之一，并显著简化执行层——事实上，这可能是实现这一目标的唯一途径。
+
+
+核心构想：用 RISC-V 取代 EVM，作为智能合约编写的虚拟机语言。
+
+
+重要说明：
+
+
+· 账户体系、跨合约调用、存储等概念将完全保留。这些抽象设计运作良好且开发者已习惯使用。SLOAD、SSTORE、BALANCE、CALL 等操作码将转变为 RISC-V 系统调用。
+
+
+· 在此模式下，智能合约可用 Rust 编写，但我预计多数开发者仍会继续使用 Solidity（或 Vyper）编写合约，这些语言将适配 RISC-V 作为新后端。因为用 Rust 编写的智能合约实际上可读性较差，而 Solidity 和 Vyper 更清晰易读。开发体验可能几乎不受影响，开发者甚至可能察觉不到变化。
+
+
+· 旧版 EVM 合约将继续运行，并与新版 RISC-V 合约完全…]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LUMO上涨突破0.015USDT，24H涨幅为127%]]></title>
+        <id>https://www.odaily.news/newsflash/427830</id>
+        <link href="https://www.odaily.news/newsflash/427830"/>
+        <updated>2025-04-21T04:54:02.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 LBank 行情显示：LBank 代币 LUMO 24H 内上涨突破 0.015USDT，最高触达 0.01507USDT，现报价 0.012USDT，24H 涨幅为 127%，自上线 LBank 以来，目前最大涨幅已达 1,169%，当前市值约为 1,200 万美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某鲸鱼增持6,528枚ETH，价值1069万美元]]></title>
+        <id>https://www.odaily.news/newsflash/427829</id>
+        <link href="https://www.odaily.news/newsflash/427829"/>
+        <updated>2025-04-21T04:49:42.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 OnchainLens 监测，25 分钟前某鲸鱼从 BitFinex 转出 6,528 枚 ETH，价值 1069 万美元。
+该鲸鱼目前已囤积 6,624 枚 ETH，价值 1083 万美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SOL/ETH汇率在今晨升至近3个月以来最高点]]></title>
+        <id>https://www.odaily.news/newsflash/427828</id>
+        <link href="https://www.odaily.news/newsflash/427828"/>
+        <updated>2025-04-21T04:48:06.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 OKX 行情显示，SOL/ETH 汇率在今晨升至近 3 个月以来的最高点，达 0.0885，随后下跌，现报价 0.0855。
+SOL/ETH 汇率此前在 1 月 19 日触及 0.093 的历史最高点。
+当前 SOL 价格为 140 美元，ETH 价格为 1634.87 美元]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EF新任董事：Vitalik的见解将加速重大长期突破，基金会将优先实现近期目标]]></title>
+        <id>https://m.theblockbeats.info/flash/290512</id>
+        <link href="https://m.theblockbeats.info/flash/290512"/>
+        <updated>2025-04-21T04:46:29.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 21 日，以太坊基金会执行董事 Tomasz K. Stańczak 表示，「随着以太坊基金会领导层最近的变化，将为 Vitalik 腾出更多时间进行研究和探索，而不是日常协调或危机应对。每次 Vitalik 分享见解或传达方向时，他都会加速重大长期突破。其最近关于 RISC-V 和 zkVMs 的帖子推进了有前景的研究方向，而他关于隐私的文章帮助社区重新聚焦于以太坊基金会的核心价值观。」
+
+
+「我要明确表示，Vitalik 的提案始终具有重要分量，但它们旨在开启讨论并推动困难研究领域的进展。社区审查可能会大幅修改甚至拒绝这些提案。我们希望其他研究人员也能享有同样的自由，他们通过提出尖锐问题和替代方案展现了勇气。保持专注至关重要，在基金会内部我们将把大部分研究工作转向近期目标，将在未来两个协议升级中解决用户体验和扩展性挑战。」
+
+
+「以太坊基金会正集中精力于：第一层扩容，对第二层扩容的支持，在 Pectra、Fusaka 和 Glamsterdam 升级中实现重大用户体验改进（包括互操作性）。同时正在探索如何提前推进那些目前看起来需要三到五年时间的项目，通过诸如新一代执行层和共识层等计划，帮助其中一些项目在一两年内落地。」
+
+
+BlockBeats 此前报道，以太坊基金会宣布全新的领导架构，自 3 月 17 日起，Hsiao-Wei Wang 和 Tomasz Stańczak 将担任联合执行董事。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[巨鲸从Bitfinex提取6528枚ETH，现持仓总值达1083万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/xiukwiqg.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/xiukwiqg.html"/>
+        <updated>2025-04-21T04:40:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月21日消息，据Onchain Lens追踪，约25分钟前一位巨鲸从Bitfinex提取6528枚ETH（约1069万美元），当前该地址共持有6624枚ETH，总价值约1083万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某鲸鱼增持6,528枚ETH，价值1069万美元]]></title>
+        <id>https://m.theblockbeats.info/flash/290511</id>
+        <link href="https://m.theblockbeats.info/flash/290511"/>
+        <updated>2025-04-21T04:40:47.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 21 日，据 OnchainLens 监测，25 分钟前某鲸鱼从 BitFinex 转出 6,528 枚 ETH，价值 1069 万美元。
+
+
+该鲸鱼目前已囤积 6,624 枚 ETH，价值 1083 万美元。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊基金会聚焦L1扩展与UX改进，Vitalik将专注研究方向]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/6wik67x5.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/6wik67x5.html"/>
+        <updated>2025-04-21T04:39:31.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月21日消息，以太坊基金会新任联合执行董事Tomasz K. Stańczak发文称，基金会将把研发重心转向L1扩展、L2支持与用户体验优化，涵盖Pectra、Fusaka与Glamsterdam等协议升级。Vitalik Buterin将减少日常协调工作，专注于研究推动，包括RISC‑V、zkVM与隐私方向。他强调Vitalik与其他研究员的提案为探索性内容，需社区讨论与审视，目标是加速以太坊未来突破。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美联储“放鹰”，美元指数创三年新低，BTC维持反弹态势（04.14~04.20）]]></title>
+        <id>https://www.odaily.news/post/5203147</id>
+        <link href="https://www.odaily.news/post/5203147"/>
+        <updated>2025-04-21T04:38:53.000Z</updated>
+        <summary type="html"><![CDATA[稳定币通道“抄底”资金大幅涌入，推动BTC走势强于纳指。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安将转移Alpha账户内数种代币至现货账户]]></title>
+        <id>https://www.odaily.news/newsflash/427827</id>
+        <link href="https://www.odaily.news/newsflash/427827"/>
+        <updated>2025-04-21T04:36:21.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方公告，币安将于 2025 年 4 月 22 日 16:00（UTC+8）至 2025 年 4 月 22 日 20:00（UTC+8）期间，将用户币安 Alpha 账户内以下代币转移至现货账户，代币包括 BIGTIME、VIRTUAL、ONDO、TUT、MUBARAK、BROCCOLI 等。
+用户将能够通过币安支持的网络进行上述代币的交易、存款或提现。此外，MONKY 仅支持提现功能。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊基金会执行董事：Vitalik提案旨在开启对话，社区评审有权否决]]></title>
+        <id>https://www.odaily.news/newsflash/427826</id>
+        <link href="https://www.odaily.news/newsflash/427826"/>
+        <updated>2025-04-21T04:33:49.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 以太坊基金会执行董事 Tomasz K. Stańczak 于 X 平台发文表示，随着以太坊基金会领导层的近期变动，我们的目标是让 Vitalik 有更多的时间用于研究和探索，而不是日常协调或危机应对。
+Vitalik 每次分享洞见或传达方向，都会加速重大的长期突破。他最近关于 RISC-V 和 zkVM 的文章推进了充满希望的开发途径，而他关于隐私的文章则帮助社区围绕以太坊基金会的核心价值观重新整合。我想明确指出，Vitalik 的提案始终具有影响力，但它们旨在开启对话，并鼓励在棘手的研究领域取得进展。社区评审可能会对提案进行重大修改，甚至将其否决。我们希望其他研究人员也能拥有同样的自由，他们勇于提出难题并提出替代方案，例如@drakefjustin 和@dankrad 。以太坊研究人员经常要求读者认识到他们帖子和提案的探索性。专注依然至关重要。在 EF 内部，我们将把大部分研究精力转向短期目标，力求在接下来的两次协议升级中解决用户体验和扩展性挑战。我们专注于 L1 扩展、L2 扩展支持以及 Pectra、Fusaka 和 Glamsterdam 升级中的重大 UX 改进（包括互操作性）。与此同时，我们正在探索如何提前完成目前预计三到五年后才能完成的项目。我们顶尖研究人员的论文通过诸如下一代执行和共识层等举措，帮助一些项目在一两年内完成交付。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币现货ETF上周净流入1585万美元，IBIT居首录得1.86亿美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5mma8b9m.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5mma8b9m.html"/>
+        <updated>2025-04-21T04:32:07.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月21日消息，据SoSoValue数据，4月14日至17日，比特币现货ETF录得净流入1585万美元。其中，贝莱德IBIT净流入1.86亿美元，为本周最大；富达FBTC净流出1.23亿美元，ARKB净流出9983万美元。截至目前，比特币现货ETF总资产净值达945.1亿美元，占比特币总市值5.59%，历史累计净流入达353.7亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币现货ETF上周净流入1585万美元，贝莱德比特币ETF IBIT周度净流入1.86亿美元居首]]></title>
+        <id>https://www.odaily.news/newsflash/427825</id>
+        <link href="https://www.odaily.news/newsflash/427825"/>
+        <updated>2025-04-21T04:31:28.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 根据 SoSoValue 数据，上周交易日（美东时间 4 月 14 日至 4 月 17 日）比特币现货 ETF 上周单周净流入 1585 万美元。
+上周单周净流入最多的比特币现货 ETF 为贝莱德（Blackrock）比特币 ETF IBIT，周度净流入 1.86 亿美元，目前 IBIT 历史总净流入达 397.5 亿美元。
+上周单周净流出最多的比特币现货 ETF 为富达（Fidelity）比特币 ETF FBTC，周度净流出为 1.23 亿美元，目前 FBTC 历史总净流入达 112.8 亿美元。其次为 Ark Invest 和 21Shares 的比特币 ETF ARKB，周度净流出为 9983 万美元，目前 ARKB 历史总净流入达 24.8 亿美元。
+截至发稿前，比特币现货 ETF 总资产净值为 945.1 亿美元，ETF 净资产比率（市值较比特币总市值占比）达 5.59%，历史累计净流出已达 353.7 亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊现货ETF上周单周净流出3217万美元，连续八周净流出]]></title>
+        <id>https://www.odaily.news/newsflash/427824</id>
+        <link href="https://www.odaily.news/newsflash/427824"/>
+        <updated>2025-04-21T04:30:45.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 根据 SoSoValue 数据，上周交易日（美东时间 4 月 14 日至 4 月 17 日）以太坊现货 ETF 上周单周净流出 3217 万美元。
+上周单周净流入最多的以太坊现货 ETF 为灰度 ETF ETH，周度净流入为 224 万美元，目前 ETH 历史总净流入达 5.70 亿美元。
+上周单周净流出最多的以太坊现货 ETF 为灰度（Grayscale）以太坊信托 ETF ETHE，周度净流出为 1877 万美元，目前 ETHE 历史总净流出达 42.4 亿美元。其次为富达（Fidelity）以太坊 ETF FETH，周度净流出为 1139 万美元，目前 FETH 历史总净流入达 13.6 亿美元。
+截至发稿前，以太坊现货 ETF 总资产净值为 52.7 亿美元，ETF 净资产比率（市值较以太坊总市值占比）达 2.76%，历史累计净流入已达 22.4 亿美元。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊现货ETF连续八周净流出，上周流出3217万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/4kq6u9f5.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/4kq6u9f5.html"/>
+        <updated>2025-04-21T04:30:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月21日消息，据SoSoValue数据，美东时间4月14日至17日，以太坊现货ETF单周净流出3217万美元，已连续八周录得净流出。灰度ETHE流出最多，达1877万美元；富达FETH流出1139万美元；灰度ETH则录得224万美元净流入。截至目前，ETF总资产净值为52.7亿美元，历史累计净流入达22.4亿美元，占以太坊市值2.76%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Syncorbit DApp启动最终测试]]></title>
+        <id>https://www.odaily.news/newsflash/427823</id>
+        <link href="https://www.odaily.news/newsflash/427823"/>
+        <updated>2025-04-21T04:29:48.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，Syncorbit DApp 现已全面进入上线前的最终测试环节，预计将于 5 月初正式上线。
+官方表示：“为了确保正式发行时提供最稳定、流畅、安全的应用体验，我们的团队正在夜以继日地进行最后的冲刺、测试和完善。”]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某Fartcoin鲸鱼低点加仓扭亏为盈，卖出269万枚代币获利12.7万美元]]></title>
+        <id>https://www.odaily.news/newsflash/427822</id>
+        <link href="https://www.odaily.news/newsflash/427822"/>
+        <updated>2025-04-21T04:27:34.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Lookonchain 监测，某 Fartcoin 鲸鱼低点加仓扭亏为盈，3 小时前以 0.92 美元的价格卖出 269 万枚 Fartcoin，价值 247 万美元，获利 12.7 万美元。
+此前该鲸鱼在持有 Fartcoin 亏损后，花费 14,725 枚 SOL（价值 198 万美元）以 0.89 美元的价格低点加仓，买入 222 万枚 Fartcoin 摊薄成本。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某Fartcoin鲸鱼低点加仓扭亏为盈，卖出269万枚代币获利12.7万美元]]></title>
+        <id>https://m.theblockbeats.info/flash/290510</id>
+        <link href="https://m.theblockbeats.info/flash/290510"/>
+        <updated>2025-04-21T04:20:35.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 21 日，据 Lookonchain 监测，某 Fartcoin 鲸鱼低点加仓扭亏为盈，3 小时前以 0.92 美元的价格卖出 269 万枚 Fartcoin，价值 247 万美元，获利 12.7 万美元。
+
+
+此前该鲸鱼在持有 Fartcoin 亏损后，花费 14,725 枚 SOL（价值 198 万美元）以 0.89 美元的价格低点加仓，买入 222 万枚 Fartcoin 摊薄成本。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分析师：比特币突破87,000美元，但谈牛市仍为时过早]]></title>
+        <id>https://www.odaily.news/newsflash/427821</id>
+        <link href="https://www.odaily.news/newsflash/427821"/>
+        <updated>2025-04-21T04:19:55.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 比特币价格在今日突破 87,000 美元，为 4 月 2 日以来首次。Kronos Research 分析师 Dominick John 表示，此轮上涨由全球流动性回升及机构买盘推动，Strategy 近期增持 BTC 亦是关键信号。尽管现货比特币 ETF 上周净流入达 1580 万美元，但分析师普遍认为，在美联储利率政策及特朗普关税不确定性仍存的背景下，当前谈论新一轮牛市“仍为时过早”。（The Block）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance将于4月22日转移多种Alpha账户代币至现货账户]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/k10ojk6n.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/k10ojk6n.html"/>
+        <updated>2025-04-21T04:18:23.000Z</updated>
+        <summary type="html"><![CDATA[PANews 4月21日消息，据Binance公告，平台将于4月22日16:00至20:00（北京时间）期间，将包括BIGTIME、VIRTUAL、ONDO等在内的多种代币从用户的Alpha账户统一转入现货账户。转移后用户将无法将代币转回Alpha账户，并可在现货账户进行交易、充值或提币。部分代币名称或单位将发生变化，MONKY仅支持提币功能。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solana质押市值短暂超越以太坊，Lido流动性质押占比居高引发中心化担忧]]></title>
+        <id>https://m.theblockbeats.info/flash/290509</id>
+        <link href="https://m.theblockbeats.info/flash/290509"/>
+        <updated>2025-04-21T04:17:50.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，4 月 21 日，据 Cointelegraph 报道，昨日 Solana 网络质押的 SOL 代币总价值短暂超越以太坊质押 ETH 的市值。链上数据显示，Solana 网络上有 505,938 个独立钱包质押价值 539 亿美元的 SOL，质押年化收益率为 8.31%；以太坊链上共有 3470 万枚 ETH 参与质押，价值 539.3 亿美元。
+
+
+32 枚 ETH（约 5 万美元）的高验证门槛导致大量质押者从节点质押转向流动性质押协议，是以太坊链上原生质押减少的关键原因。当前以太坊链上约 215 亿美元资金参与流动性质押，仅 Lido 就占据 88% 市场份额，加剧了对以太坊中心化的担忧，以太坊开发者正探索解决方案以促进质押去中心化。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[加密交易所平台币普涨，GT涨幅1.72%，BNB涨幅1.32%]]></title>
         <id>https://www.odaily.news/newsflash/427820</id>
@@ -16273,63 +16540,6 @@ Galaxy最近获得了在纳斯达克证券交易所直接上市的许可，预�
         <link href="https://www.odaily.news/newsflash/427388"/>
         <updated>2025-04-16T17:19:00.000Z</updated>
         <summary type="html"><![CDATA[Odaily星球日报讯 OKX 行情显示，SOL 突破 130 USDT，现报 130.02 USDT，24H 涨幅 0.49%。 （本条快讯由AI辅助生成）]]></summary>
-        <author>
-            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AERGO 24小时跌超52%，暂报0.2027美元]]></title>
-        <id>https://m.theblockbeats.info/flash/290035</id>
-        <link href="https://m.theblockbeats.info/flash/290035"/>
-        <updated>2025-04-16T16:59:42.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 17 日，据 HTX 行情信息，AERGO 24 小时跌超 52%，暂报 0.2027 美元。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美联储哈玛克：保持通胀预期受控是美联储的关键]]></title>
-        <id>https://m.theblockbeats.info/flash/290034</id>
-        <link href="https://m.theblockbeats.info/flash/290034"/>
-        <updated>2025-04-16T16:47:34.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 17 日，美联储哈玛克表示，保持通胀预期受控是美联储的关键，贸易政策由选举的官员决定，美联储则应对这些政策带来的影响。目前维持政策不变可能是「正确的做法」，保持稳健的政策是「积极的选择」。(金十)]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CNBC：美国海关称新关税政策已产生5亿美元收入，远低于特朗普的估计]]></title>
-        <id>https://m.theblockbeats.info/flash/290033</id>
-        <link href="https://m.theblockbeats.info/flash/290033"/>
-        <updated>2025-04-16T16:40:56.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 17 日，据 CNBC 报道，美国海关与边境保护局（CBP）表示：「自 4 月 5 日以来，CBP 已根据新的互惠关税征收超过 5 亿美元，使自 2025 年 1 月 20 日以来实施的 15 项总统贸易行动所带来的关税总收入超过 210 亿美元。」
-
-
-这项最新说明发布于一场持续 10 小时的金融系统故障之后。故障期间，美国进口商无法输入一项代码，本可使已经在海上运输途中的货物免于更高关税。即便在短暂的系统故障期间，CBP 平均每天 2.5 亿美元的收入流仍未中断。
-
-
-特朗普多次表示，美国每天通过关税获得 20 亿美元收入。但财政部周一发布的最新数据显示，当天在「海关与特定消费税」项下的每日存款仅为 3.05 亿美元。所有关税均由美国海关在入境口岸征收。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现货黄金突破3330美元/盎司，再创历史新高]]></title>
-        <id>https://m.theblockbeats.info/flash/290032</id>
-        <link href="https://m.theblockbeats.info/flash/290032"/>
-        <updated>2025-04-16T16:26:17.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，4 月 17 日，现货黄金延续涨势，突破 3330 美元/盎司，续创历史新高，较日低反弹约 100 美元，日内涨超 3%。(金十)]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[部分做市商通过代币借贷获利，可能“扼杀”加密货币项目]]></title>
-        <id>https://www.odaily.news/newsflash/427387</id>
-        <link href="https://www.odaily.news/newsflash/427387"/>
-        <updated>2025-04-16T16:17:46.000Z</updated>
-        <summary type="html"><![CDATA[Odaily星球日报讯 部分做市商正在将代币贷款变成一台盈利机器，并让小型加密项目陷入死亡螺旋。据悉，一种被称为“贷款期权模型”的做市商模式会让项目方向做市商出借代币，做市商再利用这些代币提供流动性、稳定价格，并协助项目上线加密交易平台。然而在幕后的运作中，一些做市商正在利用这种饱受争议的代币贷款结构为自己牟利，这些协议常常被包装成“低风险、高回报”，实则会严重打击代币价格，令刚起步的加密团队陷入混乱与挣扎。
-Givner Law 律所创始人 Ariel Givner 表示，“其运作方式是：做市商以某个约定价格从项目方借入代币，作为交换，他们承诺帮助这些代币上线大型交易平台，如果他们未能完成承诺，就需要在一年内以更高的价格偿还这些代币。”但现实中常常发生的情况是，做市商将借来的代币抛售，引发初步的价格暴跌。在代币价格被砸下去之后，他们再以低价回购代币从中获取利润。（Cointelegraph）]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
         </author>
