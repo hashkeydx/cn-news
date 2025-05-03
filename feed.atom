@@ -2,10 +2,128 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2025-05-03T06:14:52.611Z</updated>
+    <updated>2025-05-03T07:10:32.365Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Vitalik：5年后让以太坊变得像比特币一样简单，推动共识关键代码接近比特币的简洁程度]]></title>
+        <id>https://www.odaily.news/newsflash/429316</id>
+        <link href="https://www.odaily.news/newsflash/429316"/>
+        <updated>2025-05-03T07:00:17.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 以太坊联合创始人 Vitalik Buterin 发文《简化 L1》（Simplifying the L1），其中指出比特币的最大优点之一是其协议非常简单，从历史上看以太坊往往未能做到这一点（有时是出于其个人的考虑），导致以太坊过度的开发支出、各种安全风险，以及研发文化的孤立，Vitalik 希望五年后以太坊变得像比特币一样简单，包括：简化共识层、简化执行层、VM 过渡的向后兼容策略、通过共享协议组件进行简化。
+Vitalik 总结指出，简单性在很多方面与去中心化相似，两者都是韧性目标的上游，随着时间的推移，其好处会越来越明显——比特币本身就是一个很好的例子。Vitalik 建议为以太坊的长期规范设定一个明确的最大代码行数目标，使以太坊共识关键代码接近比特币的简洁程度。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crypto的“营销美学”]]></title>
+        <id>https://www.odaily.news/post/5203384</id>
+        <link href="https://www.odaily.news/post/5203384"/>
+        <updated>2025-05-03T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在Web3的世界里，营销不再仅仅是吸引用户，而是塑造和引领市场的关键力量。从NFT到SocialFi，名人币到DeFi，营销的策略逐渐向更广泛的受众和多样化的工具拓展。在这场竞争中，项目的成功不仅依赖于技术和创新，还依赖于如何用“情感”和“叙事”与用户建立联系。随着市场的逐步成熟，传统的营销策略正在与区块链的去中心化理念碰撞，形成一种独特的“营销美学”。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitalik发文提议简化以太坊L1，目标五年内协议简洁性接近比特币]]></title>
+        <id>https://m.theblockbeats.info/flash/292246</id>
+        <link href="https://m.theblockbeats.info/flash/292246"/>
+        <updated>2025-05-03T06:59:25.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，5 月 3 日，以太坊联合创始人 Vitalik Buterin 发布博客文章表示，以太坊的目标是成为「世界账本」：存储文明资产和记录的平台，金融、治理、高价值数据认证等的基础层。这需要两点：可扩展性和弹性。本帖的目标，是聚焦弹性（最终也关系到可扩展性）中的一个极其重要、但也很容易被低估的方面：协议的简洁性。比特币最棒的一点之一，正是它的协议设计极其简洁优雅，保持协议的简洁性有助于比特币或以太坊成为一个可信中立且全球信任的基础设施层。过去，以太坊在这方面往往做得不够，这篇文章接下来将讨论：未来五年，以太坊如何可以变得几乎像比特币一样简洁。
+
+
+简化共识层：新的共识层（原名「Beam 链」）旨在运用我们过去十年在共识理论、ZK-SNARK 开发、权益证明经济学以及其他领域积累的所有经验，为以太坊创建一个长期最优的共识层。该共识层的优势在于，它比现有的信标链要简洁得多。
+
+
+简化执行层：EVM 的复杂性日益增加，而这种复杂性的大部分已被证明是不必要的（在很多情况下是我的错），建议将 EVM 替换为 RISC-V，或者用其他可以编写以太坊 ZK 证明器的虚拟机。
+
+
+建议学习项目 tinygrad 的做法，为以太坊长期的技术规范设定一个「最大代码行数目标」，目标是让以太坊中与共识相关的关键代码尽可能接近比特币的简洁程度。涉及以太坊历史规则处理的代码仍将保留，但应避免进入共识关键路径。同时，我们也应在整体设计哲学中贯彻以下原则：在可能的情况下优先选择更简单的方案，倾向于「封装的复杂性」而非「系统性的复杂性」，并在设计决策中优先采用具有清晰可验证属性和保障的方案。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitalik：5年后让以太坊变得像比特币一样简单，推动共识关键代码接近比特币的简洁程度]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ys7drjaz.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ys7drjaz.html"/>
+        <updated>2025-05-03T06:58:53.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月3日消息，以太坊联合创始人Vitalik Buterin发文《简化L1》（Simplifying the L1），其中指出比特币的最大优点之一是其协议非常简单，从历史上看以太坊往往未能做到这一点（有时是出于其个人的考虑），导致以太坊过度的开发支出、各种安全风险 ，以及研发文化的孤立，Vitalik希望五年后以太坊变得像比特币一样简单，包括：简化共识层、简化执行层、VM过渡的向后兼容策略、通过共享协议组件进行简化。
+Vitalik总结指出，简单性在很多方面与去中心化相似，两者都是韧性目标的上游，随着时间的推移，其好处会越来越明显——比特币本身就是一个很好的例子。Vitalik建议为以太坊的长期规范设定一个明确的最大代码行数目标，使以太坊共识关键代码接近比特币的简洁程度。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pump.fun再次出售11万枚SOL，约合1689万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/oh2wyf53.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/oh2wyf53.html"/>
+        <updated>2025-05-03T06:54:27.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月3日消息，据 Onchain Lens 监测，pump.fun 再次出售 SOL。通过 4 个新建钱包从 Kraken 提取了 111,993 枚 SOL，并以均价 150.8 美元出售，换得 1689 万枚 USDC 和 USDT。
+pump.fun 总计已向 Kraken 转入 118,717 枚 SOL（约合 1786 万美元）。自上次更新以来，又新增转入了 13,484 枚 SOL。截至目前，其中的 111,993 枚 SOL 已被提取并出售。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本周美国以太坊现货ETF累计净流入1.068亿美元]]></title>
+        <id>https://m.theblockbeats.info/flash/292245</id>
+        <link href="https://m.theblockbeats.info/flash/292245"/>
+        <updated>2025-05-03T06:35:08.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，5 月 3 日，据 Farside 监测数据，本周美国以太坊现货 ETF 累计净流入 1.068 亿美元。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本周美国比特币现货ETF累计净流入18.051亿美元]]></title>
+        <id>https://m.theblockbeats.info/flash/292244</id>
+        <link href="https://m.theblockbeats.info/flash/292244"/>
+        <updated>2025-05-03T06:33:20.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，5 月 3 日，据 Farside 监测数据，本周美国比特币现货 ETF 累计净流入 18.051 亿美元，其中 4 个交易日为资金净流入状态。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitunix分析师：非农新增17.7万高于预期、薪资疲弱，BTC等待突破9.7万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/jq5x1tix.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/jq5x1tix.html"/>
+        <updated>2025-05-03T06:32:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 5月3日消息，5 月 3 日公布的非农报告显示，4 月新增就业 17.7 万，低于前月但高于预期，显示就业放缓但未如市场担忧般疲弱；失业率持稳在 4.2%，仍处高位。平均时薪月增 0.2%、年增 3.8%，薪资增长趋缓，通胀压力温和。FedWatch 显示 6 月降息机率降至 50%，市场对经济与政策路径仍存不确定。整体来看，就业数据不差但薪资乏力，联准会或仍保持观望，市场震荡加剧，比特币短线维持整理格局。
+Bitunix 分析师建议：
+数据表现矛盾，就业韧性与薪资放缓交错，BTC 短线仍受制于 9.7 万美元，需观察是否有量能突破；若降息预期再升温，关注美元与利率走势，灵活调整仓位。建议继续观察 FOMC 动向，并配置稳定币或黄金对冲政策与宏观风险。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pump.fun再次出售超11万枚SOL，约合1689万美元]]></title>
+        <id>https://www.odaily.news/newsflash/429315</id>
+        <link href="https://www.odaily.news/newsflash/429315"/>
+        <updated>2025-05-03T06:25:15.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 Onchain Lens 监测，pump.fun 再次出售 SOL，通过 4 个新建钱包从 Kraken 提取了 111,993 枚 SOL，并以均价 150.8 美元出售，换得 1689 万枚 USDC 和 USDT。
+pump.fun 总计已向 Kraken 转入 118,717 枚 SOL（价值约合 1786 万美元）。自上次更新以来，又新增转入了 13,484 枚 SOL。截至目前，其中的 111,993 枚 SOL 已被提取并出售。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pump.fun再次出售111,993枚SOL，约合1689万美元]]></title>
+        <id>https://m.theblockbeats.info/flash/292243</id>
+        <link href="https://m.theblockbeats.info/flash/292243"/>
+        <updated>2025-05-03T06:23:49.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，5 月 3 日，据 Onchain Lens 监测，pump.fun 再次出售 SOL。通过 4 个新建钱包从 Kraken 提取了 111,993 枚 SOL，并以均价 150.8 美元出售，换得 1689 万枚 USDC 和 USDT。
+
+
+pump.fun 总计已向 Kraken 转入 118,717 枚 SOL（约合 1786 万美元）。自上次更新以来，又新增转入了 13,484 枚 SOL。截至目前，其中的 111,993 枚 SOL 已被提取并出售。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美国会议员建议在联邦大楼安装加密ATM]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/5j62vy9q.html</id>
@@ -18451,16 +18569,6 @@ FTX清算团队声明强调，将全力追讨属于破产财团的数字资产�
         <summary type="html"><![CDATA[Odaily星球日报讯 据路透社报道，阿布扎比主权财富基金 ADQ、企业集团 IHC（IHC.AD）以及阿联酋最大资产规模银行第一阿布扎比银行（FAB.AD）周一宣布，计划推出一款以迪拉姆为支撑的新稳定币，迪拉姆是阿拉伯联合酋长国（阿联酋）的官方货币。三家公司在声明中表示，该稳定币将由阿联酋中央银行全面监管。此次举措标志着海湾国家在加密货币领域的投资进一步加深。]]></summary>
         <author>
             <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ETH突破1800美元，日内涨幅 2.28%]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/kzfbz47s.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/kzfbz47s.html"/>
-        <updated>2025-04-28T19:04:10.000Z</updated>
-        <summary type="html"><![CDATA[PANews 4月29日消息，欧易OKX行情显示，ETH刚刚突破1800美元，现报1803.55美元/枚，日内涨幅 2.28%。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
 </feed>
