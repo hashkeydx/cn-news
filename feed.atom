@@ -2,10 +2,180 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hashkeydx.github.io/cn-news/index.html</id>
     <title>BlockChain::FlashNews</title>
-    <updated>2025-06-08T05:11:55.588Z</updated>
+    <updated>2025-06-08T06:16:46.189Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://hashkeydx.github.io/cn-news/index.html"/>
     <link rel="self" href="https://hashkeydx.github.io/cn-news/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[分析：交易KOGE被夹损失4.7万美元用户设置50%滑点且未开启MEV防护]]></title>
+        <id>https://www.odaily.news/newsflash/433868</id>
+        <link href="https://www.odaily.news/newsflash/433868"/>
+        <updated>2025-06-08T06:13:10.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据 X 用户@litangsongyx 分析，今晨“交易 KOGE/USDT 单笔被夹 4.7 万美元”用户损失原因为，设置了近 50%滑点且未开启 MEV 防护。该用户单笔交易量 21 万美元，最终收到价值 16.1 万美元 KOGE，损失 4.7 万美元。因该用户交易量巨大，路由将其交易拆分成从 3 个流动性池成交：
+12 万美元交易量使用 Uniswap V4 流动性池；
+4.3 万美元交易量使用尾号 E507 的 Uniswap V3 流动性池；
+4.7 万美元交易量使用尾号 7057 的 PancakeSwap 流动性池；
+在交易通过尾号 7057 的 PancakeSwap 流动性池时，MEV 机器人使用一笔 32 万美元的交易将 KOGE 推到了极高的程度，导致该用户以极高成交价完成了交易。PancakeSwap 流动性池并未出现问题，流动性池只负责兑换，判断滑点交由订单路由。fromTokenAmount 参数表明用户想使用 214838 美元兑换 KOGE，minReturnAmount 参数表明用户想要收到的最低数量 KOGE 为 1640 枚，实际收到 2547 枚 KOGE，订单路由也未出错。
+问题出在设置滑点过高，214838 美元在当时约可兑换 3300 枚 KOGE，因设置最少收到数量为 1640 枚，可推测该用户滑点设置高达近 50%，且未开启 MEV 防护。该用户在 MEV 攻击后已将 KOGE 代币添加至 ZKJ-KOGE 流动性池以赚取费用。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分析：交易KOGE单笔被夹4.7万美元用户设置近50%滑点且未开启MEV防护]]></title>
+        <id>https://m.theblockbeats.info/flash/297373</id>
+        <link href="https://m.theblockbeats.info/flash/297373"/>
+        <updated>2025-06-08T06:07:32.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，6 月 8 日，据 X 用户 @litangsongyx 分析，今晨「交易 KOGE/USDT 单笔被夹 4.7 万美元」用户损失原因为，设置了近 50% 滑点且未开启 MEV 防护。该用户单笔交易量 21 万美元，最终收到价值 16.1 万美元 KOGE，损失 4.7 万美元。因该用户交易量巨大，路由将其交易拆分成从 3 个流动性池成交：
+
+
+12 万美元交易量使用 Uniswap V4 流动性池；
+4.3 万美元交易量使用尾号 E507 的 Uniswap V3 流动性池；
+4.7 万美元交易量使用尾号 7057 的 PancakeSwap 流动性池；
+
+
+在交易通过尾号 7057 的 PancakeSwap 流动性池时，MEV 机器人使用一笔 32 万美元的交易将 KOGE 推到了极高的程度，导致该用户以极高成交价完成了交易。PancakeSwap 流动性池并未出现问题，流动性池只负责兑换，判断滑点交由订单路由。fromTokenAmount 参数表明用户想使用 214838 美元兑换 KOGE，minReturnAmount 参数表明用户想要收到的最低数量 KOGE 为 1640 枚，实际收到 2547 枚 KOGE，订单路由也未出错。
+
+
+问题出在设置滑点过高，214838 美元在当时约可兑换 3300 枚 KOGE，因设置最少收到数量为 1640 枚，可推测该用户滑点设置高达近 50%，且未开启 MEV 防护。该用户在 MEV 攻击后已将 KOGE 代币添加至 ZKJ-KOGE 流动性池以赚取费用。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance Alpha上线Open Loot (OL)，积分空投门槛233分]]></title>
+        <id>https://m.theblockbeats.info/flash/297372</id>
+        <link href="https://m.theblockbeats.info/flash/297372"/>
+        <updated>2025-06-08T06:02:44.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，6 月 8 日，Binance Alpha 上线 Open Loot (OL)。
+
+
+至少拥有 233 分 Binance Alpha 积分的用户，可在 2025 年 6 月 8 日 14:00 起，在 Alpha 活动页面领取 1,836 枚 OL 代币的空投。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安Alpha将上线Open Loot（OL）]]></title>
+        <id>https://www.odaily.news/newsflash/433867</id>
+        <link href="https://www.odaily.news/newsflash/433867"/>
+        <updated>2025-06-08T06:01:51.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 据官方消息，币安 Alpha 将上线 Open Loot（OL）。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance Alpha 上线 Open Loot (OL)]]></title>
+        <id>https://www.panewslab.com/zh/articles/lx1qd9bg</id>
+        <link href="https://www.panewslab.com/zh/articles/lx1qd9bg"/>
+        <updated>2025-06-08T06:01:43.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月8日消息，据官方公告，Binance Alpha 现已上线 Open Loot (OL)。符合条件的币安用户，拥有至少 233 个币安 Alpha 积分，可以从 6 月 8 日东八区 14:00 起在Alpha 活动页面上申领 1836 个 OL 代币的空投。 申领 OL 空投将消耗 15 个币安 Alpha 积分。用户需要在申领开放后的 24 小时内完成申领，否则视为放弃领取空投。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[印度储备银行重申加密货币风险，并强调其立场保持不变]]></title>
+        <id>https://www.panewslab.com/zh/articles/erpnavd3</id>
+        <link href="https://www.panewslab.com/zh/articles/erpnavd3"/>
+        <updated>2025-06-08T05:50:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月8日消息，据 Times of India 报道，尽管最高法院反对禁令，但印度储备银行（RBI）仍对加密货币保持谨慎立场，称其可能对金融稳定和货币政策构成风险。一个政府委员会目前正在审查此事。RBI 还引入了一个新的监管框架，强调公众咨询、影响分析和定期审查，以适应不断变化的形势。
+此前消息，印度或将于6月发布加密资产监管讨论文件。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港财库局许正宇：稳定币通过区块链等可用作支付功能，持有人的赎回要求须在一个工作日内完成]]></title>
+        <id>https://www.panewslab.com/zh/articles/89wqpeho</id>
+        <link href="https://www.panewslab.com/zh/articles/89wqpeho"/>
+        <updated>2025-06-08T05:35:34.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月8日消息，据智通财经报道，6月6日，香港特区政府于宪报刊登《稳定币条例(生效日期)公告》，明确2025年8月1日为《稳定币条例》(第656章)实施日期。6月7日，香港财经事务及库务局局长许正宇在采访中表示，稳定币的底层是法定货币，日后可以电子资产形式，通过区块链等科技，用作支付功能。
+许正宇称，稳定币的发行人由香港金管局监管，而监管的大原则与传统金融资产相类似，相关发行人须符合储备资产管理及赎回等方面的规定，包括妥善分隔客户资产，当稳定币持有人提出赎回要求时，必须要一个工作日内完成，以满足用户要求。
+提到稳定币日后的应用场景，许正宇举例，由于稳定​​币具有支付特性，当有服务或工程在“一带一路”地区进行，而当地的货币汇率波动大或金融体系不太成熟，假如用当地的货币作支付会有一定风险，对方就可以使用稳定币作支付用途。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本周美国以太坊现货ETF净流入2.813亿美元，创2024年11月以来最长净流入周期]]></title>
+        <id>https://m.theblockbeats.info/flash/297371</id>
+        <link href="https://m.theblockbeats.info/flash/297371"/>
+        <updated>2025-06-08T05:34:48.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，6 月 8 日，据 Farside Investors 数据，本周美国以太坊现货 ETF 净流入 2.813 亿美元，连续 15 个交易日净流入，创下 2024 年 11 月以来最长净流入周期。其中：
+
+
+贝莱德 ETHA 净流入 2.493 亿美元；
+灰度 ETH 净流入 2520 万美元。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[星球午讯]]></title>
+        <id>https://www.odaily.news/newsflash/433864</id>
+        <link href="https://www.odaily.news/newsflash/433864"/>
+        <updated>2025-06-08T05:30:00.000Z</updated>
+        <summary type="html"><![CDATA[1. Tether CEO：若上市或将超越可口可乐市值，当前经营良好尚无上市必要；
+2. 分析师：公司市值暴跌 99%时，投资比特币或成最后选择；
+3. DWF Labs 一个多月内买入 7 种山寨币，总体浮亏约 13%；
+4. 两年前囤积比特币的巨鲸增持 250 枚 BTC，浮盈超 3900 万美元；
+5. 去中心化人工智能公司 RabitiAI 完成 500 万美元融资，Nortiyus 领投；
+6. T-Mobile 开始向数据泄露受害用户分发 3.5 亿美元和解金。]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港财库局许正宇：稳定币持有人赎回要求须在一个工作日内完成]]></title>
+        <id>https://m.theblockbeats.info/flash/297370</id>
+        <link href="https://m.theblockbeats.info/flash/297370"/>
+        <updated>2025-06-08T05:26:47.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，6 月 8 日，香港财经事务及库务局局长许正宇昨日在采访中表示，稳定币的底层是法定货币，日后可以电子资产形式通过区块链等科技用作支付功能。稳定币发行人由香港金管局监管，而监管的大原则与传统金融资产相类似，相关发行人须符合储备资产管理及赎回等方面的规定，包括妥善分隔客户资产，当稳定币持有人提出赎回要求时，必须要一个工作日内完成以满足用户要求。
+
+
+许正宇补充表示，由于稳定币具有支付特性，当有服务或工程在「一带一路」地区进行，而当地的货币汇率波动大或金融体系不太成熟，假如用当地的货币作支付会有一定风险，对方就可以使用稳定币作支付用途。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港财库局局长许正宇：稳定币持有人赎回要求必须一个工作日内完成]]></title>
+        <id>https://www.odaily.news/newsflash/433866</id>
+        <link href="https://www.odaily.news/newsflash/433866"/>
+        <updated>2025-06-08T05:21:55.000Z</updated>
+        <summary type="html"><![CDATA[Odaily星球日报讯 香港财库局局长许正宇昨日在某电台节目采访中表示，稳定币的底层是法定货币，日后可以电子资产形式，通过区块链等科技用作支付功能。许正宇称稳定币的发行人由香港金管局监管，而监管的大原则与传统金融资产相类似，相关发行人须符合储备资产管理及赎回等方面的规定，包括妥善分隔客户资产，当稳定币持有人提出赎回要求时，必须要一个工作日内完成，以满足用户要求。
+许正宇补充表示，由于稳定币具有支付特性，当有服务或工程在“一带一路”地区进行，而当地的货币汇率波动大或金融体系不太成熟，假如用当地的货币作支付会有一定风险，对方就可以使用稳定币作支付用途。（Aastocks）]]></summary>
+        <author>
+            <name>Odaily星球日报 | 区块链新闻数据资讯媒体</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[某用户或因未开启MEV防护，买入KOGE被夹损失4.7万USDT]]></title>
+        <id>https://www.panewslab.com/zh/articles/fwsr13v1</id>
+        <link href="https://www.panewslab.com/zh/articles/fwsr13v1"/>
+        <updated>2025-06-08T05:21:45.000Z</updated>
+        <summary type="html"><![CDATA[PANews 6月8日消息，据 @ai_9684xtpa 监测，地址 0x927...51721 在进行 KOGE/USDT 刷 Alpha 积分时，或因未开启 MEV 防护，被夹损失 4.7 万枚 USDT，仅买入 0.009 枚 KOGE，代币单价达 5181958 美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本周美国比特币现货ETF净流出1.316亿美元]]></title>
+        <id>https://m.theblockbeats.info/flash/297369</id>
+        <link href="https://m.theblockbeats.info/flash/297369"/>
+        <updated>2025-06-08T05:19:10.000Z</updated>
+        <summary type="html"><![CDATA[BlockBeats 消息，6 月 8 日，据 Farside Investors 数据，本周美国比特币现货 ETF 净流出 1.316 亿美元，其中：
+
+
+贝莱德 IBIT 净流入 8110 万美元；
+富达 FBTC 净流出 1.677 亿美元；
+ARKB 净流出 2450 万美元。]]></summary>
+        <author>
+            <name>contact@theblockbeats.org (律动BlockBeats)</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Metaplanet高管：日本应开放资本市场允许自由交易Strategy优先股]]></title>
         <id>https://www.odaily.news/newsflash/433865</id>
@@ -19828,39 +19998,6 @@ pump.fun 尚未对多次置评请求作出回应。]]></summary>
 
 
 此前早些时候，TRUMP 钱包官网信息显示，Magic Eden 与 TRUMP Meme 官方合作，共同开发 TRUMP 加密钱包。]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[马斯克：开支草案「让人感到厌恶」，国会正在让美国破产]]></title>
-        <id>https://m.theblockbeats.info/flash/296738</id>
-        <link href="https://m.theblockbeats.info/flash/296738"/>
-        <updated>2025-06-03T18:00:06.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，6 月 4 日，马斯克于社交平台发文称，「目前这项规模庞大、荒唐可笑、充斥着政治目的国会支出法案令人厌恶至极。那些投票支持的人是可耻的：你们知道自己做错了。这将使本已巨大的预算赤字大幅增加到 2.5 万亿美元，并使美国公民背负难以承受的债务负担。国会正在让美国破产。」]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美联储理事：关税可能导致类似滞胀的经济环境]]></title>
-        <id>https://m.theblockbeats.info/flash/296737</id>
-        <link href="https://m.theblockbeats.info/flash/296737"/>
-        <updated>2025-06-03T17:54:44.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，6 月 4 日，美联储理事库克表示，由于关税措施，预期通胀将上升，经济活动将放缓。关税可能导致类似滞胀的经济环境。
-
-
-关税可能对美联储的使命构成挑战，但仍需观察事态的发展。(金十)]]></summary>
-        <author>
-            <name>contact@theblockbeats.org (律动BlockBeats)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[特朗普将签署行政令，把钢铁和铝的关税加倍]]></title>
-        <id>https://m.theblockbeats.info/flash/296736</id>
-        <link href="https://m.theblockbeats.info/flash/296736"/>
-        <updated>2025-06-03T17:53:39.000Z</updated>
-        <summary type="html"><![CDATA[BlockBeats 消息，6 月 4 日，美国白宫表示，特朗普今日将签署行政令，把钢铁和铝的关税加倍；50% 的钢、铝进口关税明日生效。(金十)]]></summary>
         <author>
             <name>contact@theblockbeats.org (律动BlockBeats)</name>
         </author>
