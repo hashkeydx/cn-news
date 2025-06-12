@@ -5494,16 +5494,6 @@
           "wordCount": 1281,
           "title": "某用户或因未开启MEV防护，买入KOGE被夹损失4.7万USDT",
           "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
-        },
-        {
-          "id": "https://www.panewslab.com/zh/articles/1zae8kvt",
-          "author": null,
-          "description": "PANews 6月8日消息，据 Onchain Lens 监测，一位鲸鱼花费 467.58 枚 ETH（价值 118 万美元），购买了 889,283 枚 KTA。目前，该鲸鱼持有 392 万枚 KTA（价值 537 万美元），浮动盈利 227 万美元。",
-          "link": "https://www.panewslab.com/zh/articles/1zae8kvt",
-          "publishedOn": "2025-06-08T04:40:00.000Z",
-          "wordCount": 1270,
-          "title": "某鲸鱼买入88.9万余枚KTA，目前共持有392万枚KTA，浮盈227万美元",
-          "imageUrl": "https://image.panewslab.com/images/logo1.jpg"
         }
       ]
     },
@@ -5512,6 +5502,56 @@
       "feedUrl": "https://api.theblockbeats.news/v1/open-api/home-xml",
       "siteUrl": "https://www.theblockbeats.info",
       "articles": [
+        {
+          "id": "https://m.theblockbeats.info/flash/298166",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 13 日，据 Coinglass 数据显示，全网比特币期货合约未平仓头寸为 68.126 万枚 BTC（约合 734.1 亿美元）。\n\n\n其中 CME 比特币合约未平仓头寸为 15.307 万枚 BTC（约合 164.7 亿美元），位列第一；\n\n\nBinance 比特币合约未平仓头寸为 11.556 万枚 BTC（约合 124.5 亿美元），位列第二。",
+          "link": "https://m.theblockbeats.info/flash/298166",
+          "publishedOn": "2025-06-12T16:56:37.000Z",
+          "wordCount": null,
+          "title": "全网比特币合约未平仓头寸达734.1亿美元",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/flash/298165",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 13 日，据 Cointelegraph 报道，Coinbase 首席执行官 Brian Armstrong 表示，感谢特朗普为加密行业开启新时代，并呼吁将交易、创新和就业带回美国。",
+          "link": "https://m.theblockbeats.info/flash/298165",
+          "publishedOn": "2025-06-12T16:49:36.000Z",
+          "wordCount": null,
+          "title": "Coinbase CEO：感谢特朗普为加密开启新时代，呼吁加密产业回流美国",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/flash/298164",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 13 日，据 Bitcoin Magazine 报道，日本手机游戏工作室 Gumi 购入价值 10 亿日元（约 696 万美元）的比特币。",
+          "link": "https://m.theblockbeats.info/flash/298164",
+          "publishedOn": "2025-06-12T16:46:20.000Z",
+          "wordCount": null,
+          "title": "日本游戏制造商Gumi购入价值696万美元比特币",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/flash/298163",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "BlockBeats 消息，6 月 13 日，贝莱德 CEO 芬克表示，我近期没有离开的计划；对贝莱德的高级领导团队充满信心。(金十)",
+          "link": "https://m.theblockbeats.info/flash/298163",
+          "publishedOn": "2025-06-12T16:31:41.000Z",
+          "wordCount": null,
+          "title": "贝莱德CEO：近期没有离开的计划，对高级领导团队充满信心",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.theblockbeats.info/news/58576",
+          "author": "contact@theblockbeats.org (律动BlockBeats)",
+          "description": "原文作者：GoPlus 安全团队\n\n\n摘要\n\n\nGoPlus 安全模块 (GSM) 可原生集成至定制化 BNB Chain 节点客户端\n在 100 个真实攻击交易的复现测试中，GSM 成功拦截 97 个——检出率 97%\n过去一年可预防超 2200 万美元 的用户资产损失\n集成后单笔交易延迟增加 <40ms，在 1000 TPS 压力下零崩溃\n不同于钱包或 API 方案，GSM 无法被绕过，在交易进入内存池前完成拦截\n\n\nGSM：区块链客户端侧的安全防火墙\n\n\nGSM 是一个轻量级模块化 SDK 或 API 服务，可嵌入钱包、dApp、RPC 服务、Layer 2 定序器及全节点。其核心是在用户交易与 GoPlus 安全服务网络间建立桥梁：\n1、交易触发时，GSM 捕获交易数据并发送至 GoPlus 安全网络；\n2、GoPlus 通过 AI 算法实时分析风险（含交易数据及用户安全策略）；\n3、返回安全评估结果，GSM 执行放行或拦截操作。\n\n\n与传统 Web2 安全方案不同，GSM 直接构建在区块链层，在链上/链下环境间形成安全隔离边界。该架构：\n· 消除对外部 Web2 设施的依赖；\n· 解决传统安全中最薄弱的环节问题；\n· 即使 Web2 层 UI/UX 被攻破，用户资产仍受保护。\n\n\n本次测试将其直接集成至 BNB Chain 节点\n\n\nGSM 的双阶段交易过滤机制\n\n\n1️⃣ 内存池前交易筛查（哨兵防御）\n\n\n在交易通过 eth_sendRawTransaction 等 RPC 调用提交时，GSM 在进入内存池前即时扫描：\n· 目标：拦截明确恶意交易（如黑名单地址、已知恶意合约交互）\n· 优势：阻止有害交易传播，降低内存占用，节省节点资源\n\n\n2️⃣ 预打包上下文批处理分析\n\n\n在交易从 queued 队列态 转入 pending 待打包态前触发：\n\n\n· 目标：对…",
+          "link": "https://m.theblockbeats.info/news/58576",
+          "publishedOn": "2025-06-12T16:28:25.000Z",
+          "wordCount": null,
+          "title": "GSM在BNB Chain：解锁区块链层的原生安全能力",
+          "imageUrl": null
+        },
         {
           "id": "https://m.theblockbeats.info/flash/298162",
           "author": "contact@theblockbeats.org (律动BlockBeats)",
@@ -11961,36 +12001,6 @@
           "wordCount": null,
           "title": "本周美国比特币现货ETF净流出1.316亿美元",
           "imageUrl": null
-        },
-        {
-          "id": "https://m.theblockbeats.info/flash/297367",
-          "author": "contact@theblockbeats.org (律动BlockBeats)",
-          "description": "BlockBeats 消息，6 月 8 日，据 Onchain Lens 监测，某巨鲸花费 467.58 枚 ETH，约 118 万美元购买 889,283 枚 KTA 代币。\n\n\n目前该鲸鱼持有 392 万枚 KTA 代币，价值 537 万美元，浮盈 227 万美元。",
-          "link": "https://m.theblockbeats.info/flash/297367",
-          "publishedOn": "2025-06-08T04:36:28.000Z",
-          "wordCount": null,
-          "title": "某巨鲸花费467.58枚ETH增持KTA，约118万美元",
-          "imageUrl": null
-        },
-        {
-          "id": "https://m.theblockbeats.info/flash/297366",
-          "author": "contact@theblockbeats.org (律动BlockBeats)",
-          "description": "BlockBeats 消息，6 月 8 日，据《华盛顿邮报》援引知情人士报道，在特朗普与马斯克发生争吵后，NASA 和五角大楼的代表呼吁 Space X 的竞争对手，要求加快开发替代火箭和航天器。政府官员联系了至少三家商业航天公司：火箭实验室 (Rocket Lab)、斯托克空间技术公司 (Stoke Space) 和蓝色起源 (Blue Origin)，了解他们的火箭状态以及何时可以用于政府任务。\n\n\n马斯克此前表示可能会停止「龙」飞船的飞行，这将使 NASA 无法安排宇航员往返于国际空间站。马斯克此后放弃了该威胁，然而他的表态引起了 NASA 官员的担忧，五角大楼同样很大程度上依赖 Space X 发射其关键卫星。",
-          "link": "https://m.theblockbeats.info/flash/297366",
-          "publishedOn": "2025-06-08T04:33:06.000Z",
-          "wordCount": null,
-          "title": "特朗普马斯克争执升级，NASA和五角大楼正考虑Space X替代方案",
-          "imageUrl": null
-        },
-        {
-          "id": "https://m.theblockbeats.info/flash/297365",
-          "author": "contact@theblockbeats.org (律动BlockBeats)",
-          "description": "BlockBeats 消息，6 月 8 日，据 GMGN 行情数据，Base 链上代币 Keeta Network（KTA）市值突破 13.5 亿美元，现报 13.69 亿美元，创历史新高，24 小时涨幅 27.5%。\n\n\n据悉，Keeta Network 是一个高性能第一层区块链网络，目标支持跨链交易无缝完成，实现网络之间资产的直接即时转移。",
-          "link": "https://m.theblockbeats.info/flash/297365",
-          "publishedOn": "2025-06-08T04:27:34.000Z",
-          "wordCount": null,
-          "title": "KTA市值突破13.5亿美元创历史新高，24小时涨幅27.5%",
-          "imageUrl": null
         }
       ]
     },
@@ -11999,6 +12009,16 @@
       "feedUrl": "https://www.odaily.news/v1/openapi/odailyrss",
       "siteUrl": "https://www.odaily.news",
       "articles": [
+        {
+          "id": "https://www.odaily.news/newsflash/434571",
+          "author": null,
+          "description": "Odaily星球日报讯 日本游戏制造商 Gumi 宣布已完成 10 亿日元（约 696 万美元）的比特币购买，共计买入 80.352 枚比特币，平均价格为每枚比特币 12,430,257 日元，该公司表示未来将继续购买比特币。（Tipranks）",
+          "link": "https://www.odaily.news/newsflash/434571",
+          "publishedOn": "2025-06-12T16:48:55.000Z",
+          "wordCount": 1640,
+          "title": "日本游戏制造商Gumi买入80.352枚BTC，价值10亿日元",
+          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
+        },
         {
           "id": "https://www.odaily.news/newsflash/434570",
           "author": null,
@@ -19217,26 +19237,6 @@
           "publishedOn": "2025-06-08T05:21:55.000Z",
           "wordCount": 1702,
           "title": "香港财库局局长许正宇：稳定币持有人赎回要求必须一个工作日内完成",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/433865",
-          "author": null,
-          "description": "Odaily星球日报讯 Metaplanet 资本战略负责人奥野晋平（Shinpei Okuno）在 X 平台发文表示，优先股是日本尚未开发的资本市场领域，目前在日本几乎没有上市优先股的资本市场（可能仅有伊藤园、软银和 Infronia 三家）。\n奥野晋平补充称，优先股策略能够通过提供比特币支持的金融产品来吸引广泛的投资者，如果 Strategy 旗下优先股 STRF/STRK/STRD 等金融工具能够在日本资本市场上自由交易将是利好，因为采用比特币储备策略的公司最大潜力或许就在于能够打造以比特币为支撑的固定股息产品。",
-          "link": "https://www.odaily.news/newsflash/433865",
-          "publishedOn": "2025-06-08T05:01:06.000Z",
-          "wordCount": 1684,
-          "title": "Metaplanet高管：日本应开放资本市场允许自由交易Strategy优先股",
-          "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
-        },
-        {
-          "id": "https://www.odaily.news/newsflash/433863",
-          "author": null,
-          "description": "Odaily星球日报讯 据 Onchain Lens 监测，一鲸鱼花费约 467.58 枚 ETH（约 118 万美元）买入 88.9 万枚 KTA，当前持有 392 万枚 KTA，市值约 537 万美元，浮盈 227 万美元。",
-          "link": "https://www.odaily.news/newsflash/433863",
-          "publishedOn": "2025-06-08T04:37:23.000Z",
-          "wordCount": 1700,
-          "title": "鲸鱼花费约467枚ETH买入88万枚KTA，浮盈超227万美元",
           "imageUrl": "https://piccdn.0daily.com/202205/07035137/s29xjxxva9nzvyd5.png"
         }
       ]
